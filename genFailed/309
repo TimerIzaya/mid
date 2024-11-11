@@ -1,0 +1,8 @@
+const v2 = new Uint32Array(9);
+const v5 = new Int16Array(6);
+new BigInt64Array(2);
+new BigInt64Array(v2.filter(-9223372036854775807n, -2147483648n, -128, -52979), -1863823949, 2);
+try {
+    v5.copyWithin(-65535, -9223372036854775808, -65535);
+} catch(e26) {
+}

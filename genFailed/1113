@@ -1,0 +1,26 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [v1,v1,v1,f0,v1];
+const v3 = [v2];
+new Uint8ClampedArray(14);
+new Float32Array(2940);
+const v15 = new Int8Array(7);
+try { v15.with(7, v3); } catch (e) {}
+v15[7];
+class C19 extends v1.constructor {
+    #e;
+    static 1024 = Uint8ClampedArray;
+}
+const v20 = new C19();
+v20.length -= 2940;
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a25;
+    } catch(e26) {
+    }
+}
+const v27 = new F21(v1, C19, v2);
+new F21(v2, v27, v1);
+new F21(v3, 7, v1);

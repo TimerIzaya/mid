@@ -1,0 +1,46 @@
+function f0() {
+    const o9 = {
+        o(a5) {
+            return a5?.[191];
+        },
+        get e() {
+            super.e = -1518578423;
+            return -1518578423;
+        },
+        "e": "o",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+let v12 = f0();
+function f13(a14) {
+    const o18 = {
+        "c": v11,
+        "h": a14,
+        "d": v10,
+        __proto__: v10,
+        set g(a16) {
+            v12 = a16;
+        },
+        "e": v12,
+        "a": v11,
+    };
+    return o18;
+}
+const v19 = f13(v12);
+f13(v10);
+const v21 = f13(v12);
+new Float64Array(1024);
+new Float64Array(1531);
+const v30 = new Uint8ClampedArray(2264);
+const o31 = {
+};
+const v33 = new Proxy(Float64Array, o31);
+delete v12?.[2264];
+const v35 = [v12,v33,Float64Array];
+const v36 = [v35,v35,v35,v11,Float64Array];
+[v36,v21];
+let v38;
+try { v38 = v12(v36, 1024, v30); } catch (e) {}
+Reflect.construct(f13, [v19], v38);

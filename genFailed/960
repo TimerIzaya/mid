@@ -1,0 +1,54 @@
+class C3 {
+    ["d"];
+    static #m(a5) {
+        return -9007199254740991;
+    }
+    ["2"];
+    constructor(a10, a11) {
+        let v9 = this;
+        const t8 = "2";
+        t8[256] = a11;
+        v9 %= "2";
+        for (const v12 in a10) {
+            try { v12("d"); } catch (e) {}
+            try {
+                const t14 = "d";
+                t14.__proto__ = "-4294967296";
+            } catch(e14) {
+            }
+        }
+    }
+}
+const v15 = new C3("-4294967296", "d");
+const v16 = new C3("2", "d");
+const v17 = new C3("2", "2");
+class C18 {
+    ["d"];
+    constructor(a20, a21, a22) {
+        function F24(a26, a27) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = C3;
+            } catch(e28) {
+            }
+        }
+        new F24(v16, a22);
+        const v30 = new F24(v16, "d");
+        new F24(v17, v30);
+    }
+    1 = v16;
+    9;
+}
+const v32 = new C18("-4294967296", "-4294967296", C18);
+const v33 = new C18(v15, "2", v17);
+const v34 = new C18(v16, "2", "2");
+[v16,v32,v15,[v34,v34,v34,"-4294967296"],[v34,v33,v34,v32]];
+const v42 = ("d")["toUpperCase"]();
+let v43;
+try { v43 = new v42("toString", v42, v34, v15, "d"); } catch (e) {}
+let v44 = v43 < v43;
+v44 &= v44;
+function f45(a46, a47, a48) {
+    return a46;
+}
+f45("2", "unicode", v15);

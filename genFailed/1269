@@ -1,0 +1,44 @@
+const v3 = [11n];
+const v4 = [8n,8n];
+const v5 = [8n,11n];
+[11n,8n,v4,v3,11n];
+const v7 = [11n,8n];
+const v8 = [8n,v7,v5,8n,v3];
+function f9() {
+    return v8;
+}
+class C10 {
+    static [v5] = v3;
+    #toString(a12, a13) {
+        const o14 = {
+            "call": f9,
+            "construct": f9,
+            "defineProperty": f9,
+            "deleteProperty": f9,
+            "getOwnPropertyDescriptor": f9,
+            "getPrototypeOf": f9,
+            "has": f9,
+            "isExtensible": f9,
+            "ownKeys": f9,
+            "preventExtensions": f9,
+            "set": f9,
+            "setPrototypeOf": f9,
+        };
+        new Proxy(a13, o14);
+        return f9;
+    }
+}
+new C10();
+new C10();
+new C10();
+new C10();
+f9 += f9;
+const v21 = -v7;
+for (const v22 in v4) {
+    new C10();
+    11n instanceof C10;
+    const v25 = new C10();
+    let v26;
+    try { v26 = v3(8n, v25); } catch (e) {}
+    v26[f9] = v21;
+}

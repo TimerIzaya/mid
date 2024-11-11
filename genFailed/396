@@ -1,0 +1,44 @@
+class C3 {
+    #o(a5, a6) {
+        super["bigint"] = a5;
+        return a5;
+    }
+    static p(a11, a12) {
+        const t6 = "bigint";
+        t6[-9223372036854775807] <<= 31505;
+        const o13 = {
+        };
+        const v15 = new Proxy(this, o13);
+        return v15;
+    }
+}
+new C3();
+const v17 = new C3();
+new C3();
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a25;
+    } catch(e26) {
+    }
+    try {
+        this.g = 645335613n;
+    } catch(e27) {
+    }
+    try {
+        this.f = a25;
+    } catch(e28) {
+    }
+}
+const v29 = new F22(645335613n, 4n);
+const v30 = new F22(v17, 4n);
+new F22(v30, 5n);
+v17.c *= 31505;
+v29 - "bigint";
+const t36 = "bigint";
+t36[65536] = F22;
+let v37 = 1073741823;
+const v38 = v29 ^ 5n;
+Math.round(5n);
+v37--;
+Math.max(v38);

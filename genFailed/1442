@@ -1,0 +1,34 @@
+function f1() {
+    const o6 = {
+        ...true,
+        "e": true,
+        2147483648: true,
+        "a": true,
+        [true]() {
+            try { new this(true, this, true, this); } catch (e) {}
+            try {
+                this.fuck(true, true);
+            } catch(e5) {
+            }
+            return true;
+        },
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+const v9 = f1();
+function f10() {
+    return v9;
+}
+const v14 = [-270091694,-7,-7,f1];
+[v14,[true,v8,v14,v8,64]];
+[-7,-988377870,724909263,1073741823,255,-1703706276,-8,64];
+[-65536,3,-34922,-128,536870887,1];
+[2,536870888,-669397408,-9007199254740990];
+let v20 = 0;
+do {
+    v7.e;
+    Object.defineProperty(v7, 1566708126, { writable: true, enumerable: true, get: f10, set: f1 });
+    v20++;
+} while (v20 < 7)

@@ -1,0 +1,40 @@
+function f0() {
+}
+function f4() {
+    return 257;
+}
+function f5() {
+    return f4;
+}
+function f6() {
+    return -2147483649;
+}
+class C10 extends f5 {
+    o(a12, a13, a14, a15) {
+        this[a15] %= 257;
+        const v16 = `
+            new Uint8Array(1080);
+            new Int16Array(2588);
+            new Int16Array(544);
+        `;
+        eval(v16);
+        return f0;
+    }
+}
+const v28 = new C10();
+const v29 = new C10();
+const v30 = new C10();
+new BigInt64Array(7);
+const v36 = new Uint32Array(5);
+const v39 = new Uint16Array(16);
+let v40;
+try { v40 = v29.o(v39, v28, -2147483649, v39, v39); } catch (e) {}
+delete v36[v40];
+function f42(a43, a44, a45) {
+    const v46 = a44 >>> a44;
+    v46[5] = a45;
+    f0(257, f6, -1073741824n, C10, v46, f0);
+    return 393996046n;
+}
+const v48 = f42(-1073741824n, 393996046n, v30);
+v39[Symbol.species] = v48;

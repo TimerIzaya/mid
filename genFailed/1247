@@ -1,0 +1,72 @@
+let v1 = 9;
+let v2 = "boolean";
+class C3 {
+    static get h() {
+        function f5() {
+            function f7(a8) {
+                !v2;
+                v1 ^ v2--;
+                ++v1;
+            }
+            this.onmessage = f7;
+            this[2] = this;
+            const o15 = {
+                "apply": f7,
+                "construct": f7,
+                "defineProperty": f7,
+                "deleteProperty": f7,
+                "get": f7,
+                "getOwnPropertyDescriptor": f7,
+                "getPrototypeOf": f7,
+                "has": f7,
+                "isExtensible": f7,
+                "ownKeys": f7,
+                "preventExtensions": f7,
+                "set": f7,
+                "setPrototypeOf": f7,
+            };
+            new Proxy("setSeconds", o15);
+        }
+        const v20 = [];
+        const o21 = {
+            "arguments": v20,
+            "type": "function",
+        };
+        const v22 = new Worker(f5, o21);
+        return v22;
+    }
+}
+const v23 = new C3();
+const v24 = new C3();
+const v25 = new C3();
+function f29(a30, a31, a32) {
+    const o40 = {
+        [a30]: "string",
+        "c": "valueOf",
+        __proto__: v25,
+        valueOf(a34, a35) {
+            a32 < v2;
+            v25[536870887];
+            try {
+                new C3();
+            } catch(e39) {
+            }
+            return v24;
+        },
+        4096: v1,
+        "f": "valueOf",
+        [v1]: v1,
+    };
+    return o40;
+}
+f29("setSeconds", v24, "a");
+f29(v25, v1, "string");
+const v43 = f29(v24, "a", "setSeconds");
+let v48;
+try { v48 = v2["m"](v43, -4294967295, "m", v23, C3); } catch (e) {}
+try {
+    v48.toString = f29;
+} catch(e49) {
+}
+v1 = v2;
+Object.defineProperty("m", 1777472079, { writable: true, get: f29 });

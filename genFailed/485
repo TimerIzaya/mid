@@ -1,0 +1,23 @@
+function f3() {
+    return 8;
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a6;
+    } catch(e7) {
+    }
+}
+const v8 = new F4(65535);
+const v9 = new F4(65535);
+const v10 = new F4(-19052);
+let v13 = -15n;
+Object.defineProperty(v8, 65535, { writable: true, configurable: true, enumerable: true, get: f3 });
+delete v9[F4];
+const o15 = {
+};
+new Proxy(F4, o15);
+v10[3522];
+({"g":v13,} = v8);
+v8[v9] = 65535;
+f3();

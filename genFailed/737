@@ -1,0 +1,55 @@
+let v2 = 268435440;
+const v3 = [-53220,1886384956];
+const v4 = [681842477,-65537,-8,5];
+const v5 = [-142157333,-1842428429,4294967297,65535,-1237370357,0,1978281237];
+const v6 = [-65536,-65536,v3];
+const v7 = [v6,v3];
+const v8 = [-65536,-128,v6];
+function f9(a10, a11, a12) {
+    const o28 = {
+        __proto__: a11,
+        5: v2,
+        m(a14, a15) {
+            const v16 = this;
+            const v18 = Symbol.iterator;
+            const o27 = {
+                [v18]() {
+                    let v20 = 10;
+                    const o26 = {
+                        next() {
+                            v20--;
+                            const v24 = v20 == 0;
+                            const o25 = {
+                                "done": v24,
+                                "value": v20,
+                            };
+                            return o25;
+                        },
+                    };
+                    return o26;
+                },
+            };
+            return a12;
+        },
+    };
+    return o28;
+}
+const v29 = f9(-65536, v8, -65536);
+const v30 = f9(v2, v5, v2);
+f9(v2, v3, -128);
+function f32() {
+    return v4;
+}
+v2 <<= v2;
+let v33 = v7 & v4;
+[,v2,v33] = v6;
+v33 = v6;
+let v34;
+try { v34 = v2(v5, v30, v4, v5, v6); } catch (e) {}
+try { v8.pop(); } catch (e) {}
+delete v5?.length;
+v34[v29] = v29;
+try {
+    v4.length = -65536;
+} catch(e38) {
+}

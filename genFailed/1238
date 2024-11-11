@@ -1,0 +1,46 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -2;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v7 = [v4,F0,v4];
+const v8 = [v7,F0,v4,v7,v6];
+const v9 = [F0];
+function f10() {
+    return v9;
+}
+[-4.2485697618913745e+307,1.7976931348623157e+308];
+[-3.563151576042538e+307,-1e-15,-2.744338124215857,0.36028142933888585,916524.8229815478];
+[-5.828039182833695,0.10192696497562137,-174421.99295301328,-2.220446049250313e-16,2.0,3.865982022451985e+307,156.34224502026518,-4.0];
+class C14 extends f10 {
+    constructor(a16, a17) {
+        super();
+        new f10();
+        for (let v19 = 0; v19 < 32; v19++) {
+            v7["p" + v19] = v19;
+        }
+    }
+    static #d;
+    #a;
+    static d;
+    #b = v8;
+}
+const v22 = new C14(v7, v6);
+const v23 = new C14(v22, v5);
+new C14(v23, f10);
+async function f25(a26, a27) {
+    f10();
+    %PrepareFunctionForOptimization(f10);
+    f10();
+    f10();
+    %OptimizeMaglevOnNextCall(f10);
+    f10();
+    await v6;
+    return v7;
+}
+f25(v4, v4);

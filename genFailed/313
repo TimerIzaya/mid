@@ -1,0 +1,68 @@
+function f0() {
+}
+class C1 extends f0 {
+    toString() {
+        const v3 = this.__proto__;
+        try {
+            this.g = f0;
+        } catch(e4) {
+        }
+        return v3;
+    }
+    static [f0] = f0;
+    static #f;
+    [f0];
+}
+const v5 = new C1();
+const v6 = new C1();
+const v7 = new C1();
+class C8 extends f0 {
+    constructor(a10, a11) {
+        super();
+        [a11,[v7,a10,v5,[-128,v7,a10],a10]];
+    }
+    static [v5];
+    f;
+}
+const v18 = new C8(v6, v6);
+new C8(v6, v18);
+const v20 = new C8(C1, v5);
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a24;
+    } catch(e25) {
+    }
+}
+const v26 = new F21(v18, F21);
+const v27 = new F21(v26, C1);
+const v28 = new F21(v5, v27);
+const o29 = {
+};
+try {
+    o29.g = v18;
+} catch(e30) {
+}
+try {
+    const o31 = {
+    };
+    o31.g = v18;
+    o31.b = v20;
+} catch(e32) {
+}
+try {
+    const o33 = {
+    };
+    o33.g = v18;
+    o33.b = v20;
+    o33.h = v28;
+} catch(e34) {
+}
+try {
+    const o35 = {
+    };
+    o35.g = v18;
+    o35.b = v20;
+    o35.h = v7;
+} catch(e36) {
+}

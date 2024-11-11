@@ -1,0 +1,9 @@
+const v11 = new BigInt64Array(0);
+const v14 = new Float64Array(8);
+new Uint8Array(2);
+v14.length *= -2147483649;
+Reflect.construct(Float64Array, [-9223372036854775808], BigInt64Array);
+try {
+    Reflect.set(v11, "toString", /(?:ab)?/guiy);
+} catch(e24) {
+}

@@ -1,0 +1,25 @@
+const v0 = /^xxx$/;
+const v1 = /foo(?=bar)baz\c~a\n/dim;
+const v2 = /[\1(a)]/;
+function f9(a10, a11, a12, a13) {
+    const o25 = {
+        "h": 13n,
+        __proto__: a10,
+        [a12]: a12,
+        set g(a15) {
+            new Uint8Array(43);
+            new Float64Array(116);
+            new Uint8Array(256);
+        },
+    };
+    return o25;
+}
+f9(v1, -824, 13n, v2);
+const v27 = f9(v0, -824, 13n, v0);
+f9(v1, -824, 5n, v1) % -31509;
+v27.g ||= -4096;
+const o33 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o33);

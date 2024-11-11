@@ -1,0 +1,33 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -2309;
+    } catch(e3) {
+    }
+    try {
+        this.h = -2309;
+    } catch(e4) {
+    }
+    try {
+        this.e = -2309;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+new F0();
+new Uint8ClampedArray(10);
+const v21 = new BigInt64Array(267);
+const v24 = new Float32Array(12);
+[v24,10];
+const v26 = [v6,10n,12,Uint8ClampedArray,267];
+[0,v6,v7,v21,BigInt64Array];
+function f28() {
+    return v6;
+}
+Object.defineProperty(v26, v6, { writable: true, configurable: true, enumerable: true, value: Uint8ClampedArray });
+Object.defineProperty(v6, "g", { writable: true, set: f28 });
+let v30 = -9007199254740991;
+Math.asin(F0);
+--v30;
+Math.log(520307262);

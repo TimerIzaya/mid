@@ -1,0 +1,34 @@
+class C3 {
+    #f;
+    static #b = "undefined";
+    constructor(a5) {
+        try {
+            super.p(a5, this);
+        } catch(e7) {
+        }
+    }
+}
+const v11 = new C3(-1000000.0);
+const v12 = new C3(248247.76380632212);
+const v13 = new C3(v12);
+try {
+    v11.__proto__ = v11;
+} catch(e17) {
+}
+function f18(a19, a20, a21) {
+    function f23(a24) {
+        Object.defineProperty("undefined", "length", { value: a24 });
+        this[4294967296] = a19;
+    }
+    this.onmessage = f23;
+    try {
+        v11.fuck(a21, 6, 6, this);
+    } catch(e27) {
+    }
+}
+const v30 = [129n,v13,-1000000.0];
+const o31 = {
+    "arguments": v30,
+    "type": "function",
+};
+new Worker(f18, o31);

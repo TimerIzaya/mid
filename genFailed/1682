@@ -1,0 +1,21 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 268435440;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+for (const v16 of v6) {
+    %VerifyType(-3.0);
+    v4[-1000000000000.0];
+}
+let v18;
+try { v18 = new F0(0.7425109398161517, ...50732, -1000000000000.0, 28433, 0.7425109398161517); } catch (e) {}
+try { new v18(v18, 50732, v18, 1.7976931348623157e+308); } catch (e) {}
+try {
+    v4.fuck(1.7976931348623157e+308, undefined, -9.565116280316737e+306, -9.565116280316737e+306);
+} catch(e23) {
+}

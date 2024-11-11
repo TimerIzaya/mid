@@ -1,0 +1,26 @@
+new Map();
+const v5 = new Array(1);
+const v8 = new Float32Array(3166);
+new Int8Array(142);
+const v14 = new BigUint64Array(3021);
+const o15 = {
+    __proto__: v8,
+    "a": 3021,
+    ...v14,
+};
+function f16() {
+    return 1;
+}
+o15.length;
+const o18 = {
+    "call": f16,
+    "defineProperty": Array,
+    "get": Array,
+    "getOwnPropertyDescriptor": f16,
+    "getPrototypeOf": f16,
+    "isExtensible": Array,
+    "ownKeys": f16,
+    "set": Array,
+    "setPrototypeOf": Array,
+};
+new Proxy(v5, o18);

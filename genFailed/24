@@ -1,0 +1,30 @@
+class C3 {
+    static o(a5, a6) {
+        try {
+            a5.e = a6;
+        } catch(e7) {
+        }
+        return a6;
+    }
+    static #a;
+    constructor(a9, a10) {
+        (a9 = this) instanceof a10;
+        const o12 = {
+        };
+        new Proxy(a9, o12);
+    }
+}
+const v15 = new C3(4294967296, C3);
+const v16 = new C3(-32.98316500198496, v15);
+let v17 = new C3(1.7976931348623157e+308, 4294967296);
+new BigInt64Array(1000);
+const v23 = new Uint8ClampedArray(2);
+new Uint8Array(4);
+if (4 === v16) {
+    v23[0] = v23;
+} else {
+    delete v16[2264743979];
+}
+const v30 = v17.b;
+try { v30(v30, v17, 4294967296); } catch (e) {}
+v17 = v16;

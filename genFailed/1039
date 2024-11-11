@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 1024;
+    } catch(e3) {
+    }
+    try {
+        this.f = 1024;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+const v7 = new F0();
+const v8 = [18157595,1717438617];
+const v9 = [257,2];
+const v10 = [1310798879,-6];
+const v14 = 1073741825 << 1073741825;
+v8.length ^= v14;
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v14;
+    } catch(e20) {
+    }
+}
+new F15(v9, v10, v7);
+new F15(v9, v8, v5);
+new F15(v10, v9, v5);

@@ -1,0 +1,25 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = f0;
+    } catch(e3) {
+    }
+    try {
+        this.g = f0;
+    } catch(e4) {
+    }
+}
+new F1();
+const v6 = new F1();
+const v7 = new F1();
+const v16 = new Float32Array(2);
+new Uint8ClampedArray(1);
+new Uint8ClampedArray(2);
+if (862123117 != v16) {
+    Object.defineProperty(v6, v7, { writable: true, enumerable: true, get: f0 });
+} else {
+    Object.defineProperty(v6, 2, { configurable: true, set: f0 });
+}
+new f0();

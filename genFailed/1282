@@ -1,0 +1,53 @@
+function f0() {
+    const o4 = {
+        [128]: 8,
+        __proto__: "-5",
+        "c": 8,
+        "a": "-5",
+        "h": 128,
+        64: "-5",
+        [8]: "-5",
+        1: 8,
+        ..."-5",
+        "f": 8,
+        "d": "-5",
+    };
+    return o4;
+}
+f0();
+f0();
+const v7 = f0();
+const o19 = {
+    "maxByteLength": 3073,
+};
+const v21 = new SharedArrayBuffer(3073, o19);
+const v23 = new Float32Array(v21);
+const o24 = {
+};
+try {
+    o24.e = f0;
+} catch(e25) {
+}
+try {
+    const o26 = {
+    };
+    o26.e = f0;
+    o26.d = v7;
+} catch(e27) {
+}
+try {
+    const o28 = {
+    };
+    o28.e = f0;
+    o28.d = v7;
+    o28.g = v23;
+} catch(e29) {
+}
+try {
+    const o30 = {
+    };
+    o30.e = f0;
+    o30.d = v7;
+    o30.c = 7;
+} catch(e31) {
+}

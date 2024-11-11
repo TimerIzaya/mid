@@ -1,0 +1,29 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = f0;
+    } catch(e3) {
+    }
+    try {
+        this.h = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+new F1();
+new F1();
+let v13 = new Uint32Array(2);
+const v16 = new Int8Array(13);
+const v19 = new Uint8ClampedArray(12);
+v13[v5] = Uint8ClampedArray;
+Object.defineProperty(v19, Uint32Array, { writable: true, enumerable: true, get: f0 });
+throw Uint32Array;
+v16[Symbol.replace] = v13;
+v13 += v13;
+v13 === 2;
+var c = 13;
+for (let v23 = 0; v23 < 100; v23++) {
+    f0();
+}

@@ -1,0 +1,36 @@
+const v2 = new BigUint64Array(8);
+const v5 = new Int8Array(916);
+const v8 = new Float64Array(10);
+const v9 = [10];
+const v10 = [Float64Array,Int8Array,v9,v2,v2];
+const v11 = [916,v10,10,v10];
+function f12(a13, a14, a15) {
+    const o22 = {
+        "g": a13,
+        6: a14,
+        [a15]: v10,
+        "e": a15,
+        ...a14,
+        __proto__: a15,
+        set a(a17) {
+            v11["values"]();
+            a15 >= 916 ? a15 : 916;
+        },
+        ...v11,
+        ...v10,
+        "a": v8,
+    };
+    return o22;
+}
+f12(916, v9, v11);
+f12(10, Float64Array, v11);
+f12(10, v8, v11);
+v10 !== BigUint64Array;
+const v30 = v9 << 1500940580n;
+const o31 = {
+    "g": v30,
+    [1500940580n]: v5,
+    1907268957: v11,
+    "h": Float64Array,
+    ...v2,
+};

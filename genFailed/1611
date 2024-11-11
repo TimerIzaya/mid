@@ -1,0 +1,30 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -4;
+    } catch(e3) {
+    }
+    try {
+        this.d = -4;
+    } catch(e4) {
+    }
+    try {
+        this.e = -4;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+new F0();
+/((?:a{5,1000000}){3,1000000})/vdsy;
+/ffoo(?=bar)baz/vdisy;
+/a\nb\bc/gusy;
+const v15 = /((((.).).).)+/gmsy;
+/\x0fF(\xed\xb0\x80)\x01*/vd;
+/[(?:foo)(?: foo )]/vim;
+const o18 = {
+};
+new Proxy(v15, o18);
+const v23 = ("f").normalize("NFD");
+try { v7["trimStart"](v23, v6); } catch (e) {}
+v15[v23];

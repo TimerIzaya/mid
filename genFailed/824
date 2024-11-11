@@ -1,0 +1,33 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = f0;
+    } catch(e3) {
+    }
+    try {
+        this.c = f0;
+    } catch(e4) {
+    }
+    try {
+        this.d = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+let v7 = new F1();
+let v8 = new F1();
+let v11 = -7;
+f0();
+v11 = -1616133708;
+v8[v6];
+({"d":v7,"h":v8,} = v6);
+v8[f0] = v7;
+try {
+    v8.b = v7;
+} catch(e17) {
+}
+function f18() {
+    return 1073741824n;
+}

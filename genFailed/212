@@ -1,0 +1,29 @@
+let v0 = -12;
+class C3 {
+    static {
+        const v5 = this[this];
+        const v6 = delete v5?.[this];
+        Object.defineProperty("string", v6, { writable: true, enumerable: true, value: this });
+        v0 = v5;
+        super[v6];
+    }
+    #valueOf(a9, a10) {
+        const v12 = [];
+        Reflect.apply(("string").split, a10, v12);
+        return v12;
+    }
+}
+const v15 = new C3();
+new C3();
+new C3();
+const v23 = new Uint32Array(16);
+new Uint8Array(16);
+new Int8Array(449);
+const v31 = [v0,-32845921];
+Reflect.apply(("string").startsWith, v15, v31);
+try {
+    const o37 = {
+    };
+    v23.fill(o37, 10, -5);
+} catch(e41) {
+}

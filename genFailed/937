@@ -1,0 +1,53 @@
+const v0 = [];
+class C1 {
+    valueOf() {
+        const v3 = this in this;
+        try { new v3(); } catch (e) {}
+        return this;
+    }
+    a;
+    constructor() {
+        function f6(a7) {
+            Reflect.construct(a7, [Reflect,Reflect,Reflect,a7,a7], a7);
+            return this;
+        }
+        f6(v0);
+        Reflect.construct(f6, [Reflect], f6);
+    }
+}
+const v15 = new C1();
+const v16 = new C1();
+const v17 = new C1();
+function f24(a25, a26, a27) {
+    const o39 = {
+        "e": v15,
+        ...v16,
+        o(a29, a30, a31, a32) {
+            a30 - this;
+            return 726889.7494366956;
+        },
+        [v0](a35, a36) {
+            super.h **= a27;
+            try {
+                new C1();
+            } catch(e38) {
+            }
+            return v0;
+        },
+        196: 726889.7494366956,
+    };
+    return o39;
+}
+const v40 = f24(v16, v15, 726889.7494366956);
+const v41 = f24(v15, v16, 726889.7494366956);
+const v42 = f24(v17, C1, 726889.7494366956);
+const o43 = {
+    __proto__: v0,
+    ...v41,
+    "g": 3.0,
+    1448384780: 128n,
+};
+v42[3636] ^= 3.0;
+v41 & 128n;
+v15[1000] -= -1000000.0;
+delete v40[1];

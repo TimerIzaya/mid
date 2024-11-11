@@ -1,0 +1,56 @@
+function f0() {
+}
+let v2 = -1.7976931348623157e+308;
+class C5 {
+    constructor(a7) {
+        const v8 = this.constructor;
+        class C9 extends v8 {
+            #g = v8;
+        }
+        const v10 = new C9();
+        const v11 = [-0.5609857295755702,C9,-0.5609857295755702,this,C9];
+        [[this,,v11,v11,v10],f0];
+    }
+    #p(a15) {
+        -0.5609857295755702 | 5.0;
+        new f0();
+        new Float64Array(2344);
+        new BigInt64Array(844);
+        new Uint8Array(16);
+        return f0;
+    }
+}
+const v27 = new C5(-0.5609857295755702);
+const v28 = new C5(v2);
+const v29 = new C5(5.0);
+const v30 = [5.0,v29,v29,f0,v27];
+const v31 = [v27,v28,v2,5.0,C5];
+const v32 = [v31,v27,-0.5609857295755702,v31,v27];
+function f33(a34, a35, a36) {
+    const o46 = {
+        "a": C5,
+        "b": a35,
+        "f": v31,
+        "h": a36,
+        "c": v28,
+        m(a38, a39, a40) {
+            let v41;
+            try { v41 = a36.sign(v29, a39, a40, v2, -0.5609857295755702); } catch (e) {}
+            const v42 = v41?.[a34];
+            Reflect.construct(v42, [a34], v42);
+            return v41;
+        },
+        "d": a36,
+        "e": 5.0,
+    };
+    return o46;
+}
+const v47 = f33(v28, v31, v31);
+f33(f33(v29, v32, v30), v28, v27);
+function f50(a51, a52, a53, a54) {
+    new f33(a53, v32, a53);
+    return a51 != undefined;
+}
+f50(v47, v29, v47, v47);
+v29[undefined] = -0.5609857295755702;
+v2 &= 5.0;

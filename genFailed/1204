@@ -1,0 +1,74 @@
+const v0 = [];
+const v2 = new Map();
+function f3(a4, a5) {
+    const o12 = {
+        p(a7) {
+            let v8;
+            try { v8 = v0.flatMap(a7); } catch (e) {}
+            v8 = a7;
+            return Map;
+        },
+        ...v2,
+        get g() {
+            let v9 = this;
+            v9 += v9;
+            %VerifyType(a4);
+            try {
+                super.getInt32(v9, v9, v9, Map, a4);
+            } catch(e11) {
+            }
+            return v9;
+        },
+    };
+    return o12;
+}
+const v13 = f3(f3, Map);
+const v14 = f3(Map, v2);
+const v15 = f3(f3, v2);
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a21;
+    } catch(e22) {
+    }
+    try {
+        this.c = v2;
+    } catch(e23) {
+    }
+}
+const v24 = new F16(v13, v15, v13, v13);
+const v25 = new F16(v14, v14, v15, v15);
+const v26 = new F16(v15, v15, v24, v14);
+class C27 extends Map {
+    valueOf(a29, a30, a31, a32) {
+        [1912458695,4294967296,-65536,2083997949,-65536,8,-2125,1633222061];
+        [-65537,10,6,-9007199254740990,9,-1277877863];
+        [-2147483648,959321960,268435439,-35380097,43985,5,1902250078,-2147483647,2147483649];
+        return a30;
+    }
+    constructor(a37, a38, a39, a40) {
+        super(v13);
+        f3(a37, a40);
+        %PrepareFunctionForOptimization(f3);
+        f3(a37, a40);
+        f3(a37, a40);
+        %OptimizeMaglevOnNextCall(f3);
+        f3(a37, a40);
+    }
+}
+new C27(v14, v26, v14, v25);
+new C27(v24, v14, v14, v14);
+const v47 = new C27(v26, v25, v13, v25);
+function f48(a49, a50) {
+    function f52(a53) {
+        try { a53.valueOf(); } catch (e) {}
+    }
+    this.onmessage = f52;
+    Object.defineProperty(this, "c", { enumerable: true, get: f52, set: f3 });
+}
+const v57 = [v47,v2];
+const o58 = {
+    "arguments": v57,
+    "type": "function",
+};
+new Worker(f48, o58);

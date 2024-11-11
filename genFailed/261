@@ -1,0 +1,15 @@
+new Set();
+new Uint8ClampedArray(128);
+const v10 = new Float32Array(10);
+const v13 = new Int8Array(232);
+v13[4294967296] = 6;
+let v14;
+try { v14 = v10.join(128); } catch (e) {}
+let v15;
+try { v15 = v14.p(Uint8ClampedArray); } catch (e) {}
+try { v15.m(128, 10); } catch (e) {}
+const o22 = {
+    "maxByteLength": 400976716,
+};
+const v24 = new ArrayBuffer(255, o22);
+new BigUint64Array(v24);

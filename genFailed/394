@@ -1,0 +1,44 @@
+class C3 {
+    #m(a5, a6) {
+        ("number")[a6];
+        for (let v8 = 0; v8 < 32; v8++) {
+            a5["p" + v8] = v8;
+        }
+        return "number";
+    }
+    static #f;
+    static 10;
+    #g;
+    static #h;
+    ["symbol"] = "number";
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+const v14 = [257,128,-268435456,1003286945,2028763911];
+const v15 = [5,-1165301595,-2,9007199254740992,8];
+const v16 = [1073741824,-1,268435440,-51081];
+function f17() {
+    return "symbol";
+}
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a22;
+    } catch(e24) {
+    }
+    try {
+        this.g = a22;
+    } catch(e25) {
+    }
+}
+const v26 = new F18(v12, "number", v15, v15);
+const v27 = new F18(v15, v11, v14, v26);
+new F18(v27, v13, v16, v13);
+const v29 = -v14;
+const v31 = ("symbol")["padStart"](v29, "number");
+function f32(a33, a34) {
+    Reflect.construct(F18, [v16,"Iv",v31,Reflect], a33);
+    return arguments;
+}
+f32(v29, "symbol", v15);

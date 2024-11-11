@@ -1,0 +1,41 @@
+const v3 = ["string","object","4294967297"];
+[v3,"object",v3,"object"];
+const v5 = [v3,"4294967297","string",v3];
+function f12(a13, a14) {
+    const o21 = {
+        "c": a13,
+        "g": "object",
+        "b": a14,
+        [-28770]: "string",
+        [a14]: v5,
+        set d(a16) {
+            v5[a14] = a14;
+            const v17 = a16 % a16;
+            const v18 = [v17,v17];
+            [a16,v18,v18,"string","4294967297"];
+            [-65535,v17,"object"];
+        },
+        "h": "string",
+        "a": -28770,
+    };
+    return o21;
+}
+f12("string", "string");
+f12("string", -65535);
+f12("4294967297", v3);
+const o25 = {
+    "apply": f12,
+    "call": f12,
+    "construct": f12,
+    "defineProperty": f12,
+    "deleteProperty": f12,
+    "get": f12,
+    "getPrototypeOf": f12,
+    "has": f12,
+    "isExtensible": f12,
+    "ownKeys": f12,
+    "preventExtensions": f12,
+    "set": f12,
+    "setPrototypeOf": f12,
+};
+new Proxy("object", o25);

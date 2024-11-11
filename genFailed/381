@@ -1,0 +1,49 @@
+class C3 {
+    get h() {
+        function F5(a7, a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = this;
+            } catch(e9) {
+            }
+            try {
+                this.f = a8;
+            } catch(e10) {
+            }
+            try {
+                this.g = a8;
+            } catch(e11) {
+            }
+        }
+        const v12 = new F5(F5, -6363);
+        new F5(this, "boolean");
+        new F5(F5, v12);
+        return -6363;
+    }
+}
+new C3();
+new C3();
+new C3();
+new BigUint64Array(8);
+new Int32Array(451);
+const v29 = new BigUint64Array(3);
+v29[8] = v29;
+new C3();
+const v32 = Symbol.iterator;
+const o41 = {
+    [v32]() {
+        let v34 = 10;
+        const o40 = {
+            next() {
+                v34--;
+                const v38 = v34 == 0;
+                const o39 = {
+                    "done": v38,
+                    "value": v34,
+                };
+                return o39;
+            },
+        };
+        return o40;
+    },
+};

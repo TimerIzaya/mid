@@ -1,0 +1,46 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 255;
+    } catch(e3) {
+    }
+    try {
+        this.g = 255;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8(a9) {
+    const o13 = {
+        __proto__: v5,
+        ...v5,
+        "b": v7,
+        [F0]: v7,
+        [v6](a11) {
+            super[a9] = a11;
+            try {
+                this.valueOf = a11;
+            } catch(e12) {
+            }
+            a11 = v6;
+            return v5;
+        },
+    };
+    return o13;
+}
+f8(v7);
+f8(v5);
+const v16 = f8(v5);
+Object.defineProperty(v6, "e", { writable: true, configurable: true, get: f8 });
+let v23;
+try { v23 = v7.n(v5, v16, -65537); } catch (e) {}
+try {
+    v23.b = v23;
+} catch(e24) {
+}
+try {
+    new f8(v7);
+} catch(e26) {
+}

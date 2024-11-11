@@ -1,0 +1,38 @@
+const v3 = ["h","h","h"];
+const v4 = ["1018063255",v3];
+const v5 = [v3,"1018063255",v4,v3,"1018063255"];
+function f6(a7, a8) {
+    const o19 = {
+        "g": a7,
+        toString(a10, a11, a12, a13) {
+            try { a11(a12); } catch (e) {}
+            a12.__proto__;
+            return a7;
+        },
+        [a8]: a8,
+        "a": a8,
+    };
+    return o19;
+}
+const v20 = f6("h", "h");
+const v21 = f6("2", "2");
+f6("1018063255", "2");
+["2",v5,v4,f6,"h"];
+[v4,v3,"1018063255","1018063255",v20];
+["2",v20,"1018063255",v21,"2"];
+const v26 = f6("2", "1018063255");
+%PrepareFunctionForOptimization(f6);
+f6("2", "1018063255");
+const v28 = f6("2", "1018063255");
+%OptimizeFunctionOnNextCall(f6);
+f6("2", "1018063255");
+const t27 = "h";
+t27.length |= v28;
+let v31 = 268435441;
+Math.tan(v26);
+v26 ** v31;
+const v34 = -v31;
+v31 ^ v26;
+const v36 = v34 | v34;
+v31++;
+Math.log2(v36);

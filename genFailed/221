@@ -1,0 +1,43 @@
+new Map();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = Map;
+    } catch(e8) {
+    }
+    try {
+        this.a = a7;
+    } catch(e9) {
+    }
+}
+const v10 = new F5(-855591.9315117497);
+const v11 = new F5(v10);
+const v12 = new F5(v11);
+const v13 = [-4096,-31830,-4096,-1339354211,10];
+const v14 = [47340,388577365,1357646155,1073741825,976504430];
+const v15 = [7,268435440,-1623121097,1557655738,-65535,190089763,-2147483647,35327];
+class C16 {
+    constructor(a18, a19, a20, a21) {
+        ({"a":a19,} = a20);
+        Reflect.construct(a19, [v13,v14,delete a20[255]], Map);
+    }
+    static {
+        try { this(v10, -855591.9315117497, this, NaN); } catch (e) {}
+        const v28 = v12.a;
+        const v35 = +-4294967295;
+        Math.tan(v28);
+        Math.floor(1.11611982606404e+308);
+        Math.log2(v35);
+    }
+}
+const v39 = new C16(v15, v14, v11, v15);
+new C16(v13, v12, v11, v15);
+const v41 = new C16(v15, v39, v12, v15);
+for (let v42 = 0; v42 < 32; v42++) {
+    v15["p" + v42] = v42;
+}
+try {
+    new F5(v14);
+} catch(e46) {
+}
+v41[NaN] = C16;

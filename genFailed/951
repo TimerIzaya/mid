@@ -1,0 +1,37 @@
+class C3 {
+    static {
+        const o5 = {
+        };
+        new Proxy(this, o5);
+    }
+    toString(a9) {
+        super.c = -1000000000.0;
+        const v10 = super.c;
+        super[0.7549857960377944] = a9;
+        function F11(a13, a14, a15, a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = v10;
+            } catch(e17) {
+            }
+        }
+        new F11(v10, -1000000000.0, v10, a9);
+        const v19 = new F11(v10, -1000000000.0, 0.7549857960377944, F11);
+        const v20 = new F11(0.7549857960377944, 1000000000000.0, -1000000000.0, v19);
+        return v20;
+    }
+}
+const v21 = new C3();
+new C3();
+new C3();
+[NaN,-1000000.0];
+[-2.0,Infinity,-1.0,0.5849924788795415,1000000000000.0];
+[-5.0,-41188.84681817074,6.32546756686011e+307,-2.2250738585072014e-308,-5.0,-3.0,-1000.0,552752.5364160344];
+try {
+    C3.length = 472;
+} catch(e34) {
+}
+~v21;
+new Int16Array(2991);
+new Uint32Array(2);
+new Int8Array(9);

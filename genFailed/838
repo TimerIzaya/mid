@@ -1,0 +1,28 @@
+class C3 {
+    static [9007199254740991] = "bigint";
+    constructor(a5) {
+        let v6;
+        try { v6 = a5(this, this, this, a5); } catch (e) {}
+        v6[v6] = "boolean";
+        const o10 = {
+            "maxByteLength": 3762852072,
+        };
+        const v12 = new SharedArrayBuffer(4, o10);
+        new BigInt64Array(v12);
+    }
+}
+const v15 = new C3("bigint");
+new C3(v15);
+new C3(9007199254740991);
+new WeakMap();
+const v22 = new Int8Array(512);
+const v25 = new Uint32Array(3);
+const v28 = new BigInt64Array(257);
+function f29(a30, a31, a32) {
+    return 1073741824n;
+}
+f29(3, 9007199254740991, v28);
+try {
+    v22.lastIndexOf(v25, 16);
+} catch(e39) {
+}

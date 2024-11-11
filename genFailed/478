@@ -1,0 +1,15 @@
+new Int32Array(0);
+const v12 = new Uint8ClampedArray(257);
+const v15 = new Uint16Array(2);
+v15.buffer &= 129;
+let v16;
+try {
+const t0 = -8n;
+v16 = t0(0);
+} catch (e) {}
+if (v16) {
+    v12[10000n];
+    v12[v16] = Worker;
+} else {
+    Object.defineProperty(v12, 1090, { enumerable: true, value: v16?.[257] });
+}

@@ -1,0 +1,44 @@
+class C3 {
+    static 7;
+    [1262251025];
+    static #valueOf(a5) {
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        v9--;
+                        const v13 = v9 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+        return a5;
+    }
+}
+new C3();
+new C3();
+new C3();
+[1073741823,4294967295,1,-45246,9007199254740992,16,52194,-47626,1486643275,207240737];
+[128,386834812,42759,9007199254740991,-10];
+[5,946337967,-2,886609809,61056,1073741824,-256];
+const v25 = new Int16Array(1);
+new BigUint64Array(4096);
+const v31 = new Uint8ClampedArray(1024);
+%VerifyType(1262251025);
+const o32 = {
+    "c": 1,
+    ["unscopables"]: BigUint64Array,
+};
+o32 >= "unscopables";
+v25["reduceRight"](v31, Uint8ClampedArray);
+new Uint32Array(590);
+new Int32Array(9);
+new Uint32Array(9);

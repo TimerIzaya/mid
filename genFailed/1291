@@ -1,0 +1,44 @@
+function f3(a4, a5) {
+    const o12 = {
+        9: 4294967295n,
+        "e": a5,
+        [a5]: a5,
+        "c": 536870912n,
+        "h": a4,
+        valueOf(a7, a8) {
+            const v9 = a7?.[9];
+            try {
+                super.isSafeInteger(a7, this, 13n);
+            } catch(e11) {
+            }
+            return v9;
+        },
+    };
+    return o12;
+}
+const v13 = f3(536870912n, 536870912n);
+const v14 = f3(536870912n, 536870912n);
+f3(4294967295n, 4294967295n);
+class C16 {
+    constructor(a18, a19) {
+        try {
+            new f3(-44940n, a19);
+        } catch(e22) {
+        }
+    }
+    1000;
+    f = f3;
+    312 = v13;
+}
+const v23 = new C16(13n, 536870912n);
+const v24 = new C16(4294967295n, 13n);
+const v25 = new C16(v14, 13n);
+v24[1] = v25;
+for (const v26 of v24) {
+    v26 ** f3;
+    let {"a":v28,"f":v29,"g":v30,} = v26;
+}
+try {
+    v23.fuck(v14, -5, C16);
+} catch(e36) {
+}

@@ -1,0 +1,11 @@
+new Uint32Array(6);
+new Int8Array(10);
+new Uint8Array(268);
+function f9() {
+    return Int8Array;
+}
+let v16 = 0;
+do {
+    Object.defineProperty("string", -1, { configurable: true, enumerable: true, get: f9, set: f9 });
+    v16++;
+} while (v16 < 4)

@@ -1,0 +1,33 @@
+function f0() {
+}
+let v2 = -2147483649;
+class C4 extends f0 {
+    m(a6, a7) {
+        v2 = 12;
+        a6 = 536870889;
+        return 536870889;
+    }
+    static [v2] = f0;
+    f = 12;
+    set e(a9) {
+        a9?.c;
+        try {
+            f0();
+        } catch(e12) {
+        }
+    }
+}
+new C4();
+const v14 = new C4();
+const v15 = new C4();
+Object.defineProperty("setInt32", v14, { configurable: true, set: f0 });
+v14 >> v2;
+for (let v23 = 0; v23 < 32; v23++) {
+    const t25 = "-2147483649";
+    t25["p" + v23] = v23;
+}
+v15 / "setInt32";
+try {
+    new f0();
+} catch(e28) {
+}

@@ -1,0 +1,31 @@
+function f0() {
+    const o12 = {
+        "g": 127,
+        "c": -4294967297,
+        get h() {
+            return ("NEGATIVE_INFINITY")[Symbol.toPrimitive];
+        },
+        get d() {
+            super.h >>= 127;
+            for (let v9 = 0; v9 < 32; v9++) {
+                this["p" + v9] = v9;
+            }
+            return 127;
+        },
+    };
+    return o12;
+}
+f0();
+f0();
+f0();
+const v23 = new Set();
+function f24() {
+    return 2.220446049250313e-16;
+}
+const v30 = -734303505n + -734303505n;
+const v31 = +4294967295n;
+Math.tanh(756810767);
+const v33 = v30 ^ v31;
+v33 ^ v31;
+Math.imul(4294967295n, v33);
+v23[Symbol.toStringTag];

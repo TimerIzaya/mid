@@ -1,0 +1,33 @@
+const v0 = [425488313,-1432109503,-2147483647,512,1,-16,536870889];
+const v1 = [1,14130,536870889,128,-6,-536870912,1350213371];
+const v2 = [394358063,-6,268435441,-4096,958482557];
+class C3 {
+    get b() {
+        const v6 = Symbol.species;
+        this[v6];
+        function F8(a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = v1;
+            } catch(e13) {
+            }
+            try {
+                this.h = v0;
+            } catch(e14) {
+            }
+        }
+        new F8(v1, v0, this);
+        new F8(v1, v0, v6);
+        new F8(v2, this, this);
+        return v2;
+    }
+}
+new C3();
+new C3();
+const v20 = new C3();
+try { v1("d", C3, "YZ", v20); } catch (e) {}
+const o27 = {
+    "maxByteLength": 129,
+};
+const v29 = new SharedArrayBuffer(129, o27);
+new BigUint64Array(v29);

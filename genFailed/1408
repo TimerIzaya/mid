@@ -1,0 +1,56 @@
+class C3 {
+    e = "g8XY";
+    static a;
+    constructor(a5, a6) {
+        switch (a5) {
+            default:
+                const o7 = {
+                };
+                new Proxy(a5, o7);
+                break;
+        }
+    }
+    ["g8XY"] = "-10";
+}
+const v10 = new C3("g8XY", "g8XY");
+const v11 = new C3("-10", v10);
+const v12 = new C3("7NA", "g8XY");
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a20;
+    } catch(e21) {
+    }
+    try {
+        this.b = v11;
+    } catch(e22) {
+    }
+    try {
+        this.d = a20;
+    } catch(e23) {
+    }
+}
+const v24 = new F16(781445.9862110259, v11, v11);
+const v25 = new F16(781445.9862110259, v11, v11);
+const v26 = new F16(781445.9862110259, v11, v12);
+[v11,C3];
+[v24,3.912187537019247e+307];
+[781445.9862110259];
+function F30(a32, a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v11;
+    } catch(e36) {
+    }
+    try {
+        this.f = a35;
+    } catch(e37) {
+    }
+    try {
+        this.g = a33;
+    } catch(e38) {
+    }
+}
+const v39 = new F30("-10", v10, v25, "7NA");
+new F30("g8XY", v39, v25, "g8XY");
+new F30("g8XY", v12, v26, "7NA");

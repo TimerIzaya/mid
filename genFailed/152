@@ -1,0 +1,78 @@
+const v0 = [-52298,829648167,49687,-1,-6,65536];
+const v1 = [5,256,1248222089];
+const v2 = [33124,-1056877718,1073741824,-1604303169,3,33554,-2147483647,-128];
+class C3 {
+    constructor(a5, a6) {
+        this || this;
+        const v9 = Symbol.iterator;
+        const o18 = {
+            [v9]() {
+                let v11 = 10;
+                const o17 = {
+                    next() {
+                        v11--;
+                        const v15 = v11 == 0;
+                        const o16 = {
+                            "done": v15,
+                            "value": v11,
+                        };
+                        return o16;
+                    },
+                };
+                return o17;
+            },
+        };
+    }
+}
+const v19 = new C3(v0, v1);
+new C3(v2, v2);
+const v21 = new C3(v19, v19);
+class C22 extends C3 {
+    static o(a24, a25, a26, a27) {
+        v19.f &&= a24;
+        [-3.8177770666567373e+307];
+        [0.12908497892570436,Infinity,1e-15,0.6159023335920195,295.48452104065177,1000.0];
+        [-1e-15,-1000.0];
+        return arguments;
+    }
+    #b;
+    4;
+    [v1];
+    [C3] = C3;
+}
+const v32 = new C22();
+const v33 = new C22();
+const v34 = new C22();
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v33;
+    } catch(e41) {
+    }
+}
+const v42 = new F35(C3, v32, v34, v1);
+const v43 = new F35(v32, v33, v42, v0);
+new F35(C3, v43, v32, v2);
+v1[3083023733] -= v19;
+let v45 = 0;
+while (v45 < 9) {
+    function F49(a51, a52, a53, a54) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.g = a;
+        } catch(e55) {
+        }
+        try {
+            this.a = a;
+        } catch(e56) {
+        }
+        try {
+            this.h = a;
+        } catch(e57) {
+        }
+    }
+    const v58 = new F49(v21, v42, C3, v1);
+    const v59 = new F49(v58, v58, v58, v2);
+    new F49(v59, v59, a, v0);
+    v45++;
+}

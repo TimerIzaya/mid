@@ -1,0 +1,26 @@
+const v2 = new Float32Array(832);
+const v5 = new Uint8Array(14);
+const v8 = new Int32Array(68);
+class C9 {
+    o(a11, a12, a13, a14) {
+        typeof a12 === "bigint";
+        return v2;
+    }
+    static #h = v8;
+    [68] = v2;
+    1000 = Float32Array;
+    [v5] = v2;
+}
+new C9();
+const v19 = new C9();
+new C9();
+try {
+    v8.length = 832;
+} catch(e21) {
+}
+v19[8] = Float32Array;
+throw v2;
+try {
+    new Uint8Array(v5);
+} catch(e23) {
+}

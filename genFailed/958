@@ -1,0 +1,46 @@
+class C3 {
+    static 4 = "7928";
+    o(a5) {
+        2147483648 < super[a5];
+        class C8 {
+            #g;
+            static f;
+        }
+        new C8();
+        new C8();
+        new C8();
+        return C8;
+    }
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+class C15 {
+    o(a17, a18, a19, a20) {
+        new C3();
+        const v24 = [v13,[2147483648,v13,"7928"],a19,v12,a20];
+        [v24,v24];
+        return v14;
+    }
+    static #c = C3;
+    f = v12;
+    [C3] = v14;
+    #e;
+    h = v13;
+}
+new C15();
+new C15();
+new C15();
+%VerifyType("preventExtensions");
+const o32 = {
+};
+new Proxy("7928", o32);
+const o37 = {
+    valueOf() {
+        try {
+            v14.c = v12;
+        } catch(e36) {
+        }
+        return "22940";
+    },
+};

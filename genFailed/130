@@ -1,0 +1,33 @@
+class C3 {
+    10;
+    e = -2.2250738585072014e-308;
+    #a = -2.2250738585072014e-308;
+    constructor(a5, a6) {
+        try {
+            const t6 = "m";
+            t6.#a = a5;
+        } catch(e7) {
+        }
+    }
+    static #h = -1e-15;
+    static #f;
+    static #e = "m";
+    static 128;
+}
+new C3(C3, "m");
+const v9 = new C3(-2.2250738585072014e-308, -1e-15);
+new C3(-2.2250738585072014e-308, C3);
+new Uint8Array(133);
+const v16 = new BigUint64Array(103);
+const v19 = new Int32Array(127);
+%VerifyType(v19);
+const v20 = C3.__proto__;
+v19.every(133, ..."m", -2.2250738585072014e-308, -1e-15);
+try { v20(v16, 133, 133); } catch (e) {}
+let v23 = 1n;
+v23 = 268435439n;
+v9[v20] = v20;
+try {
+    new Uint8Array(C3);
+} catch(e27) {
+}

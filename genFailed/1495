@@ -1,0 +1,26 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 256;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f7() {
+    return v4;
+}
+const v10 = new Int16Array(9);
+new Int8Array(7);
+new Int32Array(255);
+new Uint32Array(5);
+const v22 = new Uint32Array(3270);
+new Int8Array(3254);
+Object.defineProperty(v22, 209, { writable: true, configurable: true, enumerable: true, get: f7, set: f7 });
+async function f26(a27, a28, a29, a30) {
+    await 5;
+    return v5;
+}
+f26(255, v10, v6, 3254);
+v6[31];

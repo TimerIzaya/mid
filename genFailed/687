@@ -1,0 +1,57 @@
+new Map();
+function f2(a3) {
+    const o11 = {
+        __proto__: a3,
+        3: a3,
+        "f": Map,
+        ...a3,
+        "d": a3,
+        [a3]: a3,
+        set h(a5) {
+            let v6 = 0;
+            do {
+                try { a3.o(Map, a5); } catch (e) {}
+                v6++;
+            } while (v6 < 8)
+        },
+    };
+    return o11;
+}
+f2(f2(f2));
+f2(Map);
+new Int8Array(203);
+const v23 = new Uint32Array(10);
+new Uint8ClampedArray(64);
+let [,,v27] = v23;
+for (let i29 = 0; i29 < 8; i29++) {
+    const v35 = 64 == i29;
+    const o36 = {
+    };
+    try {
+        o36.h = 64;
+    } catch(e37) {
+    }
+    try {
+        const o38 = {
+        };
+        o38.h = 64;
+        o38.f = 10;
+    } catch(e39) {
+    }
+    try {
+        const o40 = {
+        };
+        o40.h = 64;
+        o40.f = 10;
+        o40.a = v35;
+    } catch(e41) {
+    }
+    try {
+        const o42 = {
+        };
+        o42.h = 64;
+        o42.f = 10;
+        o42.e = i29;
+    } catch(e43) {
+    }
+}

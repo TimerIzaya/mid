@@ -1,0 +1,27 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 9223372036854775807;
+    } catch(e3) {
+    }
+    try {
+        this.c = 9223372036854775807;
+    } catch(e4) {
+    }
+    try {
+        this.a = 9223372036854775807;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new F0();
+new Map();
+const v14 = /n+/usy;
+const v15 = /(?:a+)*/vdim;
+const v16 = /(?<=a)?/gdi;
+new Array(15);
+let v23;
+try { v23 = v16.compile(v15); } catch (e) {}
+const v28 = `m${v23}valueOf${Array}T7Wg${v14[v14]}global${24890n}undefined`;
+v7[v28] = v28;

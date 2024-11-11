@@ -1,0 +1,71 @@
+function f0() {
+    const o15 = {
+        ..."a",
+        ..."a",
+        "h": -2.2250738585072014e-308,
+        "g": "a",
+        3666: -2.2250738585072014e-308,
+        ..."a",
+        "e": "a",
+        get a() {
+            Math.log1p(26197);
+            Math.trunc("a");
+            "a" ** 26197;
+            Math.clz32(this);
+            Math.atan("a");
+            Math.abs(-2.2250738585072014e-308);
+            return Math.tan(26197);
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+const v17 = f0();
+const v18 = f0();
+const v19 = [5,-4,-2006899403,-879944534,13,536870889,-15,536870887,26237,-12];
+const v20 = [-1073741824,-16,2277];
+const v21 = [1000,-1804609494,4294967297,5713,256,-80333454];
+const v22 = [3,2147483647,128,2,-55463,25243,-2122297812,9007199254740991,-9223372036854775807,1835615776];
+const v23 = [-268435456,-295110670,18349,609811216,-5,2147483647,14,-16,-822660986,-1982706098];
+const v24 = [-5,690227567,10,8873,-1,-12,24016];
+class C25 extends f0 {
+    [v22] = v21;
+    constructor(a27, a28, a29, a30) {
+        super();
+        try {
+            a27.toString = f0;
+        } catch(e31) {
+        }
+        try {
+            v20.__proto__ = v21;
+        } catch(e32) {
+        }
+    }
+    static [v19];
+    h;
+    #g;
+}
+const v33 = new C25(v21, v19, v24, v24);
+const v34 = new C25(v24, v23, v19, v20);
+const v35 = new C25(v19, v22, v20, v23);
+function F36(a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a38;
+    } catch(e41) {
+    }
+}
+const v42 = new F36(v33, v19, v18);
+const v43 = new F36(v17, v24, v18);
+const v44 = new F36(C25, v21, C25);
+v44.a <<= v43;
+const v45 = new F36(v16, v19, v34);
+function f46(a47, a48, a49) {
+    const o50 = {
+        "g": C25,
+        "d": v42,
+        [v19]: v45,
+    };
+    return o50;
+}
+f46(v43, v22, f46(v35, v22, f46(v18, v19, f46)));

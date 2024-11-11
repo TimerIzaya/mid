@@ -1,0 +1,31 @@
+const v0 = [12,-14,1634692719,-4096,47625,8,1073741823,-65535,702802519];
+const v1 = [4294967296,1000,-2147483648,475722889];
+const v2 = [-50532,-12903,65536];
+const v3 = [v2,v2,v2,v2,v2];
+const v4 = [v1,v2];
+const v5 = [v4,v3];
+function f6(a7, a8) {
+    const o17 = {
+        set d(a10) {
+            let v13 = 1000000000000.0;
+            57739 ** v3;
+            -v3;
+            v13--;
+        },
+        __proto__: v5,
+        "f": a8,
+    };
+    return o17;
+}
+f6(v1, v0);
+f6(v2, v4);
+f6(v5, v2);
+try {
+    new f6(undefined, v0);
+} catch(e23) {
+}
+const o26 = {
+    "maxByteLength": 1323,
+};
+const v28 = new SharedArrayBuffer(1323, o26);
+new Uint16Array(v28);

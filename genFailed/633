@@ -1,0 +1,15 @@
+const v2 = new Int32Array(255);
+const v5 = new Uint16Array(1000);
+new BigUint64Array(10);
+new Uint16Array(255);
+new Int16Array(3554);
+const v17 = new Uint8ClampedArray(16);
+new BigUint64Array(v17, 255, 1000);
+try {
+    v5.at(10);
+} catch(e20) {
+}
+try {
+    v2.length = 2;
+} catch(e22) {
+}

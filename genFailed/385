@@ -1,0 +1,29 @@
+const v2 = new Uint16Array(256);
+const v5 = new Uint8Array(128);
+new Uint32Array(1);
+const v9 = [4.0];
+const v10 = [0.0,-3.984713529152706,76619.31505388161,0.5093929749220671,1.0,0.02095427191933441];
+const v11 = [-4.3836621742736686,0.8108148317485909,-659787.5511468059,2.220446049250313e-16,-1.0];
+class C12 extends Uint32Array {
+    h;
+    static set g(a14) {
+        const v15 = super.buffer;
+        [[Uint16Array,a14,this,Uint16Array,[256,v15,a14,v10,v15]],v2,256];
+    }
+    b;
+    2;
+    static g = Uint32Array;
+    static 3 = v5;
+    static #g;
+    static [Uint32Array];
+}
+new C12();
+new C12();
+const v21 = new C12();
+%VerifyType(Uint16Array);
+let v22;
+try { v22 = v10.forEach(1, v11); } catch (e) {}
+function f23(a24, a25) {
+    new Uint16Array(v22, v9.length, a25, ...v5, ...v21, C12);
+}
+new Promise(f23);

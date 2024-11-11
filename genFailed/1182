@@ -1,0 +1,23 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static {
+        v1["has"](WeakSet, this, ..."has", "has", this, ..."has");
+        const o8 = {
+            "maxByteLength": 268435440,
+        };
+        const v10 = new SharedArrayBuffer(2316, o8);
+        new Uint8ClampedArray(v10);
+    }
+}
+new C2();
+const v14 = new C2();
+const v15 = new C2();
+new Map();
+with (v15) {
+    c = v14;
+    try {
+        v1.length = 2;
+    } catch(e22) {
+    }
+}
+Reflect.construct(WeakSet, [C2], Map);

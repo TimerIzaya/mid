@@ -1,0 +1,44 @@
+const v2 = new BigInt64Array(1024);
+const v5 = new Float64Array(9);
+const v8 = new Int32Array(13);
+new Uint8ClampedArray(64);
+new Float32Array(3865);
+new BigUint64Array(2);
+class C21 extends Float64Array {
+    [9];
+    static 945;
+    a = 13;
+}
+new C21();
+const v23 = new C21();
+new C21();
+v5[v23] = 1024;
+const o25 = {
+};
+try {
+    o25.f = v2;
+} catch(e26) {
+}
+try {
+    const o27 = {
+    };
+    o27.f = v2;
+    o27.b = v8;
+} catch(e28) {
+}
+try {
+    const o29 = {
+    };
+    o29.f = v2;
+    o29.b = v8;
+    o29.c = v2;
+} catch(e30) {
+}
+try {
+    const o31 = {
+    };
+    o31.f = v2;
+    o31.b = v8;
+    o31.h = v23;
+} catch(e32) {
+}

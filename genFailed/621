@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -1246248109;
+    } catch(e3) {
+    }
+    try {
+        this.a = -1246248109;
+    } catch(e4) {
+    }
+    try {
+        this.c = -1246248109;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+const v8 = new F0();
+let v9 = "d0";
+const v12 = [-1000000.0];
+const v13 = [2.220446049250313e-16];
+const v14 = [-4.0,0.0,-6.23569312737117e+307,0.8932745984169027,0.0,295.62934763524686,0.07871069122572405,4.0,0.5526437128450704,1.7976931348623157e+308];
+const v16 = new Set();
+function f17(a18, a19) {
+    const o26 = {
+        "f": a19,
+        "c": v14,
+        __proto__: "KXO",
+        "e": v8,
+        get d() {
+            const v21 = [a18,"bigint",a18,a18,this];
+            ["bigint",v21,v21,v16,Set];
+            [v21];
+            const v24 = Set * v21;
+            try { a18.o(v6, v12, v24, this); } catch (e) {}
+            return v24;
+        },
+        268435440: v6,
+    };
+    return o26;
+}
+const v27 = f17(v6, v12);
+f17(v8, v13);
+f17(v8, v12);
+v27.__proto__;
+const v34 = v6.c;
+v14 instanceof v34;
+9 + v34;
+Math.ceil(v34);
+Math.asin(65537);
+--v9;
+const v44 = 2.220446049250313e-16 >>> 65537;
+v44 << v44;

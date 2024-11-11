@@ -1,0 +1,97 @@
+function f0() {
+    const o16 = {
+        268435456: 4294967295,
+        "c": Infinity,
+        __proto__: Infinity,
+        ...Infinity,
+        [Infinity]: 1.0,
+        ...1.0,
+        toString(a5, a6) {
+            try {
+                const o7 = {
+                };
+                try {
+                    o7.c = this;
+                } catch(e8) {
+                }
+                try {
+                    const o9 = {
+                    };
+                    o9.c = this;
+                    o9.g = 4294967295;
+                } catch(e10) {
+                }
+                try {
+                    const o11 = {
+                    };
+                    o11.c = this;
+                    o11.g = 4294967295;
+                    o11.d = a5;
+                } catch(e12) {
+                }
+                try {
+                    const o13 = {
+                    };
+                    o13.c = this;
+                    o13.g = 4294967295;
+                    o13.d = this;
+                } catch(e14) {
+                }
+            } finally {
+                a6[a6] = a6;
+                delete this[2629];
+            }
+            return a5;
+        },
+    };
+    return o16;
+}
+const v17 = f0();
+const v18 = f0();
+const v19 = f0();
+class C20 extends f0 {
+    static n(a22, a23) {
+        ("45066").normalize("NFKC");
+        delete v19[0];
+        typeof "NFKC" === "undefined";
+        return f0;
+    }
+    [v19];
+    g = f0;
+    a = v18;
+    #a;
+    #e;
+}
+const v31 = new C20();
+const v32 = new C20();
+const v33 = new C20();
+class C34 extends f0 {
+    [v33] = v33;
+    [C20] = v33;
+    [v17] = v33;
+    [v19] = v17;
+    constructor(a36, a37) {
+        super();
+        new WeakMap();
+    }
+    #valueOf(a41, a42) {
+        try {
+            v32.g = f0;
+        } catch(e43) {
+        }
+        return v19;
+    }
+}
+new C34(v32, v31);
+const v45 = new C34(v33, v17);
+new C34(v31, C34);
+try {
+    f0();
+} catch(e52) {
+}
+try {
+    v31.__proto__ = C20;
+} catch(e53) {
+}
+C20[2579];
+v17["toString"](-40081n, v33, v17, ..."toString", ..."toString", v45);

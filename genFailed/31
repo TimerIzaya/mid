@@ -1,0 +1,23 @@
+let v1 = 536870912n;
+function f3() {
+    return 3n;
+}
+new Float32Array(6);
+new Uint8ClampedArray(7);
+const v12 = new Int8Array(10);
+const v13 = [f3];
+[v13,Float32Array,v1,Float32Array,v13];
+const v15 = [v12,Uint8ClampedArray,v1];
+const v18 = ++v1;
+let v19 = --v1;
+const v20 = ++v19;
+Math.sqrt(v18);
+536870889 - v20;
++v20;
+Math.imul(v13, 536870889);
+const o25 = {
+    "getOwnPropertyDescriptor": f3,
+    "isExtensible": f3,
+    "preventExtensions": f3,
+};
+new Proxy(v15, o25);

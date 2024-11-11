@@ -1,0 +1,48 @@
+function f3(a4) {
+    const o8 = {
+        [9]: a4,
+        3: 9,
+        __proto__: a4,
+        get d() {
+            this[-4096] = this;
+            super[512] = this;
+            this[a4];
+            return a4;
+        },
+    };
+    return o8;
+}
+const v9 = f3(f3);
+const v10 = f3(-4096);
+const v11 = f3(f3);
+function f12(a13, a14, a15, a16) {
+    const o17 = {
+        "g": a16,
+        __proto__: v10,
+        ...v9,
+        [a15]: f3,
+        [f3]: a15,
+        "e": a15,
+        ...v11,
+        132: 9,
+        "b": 512,
+        "d": -4096,
+    };
+    return o17;
+}
+const v18 = f12(v10, 9, v10, 9);
+const v20 = f12(v9, f12(v18, f12, v10, 512), v11, -4096);
+function f21(a22) {
+    return a22;
+}
+class C23 extends f21 {
+    [v18] = v20;
+    #e;
+}
+const v28 = -4096 >>> -2.220446049250313e-16;
+const v29 = C23 | 13;
+const v30 = ~C23;
+Math.cos(v28);
+Math.tanh(129);
+13 && v29;
+v30 ^ v29;

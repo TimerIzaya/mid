@@ -1,0 +1,43 @@
+class C3 {
+    set h(a5) {
+        const v7 = Symbol.toPrimitive;
+        const v8 = this[v7];
+        %VerifyType(-4294967296);
+        Reflect.construct(v8, [v8,v7], v8);
+    }
+    static [-4294967296] = -4294967296;
+    3133 = 1e-15;
+    c;
+    #f;
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+class C15 extends C3 {
+    [1e-15] = -4294967296;
+    10000 = "MIN_VALUE";
+    constructor(a17, a18, a19) {
+        super();
+        /[\0]/vy;
+        /[\cz]ul2/gumy;
+        /(?:ab)[\p{gc=Nd}(?:foo)a^2l\p{Changes_When_NFKC_Casefolded}]?/vms;
+        const o25 = {
+            "maxByteLength": 268435441,
+        };
+        const v27 = new ArrayBuffer(8, o25);
+        new BigInt64Array(v27);
+    }
+}
+new C15(v12, v14, v12);
+new C15(C3, v13, v12);
+new C15(v13, v14, v13);
+new Int8Array(2296);
+new Float32Array(1352);
+new Uint8ClampedArray(311);
+let v44 = 587652985;
+Math.acos(Int8Array);
+Math.acos(Int8Array);
+Math.atan2(Int8Array, Int8Array);
+Int8Array % v44;
+let v50 = v44++;
+++v50;

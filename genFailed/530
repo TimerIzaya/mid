@@ -1,0 +1,36 @@
+const v1 = new Set();
+function f2() {
+    return v1;
+}
+function f3(a4) {
+    const o5 = {
+        "g": a4,
+        ...v1,
+        [a4]: v1,
+        __proto__: a4,
+        "d": v1,
+        "e": a4,
+        "h": Set,
+        ...a4,
+        "a": f2,
+        6: v1,
+        "f": Set,
+        "b": v1,
+        2147483648: Set,
+    };
+    return o5;
+}
+const v6 = f3(v1);
+f3(f3(f2));
+for (let v15 = 0; v15 < 100; v15++) {
+    f2();
+}
+if ("boolean" < v6) {
+    f2();
+    try {
+        ("boolean").trimEnd();
+    } catch(e20) {
+    }
+} else {
+    "boolean" != v1 ? "boolean" : v1;
+}

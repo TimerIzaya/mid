@@ -1,0 +1,33 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -11;
+    } catch(e10) {
+    }
+}
+const v11 = new F6(-268435456, 226967230);
+new F6(-11, -268435456);
+const v13 = new F6(-268435456, -268435456);
+class C14 extends F6 {
+    static 4;
+    a = v13;
+    get d() {
+        Object.defineProperty(v13, 536870887, { configurable: true, value: F6 });
+        try {
+            super.setUTCSeconds(this, -11, F6, v11);
+        } catch(e17) {
+        }
+        return -11;
+    }
+    static c = -268435456;
+}
+new C14();
+new C14();
+new C14();
+for (const v22 of C14.__proto__) {
+    v22 >> v22;
+    let v28 = v22 * 10000;
+    Math.log(1073741824);
+    const v30 = --v28;
+    v30 ** v30;
+}

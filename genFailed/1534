@@ -1,0 +1,34 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -1100035031;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+new F0();
+new WeakSet();
+new WeakMap();
+const o20 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o20);
+v5[10000] += 0.29750837915982964;
+const o22 = {
+    "apply": gc,
+    "call": gc,
+    "construct": gc,
+    "defineProperty": gc,
+    "get": gc,
+    "getOwnPropertyDescriptor": gc,
+    "getPrototypeOf": gc,
+    "has": gc,
+    "isExtensible": gc,
+    "ownKeys": gc,
+    "preventExtensions": gc,
+    "set": gc,
+    "setPrototypeOf": gc,
+};
+new Proxy("async", o22);

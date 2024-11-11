@@ -1,0 +1,42 @@
+const v0 = /0/uimy;
+const v1 = /[\c!]zIW\1(a)/gims;
+const v2 = /29P/vms;
+class C3 {
+    [v1] = v1;
+    static #n(a5) {
+        v1["exec"](..."n", ..."exec", ..."exec", ..."f65Ip", v2, ..."f65Ip");
+        return "exec";
+    }
+    static 268435456;
+    e = v2;
+}
+const v11 = new C3();
+let v12 = new C3();
+const v13 = new C3();
+function f14(a15, a16, a17, a18) {
+    const o31 = {
+        valueOf(a20, a21, a22, a23) {
+            v12 = a15;
+            const o26 = {
+                "maxByteLength": 3726,
+            };
+            const v28 = new ArrayBuffer(3726, o26);
+            new Int8Array(v28);
+            return v0;
+        },
+    };
+    return o31;
+}
+const v32 = f14(v13, v11, v12, v12);
+const v34 = f14(v13, f14(v32, v32, v2, C3), v1, v12);
+Object.defineProperty(v2, 536870912, { writable: true, configurable: true, get: f14 });
+for (let v35 = 0; v35 < 32; v35++) {
+    v11["p" + v35] = v35;
+}
+try { v12(v12, v34, f14, v0, v34); } catch (e) {}
+v13.e;
+v11[5] = f14;
+try {
+    v34.__proto__ = C3;
+} catch(e40) {
+}

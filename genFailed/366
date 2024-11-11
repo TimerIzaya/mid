@@ -1,0 +1,41 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0,v0];
+const v2 = [v0,v0,v1,v1];
+const v3 = [v1,v1];
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a6;
+    } catch(e7) {
+    }
+    try {
+        this.c = v0;
+    } catch(e8) {
+    }
+}
+const v9 = new F4(v3);
+const v10 = new F4(v0);
+const v11 = new F4(v3);
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a17;
+    } catch(e18) {
+    }
+    try {
+        this.c = F4;
+    } catch(e19) {
+    }
+}
+new F12(v11, v1, v10, v10);
+new F12(v11, v0, v10, v10);
+new F12(v9, v0, v9, v11);
+const v24 = [v10,v2,v10,v10];
+for (const v26 of Reflect.construct(F12, v24, F12)) {
+    try { v0.reduceRight(v26, v24); } catch (e) {}
+    const o30 = {
+        "maxByteLength": 1413,
+    };
+    const v32 = new SharedArrayBuffer(1413, o30);
+    new BigUint64Array(v32);
+}

@@ -1,0 +1,33 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -2;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+let v6 = new F0();
+class C7 {
+    static b;
+    static 65536 = F0;
+    a = v5;
+    get h() {
+        let v9;
+        try { v9 = this.getDay(this, F0); } catch (e) {}
+        return v6 = v9;
+    }
+    #d = v5;
+    static 83 = v4;
+}
+const v10 = new C7();
+const v11 = new C7();
+const v12 = new C7();
+function f16() {
+    return 3.0;
+}
+const v17 = C7[3.0];
+Object.defineProperty(v5, "a", { writable: true, configurable: true, get: f16, set: f16 });
+Object.defineProperty(v4, "f", { enumerable: true, value: v12 });
+try { new v17(v10, C7, v11, v10, -2.220446049250313e-16); } catch (e) {}
+typeof v11 === "function";

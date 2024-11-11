@@ -1,0 +1,28 @@
+function f0() {
+    const o9 = {
+        set g(a5) {
+            const t3 = "536870887";
+            t3[this] = this;
+        },
+        128: "536870887",
+        ..."536870887",
+        "f": "536870887",
+        ["536870887"]: 8,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+f0();
+const v15 = new BigInt64Array(64);
+let v17 = Int32Array;
+let v18 = new v17(256);
+const v21 = new Uint16Array(153);
+Object.defineProperty(v21, v10, { writable: true, get: f0, set: f0 });
+const o22 = {
+};
+new Proxy(Uint16Array, o22);
+try { o22.getUTCDate(); } catch (e) {}
+v15 - Uint16Array;
+v11[4] = BigInt64Array;
+({"byteLength":v18,"f":v18,"length":v17,} = v21);

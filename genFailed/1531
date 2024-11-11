@@ -1,0 +1,41 @@
+const v2 = new Int32Array(2);
+const v5 = new Int8Array(0);
+let v7 = Int8Array;
+const v8 = new v7(3);
+function f9(a10, a11, a12) {
+    const o18 = {
+        ...v2,
+        __proto__: v2,
+        "h": v5,
+        "d": Int8Array,
+        "f": v7,
+        set b(a14) {
+            v7 = Int8Array;
+            let {"b":v15,"f":v16,...v17} = this;
+            v16[2] = 3;
+        },
+        "a": a12,
+        [0]: a11,
+        "c": v2,
+        4: a10,
+    };
+    return o18;
+}
+const v19 = f9(2, 3, 2);
+f9(3, 0, 3);
+const v21 = f9(0, 3, 3);
+const v24 = new Float64Array(2410);
+new Uint8ClampedArray(10);
+new Int8Array(3);
+const v31 = new Float64Array(...v8, Float64Array, v21, 2);
+try { v19.o(v31, Int8Array, v24, v21); } catch (e) {}
+v21 << Int8Array;
+for (const v34 of v31) {
+    v19[1024] ||= 2;
+    Object.defineProperty(v19, "b", { enumerable: true, set: f9 });
+}
+const o37 = {
+    "maxByteLength": 3753,
+};
+const v39 = new SharedArrayBuffer(512, o37);
+new Uint32Array(v39);

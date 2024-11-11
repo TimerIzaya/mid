@@ -1,0 +1,29 @@
+const v0 = [0.2600202535682885,-3.0,-705.5801873334221,1000000000.0,-1e-15];
+const v1 = [455.53071918013643,1000000.0,-1000.0,-126.33502940624396,-1e-15,0.7543105978890302,0.5148637444924212];
+const v2 = [919.7630765273268];
+function f6(a7, a8) {
+    const o13 = {
+        __proto__: v2,
+        valueOf(a10, a11) {
+            %VerifyType("I");
+            return a10;
+        },
+        [a7]: a8,
+        6: a8,
+        "a": v0,
+        "e": "I",
+    };
+    return o13;
+}
+f6(v1, v1);
+f6(v2, v0);
+f6(v1, v2);
+Object.defineProperty("Us", v1, { configurable: true, enumerable: true, get: f6 });
+const v17 = ("I").__proto__;
+("Us").length;
+let v19 = 0;
+do {
+    Object.defineProperty(v2, 9, { writable: true, enumerable: true, get: f6 });
+    try { v17(v19); } catch (e) {}
+    v19++;
+} while (v19 < 3)

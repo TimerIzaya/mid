@@ -1,0 +1,56 @@
+const v0 = [1.4237685540191059e+308,-930801.018387407,-1000000.0,-Infinity,-670613.9086398246,2.220446049250313e-16,3.0];
+const v1 = [0.36933329376922974,-4.0];
+const v2 = [-3.0,1.4954886323973255,-1000000000000.0,537675.2598729043,-1000000.0,-1000000000000.0,8.782656140277403,1.7771020361159615e+308,-Infinity];
+const v4 = new WeakSet();
+class C5 extends WeakSet {
+    b = v1;
+    1;
+    static set f(a7) {
+        super.b = a7;
+        super.a = a7;
+        v0.length >>= a7;
+    }
+    constructor(a9, a10) {
+        super(a9);
+        super.a %= a9;
+        const v11 = a10 === v1;
+        v0 % a9;
+        a10[7] = WeakSet;
+        v11 << this;
+    }
+}
+const v14 = new C5(v2, v2);
+let v15 = new C5(v1, v2);
+const v16 = new C5(v1, v0);
+function f17(a18, a19) {
+    const o27 = {
+        1391410754: v1,
+        [WeakSet]: a18,
+        n(a21, a22) {
+            this | a21;
+            Object.defineProperty(a19, "a", { writable: true, configurable: true, enumerable: true, value: a19 });
+            let {"a":v24,"d":v25,...v26} = v4;
+            return v24;
+        },
+        "g": a19,
+        "c": v14,
+        "d": v4,
+        "f": v0,
+    };
+    return o27;
+}
+const v28 = f17(v16, v15);
+f17(v16, v14);
+f17(v14, v16);
+v14[194];
+v28.__proto__;
+v15 = v4;
+const o39 = {
+    "apply": f17,
+    "construct": f17,
+    "deleteProperty": f17,
+    "ownKeys": f17,
+    "preventExtensions": f17,
+    "set": f17,
+};
+new Proxy(v28, o39);

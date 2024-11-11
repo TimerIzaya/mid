@@ -1,0 +1,79 @@
+function f0() {
+    const o18 = {
+        ...1073741825,
+        __proto__: 1073741825,
+        1: 512,
+        "b": 512,
+        p(a5, a6) {
+            const v8 = Symbol.iterator;
+            const o17 = {
+                [v8]() {
+                    let v10 = 10;
+                    const o16 = {
+                        next() {
+                            v10--;
+                            const v14 = v10 == 0;
+                            const o15 = {
+                                "done": v14,
+                                "value": v10,
+                            };
+                            return o15;
+                        },
+                    };
+                    return o16;
+                },
+            };
+            return this;
+        },
+    };
+    return o18;
+}
+const v19 = f0();
+const v20 = f0();
+const v21 = f0();
+function f23() {
+    return null;
+}
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v21;
+    } catch(e28) {
+    }
+}
+const v29 = new F24(v21, v19);
+const v30 = new F24(v21, v20);
+const v31 = new F24(v20, v19);
+function f32(a33, a34) {
+    const o43 = {
+        ...v20,
+        ...v20,
+        "b": v21,
+        toString(a36, a37, a38, a39) {
+            try {
+                v29.__proto__ = this;
+            } catch(e40) {
+            }
+            v29 | a39;
+            try {
+                v19.__proto__ = v31;
+            } catch(e42) {
+            }
+            return a39;
+        },
+    };
+    return o43;
+}
+f32(v30, v19);
+let v45 = f32(v31, v21);
+const v46 = f32(v30, v21);
+function f47() {
+    return v46;
+}
+let v49 = 4294967295;
+!v45;
+Math.log(v49);
+--v49;
+v45 &= v20[2147483649];
+v19[0] = f23;
+v49 >> v29;

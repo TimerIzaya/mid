@@ -1,0 +1,47 @@
+function f0() {
+    const o20 = {
+        "g": 607784018,
+        "e": "-10",
+        set b(a5) {
+            let v7;
+            try { v7 = this["isNaN"](); } catch (e) {}
+            function F8(a10, a11, a12, a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.h = a12;
+                } catch(e14) {
+                }
+                try {
+                    this.b = a13;
+                } catch(e15) {
+                }
+                try {
+                    this.a = this;
+                } catch(e16) {
+                }
+            }
+            new F8("object", a5, "object", "isNaN");
+            new F8("object", v7, "object", "-10");
+            new F8("isNaN", "object", "isNaN", "-10");
+        },
+    };
+    return o20;
+}
+const v21 = f0();
+let v22 = f0();
+const v23 = f0();
+["e",v21,"-3",f0,v21];
+const v28 = [v21];
+const v30 = [["e",v28]];
+["e",v30,v28];
+["DdU0m",v22];
+Object.defineProperty(v21, "b", { writable: true, configurable: true, enumerable: true, set: f0 });
+v30.length;
+v22 = v23;
+let v34 = 0;
+do {
+    const o35 = {
+    };
+    new Proxy(f0, o35);
+    v34++;
+} while (v34 < 4)

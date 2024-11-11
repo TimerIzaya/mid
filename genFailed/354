@@ -1,0 +1,29 @@
+new Int32Array(9);
+new Uint16Array(9);
+const v8 = new BigInt64Array(1261);
+class C9 {
+    static set g(a11) {
+        function f12() {
+            return a11;
+        }
+        Object.defineProperty(this, BigInt64Array, { get: f12 });
+    }
+    static #o(a14, a15) {
+        let {"a":v16,"g":v17,"h":v18,} = this;
+        a14?.h;
+        return 127n;
+    }
+}
+new C9();
+const v24 = new C9();
+new C9();
+for (let v26 = 0; v26 < 75; v26++) {
+    const v27 = v26 < 1261;
+    v24.g >>>= v26;
+    v27 << C9;
+    try {
+        v8.reverse();
+    } catch(e30) {
+    }
+}
+v8["some"]("some");

@@ -1,0 +1,52 @@
+const v0 = /sUqa+/gvdims;
+const v1 = /(?:a?)+(4[xyz])?/umsy;
+const v2 = /a/vy;
+class C3 {
+    valueOf(a5) {
+        try {
+            super.fromCharCode(this, a5, v1);
+        } catch(e7) {
+        }
+        return a5;
+    }
+    [-2] = v2;
+    static [v0];
+    #e = v0;
+    static g;
+}
+const v8 = new C3();
+const v9 = new C3();
+const v10 = new C3();
+let v12 = 11694n;
+function f14(a15, a16) {
+    const o19 = {
+        __proto__: C3,
+        938: a15,
+        "a": 9816353n,
+        [v9]: a16,
+        set d(a18) {
+            v12 = a18;
+        },
+        "b": v8,
+        "d": v8,
+        [a15]: 9816353n,
+        "h": v10,
+    };
+    return o19;
+}
+f14(v0, v0);
+f14(v0, v1);
+const v22 = f14(v12, v2);
+let v24;
+try { v24 = v22["copyWithin"](f14, v9, v10, v1, v10); } catch (e) {}
+Object.defineProperty(v9, "f", { enumerable: true, value: f14 });
+class C26 extends v1.constructor {
+    2;
+}
+new C26();
+15n + v24;
+const o32 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o32);

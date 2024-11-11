@@ -1,0 +1,25 @@
+function f0() {
+}
+new BigUint64Array(501);
+new Uint32Array(127);
+new BigInt64Array(3617);
+function f10() {
+    return 501;
+}
+const v13 = new Array(13);
+const v14 = [-42363,8,512,-14,-9007199254740992,4096,-16,31497];
+[4096,0,-197002433];
+[57674,65535,-64405,-2147483648,-15,9223372036854775807,-1673731735,-1073741824];
+for (const v17 in v14) {
+    const v18 = new BigUint64Array(501, 127, 127);
+    try {
+        v18.toString = Array;
+    } catch(e19) {
+    }
+}
+v13[127] &&= 13;
+Object.defineProperty(Array, "c", { writable: true, configurable: true, get: f0 });
+const o20 = {
+    "ownKeys": f10,
+};
+new Proxy(v14, o20);

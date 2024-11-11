@@ -1,0 +1,64 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #o() {
+        try {
+            this.valueOf = f0;
+        } catch(e3) {
+        }
+        return this;
+    }
+    static #m() {
+        this[this] = f0;
+        try {
+            this.a = this;
+        } catch(e5) {
+        }
+        const v6 = this;
+        const v8 = Symbol.toPrimitive;
+        v6[v8] = v8;
+        return this;
+    }
+}
+new C1();
+const v10 = new C1();
+new C1();
+["d"];
+[["e",f0,"e"]];
+let v23 = "setInt8";
+("T").length;
+const v28 = v23["9NQOq"];
+v23 = v28;
+f0();
+const t30 = "9NQOq";
+t30[v10] = 2n;
+Object.defineProperty("symbol", 3354836733, { writable: true, set: f0 });
+const o30 = {
+};
+try {
+    o30.a = "symbol";
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.a = "symbol";
+    o32.h = "symbol";
+} catch(e33) {
+}
+try {
+    const o34 = {
+    };
+    o34.a = "symbol";
+    o34.h = "symbol";
+    o34.b = v28;
+} catch(e35) {
+}
+try {
+    const o36 = {
+    };
+    o36.a = "symbol";
+    o36.h = "symbol";
+    o36.f = v23;
+} catch(e37) {
+}

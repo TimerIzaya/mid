@@ -1,0 +1,24 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = "any";
+    } catch(e7) {
+    }
+}
+new F3("getUTCDate", "getUTCDate");
+new F3("-481502663", "-481502663");
+new F3("any", "any");
+const v13 = new Uint16Array(8);
+const v16 = new BigInt64Array(10);
+const v19 = new Int16Array(253);
+try {
+    const t14 = "-481502663";
+    t14.toString = 8;
+} catch(e20) {
+}
+v19["sort"](...v16, F3, ..."sort", BigInt64Array, 8);
+const v23 = v13[4];
+try {
+    v19.buffer = v23;
+} catch(e24) {
+}

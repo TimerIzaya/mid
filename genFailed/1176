@@ -1,0 +1,31 @@
+class C3 {
+    static get b() {
+        const v5 = 5 * 5;
+        for (let v6 = 0; v6 < 32; v6++) {
+            const t4 = "9007199254740992";
+            t4["p" + v6] = v6;
+        }
+        return v5;
+    }
+    static a = "9007199254740992";
+    static 2930 = 9;
+    static #c = "9007199254740992";
+}
+new C3();
+const v10 = new C3();
+new C3();
+new Uint32Array(3270);
+const v17 = new Float32Array(257);
+new BigUint64Array(251);
+class C21 extends C3 {
+    [BigUint64Array];
+}
+const v22 = new C21();
+new C21();
+const v24 = new C21();
+let v25;
+try { v25 = v24.o(v17, v24, v10, 251, v22); } catch (e) {}
+v22[4] >>>= 9;
+let v26;
+try { v26 = v25(v24, v25, v10); } catch (e) {}
+v26[Symbol.split];

@@ -1,0 +1,23 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a5;
+    } catch(e6) {
+    }
+}
+new F3("toString");
+new F3("multiline");
+new F3("toString");
+const v12 = new BigInt64Array(127);
+const v15 = new Uint8Array(3375);
+const v18 = new Int16Array(6);
+try { v15(); } catch (e) {}
+v12[-2] **= 127;
+v12[1] ||= 6;
+const o23 = {
+    valueOf() {
+        this[this];
+        Object.defineProperty(v18, v15 & v18, { enumerable: true, value: BigInt64Array });
+        return "multiline";
+    },
+};

@@ -1,0 +1,38 @@
+const v1 = new Set();
+const v3 = new Date();
+const v4 = [v3,v3,v1,v3,Set];
+const v5 = [Date,v4,v1,Set,v1];
+const v6 = [Date,v1,Set];
+const v7 = /foo|(bar|baz)|quuxIr(?:a+)?abc+/vdmy;
+const v8 = /(?: foo )/guims;
+const v9 = /cp/us;
+function f10(a11, a12) {
+    const o17 = {
+        get f() {
+            const v14 = v3 << a11;
+            const v15 = super[a11];
+            v15 || v14;
+            return v15;
+        },
+        ...v9,
+        "g": a11,
+        __proto__: v3,
+        "e": v8,
+        "c": a12,
+        [v4]: v4,
+    };
+    return o17;
+}
+const v18 = f10(v9, v5);
+f10(v9, v5);
+const v20 = f10(v7, v6);
+function f21(a22) {
+    return v20;
+}
+class C23 extends f21 {
+    static [v20];
+    #a;
+    #h = f21;
+    [v18];
+}
+v7[127] = v6;

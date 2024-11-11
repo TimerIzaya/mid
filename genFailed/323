@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 12;
+    } catch(e3) {
+    }
+    try {
+        this.e = 12;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a10;
+    } catch(e12) {
+    }
+    try {
+        this.a = v6;
+    } catch(e13) {
+    }
+}
+new F8(v6, v5);
+const v15 = new F8(v6, v6);
+new F8(v7, v7);
+new Set();
+[-1073741824,-268435456,-13174,-25188,-4,256,-15,536870887,-65535,44845];
+[-11,-4,-1903925649,38979,1073741824];
+[-124236811,304807619,23247,0,3];
+let v25 = 0;
+while (v25 < 5) {
+    delete v15?.h;
+    const o31 = {
+        "maxByteLength": 3002,
+    };
+    const v33 = new ArrayBuffer(3002, o31);
+    new Uint32Array(v33);
+    v25++;
+}

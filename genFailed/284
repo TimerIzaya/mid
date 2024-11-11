@@ -1,0 +1,36 @@
+const v0 = /0/vdmsy;
+const v1 = /(?:ab){4,7}Ha+?/gvi;
+const v2 = /{,}/diy;
+const v4 = new Date();
+function f8(a9, a10, a11, a12) {
+    const o21 = {
+        m(a14, a15, a16) {
+            v4.f;
+            for (let v18 = 0; v18 < 32; v18++) {
+                v1["p" + v18] = v18;
+            }
+            return a14;
+        },
+        ...a11,
+        __proto__: a11,
+        "a": v2,
+        92: a10,
+        [a11]: a10,
+    };
+    return o21;
+}
+const v22 = f8(-3n, 2147483649n, v2, -2147483647n);
+const v23 = f8(2147483649n, 2147483649n, v2, -3n);
+const v24 = f8(-3n, -2147483647n, v1, -2147483647n);
+const v29 = "e" > v24 ? "e" : v24;
+let {"e":v30,"length":v31,...v32} = "sticky";
+function F33(a35, a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v30;
+    } catch(e39) {
+    }
+}
+new F33("sticky", v1, v24, v29);
+new F33("undefined", v2, v22, v0);
+new F33(v30, v2, v23, v1);

@@ -1,0 +1,43 @@
+function f1() {
+    const o2 = {
+        0: null,
+        10000: null,
+        __proto__: null,
+        1710054202: null,
+        "g": null,
+        "a": null,
+        "d": null,
+        "e": null,
+        6: null,
+        [null]: null,
+        "c": null,
+    };
+    return o2;
+}
+const v3 = f1();
+const v4 = f1();
+const v5 = f1();
+class C6 {
+    static #o(a8, a9) {
+        v3 instanceof f1;
+        !null;
+        -null;
+        Math.random();
+        return a8;
+    }
+    [v4] = v5;
+}
+const v17 = new C6();
+new C6();
+const v19 = new C6();
+function f20() {
+    return v17;
+}
+let v24 = 0;
+do {
+    try {
+        v19.e = v17;
+    } catch(e25) {
+    }
+    v24++;
+} while (v24 < 0)

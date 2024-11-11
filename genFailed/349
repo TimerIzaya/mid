@@ -1,0 +1,44 @@
+function f0() {
+    const o6 = {
+        ...-2147483649,
+        "f": -2147483649,
+        ...-2147483649,
+        "g": -2147483649,
+        get e() {
+            this[3] = -2147483649;
+            try {
+                this.toString = this;
+            } catch(e5) {
+            }
+            return 256;
+        },
+    };
+    return o6;
+}
+const v7 = f0();
+const v8 = f0();
+const v9 = f0();
+/1a\s+/i;
+const v11 = /wL/gudmy;
+const v12 = /T[^123][J(x)(x)(x)\33Xl(\2)(\1)?]/gvdmy;
+const v14 = new WeakSet();
+class C15 extends WeakSet {
+    constructor(a17, a18, a19) {
+        super(v9);
+        try {
+            f0();
+        } catch(e21) {
+        }
+    }
+    [-2] = v14;
+    static #h = v8;
+    [v9];
+}
+new C15(v7, C15, v12);
+new C15(C15, v9, v12);
+const v24 = new C15(v8, v7, v12);
+C15[v24];
+Object.defineProperty(v8, 3793, { value: v9[v11] });
+new Uint32Array(257);
+new BigUint64Array(3505);
+new Int32Array(5);

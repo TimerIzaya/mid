@@ -1,0 +1,15 @@
+const v8 = new Int8Array(750);
+let v11 = new Float64Array(913);
+const v14 = new BigUint64Array(16);
+try {
+    v8.buffer = v14;
+} catch(e15) {
+}
+let [] = v11;
+++v11;
+try { v11(BigUint64Array, 16); } catch (e) {}
+const o20 = {
+    "maxByteLength": 3964,
+};
+const v22 = new ArrayBuffer(3247, o20);
+new Float64Array(v22);

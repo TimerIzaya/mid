@@ -1,0 +1,54 @@
+class C3 {
+    static 10 = -2147483648;
+    static #h;
+    static set e(a5) {
+        try { new a5(); } catch (e) {}
+        try {
+            a5.__proto__ = this;
+        } catch(e7) {
+        }
+    }
+    set a(a9) {
+        try {
+            a9.#h;
+        } catch(e11) {
+        }
+    }
+}
+const v12 = new C3();
+new C3();
+const v14 = new C3();
+const v18 = [63065,1073741824,v14];
+const v19 = [v18,v18];
+const v20 = [-2147483648];
+function f21(a22, a23, a24) {
+    const o35 = {
+        "a": v14,
+        set f(a26) {
+            for (const v27 in v18) {
+                delete C3[v27];
+            }
+            let v29;
+            try { v29 = this.toString(this); } catch (e) {}
+            delete v18[v29];
+            try {
+                C3.fuck(Infinity, "description");
+            } catch(e34) {
+            }
+        },
+        [v20]: a23,
+    };
+    return o35;
+}
+const v36 = f21(v19, 63065, -2147483648);
+const v37 = f21(v20, 63065, 63065);
+f21(v19, -2147483648, 1073741824);
+Object.defineProperty(v14, 6, { writable: true, configurable: true, enumerable: true, get: f21 });
+try {
+    f21([v37,v20,v18,v36,v12], -4096, -4096);
+} catch(e42) {
+}
+try {
+    C3.e = f21;
+} catch(e43) {
+}

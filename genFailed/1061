@@ -1,0 +1,44 @@
+new Set();
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = Set;
+    } catch(e9) {
+    }
+}
+const v10 = new F5(-8n, 1024n);
+const v11 = new F5(-8n, -8n);
+new F5(-4294967297n, 1024n);
+function f13() {
+    return 1024n;
+}
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = F5;
+    } catch(e18) {
+    }
+    try {
+        this.f = a17;
+    } catch(e19) {
+    }
+    try {
+        this.e = a16;
+    } catch(e20) {
+    }
+}
+new F14(-4294967297n, v10);
+new F14(1024n, v11);
+new F14(1024n, v10);
+new Float32Array(64);
+const v29 = new BigUint64Array(0);
+const v32 = new Int8Array(85);
+let v33 = 0;
+while (v33 < 3) {
+    Object.defineProperty(v32, 0, { get: f13 });
+    try {
+        v29.byteOffset = 64;
+    } catch(e36) {
+    }
+    v33++;
+}

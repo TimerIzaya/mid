@@ -1,0 +1,32 @@
+function f0() {
+}
+class C1 extends f0 {
+    #valueOf() {
+        try {
+            new f0();
+        } catch(e4) {
+        }
+        return this;
+    }
+    #g = f0;
+    valueOf() {
+        const v6 = f0();
+        const v7 = super[this];
+        try {
+            v7.c = v7;
+        } catch(e8) {
+        }
+        return v6;
+    }
+}
+const v9 = new C1();
+new C1();
+let v11 = new C1();
+new Int32Array(1925);
+new Uint8Array(5);
+new Uint8ClampedArray(2379);
+C1 < v9;
+const v23 = Symbol(f0);
+v11 >>>= v9;
+Object.defineProperty(v23, 129, { configurable: true, enumerable: true, set: Symbol });
+-a;

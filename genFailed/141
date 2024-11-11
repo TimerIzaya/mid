@@ -1,0 +1,28 @@
+function f3() {
+    return 44745;
+}
+const v4 = /gDZTw/vd;
+const v5 = /a$+/gy;
+const v6 = /\cA+/gdiy;
+function F7(a9, a10, a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a9;
+    } catch(e13) {
+    }
+}
+new F7(44745, v5, 1073741824, v6);
+new F7(4, v4, 44745, v5);
+const v16 = new F7(4, v6, 44745, v5);
+for (let v20 = 0; v20 < 52; v20++) {
+    Object.defineProperty(v4, v4.flags, { writable: true, get: f3 });
+    try {
+        v16.valueOf = f3;
+    } catch(e22) {
+    }
+}
+const o26 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o26);

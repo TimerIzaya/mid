@@ -1,0 +1,28 @@
+let v0 = 71;
+new Float32Array(v0);
+const v5 = new Uint8Array(1);
+let v7 = BigUint64Array;
+const v8 = new v7(4);
+const v10 = new Set();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v0;
+    } catch(e15) {
+    }
+    try {
+        this.f = a14;
+    } catch(e16) {
+    }
+}
+const v17 = new F11(4, v5);
+new F11(1, 4);
+let v19 = new F11(4, v5);
+let v20;
+try { v20 = v17(v17, v19, 4); } catch (e) {}
+v20[233] = v10;
+function f24() {
+    return F11;
+}
+[v0,F11,v19,v7] = v5;
+v8[65537] = v20;

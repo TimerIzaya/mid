@@ -1,0 +1,35 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -7;
+    } catch(e3) {
+    }
+    try {
+        this.e = -7;
+    } catch(e4) {
+    }
+    try {
+        this.g = -7;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+new F0();
+[-2147483648,636891996,-9007199254740991,14,9007199254740991,-65535,51118,-15];
+[-3,1073741824,-12,-3,783627847,3,-763555218,-25283,30615,-65537];
+const v11 = [14,10,-10,-9007199254740991,268435440,60677,-9007199254740992,4294967295,255];
+new Uint8Array(111);
+new Int32Array(3746);
+new BigUint64Array(10);
+let v25 = 0;
+do {
+    Object.defineProperty(v6, "d", { writable: true, configurable: true, get: SyntaxError, set: SyntaxError });
+    SyntaxError(v11);
+    %PrepareFunctionForOptimization(SyntaxError);
+    SyntaxError(v11);
+    SyntaxError(v11);
+    %OptimizeFunctionOnNextCall(SyntaxError);
+    SyntaxError(v11);
+    v25++;
+} while (v25 < 8)

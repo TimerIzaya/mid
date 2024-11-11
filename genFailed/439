@@ -1,0 +1,44 @@
+class C3 {
+    constructor(a5, a6) {
+        function f7(a8, a9, a10, a11) {
+            const t3 = "g";
+            t3[6] = a11;
+            return a5;
+        }
+        f7(f7, "g", -5.0, "g");
+    }
+    static {
+        this[58] = this;
+        super[-4294967297] = this;
+        const v15 = new String("g");
+        this in v15;
+    }
+}
+let v17 = new C3(-4294967297, C3);
+const v18 = new C3("g", -5.0);
+const v19 = new C3(v18, "g");
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 6n;
+    } catch(e29) {
+    }
+    try {
+        this.b = a28;
+    } catch(e30) {
+    }
+    try {
+        this.c = a25;
+    } catch(e31) {
+    }
+}
+const v32 = new F23(v17, v19, v19, -29770n);
+const v33 = new F23(v19, C3, v32, 2147483648n);
+const v34 = new F23(v19, "g", v17, 2147483648n);
+try { v34.log2(v19, v34); } catch (e) {}
+Math.pow(v33, -29770n);
+let v40 = --v17;
+Math.hypot(2 ^ v17);
+Math.fround(v17);
+++v17;
+--v40;

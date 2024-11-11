@@ -1,0 +1,26 @@
+function f0() {
+}
+const v1 = [-1.5106276754058306e+308,-9.422968041752682,Infinity];
+const v2 = [-20624.875793437357,-161.44626091992347,-344240.27920024586,7.945774586728136e+307,1.269956787762144];
+[5.4879306957121194,3.0,-1000000000.0];
+class C4 {
+    #m(a6) {
+        const o7 = {
+            ...v2,
+        };
+        for (let v8 = 0; v8 < 32; v8++) {
+            a6["p" + v8] = v8;
+        }
+        return o7;
+    }
+}
+new C4();
+new C4();
+new C4();
+Object.defineProperty(v1, "length", { configurable: true, get: f0, set: f0 });
+const o20 = {
+    "execution": "sync",
+    "type": "minor",
+};
+const t24 = gc(o20);
+t24[Symbol.species] = -55470n;

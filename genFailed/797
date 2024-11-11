@@ -1,0 +1,25 @@
+new BigInt64Array(2016);
+const v5 = new Float64Array(10);
+const v8 = new BigInt64Array(8);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = BigInt64Array;
+    } catch(e15) {
+    }
+    try {
+        this.a = a11;
+    } catch(e16) {
+    }
+    try {
+        this.d = a13;
+    } catch(e17) {
+    }
+}
+const v18 = new F9(F9, 8, 2016, v8);
+const v19 = new F9(8, 2016, 8, v18);
+new F9(v19, 10, 10, F9);
+for (let [v21,v22] of v5) {
+    typeof v22 === "function";
+}
+v8[Symbol.species];

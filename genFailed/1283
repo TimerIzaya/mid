@@ -1,0 +1,35 @@
+function f0() {
+    let v2 = 922.6534607466181;
+    let v3 = "-21514";
+    const o8 = {
+        "h": v3,
+        set d(a5) {
+            let v6 = ("bigint")["bigint"];
+            [v2,v6,v3] = "bigint";
+            v3.__proto__;
+        },
+        "f": "bigint",
+        "g": v2,
+        ["bigint"]: v3,
+        __proto__: v3,
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+const v12 = [v9,v11];
+const v13 = [v9,v10,v12];
+const v14 = [v9,v10,f0,v12];
+const v17 = new BigInt64Array(5);
+new Int16Array(23);
+new BigUint64Array(3200);
+-Infinity;
+let v27 = 0;
+do {
+    let {"byteLength":v28,} = v17;
+    let v29;
+    try { v29 = v10.n(v28, v11, v13, v28, v14); } catch (e) {}
+    Reflect.construct(BigInt64Array, [23,f0 = v29], v29);
+    v27++;
+} while (v27 < 9)

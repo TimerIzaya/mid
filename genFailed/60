@@ -1,0 +1,36 @@
+function f0() {
+    const o8 = {
+        m(a5, a6) {
+            "c" + "c";
+            this[4023830254] = "b";
+            return this;
+        },
+        ..."c",
+        ["b"]: "b",
+        "f": "c",
+        4: -52558,
+        ["c"]: -52558,
+    };
+    return o8;
+}
+const v9 = f0();
+f0();
+f0();
+new Uint16Array(128);
+const v20 = new BigUint64Array(5);
+const v23 = new Int32Array(4096);
+v23.__proto__;
+[Uint16Array,268435441n,[268435441n,[4096,Int32Array,f0,128,268435441n],5,v9]];
+Object.defineProperty(v9, "e", { writable: true, enumerable: true, get: f0 });
+let v28 = 0;
+do {
+    try {
+        new Int32Array(v20, 5, 5);
+    } catch(e30) {
+    }
+    try {
+        new Int32Array(v23, 65535, v28);
+    } catch(e33) {
+    }
+    v28++;
+} while (v28 < 0)

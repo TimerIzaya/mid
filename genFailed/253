@@ -1,0 +1,31 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -5551;
+    } catch(e3) {
+    }
+    try {
+        this.c = -5551;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [49501,880,1000,-128,8];
+const v9 = [13,8962,2147483648,-10046,-9803398,-4294967295,-268435456,-64963,-6];
+const v10 = [-11,-9007199254740990,4096,-4096,-2509,-1073741824,9];
+function f11() {
+    return v6;
+}
+const v12 = [F0,v6,v5];
+const v13 = [v8,v9,v6];
+[v6,v5,v13,F0,v7];
+function f18(a19, a20) {
+    e = a19 / v12;
+    return a20;
+}
+const v22 = f18(v12, 536870889);
+const t27 = v5[64];
+t27[8] = v9;
+try { v10["findIndex"](...v13, ...F0, ...536870889, ..."findIndex", v22, f11); } catch (e) {}

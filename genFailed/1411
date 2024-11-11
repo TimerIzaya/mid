@@ -1,0 +1,47 @@
+const v0 = [-9223372036854775807,-10,256,11900,-12316,9007199254740991];
+const v1 = [4,-15517077,16816,-9007199254740992,4294967295,4294967297,-65537];
+const v2 = [47471,5,-9007199254740990,65034,-28896215,65535,51835,-268435456];
+class C9 {
+    static ["536870888"] = "M";
+    constructor(a11, a12, a13, a14) {
+        const o27 = {
+            valueOf() {
+                const v17 = Symbol.iterator;
+                const o26 = {
+                    [v17]() {
+                        let v19 = 10;
+                        const o25 = {
+                            next() {
+                                v19--;
+                                const v23 = v19 == 0;
+                                const o24 = {
+                                    "done": v23,
+                                    "value": v19,
+                                };
+                                return o24;
+                            },
+                        };
+                        return o25;
+                    },
+                };
+                return "Bd7";
+            },
+        };
+    }
+}
+const v28 = new C9(v0, "536870888", v1, "536870888");
+const v29 = new C9(v1, "M", v0, v28);
+const v30 = new C9(v2, "nkw", v1, "M");
+try {
+    try {
+    const t0 = "nkw";
+    t0("536870888", "getDay", v29, "536870888", "nkw");
+    } catch (e) {}
+    const o32 = {
+    };
+    new Proxy("getDay", o32);
+} finally {
+    const v35 = ["536870888",v2,v2,v0];
+    const v36 = [v30,v35,v35,"M"];
+    [v36,"nkw",v36,v35,v36];
+}

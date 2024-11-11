@@ -1,0 +1,70 @@
+class C6 {
+    constructor(a8, a9, a10) {
+        for (const v11 of a10) {
+            Object.defineProperty(a10, a10 instanceof v11, { writable: true, configurable: true, enumerable: true, value: -65535 });
+        }
+        try { new a10(); } catch (e) {}
+        let v16 = 525689567;
+        v16 >> 5;
+        let v19 = -2.0 % 5;
+        v16 ^ 5;
+        --v16;
+        ++v19;
+    }
+}
+const v23 = new C6(6, -9007199254740992, 6);
+let v24 = new C6(-65535, 2809, C6);
+const v25 = new C6(-9007199254740992, 12638, 2809);
+class C29 extends C6 {
+    m(a31, a32, a33, a34) {
+        v24 = this;
+        super[2809] = -8;
+        v23[-8];
+        return this;
+    }
+    constructor(a37, a38, a39, a40) {
+        super(a37, 12638, a38);
+        a39[a39] ||= a37;
+        const o41 = {
+        };
+        try {
+            o41.c = a37;
+        } catch(e42) {
+        }
+        try {
+            const o43 = {
+            };
+            o43.c = a37;
+            o43.f = C6;
+        } catch(e44) {
+        }
+        try {
+            const o45 = {
+            };
+            o45.c = a37;
+            o45.f = C6;
+            o45.g = -8;
+        } catch(e46) {
+        }
+        try {
+            const o47 = {
+            };
+            o47.c = a37;
+            o47.f = C6;
+            o47.d = 6;
+        } catch(e48) {
+        }
+    }
+}
+const v49 = new C29(-4294967296, v24, C29, -8);
+const v50 = new C29(12638, v49, C29, -9007199254740992);
+new C29(-65535, v50, v23, -4294967296);
+v24[-9007199254740992] = "f";
+async function f55(a56, a57, a58) {
+    const v60 = [a57,a58,a56,C6,a56];
+    Reflect.apply(a56.m, "f", v60);
+    9007199254740990 - 6;
+    await v25;
+    return Reflect;
+}
+f55(v50, v24, v50);

@@ -1,0 +1,27 @@
+function f3() {
+    return 64;
+}
+class C4 extends f3 {
+    p(a6) {
+        for (const v7 of this) {
+            super.e = v7;
+            64 >> -6;
+        }
+        try {
+            this.d = f3;
+        } catch(e9) {
+        }
+        return 64;
+    }
+}
+new C4();
+const v11 = new C4();
+const v12 = new C4();
+try { ("a").split("a", -4096); } catch (e) {}
+v11["p"]("d", "number", v12, v12, -6)?.[64];
+f3();
+%PrepareFunctionForOptimization(f3);
+f3();
+f3();
+%OptimizeFunctionOnNextCall(f3);
+f3();

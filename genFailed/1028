@@ -1,0 +1,33 @@
+function f0() {
+    const o4 = {
+        "a": "1000",
+        "b": 0.6373088007710536,
+        "c": 656279384,
+        "h": 656279384,
+        "f": 656279384,
+        "d": 656279384,
+        "e": 656279384,
+        ..."1000",
+        ..."1000",
+        3637: 0.6373088007710536,
+        "g": "1000",
+        ..."1000",
+    };
+    return o4;
+}
+f0();
+const v6 = f0();
+f0();
+new Float32Array(8);
+new BigInt64Array(255);
+new Uint16Array(5);
+try {
+    f0();
+} catch(e24) {
+}
+v6[5];
+const o28 = {
+    "maxByteLength": 1337,
+};
+const v30 = new SharedArrayBuffer(9, o28);
+new Uint32Array(v30);

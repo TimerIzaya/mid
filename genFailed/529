@@ -1,0 +1,45 @@
+class C3 {
+    static #m(a5, a6) {
+        try { a5(2, 9007199254740990, 1305218232, this); } catch (e) {}
+        return this[2];
+    }
+    constructor(a10) {
+        super[this] = 2;
+        try {
+            super.setUint8(this, 2, this);
+        } catch(e12) {
+        }
+    }
+}
+const v13 = new C3(C3);
+const v14 = new C3(1305218232);
+const v15 = new C3(1305218232);
+function f16(a17, a18, a19) {
+    const o24 = {
+        "e": a17,
+        16: v14,
+        get b() {
+            C3[9];
+            try {
+                C3.length = 1;
+            } catch(e23) {
+            }
+            return v15;
+        },
+    };
+    return o24;
+}
+const v25 = f16(v14, v13, 2);
+const v26 = f16(C3, v13, 1305218232);
+const v27 = f16(v13, C3, 1305218232);
+const v28 = C3.__proto__;
+for (const v29 in v28) {
+    let v30;
+    try { v30 = C3.find(2, 1305218232, v25, v29); } catch (e) {}
+    Reflect.construct(v30, [v28,9007199254740990,v26,v27,v26], v30);
+}
+Object.defineProperty(v13, 4, { writable: true, configurable: true, get: f16 });
+try {
+    v25.__proto__ = v26;
+} catch(e34) {
+}

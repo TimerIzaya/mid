@@ -1,0 +1,35 @@
+const v1 = new WeakSet();
+function f5(a6) {
+    const o15 = {
+        "b": a6,
+        __proto__: a6,
+        "e": a6,
+        129: a6,
+        [a6](a8, a9, a10, a11) {
+            const v12 = --a10;
+            try {
+                super.isSafeInteger(v12, -4294967295, v12);
+            } catch(e14) {
+            }
+            return a6;
+        },
+        "c": -7,
+        ...v1,
+    };
+    return o15;
+}
+const v16 = f5(WeakSet);
+const v17 = f5(f5);
+f5(v16);
+new Float64Array(2546);
+new Float32Array(255);
+const v27 = new BigInt64Array(64);
+64 >> 255;
+if (v27) {
+} else {
+    +v17;
+    Math.atan(v17);
+    Math.max(-371560.65625974245);
+    -65536 ^ -371560.65625974245;
+    Math.exp(-65536);
+}

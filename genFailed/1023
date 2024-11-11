@@ -1,0 +1,20 @@
+function f0() {
+}
+new Array(41);
+new WeakMap();
+const v14 = Reflect.construct(f0, [], WeakMap);
+("9n")["repeat"](-6);
+let v17 = 0;
+do {
+    try {
+        const t9 = "9n";
+        t9.__proto__ = v14;
+    } catch(e18) {
+    }
+    try {
+        const t14 = "bigint";
+        t14.length = v17;
+    } catch(e19) {
+    }
+    v17++;
+} while (v17 < 7)

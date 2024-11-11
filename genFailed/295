@@ -1,0 +1,24 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a8;
+    } catch(e10) {
+    }
+    try {
+        this.h = a9;
+    } catch(e11) {
+    }
+}
+const v12 = new F6(33145n, 3n);
+const v13 = new F6(3n, 33145n);
+const v14 = new F6(33145n, 33145n);
+Object.defineProperty(v14, 2, { value: v14 });
+v14.e >>= 32514;
+v12[129] = v14;
+const v16 = new Map();
+try { v16.set(32514, v16, ...v13, 10000n); } catch (e) {}
+let v18;
+try { v18 = v12.reduce(20877, 20877); } catch (e) {}
+delete v18?.[268435440];
+!v18;
+let [v21,v22] = v16;

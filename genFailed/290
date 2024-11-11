@@ -1,0 +1,15 @@
+new Float32Array(5);
+new Uint8ClampedArray(256);
+const v8 = new Int16Array(255);
+const v11 = new Int8Array(8);
+new Int32Array(255);
+const v17 = new Uint8ClampedArray(127);
+new Float32Array(v17, 255);
+function f19(a20, a21) {
+    const o22 = {
+    };
+    new Proxy(v8, o22);
+    return a20;
+}
+f19(255, 256);
+Object.defineProperty(v11, 127, { writable: true, enumerable: true, get: f19 });

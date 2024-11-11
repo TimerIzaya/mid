@@ -1,0 +1,44 @@
+const v1 = new WeakMap();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = WeakMap;
+    } catch(e6) {
+    }
+    try {
+        this.e = a4;
+    } catch(e7) {
+    }
+    try {
+        this.b = v1;
+    } catch(e8) {
+    }
+}
+const v9 = new F2(v1, WeakMap);
+const v10 = new F2(v1, v9);
+const v11 = new F2(v1, F2);
+class C12 extends F2 {
+    static c = v9;
+    constructor(a14, a15) {
+        super(WeakMap, F2);
+        try { v10["filter"](v1); } catch (e) {}
+    }
+    [v10];
+}
+const v21 = new C12(v10, F2);
+new C12(v21, C12);
+new C12(v21, v11);
+function f24(a25, a26) {
+    a26[2] &= a26;
+    v21 + a25;
+    return a25;
+}
+f24(v1, f24);
+const v29 = v10[2];
+const v30 = C12[f24];
+f24(v30, v29);
+%PrepareFunctionForOptimization(f24);
+f24(v30, v29);
+f24(v30, v29);
+%OptimizeMaglevOnNextCall(f24);
+f24(v30, v29);

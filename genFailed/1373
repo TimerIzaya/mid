@@ -1,0 +1,69 @@
+function f3(a4) {
+    const o14 = {
+        "b": -6n,
+        "a": 1073741825n,
+        __proto__: a4,
+        5: -6n,
+        valueOf(a6) {
+            super[a6] = 1073741825n;
+            ~65537;
+            Math.log(65537);
+            65537 - -6n;
+            Math.floor(-6n);
+            return 1073741825n;
+        },
+    };
+    return o14;
+}
+const v15 = f3(f3);
+const v16 = f3(-6n);
+const v17 = f3(-6n);
+function f18(a19, a20, a21) {
+    const o28 = {
+        [v17](a23, a24, a25, a26) {
+            Object.defineProperty(a20, this, { writable: true, get: f3, set: f3 });
+            function f27() {
+                return a23;
+            }
+            return a25;
+        },
+        "d": a21,
+        "a": a20,
+        "e": a20,
+        "f": 531594342n,
+    };
+    return o28;
+}
+f18(v15, v15, 1073741825n);
+f18(v16, v15, 1073741825n);
+const v31 = f18(v15, v17, -6n);
+Object.defineProperty(v31, "g", { writable: true, enumerable: true, get: f3, set: f18 });
+const o32 = {
+};
+try {
+    o32.d = v31;
+} catch(e33) {
+}
+try {
+    const o34 = {
+    };
+    o34.d = v31;
+    o34.g = f3;
+} catch(e35) {
+}
+try {
+    const o36 = {
+    };
+    o36.d = v31;
+    o36.g = f3;
+    o36.c = -6n;
+} catch(e37) {
+}
+try {
+    const o38 = {
+    };
+    o38.d = v31;
+    o38.g = f3;
+    o38.b = v15;
+} catch(e39) {
+}

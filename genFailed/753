@@ -1,0 +1,37 @@
+new Int8Array(1091);
+new Uint8Array(1000);
+let v6 = 0;
+const v8 = new Int8Array(v6);
+class C9 extends Int8Array {
+    set h(a11) {
+        super.byteOffset **= 1000;
+        const v13 = Symbol.iterator;
+        const o22 = {
+            [v13]() {
+                let v15 = 10;
+                const o21 = {
+                    next() {
+                        v15--;
+                        const v19 = v15 == 0;
+                        const o20 = {
+                            "done": v19,
+                            "value": v15,
+                        };
+                        return o20;
+                    },
+                };
+                return o21;
+            },
+        };
+    }
+}
+const v23 = new C9();
+const v24 = new C9();
+const v25 = new C9();
+new Uint8Array(v25, 1091, v6);
+v23[v6] = v8.__proto__;
+try {
+    new Int8Array(v24, 504961223, -41518);
+} catch(e31) {
+}
+v6 = 1000;

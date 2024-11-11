@@ -1,0 +1,61 @@
+let v0 = undefined;
+function f2(a3, a4) {
+    const o20 = {
+        [a3]: false,
+        get d() {
+            const v6 = a4 % v0;
+            let v7;
+            try { v7 = new a3(v6, a3, v6, a4); } catch (e) {}
+            return v7;
+        },
+        set e(a12) {
+            function f13(a14, a15) {
+                this[a4] += a14;
+                v0 -= a3;
+                try { new a3(false, a4, a14, a14, a4); } catch (e) {}
+                try { this.deref(a14, a3, this); } catch (e) {}
+            }
+            new Promise(f13);
+        },
+    };
+    return o20;
+}
+const v21 = f2(f2, f2);
+const v22 = f2(v21, false);
+const v23 = f2(false, v21);
+let v26 = -312239.7046502548;
+function f27() {
+    return v26;
+}
+function f28(a29, a30, a31) {
+    const o32 = {
+        ...a31,
+        "e": false,
+        9: v21,
+        "g": v0,
+        "c": a30,
+        __proto__: v22,
+        "a": f27,
+        "h": a31,
+        [5.0]: v23,
+        "b": a31,
+        ...v22,
+        966: v22,
+        268435439: a30,
+        [v21]: v0,
+    };
+    return o32;
+}
+const v33 = f28(v22, v26, v23);
+const v34 = f28(v22, -2.2250738585072014e-308, v22);
+f28(v23, 5.0, v23);
+const v36 = new f2(v22, 5.0);
+Object.defineProperty(v22, 24, { writable: true, set: f27 });
+const o37 = {
+    __proto__: v33,
+    "d": v21,
+    ...v34,
+    "h": f27,
+};
+({"e":v26,} = v22);
+f28(v21, -2.2250738585072014e-308, v36);

@@ -1,0 +1,16 @@
+[];
+new Uint8Array(11);
+new Uint32Array(10);
+new Uint32Array(222);
+try {
+    const o15 = {
+        "maxByteLength": 536870912,
+    };
+    const v17 = new ArrayBuffer(799, o15);
+    new Int16Array(v17);
+} finally {
+    try {
+        this.__proto__ = this;
+    } catch(e21) {
+    }
+}

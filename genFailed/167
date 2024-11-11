@@ -1,0 +1,35 @@
+const v0 = [-276628.1310959811,9.57350664765908,1000000000.0];
+const v1 = [-1.1868218633802384e+308,-1.7976931348623157e+308,0.04422876632870032,-2.0,4.220512299652064,-0.0];
+const v2 = [-4.0,0.814438069533444];
+function f3(a4, a5) {
+    const o12 = {
+        get b() {
+            const v7 = this ** this;
+            v7[5] = a4;
+            v2[575] = v7;
+            super.c = this;
+            return this;
+        },
+        __proto__: v1,
+        toString(a9) {
+            --a5;
+            function f11() {
+                return a5;
+            }
+            return v2;
+        },
+    };
+    return o12;
+}
+f3(v0, v2);
+f3(v2, v1);
+f3(v0, v0);
+new Uint32Array(1172);
+new Int16Array(512);
+new Float64Array(9);
+f3(v0, v0);
+%PrepareFunctionForOptimization(f3);
+f3(v0, v0);
+f3(v0, v0);
+%OptimizeFunctionOnNextCall(f3);
+f3(v0, v0) + v1;

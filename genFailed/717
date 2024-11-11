@@ -1,0 +1,13 @@
+[-4.0,-1.4661154632439046e+308,0.7924298999858391,-2.0];
+[7.399287394344448];
+[1.0,-1000000.0];
+const v11 = new Uint8Array(14);
+const v14 = new BigUint64Array(5);
+const v17 = new Uint8Array(970);
+for (const v18 in v17) {
+    const v19 = [v18,14,v18];
+    const v21 = [[v18,v19,v18],v11];
+    const v23 = [v14,v19];
+    Reflect.apply(v21.every, v11, v23);
+}
+try { v17.findIndex("n"); } catch (e) {}

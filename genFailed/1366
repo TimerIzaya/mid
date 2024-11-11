@@ -1,0 +1,37 @@
+/[NF]/gvdis;
+const v4 = /(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\10/gvd;
+const v5 = /(x)(x)(x)\154n\w|\d/gvi;
+const v7 = new WeakMap();
+class C11 {
+    static {
+        const v13 = this & 2;
+        function F14(a16, a17, a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = v7;
+            } catch(e20) {
+            }
+            try {
+                this.c = a19;
+            } catch(e21) {
+            }
+            try {
+                this.h = a18;
+            } catch(e22) {
+            }
+        }
+        new F14(2, v13, 3, this);
+        new F14(-128, v13, -128, this);
+        new F14(-128, 9007199254740991, -128, v5);
+    }
+}
+new C11();
+new C11();
+const v28 = new C11();
+delete v28[v4];
+v5[-1];
+const o37 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o37);

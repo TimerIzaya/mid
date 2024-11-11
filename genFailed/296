@@ -1,0 +1,17 @@
+const v8 = new Uint8Array(6);
+new Uint16Array(255);
+new Uint32Array(8);
+%VerifyType(Uint32Array);
+let v15;
+try { v15 = v8.some("cause"); } catch (e) {}
+Object.defineProperty("G", "b", { value: v15 });
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = "cause";
+    } catch(e22) {
+    }
+}
+new F16(255, "-9223372036854775807", "-9223372036854775807", "G");
+new F16(8, "b", "-9223372036854775807", 8);
+new F16(8, "-9223372036854775807", v15, Uint8Array);

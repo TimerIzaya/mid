@@ -1,0 +1,28 @@
+class C4 {
+    p(a6, a7) {
+        const v8 = a6 != "valueOf";
+        v8 ? a6 : "valueOf";
+        try {
+            const t5 = "MVJ";
+            t5.length = a6;
+        } catch(e10) {
+        }
+        return v8;
+    }
+    static ["MVJ"] = "valueOf";
+    e = true;
+}
+new C4();
+new C4();
+const v13 = new C4();
+const o17 = {
+};
+new Proxy("getUTCMilliseconds", o17);
+const v21 = Symbol.toPrimitive;
+const o27 = {
+    [v21]() {
+        let {"c":v23,"e":v24,"h":v25,...v26} = v13;
+        %VerifyType(this);
+        return "MVJ";
+    },
+};

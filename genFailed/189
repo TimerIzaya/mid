@@ -1,0 +1,51 @@
+const v2 = new BigInt64Array(150);
+const v5 = new Int16Array(0);
+const v8 = new BigUint64Array(16);
+let v9 = 1000;
+function f12(a13, a14, a15) {
+    const o37 = {
+        "a": a14,
+        268435439: a14,
+        toString(a17, a18) {
+            v9 |= a13;
+            function f19(a20, a21, a22) {
+                'use strict';
+                let v23;
+                try { v23 = v2.reverse(); } catch (e) {}
+                function F24(a26, a27, a28, a29) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    try {
+                        this.f = a28;
+                    } catch(e30) {
+                    }
+                    try {
+                        this.d = a26;
+                    } catch(e31) {
+                    }
+                    try {
+                        this.a = v23;
+                    } catch(e32) {
+                    }
+                }
+                const v33 = new F24(a13, v23, a21, 16);
+                new F24(a15, a21, v33, a18);
+                new F24(a20, v9, a22, a15);
+                return this;
+            }
+            f19(a17, a18, 16);
+            return this;
+        },
+    };
+    return o37;
+}
+f12(0, 255, 6);
+const v39 = f12(6, 150, 255);
+const v40 = f12(255, 16, 150);
+if (v39[2507643125] > v2) {
+    try {
+        v40.__proto__ = v5;
+    } catch(e43) {
+    }
+} else {
+    Object.defineProperty(v8, 6, { writable: true, configurable: true, get: f12, set: f12 });
+}

@@ -1,0 +1,13 @@
+let v3 = [441.7775577192658,973394.7189091772,973394.7189091772,973394.7189091772];
+const v4 = [441.7775577192658,-1.3246487928843933e+307,v3];
+const v5 = [v4];
+function f9() {
+    return -2n;
+}
+v3++;
+f9();
+for (let v12 = 0; v12 < 32; v12++) {
+    v4["p" + v12] = v12;
+}
+v4[441.7775577192658];
+Object.defineProperty(v5, v5.length, { writable: true, configurable: true, get: f9, set: f9 });

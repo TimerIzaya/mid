@@ -1,0 +1,41 @@
+const v1 = new Set();
+function f2(a3, a4) {
+    const o21 = {
+        "e": a3,
+        512: a4,
+        "b": v1,
+        ...a4,
+        "a": Set,
+        "d": a3,
+        __proto__: a3,
+        "g": Set,
+        "h": a3,
+        get f() {
+            for (let i8 = 0, i9 = 10; i8 < i9; i8++, i9--) {
+                const v17 = a3?.h;
+                Reflect.construct(a3, [Reflect,this,this,i8], v17);
+            }
+            return this;
+        },
+    };
+    return o21;
+}
+const v22 = f2(Set, Set);
+const v23 = f2(v1, v1);
+const v24 = f2(v1, v23);
+const v26 = new Date();
+let v29 = -65536;
+Date.prototype &&= -65537;
+v29 = -2738;
+const v33 = v24.h;
+const v34 = v22[v23];
+if (v34) {
+    v26[v23] = v34;
+    Object.defineProperty(Date, 2496, { get: Date, set: Date });
+} else {
+    v33?.[v24];
+    try {
+        v24.__proto__ = Date;
+    } catch(e36) {
+    }
+}

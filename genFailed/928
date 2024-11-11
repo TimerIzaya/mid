@@ -1,0 +1,82 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        toString() {
+            try {
+                this.fuck(0.6485929305566305, 0.6485929305566305, f0);
+            } catch(e5) {
+            }
+            return this;
+        },
+        "h": f0,
+        ...f0,
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+let v9 = f1();
+class C10 {
+    [v9] = v9;
+    [f1] = f1;
+    static #o(a12) {
+        const v14 = [f0,f1];
+        return Reflect.apply(a12.toString, v9, v14);
+    }
+    7 = f1;
+}
+const v17 = new C10();
+let v18 = new C10();
+let v19 = new C10();
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = C10;
+    } catch(e25) {
+    }
+    try {
+        this.b = v7;
+    } catch(e26) {
+    }
+}
+const v27 = new F20(v8, v18, v8);
+const v28 = new F20(v8, v8, v7);
+const v29 = new F20(v9, v7, v18);
+try {
+    v9.h = v29;
+} catch(e30) {
+}
+v18 = (v19 = v17);
+v8 ** v27;
+v19 !== v28;
+v9 = v18;
+const o33 = {
+};
+try {
+    o33.c = v17;
+} catch(e34) {
+}
+try {
+    const o35 = {
+    };
+    o35.c = v17;
+    o35.a = F20;
+} catch(e36) {
+}
+try {
+    const o37 = {
+    };
+    o37.c = v17;
+    o37.a = F20;
+    o37.f = v9;
+} catch(e38) {
+}
+try {
+    const o39 = {
+    };
+    o39.c = v17;
+    o39.a = F20;
+    o39.f = v29;
+} catch(e40) {
+}

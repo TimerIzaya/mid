@@ -1,0 +1,73 @@
+function f0() {
+}
+class C1 extends f0 {
+    static {
+        super.a = f0;
+        let v3 = this[f0];
+        f0 - v3;
+        const v5 = v3 in v3;
+        delete this[16];
+        v3 %= v5;
+    }
+    get d() {
+        for (let i9 = 0; i9 < 6; i9++) {
+            try {
+                super.o(i9, i9, i9, this, this);
+            } catch(e16) {
+            }
+        }
+        return this;
+    }
+}
+const v17 = new C1();
+const v18 = new C1();
+const v19 = new C1();
+function f20() {
+    return v19;
+}
+function f21() {
+    return f20;
+}
+function f22() {
+    return v18;
+}
+function f26(a27, a28, a29, a30) {
+    const o38 = {
+        __proto__: v19,
+        ...a29,
+        "e": v17,
+        "a": 632812985,
+        valueOf(a32, a33) {
+            super[a29];
+            [-3.400394231165911e+307,2.220446049250313e-16,-1.2792890562105769e+308,-1000000000000.0,-1000.0,-1.0,-635.0832582843111,1000.0,-2.2250738585072014e-308];
+            const v36 = [890.5596228012828,480.7750019822822,883.3727265542789,0.8848094740615942,-892189.8339188448,-6.44948079390685e+307,-2.220446049250313e-16,-1000000000.0,5.0,-Infinity];
+            [-2.0,8.403654660123422,1.7976931348623157e+308];
+            return v36;
+        },
+        "f": a28,
+        [a28]: -5,
+        142: 632812985,
+    };
+    return o38;
+}
+f26(128, C1, v17, 128);
+f26(632812985, C1, v17, -5);
+const v41 = f26(-5, v17, v18, -5);
+try {
+    v41.length = 1;
+} catch(e43) {
+}
+function F44(a46, a47, a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v41;
+    } catch(e50) {
+    }
+    try {
+        this.g = f0;
+    } catch(e51) {
+    }
+}
+new F44(v17, v18, v19, v17);
+new F44(v19, v19, v19, v18);
+new F44(v17, C1, v19, C1);

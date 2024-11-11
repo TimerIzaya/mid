@@ -1,0 +1,29 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+class C2 {
+    static h = f1;
+    static #valueOf(a4) {
+        try { a4["freeze"](this, this); } catch (e) {}
+        Object.defineProperty(v0, "g", { writable: true, configurable: true, get: f1 });
+        try {
+            new f1();
+        } catch(e8) {
+        }
+        return "freeze";
+    }
+}
+new C2();
+new C2();
+new C2();
+const v12 = /\u{12345}/gvdmy;
+/abc/i;
+/[^a.A(?<a>(?<b>(?<c>(?<d>.).).).)?]/uiy;
+Object.defineProperty(v12, 1000, { writable: true, get: f1 });
+f1();
+%PrepareFunctionForOptimization(f1);
+f1();
+f1();
+%OptimizeFunctionOnNextCall(f1);
+f1();

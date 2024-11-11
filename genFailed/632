@@ -1,0 +1,31 @@
+class C3 {
+    constructor(a5) {
+        this in a5;
+        a5 / 1.3843335512649723e+308;
+        super.f;
+    }
+    #p(a10) {
+        128 != this ? 128 : this;
+        try { this["valueOf"](); } catch (e) {}
+        ("valueOf").__proto__;
+        return this;
+    }
+}
+const v16 = new C3(C3);
+const v17 = new C3("HOls");
+new C3(v17);
+const v19 = [1.3843335512649723e+308,128];
+[v16];
+[v19,v16];
+new Map();
+try {
+    v19.valueOf = undefined;
+} catch(e26) {
+}
+const o27 = {
+};
+new Proxy("HOls", o27);
+try {
+    v16.f = v17;
+} catch(e30) {
+}

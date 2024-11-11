@@ -1,0 +1,30 @@
+const v2 = new Int16Array(128);
+const v5 = new Uint32Array(216);
+const v8 = new Uint8Array(64);
+class C9 extends Uint8Array {
+    #a;
+    static get g() {
+        try {
+            v5.slice();
+        } catch(e12) {
+        }
+        return 64;
+    }
+    static #f;
+    [v2] = v2;
+    static #e;
+    static 487396340;
+}
+new C9();
+const v14 = new C9();
+const v15 = new C9();
+const v16 = new C9(64, ...v15, 64, ...v15, ...v15, ...v5);
+class C17 extends Uint8Array {
+    12 = v16;
+    static #c;
+    static [v16];
+}
+new C17();
+new C17();
+const v20 = new C17();
+v20[v8] = v14;

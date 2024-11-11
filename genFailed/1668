@@ -1,0 +1,54 @@
+function f3(a4, a5) {
+    const o20 = {
+        __proto__: a5,
+        5: -10n,
+        "g": -65537n,
+        "d": -28757n,
+        [a5](a7, a8) {
+            const v10 = Symbol.iterator;
+            const o19 = {
+                [v10]() {
+                    let v12 = 10;
+                    const o18 = {
+                        next() {
+                            v12--;
+                            const v16 = v12 == 0;
+                            const o17 = {
+                                "done": v16,
+                                "value": v12,
+                            };
+                            return o17;
+                        },
+                    };
+                    return o18;
+                },
+            };
+            return -65537n;
+        },
+    };
+    return o20;
+}
+const v21 = f3(-28757n, -65537n);
+const v22 = f3(-65537n, -10n);
+f3(-10n, -10n);
+[128,127,34162,-268435456,-4294967296,10000,-896308525,-144905583];
+[16,9223372036854775807];
+[-2147483647,60286,16,7,241720204,-4294967297];
+f3(-65537n, -28757n);
+`KMM${-65537n}Tl1r9`;
+Object.defineProperty(v22, -28757n, { writable: true, get: f3 });
+function f29() {
+    function f31(a32) {
+        try {
+            v21.valueOf = f3;
+        } catch(e33) {
+        }
+    }
+    this.onmessage = f31;
+}
+const v39 = [];
+const o40 = {
+    "arguments": v39,
+    "type": "function",
+};
+new Worker(f29, o40);

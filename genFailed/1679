@@ -1,0 +1,52 @@
+let v0 = 3;
+class C3 {
+    e = v0;
+    static {
+        v0 = 12;
+        this[4096] = this;
+        v0[7] = v0;
+        try { new this(-15); } catch (e) {}
+    }
+    #toString(a7, a8) {
+        try { this.toString(a8, -15); } catch (e) {}
+        /EO/ums;
+        /xyz?/gmy;
+        /tD*/gudi;
+        return v0;
+    }
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+function f16(a17, a18, a19, a20) {
+    const o36 = {
+        [v0](a22, a23, a24) {
+            a18[Symbol.matchAll];
+            return v15;
+        },
+        "b": v14,
+        p(a29, a30, a31) {
+            return a18;
+        },
+    };
+    return o36;
+}
+const v37 = f16(v0, v15, v14, v0);
+f16(12, v37, C3, v0);
+f16(v0, v13, C3, v0);
+new Uint8ClampedArray(251);
+new BigUint64Array(1);
+new BigUint64Array(255);
+function f49(a50, a51) {
+    try {
+        v37.p(/Q/gvd, a51);
+    } catch(e54) {
+    }
+}
+const v56 = new Promise(f49);
+f49(C3, v56);
+%PrepareFunctionForOptimization(f49);
+f49(C3, v56);
+f49(C3, v56);
+%OptimizeMaglevOnNextCall(f49);
+f49(C3, v56);

@@ -1,0 +1,61 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e6) {
+    }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(-1);
+const v9 = new F3(536870887);
+const v10 = new F3(-1073741824);
+let v11 = [v8,536870887,v10,v10,v8];
+const v12 = [-1073741824,v10];
+[v11,v10,-1073741824];
+class C14 extends F3 {
+    toString(a16, a17) {
+        const o18 = {
+        };
+        try {
+            o18.e = v12;
+        } catch(e19) {
+        }
+        try {
+            const o20 = {
+            };
+            o20.e = v12;
+            o20.f = -1;
+        } catch(e21) {
+        }
+        try {
+            const o22 = {
+            };
+            o22.e = v12;
+            o22.f = -1;
+            o22.d = a16;
+        } catch(e23) {
+        }
+        try {
+            const o24 = {
+            };
+            o24.e = v12;
+            o24.f = -1;
+            o24.d = a17;
+        } catch(e25) {
+        }
+        return v12;
+    }
+}
+const v26 = new C14();
+new C14();
+const v28 = new C14();
+function f29(a30, a31, a32, a33) {
+    v11 = a33;
+    a30 instanceof a32;
+    return v28;
+}
+f29(v9, v10, v26, v12);
+v8[v9];

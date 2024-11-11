@@ -1,0 +1,84 @@
+function f0() {
+    const o11 = {
+        "c": 2147483647,
+        m(a5) {
+            new Date();
+            const o8 = {
+                "apply": Date,
+                "deleteProperty": Date,
+                "has": Date,
+                "preventExtensions": Date,
+                "setPrototypeOf": Date,
+            };
+            new Proxy(this, o8);
+            return Date;
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+f0();
+class C15 {
+    constructor(a17) {
+        const v19 = Symbol.iterator;
+        const o28 = {
+            [v19]() {
+                let v21 = 10;
+                const o27 = {
+                    next() {
+                        v21--;
+                        const v25 = v21 == 0;
+                        const o26 = {
+                            "done": v25,
+                            "value": v21,
+                        };
+                        return o26;
+                    },
+                };
+                return o27;
+            },
+        };
+    }
+}
+new C15(C15);
+const v30 = new C15(v12);
+const v31 = new C15(v30);
+new Uint8ClampedArray(4096);
+new Int16Array(9);
+new Uint32Array(256);
+let v41 = 0;
+do {
+    Object.defineProperty(v31, "e", { writable: true, get: f0, set: f0 });
+    f0().c;
+    const o44 = {
+    };
+    try {
+        o44.b = 4096;
+    } catch(e45) {
+    }
+    try {
+        const o46 = {
+        };
+        o46.b = 4096;
+        o46.d = Uint32Array;
+    } catch(e47) {
+    }
+    try {
+        const o48 = {
+        };
+        o48.b = 4096;
+        o48.d = Uint32Array;
+        o48.e = f0;
+    } catch(e49) {
+    }
+    try {
+        const o50 = {
+        };
+        o50.b = 4096;
+        o50.d = Uint32Array;
+        o50.a = v13;
+    } catch(e51) {
+    }
+    v41++;
+} while (v41 < 10)

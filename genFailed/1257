@@ -1,0 +1,37 @@
+function f0() {
+    const o8 = {
+        ["string"]: 0.6941255063531792,
+        ..."string",
+        [0.6941255063531792]: "string",
+        __proto__: "string",
+        m(a5) {
+            try {
+                const t8 = "string";
+                t8.length = 255;
+            } catch(e7) {
+            }
+            return "string";
+        },
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+const v12 = [v11,f0,v11,v11,v11];
+let v13 = [v9,v10,v11,v12,v11];
+const v14 = [v13,v11,v13];
+[v14,v11,f0,v13,v14];
+[[v9,v9,v11],f0];
+new Int32Array(1000);
+new Uint32Array(512);
+new Float64Array(128);
+v13 = v12;
+const v27 = v12 + 128;
+Object.defineProperty(v14, 8, { writable: true, value: 128 });
+eval(v27);
+%PrepareFunctionForOptimization(eval);
+eval(v27);
+eval(v27);
+%OptimizeMaglevOnNextCall(eval);
+eval(v27);

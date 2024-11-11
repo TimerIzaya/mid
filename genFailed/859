@@ -1,0 +1,31 @@
+const v3 = ["g","g","g"];
+const v4 = ["g","m","m",v3,"g"];
+const v5 = [v3,v4];
+[v5];
+const v8 = [["callee"],"m",v5,"callee"];
+function f9(a10, a11) {
+    const o15 = {
+        ...a11,
+        get b() {
+            this[Symbol.matchAll] = v4;
+            return this;
+        },
+        "b": a10,
+        "c": a11,
+        0: v8,
+        "a": a10,
+        __proto__: v3,
+        "g": v8,
+    };
+    return o15;
+}
+const v17 = f9(f9(f9, v5), v3);
+f9(v8, v5);
+with (v8) {
+    length = f9;
+    const v19 = v17 + v5;
+    ("callee")[v8];
+    Math.acosh("callee");
+    let v25 = -7 || v19;
+    v25--;
+}

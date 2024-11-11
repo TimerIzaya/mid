@@ -1,0 +1,38 @@
+const v1 = new Date();
+const v2 = [-297056.87483593903,0.08316318324981353,-0.0,1.7976931348623157e+308,-1000000000000.0,0.7363287911150578,-2.220446049250313e-16];
+const v3 = [5.5055991099750905,-2.2250738585072014e-308,4.0,-4.0,-376246.2765528329];
+const v4 = [-7.885454159671863,1e-15,-1.0,2.3508071006935687];
+class C5 {
+    g = v3;
+    [v3] = v3;
+    static g;
+    #b;
+    constructor(a7, a8) {
+        Object.defineProperty(v4, "c", { configurable: true, enumerable: true, value: this });
+        try {
+            try {
+                a8.#b = Date;
+            } catch(e9) {
+            }
+        } catch(e10) {
+            Date[Date] = v2;
+        } finally {
+            typeof v1 === "symbol";
+        }
+    }
+}
+new C5(v4, v4);
+const v15 = new C5(v4, v3);
+new C5(v3, v2);
+new Int16Array(3865);
+new Uint8Array(2167);
+new BigInt64Array(16);
+v1[2799] = 3865;
+v1 in v4;
+new BigInt64Array(C5, 16, 3865);
+for (let v28 = 0; v28 < 72; v28++) {
+    try {
+        v15.fuck(undefined, 268435456n, -122.34246107919921);
+    } catch(e33) {
+    }
+}

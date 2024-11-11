@@ -1,0 +1,10 @@
+new Array(3371);
+new Uint8ClampedArray(13);
+new BigUint64Array(288);
+new Uint8ClampedArray(7);
+const o20 = {
+    "maxByteLength": 1073741825,
+};
+const v22 = new ArrayBuffer(10, o20);
+const v24 = new Float64Array(v22);
+try { o20.valueOf(o20, "asUintN", v24); } catch (e) {}

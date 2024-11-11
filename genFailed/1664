@@ -1,0 +1,38 @@
+function f0() {
+    const o10 = {
+        ["3"]: 1000.0,
+        set h(a5) {
+            try { ("3").lastIndexOf(a5, a5); } catch (e) {}
+        },
+        "g": "-9007199254740990",
+        ..."3",
+        "c": "3",
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f17(a18, a19) {
+    const o28 = {
+        "g": 16,
+        valueOf(a21, a22, a23) {
+            Object.defineProperty(a21, "f", { writable: true, configurable: true, set: f0 });
+            super[6];
+            return a21;
+        },
+        "c": f0,
+    };
+    return o28;
+}
+const v29 = f17(v11, v11);
+f17(v12, v29);
+const v31 = f17(v13, v12);
+let v33 = 128;
+const v34 = v33++;
+++f0;
+v33 - f0;
+Math.log2(v34);
+const v38 = v31 % 6;
+v29.g *= v38 && v38;
+v31.g;

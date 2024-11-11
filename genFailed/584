@@ -1,0 +1,20 @@
+function f0() {
+}
+const v3 = new BigUint64Array(1741);
+new Int32Array(633);
+new Uint32Array(2699);
+const v12 = new Float32Array(1000);
+new Uint32Array(16);
+const v18 = new Uint8ClampedArray(127);
+Object.defineProperty(v18, 14, { writable: true, enumerable: true, get: f0, set: f0 });
+try {
+    v3.__proto__ = v12;
+} catch(e19) {
+}
+const o20 = {
+    [1741]: f0,
+    ...v12,
+    "d": v3,
+    "f": v12,
+    "g": Float32Array,
+};

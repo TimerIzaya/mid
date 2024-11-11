@@ -1,0 +1,28 @@
+class C3 {
+    h = -7.709574337664011e+307;
+    static #f = -7.709574337664011e+307;
+    static [-7.709574337664011e+307] = -7.709574337664011e+307;
+    static #o(a5, a6) {
+        return typeof NaN === "string";
+    }
+    static #a;
+    a;
+}
+new C3();
+const v11 = new C3();
+new C3();
+[7];
+[-65535];
+const v15 = [-42734,7,-2147483649];
+const v18 = new BigUint64Array(199);
+const v21 = new Float32Array(0);
+new Uint8Array(55);
+v21[2147483647];
+%VerifyType(v15);
+function f26() {
+    return C3;
+}
+v11 === Uint8Array ? v11 : Uint8Array;
+v21[10] = C3;
+Object.defineProperty(v18, -7.709574337664011e+307, { writable: true, configurable: true, enumerable: true, value: 1e-15 });
+new f26();

@@ -1,0 +1,61 @@
+function f0() {
+}
+function f4(a5, a6) {
+    const o12 = {
+        ...a5,
+        [a5]: a6,
+        "h": f0,
+        "a": 9007199254740992n,
+        __proto__: a6,
+        "d": a5,
+        n(a8, a9, a10) {
+            throw -9007199254740992n;
+            try { a6.o(a9); } catch (e) {}
+            return a5;
+        },
+        "b": a6,
+        "g": -9007199254740992n,
+    };
+    return o12;
+}
+const v13 = f4(-9007199254740992n, f0);
+const v14 = f4(9007199254740992n, -9007199254740992n);
+const v15 = f4(9007199254740992n, f4);
+class C16 {
+    f = f4;
+    o(a18, a19, a20) {
+        v15[18] = v13;
+        try {
+            f4(a18, this);
+        } catch(e22) {
+        }
+        return a19;
+    }
+    static e;
+    [v13] = v15;
+    e = 9007199254740992n;
+    #b = -1354962750n;
+}
+const v23 = new C16();
+new C16();
+const v25 = new C16();
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v15;
+    } catch(e32) {
+    }
+}
+const v33 = new F26(v13, -1354962750n, v14, v25);
+const v34 = new F26(v15, -1354962750n, v15, v23);
+const v35 = new F26(v33, -9007199254740992n, v14, C16);
+try {
+    v35.fuck(/l]\P{scx=Greek}/gds, 1024);
+} catch(e39) {
+}
+var g = v33;
+try { new C16(v35, ...v34, -9007199254740992n, ...v25, v23, ...-1354962750n); } catch (e) {}
+try {
+    v13.__proto__ = v25;
+} catch(e41) {
+}

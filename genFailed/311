@@ -1,0 +1,53 @@
+function f0() {
+    const o11 = {
+        ..."zzL",
+        __proto__: "zzL",
+        "b": -2.220446049250313e-16,
+        n(a5, a6) {
+            super.b = -2.220446049250313e-16;
+            let [] = "zzL";
+            const v8 = [a5,-268435456];
+            Reflect.apply(("zzL").split, "zzL", v8);
+            return a5;
+        },
+    };
+    return o11;
+}
+f0();
+const v13 = f0();
+const v14 = f0();
+class C15 {
+    n(a17) {
+        let v16 = this;
+        v16 = a17;
+        Object.defineProperty(a17, a17, { writable: true, configurable: true, enumerable: true, get: f0 });
+        return a17;
+    }
+    static 4;
+    [v14] = v13;
+    e;
+    static [v13];
+    a;
+    static c;
+}
+new C15();
+const v19 = new C15();
+const v20 = new C15();
+const v21 = [-9007199254740990,50804,512,10000,-439334108,0,5,0,-42371,9];
+const v22 = [-2147483648,268435439,268435439];
+const v23 = [0,-11,-8];
+Object.defineProperty(v14, 129, { writable: true, configurable: true, get: f0, set: f0 });
+[-1.7976931348623157e+308,4.0,-1.7976931348623157e+308,-3.350759574897597,910.6063916919804,-1.3306238451911422e+308,-936.324704886059,-975.676663936472,5.0,443996.63155589346];
+const v25 = [1.123902803600327e+308,-1.937818932079814e+307,-2.842394140073831e+307];
+const v26 = [9.98534103085673e+307,1.2329554626958622e+308,-5.0,547.4537779027935,0.07198033320387787,1000000000.0,1000.0,-1000.0,-Infinity,7.733271671907488];
+try { v26.every(f0); } catch (e) {}
+function f28(a29, a30, a31) {
+    const o32 = {
+        4294967295: a30,
+        0: v25,
+        [v21]: f0,
+    };
+    return o32;
+}
+f28(v20, v22, v19);
+f28(v19, v26, f28(v19, v23, v25));

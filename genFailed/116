@@ -1,0 +1,57 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 2;
+    } catch(e3) {
+    }
+    try {
+        this.a = 2;
+    } catch(e4) {
+    }
+    try {
+        this.h = 2;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+let v7 = new F0();
+const v8 = new F0();
+class C9 extends F0 {
+    static valueOf(a11) {
+        super[v6] = v6;
+        v6 == v6 ? v6 : v6;
+        return this;
+    }
+    #toString(a15, a16) {
+        Object.defineProperty(this, this, { configurable: true, value: F0 });
+        v6[this] **= v8;
+        return v6;
+    }
+    static #b = v7;
+    e = F0;
+    b = F0;
+    static 2147483648;
+}
+const v17 = new C9();
+const v18 = new C9();
+let v19 = new C9();
+const v20 = [v19,v6,v18,v19,v17];
+[v6,v19,v17,C9,F0];
+[F0,v6,v8,v17];
+[9.48750066653059,-1000.0,-8.238664275209226,-672480.4720604403,3.0,-2.1883238604317277e+306];
+const v24 = [-0.0,1000.0,-1000.0,0.516870440919682,-6.050828243010152,1.3946445278246795];
+[-529.9556410497756,-8.857132129167734,4.2775528213971353e+307,1.0,-1000000000000.0,1000000.0,0.07573175205254912,4.0];
+function f26() {
+    return v8;
+}
+Object.defineProperty(v19, v7, { writable: true, get: f26, set: f26 });
+v19 = v18;
+new C9();
+v24[2501] &= v20;
+%VerifyType(F0);
+v7 ||= v7;
+try {
+    const t53 = "-2";
+    t53.toString = f26;
+} catch(e31) {
+}

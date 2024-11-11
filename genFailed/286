@@ -1,0 +1,27 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 1628668915;
+    } catch(e3) {
+    }
+    try {
+        this.a = 1628668915;
+    } catch(e4) {
+    }
+    try {
+        this.c = 1628668915;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new F0();
+const v13 = new Map();
+delete v7[-704929139];
+v13[-704929139] = -704929139;
+h = 2n;
+const v18 = v7 && 2n;
+try { v18(v18, -704929139, 2, v7, -704929139); } catch (e) {}
+%VerifyType(F0);
+const v21 = new Map();
+(v21 ^ -719867770n) >> v13;

@@ -1,0 +1,32 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 3;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f10() {
+    return -4;
+}
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a14;
+    } catch(e15) {
+    }
+    try {
+        this.f = a13;
+    } catch(e16) {
+    }
+}
+const v17 = new F11(v4, v5);
+const v18 = new F11(v6, v4);
+new F11(v6, v5);
+Object.defineProperty(v4, F0, { writable: true, get: f10, set: f10 });
+Reflect.construct(F0, [], F11);
+v18.c;
+v4.d;
+v17[1073741824];

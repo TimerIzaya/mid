@@ -1,0 +1,31 @@
+class C3 {
+    #c;
+    static get g() {
+        this.a;
+        return this;
+    }
+    constructor(a7) {
+        const v8 = this.__proto__;
+        let v9;
+        try { v9 = new v8(); } catch (e) {}
+        v9[178] = this;
+        const v11 = [v9,v8];
+        Reflect.apply(("1403419475").endsWith, v8, v11);
+    }
+}
+const v14 = new C3(-1000000.0);
+const v15 = new C3(v14);
+const v16 = new C3(-1000000.0);
+v14["1403419475"];
+switch ("growable") {
+    default:
+        v14["byteOffset"] = v15;
+        const t22 = "values";
+        delete t22[127];
+        break;
+    case v16:
+        new Uint16Array(127);
+        new Float32Array(128);
+        new Int16Array(3);
+        break;
+}

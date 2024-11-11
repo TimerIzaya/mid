@@ -1,0 +1,28 @@
+const v0 = [1000.0,0.6141595434404344,656378.9585641287,-212211.73087865312,1000000.0,4.0,-2.0,-0.0,4.0];
+const v1 = [-4.0,-2.0,1.0,-537037.8340327006,1.0,0.41730700399673704];
+const v2 = [2.2250738585072014e-308,4.0];
+const v6 = [-1.0,1.0,-1000000.0,-4.0,-1000.0,-2.0];
+const v7 = [-2.0];
+const v8 = [-5.0];
+function f9(a10, a11, a12) {
+    const o19 = {
+        "f": a10,
+        set d(a14) {
+            a14 = this;
+            try { new a10(...a10, 10, this, this); } catch (e) {}
+        },
+        "g": v2,
+        "d": v7,
+    };
+    return o19;
+}
+f9(f9(v7, -256, v8), 10, v2);
+const v22 = f9(f9, 127, v1);
+class C24 extends v22.constructor {
+    [v22];
+    static b = 127;
+    10000;
+}
+new C24();
+Object.defineProperty(v0, 10, { writable: true, enumerable: true, get: f9 });
+v6["entries"]();

@@ -1,0 +1,18 @@
+const v0 = [-2.2250738585072014e-308,-8.718490407368245];
+const v1 = [-764.7809092436495,-3.7074744456612008,2.2250738585072014e-308,0.6783406100641167,-1000000000000.0];
+const v2 = [0.2250864196235547,527403.7412462146,1.0,7.405956555702648e+306,2.0,-747742.1533416833,-0.0,-3.0,0.630391834782874];
+const v3 = [v2];
+const v5 = [v1,v0,[v1,v2,v1],v1,v0];
+new BigInt64Array(255);
+new Uint8ClampedArray(127);
+new BigInt64Array(7);
+let v15 = 0;
+do {
+    delete v1[6];
+    let v17;
+    try { v17 = v3.shift(); } catch (e) {}
+    delete v0[v17];
+    Object.defineProperty(v5, "length", { writable: true, value: v17 });
+    v17.b >>= v15;
+    v15++;
+} while (v15 < 8)

@@ -1,0 +1,57 @@
+const v2 = new Uint32Array(22);
+const v5 = new Int16Array(128);
+const v8 = new Uint8ClampedArray(115);
+class C9 extends Int16Array {
+    static #a = Int16Array;
+    #m(a11, a12) {
+        try {
+            this.e = 115;
+        } catch(e13) {
+        }
+        return v2;
+    }
+    o(a15, a16) {
+        let v17;
+        try { v17 = this.slice(128); } catch (e) {}
+        const t15 = 22;
+        t15[8] = 128;
+        v17 = this;
+        super[v5];
+        this.byteLength;
+        return v17;
+    }
+}
+const v20 = new C9();
+const v21 = new C9();
+const v22 = new C9();
+class C23 extends Uint32Array {
+    [Uint32Array];
+    toString(a25, a26) {
+        -new.target;
+        return Uint8ClampedArray;
+    }
+    constructor(a30, a31, a32) {
+        super(a30, 128, 22);
+        v20 <= v22;
+        v2[5] = a31;
+        C9[6] = v8;
+    }
+    4 = 115;
+    static 8 = 22;
+    static #g = v20;
+}
+const v34 = new C23(Uint8ClampedArray, v22, v20);
+const v35 = new C23(v21, v20, C9);
+new C23(v35, v22, Uint32Array);
+try {
+    v34.byteOffset = 22;
+} catch(e37) {
+}
+22 in v35;
+try {
+    C23.__proto__ = v21;
+} catch(e39) {
+}
+function f40() {
+    return Uint32Array;
+}

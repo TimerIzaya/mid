@@ -1,0 +1,37 @@
+function f6(a7, a8) {
+    const o15 = {
+        toString(a10, a11) {
+            const o12 = {
+            };
+            new Proxy(this, o12);
+            return o12;
+        },
+        __proto__: 994156760n,
+        [-1]: -942056.6481653729,
+        ...-1.7976931348623157e+308,
+        "e": -1215069771n,
+    };
+    return o15;
+}
+const v16 = f6(-1972504388n, -1215069771n);
+f6(-1972504388n, -1215069771n);
+f6(-1972504388n, 994156760n);
+new Date();
+function f21(a22, a23, a24) {
+    function f26(a27) {
+        let v28;
+        try { v28 = new a27(...a27, ...-942056.6481653729, f6, ...a22); } catch (e) {}
+        v28 = v16;
+        a27[Symbol.hasInstance];
+    }
+    this.onmessage = f26;
+    const v32 = new f26(a22);
+    this[128] = v32;
+    this.onmessage >>>= 320.08882576572387;
+}
+const v35 = [-942056.6481653729,-1215069771n,f6];
+const o36 = {
+    "arguments": v35,
+    "type": "function",
+};
+new Worker(f21, o36);

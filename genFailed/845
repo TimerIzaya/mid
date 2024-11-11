@@ -1,0 +1,39 @@
+function f0() {
+    const o4 = {
+        3189: -4.0,
+        ...-4.0,
+        "g": -1.0,
+        "b": -4.0,
+        "c": -1.0,
+        "d": 592922629,
+        __proto__: 592922629,
+        5: -1.0,
+        [592922629]: -1.0,
+        [-1.0]: -1.0,
+        "h": 592922629,
+        "a": -4.0,
+    };
+    return o4;
+}
+f0();
+f0();
+f0();
+const v10 = new Uint8ClampedArray(3);
+const v13 = new BigUint64Array(51);
+const v16 = new BigInt64Array(255);
+try {
+    v10.length = 0;
+} catch(e18) {
+}
+try {
+    Object.defineProperty(v16, 7, { writable: true, configurable: true, set: f0 });
+    delete v10[3];
+} catch(e20) {
+} finally {
+    v13[5] *= 255;
+    const v27 = ~25602;
+    (-0.0 ** f0) * f0;
+    Math.trunc(25602);
+    Math.sin(-0.0);
+    Math.imul(0, v27);
+}

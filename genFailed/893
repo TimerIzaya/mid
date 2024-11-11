@@ -1,0 +1,38 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function f2() {
+    return f1;
+}
+function f6(a7, a8, a9) {
+    const o13 = {
+        __proto__: a9,
+        111: a8,
+        "a": a9,
+        [f1]: v0,
+        "d": 54747n,
+        set e(a11) {
+            a7 ** -268435456n;
+        },
+        "h": a8,
+        "g": 54747n,
+    };
+    return o13;
+}
+const v14 = f6(54747n, 54747n, -46088n);
+f6(-46088n, -268435456n, -46088n);
+f6(-46088n, 54747n, v14);
+function f17(a18, a19, a20) {
+    Object.defineProperty(v14, "e", { configurable: true, enumerable: true, value: -268435456n });
+    v14[2405] += a20;
+    return a18;
+}
+f17(-268435456n, -268435456n, -268435456n);
+const v22 = new f2();
+v22();
+%PrepareFunctionForOptimization(v22);
+v22();
+v22();
+%OptimizeMaglevOnNextCall(v22);
+v22();

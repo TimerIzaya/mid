@@ -1,0 +1,78 @@
+function f0() {
+    const v2 = -Infinity;
+    const o8 = {
+        "f": v2,
+        10: v2,
+        set b(a5) {
+            const v6 = this + this;
+            let v7;
+            try { v7 = a5(v6, a5); } catch (e) {}
+            super.h = this;
+            v7[1] = "atan2";
+            var a = this;
+        },
+        __proto__: "-256",
+        "b": v2,
+        "g": v2,
+        ["atan2"]: v2,
+        "a": "-256",
+    };
+    return o8;
+}
+let v9 = f0();
+let v10 = f0();
+const v11 = f0();
+class C12 extends f0 {
+    #n(a14) {
+        f0 ^= a14;
+        v9[12] = this;
+        return this;
+    }
+    static #valueOf(a16) {
+        {
+            super[f0] = this;
+        }
+        const o17 = {
+        };
+        try {
+            o17.b = this;
+        } catch(e18) {
+        }
+        try {
+            const o19 = {
+            };
+            o19.b = this;
+            o19.a = v11;
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.b = this;
+            o21.a = v11;
+            o21.g = f0;
+        } catch(e22) {
+        }
+        try {
+            const o23 = {
+            };
+            o23.b = this;
+            o23.a = v11;
+            o23.g = v10;
+        } catch(e24) {
+        }
+        return o17;
+    }
+}
+new C12();
+let v26 = new C12();
+const v27 = new C12();
+for (const v34 of v27) {
+    v27[1556542092] = v34;
+}
+({"f":v9,"g":v10,...v26} = v10);
+try { v9(10, v11); } catch (e) {}
+try {
+    v26.toString = v10;
+} catch(e39) {
+}

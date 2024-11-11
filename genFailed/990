@@ -1,0 +1,22 @@
+class C3 {
+    #toString(a5) {
+        let {"a":v6,"c":v7,"h":v8,} = a5;
+        return ("p").__proto__;
+    }
+    constructor(a11, a12) {
+        super.b = a11;
+        const t7 = "p";
+        delete t7?.length;
+    }
+}
+const v17 = new C3(0.514975082983945, 0.514975082983945);
+new C3(v17, v17);
+const v19 = new C3(v17, 0.514975082983945);
+function f23(a24, a25, a26, a27) {
+    const o28 = {
+        "a": a27,
+        ...v17,
+    };
+    return o28;
+}
+f23(v19, f23(C3, f23("p", C3, -13, 8), -13, 8), -13, 128);

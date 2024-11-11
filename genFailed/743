@@ -1,0 +1,50 @@
+new Float64Array(8);
+new Int16Array(9);
+const v8 = new Float32Array(9);
+[-1000000000.0,-1000000000.0,1000000000000.0,-957625.1823255452,-242454.78459141334,-1e-15,1e-15,Infinity,1000000.0,-2.2250738585072014e-308];
+[0.0,767820.3098653173];
+const v11 = [-1e-15];
+class C12 extends Float64Array {
+    static 6;
+    static #g = Float64Array;
+    m(a14, a15, a16, a17) {
+        typeof a17 === "string";
+        return v8;
+    }
+    d;
+    #n(a22, a23, a24, a25) {
+        try {
+            a22.#g;
+        } catch(e27) {
+        }
+        return 9;
+    }
+}
+const v28 = new C12();
+new C12();
+const v30 = new C12();
+const o31 = {
+    __proto__: v30,
+    "a": Float32Array,
+    [Float64Array]: 9,
+    ...v11,
+};
+(v30 + o31) ^ v28;
+const v35 = Symbol.iterator;
+const o44 = {
+    [v35]() {
+        let v37 = 10;
+        const o43 = {
+            next() {
+                v37--;
+                const v41 = v37 == 0;
+                const o42 = {
+                    "done": v41,
+                    "value": v37,
+                };
+                return o42;
+            },
+        };
+        return o43;
+    },
+};

@@ -1,0 +1,40 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 255n;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(-4n, 544308348n);
+let v9 = new F3(255n, 544308348n);
+const v10 = new F3(-4n, 544308348n);
+const v12 = new WeakMap();
+function f13(a14, a15, a16) {
+    const o25 = {
+        3574: v9,
+        "g": a15,
+        __proto__: a16,
+        toString(a18, a19, a20, a21) {
+            typeof 544308348n === "function";
+            return "function";
+        },
+        "f": a16,
+        "d": F3,
+    };
+    return o25;
+}
+f13(544308348n, 255n, v10);
+const v27 = f13(544308348n, 255n, v8);
+const v28 = f13(-4n, -4n, v8);
+const v29 = v28 < f13;
+if (v29) {
+    let v32 = 2.1876342753207396;
+    const v33 = v32 ^ v27;
+    Math.atanh(255n);
+    (v33 ** v33) >>> v33;
+    v32++;
+} else {
+    v9 = v12;
+    const v39 = [v29];
+    Reflect.apply(v9.has, v28, v39);
+}

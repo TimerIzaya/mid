@@ -1,0 +1,63 @@
+class C3 {
+    static m(a5, a6) {
+        return a6;
+    }
+    constructor(a11, a12) {
+        const v14 = this[1073741823].__proto__;
+        const o15 = {
+        };
+        try {
+            o15.f = v14;
+        } catch(e16) {
+        }
+        try {
+            const o17 = {
+            };
+            o17.f = v14;
+            o17.e = this;
+        } catch(e18) {
+        }
+        try {
+            const o19 = {
+            };
+            o19.f = v14;
+            o19.e = this;
+            o19.h = 0.443704542983107;
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.f = v14;
+            o21.e = this;
+            o21.c = a11;
+        } catch(e22) {
+        }
+    }
+}
+const v23 = new C3(-1.0, -1.0);
+const v24 = new C3("defineProperties", 0.443704542983107);
+const v25 = new C3(v23, 0.443704542983107);
+class C26 {
+    #toString(a28, a29, a30) {
+        ({"f":a28,"g":a29,} = a30);
+        try {
+            this.#toString("defineProperties", v23, v23, 0.443704542983107);
+        } catch(e32) {
+        }
+        return this;
+    }
+    e;
+    2745 = v24;
+    static [-1.0];
+}
+new C26();
+const v34 = new C26();
+const v35 = new C26();
+let v37;
+try { v37 = C3["m"](...v35, v24, v23, C3, v34, ..."m"); } catch (e) {}
+v35[-1.0];
+("m")["defineProperties"];
+Object.defineProperty(C26, "m", { writable: true, enumerable: true, value: "m" });
+v34 | v25;
+try { v37(v24, v35); } catch (e) {}

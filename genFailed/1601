@@ -1,0 +1,35 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 1024;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+class C7 {
+    g = v5;
+    h;
+    m(a9) {
+        super[v4];
+        const o13 = {
+            "maxByteLength": 257,
+        };
+        const v15 = new ArrayBuffer(257, o13);
+        new Uint8ClampedArray(v15);
+        return v5;
+    }
+}
+new C7();
+new C7();
+new C7();
+new BigUint64Array(127);
+new Uint8Array(2);
+new Float64Array(2119);
+268435440n | v6;
+const o36 = {
+    "maxByteLength": 116,
+};
+const v38 = new SharedArrayBuffer(116, o36);
+new Uint32Array(v38);

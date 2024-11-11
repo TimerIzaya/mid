@@ -1,0 +1,31 @@
+const v3 = [-16,-16,-16];
+const v4 = [-16,v3];
+const v5 = [-16,v4,v4,-4294967295];
+let v7 = new WeakMap();
+class C8 extends WeakMap {
+    static #p(a10, a11, a12) {
+        class C13 extends WeakMap {
+            #d;
+            static #f;
+            e;
+        }
+        new C13();
+        new C13();
+        new C13();
+        return a11;
+    }
+    f = v5;
+    #h;
+    #d = -16;
+    [1000] = v3;
+}
+new C8();
+const v18 = new C8();
+const v19 = new C8();
+const v22 = [[v19,v19,[v4,v19,v19,v7,1000],-4294967295]];
+v22 * v19;
+[...v7] = v5;
+const v28 = [v7,C8];
+const v29 = v22.findIndex;
+const v30 = Reflect.apply(v29, v18, v28);
+try { new v29(v30, v19); } catch (e) {}

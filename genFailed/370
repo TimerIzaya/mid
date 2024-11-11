@@ -1,0 +1,47 @@
+class C3 {
+    constructor(a5, a6) {
+        a6.f |= -5.408103666902013e+307;
+        class C8 extends this.constructor {
+            static [a6] = "sign";
+            static #a = a5;
+        }
+        new C8();
+    }
+    static p(a11) {
+        try {
+            super.getTime();
+        } catch(e13) {
+        }
+        return;
+        return -5.408103666902013e+307;
+    }
+}
+const v14 = new C3(29.753649537534784, -5.408103666902013e+307);
+const v15 = new C3(v14, 29.753649537534784);
+new C3(v14, "sign");
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = C3;
+    } catch(e23) {
+    }
+    try {
+        this.c = v15;
+    } catch(e24) {
+    }
+}
+const v25 = new F17(C3, v14, v15, v14);
+const v26 = new F17(v25, v25, v15, v25);
+const v27 = new F17(v26, "sign", v25, v25);
+let v31;
+try { v31 = ("undefined").codePointAt("2"); } catch (e) {}
+try { v31(-5.408103666902013e+307, "-51014", v27, v26); } catch (e) {}
+for (let v33 = 0; v33 < 32; v33++) {
+    const t39 = "undefined";
+    t39["p" + v33] = v33;
+}
+const o38 = {
+    "maxByteLength": 71,
+};
+const v40 = new SharedArrayBuffer(10, o38);
+new Int8Array(v40);

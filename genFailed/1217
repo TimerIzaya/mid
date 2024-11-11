@@ -1,0 +1,39 @@
+const v2 = new Array(0);
+function f3(a4) {
+    const o8 = {
+        "a": Array,
+        __proto__: Array,
+        ...v2,
+        "d": 0,
+        "h": 0,
+        "b": 0,
+        get f() {
+            for (let v6 = 0; v6 < 100; v6++) {
+                Array(0);
+            }
+            return v2;
+        },
+        [-1]: 0,
+        "f": a4,
+    };
+    return o8;
+}
+const v9 = f3(v2);
+const v10 = f3(f3);
+f3(v9);
+[-10,5n,...("3").repeat(v9, 7n, 7n, 536870912, 7n, 7n)];
+const v26 = v10[1];
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = "3";
+    } catch(e32) {
+    }
+    try {
+        this.a = 5n;
+    } catch(e33) {
+    }
+}
+new F27(-10, v26, -10);
+new F27(4, 1073741824n, 536870912);
+new F27(0, 1073741824n, 536870912);

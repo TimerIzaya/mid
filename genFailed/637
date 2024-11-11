@@ -1,0 +1,25 @@
+class C6 {
+    static #valueOf(a8, a9) {
+        const v10 = a9 >= -873234933;
+        this[a8] = v10;
+        let v11;
+        try { v11 = this.valueOf(0, this, -2.0, -1000000000.0); } catch (e) {}
+        try { new v11(-1000000000.0, v10, -1000000000.0, v10, -42887); } catch (e) {}
+        return v11;
+    }
+    static 2147483649;
+    static #h = 5.0;
+    d;
+}
+new C6();
+const v14 = new C6();
+new C6();
+for (let [v16,...v17] of -2.0) {
+    try {
+        C6.fuck(v14, v16, -42887);
+    } catch(e19) {
+    }
+}
+for (let v20 = 0; v20 < 32; v20++) {
+    v14["p" + v20] = v20;
+}

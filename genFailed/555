@@ -1,0 +1,46 @@
+const v3 = [-1353782398,-7];
+const v4 = [-268435456,9007199254740990,-60697,1073741823,-256,1073741823,536870888];
+const v5 = [2147483648,836777940,2147483648,-2,256,256,4096,2057893788];
+const v8 = new Map();
+class C9 extends Map {
+    constructor(a11, a12) {
+        super(a11);
+        super[v8] = a12;
+    }
+    static [-1] = "maxByteLength";
+    static 255;
+    static 1;
+    static 5 = v5;
+    static ["maxByteLength"] = "maxByteLength";
+}
+new C9("h", v4);
+let v17 = new C9("nYa8t", v4);
+const v18 = new C9("h", v3);
+try { v18(v8, v18, v4, "nYa8t", v18); } catch (e) {}
+function f20(a21, a22, a23) {
+    function f25(a26) {
+        a22.c |= a26;
+        v17 **= this;
+    }
+    this.onmessage = f25;
+    const o27 = {
+        "construct": f25,
+        "defineProperty": f25,
+        "deleteProperty": f25,
+        "get": f25,
+        "getPrototypeOf": f25,
+        "has": f25,
+        "isExtensible": f25,
+        "ownKeys": f25,
+        "preventExtensions": f25,
+        "set": f25,
+        "setPrototypeOf": f25,
+    };
+    new Proxy(C9, o27);
+}
+const v32 = [v18,C9,"function"];
+const o33 = {
+    "arguments": v32,
+    "type": "function",
+};
+new Worker(f20, o33);

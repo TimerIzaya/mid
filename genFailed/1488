@@ -1,0 +1,27 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 536870912;
+    } catch(e3) {
+    }
+    try {
+        this.a = 536870912;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+const v7 = new F0();
+new Date();
+const v15 = new Int8Array(17);
+new Float64Array(0);
+const v21 = new Uint8ClampedArray(636);
+Object.defineProperty(v15, 1557, { value: v21 });
+let v22 = 0;
+while (v22 < 3) {
+    try {
+        v7.d = 9n;
+    } catch(e26) {
+    }
+    v22++;
+}

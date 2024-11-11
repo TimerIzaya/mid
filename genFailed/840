@@ -1,0 +1,64 @@
+function f3(a4) {
+    const o18 = {
+        ...-16,
+        "b": a4,
+        "f": -16,
+        "d": -16,
+        "g": a4,
+        "h": 5,
+        "c": 4096,
+        "a": 4096,
+        p(a6, a7) {
+            Math.imul(-((this - -44322) - -44322), 5);
+            return this >> -44322;
+        },
+    };
+    return o18;
+}
+const v19 = f3(5);
+const v20 = f3(5);
+const v21 = f3(-16);
+function f22() {
+    return 5;
+}
+function f23(a24, a25, a26, a27) {
+    const o44 = {
+        "h": v21,
+        "f": f22,
+        toString(a29, a30) {
+            v21 == this ? v21 : this;
+            const v34 = Symbol.iterator;
+            const o43 = {
+                [v34]() {
+                    let v36 = 10;
+                    const o42 = {
+                        next() {
+                            v36--;
+                            const v40 = v36 == 0;
+                            const o41 = {
+                                "done": v40,
+                                "value": v36,
+                            };
+                            return o41;
+                        },
+                    };
+                    return o42;
+                },
+            };
+            return this;
+        },
+    };
+    return o44;
+}
+const v46 = f23(4096, v20, f23(5, v19, f22, 5), -16);
+const v47 = f23(-16, v21, v46, 4096);
+const o51 = {
+    __proto__: v46,
+    "h": "4294967295",
+    5: v47,
+};
+Object.defineProperty(o51, v47, { configurable: true, get: f3 });
+try {
+    new f22();
+} catch(e53) {
+}

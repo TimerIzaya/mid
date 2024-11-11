@@ -1,0 +1,45 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = "toString";
+    } catch(e7) {
+    }
+    try {
+        this.b = "toString";
+    } catch(e8) {
+    }
+    try {
+        this.c = "toString";
+    } catch(e9) {
+    }
+}
+const v10 = new F3("toString", "toString");
+const v11 = new F3("toString", "valueOf");
+const v12 = new F3("toString", "dotAll");
+function f13(a14, a15) {
+    const o21 = {
+        "h": a15,
+        [a15]: v11,
+        [a15](a17, a18, a19) {
+            try {
+                a15.b = "toString";
+            } catch(e20) {
+            }
+            return a18;
+        },
+        "f": v12,
+        ["valueOf"]: F3,
+    };
+    return o21;
+}
+f13(v11, "dotAll");
+f13(v10, "toString");
+const v24 = f13(v12, "valueOf");
+const v26 = Symbol.species;
+("valueOf")[v26];
+const v28 = v24 >>> v24;
+"toString" != v28 ? "toString" : v28;
+try { v26.o(v24); } catch (e) {}
+[249.9629906080097,0.9506024062264445,Infinity,1.7976931348623157e+308,-1000000.0];
+[2.0];
+[2.0,6.718857750170965,2.2250738585072014e-308,-5.2154017310977,2.4878608586603725];

@@ -1,0 +1,26 @@
+const v3 = /[\cz]Y?/vims;
+const v4 = /Ylfoo(?<=bar)baz+/gi;
+const v5 = /[a()]/gvm;
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = Infinity;
+    } catch(e13) {
+    }
+    try {
+        this.h = 0;
+    } catch(e14) {
+    }
+}
+const v15 = new F9(v5, -9);
+new F9(v3, 0);
+const v17 = new F9(v4, 9007199254740992);
+const v18 = [9007199254740992,v15];
+[9007199254740992,v18,v4,v3];
+[9007199254740992];
+function f24() {
+    return v18;
+}
+let v26;
+try { v26 = v15["n"](v17, 32958n, 32958n, 65535n, 65535n); } catch (e) {}
+v4 instanceof v26;

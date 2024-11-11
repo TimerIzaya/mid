@@ -1,0 +1,46 @@
+function f0() {
+    const o13 = {
+        ...45925,
+        "f": -20085,
+        get a() {
+            for (let v5 = 0; v5 < 32; v5++) {
+                this["p" + v5] = v5;
+            }
+            const o11 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o11);
+            return gc;
+        },
+    };
+    return o13;
+}
+const v14 = f0();
+f0();
+f0();
+const v17 = [4294967295,257,6,-2147483649,-12,19089,5,536870887,1551475789];
+[48976,16,9007199254740991,-9007199254740992,5];
+const v19 = [-1024,-14,49144,-4096];
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a22;
+    } catch(e24) {
+    }
+}
+new F20(v19, v14);
+const v26 = new F20(v17, F20);
+new F20(v19, v26);
+new Int8Array(1024);
+new Int8Array(62);
+new Uint32Array(4002);
+class C37 extends Int8Array {
+    790320247 = F20;
+    static #g;
+}
+new C37();
+new C37();
+new C37();
+f0() ** Int8Array;
+let {"a":v43,"e":v44,"f":v45,} = v14;

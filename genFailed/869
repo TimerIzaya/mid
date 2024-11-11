@@ -1,0 +1,72 @@
+class C3 {
+    valueOf(a5) {
+        const v8 = ~"eie";
+        const v9 = ~1967389966;
+        1967389966 * v8;
+        +1967389966;
+        const v12 = ~v9;
+        ~"eie";
+        v12 - v8;
+        return "-536870912";
+    }
+    ["b"];
+    ["eie"] = "-536870912";
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+function f18(a19, a20) {
+    const o29 = {
+        "e": a19,
+        __proto__: a20,
+        "h": "-536870912",
+        "c": a19,
+        "b": "b",
+        "a": "eie",
+        ["-536870912"]: a20,
+        [v16](a22, a23) {
+            this[7] = this;
+            function f24() {
+                return v17;
+            }
+            f24();
+            %PrepareFunctionForOptimization(f24);
+            f24();
+            f24();
+            %OptimizeFunctionOnNextCall(f24);
+            f24();
+            return v15;
+        },
+    };
+    return o29;
+}
+const v30 = f18(v15, v17);
+f18(v30, C3);
+const v32 = f18(v17, v16);
+class C33 extends C3 {
+    m(a35, a36, a37) {
+        try {
+            new C3();
+        } catch(e39) {
+        }
+        return a35;
+    }
+    p(a41, a42, a43) {
+        super[v17] = a43;
+        super["bigint"];
+        a41["2"] = "-536870912";
+        a43[1643440981] = "bigint";
+        return v30;
+    }
+}
+new C33();
+const v49 = new C33();
+new C33();
+Object.defineProperty(v17, C3, { configurable: true, enumerable: true, get: f18, set: f18 });
+v15[v32] = v49;
+const v51 = C33[v49];
+for (let v53 = 0; v53 < 32; v53++) {
+    v51["p" + v53] = v53;
+}
+const t70 = "b";
+t70[C3] = C33;

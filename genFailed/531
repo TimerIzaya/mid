@@ -1,0 +1,20 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a10;
+    } catch(e11) {
+    }
+}
+new F6("-9223372036854775808", "5C", "-9223372036854775808");
+new F6("-1514175277", "undefined", "-1514175277");
+new F6("1jq", "undefined", "-9223372036854775808");
+for (let v15 = 0; v15 < 32; v15++) {
+    const t11 = "nGBA1";
+    t11["p" + v15] = v15;
+}
+("-1514175277")[-1];
+const o21 = {
+    "maxByteLength": 10000,
+};
+const v23 = new SharedArrayBuffer(327, o21);
+new BigInt64Array(v23);

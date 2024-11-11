@@ -1,0 +1,72 @@
+function f0() {
+    const o12 = {
+        "g": "flags",
+        "a": "iB",
+        "c": -5.895634494667743e+307,
+        "e": "iB",
+        5: "flags",
+        ["iB"]: "iB",
+        "d": -5.895634494667743e+307,
+        set f(a5) {
+            try {
+                ("flags").substring(666504809, 666504809);
+            } catch(e8) {
+            }
+        },
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0();
+class C16 {
+    #h;
+    static #f = f0;
+    [v15] = v14;
+    set b(a18) {
+        super.d = v15;
+        for (const v19 in v13) {
+            Object.defineProperty(v13, "d", { writable: true, value: v19 });
+            ~f0;
+            f0();
+        }
+    }
+    #d;
+    #c;
+}
+new C16();
+const v23 = new C16();
+const v24 = new C16();
+function f25(a26, a27) {
+    const o31 = {
+        [a26]: a27,
+        [v23]: C16,
+        "b": v13,
+        2: v15,
+        __proto__: a27,
+        get h() {
+            const v29 = f0();
+            Object.defineProperty(v29, this, { writable: true, set: f0 });
+            this[10000];
+            return v29;
+        },
+        "e": a27,
+        10000: a27,
+    };
+    return o31;
+}
+const v32 = f25(C16, v24);
+f25(v14, C16);
+f25(v13, v24);
+[-34831,-347481655];
+[-59360,9007199254740992];
+const v37 = [2,-63127,2,-7,-128,-65537,255];
+new Set();
+Object.defineProperty(v37, 4096, { writable: true, get: f25, set: f25 });
+v14.__proto__;
+const o41 = {
+    [v37]: v32,
+};
+function f42() {
+    return v13;
+}

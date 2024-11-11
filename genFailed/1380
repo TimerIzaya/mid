@@ -1,0 +1,61 @@
+class C3 {
+    get f() {
+        this.__proto__;
+        return 0.0;
+    }
+    p(a7) {
+        try {
+            this.__proto__ = this;
+        } catch(e8) {
+        }
+        const o9 = {
+        };
+        try {
+            o9.c = -1000.0;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.c = -1000.0;
+            o11.a = 0.0;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.c = -1000.0;
+            o13.a = 0.0;
+            o13.f = this;
+        } catch(e14) {
+        }
+        try {
+            const o15 = {
+            };
+            o15.c = -1000.0;
+            o15.a = 0.0;
+            o15.f = this;
+        } catch(e16) {
+        }
+        return a7;
+    }
+}
+const v17 = new C3();
+let v18 = new C3();
+const v19 = new C3();
+const v20 = /Ma\sc?/gudms;
+const v21 = /[\x01]/gudisy;
+const v22 = /(9a\s\xed\xa0\x80(?:ab){4,7})/vmy;
+const v23 = [4,-9223372036854775808,10000];
+[-9223372036854775807,65537];
+[10,-8,-1190482048,-256];
+v18 >>= v17;
+v17.p(v21, v20, v22, -1000000000.0, v19);
+const v31 = typeof (-1000000000.0 == v17);
+v31 === "boolean";
+const v34 = C3[v18];
+v34[v20] = v31;
+try {
+    v23.d = v34;
+} catch(e35) {
+}

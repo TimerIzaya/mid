@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 3;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+new F0();
+const v7 = [-11059,255];
+let v8 = [-39130,1073741823,2147483648,9007199254740991,2147483649,536870912,2689];
+const v9 = [23631,9007199254740990,-2147483647,9223372036854775807,-1649422292];
+const v15 = new Uint8ClampedArray(98);
+const v18 = new Uint8ClampedArray(6);
+const v21 = new Float32Array(0);
+v8 >>>= v9;
+const v22 = v4[1357];
+const v23 = v5[3];
+v18 * v22;
+v22[v9] = 6;
+if (v22) {
+    let v25;
+    try { v25 = v15.filter(v23, v5); } catch (e) {}
+    const v27 = [v22,v25];
+    Reflect.apply(v21.reduce, v25, v27);
+} else {
+    new Float32Array(v7, 5, 14257);
+}

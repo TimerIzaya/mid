@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 11165;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+class C7 extends F0 {
+    [v6];
+    static get a() {
+        v6[Symbol.unscopables] = F0;
+        return v4;
+    }
+    constructor(a12) {
+        super();
+        super[v4] = a12;
+        this in v4;
+        try {
+            a12.length = 791492422;
+        } catch(e15) {
+        }
+    }
+}
+const v16 = new C7(v4);
+new C7(C7);
+new C7(v16);
+new BigInt64Array(1000);
+new Int16Array(1000);
+new Float32Array(973);
+let v29 = 128;
+const v31 = -Infinity;
+v29--;
+v29 >> Int16Array;
+-9223372036854775808 | v31;
+/a(?:b)1Fd(?<=)*/uimy;
+/[\ca]/gvims;
+/Nxyz{1,32}/gudiy;

@@ -1,0 +1,28 @@
+new Int32Array(6);
+const v5 = new Int16Array(6);
+new Uint16Array(512);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = Uint16Array;
+    } catch(e15) {
+    }
+    try {
+        this.c = a12;
+    } catch(e16) {
+    }
+    try {
+        this.b = Int32Array;
+    } catch(e17) {
+    }
+}
+const v18 = new F9(6, 6, 6, 6);
+new F9(6, 512, 6, 6);
+new F9(6, 6, 6, 6);
+new WeakSet();
+for (let [v23,v24] of v5) {
+    function f25() {
+        return v24;
+    }
+}
+F9 in v18;

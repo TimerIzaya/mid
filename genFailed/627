@@ -1,0 +1,51 @@
+function f0() {
+    const o10 = {
+        "h": "matchAll",
+        "a": 11,
+        "g": 4.0,
+        "d": 11,
+        "c": "matchAll",
+        "b": 4.0,
+        [11]: "matchAll",
+        p(a5) {
+            try { new a5(this, this, 4.0); } catch (e) {}
+            [-4294967295,1080806008,-2067356070,-4294967296,573456696,0];
+            [1633804213,14358,4294967295,9007199254740990,-23302,7,268435441,1073741825];
+            [-7,-1904565197,-1,-15];
+            return 4.0;
+        },
+    };
+    return o10;
+}
+f0();
+const v12 = f0();
+const v13 = f0();
+class C14 extends f0 {
+    f;
+    constructor(a16) {
+        super();
+        super[v13];
+    }
+    static #valueOf(a22, a23) {
+        const o27 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o27);
+        return v13;
+    }
+}
+const v29 = new C14(C14);
+const v30 = new C14(v29);
+const v31 = new C14(v12);
+[v31,v30,v31];
+const v33 = [f0];
+[v33,v33,v13,v13,v13];
+const v38 = -1148787720 / v33;
+Object.defineProperty(v29, 1, { writable: true, get: f0 });
+v38 < 1825656959 ? v38 : 1825656959;
+const v43 = Reflect.construct(C14, [v31], C14);
+try {
+    v12.p(C14, v43, v33);
+} catch(e45) {
+}

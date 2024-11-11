@@ -1,0 +1,70 @@
+function f0() {
+}
+class C4 extends f0 {
+    #m(a6) {
+        const o10 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o10);
+        return 1.15375787763548e+308;
+    }
+    static [1.49432619596999e+308];
+}
+const v12 = new C4();
+const v13 = new C4();
+const v14 = new C4();
+class C15 extends f0 {
+    d = 1.15375787763548e+308;
+    constructor(a17, a18) {
+        super();
+        a18 -= a17;
+        super.g += -1000000000.0;
+        var g = v12;
+        a17 = 1.49432619596999e+308;
+        const o19 = {
+        };
+        try {
+            o19.h = a17;
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.h = a17;
+            o21.g = a17;
+        } catch(e22) {
+        }
+        try {
+            const o23 = {
+            };
+            o23.h = a17;
+            o23.g = a17;
+            o23.c = v13;
+        } catch(e24) {
+        }
+        try {
+            const o25 = {
+            };
+            o25.h = a17;
+            o25.g = a17;
+            o25.c = v14;
+        } catch(e26) {
+        }
+    }
+}
+new C15(-1000000000.0, 1.15375787763548e+308);
+const v28 = new C15(-1000000000.0, 1.49432619596999e+308);
+new C15(-1000000000.0, 1.15375787763548e+308);
+const v30 = v13.constructor;
+class C31 extends v30 {
+    2;
+    [v14];
+    2256 = v28;
+}
+const v32 = new C31();
+let v33;
+try { v33 = v32.join(C31, v12, v32); } catch (e) {}
+let v34;
+try { v34 = v33(v33, v13); } catch (e) {}
+v30 instanceof v34;

@@ -1,0 +1,31 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 16;
+    } catch(e3) {
+    }
+    try {
+        this.d = 16;
+    } catch(e4) {
+    }
+    try {
+        this.h = 16;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+new F0();
+function f9() {
+    return F0;
+}
+[1652400693,-18021,-12,-9007199254740992,268435456];
+[-2147483649,1073741824,-9,-2090156379,13,65536,16,-56475,-2147483647,31462];
+[536870889,-928934514,-1,-307168257,536870887,-1829682915];
+for (let v16 = 0; v16 < 32; v16++) {
+    v7["p" + v16] = v16;
+}
+v7 && v6;
+new f9();
+Object.defineProperty(v6.d, 3989, { configurable: true, value: 747827.6020191698 });
+F0 | v7;

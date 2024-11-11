@@ -1,0 +1,26 @@
+new Date();
+class C8 {
+    get g() {
+        const o13 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o13);
+        return "sync";
+    }
+    c = -45832;
+}
+new C8();
+new C8();
+new C8();
+Object.defineProperty("valueOf", -45832, { writable: true, set: Date });
+try {
+    Date(-45832);
+} catch(e19) {
+}
+Object.defineProperty(Date, 7, { writable: true, configurable: true, enumerable: true, get: Date, set: Date });
+const o22 = {
+    "maxByteLength": 218,
+};
+const v24 = new ArrayBuffer(2, o22);
+new Uint16Array(v24);

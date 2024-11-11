@@ -1,0 +1,48 @@
+const v0 = [-15249,-25365,268435441,-1915218768,5];
+const v1 = [325618041,-6885,10,5824,-42705,-256,-30747,2147483649];
+const v2 = [6,-14291,536870912,16,4294967297,-19130,536870888,268435439,10];
+let v5 = new Array(16);
+function f6(a7, a8, a9) {
+    const o18 = {
+        "b": v0,
+        ...Array,
+        "e": v5,
+        [a9](a11, a12, a13) {
+            a13 in a9;
+            super.e;
+            try {
+                Array(16);
+            } catch(e17) {
+            }
+            return Array;
+        },
+    };
+    return o18;
+}
+const v19 = f6(v1, v1, v2);
+const v20 = f6(v1, v19, v0);
+f6(v0, v20, v2);
+class C22 {
+    static #toString(a24, a25, a26) {
+        v5 = Array(a26);
+        return v19;
+    }
+    static #d = f6;
+    #a;
+    static 4;
+    #h = v5;
+}
+new C22();
+const v32 = new C22();
+new C22();
+function f35(a36, a37, a38) {
+    const o39 = {
+        1: v0,
+        "d": a37,
+        [a37]: v0,
+    };
+    return o39;
+}
+f35(g, v20, C22);
+f35(C22, v20, g);
+f35(v19, v20, v32);

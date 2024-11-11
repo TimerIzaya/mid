@@ -1,0 +1,66 @@
+const v0 = [-7956,-311839818,-128,536870912,-4294967295,268435456,-536870912];
+const v1 = [-9223372036854775808,9223372036854775807,1,4,1024];
+let v2 = [-16,-26922,-2110190655,-397320710,20520];
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a5;
+    } catch(e6) {
+    }
+    try {
+        this.e = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(v2);
+new F3(v1);
+const v10 = new F3(v2);
+class C11 {
+    static [v1] = F3;
+    get f() {
+        return "268435456";
+    }
+    p(a17, a18, a19, a20) {
+        -597506.1452339173 + v10;
+        ++v2;
+        ++v2;
+        return 1024;
+    }
+}
+const v28 = new C11();
+const v29 = new C11();
+const v30 = new C11();
+function f31(a32, a33, a34, a35) {
+    const o39 = {
+        "d": a35,
+        __proto__: v0,
+        "c": v2,
+        3: v0,
+        ...C11,
+        set b(a37) {
+            try {
+                this.toString = a34;
+            } catch(e38) {
+            }
+        },
+        268435439: a33,
+        ...v30,
+        ...a32,
+    };
+    return o39;
+}
+f31(v30, v10, v1, v2);
+f31(v29, v10, v8, v28);
+f31(v28, v10, v28, v28);
+let v43;
+try { v43 = v10.o(v1); } catch (e) {}
+Reflect.construct(v43, [v2], f31);
+for (const v47 of v1) {
+    const v48 = C11 == v47;
+    try { v8.p(v48, v47, v48, v48); } catch (e) {}
+    const o52 = {
+        "maxByteLength": 12,
+    };
+    const v54 = new ArrayBuffer(12, o52);
+    new Int8Array(v54);
+}

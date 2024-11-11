@@ -1,0 +1,43 @@
+class C3 {
+    set f(a5) {
+        /Ma.(?<=)/gm;
+        /aJ/uims;
+        /(?:a*)*/guiy;
+    }
+    ["10575"] = 129;
+    [255];
+    2162975621;
+    #a = 255;
+    static 2147483648;
+}
+const v9 = new C3();
+const v10 = new C3();
+let v11 = new C3();
+function f12(a13, a14, a15) {
+    const o23 = {
+        4: "10575",
+        [v10]: v10,
+        valueOf(a17, a18, a19, a20) {
+            super.h;
+            v11 &= a20;
+            try {
+                this.__proto__ = "10575";
+            } catch(e22) {
+            }
+            return a19;
+        },
+    };
+    return o23;
+}
+const v24 = f12(v9, v10, v9);
+const v25 = f12(C3, v9, C3);
+f12(v10, v10, v10);
+const o27 = {
+    [v11]: v11,
+    7: f12,
+    ...v24,
+    __proto__: v9,
+};
+try { C3.valueOf(v9, v25, v9, v11); } catch (e) {}
+Object.defineProperty(v9, "g", { writable: true, get: f12 });
+delete SharedArrayBuffer?.prototype;

@@ -1,0 +1,44 @@
+function f3() {
+    return 1741878919;
+}
+let v4 = [-65536];
+[v4];
+const v6 = [f3,1741878919,-65536,v4];
+class C7 {
+    [1507760238] = 1741878919;
+    constructor(a9, a10) {
+        const v12 = Symbol.iterator;
+        const o21 = {
+            [v12]() {
+                let v14 = 10;
+                const o20 = {
+                    next() {
+                        v14--;
+                        const v18 = v14 == 0;
+                        const o19 = {
+                            "done": v18,
+                            "value": v14,
+                        };
+                        return o19;
+                    },
+                };
+                return o20;
+            },
+        };
+    }
+}
+new C7(1507760238, 1741878919);
+const v23 = new C7(-65536, -65536);
+const v24 = new C7(1741878919, 1507760238);
+v23[0] = -65536;
+const v26 = new Set();
+let v27;
+try { v27 = v23.o(v23, v26, v24); } catch (e) {}
+Reflect.construct(f3, [], v27);
+Reflect[1507760238] = 1741878919;
+v4 = v6;
+const o34 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o34);

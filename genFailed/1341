@@ -1,0 +1,50 @@
+function f0() {
+    const o7 = {
+        get a() {
+            try {
+                super.toString(this, -1000.0, -1000.0, "cas");
+            } catch(e6) {
+            }
+            return -1000.0;
+        },
+        "d": -1000.0,
+        "b": "cas",
+        536870912: 9,
+        9: -1000.0,
+        "c": -1000.0,
+        6: -1000.0,
+        "h": "cas",
+    };
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+class C11 extends f0 {
+    p(a13, a14) {
+        function f15(a16) {
+            return a16;
+        }
+        class C17 extends f15 {
+            [v9] = f0;
+        }
+        return v10;
+    }
+    static 1073741823;
+    static f;
+    static [f0] = v10;
+    4 = v8;
+    static e;
+}
+new C11();
+const v19 = new C11();
+const v20 = new C11();
+"toStringTag" == -14;
+const v29 = [v9,v20,v8];
+Reflect.apply(v20.p, "function", v29);
+try {
+    const t45 = "toStringTag";
+    t45.__proto__ = "e";
+} catch(e32) {
+}
+C11 >= v19;

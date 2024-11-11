@@ -1,0 +1,52 @@
+const v2 = new Float32Array(64);
+const v5 = new Uint32Array(257);
+new BigInt64Array(11);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = Float32Array;
+    } catch(e13) {
+    }
+    try {
+        this.e = 64;
+    } catch(e14) {
+    }
+    try {
+        this.a = Uint32Array;
+    } catch(e15) {
+    }
+}
+const v16 = new F9(64, 11);
+new F9(64, 64);
+const v18 = new F9(257, 257);
+function f19(a20, a21) {
+    const o26 = {
+        [11]: 11,
+        get d() {
+            const v23 = v2;
+            super[a21];
+            delete v16[v5];
+            super.b &&= 64;
+            return 64;
+        },
+        "b": v2,
+        "c": 257,
+        "d": a20,
+        [v5]: Uint32Array,
+        "g": a20,
+        "a": 64,
+        __proto__: v2,
+    };
+    return o26;
+}
+f19(11, v18);
+f19(257, v16);
+f19(11, v16);
+try {
+    new BigInt64Array(-4294967295, 65536, 257);
+} catch(e33) {
+}
+v2[257];
+/(a[^a])/vds;
+/a+0[a(?=b)]/vi;
+/TDe(?=a){0,10}a/gy;

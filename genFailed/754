@@ -1,0 +1,71 @@
+const v1 = new Date();
+function f2(a3) {
+    const o9 = {
+        [a3](a5, a6) {
+            this[Date] = a3;
+            for (let v7 = 0; v7 < 100; v7++) {
+                Date(a5);
+            }
+            return v1;
+        },
+        "e": v1,
+        "c": v1,
+        "b": Date,
+        [a3]: Date,
+        __proto__: a3,
+        [v1]: Date,
+        [Date]: a3,
+    };
+    return o9;
+}
+const v10 = f2(f2);
+const v11 = f2(v10);
+const v12 = f2(f2);
+class C13 {
+    static #p(a15, a16, a17) {
+        a15 = this;
+        Date["UTC"](a16, a16, a16, a16, a16, a16);
+        return a16;
+    }
+    d;
+    constructor(a21, a22, a23, a24) {
+        if (a23 === this) {
+            f2(this);
+            Math.acos(a21);
+            const v31 = --a21;
+            let v32 = ~0.14449253939755646;
+            v32--;
+            Math.acosh(v31);
+        } else {
+            const v35 = f2 + Date;
+            try {
+                a22.#p(v35, v10);
+            } catch(e37) {
+            }
+        }
+    }
+}
+new C13(v12, v11, v11, v11);
+const v39 = new C13(v1, v10, v10, C13);
+const v40 = new C13(v11, v10, C13, v10);
+const v41 = [v40,Date,v40];
+const v42 = [C13,v41];
+[v42];
+function F44(a46, a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a48;
+    } catch(e49) {
+    }
+}
+const v50 = new F44(C13, C13, C13);
+new F44(v10, v50, Date);
+new F44(C13, v39, v42);
+Date(Date);
+Date(v12);
+class C57 extends f2(F44).constructor {
+    e = v41;
+    #a;
+    static f;
+}
+new C57();

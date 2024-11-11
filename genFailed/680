@@ -1,0 +1,26 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 1467274761;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f7() {
+    return v6;
+}
+const v9 = new Map();
+new BigInt64Array(66);
+const v15 = new Float32Array(1347);
+let v17 = BigInt64Array;
+const v18 = new v17(699);
+v9.size;
+--v17;
+try { v18.at(699); } catch (e) {}
+const v25 = 536870887n + BigInt64Array;
+v15.reduceRight(...v9, v25, v25, 536870887n, ...v18, v5);
+for (let v27 = 0; v27 < 100; v27++) {
+    f7();
+}

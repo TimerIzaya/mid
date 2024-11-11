@@ -1,0 +1,45 @@
+class C3 {
+    static [11];
+    e = 11;
+    static set e(a5) {
+        new Uint16Array(7);
+        new Uint32Array(1024);
+        new Uint32Array(4039);
+    }
+    a = "bigint";
+    ["setMilliseconds"] = "bigint";
+}
+const v15 = new C3();
+new C3();
+const v17 = new C3();
+class C18 extends C3 {
+    constructor(a20, a21, a22) {
+        super();
+        try { new a20("bigint", a22, a21, a21, 11); } catch (e) {}
+        v15[-1];
+    }
+    static get c() {
+        try {
+            super.toString("4");
+        } catch(e30) {
+        }
+        return "4";
+    }
+}
+const v31 = new C18(v15, v17, v17);
+const v32 = new C18("bigint", C3, v31);
+const v33 = new C18("bigint", C3, v32);
+const v39 = new Array(3692);
+try { v39.splice(11); } catch (e) {}
+Object.defineProperty("toUTCString", v33, { writable: true, configurable: true, enumerable: true, value: Array });
+C18 in C18;
+try {
+    const t36 = "toUTCString";
+    t36.__proto__ = C3;
+} catch(e42) {
+}
+const o45 = {
+    "maxByteLength": 2147483647,
+};
+const v47 = new ArrayBuffer(512, o45);
+new DataView(v47);

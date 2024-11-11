@@ -1,0 +1,36 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 6;
+    } catch(e3) {
+    }
+    try {
+        this.c = 6;
+    } catch(e4) {
+    }
+    try {
+        this.e = 6;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+new F0();
+const v17 = new Float64Array(129);
+const v20 = new BigUint64Array(1692);
+const v23 = new Int16Array(16);
+const v24 = new Int16Array(v23, 83718380, 293205853);
+for (const v25 in v17) {
+    v24[v25] = v25;
+    const v26 = v25 || v23;
+    try { v25(v20, v26); } catch (e) {}
+    v6[BigUint64Array];
+}
+Object.defineProperty(v20, 4, { writable: true, configurable: true, enumerable: true, value: 293205853 });
+129 ** Float64Array;
+try {
+    const o30 = {
+    };
+    new Float64Array(o30);
+} catch(e32) {
+}

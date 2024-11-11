@@ -1,0 +1,30 @@
+class C3 {
+    set g(a5) {
+        a5 *= "Jl";
+    }
+    static set h(a7) {
+        const v9 = Symbol.match;
+        a7[v9] = "Jl";
+        try { a7.toString(this, v9, "Jl", 1024, "n"); } catch (e) {}
+    }
+    b = 1024;
+    d = "n";
+}
+new C3();
+new C3();
+new C3();
+function f17() {
+    return "n";
+}
+{
+    Object.defineProperty("Jl", 246, { configurable: true, set: f17 });
+    try {
+        new f17();
+    } catch(e19) {
+    }
+}
+f17();
+try {
+    new f17();
+} catch(e22) {
+}

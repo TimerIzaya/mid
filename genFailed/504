@@ -1,0 +1,45 @@
+let v0 = /W/udy;
+const v1 = /xyz{1,}+/gvdim;
+const v2 = /(abc+?)/gudm;
+const v4 = new WeakMap();
+function f5(a6) {
+    const o7 = {
+        "b": a6,
+        "h": v4,
+        ...v1,
+        4: v1,
+        __proto__: v2,
+        [v0]: v0,
+        "g": v2,
+        "a": a6,
+        ...v0,
+        ...v1,
+    };
+    return o7;
+}
+const v8 = f5(v0);
+f5(v0);
+const v10 = f5(v2);
+class C11 {
+    toString(a13, a14) {
+        Object.defineProperty(a13, 1073741825, { enumerable: true, set: f5 });
+        return v10;
+    }
+    static a;
+    static set b(a16) {
+        let v17;
+        try { v17 = this.m(this, this, v1); } catch (e) {}
+        super[v17] = a16;
+    }
+}
+const v19 = new C11();
+new C11();
+new C11();
+if (v19) {
+    -v8;
+    new WeakMap(e);
+} else {
+    v0 = v2;
+}
+v19.toString(WeakMap, v2, v1, v0, v4, WeakMap);
+v2[Symbol.match];

@@ -1,0 +1,19 @@
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a11;
+    } catch(e13) {
+    }
+}
+const v14 = new F9(-103.8423110504541, 1.1581528899934117);
+const v15 = new F9(843528.0571651189, -103.8423110504541);
+const v16 = new F9(1000000000.0, 843528.0571651189);
+const v18 = [1.1581528899934117,448.73895094611953];
+v18["every"](Reflect.construct(F9, v18, F9), "every");
+function f22(a23, a24, a25, a26) {
+    new Int32Array(1403);
+    new Uint32Array(1915);
+    new BigUint64Array(1);
+    return v16;
+}
+f22(1.1581528899934117, v15, v14, -5.87141606635927);

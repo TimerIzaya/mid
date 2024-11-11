@@ -1,0 +1,41 @@
+let v1 = Int8Array;
+const v2 = new v1(10);
+const v5 = new Int16Array(2129);
+let v6 = 3;
+new BigInt64Array(v6);
+function f9(a10, a11) {
+    const o21 = {
+        "b": v6,
+        8: v6,
+        get a() {
+            this[v2] = Int16Array;
+            super.b = 2129;
+            %VerifyType(v6);
+            const v13 = new v1(a11, v6);
+            return v13;
+        },
+        n(a15, a16, a17) {
+            const v19 = v5["findLastIndex"](a15, "findLastIndex");
+            a16 instanceof BigInt64Array;
+            this[v19] /= a11;
+            return a15;
+        },
+    };
+    return o21;
+}
+let v22 = f9(v6, 2129);
+const v23 = f9(2129, v6);
+const v24 = f9(10, 2129);
+const v27 = new Uint8Array(16);
+let v30 = new Uint16Array(127);
+const v33 = new Uint16Array(245);
+v30[3040] = f9;
+v6 += v6;
+Object.defineProperty(v22, v1, { writable: true, configurable: true, enumerable: true, get: f9 });
+try {
+    v24.__proto__ = v27;
+} catch(e34) {
+}
+({"a":v1,"buffer":v22,"byteLength":v30,...v1} = v2);
+try { v23.n(); } catch (e) {}
+v33[256] ^= 2129;

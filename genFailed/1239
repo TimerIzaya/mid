@@ -1,0 +1,76 @@
+function f3(a4, a5) {
+    const o11 = {
+        [a5]: a5,
+        "h": 255,
+        ...a5,
+        "a": a4,
+        [255]: a4,
+        __proto__: a5,
+        [a4]: -128,
+        ...9,
+        get f() {
+            const v8 = [[a4,this,this,a5,this]];
+            const v9 = [v8,this,v8,a5,v8];
+            try {
+                v9.__proto__ = v9;
+            } catch(e10) {
+            }
+            return a4;
+        },
+    };
+    return o11;
+}
+let v12 = f3(9, -128);
+let v13 = f3(-128, -128);
+const v14 = f3(-128, 255);
+let v17 = -36935;
+const v18 = [-3.684390711570627,4.860982338533851e+307,-2.220446049250313e-16,0.4514336870879301,2.0,-2.373046935906971e+307,5.227798442045812e+307,1000000000.0,-1.092466311138536e+307];
+const v19 = [3.0];
+[1e-15,-1.0];
+class C21 {
+    valueOf(a23, a24, a25, a26) {
+        [v17,v12,,...v13] = a24;
+        Object.defineProperty(a26, "g", { configurable: true, enumerable: true, set: f3 });
+        const o27 = {
+        };
+        try {
+            o27.e = a26;
+        } catch(e28) {
+        }
+        try {
+            const o29 = {
+            };
+            o29.e = a26;
+            o29.a = a25;
+        } catch(e30) {
+        }
+        try {
+            const o31 = {
+            };
+            o31.e = a26;
+            o31.a = a25;
+            o31.g = f3;
+        } catch(e32) {
+        }
+        try {
+            const o33 = {
+            };
+            o33.e = a26;
+            o33.a = a25;
+            o33.g = v18;
+        } catch(e34) {
+        }
+        return v12;
+    }
+}
+new C21();
+const v36 = new C21();
+new C21();
+try { v13["padStart"](48956, v19, v14, 34244, "padStart"); } catch (e) {}
+f3(v17, v13);
+%PrepareFunctionForOptimization(f3);
+f3(v17, v13);
+f3(v17, v13);
+%OptimizeFunctionOnNextCall(f3);
+f3(v17, v13);
+Object.defineProperty(v36, 6, { writable: true, get: f3 });

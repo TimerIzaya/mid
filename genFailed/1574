@@ -1,0 +1,51 @@
+const v0 = /\xf0\x9f\x92\xa9\xed\xa0\x80\xe2\x81\xa3(K[\[\]\{\}\(\)\%\^\ ])+/gsy;
+const v1 = /\P{Any}+/guims;
+const v2 = /[1CD(?<!)*]/gvim;
+const v4 = new WeakMap();
+function f5(a6) {
+    const o13 = {
+        set d(a8) {
+            const v9 = `a${a8}c${a6}string`;
+            super[a8];
+            v9["includes"](this);
+        },
+        ...v0,
+        "d": a6,
+        [v1]: a6,
+        6: a6,
+        [v4]: a6,
+    };
+    return o13;
+}
+let v14 = f5(v2);
+const v15 = f5(v2);
+const v16 = f5(v0);
+function f17(a18, a19, a20, a21) {
+    const o24 = {
+        "g": a18,
+        "c": v15,
+        "h": a18,
+        set a(a23) {
+            v14 <<= a19;
+        },
+        "d": f5,
+        "f": a20,
+        __proto__: v2,
+        "e": a18,
+        [v15]: v0,
+    };
+    return o24;
+}
+const v25 = f17(v14, v16, v1, v4);
+f17(v0, v15, v2, f17(v1, v25, v14, v25));
+v4[1] = v1;
+[1.7976931348623157e+308,1.0,3.0,0.0,-6.820313074517408,-609.9757617700308,-1.7976931348623157e+308,1.0];
+const v29 = [-4.0,-2.2250738585072014e-308,4.0,-5.0,-2.2250738585072014e-308,8.511132689427555];
+[-5.0,-965.6671430916688,-733.8119777259964,938446.3141411932];
+v29 | f17;
+f17(v1, v15, v14, v16);
+%PrepareFunctionForOptimization(f17);
+f17(v1, v15, v14, v16);
+f17(v1, v15, v14, v16);
+%OptimizeFunctionOnNextCall(f17);
+f17(v1, v15, v14, v16);

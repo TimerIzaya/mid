@@ -1,0 +1,15 @@
+function f0() {
+}
+const v3 = new Uint8ClampedArray(251);
+const v6 = new Uint8ClampedArray(41);
+const v9 = new Uint8ClampedArray(128);
+v3[4096] = 13n;
+const o13 = {
+    9: v3,
+    "b": f0,
+    ...v6,
+    "g": v3,
+};
+Object.defineProperty(o13, 8n, { configurable: true, value: 9007199254740990n });
+Object.defineProperty(o13, 9007199254740990n, { enumerable: true, value: v6 });
+v3["reverse"](8n, ...v9, 8n, ..."reverse");

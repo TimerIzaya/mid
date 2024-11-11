@@ -1,0 +1,29 @@
+const v2 = new Int32Array(5);
+const v5 = new Int16Array(4);
+new Uint32Array(257);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a11;
+    } catch(e14) {
+    }
+    try {
+        this.g = a13;
+    } catch(e15) {
+    }
+    try {
+        this.c = a13;
+    } catch(e16) {
+    }
+}
+const v17 = new F9(5, 5, 5);
+new F9(4, 257, 5);
+const v19 = new F9(4, v5, 5);
+v19 >>> 4;
+for (let [v21,v22,,v23] of v5) {
+    v17[v21];
+    v22[-1] >>= 257;
+    try { v22(v21, v2, v19, v21, F9); } catch (e) {}
+}
+5 << Int32Array;
+v5[4294967295];

@@ -1,0 +1,42 @@
+function f0() {
+}
+const v1 = [f0,f0,f0];
+const v2 = [f0,v1,v1];
+const v3 = [v2];
+new Int32Array(5);
+const v9 = new Uint32Array(4096);
+let v11 = Uint8Array;
+new v11(296);
+class C13 extends Uint32Array {
+    n(a15, a16, a17, a18) {
+        --v11;
+        try {
+            f0();
+        } catch(e21) {
+        }
+        return f0;
+    }
+    [-1] = f0;
+    [296];
+    10;
+}
+new C13();
+new C13();
+const v27 = new C13();
+try {
+    v27.__proto__ = v27;
+} catch(e28) {
+}
+%VerifyType(4096);
+function f29(a30, a31, a32, a33) {
+    const o34 = {
+        "c": f0,
+        "a": Uint32Array,
+        "b": a33,
+        [v9]: v27,
+    };
+    return o34;
+}
+f29(296, v3, 5, v3);
+f29(4096, v1, 5, v1);
+f29(v11, v1, v11, v2);

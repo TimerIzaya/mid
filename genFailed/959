@@ -1,0 +1,55 @@
+function f0() {
+}
+function f4(a5, a6) {
+    const o24 = {
+        __proto__: a5,
+        ...a5,
+        [f0]: a6,
+        "e": a6,
+        "g": -1000.0,
+        get f() {
+            function f8(a9, a10, a11) {
+                const v13 = Symbol.iterator;
+                const o22 = {
+                    [v13]() {
+                        let v15 = 10;
+                        const o21 = {
+                            next() {
+                                v15--;
+                                const v19 = v15 == 0;
+                                const o20 = {
+                                    "done": v19,
+                                    "value": v15,
+                                };
+                                return o20;
+                            },
+                        };
+                        return o21;
+                    },
+                };
+                return 1.0;
+            }
+            f8(a6, 1.0, a6);
+            return this;
+        },
+    };
+    return o24;
+}
+f4(1.0, -1000.0);
+f4(-1000.0, -1000.0);
+f4(9.989754774643341, -1000.0);
+/((?:ab)+(a)xyz{1,32}+)/gvdims;
+/^65foo(?!bar)baz+/vy;
+const v30 = /a\nxyz{0,1}?C(a\Bb)/gvds;
+const v31 = `m`;
+v31.length;
+new f4(1.0, 1.0);
+Object.defineProperty(v30, 1, { writable: true, enumerable: true, get: f0 });
+try {
+    f0();
+} catch(e35) {
+}
+try {
+    v31.length = 0;
+} catch(e38) {
+}

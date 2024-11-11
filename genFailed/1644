@@ -1,0 +1,46 @@
+function f0() {
+    const o4 = {
+        ["undefined"]: "undefined",
+        ..."asIntN",
+        "e": "undefined",
+        "h": "asIntN",
+        4: "asIntN",
+        __proto__: "global",
+        7: "global",
+        "g": "global",
+        "a": "undefined",
+        ["global"]: "undefined",
+        ["asIntN"]: "asIntN",
+        "d": "global",
+    };
+    return o4;
+}
+const v5 = f0();
+f0();
+const v7 = f0();
+class C11 extends f0 {
+    static {
+        super.g;
+        const o16 = {
+            "maxByteLength": 4057,
+        };
+        const v18 = new ArrayBuffer(4057, o16);
+        new Int32Array(v18);
+    }
+}
+new C11();
+new C11();
+new C11();
+let v27;
+try { v27 = ("Us").charAt(-5.0); } catch (e) {}
+const v28 = ("sticky")[65536];
+const v29 = f0 * C11;
+let v30;
+try { v30 = C11.defineProperties(v29); } catch (e) {}
+const v31 = v30?.[512];
+const t39 = "object";
+t39["Us"] -= v27;
+let v32;
+try { v32 = v31(v29, v27, v28, v5, f0, ..."object"); } catch (e) {}
+v32 = v28;
+v7[2147483648] = "sticky";

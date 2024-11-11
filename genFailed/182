@@ -1,0 +1,43 @@
+class C3 {
+    #valueOf(a5, a6) {
+        const v7 = a6 & a5;
+        const v8 = super[v7];
+        super.b |= v8;
+        try { new v8(11n, v8, v7, 11n, 4294967297n); } catch (e) {}
+        for (let v10 = 0; v10 < 32; v10++) {
+            v8["p" + v10] = v10;
+        }
+        return 11n;
+    }
+    c = 11n;
+    [-2];
+}
+new C3();
+new C3();
+new C3();
+class C16 extends C3 {
+    static set f(a18) {
+        try { this.toString(this, a18, 4294967297n, 4294967297n, 4294967297n); } catch (e) {}
+        super[a18] = a18;
+    }
+    static p(a21, a22) {
+        let v23 = 0;
+        do {
+            const v24 = super[v23];
+            try { new v24(); } catch (e) {}
+            v23++;
+        } while (v23 < 1)
+        return a22;
+    }
+}
+new C16();
+new C16();
+new C16();
+const v34 = new Array(855);
+for (let [v35,v36,...v37] of v34) {
+    const o40 = {
+        "maxByteLength": 2147483649,
+    };
+    const v42 = new ArrayBuffer(1756, o40);
+    new Uint16Array(v42);
+}

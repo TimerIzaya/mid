@@ -1,0 +1,37 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -443664726;
+    } catch(e7) {
+    }
+    try {
+        this.g = a6;
+    } catch(e8) {
+    }
+}
+new F3(5, -443664726);
+const v10 = new F3(5, -443664726);
+const v11 = new F3(-443664726, 1073741823);
+new Int16Array(257);
+new Uint8ClampedArray(2259);
+const v20 = new Uint16Array(6);
+const v21 = 2259 <= v11;
+const v22 = v21 ? 2259 : v11;
+let v23;
+try { v23 = v10(Int16Array, v22, 1073741823, v22, 257); } catch (e) {}
+v22 !== 5;
+Reflect.construct(v23, [Uint8ClampedArray,v22,Uint16Array], v23);
+let v28;
+try { v28 = new v23(...v20, v10, v23, Uint16Array, ...v20); } catch (e) {}
+let v29;
+try { v29 = v23(v23, v28); } catch (e) {}
+function F30(a32, a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v29;
+    } catch(e36) {
+    }
+}
+new F30(-443664726, 257, 6, v21);
+new F30(-443664726, v23, 2259, Reflect);
+new F30(2259, 1073741823, 257, F3);

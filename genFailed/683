@@ -1,0 +1,47 @@
+const v0 = [0.611597169098557,489903.8110058126,-0.1364529423584404,2.220446049250313e-16,-603748.8411643913,-0.0,-0.0,4582.678393795621,1000000000.0,0.3108079174872055];
+const v1 = [-307506.4589624654];
+const v2 = [-1.7976931348623157e+308,-8.751001170398089e+307];
+function f3() {
+    return v2;
+}
+class C4 extends f3 {
+    #valueOf(a6) {
+        async function f7(a8, a9, a10, a11) {
+            const v12 = a9.__proto__;
+            try {
+                v12.__proto__ = a8;
+            } catch(e13) {
+            }
+            await v0;
+            return a10;
+        }
+        f7(v1, a6, v1, v0);
+        return this;
+    }
+}
+const v16 = new C4();
+new C4();
+const v18 = new C4();
+class C19 extends C4 {
+    static get e() {
+        try {
+            v18.push(v16, undefined, -56685, 257);
+        } catch(e25) {
+        }
+        return v18;
+    }
+}
+new C19();
+new C19();
+new C19();
+const v29 = (a30, a31, a32) => {
+    try {
+        new C19();
+    } catch(e34) {
+    }
+    return a32;
+};
+try {
+    v2.reverse();
+} catch(e36) {
+}

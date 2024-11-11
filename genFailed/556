@@ -1,0 +1,39 @@
+const v0 = [-1.7976931348623157e+308];
+const v1 = [-1000000000000.0,-2.220446049250313e-16,-9.68270311746063,373944.67193145,116551.98153379303];
+const v2 = [-1000000000000.0,5.0,0.0,-1.7976931348623157e+308,0.007785071823241396,0.0,-1.1318106517978718e+308,-0.0,0.6748126870101228,-2.636529144191724e+307];
+function f3() {
+    return v2;
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = f3;
+    } catch(e7) {
+    }
+}
+new F4(v2);
+new F4(v1);
+const v10 = new F4(v1);
+class C12 {
+    set e(a14) {
+        try {
+            super.assign(v10, v2, this, v10);
+        } catch(e16) {
+        }
+    }
+    static {
+        const v19 = [v2,v10,f3,[this,this,this],v1];
+        const v20 = [v1,v19];
+        [v19,this,v20,v20,v20];
+    }
+}
+new C12();
+new C12();
+new C12();
+for (let [v28,v29,v30] of v0) {
+    const o37 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o37);
+}

@@ -1,0 +1,21 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 64;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+new F0();
+new BigInt64Array(16);
+const v12 = new BigInt64Array(65);
+const v15 = new Float64Array(255);
+v15["values"]();
+v4[v4] >>= 255;
+const t15 = "values";
+t15.length += 255;
+v12["filter"](BigInt64Array, Float64Array, ..."filter", ..."filter", ...v15, 16);
+new Uint8ClampedArray(4096);
+new Int16Array(1252);
+new Int8Array(64);

@@ -1,0 +1,55 @@
+function f3(a4) {
+    const o9 = {
+        "g": 7140,
+        "h": 7140,
+        ...a4,
+        16: 28607,
+        get c() {
+            const v6 = super[a4];
+            const v7 = this.g;
+            let v8;
+            try { v8 = new v6(v7, v7, a4, v6, v7); } catch (e) {}
+            return v8;
+        },
+        "d": 7140,
+        "b": 28607,
+        10: a4,
+        "c": a4,
+    };
+    return o9;
+}
+const v10 = f3(28607);
+const v11 = f3(28607);
+const v12 = f3(f3);
+class C13 extends f3 {
+    [7140] = v12;
+    constructor(a15, a16, a17) {
+        super(28607);
+        a16?.b;
+        for (let [v19,,v20,v21] of a16) {
+            function f22() {
+                return v20;
+            }
+        }
+    }
+    static #e = v11;
+    static [v12] = 4294967297;
+    e;
+    [v11] = v10;
+}
+const v23 = new C13(v10, C13, v12);
+const v24 = new C13(v23, 28607, v23);
+const v25 = new C13(v10, 7140, C13);
+if (-2147483647 === v24) {
+    try {
+        const o31 = {
+        };
+        v25.fuck(undefined, C13, 4294967297, o31);
+    } catch(e33) {
+    }
+} else {
+    try {
+        v12.g = -2147483647;
+    } catch(e34) {
+    }
+}

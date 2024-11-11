@@ -1,0 +1,34 @@
+function f0() {
+    const o10 = {
+        "e": "with",
+        set a(a5) {
+            let v6;
+            try { v6 = a5(); } catch (e) {}
+            this + v6;
+            let v8;
+            try { v8 = new a5(this, 1073741825); } catch (e) {}
+            v8 << 1073741825;
+        },
+        "h": "with",
+        ..."IJUlJ",
+        ..."with",
+        "d": 1073741825,
+        "g": 1073741825,
+    };
+    return o10;
+}
+const v11 = f0();
+f0();
+f0();
+new Map();
+new Uint32Array(0);
+const v21 = new Int8Array(3);
+new BigUint64Array(5);
+let v25 = 0;
+do {
+    const v27 = c?.e;
+    let v28;
+    try { v28 = v21.join(v27); } catch (e) {}
+    try { v28["unshift"](v28, v27, v11); } catch (e) {}
+    v25++;
+} while (v25 < 7)

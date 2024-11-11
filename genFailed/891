@@ -1,0 +1,50 @@
+new Uint32Array(3682);
+const v5 = new Uint8Array(10);
+new Int16Array(4096);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = Uint32Array;
+    } catch(e14) {
+    }
+}
+new F9(4096, 3682, 4096);
+const v16 = new F9(4096, 4096, 3682);
+new F9(4096, 10, 4096);
+const v18 = v5.constructor;
+class C19 extends v18 {
+    [v18];
+    static #h = Uint8Array;
+    [3682];
+}
+const v20 = new C19();
+const v21 = delete v16?.f;
+const o22 = {
+};
+try {
+    o22.e = v21;
+} catch(e23) {
+}
+try {
+    const o24 = {
+    };
+    o24.e = v21;
+    o24.b = v21;
+} catch(e25) {
+}
+try {
+    const o26 = {
+    };
+    o26.e = v21;
+    o26.b = v21;
+    o26.c = v20;
+} catch(e27) {
+}
+try {
+    const o28 = {
+    };
+    o28.e = v21;
+    o28.b = v21;
+    o28.c = F9;
+} catch(e29) {
+}

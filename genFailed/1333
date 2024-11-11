@@ -1,0 +1,10 @@
+let v6 = "m";
+const v11 = new BigInt64Array(202);
+const v14 = new Int32Array(1024);
+let v16 = Float64Array;
+new v16(512);
+[v16,v6] = "valueOf";
+const v20 = Reflect.construct(v16, [22521,512,v6,v11], Int32Array);
+try { Reflect.apply(v20, 512, v14); } catch (e) {}
+const v25 = ("valueOf")[4];
+try { v20(v25, 202, v6, 41453, v11); } catch (e) {}

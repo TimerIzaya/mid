@@ -1,0 +1,56 @@
+const v0 = /((?:ab){4,7}a\Bb)/vis;
+const v1 = /5/gudm;
+const v2 = /Pq(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\11[(?:ab|cde)]/dmy;
+const v4 = new Map();
+function f5(a6, a7) {
+    const o14 = {
+        "h": v0,
+        toString(a9, a10, a11, a12) {
+            super.h;
+            a12[6] = a12;
+            return a11;
+        },
+        __proto__: a7,
+        "g": a6,
+        "e": a7,
+        [Map]: v4,
+        "d": Map,
+        [v0]: v0,
+        "c": v1,
+    };
+    return o14;
+}
+const v15 = f5(v2, v2);
+f5(v2, v1);
+const v17 = f5(v0, v1);
+const v18 = [v15,v2,Map,f5];
+const v19 = [v18,v0];
+[v19];
+v19 - f5;
+v17[16] = f5;
+for (let v25 = 0; v25 < 100; v25++) {
+    f5(v2, v0);
+}
+let v27 = 0;
+do {
+    Object.defineProperty(v15, v18, { writable: true, configurable: true, set: f5 });
+    function F31(a33, a34) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.f = v0;
+        } catch(e35) {
+        }
+        try {
+            this.b = a34;
+        } catch(e36) {
+        }
+        try {
+            this.a = v15;
+        } catch(e37) {
+        }
+    }
+    const v38 = new F31(2, -51261);
+    const v39 = new F31(v27, v38);
+    new F31(2, v39);
+    v27++;
+} while (v27 < 2)

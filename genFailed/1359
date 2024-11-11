@@ -1,0 +1,25 @@
+const v2 = new BigInt64Array(7);
+const v5 = new Int16Array(256);
+new Uint32Array(3);
+new WeakMap();
+function f14(a15, a16, a17) {
+    function f19(a20) {
+        try {
+            a16.h = this;
+        } catch(e21) {
+        }
+    }
+    this.onmessage = f19;
+    const v22 = 4294967296;
+    Object.defineProperty(v5, v22, { configurable: true, enumerable: true, get: f19 });
+    try {
+        v2.with(-28387, this);
+    } catch(e24) {
+    }
+}
+const v27 = ["function",v2,Worker];
+const o28 = {
+    "arguments": v27,
+    "type": "function",
+};
+new Worker(f14, o28);

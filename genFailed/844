@@ -1,0 +1,70 @@
+class C3 {
+    static ["-65536"] = 4.857309652243414;
+    constructor(a5, a6) {
+        const v8 = Symbol.search;
+        this[v8] = v8;
+        function F9(a11, a12, a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = 4.857309652243414;
+            } catch(e15) {
+            }
+            try {
+                this.f = a6;
+            } catch(e16) {
+            }
+        }
+        const v17 = new F9(a6, a6, a6, a6);
+        new F9(v8, this, -12, -12);
+        new F9(v17, 4.857309652243414, this, this);
+    }
+}
+const v20 = new C3(C3, C3);
+const v21 = new C3(v20, C3);
+const v22 = new C3(4.857309652243414, "-65536");
+function f23(a24, a25, a26) {
+    const o32 = {
+        "e": a26,
+        "b": v22,
+        get g() {
+            a25 = C3;
+            for (let v28 = 0; v28 < 32; v28++) {
+                this["p" + v28] = v28;
+            }
+            try {
+                v21.f = "-65536";
+            } catch(e31) {
+            }
+            return v22;
+        },
+    };
+    return o32;
+}
+const v33 = f23(C3, C3, v20);
+const v34 = f23(v33, C3, v33);
+const v35 = f23(v34, v20, C3);
+v35 - v34;
+Math.floor(v21);
+const v43 = 7003 && 2006015700n;
+!v43;
+v43 % v21;
+Math.acosh(7003);
+f23(v34, v33, v35);
+const v49 = Symbol.iterator;
+const o58 = {
+    [v49]() {
+        let v51 = 10;
+        const o57 = {
+            next() {
+                v51--;
+                const v55 = v51 == 0;
+                const o56 = {
+                    "done": v55,
+                    "value": v51,
+                };
+                return o56;
+            },
+        };
+        return o57;
+    },
+};

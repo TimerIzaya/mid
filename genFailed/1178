@@ -1,0 +1,32 @@
+const v2 = new BigUint64Array(7);
+const v5 = new BigInt64Array(9);
+const v8 = new Uint32Array(922);
+function f9(a10, a11, a12, a13) {
+    const o14 = {
+        "f": a10,
+        "c": v8,
+        [a11]: a10,
+        "a": a10,
+        "d": Uint32Array,
+        "b": a12,
+        ...v5,
+        __proto__: v2,
+        "h": BigInt64Array,
+        [922]: 9,
+        "e": a13,
+    };
+    return o14;
+}
+let v15 = f9(922, 922, 922, 9);
+f9(922, 9, 922, BigInt64Array);
+f9(922, 922, 7, v15);
+v15 &= v15;
+const o18 = {
+    "call": f9,
+    "deleteProperty": f9,
+    "has": f9,
+    "isExtensible": f9,
+    "preventExtensions": f9,
+    "set": f9,
+};
+new Proxy(v8, o18);

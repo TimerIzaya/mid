@@ -1,0 +1,43 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a5;
+    } catch(e7) {
+    }
+    try {
+        this.f = a6;
+    } catch(e8) {
+    }
+    try {
+        this.e = a5;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(1073741825, -256);
+const v11 = new F3(v10, 1073741825);
+const v12 = new F3(F3, -256);
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v12;
+    } catch(e22) {
+    }
+    try {
+        this.a = 1073741825;
+    } catch(e23) {
+    }
+    try {
+        this.h = v11;
+    } catch(e24) {
+    }
+}
+new F16(v11, 1073741825, -256, v11);
+new F16(v11, -2147483649, 268435440, v12);
+new F16(v10, 268435439, 268435439, v11);
+new F16(v10, 268435440, 1073741825, v12);
+v10[14];
+const o32 = {
+    "maxByteLength": 256,
+};
+const v34 = new ArrayBuffer(38, o32);
+new Uint32Array(v34);

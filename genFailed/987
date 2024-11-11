@@ -1,0 +1,74 @@
+const v0 = [-9223372036854775807,16,-7,257,-4,-1649116419,-9007199254740992,-5];
+const v1 = [-16591,-9,17248,-2000046285,536870912];
+const v2 = [1073741824,-1,536870889,-1073741824,-1658501722,-4096];
+function f3(a4, a5) {
+    const o12 = {
+        "b": a4,
+        "f": a5,
+        "e": a4,
+        "d": a5,
+        n(a7) {
+            try { this.atan2(a5, a5, v0, this, this); } catch (e) {}
+            for (let v9 = 0; v9 < 32; v9++) {
+                this["p" + v9] = v9;
+            }
+            return this;
+        },
+        __proto__: v1,
+    };
+    return o12;
+}
+const v13 = f3(v2, v0);
+const v14 = f3(f3, v0);
+f3(v13, v1);
+const v17 = new Map();
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v14;
+    } catch(e22) {
+    }
+    try {
+        this.g = a21;
+    } catch(e23) {
+    }
+    try {
+        this.h = v0;
+    } catch(e24) {
+    }
+}
+const v25 = new F18(v13, v2);
+const v26 = new F18(v13, v0);
+new F18(v13, v0);
+function f28(a29, a30, a31, a32) {
+    const o37 = {
+        "a": a29,
+        set h(a34) {
+            a34[10] ^= a31;
+            for (let v35 = 0; v35 < 100; v35++) {
+                f3(f3, v0);
+            }
+        },
+        __proto__: a31,
+        "g": v17,
+        [v26]: v1,
+        145: a29,
+        [a32]: a29,
+        "e": a31,
+        "c": a29,
+    };
+    return o37;
+}
+const v38 = f28(v25, v2, f28, v26);
+const v39 = f28(v38, v0, v38, v38);
+const v40 = f28(v39, v17, v39, v39);
+class C41 {
+    static #h = v40;
+    a;
+    e;
+    #a = v39;
+}
+new C41();
+new C41();
+const v44 = new C41();
+[F18,[[v0,v25,v26]],v44];

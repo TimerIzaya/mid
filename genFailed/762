@@ -1,0 +1,22 @@
+class C3 {
+    set c(a5) {
+        new Int16Array(2119);
+        new BigInt64Array(1721);
+        new Uint8Array(1437);
+    }
+    static #d = "t";
+    static [128] = "t";
+    #h = 128;
+}
+new C3();
+const v16 = new C3();
+new C3();
+function f24() {
+    return 2;
+}
+Object.defineProperty(C3, v16, { writable: true, enumerable: true, get: f24, set: f24 });
+const o28 = {
+    "execution": "async",
+    "type": "minor",
+};
+Object.defineProperty("t", "f", { writable: true, configurable: true, value: gc(o28) });

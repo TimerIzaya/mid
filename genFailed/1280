@@ -1,0 +1,12 @@
+function f3() {
+    return 512n;
+}
+new Uint16Array(257);
+new Uint32Array(0);
+new Uint8Array(3494);
+f3 | -7228n;
+const o20 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o20);

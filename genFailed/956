@@ -1,0 +1,25 @@
+const v1 = new Map();
+class C8 extends Map {
+    static m(a10, a11, a12, a13) {
+        try {
+            new Map(this);
+        } catch(e15) {
+        }
+        return 7;
+    }
+    [-11n] = 7n;
+    [v1];
+    static d;
+}
+let v16 = new C8();
+new C8();
+const v18 = new C8();
+v16 = v18;
+try {
+    new Map(v18);
+} catch(e20) {
+}
+let v24 = 2.0;
+Math.tanh(-4294967295n ^ --v24);
+v16++;
+!v24;

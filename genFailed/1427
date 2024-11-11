@@ -1,0 +1,21 @@
+const v2 = new Float64Array(8);
+new Int8Array(1);
+const v8 = new Uint8Array(1603);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v8;
+    } catch(e14) {
+    }
+}
+const v15 = new F9(1, 1603, 8);
+new F9(1, 1, 8);
+const v17 = new F9(1603, 1603, 1);
+const v19 = [Float64Array];
+const v21 = Reflect.apply(v8.reduce, v2, v19);
+try {
+    v21.g = v19;
+} catch(e22) {
+}
+const v24 = [v17];
+Reflect.apply(Reflect.ownKeys, v15, v24);

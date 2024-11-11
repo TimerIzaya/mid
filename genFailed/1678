@@ -1,0 +1,31 @@
+let v0 = 0.5488731849803586;
+const v5 = new Int32Array(96);
+const v8 = new Uint8ClampedArray(40);
+const v11 = new Float32Array(9);
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v0;
+    } catch(e18) {
+    }
+    try {
+        this.a = v0;
+    } catch(e19) {
+    }
+    try {
+        this.f = a16;
+    } catch(e20) {
+    }
+}
+const v21 = new F12(v0, 40, -1000.0, -1e-15);
+let v22 = new F12(v0, 96, -1000.0, -1000.0);
+new F12(-1000.0, 96, -1e-15, -1e-15);
+v0 -= -1e-15;
+v22 = v21;
+try {
+    v8.c = v0;
+} catch(e24) {
+}
+const v25 = v22[1];
+v5.length;
+Reflect.construct(Uint8ClampedArray, [v11], v25);

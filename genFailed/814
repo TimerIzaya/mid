@@ -1,0 +1,45 @@
+function f0() {
+    const o11 = {
+        "d": "16",
+        o(a5) {
+            this[4] = this;
+            const o9 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o9);
+            return "minor";
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+let v14 = f0();
+class C15 extends f0 {
+    constructor(a17) {
+        super();
+        function f18() {
+            return v13;
+        }
+        const o21 = {
+            "maxByteLength": 2196891850,
+        };
+        const v23 = new ArrayBuffer(16, o21);
+        new Uint16Array(v23);
+    }
+}
+const v26 = new C15(v12);
+new C15(C15);
+new C15(v26);
+[8,246973097,268435439,-65537,9007199254740991,-9223372036854775807,-547577798,0];
+const v30 = [939627990,1616792711,-1,6,-12,8,65536];
+let v31 = [-12,-123001467,127,-1073741824,2147483648,-1073741824,4,-1,8];
+class C33 extends v31.constructor {
+    e;
+    h;
+    static #b = v13;
+}
+const v34 = new C33();
+[v14,C33] = v31 = v34;
+C33[v30] = v34;

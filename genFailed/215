@@ -1,0 +1,61 @@
+class C3 {
+    set h(a5) {
+        Object.defineProperty(this, 181, { configurable: true, value: delete this[1000n] });
+        const o10 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o10);
+    }
+    #b = 9n;
+    static #c = 1000n;
+    #f = 53524n;
+}
+new C3();
+const v13 = new C3();
+new C3();
+[-809.0049561842943];
+[357727.9664979889,1.0,-2.0654189290473095];
+const v17 = [-1e-15,466.44019926781743,-2.4622600872288913,-857.0553523542508,-550177.8350233675,1000.0,-1e-15,2.2250738585072014e-308,-3.0,4.0];
+class C18 extends C3 {
+    n(a20, a21) {
+        this.h;
+        return 9n;
+    }
+    static {
+        const t25 = 9n;
+        t25[6] = this;
+        new Date();
+    }
+    o(a27, a28, a29) {
+        C3 = a28;
+        try {
+            super.setFloat32(v17);
+        } catch(e31) {
+        }
+        for (let v32 = 0; v32 < 32; v32++) {
+            a28["p" + v32] = v32;
+        }
+        return v17;
+    }
+}
+new C18();
+new C18();
+new C18();
+let v41;
+try { v41 = new C3("boolean", v13); } catch (e) {}
+const v44 = v41--;
+const v45 = v44 >>> 268435439;
+268435439 || v45;
+Math.hypot(v44);
+const v48 = -v45;
+function F49(a51, a52, a53) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v48;
+    } catch(e54) {
+    }
+}
+new F49(9n, 53524n, "e");
+new F49(1000n, 1000n, "p");
+new F49(53524n, v45, "boolean");

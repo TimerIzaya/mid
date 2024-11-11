@@ -1,0 +1,22 @@
+function f0() {
+}
+/(?!(a))\1\[\]\{\}\(\)\%\^\ /gy;
+/[^a+b|c[\p{Script_Extensions=Mongolian}&&\p{Number}]]/vdsy;
+/\u{12345}\u{23456}(a)\1?/gudiy;
+new Date();
+new Uint16Array(18);
+let v16 = Uint16Array;
+const v17 = new v16(9);
+const v20 = new Int8Array(3107);
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeFunctionOnNextCall(f0);
+f0();
+new Int8Array(v20);
+v16 = Uint16Array;
+try {
+    new Int8Array(v17, 3107);
+} catch(e27) {
+}

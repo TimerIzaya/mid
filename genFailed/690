@@ -1,0 +1,33 @@
+class C3 {
+    constructor(a5) {
+        "constructor" & this;
+        Reflect.construct(a5, [], a5);
+    }
+    static #m(a11) {
+        const v12 = ["constructor",this,this,"constructor"];
+        [536870888,v12,5.0];
+        this[[v12,"constructor"]];
+        const o19 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o19);
+        return "constructor";
+    }
+}
+new C3(5.0);
+const v22 = new C3(5.0);
+const v23 = new C3(5.0);
+const v27 = ["g",v22,v23,5.0];
+const v28 = ["length"];
+let v29 = [v23];
+v29 = v23;
+const v30 = v27[9];
+v28[v29] /= v30;
+try {
+    v27.valueOf = v30;
+} catch(e31) {
+}
+new Uint16Array(9);
+new Float32Array(16);
+new Int32Array(4096);

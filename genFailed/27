@@ -1,0 +1,23 @@
+const v2 = new Uint8ClampedArray(2195);
+new Int32Array(15);
+new Uint8Array(3756);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v2;
+    } catch(e13) {
+    }
+}
+new F9(2195, 2195);
+const v15 = new F9(3756, 15);
+const v16 = new F9(v2, 15);
+const v19 = v16[Symbol.unscopables];
+v2 instanceof v19;
+try {
+    v15.fuck(v19, Uint8Array);
+} catch(e22) {
+}
+try {
+    new Uint8Array(871001793, 871001793);
+} catch(e25) {
+}

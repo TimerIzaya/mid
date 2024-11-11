@@ -1,0 +1,46 @@
+const v0 = /2/gvdimy;
+const v1 = /N\cj\cJ\ci\cI\ck\cK/gums;
+const v2 = /[a(?:b)?]/vdms;
+const v3 = [1.7723510568856238,-Infinity,-1.1151021033623898e+308,2.220446049250313e-16,-0.0,-2.0];
+const v4 = [405.4368933523531,-865986.5771657142,5.735637686466287e+307,0.6854952845725044,1000000.0,0.6904433271686246,-2.2250738585072014e-308,1000000.0,-683058.3364791838];
+const v5 = [1.0];
+const v7 = [[v5,v5],v0];
+[v7,v7];
+function f12(a13, a14, a15, a16) {
+    const o29 = {
+        "g": v0,
+        get a() {
+            const v19 = Symbol.iterator;
+            const o28 = {
+                [v19]() {
+                    let v21 = 10;
+                    const o27 = {
+                        next() {
+                            v21--;
+                            const v25 = v21 == 0;
+                            const o26 = {
+                                "done": v25,
+                                "value": v21,
+                            };
+                            return o26;
+                        },
+                    };
+                    return o27;
+                },
+            };
+            return v2;
+        },
+    };
+    return o29;
+}
+f12(v3, v2, v2, v1);
+f12(v3, v2, v1, v1);
+const v32 = f12(v4, v0, v2, v2);
+v7[-1.7689322252974997e+308];
+function f34(a35, a36) {
+    const o37 = {
+        "isExtensible": f12,
+    };
+    new Proxy(v32, o37);
+}
+new Promise(f34);

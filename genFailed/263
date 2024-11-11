@@ -1,0 +1,28 @@
+new Int32Array(294);
+new Float32Array(2797);
+new Int8Array(3946);
+function f12() {
+    return Int32Array;
+}
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a15;
+    } catch(e19) {
+    }
+}
+new F13(3946, 294, 3946, 294);
+new F13(3946, 3946, 294, 294);
+new F13(294, 2797, 294, 3946);
+class C23 extends Int8Array {
+    597 = Float32Array;
+    static [294] = Int8Array;
+    h = Int8Array;
+    static 6;
+}
+new C23();
+new C23();
+new C23();
+new Uint32Array(1486);
+new Uint32Array(1000);
+new BigUint64Array(128);

@@ -1,0 +1,24 @@
+class C3 {
+    toString(a5) {
+        const v6 = delete a5?.[this];
+        Reflect.construct(v6, [a5,a5,this,this,-9007199254740992], v6);
+        return this;
+    }
+    static b = 21948;
+    static 7 = 13;
+    [21948] = -9007199254740992;
+}
+new C3();
+const v11 = new C3();
+const v12 = new C3();
+v12 | 1000000.0;
+try {
+    new C3();
+} catch(e18) {
+}
+v12[v11] = -9007199254740992;
+v11[-9007199254740992];
+try {
+    v11.b = 13;
+} catch(e20) {
+}

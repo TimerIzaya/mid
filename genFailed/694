@@ -1,0 +1,34 @@
+const v0 = /[IZi[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]*]/udmy;
+const v1 = /\1112\1111((?:ab){4,7})/iy;
+const v2 = /C[].a\nb\bc/gvsy;
+function f3(a4) {
+    const o11 = {
+        __proto__: v1,
+        [v1](a6, a7) {
+            if (a4) {
+                v1.sticky;
+                try { this["getUTCDate"]("getUTCDate", v1, a4, v2); } catch (e) {}
+            } else {
+                super.g = this;
+            }
+            return this;
+        },
+    };
+    return o11;
+}
+const v12 = f3(v0);
+f3(v1);
+f3(v0);
+new Int16Array(1000);
+const v20 = new Uint16Array(10);
+const v23 = new BigInt64Array(4096);
+%VerifyType(v23);
+function f24(a25, a26, a27) {
+    a25.e >>>= a26;
+    a27[3];
+    return a26;
+}
+f24(v20, 10, v12);
+function f30() {
+    return v12;
+}

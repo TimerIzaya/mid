@@ -1,0 +1,18 @@
+const v1 = new WeakMap();
+new Uint8ClampedArray(3907);
+const v7 = new Int16Array(165);
+const v10 = new Float32Array(176);
+Object.defineProperty(v7, 255, { writable: true, configurable: true, value: 176 });
+function f11(a12, a13) {
+    const o17 = {
+        set a(a15) {
+            try { v1.set(a15, this); } catch (e) {}
+        },
+        ...v10,
+        "b": a13,
+    };
+    return o17;
+}
+f11(176, 165);
+f11(3907, 3907);
+f11(176, 3907);

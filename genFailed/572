@@ -1,0 +1,29 @@
+class C3 {
+    n(a5, a6) {
+        const t2 = 65535;
+        t2[4] = a6;
+        return 65535;
+    }
+    1;
+    static g = 65535;
+    #a = 65535;
+    f = -4294967295;
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = C3;
+    } catch(e17) {
+    }
+}
+const v18 = new F13(v12, v12);
+const v19 = new F13(v11, v11);
+const v20 = new F13(v10, v12);
+%VerifyType(C3);
+Object.defineProperty(v12, "f", { value: `boolean` });
+v20.a;
+const v25 = [v18,v18[108],v10,v19,v20];
+Reflect.apply(v10.n, v11, v25);

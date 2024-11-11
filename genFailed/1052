@@ -1,0 +1,61 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = "64";
+    } catch(e11) {
+    }
+}
+const v12 = new F6(13n, "x", 1185397205n);
+const v13 = new F6(1073741824n, "1", 1185397205n);
+new F6(13n, "64", 1185397205n);
+class C18 extends F6 {
+    #f = 13n;
+    constructor(a20, a21, a22, a23) {
+        super(1185397205n, "x", a22);
+        const v26 = a22--;
+        Math.clz32(v26);
+        let v28 = !a22;
+        --v28;
+        Math.pow(v28, v26);
+    }
+    1132 = "bigint";
+    127;
+    static #b;
+    static 10 = 1073741824n;
+}
+const v31 = new C18(1185397205n, "toString", 13n, v12);
+const v32 = new C18(1185397205n, v31, 13n, v31);
+const v33 = new C18(1185397205n, v12, 1185397205n, v31);
+function f34() {
+    return v33;
+}
+const v35 = new C18(13n, v13, 1185397205n, v32);
+const o36 = {
+};
+try {
+    o36.h = v13;
+} catch(e37) {
+}
+try {
+    const o38 = {
+    };
+    o38.h = v13;
+    o38.e = v33;
+} catch(e39) {
+}
+try {
+    const o40 = {
+    };
+    o40.h = v13;
+    o40.e = v33;
+    o40.d = v13;
+} catch(e41) {
+}
+try {
+    const o42 = {
+    };
+    o42.h = v13;
+    o42.e = v33;
+    o42.a = v35;
+} catch(e43) {
+}

@@ -1,0 +1,40 @@
+function f0() {
+}
+const v1 = [1000.0,1.0,-319.6565600896761,0.030317622280755074,8.084378300872718,-1.139600916660853e+308,-4.0,0.5554641865578183,1000000000.0];
+const v2 = [-1.041941008022715e+308,4.6489999586690764,0.8825898243445796,1000.0,5.0,-3.0];
+const v3 = [2.220446049250313e-16,-8.336054050626327e+306];
+function f4(a5, a6) {
+    const o11 = {
+        set h(a8) {
+            try {
+                this.d = this;
+            } catch(e10) {
+            }
+        },
+        "h": v3,
+        3440: a6,
+        "a": v3,
+    };
+    return o11;
+}
+f4(v2, v3);
+f4(v2, v1);
+const v14 = f4(v2, v3);
+class C15 extends f0 {
+    static {
+        let v17 = 0;
+        while (v17 < 9) {
+            super.f;
+            v1.__proto__;
+            v17++;
+        }
+    }
+}
+new C15();
+new C15();
+new C15();
+try { v14.valueOf(); } catch (e) {}
+Object.defineProperty(v2, "h", { writable: true, configurable: true, enumerable: true, get: f4, set: f0 });
+typeof v2 === "symbol";
+for (const v30 in "symbol") {
+}

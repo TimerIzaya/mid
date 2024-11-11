@@ -1,0 +1,50 @@
+const v0 = [0,-9223372036854775808,31158];
+const v1 = [9];
+const v2 = [12,4,4294967296];
+const v4 = new Date();
+class C5 extends Date {
+    constructor(a7, a8) {
+        super(a7);
+        a7 /= v4;
+    }
+    #p(a10, a11) {
+        this.e %= a10 % v1;
+        try {
+            function F13(a15, a16, a17) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = a16;
+                } catch(e18) {
+                }
+                try {
+                    this.a = this;
+                } catch(e19) {
+                }
+                try {
+                    this.f = v4;
+                } catch(e20) {
+                }
+            }
+            new F13(a10, a10, v0);
+            new F13(a11, v2, a11);
+            new F13(a10, v1, a10);
+        } catch(e24) {
+        } finally {
+            a10 |= v0;
+        }
+        return v4;
+    }
+}
+const v28 = new C5(v2, v1);
+const v29 = new C5(v28, v0);
+new C5(v29, v1);
+const o39 = {
+    "maxByteLength": 257,
+};
+const v41 = new ArrayBuffer(131, o39);
+new Float32Array(v41);
+let v46 = 0.5224908048043503;
+v41 % v41;
+Math.sin(v46);
+v46 >> v46;
+v46++;

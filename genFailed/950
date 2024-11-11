@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -4294967297;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+new F0();
+const v7 = /[foo(?<!bar)baza\Sc]/gvdmy;
+const v8 = /zw(?:ab){4,7}a\D/vimsy;
+const v9 = /ukxyz{0,1}?((((.).).).)/gudiy;
+const v10 = [v4,v8,v7,v4];
+[v9,v5,v7,[v10,v8,v5,v4,v10],F0];
+new Int8Array(1);
+new Uint16Array(257);
+const v21 = new Uint32Array(512);
+v21 instanceof Uint32Array;
+function f23() {
+    return v10;
+}
+[1.3221553311124623];
+[4.918187731521561];
+[0.2101128712422995,-1.1391342797834024e+307,-502.46990884613865,-1000000000000.0,4.0,4.0];
+try {
+    f23();
+} catch(e28) {
+}

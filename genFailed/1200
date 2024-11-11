@@ -1,0 +1,39 @@
+class C3 {
+    static {
+        try { this.o(this, "128", this); } catch (e) {}
+        this[this] = this;
+        const o6 = {
+        };
+        new Proxy("128", o6);
+    }
+    d = "push";
+    b = "128";
+    f;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+function f12(a13, a14, a15, a16) {
+    const o20 = {
+        [-1.3796764602719546e+308]: "128",
+        "c": v11,
+        __proto__: v11,
+        get f() {
+            Object.defineProperty(a16, "f", { writable: true, value: v9 });
+            this !== this ? this : this;
+            return a16;
+        },
+        "h": C3,
+        ...v11,
+    };
+    return o20;
+}
+f12(v9, v9, v10, C3);
+f12(C3, C3, v10, v9);
+f12(C3, v11, v11, v11);
+v11[257];
+let v25 = 0;
+while (v25 < 1) {
+    typeof "push" === "object";
+    v25++;
+}

@@ -1,0 +1,38 @@
+function f0() {
+    const o8 = {
+        __proto__: "n",
+        "g": 4.0,
+        "d": 4.0,
+        ..."n",
+        get a() {
+            const v6 = [4.0,[4294967295,4294967295,4.0,4.0,this],4294967295,4.0];
+            const v7 = [v6,v6,4.0,"n"];
+            v6[15] = 4294967295;
+            return v7;
+        },
+        ["n"]: 4.0,
+        "b": 4294967295,
+        "c": 4294967295,
+    };
+    return o8;
+}
+f0();
+f0();
+const v11 = f0();
+let v13 = Uint8Array;
+const v14 = new v13(1000);
+new Float64Array(902);
+const v20 = new Uint8Array(4);
+new Uint16Array(512);
+const v26 = new Int32Array(9);
+new Int16Array(7);
+v11[Int32Array] = 7;
+for (const v30 of v26) {
+    Object.defineProperty(v20, 8, { configurable: true, get: f0 });
+    delete v14[9];
+}
+[15,-1124241066];
+let v33 = [2];
+const v34 = [3,16,9007199254740992];
+let v35 = v20;
+({"c":v13,"length":v33,...v35} = v34);

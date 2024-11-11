@@ -1,0 +1,92 @@
+function f0() {
+    const o9 = {
+        ..."function",
+        ["function"]: "function",
+        "d": "multiline",
+        "e": 1000000000.0,
+        o(a5) {
+            for (let v6 = 0; v6 < 32; v6++) {
+                this["p" + v6] = v6;
+            }
+            return a5;
+        },
+        ..."function",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+class C13 extends f0 {
+    static {
+        try {
+            v12.o(v12, v11, f0);
+        } catch(e16) {
+        }
+    }
+    [v11];
+    constructor(a18, a19) {
+        super();
+        const v20 = v12.d;
+        let v21;
+        try { v21 = v11.o(v20); } catch (e) {}
+        v21[14] |= v21;
+    }
+}
+const v22 = new C13(C13, v12);
+const v23 = new C13(v11, v22);
+const v24 = new C13(v12, v10);
+function f25(a26, a27, a28) {
+    const o40 = {
+        ...v11,
+        [v12](a30, a31) {
+            const o32 = {
+            };
+            try {
+                o32.e = a31;
+            } catch(e33) {
+            }
+            try {
+                const o34 = {
+                };
+                o34.e = a31;
+                o34.f = v24;
+            } catch(e35) {
+            }
+            try {
+                const o36 = {
+                };
+                o36.e = a31;
+                o36.f = v24;
+                o36.g = a30;
+            } catch(e37) {
+            }
+            try {
+                const o38 = {
+                };
+                o38.e = a31;
+                o38.f = v24;
+                o38.g = v24;
+            } catch(e39) {
+            }
+            return this;
+        },
+    };
+    return o40;
+}
+const v41 = f25(C13, v24, v24);
+f25(v12, v41, v22);
+f25(v12, v41, v11);
+new WeakMap();
+try {
+    f0();
+} catch(e47) {
+}
+const v48 = (a49, a50, a51) => {
+    a51.d;
+    try {
+        v23.o(241324475, -10n, -710.7635205944189, a50);
+    } catch(e57) {
+    }
+    return f25;
+};

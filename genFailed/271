@@ -1,0 +1,31 @@
+const v1 = new WeakMap();
+const v3 = new Set();
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a6;
+    } catch(e8) {
+    }
+    try {
+        this.g = a7;
+    } catch(e9) {
+    }
+    try {
+        this.f = v3;
+    } catch(e10) {
+    }
+}
+const v11 = new F4(Set, Set);
+const v12 = new F4(F4, WeakMap);
+const v13 = new F4(v1, v3);
+function f14() {
+    return v3;
+}
+v12[v11] = F4;
+function f19(a20, a21, a22) {
+    %VerifyType(v1);
+    const v23 = new Set(a22);
+    v23[v23];
+    return -2147483647;
+}
+f19(2.0, -4.0, v13);

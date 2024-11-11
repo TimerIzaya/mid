@@ -1,0 +1,75 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 4;
+    } catch(e3) {
+    }
+    try {
+        this.d = 4;
+    } catch(e4) {
+    }
+    try {
+        this.b = 4;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+new F0();
+class C12 {
+    0 = "Us";
+    static #p(a14, a15, a16, a17) {
+        a14[1024] ||= a16;
+        try {
+            a14.length = a16;
+        } catch(e18) {
+        }
+        return a14;
+    }
+    #c;
+    toString(a20, a21) {
+        const v22 = ("a").length;
+        const v23 = [v22,"a",v22,a20];
+        const v25 = [[v23,v23]];
+        for (let v26 = 0; v26 < 32; v26++) {
+            a20["p" + v26] = v26;
+        }
+        return v25;
+    }
+}
+new C12();
+new C12();
+const v31 = new C12();
+function f32(a33, a34) {
+    const o43 = {
+        [v31]: F0,
+        get h() {
+            const v36 = /ca(?!bbb|bb)c/gvisy;
+            const v37 = /Q\xe2\x81\xa3/gudimy;
+            const t48 = "symbol";
+            t48[/X(a\1)?/gvsy == v36] = v37;
+            return ("undefined").normalize("NFKD");
+        },
+        "c": a33,
+        "h": C12,
+        __proto__: C12,
+    };
+    return o43;
+}
+f32("Us", "a");
+f32("Us", "a");
+const v46 = f32("a", "symbol");
+0.4721032513044936 && 0.4721032513044936;
+Math.tanh(268435441);
+~(!0.4721032513044936);
++0.4721032513044936;
+const o55 = {
+    "apply": f32,
+    "deleteProperty": f32,
+    "get": f32,
+    "getOwnPropertyDescriptor": f32,
+    "getPrototypeOf": f32,
+    "has": f32,
+    "setPrototypeOf": f32,
+};
+new Proxy(v46, o55);

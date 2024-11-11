@@ -1,0 +1,37 @@
+const v1 = new WeakMap();
+function f2(a3, a4) {
+    const o11 = {
+        [a3]: a3,
+        [a4]: a3,
+        "h": v1,
+        "a": WeakMap,
+        __proto__: v1,
+        get f() {
+            a3 = v1;
+            const o9 = {
+                "execution": "sync",
+                "type": "major",
+            };
+            gc(o9);
+            return this;
+        },
+    };
+    return o11;
+}
+f2(f2, WeakMap);
+f2(v1, v1);
+const v14 = f2(f2, f2);
+new Uint8Array(64);
+new Int32Array(5);
+new Int32Array(3);
+let v24 = 0;
+do {
+    Object.defineProperty(v14, 64, { writable: true, enumerable: true, get: f2 });
+    v1[WeakMap] = WeakMap;
+    v1[3] = Int32Array;
+    new Int32Array(v24);
+    for (let v26 = 0; v26 < 32; v26++) {
+        v14["p" + v26] = v26;
+    }
+    v24++;
+} while (v24 < 3)

@@ -1,0 +1,90 @@
+function f1() {
+    const o8 = {
+        10: null,
+        4294967296: null,
+        __proto__: null,
+        [null]() {
+            let v3 = this << null;
+            v3 >>>= v3;
+            try {
+                this.fuck(-17866n, -17866n, false);
+            } catch(e7) {
+            }
+            return this;
+        },
+    };
+    return o8;
+}
+const v9 = f1();
+const v10 = f1();
+const v11 = f1();
+function f12(a13, a14) {
+    const o31 = {
+        "h": v10,
+        [v9]: null,
+        p(a16, a17, a18, a19) {
+            if (a19 == f1) {
+                const o23 = {
+                    "maxByteLength": 50,
+                };
+                const v25 = new ArrayBuffer(50, o23);
+                new Uint32Array(v25);
+            } else {
+            }
+            return null;
+        },
+    };
+    return o31;
+}
+const v32 = f12(v10, v10);
+const v33 = f12(v32, v32);
+const v34 = f12(v11, v32);
+class C35 extends f12 {
+    set h(a37) {
+        super.h;
+    }
+    constructor(a44, a45, a46) {
+        super(a46, v34);
+        super[a44] = a45;
+        const v48 = new f12(v32, a44[404629376]);
+        super.p(v48, this, v11, v48);
+    }
+}
+const v50 = new C35(v9, v11, v34);
+const v51 = new C35(v33, v50, v10);
+const v52 = new C35(v34, v9, v50);
+class C53 {
+    static {
+        Object.defineProperty(v51, 1, { writable: true, configurable: true, set: f1 });
+        this[3086] = f12(v50, v11);
+        for (let v56 = 0; v56 < 32; v56++) {
+            this["p" + v56] = v56;
+        }
+    }
+    [v10] = v11;
+    [-2] = v52;
+    #e = v9;
+    [f1];
+}
+new C53();
+const v60 = new C53();
+new C53();
+new C35(v34, v60, v34);
+C35[v34] = v33;
+let v63 = 0;
+do {
+    try {
+        const o64 = {
+            "h": v63,
+        };
+        const o65 = {
+            "h": C53,
+        };
+        const o66 = {
+            "h": C53,
+        };
+        new C35(o64, o65, o66);
+    } catch(e68) {
+    }
+    v63++;
+} while (v63 < 8)

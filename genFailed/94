@@ -1,0 +1,37 @@
+function f0() {
+}
+const v3 = new BigUint64Array(121);
+new Int8Array(150);
+new Int8Array(5);
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v3;
+    } catch(e15) {
+    }
+    try {
+        this.c = a13;
+    } catch(e16) {
+    }
+    try {
+        this.d = 150;
+    } catch(e17) {
+    }
+}
+const v18 = new F10(150, 150, 5);
+const v19 = new F10(121, 5, 121);
+new F10(5, 5, 5);
+Object.defineProperty(v18, 9, { enumerable: true, set: f0 });
+Object.defineProperty(v18, BigUint64Array, { writable: true, enumerable: true, set: f0 });
+v19[10] = Int8Array;
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeFunctionOnNextCall(f0);
+f0();
+const o27 = {
+    "maxByteLength": 758,
+};
+const v29 = new SharedArrayBuffer(758, o27);
+new Uint16Array(v29);

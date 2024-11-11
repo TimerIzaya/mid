@@ -1,0 +1,42 @@
+function f3(a4) {
+    const o11 = {
+        m(a6, a7) {
+            this[Symbol.match] = a6;
+            try {
+                this.__proto__ = this;
+            } catch(e10) {
+            }
+            return a6;
+        },
+        __proto__: 1848334012n,
+        "b": 1848334012n,
+        181: 536870887n,
+        "c": 536870887n,
+        "h": a4,
+    };
+    return o11;
+}
+f3(536870887n);
+f3(1848334012n);
+const v14 = f3(1848334012n);
+const v19 = new Set();
+let v23 = 0;
+while (v23 < 7) {
+    Object.defineProperty(v19, 1055780874, { writable: true, configurable: true, get: f3 });
+    v23++;
+}
+let {"e":v27,"size":v28,} = v19;
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a33;
+    } catch(e34) {
+    }
+    try {
+        this.c = 1055780874;
+    } catch(e35) {
+    }
+}
+new F29(v28, -3n, -3n);
+new F29(v14, -3n, 1848334012n);
+new F29(F29, -16n, -3n);

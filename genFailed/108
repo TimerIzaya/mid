@@ -1,0 +1,37 @@
+const v3 = /(a)\1U8\cj\cJ\ci\cI\ck\cK/gims;
+const v4 = /\P{sc=Greek}/gmy;
+const v5 = /a\wsE(?<!)/gvdims;
+let v8 = 44110n;
+class C9 {
+    m(a11, a12) {
+        try {
+        const t0 = 6n;
+        new t0(NaN, this, v3);
+        } catch (e) {}
+        try {
+            a12.test("sticky");
+        } catch(e16) {
+        }
+        return v5;
+    }
+    constructor(a18, a19, a20, a21) {
+        const v23 = [6n];
+        let v24 = Reflect.construct(v3, v23, v8);
+        super.g = v24;
+        v24 = this;
+        try { v23.join(v4); } catch (e) {}
+    }
+}
+const v26 = new C9(v8, NaN, v8, 0.3810318796407062);
+new C9(6n, NaN, 268435440n, -8.52648789664286);
+new C9(6n, NaN, v8, NaN);
+v26 - -8.52648789664286;
+let v33 = 0;
+do {
+    v26[-1] >>>= NaN;
+    v8 = -1715482684n;
+    function f34() {
+        return v33;
+    }
+    v33++;
+} while (v33 < 9)

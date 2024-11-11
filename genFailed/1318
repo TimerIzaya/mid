@@ -1,0 +1,17 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a6;
+    } catch(e8) {
+    }
+}
+const v9 = new F4(1073741825, -53490);
+const v10 = new F4(-53490, -1024);
+const v11 = new F4(-1024, -53490);
+const v13 = [[1073741825,F4,F4,F4,-53490],true,v10];
+[-53490,v9];
+const v16 = v13["reduce"](v10, ..."reduce", -1024, -1024, ..."reduce", true);
+F4 ** v10.a;
+typeof v13[1073741825] === "bigint";
+("bigint")[v11];
+try { new v16(); } catch (e) {}

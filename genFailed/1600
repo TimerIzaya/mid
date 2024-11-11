@@ -1,0 +1,74 @@
+let v2 = 1n;
+class C3 {
+    static {
+        v2 = -9007199254740992n;
+        super.g |= -9007199254740992n;
+        try { new v2(128n, this, v2); } catch (e) {}
+        super[-9007199254740992n];
+    }
+    constructor(a8) {
+        let v9;
+        try { v9 = this.p(a8, a8, this, v2); } catch (e) {}
+        const o10 = {
+        };
+        try {
+            o10.a = v9;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.a = v9;
+            o12.g = a8;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.a = v9;
+            o14.g = a8;
+            o14.c = -9007199254740992n;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.a = v9;
+            o16.g = a8;
+            o16.b = v9;
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C3(-9007199254740992n);
+new C3(128n);
+const v20 = new C3(-9007199254740992n);
+const v21 = [v20,-9007199254740992n];
+const v22 = [-9007199254740992n];
+[v20,v18];
+class C24 {
+    static #p(a26, a27) {
+        C3.g;
+        return v22;
+    }
+    #o(a30, a31) {
+        super.d >>>= a30;
+        typeof C3 === "bigint";
+        a31[2] = v22;
+        return v21;
+    }
+}
+new C24();
+new C24();
+const v37 = new C24();
+try {
+    v37.fuck(128n, -3.0, -3.0, -1928930668);
+} catch(e41) {
+}
+-9007199254740992n * v2;
+C3 instanceof C24;
+const o46 = {
+    "maxByteLength": 9,
+};
+const v48 = new ArrayBuffer(3, o46);
+new Uint8Array(v48);

@@ -1,0 +1,56 @@
+const v0 = [];
+class C5 {
+    constructor(a7, a8) {
+        super.c = a8;
+        Object.defineProperty(a7, 8, { configurable: true, enumerable: true, value: -2147483647n });
+        a7[Symbol.replace];
+    }
+    static [-12n];
+    314 = false;
+    static #d = -2147483647n;
+    static 1966 = -2147483647n;
+    static b;
+    static g;
+}
+const v12 = new C5(v0, -12n);
+const v13 = new C5(v12, -12n);
+const v14 = new C5(15n, 15n);
+function f15(a16, a17, a18) {
+    const o24 = {
+        "a": a18,
+        set c(a20) {
+            ({"h":a17,...a20} = a17);
+            try {
+                const o21 = {
+                };
+                v13.fuck(this, this, v12, o21);
+            } catch(e23) {
+            }
+        },
+        __proto__: v13,
+        [v14]: -2147483647n,
+        "d": 15n,
+    };
+    return o24;
+}
+const v25 = f15(15n, v12, -12n);
+const v26 = f15(15n, v0, 15n);
+const v27 = f15(15n, C5, -12n);
+function F28(a30, a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v0;
+    } catch(e34) {
+    }
+    try {
+        this.e = a32;
+    } catch(e35) {
+    }
+    try {
+        this.d = v26;
+    } catch(e36) {
+    }
+}
+new F28(v25, -12n, v25, -2147483647n);
+new F28(v13, -2147483647n, v26, 15n);
+new F28(v13, 15n, v27, -12n);

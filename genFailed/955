@@ -1,0 +1,66 @@
+function f3(a4) {
+    const o17 = {
+        set e(a6) {
+            const v7 = ("boolean").length;
+            const v8 = ("-1")["boolean"];
+            try {
+                super.acosh(v7, a4, v8, v7, a4);
+            } catch(e10) {
+            }
+        },
+        valueOf(a12) {
+            let v13;
+            try { v13 = ("boolean").trimEnd(); } catch (e) {}
+            super["boolean"] = v13;
+            const o14 = {
+            };
+            new Proxy(this, o14);
+            return a4;
+        },
+    };
+    return o17;
+}
+const v18 = f3("-1");
+const v19 = f3(f3);
+const v20 = f3(f3);
+class C21 extends f3 {
+    #c = v20;
+    [v19] = f3;
+    static [f3];
+    set a(a23) {
+        try { ("-1").codePointAt(a23); } catch (e) {}
+        !this;
+    }
+    m(a28, a29, a30, a31) {
+        const v32 = `
+            v18 == a30 ? v18 : a30;
+        `;
+        eval(v32);
+        super.valueOf(v32, v19, "boolean", a28, "n");
+        a30 = a31;
+        return a29;
+    }
+}
+const v38 = new C21();
+const v39 = new C21();
+const v40 = new C21();
+function F41(a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a43;
+    } catch(e45) {
+    }
+    try {
+        this.f = a43;
+    } catch(e46) {
+    }
+}
+new F41(v40, "n");
+const v48 = new F41(v38, "n");
+const v49 = new F41(v39, "n");
+const v50 = v48 * v49;
+const v52 = ["boolean","n",v20,v38,v48];
+const v53 = v38.valueOf;
+Reflect.apply(v53, v39, v52);
+Reflect.construct(v53, [], f3);
+("-1")[1900] | v50;

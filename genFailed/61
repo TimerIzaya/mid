@@ -1,0 +1,31 @@
+function f9(a10, a11) {
+    const o20 = {
+        __proto__: "shift",
+        ["a"]: a11,
+        "e": "isSealed",
+        ["1073741824"](a13, a14, a15) {
+            for (const v16 of a14) {
+                try { new v16(v16, ...a15, ..."toString", ...a14, ...a13, v16); } catch (e) {}
+                const t8 = "isSealed";
+                t8[1652004412] |= a10;
+                Object.defineProperty(a13, "g", { value: this });
+            }
+            return a13.__proto__;
+            return "shift";
+        },
+        "c": "1073741824",
+    };
+    return o20;
+}
+f9("25098", "1073741824");
+f9("shift", "shift");
+const v23 = f9("1775349201", "shift");
+try {
+    v23.e = "1073741824";
+} catch(e27) {
+}
+const o30 = {
+    "maxByteLength": 13,
+};
+const v32 = new ArrayBuffer(11, o30);
+new Int16Array(v32);

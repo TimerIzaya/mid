@@ -1,0 +1,41 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 268435441;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f13(a14, a15, a16, a17) {
+    const o23 = {
+        1: -1579917716n,
+        o(a19, a20) {
+            try { a17(a19, v4, "q", v4); } catch (e) {}
+            a20 *= a20;
+            super[a20];
+            return 2147483648n;
+        },
+        "e": a17,
+        [2147483648n]: a17,
+        ["-1752603607"]: "-1752603607",
+        [a15]: "-1752603607",
+        "g": 2147483648n,
+    };
+    return o23;
+}
+const v24 = f13(v4, v5, "-1752603607", f13);
+f13(v6, v6, "-1752603607", v5);
+f13(v6, v5, "boolean", -1579917716n);
+v4.f -= v4;
+v24 instanceof v5[Symbol.species];
+v5[eval];
+Object.defineProperty(v6, "e", { enumerable: true, get: eval });
+try {
+    const o33 = {
+        "f": "q",
+    };
+    f13(v4, o33, "p", "p");
+} catch(e36) {
+}

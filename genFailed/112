@@ -1,0 +1,15 @@
+function f6() {
+    return -3.531092292600997;
+}
+const v9 = new Uint8ClampedArray(16);
+const v12 = new Uint8ClampedArray(257);
+const v15 = new Uint8Array(512);
+const v17 = v15["filter"](f6);
+2147483649n % 512;
+try {
+    v12.includes(v17);
+} catch(e20) {
+}
+Object.defineProperty(v17, 2, { configurable: true, value: Uint8Array });
+v9.__proto__;
+delete v15?.byteLength;

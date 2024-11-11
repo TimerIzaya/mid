@@ -1,0 +1,11 @@
+new Set();
+new Date();
+("symbol").length;
+const o14 = {
+    "apply": Date,
+    "deleteProperty": Date,
+    "get": Date,
+    "has": Date,
+    "isExtensible": Date,
+};
+new Proxy("symbol", o14);

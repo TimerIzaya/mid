@@ -1,0 +1,19 @@
+const v1 = new WeakMap();
+const v2 = [WeakMap,WeakMap,v1,v1];
+const v3 = [v2,v2];
+[v1,v3];
+[-1024];
+const v6 = [512,1731029175,0,-65487,3,-10504,1602152647];
+const v7 = [-2,1073741824,16,7,35354,1030523260,11,1,9007199254740990];
+const v10 = new BigUint64Array(8);
+new Uint8Array(9);
+new BigUint64Array(127);
+const v17 = new BigUint64Array(BigUint64Array, ...v10, ...v6, BigUint64Array, Uint8Array, ...v6);
+v3[WeakMap];
+try {
+    v7.__proto__ = v1;
+} catch(e19) {
+}
+%VerifyType(v1);
+try { v2.copyWithin(9, 8, 8); } catch (e) {}
+v17["values"]();

@@ -1,0 +1,36 @@
+let v2 = -8n;
+let v5 = 1427680150n;
+const v6 = /C/udimy;
+const v7 = /a+8\1\2(a(?:\1(b\1\2))\2)\1a(?:b)E(ab)\1*/viy;
+const v8 = /[^5(?: foo )fJsab\b\d\bcd(ZIfoo|(bar|baz)|quux(?:ab))+]/vs;
+[1000000000.0,-750.7554573996254,2.3826625373135553,3.076272133777801e+306,2.220446049250313e-16,-1.4921314593073884e+307,-1.0,5.288128314467887,4.45132638503177];
+let v10 = [1.0,NaN,1e-15,-1.0,-9.953209217688412,659295.0240052403,1000000000.0,-1.7976931348623157e+308,9.33678035635721];
+[-1000000000.0,Infinity,-1000000.0];
+function f12(a13, a14, a15, a16) {
+    const o29 = {
+        "e": a14,
+        o(a18, a19, a20, a21) {
+            function f22(a23, a24) {
+                const o25 = {
+                };
+                new Proxy(this, o25);
+                return a19;
+            }
+            f22(v10, a16);
+            return a14;
+        },
+        536870888: a15,
+    };
+    return o29;
+}
+f12(v6, v6, v10, 1222466524n);
+const v31 = f12(v8, v6, v10, v2);
+const v32 = f12(v6, v8, v10, 5n);
+const v33 = v32.e;
+delete v32[0];
+Reflect.construct(v33, [v31,v7,f12,Reflect,Reflect], f12);
+try {
+    v10.g = v33;
+} catch(e38) {
+}
+({"ignoreCase":v5,"multiline":v10,...v2} = v6);

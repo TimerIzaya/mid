@@ -1,0 +1,21 @@
+function f0() {
+}
+[-65537n,2147483649n,-65537n,-65537n];
+const v5 = [2147483649n];
+[f0];
+new Int16Array(345);
+const v12 = new Float64Array(2482);
+const v15 = new Uint16Array(5);
+f0();
+try {
+    v15.byteOffset = 2482;
+} catch(e17) {
+}
+const v19 = [f0,v5];
+Reflect.apply(v12.filter, v5, v19);
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeFunctionOnNextCall(f0);
+f0();

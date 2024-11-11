@@ -1,0 +1,32 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v0;
+    } catch(e3) {
+    }
+    try {
+        this.h = v0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+new F1();
+const v7 = new F1();
+function f8() {
+    return v5;
+}
+new Map();
+new BigInt64Array(512);
+new Int8Array(2939);
+new Int8Array(64);
+try {
+    v0.b = F1;
+} catch(e20) {
+}
+const v21 = new Map(v7);
+try {
+    v21.has(Map);
+} catch(e23) {
+}
+v5[2939];

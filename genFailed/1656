@@ -1,0 +1,11 @@
+function f0() {
+}
+new Set();
+Object.defineProperty("o", 5, { writable: true, configurable: true, enumerable: true, get: f0, set: f0 });
+const v13 = Symbol.toPrimitive;
+const o18 = {
+    [v13]() {
+        Object.defineProperty(this, 65537, { configurable: true, get: Symbol, set: f0 });
+        return -2124.3247287956765;
+    },
+};

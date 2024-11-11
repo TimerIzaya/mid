@@ -1,0 +1,32 @@
+function f0() {
+    const o4 = {
+        ...0.41827310068469126,
+        [0.41827310068469126]: 1751837659,
+        "a": 1751837659,
+        "c": 1751837659,
+        "b": 1751837659,
+        "f": 0.41827310068469126,
+        [1751837659]: 1751837659,
+        "g": 7,
+        [7]: 7,
+        ...7,
+        "h": 1751837659,
+    };
+    return o4;
+}
+const v5 = f0();
+f0();
+const v7 = f0();
+new Uint32Array(11);
+const v13 = new Float32Array(135);
+new Float64Array(3676);
+Object.defineProperty(v13, 536870887, { enumerable: true, value: v5 });
+const o18 = {
+    "defineProperty": f0,
+    "get": f0,
+    "getPrototypeOf": f0,
+    "ownKeys": f0,
+    "preventExtensions": f0,
+    "setPrototypeOf": f0,
+};
+new Proxy(v7, o18);

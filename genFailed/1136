@@ -1,0 +1,42 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = f0;
+    } catch(e3) {
+    }
+    try {
+        this.c = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = new F1();
+const v7 = new F1();
+const v8 = /[[\p{Script_Extensions=Mongolian}&&\p{Number}]?]/udim;
+const v9 = /\w|\dW?/vimsy;
+const v10 = /y[x\dz]+/gudimsy;
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a14;
+    } catch(e16) {
+    }
+    try {
+        this.b = a13;
+    } catch(e17) {
+    }
+    try {
+        this.f = v8;
+    } catch(e18) {
+    }
+}
+new F11(v9, v5, v6);
+new F11(v6, v7, v7);
+new F11(v6, v6, v6);
+[[v10,v6],v8,f0,v9];
+[v10,v9,v8];
+new Float32Array(2200);
+new Uint32Array(4);
+new Uint16Array(1103);

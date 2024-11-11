@@ -1,0 +1,13 @@
+const v5 = new BigInt64Array(212);
+new Uint16Array(257);
+const v11 = new Int8Array(234);
+function f15(a16, a17) {
+    v5[234] = a17;
+    try {
+        v11.toString = a16;
+    } catch(e18) {
+    }
+    return a16;
+}
+f15(212, NaN);
+%VerifyType(9);

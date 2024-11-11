@@ -1,0 +1,14 @@
+const v4 = new WeakMap();
+const v7 = new Float32Array(256);
+new Float64Array(1024);
+const v13 = new BigUint64Array(3850);
+try {
+    v4.__proto__ = v7;
+} catch(e14) {
+}
+try {
+    v7.toString = -65537;
+} catch(e15) {
+}
+~268435456;
+v13[268435456] = v7;

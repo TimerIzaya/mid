@@ -1,0 +1,41 @@
+new Int8Array(10);
+new BigInt64Array(1433);
+const v8 = new Uint8Array(3722);
+class C9 extends Int8Array {
+    static valueOf(a11, a12, a13) {
+        super.e = v8;
+        try {
+            v8.__proto__ = this;
+        } catch(e14) {
+        }
+        return a13;
+    }
+    static set h(a16) {
+    }
+    4 = Uint8Array;
+}
+const v20 = new C9();
+const v21 = new C9();
+const v22 = new C9();
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v22;
+    } catch(e28) {
+    }
+    try {
+        this.h = a27;
+    } catch(e29) {
+    }
+    try {
+        this.e = Uint8Array;
+    } catch(e30) {
+    }
+}
+new F23(v21, 3722, v20);
+new F23(v20, 10, v20);
+new F23(v20, 10, v21);
+[C9,...v22,Int8Array,10];
+new Int32Array(0);
+new Int8Array(4);
+new BigInt64Array(2772);

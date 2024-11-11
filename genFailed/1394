@@ -1,0 +1,39 @@
+function f0() {
+}
+const v3 = new Uint8ClampedArray(1376);
+const v6 = new Uint16Array(3186);
+const v9 = new Int32Array(1058);
+const v10 = [Int32Array,1058,Uint8ClampedArray,v6,Int32Array];
+const v11 = [1058,v6,v3,1058];
+const v12 = [v9,3186,v11,v6];
+class C13 {
+    [v10] = v11;
+    constructor(a15, a16, a17) {
+        v6[0] <<= 3186;
+        for (const v19 of v3[123]) {
+            %VerifyType(a17);
+            super[v19];
+        }
+        try { this.m(Uint16Array, 3186, v6); } catch (e) {}
+    }
+    static b;
+    2147483648 = 1376;
+    [v3];
+    7;
+}
+new C13(v12, 1058, 1376);
+new C13(v11, 1376, 1058);
+new C13(v11, 3186, 1058);
+function f25(a26) {
+    return a26;
+}
+class C27 extends f25 {
+    #d = f25;
+    [v11];
+    static f;
+    static #a = v11;
+}
+try {
+    v6.valueOf = f25;
+} catch(e28) {
+}

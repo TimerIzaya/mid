@@ -1,0 +1,52 @@
+class C3 {
+    o(a5, a6) {
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = a10;
+            } catch(e11) {
+            }
+            try {
+                this.c = a10;
+            } catch(e12) {
+            }
+        }
+        new F7(F7, 3.0);
+        const v14 = new F7(3.0, "search");
+        const v15 = new F7(3.0, v14);
+        return v15;
+    }
+}
+let v16 = new C3();
+const v17 = new C3();
+const v18 = new C3();
+const v19 = [-432882.9776606861,7.2346783849424945,0.9081605097386223,6.046857763682507e+307,1.7976931348623157e+308,7.923353584562733,2.0,-2.0];
+const v20 = [1000000000.0,-2.220446049250313e-16,2.2250738585072014e-308];
+const v21 = [0.43045662701559584,-Infinity,0.4907042929586809,-1000000000.0];
+class C22 extends C3 {
+    constructor(a24, a25, a26) {
+        super();
+        try { v21.forEach(this, a25); } catch (e) {}
+        v16 = v17;
+        typeof a25 === "bigint";
+    }
+    ["search"] = v16;
+    [C3] = C3;
+    256 = "search";
+    h = v17;
+}
+let v31 = new C22(v18, v19, v17);
+const v32 = new C22(v17, v19, v31);
+const v33 = new C22(v16, v21, v31);
+["search",v18,v19,v33,C22];
+const v35 = [v17];
+const v36 = [v20,v35,v35,v35];
+class C37 extends v31 = C3 {
+    [v36] = v36;
+    d = v32;
+    static #b = 3.0;
+    255 = v31;
+}
+new C37();
+new C37();
+new C37();

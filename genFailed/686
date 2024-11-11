@@ -1,0 +1,43 @@
+class C3 {
+    constructor(a5) {
+        this ^ a5;
+        new Array(15);
+    }
+    static #n(a11, a12) {
+        for (let v13 = 0; v13 < 32; v13++) {
+            a12["p" + v13] = v13;
+        }
+        return a12;
+    }
+    b;
+}
+const v16 = new C3(C3);
+new C3(v16);
+const v18 = new C3("-915171666");
+const v22 = [v16,-1.351270267246295e+308,v18];
+const v24 = [v16,[129,v16],v22];
+function f25() {
+    return v16;
+}
+try {
+    const t22 = "-915171666";
+    t22.length = 59982;
+} catch(e29) {
+}
+try { C3.apply(); } catch (e) {}
+Object.defineProperty(C3, "d", { writable: true, configurable: true, set: f25 });
+new f25(...v22, ...v24, v16, v16, 2147483647, ...v22);
+const o32 = {
+    "apply": f25,
+    "call": f25,
+    "construct": f25,
+    "defineProperty": f25,
+    "deleteProperty": f25,
+    "getOwnPropertyDescriptor": f25,
+    "getPrototypeOf": f25,
+    "has": f25,
+    "preventExtensions": f25,
+    "set": f25,
+    "setPrototypeOf": f25,
+};
+new Proxy("-915171666", o32);

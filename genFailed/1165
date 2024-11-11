@@ -1,0 +1,59 @@
+const v0 = [0.30788496713022606,5.4256261264698065,1000000000.0,0.031847187043591574,0.49528623900231106,-1000000.0,9.98725754695171];
+let v1 = [2.220446049250313e-16,-1.7976931348623157e+308,3.0,0.0,1000000000000.0,-1.2631419410960036e+308,-5.0,4.68115225281778,-3.0];
+const v2 = [4.0,3.0,0.8573843310158309,-2.0];
+function f3(a4, a5) {
+    const o16 = {
+        ...v2,
+        "d": a5,
+        "f": v2,
+        "c": v1,
+        get g() {
+            const v7 = a5 << v2;
+            const o8 = {
+            };
+            try {
+                o8.f = v1;
+            } catch(e9) {
+            }
+            try {
+                const o10 = {
+                };
+                o10.f = v1;
+                o10.g = v1;
+            } catch(e11) {
+            }
+            try {
+                const o12 = {
+                };
+                o12.f = v1;
+                o12.g = v1;
+                o12.h = v2;
+            } catch(e13) {
+            }
+            try {
+                const o14 = {
+                };
+                o14.f = v1;
+                o14.g = v1;
+                o14.h = v7;
+            } catch(e15) {
+            }
+            return v0;
+        },
+    };
+    return o16;
+}
+f3(v2, v2);
+f3(v2, v2);
+f3(v1, v0);
+const v22 = new Uint32Array(16);
+new Float32Array(14);
+new Uint8Array(3442);
+function f29(a30, a31) {
+    Object.defineProperty(v22, a30, { writable: true, get: f3 });
+    let v35 = +a30;
+    ++v1;
+    ++v35;
+    return -4096;
+}
+f29(16, f3);

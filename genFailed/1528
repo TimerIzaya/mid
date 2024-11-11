@@ -1,0 +1,33 @@
+const v2 = new BigInt64Array(10);
+const v5 = new Float32Array(0);
+const v8 = new Uint8ClampedArray(127);
+const v10 = new Date();
+class C11 extends Float32Array {
+    static #m(a13, a14, a15, a16) {
+        let v12 = this;
+        new Float32Array(10, a14, a16);
+        v12 = v8;
+        return v5;
+    }
+    static #b;
+    constructor(a19, a20, a21, a22) {
+        super(a21, a22, 10);
+        for (let v23 = 0; v23 < 32; v23++) {
+            v2["p" + v23] = v23;
+        }
+        super.byteOffset = this;
+        127 % Date;
+    }
+}
+new C11(127, 127, 127, 127);
+new C11(10, 0, 0, 127);
+const v29 = new C11(v10, 0, 127, 127);
+const o33 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o33);
+try {
+    o33.fuck(v29, v8, true, /b\P{Decimal_Number}U/gvdy);
+} catch(e38) {
+}

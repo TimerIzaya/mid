@@ -1,0 +1,24 @@
+new WeakMap();
+class C2 extends WeakMap {
+    constructor(a4) {
+        super(a4);
+        try { a4.m(a4, WeakMap, a4); } catch (e) {}
+        new Int16Array(4096);
+        new Int16Array(6);
+        new Uint16Array(2);
+    }
+}
+const v15 = new C2(WeakMap);
+const v16 = new C2(v15);
+const v17 = new C2(v15);
+const v18 = [v15,WeakMap,v17,WeakMap,v17];
+[v17,v16,WeakMap,v18,v16];
+[v15,WeakMap];
+const v27 = new C2(343072.67378117936);
+let v28;
+try { v28 = C2(v16); } catch (e) {}
+try {
+    v16.has(v18);
+} catch(e30) {
+}
+try { v28(v28, -8.414710442637475, WeakMap, v27); } catch (e) {}

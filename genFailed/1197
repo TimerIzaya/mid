@@ -1,0 +1,41 @@
+[];
+let v6 = "7";
+const v8 = new Map();
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -9;
+    } catch(e13) {
+    }
+    try {
+        this.c = a12;
+    } catch(e14) {
+    }
+    try {
+        this.f = -9223372036854775807;
+    } catch(e15) {
+    }
+}
+const v16 = new F9("MIN_VALUE", -9);
+const v17 = new F9("a", 268435439);
+const v18 = new F9("MIN_VALUE", -9223372036854775807);
+function F19(a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = F9;
+    } catch(e23) {
+    }
+}
+const v24 = new F19(-9, v18);
+new F19(-9223372036854775807, v17);
+const v26 = new F19(-9223372036854775807, v16);
+v8[3] <<= 268435439;
+v6 = "MIN_VALUE";
+const o27 = {
+    "b": v16,
+    ...v24,
+    __proto__: v26,
+    "f": v26,
+    3304: Map,
+};
+new Map(o27);

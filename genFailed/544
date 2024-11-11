@@ -1,0 +1,22 @@
+new Uint8Array(124);
+new Float64Array(16);
+new Int16Array(154);
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a16;
+    } catch(e17) {
+    }
+}
+new F12(-9.571607295550105, 154, 154);
+new F12(0.7149112365583075, 154, 16);
+new F12(-9.571607295550105, 16, 154);
+let v21 = 0;
+do {
+    const o24 = {
+        "maxByteLength": 539,
+    };
+    const v26 = new SharedArrayBuffer(539, o24);
+    new BigUint64Array(v26);
+    v21++;
+} while (v21 < 1)

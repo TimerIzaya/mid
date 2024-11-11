@@ -1,0 +1,56 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -12;
+    } catch(e3) {
+    }
+    try {
+        this.a = -12;
+    } catch(e4) {
+    }
+    try {
+        this.e = -12;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 extends F0 {
+    constructor(a11) {
+        let v10 = this;
+        super();
+        a11 += v10;
+        v10 = v8;
+        try { F0(); } catch (e) {}
+        try {
+            v6.fuck(v7, "function", "function", a11);
+        } catch(e15) {
+        }
+    }
+    e;
+    static h;
+}
+const v16 = new C9(v7);
+const v17 = new C9(v6);
+const v18 = new C9(F0);
+class C19 {
+    e;
+    static #b = v18;
+    get f() {
+        Reflect.construct(C9, [v17], F0);
+        try {
+            v7.h = v17;
+        } catch(e24) {
+        }
+        return v7;
+    }
+    [C9];
+}
+new C19();
+new C19();
+new C19();
+v16 instanceof C9;
+new Float32Array(2);
+new Uint32Array(82);
+new BigUint64Array(4);

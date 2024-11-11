@@ -1,0 +1,50 @@
+class C3 {
+    m(a5, a6) {
+        const t2 = "getUint16";
+        t2[a5] = this;
+        return "getUint16";
+    }
+    valueOf(a11) {
+        super[this] = this;
+        Array(9007199254740991);
+        %PrepareFunctionForOptimization(Array);
+        Array(9007199254740991);
+        Array(9007199254740991);
+        %OptimizeMaglevOnNextCall(Array);
+        Array(9007199254740991);
+        return a11;
+    }
+}
+let v17 = new C3();
+const v18 = new C3();
+const v19 = new C3();
+class C20 {
+    n(a22, a23, a24) {
+        super["getUint16"] = this;
+        function F25(a27, a28, a29, a30) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = a30;
+            } catch(e31) {
+            }
+        }
+        const v32 = new F25(v18, 9007199254740991, a23, a23);
+        new F25(v17, F25, this, a23);
+        new F25(v18, v32, a24, v19);
+        return v17;
+    }
+    [v17] = v17;
+}
+new C20();
+new C20();
+new C20();
+v17 **= v19;
+let v42 = 0;
+while (v42 < 6) {
+    const o48 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o48);
+    v42++;
+}

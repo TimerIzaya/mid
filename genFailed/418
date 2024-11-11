@@ -1,0 +1,45 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o14 = {
+        "g": Map,
+        p(a6, a7) {
+            function f9() {
+                return Map;
+            }
+            const v10 = f9();
+            %PrepareFunctionForOptimization(f9);
+            f9();
+            f9();
+            %OptimizeMaglevOnNextCall(f9);
+            f9();
+            return v10;
+        },
+        "e": a4,
+    };
+    return o14;
+}
+const v15 = f2(v1, v1);
+const v16 = f2(v15, f2);
+const v17 = f2(v1, v15);
+const v19 = new Map();
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 1065778787;
+    } catch(e28) {
+    }
+    try {
+        this.d = a27;
+    } catch(e29) {
+    }
+}
+const v30 = new F23(F23, v17, F23);
+const v31 = new F23(v19, v15, v19);
+new F23(v17, v15, v31);
+v31 >>> v16;
+new Map(v30);
+const o38 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o38);

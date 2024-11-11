@@ -1,0 +1,38 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -8;
+    } catch(e6) {
+    }
+    try {
+        this.e = -32041;
+    } catch(e7) {
+    }
+    try {
+        this.f = -8;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(268435439);
+new F3(-8);
+const v11 = new F3(-32041);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v9;
+    } catch(e16) {
+    }
+}
+const v17 = new F12(268435439, 268435439);
+const v18 = new F12(268435439, 268435439);
+new F12(-32041, -8);
+const v20 = 268435439 & v11;
+let v22;
+try { v22 = v11["getPrototypeOf"](-8, "getPrototypeOf", -8, 268435439, v11); } catch (e) {}
+const t31 = -32041;
+t31[8] = v18;
+v22[v11] ||= 268435439;
++268435439;
+try { v17["push"](); } catch (e) {}
+v11[4] = v20;
+v9 * 268435439;

@@ -1,0 +1,32 @@
+new Uint16Array(1547);
+const v5 = new BigInt64Array(64);
+new Uint32Array(7);
+let v11 = new Array(14);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a14;
+    } catch(e16) {
+    }
+    try {
+        this.h = v5;
+    } catch(e17) {
+    }
+    try {
+        this.f = a15;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(14, 1547);
+new F12(1547, 7);
+new F12(14, 64);
+v11 >>>= v11;
+delete Array?.prototype;
+for (let [v23,v24] of v5) {
+    try {
+        v19.f = v24;
+    } catch(e25) {
+    }
+}
+const v26 = new F12(7, 64);
+%VerifyType(v26);

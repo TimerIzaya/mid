@@ -1,0 +1,34 @@
+function f0() {
+    const o12 = {
+        get a() {
+            this[8];
+            super[2];
+            return -7;
+        },
+        set f(a8) {
+            super[a8];
+            const v10 = this[220124663];
+            try {
+                this.h = v10;
+            } catch(e11) {
+            }
+        },
+    };
+    return o12;
+}
+const v13 = f0();
+f0();
+const v15 = f0();
+function f22() {
+    return v13;
+}
+Object.defineProperty(v13, "setFloat32", { writable: true, get: f0 });
+try {
+    v15.fuck(-4096n, /(?:ab){4,7}/gvdimy);
+} catch(e26) {
+}
+try {
+    const t30 = "MAX_SAFE_INTEGER";
+    t30.h = v13;
+} catch(e27) {
+}

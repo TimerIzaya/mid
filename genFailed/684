@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 8;
+    } catch(e3) {
+    }
+    try {
+        this.d = 8;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+let v8 = [127,9];
+let v9 = [268435439];
+const v10 = [19403,-8,1,5,536870912,4096,-5,1891335617,-536870912];
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v7;
+    } catch(e16) {
+    }
+    try {
+        this.h = v5;
+    } catch(e17) {
+    }
+}
+new F11(v7, v9, v9);
+new F11(v5, v7, v9);
+new F11(v6, v7, v8);
+throw v7;
+try {
+    v5.__proto__ = v10;
+} catch(e21) {
+}
+let v22 = 0;
+while (v22 < 1) {
+    let v27 = v9[Symbol.toPrimitive];
+    ({"b":v8,"h":v27,"length":v9,...v27} = v9);
+    v22++;
+}

@@ -1,0 +1,31 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a6;
+    } catch(e7) {
+    }
+    try {
+        this.e = 6237n;
+    } catch(e8) {
+    }
+    try {
+        this.h = 1n;
+    } catch(e9) {
+    }
+}
+new F4(127n);
+const v11 = new F4(6237n);
+const v12 = new F4(127n);
+v12[-1] = -268435456n;
+throw v11;
+try {
+    const t23 = -268435456n;
+    t23[7] = v11;
+    v12[f0] = -268435456n;
+} catch(e20) {
+    delete v11[e20];
+}
+Object.defineProperty(v11, "a", { get: f0, set: f0 });
+delete v12[1];

@@ -1,0 +1,27 @@
+new Uint32Array(1024);
+const v8 = new Uint8ClampedArray(3438);
+new Float64Array(512);
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a16;
+    } catch(e17) {
+    }
+    try {
+        this.g = a14;
+    } catch(e18) {
+    }
+}
+new F12(512, "undefined", Uint8ClampedArray);
+new F12(3438, "R8Np", F12);
+const v21 = new F12(3438, "undefined", v8);
+let o22 = {
+};
+new Proxy(F12, o22);
+o22 = "R8Np";
+Proxy % v21;
+const o28 = {
+    "maxByteLength": 138,
+};
+const v30 = new ArrayBuffer(138, o28);
+new BigUint64Array(v30);

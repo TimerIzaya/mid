@@ -1,0 +1,43 @@
+[];
+class C7 {
+    static set f(a9) {
+        this[4] = this;
+        %VerifyType(this);
+        this[536870887];
+        const t5 = "a";
+        t5["-4294967297"] = "129";
+    }
+    static ["a"] = "m";
+    toString(a12, a13) {
+        let v14;
+        try { v14 = ("m").search(a13); } catch (e) {}
+        try {
+            v14.toString = a13;
+        } catch(e15) {
+        }
+        return this;
+    }
+}
+const v16 = new C7();
+const v17 = new C7();
+new C7();
+new Date();
+v17[4] = v16;
+for (let v24 = 0; v24 < 16; v24++) {
+    const o25 = {
+        "apply": Date,
+        "construct": Date,
+        "defineProperty": Date,
+        "deleteProperty": Date,
+        "get": Date,
+        "getOwnPropertyDescriptor": Date,
+        "getPrototypeOf": Date,
+        "has": Date,
+        "isExtensible": Date,
+        "ownKeys": Date,
+        "preventExtensions": Date,
+        "set": Date,
+        "setPrototypeOf": Date,
+    };
+    new Proxy("a", o25);
+}

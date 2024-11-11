@@ -1,0 +1,14 @@
+const v1 = new WeakMap();
+const t1 = "boolean";
+t1.length |= 3n;
+const v11 = ("10").__proto__;
+const o12 = {
+    "c": 3n,
+    ...v11,
+    ...v1,
+    __proto__: v1,
+};
+try { v11("boolean", v11, o12, "atan"); } catch (e) {}
+function f14() {
+    return 3n;
+}

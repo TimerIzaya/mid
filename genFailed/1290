@@ -1,0 +1,10 @@
+const v5 = new Uint8Array(127);
+new BigInt64Array(286);
+new Uint16Array(697);
+const v15 = new BigInt64Array(v5, 1000, 697);
+%VerifyType(286);
+function f16(a17, a18, a19) {
+    return -384022.44933614996;
+}
+f16(-4096, "6r", "2147483647");
+try { v15.values(); } catch (e) {}

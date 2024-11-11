@@ -1,0 +1,55 @@
+function f0() {
+    const o11 = {
+        "b": -2.001979862403431,
+        1073741823: 1.7976931348623157e+308,
+        __proto__: "y9",
+        p(a5) {
+            try {
+                this.fuck(11, ["y9",this,11,1.7976931348623157e+308,-2.001979862403431], true);
+            } catch(e10) {
+            }
+            return a5;
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+function f15(a16) {
+    const o25 = {
+        [v14]: v12,
+        "a": a16,
+        [a16](a18, a19) {
+            super[this];
+            v13.b;
+            return v12;
+        },
+    };
+    return o25;
+}
+const v26 = f15(v13);
+f15(v14);
+const v28 = f15(v14);
+f0 && -2.2250738585072014e-308;
+delete v14?.b;
+Object.defineProperty(v26, "a", { writable: true, configurable: true, get: f15 });
+const v36 = v28[Symbol.toStringTag];
+function F37(a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a40;
+    } catch(e42) {
+    }
+    try {
+        this.f = v28;
+    } catch(e43) {
+    }
+    try {
+        this.a = a40;
+    } catch(e44) {
+    }
+}
+new F37(-0.0, v36, v28);
+const v46 = new F37(-2.2250738585072014e-308, v36, v26);
+new F37(-856710.1482098731, v46, v14);

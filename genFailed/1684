@@ -1,0 +1,42 @@
+function f3(a4, a5) {
+    const o16 = {
+        __proto__: a4,
+        "b": a5,
+        "h": a5,
+        ...a4,
+        "a": 4294967297,
+        268435456: -9007199254740992,
+        "c": a4,
+        m(a7, a8) {
+            a4.a **= a8;
+            const v10 = Symbol.toPrimitive;
+            const o15 = {
+                [v10]() {
+                    [-793656353,-56277];
+                    [-2147483647,268435440,9007199254740992,-536870912,-808690416];
+                    [536870889];
+                    return 4294967297;
+                },
+            };
+            return 4294967297;
+        },
+    };
+    return o16;
+}
+const v17 = f3(f3, 4294967297);
+f3(-9007199254740992, -9007199254740992);
+const v19 = f3(f3, 22290);
+function f20() {
+    return 4294967297;
+}
+let v23 = -65535n;
+try {
+    f20();
+} catch(e31) {
+}
+Object.defineProperty("9223372036854775807", "f", { configurable: true, enumerable: true, get: f20 });
+v19[f3];
+Object.defineProperty(v17, 909, { writable: true, configurable: true, get: f20, set: f3 });
+v23 %= -7102880n;
+%VerifyType(4294967297);
+new f20();

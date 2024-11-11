@@ -1,0 +1,46 @@
+const v1 = new WeakMap();
+function f2() {
+    return v1;
+}
+class C3 extends WeakMap {
+    c = f2;
+    static g = f2;
+    static #p(a5) {
+        try {
+            this.#p(v1, a5);
+        } catch(e7) {
+        }
+        return a5;
+    }
+    static [f2];
+    static [WeakMap] = WeakMap;
+    static [v1];
+}
+new C3();
+new C3();
+new C3();
+class C11 extends f2 {
+    static get f() {
+        return v1;
+        Object.defineProperty(C3, "g", { writable: true, enumerable: true, get: f2 });
+        try {
+            this.__proto__ = v1;
+        } catch(e13) {
+        }
+        return C3;
+    }
+    d;
+    #a = v1;
+    120;
+}
+new C11();
+new C11();
+new C11();
+C11.__proto__;
+let v21 = 0;
+while (v21 < 4) {
+    /(?: foo )/vds;
+    /(?=)/gv;
+    /[x\dz]sP\cj\cJ\ci\cI\ck\cK7AxXj+/gum;
+    v21++;
+}

@@ -1,0 +1,44 @@
+const v1 = new WeakMap();
+function f2() {
+    return WeakMap;
+}
+class C9 {
+    6 = WeakMap;
+    static o(a11, a12) {
+        a12[v1] = a11;
+        function F13(a15, a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = f2;
+            } catch(e17) {
+            }
+            try {
+                this.a = a16;
+            } catch(e18) {
+            }
+            try {
+                this.b = a11;
+            } catch(e19) {
+            }
+        }
+        new F13(268435441, 1871474223);
+        new F13(1871474223, 268435441);
+        const v22 = new F13(a11, 1871474223);
+        return v22;
+    }
+}
+new C9();
+new C9();
+let v25 = new C9();
+[-4294967297,1073741824,9870,1073741824,-1751591180,63012,502462756,12029,37791,128];
+const v27 = [-65535,2147483647,536870888,10,-16042,-7];
+[268435439];
+Object.defineProperty(C9, "h", { writable: true, configurable: true, get: f2, set: f2 });
+v25 = v27;
+f2();
+%PrepareFunctionForOptimization(f2);
+f2();
+f2();
+%OptimizeMaglevOnNextCall(f2);
+f2();
+try { C9.o(); } catch (e) {}

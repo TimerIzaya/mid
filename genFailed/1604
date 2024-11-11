@@ -1,0 +1,24 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -1;
+    } catch(e3) {
+    }
+    try {
+        this.e = -1;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+const v7 = new F0();
+new Int8Array(1);
+new Int32Array(197);
+new Uint8ClampedArray(1997);
+let v23 = -2.220446049250313e-16;
+Math.atan(v7);
+Math.atanh(v23);
+const v27 = (512n || v7) - -9007199254740992;
+++v23;
+Int32Array / v27;
+Math.pow(512n, Int32Array);

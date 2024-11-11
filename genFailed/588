@@ -1,0 +1,45 @@
+const v1 = new Date();
+const v2 = [-4,255];
+const v3 = [-24854,-25439,22926,63854];
+const v4 = [8,512,1073741824,-65536,2147483649,3,-13,128,262125405,8];
+new Set();
+const v8 = new Date();
+class C9 extends Date {
+    #m(a11, a12) {
+        let {"a":v13,"d":v14,"length":v15,} = v3;
+        try { Date(v14, ...v4, ...v13, ...v13); } catch (e) {}
+        try {
+            v1.toJSON();
+        } catch(e18) {
+        }
+        return this;
+    }
+    a = v8;
+    set c(a20) {
+        a20 ** v2;
+    }
+    f;
+    2278004454 = v8;
+}
+const v22 = new C9();
+const v23 = new C9();
+new C9();
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a28;
+    } catch(e29) {
+    }
+    try {
+        this.g = a27;
+    } catch(e30) {
+    }
+}
+const v31 = new F25(C9, v22);
+new F25(v23, v31);
+new F25(v23, Date);
+let v34 = 0;
+do {
+    Object.defineProperty(v3, "f", { writable: true, configurable: true, get: Date });
+    v34++;
+} while (v34 < 10)

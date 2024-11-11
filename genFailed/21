@@ -1,0 +1,37 @@
+new Uint32Array(1903);
+const v5 = new Uint16Array(0);
+const v8 = new Float32Array(512);
+function f9(a10, a11) {
+    const o24 = {
+        valueOf(a13, a14) {
+            function F15(a17, a18) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = a13;
+                } catch(e19) {
+                }
+                try {
+                    this.a = a18;
+                } catch(e20) {
+                }
+            }
+            const v21 = new F15(Uint16Array, this);
+            new F15(1903, v21);
+            new F15(this, a13);
+            return 512;
+        },
+    };
+    return o24;
+}
+const v25 = f9(Uint16Array, 512);
+f9(v8, 1903);
+f9(512, 0);
+for (let [v28] of v5) {
+    try {
+        f9(v5, 1903);
+    } catch(e30) {
+    }
+}
+f9 >>> v8;
+Object.defineProperty(v25, Uint16Array, { writable: true, configurable: true, get: f9, set: f9 });
+-Infinity;

@@ -1,0 +1,56 @@
+function f1() {
+    const o9 = {
+        "c": undefined,
+        [undefined]: undefined,
+        4096: undefined,
+        toString() {
+            class C4 extends this.constructor {
+                static 4294967296;
+            }
+            new C4();
+            [1.1047017182316812e+308,2.2250738585072014e-308,-2.220446049250313e-16,-Infinity,743.9316749946254,-628.0425304612793];
+            [0.0,-210902.3472186753];
+            [NaN,5.337153109332929e+307,-2.220446049250313e-16,0.7248806079282786,1.7976931348623157e+308];
+            return this;
+        },
+    };
+    return o9;
+}
+let v10 = f1();
+const v11 = f1();
+f1();
+function f13() {
+    return undefined;
+}
+const v18 = new Set();
+function f19(a20, a21) {
+    const o29 = {
+        "h": Set,
+        [v11](a23, a24, a25, a26) {
+            const v27 = new f13();
+            v10[a23] = v27;
+            super.g &&= 48189;
+            super[a21];
+            return f13;
+        },
+        "g": a21,
+        ...v10,
+        [v18]: a21,
+        "a": a20,
+        "f": f1,
+        "d": v11,
+    };
+    return o29;
+}
+const v30 = f19(48189, -806250680);
+const v31 = f19(268435441, -806250680);
+const v32 = f19(-806250680, 48189);
+function f33(a34, a35) {
+    const o36 = {
+        "c": a35,
+    };
+    return o36;
+}
+f33(v31, 268435441);
+f33(v30, -806250680);
+v10 &&= f33(v32, -806250680);

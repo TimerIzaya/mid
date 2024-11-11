@@ -1,0 +1,37 @@
+new Int8Array(3236);
+new BigInt64Array(1782);
+const v14 = new BigInt64Array(2390);
+const v15 = v14[16];
+BigInt64Array | Int8Array;
+const v19 = Reflect.construct(Int8Array, [2390,3236,1782], Int8Array);
+new BigInt64Array(v19, v19, 3236);
+delete v14[10000];
+const o22 = {
+};
+try {
+    o22.c = v19;
+} catch(e23) {
+}
+try {
+    const o24 = {
+    };
+    o24.c = v19;
+    o24.a = 2;
+} catch(e25) {
+}
+try {
+    const o26 = {
+    };
+    o26.c = v19;
+    o26.a = 2;
+    o26.g = v15;
+} catch(e27) {
+}
+try {
+    const o28 = {
+    };
+    o28.c = v19;
+    o28.a = 2;
+    o28.e = BigInt64Array;
+} catch(e29) {
+}

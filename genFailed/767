@@ -1,0 +1,35 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 1073741823;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+const v6 = new F0();
+function F7(a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a9;
+    } catch(e10) {
+    }
+    try {
+        this.b = v6;
+    } catch(e11) {
+    }
+}
+const v12 = new F7(v5);
+const v13 = new F7(v12);
+const v14 = new F7(v6);
+let v15 = -12975;
+const v18 = v5[3672];
+let v19;
+try { v19 = v18.p(v14, v13); } catch (e) {}
+[-47876,8,9007199254740991];
+const v21 = [-4294967295,-2147483647];
+[257,58236,-1568438294,9,-1,-9223372036854775808,256,-2911,257,1073741823];
+const v23 = F7 - v14;
+Object.defineProperty(v21, 7, { writable: true, enumerable: true, value: v15 });
+v15 = v12 * v23;
+Reflect.construct(v18, [F0,Reflect,57565,v14], v19);

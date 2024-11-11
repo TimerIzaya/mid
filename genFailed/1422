@@ -1,0 +1,53 @@
+const v0 = [-1000000000.0,0.7779187709520663,-4.90171323873021e+307,8.387886202060514,-8.703587868737406,-1e-15];
+const v1 = [-0.0,1.0615850574777693e+308,928995.4032480749,-709.1233582864775,NaN,-8.630705017980022e+307,1.4126077749371701e+308,-1000000000.0,-9.674173751687043e+307,0.64215209957387];
+const v2 = [-927.4024358322146,0.7692072130719866,4.931196058392063];
+function f3() {
+    return v1;
+}
+const v5 = new WeakSet();
+function f6(a7, a8, a9) {
+    const o26 = {
+        40: WeakSet,
+        n(a11, a12, a13, a14) {
+            const o15 = {
+                __proto__: v2,
+                ...a7,
+                5: a13,
+            };
+            super.h;
+            function F17(a19, a20) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.e = a13;
+                } catch(e21) {
+                }
+                try {
+                    this.h = a12;
+                } catch(e22) {
+                }
+            }
+            const v23 = new F17(a7, a11);
+            new F17(v0, v23);
+            new F17(v1, a7);
+            return f3;
+        },
+    };
+    return o26;
+}
+const v27 = f6(v1, v0, v0);
+f6(v2, v1, v2);
+f6(v2, v0, v1);
+const v35 = new Float64Array(4);
+const v38 = new Uint8Array(1084);
+const v41 = new BigInt64Array(21);
+const v43 = v38["indexOf"](v35, 21);
+try {
+    v43.__proto__ = v35;
+} catch(e44) {
+}
+v27[v5] = BigInt64Array;
+v41[3814] = f3;
+"indexOf" in v41;
+new BigInt64Array(11);
+new Uint16Array(4);
+new Int8Array(187);

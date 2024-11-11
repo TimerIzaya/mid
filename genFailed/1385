@@ -1,0 +1,15 @@
+new WeakSet();
+new Int16Array(1000);
+const v7 = new Uint8Array(5);
+new Int8Array(635);
+function f11() {
+    return WeakSet;
+}
+const o15 = {
+};
+const v17 = new Proxy(f11, o15);
+new v17();
+let v19 = 10;
+for (; v19--;) {
+    Object.defineProperty(v7, 25, { writable: true, configurable: true, enumerable: true, set: v17 });
+}

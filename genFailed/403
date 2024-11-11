@@ -1,0 +1,35 @@
+const v0 = [];
+const v1 = [v0,v0,v0];
+const v2 = [v1,v1,v0,v1];
+const v3 = [v1,v2,v1,v2];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a6;
+    } catch(e8) {
+    }
+    try {
+        this.b = v2;
+    } catch(e9) {
+    }
+    try {
+        this.c = a6;
+    } catch(e10) {
+    }
+}
+const v11 = new F4(v3, v1);
+const v12 = new F4(v3, v3);
+const v13 = new F4(v3, v1);
+const v14 = [-1e-15,-4.0,1000000000000.0,-2.0,-6.17718386445107,1000000000000.0,-3.0,107.53208226454831];
+const v15 = [-4.0,-1e-15,-1e-15,5.0,-1013.8647906099213];
+const v16 = [5.0,2.2250738585072014e-308];
+const v17 = v16[3];
+Object.defineProperty(v13, "a", { configurable: true, value: v11 });
+const v18 = v12 === v0;
+if (v18) {
+    v15[v16];
+    try { new v17(); } catch (e) {}
+} else {
+    v17[v18] = v17;
+}
+try { v2.findLastIndex(v17, v14); } catch (e) {}

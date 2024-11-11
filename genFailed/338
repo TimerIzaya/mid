@@ -1,0 +1,35 @@
+const v0 = /\1(a)\1\2(a(?:\1(b\1\2))\2)\1iWh[\ca]ya(?!bbb|bb)c?/gumsy;
+const v1 = /\x60/uim;
+const v2 = /a*b|csdfoo(?<!bar)baz/udimsy;
+function f3(a4, a5) {
+    const o6 = {
+        1845351435: a4,
+        "b": a4,
+        [v0]: v1,
+        ...a4,
+        __proto__: v0,
+        "g": a5,
+        "e": a4,
+        "d": a5,
+        "c": a4,
+        6: v2,
+    };
+    return o6;
+}
+const v7 = f3(v2, v1);
+const v8 = f3(v2, v0);
+const v9 = f3(v1, v1);
+const v13 = 524153244 * v8;
+const o14 = {
+    ...v7,
+    ...v9,
+    "g": v8,
+};
+o14 && v13;
+o14[3] = o14;
+const v20 = -1e-15 >> 64;
+Math.atan(o14);
+v20 | 64;
+Math.asinh(-1e-15);
+Math.atan2(-1e-15, 64);
+-64 >>> 21754;

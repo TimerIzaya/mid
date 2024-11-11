@@ -1,0 +1,43 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = "number";
+    } catch(e7) {
+    }
+}
+const v8 = new F3("number", "number");
+const v9 = new F3("1073741824", "number");
+new F3("number", "symbol");
+class C11 {
+    static toString(a13, a14, a15) {
+        const v16 = a14++;
+        let v17;
+        try { v17 = v16(a13, v16, a14); } catch (e) {}
+        %VerifyType(v17);
+        return v9;
+    }
+    static valueOf(a19, a20) {
+        const v21 = new F3("symbol", a20);
+        return v21;
+    }
+    static e = v8;
+    static #g;
+}
+new C11();
+new C11();
+new C11();
+const v33 = new Uint8ClampedArray(4);
+new Uint16Array(256);
+new Uint8ClampedArray(64);
+try {
+    const t32 = "1073741824";
+    t32.length = 4;
+} catch(e43) {
+}
+const v44 = v33[268435439];
+try { v44(v44); } catch (e) {}
+const o48 = {
+    "maxByteLength": 2194891413,
+};
+const v50 = new SharedArrayBuffer(5, o48);
+new BigUint64Array(v50);

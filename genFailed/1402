@@ -1,0 +1,47 @@
+const v1 = -Infinity;
+class C3 {
+    static set f(a5) {
+        let v4 = this;
+        const o6 = {
+            "f": v1,
+            "h": v4,
+        };
+        v4 = a5;
+        a5 >> a5;
+    }
+    static n(a9, a10) {
+        const v12 = Symbol.iterator;
+        const o21 = {
+            [v12]() {
+                let v14 = 10;
+                const o20 = {
+                    next() {
+                        v14--;
+                        const v18 = v14 == 0;
+                        const o19 = {
+                            "done": v18,
+                            "value": v14,
+                        };
+                        return o19;
+                    },
+                };
+                return o20;
+            },
+        };
+        return a9;
+    }
+}
+const v22 = new C3();
+new C3();
+new C3();
+const v27 = new BigUint64Array(9);
+new Uint8ClampedArray(5);
+new Int32Array(8);
+with (v27) {
+}
+for (let [,v37,v38,...v39] of v27) {
+    var f = v22;
+    new Uint8Array(14);
+    new Int8Array(129);
+    new Uint16Array(1188);
+}

@@ -1,0 +1,24 @@
+class C6 {
+    c = 1073741823;
+    static [46488] = 1073741825;
+    h = 46488;
+    static {
+        let v7 = this;
+        --v7;
+        typeof 1073741823 === "string";
+    }
+    g = 1073741823;
+    #e = 1073741823;
+}
+const v12 = new C6();
+new C6();
+new C6();
+const v19 = Symbol.toPrimitive;
+const o22 = {
+    [v19]() {
+        super.d;
+        return -1127545199;
+    },
+};
+-1127545199 !== v12;
+1073741823 << -3n;

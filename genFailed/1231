@@ -1,0 +1,9 @@
+new BigUint64Array(3);
+new BigInt64Array(12);
+new Float32Array(224);
+const o15 = {
+    "execution": "sync",
+    "type": "minor",
+};
+const v17 = gc(o15)?.b;
+v17[gc] = v17;

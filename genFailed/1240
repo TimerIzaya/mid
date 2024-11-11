@@ -1,0 +1,73 @@
+class C3 {
+    static m(a5, a6) {
+        52044 - this;
+        const o11 = {
+            "maxByteLength": 255,
+        };
+        const v13 = new ArrayBuffer(5, o11);
+        new BigInt64Array(v13);
+        return 1073741825;
+    }
+}
+const v16 = new C3();
+const v17 = new C3();
+const v18 = new C3();
+class C19 {
+    constructor(a21, a22) {
+        function f23(a24, a25) {
+            function f27(a28) {
+                const o29 = {
+                };
+                try {
+                    o29.h = v16;
+                } catch(e30) {
+                }
+                try {
+                    const o31 = {
+                    };
+                    o31.h = v16;
+                    o31.g = a24;
+                } catch(e32) {
+                }
+                try {
+                    const o33 = {
+                    };
+                    o33.h = v16;
+                    o33.g = a24;
+                    o33.c = a28;
+                } catch(e34) {
+                }
+                try {
+                    const o35 = {
+                    };
+                    o35.h = v16;
+                    o35.g = a24;
+                    o35.a = v17;
+                } catch(e36) {
+                }
+            }
+            this.onmessage = f27;
+            v16[a24 in this];
+        }
+        const v41 = [52044,1073741825];
+        const o42 = {
+            "arguments": v41,
+            "type": "function",
+        };
+        new Worker(f23, o42);
+    }
+}
+const v44 = new C19(C19, v16);
+const v45 = new C19(C3, v16);
+const v46 = new C19(v45, v44);
+const v48 = new Date();
+[v17,Date,v48,v48];
+[1073741825,v46];
+const v51 = [5.0,v45,5.0,C3];
+let v52 = 0;
+do {
+    Object.defineProperty(v18, 2157447453, { configurable: true, value: v46 });
+    Object.defineProperty(C19, "b", { writable: true, configurable: true, get: Date });
+    v17.e + v51;
+    v52++;
+} while (v52 < 3)

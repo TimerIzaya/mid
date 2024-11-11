@@ -1,0 +1,81 @@
+let v0 = "boolean";
+class C3 {
+    constructor(a5, a6) {
+        let v9 = --v0;
+        Math.fround(v9);
+        --v9;
+    }
+    static #valueOf(a13, a14) {
+        const o15 = {
+        };
+        try {
+            o15.c = "h";
+        } catch(e16) {
+        }
+        try {
+            const o17 = {
+            };
+            o17.c = "h";
+            o17.f = a14;
+        } catch(e18) {
+        }
+        try {
+            const o19 = {
+            };
+            o19.c = "h";
+            o19.f = a14;
+            o19.a = a13;
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.c = "h";
+            o21.f = a14;
+            o21.a = this;
+        } catch(e22) {
+        }
+        return "dotAll";
+    }
+}
+const v23 = new C3("h", C3);
+const v24 = new C3(v23, v23);
+const v25 = new C3(v24, v0);
+class C26 extends C3 {
+    constructor(a28, a29) {
+        super(a29, a28);
+        a28[5];
+        (this - a29) <= "h";
+        v0.b;
+    }
+    static {
+        let v35 = C3[5];
+        v35 >>>= v25;
+        function f36() {
+            return "dotAll";
+        }
+    }
+}
+const v37 = new C26("dotAll", "h");
+const v38 = new C26(v37, C26);
+new C26(v38, "dotAll");
+const v41 = new WeakSet();
+Object.defineProperty("h", 8, { writable: true, configurable: true, enumerable: true, value: v41 });
+const v44 = C3[Symbol.split];
+function f45(a46, a47) {
+    let v48 = this;
+    function f49(a50) {
+        let v52 = 1024;
+        v52++;
+        Math.atan(v24 - v24);
+        Math.trunc(v52);
+    }
+    v48.onmessage = f49;
+    v48 = v0;
+}
+const v59 = [v44,v0];
+const o60 = {
+    "arguments": v59,
+    "type": "function",
+};
+new Worker(f45, o60);

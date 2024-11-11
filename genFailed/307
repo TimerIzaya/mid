@@ -1,0 +1,19 @@
+[140.06837600455333,0.09357312260345774,8.132387149340635e+307];
+[-114.32411086326908,2.220446049250313e-16,0.07285640799864612,1.452267029088503e+308,1000000.0];
+[0.9143553933885443,-1000000000.0,1e-15];
+const v8 = new BigInt64Array(0);
+const v11 = new BigUint64Array(1000);
+const v14 = new Uint8ClampedArray(129);
+const v15 = new Uint8ClampedArray(1000, 1000, 1000);
+v14[3] = v15;
+delete v8[v8];
+const v17 = new Uint8ClampedArray(v11);
+try {
+    v17.toString = v14;
+} catch(e18) {
+}
+v17[3110];
+try {
+    v11.byteLength = 129;
+} catch(e20) {
+}

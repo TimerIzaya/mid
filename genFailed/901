@@ -1,0 +1,23 @@
+class C3 {
+    static {
+        let v5 = 0;
+        do {
+            this[10000];
+            v5++;
+        } while (v5 < 7)
+    }
+    [2.0] = 10000;
+    static [-61485] = 2.0;
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+const v16 = [C3,2147483649n,10000];
+const v18 = [v16,[v11,2147483649n,10000,v10],-61485];
+try {
+    v12.g = -61485;
+} catch(e19) {
+}
+const v21 = [2147483649n,v16];
+Reflect.apply(v18.forEach, C3, v21);
+typeof 1763423351n === "symbol";

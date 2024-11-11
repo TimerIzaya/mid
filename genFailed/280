@@ -1,0 +1,27 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+    try {
+        this.e = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+new F1();
+new F1();
+new BigUint64Array(127);
+new Int32Array(2426);
+const v17 = new Int16Array(2);
+%VerifyType(v5);
+Object.defineProperty(v17, "c", { writable: true, set: f0 });
+try {
+    f0();
+} catch(e19) {
+}
+Object.defineProperty(v5, "b", { configurable: true, get: f0, set: f0 });
+Object.defineProperty(String, 992206536, { configurable: true, get: String });

@@ -1,0 +1,51 @@
+function f0() {
+    const o4 = {
+        268435441: "matchAll",
+        __proto__: "matchAll",
+        ..."matchAll",
+        "a": "matchAll",
+        "e": "matchAll",
+        "d": "matchAll",
+        "c": "matchAll",
+        "g": "matchAll",
+        "f": 5,
+        "h": 1000.0,
+        [5]: 1000.0,
+        5: "matchAll",
+        "b": 5,
+        [1000.0]: 5,
+        ..."matchAll",
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+class C8 {
+    constructor(a10, a11) {
+        const v15 = -65535 / 1;
+        Math.asin(v15);
+        Math.tanh(v15);
+        let v18 = -(-65535);
+        v18++;
+        Math.trunc(v15);
+    }
+    static 8 = f0;
+    static [v7];
+    #b = v6;
+    static #c;
+}
+const v21 = new C8(v7, v5);
+new C8(v5, v6);
+new C8(v7, v21);
+const v26 = new Float32Array(4096);
+new Float64Array(23);
+const v32 = new Uint32Array(786);
+const v34 = [f0];
+Reflect.apply(v32.toSorted, C8, v34);
+const o37 = {
+    "deleteProperty": f0,
+    "get": f0,
+    "set": f0,
+};
+new Proxy(v26, o37);

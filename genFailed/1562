@@ -1,0 +1,76 @@
+function f0() {
+    const o13 = {
+        ...-5,
+        get b() {
+            const v5 = this >= -5;
+            if (v5) {
+                v5 << 1.7976931348623157e+308;
+                try {
+                    this.__proto__ = this;
+                } catch(e7) {
+                }
+            } else {
+                try {
+                    this.fuck(1.7976931348623157e+308, [8.994821963071221,v5,1.7976931348623157e+308,this,-5], -9007199254740992, true);
+                } catch(e12) {
+                }
+            }
+            return 8.994821963071221;
+        },
+    };
+    return o13;
+}
+const v14 = f0();
+f0();
+const v16 = f0();
+class C17 {
+    static 2388;
+    static {
+        f0();
+        class C20 {
+            c = this;
+            static 16;
+            #a;
+        }
+        new C20();
+        new C20();
+        new C20();
+    }
+    static b = v16;
+    d;
+}
+new C17();
+new C17();
+const v26 = new C17();
+const v27 = [0,1,-1325851480,13];
+const v28 = [9007199254740991,-1140492317,-2147483648,536870887,8690,8,-13,3];
+const v29 = [-2,-4294967297,-4096,129,43009,-37312];
+class C30 extends f0 {
+    277555492;
+    static #o(a32, a33, a34) {
+        %VerifyType(a32[-2]);
+        return C17;
+    }
+    p(a37, a38, a39, a40) {
+        try {
+            f0();
+        } catch(e42) {
+        }
+        return this;
+    }
+    [-1] = v28;
+}
+const v43 = new C30();
+new C30();
+const v45 = new C30();
+const v46 = v43.b;
+for (let [...v47] of v29) {
+    try { new v47(v16, v29, v46); } catch (e) {}
+}
+const v49 = delete v45[C17];
+[[v45,v26],v27,v43];
+[v14,C30,v49,v27,v27];
+try {
+    f0();
+} catch(e54) {
+}

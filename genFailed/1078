@@ -1,0 +1,28 @@
+function f0() {
+}
+function f2() {
+    return f0;
+}
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e6) {
+    }
+    try {
+        this.b = f0;
+    } catch(e7) {
+    }
+    try {
+        this.c = a5;
+    } catch(e8) {
+    }
+}
+new F3(f0);
+new F3(f2);
+new F3(f0);
+let v18 = 0;
+while (v18 < 10) {
+    g?.e;
+    v18++;
+}

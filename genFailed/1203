@@ -1,0 +1,32 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a6;
+    } catch(e7) {
+    }
+    try {
+        this.a = -65536;
+    } catch(e8) {
+    }
+    try {
+        this.e = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(-65536, -2147483649);
+const v11 = new F3(v10, -65536);
+new F3(v11, 2);
+new Float64Array(64);
+new Uint16Array(9);
+const v24 = new Float32Array(93);
+const o25 = {
+    __proto__: v24,
+    ...v24,
+    "a": 1330428210,
+    "f": Uint16Array,
+};
+const v26 = F3 / o25;
+try {
+    v11.b = v26;
+} catch(e27) {
+}

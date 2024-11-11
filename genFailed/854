@@ -1,0 +1,31 @@
+class C3 {
+    static #m(a5, a6) {
+        super.f;
+        let v10 = -49749;
+        const v12 = -1.5557095072386983e+308 || -1.5557095072386983e+308;
+        Math.ceil(-1.5557095072386983e+308);
+        Math.cos(v12);
+        ++v10;
+        v10 ** v12;
+        Math.expm1(v12);
+        return -(-1.5557095072386983e+308);
+    }
+}
+new C3();
+const v20 = new C3();
+let v21 = new C3();
+[4,1213102375,-9223372036854775807,64,5,4294967296,-2147483647];
+[-1572367720,10000,-2147483648,-128,65535,303075447];
+const v24 = [1073741824,127,536870889,10,1073741825];
+function f25() {
+    return v24;
+}
+const v27 = new WeakMap();
+v21 ^= v27;
+Reflect.construct(WeakMap, [v20], WeakMap);
+f25();
+%PrepareFunctionForOptimization(f25);
+f25();
+f25();
+%OptimizeFunctionOnNextCall(f25);
+f25();

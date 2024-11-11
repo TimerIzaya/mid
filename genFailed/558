@@ -1,0 +1,41 @@
+const v0 = /[a$foo(?<=bar)baz]/vdiy;
+const v1 = /\p{gc=Nd}[\x0f?]/udimy;
+const v2 = /(?:ab|cde)ha(?=bbb|bb)c\u{12345}*/vi;
+const v6 = [1000000000000.0,2.0,-0.6020524816230637];
+const v7 = [-1.0,-2.220446049250313e-16,1000000000.0];
+const v8 = [-5.0,-1e-15,565477.9491253835,-1e-15,-2.220446049250313e-16,-1000000000000.0,-0.0,1000000000000.0,0.22415879382891113];
+class C9 {
+    constructor(a11, a12, a13, a14) {
+        v0[this] = v7;
+        let [,v15,...v16] = a14;
+        const v17 = this[a13];
+        function F18(a20, a21, a22) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = v6;
+            } catch(e23) {
+            }
+            try {
+                this.b = a20;
+            } catch(e24) {
+            }
+            try {
+                this.c = v8;
+            } catch(e25) {
+            }
+        }
+        new F18(v2, v17, v17);
+        new F18(v1, v6, a12);
+        new F18(a13, v17, this);
+    }
+}
+const v29 = new C9(41671, v2, v1, v7);
+const v30 = new C9(16, v2, v0, v7);
+new C9(41671, v0, v29, v7);
+const o32 = {
+};
+new Proxy(v6, o32);
+try {
+    v30.g = v6;
+} catch(e35) {
+}

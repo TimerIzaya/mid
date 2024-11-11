@@ -1,0 +1,33 @@
+[16,2147483647,-932127093,127,39964,1073741825,4294967296,-5];
+const v1 = [9007199254740992,4096,-65537,-65535,947325309,-2058873133];
+const v2 = [-1952876376,22985,4,9,-37345,-102823994,15];
+function f6(a7, a8, a9) {
+    const o20 = {
+        "g": a8,
+        __proto__: a9,
+        "d": a7,
+        "f": -2.2250738585072014e-308,
+        get h() {
+            v2 instanceof a9;
+            const o15 = {
+                "maxByteLength": 10000,
+            };
+            const v17 = new SharedArrayBuffer(1230, o15);
+            new Uint8Array(v17);
+            return Infinity;
+        },
+    };
+    return o20;
+}
+f6(-3.7622089540347003, -1.0, -3.7622089540347003);
+f6(-1.0, -1.0, v1);
+f6(-1.0, -3.7622089540347003, -2.2250738585072014e-308);
+const o29 = {
+    "maxByteLength": 69,
+};
+const v31 = new SharedArrayBuffer(2, o29);
+const v33 = new BigUint64Array(v31);
+try {
+    v33.subarray();
+} catch(e35) {
+}

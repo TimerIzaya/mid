@@ -1,0 +1,44 @@
+class C3 {
+    #o(a5) {
+        const o6 = {
+        };
+        const v8 = new Proxy(this, o6);
+        try {
+            v8.length = 65535;
+        } catch(e10) {
+        }
+        return v8;
+    }
+    10;
+    [-1000000.0] = 2147483648;
+}
+const v11 = new C3();
+const v12 = new C3();
+new C3();
+function f14(a15, a16, a17) {
+    const o33 = {
+        valueOf(a19, a20, a21, a22) {
+            try {
+                a22.g = a16;
+            } catch(e23) {
+            }
+            h = this;
+            new Uint32Array(4096);
+            const v29 = new Uint16Array(13);
+            new BigInt64Array(255);
+            return v29;
+        },
+    };
+    return o33;
+}
+const v34 = f14(v12, -1000000.0, "lr5");
+const v35 = f14(v34, v34, v11);
+f14(v34, v35, v11);
+[-30746,-2147483647,-1208225571,-575271725,-1042349162,512];
+[5,-3,256,-14,-16,1864489990,-8,-2147483647];
+([1073741825,-33339,268435456,-1024])[-1000000.0];
+Object.defineProperty(C3, "c", { writable: true, configurable: true, enumerable: true, get: f14 });
+try {
+    v35.f = 2147483647;
+} catch(e44) {
+}

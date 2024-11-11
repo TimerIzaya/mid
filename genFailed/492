@@ -1,0 +1,57 @@
+/sHfpxa{1,2}?Qxyz{1,}/udy;
+const v1 = /K^xxx$?/vmy;
+const v2 = /(\x60)/viy;
+new Int32Array(238);
+new Float32Array(512);
+const v11 = new Int8Array(1);
+function f12(a13, a14) {
+    const o27 = {
+        n(a16, a17) {
+            const v18 = super[a14];
+            const o19 = {
+            };
+            try {
+                o19.a = a13;
+            } catch(e20) {
+            }
+            try {
+                const o21 = {
+                };
+                o21.a = a13;
+                o21.d = this;
+            } catch(e22) {
+            }
+            try {
+                const o23 = {
+                };
+                o23.a = a13;
+                o23.d = this;
+                o23.c = a17;
+            } catch(e24) {
+            }
+            try {
+                const o25 = {
+                };
+                o25.a = a13;
+                o25.d = this;
+                o25.c = v18;
+            } catch(e26) {
+            }
+            return v11;
+        },
+    };
+    return o27;
+}
+f12(v1, 238);
+f12(v2, 512);
+const v30 = f12(v2, 1);
+let v31;
+try { v31 = v2.test(238); } catch (e) {}
+v30 instanceof Float32Array;
+let v33 = 0;
+while (v33 < 6) {
+    let v36;
+    try { v36 = v31(512, Int32Array, v1); } catch (e) {}
+    v36 === v36;
+    v33++;
+}

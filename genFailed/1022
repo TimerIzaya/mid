@@ -1,0 +1,30 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 257;
+    } catch(e3) {
+    }
+    try {
+        this.c = 257;
+    } catch(e4) {
+    }
+    try {
+        this.a = 257;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+new F0();
+new Uint32Array(64);
+new Uint16Array(8);
+const v17 = new Uint8Array(1);
+v17 instanceof Uint16Array;
+v6[v17] = v7;
+v17[1][Symbol.isConcatSpreadable];
+const v25 = F0 ^ F0;
+const v26 = F0 << F0;
+Math.imul(v26, 536870888);
+Math.hypot(F0);
+v25 % F0;
+-v26;

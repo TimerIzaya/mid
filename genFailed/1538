@@ -1,0 +1,19 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+}
+new F3(8, 8);
+new F3(-4, -4);
+new F3(-4, 8);
+new Uint32Array(512);
+new BigUint64Array(0);
+new Int8Array(4);
+const v20 = ~512;
+[64,-268435456,-741,-4294967297,65535,536870889,-11];
+[1073741823,16,4,-65537,6];
+const v24 = [6,-4294967296,9007199254740990,-4,1073741824];
+Reflect.construct(Int8Array, [v20,-4], BigUint64Array)?.[v24];
+("symbol").normalize("NFD");

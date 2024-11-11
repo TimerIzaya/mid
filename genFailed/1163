@@ -1,0 +1,53 @@
+const v3 = /y0(?:ab)?hLa(?=bbb|bb)c/gvmy;
+const v4 = /[\u{12345}\u{23456}]/gdmy;
+const v5 = /ab|c/gudimsy;
+function f9(a10, a11, a12) {
+    const o27 = {
+        ...v4,
+        "d": a10,
+        3: 119943728,
+        __proto__: v4,
+        "a": 1n,
+        "g": a11,
+        o(a14, a15, a16) {
+            super.d;
+            new Float64Array(9);
+            new Uint8ClampedArray(4);
+            new Uint32Array(8);
+            return 9;
+        },
+    };
+    return o27;
+}
+const v28 = f9(1n, v3, -44278);
+f9(1n, v3, -44278);
+let v30 = f9(2n, v5, -58936);
+function f31(a32, a33, a34) {
+    const o43 = {
+        [14n]: v5,
+        [-58936]: v5,
+        1073741823: 14n,
+        ...a34,
+        [a34](a36, a37, a38, a39) {
+            for (let v40 = 0; v40 < 32; v40++) {
+                this["p" + v40] = v40;
+            }
+            return a39;
+        },
+        "h": v30,
+        7: 1n,
+    };
+    return o43;
+}
+f31(14n, 2n, v28);
+const v45 = f31(14n, 14n, v28);
+f31(14n, 14n, v28);
+for (const v47 of v4) {
+    v45[v47] = v47;
+    try {
+        v28.o(v47, false);
+    } catch(e50) {
+    }
+}
+v3[2147483649] <<= -58936;
+v30++;

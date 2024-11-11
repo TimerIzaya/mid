@@ -1,0 +1,28 @@
+new Float32Array(106);
+new Int16Array(3);
+const v8 = new Int8Array(2625);
+class C9 extends Int16Array {
+    static get h() {
+        return 106;
+    }
+    static c = v8;
+    [2625] = Float32Array;
+    [Int8Array];
+    d;
+    static #e;
+    static [Int8Array] = Float32Array;
+}
+const v14 = new C9();
+const v15 = new C9();
+new C9();
+const v17 = v14.d;
+try {
+    v15.__proto__ = v14;
+} catch(e18) {
+}
+for (let v19 = 0; v19 < 6; v19++) {
+    v8[2147483649] = 3;
+    for (let v20 = 0; v20 < 32; v20++) {
+        v17["p" + v20] = v20;
+    }
+}

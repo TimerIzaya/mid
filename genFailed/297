@@ -1,0 +1,47 @@
+let v0 = 2;
+function f3(a4, a5) {
+    const o6 = {
+        "e": -65537,
+        __proto__: a5,
+        "b": a4,
+        "h": a4,
+        "g": -65537,
+        "f": v0,
+        [-65537]: a4,
+        "a": -32303,
+        "c": a5,
+        "d": a4,
+        138: a5,
+        [a5]: -65537,
+        ...a5,
+    };
+    return o6;
+}
+const v7 = f3(-65537, f3);
+const v8 = f3(-32303, f3);
+f3(-65537, v7);
+class C10 extends f3 {
+    2868 = v0;
+    m(a12, a13, a14, a15) {
+        ({"a":a12,"b":v0,"c":a14,} = a15);
+        for (const v16 in a13) {
+            const v17 = a15 << v0;
+            Object.defineProperty(v7, 1073741824, { enumerable: true, set: f3 });
+            a15[14] = v17;
+        }
+        return v8;
+    }
+    static 14;
+    c;
+    [v8] = v0;
+}
+new C10();
+const v19 = new C10();
+const v20 = new C10();
+new f3(v0, v19);
+v20 | v20;
+for (let i28 = 0, i29 = 10; i28 < i29; i28++, i29--) {
+    for (let v37 = 0; v37 < 100; v37++) {
+        f3(i29, i28);
+    }
+}

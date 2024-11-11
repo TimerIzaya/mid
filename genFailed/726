@@ -1,0 +1,30 @@
+class C3 {
+    constructor(a5) {
+        let v7;
+        try { v7 = a5["toString"](536870888, 536870888); } catch (e) {}
+        v7[this] **= 536870888;
+        super[536870888];
+    }
+    static d;
+    [536870888];
+    #d = 1e-15;
+    b = 0.6159636105293302;
+}
+const v9 = new C3(0.6159636105293302);
+const v10 = new C3(v9);
+const v11 = new C3(0.6159636105293302);
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v9;
+    } catch(e17) {
+    }
+}
+new F12(v11, v11, v10);
+new F12(v11, v11, v9);
+new F12(v9, v11, v10);
+let v21 = 0;
+do {
+    v11 % 1e-15;
+    v21++;
+} while (v21 < 9)

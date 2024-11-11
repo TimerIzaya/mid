@@ -1,0 +1,69 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    static {
+        const v4 = [this,v1];
+        [v1,v4,v4,this];
+        [v4];
+    }
+    static set f(a8) {
+        const o12 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o12);
+    }
+}
+const v14 = new C2();
+const v15 = new C2();
+const v16 = new C2();
+function f17(a18, a19) {
+    const o28 = {
+        toString(a21, a22, a23) {
+            let v24 = 0;
+            while (v24 < 4) {
+                super[a18] = v24;
+                v24++;
+            }
+            return WeakMap;
+        },
+        "h": a18,
+    };
+    return o28;
+}
+const v29 = f17(v15, v14);
+const v30 = f17(v29, WeakMap);
+const v31 = f17(v14, f17);
+function f32(a33, a34, a35) {
+    const o40 = {
+        [v30](a37, a38) {
+            with (v15) {
+                f = f17;
+                super.f *= a37;
+                var c = v1;
+                f17(v14, a33);
+            }
+            return f17;
+        },
+        ...v30,
+        ...v16,
+        ...a35,
+    };
+    return o40;
+}
+const v41 = f32(v29, v14, v31);
+const v42 = f32(v41, v29, v29);
+f32(v42, v41, v29);
+v15[-2] = v29;
+throw v15;
+const v44 = v42[1];
+function f45(a46, a47, a48, a49) {
+    a47[8] &&= a47;
+    try { a47(v44, v1, a47, a49, a46); } catch (e) {}
+    return v29;
+}
+f45(v29, f17, v14, v31);
+const o54 = {
+    "maxByteLength": 10,
+};
+const v56 = new SharedArrayBuffer(0, o54);
+new BigUint64Array(v56);

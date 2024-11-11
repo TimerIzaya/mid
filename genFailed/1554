@@ -1,0 +1,27 @@
+function f6(a7, a8, a9, a10) {
+    const o16 = {
+        __proto__: a9,
+        get d() {
+            try {
+                this.fuck(a7, true, undefined, 13n);
+            } catch(e15) {
+            }
+            return this;
+        },
+        "a": "1",
+        "f": a8,
+    };
+    return o16;
+}
+f6("1", "-536870912", "dKag", 13n);
+f6("dKag", "-536870912", "dKag", 13n);
+f6("dKag", "-536870912", "-536870912", 13n);
+function f20() {
+    return f6;
+}
+let v27 = 6.4998652686088505;
+1 / f6;
+--v27;
+Math.abs(14);
+v27 | 4n;
+Math.acos(14);

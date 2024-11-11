@@ -1,0 +1,35 @@
+const v0 = [];
+const v1 = [v0];
+const v2 = [v1];
+const v3 = [v0,v1];
+let v6 = -60576;
+function f7(a8, a9, a10, a11) {
+    const o12 = {
+        "b": a9,
+        "g": 65535,
+        1073741823: -1024,
+        "f": a9,
+        "d": 65535,
+        ...v2,
+        __proto__: a10,
+        8: v0,
+        "a": -1024,
+        [a8]: a11,
+    };
+    return o12;
+}
+f7(v6, v0, v0, v2);
+f7(65535, v2, v2, v1);
+const v15 = f7(-1024, v3, v3, v1);
+Object.defineProperty(v2, "c", { writable: true, configurable: true, set: f7 });
+v6 **= v6;
+try {
+    v15.__proto__ = v0;
+} catch(e16) {
+}
+f7(v6, v2, v0, v2);
+%PrepareFunctionForOptimization(f7);
+f7(v6, v2, v0, v2);
+f7(v6, v2, v0, v2);
+%OptimizeFunctionOnNextCall(f7);
+f7(v6, v2, v0, v2);

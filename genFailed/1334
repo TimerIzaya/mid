@@ -1,0 +1,74 @@
+class C3 {
+    constructor(a5) {
+        this[-8.521724014353085] = this;
+        a5.g %= a5;
+        async function f6(a7) {
+            const o8 = {
+            };
+            const v10 = new Proxy(this, o8);
+            await v10;
+            return o8;
+        }
+        f6(a5);
+    }
+    [-2147483647];
+    g;
+}
+const v13 = new C3(-2147483647);
+const v14 = new C3(v13);
+const v15 = new C3(v14);
+const v16 = [-8.521724014353085,1000.0,v15];
+const v17 = [v16,v16,-2147483647,1000.0,v16];
+[C3];
+function f19(a20, a21, a22, a23) {
+    const o28 = {
+        __proto__: a21,
+        "c": v17,
+        "h": a20,
+        toString(a25, a26) {
+            try {
+                a21.f = a23;
+            } catch(e27) {
+            }
+            return a23;
+        },
+        "d": v17,
+        "e": v17,
+        [a21]: C3,
+        "f": v14,
+        "g": -8.521724014353085,
+    };
+    return o28;
+}
+f19(v15, v14, v17, v13);
+f19(v15, C3, v17, v15);
+const v31 = f19(v17, v14, v16, v13);
+class C32 {
+    #p(a34, a35, a36) {
+        let v37;
+        try { v37 = v13.o(a35, 1000.0, v15, a35); } catch (e) {}
+        try { a34.flatMap(f19, v37); } catch (e) {}
+        try {
+            const v39 = [a34,v15,v13,this,-2147483647];
+            const o40 = {
+                "g": v31,
+            };
+            const v43 = new Array(-9007199254740990);
+            const v44 = /oW\ud808\udf45*/gvsy;
+            const o45 = {
+                "g": v44,
+            };
+            new f19(v39, o40, v43, o45);
+        } catch(e47) {
+        }
+        return a36;
+    }
+}
+new C32();
+new C32();
+new C32();
+Reflect.construct(C3, [v15], C3);
+try {
+    new C3("-2147483648");
+} catch(e59) {
+}

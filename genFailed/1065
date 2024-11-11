@@ -1,0 +1,41 @@
+function f0() {
+    const o13 = {
+        set a(a5) {
+            ("4096").length;
+            const v7 = this.__proto__;
+            Object.defineProperty(this, "g", { writable: true, value: ("4096").__proto__ });
+            const t6 = "4096";
+            t6.length ^= v7;
+            ("4096")[v7];
+            for (let v10 = 0; v10 < 32; v10++) {
+                const t10 = "4096";
+                t10["p" + v10] = v10;
+            }
+        },
+        "d": "4096",
+        __proto__: "4096",
+    };
+    return o13;
+}
+f0();
+f0();
+f0();
+/AT+/ums;
+/(?<=a)*/gvmy;
+/Ufoo[z]*/gvdisy;
+new BigInt64Array(6);
+new Int16Array(9);
+const v34 = new Uint8Array(8);
+const o35 = {
+    "call": f0,
+    "defineProperty": f0,
+    "deleteProperty": f0,
+    "get": f0,
+    "getPrototypeOf": f0,
+    "has": f0,
+    "isExtensible": f0,
+    "ownKeys": f0,
+    "preventExtensions": f0,
+    "set": f0,
+};
+new Proxy(v34, o35);

@@ -1,0 +1,14 @@
+new WeakSet();
+const v7 = new Int8Array(827);
+const v10 = new Uint8Array(137);
+const v13 = new Float64Array(64);
+try {
+    v13.__proto__ = v10;
+} catch(e16) {
+}
+const v17 = new WeakMap(v10);
+try {
+const t0 = 1000.0;
+t0(v17, v17, 137);
+} catch (e) {}
+delete v7?.byteOffset;

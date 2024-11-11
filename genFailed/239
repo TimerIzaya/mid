@@ -1,0 +1,13 @@
+new Uint8Array(5);
+const v5 = new Int32Array(1024);
+const v8 = new Int16Array(64);
+const v14 = typeof v5 === "boolean";
+let v15;
+try { v15 = v14(v8, -8, 2147483648); } catch (e) {}
+v8[7] = -8;
+const t7 = "boolean";
+t7[-8] = v15;
+v5[v15] -= 5;
+let [] = v5;
+v15[v5] = v14;
+%VerifyType("boolean");

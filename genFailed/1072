@@ -1,0 +1,17 @@
+const v3 = [23287,10,9,9223372036854775807,-12,-12,4];
+[268435439,9007199254740992,2147483648,-1339264452,-1170419703,257];
+[3,-21147,-2125859689,-80141005,-2147483649];
+const v14 = new Uint32Array(4096);
+const v17 = new BigUint64Array(2);
+const v20 = new BigInt64Array(1);
+try {
+    v20.byteOffset = 4096;
+} catch(e21) {
+}
+for (let [v22,...v23] of v3) {
+    delete v14[10];
+    try {
+        v17.find(v22);
+    } catch(e26) {
+    }
+}

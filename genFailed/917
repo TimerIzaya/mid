@@ -1,0 +1,14 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+new BigInt64Array(16);
+new Uint32Array(256);
+new BigInt64Array(1);
+const o13 = {
+    "maxByteLength": 1944125429,
+};
+const v15 = new SharedArrayBuffer(5, o13);
+const v17 = new Uint32Array(v15);
+v17["toString"]();

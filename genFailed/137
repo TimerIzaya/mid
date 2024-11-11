@@ -1,0 +1,46 @@
+function f0() {
+    const o10 = {
+        "a": "k7z",
+        "b": "boolean",
+        ..."k7z",
+        __proto__: "boolean",
+        "f": "k7z",
+        set e(a5) {
+            "boolean" & 58586;
+            for (let v7 = 0; v7 < 32; v7++) {
+                this["p" + v7] = v7;
+            }
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+const v15 = new Set();
+const v16 = [v15];
+[v15,v16,v16,v12];
+[v13,v11,v16];
+new BigInt64Array(7);
+const v25 = new Float32Array(5);
+new Uint16Array(4);
+for (const v29 of v25) {
+    [127,-256,15,-2069918771];
+    [10,2147483647,-10409,23237,4,-231602576,-15,-9007199254740991,10];
+    [9007199254740990,591695849,-1256588895,11245,512,524849890,64,826357465,255,-1185794086];
+}
+for (let [v33,v34,v35] of v25) {
+    true - v35;
+    const o37 = {
+        "apply": f0,
+        "call": f0,
+        "construct": f0,
+        "deleteProperty": f0,
+        "getOwnPropertyDescriptor": f0,
+        "getPrototypeOf": f0,
+        "isExtensible": f0,
+        "ownKeys": f0,
+        "preventExtensions": f0,
+    };
+    new Proxy(v11, o37);
+}

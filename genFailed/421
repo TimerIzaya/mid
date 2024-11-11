@@ -1,0 +1,56 @@
+let v2 = NaN;
+function f3(a4, a5) {
+    const o9 = {
+        "f": a4,
+        [a5]: a5,
+        toString(a7) {
+            a7.__proto__;
+            v2 = 7.693010667805069e+307;
+            v2 = a5;
+            return 7.693010667805069e+307;
+        },
+        "d": a4,
+        __proto__: v2,
+        [a4]: a4,
+    };
+    return o9;
+}
+const v10 = f3(1.65733352427276e+308, 1.65733352427276e+308);
+f3(1.65733352427276e+308, 7.693010667805069e+307);
+const v12 = f3(v2, 7.693010667805069e+307);
+class C16 {
+    constructor(a18, a19, a20, a21) {
+        /Ifoo|(bar|baz)|quux/gvdsy;
+        /[za??]/viy;
+        /[(?:a?)*]/gvdiy;
+    }
+    static #a;
+    static #o(a26, a27) {
+        try {
+            super.getUint8(1841057929n, 1.65733352427276e+308);
+        } catch(e29) {
+        }
+        return a26 != a27 ? a26 : a27;
+    }
+}
+const v32 = new C16(C16, -42301n, 1.65733352427276e+308, -9223372036854775808n);
+const v33 = new C16(v12, -9223372036854775808n, v2, -42301n);
+const v34 = new C16(v10, -42301n, 1.65733352427276e+308, -42301n);
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a40;
+    } catch(e41) {
+    }
+    try {
+        this.a = v2;
+    } catch(e42) {
+    }
+    try {
+        this.f = a37;
+    } catch(e43) {
+    }
+}
+const v44 = new F35(v12, v34, v33, 1.65733352427276e+308);
+new F35(v10, v44, v34, F35);
+new F35(v12, C16, v33, v32);

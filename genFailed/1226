@@ -1,0 +1,69 @@
+function f0() {
+    const o10 = {
+        m(a5) {
+            super[-60371] = -2060;
+            a5[a5] &= -2060;
+            let v6;
+            try { v6 = this.o(this, -2060, this, -5.0, this); } catch (e) {}
+            this[v6] /= a5;
+            return a5;
+        },
+        536870888: -2060,
+        [-5.0](a8) {
+            const o9 = {
+                ...this,
+                "a": -2060,
+            };
+            o9[this] *= -2060;
+            return a8;
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+const v14 = [-3.0,2.0,-7.133599351701115];
+const v15 = [-492.3729082725934,-0.0,3.0,96.64402029346525,-3.0,-2.2250738585072014e-308,4.0,-1.4854804543553806e+308];
+const v16 = [-59299.59801654832,3.0,0.0,-5.439667463838345,9.78796561887453e+307,924.2603666280042,NaN,-116.08780359621494];
+class C17 {
+    constructor(a19, a20, a21) {
+    }
+    7;
+    static {
+        function f26(a27, a28, a29) {
+            a27[536870888];
+            try {
+                this.h = this;
+            } catch(e31) {
+            }
+            return a28;
+        }
+        f26(v15, this, this);
+    }
+}
+new C17(v13, v14, v12);
+new C17(v14, v15, v13);
+const v35 = new C17(C17, v15, v13);
+%VerifyType(v13);
+const o39 = {
+    __proto__: v13,
+    "g": C17,
+    8: v14,
+    129: v12,
+};
+Object.defineProperty(v11, 4, { writable: true, configurable: true, enumerable: true, set: f0 });
+function F40(a42, a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a43;
+    } catch(e45) {
+    }
+    try {
+        this.b = f0;
+    } catch(e46) {
+    }
+}
+new F40(v12, v35, v11);
+new F40(v14, v14, v14);
+new F40(o39, v16, v35);

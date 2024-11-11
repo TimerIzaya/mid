@@ -1,0 +1,32 @@
+const v0 = [];
+class C1 {
+    constructor() {
+        Object.defineProperty(this, this, { writable: true, configurable: true, enumerable: true, value: this });
+    }
+    p() {
+        return 43271;
+    }
+}
+new C1();
+const v14 = new C1();
+const v15 = new C1();
+function F16(a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = C1;
+    } catch(e19) {
+    }
+}
+const v20 = new F16(F16);
+new F16(v0);
+new F16(v15);
+function f29(a30) {
+    return a30;
+}
+class C31 extends f29 {
+    3 = "string";
+    static #a = f29;
+}
+let v32;
+try { v32 = v20.forEach(v20, "g", v15, f29, "string"); } catch (e) {}
+Object.defineProperty(v14, "1073741825", { writable: true, configurable: true, value: "g" instanceof v32 });

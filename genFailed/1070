@@ -1,0 +1,13 @@
+function f9() {
+    return -0.0;
+}
+const v12 = new Float32Array(3825);
+new Float64Array(16);
+const v18 = new Int32Array(179);
+38574n / -6.240884133405027e+307;
+f9();
+%VerifyType(f9);
+try {
+    v12.findLast(f9, v18);
+} catch(e23) {
+}

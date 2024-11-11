@@ -1,0 +1,48 @@
+class C3 {
+    9 = 59280;
+    constructor(a5) {
+        const v6 = `
+            this.b;
+        `;
+        const t6 = eval(v6);
+        t6[this] = a5;
+    }
+    static toString(a11) {
+        Object.defineProperty(this, "e", { writable: true, configurable: true, enumerable: true, value: a11 });
+        let v12;
+        try { v12 = a11(a11, a11, -10, this, this); } catch (e) {}
+        const v13 = [a11,v12,a11,v12];
+        const v15 = [59280,v12,v13,59280,-4294967296,59280];
+        Reflect.apply(v13.toSpliced, a11, v15);
+        return this;
+    }
+}
+const v18 = new C3(59280);
+const v19 = new C3(-10);
+const v20 = new C3(-4294967296);
+const v21 = [C3];
+const v22 = [v21,-4294967296,C3];
+const v23 = [v18,v22,v21,v22];
+function F24(a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a27;
+    } catch(e29) {
+    }
+}
+new F24(-10, v21, v21);
+new F24(59280, v22, v22);
+const v32 = new F24(59280, v20, v19);
+try { C3.toString(v32, v32, v32); } catch (e) {}
+let v34;
+try { v34 = v23.with(-10, v18); } catch (e) {}
+v22[38] *= v34;
+const v35 = new C3(v34);
+let v39 = NaN;
+const v40 = v39++;
+Math.fround(v39);
+Math.random();
+v40 >> v35;
+~F24;
+v35 ** v39;
+Math.log2(-26002);

@@ -1,0 +1,27 @@
+class C3 {
+    static {
+        -this;
+    }
+    valueOf(a10, a11) {
+        const v12 = super.h;
+        class C13 {
+            [-256] = v12;
+            static #g;
+        }
+        new C13();
+        new C13();
+        new C13();
+        return a10;
+    }
+}
+new C3();
+new C3();
+new C3();
+new Date();
+const o31 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o31);
+Object.defineProperty("sync", "f", { writable: true, configurable: true, set: Date });
+Object.defineProperty("sync", "c", { writable: true, enumerable: true, get: gc });

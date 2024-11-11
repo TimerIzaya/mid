@@ -1,0 +1,47 @@
+function f3() {
+    return -858584801;
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a7;
+    } catch(e8) {
+    }
+    try {
+        this.f = a7;
+    } catch(e9) {
+    }
+}
+const v10 = new F4(-48508, -858584801);
+const v11 = new F4(-858584801, v10);
+const v12 = new F4(-858584801, -2081472004);
+class C17 {
+    static {
+        const o21 = {
+            "maxByteLength": 536870912,
+        };
+        const v23 = new SharedArrayBuffer(1115, o21);
+        new Float32Array(v23);
+    }
+    #c;
+    #d = v12;
+    c = -2081472004;
+    [F4] = 536870912;
+}
+new C17();
+new C17();
+const v28 = new C17();
+for (let v29 = 0; v29 < 62; v29++) {
+    Object.defineProperty(v10, "c", { configurable: true, get: f3, set: f3 });
+    const v30 = v28[4];
+    function f31() {
+        return v30;
+    }
+}
+v12[v11];
+true / -4294967296;
+const o37 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o37);

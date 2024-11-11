@@ -1,0 +1,67 @@
+class C3 {
+    static #e = 432473.72803710797;
+    #o(a5) {
+        for (let i7 = 0; i7 < 0; i7++) {
+            let v13;
+            try { v13 = i7(i7, i7); } catch (e) {}
+            try {
+                this.__proto__ = v13;
+            } catch(e14) {
+            }
+        }
+        return 1.0;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+function f21(a22, a23, a24) {
+    const o25 = {
+        "b": "n",
+        "a": "n",
+        "h": -1000.0,
+        "e": a22,
+        [1.0]: v17,
+        3: v15,
+        "g": v15,
+        "c": a24,
+        ["a"]: a23,
+        ...C3,
+        "d": v16,
+        "f": a23,
+        [v17]: v17,
+        __proto__: a23,
+        [432473.72803710797]: -1000.0,
+    };
+    return o25;
+}
+f21(-1000.0, "a", v17);
+f21(-1000.0, "a", v15);
+f21(432473.72803710797, "a", "object");
+class C29 extends C3 {
+    [v17];
+    #h = "a";
+    o(a31, a32) {
+        %VerifyType("n");
+        new Set();
+        return 1.0;
+    }
+    static get a() {
+        try {
+            C3.d = "a";
+        } catch(e36) {
+        }
+        v16.__proto__;
+        return f21;
+    }
+}
+new C29();
+new C29();
+new C29();
+for (let i42 = 0; i42 < 3; i42++) {
+    Object.defineProperty(v16, 1, { writable: true, configurable: true, enumerable: true, get: f21 });
+    try { v16.p("object"); } catch (e) {}
+    for (let v49 = 0; v49 < 32; v49++) {
+        v16["p" + v49] = v49;
+    }
+}

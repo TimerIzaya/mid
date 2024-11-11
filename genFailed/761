@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 12;
+    } catch(e3) {
+    }
+    try {
+        this.g = 12;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8(a9) {
+    const o10 = {
+        "c": v5,
+        [a9]: v7,
+        __proto__: v6,
+        [F0]: a9,
+        ...v7,
+        "e": v5,
+        ...v7,
+        ...a9,
+        ...v6,
+        "h": v6,
+        "d": a9,
+        3533: v5,
+        "b": a9,
+    };
+    return o10;
+}
+const v11 = f8(v7);
+const v12 = f8(v7);
+f8(v7);
+const v16 = new Float32Array(188);
+new Uint8ClampedArray(7);
+new Uint8ClampedArray(2550);
+Object.defineProperty(v16, v6, { writable: true, configurable: true, get: f8 });
+if (v12 != v11) {
+    f8(v5);
+} else {
+    let v27 = +F0;
+    Math.asin(v27--);
+    const v30 = v27 | v7;
+    Math.cos(v7);
+    ~v30;
+}
