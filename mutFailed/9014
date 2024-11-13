@@ -1,0 +1,46 @@
+function f2() {
+    class C3 {
+    }
+    new Int8Array(C3, Int8Array, Int8Array);
+    return Int8Array;
+}
+const v7 = Symbol.toPrimitive;
+Uint8ClampedArray[v7] = f2;
+const v8 = new Uint8ClampedArray(8);
+Float32Array[2181] = v7;
+const v11 = new Float32Array(64);
+v11[Symbol.toPrimitive] = Symbol;
+3621 | 3621;
+function f17() {
+    return v8;
+}
+function f18(a19) {
+    a19 < a19;
+}
+Object.defineProperty(Int8Array, 2181, { writable: true, enumerable: true, get: f17, set: f18 });
+const v21 = new Int8Array(3621);
+v21.valueOf = f18;
+function f22(a23, a24) {
+    a23[2181] = a24;
+    Object.defineProperty(a24, "valueOf", { configurable: true, enumerable: true, value: f2 });
+    a23[2181] = a23;
+    a24--;
+    const o26 = {
+        "e": 3621,
+        128: Uint8ClampedArray,
+        "f": v11,
+        [Uint8ClampedArray]: Uint8ClampedArray,
+        65535: a24,
+        "g": v8,
+        __proto__: a23,
+        "a": a23,
+        "b": 64,
+        "d": Int8Array,
+    };
+    return o26;
+}
+try { f22(Float32Array, v11); } catch (e) {}
+f22(f22(v21, 64), 8);
+f22(Int8Array, 64);
+try { ("128").valueOf(); } catch (e) {}
+("128").fontsize();

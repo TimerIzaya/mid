@@ -1,0 +1,24 @@
+const v2 = new Float32Array(1024);
+const o3 = {
+    "g": Float32Array,
+    "d": Float32Array,
+};
+try {
+    v2.valueOf = Float32Array;
+} catch(e4) {
+}
+const v7 = o3 != Float32Array;
+Object.defineProperty(v2, "d", { value: v7 ? o3 : Float32Array });
+v7.d &= 1024;
+v2[v7] &= 1024;
+const v9 = new Float64Array(3);
+const v12 = new Int16Array(4043);
+const v15 = new Float32Array(1000);
+const v19 = v12 | "18z";
+try {
+    v19.g = v15;
+} catch(e20) {
+}
+new Int32Array(7);
+new v9(255);
+new BigInt64Array(1091060517);

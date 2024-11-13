@@ -1,0 +1,42 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 0.3029932566198461;
+    } catch(e8) {
+    }
+    try {
+        a6.f = a6;
+    } catch(e9) {
+    }
+    try {
+        this.d = a6;
+    } catch(e10) {
+    }
+}
+const v11 = new F4(-4.0, 9.157449161274054e+307);
+const v12 = new F4(0.3029932566198461, -4.0);
+const v13 = new F4(9.157449161274054e+307, 0.3029932566198461);
+function F14(a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        a17.f = v12;
+    } catch(e19) {
+    }
+    try {
+        this.a = a17;
+    } catch(e20) {
+    }
+    try {
+        this.b = a16;
+    } catch(e21) {
+    }
+}
+new F14(9.157449161274054e+307, F4, v11);
+const t34 = -4.0;
+new t34(9.157449161274054e+307, v13, v12);
+const v24 = new F14(9.157449161274054e+307, -4.0, v12);
+const v25 = [9.157449161274054e+307,0.3029932566198461,v11,F14,v24];
+[v11,v24,F4,F14,9.157449161274054e+307];
+[F4,v25,null,0.3029932566198461,-4.0];
+const v29 = new Date();
+v29.getUTCDate();

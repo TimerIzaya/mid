@@ -1,0 +1,57 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 8;
+        const v3 = delete this?.b;
+        8 == this;
+        try {
+            v3.__proto__ = this;
+        } catch(e5) {
+        }
+    } catch(e6) {
+    }
+    try {
+        this.h = 8;
+    } catch(e7) {
+    }
+}
+new F0();
+const v9 = new F0();
+const v10 = new F0();
+class C11 {
+    static toString(a13) {
+        new Uint32Array(128);
+        new Int8Array(3);
+        new Float64Array(19);
+        return this;
+    }
+    get d() {
+        try {
+            new F0();
+        } catch(e28) {
+        }
+        return this;
+    }
+    c;
+    static 3765463134 = v10;
+    f;
+    static 6 = v10;
+}
+new C11();
+const v30 = new C11();
+new v30();
+new Uint32Array(797);
+new BigInt64Array(2651);
+const o43 = {
+};
+new Proxy(v9, o43);
+new Float32Array(4, F0);
+function F50(a52, a53) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v54 = a52.trimLeft();
+    v54.strike();
+    const v56 = this.constructor;
+    try { new v56(v54, "a"); } catch (e) {}
+}
+new F50("a", "-2147483648");
+new F50("-2147483648", "yRMy");

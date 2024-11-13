@@ -1,0 +1,43 @@
+-9007199254740990 - -9007199254740990;
+function f7() {
+    return -1000000.0;
+}
+try { f7(); } catch (e) {}
+const v11 = new Float64Array(5);
+v11[3] = v11;
+new Int16Array(255);
+128 + 128;
+Uint32Array.e = 5;
+Uint32Array.e = Uint32Array;
+new Uint32Array(128);
+const v20 = new Date();
+const v21 = [-1000.0,2.0,6.498411136794167e+307,1.5301115680028905e+308,-1.0240581174585665e+308,-73553.73579822388,-474.34134439650745,2.300981674378132,-816063.8647013834,-1.2620665326245469e+308];
+const v22 = [];
+const v23 = [];
+function f24(a25, a26) {
+    a25.c = v20;
+    const o36 = {
+        129: v22,
+        __proto__: v21,
+        o(a28, a29, a30, a31) {
+            [a25];
+            a25.apply(a29.reduce, a26);
+            return a26;
+        },
+        "f": v23,
+        "e": v20,
+        ...740,
+    };
+    function f37(a38) {
+        try { a26.log(0.1441009632751976, 5); } catch (e) {}
+    }
+    Object.defineProperty(o36, 10, { writable: true, set: f37 });
+    o36.c = o36;
+    return o36;
+}
+const v40 = f24();
+let v41;
+try { v41 = v40.push(-9223372036854775807); } catch (e) {}
+%PrepareFunctionForOptimization(v41);
+%OptimizeFunctionOnNextCall(f24(v21, v23));
+f24(f24, v22);

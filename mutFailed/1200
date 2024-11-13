@@ -1,0 +1,91 @@
+function f3(a4, a5) {
+    const o9 = {
+        3423: a5,
+        __proto__: a4,
+        ...a4,
+        "c": a5,
+        "f": a4,
+        [a4]: a5,
+        "g": a5,
+        52: -0.0,
+        "c": f3,
+        get e() {
+            a4[this] ^= -1.7976931348623157e+308;
+            Object.defineProperty(this, 2226, { configurable: true, get: f3 });
+            return super[-444.7374569346309];
+        },
+        get d() {
+            return -444.7374569346309;
+        },
+        "b": -444.7374569346309,
+        [-1.7976931348623157e+308]: -444.7374569346309,
+        [-1]: -444.7374569346309,
+    };
+    return o9;
+}
+const v10 = f3(-444.7374569346309, -444.7374569346309);
+const v11 = f3(f3, v10);
+const v12 = f3(f3, -444.7374569346309);
+const v13 = v11.constructor;
+let v14;
+try { v14 = new v13(); } catch (e) {}
+const v15 = [506097.1301051206];
+const v16 = v15.toLocaleString(v11);
+function f17() {
+}
+const v21 = new Uint32Array(16);
+function f22(a23, a24) {
+    const o25 = {
+    };
+    o25.e = f22;
+    const o26 = {
+    };
+    o26.e = f22;
+    o26.b = a24;
+    const o27 = {
+    };
+    o27.e = f22;
+    o27.b = a24;
+    o27.c = a23;
+    const o28 = {
+    };
+    v14 ^= f3;
+    for (let v29 = 0; v29 < 32; v29++) {
+        v15["p" + v29] = v29;
+    }
+    o28.e = f22;
+    o28.b = a24;
+    o28.d = a24;
+    function f33(a34) {
+        new f17();
+    }
+    this.onmessage = f33;
+    v21.length = 1073741824;
+}
+function f36(a37, a38, a39, a40) {
+    const o48 = {
+        "a": -0.0,
+        268435439: a40,
+        set c(a42) {
+            class C44 extends Object {
+                static a = a39;
+            }
+            new C44();
+            new C44();
+            new C44();
+            super[a42] = Object;
+        },
+        "e": f3,
+        "d": v11,
+        "arguments": v15,
+        "type": v16,
+        129: v15,
+        ...a38,
+        "b": a39,
+    };
+    return o48;
+}
+f36(f36, v10, -1.7976931348623157e+308, -0.0);
+f36(f3, v11, -444.7374569346309, -1.7976931348623157e+308);
+f36(-444.7374569346309, v12, -1.7976931348623157e+308, v12);
+gc();

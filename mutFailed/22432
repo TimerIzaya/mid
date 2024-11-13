@@ -1,0 +1,76 @@
+class C3 {
+    static {
+        for (let v5 = 0; v5 < 32; v5++) {
+            const t3 = "12";
+            t3["p" + v5] = v5;
+        }
+    }
+    static {
+        function f9(a10) {
+            return this;
+        }
+        class C11 extends f9 {
+            #c;
+        }
+    }
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+["12","n",v14];
+[v12];
+[v13];
+function f40() {
+    3.4890473589784586e+307 > 3.4890473589784586e+307;
+    -4294967296 >> -4294967296;
+    class C47 {
+    }
+    const v48 = new C47();
+    v48.g = v48;
+    const v49 = new C47();
+    v49.length;
+    const v52 = ([9007199254740992,9007199254740992]).constructor;
+    class C53 extends v52 {
+    }
+    try { C53.apply(v52, C47); } catch (e) {}
+    const v55 = new C53();
+    Object.defineProperty(v55, 65537, { value: v49 });
+    return Int16Array;
+}
+%PrepareFunctionForOptimization(f40);
+f40();
+f40();
+%OptimizeFunctionOnNextCall(f40);
+f40();
+const v61 = new Map();
+let v68 = undefined;
+const o76 = {
+    ...v61,
+    ...v61,
+    __proto__: v61,
+    [24560](a70, a71, a72) {
+        super[591114.0785999324];
+        v68 = Map;
+    },
+};
+v68 = o76;
+[v61];
+function F79() {
+    if (!new.target) { throw 'must be called with new'; }
+    [-2.220446049250313e-16,-6.9960895637188125,4.1724406514239416e+307,0.22217900637554078,1000000000.0,-1e-15,1000000000.0,0.39864764958879706,1000000.0,2.2250738585072014e-308];
+    new Date();
+    const o86 = {
+    };
+    o86.e = 19793;
+    const v88 = Array(19793);
+    for (const v89 of v88) {
+    }
+    const v90 = [v88,v88,v88,v88,v88];
+    new BigUint64Array();
+    [];
+    for (let v95 = 0; v95 < 50; v95++) {
+    }
+    [[v90,v90,v90]] >= Uint16Array;
+}
+new F79();
+new F79();

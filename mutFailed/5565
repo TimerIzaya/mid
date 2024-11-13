@@ -1,0 +1,30 @@
+class C3 {
+    static #o(a5) {
+        const v8 = new BigInt64Array(2);
+        new Uint16Array(512);
+        new Float32Array(256);
+        return v8;
+    }
+    static g;
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = v16?.constructor;
+try { new v17(); } catch (e) {}
+const v19 = new C3();
+try { v19.toString(); } catch (e) {}
+10n ^ 10n;
+[10000n,v15,-11];
+[10000n,[51601,v16]];
+const v28 = [2.0,-1e-15,1.7976931348623157e+308];
+function f29(a30, a31) {
+    const o32 = {
+    };
+    return o32;
+}
+v28.constructor = f29;
+const v35 = new Int16Array(1371);
+let v36;
+try { v36 = v35.filter(6n); } catch (e) {}
+v36.flat(1351);
+v35.lastIndexOf(1371, 1351);

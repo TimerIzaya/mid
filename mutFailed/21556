@@ -1,0 +1,34 @@
+function f1() {
+    const o5 = {
+        ...false,
+        __proto__: false,
+        [false]: false,
+        "d": false,
+        p() {
+            const v3 = super[this];
+            try {
+                this.__proto__ = v3;
+            } catch(e4) {
+            }
+            return v3;
+        },
+    };
+    return o5;
+}
+f1();
+const v7 = f1();
+f1();
+class C15 {
+}
+const t22 = 303930.2884586891;
+const v16 = new t22();
+const v17 = [536870888,-536870912,-1292028157,-35163,1073741825,1126124502,-1269619973,1000,-128,9];
+function f18() {
+    function f19(a20) {
+        return v16;
+    }
+    return f19;
+}
+Object.defineProperty(v16, (303930.2884586891).toPrimitive, { configurable: true, get: f18 });
+const v24 = new v7();
+try { v24.setUTCSeconds(v17); } catch (e) {}

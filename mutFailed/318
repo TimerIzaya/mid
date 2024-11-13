@@ -1,0 +1,55 @@
+const v2 = new Int32Array(8);
+new Int32Array(6);
+const v8 = new Uint8Array(10);
+const v9 = [Int32Array,10];
+const v11 = [[v2]];
+class C12 extends Int32Array {
+    p(a14, a15, a16, a17) {
+        let v18;
+        try { v18 = a14(); } catch (e) {}
+        try {
+            v9.valueOf = v18;
+        } catch(e19) {
+        }
+        return a16;
+    }
+    static [v2] = v8;
+    toString(a21, a22) {
+        try {
+            v11.c = a22;
+        } catch(e23) {
+        }
+        Object.defineProperty(v9, 1073741825, { writable: true, enumerable: true, value: a22 });
+        super[this] = v11;
+        return 6;
+    }
+}
+new C12();
+new C12();
+const v26 = new C12();
+try {
+    v8.g = v26;
+} catch(e28) {
+}
+function f29() {
+    const v30 = f29();
+    let v31;
+    try { v31 = v30(v30, v30); } catch (e) {}
+    C12.d ^= v31;
+    try { v8.values(); } catch (e) {}
+    f29 = Uint8Array;
+}
+const v33 = [-1539,1,12];
+function f34() {
+    return f34;
+}
+function f35(a36, a37) {
+    const o38 = {
+        [a36]: v33,
+    };
+    return a36;
+}
+f35(f35);
+f35();
+f35(f34);
+new f29();

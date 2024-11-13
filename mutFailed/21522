@@ -1,0 +1,76 @@
+function f0() {
+    let v3 = 9.682961692729933;
+    v3--;
+    const o5 = {
+        1000: "boolean",
+        "e": 10000,
+        ..."boolean",
+        ..."boolean",
+        8: 10000,
+        "c": "boolean",
+        __proto__: "boolean",
+        "g": v3,
+        [v3]: 10000,
+        "a": "boolean",
+    };
+    function f6() {
+        return o5;
+    }
+    function f7(a8) {
+        a8++;
+    }
+    Object.defineProperty(o5, "length", { configurable: true, enumerable: true, get: f6, set: f7 });
+    o5[2];
+    return o5;
+}
+f0();
+f0();
+const v13 = f0();
+v13.length = v13;
+const v15 = 6 !== 6;
+v15 && v15;
+Float64Array.length;
+const v19 = new Float64Array(6);
+const v20 = v19?.constructor;
+try { new v20(v13, f0, v13); } catch (e) {}
+v19[5] = v19;
+9 >> 9;
+new Float32Array(9);
+255 - 255;
+new Uint8Array(255);
+function f30() {
+    const o42 = {
+        m(a32) {
+            function f33() {
+                function f34(a35) {
+                    function f37() {
+                        return 243628655;
+                    }
+                    return Float32Array;
+                }
+                return f34;
+            }
+            Object.defineProperty(this, "constructor", { writable: true, get: f33 });
+            const v38 = this?.constructor;
+            try { new v38(v15); } catch (e) {}
+            const v40 = this?.m;
+            v40.f = v40;
+            v40.f = v40;
+            try { new v40(Float64Array); } catch (e) {}
+            return f30;
+        },
+    };
+    o42.m();
+    return o42;
+}
+f30();
+%PrepareFunctionForOptimization(f30);
+f30();
+%OptimizeFunctionOnNextCall(f30);
+const v46 = f30();
+function f47() {
+    try { Map.bind(Map, 6, Map, Map); } catch (e) {}
+    return 6;
+}
+v46.constructor = f47;
+try { v46.m(Float32Array); } catch (e) {}

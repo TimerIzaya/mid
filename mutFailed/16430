@@ -1,0 +1,23 @@
+function f2() {
+    return eval(Float64Array);
+}
+Float64Array.valueOf = f2;
+new Float64Array(233);
+new Uint8Array(15);
+new Uint32Array(257);
+try { ("268435456").charAt(Float64Array); } catch (e) {}
+new Float64Array(256);
+127 - 127;
+new Float32Array(127);
+Uint32Array.prototype = Uint32Array;
+const v25 = new Uint32Array(6);
+function f26() {
+    const v28 = new f2();
+    const v29 = new f2(Map, Map);
+    new f2(v28, v29);
+    return Float64Array;
+}
+v25[Symbol.toPrimitive] = f26;
+v25[4] = v25;
+gc.arguments;
+gc();

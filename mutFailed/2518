@@ -1,0 +1,85 @@
+const v1 = new WeakMap();
+function f2() {
+    const o5 = {
+        "maxByteLength": 150,
+    };
+    const v7 = new ArrayBuffer(127, o5);
+    new Uint8ClampedArray(v7);
+    return 150;
+}
+v1[Symbol.toPrimitive] = f2;
+const v12 = [-15,-1,268435441,4294967295,-10,9007199254740990,7,-2147483648];
+v12[Symbol.toPrimitive] = f2;
+const v15 = [256,-664039705];
+const v16 = [7,5,6095,255,268435456];
+const v18 = Array?.apply;
+try { new v18(v15, v16); } catch (e) {}
+const v21 = /[UMa\fb\nc\rd\te\vf]/udms;
+v21.dotAll = v21;
+class C24 {
+    static #p(a26) {
+        super[a26] = v16;
+        return v12;
+    }
+    #o(a29, a30) {
+        v16.length;
+        const o35 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o35);
+        return a29;
+    }
+}
+C24.name = C24;
+const v37 = new C24();
+const v38 = v37?.constructor;
+try { new v38(); } catch (e) {}
+const v40 = new C24();
+const v41 = new C24();
+const v42 = v41?.__lookupGetter__;
+try { new v42(v41); } catch (e) {}
+function f44(a45, a46) {
+    a45.toString = Array;
+    try { a45.flatMap(a46); } catch (e) {}
+    const o54 = {
+        __proto__: v15,
+        [v12]: a45,
+        "c": v12,
+        [a46](a49, a50, a51, a52) {
+            v16 instanceof WeakMap;
+            a51 = a45;
+            return this;
+        },
+        "e": WeakMap,
+        "g": v15,
+        [v1]: a46,
+        "b": v16,
+        5: C24,
+    };
+    return o54;
+}
+const v55 = f44(v12, v12);
+try { v55.keys(); } catch (e) {}
+const v57 = f44(v40, v37);
+v57[1] = v57;
+f44(v55, v1);
+2 - 2;
+const v64 = new Uint8ClampedArray();
+Object.defineProperty(v64, "toString", { writable: true, configurable: true, enumerable: true, value: Array });
+function f65(a66, a67) {
+    const o72 = {
+        [a66]: Float64Array,
+        4: 6,
+        "b": a66,
+        [v64](a69, a70, a71) {
+        },
+    };
+    return o72;
+}
+f65.length = f65;
+%PrepareFunctionForOptimization(f65);
+f65(2);
+f65(2);
+%OptimizeFunctionOnNextCall(f65);
+f65();

@@ -1,0 +1,27 @@
+const v2 = new Uint32Array(129);
+new Int32Array(10);
+const v8 = new Uint32Array(10);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a11;
+    try {
+        a11.b = a13;
+    } catch(e14) {
+    }
+    try {
+        this.a = v8;
+    } catch(e15) {
+    }
+}
+new F9(10, v8, 10);
+new F9(10, Uint32Array, 129);
+new F9(3885, Uint32Array, 129);
+const v20 = [];
+function f21(a22, a23) {
+    const v24 = 8n | a22;
+    let v25;
+    try { v25 = a23.getFloat32(Uint32Array, Uint32Array, v24, v2, v24); } catch (e) {}
+    return v25;
+}
+v20.toString = f21;
+v20 > 8n;

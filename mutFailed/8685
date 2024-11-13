@@ -1,0 +1,71 @@
+class C3 {
+    static o(a5) {
+        return -40921;
+    }
+    static #a;
+    b;
+    g;
+    e = -2.220446049250313e-16;
+}
+const v9 = new C3();
+const v10 = ("boolean").length;
+const v12 = [];
+const v13 = Reflect.construct(C3, v12, C3);
+let v14;
+try { v14 = v13(v10, v9, "b", v13); } catch (e) {}
+try {
+    Reflect.ownKeys(v14);
+} catch(e16) {
+}
+delete v9?.e;
+const v18 = new C3();
+const v19 = new v18();
+const o21 = {
+};
+try {
+    o21.a = v14;
+} catch(e22) {
+}
+try {
+    const o23 = {
+    };
+    o23.h = o23;
+    o23.a = v14;
+    o23.f = v19;
+} catch(e24) {
+}
+try {
+    const o25 = {
+    };
+    o25.a = v14;
+    o25.f = v19;
+    o25.b = Reflect;
+} catch(e26) {
+}
+try {
+    const o27 = {
+    };
+    o27.c = o27;
+    v14.a = v14;
+    o27.f = v19;
+    o27.g = "boolean";
+} catch(e28) {
+}
+new BigUint64Array(512);
+new Uint16Array(129);
+Uint16Array.e = Uint16Array;
+const v36 = new Uint16Array(3214);
+v36[1848] = v36;
+const v37 = [7.554475698528474];
+v37[0] = v19;
+Uint8ClampedArray.length = Uint8ClampedArray;
+Object.defineProperty(Uint8ClampedArray, 1, { value: v37 });
+const v39 = v13?.[o21];
+v12[10] >>= v39;
+new Uint8ClampedArray(Uint8ClampedArray);
+const v44 = Uint16Array <= v39;
+v44 || v44;
+if (v44) {
+    try { v14(); } catch (e) {}
+} else {
+}

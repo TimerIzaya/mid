@@ -1,0 +1,21 @@
+19980n & 9n;
+-16n + -16n;
+const v8 = [9n,-9223372036854775807,19980n,-16n];
+const v9 = [-9223372036854775807,-1,-9223372036854775807];
+let v10;
+try { v10 = v8.map(-16n); } catch (e) {}
+[v10];
+new WeakMap();
+function f15(a16, a17) {
+    function f18() {
+        const v19 = [f18,f18,f18,f18,f18];
+        class C21 extends v19.constructor {
+        }
+        const v22 = new C21();
+        try { v22.reduce(); } catch (e) {}
+        return v19;
+    }
+    return v9;
+}
+Symbol.toString = f15;
+Symbol.for(Symbol);

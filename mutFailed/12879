@@ -1,0 +1,108 @@
+function f3() {
+    return "-256";
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v8 = this?.constructor;
+    try { new v8(F4, "undefined"); } catch (e) {}
+    try {
+        this.f = a6;
+    } catch(e10) {
+    }
+    try {
+        this.h = a6;
+    } catch(e11) {
+    }
+    try {
+        this.a = a7;
+    } catch(e12) {
+    }
+}
+const v13 = new F4("undefined", "F");
+const v14 = new F4("undefined", "F");
+function f15() {
+    function f16() {
+        function f17(a18, a19, a20) {
+            const o21 = {
+                "h": a20,
+            };
+            return o21;
+        }
+        return v13;
+    }
+    return f16;
+}
+function f22(a23) {
+    Object.defineProperty("undefined", "length", { enumerable: true, get: f3, set: f15 });
+}
+Object.defineProperty(v14, "toString", { get: f15, set: f22 });
+const v24 = new F4("F", "-256");
+Object.defineProperty(v24, "valueOf", { value: f3 });
+function f25(a26, a27) {
+    function f28() {
+        return f25;
+    }
+    Object.defineProperty(a26, "toString", { get: f28 });
+    function f29(a30, a31) {
+        %VerifyType(a27);
+        return a31 << f3;
+    }
+    a27.valueOf = f29;
+    const o33 = {
+        __proto__: a27,
+        "a": a27,
+        "c": a26,
+        8: a27,
+        4096: a27,
+        5: F4,
+        204: v24,
+        ...a26,
+        "h": v14,
+        "g": a27,
+        "e": a27,
+        "g": "undefined",
+        "b": a26,
+        "d": "F",
+        6: a26,
+        "f": v13,
+        ...v14,
+        "d": a27,
+        2513639575: v13,
+        [v14]: f3,
+        "f": a26,
+        "h": v13,
+    };
+    return o33;
+}
+function f34(a35) {
+    try {
+        f25(f15, f15);
+    } catch(e37) {
+    }
+}
+Object.defineProperty(f25, "f", { writable: true, set: f34 });
+f25.f = f25;
+f25(v13, v24);
+const v39 = f25(v24, v13);
+v39[2513639575];
+f25(v24, v39)[8];
+try {
+    new f3();
+} catch(e46) {
+}
+v24 - v24;
+-(-5);
+Math.clz32(2.2250738585072014e-308);
+-5 ^ v24;
+Math.log10(-5);
+const v55 = new Uint16Array(3852);
+const v57 = Symbol.toPrimitive;
+v55[v57] = f15;
+v55[2426] = v55;
+new Int8Array(3918);
+let v61 = 9;
+v61++;
+const v64 = new Uint8ClampedArray(v61);
+try { v64.reduceRight(Uint8ClampedArray); } catch (e) {}
+Date[1] = v57;
+new Uint8ClampedArray(Date);

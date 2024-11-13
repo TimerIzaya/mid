@@ -1,0 +1,65 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -5;
+    } catch(e3) {
+    }
+    try {
+        this.h = -5;
+    } catch(e4) {
+    }
+    try {
+        this.b = -5;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+new F0();
+const v12 = [0.048697054965161524];
+const v13 = v12[0];
+const v14 = [F0];
+let v15;
+try { v15 = v14.with(v14, v14); } catch (e) {}
+const v16 = [v6,v13,0.048697054965161524,v12];
+v16[3] = v16;
+const v18 = new Map();
+function F19() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v22 = new v15();
+const v31 = [-2.220446049250313e-16,-2.220446049250313e-16];
+const v32 = [v31];
+const v33 = [0.3083488057663979,0.3083488057663979];
+v33.push(0.3083488057663979);
+class C35 {
+    constructor(a37, a38) {
+        const v39 = this.__lookupGetter__;
+        try { new v39(); } catch (e) {}
+        const v42 = ~a38[2];
+        function f46(a47, a48, a49, a50) {
+            a47.length;
+            a49++;
+            const o56 = {
+                n(a54, a55) {
+                    return v42;
+                },
+            };
+            return o56;
+        }
+        f46(v22, Uint8Array, f46);
+        for (let v58 = 0; v58 < 625; v58++) {
+            v58 >>> v58;
+            f46(Uint8Array);
+        }
+    }
+}
+new C35(v31, v31);
+const v63 = new C35(v32, v33);
+const t58 = v63.constructor;
+new t58(604.4479109019192, 0.3083488057663979);
+try { v18.set(v18, F0); } catch (e) {}
+/\p{Nd}/gumy;
+/(\1a)/gvdy;
+/a*b|c\1(a)/umsy;
+Math.tanh();

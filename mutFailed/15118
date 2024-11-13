@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "d", { enumerable: true, value: this });
+    try {
+        this.c = 11;
+    } catch(e3) {
+    }
+    try {
+        this.b = 11;
+    } catch(e4) {
+    }
+    try {
+        this.d = 11;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+new F0();
+[5.0,-1000000.0,1000.0];
+[0.0,1.0,-2.7237501720206474,Infinity,-7.720154966718217,-2.220446049250313e-16,6.96120951473409e+307];
+[-1000000000.0,-1.7062049011017125e+308,693929.6183238057,-650092.5479229043,-2.0,1000000.0,-7.08514808924448e+307,-1.3821464246516802e+308,648.8829059423811];
+new F0();
+new Float64Array(4);
+new Uint8ClampedArray(116);
+const v22 = new Int32Array(207);
+function f23(a24) {
+    for (let v26 = 0; v26 < 10; v26++) {
+        async function f27(a28, a29, a30) {
+            await 116;
+            return f27;
+        }
+        f27(Math, f27, 116);
+        const o34 = {
+        };
+        gc(o34);
+    }
+    return Math;
+}
+v22[Symbol.toPrimitive] = f23;
+const v40 = Array(Array, 116, Map, v22);
+for (let v41 = 0; v41 < 5; v41++) {
+    const v42 = v41 || v40;
+    v42.toString = Array;
+    v42 ** v42;
+}
+try {
+    const o44 = {
+    };
+    o44[Symbol.iterator] = Symbol;
+    new Map(o44, o44, 207);
+} catch(e48) {
+}

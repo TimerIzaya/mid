@@ -1,0 +1,48 @@
+const v0 = [128];
+const v1 = [4294967296,127,-256732096,4294967295,-46479,129,-1217183007];
+const v2 = [4];
+function f3(a4) {
+    const o5 = {
+        __proto__: v2,
+        ...v1,
+        34: v0,
+        "c": v1,
+        [a4]: a4,
+        ...a4,
+        [v1]: a4,
+        252171649: a4,
+        [v2]: v2,
+        1104387752: v1,
+    };
+    return o5;
+}
+const v6 = f3(v1);
+f3(v2);
+const v8 = f3(v1);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a11;
+    } catch(e13) {
+    }
+}
+new F9(v6, v0);
+new F9(v8, v0);
+new F9(v8, v2);
+const v19 = new Uint8ClampedArray(4);
+const v22 = new Set();
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+    } catch(e27) {
+    }
+    try {
+        v22[this];
+        new F23();
+    } catch(e30) {
+        e30[Symbol.toPrimitive];
+    }
+}
+new F23();
+const v35 = new F23(Set, F23);
+new v35(v19);

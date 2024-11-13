@@ -1,0 +1,109 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3, a4, a5, a6) {
+        return arguments;
+    }
+    f2();
+    try {
+        this.d = 7;
+    } catch(e10) {
+    }
+}
+for (let v11 = 0; v11 < 25; v11++) {
+    function f12() {
+    }
+    for (const v14 in [1073741824,1073741823,1376142744,1073741825]) {
+    }
+    function f18(a19, a20, a21, a22) {
+        return a19;
+        f18();
+        new Int8Array();
+        new Float64Array(2534);
+        const o39 = {
+            toString(a31) {
+                function f33(a34, a35, a36, a37) {
+                }
+                f33(-4294967297n, f33);
+            },
+        };
+        class C40 {
+        }
+        const v41 = [-1024];
+        for (let v42 = 0; v42 < 5; v42++) {
+            delete v41[v42];
+        }
+        const v45 = new Uint32Array(4);
+        0 <= 0;
+        const v49 = new Int8Array(0);
+        for (const v50 in v49) {
+        }
+        [v45];
+        function f52(a53, a54) {
+        }
+        const o55 = {
+        };
+    }
+    for (let v56 = 0; v56 < 5; v56++) {
+        f18();
+    }
+}
+const v58 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v60 = 0; v60 < 5; v60++) {
+    function f61() {
+        const v63 = -4294967295 != -4294967295;
+        v63 && v63;
+        const v67 = !(v58.length < v60);
+        v67 && v67;
+        const o76 = {
+            [-4294967297n](a70, a71, a72, a73) {
+                eval();
+            },
+        };
+        return v60;
+    }
+    f61();
+    %OptimizeFunctionOnNextCall(f61);
+}
+const v78 = new F0();
+const o79 = {
+    __proto__: v78,
+    "a": -4294967297n,
+};
+const v82 = o79[Symbol.asyncIterator];
+const v83 = new F0();
+const v84 = new v82();
+const v86 = new Date();
+const v88 = ([]).groupToMap(Date);
+const v93 = ([-Infinity,Infinity,959819.665748626])["concat"]([Uint32Array]);
+function F94(a96, a97, a98, a99) {
+    if (!new.target) { throw 'must be called with new'; }
+    this[2147483648] = this % "concat";
+    v88[v93] &&= a96;
+    for (let v101 = 0; v101 < 32; v101++) {
+        a98["p" + v101] = v101;
+    }
+    try {
+        a97.d = a98;
+    } catch(e104) {
+    }
+}
+const v105 = new v82(v84, v84, v84, v83);
+const v106 = new F94(v86, F0, v105, v83);
+new F94(v106, v83, v83, v84);
+function F108(a110, a111, a112) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v113 = this.constructor;
+    let v114;
+    try { v114 = new v113(); } catch (e) {}
+    this.e = v114;
+}
+function f115() {
+    for (let v116 = 0; v116 < 5; v116++) {
+        new F108();
+    }
+    return F108;
+}
+%PrepareFunctionForOptimization(f115);
+f115();
+%OptimizeFunctionOnNextCall(f115);
+f115();

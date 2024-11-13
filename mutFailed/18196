@@ -1,0 +1,68 @@
+const v1 = new WeakMap();
+function f2(a3, a4) {
+    const o11 = {
+        __proto__: v1,
+        ...v1,
+        "f": v1,
+        "g": a3,
+        "a": a3,
+        ...a4,
+        toString(a6) {
+            delete a3?.[8];
+            return 2147483647;
+        },
+        "e": WeakMap,
+        5: v1,
+    };
+    return o11;
+}
+const v12 = f2(v1, f2);
+const v14 = f2(f2(v1, v12), v12);
+let v17 = 8346;
+Math.round(WeakMap);
+Math.sqrt(3681);
+--v17;
+class C21 {
+    268435441;
+    static o(a23, a24, a25, a26) {
+        super.e = v12;
+        Object.defineProperty(this, 119, { writable: true, configurable: true, get: f2, set: f2 });
+        return v12;
+    }
+    static get g() {
+        v14 % f2;
+        WeakMap in this;
+        let v33 = 6.46438514780556e+307;
+        Math.expm1(v33--);
+        Math.floor(16);
+        Math.random();
+        Math.log1p(16);
+        return v33 | 16;
+    }
+}
+const o42 = {
+    "maxByteLength": 127,
+};
+const v44 = new ArrayBuffer(10, o42);
+new Float32Array(v44);
+new C21();
+new C21();
+new C21();
+v14[0] = "object";
+const o56 = {
+    "maxByteLength": 10,
+};
+const v58 = new ArrayBuffer(10, o56);
+new Float64Array(v58);
+function f63() {
+    return "object";
+}
+[-1.3335793085303395e+308];
+[1000.0,-270630.4361210972,1000000.0,8.016204519916762,-5.331385210529711,1000000.0,-Infinity,0.0];
+[0.29316617634984443,4.0];
+function F67() {
+    if (!new.target) { throw 'must be called with new'; }
+    typeof arguments;
+    gc();
+}
+new F67();

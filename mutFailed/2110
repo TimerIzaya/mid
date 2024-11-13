@@ -1,0 +1,133 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        return F0;
+    }
+    function f3(a4) {
+        class C6 {
+            set g(a8) {
+                -11 || a8;
+            }
+        }
+    }
+    Object.defineProperty(this, "f", { writable: true, enumerable: true, get: f2, set: f3 });
+    try {
+        this.h = 9;
+    } catch(e11) {
+    }
+    try {
+        this.f = 9;
+    } catch(e12) {
+    }
+    try {
+        this.d = 9;
+    } catch(e13) {
+    }
+}
+const v14 = new F0();
+new F0();
+new F0();
+new Int16Array(673);
+new Uint8ClampedArray(127);
+const v25 = new BigUint64Array(127);
+const v29 = /(\1a)/gums;
+const v30 = /V(?:a{5,1000000}){3,1000000}/vims;
+function f31(a32, a33) {
+    try {
+        v14.fuck(127, a33, [F0,a32,Int16Array,v25,Uint8ClampedArray], a32);
+    } catch(e36) {
+    }
+    return a33;
+}
+v30[Symbol.toPrimitive] = f31;
+const v39 = /(?<a>.)\k<a>?/vdimsy;
+for (let v40 = 0; v40 < 27; v40++) {
+    v29.compile(v30).lastIndex;
+}
+let v43;
+try { v43 = v39(v29, v30, v30, v29); } catch (e) {}
+%VerifyType(v43);
+const v44 = [v39,v30,v29];
+v44[Symbol.toPrimitive] = Symbol;
+v44[2] = v44;
+const v47 = [v44,v30,v39,v44,v44];
+v47[2] = v47;
+[v39,v29,v29];
+let v49 = 8;
+v49--;
+new BigInt64Array(v30, v29, v43);
+const v53 = new BigInt64Array(v49);
+new BigUint64Array(10);
+Uint8Array[2] = Uint8ClampedArray;
+const v59 = new Uint8Array(7);
+function f60() {
+    function f61(a62) {
+        new Uint32Array(215);
+        new Int8Array(2744);
+        new Float32Array(10);
+        return Int16Array;
+    }
+    return f61;
+}
+Object.defineProperty(v59, "constructor", { writable: true, configurable: true, get: f60 });
+const v72 = v59.constructor;
+v72[2] = v72;
+new v72(Uint8Array, v53, v53);
+try { Int32Array.bind(v44); } catch (e) {}
+function f77() {
+    3.4890473589784586e+307 === 3.4890473589784586e+307;
+    let v80 = 1000000000000.0;
+    const v81 = v80--;
+    -v81;
+    -v47 && v47;
+    class C88 {
+        static #m(a90) {
+        }
+        constructor(a92) {
+            const v94 = new Float32Array();
+            let v95;
+            try { v95 = v94.entries(); } catch (e) {}
+            v95.next();
+            const v97 = new Uint16Array(12, -4294967296, v81);
+            new Float32Array(v97);
+        }
+    }
+    new C88();
+    new C88();
+    Symbol.iterator;
+    try { v53.reduce(Int32Array, 12); } catch (e) {}
+    let v104 = 0;
+    v104++;
+    const v106 = new C88();
+    new C88();
+    const v108 = new C88(-4294967296);
+    [];
+    [257828.6336153492,v108,v106,v108];
+    const v111 = [];
+    v111[0] = v111;
+    v111[0];
+    class C113 extends C88 {
+    }
+    const v114 = new C113();
+    const v115 = v111.constructor;
+    try { v115.isArray(v111); } catch (e) {}
+    class C117 extends v115 {
+    }
+    C117.a = v114;
+    C117.a = C117;
+    const v118 = new C117();
+    const v119 = v118.constructor;
+    try { v119.bind(); } catch (e) {}
+    const o121 = {
+        "e": v111,
+        __proto__: v44,
+        [v47]: v59,
+        "h": 257828.6336153492,
+    };
+    try { o121.e(BigUint64Array); } catch (e) {}
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f77);
+f77();
+%OptimizeFunctionOnNextCall(f77);
+f77();

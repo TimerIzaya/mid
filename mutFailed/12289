@@ -1,0 +1,136 @@
+function f1(a2) {
+    function F3(a5) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    return F3;
+}
+Array[Symbol.toPrimitive] = f1;
+const v9 = new Array(129);
+function f10() {
+    return v9;
+}
+([-1000000000.0])[0];
+const v13 = [2.2250738585072014e-308,6.731900846948157,0.9249652834106734];
+v13[1];
+const v15 = [-1000000000.0,-0.7159909877539938,900.0303401665428,-1000000000.0,-736846.0545520865,0.0,-Infinity];
+class C16 {
+    [Array] = Array;
+    427;
+    d = v15;
+    static n(a18, a19) {
+        try { new a18(this, a19, a18, a19, a18); } catch (e) {}
+        try {
+            new Array(10000);
+        } catch(e23) {
+        }
+        v13[a18] &= 129;
+        return this;
+    }
+    static d = f10;
+    #d = v13;
+}
+const v24 = new C16();
+const v25 = new C16();
+v25[427];
+const v27 = new C16();
+class C28 {
+    static [v27] = f10;
+    get a() {
+        const o30 = {
+        };
+        try {
+            o30.h = 129;
+        } catch(e31) {
+        }
+        324308659 + 324308659;
+        for (let v34 = 0; v34 < 5; v34++) {
+            ("p" + v34).codePointAt(v13);
+        }
+        try {
+            const o38 = {
+            };
+            const t51 = f10.constructor;
+            t51();
+            function F41() {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    const t56 = 19793;
+                    for (const v45 of t56()) {
+                    }
+                } catch(e46) {
+                }
+            }
+            o38.h = 129;
+            o38.b = C16;
+        } catch(e47) {
+        }
+        try {
+            const o48 = {
+            };
+            o48.h = 129;
+            o48.b = C16;
+            o48.e = this;
+        } catch(e49) {
+        }
+        try {
+            const o50 = {
+            };
+            o50.h = 129;
+            o50.b = C16;
+            o50.e = this;
+        } catch(e51) {
+        }
+        return v15;
+    }
+}
+const v52 = new C28();
+const v53 = v52?.constructor;
+try { new v53(); } catch (e) {}
+new C28();
+const v56 = new C28();
+const v57 = v56?.constructor;
+try { new v57(); } catch (e) {}
+function f59() {
+    const o60 = {
+    };
+    function f61() {
+        return Symbol;
+    }
+    function f62(a63) {
+        o60.d;
+    }
+    Object.defineProperty(o60, "toString", { configurable: true, get: f61, set: f62 });
+    return o60;
+}
+function f65() {
+    function f66() {
+        class C67 {
+        }
+        return C16;
+    }
+    return f66;
+}
+function f68(a69) {
+    const o70 = {
+        "construct": f59,
+        "getPrototypeOf": f65,
+        "ownKeys": Array,
+        "set": Array,
+    };
+    new Proxy(v24, o70);
+}
+Object.defineProperty(f59, "valueOf", { writable: true, get: f65, set: f68 });
+f59.toString = f59;
+const v73 = f59();
+function f74(a75) {
+    class C78 extends Uint8Array {
+        constructor(a80, a81) {
+            a80[1] = Float64Array;
+            super(a80);
+        }
+    }
+    return a75;
+}
+v73.valueOf = f74;
+Object.defineProperty(Date, "toString", { value: f1 });
+try { new Date(Date, v73, -894763146, Date, v73, f59); } catch (e) {}

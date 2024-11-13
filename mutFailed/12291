@@ -1,0 +1,61 @@
+function f0() {
+}
+new Int8Array(1024);
+Uint16Array.name;
+const v7 = new Uint16Array(3);
+new Uint32Array(256);
+function F14() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+try { F14.toString(); } catch (e) {}
+class C17 extends F14 {
+}
+try { new C17(); } catch (e) {}
+function f19() {
+}
+%OptimizeFunctionOnNextCall(f19);
+const v20 = new C17();
+const v21 = v20?.constructor;
+try { new v21(); } catch (e) {}
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v28 = this?.constructor;
+    try { new v28(a26, a27, v20); } catch (e) {}
+    !(a26 === a26);
+    BigUint64Array.name;
+    const v34 = new BigUint64Array();
+    const v35 = /anVXYFzN(x)(x)(x)\3/gvdms;
+    try { v34.reduceRight(v35); } catch (e) {}
+    9n >> 9n;
+    this.constructor;
+}
+function f40() {
+    let v41 = 1073741824;
+    v41 * v41;
+    class C44 {
+        constructor(a46) {
+            const v47 = this?.constructor;
+            try { new v47(v41); } catch (e) {}
+            a46.length = a46;
+            [a46,v41] = "boolean";
+        }
+    }
+    const v49 = new C44(C44);
+    v49.length;
+    class C51 {
+    }
+    const v52 = new C51();
+    for (let v53 = 0; v53 < 5; v53++) {
+        const v55 = new F23(undefined, v52);
+        v55.length = v55;
+    }
+}
+%PrepareFunctionForOptimization(f40);
+class C57 extends Array {
+}
+const v58 = new C57();
+try { v58.unshift(v7); } catch (e) {}
+1073741823n == v58;
+f40();
+%OptimizeFunctionOnNextCall(f40);
+f40();

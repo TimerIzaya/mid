@@ -1,0 +1,19 @@
+const v4 = 256;
+let v5;
+try { v5 = v4(); } catch (e) {}
+const v6 = delete v5?.[256];
+function f7() {
+    return v4;
+}
+new Int8Array(256);
+const v12 = new Uint16Array(64);
+const v15 = new Uint32Array(52);
+const v18 = new Int8Array(1073741823);
+new Uint8Array(1073741823);
+[-299687427,256,v4,1073741823,v15];
+[8,v18,-9223372036854775807];
+[Uint16Array,v18,256];
+Object.defineProperty(v12, "e", { writable: true, enumerable: true, get: f7, set: f7 });
+for (let v24 = 0; v24 < 32; v24++) {
+    v6["p" + v24] = v24;
+}

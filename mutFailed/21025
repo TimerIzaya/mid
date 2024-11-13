@@ -1,0 +1,12 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 49932;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+new v5();
+const v17 = this.Realm;
+try { v17.owner(); } catch (e) {}

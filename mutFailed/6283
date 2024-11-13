@@ -1,0 +1,38 @@
+const v1 = new WeakSet();
+class C5 extends WeakSet {
+    static #p(a7, a8, a9, a10) {
+        const o14 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o14);
+        return -65537;
+    }
+    static [-65537] = WeakSet;
+    constructor(a17) {
+        super(v1);
+        const v21 = 25947 >>> 25947;
+        5.222426788040868e+307 | ~v21;
+        5 - v21;
+        5.222426788040868e+307 << 25947;
+    }
+}
+const v26 = new C5(-65537);
+const v27 = new C5(25947);
+new C5(-65537);
+const o34 = {
+    "a": v26,
+    "d": 9007199254740990,
+    "f": v27,
+    ...v26,
+    "h": WeakSet,
+    "maxByteLength": 10000,
+};
+const v36 = new ArrayBuffer(3471, o34);
+const o39 = {
+    "maxByteLength": 832,
+};
+const v41 = new SharedArrayBuffer(2, o39);
+new BigUint64Array(v41);
+const v45 = new Uint8Array(v36);
+v45[8] = 2.2250738585072014e-308;

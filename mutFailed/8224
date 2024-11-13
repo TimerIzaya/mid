@@ -1,0 +1,10 @@
+new Uint8ClampedArray(4);
+const v5 = new Float64Array(4096);
+v5[3805] = v5;
+let v8;
+try { v8 = new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray, v5); } catch (e) {}
+new Uint8ClampedArray(4096);
+!v8;
+try { new BigInt64Array(BigInt64Array, -11, -11); } catch (e) {}
+const v17 = new BigInt64Array(-11);
+try { Float32Array.from(v17); } catch (e) {}

@@ -1,0 +1,72 @@
+function f0() {
+    const o11 = {
+        "h": "14",
+        toString(a5, a6) {
+            const v8 = Symbol.search;
+            const v9 = a5[v8];
+            try {
+                v8.valueOf = v9;
+            } catch(e10) {
+            }
+            return a5;
+        },
+        __proto__: "14",
+        [2.220446049250313e-16]: "14",
+    };
+    return o11;
+}
+f0();
+const v13 = f0();
+f0();
+const v21 = Symbol.iterator;
+const o30 = {
+    [v21]() {
+        let v23 = 10;
+        const o29 = {
+            next() {
+                v23--;
+                const v27 = v23 == 0;
+                const o28 = {
+                    "done": v27,
+                    "value": v23,
+                };
+                return o28;
+            },
+        };
+        return o29;
+    },
+};
+new Float32Array(130);
+new Uint16Array(111);
+const t40 = 111;
+const v37 = new t40(1024);
+function f39(a40, a41) {
+    function f43(a44) {
+        try { a44(v13); } catch (e) {}
+    }
+    this.onmessage = f43;
+    a40[65536] = a41;
+    new Uint8Array(-64217);
+}
+const v49 = [v37,Float32Array];
+const o50 = {
+    "arguments": v49,
+    "type": "function",
+};
+new Worker(f39, o50);
+const o63 = {
+    get d() {
+        this[0] /= 4294967296;
+        let v55 = -908890636;
+        const v57 = this & --v55;
+        super[Math];
+        try {
+            f39(Uint16Array, false);
+        } catch(e61) {
+        }
+        return Math.log(v57);
+    },
+};
+for (let i = 0; i < 10; i++) {
+    o63.d;
+}

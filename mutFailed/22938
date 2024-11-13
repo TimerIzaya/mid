@@ -1,0 +1,45 @@
+class C3 {
+    #toString(a5, a6) {
+        for (const v7 of a5) {
+            function F8(a10, a11, a12) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.a = -1000.0;
+                } catch(e13) {
+                }
+                try {
+                    this.c = 14124;
+                } catch(e14) {
+                }
+                try {
+                    this.g = a11;
+                } catch(e15) {
+                }
+            }
+            const v16 = new F8(v7, a6, -1000.0);
+            const v17 = new F8(v16, -1000.0, v16);
+            new F8(F8, v17, this);
+        }
+        return 14124;
+    }
+}
+const v19 = new C3();
+new C3();
+const v21 = new C3();
+v21[8];
+try {
+    v19.__proto__ = C3;
+} catch(e26) {
+}
+[-9223372036854775807,3,65535,37355,1073741823,-9223372036854775807];
+[2,57443];
+[-12,-1,-4,-48369,4,-4294967296];
+const v31 = new Uint32Array(-3, Uint32Array);
+function F33() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        Object.defineProperty(v31, -5.0, { enumerable: true, value: Array() });
+    } catch(e37) {
+    }
+}
+new F33();

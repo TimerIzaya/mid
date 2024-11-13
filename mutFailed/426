@@ -1,0 +1,38 @@
+const v2 = [false,false,true,true,false];
+const v3 = [false];
+const v4 = [v3,v2,v3,v3];
+class C5 {
+    static #e = v2;
+    [false] = v4;
+    [-1] = v2;
+    constructor(a7, a8) {
+        super();
+        try {
+            a7.__proto__ = v4;
+        } catch(e9) {
+        }
+        new v4();
+    }
+    valueOf(a12, a13) {
+        v2 + v2;
+        v3.length;
+        try {
+            a13.pop();
+        } catch(e17) {
+        }
+        return a12;
+    }
+}
+new C5();
+const v19 = new C5();
+const v20 = new C5();
+const v22 = [false,false,[v19,v20]];
+try {
+    const o24 = {
+    };
+    new Map(o24);
+} catch(e26) {
+}
+[v2,false,v22,false];
+const v28 = [2147483649,-62399];
+v28[Symbol.unscopables] = v28;

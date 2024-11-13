@@ -1,0 +1,28 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -7;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(9223372036854775807);
+const v8 = new F3(v7);
+const v9 = new F3(v8);
+class C13 extends -61965n {
+    static #e = v7;
+    n(a15, a16, a17, a18) {
+        Reflect.construct(F3, [this % super.f], a17);
+        return a15;
+    }
+    static #f = v8;
+    12;
+}
+const v27 = new C13();
+const t20 = 48219n;
+new t20();
+new v9();
+const v31 = [1000.0,-1000000000000.0,-7.943810730626244,-1.7976931348623157e+308,1.0,4.0];
+try {
+    v31.length = v27;
+} catch(e32) {
+}

@@ -1,0 +1,43 @@
+function f0() {
+}
+class C2 extends f0 {
+    c = true;
+    1 = true;
+    static [f0];
+    toString(a4) {
+        function f5() {
+            return a4;
+        }
+        ({"a":a4,"h":f5,...f5} = a4);
+        return a4;
+    }
+    e = f0;
+    536870888 = true;
+}
+const v6 = new C2();
+const v7 = new C2();
+const v8 = new C2();
+function f9(a10, a11) {
+    const o12 = {
+        "g": f9,
+        "b": a10,
+        [a11]: v8,
+        10: a11,
+        "d": a10,
+        "e": a10,
+        "f": a10,
+        283307165: a10,
+        [C2]: a10,
+        __proto__: a10,
+        [a10]: v7,
+        "c": v6,
+    };
+    return o12;
+}
+const v13 = f9(v8, v6);
+f9(v6, v13);
+f9(v6, v13);
+new Map();
+const t40 = [0.8307152163010869,1.0,0.0];
+t40.length = 1494907924;
+%VerifyType(f0 instanceof -24894);

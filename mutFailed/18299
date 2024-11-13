@@ -1,0 +1,80 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        __proto__: f0,
+        [f0]: f0,
+        p() {
+            const v3 = super[f0];
+            super[f0] = v3;
+            try {
+                v3.c = this;
+            } catch(e4) {
+            }
+            return v3;
+        },
+        ...f0,
+    };
+    return o5;
+}
+const v6 = f1();
+const v7 = f1();
+const v8 = f1();
+function f9(a10, a11) {
+    const o20 = {
+        "g": v7,
+        o(a13, a14, a15) {
+            try { a13["toString"](a15); } catch (e) {}
+            a15[Symbol.search] = a14;
+            return Symbol;
+        },
+        "d": a11,
+        "e": a11,
+        "c": a10,
+    };
+    return o20;
+}
+f9(v7, v8);
+f9(v8, v6);
+f9(v6, v8);
+function f24() {
+    return f9;
+}
+class C28 {
+    constructor(a30, a31) {
+        this.constructor;
+        try { new f0(); } catch (e) {}
+        let v34 = 0;
+        for (let i = 0; i < 10; i++) {
+            Math.atan();
+            const v38 = v34++;
+            v38 - v38;
+        }
+    }
+}
+new C28();
+const v43 = /(xyz??)/vm;
+/}[a-b-c]/gdimy;
+class C45 {
+    get e() {
+    }
+    #c = v43;
+}
+new C45();
+class C48 {
+}
+try { C48.call(); } catch (e) {}
+new C48();
+1 + 1;
+class C53 {
+}
+const t70 = 1000;
+const v57 = new t70(10);
+for (const v59 in v57) {
+    let v60 = 10;
+    for (let i = 0; i < 5; i++) {
+        const v61 = v60--;
+        v61 > v61;
+    }
+    new Float64Array(2147483647);
+}

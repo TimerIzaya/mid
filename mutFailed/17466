@@ -1,0 +1,57 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 4;
+        new Uint8ClampedArray(256);
+        new Int8Array(9);
+        new Int8Array(12);
+    } catch(e12) {
+    }
+    try {
+        this.d = 4;
+    } catch(e13) {
+    }
+}
+const v14 = new F0();
+const v15 = new F0();
+const v16 = new F0();
+function f17(a18, a19) {
+    a18.g = a18;
+    const o28 = {
+        "g": a18,
+        4294967295: a18,
+        [v16](a21, a22, a23) {
+            try { this.n(v16); } catch (e) {}
+            v15.d;
+            v16 !== a18 ? v16 : a18;
+            return a23;
+        },
+        "a": F0,
+        "h": a19,
+    };
+    return o28;
+}
+const v29 = f17(v16, F0);
+const v30 = f17(v15, v15);
+const v31 = f17(v15, v14);
+const v32 = [v15];
+try { v32.reverse(); } catch (e) {}
+[[v32,v31,v32,v29,v29]];
+("DaoN3")[1];
+function f40(a41, a42) {
+    const v43 = ("DaoN3").startsWith(0, 8);
+    v30 > v29;
+    let {"e":v45,"g":v46,"h":v47,} = a41;
+    f = "DaoN3";
+    try {
+        new f17(undefined, undefined);
+    } catch(e50) {
+    }
+    return v43;
+}
+f40.d = v15;
+%PrepareFunctionForOptimization(f40);
+const v51 = f40();
+!v51;
+%OptimizeFunctionOnNextCall(f40);
+f40("DaoN3", v51);

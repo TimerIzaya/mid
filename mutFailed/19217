@@ -1,0 +1,19 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "h", { writable: true, value: a5 });
+    try {
+        this.h = a5;
+    } catch(e6) {
+    }
+}
+new F3(4.341274099339745e+307);
+const t9 = 4.341274099339745e+307;
+const v8 = new t9(1.0);
+new v8(1.0);
+/(ab)?/gm;
+/[^\u{12345}]/gvd;
+/Xfoo(?=bar)bazs+/guimy;
+new Uint32Array();
+const o15 = {
+    ...F3,
+};

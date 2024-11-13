@@ -1,0 +1,35 @@
+const v1 = new Date();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = Date;
+    } catch(e6) {
+    }
+    try {
+        this.a = a5;
+    } catch(e7) {
+    }
+    try {
+        this.e = Date;
+    } catch(e8) {
+    }
+}
+const v9 = new F2(Date, F2);
+new F2(Date, v1);
+const v11 = new F2(F2, F2);
+const v13 = -Infinity;
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = F2;
+    } catch(e19) {
+    }
+    try {
+        this.a = v13;
+    } catch(e20) {
+    }
+}
+new F15(-4.0, v9);
+new F15(v13, v9, F15, v13, -9.277542033529723e+307);
+new F15(v13, v11);
+Int32Array.bind().name.m();

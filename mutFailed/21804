@@ -1,0 +1,80 @@
+const v1 = new Date();
+v1.toString = Date;
+function f2() {
+    return v1;
+}
+function f3(a4, a5) {
+    const o14 = {
+        [Date]: f2,
+        m(a7, a8) {
+            f2();
+            a4 + a7;
+            return 42795n;
+        },
+        ...a4,
+        [v1]: v1,
+        "e": Date,
+    };
+    return o14;
+}
+function f15() {
+    return Date;
+}
+Object.defineProperty(f3, "a", { writable: true, configurable: true, enumerable: true, get: f15 });
+const v16 = f3(f2, Date);
+const v17 = f3(v16, v1);
+const v18 = f3(v16, f3);
+class C19 extends f3 {
+    valueOf(a21, a22) {
+        this > v18 ? this : v18;
+        return v1;
+    }
+    [f3];
+    #f = v16;
+    [Date];
+    f = f3;
+}
+Object.defineProperty(C19, "a", { writable: true, value: v16 });
+const v28 = new C19();
+const v29 = new C19();
+const v30 = new C19();
+class C31 {
+    constructor(a33, a34, a35, a36) {
+        C19.a;
+    }
+    1966;
+    static #g = v1;
+    static n(a39, a40, a41) {
+        for (let v42 = 0; v42 < 100; v42++) {
+            f2();
+        }
+        return this;
+    }
+    static b;
+}
+new C31(v29, v28, v16, v16);
+new C31(v30, v30, v17, v16);
+new C31(v29, v17, v18, v29);
+function f47() {
+    return f47;
+}
+class C48 extends f47 {
+    constructor(a50, a51, a52, a53) {
+        super();
+        function f54() {
+            const v55 = [];
+            v55[6] = v30;
+            v55[6] = v55;
+            const o58 = {
+                set b(a57) {
+                },
+            };
+            return a53;
+        }
+        for (let v59 = 0; v59 < 5; v59++) {
+            f54();
+            %OptimizeFunctionOnNextCall(f54);
+        }
+    }
+}
+new C48();

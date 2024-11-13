@@ -1,0 +1,56 @@
+const v2 = new Uint8Array(4096);
+const v5 = new Uint16Array(1);
+function f6(a7) {
+    const v8 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+    for (let v9 = 0; v9 < 5; v9++) {
+        function f10() {
+            try {
+                v8.forEach();
+            } catch(e12) {
+                e12.a = e12;
+                e12.a = e12;
+            }
+            return v9;
+        }
+        f10();
+        %OptimizeFunctionOnNextCall(f10);
+    }
+    return v5;
+}
+Object.defineProperty(v5, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, value: f6 });
+v5[0] = v5;
+new BigInt64Array(2900);
+class C19 extends Uint8Array {
+    n(a21, a22, a23, a24) {
+        try { v2(4096, Uint16Array); } catch (e) {}
+        return Uint16Array;
+    }
+    static b;
+    g = 1;
+    #f;
+    #e = v5;
+}
+try { C19.of(); } catch (e) {}
+new C19();
+const v31 = new C19();
+const v32 = new C19();
+try { v32.n(Uint8Array, v32, v31, BigInt64Array); } catch (e) {}
+const v36 = new Uint8Array(2, 2, 2);
+try { new Uint32Array(1, C19, 2900); } catch (e) {}
+const v39 = new Uint32Array();
+try { v39.entries(); } catch (e) {}
+function f41(a42, a43, a44, a45) {
+    try { a42(a43, a45, a44); } catch (e) {}
+    const o50 = {
+        "b": a42,
+        ...v36,
+        n(a48, a49) {
+            v39[a42] = v39;
+        },
+    };
+    return v39;
+}
+for (let v51 = 0; v51 < 625; v51++) {
+    f41(Uint8Array, 2, v51);
+}
+try { Math.fround(v39); } catch (e) {}

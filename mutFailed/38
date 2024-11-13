@@ -1,0 +1,33 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = this?.constructor;
+    try { new v7(a6, a6); } catch (e) {}
+    a5 + a5;
+    try {
+        this.g = a5;
+    } catch(e10) {
+    }
+}
+const v11 = new F3(-9007199254740992n, 20941n);
+const v12 = new F3(F3, 20941n);
+new F3(v12, -418967591n);
+6 >>> 6;
+new Int32Array(6);
+new Float64Array(9);
+257 + 257;
+Float64Array.length;
+new Float64Array(257);
+0n ^ 0n;
+const v28 = /\b[gW\x60]/vi;
+class C29 {
+    #a;
+    constructor(a31, a32, a33) {
+        a31.source = a31;
+        try {
+            a32.#a;
+        } catch(e35) {
+        }
+    }
+}
+try { C29(Int32Array, Int32Array, v11); } catch (e) {}
+new C29(v28, 0n);

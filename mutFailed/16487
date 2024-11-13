@@ -1,0 +1,89 @@
+function f6(a7, a8, a9, a10) {
+    const o18 = {
+        1000: a8,
+        ...a7,
+        "f": a9,
+        get h() {
+            let v11 = this;
+            function f12() {
+                return f6;
+            }
+            function f13(a14) {
+                a14?.f;
+            }
+            Object.defineProperty(v11, "toString", { enumerable: true, get: f12, set: f13 });
+            const v16 = v11++;
+            let v17;
+            try { v17 = new a7(a7, v16, 65537); } catch (e) {}
+            return v17;
+        },
+        __proto__: a7,
+        2721467454: a10,
+    };
+    o18[Symbol.toPrimitive] = f6;
+    return o18;
+}
+const v21 = f6(268435440, 42052n, 7n, 7n);
+const v22 = f6(v21, 7n, 42052n, 2n);
+f6(v21, 42052n, 2n, 2n);
+class C27 {
+    static #p(a29) {
+        function f30(a31) {
+            return a31;
+        }
+        class C32 extends f30 {
+            static [-1] = 8;
+            static [a29];
+            static 268435441;
+        }
+        return a29;
+    }
+    [0.028957958839558873];
+    static 2147483648 = C27;
+    static #g;
+    #a;
+}
+const v33 = new C27();
+v33.constructor = f6;
+const v34 = v33?.constructor;
+function f35(a36, a37) {
+    try {
+        v22.length = 1;
+    } catch(e39) {
+    }
+    return a37;
+}
+v34[Symbol.toPrimitive] = f35;
+try { new v34(); } catch (e) {}
+const v43 = new C27();
+try { v43.propertyIsEnumerable(C27); } catch (e) {}
+new C27();
+/[\11]/gm;
+/(?:a*)*/gudm;
+const v49 = /a(?!bbb|bb)c/vi?.toString;
+try { new v49(); } catch (e) {}
+~117;
+const v54 = new Uint16Array(Uint16Array);
+v54[1];
+new Int32Array(31);
+try { Uint32Array.toString(); } catch (e) {}
+new Uint32Array(128);
+function f63() {
+    let v65 = 1000000000000.0;
+    v65--;
+    const o70 = {
+        "e": Uint16Array,
+        __proto__: 3.4890473589784586e+307,
+        "g": 12,
+        o(a69) {
+            return a69;
+        },
+        ...v65,
+    };
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f63);
+f63();
+f63();
+%OptimizeFunctionOnNextCall(f63);
+f63();

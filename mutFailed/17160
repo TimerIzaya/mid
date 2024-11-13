@@ -1,0 +1,57 @@
+const t0 = 1;
+const v2 = new t0(1);
+6 !== 6;
+new Int8Array(6);
+try { Int32Array.apply(Int8Array, 0); } catch (e) {}
+const v10 = new Int32Array(0);
+const v11 = v10?.reduceRight;
+try { new v11(6); } catch (e) {}
+class C13 {
+    static #p(a15, a16) {
+        const o19 = {
+            "maxByteLength": 256,
+        };
+        const v21 = new ArrayBuffer(256, 256);
+        new Int16Array(v21);
+        return BigInt64Array;
+    }
+}
+new C13();
+const v25 = new C13();
+const v26 = v25?.constructor;
+try { new v26(); } catch (e) {}
+let v30 = -1.1978490371344216e+308;
+const v31 = v2 ^ v30;
+const v32 = (6).imul(v31, v31);
+v30++;
+Math.fround(v30).log10(v2);
+const v36 = new C13();
+const v37 = v36?.constructor;
+try { new v37(); } catch (e) {}
+const v39 = [-268435456,-9007199254740990,11,-25356,-536870912,4294967296,1520296454];
+function f40(a41, a42) {
+    function F44(a46) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v47 = a46?.constructor;
+        try { new v47(this); } catch (e) {}
+        139837843 in this;
+    }
+    const v50 = new F44();
+    const v51 = v50?.constructor;
+    try { new v51(0); } catch (e) {}
+    const v53 = new F44(a42);
+    const o54 = {
+        __proto__: v39,
+    };
+    const v55 = [o54,o54];
+    [v55,139837843,v55,v55,F44];
+    [139837843,a42,v53];
+    [1000,2,712108317,257];
+    [536870887,-54535,13,10000,6,1,-56606];
+    [268435441,772060256,-9007199254740992,512,9007199254740992,-1,4096,0,1318291278,-573945472];
+    try { o54.indexOf(f40); } catch (e) {}
+    return o54;
+}
+try { new f40(v32, BigInt64Array); } catch (e) {}
+const v64 = f40(v39, v39).group(f40);
+v64.h = v64;

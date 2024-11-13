@@ -1,0 +1,48 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a6;
+    } catch(e7) {
+    }
+}
+const t7 = "symbol";
+new t7("bigint", "symbol");
+new F3("toString", "toString");
+new F3("symbol", "bigint");
+class C14 extends F3 {
+    [1000];
+    #toString(a16, a17, a18) {
+        const v20 = Symbol.iterator;
+        const o29 = {
+            [v20]() {
+                let v22 = 10;
+                const o28 = {
+                    next() {
+                        v22--;
+                        const v26 = v22 == 0;
+                        const o27 = {
+                            "done": v26,
+                            "value": v22,
+                        };
+                        return o27;
+                    },
+                };
+                return o28;
+            },
+        };
+        return F3;
+    }
+}
+new C14();
+new C14();
+const v32 = new C14();
+class C37 {
+    constructor(a39) {
+        const v40 = this.constructor;
+        try { new v40(v32, C37, C37, this); } catch (e) {}
+        ("valueOf").localeCompare(a39, "valueOf");
+    }
+}
+const v43 = new C37("valueOf");
+const v44 = v43.constructor;
+new v44(v43, v43, v44, v43, "valueOf");

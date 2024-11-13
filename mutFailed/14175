@@ -1,0 +1,76 @@
+class C3 {
+    #valueOf(a5, a6) {
+        typeof -9007199254740990 === "string";
+        return -9007199254740990;
+    }
+    set b(a11) {
+        try {
+            super.valueOf(a11, this);
+        } catch(e13) {
+            URIError();
+            function f16(a17) {
+                const v18 = [9007199254740991,10,56647,-29200,-9223372036854775807];
+                return v18 & v18;
+            }
+        }
+    }
+}
+new C3();
+new C3();
+new C3();
+function f27() {
+    return C3;
+}
+class C28 extends f27 {
+    static valueOf(a30, a31, a32) {
+        try {
+            a31.c = a30;
+        } catch(e33) {
+        }
+        return f27;
+    }
+    static [-1];
+    #toString(a35, a36, a37) {
+        [1.769038901113529e+308,-867016.0936162483,3.211207707146514e+307,-1000.0,-1.5975674848667391e+308,NaN];
+        [4.0,-1.5091686424002212e+308,-1.405279090498798];
+        [0.381195234314226,565.1175116346678,1.7976931348623157e+308,-0.0,4.0,1.7976931348623157e+308,-1.0,1e-15,0.545837127723874,1000000000.0];
+        return "boolean";
+    }
+}
+function f42() {
+    let v43 = 1000000000000.0;
+    v43--;
+    class C47 {
+        constructor(a49) {
+            const v50 = this.constructor;
+            try { new v50(a49, f42); } catch (e) {}
+            new Uint16Array(12, -4294967296);
+        }
+    }
+    const v53 = new C47();
+    new C47(-4294967296);
+    class C55 extends C47 {
+        [v53];
+    }
+    new C55();
+}
+new C28();
+new C28();
+new C28();
+try {
+} catch(e69) {
+    1073741825 == 0n;
+    const v74 = new Int32Array(Int32Array, Int32Array, Int32Array);
+    function F75(a77, a78) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v79 = new F75(Int32Array, v74);
+    function f80(a81) {
+        let v82;
+        try { v82 = v79.resize(v74, F75, Int32Array, a81); } catch (e) {}
+        v74.length |= v82;
+        return v82;
+    }
+    f80();
+} finally {
+}

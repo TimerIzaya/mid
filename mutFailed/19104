@@ -1,0 +1,72 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        const o5 = {
+            "maxByteLength": 255,
+        };
+        const v7 = new ArrayBuffer(255, o5);
+        new Uint32Array(v7);
+        function f10(a11, a12) {
+            ("MAX_SAFE_INTEGER").normalize("NFC");
+            return v7;
+        }
+        f10(255, o5);
+    }
+    static #e = f0;
+}
+const v17 = new C1();
+const v18 = new C1();
+const v19 = new C1();
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v19;
+    } catch(e24) {
+    }
+    try {
+        this.h = v17;
+    } catch(e25) {
+    }
+}
+const v26 = new F20(C1, v18);
+const v27 = new F20(v26, C1);
+new F20(v26, v19);
+function f29() {
+    return f0;
+}
+class C30 {
+    static {
+        if (v27) {
+            Math.log1p(!(-2 ^ (-2 % this)));
+        } else {
+            this[2] = this;
+        }
+    }
+}
+new C30();
+new C30();
+new C30();
+class C41 {
+    static toString(a43, a44) {
+        const v46 = super[a44];
+        try {
+            delete this[v46];
+            this[C41];
+        } catch(e49) {
+        }
+    }
+}
+const v50 = new C41();
+const v52 = new Uint8ClampedArray(C41, C41, v50);
+function f53() {
+    function f54(a55, a56) {
+        const v57 = v50.constructor;
+        v57 + v57;
+        return f54;
+    }
+    f54(Uint8ClampedArray, Uint8ClampedArray);
+    return f54;
+}
+Object.defineProperty(v52, "valueOf", { get: f53 });
+v52[5] = v52;

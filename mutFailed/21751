@@ -1,0 +1,25 @@
+function f0() {
+}
+const v2 = new WeakMap();
+function f3() {
+    return v2;
+}
+function f4() {
+    return f3;
+}
+[2147483647,42180,1000,-4294967296];
+[881597666,7];
+[-1690487979];
+function f14(a15, a16, a17, a18) {
+    ("Vre").charAt();
+    const v22 = new Symbol(a16, a15, a16, a17);
+    for (let v23 = 0; v23 < 5; v23++) {
+    }
+    let [v24] = v22;
+    return f14;
+}
+for (let v25 = 0; v25 < 10; v25++) {
+    f14(v25, v25, f14, f14);
+}
+%OptimizeFunctionOnNextCall(f14);
+f14();

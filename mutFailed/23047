@@ -1,0 +1,33 @@
+function f3() {
+    return -756230833n;
+}
+const v8 = ([34752,127,-9007199254740991,536870889,-2,1073741823,-1,-37741,-49785441,-8])?.values;
+try { new v8(); } catch (e) {}
+const v10 = [-4294967295,-17806,9223372036854775807,-5,-29859];
+const v11 = [-4096,-50645];
+new Uint8Array(2453);
+256 - 256;
+const v18 = new BigInt(256, v8, v11);
+try { v18.filter(v10); } catch (e) {}
+let v20 = 512;
+v20++;
+new Uint8Array(v20);
+let v24 = -1024;
+for (let v25 = 0; v25 < 5; v25++) {
+    v25 | v25;
+    function f27() {
+        let v28 = -268435456;
+        v28 / v28;
+        v28--;
+        const o34 = {
+            get a() {
+                eval();
+                return f27;
+            },
+        };
+        v24 %= v28;
+        return v25;
+    }
+    f27();
+    %OptimizeFunctionOnNextCall(f27);
+}

@@ -1,0 +1,43 @@
+const v4 = new WeakSet();
+class C5 extends WeakSet {
+    e;
+    static 8 = v4;
+    set c(a7) {
+        WeakSet ^ (a7 = this);
+    }
+    static [536870912n] = WeakSet;
+    #b = C5;
+    static 1;
+}
+const v12 = new C5();
+const t12 = 536870912n;
+const v13 = new t12();
+const v14 = new C5();
+function f15(a16, a17, a18) {
+    const o23 = {
+        [v4]: C5,
+        [v12](a20, a21) {
+            try {
+                this.b = a20;
+            } catch(e22) {
+            }
+            return 536870912n;
+        },
+        [v14]: 536870912n,
+        "f": WeakSet,
+        "b": WeakSet,
+        1: v14,
+    };
+    return o23;
+}
+f15(v13, -256n, C5);
+f15(C5, f15(v4, f15, v12), v12);
+function F27() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = this.constructor;
+    try { v29(); } catch (e) {}
+    try { new v29(v29); } catch (e) {}
+}
+const v32 = new F27();
+const v33 = v32.constructor;
+new v33(v33, v32);

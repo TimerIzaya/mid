@@ -1,0 +1,129 @@
+function f0() {
+    const v3 = -Infinity;
+    const o12 = {
+        "g": 255,
+        ...255,
+        "e": v3,
+        __proto__: v3,
+        [255](a5, a6) {
+            a5 === 255 ? a5 : 255;
+            [9007199254740990,-2147483649,-50631,-1937119414,-568353738,9223372036854775807,8,-9007199254740992,-8852];
+            const v10 = [1024,-5,2107821487,-16];
+            [-9007199254740990,-4294967295,2,4294967296];
+            return v10;
+        },
+        "f": 255,
+        "d": 9,
+        "b": 255,
+    };
+    o12[255] = o12;
+    return o12;
+}
+const v13 = f0();
+let v14 = f0();
+function f15() {
+    class C16 {
+    }
+    const v17 = new C16();
+    const v18 = [v17];
+    class C19 {
+        constructor(a21, a22, a23) {
+            function f24(a25, a26, a27) {
+                v18.indexOf(C16, a26);
+                try {
+                    f24(C19, a25, v17);
+                } catch(e30) {
+                }
+                return f24;
+            }
+            f24();
+        }
+    }
+    return v14;
+}
+v14.toString = f15;
+const v32 = f0();
+function f33(a34, a35) {
+    a34[Symbol.toPrimitive] = f15;
+    a35.toString = Symbol;
+    const o43 = {
+        "h": f0,
+        "c": v14,
+        __proto__: v14,
+        "f": v32,
+        "g": v32,
+        set d(a39) {
+            switch (a39) {
+                case v13:
+            }
+            ({"f":v14,"h":a34,...a35} = this);
+        },
+    };
+    return o43;
+}
+const v44 = f33(v13, v14);
+const v45 = f33(f33, v14);
+const v46 = f33(v45, v14);
+function f47() {
+    f0();
+    new Date();
+    return v45;
+}
+v46.toString = f47;
+[0.7182632976491499,0.8455289508166738,-5.050619265968049,1000000000.0,-1000000.0,2.2250738585072014e-308];
+const v52 = [-77706.51783159503,-723.6979012972074,0.3967525901577881,0.6905571478466825,5.0,-1000000.0,-Infinity];
+const v53 = [-1.4956119546629118e+308,1.0];
+function f57(a58, a59, a60, a61) {
+    a58[156] = a61;
+    Object.defineProperty(a59, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, value: f33 });
+    a61[Symbol.toStringTag] = f15;
+    a58[255] = a58;
+    a59[255];
+    const o67 = {
+        "d": a61,
+        "f": v53,
+        "g": -37030,
+        2: v46,
+        ...a60,
+        "h": v52,
+        "a": a59,
+        "e": a58,
+        "b": -37030,
+        __proto__: v52,
+        [-9]: v13,
+        [a60]: a59,
+        2147483647: v45,
+        "c": v44,
+        8: v14,
+    };
+    o67[69] = f0;
+    return o67;
+}
+f57(v14, v14, f33, v44).d;
+const v70 = f57(v14, -9, -9, v46);
+v70[148] = -37030;
+const v71 = f57(v52, -13, v70, v14);
+v71.g = v71;
+const v72 = [1073741824,1073741823,1376142744,1073741825];
+function f73(a74) {
+    let v75;
+    try { v75 = new a74(...v70, a74, ...v72, a74, a74); } catch (e) {}
+    const v77 = 3 | v75;
+    v77 * v77;
+    return v32;
+}
+v72.valueOf = f73;
+function f79(a80, a81, a82, a83) {
+    Object.defineProperty(a83, Symbol.toPrimitive, { writable: true, enumerable: true, value: f79 });
+    a80 >> a80;
+    a81 >>> a81;
+    let v88 = v72.indexOf();
+    v88--;
+    return a83;
+}
+for (let v90 = 0; v90 < 10; v90++) {
+    v90 / v90;
+    f79(v90, v90, v90, v90);
+}
+%OptimizeFunctionOnNextCall(f79);
+f79(v72, f79, v72, f79);

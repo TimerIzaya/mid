@@ -1,0 +1,19 @@
+const v3 = [-24174,65537,9,-9007199254740992,-1628246490,65536,4,-57593,49456,536870912];
+const v4 = [-4096,28730];
+const v5 = [2,536870887,-13,0,1,-256,9007199254740990,-723413671,-9223372036854775807];
+const t3 = "POSITIVE_INFINITY";
+t3[1234] = v5;
+Object.defineProperty(v5, 7, { value: v3 });
+v4.length >>= "object";
+let v6;
+try { v6 = v4.entries(); } catch (e) {}
+try { v6.toString(v5, v3, v5, v6); } catch (e) {}
+for (let v14 = 0; v14 < 5; v14++) {
+    function f15() {
+        const t12 = v6.constructor;
+        f15.slice(t12().replaceAll());
+        return v14;
+    }
+    f15();
+    %OptimizeFunctionOnNextCall(f15);
+}

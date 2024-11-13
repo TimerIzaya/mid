@@ -1,0 +1,69 @@
+const v2 = new Uint32Array(1);
+let v3 = 1329;
+v3 | v3;
+v3--;
+const v7 = new BigUint64Array(v3);
+const v8 = v7?.findLastIndex;
+let v9;
+try { v9 = new v8(BigUint64Array); } catch (e) {}
+try {
+    v9.valueOf = v8;
+} catch(e11) {
+}
+v7 in v9;
+try { new Int32Array(Int32Array, 1, v2); } catch (e) {}
+const v15 = new Int32Array(11);
+const v16 = [v15,v15,v15];
+let v17;
+try { v17 = v16.toString(); } catch (e) {}
+v16[2] = v16;
+const v18 = [v2,1];
+v17[6] = v15;
+try { v9(v8, 1, v18, v8, v16); } catch (e) {}
+const v20 = BigUint64Array | v17;
+v8[Symbol.toPrimitive] = v20;
+const v23 = [1];
+const v24 = [v23,v7,v23,v3,v23];
+try { v24.findLastIndex(v7); } catch (e) {}
+let v26;
+try { v26 = v24.toReversed(); } catch (e) {}
+v26[4] = v26;
+[v18,v2];
+[v15,11,v3];
+const v29 = [1073741824,1073741823,1376142744,1073741825];
+function f30(a31, a32, a33, a34) {
+    function f35() {
+        try {
+            v29.findLast();
+        } catch(e37) {
+            class C38 {
+            }
+            const v39 = new C38();
+            const v40 = v39?.constructor;
+            try { new v40(); } catch (e) {}
+            const v42 = v39?.constructor;
+            let v43;
+            try { v43 = new v42(); } catch (e) {}
+            const v44 = v43?.constructor;
+            try { new v44(); } catch (e) {}
+            const v46 = [1000000.0,0.218433446981681,-5.0,-919787.2036172998,872389.6270716691];
+            v46[2] = v46;
+            const v48 = [v39,v39,v39,v39,v39];
+            const v49 = v46.pop;
+            v49.name;
+            try { v49(); } catch (e) {}
+            Reflect.apply(v49, v39, v48);
+        }
+        return f30;
+    }
+    const v53 = f35();
+    v53.arguments = v53;
+    try { eval(a33); } catch (e) {}
+    eval();
+    %OptimizeFunctionOnNextCall(f35);
+    return a32;
+}
+for (let v57 = 0; v57 < 5; v57++) {
+    v57 - v57;
+    f30();
+}

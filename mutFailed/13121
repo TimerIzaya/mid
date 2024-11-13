@@ -1,0 +1,97 @@
+function f0() {
+}
+function f1() {
+    const o8 = {
+        __proto__: f0,
+        "d": f0,
+        p() {
+            Object.defineProperty(this, "h", { configurable: true, enumerable: true, get: f0 });
+            const o6 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o6);
+            return "async";
+        },
+    };
+    return o8;
+}
+const v9 = f1();
+const v10 = f1();
+let v11 = f1();
+class C15 {
+    constructor(a17, a18) {
+    }
+    static {
+        try {
+            this.toString = f1;
+        } catch(e23) {
+        }
+        v11 = v10;
+        v9[6];
+    }
+    static [v10];
+}
+const v25 = new C15(-1641, -1641);
+new C15(255, v25, v25, v11);
+new C15(255, v25);
+function F28(a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a32;
+    } catch(e33) {
+    }
+    try {
+        this.a = v25;
+    } catch(e34) {
+    }
+    try {
+        this.b = -1641;
+    } catch(e35) {
+    }
+}
+new F28(-1641, v10, 38932);
+new F28(38932, -1641, 255);
+new F28(38932, v10, 255);
+/ND2/gds;
+class C41 extends Map {
+}
+const v42 = new C41();
+v42.isPrototypeOf();
+class C46 {
+    static {
+        for (let v48 = 0; v48 < 25; v48++) {
+            const v49 = [601759695];
+            const v50 = [1073741824,1073741823,1376142744,1073741825];
+            function f52(a53, a54, a55, a56) {
+                try { new a53(); } catch (e) {}
+                a55 << a55;
+                function f60() {
+                    return a53;
+                }
+                const v62 = new Int8Array();
+                const v65 = BigUint64Array * 536870887;
+                v65 - v65;
+                FinalizationRegistry.isNaN(v65 ** v65);
+                function f70(a71, a72) {
+                }
+                try { f70(); } catch (e) {}
+                const v74 = v62.buffer;
+                const v75 = v74.__defineGetter__;
+                try { v75(); } catch (e) {}
+                Object.defineProperty(v74, "constructor", { writable: true, configurable: true, value: Date });
+                %OptimizeFunctionOnNextCall(f60);
+                let v78;
+                try { v78 = v50["find"](..."find", a56, ...v49); } catch (e) {}
+                const o79 = {
+                };
+                o79.e = o79;
+                v78 <= a55;
+                return arguments;
+            }
+            for (let v81 = 0; v81 < 5; v81++) {
+                f52(this, v81, v81);
+            }
+        }
+    }
+}

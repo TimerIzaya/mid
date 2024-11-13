@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -4294967296;
+    } catch(e3) {
+    }
+    try {
+        this.e = -4294967296;
+    } catch(e4) {
+    }
+    try {
+        this.b = -4294967296;
+    } catch(e5) {
+    }
+}
+let v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 {
+    static p(a11, a12) {
+        try { this.toReversed(); } catch (e) {}
+        for (let v14 = 0; v14 < 32; v14++) {
+            a12["p" + v14] = v14;
+        }
+        return v7;
+    }
+    constructor(a18, a19) {
+        Math.sign(a18);
+        const v24 = this % 1073741824;
+        a18 && NaN;
+        a18 | this;
+        1073741824 & v24;
+        ++v6;
+        C9--;
+    }
+}
+const v30 = new C9(v8, v6);
+const v31 = new C9(v30, v7);
+new C9(v8, v31);
+class C33 {
+    static {
+        const t41 = F0 <= this;
+        t41[6] = super.e;
+    }
+    static e;
+    [C33];
+    c = v8;
+}
+const v43 = new C33();
+new C33();
+new C33();
+function F49() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v51 = new F49();
+function f52() {
+    const v55 = Array(4087);
+    v55[1959] = v51;
+    for (const v56 of v55) {
+    }
+    return 4087;
+}
+%PrepareFunctionForOptimization(v43);
+f52();
+%OptimizeFunctionOnNextCall(f52);
+f52();

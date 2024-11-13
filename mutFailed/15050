@@ -1,0 +1,65 @@
+class C3 {
+    static #b;
+    static [-6n] = -6n;
+    constructor(a5) {
+        try {
+            this.#b;
+        } catch(e7) {
+        }
+        try {
+            this.b = this;
+        } catch(e8) {
+        }
+    }
+}
+const v9 = new C3(-2147483647n);
+new C3(-6n);
+new C3(6n);
+function f15(a16, a17, a18) {
+    let v19 = this;
+    function f20(a21) {
+        v19 = a21;
+    }
+    v19.onmessage = f20;
+    v9.c;
+}
+const v25 = ["oLI",v9,6n];
+const o26 = {
+    "arguments": v25,
+    "type": "function",
+};
+new Worker(f15, o26);
+class C28 extends C3 {
+    #o(a30, a31, a32) {
+        function f33() {
+            return 6n;
+        }
+        return f33;
+    }
+    #c = v9;
+    static ["oLI"] = "symbol";
+    static #d;
+    ["symbol"];
+    536870888 = 6n;
+}
+new C28();
+new C28();
+new C28();
+const v38 = ["268435441","268435441","268435441"];
+const v39 = [v38,v38];
+function f41() {
+    return 129;
+}
+class C42 {
+}
+function F43(a45, a46) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v47;
+    try { v47 = this.propertyIsEnumerable(v38); } catch (e) {}
+    v47[2];
+    const v50 = this.valueOf().constructor;
+    try { new v50(a45); } catch (e) {}
+    a45.lastIndexOf();
+}
+new F43("268435441");
+new F43(v39);

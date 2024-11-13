@@ -1,0 +1,28 @@
+try { ("9007199254740990").strike(); } catch (e) {}
+function f10() {
+    return "flags";
+}
+[256,346508218];
+const v12 = [-12,536870889,1073741825,128,129,9223372036854775807,727876914,-14,-9007199254740991,-2147483649];
+try { v12.push(-1134929621); } catch (e) {}
+[536870912,16,-59539];
+class C15 {
+    static {
+        try { new this(); } catch (e) {}
+        function F18(a20, a21) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v22 = this?.__lookupGetter__;
+            try { new v22(a20); } catch (e) {}
+            a21.name = a21;
+            this.constructor = f10;
+            this.propertyIsEnumerable("flags");
+            const v25 = this.constructor;
+            v25.caller = v25;
+            try { new v25(); } catch (e) {}
+            try { this.constructor(); } catch (e) {}
+        }
+        try { new F18(9007199254740990n, F18); } catch (e) {}
+        new F18(C15, C15);
+    }
+}
+try { new C15(); } catch (e) {}

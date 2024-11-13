@@ -1,0 +1,53 @@
+const v5 = new Uint8ClampedArray(7);
+const v8 = new Uint8Array(127);
+const o11 = {
+};
+const v13 = new Proxy(v8, o11);
+o11[6] = v13;
+const v14 = new Float32Array(4096);
+class C15 extends Float32Array {
+    constructor(a17, a18) {
+        super(a18, a18, 7);
+        for (const v19 in this) {
+            try {
+                v5.g = 4096;
+            } catch(e20) {
+            }
+        }
+    }
+    a = -2147483648;
+    n(a22, a23, a24, a25) {
+        super[Uint8Array];
+        return v14;
+    }
+    static 10;
+}
+new C15(6, -2147483648);
+const v28 = new C15(4096, -6);
+new C15(4096, 127);
+const v31 = new Int16Array(Int16Array, Int16Array, Int16Array);
+function f32() {
+    return f32;
+}
+class C33 extends f32 {
+    constructor(a35, a36, a37, a38) {
+        super();
+        function f39() {
+            const o40 = {
+                [C15]: v13,
+                "d": v28,
+                __proto__: v5,
+                ...v28,
+                "h": a36,
+                "g": a36,
+                ...v31,
+            };
+            return C33;
+        }
+        for (let v41 = 0; v41 < 5; v41++) {
+            f39();
+            %OptimizeFunctionOnNextCall(f39);
+        }
+    }
+}
+new C33();

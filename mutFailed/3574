@@ -1,0 +1,42 @@
+class C3 {
+    ["b"];
+    6489605;
+    c;
+    b = "b";
+    static {
+        let v4 = this;
+        super[1024] = v4;
+        const v5 = super.d;
+        v4 & v5;
+        %VerifyType("catch");
+        super.b;
+        %VerifyType("catch");
+        const o10 = {
+            "maxByteLength": 195,
+        };
+        const v12 = new SharedArrayBuffer(195, o10);
+        new Float32Array(v12);
+        v4 = "catch";
+        let v18 = -9 || "catch";
+        Math.exp(1024);
+        Math.sqrt(v5);
+        ++v18;
+        v18 || -2.220446049250313e-16;
+        v18 && "catch";
+    }
+}
+new C3();
+new C3();
+let v26 = new C3();
+const v33 = [-268435456,2,9007199254740992,0];
+const v34 = [2147483649,1024,-128,-256];
+v34["join"](...v33, ...v34);
+if (-1000.0 !== 268435441n) {
+    ++v26;
+    Math.sign(-200511791);
+    !v26;
+    14 ** 14;
+} else {
+    ("catch")["trimLeft"]();
+}
+("object").normalize("NFD");

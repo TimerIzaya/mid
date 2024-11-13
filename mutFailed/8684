@@ -1,0 +1,54 @@
+class C3 {
+    static o(a5) {
+        return -40921;
+    }
+    static #a;
+    b;
+    g;
+    e = -2.220446049250313e-16;
+}
+const v9 = new C3();
+const v10 = ("b").length;
+const v13 = Reflect.construct(C3, [], C3);
+let v14;
+try { v14 = v13(v10, v9, "b", v13); } catch (e) {}
+new C3();
+const v16 = new C3();
+const o18 = {
+};
+try {
+    o18.a = -2.220446049250313e-16;
+} catch(e19) {
+}
+try {
+    const o20 = {
+    };
+    o20.a = v14;
+    o20.f = v16;
+} catch(e21) {
+}
+try {
+    const o22 = {
+    };
+    o22.a = v14;
+    o22.f = v16;
+    o22.b = Reflect;
+} catch(e23) {
+}
+try {
+    const o24 = {
+    };
+    o24.a = v14;
+    o24.f = v16;
+    o24.g = "boolean";
+} catch(e25) {
+}
+new BigUint64Array(512);
+new v14(129);
+new Uint16Array(3214);
+Object.defineProperty(Uint8ClampedArray, 1, { value: [7.554475698528474] });
+new Uint8ClampedArray(Uint8ClampedArray);
+if (Uint16Array <= BigUint64Array) {
+    try { v14(); } catch (e) {}
+} else {
+}

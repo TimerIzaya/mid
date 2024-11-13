@@ -1,0 +1,55 @@
+const v2 = new Int16Array(79);
+let v5;
+try { v5 = BigInt64Array.from(v2); } catch (e) {}
+const v6 = new BigInt64Array(5);
+const v7 = v6.BYTES_PER_ELEMENT;
+const v8 = v7 & v7;
+v5.prototype = BigUint64Array;
+try { new BigUint64Array(v5, 79, 5); } catch (e) {}
+try { new BigUint64Array(Int16Array, v6, Int16Array); } catch (e) {}
+const v13 = new BigUint64Array(257);
+const v14 = v13[139];
+Uint8Array.prototype = Uint8Array;
+Uint8Array.g = Uint8Array;
+new Uint8Array(2);
+Int32Array.length = Int32Array;
+const v20 = new Int32Array(1000);
+v20[330] = v20;
+const v21 = v20?.constructor;
+try { new v21(v20, Uint8Array, 1000); } catch (e) {}
+Float64Array.d = Float64Array;
+new Float64Array(75);
+const v26 = v21?.constructor;
+v26.length = v26;
+let v27;
+try { v27 = new v26(2, 75, 79); } catch (e) {}
+try { v27.entries(); } catch (e) {}
+function f29() {
+    const o34 = {
+        [-1000000.0]: 0.0,
+        set e(a33) {
+        },
+    };
+    return f29;
+}
+const t34 = f29.name;
+const v36 = t34();
+let v37;
+try { v37 = new v36(); } catch (e) {}
+v37.length = v37;
+let v38;
+try { v38 = v14(); } catch (e) {}
+const v39 = v38();
+try { v39(); } catch (e) {}
+const v41 = /4VL[a-zA-Z0-9]/uimy;
+const v42 = /ufoo(?!bar)baz/ums;
+v42.dotAll = v42;
+class C43 {
+    static [f29] = v39;
+}
+C43.prototype = C43;
+try { new C43(); } catch (e) {}
+v36?.constructor;
+try { new v8(); } catch (e) {}
+try { C43.apply(BigUint64Array, v42); } catch (e) {}
+v36[-2] &&= v41;

@@ -1,0 +1,84 @@
+const v0 = [1,9223372036854775807,1000];
+function f1() {
+    let v2 = 0;
+    do {
+        v2++;
+    } while (v2 < 9)
+    return v0;
+}
+const v10 = Symbol.toPrimitive;
+v0[v10] = f1;
+function f11(a12) {
+    const v15 = new Float32Array();
+    for (let v16 = 0; v16 < 5; v16++) {
+        v15[836499325] = ~v16;
+    }
+    return a12;
+}
+v0.toString = f11;
+const v18 = [9];
+const v19 = [-10];
+v19[4] = v0;
+v19[4] = f11;
+class C20 {
+    #c;
+    get g() {
+        try {
+            v0.toString = this;
+        } catch(e22) {
+        }
+        const o25 = {
+            "maxByteLength": 3836,
+        };
+        const v27 = new ArrayBuffer(3836, C20);
+        const v29 = new Float32Array(v27);
+        return v29;
+    }
+}
+const v30 = new C20();
+const v31 = new C20();
+new C20();
+function f33(a34, a35, a36) {
+    f33[0] = a35;
+    Object.defineProperty(v19, v0, { enumerable: true, set: f33 });
+    const o50 = {
+        set b(a41) {
+            const o42 = {
+            };
+            try {
+                o42.a = v30;
+            } catch(e43) {
+            }
+            try {
+                const o44 = {
+                };
+                o44.a = v30;
+                o44.a = C20;
+            } catch(e45) {
+            }
+            try {
+                const o46 = {
+                };
+                o46.a = v30;
+                o46.c = C20;
+                o46.f = v19;
+            } catch(e47) {
+            }
+            try {
+                const o48 = {
+                };
+                o48.a = v30;
+                o48.c = C20;
+                o48.b = this;
+            } catch(e49) {
+            }
+        },
+    };
+    return o50;
+}
+f33[0] = v10;
+f33(v30, v18, v19);
+f33(v31, v0, v19, C20);
+f33(v30, v19, v0);
+let v62 = -1e-15;
+Math.atan2(v62++, -175950080);

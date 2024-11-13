@@ -1,0 +1,55 @@
+const v1 = new WeakMap();
+function f2() {
+    return WeakMap;
+}
+function f3(a4, a5) {
+    ~(-25283n >> (-25283n && -25283n));
+    return f2;
+}
+f2[Symbol.toPrimitive] = f3;
+function f12(a13) {
+    const o20 = {
+        ...v1,
+        "d": WeakMap,
+        [f2](a15) {
+            a13 = this;
+            let {"e":v16,"h":v17,...v18} = v1;
+            try {
+                v18.d = this;
+            } catch(e19) {
+            }
+            return this;
+        },
+    };
+    return o20;
+}
+const v21 = f12(f12);
+const v22 = f12(WeakMap);
+const v23 = f12(v1);
+function f24(a25, a26) {
+    const o33 = {
+        3956: a26,
+        set f(a28) {
+            class C29 {
+                #a = this;
+                static #c = f2;
+                static [this];
+            }
+            new C29();
+            new C29();
+            new C29();
+        },
+    };
+    return o33;
+}
+f24(v23, v22);
+f24(v21, v22);
+f24(f2, v21);
+class C40 {
+    constructor(a42, a43, a44, a45) {
+    }
+    /*
+    constructor(a47, a48, a49, a50) {
+    }
+    */
+}

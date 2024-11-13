@@ -1,0 +1,64 @@
+class C9 {
+    get c() {
+        try {
+            super.o(1024n, this);
+        } catch(e12) {
+        }
+        return this;
+    }
+    f;
+    static set h(a14) {
+        function F15(a17, a18) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                const t13 = "-11";
+                t13.c = "g";
+            } catch(e19) {
+            }
+            try {
+                this.f = a18;
+            } catch(e20) {
+            }
+            try {
+                this.a = 1.4430636962514853;
+            } catch(e21) {
+            }
+        }
+        new F15(a14, "e");
+        new F15(1000000000000.0, a14);
+        new F15(-6.121128688418393, this);
+    }
+}
+const t31 = "e";
+new t31();
+const v26 = new C9();
+new C9();
+function f28(a29, a30, a31) {
+    const o40 = {
+        __proto__: C9,
+        4: a30,
+        valueOf(a33, a34, a35, a36) {
+            let v37 = 10;
+            for (; v37--;) {
+                try { v37.p(); } catch (e) {}
+            }
+            return a29;
+        },
+        [a29]: a30,
+        [-40031n]: a29,
+    };
+    return o40;
+}
+const v41 = f28(1000000000000.0, -6.121128688418393, v26);
+f28(1000000000000.0, 1000000000000.0, v41);
+f28(1000000000000.0, -6.121128688418393, v41);
+const o44 = {
+};
+function f45() {
+    return o44;
+}
+function f46(a47, a48) {
+    Object.defineProperty(o44, "h", { writable: true, configurable: true, enumerable: true, get: f45, set: f45 });
+    return "g";
+}
+new Promise(f46);

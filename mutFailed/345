@@ -1,0 +1,51 @@
+class C3 {
+    static {
+        const t2 = "PUjO";
+        t2["PUjO"] = this;
+        function F5(a7) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a7;
+            } catch(e8) {
+            }
+            try {
+                this.__proto__ = this;
+            } catch(e9) {
+            }
+            const t14 = "PUjO";
+            t14[a7] = "PUjO";
+            try {
+                this.d = a7;
+            } catch(e10) {
+            }
+        }
+        new F5(this);
+        new F5("PUjO");
+        new F5(this);
+    }
+}
+new C3();
+new C3();
+new C3();
+class C24 {
+    f = "1073741824";
+}
+const v25 = new C24();
+class C28 {
+    [C24];
+    static 1073741825;
+    static ["YZmA"] = v25;
+}
+new C28();
+const v31 = ("YZmA")["indexOf"]("g");
+try {
+    C24.toString = v31;
+} catch(e32) {
+}
+new C3();
+("YZmA")[Symbol.toStringTag];
+const o40 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o40);

@@ -1,0 +1,67 @@
+class C3 {
+    get d() {
+        const v5 = super[-2147483647n];
+        super[45756n] = 45756n;
+        let v6;
+        try { v6 = v5.toString(-2147483647n); } catch (e) {}
+        const v7 = v6?.[v5];
+        try { v7(16n); } catch (e) {}
+        return v5;
+    }
+    constructor(a10, a11) {
+        let v12;
+        try { v12 = new a11(a11, -2147483647n); } catch (e) {}
+        try { a11.n(a10, v12, a11, this); } catch (e) {}
+    }
+}
+const v17 = new C3(45756n, 45756n);
+function f18() {
+    return 16n;
+}
+Object.defineProperty(v17, "n", { writable: true, enumerable: true, get: f18 });
+const v19 = new C3(-2147483647n, v17);
+const v20 = new C3(45756n, 45756n);
+class C24 {
+    valueOf(a26, a27, a28) {
+        a28[9] = a26;
+        try { a26.trimStart(); } catch (e) {}
+        return 9223372036854775807n;
+    }
+    static ["iterator"] = 45756n;
+    static ["WgZtU"];
+    set g(a34) {
+        function f36() {
+            return arguments;
+        }
+    }
+    c;
+    [v19] = v20;
+    static #f = -2147483647n;
+}
+new C24();
+new C24();
+const v39 = new C24();
+v39[Symbol.search] = f18;
+let v42 = "function";
+function f43() {
+    return v42;
+}
+new f43();
+const v48 = [v39];
+Reflect.apply(("isExtensible").search, "isExtensible", v48);
+const v52 = "size" && "boolean";
+with ("boolean") {
+    length = v52;
+    ({"length":v42,} = "isExtensible");
+    let v53 = 0;
+    while (v53 < 1) {
+        v53 <<= v53;
+        try { v52.includes("size", v53); } catch (e) {}
+        try {
+            new C24();
+        } catch(e58) {
+        }
+        v53++;
+    }
+    f43();
+}

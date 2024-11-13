@@ -1,0 +1,53 @@
+function f3() {
+    return NaN;
+}
+function f7() {
+    return -0.0;
+}
+const v11 = ["I",13997,"e"];
+["prototype","prototype"];
+const v13 = [v11,-2050017342];
+function f20(a21, a22, a23, a24) {
+    const o27 = {
+        get b() {
+            a24[3] = "-26733";
+            for (let v26 = 0; v26 < 24; v26++) {
+            }
+            return a22;
+        },
+        "e": a24,
+        "f": 1073741825,
+        "a": 1073741825,
+    };
+    function f28() {
+        return v13;
+    }
+    function f29(a30) {
+        function f32(a33, a34, a35, a36) {
+            a35--;
+            try { a36(1024, 1024); } catch (e) {}
+            for (let i41 = 0, i42 = 10; i41 < i42; i42--) {
+                for (let v49 = 0; v49 < 5; v49++) {
+                    const o52 = {
+                        o(a51) {
+                        },
+                    };
+                }
+            }
+        }
+    }
+    Object.defineProperty(o27, 1, { writable: true, get: f28, set: f29 });
+    return o27;
+}
+const v53 = f20(257, 1535195999, 1535195999, "9007199254740991");
+for (const v54 of "m") {
+    let v55;
+    try { v55 = v54(1535195999); } catch (e) {}
+    ("-26733")[v55];
+}
+const v57 = v53[1];
+%PrepareFunctionForOptimization(f20);
+f20();
+f20(1073741825, v57, 1535195999);
+%OptimizeFunctionOnNextCall(f20);
+f20(1073741825, v57, 1535195999);

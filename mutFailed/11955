@@ -1,0 +1,11 @@
+new Uint32Array(1036);
+new Uint32Array(7);
+new Object(128);
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const o20 = {
+    "f": "async",
+};
+const v21 = gc(o20);
+v21.then(v21, F12);

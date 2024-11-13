@@ -1,0 +1,41 @@
+const v10 = ["resizable","resizable","object"];
+Reflect.apply(("10").localeCompare, "object", v10);
+try { ("resizable").fontsize(-4294967295); } catch (e) {}
+function f14() {
+    return "resizable";
+}
+const v15 = ["object","object","10"];
+const v16 = [v15,"resizable"];
+const v17 = [1073741825];
+v17[0] = v17;
+function f18() {
+    return 1073741825;
+}
+f18.name;
+function f21(a22, a23, a24, a25) {
+    try { a22.includes(a24); } catch (e) {}
+    a23 - a23;
+    a25.caller = a25;
+    const o45 = {
+        "c": v16,
+        get e() {
+            try { new a25(); } catch (e) {}
+            new Uint8Array(1648);
+            new Float64Array(148);
+            new Uint32Array(172);
+            const o43 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o43);
+            return -4294967295;
+        },
+    };
+    return o45;
+}
+try { f21("resizable", f18, -4294967295, "resizable"); } catch (e) {}
+f21(v15, -4294967295, v17, f18);
+f21(v16, 4294967297, v15, f21);
+f21(v15, 1073741825, v15, 4294967297);
+try { ("object").charAt("resizable"); } catch (e) {}
+%PrepareFunctionForOptimization("object");

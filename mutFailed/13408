@@ -1,0 +1,111 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    static {
+        %VerifyType(this);
+    }
+    constructor(a5, a6) {
+        super(a5);
+        new Map();
+    }
+    2 = v1;
+    b;
+}
+const v9 = new C2(v1, C2);
+const v10 = new C2(v1, v9);
+const v11 = new C2(WeakMap, v1);
+class C12 extends WeakMap {
+    [v10] = v11;
+    static o(a14, a15, a16, a17) {
+        super.delete(v9);
+        const v20 = Symbol.iterator;
+        try { a15(Symbol, this, v20); } catch (e) {}
+        new Uint16Array(1313);
+        new Int16Array(4);
+        new Uint8Array(9);
+        const o39 = {
+            [v20]() {
+                let v32 = 10;
+                const o38 = {
+                    next() {
+                        v32--;
+                        const v36 = v32 == 0;
+                        const o37 = {
+                            "done": v36,
+                            "value": v32,
+                        };
+                        return o37;
+                    },
+                };
+                return o38;
+            },
+        };
+        return this;
+    }
+}
+new C12();
+new C12();
+new C12();
+const v43 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v44 = [601759695];
+const v45 = [1073741824,1073741823,1376142744,1073741825];
+function f47(a48, a49, a50, a51) {
+    function f52() {
+        const o63 = {
+            "e": -4294967295,
+            ..."Vre",
+            valueOf(a57, a58) {
+                /Bb?/gudmsy;
+                const v60 = /u\x0f*/gvdim;
+                /HfTD*/udiy;
+                a58 = v60;
+                try { a50(v43); } catch (e) {}
+            },
+            ..."Vre",
+            "c": a51,
+            5: -4294967295,
+            6: -268435456,
+        };
+    }
+    f52();
+    %OptimizeFunctionOnNextCall(f52);
+    +522675525n;
+    try {
+        ("find").codePointAt(10000);
+    } catch(e69) {
+    }
+    let v70;
+    try { v70 = v45["find"](..."find", a51, ...v44, ...v45, ...522675525n); } catch (e) {}
+    v70 <= a50;
+}
+f47(v44, v43, 522675525n, v43);
+const v77 = new BigInt64Array(3216);
+const v81 = new BigUint64Array(4096);
+function f83() {
+    const o85 = {
+    };
+    return o85;
+}
+for (let v86 = 0; v86 < 51; v86++) {
+    f47(v44, v86, false, v86);
+}
+f47(v81, 3331, v77, 3216);
+%PrepareFunctionForOptimization(f47);
+%OptimizeFunctionOnNextCall(f47);
+f47(v81, 3331, v77, 3216);
+function f96() {
+    return 36924;
+}
+function f97(a98, a99, a100, a101) {
+    const o111 = {
+        __proto__: a100,
+        ...a100,
+        [a100](a103, a104, a105) {
+            function f107() {
+                return f107;
+            }
+            return "function";
+        },
+    };
+    return o111;
+}
+f97(-65536, 36924, f96);

@@ -1,0 +1,83 @@
+function f3(a4) {
+    const o16 = {
+        6: "f",
+        "c": a4,
+        valueOf(a6) {
+            const v9 = Reflect.construct("jTur", [], a4);
+            try { v9.for(v9, this, a4); } catch (e) {}
+            const o14 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o14);
+            return "valueOf";
+        },
+    };
+    return o16;
+}
+let v17 = f3("f");
+const v18 = f3("jTur");
+function f19() {
+    ({"c":v17,...f3} = v17);
+    return this;
+}
+v18[Symbol.toPrimitive] = f19;
+f3("valueOf");
+const v27 = [-1.0304769881088913e+308,2.220446049250313e-16,0.5849315465956032,-715.790609550379];
+[-5.401442133182941,-1000000000000.0,0.7447141225394961,-443.4320186958121];
+const v29 = [8.630929264184122];
+const v30 = [0.6234127915691862,-652.676605851879,1.0,-1.77089630560682e+308,-1.0259141032378718e+308];
+[-1.2400079984865228e+308,-2.0,2.0,Infinity];
+[-3.0];
+new BigUint64Array(3768);
+const v38 = new BigInt64Array(4046);
+const v41 = new Int8Array(3768);
+function f42(a43, a44) {
+    a43++;
+    let o54 = {
+        get d() {
+            this[115] /= 4046;
+            let v48 = -908890636;
+            return Math.log(this & --v48);
+        },
+        ...a44,
+        ...v30,
+        ...v41,
+        "e": v29,
+        "d": v27,
+        "d": a43,
+        ...a43,
+        "g": 3768,
+        [v18]: a44,
+        "h": f42,
+        "b": -782925714n,
+        __proto__: v18,
+        get e() {
+            this.d;
+            return a44;
+        },
+        /*
+        __proto__: v41,
+        */
+        ...a44,
+        ...BigUint64Array,
+        536870888: BigInt64Array,
+    };
+    [,...o54] = v38;
+    a44?.[4046];
+    const o58 = {
+        "maxByteLength": 3035,
+    };
+    const v60 = new ArrayBuffer(512, o58);
+    new Float32Array(v60);
+    return a43;
+}
+f42(115, 3768);
+f42(4046, 3768);
+const v65 = f42(4046, 4046);
+v65 + v65;
+const v68 = (115)?.UTC;
+try { new v68(v68, 4046, 4046, Date, BigUint64Array, BigUint64Array, Date); } catch (e) {}
+Uint8ClampedArray.length = Uint8ClampedArray;
+const v71 = new Uint8ClampedArray(Date);
+v71[2];

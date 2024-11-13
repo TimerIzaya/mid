@@ -1,0 +1,52 @@
+let v0 = WeakSet;
+const v1 = new v0();
+function f2() {
+    return v0;
+}
+class C3 {
+    h = v0;
+    constructor(a5) {
+        v1[5] = a5;
+        const v6 = super.h;
+        let v7;
+        try { v7 = v6.setUTCMilliseconds(); } catch (e) {}
+        a5 instanceof super.b;
+        Object.defineProperty(v7, 2, { enumerable: true, get: f2 });
+        C3[v7] = v6;
+        v0 &&= C3;
+        try {
+            const o10 = {
+            };
+            const v11 = v1[5];
+            C3.__proto__;
+            o10 in v11;
+            try {
+                f2();
+            } catch(e15) {
+            }
+            new v0(o10);
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C3(v1);
+const v19 = new C3(v0);
+new C3(v19);
+function f24() {
+    return -10;
+}
+const o28 = {
+    "maxByteLength": 256,
+};
+const v30 = new ArrayBuffer(256, o28);
+new Float64Array(v30);
+[v18,v1,[v18]];
+[f24];
+const v37 = new WeakSet();
+[v37];
+class C39 extends WeakSet {
+}
+new C39();
+const o42 = {
+};
+gc(o42);

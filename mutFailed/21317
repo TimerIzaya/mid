@@ -1,0 +1,13 @@
+const v2 = new Int32Array(1873);
+new v2(6);
+new Float64Array(1);
+const v11 = new Uint8Array(21);
+new Uint8ClampedArray(1873);
+new Float64Array(1873);
+const v20 = new Uint8Array();
+v20[Symbol.isConcatSpreadable] = Uint8ClampedArray;
+v20[Symbol.isConcatSpreadable] = BigInt64Array;
+const t9 = 6;
+const v26 = t9();
+Object.defineProperty(v26, Symbol.isConcatSpreadable, { writable: true, configurable: true, enumerable: true, value: Uint8Array });
+Array()["concat"](v26, v11);

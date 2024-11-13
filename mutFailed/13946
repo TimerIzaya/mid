@@ -1,0 +1,49 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        "c": f0,
+        ...f0,
+        __proto__: f0,
+        get g() {
+            super[this];
+            function* f4(a5) {
+                let v6;
+                try { v6 = this.tanh(a5, a5, f0, a5, this); } catch (e) {}
+                yield* [v6,v6];
+                return this;
+            }
+            f4(this);
+            return this;
+        },
+    };
+    return o12;
+}
+const v13 = f1();
+const v14 = f1();
+const v15 = v14();
+const v16 = /a(?!bbb|bb)c[(\2)(\1)]/gvdiy;
+const v17 = /9V\p{General_Category=Decimal_Number}xyz{1,}?/gvdmsy;
+const v18 = /Oa[^a]*/guisy;
+function F19(a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v16;
+    } catch(e24) {
+    }
+}
+new F19(v14, v17, v13);
+new F19(v15, v16, v14);
+new F19(v14, v18, f0);
+function f33(a34) {
+    const o35 = {
+        ...a34,
+        9: 255,
+        5: 65536,
+        536870889: a34,
+        6: a34,
+        [a34]: a34,
+    };
+    return o35;
+}
+f33(f33(255));

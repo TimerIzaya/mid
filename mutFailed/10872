@@ -1,0 +1,89 @@
+function f1() {
+    return -128;
+}
+WeakSet[Symbol.toPrimitive] = f1;
+const v7 = new WeakSet();
+v7[Symbol.toPrimitive] = f1;
+const v11 = new Set();
+class C15 {
+    static [-6] = v7;
+    [8] = WeakSet;
+    static c;
+    1238 = 14;
+    static f = -6;
+    static b;
+    [v7] = v7;
+    static a;
+    static #b;
+    #c;
+    get d() {
+        try {
+            const v18 = [this,-6,8,v11,true];
+            v18.fuck(true, v18, true);
+        } catch(e20) {
+        }
+        %VerifyType(this);
+        return this;
+    }
+}
+const v21 = new C15();
+const v22 = new C15();
+const v23 = new WeakSet();
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "a", { writable: true, configurable: true, value: a26 });
+    try {
+        v23.d = C15;
+    } catch(e30) {
+    }
+    try {
+        this.a = a28;
+    } catch(e31) {
+    }
+    try {
+        this.g = Set;
+    } catch(e32) {
+    }
+}
+const v33 = new F24(v23, v21, F24, 14);
+const v34 = new F24(v22, v21, v33, -6);
+new F24(v23, v22, F24, 8);
+function f36() {
+    const v38 = new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+    delete v38[10];
+    const v40 = v38 * v38;
+    v38[512] ^= 8;
+    const v43 = !22607;
+    const v44 = v40 || 22607;
+    v44 % v43;
+    const v46 = v44 && v40;
+    Math.asinh(v46);
+    v43 ** v46;
+    return f36;
+}
+f36.toString = Symbol;
+%OptimizeFunctionOnNextCall(f36);
+f36();
+if (v22) {
+    v34[11];
+    f36 >> WeakSet;
+} else {
+    const v53 = Symbol.iterator;
+    const o62 = {
+        [v53]() {
+            let v55 = 10;
+            const o61 = {
+                next() {
+                    v55--;
+                    const v59 = v55 == 0;
+                    const o60 = {
+                        "done": v59,
+                        "value": v55,
+                    };
+                    return o60;
+                },
+            };
+            return o61;
+        },
+    };
+}

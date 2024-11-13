@@ -1,0 +1,32 @@
+class C3 {
+    constructor(a5) {
+        function F6(a8, a9) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a9;
+            } catch(e10) {
+            }
+        }
+        new F6(1000000.0, 1000000.0);
+        new F6(0.4875975623756904, a5);
+        new F6(a5, 1000000.0);
+    }
+}
+const v14 = new C3(1000000.0);
+new C3(1.4541615252672482e+308);
+const v16 = new C3(1000000.0);
+const v21 = Error.log(5.0);
+0.4875975623756904 / 0.4875975623756904;
+const v23 = Error.tanh(44666, v21, v21);
+new Uint32Array(129);
+const o26 = {
+};
+new Proxy(v14, o26);
+try { v16["isArray"]("isArray", v23); } catch (e) {}
+new FinalizationRegistry(1024);
+new Float32Array(0);
+function f37(a38, a39) {
+    a39();
+    return f37;
+}
+new Promise(f37);

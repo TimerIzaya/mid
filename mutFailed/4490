@@ -1,0 +1,26 @@
+let v0 = 255;
+let v2 = 4096;
+const v4 = (v2 = (v0 ^= v2))[16n];
+v2 in v4;
+%VerifyType(v4);
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a10;
+    } catch(e12) {
+    }
+}
+const v13 = new F8(v0, v2);
+new F8(1073741824, v2);
+new F8(1073741824, v2, v0);
+const v17 = new Uint8ClampedArray(v0, 16n);
+class C18 {
+    constructor(a20, a21, a22, a23) {
+        const v24 = this.constructor;
+        try { new v24(a22, a23, a20, v24); } catch (e) {}
+        for (let v26 = 0; v26 < 5; v26++) {
+            v17[v26] = a23;
+        }
+    }
+}
+new C18(Uint8ClampedArray, Uint8ClampedArray, Uint8ClampedArray, C18, v13, v2, v2);

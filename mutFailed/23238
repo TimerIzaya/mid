@@ -1,0 +1,57 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 4294967296;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0(v5, v5);
+class C7 {
+    [C7] = v5;
+    static m(a9, a10) {
+        new Float32Array(2);
+        new Uint8ClampedArray(257);
+        const v19 = new C7(370);
+        return v19;
+    }
+    [v4] = v4;
+}
+let v20;
+try { v20 = new C7(); } catch (e) {}
+const v21 = new C7();
+new C7();
+const v23 = v6?.constructor;
+try { new v23(); } catch (e) {}
+new v21();
+-11214 < -11214;
+/(?<a>(?<b>(?<c>(?<d>.).).).)+/giy;
+/a[a]/vdms;
+const v32 = /[^QkpFaxyz??]/dim;
+v32.b = v32;
+for (let v33 = 0; v33 < 5; v33++) {
+    function f34() {
+        function f36(a37, a38, a39, a40) {
+            a37 > a37;
+            try { a39(eval); } catch (e) {}
+            const o47 = {
+                n(a44, a45) {
+                    try { a45.n(v6, v33); } catch (e) {}
+                    return v33;
+                },
+            };
+            try { o47.n(f36, eval); } catch (e) {}
+            const v49 = o47.n(a40, o47, o47, a37, v33);
+            v49 | v49;
+            return v33;
+        }
+        for (let v51 = 0; v51 < 25; v51++) {
+            f36(v51, f34, eval, v20);
+        }
+        eval();
+        return f34;
+    }
+    f34();
+    %OptimizeFunctionOnNextCall(f34);
+}

@@ -1,0 +1,24 @@
+new Float32Array(257);
+new BigInt64Array(1683);
+new Uint8ClampedArray(257);
+9223372036854775807 ^ 9223372036854775807;
+class C19 {
+}
+const v20 = new C19();
+const v21 = v20.constructor;
+const v22 = [-13939,-12,1904189168];
+const o23 = {
+};
+function f24(a25, a26) {
+    v22[11] = o23;
+    return o23;
+}
+%PrepareFunctionForOptimization(f24);
+v21(o23, v22);
+%OptimizeFunctionOnNextCall(f24);
+f24();
+const v29 = new v21();
+v29.constructor;
+const v31 = new v29();
+const t22 = v31.constructor;
+new t22();

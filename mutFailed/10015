@@ -1,0 +1,79 @@
+class C3 {
+    e;
+    o(a5) {
+        for (let v7 = 0; v7 < 32; v7++) {
+            JSON["p" + v7] = v7;
+        }
+        return a5;
+    }
+    h;
+    c;
+    3373;
+    static #a = 268435456;
+}
+C3.d = C3;
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+const v13 = [-3,C3,v12,v11];
+try { v13.values(); } catch (e) {}
+const v15 = [v13,C3,65537];
+const v16 = [v12,v10,-3];
+function f17(a18, a19) {
+    const o20 = {
+        "c": a18,
+        [a18]: v16,
+        "f": v13,
+        "b": a19,
+        "e": a18,
+        [v16]: a18,
+        [-3]: -3,
+        9: v10,
+        "a": v16,
+        __proto__: a19,
+        "d": f17,
+        ...v11,
+        "h": v16,
+        "g": a18,
+    };
+    o20.h = o20;
+    return o20;
+}
+f17(C3, v13);
+f17(v13, v15);
+f17(v12, v15)[3373];
+for (let v27 = 0; v27 < 10; v27++) {
+    const v28 = (759956410).__defineGetter__;
+    v28.name = v28;
+}
+const v29 = new BigUint64Array();
+try { v29.reduceRight(759956410); } catch (e) {}
+function f31() {
+    const o33 = {
+        get a() {
+            return f31;
+        },
+    };
+    return o33;
+}
+const v34 = f31();
+try { v34.a(); } catch (e) {}
+Object.defineProperty(v34, "toJSON", { writable: true, configurable: true, value: v29 });
+const v36 = f31();
+function F37(a39, a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a40;
+}
+const v43 = new F37(v36, v34);
+v43.a = v43;
+function f44(a45, a46, a47) {
+    return v29;
+}
+try { f44.valueOf(); } catch (e) {}
+Worker.g = Worker;
+const v51 = [v43];
+const o52 = {
+    "arguments": v51,
+    "type": "function",
+};
+new Worker(f44, o52);

@@ -1,0 +1,95 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -256;
+        gc();
+        const o7 = {
+            "maxByteLength": 1293466293,
+        };
+        new SharedArrayBuffer(1796, o7);
+    } catch(e10) {
+    }
+}
+function f11() {
+    const v12 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+    for (let v13 = 0; v13 < 5; v13++) {
+        function f14() {
+            try {
+                v12.forEach();
+            } catch(e16) {
+            }
+            return f14;
+        }
+        f14.f = f14;
+        v13();
+        %OptimizeFunctionOnNextCall(f14);
+    }
+    return v12;
+}
+function f18(a19, a20) {
+    %PrepareFunctionForOptimization(f11);
+    f11();
+    %OptimizeFunctionOnNextCall(f11);
+}
+const v22 = new f18();
+new F0();
+const v24 = new F0();
+const v27 = (a28, a29, a30) => {
+    let v32;
+    try { v32 = a28["toUpperCase"](); } catch (e) {}
+    "-268435456" ^ v32;
+    return a28;
+};
+function F34(a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a36;
+    } catch(e37) {
+    }
+    try {
+        this.d = a36;
+    } catch(e38) {
+    }
+    try {
+        let v39 = 0;
+        while (v39 < 3, v39) {
+            class C43 extends Uint16Array {
+            }
+            class C44 {
+            }
+            v39++;
+        }
+        this.b = v24;
+    } catch(e49) {
+    }
+}
+new F34(v22);
+new F34(v24);
+const v52 = new F34(v22);
+const v57 = [0.0,-2.220446049250313e-16];
+let v58;
+try { v58 = v52(); } catch (e) {}
+function f59() {
+    return v58;
+}
+class C60 extends f59 {
+}
+class C61 {
+    constructor(a63, a64) {
+        /W(jy2)/udy.flags;
+        let v69 = v57[v58];
+        v69 **= Uint8Array;
+        function f70(a71, a72, a73, a74) {
+            return a72;
+        }
+        for (let v75 = 0; v75 < 625; v75++) {
+            f70(Uint8Array, 2, v75);
+            try {
+                a63 &= C60;
+            } catch(e77) {
+            }
+        }
+    }
+}
+new C61();
+new C61();

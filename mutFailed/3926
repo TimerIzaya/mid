@@ -1,0 +1,46 @@
+[2147483649,1024,-17930,9223372036854775807,0,-1024,-2,-268435456,-5,9007199254740992];
+[9007199254740992,64,43146,1275530681,522822340,2062485469,-877630688,14,10];
+const v3 = [-1423227720,-1024,-1866345235,65536,-10773,35953,1793051279,-5,12305];
+const v6 = new Int32Array(10000);
+new WeakRef(105, undefined);
+new Int16Array(15);
+class C13 {
+    5 = 10000;
+    static 4 = v6;
+    static {
+        undefined.iterator;
+        const o25 = {
+            [this]() {
+                let v18 = 10;
+                const o24 = {
+                    next() {
+                        v18--;
+                        const v22 = v18 == 1192872990;
+                        const o23 = {
+                            "done": v22,
+                            "value": v18,
+                        };
+                        return o23;
+                    },
+                };
+                return o24;
+            },
+        };
+    }
+}
+new C13();
+new C13(C13);
+new C13();
+function f29(a30, a31) {
+    const o32 = {
+        ...a31,
+    };
+    o32.g = v3;
+    return f29;
+}
+f29.d = f29;
+%PrepareFunctionForOptimization(f29);
+f29();
+f29(f29);
+%OptimizeFunctionOnNextCall(f29);
+f29();

@@ -1,0 +1,42 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = super.h;
+        try {
+            v7.d = -4294967297;
+        } catch(e8) {
+        }
+        let {"b":v9,"d":v10,} = this;
+    }
+    #a = -8948;
+    set f(a12) {
+        const v14 = [a12,-8948,this,-8948,this];
+        Reflect.construct(a12, v14, a12);
+        %VerifyType(v14);
+        v14[-8948];
+    }
+}
+const v20 = new C3(-4294967297, -4294967297);
+const v21 = new C3(C3, -4294967297);
+new C3(C3, -4294967297);
+function F26(a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v21;
+    } catch(e30) {
+    }
+    try {
+        this.a = "symbol";
+    } catch(e31) {
+    }
+}
+new F26("bigint", "bigint");
+new F26(C3, "symbol");
+const v34 = new F26("bigint", "symbol");
+function f35() {
+    return v34;
+}
+class C36 {
+}
+new v20();
+for (const v38 in f35) {
+}

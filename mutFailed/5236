@@ -1,0 +1,43 @@
+function f6(a7, a8, a9) {
+    const o14 = {
+        [a9]: -2147483649,
+        "e": a9,
+        "a": -2147483649,
+        __proto__: "o",
+        10: a9,
+        [5]: a9,
+        set h(a11) {
+            let v12 = "valueOf";
+            try { this[v12](); } catch (e) {}
+            v12 = "boolean";
+            a7 = a11;
+            [] = v12;
+        },
+    };
+    return o14;
+}
+f6("2", "o", "o");
+f6("o", "boolean", "2");
+f6("2", "o", "boolean");
+function F24(a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f6;
+    const v27 = a26 ^ a26;
+    function f29() {
+        a26 / 0.2045429921320039;
+        const v33 = new Int32Array();
+        function f34() {
+            return Int32Array;
+        }
+        Object.defineProperty(v33, Uint8ClampedArray, { get: f34, set: f34 });
+        return v33;
+    }
+    Math.toString = f29;
+    Math.cosh(Math);
+    v27 * v27;
+    const v37 = this.constructor;
+    v37.length = v37;
+    try { new v37(3n); } catch (e) {}
+}
+new F24(0n);
+new F24(349865170n);

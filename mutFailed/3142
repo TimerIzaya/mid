@@ -1,0 +1,24 @@
+new Float32Array(-1073741824);
+new BigUint64Array(108);
+new Int16Array(10);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a11;
+    } catch(e15) {
+    }
+}
+const v16 = new F9(-1073741824, 108, -1073741824, Int16Array);
+const v17 = new F9(108, -1073741824, 108, v16);
+new F9(-1073741824, 108, -1073741824, Int16Array);
+const o21 = {
+};
+const v23 = new Uint8Array(BigUint64Array, o21);
+try { v23(v17, 10, -1073741824); } catch (e) {}
+for (let v26 = 0; v26 < 25; v26++) {
+}
+try {
+    Int8Array();
+} catch(e29) {
+    e29.name;
+}

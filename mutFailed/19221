@@ -1,0 +1,61 @@
+function f3(a4, a5) {
+    a4 / a4;
+    a5 << a5;
+    const o10 = {
+        [4]: a5,
+        ...a4,
+        "c": a4,
+        2147483647: a4,
+        get f() {
+            function f9() {
+                return f9;
+            }
+            return f9;
+        },
+        "d": a5,
+        "h": 65506,
+        __proto__: a5,
+    };
+    return o10;
+}
+f3(9007199254740991, 65506);
+const v12 = f3(9007199254740991, 9007199254740991);
+try { v12.toString(); } catch (e) {}
+const v14 = f3(9007199254740991, 65506);
+try { v14.f(); } catch (e) {}
+-9007199254740992n % -9007199254740992n;
+function f20() {
+    return -47221n;
+}
+f20.name;
+class C22 {
+    constructor(a24, a25) {
+        a24.h = a24;
+        let v27;
+        try { v27 = v14["add"](-9007199254740992n); } catch (e) {}
+        const o28 = {
+            "apply": f20,
+            "call": f20,
+            "construct": f3,
+            "defineProperty": f3,
+            "deleteProperty": f20,
+            "getOwnPropertyDescriptor": f20,
+            "getPrototypeOf": v27,
+            "has": f20,
+            "isExtensible": f20,
+            "preventExtensions": f20,
+            "set": v14,
+            "setPrototypeOf": f3,
+        };
+        try { o28.getPrototypeOf(); } catch (e) {}
+        const v31 = new Proxy(a24, o28);
+        v31.d = v31;
+    }
+}
+new C22(v12, 65506);
+const v33 = new C22(v14, 9007199254740991);
+const v34 = new C22(v33, 65506);
+const v35 = v34?.constructor;
+try { new v35(v33, -9007199254740992n); } catch (e) {}
+const v39 = new Uint8ClampedArray(64);
+v39.includes(64);

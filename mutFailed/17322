@@ -1,0 +1,25 @@
+function f0() {
+}
+new BigUint64Array(2);
+new Uint16Array(10);
+const o10 = {
+    "apply": f0,
+    "call": f0,
+    "defineProperty": f0,
+    "deleteProperty": f0,
+    "get": f0,
+    "getOwnPropertyDescriptor": f0,
+    "getPrototypeOf": f0,
+    "isExtensible": f0,
+    "ownKeys": f0,
+    "set": f0,
+};
+new Proxy("1073741825", o10);
+new Float64Array(887);
+const o17 = {
+    ..."boolean",
+};
+function f18(a19, a20) {
+    return a19;
+}
+Object.defineProperty(o17, 1, { configurable: true, get: f18 });

@@ -1,0 +1,54 @@
+class C3 {
+    constructor(a5, a6) {
+        const o10 = {
+            valueOf() {
+                Object.defineProperty(this, "b", { configurable: true, enumerable: true, get: gc, set: gc });
+                delete a6?.d;
+                return "string";
+            },
+        };
+        const o13 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o13);
+    }
+    static get f() {
+        const o19 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o19);
+        return 3;
+    }
+}
+const v21 = new C3(C3, 2.2250738585072014e-308, "string", 2.2250738585072014e-308, 2.2250738585072014e-308);
+const v22 = new C3(v21, "string");
+new C3(3, 3);
+try {
+    new C3(2.2250738585072014e-308, 2.2250738585072014e-308);
+} catch(e25) {
+}
+v22[2] = v22;
+const v36 = new Float64Array();
+for (let v37 = 0; v37 < 25; v37++) {
+    let [v39,v40,v41,v42] = "undefined";
+    const o49 = {
+        "maxByteLength": 257,
+        [v40]: v36,
+        get d() {
+            return this;
+        },
+        ..."normalize",
+        [v22](a47, a48) {
+        },
+        "f": Int8Array,
+        "g": v39,
+        __proto__: v39,
+        "d": 2.2250738585072014e-308,
+    };
+    const v51 = new ArrayBuffer(257, o49);
+    new Int8Array(v51);
+    Int8Array.cosh(v37);
+}
+v36[Symbol.matchAll];

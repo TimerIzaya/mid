@@ -1,0 +1,19 @@
+[];
+new Int8Array(7);
+new Int16Array(132);
+new BigInt64Array(8);
+function f16(a17, a18) {
+    const o19 = {
+        ...a17,
+    };
+    o19.g = o19;
+    return f16;
+}
+f16.d = f16;
+%PrepareFunctionForOptimization(f16);
+f16();
+const t13 = 8;
+t13(f16);
+%OptimizeFunctionOnNextCall(f16);
+const t17 = 132;
+t17();

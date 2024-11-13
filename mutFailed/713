@@ -1,0 +1,51 @@
+const t0 = 1000.0;
+t0[2147483648] /= Infinity;
+const o5 = {
+};
+try {
+    o5.b = Int32Array;
+} catch(e6) {
+}
+try {
+    const o7 = {
+    };
+    o7.b = Int32Array;
+    o7.d = -1000000.0;
+} catch(e8) {
+}
+try {
+    const o9 = {
+    };
+    o9.b = Int32Array;
+    o9.d = -1000000.0;
+    o9.g = 2;
+} catch(e10) {
+}
+try {
+    const o11 = {
+    };
+    o11.b = Int32Array;
+    o11.d = -1000000.0;
+    o11.h = Infinity;
+} catch(e12) {
+}
+new Int32Array(2);
+new Float64Array(182);
+const v19 = new Uint32Array(1024);
+[1e-15];
+[-74.58991100443836,1.0565893036910465e+308];
+const v22 = [-2.220446049250313e-16];
+class C23 extends Int32Array {
+    2347915550;
+    static 1;
+    static [Float64Array];
+}
+new C23();
+new C23();
+new C23();
+try {
+    v22.__proto__ = v19;
+} catch(e29) {
+}
+const t49 = Array(11);
+t49.length |= 113;

@@ -1,0 +1,60 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = f0;
+    } catch(e3) {
+    }
+    try {
+        this.d = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = new F1();
+const v7 = new F1();
+2 % 2;
+try { new Uint16Array(v7, F1, Uint16Array); } catch (e) {}
+new Uint16Array(2);
+2.220446049250313e-16 | 2.220446049250313e-16;
+v5.d = v5 != 2.220446049250313e-16;
+const v18 = "a" == "a";
+v18 && v18;
+const t22 = "MIN_SAFE_INTEGER";
+t22[15] = "MIN_SAFE_INTEGER";
+-256n / -256n;
+class C25 {
+    constructor(a27, a28, a29) {
+        a28[9] = a28;
+        try { a29.f(); } catch (e) {}
+        try {
+            a27.a = v5;
+        } catch(e31) {
+            e31.stack;
+            e31.message = e31;
+        }
+        try {
+            v7.d = v6;
+        } catch(e33) {
+        }
+    }
+    [40194n] = F1;
+    static e = "MIN_SAFE_INTEGER";
+    #e = f0;
+    #f;
+}
+new C25(40194n, "MIN_SAFE_INTEGER", v7);
+const v35 = new C25(8n, "a", v5);
+v35[40194] = v35;
+v35[40194] = v35;
+const v36 = new C25(40194n, "undefined", v7);
+v36[40194].prototype;
+const v40 = [-1024,536870889,65536,65536];
+v40.f = v40;
+[295968041,v40];
+class C42 {
+}
+const v43 = [2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614];
+parseInt.h = parseInt;
+parseInt(v43);

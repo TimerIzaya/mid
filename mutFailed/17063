@@ -1,0 +1,75 @@
+function f0() {
+    const o17 = {
+        [1.6224176578527423e+308]: 1.6224176578527423e+308,
+        1073741825: 536870888,
+        __proto__: "function",
+        "e": 1.6224176578527423e+308,
+        ["function"]: 536870888,
+        "f": 536870888,
+        set g(a5) {
+            const v7 = Symbol.iterator;
+            const o16 = {
+                [v7]() {
+                    let v9 = 10;
+                    const o15 = {
+                        next() {
+                            v9--;
+                            const v13 = v9 == 0;
+                            const o14 = {
+                                "done": v13,
+                                "value": v9,
+                            };
+                            return o14;
+                        },
+                    };
+                    return o15;
+                },
+                2725959769: 536870888,
+                __proto__: Symbol,
+                [f0]: this,
+                "d": 536870888,
+                ...this,
+            };
+        },
+    };
+    return o17;
+}
+let v18 = f0();
+f0();
+const v20 = f0();
+try {
+    f0();
+} catch(e28) {
+}
+class C32 {
+    constructor(a34, a35) {
+        v18 **= this;
+        Object.defineProperty(a35, -2, { writable: true, enumerable: true, get: f0 });
+        [-154937.43118262617,1.7976931348623157e+308,-1.7976931348623157e+308,0.6517558661212788,-1000000000000.0,1000.0];
+        [-1000.0,-0.7108466592522475,-9.332165125578978,-1000000000000.0,-3.0,-8.089155838123245,-801038.2082739422,1.1750924317841979e+308,-2.220446049250313e-16];
+        [-Infinity,-3.0,-17.339292605804303,-1.3076135991387687];
+    }
+    valueOf(a41, a42) {
+        const v44 = Symbol.toPrimitive;
+        const o47 = {
+            [v44]() {
+                Symbol.toStringTag &&= 0.671366453455724;
+                try {
+                    this.valueOf = Symbol;
+                } catch(e46) {
+                }
+                return a41;
+            },
+        };
+        return 0.671366453455724;
+    }
+}
+const v48 = new C32(-33751n, v18);
+v48.__proto__;
+[179151475n,f0,-2.0,Set,v20];
+[5,-529043790];
+[v48,v20];
+new C32(179151475n, C32);
+new C32(2n, v48);
+const v57 = new Int32Array(Int32Array, Int32Array, Int32Array);
+Math.expm1(~v57);

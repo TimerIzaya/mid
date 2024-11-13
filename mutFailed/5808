@@ -1,0 +1,47 @@
+const v0 = [];
+class C1 {
+    static #a;
+    static set h(a3) {
+        let v4 = 0;
+        do {
+            try {
+                this.#a = this;
+            } catch(e5) {
+            }
+            v4++;
+        } while (v4 < 2, 2)
+    }
+}
+const v9 = new C1();
+const v10 = new C1();
+const v11 = new C1();
+function f12() {
+    return v10;
+}
+const v13 = [C1,v9,v11];
+const v14 = [v13,v9,C1];
+[f12,v14,v14,C1,v13];
+class C19 extends f12 {
+    static #p(a21, a22, a23) {
+        try {
+            f12();
+        } catch(e25) {
+        }
+        return a23;
+    }
+    #o(a27, a28, a29, a30) {
+        try {
+            v0.f = this;
+        } catch(e34) {
+        }
+        return a27;
+    }
+}
+new C19();
+new C19();
+new C19();
+class C38 {
+}
+const v39 = new C38();
+ReferenceError(v39);
+ReferenceError();

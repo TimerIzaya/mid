@@ -1,0 +1,56 @@
+function f0() {
+}
+const v2 = new WeakSet();
+v2[Symbol.toPrimitive] = f0;
+const v5 = [-27167,10000,-65536,1073741824,1];
+function f6(a7) {
+    const v8 = Symbol(a7);
+    a7 !== v2 ? a7 : v2;
+    return v8;
+}
+v5.toString = f6;
+[536870889];
+const v12 = [-1908519995,4096,-1830319048,65537,63047,8,255,1442640772];
+try {
+    v12.toString = f0;
+} catch(e13) {
+}
+v2 / v5;
+try {
+    v5.toString = f0;
+} catch(e16) {
+}
+try { v2.has(v12); } catch (e) {}
+new Float64Array(1000);
+new Float64Array(8);
+new BigInt64Array(127);
+function f26() {
+    return f26;
+}
+class C33 {
+    static #valueOf(a35, a36, a37) {
+        const v38 = this.f;
+        for (const v39 in this) {
+            delete v38?.h;
+            new Uint8ClampedArray(1024);
+            new Uint8Array(2527);
+            new Int32Array(16);
+        }
+        try {
+            f26();
+        } catch(e51) {
+        }
+        return a37;
+    }
+    get f() {
+        try {
+            f26();
+        } catch(e54) {
+        }
+    }
+}
+const v55 = new C33();
+v55.o = v55;
+%PrepareFunctionForOptimization(f26);
+%OptimizeMaglevOnNextCall(f26);
+try { v55.o(v55, 5, 9007199254740991); } catch (e) {}

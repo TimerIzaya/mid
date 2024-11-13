@@ -1,0 +1,79 @@
+let v0 = [5.0,-1.4388705511117312e+308,5.692403862554878,1e-15,4.911468317543747,0.1656282239460658,0.05621754638961729,1000000000000.0,-1000000000.0];
+const v1 = [-0.0,1.2182486829517826e+308,1.0956920444320224e+308,-8.219733660553528,2.2250738585072014e-308,-1000.0,-1000.0];
+let v2 = [2.0,1000.0];
+function f3() {
+    [v2,v0,...v2] = v1;
+    function f4(a5) {
+        return v1;
+    }
+    return v0;
+}
+v2[Symbol.toPrimitive] = f3;
+class C8 {
+    f = v1;
+    static {
+        this.fuck = C8;
+        %VerifyType(v0);
+        try {
+            const v10 = [v2,v1,this,v0];
+            this.fuck(v10, v10, this);
+        } catch(e12) {
+        }
+    }
+    [v2];
+    e = v0;
+    static [v1];
+    6 = v0;
+}
+const v13 = new C8();
+const v14 = new C8();
+const v15 = new C8();
+function f16() {
+    return Symbol;
+}
+function f17(a18) {
+    v1[f3] = v1;
+}
+Object.defineProperty(v15, Symbol.toPrimitive, { writable: true, get: f16, set: f17 });
+function f21(a22, a23, a24, a25) {
+    const o33 = {
+        [v15]: v14,
+        toString(a27, a28, a29, a30) {
+            a27 ** a30?.[6];
+            return v2;
+        },
+        "f": v14,
+        [-1]: C8,
+        "e": a25,
+        "d": a22,
+        ...a25,
+        "a": a22,
+        __proto__: a25,
+    };
+    return o33;
+}
+f21(v13, v1, v14, v2);
+f21(v15, v1, v14, v0);
+f21(v14, v0, v14, v1);
+function F41() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v43 = new F41();
+const v44 = [F41,F41,F41];
+function f45(a46) {
+    try {
+        v44.some();
+    } catch(e48) {
+        e48.stack;
+    }
+    return a46;
+}
+v44.toString = f45;
+const o51 = {
+    __proto__: v44,
+    "e": v43,
+    get a() {
+        return this;
+    },
+};
+o51.toString(F41, o51);

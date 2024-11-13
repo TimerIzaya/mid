@@ -1,0 +1,35 @@
+function f0() {
+}
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = F7;
+    try {
+        this.b = a9;
+    } catch(e11) {
+    }
+}
+new F7(48672, 4.0);
+new F7(256, -2.0);
+new F7(-2.0, 1000000000.0);
+class C15 {
+}
+const v16 = new C15();
+function f17(a18, a19, a20, a21) {
+    function f22(a23, a24) {
+        return f22;
+    }
+    f22[Symbol.toPrimitive] = f0;
+    const v27 = f22(v16, C15);
+    v27[Symbol.toPrimitive] = f17;
+    Math.max(a19);
+    class C34 extends Date {
+        static [v27];
+        static [0.0] = v16;
+    }
+    return v27;
+}
+for (let v35 = 0; v35 < 10; v35++) {
+    f17();
+}
+%OptimizeFunctionOnNextCall(f17);
+f17();

@@ -1,0 +1,43 @@
+function f0() {
+}
+class C1 extends f0 {
+    constructor() {
+        let v2 = this;
+        super();
+        v2 ||= f0;
+    }
+    static d = f0;
+    static get f() {
+        let v3 = this;
+        let v4;
+        try { v4 = v3.replaceAll(f0, f0, v3); } catch (e) {}
+        v4 = v3;
+        v3 <<= v3;
+        return f0;
+    }
+}
+const v5 = new C1();
+const v6 = new C1();
+let v7 = new v5();
+const v9 = new v7();
+class C10 {
+    [Map] = v9;
+    static [Map];
+    p(a12, a13, a14, a15) {
+        v7 = v5;
+        try { a13.n(a12, this, a12, this); } catch (e) {}
+        this[191];
+        return a14;
+        return a15;
+    }
+    [v5] = C1;
+}
+new C10();
+new v6();
+new C10();
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = new BigInt64Array(11);
+    v29.lastIndexOf(this);
+}
+new F21(F21, F21, F21, f0);

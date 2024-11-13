@@ -1,0 +1,34 @@
+let v3 = -63484;
+const v5 = -129;
+const v8 = -54718n;
+const v10 = 48588n >= 48588n;
+try { new v8(v10); } catch (e) {}
+v3 ||= v5;
+%VerifyType(129);
+v8 >> v3;
+let v17 = 2147483649;
+v17--;
+268435456 >> 268435456;
+const v24 = new Uint8Array(2, 2, 2);
+Symbol.e;
+function f27(a28, a29, a30, a31) {
+    a28.name;
+    a29 * a29;
+    const o39 = {
+        "b": a28,
+        "c": a31,
+        ...v24,
+        get e() {
+            let v35;
+            try { v35 = new a30(this, this); } catch (e) {}
+            v24[v35] = v24;
+            return Uint8Array;
+        },
+        n(a37, a38) {
+        },
+    };
+    return o39;
+}
+for (let v40 = 0; v40 < 625; v40++) {
+    f27(Uint8Array, 2);
+}

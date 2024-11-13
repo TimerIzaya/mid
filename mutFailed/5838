@@ -1,0 +1,47 @@
+const v1 = new Set();
+const v2 = [Set,Set,v1,v1,v1];
+const v3 = [Set];
+const v4 = [v2];
+function f5() {
+    return Set;
+}
+class C6 {
+    constructor(a8, a9) {
+        const o10 = {
+            __proto__: v1,
+            4: v1,
+            "g": v2,
+        };
+        o10[9] = f5;
+        new a9();
+    }
+    #b;
+    #h;
+    d = Set;
+    static g = Set;
+}
+new C6(v2, v2);
+const v14 = new C6(v3, v4);
+new C6(v2, v3);
+function f16(a17, a18, a19, a20) {
+    const o28 = {
+        __proto__: a18,
+        m(a22, a23, a24) {
+            a19 != a23 ? a19 : a23;
+            v4[a17] = a24;
+            a22[3996];
+            return a22;
+        },
+        ...a18,
+        [v2]: a19,
+        ...v14,
+        "a": v4,
+        "e": f5,
+        "b": v3,
+    };
+    return o28;
+}
+f16(v4, v14, v4, v4);
+f16(v3, v14, v3, v2);
+f16(v3, v14, v3, v4);
+("c").toUpperCase();

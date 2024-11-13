@@ -1,0 +1,66 @@
+function f3(a4) {
+    const o12 = {
+        [12298n](a6) {
+            const v7 = delete this?.e;
+            v7 instanceof v7;
+            v7[this] = 2025423814n;
+            return this;
+        },
+        __proto__: 2025423814n,
+        ...a4,
+        "a": 12298n,
+        "b": 2025423814n,
+        "f": 2025423814n,
+        ...a4,
+    };
+    return o12;
+}
+const v13 = f3(-22903n);
+const v14 = f3(12298n);
+const v15 = [];
+function f16() {
+    const v18 = -v15 && v15;
+    -v18;
+    return v18;
+}
+%PrepareFunctionForOptimization(f16);
+f16();
+%OptimizeFunctionOnNextCall(f16);
+const v21 = f16();
+const v22 = f3(-22903n);
+const v24 = new WeakSet();
+function f25(a26, a27) {
+    const o30 = {
+        1073741823: f3,
+        1: a26,
+        get h() {
+            f16 = v24;
+            try {
+                this.toString = f3;
+            } catch(e29) {
+            }
+            return 12298n;
+        },
+        "b": a27,
+        "f": 12298n,
+        "e": -22903n,
+        "g": v22,
+        __proto__: a26,
+    };
+    return o30;
+}
+f25(v14, v22);
+f25(v14, v14);
+const v33 = v21(v22, v22);
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v13;
+    } catch(e40) {
+    }
+}
+const v41 = new F34(-22903n, v24, v24, v24);
+new F34(2025423814n, v13, v13, v41);
+new F34(-22903n, v13, v14, v33);
+const v46 = new Int32Array(2);
+v46.toSorted();

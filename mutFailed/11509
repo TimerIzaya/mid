@@ -1,0 +1,54 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f6() {
+        new BigUint64Array(129);
+        new BigInt64Array(1);
+        new Int16Array(2);
+        return BigUint64Array;
+    }
+    this[Symbol.toPrimitive] = f6;
+    try {
+        this.b = -128;
+    } catch(e18) {
+        e18?.a;
+        %VerifyType(a5);
+        const o23 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o23);
+    }
+}
+new F3(-309135284);
+const v26 = new F3(4096);
+function f27() {
+    const o28 = {
+    };
+    return o28;
+}
+v26.toString = f27;
+new F3(4096);
+class C35 extends v26.constructor {
+    static 11;
+    static 536870889;
+}
+new C35();
+const v39 = /v*/vdms;
+class C40 {
+    1855;
+    static {
+        new F3(this);
+    }
+    [v26] = -128;
+    12 = 4096;
+    [v39];
+}
+const v43 = new C40();
+function f45(a46, a47, a48, a49) {
+    const o50 = {
+        [a47]: a49,
+        ...a49,
+    };
+    return a48;
+}
+f45(3706, v39, f45(3706, 3706, C40, v43), v43);

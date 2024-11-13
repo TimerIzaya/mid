@@ -1,0 +1,87 @@
+function f0() {
+}
+function f2(a3) {
+    function f4(a5, a6, a7, a8) {
+        function f10() {
+            return arguments;
+        }
+        const v12 = new Int8Array();
+        v12.buffer;
+        %OptimizeFunctionOnNextCall(f10);
+        ("find").codePointAt(f4);
+        return arguments;
+    }
+    for (let v16 = 0; v16 < 10; v16++) {
+        f4();
+    }
+    return a3;
+}
+Date.toString = f2;
+const v18 = new Date();
+function f19() {
+    class C22 {
+        static {
+            this.f += "MAX_SAFE_INTEGER";
+        }
+        static #a = "undefined";
+    }
+    return "MAX_SAFE_INTEGER";
+}
+v18.toString = f19;
+class C24 {
+    constructor(a26) {
+        function f27(a28) {
+            Object.defineProperty(this, "d", { configurable: true, enumerable: true, get: f19, set: f2 });
+            Symbol.isConcatSpreadable;
+            return this;
+        }
+        a26.toString = f27;
+        super[a26] = v18;
+        new Int8Array(3);
+        new Uint8ClampedArray(855);
+        new BigInt64Array(64);
+    }
+}
+const v40 = new C24(v18);
+function f41(a42, a43) {
+    new f19();
+    return f2(a43);
+}
+v40.toString = f41;
+const v46 = new C24(f0);
+new C24(v18);
+function f48(a49, a50, a51, a52) {
+    a51.toString = f41;
+    const o59 = {
+        [a51](a54, a55) {
+            [7,448560867,568353536,11,1604628103,512,255,65535,58883];
+            [2,61444,13026];
+            return [28178,-536870912];
+        },
+        __proto__: a51,
+        [Date]: a50,
+        ...a51,
+        2726: a52,
+    };
+    return o59;
+}
+f48(f48(v18, v46, v40, v40), v46, v18, Date);
+f48(v46, v40, v18, v46);
+class C64 {
+    e;
+}
+const v65 = C64.constructor;
+v65(1.2999975716279065e+308);
+const v67 = new C64();
+v67.c = v65;
+v67.c = v67;
+new C64();
+new C64();
+function F73() {
+    if (!new.target) { throw 'must be called with new'; }
+    typeof arguments;
+    gc();
+}
+const v79 = new F73();
+const t85 = v79.constructor;
+new t85();

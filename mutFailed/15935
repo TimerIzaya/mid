@@ -1,0 +1,38 @@
+const v1 = new Set();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = Set;
+    } catch(e6) {
+    }
+    try {
+        this.d = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F2(Set, Set);
+const v9 = new F2(v8, F2);
+new F2(v9, v1);
+new Uint8Array(129);
+new Int16Array(3069);
+new Int8Array(4);
+const v31 = new Int16Array(2);
+const v35 = ["dgV"];
+Reflect.apply(("undefined").replaceAll, v31, v35);
+function f38() {
+    function f39(a40) {
+        try {
+            const o41 = {
+            };
+        } catch(e42) {
+        }
+    }
+    try {
+    } catch(e43) {
+    }
+}
+const o46 = {
+    "type": "function",
+};
+o46.arguments = "dgV";
+new Worker(f38, o46);

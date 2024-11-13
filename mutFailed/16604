@@ -1,0 +1,33 @@
+class C3 {
+    static {
+        super.f <<= -7;
+    }
+    static d = 1000000000.0;
+    [-2] = -35939;
+    static #f = 1000000000.0;
+    2 = 1000000000.0;
+}
+const v8 = new C3();
+const v9 = new C3();
+new C3();
+[-10,1000,512,-1352217751,-44189,268435440];
+[64,4,-9007199254740992,16];
+[16,1,489167548,716391567,6,-9223372036854775808,-8,9007199254740991,-65536,9007199254740991];
+function f14(a15, a16, a17, a18) {
+    const o23 = {
+        [f14](a20, a21, a22) {
+        },
+    };
+    return a18;
+}
+function f24() {
+    function f25(a26) {
+        f14(v9, a26, a26, v8);
+        new Int8Array(-35939);
+        return a26;
+    }
+    return f25;
+}
+Object.defineProperty(f14, "toString", { writable: true, configurable: true, enumerable: true, get: f24 });
+%OptimizeFunctionOnNextCall(f14);
+f14();

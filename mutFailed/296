@@ -1,0 +1,81 @@
+function f0() {
+    const o11 = {
+        "h": "description",
+        valueOf(a5, a6) {
+            a5 % f0;
+            const v8 = [a6];
+            [a5,"Zz",-1e-15,[v8,v8,v8,this]];
+            return a6;
+        },
+        "c": "Zz",
+        "d": -1e-15,
+        "b": "Zz",
+    };
+    function f12() {
+        return f0;
+    }
+    Object.defineProperty(o11, "iterator", { writable: true, enumerable: true, get: f12 });
+    return o11;
+}
+const v13 = f0();
+const v14 = f0();
+f0();
+class C16 extends f0 {
+    constructor(a18) {
+        function f19() {
+            function f20(a21, a22, a23, a24) {
+                const o34 = {
+                    __proto__: a23,
+                    ...a23,
+                    [a23](a26, a27, a28) {
+                        function f30() {
+                            return f30;
+                        }
+                        return "function";
+                    },
+                };
+                return o34;
+            }
+            return f0;
+        }
+        a18[Symbol.toPrimitive] = f19;
+        super();
+        v13[a18];
+        v13.iterator;
+        const o48 = {
+            [a18]() {
+                let v41 = 10;
+                const o47 = {
+                    next() {
+                        v41--;
+                        const v45 = v41 == 0;
+                        const o46 = {
+                            "done": v45,
+                            "value": v41,
+                        };
+                        return o46;
+                    },
+                };
+                return o47;
+            },
+        };
+    }
+}
+function f49() {
+    function f50(a51) {
+        Math.acosh(1073741825);
+        return Math;
+    }
+    return f50;
+}
+function f55(a56) {
+    new f49();
+}
+Object.defineProperty(C16, Symbol.toPrimitive, { get: f49, set: f55 });
+const v60 = new C16(v13);
+const v61 = new f0(f0);
+new C16(C16);
+const v63 = [v13,v13,C16,v60];
+[f0,v14,v13,v61,v63];
+[v63,v61,f0,v60,f0];
+new Function("1532738280");

@@ -1,0 +1,30 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -65536;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(6, -268435456);
+const v9 = new F3(v8, 6);
+new F3(v8, 6);
+class C11 extends F3 {
+    o(a13, a14, a15) {
+        {
+            new WeakSet();
+        }
+        return a14;
+    }
+    static 1073741824 = v9;
+    #g;
+    static [-65536];
+    a = -65536;
+}
+new C11();
+const t23 = -268435456;
+new t23();
+new v9();
+[-403784505,-9007199254740990,-14];
+const v25 = [-9223372036854775807];
+[-1275345317,16];
+new v25([-620100541,-64845,-268435456,-7,-268435456,1024,-536870912]);

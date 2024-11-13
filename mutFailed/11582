@@ -1,0 +1,77 @@
+function f0() {
+    const o31 = {
+        [268435440](a5) {
+            const t3 = "-50328765";
+            t3[1897382058] = a5;
+            try {
+                ("-50328765").__proto__;
+                const o11 = {
+                    "execution": "sync",
+                    "type": "minor",
+                };
+                gc(o11);
+            } catch(e13) {
+                f0();
+                %PrepareFunctionForOptimization(f0);
+                f0(16);
+                f0();
+                %OptimizeFunctionOnNextCall(f0);
+                f0();
+            }
+            try { a5["-50328765"](this, f0, 16, "getInt16", a5); } catch (e) {}
+            return this;
+        },
+        set b(a20) {
+            super["-50328765"] = a20;
+            let v21;
+            try { v21 = a20(16, 268435440, ..."-50328765", this); } catch (e) {}
+            this[185] %= v21;
+            let v23 = 2105795202;
+            v23--;
+            --v23;
+            const v27 = --v23;
+            function f28(a29) {
+                return a29;
+            }
+            class C30 extends f28 {
+                d = v27;
+            }
+        },
+        "global": 16,
+        "g": "-50328765",
+        ..."-50328765",
+        [16]: 268435440,
+        16: 268435440,
+        "e": "-50328765",
+    };
+    return o31;
+}
+const v32 = f0();
+const v33 = f0();
+const v34 = f0(v33, f0);
+class C35 {
+    m(a37) {
+        const v38 = new f0();
+        const v39 = super[v33];
+        a37?.[this];
+        Object.defineProperty(v38, a37, { writable: true, get: f0, set: f0 });
+        return v39;
+    }
+    536870912 = C35;
+}
+const v44 = new C35();
+const v45 = new C35();
+const v46 = new C35();
+[C35,v44,C35,v32,v45,v45,v46,v44];
+[v34,v45,v33,v45,v44];
+[v46,v32,v44,v45,v46];
+let v50 = -2.220446049250313e-16;
+class C51 {
+    constructor(a53, a54) {
+        Math.acos(v50);
+        v50++;
+    }
+}
+new v45();
+const v59 = v34.constructor;
+new v59(v59, v50, C51);

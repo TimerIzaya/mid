@@ -1,0 +1,25 @@
+new Float32Array(255);
+new Float64Array(4096);
+new Int16Array(15);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = Float64Array;
+    } catch(e13) {
+    }
+}
+const v14 = new F9(4096, 255);
+new v14(255, 15);
+new F9(15, 4096);
+const v19 = new Float32Array();
+new Float32Array(v19, 16);
+new Float64Array(255);
+v19.length >>>= 16;
+class C24 extends Float64Array {
+    static 1;
+    static #d = 256;
+}
+new C24();
+const v26 = new C24();
+try { v26(v19); } catch (e) {}
+let {"buffer":v28,"byteLength":v29,"byteOffset":v30,} = v26;

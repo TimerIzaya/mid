@@ -1,0 +1,55 @@
+new WeakSet();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 1.1876631387222919e+308;
+    } catch(e15) {
+    }
+    try {
+        this.h = a13;
+    } catch(e16) {
+    }
+}
+new F11(1, -9223372036854775807);
+new F11(-9223372036854775807, -2111605472);
+const v19 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+const v20 = [1073741824,1073741823,1376142744,1073741825];
+function f21(a22, a23, a24, a25) {
+    function f26() {
+        try {
+            v20.forEach(a23, v19);
+        } catch(e28) {
+        }
+        return a23;
+    }
+    f26();
+    eval();
+    %OptimizeFunctionOnNextCall(f26);
+    return v20;
+}
+for (let v32 = 0; v32 < 5; v32++) {
+    f21();
+}
+new F11(-2111605472, 1);
+function F35() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v37 = new F35();
+v37.toString = f21;
+const v38 = new F35();
+new F35();
+let v44;
+try {
+const t0 = "object";
+v44 = t0(v37, "number", F35);
+} catch (e) {}
+function f45(a46) {
+    return v44;
+}
+class C47 extends f45 {
+    [v38] = "E";
+    [v37] = -14n;
+    268435441 = -14n;
+}
+const t53 = "object";
+t53[v38] &= v44;

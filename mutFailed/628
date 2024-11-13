@@ -1,0 +1,93 @@
+function f0() {
+    let v2 = "-9223372036854775807";
+    const o9 = {
+        [v2]: v2,
+        get f() {
+            this[10000] = this;
+            try {
+                v2.g = -5.712914243501257;
+            } catch(e5) {
+            }
+            v2 |= this;
+            for (let v6 = 0; v6 < 32; v6++) {
+                const t12 = "match";
+                t12["p" + v6] = v6;
+            }
+            return v2;
+        },
+    };
+    const v10 = o9 << "match";
+    f0 === f0;
+    o9.f ^= v10;
+    const v12 = ("match").__proto__;
+    v12.p30 = o9;
+    v12[1478] = f0;
+    return o9;
+}
+const v13 = f0();
+function f14(a15) {
+    try {
+        f0();
+    } catch(e17) {
+    }
+    return f0;
+}
+v13.toString = f14;
+f0();
+f0();
+const v23 = [-1024];
+const v24 = [-1024];
+function f25() {
+    return f14;
+}
+Object.defineProperty(v24, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f25 });
+const v28 = [-1024,v24];
+v28[512] = v13;
+v28[512];
+const v35 = v13[10000];
+let v38 = 1.1285239928584463e+308;
+const v39 = Math.clz32(-4294967295);
+--v38;
+Math.cos(65535 % v13);
+Math.tan(-4294967295);
+-4294967295 / 65535;
+const v45 = v28 >> -5.524162303826765;
+try {
+    v23.toString = v35;
+} catch(e46) {
+}
+function F48(a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    const o57 = {
+        [this]: -1,
+        85: a50,
+        "d": this,
+        "f": v13,
+        "a": v45,
+        set d(a53) {
+            this.cos = a53;
+            for (let v54 = 0; v54 < 25; v54++) {
+            }
+            try { this["cos"](); } catch (e) {}
+        },
+    };
+    function f58() {
+        return v39;
+    }
+    function f59(a60) {
+        v23.toString;
+    }
+    Object.defineProperty(o57, "cos", { enumerable: true, get: f58, set: f59 });
+    class C62 {
+        p(a64, a65) {
+            this[this];
+            return a50;
+        }
+        #d;
+        constructor(a68) {
+            o57.d = a68;
+        }
+    }
+    new C62();
+}
+new F48();

@@ -1,0 +1,33 @@
+function f3(a4, a5) {
+    const o12 = {
+        __proto__: 4n,
+        [a5]: a4,
+        "f": 61223n,
+        valueOf(a7, a8) {
+            return -1e-15;
+        },
+        "length": -7n,
+        "g": 61223n,
+        [-1]: 4n,
+        "b": -7n,
+        "a": 4n,
+    };
+    return o12;
+}
+f3(61223n, 4n);
+const v14 = f3(4n, 4n);
+f3(61223n, -7n);
+function f16() {
+    return v14;
+}
+new Int32Array(-1024);
+new Uint16Array(2);
+new BigUint64Array(42);
+const v28 = new RegExp();
+const v30 = new Uint16Array();
+const v32 = new Float32Array();
+for (let v33 = 0; v33 < 25; v33++) {
+    Float32Array[6] = v28;
+    v32[v33];
+}
+v30.length -= 857;

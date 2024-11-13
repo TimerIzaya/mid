@@ -1,0 +1,38 @@
+function f0() {
+}
+function f1() {
+    Object.defineProperty(f0, 268435441, { writable: true, configurable: true, enumerable: true, value: f0 });
+    class C3 {
+    }
+    const v4 = new C3();
+    class C5 extends C3 {
+        static #p(a7, a8, a9, a10) {
+            [..."A",v4];
+        }
+    }
+    return C5;
+}
+f0.toString = f1;
+class C12 extends f0 {
+    #h;
+    [f0] = f0;
+    #n() {
+        const o14 = {
+            "call": f0,
+            "getOwnPropertyDescriptor": f0,
+            "preventExtensions": f0,
+            "set": f0,
+        };
+        new Proxy(this, o14);
+        return this;
+    }
+}
+new C12();
+new C12();
+new C12();
+new Int32Array(3);
+new Int32Array(1000);
+new Uint32Array(3);
+const v36 = new Float32Array(256);
+256 !== 6;
+v36[5] ||= 6;

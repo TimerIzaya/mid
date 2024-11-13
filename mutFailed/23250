@@ -1,0 +1,69 @@
+function f6(a7, a8, a9) {
+    const o25 = {
+        n(a11, a12, a13, a14) {
+            let v15;
+            try { v15 = new a14(...a11, -546220245n, ...a11, ...a11, a8, a13); } catch (e) {}
+            v15.b += v15;
+            return a13;
+        },
+        ...a7,
+        4294967296: a8,
+        "d": 268435441n,
+        get e() {
+            try {
+            const t0 = "HPKR";
+            t0();
+            } catch (e) {}
+            Math.floor(-536870912);
+            const v22 = +a8;
+            v22 << v22;
+            -536870912 << a8;
+            return -546220245n;
+        },
+    };
+    return o25;
+}
+f6("1163035831", -546220245n, 8n);
+f6("HPKR", -546220245n, -546220245n);
+f6("1163035831", -546220245n, -546220245n).e;
+const v32 = Symbol.iterator;
+const o41 = {
+    [v32]() {
+        let v34 = 10;
+        const o40 = {
+            next() {
+                v34--;
+                const v38 = v34 == 0;
+                const o39 = {
+                    "done": v38,
+                    "value": v34,
+                };
+                return o39;
+            },
+        };
+        return o40;
+    },
+};
+new Uint32Array(1000);
+new Float64Array(2867);
+new Uint8ClampedArray(10);
+function f53() {
+    function F55(a57) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v58 = this.constructor;
+        v58.e = v58;
+        try { new v58(); } catch (e) {}
+        this.g = -1;
+    }
+    new F55();
+    const v61 = new F55(-1);
+    class C62 extends F55 {
+        [-1];
+    }
+    new C62();
+    return v61;
+}
+%PrepareFunctionForOptimization(f53);
+f53();
+%OptimizeFunctionOnNextCall(f53);
+f53();

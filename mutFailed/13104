@@ -1,0 +1,32 @@
+function f0() {
+}
+new WeakMap();
+new Set();
+[];
+function f15() {
+    return f15;
+}
+class C16 extends f15 {
+    constructor(a18, a19, a20, a21) {
+        super();
+        const v24 = new a18(8);
+        const o25 = {
+            ...v24,
+        };
+        function f26() {
+            [];
+            a20[6] = 4294967295;
+            const o31 = {
+                set b(a30) {
+                },
+                "arguments": C16,
+            };
+            return o31;
+        }
+        for (let v32 = 0; v32 < 5; v32++) {
+            a21();
+            %OptimizeFunctionOnNextCall(f26);
+        }
+    }
+}
+new C16();

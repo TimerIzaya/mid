@@ -1,0 +1,50 @@
+const v1 = new WeakMap();
+function f2(a3, a4) {
+    a3.toString = f2;
+    const o11 = {
+        "g": a4,
+        "a": v1,
+        __proto__: v1,
+        [a3]: a4,
+        [a4](a6, a7) {
+            return a6;
+        },
+        "e": WeakMap,
+    };
+    function f12(a13) {
+        return 4294967296 & 4294967296;
+    }
+    o11.toString = f12;
+    return o11;
+}
+f2.toString = f2;
+const v16 = f2(f2, WeakMap);
+const v17 = f2(v16, f2);
+const v18 = f2(v17, v17);
+function f19(a20, a21) {
+    const o29 = {
+        ...v18,
+        "g": f2,
+        "d": v18,
+        9: v1,
+        ...v17,
+        1: a21,
+        valueOf(a23, a24, a25) {
+            try {
+                const o26 = {
+                };
+                new f2(f2, o26);
+            } catch(e28) {
+            }
+            return a21;
+        },
+    };
+    return o29;
+}
+f19(v17, v17);
+f19(v18, v18);
+f19(v16, v18);
+try {
+} catch(e42) {
+} finally {
+}

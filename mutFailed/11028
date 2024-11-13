@@ -1,0 +1,65 @@
+class C1 {
+    [null];
+    static {
+        try {
+            this.b = null;
+        } catch(e3) {
+        }
+    }
+    constructor() {
+        const o5 = {
+        };
+        o5.d = o5;
+        try { Proxy.apply(Proxy, null); } catch (e) {}
+        const v8 = new C1(this, o5);
+        const v12 = null << v8.null;
+        v12 / v12;
+        const v14 = ~null;
+        -8 ^ -8;
+        Math.imul(-8, v12);
+        const v17 = -8 * v12;
+        v17 >> v17;
+        ~v14;
+    }
+}
+new C1();
+new C1();
+const v22 = new C1();
+/Ufoo[z]*/udim;
+const v24 = /Xl\u{12345}/gudi;
+let v25;
+try { v25 = v24.toString(); } catch (e) {}
+const v26 = /(x)(x)(x)\4/gdim;
+v26.b = v26;
+-26730n * -26730n;
+let v33;
+try { v33 = new Uint8ClampedArray(v26, Uint8ClampedArray, v22); } catch (e) {}
+new v33(144);
+const v36 = 6 - 6;
+const v38 = new Uint8Array(6);
+v38[0] = v38;
+v25.iterator;
+const o50 = {
+    [1504463483n]() {
+        let v43 = 10;
+        const o49 = {
+            next() {
+                v43--;
+                const v47 = v43 == v36;
+                const o48 = {
+                    "done": v47,
+                    "value": v43,
+                };
+                return o48;
+            },
+        };
+        return o49;
+    },
+};
+new Int16Array(128);
+const v55 = new Float64Array(128);
+const v58 = [1.5340415543558148e+308];
+try { v58.concat(Uint8ClampedArray); } catch (e) {}
+const v60 = v55.indexOf;
+v60.length;
+Reflect.apply(v60, v55, v58);

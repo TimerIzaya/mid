@@ -1,0 +1,46 @@
+async function* f3(a4, a5, a6) {
+    return a5;
+}
+const v7 = f3();
+try { v7.next(12); } catch (e) {}
+let v11;
+try { v11 = new Uint16Array(5, 5, "-8"); } catch (e) {}
+const v12 = new Uint16Array(255);
+try { v12.slice(v7, "-8"); } catch (e) {}
+const v14 = v12.buffer;
+v14.slice().transfer();
+class C17 {
+    #d = 12;
+    [5] = v11;
+    b = 12;
+    static #valueOf(a19, a20) {
+        %VerifyType(a20);
+        super[12] = "-8";
+        let v21;
+        try { v21 = new a19(a20, 12, 5); } catch (e) {}
+        const t20 = "-8";
+        t20.length %= 5;
+        a19?.e;
+        return v21;
+    }
+}
+const v23 = new C17();
+const v24 = new v23();
+const v25 = new C17();
+v25[5] = "-8";
+[12,v23,v25];
+[v25,"-8",v24,5];
+[12];
+const v29 = [-392.0576825237305,0.3449869706009556,4.447039970507995e+307,-5.063798246562485e+307,-568.9796177589394,388231.4033702491,-3.5365646375454567,0.12172568971863451,-4.474791203319841e+307];
+const v30 = [9007199254740992,-13,1,206834672,5792,16,856414023,8,2147483648];
+function f31(a32, a33, a34) {
+    return f31;
+}
+try { ("function").blink(); } catch (e) {}
+const v38 = ["function",v30,v29];
+try { v38.fill(f31); } catch (e) {}
+const o40 = {
+    "arguments": v14,
+    "type": "function",
+};
+new Worker(f31, o40);

@@ -1,0 +1,70 @@
+function f1(a2, a3) {
+    a2.h >>= a2;
+    function f4(a5, a6, a7, a8) {
+        return f4.arguments;
+    }
+    return Map;
+}
+Map[Symbol.toPrimitive] = f1;
+const v12 = new Map();
+function f13(a14, a15) {
+    function f16(a17) {
+        a17.b ||= a17;
+        function f18(a19, a20, a21, a22) {
+            class C24 {
+                static ["-2"];
+            }
+            return "-2";
+        }
+        %OptimizeFunctionOnNextCall(f18);
+        return a15;
+    }
+    a14[Symbol.toPrimitive] = f16;
+    function f27() {
+        return Symbol;
+    }
+    function f28(a29) {
+        a29 = f13;
+    }
+    Object.defineProperty(a15, Symbol.toPrimitive, { writable: true, configurable: true, get: f27, set: f28 });
+    const o40 = {
+        "e": a14,
+        [a15]: a15,
+        "a": v12,
+        set f(a33) {
+            const o37 = {
+            };
+            new Proxy("species", o37);
+        },
+    };
+    function f41() {
+        return Map;
+    }
+    Object.defineProperty(o40, 5, { configurable: true, get: f41 });
+    return o40;
+}
+function f42(a43, a44) {
+    let v45 = a44?.[a44];
+    v45 = f1;
+    return v12;
+}
+Object.defineProperty(f13, Symbol.toPrimitive, { writable: true, value: f42 });
+const v48 = f13(f13, f13);
+const v49 = f13(v48, Map);
+f13(v48, f13);
+[7,0,27141,9007199254740991,268435441,-5];
+Object.defineProperty(Uint8ClampedArray, 1, { value: [7.554475698528474] });
+v49[5];
+function f55() {
+    return f55;
+}
+[-2,0,5,9223372036854775807];
+[11569,2147483647,1260691086,9,-1024,2127239924,-15];
+new Float64Array(3036);
+new Float64Array(250);
+new BigInt64Array(98);
+class C69 {
+    static #b = 1175953465;
+}
+new C69();
+new C69();

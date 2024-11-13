@@ -1,0 +1,27 @@
+Uint8Array.prototype = Uint8Array;
+const v5 = new Uint8Array(2523);
+v5[1524];
+const v8 = ~128;
+const v12 = new Float32Array();
+const v14 = new Float64Array(v12, 16);
+new Float64Array(256, v8, v14, 16);
+v12.length >>>= 16;
+class C17 extends Float64Array {
+    static 1;
+    static #d = 256;
+}
+new C17();
+const v19 = new C17();
+try { v19(v12, v8, v19, v5); } catch (e) {}
+let {"buffer":v21,"byteLength":v22,"byteOffset":v23,} = v19;
+const v24 = new isNaN(128);
+new Uint16Array(4294967296);
+class C28 {
+}
+const v29 = new C28();
+const v30 = v29?.__defineSetter__;
+try { new v30(v24, v24); } catch (e) {}
+function f32() {
+    return v29;
+}
+Object.defineProperty(v29, "b", { enumerable: true, get: f32 });

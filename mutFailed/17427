@@ -1,0 +1,50 @@
+~7830;
+80967800 - 80967800;
+1482604457 * 1482604457;
+-9223372036854775807 % -9223372036854775807;
+const o16 = {
+};
+o16.call = -9223372036854775807;
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f23() {
+        try {
+            a20.length = 12;
+        } catch(e25) {
+        }
+        return this;
+    }
+    this.constructor = f23;
+    a22.call = -9223372036854775807;
+    try { this.valueOf(); } catch (e) {}
+    try { a22.call(F17); } catch (e) {}
+    268435439n === 268435439n;
+    function f32(a33, a34) {
+        const o37 = {
+            968: a34,
+            "d": a33,
+            [268435439n]: 2105444095n,
+            __proto__: o16,
+            "g": a21,
+            ...a34,
+            "b": -4294967296n,
+            "f": this,
+            valueOf(a36) {
+                return a36;
+            },
+        };
+        return a34;
+    }
+    for (let v38 = 0; v38 < 100; v38++) {
+        f32(-4294967296n, v38);
+    }
+}
+const v40 = new F17(F17, F17, o16, F17);
+const v41 = v40?.constructor;
+try { new v41(v40, 1482604457, 80967800, 1482604457); } catch (e) {}
+const v43 = new F17(v40, o16, F17, o16);
+const v44 = v43?.constructor;
+try { new v44(1482604457, -65537n, 11, 11); } catch (e) {}
+const v46 = new F17();
+const v47 = v46?.__defineSetter__;
+try { new v47(166490852, v40); } catch (e) {}

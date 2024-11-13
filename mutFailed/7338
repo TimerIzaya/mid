@@ -1,0 +1,49 @@
+class C3 {
+    7 = "is";
+    static {
+        4 << this;
+        const o11 = {
+            "maxByteLength": 2147483649,
+        };
+        const v13 = new ArrayBuffer(1n, o11);
+        new Float32Array(v13);
+    }
+}
+const v16 = new C3();
+new C3();
+const v18 = new C3();
+[-1000.0,-2.220446049250313e-16,1000000000000.0,1.7976931348623157e+308,0.24044248505167165,-0.0,-134291.03736434085];
+const v20 = [1000000000000.0,0.5036056364228827,0.6293306063548414,5.0];
+const v21 = [-1000000.0,Infinity];
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a27;
+    } catch(e30) {
+    }
+    try {
+        this.g = 1000000.0;
+    } catch(e31) {
+    }
+    try {
+        this.b = 4;
+    } catch(e32) {
+    }
+}
+const v33 = new F25("is", "is", v21);
+new v18(v21, v33, v16);
+new F25(v16, C3, v16);
+function f36() {
+    const v37 = [f36];
+    function f38(a39) {
+        return "is";
+    }
+    v37.constructor = f38;
+    const v40 = v37.constructor;
+    v40(v40, f38);
+    return f36;
+}
+%PrepareFunctionForOptimization(f36);
+v20();
+%OptimizeFunctionOnNextCall(f36);
+f36();

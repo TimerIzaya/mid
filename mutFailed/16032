@@ -1,0 +1,87 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -0.5596633379849596;
+    } catch(e6) {
+    }
+    try {
+        this.e = F3;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(1000000000.0);
+const v9 = new F3(-0.5596633379849596);
+const v10 = new F3(1000000000.0);
+class C11 {
+    toString(a13, a14, a15, a16) {
+        1000000000.0 >> -0.5596633379849596;
+        try {
+            v8.valueOf = a13;
+        } catch(e18) {
+        }
+        return 146.60165004232863;
+    }
+    static [F3];
+    static #n(a20, a21, a22) {
+        const v24 = [146.60165004232863,Reflect,v8];
+        const v25 = Reflect.construct(a21, v24, F3);
+        function F26(a28, a29, a30) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = C11;
+            } catch(e31) {
+            }
+            try {
+                this.b = a22;
+            } catch(e32) {
+            }
+        }
+        new F26(-0.5596633379849596, a21, a22);
+        new F26(F26, v9, v24);
+        new F26(v25, F3, this);
+        try {
+            super.toString(1000000000.0);
+        } catch(e37) {
+        }
+        try {
+            new F3(-2.220446049250313e-16);
+        } catch(e40) {
+        }
+        return 1000000000.0;
+    }
+}
+const v41 = new C11();
+const v42 = new C11();
+new v8();
+function f44(a45, a46, a47, a48) {
+    const o65 = {
+        m(a50, a51) {
+            let v52;
+            try { v52 = a51(v42); } catch (e) {}
+            async function f53(a54, a55, a56, a57) {
+                a56 * v52;
+                try { a45.filter(a50, a57, v42, v41); } catch (e) {}
+                await a56;
+                return a46;
+            }
+            f53(a51, v42, v42, a47);
+            return a50;
+        },
+        "g": 1000000000.0,
+        "c": -0.5596633379849596,
+        ...v9,
+        "d": -0.5596633379849596,
+        __proto__: v42,
+    };
+    return o65;
+}
+f44(v9, v41, 146.60165004232863, f44(v41, v42, 1000000000.0, v10));
+f44(v42, v10, -0.5596633379849596, v10);
+new Int8Array(1073741823);
+function f73(a74, a75, a76, a77) {
+    const v78 = new Int8Array();
+    const v79 = v78.buffer;
+    v79.constructor = Array;
+    return v79.slice(1073741823, a75);
+}
+try { f73(); } catch (e) {}

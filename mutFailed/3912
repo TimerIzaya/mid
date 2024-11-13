@@ -1,0 +1,59 @@
+let v0 = "undefined";
+const v4 = new WeakSet();
+class C5 {
+    64 = "f";
+    static toString(a7, a8) {
+        a8 &= this;
+        super[a7] = v4;
+        try {
+            this.fuck(a8, 24745n, -256, -1073741824n);
+        } catch(e15) {
+        }
+        return v0;
+    }
+}
+const v16 = new C5();
+const v17 = new C5();
+const v18 = new C5();
+function f19() {
+    return v18;
+}
+function f20(a21, a22, a23) {
+    const o34 = {
+        "d": v0,
+        [v18]: C5,
+        __proto__: v16,
+        o(a25, a26, a27, a28) {
+            try {
+                ("f").trimEnd();
+            } catch(e30) {
+            }
+            a22 **= a23;
+            for (let v31 = 0; v31 < 32; v31++) {
+                v16["p" + v31] = v31;
+            }
+            Object.defineProperty(v16, "e", { writable: true, configurable: true, get: f19 });
+            return "f";
+        },
+        "a": v0,
+        ...C5,
+        "e": f20,
+        "g": "f",
+        8: a21,
+        ...C5,
+        [C5]: a21,
+        "c": a21,
+    };
+    return o34;
+}
+let v35 = f20(v18, f20, "bigint");
+({"d":f19,"f":v35,} = v17);
+let v36;
+try { v36 = v35(v18, "bigint"); } catch (e) {}
+v0 = v36;
+Object.defineProperty(v4, "b", { writable: true, enumerable: true, set: f20 });
+v16[v36];
+f20("bigint", v17, v16);
+f20("bigint", v35, v16);
+const v41 = 9007199254740991n * 9007199254740991n;
+v41 * v41;

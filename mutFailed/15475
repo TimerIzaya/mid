@@ -1,0 +1,50 @@
+class C3 {
+    #valueOf(a5) {
+        try {
+            this.#valueOf(a5);
+        } catch(e7) {
+        }
+        try {
+            this.__proto__ = this;
+        } catch(e8) {
+        }
+        return a5;
+    }
+    #g = 127;
+    static #f;
+}
+new C3();
+new C3();
+new C3();
+new Int32Array(64);
+new BigInt64Array(31151);
+new Uint16Array(4038);
+class C24 {
+    constructor(a26, a27) {
+        function F31(a33) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v34 = C24.constructor;
+            try { new v34(); } catch (e) {}
+        }
+        new F31();
+    }
+}
+const v38 = new C24(C24, 64);
+const v39 = new C24(v38, v38);
+v39.length = v39;
+new C24(v38, 256);
+class C54 {
+}
+function f56(a57, a58) {
+    return a57;
+}
+const v59 = new C54();
+const v60 = new C54();
+-(536870912n << 536870912n);
+const v71 = v59[f56];
+v71 >>> v60;
+/8[\cA]v/uisy;
+function f75(a76, a77) {
+    return 31151;
+}
+v71[Symbol.toPrimitive] = f75;

@@ -1,0 +1,37 @@
+const v1 = new WeakSet();
+class C5 {
+    constructor(a7, a8, a9) {
+        try {
+            a8.#a;
+        } catch(e11) {
+        }
+    }
+    static {
+        new Float32Array(3);
+        new Int32Array(9);
+        const o21 = {
+            "maxByteLength": 729501891,
+        };
+        const v23 = new ArrayBuffer(9, o21);
+        new Float64Array(v23);
+    }
+    n(a27, a28) {
+        Object.defineProperty(this, "e", { enumerable: true, value: super[-36482] });
+    }
+    8;
+    [v1] = WeakSet;
+}
+new C5();
+new C5();
+new C5();
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C38 {
+    constructor(a40, a41, a42) {
+        class C44 extends a41.constructor {
+        }
+        new C44();
+    }
+}
+new C38(F36, C38);

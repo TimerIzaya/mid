@@ -1,0 +1,54 @@
+function f4(a5, a6) {
+    const o13 = {
+        "h": 1072391558,
+        "c": a6,
+        n(a8, a9, a10, a11) {
+            super.d = a9;
+            a10?.g;
+            a10[7] = a6;
+            return a5;
+        },
+        [a6]: 536870887,
+        "e": 536870887,
+        "b": -107545406,
+        ...a6,
+        ...1072391558,
+        0: a5,
+    };
+    return o13;
+}
+const v14 = f4(1072391558, 536870887);
+const v15 = f4(536870887, 536870887);
+const v16 = f4(536870887, -107545406);
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a19;
+    } catch(e21) {
+    }
+    try {
+        this.h = a19;
+    } catch(e22) {
+    }
+    try {
+        this.a = v16;
+    } catch(e23) {
+    }
+}
+const v24 = new F17(v14, v14);
+new F17(v16, v15);
+const v26 = new F17(v16, v15);
+[v14,v26,1072391558];
+const v28 = [f4,v24,1072391558,v15,v26];
+[v24,v28,F17,v28,v28];
+function f30() {
+    for (let v31 = 0; v31 < 5; v31++) {
+        v31 & f30;
+    }
+    return f30;
+}
+f30[Symbol.toPrimitive] = f4;
+%PrepareFunctionForOptimization(f30);
+f30();
+%OptimizeFunctionOnNextCall(f30);
+f30();

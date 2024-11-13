@@ -1,0 +1,42 @@
+class C3 {
+    #p(a5, a6) {
+        NaN ** -657876221;
+        NaN % NaN;
+        NaN * 24298;
+        Math.round(NaN);
+        return this;
+    }
+}
+const v14 = new C3();
+new NaN();
+const v16 = new C3();
+function f17(a18, a19, a20) {
+    const o24 = {
+        ["bigint"]: a19,
+        "a": a20,
+        "e": v16,
+        "d": a18,
+        [a18](a22, a23) {
+            a22[9] = a23;
+            super[a19] = f17;
+            this[this] = a18;
+            return this;
+        },
+    };
+    return o24;
+}
+f17(C3, C3, "bigint");
+f17(f17("bigint", v14, "bigint"), "bigint", v14);
+for (let v28 = 0; v28 < 5; v28++) {
+    function f29() {
+        const o33 = {
+            __proto__: f29,
+            valueOf(a31, a32) {
+                return a32;
+            },
+        };
+        return v28;
+    }
+    f29();
+    %OptimizeFunctionOnNextCall(f29);
+}

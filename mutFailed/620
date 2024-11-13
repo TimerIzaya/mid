@@ -1,0 +1,95 @@
+new Array(357);
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f11(a12) {
+        a8 = F6;
+    }
+    Object.defineProperty(this, "g", { configurable: true, set: f11 });
+    try {
+        this.g = a9;
+    } catch(e13) {
+    }
+}
+const v15 = Symbol.toPrimitive;
+const o19 = {
+    [v15]() {
+        try {
+            Symbol.keyFor(v15);
+        } catch(e18) {
+        }
+        return 357;
+    },
+};
+new F6("1024", "function", "function");
+const v21 = new F6("n", "1024", "1024");
+const v22 = new F6("1024", "function", "n");
+function f23(a24, a25, a26) {
+    const o30 = {
+        "b": a24,
+        "f": v22,
+        10: F6,
+        "d": a26,
+        p(a28, a29) {
+            this[a29] = v22;
+            return v22;
+        },
+        "g": a24,
+        ...Array,
+        "a": a26,
+        "c": Array,
+    };
+    return o30;
+}
+const v31 = f23("n", "1024", v22);
+const v32 = f23(F6, "n", v21);
+const v33 = f23(v32, "1024", v32);
+function F38(a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v33;
+    } catch(e43) {
+    }
+    try {
+        this.f = -2.2250738585072014e-308;
+    } catch(e44) {
+    }
+}
+new F38(v21, v32, v33);
+new F38(v21, v21, v31);
+new F38(v21, v31, v31);
+class C50 {
+    #h = "object";
+}
+function f51() {
+}
+function f52() {
+    return f51;
+}
+Object.defineProperty(f51, "valueOf", { writable: true, configurable: true, get: f52 });
+f51.toString = f51;
+255 * 255;
+[];
+~f51 >> 536870889;
+class C62 {
+}
+const v63 = new C62();
+function f64() {
+}
+const v68 = f64();
+const v69 = f64();
+const v70 = f64();
+function f71(a72, a73, a74) {
+}
+const v75 = f71(v70, v70, v68);
+f71(v69);
+f71(v75);
+const o79 = {
+};
+o79.b = o79;
+o79.b = o79;
+class C82 {
+}
+new C82();
+v63[-16];
+("symbol").replace("bigint").fontsize;
+gc();

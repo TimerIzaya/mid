@@ -1,0 +1,140 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "a", { value: F0 });
+    try {
+        this.a = 159037459;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function F7(a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f10(a11, a12) {
+        function F13(a15, a16, a17) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v18 = this.constructor;
+            try { new v18(); } catch (e) {}
+            this.e = a17;
+        }
+        return F13;
+    }
+    this.toString = f10;
+    function F21(a23) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            function f24(a25, a26, a27) {
+                return a26;
+            }
+            const v30 = [10000n];
+            const o31 = {
+                "arguments": v30,
+                "type": "function",
+            };
+            Worker(f24, o31);
+        } catch(e33) {
+        }
+    }
+    new F21();
+    try {
+        this.b = a9;
+    } catch(e35) {
+    }
+    try {
+        this.f = a9;
+    } catch(e36) {
+    }
+    try {
+        this.h = v4;
+    } catch(e37) {
+    }
+}
+const v38 = new F7(v6);
+const v39 = new F7(v5);
+new F7(v5);
+class C41 {
+    static valueOf(a43, a44, a45) {
+        function f46() {
+            return a43;
+        }
+        Reflect.construct(f46, [], F0);
+        return this;
+    }
+    static #e;
+    static h = v6;
+    #f;
+    [v39];
+    static #c;
+    #b = F0;
+}
+new C41();
+const v51 = new C41();
+new F0();
+class C53 extends F7 {
+    #c;
+    #d = F0;
+    get b() {
+        try {
+            v5.#c = 9;
+        } catch(e58) {
+        }
+        return v38;
+    }
+    static #h = v51;
+    #e = F0;
+    268435439;
+}
+new C53();
+new C53();
+new C53();
+function f65(a66, a67) {
+    a67.valueOf = f65;
+    const o72 = {
+        "c": -11,
+        set g(a69) {
+            try {
+                super.o(this, a69);
+            } catch(e71) {
+            }
+        },
+        ...a67,
+        "a": a67,
+        __proto__: a67,
+    };
+    return o72;
+}
+const v74 = f65(15, f65(-11, -128));
+function f75(a76, a77) {
+    const v80 = new BigInt64Array(4046);
+    function f81(a82, a83) {
+        a82++;
+        const v85 = [];
+        const v86 = [v85,v85];
+        function F87(a89) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        class C90 extends F87 {
+            valueOf(a92, a93, a94, a95) {
+                super[this] = F87;
+            }
+        }
+        const v99 = new C90();
+        const o106 = {
+            set g(a101) {
+            },
+            [v86](a103, a104, a105) {
+            },
+        };
+        v85.length = 65535;
+        for (const v108 in o106) {
+            try { v99.valueOf(); } catch (e) {}
+        }
+        let o110 = {
+        };
+        [,...o110] = v80;
+    }
+    return -128;
+}
+v74.valueOf = f75;
+f65(-11, v74) <= 2054272044n;

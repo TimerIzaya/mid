@@ -1,0 +1,79 @@
+class C3 {
+    static [1000000000.0] = 1e-15;
+    static #n(a5, a6) {
+        try {
+            this.#n(a6, this, this, 1e-15, a6);
+        } catch(e8) {
+        }
+        this.c;
+        super[1e-15];
+        function F11(a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = a13;
+            } catch(e15) {
+            }
+        }
+        new F11(a6, 1e-15);
+        new F11(this, 1000000000.0);
+        new F11(F11, a5);
+        return a6;
+    }
+}
+const v19 = new C3();
+new v19();
+const v21 = new C3();
+let v24 = "g";
+function f28(a29, a30, a31) {
+    const o52 = {
+        get e() {
+            return 16n;
+        },
+        "d": v19,
+        "c": v24,
+        o(a37, a38, a39) {
+            v24 |= a31;
+            const v40 = this || v19;
+            function F41(a43, a44, a45) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.a = "9007199254740992";
+                } catch(e46) {
+                }
+                try {
+                    this.e = 1e-15;
+                } catch(e47) {
+                }
+                try {
+                    this.c = v40;
+                } catch(e48) {
+                }
+            }
+            new F41(a31, 1e-15, "clear");
+            new F41("clear", -4.0, a31);
+            new F41("clear", a37, a37);
+            return v19;
+        },
+    };
+    return o52;
+}
+const v53 = f28("clear", 1e-15, v24);
+const v55 = [-1000000.0,1.2447871437442695e+308,2.0,-1.7099107331057683e+308,0.0];
+for (let i57 = 0; v24 < 1; i57++) {
+}
+function F63() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v65 = this.constructor;
+    try { new v65("constructor", "constructor", v65, v65); } catch (e) {}
+    const v67 = this.valueOf(F63);
+    switch (v55) {
+        case "constructor":
+            v67 < v53;
+            break;
+    }
+}
+new F63();
+new F63();
+f28(v21, f28("9007199254740992", "9007199254740992", "clear"), "clear");
+const v75 = new Date();
+v75.getUTCFullYear();

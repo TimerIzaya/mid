@@ -1,0 +1,22 @@
+new Uint8Array(4);
+new Uint32Array(129);
+new Int8Array(2);
+class C12 {
+}
+const v13 = new C12();
+new C12();
+const v15 = new C12();
+class C16 extends C12 {
+    constructor(a18, a19) {
+        super();
+        try {
+            Uint32Array.__proto__ = C12;
+        } catch(e20) {
+        }
+        new C12();
+    }
+}
+const v22 = new v13(v15);
+new C16(v22, v22);
+new C16();
+new C16();

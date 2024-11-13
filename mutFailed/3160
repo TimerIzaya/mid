@@ -1,0 +1,88 @@
+class C1 {
+    #a = true;
+    #f = true;
+    static [true] = true;
+    static #b;
+    static #o() {
+        try {
+            this.#o(this, true, this, this, this);
+        } catch(e4) {
+        }
+        return this;
+    }
+}
+function f5(a6) {
+    %VerifyType(true);
+    0 == 268435440n;
+    return true;
+}
+C1.toString = f5;
+new C1();
+const v11 = new C1();
+const v12 = v11?.constructor;
+try { new v12(); } catch (e) {}
+const v14 = new C1();
+Object.defineProperty(v14, "constructor", { configurable: true, enumerable: true, value: f5 });
+const v15 = v14?.constructor;
+v15.toString = f5;
+try { new v15(); } catch (e) {}
+-32149 + -32149;
+function f21() {
+    return C1;
+}
+221 >> 221;
+new Int16Array(221);
+try { Uint32Array.from(Uint32Array); } catch (e) {}
+const v29 = new Uint32Array(247);
+v29[175];
+function f33() {
+    const v35 = /a$\P{Decimal_Number}/gvdims;
+    const v36 = v35[v35];
+    for (let i = 0; i < 5; i++) {
+        const v37 = v35.source;
+        try { v36(true, v37, v37, v37); } catch (e) {}
+        Math.log(true + true);
+    }
+    return f5;
+}
+Uint16Array.constructor = f33;
+const v42 = Uint16Array?.constructor;
+try { new v42(C1); } catch (e) {}
+new Uint16Array(0);
+const v45 = [-1,16,65536];
+try { v45.some(-2); } catch (e) {}
+const v50 = Reflect.construct(Int16Array, [v45]);
+function f51(a52) {
+    class C54 extends Date {
+    }
+    return Reflect;
+}
+Object.defineProperty(v50, Symbol.toPrimitive, { enumerable: true, value: f51 });
+v50[1] = v50;
+let v57 = 1073741824;
+class C59 {
+    constructor(a61) {
+        [a61,v57] = "boolean";
+    }
+}
+const v62 = new C59(Int16Array);
+const v63 = v62?.constructor;
+try { new v63(0); } catch (e) {}
+const v65 = new C59();
+Object.defineProperty(v65, "constructor", { writable: true, value: f21 });
+try { v65.propertyIsEnumerable(221); } catch (e) {}
+function f68(a69, a70, a71) {
+    const v72 = a69?.constructor;
+    try { new v72(v65); } catch (e) {}
+    try { a70.toLocaleLowerCase(); } catch (e) {}
+    a70[22] = a69;
+    const o75 = {
+        ...a71,
+        2: v62,
+        268435439: C59,
+    };
+    return o75;
+}
+const v76 = f68(v65, "-65537", v57);
+v76[268435439];
+f68(v76, "boolean", v76);

@@ -1,0 +1,39 @@
+const v1 = new Date();
+const v2 = [Date,Date];
+[v2];
+[v2,Date,v2,v1];
+const v5 = [-966.562094589919,839.1768275297966,-4.0,-1e-15,290121.0567034683,-1.0,-3.0,-2.220446049250313e-16];
+[2.0,2.2250738585072014e-308,0.3581866172480055,1000000000.0,2.220446049250313e-16,0.3274653275090238,0.3703634155304023,2.0,1.207822844118229e+308];
+const v7 = [5.0,NaN,-3.0,-1.355351412516467e+308,0.5324185208200688,-4.0,0.5857028111286252,-861.01067649897,0.06936761718436724,-4.0];
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a11;
+    try {
+        this.e = v1;
+    } catch(e12) {
+    }
+    try {
+        this.d = v7;
+    } catch(e13) {
+    }
+    try {
+        this.g = a10;
+    } catch(e14) {
+    }
+}
+new F8(v2, v5);
+new F8(v5, v2);
+new F8(v7, F8);
+function f21(a22) {
+    const o23 = {
+    };
+    function f24() {
+        return o23;
+    }
+    Object.defineProperty(o23, 213, { writable: true, configurable: true, enumerable: true, get: f24 });
+    return o23[213];
+}
+%PrepareFunctionForOptimization(f21);
+f21(f21);
+%OptimizeFunctionOnNextCall(f21);
+f21();

@@ -1,0 +1,66 @@
+const v4 = new Map();
+const v5 = v4?.constructor;
+try { new v5(); } catch (e) {}
+function f7(a8) {
+    const o22 = {
+        1000: a8,
+        __proto__: v4,
+        [-701296066]: v4,
+        "b": a8,
+        "d": a8,
+        "f": 1072408892,
+        255: v4,
+        set a(a10) {
+            const v12 = Symbol.iterator;
+            const o21 = {
+                [v12]() {
+                    let v14 = 10;
+                    const o20 = {
+                        next() {
+                            v14--;
+                            const v18 = v14 == 0;
+                            const o19 = {
+                                "done": v18,
+                                "value": v14,
+                            };
+                            return o19;
+                        },
+                    };
+                    return o20;
+                },
+            };
+        },
+    };
+    return o22;
+}
+f7.caller = f7;
+f7(-36166);
+f7(-36166);
+const v25 = f7(1072408892);
+v25.f = v25;
+function F30(a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v34 = this.constructor;
+    try { new v34(268435440n, a33); } catch (e) {}
+    this.f = 268435440n;
+}
+const v36 = new F30();
+const v37 = new F30();
+let v38 = 65536;
+v38--;
+function f40(a41) {
+    const o44 = {
+        ...v38,
+        5: v38,
+        valueOf(a43) {
+            return v36;
+        },
+        "g": v38,
+    };
+    return v37;
+}
+%PrepareFunctionForOptimization(f40);
+v37();
+f40();
+%OptimizeFunctionOnNextCall(f40);
+f40(268435440n);

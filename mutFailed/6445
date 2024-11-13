@@ -1,0 +1,48 @@
+function f0() {
+    let v3 = -51058;
+    v3--;
+    const o9 = {
+        "g": 1671075057,
+        __proto__: 10000,
+        4: v3,
+        [1671075057](a6, a7) {
+            try {
+                this.__proto__ = a7;
+            } catch(e8) {
+            }
+            return 1671075057;
+        },
+    };
+    return o9;
+}
+const v10 = f0();
+f0();
+const v12 = f0();
+v12.valueOf = f0;
+v12[1671075057] = v12;
+let v13 = 2062372882n;
+v13--;
+v13 / v13;
+let v16 = 4n;
+v16 + v16;
+v16--;
+try {
+    const v19 = new f0();
+    v19[1671075057];
+} catch(e21) {
+}
+let v22;
+try { v22 = v12.valueOf(v13, v10); } catch (e) {}
+v22[1671075057];
+let v27 = 65127 << 65127;
+v27--;
+const v30 = 10 != 10;
+const v31 = [64,-6,-60026,-9];
+try { new Int32Array(v16, v30, v30); } catch (e) {}
+const v34 = new Int32Array(v31);
+function f35() {
+    return f0;
+}
+Object.defineProperty(v34, Symbol.toPrimitive, { get: f35 });
+try { v34.reduce(v31); } catch (e) {}
+v34[1] = v34;

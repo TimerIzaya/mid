@@ -1,0 +1,40 @@
+const o12 = {
+    toString(a2, a3) {
+        function F4(a6, a7, a8, a9) {
+            if (!new.target) { throw 'must be called with new'; }
+            let {"c":v10,} = a3;
+        }
+        const v11 = new F4();
+        return v11;
+    },
+};
+try { o12.toString(); } catch (e) {}
+new Map();
+new Date();
+new Uint16Array(10);
+new Uint8Array(755);
+new Uint8ClampedArray(1176);
+const v27 = [601759695];
+function f28(a29) {
+    function f30() {
+        Math.atan(Math);
+        return Math;
+    }
+    f30();
+    return f30;
+}
+v27[Symbol.toPrimitive] = f28;
+function f36(a37, a38, a39, a40) {
+    arguments[2] = arguments;
+    function f42() {
+        Math.max(a39);
+        +a37;
+        return Math.ceil(a37);
+    }
+    f42();
+    %OptimizeFunctionOnNextCall(f42);
+    return f36;
+}
+for (let v48 = 0; v48 < 5; v48++) {
+    f36(v27, v48, v48);
+}

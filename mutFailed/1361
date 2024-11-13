@@ -1,0 +1,66 @@
+class C3 {
+    static #g;
+    constructor(a5) {
+        switch (-1e-15) {
+            case a5:
+                break;
+        }
+        Reflect.construct(a5, [Reflect,Reflect,-1e-15,this,10956], a5);
+    }
+    #f = -1e-15;
+    16 = -1e-15;
+    static #a;
+}
+const v10 = new C3("h");
+const v11 = new C3(10956);
+new C3("h");
+function f16() {
+    return -256n;
+}
+function f17(a18, a19, a20) {
+    const o24 = {
+        "h": a18,
+        [a19]: -1e-15,
+        "d": -1e-15,
+        127: -256n,
+        ["h"]: a20,
+        m(a22, a23) {
+            Object.defineProperty(v11, this, { configurable: true, enumerable: true, get: f16, set: f16 });
+            Object.defineProperty(a22, 1705757072, { configurable: true, enumerable: true, value: -256n });
+            return a22;
+        },
+        268435456: a19,
+        "c": 10956,
+        "g": -256n,
+        "f": v10,
+    };
+    return a18;
+}
+f17(-256n, -4n, "h");
+f17(-4n, -256n, f16);
+const v27 = f17(-43804n, -43804n, f17);
+function f34(a35, a36, a37, a38) {
+    const o41 = {
+        get b() {
+            a38[3] = "-26733";
+            for (let v40 = 0; v40 < 24; v40++) {
+            }
+            return a36;
+        },
+        "e": a38,
+        "f": 1073741825,
+        "a": 1073741825,
+    };
+    return o41;
+}
+const v42 = f34(257, 1535195999, 1535195999, "9007199254740991");
+for (const v43 of "m") {
+    try { v43(v43); } catch (e) {}
+    ("-26733")[v27];
+}
+const v46 = v42[1];
+%PrepareFunctionForOptimization(f34);
+f34();
+f34(1073741825, v46, 1535195999);
+%OptimizeFunctionOnNextCall(f34);
+f34(1073741825, v46, 1535195999);

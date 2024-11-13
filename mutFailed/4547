@@ -1,0 +1,44 @@
+function f0() {
+    let v3 = 1073741824;
+    const o9 = {
+        [128](a5) {
+            let v4 = this;
+            [,v3,v4] = "n";
+            [v4,a5,"n",v3];
+            return [128,[128],128,v4,v4];
+        },
+        "b": v3,
+        "f": 128,
+        __proto__: "n",
+    };
+    return "n";
+}
+f0();
+const v11 = f0();
+const v12 = v11();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a16;
+    } catch(e17) {
+    }
+    try {
+        this.h = v12;
+    } catch(e18) {
+    }
+}
+const v19 = new F13(v12, v11);
+new F13(v11, v12);
+new F13(v19, F13);
+function F25(a27) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const t35 = 7;
+const v28 = new t35(F25);
+function f29(a30) {
+    return v19.toPrimitive;
+}
+v28.toString = f29;
+class C33 {
+    static [v28];
+}

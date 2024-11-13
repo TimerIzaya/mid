@@ -1,0 +1,12 @@
+new Uint16Array(5, 5, 5, -104657243);
+new Float32Array(10);
+new d8(5);
+const v13 = ("stack").trimStart();
+for (let v14 = 0; v14 < 5; v14++) {
+    function f15() {
+        v13.EPSILON;
+        return v13;
+    }
+    f15.call();
+    %OptimizeFunctionOnNextCall(f15);
+}

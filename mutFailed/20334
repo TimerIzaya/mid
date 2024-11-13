@@ -1,0 +1,68 @@
+function f0() {
+    const o9 = {
+        get g() {
+            let v6;
+            try {
+            const t0 = "iterator";
+            v6 = t0(arguments, "iterator", this, arguments, arguments);
+            } catch (e) {}
+            let v7;
+            try { v7 = v6(-1073741824, -1073741824, 265.80524496044154, v6); } catch (e) {}
+            super["iterator"] = v7;
+            try { v6("iterator"); } catch (e) {}
+            return 265.80524496044154;
+        },
+        __proto__: "iterator",
+        2: -1073741824,
+        "g": -1073741824,
+        "b": "iterator",
+        ..."iterator",
+        ..."iterator",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function f13() {
+    return v10;
+}
+const v16 = new Int32Array(1616);
+const v19 = new Uint32Array(1875);
+function f21(a22, a23, a24) {
+    const o25 = {
+        "a": f13,
+        ...v16,
+        3: v19,
+    };
+    return o25;
+}
+f21(14, v12, v12);
+const v27 = f21(v10, 1616, v11);
+f21(Uint32Array, Uint32Array, v10);
+const t39 = 1616;
+new t39(14);
+const v31 = [];
+function f32() {
+    const o33 = {
+        ...v31,
+        "c": v31,
+        "e": v31,
+        "f": v31,
+        "arguments": v31,
+        __proto__: f32,
+    };
+    v31.e = o33;
+    65537 == 4096n;
+    const v39 = new Int32Array(1024);
+    for (const v40 of v39) {
+        const o43 = {
+            "maxByteLength": v27,
+        };
+        new SharedArrayBuffer(1796, o43);
+    }
+    return v31;
+}
+f32();
+f32();
+f32();

@@ -1,0 +1,32 @@
+const v1 = new Set();
+class C5 {
+    static set c(a7) {
+        let v8;
+        try { v8 = new a7(a7, a7, a7, "h", v1); } catch (e) {}
+        v8 = a7;
+        const o12 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o12);
+    }
+}
+const v14 = new C5();
+const v15 = new v14();
+const v16 = new C5();
+class C17 {
+    #h = v15;
+    #p(a19, a20, a21, a22) {
+        %VerifyType(a19);
+        delete v14["h"];
+        new Uint8ClampedArray(127);
+        new Float64Array(4096);
+        new Uint8Array(5);
+        return a20;
+    }
+}
+new v16();
+new C17();
+new C17();
+const v39 = new Date(128, 1000.0);
+v39.setMonth(1000.0);

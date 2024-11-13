@@ -1,0 +1,96 @@
+let v1 = "e";
+const v3 = ["2tlG"];
+const v4 = [v3,v3,v1,"2tlG",v1];
+function f5() {
+    const v6 = v1++;
+    try { ("acos").charCodeAt(v1); } catch (e) {}
+    Object.defineProperty("acos", f5, { writable: true, configurable: true, enumerable: true, set: f5 });
+    Object.defineProperty("2tlG", "acos", { writable: true, enumerable: true, set: f5 });
+    const o8 = {
+        "apply": f5,
+        "call": f5,
+        "getOwnPropertyDescriptor": f5,
+        "getPrototypeOf": f5,
+        "has": f5,
+        "ownKeys": f5,
+        "setPrototypeOf": f5,
+    };
+    new Proxy("acos", o8);
+    return ("acos")[v6];
+}
+Object.defineProperty(v4, Symbol.toPrimitive, { configurable: true, enumerable: true, value: f5 });
+function f14(a15) {
+    const v17 = new Uint8ClampedArray();
+    v17.toReversed();
+    return a15;
+}
+v4.toString = f14;
+[v3,v4,v4,v1];
+class C20 {
+    static [v4];
+    g;
+    #toString(a22, a23, a24, a25) {
+        try { a25.replaceAll(v1, a25); } catch (e) {}
+        const o27 = {
+        };
+        function f29(a30, a31) {
+            const o34 = {
+                set b(a33) {
+                },
+            };
+            return o34;
+        }
+        const v35 = f29();
+        for (const v36 in v35) {
+            Object.defineProperty(v35, v36, { set: f29 });
+        }
+        new Proxy(a22, o27);
+        return a25;
+    }
+    #b = "2tlG";
+    ["2tlG"] = v3;
+}
+const v38 = new C20();
+new C20();
+new C20();
+class C41 extends C20 {
+    o(a43, a44, a45) {
+        super.g = v3;
+        const o49 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o49);
+        return a45;
+    }
+}
+if (v1) {
+    function f51() {
+        return C20;
+    }
+} else {
+    try {
+        Symbol.__proto__ = v38;
+    } catch(e52) {
+    }
+}
+new C41();
+new C41();
+new C41();
+function f56(a57) {
+    [49109,8,393857114,-4294967297,1000,-1475287688,-15];
+    [4,-2147483647,-1073741824,-9223372036854775807,1073741825,257,4,-2,268435440];
+    [49813,4,1000,-22374,-43866];
+    const o64 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o64);
+    const o66 = {
+        [a57]: a57,
+    };
+    return a57;
+}
+%PrepareFunctionForOptimization(f56);
+f56();
+f56(5.0);

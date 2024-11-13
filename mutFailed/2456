@@ -1,0 +1,70 @@
+const v5 = new Uint8Array(6);
+const v8 = new BigUint64Array(163);
+const v11 = new Int16Array(0);
+v8 != v5;
+const v19 = Symbol.iterator;
+v11[v19] = -65535n;
+try {
+    v19.__proto__ = v11;
+} catch(e20) {
+}
+new Int16Array(127);
+const v24 = new Uint32Array(257);
+(-65535n & -155725462n) >>> 6;
+function F27(a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = Int16Array;
+    } catch(e31) {
+    }
+    try {
+        this.c = v19;
+    } catch(e32) {
+    }
+}
+new F27(0, 1183782876n);
+new F27(0, -155725462n);
+new F27(257, -155725462n);
+const v38 = new Float64Array(127);
+class C39 {
+    static b = Int16Array;
+    5;
+    f;
+    #e = 257;
+    static 2;
+    static #p(a41, a42) {
+        try {
+            this.#e;
+        } catch(e44) {
+        }
+        this.b;
+        %VerifyType(a42);
+        return v38;
+    }
+}
+new C39();
+new C39();
+const v48 = new C39();
+function f52() {
+    function f54(a55) {
+        const v56 = [v48,a55,a55,C39];
+        let v57 = [a55,this,this,this,Float64Array];
+        ++v57;
+        for (let v60 = 0; v60 < 100; v60++) {
+            f54(v24);
+        }
+        [257,v56];
+    }
+    this.onmessage = f54;
+    delete C39[7];
+    try {
+        this.valueOf = f54;
+    } catch(e64) {
+    }
+}
+const v67 = [];
+const o68 = {
+    "arguments": v67,
+    "type": "function",
+};
+new Worker(f52, o68);

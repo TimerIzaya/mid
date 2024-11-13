@@ -1,0 +1,30 @@
+function f0() {
+}
+const v1 = [-1,-9007199254740991,-12,-9007199254740991,-3,1545795681,6,-16];
+[268435441];
+[64,-65535,1073741824,9007199254740992,19989,13,17822,1,-65536];
+const v12 = new Uint32Array(256);
+let v15;
+try { v15 = v12.join(v1); } catch (e) {}
+f0();
+%PrepareFunctionForOptimization(f0);
+const v17 = v15();
+f0();
+%OptimizeMaglevOnNextCall(f0);
+f0();
+new Uint32Array(256);
+new BigInt64Array(64);
+for (let v24 = 0; v24 < 5; v24++) {
+    function F27(a29, a30, a31, a32) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.toStringTag = Uint32Array;
+        const v33 = a29.constructor;
+        v24 = 256;
+        Object.defineProperty(this, "d", { writable: true, configurable: true, enumerable: true, value: Uint32Array });
+        this[a29] ^= ("toStringTag").length;
+        [a30];
+        try { new v33(a29, v17); } catch (e) {}
+        this.isPrototypeOf();
+    }
+    new F27("toStringTag", "toStringTag");
+}

@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 1162650867;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+v6.a = v6;
+function f7() {
+    return v6;
+}
+function f8() {
+    return v4;
+}
+f8.g = f8;
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(a12, v6); } catch (e) {}
+    try {
+        this.c = f7;
+    } catch(e14) {
+    }
+}
+new F9(v4, v5);
+const v16 = new F9(v4, v5);
+const v17 = new v16(v4, v6);
+try { v17.isPrototypeOf(v4); } catch (e) {}
+[-1668517014,47648,1,-583650218,14,-3,15,255];
+const v20 = [13697,1583861625,2,-256,-40934,6,-12,-4096];
+v20[7] = v20;
+[2,-2147483647,720768288,536870887,-3061,-2147483647];
+const v24 = new v20(Uint8Array);
+function f25(a26, a27, a28, a29) {
+    a28++ << a28;
+    const o32 = {
+        ...v24,
+    };
+    o32[2] = o32;
+    const v33 = o32[2];
+    v33[1] = 4294967295;
+    const t43 = v33[2];
+    t43[2] = a27;
+    v33 >>> v33;
+    return v33;
+}
+function f36() {
+    return f36;
+}
+const v37 = f36.arguments;
+function f38() {
+    for (let v39 = 0; v39 < 5; v39++) {
+        v39 % v39;
+        function f41() {
+            return f41;
+        }
+        Array(36862, v37);
+    }
+    return v37;
+}
+%PrepareFunctionForOptimization(f38);
+f38();
+%OptimizeFunctionOnNextCall(v17);
+f36();

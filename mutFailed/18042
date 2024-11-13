@@ -1,0 +1,51 @@
+const v0 = [];
+const v1 = [v0,v0];
+const v2 = [v1,v0,v1,v0];
+function f3(a4) {
+    class C5 {
+        static #a;
+    }
+    return C5;
+}
+v2.toString = f3;
+const v6 = [v1,v2,v2];
+v6.toString = f3;
+function f7(a8) {
+    a8[Symbol.toPrimitive] = f7;
+    const o14 = {
+        "d": v6,
+        [v6](a12) {
+            v1[129];
+            a8[15] = a8;
+            super[v6] = this;
+            return v0;
+        },
+        487862508: v2,
+        "b": v0,
+        "a": a8,
+        "g": a8,
+        "f": v6,
+        ...a8,
+        [v0]: a8,
+        "c": v0,
+    };
+    return o14;
+}
+f7(v0);
+f7(v6);
+f7(v1);
+[8,14,268435456,536870889];
+[3,-51576,29344,8,8,268435456,1024,256,5,7];
+[9007199254740990,279225562,129,249367329,-9007199254740991,1073741823,-11];
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+for (let v31 = 0; v31 < 5; v31++) {
+    function f32() {
+        const v34 = Array();
+        try { v34.some(F25); } catch (e) {}
+        return ([]).includes();
+    }
+    f32();
+    %OptimizeFunctionOnNextCall(f32);
+}

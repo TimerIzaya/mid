@@ -1,0 +1,43 @@
+new Uint32Array(16);
+new Float32Array(9007199254740991n);
+new Float64Array(3509);
+new Uint8ClampedArray(256);
+new BigInt64Array(24);
+const v23 = Uint8Array?.constructor;
+try { new v23(Uint8ClampedArray); } catch (e) {}
+new Uint8Array(Uint8ClampedArray);
+-9223372036854775807n | -9223372036854775807n;
+-(-30326n);
+function F34() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v36 = this?.propertyIsEnumerable;
+    try { new v36(-30326n); } catch (e) {}
+    this.a = this;
+    3872 >>> 3872;
+    try {
+        this.a = 3872;
+    } catch(e40) {
+    }
+}
+const v41 = new F34();
+const v42 = new F34();
+(932217726n).length;
+new F34();
+62324 & 62324;
+4294967295 * 4294967295;
+function F50(a52, a53, a54) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { new a53(); } catch (e) {}
+    a54.f = a54;
+    try {
+        this.b = a53;
+    } catch(e56) {
+    }
+}
+new F50(4294967295, F34, v41);
+new F50(62324, F50, v42);
+const v60 = Symbol.toPrimitive;
+const o62 = {
+    [v60]() {
+    },
+};

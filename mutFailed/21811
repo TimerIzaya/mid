@@ -1,0 +1,98 @@
+function f0() {
+    const o4 = {
+        10: "number",
+        "h": "a",
+        "g": "number",
+        11: "a",
+        ..."a",
+        ..."number",
+        "a": "number",
+        ..."number",
+        __proto__: "number",
+        "e": -10,
+        "c": "a",
+        3: "a",
+        "f": "number",
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e12) {
+    }
+    try {
+        this.f = a10;
+    } catch(e13) {
+    }
+    try {
+        this.e = a11;
+    } catch(e14) {
+    }
+}
+const v15 = new F8(v7, v5);
+const v16 = new F8(v7, v7);
+const v17 = new F8(v6, v7);
+class C18 {
+    static p(a20, a21) {
+        if (a21 == v16) {
+            const o23 = {
+                "getOwnPropertyDescriptor": f0,
+            };
+            new Proxy(v7, o23);
+        } else {
+            super.a;
+        }
+        super.g = f0 ** a21;
+        let {"c":v28,"e":v29,"g":v30,...v31} = v6;
+        return v15;
+    }
+    constructor(a33, a34, a35, a36) {
+        function f37(a38, a39) {
+            a38 && v5;
+            this[129];
+            return a38;
+        }
+        f37(this, a36);
+        f = v15;
+        v17[v16] = a33;
+        v5 instanceof F8;
+        try {
+            const o44 = {
+            };
+            f37(this, o44);
+        } catch(e46) {
+        }
+        const o50 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o50);
+    }
+}
+new C18(v6, v17, v5, v5);
+const v53 = new C18(v15, v5, v5, v15);
+new C18(v5, v17, v5, v53);
+for (let v58 = 0; v58 < 25; v58++) {
+    const v59 = [601759695];
+    const v60 = [1073741824,1073741823,1376142744,1073741825];
+    function f61(a62, a63, a64, a65) {
+        let v67 = 536870887;
+        v67++;
+        BigUint64Array * v67;
+        try { v60["find"](..."find", a65, ...v59, ...v60); } catch (e) {}
+        return v60;
+    }
+    for (let v72 = 0; v72 < 5; v72++) {
+        f61();
+    }
+}
+for (let v74 = 0; v74 < 100; v74++) {
+    f0();
+}
+f0();
+try { v16["hypot"](C18, f0); } catch (e) {}

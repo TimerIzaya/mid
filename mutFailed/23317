@@ -1,0 +1,66 @@
+let v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v0;
+    } catch(e3) {
+    }
+    try {
+        this.b = v0;
+    } catch(e4) {
+    }
+}
+new F1();
+const v6 = /y((((.).).).)*/gus;
+/j(?:a+)?/guiy;
+let v8 = /\ud808\udf45*/dims;
+const v10 = Symbol.iterator;
+const o19 = {
+    [v10]() {
+        let v12 = 10;
+        const o18 = {
+            next() {
+                v12--;
+                const v16 = v12 == 0;
+                const o17 = {
+                    "done": v16,
+                    "value": v12,
+                };
+                return o17;
+            },
+        };
+        return o18;
+    },
+};
+new F1();
+const v21 = new F1();
+let v23 = "-4294967295";
+class C25 {
+    static get a() {
+        let v30 = 0;
+        while (v30 < 10) {
+            for (let v33 = 0; v33 < 32; v33++) {
+                this["p" + v33] = v33;
+            }
+            v30++;
+        }
+        return 7;
+    }
+    static {
+        let v38;
+        try { v38 = F1(); } catch (e) {}
+        v38.a |= v38;
+        super[v23] = v23;
+    }
+}
+new C25();
+new C25();
+new C25();
+let v42 = [1,4294967296,-9007199254740992,4,-4294967295,-9,-4294967297,255,536870888,255];
+const v43 = [v42,v42,v42];
+switch (v6) {
+    case v21:
+        ({"a":v0,"d":v8,"length":v23,...v42} = v23);
+        break;
+}
+Array(1102693041).slice(v43, v42);

@@ -1,0 +1,80 @@
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = 10;
+    try {
+        this.e = a11;
+    } catch(e14) {
+    }
+    try {
+        this.a = 256;
+    } catch(e15) {
+    }
+}
+const v16 = new F9(1637125391, -5n, 1000n);
+new F9(256, 12n, -5n);
+new F9(1637125391, -5n, 1000n);
+class C19 {
+    #h;
+    get c() {
+        try {
+            v16.a = this;
+        } catch(e21) {
+        }
+        delete v16[8];
+        this[650] = 7;
+        const o25 = {
+            "maxByteLength": 1073741825,
+        };
+        const v27 = new SharedArrayBuffer(10, o25);
+        new Uint8Array(v27);
+        return 1073741825;
+    }
+}
+new C19();
+new C19();
+new C19();
+const v33 = [];
+function f34() {
+    function f35(a36, a37) {
+        const v38 = [-1.3667473485475811e+308,1.7976931348623157e+308,5.0,-3.583919688173468e+307,-1.5320462342133301e+308,-414873.4859108749,286122.8434793174,866.7395286670867,-1000.0,-742782.9714922046];
+        const o47 = {
+            __proto__: v38,
+            valueOf(a41, a42) {
+                return v38;
+            },
+            ["-1073741824"](a44, a45, a46) {
+            },
+        };
+        o47.copyWithin();
+        return v16;
+    }
+    return f35;
+}
+Object.defineProperty(v33, Symbol.toPrimitive, { enumerable: true, get: f34 });
+function f51() {
+    const o53 = {
+        p() {
+            return f51;
+        },
+        [v33]: v33,
+        "a": v33,
+    };
+    return v33;
+}
+const v54 = f51();
+const v55 = f51();
+v55.valueOf = f51;
+const v56 = f51();
+v56[Symbol.toPrimitive] = f51;
+[65536];
+[-267,-4,-32045,-4];
+[14,268435441,-9223372036854775807];
+new Float64Array(14);
+const v67 = new Uint8ClampedArray(0);
+const v70 = new BigInt64Array(218);
+let v71;
+try { v71 = v70.sort(f51); } catch (e) {}
+try { v71(v55, v71, v71, ...v67, v54, ...v54); } catch (e) {}
+const v73 = (a74, a75) => {
+    return v56 * a75;
+};

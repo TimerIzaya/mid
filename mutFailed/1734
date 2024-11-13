@@ -1,0 +1,71 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        __proto__: f0,
+        ...f0,
+        [f0]() {
+            try {
+                new f0();
+            } catch(e4) {
+            }
+            return super.g;
+        },
+        "h": f0,
+        "d": f0,
+        "f": f0,
+        "e": f0,
+        "g": f0,
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+const v9 = f1();
+try { Array.isArray(f1); } catch (e) {}
+const v13 = new Array(0);
+let v14;
+try { v14 = v13.toSorted(f0); } catch (e) {}
+536870888n - 536870888n;
+9007199254740991n / 9007199254740991n;
+function f23(a24, a25, a26, a27) {
+    let v28;
+    try { v28 = a24.f(); } catch (e) {}
+    try { v28(); } catch (e) {}
+    const o39 = {
+        [0]: f1,
+        "c": a24,
+        ...v9,
+        "h": v7,
+        "g": 536870912n,
+        n(a31, a32) {
+            try { v13.toString(); } catch (e) {}
+            const v34 = a24[0];
+            this == v34;
+            [f1,a25,"1073741825",a32,0];
+            [[v34,this]];
+            return a26;
+        },
+        __proto__: "1073741825",
+    };
+    o39[0];
+    return o39;
+}
+f23(v9, "source", v8, f1);
+const v42 = f23(v7, 0, v7, Array);
+f23(v8, v42, v9, v14);
+function F44() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v46 = new F44();
+const v47 = v46?.constructor;
+try { new v47(); } catch (e) {}
+const v49 = new v42();
+class C50 extends F44 {
+    [v49];
+}
+C50.d = C50;
+const v51 = new C50();
+const v52 = v51?.constructor;
+try { new v52(); } catch (e) {}
+v51.hasOwnProperty(v46);

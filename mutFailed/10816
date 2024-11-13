@@ -1,0 +1,65 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        [2.0,950.8069756864945,1000000.0];
+        [0.12787401070080118,NaN,NaN,2.2250738585072014e-308,-853495.498868237,1.2677986705834737e+308,-5.0];
+        [-Infinity,1000000.0,NaN];
+        this.f = 1024;
+    } catch(e9) {
+    }
+    try {
+        this.a = 1024;
+    } catch(e10) {
+    }
+}
+const v11 = new F0();
+const v12 = new F0();
+const v13 = new F0();
+const v14 = [F0,v11,v11,v13,v13];
+v14.length;
+const v16 = [F0];
+v16[0] = v16;
+[v11,v11,v12,v16];
+function f18() {
+    return v16;
+}
+function f19() {
+    return v16;
+}
+let v20 = -26504n;
+v20--;
+const v22 = v20 + v20;
+v22 << v22;
+let v24 = -24520n;
+v24++;
+v24--;
+const v28 = -13n >> -13n;
+v28 << v28;
+function f32(a33, a34, a35, a36) {
+    try { a33.from(F0); } catch (e) {}
+    let v38;
+    try { v38 = new a33(v14, F0, a34); } catch (e) {}
+    const v39 = v38?.lastIndexOf;
+    a36[3] = a34;
+    for (let v40 = 0; v40 < 32; v40++) {
+        a34["p" + v40] = v40;
+    }
+    try { new v39(a35); } catch (e) {}
+    const v44 = a33.length;
+    a33.BYTES_PER_ELEMENT = v44;
+    let v45 = 3 | a34;
+    let v46 = v45++;
+    v46--;
+    const v48 = a33 / a33;
+    v48 % v48;
+    !(a34 < a33);
+    const o55 = {
+        n(a53, a54) {
+            return v44;
+        },
+    };
+    return a35;
+}
+for (let v56 = 0; v56 < 625; v56++) {
+    f32(Uint8Array);
+}

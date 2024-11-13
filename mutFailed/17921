@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = F0;
+    try {
+        this.f = -953842070;
+    } catch(e3) {
+    }
+    try {
+        F0.h = -953842070;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new v5();
+new F0();
+const t15 = -455886.7627425683;
+new t15();
+for (let v19 = 0; v19 < 25; v19++) {
+    const v20 = [601759695];
+    const v21 = [1073741824,1073741823,1376142744,1073741825];
+    function f22(a23, a24, a25, a26) {
+        const v28 = ("find").codePointAt(a26);
+        try { v21["find"](..."find", a26, ...v20, -1e-15, v28); } catch (e) {}
+        return a23;
+    }
+    for (let v30 = 0; v30 < 10; v30++) {
+        f22(v20, v21, v30, v30);
+    }
+}

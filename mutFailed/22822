@@ -1,0 +1,41 @@
+const v2 = new Float32Array(5);
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a7;
+    } catch(e8) {
+    }
+}
+const v9 = new F4(v2, 5);
+new F4(v2, v9);
+const v11 = new F4(v9, 5);
+new Int16Array(6);
+const v16 = new Float64Array(10);
+function f20() {
+    function f22(a23) {
+        try {
+            v2.byteLength = 17984;
+        } catch(e24) {
+        }
+    }
+    this.onmessage = f22;
+    for (let v25 = 0; v25 < 32; v25++) {
+        v11["p" + v25] = v25;
+    }
+}
+const v30 = [];
+const o31 = {
+    "arguments": v30,
+    "type": "function",
+};
+new Worker(f20, o31);
+for (let v33 = 0; v33 < 5; v33++) {
+    function f34() {
+        const v35 = v16.buffer;
+        const v37 = [];
+        Reflect.apply(v16.toReversed, v35, v37);
+        return ([-1000.0,351.94489669740733,5.8623101046484845,-160881.40611645568,0.6390643538224362,9.13027568774574]).slice();
+    }
+    f34();
+    %OptimizeFunctionOnNextCall(f34);
+}

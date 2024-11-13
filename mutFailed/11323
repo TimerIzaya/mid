@@ -1,0 +1,84 @@
+function f0() {
+    Object.defineProperty("POSITIVE_INFINITY", "length", { writable: true, configurable: true, get: f0 });
+    f0();
+    %PrepareFunctionForOptimization(f0);
+    f0();
+    f0();
+    %OptimizeFunctionOnNextCall(f0);
+    f0();
+    ([-1.5529887870333795e+308,-748.1650295275717,0.9205726241487137,1.0,-1000.0,-3.1477078363151474,2.220446049250313e-16,Infinity]).reverse();
+    class C10 {
+    }
+    ([C10]).constructor;
+    const o26 = {
+        "a": "POSITIVE_INFINITY",
+        set b(a14) {
+        },
+        "execution": "POSITIVE_INFINITY",
+        ..."f",
+        o(a16) {
+            const o18 = {
+            };
+            return gc(o18);
+        },
+        3: "POSITIVE_INFINITY",
+        "e": -536870912,
+        [-536870912]: "POSITIVE_INFINITY",
+        "c": "POSITIVE_INFINITY",
+        ["f"](a21) {
+            return 46430;
+        },
+    };
+    return o26;
+}
+f0();
+function f29(a30, a31) {
+    return -9223372036854775807;
+}
+let v32 = 10;
+new BigUint64Array(v32);
+f0();
+f0();
+[22654,-128,65536,3,536870888,-1557855695];
+v32++;
+function f40() {
+    const o43 = {
+        [null]() {
+            super.b;
+        },
+        "f": null,
+    };
+    return o43;
+}
+f40();
+const v45 = f40();
+const v46 = [9007199254740992,10,65537,-1045040499,255,15260,-10848];
+[-3,17060,-268435456,4,-9,2147483647,1697736795,-377703111,257,15];
+function f48() {
+    return v46;
+}
+new Uint16Array(3208);
+const v54 = new BigInt64Array(2488);
+new Uint32Array(47);
+function f58() {
+    const v59 = [];
+    Math.atan2(v59, -40875);
+    const v64 = new WeakSet();
+    const o65 = {
+        "e": v59,
+        "b": v64,
+    };
+    let v66 = -9223372036854775808n;
+    Object.defineProperty(v59, "d", { writable: true, get: f48, set: f58 });
+    const v69 = [v54];
+    [-40875,[v69,v45,f48,v69,v69],o65];
+    v66 %= 45725n;
+    return 45725n;
+}
+for (let v73 = 0; v73 < 5; v73++) {
+    f58();
+    for (let v76 = 0; v76 < 5; v76++) {
+        Array(36862);
+    }
+    %OptimizeFunctionOnNextCall(f58);
+}

@@ -1,0 +1,147 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3) {
+        !a3;
+        return Math.atanh(0.033437543729764596);
+    }
+    this.toString = f2;
+    try {
+        this.g = -10;
+    } catch(e9) {
+    }
+    try {
+        this.b = -10;
+    } catch(e10) {
+    }
+}
+const v11 = new F0();
+function f12(a13, a14) {
+    const o15 = {
+    };
+    try {
+        o15.e = a14;
+    } catch(e16) {
+    }
+    try {
+        const o17 = {
+        };
+        o17.e = a14;
+        o17.a = a14;
+    } catch(e18) {
+    }
+    try {
+        const o19 = {
+        };
+        o19.e = a14;
+        o19.a = a14;
+        o19.b = F0;
+    } catch(e20) {
+    }
+    try {
+        const o21 = {
+        };
+        o21.e = a14;
+        o21.a = a14;
+        o21.d = v11;
+    } catch(e22) {
+    }
+    return a14;
+}
+v11.toString = f12;
+const v23 = new F0();
+const v24 = new F0();
+function f25() {
+    return v23;
+}
+class C26 {
+    constructor(a28, a29) {
+        function f30(a31) {
+            const v34 = new Uint8ClampedArray(4096);
+            const v36 = [v34];
+            const o37 = {
+                "arguments": v36,
+                "type": "function",
+            };
+        }
+        Object.defineProperty(a28, "g", { writable: true, set: f30 });
+        const v38 = a29?.[v11];
+        f25 |= a29;
+        const v39 = a28 !== v24;
+        if (v39) {
+            try {
+                a29.g = v11;
+            } catch(e40) {
+            }
+        } else {
+            new F0();
+            try { v38(this, v38, v39, v23); } catch (e) {}
+        }
+    }
+    static #p(a44, a45, a46) {
+        try { a46.p(F0, v11, a44, this); } catch (e) {}
+        for (let v48 = 0; v48 < 32; v48++) {
+            this["p" + v48] = v48;
+        }
+        return C26;
+    }
+}
+function f51(a52, a53) {
+    function F54(a56, a57) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.e = a57;
+        } catch(e58) {
+        }
+        try {
+            this.d = a53;
+        } catch(e59) {
+        }
+    }
+    new F54(a52, v11);
+    new F54(v24, a53);
+    new F54(C26, v23);
+    return C26;
+}
+C26.toString = f51;
+const v63 = new C26(v24, C26);
+const v64 = new C26(v11, v63);
+const v65 = new C26(C26, C26);
+function f66(a67, a68, a69) {
+    const o70 = {
+        __proto__: v64,
+        "f": v24,
+        "a": v63,
+        ...v63,
+        "e": a69,
+        "c": f25,
+        10: v65,
+        "h": a68,
+        0: a68,
+        ...a68,
+        9: f25,
+        "g": v64,
+        1348586161: C26,
+        "b": a67,
+    };
+    o70.fuck = f12;
+    return o70;
+}
+f66(C26, v65, v63);
+const v72 = f66(v23, v24, v65);
+const v73 = f66(v72, v72, v72);
+[f66,v73];
+const t131 = [v23,[v63,F0],f66,v73,v63];
+t131[4] = v11;
+Object.defineProperty(v65, "b", { configurable: true, enumerable: true, get: f66, set: f66 });
+try {
+    v73.fuck(f66, f66);
+} catch(e78) {
+}
+for (let v79 = 0; v79 < 10; v79++) {
+    function f80(a81, a82, a83) {
+        return a81;
+    }
+    const t143 = f80.constructor;
+    t143();
+    gc();
+}

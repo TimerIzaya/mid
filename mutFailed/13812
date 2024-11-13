@@ -1,0 +1,35 @@
+const v4 = new Set();
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a7;
+    } catch(e9) {
+    }
+    try {
+        this.c = v4;
+    } catch(e10) {
+    }
+    try {
+        a7.e = a7;
+    } catch(e11) {
+    }
+}
+new F5(37453n, -43546n);
+new F5(37453n, v4);
+new F5(-2n, -2n);
+class C15 extends Set {
+    static {
+        let v17 = 0;
+        do {
+            this / 37453n;
+            v17++;
+        } while (v17 < 0)
+    }
+    static [v4] = -43546n;
+    2689;
+    static #c;
+}
+new C15();
+new C15();
+new C15();
+/p[a-zA-Z0-9]a||bc/gvm;

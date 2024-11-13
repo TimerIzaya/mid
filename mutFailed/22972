@@ -1,0 +1,64 @@
+const v1 = new WeakSet();
+function f2(a3) {
+    const o9 = {
+        __proto__: v1,
+        valueOf(a5) {
+            let v6;
+            try { v6 = v1.add(a3); } catch (e) {}
+            try {
+                super.p(this, a5, v1, this);
+            } catch(e8) {
+            }
+            return v6;
+        },
+        "h": v1,
+        1: a3,
+        2: f2,
+        "d": f2,
+        "e": WeakSet,
+        "g": WeakSet,
+        "c": a3,
+        "e": v1,
+        10: a3,
+        ...a3,
+        6: a3,
+    };
+    return o9;
+}
+const v11 = f2(f2(WeakSet));
+const v12 = f2(v1);
+for (let [v13,...v14] of v12) {
+    v11[v13];
+}
+v11[Symbol.split];
+const v21 = 1283779522 - 1283779522;
+const v23 = [5,-5828,-9007199254740992,203846358,268435439,487859878,16];
+v23.g = v23;
+const v24 = [-10,-2147483647,1073741825,38879,35478,65535];
+const v25 = `
+    v12[v21];
+`;
+eval(v25);
+const v33 = [[38897,2,-8388,1024,43834,128,51916,-14],v12,v24,WeakSet,WeakSet];
+const v34 = [v24,WeakSet,v33,v1,v33];
+v34[3] = v34;
+[f2];
+const v36 = /8\x01/guis;
+v36.dotAll = v36;
+const v37 = /a\sc/gm;
+const v38 = v37?.test;
+try { new v38(v37); } catch (e) {}
+function f40(a41) {
+    const o44 = {
+        n(a43) {
+            return a43;
+        },
+        [a41]: a41,
+    };
+    return a41;
+}
+const v45 = f40(v37);
+v45.dotAll = v45;
+f40();
+const v47 = f40(v36);
+v47.b = v47;

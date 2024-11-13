@@ -1,0 +1,17 @@
+-Infinity;
+new Map();
+function f14() {
+    return 1000000000.0;
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    a17.hasOwnProperty(F15);
+    const v20 = ("string").constructor;
+    try { new v20(); } catch (e) {}
+}
+const v22 = new F15();
+v22.constructor = f14;
+const v23 = v22.constructor;
+const v25 = Symbol.toPrimitive;
+v23[v25] = f14;
+new v25();

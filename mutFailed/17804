@@ -1,0 +1,26 @@
+function f0() {
+    const o10 = {
+        __proto__: "512",
+        "e": -4294967296,
+        [9007199254740990]: "512",
+        set c(a5) {
+            ("512")[4130224441];
+            function f7(a8) {
+                return 9007199254740990;
+            }
+            class C9 extends f7 {
+                ["512"] = -4294967296;
+                [-2] = f7;
+            }
+        },
+    };
+    return o10;
+}
+f0();
+f0();
+f0();
+new Uint8ClampedArray(16);
+new Int8Array(8);
+new BigInt64Array(93);
+Math.toString = f0;
+Math.cosh(Math);

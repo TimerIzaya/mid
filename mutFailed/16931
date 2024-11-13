@@ -1,0 +1,29 @@
+const o7 = {
+    valueOf() {
+        let {"a":v4,"d":v5,"g":v6,} = this;
+        return "n";
+    },
+};
+[-3.0,-0.09428424132476465,-4.0,-1.0,-1.1992547700551555,0.6582870672247528,1000.0];
+[1e-15,-942660.4052344265,0.42322784028384186];
+[-4.0,-4.0];
+function f17() {
+    var h = "boolean";
+    !"p";
+    f17();
+    %PrepareFunctionForOptimization(f17);
+    f17();
+    f17();
+    %OptimizeMaglevOnNextCall(f17);
+    f17();
+    return f17;
+}
+function F23() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (const v28 of Array(19793)) {
+    }
+    const v32 = new Int32Array(56885);
+    f17(...v32, 127);
+}
+new F23();
+new F23();

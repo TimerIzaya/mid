@@ -1,0 +1,26 @@
+class C3 {
+    constructor(a5, a6) {
+        const o9 = {
+            "species": 4096,
+        };
+        const v11 = new SharedArrayBuffer(536870887, o9, a5, SharedArrayBuffer);
+        new BigInt64Array(v11, a5);
+    }
+    ["object"];
+    ["return"] = "return";
+    static #f;
+}
+new C3("object", "string", "return", "object", C3, "string");
+const v15 = new C3("return", "string");
+new C3("object", "string", "string");
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a19;
+    } catch(e21) {
+    }
+}
+const v22 = new F17("string", "string");
+const v23 = new F17(v22, "return");
+new F17(v23, v15, "string", v15);
+("toString").match();

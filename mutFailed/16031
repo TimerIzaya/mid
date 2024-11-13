@@ -1,0 +1,25 @@
+const v1 = new WeakMap();
+const v2 = [v1,WeakMap,WeakMap,v1,WeakMap];
+const v4 = [v1,v1,v2,[WeakMap,v2,WeakMap,v1],v2];
+new Uint8Array(257);
+new Int16Array(16);
+new Int32Array(4096);
+function f14() {
+    return Uint8Array;
+}
+class C17 {
+    [-1] = 4096;
+}
+const v18 = new C17();
+const v19 = new v2();
+const v20 = new Uint8Array();
+class C21 {
+    constructor(a23, a24, a25, a26) {
+        for (const v27 in a23) {
+        }
+        a25.d = "8";
+    }
+}
+new C21(-1.6777590795239637e+308, v4, v18);
+const v29 = new C21(v19, v18, v18);
+new C21(v29, v20, 16);

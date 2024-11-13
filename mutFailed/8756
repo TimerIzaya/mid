@@ -1,0 +1,10 @@
+new Float64Array(6);
+BigInt64Array.prototype = BigInt64Array;
+const v8 = new BigInt64Array(3);
+try { new Uint16Array(BigInt64Array, 6, v8); } catch (e) {}
+const v12 = new Uint16Array(902);
+v12[145] = v12;
+const t6 = 16;
+const v15 = new t6(16);
+try { v15.apply(Float32Array, Float64Array); } catch (e) {}
+try { Float32Array.apply(16, v15); } catch (e) {}

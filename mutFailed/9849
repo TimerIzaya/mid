@@ -1,0 +1,84 @@
+const v1 = new Set();
+const v2 = [Set,Set,Set];
+v2.g = Set;
+const v3 = [v1,v2];
+const v4 = [v1,Set,Set];
+function f5(a6, a7) {
+    let v8 = "max";
+    class C10 {
+        set a(a12) {
+            v8 = this;
+            const o13 = {
+            };
+            o13.g = v8;
+            const o14 = {
+            };
+            o14.g = v8;
+            const o15 = {
+            };
+            o15.g = v8;
+            const o16 = {
+            };
+            o16.g = v8;
+        }
+    }
+    const v17 = new C10();
+    try {
+        v17.fuck(v8, "h");
+    } catch(e19) {
+    }
+    return "h";
+}
+v4.valueOf = f5;
+function f20(a21, a22) {
+    function f23() {
+        return a22;
+    }
+    function f24(a25) {
+        const o26 = {
+            "apply": f5,
+            "deleteProperty": f5,
+            "isExtensible": f5,
+            "set": f23,
+        };
+        new Proxy(v2, o26);
+    }
+    Object.defineProperty(a22, "g", { writable: true, enumerable: true, get: f23, set: f24 });
+    try { a21.copyWithin(Set, v2); } catch (e) {}
+    a22.g = a22;
+    const o37 = {
+        toString(a31, a32, a33) {
+            const v34 = this.c;
+            super.d = v1;
+            try {
+                super.getFloat32(Set, v34, a22);
+            } catch(e36) {
+            }
+            return a31;
+        },
+        "a": v4,
+        [-2]: v2,
+        ...v3,
+        "d": v4,
+    };
+    o37[1] = o37;
+    return o37;
+}
+try { f20.call(v1); } catch (e) {}
+f20(v2, v2);
+f20(v3, v4);
+f20(v4, v4);
+Object.defineProperty(Float64Array, "b", { configurable: true, value: Float64Array });
+Float64Array.b = Float64Array;
+new Float64Array(3841);
+const v47 = new Float64Array(128);
+v47.valueOf = f20;
+try { v47.slice(v4, v47); } catch (e) {}
+let v49 = 2;
+v49++;
+new Int8Array(v49);
+function f54() {
+    return 2147483648n;
+}
+%OptimizeFunctionOnNextCall(f54);
+f54();

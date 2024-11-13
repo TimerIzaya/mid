@@ -1,0 +1,76 @@
+const v4 = new Date();
+const v5 = v4?.setFullYear;
+try { new v5(127, 1073741824, v4); } catch (e) {}
+let v7 = 22;
+v7--;
+new Float32Array(v7);
+new Int8Array(512);
+3 >>> 3;
+const v17 = new Int8Array(3);
+v17[1] = v17;
+class C19 {
+    static {
+        const v22 = Symbol.hasInstance;
+        Symbol.for(v22.description);
+        const v26 = this[v22];
+        v26.length = v26;
+    }
+    #p() {
+        let v28;
+        try { v28 = this.p(undefined, this, this, this, this); } catch (e) {}
+        try {
+            v28.#p(undefined, v28, v28, undefined);
+        } catch(e30) {
+        }
+        return undefined;
+    }
+    static #a = undefined;
+    c = undefined;
+}
+const v31 = C19?.constructor;
+try { new v31(-1); } catch (e) {}
+const v33 = new C19();
+const v34 = new C19();
+const v35 = new C19();
+function f36(a37) {
+    const o44 = {
+        15: a37,
+        toString(a39, a40) {
+            this[2147483647];
+            super.h = a40;
+            try { C19.stringify(a37, a37, this); } catch (e) {}
+            try {
+                C19.c = v33;
+            } catch(e43) {
+            }
+            return a39;
+        },
+        2147483647: undefined,
+        __proto__: v34,
+        "c": a37,
+        ...a37,
+        "f": a37,
+    };
+    const v45 = o44?.f;
+    try { new v45(); } catch (e) {}
+    return o44;
+}
+const v47 = f36(C19);
+f36(v35);
+f36(v47);
+-65536n & -65536n;
+[0.0,26.917886948179785];
+[4.0,-6.418452896256084,1000000000.0,4.0,-2.220446049250313e-16,-1000000000.0];
+[883.1365358956336,-266.1024094651509,-5.0,1.4118854267221805e+308,-786614.3512895996];
+v47 > C19 ? v47 : C19;
+for (let i61 = (() => {
+        -0;
+        return 0;
+    })();
+    i61 < 5;
+    i61--, i61++) {
+    try {
+        new f36(v47);
+    } catch(e69) {
+    }
+}

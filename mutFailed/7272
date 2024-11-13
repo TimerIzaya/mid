@@ -1,0 +1,19 @@
+new Int8Array(2);
+const v5 = new Int32Array(16);
+const v8 = new v5(9);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v8;
+    } catch(e14) {
+    }
+    try {
+        this.e = v5;
+    } catch(e15) {
+    }
+}
+new F9(2, 9, Int8Array);
+new Int32Array(9, 16, 16);
+new F9(16, 2, 2);
+const v19 = /(ab|cde)\118\P{sc=Greek}+/gdims;
+v19.exec(v19);

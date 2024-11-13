@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -9007199254740990;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+new F0();
+new Int8Array(2);
+const v12 = Int32Array.name;
+new Int32Array(2990);
+new BigUint64Array(5);
+function f19() {
+    return v12;
+}
+function f20(a21) {
+    v5.__proto__;
+}
+Object.defineProperty(Uint32Array, "e", { writable: true, get: f19, set: f20 });
+Uint32Array.e = Uint32Array;
+const v23 = new Uint32Array(512);
+try { v23.join(v5); } catch (e) {}
+const v27 = new Int32Array(34);
+try { v27.reduce(Int32Array); } catch (e) {}
+Float64Array.prototype;
+new Float64Array(255);
+class C33 {
+}
+C33.name;
+const v35 = new C33();
+const v36 = new C33();
+const o37 = {
+};
+o37.b = v35;
+const o38 = {
+};
+o38.c = o38;
+Object.defineProperty(o38, "b", { writable: true, value: v36 });

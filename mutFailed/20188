@@ -1,0 +1,28 @@
+class C4 {
+    get a() {
+        this[8] = this;
+        for (let v6 = 0; v6 < 32; v6++) {
+            this["p" + v6] = v6;
+        }
+        return -22261;
+    }
+    [-1011110915] = -1011110915;
+}
+new C4();
+new C4();
+const v11 = new C4();
+const v13 = new parseFloat();
+try { v13.getOwnPropertyNames(C4); } catch (e) {}
+function f15(a16, a17) {
+    try { a16.bind(parseFloat); } catch (e) {}
+    a17.constructor(a17);
+    return f15;
+}
+try { Promise.all(-22261); } catch (e) {}
+new Promise(f15);
+for (let v23 = 0; v23 < 5; v23++) {
+    const o25 = {
+    };
+    o25.c = o25;
+    gc(o25, v11);
+}

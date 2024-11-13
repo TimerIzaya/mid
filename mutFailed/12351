@@ -1,0 +1,70 @@
+class C3 {
+    static #f = -1.0;
+    a = 12;
+    get e() {
+        super[this] = -738651791;
+        try { this["valueOf"](-1.0, "valueOf", this, -1.0); } catch (e) {}
+        this[225];
+        return -1.0;
+    }
+    [-738651791];
+}
+C3.length;
+const v9 = new C3();
+function f10(a11) {
+    function F12() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    new F12();
+    return 12;
+}
+Object.defineProperty(v9, "constructor", { writable: true, value: f10 });
+const v15 = v9?.constructor;
+let v16;
+try { v16 = new v15(); } catch (e) {}
+const v17 = new C3();
+function f18() {
+    try {
+        f10(v16);
+    } catch(e20) {
+    }
+    return v16;
+}
+v17.constructor = f18;
+const v21 = v17?.constructor;
+try { new v21(); } catch (e) {}
+const v23 = new C3();
+Object.defineProperty(v23, "constructor", { configurable: true, enumerable: true, value: f10 });
+const v24 = v23?.constructor;
+try { new v24(); } catch (e) {}
+let v27 = -14n;
+v27--;
+Date.toString = Date;
+const v32 = Date.toString(Date, Date, Date, Date);
+async function* f33(a34, a35) {
+    return Date;
+}
+const v36 = f33(v32, Date);
+function f37(a38, a39) {
+    function f40() {
+        function f41() {
+            const o44 = {
+                "maxByteLength": 1459475328,
+            };
+            const v46 = new SharedArrayBuffer(2965, o44);
+            new Float32Array(v46);
+            return 12;
+        }
+        return f41;
+    }
+    Object.defineProperty(a39, "constructor", { writable: true, configurable: true, get: f40 });
+    const v49 = a39?.constructor;
+    try { new v49(Date); } catch (e) {}
+    const o51 = {
+        [v32]: v36,
+    };
+    o51.d = o51;
+    return f33;
+}
+%OptimizeFunctionOnNextCall(f37);
+f37(f33, Date);

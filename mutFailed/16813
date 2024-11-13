@@ -1,0 +1,33 @@
+new Uint8ClampedArray(1024, Uint8ClampedArray);
+let v3 = 0;
+v3--;
+new Int16Array(v3);
+new Int32Array(5);
+function f10() {
+    return v3;
+}
+try { f10(); } catch (e) {}
+function f13() {
+    return 268435439;
+}
+-8;
+class C16 {
+}
+try { new C16(); } catch (e) {}
+const v18 = new C16();
+const v19 = v18?.constructor;
+try { new v19(); } catch (e) {}
+const v23 = [-1000.0,351.94489669740733,5.8623101046484845,-160881.40611645568,0.6390643538224362,9.13027568774574];
+v23[5];
+v23[Symbol.toPrimitive] = f13;
+function f27(a28, a29) {
+    try { a28(36002); } catch (e) {}
+    Object.defineProperty(a28, "length", { writable: true, configurable: true, enumerable: true, value: 268435439 });
+    return 512;
+}
+const v32 = new Promise(f27);
+v32[v23] += 36002;
+const v33 = new C16();
+const v34 = [v18,v33,8];
+try { v34.entries(); } catch (e) {}
+try { v34.join(f27); } catch (e) {}

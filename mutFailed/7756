@@ -1,0 +1,51 @@
+const v2 = new Uint32Array(2134);
+function f3(a4, a5) {
+    try {
+        a4.__proto__ = a4;
+    } catch(e6) {
+    }
+    return Uint32Array;
+}
+v2.toString = f3;
+const v9 = new Float32Array(1);
+const v12 = new Int16Array(4);
+class C13 extends Float32Array {
+    get c() {
+        const o15 = {
+        };
+        new Uint32Array(v12, o15);
+        return v9;
+    }
+    static [v2];
+    [v12] = 2134;
+    static #f;
+    #c;
+}
+new C13();
+const v19 = new C13();
+new C13();
+class C21 {
+}
+new C21();
+new C21();
+const v24 = new C21();
+class C25 extends C21 {
+    constructor(a27, a28) {
+        super();
+        try {
+            a27.__proto__ = C21;
+        } catch(e29) {
+        }
+        new C21();
+    }
+}
+const v32 = new WeakMap();
+v32.delete(v32);
+new Int8Array(964446029);
+new Uint32Array(257);
+const v40 = new C25(v24);
+const v42 = [];
+Reflect.apply(v19.reverse, v19, v42);
+new C25(v40, v40);
+new C25();
+new C21();

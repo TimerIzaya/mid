@@ -1,0 +1,56 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        function f3() {
+            return this;
+        }
+    }
+    static #o() {
+        try {
+            this.h = this;
+        } catch(e5) {
+        }
+        return this;
+    }
+}
+new C1();
+new C1();
+new C1();
+function F9(a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = f0;
+    } catch(e12) {
+    }
+}
+const v13 = new F9(F9);
+new F9(C1);
+new F9(v13);
+const v19 = [];
+function f20() {
+    const o22 = {
+        p() {
+            return f20;
+        },
+        [v19]: v19,
+        "a": v19,
+    };
+    return v19;
+}
+const t40 = "object";
+const v23 = t40();
+const v24 = f20();
+const v25 = f20();
+[65536];
+[-267,-4,-32045,-4];
+[14,268435441,-9223372036854775807];
+new Float64Array(14);
+const v34 = new Uint8ClampedArray(0);
+const v37 = new BigInt64Array(218);
+let v38;
+try { v38 = v37.sort(f20); } catch (e) {}
+try { v38(v24, v38, v38, ...v34, v23, ...v23); } catch (e) {}
+const v40 = (a41, a42) => {
+    return v25 * a42;
+};

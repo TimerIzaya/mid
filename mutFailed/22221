@@ -1,0 +1,24 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        for (const v3 of f0) {
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            f0();
+            f0();
+            %OptimizeMaglevOnNextCall(f0);
+            f0();
+        }
+    }
+    static 129 = f0;
+    [f0] = f0;
+}
+new C1();
+new C1();
+new C1();
+new Uint8Array(655);
+new BigUint64Array(256);
+new Worker(3);
+let v20 = -6.50438168344124;
+v20 **= v20;

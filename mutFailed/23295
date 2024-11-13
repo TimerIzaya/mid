@@ -1,0 +1,65 @@
+let v1 = "undefined";
+function f4(a5) {
+    const o10 = {
+        "e": v1,
+        "d": true,
+        "a": a5,
+        set c(a7) {
+            try {
+                this.a = "NaN";
+            } catch(e8) {
+            }
+            ("boolean")[64];
+        },
+        __proto__: a5,
+        ...v1,
+        "c": "NaN",
+        "g": a5,
+        ["NaN"]: "NaN",
+        "b": v1,
+    };
+    return o10;
+}
+const v11 = f4(v1);
+const v12 = new f4(v11);
+const v13 = new f4(f4);
+try {
+    const t26 = "boolean";
+    t26.__proto__ = v12;
+} catch(e14) {
+}
+const v15 = f4(v11);
+f4(true);
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v12;
+    } catch(e22) {
+    }
+}
+const v23 = new F17(v11, v13, v1);
+new F17(v11, v11, v23);
+new F17(v12, v12, "NaN");
+class C26 extends f4 {
+    static #m(a28, a29, a30) {
+        v1 ||= a29;
+        return arguments;
+    }
+    #c;
+    m(a33, a34) {
+        super[v15];
+        return a34 | f4;
+    }
+}
+new v13();
+new C26();
+new C26();
+class C41 {
+    set h(a43) {
+    }
+    b;
+}
+new v1();
+let v45 = undefined;
+try { C41(); } catch (e) {}
+v45 = 3;

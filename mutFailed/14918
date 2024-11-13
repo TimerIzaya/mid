@@ -1,0 +1,42 @@
+const v2 = new Worker(2091);
+class C3 {
+    constructor(a5, a6) {
+    }
+    #a;
+    set f(a11) {
+        try {
+            Worker.#a = a11;
+        } catch(e12) {
+        }
+    }
+}
+new C3(v2, 2091);
+const v14 = new C3(2091, Worker);
+const v15 = new C3(C3, Worker);
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.growable = 2091;
+    } catch(e21) {
+    }
+}
+const v22 = new F16(v15, C3, v14);
+const v23 = new F16(C3, v22, v2);
+new F16(C3, v23, v22);
+const o25 = {
+};
+function f26(a27, a28) {
+    const o29 = {
+    };
+    return o29;
+}
+const v30 = f26();
+const v31 = f26();
+function F32(a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    a34.g = a34;
+    const v36 = this?.constructor;
+    try { new v36(f26, v30); } catch (e) {}
+}
+new F32(o25);
+new F32(v31);

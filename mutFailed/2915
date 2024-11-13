@@ -1,0 +1,52 @@
+[-Infinity,Infinity,959819.665748626];
+[0.881533214430694,1000000000000.0,-2.6561951388069446e+306,1e-15,-601975.7256958171,-2.0,1.0,-1000000000000.0,-5.0];
+[-6.825886894231237,-1000000000.0,-7.405832553829715,-5.0];
+function f16() {
+    let v18 = 1000000000000.0;
+    const v19 = v18--;
+    -v19;
+    class C24 {
+        constructor(a26) {
+            const v28 = new Float32Array();
+            try { v28.entries(); } catch (e) {}
+            const v30 = new Uint16Array(12, -4294967296, v19);
+            new Float32Array(v30, -4294967296, 268435439, v18, v30);
+        }
+    }
+    try { new C24(12); } catch (e) {}
+    const v33 = new C24(257828.6336153492);
+    function F34() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    class C37 extends F34 {
+    }
+    class C39 extends C37 {
+        set d(a41) {
+            super.d = this;
+        }
+    }
+    const v45 = new C24();
+    const v46 = new C24(-4294967296);
+    const v47 = [v46,C24];
+    [257828.6336153492,v46,v33,v46,v47];
+    const v49 = [v46];
+    class C50 extends v49 {
+        [v33];
+    }
+    const v51 = new C50();
+    const v52 = v49.constructor;
+    try { v52.isArray(v49); } catch (e) {}
+    class C54 extends v52 {
+    }
+    C54.a = C54;
+    const v55 = new C54();
+    v55?.constructor;
+    try { new v45(); } catch (e) {}
+    Object.defineProperty(v55, 65537, { value: v45 });
+    try { v51.m(v47); } catch (e) {}
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f16);
+f16();
+%OptimizeFunctionOnNextCall(f16);
+f16();

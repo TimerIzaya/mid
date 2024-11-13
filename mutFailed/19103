@@ -1,0 +1,87 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        const o5 = {
+            "maxByteLength": 255,
+        };
+        const v7 = new ArrayBuffer(255, o5);
+        new Uint32Array(v7);
+    }
+    static #e = f0;
+}
+const v10 = new C1();
+const v11 = new C1();
+const v12 = new C1();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v12;
+    } catch(e17) {
+    }
+    try {
+        this.h = v10;
+    } catch(e18) {
+    }
+}
+const v19 = new F13(C1, v11);
+const v20 = new F13(v19, C1);
+new F13(v19, v12);
+function f22() {
+    return f0;
+}
+class C23 {
+    static {
+        if (v20) {
+            Math.log1p(!(-2 ^ (-2 % this)));
+        } else {
+            this[2] = this;
+        }
+    }
+}
+new C23();
+new C23();
+new C23();
+class C34 {
+    static toString(a36, a37) {
+        const v39 = super[a37];
+        try {
+            delete this[v39];
+            this[C34];
+        } catch(e42) {
+        }
+    }
+}
+const v43 = new C34();
+const v45 = new Uint8ClampedArray(C34, C34, v43);
+function f46() {
+}
+function f47(a48, a49) {
+}
+const v50 = f47();
+function f51(a52) {
+    function f54(a55) {
+        function f56() {
+            return a55;
+        }
+    }
+    this.onmessage = f54;
+    v50.b;
+}
+const v60 = [f46];
+const o61 = {
+    "arguments": v60,
+    "type": "function",
+};
+new Worker(f51, o61);
+function f63() {
+    function f64(a65, a66) {
+        const v67 = v43.constructor;
+        v67 + v67;
+        return f64;
+    }
+    f64(Uint8ClampedArray, Uint8ClampedArray);
+    return f64;
+}
+Object.defineProperty(v45, "valueOf", { get: f63 });
+v45[5] = v45;

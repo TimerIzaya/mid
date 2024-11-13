@@ -1,0 +1,26 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    let v1 = this;
+    try {
+        v1.g = 5;
+        const v7 = v1++;
+        Math.imul(5);
+        v1 - -1000.0;
+        Math.log2(v7);
+    } catch(e11) {
+    }
+}
+new F0();
+const v13 = new F0();
+const v14 = new F0();
+const v17 = new ArrayBuffer(3430);
+try { v17.toSorted(255, ...v17, v13, ...255, v14, F0); } catch (e) {}
+Object.exp(2147483649 * 16);
+Object.cosh(v14);
+new Uint8ClampedArray(255);
+new Uint8Array(-1761151799);
+const v33 = [Infinity];
+class C34 {
+    [v33];
+}
+new C34();

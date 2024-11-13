@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -15231;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+const v6 = new v5();
+[-465539.860763951,487057.74682811345,3.0,1e-15,3.0,-1.7976931348623157e+308,1000.0];
+[-Infinity];
+[-2.220446049250313e-16,1000.0,0.07135001449820166,-2.0,-6.907011045419001e+307,-1000000.0,2.0,-1.3826897327869165,1.0,-2.038169550559066];
+let v11 = "log10";
+class C13 extends F0 {
+    b = v11;
+    c = "number";
+    #a;
+    [v6];
+    static #valueOf(a15, a16, a17) {
+        if (v5 <= this) {
+            v11 = "o";
+        } else {
+            const v21 = [this,F0,this,[F0,a15]];
+            [null,this,v21,v21];
+        }
+        return C13;
+    }
+}
+new C13();
+new C13();
+new C13();
+for (let v26 = 0; v26 < 5; v26++) {
+    function f27() {
+        function f28(a29, a30, a31) {
+            return v26;
+        }
+        const o34 = {
+            "type": "function",
+        };
+        const v35 = new Worker(f28, o34);
+        v35.terminateAndWait();
+        v35.terminate();
+        return o34;
+    }
+    f27();
+    %OptimizeFunctionOnNextCall(f27);
+}

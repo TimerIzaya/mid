@@ -1,0 +1,97 @@
+function f0() {
+}
+class C1 extends f0 {
+    static e = f0;
+    constructor() {
+        super();
+        const t6 = `-12`;
+        t6[this] = this;
+        this.a;
+        const o7 = {
+            "maxByteLength": 2253,
+        };
+        const v9 = new ArrayBuffer(2253, o7);
+        new Uint8ClampedArray(v9);
+    }
+}
+const v12 = new C1();
+const v13 = new C1();
+const v14 = new C1();
+function f18() {
+    return v14;
+}
+class C19 extends f18 {
+    static [-2.0] = f18;
+    set d(a21) {
+        const o22 = {
+            __proto__: v14,
+            6: -2.0,
+            [-1]: a21,
+        };
+    }
+    a = v13;
+    g = v12;
+}
+new C19();
+new C19();
+new C19();
+let v27 = Int16Array;
+function f28() {
+    v27--;
+    class C31 {
+        static #m(a33) {
+        }
+        set d(a35) {
+            this.#m();
+        }
+        constructor(a38) {
+            function F40(a42, a43) {
+                if (!new.target) { throw 'must be called with new'; }
+                try { this.constructor(); } catch (e) {}
+                a43--;
+                const v46 = this.constructor;
+                try { new v46(8, a42); } catch (e) {}
+                -a43;
+            }
+            function f49() {
+                return f49;
+            }
+            Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f49 });
+        }
+    }
+    const v50 = new C31(-4294967296);
+    v50.g = v50;
+    const v51 = new C31("string");
+    [-4.0,-3.0,-7.745906537435259,-1.2266228113922306e+308,-Infinity,-2.0,-2.0,1e-15,-694511.6819848374,-2.0] ^ "-792442332";
+    class C56 extends Date {
+    }
+    const v57 = new C56();
+    v57.getSeconds();
+    v51.length = -4294967296;
+    v51.length;
+    let v60 = 0;
+    while (v60 < 10) {
+        for (let v63 = 0; v63 < 5; v63++) {
+            const t74 = "string";
+            t74["p" + v63] = v63;
+        }
+        v60++;
+    }
+    const v67 = new C31();
+    const v68 = [v67,v67,v67,v67,v67];
+    const v69 = [v67];
+    class C70 extends C31 {
+        [v50];
+        #n(a72, a73, a74, a75) {
+        }
+        #g;
+    }
+    const v76 = new C70();
+    v69.constructor;
+    try { v76.m(v68); } catch (e) {}
+    return v51;
+}
+%PrepareFunctionForOptimization(f28);
+f28();
+%OptimizeFunctionOnNextCall(f28);
+f28();

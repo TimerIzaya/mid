@@ -1,0 +1,51 @@
+new WeakSet();
+new Date();
+class C10 extends Date {
+    #m(a12, a13) {
+        for (let v14 = 0; v14 < 17; v14++) {
+            super[v14] = a13;
+            Reflect.construct(WeakSet, [Date], WeakSet);
+        }
+        return a13;
+    }
+    static d;
+    static #c = -1000.0;
+    static 1024 = NaN;
+}
+try {
+    Date();
+} catch(e19) {
+}
+%VerifyType(4.363918872642962);
+new C10();
+const v21 = new C10();
+new C10();
+function f23() {
+    class C24 {
+        constructor(a26) {
+            function f27() {
+                return f27;
+            }
+            Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f27 });
+        }
+    }
+    C24.__proto__;
+    delete v21[2147483647];
+    const v33 = new C24();
+    const v34 = v33.length(v33, C24);
+    const v35 = new C24(v34);
+    v35.length();
+    const v37 = v35.length;
+    const v38 = new v37(v37, f23, v34, f23, f23);
+    v38.name = v38;
+    return v37;
+}
+f23();
+%PrepareFunctionForOptimization(f23);
+f23();
+%OptimizeFunctionOnNextCall(f23);
+Date.prototype |= 4.363918872642962;
+Date[-2.588877053710914];
+try { C10["m"](); } catch (e) {}
+Date(1.628570013032171e+308);
+f23();

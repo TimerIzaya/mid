@@ -1,0 +1,77 @@
+const v2 = new Int32Array(8);
+const v5 = new Int32Array(6);
+let v6 = 10;
+const v8 = new Uint8Array(v6);
+const v9 = [Int32Array,v6];
+const v11 = [[v2]];
+class C12 extends Int32Array {
+    p(a14, a15, a16, a17) {
+        let v18;
+        try { v18 = a14(); } catch (e) {}
+        try {
+            v9.valueOf = v18;
+        } catch(e19) {
+        }
+        return a16;
+    }
+    static [v2] = v8;
+    toString(a21, a22) {
+        try {
+            v11.c = a22;
+        } catch(e23) {
+        }
+        Object.defineProperty(v9, 1073741825, { writable: true, enumerable: true, value: a22 });
+        super[this] = v11;
+        return 6;
+    }
+}
+const v24 = new C12();
+new C12();
+const v26 = new C12();
+const o27 = {
+    __proto__: v11,
+    "h": 6,
+    ...v5,
+};
+function f28() {
+}
+const v29 = [-1539,1,12];
+function f30() {
+    return f30;
+}
+function f31(a32, a33) {
+    const o34 = {
+        [a32]: v29,
+    };
+    return a32;
+}
+const v35 = f31(f31);
+const v36 = f31();
+try {
+    v29.__proto__ = v24;
+} catch(e37) {
+    function f38(a39) {
+        function f41(a42) {
+        }
+        this.onmessage = f41;
+        f30();
+        try {
+            v8.__proto__ = v11;
+        } catch(e47) {
+        }
+    }
+    const v50 = [v26];
+    const o51 = {
+        "arguments": v50,
+        "type": "function",
+    };
+    new Worker(f38, o51);
+}
+try { v35(f28, v29, f31, v2); } catch (e) {}
+f31(f30);
+v36.a **= 6;
+v9.__proto__;
+v6 = 6;
+v8 / 8;
+v11[1061];
+new f28();

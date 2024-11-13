@@ -1,0 +1,73 @@
+const v5 = new BigInt64Array(7);
+const v8 = new Uint8Array(255);
+const v11 = new Float32Array(1024);
+const v13 = new Float32Array(1024);
+const v15 = v8["copyWithin"](-9007199254740992, 1024, -2);
+try {
+    v13.toString = v15;
+} catch(e16) {
+}
+const v23 = new Int8Array(3);
+const v27 = v11["toSorted"](7, v13, ..."toSorted", ..."copyWithin");
+v5[8] = 512;
+const o28 = {
+};
+try {
+    o28.h = 1024;
+} catch(e29) {
+}
+try {
+    const o30 = {
+    };
+    o30.h = 1024;
+    o30.d = v27;
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.h = 1024;
+    o32.d = v27;
+    o32.c = Uint8Array;
+} catch(e33) {
+}
+try {
+    const o34 = {
+    };
+    o34.h = 1024;
+    o34.d = v27;
+    o34.c = v13;
+} catch(e35) {
+}
+const v36 = new Int32Array(3, 114, 3);
+v36["keys"](v23, ...v36, ..."keys");
+const v42 = Math.pow(-2.220446049250313e-16, 9906);
+const o43 = {
+};
+try {
+    o43.d = v42;
+} catch(e44) {
+}
+try {
+    const o45 = {
+    };
+    o45.d = v42;
+    o45.f = v15;
+} catch(e46) {
+}
+try {
+    const o47 = {
+    };
+    o47.d = v42;
+    o47.f = v15;
+    o47.h = v5;
+} catch(e48) {
+}
+try {
+    const o49 = {
+    };
+    o49.d = v42;
+    o49.f = v15;
+    o49.h = v42;
+} catch(e50) {
+}

@@ -1,0 +1,134 @@
+class C3 {
+    static #o(a5) {
+        try {
+            a5.toString = "parse";
+        } catch(e6) {
+        }
+        return "parse";
+    }
+    static 2780;
+    #g;
+    static 255;
+    static #c = "p";
+}
+function f7(a8) {
+    const v9 = +"parse";
+    Object.defineProperty(C3, v9, { value: v9 });
+    return C3;
+}
+Object.defineProperty(C3, "toString", { configurable: true, value: f7 });
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+function f13(a14, a15, a16) {
+    function f17() {
+        new Int8Array(520);
+        return Int8Array;
+    }
+    a16[Symbol.toPrimitive] = f17;
+    const o26 = {
+        "a": "p",
+        valueOf(a24, a25) {
+            return "parse";
+        },
+        ...a15,
+        [C3]: "parse",
+        10: a16,
+        1000: v10,
+        "a": "p",
+        ...a15,
+        ..."parse",
+        "b": "p",
+        1266425955: a15,
+        "f": C3,
+        "h": v11,
+        ...v12,
+    };
+    return o26;
+}
+f13(v11, "p", C3);
+new BigUint64Array();
+class C30 {
+}
+const o33 = {
+    [9007199254740992n]: -43292n,
+};
+const v34 = f13(v10, "parse", "hasInstance");
+f13(v34, v34, v34);
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v38 = new F36();
+let v42;
+try { v42 = Uint32Array.apply(F36); } catch (e) {}
+const v43 = [Uint32Array,Uint32Array,Uint32Array,Uint32Array,Uint32Array];
+const t63 = (2136873598).constructor;
+const v46 = t63();
+try { v46.toExponential(2136873598); } catch (e) {}
+const v49 = [-1941710058,1389675721,-50560,-20231,1311353951,-1024,128,-25926];
+v49.constructor = f7;
+class C51 extends v49.constructor {
+    #g;
+    7 = -1823362111n;
+}
+new C51();
+function F53(a55, a56, a57, a58) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v59 = a56.constructor;
+    function F61() {
+        if (!new.target) { throw 'must be called with new'; }
+        this[Symbol.toPrimitive] = f7;
+        try {
+            this.a = 4;
+        } catch(e66) {
+        }
+        try {
+            this.f = 4;
+        } catch(e67) {
+        }
+        try {
+            this.g = 4;
+        } catch(e68) {
+        }
+    }
+    const v69 = new F61();
+    ([-288943.075893088,-5.305261585320875,193686.0922863416,8.005740932944335,2.220446049250313e-16,-833.0196519212178,0.7064019879043599,-1000000000000.0])[v69];
+    const v72 = new Set();
+    const v73 = v72.keys;
+    let v74;
+    try { v74 = v73(Proxy, v59, 3228, a55); } catch (e) {}
+    function F75(a77, a78) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+        } catch(e79) {
+        }
+        try {
+            function f80() {
+                const v81 = [-Infinity,1.7976931348623157e+308,1.0,1.7976931348623157e+308,-1.0,Infinity];
+                new Uint8Array(v81, 3228, 3228);
+                v81.length >>>= -65536;
+                return -65536;
+            }
+            f80();
+            this.h = v72;
+        } catch(e86) {
+        }
+        try {
+            const v87 = v72[this];
+            try {
+                new F75(v87, -268435456n);
+            } catch(e90) {
+            }
+        } catch(e91) {
+        }
+        switch (3228) {
+            case v74:
+                v59[5] = v42;
+                break;
+        }
+    }
+    new F75();
+    new F75();
+    new F75(a56, a57);
+}
+new F53(v43, v38);

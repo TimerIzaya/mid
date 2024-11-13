@@ -1,0 +1,73 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(1024n, a7); } catch (e) {}
+    a6 << a6;
+    this.h = 536870912n;
+    try {
+        this.g = a6;
+    } catch(e10) {
+    }
+    try {
+        this.h = 536870912n;
+    } catch(e11) {
+    }
+    try {
+        this.f = a7;
+    } catch(e12) {
+    }
+}
+new F4(1024n, 1024n);
+const v14 = new F4(536870912n, 6n);
+const v15 = v14?.constructor;
+try { new v15(v14, 536870912n); } catch (e) {}
+new F4(1024n, 536870912n);
+const v18 = [-7,9];
+try { v18.entries(); } catch (e) {}
+const v20 = [64,1073741824,8,4,65537,3,11,1656581131,41553];
+const o23 = {
+    "maxByteLength": 10000,
+};
+const v25 = new ArrayBuffer(127, o23);
+new Int16Array(v25);
+const v28 = [817072207,536870887,683480587,-9007199254740992,1,-4294967295,10,268435439];
+const v30 = Symbol.toPrimitive;
+const o34 = {
+    [v30]() {
+        new Map();
+        return 10000;
+    },
+};
+try { v28.reduce(v28); } catch (e) {}
+try { ("NaN").toLocaleString(); } catch (e) {}
+new WeakSet();
+try { Uint32Array.bind(6n); } catch (e) {}
+const v45 = new Uint32Array(1024);
+-9;
+Float64Array.d = Float64Array;
+new Float64Array(9);
+new Uint32Array(159);
+let v53 = 0;
+do {
+    const v54 = delete v45[v20];
+    v54 || v54;
+    v53++;
+} while ((() => {
+        let v60 = 9;
+        v60++;
+        const v62 = v53 < v60;
+        v62 || v62;
+        return v62;
+    })())
+function f64(a65) {
+    function f67(a68) {
+        try { a65.valueOf(a68, Uint32Array, WeakSet, a68, this); } catch (e) {}
+    }
+    this.onmessage = f67;
+}
+const v72 = ["function"];
+const o73 = {
+    "arguments": v72,
+    "type": "function",
+};
+new Worker(f64, o73);
+new WeakSet();

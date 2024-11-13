@@ -1,0 +1,83 @@
+const v1 = new Map();
+function f2() {
+    return Reflect.construct(Map, [v1], Map);
+}
+v1[Symbol.toPrimitive] = f2;
+const v8 = [64,9007199254740992,-9007199254740990];
+[127,536870912,1073741825,1024,536870889,-268435456,10,30327];
+const v10 = [-39946214,268435441,1024,-3,0,-2103205088];
+v10[Symbol.toPrimitive] = f2;
+v10[3] = v10;
+try { v10.reduceRight(v1); } catch (e) {}
+class C14 {
+    static #toString(a16) {
+        const v17 = Map !== a16;
+        if (v17) {
+            v8[v17] &= a16;
+        } else {
+            v1["entries"]();
+        }
+        return v8;
+    }
+    static [v10];
+    #g;
+}
+C14.d = v8;
+try { new C14(); } catch (e) {}
+new C14();
+const v22 = new C14();
+const v23 = v22?.constructor;
+v23.d = C14;
+try { new v23(); } catch (e) {}
+const v25 = v22?.constructor;
+v25.d = v25;
+try { new v25(); } catch (e) {}
+65536 - 65536;
+function F35(a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C39 {
+        static {
+            if (this) {
+            }
+        }
+    }
+}
+F35.e = Date;
+F35.e = F35;
+const v41 = new C14();
+v41.constructor = Symbol;
+const v42 = v41?.constructor;
+let v43;
+try { v43 = new v42(); } catch (e) {}
+v43.constructor = Symbol;
+const v44 = v43?.constructor;
+try { new v44(); } catch (e) {}
+class C49 {
+    constructor(a51, a52, a53) {
+        this.toString = Date;
+        try { this.toString(); } catch (e) {}
+        for (let v55 = 0; v55 < 25; v55++) {
+            v55 >>> v55;
+            gc.length;
+            let v60;
+            try { v60 = ("minor").lastIndexOf(v1); } catch (e) {}
+            v60++;
+            try { ("async").trimRight(); } catch (e) {}
+            let v64;
+            try { v64 = ("async").localeCompare("async"); } catch (e) {}
+            v64--;
+            const o66 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o66);
+        }
+    }
+}
+const v68 = new C49(C49, C49, C49);
+const v69 = v68?.constructor;
+try { new v69(v41, C49, v41); } catch (e) {}
+const v71 = v68?.__defineGetter__;
+try { new v71(v1, v22); } catch (e) {}
+new C49(C49, C49, v68);
+new C49();

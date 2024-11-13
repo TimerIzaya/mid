@@ -1,0 +1,25 @@
+[-65535,-65536,8,2147483647,-536870912,1283393909];
+[10,-128,744531871,536870888,62633,268435441,1073741823,6598,-6,256];
+const v2 = [35565,9,-23051,-2,-2,268435456,-2147483647,64,-5307,573748866];
+const v3 = [];
+const v4 = [v3,v3,v3,v3,v3];
+try { v4.toLocaleString(); } catch (e) {}
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v12 = this.valueOf(this.propertyIsEnumerable(a8), v4, v4).constructor;
+    v12.arguments = v12;
+    let v13;
+    try { v13 = new v12(a8); } catch (e) {}
+    a8.lastIndexOf(v13, a8);
+}
+try { new F6(v2, F6); } catch (e) {}
+new F6(v3);
+new F6(v4);
+new Reflect(v2);
+new isNaN(1231);
+new BigUint64Array(-65536);
+class C30 {
+    n(a32) {
+        this[a32] = 10000;
+    }
+}

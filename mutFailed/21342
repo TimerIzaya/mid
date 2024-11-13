@@ -1,0 +1,79 @@
+function f0() {
+    const o7 = {
+        128: 1024,
+        get f() {
+            const v5 = this[this];
+            let v6;
+            try { v6 = v5.isFinite(this, v5, this, -4294967296, -4294967296); } catch (e) {}
+            return v6;
+        },
+        7: 4.571309139387991e+307,
+        "b": 1024,
+        "h": 4.571309139387991e+307,
+        "g": -4294967296,
+        __proto__: 4.571309139387991e+307,
+        [f0]: 4.571309139387991e+307,
+        8: -4294967296,
+        "d": 1024,
+    };
+    return o7;
+}
+const v8 = f0(f0, f0, f0);
+const v9 = f0();
+const v10 = f0();
+class C11 {
+    constructor(a13, a14) {
+        try {
+            this.__proto__ = v10;
+        } catch(e15) {
+        }
+    }
+    b = v9;
+    static #d;
+    static #valueOf(a17, a18) {
+        v9 | a18;
+        return f0();
+    }
+    #a = v10;
+}
+const v21 = new C11(v10, v9);
+const v22 = new v21(f0, v9);
+const v23 = new C11(v21, v10);
+class C24 {
+    constructor(a26, a27, a28, a29) {
+        f0(C24, a27, a29);
+    }
+    p(a35, a36) {
+        let v37 = 10;
+        for (; v37--;) {
+            try { v21["o"]("o"); } catch (e) {}
+        }
+        return v8;
+    }
+}
+const v41 = new C24(C11, v21, v22, v9);
+const v42 = new C24(v10, C24, v8, v22);
+const v43 = new C24(f0, v21, v10, v8);
+function f44(a45, a46, a47, a48) {
+    const o58 = {
+        __proto__: a47,
+        set b(a50) {
+            let v51 = (a52, a53) => {
+                v51 = a52;
+                return v41;
+            };
+            const v55 = [v21,v23,a50,C24,v43];
+            Reflect.apply(a47.p, v41, v55);
+        },
+        "c": a47,
+        "g": f0,
+        536870889: C24,
+    };
+    return o58;
+}
+const v60 = f44(v43, v41, f44(v23, v42, v9, v9), C11);
+v60(v42, v41, v60, v9);
+class C64 extends Set {
+}
+const v65 = new C64();
+v65["delete"](10n);

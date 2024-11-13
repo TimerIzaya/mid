@@ -1,0 +1,55 @@
+new Uint16Array(93);
+new BigUint64Array(1.0);
+const v11 = new Float64Array(257);
+let v16 = 0.6225177695488006;
+const v17 = v16++;
+v11[268435441] = 65535;
+const v20 = new Float64Array(v17);
+const o21 = {
+};
+try {
+    o21.c = v20;
+} catch(e22) {
+}
+try {
+    const o23 = {
+    };
+    o23.c = v20;
+    o23.h = 65535;
+} catch(e24) {
+}
+try {
+    const o25 = {
+    };
+    o25.c = v20;
+    o25.h = 65535;
+    o25.a = 219;
+} catch(e26) {
+}
+try {
+    const o27 = {
+    };
+    o27.c = v20;
+    o27.h = 65535;
+    o27.f = 1.5319541880093136e+307;
+} catch(e28) {
+}
+function f29(a30, a31, a32, a33) {
+    Object.defineProperty(a30, "g", { value: a31 });
+    const v34 = a32 % a32;
+    let v35;
+    try { v35 = new a31(v34, Float64Array); } catch (e) {}
+    v20[1073741825] = a31;
+    for (let v36 = 0; v36 < 100; v36++) {
+        f29(a33, v35, o21, -2.2250738585072014e-308);
+    }
+    const o41 = {
+        n(a39, a40) {
+        },
+    };
+    return 9007199254740991;
+}
+try { f29(-16, BigUint64Array); } catch (e) {}
+for (let v43 = 0; v43 < 625; v43++) {
+    f29(Uint8Array);
+}

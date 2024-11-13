@@ -1,0 +1,45 @@
+class C3 {
+    [1];
+    static c = 1;
+    #o(a5, a6) {
+        C3.__proto__;
+        %VerifyType(1);
+        return a5;
+    }
+    static #g = 268435440;
+    static #f;
+    static 9;
+}
+const v8 = new C3();
+new C3();
+const v10 = new C3();
+[64,C3,C3];
+[1,1,[268435440,64,v8,268435440,v10],C3];
+const v16 = new Uint8ClampedArray(129);
+const v19 = new Int32Array(1450);
+class C20 {
+    [Uint8ClampedArray] = v19;
+    static valueOf(a22, a23, a24) {
+        new a24();
+    }
+    static a = v16;
+}
+const v26 = new C20();
+const v27 = new v26();
+const v28 = new v26();
+try {
+const t0 = 1450;
+t0(v28, v28);
+} catch (e) {}
+function f30() {
+    function f32(a33) {
+        this.c = v26;
+    }
+    v27[2147483647] = v19 << this;
+}
+const v37 = [];
+const o38 = {
+    "arguments": v37,
+    "type": v27,
+};
+new Worker(f30, v10);

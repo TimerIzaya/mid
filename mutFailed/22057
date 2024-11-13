@@ -1,0 +1,66 @@
+function f0() {
+}
+const v2 = new Map();
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a5;
+    } catch(e6) {
+    }
+    try {
+        this.b = f0;
+    } catch(e7) {
+    }
+    try {
+        this.d = a5;
+        const o9 = {
+            "c": 2.0,
+        };
+        function F10(a12) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v13 = new F10(o9);
+        with (o9) {
+            try { v13.search(c); } catch (e) {}
+        }
+    } catch(e16) {
+    }
+}
+const v17 = new F3(v2);
+const v18 = new F3(Map);
+new F3(v17);
+class C20 {
+    static [v17];
+    get c() {
+        try {
+            v17.valueOf = f0;
+        } catch(e22) {
+        }
+        return F3;
+    }
+    c;
+    [f0] = v2;
+    48 = f0;
+}
+new C20();
+const v24 = new C20();
+new C20();
+function F27(a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    a29 = Map;
+    v24[F3] = this[11];
+    Reflect.construct(a29, [v18], f0);
+    const v34 = this.constructor;
+    try { new v34(); } catch (e) {}
+    try {
+        try {
+            v2.e = F27;
+        } catch(e36) {
+        }
+        v2.size;
+        -35199 % (this / -1478256740);
+    } catch(e41) {
+    }
+}
+const v42 = new F27();
+new F27(v42);

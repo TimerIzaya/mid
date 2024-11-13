@@ -1,0 +1,62 @@
+new BigInt64Array(257);
+const v5 = new Float32Array(102);
+const v8 = new BigUint64Array(4);
+function f9() {
+    return 4;
+}
+class C10 extends BigUint64Array {
+    o(a12, a13) {
+        Object.defineProperty(v8, 256, { set: f9 });
+        let v15;
+        try { v15 = this["toSorted"](...a13, ...v5, f9, 102, a12); } catch (e) {}
+        return v15;
+    }
+    constructor(a17, a18, a19, a20) {
+        super(a20, a19, a20);
+        new f9();
+        v8.byteOffset ^= 257;
+        class C24 {
+            static {
+                try {
+                    const t20 = null;
+                    t20.valueOf = this;
+                } catch(e26) {
+                    e26.stack;
+                }
+            }
+        }
+        const v28 = Symbol.iterator;
+        const o37 = {
+            [v28]() {
+                let v30 = 10;
+                const o36 = {
+                    next() {
+                        v30--;
+                        const v34 = v30 == 0;
+                        const o35 = {
+                            "done": v34,
+                            "value": v30,
+                        };
+                        return o35;
+                    },
+                };
+                return o36;
+            },
+        };
+    }
+}
+new C10(257, 102, 4, 257);
+new C10(4, 257, 257, 4);
+new C10(257, 102, 102, 4);
+new Int32Array(1024);
+new Uint16Array(2);
+new Uint16Array(5);
+const v50 = [1984879050,0,-8575,7,1073741825];
+function f51(a52, a53, a54, a55) {
+    return ("Vre").constructor.fromCharCode(v50);
+}
+for (let v59 = 0; v59 < 10; v59++) {
+    f51(v59, f51, v59, v59);
+}
+%OptimizeFunctionOnNextCall(f51);
+f51(v50, v50, v50, f51);

@@ -1,0 +1,77 @@
+const v2 = new Float32Array(14);
+const v6 = new Int8Array(7);
+new Uint32Array(v6);
+const v10 = new Uint16Array(6);
+const v13 = new BigInt64Array(4096);
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    a16.g = 4096;
+    const v20 = [];
+    [v20,v20,v20,v20,v20];
+    function f22() {
+    }
+    const v24 = new Map();
+    function f25(a26, a27) {
+        function f28() {
+            return f25;
+        }
+        Object.defineProperty(a27, Symbol.toPrimitive, { enumerable: true, get: f28 });
+        const o36 = {
+            "a": a27,
+            [a26]: v24,
+            [v24]: Map,
+            ...v24,
+            "b": a26,
+            [a27]: Map,
+            "h": a26,
+            146: v24,
+            valueOf(a32) {
+                this || this;
+                this.__proto__;
+                new Map(this);
+                return this;
+            },
+        };
+        function f37() {
+            return Symbol;
+        }
+        Object.defineProperty(o36, "toString", { writable: true, get: f37 });
+        return o36;
+    }
+    const v38 = f25(v24, f25);
+    function f39(a40) {
+        typeof a40 === "string";
+        return v2;
+    }
+    v38[Symbol.toPrimitive] = f39;
+    const v47 = f25(f25(v38, Map), v38);
+    v47[512] = this;
+    v47[512] = 14;
+    try { this.constructor(a17, a16, a17, v10); } catch (e) {}
+    a16.g = a16;
+    try {
+        this.g = v13;
+        new Int8Array(1073741823);
+        function F51(a53, a54) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        new F51();
+    } catch(e56) {
+    }
+    try {
+        this.d = v10;
+    } catch(e57) {
+    }
+}
+F14.d = F14;
+const v58 = new F14(Float32Array, 6, 4096, v13);
+new F14(v58, 6, 14, v58);
+new F14(Float32Array, 14, 4096, BigInt64Array);
+try { new WeakSet(); } catch (e) {}
+const v63 = new WeakSet();
+try { v63.delete(14); } catch (e) {}
+const v66 = Date?.toString;
+try { new v66(); } catch (e) {}
+class C68 extends Date {
+}
+new C68();

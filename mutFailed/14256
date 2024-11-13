@@ -1,0 +1,36 @@
+WeakSet.a = WeakSet;
+const v4 = new WeakSet();
+try { v4.constructor(); } catch (e) {}
+new Uint8ClampedArray(751);
+const t4 = "127";
+t4[116] = 8;
+let v10;
+try {
+const t0 = 751;
+v10 = t0(..."127", ..."cause", ..."J", ..."127", ...v4);
+} catch (e) {}
+10000n % 10000n;
+const v16 = new BigInt64Array(8);
+v16[6] = v16;
+const v19 = new BigUint64Array(3);
+ArrayBuffer.e = ArrayBuffer;
+const o22 = {
+    [v19]: 8,
+    "h": "J",
+    "b": BigInt64Array,
+    "c": v4,
+    "e": 22137n,
+    "maxByteLength": 257,
+};
+const v24 = new ArrayBuffer(203, o22);
+const v25 = v24.slice();
+function* f26(a27, a28, a29, a30) {
+    try {
+        v25.valueOf = v10;
+    } catch(e31) {
+    }
+    yield WeakSet;
+    return v25;
+}
+const v33 = f26("J", 22137n, 22137n, BigInt64Array);
+v33.constructor = v33;

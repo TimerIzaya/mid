@@ -1,0 +1,49 @@
+function f0() {
+}
+class C1 {
+    p() {
+        for (let v3 = 0; v3 < 32; v3++) {
+            this["p" + v3] = v3;
+        }
+        return f0;
+    }
+    o() {
+        const v9 = this[Symbol.iterator];
+        try {
+            super.from(this, v9, this, this, f0);
+        } catch(e11) {
+        }
+        return this;
+    }
+}
+new C1();
+const v13 = new C1();
+try {
+    new f0();
+} catch(e15) {
+}
+const v19 = new C1();
+function F20(a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.propertyIsEnumerable(C1); } catch (e) {}
+    const v24 = a22?.constructor;
+    try { new v24(); } catch (e) {}
+    try {
+        this.d = a22;
+    } catch(e26) {
+    }
+    try {
+        this.f = a22;
+    } catch(e27) {
+    }
+}
+const v28 = new F20(v19);
+const v29 = new F20(v28);
+new F20(v13);
+1559400861n & 1559400861n;
+-9007199254740992n / -9007199254740992n;
+2147483649n / 2147483649n;
+let {"a":v42,"c":v43,"length":v44,} = "log2";
+const v46 = Symbol.search;
+Object.defineProperty(v46, v29[v46], { writable: true, enumerable: true, get: URIError, set: f0 });
+URIError(Float64Array);

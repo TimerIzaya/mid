@@ -1,0 +1,49 @@
+[-49.751494430752246,1.546861823650607e+308,0.0,2.220446049250313e-16,1000000.0,-2.220446049250313e-16,-1000000000000.0,-3.0,-318816.728800311,-2.0];
+[-826.9189243951076,0.9028021269174984];
+[0.9266151401937621,-5.0,1e-15];
+function f6() {
+    return "o";
+}
+new Uint16Array(4096);
+new Uint32Array(3);
+new Int16Array(3565);
+function f17(a18, a19, a20, a21) {
+    const o29 = {
+        [-4294967297n](a23, a24, a25, a26) {
+            eval(a26);
+        },
+    };
+    const v31 = new Int8Array();
+    const v32 = v31.buffer;
+    v32.constructor = f17;
+    v32.slice(a19);
+    function f34(a35) {
+        const v36 = [601759695];
+        const v37 = [1073741824,1073741823,1376142744,1073741825];
+        try { v37["find"](..."find", undefined, ...v36, ...undefined); } catch (e) {}
+        return a19;
+    }
+    function f41(a42) {
+        let v43 = "function";
+        function f44() {
+            return v43;
+        }
+        const v48 = "size" && "boolean";
+        with ("boolean") {
+            length = v48;
+            ({"length":v43,} = "isExtensible");
+            f44();
+        }
+        return v48;
+    }
+    f34[Symbol.species] = f41;
+    f34(v32);
+    v32.constructor = f34;
+    v32.slice();
+    return f34;
+}
+for (let v54 = 0; v54 < 10; v54++) {
+    f17();
+}
+%OptimizeFunctionOnNextCall(f17);
+f17(-4294967297n, f17, f17, f17);

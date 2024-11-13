@@ -1,0 +1,39 @@
+const v1 = [0.0,1.0,1e-15,2.220446049250313e-16,-1e-15,-1.7976931348623157e+308,Infinity];
+const v2 = [0.48367314699698627,-1000000000.0,1.357117046101208e+306,2.2250738585072014e-308,-492.8056201120101,-1000000000000.0,0.08298092234157772,4.62438205073733e+307];
+const v3 = [3.6998273190276194,-1000000000000.0];
+function f10(a11, a12) {
+    const o24 = {
+        __proto__: a12,
+        "f": v1,
+        set b(a14) {
+            function f15(a16, a17, a18, a19) {
+                const o20 = {
+                    "g": a18,
+                    "c": "ignoreCase",
+                    [a12]: "10",
+                };
+                return o20;
+            }
+            f15("number", a11, 0, "number");
+            f15("number", "ignoreCase", 0, "ignoreCase", f15("ignoreCase", f15, 1073741824, a14), this, a11);
+        },
+    };
+    return o24;
+}
+f10(v2, v3);
+f10(v2, v3);
+f10(v1, v2);
+new Float64Array(3785);
+new Uint16Array(3102);
+new Symbol(16);
+function F37(a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v40 = this.constructor;
+    try { new v40(a39); } catch (e) {}
+    try {
+        a39 % 255;
+    } catch(e44) {
+    }
+}
+new F37(F37);
+new F37(v2);

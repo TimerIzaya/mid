@@ -1,0 +1,22 @@
+const v2 = new Float32Array(2);
+const v4 = 129 & 129;
+const v6 = new Uint8ClampedArray(129);
+let v7;
+try { v7 = v4(v4); } catch (e) {}
+v7[v2] = v6;
+function f8() {
+    return v2;
+}
+0 / 0;
+const v12 = new Float32Array(0);
+Object.defineProperty(v7, 3, { writable: true, configurable: true, enumerable: true, get: f8 });
+try { v7(v12, v4, v2, 129); } catch (e) {}
+const v14 = new f8();
+v14 <= v14 ? v14 : v14;
+new Set();
+try { Array.of(); } catch (e) {}
+const v22 = Array(16);
+const o23 = {
+    ...v22,
+};
+o23.h = o23;

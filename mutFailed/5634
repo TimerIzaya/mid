@@ -1,0 +1,22 @@
+new Float64Array(580);
+new BigInt64Array(8);
+new Int32Array(512);
+[-128,1000,-4294967296,129,1,65535,4294967297];
+[-4096,4];
+const v11 = [-4294967297,1961638908,-57127,6,-2147483648,-4294967295,5,-1024,-268435456];
+const v12 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v13 = 0; v13 < 5; v13++) {
+    function f14() {
+        try {
+            v12.forEach();
+        } catch(e16) {
+            const v18 = f14.message.constructor();
+            const o19 = {
+                "execution": v18,
+            };
+        }
+        return Int32Array;
+    }
+    f14.call(v11, f14, v12, f14);
+    %OptimizeFunctionOnNextCall(f14);
+}

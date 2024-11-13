@@ -1,0 +1,63 @@
+function f0() {
+    const o6 = {
+        "a": "a",
+        __proto__: "e",
+        ["e"]: "a",
+        set c(a5) {
+            super.f = a5;
+            super[a5] = "a";
+        },
+        "d": "a",
+        ..."e",
+        "h": "e",
+        "e": -51168,
+        "g": "a",
+        "b": -51168,
+    };
+    return o6;
+}
+const v7 = f0();
+const v8 = f0();
+const v9 = v8();
+function f10() {
+    return v8;
+}
+const v11 = [16,2,8,14,32984,536870887,-16537,2068260543,1073741823,13];
+v9[v8] &&= v8;
+try { v9.fromCodePoint(v11, v11, v7, v11); } catch (e) {}
+let v13;
+try { v13 = v9.toString(); } catch (e) {}
+try { f10(v9, ...v7, f0, ...v7, v13); } catch (e) {}
+try {
+    const v15 = /Um/visy;
+    const o16 = {
+    };
+    v8.fuck(v11, v15, v7, o16);
+} catch(e18) {
+}
+[-7398,-5];
+[65537,-4294967295,24457,-44156];
+new Date();
+[-1073741824,1963255526,3452,-3926,18458];
+[10000,2147483647,-1018,-32261,-9223372036854775807,4,-9007199254740991,-1723795851,-1,549921735];
+[-64895,-332693913,906478173,54521,-958893256,2342];
+const v28 = [-9223372036854775807];
+const v31 = [-1459204603,6094n,-9223372036854775807,1713270068n];
+const v32 = `
+    const o36 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o36);
+`;
+eval(v32);
+class C40 {
+    constructor(a42, a43, a44, a45) {
+        const v46 = this.constructor;
+        try { new v46(a45, a44, C40); } catch (e) {}
+        try { Worker(); } catch (e) {}
+        a43[3] = a43;
+    }
+}
+new C40(v31, v31, v31);
+new C40(-1459204603, v28);

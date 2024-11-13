@@ -1,0 +1,105 @@
+function f0() {
+    const o18 = {
+        [-5.653778194799783]: -5.653778194799783,
+        4294967296: -5.653778194799783,
+        "e": -5.653778194799783,
+        [-4.0]: -5.653778194799783,
+        set a(a5) {
+            super.f = -5.653778194799783;
+            function f7(a8, a9, a10, a11) {
+                const o12 = {
+                    "c": 1793268325,
+                    "e": a10,
+                    __proto__: a9,
+                };
+                return o12;
+            }
+            f7(f7, a5, -5.653778194799783, f7(f7(f7, -4.0, f0, f0), -4.0, f0, -5.653778194799783));
+        },
+        ...9,
+        "h": -4.0,
+        "f": 9,
+    };
+    return o18;
+}
+function f19(a20, a21) {
+    try {
+        a20.f = a20;
+    } catch(e22) {
+    }
+    return a20;
+}
+f0[Symbol.toPrimitive] = f19;
+const v25 = f0();
+const v26 = f0();
+const v27 = f0();
+class C31 extends f0 {
+    [f0];
+    f = 5.0;
+    static valueOf(a33, a34, a35) {
+        const v37 = Symbol.iterator;
+        const o46 = {
+            [v37]() {
+                let v39 = 10;
+                const o45 = {
+                    next() {
+                        v39--;
+                        const v43 = v39 == 0;
+                        const o44 = {
+                            "done": v43,
+                            "value": v39,
+                        };
+                        return o44;
+                    },
+                };
+                return o45;
+            },
+        };
+        const o47 = {
+            __proto__: o46,
+            "d": v27,
+            ...v25,
+        };
+        return v26;
+    }
+}
+const v48 = new C31();
+new C31();
+const v50 = new C31();
+function f51(a52, a53) {
+    const o66 = {
+        __proto__: v27,
+        [0.655016801038041]: C31,
+        ...C31,
+        "h": a52,
+        "a": v27,
+        valueOf(a55, a56, a57, a58) {
+            Object.defineProperty(a56, "a", { configurable: true, value: this });
+            const v60 = Symbol.toPrimitive;
+            const o65 = {
+                [v60]() {
+                    [179091.08706617355,NaN,-Infinity];
+                    [-1.5711829809201357e+308];
+                    [1000000.0,-1.7976931348623157e+308,1000.0,1.3195502716844557e+308,-1e-15,-8.83302287648183e+307];
+                    return a55;
+                },
+            };
+            return a56;
+        },
+    };
+    return o66;
+}
+f51(v26, v50);
+const v68 = f51(v48, v26);
+const v69 = f51(v68, v48);
+const v76 = [256,54026];
+v76.valueOf = Symbol;
+const o78 = {
+    ...v26,
+    [v76]: v68,
+};
+o78.getBigInt64 = v25;
+try { o78.getBigInt64(v76, 2147483647, v69, 2147483649, v48); } catch (e) {}
+-2 | -2;
+!-2;
+Math.hypot(v76);

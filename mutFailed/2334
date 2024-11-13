@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        F0.d = 65537;
+    } catch(e3) {
+    }
+    try {
+        F0.f = 65537;
+    } catch(e4) {
+    }
+    try {
+        this.a = 65537;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new v6();
+new F0();
+class C9 {
+    3;
+    get g() {
+        try {
+            v6.fuck(this, false, "IgnuM");
+        } catch(e14) {
+        }
+        return v6;
+    }
+    [v6];
+    [v6] = F0;
+}
+C9.b = v7;
+new C9();
+const v16 = new C9();
+v16[3];
+new C9();
+const v23 = -0.12353456030320231 / -5.0;
+v23 >>> v23;
+0n === 0n;
+function F29(a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(3n); } catch (e) {}
+    const v33 = a31 ^ a31;
+    v33 * v33;
+    const v35 = this?.constructor;
+    v35.length = v35;
+    try { new this(3n); } catch (e) {}
+}
+const v37 = new F29(0n);
+try { v37.constructor(349865170n); } catch (e) {}
+const v39 = new F29(349865170n);
+const v40 = (349865170n)?.__lookupGetter__;
+let v41;
+try { v41 = new v40(v37); } catch (e) {}
+const v42 = v41?.constructor;
+try { new v42(v39); } catch (e) {}

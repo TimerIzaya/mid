@@ -1,0 +1,61 @@
+function f0() {
+    const o18 = {
+        __proto__: "13",
+        "g": 8.72091480903585,
+        ..."13",
+        [8.72091480903585]: 0.5481673844647219,
+        [0.5481673844647219]: "13",
+        "h": 0.5481673844647219,
+        "a": 8.72091480903585,
+        5: "13",
+        n(a5, a6) {
+            const v8 = Symbol.iterator;
+            const o17 = {
+                [v8]() {
+                    let v10 = 10;
+                    const o16 = {
+                        next() {
+                            v10--;
+                            const v14 = v10 == 0;
+                            const o15 = {
+                                "done": v14,
+                                "value": v10,
+                            };
+                            return o15;
+                        },
+                    };
+                    return o16;
+                },
+            };
+            return o17;
+        },
+    };
+    return o18;
+}
+const v19 = f0();
+const v20 = v19();
+const v21 = f0();
+function f25(a26, a27, a28) {
+    const o29 = {
+        "b": v21,
+        "e": 129n,
+        [a28]: a26,
+        [a27]: v21,
+        "f": f0,
+        "a": f0,
+        "d": a26,
+        __proto__: v21,
+        "g": a28,
+        "c": a28,
+        72: 129n,
+        ...v21,
+        "h": f0,
+        [v19]: a26,
+    };
+    return o29;
+}
+const v30 = f25(129n, v21, v21);
+const v32 = f25(129n, f25(-4294967296n, 2597n, v20), v20);
+[2597n,v30,[v19,f25,[v19,2597n,129n,129n],v32],v32,v32];
+const v37 = new BigInt64Array();
+v37.copyWithin(v32);

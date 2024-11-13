@@ -1,0 +1,27 @@
+const v1 = new Date();
+const v3 = new WeakSet();
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a10;
+    try {
+        this.b = WeakSet;
+    } catch(e14) {
+    }
+    try {
+        this.f = this;
+    } catch(e15) {
+    }
+    try {
+        this.a = v1;
+    } catch(e16) {
+    }
+}
+const v17 = new F8(-8, undefined, -6968, -8);
+new F8(-6968, v17, -8, -8);
+new WeakSet(-6968, v3, -6968, -8);
+function F20() {
+    if (!new.target) { throw 'must be called with new'; }
+    typeof arguments;
+    arguments();
+}
+new F20();

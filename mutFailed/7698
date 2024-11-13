@@ -1,0 +1,60 @@
+let v2 = -65536n;
+const v3 = [55299n,55299n];
+function f4() {
+    class C5 {
+        #toString(a7, a8, a9) {
+        }
+    }
+    Reflect.construct(C5, [Reflect,Reflect,Reflect,Reflect], WeakSet);
+    return 257n;
+}
+v3[Symbol.toPrimitive] = f4;
+const v16 = [v3,55299n,55299n,257n];
+try {
+    v3.valueOf = Symbol;
+} catch(e20) {
+}
+const v21 = [v16,v16];
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a26;
+    try {
+        this.d = a27;
+    } catch(e28) {
+    }
+}
+new F22(v21, v21, 257n, v16);
+const v30 = new F22(v3, v3, 257n, v16);
+new F22(v3, v3, 55299n, v16);
+const v33 = new WeakMap();
+class C34 {
+    static #f;
+    static #toString(a36, a37, a38) {
+        try {
+            this.#toString(v16, v30, a37, v2);
+        } catch(e40) {
+            v2 %= 9n;
+            new BigInt64Array(2520);
+            new Int32Array(8);
+            new Uint16Array(16);
+        }
+        try {
+            v21.#f ||= F22;
+        } catch(e50) {
+        }
+        return -1024n;
+    }
+    10 = v30;
+    static [v3] = v3;
+    constructor(a52, a53, a54) {
+        this[8];
+        try {
+            v16.#f;
+        } catch(e57) {
+        }
+    }
+}
+new C34();
+new v33();
+new v30();
+Math.sin(v33);

@@ -1,0 +1,18 @@
+const v2 = new Promise(-268435456);
+const v3 = -268435456 * Promise;
+const v4 = typeof -268435456;
+v4 === "string";
+%VerifyType(v2);
+const v9 = new Uint32Array(8);
+const v12 = -268435456 >>> v3;
+const v13 = ("string")[v12];
+for (let v14 = 0; v14 < 32; v14++) {
+    v9["p" + v14] = v14;
+}
+new Uint8ClampedArray(v9);
+const v18 = [Promise];
+const v19 = [v2,v2,v18];
+[Uint32Array,v18,v19,v19,v19];
+try { v13(Uint32Array, v13, Uint8ClampedArray, -268435456, 1); } catch (e) {}
+v9[Promise] = -268435456;
+gc(-268435456, v12, v4);

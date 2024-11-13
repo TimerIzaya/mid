@@ -1,0 +1,72 @@
+class C3 {
+    #o(a5) {
+        try {
+            ("SLLN").lastIndexOf(this);
+        } catch(e7) {
+        }
+        const t6 = "SLLN";
+        t6[12] = a5;
+        const v8 = delete this[a5];
+        super[v8] = v8;
+        return 9223372036854775807;
+    }
+    static #b = 0;
+    static #c;
+    h;
+    1 = 0;
+}
+const v9 = new C3();
+const v10 = new C3();
+function f11() {
+    function f12(a13) {
+        for (let v14 = 0; v14 < 5; v14++) {
+        }
+        return a13;
+    }
+    return f12;
+}
+function f15(a16) {
+    f11();
+    %PrepareFunctionForOptimization(f11);
+    f11();
+    f11();
+    %OptimizeFunctionOnNextCall(f11);
+    f11();
+}
+Object.defineProperty(v10, Symbol.toPrimitive, { writable: true, configurable: true, get: f11, set: f15 });
+const v23 = new C3();
+v23[Symbol.toPrimitive] = f11;
+function f26(a27, a28) {
+    a28.toString = f26;
+    const o33 = {
+        [v10]: a27,
+        "b": v9,
+        "c": v9,
+        "a": a27,
+        ["SLLN"](a30, a31) {
+            this[a27] **= a27;
+            return a28;
+        },
+        __proto__: a28,
+        [a28]: 0,
+        "e": a28,
+        "g": a27,
+        [0]: C3,
+    };
+    return o33;
+}
+f26(f26(f26, v23), v23);
+f26(C3, v23);
+new WeakMap();
+new Date();
+-4096;
+1073741824 - 1073741824;
+try { new BigInt64Array(-2147483649, Date, -1.5678520341586263e+308); } catch (e) {}
+const v56 = new BigInt64Array(1073741824, BigInt64Array);
+[-0.0,-2.0,-1e-15,2.0,-Infinity,2.220446049250313e-16];
+const v58 = [873.3236504624783,-5.059538800838508];
+v58[1] = v58;
+const v60 = v56["lastIndexOf"](4096, "lastIndexOf", "lastIndexOf");
+const v62 = Symbol.toPrimitive;
+Symbol.for(v62.description);
+v60[v62];

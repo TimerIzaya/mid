@@ -1,0 +1,24 @@
+const v4 = WeakSet.prototype;
+const v5 = new WeakSet(-8);
+function f6() {
+    return 0.6547878619188051;
+}
+Object.defineProperty(v4, "constructor", { writable: true, enumerable: true, value: f6 });
+const v10 = v5?.constructor;
+let v11;
+try { v11 = new v10(); } catch (e) {}
+const v12 = [-8,v4];
+[v5];
+[13090,v5,v11];
+try { new Array(v12); } catch (e) {}
+new Array(2649);
+BigUint64Array[97] = BigUint64Array;
+try { new BigUint64Array(BigUint64Array, v5, 208); } catch (e) {}
+const v22 = new BigUint64Array(208);
+v22.constructor = f6;
+function f23(a24, a25) {
+    try { a24(Array); } catch (e) {}
+    v22.filter(a24);
+    return a25;
+}
+new Promise(f23);

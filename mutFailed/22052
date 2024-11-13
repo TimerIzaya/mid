@@ -1,0 +1,21 @@
+function f8(a9, a10, a11, a12) {
+    let v13;
+    try { v13 = (13n).add(); } catch (e) {}
+    return v13;
+}
+const v14 = f8(65535, 16, 255n, 9007199254740990n);
+const v15 = new Uint8Array(16);
+new Infinity(3);
+const o20 = {
+    "construct": f8,
+    "defineProperty": f8,
+    "getOwnPropertyDescriptor": f8,
+    "ownKeys": f8,
+    "preventExtensions": f8,
+};
+new Proxy(v15, o20);
+new Uint8Array(4);
+const v26 = new Date();
+const v28 = new BigUint64Array(v14, 4, f8);
+v28.lastIndexOf();
+v26["getUTCMinutes"](o20);

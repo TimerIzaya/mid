@@ -1,0 +1,41 @@
+const v2 = new Uint16Array(221);
+const v5 = new Uint8ClampedArray(1235);
+new Uint8Array(877);
+const v9 = [Uint16Array,v5,v2];
+const v10 = [Uint8Array,v9,v5,221,v5];
+[v10,v10,v10,v10,Uint8ClampedArray];
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = Uint16Array;
+    } catch(e16) {
+    }
+    try {
+        this.g = a15;
+    } catch(e17) {
+    }
+}
+new F12(877, v9);
+new F12(v10, v10);
+new F12(1235, v10);
+const v21 = [];
+const v22 = [-6.786788220284745e+307,3.0441372838377454,0.16607240252493405,9.1870148243921,-1.1724672307306477e+307,-1.3233810423722777e+308,0.3268930863961368];
+const v23 = [1.1232876344345233e+308,1.0,3.0,-1.7976931348623157e+308,892.6991223982873,1000000.0,0.1500507613745743,8.371259043064821,1e-15,-192.2897093527156];
+const v24 = [1000000.0,2.0511322290964932e+307];
+function f25(a26, a27) {
+}
+const v28 = Uint16Array(v23, v21);
+f25(v24, v22);
+f25(v21, v22);
+%VerifyType(v28);
+const v32 = v24 || v28;
+function f33() {
+    return v22;
+}
+Object.defineProperty(v32, "asinh", { configurable: true, get: f33 });
+f25(v21, v21);
+try { v32["asinh"](); } catch (e) {}
+try {
+    ("-6").indexOf("deleteProperty", 5);
+} catch(e40) {
+}

@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -35544;
+    } catch(e3) {
+    }
+    try {
+        this.a = -35544;
+    } catch(e4) {
+    }
+    new Uint8Array(0);
+    new BigUint64Array(4096);
+    new Uint16Array(128);
+}
+const v15 = new F0();
+const v16 = new F0();
+function f17() {
+    function f18(a19, a20) {
+        class C21 {
+        }
+        return F0;
+    }
+    return f18;
+}
+function f22(a23) {
+    let v24 = 10;
+    v24--;
+    [v24];
+}
+Object.defineProperty(v16, Symbol.toPrimitive, { writable: true, configurable: true, get: f17, set: f22 });
+new F0();
+let v35 = 58123;
+const v36 = ++v35;
+Math.ceil(v16 + v36);
+const v39 = v16 | v36;
+new Float32Array(147);
+new Uint16Array(570);
+function f46(a47, a48) {
+    'use strict';
+    const o49 = {
+    };
+    new Proxy(v15, o49);
+    return o49;
+}
+f46(v39, 570);
+new Float32Array(29);
+function F55(a57) {
+    if (!new.target) { throw 'must be called with new'; }
+    const o59 = {
+        "b": 1e-15,
+    };
+    delete o59.b;
+}
+new F55(F55);
+new F55();

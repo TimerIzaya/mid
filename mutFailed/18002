@@ -1,0 +1,29 @@
+new BigUint64Array(2323);
+new Uint16Array(2639);
+new Int16Array(4);
+new Set();
+function f11() {
+    function f13() {
+        return f11;
+    }
+    Object.defineProperty(Array, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f13 });
+    const o16 = {
+        "c": Array,
+    };
+    const t12 = o16.c;
+    new t12();
+    for (const v21 of Array(4087, Array, Array)) {
+        function f22(a23, a24) {
+            const v27 = new BigUint64Array(1000);
+            v27.includes(undefined);
+            return undefined;
+        }
+        v21[Symbol.toPrimitive] = f22;
+        v21 | v21;
+    }
+    return f11;
+}
+%PrepareFunctionForOptimization(f11);
+f11();
+%OptimizeFunctionOnNextCall(f11);
+f11();

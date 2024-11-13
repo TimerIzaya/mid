@@ -1,0 +1,130 @@
+function f3(a4) {
+    const o19 = {
+        valueOf(a6, a7) {
+            function f8(a9) {
+                function f11(a12) {
+                    try {
+                        a12.valueOf = a12;
+                    } catch(e13) {
+                    }
+                }
+                this.onmessage = f11;
+                h = this;
+            }
+            const v16 = [a4];
+            const o17 = {
+                "arguments": v16,
+                "type": "function",
+            };
+            new Worker(f8, o17);
+            return o17;
+        },
+    };
+    return o19;
+}
+const v20 = f3(5);
+const v21 = f3(5);
+const v22 = f3(v21);
+function f23() {
+    return v20;
+}
+const v24 = [v22];
+const v25 = [v24,v21,4,5,2];
+[v20,5,v24,4];
+function f30() {
+    const o39 = {
+        toString(a35, a36) {
+            try {
+                super.getMinutes();
+            } catch(e38) {
+            }
+            return "object";
+        },
+        "b": "boolean",
+        "g": "object",
+        128: "boolean",
+        "a": 1000000000000.0,
+        "c": "boolean",
+        __proto__: "boolean",
+        "h": 1000000000000.0,
+    };
+    return o39;
+}
+const v40 = f30();
+const v41 = f30();
+const v42 = f30();
+let v43 = v42[128];
+function F45(a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    a47[128] = a47;
+    try {
+        this.f = a47;
+    } catch(e48) {
+    }
+    try {
+    } catch(e49) {
+    }
+    try {
+    } catch(e50) {
+    }
+}
+F45.e = F45;
+new F45(v41);
+new F45(v42);
+const v53 = new F45(v41);
+function f54(a55, a56, a57) {
+    const o64 = {
+        get a() {
+            const o62 = {
+                "execution": "async",
+                "type": "major",
+            };
+            gc(o62);
+        },
+    };
+    o64[2074850330] = o64;
+    return o64;
+}
+const v65 = f54(v42, v42, v40);
+const v66 = f54(v41, v41, v65);
+const v67 = v25.some(v42, v40, v21, null, v42, f54);
+v43 = v42;
+%VerifyType(v65);
+function F69(a71, a72, a73) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v67;
+    } catch(e74) {
+    }
+}
+const v75 = new F69(v40, v42, v42);
+const v76 = new F69(v75, this, v40);
+new F69(v40, v76, v65);
+f54(v65, v66, v41);
+function F79(a81, a82, a83) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v84 = this?.constructor;
+    try { new v84(F79, F79, f30); } catch (e) {}
+    a82.g = a82;
+    try {
+        this.d = a83;
+    } catch(e86) {
+        g = null;
+        try {
+            this.toString = e86;
+        } catch(e87) {
+        }
+    }
+    try {
+    } catch(e88) {
+    }
+    v43 instanceof F69;
+    const o92 = {
+        "maxByteLength": 2147483648,
+    };
+    const v94 = new SharedArrayBuffer(10, o92);
+    new Uint16Array(v94);
+}
+const v97 = new F79(v42, v40, v53);
+new F79(v42, v65, v97);
+try { Uint32Array.bind(F45); } catch (e) {}

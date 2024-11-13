@@ -1,0 +1,58 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = f0;
+    } catch(e3) {
+    }
+    try {
+        this.g = f0;
+    } catch(e4) {
+    }
+}
+new F1();
+new F1();
+new F1();
+function F8() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = 268435440;
+}
+new F8();
+([-3,47741,-16128,9007199254740992,-1024,-58567,268435439,-4294967296,1807295090,-9223372036854775808]).flat();
+const v18 = [-1000000.0,771279.5641904315,0.0,8.299995604235331,6.625300935335886,-820.4949035918538,-602.5256799896665,0.6342705996691437,Infinity];
+const v19 = [1000000000.0,4.0,5.0,-6.555298893133851e+307];
+for (let v20 = 0; v20 < 5; v20++) {
+    v19.unshift(-463330.04816285486, v18.values());
+}
+const v26 = [-9223372036854775808,"length",-9223372036854775808,-14,-9223372036854775808];
+const v27 = [-14,"match"];
+v27.call();
+const v31 = new BigInt64Array(14);
+let v32 = 127;
+const v33 = v32++;
+function f34(a35, a36) {
+    try { a35(BigInt64Array); } catch (e) {}
+    a36.constructor(a36);
+    return f34;
+}
+const v40 = new Promise(f34);
+try { v40.then(v31, v33); } catch (e) {}
+function f42(a43, a44) {
+    const o45 = {
+    };
+    return o45;
+}
+try { f42(v40, v40); } catch (e) {}
+[v27];
+function F48(a50) {
+    if (!new.target) { throw 'must be called with new'; }
+    0 / 0;
+}
+function f59() {
+    return v26;
+}
+class C61 {
+}
+`b${Uint8ClampedArray}hpz${"ih"}-128`;
+try { C61.m(); } catch (e) {}

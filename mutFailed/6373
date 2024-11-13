@@ -1,0 +1,52 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = f0;
+    } catch(e3) {
+    }
+    try {
+        f0.d = f0;
+    } catch(e4) {
+    }
+    try {
+        this.h = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new F1();
+const o8 = {
+    "b": F1,
+    "c": v6,
+};
+const v9 = o8?.__lookupGetter__;
+try { new v9(v6); } catch (e) {}
+let v11;
+try { v11 = v7.o(F1, o8, o8); } catch (e) {}
+const v12 = new F1();
+const v13 = v11?.h;
+v13.length = v13;
+let v14;
+try { v14 = new v13(); } catch (e) {}
+try { v14.constructor(); } catch (e) {}
+const v17 = 127 - 127;
+v17 >> v17;
+new BigInt64Array(127);
+9 - 9;
+let v24;
+try { v24 = new Int16Array(v7, Int16Array, 127); } catch (e) {}
+new Int16Array(9);
+const v28 = new Uint8ClampedArray(1);
+v28[0] = v28;
+ArrayBuffer.h = ArrayBuffer;
+const v30 = new ArrayBuffer();
+try { v30.slice(v12, 9); } catch (e) {}
+v30.transfer();
+f0();
+Object.defineProperty(v6, o8, { configurable: true, set: f0 });
+o8 instanceof ArrayBuffer;
+%VerifyType(v24);
+const v35 = ~v30;
+v35 >> v35;

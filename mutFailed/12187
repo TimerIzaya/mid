@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3) {
+        a3?.g;
+    }
+    Object.defineProperty(this, "b", { writable: true, set: f2 });
+    try {
+        this.b = -41875;
+    } catch(e6) {
+    }
+}
+new F0();
+new F0();
+new F0();
+[-2.220446049250313e-16,5.0718326014739805,2.2250738585072014e-308,2.220446049250313e-16,0.6853372727080913,-1.7976931348623157e+308,-688.233998839178];
+[-2.0];
+[-0.0,-0.0,-1000.0,-2.866999120943814,1.7976931348623157e+308,-6.303467693726743,6.55902476652599,4.0,-2.0];
+new Uint8Array(4096);
+new Int8Array(0);
+new Uint8ClampedArray(1042);
+class C22 {
+}
+function f24(a25, a26, a27, a28) {
+    Array[Symbol.species] = C22;
+    return a25;
+}
+for (let v31 = 0; v31 < 10; v31++) {
+    f24(f24, v31, v31, v31);
+}

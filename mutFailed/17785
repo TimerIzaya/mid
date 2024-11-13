@@ -1,0 +1,33 @@
+const v3 = [1073741824];
+const v4 = [4096,v3,1073741824,v3];
+const v5 = [-534817751,v4,v4,1073741824];
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 1073741824;
+    } catch(e12) {
+    }
+    try {
+        this.h = 1073741824;
+    } catch(e13) {
+    }
+}
+new F6(4096, v3, v5, -534817751);
+new F6(v4, v4, v4, 1073741824);
+new F6(-534817751, v5, v5, 4096);
+new BigUint64Array(256);
+new Int32Array(512);
+new Uint8Array(819);
+let v26 = 591114.0785999324;
+const v27 = v26++;
+const v29 = new BigInt64Array(v27, 512, v27);
+function f30() {
+    return v29[v27];
+}
+%PrepareFunctionForOptimization(f30);
+const o32 = {
+    "apply": BigUint64Array,
+};
+const v33 = o32.apply;
+v33(v33, v26, BigInt64Array, BigInt64Array, BigInt64Array);
+BigUint64Array();

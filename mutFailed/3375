@@ -1,0 +1,63 @@
+class C3 {
+    static #toString(a5) {
+        Symbol[Symbol.unscopables];
+        return this;
+    }
+    static #o(a10) {
+        try {
+            this.#toString();
+        } catch(e12) {
+        }
+        return -9.126030226535068;
+    }
+}
+const v13 = new C3();
+const v14 = new v13();
+new C3();
+function f16(a17, a18, a19) {
+    function f20(a21) {
+        [256];
+        function f24(a25) {
+            try { a25.p(a21); } catch (e) {}
+        }
+        return a19;
+    }
+    const v28 = Symbol.toPrimitive;
+    a17[v28] = f20;
+    function f29(a30) {
+        0 < 3;
+        return 3;
+    }
+    a18.toString = f29;
+    const o42 = {
+        "d": v28,
+        valueOf(a35, a36, a37, a38) {
+            for (let i = 0; i < 5; i++) {
+                try {
+                const t0 = 9907n;
+                t0();
+                } catch (e) {}
+            }
+            super[a35];
+            f16 = v13;
+            return this;
+        },
+        ...a17,
+        "e": a18,
+        [v14]: -9.126030226535068,
+        __proto__: a17,
+        "a": a18,
+        [-1]: -9.126030226535068,
+    };
+    return o42;
+}
+f16(f16(C3, v13, -9.126030226535068), v14, 1.1837938007613041e+308);
+f16(v14, v13, -2.2250738585072014e-308);
+new Uint8ClampedArray(64);
+new Uint8ClampedArray(4096);
+new Float64Array(8);
+const v55 = [20785,4096,5];
+v55[536870889] = v55;
+for (let v56 = 0; v56 < 25; v56++) {
+}
+v55[536870889];

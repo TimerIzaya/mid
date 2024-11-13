@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 2062564485;
+    } catch(e3) {
+    }
+    try {
+        this.c = 2062564485;
+    } catch(e4) {
+    }
+    try {
+        this.g = 2062564485;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+const v8 = new F0();
+v8.b = v8;
+1 - 1;
+1 !== 1;
+Uint8Array.prototype = Uint8Array;
+const v13 = new Uint8Array(1);
+try { v13.reduceRight(v6); } catch (e) {}
+try { Float32Array.from(v8); } catch (e) {}
+new Float32Array(0);
+256 != 256;
+const v22 = new BigInt64Array(256);
+const v23 = v22[52];
+v23 / v23;
+let v25 = 129;
+v25--;
+let v28;
+try { v28 = new Uint8ClampedArray(v6, v22, v22); } catch (e) {}
+try { v28.entries(); } catch (e) {}
+new Uint8ClampedArray(v25);
+new BigInt64Array(1024);
+Int32Array.g = Int32Array;
+try { new Int32Array(v13, BigInt64Array, v13); } catch (e) {}
+new Int32Array(4096);
+~0;
+function F43() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -1052649622;
+        const v48 = -(-7);
+        Math.tan(v48 ** v48);
+    } catch(e51) {
+    }
+}
+function F52(a54, a55) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v56 = this.constructor;
+    v56.length = v56;
+    try { new v56(F43, a54, F43, v56); } catch (e) {}
+    new F43();
+}
+function f59(a60, a61, a62, a63) {
+    const o64 = {
+    };
+    o64.a = o64;
+}
+f59(-9007199254740992);

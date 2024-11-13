@@ -1,0 +1,63 @@
+function f0() {
+    Object.defineProperty("2147483648", "e", { enumerable: true, set: f0 });
+    Object.defineProperty("2147483648", "e", { writable: true, configurable: true, enumerable: true, set: f0 });
+    try {
+        new f0();
+    } catch(e5) {
+    }
+    const o6 = {
+        "f": "2147483648",
+        "e": "2147483648",
+        ..."boolean",
+        "h": "2147483648",
+        [0.2323544746852768]: 0.2323544746852768,
+        "c": "boolean",
+        "b": "2147483648",
+        "a": 0.2323544746852768,
+        __proto__: "2147483648",
+        "g": "boolean",
+        255: 0.2323544746852768,
+        13: "2147483648",
+    };
+    return o6;
+}
+let v7 = f0();
+f0();
+const v9 = f0();
+class C14 {
+    #toString(a16, a17, a18, a19) {
+        v7 = a19;
+        const v21 = this[v9];
+        let v22;
+        try { v22 = v7.valueOf(); } catch (e) {}
+        const v23 = 4.0 & v22;
+        if (this < true) {
+            v7?.[7];
+        } else {
+            C14 = v21;
+        }
+        return v23;
+    }
+    static 2;
+    static #e = true;
+    h = f0;
+    d;
+}
+const v26 = new C14();
+const v27 = new C14();
+new C14();
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+let v33 = new F29();
+v33 &= v26;
++4.0;
+Math.atan(-2119287021);
+v27 - (v9 & 2.2250738585072014e-308);
+Math.sqrt(-2119287021);
+async function f43(a44, a45, a46, a47) {
+    a44.fuck();
+    await v33;
+    return F29;
+}
+f43();

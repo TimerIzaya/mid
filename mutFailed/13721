@@ -1,0 +1,27 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [v1,v1,f0];
+const v3 = [v2,v2,f0,f0];
+const v8 = new Uint8Array(3521);
+v8["lastIndexOf"](0);
+class C13 {
+    static #a = 56543;
+    constructor(a15, a16) {
+        Object.defineProperty(v3, -3n, { writable: true, configurable: true, get: f0, set: f0 });
+        f0();
+    }
+    static [56543];
+    [f0] = v3;
+    static #e;
+}
+new C13(v2, v3);
+new C13(v1, v2);
+new C13(v2, v1);
+const v24 = [1.7976931348623157e+308,0.14033774481022865,0.764442389288067,-2.220446049250313e-16,710.5353911028728,1000000.0];
+class C25 {
+}
+const v26 = new C25();
+for (let v27 = 0; v27 < 25; v27++) {
+    v24[4294967295] = v26;
+}

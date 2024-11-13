@@ -1,0 +1,68 @@
+class C3 {
+    constructor(a5) {
+        function f6(a7) {
+            a7 && a7;
+            class C9 {
+            }
+            const v10 = new C9();
+            switch (v10) {
+                default:
+                    C9.toString();
+                    break;
+            }
+            return C3;
+        }
+        this[Symbol.toPrimitive] = f6;
+        let v14;
+        try { v14 = new a5(1000, this, this, this, a5); } catch (e) {}
+        -v14;
+    }
+    [1000];
+    static #p(a17, a18) {
+        try {
+            try {
+                (-832.6679404117334).#p();
+            } catch(e21) {
+            }
+            this.fuck(this, -1000000.0);
+        } catch(e24) {
+        }
+        return a18;
+    }
+}
+const v25 = new C3(C3);
+const v26 = new C3(-832.6679404117334);
+const v27 = new C3(C3);
+function f28(a29, a30, a31) {
+    const o35 = {
+        "f": 1000,
+        "a": v26,
+        set g(a33) {
+            super.f |= this;
+            (-832.6679404117334)[a33];
+        },
+        "c": a29,
+        5: a29,
+        __proto__: v25,
+        "d": a30,
+    };
+    return o35;
+}
+const v36 = f28(v25, v26, v27);
+const v38 = f28(f28(v36, v36, v36), v25, C3);
+function f39(a40, a41, a42) {
+    const o50 = {
+        toString(a44, a45, a46) {
+            a41 < this;
+            return super[a42];
+        },
+        get d() {
+            return v38;
+        },
+    };
+    return o50;
+}
+%PrepareFunctionForOptimization(f39);
+f39(f28, f39(), f39);
+%OptimizeFunctionOnNextCall(f39);
+f39();

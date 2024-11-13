@@ -1,0 +1,83 @@
+class C3 {
+    static {
+        const o5 = {
+        };
+        try {
+            o5.f = -3.0;
+        } catch(e6) {
+        }
+        try {
+            const o7 = {
+            };
+            o7.f = -3.0;
+            o7.b = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.f = -3.0;
+            o9.b = this;
+            o9.a = this;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.f = -3.0;
+            o11.b = this;
+            o11.a = -3.0;
+        } catch(e12) {
+        }
+    }
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+const v17 = new Map();
+new Map();
+function f20() {
+    return v13;
+}
+class C21 {
+    static 2;
+    constructor(a23, a24, a25) {
+        Object.defineProperty(a24, "a", { writable: true, configurable: true, enumerable: true, get: f20, set: f20 });
+        let v27;
+        try { v27 = v17["entries"](..."entries", v14, ...a25, a25, f20); } catch (e) {}
+        var f = -1989198876;
+        try {
+            a25.valueOf = v27;
+        } catch(e28) {
+        }
+    }
+    static #h;
+    #c = "bigint";
+    static 3967 = "bigint";
+}
+new C21(v14, C21, v17);
+const v30 = new C21("bigint", v17, v15);
+new C21(v30, C21, v30);
+function f33() {
+    return 2147483648n;
+}
+%OptimizeFunctionOnNextCall(f33);
+f33();
+class C35 {
+}
+const v36 = new C35();
+const v37 = new C35();
+const v38 = new C35();
+function f39(a40, a41) {
+    const o42 = {
+        __proto__: a40,
+    };
+    return v36;
+}
+f39(v36);
+const v44 = f39(v37);
+f39(v38);
+try { v44["n"](); } catch (e) {}
+-63523 >= 127 ? -63523 : 127;
+Math.asinh(-(-63523));
+Math.acosh();

@@ -1,0 +1,47 @@
+function f0() {
+    const o16 = {
+        set e(a5) {
+            try { a5["m"](a5, "p"); } catch (e) {}
+        },
+        p(a9, a10) {
+            const o14 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o14);
+            return o14;
+        },
+    };
+    o16[Symbol.toPrimitive] = f0;
+    return o16;
+}
+const v19 = f0();
+const v20 = f0();
+f0();
+class C22 extends f0 {
+    static n(a24, a25) {
+        try {
+            a24.b = v20;
+        } catch(e26) {
+        }
+        return a24;
+    }
+    static #a;
+    static [v20];
+    [v19];
+    static #c;
+}
+new C22();
+new C22();
+new C22();
+function f30() {
+    return v20;
+}
+const v35 = this.DataView;
+try { new v35(); } catch (e) {}
+const v37 = [];
+const o38 = {
+    ...v37,
+};
+const v41 = new Float64Array(2534);
+v41[257] = 1;

@@ -1,0 +1,19 @@
+new Int16Array(39);
+new Uint32Array(9);
+new Uint8Array(1);
+const v14 = new Float32Array();
+function f15() {
+    const o19 = {
+        "e": 1.0,
+        __proto__: v14,
+        [-13]: 1.0,
+        set b(a18) {
+        },
+    };
+    o19.b = o19;
+    return v14;
+}
+for (let v20 = 0; v20 < 5; v20++) {
+    Float32Array();
+    %OptimizeFunctionOnNextCall(f15);
+}

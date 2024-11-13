@@ -1,0 +1,61 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e7) {
+    }
+    try {
+        this.d = a6;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(-4294967295n, -1340096485n);
+const v10 = new F3(-1340096485n, -21660n);
+const v11 = new F3(-21660n, -1340096485n);
+function f13(a14, a15, a16) {
+    const o28 = {
+        p(a18, a19) {
+            function f20() {
+                return a18;
+            }
+            const o23 = {
+                "maxByteLength": 2672,
+            };
+            new ArrayBuffer(4, o23);
+            new AggregateError(a14);
+            return a15;
+        },
+    };
+    return a14;
+}
+const v29 = f13(v10, v11, -1340096485n);
+f13(v9, v11, -4294967295n);
+const v31 = v29(v9, v11, -1340096485n);
+BigUint64Array.d = -1340096485n;
+const v33 = new BigUint64Array();
+v33.d = v29;
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f41(a42) {
+        function F43(a45, a46, a47, a48) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = Float32Array;
+            } catch(e49) {
+            }
+            try {
+                this.g = F35;
+            } catch(e50) {
+            }
+        }
+        new F43(v11, v9, v10, -1340096485n);
+        new F43(v10, v31, v10, -4294967295n);
+        new F43(v9, a42, v10, -21660n);
+        return a38;
+    }
+    this.constructor = f41;
+    const v54 = v31.constructor;
+    try { new v54(v33); } catch (e) {}
+    a37.d = a37;
+}
+new F35(v29);

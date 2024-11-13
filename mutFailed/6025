@@ -1,0 +1,60 @@
+const v0 = [-703335.1307526941,NaN,440442.5056064471,236039.22402307112,3.220496000315954,8.665426511179207e+307,-9.874484711958416,0.48001592412352];
+let v1 = [9.088442455331128e+307,-4.704655569030745e+307,-4.0,-240355.62274150294,-885.7328690519386,454.4750369173196,9.6208470142487e+307];
+const v2 = [48580.746032334166,-1e-15,2.2250738585072014e-308,-2.2250738585072014e-308,407.57245621089874,-375343.12642704765];
+function f3(a4, a5) {
+    const o10 = {
+        __proto__: v0,
+        "a": a4,
+        get d() {
+            Object.defineProperty(this, a4, { enumerable: true, value: this });
+            a4[this] = this;
+            return "o";
+        },
+    };
+    return o10;
+}
+const v11 = f3(v1, f3);
+typeof v11 === "object";
+v1 = v2;
+for (let v15 = 0; v15 < 32; v15++) {
+    v11["p" + v15] = v15;
+}
+const v18 = f3(v1, v2);
+const v19 = f3(v0, v1);
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a22;
+    } catch(e25) {
+    }
+    function F26(a28, a29, a30) {
+        if (!new.target) { throw 'must be called with new'; }
+        Reflect.construct(Int8Array, [1126838905]);
+    }
+    try {
+        this.a = v0;
+    } catch(e36) {
+    }
+    try {
+        this.h = a24;
+    } catch(e37) {
+    }
+}
+new F20(v18, v18, v1);
+new F20(v18, v19, v2);
+new v2(v11, v11, v0);
+for (let v41 = 0; v41 < 5; v41++) {
+    function f42() {
+        for (let [i45, i46] = (() => {
+                switch (f42) {
+                }
+                return [0, 10];
+            })();
+            i46 << i46, i45 < i46;
+            i45++, i46--) {
+        }
+        return v41;
+    }
+    f42();
+    %OptimizeFunctionOnNextCall(f42);
+}

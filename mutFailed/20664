@@ -1,0 +1,26 @@
+function f6() {
+    return -268435456;
+}
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a10;
+    } catch(e14) {
+    }
+    try {
+        this.b = 5;
+    } catch(e15) {
+    }
+    try {
+        this.d = a13;
+    } catch(e16) {
+    }
+}
+new F8(-9, -268435456, f6, 5);
+const v18 = new F8(5, 63326, -268435456, -268435456);
+new F8(10000, -268435456, -9, -268435456);
+new Uint8ClampedArray(2176);
+new Uint32Array(F8);
+new v18(12);
+/a|b((\xed\xa0\x80))\x02foo|(bar|baz)|quux/vds;
+/5xyz{1,32}1\p{gc=Nd}+/visy;

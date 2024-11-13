@@ -1,0 +1,45 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 16;
+    } catch(e3) {
+    }
+}
+const v4 = new F0(F0);
+const v5 = new F0();
+const v6 = new F0();
+class C7 {
+    h;
+    #e = F0;
+    #b;
+    65535;
+    #d = C7;
+    static [F0];
+    set b(a9) {
+        const v10 = super.c;
+        [this,a9,v10,v10];
+        const v12 = [v4,v6,v10,v4];
+        super[v5] = v10;
+        try {
+            v5.#b;
+        } catch(e14) {
+        }
+        [v5,v5,v12,v4];
+    }
+    3;
+    #e = v6;
+    #h = v5;
+    [F0] = v6;
+}
+new C7();
+const v17 = new C7();
+new C7(v5, F0, v17);
+/c(?:ab)?/uim;
+/P(x)(x)(x)\3*y(ab)\1/vis;
+/\b\P{Any}+/vdy;
+class C22 {
+}
+const v23 = new C22();
+const v24 = [1000000.0,0.218433446981681,-5.0,-919787.2036172998,872389.6270716691];
+const v26 = [v23,v23,v23,v23,v23];
+Reflect.apply(v24.pop, v23, v26);

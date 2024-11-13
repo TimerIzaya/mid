@@ -1,0 +1,51 @@
+function f0() {
+    const o13 = {
+        "a": "GxNg",
+        "g": "m",
+        m(a5) {
+            const o8 = {
+                "maxByteLength": f0,
+            };
+            const v10 = new SharedArrayBuffer(255, o8);
+            new Float32Array(v10);
+            return this;
+        },
+    };
+    return o13;
+}
+const v14 = f0();
+const v15 = v14();
+const v16 = f0();
+const v17 = [-2147483649,1195972723,129,-2,-9223372036854775807];
+const v19 = ([14,1853564285,2147483648,-2147483649,-58079,536870888,-2033185888,10])?.constructor;
+try { new v19(v15); } catch (e) {}
+const v21 = [426944078,-9223372036854775807,12,161701129,2147483649];
+const v23 = new Date();
+const v24 = v23?.toGMTString;
+try { new v24(); } catch (e) {}
+class C26 extends Date {
+    constructor(a28, a29, a30, a31) {
+        super(C26);
+        super[v16] = a28;
+        try {
+            new a29();
+        } catch(e34) {
+            e34.message = a30;
+        }
+    }
+    #c = v15;
+    static #f;
+}
+new C26(v15, v15, v21, v14);
+new C26(v16, v14, v17, Date);
+new C26(C26, v15, v21, v14);
+function f39(a40, a41) {
+    try { a40.sup(); } catch (e) {}
+    const o43 = {
+        ...a40,
+    };
+    o43[2] = o43;
+    return a41;
+}
+%PrepareFunctionForOptimization(f0);
+f39("65536");

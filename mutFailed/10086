@@ -1,0 +1,98 @@
+class C3 {
+    constructor(a5) {
+        a5[0] = a5;
+        const o6 = {
+        };
+        o6.e = o6;
+        try {
+            o6.a = "WIj";
+        } catch(e7) {
+        }
+        try {
+            const o8 = {
+            };
+            o8.f = o8;
+            o8.a = "WIj";
+            o8.e = "n";
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.c = o10;
+            o10.a = "WIj";
+            o10.e = "n";
+            o10.b = this;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.a = "WIj";
+            o12.e = "n";
+            o12.b = "symbol";
+        } catch(e13) {
+        }
+    }
+}
+C3.prototype = C3;
+const v14 = new C3("symbol");
+const v15 = v14?.constructor;
+try { new v15("n"); } catch (e) {}
+const v17 = new C3("n");
+const v18 = new C3("WIj");
+const v19 = v18?.constructor;
+try { new v19("WIj"); } catch (e) {}
+function f21() {
+    return v17;
+}
+function f22() {
+    return "symbol";
+}
+try { f22(); } catch (e) {}
+const v24 = [NaN,1.0];
+v24[1] = v24;
+[2.2250738585072014e-308,1000000000.0,0.4054320867606249,1.0817637409323588e+308,1000000000000.0,-809485.7402801592,-Infinity,3.0,-4.0];
+[-7.7934932328574895,-4.925891840642538e+307,1000000000.0,0.8326544271917883,-3.0,-228980.9671117158,-791.4244014965326,2.2250738585072014e-308,1.0];
+let v28 = -1635528658;
+v28--;
+function F32(a34) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v35 = new F32();
+class C37 {
+}
+try { new C37(); } catch (e) {}
+const v39 = new C37();
+v39.__proto__;
+const o41 = {
+};
+o41.c = o41;
+const v42 = new C37();
+const v43 = v42?.constructor;
+try { new v43(); } catch (e) {}
+function f45(a46, a47) {
+    const v49 = new Float64Array(1073741825);
+    try { v49.find(f21); } catch (e) {}
+    new Uint8Array();
+    try { Uint8ClampedArray.of(); } catch (e) {}
+    new Uint8ClampedArray();
+    const v56 = [];
+    try { v56.with(); } catch (e) {}
+    const o65 = {
+        [v42](a59, a60, a61) {
+            super[-9223372036854775807];
+        },
+        set b(a64) {
+        },
+        [a47]: v39,
+        "d": v35,
+        [-9223372036854775807]: o41,
+    };
+    return v39;
+}
+%PrepareFunctionForOptimization(f45);
+f45();
+%OptimizeFunctionOnNextCall(f45);
+const v68 = f45(C37, v42)?.constructor;
+try { new v68(); } catch (e) {}

@@ -1,0 +1,43 @@
+[12965,-10,-4,-2136683040,-65536];
+[-16676,-1870588050,1753645113,-4294967295,-2044537305,1718995557,55381,-28871,-63980];
+[-1721246706,1437162294,2147483647,10,-14,1024,11,-4096,0,-4096];
+const v5 = new Int32Array(1000);
+new BigUint64Array(255);
+Float64Array.name;
+const v12 = new Float64Array(64);
+-18;
+new BigInt64Array(18);
+const v19 = new Uint8Array(3366);
+function f20() {
+    function f21(a22, a23) {
+        for (let v24 = 0; v24 < 32; v24++) {
+            v12["p" + v24] = v24;
+        }
+        return a22;
+    }
+    return f21;
+}
+Object.defineProperty(v19, "toString", { configurable: true, get: f20 });
+try { v19.with(v5, v19); } catch (e) {}
+new Uint16Array(1);
+for (let v31 = 0; v31 < 5; v31++) {
+    function f32() {
+        function f34(a35) {
+            function F36(a38, a39, a40) {
+                if (!new.target) { throw 'must be called with new'; }
+                return arguments;
+            }
+            const v43 = new F36();
+            v43.e = Uint8ClampedArray;
+            v43.e = v43;
+        }
+        Object.defineProperty(Uint8ClampedArray, "d", { writable: true, set: f34 });
+        Uint8ClampedArray.d = Uint8ClampedArray;
+        const v44 = new Uint8ClampedArray();
+        v44[2327] = v44;
+        return Uint8ClampedArray;
+    }
+    try { f32(); } catch (e) {}
+    f32();
+    %OptimizeFunctionOnNextCall(f32);
+}

@@ -1,0 +1,12 @@
+new Float64Array(13);
+new Int32Array(128);
+new Float32Array(129);
+new WeakMap();
+const v11 = [-10,255];
+function f12(a13) {
+    return Symbol.toPrimitive;
+}
+v11.valueOf = f12;
+const v17 = new Uint8ClampedArray();
+v17[Symbol.toPrimitive] = f12;
+v11 * v17;

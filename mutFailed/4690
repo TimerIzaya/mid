@@ -1,0 +1,65 @@
+function f3() {
+    return "65536";
+}
+class C4 extends f3 {
+    constructor(a6) {
+        super(a6, this);
+        const o7 = {
+            "ownKeys": f3,
+        };
+        new Proxy(this, o7);
+    }
+    #g;
+    3626 = "65536";
+    h;
+    static #d;
+}
+const v10 = new C4("65536", "65536", C4, f3);
+const v11 = new C4("-2342");
+const v12 = new C4("-2342");
+function f16(a17, a18, a19, a20) {
+    const o35 = {
+        ...a19,
+        "h": -9223372036854775808,
+        "b": "string",
+        ..."-2342",
+        set byteLength(a22) {
+            function f23(a24, a25, a26) {
+                a26 ** a24;
+                -9223372036854775808 % 1073741824;
+                1073741824 && -9223372036854775808;
+                Math.acos(1073741824);
+                --a26;
+                return v12;
+            }
+            f23(v11, f3, "string");
+        },
+    };
+    return o35;
+}
+f16(10000, 2147483647, "-2342", v12);
+f16(2147483647, -9223372036854775808, "-2342", v12);
+f16(2147483647, 2147483647, "string", "65536");
+const v39 = [];
+const v40 = [v39,v39,v10,v39,-9223372036854775808];
+function F41(a43) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C44 extends F41 {
+    valueOf(a46, a47, a48, a49) {
+        super[this] = F41;
+        const v52 = new SharedArrayBuffer(945);
+        new Int16Array(v52, C4, v52);
+    }
+}
+const v55 = new C44(f16);
+const o62 = {
+    set g(a57) {
+    },
+    [v40](a59, a60, a61) {
+    },
+};
+v39.length = 65535;
+for (const v64 in o62) {
+    try { v55.valueOf(); } catch (e) {}
+}

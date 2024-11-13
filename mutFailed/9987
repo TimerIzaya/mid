@@ -1,0 +1,62 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 42998;
+    } catch(e3) {
+    }
+    try {
+        this.g = 42998;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [-725447623,398414109,4096,-2147483649,-15,-9223372036854775807,63352,1073741823];
+const v9 = [49616,4294967295,-2105715542,1267032854,-22569,-1073741824];
+[-12255,342626110];
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v6;
+    } catch(e15) {
+    }
+}
+new F11(v5, v9);
+const v17 = new F11(v6, v8);
+new F11(v7, v17);
+class C19 extends F0 {
+    static #o(a21, a22, a23, a24) {
+        let v25 = 0;
+        while (v25 < 5) {
+            this[v9] = a22;
+            try {
+                new F0();
+            } catch(e29) {
+            }
+            v25++;
+        }
+        return a24;
+    }
+}
+const v31 = new C19();
+new C19();
+new C19();
+class C34 {
+    constructor(a36, a37) {
+        function f38(a39) {
+            function f40(a41) {
+            }
+            const v44 = new Uint16Array(1024);
+            v31[7] = v44;
+            return C34;
+        }
+        const o47 = {
+            "type": "function",
+        };
+        new Worker(f38, o47);
+    }
+}
+const v49 = new v7();
+new C34(v49, C34);
+new C34();

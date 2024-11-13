@@ -1,0 +1,86 @@
+SharedArrayBuffer.maxByteLength = SharedArrayBuffer;
+const v2 = new SharedArrayBuffer();
+function f3() {
+    try {
+        new SharedArrayBuffer(2160);
+    } catch(e5) {
+    }
+    return SharedArrayBuffer;
+}
+Object.defineProperty(v2, "constructor", { writable: true, configurable: true, enumerable: true, value: f3 });
+const v6 = v2.constructor;
+let v7;
+try { v7 = new v6(2160); } catch (e) {}
+v7.maxByteLength = v2;
+v7.maxByteLength = v7;
+let v8 = 3239;
+const v10 = new Int32Array(v8);
+Float64Array.name;
+new Float64Array(v10);
+const v15 = new Uint32Array(2160);
+try { v15.entries(); } catch (e) {}
+const o18 = {
+    get c() {
+    },
+};
+class C20 {
+    constructor(a22, a23) {
+        this.constructor = f3;
+        const v24 = this.constructor;
+        try { new v24(v24); } catch (e) {}
+        this[-2147483648] >>>= v8;
+        let v26 = 0;
+        while (v26 < 1) {
+            const v31 = v8--;
+            Math.atan();
+            v8 * 7;
+            Math.floor();
+            const v35 = v31 + 7;
+            v35 * v35;
+            const v37 = v26++;
+            v37 - v37;
+        }
+    }
+}
+try { new C20(-2147483648, Uint32Array); } catch (e) {}
+new Int32Array(1897);
+Int8Array.d = Int8Array;
+const v45 = new Int8Array(9);
+function f46(a47) {
+    const v50 = ("29753").replaceAll("29753", "b");
+    v50.split("b");
+    return v50;
+}
+v45[Symbol.toPrimitive] = f46;
+try { v45.with(v45, v45); } catch (e) {}
+[Int8Array,Uint32Array,Int32Array,Int8Array];
+[v15,1897,9,2160];
+function f57(a58, a59) {
+    return a59;
+}
+const v60 = [2.0,-2.2250738585072014e-308,2.4617128810201834,0.8777478192033997,4.0,5.13369912480738,-0.6793749535317453];
+Uint32Array.BYTES_PER_ELEMENT;
+const v63 = new Uint32Array(v60);
+Uint16Array.name;
+new Uint16Array(v63);
+[Int8Array,Int32Array,Int32Array];
+const v68 = /[^7Y[a-zA-Z0-9]?]/vdmy;
+for (let v69 = 0; v69 < 5; v69++) {
+    function f70() {
+        const v72 = Array();
+        const v73 = [-504863.1885363821,-248378.80818527355,-147.11467188198264,-1.7039705769992093e+308];
+        v73.toString = f70;
+        v73[1];
+        for (let v75 = 0; v75 < 5; v75++) {
+            v75 >> v75;
+            v73 | v75;
+        }
+        for (let v78 = 0; v78 < 25; v78++) {
+        }
+        try { v72.reduceRight(v68); } catch (e) {}
+        return v72;
+    }
+    try { f70(); } catch (e) {}
+    f70();
+    %OptimizeFunctionOnNextCall(f70);
+}

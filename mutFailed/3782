@@ -1,0 +1,40 @@
+class C3 {
+    constructor(a5, a6) {
+        Reflect.construct(a5, [-2.2250738585072014e-308,Reflect,"valueOf"], a5);
+    }
+    static 3;
+    static #valueOf(a11) {
+        %VerifyType(super.h);
+        return "valueOf";
+    }
+    ["valueOf"];
+}
+const v13 = new C3(C3, C3);
+const v14 = new C3(v13, v13);
+new C3(C3, v14);
+[-1.0,730.5633187793821,83.20610907388209,-1.1310879495280837e+308,700589.4043143415,-1000000.0];
+[4.0];
+[2.0,4.0,1000.0];
+function F22() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v24 = new F22();
+const v27 = [2.2250738585072014e-308,-Infinity,496645.0382158025,-621700.5175002808];
+const v28 = [974836.255416306,7.54270135293536,0.0,0.35539841926815563,1.385396251341163,-1000000000000.0,NaN,-1.7976931348623157e+308];
+class C29 {
+}
+const v30 = new C29();
+function f31(a32, a33, a34) {
+    for (let v35 = 0; v35 < 25; v35++) {
+        const v37 = "p" + v35;
+        try {
+            v28.toLocaleString();
+        } catch(e39) {
+        }
+        a34 >> F22;
+        a34[v37] = v35;
+    }
+    return a34;
+}
+f31(0.0, v24, v28);
+f31(1.0, v30, v27);

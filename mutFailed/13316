@@ -1,0 +1,63 @@
+let v1 = "RDsY";
+let v2 = "YWnk";
+function f3() {
+    return f3;
+}
+function f4() {
+    return v1;
+}
+try { f4(); } catch (e) {}
+class C6 extends v2 {
+    static #f;
+    [f4] = f3;
+    get e() {
+        v2 = this;
+        ({"length":v1,} = v1);
+        return 1464938213;
+    }
+    static #d;
+}
+C6.d = C6;
+const v11 = new C6();
+const v12 = new C6();
+const v13 = new C6();
+v13.e = v13;
+const v14 = [v13,v13,v13];
+const v15 = [v1,f4,v14,"p",v11];
+try { v15.lastIndexOf(v13); } catch (e) {}
+const v17 = [f3];
+function f18() {
+    const v20 = this?.Uint8ClampedArray;
+    try { new v20(v12, f18, v14); } catch (e) {}
+    const v22 = this?.ArrayBuffer;
+    try { new v22(v13); } catch (e) {}
+    function f24(a25) {
+        return a25;
+    }
+    this.onmessage = f24;
+    try {
+        class C26 {
+        }
+        let v27;
+        try { v27 = C26(); } catch (e) {}
+        const v28 = new v27();
+        const v29 = [5];
+        try { Reflect.set(v11, v29, v17); } catch (e) {}
+        const v32 = [];
+        const v34 = Reflect.apply(v29.fill, v28, v32);
+        v34?.constructor;
+        try { new C26(); } catch (e) {}
+        let v37;
+        try { v37 = v34.propertyIsEnumerable(f3); } catch (e) {}
+        v37 || v37;
+    } catch(e39) {
+    }
+    return f18;
+}
+const v40 = f18();
+v40.prototype = v40;
+%PrepareFunctionForOptimization(f18);
+f18();
+%OptimizeFunctionOnNextCall(f18);
+const v42 = f18("p");
+try { new v42(); } catch (e) {}

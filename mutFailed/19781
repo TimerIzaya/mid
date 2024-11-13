@@ -1,0 +1,60 @@
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        a11.e = a11;
+    } catch(e14) {
+    }
+    try {
+        this.a = 256;
+    } catch(e15) {
+    }
+}
+const v16 = new F9(1637125391, -5n, 1000n);
+new F9(256, 12n, -5n);
+new F9(1637125391, -5n, 1000n);
+class C19 {
+    #h;
+    get c() {
+        try {
+            v16.a = this;
+        } catch(e21) {
+        }
+        delete v16[8];
+        this[650] = 7;
+        const o25 = {
+            "maxByteLength": 1073741825,
+        };
+        const v27 = new SharedArrayBuffer(10, o25);
+        new Uint8Array(v27);
+        return 1073741825;
+    }
+}
+const v30 = new C19();
+new v30();
+new C19();
+const v33 = [];
+function f34() {
+    const o36 = {
+        p() {
+            return f34;
+        },
+        [v33]: v33,
+        "a": v33,
+    };
+    return v33;
+}
+const v37 = f34();
+const v38 = f34();
+f34();
+[65536];
+[-267,-4,-32045,-4];
+[14,268435441,-9223372036854775807];
+new Float64Array(14);
+const v48 = new Uint8ClampedArray(0);
+const v51 = new BigInt64Array(0);
+let v52;
+try { v52 = v51.sort(f34); } catch (e) {}
+try { v52(v38, F9, v52, ...v48, v37, ...v37); } catch (e) {}
+const v54 = (a55, a56) => {
+    return a56 * a56;
+};

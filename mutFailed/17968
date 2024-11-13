@@ -1,0 +1,43 @@
+class C3 {
+    256 = C3;
+    static o(a5, a6) {
+        try {
+            super.o(a5, this, this, a6, a5);
+        } catch(e8) {
+        }
+        const t7 = "boolean";
+        t7[7] = this;
+        try {
+            const t10 = "boolean";
+            t10.length = 0;
+        } catch(e10) {
+        }
+        return this;
+    }
+}
+new C3();
+const v12 = new C3();
+const v13 = new C3();
+class C14 extends C3 {
+    static get b() {
+        %VerifyType(v13);
+        try {
+            v12.length = 193;
+        } catch(e17) {
+        }
+        return NaN;
+    }
+    static #f;
+    static 2 = v13;
+}
+const t32 = -10;
+new t32();
+const v19 = new C14();
+new v19();
+for (let v21 = 0; v21 < 10; v21++) {
+    const v22 = [v21,v21,v21,v21];
+    const o23 = {
+        __proto__: v12,
+    };
+    o23.length = v22;
+}

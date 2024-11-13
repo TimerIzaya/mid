@@ -1,0 +1,25 @@
+new WeakSet();
+function f8(a9, a10) {
+    const o14 = {
+        ..."boolean",
+        __proto__: a9,
+        2226145574: "n",
+        ..."n",
+        77: 2n,
+        set c(a12) {
+            try {
+                this.g = this;
+            } catch(e13) {
+            }
+        },
+        "f": "n",
+        "d": 2n,
+        "c": 10000n,
+    };
+    return o14;
+}
+f8("boolean", "boolean");
+f8("n", f8("boolean", "boolean"));
+Int32Array[1] = 10000n;
+const v22 = new Int32Array(Int32Array);
+let {...v23} = v22;

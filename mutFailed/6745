@@ -1,0 +1,43 @@
+function f0() {
+}
+const v2 = new WeakSet();
+const v8 = new Array(3062);
+function f9(a10, a11) {
+    const o16 = {
+        "f": 866517175,
+        __proto__: v2,
+        set b(a13) {
+            let v12 = this;
+            v12 = WeakSet;
+            Object.defineProperty(v8, -1, { configurable: true, value: a13 });
+            const v14 = new WeakSet(v12);
+            try {
+                v14.valueOf = a13;
+            } catch(e15) {
+            }
+        },
+    };
+    return v2;
+}
+const v17 = f9(WeakSet, f0);
+f9(f9(2147483649, f0), WeakSet);
+function f20() {
+}
+const v21 = [f20,f20];
+[[v21,f20]];
+new Uint8ClampedArray(3989);
+const v32 = new Int8Array(9);
+new Int16Array(186);
+class C36 {
+    [v21];
+    10;
+    static c = v32;
+}
+new C36();
+new C36();
+new v17();
+const o43 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o43);

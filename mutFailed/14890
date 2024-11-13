@@ -1,0 +1,35 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+    try {
+        this.h = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new f0();
+const v6 = new F1();
+new f0();
+class C8 {
+    static {
+        v5.d;
+    }
+    toString(a12, a13) {
+        super[v6];
+        try {
+            a12.fuck(a13, v6);
+        } catch(e16) {
+        }
+        return F1;
+    }
+    #g = F1;
+}
+new C8();
+new C8();
+new v6();
+const v25 = new Date(-9223372036854775807);
+v25.setTime(-9223372036854775807);

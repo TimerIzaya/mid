@@ -1,0 +1,35 @@
+const t0 = [];
+new t0(15);
+const v6 = new Float32Array(8);
+v6[5];
+new Int32Array(4012);
+class C11 extends Float32Array {
+    set b(a13) {
+        function F14(a16, a17) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = a17;
+            } catch(e18) {
+            }
+            try {
+                this.b = a16;
+            } catch(e19) {
+            }
+        }
+        new F14(this, 15);
+        new F14(8, 15);
+        new F14(15, 8);
+    }
+}
+C11.d = C11;
+new C11();
+const v24 = new C11();
+new v24();
+const v27 = 1073741824 & 1073741824;
+const v28 = [6.621588498634488e+307,1.0,3.0,-5.0,-1.7976931348623157e+308,-1.7976931348623157e+308,257.7405098162435,-136018.55674827856];
+try { v28.entries(); } catch (e) {}
+const v30 = [v28,v28];
+const v31 = v30?.values;
+try { new v31(); } catch (e) {}
+!true;
+v28.concat(v30, v30, true, v27);

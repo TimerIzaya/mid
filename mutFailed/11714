@@ -1,0 +1,16 @@
+const v5 = new Uint8ClampedArray(8);
+const v8 = new Uint32Array(0);
+new Float64Array(v5);
+class C12 {
+}
+const v13 = new C12();
+function f14(a15, a16) {
+    const v17 = a16?.__lookupGetter__;
+    a16?.constructor;
+    return v17;
+}
+%PrepareFunctionForOptimization(f14);
+const t12 = 183;
+t12(Uint16Array, v13);
+%OptimizeFunctionOnNextCall(v8);
+f14();

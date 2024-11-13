@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 65536;
+    } catch(e3) {
+    }
+    try {
+        this.e = 65536;
+    } catch(e4) {
+    }
+    try {
+        this.f = 65536;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f9() {
+    return v8;
+}
+new BigInt64Array(v7);
+new BigUint64Array(v7);
+const t23 = 16;
+new t23(512);
+const v19 = [2.412578955630149,2.7008822875610345,-2.220446049250313e-16,-1.0,-1000000000.0,-1.0,3.9002388983145044e+307,-Infinity,-1e-15,-4.2464820531165003e+307];
+const v20 = [-1e-15,4.0,362.9742459010415,1.488212487511409e+308,3.0];
+class C21 {
+    constructor(a23, a24) {
+        super[v20] = this;
+    }
+}
+const v25 = new C21(v19, v20);
+function f26(a27) {
+    return C21;
+}
+const v30 = [v25];
+const o31 = {
+    "arguments": v30,
+    "type": "function",
+};
+new Worker(f26, o31);

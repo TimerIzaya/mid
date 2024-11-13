@@ -1,0 +1,22 @@
+const v2 = new BigInt64Array(64);
+const v5 = new BigUint64Array(13);
+const v8 = new BigUint64Array(64);
+[64];
+[64,BigInt64Array];
+const v11 = [v5,BigUint64Array,BigInt64Array];
+let v12;
+try { v12 = v2(); } catch (e) {}
+try { v12["getOwnPropertyNames"](64); } catch (e) {}
+const v17 = [v12,13];
+const v19 = Reflect.apply(v8.indexOf, v11, v17);
+function f20(a21) {
+    return a21;
+}
+try {
+    v11.unshift(2.091015626298958, "48614", BigUint64Array, v19);
+} catch(e25) {
+}
+class C26 extends f20 {
+}
+const v27 = new C26();
+Object.defineProperty(v27, 2075456563, { get: f20, set: f20 });

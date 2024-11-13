@@ -1,0 +1,49 @@
+function f3() {
+    return "c";
+}
+try { f3(); } catch (e) {}
+-5.0 - -5.0;
+3.1432556285027484 & 3.1432556285027484;
+function F10() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v12 = new F10();
+const v13 = v12?.constructor;
+try { new v13(); } catch (e) {}
+const v15 = [F10,F10,F10];
+function f16(a17) {
+    try {
+        v15.some();
+    } catch(e19) {
+        e19.stack;
+    }
+    return a17;
+}
+v15.toString = f16;
+const o22 = {
+    __proto__: v15,
+    "e": v12,
+    get a() {
+        return this;
+    },
+};
+const v23 = o22?.constructor;
+try { new v23("-8"); } catch (e) {}
+const v25 = o22.toString(F10, o22);
+v25.d = v25;
+-4963 % -4963;
+class C33 {
+    static {
+        this.a = this;
+        function F35(a37, a38) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v39 = this.propertyIsEnumerable(this);
+            v39 && v39;
+            const v41 = this.constructor;
+            v41.name = v41;
+            try { new v41(); } catch (e) {}
+            try { this.constructor(); } catch (e) {}
+        }
+        new F35(C33, C33);
+    }
+}

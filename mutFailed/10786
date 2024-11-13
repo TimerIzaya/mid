@@ -1,0 +1,81 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3(a4, a5) {
+        for (let v6 = 0; v6 < 500; v6++) {
+            class C8 {
+            }
+            const v11 = new Int32Array(v6, v6, 257);
+            let v13 = new Map();
+            [...v13] = v11;
+        }
+        return this;
+    }
+    this[Symbol.toPrimitive] = f3;
+    try {
+        this.h = v0;
+    } catch(e16) {
+    }
+    try {
+        this.g = v0;
+    } catch(e17) {
+    }
+}
+const v18 = new F1();
+function f19(a20, a21) {
+    try {
+        const o22 = {
+        };
+        v0.reduceRight(a20, o22);
+    } catch(e24) {
+    }
+    return F1;
+}
+v18.toString = f19;
+const v25 = new F1();
+v25.toString = f19;
+const v26 = new F1();
+class C27 extends F1 {
+    get g() {
+        const v29 = v0[F1];
+        function F30(a32, a33, a34) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = v25;
+            } catch(e35) {
+            }
+        }
+        new F30(v25, this, this);
+        new F30(v18, this, v29);
+        new F30(v25, this, v26);
+        return v18;
+    }
+    static [v25] = v26;
+}
+const v39 = new C27();
+new C27();
+const v41 = new C27();
+function f42(a43, a44, a45) {
+    const o54 = {
+        "g": v0,
+        "c": v18,
+        [v18](a47, a48) {
+            const v49 = v39.__proto__;
+            const v50 = delete v49?.h;
+            const v51 = new C27();
+            v51.g <<= v49;
+            var e = a45;
+            %VerifyType(a43);
+            try {
+                super.toJSON(v49, v49, v50);
+            } catch(e53) {
+            }
+            return F1;
+        },
+    };
+    return o54;
+}
+f42(v41, f42(v39, v0, v41), C27);
+f42(v26, C27, v39);
+const v62 = new Date();
+v62.getUTCHours();

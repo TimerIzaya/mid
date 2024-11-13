@@ -1,0 +1,31 @@
+class C3 {
+    static {
+        try { new this(); } catch (e) {}
+        const v6 = super.f;
+        super.d;
+        try {
+            super.valueOf(v6, "o").length;
+        } catch(e10) {
+        }
+    }
+    64 = "o";
+    static [1.0];
+}
+const v11 = C3[1];
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new v13();
+v14[64];
+let v16 = 623;
+v16--;
+new Uint8ClampedArray("o");
+const v22 = new Float64Array(129);
+v22[81] = v22;
+new Float64Array(2767);
+const v26 = [];
+try { v26.some(v12); } catch (e) {}
+const v29 = [];
+try { v29.toString(); } catch (e) {}
+v29[0] = v13;
+const v31 = new v11(v29);
+v31[v31] = v26;

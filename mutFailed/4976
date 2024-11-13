@@ -1,0 +1,49 @@
+[1000000000000.0,-1000.0,-Infinity,311.7260723451193,-1.4603774550252117e+307,1000000.0,1000.0];
+[-4.0,0.7525866010760656,-0.0];
+const v2 = [1e-15,-1000000.0,628.8782423526304,4.24455650694636];
+const v5 = new Int32Array(129);
+new Uint8Array(16);
+const v11 = new Float32Array(9);
+class C12 extends Float32Array {
+    constructor(a14, a15, a16) {
+        super(a14);
+        v11 <= a16;
+        this[1860] = v2;
+        let v18;
+        try { v18 = a15(9, this, a15, v5, v5); } catch (e) {}
+        function F19(a21, a22, a23, a24) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = a15;
+            } catch(e25) {
+            }
+            try {
+                this.f = a21;
+            } catch(e26) {
+            }
+        }
+        new F19(129, v2, v2, a15);
+        new F19(a16, v2, v2, 129);
+        new F19(129, v18, v2, 16);
+    }
+}
+new C12(9, 9, 9);
+new C12(129, 16, 129);
+new C12(16, 129, 129);
+class C34 {
+}
+function f35() {
+    const o37 = {
+        "a": Map,
+        [C34]: Int32Array,
+        "g": gc,
+        "b": gc,
+        [v5]: C34,
+    };
+    gc(o37);
+}
+const v39 = new C34();
+const v40 = v39.constructor;
+v40[Symbol.toPrimitive] = f35;
+const v43 = new v40();
+([v43.constructor,Map]).toSorted();

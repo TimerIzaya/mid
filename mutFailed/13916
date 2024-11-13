@@ -1,0 +1,35 @@
+let v2 = "undefined";
+new WeakMap();
+v2 = "boolean";
+const v6 = [];
+("boolean").apply(v2.trimRight, "257", v6);
+const v9 = [NaN,-0.0,1.7976931348623157e+308,1000000000000.0,4.0,-1.0729335522355434,-5.0];
+const v10 = [-1000000.0];
+const v11 = [-1000000.0,-1e-15,-7.085482684604425,-1000000000.0,-8.295588414716878,-1000000000.0,0.08413332063896561,5.0,-3.1608242512727074,1.0];
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a15;
+    } catch(e18) {
+    }
+    try {
+        this.c = v11;
+    } catch(e19) {
+    }
+}
+new F12("boolean", v10, v2, v9);
+new F12(v2, v11, v2, v9);
+new F12(v2, v9, "boolean", v9);
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v2;
+    } catch(e27) {
+    }
+}
+new F23(v10, v10, "257");
+new F23(v9, v9);
+new F23(v10, v10);
+class C32 extends Set {
+}
+new C32();

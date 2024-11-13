@@ -1,0 +1,59 @@
+function f0() {
+    const o9 = {
+        "g": "valueOf",
+        ["species"]: "valueOf",
+        set h(a5) {
+            let {"g":v6,"length":v7,} = "c";
+            v6 <= a5;
+        },
+        "f": "species",
+        ["valueOf"]: "c",
+        "d": "species",
+        ["c"]: "species",
+        __proto__: "species",
+        "a": "species",
+        "e": "species",
+        25: "valueOf",
+    };
+    return o9;
+}
+const v10 = f0();
+f0();
+f0();
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = "PI";
+    } catch(e22) {
+    }
+}
+new F16(v10, "vhmb2", "vhmb2", "PI");
+const v24 = new F16("PI", "vhmb2", "f", "vhmb2");
+new F16(v24, "vhmb2", "vhmb2", "f");
+/v(x)(x)(x)\2/uy;
+/ab\b\d\bcd/vdisy;
+/[E(?:a+)?({z}a\w[\p{Script_Extensions=Mongolian}&&\p{Number}])]/gdi;
+class C30 {
+    static {
+        try {
+            const t38 = null;
+            t38.valueOf = this;
+        } catch(e32) {
+            e32.stack;
+        }
+    }
+}
+const v34 = [null,null];
+new Int8Array(2399);
+new BigInt64Array(256);
+new Uint8Array(1000);
+function f44() {
+    const v45 = -v34;
+    new Float32Array();
+    -(v45 && v34);
+    return C30;
+}
+%PrepareFunctionForOptimization(f44);
+f44();
+%OptimizeFunctionOnNextCall(f44);
+f44();

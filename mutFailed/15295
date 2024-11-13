@@ -1,0 +1,74 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 63152;
+    } catch(e3) {
+    }
+    try {
+        this.g = 63152;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+function f6() {
+    function f7(a8, a9) {
+        const o10 = {
+        };
+        return o10;
+    }
+    return f7;
+}
+Object.defineProperty(v5, "toString", { configurable: true, get: f6 });
+const v11 = new F0();
+const v12 = new F0();
+const v13 = [-64796,-256];
+[-748437294,-688892221,256,-1103577832,10000];
+[-1024,-5,-9223372036854775807,-9223372036854775808,-857313434,-28967,61393,-4];
+function f19(a20, a21) {
+    const o34 = {
+        [a21]: F0,
+        "f": v13,
+        [a20]: -1073741824,
+        valueOf(a23, a24) {
+            new BigUint64Array(1411);
+            new Uint16Array(110);
+            new Uint32Array(129);
+            return -1073741824;
+        },
+    };
+    return o34;
+}
+f19(-1073741824, v5);
+f19(7, v11);
+f19(-1073741824, v12);
+class C38 {
+}
+const v39 = new C38();
+function f40(a41, a42) {
+    function f43() {
+        return f40;
+    }
+    class C44 extends f43 {
+    }
+    class C45 extends C44 {
+    }
+    function f46(a47, a48, a49, a50) {
+        try { a47(C45); } catch (e) {}
+        let v52 = a48 & a48;
+        new Map();
+        v52++;
+        const o59 = {
+            n(a57, a58) {
+                return this;
+            },
+        };
+        return v39;
+    }
+    for (let v60 = 0; v60 < 500; v60++) {
+        f46();
+    }
+    return C38;
+}
+Object.defineProperty(v39, "constructor", { value: f40 });
+const v62 = v39.constructor;
+v62(v62, v39);

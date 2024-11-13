@@ -1,0 +1,46 @@
+const v0 = [];
+const v1 = [995726.7942174063,601.3164994828894];
+function f2() {
+    function f3(a4) {
+        try {
+            a4.length = 5;
+        } catch(e6) {
+        }
+        return v1;
+    }
+    return f3;
+}
+Object.defineProperty(v1, "toString", { writable: true, configurable: true, enumerable: true, get: f2 });
+const v7 = [4.0,287562.7905706165,4.974953024887361,-4.466158582731186];
+v7.toString = f2;
+const v8 = [-9.671862434415242,154.52332563482196,-8.930183972950446e+307,Infinity,8.16794913126262];
+v8.toString = f2;
+function f9(a10, a11) {
+    const o12 = {
+        "replace": a10,
+        8: a11,
+        ...v8,
+        [a10]: v8,
+        "f": a10,
+        __proto__: v7,
+        ...v8,
+        9: a10,
+        [v7]: v1,
+        4: v0,
+        [a11]: a10,
+    };
+    return o12;
+}
+f9(v1, v8);
+f9(v1, v8);
+f9(v8, v7);
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(); } catch (e) {}
+    ++a25;
+    const v28 = this.constructor;
+    try { new v28(-256, a24); } catch (e) {}
+    -a25;
+}
+new F22(-128, -2);
+new F22(-128, -2);

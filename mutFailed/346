@@ -1,0 +1,40 @@
+class C3 {
+    static {
+        const t2 = "PUjO";
+        t2["PUjO"] = this;
+        function F5(a7) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a7;
+            } catch(e8) {
+            }
+            try {
+                this.d = a7;
+            } catch(e9) {
+            }
+        }
+        new F5(this);
+        new F5("PUjO");
+        new F5(this);
+    }
+}
+new C3();
+new C3();
+const v15 = new C3();
+class C23 {
+    f = "1073741824";
+}
+new C23();
+class C27 {
+    [C23];
+    static 1073741825;
+    static ["YZmA"] = 3.860860704407031;
+}
+new v15();
+("YZmA")["indexOf"]("g");
+("YZmA")[Symbol.toStringTag];
+const o37 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o37);

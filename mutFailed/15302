@@ -1,0 +1,71 @@
+new Uint16Array(16);
+Int32Array.name;
+const v7 = new Int32Array(0);
+let v8 = 129;
+v8--;
+const v11 = new BigInt64Array(v8);
+const v12 = v11[58];
+class C13 {
+    #p(a15, a16, a17, a18) {
+        try {
+            new Uint16Array(a15, -9223372036854775807);
+        } catch(e21) {
+        }
+        return BigInt64Array;
+    }
+    #m(a23, a24, a25) {
+        super.b = a23;
+        a25 & v8;
+        return v11;
+    }
+}
+C13.g = v12;
+const v27 = new C13();
+function f28() {
+    const v30 = Array();
+    for (const v31 of v30) {
+    }
+    return v30;
+}
+v27.constructor = f28;
+const v32 = v27?.constructor;
+v32.g = Uint16Array;
+try { new v32(); } catch (e) {}
+const v34 = new C13();
+const v35 = v34?.__lookupGetter__;
+try { new v35(C13); } catch (e) {}
+new C13();
+this[Symbol.toPrimitive] = f28;
+Array.__proto__ = this;
+const o61 = {
+    get b() {
+        const v43 = this?.__lookupGetter__;
+        try { new v43(this); } catch (e) {}
+        const v45 = Array.constructor;
+        let v46;
+        try { v46 = v45(); } catch (e) {}
+        function f47(a48) {
+            const v49 = [1630629478,9,2034969337];
+            for (let v50 = 0; v50 < 25; v50++) {
+                v49.__proto__;
+            }
+            return v7;
+        }
+        v46[Symbol.toPrimitive] = f47;
+        v45(Array, v45, v45, Array);
+        const v55 = `
+            C13.g &= v46;
+            [1000000000.0,-643.3328756128817,Infinity,1000.0,0.0,-1.4720062646180452e+308,1000000000.0,5.0,191185.26774504967];
+            [-20361.566383849713,113.5584307216343,1.7976931348623157e+308,4.0,-274399.0427599042,840.5328202242354,1000000000000.0,1000000.0,-8.459460094086217e+307];
+            [-1000000000.0,-1e-15,2.2250738585072014e-308,-Infinity,-7.409875209905968];
+        `;
+        eval(v55);
+        return this;
+    },
+};
+const o62 = {
+    ...o61,
+};
+o62.e = o62;
+o62.e = C13;
+o62.e = o62;

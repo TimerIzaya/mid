@@ -1,0 +1,60 @@
+class C3 {
+    static #valueOf(a5) {
+        function F6(a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a8;
+            } catch(e9) {
+            }
+            try {
+                this.d = 10;
+            } catch(e10) {
+            }
+            try {
+                a5.c = a8;
+            } catch(e11) {
+            }
+        }
+        const v12 = new F6(10);
+        const v13 = new F6(v12);
+        const v14 = new F6(v13);
+        return v14;
+    }
+}
+new C3();
+const v16 = new C3();
+new v16();
+const v23 = new Int8Array(0);
+function F27() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -1052649622;
+        const v32 = -(-7);
+        v32 ** v32;
+    } catch(e34) {
+    }
+}
+function F35(a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v39 = this.constructor;
+    v39.length = v39;
+    try { new v39(F27, a37, v23, v39); } catch (e) {}
+    new F27();
+}
+new F35(F27, F35);
+new Int32Array(3060);
+[-8617,3];
+const o48 = {
+    "h": 4.435972324405191e+307,
+};
+new Int8Array(o48);
+new Uint8ClampedArray(15);
+class C54 extends WeakSet {
+    static #n(a56) {
+        function f57(a58) {
+            return a58;
+        }
+        class C59 extends f57 {
+        }
+    }
+}

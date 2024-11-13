@@ -1,0 +1,29 @@
+class C9 {
+    constructor(a11, a12) {
+        function f13(a14, a15, a16) {
+            'use strict';
+            const o19 = {
+                "maxByteLength": 54,
+            };
+            const v21 = new ArrayBuffer(54, o19);
+            new Int32Array(v21);
+            return 1902;
+        }
+        f13(-2147483649, -2147483649, 0.3648669789067994);
+    }
+}
+new C9(9007199254740990, -2.2250738585072014e-308);
+new C9(1902, -2147483649);
+const t16 = 11;
+const v27 = new t16(1902, -2.2250738585072014e-308);
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v27;
+    } catch(e32) {
+    }
+}
+new F28(9007199254740990, 0.3648669789067994);
+const v34 = new F28(-2147483649, -2.3119964879810144);
+new F28(v34, -2.3119964879810144);
+%PrepareFunctionForOptimization(-2147483649);

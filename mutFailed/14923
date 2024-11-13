@@ -1,0 +1,40 @@
+const v0 = [-328839.5243002111,164162.35894287983];
+const v1 = [-4.0,-Infinity,-1000000.0,255139.79417615663,-3.7807742503424333e+307,-569003.4207972849,-712.2292718766994,1000000000000.0,394.43227286614865];
+const v2 = [-5.0,-1000000.0,-1.0,3.0,-2.220446049250313e-16,2.220446049250313e-16];
+const v3 = [v1,v0,v1,v1];
+const v4 = [v3,v3,v0];
+const v5 = [v3,v2];
+class C6 {
+    n(a8, a9) {
+        const v10 = super[v3];
+        try { arguments.setFullYear(a8, a8); } catch (e) {}
+        try {
+            super.valueOf(v10, a9, v5);
+        } catch(e14) {
+        }
+        return v2;
+    }
+    [v4] = v0;
+}
+const v15 = new v4();
+new v15();
+const v17 = new C6();
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    a24 > a24;
+}
+try { v4(F21, v17); } catch (e) {}
+const o30 = {
+    "maxByteLength": 268435439,
+};
+const v32 = new SharedArrayBuffer(127, o30);
+new Int8Array(v32);
+function f35() {
+    for (let v36 = 0; v36 < 5; v36++) {
+        new F21();
+    }
+}
+f35();
+f35();
+%OptimizeFunctionOnNextCall(f35);
+f35();

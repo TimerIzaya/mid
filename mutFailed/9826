@@ -1,0 +1,111 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -1255923539;
+    } catch(e3) {
+    }
+    try {
+        this[204] = -1255923539;
+        const o7 = {
+        };
+        try {
+            o7.h = F0;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.h = F0;
+            o9.a = this;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.h = F0;
+            o11.a = this;
+            o11.d = 2n;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.h = F0;
+            o13.a = this;
+            o13.d = 4294967295n;
+        } catch(e14) {
+        }
+        this.c = -1255923539;
+    } catch(e15) {
+    }
+}
+const v16 = new F0();
+const v17 = new F0();
+const v18 = new v16();
+class C19 {
+    #m(a21) {
+        switch (F0) {
+            case v16:
+                v16[64];
+                break;
+        }
+        return a21;
+    }
+    #h = v18;
+    static {
+        v18.c -= this;
+        const v24 = new F0();
+        v24.d = v24;
+        const v26 = Symbol.iterator;
+        const o35 = {
+            [v26]() {
+                let v28 = 10;
+                const o34 = {
+                    next() {
+                        v28--;
+                        const v32 = v28 == 0;
+                        const o33 = {
+                            "done": v32,
+                            "value": Symbol,
+                        };
+                        return o33;
+                    },
+                };
+                return o34;
+            },
+        };
+        o35.h = o35;
+    }
+}
+try { new C19(); } catch (e) {}
+new C19();
+const v38 = new C19();
+const v39 = v38?.constructor;
+try { new v39(); } catch (e) {}
+const v41 = new C19();
+const v42 = v41?.constructor;
+try { new v42(); } catch (e) {}
+const v44 = v41?.constructor;
+let v45;
+try { v45 = new v44(); } catch (e) {}
+const v46 = v45?.constructor;
+try { new v46(); } catch (e) {}
+let v48 = 3871;
+v48 >= v48;
+v48--;
+let v52;
+try { v52 = new Uint8ClampedArray(v18, v16, v16); } catch (e) {}
+try { v52.isPrototypeOf(v44); } catch (e) {}
+new Uint8ClampedArray(v48);
+new Float32Array(7);
+const v59 = 5 >>> 5;
+v59 >>> v59;
+Float32Array.BYTES_PER_ELEMENT = Float32Array;
+const v62 = new Float32Array(5);
+v62[4] = v62;
+try { new Uint16Array(v38, v17, v38); } catch (e) {}
+const v67 = new Float32Array(165);
+try { v67.join(v18); } catch (e) {}
+v67[35] = v67;
+const v69 = new Uint16Array(v67);
+v69[20];

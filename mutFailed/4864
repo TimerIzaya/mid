@@ -1,0 +1,134 @@
+const v0 = /\b/gvs;
+const v1 = /Nfoo(?!bar)baz/gvi;
+const v2 = /foo|(bar|baz)|quuxk/udiy;
+function f3(a4) {
+    const o5 = {
+        "f": a4,
+        6: a4,
+        [v2]: v2,
+        __proto__: v0,
+        "g": v1,
+        "c": v2,
+        1073741825: v2,
+        "d": a4,
+        "e": a4,
+        [v1]: v1,
+        3: v1,
+    };
+    return o5;
+}
+const v6 = f3(v1);
+for (let v7 = 0; v7 < 32; v7++) {
+    v0["p" + v7] = v7;
+}
+const v10 = f3(v2);
+const v11 = f3(v0);
+class C15 extends f3 {
+    static {
+        delete this["-44286"];
+        [1000000000000.0,-590386.1201597801,5.0,2.0];
+        [5.0,-953.3515895434346,1.588750408468382e+308,885.8303273552094];
+        [0.9298351479715439,3.1758660430936807,5.0,-2.220446049250313e-16];
+    }
+    static valueOf(a22, a23, a24, a25) {
+        Object.defineProperty(v1, v2, { writable: true, configurable: true, enumerable: true, set: f3 });
+        Object.defineProperty(v6, v10, { enumerable: true, get: f3, set: f3 });
+        try {
+            a24.valueOf = f3;
+        } catch(e26) {
+        }
+        return a23;
+    }
+}
+new C15();
+new C15();
+new C15();
+function F31() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = true;
+    } catch(e33) {
+    }
+    try {
+        this.b = true;
+    } catch(e34) {
+    }
+}
+const v35 = new F31();
+new F31();
+const v37 = new F31();
+const v38 = [1e-15,0.09547881173263595,1.7976931348623157e+308,0.6658730271969261,-1000.0];
+const v39 = [-8.040080448070657e+307,3.8894071891937223,0.7715929616276889];
+let v40;
+try { v40 = v39.with(v37, v37); } catch (e) {}
+v40[2] = v40;
+const v41 = [1.6621172782957435e+308,937862.0109722319];
+try { v41.find(v39); } catch (e) {}
+const v44 = 3154 >>> 3154;
+const v46 = new Int32Array(3154);
+v46[1700] = v46;
+try { BigInt64Array.bind(v44); } catch (e) {}
+const v50 = new BigInt64Array(257);
+const v52 = 198 === 198;
+v52 && v52;
+const v55 = new Int32Array(3154);
+let v56;
+try { v56 = v55.entries(); } catch (e) {}
+let v59;
+try { v59 = Uint16Array.bind(v37); } catch (e) {}
+function f60(a61, a62, a63, a64) {
+    const v66 = ["7"];
+    Reflect.apply(a64.exec, v11, v66);
+    return v66;
+}
+f60(v1, v39, v52, v56);
+const v70 = new Uint16Array();
+Uint8ClampedArray.BYTES_PER_ELEMENT;
+const v74 = new Uint8ClampedArray(3, v38);
+class C75 {
+    constructor(a77, a78, a79, a80) {
+        this.e = this;
+        const v81 = a79?.constructor;
+        try { new v81(a80); } catch (e) {}
+        try {
+        const t0 = 128;
+        t0();
+        } catch (e) {}
+        for (let i85 = 0;
+            (() => {
+                9 != 9;
+                const v88 = -9;
+                v88 + v88;
+                return i85 < 9;
+            })();
+            i85++) {
+            v74[i85] = a80;
+        }
+    }
+    c;
+    #toString(a95, a96, a97) {
+        function f98() {
+            return "7";
+        }
+        return v59;
+    }
+}
+try { new C75(3, Uint8ClampedArray, Uint8ClampedArray, v70); } catch (e) {}
+let v100;
+try { v100 = new C75(v56, v50, Uint16Array, C75); } catch (e) {}
+v100.h = v100;
+const v101 = new C75(v74, Uint8ClampedArray);
+v40.c;
+const v103 = new C75(v101, BigInt64Array);
+try { v103.constructor(v35, v35, 198, v55); } catch (e) {}
+v103.c;
+const v107 = [65537,1073741825,7841,-12,13];
+const v108 = [1073741823,4294967295];
+v108[1] = v108;
+function F109(a111, a112, a113) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v114 = this.constructor;
+    try { new v114(a111, a112, a112); } catch (e) {}
+}
+const v116 = new F109(v107, v108, WeakSet);
+new F109(v108, v108, v116);

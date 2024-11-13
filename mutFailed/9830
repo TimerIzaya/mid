@@ -1,0 +1,77 @@
+class C3 {
+    static b = 1e-15;
+    #f;
+    p(a5, a6) {
+        try {
+            a6.#f;
+        } catch(e8) {
+        }
+        a6?.[-3.048525029682158e+307];
+        return -3.048525029682158e+307;
+    }
+    static #a;
+    #d = -3.048525029682158e+307;
+}
+try { new C3(); } catch (e) {}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+try { v13.p(v12, v12); } catch (e) {}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v19 = a18?.constructor;
+    try { new v19(1e-15, v13); } catch (e) {}
+    const v21 = a17?.constructor;
+    try { new v21(); } catch (e) {}
+    try {
+        this.a = a17;
+    } catch(e23) {
+    }
+    try {
+        this.g = a18;
+    } catch(e24) {
+    }
+    try {
+        this.h = v13;
+    } catch(e25) {
+    }
+}
+new F15(v13, 1e-15);
+const v27 = new F15(v11, 1e-15);
+const v28 = new F15(v27, -262.0577840795777);
+v28.b = v28;
+const v31 = new Uint32Array(1801);
+v31[1548] = v11;
+new Int8Array(127);
+Uint32Array.length;
+new Uint32Array(16);
+const o50 = {
+    toString(a40, a41) {
+        function F42(a44, a45, a46, a47) {
+            if (!new.target) { throw 'must be called with new'; }
+            let {"c":v48,} = a41;
+        }
+        const v49 = new F42();
+        return v49;
+    },
+};
+class C51 {
+}
+const v52 = new C51();
+class C53 {
+    constructor(a55, a56, a57) {
+        for (let v58 = 0; v58 < 32; v58++) {
+            a55["p" + v58] = v58;
+        }
+    }
+}
+new v52(v52);
+const v64 = new Uint16Array(3225);
+for (const v65 of v64) {
+}
+const o66 = {
+    __proto__: v52,
+};
+o66.p31;
+try { o50.toString(1801, o50); } catch (e) {}
+try { o50.toString(); } catch (e) {}

@@ -1,0 +1,12 @@
+/foo(?!bar)baz/gim;
+/a\fb\nc\rd\te\vf/i;
+/a{0,1}?Qa?/udim;
+new Infinity(2355);
+new Int8Array(0);
+new BigInt64Array(255);
+const o17 = {
+    "maxByteLength": 1073741824,
+};
+const v19 = new ArrayBuffer(8, o17);
+const v21 = new Int8Array(v19);
+v21[2] = v21;

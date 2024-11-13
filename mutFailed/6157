@@ -1,0 +1,60 @@
+function f0() {
+}
+f0.toString = f0;
+const v2 = new Date();
+v2.toString = f0;
+class C3 {
+    constructor(a5) {
+        super[a5] = v2;
+        new Int8Array(3);
+        new Uint8ClampedArray(855);
+        new BigInt64Array(64);
+    }
+}
+const v15 = new C3(v2);
+Object.defineProperty(v15, Symbol.toPrimitive, { value: Date });
+const v18 = new C3(f0);
+new C3(v2);
+function f20(a21, a22, a23, a24) {
+    a23.toString = Symbol;
+    function f25() {
+        /a+b|c/;
+        /(?:a*)+/gvdy;
+        /YJ(oa??)/udisy;
+        return v15;
+    }
+    a24.toString = f25;
+    const o35 = {
+        [a23](a30, a31) {
+            [7,448560867,568353536,11,1604628103,512,255,65535,58883];
+            [2,61444,13026];
+            return [28178,-536870912];
+        },
+        __proto__: a23,
+        [Date]: a22,
+        ...a23,
+        2726: a24,
+    };
+    return o35;
+}
+f20(f20(v2, v18, v15, v15), v18, v2, Date);
+f20(v18, v15, v2, v18);
+class C40 {
+    e;
+}
+C40.constructor = f20;
+const t45 = C40.constructor;
+t45(1.2999975716279065e+308);
+const v43 = new C40();
+v43.c = C40;
+v43.c = v43;
+new C40();
+new C40();
+function F49() {
+    if (!new.target) { throw 'must be called with new'; }
+    typeof arguments;
+    gc();
+}
+const v55 = new F49();
+const t58 = v55.constructor;
+new t58();

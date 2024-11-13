@@ -1,0 +1,59 @@
+function f6() {
+    return 698857.8487276733;
+}
+class C10 extends f6 {
+    static toString(a12, a13, a14, a15) {
+        super.e = 698857.8487276733;
+        try {
+            super.imul(2.2250738585072014e-308, a12, a15, this, -128n);
+        } catch(e17) {
+        }
+        return -6;
+    }
+    static 1 = 2.2250738585072014e-308;
+    static [-145.3420418564839] = -4294967296n;
+    h;
+    #a = -9223372036854775807;
+    static 6;
+    static #d;
+}
+const v18 = new C10();
+const v19 = new C10();
+let v20 = new v19();
+v20[C10.replace] = v18;
+v20 = v19;
+try {
+    v18.toString = f6;
+} catch(e23) {
+}
+for (let i27 = 0, i28 = 10; i27 < i28; i27++, i28--) {
+    const v36 = f6();
+    const v37 = Float64Array || v19;
+    try { v37.n(v36, v37, v37); } catch (e) {}
+}
+const v39 = new Float64Array(Float64Array, Float64Array, Float64Array);
+const v41 = new BigUint64Array();
+const o62 = {
+    toString(a43, a44) {
+        const v45 = ~a44;
+        const v46 = [-9007199254740991,256,5,4294967297,1,-38452,9223372036854775807,2147483649];
+        const v47 = [-4564,-541496027,-554545361,536870888];
+        const v48 = [61400,-6,-1019014473,-42020,-2];
+        class C49 {
+            constructor(a51, a52) {
+                const v53 = a52[this];
+                try { v53(v53, ...a52, ...v46); } catch (e) {}
+            }
+        }
+        new C49(v48, v45);
+        new C49(v47, v48);
+        new C49(v47, v47);
+        const v58 = this.__lookupGetter__;
+        try { new v58(v39); } catch (e) {}
+        const v60 = a44 + a44;
+        v60 >>> v60;
+        v41[3408] = this;
+        return v45;
+    },
+};
+try { o62.toString(); } catch (e) {}

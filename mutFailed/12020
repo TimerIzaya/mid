@@ -1,0 +1,48 @@
+const v2 = new Int16Array(128);
+let v3 = 76;
+v3++;
+try { Uint8Array.from(v2); } catch (e) {}
+const v7 = new Uint8Array(v3);
+4 + 4;
+new Uint32Array(4);
+[4,v7,v2,128];
+[v3,Int16Array,v3,4];
+[4,Uint32Array,v2];
+function F15() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.length = this;
+    const v17 = this?.constructor;
+    try { new v17(); } catch (e) {}
+}
+const v19 = new F15();
+v19.d = v19;
+const v20 = new F15();
+function f21(a22, a23) {
+    try {
+        new F15();
+    } catch(e25) {
+    }
+    return a22;
+}
+const v27 = Symbol.toPrimitive;
+v20[v27] = f21;
+const v28 = new v19();
+v28.length = v27;
+v28.length;
+-14n < -14n;
+let v35;
+try {
+const t0 = "object";
+v35 = t0(v19, "number", F15);
+} catch (e) {}
+function f36(a37) {
+    return v35;
+}
+class C38 extends f36 {
+    [v20] = "E";
+    [v19] = -14n;
+    268435441 = v35;
+}
+try { new C38(); } catch (e) {}
+const t46 = "object";
+t46[v20] &= v35;

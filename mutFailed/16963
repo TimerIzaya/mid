@@ -1,0 +1,42 @@
+class C3 {
+    2 = "deleteProperty";
+    #toString(a5) {
+        %VerifyType(1073741823);
+        return -1.0;
+    }
+    constructor(a7, a8) {
+        a8++;
+        const v10 = [a7,a8,a7,a8,this];
+        try { new a8(v10, v10); } catch (e) {}
+        const v12 = typeof "deleteProperty";
+        v12[1] = v12;
+        v12 === "undefined";
+    }
+    static ["deleteProperty"] = "deleteProperty";
+    h = -1.0;
+    e;
+}
+const v15 = new C3(1073741823, 1073741823);
+const v16 = new C3(v15, v15);
+new C3(v15, v16);
+-4096;
+-1 >> -1;
+-250121652 & -250121652;
+[2,9007199254740991];
+[1073741825,0,-1073741824,8,-32768,536870888,-65537,-9007199254740990,-65536];
+[39257];
+function F30() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this.constructor;
+    try { v32(); } catch (e) {}
+    try { new v32(v32); } catch (e) {}
+}
+try { F30.toString(); } catch (e) {}
+const v36 = new F30();
+const v37 = v36?.constructor;
+try { new v37(); } catch (e) {}
+const v39 = v36.constructor;
+v39.length = v39;
+const v40 = new v39(v39, v36);
+const v41 = v40?.__lookupGetter__;
+try { new v41(C3); } catch (e) {}

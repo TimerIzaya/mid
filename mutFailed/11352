@@ -1,0 +1,47 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = this?.constructor;
+    try { new v7(-9, a6); } catch (e) {}
+    a6 % a6;
+    this.d = this;
+    try {
+        this.d = a5;
+    } catch(e10) {
+    }
+}
+try { new F3(F3, 9007199254740990); } catch (e) {}
+const v12 = new F3(9007199254740990, 2);
+const v13 = new F3(2, 2);
+const v14 = new F3(-9, v12);
+let v17 = 32028n & 32028n;
+function f19() {
+    return 32028n;
+}
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f26() {
+        [gc,gc,gc,gc,gc];
+        return a23;
+    }
+    this.valueOf = f26;
+    a22--;
+    a24 >>> a24;
+    try {
+        this.e = v14;
+    } catch(e31) {
+    }
+}
+v17 = -20026n;
+const o34 = {
+    "maxByteLength": 12,
+};
+const v36 = new ArrayBuffer(12, o34);
+new BigInt64Array(v36);
+const v39 = new F20(32028n, v14, -9, -20026n);
+const v40 = new F20(v12, v13, 2, -20026n);
+v40[Symbol.toPrimitive] = f19;
+const v43 = new F20(v40, v14, 2, 32028n);
+v43.e = v43;
+const v44 = [-9223372036854775808,-12];
+try { v44.map(v39); } catch (e) {}
+new Float64Array(v44);

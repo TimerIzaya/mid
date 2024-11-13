@@ -1,0 +1,77 @@
+class C1 {
+    static #o() {
+        let o3 = {
+            [undefined]: undefined,
+            [this]: this,
+        };
+        o3[undefined] = undefined;
+        let v4;
+        try { v4 = new this(o3, this, this, undefined); } catch (e) {}
+        return o3 = v4;
+    }
+    #e;
+    static #h;
+    #a = undefined;
+    h = undefined;
+}
+const v5 = new C1();
+const v6 = new C1();
+const v7 = new C1();
+const v8 = [5,16,2,10,6565,-1916445833,-63560,-2];
+const v9 = [10,6,-1478395068,-1073741824,-2,-536870912];
+const v10 = [-4294967297,-1073741824];
+try { v10.toLocaleString(); } catch (e) {}
+class C12 {
+    static #f;
+    static a = v7;
+    constructor(a14, a15, a16) {
+        a14.prototype = a14;
+        const o17 = {
+        };
+        const v19 = new Proxy(v9, o17);
+        try { v19.push(v5); } catch (e) {}
+        try {
+            o17.#f = a15;
+        } catch(e21) {
+            e21.e = e21;
+        }
+    }
+    static #d;
+    [v9];
+}
+try { C12.apply(v9, undefined); } catch (e) {}
+const v23 = new C12(C1, v6, C1);
+const v24 = v23?.constructor;
+try { new v24(v7, v23, v8); } catch (e) {}
+const v26 = new C12(v7, v6, v7);
+try { v26.constructor(undefined, v5, v8); } catch (e) {}
+new C12(v7, v5, v6);
+const v31 = new Uint32Array(120);
+try { v31.findIndex(v9); } catch (e) {}
+Uint32Array.length = Uint32Array;
+new Uint32Array(120);
+try { new Uint16Array(v6, v23, v6); } catch (e) {}
+new Uint16Array(194);
+class C40 {
+    static #n(a42) {
+    }
+}
+const v43 = new C40();
+const v44 = new C1();
+const v45 = v44?.constructor;
+try { new v45(); } catch (e) {}
+const v47 = new C40();
+const v48 = v47?.constructor;
+try { new v48(); } catch (e) {}
+let v50 = Int16Array;
+const v51 = new v50();
+2265 !== 2265;
+new Uint8Array(2265);
+const v57 = new v50(2872);
+try {
+    v57.length = 1024;
+} catch(e59) {
+}
+v44[3109] = v43;
+try { v43(v47, v51, 2265, 2265); } catch (e) {}
+v50 = v50;

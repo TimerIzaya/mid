@@ -1,0 +1,56 @@
+class C3 {
+    static get g() {
+        super.a >>= this;
+        try {
+            this.fuck(0.13920740060156733, "prototype", [0.13920740060156733,-903.2849170691586,this,"prototype"], "prototype");
+        } catch(e7) {
+        }
+        return this;
+    }
+    static #e;
+    268435440;
+}
+function f8(a9) {
+    [1024,1024];
+    return -903.2849170691586;
+}
+C3.toString = f8;
+const v12 = new C3();
+v12.toString = f8;
+const v13 = new C3();
+const v14 = new C3();
+v14.toString = f8;
+function f15(a16, a17, a18, a19) {
+    function f20(a21, a22) {
+        function F23() {
+            if (!new.target) { throw 'must be called with new'; }
+            typeof arguments;
+            gc();
+        }
+        return F23;
+    }
+    a17[Symbol.toPrimitive] = f20;
+    const o31 = {
+        "b": C3,
+        "a": v13,
+        [a17]: v13,
+        "c": v12,
+        "g": 0.13920740060156733,
+        ...a16,
+        4096: v12,
+        __proto__: "prototype",
+        [a18]: -903.2849170691586,
+        "h": 0.13920740060156733,
+        "e": v13,
+    };
+    return o31;
+}
+const v32 = f15(v14, v12, v12, "prototype");
+v32[Symbol.toPrimitive] = f15;
+const v35 = f15("prototype", C3, v32, "prototype");
+f15(v35, v14, v14, v35);
+const v38 = new C3();
+v38.find = v14;
+try { v38.find(); } catch (e) {}
+const v42 = /[xyz]/vis;
+v42.test(v42);

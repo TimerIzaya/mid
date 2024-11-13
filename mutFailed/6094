@@ -1,0 +1,28 @@
+const v3 = [-7,-4294967297];
+v3.p14 = -7;
+const v4 = [-2,-7,-7,-4294967297,-7];
+function f5() {
+    const v6 = [-7,v4,-4294967297,v3,v3];
+    [v6,v3,v6,-7];
+    [-4294967297,v6,v6];
+    return v6;
+}
+v4[Symbol.toPrimitive] = f5;
+function f11(a12, a13) {
+    let v14;
+    try { v14 = a12(-7, a12, a13); } catch (e) {}
+    for (let v15 = 0; v15 < 32; v15++) {
+        v3["p" + v15] = v15;
+    }
+    return v14;
+}
+v4.toString = f11;
+const v18 = [v4];
+const v19 = [v4,-4294967297,-4294967297];
+[-4294967297];
+[v19];
+const v24 = new Uint32Array(v18);
+new Float64Array(v24);
+const v30 = new Int32Array(3427);
+const v32 = new Uint32Array();
+v32.copyWithin(v30);

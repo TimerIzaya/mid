@@ -1,0 +1,75 @@
+new WeakSet();
+const v4 = [Int32Array,Uint16Array,Uint16Array];
+function F5() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = this.constructor;
+    try { new v7(); } catch (e) {}
+    let v9 = -128;
+    v9--;
+    this.g = v9;
+}
+new F5();
+[255,4294967296,-2];
+[-4096,-4294967295,1832184260,42972,-1507994034,16,-4,-4294967296,13,-4294967297];
+const v17 = [10,36398,9007199254740991,1342946234,-643477235,1073741825,2147483649,-25908,1073741825,35837];
+class C18 {
+    constructor() {
+        function f20() {
+            function f21(a22) {
+                const v24 = Symbol.toPrimitive;
+                function f25(a26, a27, a28, a29) {
+                    arguments[2] = v24;
+                    arguments[2] = arguments;
+                    return Symbol;
+                }
+                f25();
+                return this;
+            }
+            return f21;
+        }
+        Object.defineProperty(this, "toString", { configurable: true, get: f20 });
+        super.f >>= this;
+    }
+    /*
+    constructor(a33, a34) {
+        function F35(a37, a38) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v39 = this?.constructor;
+            try { new v39(v17, this); } catch (e) {}
+            a38 ^ a38;
+            this.b = v4;
+        }
+        new F35();
+        new F35();
+        new F35();
+    }
+    */
+    #g;
+    set g(a46) {
+        super.g = this;
+        new Int8Array(1024);
+        const o52 = {
+        };
+        Math.tan(Math);
+        class C55 {
+        }
+        new Float64Array(10);
+        new BigUint64Array(1438);
+        function* f60(a61) {
+            return a61;
+        }
+        function f62() {
+            const o63 = {
+                "call": f60,
+            };
+            return f62;
+        }
+    }
+}
+new C18();
+new C18();
+new C18();
+const v69 = new Uint32Array();
+v69[Symbol.toPrimitive] = gc;
+v69[Symbol.toPrimitive] = gc;
+v69[545] = v69;

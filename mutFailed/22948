@@ -1,0 +1,51 @@
+class C3 {
+    o(a5) {
+        try {
+            this.length = 0;
+        } catch(e7) {
+        }
+        return a5;
+    }
+    constructor(a9) {
+        const o12 = {
+            "maxByteLength": a9,
+        };
+        const v14 = new ArrayBuffer(205, o12);
+        new Uint16Array(v14);
+    }
+}
+const v17 = new C3(C3);
+new C3(v17);
+const v19 = new C3(-3.0);
+function f26() {
+    return -3.0;
+}
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a31;
+    } catch(e33) {
+    }
+    try {
+        this.e = a32;
+    } catch(e34) {
+    }
+    try {
+        this.c = a30;
+    } catch(e35) {
+    }
+}
+const v36 = new F27(9n, C3, 9007199254740990, v19);
+const v37 = new v36(1073741824n, v19, v36, v36);
+new F27(-95236934n, v17, 8, v37);
+function f39(a40, a41, a42, a43) {
+    const v46 = new BigInt64Array(4046);
+    let o47 = {
+    };
+    v37.acosh();
+    [,...o47] = v46;
+    return "BG";
+}
+for (let v50 = 0; v50 < 5; v50++) {
+    f39(f39, v50, f39, v50);
+}

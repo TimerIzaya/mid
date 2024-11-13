@@ -1,0 +1,108 @@
+const v0 = [1073741825,1777108872,1,1];
+const v1 = [-1892468270,1355378050,5,4586,-3,-11,9007199254740992];
+function f2(a3, a4) {
+    a4 !== v1;
+    function f6() {
+        class C7 {
+        }
+        const v8 = new C7();
+        v8.length = v8;
+        return v8.length;
+    }
+    %OptimizeFunctionOnNextCall(f6);
+    return v0;
+}
+v1[Symbol.toPrimitive] = f2;
+const v12 = [47180];
+class C13 {
+    get e() {
+        let v15 = 0;
+        do {
+            const o16 = {
+            };
+            new Proxy(this, o16);
+            v15++;
+        } while (v15 < 7)
+        return v12;
+    }
+    d;
+}
+const v22 = new C13();
+const v23 = new C13();
+v23[Symbol.toPrimitive] = Symbol;
+const v26 = new C13();
+function f27(a28, a29, a30, a31) {
+    const o47 = {
+        __proto__: v0,
+        3: a31,
+        "a": v22,
+        set f(a33) {
+            new WeakSet();
+        },
+        [a29](a40, a41, a42) {
+            class C43 {
+                2147483648 = v26;
+                static 9 = v12;
+                1024;
+                static #b = a40;
+            }
+            new C43();
+            new C43();
+            new C43();
+            return v1;
+        },
+    };
+    function f48() {
+        return f27;
+    }
+    Object.defineProperty(o47, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f48 });
+    return o47;
+}
+const v51 = f27(v22, v1, v23, v23);
+function f52(a53, a54) {
+    const o55 = {
+    };
+    try {
+        o55.a = v22;
+    } catch(e56) {
+    }
+    try {
+        const o57 = {
+        };
+        o57.a = v22;
+        o57.h = v0;
+    } catch(e58) {
+    }
+    try {
+        const o59 = {
+        };
+        o59.a = v22;
+        o59.h = v0;
+        o59.b = v23;
+    } catch(e60) {
+    }
+    try {
+        const o61 = {
+        };
+        o61.a = v22;
+        o61.h = v0;
+        o61.f = C13;
+    } catch(e62) {
+    }
+    return o55;
+}
+v51[Symbol.toPrimitive] = f52;
+f27(v22, v51, v23, v26);
+f27(v23, v22, v23, C13);
+new Date();
+for (let v72 = 0; v72 < 5; v72++) {
+    const o76 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o76);
+}
+const o79 = {
+};
+const v80 = new WeakRef(o79);
+v80.deref();

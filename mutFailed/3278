@@ -1,0 +1,82 @@
+function f0() {
+    const o10 = {
+        "g": 59889,
+        "c": 256,
+        9: 2.0,
+        "h": 59889,
+        "b": 59889,
+        [256](a5, a6) {
+            return 256;
+        },
+        1506: 59889,
+        ...59889,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+function f13(a14, a15) {
+    return v12.g;
+}
+v12[Symbol.toPrimitive] = f13;
+const v20 = f0();
+function f21(a22) {
+    a22.toString = f13;
+    const o32 = {
+        ...v11,
+        __proto__: v11,
+        [a22]: v11,
+        ...v20,
+        536870912: f0,
+        "f": v20,
+        o(a24, a25) {
+            v12.g;
+            try {
+                f0();
+            } catch(e28) {
+            }
+            return a24[Symbol.split];
+        },
+    };
+    o32[Symbol.toPrimitive] = Symbol;
+    return o32;
+}
+f21(f21(f0));
+f21(v12);
+new Uint8ClampedArray(3);
+const v43 = new Int32Array(963);
+new Uint8Array(21);
+const v49 = new Array(5);
+v49[Symbol.toPrimitive] = f21;
+const v54 = new Int8Array(181);
+new Uint8Array(64);
+new Uint8Array(0);
+class C61 {
+}
+function f62(a63) {
+    return a63;
+}
+f62.fuck = v43;
+class C64 extends f62 {
+    static [v49];
+    d;
+    g;
+}
+const v66 = new WeakMap();
+class C67 extends C61 {
+    static 1 = v66;
+    10000;
+}
+new Int8Array();
+const o72 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o72);
+v66.h |= 0;
+new Date();
+try {
+    C64.fuck(v49, -65536, v54, -65536);
+} catch(e78) {
+}
+gc();

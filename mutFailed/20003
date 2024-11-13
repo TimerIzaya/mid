@@ -1,0 +1,94 @@
+function f1() {
+    return undefined;
+}
+function f2(a3, a4) {
+    const o10 = {
+        get c() {
+            for (let v6 = 0; v6 < 32; v6++) {
+                this["p" + v6] = v6;
+            }
+            return a4 / f1;
+        },
+        "h": f1,
+        "a": a4,
+        ...a4,
+        __proto__: a4,
+        "c": a4,
+        "g": a3,
+    };
+    return o10;
+}
+const v11 = f2(f2, f1);
+try { v11.a(); } catch (e) {}
+const v13 = f2(v11, undefined);
+const v14 = v13?.h;
+try { new v14(); } catch (e) {}
+const v16 = f2(v11, f2);
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a19;
+    } catch(e21) {
+    }
+    try {
+        this.f = a20;
+    } catch(e22) {
+    }
+    try {
+        this.b = v16;
+    } catch(e23) {
+    }
+}
+const v24 = new F17(v16, v16);
+v24.f;
+const v26 = new F17(v11, v13);
+const v27 = new F17(v16, v11);
+function F28(a30, a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v34 = this?.constructor;
+    try { new v34(a33, this, a32, a33); } catch (e) {}
+    a30.d;
+    const v37 = a32?.constructor;
+    try { new v37(a32, this); } catch (e) {}
+    a33.d;
+    try {
+        this.f = F17;
+    } catch(e40) {
+    }
+}
+const v41 = new F28(v24, v24, v27, v27);
+const v42 = new F28(v27, v41, v26, v24);
+try { v42.toLocaleString(); } catch (e) {}
+new F28(v27, v27, v24, v27);
+[1539077164,2147483647,5,65536,37325,-806061202];
+[8,-9007199254740992,1282035447,-2147483648,-728068599,8];
+const v47 = [57521,-44302,-1444040049,268435439,-1024,11,-60977,-10909,536870889,-13];
+v47[6] = v47;
+class C48 {
+}
+C48.d = C48;
+const v49 = new C48();
+try { v49.constructor(); } catch (e) {}
+const v51 = [C48,C48,C48,C48,C48];
+class C52 {
+    constructor(a54, a55, a56) {
+        const v57 = this?.hasOwnProperty;
+        try { new v57(a54); } catch (e) {}
+        function f59(a60, a61, a62) {
+            v51.indexOf(C48, a61);
+            try {
+                f59(C52, a60, v49);
+            } catch(e65) {
+            }
+            return C48;
+        }
+        const v66 = f59();
+        v66.prototype = v66;
+    }
+}
+C52.b = C52;
+class C67 extends C52 {
+}
+C67.length = C67;
+new C67();
+new C67();

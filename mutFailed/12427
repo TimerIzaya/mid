@@ -1,0 +1,22 @@
+new Uint8ClampedArray(7);
+new Uint8ClampedArray(6);
+new Uint16Array(1588);
+[-118158542,27535,7,49779,2147483649];
+[-4294967297,-2147483648,-8,-2147483647,-65537];
+[-256,-9];
+function f12() {
+    const o15 = {
+        m(a14) {
+            return f12;
+        },
+    };
+    o15.m();
+    return o15;
+}
+const t15 = 1588;
+t15();
+%PrepareFunctionForOptimization(f12);
+const t18 = 1588;
+t18();
+%OptimizeFunctionOnNextCall(f12);
+f12();

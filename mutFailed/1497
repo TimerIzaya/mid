@@ -1,0 +1,89 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = F0;
+    try {
+        this.e = 49671;
+    } catch(e3) {
+    }
+    try {
+        this.g = 49671;
+    } catch(e4) {
+    }
+    try {
+        this.b = 49671;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f9(a10, a11) {
+    function f12() {
+        return f9;
+    }
+    function f13(a14) {
+        class C17 {
+            ["toString"];
+            static #n(a19, a20) {
+            }
+            static p(a22, a23) {
+                super.b = 536870889;
+                function f24() {
+                    return C17;
+                }
+            }
+        }
+    }
+    Object.defineProperty(a10, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f12, set: f13 });
+    const o34 = {
+        "d": a11,
+        [-2]: v6,
+        "b": v7,
+        o(a28, a29, a30, a31) {
+            try {
+                a31.length = 2190470783;
+            } catch(e33) {
+            }
+            return F0;
+        },
+        "e": a10,
+        [a10]: v7,
+        "g": F0,
+        10: v6,
+    };
+    o34.toString = f12;
+    return o34;
+}
+f9(v7, v7);
+const v36 = f9(v7, v8);
+const v37 = f9(v36, v7);
+class C38 extends F0 {
+    constructor(a40, a41) {
+        super();
+        function f42(a43) {
+            return v8;
+        }
+        class C44 extends f42 {
+            g;
+            #a = v37;
+        }
+    }
+    #toString(a46, a47, a48, a49) {
+        let v51;
+        try { v51 = a46["o"](v6, a47, a46); } catch (e) {}
+        Object.defineProperty(a46, this, { configurable: true, enumerable: true, get: f9, set: f9 });
+        f9(this, v51);
+        %PrepareFunctionForOptimization(f9);
+        f9(this, v51);
+        f9(this, v51);
+        %OptimizeFunctionOnNextCall(f9);
+        return f9(this, v51);
+    }
+}
+const v56 = new C38(v37, v6);
+const v57 = new C38(v56, v36);
+new C38(v57, v36);
+new BigInt64Array(1);
+new Int32Array(1);
+new Float32Array(3295);
+Math.tan(-1);

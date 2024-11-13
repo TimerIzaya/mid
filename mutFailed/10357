@@ -1,0 +1,49 @@
+function f0() {
+}
+class C1 extends f0 {
+    static [f0] = f0;
+    static 1 = f0;
+    constructor() {
+        super();
+        const v3 = new f0();
+        let v4;
+        try { v4 = this.p(v3, v3, v3, v3); } catch (e) {}
+        let v6 = -2147483649;
+        f0.acos(v4);
+        Math.trunc(v4);
+        v6 & v4;
+        v3 >>> ++v6;
+    }
+}
+const v14 = new C1();
+new C1();
+new f0();
+/(?<!)/gvdy;
+/kIo/vdi;
+/(?<!a)/vdims;
+class C20 {
+    e;
+    static p(a22, a23) {
+        const o24 = {
+            "get": f0,
+            "ownKeys": f0,
+            "preventExtensions": a23,
+            "setPrototypeOf": f0,
+        };
+        const v26 = new Proxy(v14, o24);
+        return v26;
+    }
+    #f = f0;
+    static #d = f0;
+}
+new C20();
+new C20();
+new C20();
+function f33() {
+    const v35 = new Set();
+    return v35.clear();
+}
+%PrepareFunctionForOptimization(f33);
+f33();
+%OptimizeFunctionOnNextCall(f33);
+f33();

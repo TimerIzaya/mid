@@ -1,0 +1,53 @@
+const v1 = new WeakSet();
+const v2 = [WeakSet,v1,WeakSet];
+const v3 = [v2,v2,WeakSet,WeakSet];
+const v4 = [v3,v3,v1,v3,v3];
+function f5(a6, a7) {
+    const o11 = {
+        __proto__: a7,
+        set c(a9) {
+            try { a9(a9, this, ...a7, v2, a6, a9); } catch (e) {}
+            a9 = this;
+        },
+        "d": v4,
+        "h": a7,
+        ...v1,
+        "f": v3,
+        "g": v2,
+    };
+    return o11;
+}
+const v12 = f5(v1, v2);
+f5(v12, v2);
+f5(v12, v3);
+class C22 {
+    n(a24, a25) {
+        const v26 = (a27, a28, a29, a30) => {
+            for (let v31 = 0; v31 < 32; v31++) {
+                this["p" + v31] = v31;
+            }
+            return a24;
+        };
+        super[-8n] = this;
+        const o36 = {
+            "maxByteLength": 47,
+        };
+        SharedArrayBuffer(3, o36);
+        new Int8Array();
+    }
+}
+try { Map.bind(Map, 6, Map, Map); } catch (e) {}
+Math.cbrt(f5);
+-10 >>> v3;
+~v3;
+const v52 = new Int32Array(1024);
+v3.length &= 9223372036854775807;
+const t44 = f5(WeakSet, 6);
+delete t44[6] >>> 2147483649n;
+Object.defineProperty(v1, 536870888, { writable: true, configurable: true, enumerable: true, get: f5, set: f5 });
+for (const v57 of v52) {
+    const o60 = {
+        "maxByteLength": 1293466293,
+    };
+    new SharedArrayBuffer(1796, o60);
+}

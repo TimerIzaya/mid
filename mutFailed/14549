@@ -1,0 +1,45 @@
+class C3 {
+    static #b = -268435456n;
+    toString(a5) {
+        let v6;
+        try {
+        const t0 = -11n;
+        v6 = new t0(-268435456n, this, a5, this);
+        } catch (e) {}
+        try {
+            v6.#b;
+        } catch(e8) {
+        }
+        return -268435456n;
+    }
+    static #a;
+    512;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+function f12(a13, a14) {
+    new v10();
+    return -11n;
+}
+v11[Symbol.toPrimitive] = f12;
+function f19(a20, a21, a22, a23) {
+    const o29 = {
+        "a": v11,
+        [a21]: -268435456n,
+        n(a25, a26) {
+            const v27 = super[this];
+            try {
+                v27.g = a20;
+            } catch(e28) {
+            }
+            return C3;
+        },
+        "d": -11n,
+    };
+    return o29;
+}
+f19(-268435456n, v9, v9, C3);
+f19(127n, v10, v10, v11);
+f19(-11n, v11, v11, v10);
+/\P{Decimal_Number}/gudims;

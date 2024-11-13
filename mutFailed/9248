@@ -1,0 +1,95 @@
+const v2 = new Uint8Array(4);
+const v6 = Array(4087);
+for (const v7 of v6) {
+}
+const v9 = new Array(199);
+const v10 = v9.constructor;
+try { new v10(); } catch (e) {}
+const v12 = v6.constructor;
+try { new v12(v9, v6); } catch (e) {}
+const v15 = 0.0 ** 0.0;
+try {
+    const v18 = new Set();
+    v6.h = v18;
+    let v19 = -1.0;
+    const v20 = v19++;
+    const v21 = v20 - v20;
+    try { Reflect.set(v21); } catch (e) {}
+    v2.byteLength = 1;
+} catch(e24) {
+}
+%VerifyType(Uint8Array);
+new BigUint64Array(v10);
+function f30(a31, a32, a33, a34) {
+    try { new a31(); } catch (e) {}
+    a32 & a32;
+    const v37 = 8 | a32;
+    v37 * v37;
+    a31 / a31;
+    const v40 = a32 < a31;
+    a33 >>> a33;
+    const o45 = {
+        n(a43, a44) {
+            return v40;
+        },
+    };
+}
+function f47() {
+    let v48 = 1836424012;
+    const v49 = v48--;
+    const o50 = {
+        "f": v48,
+        "d": v48,
+    };
+    return v49;
+}
+f47();
+%OptimizeFunctionOnNextCall(f47);
+function f52(a53, a54) {
+    const v55 = -a53;
+    v55 >> v55;
+    const o57 = {
+    };
+    return o57;
+}
+const v58 = f52(2n);
+const v59 = f52();
+class C60 {
+    static toString(a62, a63) {
+        const v65 = super[a63];
+        try {
+            delete this[v65];
+            this[C60];
+        } catch(e68) {
+        }
+    }
+}
+const v69 = v59.propertyIsEnumerable;
+v9[8];
+for (let v72 = 0; v72 < 32; v72++) {
+    v9["p" + v72] = v72;
+}
+new Uint8Array(v58, Uint8Array, v59);
+function f78(a79, a80, a81, a82) {
+    a81++;
+    a81 % a81;
+    function F85(a87, a88, a89, a90) {
+        if (!new.target) { throw 'must be called with new'; }
+        eval();
+        function F93(a95) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+    }
+    const o99 = {
+        "b": a79,
+        ...v59,
+        n(a97, a98) {
+            return a98;
+        },
+    };
+    return v69;
+}
+for (let v100 = 0; v100 < 625; v100++) {
+    const v101 = f78(Uint8Array, 2, v15);
+    try { v101(v100); } catch (e) {}
+}

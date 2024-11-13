@@ -1,0 +1,36 @@
+class C3 {
+    [536870888] = 536870888;
+    static #toString(a5, a6) {
+        try { new a5(a5, this, a5, 536870888); } catch (e) {}
+        return a5;
+    }
+    #valueOf(a9) {
+        const t7 = "valueOf";
+        t7[-2] = this;
+        a9 = "valueOf";
+        const o10 = {
+        };
+        const v12 = new Proxy("valueOf", o10);
+        return v12;
+    }
+}
+new C3();
+const t17 = "valueOf";
+new t17();
+const t19 = -4294967295;
+new t19();
+new Float64Array(1801);
+new Int32Array(1854);
+new BigInt64Array(1);
+function f28(a29, a30, a31, a32) {
+    a30 === a30;
+}
+function F34(a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v38 = this.constructor;
+    try { new v38(); } catch (e) {}
+    this.constructor = f28;
+    const t32 = this.constructor;
+    t32();
+}
+new F34();

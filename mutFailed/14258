@@ -1,0 +1,36 @@
+class C3 {
+    static #f;
+    static {
+        function f5() {
+            return "e";
+        }
+        function f6(a7) {
+            a7[253] = a7;
+        }
+        Object.defineProperty(this, "m", { get: f5, set: f6 });
+        try { this.m(1.7976931348623157e+308, "e", 1.7976931348623157e+308, -1561977149); } catch (e) {}
+        ("e")[3];
+    }
+    #o(a11) {
+        try {
+            this.#f = a11;
+        } catch(e12) {
+        }
+        return a11;
+    }
+}
+new C3();
+new C3();
+new C3();
+new BigUint64Array(4);
+new Uint16Array(Uint16Array);
+new Uint16Array(3);
+function f25() {
+    for (let v26 = 0; v26 < 10; v26++) {
+        let v28 = Math.atanh(v26);
+        v28--;
+    }
+}
+const t33 = 2;
+%OptimizeFunctionOnNextCall(t33());
+f25();

@@ -1,0 +1,70 @@
+class C3 {
+    static set e(a5) {
+        const o6 = {
+            __proto__: this,
+            "d": a5,
+            49: 5.456037964351486,
+            1073741825: "entries",
+        };
+    }
+    static o(a8, a9) {
+        let v10 = 0;
+        while (v10 < 5) {
+            super[this];
+            v10++;
+        }
+        return a9;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+const v18 = /i(?:ab)?UQ*/vdsy;
+const v19 = /kM\c!(n)/iy;
+const v20 = /cfoo(?<=bar)baz/uim;
+const v21 = /HTt[\0]/udim;
+const v22 = /SGH(?:ab)?q/gudis;
+/([\ca])/vim;
+function f24(a25, a26, a27) {
+    const o41 = {
+        p(a29, a30, a31, a32) {
+            let v33;
+            try { v33 = a25.exec(a31); } catch (e) {}
+            try { a31(v33, v33, v17, v16); } catch (e) {}
+            a25 & a31;
+            a27 | a32;
+            Math.sin(a27);
+            --a25;
+            return -3;
+        },
+        "g": 5.456037964351486,
+        __proto__: v21,
+        ...C3,
+        ...v19,
+    };
+    return o41;
+}
+f24(v16, v22, v22);
+f24(v15, v19, v20);
+f24(v15, v18, v20);
+function f45() {
+    const o46 = {
+    };
+    return o46;
+}
+const v47 = f45();
+class C48 {
+    toString(a50) {
+        return v47;
+    }
+}
+const v51 = new v47();
+const v52 = new C48();
+function F53(a55, a56, a57) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v58 = this.constructor;
+    try { new v58(v51, f45, F53); } catch (e) {}
+    a57.prototype = a57;
+}
+new F53(v51, v52, C48);
+new F53(v52, v51, v51);

@@ -1,0 +1,26 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 8;
+    } catch(e3) {
+    }
+    try {
+        this.a = 8;
+    } catch(e4) {
+    }
+    try {
+        this.h = this;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new F0();
+const v9 = /Mabc+?/uis;
+/I\u{12345}\u{23456}+/us;
+/[abc|def\x01]/gvs;
+new Int16Array(118);
+new Int32Array(4);
+new v9(3);
+Array(3303);
+new Float64Array(v7);

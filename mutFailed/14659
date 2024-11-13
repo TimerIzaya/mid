@@ -1,0 +1,41 @@
+class C3 {
+    static get e() {
+        this[Symbol.match];
+        const o10 = {
+            "maxByteLength": 669,
+        };
+        const v12 = new SharedArrayBuffer(669, o10);
+        new Int16Array(v12);
+        return 0.3495554336838478;
+    }
+}
+const v15 = new C3();
+new C3();
+const t13 = 0.3495554336838478;
+const v17 = new t13();
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a20;
+    } catch(e22) {
+    }
+}
+new F18(v17, 0.3495554336838478);
+const v24 = new F18(v15, -2.220446049250313e-16);
+new F18(C3, -1.7976931348623157e+308);
+[-801675630,-7,12,14,13,1024,-54638];
+[4096,3,6,599024072,12274,-6925526];
+[129,2147483647,1073741823,-1024,7,0,21567,-4096];
+function f29() {
+    const o34 = {
+        [v17](a32, a33) {
+        },
+    };
+    o34[8] = o34;
+    return o34;
+}
+%PrepareFunctionForOptimization(v17);
+f29();
+f29();
+%OptimizeFunctionOnNextCall(v17);
+v24();

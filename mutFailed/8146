@@ -1,0 +1,49 @@
+const v0 = /a((\xed\xa0\x80))\x02/vdim;
+const v1 = /a?(?:a+){0,0}/gvy;
+const v2 = /a\D\x01(ib1Jxyz{0,1}?)/vdisy;
+[v0,v2,[v1,v2,v0,v1]];
+const v5 = [v1,v2];
+function f6(a7, a8, a9) {
+    const o16 = {
+        "a": v2,
+        ...a9,
+        "f": a7,
+        "h": v0,
+        "e": a8,
+        "c": v2,
+        set g(a11) {
+            class C12 {
+                #h = a11;
+            }
+            new C12();
+            new C12();
+            new C12();
+        },
+    };
+    return o16;
+}
+f6(v5, v1, v0);
+f6(f6(f6, v2, v2), v1, v2);
+function f20() {
+    return v0;
+}
+class C21 {
+    toString(a23, a24) {
+        try {
+            a23.__proto__ = a24;
+        } catch(e25) {
+        }
+        const o29 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o29);
+        return gc;
+    }
+}
+new C21();
+new C21();
+new C21();
+const v36 = new Uint8ClampedArray(255);
+Uint32Array[Symbol.toPrimitive] = f20;
+v36[3] = Uint32Array;

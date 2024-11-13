@@ -1,0 +1,57 @@
+const v0 = [-6,2,-536870912,128,-774149369,1551274356,-18407,10,-1024,6];
+const v1 = [35751,1073741824];
+const v2 = [-1762248867,58354];
+function f3(a4, a5) {
+    const o14 = {
+        10: a5,
+        "f": a4,
+        "e": v1,
+        "a": v2,
+        "d": v2,
+        "c": a5,
+        p(a7, a8) {
+            function f9(a10, a11) {
+                this.__proto__;
+                return a5;
+            }
+            f9(v0, v1);
+            return v0;
+        },
+    };
+    return o14;
+}
+const v15 = f3(v0, v2);
+v1[v15] = v15;
+typeof v15 === "function";
+let [] = v0;
+const v19 = f3(v2, v1);
+const v20 = f3(v0, v1);
+[v20];
+const v22 = [v0,v15,v20];
+const v23 = [v15,v19];
+function f24(a25, a26) {
+    const o43 = {
+        "f": v22,
+        "h": a26,
+        set g(a28) {
+            v23[4096] = a28;
+            const v31 = new Int8Array(223);
+            v31.__proto__;
+            a28?.h;
+            const o34 = {
+                "getPrototypeOf": f24,
+                "preventExtensions": f3,
+            };
+            new Proxy(v15, o34);
+            new v20(512);
+            new WeakSet(131);
+        },
+    };
+    return o43;
+}
+f24(v19, v0);
+f24(v20, v23);
+f24(v15, v0);
+const v48 = new BigInt64Array();
+v48[Symbol.toPrimitive] = f24;
+new Date(v48);

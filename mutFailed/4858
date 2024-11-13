@@ -1,0 +1,28 @@
+const v2 = new Array(128);
+new Int32Array(7);
+new Float32Array(v2);
+new Int8Array(129);
+const v13 = new Array();
+function F14() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -4;
+    } catch(e17) {
+    }
+    try {
+        v13.b = -4;
+    } catch(e18) {
+    }
+}
+const v19 = new F14();
+const v20 = new F14();
+const v21 = new F14();
+const v25 = new Int8Array(582);
+const v28 = new v20(2001);
+const v32 = [[v19,65535,[582,Uint8Array,582],v28,v25],v20,Int8Array];
+const v33 = `
+    v21.d;
+    v32.__proto__;
+`;
+const v37 = eval(v33);
+try { v37.isExtensible(v25, Uint8Array, v2); } catch (e) {}

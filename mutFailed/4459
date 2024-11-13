@@ -1,0 +1,49 @@
+class C3 {
+    static #p(a5) {
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        v9--;
+                        const v13 = v9 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+        return o16;
+    }
+}
+C3.length = C3;
+const v17 = new C3();
+let v18;
+try { v18 = v17.propertyIsEnumerable(C3); } catch (e) {}
+const v19 = new C3();
+try { v19.constructor(); } catch (e) {}
+new C3();
+const v22 = v19?.constructor;
+let v23;
+try { v23 = new v22(); } catch (e) {}
+const v26 = new v23(173);
+v17[11] = v26;
+8 === 8;
+new v18(8);
+6 - 6;
+new Uint8Array(6);
+function f35() {
+    return f35;
+}
+try { f35.call(C3); } catch (e) {}
+function f37() {
+    Object.defineProperty(arguments, 13, { enumerable: true, set: f35 });
+    return arguments;
+}
+try { f37(); } catch (e) {}
+f37();

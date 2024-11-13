@@ -1,0 +1,41 @@
+function f3(a4) {
+    const o7 = {
+        "d": -65536n,
+        "b": -65536n,
+        [a4]: a4,
+        get e() {
+            try {
+                this.__proto__ = this;
+            } catch(e6) {
+            }
+            return this;
+        },
+        ...9223372036854775807n,
+        "h": a4,
+        4294967296: a4,
+    };
+    return o7;
+}
+const v8 = f3(9223372036854775807n);
+const v9 = f3(9223372036854775807n);
+const v10 = f3(16n);
+v10[Symbol.toPrimitive] = f3;
+class C13 extends f3 {
+    [v10] = -65536n;
+    static 1515;
+    static #o(a15, a16, a17) {
+        v9[this] = a16;
+        v8[171];
+        super.b = f3;
+        return 9223372036854775807n;
+    }
+    d;
+    static #h;
+    static 256 = -65536n;
+    1706 = f3;
+    static h;
+}
+new C13();
+new C13();
+new C13();
+-9223372036854775808n - -9223372036854775808n;

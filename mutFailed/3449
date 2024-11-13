@@ -1,0 +1,37 @@
+function f0() {
+    const o10 = {
+        4: "536870889",
+        ["536870889"](a5) {
+            const v7 = "536870889" < ("Q2").length;
+            let v8;
+            try { v8 = new a5("Q2", v7, "Q2", v7, this); } catch (e) {}
+            const t7 = "Q2";
+            t7[1000] = v8;
+            function f9() {
+                return this;
+            }
+            return f9;
+        },
+    };
+    return o10;
+}
+f0();
+const v12 = f0();
+const v13 = f0();
+class C14 {
+    constructor(a16, a17) {
+        const v18 = a17 & a16;
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        %OptimizeMaglevOnNextCall(f0());
+        v18();
+    }
+    [v13] = v13;
+    static e;
+}
+const v23 = new C14(v13, v12);
+const v24 = new C14(v13, v23);
+new C14(f0, v24);
+const t35 = [-65317,-58155,536870889,976,536870889];
+t35[2] = 13;

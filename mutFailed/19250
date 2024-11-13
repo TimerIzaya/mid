@@ -1,0 +1,72 @@
+function f0() {
+    const o10 = {
+        "c": -9223372036854775808,
+        [f0]: "65535",
+        "d": "65535",
+        [268435456]: "65535",
+        n(a5, a6) {
+            try { new a6(-9223372036854775808, -9223372036854775808); } catch (e) {}
+            let v8 = g;
+            v8 = a6;
+            super.g = f0;
+            try {
+                a5.e = 268435456;
+            } catch(e9) {
+            }
+            return "65535";
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = v12();
+function f14(a15) {
+    const v16 = a15?.__defineGetter__;
+    try { new v16(f0, f14); } catch (e) {}
+    const o21 = {
+        ...v13,
+        __proto__: v13,
+        "c": v12,
+        "e": f0,
+        9: v12,
+        "b": a15,
+        7: v11,
+        [v12](a19) {
+            try {
+                this.__proto__ = this;
+            } catch(e20) {
+            }
+            return a15;
+        },
+    };
+    return o21;
+}
+const v22 = f14(v12);
+f14(v12);
+const v24 = f14(f0);
+function f25() {
+    return v22;
+}
+let v26 = [f14,v12,f14,f25];
+try { v26.sort(v22); } catch (e) {}
+const v28 = [v11,v13,v26,v22,v11];
+[v12,v13,v26];
+for (let v30 = 0; v30 < 10; v30++) {
+    v30 + v30;
+    function* f32(a33, a34, a35) {
+        return a34;
+    }
+    try { v26.call(v30); } catch (e) {}
+    let v37;
+    try { v37 = v26.toReversed(); } catch (e) {}
+    continue;
+    v26 *= v28;
+    v24[7] ||= v37;
+    for (let v38 = 0; v38 < 100; v38++) {
+        f25();
+    }
+    f32();
+}
+[802860232,-65536,-4,9007199254740992];
+([127,4,-933964654])[1];

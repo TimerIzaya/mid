@@ -1,0 +1,116 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3(a4, a5) {
+        const o9 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        return gc(o9);
+    }
+    this.toString = f3;
+    try {
+        this.g = F1;
+    } catch(e11) {
+    }
+    try {
+        this.f = false;
+    } catch(e12) {
+    }
+    try {
+        this.b = false;
+    } catch(e13) {
+    }
+}
+const v14 = new F1();
+const v15 = new F1();
+const v16 = new F1();
+const v17 = [5.627129677109545e+307,850582.6346538318,-2.0,-Infinity,289.0197571670685,187.7306401241658,1e-15];
+try { v17.join(F1); } catch (e) {}
+const v19 = [0.6612384037511738,2.2940008033736596];
+try { v19.push(v16); } catch (e) {}
+const v21 = [1000000000000.0,-1000000000000.0,3.173585042601135e+307,-5.0,-1e-15];
+v21[4];
+function f23(a24, a25, a26, a27) {
+    a24[Symbol.toPrimitive] = f23;
+    a26[Symbol.toPrimitive] = Symbol;
+    a27.toString = Symbol;
+    const v32 = a24?.g;
+    try { new v32(); } catch (e) {}
+    a25[2] = a25;
+    let v34 = a27?.g;
+    Object.defineProperty(v34, v16, { set: f23 });
+    v34 %= v19;
+    const o35 = {
+        "apply": f23,
+        "call": f23,
+        "deleteProperty": f23,
+        "get": f23,
+        "getOwnPropertyDescriptor": f23,
+        "has": f23,
+        "isExtensible": f23,
+        "preventExtensions": f23,
+        "set": f23,
+    };
+    new Proxy(v14, o35);
+    try { new v34(); } catch (e) {}
+    const o46 = {
+        __proto__: v19,
+        "h": v21,
+        ...a24,
+        [a27](a40, a41) {
+            try { new a40(a26, a25, a27, a41); } catch (e) {}
+            return 1350805809;
+        },
+        "c": v15,
+        268435439: a24,
+    };
+    return o46;
+}
+f23(v15, v21, v15, v14);
+f23(v14, v17, v14, v15);
+f23(v15, v17, v14, v16);
+5 ^ 5;
+try { new Int8Array(5, 182, false); } catch (e) {}
+-22631;
+function f58() {
+}
+function f59() {
+    const o64 = {
+        "b": f58,
+        valueOf() {
+            try { this.b(); } catch (e) {}
+            try { this.b(); } catch (e) {}
+            [NaN,1000.0,8.951106279668121,-3.0,-Infinity,1.7976931348623157e+308,-4.0,243.50965730660823,0.0];
+        },
+    };
+    try { o64.b(); } catch (e) {}
+    return o64;
+}
+const v66 = f59();
+try { v66.b(); } catch (e) {}
+const v68 = v66?.b;
+try { v68(); } catch (e) {}
+const v70 = new v68();
+const v71 = v70?.toLocaleString;
+try { new v71(); } catch (e) {}
+new Uint8Array(268435440);
+const v77 = ("function").length;
+v77 == v77;
+const v79 = f59();
+function F80(a82, a83) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a83.b(); } catch (e) {}
+    try { a82.valueOf(); } catch (e) {}
+    const v86 = this?.constructor;
+    try { new v86(a82, a82); } catch (e) {}
+    new Uint16Array(v77);
+}
+const v90 = new F80(v79);
+function f91() {
+    return v19;
+}
+function f92(a93) {
+    a93[Symbol.iterator] = v79;
+}
+Object.defineProperty(v90, "b", { writable: true, get: f91, set: f92 });
+new F80(v66, v90);

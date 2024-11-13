@@ -1,0 +1,51 @@
+function f0() {
+    const o4 = {
+        "e": -2147483647,
+        1024: -1e-15,
+        ..."valueOf",
+        "b": -1e-15,
+        268435441: -2147483647,
+        "c": "valueOf",
+        ["valueOf"]: -2147483647,
+        ..."valueOf",
+        "g": "valueOf",
+        __proto__: "valueOf",
+        ..."valueOf",
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0(v5, f0, f0);
+const v7 = f0();
+class C11 {
+    #b;
+    constructor(a13, a14, a15, a16) {
+        Object.defineProperty(v5, a16, { writable: true, configurable: true, get: f0 });
+        try { a16.trim(a14, a16, this, this, a13); } catch (e) {}
+        try { a15(a14, "keyFor", a16, f0); } catch (e) {}
+        try {
+            a16.#b = v6;
+        } catch(e19) {
+        }
+    }
+    static f = v5;
+}
+new C11("e", "keyFor", "e", v5, "e", "boolean");
+new C11("keyFor", "e", v5, v7);
+new C11("keyFor", "keyFor", "boolean", v5);
+function F26(a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    a28 % a28;
+    a29 >>> a29;
+    const v32 = this.constructor;
+    try { new v32(0.8735699512350641); } catch (e) {}
+    this.c = a28;
+    this.g = a29;
+}
+new F26(-3.413527541634011e+307, 0.941857606566444);
+const v35 = new F26(F26, 0.941857606566444);
+new F26(0.941857606566444, 0.941857606566444, 0.941857606566444, v35, v35);
+class C37 {
+}
+const v40 = Math.log1p(-4.600007534268795);
+v40 + v40;

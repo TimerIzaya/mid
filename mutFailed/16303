@@ -1,0 +1,33 @@
+function f0() {
+}
+-789064284n ^ f0;
+class C5 {
+    o(a7) {
+        Object.defineProperty(this, this, { writable: true, configurable: true, enumerable: true, set: f0 });
+        for (let v8 = 0; v8 < 32; v8++) {
+            this["p" + v8] = v8;
+        }
+        return this;
+    }
+    static #f;
+    g = 1073741825n;
+    c;
+    #b;
+    e;
+    static 2;
+    #c;
+}
+C5[2] = C5;
+const v11 = new C5();
+v11.e;
+new C5();
+const v14 = new C5();
+v14.c;
+const v16 = [-2.3749581099782885e+307];
+v16[0] = v16;
+[-3.0,3.0,-837292.4536530878,0.0,-1.0,-6.284040370229402,1.1846997585470987e+308,5.0,-767.6272047836447];
+const v19 = ([6.727333258429616e+307,0.0,0.789808134383477,Infinity,-2.2250738585072014e-308])?.__lookupGetter__;
+try { new v19(f0); } catch (e) {}
+1735 == 1735;
+const v24 = Array.prototype;
+try { v24.copyWithin(v16, v16); } catch (e) {}

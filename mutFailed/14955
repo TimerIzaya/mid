@@ -1,0 +1,73 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0];
+const v2 = [v1];
+const v3 = [v0,v2,v0];
+try { v3.find(v0); } catch (e) {}
+const v7 = 49460n === 49460n;
+v7 || v7;
+function f10(a11, a12) {
+    a12 << a12;
+    a12 >= a12;
+    const o20 = {
+        get d() {
+            const o16 = {
+            };
+            const v18 = new Proxy(this, o16);
+            try {
+                v18.c = a11;
+            } catch(e19) {
+            }
+            v18[a11] = v3;
+            return v18;
+        },
+        "a": a11,
+        [v3]: a12,
+        [-2]: a12,
+    };
+    o20.a = o20;
+    return o20;
+}
+f10.name = f10;
+f10(v2, 128n);
+const v22 = f10(v3, 49460n, v3, 128n);
+v22.a = v22;
+v22.d = v22;
+const v23 = f10(v1, 9n);
+const v25 = new Uint8Array(Uint8Array);
+v25[1] = v25;
+function f26(a27, a28, a29, a30) {
+    a29++;
+    const v32 = ++a29;
+    v32 >>> v32;
+    v32 - v32;
+    let v35 = v32 * v32;
+    const v36 = v35--;
+    v35 / v35;
+    a29 || a29;
+    const o39 = {
+        "c": f10,
+        __proto__: v25,
+        "f": v23,
+        "a": v32,
+        ...v2,
+        ...v25,
+    };
+    const v40 = o39[1];
+    v40 & v40;
+    o39[2] = o39;
+    const v42 = o39[2];
+    const v44 = Symbol.match;
+    v42[v44];
+    Object.defineProperty(o39, 49460n, { writable: true, configurable: true, get: f26, set: f26 });
+    v44[49460n];
+    try { v42.hasOwnProperty(v36); } catch (e) {}
+    const v48 = v42[1];
+    v48 != v48;
+    const v50 = v42 >>> v42;
+    v50 >>> v50;
+    v50 + v50;
+    return v50;
+}
+for (let v53 = 0; v53 < 500; v53++) {
+    f26();
+}

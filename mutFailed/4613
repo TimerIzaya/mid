@@ -1,0 +1,24 @@
+%VerifyType(1819208447n);
+const v4 = new WeakMap();
+1819208447n ^ v4;
+const v7 = new Date();
+const v10 = new BigUint64Array(127);
+const v13 = new BigUint64Array(1968);
+const v16 = new BigUint64Array(5);
+function f17() {
+    return BigUint64Array;
+}
+const v18 = /C/gumy;
+v18.constructor = f17;
+try {
+    v13.toString = f17;
+} catch(e19) {
+}
+v18.multiline;
+const v21 = new BigUint64Array(v7, 1968);
+try { v16.findIndex(f17, v18); } catch (e) {}
+try { v21.keys(); } catch (e) {}
+try {
+    v10.valueOf = f17;
+} catch(e27) {
+}

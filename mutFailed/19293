@@ -1,0 +1,40 @@
+function f0() {
+    const o4 = {
+        "h": "keq",
+        ..."keq",
+        "f": 65537,
+        "d": f0,
+        "b": 65537,
+        __proto__: "keq",
+        "e": "keq",
+        "c": "keq",
+        ..."keq",
+        4: "keq",
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+class C8 extends f0 {
+    static {
+        Object.defineProperty(v7, v6, { writable: true, configurable: true, enumerable: true, get: f0, set: f0 });
+    }
+    constructor(a11, a12) {
+        super();
+        v5[127] = C8;
+        f0();
+    }
+}
+new C8(v6, C8);
+const v17 = new C8(v6, v6);
+new C8(v17, v5);
+/[[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]]/vim;
+for (let i24 = v6; 10 < 10; i24++) {
+    try { ("boolean").trimEnd(); } catch (e) {}
+    try {
+        const o32 = {
+        };
+    } catch(e33) {
+    }
+}

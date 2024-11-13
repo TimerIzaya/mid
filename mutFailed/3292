@@ -1,0 +1,53 @@
+const v3 = [29008,29008,268435456,-128];
+const v4 = [v3,29008,v3];
+[v3,v4,-128,268435456,-128];
+function f6() {
+    return -128;
+}
+f6();
+try {
+    new f6();
+} catch(e13) {
+}
+new Float32Array(6);
+new Float32Array(1024);
+new BigInt64Array(4074);
+function F22() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 10137;
+    } catch(e25) {
+        function f26() {
+            return e25;
+        }
+        try { e25(); } catch (e) {}
+        v4[10137] = 4074;
+    }
+    try {
+        this.a = 10137;
+    } catch(e28) {
+    }
+    try {
+        this.h = 10137;
+    } catch(e29) {
+    }
+}
+new F22();
+const v31 = new F22();
+const v32 = new F22();
+new Uint8ClampedArray(v31);
+const v37 = new BigInt64Array(0);
+const v40 = new Int8Array(129);
+let v41;
+try { v41 = v31(v40, BigInt64Array); } catch (e) {}
+with (v32) {
+    new Uint8Array(1);
+    new BigInt64Array(10);
+    new Uint8Array(v37, 10, 1);
+    new BigInt64Array(1017, 4074, v41);
+    v3[2023635038];
+    new Uint8Array(1000);
+    new Int16Array(16);
+    new Uint8Array(128);
+    new Uint16Array(1017);
+}

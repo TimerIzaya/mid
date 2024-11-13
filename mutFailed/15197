@@ -1,0 +1,51 @@
+const v0 = [0.19537746062800976,1000.0,-3.0,945.0694442715512,8.833960881081428,0.14708560218518596,1.5365984660093067e+308,0.965768438434338,0.753934253665854];
+function f1(a2) {
+    return 4.0;
+}
+v0[Symbol.toPrimitive] = f1;
+const v8 = [676472.4121051678,990.7565148381227,3.4706328850571584];
+const v9 = [7.533735837200371,-1.7173815360509526,-1000000.0,9.751177589388199,0.7175038632969705,9.637481227010632,-2.658330708512011e+307];
+class C13 {
+    [v0];
+    static [8] = v0;
+    static {
+        function f15(a16) {
+            let v17 = this.codePointAt();
+            return v17--;
+        }
+        this[Symbol.toPrimitive] = f15;
+        const v21 = super[this];
+        try { v9.map(v21, this); } catch (e) {}
+    }
+    static #e = 8;
+    static 268435440;
+    #d;
+}
+new C13();
+const v27 = new C13();
+new C13();
+function f29(a30, a31, a32) {
+    const o41 = {
+        "d": v0,
+        [512](a34, a35) {
+            let v36;
+            try { v36 = a30.toLocaleString(a32, a34); } catch (e) {}
+            super.e = v27;
+            try { v36(a31, 512); } catch (e) {}
+            return v36;
+        },
+        "f": 512,
+        [a31]: 65536,
+    };
+    return v27;
+}
+f29(v27, 512, v8);
+f29(v0, 8, 8);
+f29(v8, 512, v27);
+const v45 = [];
+const v46 = [v45,v45,v45];
+const o47 = {
+};
+o47.defineProperty = o47;
+const v49 = new Proxy(v46, o47);
+Object.defineProperty(v49, -1, { configurable: true, value: v45 });

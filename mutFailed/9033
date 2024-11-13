@@ -1,0 +1,100 @@
+let v0 = "10000";
+class C3 {
+    static ["12"] = v0;
+    constructor(a5, a6) {
+    }
+    static c = v0;
+    static toString(a11) {
+        class C12 {
+            b = v0;
+        }
+        const v13 = new C12();
+        new C12();
+        new C12();
+        try { C12(); } catch (e) {}
+        return v13;
+    }
+}
+const v17 = new C3("zud", "zud");
+const v18 = new C3(v0, v0);
+const v19 = new C3(v0, v18);
+class C20 extends C3 {
+    static toString(a22, a23, a24, a25) {
+        const v26 = this != a24;
+        const v27 = v26 ? this : a24;
+        v19.b;
+        Object.defineProperty(v17, "d", { configurable: true, enumerable: true, value: v26 });
+        try {
+            super.getInt16(v0, C20);
+        } catch(e30) {
+        }
+        try {
+            const t31 = "12";
+            t31.toString = v27;
+        } catch(e31) {
+        }
+        return this;
+    }
+    [v0] = v0;
+    static [C3] = v18;
+    static g = v19;
+    static #f = "zud";
+    #c;
+}
+const v32 = new C20();
+const v33 = new C20();
+const v34 = new C20();
+function f35(a36, a37, a38, a39) {
+    const o49 = {
+        n(a41, a42) {
+            a39 = v0;
+            try {
+                a39.valueOf = a37;
+            } catch(e43) {
+            }
+            return a41;
+        },
+        "f": a39,
+        set h(a45) {
+            v0 = v17;
+            a38.length ||= a45;
+            a39[3927866208];
+            try {
+                super.valueOf(v19, a45, a39);
+            } catch(e48) {
+            }
+            v0 = this;
+        },
+    };
+    return o49;
+}
+const v50 = f35(v33, v32, v34, v32);
+f35(f35(C3, v17, "zud", "zud"), v50, v17, v17);
+const v57 = new Uint8Array();
+const v59 = new Uint32Array();
+function f60(a61, a62, a63, a64) {
+    a61.g = v59;
+    const v65 = a63 % a63;
+    const o73 = {
+        "b": a61,
+        ...v57,
+        get d() {
+            this + a63;
+            this[this] = a64;
+            return this;
+        },
+        n(a69, a70) {
+            const o72 = {
+                [a62]: Uint8Array,
+            };
+            v59[a61] = v59;
+            return v65;
+        },
+    };
+    const t93 = o73?.b;
+    const v75 = new t93(a63, v65);
+    return v75;
+}
+for (let v76 = 0; v76 < 625; v76++) {
+    f60(Uint8Array);
+}

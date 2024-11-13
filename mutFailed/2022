@@ -1,0 +1,83 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 37897;
+    } catch(e3) {
+    }
+    try {
+        this.d = 37897;
+    } catch(e4) {
+    }
+    try {
+        this.f = 37897;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+("getBigInt64").normalize();
+let v10 = 47457;
+class C11 {
+    n(a13) {
+        this[a13] = v10;
+    }
+}
+let v14 = new F0();
+class C15 extends F0 {
+    constructor(a17, a18) {
+        super();
+        new Int8Array(3);
+        const t29 = [-554.3883745381902,874.2208688504531,0.0,1.7976931348623157e+308,1e-15];
+        t29[8] ^= -297927.3051276769;
+        new this(1024);
+        new Int16Array(257);
+    }
+    static #f;
+}
+v10++;
+const v32 = ReferenceError(ReferenceError);
+v32.stack = v32;
+function f33() {
+    new Int8Array(1073741823);
+}
+const v37 = new C15(v14, v6);
+const v38 = new C15(v7, v6);
+const v39 = new C15(v38, v7);
+try { v38.p(v39, F0, v37, v39); } catch (e) {}
+v39[Symbol.replace];
+f33();
+const o45 = {
+};
+const v46 = `
+`;
+const v48 = new F0();
+const v58 = new Uint8Array();
+const v61 = new Uint32Array();
+function f62(a63, a64, a65, a66) {
+    const o78 = {
+        get f() {
+            let v71 = 2 ** 1073741824;
+            --v71 && 1073741824;
+            -v71;
+            return v71;
+        },
+        "f": 2,
+        "b": a63,
+        "c": a66,
+        ...v58,
+        n(a76, a77) {
+            v61[a63] = v61;
+        },
+    };
+}
+f62(2, 2, 1, 2);
+for (let v80 = 0; v80 < 625; v80++) {
+    Object.defineProperty(v48, 15, { writable: true, value: v80 });
+    v14 = v6;
+    (v48 >> v80) < v39;
+    +36612;
+    !36612;
+    Math.random();
+    v80++;
+    f62(Uint8Array, 2, v80, 2);
+}

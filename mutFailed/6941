@@ -1,0 +1,37 @@
+const v0 = [];
+class C1 {
+    static #valueOf() {
+        let v3;
+        try { v3 = new this(this); } catch (e) {}
+        v0[389041133] = this;
+        for (let v4 = 0; v4 < 32; v4++) {
+            v3["p" + v4] = v4;
+            const o11 = {
+                "execution": "sync",
+                "type": "major",
+            };
+            gc(o11);
+        }
+        return v0;
+    }
+}
+const v13 = new C1();
+const v14 = new C1();
+for (let i16 = 0; i16 < 6; i16++) {
+    try {
+        v0.length = i16;
+    } catch(e22) {
+    }
+}
+const v23 = new C1();
+function f24() {
+    return v0;
+}
+[v23,v13,v13,v23];
+[v14,C1];
+[v0,v14,v23];
+async function f31(a32, a33, a34) {
+    return a32;
+}
+f31.constructor;
+v0();

@@ -1,0 +1,59 @@
+function f0() {
+    502318493 !== 502318493;
+    const o11 = {
+        get d() {
+            var d = 1000000000.0;
+            const v6 = this[1073741823];
+            try { new v6(v6, 502318493); } catch (e) {}
+            return 7;
+        },
+        "b": 1000000000.0,
+        __proto__: 502318493,
+        6: 502318493,
+        1940330987: 570192021,
+        [502318493]: 570192021,
+    };
+    o11.toString = f0;
+    return o11;
+}
+const v12 = f0();
+v12[Symbol.toPrimitive] = f0;
+f0();
+const v16 = f0();
+try { v16.isPrototypeOf(v12); } catch (e) {}
+try { Set.bind(Set); } catch (e) {}
+const v20 = new Set();
+v20.toString = f0;
+const v23 = new Array(1);
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    a30.valueOf = Symbol;
+    a30 ^ a30;
+    a31--;
+    try {
+        this.g = a30;
+    } catch(e34) {
+    }
+}
+const v35 = F27?.bind;
+try { new v35(v23); } catch (e) {}
+new F27(v12, -1229172910, 1);
+new F27(v16, v23, -1229172910);
+new F27(v12, v20, 1);
+function F43(a45, a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f48(a49, a50) {
+        ("HEkWL").localeCompare("isArray", "isArray");
+        return a46;
+    }
+    this[Symbol.toPrimitive] = f48;
+    const v56 = this?.__lookupGetter__;
+    try { new v56(a45); } catch (e) {}
+    a47.g = a47;
+}
+const v58 = new F43(3011, Uint8ClampedArray, F43);
+v58.valueOf = Date;
+v58.constructor = Date;
+const t56 = v58.constructor;
+const v60 = new t56(v58, Uint8ClampedArray, 3011);
+try { v60.setUTCSeconds(v12, f0); } catch (e) {}

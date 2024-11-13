@@ -1,0 +1,63 @@
+const v8 = new Uint8ClampedArray(16);
+v8[10] = v8;
+const v10 = -1322;
+const v12 = new Uint8ClampedArray(1322);
+const v13 = v12[315];
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = "536870889";
+    } catch(e20) {
+    }
+    try {
+        this.b = a19;
+    } catch(e21) {
+    }
+}
+new F14(1073741824n, 1073741824n, 257n, "6");
+const v23 = new F14(1073741824n, 257n, 257n, v10);
+const v24 = new F14(v13, 257n, 257n, "536870889");
+function f25() {
+    function F26() {
+        if (!new.target) { throw 'must be called with new'; }
+        this.c = 1163987790;
+    }
+    const v29 = new F26();
+    return v29;
+}
+v24[Symbol.toPrimitive] = f25;
+new BigUint64Array(6);
+3768 >>> 3768;
+const v39 = new BigInt64Array(4046);
+v39[123];
+-115;
+function f44(a45, a46) {
+    a45++;
+    a46 + a46;
+    const v49 = a45++;
+    v49 >> v49;
+    try {
+        v23.toString = a46;
+    } catch(e51) {
+    }
+    Object.defineProperty(v24, v24, { configurable: true, enumerable: true, get: f44 });
+    let o53 = {
+        "d": a45,
+        ...a45,
+        get e() {
+            return a46;
+        },
+    };
+    [,...o53] = v39;
+    a46[4046];
+    const o57 = {
+        "maxByteLength": 3035,
+    };
+    new ArrayBuffer();
+    new Float32Array();
+    return 115;
+}
+f44(4046, 3768);
+f44(4046, 4046);
+try { Date("boolean", 16, Date, Date, Date, "boolean", "boolean"); } catch (e) {}
+try { Uint8ClampedArray.bind(f44); } catch (e) {}

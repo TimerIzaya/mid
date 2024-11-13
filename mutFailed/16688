@@ -1,0 +1,43 @@
+const v3 = [-221.38857311770016,1.5591889798181307e+308,-221.38857311770016,-221.38857311770016];
+const v4 = [1.5591889798181307e+308,-221.38857311770016,v3];
+const v5 = [v3,v3,v4,-6.080196094550923e+307,v4,-6.080196094550923e+307];
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -6.080196094550923e+307;
+    } catch(e11) {
+    }
+    try {
+        this.d = v3;
+    } catch(e12) {
+    }
+    try {
+        this.b = a9;
+    } catch(e13) {
+    }
+}
+new F6(v4, -6.080196094550923e+307, -221.38857311770016);
+new F6(v5, -221.38857311770016, 1.5591889798181307e+308, -221.38857311770016, F6);
+new F6(v4, -6.080196094550923e+307, -6.080196094550923e+307);
+new Array(5);
+new WeakSet(v4);
+const v23 = Math.log2();
+const v24 = [315.3838771878211,0.8321654879979539,1.0,-813011.8421276518];
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v31 = 0; v31 < 100; v31++) {
+        function f32(a33, a34, a35) {
+            const o37 = {
+                get d() {
+                    return a34;
+                },
+            };
+            for (let i = 0; i < 10; i++) {
+                delete v24[v23];
+            }
+            return this;
+        }
+        f32();
+    }
+}
+new F25();

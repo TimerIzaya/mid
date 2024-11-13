@@ -1,0 +1,25 @@
+const v2 = new BigUint64Array(6);
+const v5 = v2[1073741823];
+try {
+    v2.toReversed();
+} catch(e7) {
+}
+const v8 = new Float32Array(161);
+new Uint8Array(10);
+new Float32Array(10);
+const v17 = new Uint8Array(6);
+[v17,10,v17,BigUint64Array,6];
+const v21 = [10];
+const v22 = [v21,v21];
+try { v5(BigUint64Array, 127, v22, v2, BigUint64Array); } catch (e) {}
+v2[153] = v8;
+new Int32Array(127);
+const v27 = new Uint32Array(256);
+function f28() {
+    v27[3] = "-26733";
+    return "-26733";
+}
+%PrepareFunctionForOptimization(f28);
+f28();
+%OptimizeFunctionOnNextCall(f28);
+f28();

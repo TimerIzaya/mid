@@ -1,0 +1,20 @@
+let v4 = Int16Array;
+const v5 = new v4(1028);
+let v6;
+try {
+const t0 = 1028;
+v6 = t0();
+} catch (e) {}
+v4 = Reflect.construct(v6, [v4,Reflect,Reflect], v6);
+new Float64Array(1);
+new BigInt64Array(16);
+for (let v18 = 0; v18 < 32; v18++) {
+    v5["p" + v18] = v18;
+}
+const v21 = new Int32Array(2917);
+const v24 = v21["lastIndexOf"](10);
+try {
+    new Float64Array(10);
+} catch(e26) {
+}
+v24.__proto__;

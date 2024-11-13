@@ -1,0 +1,58 @@
+new Int32Array(512);
+const v14 = new Float32Array(512);
+new Uint32Array(1124);
+const v18 = [];
+function F19() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v21 = `
+            for (let v22 = 0; v22 < 5; v22++) {
+                class C23 {
+                }
+                const v24 = new v21();
+                function f25(a26, a27) {
+                    const o32 = {
+                        [v24](a29, a30, a31) {
+                        },
+                    };
+                }
+            }
+        `;
+        const o41 = {
+            set e(a40) {
+            },
+        };
+        function f42(a43) {
+            a43 === a43;
+            a43 <= a43;
+            const o49 = {
+                ...a43,
+                p(a47, a48) {
+                },
+            };
+        }
+    } catch(e50) {
+    }
+    try {
+    } catch(e51) {
+    }
+    try {
+    } catch(e52) {
+    }
+}
+const v53 = new F19();
+const v54 = new F19();
+const v55 = new v14();
+const v58 = [[v18,v55],F19,[v53,v18,v54],v18];
+try { v58.flat(); } catch (e) {}
+const v62 = new Int8Array(257n);
+try { v62.find(v55); } catch (e) {}
+new Uint8ClampedArray(Uint8ClampedArray);
+function f69(a70, a71, a72, a73) {
+    Object.defineProperty(a70, Symbol.toPrimitive, { configurable: true, enumerable: true, value: f69 });
+    const o80 = {
+        toString(a77, a78) {
+            new Date(a70);
+        },
+    };
+}

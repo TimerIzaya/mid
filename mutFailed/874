@@ -1,0 +1,97 @@
+const v3 = [1220230265n,137722928n,0n];
+const v4 = [137722928n];
+try { v4.entries(); } catch (e) {}
+const v6 = [v3];
+class C7 {
+    static e;
+    constructor(a9, a10) {
+        function F11(a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v15 = this?.constructor;
+            try { new v15(v6, this); } catch (e) {}
+            a14 ^ a14;
+            try {
+                this.b = v3;
+            } catch(e18) {
+            }
+        }
+        new F11(137722928n, 0n);
+        new F11(0n, 137722928n);
+        new F11(a9, 1220230265n);
+    }
+    [0n] = v6;
+}
+C7.g = C7;
+const v22 = new C7(1220230265n, v3);
+v22[0];
+const v24 = new C7(0n, v3);
+v24[0] = v24;
+const v25 = new C7(0n, v22);
+v25[0] = v25;
+4096 | 4096;
+36924 * 36924;
+new Uint32Array(64);
+const v41 = new Uint16Array(10);
+new Int16Array(2);
+class C45 {
+    constructor(a47, a48) {
+        const o49 = {
+        };
+        try {
+            o49.e = a47;
+        } catch(e50) {
+        }
+        try {
+            const o51 = {
+            };
+            o51.e = a47;
+            o51.c = a48;
+        } catch(e52) {
+        }
+        try {
+            const o53 = {
+            };
+            o53.e = a47;
+            o53.c = a48;
+            o53.b = a48;
+        } catch(e54) {
+        }
+        try {
+            const o55 = {
+            };
+            o55.e = a47;
+            o55.c = a48;
+            o55.g = v41;
+        } catch(e56) {
+        }
+    }
+}
+new C45(-9007199254740992n, 64);
+const t69 = 0n;
+new t69(-15n, 2);
+new C45(-9007199254740992n, 10);
+let v60 = 0;
+do {
+    C45 / 10;
+    const o65 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o65);
+    v60++;
+} while (v60 < 5)
+-65536 ^ -65536;
+function f71() {
+    return 36924;
+}
+function f72(a73, a74, a75, a76) {
+    a73 != a73;
+    ~a74;
+    a75.b = a75;
+    const o79 = {
+        __proto__: a75,
+        ...a75,
+    };
+    return o79;
+}
+f72(-65536, 36924, f71);

@@ -1,0 +1,38 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e6) {
+    }
+    try {
+        this.c = a5;
+    } catch(e7) {
+    }
+}
+const t11 = -8;
+new t11(-8);
+new F3(-8);
+new F3(-26706);
+class C17 {
+    #h;
+}
+new C17();
+class C19 extends C17 {
+    constructor(a21, a22) {
+        super();
+    }
+}
+new C19();
+new SyntaxError(Int8Array);
+new BigInt64Array(3);
+new RegExp(8);
+function F31(a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v35 = this.constructor;
+    try { new v35(this); } catch (e) {}
+    a34++;
+    this.g = a33;
+}
+const v38 = new F31();
+const t36 = v38.constructor;
+new t36();

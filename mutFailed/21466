@@ -1,0 +1,21 @@
+5 + 5;
+new Uint8ClampedArray(5);
+const v9 = new Uint8ClampedArray(Uint8ClampedArray);
+const v12 = new Float64Array(16);
+v12[15] = v12;
+function f13(a14, a15) {
+    const o16 = {
+        ...a14,
+    };
+    o16.g = o16;
+    return f13;
+}
+f13.d = f13;
+%PrepareFunctionForOptimization(f13);
+const t14 = f13();
+t14(f13);
+%OptimizeFunctionOnNextCall(f13);
+const t17 = 10;
+t17();
+const v20 = v9?.__lookupGetter__;
+try { new v20(v20); } catch (e) {}

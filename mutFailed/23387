@@ -1,0 +1,88 @@
+const v1 = new WeakSet();
+const v2 = [WeakSet,v1];
+const v3 = [WeakSet,v1,v2];
+v3[1] = v3;
+const v4 = [v1,v1];
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v3;
+    try { a8.sort(a8); } catch (e) {}
+    try {
+        this.a = a8;
+    } catch(e10) {
+    }
+    try {
+        this.f = v4;
+    } catch(e11) {
+    }
+    try {
+        this.e = a7;
+    } catch(e12) {
+        try { v2.toSorted(e12); } catch (e) {}
+        const v14 = new WeakSet(a7);
+        this / v14;
+        const v16 = v3.__proto__;
+        try { new v16(WeakSet); } catch (e) {}
+    }
+}
+const v18 = new F5(v4, v2);
+v18.b = WeakSet;
+v18.b = v18;
+const v19 = new F5(v3, v3);
+const v20 = new F5(v3, v2);
+function f21(a22, a23, a24, a25) {
+    const v26 = a23?.push;
+    try { new v26(f21); } catch (e) {}
+    try { a24.sort(a24); } catch (e) {}
+    const o39 = {
+        [F5](a30, a31, a32, a33) {
+            delete v4[a32.e];
+            const v36 = this[45];
+            v19.f ||= a25;
+            try {
+                a23.find(v36);
+            } catch(e38) {
+            }
+            return a25;
+        },
+        "e": v18,
+    };
+    o39[Symbol.toPrimitive] = f21;
+    return o39;
+}
+f21(v1, v4, v3, v1);
+const v43 = f21(v19, v3, v3, v18);
+v43.e = v43;
+const v44 = f21(v20, v4, v3, v19);
+function f46() {
+    const v48 = ("startsWith")?.toWellFormed;
+    try { new v48(); } catch (e) {}
+    const v50 = ("filter")["startsWith"]();
+    !v50;
+    Math.e = Math;
+    Math.cosh(Math);
+    return v50;
+}
+%PrepareFunctionForOptimization(f46);
+const v54 = f46();
+%OptimizeFunctionOnNextCall(f46);
+new F5("filter", v20);
+const v56 = new f46();
+v56.length = v56;
+v56 << v54;
+try {
+    v43.a = v4;
+} catch(e58) {
+}
+f46();
+function f60() {
+    return v3;
+}
+f60.e = f60;
+v43 * v54;
+try { new Int8Array(v20, "filter", v44); } catch (e) {}
+new Int8Array(1849);
+new BigUint64Array(117);
+let v69 = 12;
+v69--;
+new Float32Array(v69);

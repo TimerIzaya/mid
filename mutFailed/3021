@@ -1,0 +1,38 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -1888202181;
+    } catch(e3) {
+    }
+}
+function f4(a5, a6) {
+    const o8 = {
+    };
+    gc(o8);
+    return F0;
+}
+F0[Symbol.toPrimitive] = f4;
+const v12 = new F0();
+const v13 = new F0(v12, F0, v12);
+v13.p = v13;
+const v14 = new F0();
+try { v13.p(v13, F0, v12, v14, -886501829); } catch (e) {}
+const v18 = [-56079,9,-11,-2147483647];
+[11,25716,4294967296,4294967296,268435440,-1041039069,-4294967296,-1321,-65537];
+([-40191,-16245,255])[F0];
+new BigUint64Array(16);
+new Float32Array(1024);
+new Float32Array(0);
+Date[Symbol.toPrimitive] = Date;
+const o44 = {
+    toString(a36, a37) {
+        new Date(Date, a36, 1024, a36);
+        try {
+            super.m(0, v18, 44204);
+        } catch(e43) {
+        }
+        return Date;
+    },
+};
+o44.m = Symbol;
+o44.toString();

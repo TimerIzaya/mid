@@ -1,0 +1,60 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a8;
+    } catch(e10) {
+    }
+    try {
+        this.c = 31017;
+    } catch(e11) {
+    }
+    try {
+        this.b = a8;
+    } catch(e12) {
+    }
+}
+const v13 = new F6(-33091, -9007199254740992);
+const v14 = new F6(-34263, -2216);
+const v15 = new F6(-9007199254740992, v14);
+class C16 extends F6 {
+    62 = -34263;
+    c = F6;
+    static {
+        v13[Symbol.matchAll] = v15;
+    }
+    static #a;
+    16;
+    static #toString(a21, a22, a23) {
+        -2216 >> v15;
+        Math.min(-7);
+        v15 % v15;
+        return a21;
+    }
+}
+new C16();
+new v14();
+new C16();
+const v32 = [-53613,268435440,268435440,2,-65536,-2147483647];
+const v33 = [8];
+const v34 = [-1024,-2147483647,-37738,-2,21596,2147483649,9007199254740992,-2039218916];
+class C35 {
+    static #f;
+    static set f(a37) {
+        a37(this, this, a37, v33);
+    }
+    constructor(a40) {
+        this.e = v33;
+    }
+}
+new C35(v33);
+new C35(v34);
+const v43 = new C35(v34);
+let v46;
+try { v46 = v43.reduceRight(4294967295, v34, C35); } catch (e) {}
+v34[6] ||= -10;
+function f47(a48, a49, a50, a51) {
+    const v52 = v33 in f47;
+    try { v46(...v33, ...v32, v34, ...v52); } catch (e) {}
+    return f47;
+}
+v13();

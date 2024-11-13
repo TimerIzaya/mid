@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -12;
+    } catch(e3) {
+    }
+    try {
+        this.c = -12;
+    } catch(e4) {
+    }
+    try {
+        this.a = -12;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f9() {
+    return F0;
+}
+const v10 = [v7,v7];
+[v8,v6,v7,F0,v7];
+let v12 = [v6,v6];
+function f13() {
+    return v10;
+}
+function F17() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const t30 = "oUu";
+t30[8] = v8;
+v6.c >>>= F17;
+try {
+    new f9();
+} catch(e20) {
+}
+class C21 {
+    constructor(a23, a24, a25) {
+        class C27 extends f9.constructor {
+            constructor(a29, a30) {
+                super(C27, a25, C27);
+                v12 |= a30;
+                "-7" instanceof a29;
+            }
+        }
+        new C27();
+    }
+}
+new C21(v8, v8);
+~v7;
+Math.pow(2147483648, 2147483648);
+const v39 = v7 + 2147483648;
+2147483648 & 2147483648;
+2147483648 && v39;

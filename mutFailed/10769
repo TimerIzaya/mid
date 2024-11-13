@@ -1,0 +1,81 @@
+const v2 = new Uint8ClampedArray(512);
+let v3 = 13;
+v3 - v3;
+const v5 = v3++;
+const v7 = new Int32Array(v3);
+const v8 = v7.buffer;
+2 & 2;
+const v12 = new BigInt64Array(2);
+const v13 = [2,1650659595,-1,9007199254740990,-65537,128,-4294967295];
+let v14;
+try { v14 = v13.fill(v2); } catch (e) {}
+let v15;
+try { v15 = v14.findLastIndex(BigInt64Array); } catch (e) {}
+[-39715,-1];
+const v17 = [-4294967295,24591,-10290,-4294967295,-9007199254740991,-12,-8,-63223,21761];
+try { v17.lastIndexOf(v8); } catch (e) {}
+class C19 {
+    #toString(a21, a22, a23) {
+    }
+}
+let v24;
+try { v24 = new C19(); } catch (e) {}
+let v25;
+try { v25 = new C19(); } catch (e) {}
+const v26 = new C19();
+function f27() {
+    v26.d;
+    const v33 = [[-984503.961837067,-3.0,170.79545126331868]];
+    class C35 {
+        n(a37, a38) {
+            let v39 = 10;
+            for (; v39--;) {
+                -3.0 | -9007199254740992;
+                try {
+                    v33.e = 170.79545126331868;
+                } catch(e42) {
+                }
+            }
+            return v39;
+        }
+    }
+    new C35();
+    return C35;
+}
+v26.constructor = f27;
+const v44 = v26?.constructor;
+let v45;
+try { v45 = new v44(); } catch (e) {}
+const v46 = v26?.constructor;
+try { new v46(); } catch (e) {}
+function f48(a49, a50, a51, a52) {
+    function f53(a54) {
+        a54[0] = a54;
+        const v57 = [Uint32Array];
+        const o58 = {
+            "arguments": v57,
+            "type": "function",
+        };
+        return o58;
+    }
+    a52[Symbol.toPrimitive] = f53;
+    let v61 = a52 + a51;
+    v61 %= v61;
+    const o62 = {
+    };
+    new Proxy(v17, o62);
+    return BigInt64Array;
+}
+f48(v3, v2, v5, v25);
+for (let v67 = 0; v67 < 10; v67++) {
+    try { Reflect.construct(Reflect, Reflect); } catch (e) {}
+    const v70 = [Reflect,Reflect,Reflect,Reflect];
+    v70[3] = v70;
+    const v71 = Reflect.construct(C19, v70, WeakSet);
+    try { v71.delete(v12); } catch (e) {}
+}
+try {
+    v2.set(v13);
+} catch(e74) {
+}
+try { v15(v12, v45, v24, v2); } catch (e) {}

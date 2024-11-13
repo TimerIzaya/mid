@@ -1,0 +1,27 @@
+new Array(256);
+new BigUint64Array(1);
+new Float64Array(13);
+new Float64Array(7);
+class C15 {
+}
+function f16() {
+    return Array;
+}
+function f17(a18) {
+    const v19 = [f16];
+    [v19,v19];
+    [v19,13,v19];
+}
+Object.defineProperty(C15, "toString", { writable: true, configurable: true, get: f16, set: f17 });
+const v22 = C15.constructor;
+function f25() {
+    return WeakMap;
+}
+%PrepareFunctionForOptimization(f25);
+f25();
+%OptimizeFunctionOnNextCall(f25);
+f25();
+class C28 extends Date {
+}
+const v29 = new C28();
+v29.setUTCSeconds(v22, C15);

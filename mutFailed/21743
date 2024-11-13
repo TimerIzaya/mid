@@ -1,0 +1,40 @@
+Int32Array.BYTES_PER_ELEMENT = Int32Array;
+const v5 = new Int32Array(93);
+try { v5.join("eD"); } catch (e) {}
+new Int16Array(1925);
+-82;
+new Uint16Array(82);
+function f14() {
+    class C15 {
+    }
+    const v16 = new C15();
+    v16.length = v16;
+    function f17(a18, a19, a20, a21) {
+        try { a18.trimEnd(); } catch (e) {}
+        const o23 = {
+            [a18]: a18,
+        };
+        o23.e = o23;
+        return o23;
+    }
+    function f24(a25, a26, a27) {
+        return a26;
+    }
+    try { new f24(f24, f24, Uint16Array); } catch (e) {}
+    Worker.toJSON = f17;
+    const v31 = [Worker];
+    try { v31.entries(); } catch (e) {}
+    const o33 = {
+        "arguments": v31,
+        "type": "function",
+    };
+    new Worker(f24, o33);
+    return v16.length;
+}
+%PrepareFunctionForOptimization(f14);
+const v36 = f14();
+v36.length = v36;
+f14();
+%OptimizeFunctionOnNextCall(f14);
+const v38 = f14();
+v38.length = v38;

@@ -1,0 +1,27 @@
+class C3 {
+    static b;
+    static #o(a5) {
+        const v6 = `
+            for (let v7 = 0; v7 < 32; v7++) {
+                this["p" + v7] = v7;
+            }
+        `;
+        eval(v6);
+        return v6;
+    }
+}
+const t12 = -1.589420486632905e+308;
+new t12();
+const t14 = 0.3140547433491193;
+const v13 = new t14();
+new C3();
+new Map();
+const o21 = {
+    get f() {
+        return v13;
+    },
+};
+function f22(a23, a24, a25, a26) {
+    return f22;
+}
+Object.defineProperty(o21, "f", { enumerable: true, get: f22 });

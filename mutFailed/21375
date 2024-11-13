@@ -1,0 +1,27 @@
+new Float32Array(184);
+new Float32Array(7);
+const t2 = 184;
+new t2(10);
+let v12 = 144;
+const v13 = v12++;
+class C14 {
+    constructor(a16, a17) {
+        this.propertyIsEnumerable(C14);
+    }
+}
+function f19(a20, a21) {
+    a20 <<= a20;
+    return C14;
+}
+const v26 = Symbol.toPrimitive;
+C14[v26] = f19;
+function f27(a28) {
+    const v30 = new v26();
+    return v30;
+}
+C14[Symbol.toPrimitive] = f27;
+function f33(a34) {
+    return v13;
+}
+C14[Symbol.toPrimitive] = f33;
+new C14();

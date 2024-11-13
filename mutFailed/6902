@@ -1,0 +1,156 @@
+const v1 = new Map();
+class C2 extends Map {
+    m(a4) {
+        return Reflect.construct(a4, [a4,v1], Map);
+    }
+    p(a9, a10) {
+        function f12(a13, a14) {
+            function f16(a17) {
+                try {
+                    this.m(a9, a14, a17, this);
+                } catch(e19) {
+                }
+            }
+            this.onmessage = f16;
+            try { this.set(a13, a9); } catch (e) {}
+        }
+        const v23 = [a10,a10];
+        const o24 = {
+            "arguments": v23,
+            "type": "function",
+        };
+        new Worker(f12, o24);
+        return Map;
+    }
+}
+const v26 = new C2();
+const v27 = new C2();
+const v28 = new C2();
+function f29(a30, a31, a32, a33) {
+    const o49 = {
+        "h": a32,
+        __proto__: v1,
+        [C2]: v26,
+        "g": a33,
+        4294967296: v27,
+        ...a33,
+        [a31]: v1,
+        "c": a30,
+        [C2](a35, a36, a37) {
+            try { a35["has"](...this, ...v27, ..."has", ...a35, ...a30, ..."has"); } catch (e) {}
+            try { new a36(a32, v1, v26); } catch (e) {}
+            a35 = a32;
+            const v41 = v28.constructor;
+            try { new v41(); } catch (e) {}
+            const v43 = [-1.7976931348623157e+308,-0.0,-1000000000000.0,18.192610755442843,-7.676824412389783,1000000000.0,-3.0];
+            const o44 = {
+                __proto__: v43,
+            };
+            o44.unshift();
+            Reflect.construct(a36, [a33,v26,this,Reflect,v1], a31);
+            return a33;
+        },
+    };
+    return o49;
+}
+const v50 = f29(v27, v28, Map, v27);
+const v51 = f29(v1, Map, v50, v28);
+const v52 = f29(v28, v1, v51, v28);
+class C53 extends Map {
+    static #g;
+    constructor(a55, a56, a57, a58) {
+        super(v52);
+        v26[1] = v50;
+        function f59() {
+            return a58;
+        }
+    }
+    static 3908 = v1;
+    16 = v51;
+    static 128 = v50;
+    static 9 = Map;
+    static a = v28;
+    [f29] = v26;
+    #f = v50;
+}
+const v60 = new C53(v51, v27, C2, v51);
+const v61 = new C53(v51, v50, v60, v51);
+const v62 = new C53(v51, v1, v28, v51);
+class C63 extends f29 {
+    #o(a65, a66) {
+        try {
+            f29(v26, C2, this, v26);
+        } catch(e69) {
+        }
+        Math.tanh("1");
+        for (let v73 = 0; v73 < 5; v73++) {
+            for (const v79 of "m") {
+            }
+        }
+        return v62;
+    }
+    [v52] = v60;
+    constructor(a81, a82) {
+        super(a81, a81, v52, a82);
+        const v83 = super[C2];
+        for (let v84 = 0; v84 < 100; v84++) {
+            ("D")[0];
+            let v87 = Int16Array;
+            v87 = v87;
+            function F89(a91, a92) {
+                if (!new.target) { throw 'must be called with new'; }
+                a91.trimLeft().strike();
+                const v95 = this.constructor;
+                try { new v95("a", "a"); } catch (e) {}
+            }
+            f29(v1, this, C2, v60);
+        }
+        const v98 = v61 <= v83;
+        try { v83(v98, ...v98, ...a81, ...a82, v51); } catch (e) {}
+        const o102 = {
+            "maxByteLength": 4096,
+        };
+        const v104 = new SharedArrayBuffer(4096, o102);
+        new DataView(v104);
+    }
+}
+2147483649 << 2147483649;
+const o116 = {
+    get a() {
+        class C110 {
+            constructor(a112, a113) {
+            }
+        }
+        eval();
+    },
+};
+new C63(v27, v28);
+new C63(v26, v61);
+new C63(v61, v62);
+function f120(a121, a122) {
+    const v123 = [1000000000.0,2.2250738585072014e-308,-3.0,-2.2250738585072014e-308,-2.2250738585072014e-308,-6.525028373249204e+307,-7.851646360254072e+307,0.6785915059434757,-0.0];
+    class C124 {
+    }
+    const v126 = Symbol.replace;
+    try {
+    const t0 = 2147483649;
+    t0();
+    } catch (e) {}
+    const v130 = [601759695];
+    const v131 = [1073741824,1073741823,1376142744,1073741825];
+    function f132(a133, a134, a135, a136) {
+        try { v131["find"](..."find", a136, ...v130, ...v131); } catch (e) {}
+        WeakMap / 536870887;
+    }
+    C124[v126] = v123;
+    return f120;
+}
+const v140 = `
+    function f141() {
+        return f141;
+    }
+`;
+%PrepareFunctionForOptimization(f120);
+f120();
+%OptimizeFunctionOnNextCall(f120);
+f120();

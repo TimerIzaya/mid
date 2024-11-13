@@ -1,0 +1,18 @@
+const t0 = 1000;
+new t0(1000);
+new BigUint64Array(128);
+new BigInt64Array(6);
+new Uint32Array(0);
+const t5 = 16;
+new t5(16);
+new Int32Array(127);
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = this.constructor;
+    try { new v22(this); } catch (e) {}
+    a21++;
+    this.g = a20;
+}
+const v25 = new F18();
+const t16 = v25.constructor;
+new t16();

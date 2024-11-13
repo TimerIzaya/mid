@@ -1,0 +1,60 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3() {
+        function f5(a6) {
+            Reflect.construct(a6, [a6], F0);
+        }
+        this.onmessage = f5;
+        this[-2];
+        const v14 = 1e-15 % 1e-15;
+        Math.ceil(9);
+        Math.random();
+        Math.ceil(v14);
+        Math.min(9);
+    }
+    const v21 = [];
+    const o22 = {
+        "arguments": v21,
+        "type": "function",
+    };
+    new Worker(f3, o22);
+    try {
+        this.h = -308161364;
+    } catch(e24) {
+    }
+    try {
+        this.f = -308161364;
+    } catch(e25) {
+    }
+}
+const v26 = new F0();
+const v27 = new F0();
+v26[F0 - v27] = a;
+a || v26;
+let {"c":v31,"d":v32,"e":v33,...v34} = a;
+new F0();
+1.5579690404312939e+308 / 1.5579690404312939e+308;
+const v40 = [-1000000000.0,-0.0,1000000000000.0,2.220446049250313e-16,0.26229706402028297,-1000000000.0,-2.0,-1e-15,-2.0,4.0];
+try { v40.unshift(F0); } catch (e) {}
+[-1e-15,1000.0,1.0202668729190322e+307,-1000.0];
+[993537.8980257923,-1.498236329177732e+308,1000000.0,1.0,-2.0,-4.0,2.220446049250313e-16];
+let v46 = 16;
+v46--;
+try { Uint8Array.apply(v46, v26); } catch (e) {}
+const v50 = new Uint8Array();
+for (let v51 = 0; v51 < 5; v51++) {
+    function f52() {
+        class C53 {
+            #b;
+            [9223372036854775807];
+        }
+        new C53();
+        new C53();
+        new C53();
+        const v57 = v50.__proto__;
+        try { v57.toString(); } catch (e) {}
+        return v51;
+    }
+    f52();
+    %OptimizeFunctionOnNextCall(f52);
+}

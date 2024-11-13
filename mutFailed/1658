@@ -1,0 +1,42 @@
+const v0 = [1.7976931348623157e+308,-1000.0,7.137674004456588e+306,0.0,1e-15,-2.1431584243201634e+307,-645.3950006081193,1000000.0];
+const v1 = [9.829382957093756e+307];
+const v2 = [-486.0986984131348,-2.220446049250313e-16,0.2263329432702481,-688254.9293892704,NaN,208015.62767829862,-2.2250738585072014e-308,6.532043337935116e+306,-2.0];
+const v3 = [v1,v2,v0,v0,v2];
+function f4(a5) {
+    for (const v9 of Array(19793)) {
+    }
+    return v1;
+}
+v3[Symbol.toPrimitive] = f4;
+const v12 = [v0,v3,v2,v0];
+v12[Symbol.toPrimitive] = f4;
+const v15 = [v2,v12];
+function f16(a17, a18) {
+    function f19(a20, a21) {
+        const v23 = [a18];
+        return Reflect.apply(Symbol.for, v12, v23);
+    }
+    Object.defineProperty(a18, "toString", { configurable: true, enumerable: true, value: f19 });
+    try { a17.pop(); } catch (e) {}
+    const o29 = {
+        get d() {
+            a17[this] = this;
+            a18?.[2837];
+            return v15;
+        },
+        ...v12,
+        1580814551: a18,
+        7: v15,
+        "e": v0,
+        [a17]: a17,
+    };
+    const v30 = o29?.__defineGetter__;
+    try { new v30(f16, v15); } catch (e) {}
+    return o29;
+}
+f16(v12, v2);
+f16(v0, v1);
+const v35 = f16(v2, v1)?.__defineGetter__;
+try { new v35(v2, v15); } catch (e) {}
+const v39 = Math.sin(-5345);
+v39 >= v39;

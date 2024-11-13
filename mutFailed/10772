@@ -1,0 +1,68 @@
+class C3 {
+    constructor(a5, a6) {
+        function f7() {
+            let {"e":v8,"h":v9,...v10} = a5;
+            v10.__proto__;
+            return 738.8750059014151;
+        }
+        this.toString = f7;
+        const o12 = {
+            ..."setUTCMilliseconds",
+            [a6]: this,
+        };
+        ++a6;
+    }
+    [738.8750059014151] = 738.8750059014151;
+    static ["setUTCMilliseconds"] = 738.8750059014151;
+    static [-1];
+}
+function f14(a15, a16) {
+    a16 &= a16;
+    return ("n").split("n", 2147483647);
+}
+C3[Symbol.toPrimitive] = f14;
+const v22 = new C3("setUTCMilliseconds", C3);
+v22.toString = f14;
+const v23 = new C3("setUTCMilliseconds", v22);
+new C3(64, C3);
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a27;
+    } catch(e30) {
+    }
+    try {
+        this.h = a27;
+    } catch(e31) {
+    }
+    try {
+        this.f = a29;
+    } catch(e32) {
+    }
+}
+new F25(v22, v22, 64);
+const v34 = new F25("setUTCMilliseconds", v23, 64);
+new F25(v22, v34, C3);
+function f36() {
+}
+class C37 extends f36 {
+}
+const v38 = new C37();
+class C39 extends C37 {
+    #b = v38;
+    constructor(a41, a42) {
+        super();
+        let v43 = 0;
+        for (let i = 0; i < 5; i++) {
+            v43 < 7;
+            try {
+                v38.#b;
+            } catch(e47) {
+            }
+            v43++;
+        }
+    }
+}
+const v49 = new C39();
+new C39(v49, C37);
+new C39();

@@ -1,0 +1,90 @@
+let v0 = undefined;
+function f1() {
+    const o7 = {
+        ...v0,
+        "g": v0,
+        "a": v0,
+        valueOf() {
+            this[v0];
+            this[Symbol.unscopables];
+            return this;
+        },
+        "e": v0,
+        ...v0,
+        "c": v0,
+        [v0]: v0,
+    };
+    return o7;
+}
+const v8 = f1();
+const v9 = f1();
+const v10 = v0();
+function f11(a12, a13) {
+    const o22 = {
+        "c": v0,
+        6: a12,
+        "h": a12,
+        [a13]: a13,
+        m(a15, a16) {
+            let v17 = 0;
+            do {
+                v0--;
+                v17++;
+            } while (v17 < 9)
+            return v17;
+        },
+    };
+    return f11;
+}
+f1(v10, v8);
+const v24 = f11(v10, v9);
+const v25 = f11(v10, v9);
+function F26(a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a28;
+    } catch(e30) {
+    }
+    try {
+        this.b = v24;
+    } catch(e31) {
+    }
+}
+const v32 = new F26(v25, v10);
+const v33 = new F26(v25, v9);
+const v34 = new F26(v24, v9);
+class C35 {
+    static #toString(a37, a38, a39, a40) {
+        try {
+            super.p(f11, F26, a40);
+        } catch(e42) {
+        }
+        return f1;
+    }
+    constructor(a44, a45, a46, a47) {
+        super.a;
+        a44.g;
+    }
+    static 4 = v25;
+    [v33] = v34;
+    #g;
+}
+const v50 = new C35(v34, v8, v10, v10);
+const v51 = new C35(v32, v50, C35, v10);
+new C35(v51, C35, v9, v33);
+function f53(a54, a55, a56, a57) {
+    const o58 = {
+        [a54]: a54,
+    };
+    return o58;
+}
+function f59(a60, a61, a62) {
+    return a61;
+}
+Worker.toJSON = f53;
+const v65 = [Worker];
+const o66 = {
+    "arguments": v65,
+    "type": "function",
+};
+new Worker(f59, o66);

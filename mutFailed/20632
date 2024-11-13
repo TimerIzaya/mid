@@ -1,0 +1,103 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a5;
+    } catch(e6) {
+    }
+    try {
+        this.e = "d";
+    } catch(e7) {
+    }
+}
+const v8 = new F3("d");
+const v9 = new F3("m");
+v9.g = v9;
+const v10 = new F3("d");
+v10.b = v10;
+class C14 extends F3 {
+    [F3];
+    constructor(a16, a17) {
+        super("m");
+        const v18 = a16[0];
+        const o22 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        const v23 = v8(o22);
+        try { v23.then(v18, v18); } catch (e) {}
+    }
+    static #b;
+}
+const v25 = new C14(v9, "-11");
+const v26 = new C14(v9, "-11");
+let v27 = v26.e;
+const v28 = new C14(v9, "m");
+const v29 = [837449509,1,0,28677,-1493785230,14423,536870887,1395954475,1096550133];
+const v30 = [-7,-5,-10,7];
+function F31(a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a33.toReversed(); } catch (e) {}
+    Uint8Array.prototype = Uint8Array;
+    new F31();
+}
+const v38 = F31?.constructor;
+try { new v38(v29); } catch (e) {}
+const v40 = new F31(v29);
+const v41 = new F31(v29);
+const v42 = v41?.constructor;
+try { new v42(v28); } catch (e) {}
+try {
+    const v46 = new BigUint64Array(4);
+    try { v46.indexOf(v40); } catch (e) {}
+    [v46];
+} catch(e49) {
+}
+try {
+    const o50 = {
+        __proto__: v29,
+        "d": v26,
+        "b": 9223372036854775807,
+        "f": v25,
+        ..."-11",
+    };
+    o50.e = o50;
+} catch(e51) {
+}
+try {
+    const o52 = {
+    };
+} catch(e53) {
+}
+try {
+    const o54 = {
+    };
+} catch(e55) {
+}
+v27 /= F31;
+const v58 = 536870912 / 536870912;
+v58 / C14;
+Math.atan(536870912);
+v58 + 536870912;
+Math.sinh(v58);
+!536870912;
+const v64 = new F31(v29);
+class C65 extends F31 {
+    static valueOf(a67, a68, a69, a70) {
+    }
+    [v41] = v30;
+    [v29] = v29;
+    [v58] = v64;
+}
+try { new C65(); } catch (e) {}
+const v72 = /2a\sc/uds;
+function f73() {
+    try { v72.test(v72); } catch (e) {}
+}
+f73.caller = f73;
+v72[Symbol.toPrimitive] = f73;
+const o79 = {
+    [v72](a78) {
+    },
+};
+const v80 = o79?.__defineGetter__;
+try { new v80(v10, f73); } catch (e) {}

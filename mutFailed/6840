@@ -1,0 +1,68 @@
+function f4(a5, a6) {
+    const o13 = {
+        "h": 1072391558,
+        "c": a6,
+        n(a8, a9, a10, a11) {
+            super.d = a9;
+            a6?.g;
+            a10[7] = a6;
+            return a5;
+        },
+        [a6]: 536870887,
+        "e": 536870887,
+        "b": -107545406,
+        ...a6,
+        ...1072391558,
+        0: a5,
+    };
+    return o13;
+}
+const v14 = f4(1072391558, 536870887);
+const v15 = f4(536870887, 536870887);
+const v16 = f4(536870887, -107545406);
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    a19.p2 = this;
+    try {
+        this.b = a19;
+    } catch(e21) {
+    }
+    try {
+        this.h = a19;
+    } catch(e22) {
+    }
+    try {
+        this.a = v16;
+    } catch(e23) {
+    }
+}
+switch (1072391558) {
+    case v14:
+        f4(true, 1072391558);
+        %PrepareFunctionForOptimization(f4);
+        f4(true, 1072391558);
+        f4(true, 1072391558);
+        %OptimizeMaglevOnNextCall(f4);
+        f4(true, 1072391558);
+        break;
+}
+const v28 = new F17(v14, v14);
+new F17(v16, v15);
+const v30 = new F17(v16, v15);
+[v14,v30,1072391558];
+const v32 = [f4,v28,1072391558,v15,v30];
+[v28,v32,F17,v32,v32];
+function f34() {
+    for (let v35 = 0; v35 < 5; v35++) {
+        v35 & f34;
+    }
+    return f34;
+}
+f34[Symbol.toPrimitive] = f34;
+%PrepareFunctionForOptimization(f34);
+f34();
+for (let v40 = 0; v40 < 32; v40++) {
+    v16["p" + v40] = v40;
+}
+%OptimizeFunctionOnNextCall(f34);
+f34();

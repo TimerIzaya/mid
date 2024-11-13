@@ -1,0 +1,32 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+const v6 = new F1();
+class C7 {
+    static #b = v5;
+    static #h;
+    static #o(a9) {
+        class C11 extends v4.constructor {
+            #b;
+            [v4];
+            [v5];
+        }
+        new C11();
+        return v4;
+    }
+}
+new C7();
+const v14 = new v4();
+new v14();
+const v16 = [v6];
+[v16];
+[v16];
+new Int8Array(268435456);
+new WeakMap();

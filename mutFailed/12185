@@ -1,0 +1,61 @@
+function f3() {
+    return -7;
+}
+const v10 = new Int16Array(4);
+try { BigUint64Array.from(v10); } catch (e) {}
+const v13 = new Set();
+const v14 = [-4.0,-1000.0,1000000.0,-1.7615308001570853e+308];
+const v15 = [4.54466908051284,5.0,-738.5117547830007,8.521515721900202e+307,1.7976931348623157e+308,-Infinity];
+const v16 = [-3.0];
+function f17(a18, a19) {
+    const o20 = {
+        "c": a19,
+        "a": Set,
+        [Set]: v15,
+        "b": -4294967295,
+        4: v16,
+        "e": Set,
+        "f": 5.673264143798169e+307,
+        13: Set,
+        "g": a19,
+        ...a19,
+        [v15]: a18,
+        ...v13,
+        "h": a18,
+    };
+    return o20;
+}
+const v21 = f17(-4294967295, -4294967295);
+f17(-1946488208, f17);
+const v23 = f17(-4294967295, Set);
+function F24() {
+    if (!new.target) { throw 'must be called with new'; }
+    this[5] = 0;
+    Object.defineProperty(this, "a", { writable: true, configurable: true, get: f3 });
+    const v27 = delete v14?.length;
+    v10[536870889] = v21;
+    try {
+        v27.toString = v27;
+    } catch(e28) {
+    }
+    const o30 = {
+        "g": v23,
+        "h": "a",
+    };
+    0 < 0;
+}
+new BigUint64Array(2147483647, 2147483647, 2147483647);
+const v36 = new F24();
+function f38(a39, a40, a41, a42) {
+    return ("Vre").constructor.fromCharCode(v14);
+}
+for (let v46 = 0; v46 < 10; v46++) {
+    f38(v46, f38, v46, v46);
+}
+f38(v14, v14, v14, f38);
+const v51 = new Int32Array(268435441, 4, v36);
+function f52(a53, a54, a55, a56) {
+    return v36;
+}
+%OptimizeFunctionOnNextCall(f52);
+f52(2147483647, 2147483647, F24, v51);

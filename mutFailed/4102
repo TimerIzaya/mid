@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 1960415091;
+    } catch(e3) {
+    }
+    try {
+        this.d = 1960415091;
+    } catch(e4) {
+    }
+    try {
+        this.g = 1960415091;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 {
+    static #m(a11) {
+        Object.defineProperty(this, "a", { configurable: true, enumerable: true, value: -2.0 });
+        try { a11(v8, v8, Infinity); } catch (e) {}
+        return -2.0;
+    }
+    a;
+    4 = v6;
+    static d = v7;
+}
+try { new C9(); } catch (e) {}
+C9.prototype = C9;
+new C9();
+const v18 = new C9();
+new C9();
+function f20() {
+    return v8;
+}
+-2147483648n >> -2147483648n;
+const v25 = -50627n / -50627n;
+v25 <= v25;
+let v28;
+try { v28 = new Int8Array(v18, v8, Int8Array); } catch (e) {}
+try { v28.entries(); } catch (e) {}
+try {
+    const v31 = -45057 !== -45057;
+    v31 || v31;
+    new Int8Array(-45057);
+} catch(e34) {
+    e34.message = e34;
+}

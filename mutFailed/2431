@@ -1,0 +1,33 @@
+function f12() {
+    return "MIN_SAFE_INTEGER";
+}
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f12;
+    } catch(e18) {
+    }
+    try {
+        this.f = a16;
+    } catch(e19) {
+    }
+    try {
+        this.a = "MIN_SAFE_INTEGER";
+    } catch(e20) {
+    }
+}
+new F13(-20544, 14, 4294967295);
+new F13(4294967295, 9, 9);
+new F13(-20544, 4294967295, -20544);
+function f24() {
+    const o25 = {
+    };
+    const o28 = {
+        "maxByteLength": 3831,
+    };
+    const v30 = new SharedArrayBuffer(3831, o28);
+    new BigUint64Array(v30);
+    return f24;
+}
+%OptimizeFunctionOnNextCall(f24);
+f24();

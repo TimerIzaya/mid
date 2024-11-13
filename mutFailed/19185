@@ -1,0 +1,59 @@
+const v0 = [10000,1503009380,-4294967295];
+const v1 = [-65536,10,-6,-256,544783906,-13,255,-2147483649,38658];
+[11178];
+let v4 = 1427991058;
+const v5 = v4++;
+class C7 {
+    static [35616] = v5;
+    static 233 = v4;
+    get g() {
+        let v8 = this;
+        ({"length":v8,} = v0);
+        v8[4] = 35616;
+        try {
+            v1.__proto__ = v0;
+        } catch(e9) {
+        }
+        return v8;
+    }
+}
+const v10 = new C7();
+const v11 = v10?.constructor;
+try { new v11(); } catch (e) {}
+const v13 = v10?.constructor;
+try { new v13(); } catch (e) {}
+const v15 = new C7();
+v15?.constructor;
+let v17;
+try { v17 = new v4(); } catch (e) {}
+const v18 = v17?.constructor;
+let v19;
+try { v19 = new v18(); } catch (e) {}
+const v20 = v19?.__lookupSetter__;
+try { new v20(v15); } catch (e) {}
+new C7();
+class C23 extends C7 {
+    #o(a25, a26) {
+        try {
+            v0.length = 5;
+        } catch(e28) {
+        }
+        return new.target;
+    }
+    #g = v1;
+    g = 35616;
+}
+const v30 = new C23();
+const v31 = v30?.constructor;
+let v32;
+try { v32 = new v31(); } catch (e) {}
+let v33;
+try { v33 = new v32(); } catch (e) {}
+v33.g;
+new C23();
+const v36 = new C23();
+v36.d = v36;
+let v38;
+try { v38 = Reflect.defineProperty(Reflect, C7, v0); } catch (e) {}
+v38 || v38;
+try { v33.set(); } catch (e) {}

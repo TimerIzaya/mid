@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 1853020094;
+    } catch(e3) {
+    }
+    try {
+        this.f = 1853020094;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+new v5();
+function f8() {
+    return v5;
+}
+[-8.423288404653653e+307,460.19811044552307,-1.7971213292687213e+308,-1e-15,0.8010499065604265,5.0,1.7976931348623157e+308,-4.0,0.8718051962313597];
+[-0.0,-1000000.0,870.4551106487277,-5.0,-894463.0098335542,8.571026806862612];
+[-2.0,-1000.0,-1.7976931348623157e+308,Infinity,-2.0,-685.1846846322762,1.7655623420345498e+308];
+new Uint8ClampedArray(8);
+new Int32Array(6);
+new BigInt64Array(10);
+function f23() {
+    return f23;
+}
+class C24 extends f23 {
+    constructor(a26, a27, a28, a29) {
+        super();
+        function f30() {
+            const t30 = [];
+            t30[6] = a28;
+            return a28;
+        }
+        for (let v32 = 0; v32 < 5; v32++) {
+            f30();
+            %OptimizeFunctionOnNextCall(f30);
+        }
+    }
+}
+new C24(Uint8ClampedArray, Uint8ClampedArray, 9007199254740991);
+new C24();

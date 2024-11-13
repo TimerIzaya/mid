@@ -1,0 +1,72 @@
+function f0() {
+}
+function f2() {
+    return f0;
+}
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(true); } catch (e) {}
+    a5.g = a5;
+    try {
+        this.f = true;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(f0);
+const v9 = new F3(f0);
+v9.f = v9;
+const v10 = new F3(v9);
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a13;
+    } catch(e15) {
+    }
+    try {
+        this.e = a14;
+    } catch(e16) {
+        this[v8];
+        try {
+            v8.fuck(a13, 64, e16);
+        } catch(e20) {
+        }
+    }
+}
+try {
+    f0();
+} catch(e22) {
+}
+try {
+    v10.d = F3;
+} catch(e23) {
+}
+const v24 = new F11(v9, v10);
+const v25 = v24?.constructor;
+try { new v25(v24, f0); } catch (e) {}
+new F11(v9, f0);
+const v28 = new F11(v10, F11);
+const v29 = v28?.e;
+try { new v29(v28, F11); } catch (e) {}
+class C31 {
+}
+C31.length = C31;
+new Set([2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614]);
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        for (let v41 = 0; v41 < 32; v41++) {
+            const v43 = "p" + v41;
+            v43[1] = v43;
+            a39[v43] = v41;
+        }
+    } catch(e44) {
+    }
+    try {
+        Math.clz32();
+        new F37();
+    } catch(e47) {
+    }
+}
+F37.length;
+new F37();
+new F3();

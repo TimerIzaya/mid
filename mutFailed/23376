@@ -1,0 +1,55 @@
+function f0() {
+}
+function f4() {
+    return "string";
+}
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a8;
+    } catch(e9) {
+    }
+    Reflect.construct(a8, [F5,Reflect], F5);
+    "string" || Reflect;
+    try {
+        this.valueOf = f0;
+    } catch(e14) {
+    }
+}
+const v15 = new F5("string", "23301");
+let v16 = new F5("string", "23301");
+const v17 = new F5("string", "23301");
+const v19 = [[f4,v15,v15,F5]];
+[v16,v19,f4,v17,v19];
+try {
+    v16.a = v16;
+} catch(e21) {
+}
+v16 &&= v17;
+for (let v23 = 0; v23 < 5; v23++) {
+    function f24() {
+        const v26 = ("Vre").toLocaleUpperCase;
+        function f27() {
+            /[a-zA-Z0-9]/gvisy;
+            return f27;
+        }
+        for (let v29 = 0; v29 < 5; v29++) {
+            if (v23 === "Vre") {
+                new Int16Array(1695);
+                new Float32Array(101);
+                new Uint8ClampedArray(9);
+            } else {
+                continue;
+            }
+            f27();
+            %OptimizeFunctionOnNextCall(f27);
+        }
+        try { v26(v26, -4294967297n, v23); } catch (e) {}
+        const o42 = {
+            "a": f24,
+        };
+        return o42;
+    }
+    f24();
+    %OptimizeFunctionOnNextCall(f24);
+}

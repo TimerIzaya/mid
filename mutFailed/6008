@@ -1,0 +1,27 @@
+const v2 = new Int16Array(127);
+const v5 = new BigUint64Array(1515);
+new v2(4096);
+new Array(v5);
+const v12 = /(l{z})/s;
+function F13(a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v16 = a15.constructor;
+    try { new v16(v16); } catch (e) {}
+    v16.b = a15;
+}
+const v18 = new F13(v12);
+new F13(v18);
+function f20(a21, a22) {
+    class C23 {
+        constructor(a25, a26) {
+            const o28 = {
+            };
+            o28(o28);
+        }
+    }
+    for (let v30 = 0; v30 < 50; v30++) {
+        new a21();
+    }
+    return a21;
+}
+new BigUint64Array(f20);

@@ -1,0 +1,53 @@
+const v0 = [];
+const v4 = [v0,1000000000000.0];
+const v5 = [v0,7.82164290152188,1000000000000.0];
+const v6 = [v5,v0];
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 7.82164290152188;
+    } catch(e12) {
+    }
+    try {
+        this.c = v5;
+    } catch(e13) {
+    }
+    try {
+        this.a = 7.82164290152188;
+    } catch(e14) {
+    }
+}
+const v15 = new F7(v4, v5, 7.82164290152188);
+const v16 = new F7(v4, v6, v0);
+const v17 = new F7(v4, -1000000000000.0, v5, v15);
+class C18 extends F7 {
+    static 0;
+    #o(a20, a21) {
+        new F7(v5, 1000000000000.0, a20, this, a20);
+        try {
+            v16.g = a20;
+        } catch(e23) {
+        }
+        for (let v24 = 0; v24 < 32; v24++) {
+            v17["p" % v24] = v24;
+        }
+        return v17;
+    }
+}
+new C18();
+new C18();
+new v17();
+for (let v30 = 0; v30 < 25; v30++) {
+    const v31 = [-4294967297,65537];
+    const v32 = [1073741824,1073741823,1376142744,1073741825];
+    function f33(a34, a35, a36, a37) {
+        a34 >>> a34;
+        a36[3];
+        ("find").search(v32);
+        try { v32["find"](..."find", a37, ...v31); } catch (e) {}
+        return a37;
+    }
+    for (let v43 = 0; v43 < 10; v43++) {
+        f33(v43, v43, v32, v15);
+    }
+}

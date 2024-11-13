@@ -1,0 +1,74 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 9n;
+    try {
+        this.f = a6;
+    } catch(e7) {
+    }
+    try {
+        this.a = this;
+    } catch(e8) {
+    }
+    try {
+        this.b = a5;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(5n, 9n);
+const v11 = new F3(5n, 4n);
+new F3(9n, 4n);
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a15;
+    try {
+        this.g = v10;
+    } catch(e18) {
+    }
+    try {
+        a16.h = a15;
+    } catch(e19) {
+    }
+    try {
+        this.c = a17;
+    } catch(e20) {
+    }
+}
+new F13(5n, 5n, 9n);
+new F13(4n, 9n, 9n);
+const v23 = new F13(5n, 5n, 9n);
+[-4294967295,-59274,55671,2147483648,880095663,-65535,-1431009487,-976109518];
+const v25 = [2,4294967295,-128,-836125867,6,-713971255,-4294967296];
+const v26 = [-1428755892,-5514,-6390,127];
+function f27(a28, a29) {
+    const o38 = {
+        "c": 4n,
+        "h": 4n,
+        "b": v23,
+        "f": a28,
+        ...v23,
+        1: 4n,
+        ...v11,
+        o(a31, a32, a33) {
+            try {
+                new F13(-2147483647n, 5n, 2n);
+            } catch(e37) {
+            }
+            return a29;
+        },
+    };
+    return o38;
+}
+f27(v26, 5n);
+const v40 = f27(v25, 5n);
+f27(v25, 5n);
+const v43 = new v40();
+v43.valueOf = f27;
+function f44(a45) {
+    return a45;
+}
+const v48 = [v43];
+const o49 = {
+    "arguments": v48,
+    "type": "function",
+};
+new Worker(f44, o49);

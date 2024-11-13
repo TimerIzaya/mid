@@ -1,0 +1,96 @@
+const v1 = new WeakMap();
+function f2(a3) {
+    const o19 = {
+        "g": a3,
+        n(a5, a6) {
+            const v7 = a6?.h;
+            try { new v7(); } catch (e) {}
+            function F9(a11, a12, a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                try { this.toString(); } catch (e) {}
+                a12.prototype = a12;
+                try {
+                    this.e = a12;
+                } catch(e15) {
+                }
+            }
+            new F9(a3, a3, this);
+            const v17 = new F9(WeakMap, v1, a6);
+            new F9(this, F9, v17);
+            return v1;
+        },
+        "h": a3,
+    };
+    return o19;
+}
+try { new f2(f2); } catch (e) {}
+const v21 = f2(WeakMap);
+try { v21.n(v1, v21); } catch (e) {}
+const v23 = f2(WeakMap);
+try { v23.h(); } catch (e) {}
+const v25 = f2(v21);
+v25.b = v25;
+function f26() {
+    return v23;
+}
+const v27 = [0.6660974933281397,0.5712879365698761,-8.591044138849266];
+try { v27.toSorted(v21); } catch (e) {}
+const v29 = [-3.052167568927424,2.220446049250313e-16,569869.6231284484,NaN];
+let v30;
+try { v30 = v29.pop(); } catch (e) {}
+v30++;
+[-3.736904757283378e+307,0.0711382457270604,2.2250738585072014e-308];
+-163279730n ^ -163279730n;
+-16037n << -16037n;
+function F38(a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { new a40(v29); } catch (e) {}
+    class C42 {
+        constructor() {
+            const v44 = this.constructor;
+            v44.name = v44;
+            try { new v44(); } catch (e) {}
+            super.f >>= this;
+        }
+    }
+    new C42();
+}
+new F38(F38);
+new F38();
+try { ("h").at(-163279730n); } catch (e) {}
+const v53 = [];
+try { v53.filter(v23); } catch (e) {}
+class C55 {
+    [v53];
+    set a(a57) {
+        a57 === v53 ? a57 : v53;
+        [v53,a57,a57,v53];
+        [v53];
+        [a57,v53,v53,v53,v53];
+    }
+    static [v53];
+    #f;
+    h = v53;
+}
+const v63 = new C55();
+const v64 = new C55();
+v64.h;
+const v66 = new C55();
+function F70(a72, a73, a74, a75) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v76 = this?.__defineSetter__;
+    try { new v76(-12, this); } catch (e) {}
+    a72 - a72;
+    -a73;
+    v27.a;
+}
+const v81 = new F70(-12, -56455, v66, v53);
+v81.length = v81;
+const v82 = new F70(v63, -14, v25, v66);
+const v83 = v82?.__defineGetter__;
+try { new v83(v82, v64); } catch (e) {}
+const v85 = new F70(v63, -14, v66, C55);
+v85 - -12;
+Math.round();
+v81 << -1.0;
+try { v82(); } catch (e) {}

@@ -1,0 +1,28 @@
+class C3 {
+    static #e = -1;
+    static o(a5) {
+        Object.defineProperty(this, 10, { configurable: true, value: a5 });
+        %VerifyType(5);
+        const v6 = a5 ^ 5;
+        try {
+            const t7 = "13";
+            t7.#e = v6;
+        } catch(e7) {
+        }
+        return C3;
+    }
+    #d = -1;
+    #c;
+    #g;
+}
+const t17 = "13";
+new t17();
+const v9 = new C3();
+new v9();
+[-223858705,7,12,-4294967296,-536870912];
+[4096,536870888,0,10];
+[-1024];
+-Infinity;
+const v20 = [];
+v20.length = 2147483647;
+let {...v22} = v20;

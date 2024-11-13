@@ -1,0 +1,87 @@
+const v1 = new Map();
+const v2 = [-74397553,-9,1024,1304665909,7,-7663,65537,-9007199254740990];
+const v3 = [536870888,-1024,7,-618957885,-51106,268435440,1112086168,298894640];
+try { v3.every(Map); } catch (e) {}
+const v5 = [38771,9223372036854775807,-457029991,54521,-65537,6,9,-41346];
+let v6 = 0;
+do {
+    function F7(a9, a10) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = a9;
+        } catch(e11) {
+        }
+        try {
+            this.b = v1;
+        } catch(e12) {
+        }
+    }
+    new F7(v2, v5);
+    new F7(v5, v5);
+    new F7(v3, v5);
+    v6++;
+} while (v6 < 1)
+class C19 {
+    get f() {
+        this[Map] ||= v1[v5];
+        try {
+            v1.length = 2;
+        } catch(e23) {
+        }
+        return v1;
+    }
+    [v5] = Map;
+}
+C19.name = C19;
+const v24 = new C19();
+new C19();
+new C19();
+[7,65535,-268435456,146457631];
+const v28 = [713141881,-458579086,-714488291,38429,-65537,-34011];
+const v29 = [-4294967297,-1,-9170,-8,-13];
+try { v29.lastIndexOf(v29); } catch (e) {}
+for (let v31 = 0; v31 < 5; v31++) {
+    function f32() {
+        const v33 = [];
+        try {
+            v33.some();
+        } catch(e35) {
+            function F37(a39, a40) {
+                if (!new.target) { throw 'must be called with new'; }
+            }
+            F37.arguments = F37;
+            function f42(a43, a44, a45, a46) {
+                Uint8Array / a43;
+                a44 < F37;
+                const o52 = {
+                    n(a50, a51) {
+                        return v31;
+                    },
+                };
+                try { o52.n(o52, v24); } catch (e) {}
+                return v31;
+            }
+            for (let v54 = 0; v54 < 500; v54++) {
+                const v55 = f42();
+                v55 + v55;
+            }
+            const v57 = eval(e35);
+            v57.message = v57;
+            function f58(a59) {
+                return f42;
+            }
+            class C60 extends f58 {
+                [e35];
+                static f = Uint8Array;
+            }
+        }
+        return f32;
+    }
+    {
+        try { v24.m(v28, f32, v2, f32, v3); } catch (e) {}
+        %VerifyType(C19[f32]);
+    }
+    const v63 = f32();
+    try { new v63(); } catch (e) {}
+    %OptimizeFunctionOnNextCall(f32);
+}

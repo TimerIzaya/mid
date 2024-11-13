@@ -1,0 +1,67 @@
+function f3() {
+    function f4(a5, a6) {
+        return f3;
+    }
+    const v8 = Promise.resolve(f4);
+    const v9 = new Promise(f4);
+    const v10 = v9.constructor;
+    try { new v10(-30285); } catch (e) {}
+    return v8;
+}
+f3();
+function F14(a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 14120n;
+    } catch(e17) {
+    }
+}
+const v18 = new F14(4294967295n);
+const v19 = new F14(4294967295n);
+new F14(-4294967295n);
+function f23() {
+    return 160;
+}
+class C25 {
+    static #p(a27, a28) {
+    }
+    toString(a30, a31, a32, a33) {
+        eval("B");
+    }
+}
+const v40 = new C25();
+v40.constructor = f3;
+class C43 {
+    constructor(a45, a46, a47, a48) {
+        for (let [v49] of a45) {
+            try { this.o(v49, 8, v18); } catch (e) {}
+            try {
+                this.__proto__ = this;
+            } catch(e51) {
+            }
+        }
+    }
+    5;
+    static #b;
+    #a = 8;
+    static 128 = 8;
+}
+new C43(v19, F14, v18, 14120n);
+const v53 = new C43(C43, 8, v19, 4294967295n);
+new C43(11360, v53, v18, 4294967295n);
+function f55(a56) {
+}
+function F57(a59, a60, a61, a62) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v63 = this.constructor;
+    try { new v63(); } catch (e) {}
+    this.d = f55;
+    class C66 extends Int32Array {
+    }
+    const v67 = new C66();
+    const v68 = new C66();
+    v67["includes"](v68);
+}
+++f55;
+new F57();
+new F57();

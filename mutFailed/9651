@@ -1,0 +1,79 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v2 = new F0();
+    function f3(a4, a5, a6) {
+        const o7 = {
+            ...v2,
+        };
+        return v2;
+    }
+    for (let v8 = 0; v8 < 10; v8++) {
+        f3(v2, v8, F0);
+    }
+    try {
+        this.b = 13;
+    } catch(e11) {
+    }
+    try {
+        const v14 = [10,-2147483649,9,-27142121,9,-284891600];
+        const v15 = [v14];
+        const v17 = [-4294967296];
+        class C18 {
+            static [1073741823n];
+            static valueOf(a20, a21, a22, a23) {
+                let v19 = this;
+                try { a21(a22, a20, v17, v19, a21); } catch (e) {}
+                ++v19;
+                return a21;
+            }
+            [v14];
+            b;
+            constructor(a27, a28) {
+                v15.unshift("-6", a28, [this,this]);
+            }
+            static #p(a32, a33, a34, a35) {
+                ["-6",Math];
+            }
+            #b;
+            p(a38, a39, a40, a41) {
+            }
+        }
+        this.g = 13;
+    } catch(e42) {
+    }
+}
+const v43 = new F0();
+const v44 = new F0();
+const v45 = new F0();
+function F46(a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a49;
+    } catch(e50) {
+    }
+}
+new F46(v43, v43);
+new F46(v45, v44);
+new F46(v44, v45);
+class C54 {
+    constructor(a56, a57, a58) {
+        [-1e-15,-572933.0069692393,-1000000.0,0.5186723235827426,0.11406924117472084,-6.04522694498214e+307,288560.4675674264];
+        [1e-15,283.6502440744698,-5.980237595893518,3.0,3.2585983582341775];
+        [1000000000000.0,2.4344203531270674e+307,473603.5421713593,-1.7867024860194086e+308,-1.0,-4.085071522319108,-1000000.0,-299617.01408706396,-492.9398545451733,-1.0936155570689556e+308];
+        let v63 = -4294967296;
+        const v64 = --v63;
+        a57 / v63;
+        v64 - a57;
+    }
+    e;
+}
+new C54(v45, v43, v43);
+new C54(F46, C54, v43);
+const v71 = new Float64Array(216);
+new Uint8Array(v71);
+new C54(F0, v44, v43);
+function f76() {
+    return undefined;
+}
+const v78 = ([,]).group(f76);
+v78.b = v78;

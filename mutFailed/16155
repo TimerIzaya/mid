@@ -1,0 +1,46 @@
+let v0 = "c";
+let v2 = "object";
+class C3 {
+    #valueOf(a5) {
+        ++v2;
+        let v11 = Math.min(0.30118519929909837);
+        ++v11;
+        return 7;
+    }
+    static e;
+    static #e = "o";
+    static h;
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+class C16 extends C3 {
+    d = v2;
+    static m(a18, a19, a20) {
+        a = a19;
+        const v23 = typeof a18 === "function";
+        v0 <<= C3;
+        return v23;
+    }
+    #g;
+    static #b;
+    c = "o";
+    static ["o"] = "o";
+}
+const v24 = new C3();
+new C16();
+const v26 = new v13();
+const v27 = [v0,v15];
+[v13,v24,v0,v27,[v27,v15,v2,C16,v14]];
+const v30 = [0.0,1000000000.0,168.7956281727238,-575464.6142395872,-1000000000.0,938.6271876998214];
+const v33 = new Float64Array(64);
+v33[5] = v30;
+function f34(a35, a36, a37) {
+    return a37;
+}
+const v40 = [v33,v26];
+const o41 = {
+    "arguments": v40,
+    "type": "function",
+};
+new Worker(f34, o41);

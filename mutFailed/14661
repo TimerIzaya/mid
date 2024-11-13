@@ -1,0 +1,36 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e6) {
+    }
+    try {
+        this.h = a5;
+    } catch(e7) {
+    }
+}
+new F3(1000.0);
+const v9 = new F3(-131456.16013527242);
+const v10 = new F3(1000.0);
+const v11 = [v10];
+const v12 = [v11,v10];
+const v13 = [v12,v9];
+[[[v13,v12],F3,v13],v11,F3,v11];
+class C17 {
+}
+const v18 = new C17();
+new v18();
+new v9();
+class C21 {
+}
+new C21();
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v29 = new SharedArrayBuffer();
+new DataView(v29);
+for (let v32 = 0; v32 < 5; v32++) {
+    const o34 = {
+    };
+    gc(o34);
+}

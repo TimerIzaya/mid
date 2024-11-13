@@ -1,0 +1,120 @@
+let v0 = "string";
+class C3 {
+    ["symbol"] = "string";
+    constructor(a5, a6) {
+        a6[0] = this;
+        class C8 {
+            #valueOf(a10, a11) {
+                return a11;
+            }
+            #b = 6;
+        }
+        const v12 = new C8();
+        return v12;
+        v0 = a5;
+        for (let v13 = 0; v13 < 58; v13++) {
+            function f16(a17) {
+                const o18 = {
+                    "g": "NFKD",
+                    "f": a17,
+                    "h": "E",
+                };
+            }
+            ("boolean").normalize("NFKD");
+        }
+    }
+    static #a = "string";
+    ["string"];
+    static d = v0;
+    f;
+}
+const v21 = new C3(v0, "string");
+const v22 = new C3("string", "string");
+const v23 = new C3("string", "symbol");
+function f24(a25, a26) {
+    const o39 = {
+        "f": a25,
+        "g": C3,
+        m(a28) {
+            return a28;
+        },
+        "type": "string",
+        get e() {
+            return v22;
+        },
+        "a": v0,
+        "b": a26,
+        __proto__: a26,
+        "h": v21,
+        get d() {
+            class C31 {
+            }
+            let v32 = 2;
+            const v33 = v32++;
+            const o37 = {
+                __proto__: v32,
+                213: v22,
+                p(a35, a36) {
+                    return v33;
+                },
+            };
+            o37[213];
+            a26[this] = a25;
+            return "string";
+        },
+        [a25]: v23,
+        "c": v23,
+        "d": "symbol",
+        2307819295: C3,
+    };
+    return o39;
+}
+function f40() {
+    return "symbol";
+}
+for (let v41 = 0; v41 < 5; v41++) {
+    f40();
+    %OptimizeFunctionOnNextCall(f40);
+}
+const v43 = f24(v0, v0);
+const v44 = f24(v43, "string");
+const v45 = f24("string", "string");
+function f46(a47, a48, a49) {
+    const v50 = [-9223372036854775807,-31958,-437619447,54990,9007199254740992,-9223372036854775807,8,128];
+    function F51() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    function F53(a55, a56) {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v57 = 0; v57 < 25; v57++) {
+            "p" + v57;
+        }
+        const t91 = v50.constructor;
+        new t91(F51, a55);
+    }
+    const o78 = {
+        "h": C3,
+        [v45]: a47,
+        valueOf(a63, a64, a65, a66) {
+            a48 in a48;
+            a64 - this;
+            for (let v69 = 0; v69 < 10; v69++) {
+                try {
+                    a64.__proto__ = v22;
+                } catch(e70) {
+                    const v73 = new Int32Array(127);
+                    v73.toSorted();
+                    const v76 = (2136873598).constructor;
+                    v76(v76, v76);
+                }
+            }
+            return a63;
+        },
+        "e": a48,
+    };
+    return o78;
+}
+f46(v43, v44, "symbol");
+f46(v43, v21, "symbol");
+f46(v44, v23, v0);
+Float32Array.bind();

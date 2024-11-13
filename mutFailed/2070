@@ -1,0 +1,54 @@
+const v4 = new Int32Array(4096);
+new Int8Array(v4);
+const v8 = [9n,-1n,9n,9n,9n];
+const v9 = [9n,9n,-1n,9n];
+const v10 = [v9,-1n,9n,v9,9n];
+const v13 = BigInt.bind();
+class C15 {
+}
+class C16 extends C15 {
+    m(a18, a19, a20) {
+        for (let [v21,v22] of a19) {
+        }
+        function f26() {
+            return -1n;
+        }
+        const o27 = {
+            "setPrototypeOf": f26,
+        };
+        new Proxy("puWUt", o27);
+    }
+}
+function f35(a36, a37) {
+    let [,v40,v41,v42] = v4;
+    v42 << v41;
+    try {
+        v41.__proto__ = Array;
+    } catch(e44) {
+    }
+    Array(a37).unshift(3, a36);
+    return v13;
+}
+new TypeError(f35);
+const v49 = [-13n,-13n,9n,v10];
+let v50 = [3n,v10,9n,-13n];
+[v49];
+const v54 = new Float64Array(4096);
+const v57 = new Int32Array(256);
+const v60 = new Uint32Array(871, C15, C15);
+v50 = v8;
+try { v54.every(BigInt, v8); } catch (e) {}
+const t40 = "puWUt";
+t40[-13n] = v60;
+Int32Array[2] = v8;
+v57[3n] = 58866n;
+const v62 = [];
+function f63() {
+    const v65 = -v62 && v62;
+    -v49;
+    return v65;
+}
+%PrepareFunctionForOptimization(f63);
+TypeError();
+%OptimizeFunctionOnNextCall(f63);
+f63();

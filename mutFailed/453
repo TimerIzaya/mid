@@ -1,0 +1,59 @@
+let v4 = "__proto__";
+class C6 {
+    #m(a8, a9, a10, a11) {
+        v4 |= a9;
+        for (let v12 = 0; v12 < 32; v12++) {
+            const t5 = "undefined";
+            t5["p" + v12] = v12;
+        }
+        return "vd";
+    }
+    static 2;
+    #e;
+    static c;
+}
+new C6();
+const v16 = new C6();
+const v17 = new C6();
+function f18(a19, a20, a21) {
+    const o22 = {
+        "f": a21,
+        5: a21,
+        [v16]: v16,
+        [a21]: "vd",
+        "a": v17,
+        "c": v17,
+        "e": v17,
+        [a20]: 2147483648,
+        __proto__: v16,
+        "d": v16,
+        "g": a19,
+        108: a20,
+    };
+    return o22;
+}
+f18(255, 255, 2147483648);
+f18(v4, 255, 2147483647);
+f18(2147483647, 255, 255);
+for (let i28 = 0, i29 = 10;
+    (() => {
+        const v30 = i28 < i29;
+        new Uint16Array([34352,4,-9223372036854775808,1092764849,-2147483647,-1162070362,-4294967297,8,-591755449]);
+        const o35 = {
+            "maxByteLength": i28,
+        };
+        const v37 = new SharedArrayBuffer(1796, o35);
+        new Uint32Array(v37);
+        return v30;
+    })();
+    i28++) {
+}
+const o51 = {
+    o(a48, a49) {
+        class C50 {
+        }
+        return "p";
+    },
+};
+const v58 = new Float32Array();
+v58.fill();

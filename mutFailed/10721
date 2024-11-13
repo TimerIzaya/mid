@@ -1,0 +1,64 @@
+function f2() {
+    const o3 = {
+    };
+    o3.__defineGetter__;
+    const t3 = [-4294967296];
+    t3.length = 257;
+    return f2;
+}
+for (let v8 = 0; v8 < 5; v8++) {
+    f2();
+    %OptimizeFunctionOnNextCall(f2);
+}
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v17 = new Uint8ClampedArray(1000);
+    v17.includes(undefined);
+    try {
+        this.c = a14;
+    } catch(e20) {
+    }
+}
+new F11(Infinity, Infinity);
+const v22 = new F11(2.0, Infinity);
+const v23 = new F11(2.0, 2.0);
+const v26 = [-4294967296,536870887,1061939633,16,62421,-5,255,65536,-1440695669];
+const v27 = [4294967297,4,9007199254740992,-1073741824];
+const o28 = {
+    "g": v27,
+    ...v27,
+    __proto__: v26,
+};
+for (const v29 in o28) {
+}
+const v31 = [Infinity,v22,v23];
+[15,-2.220446049250313e-16,v23,v31];
+[15,Infinity,15,2.0,F11,v23];
+function f34() {
+    const v36 = new Set();
+    v36.add(v36);
+    return v36;
+}
+%PrepareFunctionForOptimization(f34);
+Object.defineProperty(Int16Array, 2, { configurable: true, enumerable: true, value: -53893n ^ -53893n });
+const v41 = [];
+class C42 {
+}
+const v43 = new C42();
+function F44(a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a47;
+}
+const v48 = new F44(v43, v41);
+const v50 = [v48];
+const o51 = {
+    "arguments": v50,
+    "type": "function",
+};
+f34();
+%OptimizeFunctionOnNextCall(f34);
+f34();
+const v54 = [601759695];
+const v55 = [1073741824,1073741823,1376142744,1073741825];
+try { v55["find"](..."find", v31, ...v54, ...v55); } catch (e) {}
+(-2.220446049250313e-16).normalize();

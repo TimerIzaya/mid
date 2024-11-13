@@ -1,0 +1,41 @@
+function f0() {
+    const o7 = {
+        ..."a",
+        o(a5) {
+            try {
+                a5.toString = a5;
+            } catch(e6) {
+            }
+            return a5;
+        },
+        [2.0]: f0,
+        __proto__: "a",
+    };
+    return 2.0;
+}
+const v8 = f0();
+const v9 = v8();
+const v10 = f0();
+class C14 {
+    static [v9];
+    constructor(a16, a17, a18) {
+        const v19 = super[this];
+        let v20 = super.g;
+        v20 >>= v10;
+        Reflect.construct(v19, ["source",a16], v19);
+    }
+    static #g;
+}
+new C14(v8, v8, "g");
+const v25 = new C14(v8, C14, "source");
+new C14(v25, v8, "L");
+class C27 {
+}
+new C27();
+new C27();
+const v31 = v8[16];
+let v33;
+try { v33 = v31["valueOf"](); } catch (e) {}
+const v34 = [-2147483648,536870887,1073741825];
+const v35 = v25[-2];
+try { new v33(v34, v35, ..."valueOf", 256); } catch (e) {}

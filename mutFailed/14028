@@ -1,0 +1,36 @@
+const v8 = new Uint32Array(6);
+try { v8.lastIndexOf(-1.0); } catch (e) {}
+const t2 = -9223372036854775808n;
+new t2(998);
+("undefined")[8];
+("undefined").localeCompare("undefined", "toString");
+try { Uint16Array.from(Uint16Array); } catch (e) {}
+new Uint16Array(255);
+try { (-2147483648n).join(Uint16Array); } catch (e) {}
+for (let i24 = 0, i25 = 10;
+    (() => {
+        const v26 = i24 < i25;
+        class C27 {
+        }
+        try { new C27(); } catch (e) {}
+        class C29 {
+        }
+        const v30 = new C29();
+        function f32(a33, a34, a35, a36) {
+            const v37 = a34 >>> a34;
+            v37 - v37;
+            let v39 = v37 >>> v37;
+            v39--;
+            for (let v41 = 0; v41 < 5; v41++) {
+                try { new C27(v30, v41, Float32Array, ...v41); } catch (e) {}
+            }
+            return v39;
+        }
+        f32.prototype = Float32Array;
+        const v43 = f32();
+        v43 | v43;
+        %OptimizeFunctionOnNextCall(f32);
+        return v26;
+    })();
+    i25--) {
+}

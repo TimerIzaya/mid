@@ -1,0 +1,47 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 0.361125737068993;
+    } catch(e7) {
+    }
+    function f8() {
+        return a6;
+    }
+    Object.defineProperty(this, "a", { enumerable: true, value: a5 });
+    try {
+        this.c = a6;
+    } catch(e12) {
+    }
+    try {
+        const o13 = {
+            7: F3,
+            "e": this,
+        };
+        this.b = 0.24601087538958366;
+    } catch(e17) {
+    }
+    try {
+        this.__proto__ = a5;
+    } catch(e18) {
+    }
+    Reflect.construct(a5, [this,0.361125737068993,a6,0.24601087538958366], a6);
+}
+new F3(0.22798719887986796, 0.361125737068993);
+const v23 = new F3(0.22798719887986796, 0.24601087538958366);
+new F3(0.361125737068993, 0.361125737068993);
+async function f29(a30, a31, a32, a33) {
+    const v35 = [a30];
+    const v36 = [a30,WeakSet];
+    [v35,v36,v36,v36];
+    await v35;
+    return a31;
+}
+f29(-14918958, 0.24601087538958366, -14918958, v23);
+new Int16Array(6);
+new Uint8ClampedArray(16);
+new Int32Array(257);
+const v51 = Symbol.toPrimitive.description;
+const o52 = {
+};
+o52.raw = 127;
+v51.constructor.raw(o52);

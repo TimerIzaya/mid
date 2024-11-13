@@ -1,0 +1,33 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0];
+const v2 = [v1,v0,v0,v0,v1];
+const v3 = [v0,v2,v1,v2,v1];
+function f4() {
+    return v1;
+}
+const v7 = new Int32Array(6);
+const v10 = new Uint32Array(4096);
+new Int32Array(8);
+function f14() {
+    const v16 = v10[f14()];
+    4096 < v16 ? 4096 : v16;
+    new Uint16Array(255);
+    new Uint8ClampedArray(128);
+    new Uint8Array(1);
+    const v28 = /Cs[\cz]*/vi;
+    Math.fround(v16);
+    11 >> v7;
+    ~v3;
+    Math.acosh(v3);
+    369.18962882678375 | v16;
+    Math.random();
+    v28.toString(v28, f14, v28, v28, f14);
+    return v28;
+}
+%PrepareFunctionForOptimization(f14);
+for (let i43 = 0; i43 < 1; i43++) {
+    v0[Symbol.toPrimitive] = 6;
+}
+f14();
+%OptimizeFunctionOnNextCall(f14);
+f14();

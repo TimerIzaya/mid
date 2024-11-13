@@ -1,0 +1,66 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.b = f0;
+    } catch(e4) {
+    }
+}
+new F1();
+new F1();
+const v7 = new F1();
+[1.7976931348623157e+308,2.0,247.79275790546944,1000000000000.0,Infinity,-4.143337325990794,4.14947787959532,5.0,-1.4402557995549614,1.5106619027526414e+308];
+[1.6581954719313835e+308];
+[0.34205413847033606,1.0509911432268346];
+for (let i13 = 0; i13 < 2; i13++) {
+    -1n >> v7;
+}
+const v24 = [-1947047520];
+class C25 {
+}
+for (let [i33, i34] = (() => {
+        const o31 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o31);
+        return [0, 10];
+    })();
+    i33 < i34;
+    (() => {
+        const v38 = [601759695];
+        const v39 = [1073741824,1073741823,1376142744,1073741825];
+        function f41(a42, a43, a44, a45) {
+            function f46(a47, a48) {
+                return i33;
+            }
+            f46(v39, C25);
+            try { v39["find"](...v38, a45, ...v38, ...v39, ...522675525n); } catch (e) {}
+            const v53 = new Date();
+            const v55 = new Set();
+            v55.add(v53);
+            let [v57,,...v58] = v55;
+            v57.setUTCMilliseconds();
+            return a44;
+        }
+        for (let v60 = 0; v60 < 10; v60++) {
+            f41(v60, f41, i33, v60);
+        }
+        i33++;
+        v24[2147483647];
+        try { v24.copyWithin(65536, 65536); } catch (e) {}
+    })()) {
+}
+new Uint8ClampedArray(1);
+new Float32Array(2);
+new Float64Array(4067);
+BigInt.toString = BigInt;
+try {
+    BigInt(BigInt);
+} catch(e79) {
+}

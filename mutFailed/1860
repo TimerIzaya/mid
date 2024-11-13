@@ -1,0 +1,41 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -11365;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Set();
+new Float32Array(10);
+new Float32Array(1000);
+new Uint8Array(9);
+function f24(a25, a26) {
+    const o47 = {
+        valueOf(a28, a29) {
+            function f30() {
+                function f31(a32) {
+                    new Float64Array(64);
+                    new BigInt64Array(3481);
+                }
+                10 ^ f31(f31);
+                return 1987035518;
+            }
+            const v44 = [];
+            const o45 = {
+                "arguments": v44,
+                "type": "function",
+            };
+            new Worker(f30, o45);
+            return 1987035518;
+        },
+    };
+    return o47;
+}
+const v48 = f24(1987035518, 1987035518);
+Object.defineProperty(v48, Symbol.toPrimitive, { writable: true, value: f24 });
+f24();
+Math.log(v48);
+~-1.7976931348623157e+308;

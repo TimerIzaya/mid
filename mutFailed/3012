@@ -1,0 +1,45 @@
+const v0 = [536870887,1073741824];
+const v1 = [-2001224940,1669818670,128,5];
+const v2 = [129,2,-5,1024,-4096,536870912,831788212,56680,1024];
+const v3 = [v2,v1,v2,v2,v1];
+const v4 = [v1,v3];
+const v5 = [v4,v2,v1,v3,v4];
+function f6() {
+    v0.length;
+    const v8 = f6();
+    v1[8] = v8;
+    Object.defineProperty(v5, 171, { configurable: true, enumerable: true, value: v3 });
+    [v2,v1,v5];
+    [v5,[v8,v8,v5]];
+    for (let v12 = 0; v12 < 93; v12++) {
+        !v1;
+    }
+    v1.length ^= v0;
+    new f6(...v3, ...v3, ...v4, f6, ...v0, v0);
+    return v0;
+}
+function f15() {
+    return v2;
+}
+let v17 = 2147483647;
+v2.length |= -65536;
+({"length":v17,} = v2);
+f6();
+%PrepareFunctionForOptimization(f6);
+f6();
+f6();
+%OptimizeFunctionOnNextCall(f6);
+f6();
+function F26() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v29 = new F26(v5);
+let v32 = "-46707";
+class C33 {
+    #b = v29;
+    constructor(a35, a36) {
+        this.#b <<= "object";
+    }
+}
+const v38 = new C33(v4, v29);
+v32 >>>= v38;

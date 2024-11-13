@@ -1,0 +1,47 @@
+function f0() {
+    let v1 = 2.2250738585072014e-308;
+    const o10 = {
+        1642: -3.0,
+        get c() {
+            v1 = -3.0;
+            const v5 = `
+                this.e &= v1;
+                try { this.isSealed(-3.0, this, v1, v1); } catch (e) {}
+                try {
+                    const t10 = "j";
+                    t10.__proto__ = f0;
+                } catch(e7) {
+                }
+            `;
+            eval(v5);
+            return "j";
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+f0();
+const v16 = new Int16Array(-1);
+new Int16Array(-9223372036854775808, v12, Int16Array);
+const v22 = new Int16Array(694);
+[v12,[Int16Array]];
+[694,Int16Array,v22,v16];
+/i/uds;
+/O[\cA]/vms;
+/j(?:ab)+/guims;
+new BigUint64Array(2147483647);
+const o34 = {
+};
+o34.c = 2147483647;
+o34.c = v11;
+new Uint8Array(4096);
+const v38 = Math.random(Math, Math);
+const t39 = [Infinity];
+t39.g = v38;
+new Uint16Array(8);
+let v44 = 0;
+v44++;
+v44 < -54661;
+new Float32Array(59);
+new Map();

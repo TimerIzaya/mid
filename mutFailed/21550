@@ -1,0 +1,14 @@
+new WeakSet();
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a13;
+    } catch(e14) {
+    }
+}
+const v15 = new F8(-128, 1024, -128, 1024);
+const v16 = new v15(-128, 49507n, 268435439, F8);
+new F8(268435439, 49507n, v16, -128);
+for (let v18 = 0; v18 < 5; v18++) {
+    new Date(v15, 1000.0);
+}

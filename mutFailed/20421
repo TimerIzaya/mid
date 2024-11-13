@@ -1,0 +1,20 @@
+const v4 = new WeakSet();
+let v5;
+try { v5 = v4.add(12n); } catch (e) {}
+const v8 = Int16Array.name;
+new Int16Array(1311);
+const v12 = new v5(3);
+try { v12.slice(v12, 1n); } catch (e) {}
+new Int32Array(532);
+const v18 = [Array,Array];
+let v19;
+try { v19 = v18.reduceRight(v12); } catch (e) {}
+class C20 {
+}
+const v21 = new v5();
+const v22 = v21?.constructor;
+try { new v22(); } catch (e) {}
+const v25 = [Array];
+const v27 = v19.of?.constructor;
+try { new v27(Int32Array); } catch (e) {}
+Reflect.apply(v8, v18, v25);

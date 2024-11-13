@@ -1,0 +1,97 @@
+const v2 = new BigUint64Array(102);
+function f3() {
+    function f6() {
+        3.4890473589784586e+307 > 3.4890473589784586e+307;
+        -4294967296 >> -4294967296;
+        class C13 {
+        }
+        const v14 = new C13();
+        v14.g = v14;
+        const v15 = new C13();
+        v15.length;
+        const v18 = ([9007199254740992,9007199254740992]).constructor;
+        class C19 extends v18 {
+        }
+        try { C19.apply(v18, C13); } catch (e) {}
+        const v21 = new C19();
+        Object.defineProperty(v21, 65537, { value: v15 });
+        return Int16Array;
+    }
+    f6();
+    return Int16Array;
+}
+v2.constructor = f3;
+v2?.constructor;
+Uint8ClampedArray[1] = BigUint64Array;
+Uint8ClampedArray[1] = 102;
+const v25 = new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray, Uint8ClampedArray);
+const v26 = v25.length;
+const v28 = ("stack").normalize();
+async function f29(a30, a31, a32, a33) {
+    Object.defineProperty(v28, 0, { enumerable: true, value: v26 });
+    return f29;
+}
+const v36 = new Uint16Array(v2);
+const v39 = new Float32Array(10);
+function f40(a41, a42, a43, a44) {
+    const o54 = {
+        __proto__: v39,
+        "f": 102,
+        n(a46) {
+            const o48 = {
+            };
+            return Worker(o48);
+        },
+        "a": 10,
+        get d() {
+            return Float32Array;
+        },
+        5: v26,
+        valueOf() {
+        },
+        ...v39,
+        set g(a53) {
+            a53 = 102;
+            %VerifyType(v39);
+            a43 = a44;
+        },
+        [f29]: 3557,
+        ...v36,
+    };
+    return o54;
+}
+const v55 = f40(102, 102, v2, 102);
+f40(102, 102, v2, 102);
+f40(10, 10, v55, 102);
+function f58(a59, a60, a61, a62) {
+    function f64() {
+        %PrepareFunctionForOptimization(f58);
+        class C66 {
+            constructor(a68, a69, a70) {
+                class C72 extends a69.constructor {
+                }
+                new C72();
+            }
+        }
+        const o82 = {
+            84: Uint8ClampedArray,
+            set b(a75) {
+            },
+            ["Vre"](a77, a78) {
+                super[f64];
+            },
+            set b(a81) {
+            },
+            "f": a59,
+            "type": "stack",
+            "type": v28,
+        };
+        return f58;
+    }
+    f64();
+    %OptimizeFunctionOnNextCall(f64);
+    return a61;
+}
+for (let v84 = 0; v84 < 5; v84++) {
+    f58();
+}

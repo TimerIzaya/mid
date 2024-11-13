@@ -1,0 +1,53 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -16n;
+    } catch(e6) {
+    }
+    try {
+        this.d = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(16n);
+new F3(-9223372036854775808n);
+new F3(-16n);
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = F3;
+    } catch(e15) {
+    }
+    try {
+        this.c = a14;
+    } catch(e16) {
+    }
+    try {
+        this.d = F3;
+    } catch(e17) {
+    }
+}
+const v18 = new F11(-9223372036854775808n, v8);
+const v19 = new F11(-9223372036854775808n, v18);
+new F11(16n, v19);
+new Map();
+class C23 {
+    static #c;
+    static {
+        class C25 extends F3 {
+            static [16n];
+        }
+        new C25();
+        const v27 = new C25();
+        new v27();
+    }
+    [Map] = v19;
+    #a = F3;
+    #g = -9223372036854775808n;
+    static #f = C23;
+    #b;
+}
+new v19();
+new Map();
+new F3();
+1.0 >>> /Mrn(?:a*)+IhCO/udimsy.__proto__;

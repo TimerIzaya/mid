@@ -1,0 +1,32 @@
+function f0() {
+}
+class C4 extends f0 {
+    constructor(a6) {
+        super();
+        function f7() {
+            try {
+                this.parse([6,a6,-486766647,f0,this], a6);
+            } catch(e11) {
+            }
+            return arguments;
+        }
+        f7(-536870912, this, 6, -536870912);
+    }
+}
+const v13 = new C4(6);
+new C4(-486766647);
+new C4(v13, v13, v13, -536870912);
+new FinalizationRegistry(92);
+new Uint32Array(14);
+new BigUint64Array(5);
+function f28() {
+}
+f28.toString = f28;
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    this[Symbol.f] = f28;
+    this.a = f28;
+}
+new F29();
+const v36 = new f28();
+v36[Symbol.toPrimitive] = f28;

@@ -1,0 +1,106 @@
+const v0 = [-2147483648,6];
+function f1() {
+    v0[4013]?.c;
+    return v0;
+}
+Object.defineProperty(v0, "toString", { writable: true, configurable: true, enumerable: true, value: f1 });
+const v4 = [1862739900,13,-544526598,-7];
+const v5 = [1525207378,4,257,-7,928049015,31279,-256,8,-9007199254740990,1073741825];
+class C6 {
+    4;
+    static #c = v0;
+    static [v4] = v4;
+    toString(a8, a9) {
+        const v13 = v5[this];
+        function f14() {
+            return v13;
+        }
+        return 0.912684222656608;
+    }
+}
+function f15() {
+    const v18 = new Uint32Array(4);
+    new Float64Array(v18);
+    return Float64Array;
+}
+C6[Symbol.toPrimitive] = f15;
+const v23 = new C6();
+const v24 = new C6();
+const v25 = new C6();
+class C26 {
+    constructor(a28, a29, a30) {
+        v4[-1] += v0;
+    }
+    #d = C6;
+    static set a(a35) {
+        try {
+            v5.values();
+        } catch(e37) {
+        }
+    }
+}
+const v38 = new C26(v0, v24, v24);
+v38[Symbol.toPrimitive] = Symbol;
+const v41 = new C26(v38, v38, v23);
+const v42 = new C26(v41, v5, v5);
+Object.defineProperty(v42, Symbol.toPrimitive, { value: f15 });
+function f45(a46, a47) {
+    function f48(a49) {
+        f15();
+        %PrepareFunctionForOptimization(f15);
+        f15();
+        const v52 = f15();
+        %OptimizeMaglevOnNextCall(f15);
+        f15();
+        return v52;
+    }
+    a46[Symbol.toPrimitive] = f48;
+    a47.toString = Symbol;
+    const o67 = {
+        ...v23,
+        "g": C26,
+        "b": v23,
+        __proto__: a47,
+        "f": a46,
+        "a": C6,
+        "c": v23,
+        [a46](a57, a58) {
+            const o59 = {
+            };
+            try {
+                o59.h = a58;
+            } catch(e60) {
+            }
+            try {
+                const o61 = {
+                };
+                o61.h = a58;
+                o61.f = a58;
+            } catch(e62) {
+            }
+            try {
+                const o63 = {
+                };
+                o63.h = a58;
+                o63.f = a58;
+                o63.c = v25;
+            } catch(e64) {
+            }
+            try {
+                const o65 = {
+                };
+                o65.h = a58;
+                o65.f = a58;
+                o65.c = a46;
+            } catch(e66) {
+            }
+            return a47;
+        },
+    };
+    return o67;
+}
+f45(v42, C26);
+f45(v38, v38);
+f45(C6, v38);
+const v73 = new Date();
+v73.setUTCSeconds(-482.72039968688557);

@@ -1,0 +1,28 @@
+function f0() {
+}
+const v1 = [8.458893134590319];
+Object.defineProperty(v1, "toString", { writable: true, value: f0 });
+[-1000000.0];
+const v3 = [-602.2515924582815,-1.0092437661771722e+308,4.0,703.9005891542743,0.0,0.0];
+class C4 {
+    #valueOf(a6, a7) {
+        try {
+            new a7();
+        } catch(e9) {
+        }
+        return v1;
+    }
+    #h;
+    #c = v1;
+    [v1] = v3;
+    static [-1] = v1;
+}
+new C4();
+new C4();
+const v12 = new C4();
+const v17 = new Date();
+v12.setUTCFullYear();
+new C4();
+const v21 = C4.add(v17);
+let [v22,,...v23] = C4;
+v22.setUTCHours(v21);

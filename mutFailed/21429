@@ -1,0 +1,37 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = this?.constructor;
+    try { new v7(a5, a5); } catch (e) {}
+    a6 + a6;
+    try {
+        this.c = -256;
+    } catch(e10) {
+    }
+    try {
+        this.f = a6;
+    } catch(e11) {
+    }
+}
+const v12 = new F3(637511467, 4294967295);
+v12.c;
+new F3(-256, 637511467, v12, 4294967295);
+const v15 = new F3(637511467, -256);
+const v16 = v15?.constructor;
+try { new v16(v15, 637511467); } catch (e) {}
+64 != 64;
+Float32Array.name = Float32Array;
+new Float32Array(64);
+1756 * 1756;
+new Uint16Array(1756);
+new Int16Array(257);
+for (let v32 = 0; v32 < 5; v32++) {
+    function f34() {
+        const v37 = undefined << 0.28963498121041586;
+        v37 % v37;
+        "Vre" >>> v37;
+        return undefined;
+    }
+    const t33 = 4294967295;
+    t33();
+    %OptimizeFunctionOnNextCall(f34);
+}

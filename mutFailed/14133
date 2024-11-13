@@ -1,0 +1,12 @@
+try { BigUint64Array.bind(BigUint64Array, 129, BigUint64Array); } catch (e) {}
+new BigUint64Array(129);
+let v7 = 2039;
+const v8 = v7++;
+const v10 = new BigInt64Array(v7);
+const v13 = new Float64Array(3042);
+const v14 = v13?.constructor;
+try { new v14(v7, v10, v10); } catch (e) {}
+const v17 = ("V9t").h;
+const v18 = v17?.constructor;
+try { new v18(v10, v18, v13, v8); } catch (e) {}
+%OptimizeFunctionOnNextCall(v17("V9t"));

@@ -1,0 +1,74 @@
+function f0() {
+}
+let v4;
+try { v4 = ("symbol").charCodeAt("symbol"); } catch (e) {}
+[-57865,9007199254740992,13,268435439,4096,23314,16,2147483648];
+[1073741825,-4096,-1315298242,3576,-268435456,2147483647,16];
+const v7 = [536870888,-11];
+let v9 = 0;
+Object.defineProperty("ownKeys", 10, { writable: true, configurable: true, enumerable: true, get: f0 });
+const o10 = {
+    "apply": f0,
+    "call": f0,
+    "construct": f0,
+    "defineProperty": f0,
+    "get": f0,
+    "getOwnPropertyDescriptor": f0,
+    "isExtensible": f0,
+    "preventExtensions": f0,
+    "set": f0,
+};
+const v12 = new Proxy("symbol", o10);
+v9 & v9;
+while (v9 < 7) {
+    try {
+        const t24 = "ownKeys";
+        t24.valueOf = f0;
+    } catch(e16) {
+    }
+    v9++;
+    const o18 = {
+    };
+    try {
+        o18.f = "symbol";
+    } catch(e19) {
+    }
+    try {
+        const o20 = {
+        };
+        o20.f = "symbol";
+        o20.a = v9;
+    } catch(e21) {
+    }
+    try {
+        const o22 = {
+        };
+        o22.f = "symbol";
+        o22.a = v9;
+        o22.c = v12;
+    } catch(e23) {
+    }
+    try {
+        const o24 = {
+        };
+        o24.f = "symbol";
+        o24.a = v9;
+        o24.b = o10;
+    } catch(e25) {
+    }
+}
+new BigUint64Array(127);
+let v29 = 0;
+do {
+    try { v4(BigUint64Array, v7); } catch (e) {}
+    v29++;
+} while (v29 < 9)
+BigUint64Array.prototype = BigUint64Array;
+const v38 = new BigUint64Array(1000);
+try { v38.entries(); } catch (e) {}
+new Float64Array(3288);
+try { new Symbol(); } catch (e) {}
+const o45 = {
+};
+o45.e = o45;
+Symbol(o45);

@@ -1,0 +1,39 @@
+class C3 {
+    c = 6.0147067154648255;
+    o(a5) {
+        try { new a5("Of", -82.25338452228061); } catch (e) {}
+        new Uint8ClampedArray(173);
+        new Int32Array(6);
+        new BigUint64Array(4096);
+        return a5;
+    }
+}
+const t10 = C3.name;
+const v17 = new t10();
+const v18 = new C3();
+const v19 = new C3();
+function f20() {
+    return v19;
+}
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    a23.c = a23;
+    a24.e = a24;
+    try {
+        this.g = f20;
+    } catch(e25) {
+    }
+}
+const v26 = F21?.constructor;
+try { new v26(C3); } catch (e) {}
+new F21(v19, v17);
+new F21(v19, C3);
+const v30 = new F21(v18, v17);
+try { v30.g(); } catch (e) {}
+const o35 = {
+    "maxByteLength": 150,
+};
+const v37 = new ArrayBuffer(127, o35);
+v37.resizable;
+const v40 = new Uint8ClampedArray(v37);
+v40[-65536n] = v40;

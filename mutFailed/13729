@@ -1,0 +1,105 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    g = WeakSet;
+    [v1];
+    [WeakSet] = WeakSet;
+    constructor(a4, a5) {
+        super(a5);
+        let v6 = 0;
+        while (v6 < 9) {
+            try {
+                this.valueOf = a4;
+            } catch(e9) {
+            }
+            v6++;
+        }
+    }
+}
+new C2(v1, C2);
+const v12 = new C2(C2, WeakSet);
+new C2(WeakSet, v12);
+new Int32Array(1904);
+new Int16Array(0);
+new Float32Array(0);
+new BigInt64Array(2149);
+new Uint16Array(3412);
+new BigUint64Array(129);
+function F38() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f41() {
+        return -9007199254740992n;
+    }
+    class C42 {
+    }
+    new C42();
+    this.c = 1073741823;
+    const o45 = {
+    };
+    class C46 {
+    }
+    const v48 = new Set();
+    function F49(a51, a52) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = a51;
+        } catch(e53) {
+        }
+        v48[this];
+        try {
+            new F49(a52, v48);
+        } catch(e56) {
+        }
+    }
+}
+new F38();
+new F38();
+new F38();
+new Float32Array(4);
+new Uint32Array(2);
+function F69(a71, a72, a73, a74) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v75 = new F69(F69, F69, F69, F69);
+for (let v76 = 0; v76 < 25; v76++) {
+    v75["p" + v76] = v76;
+}
+class C79 {
+    constructor(a81, a82) {
+        for (let i = 0; i < 10; i++) {
+            this[this];
+        }
+    }
+}
+new C79();
+function F85(a87, a88) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v91 = Array(11);
+    function f93() {
+    }
+    function f94() {
+        return f94;
+    }
+    const v95 = /(?:a*)+q(?<a>.)/guds;
+    v95.constructor = f94;
+    function f96(a97) {
+        const v98 = a97.constructor;
+        const v100 = new Uint8ClampedArray(v95, a97, v98);
+        v100.valueOf = f93;
+        v100 ^ 3;
+        v98(a97, f94);
+        class C104 {
+        }
+        return v98;
+    }
+    for (let i107 = 0, i108 = 10; i107 < i108; i108--) {
+        for (let v115 = 0; v115 < 50; v115++) {
+            f96(v95);
+        }
+    }
+    v91[212] -= 3774;
+    this.constructor;
+    a87++;
+}
+const v119 = new F85();
+const t103 = v119.constructor;
+new t103();

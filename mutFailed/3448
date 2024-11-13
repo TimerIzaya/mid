@@ -1,0 +1,20 @@
+const v2 = new Int16Array(128);
+new Uint32Array(128);
+const v7 = 695 * 695;
+new Int16Array(695);
+-1000000000000.0 / -1000000000000.0;
+0.682867626490549 * -Infinity;
+function F15() {
+    if (!new.target) { throw 'must be called with new'; }
+    v7 ** -v7;
+}
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    a23?.constructor;
+    try { new Int16Array(a23); } catch (e) {}
+    const v26 = v2.constructor;
+    let v27;
+    try { v27 = new v26(v26, F15, F20, this, v26); } catch (e) {}
+    new v27();
+}
+new F20(F15, F15);

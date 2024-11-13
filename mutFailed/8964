@@ -1,0 +1,42 @@
+const v0 = /a(?!bbb|bb)c/dsy;
+const v1 = /(9Gh(ab)\1?)/vsy;
+const v2 = /Wlb(?!(a))\1yja\b!/gui;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v0;
+    } catch(e6) {
+    }
+    try {
+        this.d = v2;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(v2);
+new F3(v1);
+const v10 = new F3(v0);
+class C14 extends F3 {
+    static 255;
+    2816 = v0;
+    static n(a16, a17) {
+        try {
+            super.b;
+        } catch(e19) {
+            Reflect.construct(e19, [v1,Reflect,Reflect], F3);
+        } finally {
+            try {
+                v8.toString = 45412;
+            } catch(e23) {
+            }
+        }
+        return F3;
+    }
+}
+new C14();
+new C14();
+new C14();
+class C28 {
+}
+C28.constructor;
+v10();
+gc();

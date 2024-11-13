@@ -1,0 +1,69 @@
+let v1 = new Map();
+class C2 {
+    static #h;
+    static n(a4, a5) {
+        with (this) {
+            a = Map;
+            let v6 = v1 instanceof a5;
+            ({"size":v6,...v1} = v1);
+            const o9 = {
+                "maxByteLength": 257,
+            };
+            const v11 = new ArrayBuffer(4, o9);
+            new Uint32Array(v11);
+            new BigInt64Array(2544);
+            new Uint8ClampedArray(2393);
+            new Float32Array(9);
+        }
+        return a4;
+    }
+}
+const v23 = new C2();
+const v24 = new C2();
+const v25 = new C2();
+function f29() {
+    return v25;
+}
+function f30(a31, a32, a33, a34) {
+    const o45 = {
+        __proto__: a33,
+        o(a36, a37, a38, a39) {
+            const o43 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o43);
+            return a34;
+        },
+        "h": a34,
+        "b": 256,
+        ...a33,
+    };
+    return o45;
+}
+const v46 = f30(256, 256, v1, 256);
+f30(65536, 256, v46, 65536);
+f30(65536, -60125, v46, 256);
+v24[v46] >>>= -1.7976931348623157e+308;
+C2[-1.7976931348623157e+308] = v23;
+const o53 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o53);
+function F57(a59, a60) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { new a60(); } catch (e) {}
+    function f62(a63, a64, a65, a66) {
+        const v67 = /(?:a*)+q(?<a>.)/guds;
+        for (let i70 = 0, i71 = 10; i70 < i71; i71--) {
+            v67.compile(a64);
+        }
+        return F57;
+    }
+    for (let v79 = 0; v79 < 5; v79++) {
+        f62(a59, f62, v79, a59);
+    }
+    %OptimizeFunctionOnNextCall(f62);
+}
+new F57(F57, F57);

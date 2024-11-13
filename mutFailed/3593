@@ -1,0 +1,52 @@
+-Infinity;
+[725.0874636386948,-585.4470349813444,0.1119439309700514];
+[-5.0];
+[-1000000000000.0,6.803145464581295,-Infinity,2.0,7.738218519289394e+307,0.0,-5.090792243054332,0.14479127247828183,-7.457286984764053,-0.0];
+new Int8Array(1457);
+const v14 = new Int8Array(9);
+new Float32Array(4096);
+class C21 {
+    static #p(a23, a24) {
+    }
+    #h;
+}
+const v25 = new C21();
+const v26 = new C21();
+v26.toJSON = 8.716300404258234;
+const v27 = new C21();
+function f28(a29, a30, a31, a32) {
+    const o33 = {
+        "c": -922911.6474995338,
+        242: -922911.6474995338,
+        "g": v26,
+        [a32]: a30,
+        [C21]: a30,
+        "a": -747634.1081113975,
+        "h": a29,
+        "f": a32,
+    };
+    function f34() {
+        return C21;
+    }
+    Object.defineProperty(o33, "toJSON", { configurable: true, enumerable: true, get: f34 });
+    return o33;
+}
+const v35 = f28(v25, v27, C21);
+v35.toJSON = v14;
+const v36 = f28(v35, v27, v25, v25);
+v36.toString = f28;
+const v37 = f28(v26, v27, v36, v36);
+v37.toJSON = Float32Array;
+class C38 {
+    constructor(a40, a41) {
+        function f42(a43, a44) {
+        }
+        const v48 = [v25,v37];
+        const o49 = {
+            "arguments": v48,
+            "type": "function",
+        };
+        new Worker(f42, o49);
+    }
+}
+new C38(C21, C38);

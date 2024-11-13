@@ -1,0 +1,59 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = this;
+    try {
+        this.d = 16;
+    } catch(e3) {
+    }
+}
+function f4(a5, a6) {
+    function F7(a9, a10) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.a = a10;
+        } catch(e11) {
+        }
+        try {
+            this.e = a6;
+        } catch(e12) {
+        }
+        try {
+            this.c = a10;
+        } catch(e13) {
+        }
+    }
+    const v14 = new F7(F7, a6);
+    const v15 = new F7(v14, v14);
+    new F7(v15, F0);
+    return v15;
+}
+F0.toString = f4;
+new F0();
+const v18 = new F0();
+const v19 = new F0();
+class C20 {
+    static [F0] = v18;
+    static 2669171876;
+    set f(a22) {
+        new F0();
+    }
+    static n(a25) {
+        v18 === this;
+        return this;
+    }
+    3 = F0;
+    static b = v19;
+    static #h;
+}
+const v27 = new C20();
+const v28 = new C20();
+const v29 = new C20();
+[13,4294967296];
+const v31 = [-2147483649,-1073741824];
+const v32 = [-2110189479,256,512,1,-4096,268435439];
+[v28,v29,v19];
+[v32,[v27,v31]];
+const o37 = {
+};
+const v38 = new WeakRef(o37);
+v38.deref();

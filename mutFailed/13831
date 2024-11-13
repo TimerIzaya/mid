@@ -1,0 +1,18 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 223486449;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new v4();
+new F0();
+function f10() {
+    return f10;
+}
+const o16 = {
+};
+o16.execution = o16;
+o16.execution = -1472569261;
+gc(o16);

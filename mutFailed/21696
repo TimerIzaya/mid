@@ -1,0 +1,24 @@
+new Uint8ClampedArray(64);
+new Uint8ClampedArray(64);
+new Uint8ClampedArray(2513);
+const v16 = new RangeError(RangeError, RangeError, RangeError);
+function f17() {
+    return RangeError;
+}
+class C18 extends f17 {
+    constructor(a20, a21, a22, a23) {
+        super();
+        function f24() {
+            const o25 = {
+                "g": a21,
+                ...C18,
+            };
+            return o25;
+        }
+        for (let v26 = 0; v26 < 5; v26++) {
+            f24();
+            %OptimizeFunctionOnNextCall(f24);
+        }
+    }
+}
+new v16();

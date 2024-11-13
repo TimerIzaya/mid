@@ -1,0 +1,72 @@
+new Int16Array(1025);
+new Int8Array(1);
+const v8 = new Int8Array(1000);
+new Set();
+function F14() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v16 = new F14();
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f21() {
+        return a20;
+    }
+    const v22 = this();
+    class C24 {
+    }
+    const v25 = new C24();
+    v25.BYTES_PER_ELEMENT = "boolean";
+    function f26(a27, a28) {
+        const v29 = a27.BYTES_PER_ELEMENT;
+        class C30 {
+        }
+        C30.length;
+        try { ("0x2I").sup(); } catch (e) {}
+        class C35 {
+        }
+        const v36 = C35.call;
+        try { v36(); } catch (e) {}
+        class C38 extends C35 {
+        }
+        try { C38(NaN, v25, NaN, v22); } catch (e) {}
+        try {
+            v25.__proto__ = v29;
+        } catch(e40) {
+        }
+        function F41(a43, a44) {
+            if (!new.target) { throw 'must be called with new'; }
+            Object.defineProperty(this, "e", { configurable: true, value: f21 });
+            this.e = a28;
+        }
+        const v45 = new F41(a28, v36);
+        new F41(v45, v45);
+        new F41(v16);
+        const v48 = a28?.propertyIsEnumerable;
+        try { v48(); } catch (e) {}
+        class C50 {
+        }
+        try { C50.call(NaN, v22, v16); } catch (e) {}
+        [1000000000.0,2.2250738585072014e-308,-3.0,-2.2250738585072014e-308,-2.2250738585072014e-308,-6.525028373249204e+307,-7.851646360254072e+307,0.6785915059434757,-0.0];
+        class C53 {
+        }
+        try { C53.apply(1.7976931348623157e+308); } catch (e) {}
+        Symbol.b = v16;
+        Symbol.b = v8;
+        Symbol.replace;
+        const v57 = [];
+        try { v57.with(); } catch (e) {}
+        new Float64Array();
+        new Float64Array();
+        const v62 = Int16Array.values();
+        let v63;
+        try { v63 = v62.next(); } catch (e) {}
+        return v63;
+    }
+    %PrepareFunctionForOptimization(f26);
+    f26(Uint16Array);
+    %OptimizeFunctionOnNextCall(f26);
+    f26(C24);
+    new BigInt64Array(1073741824);
+}
+new F17();
+new F17();

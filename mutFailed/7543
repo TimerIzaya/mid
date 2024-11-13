@@ -1,0 +1,56 @@
+function f0() {
+    const o6 = {
+        get e() {
+            function f5() {
+                return this;
+            }
+            return -1955004249;
+        },
+        182: 3.0,
+        [129]: 129,
+        "h": 3.0,
+        "g": 129,
+        [3.0]: -1955004249,
+        [-1955004249]: 129,
+        "e": 3.0,
+    };
+    return o6;
+}
+f0();
+f0();
+f0();
+/n(?<a>)ab|c+/gusy;
+/\c!xyz??/gmy;
+/[Hxyz{1,32}?]/vdm;
+function f13(a14, a15, a16, a17) {
+    function f18() {
+        return f18;
+    }
+    const v19 = f18();
+    function f20(a21, a22) {
+        const o24 = {
+            get d() {
+                return this;
+            },
+        };
+        return v19;
+    }
+    f20(f20());
+    return f13;
+}
+for (let v27 = 0; v27 < 10; v27++) {
+    f13();
+}
+%OptimizeFunctionOnNextCall(f13);
+f13();
+new Uint8ClampedArray(3);
+new BigInt64Array(3053);
+new Uint32Array(202);
+function f39() {
+    return f39;
+}
+function f40() {
+    Object.defineProperty(arguments, 13, { enumerable: true, set: f39 });
+    return arguments;
+}
+f40();

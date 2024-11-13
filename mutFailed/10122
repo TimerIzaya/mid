@@ -1,0 +1,39 @@
+function f0() {
+}
+class C1 {
+    536870912;
+    [f0];
+    o() {
+        try {
+            this.valueOf = f0;
+        } catch(e3) {
+        }
+        return this;
+    }
+    256;
+}
+const v4 = new C1();
+new v4();
+const v6 = new C1();
+[v6,[v6,v4,v6],f0];
+[v4];
+const v14 = [9];
+function f17() {
+    const v18 = [f17,9];
+    function f19(a20) {
+    }
+    const v22 = [0];
+    Reflect.construct(f19, v22, Uint8ClampedArray);
+    [[v4,v22],9];
+    const v26 = [v14,Reflect];
+    try { v26.findIndex(); } catch (e) {}
+    class C29 extends v18.constructor {
+    }
+    const v30 = new C29();
+    v30?.constructor;
+    return v18;
+}
+%PrepareFunctionForOptimization(f17);
+f17();
+%OptimizeFunctionOnNextCall(f17);
+f17();

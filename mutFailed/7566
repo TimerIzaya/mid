@@ -1,0 +1,56 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3) {
+        new F0("ceil", "pop", "ceil", "isConcatSpreadable");
+    }
+    Object.defineProperty(this, "b", { writable: true, set: f2 });
+    try {
+        this.b = 10000;
+    } catch(e9) {
+    }
+    try {
+        this.g = 10000;
+    } catch(e10) {
+    }
+}
+const v11 = new F0();
+const v12 = new F0();
+const v13 = new F0();
+const v17 = /xyz{0,1}?/vmy;
+const v18 = /nAq}+/my;
+const v19 = /(?:a?)*/vmsy;
+function f20(a21, a22) {
+    const v24 = [155533.8602852358,2.0];
+    function F26() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (const v31 of Array()) {
+            v24[658291203] = null;
+        }
+        const v32 = [];
+        v32.g = -1252925017;
+        v32.g = v32;
+    }
+    return v12;
+}
+v19[Symbol.toPrimitive] = f20;
+function f35(a36, a37) {
+    const o45 = {
+        6: a37,
+        [a37](a39, a40, a41, a42) {
+            super.a = v13;
+            return a37["test"]("test");
+        },
+        [a37]: v13,
+        "e": v18,
+        "b": v12,
+        "c": 257n,
+        ...v12,
+        "f": v17,
+        "g": v11,
+    };
+    return o45;
+}
+f35(v13, v18);
+f35(f35(v13, v19), v18);
+const v51 = new Int32Array(257);
+v51[120] = -4294967296;

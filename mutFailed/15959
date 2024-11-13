@@ -1,0 +1,63 @@
+const v1 = new Map();
+class C2 {
+    static #h;
+    static n(a4, a5) {
+        with (this) {
+            a = Map;
+            v1 instanceof a5;
+            new BigInt64Array(2544);
+            new Uint8ClampedArray(2393);
+            new Float32Array(9);
+        }
+        return a4;
+    }
+}
+const v16 = new C2();
+new C2();
+const v18 = new C2();
+function f22() {
+    return v18;
+}
+function f23(a24, a25, a26, a27) {
+    const o38 = {
+        __proto__: a26,
+        o(a29, a30, a31, a32) {
+            const o36 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o36);
+            return a27;
+        },
+        "h": a27,
+        "b": 256,
+        ...a26,
+    };
+    return o38;
+}
+const v39 = f23(256, 256, v1, 256);
+f23(65536, 256, v39, 65536);
+f23(65536, -60125, v39, 256);
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { new a48(); } catch (e) {}
+    function f50(a51, a52, a53, a54) {
+        const v55 = /(?:a*)+q(?<a>.)/guds;
+        for (let i58 = 0, i59 = 10; i58 < i59; i59--) {
+            v55.compile(a52);
+        }
+        return F45;
+    }
+    for (let v67 = 0; v67 < 5; v67++) {
+        f50(a47, f50, v67, a47);
+    }
+    %OptimizeFunctionOnNextCall(f50);
+}
+function f69(a70, a71, a72) {
+    'use strict';
+    const v73 = [a71];
+    const v74 = [v73];
+    return [v74,v73,v74,C2];
+}
+f69(v16, 65536, -1.0422229497671722);
+new F45(F45, F45);

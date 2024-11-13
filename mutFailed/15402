@@ -1,0 +1,19 @@
+const v1 = new WeakSet();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 9223372036854775807;
+    } catch(e8) {
+    }
+}
+const v9 = new F5(9223372036854775807);
+const v10 = new WeakSet(-4294967296);
+const v11 = new F5(-4294967296);
+[9223372036854775807,v9,v11,v9];
+const v13 = [WeakSet];
+[[v10,v10,v1,[v11,9223372036854775807,v11,6,v13]],WeakSet];
+[v11];
+const v19 = [1073741824,255,-93221804,1,268435440];
+v19.length = 512;
+[Uint32Array];
+v19["concat"](v13);

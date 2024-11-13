@@ -1,0 +1,70 @@
+class C3 {
+    static n(a5) {
+        try {
+            this.length = 65535;
+        } catch(e7) {
+        }
+        try { this.n(-268435456); } catch (e) {}
+        return -268435456;
+    }
+    #c = 1024;
+    static #a = 10000;
+    static [1024] = 10000;
+    static #e = -268435456;
+}
+const v9 = new C3();
+new C3();
+let v11 = new C3();
+class C12 extends C3 {
+    static {
+        try {
+            C3.g = this;
+        } catch(e14) {
+        }
+        try {
+            this.valueOf = v9;
+            let v15 = 0;
+            do {
+                let v17 = 2;
+                let v19 = v17 % (this % v17);
+                v19--;
+                v17-- & v19;
+                v15++;
+            } while (v15 < 4)
+        } catch(e26) {
+        }
+    }
+    d;
+    #e = 10000;
+    static [1024];
+}
+const v27 = new C12();
+new C12();
+const v29 = new C12();
+new Float32Array(8);
+const v35 = new Float32Array(3419);
+const v38 = new Int16Array(1);
+C12[7] = v38;
+Object.defineProperty(v27, 2044, { writable: true, configurable: true, value: v9 });
+v11[10000];
+v11 = v35;
+function f42() {
+    function f44(a45) {
+        const v49 = 1073741824 ** 5;
+        Math.clz32(2089625166);
+        2089625166 >> v49;
+    }
+    this.onmessage = f44;
+    Symbol.replace;
+}
+Object.defineProperty(C3, 189, { writable: true, enumerable: true, set: f42 });
+v29.d &&= 1073741824;
+try { v38.entries(); } catch (e) {}
+v38[C12] = v38;
+[937261139,-2128257778,1948383862];
+[1,9223372036854775807];
+[4096];
+const o60 = {
+    "type": "function",
+};
+new Worker(f42, o60);

@@ -1,0 +1,28 @@
+new Math(127);
+3 && 3;
+new Float64Array(3);
+3 - 127;
+const v10 = new Int8Array(3);
+try { v10.with(v10, v10); } catch (e) {}
+WeakMap.e = WeakMap;
+const v13 = new WeakMap();
+try { v13.has(127); } catch (e) {}
+const v15 = [-61776,-50307,1,-1435953074,-2];
+let v16;
+try { v16 = v15.reduceRight(v13); } catch (e) {}
+const o26 = {
+    [null]() {
+        for (let v19 = 0; v19 < 500; v19++) {
+            v19++;
+            const o25 = {
+                [v15](a22, a23, a24) {
+                },
+                ...v19,
+            };
+        }
+    },
+};
+try { o26.null(); } catch (e) {}
+try { o26.null(); } catch (e) {}
+const v29 = o26.null(v16);
+o26.null(v29, v29, v15, o26, o26);

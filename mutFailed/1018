@@ -1,0 +1,17 @@
+[];
+/\1\2(a(?:\1(b\1\2))\2)\1((?<=a))/guimsy;
+const v2 = /E(x)(x)(x)\2/vdmy;
+/x(?=.)/ms;
+const v6 = new Map();
+const v12 = new Uint8Array();
+function f13() {
+    return v6;
+}
+function f14(a15) {
+    try { v2.exec(a15); } catch (e) {}
+}
+Object.defineProperty(v12, Symbol.isConcatSpreadable, { writable: true, enumerable: true, get: f13, set: f14 });
+v12[Symbol.isConcatSpreadable] = BigInt64Array;
+const v22 = Array();
+Object.defineProperty(v22, Symbol.isConcatSpreadable, { enumerable: true, value: v22 });
+Array()["concat"](v22, v12);

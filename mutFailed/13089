@@ -1,0 +1,69 @@
+let v0 = "hasInstance";
+let v2 = 383347432;
+class C3 {
+    p(a5, a6) {
+        /(?:(?=a))a\1/imy;
+        /a*?\ud808\udf45*/guims;
+        /X\x01/gudiy;
+        return a6;
+    }
+    static #m(a11) {
+        [v2,v0] = "valueOf";
+        super.a;
+        let {"d":v13,"h":v14,} = v0;
+        const o15 = {
+        };
+        new Proxy(this, o15);
+        return v0;
+    }
+}
+C3.f >>= v0;
+try {
+    v0.toString = v0;
+} catch(e18) {
+}
+const v19 = new C3();
+const v20 = new C3();
+const v21 = new v20();
+class C22 {
+    set d(a24) {
+        let v23 = this;
+        try { v0(v23, C3, v23); } catch (e) {}
+        [...v23] = v0;
+        try { C3["m"](); } catch (e) {}
+        try { v23(C22); } catch (e) {}
+        let v29;
+        try { v29 = v19.p(v23, a24, v23, a24); } catch (e) {}
+        const t36 = v29 & C22;
+        t36[1052] = v19;
+    }
+    valueOf(a32, a33, a34) {
+        try {
+            this.d = v21;
+        } catch(e35) {
+        }
+        a = this;
+        try { a32.p(this, a32, v19, a33); } catch (e) {}
+        return v2;
+    }
+}
+new C22();
+new C22();
+new C22();
+const o47 = {
+    toString(a41, a42, a43) {
+        function f44() {
+            return a43;
+        }
+        const v46 = Symbol.toPrimitive;
+        Object.defineProperty(v46, v46, { writable: true, get: f44 });
+        return Symbol;
+    },
+};
+let v48;
+try { v48 = o47.toString(o47); } catch (e) {}
+try { C22.n(v48, v48, v48, "valueOf", v48); } catch (e) {}
+v48 = v19;
+new Float64Array(155);
+new Uint8Array(7);
+new BigInt64Array(1000);

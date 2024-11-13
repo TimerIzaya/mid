@@ -1,0 +1,107 @@
+class C3 {
+    constructor(a5) {
+        const o6 = {
+        };
+        try {
+            o6.a = "WIj";
+        } catch(e7) {
+        }
+        try {
+            const o8 = {
+            };
+            o8.a = "WIj";
+            o8.e = "n";
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.b = o10;
+            o10.a = "WIj";
+            o10.e = "n";
+            o10.b = this;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.a = "WIj";
+            o12.e = "n";
+            o12.b = "symbol";
+        } catch(e13) {
+        }
+    }
+}
+new C3("symbol");
+const v15 = new C3("n");
+new C3("WIj");
+function f17() {
+    return v15;
+}
+function f18() {
+    return "symbol";
+}
+[NaN,1.0];
+[2.2250738585072014e-308,1000000000.0,0.4054320867606249,1.0817637409323588e+308,1000000000000.0,-809485.7402801592,-Infinity,3.0,-4.0];
+[-7.7934932328574895,-4.925891840642538e+307,1000000000.0,0.8326544271917883,-3.0,-228980.9671117158,-791.4244014965326,2.2250738585072014e-308,1.0];
+function F26(a28) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v29 = new F26();
+class C31 {
+}
+const v32 = new C31();
+const o33 = {
+};
+const v34 = new C31();
+function f35(a36, a37) {
+    function f38(a39) {
+        const v43 = [65537,268435441,63298,-5,1235122603];
+        const v44 = [128,215394418];
+        const v45 = [-2,-4294967296,4294967297];
+        function F46(a48, a49, a50, a51) {
+            if (!new.target) { throw 'must be called with new'; }
+            try { a51.valueOf(); } catch (e) {}
+            const v53 = this?.constructor;
+            try { new v53(1024, 1024, v43, this); } catch (e) {}
+            a49.caller;
+            a51[1];
+            try {
+                this.c = a50;
+            } catch(e57) {
+            }
+            try {
+                this.b = -714582153;
+            } catch(e58) {
+            }
+            try {
+                this.f = a49;
+            } catch(e59) {
+            }
+        }
+        const v60 = new F46(-714582153, F46, -714582153, v44);
+        new F46(9, v60, 9, v45);
+        return v43;
+    }
+    a37[Symbol.toPrimitive] = f38;
+    new Float64Array(1073741825);
+    new Uint8Array();
+    new Uint8ClampedArray();
+    const v70 = [];
+    try { v70.with(); } catch (e) {}
+    const o79 = {
+        [v34](a73, a74, a75) {
+            super[-9223372036854775807];
+        },
+        set b(a78) {
+        },
+        [a37]: v32,
+        "d": v29,
+        [-9223372036854775807]: o33,
+    };
+    return v32;
+}
+%PrepareFunctionForOptimization(f35);
+f35();
+%OptimizeFunctionOnNextCall(f35);
+f35(C31, v34);

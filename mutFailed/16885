@@ -1,0 +1,57 @@
+function f3(a4) {
+    const o14 = {
+        valueOf(a6, a7) {
+            [1.5558582933569493e+308,-811.9033498605547,1000000000.0,1.0,-8.676086118891265e+306,-4.0];
+            const v12 = [-2.2250738585072014e-308,54444.62865109299,-707715.1325537448,-1000000000.0];
+            [-457.79782539701455,-2.0,0.0,1000.0,-2.9472833156530687,-1.0,0.580776322873511,3.0];
+            return v12;
+        },
+        __proto__: a4,
+    };
+    return o14;
+}
+f3.caller = f3;
+const v15 = f3("268435440");
+const v16 = f3("-9173");
+const t14 = "-9173";
+const v17 = t14("valueOf");
+try { ("valueOf").localeCompare(v16); } catch (e) {}
+const v24 = new BigUint64Array(4096);
+let v25;
+try { v25 = v15.slice(v17, v15); } catch (e) {}
+const v26 = [-4529,-56036,4294967295,256,-256];
+const v27 = /\p{Nd}/isy;
+const v28 = /((?:ab){4,7}(?:a+){0,0})/gv;
+const v29 = /a\bc/umsy;
+let v30;
+try { v30 = v29.toString(); } catch (e) {}
+class C31 {
+    constructor(a33) {
+        for (let v34 = 0; v34 < 160; v34++) {
+            function f35() {
+                if (a33) {
+                    function F36(a38, a39, a40, a41) {
+                        if (!new.target) { throw 'must be called with new'; }
+                    }
+                    try { new F36(v27, this, this, this); } catch (e) {}
+                    const v43 = new F36(this, this, a33, v34);
+                    v43?.constructor;
+                    try { new v25(v28, v28, v28, this); } catch (e) {}
+                    new F36(v29, this, v28, C31);
+                    new F36(a33, v26);
+                } else {
+                    new f35();
+                }
+            }
+            f35();
+        }
+    }
+}
+const v50 = new C31(v24);
+const v51 = v50?.constructor;
+try { new v51(v26); } catch (e) {}
+const v53 = new v50(C31);
+const v54 = v53?.__lookupGetter__;
+try { new v54(v53); } catch (e) {}
+const v56 = v24.includes(v30);
+v56 || v56;

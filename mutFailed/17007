@@ -1,0 +1,64 @@
+const v1 = new WeakSet();
+v1();
+Object.defineProperty([], "h", { configurable: true, enumerable: true, set: Date });
+function f5() {
+    function f6() {
+        return [f6];
+    }
+    const v8 = f6();
+    %OptimizeFunctionOnNextCall(f6);
+    return v8;
+}
+const v9 = f5();
+%OptimizeFunctionOnNextCall(f5);
+const o17 = {
+    toString(a15, a16) {
+        Object.defineProperty("-884841883", a15, { configurable: true, value: a16 });
+        return "-884841883";
+    },
+};
+function f19() {
+    const v21 = -425087802 >>> -425087802;
+    class C23 extends Array {
+    }
+    const v24 = new C23();
+    try { v24.group(v21); } catch (e) {}
+    return -1000000.0;
+}
+new Int8Array(v9);
+for (let i32 = 0, i33 = 10; i32 < i33; i33--) {
+    new Uint8ClampedArray(([-3,47741,-16128,9007199254740992,-1024,-58567,268435439,-4294967296,1807295090,-9223372036854775808]).flat());
+}
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = "-2147483647";
+    } catch(e49) {
+    }
+    try {
+        this.h = -1000000.0;
+    } catch(e50) {
+    }
+}
+new F45(-265601.6536164471, "-2147483647");
+new F45(3.0, "WGs");
+new F45(3.0, "WGs");
+let v56 = 7;
+v56 &&= 1073741824;
+const o57 = {
+    ...v9,
+};
+const v59 = Array(4);
+function f60(a61, a62) {
+    return f60;
+}
+const v65 = [v59];
+const o67 = {
+};
+o67.g = o67;
+o67.e = 1261703539;
+const o68 = {
+    "arguments": v65,
+    "type": "function",
+};
+new Worker(f60, o68);

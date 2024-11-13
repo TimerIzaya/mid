@@ -1,0 +1,59 @@
+class C3 {
+    255;
+    static b;
+    static #e;
+    #a;
+    b;
+    static #o(a5, a6) {
+        a5 = a6;
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = a5;
+            } catch(e11) {
+            }
+        }
+        const v12 = new F7(-7, F7);
+        const v13 = new F7(-7, F7);
+        new F7(v13, v12);
+        return -32052;
+    }
+}
+new C3();
+const t22 = -32052;
+const v16 = new t22();
+const v17 = new C3();
+class C21 {
+    o(a23, a24) {
+        const v25 = a23.__proto__;
+        try {
+            super.p(v25, -7, v16, v25);
+        } catch(e27) {
+        }
+        return this;
+    }
+    7;
+    [v17];
+    h;
+    static d;
+}
+new C21();
+new C21();
+new v17();
+const v31 = [];
+const v32 = [-6.786788220284745e+307,3.0441372838377454,0.16607240252493405,9.1870148243921,-1.1724672307306477e+307,-1.3233810423722777e+308,0.3268930863961368];
+const v33 = [1.1232876344345233e+308,1.0,3.0,-1.7976931348623157e+308,892.6991223982873,1000000.0,0.1500507613745743,8.371259043064821,1e-15,-192.2897093527156];
+const v34 = [1000000.0,2.0511322290964932e+307];
+function f35(a36, a37) {
+}
+const v38 = f35(v33, v31);
+f35(v34, v32);
+f35(v31, v32);
+%VerifyType(v34);
+const v42 = v34 || v38;
+f35(v31, v31);
+try { v42[v42](); } catch (e) {}
+try {
+    ("-6").indexOf("deleteProperty", 5);
+} catch(e49) {
+}

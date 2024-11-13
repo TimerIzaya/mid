@@ -1,0 +1,50 @@
+function f0() {
+    const o8 = {
+        "b": -1.427583371172527e+308,
+        64: -15,
+        valueOf(a5, a6) {
+            try {
+                a6.c = a5;
+            } catch(e7) {
+            }
+            return -1.427583371172527e+308;
+        },
+        "c": -15,
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+v10[Symbol.toPrimitive] = f0;
+const v13 = f0();
+function f14(a15) {
+    a15.toString = Symbol;
+    const o20 = {
+        ...a15,
+        __proto__: v13,
+        set a(a17) {
+            super[v9] = a17;
+            try {
+                super.toString(a15);
+            } catch(e19) {
+            }
+        },
+        [a15]: v13,
+    };
+    return o20;
+}
+f14(v13);
+f14(v13);
+f14(v10);
+new Float32Array(6);
+new Int8Array(1450);
+new Uint16Array(1024);
+function F33() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C39 {
+    toString(a41, a42, a43, a44) {
+        let [] = "undefined";
+    }
+}
+try { F33(..."function", 64n, 0, ...1000000000000.0); } catch (e) {}

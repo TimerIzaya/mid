@@ -1,0 +1,49 @@
+new Uint16Array(3225);
+for (const v5 of 5n) {
+    v5[3] = 5n;
+    9007199254740991 * v5;
+}
+function f10(a11, a12) {
+    const o15 = {
+        "c": a11,
+        [a12]: 4,
+        "a": 6,
+        get e() {
+            try {
+                this.__proto__ = this;
+            } catch(e14) {
+            }
+            return 4;
+        },
+        "e": 1152575103,
+        ...a11,
+        "h": a11,
+    };
+    return o15;
+}
+f10(4, 1152575103);
+f10(6, 6);
+f10(6, 4);
+function f25() {
+}
+class C26 extends f25 {
+}
+const v27 = new C26();
+class C28 extends C26 {
+    #b = v27;
+    constructor(a30, a31) {
+        super();
+        let v32 = 0;
+        for (let i = 0; i < 5; i++) {
+            v32 < 7;
+            try {
+                v27.#b;
+            } catch(e36) {
+            }
+            v32++;
+        }
+    }
+}
+const v38 = new C28();
+new C28(v38, C26);
+new C28();

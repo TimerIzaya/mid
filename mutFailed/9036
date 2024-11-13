@@ -1,0 +1,89 @@
+let v0 = "10000";
+class C3 {
+    static ["12"] = v0;
+    constructor(a5, a6) {
+    }
+    static c = v0;
+    static toString(a11) {
+        class C12 {
+            b = v0;
+        }
+        new C12();
+        new C12();
+        new C12();
+        try { C12(); } catch (e) {}
+        return v0;
+    }
+}
+const v17 = new C3("zud", "zud");
+const v18 = new C3(v0, v0);
+const v19 = new C3(v0, v18);
+class C20 extends "zud" {
+    static toString(a22, a23, a24, a25) {
+        const v27 = this != a24 ? this : a24;
+        v19.b;
+        try {
+            const t25 = "12";
+            t25.toString = v27;
+        } catch(e29) {
+        }
+        return this;
+    }
+    [v0] = v0;
+    static [C3] = v18;
+    static g = v19;
+    static #f = "zud";
+    #c;
+}
+const v30 = new C20();
+const v31 = new C20();
+const v32 = new C20();
+function f33(a34, a35, a36, a37) {
+    const o47 = {
+        n(a39, a40) {
+            a37 = v0;
+            try {
+                a37.valueOf = a35;
+            } catch(e41) {
+            }
+            return a39;
+        },
+        "f": a37,
+        set h(a43) {
+            v0 = v17;
+            a36.length ||= a43;
+            a37[3927866208];
+            try {
+                super.valueOf(v19, a43, a37);
+            } catch(e46) {
+            }
+            v0 = this;
+        },
+    };
+    return o47;
+}
+const v48 = f33(v31, v30, v32, v30);
+f33(f33(C3, v17, "zud", "zud"), v48, v17, v17);
+const v55 = new Uint8Array();
+const v57 = new Uint32Array();
+function f58(a59, a60, a61, a62) {
+    a59.g = v57;
+    const v63 = a61 % a61;
+    const o69 = {
+        "b": a59,
+        ...v55,
+        n(a65, a66) {
+            const o68 = {
+                [a60]: Uint8Array,
+            };
+            v57[a59] = v57;
+            return v63;
+        },
+    };
+    const t82 = o69?.b;
+    const v71 = new t82(a61, v63);
+    return v71;
+}
+for (let v72 = 0; v72 < 625; v72++) {
+    f58(Uint8Array);
+}

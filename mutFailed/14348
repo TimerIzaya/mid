@@ -1,0 +1,49 @@
+new Set();
+new WeakSet();
+new Array(129);
+function f14() {
+    return 1.2883635659108662e+308;
+}
+class C16 {
+    e = 1.263848426042065;
+    constructor(a18, a19, a20) {
+        function f21(a22, a23, a24, a25) {
+            const v26 = /(?:a*)+q(?<a>.)/guds;
+            for (let i29 = 0, i30 = 10;
+                (() => {
+                    const v31 = i29 < i30;
+                    function f32(a33, a34) {
+                        return v31;
+                    }
+                    return v31;
+                })();
+                i30--) {
+                for (let v40 = 0; v40 < 25; v40++) {
+                    v26.hasIndices = v26;
+                }
+            }
+            return f21;
+        }
+        for (let v41 = 0; v41 < 10; v41++) {
+            f21();
+        }
+        %OptimizeFunctionOnNextCall(f21);
+        f21();
+        Array(129);
+        %PrepareFunctionForOptimization(Array);
+        Array(129);
+        Array(129);
+        %OptimizeMaglevOnNextCall(Array);
+        Array(129);
+    }
+}
+const v48 = new C16();
+function F49(a51, a52) {
+    if (!new.target) { throw 'must be called with new'; }
+    a51.e;
+    Number.isFinite();
+    const v56 = this.constructor;
+    try { new v56(v48); } catch (e) {}
+}
+new F49(v48);
+new F49(1.263848426042065);

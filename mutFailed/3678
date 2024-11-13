@@ -1,0 +1,51 @@
+-1372;
+function f5() {
+    const v7 = delete arguments.callee;
+    v7 && v7;
+    return arguments;
+}
+f5();
+const v11 = new Uint8ClampedArray(1372);
+const v12 = v11?.constructor;
+try { new v12(129, v11, 129); } catch (e) {}
+let v16;
+try { v16 = new Float64Array(Uint8ClampedArray, 129, 5); } catch (e) {}
+try { new Float64Array(v16, 8, 8); } catch (e) {}
+let v18;
+try { v18 = (-256).slice(f5, 5); } catch (e) {}
+const v19 = new v16(8);
+try { v19.entries(); } catch (e) {}
+65536 - 65536;
+("65535").lastIndexOf(8, 65536);
+try { new SharedArrayBuffer(v18); } catch (e) {}
+const v30 = new Int8Array(8);
+function F31(a33, a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v37 = this?.constructor;
+    let v38;
+    try { v38 = new v37(this, a36, a36, this); } catch (e) {}
+    a34[3677];
+    a35 << a35;
+    a36.e = a36;
+    try {
+        this.e = v38;
+    } catch(e41) {
+    }
+    try {
+        this.d = f5;
+    } catch(e42) {
+    }
+}
+const v43 = v30?.with;
+v43.length = v43;
+try { new v43(v30, v30); } catch (e) {}
+function f45() {
+    return f45;
+}
+let v46;
+try { v46 = new f45(); } catch (e) {}
+v46.e = v46;
+const o47 = {
+    __proto__: f45,
+    "g": f45,
+};

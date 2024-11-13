@@ -1,0 +1,51 @@
+class C6 {
+    valueOf(a8, a9, a10) {
+        return -4.328934908149791e+307;
+    }
+    #e;
+    a;
+    o(a15, a16) {
+        try {
+            this.valueOf(undefined, undefined, 0.5190551417666451, this);
+        } catch(e19) {
+        }
+        return 974374203n;
+    }
+}
+const v20 = new C6();
+const v21 = new C6();
+const v22 = new v21();
+function f23(a24, a25, a26, a27) {
+    const o39 = {
+        5: v21,
+        [v22](a29, a30, a31) {
+            let v28 = this;
+            v28 >>= a27;
+            let v32;
+            try { v32 = a30(a31, v22, f23, a26); } catch (e) {}
+            try { new v32(); } catch (e) {}
+            return a27;
+        },
+        "e": C6,
+        get c() {
+            class C35 extends C6 {
+                static [a26] = a25;
+            }
+            new C35();
+            new C35();
+            new C35();
+            return a24;
+        },
+    };
+    return o39;
+}
+f23(5.0, -62961n, v22, v22);
+f23(0.5190551417666451, 1n, v20, v21);
+f23(0.5190551417666451, -62961n, C6, C6);
+function f43() {
+    new Int8Array(1073741823);
+    return f43;
+}
+f43();
+f43();
+f43();

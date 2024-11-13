@@ -1,0 +1,22 @@
+new Uint8ClampedArray(206);
+const v8 = new Float32Array(808);
+const v11 = new Int8Array(9);
+class C12 extends Int8Array {
+    ["-380138368"] = v8;
+    constructor(a14, a15, a16, a17) {
+        super(a14, a14, a16);
+        const o22 = {
+            valueOf() {
+                super.e = "-380138368";
+                for (let v19 = 0; v19 < 32; v19++) {
+                    v11["p" + v19] = v19;
+                }
+                return a15;
+            },
+        };
+    }
+}
+new C12(206, 9, "a", "-380138368");
+new C12(206, 206, 808, Uint8ClampedArray);
+new C12(9, 808, 9, "repeat");
+%PrepareFunctionForOptimization(808);

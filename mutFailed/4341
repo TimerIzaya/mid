@@ -1,0 +1,103 @@
+class C3 {
+    #e;
+    #b;
+    static get b() {
+        let v5;
+        try {
+        const t0 = -557405152;
+        v5 = t0(-557405152, this, this, this, this);
+        } catch (e) {}
+        v5 >= v5;
+        v5?.[1024];
+        %VerifyType(-3.7722865149276563);
+        return 655660.0167903802;
+    }
+    a = C3;
+    static #valueOf(a9, a10) {
+        try { a10(); } catch (e) {}
+        const v12 = a10 || a9;
+        super[this];
+        return v12;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function f17(a18, a19, a20, a21) {
+    const o36 = {
+        "d": a19,
+        get f() {
+            const o23 = {
+            };
+            try {
+                o23.h = a20;
+            } catch(e24) {
+            }
+            try {
+                const o25 = {
+                };
+                o25.h = a20;
+                o25.a = a19;
+            } catch(e26) {
+            }
+            try {
+                const o27 = {
+                };
+                o27.h = a20;
+                o27.a = a19;
+                const v28 = o27 & v15;
+                try { new a19(a20, v28); } catch (e) {}
+                /(x)(x)(x)\1*/imy;
+                /e\p{Changes_When_NFKC_Casefolded}/vdimy;
+                /\c~mIfoo(?<!bar)baz?/gds;
+                o27.b = this;
+            } catch(e33) {
+            }
+            try {
+                const o34 = {
+                };
+                o34.h = a20;
+                o34.a = a19;
+                o34.b = this;
+            } catch(e35) {
+            }
+            return v15;
+        },
+    };
+    function f37(a38, a39) {
+        const v42 = new C3("p", 7n);
+        return v42;
+    }
+    Object.defineProperty(o36, Symbol.toPrimitive, { value: f37 });
+    return o36;
+}
+const v45 = f17(v15, v16, v15, v14);
+const v46 = f17(v14, v16, v15, v16);
+v46.toString = f17;
+const v47 = f17(v14, v15, v16, v16);
+class C48 extends f17 {
+    7 = v47;
+    constructor(a50, a51, a52) {
+        super(v14, a52, v15, v16);
+        a50 = v46;
+        const v53 = new C3();
+        for (let v54 = 0; v54 < 32; v54++) {
+            v53["p" + v54] = v54;
+        }
+    }
+    static #d = v46;
+    [v46];
+    static #h;
+    [v14] = f17;
+}
+new C48(v46, v47, v45);
+const v58 = new C48(v46, v46, C3);
+new C48(v47, v47, v58);
+class C61 {
+}
+const v62 = new C61();
+function f63() {
+    return v46;
+}
+Object.defineProperty(v62, 536870889, { configurable: true, get: f63 });
+"536870889" in v62;

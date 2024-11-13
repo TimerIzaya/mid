@@ -1,0 +1,99 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    g = WeakSet;
+    [v1];
+    [WeakSet] = WeakSet;
+    constructor(a4, a5) {
+        super(a5);
+        let v6 = 0;
+        while (v6 < 9) {
+            try {
+                this.valueOf = a4;
+            } catch(e9) {
+            }
+            v6++;
+        }
+    }
+}
+new C2(v1, C2);
+const v12 = new C2(C2, WeakSet);
+new C2(WeakSet, v12);
+new Int32Array(1904);
+new Int16Array(0);
+new Float32Array(0);
+new BigInt64Array(2149);
+new Uint16Array(3412);
+new BigUint64Array(129);
+function F38() {
+    if (!new.target) { throw 'must be called with new'; }
+    class C43 {
+        [-1] = -1.6777590795239637e+308;
+    }
+    const v44 = new C43();
+    const v45 = new C43();
+    const v46 = new C43();
+    class C47 {
+        constructor(a49, a50, a51, a52) {
+            for (const v53 in a50) {
+            }
+            a51.d = "8";
+        }
+    }
+    new C47(-1.6777590795239637e+308, C43, v44);
+    const v55 = new C47(v45, v44, v44);
+    new C47(v55, v46, C47);
+    function f57() {
+        return -9007199254740992n;
+    }
+    class C58 {
+    }
+    new C58();
+    this.c = 1073741823;
+    const o61 = {
+    };
+    class C62 {
+    }
+    const v64 = new Set();
+    function F65(a67, a68) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = a67;
+        } catch(e69) {
+        }
+        v64[this];
+        try {
+            new F65(a68, v64);
+        } catch(e72) {
+        }
+    }
+}
+new F38();
+new F38();
+new F38();
+new Float32Array(4);
+new Uint32Array(2);
+function F85(a87, a88, a89, a90) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v91 = new F85(F85, F85, F85, F85);
+for (let v92 = 0; v92 < 25; v92++) {
+    v91["p" + v92] = v92;
+}
+class C95 {
+    constructor(a97, a98) {
+        for (let i = 0; i < 10; i++) {
+            this[this];
+        }
+    }
+}
+new C95();
+function F101(a103, a104) {
+    if (!new.target) { throw 'must be called with new'; }
+    const t91 = Array(11);
+    t91[212] -= 3774;
+    this.constructor;
+    a103++;
+}
+const v111 = new F101();
+const t97 = v111.constructor;
+new t97();

@@ -1,0 +1,54 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+new F1();
+new F1();
+class C7 extends f0 {
+    toString(a9, a10) {
+        super.d;
+        Math.log2(1004886040);
+        Math.trunc(v4);
+        Math.acosh(~f0);
+        return f0;
+    }
+}
+new C7();
+new C7();
+const v20 = new C7();
+for (let v25 = 0; v25 < 5; v25++) {
+    Object.defineProperty(v20, v4, { writable: true, configurable: true, set: f0 });
+    let v27 = v25 || 268435456;
+    let v30 = 549728.2328289298;
+    const v31 = ++v30;
+    Math.min(v31);
+    v31 * 35773;
+    --v27;
+    function f35() {
+        const o38 = {
+            "maxByteLength": 116,
+        };
+        const v40 = new ArrayBuffer(64, o38);
+        new BigInt64Array(v40);
+        for (let i44 = 0, i45 = 3;
+            (() => {
+                class C46 extends f35 {
+                }
+                return i44 < 3;
+            })();
+            (() => {
+                const v50 = i44++;
+                v50 >> v50;
+            })()) {
+        }
+        return v25;
+    }
+    f35();
+    %OptimizeFunctionOnNextCall(f35);
+}

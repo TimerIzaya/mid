@@ -1,0 +1,22 @@
+new Uint16Array(3377);
+new Uint8ClampedArray(4096);
+new BigInt64Array(3377);
+/[\c!]/dms;
+/Slv3/gdiy;
+/\P{Any}/vi;
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v17 = this.constructor;
+    try { new v17(); } catch (e) {}
+    this.e = Uint16Array;
+}
+function f19() {
+    for (let v20 = 0; v20 < 5; v20++) {
+        new f19();
+    }
+    return F12;
+}
+%PrepareFunctionForOptimization(f19);
+f19();
+%OptimizeFunctionOnNextCall(f19);
+f19();

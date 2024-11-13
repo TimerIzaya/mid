@@ -1,0 +1,26 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = this?.constructor;
+        try { new v7(this, a5); } catch (e) {}
+        a5[0] = a5;
+        try { new Symbol(); } catch (e) {}
+        Symbol[this.replace] = "d";
+    }
+    #n(a13) {
+        this * "d";
+        const v16 = ("8").unscopables;
+        Symbol[v16];
+        return v16;
+    }
+}
+const v18 = new C3("8", "n");
+v18.length;
+const v20 = new C3("d", "8");
+const v21 = new C3("8", v20);
+v21.b = v21;
+-2.0;
+try { new Array(Array); } catch (e) {}
+try {
+    Array(-2119616940);
+} catch(e30) {
+}

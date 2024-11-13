@@ -1,0 +1,51 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 536870888;
+    } catch(e3) {
+    }
+    try {
+        this.b = 536870888;
+    } catch(e4) {
+    }
+    try {
+        this.f = 536870888;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 extends F0 {
+    #a = F0;
+    static n(a11, a12) {
+        e = v6;
+        super.b;
+        return v6;
+    }
+    4054353957 = v6;
+    static [F0];
+    [v7] = v8;
+    static c = C9;
+    c;
+    static d = v7;
+    #b;
+    b;
+    static #d;
+}
+new C9();
+new C9();
+const v16 = new C9();
+v16[4054353957] = v16;
+1898089719 >> 1898089719;
+class C21 {
+}
+const v22 = new C21();
+try { v22.propertyIsEnumerable(C21); } catch (e) {}
+try { ReferenceError(v7); } catch (e) {}
+Object.defineProperty(ReferenceError(v22), "f", { writable: true, enumerable: true, get: ReferenceError, set: ReferenceError });
+try {
+    new ReferenceError();
+} catch(e28) {
+}
+ReferenceError();

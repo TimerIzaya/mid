@@ -1,0 +1,58 @@
+function f0() {
+    const o9 = {
+        __proto__: "f",
+        6: "f",
+        ["function"](a5, a6) {
+            super[a6] = this;
+            this["function"] = "f";
+            super[this] = -5.970967757660006e+307;
+            const t8 = "f";
+            t8[Symbol.isConcatSpreadable] = this;
+            return "function";
+        },
+        ["f"]: "function",
+        "f": "f",
+    };
+    o9[Symbol.toPrimitive] = f0;
+    return o9;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+v14.toString = f0;
+class C15 {
+    4096;
+    static a;
+    h = v13;
+    static #b;
+    b;
+    static 10 = v14;
+    #o(a17) {
+        %VerifyType(this);
+        super[this];
+        return a17;
+    }
+    static #d = v14;
+    static [v12] = v13;
+    [v12] = v13;
+    static [v14] = v14;
+    set d(a20) {
+        Math.sin(a20);
+        Math.sinh(64);
+        a20 && (a20 >> 536870888);
+    }
+    static #h;
+    static valueOf(a29) {
+        f0 > this;
+        v12.f;
+        return f0;
+    }
+}
+new C15();
+new C15();
+new C15();
+new Float64Array(1024);
+new Int8Array(3600);
+new BigInt64Array(1201);
+const v52 = new BigUint64Array(256);
+v52.toSorted();

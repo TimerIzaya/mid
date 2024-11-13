@@ -1,0 +1,23 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a5;
+    try {
+        const t4 = 2;
+        t4.b = a5;
+    } catch(e6) {
+    }
+    try {
+        this.e = this;
+    } catch(e7) {
+    }
+    try {
+        this.f = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(2147483648);
+new F3(-12);
+new F3(v9);
+eval("");
+[Infinity,-686.9856326146617,0.47369378110968274,-7.24289104755818];
+Uint8Array.includes([-1000.0,-2.2250738585072014e-308,511.99933163650917,-386.8372768814137,Infinity]);

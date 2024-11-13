@@ -1,0 +1,67 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = F0;
+    try {
+        this.c = 5;
+    } catch(e3) {
+    }
+    try {
+        this.d = 5;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C8 {
+    static #p(a10) {
+        super[super.a] = v7;
+        return F0;
+    }
+    constructor(a13, a14) {
+        a13.c;
+        a14.name = a14;
+        a14.fuck = v7;
+        try { a14(a14, v7); } catch (e) {}
+        for (let [i20, i21] = (() => {
+                0 >= 0;
+                return [0, 10];
+            })();
+            i21 / i21, i20 < i21;
+            (() => {
+                i21 & i21;
+                const v27 = i20++;
+                v27 % v27;
+                let v29 = i21--;
+                v29++;
+            })()) {
+            i20 >> i20;
+            const v34 = i21 | i21;
+            v34 * v34;
+            try {
+                v7.fuck(-250051807, i21, -250051807, 7.619961690178926e+307);
+            } catch(e39) {
+                e39.message;
+                e39.message;
+            }
+        }
+    }
+}
+C8.name;
+C8.prototype = C8;
+const v43 = new C8(v6, C8);
+const v44 = new C8(v43, v6);
+new C8(v44, v7);
+1073741824 !== 1073741824;
+BigInt64Array.length;
+new BigInt64Array(1);
+8 + 8;
+try { Int16Array.bind(v7); } catch (e) {}
+const v58 = new Int16Array(8);
+const v59 = v58[4];
+v59 ^ v59;
+64 + 64;
+new BigUint64Array(64);
+const v65 = [-24725,-9223372036854775807,268435439,-267077871,-63246,2147483647,-12];
+try { v65.pop(); } catch (e) {}
+v65.length = 99;

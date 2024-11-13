@@ -1,0 +1,21 @@
+const v5 = new Uint16Array(6);
+for (const v7 of v5) {
+    const o10 = {
+        "maxByteLength": 1073741824,
+    };
+    const v12 = new SharedArrayBuffer(140, o10);
+    new Float64Array(v12);
+}
+new BigUint64Array(92);
+new Int16Array(7);
+class C20 {
+}
+function f21(a22, a23) {
+    const o24 = {
+        __proto__: C20,
+    };
+    o24.name;
+    return C20;
+}
+%PrepareFunctionForOptimization(f21);
+f21(f21, C20);

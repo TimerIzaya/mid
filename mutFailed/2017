@@ -1,0 +1,76 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -3;
+    } catch(e3) {
+    }
+    try {
+        this.g = -3;
+    } catch(e4) {
+    }
+    try {
+        const v7 = new Int8Array(16);
+        v7.toSorted();
+        this.h = -3;
+    } catch(e9) {
+    }
+}
+const v10 = new F0();
+new F0();
+new F0();
+new BigInt64Array(155);
+new Uint8ClampedArray(7);
+new Int16Array(9);
+class C26 {
+    static {
+        this[Symbol.hasInstance];
+    }
+    #p() {
+        let v32;
+        try { v32 = this.p(undefined, this, this, this, this); } catch (e) {}
+        try {
+            v32.#p(undefined, v32, Uint8ClampedArray, undefined);
+        } catch(e34) {
+        }
+        return undefined;
+    }
+    static #a = undefined;
+    c = undefined;
+}
+new C26();
+const v36 = new C26();
+const v37 = new C26();
+function f38(a39) {
+    const o45 = {
+        15: a39,
+        toString(a41, a42) {
+            super.h = this;
+            try { C26.stringify(a39, a39, this); } catch (e) {}
+            try {
+                C26.c = Uint8ClampedArray;
+            } catch(e44) {
+            }
+            return a41;
+        },
+        2147483647: undefined,
+        __proto__: v36,
+        "c": a39,
+        ...a39,
+        "f": a39,
+    };
+    return o45;
+}
+const v46 = f38(v36);
+v10(v37);
+const v48 = f38(v46);
+[0.0,26.917886948179785];
+[4.0,-6.418452896256084,1000000000.0,4.0,-2.220446049250313e-16,-1000000000.0];
+[883.1365358956336,-266.1024094651509,-5.0,1.4118854267221805e+308,-786614.3512895996];
+const v55 = v37 > C26;
+v55 ? v46 : C26;
+for (let i58 = 0; i58 < 5, v55; i58++) {
+    try {
+        new f38(v48);
+    } catch(e65) {
+    }
+}

@@ -1,0 +1,45 @@
+const v3 = /v(?:a+){0,0}o((((.).).).)v+/vdimy;
+const v4 = /S((((.).).).)1*/udsy;
+const v5 = /fi(?:a?)*/guis;
+function f6() {
+    return v5;
+}
+class C7 extends f6 {
+    static {
+        const v10 = [this];
+        Reflect.apply(v3.compile, this, v10);
+    }
+    constructor(a14, a15, a16, a17) {
+        super();
+        for (const v18 of a14) {
+            const v19 = a14 != v5;
+            function F20(a22, a23, a24, a25) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = a15;
+                } catch(e26) {
+                }
+                try {
+                    this.d = a15;
+                } catch(e27) {
+                }
+                try {
+                    this.a = a16;
+                } catch(e28) {
+                }
+            }
+            const v29 = new F20(v18, v4, v19, 3n);
+            new F20(a14, v29, v29, v29);
+            new F20(F20, a14, this, this);
+            Reflect.construct(v18, [v5,Reflect,this], v18);
+        }
+        try {
+            a15.toString = a14;
+        } catch(e35) {
+        }
+    }
+}
+const v36 = new C7(f6, v5, -1n, 3n);
+const v37 = new C7(v5, v36, 3n, -1n);
+new C7(-1n, v37, 3n, -25089n);
+Math.atan(5.134563044869008e+307);

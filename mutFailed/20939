@@ -1,0 +1,55 @@
+[65535,127,15,-65536];
+[-43769,-974827610,-9223372036854775807,-25705,15,15,-35684,-30707,-4,53276];
+const v5 = [536870888,4294967297,7,-845489869,127,536870889];
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a9;
+    } catch(e12) {
+    }
+}
+const v13 = new F6(0, 7, v5, 7);
+new F6(v5, 0, v5, 0);
+new F6(v5, 7, v5, 0);
+function f19() {
+    let v20 = -4294967295;
+    const o22 = {
+        get a() {
+            v20 %= v20;
+            return v13;
+        },
+    };
+    return f19;
+}
+let v23 = f19();
+f19();
+const v25 = v13();
+class C30 extends f19 {
+    static #g = "o";
+    static [v25];
+    constructor(a32, a33, a34, a35) {
+        super();
+        try {
+            v23.#g **= a32;
+        } catch(e36) {
+        }
+    }
+    static o(a38, a39) {
+        v23 **= this;
+        f19();
+    }
+}
+new C30(5n, "-17909", f19, "o");
+new C30("-17909", "-17909", "p", "p");
+new C30(v23, "p", v23, C30);
+class C44 {
+    get g() {
+        Uint16Array();
+        Uint8ClampedArray();
+        BigInt64Array();
+        return 1;
+    }
+    static #h = "p";
+}
+const v52 = new C44();
+try { v52.o(v23); } catch (e) {}

@@ -1,0 +1,75 @@
+class C3 {
+    set b(a5) {
+        const v6 = this.constructor;
+        class C7 extends v6 {
+            2;
+            static 107 = this;
+            static [v6] = a5;
+        }
+        new C7();
+    }
+    static c;
+    static [127] = "5";
+    static ["f"] = "5";
+    #g;
+    #h = 127;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+function f12(a13, a14, a15, a16) {
+    a16.toString = f12;
+    const o26 = {
+        "a": 127,
+        __proto__: a16,
+        [v11]: C3,
+        ..."f",
+        129: a13,
+        [127](a18, a19, a20) {
+            const o21 = {
+            };
+            const v23 = new Proxy("f", o21);
+            v23[5];
+            super.e = a20;
+            return a18.__proto__;
+        },
+    };
+    o26.toString = f12;
+    return o26;
+}
+const v27 = f12(v11, f12, "5", v9);
+const v29 = f12(v9, f12(v9, "f", v27, v11), f12, v11);
+function f30() {
+    return f12;
+}
+Object.defineProperty(v29, "toString", { configurable: true, get: f30 });
+function f31(a32, a33) {
+    const o42 = {
+        "b": a33,
+        [v29](a35, a36, a37, a38) {
+            function f39(a40) {
+                return a38;
+            }
+            class C41 extends f39 {
+                static b = a38;
+            }
+            return a32;
+        },
+        "a": a33,
+        "f": C3,
+        ["5"]: a33,
+        "d": v10,
+    };
+    return o42;
+}
+const v43 = f31(v29, v9);
+f31(v27, f31(v43, v43));
+function f46(a47) {
+    return a47;
+}
+const o50 = {
+    "type": "function",
+};
+o50.arguments = v10;
+const v51 = new Worker(f46, o50);
+try { v51.postMessage(); } catch (e) {}

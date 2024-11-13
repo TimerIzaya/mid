@@ -1,0 +1,66 @@
+class C3 {
+    get f() {
+        const v5 = this.f;
+        Object.defineProperty(this, 1000, { configurable: true, value: 2 });
+        v5[this.toStringTag] = 7;
+        function f8() {
+            return -1599710707;
+        }
+        return v5;
+    }
+    a;
+}
+const v9 = new C3();
+const v10 = new v9();
+const v11 = new C3();
+function f12(a13, a14) {
+    const o18 = {
+        __proto__: v11,
+        set e(a16) {
+            function f17() {
+                return 7;
+            }
+        },
+        ...a13,
+        "g": a13,
+        "b": v11,
+        "h": a14,
+        "c": a13,
+        [a14]: -1599710707,
+    };
+    return o18;
+}
+f12(v10, v10);
+const v20 = f12(2, v9);
+const v21 = f12(7, v11);
+class C22 {
+    constructor(a24, a25, a26, a27) {
+        a25[4] = a25;
+        super[a25];
+        try {
+            v9.b = 2;
+        } catch(e29) {
+        }
+    }
+    static #d = 7;
+    static e = v20;
+    static [C3] = 7;
+    static #b = v9;
+}
+new C22(v11, 7, v21, v21);
+const v31 = new C22(v11, 7, v20, C22);
+new C22(v10, 7, v20, v31);
+const v33 = [-9223372036854775808,64];
+const v34 = [-4294967296,-63504,-9223372036854775807,512,24559,2];
+const v35 = [-9219,-1824342407,-14,7,65537,-49368];
+function F36(a38, a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v42 = a40[1];
+    try {
+        with (a38) {
+            F36(v42, a41);
+        }
+    } catch(e44) {
+    }
+}
+new F36(v35, v34, v33);

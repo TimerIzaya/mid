@@ -1,0 +1,33 @@
+class C3 {
+    [C3];
+    #e;
+    static #g;
+    static #d;
+    constructor(a5, a6) {
+        Reflect.construct(a5, [Reflect,a6,Reflect], a6);
+    }
+}
+const v13 = new C3(C3, "getOwnPropertyDescriptors");
+const v14 = new C3(v13, v13);
+const v15 = new C3(v13, "getOwnPropertyDescriptors");
+const v16 = [29465,1024,7,12,1073741824,866012159,4294967297,-268435456];
+[-1608643893,8,65536,129,23019,1348427344,-42458,65535,-172703187,6];
+const v18 = [4096,1024,16,-64871];
+[v14,v16];
+["2KD",["getOwnPropertyDescriptors",v16],v18];
+for (let i24 = 0, i25 = 0;
+    (() => {
+        const v26 = i24 < i25;
+        class C27 {
+        }
+        function f28(a29, a30, a31, a32) {
+            let v33;
+            try { v33 = a32.apply(a32, a30); } catch (e) {}
+            return v33;
+        }
+        f28(i25, v15);
+        %OptimizeFunctionOnNextCall(f28);
+        return v26;
+    })();
+    i25--) {
+}

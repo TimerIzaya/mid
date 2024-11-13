@@ -1,0 +1,59 @@
+function f0() {
+    const o8 = {
+        p(a5, a6) {
+            try {
+                this.valueOf = a5;
+            } catch(e7) {
+            }
+            return a6;
+        },
+        "h": 9007199254740990,
+        [949.9161291257724]: 9007199254740990,
+        2147483648: 949.9161291257724,
+    };
+    return o8;
+}
+f0();
+const v10 = f0();
+const v11 = f0();
+const v12 = [268435441,1024,46815];
+const v13 = [-2147483647,1956680170,536870912,6,1024,-65536,-46487,1000];
+[-62910,-1936696470,4096,64547,382652825];
+const v15 = [v11,v12,v13];
+const v16 = [v13];
+[v15,v11];
+Symbol - v11;
+Symbol(v16);
+Object.defineProperty(v10, "g", { writable: true, enumerable: true, get: Symbol, set: Symbol });
+try {
+    f0();
+} catch(e23) {
+}
+const v24 = Symbol.iterator;
+const o33 = {
+    [v24]() {
+        let v26 = 10;
+        const o32 = {
+            next() {
+                v26--;
+                const v30 = v26 == 0;
+                const o31 = {
+                    "done": v30,
+                    "value": v26,
+                };
+                return o31;
+            },
+        };
+        return o32;
+    },
+};
+const o34 = {
+    "b": 256,
+};
+const o40 = {
+    [-4](a38, a39) {
+    },
+    __proto__: o34,
+    ...o34,
+    "b": 9007199254740991,
+};

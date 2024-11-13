@@ -1,0 +1,57 @@
+const v1 = new WeakSet();
+class C5 extends WeakSet {
+    constructor(a7, a8, a9) {
+        for (let v10 = 0; v10 < 25; v10++) {
+            const o15 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o15).then(new.target);
+        }
+    }
+    static #p(a19) {
+        this.e ||= a19;
+        const o23 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o23);
+        return gc;
+    }
+    ["4hQqz"] = "setInt8";
+    7 = v1;
+    c = v1;
+}
+class C25 {
+}
+new C25();
+const v27 = [4294967296,-57202,256,48562,333990054];
+try { Uint32Array.apply(2, v27); } catch (e) {}
+const v31 = new C5();
+const v32 = new C5();
+const v33 = new C5();
+const v34 = /\P{sc=Greek}/uisy;
+/L(?:a+){0,0}I(r(Ph4\w|\d))/uisy;
+const v36 = /\p{General_Category=Decimal_Number}/gudi;
+function f37(a38, a39, a40) {
+    const o48 = {
+        set g(a42) {
+            try { a42(); } catch (e) {}
+            a39[C5];
+            for (let v45 = 0; v45 < 32; v45++) {
+                a39["p" + v45] = v45;
+            }
+        },
+        "a": a39,
+        [v31]: v32,
+        "g": v32,
+        [a38]: v33,
+        [a39]: v32,
+        "d": a40,
+    };
+    return o48;
+}
+f37(v33, v33, v34);
+f37(v32, v32, v34);
+f37(v33, v1, v36);
+([0.021647043302781555,982.9822277058386,68.55386187204931,-3.6548181863708407e+307,0.20797002453168356,1000000.0,-569469.7761417266,-3.877892592640821,Infinity,5.0]).toLocaleString();

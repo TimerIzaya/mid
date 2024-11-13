@@ -1,0 +1,55 @@
+const v0 = [-9007199254740991,536870888,51292,-2147483649];
+const v1 = [536870912,-124426018];
+const v2 = [23930,454087404,65536,-6,-1955199007,1,1073741824,14];
+function f3(a4) {
+    v2[0] = a4;
+    const o10 = {
+        "e": v0,
+        "c": v1,
+        [v2]: v2,
+        "a": v2,
+        [v0]: v2,
+        get f() {
+            let {"h":v6,"length":v7,...v8} = v2;
+            try {
+                this.toString = v6;
+            } catch(e9) {
+            }
+            return v8;
+        },
+    };
+    return o10;
+}
+const v11 = f3?.toString;
+try { new v11(); } catch (e) {}
+const v13 = f3(v0);
+v13.c = v13;
+f3(v1);
+f3(v2);
+1073741824 * 1073741824;
+function F20() {
+    if (!new.target) { throw 'must be called with new'; }
+    this?.constructor;
+    try { new this(); } catch (e) {}
+}
+const v24 = new F20();
+v24.length;
+const v26 = new F20();
+new F20();
+v24 ^ -14n;
+let v33;
+try {
+const t0 = "object";
+v33 = t0(v24, "number", F20);
+} catch (e) {}
+function f34(a35) {
+    return v33;
+}
+class C36 extends f34 {
+    [v26] = "E";
+    [v24] = -14n;
+    268435441 = -14n;
+}
+C36.length = C36;
+const t53 = "object";
+t53[v26] &= v33;

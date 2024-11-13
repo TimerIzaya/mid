@@ -1,0 +1,59 @@
+new Uint8Array(3334);
+new Int16Array(14);
+new Uint8Array(1472);
+const v15 = [-1.7976931348623157e+308];
+const v16 = [1000000000.0,-Infinity,0.6391580406704194];
+[4.0,-474191.491992777,-1000000000.0];
+try {
+    v15.valueOf = v16;
+} catch(e18) {
+}
+function F19(a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = this.constructor;
+    a21.e = v22;
+    try { new v22(); } catch (e) {}
+    this.g = -1;
+    this.f = a21;
+    this.h = a21;
+}
+try { F19(-143547321); } catch (e) {}
+let v25;
+try { v25 = F19.bind(-143547321); } catch (e) {}
+try { v25(-1517929768); } catch (e) {}
+const v27 = new F19(-1);
+const v28 = new F19();
+v28.d = v28;
+let v29 = new F19(-1);
+v29.g = v29;
+class C30 extends F19 {
+    #p(a32, a33) {
+        const v34 = a32?.[32];
+        Object.defineProperty(v28, v27, { writable: true, configurable: true, value: F19 });
+        a32.d = this;
+        return v34;
+    }
+    [-1];
+    static {
+        this.n = F19;
+        super[this];
+        let v38;
+        try { v38 = this["n"](); } catch (e) {}
+        const o39 = {
+        };
+        o39.e = o39;
+        const v41 = new Proxy(v29, o39);
+        v41.f;
+        v41.e = v41;
+        v29 = this;
+        const o43 = {
+            "e": v41,
+            ...v38,
+            65537: o39,
+        };
+    }
+}
+try { new C30(); } catch (e) {}
+new C30();
+const o47 = {
+};

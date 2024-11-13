@@ -1,0 +1,86 @@
+[-14044,-46829,-5126,-65535,268435440,128,35896,-687355484,-673121421];
+[10000,-46482,25971,-1658888433,-9007199254740992];
+const v5 = [-11];
+function F10(a12, a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a14;
+    try {
+        this.c = a13;
+    } catch(e16) {
+    }
+}
+new F10(8, -4294967295, -4294967295, v5);
+new F10(8, 65535, 65535, v5);
+new F10(65535, 8, 8, v5);
+function f20() {
+}
+const v21 = /2/gvdims;
+/n\p{General_Category=Decimal_Number}(?: foo )?/gvdm;
+const v23 = /[r(?<!)]/uim;
+class C24 {
+    m(a26, a27) {
+        f20();
+        v21[a26];
+        let v30 = false;
+        v30 <<= v30;
+        const v32 = Symbol.iterator;
+        const o41 = {
+            [v32]() {
+                let v34 = 10;
+                const o40 = {
+                    next() {
+                        v34--;
+                        const v38 = v34 == 0;
+                        const o39 = {
+                            "done": v38,
+                            "value": v34,
+                        };
+                        return o39;
+                    },
+                };
+                return o40;
+            },
+        };
+        return a27;
+    }
+}
+const v42 = new C24();
+const v43 = new C24();
+const v44 = new C24();
+function f45(a46, a47, a48, a49) {
+    function f50() {
+        return f45;
+    }
+    function f51(a52) {
+        function F54(a56, a57, a58) {
+            if (!new.target) { throw 'must be called with new'; }
+            const t56 = this.__lookupSetter__;
+            t56(Float64Array);
+        }
+    }
+    Object.defineProperty(a46, "valueOf", { configurable: true, get: f50, set: f51 });
+    a47[Symbol.toPrimitive] = f45;
+    const o68 = {
+        set a(a64) {
+            let v63 = this;
+            [-910865.3408997525,626.3279856071824,-234.8554751364569];
+            [-3.0,5.0,0.030403066145865854,-2.2250738585072014e-308,-1e-15];
+            const t65 = [0.0,-2.0,-4.4315495470280674e+307,2.220446049250313e-16,1.176246364365651e+307,-6.320855532259336e+307,2.0];
+            t65[6] = v23;
+            v63 = a46;
+        },
+        "e": v23,
+        "d": a49,
+        ...a47,
+        "a": a47,
+    };
+    o68[Symbol.unscopables] = 65535;
+    return o68;
+}
+f45(v43, v43, v43, v44);
+const v72 = f45(v43, f20, v42, v42);
+const v73 = f45(v42, f20, v43, v43);
+const v74 = f45 - v43;
+const v75 = delete v43[5];
+try { C24.slice(v73, v75, v21, v74); } catch (e) {}
+v72[Symbol.unscopables];

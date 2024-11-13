@@ -1,0 +1,79 @@
+const v0 = /(?<!a)\p{gc=Nd}/vdiy;
+const v1 = /\xed\xb0\x80/gvis;
+class C2 {
+}
+function f3(a4, a5) {
+    const o6 = {
+        "c": a5,
+        __proto__: C2,
+    };
+    o6.c;
+    return o6;
+}
+%OptimizeFunctionOnNextCall(f3);
+const v8 = /([\ca])/vdsy;
+-5 - -5;
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a20;
+    try { a19.compile(v1, a18); } catch (e) {}
+    try {
+        this.b = a20;
+    } catch(e22) {
+    }
+}
+const v23 = v0 || v0;
+v23 && v23;
+const v27 = new Int32Array(7);
+v27.buffer;
+new F16(v0, v1, -9223372036854775807);
+new F16(v1, v1, -5);
+new F16(v8, v8, 63139);
+class C32 {
+}
+const v33 = [2.412578955630149,2.7008822875610345,-2.220446049250313e-16,-1.0,-1000000000.0,-1.0,3.9002388983145044e+307,-Infinity,-1e-15,-4.2464820531165003e+307];
+const v34 = [-1e-15,4.0,362.9742459010415,1.488212487511409e+308,3.0];
+v34.toString = f3;
+class C35 {
+    constructor(a37, a38) {
+        super[v34] = v33;
+    }
+}
+const v39 = new C35(v33, v34);
+[v39];
+try { C32(); } catch (e) {}
+const v42 = new C32();
+const v43 = v42?.constructor;
+try { new v43(); } catch (e) {}
+const v46 = new WeakMap();
+[v46,v46,v46];
+const t48 = [];
+t48.length = 2147483647;
+const v50 = [-2,257,-107178159,-35269,9223372036854775807,1203530861,-32678];
+v50[7] = -5;
+try { v50.indexOf(-5); } catch (e) {}
+const o52 = {
+};
+o52.a = v39;
+const v53 = [];
+class C54 {
+}
+const v55 = new C54();
+function F57(a59, a60, a61, a62) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v63 = this?.constructor;
+    try { new v63(a60, v53, -1263139894, a60); } catch (e) {}
+    const v65 = a62?.constructor;
+    try { new v65(v55); } catch (e) {}
+}
+o52.a = o52;
+Proxy.name = Proxy;
+const v68 = new Proxy(v50, o52);
+v68[7] = v68;
+v68.unshift(v42);
+const v73 = new Int16Array(2);
+new Uint16Array(v73);
+const o75 = {
+    __proto__: v68,
+};
+try { o75.reduceRight(v68); } catch (e) {}

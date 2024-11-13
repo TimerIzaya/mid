@@ -1,0 +1,43 @@
+class C3 {
+    static #h = -1000000000000.0;
+    static set f(a5) {
+        /[\[\]\{\}\(\)\%\^\ ]/gsy;
+        /foo(?<=bar)bazab\b\d\bcd/vimsy;
+        /[^W]/gvm;
+    }
+    toString(a10, a11) {
+        this[5.0] = -1000000000000.0;
+        try {
+            super.valueOf(a11, this, a11);
+        } catch(e13) {
+        }
+        return -1000000000000.0;
+    }
+}
+const v14 = C3?.constructor;
+let v15;
+try { v15 = new v14(C3); } catch (e) {}
+const v16 = new v15();
+const v17 = new C3();
+const v18 = new v17();
+!true;
+-2n ^ -2n;
+const v27 = new v14(5);
+Float32Array.d = Float32Array;
+new Float32Array(1);
+try { new BigInt64Array(0, v16, 1000.0); } catch (e) {}
+new BigInt64Array(0);
+function f35(a36, a37, a38, a39) {
+    const t30 = "-2";
+    t30[1] = v27;
+    class C41 {
+        static ["-2"];
+    }
+    return v18;
+}
+for (let v42 = 0; v42 < 10; v42++) {
+    f35(v42, v42, f35, v42);
+}
+%OptimizeFunctionOnNextCall(f35);
+const v45 = v15()?.toLocaleUpperCase;
+try { new v45(); } catch (e) {}

@@ -1,0 +1,133 @@
+let v0 = -300901371n;
+const v3 = [268435441,41456,-13];
+v3[1] = v3;
+const v4 = [-770330144,-9007199254740990];
+const v5 = v4?.values;
+let v6;
+try { v6 = new v5(); } catch (e) {}
+const v7 = [1828,16,-1372314303,-1042497969];
+class C8 {
+    static [v4];
+    static #a = -11n;
+    m(a10, a11, a12) {
+        let v13;
+        try { v13 = new a10(v0, a10, v0, a11); } catch (e) {}
+        try {
+            v13.#a = v0;
+        } catch(e14) {
+        }
+        v0 = -11n;
+        return v13;
+    }
+    #h = C8;
+    #f = v7;
+    static #c = v3;
+}
+function f15(a16, a17) {
+    function F18() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    return v4;
+}
+C8.constructor = f15;
+const v21 = new C8();
+v21.constructor = f15;
+const v22 = new C8();
+function f23(a24, a25) {
+    function F26() {
+        if (!new.target) { throw 'must be called with new'; }
+        this.c = 5;
+    }
+    const v29 = new F26();
+    const v30 = new F26();
+    function f31(a32, a33) {
+        const o34 = {
+            "h": v30,
+            6: v30,
+            128: a33,
+            "e": v29,
+            __proto__: a32,
+            "a": a32,
+            ...a33,
+        };
+        return o34;
+    }
+    const v35 = f31();
+    f31();
+    function f37() {
+        return f31;
+    }
+    const v40 = new Float32Array(218);
+    for (const v41 of v40) {
+        Object.defineProperty(v35, Float32Array, { configurable: true, enumerable: true, get: f31, set: f37 });
+    }
+    return v30;
+}
+v22.constructor = f23;
+const v42 = new C8();
+const v43 = [v42];
+const v44 = [v4,v43,v4,1073741823n];
+v44[3] = v44;
+const v45 = [v4,v43,1073741823n,v44,v22];
+function f46(a47, a48, a49, a50) {
+    a49.constructor = f46;
+    const v51 = a47?.constructor;
+    v51.constructor = f46;
+    try { new v51(); } catch (e) {}
+    const v53 = a49?.constructor;
+    function f54(a55) {
+        class C56 {
+            constructor(a58, a59) {
+                const v60 = this.constructor;
+                try { new v60(); } catch (e) {}
+                this.propertyIsEnumerable(C56);
+            }
+        }
+        return v6;
+    }
+    v53.constructor = f54;
+    try { new v53(); } catch (e) {}
+    try { a50.pop(); } catch (e) {}
+    const o76 = {
+        toString(a66, a67) {
+            try { a48(a67, a66, a67); } catch (e) {}
+            const o71 = {
+                "maxByteLength": 142,
+            };
+            const v73 = new SharedArrayBuffer(142, o71);
+            new Uint8ClampedArray(v73);
+            return v22;
+        },
+        "g": -11n,
+    };
+    return o76;
+}
+const v77 = f46(v22, v3, v42, v7);
+const v78 = f46(v21, v77, v42, v7);
+try { v78.toString(v44, v77); } catch (e) {}
+f46(v21, v44, C8, v7);
+const v83 = new Map();
+try { v83.set(v43, v45); } catch (e) {}
+const v85 = v83.delete(v83);
+function F86(a88, a89, a90, a91) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f92() {
+        return a88;
+    }
+    function f93(a94) {
+        const o97 = {
+            "maxByteLength": 255,
+        };
+        const v99 = new SharedArrayBuffer(210, o97);
+        new Int8Array(v99);
+    }
+    Object.defineProperty(this, "c", { get: f92, set: f93 });
+    const v102 = this?.__defineGetter__;
+    try { new v102(Date, v22); } catch (e) {}
+    this.c = Date;
+}
+const v104 = new F86();
+const t129 = v104.c;
+const v106 = new t129(v85, Map);
+const v107 = v106?.setFullYear;
+try { new v107(v78, v0, F86); } catch (e) {}

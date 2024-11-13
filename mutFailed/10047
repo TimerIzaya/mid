@@ -1,0 +1,30 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #b = f0;
+    static #valueOf() {
+        const v3 = super[f0];
+        this[v3];
+        return v3;
+    }
+    p() {
+        function f6() {
+            return this;
+        }
+        const v8 = C1.toPrimitive;
+        this[v8] = f6;
+        return v8;
+    }
+}
+const v9 = new C1();
+const v10 = new v9();
+new v10();
+/t\P{sc=Greek}/guim;
+/\cj\cJ\ci\cI\ck\cKgR/gim;
+/1(?=)/gvisy;
+const v18 = /\p{Script=Greek}(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\10/guy;
+for (let v21 = 0; v21 < 25; v21++) {
+    v10[164];
+    const t26 = "65537";
+    t26.__proto__ = v18;
+}

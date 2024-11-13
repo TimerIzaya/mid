@@ -1,0 +1,44 @@
+let v2 = "128";
+class C3 {
+    #h;
+    #c = "9007199254740991";
+    static #f = "9007199254740991";
+    static m(a5, a6) {
+        const o7 = {
+        };
+        new Proxy(a6, o7);
+        return a5;
+    }
+}
+try { new C3(); } catch (e) {}
+const v11 = new C3();
+const v12 = v11?.constructor;
+try { new v12(); } catch (e) {}
+const v14 = new C3();
+const v15 = v14?.__lookupGetter__;
+try { new v15(C3); } catch (e) {}
+const v17 = new C3();
+class C18 {
+    constructor(a20, a21, a22) {
+        const v23 = this?.__lookupGetter__;
+        try { new v23(v2); } catch (e) {}
+        a21.f = a21;
+        try { a22.constructor(); } catch (e) {}
+        a21 = a22;
+        v2 = "growable";
+        v17.b &&= v14;
+    }
+    static 88 = v2;
+    static 9 = "growable";
+    #g = "9007199254740991";
+    static d;
+    #c = "growable";
+}
+C18[88];
+const v27 = new C18(v11, "9007199254740991", v11);
+const v28 = new C18(C3, v2, v27);
+const v29 = new C18(v28, v11, v11);
+const v30 = v29?.__defineGetter__;
+try { new v30(v29, C3); } catch (e) {}
+1073741824 - 1073741824;
+new Float64Array(1073741824);

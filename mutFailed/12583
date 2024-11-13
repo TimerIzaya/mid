@@ -1,0 +1,22 @@
+new Uint8Array(7);
+new Uint8Array(128);
+new BigUint64Array(257);
+new WeakSet();
+new WeakSet();
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    a16 === a16;
+    this.constructor;
+}
+function f20() {
+    class C21 {
+    }
+    const v22 = new C21();
+    for (let v23 = 0; v23 < 5; v23++) {
+        new f20(undefined, v22);
+    }
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+f20();

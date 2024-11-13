@@ -1,0 +1,52 @@
+function f0() {
+    const o9 = {
+        [5](a5, a6) {
+            const t3 = "object";
+            t3[2] = a6;
+            try { new a5(a6, 5); } catch (e) {}
+            try {
+            const t0 = "object";
+            new t0(a5, "symbol", this, a6);
+            } catch (e) {}
+            return a6;
+        },
+        "h": "object",
+        1000: "object",
+        [5]: 5,
+        "type": "object",
+        "b": "object",
+        "g": "symbol",
+        __proto__: "symbol",
+        536870912: "object",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = F13;
+    try {
+        this.b = v11;
+    } catch(e17) {
+    }
+}
+const v18 = new F13(v10, v10);
+const v19 = new F13(v18, v12);
+const v20 = new F13(v18, v12);
+const v21 = [v12,v20,v11];
+[v11,f0,v11,[v20,v19,v21,v20],v21];
+let v25 = -399148.8080176102;
+v25 = 2.2250738585072014e-308;
+Object.defineProperty(v11, 92, { writable: true, set: f0 });
+const o28 = {
+    "call": f0,
+    "construct": f0,
+    "defineProperty": f0,
+    "has": f0,
+    "isExtensible": f0,
+    "set": f0,
+};
+new Proxy(v21, o28);
+("6Ct").normalize();

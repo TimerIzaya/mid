@@ -1,0 +1,52 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -65537;
+    } catch(e3) {
+    }
+    try {
+        this.g = -65537;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new v5();
+const v7 = new F0();
+function F8(a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a10;
+    } catch(e11) {
+    }
+    try {
+        this.f = a10;
+    } catch(e12) {
+    }
+    try {
+        this.e = a10;
+    } catch(e13) {
+    }
+}
+new F8(F8);
+new F8(F8);
+new F8(v5);
+function f20(a21, a22, a23) {
+    const o33 = {
+        set a(a25) {
+            /[\p{Script_Extensions=Mongolian}&&\p{Number}]/umy;
+            /A79lsQfoo(?!bar)baz/guiy;
+            /EFmP/uds;
+            const v29 = super.g;
+            Reflect.construct(F0, [], v29);
+        },
+        "h": a21,
+        "f": -4294967295n,
+        ...v7,
+    };
+    return a22;
+}
+f20(-7n, f20(v6, f20(-7n, -4294967295n, v7), v5), v7);
+const v39 = new Uint32Array(13);
+for (const v40 in v39) {
+    var h = v40;
+}

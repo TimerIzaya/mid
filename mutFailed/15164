@@ -1,0 +1,33 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0,v0];
+[v1,[v0,v0],v1];
+const v12 = new Uint32Array(176);
+new Uint8Array(0);
+new Int16Array(62);
+function f19(a20, a21, a22, a23) {
+    function f24() {
+        function f26(a27) {
+            try {
+                Math.__proto__ = v12;
+            } catch(e28) {
+            }
+            return Math;
+        }
+        Math.toString = f26;
+        let v29 = Math.expm1(a21);
+        v29--;
+        const v31 = Math.tanh(Math);
+        const o32 = {
+            [v31]: v29,
+        };
+        o32.NaN = o32;
+        return f19;
+    }
+    f24();
+    eval(a23);
+    %OptimizeFunctionOnNextCall(f24);
+    return eval;
+}
+for (let v36 = 0; v36 < 5; v36++) {
+    f19(v36, v36, f19, f19);
+}

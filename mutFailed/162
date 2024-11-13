@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 1024;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+const t10 = "WKgh";
+t10[1] = "WKgh";
+96 - 96;
+new Int32Array(96);
+new Int8Array(16);
+new Float32Array(196);
+const v22 = [8];
+v22.g = v22;
+const v23 = v22.fill(196);
+try { v23.entries(); } catch (e) {}
+new Uint16Array();
+Int32Array.e = Int32Array;
+const v29 = new Int32Array();
+class C30 {
+    static #d = -2;
+    constructor(a32, a33) {
+        try {
+            a32.#d += v29;
+        } catch(e34) {
+            function f35(a36) {
+                const v38 = new Uint32Array(Uint32Array, Uint32Array, Uint32Array);
+                const v40 = ([Uint32Array,Uint32Array,Uint32Array,Uint32Array]).push();
+                v40 + v40;
+                let v42;
+                try { v42 = v38.every(v40, v38); } catch (e) {}
+                return v42;
+            }
+            f35.name = f35;
+            e34.toString = f35;
+            e34.toString();
+        }
+    }
+}
+C30.name = C30;
+const t44 = C30.constructor;
+t44(255);
+const v46 = new C30();
+const v47 = v46?.constructor;
+try { new v47(255, 255); } catch (e) {}

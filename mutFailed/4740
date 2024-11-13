@@ -1,0 +1,57 @@
+class C3 {
+    m(a5, a6) {
+        function f7(a8) {
+            function f10(a11) {
+                a11?.b;
+            }
+            this.onmessage = f10;
+            a8 << a8;
+        }
+        const v16 = [-56216];
+        const o17 = {
+            "arguments": v16,
+            "type": "function",
+        };
+        new Worker(f7, o17);
+        return a6;
+    }
+}
+C3.name = C3;
+const v19 = new C3();
+let v20;
+try { v20 = (5.9327413994523415).m(5.9327413994523415, C3); } catch (e) {}
+const v21 = new v20();
+const v22 = new C3();
+const t24 = "e";
+t24[0] = "e";
+function f26(a27, a28, a29, a30) {
+    a29[3] = v21;
+    const v31 = a30?.constructor;
+    try { new v31(); } catch (e) {}
+    const o40 = {
+        "b": v19,
+        valueOf(a34, a35, a36) {
+            a28 ** "string";
+            v21 % a36;
+            const t33 = "e";
+            delete t33[-56216];
+            return -56216;
+        },
+        [a30]: "toString",
+        "f": "toString",
+        "h": v21,
+        [-2]: a27,
+    };
+    return o40;
+}
+f26("e", v21, "toString", v19);
+f26("e", "string", "string", v20("toString", "toString", "string", C3));
+function F44(a46, a47, a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { new a46(F44, a46, v22, F44); } catch (e) {}
+    let v51;
+    try { v51 = a47.toString(); } catch (e) {}
+    a48.length = v51;
+}
+const v52 = new F44(F44, F44, F44, F44);
+%PrepareFunctionForOptimization(v52);

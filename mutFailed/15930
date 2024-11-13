@@ -1,0 +1,58 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v0;
+    } catch(e3) {
+    }
+    try {
+        this.f = v0;
+    } catch(e4) {
+    }
+    try {
+        this.c = v0;
+    } catch(e5) {
+    }
+}
+new v0();
+const v7 = new F1();
+v7.a = v7;
+new F1();
+class C9 {
+    n(a11, a12) {
+        try {
+            new F1();
+        } catch(e14) {
+        }
+        try {
+            this.toString = v0;
+        } catch(e15) {
+        }
+        return v7;
+    }
+    static [v7];
+    static [v0] = F1;
+    #g;
+    6 = v7;
+}
+try { new C9(); } catch (e) {}
+new C9();
+new C9();
+const v19 = new C9();
+v19[6] = v19;
+let v22 = -532.4669449879644;
+v22++;
+function f28(a29, a30, a31, a32) {
+    2 >>> 2;
+    const v35 = new Float32Array(2);
+    v35[1] = v35;
+    Int32Array.d = Int32Array;
+    const v37 = new Int32Array();
+    const v38 = v37?.constructor;
+    try { new v38(a30, a30, a30); } catch (e) {}
+    const v40 = v35;
+    v37.fill();
+}
+for (let v42 = 0; v42 < 625; v42++) {
+    f28();
+}

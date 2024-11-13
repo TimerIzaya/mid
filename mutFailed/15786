@@ -1,0 +1,84 @@
+class C1 {
+    static #f = true;
+    toString() {
+        function f3(a4) {
+            return a4;
+        }
+        class C5 extends f3 {
+            b = this;
+            [this];
+            static #e;
+        }
+        return f3;
+    }
+    static a;
+    static [true];
+}
+const v6 = new C1();
+const v7 = new C1();
+const v8 = new C1();
+class C9 extends C1 {
+    [v7];
+    o(a11, a12) {
+        super.e = a11;
+        super.h = this;
+        return this;
+    }
+    static #toString(a14) {
+        %VerifyType(v7);
+        try {
+            this.#toString(v6);
+        } catch(e16) {
+        }
+        return a14;
+    }
+}
+const v17 = new C9();
+new C9();
+const v19 = new C9();
+%VerifyType(C9);
+delete v17[11];
+function f27() {
+    for (const v28 of v8) {
+        function f29() {
+            return v17;
+        }
+    }
+    return true;
+}
+class C33 {
+}
+const v34 = new C33();
+function f35(a36, a37) {
+    function f38() {
+        return f35;
+    }
+    class C39 extends f38 {
+    }
+    class C40 extends C39 {
+    }
+    function f41(a42, a43, a44, a45) {
+        try { a42(C40); } catch (e) {}
+        let v47 = a43 & a43;
+        const v49 = new Map();
+        const o50 = {
+            __proto__: v49,
+            ...v19,
+            "h": C9,
+        };
+        v47++;
+        const o55 = {
+            n(a53, a54) {
+                return this;
+            },
+        };
+        return v34;
+    }
+    for (let v56 = 0; v56 < 500; v56++) {
+        f41();
+    }
+    return C33;
+}
+Object.defineProperty(v34, "constructor", { value: f35 });
+const v58 = v34.constructor;
+v58(v58, v34);

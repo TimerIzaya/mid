@@ -1,0 +1,72 @@
+function f0() {
+}
+const v2 = new WeakMap();
+let v5 = 3.0;
+class C6 {
+    valueOf(a8, a9, a10) {
+        C6 >> v2;
+        super.f;
+        new Array(87);
+        super.h;
+        for (let v17 = 0; v17 < 32; v17++) {
+            this["p" + v17] = v17;
+        }
+        return a9;
+    }
+    static {
+        super.h;
+        const v22 = this.c;
+        const v25 = new BigUint64Array(129);
+        const v28 = new Uint8ClampedArray(8);
+        function f29(a30, a31) {
+            const o32 = {
+                [a31]: v28,
+            };
+            return o32;
+        }
+        f29(C6, 2.2250738585072014e-308);
+        f29(v25, v22);
+        f29(Uint8ClampedArray, v5);
+        new Int16Array(2933);
+    }
+}
+const v39 = new C6();
+g = v2;
+v39.e &&= 2.2250738585072014e-308;
+const v40 = v39.e;
+Object.defineProperty(v39, "g", { get: f0, set: f0 });
+try {
+    v39.f = v40;
+} catch(e41) {
+}
+const v42 = new v40();
+const v43 = new C6();
+class C44 extends v40 {
+    static set b(a46) {
+        --v5;
+        try {
+            v39.f = this;
+        } catch(e49) {
+        }
+    }
+    #o(a51, a52, a53) {
+        for (let v54 = 0; v54 < 100; v54++) {
+            f0();
+        }
+        return v43;
+    }
+}
+new C44();
+new C44();
+new v43();
+function F62(a64, a65) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f0;
+    try { v42.constructor(); } catch (e) {}
+    a65--;
+    const v68 = this.constructor;
+    try { new v68(8, a64); } catch (e) {}
+    -a65;
+}
+new F62(-128, -2);
+new F62(-128, -2);

@@ -1,0 +1,69 @@
+let v1 = 536870888;
+class C3 {
+    constructor(a5) {
+        const v7 = [-1000000.0,-3.1923473210656557,-1.721355656202141e+308,4.0,0.3955838142797843,-3.0,1.1463753586867827e+308];
+        function f8(a9) {
+            Object.defineProperty(v7, "length", { configurable: true, enumerable: true, value: f8 });
+            function f10() {
+                return "object";
+            }
+            this[0] = v7;
+            const o11 = {
+            };
+            o11[213] = v7;
+            return o11[213];
+        }
+        %PrepareFunctionForOptimization(f8);
+        f8(v7);
+        %OptimizeFunctionOnNextCall(f8);
+        f8(v7);
+        try {
+            const t20 = "object";
+            t20.length = 1;
+        } catch(e15) {
+        }
+    }
+    static #n(a17, a18) {
+        const v19 = super[a17];
+        try {
+            super.m(v19);
+        } catch(e21) {
+        }
+        super.d = "object";
+        v1 = a18;
+        return v19;
+    }
+}
+const v22 = new C3("object");
+const v23 = new C3(v1);
+const v24 = new C3(v23);
+function f25(a26, a27, a28) {
+    const o40 = {
+        "d": a26,
+        [a27](a30, a31) {
+            a27 >= v1;
+            try {
+                new C3(a27);
+            } catch(e34) {
+            }
+            return v24;
+        },
+        [4.0](a36, a37) {
+            try { new v1(a37, C3, v24, v1, this); } catch (e) {}
+            let {"c":v39,} = a28;
+            return v39;
+        },
+        7: "object",
+    };
+    return o40;
+}
+f25(v22, C3, f25(v22, f25("object", f25, v22), "object"));
+const v51 = 256 < 256;
+function f52() {
+    return 256;
+}
+function f53(a54) {
+    return v51;
+}
+Object.defineProperty(f52, "toString", { writable: true, value: f53 });
+Date.UTC(f52);

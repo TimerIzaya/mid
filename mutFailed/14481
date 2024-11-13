@@ -1,0 +1,64 @@
+const v3 = [1000,2147483648];
+const v4 = [-21637,1000,1000];
+const v5 = [v4,-21637,-21637,-21637];
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        a11.b = a11;
+    } catch(e12) {
+    }
+    try {
+        this.e = 2147483648;
+    } catch(e13) {
+    }
+    try {
+        this.c = v5;
+    } catch(e14) {
+    }
+}
+const v15 = new F6(v5, v3, v3, v5);
+const v16 = new F6(v5, 1000, v4, v15);
+const v17 = new F6(v5, -21637, v3, 2147483648);
+class C18 extends F6 {
+    static #g;
+    d;
+    [v5];
+    m(a20, a21, a22) {
+        super[a22];
+        delete a21?.e;
+        try {
+            super.m(v3, v5);
+        } catch(e26) {
+        }
+        return v4;
+    }
+    static #c;
+    #f = F6;
+    static #e = -21637;
+}
+const v27 = new v17();
+new C18();
+new v15();
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a33;
+    } catch(e35) {
+    }
+    try {
+        this.c = C18;
+    } catch(e36) {
+    }
+    try {
+        this.h = v27;
+    } catch(e37) {
+    }
+}
+new F30(C18, v5, v4);
+new F30(v16, v3, v3);
+new F30(v16, v4, v5);
+const v41 = [-13,8,-1073741824,-9007199254740990,536870889,47670,-36072,9,268435441,1];
+try {
+const t0 = 1073741825n;
+t0(v41);
+} catch (e) {}

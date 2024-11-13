@@ -1,0 +1,46 @@
+let v0 = "f";
+class C6 {
+    #g;
+    static set g(a8) {
+        try {
+            this.fuck(-3575n, 1e-15, this);
+        } catch(e11) {
+            try { e11.valueOf(); } catch (e) {}
+            let v15 = ("4294967296")[Symbol.unscopables];
+            v15 *= this;
+        }
+        v0 = this;
+    }
+    #b;
+    #d = "4294967296";
+}
+const v16 = new C6();
+new C6();
+new C6();
+function f19() {
+    try {
+        v16.toString = f19;
+    } catch(e23) {
+    }
+    return -49472n;
+}
+function f24(a25, a26) {
+    const o27 = {
+        ...a25,
+    };
+    o27.g = o27;
+    Object.defineProperty(v16, "g", { writable: true, enumerable: true, get: f24, set: f19 });
+    let v29 = -12691;
+    f24 % f24;
+    const v32 = --f24;
+    -1000;
+    f19 * v32;
+    v29++;
+    return f24;
+}
+f24.d = f24;
+%PrepareFunctionForOptimization(f24);
+const t42 = f24();
+t42(f24);
+%OptimizeFunctionOnNextCall(f24);
+f24();

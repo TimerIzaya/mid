@@ -1,0 +1,66 @@
+const v0 = [9,15,-4,-2062161478,-1779916533,5,1163073064,-67297154,268435456,16];
+const v1 = [1073741823,9007199254740990];
+const v2 = [47819,-2,-11,2147483647,52878,4294967297,17265,-21370,62679];
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    a5[4] = a5;
+    try {
+        this.f = v1;
+    } catch(e6) {
+    }
+    try {
+        this.b = v2;
+    } catch(e7) {
+        function f8() {
+        }
+        class C9 extends f8 {
+        }
+        new C9();
+    }
+    try {
+        this.e = v0;
+    } catch(e11) {
+    }
+    function F13(a15, a16) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.d = a16;
+        this.c = 1;
+        this.a = a16;
+    }
+    new F13();
+}
+try { new F3(v0); } catch (e) {}
+const v19 = new F3(v0);
+const v20 = new F3(v1);
+const v21 = new F3(v0);
+function f22(a23, a24) {
+    try { a24.group(a24); } catch (e) {}
+    const o27 = {
+        64: v2,
+        [v21]: v20,
+        "f": v21,
+        __proto__: a24,
+        "c": a24,
+        get e() {
+            Object.defineProperty(this, "c", { writable: true, value: a23 });
+            return f22;
+        },
+        [v0]: F3,
+        "a": v20,
+    };
+    return o27;
+}
+const v28 = f22(v19, v1);
+v28[4] = v28;
+const v29 = f22(v20, v2);
+try { v29.e(v0, v2); } catch (e) {}
+f22(v20, v1);
+%OptimizeFunctionOnNextCall(f22);
+function F32() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v34 = new F32();
+f22.replaceAll(v34, -37859n);
+const v38 = new BigInt64Array();
+try { v38.toReversed(); } catch (e) {}
+v38.copyWithin(-9223372036854775808);

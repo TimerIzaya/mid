@@ -1,0 +1,58 @@
+const v0 = [536870912,978312850,1073741825,65536];
+const v1 = [536870887,57184,-16,8066,-536870912,-4096,-4096,-20398,127,5];
+const v4 = new Uint8ClampedArray(3);
+for (let v5 = 0; v5 < 5; v5++) {
+    v4[v5] = v0;
+}
+const v6 = [-1,1555261047,-536870912,-9007199254740991,-9223372036854775807,1220279930,9,-9223372036854775807];
+function f7(a8) {
+    const o26 = {
+        [v0]: v6,
+        106: v6,
+        "d": v0,
+        "c": v0,
+        [a8]: v0,
+        [a8](a10, a11) {
+            function f12(a13, a14, a15, a16) {
+                try { new a8(a8, v0, a13, a13, a8); } catch (e) {}
+                [-1.0505254222905598e+308,1000000.0];
+                [-9.884460492390775e+307,-5.702245990759035e+307,-3.0];
+                [0.7491033043197519,-5.0,4.358761708260406e+307,NaN,-1000000.0];
+                return a11;
+            }
+            f12(v1, a11, v6, v6);
+            return this;
+        },
+        toString(a23, a24, a25) {
+            return v6;
+        },
+    };
+    return o26;
+}
+const v27 = f7(f7);
+const v28 = f7(v1);
+const v29 = f7(v28);
+class C30 {
+    0 = f7;
+    static {
+        try { f7(...this, v27, ...this, v1, ...this); } catch (e) {}
+    }
+    constructor(a34, a35, a36) {
+        const o37 = {
+            __proto__: v0,
+            [a36]: v0,
+            "h": this,
+        };
+        a35[7];
+    }
+    static 4294967296;
+    3164 = v0;
+}
+const v39 = new C30(v27, C30, v29);
+new C30(v28, v28, v39);
+new C30(v27, v27, v29);
+function F45(a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor.arguments;
+}
+new F45();

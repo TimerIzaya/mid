@@ -1,0 +1,34 @@
+const v1 = new WeakSet();
+function f2() {
+    return v1;
+}
+const v5 = new Uint32Array(1225);
+v5[1095];
+Float64Array.prototype = Uint32Array;
+const t7 = 1225;
+const v9 = new t7(7);
+let v10 = 7;
+v10--;
+new Uint16Array(v10);
+const v14 = [1225];
+v14.g = v14;
+const v15 = [v5,v9,v1,Uint16Array];
+try { v15.push(v5); } catch (e) {}
+[v10];
+function f18() {
+    return f18;
+}
+const v19 = f18.arguments;
+function f20() {
+    for (let v21 = 0; v21 < 5; v21++) {
+        const v22 = v21 & v21;
+        v22 - v22;
+        Array(v10, v19, v22).reverse();
+    }
+    return f20;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+const t32 = 1225;
+t32();

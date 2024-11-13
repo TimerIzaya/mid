@@ -1,0 +1,94 @@
+function f0() {
+    const o18 = {
+        [-5.653778194799783]: -5.653778194799783,
+        4294967296: -5.653778194799783,
+        "e": -5.653778194799783,
+        [-4.0]: 9,
+        set a(a5) {
+            super.f = -5.653778194799783;
+            function f7(a8, a9, a10, a11) {
+                const o12 = {
+                    "c": 1793268325,
+                    "e": a10,
+                    __proto__: a9,
+                };
+                return o12;
+            }
+            f7(f7, a5, -5.653778194799783, f7(f7(f7, -4.0, f0, f0), -4.0, f0, -5.653778194799783));
+        },
+        ...9,
+        "h": -4.0,
+        "f": 9,
+    };
+    return o18;
+}
+const v19 = f0();
+const v20 = f0();
+const v21 = f0();
+class C25 extends f0 {
+    [f0];
+    f = 5.0;
+    static valueOf(a27, a28, a29) {
+        const v31 = Symbol.iterator;
+        const o40 = {
+            [v31]() {
+                let v33 = 10;
+                const o39 = {
+                    next() {
+                        v33--;
+                        const v37 = v33 == 0;
+                        const o38 = {
+                            "done": v37,
+                            "value": v33,
+                        };
+                        return o38;
+                    },
+                };
+                return o39;
+            },
+        };
+        const o41 = {
+            __proto__: o40,
+            "d": v21,
+            ...v19,
+        };
+        return v20;
+    }
+}
+const v42 = new C25();
+new C25();
+const v44 = new C25();
+function f45(a46, a47) {
+    const o60 = {
+        __proto__: v21,
+        [a46]: C25,
+        ...C25,
+        "h": a46,
+        "a": v21,
+        valueOf(a49, a50, a51, a52) {
+            Object.defineProperty(a50, "a", { configurable: true, value: this });
+            const v54 = Symbol.toPrimitive;
+            const o59 = {
+                [v54]() {
+                    [179091.08706617355,NaN,-Infinity];
+                    [-1.5711829809201357e+308];
+                    [1000000.0,-1.7976931348623157e+308,1000.0,1.3195502716844557e+308,-1e-15,-8.83302287648183e+307];
+                    return a49;
+                },
+            };
+            return a50;
+        },
+    };
+    return a47;
+}
+f45(v19, v44);
+const v63 = v44(f45(v42, v20), v42);
+const v70 = [256,54026];
+const o72 = {
+    ...v20,
+    [v70]: 5.0,
+};
+try { o72.getBigInt64(v70, 2147483647, v63, 2147483649, v42); } catch (e) {}
+-2 | -2;
+!-2;
+Math.hypot(v70);

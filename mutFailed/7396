@@ -1,0 +1,50 @@
+function f4() {
+    function f5(a6) {
+        const v8 = new Map();
+        function f9(a10, a11) {
+            const o17 = {
+                "a": a11,
+                [a10]: v8,
+                [v8]: Map,
+                ...v8,
+                "b": a10,
+                [a11]: Map,
+                "h": a10,
+                146: v8,
+                valueOf(a13) {
+                    this || this;
+                    this.__proto__;
+                    new Map(this);
+                    return this;
+                },
+            };
+            return o17;
+        }
+        const v18 = f9(v8, f9);
+        f9(v18, Map);
+        [[Map,v18,v18],Map,v18,v8,Map];
+        return a6;
+    }
+    return f5;
+}
+Object.defineProperty(ArrayBuffer, Symbol.toPrimitive, { writable: true, enumerable: true, get: f4 });
+new ArrayBuffer();
+let v26 = -14n;
+v26--;
+new Int32Array(1024);
+new Uint32Array(64);
+16 | 16;
+const v38 = new Uint8Array(16);
+v38[9];
+const v41 = /[-123]N/gdis;
+try { v41.test(ArrayBuffer); } catch (e) {}
+function f43(a44, a45, a46) {
+    return null;
+}
+const v49 = ["function",v41,null];
+const o50 = {
+    "arguments": v49,
+    "type": "function",
+};
+const v51 = new Worker(f43, o50);
+try { v51.terminate(); } catch (e) {}

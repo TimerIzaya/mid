@@ -1,0 +1,53 @@
+new BigUint64Array(8);
+const v5 = new Uint8Array(257);
+6 >> 6;
+Uint8Array.name = Uint8Array;
+const v9 = new Uint8Array(6);
+const v10 = [v9];
+[BigUint64Array,257];
+[v9,v5,v9];
+function F13(a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f16() {
+        function f17(a18, a19) {
+            function f20() {
+                return a18;
+            }
+            return Uint8Array;
+        }
+        return f17;
+    }
+    function f21(a22) {
+        a22++;
+    }
+    Object.defineProperty(this, "toString", { writable: true, get: f16, set: f21 });
+    const v24 = this?.__defineGetter__;
+    try { new v24(v10, 8); } catch (e) {}
+    const v26 = a15?.constructor;
+    try { new v26(a15); } catch (e) {}
+}
+const v28 = new F13(F13);
+try {
+    function f29(a30, a31, a32) {
+        for (let i = 0; i < 25; i++) {
+            try {
+                a31.toString = f29;
+            } catch(e33) {
+                e33.message = e33;
+                for (let i35 = 4294967295;
+                    (() => {
+                        9 == 9;
+                        const v38 = i35 < 9;
+                        !v38;
+                        return v38;
+                    })();
+                    ) {
+                }
+            }
+        }
+        f29(a32, v28);
+        return v28;
+    }
+    f29();
+} catch(e44) {
+}

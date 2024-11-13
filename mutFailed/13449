@@ -1,0 +1,18 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = F0;
+    try {
+        this.c = -40252;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+new F0(v5, v5);
+new Array(6, 6, 6, F0);
+new Uint8Array(64, 6, Array, v5);
+new Float64Array(3833);
+new BigUint64Array(-10, Float64Array);
+for (let v20 = 0; v20 < 10; v20++) {
+    (10000).__defineGetter__;
+}

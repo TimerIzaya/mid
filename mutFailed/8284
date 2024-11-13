@@ -1,0 +1,61 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    #p(a4, a5) {
+        function F6(a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a8;
+            } catch(e9) {
+            }
+            try {
+                this.c = a5;
+            } catch(e10) {
+            }
+            try {
+                this.g = a5;
+            } catch(e11) {
+            }
+        }
+        new F6(this);
+        const v13 = new F6(v1);
+        new F6(v13);
+        return this;
+    }
+}
+const v15 = new C2();
+const v16 = new C2();
+const v17 = new C2();
+class C21 extends WeakMap {
+    static o(a23, a24, a25, a26) {
+        v16["set"](v1 ^ "EPSILON", a23);
+        return a24;
+    }
+    static #m(a31, a32) {
+        v16["set"](..."EPSILON", this, ..."boolean", a32, ..."set");
+        return WeakMap;
+    }
+}
+new C21();
+const v36 = new C21(v15, "EPSILON");
+new C21();
+const v40 = new Int8Array(2830);
+const v43 = new DataView(10);
+function f46(a47, a48, a49) {
+    const o50 = {
+        ...v40,
+        814452916: 129,
+        "f": v43,
+        ...v43,
+        __proto__: a48,
+        "b": v36,
+        "e": 129,
+        1402: v16,
+        "d": v17,
+        [Float64Array]: C21,
+        [a48]: Float64Array,
+    };
+    return f46;
+}
+%PrepareFunctionForOptimization(f46);
+f46();
+f46(-25269, v40);

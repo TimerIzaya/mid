@@ -1,0 +1,56 @@
+function f0() {
+}
+Object.defineProperty(f0, "toString", { configurable: true, value: f0 });
+const v2 = new Date();
+class C3 {
+    constructor(a5) {
+        super[a5] = v2;
+        new Int8Array(3);
+        new Uint8ClampedArray(855);
+        new BigInt64Array(64);
+    }
+}
+const v15 = new C3(v2);
+v15.toString = f0;
+const v16 = new C3(f0);
+new C3(v2);
+function f18(a19, a20, a21, a22) {
+    function f23(a24, a25) {
+        let v27;
+        try { v27 = f0(15135, 15135); } catch (e) {}
+        return v27[1000000];
+    }
+    a21.toString = f23;
+    const o35 = {
+        [a21](a30, a31) {
+            [7,448560867,568353536,11,1604628103,512,255,65535,58883];
+            [2,61444,13026];
+            return [28178,-536870912];
+        },
+        __proto__: a21,
+        [Date]: a20,
+        ...a21,
+        2726: a22,
+    };
+    return o35;
+}
+f18(f18(v2, v16, v15, v15), v16, v2, Date);
+f18(v16, v15, v2, v16);
+class C40 {
+    e;
+}
+C40.constructor = f18;
+const t42 = C40.constructor;
+t42(1.2999975716279065e+308);
+const v43 = new C40();
+v43.c = v43;
+new C40();
+new C40();
+function F49() {
+    if (!new.target) { throw 'must be called with new'; }
+    typeof arguments;
+    gc();
+}
+const v55 = new F49();
+const t54 = v55.constructor;
+new t54();

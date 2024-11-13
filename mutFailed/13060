@@ -1,0 +1,58 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -4294967297;
+    } catch(e6) {
+    }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+    a5.__proto__;
+    a5 instanceof a5;
+}
+const v13 = new F3(F3);
+new F3(v13);
+const v15 = new F3(268435440);
+function f19(a20, a21, a22, a23) {
+    const o28 = {
+        get h() {
+            [[v13,a20,[v15,268435440,this,this]]];
+            return -65537;
+        },
+        "h": 257,
+        "c": 7563,
+        8: v13,
+        "e": a20,
+        "f": 257,
+        "d": v15,
+        ...v13,
+        [-4294967297]: a20,
+        1730: a21,
+        "c": a20,
+    };
+    return o28;
+}
+f19(268435440, v15, -6499, f19);
+f19(-65537, F3, 268435440, -6499);
+f19(257, -4294967297, 268435440, -65537);
+for (let i34 = 0, i35 = 10; i34 < i35; i35--) {
+}
+function f43() {
+    const o45 = {
+        "c": Array,
+    };
+    const t44 = o45.c;
+    const v47 = new t44();
+    v47.forEach(Uint32Array);
+    for (const v51 of Array(4087, Array, Array)) {
+        function f52() {
+            return o45;
+        }
+        v51.toString = f52;
+    }
+}
+%PrepareFunctionForOptimization(f43);
+f43();
+%OptimizeFunctionOnNextCall(f43);
+f43();

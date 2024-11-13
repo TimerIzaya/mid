@@ -1,0 +1,64 @@
+function f4() {
+    return Date;
+}
+function f5(a6) {
+    gc();
+}
+Object.defineProperty(Date, Symbol.toPrimitive, { writable: true, get: f4, set: f5 });
+const v11 = new Date();
+class C12 extends Date {
+    static #toString(a14, a15) {
+        for (let v16 = 0; v16 < 32; v16++) {
+            this["search" + v16] = v16;
+        }
+        return this;
+    }
+    #o(a20) {
+        function F21(a23, a24, a25, a26) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a23;
+            } catch(e27) {
+            }
+            try {
+                this.e = 1;
+            } catch(e28) {
+            }
+        }
+        new F21(a20, 127, 127, -11);
+        const v30 = new F21(1, -11, 1, a20);
+        new F21(a20, 127, -11, -11);
+        return v30;
+    }
+}
+C12[Symbol.toPrimitive] = f5;
+C12[Symbol.toPrimitive] = Date;
+const v36 = new C12(127);
+const v37 = new C12();
+const v38 = new C12(1, v37);
+function f39(a40, a41) {
+    return Math.sin((-11) ** 2);
+}
+v38.toString = f39;
+[v11,1,1];
+const v47 = [v36,1,Date,-11];
+[Date];
+class C49 extends Date {
+    static [C12] = -11;
+    static #valueOf(a51, a52, a53) {
+        try {
+            Date.length = 7;
+        } catch(e55) {
+        }
+        super[v47];
+        return a51;
+    }
+    static #a;
+    [v38] = C12;
+    d;
+}
+new C49();
+new C49();
+new C49();
+const v61 = new Date();
+v61.getFullYear();

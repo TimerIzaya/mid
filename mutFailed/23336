@@ -1,0 +1,20 @@
+function f0() {
+}
+new Float32Array(0);
+new Uint8ClampedArray(3);
+new Float32Array(15);
+new BigInt64Array(75);
+const v14 = Int32Array.bind(Int32Array, Int32Array, Int32Array, Int32Array, Int32Array);
+("-1073741824").localeCompare(v14);
+new Float32Array(133);
+new v14(1024);
+function F26(a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    a28 | this;
+    const v30 = (0).constructor;
+    const t14 = 0;
+    t14.caller = v30;
+    try { new v30(3n); } catch (e) {}
+}
+new F26(349865170n);
+new F26(349865170n);

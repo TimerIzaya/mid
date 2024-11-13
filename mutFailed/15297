@@ -1,0 +1,30 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -5940;
+    } catch(e3) {
+    }
+    try {
+        this.a = -5940;
+    } catch(e4) {
+    }
+    try {
+        this.h = -5940;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new v7();
+const v20 = new Float32Array();
+new Float64Array(v20, 16);
+new Float64Array(Float32Array);
+v20.length >>>= 16;
+class C25 extends Float64Array {
+    static 1;
+    static #d = 256;
+}
+new C25();
+const v27 = new C25();
+try { v27(v20); } catch (e) {}
+let {"buffer":v29,"byteLength":v30,"byteOffset":v31,} = "number";

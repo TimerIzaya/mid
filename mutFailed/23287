@@ -1,0 +1,56 @@
+function f0() {
+}
+class C1 extends f0 {
+    set f(a3) {
+        let v2 = this;
+        try {
+            new f0();
+        } catch(e5) {
+        }
+        v2 = a3;
+    }
+    static a = f0;
+    static [f0];
+    #h = f0;
+}
+const v6 = new C1();
+const v7 = new C1();
+const v8 = new C1();
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v6.f = a11;
+    } catch(e13) {
+    }
+    try {
+        this.e = v7;
+    } catch(e14) {
+    }
+    try {
+        this.g = a12;
+    } catch(e15) {
+    }
+}
+const v16 = new F9(v8, v6);
+const v17 = new F9(v6, v8);
+new F9(v17, v7);
+class C19 {
+    valueOf(a21, a22, a23, a24) {
+        try {
+            a24.length = 2;
+        } catch(e26) {
+        }
+        return a23;
+    }
+    static #c = C1;
+    512 = v17;
+}
+new v16();
+new C19();
+new C19();
+new Uint8Array(268435440);
+const v33 = [-6.8035006781971e+307,1000000.0,1000.0,-2.715046407601891];
+class C35 extends Array {
+}
+const v36 = new C35();
+v36.concat(v33);

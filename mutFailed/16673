@@ -1,0 +1,57 @@
+const v2 = new Array(256);
+class C3 extends v2 {
+    static #f = v2;
+    constructor(a5, a6) {
+        super(a5);
+        const v7 = delete a5?.c;
+        try {
+            this.#f = v7;
+        } catch(e8) {
+        }
+        super[this] = v7;
+    }
+    static 268435439 = 256;
+    static h;
+    #h = C3;
+    127;
+    #a = v2;
+}
+const v9 = new C3(256, 256);
+const v10 = new C3(v9, 256);
+new C3(v10, Array);
+const v12 = [2.0,9.104268334326878,-4.0,1000.0,NaN,368528.74985466176,-1000000000.0];
+const v13 = [-7.9069114211709435,1.4847146899563558e+308,-1.0,530.7220023767686,1000000.0,-4.2168552930083953e+307,-2.0,0.11860854619230621];
+const v14 = [-1000000.0,-1.463357680263095e+308,1000000.0,875502.8177338671,1000000000000.0];
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v13;
+    } catch(e21) {
+    }
+    try {
+        this.e = v2;
+    } catch(e22) {
+    }
+    try {
+        this.c = a18;
+    } catch(e23) {
+    }
+}
+const v24 = new F15(v12, v9, F15, v14);
+new F15(v13, v2, v24, v12);
+new F15(v2, v10, v13, v14);
+function F30(a32, a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v36 = this.constructor;
+    try { new v36(); } catch (e) {}
+    try {
+    } catch(e38) {
+        const v40 = Float32Array();
+        class C42 extends a33 {
+        }
+        const v43 = C42();
+        try { v43(v40); } catch (e) {}
+    }
+}
+const v45 = new F30();
+new F30(F30, v45, v45, v45);

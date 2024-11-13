@@ -1,0 +1,25 @@
+new Date();
+let v7 = Date(1);
+%PrepareFunctionForOptimization(Date);
+Date(1);
+const v9 = Date(1);
+%OptimizeMaglevOnNextCall(Date);
+Date(1);
+new Int8Array(1);
+new Uint32Array(16);
+const v17 = "-6" == 1;
+Date[1000];
+"J0Uc" && v17;
+const v20 = v9;
+for (let v21 = 0; v21 < 32; v21++) {
+    v7["p" + v21] = v21;
+}
+new Int32Array(7);
+const v25 = /Ra\s.?/guimy;
+/[^J(?:ab)+]/isy;
+/(?<a>.)\k<a>(?:a{5,1000000}){3,1000000}*/gv;
+%VerifyType(v25);
+a = Date[1];
+v20[Int8Array] /= 16;
+--v7;
+Uint8Array.toString(Uint8Array, Uint8Array, Uint8Array, Uint8Array).normalize();

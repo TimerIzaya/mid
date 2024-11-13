@@ -1,0 +1,40 @@
+const v7 = ("-1723624938").slice(9);
+class C8 {
+    constructor(a10, a11) {
+        const v12 = this.constructor;
+        try { new v12(this, v7); } catch (e) {}
+        a11.sup();
+    }
+}
+const v18 = Reflect.construct(C8, [9007199254740990,Reflect], C8);
+new BigUint64Array(194);
+const v24 = new Int8Array(18);
+new Int16Array(6);
+function f29() {
+    return 9007199254740992;
+}
+function F33(a35, a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f39() {
+        return 9007199254740990;
+    }
+    d = this;
+    v24.byteOffset *= v18;
+    try {
+        this.d = a38;
+    } catch(e40) {
+    }
+    try {
+        this.g = 268435440;
+    } catch(e41) {
+        this.d;
+        Reflect[-1] = 9007199254740990;
+        function f43() {
+            return f39;
+        }
+    }
+}
+new F33(45838, 9007199254740990, 8, "o");
+new F33(9007199254740992, 268435440, 268435440, "race");
+new F33(45838, 268435440, 8, "race");
+Promise.d = Promise;

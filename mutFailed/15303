@@ -1,0 +1,55 @@
+new Uint16Array(16);
+Int32Array.name;
+new Uint16Array(0);
+let v8 = 129;
+v8--;
+const v11 = new BigInt64Array(v8);
+const v12 = v8[58];
+class C13 {
+    #p(a15, a16, a17, a18) {
+        try {
+            new Uint16Array(a15, -9223372036854775807);
+        } catch(e21) {
+        }
+        return BigInt64Array;
+    }
+    #m(a23, a24, a25) {
+        super.b = a23;
+        a25 & v8;
+        return v11;
+    }
+}
+C13.g = v12;
+const v27 = new C13();
+const v28 = v27?.constructor;
+v28.g = Uint16Array;
+let v29;
+try { v29 = new v28(); } catch (e) {}
+const v30 = new v29();
+const v31 = v30?.__lookupGetter__;
+try { new v31(C13); } catch (e) {}
+new C13();
+Array.__proto__ = this;
+const o48 = {
+    get b() {
+        const v37 = this?.__lookupGetter__;
+        try { new v37(this); } catch (e) {}
+        const v39 = Array.constructor;
+        let v40;
+        try { v40 = v30(); } catch (e) {}
+        v39(Array, v39, v39, Array);
+        const v42 = `
+            C13.g &= v40;
+            [1000000000.0,-643.3328756128817,Infinity,1000.0,0.0,-1.4720062646180452e+308,1000000000.0,5.0,191185.26774504967];
+            [-20361.566383849713,113.5584307216343,1.7976931348623157e+308,4.0,-274399.0427599042,840.5328202242354,1000000000000.0,1000000.0,-8.459460094086217e+307];
+            [-1000000000.0,-1e-15,2.2250738585072014e-308,-Infinity,-7.409875209905968];
+        `;
+        eval(v42);
+        return this;
+    },
+};
+const o49 = {
+    ...o48,
+};
+o49.e = C13;
+o49.e = o49;

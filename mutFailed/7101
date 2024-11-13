@@ -1,0 +1,43 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [f0];
+const v3 = [f0,v1,v1];
+function f7(a8, a9) {
+    const o13 = {
+        "d": v3,
+        "f": -5.0,
+        "a": v2,
+        __proto__: a9,
+        "h": a8,
+        get e() {
+            new f0();
+            super.b;
+            return v2;
+        },
+        "b": a9,
+        "e": -1000000000000.0,
+        3907: v1,
+        16: -5.0,
+    };
+    return o13;
+}
+f7(v3, v2);
+f7(v2, v3);
+f7(v3, v3);
+new Float32Array(1);
+new BigInt64Array(2733);
+new BigUint64Array(6);
+function f26() {
+    function F27(a29) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v30 = a29.constructor;
+        const v31 = v30.bind(F27, F27, F27);
+        try { v31(); } catch (e) {}
+        try { new v30(); } catch (e) {}
+    }
+    const v34 = new F27();
+    return v34;
+}
+f26();
+f26();

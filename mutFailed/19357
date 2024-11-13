@@ -1,0 +1,30 @@
+-Infinity;
+new Map();
+new Uint8ClampedArray(201);
+new BigUint64Array(1024);
+new Int32Array(256);
+const v14 = [-47479,-256,-11,58632];
+const v15 = [536870888,8];
+const v16 = [2147483649,2147483649,-65537,-268435456,10,9223372036854775807];
+function f17(a18) {
+    const o22 = {
+        set g(a20) {
+        },
+        get g() {
+            return a18;
+        },
+        __proto__: a18,
+        ...v15,
+        4096: v16,
+    };
+    return a18;
+}
+const t21 = -7.361849045652653;
+const v23 = t21(v14);
+const v24 = f17(v14);
+Object.defineProperty(v23, 512, { configurable: true, get: f17 });
+const o27 = {
+    __proto__: v24,
+    "d": f17,
+};
+Object.defineProperty(v14, o27, { get: f17, set: f17 });

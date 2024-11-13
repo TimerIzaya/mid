@@ -1,0 +1,58 @@
+class C3 {
+    static o(a5, a6) {
+        %VerifyType(536870887);
+        a5.__proto__;
+        try {
+            ("byteOffset").localeCompare("split");
+        } catch(e10) {
+        }
+        return "byteOffset";
+    }
+    #valueOf(a12, a13) {
+        super.f -= a13;
+        super.a = a12;
+        var c = "byteOffset";
+        super["byteOffset"];
+        return 536870887;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 536870887;
+    } catch(e24) {
+    }
+}
+new F18("byteOffset", v16, v15, "byteOffset");
+const v26 = new F18(v16, "byteOffset", "byteOffset", "byteOffset");
+const v27 = new F18(C3, v26, v15, 536870887);
+class C31 {
+    valueOf(a33, a34, a35) {
+        delete a35?.f;
+        new C3();
+        super[v17] = a34;
+        super.e = v15;
+        return a34;
+    }
+    #f = "byteOffset";
+    [0.036752192734982314];
+    #toString(a39, a40) {
+        f = a40;
+        return v27;
+    }
+    f = 0.036752192734982314;
+    #b = v15;
+}
+new v26();
+new C31();
+new C31();
+const v45 = [Set];
+class C46 extends Set {
+    constructor(a48, a49, a50) {
+        super(v45);
+    }
+}
+new C46(v45, v45, C46);

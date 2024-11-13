@@ -1,0 +1,49 @@
+const v3 = ["p"];
+const v4 = [v3,v3,"p"];
+const v5 = ["POSITIVE_INFINITY",v3,v4];
+function f6(a7, a8) {
+    const o18 = {
+        5: "p",
+        ...v5,
+        10: a7,
+        "b": v5,
+        ["getInt8"]: "POSITIVE_INFINITY",
+        p(a10, a11, a12) {
+            let v13;
+            try { v13 = new a7(this, v4); } catch (e) {}
+            let v14;
+            try { v14 = new v13(v13, ...a8, a7, v13, ...a12); } catch (e) {}
+            super[v14];
+            try {
+                this.fuck(v13, v14);
+            } catch(e17) {
+            }
+            return "p";
+        },
+    };
+    return "POSITIVE_INFINITY";
+}
+f6("p", v5);
+v5(v3, v3);
+f6("p", v3);
+new Int8Array(129);
+new Uint8ClampedArray(154);
+const v33 = new Int32Array(7);
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a37;
+    } catch(e40) {
+    }
+    try {
+        this.f = a38;
+    } catch(e41) {
+    }
+}
+let v42 = new F34(154, 129, 129, 154);
+const v43 = new F34(154, 129, 129, 129);
+const v44 = new F34(7, 154, 154, 129);
+const v45 = v33.buffer;
+try { v45(Uint8ClampedArray, Int8Array, 129, v45); } catch (e) {}
+typeof v43 === "string";
+v42 = v44;

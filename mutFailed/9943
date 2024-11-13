@@ -1,0 +1,23 @@
+1.0 + 1.0;
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v12 = this?.constructor;
+    try { new v12(a11, 536870889, a9); } catch (e) {}
+    a11 >>> a11;
+    try {
+        this.f = a11;
+    } catch(e15) {
+    }
+    try {
+        this.h = a9;
+    } catch(e16) {
+    }
+}
+new F7(1, 1.0, 6);
+new F7(536870889, -207797.48035367613, 536870889);
+const v19 = new F7(536870889, 1.0, 6);
+v19.length;
+const v22 = new F7();
+try { v22.subarray(F7, 6); } catch (e) {}
+let v25 = v22["indexOf"]();
+v25--;

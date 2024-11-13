@@ -1,0 +1,49 @@
+function f3() {
+    return "object";
+}
+const v4 = f3?.constructor;
+try { v4(f3); } catch (e) {}
+let v6;
+try { v6 = v4.bind("object"); } catch (e) {}
+let v7;
+try { v7 = new v4(f3); } catch (e) {}
+v7.caller = v7;
+2 + 2;
+const v14 = ("65535")[4];
+try { v14.trimStart(); } catch (e) {}
+let v17;
+try { v17 = ("e").link("e"); } catch (e) {}
+let v18;
+try { v18 = v17.p(v17); } catch (e) {}
+v18[4] = v18;
+try { new Uint8Array(v18, v17, v7); } catch (e) {}
+try { new Uint8Array("65535", "65535", "65535"); } catch (e) {}
+const v22 = Uint8Array.length;
+v22 % v22;
+const v24 = new Uint8Array(v6, 54577);
+function f25(a26, a27, a28, a29) {
+    let v30 = a28 % a28;
+    const v31 = v30++;
+    v31 ^ v31;
+    const o37 = {
+        "b": a26,
+        ...v24,
+        n(a34, a35) {
+            return a29;
+        },
+        get g() {
+            return this;
+        },
+    };
+    o37.b = o37;
+    return a27;
+}
+f25.arguments = f25;
+f25.name = f25;
+const v38 = f25.species;
+v38 + v38;
+for (let v40 = 0; v40 < 500; v40++) {
+    let v41 = v40 ^ v40;
+    v41--;
+    f25();
+}

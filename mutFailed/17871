@@ -1,0 +1,33 @@
+const v0 = [1.0,1.3570628859384569e+308];
+const v1 = [0.08247274971886542,2.2250738585072014e-308,2.2250738585072014e-308,-3.509700710686685e+307];
+const v2 = [-1e-15,920.1810835181059];
+function f3() {
+    return v1;
+}
+[v1,f3,v2];
+[v0];
+const v6 = f3();
+v0 !== f3;
+const v9 = f3();
+const v12 = new Uint8Array(629);
+new Uint8Array(116);
+new Int8Array(629);
+[v6];
+const v20 = f3();
+try { v12.slice(629, 7); } catch (e) {}
+let [...v22] = v1;
+const v23 = new v22();
+Object.defineProperty(v9, v20, { value: v23 });
+const v28 = new WeakSet();
+function f30(a31, a32, a33) {
+    function f34(a35) {
+        f30(v28, a35, WeakSet);
+        return a35;
+    }
+    f34.caller;
+    a32.toString = f30;
+    let v38;
+    try { v38 = f34.codePointAt(a32); } catch (e) {}
+    return v38;
+}
+f30("function", v28);

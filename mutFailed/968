@@ -1,0 +1,79 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3() {
+        let v6 = new Uint8ClampedArray(256);
+        let v7 = --v6;
+        return v7--;
+    }
+    this.toString = f3;
+    try {
+        this.d = v0;
+    } catch(e9) {
+    }
+}
+const v10 = new F1();
+const v11 = new F1();
+let v12 = new F1();
+function f13() {
+    function F14() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v17 = new F14();
+    try {
+        v17.f = v10;
+    } catch(e18) {
+    }
+    return v17;
+}
+v12.toString = f13;
+const v20 = v0 >>> 2.0;
+v20 >>> v20;
+const v23 = 5.0 >>> 5.0;
+~(v12--);
+~(-2147483649n / -2147483649n);
+let v31 = 536870888n;
+v31++;
+const v33 = [-3.5650322397951273,1000.0,0.802460520523592,5.641883312396217e+306];
+const v34 = [431.4791340196293,-3.0,125159.99825031101,21.6056810036589,1.6160148855763925e+308,1.7462069791264565e+308,5.0,1e-15,-1000.0];
+try { v34.toString(); } catch (e) {}
+const v36 = [-1.238631182886351e+308,1.9411414401127767e+306,5.0,-276.83656814954304,830049.9402099303,-4.0901138213923866e+307,-5.0,300.38437393340564];
+try { v36.lastIndexOf(v33); } catch (e) {}
+class C38 {
+    #d;
+}
+C38.e = v11;
+C38.prototype = C38;
+const v39 = F1?.__lookupGetter__;
+function f40(a41) {
+    class C42 {
+        constructor(a44, a45) {
+            const v46 = this.constructor;
+            try { new v46(); } catch (e) {}
+            this.propertyIsEnumerable(C42);
+        }
+    }
+    return a41;
+}
+v39.toString = f40;
+try { v39.toString(); } catch (e) {}
+try { new v39(v11); } catch (e) {}
+C38.e = 2.0;
+const v51 = new C38();
+v51?.constructor;
+try { new C38(); } catch (e) {}
+try { v51.isPrototypeOf(v23); } catch (e) {}
+const o55 = {
+    __proto__: 2.0,
+    ...v51,
+};
+function f56() {
+    for (const v58 in "1024") {
+    }
+    return 5.0;
+}
+o55.toString = f56;
+try { (5.0).constructor(); } catch (e) {}
+let v60;
+try { v60 = o55.toString(); } catch (e) {}
+try { v60.valueOf(); } catch (e) {}

@@ -1,0 +1,14 @@
+const v1 = new WeakMap();
+new v1(192);
+new Int8Array(15);
+const t3 = 192;
+new t3(1504);
+new Uint8ClampedArray(2429);
+new Float32Array(64);
+const v19 = new Int8Array(128);
+function F23(a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v27 = (a25 ^ a25)?.constructor;
+    try { new v27(3n); } catch (e) {}
+}
+new F23(v19);

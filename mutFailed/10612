@@ -1,0 +1,66 @@
+class C3 {
+    constructor(a5, a6) {
+        const t2 = "-129887229";
+        delete t2?.length;
+        try {
+            super.setUTCFullYear(a5, "d", "d");
+        } catch(e9) {
+        }
+        function F10() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        try { F10(..."function", 64n, 0, ...1000000000000.0); } catch (e) {}
+    }
+    static #g;
+    set g(a18) {
+        super[a18];
+        try {
+            this.#g;
+        } catch(e21) {
+        }
+        function F22() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        class C25 extends F22 {
+        }
+        class C26 extends C25 {
+            set d(a28) {
+                super.d = this;
+            }
+        }
+        super.f = "d";
+        const o35 = {
+            "execution": "async",
+            ..."setInt8",
+            "type": "d",
+            "execution": "async",
+            "type": "setInt8",
+            "a": F22,
+            "type": "minor",
+            ["-129887229"]: "d",
+        };
+        gc(o35);
+    }
+}
+new C3("d", "setInt8");
+new C3("setInt8", "-129887229");
+const v39 = new C3("-129887229", "-129887229");
+[-65536,-2147483647,12];
+const v41 = [268435440];
+[65536,-2147483648,-268435456,-2147483647,-67500131,-1764670912,-1024];
+new Uint32Array(1024);
+new Int32Array(512);
+new Uint16Array(257);
+function F52() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C61 extends F52 {
+}
+const o63 = {
+    "g": v39,
+    "type": "d",
+    get d() {
+        return v41;
+    },
+    2: C61,
+};

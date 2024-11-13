@@ -1,0 +1,43 @@
+new Uint8Array(2638);
+class C6 {
+}
+class C7 extends C6 {
+}
+const v8 = new C7();
+const v11 = new Uint8Array(2);
+function f12(a13, a14, a15, a16) {
+    let v17;
+    try { v17 = a13(a16, a14, v8); } catch (e) {}
+    const o21 = {
+        ...v11,
+        n(a19, a20) {
+            return v17;
+        },
+    };
+    o21[1] = o21;
+    return a16;
+}
+for (let v22 = 0; v22 < 500; v22++) {
+    f12(v22, v22, f12, v22);
+}
+new Float32Array(10);
+const v29 = new Uint8ClampedArray(4);
+class C30 extends Float32Array {
+    m(a32, a33, a34) {
+        a34--;
+        try {
+            v29.__proto__ = v29;
+        } catch(e36) {
+        }
+        return 2638;
+    }
+    #h;
+    a;
+    b;
+    static [4] = -41605;
+    [-41605];
+}
+new C30();
+new C30();
+new C30();
+("boolean").split("toString");

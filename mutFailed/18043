@@ -1,0 +1,66 @@
+const v0 = [];
+const v1 = [v0,v0];
+const v2 = [v1,v0,v1,v0];
+const v3 = -v2;
+const v4 = v0.__proto__;
+let v5;
+try { v5 = v4(v2, v0, v3, v1, v4); } catch (e) {}
+const v7 = [v3,Reflect,v0,v5];
+const v8 = Reflect.construct(v5, v7, v5);
+const v9 = [v1,v2,v2];
+function f10(a11) {
+    const o15 = {
+        "d": v9,
+        [v9](a13) {
+            v1[129];
+            a11[15] = a11;
+            super[v9] = this;
+            return v0;
+        },
+        "c": a11,
+        ...a11,
+        ...v5,
+        ...v2,
+        [a11]: v7,
+        487862508: v2,
+        "b": v0,
+        "a": a11,
+        "g": a11,
+        "f": v9,
+        ...a11,
+        [v0]: a11,
+        "c": v0,
+    };
+    return o15;
+}
+f10(v0);
+f10(v9);
+f10(v1);
+[1.7976931348623157e+308,0.4843350253153723,0.8634765767327721,-1.53316719788603,2.0];
+const v21 = [-847.0741028348127,-586134.1698072053,-932.889813890953,NaN,3.5564138597581056];
+[1000000.0,-1000000.0,-1000000.0,2.0,-1.7976931348623157e+308,-1.0,0.705028541358949,-1.0291202866754637e+308,-1.4471853984867502e+308,-343.28448177745986];
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a25;
+    } catch(e27) {
+    }
+}
+new F23(v21, v7);
+new F23(v8, v4);
+new F23(v3, v8);
+[8,14,268435456,536870889];
+[3,-51576,29344,8,8,268435456,1024,256,5,7];
+[9007199254740990,279225562,129,249367329,-9007199254740991,1073741823,-11];
+function F37(a39, a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+for (let v43 = 0; v43 < 5; v43++) {
+    function f44() {
+        const v46 = Array();
+        try { v46.some(F37); } catch (e) {}
+        return ([]).includes();
+    }
+    f44();
+    %OptimizeFunctionOnNextCall(f44);
+}

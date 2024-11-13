@@ -1,0 +1,49 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        function f6(a7, a8, a9, a10) {
+            function f12() {
+                return arguments;
+            }
+            const v14 = new Int8Array();
+            v14.buffer;
+            %OptimizeFunctionOnNextCall(f12);
+            ("find").codePointAt(f6);
+            return arguments;
+        }
+        for (let v18 = 0; v18 < 10; v18++) {
+            f6();
+        }
+        %OptimizeFunctionOnNextCall(f6);
+        f6();
+        this.d = 2;
+    } catch(e21) {
+    }
+    try {
+        this.b = -8531;
+    } catch(e22) {
+    }
+}
+const v23 = new F3(2);
+new F3(2);
+new F3(-8531);
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.resizable = a29;
+    } catch(e32) {
+    }
+}
+const t36 = [-65317,-58155,536870889,976,536870889];
+t36[2] = 13;
+const v35 = new F27(-8531, false, -363226037, 2);
+const v36 = new v35(-8531, v23, 2);
+new F27(2, v36, -363226037);
+const v47 = Promise.reject(Promise);
+function F58(a60, a61) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v62 = new F58(512, 10000);
+const v63 = new v23();
+const v65 = new Uint32Array(v47, 36002, 4, F3);
+([v63,v62,v65[0.29489550717955537]])[2];

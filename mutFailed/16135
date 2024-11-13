@@ -1,0 +1,40 @@
+function f0() {
+    const o12 = {
+        get e() {
+            const o7 = {
+                "maxByteLength": 1325,
+            };
+            new ArrayBuffer(1, o7);
+            new Uint8Array(10);
+            return 10;
+        },
+        "g": "1",
+    };
+    return o12;
+}
+const v13 = f0();
+f0();
+f0();
+new Uint8Array(5);
+new Infinity(59);
+const v27 = new Uint8Array(837);
+const v28 = [];
+function f29() {
+    const o31 = {
+        ...v28,
+        "c": v13,
+        "e": v28,
+        "f": v28,
+        m() {
+        },
+        "h": v27,
+    };
+    const v36 = new Int32Array(1024);
+    for (const v37 of v36) {
+        new SharedArrayBuffer();
+    }
+}
+f29();
+f29();
+for (let v42 = 0; v42 < 5; v42++) {
+}

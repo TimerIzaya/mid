@@ -1,0 +1,74 @@
+function f0() {
+    const o14 = {
+        "h": -3.0,
+        "e": "J",
+        [-29132](a5, a6) {
+            const o9 = {
+                "maxByteLength": 536870888,
+            };
+            const v11 = new ArrayBuffer(3292, o9);
+            new Float32Array(v11);
+            return "J";
+        },
+        "f": f0,
+    };
+    return o14;
+}
+const v15 = f0();
+let v16 = f0();
+let v17 = v16();
+class C18 extends f0 {
+    static d;
+    o(a20) {
+        let v19 = this;
+        f0();
+        ({"d":v19,"f":v16,...v17} = a20);
+        throw v16 != a20 ? v16 : a20;
+        return f0;
+    }
+    static #f;
+    m(a25, a26) {
+        a25 != v15 ? a25 : v15;
+        try {
+            this.#f;
+        } catch(e30) {
+        }
+        return v15;
+    }
+}
+const v31 = new C18();
+const v32 = new C18();
+const v33 = new C18();
+v33.f;
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    a38.f;
+    a39.e;
+    a40.h = a40;
+    try {
+        this.f = a38;
+    } catch(e43) {
+    }
+    try {
+        this.b = a39;
+    } catch(e44) {
+    }
+    try {
+        this.h = a37;
+    } catch(e45) {
+    }
+}
+new F35(v33, v31, v32, v32);
+new F35(v33, v33, v32, v33);
+new F35(v33, v15, v33, v32);
+let v52 = -9007199254740992n;
+v52--;
+function f54() {
+    return v52;
+}
+f54.length;
+%PrepareFunctionForOptimization(f54);
+v31();
+%OptimizeFunctionOnNextCall(f54);
+const v57 = f54();
+v57 ^ v57;

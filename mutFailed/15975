@@ -1,0 +1,11 @@
+new Uint8Array(1);
+const v5 = new Float64Array(104);
+new BigUint64Array(3);
+const v11 = new Function(4, Function, v5);
+new Uint8Array(11);
+const v17 = new Int8Array(7);
+const v18 = [-4];
+try {
+    new SyntaxError(v18, v17, 11, v11);
+} catch(e21) {
+}

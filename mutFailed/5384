@@ -1,0 +1,70 @@
+function f0() {
+    const v4 = -2 != f0 ? -2 : f0;
+    const v6 = Symbol.iterator;
+    const o21 = {
+        [v6]() {
+            let v8 = 10;
+            const o20 = {
+                next() {
+                    v8--;
+                    const v12 = v8 == 0;
+                    const o19 = {
+                        "done": v12,
+                        p(a14, a15, a16, a17) {
+                            super[this];
+                            return v4;
+                        },
+                        "h": this,
+                        "value": v8,
+                    };
+                    return o19;
+                },
+            };
+            return o20;
+        },
+    };
+    const v23 = [-882453.1668433619,-2.0];
+    const v26 = new f0(9);
+    try { v23.toLocaleString(v26); } catch (e) {}
+    const o48 = {
+        "a": 3,
+        "d": "8qWh",
+        "f": "8qWh",
+        toString(a29) {
+            var g = this;
+            [] = "8qWh";
+            try {
+                const t36 = "8qWh";
+                t36.length *= 3;
+                super[a29] = this;
+                v23[5] = a29;
+                const t40 = super.valueOf(this, 3, this, "8qWh", this);
+                t40[8] *= 268435441;
+                const o38 = {
+                    "maxByteLength": 2147483647,
+                };
+                const v40 = new ArrayBuffer(127, o38);
+                new DataView(v40);
+                /Vt\u{12345}/gviy;
+                /a*b|c/vimy;
+                /a\na(?=b)c?/guim;
+            } catch(e47) {
+            }
+            return a29;
+        },
+    };
+    return o48;
+}
+f0();
+f0();
+f0();
+[1073741824,2147483647,1073741824,11,268435440,7,-9223372036854775808];
+[28326,2147483647,536870889,-4096,-2147483649,-11754];
+[-1,-11,-45090,2,-2147483649,640333583];
+const o59 = {
+    ..."boolean",
+};
+function f60(a61, a62) {
+    return a61;
+}
+Object.defineProperty(o59, 1, { configurable: true, get: f60 });

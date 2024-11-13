@@ -1,0 +1,38 @@
+const v3 = [1073741824,436712973,257,1015820860,8,9223372036854775807,1073741824];
+v3[1] = v3;
+const v4 = [402389123,64,6,1673913006];
+const v5 = [10,7,-8644,1094187460,15,256,1000,536870912];
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a10.toString(); } catch (e) {}
+    try {
+        const t8 = "boolean";
+        t8.a = "14w";
+    } catch(e12) {
+    }
+    try {
+        a9.f = a8;
+    } catch(e13) {
+    }
+}
+const v14 = new F6("boolean", "14w", v4);
+const v15 = v4?.constructor;
+let v16;
+try { v16 = new v15("valueOf", "valueOf", v14); } catch (e) {}
+const v17 = new F6("boolean", "boolean", v3);
+const v18 = v17?.constructor;
+try { new v18(v4, v3, v4); } catch (e) {}
+new F6("boolean", "valueOf", v5);
+new v16();
+function f26() {
+    return f26;
+}
+f26.prototype = v16;
+for (let v29 = 0; v29 < 25; v29++) {
+    try { ("p").codePointAt(v5); } catch (e) {}
+    const t32 = "p";
+    t32["p" + v29] = v29;
+}
+const v33 = [8,-65537,9007199254740991,-268435456,4294967296,8,44846,-13];
+try { v33.with("valueOf", F6); } catch (e) {}
+Object.defineProperty(v33, 10n, { get: f26, set: f26 });

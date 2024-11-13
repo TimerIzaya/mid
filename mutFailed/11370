@@ -1,0 +1,74 @@
+class C3 {
+    constructor(a5) {
+        Object.defineProperty(this, -1, { configurable: true, value: this });
+        for (let v6 = 0; v6 < 32; v6++) {
+            this["p" + v6] = v6;
+        }
+    }
+    static 5;
+    static 8 = 5.0;
+    static [5.0];
+}
+new C3(-457.3527029899474);
+const v10 = new C3(5.0);
+v10.h = v10;
+const v11 = new C3(2.220446049250313e-16);
+const v12 = v11.p7;
+4n ^ 4n;
+const v20 = [286977509,536870889,-380982641,1073741825,-14496,-9223372036854775807];
+const v21 = [64918,-21903,65536,-65537,-9007199254740991,268435440];
+function f22(a23, a24, a25, a26) {
+    v20 < 1073741823n;
+    try { a25(); } catch (e) {}
+    Reflect.construct(v12, [Reflect,v12], a24);
+    const v32 = /(?:a*)+q(?<a>.)/guds;
+    function f33(a34) {
+        a34.constructor;
+        return a23;
+    }
+    for (let [i43, i44] = (() => {
+            v20.toLocaleString(f33);
+            for (let v38 = 0; v38 < 5; v38++) {
+                v21[a24];
+                v32["exec"]("exec");
+            }
+            return [0, 10];
+        })();
+        (() => {
+            const v45 = i43 < i44;
+            !v45;
+            return v45;
+        })();
+        (() => {
+            i44--;
+            const v51 = Symbol.toPrimitive;
+            const o53 = {
+                [v51]() {
+                },
+            };
+        })()) {
+        for (let v56 = 0; v56 < 5; v56++) {
+            f33(v32);
+        }
+    }
+    return a25;
+}
+for (let v58 = 0; v58 < 5; v58++) {
+    f22(v58, v58, v58, v58);
+}
+%OptimizeFunctionOnNextCall(f22);
+f22();
+function f61() {
+}
+f61.arguments = f61;
+class C62 extends f61 {
+    toString(a64, a65) {
+        const v66 = this?.constructor;
+        try { new v66(); } catch (e) {}
+        -this;
+    }
+}
+const v69 = C62?.__defineGetter__;
+try { new v69(4n, 5.0); } catch (e) {}
+const v71 = new C62();
+try { v71.toString(); } catch (e) {}

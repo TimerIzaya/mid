@@ -1,0 +1,52 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f11(a12) {
+        const v14 = new BigUint64Array();
+        v14["copyWithin"]();
+    }
+    Object.defineProperty(this, "f", { writable: true, enumerable: true, set: f11 });
+    try {
+        this.d = a9;
+    } catch(e17) {
+    }
+    try {
+        this.f = a10;
+    } catch(e18) {
+    }
+}
+const v19 = new F6(F6, 65537n, -65535n);
+const v20 = new F6(64n, 2147483647n, -65535n);
+const v21 = new F6(-2113215925n, v19, -65535n);
+Object.defineProperty(v21, "a", { writable: true, configurable: true, enumerable: true, value: 64n });
+function f22(a23, a24, a25) {
+    %VerifyType(-65535n + a24);
+    try {
+        v21.a = 2147483647n;
+    } catch(e27) {
+    }
+    const o31 = {
+        __proto__: v21,
+        get f() {
+            const v29 = this[9];
+            return v29 | v29;
+        },
+        "f": a23,
+        "d": 65537n,
+        ...v20,
+        "b": 64n,
+        "c": F6,
+    };
+    return o31;
+}
+f22(-65535n, 65537n, 2147483647n);
+f22(65537n, -65535n, -2113215925n);
+f22(65537n, 2147483647n, 2147483647n);
+class C38 {
+    splice(a40, a41) {
+        const v42 = `7${this}dm${"unicode"}m`;
+        function F43(a45, a46, a47) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        F43(F43(F6, -2113215925n), "unicode", v42, F43);
+    }
+}

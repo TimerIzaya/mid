@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = this;
+    try {
+        this.d = -10490;
+    } catch(e3) {
+    }
+    try {
+        this.a = -10490;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+v5.h = F0;
+const v6 = new F0();
+v6.b = v5;
+const v7 = new F0();
+const v8 = v7?.constructor;
+try { new v8(); } catch (e) {}
+Object.defineProperty(v7, "b", { writable: true, value: v6 });
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v14 = this?.constructor;
+    try { new v14(a13, v5); } catch (e) {}
+    let v16;
+    try { v16 = this.constructor(F10, F0); } catch (e) {}
+    v16.b = a13;
+    try {
+        v5.h = v6;
+    } catch(e17) {
+    }
+}
+new F10(v5, v6);
+const v19 = new F10(v6, F0);
+const v20 = v19?.constructor;
+v20.b = v20;
+let v21;
+try { v21 = new v20(F0, v5); } catch (e) {}
+v21.length;
+const v23 = new F10(v6, F10);
+try { v23.hasOwnProperty(v6); } catch (e) {}
+const v25 = v23?.__lookupGetter__;
+try { new v25(v21); } catch (e) {}
+try { new v25(v7); } catch (e) {}
+const v30 = ("clz32")?.toLocaleUpperCase;
+try { v30(); } catch (e) {}
+try { new v30(); } catch (e) {}
+let v35 = ("c").length;
+v35--;
+!false;
+255 & 255;
+-10000;
+class C44 {
+}
+C44.length;
+const v46 = new C44();
+class C47 {
+    [255] = 9007199254740990;
+    static m(a49, a50) {
+    }
+    [false] = v5;
+    static [255];
+    [v46] = v23;
+}
+try { new C47(); } catch (e) {}
+/a\W?/d;

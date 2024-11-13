@@ -1,0 +1,36 @@
+const v2 = new Uint16Array(24);
+const v5 = new Uint8ClampedArray(255);
+const v8 = new Uint16Array(3410);
+const v10 = new v8();
+const v11 = [v8,3410];
+const v12 = [255,v11,v11];
+const v13 = [24];
+function f14(a15, a16, a17) {
+    const o32 = {
+        ...v5,
+        "e": Uint8ClampedArray,
+        1491192937: 24,
+        "f": a15,
+        "a": v8,
+        [v10]: v13,
+        o(a19, a20, a21, a22) {
+            v8[9] = a17;
+            new Float64Array(8);
+            new v10(129);
+            new Int8Array(1000);
+            return Int8Array;
+        },
+    };
+    return o32;
+}
+f14(v11, 3410, v2);
+f14(v11, 24, v12);
+f14(v12, 24, v11);
+const v36 = [-1.7976931348623157e+308,-0.0,-1000000000000.0,18.192610755442843,-7.676824412389783,1000000000.0,-3.0];
+const o37 = {
+    __proto__: v36,
+};
+o37.unshift();
+try { SharedArrayBuffer.apply(); } catch (e) {}
+const v43 = new SharedArrayBuffer(217);
+v43.slice(v43, 16);

@@ -1,0 +1,41 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.e = F0;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v9 = [F0,true,v6,v5];
+const v10 = [v9,v9,true,v7,F0];
+const v11 = [v7,v7,v10];
+class C12 extends F0 {
+    static {
+        v11 && v5;
+        v6.length;
+    }
+    constructor(a17, a18, a19, a20) {
+        super();
+        const v21 = a18 % v5;
+        const v22 = [a18,a20,v21];
+        [v22,v22,a20,v21];
+        [v22,v6,v11,v5,this];
+    }
+    static a;
+}
+new v6(v10, v7, v11, v9);
+new C12(v11, v6, v10, v9);
+new C12(v9, v5, v11, v10);
+function f28() {
+    return f28;
+}
+const v29 = [-9223372036854775808,58777,2];
+Int16Array[Symbol.isConcatSpreadable] = f28;
+const v34 = new Int16Array(v29, 8, 8);
+v29.concat(8, v34, Int16Array);

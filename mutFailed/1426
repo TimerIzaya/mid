@@ -1,0 +1,82 @@
+class C3 {
+    #p(a5, a6) {
+        const v8 = Symbol.iterator;
+        const o17 = {
+            [v8]() {
+                const o16 = {
+                    next() {
+                        let v11 = this;
+                        v11--;
+                        const v14 = 10 == 0;
+                        const o15 = {
+                            "done": v14,
+                            "value": -1.0481060269526484e+308,
+                        };
+                        return o15;
+                    },
+                };
+                return o16;
+            },
+        };
+        return "string";
+    }
+}
+C3.name;
+const v19 = new C3();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+const v22 = new C3();
+const v23 = new C3();
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(v19, a27, v23, v19); } catch (e) {}
+    a28?.__lookupGetter__;
+    try {
+    const t0 = "string";
+    new t0(C3);
+    } catch (e) {}
+    const v33 = a29?.constructor;
+    try { new v33(); } catch (e) {}
+    try {
+        this.b = a26;
+    } catch(e35) {
+    }
+    try {
+        this.d = a28;
+    } catch(e36) {
+    }
+    try {
+        this.e = this;
+    } catch(e37) {
+    }
+}
+const v38 = new F24(-588103463, v22, v22, v23);
+const v39 = new F24(-588103463, v38, v38, v38);
+const v40 = new F24(C3, "string", v22, v39);
+const v41 = v40?.e;
+try { new v41(); } catch (e) {}
+const v43 = [];
+class C44 {
+}
+try { v22.toString(); } catch (e) {}
+const v46 = new C44();
+const v47 = v46?.__defineGetter__;
+try { new v47("string", v38); } catch (e) {}
+function F49(a51, a52) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.propertyIsEnumerable(a51); } catch (e) {}
+    this.c = a52;
+}
+const v54 = new F49(v46, v43);
+function f55(a56, a57) {
+    return a57;
+}
+const v60 = [v54];
+v60[0];
+const o62 = {
+    "arguments": v60,
+    "type": v19,
+};
+const v63 = o62?.constructor;
+try { new v63(v39); } catch (e) {}
+new Worker(f55, o62);

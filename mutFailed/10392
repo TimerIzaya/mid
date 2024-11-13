@@ -1,0 +1,65 @@
+function f0() {
+    502318493 !== 502318493;
+    const o11 = {
+        get d() {
+            var d = 1000000000.0;
+            const v6 = this[1073741823];
+            try { new v6(v6, 502318493); } catch (e) {}
+            return 7;
+        },
+        "b": 1000000000.0,
+        __proto__: 502318493,
+        6: 502318493,
+        1940330987: 570192021,
+        [502318493]: 570192021,
+    };
+    return o11;
+}
+const v12 = f0();
+f0();
+const v14 = f0();
+try { v14.isPrototypeOf(v12); } catch (e) {}
+try { Set.bind(Set); } catch (e) {}
+const v18 = new Set();
+const v21 = new Array(1);
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    a28 ^ a28;
+    a29--;
+    try {
+        this.g = a28;
+    } catch(e32) {
+    }
+}
+const v33 = F25?.bind;
+try { new v33(v21); } catch (e) {}
+const o36 = {
+    "maxByteLength": 1,
+};
+new ArrayBuffer(3471, o36);
+new F25(v12, -1229172910, 1);
+new F25(v14, v21, -1229172910);
+new F25(v12, v18, 1);
+function F45(a47, a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v50 = this?.__lookupGetter__;
+    try { new v50(a47); } catch (e) {}
+    a49.g = a49;
+    try {
+        const t48 = null;
+        t48.valueOf = v14;
+    } catch(e53) {
+    }
+}
+const v54 = new F45(3011, Uint8ClampedArray, F45);
+v54.constructor = Date;
+const t55 = v54.constructor;
+const v56 = new t55(v54, Uint8ClampedArray, 3011);
+([NaN,52.65298068517177,-4.0])["includes"](3, -9223372036854775807);
+const o63 = {
+    o(a62) {
+        return a62;
+    },
+};
+o63["o"]();
+try { v56.setUTCSeconds(v12, f0); } catch (e) {}

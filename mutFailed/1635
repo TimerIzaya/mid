@@ -1,0 +1,88 @@
+function f0() {
+    const o12 = {
+        __proto__: -0.21615739885491259,
+        "c": -1.631384328552335e+308,
+        "g": 1000000000000.0,
+        set e(a5) {
+            const v7 = [a5,Reflect];
+            let v8 = Reflect.construct(a5, v7, a5);
+            v8 = 1000000000000.0;
+            super.c = this;
+            v7[Symbol.isConcatSpreadable];
+        },
+        "b": 1000000000000.0,
+    };
+    o12.toString = f0;
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0();
+v15[Symbol.toPrimitive] = f0;
+class C18 extends f0 {
+    constructor(a20) {
+        super();
+        Object.defineProperty(this, v14 % this, { enumerable: true, get: f0 });
+        try {
+            this.fuck(this, true, v15);
+        } catch(e24) {
+        }
+    }
+    #h = v13;
+    [v14] = v15;
+    static #e;
+    static 2;
+}
+const v25 = new C18(v15);
+function f26() {
+    return Symbol;
+}
+function f27(a28) {
+    class C29 {
+    }
+    new C29();
+}
+Object.defineProperty(v25, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f26, set: f27 });
+const v33 = new C18(v13);
+const v34 = new C18(C18);
+function f35() {
+    return f35;
+}
+function f36(a37) {
+    const v38 = /gk4b*/vmsy;
+    const v40 = Symbol.iterator;
+    const o44 = {
+        [v40]() {
+            const o43 = {
+                next() {
+                    return v38;
+                },
+            };
+        },
+    };
+    return o44;
+}
+f35.toString = f36;
+function f45(a46, a47, a48) {
+    a47[Symbol.toPrimitive] = f36;
+    const o59 = {
+        [f35]: v25,
+        "e": v13,
+        [a46](a52, a53, a54) {
+            return v14[a54()];
+        },
+        get b() {
+            this & a47;
+            return v25;
+        },
+        "h": v34,
+        __proto__: v33,
+        2: v15,
+    };
+    return a46;
+}
+f45(v13, v33, v34);
+f45(v25, v25, v13);
+f45(v15, v14, v13);
+const v66 = [1.9600488149280893e+306,468.9269702772963];
+([Infinity,-686.9856326146617,0.47369378110968274,-7.24289104755818]).includes(...v66);

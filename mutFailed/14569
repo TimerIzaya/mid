@@ -1,0 +1,42 @@
+function f0() {
+    const o8 = {
+        p(a5) {
+            try {
+                this.fuck(-2.220446049250313e-16, a5);
+            } catch(e7) {
+            }
+            return -2.220446049250313e-16;
+        },
+        ["9223372036854775807"]: "9223372036854775807",
+        ..."9223372036854775807",
+        [-1.0758838468395036e+308]: -2.220446049250313e-16,
+    };
+    o8[16];
+    return o8;
+}
+f0();
+f0();
+f0();
+209 / 209;
+new Uint8Array(209);
+new Int32Array(1000);
+new Uint16Array(512);
+function f23() {
+    const o25 = {
+        get c() {
+            return this;
+        },
+    };
+    o25.d = o25;
+    return o25;
+}
+const v26 = f23();
+v26.d = v26;
+class C27 extends f23 {
+}
+const v28 = new C27();
+const v30 = new Int32Array(v26, v28);
+Object.defineProperty(v30, "toString", { writable: true, configurable: true, value: f23 });
+try { Reflect.construct(Uint16Array, Uint16Array); } catch (e) {}
+const v33 = Reflect.defineProperty(v26, v30, v28);
+v33 || v33;

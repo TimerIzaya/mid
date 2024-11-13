@@ -1,0 +1,83 @@
+function f0() {
+}
+function f1() {
+    for (let v2 = 0; v2 < 500; v2++) {
+        class C4 {
+        }
+        const v7 = new Int32Array(v2, v2, 257);
+        let v9 = new Map();
+        [...v9] = v7;
+    }
+    return f0;
+}
+const v10 = [f0,f1];
+const v11 = [f0,v10,f0,f0];
+const v12 = [f1];
+const o15 = {
+    "maxByteLength": f1,
+    "a": v12,
+    "f": f0,
+    "b": f1,
+    "e": 536870889,
+    [v11]: v11,
+};
+SharedArrayBuffer[SharedArrayBuffer] = o15;
+const o16 = {
+};
+try {
+    o16.a = v12;
+} catch(e17) {
+}
+try {
+    const o18 = {
+    };
+    o18.a = o18;
+    o18.e = f0;
+} catch(e19) {
+}
+try {
+    const o20 = {
+    };
+    o20.a = v12;
+    o20.cause = f0;
+    o20.c = v12;
+} catch(e21) {
+}
+try {
+    const o22 = {
+    };
+    o22.a = v12;
+    o22.e = f0;
+    o22.c = v11;
+} catch(e23) {
+}
+const v25 = new SharedArrayBuffer(217, o15);
+new Uint8Array(v25, v12, SharedArrayBuffer, v11);
+function f31() {
+    return v10;
+}
+function F32(a34, a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C38 {
+        static {
+            Object.defineProperty(this, 217, { writable: true, enumerable: true, value: this });
+        }
+    }
+    try {
+        o15.e = a37;
+    } catch(e40) {
+    }
+    try {
+        this.a = v12;
+    } catch(e41) {
+    }
+    try {
+        this.g = f0;
+    } catch(e42) {
+    }
+}
+new F32(3.0, 1e-15, v10, 3.0);
+new F32(3.0, 3.0, v12, 0.761266496376211);
+new F32(3.0, 1e-15, v11, 0.761266496376211);
+const v47 = new Float32Array(Float32Array, Float32Array);
+delete v47[536870888];

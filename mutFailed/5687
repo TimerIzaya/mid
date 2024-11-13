@@ -1,0 +1,73 @@
+class C3 {
+    constructor(a5) {
+        try {
+            this.f = a5;
+        } catch(e6) {
+        }
+        Reflect.construct(a5, [a5,Reflect,Reflect], a5);
+    }
+    valueOf(a11) {
+        const o12 = {
+        };
+        try {
+            o12.f = this;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.f = this;
+            o14.g = a11;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.f = this;
+            o16.g = a11;
+            o16.d = a11;
+        } catch(e17) {
+        }
+        try {
+            const o18 = {
+            };
+            o18.f = this;
+            o18.g = a11;
+            o18.e = 0.07974897152253235;
+        } catch(e19) {
+        }
+        return 0.6297051633365477;
+    }
+    o(a21, a22) {
+        0.6297051633365477 / C3;
+        a22 |= this;
+        return C3;
+    }
+}
+new C3(536870889);
+const v25 = new C3(C3);
+const v26 = new C3(v25);
+function f30(a31, a32) {
+    const o51 = {
+        81: a31,
+        "a": 536870889,
+        "c": 256,
+        "h": v26,
+        1: a31,
+        __proto__: C3,
+        set d(a34) {
+            for (let i37 = 0, i38 = 10; i37 < i38; i37++, i38--) {
+                const o49 = {
+                    "execution": "async",
+                    "type": "major",
+                };
+                gc(o49);
+            }
+        },
+    };
+    return o51;
+}
+f30(256, 256);
+f30(536870889, 256);
+f30(536870889, 256);
+([Float32Array])["concat"]().pop();

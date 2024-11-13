@@ -1,0 +1,22 @@
+"512" + 5;
+const t0 = "-9007199254740991";
+const v6 = new t0(5);
+const v9 = new Uint8ClampedArray(10);
+const v12 = new Float64Array(16);
+Uint8ClampedArray[15] = v12;
+function f13(a14, a15) {
+    const o16 = {
+        ...a14,
+    };
+    o16.g = "-9007199254740991";
+    o16.g = o16;
+    return f13;
+}
+f13.d = "-9007199254740991";
+f13.d = f13;
+%PrepareFunctionForOptimization(f13);
+const t17 = v6();
+t17(f13);
+%OptimizeFunctionOnNextCall(f13);
+const v20 = v9()?.__lookupGetter__;
+try { new v20(16); } catch (e) {}

@@ -1,0 +1,35 @@
+const v2 = new Array(64);
+new v2();
+function f5(a6, a7) {
+    const o21 = {
+        get c() {
+            const v9 = super.c;
+            const v10 = v2.length;
+            function F11(a13, a14, a15) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = Array;
+                } catch(e16) {
+                }
+                try {
+                    this.a = a13;
+                } catch(e17) {
+                }
+            }
+            new F11(v2, F11, a6);
+            const v19 = new F11(a6, a6, v10);
+            new F11(v9, v19, v19);
+            return a6;
+        },
+    };
+    return o21;
+}
+f5(f5, v2);
+const v23 = f5(v2, 64);
+f5(v23, v23);
+const o27 = {
+};
+gc(o27);
+for (let v32 = 0; v32 < 10; v32++) {
+    v32.__defineGetter__;
+}

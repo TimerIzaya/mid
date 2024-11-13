@@ -1,0 +1,10 @@
+new Uint16Array(Uint16Array);
+new Int8Array(202);
+const t2 = Int16Array.name;
+const v9 = new t2(1024);
+let v10;
+try { v10 = v9.join(Int16Array); } catch (e) {}
+function f12() {
+    return v10;
+}
+gc();

@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 512;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+new v5();
+typeof v5 === "object";
+typeof BigInt64Array === "number";
+const v15 = new BigInt64Array(127);
+const v17 = 2912 - "object";
+let v19;
+try { v19 = Float64Array.bind(F0); } catch (e) {}
+new Float64Array(2912);
+let v21 = 13;
+v21--;
+new Int8Array(v21);
+const v25 = [];
+const v26 = [-6.786788220284745e+307,3.0441372838377454,0.16607240252493405,9.1870148243921,-1.1724672307306477e+307,-1.3233810423722777e+308,0.3268930863961368];
+const v27 = [1.1232876344345233e+308,1.0,3.0,-1.7976931348623157e+308,892.6991223982873,1000000.0,0.1500507613745743,8.371259043064821,1e-15,-192.2897093527156];
+const v28 = [1000000.0,2.0511322290964932e+307];
+v28[2] = v17;
+try { v28.includes(Int8Array); } catch (e) {}
+function f30(a31, a32) {
+    v5[2] = a32;
+    a31[2] = a31;
+    try { a32.findLast(v26); } catch (e) {}
+}
+const v34 = f30(v27, v25);
+f30(v28, v26);
+new v5(10);
+new Uint8ClampedArray(1739);
+new BigUint64Array(2492);
+f30(v25, v26);
+%VerifyType(v34);
+const v47 = v28 || v34;
+v47.asinh = v19;
+f30(v25, v25);
+try { ("asinh").lastIndexOf(v15); } catch (e) {}
+try { v47["asinh"](); } catch (e) {}
+try {
+    try { v47.trim(); } catch (e) {}
+    ("-6").indexOf("deleteProperty", 5);
+} catch(e56) {
+}

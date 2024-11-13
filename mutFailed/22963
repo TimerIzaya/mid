@@ -1,0 +1,62 @@
+function f0() {
+}
+class C4 {
+    #valueOf(a6) {
+        return -9007199254740990;
+    }
+    constructor(a11, a12) {
+        function f13(a14, a15, a16) {
+            try {
+                a16.b = C4;
+            } catch(e17) {
+            }
+            return f0;
+        }
+        f13(a12, 536870887, this);
+    }
+}
+const v19 = new C4(3, -9007199254740990);
+new C4(536870887, 536870887);
+new C4(536870887, 3);
+new WeakSet();
+const v26 = new Float32Array(1024);
+new BigUint64Array(10);
+new Uint32Array(4);
+class C34 {
+}
+const v35 = Array();
+const v36 = new C34();
+function f37(a38, a39, a40) {
+    const o48 = {
+        toString(a42, a43, a44) {
+            a39 < v35;
+            super[v36];
+            return Array;
+        },
+        get d() {
+        },
+    };
+    const v49 = C4.__lookupSetter__;
+    [-5,2147483649,-4294967295,1,8,-4331,52354,15231];
+    v19["unshift"]();
+    const v53 = [-1539,1,12];
+    function f54() {
+        return f54;
+    }
+    function f55(a56, a57) {
+        const o58 = {
+            [v26]: v53,
+        };
+        return a57;
+    }
+    f55(f55);
+    f0(f54);
+    let v61;
+    try { v61 = new v49(a38); } catch (e) {}
+    return v61;
+}
+%PrepareFunctionForOptimization(f37);
+const v62 = f37();
+const v63 = f37(v62, v62, Array);
+%OptimizeFunctionOnNextCall(v63);
+f37(v35, f37, v63);

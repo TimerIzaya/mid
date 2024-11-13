@@ -1,0 +1,76 @@
+function f0() {
+    const o9 = {
+        [-5.653778194799783]: -5.653778194799783,
+        4294967296: -5.653778194799783,
+        "e": -5.653778194799783,
+        [-4.0]: -5.653778194799783,
+        set a(a5) {
+            super.f = -5.653778194799783;
+        },
+        ...9,
+        "h": -4.0,
+        "f": 9,
+    };
+    return o9;
+}
+f0();
+const v11 = f0();
+const v12 = f0();
+class C16 extends f0 {
+    [f0];
+    f = 5.0;
+    static valueOf(a18, a19, a20) {
+        const v22 = Symbol.iterator;
+        const o31 = {
+            [v22]() {
+                let v24 = 10;
+                const o30 = {
+                    next() {
+                        v24--;
+                        const v28 = v24 == 0;
+                        const o29 = {
+                            "done": v28,
+                            "value": v24,
+                        };
+                        return o29;
+                    },
+                };
+                return o30;
+            },
+        };
+        return v11;
+    }
+}
+const v32 = new C16();
+new C16();
+const v34 = new C16();
+function f35(a36, a37) {
+    const o50 = {
+        __proto__: v12,
+        [0.655016801038041]: C16,
+        ...C16,
+        "h": a36,
+        "a": v12,
+        valueOf(a39, a40, a41, a42) {
+            Object.defineProperty(a40, "a", { configurable: true, value: this });
+            const v44 = Symbol.toPrimitive;
+            const o49 = {
+                [v44]() {
+                    [179091.08706617355,NaN,-Infinity];
+                    [-1.5711829809201357e+308];
+                    [1000000.0,-1.7976931348623157e+308,1000.0,1.3195502716844557e+308,-1e-15,-8.83302287648183e+307];
+                    return a39;
+                },
+            };
+            return a40;
+        },
+    };
+    return o50;
+}
+f35(v11, v34);
+f35(f35(v32, v11), v32);
+const v60 = [256,54026];
+v60.toString = f0;
+-2 | -2;
+!-2;
+Math.hypot(v60);

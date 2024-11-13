@@ -1,0 +1,82 @@
+function f1() {
+    return 257;
+}
+WeakSet[Symbol.toPrimitive] = f1;
+const v7 = new WeakSet();
+class C8 extends WeakSet {
+    set d(a10) {
+        a10[84] = a10;
+        const v11 = WeakSet != a10;
+        if (v11) {
+            %VerifyType(WeakSet);
+        } else {
+            try { a10(a10, v11); } catch (e) {}
+        }
+    }
+    set b(a14) {
+        let v13 = this;
+        const v17 = 1073741824 ** a14;
+        Math.imul(v13, v17);
+        const v20 = ~(v17 && 1073741824);
+        Math.min(v13);
+        v20 & v20;
+        ++v13;
+    }
+}
+const v24 = new C8();
+const v25 = new C8();
+const v26 = new v24();
+let v27 = [4.283399590518355,0.49753255325758483,1e-15,-2.2250738585072014e-308,1.7976931348623157e+308,0.865680527053519,-1.0,-1000000000000.0,4.252577405854419];
+const v29 = Symbol.toPrimitive;
+v27[v29] = Symbol;
+const v30 = [0.7873883148578508];
+function f31(a32, a33) {
+    function F34(a36, a37) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v38 = this.constructor;
+        try { new v38(); } catch (e) {}
+        try { this.constructor(); } catch (e) {}
+    }
+    new F34();
+    return v29;
+}
+v30.toString = f31;
+const v42 = [-7.264256387027248,2.0,-1.6418389656572164e+308,5.0,1000000.0,5.0,-1.7690333006431516,0.1574870753845532,317.0304476063957,1e-15];
+let v43 = WeakSet;
+v43.toString = f31;
+let v44 = 4.150176177212824;
+[v44 &= -2.0];
+new v43();
+function f59(a60, a61) {
+    const o67 = {
+        [a61]: a61,
+        __proto__: v27,
+        ...C8,
+        1: v30,
+        "e": f59,
+        "a": v26,
+        [v27]: f59,
+        [WeakSet]: v7,
+        "b": v42,
+        set g(a63) {
+            let v64;
+            try { v64 = new a63(); } catch (e) {}
+            super.e **= v64;
+            +v64;
+            this[2147483648];
+            super[v43] = v64;
+            ({"b":v27,"g":v43,} = v7);
+        },
+        "g": a60,
+        /*
+        __proto__: v24,
+        */
+        "c": WeakSet,
+    };
+    return o67;
+}
+f59(v26, v43);
+f59(v25, v30);
+f59(v26, WeakSet);
+const v73 = new Int8Array(221);
+new Int32Array(v73);

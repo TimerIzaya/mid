@@ -1,0 +1,72 @@
+class C1 {
+    static #f = true;
+    toString() {
+        function f3(a4) {
+            return a4;
+        }
+        class C5 extends f3 {
+            b = C1;
+            [this];
+            static #e;
+        }
+        return f3;
+    }
+    static a;
+    static [true];
+}
+const v6 = new C1();
+const v7 = new v6();
+new C1();
+class C9 extends C1 {
+    [v7];
+    o(a11, a12) {
+        super.e = a11;
+        super.h = v7;
+        return this;
+    }
+    static #toString(a14) {
+        %VerifyType(a14);
+        try {
+            this.#toString(v6);
+        } catch(e16) {
+        }
+        return a14;
+    }
+}
+new C9();
+new C9();
+const v19 = new C1();
+function f23() {
+    return true;
+}
+class C27 {
+}
+const v28 = new v19();
+function f29(a30, a31) {
+    function f32() {
+        return f32;
+    }
+    class C33 extends f32 {
+    }
+    class C34 extends C33 {
+    }
+    function f35(a36, a37, a38, a39) {
+        try { a36(v19); } catch (e) {}
+        let v41 = a37 & a37;
+        new a30();
+        v41++;
+        const o48 = {
+            n(a46, a47) {
+                return this;
+            },
+        };
+        return v28;
+    }
+    for (let v49 = 0; v49 < 500; v49++) {
+        f35();
+    }
+    return C27;
+}
+Object.defineProperty(v28, "constructor", { value: f29 });
+const v51 = v7.constructor;
+v51(v51, v28);

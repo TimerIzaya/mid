@@ -1,0 +1,57 @@
+const v0 = [];
+new WeakSet();
+function f6(a7, a8, a9, a10) {
+    const o26 = {
+        set h(a12) {
+            for (let v13 = 0; v13 < 100; v13++) {
+                f6(a8, a12, this, a10);
+            }
+            super.f &= a9;
+            a12 += a12;
+            for (const v16 in v0) {
+                %VerifyType(WeakSet);
+                try {
+                    f6("3", 1000000000.0, a9, "3");
+                } catch(e20) {
+                }
+            }
+            const v21 = new Set();
+            super.b |= a12;
+            v21[WeakSet] = this;
+            const o22 = {
+                "apply": f6,
+                "call": f6,
+                "construct": f6,
+                "defineProperty": f6,
+                "deleteProperty": f6,
+                "get": f6,
+                "getOwnPropertyDescriptor": f6,
+                "getPrototypeOf": f6,
+                "has": f6,
+                "isExtensible": f6,
+                "preventExtensions": f6,
+                "set": f6,
+                "setPrototypeOf": f6,
+            };
+            new Proxy(v0, o22);
+            v0.length;
+        },
+        __proto__: v0,
+        [36715n]: 9007199254740991n,
+        "f": a7,
+        "c": a10,
+    };
+    return o26;
+}
+f6(f6, -35496122n, -35496122n, 36715n);
+f6(9007199254740991n, -35496122n, 36715n, -35496122n);
+f6(v0, 9007199254740991n, 9007199254740991n, 36715n);
+class C30 {
+}
+const v31 = new C30();
+v31[Symbol.toPrimitive] = f6;
+class C34 extends C30 {
+    [v31];
+}
+const v35 = new C34();
+v35.propertyIsEnumerable(v35);

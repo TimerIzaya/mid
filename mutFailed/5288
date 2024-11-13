@@ -1,0 +1,43 @@
+function f3(a4, a5) {
+    const o18 = {
+        ...f3,
+        8: 6n,
+        "e": a5,
+        valueOf(a7, a8) {
+            new Int16Array(9);
+            new Int32Array(255);
+            new Int32Array(512);
+            return a4;
+        },
+    };
+    return a5;
+}
+const v19 = f3(33989n, f3);
+const v20 = v19(-128n, 6n);
+new Uint32Array(f3(6n, v20));
+const v27 = new v19(4);
+new Int16Array(1795);
+const v32 = new Date();
+const v33 = [-1000.0,2.0,6.498411136794167e+307,1.5301115680028905e+308,-1.0240581174585665e+308,-73553.73579822388,-474.34134439650745,2.300981674378132,-816063.8647013834,-1.2620665326245469e+308];
+const v34 = [];
+const v35 = [];
+function f36(a37, a38) {
+    const o48 = {
+        129: v27,
+        __proto__: v33,
+        o(a40, a41, a42, a43) {
+            [a37];
+            Reflect.apply(a41.reduce, v20);
+            return 0;
+        },
+        "f": v35,
+        "e": v32,
+        ...a38,
+    };
+    return v27;
+}
+f36();
+%PrepareFunctionForOptimization(f36);
+v20(v33, v35);
+%OptimizeFunctionOnNextCall(f36);
+f36(v20, v34);

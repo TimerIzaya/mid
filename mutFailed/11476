@@ -1,0 +1,16 @@
+new Worker(1024, Worker, 1024, 1024);
+const v5 = new BigInt64Array(11);
+const v8 = new TypeError(536870912);
+const v9 = [BigInt64Array,BigInt64Array,1024,536870912,11];
+[v9,v9,v5,Worker,TypeError];
+[Worker,TypeError,v8];
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v14 = 0; v14 < 5; v14++) {
+        const v15 = [0.8307152163010869,1.0,0.0];
+        v15[2] = v15;
+        v15.length = v14;
+    }
+}
+new F12();
+new F12();

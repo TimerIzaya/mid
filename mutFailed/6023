@@ -1,0 +1,49 @@
+class C3 {
+    static 4278794090 = 9n;
+    static #m(a5) {
+        super.b = a5;
+        let {"h":v6,} = a5;
+        return v6;
+    }
+    static d;
+    static n(a8, a9) {
+        const v11 = Symbol.iterator;
+        const o20 = {
+            [v11]() {
+                let v13 = 10;
+                const o19 = {
+                    next() {
+                        v13--;
+                        const v17 = v13 == 0;
+                        const o18 = {
+                            "done": v17,
+                            "value": v13,
+                        };
+                        return o18;
+                    },
+                };
+                return o19;
+            },
+        };
+        return a8;
+    }
+}
+const v21 = new C3();
+new C3();
+const v23 = new v21();
+const v24 = v23?.constructor;
+let v25;
+try { v25 = new v24(); } catch (e) {}
+1.6902028790217254e+308 !== 1.6902028790217254e+308;
+let v28 = 246164.4686474856;
+v28++;
+-2.220446049250313e-16;
+38552 >> 38552;
+function f36() {
+    const o37 = {
+    };
+    o37.f = o37;
+    return v25;
+}
+%OptimizeFunctionOnNextCall(f36);
+f36();

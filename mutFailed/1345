@@ -1,0 +1,50 @@
+new Int8Array(3310);
+new BigUint64Array(255);
+let {"buffer":v10,"byteOffset":v11,...v12} = 255;
+try { v10.slice(v11); } catch (e) {}
+new Int8Array(16);
+const v19 = new Uint8Array(8);
+new Int16Array(4);
+new Uint8Array(15);
+new BigUint64Array(1);
+new Uint8ClampedArray(2);
+new Int8Array(2809);
+new Int16Array(176);
+new Float64Array(64);
+const v42 = new Uint8ClampedArray(128);
+const v45 = new Float32Array(255);
+gc();
+v45 instanceof 8;
+try {
+    v19.valueOf = gc;
+} catch(e49) {
+}
+const o50 = {
+};
+try {
+    o50.a = 4;
+} catch(e51) {
+}
+try {
+    const o52 = {
+    };
+    o52.a = o52;
+    o52.d = v42;
+} catch(e53) {
+}
+try {
+    const o54 = {
+    };
+    o54.a = 4;
+    o54.d = v42;
+    o54.c = o54;
+} catch(e55) {
+}
+try {
+    const o56 = {
+    };
+    o56.a = 4;
+    o56.d = v42;
+    o56.c = 1;
+} catch(e57) {
+}

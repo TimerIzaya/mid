@@ -1,0 +1,59 @@
+const v1 = new WeakSet();
+function f2() {
+    class C3 {
+        constructor(a5, a6) {
+            function f7(a8, a9, a10, a11) {
+                return arguments;
+            }
+            for (let v13 = 0; v13 < 5; v13++) {
+                const v14 = f7();
+                v14[1] = v14;
+            }
+        }
+    }
+    const v15 = new C3();
+    const t14 = v15.constructor;
+    new t14();
+    return WeakSet;
+}
+class C18 extends f2 {
+    constructor(a20) {
+        let v19 = this;
+        super();
+        const v21 = v19[v19];
+        v1[1];
+        v19 = v21;
+        try { v19.setInt32(WeakSet); } catch (e) {}
+    }
+    #d = WeakSet;
+    958503836;
+    129;
+    #a = WeakSet;
+}
+const v24 = new C18(v1);
+const v25 = new C18(C18);
+const v26 = new C18(f2);
+const v28 = new WeakSet();
+function f29(a30, a31, a32, a33) {
+    const o34 = {
+        512: v1,
+        "c": WeakSet,
+        "a": C18,
+        2147483648: a33,
+        [a31]: v26,
+        "e": a33,
+        __proto__: v25,
+        ...a31,
+        [WeakSet]: v25,
+        "d": a31,
+        2147483649: WeakSet,
+    };
+    return o34;
+}
+const v35 = f29(f29, C18, v24, v26);
+f29(v24, v35, v35, f29(v28, C18, v24, v35));
+const o41 = {
+    "type": "function",
+};
+const v42 = new Worker(Date, o41);
+v42.getMessage();

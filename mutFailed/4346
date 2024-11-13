@@ -1,0 +1,58 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 127;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+function f5(a6, a7) {
+    const v8 = [-13,8,-1073741824,-9007199254740990,536870889,47670,-36072,9,268435441,1];
+    try {
+    const t0 = 1073741825n;
+    t0(v8);
+    } catch (e) {}
+    return a6;
+}
+v4.toString = f5;
+new F0();
+const v12 = new F0();
+v12.toString = f5;
+v12 & v4;
+const v14 = v12.b;
+try { new Int32Array(F0, v12, F0); } catch (e) {}
+const v21 = new Int32Array(127);
+function f22(a23, a24) {
+    65536 | a24;
+    F0 in v4;
+    return Int32Array;
+}
+v21.toString = f22;
+612 - 612;
+Uint16Array.toString = f22;
+const v30 = new Uint16Array(612);
+const v31 = v30[32];
+function f35() {
+    return v14;
+}
+const o36 = {
+};
+new Proxy(v12, o36);
+const v39 = new BigUint64Array(8);
+try { v39.join(Uint16Array); } catch (e) {}
+try { new Float64Array(v39, v30, 8); } catch (e) {}
+new Float64Array(54);
+const v47 = new BigUint64Array(82);
+try { v47.reduce(127); } catch (e) {}
+const v51 = new Uint8Array(127);
+const o53 = {
+    "a": v31,
+    [v21]: v31,
+    1000: v21,
+    136: v51,
+    129: BigUint64Array,
+    4294967296: "UHH",
+};
+o53[4294967296] = o53;
+Math.atan(1653620084);
+Math.log();

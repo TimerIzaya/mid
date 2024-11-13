@@ -1,0 +1,27 @@
+const v1 = new WeakSet();
+class C2 {
+    constructor(a4) {
+    }
+    static #m(a9) {
+        super.f = a9;
+        try {
+            v1.#m(a9, this, v1);
+        } catch(e11) {
+        }
+        return a9;
+    }
+}
+const v12 = new C2(v1);
+new C2(C2, WeakSet, v1, WeakSet);
+const v14 = new C2(v12, WeakSet, C2, C2);
+[[v14,v14,WeakSet,v14],C2,WeakSet,v14,v12];
+[C2];
+new Uint32Array(1024);
+new Float64Array(2173);
+new d8(2147483647);
+const v27 = /8[\cA]v/uisy;
+const v28 = [3,-2147483647,1377629981];
+try {
+    v28.length = v27;
+} catch(e29) {
+}

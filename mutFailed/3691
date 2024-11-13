@@ -1,0 +1,87 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        const v5 = new Int32Array(56885);
+        Reflect.construct(Int32Array, [v5]);
+        return 56885;
+    }
+    this.valueOf = f2;
+    try {
+        this.d = -16;
+    } catch(e10) {
+    }
+    try {
+        this.c = -16;
+    } catch(e11) {
+    }
+}
+const v14 = new Float32Array(260330366);
+try { v14.reduce(v14); } catch (e) {}
+v14.byteOffset = v14;
+const v16 = [-2.220446049250313e-16,0.9798105418016166,-4.830267035271884,-435.7279193107944,864333.2303131514,-3.553417885466287e+306,-1000000000000.0,-1000000000.0,990180.6241720289,-1000000.0];
+function f17(a18, a19) {
+    return a19;
+}
+let v20;
+try { v20 = f17.apply(v16, v16); } catch (e) {}
+Object.defineProperty(v16, Symbol.toPrimitive, { configurable: true, value: f17 });
+const v23 = new F0();
+v23.valueOf = Symbol;
+const v24 = new F0();
+const v25 = new F0();
+const v27 = new Set();
+v27.d = v20;
+v27.d = v27;
+try { v27.add(v27); } catch (e) {}
+let v29;
+try { v29 = v27.delete(v25); } catch (e) {}
+v29 || v29;
+try { new Date(Date, v23, v25, F0, Date, Date, Date); } catch (e) {}
+const v33 = new Date();
+let v34;
+try { v34 = v33.getFullYear(); } catch (e) {}
+v34 + v34;
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v40 = a38?.constructor;
+    try { new v40(this); } catch (e) {}
+    let v42;
+    try { v42 = new v40(a38); } catch (e) {}
+    v42.caller = v42;
+    try {
+        this.e = a38;
+    } catch(e43) {
+        ("undefined").localeCompare("undefined", "symbol", "undefined");
+        class C47 {
+        }
+        function f48(a49, a50, a51) {
+            const o53 = {
+                get b() {
+                    return C47;
+                },
+                127: "undefined",
+            };
+            return f48;
+        }
+        f48();
+        f48(C47, "undefined", "undefined");
+    }
+}
+function f56() {
+    return ([NaN,3.0])["concat"](-483497369);
+}
+F36[Symbol.toPrimitive] = f56;
+F36.length = F36;
+new F36(F36, v23);
+const v64 = new F36(v27, v24);
+v64.c = v64;
+v64.e = v64;
+new F36(F0, v24);
+4 | 4;
+function f70(a71) {
+    const v73 = ("p").strike("p", "p", "p", "p");
+    v73.search(v73);
+}
+Object.defineProperty(URIError, "d", { writable: true, configurable: true, set: f70 });
+URIError.d = URIError;
+URIError(4, 9);

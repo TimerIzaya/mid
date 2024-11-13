@@ -1,0 +1,54 @@
+let v0 = 8;
+const v2 = new Uint32Array(v0);
+function f3(a4, a5) {
+    try { new a4(a4, a5, f3); } catch (e) {}
+    a5.caller = a5;
+    a4[v2] >>= a4;
+    16 >>> 16;
+    return -17930;
+}
+const v11 = f3(Uint32Array, f3);
+v0--;
+Int32Array.d = Int32Array;
+const v15 = new Int32Array(6);
+try { v15.entries(); } catch (e) {}
+new Int8Array(1);
+new Uint8Array(1205);
+let v25;
+try { v25 = Uint8Array.toString(); } catch (e) {}
+new Uint8Array(129);
+v25 >> 212;
+new Float32Array(212);
+class C32 {
+}
+function F35(a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v39 = this.constructor;
+    v39.g = this;
+    try { new v39(); } catch (e) {}
+    this.c = a37;
+}
+const v42 = new Uint8Array(268435440);
+let v43;
+try { v43 = v42.entries(); } catch (e) {}
+Uint8ClampedArray.BYTES_PER_ELEMENT = Uint8ClampedArray;
+new F35([Float32Array], v42);
+new Uint8ClampedArray(v11);
+v43.length = 18074;
+function F49(a51, a52, a53) {
+    if (!new.target) { throw 'must be called with new'; }
+    Uint8Array === a52;
+    this.constructor;
+}
+function f56() {
+    class C57 {
+    }
+    const v58 = new C57();
+    for (let v59 = 0; v59 < 5; v59++) {
+        new F49(undefined, v58);
+    }
+}
+%PrepareFunctionForOptimization(f56);
+f56();
+%OptimizeFunctionOnNextCall(f56);
+f56();

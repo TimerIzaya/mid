@@ -1,0 +1,68 @@
+const v1 = new WeakSet();
+const v2 = [65537,1073741825,10,-13,15,268435441,10,670382550,-9223372036854775808];
+const v3 = [5,-26189721,2147483648,8,-4294967297,1073741824,512];
+const v4 = [2147483649,1131419653,0,-1024,-9007199254740992,-9007199254740990];
+class C5 {
+    constructor(a7, a8) {
+        super.h;
+        const o12 = {
+            "maxByteLength": 127,
+        };
+        const v14 = new SharedArrayBuffer(127, o12);
+        delete v14?.maxByteLength;
+        try {
+            v2.length = 127;
+        } catch(e16) {
+        }
+        new BigInt64Array(v14);
+    }
+    static [v4];
+    static d;
+}
+const v19 = new C5(v3, v4);
+new C5(v4, v19);
+new C5(v4, v3);
+new Int32Array(9);
+new Int32Array(16);
+new Uint32Array(257);
+const v31 = [];
+class C32 {
+    static get b() {
+        try {
+            super.getOwnPropertyNames();
+        } catch(e35) {
+        }
+        return v31;
+    }
+    constructor() {
+        this[v31] = this;
+        this[v31] %= this;
+    }
+    static e;
+    set a(a38) {
+        super.c;
+        const o40 = {
+        };
+        new Proxy(v1, o40);
+    }
+    [v31];
+}
+const v43 = new C32();
+const v44 = new C32();
+class C51 {
+    [-9] = v44;
+    4294967296;
+    5;
+}
+new C51();
+const v53 = new C51();
+new C51();
+4294967296 !== v53;
+v43 << 65535;
+const o60 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o60);
+const t65 = -9;
+t65[9] = -124726096;

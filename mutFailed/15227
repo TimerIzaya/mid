@@ -1,0 +1,60 @@
+class C3 {
+    constructor(a5, a6) {
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = a9;
+                try {
+                    this.b = a6;
+                } catch(e11) {
+                }
+            } catch(e15) {
+            }
+        }
+        super[F7];
+        try {
+            this.__proto__ = a6;
+        } catch(e17) {
+        }
+        new F7(-2.2250738585072014e-308, a5);
+        new F7(a6, a5);
+        new F7(a5, 0.5185128779097822);
+    }
+}
+new C3(1.1373937765600267e+308, -2.2250738585072014e-308);
+const v22 = new C3(-2.2250738585072014e-308, 0.5185128779097822);
+const v23 = new C3(1.1373937765600267e+308, -2.2250738585072014e-308);
+new Set();
+const v27 = new Set();
+function F28() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v30 = [-5.0,-4.0,-1.7976931348623157e+308,-897.6003446951657,-1000000.0,1.8928166106024224e+306,-2.0,-1000000000000.0];
+    function F31(a33, a34, a35, a36) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v37 = new F31(v30, F28, v30, F31);
+    const v39 = [F28,F28,F28,F28];
+    Reflect.apply(v30.indexOf, v37, v39);
+}
+new F28();
+function f43(a44, a45, a46) {
+    function f48(a49) {
+        const v53 = 4294967295 / 1.1373937765600267e+308;
+        Math.random(a45, -23506, a45);
+        Math.tan(-23506);
+        Math.log1p(v53);
+        Math.max(1.1373937765600267e+308);
+        Math.random();
+        Math.trunc(4294967295);
+    }
+    this.onmessage = f48;
+    F28 >>> F28;
+    Math.clz32(F28);
+    ~v27;
+}
+const v67 = [Set,v23,v22];
+const o68 = {
+    "arguments": v67,
+    "e": "function",
+};
+new Worker(f43, o68);

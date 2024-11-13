@@ -1,0 +1,78 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 28725;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v8 = new Uint8ClampedArray();
+for (let v9 = 0; v9 < 5; v9++) {
+    ~v9;
+    v8[v9] = v6;
+}
+function F11(a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v4;
+    } catch(e14) {
+    }
+    try {
+        this.g = a13;
+    } catch(e15) {
+    }
+}
+const v18 = new Float32Array(1000);
+function f19() {
+    function f20(a21, a22) {
+        const v25 = new Date();
+        v25.setYear(2.0);
+        return 2.0;
+    }
+    return f20;
+}
+Object.defineProperty(v18, "toString", { writable: true, get: f19 });
+const v29 = new Uint8Array(201);
+v29[6] = v18;
+const v30 = new F11(v4);
+new F11(v5);
+new F11(v30);
+Array.__proto__ = this;
+function f35() {
+    return v18;
+}
+%OptimizeFunctionOnNextCall(f35);
+class C39 {
+}
+const v40 = new C39();
+v40.valueOf = f35;
+function f41() {
+    return f41;
+}
+const v46 = Array(36862, f41.arguments).reverse();
+try { v46.copyWithin(v40); } catch (e) {}
+[2.0,-1.014075443863958e+308,-610.6980310698034,8.991218279449875,69355.26117814821,-2.0];
+[1.5867234162490785e+308,2.846116499954759e+307,-Infinity,0.5320007122754995,0.6973573765007951,1.1925639246930853e+308,-524023.11176778603];
+[0.5173378013747836,Infinity,-235125.57704528468,5.525723193423724];
+const v53 = new WeakMap();
+v53.delete();
+function f55() {
+    const v56 = [];
+    Math.atan2(v56, -40875);
+    const v61 = new WeakSet();
+    const o62 = {
+        "e": v56,
+        "b": v61,
+    };
+    let v63 = -9223372036854775808n;
+    v63 %= 45725n;
+    return 45725n;
+}
+f55();
+%OptimizeFunctionOnNextCall(f55);
+try {
+const t0 = 1000000000.0;
+t0(2.220446049250313e-16, Uint8ClampedArray, ...1000000000.0, -82.86062314585524);
+} catch (e) {}

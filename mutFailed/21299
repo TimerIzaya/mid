@@ -1,0 +1,21 @@
+new Float64Array(127);
+new Uint8Array(1147);
+new Uint32Array(7);
+new Uint16Array(1515);
+new Uint8Array(2);
+new BigUint64Array(127);
+const v30 = "callee" - 2;
+function f31() {
+    function f32(a33, a34) {
+        return f32;
+    }
+    const v36 = new Promise(f32);
+    const v37 = v36.then(f32);
+    f31.then();
+    return v37;
+}
+%PrepareFunctionForOptimization(f31);
+f31();
+%OptimizeFunctionOnNextCall(f31);
+f31();
+(-692708377) ** v30;

@@ -1,0 +1,87 @@
+const v1 = new WeakSet();
+function f2() {
+    ("boolean").normalize();
+    let v5 = 2;
+    const v6 = v5++;
+    function f7(a8) {
+        const o12 = {
+            __proto__: v5,
+            213: a8,
+            p(a10, a11) {
+                return v6;
+            },
+        };
+        return o12[213];
+    }
+    return WeakSet;
+}
+class C14 extends f2 {
+    constructor(a16) {
+        let v15 = this;
+        super();
+        const v17 = v15[v15];
+        v1[1];
+        v15 = v17;
+        try { v15.setInt32(WeakSet); } catch (e) {}
+    }
+    #d = WeakSet;
+    958503836;
+    129;
+    #a = WeakSet;
+}
+const v20 = new C14(v1);
+const v21 = new C14(C14);
+const v22 = new C14(f2);
+const v24 = new WeakSet();
+function f25(a26, a27, a28, a29) {
+    const o37 = {
+        512: v1,
+        "c": WeakSet,
+        "a": C14,
+        2147483648: a29,
+        [a27]: v22,
+        "e": a29,
+        __proto__: v21,
+        ...a27,
+        [WeakSet]: v21,
+        "d": a27,
+        /*
+        __proto__: a27,
+        */
+        [a26]: a26,
+        "g": f2,
+        set g(a31) {
+            function F32(a34, a35, a36) {
+                if (!new.target) { throw 'must be called with new'; }
+            }
+        },
+        2147483649: WeakSet,
+    };
+    return o37;
+}
+const v38 = f25(f25, C14, v20, v22);
+f25(v20, v38, v38, f25(v24, C14, v20, v38));
+const o49 = {
+    ..."function",
+    valueOf(a45, a46) {
+    },
+    set d(a48) {
+    },
+    "type": "function",
+};
+const v50 = new Worker(Date, o49);
+function f51() {
+    let v52 = 852.2904873570058;
+    const o59 = {
+        3: "setDate",
+        "f": 1836424012,
+        m(a56, a57) {
+            v52++;
+            return v52;
+        },
+        "d": 1836424012,
+    };
+    return o59;
+}
+f51();
+v50.getMessage();

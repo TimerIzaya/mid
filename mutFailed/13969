@@ -1,0 +1,52 @@
+function f0() {
+}
+const v3 = new Array(7);
+function f4(a5) {
+    const o11 = {
+        [a5]: Array,
+        "d": f0,
+        ...a5,
+        __proto__: a5,
+        [7](a7) {
+            return "bigint";
+        },
+        "c": f0,
+        "f": Array,
+    };
+    return o11;
+}
+const v12 = f4(Array);
+const v13 = f4(v12);
+const v14 = f4(f0);
+function f15(a16, a17) {
+    const o25 = {
+        o(a19, a20, a21, a22) {
+            for (let v23 = 0; v23 < 100; v23++) {
+                Array(a21);
+            }
+            return a22;
+        },
+        "c": v14,
+        [a16]: 7,
+        0: v3,
+        "h": v13,
+        512: f4,
+        4: v13,
+    };
+    return o25;
+}
+const v28 = f15(f15(f15(v3, v14), v12), v13);
+const v31 = new Int8Array(3938);
+let v32 = 3;
+const v34 = new Float64Array();
+let v35 = 0;
+for (let i = 0; i < 5; i++) {
+    v35 < 8;
+    v12[3] = 8;
+    let v38;
+    try { v38 = v31.indexOf(v35, 8); } catch (e) {}
+    v3["at"]("at", 8, ..."at", ...v34, v38, 8);
+    f0 % v28;
+    [...v32] = v31;
+    v35++;
+}

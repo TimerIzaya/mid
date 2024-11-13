@@ -1,0 +1,76 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        return this;
+    }
+    function f3(a4) {
+        class C6 extends Set {
+        }
+    }
+    Object.defineProperty(this, "g", { writable: true, configurable: true, enumerable: true, get: f2, set: f3 });
+    try {
+        this.g = 9;
+    } catch(e8) {
+    }
+    try {
+        this.b = 9;
+    } catch(e9) {
+    }
+}
+const v10 = new F0();
+new F0();
+const v12 = new F0();
+class C13 extends F0 {
+    static #h = F0;
+    set b(a15) {
+        v12 | v12;
+        let v19 = -44433;
+        Math.imul(1.3442334002285952e+308, 1.3442334002285952e+308);
+        -v19;
+        Math.cos(v19--);
+        Math.floor(v10);
+    }
+    1;
+}
+new C13();
+const v27 = new C13();
+const v28 = new C13();
+class C29 {
+    [-2] = v10;
+    p(a31, a32) {
+        a32 && this;
+        let v34 = v28[v27];
+        v34 -= v34;
+        let v35;
+        try { v35 = this.n(); } catch (e) {}
+        super.a = v34;
+        try {
+            super.m(v35);
+        } catch(e37) {
+        }
+        return this;
+    }
+    static #e = v10;
+}
+new C29();
+new C29();
+new C29();
+[0.07843512915708084,1e-15,-0.0];
+[-743.9029389371648,530437.5308934832,1.6965786340074774e+308];
+[-2.0,823.1939066907798,-1000000000.0];
+function f44() {
+    class C47 {
+        constructor(a49, a50) {
+            const v51 = this.constructor;
+            try { new v51(f44, C47, -7); } catch (e) {}
+            this[-2147483648] >>>= -7;
+            for (let v53 = 0; v53 < 5; v53++) {
+            }
+        }
+    }
+    new C47();
+    return -7;
+}
+f44();
+f44();
+f44();

@@ -1,0 +1,34 @@
+function f3() {
+    return -4096n;
+}
+class C5 extends f3 {
+    static #g;
+}
+new C5();
+new C5();
+new C5();
+const v11 = new Uint16Array(231);
+new Int8Array(v11);
+/U\p{Changes_When_NFKC_Casefolded}/gudis;
+/va+?T/gudimy;
+/5/gumy;
+class C21 {
+}
+const v22 = new C21();
+const v23 = new v22();
+function f24(a25, a26) {
+    const o35 = {
+        [-943.3768400471749]: v23,
+        [a26](a28, a29, a30) {
+        },
+        p(a32, a33) {
+            this.toString(a33, this, v22, a26);
+            return a25;
+        },
+    };
+}
+%PrepareFunctionForOptimization(f24);
+f24();
+f24();
+%OptimizeFunctionOnNextCall(f24);
+f24();

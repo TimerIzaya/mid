@@ -1,0 +1,67 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(17292.143441658);
+function f8(a9) {
+    a9[0] = 588088.0095762925;
+    function f10(a11, a12) {
+        const o15 = {
+            set b(a14) {
+            },
+        };
+        return o15;
+    }
+    return 17292.143441658;
+}
+v7[Symbol.toPrimitive] = f8;
+const v18 = new F3(-74.91396935588114);
+const v19 = new F3(588088.0095762925);
+function f20(a21, a22, a23, a24) {
+    a21[Symbol.toPrimitive] = f8;
+    const o42 = {
+        ...v7,
+        __proto__: a22,
+        [a21](a28, a29, a30, a31) {
+            Math.asin(a22);
+            Math.log2(a21);
+            Math.max(-659720212);
+            Math.cos(a22);
+            !a21;
+            -659720212 && a22;
+            a28 * a28;
+            return a24;
+        },
+    };
+    return o42;
+}
+f20(v7, f20(v19, -74.91396935588114, 17292.143441658, f20(v7, v18, 17292.143441658, -74.91396935588114)), -74.91396935588114, v18);
+class C46 extends f20 {
+    set d(a48) {
+        const o51 = {
+            "maxByteLength": 268435441,
+        };
+        const v53 = new ArrayBuffer(104, o51);
+        new Int32Array(v53);
+    }
+    #h;
+    #e = 17292.143441658;
+    static #d;
+    #g = f20;
+}
+new C46();
+new C46();
+new C46();
+function f60() {
+    function f61() {
+    }
+    return f61;
+}
+function f62(a63) {
+    return a63;
+}
+Object.defineProperty(WeakSet, Symbol.iterator, { configurable: true, enumerable: true, get: f60, set: f62 });
+try { new BigInt64Array(WeakSet); } catch (e) {}

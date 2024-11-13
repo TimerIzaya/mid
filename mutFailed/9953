@@ -1,0 +1,76 @@
+function f0() {
+    const o4 = {
+        "h": 6.718938842168924e+307,
+        1279681362: "b",
+        1756: -9007199254740992,
+        [6.718938842168924e+307]: "b",
+        4: -9007199254740992,
+        "a": "b",
+        492: -9007199254740992,
+        "g": "b",
+        ..."b",
+        ..."b",
+        ..."b",
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+function f8(a9) {
+    const o28 = {
+        set g(a11) {
+            try {
+                this.a = a9;
+            } catch(e12) {
+            }
+        },
+        set h(a14) {
+            try {
+                new f0();
+            } catch(e16) {
+            }
+            const v18 = Symbol.iterator;
+            const o27 = {
+                [v18]() {
+                    let v20 = 10;
+                    const o26 = {
+                        next() {
+                            v20--;
+                            const v24 = v20 == 0;
+                            const o25 = {
+                                "done": v24,
+                                "value": v20,
+                            };
+                            return o25;
+                        },
+                    };
+                    return o26;
+                },
+                256: v7,
+                0: f0,
+                ...v6,
+                "g": v6,
+                __proto__: v6,
+            };
+        },
+    };
+    return v6;
+}
+const v29 = v6(v6);
+v29.h;
+const v31 = v29(v29);
+v6.b = v31;
+const v34 = [f8(v6),v31,f0,v5.g];
+const v35 = [v29,f8,v34,v6];
+const v36 = v35[1];
+try { v36(v5); } catch (e) {}
+const t67 = [f8,v35,v29];
+t67[2] = v34;
+let v39 = -14;
+class C40 {
+}
+function f41(a42, a43, a44, a45) {
+    return a45;
+}
+({"b":f41,"f":v39,} = C40);

@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = F0;
+    } catch(e3) {
+    }
+    try {
+        this.g = 1024;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Int32Array(234);
+new Uint8ClampedArray(3);
+new Int32Array(1349);
+new Int16Array(Int16Array);
+const t18 = 4294967295n;
+new t18(3257);
+const o31 = {
+    o(a27) {
+        const o29 = {
+        };
+        gc(o29);
+        return BigUint64Array;
+    },
+};
+o31["o"]();

@@ -1,0 +1,75 @@
+function f0() {
+    const o15 = {
+        m(a5) {
+            const v6 = super.c;
+            super["-65536"] = this;
+            const o7 = {
+            };
+            new Proxy(this, o7);
+            return v6;
+        },
+        ..."e",
+        get a() {
+            try {
+            const t0 = "-65536";
+            new t0(this, "-65536", "-65536");
+            } catch (e) {}
+            [-4.0,0.731954681807465,1.0111058358472097e+308,-998.7669431571096];
+            const v13 = [-0.0];
+            [NaN,-Infinity,-1.2199202893235374e+308,34.15866214682546,1000.0,-635494.7980672243,-1000000000000.0];
+            return v13;
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+const v17 = f0();
+const v18 = f0();
+v17[0] = v18;
+class C19 extends f0 {
+    static set a(a21) {
+        new BigUint64Array(6);
+        new Int32Array(1000);
+        new Uint8Array(4);
+    }
+    static #e = f0;
+    0;
+    #g;
+    10;
+}
+const v31 = new C19();
+v31[10] = v31;
+const v32 = new C19();
+v32[10] = v32;
+const v33 = new C19();
+v33[10] = v33;
+v33[10] = v33;
+function f34(a35, a36, a37) {
+    a35[10] = a35;
+    a37[10] = a37;
+    a36[0] = a36;
+    const o49 = {
+        "e": v18,
+        [v32](a39, a40) {
+            for (let i42 = 0; i42 < 8; i42++) {
+                break;
+                super.g = a39;
+                %VerifyType(i42);
+                try {
+                    a39.__proto__ = v18;
+                } catch(e48) {
+                }
+            }
+            return a36;
+        },
+    };
+    return o49;
+}
+const v50 = f34(v32, v16, v33);
+try { v50.propertyIsEnumerable(v18); } catch (e) {}
+f34(v31, v31, v18);
+C19(C19, v33, v33);
+128 < 128;
+7 >> 7;
+-7;
+Reflect.preventExtensions(Reflect);

@@ -1,0 +1,53 @@
+class C3 {
+    static {
+        this.b = C3;
+        super.b = this;
+        const v6 = new WeakMap();
+        function f7() {
+            function f8(a9, a10) {
+                let v12 = undefined;
+                const o13 = {
+                };
+                return "9g9Ak" % (v12 = o13);
+            }
+            return f8;
+        }
+        function f15(a16) {
+            const v17 = [4294967297,-1648241970,9,3,-2,0,-4294967296,10];
+            const v18 = /QK/gvdimy;
+            with (v17) {
+                v18.__proto__ = length;
+            }
+        }
+        Object.defineProperty(v6, Symbol.species, { writable: true, get: f7, set: f15 });
+        v6[Symbol.species];
+    }
+    static 268435439;
+    2147483647;
+    [4n];
+    static #h;
+    static #f = 3n;
+}
+new C3();
+new C3();
+new C3();
+new Uint32Array(6);
+new Int32Array(10);
+new BigUint64Array(64);
+function F37() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v40 = new F37();
+function f41(a42, a43) {
+    const o47 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    return gc(o47);
+}
+v40[Symbol.toPrimitive] = f41;
+const o60 = {
+    [v40](a55, a56, a57, a58) {
+        "D2z" < a55;
+    },
+};

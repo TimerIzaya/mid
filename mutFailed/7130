@@ -1,0 +1,91 @@
+const v5 = new Int8Array(254);
+new BigInt64Array(6);
+new Uint8ClampedArray(14);
+[v5,Uint8ClampedArray,[14,254,BigInt64Array]];
+[254,Uint8ClampedArray,v5];
+const v18 = [0.3083488057663979,0.3083488057663979,0.3083488057663979];
+function f19() {
+    return 6;
+}
+function f20(a21) {
+    try {
+        const o22 = {
+        };
+        new Int8Array(o22, 1073741824);
+    } catch(e24) {
+    }
+}
+Object.defineProperty(v18, "NaN", { writable: true, configurable: true, enumerable: true, get: f19, set: f20 });
+const v25 = [604.4479109019192,-2.220446049250313e-16,0.3083488057663979,0.3083488057663979];
+const v26 = [0.3083488057663979,0.3083488057663979,0.3083488057663979,0.3083488057663979];
+class C27 {
+    constructor(a29, a30) {
+        a29.NaN = v5;
+        const o31 = {
+        };
+        try {
+            o31.h = a30;
+        } catch(e32) {
+        }
+        try {
+            const o33 = {
+            };
+            o33.h = a30;
+            o33.h = a30;
+            o33.c = v18;
+        } catch(e34) {
+        }
+        try {
+            const o35 = {
+            };
+            o35.c = a29;
+            o35.h = a30;
+            o35.c = v18;
+            o35.f = a29;
+        } catch(e36) {
+        }
+        try {
+            const o37 = {
+            };
+            o37.h = a30;
+            o37.c = v18;
+            o37.e = a30;
+        } catch(e38) {
+        }
+        a30[2];
+        /Ia[a]/uims;
+        let v41 = /W(jy2)/udy;
+        v41.flags;
+        const v43 = /(YwWX)/visy;
+        function f44() {
+            for (let v45 = 0; v45 < 32; v45++) {
+                v25["p" + v45] = v45;
+            }
+            return 1073741824;
+        }
+        Object.defineProperty(v43, Symbol.iterator, { writable: true, configurable: true, enumerable: true, value: f44 });
+        const v52 = new Uint8Array(v43, C27, -2.220446049250313e-16);
+        const v54 = new Uint32Array();
+        function f55(a56, a57, a58, a59) {
+            const o63 = {
+                ...v52,
+                n(a61, a62) {
+                    v54[a56] = v54;
+                },
+            };
+            return o63;
+        }
+        for (let v64 = 0; v64 < 625; v64++) {
+            f55(Uint8Array, 2, v64);
+        }
+        v41 = v43;
+        for (let v66 = 0; v66 < 25; v66++) {
+            v18["p" - v66] = v66;
+        }
+    }
+}
+new C27(v18, v18);
+const v70 = new C27(v25, v26);
+v70.constructor = f19;
+const t89 = v70.constructor;
+new t89(604.4479109019192, 0.3083488057663979);

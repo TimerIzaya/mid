@@ -1,0 +1,20 @@
+new BigInt64Array(3);
+new Float32Array(129);
+new Uint8Array(1126);
+Reflect.construct(Int8Array, [1126838905]);
+class C18 {
+    [-2] = 31876;
+}
+new C18();
+const v20 = [-20096,4294967296,-65537,-2];
+for (let v21 in v20) {
+    throw 3;
+    v21++;
+    const o25 = {
+        "maxByteLength": 1000,
+    };
+    const v27 = new SharedArrayBuffer(1000, o25);
+    new BigUint64Array(v27);
+}
+const v30 = [-1947047520];
+v20["slice"]([[v30,v30,v30,v20]]);

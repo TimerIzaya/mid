@@ -1,0 +1,69 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3, a4) {
+        a3.e %= a4;
+        const t4 = ([-2096457859]).__proto__;
+        t4[6] = a3;
+        return this;
+    }
+    Object.defineProperty(this, Symbol.toPrimitive, { configurable: true, value: f2 });
+    try {
+        this.b = 536870912;
+    } catch(e10) {
+    }
+    try {
+        this.c = 536870912;
+    } catch(e11) {
+    }
+}
+const v12 = new F0();
+const v13 = new F0();
+function f14() {
+    const v17 = [65537,268435441,63298,-5,1235122603];
+    function F18(a20, a21, a22, a23) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v24 = this?.constructor;
+        try { new v24(1024, 1024, v17, this); } catch (e) {}
+        a21.caller;
+        a23[1];
+        try {
+            this.c = a22;
+        } catch(e28) {
+        }
+        try {
+            this.b = -714582153;
+        } catch(e29) {
+        }
+        try {
+            this.f = a21;
+        } catch(e30) {
+        }
+    }
+    return v17;
+}
+v13[Symbol.toPrimitive] = f14;
+const v33 = new F0();
+class C37 {
+    constructor(a39, a40, a41, a42) {
+        const v43 = v12[a42];
+        try { v43(v13); } catch (e) {}
+    }
+    5 = v33;
+    #g = 336.65557337370046;
+    get h() {
+        class C46 extends F0 {
+            static #d = 336.65557337370046;
+        }
+        new C46();
+        new C46();
+        new C46();
+        return 336.65557337370046;
+    }
+}
+new C37(v13, v33, 1.6052633094914425e+308, v33);
+new C37(v13, v33, 541608.0252734968, v33);
+new C37(v33, v13, 336.65557337370046, v13);
+new WeakMap();
+let v60 = -(-1e-15);
+v60--;
+Math.sinh(v60);

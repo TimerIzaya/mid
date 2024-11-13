@@ -1,0 +1,17 @@
+function f12() {
+    return "NYI";
+}
+function f17(a18) {
+    const o19 = {
+        "deleteProperty": f12,
+        "get": f12,
+        "getOwnPropertyDescriptor": f12,
+        "getPrototypeOf": f12,
+        "ownKeys": f12,
+        "preventExtensions": f12,
+    };
+    new Proxy("-9007199254740991", o19);
+    return f12;
+}
+Uint8ClampedArray.toString = f17;
+"ex7" <= Uint8ClampedArray;

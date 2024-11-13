@@ -1,0 +1,37 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 1027;
+    } catch(e3) {
+    }
+    try {
+        this.e = 1027;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+let v9 = 10;
+const v15 = new WeakSet();
+class C16 {
+    static #m(a18, a19, a20, a21) {
+        v9 **= v15;
+        try {
+            v7.__proto__ = a19;
+        } catch(e22) {
+        }
+        return a19;
+    }
+    constructor(a24, a25, a26, a27) {
+        a27 = 200.19641252369956;
+        for (let v28 = 0; v28 < 32; v28++) {
+            v28["p" + v28] = v28;
+        }
+    }
+}
+new C16(v6, v7, -1e-15, 200.19641252369956);
+new C16(-1e-15, v7, -1e-15, -2.0);
+new C16(200.19641252369956, 200.19641252369956, v7, 200.19641252369956);
+const t35 = "g";
+t35[14] &&= 14;

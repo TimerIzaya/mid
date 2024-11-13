@@ -1,0 +1,33 @@
+const v2 = new Uint16Array(807);
+const v5 = new Set(2);
+const v8 = new Int8Array(0);
+function f9(a10, a11, a12, a13) {
+    const o16 = {
+        __proto__: v8,
+        8: 807,
+        get e() {
+            try {
+                this.valueOf = v2;
+            } catch(e15) {
+            }
+            return a13;
+        },
+        "g": v5,
+        [807]: Uint16Array,
+        "d": a13,
+        "h": a13,
+        "e": v2,
+        "c": Int8Array,
+        [a12]: a13,
+    };
+    return o16;
+}
+f9(0, 2, 2, 0, 2);
+f9(807, 807, 2, 0);
+f9(2, 0, 2, 0);
+const v21 = [497658199,-1,2147483647,-16,9,-4294967297,-180329643];
+v21.group(Symbol);
+const o23 = {
+    __proto__: v21,
+};
+o23.group(Symbol);

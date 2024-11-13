@@ -1,0 +1,48 @@
+function f0() {
+    const o7 = {
+        [-13]: -273.71473576408016,
+        "c": 823647.2401381312,
+        set d(a5) {
+            try { a5.toString(a5); } catch (e) {}
+            a5[1] = -273.71473576408016;
+        },
+        "a": f0,
+        "e": -13,
+        "d": f0,
+        "h": f0,
+        ...f0,
+        __proto__: -13,
+        "g": -13,
+        ...-273.71473576408016,
+        1024: 823647.2401381312,
+        "e": -273.71473576408016,
+    };
+    return o7;
+}
+const v8 = f0();
+f0();
+const v10 = v8();
+const v13 = new Int16Array(7);
+let v14 = 6;
+try {
+    v13.length = v14;
+} catch(e15) {
+}
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeFunctionOnNextCall(f0);
+f0();
+new Int16Array(v14);
+new Uint8ClampedArray(Int16Array);
+v14 >>= 7;
+Int16Array * Int16Array;
+Reflect.construct(Int16Array, [v10,v14,v14], f0);
+const v31 = new Int32Array(1024);
+for (const v32 of v31) {
+    const o34 = {
+    };
+    gc(o34);
+    new SharedArrayBuffer(1024);
+}

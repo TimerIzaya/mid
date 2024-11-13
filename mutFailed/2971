@@ -1,0 +1,33 @@
+function f0() {
+    ("valueOf")[2];
+    const o13 = {
+        "e": "string",
+        "g": 4294967296,
+        "h": "string",
+        ..."string",
+        "c": "string",
+        [4294967296]: "string",
+        1024: 4294967296,
+        valueOf(a6) {
+            Math.floor(this);
+            a6++;
+            Math.max(this);
+            return this;
+        },
+    };
+    let v14;
+    try { v14 = o13.valueOf(4294967296); } catch (e) {}
+    return v14;
+}
+const v15 = f0();
+f0();
+f0();
+const v20 = new Int8Array(1950);
+v20[50] = v20;
+new f0(9);
+BigInt64Array.length = BigInt64Array;
+new v15(3);
+-5;
+try { ("1024").trimStart(); } catch (e) {}
+for (const v33 in "1024") {
+}

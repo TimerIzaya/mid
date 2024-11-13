@@ -1,0 +1,60 @@
+const v4 = ("PI")["PI" && "PI"];
+Object.defineProperty(v4, 2692599136, { writable: true, value: "PI" });
+try {
+    ("PI").codePointAt(-65535);
+} catch(e7) {
+}
+class C8 {
+    [-661128.1911975017] = Infinity;
+    m(a10, a11) {
+        const v13 = Symbol.iterator;
+        const o29 = {
+            [v13]() {
+                let v15 = 10;
+                const o21 = {
+                    next() {
+                        v15--;
+                        const v19 = v15 == 0;
+                        const o20 = {
+                            "done": v19,
+                            "value": v15,
+                        };
+                        return o20;
+                    },
+                };
+                function f22(a23, a24, a25, a26) {
+                    try { new a25(this, a23, this, a25); } catch (e) {}
+                    return a11;
+                }
+                f22(v4, this, this, "PI");
+                return o21;
+            },
+        };
+        return "PI";
+    }
+}
+const v30 = new C8();
+const v31 = new C8();
+const v32 = new C8();
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v30;
+    } catch(e38) {
+    }
+}
+const v39 = new F33(v32, v31, v32);
+new F33(v30, v39, v30);
+new F33(v31, v30, C8);
+const t48 = "object";
+t48[v32 || "7"] = v31;
+v31[Symbol.match];
+function F49() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v51 = 0; v51 < 500; v51++) {
+        const v56 = ("p" + v51).fontcolor(v51).trimLeft()[12];
+        ("p")[v56.substring(v56, v56)];
+    }
+}
+new F49();
+new F49();

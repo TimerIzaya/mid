@@ -1,0 +1,16 @@
+new Set();
+new Uint8Array(4096);
+new BigInt64Array(4294967297);
+new Float32Array(6);
+function f17(a18, a19) {
+    const o20 = {
+        ...a18,
+    };
+    a18.d;
+    return a19;
+}
+f17.d = f17;
+%PrepareFunctionForOptimization(f17);
+const v22 = f17();
+%OptimizeFunctionOnNextCall(v22(v22));
+f17();

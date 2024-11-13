@@ -1,0 +1,38 @@
+let v2;
+try { v2 = Int32Array(); } catch (e) {}
+new Int32Array();
+function f5() {
+    return "NaN";
+}
+new Date(Math);
+v2();
+const o11 = {
+    "type": v2,
+};
+const v14 = -Infinity;
+const o15 = {
+    "a": v14,
+    "d": v14,
+};
+o15.constructor;
+class C17 extends o11 {
+}
+function f26() {
+    const v29 = Array(4087, -2.220446049250313e-16);
+    v29[4037] = v29;
+    return Array;
+}
+f26();
+function f33(a34, a35) {
+    const o37 = {
+        get h() {
+            return this;
+        },
+    };
+    return a34;
+}
+for (let v38 = 0; v38 < 5; v38++) {
+    const v39 = f33(f33, v38);
+    Object.defineProperty(v39, v38, { enumerable: true, get: f33, set: f33 });
+    Reflect.preventExtensions(v39);
+}

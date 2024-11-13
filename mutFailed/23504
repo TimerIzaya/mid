@@ -1,0 +1,48 @@
+function f0() {
+}
+try { ("-4294967297").blink(); } catch (e) {}
+class C5 {
+    o(a7, a8) {
+        for (let v9 = 0; v9 < 11; v9++) {
+            let v10;
+            try { v10 = ("find").substring(v9, "find"); } catch (e) {}
+            v10 -= a7;
+        }
+        const v11 = new f0();
+        return v11;
+    }
+    ["find"];
+    static #h = "-4294967297";
+    static 4;
+}
+try { C5.bind("-4294967297"); } catch (e) {}
+new C5();
+const v16 = [-25855,-25855,[-25855]];
+new Float64Array(v16);
+const v19 = new v16();
+const v20 = new C5();
+v20.find;
+class C22 extends f0 {
+    o(a24, a25, a26) {
+        function F27(a29, a30, a31, a32) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = this;
+            } catch(e33) {
+            }
+            try {
+                this.c = a32;
+            } catch(e34) {
+            }
+        }
+        const v35 = new F27(C5, "find", v19, "find");
+        const v36 = new F27(v19, "find", v35, "find");
+        new F27(v36, a24, "valueOf", "-4294967297");
+        return v20;
+    }
+}
+new C22();
+new C22();
+new C22();
+try { ("NFKD").search("NFKD"); } catch (e) {}
+("string").normalize("NFKD");

@@ -1,0 +1,41 @@
+const t0 = 3.0;
+new t0(2);
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const t5 = -2.0;
+let v14 = new t5();
+new F12();
+const t8 = 3.0;
+const v16 = new t8();
+const t10 = 1.1023568082566323e+308;
+t10.EPSILON = v16;
+const v17 = v16.g;
+try { v17.bind(); } catch (e) {}
+const v19 = -Infinity;
+const v21 = v17.isFinite();
+const v22 = v21 && v21;
+v19 - v19;
+-261.1271706035858 + -261.1271706035858;
+let v26 = -10n;
+v26++;
+const v28 = v26 | v26;
+v28 + v28;
+let v30 = 65535n;
+const v31 = v30++;
+v31 | v31;
+v30--;
+Int32Array.g = Int32Array;
+let v35;
+try { v35 = Int32Array.of(); } catch (e) {}
+let v36;
+try { v36 = v35.entries(); } catch (e) {}
+const v37 = v36.next(v22, v21);
+new Int32Array();
+let v40 = 7;
+v14--;
+v40++;
+new Int8Array();
+const v45 = new Int8Array();
+new Uint32Array(v45, v35, v37);
+try { new v31(); } catch (e) {}

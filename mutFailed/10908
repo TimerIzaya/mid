@@ -1,0 +1,46 @@
+class C6 {
+    257 = 127;
+    static toString(a8, a9, a10, a11) {
+        let v12;
+        try {
+        const t0 = 2147483647;
+        v12 = t0(a9, a9, this);
+        } catch (e) {}
+        let v13;
+        try { v13 = new v12(a8, 2147483647, a9, 0.0, ...a8); } catch (e) {}
+        v13.h -= v13;
+        4096 * v13;
+        2147483647 - 4096;
+        !4096;
+        %VerifyType(0.0);
+        %VerifyType(this);
+        return a9;
+    }
+    static #c = 0.0;
+}
+const v19 = new C6();
+const v20 = 2147483647 ^ v19;
+const v21 = v19[4294967295];
+-4.493051155707828 - v21;
+try { v21.get(v20); } catch (e) {}
+new Float32Array(457);
+new Int32Array(4096);
+const v32 = new BigInt64Array(167);
+const v33 = new C6();
+new C6();
+function f37(a38, a39, a40) {
+    return true;
+}
+try {
+    v33.valueOf = f37;
+} catch(e43) {
+}
+new Int8Array(129);
+new Int16Array(128);
+new v32(2656);
+const v53 = [188,true];
+const o54 = {
+    "arguments": v53,
+    "type": "function",
+};
+new Worker(f37, o54);

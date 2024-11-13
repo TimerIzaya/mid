@@ -1,0 +1,61 @@
+function f0() {
+    const o13 = {
+        valueOf(a5, a6) {
+            let v7;
+            try { v7 = a6(a6); } catch (e) {}
+            const v8 = delete a5?.[v7];
+            let v9;
+            try { v9 = new v8(this); } catch (e) {}
+            Reflect.construct(a5, [], v9);
+            return a6;
+        },
+        "b": -61079,
+        __proto__: 23362,
+        ...23362,
+        "e": 193.06485642453117,
+        64: -61079,
+    };
+    return o13;
+}
+const v14 = f0();
+const v15 = f0();
+f0();
+function f17() {
+    return v14;
+}
+[v15,v15,f17,f0];
+[[f17,v15,f17],f0];
+class C21 extends f17 {
+    static #toString(a23, a24, a25) {
+        super.f = v15;
+        const v26 = this >> this;
+        new Int16Array(210);
+        new Uint32Array(3);
+        new BigUint64Array(7);
+        return v26;
+    }
+}
+new C21();
+const v37 = new C21();
+new v37();
+new Int8Array(2174);
+new BigInt64Array(3817);
+new Int32Array(128);
+const v48 = [];
+function f49() {
+    const o53 = {
+        toString() {
+            super[this];
+            return this;
+        },
+        ...v48,
+        n() {
+            return this;
+        },
+    };
+}
+%PrepareFunctionForOptimization(f49);
+f49();
+f49();
+%OptimizeFunctionOnNextCall(f49);
+f49();

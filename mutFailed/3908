@@ -1,0 +1,60 @@
+const v4 = new WeakSet();
+class C5 {
+    64 = "f";
+    static toString(a7, a8) {
+        a8 &= this;
+        super[a7] = v4;
+        try {
+            this.fuck(a8, 24745n, -256, -1073741824n);
+        } catch(e15) {
+        }
+        return "undefined";
+    }
+    toString(a17, a18, a19) {
+        let v16 = this;
+        v16 = v4;
+        return "bigint";
+    }
+    static [C5];
+}
+const v20 = new C5();
+const v21 = new C5();
+const v22 = new C5();
+function f23() {
+    return v22;
+}
+function f24(a25, a26, a27) {
+    const o43 = {
+        "d": "undefined",
+        [v22]: C5,
+        __proto__: v20,
+        o(a29, a30, a31, a32) {
+            try {
+                ("f").trimEnd();
+            } catch(e34) {
+            }
+            Object.defineProperty(v20, "e", { writable: true, configurable: true, get: f23 });
+            return "f";
+        },
+        valueOf(a36, a37) {
+            let v38;
+            try { v38 = ("bigint").match(a37); } catch (e) {}
+            f23();
+            %PrepareFunctionForOptimization(f23);
+            f23();
+            f23();
+            %OptimizeFunctionOnNextCall(f23);
+            f23();
+            return v38;
+        },
+        ...C5,
+        [C5]: a25,
+        "c": a25,
+    };
+    return o43;
+}
+const v44 = f24(v22, f24, "bigint");
+f24("bigint", v21, v20);
+f24("bigint", v44, v20);
+const v48 = 9007199254740991n * 9007199254740991n;
+v48 * v48;

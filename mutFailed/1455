@@ -1,0 +1,42 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    valueOf(a4) {
+        for (let i7 = 0, i8 = 10; i7 < i8; i7++, i8--) {
+        }
+        return this;
+    }
+}
+const v19 = new C2();
+const v20 = new C2();
+const v21 = new C2();
+class C22 extends WeakMap {
+    #c = v21;
+    constructor(a24, a25, a26, a27) {
+        super(v20);
+        [-9007199254740991];
+        [4294967297,-9007199254740992,-56257,-65537,12,-19666,9007199254740990,-11,-4,-4607];
+        [13,2147483648,2147483647];
+        for (let v32 = 0; v32 < 32; v32++) {
+            v19["p" + v32] = v32;
+        }
+    }
+}
+const v35 = new C22(C22, v20, v20, v19);
+const v36 = new C22(v1, v35, C2, v19);
+new C22(v21, v20, v36, WeakMap);
+function F38(a40, a41, a42, a43) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v21;
+    } catch(e44) {
+    }
+}
+const v45 = new F38(v21, v21, v35, v35);
+new F38(v36, v35, v45, v21);
+new F38(C22, C22, v21, C2);
+const v49 = new Float64Array();
+const v50 = v49.buffer;
+try {
+    v50.resize(v21);
+} catch(e52) {
+}

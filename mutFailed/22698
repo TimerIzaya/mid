@@ -1,0 +1,59 @@
+class C3 {
+    static {
+    }
+    constructor(a9) {
+        const t4 = "b7t";
+        t4[84] = this;
+        try {
+            super.o("POSITIVE_INFINITY", this, "POSITIVE_INFINITY");
+        } catch(e11) {
+        }
+    }
+    h = "536870889";
+}
+const v12 = new C3("POSITIVE_INFINITY");
+const v13 = new C3("POSITIVE_INFINITY");
+const v14 = new C3("b7t");
+function f15(a16, a17) {
+    const o27 = {
+        "a": v13,
+        "e": a17,
+        set h(a19) {
+            const t21 = "536870889";
+            t21[9] = a19 << this;
+        },
+        ...v14,
+        [v12]: "b7t",
+        ["POSITIVE_INFINITY"](a22, a23, a24, a25) {
+            function f26() {
+                return a16;
+            }
+            return a23;
+        },
+    };
+    return o27;
+}
+const v28 = f15("b7t", "b7t");
+f15("b7t", "536870889");
+f15("b7t", "b7t");
+const v31 = [];
+function f32() {
+    return v31;
+}
+class C33 extends f32 {
+}
+const v34 = new C33();
+const t45 = f32();
+t45[2591] <<= 65535;
+v34.length = 10;
+function f38() {
+    return v28;
+}
+function f39() {
+    return v28;
+}
+const v40 = [];
+const v42 = v40.entries;
+let v43;
+try { v43 = new v42(v42, v40, v42, v42, null); } catch (e) {}
+v43 = null;

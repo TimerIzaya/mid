@@ -1,0 +1,48 @@
+class C3 {
+    [-1];
+    #n(a5) {
+        super[a5];
+        return "c";
+    }
+    #b = -40728600;
+    7;
+    d;
+}
+const v10 = C3?.call;
+try { new v10("sqrt"); } catch (e) {}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    a20[7] = a20;
+    a21[7] = a21;
+    try {
+        this.g = a20;
+    } catch(e22) {
+    }
+}
+new F18(v12, v14);
+new F18(v12, "sqrt");
+const v25 = new F18(v13, "c");
+v25.g;
+const v27 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+const v28 = v27[2];
+const v29 = [1073741824,1073741823,1376142744,1073741825];
+function f30(a31, a32, a33, a34) {
+    function f35() {
+        try {
+            v29.forEach(a32, v27);
+        } catch(e37) {
+        }
+        return a31;
+    }
+    f35();
+    const v40 = eval();
+    %OptimizeFunctionOnNextCall(f35);
+    return v40;
+}
+f30.e = f30;
+for (let v41 = 0; v41 < 5; v41++) {
+    v28();
+}

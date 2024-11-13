@@ -1,0 +1,21 @@
+const v1 = new Map();
+const v4 = new Int16Array(27906);
+const v5 = v4?.constructor;
+try { new v5(Map, v1, Int16Array); } catch (e) {}
+const v9 = new Int8Array(1);
+const v10 = v9?.cause;
+try { new v10(v4, Int16Array, Int16Array); } catch (e) {}
+new Float32Array(16);
+58796 < 58796;
+const v19 = [9007199254740990,12,13,1073741825,-9223372036854775807,2147483649,-320466038];
+function f20(a21, a22) {
+    return typeof Float32Array === "bigint";
+}
+const v26 = f20?.toString;
+try { new v26(v9); } catch (e) {}
+const v29 = Symbol.toPrimitive;
+const v31 = v29.unicode;
+v31.for(v31);
+Object.defineProperty(v19, v29, { writable: true, enumerable: true, value: f20 });
+v19[2] = v19;
+new Uint8Array(v19);

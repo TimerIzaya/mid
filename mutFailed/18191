@@ -1,0 +1,40 @@
+~1000000.0;
+new Uint16Array(666);
+try { new Float64Array(666, Uint16Array, 1025); } catch (e) {}
+new Float64Array(1025);
+const v14 = new Uint32Array(3);
+try { Uint8ClampedArray.bind(Float64Array); } catch (e) {}
+const v18 = new Uint8ClampedArray();
+const v20 = new Uint8ClampedArray(127);
+function f21() {
+    v18.byteOffset += 1025;
+    const o24 = {
+        "maxByteLength": 671,
+    };
+    const v26 = new ArrayBuffer(117, o24);
+    const v28 = new Uint8Array(v26);
+    return v28;
+}
+v20.toString = f21;
+const v29 = delete v18[4294967296];
+v29 && v29;
+const v31 = v20 < -56166n;
+v31 || v31;
+async function f33(a34, a35, a36) {
+    return a34;
+}
+function f37() {
+    const v38 = v14 ** 127;
+    function f39() {
+        function f40(a41, a42, a43, a44) {
+            return a41;
+        }
+        f39 != f40;
+        return f39;
+    }
+    return v38;
+}
+f33.constructor = f37;
+const v46 = f33.constructor;
+v46.name;
+v46();

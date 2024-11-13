@@ -1,0 +1,25 @@
+new Int32Array(Int32Array);
+new BigUint64Array(9);
+new Uint8Array(128);
+let v11 = new Uint8Array(3440);
+new Int16Array(5);
+new BigInt64Array(256);
+function f18() {
+    const o24 = {
+        "e": 256,
+        __proto__: 3.4890473589784586e+307,
+        "g": 12,
+        o(a23) {
+            return a23;
+        },
+        ...256,
+    };
+    return o24;
+}
+%PrepareFunctionForOptimization(f18);
+f18();
+f18();
+%OptimizeFunctionOnNextCall(f18);
+v11 **= -6.50438168344124;
+const t22 = 3440;
+t22();

@@ -1,0 +1,97 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = "function";
+    } catch(e7) {
+    }
+    try {
+        this.a = a6;
+    } catch(e8) {
+    }
+    try {
+        this.e = a6;
+    } catch(e9) {
+    }
+}
+try { new F4("Fgw9"); } catch (e) {}
+const v11 = new F4("delete");
+let v12;
+try { v12 = v11.toLocaleString(); } catch (e) {}
+const v13 = new F4("delete");
+const v14 = v13?.constructor;
+let v15;
+try { v15 = v12("function", "delete", v13, f0); } catch (e) {}
+const o16 = {
+};
+try {
+    o16.e = F4;
+} catch(e17) {
+}
+try {
+    const o18 = {
+    };
+    o18.e = F4;
+    o18.c = v14;
+} catch(e19) {
+}
+try {
+    const o20 = {
+    };
+    o20.e = F4;
+    o20.c = v14;
+    o20.h = "Fgw9";
+} catch(e21) {
+}
+try {
+    const o22 = {
+    };
+    o22.e = F4;
+    o22.c = v14;
+    o22.h = v15;
+} catch(e23) {
+}
+let v24;
+try { v24 = new v14(v11); } catch (e) {}
+const v25 = new F4("function");
+function f26(a27, a28, a29, a30) {
+    const v31 = a27.h;
+    a29.h = a29;
+    -4.380315352541508e+307 >> 129;
+    a30.a = a30;
+    const o63 = {
+        "g": v13,
+        m(a41, a42, a43, a44) {
+            let v45 = 0;
+            while ((() => {
+                    try { v31["n"](a43, a27); } catch (e) {}
+                    v45 = a29;
+                    new Int16Array(5);
+                    new Uint32Array(3);
+                    new Float32Array(9);
+                    return v45 < 7;
+                })()) {
+                const t74 = "delete";
+                t74[10] = v13;
+                v45++;
+            }
+            return a30;
+        },
+    };
+    return o63;
+}
+const v64 = f26(v13, v25, v25, v13);
+try { v64.valueOf(); } catch (e) {}
+f26(v13, v13, v11, v13);
+f26(v11, v25, v11, v25);
+const v69 = new f26(v24, F4, v64, v15);
+const v72 = typeof v69 === "string";
+try { v11.sign(o16, v72); } catch (e) {}
+class C76 {
+}
+const v77 = new C76();
+function f78() {
+    return v77;
+}
+Object.defineProperty(v77, "b", { enumerable: true, get: f78 });

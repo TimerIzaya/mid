@@ -1,0 +1,73 @@
+function f0() {
+}
+function f1() {
+    return typeof f0 === "number";
+}
+f0.toString = f1;
+f0.valueOf = f0;
+const v5 = [f0,f0,f0,f0];
+const v7 = [v5,[f0,f0,f0,v5,v5],f0,f0];
+function f8() {
+    Uint16Array.BYTES_PER_ELEMENT = Uint16Array;
+    const v12 = new Float32Array(165);
+    const v13 = new Uint16Array(v12);
+    return v13;
+}
+v7[Symbol.toPrimitive] = f8;
+v7[1] = v7;
+new BigUint64Array(4);
+241 - 241;
+const v22 = new Int8Array(241);
+try { v22.values(); } catch (e) {}
+BigInt64Array.prototype;
+new BigInt64Array();
+const v28 = [-268435456,-9007199254740990,11,-25356,-536870912,4294967296,1520296454];
+function f29(a30, a31) {
+    for (let v32 = 0; v32 < 250; v32++) {
+        v32 <= v32;
+    }
+    const o34 = {
+        __proto__: v28,
+    };
+    return o34;
+}
+try { new Float64Array(v7, v7, 4); } catch (e) {}
+const v37 = new Float64Array(3211);
+let v39;
+try { v39 = new BigInt64Array(3211, v37, BigInt64Array); } catch (e) {}
+v39.constructor = f1;
+let v40;
+try { v40 = v39.filter(f8); } catch (e) {}
+const v41 = new BigInt64Array();
+let [,v42,v43] = v41;
+try { v43(); } catch (e) {}
+function F45() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C48 extends F45 {
+}
+function f49() {
+    return 241;
+}
+function f50(a51) {
+    for (let i54 = 0, i55 = 10;
+        (() => {
+            const v56 = i54 < i55;
+            const v58 = [-4.0,-1e-15];
+            v58[2] = v58;
+            v58[2] = 54004;
+            const v61 = new BigUint64Array(3375);
+            let [v62,,v63,...v64] = v61;
+            return v56;
+        })();
+        i54++) {
+    }
+}
+Object.defineProperty(C48, "e", { writable: true, configurable: true, enumerable: true, get: f49, set: f50 });
+class C70 extends C48 {
+    set d(a72) {
+        super.d = this;
+    }
+}
+Object.defineProperty(C70, "e", { writable: true, value: v40 });
+C70.e = C70;

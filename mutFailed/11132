@@ -1,0 +1,23 @@
+const v3 = [-256];
+[-256,-256,-256,-4294967297,[v3,-4294967297,-268435456,-268435456]];
+v3[1e-15] = 1000000000.0;
+v3[1000000000.0];
+const o13 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o13);
+new Uint32Array(1140);
+new Float32Array(1000);
+new Float64Array(4096);
+function f24() {
+    class C25 {
+    }
+    return C25.bind();
+}
+%PrepareFunctionForOptimization(f24);
+f24();
+const t18 = 1e-15;
+t18();
+%OptimizeFunctionOnNextCall(f24);
+f24();

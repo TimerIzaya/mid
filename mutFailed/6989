@@ -1,0 +1,47 @@
+const v0 = [];
+function f1(a2) {
+    Object.defineProperty(this, 8, { writable: true, configurable: true, value: v0 });
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+class C9 {
+    static set f(a11) {
+        for (let [v12] of a11) {
+            const v13 = v12?.d;
+            try { v13(); } catch (e) {}
+            [-1000000000000.0,1.7976931348623157e+308,1000.0];
+            [5.0,-526.9438771669799,-5.0,0.0];
+            [-1.7976931348623157e+308];
+        }
+    }
+    b;
+    [4n] = 4n;
+    static #e = 536870888n;
+}
+C9.toString = f1;
+const v18 = new C9();
+const v19 = new C9();
+const v20 = new C9();
+function f21(a22, a23, a24, a25) {
+    const o36 = {
+        [v0]: C9,
+        ...a25,
+        "f": v20,
+        __proto__: a25,
+        [C9]: v18,
+        ...a22,
+        set d(a27) {
+            const o31 = {
+                "maxByteLength": 268435456,
+            };
+            const v33 = new SharedArrayBuffer(7, o31);
+            new DataView(v33);
+        },
+    };
+    return o36;
+}
+f21(v18, 4n, -536870912n, v18);
+f21(v18, 536870888n, 4n, v19);
+f21(v18, 4n, 4n, v19);
+const v41 = new BigInt64Array();
+v41[0] = v41;

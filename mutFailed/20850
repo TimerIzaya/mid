@@ -1,0 +1,65 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v8 = this.constructor;
+    try { new v8("a"); } catch (e) {}
+    try { a6.valueOf(); } catch (e) {}
+    try {
+        this.f = "-2147483648";
+        9n >> 9n;
+    } catch(e13) {
+    }
+}
+F4.arguments = F4;
+class C15 {
+    [1024];
+    4294967295 = 1024;
+    b;
+    get c() {
+        const v18 = Symbol.toPrimitive;
+        const o23 = {
+            [v18]() {
+                return 1073741824;
+            },
+        };
+        return o23;
+    }
+}
+const v24 = new C15();
+const v25 = new C15();
+const v26 = new C15();
+function f27(a28, a29) {
+    const o38 = {
+        15: 61209,
+        ...v25,
+        ...a28,
+        "g": 1073741824,
+        [v25]: v26,
+        get f() {
+            delete this?.g;
+            v26[Symbol.matchAll];
+            return v25;
+        },
+    };
+    return a28;
+}
+f27(v25, 1024);
+f27(v26, 1024);
+f27(v24, 1024);
+function f42() {
+    return v26;
+}
+new Float64Array(1073741824);
+class C48 {
+    #n(a50, a51) {
+    }
+}
+for (let v53 = 0; v53 < 5; v53++) {
+    function f54() {
+        new BigInt64Array(v53, v53, v53);
+        BigInt64Array[0];
+        return BigInt64Array;
+    }
+    const t61 = 10n;
+    t61();
+    %OptimizeFunctionOnNextCall(f54);
+}

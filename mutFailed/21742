@@ -1,0 +1,34 @@
+new Int32Array(93);
+const t1 = "object";
+new t1(1925);
+const t3 = 93;
+new t3(82);
+function f12() {
+    class C13 {
+    }
+    const t8 = "object";
+    const v14 = new t8();
+    v14.length = v14;
+    function f15(a16, a17, a18, a19) {
+        const o20 = {
+            [a16]: a16,
+        };
+        return o20;
+    }
+    function f21(a22, a23, a24) {
+        return a23;
+    }
+    Worker.toJSON = f15;
+    const v27 = [Worker];
+    const o28 = {
+        "arguments": v27,
+        "type": 93,
+    };
+    const v29 = new Worker(f21, o28);
+    return v29.length;
+}
+%PrepareFunctionForOptimization(Int16Array);
+f12();
+f12();
+%OptimizeFunctionOnNextCall(f12);
+f12();

@@ -1,0 +1,57 @@
+function f0() {
+}
+class C1 extends f0 {
+    constructor() {
+        super();
+        %VerifyType(f0);
+        try {
+            this.toString = f0;
+        } catch(e3) {
+        }
+    }
+    255;
+    [f0];
+    #h = f0;
+    #a = f0;
+    static d;
+}
+const v4 = new C1();
+new C1();
+new C1();
+class C10 extends C1 {
+    1 = 48397;
+    static #o(a12, a13, a14) {
+        a13[0] >>= a12;
+        try {
+            a14.#o(9223372036854775807, this);
+        } catch(e16) {
+        }
+        return -2147483649;
+    }
+    static [9223372036854775807] = f0;
+    #e = v4;
+    static a = f0;
+    e = v4;
+}
+const v17 = new C10();
+new v17();
+new C10();
+[4294967295,53011];
+[-22958,1000,-8888,6035];
+[5,-989409503,8,-65537,12];
+function f23() {
+    const o28 = {
+        [-1000000.0]: 0.0,
+        set e(a27) {
+        },
+    };
+    return f23;
+}
+f23();
+const v30 = f23();
+const v31 = /4VL[a-zA-Z0-9]/uimy;
+const v32 = /ufoo(?!bar)baz/ums;
+class C33 {
+    static [f23] = v30;
+}
+v32[-2] &&= v31;

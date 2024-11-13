@@ -1,0 +1,20 @@
+[10,-65537,-10230];
+[-1284597372,1125856455,-536870912,10,4294967296,1073741825,7,536870889];
+const v11 = [536870887,-128,978024960,9007199254740992,65535,421104186,9,-128,-9007199254740990];
+function f12() {
+    class C13 {
+        constructor(a15) {
+            function f16() {
+                return a15;
+            }
+            Object.defineProperty(v11, "length", { configurable: true, enumerable: true, get: f16 });
+        }
+    }
+    new C13();
+    const v18 = new C13(f12);
+    v18.length;
+    return f12;
+}
+%PrepareFunctionForOptimization(f12);
+%OptimizeFunctionOnNextCall(f12());
+f12();

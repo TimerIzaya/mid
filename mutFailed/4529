@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = this;
+    try {
+        this.b = 29218;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f7() {
+    return v4;
+}
+const v8 = [F0,f7,v4];
+const v9 = [v8,v4,F0,v5];
+const v10 = [v6];
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a13.sort(a13); } catch (e) {}
+    try {
+        this.a = a14;
+    } catch(e16) {
+    }
+    try {
+        this.c = a13;
+    } catch(e17) {
+    }
+    try {
+        this.f = v9;
+    } catch(e18) {
+    }
+}
+new F11(v8, v6);
+const v20 = new F11(v9, v4);
+v20.f = v20;
+const v21 = new F11(v10, v6);
+([268435456,2147483648,-1674933576,2061240531,28019])[4];
+const v24 = [1];
+try { v24.splice(v9, v4); } catch (e) {}
+[9492];
+Uint32Array.BYTES_PER_ELEMENT = Uint32Array;
+new Uint32Array(1205620854);
+new Uint8Array(268435440);
+function F33() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v35 = F33?.constructor;
+try { new v35(v21); } catch (e) {}
+class C37 {
+    constructor(a39, a40, a41) {
+        a39.caller = a39;
+        a40.length = a40;
+        const v42 = a40.constructor;
+        v42.arguments = v42;
+        class C43 extends v42 {
+        }
+        const v44 = new C43();
+        v44.b = v44;
+    }
+}
+C37.constructor = f7;
+const v45 = new C37(F33, C37);
+try { v45.toString(); } catch (e) {}

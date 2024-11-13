@@ -1,0 +1,64 @@
+function f0() {
+}
+class C4 {
+    #valueOf(a6) {
+        return -9007199254740990;
+    }
+    constructor(a11, a12) {
+        function f13(a14, a15, a16) {
+            try {
+                a16.b = this;
+            } catch(e17) {
+            }
+            return f0;
+        }
+        f13(f13, 536870887, this);
+    }
+}
+new C4(3, -9007199254740990);
+new C4(536870887, 536870887);
+new C4(536870887, 3);
+new WeakSet();
+new Float32Array(1024);
+const t22 = -9007199254740990;
+new t22(10);
+new Uint32Array(4);
+class C34 {
+}
+const v35 = Array();
+const v36 = new C34();
+function f37(a38, a39, a40) {
+    const o48 = {
+        toString(a42, a43, a44) {
+            a39 < v35;
+            super[v36];
+            return Array;
+        },
+        get d() {
+        },
+    };
+    a39.__lookupSetter__;
+    const v50 = [-5,2147483649,-4294967295,1,8,-4331,52354,15231];
+    a38["unshift"]();
+    const v53 = [-1539,1,12];
+    function f54() {
+        return f54;
+    }
+    function f55(a56, a57) {
+        const o58 = {
+            [a56]: v53,
+        };
+        return -9007199254740990;
+    }
+    v50(f55);
+    f55(f54);
+    try {
+    const t0 = "unshift";
+    new t0(a38);
+    } catch (e) {}
+    return o48;
+}
+%PrepareFunctionForOptimization(f37);
+const v63 = f37(f37(), Array, Array);
+%OptimizeFunctionOnNextCall(f37);
+f37(v35, f37, v63);

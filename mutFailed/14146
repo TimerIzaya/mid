@@ -1,0 +1,87 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = 9 != a6;
+        const v8 = [v7,128.2012592840415,a6,a6,v7];
+        let v9;
+        try { v9 = ("function").charAt(a5); } catch (e) {}
+        function F10(a12, a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a12;
+            } catch(e15) {
+            }
+        }
+        new F10(v8, 9, v8);
+        const v17 = new F10(9, 128.2012592840415, v8);
+        new F10(a5, v9, v17);
+        Reflect.construct(F10, [F10,this,"function"], a6);
+        v17.__proto__;
+        C3 = a6;
+    }
+}
+const v23 = new C3(128.2012592840415, 9);
+const v24 = new C3(128.2012592840415, C3);
+new C3(v24, 9);
+function f29() {
+    return "string";
+}
+["string",v23];
+const v31 = [9,"tanh",128.2012592840415];
+delete v31[v31];
+const v34 = Symbol.iterator;
+const o43 = {
+    [v34]() {
+        let v36 = 10;
+        const o42 = {
+            next() {
+                v36--;
+                const v40 = v36 == 0;
+                const o41 = {
+                    "done": v40,
+                    "value": v36,
+                };
+                return o41;
+            },
+        };
+        return o42;
+    },
+};
+[v23,v24,v31];
+new BigUint64Array();
+function f49(a50, a51) {
+    const o53 = {
+        get e() {
+        },
+    };
+}
+class C54 {
+    static toString(a56) {
+    }
+    set a(a58) {
+        const o59 = {
+        };
+        const o60 = {
+        };
+        const o61 = {
+        };
+        const o62 = {
+        };
+    }
+}
+function f63(a64) {
+    for (let i = 0; i < 10; i++) {
+    }
+}
+[-0.0,3.5501749464532004,-0.0,-2.220446049250313e-16,0.7626441105891978,-585.9055525866645,1e-15,1000000.0] ** "IxTD";
+function F68(a70, a71, a72) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const o73 = {
+};
+function f74() {
+}
+const v75 = `
+    try {
+    } catch(e76) {
+    }
+`;

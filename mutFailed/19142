@@ -1,0 +1,36 @@
+function f0() {
+}
+const v3 = new Float64Array(512);
+v3[319];
+const v7 = new Uint32Array(129);
+const v10 = new Uint32Array(15);
+function f11() {
+    return f0;
+}
+Object.defineProperty(v10, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f11 });
+v10[11] = v10;
+let v14 = -4294967297n;
+v14--;
+for (let v16 = 0; v16 < 5; v16++) {
+    function f17() {
+        const v19 = ("Vre").toLocaleUpperCase;
+        try { v19(); } catch (e) {}
+        try { v19(v19, v14, v16); } catch (e) {}
+        const o22 = {
+            "a": v14,
+        };
+        o22.a = o22;
+        return v7;
+    }
+    f17();
+    %OptimizeFunctionOnNextCall(f17);
+}
+const o27 = {
+    ["536870887"]: -1000000000000.0,
+    "b": -757.5759240774136,
+    "a": -1000000000000.0,
+    [-757.5759240774136]: "536870887",
+    [-1000000000000.0]: -757.5759240774136,
+    "d": "536870887",
+    [-2]: -1000000000000.0,
+};

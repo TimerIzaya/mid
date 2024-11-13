@@ -1,0 +1,87 @@
+function f0() {
+}
+let v3 = -1000000000.0;
+v3++;
+function f5(a6, a7) {
+    a7++;
+    const o11 = {
+        "c": a7,
+        "h": a7,
+        [v3]: Infinity,
+        get d() {
+            this.h ^= v3;
+            %VerifyType(Infinity);
+            delete this[0];
+            return v3;
+        },
+        "g": Infinity,
+        "a": a7,
+        [v3]: -3.0,
+        __proto__: v3,
+        "e": a7,
+        ...a6,
+        [f0]: a7,
+        4: -3.0,
+        ...a6,
+        "f": v3,
+        307: Infinity,
+    };
+    return o11;
+}
+const v12 = f5(-3.0, -3.0);
+v12[307];
+const v14 = f5(-3.0, Infinity);
+const v15 = f5(v3, -3.0);
+v15.g = v15;
+class C16 {
+    constructor(a18, a19, a20, a21) {
+        a18[307] = a18;
+        a19.d = a19;
+        a20[4] = a20;
+        a21 + a21;
+        let v23;
+        try { v23 = new a20(a21, f5, this); } catch (e) {}
+        try {
+            new f5(true, v23);
+        } catch(e26) {
+        }
+        a18[a18] = a20;
+        f5(v3, -3.0);
+        %PrepareFunctionForOptimization(f5);
+        f5(v3, -3.0);
+        for (let v29 = 0; v29 < 32; v29++) {
+            try { ("p").codePointAt(-3.0); } catch (e) {}
+            v12["p" + v29] = v29;
+        }
+        const v34 = f5(v3, -3.0)?.__lookupGetter__;
+        try { new v34(a18); } catch (e) {}
+        %OptimizeMaglevOnNextCall(f5);
+        const v36 = f5(v3, -3.0);
+        v36.g = v36;
+    }
+    static 0;
+    static #toString(a38, a39, a40) {
+        try {
+            this.a = f5;
+        } catch(e41) {
+        }
+        try {
+            new f5(922.0555188645587, 0.7359938425766122);
+        } catch(e45) {
+        }
+        return v12;
+    }
+}
+const v46 = new C16(v14, v12, v12, -3.0);
+const v47 = v46?.constructor;
+try { new v47(v46, v12, v12, v14); } catch (e) {}
+const v49 = new C16(C16, C16, C16, Infinity);
+v49[4];
+const v51 = new C16(v12, Infinity, C16, -3.0);
+v51[4];
+let v55 = -934144199;
+v55++;
+class C59 extends Int8Array {
+    [9];
+}
+try { new C59(); } catch (e) {}

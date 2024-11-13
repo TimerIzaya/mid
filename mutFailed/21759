@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 536870912;
+    } catch(e3) {
+    }
+    try {
+        this.h = 536870912;
+    } catch(e4) {
+    }
+    try {
+        this.f = 536870912;
+    } catch(e5) {
+    }
+}
+function f6() {
+    try {
+        F0.toString = F0;
+    } catch(e7) {
+    }
+    return F0;
+}
+F0[Symbol.toPrimitive] = f6;
+const v10 = new F0();
+const v11 = new F0();
+const v12 = new F0();
+class C13 extends F0 {
+    3951796570 = v10;
+    constructor(a15, a16) {
+        a16.e = this;
+        super();
+        a15 &&= v12;
+        a15.h ||= a16;
+    }
+    static [F0];
+    static #d = v12;
+    268435440;
+    #f = v10;
+}
+const v17 = new C13(v11, F0);
+const v18 = new C13(v17, v10);
+const v19 = new C13(v17, v18);
+function f20() {
+    return v10;
+}
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = this;
+    try {
+        C13.e = a23;
+    } catch(e25) {
+    }
+    try {
+        this.g = v18;
+    } catch(e26) {
+    }
+}
+new F21(F21, v18);
+new F21(v19, v19);
+new F21(v12, v17);
+const v32 = ~9007199254740990;
+const v33 = (-4294967297).constructor;
+Object.defineProperty(v33, Symbol.toPrimitive, { configurable: true, value: f6 });
+v33.valueOf = f20;
+const v36 = v33(v33, 9007199254740990, v32, 9007199254740990, v33);
+try { v36.toFixed(-4294967297); } catch (e) {}

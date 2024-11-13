@@ -1,0 +1,56 @@
+const v0 = [];
+class C4 {
+    ["p"] = "matchAll";
+    static g = "e";
+    ["matchAll"] = v0;
+    ["e"] = C4;
+    constructor(a6, a7) {
+        const v8 = delete this["matchAll"];
+        a6 = v8;
+        let v9;
+        try { v9 = this("e", a7, "e", "e", "p"); } catch (e) {}
+        let v10;
+        try { v10 = v9("matchAll", a6, v8); } catch (e) {}
+        try { new v10(this, a6); } catch (e) {}
+        const v13 = Symbol.matchAll;
+        a7[v13] = v13;
+    }
+}
+const v14 = new C4("matchAll", "e");
+const v15 = new C4(v0, v14);
+const v16 = new C4(v14, "e");
+class C17 extends C4 {
+    constructor(a19, a20, a21) {
+        super(a19, a20);
+        Symbol.split;
+        a20[v0];
+    }
+    get e() {
+        this[3166] = this;
+        return 536870889;
+    }
+}
+const v29 = new C17(v15, "p", "e");
+const v30 = new C17("e", C17, v29);
+new C17(v30, "matchAll", v14);
+class C32 {
+}
+new C32();
+function F34(a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C40 {
+    }
+    const v41 = new C40();
+    const v42 = new C40();
+    const v43 = new a36();
+    function F44(a46, a47, a48, a49) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v50 = Date.constructor;
+        try { new v50(Date, Date, a46, v50); } catch (e) {}
+        a47[2147483648] = a47;
+        a49[2147483648] = a49;
+    }
+    new F44(C40, v42, v41, v42);
+    new F44(v42, v42, v43, v41);
+}
+new v16();

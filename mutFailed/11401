@@ -1,0 +1,45 @@
+let v8 = new Uint32Array(3651);
+new Uint16Array(234);
+const v14 = new Uint16Array(3173);
+class C15 {
+    toString(a17, a18) {
+        class C19 {
+            constructor(a21) {
+                for (let v22 = 0; v22 < 32; v22++) {
+                    v22 - v22;
+                    for (let v24 = 0; v24 < 5; v24++) {
+                    }
+                    try { a21(); } catch (e) {}
+                }
+            }
+        }
+        const v26 = new C19(a17);
+        new C19(v26);
+        new C19();
+    }
+}
+const v29 = new C15();
+function f30() {
+    ({"buffer":v8,} = v14);
+    function F31(a33, a34, a35, a36) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.b = 3173;
+        } catch(e37) {
+        }
+    }
+    new F31(234, 4.0, 4.180920336901121, 4.180920336901121);
+    const v39 = new F31(234, 4.180920336901121, 4.180920336901121, 4.0);
+    new F31(-9007199254740992, -1.3339186976605628, 4.0, -1.3339186976605628);
+    return v39;
+}
+v29[Symbol.toPrimitive] = f30;
+function f43(a44, a45, a46, a47) {
+    const o48 = {
+        [v29]: a45,
+    };
+    return v29;
+}
+const v49 = f43(f43, f43, f43, v29);
+f43();
+f43(C15, C15, v49, C15);

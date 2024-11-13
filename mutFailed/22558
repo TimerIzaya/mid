@@ -1,0 +1,53 @@
+const v1 = new Date();
+function f2(a3, a4) {
+    const o8 = {
+        set g(a6) {
+            try {
+                v1.g = this;
+            } catch(e7) {
+            }
+        },
+        __proto__: v1,
+        ...a4,
+        "f": v1,
+        [a3]: v1,
+        "h": a3,
+        [a4]: v1,
+        "e": a3,
+        "b": Date,
+        "c": v1,
+    };
+    return o8;
+}
+let v14 = new Uint8Array();
+v14 &= this;
+const v21 = f2(v1, Date);
+f2(v1, Date);
+const v23 = f2(v21, f2);
+function f24() {
+    return f2;
+}
+const v26 = [f24,f24,[f2,v23,v23]];
+[v26,v26,f24];
+/xP(?!(a))\1/gimy;
+/[m\111+]/dms;
+/(?:a+)?(?=.)/gui;
+let v34 = 6;
+class C37 {
+    get b() {
+        delete this?.e;
+        v34 = 1664606158;
+        const o41 = {
+            valueOf() {
+                return this;
+            },
+        };
+    }
+}
+class C42 extends C37 {
+    constructor(a44, a45, a46, a47) {
+        super();
+        super.b;
+    }
+}
+new C42(v34, C42, 1664606158, 1664606158);

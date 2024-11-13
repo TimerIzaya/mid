@@ -1,0 +1,60 @@
+new Int32Array(6);
+class C3 {
+}
+const v4 = new C3();
+function f5(a6, a7, a8) {
+    const o10 = {
+        get b() {
+            return C3;
+        },
+        127: v4,
+    };
+    return f5;
+}
+f5();
+%OptimizeFunctionOnNextCall(f5);
+Uint8ClampedArray[0] = f5;
+const v14 = new Uint8ClampedArray(2249);
+512 >> 512;
+Uint8Array.length;
+const v19 = new Uint8Array(512);
+function f20() {
+    return f5;
+}
+function f21(a22) {
+    a22 **= a22;
+}
+Object.defineProperty(v19, "constructor", { writable: true, configurable: true, enumerable: true, get: f20, set: f21 });
+const v23 = v19?.constructor;
+try { new v23(Uint8ClampedArray, v14, 6); } catch (e) {}
+1164 << 1164;
+const v28 = new Int16Array(1164);
+v28[Symbol.toPrimitive] = f5;
+8 >> 8;
+new Uint32Array(8);
+function f37(a38, a39, a40) {
+    const o42 = {
+        get d() {
+            return f37;
+        },
+    };
+    const v43 = o42?.__lookupSetter__;
+    let v44;
+    try { v44 = new v43(); } catch (e) {}
+    return v44;
+}
+Int8Array.a = Int8Array;
+new Int8Array(257);
+const v46 = [];
+const v50 = [1.7976931348623157e+308,2.2250738585072014e-308,928419.7587767004,-279.06139374957183,1000.0];
+const o51 = {
+    __proto__: v50,
+};
+o51.concat();
+([-1.5424212036356715e+308]).shift();
+-v28;
+let v59 = Int32Array;
+v59.toString = f5;
+const v60 = v59++;
+v60.toExponential(v60);
+Object.defineProperty(v46, "h", { configurable: true, enumerable: true, set: Date });

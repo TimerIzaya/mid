@@ -1,0 +1,72 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [f0];
+const v3 = [v2,v2,v1];
+const v4 = [-53613,268435440,268435440,2,-65536,-2147483647];
+const v5 = [8];
+const v6 = [-1024,-2147483647,-37738,-2,21596,2147483649,9007199254740992,-2039218916];
+class C7 {
+    static #f;
+    static set f(a9) {
+        a9(this, this, a9, v5);
+    }
+    constructor(a12) {
+        function f13() {
+            return a12;
+        }
+        function f14(a15) {
+            Reflect.construct(a15, [], a15);
+        }
+        Object.defineProperty(this, "e", { writable: true, configurable: true, enumerable: true, get: f13, set: f14 });
+        this.e = v5;
+    }
+}
+const v19 = new C7(v6);
+let v21;
+try { v21 = v19.reduceRight(4294967295, v6, C7); } catch (e) {}
+function f22(a23, a24, a25, a26) {
+    const v27 = v5 in v4;
+    try { v21(...v5, ...v4, v6, ...v27); } catch (e) {}
+    return f22;
+}
+class C29 {
+    e;
+    constructor(a31) {
+        const v32 = f0();
+        %PrepareFunctionForOptimization(f0);
+        const v33 = f0();
+        const v34 = f0();
+        %OptimizeMaglevOnNextCall(f0);
+        const v35 = f0();
+        function F36(a38, a39, a40) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.b = v32;
+            const v41 = this?.__defineGetter__;
+            try { new v41(F36, v32); } catch (e) {}
+            this.d = a38;
+            try {
+                this.d = v1;
+            } catch(e43) {
+            }
+        }
+        new F36(v2, v32, v32);
+        const v45 = new F36(v35, v34, v33);
+        v45.b = a31;
+        v45.b = v45;
+        new F36(this, v33, v32);
+    }
+}
+C29.name = C29;
+const v47 = new C29(v1);
+new C29(v2);
+const v49 = new C29(v2);
+[v47,v49,v2];
+[v47,C29,v1,v49,f0];
+([v3,v2,v47])[1];
+const v57 = [927716.746385878];
+try { v57.reduceRight(C29); } catch (e) {}
+BigUint64Array.prototype;
+const v63 = new BigUint64Array(10);
+const v66 = ["db",6];
+-Reflect.apply(v57.indexOf, v63, v66);

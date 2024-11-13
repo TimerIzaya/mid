@@ -1,0 +1,87 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        function f3(a4) {
+            class C5 {
+            }
+            const v6 = new C5();
+            return v6;
+        }
+        return f3;
+    }
+    function f7(a8) {
+        const v11 = new BigInt64Array(128);
+        v11.indexOf(-11907, 4294967296);
+    }
+    Object.defineProperty(this, "valueOf", { enumerable: true, get: f2, set: f7 });
+    try {
+        this.h = 44028658;
+    } catch(e16) {
+    }
+}
+const v17 = new F0();
+const v18 = new F0();
+new F0();
+const v23 = [268435456,4,536870888,-2147483647,6,50193,-3,58789,-2,268435441];
+function f24(a25, a26) {
+    let v29;
+    try { v29 = new SharedArrayBuffer(-2147483647n); } catch (e) {}
+    return v29;
+}
+v23[Symbol.toPrimitive] = f24;
+function f32() {
+    new Date();
+    return 0.4501771807457722;
+}
+Object.defineProperty(v23, "toString", { enumerable: true, value: f32 });
+const v35 = [-27680,1073741824,268435440,344381424];
+function f36() {
+    return Symbol;
+}
+function f37(a38) {
+    function f40(a41) {
+        const o45 = {
+            __proto__: 2,
+            213: a41,
+            ...a41,
+            "g": 2,
+            p(a43, a44) {
+                return 2;
+            },
+        };
+        return o45;
+    }
+    %PrepareFunctionForOptimization(f40);
+}
+Object.defineProperty(v35, Symbol.toPrimitive, { enumerable: true, get: f36, set: f37 });
+function f48() {
+    return f32;
+}
+function f49(a50) {
+    try {
+        new f32();
+    } catch(e52) {
+    }
+}
+Object.defineProperty(v35, "toString", { configurable: true, enumerable: true, get: f48, set: f49 });
+const v53 = [17870];
+class C54 extends F0 {
+    [-1];
+    static set a(a56) {
+        const v57 = this * this;
+        [v57,v57,355723.3241533125,v57];
+        [[v17,a56],v17,this];
+    }
+    static [v35] = v35;
+    constructor(a62, a63, a64) {
+        super();
+        a62 >>= -1000000000000.0;
+        a64[v23] = 0.4501771807457722;
+        super[v18] = a62;
+    }
+}
+const v68 = new C54(v17, -1000000000000.0, v53);
+Object.defineProperty(v68, "valueOf", { enumerable: true, value: f37 });
+new C54(v18, v35, v53);
+new C54(v68, v23, v35);
+try { (-1000000000000.0).log2(-9007199254740992); } catch (e) {}

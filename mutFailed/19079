@@ -1,0 +1,70 @@
+function f0() {
+    const t1 = "f";
+    t1[0] = "f";
+    const o12 = {
+        1073741825: "d",
+        ["d"](a5, a6) {
+            with (a6) {
+                const o8 = {
+                };
+                new Proxy(a6, o8);
+            }
+            try {
+                this.valueOf = a5;
+            } catch(e11) {
+            }
+            this[129] = a5;
+            return a5;
+        },
+        "b": "f",
+        "e": "d",
+        6: "f",
+        ..."f",
+    };
+    o12[6];
+    return o12;
+}
+const v14 = f0();
+-9.59045000403769 >> -9.59045000403769;
+class C22 {
+    constructor(a24, a25, a26, a27) {
+        a25 + a25;
+        a27--;
+        this[v14] = a27;
+    }
+}
+const v30 = C22?.toString;
+try { new v30(); } catch (e) {}
+const v32 = new C22(-1.461653635104799e+308, -1.461653635104799e+308, -1.0, -1.0);
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    a35 % -5.0;
+    const v39 = this.constructor;
+    try { new v39(C22, -1.0); } catch (e) {}
+    const v41 = a36.constructor;
+    try { new v41(a36, v32, this, a35); } catch (e) {}
+}
+const v43 = new F33(2.2250738585072014e-308, v32);
+new F33(-9.59045000403769, v43);
+new F33(-3.0, C22);
+f0();
+f0();
+new WeakSet();
+new WeakSet();
+new Uint8ClampedArray(10);
+new Int16Array(129);
+new Int32Array(256);
+function F64() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        -(-7) ** -7;
+    } catch(e69) {
+    }
+}
+function F70(a72, a73) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v74 = this.constructor;
+    try { new v74(this, a72); } catch (e) {}
+    new F64();
+}
+new F70();

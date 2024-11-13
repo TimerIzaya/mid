@@ -1,0 +1,24 @@
+const v2 = new Int16Array(255);
+const v5 = Float32Array.name;
+const v6 = new Float32Array(4023);
+const v9 = new Float32Array(4);
+Object.defineProperty(v6, "f", { writable: true, enumerable: true, value: v2.byteLength });
+const v14 = [v5,v9.byteLength];
+Reflect.apply(v6.reduce, v9, v14);
+const v19 = [v9,Float32Array,[Float32Array,[v9,Float32Array,v9],255,Float32Array,255],v6,4];
+const v20 = `
+    let v21;
+    try { v21 = v6.reverse(); } catch (e) {}
+    try { v21(); } catch (e) {}
+    let v24 = 13834;
+    Math.atan2(v24, v19);
+    Math.cbrt(v19);
+    Math.floor(v19);
+    --v24;
+    function f29() {
+        return f29;
+    }
+`;
+try { v20.toLocaleLowerCase(); } catch (e) {}
+const v31 = v20.normalize();
+try { v31.matchAll(255); } catch (e) {}

@@ -1,0 +1,60 @@
+function f2() {
+    let v3 = 852.2904873570058;
+    function f4() {
+        const v5 = [];
+        v5[6] = v5;
+        const o8 = {
+            set b(a7) {
+            },
+        };
+        return v3;
+    }
+    for (let v9 = 0; v9 < 5; v9++) {
+        f4();
+        %OptimizeFunctionOnNextCall(f4);
+    }
+    %VerifyType(Math);
+    Math.clz32(-344.86841635307906);
+    Int8Array && f4;
+    +655;
+    ~47772;
+    f2 & 655;
+    Math.log(f2);
+    const o27 = {
+        m(a24, a25) {
+            return v3++;
+        },
+    };
+    return o27;
+}
+%PrepareFunctionForOptimization(f2);
+f2();
+f2();
+%OptimizeFunctionOnNextCall(f2);
+const v30 = f2();
+new Int8Array(655);
+const o35 = {
+    "maxByteLength": 4294967295,
+};
+const v37 = new ArrayBuffer(1477, o35);
+new Uint16Array(v37);
+const v41 = new Uint8ClampedArray(15);
+try {
+    v30.toString = f2;
+} catch(e42) {
+}
+try {
+    v37.resizable = 4294967295;
+} catch(e43) {
+}
+v41[14] = v41;
+new Int32Array(7);
+1.546505102887047e+308 * 1.546505102887047e+308;
+function f51() {
+    return 1000000.0;
+}
+f51.length = f51;
+class C53 extends Map {
+}
+C53.prototype;
+new C53();

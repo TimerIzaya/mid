@@ -1,0 +1,52 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -14;
+    } catch(e3) {
+    }
+    try {
+        const t7 = -14;
+        t7.b = -14;
+    } catch(e4) {
+        const o5 = {
+        };
+        const v7 = new Proxy(F0, o5);
+        this % v7;
+    }
+}
+const v9 = new F0();
+new v9();
+const v11 = new F0();
+const v12 = [-2147483648];
+[7,251213020,-65536,-2147483647,1979799398];
+const v14 = [20842,512,536870887,268435439,-3,-2100072312,268435440,536870912];
+class C15 {
+    static 2147483647;
+    [F0];
+    static get h() {
+        for (let v17 = 0; v17 < 32; v17++) {
+            this["flat" + v17] = v17;
+        }
+        return v11;
+    }
+    [v14] = v12;
+    #g;
+    static f = v11;
+    static 268435456 = v9;
+    static 198 = C15;
+    5 = v12;
+    3175671366;
+    [v11];
+    static e;
+}
+const v20 = new C15();
+new C15();
+new v20();
+function f26() {
+    const o29 = {
+        "g": -132626040,
+        6: "-641657515",
+    };
+    return -132626040;
+}
+("f").__proto__.fontcolor(f26);

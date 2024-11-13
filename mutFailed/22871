@@ -1,0 +1,88 @@
+/[\111]/msy;
+const v1 = /a(?!bbb|bb)c/vdi;
+const v2 = /o(?:foo)/y;
+let v4;
+try { v4 = v2.test(2.2250738585072014e-308); } catch (e) {}
+Object.defineProperty(v2, 3367, { writable: true, configurable: true, value: v2 });
+const v6 = [[v4,v1,v4]];
+const v7 = [v6,v2,v6,v2];
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a13;
+        function f14(a15, a16, a17, a18) {
+            function f19() {
+                return f19;
+            }
+            const v20 = f19();
+            function f21(a22, a23) {
+                const o25 = {
+                    get d() {
+                        return this;
+                    },
+                };
+                return v20;
+            }
+            f21(f21());
+            return f14;
+        }
+    } catch(e28) {
+    }
+}
+new F10(-1.0, v1);
+const v30 = new F10(2.2250738585072014e-308, v1);
+new F10(2.2250738585072014e-308, v2);
+class C32 {
+    #m(a34, a35) {
+    }
+    [-1];
+}
+function f38(a39) {
+    const o40 = {
+        3677: -128n,
+    };
+    return o40;
+}
+f38(-1024n);
+f38(-1024n);
+v1.d = f38;
+const v43 = new C32();
+class C44 {
+    2 = v43;
+}
+const v45 = new C44();
+function f46(a47, a48) {
+    return f46;
+}
+v4.g %= v4;
+new v6();
+class C52 {
+    static #d;
+    set b(a54) {
+        Symbol.search;
+    }
+    static ["Xkz0W"] = "Xkz0W";
+    8;
+    d;
+}
+delete v2[1.555033715357375e+308];
+try { v7.at(v4); } catch (e) {}
+v30[3094];
+const v62 = [v45];
+const v63 = [-950834992,-268435456,536870912,2,-4294967295,12846,1000,38663,1841996067,721870135];
+function f64(a65, a66, a67) {
+    a65.fill();
+    return a66;
+}
+f64(v63);
+const o75 = {
+    "arguments": v62,
+    "type": "function",
+    next() {
+    },
+    set b(a72) {
+    },
+    valueOf(a74) {
+    },
+};
+new Worker(f46, o75);

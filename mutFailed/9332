@@ -1,0 +1,63 @@
+const v1 = new WeakMap();
+class C5 extends WeakMap {
+    [-286097.1626396383] = NaN;
+    constructor(a7) {
+        super(v1);
+        const v8 = new WeakMap(v1);
+        const v11 = [this];
+        Reflect.apply(this.get, v8, v11);
+    }
+    static #a = v1;
+    g = NaN;
+    #g;
+    static [NaN] = -983.9284896774354;
+}
+const v14 = new C5(-286097.1626396383);
+const v15 = new C5(-983.9284896774354);
+const v16 = new C5(-286097.1626396383);
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        function F22(a24, a25, a26, a27) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = a24;
+        }
+        new gc();
+        this.g = a21;
+    } catch(e30) {
+    }
+    try {
+        this.a = a20;
+    } catch(e31) {
+    }
+}
+const v32 = new F17(v15, v16, v16);
+const v33 = new F17(v16, v15, v1);
+new F17(v14, v16, v14);
+class C35 {
+    constructor(a37, a38, a39) {
+        a37[0] = v32;
+        let v40 = a37 || WeakMap;
+        v40 = v1;
+    }
+    #a;
+    set e(a42) {
+        class C43 {
+            static #e = -983.9284896774354;
+            static 167;
+        }
+        new C43();
+        new C43();
+        new C43();
+    }
+}
+new C35(v16, v33, -983.9284896774354);
+new C35(v1, v33, -286097.1626396383);
+new C35(WeakMap, v32, NaN);
+function F50() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v52 = 0; v52 < 500; v52++) {
+        this["p" + v52] = v52;
+    }
+}
+new F50();

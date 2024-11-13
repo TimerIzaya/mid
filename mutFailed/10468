@@ -1,0 +1,73 @@
+const v0 = [];
+class C4 {
+    static #c;
+    #g = v0;
+    static #h;
+    static set b(a6) {
+        try {
+            this.#h;
+        } catch(e8) {
+        }
+    }
+    static {
+        try {
+            this.b = this;
+        } catch(e10) {
+        }
+    }
+}
+new C4();
+new C4();
+const v13 = new C4();
+const v16 = new Int8Array(129);
+new BigInt64Array(1000);
+new Uint8ClampedArray(3);
+const v23 = [536870887,-42204,-17288903,-3,9007199254740991,7];
+function f24(a25) {
+    const o27 = {
+    };
+    const v28 = new WeakRef(o27);
+    v28.deref();
+    return o27;
+}
+v23[Symbol.toPrimitive] = f24;
+const v32 = [6,268435440,13,1073741825];
+v32[5] = Int8Array;
+const v33 = [-15,-2147483649,-899333997,3,1455560807,-1024,-4294967297,2098301778];
+v33.reverse();
+class C35 {
+    constructor(a37) {
+        function f38(a39, a40) {
+            a39[5];
+        }
+        f38(v33);
+        f38(v23);
+        f38(a37);
+    }
+}
+C35[5] = Symbol;
+const v45 = C35.constructor;
+const v46 = new C35(v32);
+const v47 = new C35(v23);
+v47.constructor = Symbol;
+const v48 = v47.constructor;
+v48[5] = v16;
+new v48(v46);
+const v50 = new C35(C35);
+try { v50.__defineGetter__(); } catch (e) {}
+function f52(a53, a54, a55, a56) {
+    try { a54.some(v45); } catch (e) {}
+    const o58 = {
+        __proto__: a53,
+    };
+    try { o58.groupToMap(); } catch (e) {}
+    return o58;
+}
+const v61 = f52(v32).indexOf();
+const v62 = f52(v33, v23);
+try { v62.groupToMap(v61); } catch (e) {}
+f52(v33, v33);
+const o66 = {
+};
+Object.defineProperty(o66, "execution", { configurable: true, value: v13 });
+gc(o66);

@@ -1,0 +1,13 @@
+new Uint8ClampedArray(1508);
+new Uint16Array(-1073741824);
+new Float32Array(4073);
+const v16 = new Uint32Array();
+const v18 = Symbol.toPrimitive;
+v16[v18] = Array;
+const o22 = {
+    n(a20, a21) {
+        this[2] = v16;
+        return -1073741824;
+    },
+};
+try { v18.n(); } catch (e) {}

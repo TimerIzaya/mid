@@ -1,0 +1,76 @@
+class C3 {
+    get h() {
+        let v4 = this;
+        ++v4;
+        for (let v6 = 0; v6 < 32; v6++) {
+            const t5 = "growable";
+            t5["p" + v6] = v6;
+        }
+        return "growable";
+    }
+    p(a10) {
+        new Uint8ClampedArray(1);
+        new BigUint64Array(3256);
+        new Int8Array(12);
+        return 3256;
+    }
+}
+let v20 = new C3();
+const v21 = new C3();
+const v22 = new C3();
+function f23(a24, a25, a26, a27) {
+    const o35 = {
+        get f() {
+            this.d;
+            super.b = a26;
+            const o33 = {
+                "execution": "sync",
+                [gc]: C3,
+                ...C3,
+                __proto__: this,
+                "c": a26,
+                [v22]: "minor",
+                "type": "minor",
+            };
+            gc(o33);
+            return -10596;
+        },
+        "b": C3,
+        __proto__: v22,
+    };
+    return o35;
+}
+let v36 = f23(v21, C3, v20, v22);
+const v37 = f23(v22, v22, v22, v20);
+const v38 = f23(v21, C3, v21, C3);
+class C39 extends C3 {
+    ["growable"];
+    valueOf(a41, a42, a43) {
+        for (const v44 in a41) {
+            f23(-10596, true, this, true);
+            try { this.p(v37, v22, v37, v36, "NaN"); } catch (e) {}
+            [a43,v20,...v36] = "growable";
+            try {
+                f23(C3, C39, a42, this);
+            } catch(e53) {
+            }
+            if ("log1p") {
+            }
+            -2147483649;
+            Math.cosh(v38);
+            Math.acos(1e-15 - v38);
+        }
+        return v37;
+    }
+    [f23] = v37;
+    [v36] = -10596;
+    #c;
+    static #a;
+    static [v37] = "NaN";
+    6;
+}
+new C39();
+new C39();
+new C39();
+Math.cosh(-9.488890520175198e+307);
+(-10596).atan2(9, 5);

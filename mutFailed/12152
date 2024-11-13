@@ -1,0 +1,55 @@
+function f0() {
+}
+let v4 = 0;
+const v5 = new f0();
+v4++;
+const o7 = {
+};
+const v10 = new BigInt64Array(218);
+function f19() {
+    return 2n;
+}
+function f20() {
+    class C21 {
+    }
+    const v22 = new C21();
+    const v23 = [v22,v22,v22,v22,v22];
+    const v24 = [f20,f20];
+    class C27 {
+    }
+    const v28 = new C27();
+    const o31 = {
+        "e": v5,
+        ...v5,
+        "d": v5,
+        [v4]: 2n,
+        "g": 579720983,
+        256: "getInt32",
+        set b(a30) {
+        },
+        "b": v24,
+        ...v28,
+        "f": v24,
+        "c": C27,
+    };
+    function f32() {
+        new f32();
+        return v22;
+    }
+    v24.constructor = f32;
+    class C35 extends C21 {
+        [v22];
+    }
+    const v36 = new C35();
+    v24.constructor;
+    try { v36.m(v23); } catch (e) {}
+    return f20;
+}
+%PrepareFunctionForOptimization(-13);
+f20();
+Math.sinh(-2.2250738585072014e-308);
+const v43 = ("async").toLocaleUpperCase;
+try { v43(); } catch (e) {}
+v10();
+%OptimizeFunctionOnNextCall(f20);
+f20();

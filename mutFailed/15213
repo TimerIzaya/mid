@@ -1,0 +1,18 @@
+new Int8Array(257);
+const v5 = new Int32Array(108);
+try { v5.set(v5); } catch (e) {}
+const t3 = 257;
+new t3(108);
+let v12 = -8456n;
+v12--;
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v18 = new F14();
+const v19 = v18?.constructor;
+try { new v19(Int32Array, v12); } catch (e) {}
+typeof v18;
+const v23 = v19 === "number";
+!v23;
+const v26 = Math.asinh(v23);
+v26 & v26;

@@ -1,0 +1,49 @@
+const v1 = new WeakSet();
+const v2 = [WeakSet];
+function f3() {
+    return v2[Symbol.split];
+}
+v2[Symbol.toPrimitive] = f3;
+const v9 = [v2];
+v9[Symbol.toPrimitive] = Symbol;
+const v12 = [WeakSet,v9,WeakSet];
+function f13(a14) {
+    a14.toString = f3;
+    const o19 = {
+        [v12]: a14,
+        [v9]: a14,
+        set c(a16) {
+            try {
+                super.p(a14, v12, this, a14, this);
+            } catch(e18) {
+            }
+        },
+        512: a14,
+        __proto__: v1,
+        5: v1,
+    };
+    return o19;
+}
+const v20 = f13(v9);
+const v21 = f13(v12);
+const v22 = f13(v12);
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "a", { writable: true, configurable: true, enumerable: true, value: F23 });
+    try {
+        this.d = v21;
+    } catch(e28) {
+    }
+    try {
+        this.f = a26;
+    } catch(e29) {
+    }
+    try {
+        this.a = WeakSet;
+    } catch(e30) {
+    }
+}
+new F23(v21, v22, v2);
+new F23(v21, f13, WeakSet);
+new F23(v20, v21, v12);
+/(?=a){1,10}a/ims;

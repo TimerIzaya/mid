@@ -1,0 +1,54 @@
+class C3 {
+    static valueOf(a5, a6) {
+        const o7 = {
+        };
+        try {
+            o7.a = -1e-15;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.a = -1e-15;
+            o9.b = "toDateString";
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.a = o11;
+            o11.b = "toDateString";
+            o11.g = -1.7976931348623157e+308;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.a = -1e-15;
+            o13.b = "toDateString";
+            o13.g = o13;
+        } catch(e14) {
+        }
+        return a5;
+    }
+}
+C3.length;
+const v16 = new C3();
+new v16();
+const v18 = new C3();
+new Map();
+function f25() {
+    const o31 = {
+        toString(a27) {
+            const v28 = this?.__defineGetter__;
+            try { new v28(v18, v18); } catch (e) {}
+            return [-2.0,-1000000.0,-Infinity,0.03714003700223023,-1.0];
+        },
+    };
+    try { o31.toString(-1e-15); } catch (e) {}
+    return o31;
+}
+f25.name;
+const v36 = [f25,f25(),[4,4294967295,-14,-2068970124,63345,9007199254740992,14312,-1300834415,59193]];
+try { v36.includes(C3); } catch (e) {}
+try { v36.toLocaleString(v36); } catch (e) {}

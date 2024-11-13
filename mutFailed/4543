@@ -1,0 +1,52 @@
+function f2() {
+    return false;
+}
+function f3() {
+    return f3;
+}
+let v5;
+try { v5 = WeakMap.bind(false); } catch (e) {}
+const v6 = new v5();
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a11;
+    const v12 = !a11;
+    try {
+        this.d = v12;
+    } catch(e13) {
+    }
+}
+const v14 = new F7(f2, v6, false);
+v14.d = v14;
+const v15 = new F7(f3, null, v6);
+v15.d = v15;
+const v16 = new v5(v15, WeakMap, false);
+const v17 = [f3,f2,v6,false,v16];
+v17[5] = WeakMap;
+try { v17.push(v6); } catch (e) {}
+[WeakMap,[v17,v5,WeakMap],v15];
+/a+bN/gudm;
+/\ud808\udf45*/udi;
+const v23 = /na\s/vy;
+v23.d = v23;
+const v27 = new Float64Array(203);
+const v29 = new BigInt64Array();
+new Float32Array(v27);
+for (let v31 = 0; v31 < 25; v31++) {
+    try { ("p").concat(f2); } catch (e) {}
+    v29["p" + v31] = v31;
+}
+for (let v35 = 0; v35 < 5; v35++) {
+    function f37() {
+        let v38 = -9223372036854775808n;
+        v38--;
+        45725n === 45725n;
+        v38 %= 45725n;
+        return 45725n;
+    }
+    for (let v42 = 0; v42 < 5; v42++) {
+        f37();
+        %OptimizeFunctionOnNextCall(f37);
+    }
+    v29["p" + v35] = v35;
+}

@@ -1,0 +1,39 @@
+const v1 = new WeakSet();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a4;
+    } catch(e5) {
+    }
+}
+v1[F2] = F2;
+try {
+    v1.e = F2;
+} catch(e6) {
+}
+const v7 = new WeakSet(v1);
+v7.c = v7;
+const v8 = new F2(v1);
+v8.c;
+const v10 = new F2(v1);
+const v11 = [v10,v8,WeakSet,WeakSet,v1];
+try { v11.shift(); } catch (e) {}
+const v13 = [v1,v11,v7,v7,F2];
+v13[2] = v13;
+const v14 = [F2];
+function f15() {
+    return v8;
+}
+class C19 {
+    constructor(a21, a22) {
+        try {
+            this.fuck(a22, "function");
+        } catch(e25) {
+            e25.name;
+        }
+        Math.expm1(v14);
+    }
+}
+const v29 = new C19();
+const v32 = "1343140951" % !v29;
+v32 + v32;

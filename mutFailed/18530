@@ -1,0 +1,63 @@
+class C3 {
+    p(a5, a6) {
+        const o7 = {
+        };
+        try {
+            o7.e = 1;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.e = 1;
+            o9.b = 1348677599;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.e = 1;
+            o11.b = 1348677599;
+            o11.f = 1;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.e = 1;
+            o13.b = 1348677599;
+            o13.d = a6;
+        } catch(e14) {
+        }
+        return this;
+    }
+}
+const v15 = new C3();
+new C3();
+const v17 = new C3();
+class C18 extends C3 {
+    constructor(a20, a21, a22, a23) {
+        function f24() {
+            return C3;
+        }
+        function f25(a26) {
+            1348677599 | -9007199254740990;
+        }
+        Object.defineProperty(a20, "length", { writable: true, configurable: true, get: f24, set: f25 });
+        super();
+        try {
+            a20.length = 0;
+        } catch(e30) {
+        }
+    }
+    #a = v15;
+    [C3] = v17;
+    [v15] = 1348677599;
+}
+const v31 = new C18(v17, v17, v15, 1);
+new C18(v17, v15, v17, 4294967297);
+new C18(v31, 1, v17, 1348677599);
+class C35 extends Array {
+}
+const v36 = new C35();
+v36.pop();

@@ -1,0 +1,54 @@
+const v0 = [-256,536870888,-128,1,127,14];
+const v1 = [31070,-10,65537,536870889,-1,-1804064469,-1024,9223372036854775807,1237032103];
+const v2 = [964455217,-1,740301424,-2147483649,8];
+const v3 = [v1,v2,v0,v2,v1];
+let v4;
+try { v4 = v3.map(v1); } catch (e) {}
+const v5 = [v3];
+const v6 = [v0,v5,v5,v1,v1];
+v1[3] = v6;
+class C7 {
+    static valueOf(a9, a10, a11) {
+        v2.length;
+        try { a9(); } catch (e) {}
+        a9[7] = a11;
+        return a9;
+    }
+    static o(a15, a16) {
+        let v17;
+        try { v17 = new this(a16, v2, a16, a16, this); } catch (e) {}
+        super[v17] = v17;
+        return v4;
+    }
+    [v3] = v5;
+}
+const v18 = v4?.constructor;
+let v19;
+try { v19 = new v18(v5); } catch (e) {}
+new v19();
+const v21 = v5?.constructor;
+try { new v21(); } catch (e) {}
+const v23 = new v4();
+const v24 = v23?.__lookupGetter__;
+try { new v24(v24); } catch (e) {}
+const v26 = new C7();
+v26?.constructor;
+try { new v2(); } catch (e) {}
+function F29(a31, a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a32.lastIndexOf(v23); } catch (e) {}
+    try { a34.values(); } catch (e) {}
+    try {
+        this.h = a31;
+    } catch(e37) {
+    }
+    try {
+        this.a = a33;
+    } catch(e38) {
+    }
+}
+const v39 = new F29(C7, v3, v2, v26);
+const v40 = new F29(v39, v2, v3, v2);
+v40.a;
+new F29(v5, v0, v2, v6);
+gc();

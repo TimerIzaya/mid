@@ -1,0 +1,73 @@
+function f0() {
+}
+const v1 = [9007199254740990,1489104538,10,-1424616853,268435439,-32262,-2147483649,-63960,2,734739605];
+[-8,127,65535];
+const v3 = [7,2147483648,1073741824,-1427988041,2,9];
+const v4 = [-1000000000000.0,-2.0,1000000000000.0,0.901537490064662,-1.7976931348623157e+308,-385.3512032399924];
+const v5 = [1000.0,0.0,3.0,-0.0];
+const v6 = [-1e-15,0.20747719464528913,-5.0];
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a10;
+    } catch(e11) {
+    }
+    try {
+        this.e = a9;
+    } catch(e12) {
+    }
+    try {
+        a10.f = f0;
+    } catch(e13) {
+    }
+}
+new F7(v3, v1);
+new F7(v4, v5);
+new F7(v1, v6);
+let v20 = 3.1466442940809625;
+class C22 {
+    set e(a24) {
+        const v26 = Symbol.iterator;
+        const o32 = {
+            [v26]() {
+                let v28 = 10;
+                const o31 = {
+                    next() {
+                        v28--;
+                        return this;
+                    },
+                };
+            },
+        };
+    }
+}
+const v33 = new C22();
+const v34 = new C22();
+const t45 = "cgJY";
+const v35 = new t45();
+function f36(a37, a38) {
+    const o45 = {
+        512: C22,
+        4294967295: a37,
+        valueOf(a40, a41) {
+            return a41;
+        },
+        "e": v34,
+        o(a43, a44) {
+            return a44;
+        },
+    };
+    return o45;
+}
+const v46 = f36(f36, v20);
+f36(C22, v20);
+const v48 = f36(f36, -1000.0);
+let v49 = 1024n;
+try {
+    C22();
+} catch(e51) {
+}
+v48.h;
+let v53 = v48[v35];
+({"e":v49,"h":v53,...v20} = v46);
+try { v33.p(v53, v53, -1000.0, v35, v33); } catch (e) {}

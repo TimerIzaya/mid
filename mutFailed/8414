@@ -1,0 +1,39 @@
+const v0 = /(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\10/gu;
+const v1 = /abc+?/gvy;
+const v2 = /(ab)/vdimsy;
+const v4 = v0.iterator;
+const o13 = {
+    [v4]() {
+        let v6 = 10;
+        const o12 = {
+            next() {
+                v6--;
+                const v10 = v6 == 0;
+                const o11 = {
+                    "done": v10,
+                    "value": v2,
+                };
+                return o11;
+            },
+        };
+        return v6;
+    },
+};
+const v16 = new Int16Array(14);
+new Uint8ClampedArray(4096);
+new v16(128);
+const v23 = [5,4142,11,268435456,11,-30743,4096,268435440,1753297073];
+function f24() {
+    o13[538] = Int8Array;
+    new Uint32Array(127);
+    new Uint32Array(256);
+    new Uint8ClampedArray(11);
+    Int8Array.b = Int8Array;
+    gc();
+    Object.defineProperty(v23, 1, { writable: true, enumerable: true, value: v23 });
+    return v16;
+}
+%PrepareFunctionForOptimization(v1);
+f24();
+%OptimizeFunctionOnNextCall(f24);
+f24();

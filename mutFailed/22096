@@ -1,0 +1,15 @@
+new WeakSet();
+new WeakSet(WeakSet);
+/RFjV\p{Nd}+/vs;
+/a{0}?/vs;
+/(?:a?)+/vy;
+for (let v13 = 0; v13 < 5; v13++) {
+    function f14() {
+        const v15 = [-1.5424212036356715e+308];
+        try { v15.sort(); } catch (e) {}
+        ~v15.shift();
+        return v13;
+    }
+    f14();
+    %OptimizeFunctionOnNextCall(f14);
+}

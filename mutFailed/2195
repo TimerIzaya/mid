@@ -1,0 +1,71 @@
+const v0 = /[H\P{gc=Decimal_Number}]/gvimsy;
+const v1 = /xyz??6F\P{scx=Greek}/gvmy;
+const v2 = /a\b!/vmy;
+const v3 = [-2147483647,268435440];
+[3,-256,1073741823,-30456,4294967296,63445,1000,1073741824,1073741823];
+([1024])[0];
+function f7() {
+    return v3;
+}
+class C8 extends f7 {
+    valueOf(a10, a11, a12, a13) {
+        super[a13];
+        f7();
+        return a13;
+    }
+    static #g = v2;
+    set b(a17) {
+        var e = f7;
+        v0[268435456] = 127n;
+        new WeakSet();
+        super[v1];
+    }
+}
+C8.length = v0;
+const v24 = new C8();
+v24[Symbol.toPrimitive] = f7;
+const v27 = new C8();
+try { v27.fill(v27); } catch (e) {}
+const v29 = new C8();
+function f30(a31, a32, a33, a34) {
+    a34.d = a32;
+    a33.g = a33;
+    a34.d = a34;
+    const o50 = {
+        129: v24,
+        2: v3,
+        set b(a36) {
+            let v37 = v3.length;
+            [a33,a32,...v37] = v3;
+            /(?:ab|cde)(ab)/uims;
+            /a\Bb(ab|cde)+/vdmy;
+            /(?=)/diy;
+            const v41 = a31[a31];
+            v3[8] = v41;
+            for (let i43 = 0; i43 < 5; i43++) {
+                v41 << v1;
+            }
+        },
+    };
+    o50[129] = o50;
+    return o50;
+}
+f30.d = v27;
+const v51 = f30(v0, v3, v3, f30);
+v51.d = f30;
+const v52 = f30(v1, v27, v29, v0);
+f30(v0, v24, v24, v51);
+class C57 {
+}
+try { C57.call(v52); } catch (e) {}
+new C57();
+const v60 = new C57();
+function f61() {
+    return f7;
+}
+Object.defineProperty(v60, "constructor", { configurable: true, get: f61 });
+const v62 = v60?.constructor;
+try { new v62(); } catch (e) {}
+for (let i69 = v29, i70 = 10; i69 < i70; i69++, i70--) {
+    new C57();
+}

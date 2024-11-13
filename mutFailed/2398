@@ -1,0 +1,87 @@
+function f0() {
+    -65535 >>> -65535;
+    const o24 = {
+        n(a6, a7) {
+            a6.b = "h";
+            let v8;
+            try { v8 = a6(a7); } catch (e) {}
+            try {
+                super.m("h", a6);
+            } catch(e10) {
+            }
+            a6?.b;
+            new BigInt64Array(16);
+            new Uint32Array(3);
+            165 / 165;
+            const v21 = new Error(165);
+            v21.keys = v8;
+            const v22 = v21?.keys;
+            try { new v22(); } catch (e) {}
+            return v21;
+        },
+    };
+    function f25(a26, a27) {
+        const v30 = new Uint8ClampedArray(1907);
+        return v30.fill(512, 66);
+    }
+    o24[Symbol.toPrimitive] = f25;
+    return o24;
+}
+f0.b = f0;
+const v36 = f0();
+v36.m = f0;
+const v37 = f0();
+v37.length = v36;
+const v38 = f0();
+function f39(a40) {
+    a40[Symbol.split] = f39;
+    let v43;
+    try { v43 = a40.n(f0, v36); } catch (e) {}
+    v43.g = v43;
+    const o49 = {
+        ...v37,
+        ...v38,
+        "POSITIVE_INFINITY": v37,
+        [v37]: a40,
+        9: a40,
+        __proto__: v37,
+        [a40](a45, a46) {
+            for (let v47 = 0; v47 < 100; v47++) {
+                f0();
+            }
+            return this;
+        },
+        "a": a40,
+        "b": v36,
+    };
+    o49.length = o49;
+    return o49;
+}
+f39(v36);
+f39(v37).length;
+f39(v37);
+try { ("U").strike(); } catch (e) {}
+try { ("h").split(v36, f39); } catch (e) {}
+try { ("h").strike(); } catch (e) {}
+[5,1495828238,10000,2147483647,-256,-25653,9359];
+([64510,7,268435456,-1925411952,-2147483649,-17458,-4724])[2];
+[-9007199254740990,-268435456,536870888,23171,65537];
+1392 - 1392;
+1392 - 1392;
+const v68 = new Int8Array(1392, v37);
+v68.toString = f39;
+try { new Symbol(); } catch (e) {}
+const o71 = {
+    "get": Symbol,
+};
+const v72 = o71?.get;
+v72.hasInstance = v72;
+try { new v72(); } catch (e) {}
+const v75 = new Proxy(v68, o71);
+function f76() {
+    let v78;
+    try { v78 = new BigInt64Array(BigInt64Array); } catch (e) {}
+    return v78;
+}
+v75.toString = f76;
+Symbol.for(v75[795].description);

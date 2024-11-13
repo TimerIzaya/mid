@@ -1,0 +1,45 @@
+function f0() {
+}
+[-1,12,268435456,16,268435439,-64826,618038187,1810061440,-9007199254740992,-3];
+[16,1];
+[-2147483648,-1073741824,4294967296,9956];
+new f0();
+const t6 = -2147483647;
+t6();
+let v13 = 6;
+const v16 = 7 + v13;
++-45324;
+const v18 = v13++;
+v13 - v16;
+function f23(a24) {
+    const o25 = {
+        9: a24,
+        "f": a24,
+    };
+    const v26 = o25 <= v18;
+    if (v26) {
+        Object.defineProperty(o25, 1515586732, { configurable: true, get: f0, set: f23 });
+    } else {
+        let v27 = delete a24?.[1];
+        v27 = v26;
+    }
+    return v13;
+}
+f23();
+const v29 = f23();
+v29[9] = v29;
+f23();
+function F31() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+try {
+    const v35 = Array(-12302);
+    let v38 = 9007199254740990;
+    const v39 = v38 | -268435456;
+    v16 - v39;
+    ++v38;
+    v35 >>> v38;
+    Math.sqrt(v39);
+} catch(e44) {
+    e44.stack;
+}

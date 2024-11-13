@@ -1,0 +1,101 @@
+try {
+    new Float64Array();
+} catch(e4) {
+}
+new Int32Array(10);
+function f7(a8, a9, a10, a11) {
+    const v12 = a9++;
+    class C13 {
+        static [v12];
+    }
+    return f7;
+}
+%OptimizeFunctionOnNextCall(f7);
+new Float32Array(5);
+const v18 = new Int16Array(148);
+function f19(a20, a21, a22, a23) {
+    const o32 = {
+        get g() {
+            return f19;
+        },
+        [10]: v18,
+        "value": 148,
+        "f": a23,
+        5: Float32Array,
+        [a21]: 148,
+        "a": Float32Array,
+        __proto__: v18,
+        "h": a22,
+        valueOf(a26, a27) {
+        },
+        "f": 5,
+        "e": a21,
+        set c(a29) {
+            try {
+                v18.slice();
+            } catch(e31) {
+            }
+        },
+        "d": a23,
+    };
+    const v35 = new Uint32Array(4);
+    [v35];
+    for (let i41 = 0; i41 < 7; i41++) {
+    }
+    const v51 = new Int8Array(3816);
+    for (const v52 of "some") {
+        const v53 = v51[1];
+        try {
+            function f54(a55, a56, a57) {
+                do {
+                } while ((() => {
+                        const v60 = 2147483648 < 7;
+                        !v60;
+                        return v60;
+                    })())
+                f54();
+                return a55;
+            }
+            f54();
+        } catch(e64) {
+        }
+        let [,,,...v65] = v51;
+        const o66 = {
+        };
+        o66.a = v53;
+        const o67 = {
+        };
+        o67.a = v53;
+    }
+    return o32;
+}
+const v70 = f19(148, f19(Int32Array, f19(5, Float32Array, 5, 10), 148, 148), 5, 5);
+class C74 {
+    static set h(a76) {
+        const v79 = new Int32Array(Int32Array);
+        v79.indexOf(128);
+        const v82 = new BigInt64Array();
+        const o83 = {
+            ...v82,
+            __proto__: this,
+            "type": "VL9k",
+            "type": "VL9k",
+            ..."VL9k",
+        };
+        eval("VL9k");
+    }
+}
+function F97(a99, a100, a101, a102) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a99;
+}
+const v103 = new F97(-2.0);
+v70 in v103;
+function F106(a108) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v109 = a108 | a108;
+    this?.constructor;
+    try { new v109(3n); } catch (e) {}
+}
+new F106(Int8Array);
+new F106(349865170n);

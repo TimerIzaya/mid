@@ -1,0 +1,58 @@
+let v4 = new WeakSet();
+try { v4.delete(v4); } catch (e) {}
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v10;
+    try { v10 = this.propertyIsEnumerable(-2147483649); } catch (e) {}
+    const v11 = a9 >= -268435456;
+    try {
+        this.d = a8;
+    } catch(e12) {
+    }
+    try {
+        try { v10.p(v11); } catch (e) {}
+        const v15 = new Set();
+        new Set(v15);
+        v15[a9] = a9;
+        this.e = a8;
+    } catch(e17) {
+    }
+}
+const v18 = new F6(-268435456, -2147483649);
+v18.d = v18;
+new F6(-2147483649, -2147483649);
+new F6(-268435456, -268435456);
+const v22 = new Map();
+try { ("65536").charAt(F6); } catch (e) {}
+function f25(a26, a27) {
+    v4 = a26;
+    [63011];
+    [268435439];
+    [-1537983517,1073741825,268435441,1000,6,-268435456];
+    const o32 = {
+        ...v22,
+    };
+    o32[4] = o32;
+    return a27;
+}
+%PrepareFunctionForOptimization(f25);
+function f33(a34) {
+    function f36(a37) {
+        let v41 = ~-2139040444;
+        !(-v41);
+        -1000000000000.0 & -1000000000000.0;
+        Math.cos(-2139040444);
+        -v41;
+        v41--;
+    }
+    this.onmessage = f36;
+    f36 = v4;
+    Map - this;
+}
+const v51 = [v18];
+const o52 = {
+    "arguments": v51,
+    "type": "function",
+};
+new Worker(f33, o52);
+f25("65536");

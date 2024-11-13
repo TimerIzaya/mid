@@ -1,0 +1,69 @@
+class C3 {
+    constructor(a5, a6) {
+        a6.prototype = a6;
+        try { new Map(); } catch (e) {}
+        new Map();
+    }
+    o(a11) {
+        let v12 = 0;
+        while (v12 < 5) {
+            const v16 = Symbol.iterator;
+            const o32 = {
+                [v16]() {
+                    let v18 = 10;
+                    const o31 = {
+                        next() {
+                            v18--;
+                            new Int8Array(268435456);
+                            for (let v26 = 0; v26 < 10; v26++) {
+                                Array(36862);
+                            }
+                            const v29 = v18 == 0;
+                            const o30 = {
+                                "done": v29,
+                                "value": v18,
+                            };
+                            return o30;
+                        },
+                    };
+                    return o31;
+                },
+            };
+            v12++;
+        }
+        return v12;
+    }
+}
+C3.prototype = C3;
+const v34 = new C3(721133.8524354864, C3);
+const v35 = v34?.constructor;
+try { new v35(721133.8524354864, 721133.8524354864); } catch (e) {}
+const v37 = new C3(-2.0, C3);
+const v38 = new C3(v37, v37);
+const v39 = v38?.constructor;
+try { new v39(C3, v37); } catch (e) {}
+const v46 = new Map();
+try { v46.keys(); } catch (e) {}
+function f48(a49, a50) {
+    const o61 = {
+        "a": a50,
+        [a49]: v46,
+        [v46]: Map,
+        [2221](a52, a53, a54) {
+            const v57 = new Int32Array(12);
+            for (const v58 in v57) {
+            }
+        },
+        ...v46,
+        "b": a49,
+        [a50]: Map,
+        "h": a49,
+        valueOf(a60) {
+            return a60;
+        },
+    };
+    return a50;
+}
+for (let v62 = 0; v62 < 395; v62++) {
+    f48();
+}

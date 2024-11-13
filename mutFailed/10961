@@ -1,0 +1,71 @@
+function f0() {
+}
+function f1() {
+    const o9 = {
+        257: f0,
+        ...f0,
+        __proto__: f0,
+        "h": f0,
+        [f0]: f0,
+        n() {
+            const v3 = [this,this];
+            [[v3,f1,f0,v3],v3,f1];
+            !arguments;
+            const v8 = this.h;
+            super.f >>= v8;
+            return v8;
+        },
+        "e": f0,
+        "g": f0,
+        "d": f0,
+    };
+    return o9;
+}
+let v10 = f1();
+f1();
+f1();
+class C13 {
+    o(a15) {
+        const v16 = this / this;
+        function f17(a18) {
+            return a15;
+        }
+        class C19 extends f17 {
+            129;
+            b;
+        }
+        v10 = this;
+        var d = this;
+        const o20 = {
+            "deleteProperty": f0,
+            "get": f1,
+            "getOwnPropertyDescriptor": f0,
+            "getPrototypeOf": f0,
+            "has": f1,
+            "preventExtensions": f1,
+            "set": f0,
+            "setPrototypeOf": f1,
+        };
+        new Proxy(a15, o20);
+        return v16;
+    }
+}
+const v24 = new Promise();
+const v25 = v24.toLocaleDateString();
+new C13(v25, v25);
+const v27 = new C13();
+new C13();
+function f35() {
+}
+f35();
+class C37 extends f35 {
+    constructor(a39) {
+        super();
+        for (let v40 = 0; v40 < 5; v40++) {
+            super.valueOf(v27);
+        }
+    }
+}
+new C37();
+new C37();
+new C37();

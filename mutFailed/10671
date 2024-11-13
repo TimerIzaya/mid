@@ -1,0 +1,38 @@
+const v0 = [13,2147483649];
+[-5457,4294967296,-4096,5,127];
+[15773,-1024,-16,-851282091,0,1138755235,-7486,2,-45018,50029];
+new JSON();
+class C5 extends JSON {
+    constructor(a7) {
+        super(a7);
+        function f8(a9, a10) {
+            function f12(a13) {
+                try {
+                    new JSON("256");
+                } catch(e16) {
+                }
+            }
+            this.onmessage = f12;
+            const o17 = {
+            };
+            new Proxy(this, o17, f8);
+        }
+        const v22 = [this,this];
+        const o23 = {
+            "arguments": v22,
+            "type": "function",
+        };
+        new Worker(f8, o23);
+    }
+}
+new C5(v0);
+const v26 = new C5(v0);
+new C5(v26);
+function f31(a32, a33, a34) {
+    try { a32(); } catch (e) {}
+    return a32;
+}
+%PrepareFunctionForOptimization(f31);
+f31(f31, f31, f31);
+%OptimizeFunctionOnNextCall(f31);
+f31(v26, 4294967297);

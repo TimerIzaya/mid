@@ -1,0 +1,76 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+    try {
+        this.b = f0;
+    } catch(e4) {
+    }
+}
+new F1();
+new F1();
+const v7 = new F1();
+const v8 = [F1];
+function f20(a21, a22, a23) {
+    return true;
+}
+const v28 = [v7,v8,f0];
+[v28];
+128 + 128;
+function f33(a34) {
+    const o38 = {
+        ...a34,
+        get d() {
+            const v36 = this.__lookupSetter__;
+            try { v36(); } catch (e) {}
+            return f33;
+        },
+    };
+    return o38;
+}
+Worker(f33());
+const v42 = Uint32Array?.constructor;
+try { new v42(v28); } catch (e) {}
+const v44 = new Uint32Array(128);
+let v47;
+try { v47 = new Uint8ClampedArray(v44, v44, v8); } catch (e) {}
+new Uint8ClampedArray(v47);
+try { Int8Array.bind(Uint32Array); } catch (e) {}
+const v52 = new Int8Array(188);
+try { v52.slice(Uint32Array, null); } catch (e) {}
+Int16Array.prototype = Int16Array;
+const v55 = new Int16Array();
+class C56 {
+    static {
+        for (let v58 = 0; v58 < 25; v58++) {
+            function f59() {
+            }
+            function f60(a61, a62, a63, a64) {
+                /8/vdiy;
+                try {
+                    b = a63;
+                } catch(e66) {
+                } finally {
+                }
+                v42();
+                new Int8Array(a61);
+                class C70 {
+                }
+                const v71 = [-1024];
+                for (let v72 = 0; v72 < 5; v72++) {
+                    delete v71[v72];
+                }
+                188 in v55;
+                const v76 = new Int8Array(this, v58, "string");
+                for (const v77 in v76) {
+                }
+            }
+            for (let v78 = 0; v78 < 5; v78++) {
+            }
+        }
+    }
+}

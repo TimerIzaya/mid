@@ -1,0 +1,12 @@
+new Int16Array(-4294967297);
+new Uint32Array(127, 257n);
+new Int16Array(5);
+for (let v13 = 0; v13 < 5; v13++) {
+    function f14() {
+        const v16 = new Float64Array();
+        v16[4294967295];
+        return v13;
+    }
+    f14();
+    %OptimizeFunctionOnNextCall(f14);
+}

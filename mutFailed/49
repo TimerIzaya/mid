@@ -1,0 +1,25 @@
+const v1 = new Set();
+const v2 = [-10,-9007199254740991,-920980841,-9,-14,16];
+v1 instanceof Set;
+const v5 = [v1];
+const v7 = Reflect.apply(v1.add, v2, v5);
+const v8 = [16,4294967297,-16];
+const v9 = [5,-536870912,5,257,15,12518,-43408,-9223372036854775808];
+const v16 = [104762.14753807266,-279097.1642774454,5.0,1.0];
+const v17 = [2.220446049250313e-16,0.4676436969349189,1.5179111745363469e+308,-1000.0,-2.220446049250313e-16,-1000000000000.0,4.0,4.587029279807309,-0.0];
+let v20 = 0;
+do {
+    v8[268435439] = -2.0;
+    const v21 = Reflect[5];
+    try { v7(v9, v21); } catch (e) {}
+    v20++;
+} while (v20 < 10)
+const v28 = new Uint8Array(22);
+const v31 = new Int32Array(3289);
+const v33 = [v31];
+Reflect.apply(v16.join, v28, v33);
+class C36 extends Int32Array {
+    [Set] = true;
+    [v17];
+}
+new C36();

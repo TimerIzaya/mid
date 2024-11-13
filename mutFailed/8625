@@ -1,0 +1,31 @@
+const v3 = [8.360030709333259,416819.70671931445,1000.0,-1.0513464134302462e+307,2.2250738585072014e-308,-999.1393293497049];
+const t0 = 1;
+t0.length = 1;
+try { v3["-268435456"](); } catch (e) {}
+const v12 = [-2];
+function f13(a14) {
+    return v12;
+}
+class C16 extends Array {
+}
+const t10 = -536870912;
+new t10();
+new Int16Array(5);
+new Int32Array(114);
+function f25(a26, a27, a28, a29) {
+    arguments[2] = arguments;
+    function f31() {
+        const o32 = {
+            __proto__: a28,
+        };
+        return o32.valueOf();
+    }
+    const v34 = f31();
+    gc();
+    v34[6] = v34;
+    %OptimizeFunctionOnNextCall(f31);
+    return gc;
+}
+new Uint16Array(2981);
+const v39 = new Float32Array();
+let {...v40} = v39;

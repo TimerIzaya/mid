@@ -1,0 +1,91 @@
+const v1 = new Map();
+let v4 = "number";
+function f5(a6, a7) {
+    const o15 = {
+        valueOf(a9, a10, a11) {
+            try {
+                const o12 = {
+                };
+                new Map(o12);
+            } catch(e14) {
+            }
+            return a9;
+        },
+        "e": v4,
+        "b": a6,
+        [a6]: a6,
+        ...a6,
+        "h": Map,
+    };
+    return o15;
+}
+const v16 = f5(v4, v1);
+const v17 = f5("function", v16);
+const v18 = f5(v4, Map);
+class C19 extends Map {
+    static set b(a21) {
+        function F22() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.h = 268435440;
+        }
+        class C27 extends Float64Array {
+            static 1;
+            static #d = 256;
+        }
+        Object.defineProperty(v16, v16, { writable: true, value: this });
+    }
+    static #d = v1;
+    static ["toISOString"] = v4;
+    static #b;
+    static get f() {
+        for (let v32 = 0; v32 < 6; v32++) {
+            try {
+                v16.g = "function";
+            } catch(e33) {
+            }
+        }
+        return f5;
+    }
+}
+const v34 = new v16();
+const v35 = new C19();
+const v36 = new C19();
+function f37(a38, a39, a40) {
+    const o59 = {
+        "b": v1,
+        [v1]: v17,
+        [a39]: v36,
+        "h": C19,
+        "f": a39,
+        toString(a42, a43, a44) {
+            %VerifyType(this);
+            v4++;
+            v36[v34] = v36;
+            a38[1] = a43;
+            try {
+                super.o("toISOString", a39, v35);
+            } catch(e47) {
+                const t67 = "we3R";
+                t67[544948.2768085275] = -1.187102817546368e+308;
+                const o58 = {
+                    toString(a52, a53, a54) {
+                        "toISOString" < this;
+                        return super[a38];
+                    },
+                    get d() {
+                        return this;
+                    },
+                };
+            }
+            return a38;
+        },
+    };
+    return o59;
+}
+f37(v35, "toISOString", v1);
+f37(v4, C19, v36);
+f37(v1, v18, v4);
+const v65 = new Int8Array(f5);
+new BigInt64Array(2001);
+const v70 = eval(eval);
+try { v70.isExtensible(v65); } catch (e) {}

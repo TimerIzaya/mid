@@ -1,0 +1,17 @@
+/ha$\P{Decimal_Number}+/vdisy;
+/(?:a{5,1000000}){3,1000000}/u;
+/\c!/gdims;
+function f12() {
+    class C15 extends ([f12,f12,f12,f12]).constructor {
+    }
+    new C15();
+    const v17 = C15.constructor;
+    const v18 = v17.bind();
+    try { v18(v18, 129n, f12, v18, v17); } catch (e) {}
+    return C15;
+}
+%PrepareFunctionForOptimization(f12);
+const t13 = 129n;
+t13();
+%OptimizeFunctionOnNextCall(f12);
+f12();

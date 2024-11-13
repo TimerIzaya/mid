@@ -1,0 +1,49 @@
+function f0() {
+}
+const v1 = [f0,f0,f0,f0,f0];
+const v2 = [v1,v1,v1,f0,v1];
+const v3 = [v1,v2];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e8) {
+    }
+    try {
+        this.f = a6;
+    } catch(e9) {
+    }
+    try {
+        this.h = a7;
+    } catch(e10) {
+    }
+}
+const v11 = new F4(v3, v3);
+const v12 = new F4(v3, v1);
+const v13 = new F4(v2, v3);
+class C17 extends F4 {
+    static {
+        with ([this,...v2]) {
+            v13[2147483648] /= length;
+            for (let v21 = 0; v21 < 100; v21++) {
+                const v22 = f0();
+                try { length.toString(v21, v22); } catch (e) {}
+                try {
+                    new F4(1000000000.0, 1000000000.0);
+                } catch(e26) {
+                }
+            }
+        }
+        const v28 = Symbol.iterator;
+        v11[v28] = v28;
+        v11[v28] = super[this];
+    }
+    static 2699 = v12;
+    #g;
+    [v13] = v12;
+    g;
+}
+new C17();
+new C17();
+new C17();
+Math.cbrt(1073741824);

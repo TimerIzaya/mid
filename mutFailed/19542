@@ -1,0 +1,57 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    536870912 = v1;
+    set b(a4) {
+        a4[a4] = a4;
+        const v5 = [v1,this,WeakMap,WeakMap,v1];
+        [WeakMap,v5,v5,this,v1];
+        [v1];
+        try {
+            a4.__proto__ = v1;
+        } catch(e9) {
+        }
+    }
+    10;
+    184;
+    #g;
+}
+const v10 = new C2();
+const v11 = new C2();
+const v12 = new C2();
+const v13 = [v12,v12];
+const v14 = [v11,v10,v13,v10];
+const v15 = [v1];
+function f16() {
+    return v11;
+}
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a24;
+    try {
+        this.h = v13;
+    } catch(e26) {
+    }
+    try {
+        this.d = v10;
+    } catch(e27) {
+    }
+    try {
+        this.c = v13;
+    } catch(e28) {
+    }
+}
+new F20("D", v14, v14, "3Hor");
+new F20("3Hor", v13, v14, "3Hor");
+new F20(v15, v15, v15, "3Hor");
+class C32 {
+}
+const v33 = new C32();
+v33[Symbol.toPrimitive] = f16;
+const v36 = `match${v33}-20124`;
+for (const v37 of v36) {
+    class C38 {
+    }
+    const v39 = new C38();
+    this.__proto__ = v39;
+    v36 in this;
+}

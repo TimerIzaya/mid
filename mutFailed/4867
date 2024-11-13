@@ -1,0 +1,61 @@
+const t0 = -4294967297n;
+t0[-10n] = 675224009;
+for (let v5 = 0; v5 < 32; v5++) {
+    const t3 = 675224009;
+    t3["p" + v5] = v5;
+}
+%VerifyType(-4294967297n);
+6 | 6;
+function f10() {
+    return -5;
+}
+const v11 = [0.4631482032287221,3.0,NaN,0.7199918221192527];
+const v12 = [0.019049879953741855,-1000000000000.0,1000000000000.0,1.0];
+const v13 = [5.0,0.0,5.0];
+class C14 {
+    o(a16, a17) {
+        try {
+            a17.length = -5;
+        } catch(e18) {
+        }
+        return v12;
+    }
+    static #m(a20, a21, a22, a23) {
+        super.g;
+        -5 * -10n;
+        this[4294967295] = v13;
+        return v11;
+    }
+}
+const v26 = [-20096,4294967296,-65537,-2];
+const v27 = [-1947047520];
+[v27,v27,v27,v26];
+let v30 = 50765 + 50765;
+v30--;
+new C14();
+const v33 = new C14();
+new v33();
+const v36 = new Uint8Array();
+function f37(a38, a39, a40, a41) {
+    const v42 = a40 ^ a40;
+    const o52 = {
+        "b": a38,
+        ...v36,
+        n(a44, a45) {
+            return v42;
+        },
+        "apply": a38,
+        "b": v13,
+        m() {
+            const o50 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o50);
+        },
+    };
+    return f37;
+}
+for (let v53 = 0; v53 < 625; v53++) {
+    f37();
+}

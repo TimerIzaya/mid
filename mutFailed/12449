@@ -1,0 +1,53 @@
+const v2 = new Array(2800);
+function f3(a4) {
+    const o9 = {
+        1073741825: Array,
+        ...a4,
+        [a4](a6, a7) {
+            try {
+                Array.__proto__ = this;
+            } catch(e8) {
+            }
+            return Array;
+        },
+        "h": v2,
+        __proto__: a4,
+        "c": a4,
+        ...a4,
+        [a4]: v2,
+    };
+    return o9;
+}
+const v11 = f3(f3(v2));
+const v12 = f3(f3);
+class C13 extends Array {
+    [v11] = f3;
+    static {
+        Object.defineProperty(Array, super.length, { enumerable: true, get: Array });
+        new WeakSet();
+    }
+    static h = v11;
+    static d;
+    [v2] = Array;
+    static #b;
+    1073741824;
+    [v12];
+}
+new C13();
+new C13();
+new C13();
+[-20883,-6,1073741824,16,1102516353,65536,13,-9007199254740992];
+[-1,-65537,-128,1073741823,127,47944,2,4096];
+[-981472156,49259,9007199254740990,6460,-7539,9007199254740991,-4096,2147483647];
+const v26 = new Int8Array(1159);
+const v28 = new Uint8ClampedArray();
+for (const v29 in v26) {
+    const v30 = v26[1];
+    const v31 = v26[2];
+    try { v28["forEach"](...v31, v30, ..."forEach"); } catch (e) {}
+    const v35 = 0 * 0;
+    v35 - v35;
+    function F37(a39, a40) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+}

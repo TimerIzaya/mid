@@ -1,0 +1,44 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 9007199254740992;
+    } catch(e3) {
+    }
+    try {
+        this.g = 9007199254740992;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+new F0();
+const v8 = [1073741824,9,5,-788706680,-1940821127,52838];
+[-15,-65535,9223372036854775807,9007199254740992,-2147483647,9];
+const v10 = [268435439,-65537,49983,1253809231,9007199254740990,-65537,713,-65535,536870889];
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a16;
+    } catch(e18) {
+    }
+}
+new F14(2147483648n, -1073741824n);
+new v8(2147483648n, v8);
+new F14(v5, v10);
+const v22 = /ORS+/gvds;
+const o27 = {
+    m(a24) {
+        super[-4.0] = delete v22[2];
+        return -4.0;
+    },
+};
+new BigUint64Array(10);
+for (const v33 in F14) {
+    new Float64Array(2147483647);
+}
+const o37 = {
+    o(a36) {
+        return a36;
+    },
+};
+o37["o"]();

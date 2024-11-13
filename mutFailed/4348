@@ -1,0 +1,33 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = F0;
+    } catch(e3) {
+    }
+    try {
+        F0.f = 128;
+    } catch(e4) {
+    }
+    try {
+        this.c = F0;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new v6();
+new F0();
+const v22 = new Uint8Array();
+function f23(a24, a25, a26, a27) {
+    const v28 = a26 ^ a26;
+    const o32 = {
+        "b": a24,
+        ...v22,
+        n(a30, a31) {
+            return v28;
+        },
+    };
+    return f23;
+}
+for (let v33 = 0; v33 < 625; v33++) {
+    f23();
+}

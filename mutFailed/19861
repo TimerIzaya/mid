@@ -1,0 +1,56 @@
+class C3 {
+    static o(a5, a6) {
+        super.g;
+        return a6;
+    }
+    #h = "valueOf";
+    static #n(a12, a13) {
+        Object.defineProperty(this, "d", { writable: true, configurable: true, value: 1390542878 });
+        return this;
+    }
+}
+const v17 = new C3();
+const v18 = new C3();
+let v19 = new v17();
+function f20(a21, a22, a23) {
+    const o29 = {
+        get d() {
+            v19 = C3;
+            [-1000.0,-3.8783351338335104,1.0];
+            const v26 = [1.0,5.0,-1000000000.0,2.0,0.4026873203636615,-1000000000.0,-2.220446049250313e-16,3.0];
+            const v27 = [-1.0,0.0,2.0];
+            a22 << v26;
+            return v27;
+        },
+        "a": a21,
+        "f": v18,
+        ...v19,
+        "b": 2.2250738585072014e-308,
+        "h": a21,
+    };
+    return o29;
+}
+const v30 = f20(C3, v17, "valueOf");
+const v31 = f20(v30, v30, v30);
+const v32 = f20(v18, v31, v31);
+function F33(a35, a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v17;
+    } catch(e39) {
+    }
+    try {
+        this.d = v17;
+    } catch(e40) {
+    }
+}
+const v41 = new F33(v31, v30, v17, v30);
+new F33(v32, v41, v31, v30);
+new F33(v30, v31, v31, v18);
+const v45 = [-0.23549034038133065];
+v45.then = Date;
+async function f46(a47, a48, a49, a50) {
+    return await v45;
+}
+f46();
+new Float64Array(1073741824);

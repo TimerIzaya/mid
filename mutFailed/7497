@@ -1,0 +1,30 @@
+let v3 = 2;
+v3--;
+const v6 = new Float32Array(v3);
+const v9 = new Int32Array(10);
+const v12 = new BigUint64Array(8);
+try { v12.with("UTC", "UTC"); } catch (e) {}
+const v14 = [Float32Array,v6];
+try { v14.pop(); } catch (e) {}
+const v16 = [Int32Array,v14,v14,Int32Array];
+try { v16.entries(); } catch (e) {}
+const v18 = [Int32Array,v3,8,BigUint64Array,v9];
+function F19() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v21 = new F19();
+v12[3548] = v18;
+("UTC").length;
+v12 ^ "UTC";
+BigUint64Array / v14;
+v14[5] = v21;
+const v25 = new F19();
+try { v25.propertyIsEnumerable(v14); } catch (e) {}
+class C27 extends F19 {
+    [v25];
+}
+try { new C27(); } catch (e) {}
+const v29 = new C27();
+const v30 = v29?.constructor;
+try { new v30(); } catch (e) {}
+v29.hasOwnProperty(v21);

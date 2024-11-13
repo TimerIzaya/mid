@@ -1,0 +1,48 @@
+let v2 = 15n;
+const v3 = [10000n];
+[[v3,6n,v2,v3,v3]];
+const t2 = 64;
+new t2(64);
+v2 = 64;
+const v11 = delete Uint8ClampedArray[-2];
+const o12 = {
+};
+try {
+    o12.f = v11;
+} catch(e13) {
+}
+try {
+    const o14 = {
+    };
+    o14.f = v11;
+    o14.b = 1000;
+} catch(e15) {
+}
+try {
+    const o16 = {
+    };
+    o16.f = v11;
+    o16.b = 1000;
+    o16.h = BigInt64Array;
+} catch(e17) {
+}
+try {
+    const o18 = {
+    };
+    o18.f = v11;
+    o18.b = 1000;
+    o18.h = 10000n;
+} catch(e19) {
+}
+new BigInt64Array(v2);
+new Float32Array(3425);
+function f24(a25, a26, a27) {
+    const v30 = new Int8Array(a27, a25, a27);
+    let v32;
+    try { v32 = Int16Array.apply(128, v30); } catch (e) {}
+    return v32;
+}
+%PrepareFunctionForOptimization(Uint8ClampedArray);
+const v33 = f24(f24, f24, f24);
+%OptimizeFunctionOnNextCall(f24);
+f24(f24, v33, v33);

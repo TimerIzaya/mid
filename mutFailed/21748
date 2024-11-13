@@ -1,0 +1,46 @@
+const v0 = /0Oa(?!b)+/guisy;
+const v1 = /foo(?!bar)baz^N\u003z+/gdis;
+const v2 = /A[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/gvdiy;
+function f6(a7, a8, a9, a10) {
+    const o19 = {
+        4294967296: v2,
+        "b": 876090793n,
+        "h": 646233787n,
+        valueOf(a12, a13) {
+            const v15 = [a10];
+            Reflect.apply(v1.compile, v2, v15);
+            try {
+                v15.g = Reflect;
+            } catch(e18) {
+            }
+            return a10;
+        },
+    };
+    return o19;
+}
+for (let v20 = 0; v20 < 32; v20++) {
+    v0["p" + v20] = v20;
+}
+const v23 = f6(v1, 876090793n, v0, v2);
+let v24 = f6(v0, 876090793n, v2, 646233787n);
+f6(v0, 646233787n, v2, v23);
+const v27 = [3.0,-7.47266804458455,0.2665879553195113,-1000000.0,5.0,1000000000.0];
+[-1e-15];
+[-1000000000.0,NaN,-1.317170494537347e+308,662.7595270259926,-853.2408827343238,5.0,-5.104612728171303e+307,-1e-15,3.0,6.299919335453325];
+v23[2] = v27;
+v24 = v23;
+class C32 {
+    #d;
+}
+const v33 = new C32();
+const v37 = new BigUint64Array(10);
+for (const v39 in v37) {
+    class C41 extends v33.constructor {
+    }
+    new C41();
+    new Float64Array(2147483647);
+}
+class C44 {
+}
+const t44 = C44.constructor;
+t44();

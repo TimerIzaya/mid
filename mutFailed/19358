@@ -1,0 +1,42 @@
+function f0() {
+}
+function f1() {
+    const o2 = {
+        "a": f0,
+        [-1]: f0,
+        9: f0,
+        [f0]: f0,
+        "b": f0,
+        "e": f0,
+        "h": f0,
+        "c": f0,
+        "g": f0,
+        "f": f0,
+        "d": f0,
+    };
+    o2[Symbol.toPrimitive] = f1;
+    return o2;
+}
+f1();
+const v6 = f1();
+const v7 = f1();
+class C8 {
+    [v7];
+    [v6];
+    static a;
+    static #f = f0;
+    o(a10) {
+        const o13 = {
+            "maxByteLength": 268435441,
+        };
+        const v15 = new ArrayBuffer(2, o13);
+        const v17 = new Int32Array(v15);
+        return v17;
+    }
+}
+new C8();
+new C8();
+new C8();
+let v26 = -(-1e-15);
+v26--;
+Math.sinh(v26);

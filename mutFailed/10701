@@ -1,0 +1,72 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -65537;
+    } catch(e3) {
+    }
+    try {
+        this.d = -65537;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v11 = [F0,-11,-11];
+function f12(a13, a14) {
+    const o15 = {
+    };
+    const v17 = new Proxy(v6, o15);
+    return v17;
+}
+v11.toString = f12;
+const v18 = [-11];
+[F0,v7,v18,16,-11];
+class C20 {
+    [v11];
+    p(a22, a23, a24) {
+        delete this[this];
+        const o26 = {
+        };
+        try {
+            o26.d = v6;
+        } catch(e27) {
+        }
+        try {
+            const o28 = {
+            };
+            o28.d = v6;
+            o28.a = 4096;
+        } catch(e29) {
+        }
+        try {
+            const o30 = {
+            };
+            o30.d = v6;
+            o30.a = 4096;
+            o30.e = -11;
+        } catch(e31) {
+        }
+        try {
+            const o32 = {
+            };
+            o32.d = v6;
+            o32.a = 4096;
+            o32.e = v18;
+        } catch(e33) {
+        }
+        return this;
+    }
+}
+new C20();
+new C20();
+new C20();
+class C37 {
+    toString(a39, a40, a41) {
+    }
+}
+for (let v42 = 0; v42 < 25; v42++) {
+    Promise.reject(Promise);
+}
+const o45 = {
+};

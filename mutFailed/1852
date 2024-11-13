@@ -1,0 +1,47 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+let v3 = 0;
+do {
+    const v4 = v3.__proto__;
+    try { v4.setTime(f1); } catch (e) {}
+    try {
+        v3();
+    } catch(e7) {
+    }
+    v3++;
+} while (v3 < 4)
+const v13 = [274138073,-2147483649,-536870912,2147483647];
+const v14 = [268435439,127,-11,4096];
+const v15 = [16196,-256,-50655,-65313,24500,-1937231847,-2147483649,-2];
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a18.sin(a18, this, a19, this); } catch (e) {}
+    try {
+        this.h = v3;
+    } catch(e22) {
+    }
+    try {
+        this.c = a19;
+    } catch(e23) {
+    }
+}
+new F16(v15, f0, 1000000000000.0);
+const v25 = new F16(v13, v14, -465817.17650274944);
+new F16(v15, v14, 1000000000000.0);
+function F27(a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v31 = 0;
+    do {
+        v25[1000000000000.0];
+        v31++;
+    } while (v31 < 3)
+    const o39 = {
+        "b": 1e-15,
+    };
+    delete o39.b;
+}
+const v41 = new F27(F27);
+new v41();

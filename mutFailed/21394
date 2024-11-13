@@ -1,0 +1,31 @@
+new WeakSet();
+new Float32Array(2792);
+new BigInt64Array(4);
+const o14 = {
+    [-1.1635412394243161e+308](a11) {
+    },
+    set b(a13) {
+    },
+};
+delete o14.b;
+new Uint8Array(15);
+new BigInt64Array(129);
+new Int16Array(3135);
+new Float32Array(10);
+let v27 = Boolean;
+v27--;
+function f29() {
+    const v30 = v27--;
+    class C31 {
+    }
+    class C32 extends C31 {
+    }
+    const t22 = 3135;
+    const v33 = new t22();
+    v33.m = v30;
+    return v30;
+}
+%PrepareFunctionForOptimization(BigInt64Array);
+f29();
+%OptimizeFunctionOnNextCall(f29);
+f29();

@@ -1,0 +1,46 @@
+const v0 = [];
+const o1 = {
+};
+function f2() {
+    return o1;
+}
+function f3(a4, a5) {
+    Object.defineProperty(o1, "h", { writable: true, configurable: true, enumerable: true, get: f2, set: f2 });
+    return o1;
+}
+new Promise(f3);
+function f8() {
+    return v0;
+}
+function F12(a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 1012120461;
+    } catch(e15) {
+    }
+}
+new F12(4294967296);
+new F12(9223372036854775807);
+new F12(4294967296);
+class C22 extends Promise {
+    #a = -14;
+}
+new C22();
+new C22();
+new C22();
+[-1000000.0,3.0,NaN,-Infinity,202.22658662615504];
+[0.7788711785888819,4.27777719274739,0.43547268265714123,0.8224513234413882,-8.045168988411108e+307];
+[-1000.0,-1000000.0,-9.954144830892317e+307,-Infinity,-3.0,1.3190160210468514e+308,-1000.0,-1000000000.0,-385.67603871736674];
+const v31 = new Uint8Array(Uint8Array);
+class C33 extends Uint16Array {
+    constructor(a35, a36, a37) {
+        super(v31);
+        throw 9223372036854775807;
+        const o41 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o41);
+    }
+}
+new C33();

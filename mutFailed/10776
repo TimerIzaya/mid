@@ -1,0 +1,78 @@
+const v0 = /0\1(a)(?<a>(?<b>(?<c>(?<d>.).).).)a(?!b)Ezxyz{1,}?/gvdiy;
+const v1 = /ffoo(?=bar)baz/vdiy;
+const v2 = /a*?1[\cz]/guds;
+class C3 {
+    a;
+    static e = v1;
+    [v1];
+    static c = v1;
+    static f;
+    valueOf(a5, a6) {
+        try {
+            v2.__proto__ = v2;
+        } catch(e7) {
+        }
+        return v2;
+    }
+}
+const v8 = C3.f;
+const v9 = new C3();
+const v10 = v9?.__defineGetter__;
+try { new v10(C3, v2); } catch (e) {}
+const v12 = new C3();
+v12.a;
+const v14 = new C3();
+const v15 = [v14,v12,v14];
+const v16 = [v2,v0,v2,v12];
+try { v16.group(v16); } catch (e) {}
+const v18 = [v16,v0,v9];
+function f19(a20, a21, a22, a23) {
+    a22.a = a22;
+    const o36 = {
+        "g": v9,
+        "b": a22,
+        123: a22,
+        "d": v12,
+        ...v1,
+        [-2]: v12,
+        get h() {
+            a20 = this;
+            let [] = v15;
+            const v26 = Symbol.iterator;
+            const o35 = {
+                [v26]() {
+                    let v28 = 10;
+                    const o34 = {
+                        next() {
+                            v28--;
+                            const v32 = v28 == 11;
+                            const o33 = {
+                                "done": v32,
+                                "value": v10,
+                            };
+                            return o33;
+                        },
+                    };
+                    return o34;
+                },
+            };
+            return this;
+        },
+    };
+    o36.g;
+    return o36;
+}
+f19(v16, v18, v9, v1, v14);
+f19(f19(v18, v15, v9, v2), v15, v16, v1);
+v8.g;
+function F42() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C45 extends F42 {
+}
+class C47 extends C45 {
+    set d(a49) {
+        super.d = this;
+    }
+}
+C47.prototype = C47;

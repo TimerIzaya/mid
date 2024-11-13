@@ -1,0 +1,67 @@
+function f0() {
+    let v3 = -Infinity;
+    v3++;
+    const o25 = {
+        ...v3,
+        [0.0]: v3,
+        m(a6, a7) {
+            let v8;
+            try { v8 = a6(a7, v3); } catch (e) {}
+            function f9(a10, a11, a12) {
+                const o13 = {
+                    5: a10,
+                    "d": v8,
+                    "h": v8,
+                };
+                return o13;
+            }
+            const v15 = f9(a6, v3, f9(a6, a6, f9));
+            const o16 = {
+            };
+            try {
+                o16.f = v15;
+            } catch(e17) {
+            }
+            try {
+                const o18 = {
+                };
+                o18.f = v15;
+                o18.g = v8;
+            } catch(e19) {
+            }
+            try {
+                const o20 = {
+                };
+                o20.f = v15;
+                o20.g = v8;
+                o20.b = 0.0;
+            } catch(e21) {
+            }
+            try {
+                const o22 = {
+                };
+                o22.f = v15;
+                o22.g = v8;
+                o22.e = v15;
+            } catch(e23) {
+            }
+            return f9(0.0, v3, v15);
+        },
+    };
+    return o25;
+}
+f0();
+f0();
+const v28 = f0();
+-2147483648 << -2147483648;
+const v33 = -256 | -256;
+function f35() {
+    return v28;
+}
+new Array(-2147483648);
+f0(f0, v28, v33, Array);
+new Array(128);
+let v43 = "0";
+Math.LN10 = Math;
+const v46 = Math.log2(++v43);
+v46 ^ v46;

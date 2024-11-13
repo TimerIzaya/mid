@@ -1,0 +1,72 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 1;
+    } catch(e3) {
+    }
+    try {
+        this.b = 1;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [v7];
+[v8,v6,v8,v5];
+[F0];
+class C11 {
+    set g(a13) {
+        const v15 = Symbol.iterator;
+        const o24 = {
+            [v15]() {
+                let v17 = 10;
+                const o23 = {
+                    next() {
+                        const v21 = v17 == v17--;
+                        const o22 = {
+                            "done": v21,
+                            "value": v17,
+                        };
+                        return o22;
+                    },
+                };
+                return o23;
+            },
+        };
+    }
+}
+new C11();
+const v26 = new C11();
+new v5();
+[-65536,-9223372036854775807,-256];
+[9007199254740991,2147483649,65535,676118341,-627142668,14,-3,268435441,9007199254740990];
+[-78569246,-7,-2,-786];
+function f31() {
+    return f31;
+}
+class C32 {
+    constructor() {
+        try {
+            super.trunc(Map);
+        } catch(e36) {
+        }
+        try { C32["n"]("n", Map, f31, Map, f31); } catch (e) {}
+        const v39 = Map.name;
+        let v40;
+        try { v40 = v39.trimLeft(this, v39); } catch (e) {}
+        super.c = C32;
+        const o41 = {
+            "apply": v40,
+            "call": f31,
+            "e": C32,
+            "__proto__": f31,
+            "getPrototypeOf": f31,
+            "has": f31,
+            "ownKeys": f31,
+            "preventExtensions": f31,
+            "set": f31,
+            "setPrototypeOf": v26,
+        };
+    }
+}

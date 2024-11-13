@@ -1,0 +1,74 @@
+[];
+const v1 = [10,2147483647,-3,-1885793161,268435440,-4];
+[-9007199254740990,4294967297,9223372036854775807,10000,57742,-837906149,-10,-8,-268435456,1000];
+[-9007199254740992,9007199254740992,5,-65535,255,54003,-9007199254740991,4294967297,-55194,-110051879];
+-1073741824 === -1073741824;
+function f10() {
+    const v11 = [0.0,1.0,-6.743702675363474,400.9902683003188];
+    let v12 = "string";
+    function f13() {
+        for (let i16 = 0, i17 = 10;
+            i16 < i17;
+            (() => {
+                const v21 = i16++;
+                v21 >> v21;
+            })()) {
+            for (const v25 in v11) {
+                v12 *= v12;
+            }
+        }
+        return v11;
+    }
+    %OptimizeFunctionOnNextCall(f13);
+    return v1;
+}
+BigInt64Array[Symbol.iterator] = f10;
+try { new BigInt64Array(BigInt64Array, BigInt64Array, v1); } catch (e) {}
+new BigInt64Array(256);
+~4;
+new Uint8Array(4);
+255 / 255;
+new Int32Array(255);
+for (let v38 = 0; v38 < 25; v38++) {
+    const v39 = [1073741824,1073741823,1376142744,1073741825];
+    try { v39.keys(); } catch (e) {}
+    function f41(a42, a43, a44, a45) {
+        function f47() {
+            return a43;
+        }
+        const v49 = new Int8Array();
+        const v50 = v49?.entries;
+        try { new v50(); } catch (e) {}
+        const v52 = v49.entries;
+        try { v52.call(BigInt64Array); } catch (e) {}
+        try { v52(v52, v52); } catch (e) {}
+        function f55() {
+        }
+        function f56() {
+            return v39;
+        }
+        function f57(a58) {
+            [] >= Uint16Array;
+        }
+        Object.defineProperty(f55, "b", { writable: true, configurable: true, get: f56, set: f57 });
+        f55.b = f55;
+        Object.defineProperty(v49, "constructor", { configurable: true, enumerable: true, get: f55 });
+        const v62 = [1840677197,-43868];
+        let v63 = 6;
+        v63++;
+        const v65 = new Int8Array(v63);
+        for (const v66 in v65) {
+            Object.defineProperty(v62, v66, { configurable: true, value: v66 });
+        }
+        v49.map(f47, v49, arguments);
+        try { v39["find"](); } catch (e) {}
+        function F70(a72, a73, a74, a75) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        new F70();
+        return v63;
+    }
+    for (let v77 = 0; v77 < 5; v77++) {
+        f41();
+    }
+}

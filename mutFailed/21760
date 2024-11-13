@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 536870912;
+    } catch(e3) {
+    }
+    try {
+        this.h = 536870912;
+    } catch(e4) {
+    }
+    try {
+        this.f = 536870912;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 extends F0 {
+    3951796570 = v6;
+    constructor(a11, a12) {
+        super();
+        a11 &&= v8;
+        a11.h ||= a11;
+    }
+    static [F0];
+    static #d = C9;
+    268435440;
+    #f = v6;
+}
+const v13 = new v8(v7, F0);
+const v14 = new C9(v13, v6);
+const v15 = new C9(v13, v14);
+function f16() {
+    return v7;
+}
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        C9.e = v15;
+    } catch(e21) {
+    }
+    try {
+        this.g = v14;
+    } catch(e22) {
+    }
+}
+new F17(F17, v14);
+new F17(v15, v15);
+new F17(v8, v13);
+const v28 = ~9007199254740990;
+const v29 = (-4294967297).constructor;
+v29.valueOf = f16;
+const v30 = v29(v29, 9007199254740990, v28, 9007199254740990, v29);
+try { v30.toFixed(-4294967297); } catch (e) {}

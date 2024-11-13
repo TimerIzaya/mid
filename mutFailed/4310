@@ -1,0 +1,57 @@
+function f0() {
+}
+const v5 = (55701)[11];
+v5[Symbol.toPrimitive] = 4294967295;
+try {
+    v5.valueOf = f0;
+} catch(e8) {
+}
+new BigInt64Array(257);
+new Uint8Array(1912);
+new Float64Array(16);
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a20;
+    } catch(e22) {
+    }
+    try {
+        this.e = a19;
+        function f23(a24, a25, a26) {
+            function f28(a29) {
+                a25 <<= a21;
+            }
+            this.onmessage = f28;
+            const v31 = Symbol.iterator;
+            const o40 = {
+                [v31]() {
+                    let v33 = 10;
+                    const o39 = {
+                        next() {
+                            v33--;
+                            const v37 = v33 == 0;
+                            const o38 = {
+                                "done": v37,
+                                "value": v33,
+                            };
+                            return o38;
+                        },
+                    };
+                    return o39;
+                },
+            };
+        }
+        const v43 = [Float64Array,"function",f0];
+        const o44 = {
+            "arguments": v43,
+            "type": "function",
+        };
+        new Worker(f23, o44);
+    } catch(e46) {
+    }
+}
+new F17(-1, 16, 1912);
+new F17(55701, -1, -1);
+new F17(4294967295, BigInt64Array, 4294967295);
+const v52 = new Uint32Array(4);
+new Float64Array(v52);

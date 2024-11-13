@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -1024;
+    } catch(e3) {
+    }
+    try {
+        this.a = -1024;
+    } catch(e4) {
+    }
+    try {
+        this.b = -1024;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f12() {
+    return 9;
+}
+function f13(a14, a15, a16, a17) {
+    const o18 = {
+        ...v6,
+        [a16]: v6,
+        ...a17,
+        [v7]: v6,
+        "a": a15,
+        ...v6,
+        7: a15,
+        ...v7,
+        "f": 9,
+        ...a16,
+        "e": F0,
+        ...v6,
+        __proto__: v7,
+    };
+    return o18;
+}
+f13(f13(f12, -1073741824, v7, v6), 877306894, v7, v6);
+f13(f12, 9, v7, v8);
+[2147483647,37983,-4294967297,-4096,268435456,2147483647,-1640951830,-40566,-13,-36491];
+[1117189110,34476,65537,10000,536870889,63759,-2];
+[1309457207];
+new Int32Array(11);
+for (let v28 = 0; v28 < 25; v28++) {
+    const v29 = [601759695];
+    const v30 = [1073741824,1073741823,1376142744,1073741825];
+    function f31(a32, a33, a34, a35) {
+        function f36(a37, a38) {
+            return a37;
+        }
+        f36.source;
+        const v40 = f36();
+        v40[5];
+        v40 >> 11;
+        let v44;
+        try { v44 = v30["find"](...v29, a35, ...v29, ...v30); } catch (e) {}
+        return v44;
+    }
+    for (let v45 = 0; v45 < 5; v45++) {
+        f31(v29, v45, v28, v45);
+    }
+}

@@ -1,0 +1,78 @@
+function f0() {
+    const v1 = [-1024,257,-495437172,-200813600,-1024,-9007199254740991,5,21171,60860];
+    for (let v2 = 0; v2 < 5; v2++) {
+        function f3() {
+            const v5 = new Int32Array(v2);
+            v5[1073741824] = v1;
+            return v5;
+        }
+        f3();
+        %OptimizeFunctionOnNextCall(f3);
+    }
+}
+class C7 {
+    constructor(a9, a10, a11, a12) {
+        super(a9);
+    }
+    e;
+    /*
+    constructor(a14, a15) {
+        const v16 = this.constructor;
+        try { new v16(this, v16, a14, a14); } catch (e) {}
+        (f0 >= a14) instanceof f0;
+    }
+    */
+    /*
+    constructor() {
+        for (const v21 of f0) {
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            f0();
+            f0();
+            %OptimizeMaglevOnNextCall(f0);
+            f0();
+        }
+    }
+    */
+    /*
+    constructor(a27, a28) {
+        for (let i = 0; i < 10; i++) {
+            this[this];
+        }
+    }
+    */
+    static 129 = f0;
+    [f0] = f0;
+}
+const t46 = ("1073741824").constructor;
+t46().replaceAll().toLowerCase();
+new C7();
+new C7();
+new C7();
+new Uint8Array(655);
+const v44 = new Float32Array();
+new Uint8Array(v44, Uint8Array, Uint8Array);
+const o52 = {
+    [-1.1635412394243161e+308](a49) {
+    },
+    set b(a51) {
+    },
+};
+delete o52.b;
+new BigUint64Array(256);
+function F55(a57, a58, a59) {
+    if (!new.target) { throw 'must be called with new'; }
+    a57 === a58;
+}
+const v61 = new F55();
+v61.constructor;
+typeof Float32Array;
+const v69 = !(369263011 ^ "grow");
+const v70 = [-6.672391061426152e+307];
+function f71() {
+    v70["pop"]() <= v69;
+    return 369263011;
+}
+new Int8Array(3);
+let v77 = -6.50438168344124;
+v77 **= v77;

@@ -1,0 +1,103 @@
+const v1 = [-1.3667473485475811e+308,1.7976931348623157e+308,5.0,-3.583919688173468e+307,-1.5320462342133301e+308,-414873.4859108749,286122.8434793174,866.7395286670867,-1000.0,-742782.9714922046];
+function f3(a4, a5, a6, a7) {
+    function f8() {
+        const o16 = {
+            __proto__: v1,
+            valueOf(a10, a11) {
+                return v1;
+            },
+            ["-1073741824"](a13, a14, a15) {
+            },
+        };
+        return o16.copyWithin();
+    }
+    f8();
+    %OptimizeFunctionOnNextCall(f8);
+    return a4;
+}
+for (let v19 = 0; v19 < 10; v19++) {
+    f3(v1, f3, v19, v19);
+}
+%OptimizeFunctionOnNextCall(f3);
+const v22 = new Int16Array(7);
+new Uint8ClampedArray(10);
+const v28 = new Uint16Array(2995);
+let v29;
+try { v29 = v28(v22, Uint16Array, Uint8ClampedArray); } catch (e) {}
+const v34 = Symbol.iterator;
+const o64 = {
+    [v34]() {
+        let v36 = 10;
+        Array.prototype = Array;
+        const v39 = Array(9);
+        class C40 {
+        }
+        const o63 = {
+            next() {
+                v36--;
+                const v44 = v36 == 0;
+                const v45 = delete v22?.byteOffset;
+                const o47 = {
+                };
+                try {
+                    o47.f = v45;
+                } catch(e48) {
+                }
+                try {
+                    const o49 = {
+                    };
+                    o49.f = v45;
+                    o49.c = Uint8ClampedArray;
+                } catch(e50) {
+                }
+                try {
+                    const o51 = {
+                    };
+                    o51.f = v45;
+                    o51.c = Uint8ClampedArray;
+                    o51.e = Uint8ClampedArray;
+                } catch(e52) {
+                }
+                try {
+                    const o53 = {
+                    };
+                    o53.f = v45;
+                    o53.c = Uint8ClampedArray;
+                    o53.h = 2995;
+                } catch(e54) {
+                }
+                const o62 = {
+                    "done": v44,
+                    "arguments": v39,
+                    ..."-1073741824",
+                    "arguments": v39,
+                    m(a56, a57, a58, a59) {
+                        ("ignoreCase").normalize();
+                        return this;
+                    },
+                    "value": v29,
+                };
+                return o62;
+            },
+        };
+        return this;
+    },
+};
+new Int8Array(2956);
+new Uint32Array(64);
+try {
+    v22.buffer = o64;
+} catch(e71) {
+}
+const o72 = {
+    "construct": Symbol,
+    "get": Symbol,
+    "getOwnPropertyDescriptor": Symbol,
+    "isExtensible": f3,
+    "ownKeys": Symbol,
+};
+new Proxy(v34, o72);
+new Uint16Array(256);
+const v80 = new Uint8Array(225);
+for (const v81 in v80) {
+}

@@ -1,0 +1,83 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -4294967297;
+    } catch(e3) {
+    }
+    try {
+        this.e = -4294967297;
+    } catch(e4) {
+    }
+    try {
+        this.__proto__ = this;
+    } catch(e5) {
+    }
+    function f6() {
+        return -4294967297;
+    }
+    try {
+        this.h = -4294967297;
+    } catch(e7) {
+    }
+}
+const v8 = new F0();
+const v9 = new F0();
+const v10 = new F0();
+function f11() {
+    return v10;
+}
+new Int8Array(14);
+const v17 = new Uint8Array(229);
+const v20 = new Float64Array(842);
+let v24 = [-6.741855211610779,553.594505585577,1.0637276618206825e+308];
+const o28 = {
+    set c(a26) {
+        class C27 {
+            static [v24];
+        }
+    },
+};
+/[x]Z(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\10(3ga\Bb)/gvisy;
+const v33 = [];
+const o36 = {
+    "maxByteLength": 1000,
+};
+const v38 = new ArrayBuffer(3, o36);
+const v40 = new BigInt64Array(v38);
+const v41 = [];
+const v42 = [1000.0];
+function f43(a44, a45) {
+    !a45;
+    const o49 = {
+        "maxByteLength": 2147483649,
+    };
+    const v51 = new ArrayBuffer(2805, o49);
+    new DataView(v51);
+    const o62 = {
+        [a45]: v33,
+        "h": v41,
+        get e() {
+            a44[1000.0] >>= -4.0;
+            let v55;
+            try { v55 = this.o(229); } catch (e) {}
+            const v56 = new f11(v9, v8, Float64Array, a44, a45, v55);
+            try { v56["toString"](v17, v33); } catch (e) {}
+            ++v24;
+            Date();
+        },
+        [227.40634637175117]: 227.40634637175117,
+        "a": v20,
+        "b": BigInt64Array,
+        "c": 2805,
+        "e": 2147483649,
+        ...v40,
+        [a44]: v41,
+    };
+    return o62;
+}
+f43(v42, -4.0);
+%PrepareFunctionForOptimization(f43);
+f43(v42, -4.0);
+f43(v42, -4.0);
+%OptimizeFunctionOnNextCall(f43);
+f43();

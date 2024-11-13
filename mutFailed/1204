@@ -1,0 +1,77 @@
+function f0() {
+}
+class C1 {
+    p() {
+        super[this] = this;
+        super[f0] = this;
+        const v3 = this.f;
+        const o6 = {
+            "maxByteLength": 1000,
+        };
+        const v8 = new SharedArrayBuffer(9, o6);
+        new Int32Array(v8);
+        return v3;
+    }
+}
+const v11 = new C1();
+const v12 = new C1();
+const v13 = new C1();
+const v14 = v13?.__lookupSetter__;
+let v15;
+try { v15 = new v14(v13); } catch (e) {}
+function f16(a17) {
+    a17?.constructor;
+    try { new v14(); } catch (e) {}
+    const o25 = {
+        [C1]: f0,
+        set a(a21) {
+            v12[899];
+            var a = v11;
+            v11 | v13;
+            try {
+                a17.__proto__ = v13;
+            } catch(e24) {
+            }
+        },
+        "f": a17,
+        ...v13,
+        "h": v15,
+        "c": f0,
+        [v12]: v11,
+    };
+    return o25;
+}
+f16.g = f16;
+const v26 = f16(v11);
+const v27 = f16(v15);
+f16(v13);
+const v30 = new WeakMap();
+class C31 {
+    d = v12;
+    #m(a33, a34) {
+        v26.__proto__;
+        const o36 = {
+            [v27]: v30,
+        };
+        const o40 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        return gc(o40);
+    }
+}
+C31.d = C31;
+const v42 = new C31();
+const v43 = v42?.constructor;
+try { new v43(); } catch (e) {}
+const v45 = new C31();
+new v45();
+function f47() {
+    return v43;
+}
+const o49 = {
+    __proto__: f47,
+    m() {
+        return f47;
+    },
+};

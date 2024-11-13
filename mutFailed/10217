@@ -1,0 +1,16 @@
+new Float64Array(4);
+new Int8Array(223);
+new Int32Array(1035);
+new BigUint64Array(715);
+new BigUint64Array(9);
+new Uint32Array(12);
+const v18 = [];
+function f19() {
+    try {
+        v18.length = 12;
+    } catch(e20) {
+    }
+    return Int8Array;
+}
+v18[Symbol.toPrimitive] = f19;
+Math.atan2(v18, -40875);

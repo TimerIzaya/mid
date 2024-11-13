@@ -1,0 +1,60 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = this;
+    } catch(e3) {
+    }
+    try {
+        this.f = -2;
+    } catch(e4) {
+    }
+    try {
+        this.h = -2;
+    } catch(e5) {
+        const o8 = {
+            valueOf() {
+                this[e5];
+                return this;
+                return -2;
+            },
+        };
+    }
+}
+const v9 = new F0();
+const v10 = new v9();
+const v11 = new F0();
+const v15 = [26164,-65535,-7];
+[1455606906,268435456,4115,-2147483649,2147483647,-1365118419];
+const v17 = [536870887,268435440,11,268435440];
+v17[3] = v17;
+const v18 = [-57432,-9223372036854775808,-13989];
+[65536,10,16,-4294967297];
+[-14,-1864062276,-21590,-9007199254740990,39941,-51486,4096,-25949];
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v25;
+    try { v25 = a23.replaceAll(v15, "allSettled"); } catch (e) {}
+    v11.d = a24;
+    try {
+        this.h = v25;
+    } catch(e26) {
+    }
+    try {
+        this.b = v18;
+    } catch(e27) {
+    }
+}
+new F21("symbol", v10);
+const v29 = new F21("symbol", v11);
+v29.b = v29;
+const v30 = new F21("symbol", v10);
+v30.b;
+let v33 = -16n;
+function f34() {
+    v33 *= -1911645276n;
+    return v9;
+}
+f34();
+const v36 = f34();
+v36 + v36;
+-f34();

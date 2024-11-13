@@ -1,0 +1,36 @@
+new Uint32Array(10);
+let v3 = 6;
+v3++;
+new Int8Array(v3);
+const v9 = new Float32Array(2014);
+let v10;
+try { v10 = v9.findIndex(v9); } catch (e) {}
+316969901 >>> 316969901;
+const v15 = [-268435456,-9007199254740990,11,-25356,-536870912,4294967296,1520296454];
+function f16(a17, a18) {
+    a18[0] = a18;
+    const v20 = 139837843 & 139837843;
+    function F21(a23) {
+        if (!new.target) { throw 'must be called with new'; }
+        this[139837843] = v10;
+        139837843 in this;
+    }
+    const v25 = new F21();
+    try { v25.hasOwnProperty(Float32Array); } catch (e) {}
+    const v27 = new F21(a18);
+    v27.constructor = f16;
+    try { v27.constructor(v25); } catch (e) {}
+    const o29 = {
+        __proto__: v15,
+    };
+    function f30() {
+        return f16;
+    }
+    function f31(a32) {
+        try { a32(a32, v20); } catch (e) {}
+    }
+    Object.defineProperty(o29, "toString", { configurable: true, enumerable: true, get: f30, set: f31 });
+    o29[3] = o29;
+    return o29;
+}
+f16(v15, v15).group(f16);

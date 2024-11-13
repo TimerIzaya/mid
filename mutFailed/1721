@@ -1,0 +1,46 @@
+new Float32Array(1011);
+const v5 = new Uint8Array(201);
+const v8 = new v5(13);
+class C12 extends Uint8Array {
+    #g = 13;
+    constructor(a14, a15, a16) {
+        super(13, a16);
+        super.length = this;
+        try {
+            (1011).#g;
+        } catch(e18) {
+        }
+    }
+    get g() {
+        super.byteOffset ^= 28.71296673089114;
+        let v20;
+        try { v20 = v8.findLast(Float32Array, v5); } catch (e) {}
+        this[257] = v20;
+        Object.defineProperty(this, "b", { enumerable: true, value: Float32Array });
+        const v21 = 1011 << 201;
+        try {
+            this.#g = v21;
+        } catch(e22) {
+        }
+        return v21;
+    }
+}
+const t27 = 28.71296673089114;
+new t27(28.71296673089114, 6.707994467284659e+307, 1011);
+new C12(6.707994467284659e+307, 6.707994467284659e+307, 1011);
+new C12(-1.064335248855798, 6.707994467284659e+307, 13);
+const v26 = [0.00952483356421907,-3.0,2.220446049250313e-16];
+function f27() {
+    return f27;
+}
+function f28(a29) {
+    return a29;
+}
+Object.defineProperty(v26, 1, { get: f27, set: f28 });
+function f30() {
+    return v26;
+}
+class C31 extends f30 {
+}
+new C31();
+delete f30[1];

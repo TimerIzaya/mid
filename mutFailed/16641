@@ -1,0 +1,28 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 4294967297;
+    } catch(e3) {
+    }
+    try {
+        this.f = 4294967297;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+new F0();
+1302412783n - 1302412783n;
+4294967295n << 4294967295n;
+const v18 = new Float64Array(1587);
+v18[862];
+try { new Uint8ClampedArray(-9n, v18, v5); } catch (e) {}
+new Uint8ClampedArray(239);
+new BigInt64Array(8);
+class C27 {
+}
+const v28 = new C27();
+const v29 = v28?.constructor;
+try { new v29(); } catch (e) {}
+try { this.escape(1587); } catch (e) {}
+this.__proto__ = v28;

@@ -1,0 +1,93 @@
+function f0() {
+    const o8 = {
+        "h": -707773.2647211434,
+        2: -707773.2647211434,
+        [979960.9937478958]: 979960.9937478958,
+        [11](a5, a6) {
+            a5[7] = a6;
+            return a5;
+        },
+        "g": 979960.9937478958,
+        0: -707773.2647211434,
+        ...979960.9937478958,
+        "b": 11,
+    };
+    return o8;
+}
+const v9 = f0();
+function f10(a11, a12) {
+    new BigInt64Array(980);
+    return a12;
+}
+v9.valueOf = f10;
+const v16 = f0();
+const v17 = f0();
+const v19 = -v9;
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v19;
+    } catch(e25) {
+    }
+    try {
+        this.g = a22;
+    } catch(e26) {
+    }
+    try {
+        const v28 = [[a24,Map,F20,Map],v16];
+        [v28,a22,v28,a24,v28];
+        this.f = v16;
+    } catch(e33) {
+    }
+}
+const v34 = new F20(v17, f0, v9);
+const v35 = new F20(v17, v34, v9);
+new F20(v9, v35, v9);
+new Map();
+function F38(a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v17.e = Map;
+    } catch(e43) {
+    }
+    try {
+        this.h = v16;
+    } catch(e44) {
+    }
+    try { new a40(a41, F38, this, v9); } catch (e) {}
+    new Uint16Array(4096);
+    new Uint8Array(5);
+    new Float32Array(1518);
+    try {
+        this.c = v17;
+    } catch(e55) {
+    }
+}
+const v56 = new F38(v17, v16, v9);
+const v57 = new F38(v9, v9, v17);
+const v58 = new F38(v16, v16, v16);
+v58.toString = f0;
+function f59() {
+    return F38;
+}
+function f63(a64) {
+    const o65 = {
+        [a64]: a64,
+        ...v16,
+        ...v57,
+        __proto__: v56,
+        "f": v58,
+        "h": v58,
+    };
+    return a64;
+}
+function f66(a67) {
+    return a67;
+}
+class C68 extends f66 {
+    static #e;
+    [v58] = -12;
+}
+%PrepareFunctionForOptimization(f63);
+f63();
+f63(5.0);

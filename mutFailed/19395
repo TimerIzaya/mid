@@ -1,0 +1,83 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+let v4 = new Int32Array(Int32Array);
+let v5 = 11;
+const v7 = Int32Array in v0;
+++f1;
+let v9;
+try { v9 = f1(); } catch (e) {}
+v0[v4] = v9;
+const o10 = {
+};
+new Proxy(v4, o10);
+const v13 = new Uint16Array(96);
+v13[2147483647] = f1;
+Int32Array[7] = v0;
+try {
+    try {
+        new Uint16Array(-9007199254740992);
+    } catch(e17) {
+    }
+    f1();
+} catch(e19) {
+}
+new Uint8ClampedArray(4096);
+const v23 = [4096];
+let v24 = v0.flat;
+Reflect.apply(v24, v4, v23);
+let {"a":v26,"buffer":v27,} = v4;
+class C28 extends Int32Array {
+    constructor(a30, a31, a32) {
+        super(a31);
+        a32 = 96;
+        a30 -= this;
+        v27[Symbol.split] = a31;
+        f1();
+        %PrepareFunctionForOptimization(f1);
+        f1();
+        f1();
+        %OptimizeMaglevOnNextCall(f1);
+        f1();
+        v4[a32];
+        v5 ^= a30;
+    }
+    g = v5;
+    get b() {
+        class C41 {
+            #a;
+            e;
+            #b = Uint8ClampedArray;
+            set h(a43) {
+                v27.maxByteLength ||= a43;
+                Math.sign(Uint8ClampedArray);
+                v4 / Uint8ClampedArray;
+                ~v0;
+                v4++;
+            }
+        }
+        new C28();
+        new C28();
+        new C41();
+        return f1;
+    }
+}
+new C28(4096, v5, v5);
+v24[16] &&= f1;
+%VerifyType(v7);
+Object.defineProperty(v24 = v26, 6, { writable: true, value: 4096 });
+new C28(v5, 96, 96);
+new C28(v5, 4096, 96);
+for (let v59 = 0; v59 < 5; v59++) {
+    function f60() {
+        const v63 = Math.expm1();
+        const v64 = Math.tanh("n");
+        const o65 = {
+            [v64]: v63,
+        };
+        return v59;
+    }
+    f60();
+    %OptimizeFunctionOnNextCall(f60);
+}

@@ -1,0 +1,95 @@
+function f0() {
+}
+function f7() {
+    return 2147483648;
+}
+class C8 extends f7 {
+    n(a10, a11, a12, a13) {
+        let v15;
+        try { v15 = this["getMinutes"](1990859020, f7); } catch (e) {}
+        let v16;
+        try { v16 = v15("getMinutes", a12, a10); } catch (e) {}
+        return v16;
+    }
+    constructor(a18, a19, a20) {
+        super(this, a19, 11699);
+        %VerifyType(2147483648);
+    }
+    #c;
+    #b;
+    h = 2147483648;
+}
+const v21 = new C8(-12, 11699, -12);
+new C8(11699, v21, -12);
+const v23 = new C8(2147483648, -1, 11699, f7, 1990859020);
+f0();
+var g = f0;
+v23["n"](f0, "n");
+new f0();
+function f28(a29, a30) {
+    const o89 = {
+        __proto__: v23,
+        get h() {
+            function f34(a35, a36, a37, a38) {
+                return a35;
+            }
+            const v39 = f34();
+            -128 / -128;
+            const v43 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+            const v44 = [601759695];
+            function f45(a46, a47, a48, a49) {
+                a47 * a47;
+                a48 == a48;
+                function f53() {
+                    const v55 = -v43 && v43;
+                    -v55;
+                    return v55;
+                }
+                arguments[2] = arguments;
+                arguments.toString(v44, -128);
+                function f58() {
+                    ("Vre").toLocaleUpperCase;
+                    ("Vre").fixed();
+                    const o67 = {
+                        "c": v44,
+                        valueOf(a65, a66) {
+                        },
+                        "e": -268435456,
+                    };
+                    const v68 = o67.valueOf();
+                    v68 * v68;
+                }
+                const o70 = {
+                };
+                function F71(a73, a74, a75, a76) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    const v77 = a75.valueOf(a76, this, a75, this, a73);
+                    v77.__lookupSetter__(v77);
+                }
+                Int8Array.a = Int8Array;
+                const v80 = new Int8Array();
+                v80.buffer;
+                %OptimizeFunctionOnNextCall(f58);
+                ("find").strike();
+            }
+            %PrepareFunctionForOptimization(f45);
+            const v84 = f45();
+            %OptimizeFunctionOnNextCall(f45);
+            f45(v84, f45, -128, v39);
+            super[11699];
+            const v88 = Symbol.species;
+            v21[v88] = v88;
+            return v88;
+        },
+        "g": -1,
+        "b": 1990859020,
+        2: f7,
+        "c": v21,
+        "f": -12,
+    };
+    return o89;
+}
+f28(-1, v23);
+f28(-12, v23);
+f28(2147483648, v21);
+gc();

@@ -1,0 +1,89 @@
+class C1 {
+    #o() {
+        let v6 = 546885.0598860693;
+        const v7 = v6 + 536870887;
+        const v8 = v6--;
+        v7 * 536870887;
+        536870887 && v6;
+        return v8;
+    }
+    2 = null;
+}
+function f11() {
+    return C1;
+    let v12 = 3375;
+    v12++;
+    return C1;
+}
+C1[Symbol.toPrimitive] = f11;
+const v16 = new C1();
+v16.toString = f11;
+const v17 = new C1();
+v17[2] = v17;
+v17[2];
+function f19(a20, a21, a22, a23) {
+    a20 & a20;
+    a22 - a22;
+    function F26(a28, a29, a30, a31) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v32 = this?.valueOf;
+        try { new v32(); } catch (e) {}
+    }
+    F26.name;
+    const v35 = new F26();
+    const v36 = v35?.constructor;
+    try { new v36(C1, a20, a23, a20); } catch (e) {}
+    const v38 = new F26(f19, f19, a21, v35);
+    function f39(a40) {
+        Symbol[10000];
+        new Date();
+        return a23;
+    }
+    v38.toString = f39;
+    v38 in v35;
+    return f19;
+}
+for (let v45 = 0; v45 < 10; v45++) {
+    v45 - v45;
+    f19(v45, f19, v45, f19);
+}
+%OptimizeFunctionOnNextCall(f19);
+const v48 = f19();
+const v49 = v48?.__lookupSetter__;
+try { new v49(v17); } catch (e) {}
+const v51 = new C1();
+const v52 = [0.3522673481161296,1.0,-1000.0,309.46711242643505,0.5238394157341807,947865.9605502081];
+const v53 = [0.8024727805261728];
+v53.valueOf = v48;
+const v54 = [-2.220446049250313e-16,-860632.6101297843];
+v54[1] = v54;
+function f55(a56, a57, a58) {
+    a56[2] = v54;
+    a58.valueOf = f55;
+    a57[2];
+    let v60;
+    try { v60 = a58.toLocaleString(); } catch (e) {}
+    try { v60.toLocaleLowerCase(); } catch (e) {}
+    const o67 = {
+        ...a57,
+        set c(a63) {
+            C1 = this;
+            v51[Symbol.hasInstance];
+            this[a63] = a57;
+            a56[a58] &&= a63;
+        },
+        [a56]: v52,
+        "f": a58,
+        10: v54,
+    };
+    return o67;
+}
+f55.name;
+f55(C1, v17, v53);
+f55(v53, C1, v17);
+f55(v16, v51, v52);
+Uint32Array.prototype;
+Uint32Array.length = Uint32Array;
+const v75 = new Uint32Array(9);
+const v77 = new Int8Array(v75);
+try { v77.slice(f55, v53); } catch (e) {}

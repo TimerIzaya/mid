@@ -1,0 +1,70 @@
+function f0() {
+    const o17 = {
+        "c": 1.3445290328505148,
+        "d": 1.3445290328505148,
+        16: 2.220446049250313e-16,
+        toString(a5) {
+            const v7 = Symbol.iterator;
+            const o16 = {
+                [v7]() {
+                    let v9 = 10;
+                    const o15 = {
+                        next() {
+                            v9--;
+                            const v13 = v9 == 0;
+                            const o14 = {
+                                "done": v13,
+                                "value": v9,
+                            };
+                            return o14;
+                        },
+                    };
+                    return o15;
+                },
+            };
+            return 1.3445290328505148;
+        },
+    };
+    return o17;
+}
+f0();
+const t29 = f0();
+t29();
+new Uint32Array(128);
+new Uint8Array(128);
+new Float32Array(1);
+const v34 = new Set();
+class C40 {
+    g = v34;
+}
+new C40();
+const v42 = new C40();
+const v43 = v42?.__defineSetter__;
+try { new v43(v42, v42); } catch (e) {}
+new C40();
+new BigInt64Array(66);
+new Uint32Array(8);
+new Uint16Array(512);
+class C53 {
+}
+try { new C53(); } catch (e) {}
+const v56 = WeakMap?.constructor;
+try { new v56(BigInt64Array); } catch (e) {}
+const v59 = [2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614];
+try { v59.find(512); } catch (e) {}
+Set.a = Set;
+const v62 = new Set(v59);
+try { v62.add(v62); } catch (e) {}
+function F64(a66, a67) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+    } catch(e68) {
+    }
+    try {
+        Math.clz32();
+    } catch(e70) {
+    }
+}
+F64.caller = F64;
+new F64();
+new F64();

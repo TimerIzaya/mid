@@ -1,0 +1,35 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 55282;
+    } catch(e3) {
+    }
+    try {
+        this.b = 55282;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+new F0();
+class C14 {
+    #m(a16, a17) {
+        let v18;
+        try { v18 = a16.getUTCMinutes(this, F0, -536870912n); } catch (e) {}
+        let {"b":v19,"g":v20,"h":v21,} = v18;
+        try {
+            v21.a = a16;
+        } catch(e22) {
+        }
+        return v21;
+    }
+    static #a;
+    0 = C14;
+    a;
+    257;
+}
+new v6();
+new C14();
+new C14();
+class C27 extends Uint16Array {
+}

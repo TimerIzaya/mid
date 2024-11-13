@@ -1,0 +1,63 @@
+function f0() {
+}
+class C1 extends f0 {
+    static {
+        const v4 = f0 !== this ? f0 : this;
+        try {
+            v4.h = this;
+        } catch(e5) {
+        }
+    }
+    constructor() {
+        super();
+        const t12 = "abs";
+        t12[1] = "abs";
+        try { ("number").toUpperCase(); } catch (e) {}
+    }
+}
+new C1();
+new C1();
+new C1();
+let v16 = 4294967296;
+v16--;
+new Uint8ClampedArray(3369);
+const v23 = new Uint32Array(257);
+v23[87] = v23;
+new Int32Array(257);
+function f27() {
+    const o32 = {
+        8: 0.043152456200264866,
+        get a() {
+            Math.acos(0.043152456200264866);
+        },
+    };
+    return o32;
+}
+f27.d = f27;
+const v33 = f27();
+const v34 = f27();
+257 + 257;
+function F37(a39, a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v43 = this?.constructor;
+    try { new v43(a40, a39, a42, a42); } catch (e) {}
+    a39[8];
+    a40[8];
+    this.d = 257;
+    this.h = a40;
+}
+const v47 = new F37(v34, v33);
+v47.length;
+function f50(a51, a52, a53) {
+    function f55(a56) {
+    }
+    a51[1] = a53;
+}
+const v59 = [v47];
+v59[0] = v59;
+const o60 = {
+    "arguments": v59,
+    "type": "function",
+};
+const v61 = new Worker(f50, o60);
+try { v61.terminate(); } catch (e) {}

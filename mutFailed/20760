@@ -1,0 +1,49 @@
+function f2(a3) {
+    function f4() {
+        const o8 = {
+            m(a7) {
+                return this;
+            },
+            __proto__: 946.0676210033328,
+        };
+        return 946.0676210033328;
+    }
+    f4();
+    f4();
+    %OptimizeFunctionOnNextCall(f4);
+    return a3;
+}
+BigUint64Array[Symbol.toPrimitive] = f2;
+const v13 = new BigUint64Array(690);
+const v16 = new Int16Array(1751);
+v16.toString = f2;
+v16[845] = v16;
+new Float64Array(1727);
+try { new Uint32Array(v16, v16, v16); } catch (e) {}
+new Uint32Array(9);
+new BigUint64Array(3);
+const v30 = new BigUint64Array(8);
+const v31 = v30?.copyWithin;
+try { new v31(Int16Array, Int16Array); } catch (e) {}
+class C33 {
+}
+const v34 = new C33();
+const v35 = v34?.constructor;
+try { new v35(); } catch (e) {}
+function f37(a38, a39) {
+    a39[Symbol.toPrimitive] = Symbol;
+    const o44 = {
+        "h": v34,
+        [a39]: v34,
+        set h(a43) {
+        },
+    };
+    return f37;
+}
+try { f37.apply(v13, 8); } catch (e) {}
+%PrepareFunctionForOptimization(f37);
+const v46 = f37();
+const v47 = v46?.constructor;
+try { new v47(BigUint64Array); } catch (e) {}
+%OptimizeFunctionOnNextCall(f37);
+f37(C33, v46);

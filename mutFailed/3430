@@ -1,0 +1,58 @@
+let v1 = new Object();
+function f2(a3, a4) {
+    const o8 = {
+        "h": a4,
+        [a3]: a3,
+        5: Object,
+        ...v1,
+        8: a4,
+        "a": a3,
+        get c() {
+            v1 = this;
+            try {
+                new Object();
+            } catch(e7) {
+            }
+            return this;
+        },
+    };
+    return o8;
+}
+const v9 = f2(f2, v1);
+const v10 = f2(v1, v9);
+const v11 = f2(v9, v10);
+function f12(a13, a14) {
+    const o28 = {
+        __proto__: Object,
+        "c": a14,
+        o(a16, a17, a18) {
+            new Uint8ClampedArray(4096);
+            new undefined(1024, Uint8ClampedArray, f12, Object);
+            new Float64Array(4);
+            return Uint8ClampedArray;
+        },
+    };
+    return o28;
+}
+const v29 = f12(v11, v11);
+const v30 = f12(v29, v29);
+const v31 = f12(v9, v9);
+function F32(a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v30;
+    } catch(e37) {
+    }
+    try {
+        this.length = a35;
+    } catch(e38) {
+    }
+    try {
+        v30.c = a36;
+    } catch(e39) {
+    }
+}
+new F32(Object, v10, v11);
+new F32(v31, v9, f12);
+new F32(v30, v9, f2);
+new WeakMap(-4294967296);

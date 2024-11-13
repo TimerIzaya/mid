@@ -1,0 +1,67 @@
+class C3 {
+    d;
+    ["E"];
+    g;
+    constructor(a5, a6) {
+        const t5 = "E";
+        const v7 = delete t5?.length;
+        v7[this] = v7;
+        super.a = a6;
+        try {
+            this.d = a5;
+        } catch(e8) {
+        }
+        super[a6] = v7;
+    }
+    #d;
+    static #a;
+}
+const v9 = new C3("E", C3);
+const v10 = new v9("E", C3);
+const v11 = new C3(v9, v10);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a15;
+    } catch(e16) {
+    }
+    try {
+        this.d = "E";
+    } catch(e17) {
+    }
+}
+const v18 = new F12(v11, v11);
+const v19 = new F12("E", v9);
+const v20 = new F12(v10, v19);
+function f21(a22, a23) {
+    const o33 = {
+        ...a22,
+        ..."E",
+        "f": v20,
+        "b": a23,
+        ...a23,
+        [a23]: C3,
+        [v19]: C3,
+        ...C3,
+        0: v10,
+        "d": f21,
+        toString(a25, a26) {
+            a26 **= v18;
+            a25 >> f;
+            try {
+                const o29 = {
+                };
+                const o30 = {
+                };
+                v20.fuck(v9, o29, o30);
+            } catch(e32) {
+            }
+            return a26;
+        },
+    };
+    return a23;
+}
+f21(v18, v19);
+f21(v9, f21);
+f21(v18, v19);
+([-8n]).toLocaleString();

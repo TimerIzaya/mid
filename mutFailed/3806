@@ -1,0 +1,34 @@
+[];
+function f6() {
+    Math.atan2(257, 257);
+    return 1.0616955508391824e+308;
+}
+Object.defineProperty(Float64Array, Symbol.iterator, { writable: true, configurable: true, value: f6 });
+new Float64Array(Float64Array);
+new BigUint64Array(255);
+new Uint8Array(8);
+class C19 extends Uint8Array {
+    constructor(a21, a22, a23) {
+        super(a21);
+        const v24 = this[6];
+        function F25(a27, a28, a29) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.b = Symbol;
+            try {
+                this.b = Float64Array;
+            } catch(e30) {
+            }
+            try {
+                this.a = a27;
+            } catch(e31) {
+            }
+        }
+        new F25(v24, v24, -314426.9439490972);
+        new F25(a22, a22, v24);
+        new F25(1.0616955508391824e+308, a22, -314426.9439490972);
+    }
+}
+new C19(13, 1000000000.0, 255);
+new C19(8, 1000000000.0, 255);
+new C19(8, 1.0616955508391824e+308, 13);
+URIError(4, 9);

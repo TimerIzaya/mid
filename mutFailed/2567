@@ -1,0 +1,91 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -44631;
+    } catch(e3) {
+    }
+    try {
+        this.a = -44631;
+    } catch(e4) {
+    }
+    try {
+        this.b = -44631;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+const v8 = new F0();
+function f9() {
+    return F0;
+}
+const v10 = [64,5];
+const v11 = [256,-28851,51868,9007199254740991,-9223372036854775808];
+const v12 = [16186,1073741824,-42367,2143922090];
+function f13(a14, a15) {
+    const o23 = {
+        __proto__: v8,
+        [v10](a17, a18) {
+            f9();
+            %PrepareFunctionForOptimization(f9);
+            f9();
+            f9();
+            %OptimizeMaglevOnNextCall(a14);
+            f9();
+            return a18;
+        },
+        "c": a15,
+        ...v12,
+    };
+    return o23;
+}
+const v26 = f13(f13(f13(v12, v11), v11), v11);
+new Uint32Array(64);
+const v35 = new Uint16Array(10);
+new Int16Array(2);
+class C39 {
+    constructor(a41, a42) {
+        const o43 = {
+        };
+        try {
+            o43.e = a41;
+        } catch(e44) {
+        }
+        try {
+            const o45 = {
+            };
+            o45.e = a41;
+            o45.c = a42;
+        } catch(e46) {
+        }
+        try {
+            const o47 = {
+            };
+            o47.e = a41;
+            o47.c = a41;
+            o47.b = a42;
+        } catch(e48) {
+        }
+        try {
+            const o49 = {
+            };
+            o49.e = a41;
+            o49.c = a42;
+            o49.g = v35;
+        } catch(e50) {
+        }
+    }
+}
+new v26(-9007199254740992n, 64);
+new C39(-15n, 2);
+new C39(-9007199254740992n, 10);
+let v54 = 0;
+do {
+    C39 / 10;
+    const o59 = {
+        "execution": "minor",
+        "type": "minor",
+    };
+    gc(o59);
+    v54++;
+} while (v54 < 5)

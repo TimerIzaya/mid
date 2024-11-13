@@ -1,0 +1,57 @@
+new Uint32Array(950);
+Float32Array.f = 7;
+Float32Array.f = Float32Array;
+new Float32Array(7);
+const v8 = new Int16Array(117);
+v8[49];
+16 + 16;
+new Int8Array(1);
+16 != 16;
+const v20 = new Float64Array(16);
+try { v20.join(-28706); } catch (e) {}
+2124 + 2124;
+Int16Array.e = Int16Array;
+new Int16Array(2124);
+new Uint16Array();
+function F28() {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(); } catch (e) {}
+    for (const v34 of Array(19793)) {
+    }
+    [];
+    function F36() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v38 = 0; v38 < 25; v38++) {
+        }
+    }
+    const v39 = new F36();
+    function f40() {
+        URIError();
+        return F36;
+    }
+    v39.constructor = f40;
+    const v43 = v39?.constructor;
+    try { new v43(); } catch (e) {}
+}
+const v45 = new F28();
+function f46() {
+    function f47() {
+        function f49(a50, a51, a52, a53) {
+            return arguments;
+        }
+        f49(f49(-1, 118, -1, 118), f49).constructor;
+        return 7;
+    }
+    return f47;
+}
+function f58(a59) {
+    function f61(a62, a63) {
+        const o64 = {
+            [10000n]: a63,
+        };
+        return o64;
+    }
+}
+Object.defineProperty(v45, "constructor", { writable: true, configurable: true, get: f46, set: f58 });
+const v65 = v45?.constructor;
+try { new v65(); } catch (e) {}

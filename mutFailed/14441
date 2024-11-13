@@ -1,0 +1,29 @@
+function f0() {
+}
+const v1 = [f0,f0,f0,f0,f0];
+const v2 = [f0,v1,v1,f0,v1];
+[v2,f0,v2];
+[-59379,f0,v2,2147483649];
+[-59379,-59379,v1,8,8];
+[8];
+function F10() {
+    if (!new.target) { throw 'must be called with new'; }
+    this[Symbol.toPrimitive] = f0;
+    const v16 = Array(19793);
+    v16[4241] = v16;
+    function f17() {
+        return 19793;
+    }
+    function f18(a19) {
+        let {"a":v20,...v21} = this;
+    }
+    Object.defineProperty(v16, 13268, { get: f17, set: f18 });
+    for (const v22 of v16) {
+    }
+    Object.defineProperty(Uint32Array, 0, { configurable: true, enumerable: true, value: f17 });
+    const v24 = new this(Uint32Array);
+    for (let v25 = 0; v25 < 5; v25++) {
+        v24[v25] = this;
+    }
+}
+new F10();

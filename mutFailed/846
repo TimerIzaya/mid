@@ -1,0 +1,61 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+const v6 = new F1();
+function f10(a11, a12) {
+    const o13 = {
+        ...v0,
+    };
+    return a11;
+}
+const v14 = f10(2, v6);
+const v15 = f10(1073741824, v6);
+f10(2, v5);
+function f18() {
+    return true;
+}
+class C19 extends f18 {
+    constructor(a21, a22, a23, a24) {
+        super();
+        let v25;
+        try { v25 = a23.trunc(v5, a22, v4, F1, a21); } catch (e) {}
+        %VerifyType(v0);
+        function f26() {
+            return v25;
+        }
+    }
+    [v5] = f18;
+    get d() {
+        this[128] = v0;
+        true || v6;
+        return v0;
+    }
+    #h;
+}
+const v29 = new C19(8, 8, v6, v15);
+new C19(1073741824, 2, v6, v29);
+new C19(2, 8, v6, 8);
+let v34 = 0.12553992532888458;
+v34 |= 6.438802402722506e+306;
+let v40 = +2147483647;
+++v40;
+(2147483647 | v14) ** v40;
+class C45 {
+}
+const v46 = new C45();
+const t52 = v14[0.8224418963622776];
+t52();
+%PrepareFunctionForOptimization(f18);
+f18();
+f18();
+%OptimizeFunctionOnNextCall(f18);
+f18();
+([-2099226038,1000000000.0,v46,Array]).sort();
+typeof -13;

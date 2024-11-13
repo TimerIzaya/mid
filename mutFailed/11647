@@ -1,0 +1,53 @@
+new Uint16Array(7);
+new Uint32Array(9);
+new Uint32Array(631);
+function f12() {
+}
+const o13 = {
+};
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = 2105444095n / 2105444095n;
+    v22 << v22;
+    for (let v24 = 0; v24 < 100; v24++) {
+        v24 >>> v24;
+        const o27 = {
+            6: undefined,
+            "d": undefined,
+            [268435439n]: 2105444095n,
+            __proto__: o13,
+            "g": a18,
+        };
+    }
+    const o28 = {
+        "getOwnPropertyDescriptor": f12,
+    };
+    function f29() {
+        return Uint16Array;
+    }
+    function f30(a31) {
+        const v34 = new Uint8Array();
+        v34[Symbol.isConcatSpreadable] = BigInt64Array;
+    }
+    Object.defineProperty(o28, "defineProperty", { get: f29, set: f30 });
+    const v38 = new Proxy(this, o28);
+    v38.h = 8;
+    v38.h = v38;
+}
+new F14();
+const v40 = new F14();
+const t38 = v40.constructor;
+new t38();
+const v43 = new F14();
+function f44(a45, a46) {
+    f12();
+    %PrepareFunctionForOptimization(f12);
+    f12();
+    f12();
+    %OptimizeMaglevOnNextCall(f12);
+    f12();
+    return f12;
+}
+v43.constructor = f44;
+const t51 = v43.constructor;
+new t51();

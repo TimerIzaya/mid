@@ -1,0 +1,44 @@
+class C6 {
+    static #h = -128;
+    static #p(a8, a9, a10, a11) {
+        %VerifyType(-1909974598);
+        this[10] = this;
+        return -128;
+    }
+    valueOf(a13, a14) {
+        try {
+            this.#h ||= this;
+        } catch(e15) {
+        }
+        return this;
+    }
+    a;
+}
+new C6();
+new C6();
+const v18 = new C6();
+[-2147483647,128,-10,10,-33172,39378,1073741823,268435439,-15];
+[2908,268435440,53846,-36289,3839869];
+[-1073741824,1024,18858,65537,16,-9,-268435456];
+function f25() {
+    const o30 = {
+        ..."D",
+        ..."D",
+        "c": "D",
+        "h": "getHours",
+        104: v18,
+        get e() {
+            return "getHours";
+        },
+        "d": f25,
+        1: 4294967296,
+        "g": 7,
+    };
+    return o30;
+}
+f25();
+%PrepareFunctionForOptimization(f25);
+f25();
+%OptimizeFunctionOnNextCall(f25);
+const t42 = 10000;
+t42();

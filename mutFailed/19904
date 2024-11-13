@@ -1,0 +1,61 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 2147483647;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v6;
+    } catch(e12) {
+    }
+    try {
+        this.f = v6;
+    } catch(e13) {
+    }
+    try {
+        this.g = a11;
+    } catch(e14) {
+    }
+}
+const v15 = new F8(v5, v5);
+const v16 = new F8(v5, v4);
+new F8(v6, v4);
+class C19 extends F0 {
+    #toString(a21, a22, a23, a24) {
+        try {
+            v15.h = v16;
+        } catch(e26) {
+        }
+        return v6;
+    }
+    65537;
+    n(a28, a29, a30, a31) {
+        Math.abs(4294967295);
+        const v35 = a31--;
+        Math.sqrt(v4);
+        const v37 = a31 % 4294967295;
+        let v38 = C19 & v35;
+        v38++;
+        return v37;
+    }
+}
+new C19();
+new v15();
+new C19();
+new Float32Array(863);
+new Float64Array(26);
+new Uint8ClampedArray(4);
+const o54 = {
+    "execution": "async",
+};
+gc(o54);
+const o57 = {
+};
+const v59 = new C19(Uint8Array, o57);
+v59.d = v59;

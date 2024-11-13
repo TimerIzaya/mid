@@ -1,0 +1,46 @@
+const v2 = new Uint8ClampedArray(79);
+try {
+    try {
+        new Uint8ClampedArray(0);
+    } catch(e5) {
+    }
+} catch(e6) {
+}
+let v9;
+try { v9 = v2.forEach(v2, v2); } catch (e) {}
+try { v9(79, 79, Uint8ClampedArray); } catch (e) {}
+const v11 = 255 >= v9;
+const o14 = {
+    "maxByteLength": 186,
+};
+const v16 = new SharedArrayBuffer(127, o14);
+const v18 = new Int16Array(v16);
+new Uint8ClampedArray(255);
+new Float32Array(256);
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 256;
+    } catch(e28) {
+    }
+    try {
+        a27.e = 256;
+        const v29 = Float32Array != v18;
+        if (v29) {
+            127 << v29;
+        } else {
+            let v31;
+            try { v31 = a26(this, v29, 186, v11); } catch (e) {}
+            a27?.[v31];
+        }
+    } catch(e33) {
+    }
+    try {
+        this.f = a27;
+    } catch(e34) {
+    }
+}
+new F24(256, 79);
+new F24(256, 256);
+new F24(256, 79);
+("undefined").localeCompare("undefined", "symbol", "undefined");

@@ -1,0 +1,43 @@
+class C3 {
+    static 290;
+    static {
+        this instanceof 1e-15;
+    }
+    p(a7) {
+        const v8 = delete this?.a;
+        class C9 {
+        }
+        const v10 = new C9();
+        const v11 = v10.constructor;
+        let v12;
+        try { v12 = v11(v11, v11); } catch (e) {}
+        function f13() {
+            const v15 = ("D")[0];
+            let v16;
+            try { v16 = v15.substring(v12); } catch (e) {}
+            return v16.charCodeAt();
+        }
+        %PrepareFunctionForOptimization(f13);
+        f13();
+        %OptimizeFunctionOnNextCall(f13);
+        f13();
+        super[this] = v8;
+        try {
+            v8.__proto__ = v8;
+        } catch(e20) {
+        }
+        return 2.2250738585072014e-308;
+    }
+}
+new C3();
+new C3();
+new C3();
+new Uint8ClampedArray(64);
+new BigUint64Array(244);
+new Uint32Array(16);
+new Uint8Array(268435440);
+const v36 = [-6.8035006781971e+307,1000000.0,1000.0,-2.715046407601891];
+class C38 extends Array {
+}
+const v39 = new C38();
+v39.concat(v36);

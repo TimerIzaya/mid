@@ -1,0 +1,41 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o9 = {
+        9: a4,
+        n(a6, a7) {
+            try {
+                a3.valueOf = a4;
+            } catch(e8) {
+            }
+            return a6;
+        },
+        ...v1,
+        "d": a4,
+    };
+    return o9;
+}
+const v10 = f2(v1, Map);
+const v11 = f2(f2, v1);
+const v12 = f2(v11, v1);
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v12;
+    } catch(e19) {
+    }
+    try {
+        this.e = a17;
+    } catch(e20) {
+    }
+    try {
+        this.f = Map;
+    } catch(e21) {
+    }
+}
+new F13(v10, v11, v12, v10);
+const v23 = new F13(v12, v11, v10, v12);
+new F13(v10, v12, v23, v1);
+[255,-4294967295,2147483648,2390,8];
+new Date(Uint8Array);
+v10.setTime(Uint8Array);
+new Int16Array(v1);

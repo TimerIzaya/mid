@@ -1,0 +1,54 @@
+function f1() {
+    return Date;
+}
+function f2(a3) {
+    const v6 = (~0).constructor;
+    v6[Symbol.toPrimitive] = f1;
+    v6(v6);
+}
+Object.defineProperty(Date, Symbol.toPrimitive, { enumerable: true, get: f1, set: f2 });
+const v12 = new Date();
+const v17 = [-0.23549034038133065];
+v17.then = Date;
+async function f18(a19, a20, a21, a22) {
+    return await v17;
+}
+f18();
+new Float64Array(1073741824);
+const v28 = [-9007199254740991,-9007199254740991,v12,Date,Date];
+v28.toString = f2;
+const v29 = [Date,-36610,,];
+v29.toString = Date;
+const v30 = [v28,v12,-36610,v29];
+v30.toString = f1;
+class C31 extends Date {
+    h;
+    static {
+        this[Symbol.toPrimitive] = f1;
+        super[this] = -9007199254740991;
+    }
+    constructor(a36, a37, a38) {
+        Object.defineProperty(a36, Symbol.toPrimitive, { enumerable: true, value: f2 });
+        Object.defineProperty(a38, 2, { value: C31 });
+        super(a37);
+        a36[a38];
+        const v43 = Symbol.toPrimitive;
+        const o48 = {
+            [v43]() {
+                const v45 = delete this[a36];
+                delete Date?.prototype;
+                v43 >= v45;
+                return 6080;
+            },
+        };
+    }
+}
+new C31(v30, 6080, v30);
+new C31(v28, 6080, v30);
+new C31(v28, 6080, v29);
+const o58 = {
+    n(a54, a55) {
+        return Math.ceil(64n);
+    },
+};
+try { o58.n(o58, o58, o58, o58); } catch (e) {}

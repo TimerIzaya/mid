@@ -1,0 +1,42 @@
+class C3 {
+    b = "symbol";
+    constructor(a5, a6) {
+        const v9 = new Int8Array(102);
+        v9.byteOffset += 2574;
+        try {
+            super.getFullYear(v9, a6);
+        } catch(e12) {
+        }
+        new BigUint64Array(2574);
+        new Uint8ClampedArray(1000);
+    }
+}
+const v18 = new C3(-4096, "symbol");
+const v19 = new C3(v18, C3);
+const v20 = new C3(v18, "symbol");
+function f21(a22, a23, a24, a25) {
+    const o26 = {
+        [v20]: a23,
+        ...a24,
+        "e": a23,
+        "g": a25,
+        "b": a23,
+        __proto__: a22,
+        ..."symbol",
+        "f": "symbol",
+        ...v18,
+        [a25]: a22,
+        "h": 937.4710746242897,
+    };
+    return o26;
+}
+const v27 = f21(C3, v18, v18, v19);
+f21(f21(v20, v19, v18, v27), v19, v27, 937.4710746242897);
+const o38 = {
+};
+new Proxy("symbol", o38);
+const v41 = [v20,f21,f21,Float64Array];
+[v41,o38,"valueOf",v41,15];
+[v19];
+const t38 = "undefined";
+t38["256"] <<= 4.0;

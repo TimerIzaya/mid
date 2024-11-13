@@ -1,0 +1,50 @@
+const v0 = [];
+function f1() {
+    const o9 = {
+        set c(a3) {
+            Reflect.construct(a3, [Reflect], a3);
+        },
+        valueOf() {
+            try {
+                this.c = this;
+            } catch(e8) {
+            }
+            return v0;
+        },
+        ...v0,
+        "g": v0,
+        __proto__: v0,
+    };
+    return o9;
+}
+const v10 = f1();
+f1();
+const v12 = f1();
+class C13 extends f1 {
+    p(a15, a16) {
+        f1();
+        v10 in v10;
+        return v10;
+    }
+    static get e() {
+        new Set();
+        f1();
+        %PrepareFunctionForOptimization(f1);
+        f1();
+        f1();
+        %OptimizeFunctionOnNextCall(f1);
+        f1();
+        return this;
+    }
+}
+new C13();
+new C13();
+new C13();
+function f32() {
+    return -128;
+}
+new BigUint64Array(4);
+new v12(2);
+new Int32Array(4050);
+const v43 = [-9.109766292519199,-1.3811947064786667e+308,0.09110445091766706,5.0,-385647.03832885576,0.2888431306471019];
+try { v43.filter(59890n); } catch (e) {}

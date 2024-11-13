@@ -1,0 +1,23 @@
+function f0() {
+}
+let v1 = 128;
+new Uint32Array(v1);
+const v6 = new Int8Array(255);
+new Uint32Array(3712);
+const v13 = new Float32Array(10, 10, 10);
+%VerifyType(Float32Array);
+Object.defineProperty(v13, 1, { writable: true, configurable: true, enumerable: true, get: f0, set: f0 });
+({"e":v1,"length":f0,} = "byteOffset");
+v6["forEach"](v1, v6);
+const v17 = new Float64Array();
+v17[10] = v13;
+const t13 = "byteOffset";
+t13[4] = Float64Array;
+const o18 = {
+    "h": f0,
+};
+let v21 = -656198.2950862664;
+v21 * o18;
+v21++;
+Math.log10(v21);
+217338692 || 217338692;

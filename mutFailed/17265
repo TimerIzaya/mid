@@ -1,0 +1,91 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function F2() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v4 = 0; v4 < 10; v4++) {
+            "p" + v4;
+        }
+    }
+    new F2();
+    try {
+        this.g = 6;
+    } catch(e9) {
+    }
+    try {
+        this.d = F0;
+    } catch(e10) {
+    }
+    try {
+        this.c = 6;
+        Math.g = Math;
+        const v15 = new Uint8ClampedArray();
+        function f16(a17, a18) {
+            new Uint32Array(48);
+            return F2;
+        }
+        Object.defineProperty(v15, "toString", { writable: true, configurable: true, enumerable: true, value: f16 });
+        const o26 = {
+            [Math]: Float64Array,
+            4: 6,
+            "b": Math,
+            [v15](a23, a24, a25) {
+            },
+        };
+        return o26;
+    } catch(e27) {
+    }
+    function F28(a30, a31, a32, a33) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v34 = a30.push();
+        const v35 = this.__defineGetter__;
+        try { v35.call(v34); } catch (e) {}
+    }
+}
+const v37 = new F0();
+const v38 = new F0(v37, F0, v37);
+Array().unshift();
+let v42 = 19793;
+const v44 = Array(v42);
+const v45 = [v44,v44,v44,v44,v44];
+function f46() {
+    return v42;
+}
+v45.toString = f46;
+const v51 = [[v45,v45,v45]];
+function f52() {
+    return f46;
+}
+Object.defineProperty(v51, "valueOf", { writable: true, enumerable: true, get: f52 });
+function f54() {
+    function f55() {
+        v42 ^= v42;
+        for (let v56 = 0; v56 < 25; v56++) {
+            const v59 = new Int8Array();
+            for (const v60 in v59) {
+            }
+        }
+        return v38;
+    }
+    return f55;
+}
+Object.defineProperty(Uint16Array, Symbol.toPrimitive, { get: f54 });
+v51 >= Uint16Array;
+const v64 = new F0();
+const o66 = {
+    4294967296: 1733353236,
+};
+const o68 = {
+    get h() {
+        return o66;
+    },
+    ...o66,
+};
+new Uint8Array(2, v37);
+("ignoreCase").normalize();
+class C79 {
+}
+const v80 = new C79();
+v51.e = v80;
+new Float64Array(2392, v64);
+new BigUint64Array(4070);
+([-7.127262073336987e+307,9.142894664271836,5.0]).concat();

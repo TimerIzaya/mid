@@ -1,0 +1,56 @@
+const v2 = new BigInt64Array(1595);
+const v5 = v2.__proto__;
+let v6;
+try { v6 = v5(v5, 1595, 64); } catch (e) {}
+function f7() {
+    const v8 = f7(f7, f7);
+    v8 === v2 ? v8 : v2;
+    const v13 = Symbol.iterator;
+    const o22 = {
+        [v13]() {
+            let v15 = 10;
+            const o21 = {
+                fround() {
+                    v15--;
+                    v15 == 0;
+                    const o20 = {
+                        "done": v6,
+                        "value": v15,
+                    };
+                    return o20;
+                },
+            };
+            return o21;
+        },
+    };
+    return BigInt64Array;
+}
+f7.arguments = f7;
+new Float64Array(64);
+new Uint16Array(0);
+let v27 = 2;
+v27++;
+function f31() {
+    const o38 = {
+        "cause": -4294967295,
+        ...v27,
+        valueOf(a36, a37) {
+        },
+        [1595]: 64,
+        "a": -4294967295,
+        "h": "Vre",
+        "f": -1097364790,
+        "f": -268435456,
+        ..."Vre",
+        4: "Vre",
+        "c": -268435456,
+        16: 64,
+        6: -268435456,
+    };
+    return o38;
+}
+%PrepareFunctionForOptimization(f31);
+v5();
+f31();
+%OptimizeFunctionOnNextCall(f31);
+f31(v6).f;

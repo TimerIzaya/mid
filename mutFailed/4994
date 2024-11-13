@@ -1,0 +1,46 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+    try {
+        this.a = f0;
+    } catch(e4) {
+    }
+    try {
+        this.b = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+new F1();
+const v8 = new F1();
+[-24.78938285176355,0.7967646348877069,-2.2250738585072014e-308];
+[-0.0,0.8045569286610871,-1.3067019579749246,0.9464851931914549,-4.0,4.0,1.4793747281918986e+308,-2.0,-1.7976931348623157e+308,-868321.0641004229];
+[-1.0,-6.819685768833178e+306,0.3844772967354152,-316454.11197013257,517.9672424087532];
+let v14;
+try { v14 = ("every").fixed(); } catch (e) {}
+const v18 = new Float64Array(512);
+try { ("boolean").keys(); } catch (e) {}
+new Int32Array(8);
+v6 << 7;
+let v26;
+try { v26 = new Uint8ClampedArray(512, "-2147483647", v8); } catch (e) {}
+new Uint8ClampedArray(v26);
+const v28 = [5,4142,11,268435456,11,-30743,4096,268435440,1753297073];
+const v29 = v28?.forEach;
+try { new v29(v29); } catch (e) {}
+function f31() {
+    Int8Array.b = v26;
+    v14();
+    Object.defineProperty(v28, 1, { writable: true, enumerable: true, value: v28 });
+    return Int8Array;
+}
+%PrepareFunctionForOptimization(v18);
+f31();
+v26.length;
+%OptimizeFunctionOnNextCall(v29);
+f31();

@@ -1,0 +1,94 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v6 = /a|b/vdy;
+    let v7 = /7Z(?:a?)+/gudsy;
+    const v8 = /\coQ/gdy;
+    function F9(a11) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.e = v6;
+        } catch(e12) {
+        }
+        try {
+            this.g = a11;
+        } catch(e13) {
+            v8.dotAll >>= e13;
+            let v14;
+            try { v14 = e13(e13, v7); } catch (e) {}
+            v7 = v6;
+            return e13;
+            v6 = v14;
+        }
+    }
+    const v15 = new F9(v6);
+    this.fuck(v15, this);
+    try {
+        this.f = f1;
+    } catch(e18) {
+    }
+    ([-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1]).pop();
+    const v23 = new Uint8Array();
+    const v25 = new Uint32Array();
+    function f26(a27, a28, a29, a30) {
+        a27 - a27;
+        a29--;
+        a30 >>> a30;
+        const v34 = a28--;
+        v34 + v34;
+        a30 + a29;
+        const o40 = {
+            "b": a27,
+            "c": a30,
+            ...v23,
+            n(a38, a39) {
+                v25[a27] = v25;
+                return a39;
+            },
+        };
+        try { o40.n(o40, -2); } catch (e) {}
+        return a29;
+    }
+}
+function f42(a43) {
+    f1[5] ||= F2;
+}
+new Float32Array(165);
+const v47 = new F2(F2, f1);
+const v48 = new F2(v47, F2);
+new F2(f0, v48);
+new WeakMap();
+const v55 = new Float64Array(1);
+Reflect.construct(Int8Array, [v55]);
+for (let v62 = 0; v62 < 5; v62++) {
+    for (let v63 = 0; v63 < 5; v63++) {
+        function f64() {
+            const v66 = new Date(v63);
+            v66.getFullYear();
+            return Date;
+        }
+        f64();
+        %OptimizeFunctionOnNextCall(f64);
+    }
+    function f69() {
+        class C70 {
+        }
+        function F71(a73, a74, a75, a76) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v77 = this.constructor;
+            try { new v77(a73); } catch (e) {}
+            this.c = a73;
+        }
+        const v79 = new C70();
+        try { v79.isPrototypeOf(v79); } catch (e) {}
+        const v84 = new Uint32Array(381);
+        new Float32Array(v84);
+        return v79;
+    }
+    f69();
+    %OptimizeFunctionOnNextCall(f69);
+}

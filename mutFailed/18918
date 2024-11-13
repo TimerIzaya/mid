@@ -1,0 +1,42 @@
+const t0 = "4";
+new t0();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.fuck = "copyWithin";
+    try {
+        this.c = Date;
+    } catch(e8) {
+    }
+    try {
+        this.b = a7;
+    } catch(e9) {
+    }
+}
+F5.toString = Date;
+const v10 = new F5("4");
+v10.fuck = F5;
+const v11 = new F5("4");
+new F5("4");
+let v13 = ("copyWithin").__proto__;
+v13.p0 = v13;
+const v14 = v13 ** F5;
+v11[9] += v13;
+try {
+    v10.fuck([v10,Date,v13,"copyWithin",v11], v11);
+} catch(e17) {
+}
+v13 = "4";
+%VerifyType(F5);
+v10[v14] = v10;
+const t30 = "copyWithin";
+delete t30[9];
+function f20() {
+    return "copyWithin";
+}
+new Int16Array(10);
+for (let v23 = 0; v23 < 32; v23++) {
+    v13["p" + v23] = v23;
+}
+new Uint16Array(256);
+new Int16Array(6);
+Math.expm1(-366687.8544616379);

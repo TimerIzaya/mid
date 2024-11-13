@@ -1,0 +1,46 @@
+class C3 {
+    static f = 1000000000.0;
+    static {
+        let v6 = 0;
+        do {
+            const v7 = this.f;
+            v7.e |= 8.484601964127055;
+            try { v7(v7, this, v7, v7, Number); } catch (e) {}
+            v6++;
+        } while (v6 < 9)
+    }
+}
+new C3();
+new C3();
+new C3();
+new Uint8Array(5);
+new Int16Array(8);
+new Int8Array(1255);
+const v29 = new Int16Array(1);
+const v32 = new Uint16Array();
+new Int16Array(386);
+const v38 = Reflect.construct(Int16Array, [Reflect,16,386], Int8Array);
+let v39;
+try { v39 = Reflect.set(v29, v38, 1000000000.0, Reflect); } catch (e) {}
+new Int16Array(...v32, Reflect, C3, v39, v39, 1);
+const v43 = new Uint16Array();
+new Int16Array(16);
+new BigInt64Array(2);
+const v51 = Symbol.iterator;
+const o62 = {
+    [v51]() {
+        let v53 = 10;
+        const o61 = {
+            next() {
+                v53--;
+                v53 == 0;
+                let o58 = {
+                };
+                o58 /= v29;
+                const v60 = v43["entries"]();
+                %VerifyType(Int16Array);
+                super.h = v60;
+            },
+        };
+    },
+};

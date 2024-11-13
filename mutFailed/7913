@@ -1,0 +1,42 @@
+function f0() {
+    const o4 = {
+        "e": -1.7919653660562772e+308,
+        "g": 2.2250738585072014e-308,
+        "d": "source",
+        ..."source",
+        [-1.7919653660562772e+308]: -1.7919653660562772e+308,
+        10: 2.2250738585072014e-308,
+        ["source"]: 2.2250738585072014e-308,
+        [2.2250738585072014e-308]: -1.7919653660562772e+308,
+        11: "source",
+        "a": 2.2250738585072014e-308,
+        __proto__: "source",
+        ..."source",
+        "b": -1.7919653660562772e+308,
+    };
+    return o4;
+}
+const v5 = f0(f0);
+const v6 = f0();
+const v7 = f0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a10;
+    } catch(e12) {
+    }
+    try {
+        this.e = f0;
+    } catch(e13) {
+    }
+}
+new F8(v7, v7);
+new F8(v6, v5);
+new F8(v5, v5);
+new Map();
+try {
+    true.fuck(true, true);
+} catch(e24) {
+}
+Infinity();
+%VerifyType(v5);

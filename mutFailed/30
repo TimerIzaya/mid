@@ -1,0 +1,29 @@
+const v2 = new Uint32Array(51);
+const v5 = new BigUint64Array(3188);
+const v8 = new v5(9);
+class C9 extends BigUint64Array {
+    a;
+    #c;
+    f = Uint32Array;
+    #d = 9;
+    static b = v5;
+    constructor(a11, a12) {
+        super(v8, 3188, a11);
+        super[Uint8Array] = this;
+        let [v13] = this;
+    }
+    8 = Uint8Array;
+}
+new C9(BigUint64Array, v8);
+new C9(C9, 9);
+new C9(51, v2);
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v21 = new F17();
+async function f22(a23, a24, a25, a26) {
+    a23.fuck();
+    await v21;
+    return F17;
+}
+f22();

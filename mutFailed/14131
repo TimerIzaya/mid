@@ -1,0 +1,38 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F8(a10, a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a12;
+    } catch(e13) {
+    }
+}
+const v14 = new F8(f1, F8, 47398);
+new F8(f0, v14, 1898903259);
+new F8(1781046891n, 1781046891n, 1285);
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 2147483649n;
+    } catch(e21) {
+    }
+    try {
+        this.f = 2147483649n;
+    } catch(e22) {
+    }
+}
+new F17(2147483649n, 47398);
+new F17(47398, 47398);
+new F17(F8, 47398);
+function F26() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f28(a29, a30) {
+    return 3521;
+}
+F26.toString = f28;
+const v33 = new F26();
+v33.setDate(F26);

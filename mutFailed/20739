@@ -1,0 +1,60 @@
+class C3 {
+    static m(a5) {
+        delete a5?.[1073741824];
+        return a5;
+    }
+    8 = -1.7976931348623157e+308;
+    [-5] = -1.7976931348623157e+308;
+    constructor(a8, a9) {
+        a8[10] = a9;
+        super.f;
+    }
+    static o(a12) {
+        try {
+            a12.__proto__ = C3;
+        } catch(e14) {
+        }
+        throw -5;
+        const o16 = {
+            "maxByteLength": 3887,
+        };
+        const v18 = new SharedArrayBuffer(3887, o16);
+        new Int32Array(v18);
+        return a12;
+    }
+}
+try {
+const t0 = 58181;
+t0(-1.7976931348623157e+308);
+} catch (e) {}
+function f22() {
+    return 58181;
+}
+const v24 = new C3(-1.7976931348623157e+308, C3);
+const v25 = new C3(C3, v24);
+new C3(v25, v25);
+[1.0];
+[0.8052524995243795,483890.77336909645,3.0,-2.2250738585072014e-308,5.5526618786472];
+[1000.0,-1000000000000.0,1.1583505892024131e+308,-0.0,-1.4757912027934168,1.5602093545505954e+308,5.0,1.1270423971878345e+308,1000000000000.0];
+[439587533,-323875200,-51962,8,-65537];
+[9007199254740990,-7,37601];
+[-12,-3,-9,-11078,-11,240864010];
+("minor").valueOf();
+class C36 {
+    ["minor"] = 0.9009832213714677;
+}
+const v37 = new C36();
+function f38(a39, a40, a41, a42) {
+    v37.minor;
+    const v45 = Math.sign(a40);
+    v45 >>> v45;
+    return a39;
+}
+for (let v47 = 0; v47 < 10; v47++) {
+    f38(C36, v47, v37, "minor");
+    function F49() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+}
+%OptimizeFunctionOnNextCall(f38);
+f38();

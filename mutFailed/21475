@@ -1,0 +1,95 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v6 = this?.constructor;
+    try { new v6(4294967295n); } catch (e) {}
+    a5++;
+    try {
+        this.b = 4294967295n;
+    } catch(e9) {
+    }
+    try {
+        this.d = 4294967295n;
+    } catch(e10) {
+    }
+}
+new F3(4294967295n);
+const v12 = new F3(-268435456n);
+new v12(-268435456n);
+const v17 = [-9007199254740991,1582124927,-1073741824];
+try { v17.sort(-268435456n); } catch (e) {}
+[128];
+const v20 = [930648790,-654948403,1884956869,11,-9223372036854775807,1073741824,39907];
+try { v20.includes(268435441); } catch (e) {}
+[1515135179,-23275,4121,929684005,-9223372036854775808,-16,-16,-10,-64832,-5];
+const v23 = [9,2147483648,1085263044,1,536870889,257,5,-40205,1073741824,1024];
+v23[7];
+const v25 = [1073741823,-4294967295,-65536,-15,-4294967296,16,1628746781,16,1499844526,-15374];
+function f26() {
+}
+try { new Date(v20, v20, v25, v20, v20, v25, -1073741824); } catch (e) {}
+new Date();
+let v30 = 2;
+v30 >>> v30;
+-(v30--);
+Float64Array.prototype = Float64Array;
+const v35 = new Float64Array(v30);
+3845 + 3845;
+try { new Uint32Array(-1908542035, v23, v20); } catch (e) {}
+const v40 = new Uint32Array(3845);
+new Int32Array(4096);
+const v45 = Array.name;
+try { v45.strike(); } catch (e) {}
+const v48 = new Array(3);
+try { v48.copyWithin(Float64Array, v35); } catch (e) {}
+const v53 = ("h").split()[0];
+try { v53.strike(); } catch (e) {}
+const o83 = {
+    [null]() {
+        super.b;
+        const v58 = [];
+        try { v58.findLast(0.3083488057663979); } catch (e) {}
+        const v60 = [0.3083488057663979,0.3083488057663979,0.3083488057663979];
+        class C61 {
+            constructor(a63, a64) {
+                try { this.hasOwnProperty(0.3083488057663979); } catch (e) {}
+                try { this.propertyIsEnumerable(v60); } catch (e) {}
+                const v67 = a64[2];
+                v67 >>> v67;
+                v67 - v67;
+                /W(jy2)/udy;
+                const v72 = new Uint8Array();
+                for (let v73 = 0; v73 < 500; v73++) {
+                    v73 % v73;
+                    const o78 = {
+                        ...v72,
+                        n(a76, a77) {
+                        },
+                    };
+                }
+                for (let v79 = 0; v79 < 5; v79++) {
+                }
+            }
+        }
+        const v80 = new C61(v58, v60);
+        const v81 = v80?.constructor;
+        try { new v81(4096, 4096); } catch (e) {}
+    },
+};
+const v84 = o83?.__lookupSetter__;
+try { new v84(o83); } catch (e) {}
+function f86() {
+    return 4096;
+}
+try { f86.toString(); } catch (e) {}
+function f88(a89) {
+    f86();
+    %PrepareFunctionForOptimization(f86);
+    f86();
+    f86();
+    %OptimizeMaglevOnNextCall(f86);
+    f86();
+}
+try { new f88(v40); } catch (e) {}
+Object.defineProperty(o83, "b", { enumerable: true, get: f86, set: f88 });
+o83.null();
+o83.null();

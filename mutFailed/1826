@@ -1,0 +1,64 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        "b": f0,
+        [f0]: f0,
+        valueOf() {
+            try {
+                f1();
+            } catch(e4) {
+            }
+            try {
+                this.valueOf = f0;
+            } catch(e5) {
+            }
+            return f0;
+        },
+    };
+    return o6;
+}
+f1();
+const v8 = f1();
+const v9 = v8?.b;
+let v10;
+try { v10 = new v9(); } catch (e) {}
+const v11 = f1();
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v16 = this?.constructor;
+    try { new v16(a14, a14); } catch (e) {}
+    try {
+        this.b = a15;
+    } catch(e18) {
+    }
+    try {
+        this.c = a14;
+    } catch(e19) {
+    }
+}
+const v20 = new F12(v11, v11);
+new F12(v8, v20);
+new F12(v11, v20);
+-6n * -6n;
+1713234876 === 1713234876;
+function f30(a31, a32) {
+}
+f30();
+f30(-1748, 1713234876);
+function F35(a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v39 = this.constructor;
+    v39.f = v39;
+    const v43 = new v10();
+    v43.lastIndexOf(a38);
+    try { new v39(a38, a37); } catch (e) {}
+    a38++;
+    this.g = a37;
+}
+let v47;
+try { v47 = F35.apply(v20, v20); } catch (e) {}
+new F35(v47);
+v47?.constructor;
+const v50 = new v10(1713234876);
+v50.b = v50;

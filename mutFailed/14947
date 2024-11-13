@@ -1,0 +1,90 @@
+class C3 {
+    set a(a5) {
+        const v6 = [NaN,"growable",this,this,this];
+        const v7 = [-1e-15];
+        [NaN,v7,v7];
+        a5 = -1e-15;
+        try {
+            super.toString(v6, this, "growable");
+        } catch(e10) {
+        }
+    }
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = -1e-15;
+    function f18(a19) {
+        class C20 {
+            constructor(a22) {
+            }
+        }
+    }
+    Object.defineProperty(this, "a", { set: f18 });
+    try {
+        this.a = a16;
+    } catch(e23) {
+    }
+    try {
+        this.d = v11;
+    } catch(e24) {
+    }
+    try {
+        for (const v25 of a17) {
+            try {
+                const t36 = "growable";
+                t36.d = v25;
+            } catch(e26) {
+            }
+        }
+        this.b = v13;
+    } catch(e27) {
+    }
+}
+const v28 = new F14(v12, v12);
+new F14(v13, v28);
+new F14(v28, v28);
+function f33() {
+    return 9;
+}
+class C34 extends f33 {
+    constructor(a36, a37, a38, a39) {
+        super();
+        function f40() {
+            const v41 = [];
+            v41[6] = F14;
+            v41[6] = 4294967295;
+            new Int32Array();
+            const o55 = {
+                get b() {
+                    return Int32Array;
+                },
+                "species": f40,
+                toString(a48, a49, a50) {
+                    return this;
+                },
+                4294967295: Uint8ClampedArray,
+                m(a52) {
+                    return 4294967295;
+                },
+                "h": 9,
+                ...1.0,
+                set b(a54) {
+                },
+            };
+            for (let i57 = 0; i57 < 5; i57++) {
+                v13.a *= 1.0;
+                Object.defineProperty(v41, 5, { writable: true, set: f40 });
+                v13[2147483649] = v41;
+            }
+        }
+        for (let v63 = 0; v63 < 5; v63++) {
+            f40(NaN, v63, a38);
+            %OptimizeFunctionOnNextCall(f40);
+        }
+    }
+}
+new C34(Uint8ClampedArray, Uint8ClampedArray, 9, f33);
+new C34();

@@ -1,0 +1,49 @@
+const v2 = new Uint8Array(3028);
+new Uint8ClampedArray(0);
+const v8 = new RegExp(-10);
+[536870889,256,11,-1073741824];
+const v10 = [6,257,-25037,127,2023552108];
+const v11 = [129327734];
+v10 < v11;
+Object.defineProperty(v2, 2, { configurable: true, enumerable: true, set: RegExp });
+const o13 = {
+    "apply": RegExp,
+    "call": RegExp,
+    "construct": RegExp,
+    "defineProperty": RegExp,
+    "deleteProperty": RegExp,
+    "get": RegExp,
+    "getOwnPropertyDescriptor": RegExp,
+    "has": RegExp,
+    "isExtensible": RegExp,
+    "ownKeys": RegExp,
+    "preventExtensions": RegExp,
+};
+let v15 = new Proxy(v8, o13);
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v17 = this;
+    v15 = a18;
+    let v25 = (v17 = v11).constructor;
+    a19 instanceof RegExp;
+    v25 = RegExp;
+    const o27 = {
+        "apply": RegExp,
+        "call": RegExp,
+        "defineProperty": v25,
+        "deleteProperty": RegExp,
+        "get": v25,
+        "getOwnPropertyDescriptor": v25,
+        "has": v25,
+        "isExtensible": RegExp,
+        "ownKeys": v25,
+        "preventExtensions": v25,
+        "set": v25,
+        "setPrototypeOf": v25,
+    };
+    new Proxy(v8, o27);
+    try { new v25(); } catch (e) {}
+    typeof a18;
+}
+const v33 = new F16(v10);
+new F16(F16, v33, F16, v33);

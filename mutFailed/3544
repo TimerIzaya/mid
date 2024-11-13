@@ -1,0 +1,34 @@
+class C3 {
+    static {
+        super[this];
+    }
+    static {
+        const o7 = {
+        };
+        new Proxy(this, o7);
+    }
+    static #h = "asinh";
+    static #a = 5.0;
+}
+const v10 = new C3();
+const t13 = "asinh";
+const v11 = new t13();
+const t15 = 5.0;
+new t15();
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a21;
+    } catch(e22) {
+    }
+    try {
+        const t24 = "asinh";
+        t24.a = 1000.0;
+    } catch(e23) {
+    }
+}
+const v24 = new F16("valueOf", "valueOf", 5.0, "object");
+new F16(v24, "asinh", v11, v24);
+new F16("e", "object", v10, v11);
+const t32 = 3;
+t32().unshift(3);

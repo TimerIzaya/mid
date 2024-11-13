@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = 268435456;
+        t3.b = 268435456;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f10(a11, a12, a13) {
+    const o20 = {
+        "h": a13,
+        set e(a15) {
+            (F0 < v4 ? F0 : v4).f?.[this];
+        },
+        __proto__: 4096,
+        [9007199254740992]: a11,
+        5: a11,
+    };
+    return o20;
+}
+const v21 = f10(v5, 9007199254740992, v6);
+if (v21 >= v21) {
+    try {
+        v6.h = v5;
+    } catch(e23) {
+    }
+} else {
+    const o26 = {
+        "maxByteLength": 536870887,
+    };
+    const v28 = new ArrayBuffer(13, o26);
+    new Int8Array(v28);
+}
+f10(v6, 9007199254740992, v6);
+let v34 = -4096;
+(1e-15 ^ 10).random();
+v34--;
+f10(v6, 9007199254740992, v5);
+Math.expm1(-Infinity);

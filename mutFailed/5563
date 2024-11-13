@@ -1,0 +1,53 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a10;
+    try {
+        this.g = a9;
+    } catch(e11) {
+    }
+    try {
+        this.f = Infinity;
+    } catch(e12) {
+    }
+}
+new F6("a", Infinity, 0.0);
+new F6("a", "a", 1000.0);
+new F6("a", "bigint", 0.0);
+[-6.651601193092247,-3.0609411353151295,-200578.35067483527,818.2097663122381];
+const v17 = [-2.0,-1e-15,NaN,-3.0,1e-15,5.136494207668553,-62.34221764839185];
+[392255.9832255363,2.220446049250313e-16,-531.4152513864434,1000.0,-1.5714794726915399e+308,-5.462360753317901,6.744781339029153,-283232.68152484787,-217.51448034212467];
+class C19 {
+}
+class C20 {
+    constructor(a22, a23, a24) {
+        for (let v25 = 0; v25 < 25; v25++) {
+            const o30 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            const v31 = gc(o30);
+            function f32() {
+                v17[Symbol.asyncIterator];
+                return "a";
+            }
+            function f36() {
+                return f32;
+            }
+            Object.defineProperty(f32, Symbol.species, { writable: true, get: f36 });
+            v31.constructor = f32;
+            v31.then(new.target);
+        }
+        const o41 = {
+            __proto__: true,
+        };
+        const v43 = new Uint16Array();
+        const v46 = new Int16Array(2058);
+        v46[256] = 2058;
+        v43[9];
+        const o49 = {
+        };
+        o49.execution = o49;
+        gc(o49);
+    }
+}
+new C20(C19, C20, C19);

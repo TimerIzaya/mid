@@ -1,0 +1,19 @@
+function f3() {
+    return 5.440877540660331;
+}
+class C4 extends f3 {
+    #h;
+    constructor(a6, a7) {
+        super();
+        const o11 = {
+            "execution": "sync",
+            "type": this,
+        };
+        gc(o11);
+    }
+}
+new C4(5.440877540660331, -2.0);
+new C4(C4, -1000.0);
+new C4(-2.0, f3);
+new Float32Array(3);
+Reflect.construct(Uint32Array, [-1000.0]);

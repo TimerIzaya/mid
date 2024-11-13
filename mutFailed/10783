@@ -1,0 +1,71 @@
+class C3 {
+    static #valueOf(a5) {
+        for (let i7 = 0; i7 < 6; i7++) {
+            try {
+                arguments.length = i7;
+            } catch(e14) {
+            }
+        }
+        return this;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+let v18 = v16.d;
+try { v18(v18, v15, v18, -36422n); } catch (e) {}
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -536870912n;
+    } catch(e24) {
+    }
+    d = this;
+    const v25 = C3[536870888];
+    v18 -= a23;
+    try { this.p(this, a23, a23); } catch (e) {}
+    C3 = v25;
+    try {
+        this.c = v15;
+    } catch(e27) {
+    }
+}
+new F20(-536870912n, -536870912n);
+new F20(v18, -36422n);
+new F20(v18, v18);
+function f31(a32, a33) {
+    const o40 = {
+        ...C3,
+        ...C3,
+        __proto__: v18,
+        "h": a33,
+        ...v15,
+        "g": 268435456n,
+        "f": a32,
+        "g": a33,
+        toString(a35, a36, a37) {
+            try {
+                super.o(a33, -36422n, a32, v17);
+            } catch(e39) {
+            }
+            v17.b ^= a36;
+            return a33;
+        },
+        [C3]: a33,
+        [a32]: a32,
+    };
+    for (const v42 in "1487412280") {
+    }
+    return o40;
+}
+const v43 = f31(268435456n, v15);
+const v44 = f31(-36422n, v43);
+f31(-36422n, -536870912n);
+let o49 = {
+};
+for (let i53 = 0; i53 < 10; i53++) {
+    Object.defineProperty(Math, "a", { configurable: true, enumerable: true, get: f31, set: f31 });
+    const v60 = [v43,i53];
+    Reflect.apply(v44.toString, v18, v60);
+}
+Math.log1p(3 % o49--);

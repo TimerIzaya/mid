@@ -1,0 +1,38 @@
+class C3 {
+    set e(a5) {
+        let v6;
+        try { v6 = this.call(); } catch (e) {}
+        super[v6] = 2.509821953965909e+307;
+        2.509821953965909e+307 == v6;
+        delete this?.[this];
+    }
+    get d() {
+        new Int32Array(9);
+        const t10 = 2.509821953965909e+307;
+        const v16 = new t10(30);
+        new arguments(127);
+        return v16;
+    }
+}
+const v20 = new C3();
+const v21 = new C3();
+const t18 = 2.509821953965909e+307;
+const v22 = new t18();
+class C23 extends C3 {
+    constructor(a25, a26, a27) {
+        super();
+        this[a25] %= -65536;
+        try {
+            v21.__proto__ = this;
+        } catch(e28) {
+        }
+    }
+    static #d = v20;
+    static [v21] = v22;
+    #e;
+}
+const v29 = new C23(v20, v22, v22);
+new v29(v29, v21, C23);
+new C23(C3, C3, v29);
+new Int16Array(2);
+new Uint16Array(Int16Array);

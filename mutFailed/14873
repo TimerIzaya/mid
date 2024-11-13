@@ -1,0 +1,47 @@
+new Uint8Array(0);
+new Uint8ClampedArray(3);
+new Uint8ClampedArray(3870);
+[0.0030786162193855438,2.4746028859892344e+307,8.184271854311452e+307];
+[-Infinity];
+const v11 = [4.0];
+function f13(a14, a15, a16, a17) {
+    const v20 = new BigInt64Array(4046);
+    let v21 = undefined;
+    const v22 = v21++;
+    const v23 = v22 + v22;
+    const v24 = v22 >> v22;
+    const v25 = v24 >>> v24;
+    function F26(a28, a29, a30) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    new F26(4096, 4096, a16);
+    for (const v32 of a16) {
+        try { v32["toString"]("toString", "toString", v23, "toString", v32); } catch (e) {}
+    }
+    function F35(a37, a38) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.g = Uint8ClampedArray;
+        } catch(e39) {
+        }
+        try {
+            this.e = a38;
+        } catch(e40) {
+        }
+        try {
+            this.a = a15;
+        } catch(e41) {
+        }
+    }
+    const v42 = new F35(v11, v23);
+    new F35(0, v42);
+    new F35(v11, 4046);
+    const v45 = new F26(v23, 4096, v25);
+    let o46 = {
+    };
+    [,...o46] = v20;
+    return v45;
+}
+for (let v47 = 0; v47 < 5; v47++) {
+    f13(v47, v47, v47, f13);
+}

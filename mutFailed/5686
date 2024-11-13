@@ -1,0 +1,69 @@
+class C3 {
+    constructor(a5) {
+        try {
+            this.f = a5;
+        } catch(e6) {
+        }
+        Reflect.construct(a5, [a5,Reflect,Reflect], a5);
+    }
+    valueOf(a11) {
+        const o12 = {
+        };
+        try {
+            o12.f = this;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.f = this;
+            o14.g = a11;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.f = this;
+            o16.g = a11;
+            o16.d = a11;
+        } catch(e17) {
+        }
+        try {
+            const o18 = {
+            };
+            o18.f = this;
+            o18.g = a11;
+            o18.e = 0.6297051633365477;
+        } catch(e19) {
+        }
+        return 0.6297051633365477;
+    }
+}
+new C3(536870889);
+const v21 = new C3(C3);
+const t43 = 0.07974897152253235;
+const v22 = new t43(v21);
+function f26(a27, a28) {
+    const o47 = {
+        81: 536870889,
+        "a": 536870889,
+        "c": 256,
+        "h": v22,
+        1: a27,
+        __proto__: C3,
+        set d(a30) {
+            for (let i33 = 0, i34 = 10; i33 < i34; i33++, i34--) {
+                const o45 = {
+                    "execution": "async",
+                    "type": "major",
+                };
+                gc(v22);
+            }
+        },
+    };
+    return o47;
+}
+f26(256, 256);
+f26(536870889, 256);
+f26(536870889, 256);
+([Float32Array])["concat"]().pop();

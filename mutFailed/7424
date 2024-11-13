@@ -1,0 +1,26 @@
+function f0() {
+    const o12 = {
+        __proto__: "51288",
+        16: -9,
+        "b": -9,
+        "d": f0,
+        ...f0,
+        "e": -9,
+        [7](a5, a6) {
+            try { a6["getInt32"]("getInt32", "51288"); } catch (e) {}
+            return -9;
+        },
+    };
+    o12[7];
+    return o12;
+}
+const t16 = f0();
+const v15 = t16();
+f0();
+"512" == "512";
+10 >> 10;
+new Uint16Array(10);
+new Uint8Array(733);
+-220;
+new Uint8Array(220);
+Math.atan(+v15);

@@ -1,0 +1,22 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        F0.f = -15;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new v4();
+new F0();
+new v4(144);
+const t11 = "a";
+new t11(7);
+new Uint16Array(879);
+function f21(a22, a23) {
+    ("DaoN3").startsWith(0);
+    return "DaoN3";
+}
+%PrepareFunctionForOptimization(0);
+Float64Array();
+%OptimizeFunctionOnNextCall(f21);
+f21();

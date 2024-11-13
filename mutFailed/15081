@@ -1,0 +1,73 @@
+const v4 = new WeakMap();
+function f5() {
+    return WeakMap;
+}
+Object.defineProperty(v4, Symbol.asyncIterator, { writable: true, enumerable: true, value: f5 });
+let v15 = 0;
+while (v15 < 4) {
+    const v18 = v4 || "function";
+    v18[1073741823] = v18;
+    v4[1073741823];
+    v18[Symbol.asyncIterator];
+    v15++;
+}
+const v24 = new Int8Array(1785);
+const v26 = new Int16Array(v24);
+const v27 = new Uint16Array(129);
+v27[Symbol.toPrimitive] = Symbol;
+new Uint32Array(1);
+Uint32Array.valueOf = Symbol;
+const v35 = new Uint32Array(16);
+for (const v36 in "number") {
+    v36 >> v26;
+    const v39 = [v36];
+    Reflect.apply(("number").startsWith, v27, v39);
+}
+class C42 extends Uint32Array {
+    o(a44, a45, a46, a47) {
+        for (const v48 of a46) {
+            [-2.220446049250313e-16,-9.673671853344864,3.0,-9.990267007150896e+307,-1000.0,-1000.0,1000000.0];
+            [-9.887710768838645,1000000000.0,-5.526188677953818e+307,-1000000000000.0,1e-15,319.2574725781774,-2.2250738585072014e-308,0.27730824853383185,0.738957647358128];
+            let v51 = 8;
+            v51++;
+            const v54 = /[-123]N/gdis;
+            const v56 = ["function",v54,null];
+            const o57 = {
+                [Uint32Array]: v54,
+                "f": 16,
+                [this]: this,
+                ...v35,
+                "c": 1,
+                "arguments": v56,
+                "type": "function",
+            };
+            [7.966608544800902,-252.44667115248706];
+        }
+        return 16;
+    }
+    static {
+        this >> this;
+        Uint32Array[2] = WeakMap;
+        for (const v61 of v35) {
+            break;
+        }
+        this ^ 129;
+        1 - this;
+    }
+}
+new C42();
+new C42();
+new C42();
+const v67 = [1354185297,-1187772013,1073741823,7,-13,8,-473031863,-1332151602];
+const o76 = {
+    [null]() {
+        for (let v70 = 0; v70 < 500; v70++) {
+            const o75 = {
+                [v67](a72, a73, a74) {
+                },
+                ...v70,
+            };
+        }
+    },
+};
+o76.null(o76.null(null), "function", v67, o76, o76);

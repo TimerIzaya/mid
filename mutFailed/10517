@@ -1,0 +1,29 @@
+const v0 = [];
+new WeakSet();
+function f6(a7, a8, a9, a10) {
+    const o16 = {
+        set h(a12) {
+            new Set();
+            super.b |= a12;
+            v0.length;
+        },
+        __proto__: v0,
+        [36715n]: 9007199254740991n,
+        "f": a7,
+        "c": a10,
+    };
+    return o16;
+}
+f6(f6, -35496122n, -35496122n, 36715n);
+f6(9007199254740991n, -35496122n, 36715n, -35496122n);
+f6(v0, 9007199254740991n, 9007199254740991n, 36715n);
+class C20 {
+}
+const v21 = new C20();
+v21[Symbol.toPrimitive] = f6;
+class C24 extends C20 {
+    [v21];
+}
+const v25 = new C24();
+v25[Symbol.toPrimitive] = f6;
+v25.propertyIsEnumerable(v25);

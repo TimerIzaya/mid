@@ -1,0 +1,40 @@
+("getUTCFullYear")[12];
+new BigInt64Array(8);
+4 | 4;
+try { new Uint32Array(1282868944, -15827, 1282868944); } catch (e) {}
+new Uint32Array(4);
+-6;
+new Float32Array(6);
+function f19() {
+    class C20 {
+        constructor(a22) {
+            try { this.__lookupSetter__("getUTCFullYear"); } catch (e) {}
+            const v24 = /[^7Y[a-zA-Z0-9]?]/vdmy;
+            for (let v25 = 0; v25 < 5; v25++) {
+                function f26() {
+                    Array.length = Array;
+                    const v28 = Array();
+                    let v29;
+                    try { v29 = v28.reduceRight(v24); } catch (e) {}
+                    return v29;
+                }
+                f26();
+            }
+        }
+    }
+    try { C20.toString(); } catch (e) {}
+    new C20();
+    const v33 = new C20();
+    const v34 = v33?.constructor;
+    try { new v34(-15827); } catch (e) {}
+    class C36 extends C20 {
+    }
+    const v37 = new C36();
+    const v38 = v37?.constructor;
+    try { new v38(); } catch (e) {}
+    return v37;
+}
+%PrepareFunctionForOptimization(f19);
+f19();
+%OptimizeFunctionOnNextCall(f19);
+f19();

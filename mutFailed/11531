@@ -1,0 +1,56 @@
+const v2 = new BigInt64Array(7);
+const v5 = new BigInt64Array(3);
+const v8 = new BigUint64Array(128);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f15() {
+        return a14;
+    }
+    function f16(a17) {
+        a17 = 7;
+    }
+    Object.defineProperty(this, "a", { configurable: true, enumerable: true, get: f15, set: f16 });
+    try {
+        this.a = v8;
+    } catch(e18) {
+        const v20 = new String(String);
+        class C21 {
+            toString(a23, a24, a25) {
+                delete a12?.[15];
+                delete v5[e18];
+                return v2;
+            }
+            #p(a29, a30, a31, a32) {
+            }
+            constructor(a34, a35) {
+                try {
+                    v20.#p();
+                } catch(e37) {
+                }
+            }
+        }
+        new C21();
+    }
+    try {
+        this.b = a14;
+    } catch(e39) {
+    }
+    try {
+        this.c = a11;
+    } catch(e40) {
+    }
+}
+const v41 = new F9(v8, BigInt64Array, v2, 128);
+new F9(BigUint64Array, 128, v41, 128);
+new F9(BigUint64Array, F9, 128, 7);
+const v46 = Array(4);
+v46[2] = v8;
+function f47(a48, a49) {
+    return f47;
+}
+const v52 = [v46];
+const o53 = {
+    "arguments": v52,
+    "type": "function",
+};
+new Worker(f47, o53);

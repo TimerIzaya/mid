@@ -1,0 +1,18 @@
+new Uint32Array(4);
+new Uint16Array(1000);
+new Int16Array(169);
+new Int16Array(620);
+new Int16Array(127);
+new BigInt64Array(109);
+function F21() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f24() {
+    return Int16Array;
+}
+function f25(a26) {
+    f24 == a26;
+}
+Object.defineProperty(Int32Array, 2, { writable: true, configurable: true, get: f24, set: f25 });
+const v28 = new Int32Array(Int32Array);
+Reflect.setPrototypeOf(v28, F21);

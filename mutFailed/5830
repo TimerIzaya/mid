@@ -1,0 +1,74 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 1073741824;
+    } catch(e3) {
+    }
+    try {
+        this.a = 1073741824;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+const v7 = new F0();
+const v8 = [2.3015896858188967,1000000000.0,-4.0,-0.0,-5.0,-628.4493163979861,0.7530124965463686];
+const v9 = [1.0,0.9341699137680136,1.84013086413751e+307,1000000000.0,-1000000000.0];
+const v10 = [7.48644009650058,0.6054442272042835,-1.5600678590602358e+308,45241.89983490622,4.408173750354168,43544.141517874086,2.2250738585072014e-308,3.0,-23.944003350040248,811.5407381193656];
+v10[8] = v10;
+28 + 28;
+const v14 = new Uint16Array(28);
+try { v14.entries(); } catch (e) {}
+Uint8ClampedArray.prototype = Uint8ClampedArray;
+new Uint8ClampedArray(16);
+let v21;
+try { v21 = new BigInt64Array(v9, v10, v8); } catch (e) {}
+new BigInt64Array(2023);
+let v24 = 0.3083488057663979;
+v24--;
+const v27 = [v24,v24,v24];
+const v28 = [604.4479109019192,-2.220446049250313e-16,v24,v8];
+const v29 = [v24,v24,v24,v24];
+try { v29.push(v24); } catch (e) {}
+class C31 {
+    constructor(a33, a34) {
+        const v35 = this?.__lookupGetter__;
+        let v36;
+        try { v36 = new v35(a33); } catch (e) {}
+        ~v36[2];
+        /Ia[a]/uims;
+        let v40 = /W(jy2)/udy;
+        v40.flags;
+        const v42 = /(u4(?:a?)*)/gudimsy;
+        const v45 = new Uint8Array(v42, Uint8ClampedArray);
+        const v47 = new this();
+        function f48(a49, a50, a51, a52) {
+            Uint32Array.length;
+            a51++;
+            const o58 = {
+                ...v45,
+                n(a56, a57) {
+                    v47[a49] = v47;
+                },
+            };
+            return o58;
+        }
+        try { f48(v7, Uint8Array, f48, v45); } catch (e) {}
+        for (let v60 = 0; v60 < 625; v60++) {
+            v60 >>> v60;
+            f48(Uint8Array, 2, v60);
+        }
+        v40 = v42;
+        for (let v63 = 0; v63 < 25; v63++) {
+            v27["p" + v63] = v63;
+        }
+    }
+}
+const v66 = new C31(v27, v27);
+v66.length;
+const v68 = new C31(v28, v29);
+v68.length;
+const t69 = v68.constructor;
+const v71 = new t69(604.4479109019192, v24);
+v71?.constructor;
+try { new v21(v71, v66); } catch (e) {}

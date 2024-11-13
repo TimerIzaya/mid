@@ -1,0 +1,22 @@
+new parseFloat(1000);
+new WeakMap(15);
+new Uint32Array(2441);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.dotAll = WeakMap;
+    } catch(e13) {
+    }
+    try {
+        this.e = parseFloat;
+    } catch(e14) {
+    }
+    try {
+        this.g = a11;
+    } catch(e15) {
+    }
+}
+new F9(2441, 2441);
+new F9(2441, 1000);
+new F9(2441, 2441);
+("-4294967295").match();

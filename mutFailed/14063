@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 1024;
+    } catch(e3) {
+    }
+    let v4 = 1024 * F0;
+    v4 = 1024;
+    this + 1024;
+    this[F0] = 1024;
+    try {
+        this.e = 1024;
+    } catch(e9) {
+    }
+}
+const v10 = new F0();
+const v11 = new F0();
+const v12 = new F0();
+function f16() {
+    return v12;
+}
+class C17 extends f16 {
+    constructor(a19, a20, a21) {
+        super();
+        function F22(a24, a25, a26) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a24;
+            } catch(e27) {
+            }
+            try {
+                this.h = a25;
+            } catch(e28) {
+                let v30 = 0;
+                Math.sign(e28);
+                ~v30;
+                1000000000.0 << e28;
+                Math.cbrt(e28);
+                --v30;
+            }
+            try {
+                this.f = a26;
+            } catch(e37) {
+            }
+        }
+        new F22(a20, a20, this);
+        const v39 = new F22(v11, v12, v12);
+        new F22(v10, v10, v39);
+    }
+}
+new C17(536870889, v12, 536870889);
+const v42 = new C17(10, v11, 6);
+const v43 = new C17(536870889, v11, 536870889);
+new Set();
+%VerifyType(v42);
+new Set(v12, 64173);
+const v53 = new Float64Array(v43, Float64Array, 10, Int16Array);
+class C54 extends Int16Array {
+}
+new C54();
+const o56 = {
+    __proto__: F0,
+};
+try { v53.every(o56); } catch (e) {}

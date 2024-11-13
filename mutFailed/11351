@@ -1,0 +1,24 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(9007199254740990, 9007199254740990);
+const v9 = new F3(2, 2);
+const v10 = new F3(-9, v8);
+function f14() {
+    return 32028n;
+}
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v10;
+    } catch(e21) {
+    }
+}
+new F15(32028n, v10, -9, -20026n);
+new F15(v8, v9, 2, -20026n);
+new F15(f14, v10, 2, 32028n);
+new v8([-9223372036854775808,-12]);

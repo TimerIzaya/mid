@@ -1,0 +1,29 @@
+function f0() {
+}
+class C1 extends f0 {
+    c = f0;
+    static 4;
+    #b;
+    static #toString() {
+        new f0();
+        const v4 = super[this];
+        const v5 = super[this];
+        try {
+            v4.#toString(this, v5);
+        } catch(e10) {
+        }
+        return v5;
+    }
+}
+const v11 = new f0();
+const v12 = new v11();
+new v12();
+new Uint8Array(4001);
+new Uint32Array(3136);
+new Uint8ClampedArray(596);
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = ("async").constructor;
+    v29.raw(v29);
+}
+new F25();

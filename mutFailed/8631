@@ -1,0 +1,68 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        n() {
+            delete this?.a;
+            return 8;
+        },
+        "a": f0,
+        get d() {
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            const v9 = f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            f0();
+            return v9;
+        },
+    };
+    return o12;
+}
+f1[Symbol.toPrimitive] = f1;
+const v15 = f1();
+v15[f1] = f1;
+const v16 = new f1();
+new Uint8Array(9);
+new Int32Array(1850);
+new Uint32Array(1000);
+f1();
+f1();
+new Map();
+let v30 = 129;
+new Float32Array(v30);
+Float64Array[Symbol.toPrimitive] = Symbol;
+new Float64Array(3373);
+let v39 = 65537;
+let v40 = 72227221;
+const v41 = ++v30;
+--v40;
+v39++;
+const v44 = v40 - v39;
+Math.abs(v41);
+let v46 = f0 & v44;
+new Int8Array(193);
+const v52 = new Int16Array(1000);
+function f55() {
+    function f56(a57, a58) {
+        v46 = v30;
+        v16.__proto__;
+        return v15;
+    }
+    return f56;
+}
+function f60(a61) {
+    const o62 = {
+    };
+}
+Object.defineProperty(Float64Array, "valueOf", { writable: true, configurable: true, get: f55, set: f60 });
+BigInt64Array[0] = v52;
+const v65 = new BigInt64Array(1000);
+class C66 extends Float64Array {
+    constructor(a68, a69, a70, a71) {
+        super(v52);
+    }
+    [65] = Float64Array;
+}
+new C66();
+v52.toLocaleString(BigInt64Array, v65);

@@ -1,0 +1,38 @@
+1073741824n / 1073741824n;
+65537n | 65537n;
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v15 = this?.__defineGetter__;
+    try { new v15(65537n, a14); } catch (e) {}
+    try {
+        this.g = a13;
+    } catch(e17) {
+    }
+}
+new F11(1073741824n, -14n);
+const v19 = new F11(-14n, -14n);
+v19.c = 1073741824;
+v19.c = v19;
+new F11(65537n, 65537n);
+for (let v21 = 0; v21 < 5; v21++) {
+    function f22() {
+        const v24 = f22();
+        function f25() {
+            return f25;
+        }
+        function f26(a27) {
+            return a27;
+        }
+        Object.defineProperty(v24, 0, { configurable: true, enumerable: true, get: f25, set: f26 });
+        try {
+            v24.forEach();
+        } catch(e29) {
+            e29.c = e29;
+        }
+        return v21;
+    }
+    try { f22(); } catch (e) {}
+    const v31 = f22();
+    v31 != v31;
+    %OptimizeFunctionOnNextCall(f22);
+}

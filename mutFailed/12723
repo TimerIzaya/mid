@@ -1,0 +1,25 @@
+const v2 = new Uint8Array(548);
+try {
+    v2.byteLength = 548;
+} catch(e5) {
+}
+const o8 = {
+    "maxByteLength": 65535,
+};
+const v10 = new SharedArrayBuffer(1, o8);
+new BigUint64Array(v10);
+new Uint8ClampedArray(2);
+o8[548] = BigUint64Array;
+const v16 = [v10,0];
+Reflect.apply(v2.includes, v2, v16);
+new Float64Array(0);
+[64,2147483649];
+[5,8,-9007199254740991,-15,9,7];
+[-9223372036854775807,8,2147483647,34342,0,-256,60615,-5561];
+const o33 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o33);
+const v35 = /(ab|cde)\118\P{sc=Greek}+/gdims;
+v35.exec(v35);

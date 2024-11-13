@@ -1,0 +1,61 @@
+function f0() {
+}
+class C4 {
+    b;
+    toString(a6, a7) {
+        a6[2] = f0();
+        return -1073741824;
+    }
+    static d = f0;
+    ["NaN"];
+    [-2] = "setUTCDate";
+    static #a = "setUTCDate";
+}
+const v12 = new C4();
+new C4();
+const v14 = new C4();
+function f15(a16, a17, a18) {
+    const o29 = {
+        set g(a20) {
+            v12[6];
+            try {
+                f0();
+            } catch(e23) {
+            }
+        },
+        ...C4,
+        set e(a25) {
+            class C27 extends this.constructor {
+                #a;
+                static 7 = "setUTCDate";
+            }
+            new C27();
+        },
+    };
+    return o29;
+}
+const t36 = "setUTCDate";
+t36(v14, "setUTCDate", "setUTCDate");
+f15(v12, "NaN", "1233589562");
+f15(v12, "1233589562", "NaN");
+function f33() {
+    return f15;
+}
+function f34() {
+    let v35 = 852.2904873570058;
+    const o42 = {
+        3: v35,
+        "f": 1836424012,
+        m(a39, a40) {
+            v35++;
+            return v35;
+        },
+        "d": 1836424012,
+    };
+    return o42;
+}
+%PrepareFunctionForOptimization(f34);
+f34();
+f34();
+%OptimizeFunctionOnNextCall(f34);
+f34();

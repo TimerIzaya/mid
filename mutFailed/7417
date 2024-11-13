@@ -1,0 +1,88 @@
+const v0 = [1123807287,-1,-1073741824,4];
+const v1 = [9007199254740992,9007199254740992,27022,129,-725989962,13,-65537];
+const v2 = [-1073741824,-525143262];
+function f3(a4, a5) {
+    const o15 = {
+        n(a7) {
+            this - a7;
+            return a7;
+        },
+        p(a10, a11) {
+            for (let v12 = 0; v12 < 32; v12++) {
+                v0["p" + v12] = v12;
+            }
+            return a5;
+        },
+        "d": v1,
+        "b": v1,
+        "f": v1,
+    };
+    return o15;
+}
+f3(v1, v0);
+const v17 = f3(v1, v2);
+const v18 = f3(v1, v1);
+class C22 extends f3 {
+    constructor(a24, a25) {
+        super(v1, v2);
+        super[this] = a25;
+        const v26 = v2 >= f3;
+        let v27;
+        try { v27 = new a24(this, this, v26, v26, v2); } catch (e) {}
+        function F28(a30, a31, a32) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.d = this;
+            try {
+                this.d = a31;
+            } catch(e33) {
+            }
+            try {
+                this.e = v27;
+            } catch(e34) {
+            }
+            try {
+                this.a = 12;
+            } catch(e35) {
+            }
+        }
+        const v36 = new F28(268435439, v1, v2);
+        new F28(v27, a24, v36);
+        new F28(a24, v0, v18);
+    }
+}
+new C22(v17, 268435439);
+const v40 = new C22(C22, 12);
+const v41 = new C22(268435439, 12);
+function f42(a43, a44, a45) {
+    function f46() {
+        return f42;
+    }
+    Object.defineProperty(a45, Symbol.toPrimitive, { writable: true, get: f46 });
+    const o59 = {
+        "f": a44,
+        "a": 12,
+        ...a44,
+        set c(a50) {
+            const v51 = this[5];
+            const v53 = [v41,v40,[v1,v51]];
+            super[[v53,v53,v51]];
+            super.e = v18;
+            /xyz{1,32}ya(?!bbb|bb)cjabc|def|ghi/vdi;
+            /((((.).).).)+/gumsy;
+            /8/gv;
+        },
+        [a45]: a43,
+    };
+    return o59;
+}
+f42(12, -50787, v2);
+f42(268435439, f42(268435439, v0, v0), v2);
+function f65(a66, a67) {
+    const o68 = {
+        [a66]: a67,
+        65536: a67,
+    };
+    return f65;
+}
+f65("-354330605");
+f65("-354330605", 2);

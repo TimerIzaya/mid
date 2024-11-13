@@ -1,0 +1,22 @@
+new WeakMap();
+new Array(3441);
+let v14 = 1073741824;
+class C16 {
+    constructor(a18) {
+        [a18,v14] = "boolean";
+    }
+}
+const v19 = new C16();
+const v20 = new C16(v19);
+function f22(a23, a24, a25) {
+    a23[22] = a23;
+    const o26 = {
+        ...a25,
+        2: v19,
+        268435439: 4.0,
+    };
+    return o26;
+}
+const t19 = 4;
+const v27 = t19(v20, "-65537", v14);
+f22(v27, "boolean", v27);

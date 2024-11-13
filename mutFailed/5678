@@ -1,0 +1,56 @@
+function f0() {
+}
+class C2 extends f0 {
+    c = true;
+    1 = true;
+    static [f0];
+    toString(a4) {
+        function f5() {
+            return a4;
+        }
+        ({"a":a4,"h":f5,...f5} = a4);
+        return true;
+    }
+    e = f0;
+    536870888 = f0;
+}
+const v6 = new C2();
+const v7 = new C2();
+const v8 = new C2();
+function f9(a10, a11) {
+    const o12 = {
+        "g": v6,
+        "b": a10,
+        [a11]: v8,
+        10: a11,
+        "h": f0,
+        "a": v8,
+        "c": a11,
+        [f0]: f9,
+        "f": f0,
+        "d": a10,
+        "e": a10,
+        "f": a10,
+        283307165: a10,
+        [C2]: a10,
+        __proto__: a10,
+        [a10]: v7,
+        "c": v6,
+    };
+    return o12;
+}
+const v13 = f9(v8, v6);
+f9(v6, v13);
+const v15 = f9(v6, v13);
+const v17 = new Map();
+const v19 = [0.8307152163010869,1.0,0.0];
+v17["clear"]();
+v15[f0] &&= -24894;
+const o22 = {
+    "deleteProperty": f9,
+    "get": f0,
+    "set": f0,
+};
+new Proxy(v15, o22);
+v19.length = 1494907924;
+%VerifyType(v19 instanceof -24894);

@@ -1,0 +1,60 @@
+const v0 = [];
+function f1() {
+    ([-11,65536,65537])[1428717040];
+    return v0;
+}
+v0.toString = f1;
+function f4() {
+    return v0;
+}
+const v5 = [v0,v0,v0,f4,f4];
+const v6 = [v5,f4,f4];
+try { v6.toString(); } catch (e) {}
+const v8 = [f4,f4,v5,v5];
+v8[2];
+class C10 {
+    [v5] = v0;
+    m(a12) {
+        function f13(a14, a15) {
+            let v16;
+            try { v16 = new a14(...f4, f4, a15, ...a15, ...a14, a14); } catch (e) {}
+            const o17 = {
+                "apply": f1,
+                "defineProperty": f4,
+                "deleteProperty": f1,
+                "get": f1,
+                "getPrototypeOf": f1,
+                "has": f4,
+                "isExtensible": f4,
+                "ownKeys": f4,
+                "preventExtensions": f4,
+                "setPrototypeOf": f1,
+            };
+            new Proxy(v8, o17);
+            return v16;
+        }
+        this[Symbol.toPrimitive] = f13;
+        v0[this];
+        class C24 extends v5.constructor {
+            #g = v6;
+            [v5];
+            #d = this;
+        }
+        const v25 = new C24();
+        return v25;
+    }
+    2147483649 = C10;
+    d;
+    [f4];
+}
+const v26 = new C10();
+const v27 = new C10();
+v27[Symbol.toPrimitive] = f4;
+try { v27.m(v26); } catch (e) {}
+const v31 = new C10();
+v31[2147483649] = v31;
+new Int32Array(175);
+const o42 = {
+};
+o42.e = o42;
+gc(o42);

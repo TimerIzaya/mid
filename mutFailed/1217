@@ -1,0 +1,77 @@
+class C3 {
+    static {
+        const v5 = this?.toString;
+        try { new v5(); } catch (e) {}
+        try { this.constructor(this); } catch (e) {}
+        +"string";
+        const v11 = Symbol.iterator;
+        const o20 = {
+            "h": v11,
+            ..."N1Vx",
+            __proto__: this,
+            ..."string",
+            "g": v11,
+            [v11]() {
+                let v13 = 10;
+                const o19 = {
+                    next() {
+                        v13--;
+                        const v17 = v13 == 0;
+                        const o18 = {
+                            "done": v17,
+                            "value": v13,
+                        };
+                        return o18;
+                    },
+                };
+                return o19;
+            },
+        };
+        v5[3];
+    }
+}
+C3.e = C3;
+try { new C3(); } catch (e) {}
+const v23 = new C3();
+const v24 = v23?.__lookupGetter__;
+try { new v24("string"); } catch (e) {}
+const v26 = new C3();
+const v27 = v26?.constructor;
+let v28;
+try { v28 = new v27(); } catch (e) {}
+new C3();
+class C30 extends C3 {
+    static o(a32, a33, a34, a35) {
+        const o36 = {
+        };
+        new Proxy(a34, o36);
+        return a35;
+    }
+    [-1];
+    static h;
+    static #d = "string";
+    2074525612;
+    #e = "string";
+}
+C30.name = C30;
+C30.h;
+const v40 = new C30();
+v40[2074525612] = v40;
+const v41 = new v28();
+v41[2074525612] = v41;
+new C30();
+const v45 = new BigUint64Array(2445);
+try { v45.find(Infinity); } catch (e) {}
+let v47 = 10;
+v47++;
+try { new Float32Array(v45, v41, v45); } catch (e) {}
+new Float32Array(v47);
+1890 >>> 1890;
+new Int8Array(1890);
+const v57 = [Float64Array];
+const v58 = v57[0];
+v58.prototype = v58;
+for (let v59 = 0; v59 < 5; v59++) {
+    2 >= 2;
+    v57.length = 2;
+}

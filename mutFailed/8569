@@ -1,0 +1,79 @@
+const v0 = /foo(?<!bar)baz/gvd;
+function f1(a2, a3) {
+    const v5 = new a3(Date, a3);
+    return v5;
+}
+v0.toString = f1;
+const v6 = /[\0]/gvimy;
+const v7 = /bq\P{scx=Greek}?/gviy;
+v7[Symbol.toPrimitive] = f1;
+function f10(a11, a12) {
+    const o19 = {
+        valueOf(a14, a15) {
+            this instanceof a15;
+            const t12 = delete this?.b;
+            super[v0] = delete t12?.g;
+            a12 >>= a12;
+            return this;
+        },
+        ...a11,
+        __proto__: v6,
+        "b": v7,
+        "c": a11,
+        [a12]: a12,
+        "f": a11,
+    };
+    return v7;
+}
+f10(v7, v0);
+const v21 = f10(v0, v7);
+function f22(a23, a24) {
+    /uZa\D(?:a+)?/gvms;
+    const v26 = /N\x01/gdsy;
+    /(?:a?)+^xxx$/gvd;
+    return v26;
+}
+v21.toString = f22;
+f10(v0, v7);
+const v29 = [f10,v7,v21];
+const v30 = [v6,v21,v29,v29];
+[v6,v30,f10];
+class C35 extends f10 {
+    valueOf(a37, a38) {
+        super.f >>>= 9007199254740990;
+        const v39 = v30 - 9007199254740990;
+        for (let i42 = 0, i43 = 10; i42 < i43; i42++, i43--) {
+            i42[3] = i42;
+            const v53 = v21["valueOf"](...v29, i43, ...v30, a38, v39 in this);
+            function F54(a56, a57) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = v6;
+                } catch(e58) {
+                }
+                try {
+                    this.a = a38;
+                } catch(e59) {
+                }
+                try {
+                    this.b = this;
+                } catch(e60) {
+                }
+            }
+            new F54(v7, v53);
+            new F54(v6, a38);
+            new F54(v6, a38);
+        }
+        return this;
+    }
+}
+new C35();
+new C35();
+new C35();
+const v70 = [12,[12,12]];
+class C71 {
+    constructor(a73, a74) {
+        new Uint16Array(a73);
+    }
+}
+new C71(v70);

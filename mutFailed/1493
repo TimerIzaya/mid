@@ -1,0 +1,87 @@
+let v0 = /(a)\1(?:a+)?(a)*/ums;
+function f1() {
+    v0 *= v0;
+    const v2 = [-2.220446049250313e-16,-1000000000.0,-1e-15,1000000000.0,-1.0,1000000000.0,-1000.0];
+    const v3 = [1000000000000.0,1e-15];
+    v2.fill(v3, v2);
+    delete v3[2];
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+const v8 = /((?:a+){0,0}(?<!a))/vsy;
+Object.defineProperty(v8, "toString", { configurable: true, enumerable: true, value: Symbol });
+const v9 = /((?:ab))/dimsy;
+class C10 {
+    [v0];
+    p(a12) {
+        try {
+            v8.length = 0;
+        } catch(e14) {
+        }
+        return v0;
+    }
+    constructor(a16, a17) {
+        a17[Symbol.toPrimitive] = f1;
+        class C20 {
+            #c = this;
+            static [v8] = a17;
+        }
+        new C20();
+        new C20();
+        new C20();
+    }
+}
+let v24 = new C10(v8, v8);
+const v25 = new C10(v0, v8);
+new C10(v8, v8);
+class C27 {
+    static get a() {
+        return v24;
+    }
+    static get d() {
+        v8 && v25;
+        let v34;
+        try { v34 = C10(v0, v9); } catch (e) {}
+        v24 &&= v34;
+        return C10;
+    }
+    [v9];
+    3 = v8;
+}
+const v35 = new C27();
+const v36 = new C27();
+const v37 = new C27();
+Math.tan(-1);
+function f41(a42, a43) {
+    const o55 = {
+        ...a42,
+        "e": v25,
+        "c": v0,
+        "f": a43,
+        "a": a43,
+        valueOf(a45, a46, a47) {
+            a43 != v24;
+            return a43;
+        },
+    };
+    return o55;
+}
+f41(v35, f41(C27, v36));
+f41(v37, v24);
+function f60() {
+    return Symbol;
+}
+function f61(a62) {
+    const v63 = [142026.36415256164,-1000000000000.0,160593.91457975493,-1.9364523595671663,0.10652337324779793,0.4591098029687508,0.2689630899972745];
+    const v65 = new WeakMap();
+    function f66(a67, a68, a69) {
+        return a68;
+    }
+    const v71 = [f66,v65,v63];
+    const o72 = {
+        "arguments": v71,
+        "type": "function",
+    };
+}
+Object.defineProperty(parseFloat, "toString", { writable: true, get: f60, set: f61 });
+parseFloat(parseFloat);

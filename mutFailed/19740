@@ -1,0 +1,88 @@
+const v0 = [-1428949767,1000,0,2147483648];
+function f1(a2, a3) {
+    function F4() {
+        if (!new.target) { throw 'must be called with new'; }
+        const v6 = [-5.0,-4.0,-1.7976931348623157e+308,-897.6003446951657,-1000000.0,1.8928166106024224e+306,-2.0,-1000000000000.0];
+        function F7(a9, a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v13 = new F7(v6, F4, v6, F7);
+        const v15 = [F4,F4,F4,F4];
+        Reflect.apply(v6.indexOf, v13, v15);
+    }
+    return F4;
+}
+v0.toString = f1;
+const v18 = [-2147483648,-128,63910,4294967296];
+const v19 = [-256,15,1073741825,1073741823,256,536870912,-65536,559,9007199254740992];
+function F20(a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f23(a24) {
+        return v19;
+    }
+    Object.defineProperty(this, "f", { configurable: true, set: f23 });
+    try {
+        this.f = a22;
+    } catch(e25) {
+    }
+    try {
+        this.g = v18;
+    } catch(e26) {
+    }
+    try {
+        this.a = v0;
+    } catch(e27) {
+    }
+}
+new F20(v0);
+const v29 = new F20(v0);
+new F20(v18);
+function f34(a35, a36, a37) {
+    const o46 = {
+        "h": a36,
+        "g": "symbol",
+        [a36](a39, a40) {
+            v0["slice"](a40);
+            return a37;
+        },
+        8: F20,
+        __proto__: a35,
+        "b": v0,
+        ..."4Rmq4",
+        [a35]: v18,
+    };
+    o46[Symbol.toPrimitive] = f34;
+    return o46;
+}
+f34("symbol", f34("4Rmq4", f34, v29), v29);
+f34("4Rmq4", v0, v29);
+function F55() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v57 = new F55();
+const v58 = v57.constructor;
+let v59;
+try { v59 = v58(); } catch (e) {}
+("cbrt").toLocaleUpperCase(v59);
+function f62(a63, a64) {
+    class C65 {
+    }
+    const v66 = C65?.call;
+    try { v66(v66, v59, a64); } catch (e) {}
+    return a63;
+}
+%PrepareFunctionForOptimization(f62);
+f62();
+%OptimizeFunctionOnNextCall(f62);
+function f69() {
+    return f69;
+}
+f69();
+for (const v74 of Array(4087)) {
+    const v75 = `
+    `;
+    eval();
+    function f78() {
+    }
+}
+f62(v59, f62);

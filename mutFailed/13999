@@ -1,0 +1,38 @@
+new Int32Array(6);
+new Uint8Array(43);
+const t2 = 6;
+new t2(1839);
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 43;
+    } catch(e18) {
+    }
+    try {
+        this.e = 9007199254740990;
+    } catch(e19) {
+    }
+    try {
+        this.g = 43;
+    } catch(e20) {
+    }
+}
+new F13(2147483648, 6, 6);
+new F13(6, 9007199254740990, 9007199254740990);
+new F13(43, 2147483648, 6);
+class C30 {
+    constructor(a32, a33, a34, a35) {
+        this[this] = a35;
+    }
+}
+const v36 = new C30(-1.461653635104799e+308, -1.461653635104799e+308, -1.0, -5.0);
+function F37(a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v42 = a41.constructor;
+    try { new v42(C30, -1.0); } catch (e) {}
+    const v44 = a40.constructor;
+    try { new v44(a40, v36, this, a39); } catch (e) {}
+}
+const v46 = new F37(2.2250738585072014e-308, v36);
+new F37(-9.59045000403769, v46);
+new F37(-3.0, C30);

@@ -1,0 +1,47 @@
+const v0 = [];
+function f1(a2) {
+    a2[65535] = a2;
+    const o7 = {
+        [v0](a4, a5, a6) {
+        },
+    };
+    return o7;
+}
+v0.toString = f1;
+const v8 = [v0,v0];
+function f9(a10) {
+    const o14 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    return gc(o14);
+}
+v8[Symbol.toPrimitive] = f9;
+const v18 = [v0,v0,v8,v8,v8];
+[v18,v0,v18,v8,v0];
+class C20 {
+    static {
+        function f22(a23) {
+            const o24 = {
+                1073741825: a23,
+                "g": a23,
+                ...a23,
+            };
+            return o24;
+        }
+        f22(v8);
+        f22(v0);
+        f22(v18);
+    }
+    [v18];
+    #h = v0;
+}
+new C20();
+new C20();
+new C20();
+function f34() {
+    return v8;
+}
+const v38 = [7.134431132944798e+307];
+Object.defineProperty(v38, 4, { writable: true, value: f34 });
+v38[4] = WeakMap;

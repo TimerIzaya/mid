@@ -1,0 +1,10 @@
+new BigUint64Array(5);
+const v12 = new Float64Array(1000n * 1000);
+v12[47] = 268435456n;
+const v15 = new Float64Array(9);
+try { v15.join(v12); } catch (e) {}
+[-9007199254740990,49004,536870889,1000,257,65536,-9007199254740990,-9007199254740992];
+const v18 = [639962727];
+try { v18.toLocaleString(v18); } catch (e) {}
+try { new eval(4294967297); } catch (e) {}
+eval();

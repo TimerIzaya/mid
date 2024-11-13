@@ -1,0 +1,37 @@
+new Float64Array(1628);
+const v5 = new Float32Array(3);
+const v8 = new Int16Array(205);
+function f9(a10, a11, a12, a13) {
+    const o31 = {
+        n(a15, a16, a17, a18) {
+            let v19;
+            try { v19 = a13(Float64Array, 3, Float32Array, v5, a11); } catch (e) {}
+            v19 | v19;
+            v19?.[132];
+            return a11;
+        },
+        p(a23, a24, a25, a26) {
+            delete v8[a26];
+            a12 >>> a25;
+            try {
+                v8.every(a24);
+            } catch(e30) {
+            }
+            return a25;
+        },
+    };
+    return o31;
+}
+f9(1628, 3, 1628, Float64Array);
+f9(3, 3, 205, f9(3, 1628, 1628, 3));
+const v36 = new DataView();
+class C37 {
+    constructor(a39, a40, a41, a42) {
+        const v43 = this.constructor;
+        try { new v43(a41, a42, a39, v43); } catch (e) {}
+        for (let v45 = 0; v45 < 5; v45++) {
+            v36[v45] = a42;
+        }
+    }
+}
+new C37(DataView, DataView, DataView, C37);

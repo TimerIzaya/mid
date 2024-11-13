@@ -1,0 +1,63 @@
+const v0 = [0.21098368335285045,-1e-15,2.2250738585072014e-308,-Infinity,-1.6958097634587028e+308];
+const v1 = [-1000.0];
+const v2 = [Infinity,-0.0,7.392885394419932e+307,1e-15,-241.59188674337042,-2.2250738585072014e-308,-1000000000000.0,-1000000.0,-1000000.0,-640.0355052472062];
+const v6 = -2.2250738585072014e-308 instanceof -2.2250738585072014e-308;
+function f7() {
+    return v6;
+}
+const o8 = {
+    "construct": f7,
+    "defineProperty": f7,
+    "deleteProperty": f7,
+    "get": f7,
+    "getPrototypeOf": f7,
+    "has": f7,
+    "isExtensible": f7,
+    "ownKeys": f7,
+    "preventExtensions": f7,
+    "set": f7,
+    "setPrototypeOf": f7,
+};
+const v10 = new Proxy(v0, o8);
+function f11(a12, a13, a14) {
+    const o15 = {
+        "c": a12,
+        1520092049: -2.2250738585072014e-308,
+        "a": v1,
+        118: v10,
+        "b": f7,
+        "h": v2,
+        "a": -2.2250738585072014e-308,
+        __proto__: v2,
+        8: a12,
+        ...v2,
+        [a14]: 295278.12197413645,
+        1: a14,
+        ...a13,
+        "f": a14,
+        ...v1,
+    };
+    return o15;
+}
+f11(295278.12197413645, v1, -2.2250738585072014e-308);
+const v17 = f11(v2, v2, 0.0);
+f11(v2, v2, v17);
+Array().unshift(3);
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v6;
+    } catch(e27) {
+    }
+    try {
+        this.f = a25;
+    } catch(e28) {
+    }
+    try {
+        this.g = a26;
+    } catch(e29) {
+    }
+}
+new F23(v17, -2.2250738585072014e-308);
+new F23(v17, 0.0);
+new F23(v17, -2.2250738585072014e-308);

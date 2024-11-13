@@ -1,0 +1,111 @@
+class C3 {
+    static {
+        try {
+        const t0 = -1394625885;
+        t0(this, this, this, this);
+        } catch (e) {}
+    }
+    get f() {
+        let v9 = this;
+        const o10 = {
+        };
+        new Proxy("2147483647", o10);
+        Math.sqrt(v9);
+        let v17 = -(v9++);
+        Math.hypot(v9);
+        v9++;
+        ++v9;
+        return ++v17;
+    }
+}
+const v22 = new C3();
+const v23 = new C3();
+const v24 = new C3();
+const v25 = [v22];
+const v26 = [v23,C3,C3,-1394625885];
+const v27 = [v23,v24,"2147483647"];
+class C28 extends C3 {
+    n(a30, a31) {
+        let v32;
+        try { v32 = v22.p(a31, this, this, 5798); } catch (e) {}
+        const v33 = a31 ^ v32;
+        try {
+            this.fuck(v32, v22, v26);
+        } catch(e35) {
+        }
+        return v33;
+    }
+    1123;
+    constructor(a37, a38, a39, a40) {
+        super();
+        try { new a39(); } catch (e) {}
+        delete a38?.length;
+        const v44 = Symbol.iterator;
+        const o53 = {
+            [v44]() {
+                let v46 = 10;
+                const o52 = {
+                    next() {
+                        v46--;
+                        const v50 = v46 == 0;
+                        const o51 = {
+                            "done": v50,
+                            "value": v46,
+                        };
+                        return o51;
+                    },
+                };
+                return o52;
+            },
+        };
+    }
+}
+const v54 = new C28(v27, v27, C3, v24);
+const v55 = new C28(v25, v27, "2147483647", v23);
+const v56 = new C28(v26, v27, v55, C28);
+class C57 {
+    static #e = v54;
+    b = -1394625885;
+    #c;
+    #p(a59, a60, a61, a62) {
+        switch (v26) {
+            case a60:
+                c = C3;
+                break;
+        }
+        return 5798;
+    }
+    static #g = v23;
+    #h = v56;
+    static MIN_VALUE;
+    static 268435439 = v55;
+}
+new C57();
+new C57();
+new C57();
+const v68 = [-2.220446049250313e-16,0.9798105418016166,-4.830267035271884,-435.7279193107944,864333.2303131514,-3.553417885466287e+306,-1000000000000.0,-1000000000.0,990180.6241720289,-1000000.0];
+function f69(a70, a71) {
+    return a71;
+}
+Object.defineProperty(v68, Symbol.toPrimitive, { configurable: true, value: f69 });
+const v74 = [-1.0,1.0,-875790.5323034594,0.22501948637268132,-0.0,-0.0];
+function f75(a76, a77, a78, a79) {
+    const v80 = Symbol.toPrimitive;
+    Object.defineProperty(a76, v80, { configurable: true, enumerable: true, value: f75 });
+    const o87 = {
+        toString(a82, a83) {
+            const v84 = a76 && Float64Array;
+            function f85() {
+                a82 *= v80;
+                return Float64Array;
+            }
+            Object.defineProperty(v84, "valueOf", { value: f85 });
+            v84 <= v68;
+            return this;
+        },
+    };
+    return o87;
+}
+f75(v74);
+const v89 = f75(Date);
+try { v89.toString(f75, v68); } catch (e) {}

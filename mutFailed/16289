@@ -1,0 +1,62 @@
+class C3 {
+    constructor(a5) {
+        class C6 {
+            #g;
+            10 = "undefined";
+            static 2147483647;
+        }
+        new C6(C6, this);
+        new C6();
+        new C6();
+    }
+    static #h;
+    b = 4;
+    #d;
+}
+const v10 = new C3(4);
+const v11 = new C3("replace");
+const v12 = new C3(C3);
+class C13 extends C3 {
+    static c;
+    6 = "replace";
+    n(a15, a16, a17) {
+        var f = this;
+        super[v12] = v12;
+        const v19 = new C3(this);
+        const v20 = ("undefined")[0];
+        try {
+            v19.valueOf = v20;
+        } catch(e21) {
+        }
+        return this;
+    }
+}
+const v22 = new C13();
+const v23 = new C13();
+const v24 = new C13();
+class C25 {
+    d = C13;
+    constructor(a27, a28, a29) {
+        const v30 = super[a27];
+        Object.defineProperty(v30, v10, { writable: true, enumerable: true, value: v30 });
+        try {
+            a29.b = v30;
+        } catch(e31) {
+        }
+    }
+    ["undefined"] = v12;
+    static #h;
+    [v12] = v11;
+    [v10];
+}
+new C25(C25, v23, v23);
+new C25(C3, v24, C25);
+new C25(v22, v24, v22);
+function f35() {
+    return f35;
+}
+function f36() {
+    Object.defineProperty(arguments, 13, { writable: true, configurable: true, set: f35 });
+    return arguments;
+}
+f36();

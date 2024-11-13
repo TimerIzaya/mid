@@ -1,0 +1,32 @@
+function f6(a7, a8, a9) {
+    const o16 = {
+        "d": a7,
+        __proto__: a7,
+        "c": a9,
+        [4294967295n](a11, a12) {
+            const v13 = super[this];
+            delete a7?.h;
+            try {
+                a7.__proto__ = v13;
+            } catch(e15) {
+            }
+            return a7;
+        },
+        257: a9,
+    };
+    o16[4294967295] = o16;
+    return o16;
+}
+const v17 = f6(4294967295n, 5n, 5n);
+v17.c;
+const v19 = f6(v17, 4294967295n, 5n);
+f6(f6, 5n, 4294967295n);
+655 * 655;
+const v24 = new Uint16Array(655, v19, 5n);
+v24[Symbol.toPrimitive] = f6;
+v24[239] = v24;
+try { new Int16Array(Uint16Array, 4294967295n, f6); } catch (e) {}
+new Int16Array(3257);
+const v33 = new ArrayBuffer(129, ArrayBuffer, 655);
+try { v33.transferToFixedLength(); } catch (e) {}
+("-9223372036854775807").lastIndexOf(-7);

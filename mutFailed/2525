@@ -1,0 +1,29 @@
+const v4 = [9223372036854775807n,[9223372036854775807n],19647n];
+[0n,0n];
+[v4];
+[9223372036854775807n];
+[v4];
+const v14 = new Date();
+function f15() {
+    return Date;
+}
+Object.defineProperty(v14, "toString", { writable: true, get: f15 });
+function f16(a17) {
+    const o20 = {
+        n(a19) {
+            return a19;
+        },
+        [v14]: v14,
+    };
+    return o20;
+}
+v14.valueOf = f16;
+function f21(a22) {
+    return Date;
+}
+const v25 = [v14];
+const o26 = {
+    "arguments": v25,
+    "type": "function",
+};
+new Worker(f21, o26);

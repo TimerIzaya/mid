@@ -1,0 +1,43 @@
+function f1() {
+    Map[9] = Map;
+    Map[0] = Map;
+    return Map;
+}
+Map[Symbol.toPrimitive] = f1;
+const v4 = new Map();
+function f8(a9, a10) {
+    function f11() {
+        return f1;
+    }
+    Object.defineProperty(a9, Symbol.toPrimitive, { get: f11 });
+    const o22 = {
+        "a": a9,
+        ...a9,
+        n(a15, a16, a17, a18) {
+            a9[Symbol.species];
+            return -9007199254740992n;
+        },
+        __proto__: a10,
+        "b": v4,
+        [a9]: Map,
+        [15n]: a10,
+    };
+    o22.toString = f8;
+    return o22;
+}
+f8(f8(36586n, 36586n), 36586n);
+f8(Map, 15n);
+[4.0,1000.0,-899.8996854895689,2.519264002214527,1.0,-5.019435526608201e+307,1000000000000.0,-3.0,0.9702215311220942];
+[-1.6536102249350561e+308,-1000000000.0];
+const v28 = [-1000.0,-1.43814517166465e+308];
+class C29 {
+}
+const v30 = new C29();
+const v31 = new C29();
+const o32 = {
+};
+o32.b = v28;
+o32.b = v30;
+const o33 = {
+};
+Object.defineProperty(o33, "b", { writable: true, value: v31 });

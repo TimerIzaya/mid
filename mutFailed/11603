@@ -1,0 +1,48 @@
+-9223372036854775807 & -9223372036854775807;
+try { Int16Array(-9223372036854775807, -2125064704, 7); } catch (e) {}
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a13;
+    } catch(e14) {
+    }
+    try {
+        this.b = a13;
+    } catch(e15) {
+    }
+    try {
+        this.f = 43118;
+    } catch(e16) {
+    }
+}
+const v17 = new F10(7, -4294967297);
+const v18 = new F10(2371, 2371);
+const v19 = new F10(7, -9223372036854775807);
+let v20;
+try { v20 = Int16Array.bind(-9223372036854775807); } catch (e) {}
+new Int16Array(2371);
+let v22;
+try { v22 = v17.toLocaleString(); } catch (e) {}
+v22.__proto__;
+try {
+    v19.valueOf = v20;
+} catch(e24) {
+}
+new BigInt64Array(2);
+const v30 = new Uint16Array(127);
+v30[31];
+function f32(a33) {
+    const o34 = {
+        [a33]: a33,
+    };
+    return a33;
+}
+%PrepareFunctionForOptimization(f32);
+Object.defineProperty(v18, 0, { writable: true, configurable: true, enumerable: true, set: f32 });
+-Uint16Array;
+function f36() {
+    return 2371;
+}
+f32();
+const v39 = f32(5.0);
+v39 - v39;

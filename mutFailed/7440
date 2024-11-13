@@ -1,0 +1,71 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        try { a5(a5, -9223372036854775808n, -16n, -9223372036854775808n, 16n); } catch (e) {}
+    } catch(e7) {
+    } finally {
+        Object.defineProperty(this, "g", { configurable: true, enumerable: true, value: this });
+    }
+    try {
+        this.c = -16n;
+    } catch(e9) {
+    }
+    try {
+        this.d = a5;
+    } catch(e10) {
+    }
+}
+const v11 = new F3(16n);
+const v12 = new F3(-9223372036854775808n);
+let {"c":v13,"d":v14,"g":v15,...v16} = v11;
+v14?.[1];
+new F3(-16n);
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = this;
+    try {
+        this.b = F3;
+    } catch(e26) {
+    }
+    try {
+        this.c = a25;
+    } catch(e27) {
+    }
+    try {
+        this.d = F3;
+    } catch(e28) {
+    }
+}
+const v29 = new F22(-9223372036854775808n, v11);
+const v30 = new F22(-9223372036854775808n, v29);
+new F22(16n, v30);
+function f33() {
+    const v34 = new v29();
+    v34.g;
+    return v34;
+}
+Map.toString = f33;
+let v36 = "vSx";
+v36 <<= v36;
+let {"d":v39,"g":v40,} = v11;
+new Map();
+class C42 {
+    static #c;
+    static {
+        class C44 extends F3 {
+            static [16n];
+        }
+        new C44();
+        new C44();
+        new C44();
+    }
+    [Map] = v12;
+    #a = F22;
+    #g = -9223372036854775808n;
+    static #f = F3;
+    #b;
+}
+new C42();
+new C42();
+new C42();
+1.0 >>> /Mrn(?:a*)+IhCO/udimsy.__proto__;

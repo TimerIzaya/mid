@@ -1,0 +1,79 @@
+class C3 {
+    static p(a5, a6) {
+        super.g;
+        try { this.p("undefined", this, a6, a5); } catch (e) {}
+        new Uint8ClampedArray(7);
+        new Uint32Array(4096);
+        new BigInt64Array(118);
+        return 4096;
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+class C21 {
+    static m(a23, a24, a25, a26) {
+        const v27 = super[a25];
+        Reflect.construct(v27, [Reflect,v20,v27], v27);
+        return v18;
+    }
+    constructor(a32, a33) {
+        try {
+            new C3();
+        } catch(e35) {
+        }
+        [C3,a33,,a33] = a33;
+    }
+    [v18] = v18;
+    #g;
+    static #f = "function";
+    g;
+    #d = C3;
+}
+let v36 = 0;
+while (v36 < 3) {
+    v36++;
+}
+new C21(v18, v19);
+const v44 = new C21("c", "undefined");
+const v45 = new C21(v20, v18);
+function f46(a47, a48) {
+    if (a48) {
+    } else {
+        try {
+            v44.length = 2;
+        } catch(e53) {
+        }
+    }
+    const o61 = {
+        "e": C3,
+        n(a55, a56, a57) {
+            super[v45] = v19;
+            super.f += C3;
+            let v58;
+            try { v58 = new C3("function", v20); } catch (e) {}
+            v58 >= a55 ? v58 : a55;
+            return v18;
+        },
+        "a": a47,
+        "d": "c",
+        "h": "function",
+    };
+    return o61;
+}
+f46("function", C21);
+f46(v20, v44);
+f46(v20, v44);
+const v65 = [1073741824,1073741823,1376142744,1073741825];
+function f66(a67, a68, a69, a70) {
+    a69 * a69;
+    const o72 = {
+    };
+    o72.__proto__;
+    return f66;
+}
+for (let v74 = 0; v74 < 10; v74++) {
+    f66(v65, v74, v74);
+}
+%OptimizeFunctionOnNextCall(f66);
+f66();

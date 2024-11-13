@@ -1,0 +1,63 @@
+new Uint8Array(3);
+const v5 = new Uint8ClampedArray(128);
+new Int8Array(0);
+/\b(?:ab)+/udis;
+/xyz?xyz{1,}?/gu;
+/Qa[^a]/vimsy;
+class C12 {
+    static {
+        this.name = this;
+        function f14() {
+            return this;
+        }
+    }
+    static #valueOf(a16, a17, a18, a19) {
+        a16 * v5;
+        super.h **= 0;
+        return a16;
+    }
+    static 128 = Int8Array;
+}
+new C12();
+const v25 = new C12();
+const v26 = v25?.constructor;
+try { new v26(); } catch (e) {}
+const v28 = new C12();
+const v29 = v28?.constructor;
+try { new v29(); } catch (e) {}
+function f32(a33) {
+    function F34(a36, a37) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v38 = this?.__lookupGetter__;
+        try { new v38(a33); } catch (e) {}
+        try {
+            this.d = a36;
+        } catch(e40) {
+        }
+    }
+    try { new F34(F34, 128); } catch (e) {}
+    new F34(0, 128);
+    const v43 = new F34(a33, a33);
+    v43.b = v43;
+    const v44 = new F34(128, 128);
+    v44.e = v44;
+    return v43;
+}
+Object.defineProperty(Date, "toString", { configurable: true, value: f32 });
+const v45 = Date.toString(Date, Date, Date, Date);
+function f46(a47, a48) {
+}
+const v49 = f46(v45, Date);
+const o50 = {
+    [v45]: v49,
+};
+o50.g = o50;
+for (let v51 = 0; v51 < 5; v51++) {
+    v51 >>> v51;
+    const v54 = gc?.constructor;
+    try { new v54(gc); } catch (e) {}
+    const o56 = {
+    };
+    Object.defineProperty(o56, "type", { configurable: true, enumerable: true, value: o50 });
+    gc(o56);
+}

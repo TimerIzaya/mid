@@ -1,0 +1,71 @@
+function f0() {
+    const o12 = {
+        "e": -2147483647,
+        "type": "valueOf",
+        "a": -1e-15,
+        set g(a5) {
+        },
+        "type": "valueOf",
+        1024: -1e-15,
+        "type": "valueOf",
+        "execution": "valueOf",
+        ..."valueOf",
+        "b": -1e-15,
+        268435441: -2147483647,
+        "c": "valueOf",
+        ["valueOf"]: -2147483647,
+        ..."valueOf",
+        "g": "valueOf",
+        __proto__: "valueOf",
+        [-1e-15]: -1e-15,
+        "type": "valueOf",
+        valueOf(a7, a8, a9, a10) {
+            const o11 = {
+                [-1e-15]: "valueOf",
+            };
+            return -1e-15;
+        },
+        ..."valueOf",
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0();
+class C19 {
+    #b;
+    constructor(a21, a22, a23, a24) {
+        let v25 = 0;
+        v25++;
+        function f27() {
+            return f27;
+        }
+        Object.defineProperty(v13, a24, { writable: true, configurable: true, get: f0 });
+        try { a24.trim(a22, a24, this, this, a21); } catch (e) {}
+        try { a23(a22, "keyFor"); } catch (e) {}
+        try {
+            a24.#b = v14;
+        } catch(e30) {
+        }
+    }
+    static f = v13;
+}
+new C19("e", "keyFor", "e", v13);
+new C19("keyFor", "e", v13, v15);
+new C19("keyFor", "keyFor", "boolean", v13);
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    a39 % a39;
+    a40 >>> a40;
+    const v43 = this.constructor;
+    try { new v43(0.8735699512350641); } catch (e) {}
+    this.c = a39;
+    this.g = a40;
+}
+new F37(-3.413527541634011e+307, 0.941857606566444);
+const v46 = new F37(F37, 0.941857606566444);
+new F37(0.941857606566444, 0.941857606566444, 0.941857606566444, v46, v46);
+class C48 {
+}
+const v51 = Math.log1p(-4.600007534268795);
+v51 + v51;

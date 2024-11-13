@@ -1,0 +1,36 @@
+class C3 {
+    static #a;
+    constructor(a5) {
+        const v6 = [-268435456,-9007199254740990,11,-25356,-536870912,4294967296,1520296454];
+        function f7(a8, a9) {
+            const o10 = {
+                __proto__: v6,
+            };
+            return o10;
+        }
+        C3().group(a5);
+        new Float32Array(255);
+        new BigUint64Array(2);
+        new Int8Array(2);
+    }
+    ["-62665"];
+}
+const v22 = new C3("-62665");
+const v23 = new C3("c");
+const v24 = new C3(C3);
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v24.a = a28;
+    } catch(e31) {
+    }
+    try {
+        this.e = C3;
+    } catch(e32) {
+    }
+}
+const v33 = new F25("-62665", v22, v24, C3);
+const v34 = new F25(v33, -5.0, v22, "c");
+new F25(v34, v34, v24, v23);
+const v41 = new Int16Array(12);
+v41.fill();

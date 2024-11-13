@@ -1,0 +1,135 @@
+class C3 {
+    static 3178972165 = "9s";
+    #valueOf(a5, a6) {
+        %VerifyType(a6);
+        const o10 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o10);
+        return "1073741824";
+    }
+}
+const v12 = new C3();
+function f13(a14) {
+    const o17 = {
+        "maxByteLength": 10000,
+    };
+    const v19 = new ArrayBuffer(3471, o17);
+    const v21 = new Uint8Array(v19);
+    v21[8] = 2.2250738585072014e-308;
+    return v21;
+}
+v12.constructor = f13;
+const v23 = v12?.constructor;
+Object.defineProperty(v23, "toString", { writable: true, enumerable: true, value: f13 });
+try { new v23(); } catch (e) {}
+const v25 = v12?.constructor;
+let v26;
+try { v26 = new v25(); } catch (e) {}
+const v27 = v26?.__defineSetter__;
+try { new v27(11, C3); } catch (e) {}
+const v29 = new C3();
+const v30 = new C3();
+v30.constructor = f13;
+const v31 = v30?.constructor;
+function f32() {
+    function f33() {
+        for (let v35 = 0; v35 < 5; v35++) {
+            function f36() {
+                function f38(a39, a40, a41, a42) {
+                    return a40;
+                }
+                for (let v43 = 0; v43 < 5; v43++) {
+                    f38(v43, f36);
+                }
+                return eval();
+            }
+            f36();
+            %OptimizeFunctionOnNextCall(f36);
+        }
+        return "1073741824";
+    }
+    return f33;
+}
+function f47(a48) {
+    class C49 {
+    }
+}
+Object.defineProperty(v31, "toString", { enumerable: true, get: f32, set: f47 });
+try { new v31(); } catch (e) {}
+const v52 = 387 * 387;
+const v54 = new Int32Array(387);
+const v57 = new Int32Array(3474);
+function f58() {
+    let v59;
+    try { v59 = v54.with(v25, 11); } catch (e) {}
+    v59 ^ v59;
+    return v59;
+}
+v57.toString = f58;
+const v61 = v57?.toString;
+try { new v61(); } catch (e) {}
+let v63 = 7;
+const v64 = v63--;
+const v66 = new Float64Array(v63);
+v66[2];
+let v68;
+try { v68 = v66.join(C3); } catch (e) {}
+try { v68.strike(); } catch (e) {}
+-30285 >>> -30285;
+const v72 = -30285 >> -30285;
+function f73() {
+    function f74(a75, a76) {
+        a76.constructor = f32;
+        const v77 = a76?.constructor;
+        try { new v77(v52); } catch (e) {}
+        try { a75(v29); } catch (e) {}
+        return f73;
+    }
+    try { f74(f74, 3474); } catch (e) {}
+    let v81;
+    try { v81 = f74(v66, f73); } catch (e) {}
+    try { v81.bind(v12); } catch (e) {}
+    f74.then = f74;
+    const v84 = Promise.resolve(f74);
+    function f85() {
+        return f74;
+    }
+    function f86(a87) {
+    }
+    Object.defineProperty(v84, "constructor", { configurable: true, enumerable: true, get: f85, set: f86 });
+    const v91 = new Promise(f74);
+    Object.defineProperty(v91, "toString", { writable: true, configurable: true, enumerable: true, value: f86 });
+    function f92() {
+        try { Date.apply("9s", v81); } catch (e) {}
+        new Date();
+        return v91;
+    }
+    f92[Symbol.species] = f86;
+    v91.constructor = f92;
+    const v98 = v91.constructor;
+    const v99 = v98?.apply;
+    try { new v99(v72, v84); } catch (e) {}
+    try { new v98(); } catch (e) {}
+    let v102;
+    try { v102 = new v98(-30285); } catch (e) {}
+    v102[Symbol.toPrimitive] = f47;
+    try { v102.finally(f92); } catch (e) {}
+    let v106;
+    try { v106 = v102.propertyIsEnumerable(v91); } catch (e) {}
+    v106 || v106;
+    return v84;
+}
+function f108() {
+    return f73;
+}
+Object.defineProperty(f73, "constructor", { get: f108 });
+%PrepareFunctionForOptimization(f73);
+f73();
+%OptimizeFunctionOnNextCall(f73);
+const v110 = f73();
+v110.constructor = f47;
+let v111;
+try { v111 = v110.catch(v110); } catch (e) {}
+try { v111.then(v72, v64); } catch (e) {}

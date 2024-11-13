@@ -1,0 +1,59 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f7() {
+        return a6;
+    }
+    function f8(a9) {
+        const v12 = new Int8Array(9);
+        v12.reverse();
+    }
+    Object.defineProperty(this, "d", { writable: true, configurable: true, get: f7, set: f8 });
+    try {
+        this.d = 64;
+    } catch(e14) {
+    }
+    try {
+        this.a = a5;
+    } catch(e15) {
+    }
+    try {
+        this.h = 64;
+    } catch(e16) {
+    }
+}
+new F3(F3, 64);
+new F3(F3, -911667890);
+new F3(-58533, -58533);
+[-1024];
+[58031,-3,906618160,-14,17219,2147483648,536870889,9,536870888];
+[8,962409072,13,1024,-7,-2147483647,6,0,-10];
+new Uint32Array(1681);
+new Int16Array(2952);
+new BigInt64Array(4005);
+const v34 = new Int32Array();
+const v36 = new BigInt64Array();
+const v37 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+function f38() {
+    return BigInt64Array;
+}
+function f39(a40) {
+    ("I").localeCompare();
+}
+Object.defineProperty(v37, "b", { configurable: true, get: f38, set: f39 });
+const v43 = [-1.7976931348623157e+308];
+function f44(a45, a46, a47, a48) {
+    Object.defineProperty(a47, "b", { value: 4005 });
+    const o54 = {
+        toString(a50, a51, a52) {
+            a47[a46] = a45;
+            return 255n;
+        },
+    };
+    return o54;
+}
+const v55 = f44(v36, 129, v43);
+const v56 = f44(v34, 129, v37);
+for (let v57 = 0; v57 < 5; v57++) {
+    v56 % v55;
+    v37.b = v34;
+}

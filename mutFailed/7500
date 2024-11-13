@@ -1,0 +1,32 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -4294967295;
+    } catch(e3) {
+    }
+    try {
+        this.d = -4294967295;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+const v7 = new F0();
+const v10 = new Float32Array(2);
+new Int32Array(9);
+let v15 = Float32Array;
+const v16 = new v15(43, 43);
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = F17;
+}
+const v21 = new F17(F17, v15);
+try { v16.with(3030, F17); } catch (e) {}
+new Float64Array(43);
+Math.sin(v10);
+v15++;
+(2).tan(0.8072588447252077);
+Math.abs(v10);
+0.8072588447252077 & v7;
+/0a[^a]/vdim;
+delete v21.h;

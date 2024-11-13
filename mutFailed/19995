@@ -1,0 +1,58 @@
+function f0() {
+}
+class C1 extends f0 {
+    constructor() {
+        let v2 = this;
+        super();
+        v2 ||= v2;
+    }
+    static d = f0;
+    static get f() {
+        let v3 = this;
+        let v4;
+        try { v4 = v3.replaceAll(f0, f0, v3); } catch (e) {}
+        v4 = v3;
+        v3 <<= v3;
+        return f0;
+    }
+}
+const v5 = new C1();
+for (const v6 of v5) {
+    ++f0;
+    try {
+        new C1();
+    } catch(e9) {
+    }
+}
+const v10 = new C1();
+let v11 = new C1();
+const v13 = new Map();
+class C14 {
+    [Map] = v13;
+    static [Map];
+    p(a16, a17, a18, a19) {
+        v11 = v5;
+        let v20;
+        try { v20 = a18(v5); } catch (e) {}
+        v20[3] = this;
+        try { a17.n(a16, this, a16, this); } catch (e) {}
+        this[191];
+        return a18;
+        return a19;
+    }
+    [v5] = C1;
+    0 = v10;
+    #c;
+    5 = v5;
+    [v13] = v5;
+    6 = v13;
+}
+new C14();
+new C14();
+new C14();
+function F29(a31, a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v37 = new BigInt64Array(11);
+    v37.lastIndexOf(this);
+}
+new F29(F29, F29, F29, F29);

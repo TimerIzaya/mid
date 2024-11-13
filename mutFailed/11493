@@ -1,0 +1,109 @@
+try { (-1.5671435055421935e+308).toSpliced(); } catch (e) {}
+function F3() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f5() {
+    return f5;
+}
+const o7 = {
+    [f5]() {
+    },
+};
+const v9 = [[o7]];
+let v10 = "function";
+[v10,v9];
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 6.9174841249566725;
+        let v17 = 10;
+        v17--;
+        function F19() {
+            if (!new.target) { throw 'must be called with new'; }
+            const v21 = this.constructor;
+            let v23 = -16n;
+            function f24() {
+                v23 *= -1911645276n;
+                return F19;
+            }
+            f24();
+            new v21(f24, f24());
+        }
+    } catch(e28) {
+        function f29(a30) {
+            const v31 = [536870887,-42204,-17288903,-3,9007199254740991,7];
+            const v32 = [6,268435440,13,1073741825];
+            function f33(a34, a35) {
+                const o36 = {
+                    "c": a15,
+                    ...v32,
+                    "d": a35,
+                    "e": a35,
+                    "g": F13,
+                    "b": a34,
+                };
+                return o36;
+            }
+            f33(v31, v31);
+            let v38 = 0;
+            v38++;
+            return f29 - o7;
+        }
+    }
+    try {
+        this.f = a15;
+    } catch(e41) {
+    }
+}
+const v42 = new F13(-1.5671435055421935e+308, F13);
+const v43 = new F13(-1.5671435055421935e+308, v42);
+new F13(-0.1659385995803948, F13);
+class C45 {
+    static set f(a47) {
+        for (let v48 = 0; v48 < 32; v48++) {
+            v43["p" + v48] = v48;
+        }
+    }
+    static 9 = F13;
+    static h;
+    static [F13] = -1.5671435055421935e+308;
+    static f = -1.5671435055421935e+308;
+}
+new C45();
+const v52 = new C45();
+new C45();
+const v54 = [];
+function f55() {
+    const v56 = v54.constructor;
+    function F57(a59, a60) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v61 = a60.constructor;
+        try { v61(v10, a60); } catch (e) {}
+    }
+    new F57(F57, F57);
+    v56.call();
+    return v56;
+}
+%PrepareFunctionForOptimization(f55);
+f55();
+v10 &= v10;
+v52.__proto__;
+let v67;
+try { v67 = o7.map(v52); } catch (e) {}
+v67 in v67;
+f5();
+class C70 {
+    constructor(a72, a73) {
+        o7 < 2;
+        f55();
+        try {
+            this.length = 3;
+        } catch(e84) {
+        }
+        const o91 = {
+            84: arguments,
+        };
+    }
+}
+%OptimizeFunctionOnNextCall(C45);
+f55();

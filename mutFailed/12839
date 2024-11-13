@@ -1,0 +1,55 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a4;
+    } catch(e6) {
+    }
+    try {
+        this.g = a4;
+    } catch(e7) {
+    }
+    try {
+        this.e = a4;
+    } catch(e8) {
+    }
+}
+const v9 = new F2(F2, f1);
+const v10 = new F2(f1, v0);
+const v11 = new F2(v9, f1);
+class C12 extends f1 {
+    static #valueOf(a14, a15) {
+        this.__proto__;
+        try {
+            v10.#valueOf(v9);
+        } catch(e18) {
+        }
+        try {
+            this.#valueOf(F2, v9);
+        } catch(e20) {
+        }
+        return a15;
+    }
+    #d = v11;
+    static [v11] = v10;
+    static #b = v11;
+}
+new C12();
+new C12();
+new C12();
+new BigUint64Array(0);
+new Uint8ClampedArray(129);
+new Int8Array(2833);
+function F34(a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const o39 = {
+        };
+        Worker("2140550028", o39);
+    } catch(e41) {
+    }
+}
+new F34(F34, "2140550028");

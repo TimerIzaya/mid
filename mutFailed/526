@@ -1,0 +1,42 @@
+function f0() {
+    const o13 = {
+        "b": "d",
+        ["d"](a5, a6) {
+            a5?.[1000000.0];
+            return 1;
+        },
+        [1](a9) {
+            return a9[Symbol.asyncIterator];
+        },
+    };
+    return o13;
+}
+const v14 = f0();
+f0();
+const v16 = f0();
+v16[1];
+class C18 {
+    constructor(a20, a21) {
+        v16 + a20?.f;
+        const v25 = typeof v14;
+        try { v25.italics(); } catch (e) {}
+        v25 === "function";
+    }
+    c = v16;
+    8;
+}
+const v29 = new C18(v14, C18);
+const v30 = new C18(v29, v16);
+v30[8];
+new C18(v14, C18);
+const v33 = /6ca*b/dm;
+const v34 = /WG\p{Nd}?/ums;
+const t33 = /Oabc+/uy;
+t33.global = v34;
+try { Uint8ClampedArray.from(v16); } catch (e) {}
+const v39 = new v33();
+function f40() {
+    return Int32Array;
+}
+f40.caller = v39;
+Object.defineProperty(v39, Uint8ClampedArray, { get: f40, set: f40 });

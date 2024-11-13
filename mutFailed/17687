@@ -1,0 +1,84 @@
+const v2 = new Uint8ClampedArray(46);
+new Int32Array(9);
+Uint8Array.length = Uint8Array;
+const v8 = new Uint8Array(11);
+class C9 {
+    static g;
+    [v8] = 46;
+    static [Uint8Array] = Uint8ClampedArray;
+    static #valueOf(a11, a12) {
+        9 != a12;
+        return a11;
+    }
+    5 = v2;
+}
+try { new C9(); } catch (e) {}
+new C9();
+new C9();
+function f22(a23) {
+    function F24(a26, a27, a28, a29) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.e = a23;
+        } catch(e30) {
+        }
+        try {
+            this.f = a23;
+        } catch(e31) {
+        }
+    }
+    new F24(a23, 46, a23, 46);
+    new F24(46, a23, 9, 9);
+    new F24(a23, 9, 46, a23);
+    return F24;
+}
+Set.toString = f22;
+class C35 {
+    static [Set] = "boolean";
+}
+const v36 = new C9();
+let v37 = 11;
+v37--;
+-9007199254740991 >>> -9007199254740991;
+function f42(a43, a44, a45) {
+    a43[22] = a43;
+    const o46 = {
+        ...a45,
+        2: C35,
+        268435439: v36,
+    };
+    return o46;
+}
+class C47 {
+    [10000] = 10000;
+    static toString(a49) {
+    }
+}
+try { new C47(); } catch (e) {}
+0.8060433861090782 << 0.8060433861090782;
+Math.round(0.8060433861090782);
+const v55 = new C47();
+v55[10000];
+const v57 = new C47();
+function f58(a59) {
+    f22(a59);
+}
+Object.defineProperty(v57, 1024, { writable: true, configurable: true, set: f58 });
+let v61 = new C47();
+v61[10000] = v61;
+v57[1024] = 8n;
+let v63;
+try { v63 = v57.n(); } catch (e) {}
+v61 = v63;
+function f64() {
+    return 10000;
+}
+const o70 = {
+    "type": "boolean",
+    o(a66) {
+        return a66;
+    },
+    set e(a68) {
+        return;
+    },
+};

@@ -1,0 +1,33 @@
+const v1 = new WeakMap();
+let v4;
+try { v4 = Int8Array.from(1000); } catch (e) {}
+const v5 = new Int8Array(1000);
+v5[804] = v5;
+v4++;
+BigInt64Array.e = BigInt64Array;
+new BigInt64Array(2);
+const v12 = Uint8ClampedArray?.constructor;
+try { new v12(v5); } catch (e) {}
+Uint8ClampedArray.b = Uint8ClampedArray;
+const v14 = new Uint8ClampedArray(129);
+try { v14.find(2); } catch (e) {}
+const v19 = ([v1,v1,[[v5,v1,v5,Uint8ClampedArray,2]]])[1];
+try { new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray, v14); } catch (e) {}
+const v25 = new v19();
+function f26(a27, a28) {
+    const o33 = {
+        [a27]: Float64Array,
+        4: a28,
+        "b": v14,
+        [v25](a30, a31, a32) {
+        },
+    };
+    return o33;
+}
+%PrepareFunctionForOptimization(f26);
+f26(2);
+f26(2);
+%OptimizeFunctionOnNextCall(f26);
+const v36 = f26();
+v36[4];
+v36[4];

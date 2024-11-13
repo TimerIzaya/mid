@@ -1,0 +1,33 @@
+let v1 = BigUint64Array;
+const v2 = new v1(9);
+function f5() {
+    v1 === v2;
+    -2 | -2;
+    return v2;
+}
+Int16Array.toString = f5;
+const v9 = Int16Array <= 9;
+if (v9) {
+    Reflect.construct(Int16Array, [Reflect,9,64], Int16Array);
+} else {
+    --v1;
+    try {
+        v2.valueOf = v9;
+    } catch(e14) {
+    }
+}
+const v15 = new Int16Array(64);
+let v17 = Int8Array;
+v17.valueOf = f5;
+const v18 = new v17(9);
+let v19 = v15[1073741824];
+let v23 = v18.__proto__;
+const o28 = {
+};
+o28.execution = "536870912";
+v23 = v15;
+v19 = v15;
+v17 **= v17;
+%VerifyType(gc);
+v18[v1] = v19;
+gc(o28, 257, v17, "fUz");

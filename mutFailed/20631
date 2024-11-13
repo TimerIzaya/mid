@@ -1,0 +1,75 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a5;
+    } catch(e6) {
+    }
+    try {
+        a5.e = "d";
+    } catch(e7) {
+    }
+}
+new F3("d");
+const v9 = new F3("m");
+new F3("d");
+class C14 extends F3 {
+    [F3];
+    constructor(a16, a17) {
+        super("m");
+        a16[0];
+        const o22 = {
+            "execution": "-11",
+            "type": "minor",
+        };
+        gc(o22);
+    }
+    static #b;
+}
+const v24 = new C14(v9, "-11");
+const v25 = new v24(v9, "-11");
+new C14(v9, "m");
+const v27 = [837449509,1,0,28677,-1493785230,14423,536870887,1395954475,1096550133];
+[-7,-5,-10,7];
+function F29(a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    new Uint8Array();
+}
+const v35 = new F29(v27);
+const v36 = new F29(v27);
+try {
+    const v39 = new BigUint64Array(4);
+    [v39];
+} catch(e41) {
+}
+try {
+    const o42 = {
+    };
+} catch(e43) {
+}
+try {
+    const o44 = {
+    };
+} catch(e45) {
+}
+try {
+    const o46 = {
+    };
+} catch(e47) {
+}
+const v48 = new F29(v27);
+class C49 extends F29 {
+    static valueOf(a51, a52, a53, a54) {
+    }
+    [v36] = v25;
+    [v27] = v27;
+    [v35] = v48;
+}
+const v55 = /2a\sc/uds;
+function f56() {
+    try { v55.test(v55); } catch (e) {}
+}
+v55[Symbol.toPrimitive] = f56;
+const o62 = {
+    [v55](a61) {
+    },
+};

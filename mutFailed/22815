@@ -1,0 +1,59 @@
+new Int32Array(128);
+let v6;
+try { v6 = Uint8Array(3050, Int32Array, Uint8Array, 128); } catch (e) {}
+128 % v6;
+new Uint16Array(256);
+new Uint8ClampedArray(342);
+new Uint16Array(256);
+new Uint8Array(3050);
+new Float64Array(720);
+function f21() {
+    let v22 = -4294967295;
+    const o24 = {
+        get a() {
+            v22 %= v22;
+            return f21;
+        },
+    };
+    return f21;
+}
+let v25 = f21();
+v25.toString = v25;
+const v26 = f21();
+v26[Symbol.toPrimitive] = v25;
+const v29 = f21();
+class C34 extends f21 {
+    static #g = "o";
+    static [v29];
+    constructor(a36, a37, a38, a39) {
+        super();
+        try {
+            v25.#g **= a36;
+        } catch(e40) {
+        }
+    }
+    static o(a42, a43) {
+        let v46 = 1;
+        const v48 = Uint16Array || 30546;
+        ~a43;
+        v46--;
+        C34 || v48;
+        Uint16Array / v46;
+        v25 **= this;
+        f21();
+    }
+}
+const v54 = new C34(5n, "-17909", f21, "o");
+new C34("-17909", "-17909", "p", "p");
+new C34(v25, "p", v25, "o");
+class C57 {
+    get g() {
+        Uint16Array();
+        Uint8ClampedArray();
+        BigInt64Array();
+        return v26;
+    }
+    static #h = "p";
+}
+const v65 = new C57();
+try { v65.o(v54); } catch (e) {}

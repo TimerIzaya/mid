@@ -1,0 +1,22 @@
+function f0() {
+}
+const v3 = new Uint8Array(1000);
+try { new Uint8ClampedArray(0, v3, 1000); } catch (e) {}
+new Uint8ClampedArray(0);
+new Uint16Array(148);
+3 + 3;
+new Float32Array(3);
+Float64Array.BYTES_PER_ELEMENT = Float64Array;
+new Float64Array(11);
+const v20 = new Float32Array(256);
+v20[125] = v20;
+const v23 = new Date();
+try { v23.setFullYear(Date, v23, Float32Array); } catch (e) {}
+const o25 = {
+    __proto__: Date,
+    [3.0]: v23,
+};
+o25[3] = o25;
+const v27 = new Int16Array(o25);
+const v28 = v27?.with;
+try { new v28(f0, f0); } catch (e) {}

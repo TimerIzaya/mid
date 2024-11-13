@@ -1,0 +1,65 @@
+const v3 = [-60501,-3,-128,-4294967295,1073741823,1000];
+const v4 = [-3,-11210,65535,268435456];
+function f5(a6, a7) {
+    const o11 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o11);
+    gc();
+    return a7;
+}
+v4.toString = f5;
+const v14 = [-9223372036854775808,1415432483,1];
+const v19 = new Int16Array(60241);
+v19.lastIndexOf(1.8023018568192065e+307);
+function f21() {
+}
+function f23(a24, a25) {
+    function f26(a27) {
+        12204n <= 2061413045;
+        return a25;
+    }
+    a24.toString = f26;
+    function f30(a31) {
+        Object.defineProperty(v4, 2, { writable: true, configurable: true, enumerable: true, value: a24 });
+        const o34 = {
+            "maxByteLength": 47,
+        };
+        SharedArrayBuffer(3, o34);
+        return SharedArrayBuffer;
+    }
+    a25.toString = f30;
+    const o45 = {
+        "a": v4,
+        "c": -644024116,
+        "e": a24,
+        "d": a25,
+        "b": v3,
+        ...a24,
+        __proto__: v3,
+        [v4](a38, a39, a40, a41) {
+            [,];
+        },
+        "f": a24,
+        "g": a25,
+        /*
+        __proto__: v14,
+        */
+        "arguments": v14,
+        ...60241,
+        "maxByteLength": 60241,
+        "e": -644024116,
+        get d() {
+            return this;
+        },
+        "h": -1000000.0,
+        ...a24,
+        "b": v14,
+    };
+    return o45;
+}
+f23(v4, v14);
+f23(v14, v4);
+f23(v4, v14);
+gc();

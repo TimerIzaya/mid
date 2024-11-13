@@ -1,0 +1,107 @@
+let v2 = "0";
+class C3 {
+    valueOf(a5, a6) {
+        let v4 = this;
+        if (a5) {
+            [v4] = v2;
+        } else {
+            let v8 = 128;
+            v8++;
+            Math.asin(1145294441);
+            let v11 = ~1145294441;
+            !1145294441;
+            v11--;
+            -v11;
+        }
+        return a6;
+    }
+}
+const v15 = new C3();
+function f16() {
+    try {
+        v15.valueOf(undefined, v2, C3);
+    } catch(e19) {
+    }
+    return C3;
+}
+v15.toString = f16;
+const v20 = new C3();
+const o21 = {
+};
+new Proxy(C3, o21);
+const v27 = new C3();
+class C28 {
+    a = C3;
+    #m(a30, a31) {
+        try { v15.valueOf(a30, a31); } catch (e) {}
+        v2 ||= v2;
+        a30 >>>= v20;
+        for (const v33 in v27) {
+            Reflect.construct(Proxy, [Reflect,this], Proxy);
+        }
+        return 1.4201575154524129;
+    }
+    d;
+    static #valueOf(a38, a39, a40, a41) {
+        const v43 = C28 != a39;
+        try {
+            o21.a = v43;
+        } catch(e44) {
+        }
+        new BigInt64Array(64);
+        new Int32Array(129);
+        new BigInt64Array(128);
+        return C28;
+    }
+    c = v20;
+    #b = v27;
+    static c = 1.4201575154524129;
+}
+new C28();
+const v55 = new C28();
+const v56 = new C28();
+function f59(a60, a61, a62) {
+    function f64(a65) {
+    }
+    this.onmessage = f64;
+}
+[v56,"number"];
+f59("function", 1.4201575154524129, f59);
+%PrepareFunctionForOptimization(f59);
+f59("function", 1.4201575154524129, f59);
+f59("function", 1.4201575154524129, f59);
+%OptimizeFunctionOnNextCall(f59);
+f59("function", 1.4201575154524129, f59);
+const v73 = Symbol.toPrimitive;
+Worker[v73] = f16;
+const o75 = {
+    "type": "function",
+};
+const v76 = new Worker(f59, o75);
+const v77 = [-5];
+const t81 = [298054943,4294967295,-268435456,31288,2147483649,-1024,-1073741824,-8358,268435439,2147483647];
+t81[5] = v77;
+("number").trimEnd();
+function f80() {
+}
+f80.arguments = f80;
+function f82(a83) {
+    delete v73[10];
+    function f85() {
+        return f85;
+    }
+    f85();
+    return f85;
+}
+Worker[Symbol.toPrimitive] = f82;
+const o89 = {
+    [Worker]: v55,
+    "a": 1145294441,
+    [v15]: f59,
+    ...v76,
+    ...v56,
+    "type": "function",
+};
+o89.arguments = "function";
+const v90 = new Worker(f80, o89);
+try { v90.terminateAndWait(); } catch (e) {}

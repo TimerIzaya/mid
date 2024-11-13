@@ -1,0 +1,88 @@
+class C3 {
+    #b;
+    constructor(a5, a6) {
+        super.e = this;
+        Object.defineProperty("-1895025714", "-1895025714", { configurable: true, enumerable: true, value: -1073741824 });
+        const o7 = {
+        };
+        try {
+            o7.d = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.d = this;
+            o9.b = this;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.d = this;
+            o11.b = this;
+            o11.g = a6;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.d = this;
+            o13.b = this;
+            o13.g = "-1895025714";
+        } catch(e14) {
+        }
+    }
+}
+const v15 = new C3("object", "-1895025714");
+const v16 = new C3(v15, C3);
+const v17 = new C3(v16, v16);
+const v18 = [v16,v17,"object",v17];
+const v19 = [v16,v17,"object",v18,v18];
+const v20 = [v15,v19];
+function f21() {
+    return v17;
+}
+function f22(a23, a24, a25, a26) {
+    const o40 = {
+        "c": a25,
+        ...a24,
+        __proto__: a25,
+        ..."object",
+        "e": v15,
+        "a": v17,
+        [a25](a28, a29) {
+            super.g ^= -1073741824;
+            function F30(a32, a33, a34) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.h = a32;
+                } catch(e35) {
+                }
+                try {
+                    this.c = a24;
+                } catch(e36) {
+                }
+            }
+            new F30(a29, a29, v16);
+            new F30(a24, F30, a25);
+            new F30(a24, v20, v20);
+            return C3;
+        },
+    };
+    return o40;
+}
+f22(v20, v18, v17, v19);
+class C42 {
+}
+async function f43(a44, a45, a46, a47) {
+    return (await C42).call();
+}
+const v50 = f43.call(C42, C42, f43, f43, f43);
+v50.then(f43, v50, v50, v50, v50);
+f22("-1895025714", v20, v18, v15);
+f22(v20, v18, v18, v19);
+const v54 = [1630629478,9,2034969337];
+for (let v55 = 0; v55 < 25; v55++) {
+    v54.__proto__;
+}

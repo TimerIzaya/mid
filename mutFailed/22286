@@ -1,0 +1,58 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -1429447887;
+    } catch(e3) {
+    }
+    try {
+        this.e = -1429447887;
+    } catch(e4) {
+    }
+    try {
+        this.d = -1429447887;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+new F0();
+function f9(a10) {
+    const o13 = {
+        "g": a10,
+        8: a10,
+        get e() {
+            g = this;
+            Object.defineProperty(a10, this, { value: this });
+            try { a10.log2(); } catch (e) {}
+            return a10;
+        },
+        "h": a10,
+        "b": v7,
+        65536: v6,
+        __proto__: a10,
+    };
+    return o13;
+}
+const t35 = f9(v7);
+const v15 = t35(v7);
+f9(v7);
+[13042,129,904031077,268435440];
+[-2147483648,-288444938,-65535];
+[7,-6,129,5,268435440,4294967297,46054];
+/a*b/d;
+/\u0060/gu;
+/0o\xed\xb0\x80?/vimy;
+const v24 = new Uint16Array(Uint16Array, Uint16Array, v15);
+class C25 {
+    #p(a27, a28, a29, a30) {
+    }
+    constructor(a32, a33) {
+        const v34 = this.constructor;
+        try { new v34(); } catch (e) {}
+        try {
+            v24.#p();
+        } catch(e37) {
+        }
+    }
+}
+new C25(Uint16Array, v24);

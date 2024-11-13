@@ -1,0 +1,61 @@
+function f0() {
+    let v2 = 4096;
+    const o10 = {
+        set f(a5) {
+            1073741824 in this;
+            v2 = v2;
+            a5[4] = "-9223372036854775807";
+        },
+        "c": v2,
+        "b": -4294967296,
+        [v2]: "-9223372036854775807",
+        ..."-9223372036854775807",
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f14(a15) {
+    const o20 = {
+        [-1]: a15,
+        "d": v11,
+        p(a17) {
+            const v18 = super.e;
+            v13[a15] = a17;
+            try {
+                v12.valueOf = v18;
+            } catch(e19) {
+            }
+            return this;
+        },
+        __proto__: a15,
+    };
+    return o20;
+}
+f14(v13);
+const v22 = f14(v13);
+f14(v12);
+class C24 extends f14 {
+    f;
+    static [v12];
+    n(a26, a27) {
+        return 1243489829n;
+    }
+    static 65536 = v22;
+    1124896288;
+    static d;
+    #a = f0;
+}
+new C24();
+const v32 = new C24();
+new v32();
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    ("entries").toUpperCase();
+    ~a37;
+    const v43 = this.constructor;
+    try { new v43(); } catch (e) {}
+}
+const v45 = new f0();
+new F34(v45, F34, v45, v45);

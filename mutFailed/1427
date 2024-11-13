@@ -1,0 +1,92 @@
+class C3 {
+    constructor(a5, a6, a7, a8) {
+        a8.match(a7);
+    }
+    /*
+    constructor(a11, a12, a13, a14) {
+    }
+    */
+    #p(a16, a17) {
+        const v19 = Symbol.iterator;
+        const o37 = {
+            [v19]() {
+                const o27 = {
+                    next() {
+                        let v22 = this;
+                        v22--;
+                        const v25 = 10 == 0;
+                        const o26 = {
+                            "done": v25,
+                            "value": -1.0481060269526484e+308,
+                        };
+                        return o26;
+                    },
+                };
+                const v30 = new Uint8Array(257);
+                class C32 extends Uint16Array {
+                    constructor(a34, a35, a36) {
+                        super(v30);
+                    }
+                }
+                return o27;
+            },
+        };
+        return "string";
+    }
+}
+C3.name;
+const v39 = new C3();
+const v40 = v39?.constructor;
+try { new v40(); } catch (e) {}
+const v42 = new C3();
+const v43 = new C3();
+function F44(a46, a47, a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(v39, a47, v43, v39); } catch (e) {}
+    a48?.__lookupGetter__;
+    try { new a47(C3); } catch (e) {}
+    const v53 = a49?.constructor;
+    try { new v53(); } catch (e) {}
+    try {
+        this.b = a46;
+    } catch(e55) {
+    }
+    try {
+        this.d = a48;
+    } catch(e56) {
+    }
+    try {
+        this.e = a46;
+    } catch(e57) {
+    }
+}
+const v58 = new F44(-588103463, v42, v42, v43);
+const v59 = new F44(-588103463, v58, v58, v58);
+const v60 = new F44(C3, "string", v42, v59);
+const v61 = v60?.e;
+try { new v61(); } catch (e) {}
+const v63 = [];
+class C64 {
+}
+try { C64.toString(); } catch (e) {}
+const v66 = new C64();
+const v67 = v66?.__defineGetter__;
+try { new v67("string", v58); } catch (e) {}
+function F69(a71, a72) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.propertyIsEnumerable(a71); } catch (e) {}
+    this.c = a72;
+}
+const v74 = new F69(v66, v63);
+function f75(a76, a77) {
+    return a77;
+}
+const v80 = [v74];
+v80[0];
+const o82 = {
+    "arguments": v80,
+    "type": "function",
+};
+const v83 = o82?.constructor;
+try { new v83(v59); } catch (e) {}
+new Worker(f75, o82);

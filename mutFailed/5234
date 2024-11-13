@@ -1,0 +1,64 @@
+class C6 {
+    static o(a8, a9, a10, a11) {
+        let v12;
+        try { v12 = a10(a8, a8); } catch (e) {}
+        const o16 = {
+        };
+        try {
+            const t7 = -536870912n;
+            t7.e = a9;
+        } catch(e17) {
+        }
+        try {
+            const o18 = {
+            };
+            o18.e = a9;
+            o18.b = -48388;
+        } catch(e19) {
+        }
+        try {
+            const o20 = {
+            };
+            o20.e = a9;
+            o20.b = -48388;
+            o20.f = v12;
+        } catch(e21) {
+        }
+        try {
+            const o22 = {
+            };
+            o22.e = a9;
+            o22.b = -48388;
+            o22.f = 256;
+        } catch(e23) {
+        }
+        return "trunc";
+    }
+}
+try { new C6(); } catch (e) {}
+const v25 = new C6();
+const v26 = new C6("44791", -65535n, v25);
+const v27 = v26?.constructor;
+try { new v27(); } catch (e) {}
+const v29 = new C6();
+let v31;
+try { v31 = ("Dj").localeCompare(-536870912n); } catch (e) {}
+try { v31.toWellFormed(v31); } catch (e) {}
+10n * 10n;
+-4294967296;
+1e-15 * 1e-15;
+v31--;
+class C51 {
+    static get b() {
+        super.getOwnPropertyNames();
+    }
+}
+function f54() {
+    return v29;
+}
+function f55(a56) {
+    return a56;
+}
+Object.defineProperty(C51, "e", { writable: true, get: f54, set: f55 });
+C51.e = C51;
+47156 >>> 47156;

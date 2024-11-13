@@ -1,0 +1,22 @@
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a12;
+    } catch(e14) {
+    }
+    try {
+        this.c = a12;
+    } catch(e15) {
+    }
+}
+new F9(6, 6, 6);
+const t12 = 9999;
+new t12(9999, 6, 4294967296);
+new F9(9999, 9999, 4294967296);
+class C20 {
+}
+try {
+const t0 = 1073741825;
+t0();
+} catch (e) {}
+C20?.[126349911];

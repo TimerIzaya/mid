@@ -1,0 +1,27 @@
+function f0() {
+}
+const t2 = 9;
+new t2(Float32Array);
+new Uint8Array(2);
+new BigUint64Array(6);
+class C13 {
+    constructor(a15, a16) {
+        function f17(a18) {
+            const v19 = [6,268435440,13,1073741825];
+            const o20 = {
+                "c": 3.0,
+            };
+            for (let v21 = 0; v21 < 25; v21++) {
+                const v23 = v21 + a15;
+                v23[v23] = v21;
+            }
+            return v19;
+        }
+        const o26 = {
+            "type": Uint8Array,
+        };
+        new Worker(f17, o26);
+    }
+}
+const v28 = new Float32Array(2, C13);
+new C13(C13, v28);

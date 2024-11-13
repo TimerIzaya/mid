@@ -1,0 +1,24 @@
+class C3 {
+    constructor(a5, a6) {
+        try {
+            this.a = 10000n;
+        } catch(e7) {
+        }
+    }
+    static a = -2147483647n;
+    static g = -2147483647n;
+    #b;
+    [-2147483647n];
+    [10000n] = 10000n;
+    static [1073741824n] = 10000n;
+}
+new C3(1073741824n, -2147483647n);
+new C3(1073741824n, 1073741824n);
+new C3(1073741824n, 1073741824n);
+new Uint32Array(10000n);
+new Int16Array(2247);
+const v22 = new Float64Array(3);
+const v24 = [1000,1000,1000,1000,1000];
+for (let i = 0; i < 5; i++) {
+    Object.defineProperty(v24, 130, { value: v22 });
+}

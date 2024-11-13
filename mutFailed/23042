@@ -1,0 +1,49 @@
+const v0 = /(\xed\xb0\x80)\x01a{1,2}?gIxyz{1,}+/gvd;
+const v1 = /a\D/vdsy;
+const v2 = /H/gvdisy;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e6) {
+    }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+}
+new F3(v2);
+const v9 = new F3(v1);
+const v10 = new F3(v2);
+class C11 extends F3 {
+    static #a = v10;
+    static 10 = v10;
+    constructor(a13, a14, a15) {
+        super(a15);
+        try {
+            v9.#a;
+            try {
+                this.length = 0;
+            } catch(e18) {
+            }
+        } catch(e19) {
+        }
+    }
+    static #e = v9;
+    g;
+}
+const v20 = new C11(v0, v1, v9);
+new C11(v1, v1, v20);
+new C11(v2, v1, F3);
+const v24 = [Symbol,Symbol,Symbol];
+v24[Symbol.toPrimitive] = Symbol;
+const o37 = {
+    set g(a27) {
+    },
+    [v24](a29, a30, a31) {
+    },
+    set e(a33) {
+    },
+};
+for (const v38 in o37) {
+}

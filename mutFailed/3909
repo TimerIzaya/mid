@@ -1,0 +1,43 @@
+const v4 = new WeakSet();
+class C5 {
+    64 = "f";
+    static toString(a7, a8) {
+        a8 &= this;
+        super[a7] = v4;
+        try {
+            this.fuck(a8, 24745n, -256, -1073741824n);
+        } catch(e15) {
+        }
+        return "undefined";
+    }
+}
+const v16 = new C5();
+const v17 = new C5();
+const v18 = new C5();
+function f19() {
+    return v18;
+}
+function f20(a21, a22, a23) {
+    const o31 = {
+        "d": "undefined",
+        [v18]: C5,
+        __proto__: v16,
+        o(a25, a26, a27, a28) {
+            try {
+                ("f").trimEnd();
+            } catch(e30) {
+            }
+            Object.defineProperty(v16, "e", { writable: true, configurable: true, get: f19 });
+            return "f";
+        },
+        ...C5,
+        [C5]: a21,
+        "c": a21,
+    };
+    return o31;
+}
+const v32 = f20(v18, f20, "bigint");
+f20("bigint", v17, v16);
+f20("bigint", v32, v16);
+const v36 = 536870887n * 536870887n;
+v36 * v36;

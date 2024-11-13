@@ -1,0 +1,59 @@
+function f0() {
+    const o7 = {
+        3596: f0,
+        ..."b",
+        __proto__: "b",
+        [f0]: 127,
+        ..."b",
+        [127]: 127,
+        set e(a5) {
+            throw this;
+            function f6() {
+                return 127;
+            }
+        },
+        "e": "b",
+        "h": 355551.2467350259,
+        ..."b",
+        "d": "b",
+        "g": f0,
+        "c": 355551.2467350259,
+        ..."b",
+        "c": 355551.2467350259,
+        "g": 127,
+    };
+    return o7;
+}
+function f8(a9) {
+    new Uint8Array();
+    return f0;
+}
+f0.toString = f8;
+f0();
+f0();
+f0();
+new Uint32Array(2);
+const v20 = new Int16Array(999);
+v20.constructor = f8;
+new Float64Array(9);
+class C24 {
+}
+const v25 = new C24();
+v20["subarray"]();
+const v31 = [];
+function f32(a33, a34, a35, a36) {
+    a34.toString = f0;
+    function f37() {
+        ("Vre").startsWith(a33);
+        const o40 = {
+            [v31]: v25,
+        };
+        return C24;
+    }
+    f37();
+    %OptimizeFunctionOnNextCall(f37);
+    return a34;
+}
+for (let v42 = 0; v42 < 5; v42++) {
+    f32(f32, v31, v42, v25);
+}

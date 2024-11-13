@@ -1,0 +1,86 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "a", { writable: true, configurable: true, enumerable: true, value: true });
+    try {
+        this.a = true;
+        try { Reflect.ownKeys(-4.0); } catch (e) {}
+        const v7 = [];
+        const o8 = {
+            "arguments": v7,
+            "type": "function",
+        };
+    } catch(e9) {
+    }
+    try {
+        this.g = true;
+    } catch(e10) {
+        function f11(a12, a13) {
+            return Math.tanh("1");
+        }
+        %PrepareFunctionForOptimization(f11);
+        f11(f11, f11);
+        %OptimizeFunctionOnNextCall(f11);
+        f11();
+    }
+    try {
+        this.d = true;
+    } catch(e19) {
+    }
+    const v21 = new Int16Array();
+    function f23(a24, a25) {
+        return delete arguments[2];
+    }
+    f23(v21, v21, -1.7976931348623157e+308, v21);
+}
+new F1();
+new F1();
+new F1();
+const v33 = [-1.5424212036356715e+308];
+v33[536870887] = 536870887n;
+v33[536870887n] = v33;
+let v34 = 2147483647;
+new Float64Array(v34);
+const v45 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+function f46() {
+    const v48 = -v45.length;
+    const o49 = {
+        5: v48,
+    };
+    return v45;
+}
+const v50 = new Float32Array();
+new Float64Array(v50, 16);
+new Float64Array(256);
+const o55 = {
+};
+const v56 = [-6.695596969959072];
+function f57(a58) {
+    return v56;
+}
+f57.message = f46;
+v50.length >>>= 16;
+class C59 extends Float64Array {
+    static 1;
+    static #d = 256;
+}
+new C59();
+function F61(a63, a64) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v66 = this.valueOf().constructor;
+    try { new v66(v66, v66, v66, a64); } catch (e) {}
+    Math.imul();
+}
+const v70 = new C59();
+v34++;
+f57.message;
+new Float32Array();
+class C75 {
+}
+const v76 = new C75();
+const v77 = [-0.42703791448452577,-9.174109027962913,-1.7976931348623157e+308,-3.06318157624919,1000000000000.0,-2.2250738585072014e-308,-515.183479844324,0.20435565392355481,616564.7515082213,-3.0];
+v77.toString = f57;
+const o78 = {
+    [v77]: v76,
+};
+try { v70(v50); } catch (e) {}
+let {"buffer":v80,"byteLength":v81,"byteOffset":v82,} = v70;

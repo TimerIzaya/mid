@@ -1,0 +1,39 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v6 = this?.constructor;
+    try { new v6(a5); } catch (e) {}
+    try {
+        this.d = 1073741823;
+    } catch(e8) {
+    }
+    try {
+        const v11 = new Int32Array(12);
+        for (const v12 in v11) {
+            try { v12.codePointAt(this); } catch (e) {}
+        }
+        this.e = 16;
+    } catch(e14) {
+    }
+    try {
+        const t17 = 16;
+        t17.f = 16;
+    } catch(e15) {
+    }
+}
+const v16 = new F3(16);
+const v17 = new F3(v16);
+const v18 = new F3(v17);
+v18.length;
+const v20 = [-1507042641,128,168457169,790787550,9223372036854775807,-8434,44865,5,-48941];
+try { v20.find(v18); } catch (e) {}
+[-5193557,0];
+const v23 = [555174327,9007199254740991,9007199254740992,128,129];
+v23.g = v23;
+try { Uint8Array.bind(v20); } catch (e) {}
+new Uint8Array(6);
+new Int16Array(6);
+const v34 = new v20(177);
+try { v34.__lookupGetter__(v16); } catch (e) {}
+const o37 = {
+};
+gc(o37);

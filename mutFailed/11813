@@ -1,0 +1,127 @@
+class C15 {
+    static #a = 5n;
+    [3n];
+    static c = 3n;
+}
+const v16 = new C15();
+const v17 = new C15();
+const v18 = new C15();
+function f19(a20) {
+    const o22 = {
+        "type": "function",
+    };
+    return a20;
+}
+v18[Symbol.toPrimitive] = f19;
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f31(a32, a33) {
+        a27 >= a33 ? a27 : a33;
+        return this;
+    }
+    a30[Symbol.toPrimitive] = f31;
+    this.c = Symbol;
+    a30[Symbol.toPrimitive] = Symbol;
+    this.e = a30;
+    this.c = a30;
+}
+const v40 = new F25(41372n, v18, v16, v18);
+function f41() {
+    let {"c":v42,"e":v43,...v44} = C15;
+    new Uint16Array(257, 58091);
+    return "a";
+}
+v40[Symbol.toPrimitive] = f41;
+const v51 = new F25(v18, v18, v16, v18);
+const v52 = new F25(v18, v17, 41372n, v40);
+class C53 {
+    a = v51;
+    static #c;
+    static #e = C15;
+    static [v18];
+    h = v52;
+    #f;
+    6 = v40;
+}
+const v54 = new C53();
+new C53();
+new C53();
+const v59 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v60 = [601759695];
+const v62 = [];
+v62[Symbol.toPrimitive] = Symbol;
+v62.toString = f19;
+function F65(a67, a68, a69, a70) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(a67, "toString", { configurable: true, value: f19 });
+    a67.lastIndexOf(a67, a68);
+}
+const v72 = new F65(v62);
+const v73 = v72.constructor;
+try { new v73(); } catch (e) {}
+const v75 = [1073741824,1073741823,1376142744,1073741825];
+function f77(a78, a79, a80, a81) {
+    function f83() {
+        const o106 = {
+            "c": -4294967297n,
+            "arguments": v60,
+            [v62]: v54,
+            "h": "Vre",
+            ...-4294967295,
+            "c": -4294967295,
+            [522675525n](a88, a89) {
+            },
+            ..."Vre",
+            "maxByteLength": -128,
+            "c": v60,
+            valueOf(a91, a92) {
+                return a80;
+            },
+            "e": -4294967295,
+            "e": -268435456,
+            "maxByteLength": -4294967295,
+            "arguments": v59,
+            ...v60,
+            "type": "Vre",
+            ..."Vre",
+            valueOf(a94, a95) {
+                return a78;
+            },
+            get d() {
+                Symbol.toPrimitive;
+                const o99 = {
+                };
+            },
+            ..."Vre",
+            4: "Vre",
+            "c": -268435456,
+            "type": "Vre",
+            "type": "Vre",
+            toString(a101, a102, a103) {
+                return a78;
+            },
+            m(a105) {
+                return a105;
+            },
+            "execution": "UHH",
+            "execution": "UHH",
+            5: -4294967295,
+            6: -268435456,
+        };
+    }
+    Object.defineProperty(f83, Symbol.species, { enumerable: true, value: Symbol });
+    f83();
+    const v111 = new Int8Array();
+    const v112 = v111.buffer;
+    v112.constructor = f83;
+    v112.slice(2147483648);
+    %OptimizeFunctionOnNextCall(f83);
+    try { v75["find"](..."find", a81, ...v60, ...v75, ...522675525n); } catch (e) {}
+}
+for (let v117 = 0; v117 < 5; v117++) {
+    f77();
+}
+%PrepareFunctionForOptimization(f77);
+f77();
+%OptimizeFunctionOnNextCall(f77);
+f77();

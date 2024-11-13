@@ -1,0 +1,47 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this >> a5;
+    let v7;
+    try { v7 = this.toLocaleString(); } catch (e) {}
+    const v8 = -a5;
+    v8 / v8;
+    try {
+        v7.c = a5;
+    } catch(e10) {
+    }
+    try {
+        this.e = a5;
+    } catch(e11) {
+    }
+    try {
+        this.d = -7;
+    } catch(e12) {
+    }
+}
+const v13 = F3.name;
+let v14;
+try { v14 = v13.localeCompare(1785545825); } catch (e) {}
+const v15 = new F3(-9223372036854775807);
+const v16 = v15?.constructor;
+let v17;
+try { v17 = new v16(1785545825); } catch (e) {}
+const v18 = v15.e;
+v18 >>> v18;
+new F3(-7);
+new F3(1785545825);
+-2.0 << -2.0;
+/a(?=bbb|bb)c/udm;
+/mmja\bc/gudy;
+/bEP[\xe2\x81\xa3]/vs;
+function f29(a30, a31) {
+    const o32 = {
+        ...a30,
+    };
+    return a31;
+}
+try { f29(v13, F3); } catch (e) {}
+f29.length = v14;
+%PrepareFunctionForOptimization(v17);
+const v34 = f29();
+v34.prototype = v34;
+v34(v13);

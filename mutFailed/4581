@@ -1,0 +1,25 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = this;
+    try {
+        this.d = 255;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+new WeakRef(512);
+new Float64Array(6);
+new Math(16);
+function f16() {
+    const v19 = parseFloat(-268435456);
+    v19[1959] = v4;
+    for (const v20 of v19) {
+    }
+    return -268435456;
+}
+%PrepareFunctionForOptimization(f16);
+f16(v6, v6);
+%OptimizeFunctionOnNextCall(f16);
+f16();

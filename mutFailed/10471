@@ -1,0 +1,31 @@
+function f3(a4) {
+    const o7 = {
+        7: 1073741823,
+        "a": -65537,
+        [a4]: a4,
+        get c() {
+            function f6() {
+                return a4;
+            }
+            return -65537;
+        },
+        8: 256,
+        "g": a4,
+    };
+    o7[Symbol.toPrimitive] = f3;
+    return o7;
+}
+const v10 = f3(256);
+v10[Symbol.toPrimitive] = f3;
+f3(v10);
+f3(-65537);
+[2147483649,2,512,9];
+[-20218,4294967296,8,-1369955919,0];
+[30367,1,10,127,-988308559,4,-6941,45634,-4,171404018];
+new Map();
+class C20 {
+}
+const v24 = new BigUint64Array(10);
+for (const v26 in v24) {
+    new Float64Array(2147483647);
+}

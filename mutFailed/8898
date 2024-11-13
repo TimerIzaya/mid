@@ -1,0 +1,60 @@
+new Uint16Array([]);
+Int8Array.BYTES_PER_ELEMENT = Int8Array;
+function F9() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = 268435440;
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new Int8Array(4096);
+let v17 = 11;
+const v18 = v17--;
+const v20 = new F9(v17);
+v20[5] = v20;
+class C23 {
+    static {
+        this[Symbol.hasInstance];
+    }
+    #p() {
+        let v29;
+        try { v29 = this.p(undefined, this, this, this, this); } catch (e) {}
+        try {
+            v29.#p(undefined, v29, v29, undefined);
+        } catch(e31) {
+        }
+        return this;
+    }
+    static #a = undefined;
+    c = v20;
+}
+const v32 = new C23();
+const v33 = new C23();
+const o39 = {
+    15: Int8Array,
+    toString(a35, a36) {
+        super.h = a36;
+        try { C23.stringify(Int8Array, Int8Array, this); } catch (e) {}
+        try {
+            C23.c = v32;
+        } catch(e38) {
+        }
+        return a35;
+    },
+    2147483647: undefined,
+    __proto__: v33,
+    "c": Int8Array,
+    ...Int8Array,
+    "f": v18,
+};
+const v40 = new Uint32Array(Uint32Array, Uint32Array, Uint32Array);
+const v41 = [512,7,-1073741824];
+const v43 = new Uint32Array([1524942359,268435439,8,1,256,-11]);
+v43[3];
+const o45 = {
+};
+v43.atan(+-1.0406565190769766e+308);
+([NaN,3.0])["concat"](-483497369);
+o45.h = o45;
+const v55 = new Proxy(v40, o45);
+v55.__proto__ = v41;

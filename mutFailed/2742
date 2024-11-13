@@ -1,0 +1,34 @@
+class C6 {
+    constructor(a8, a9, a10, a11) {
+        "split" | this;
+        const v13 = a8?.["split"];
+        v13[a8] = 268435439n;
+        function F14(a16, a17, a18) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                const t8 = "__proto__";
+                t8.g = a16;
+            } catch(e19) {
+            }
+            try {
+                this.e = a17;
+            } catch(e20) {
+            }
+        }
+        new F14(4294967297n, "split", a9);
+        new F14(16n, v13, a10);
+        new F14(a8, this, a9);
+    }
+}
+const t22 = "1339j";
+const v24 = new t22("1339j", 268435439n, 268435439n, "split");
+new C6("__proto__", 268435439n, 268435439n, "__proto__");
+new C6(16n, 4294967297n, "__proto__", "__proto__");
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F27(F27, F27, F27, F27);
+for (let v34 = 0; v34 < 25; v34++) {
+    const t31 = "1339j";
+    t31["p" + v24] = v34;
+}

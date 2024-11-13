@@ -1,0 +1,29 @@
+new Int16Array(9);
+new Float32Array(3);
+new Float64Array(3365);
+function f12() {
+    class C13 {
+        constructor(a15) {
+            const v16 = /[^7Y[a-zA-Z0-9]?]/vdmy;
+            for (let v17 = 0; v17 < 5; v17++) {
+                function f18() {
+                    const v20 = Array();
+                    let v21;
+                    try { v21 = v20.reduceRight(v16); } catch (e) {}
+                    return v21;
+                }
+                a15();
+            }
+        }
+    }
+    new C13();
+    new C13();
+    class C25 extends C13 {
+    }
+    new C25();
+    return C25;
+}
+%PrepareFunctionForOptimization(f12);
+f12();
+%OptimizeFunctionOnNextCall(f12);
+f12();

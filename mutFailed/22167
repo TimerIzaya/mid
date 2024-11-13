@@ -1,0 +1,34 @@
+class C3 {
+    static {
+        const v9 = Symbol.matchAll;
+        const t3 = "SXJ";
+        t3[v9] = v9;
+    }
+    static #e;
+    static {
+        const v11 = this[536870912];
+        try {
+            v11.#e = this;
+        } catch(e12) {
+        }
+        "SXJ" - v11;
+    }
+}
+new C3();
+new C3();
+new C3();
+new Uint16Array(3017);
+new Int32Array(3017);
+new Int8Array(257);
+function f28(a29) {
+    const o30 = {
+        ..."toStringTag",
+    };
+    return o30;
+}
+class C31 extends f28 {
+    ["15036"];
+}
+const v32 = new C31();
+for (const v33 in v32) {
+}

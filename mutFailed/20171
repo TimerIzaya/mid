@@ -1,0 +1,89 @@
+let v0 = -955242.1264898751;
+class C3 {
+    b = "m";
+    static e = "number";
+    static m(a5) {
+        v0 = a5;
+        return -19763;
+    }
+    static #g = "number";
+}
+try { new C3(); } catch (e) {}
+let v10;
+try { v10 = new C3(); } catch (e) {}
+v10.f = v10;
+const v11 = new C3();
+v11.b = v11;
+const v12 = new C3();
+const v13 = new C3();
+const v14 = v13?.constructor;
+let v15;
+try { v15 = new v14(); } catch (e) {}
+const v16 = v15?.constructor;
+try { new v16(); } catch (e) {}
+function f18(a19, a20, a21, a22) {
+    const v23 = a20?.constructor;
+    try { new v23(v14); } catch (e) {}
+    a21.b;
+    a19.b;
+    const o27 = {
+        9: a20,
+        __proto__: C3,
+        "e": a21,
+        "g": v11,
+        "d": C3,
+        ...v12,
+        "b": v11,
+        2: a21,
+        "c": C3,
+        "a": a19,
+    };
+    return o27;
+}
+const v28 = f18?.apply;
+try { new v28(v14, v10); } catch (e) {}
+const v30 = f18(v11, C3, v13, v0);
+f18(v0, v30, v13, v30).e;
+f18(v30, v13, v11, v12);
+class C34 {
+    constructor(a36, a37) {
+        try { a37.apply(a36, this); } catch (e) {}
+        try { this.constructor(a37, f18); } catch (e) {}
+        function f40(a41) {
+            for (let i45 = 0, i46 = 10;
+                (() => {
+                    const v47 = i45 < i46;
+                    const v50 = ([127,506635944,-9223372036854775808,5,-536870912,-12000821,2147483649]).toSpliced(-1148418937, -1148418937);
+                    v50[3] = v50;
+                    let v51 = 3375;
+                    const v52 = v51++;
+                    v52 / v52;
+                    const v54 = new BigUint64Array(v51);
+                    let [v55,,v56,...v57] = v54;
+                    return v47;
+                })();
+                ) {
+            }
+            return a36;
+        }
+        f40.name = f40;
+        try { ("function").replaceAll("function", v13); } catch (e) {}
+        const o65 = {
+            "type": "function",
+        };
+        const v66 = o65?.__lookupSetter__;
+        const v67 = v66?.apply;
+        try { new v67(this, Worker); } catch (e) {}
+        try { new v66(this); } catch (e) {}
+        new Worker(f40, o65);
+    }
+}
+const v71 = new C34(C34, C34);
+const v72 = v71?.__defineSetter__;
+try { new v72(f18, v30); } catch (e) {}
+const v74 = v71?.__defineSetter__;
+v74.e = v74;
+try { new v74(v30, v30); } catch (e) {}
+const v76 = new C34();
+v76.length;
+v76.length;

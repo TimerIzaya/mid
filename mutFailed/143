@@ -1,0 +1,68 @@
+function f0() {
+    const v1 = -Infinity;
+    -Infinity;
+    const o23 = {
+        "f": v1,
+        "a": v1,
+        "h": 1.0,
+        "d": v1,
+        6: v1,
+        p(a5, a6) {
+            return "C";
+        },
+        [v1](a11) {
+            let v14 = 10000;
+            const v15 = Math.tanh(-14);
+            const v16 = +a11;
+            const v17 = ++v14;
+            v16 * v17;
+            throw v15;
+            v17 instanceof f0;
+            this === arguments;
+            return a11;
+        },
+    };
+    return o23;
+}
+const v24 = f0();
+const v25 = v24();
+const v26 = f0();
+function f30(a31, a32) {
+    const o38 = {
+        "b": a31,
+        "d": -10,
+        get h() {
+            let v34;
+            try { v34 = this.assign(this); } catch (e) {}
+            const o35 = {
+                "apply": f0,
+                "call": f0,
+                "a": 0,
+                ...v24,
+                __proto__: v26,
+                2370: v26,
+                "c": this,
+                "construct": f0,
+                "defineProperty": f0,
+                "deleteProperty": f0,
+                "getPrototypeOf": f0,
+                "has": f0,
+                "isExtensible": f0,
+                "ownKeys": f0,
+                "preventExtensions": f0,
+                "set": f0,
+                "setPrototypeOf": f0,
+            };
+            new Proxy(v24, o35);
+            return v34;
+        },
+    };
+    return o38;
+}
+f30(v24, f0);
+f30(v24, v26);
+f30(v25, v24);
+[1000,10,10,-1];
+[-128,-54775,-1654345051,-268435456,1283883794,536870887,-1000755951];
+[-4294967297,-4294967296,-58489,-9007199254740991,9007199254740991,-9007199254740990,599782574,-7,9223372036854775807,-256];
+-9223372036854775808 & -9223372036854775808;

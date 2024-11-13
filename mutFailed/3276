@@ -1,0 +1,79 @@
+function f0() {
+    function F1() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    function F7(a9, a10) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v11 = this?.constructor;
+        try { new v11(0.29489550717955537, a9); } catch (e) {}
+        try { this.constructor(0.6822080711934364, this); } catch (e) {}
+        try {
+            this.f = 3.0;
+        } catch(e14) {
+        }
+    }
+    new Uint32Array(186);
+    const v20 = [2.0,-2.2250738585072014e-308,2.4617128810201834,0.8777478192033997,4.0,5.13369912480738,-0.6793749535317453];
+    const v22 = new Uint32Array(v20);
+    new Uint16Array(v22);
+    const o33 = {
+        "type": "toString",
+        get a() {
+            return this;
+        },
+        4294967296: "toString",
+        __proto__: "toString",
+        "a": "toString",
+        valueOf(a28) {
+            for (let v29 = 0; v29 < 28; v29++) {
+                const o30 = {
+                    ...v20,
+                    __proto__: v20,
+                    ..."getOwnPropertyNames",
+                    /*
+                    __proto__: v20,
+                    */
+                    "a": v29,
+                };
+                new Proxy("toString", o30);
+            }
+            return this;
+        },
+    };
+    return o33;
+}
+f0();
+f0();
+f0();
+function f37(a38, a39, a40) {
+    const o48 = {
+        toString(a42, a43, a44) {
+            a39 < this;
+            return super[a40];
+        },
+        get d() {
+            return this;
+        },
+    };
+    return o48;
+}
+%OptimizeFunctionOnNextCall(f37);
+([4.0,1.0,1000000.0,2.220446049250313e-16,533350.8402277301,-2.2250738585072014e-308,1000000.0,1.566394140636886]).toLocaleString().toUpperCase();
+function f60() {
+    const o67 = {
+        "e": -4294967295,
+        ..."Vre",
+        valueOf(a65, a66) {
+        },
+        ..."Vre",
+        4: "Vre",
+        "c": -268435456,
+        5: -4294967295,
+        6: -268435456,
+    };
+    return o67;
+    return "Vre";
+}
+RangeError[Symbol.toPrimitive] = f60;
+RangeError[0] = 9223372036854775807;
+new RangeError(RangeError);

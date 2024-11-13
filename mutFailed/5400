@@ -1,0 +1,15 @@
+[64631,-9007199254740990,-9223372036854775808,-60280,24878,-30692,-53830,2147483648];
+[4,4,58912,-1857297730,255,1073741824,-4,536870887,-1024,1073741824];
+[-64563,-2];
+class C12 {
+}
+for (let v13 = 0; v13 < 5; v13++) {
+    function f14() {
+        const v16 = Symbol.toPrimitive;
+        const v18 = ("bigint").description.codePointAt(C12);
+        v18 >> v18;
+        return v16;
+    }
+    v13();
+    %OptimizeFunctionOnNextCall(f14);
+}

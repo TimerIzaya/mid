@@ -1,0 +1,43 @@
+class C3 {
+    b = "symbol";
+    constructor(a5, a6) {
+        new Int8Array(102);
+        new BigUint64Array(2574);
+        new Uint8ClampedArray(1000);
+    }
+}
+const v16 = new C3(-4096, "symbol");
+const v17 = new C3(v16, C3);
+const v18 = new C3(v16, "symbol");
+function f19(a20, a21, a22, a23) {
+    const o24 = {
+        [v18]: a21,
+        ...a22,
+        "e": a21,
+        "g": a23,
+        "b": a21,
+        __proto__: a20,
+        ..."symbol",
+        "f": "symbol",
+        ...v16,
+        [a23]: a20,
+        "h": 937.4710746242897,
+    };
+    return o24;
+}
+const v25 = f19(C3, v16, v16, v17);
+f19(f19(v18, v17, v16, v25), v17, v25, 937.4710746242897);
+let v36 = 127;
+v36 * v36;
+24555 - -2.0;
+--v36;
+BigUint64Array | -2.0;
+C3[v18] &= -2.0;
+C3[3203300011];
+Object.defineProperty(v18, 80, { configurable: true, enumerable: true, get: f19, set: f19 });
+try {
+    new Float64Array("valueOf");
+} catch(e49) {
+}
+const t41 = "undefined";
+t41["256"] <<= 4.0;

@@ -1,0 +1,111 @@
+function f0() {
+}
+const v1 = [1481421996];
+const v2 = [-910253690,1024,-4294967295];
+const v3 = [4294967296,1720333009,-128];
+const v7 = [3];
+const v8 = [3,v2,v7];
+const v9 = [f0,v3];
+function f10(a11, a12, a13, a14) {
+    const o15 = {
+        __proto__: a12,
+        "d": v9,
+        "a": 3,
+        "e": 1755037681,
+        1000: a13,
+        "f": 3,
+        ...a13,
+        "h": v9,
+        127: v9,
+        ...a14,
+        "g": v7,
+        "c": a11,
+    };
+    return o15;
+}
+f10(1755037681, v9, v8, v2);
+f10(1755037681, v7, v1, v9);
+f10(3, v8, v9, v3);
+function f19() {
+    const o28 = {
+        ["1073741824"]: 268435441,
+        874720287: 268435441,
+        get d() {
+            try { this.m(268435441, this, this); } catch (e) {}
+            const o25 = {
+            };
+            return Proxy("1073741824", o25);
+        },
+        ["species"]: "1073741824",
+    };
+    return o28;
+}
+const v29 = f19(f19);
+const v30 = f19();
+const v31 = f19();
+v31[1073741824] = v31;
+function F32(a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v36 = this?.constructor;
+    try { new v36(a34, v29); } catch (e) {}
+    a34[1073741824] = a34;
+    try {
+        this.g = a35;
+    } catch(e38) {
+    }
+}
+F32.length;
+const v40 = new F32(v31, v29);
+const v41 = new F32(v31, v30);
+const v42 = new F32(v29, v30);
+function f43(a44, a45, a46) {
+    a46.g = a46;
+    const o52 = {
+        "a": a45,
+        get e() {
+            v31 & this;
+            return (a45 == a45 ? a45 : a45)[15];
+        },
+        ...a46,
+        "c": v41,
+        "f": v42,
+    };
+    return o52;
+}
+const v53 = f43(v40, v40, v41);
+v53.c = v53;
+f43(v40, v42, v42, v53, f19, v53);
+const t76 = 3;
+t76(v41, v40, v40);
+58091 >> 58091;
+Uint8ClampedArray.length;
+try { Uint16Array.from(v41); } catch (e) {}
+const v69 = new Uint16Array();
+try { v69.entries(); } catch (e) {}
+try { ("minor").anchor(v40); } catch (e) {}
+const o76 = {
+    "type": "minor",
+};
+gc(o76);
+Array(228);
+class C79 {
+}
+const v80 = new C79();
+const v81 = v80?.constructor;
+try { new v81(); } catch (e) {}
+const v83 = new C79();
+const v84 = v83?.constructor;
+try { new v84(); } catch (e) {}
+new Float64Array(Float64Array, Float64Array, gc);
+Float32Array.e = Float32Array;
+new Uint8Array(6);
+function F97() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C99 {
+}
+const v100 = new C99();
+ReferenceError.captureStackTrace(F97, v100);
+const v103 = [1000000000000.0,6.579220753226213e+307,2.0,-2.220446049250313e-16,NaN,-1000000.0];
+gc.caller = gc;
+v103["findIndex"](gc);

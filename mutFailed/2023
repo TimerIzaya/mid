@@ -1,0 +1,22 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a6;
+    } catch(e7) {
+    }
+    try {
+        this.g = 4294967296n;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(4294967296n, 4294967296n);
+new F3(52237n, v9);
+new F3(4294967296n, 52237n);
+new Map();
+let v19 = 0;
+do {
+    const o21 = {
+    };
+    o21(o21);
+    v19++;
+} while (v19 < 5)

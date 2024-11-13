@@ -1,0 +1,50 @@
+function f0() {
+    const o7 = {
+        [127]: 127,
+        set e(a5) {
+            throw this;
+            function f6() {
+                return 127;
+            }
+        },
+        "e": "b",
+        "h": 355551.2467350259,
+        "c": 355551.2467350259,
+        "g": 127,
+    };
+    return o7;
+}
+f0();
+f0();
+f0();
+const v13 = new Uint32Array(2);
+new Int16Array(999);
+new Float64Array(9);
+class C20 {
+}
+const v21 = new C20();
+const v22 = [];
+v22.toString = f0;
+function f23(a24, a25, a26, a27) {
+    function f28() {
+        try {
+            v22.length = 2;
+        } catch(e30) {
+        }
+        return v13;
+    }
+    a25[Symbol.toPrimitive] = f28;
+    function f33() {
+        ("Vre").startsWith(a24);
+        const o36 = {
+            [v22]: v21,
+        };
+        return C20;
+    }
+    f33();
+    %OptimizeFunctionOnNextCall(f33);
+    return a25;
+}
+for (let v38 = 0; v38 < 5; v38++) {
+    f23(f23, v22, v38, v21);
+}

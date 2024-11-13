@@ -1,0 +1,68 @@
+class C3 {
+    static m(a5, a6) {
+        try { this.toString(a6, 184894.67464159266, 0.7352046532678617); } catch (e) {}
+        const o14 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o14);
+        return a6;
+    }
+}
+const v16 = new C3();
+const v17 = new C3();
+const v18 = new C3();
+function f20(a21, a22, a23) {
+    const o38 = {
+        __proto__: v16,
+        get h() {
+            this[C3];
+            let v26 = 0;
+            do {
+                const v30 = 9007199254740990 >>> -9704;
+                Math.sign(9007199254740990);
+                const v32 = v18 | v30;
+                9007199254740990 + v18;
+                v32 >>> v30;
+                v26++;
+            } while (v26 < 4)
+            return this;
+        },
+    };
+    return o38;
+}
+f20(C3, v17, v18);
+f20(f20(v18, C3, v17), C3, C3);
+[13,127,10,65536,536870887,-56696,-226074873,256,-39190];
+[2,16,15,558574833,9,257];
+[-2,-4,-4096,64,10000];
+const v47 = new Uint8Array(127);
+function f48(a49, a50) {
+    const o51 = {
+    };
+    function f52() {
+        try {
+            f20(20725, a49, undefined);
+        } catch(e55) {
+        }
+        return C3;
+    }
+    o51[Symbol.toPrimitive] = f52;
+    function f58(a59) {
+        return Symbol.isConcatSpreadable;
+    }
+    Object.defineProperty(o51, "toString", { enumerable: true, value: f58 });
+    return o51;
+}
+for (let v62 = 0; v62 < 25; v62++) {
+    const v63 = f48();
+    v63[Symbol.toPrimitive] = f20;
+    Object.defineProperty(v63, v62, { enumerable: true, get: f48, set: f48 });
+    v47[v63] = v63;
+    const o68 = {
+        "execution": "sync",
+    };
+    Object.defineProperty(o68, "type", { configurable: true, value: Symbol });
+    o68.type = Uint8Array;
+    gc(o68);
+}

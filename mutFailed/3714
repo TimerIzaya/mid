@@ -1,0 +1,48 @@
+function f3(a4, a5) {
+    const o6 = {
+        [a4]: -2,
+        __proto__: -2,
+        "a": -15812,
+        268435456: -2,
+        4: -15812,
+        "g": -15812,
+        "f": a4,
+        "b": -2,
+        [-128]: -2,
+        ...a5,
+        "species": -2,
+        "h": -15812,
+    };
+    return o6;
+}
+const v7 = f3(-15812, -2);
+f3(-15812, -2, -2);
+f3(-15812, -128);
+class C18 {
+}
+const v19 = new v7();
+const v20 = new C18();
+const v21 = new C18();
+function f22(a23, a24) {
+    const o36 = {
+        "h": v19,
+        [2.0](a26, a27, a28) {
+            super[37065];
+        },
+        set b(a31) {
+        },
+        [a24]: v19,
+        __proto__: C18,
+        "c": 9,
+        set h(a33) {
+        },
+        o(a35) {
+            return v20;
+        },
+    };
+    return o36;
+}
+%PrepareFunctionForOptimization(f22);
+f22(isFinite, v21);
+%OptimizeFunctionOnNextCall(v19);
+f22(f22, 37065);

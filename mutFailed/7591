@@ -1,0 +1,72 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        this.toString = f0;
+        new Int32Array(1751);
+        9 / 9;
+        try {
+            this.valueOf = C1;
+        } catch(e8) {
+        }
+        new Int32Array(9);
+        new Float64Array(1707);
+    }
+}
+const v14 = new C1();
+let v15 = new C1();
+const v16 = new C1();
+function f17() {
+    return f0;
+}
+Object.defineProperty(v16, "toString", { writable: true, configurable: true, get: f17 });
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v16;
+    try {
+        this.g = C1;
+        function F22() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.p896 = F22;
+            for (let v24 = 0; v24 < 1000; v24++) {
+                const v26 = "p" + v24;
+                v26.fontcolor();
+                this[v26] = v24;
+            }
+        }
+        new F22();
+        new F22();
+    } catch(e30) {
+    }
+}
+let v31 = new F18(C1, f0);
+const v32 = new F18(v31, v15);
+const v33 = new F18(C1, v15);
+const v34 = [-9223372036854775808,-36845,588526187,-2533,-65537,12];
+[-41790,-2147483649,2,-2241,268435441,15];
+[-2147483647,-9007199254740992,536870889,1,-1024,6,14];
+v32[v34] = v31;
+try {
+    v14.h = v31;
+} catch(e40) {
+}
+class C41 {
+}
+function f42(a43, a44) {
+}
+f42.prototype = f42;
+%OptimizeFunctionOnNextCall(f42);
+f42();
+function F46(a48, a49, a50) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v51 = this.constructor;
+    try { new v51(a50, C41); } catch (e) {}
+    a48 % a48;
+}
+const v54 = new F46(820, 121, 129);
+v15 = v54;
+f0();
+let {"c":v56,"length":v57,} = v34;
+try { v16.toString(f42, v33, v16, v33); } catch (e) {}
+v31 = v32;
+new F46(820, 121);

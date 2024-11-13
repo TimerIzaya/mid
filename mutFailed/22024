@@ -1,0 +1,29 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 255;
+    } catch(e6) {
+    }
+}
+new F3(1073741824);
+const v8 = new F3(F3);
+new F3(v8);
+new Int32Array(48493, 536870888, v8, v8);
+new Uint16Array(3462);
+new Promise(3537);
+function f19(a20, a21, a22, a23) {
+    function f24() {
+        function f25(a26) {
+            return f19;
+        }
+        f25(f25, a20, f19);
+        return f19;
+    }
+    f24();
+    f24();
+    %OptimizeFunctionOnNextCall(f24);
+    return a21;
+}
+f19();
+new Uint8Array(268435440);
+f19();

@@ -1,0 +1,95 @@
+const v0 = [-58600,52558,1000];
+const v1 = [-14,-9007199254740992];
+const v2 = [9007199254740992,255,-9223372036854775807,4294967296,-8,16,4294967295];
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v1;
+    } catch(e7) {
+    }
+    try {
+        this.e = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(v0, v2);
+let v10 = new F3(v2, v1);
+const v11 = new F3(v0, v1);
+function f12(a13, a14, a15, a16) {
+    const o20 = {
+        "g": a16,
+        "h": a14,
+        "f": v1,
+        m(a18, a19) {
+            v10 >>= v11;
+            v9[0] = a15;
+            %VerifyType(a13);
+            return v11;
+        },
+        "a": F3,
+        "c": v1,
+        ...a16,
+        "e": f12,
+    };
+    return o20;
+}
+const v21 = f12(v11, v0, v1, v1);
+const v22 = f12(v2, v0, v1, v0);
+const v23 = f12(f12, v0, v2, v2);
+function f24(a25, a26, a27, a28) {
+    const o38 = {
+        589368619: a25,
+        "g": a25,
+        "f": a26,
+        "c": a26,
+        "h": a25,
+        toString(a30, a31) {
+            function f32(a33, a34) {
+                try {
+                    a33.h = a30;
+                } catch(e35) {
+                }
+            }
+            new Promise(Promise);
+            return a30;
+        },
+    };
+    return F3;
+}
+f24(v23, v21, v1, v0);
+f24(v22, v21, v0, f24(v22, v9, v0, v9));
+for (let v42 = 0; v42 < 5; v42++) {
+    const v45 = new F3(4046);
+    function f46(a47, a48) {
+        function F49(a51) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        class C52 extends F49 {
+        }
+        const v53 = new v1();
+        v53.constructor;
+        const o55 = {
+        };
+        for (const v56 in o55) {
+        }
+        let o57 = {
+        };
+        [,...o57] = v45;
+        function f58(a59, a60) {
+            class C61 {
+                constructor(a63, a64) {
+                    const o66 = {
+                    };
+                    gc(o66);
+                }
+            }
+            for (let v68 = 0; v68 < 25; v68++) {
+                new C61(a59, a47);
+            }
+            return C61;
+        }
+        new Promise(f58);
+        return o57;
+    }
+    f46();
+}

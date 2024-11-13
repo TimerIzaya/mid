@@ -1,0 +1,72 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 65536;
+    } catch(e3) {
+    }
+    try {
+        this.d = 65536;
+    } catch(e4) {
+    }
+    try {
+        this.b = 65536;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+let v8 = new F0();
+class C9 extends F0 {
+    static get c() {
+        const v11 = v7 <= this;
+        if (v11) {
+            F0 * v11;
+        } else {
+            c = this;
+        }
+        return v7;
+    }
+    #p(a14, a15) {
+        v8 = this;
+        try {
+            new a15();
+        } catch(e17) {
+        }
+        return v8;
+    }
+}
+new C9();
+new C9();
+const v20 = new F0();
+new Uint16Array(3624);
+new Float64Array(64);
+new Int8Array(2953);
+class C33 {
+    get b() {
+        const v35 = ("B")[21];
+        try {
+            v20.e = "B";
+        } catch(e36) {
+        }
+        return v35;
+    }
+    static [2.0];
+    static #g;
+    g = "d";
+}
+const v37 = new v20();
+const v38 = new C33();
+const v39 = new C33();
+const v42 = new Uint8Array(7);
+new BigInt64Array(1221);
+let v48 = new Uint8ClampedArray(5);
+try { v38(1221, v38, "d", v39); } catch (e) {}
+const o50 = {
+    __proto__: v42,
+    "h": v42,
+    "a": v37,
+};
+Math.clz32(-53409);
+const v55 = -53409 % v48;
+--v48;
+-1000.0 && v55;

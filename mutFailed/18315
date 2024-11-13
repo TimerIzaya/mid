@@ -1,0 +1,16 @@
+new BigUint64Array(6);
+const t1 = 6;
+new t1(161);
+const v8 = new Uint8Array(Uint8Array);
+new Float32Array(v8);
+new Uint8Array(6);
+new Int32Array(127);
+const v20 = new Uint32Array(256);
+function f21() {
+    v20[3] = "-26733";
+    return "-26733";
+}
+%PrepareFunctionForOptimization(f21);
+f21();
+%OptimizeFunctionOnNextCall(f21);
+f21();

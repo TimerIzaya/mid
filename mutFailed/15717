@@ -1,0 +1,42 @@
+function f3() {
+    return 2.220446049250313e-16;
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = this;
+    try {
+        this.a = 710.9629368614128;
+    } catch(e8) {
+    }
+}
+new F4(2.220446049250313e-16, 2.220446049250313e-16);
+const v10 = new F4(2.220446049250313e-16, -2.0);
+const v11 = new F4(2.220446049250313e-16, v10);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a15;
+    } catch(e16) {
+    }
+    try {
+        this.e = a14;
+    } catch(e17) {
+    }
+    try {
+        this.g = 2.220446049250313e-16;
+    } catch(e18) {
+    }
+}
+new F12(710.9629368614128, 2.220446049250313e-16);
+new F12(-2.0, f3);
+new F12(v11, 2.220446049250313e-16);
+function f22() {
+    const v24 = new Uint16Array();
+    const v25 = v24.fill(v11, Uint16Array, f22);
+    v25.entries(f22, v25, v24, v25, v24).next();
+    return Uint16Array;
+}
+f22.toString = f3;
+%PrepareFunctionForOptimization(-2.0);
+%OptimizeFunctionOnNextCall(F4());
+f22();

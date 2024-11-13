@@ -1,0 +1,67 @@
+[-3.0,170788.25265510753,0.18544569172866654,2.0,0.7050287546038755];
+const v1 = [150.4100934120022,0.5924405871395024];
+const v2 = [4.687126927539717];
+try { new WeakSet(); } catch (e) {}
+new WeakSet();
+class C7 {
+    get e() {
+        for (let i10 = 0; 8 < 8; i10++) {
+        }
+        return v1;
+    }
+}
+const v19 = new C7();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+new C7();
+const v23 = new C7();
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.toString(); } catch (e) {}
+    const v29 = a27?.constructor;
+    try { new v29(); } catch (e) {}
+    try {
+        this.h = a27;
+    } catch(e31) {
+    }
+    try {
+        this.d = v1;
+    } catch(e32) {
+    }
+    try {
+        this.e = v2;
+    } catch(e33) {
+    }
+}
+const v34 = new F24(v23, v23);
+const v35 = new F24(v34, v34);
+v35.d = v35;
+new F24(v34, v23);
+let v39 = -1.7976931348623157e+308;
+v39++;
+class C41 {
+}
+const v42 = new C41();
+function f43() {
+    function f44(a45) {
+        function f46() {
+            return a45;
+        }
+    }
+    return f44;
+}
+v42.toString = f43;
+const v47 = v42?.__defineSetter__;
+try { new v47(v35, v35); } catch (e) {}
+v42.toLocaleString(v42, C41, C41, v42).normalize();
+function f51() {
+    const v54 = 2 !== 2;
+    v54 && v54;
+    const v57 = new Int16Array(2);
+    const v58 = new Uint16Array(v57);
+    v58.toString = f51;
+    v58[1] = v58;
+    return v54;
+}
+const v61 = new BigInt64Array(218);
+v61.sort(f51);

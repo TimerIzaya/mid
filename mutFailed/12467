@@ -1,0 +1,87 @@
+function f0() {
+    let v3 = "3";
+    const o11 = {
+        5: "l",
+        set h(a5) {
+            function f6(a7, a8) {
+                'use strict';
+                v3 = a8;
+                v3 -= a5;
+                try {
+                    this.valueOf = v3;
+                } catch(e9) {
+                }
+                return a8;
+            }
+            f6("G", this);
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+const v16 = new WeakMap();
+class C20 extends f0 {
+    [v16] = v14;
+    #b = v13;
+    constructor(a22, a23, a24, a25) {
+        super();
+        [a24,v13,v16];
+        [this,a24,a23,f0];
+        [a23];
+    }
+    d;
+    [9007199254740991n] = v12;
+    static [v16];
+    static h = -65537n;
+}
+new C20(-65537n, v14, C20, 6n);
+const v30 = new C20(9007199254740991n, v14, v16, 6n);
+const v31 = new C20(6n, v12, v13, 9007199254740991n);
+function F34(a36) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v37 = new F34(536870889);
+with (v37) {
+    let v38 = 10;
+    for (; v38--;) {
+    }
+}
+for (let [v41,...v42] of "atan2") {
+}
+const v45 = new Float32Array(2);
+const o63 = {
+    set d(a47) {
+        for (let v48 = 0; v48 < 25; v48++) {
+        }
+    },
+    o(a50) {
+        const o52 = {
+        };
+        ("atan2")[a50];
+        super.b /= 536870889;
+        super[v30[8]];
+        v13[1000];
+        gc(o52);
+    },
+    m(a59) {
+    },
+    set d(a61) {
+        for (let v62 = 0; v62 < 25; v62++) {
+        }
+    },
+};
+const o65 = {
+    "d": 2,
+    [-1]: v31,
+    [v14]: WeakMap,
+    "b": 9007199254740991n,
+    [v31]: F34,
+};
+const v67 = new Uint32Array(Uint32Array, o65);
+o63["o"](o63, Uint32Array, "o", "o", v67);
+const v71 = new Int32Array(v45, v67);
+const v72 = v45;
+const v73 = v71.fill(...Float32Array);
+try { v73.lastIndexOf(v73); } catch (e) {}

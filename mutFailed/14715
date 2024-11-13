@@ -1,0 +1,55 @@
+function f0() {
+    const o10 = {
+        __proto__: "-16",
+        "a": 1073741824,
+        [1073741824]: "-16",
+        p(a5) {
+            const v6 = ("-16")[1073741824];
+            const o7 = {
+            };
+            new Proxy("symbol", o7);
+            return v6;
+        },
+        "f": 1073741824,
+        ["symbol"]: 1073741824,
+        "d": 1073741824,
+    };
+    return o10;
+}
+const v11 = f0();
+f0();
+f0();
+new Float32Array(257);
+new Float32Array(512);
+BigInt64Array.toString = f0;
+new BigInt64Array(0);
+class C23 extends f0 {
+    static set h(a25) {
+        v11[Symbol.iterator] = this;
+        super.h = this;
+    }
+    d;
+    h = 512;
+    static #e;
+    [BigInt64Array];
+    #c = 512;
+}
+new C23();
+new C23();
+new C23();
+const v34 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v35 = 0; v35 < 5; v35++) {
+    function f36() {
+        try {
+            v34.forEach();
+        } catch(e38) {
+            e38.a = e38;
+        }
+        const v40 = Symbol.toPrimitive;
+        v40.description;
+        Symbol.for();
+        return v40;
+    }
+    f36();
+    %OptimizeFunctionOnNextCall(f36);
+}

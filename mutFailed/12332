@@ -1,0 +1,62 @@
+function f0() {
+    const o4 = {
+        "d": 536870889,
+    };
+    const v6 = new SharedArrayBuffer(217, o4);
+    new Uint8Array(v6, SharedArrayBuffer);
+    const o13 = {
+        __proto__: "iKd",
+        get c() {
+            return -675809817;
+        },
+        ["iKd"]: "iKd",
+        ..."iKd",
+        "c": "iKd",
+        2147483648: -675809817,
+        "b": "iKd",
+        "h": "iKd",
+        4294967295: "iKd",
+    };
+    return o13;
+}
+const v14 = [1000,9,10,16,4096,-4242,65535,62011,6,7];
+const v15 = [];
+let v16 = 14047n;
+for (let v19 = 0; v19 < 500; v19++) {
+    let v22 = 2 < Uint8Array;
+    let v23 = v15 >>> v15;
+    [v16,...v22] = v14;
+    v23++;
+}
+f0();
+function f26() {
+    const o27 = {
+    };
+    const v28 = o27.__defineGetter__;
+    let v29;
+    try { v29 = v28(); } catch (e) {}
+    return v29;
+}
+for (let v30 = 0; v30 < 5; v30++) {
+    f26();
+    %OptimizeFunctionOnNextCall(f26);
+}
+f0();
+f0();
+[3,-4096,-33293];
+[2,25133,10];
+[-565035525,-527667891,-536870912,-11,-1051354631,1024,268435456,1774659801,-216615155];
+new isFinite();
+function f42(a43, a44) {
+    const o45 = {
+        ...a43,
+    };
+    o45.d;
+    return f42;
+}
+f42.d = f42;
+%PrepareFunctionForOptimization(f42);
+const t58 = f42();
+t58(f42);
+%OptimizeFunctionOnNextCall(f42);
+f42();

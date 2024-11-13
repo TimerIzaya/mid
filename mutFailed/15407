@@ -1,0 +1,44 @@
+class C3 {
+    constructor(a5, a6) {
+        const t2 = "function";
+        t2[4] &= a5;
+        const v7 = super.h;
+        try {
+            v7.toString = a5;
+        } catch(e8) {
+        }
+    }
+    c;
+    static #c;
+    static #h = -9007199254740990;
+    g;
+}
+const v9 = new C3("function", C3);
+new C3("function", v9);
+new C3(C3, -3096);
+const v13 = C3 && v9;
+new WeakMap();
+const v20 = new Float64Array(4096);
+const v23 = v13.h;
+function f24() {
+    return v23;
+}
+try { v13.setUTCDate(v20, v20); } catch (e) {}
+new Uint8ClampedArray(4);
+new Uint8Array(6);
+const v30 = /(x)(x)(x)\1/uis;
+function f31(a32, a33, a34, a35) {
+    const o42 = {
+        2: a34,
+        __proto__: a35,
+        [v30](a37, a38, a39, a40) {
+            super.test();
+        },
+    };
+    return a32;
+}
+%PrepareFunctionForOptimization(f31);
+f31();
+f31();
+%OptimizeFunctionOnNextCall(f31);
+f31();

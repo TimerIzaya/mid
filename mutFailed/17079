@@ -1,0 +1,18 @@
+new Int16Array(94);
+const v8 = new Int32Array(6);
+new Uint32Array(6);
+function f12(a13, a14, a15, a16) {
+    function f18() {
+        return arguments;
+    }
+    new a14();
+    v8.g;
+    %OptimizeFunctionOnNextCall(a14);
+    ("find").codePointAt(f18);
+    return arguments;
+}
+for (let v24 = 0; v24 < 10; v24++) {
+    f12();
+}
+%OptimizeFunctionOnNextCall(f12);
+f12();

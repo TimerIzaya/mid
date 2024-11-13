@@ -1,0 +1,79 @@
+class C3 {
+    get h() {
+        const v5 = super.b;
+        let v6 = 0;
+        while (v6 < 7) {
+            v5[10] = this;
+            delete this?.b;
+            v6++;
+        }
+        return -1000000000000.0;
+    }
+    e = -728714874;
+}
+const v11 = new C3();
+const v12 = new C3();
+function f13(a14, a15) {
+    a14[268435440] **= -1000000000000.0;
+    const o16 = {
+    };
+    return v11;
+}
+v12[Symbol.toPrimitive] = f13;
+const v19 = new C3();
+function f20(a21, a22) {
+    const o35 = {
+        [a21]: C3,
+        1: C3,
+        set a(a24) {
+            let v27 = -51074;
+            Math.tan(v12);
+            ++v27;
+            Math.sqrt(v19);
+            Math.asin(v19);
+            v27++;
+            Math.atanh(v19);
+        },
+    };
+    return o35;
+}
+const v36 = f20(v12, v11);
+const v37 = f20(v12, v19);
+f20(v12, v12);
+function F39(a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = this;
+    try {
+        this.g = a42;
+    } catch(e43) {
+    }
+    try {
+        this.f = a41;
+    } catch(e44) {
+    }
+    try {
+        this.h = a42;
+    } catch(e45) {
+    }
+}
+const v46 = new F39(v36, v36);
+new F39(v37, v46);
+new F39(C3, -728714874);
+const v49 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v50 = 0; v50 < 5; v50++) {
+    function f51() {
+        try {
+            v49.forEach();
+        } catch(e53) {
+            e53.constructor = f20;
+            e53.message;
+            const v55 = e53.constructor();
+            const o56 = {
+                "execution": v55,
+            };
+        }
+        return f51;
+    }
+    f51.call(v49, f51, v49, f51);
+    %OptimizeFunctionOnNextCall(f51);
+}

@@ -1,0 +1,11 @@
+new Int16Array(2147483647);
+new Uint16Array(16);
+new Uint32Array(6);
+function F16(a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    a18 ^ a18;
+    const v20 = this?.constructor;
+    try { new v20(3n); } catch (e) {}
+}
+new Int16Array(0n);
+new F16(349865170n);

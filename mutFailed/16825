@@ -1,0 +1,39 @@
+[-2.220446049250313e-16,2.2250738585072014e-308,-5.0,0.8462871989048016,1000000.0];
+[-5.0,0.42872995694089744,1.7976931348623157e+308,-2.2250738585072014e-308];
+[-1.0,-1e-15,-442674.804585353,4.988397530742327e+307,-328213.33704688144,-4.0,0.6206900032877797,1.0622914048710055e+308,-252101.39177360013];
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a8;
+    try {
+        this.e = a9;
+    } catch(e10) {
+    }
+    try {
+        this.f = a8;
+    } catch(e11) {
+    }
+}
+new F6(-208104036, -208104036);
+new F6(-208104036, -876773245);
+new F6(-876773245, -208104036);
+new Set();
+for (let v17 = 0; v17 < 5; v17++) {
+    function f18() {
+        for (let v19 = 0; v19 < 5; v19++) {
+            function f20() {
+                [Math.atanh(v19)];
+                return Math;
+            }
+            f20();
+            %OptimizeFunctionOnNextCall(f20);
+        }
+        const o26 = {
+        };
+        Object.defineProperty(o26, "constructor", { writable: true, value: f18 });
+        const t32 = o26.constructor;
+        return t32(128);
+    }
+    f18();
+    f18();
+    %OptimizeFunctionOnNextCall(f18);
+}

@@ -1,0 +1,55 @@
+const v1 = new Map();
+class C2 extends Map {
+    static set c(a4) {
+        for (let i6 = 0; i6 < 4; i6++) {
+            let {"e":v12,"g":v13,...v14} = this;
+        }
+    }
+    36;
+    static #e;
+}
+const v15 = new C2();
+const v16 = new C2(C2, Map);
+const v17 = new C2();
+function f18(a19, a20, a21) {
+    const o25 = {
+        "PI": a21,
+        get b() {
+            try {
+                super.any(a19, this, v1, this, Map);
+            } catch(e24) {
+            }
+            return v1;
+        },
+        ...a21,
+        "d": a19,
+        [a21]: v17,
+        9: v15,
+        [a20]: v1,
+        ...a19,
+    };
+    return o25;
+}
+f18(v15, v1, v16);
+f18(v15, v1, v1);
+f18(v17, v15, v1);
+new Date();
+let v34 = 2;
+v34++;
+function f36(a37) {
+    a37 === a37;
+    a37 <= a37;
+    const o43 = {
+        __proto__: v34,
+        213: a37,
+        ...a37,
+        "g": v34,
+        p(a41, a42) {
+            return f36;
+        },
+    };
+}
+%PrepareFunctionForOptimization(f36);
+const v44 = f36();
+%OptimizeFunctionOnNextCall(f36);
+f36(v44);

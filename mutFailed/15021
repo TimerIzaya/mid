@@ -1,0 +1,39 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = this;
+    try {
+        this.c = -9223372036854775807;
+    } catch(e3) {
+    }
+    try {
+        this.b = -9223372036854775807;
+    } catch(e4) {
+    }
+    try {
+        this.d = -9223372036854775807;
+    } catch(e5) {
+        try {
+            e5.b = this;
+        } catch(e6) {
+        }
+        try { e5(F0); } catch (e) {}
+    }
+}
+const v8 = new F0();
+new F0();
+const v10 = new F0();
+new v10(131);
+[-31078,-19766,5,-1,2098501253,-12809,-1,4294967296,-2147483647];
+const v17 = [-16,-2,268435439,536870912,268435456,-4096,36490,243701376];
+const v18 = [8981,4294967295,-4,1073741823,-163394178];
+try {
+    v18.__proto__ = v17;
+} catch(e19) {
+}
+new Int32Array(16);
+Math.cos(-1567809689);
+new BigUint64Array(2261);
+const v32 = new Date();
+v32.setFullYear(-12);
+new Uint8Array(127);
+v8.fill();

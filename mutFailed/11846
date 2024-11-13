@@ -1,0 +1,64 @@
+function f7() {
+    return 257;
+}
+function f8() {
+    return f7;
+}
+function f9(a10, a11, a12, a13) {
+    const o17 = {
+        __proto__: a13,
+        "c": 169754212,
+        [8]: a10,
+        ...a11,
+        ...a11,
+        set h(a15) {
+            try {
+                a15.a = 3;
+            } catch(e16) {
+            }
+        },
+    };
+    return o17;
+}
+f9(169754212, 257, 3, 8);
+f9(3, 257, -1749784831, f7);
+f9(8, f8, 3, 3);
+const v22 = new WeakSet();
+let v24 = 5;
+v24++;
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this?.constructor;
+    try { new v32(v22); } catch (e) {}
+    a30 + a30;
+    try {
+        this.d = 1000;
+    } catch(e35) {
+    }
+    try {
+        this.c = v24;
+    } catch(e36) {
+    }
+    try {
+        this.b = undefined;
+    } catch(e37) {
+    }
+}
+new F28(v22, v22);
+const v39 = new F28(v24, 1449111164);
+v39.c = v39;
+const v40 = new F28(v24, v24);
+v40.toString = f8;
+new F28(v40, v24);
+-1024 - -1024;
+0.0 / 0.0;
+-4294967295 & -4294967295;
+-1 >>> -1;
+let v60 = [-883936.0401947303,9.41640124927378e+307,0.060305085001335246];
+v60 /= v60;
+function f63() {
+    delete arguments.callee;
+    return arguments;
+}
+f63();
+gc();

@@ -1,0 +1,119 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 4;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+const v7 = [-1000000.0,1.2447871437442695e+308,2.0,-1.7099107331057683e+308,0.0];
+function F8() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v10 = this.constructor;
+    let v11;
+    try { v11 = new v10("constructor", "constructor", v10, v10); } catch (e) {}
+    const v12 = this.valueOf(v7);
+    switch (v7) {
+        case "constructor":
+            v12 < v11;
+            break;
+    }
+}
+const v15 = new F8();
+const v16 = new v15();
+function F17(a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const o22 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        const t31 = "minor";
+        t31.d = F0;
+    } catch(e23) {
+    }
+    try {
+        this.e = v16;
+        function f24() {
+            return v7;
+        }
+        const v25 = f24();
+        function f26(a27, a28) {
+            const o30 = {
+                get d() {
+                    return this;
+                },
+            };
+            return v25;
+        }
+        f26(f26());
+    } catch(e33) {
+    }
+}
+const v34 = new v7(v5);
+const v35 = new F17(v5);
+const v36 = new F17(v16);
+function f37(a38, a39, a40, a41) {
+    const o65 = {
+        __proto__: a39,
+        toString(a43, a44, a45, a46) {
+            const v47 = v16 != a43;
+            %VerifyType(v47);
+            super.e <<= -v47;
+            try {
+                BigInt(BigInt);
+            } catch(e52) {
+            }
+            const v53 = Symbol.iterator;
+            const o64 = {
+                [v53]() {
+                    let v55 = 10;
+                    const o63 = {
+                        "d": v55,
+                        [v55]: v34,
+                        "e": v55,
+                        toString() {
+                            super[this];
+                        },
+                        ...Symbol,
+                        next() {
+                            v55--;
+                            const v61 = v55 == 0;
+                            const o62 = {
+                                "done": v61,
+                                "value": v55,
+                            };
+                            return o62;
+                        },
+                    };
+                    return o63;
+                },
+            };
+            return o64;
+        },
+    };
+    return o65;
+}
+f37(v35, v34, f37(v35, v35, v36, v5), v5);
+const v68 = f37(v36, v35, v36, v5);
+new Uint8Array(256);
+new Int16Array(1546);
+class C78 {
+    static {
+        let v81 = -4294967296;
+        ++v81;
+    }
+}
+new Int16Array(v16);
+268435441n << 268435441n;
+class C87 extends Date {
+}
+function F88(a90, a91) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        ["function",[9007199254740992,-13,1,206834672,5792,16,856414023,8,2147483648]];
+        new v68();
+    } catch(e96) {
+    }
+}

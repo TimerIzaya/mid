@@ -1,0 +1,60 @@
+function f3() {
+    return "string";
+}
+class C4 extends f3 {
+    constructor(a6, a7) {
+        super();
+        const v8 = a6.__proto__;
+        super[v8];
+        super[C4];
+        %VerifyType("3");
+        a6 = v8;
+        const o13 = {
+            "maxByteLength": 4294967296,
+        };
+        const v15 = new SharedArrayBuffer(129, o13);
+        new Int16Array(v15);
+    }
+    h = "3";
+    /*
+    constructor(a19, a20) {
+        super();
+        const t21 = "then";
+        t21[a19] >>>= f3;
+        [536870912,1073741824,-4096,9007199254740991,-4096,-11936,-28831,-65535,11];
+        [-15,64,9007199254740991,6,127,-2078475005,-2147483648,7,-1251002805,2147483647];
+        [-848612412,-6,4294967297,6,16,-1024,-4,127,-1024,-983651114];
+    }
+    */
+    77 = "3";
+    static get e() {
+        const v25 = ("then").__proto__;
+        try {
+            new f3();
+        } catch(e27) {
+            const t34 = "3";
+            t34[1235] = v25;
+            e27 + this;
+            const o31 = {
+                "maxByteLength": 1072,
+            };
+            const v33 = new ArrayBuffer(7, o31);
+            new BigUint64Array(v33);
+        }
+        return v25;
+    }
+}
+new C4("string", "string");
+const v37 = new C4("3", "string");
+new C4("3", "3");
+new Int8Array(2);
+try {
+    v37.valueOf = f3;
+} catch(e43) {
+}
+new C4("string", "then");
+new Uint32Array(6);
+new BigInt64Array(3);
+for (let v51 = 0; v51 < 10; v51++) {
+    (759956410).__defineGetter__;
+}

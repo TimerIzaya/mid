@@ -1,0 +1,99 @@
+const v2 = new Uint8Array(891);
+function f3(a4, a5) {
+    function f6() {
+        return a4;
+    }
+    return a4;
+}
+v2[Symbol.toPrimitive] = f3;
+function F9() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.valueOf = f3;
+    for (let v11 = 0; v11 < 50; v11++) {
+        v11 << v11;
+        for (let v13 = 0; v13 < 25; v13++) {
+            this[this + v13] = v13;
+        }
+    }
+}
+new F9();
+new F9();
+new Float64Array(3);
+const v23 = new Float32Array(129);
+class C24 extends Float32Array {
+    [v2];
+    n(a26, a27, a28) {
+        function F29(a31, a32, a33, a34) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = a34;
+            } catch(e35) {
+            }
+            try {
+                this.e = a32;
+            } catch(e36) {
+            }
+            try {
+                this.g = a34;
+            } catch(e37) {
+            }
+        }
+        const o38 = {
+        };
+        try {
+            o38.c = Float32Array;
+        } catch(e39) {
+        }
+        try {
+            const o40 = {
+            };
+            o40.c = Float32Array;
+            o40.e = Float32Array;
+        } catch(e41) {
+        }
+        try {
+            const o42 = {
+            };
+            o42.c = Float32Array;
+            o42.e = Float32Array;
+            o42.g = a28;
+        } catch(e43) {
+        }
+        try {
+            const o44 = {
+            };
+            o44.c = Float32Array;
+            o44.e = Float32Array;
+            o44.g = v23;
+        } catch(e45) {
+        }
+        const v46 = new F29(a28, a28, 3, 129);
+        new F29(129, a27, a27, 3);
+        const v48 = new F29(3, a27, 3, 891);
+        v48[15] = v46;
+        let {"a":v49,} = a28;
+        return a28;
+    }
+}
+new C24();
+new F9();
+new C24();
+Float32Array[Symbol.iterator] = Symbol;
+const v59 = new Float32Array(Float32Array);
+for (let v60 = 0; v60 < 25; v60++) {
+    function f61(a62, a63, a64, a65) {
+        a62[1];
+        for (let v68 = 0; v68 < 5; v68++) {
+        }
+        arguments.__lookupGetter__;
+        try { a65.constructor(); } catch (e) {}
+    }
+    f61(-2140942176, 4, f61, 129);
+    try {
+        v59.length = 1;
+    } catch(e77) {
+    }
+    for (let v78 = 0; v78 < 10; v78++) {
+        f61(v59);
+    }
+}

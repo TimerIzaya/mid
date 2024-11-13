@@ -1,0 +1,29 @@
+class C3 {
+    3;
+    e;
+    get b() {
+        let v6 = -4294967295;
+        const v8 = -1000000.0 + -1e-15;
+        Math.trunc(v6);
+        (-1000000000.0).cbrt(-1e-15);
+        ~-1000000000.0;
+        v6--;
+        return v8;
+    }
+}
+let v13;
+try { v13 = C3.call(1e-15); } catch (e) {}
+const v14 = new C3();
+const v15 = new C3();
+v13[3];
+const v17 = new C3();
+const v18 = [v14,-1000000.0,v17,v17,-1000000.0];
+const v20 = [[v15,C3,v18,v18,v18],-1000000.0,-1000000.0,1e-15];
+try { v20.entries(); } catch (e) {}
+for (let v22 = 0; v22 < 5; v22++) {
+    function f24() {
+        return Math.cos(Math);
+    }
+    v22();
+    %OptimizeFunctionOnNextCall(f24);
+}

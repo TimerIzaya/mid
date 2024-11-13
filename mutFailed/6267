@@ -1,0 +1,36 @@
+const t0 = 255;
+const v2 = new t0(255);
+let v3 = 512;
+function f5() {
+    const v7 = new Set();
+    v7.add(v7);
+    return v7;
+}
+%PrepareFunctionForOptimization(f5);
+f5();
+%OptimizeFunctionOnNextCall(f5);
+f5();
+new BigUint64Array(v3);
+let v12 = 6;
+const v14 = new BigInt64Array(v12);
+class C15 {
+    get b() {
+        ({"e":v12,"f":v3,} = this);
+        for (let v17 = 0; v17 < 32; v17++) {
+            v14["p" + v17] = v17;
+        }
+        return v14;
+    }
+    #c;
+}
+new C15();
+new C15();
+new C15();
+const v24 = [-2,257,-107178159,-35269,9223372036854775807,1203530861,-32678];
+const o25 = {
+};
+const v27 = new Proxy(v24, o25);
+const o28 = {
+    __proto__: v27,
+    "e": v2,
+};

@@ -1,0 +1,60 @@
+const v2 = new Uint8ClampedArray(9);
+const v5 = new BigInt64Array(223);
+const v8 = new Float64Array(13);
+%VerifyType(v8);
+function f9() {
+    return v5;
+}
+try {
+    v2.__proto__ = v8;
+} catch(e10) {
+}
+class C11 {
+    static {
+        213845065 && Math;
+        const v17 = 213845065 & 223;
+        v17 >> v17;
+    }
+    static get a() {
+        try {
+            v5.buffer = v2;
+        } catch(e20) {
+        }
+        super.d = BigInt64Array;
+        C11 = v5;
+        let v21;
+        try { v21 = new Uint8ClampedArray(...this, 13, f9, this, 13, this); } catch (e) {}
+        try {
+            const o22 = {
+            };
+            v8.forEach(v21, o22);
+        } catch(e24) {
+        }
+        const v25 = v5 | v2;
+        new Map();
+        /ab\b\d\bcd/uy;
+        /[[\p{Script_Extensions=Mongolian}&&\p{Number}]?]/dy;
+        /(ab|cde)Ka\sc/uiy;
+        return v25;
+    }
+}
+new Float64Array();
+const v32 = new C11();
+new C11();
+for (let v38 = 0; v38 < 5; v38++) {
+    function f39() {
+        let v40 = "Vre";
+        let v41 = v40.codePointAt(v38);
+        const v42 = v41--;
+        ({"a":v40,"e":f39,...f39} = C11);
+        v32[102] <<= v40;
+        try {
+            C11.__proto__ = v40;
+        } catch(e43) {
+        }
+        v41 * v42;
+        return C11;
+    }
+    f39();
+    %OptimizeFunctionOnNextCall(f39);
+}

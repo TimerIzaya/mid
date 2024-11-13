@@ -1,0 +1,92 @@
+let v0 = "string";
+class C3 {
+    ["symbol"] = "string";
+    constructor(a5, a6) {
+        a6[0] = this;
+        v0 = a5;
+        for (let v7 = 0; v7 < 58; v7++) {
+            class C8 {
+            }
+            const v10 = new Map();
+            let v11;
+            try { v11 = v10.keys(); } catch (e) {}
+            v11.__lookupGetter__;
+            ("boolean").normalize("NFKD");
+        }
+    }
+    static #a = "string";
+    ["string"];
+    /*
+    constructor(a17, a18) {
+        function f19(a20) {
+            return this;
+        }
+        const o23 = {
+            "type": "function",
+        };
+        new Worker(f19, o23);
+    }
+    */
+    static d = v0;
+    f;
+}
+const v25 = new C3(v0, "string");
+const v26 = new C3("string", "string");
+const v27 = new C3("string", "symbol");
+function f28(a29, a30) {
+    const o42 = {
+        "f": a29,
+        "g": C3,
+        "a": v0,
+        "b": a30,
+        __proto__: a30,
+        "h": v25,
+        get d() {
+            a30[this] = a29;
+            return "string";
+        },
+        [a29]: "symbol",
+        toString(a33, a34, a35, a36) {
+            f28 instanceof a33;
+            try { a36.trimEnd(); } catch (e) {}
+            return "-1024";
+        },
+        [a29]: v27,
+        "c": v27,
+        "d": "symbol",
+        2307819295: C3,
+    };
+    return o42;
+}
+const v43 = f28(v0, v0);
+const v44 = f28(v43, "string");
+const v45 = f28("string", "string");
+function f46(a47, a48, a49) {
+    const o67 = {
+        "h": C3,
+        toString(a51, a52, a53, a54) {
+            return "symbol";
+        },
+        m(a57) {
+            return a57;
+        },
+        [v45]: a47,
+        valueOf(a59, a60, a61, a62) {
+            a48 in a48;
+            a60 - this;
+            for (let v65 = 0; v65 < 10; v65++) {
+                try {
+                    a60.__proto__ = v26;
+                } catch(e66) {
+                }
+            }
+            return a59;
+        },
+        "e": a48,
+    };
+    return o67;
+}
+f46(v43, v44, "symbol");
+f46(v43, v25, "symbol");
+f46(v44, v27, v0);
+Float32Array.bind();

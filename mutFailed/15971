@@ -1,0 +1,54 @@
+const v0 = [];
+const v2 = new WeakSet();
+function f3(a4) {
+    new WeakSet(a4);
+}
+Object.defineProperty(v2, "g", { writable: true, set: f3 });
+const v6 = [10000,-2,255,268435440];
+const v7 = [12,-1365936121,29606,1073741825,16,256,536870889,-1,-13];
+const v8 = [-47168,536870912,4294967297,-45885,-9007199254740990,7,-9223372036854775807];
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v8;
+    try {
+        this.e = v7;
+    } catch(e15) {
+    }
+    try {
+        v2.g = a11;
+    } catch(e16) {
+    }
+}
+const v17 = new F9(v7, v0, v6, v7);
+new F9(v8, v8, v0, v0);
+const v19 = new F9(v8, v0, v0, v7);
+class C20 {
+    static toString(a22, a23, a24) {
+        const v25 = super.g;
+        try {
+            v19.toString = v25;
+        } catch(e26) {
+        }
+        return v17;
+    }
+    set a(a28) {
+        this[C20.matchAll] = v19;
+    }
+}
+new C20();
+new C20();
+new C20();
+for (let v34 = 0; v34 < 5; v34++) {
+    function f35() {
+        for (let [i39, i40] = (() => {
+                [0.38057796469390925,-3.0,-518688.06248081743,-2.0,107.8968501375,-400463.65452600387,-222.36741891958593,-1000.0,-5.415934286194992,1000000000000.0];
+                return [0, 0];
+            })();
+            i39 < i39;
+            ) {
+        }
+        return WeakSet;
+    }
+    f35();
+    %OptimizeFunctionOnNextCall(f35);
+}

@@ -1,0 +1,117 @@
+const v0 = /(?:a?)+2foo(?!bar)baz/gvmy;
+const v1 = /La\nb\bc?/gudms;
+const v2 = /a.ow^xxx$*/gums;
+class C3 {
+    constructor(a5) {
+        const v6 = /ab|c/vimy;
+        /\b(?=.)a3m/vs;
+        /[\c~][\cj\cJ\ci\cI\ck\cK]/dimy;
+        a5 * v0;
+        const v11 = [v6];
+        Reflect.apply(v2.compile, v6, v11);
+    }
+    static [v2] = v1;
+    static #g = v0;
+    static 10;
+    static h = v2;
+    [v2];
+}
+const v14 = new C3(v2);
+const v15 = new C3(v1);
+const v16 = new C3(v14);
+const v17 = [v16,v0,v0,v15,v16];
+const v18 = [v17,v14,v2,v1];
+[v2,v1];
+class C23 extends C3 {
+    static p(a25, a26, a27) {
+        const v28 = v18 >= this;
+        const v29 = v28 ? v18 : this;
+        v29[v28] = v29;
+        return this;
+    }
+    #c = v17;
+    constructor(a31, a32, a33, a34) {
+        super(a34);
+        let {"g":v35,} = this;
+        a33[v35];
+        7 - 7;
+        (v0 * v0) - 7;
+    }
+}
+const v42 = new C23(v1, v0, v1, v14);
+new C23(v16, v1, v14, v15);
+new C23(v2, v0, v16, v42);
+const v45 = /(?<a>.)\k<a>?/vdimsy;
+let v46;
+try { v46 = v45(); } catch (e) {}
+const v47 = [];
+function f48(a49) {
+    try {
+        v47.some();
+    } catch(e51) {
+        e51.stack;
+    }
+    return a49;
+}
+f48(f48);
+v47.toString = f48;
+const o55 = {
+    __proto__: v47,
+    [v47]() {
+    },
+};
+o55.toString(f48);
+const v57 = [v46,v46,v46,v46];
+const v59 = new BigInt64Array();
+function f61() {
+    3.4890473589784586e+307 === 3.4890473589784586e+307;
+    let v64 = 1000000000000.0;
+    const v65 = v64--;
+    let v67 = 257828.6336153492;
+    const v69 = -v57;
+    -(v69 && v57);
+    v67--;
+    class C74 {
+        static #m(a76) {
+        }
+        constructor(a78) {
+            const v80 = new Float32Array();
+            v80.entries().next();
+            const v83 = new Uint16Array(12, -4294967296, v65);
+            new Float32Array(v83);
+        }
+    }
+    try { new C74(); } catch (e) {}
+    try { new C74(); } catch (e) {}
+    const v88 = Symbol.iterator;
+    Math[v88] = v88;
+    try { v59.reduce(v46); } catch (e) {}
+    const v90 = new C74();
+    const v91 = new C74();
+    try { v91.propertyIsEnumerable(v69); } catch (e) {}
+    const v93 = new C74();
+    const v94 = [];
+    const v95 = [v93];
+    v95[0];
+    class C97 extends C74 {
+        [v90];
+        #n(a99, a100, a101, a102) {
+            return v95;
+        }
+    }
+    const v103 = new C97();
+    const v104 = v95.constructor;
+    new v104();
+    class C106 extends v104 {
+    }
+    const v107 = new C106();
+    v107.constructor.bind(v67);
+    Object.defineProperty(v107, 65537, { value: v91 });
+    try { v103.m(v94); } catch (e) {}
+    return v46;
+}
+%PrepareFunctionForOptimization(f61);
+f61();
+f61();
+%OptimizeFunctionOnNextCall(f61);
+f61();

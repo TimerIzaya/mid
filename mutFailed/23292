@@ -1,0 +1,75 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 65535;
+    } catch(e3) {
+    }
+}
+function f4() {
+    return Promise.all();
+}
+const v7 = f4();
+%OptimizeFunctionOnNextCall(f4);
+const v8 = new F0();
+new F0();
+new F0();
+const v13 = new Float64Array(6, v8, F0, 6);
+const v16 = new Uint16Array(136);
+try { v16.find(v16); } catch (e) {}
+const v20 = new Int32Array(2);
+const v21 = v20?.constructor;
+try { new v21(Float64Array, v20, 6); } catch (e) {}
+const v23 = [-6.672391061426152e+307];
+function f25() {
+    let v26 = 8n;
+    function f27() {
+        const o28 = {
+        };
+        return o28;
+    }
+    f27();
+    const v30 = v26++;
+    const v32 = [v26] > v26;
+    v32 || v32;
+    const v35 = v23["pop"]();
+    v35 >>> v35;
+    ~v35;
+    let v38 = 0;
+    1814769353 >> 1814769353;
+    const o42 = {
+        "maxByteLength": 1814769353,
+    };
+    const v45 = new BigUint64Array(1349);
+    new Uint16Array(7);
+    const v51 = new Int32Array(64);
+    let v52 = 12;
+    v52--;
+    const v54 = new SharedArrayBuffer(v52, o42);
+    v54.byteLength = v54;
+    let v55;
+    try { v55 = v54.grow(-10); } catch (e) {}
+    v13.indexOf(v7, ...v45, v55, v30, v8, v51);
+    v8 - Int32Array;
+    /a\nWlO/vdimy;
+    /Ya.y*/gudisy;
+    /H/gvimy;
+    Uint32Array.e = Uint32Array;
+    while ((() => {
+            const v63 = v38 < 10;
+            v63 || v63;
+            v63 || v63;
+            return v63;
+        })()) {
+        for (let v66 = 0; v66 < 5; v66++) {
+            const t63 = "n";
+            t63[0] = "n";
+            ("n" + v66)[1];
+        }
+        v38++;
+    }
+    return v32;
+}
+%PrepareFunctionForOptimization(f25);
+f25();
+%OptimizeFunctionOnNextCall(f25);
+f25(f25, Uint16Array, Float64Array);

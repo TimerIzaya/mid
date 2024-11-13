@@ -1,0 +1,30 @@
+function f5(a6, a7) {
+    const v8 = [];
+    const o10 = {
+        toString() {
+            return this;
+        },
+        3950: v8,
+    };
+    return o10;
+}
+Uint32Array[Symbol.iterator] = f5;
+new Uint32Array(Uint32Array);
+new Uint16Array(9);
+new Float32Array(127);
+Uint8Array[1] = Float32Array;
+const v24 = new Uint8Array(Uint8Array);
+function f25(a26, a27, a28, a29) {
+    const v30 = a28++;
+    v30 * v30;
+    a28 % a28;
+    const o33 = {
+        ...v24,
+    };
+    o33[2];
+    try { o33.n(a27); } catch (e) {}
+    return a28;
+}
+for (let v36 = 0; v36 < 500; v36++) {
+    f25();
+}

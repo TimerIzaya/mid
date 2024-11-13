@@ -1,0 +1,39 @@
+class C3 {
+    m(a5, a6) {
+        const v8 = Symbol.unscopables;
+        a5[v8];
+        try {
+            v8.fuck(a5, this);
+        } catch(e11) {
+        }
+        return 17616;
+    }
+    static #a;
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a18;
+    } catch(e21) {
+    }
+}
+const v22 = new F15(v14, v12, v13, v14);
+new F15(v12, v13, v14, v13);
+new F15(v13, v13, v13, v22);
+for (let v25 = 0; v25 < 5; v25++) {
+    function f26() {
+        const v29 = new Uint8ClampedArray(798);
+        const v30 = new Uint8ClampedArray(v14);
+        f26 && v30;
+        f26[v30];
+        v30[v22];
+        v30 ** 798;
+        new Uint8ClampedArray(798, ...v29, eval());
+        return v25;
+    }
+    F15();
+    %OptimizeFunctionOnNextCall(f26);
+}

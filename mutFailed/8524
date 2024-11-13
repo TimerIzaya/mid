@@ -1,0 +1,73 @@
+const v0 = [0.2340549796709036,1.0];
+function f1(a2, a3) {
+    let v4;
+    try { v4 = a2(); } catch (e) {}
+    try {
+        a2.valueOf = v4;
+    } catch(e5) {
+    }
+    return a2;
+}
+v0.toString = f1;
+const v6 = [-2.220446049250313e-16,1.7976931348623157e+308,0.23544178333110055];
+const v7 = [0.0,-1000000.0,-672030.184583784,0.7007551227320402,-276.88827025705814,1e-15];
+function f8(a9, a10) {
+    function f11() {
+        function f12() {
+            const o14 = {
+                "execution": "async",
+            };
+            return o14;
+        }
+        return f12;
+    }
+    function f15(a16) {
+        function F17() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+    }
+    Object.defineProperty(a9, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f11, set: f15 });
+    const o34 = {
+        __proto__: v7,
+        [v0](a22) {
+            Math.sign(1731629071);
+            Math.trunc(1);
+            Math.clz32(1);
+            Math.cos(a9);
+            Math.cos(a9 || 1731629071);
+            Math.asin(-1.0);
+            return -1.0;
+        },
+    };
+    return o34;
+}
+const v35 = f8(v7, v0);
+f8(v7, v0);
+const v37 = f8(v0, v6);
+function f38(a39, a40, a41, a42) {
+    const o43 = {
+        "b": f8,
+        __proto__: a42,
+        "g": v7,
+        "c": v7,
+        194: f8,
+        "d": a42,
+        ...a39,
+        [f8]: f8,
+        "f": a42,
+        ...v37,
+        "a": f8,
+        ...v37,
+        "e": a41,
+    };
+    return a42;
+}
+const v46 = f38(v6, f38(v6, f38(v35, v35, v7, v6), v37, v37), v37, v37);
+function f47() {
+    return v46;
+}
+[4294967297,65536,14,0,-2,1216176653];
+[-4,-9];
+[-13,4];
+const t68 = [v46];
+t68[536870912] = Int16Array;

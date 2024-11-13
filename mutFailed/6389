@@ -1,0 +1,94 @@
+function f0() {
+    let v2 = "log10";
+    const o11 = {
+        "g": -268435456,
+        ...v2,
+        [-268435456](a5, a6) {
+            super[a5] = a6 = -268435456;
+            289776381 & f0;
+            v2 = "p";
+            return this;
+        },
+        1024: -268435456,
+        ...v2,
+        "e": -268435456,
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0(v12, v12);
+const v14 = f0();
+v13[4] = v14;
+function f15() {
+    return v14;
+}
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v20 = this?.propertyIsEnumerable;
+    try { new v20(v13); } catch (e) {}
+    try {
+        this.h = a19;
+    } catch(e22) {
+    }
+    try {
+        this.d = a19;
+    } catch(e23) {
+    }
+    try {
+        this.e = v12;
+    } catch(e24) {
+    }
+}
+const v25 = new F16(v13, v14, f15);
+v25.g = v25;
+const v26 = new F16(v12, v13);
+new F16(v13, v13);
+class C28 extends F16 {
+    [F16] = v12;
+    #m(a30, a31) {
+        try {
+            v12.f = f0;
+        } catch(e32) {
+        }
+        try { v12.seal(a30); } catch (e) {}
+        this[v26];
+        const v36 = Symbol.iterator;
+        const o45 = {
+            [v36]() {
+                let v38 = 10;
+                const o44 = {
+                    next() {
+                        const v40 = v38--;
+                        const v42 = v38 == 0;
+                        const o43 = {
+                            "done": v42,
+                            "value": v40,
+                        };
+                        return o43;
+                    },
+                };
+                return o44;
+            },
+        };
+        return o45;
+    }
+}
+new C28();
+const v47 = new v13();
+new v47();
+function f49() {
+    return v13;
+}
+3.0 - 3.0;
+let v53 = 7.990708387591279e+306;
+v53++;
+for (let v55 = 0; v55 < 5; v55++) {
+    function f56() {
+        45725n + 45725n;
+        const v59 = 45725n === 45725n;
+        v59 || v59;
+        return f56;
+    }
+    f56();
+    %OptimizeFunctionOnNextCall(f56);
+}

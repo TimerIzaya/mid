@@ -1,0 +1,90 @@
+function f6() {
+    return -1024;
+}
+function f7() {
+    return 63755;
+}
+function f8(a9, a10, a11) {
+    Worker(f7);
+    const v16 = new Int16Array(5);
+    const o28 = {
+        p(a18, a19, a20) {
+            a10?.[a10];
+            a18.g ^= a11;
+            return a20;
+        },
+        536870888: 536870887n,
+        __proto__: a10,
+        "c": 757677293,
+        "e": 757677293,
+        4: 5,
+        set b(a23) {
+        },
+        4294967296: 5,
+        n(a25, a26) {
+            a11(v16, a10);
+            return f7;
+        },
+        "d": a9,
+        "b": f7,
+        "h": a11,
+        ...a10,
+        ...a10,
+    };
+    return o28;
+}
+f8(49062n, 536870887n, -1024);
+const v31 = f8(536870887n, f8(536870887n, -53411n, -1024), -1024);
+class C32 {
+    b = -53411n;
+    set g(a34) {
+        try {
+            new f8(-53411n, /foo(?<!bar)baz/gumy, 757677293);
+        } catch(e37) {
+        }
+    }
+    d = 757677293;
+    c;
+    h;
+    static 6;
+    static 3;
+    8;
+}
+const v38 = new C32();
+delete v38[C32];
+try {
+    C32.__proto__ = v31;
+} catch(e40) {
+    class C42 {
+        [720972705n];
+        #p(a44, a45, a46, a47) {
+            super.m();
+        }
+    }
+}
+new C32();
+new C32();
+class C53 {
+    static {
+        this.f += "MAX_SAFE_INTEGER";
+    }
+    static #a = "undefined";
+}
+for (let v55 = 0; v55 < 5; v55++) {
+    const t73 = "undefined";
+    t73["p" + v55] = v55;
+    ("symbol").replace("bigint");
+    function F61() {
+        if (!new.target) { throw 'must be called with new'; }
+        this.h = 0;
+    }
+    class C64 extends F61 {
+        #b;
+        constructor(a66) {
+            super();
+            delete this.h;
+            super.h = this;
+            /\1\2(a(?:\1(b\1\2))\2)\1()l/udm;
+        }
+    }
+}

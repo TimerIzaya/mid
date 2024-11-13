@@ -1,0 +1,32 @@
+127 === 127;
+class C7 {
+    257 = 0.0;
+    static toString(a9, a10, a11, a12) {
+        let v13;
+        try { v13 = this(a10, a10, this); } catch (e) {}
+        let v14;
+        try { v14 = new v13(a9, 2147483647, a10, 0.0, ...a9); } catch (e) {}
+        v14.h -= a11;
+        %VerifyType(0.0);
+        %VerifyType(this);
+        return a10;
+    }
+    static #c = 0.0;
+}
+const v15 = new C7();
+v15[257] = v15;
+const v16 = new C7();
+v16[257] = v16;
+const v17 = new C7();
+v17[257];
+function f21(a22, a23, a24) {
+    return true;
+}
+("function").length;
+const v28 = [188,true];
+v28[1] = v28;
+const o29 = {
+    "arguments": v28,
+    "type": "function",
+};
+new Worker(f21, o29);

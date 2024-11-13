@@ -1,0 +1,62 @@
+class C3 {
+    static n(a5) {
+        try {
+            this.length = 65535;
+        } catch(e7) {
+        }
+        try { C3.n(-268435456); } catch (e) {}
+        return -268435456;
+    }
+    #c = 1024;
+    static #a = 10000;
+    static [1024] = 10000;
+    static #e = -268435456;
+}
+const v9 = new C3();
+new C3();
+const t16 = -268435456;
+const v11 = new t16();
+class C12 extends C3 {
+    static {
+        try {
+            C3.g = this;
+        } catch(e14) {
+        }
+        try {
+            this.valueOf = v9;
+        } catch(e15) {
+        }
+    }
+    d;
+    #e = -268435456;
+    static [1024];
+}
+new C12();
+new C12();
+new C12();
+function f20() {
+    const v22 = new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+    new Int8Array(v22);
+    return f20;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+v11();
+new EvalError(8);
+new Float32Array(3419);
+const t47 = 3419;
+new t47(1);
+function f36() {
+    function f38(a39) {
+        const v43 = 10 ** 5;
+        BigInt.clz32(2089625166);
+        2089625166 >> v43;
+    }
+    this.onmessage = f38;
+    Symbol.replace;
+}
+const o50 = {
+    "type": "function",
+};
+new Worker(f36, o50);

@@ -1,0 +1,19 @@
+new Float32Array(255);
+new Float64Array(16);
+const v8 = new Float32Array(16);
+const v11 = new Uint32Array(64);
+new Int16Array(153);
+new Int32Array(168);
+const v18 = [601759695];
+const v19 = [427812215,61195,-2147483647,4096,-2147483647,30905];
+function f20(a21, a22, a23, a24) {
+    try { a23.find(a21, a23, a22, v19, a22); } catch (e) {}
+    try { v19["find"](..."find", a24, ...v18, ...v19); } catch (e) {}
+    return a21;
+}
+f20(v18, f20, v19, f20);
+for (let v29 = 0; v29 < 5; v29++) {
+    f20(v18, v29, false);
+}
+%OptimizeFunctionOnNextCall(v8);
+v11();

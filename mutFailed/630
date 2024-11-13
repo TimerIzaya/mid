@@ -1,0 +1,46 @@
+function f3(a4) {
+    const o15 = {
+        ...1073741824,
+        "f": 1073741824,
+        get b() {
+            new Uint32Array(1915);
+            new Float32Array(13);
+            new Float64Array(2813);
+            return 1073741824;
+        },
+    };
+    return o15;
+}
+let v16 = f3(10);
+Object.defineProperty(v16[f3], 10, { writable: true, set: f3 });
+const v20 = ++v16;
+Math.fround(v16);
+const v22 = -v20;
+v16 >> v16;
+(~v22 ** v20) % -1546736995;
+const v27 = f3(10);
+v27.d = v27;
+const v28 = f3(268435440);
+class C29 extends f3 {
+    static 128;
+    static #p(a31, a32, a33, a34) {
+        try {
+            v28.length = 127;
+        } catch(e36) {
+        }
+        return a34;
+    }
+    #c;
+    [v28] = v28;
+}
+C29.caller = C29;
+const v37 = new C29();
+v37.d = v37;
+new C29();
+new C29();
+const v40 = [-4];
+try {
+    new BigUint64Array(v40);
+} catch(e43) {
+    e43.b = e43;
+}

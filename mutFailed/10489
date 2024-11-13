@@ -1,0 +1,75 @@
+function f0() {
+}
+class C4 extends f0 {
+    constructor(a6, a7) {
+        super();
+        Object.defineProperty(this, 7, { configurable: true, value: -1 });
+        let v12 = Int16Array;
+        v12--;
+        function f14() {
+            v12--;
+            class C17 {
+                static #m(a19) {
+                }
+                set d(a21) {
+                    this.#m();
+                }
+                constructor(a24) {
+                    function f25() {
+                        return this;
+                    }
+                    Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f25 });
+                }
+            }
+            const v26 = new C17();
+            v26.g = v26;
+            const v27 = new C17();
+            v27.length = -4294967296;
+            v27.length;
+            let v29 = 0;
+            for (let i = 0; i < 5; i++) {
+                for (let v30 = 0; v30 < 5; v30++) {
+                    const t31 = "string";
+                    t31["p" + v30] = v30;
+                }
+                v29++;
+            }
+            const v34 = new C17(v29);
+            [v34,v34,v34,v34,v34];
+            const v36 = [v34];
+            class C37 extends C17 {
+                [v26];
+                #n(a39, a40, a41, a42) {
+                }
+                #g;
+            }
+            const v43 = new C37();
+            v36.constructor;
+            let v45;
+            try { v45 = v43.m(); } catch (e) {}
+            return v45;
+        }
+        %PrepareFunctionForOptimization(f14);
+        f14();
+        %OptimizeFunctionOnNextCall(f14);
+        f14();
+    }
+    static 873004318;
+    static 3;
+    static [-1] = 9007199254740990;
+    #c = -9223372036854775807;
+}
+new C4(9007199254740990, 9007199254740990);
+new C4(9007199254740990, 9007199254740990);
+new C4(-1, 9007199254740990);
+[Infinity,0.8333897201712472,NaN];
+[-125989.71847706172,-853.5223072714988];
+[-2.220446049250313e-16,-Infinity,0.0,0.7249489316386786,1000000.0,-1.7976931348623157e+308,-1.5016017877549541e+308,9.238324970027278];
+function f54() {
+    return f54;
+}
+class C55 extends f54 {
+}
+const v56 = new C55();
+const t73 = v56.constructor;
+t73().name;

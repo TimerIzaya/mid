@@ -1,0 +1,76 @@
+let v0 = 1073741824n;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a5;
+    try {
+        this.b = a5;
+    } catch(e6) {
+    }
+}
+function f7() {
+    function f8(a9, a10) {
+        const o14 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o14);
+        return -65535n;
+    }
+    return f8;
+}
+Object.defineProperty(F3, "valueOf", { writable: true, configurable: true, get: f7 });
+const v16 = new F3(9n);
+let v17 = new F3(9n);
+new F3(v0);
+class C19 {
+    valueOf(a21, a22, a23) {
+        Math[a21] = a21;
+        this.__proto__;
+        const o30 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o30);
+        const v33 = -65535n >>> -65535n;
+        v0++;
+        -65536 >>> -65535n;
+        (v33 << v0) + 4294967295;
+        return v33;
+    }
+    #g;
+}
+new C19();
+const v39 = new C19();
+v39[10] = v39;
+new C19();
+v39[10];
+function f43(a44, a45) {
+    function f46(a47, a48, a49, a50) {
+        const o51 = {
+        };
+        return o51;
+    }
+    f46();
+    return C19;
+}
+Proxy[Symbol.toPrimitive] = f43;
+C19[Proxy];
+v17 ||= v16;
+~F3;
+new Int8Array(140);
+new Int32Array(1251);
+new Float64Array(15);
+const v66 = [-2.220446049250313e-16,-6.9960895637188125,4.1724406514239416e+307,0.22217900637554078,1000000000.0,-1e-15,1000000000.0,0.39864764958879706,1000000.0,2.2250738585072014e-308];
+new Date(9223372036854775807);
+for (let v70 = 0; v70 < 99; v70++) {
+    const o71 = {
+        "call": Date,
+        "get": Date,
+        "getPrototypeOf": Date,
+        "isExtensible": Date,
+        "preventExtensions": Date,
+        "setPrototypeOf": Date,
+    };
+    new Proxy(v66, o71);
+}
+v66[792746597] ||= v66.reduce(Date);

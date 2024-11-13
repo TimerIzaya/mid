@@ -1,0 +1,32 @@
+const v11 = new Uint8Array(1);
+function f12(a13) {
+    const v16 = new Int8Array(2509);
+    return v16;
+}
+v11[Symbol.toPrimitive] = f12;
+const v21 = new Uint32Array(2);
+v11 >> 4294967296;
+("-2147483647")["toLowerCase"]();
+function f29(a30, a31) {
+    'use strict';
+    for (let v32 = 0; v32 < 32; v32++) {
+        v21["p" + v32] = v32;
+    }
+    return a31;
+}
+f29("-4294967297", 4294967296);
+new Float64Array(1);
+for (let v38 = 0; v38 < 10; v38++) {
+    function f39(a40, a41, a42) {
+        f39(a42, 2147483648, a42);
+        %PrepareFunctionForOptimization(a41);
+        f39(a42, 2147483648, a42);
+        f39(a42, 2147483648, a42);
+        %OptimizeFunctionOnNextCall(f39);
+        f39(a42, 2147483648, a42);
+        return a40;
+    }
+    const t28 = f39.constructor;
+    t28();
+    gc();
+}

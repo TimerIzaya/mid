@@ -1,0 +1,41 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v3 = this.constructor;
+    let v4;
+    try { v4 = new v3(v3); } catch (e) {}
+    Object.defineProperty(this, "c", { enumerable: true, set: v4 });
+}
+new Int16Array(512);
+/(?<=)(?:a+)?A[z-\d]?/i;
+const v12 = new Uint8Array(127);
+new Uint32Array(Uint8Array);
+const t11 = null;
+new t11(0);
+new v12(8);
+new Uint8ClampedArray(9);
+new Int8Array(512);
+new Uint16Array(512);
+function f32() {
+    const o35 = {
+        "maxByteLength": 6,
+    };
+    new SharedArrayBuffer(128, o35);
+    const t22 = 4087;
+    t22.arguments = 4087;
+    const v42 = new Float32Array(4061);
+    v42.indexOf();
+    const v44 = Array(4087);
+    v44[4037] = v44;
+    for (const v45 of v44) {
+    }
+    return Array;
+}
+%PrepareFunctionForOptimization(f32);
+f32();
+const v48 = new Float32Array();
+v48.entries().next();
+function F51(a53, a54) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+%OptimizeFunctionOnNextCall(f32);
+f32();

@@ -1,0 +1,99 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+Object.defineProperty(f0, "toString", { writable: true, enumerable: true, get: f1 });
+class C2 {
+    static n() {
+        let v4;
+        try { v4 = this.codePointAt(); } catch (e) {}
+        let {"b":v5,"f":v6,} = v4;
+        try { new v6(v5, f0, v6, v4, this); } catch (e) {}
+        v5 >>>= v6;
+        v4 ** this;
+        return v4;
+    }
+    static #g;
+    static #c = f0;
+    [f0];
+    static [f0];
+    11 = f0;
+}
+const v9 = new C2();
+const v10 = new C2(v9, C2);
+const v11 = new C2();
+class C12 extends C2 {
+    536870888;
+    #p(a14, a15) {
+        try { a15(v11, this, this, v9, a14); } catch (e) {}
+        function f17(a18, a19) {
+            delete a18?.[-2];
+            const o21 = {
+            };
+            try {
+                o21.e = v11;
+            } catch(e22) {
+            }
+            try {
+                const o23 = {
+                };
+                o23.e = v11;
+                o23.c = a14;
+            } catch(e24) {
+            }
+            try {
+                const o25 = {
+                    "g": a14,
+                    __proto__: v10,
+                    ...v10,
+                    "a": a18,
+                    "d": this,
+                };
+                o25.e = v11;
+                o25.c = a14;
+                o25.a = v10;
+            } catch(e26) {
+            }
+            try {
+                const o27 = {
+                };
+                o27.e = v11;
+                o27.c = a14;
+                o27.a = v9;
+            } catch(e28) {
+            }
+        }
+        new Symbol(f17, a14, C2);
+        return a14;
+    }
+}
+new C12(v11, f0);
+new C12();
+new C12();
+const v39 = new Float64Array(2184);
+new BigUint64Array(10, "getUTCDate", 10);
+new Float64Array(1024);
+function F46() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = 59642;
+}
+F46.fuck = f1;
+F46.fuck = F46;
+class C49 extends F46 {
+}
+class C50 extends C49 {
+    constructor(a52, a53) {
+        super();
+        try {
+            super.m(2184, v39, v11, a53, a53);
+        } catch(e55) {
+        }
+    }
+    set d(a57) {
+        for (const v58 in C49) {
+        }
+    }
+}
+new C50();
+new C50();

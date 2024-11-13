@@ -1,0 +1,56 @@
+const v3 = [268435440];
+const v4 = [268435440,268435440,v3,268435440,268435440];
+const v5 = [v4,v4,36466];
+v5[1] = v5;
+function f6() {
+    return v5;
+}
+const v7 = f6?.apply;
+try { new v7(f6, 268435440); } catch (e) {}
+function f9(a10, a11, a12) {
+    a10[Symbol.toPrimitive] = f9;
+    a11[Symbol.toPrimitive] = f6;
+    a11 - a11;
+    a12[0] = a12;
+    const o31 = {
+        "c": v5,
+        "f": f6,
+        __proto__: a10,
+        [2090120349](a19, a20, a21, a22) {
+            for (let i24 = 0; i24 < a19; i24++) {
+                try {
+                    a12.length = i24;
+                } catch(e30) {
+                }
+            }
+            return v3;
+        },
+    };
+    return o31;
+}
+try { f9.bind(f9); } catch (e) {}
+f9(v3, 36466, v3);
+f9(v4, 268435440, v3);
+f9(v5, v4, v5);
+try { new Float64Array(Float64Array, f9, v5); } catch (e) {}
+new Float64Array(2722);
+new Int32Array(6);
+new Int32Array(5);
+1073741824 / 1073741824;
+function f48() {
+    function f50(a51) {
+        const v55 = 1073741824 ** 5;
+        Math.clz32(2089625166);
+        2089625166 >> v55;
+    }
+    this.onmessage = f50;
+    Symbol.replace;
+}
+const o62 = {
+    "type": "function",
+};
+function f63() {
+    return 268435440;
+}
+Object.defineProperty(o62, "arguments", { enumerable: true, get: f63 });
+new Worker(f48, o62);

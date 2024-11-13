@@ -1,0 +1,38 @@
+const v2 = new BigInt64Array(3);
+const t1 = 3;
+const v5 = new t1(12);
+const v8 = new Int8Array(9);
+try {
+    v8.__proto__ = v2;
+} catch(e9) {
+}
+v5[512] = v5;
+const v11 = [-988.2407566487578,621.8003270537697];
+[-4.0,-7.64263703249618e+307,6.313067055954551,5.187658622458035e+307,NaN,1000000000000.0];
+v11[([-0.707410952396053,0.5249000984732587,-1000000.0]).__proto__] >>>= 9;
+[268435456,-128,64281,-13,-9223372036854775807,268435439,-1349874371];
+[-9007199254740990,-2];
+const v19 = [36427,-2,127,-256,1586040207,10000,-674418967,320688889,4294967295];
+function f20() {
+    const v21 = [1000000000.0,-5.576877862296471e+307,1000000000000.0,-311382.1661484719,1000000000.0];
+    function f22() {
+        return f20;
+    }
+    for (let i = 0; i < 5; i++) {
+        Object.defineProperty(v19, "d", { configurable: true, get: f22, set: f22 });
+    }
+    class C23 {
+        #valueOf(a25, a26, a27) {
+            try {
+                super.valueOf(a25, f22, "3", v21, this);
+            } catch(e29) {
+            }
+            return v8;
+        }
+    }
+    return f20;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+v8();

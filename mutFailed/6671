@@ -1,0 +1,66 @@
+const v0 = /d(?<!)+/uiy;
+const v1 = /fa(?=b)c[\cZ]/gvs;
+const v2 = /[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/dsy;
+class C3 {
+    [v0];
+    static valueOf(a5, a6) {
+        const o9 = {
+            "maxByteLength": 255,
+        };
+        const v11 = new SharedArrayBuffer(255, o9, o9);
+        new Int8Array(v11);
+        return v0;
+    }
+    b;
+    static e = v2;
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v1;
+    } catch(e23) {
+    }
+    try {
+        this.e = a20;
+    } catch(e24) {
+    }
+    try {
+        this.b = v14;
+    } catch(e25) {
+    }
+}
+const v26 = new F17(v0, v2, v14, v2, v14, v14, v15);
+const v27 = new F17(v1, v2, v15, v0);
+const v28 = new F17(v0, v2, v26, v2);
+function f29() {
+    return v2;
+}
+function f30() {
+    return f29;
+}
+function f32(a33, a34, a35) {
+    const o45 = {
+        m(a37, a38, a39, a40) {
+            Object.defineProperty(a35, -2, { writable: true, enumerable: true, set: f29 });
+            try {
+                v15.n("sticky", "sticky", "sticky", ["sticky",,this,v26,f30]);
+            } catch(e44) {
+            }
+            return v14;
+        },
+        ...v27,
+        7: v15,
+        ...C3,
+        ...v26,
+        __proto__: v14,
+    };
+    return o45;
+}
+f32(v28, v27, v26);
+f32(v26, v26, v16);
+f32(v26, v15, v14);
+const v50 = [9,1024,256,268435440,-1916992432,7,-2147483648,20126,-2,1645963617];
+try { v50.group(BigInt64Array); } catch (e) {}

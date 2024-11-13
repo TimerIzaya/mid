@@ -1,0 +1,34 @@
+let v1 = 52569;
+const v4 = new WeakSet();
+class C8 extends WeakSet {
+    n(a10, a11) {
+        const v12 = this[v4];
+        try { v12.valueOf(a11, a10, 4096, v12); } catch (e) {}
+        v1 = a11;
+        try { v12(v4); } catch (e) {}
+        return v1;
+    }
+    #m(a16, a17) {
+        return a17;
+    }
+}
+new C8();
+new C8();
+const t16 = 127;
+new t16();
+function F24() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 47398;
+}
+const v27 = new F24();
+const v28 = new F24();
+const v29 = new F24();
+function f31(a32, a33, a34, a35) {
+    a32.a = f31;
+    return a33;
+}
+f31(v27, 9007199254740991);
+f31(v28);
+const o38 = {
+    ...v29,
+};

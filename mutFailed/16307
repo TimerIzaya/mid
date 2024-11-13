@@ -1,0 +1,67 @@
+new Map();
+new Map();
+new Date();
+new Float32Array(127);
+new Int16Array(1351);
+new Float64Array(2972);
+const v15 = [-9007199254740991,536870888,51292,-2147483649];
+const v16 = [536870912,-124426018];
+const v17 = [23930,454087404,65536,-6,-1955199007,1,1073741824,14];
+function f18(a19) {
+    let v20;
+    try { v20 = a19.map(v16); } catch (e) {}
+    v20[0] = a19;
+    const o25 = {
+        "e": a19,
+        "c": v16,
+        [v17]: v17,
+        "a": v17,
+        [v20]: v17,
+        get f() {
+            let {"h":v22,"length":v23,...v24} = v15;
+            this.toString = v22;
+            return v24;
+        },
+    };
+    return o25;
+}
+const v26 = f18?.toString;
+try { new v26(); } catch (e) {}
+const v28 = f18(v15);
+v28.c = v28;
+const v29 = f18(v16);
+v29.f = v29;
+f18(v17);
+const v32 = 1073741824 * 1073741824;
+v32 - v32;
+65535 | 65535;
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v38 = this?.constructor;
+    v38.e = v38;
+    try { new v38(); } catch (e) {}
+}
+F36.arguments = F36;
+const v40 = new F36();
+try { v40.hasOwnProperty(f18); } catch (e) {}
+v40.length;
+const v43 = new F36();
+new F36();
+const v46 = -14n ^ -14n;
+try { ("object").padStart(v46); } catch (e) {}
+let v51;
+try {
+const t0 = "object";
+v51 = t0(v40, "number", F36);
+} catch (e) {}
+function f52(a53) {
+    return v51;
+}
+class C54 extends f52 {
+    [v43] = "E";
+    [v40] = v40;
+    268435441 = -14n;
+}
+C54.length = C54;
+const t65 = "object";
+t65[v43] &= v51;

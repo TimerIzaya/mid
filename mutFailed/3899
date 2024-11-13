@@ -1,0 +1,10 @@
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    F12.constructor;
+    try { new a16(); } catch (e) {}
+}
+new F12();
+class C20 extends F12 {
+}
+const t8 = 4.200363122731424;
+new t8();

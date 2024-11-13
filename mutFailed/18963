@@ -1,0 +1,40 @@
+function f4(a5) {
+    const o8 = {
+        ...65536,
+        5: 65536,
+        __proto__: a5,
+        valueOf(a7) {
+        },
+        "d": 4,
+        "g": 65536,
+        163: 4,
+    };
+}
+%PrepareFunctionForOptimization(f4);
+const t13 = 1;
+t13();
+f4();
+%OptimizeFunctionOnNextCall(f4);
+const v11 = f4();
+const v14 = [[1,4,1948001883]];
+const v15 = [4,1948001883,1948001883];
+class C16 {
+    static n(a18, a19) {
+        this[234] *= a18;
+        v15[a19] = a19;
+        return this;
+    }
+    n(a21, a22, a23, a24) {
+        switch (this) {
+            case v14:
+                f4 * this;
+                break;
+        }
+        return this;
+    }
+}
+new C16();
+new C16();
+new v11();
+const v36 = new Float64Array(512);
+new v11(v36);

@@ -1,0 +1,70 @@
+function f3(a4) {
+    a4[Symbol.toPrimitive] = f3;
+    const o12 = {
+        set e(a8) {
+            a8[139] = a8;
+            const t5 = 20919;
+            t5[0] = 20919;
+            a4?.[4096]?.g;
+        },
+        "a": 20919,
+        [a4]: -27289,
+        "d": a4,
+        __proto__: a4,
+        7: 4096,
+    };
+    return o12;
+}
+const v13 = f3(4096);
+const v14 = f3(v13);
+const v15 = f3(-27289);
+function f16(a17, a18) {
+    const o19 = {
+        [-27289]: v15,
+        "e": a18,
+        "f": a17,
+        "a": f3,
+        [v14]: f3,
+        "c": a18,
+        ...f3,
+        "h": a17,
+        "d": v14,
+        "b": a18,
+        ...v13,
+        "g": a18,
+    };
+    return o19;
+}
+const v20 = f16(v14, -27289);
+f16(v13, 4096);
+f16(v20, 4096);
+function f26() {
+}
+class C27 {
+    set c(a29) {
+    }
+    536870889;
+    #c;
+}
+new C27();
+class C33 {
+    static {
+        for (let v35 = 0; v35 < 25; v35++) {
+            function f36(a37, a38, a39, a40) {
+                for (let v41 = 0; v41 < 10; v41++) {
+                    C27.__proto__ = Date;
+                }
+            }
+            for (let v42 = 0; v42 < 5; v42++) {
+                class C43 {
+                    3 = C27;
+                    232 = C33;
+                }
+                new C43();
+                new C43();
+                new C43();
+                f36();
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+const v0 = [];
+class C1 {
+    static n() {
+        this + this;
+        return v0;
+    }
+    static #f = v0;
+    static #m() {
+        let v8;
+        try { v8 = this(this); } catch (e) {}
+        for (let v9 = 0; v9 < 32; v9++) {
+            v8["p" + v9] = v9;
+        }
+        return this;
+    }
+}
+new v0();
+const v13 = new C1();
+new v13();
+new Uint8Array(8);
+new Uint16Array(1024);
+new Int32Array(64);
+Math.atan(5.134563044869008e+307);

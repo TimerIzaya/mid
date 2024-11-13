@@ -1,0 +1,71 @@
+class C1 {
+}
+const v2 = new C1();
+const o7 = {
+    [v2](a4, a5, a6) {
+    },
+};
+new Uint8Array(1147);
+function F13() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = this;
+    const v15 = this?.propertyIsEnumerable;
+    try { new v15(-30326n); } catch (e) {}
+    this.a = Int8Array;
+    3872 >>> 3872;
+    try {
+        this.a = 3872;
+    } catch(e19) {
+    }
+}
+const v20 = new F13();
+new Int8Array(2);
+const v23 = [4294967297,4294967297];
+v23[65537] = v20;
+v23[65537] = 4294967297;
+function F24() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F24();
+new Uint16Array(12);
+new Int8Array(268435456);
+const v36 = new Float32Array();
+for (let v37 = 0; v37 < 5; v37++) {
+    ~v37;
+    v36[836499325] = 4294967297;
+}
+const v40 = new BigUint64Array();
+function f41() {
+    const o43 = {
+        get a() {
+            return f41;
+        },
+    };
+    return o43;
+}
+f41.toJSON = f41;
+const v44 = f41();
+new Uint16Array(3);
+function F48(a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C52 extends F13 {
+}
+new C52();
+Object.defineProperty(v44, "toJSON", { writable: true, configurable: true, value: v40 });
+const v54 = f41();
+function F55(a57, a58, a59, a60) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.toJSON = a59;
+    this.h = a58;
+}
+const v61 = new F55(v54, v44);
+function f62(a63, a64, a65) {
+    return v40;
+}
+const v68 = [v61];
+const o69 = {
+    "arguments": v68,
+    "type": "function",
+};
+new Worker(f62, o69);

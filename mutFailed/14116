@@ -1,0 +1,52 @@
+const v0 = [7,-867244108,-26042,65537,63220,51193];
+const v1 = [536870887,827135197,16075,-256,1650474754,-65536,15310];
+const v2 = [4294967296,-823535080,1,16,-1828517605,2000179347,1063184519];
+function f3() {
+    return v2;
+}
+function f4(a5) {
+    const o9 = {
+        get c() {
+            try {
+                f3();
+            } catch(e8) {
+            }
+            return v1;
+        },
+        "a": v2,
+        "h": v1,
+        "d": v2,
+    };
+    return o9;
+}
+const v10 = f4(v2);
+const v11 = f4(v0);
+let v12 = f4(v2);
+class C13 extends f4 {
+    static get g() {
+        super[this] = this;
+        Object.defineProperty(v10, 3391, { writable: true, get: f3 });
+        super[v10] = this;
+        v11 % v1;
+        this % this;
+        v11 % v1;
+        return this;
+    }
+    constructor(a21, a22, a23, a24) {
+        [v12,,,a21] = v2;
+        super[v0] = a23;
+        const o28 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o28);
+        super(v2);
+        a23?.[13];
+        let v31 = v12 && a24;
+        ({"c":v31,} = v31);
+    }
+}
+const v32 = new C13(v10, v11, f3, v0);
+const v33 = new C13(v10, v32, v0, v1);
+new C13(v32, v33, f3, v1);
+this.encodeURIComponent("1073741824");

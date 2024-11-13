@@ -1,0 +1,80 @@
+function f0() {
+}
+class C1 {
+    static #c = f0;
+    static #o() {
+        let v2 = this;
+        --v2;
+        try { v2["o"](); } catch (e) {}
+        return "o";
+    }
+    static 1540;
+    f = f0;
+    static #m() {
+        this[this] = this;
+        try {
+            this.#c = this;
+        } catch(e7) {
+        }
+        return this;
+    }
+}
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C30 {
+        static {
+            super[this];
+        }
+    }
+}
+new BigUint64Array();
+const v36 = new BigUint64Array(1448);
+function f37(a38, a39, a40) {
+}
+([-1000000000000.0,-1.7976931348623157e+308,294500.85018206923,-Infinity,-0.0,-7.010036940344757e+307,1.0,-Infinity,-1000.0,-1.1645821156926988e+308]).reduce(f37);
+const v44 = gc();
+const v45 = new C1();
+const v46 = new C1();
+const v47 = new v44();
+const v48 = [v46,v45,v47,v46,C1];
+const v49 = [v45,v47,v48,v45,v48];
+[f0];
+function f51(a52, a53, a54) {
+    const o64 = {
+        "b": v36,
+        get c() {
+            try {
+                super.getUint8(this, this, C1, this, C1);
+            } catch(e57) {
+            }
+            return v49;
+        },
+        p(a59, a60, a61, a62) {
+            f37 - a62;
+            ({"a":a52,"length":a52,...a52} = a59);
+            return v47;
+        },
+        ...v45,
+    };
+    return o64;
+}
+f51(v46, v46, v45);
+f51(v45, v45, v45);
+f51(v45, v46, v47);
+function f74(a75, a76) {
+    const o81 = {
+        "c": v36,
+        set g(a78) {
+            try {
+                super.o(this, a78);
+            } catch(e80) {
+            }
+        },
+        ...a76,
+        "a": a76,
+        __proto__: a76,
+    };
+    return o81;
+}
+const v82 = f74(-11, -128);
+f74(-11, v82(15, v82)) <= 2054272044n;

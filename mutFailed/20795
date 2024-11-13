@@ -1,0 +1,38 @@
+class C3 {
+    [15];
+    static {
+        const v5 = super[-1760017073];
+        Reflect.construct(v5, [15,Reflect,15,256,-1760017073], v5);
+    }
+    a;
+    [-1760017073] = 256;
+    0 = 15;
+    e = -1760017073;
+}
+new C3();
+const v10 = new C3();
+new C3();
+class C12 extends C3 {
+    static {
+        function f14() {
+            return v10;
+        }
+    }
+    static #a;
+    static valueOf(a16, a17) {
+        (a17 & 256) >>> 256;
+        typeof this === "undefined";
+        return a17;
+    }
+}
+new C12();
+new C12();
+new C12();
+function F26(a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v30 = this.constructor;
+    try { new v30(this, a29); } catch (e) {}
+    this.c = a28;
+}
+const v35 = new Int8Array(8);
+Reflect.construct(Uint16Array, [v35]);

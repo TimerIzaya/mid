@@ -1,0 +1,85 @@
+function f0() {
+}
+function f1(a2, a3) {
+    ("getBigInt64").normalize();
+    return a2;
+}
+f0[Symbol.toPrimitive] = f1;
+function f8() {
+    const o23 = {
+        get h() {
+            const v10 = super.b;
+            v10[8] = v10;
+            return f0;
+        },
+        "d": f0,
+        [f0]: f0,
+        p() {
+            const v15 = new Int8Array(3816);
+            for (const v16 of "some") {
+                const v17 = v15[1];
+                let [,,,...v18] = v15;
+                const o19 = {
+                };
+                o19.a = v17;
+                const o20 = {
+                };
+                o20.a = v17;
+            }
+            const o21 = {
+                [f0]: this,
+                "e": f0,
+                __proto__: this,
+            };
+            f0();
+            return o21;
+        },
+    };
+    return o23;
+}
+f8();
+const v25 = f8();
+try { v25.d(); } catch (e) {}
+f8();
+2147483649n !== 2147483649n;
+let v34;
+try { v34 = BigInt64Array.of(); } catch (e) {}
+const v35 = new BigInt64Array(512);
+const v38 = new Uint32Array(6);
+v38.toString = f1;
+Uint8ClampedArray[1] = v35;
+const v42 = new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray);
+function f43(a44) {
+    try {
+        f0();
+    } catch(e46) {
+    }
+    return v34;
+}
+v42[Symbol.toPrimitive] = f43;
+-2 > -2;
+let v51 = v42 & -2;
+let v52 = v51++;
+v52++;
+new Int32Array(13);
+try { ("-4294967295").codePointAt(Uint32Array); } catch (e) {}
+function F65(a67, a68, a69, a70) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C72 {
+    }
+    ([[2.220446049250313e-16,1000000.0,-832083.505850983,0.4718386381385684,1000.0,-5.0,9.814259698721895e+307,-659970.7982908424,-5.0]]).flat(-2147483649);
+    class C83 {
+        static {
+            super[this];
+        }
+    }
+}
+new BigUint64Array();
+const v89 = new BigUint64Array(1448);
+try { v89.join(v38); } catch (e) {}
+function f91(a92, a93, a94) {
+    -a93;
+    a94 >> a94;
+}
+([-1000000000000.0,-1.7976931348623157e+308,294500.85018206923,-Infinity,-0.0,-7.010036940344757e+307,1.0,-Infinity,-1000.0,-1.1645821156926988e+308]).reduce(f91);
+gc();

@@ -1,0 +1,38 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 5;
+    } catch(e3) {
+    }
+    try {
+        this.b = 5;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+new F0();
+2591 << 2591;
+Error.d = Error;
+new Error(2591);
+const v14 = new Uint8Array(-15);
+v14[21] = v14;
+new BigUint64Array(66);
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v22 = new F18();
+const o23 = {
+    7: v22,
+};
+class C24 {
+    #valueOf(a26, a27, a28) {
+    }
+}
+let v30 = 10;
+--v30;
+BigUint64Array.prototype;
+const v34 = new BigUint64Array(v30);
+for (const v36 in v34) {
+    new EvalError(2147483647);
+}

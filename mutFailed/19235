@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 65535;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+v6.a;
+const v12 = new Set();
+try { v12.add(F0); } catch (e) {}
+new WeakSet();
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    F16.caller;
+    const v23 = a20?.f;
+    try { new v23(4294967297, a21, a19, a19); } catch (e) {}
+    const v25 = this.constructor;
+    let v26;
+    try { v26 = new v25(); } catch (e) {}
+    v26.e = v26;
+    typeof v26 === "symbol";
+}
+F16.prototype = F16;
+const v30 = new F16(F16, F16, F16, F16);
+const v31 = new v4();
+try { v31.apply(v30, WeakSet); } catch (e) {}

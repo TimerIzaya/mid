@@ -1,0 +1,19 @@
+new Int8Array(118);
+new Uint8Array(2133627901n);
+new Uint16Array(128);
+function f15() {
+    function F16(a18) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v19 = this.constructor;
+        a18.prototype;
+        try { new v19(); } catch (e) {}
+    }
+    const v22 = new F16(f15);
+    new F16(v22);
+    return 257;
+}
+%PrepareFunctionForOptimization(f15);
+f15();
+%OptimizeFunctionOnNextCall(f15);
+const t17 = 2133627901n;
+t17();

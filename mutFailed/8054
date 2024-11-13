@@ -1,0 +1,37 @@
+const v3 = /[(?:a*)*]/gds;
+v3.e = v3;
+v3.e = v3;
+const v4 = /\p{General_Category=Decimal_Number}+/gvms;
+const v5 = /(a)?/um;
+const v8 = new BigInt64Array(5);
+try { Float64Array.from(v8); } catch (e) {}
+const v12 = new Float64Array(64);
+function f15() {
+    function f16(a17) {
+        let v19 = 0;
+        Math.imul(v4, v19);
+        let v21 = v19++;
+        v21--;
+        v4 && v21;
+        v21--;
+        return Math.max(v19);
+    }
+    return f16;
+}
+function f26(a27) {
+    ("c").charAt(-4294967295);
+}
+Object.defineProperty(Int32Array, Symbol.iterator, { configurable: true, get: f15, set: f26 });
+const v33 = new Int32Array(512);
+try { v33.values(); } catch (e) {}
+const v36 = new Int32Array(Int32Array, Int32Array, Int32Array);
+v36[1];
+const v39 = ~v36;
+v39 - v39;
+const v41 = Math.expm1(v39);
+v3[v41] = 5;
+v5[v36] *= -1.7976931348623157e+308;
+v5[-1e-15] = v12;
+function f42() {
+    return v41;
+}

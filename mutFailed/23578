@@ -1,0 +1,11 @@
+new Int16Array(Int16Array);
+255 >> 255;
+new WeakRef(255);
+try { Uint32Array.from(Uint32Array); } catch (e) {}
+new Uint32Array(255);
+-2147483647 >>> -2147483647;
+try {
+    -2147483647 in "deleteProperty";
+} catch(e18) {
+    e18.message;
+}

@@ -1,0 +1,37 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    a6++;
+    try {
+        a5.b = a6;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(-9.123742975748049e+307, 2.220446049250313e-16);
+const v10 = new F3(-9.123742975748049e+307, 2.2250738585072014e-308);
+new F3(2.220446049250313e-16, -9.123742975748049e+307);
+const v12 = v10?.constructor;
+try { new v12(2.2250738585072014e-308, v9); } catch (e) {}
+const v16 = new Int32Array(4056);
+v16[765] = v16;
+1024 % 1024;
+new BigInt64Array(1024);
+const v23 = new BigUint64Array(2);
+function f24() {
+}
+const v25 = [-1539,1,12];
+try { v25.map(v23); } catch (e) {}
+function f27() {
+    return f27;
+}
+f27.prototype = f27;
+function f28(a29, a30) {
+    const o31 = {
+        [BigInt64Array]: v25,
+    };
+    return a29;
+}
+const v32 = f28(f28);
+try { v32(f27, 2); } catch (e) {}
+const t34 = f28();
+t34(f27);
+new f24(v16);

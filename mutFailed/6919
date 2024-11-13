@@ -1,0 +1,15 @@
+const v2 = new Int16Array(13);
+const v5 = new Uint32Array(v2);
+new BigUint64Array(200);
+new Array(128);
+function f15(a16, a17) {
+    const o18 = {
+        ...a16,
+    };
+    return f15;
+}
+%PrepareFunctionForOptimization(v5);
+const t11 = 128;
+const v19 = t11();
+%OptimizeFunctionOnNextCall(f15);
+v19(f15, v19);

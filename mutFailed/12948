@@ -1,0 +1,133 @@
+let v0 = [];
+class C1 {
+    [v0];
+    static 8;
+    #valueOf() {
+        const v4 = Symbol.iterator;
+        const o18 = {
+            [v4]() {
+                let v6 = 10;
+                const o17 = {
+                    next() {
+                        let v8;
+                        try { v8 = Symbol(v4, Symbol, ...this, v6); } catch (e) {}
+                        v8?.[4096];
+                        v0["filter"](C1, this);
+                        delete this[v4];
+                        v6--;
+                        const v15 = v6 == 0;
+                        const o16 = {
+                            "done": v15,
+                            "value": v6,
+                        };
+                        return o16;
+                    },
+                };
+                return o17;
+            },
+        };
+        return v0;
+    }
+}
+const v19 = new C1();
+function f20() {
+    v0 = v19;
+    function f21(a22, a23, a24) {
+        const o47 = {
+            n(a26, a27) {
+                class C36 extends Int32Array {
+                }
+                function F42() {
+                    if (!new.target) { throw 'must be called with new'; }
+                }
+                class C45 {
+                    static get b() {
+                    }
+                }
+                return a23;
+            },
+        };
+        return a24;
+    }
+    return v0;
+}
+v19.toString = f20;
+const v49 = new C1();
+const o50 = {
+};
+new Proxy(C1, o50);
+C1 ** v19;
+const v54 = new C1();
+class C55 {
+    static 1073741824 = C1;
+    #m(a57) {
+        this[1] = this;
+        v54[v49] = v54;
+        C1 -= v19;
+        let {"a":v58,"c":v59,"f":v60,} = v19;
+        const o64 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o64);
+        const o69 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o69);
+        return v19;
+    }
+    [v19] = C1;
+}
+new C55();
+const v72 = new C55();
+const v73 = new C55();
+const v74 = v73?.constructor;
+try { new v74(); } catch (e) {}
+class C77 extends C1 {
+    static [v72];
+    static #p(a79, a80, a81) {
+        try { a81(); } catch (e) {}
+        try {
+            super.getUTCDay(v54);
+        } catch(e84) {
+        }
+        return v72;
+    }
+    toString(a86, a87, a88) {
+        a88.e;
+        `-4294967296${a87}q4G${a86}splice`;
+        a87[Symbol.split];
+        return a87;
+    }
+}
+new C77();
+new C77();
+new C77();
+function f97() {
+    function f99() {
+        return f97;
+    }
+    function f100(a101) {
+        Array(12, -10);
+    }
+    Object.defineProperty(Array, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f99, set: f100 });
+    const v108 = Array(4087, Array, Array);
+    function f109(a110) {
+        const o112 = {
+        };
+        gc(o112);
+        return o112;
+    }
+    v108.valueOf = f109;
+    v108[2] = v108;
+    for (let v114 of v108) {
+        v114--;
+    }
+    return f97;
+}
+f97.length = f97;
+%PrepareFunctionForOptimization(f97);
+f97().length;
+%OptimizeFunctionOnNextCall(f97);
+f97();

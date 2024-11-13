@@ -1,0 +1,19 @@
+const v4 = ~1000000.0;
+new Uint16Array(666);
+try { new Float64Array(666, Uint16Array, 1025); } catch (e) {}
+new Float64Array(v4);
+new Uint32Array(3);
+let v17;
+try { v17 = Uint8ClampedArray.bind(Float64Array); } catch (e) {}
+const v18 = new Uint8ClampedArray();
+const v20 = new Uint8ClampedArray(127);
+const v21 = delete v18[4294967296];
+v21 && v21;
+const v23 = v20 < -56166n;
+v23 || v23;
+async function f25(a26, a27, a28) {
+    return a26;
+}
+const v29 = v17.constructor;
+v29.name;
+v29();

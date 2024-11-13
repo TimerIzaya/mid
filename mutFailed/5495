@@ -1,0 +1,77 @@
+let v0 = -5n;
+class C3 {
+    constructor(a5, a6) {
+        function f7() {
+            return -1.7976931348623157e+308;
+        }
+        this[Symbol.toPrimitive] = f7;
+        Object.defineProperty(a6, "valueOf", { writable: true, configurable: true, enumerable: true, value: Symbol });
+        this.b = this;
+        const v13 = this?.__lookupGetter__;
+        function f14() {
+            return -536870912n;
+        }
+        function f15(a16) {
+            const v19 = new Float32Array();
+            class C20 {
+                [9007199254740991] = v19;
+            }
+        }
+        Object.defineProperty(v13, "g", { writable: true, get: f14, set: f15 });
+        v13.g = v13;
+        try { new v13(a6); } catch (e) {}
+        const v22 = a5 - a5;
+        v22 << v22;
+        a6 - a6;
+        let v25 = typeof a6;
+        try { ("function").replaceAll(v22, -536870912n); } catch (e) {}
+        !(v25 === "function");
+        ({"d":v25,"e":v0,"length":a6,} = "function");
+    }
+    static p(a31, a32) {
+        try {
+            v0.h = -536870912n;
+        } catch(e33) {
+        }
+        return this;
+    }
+}
+const v34 = new C3(v0, v0);
+const v35 = new C3(-536870912n, -4294967295n);
+const v36 = v35?.constructor;
+try { new v36(-4294967295n, v34); } catch (e) {}
+v35.b = v35;
+const v38 = new C3(-4294967295n, -4294967295n);
+v38.a = v0;
+v38.a = v0;
+v38.a = v38;
+const v39 = [-12,16,11,9007199254740992,8];
+try { v39.map(v0); } catch (e) {}
+const v41 = [0,268435440,10000];
+v41[2] = v41;
+const v42 = [-9007199254740991,128,536870889,1024,-65535,4775600,512,14,108,-4294967295];
+try { v42.group(v42); } catch (e) {}
+BigUint64Array.prototype = BigUint64Array;
+const v46 = new BigUint64Array(14);
+v46[4];
+const v50 = new Float32Array(1024);
+let v51 = v50[583];
+v51++;
+new Uint8ClampedArray(10);
+const o56 = {
+};
+o56.c = o56;
+o56.c = o56;
+function f57() {
+    return o56;
+}
+try { f57(); } catch (e) {}
+function f59(a60, a61) {
+    a60.length = a60;
+    a61.g = a61;
+    try { new a60(10); } catch (e) {}
+    Object.defineProperty(o56, "h", { writable: true, configurable: true, enumerable: true, get: f57, set: f57 });
+    return o56;
+}
+try { f59(10, C3); } catch (e) {}
+new Promise(f59);

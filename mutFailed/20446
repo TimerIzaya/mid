@@ -1,0 +1,85 @@
+const v0 = [];
+function f1() {
+    const o7 = {
+        "a": v0,
+        get b() {
+            const v4 = [v0,this];
+            Reflect.apply(v0.toSpliced, v0, v4);
+            return v4;
+        },
+        __proto__: v0,
+        [v0]: v0,
+        "e": v0,
+    };
+    return o7;
+}
+const v8 = f1();
+const v10 = new Int8Array(f1, f1, Int8Array);
+const v11 = v10.source;
+const v15 = new Uint16Array(3225);
+for (const v16 of v15) {
+    v16[3] = 5n;
+    9007199254740991 * v16;
+}
+f1();
+const v20 = f1();
+const o25 = {
+};
+new Proxy(Uint32Array, o25);
+class C34 {
+}
+const v35 = new C34();
+v11[127];
+const o38 = {
+};
+try {
+    o38.g = v10;
+} catch(e39) {
+}
+try {
+    const o40 = {
+    };
+    o40.g = v10;
+    o40.e = -534568.6902183883;
+} catch(e41) {
+}
+try {
+    const o42 = {
+    };
+    o42.g = v10;
+    o42.e = -534568.6902183883;
+    o42.c = 5n;
+} catch(e43) {
+}
+try {
+    const o44 = {
+    };
+    o44.g = v10;
+    o44.e = -534568.6902183883;
+    o44.c = v8;
+} catch(e45) {
+}
+function F48(a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v52 = a50?.__lookupSetter__;
+    const o56 = {
+        [-16]: 65536,
+        [6]: 257,
+        ...a51,
+        "f": v35,
+        __proto__: v20,
+        set c(a55) {
+            super.c -= 65536;
+        },
+    };
+    try { new v52(a50, ...v52, -534568.6902183883, this); } catch (e) {}
+    try {
+        v35.__proto__ = a50;
+    } catch(e58) {
+    }
+    try { v52(6); } catch (e) {}
+    a51[2147483648] = a51;
+    const v61 = new Int8Array();
+    for (const v62 in v61) {
+    }
+}

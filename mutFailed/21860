@@ -1,0 +1,44 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v3 = new F1();
+let v6;
+try {
+const t0 = "object";
+v6 = t0(v3, "number", F1);
+} catch (e) {}
+function f7(a8) {
+    return v6;
+}
+const v10 = new Int32Array(256);
+const v13 = new Uint8Array(2200);
+const v16 = new Uint16Array(8);
+class C17 extends Uint8Array {
+    static #b = Uint16Array;
+    constructor(a19, a20, a21, a22) {
+        super(8);
+        new v13();
+        function f24(a25, a26, a27) {
+            const o28 = {
+                "h": a27,
+            };
+            return o28;
+        }
+        %VerifyType(this);
+    }
+    static #e = 8;
+    a;
+    #c;
+    256 = v16;
+    1 = Int32Array;
+    /*
+    constructor(a30, a31) {
+        new Uint16Array(a30);
+    }
+    */
+}
+new C17(256, 256, 8, 256);
+new C17(8, 8, 8, Uint8Array);
+new C17(256, 2200, 256, v10);
+const v37 = new gc();
+eval(v37);

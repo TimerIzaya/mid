@@ -1,0 +1,83 @@
+new Int16Array(512);
+new Uint8ClampedArray(256);
+new Uint32Array(255);
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function F14(a16) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v17 = new F14();
+class C18 extends F12 {
+}
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "f", { writable: true, enumerable: true, value: a23 });
+    this.f = a23;
+    try {
+        const v24 = [];
+        class C25 {
+            constructor(a27, a28, a29) {
+                function f30(a31, a32, a33) {
+                    const v35 = v24.copyWithin();
+                    let v36 = 0;
+                    do {
+                        const o37 = {
+                        };
+                        try {
+                            o37.h = v17;
+                        } catch(e38) {
+                        }
+                        try {
+                            const o39 = {
+                            };
+                            o39.e = o39;
+                            a23.h = v17;
+                            o39.e = 4096;
+                        } catch(e40) {
+                        }
+                        const o41 = {
+                        };
+                        o41.c = a22;
+                        o41.h = v17;
+                        o41.e = 4096;
+                        const v42 = v35[F12];
+                        a23 ^= a28;
+                        for (let v43 = 0; v43 < 100; v43++) {
+                            f30(v42, a29, a22);
+                        }
+                        o41.c = C18;
+                        v36++;
+                    } while ((() => {
+                            const v47 = v36 < 7;
+                            new Int16Array(v36, -268435456);
+                            new F14(C25);
+                            a27.__proto__?.[a29];
+                            try {
+                                this.length = 1;
+                            } catch(e54) {
+                            }
+                            return v47;
+                        })())
+                    const v58 = [-268435456];
+                    a29(-268435456, 0.6683462416314783, v58);
+                    const v60 = v58 >> -268435456;
+                    v60 >> this;
+                    return -v60;
+                }
+                f30();
+            }
+        }
+        class C64 extends C25 {
+        }
+        new C64();
+    } catch(e66) {
+    }
+}
+new F12();
+const o73 = {
+    "maxByteLength": 1658,
+};
+const v75 = new SharedArrayBuffer(1, o73);
+new Uint16Array(v75);
+new F20();

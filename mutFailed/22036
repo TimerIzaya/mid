@@ -1,0 +1,73 @@
+const v3 = [-128,-37289];
+let v4 = [-37289];
+const v5 = [v4,15,v3,v4];
+function F6() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v8 = new F6();
+function f9(a10) {
+    v4 = v3;
+    const o11 = {
+    };
+    const v13 = new Proxy(v8, o11);
+    return v13;
+}
+v8[Symbol.toPrimitive] = f9;
+const v17 = new Date();
+function f18() {
+    return Date;
+}
+v8.toString = f18;
+try { Reflect.set(v17, v8); } catch (e) {}
+function f21() {
+    return f21;
+}
+function f22() {
+    return -37289;
+}
+f22[Symbol.toPrimitive] = f18;
+const v25 = [v4,v5,f21,v4,f22];
+const v26 = [f22,v3];
+const v27 = [f22,v25];
+function f28() {
+    return v3;
+}
+function f29(a30, a31, a32) {
+    a31.toString = f22;
+    const o37 = {
+        [v4]: a32,
+        "c": -128,
+        __proto__: a30,
+        638902338: v5,
+        "b": a31,
+        [a31](a34, a35) {
+            super[a31] = a32;
+            super[-37289];
+            return Reflect;
+        },
+        "d": -37289,
+        "a": v27,
+        "f": v5,
+        ...a31,
+    };
+    return o37;
+}
+f29(v26, f22, v3);
+f29(v25, f28, v26);
+f29(f21, -128, v27);
+function f41(a42, a43) {
+    function f44(a45, a46, a47, a48) {
+        a48?.__lookupSetter__;
+        a46 & a46;
+        const v51 = a43++;
+        const v52 = v51 + v51;
+        const o56 = {
+            n(a54, a55) {
+            },
+        };
+        try { o56.n(v52); } catch (e) {}
+    }
+    for (let v58 = 0; v58 < 500; v58++) {
+        f44(v58, f44, a43, f41);
+    }
+}

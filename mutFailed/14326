@@ -1,0 +1,91 @@
+const v0 = [];
+function f1() {
+    const o10 = {
+        m() {
+            function f3() {
+                return v0;
+            }
+            function f4(a5) {
+                a5 && v0;
+            }
+            Object.defineProperty(this, "h", { writable: true, enumerable: true, get: f3, set: f4 });
+            super.h;
+            try {
+                this.__proto__ = v0;
+            } catch(e9) {
+            }
+            return this;
+        },
+        "d": v0,
+        9: v0,
+        "b": v0,
+        ...v0,
+        1429804778: v0,
+        1: v0,
+    };
+    return o10;
+}
+let v11 = f1();
+v11.h = v11;
+const v12 = f1();
+const v13 = f1();
+class C15 extends f1 {
+    constructor(a17, a18, a19) {
+        super();
+        try {
+            this.b = v12;
+        } catch(e20) {
+        }
+    }
+    n(a22, a23, a24) {
+        a23?.[127];
+        function f26() {
+            return a22;
+        }
+        const v27 = [this];
+        const v28 = [f1,v13];
+        [v27,v28,null,v28];
+        return v0;
+    }
+}
+const v30 = new C15(v12, v11, v12);
+function f31(a32, a33) {
+    function f34() {
+    }
+    class C35 extends f34 {
+        constructor(a37, a38, a39) {
+            super();
+            super.f = a37;
+        }
+    }
+    new C35();
+    return a33;
+}
+v30.toString = f31;
+const v41 = new C15(v11, v30, C15);
+const v42 = new C15(v11, v41, v13);
+class C46 extends f1 {
+    constructor(a48, a49) {
+        super();
+        let v51;
+        try { v51 = v11.m(v41, v13, a49, null, f1); } catch (e) {}
+        Object.defineProperty(v51, "valueOf", { enumerable: true, value: f31 });
+        let v54 = -1.7976931348623157e+308;
+        --v54;
+        const v56 = v11--;
+        Math.log(v11);
+        ~v56;
+        -10815 | +v51;
+        const o63 = {
+            "maxByteLength": 1691,
+        };
+        const v65 = new ArrayBuffer(256, o63);
+        new Uint32Array(v65);
+    }
+    [v30] = f1;
+}
+new C46("-39464", v13);
+new C46(v12, v42);
+new C46(f1, v30);
+const t89 = "g";
+t89[14] &&= 14;

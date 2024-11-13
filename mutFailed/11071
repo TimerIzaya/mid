@@ -1,0 +1,74 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 1098280987;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f7(a8, a9) {
+    const o14 = {
+        __proto__: a9,
+        "d": v4,
+        [v4]: a9,
+        valueOf(a11, a12) {
+            try {
+                v5.__proto__ = a12;
+            } catch(e13) {
+            }
+            return v6;
+        },
+        "c": v5,
+    };
+    return o14;
+}
+const v15 = f7(f7, v6);
+const v16 = f7(v15, v6);
+f7(v4, v16);
+class C18 {
+    static [v4];
+    static [f7];
+    static m(a20, a21) {
+        super[a21] = v5;
+        a21 ^ v15;
+        return f7;
+    }
+    [v16] = f7;
+    static [F0] = v6;
+    static #d;
+    static #b = v5;
+}
+new v6();
+new C18();
+new C18();
+function f26() {
+    let v27 = 1000000000000.0;
+    v27--;
+    class C30 {
+    }
+    new C30();
+    const v32 = new C30();
+    [v32,C30];
+    [257828.6336153492,v32];
+    const v35 = [v32];
+    class C36 extends C30 {
+    }
+    function f37(a38, a39) {
+        return a38;
+    }
+    Set.toString = f37;
+    Set.constructor(Set);
+    v35.constructor;
+}
+class C43 {
+}
+const v44 = new C43();
+function f45() {
+    return v44;
+}
+%PrepareFunctionForOptimization(f26);
+f26();
+%OptimizeFunctionOnNextCall(f26);
+f26();

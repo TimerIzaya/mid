@@ -1,0 +1,37 @@
+new Int32Array(12);
+new Uint32Array(65);
+new Int32Array(176);
+class C9 extends Int32Array {
+    #h;
+    static #c = 65;
+    [Int32Array];
+}
+new C9();
+new C9();
+new C9();
+const v13 = /[fmxyz{1,}]/visy;
+const v14 = /(?:a?)?/gsy;
+const v15 = /z/is;
+function f16(a17, a18, a19, a20) {
+    const o27 = {
+        valueOf(a22, a23) {
+            for (let v24 = 0; v24 < 32; v24++) {
+                v14["p" + v24] = v24;
+            }
+            return a22;
+        },
+        [a17]: 176,
+        857: a17,
+        "d": a17,
+        "f": v13,
+        ...a18,
+    };
+    return o27;
+}
+f16(65, v15, 176, 176);
+f16(12, v14, 12, 12);
+f16(176, v14, 176, 176);
+function F40(a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    new.target.d = new.target;
+}

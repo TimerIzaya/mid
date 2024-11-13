@@ -1,0 +1,85 @@
+function f4() {
+    function f5() {
+        return 7.281008316728361;
+    }
+    return f5;
+}
+WeakMap[Symbol.toPrimitive] = f4;
+try { new WeakMap(); } catch (e) {}
+const v9 = WeakMap.length;
+v9 & v9;
+const v11 = new WeakMap();
+function f13() {
+    return 7.281008316728361;
+}
+function f14(a15) {
+    const v16 = [-1000.0,1000000000.0];
+    const v17 = [0.0,-605.6883350474525,-2.2250738585072014e-308,2.8064173070154015e+307,-0.0,NaN,-1.7976931348623157e+308,-1.7976931348623157e+308,1.1567619127528594,2.2250738585072014e-308];
+    function f21(a22, a23) {
+        const o24 = {
+            [33062n]: 8n,
+            __proto__: v17,
+            [37369]: a23,
+            [a22]: a22,
+            ...a22,
+            5: v16,
+            ...v16,
+        };
+        return o24;
+    }
+}
+Object.defineProperty(Array, "toString", { configurable: true, get: f13, set: f14 });
+const v26 = new Array(3621);
+v26[439] = f13;
+try { v26.groupToMap(3621); } catch (e) {}
+const v30 = [[[WeakMap,3621,v26],Array,v11]];
+-1024;
+Int32Array.length;
+new Int32Array(1024);
+-v9;
+Uint8ClampedArray.prototype;
+const v40 = new Uint8ClampedArray(3381);
+v40.BYTES_PER_ELEMENT;
+try { v40.join(v30); } catch (e) {}
+const t43 = 1024;
+new t43(255);
+function F46() {
+    if (!new.target) { throw 'must be called with new'; }
+    this?.constructor;
+    try {
+    const t0 = 3381;
+    new t0();
+    } catch (e) {}
+}
+try { new F46(); } catch (e) {}
+const v51 = new F46();
+const v52 = v51?.constructor;
+v52.arguments = v52;
+let v53;
+try { v53 = new v52(); } catch (e) {}
+v53.length = v30;
+v53.length = v53;
+const v54 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v55 = 0; v55 < 5; v55++) {
+    function f56() {
+        try {
+            v54.forEach();
+        } catch(e58) {
+            try { e58.constructor(v26); } catch (e) {}
+            e58.b = e58;
+            e58.a = e58;
+            e58.a = v51;
+            e58.a = e58;
+        }
+        const v61 = Symbol.toPrimitive;
+        const v62 = v61.description;
+        v62[1] = v62;
+        try { v62.strike(); } catch (e) {}
+        Symbol.for();
+        return v61;
+    }
+    const v65 = f56();
+    Symbol.matchAll;
+    Symbol.for(v65.description);
+    %OptimizeFunctionOnNextCall(f56);
+}

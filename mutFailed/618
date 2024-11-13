@@ -1,0 +1,39 @@
+/\p{Changes_When_NFKC_Casefolded}/gvdiy;
+/L(?:a+)+((?:ab)|cdea(?=bbb|bb)c)+/gvdisy;
+/(?<=)/gvms;
+const v8 = new Int16Array(1732);
+new BigInt64Array(512);
+new BigInt64Array(1000);
+function F15() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f17() {
+    function f18() {
+        const v19 = v8[8];
+        let v20 = -1e-15;
+        v20++;
+        return v19;
+    }
+    return f18;
+}
+Object.defineProperty(F15, "valueOf", { configurable: true, get: f17 });
+const v22 = new F15();
+function f23(a24, a25) {
+    try { a24.getUTCDate(); } catch (e) {}
+    const v29 = new Uint16Array(2);
+    new Uint32Array(v29);
+    return v8;
+}
+v22.toString = f23;
+const v33 = new Date();
+class C34 extends Date {
+    constructor(a36, a37, a38, a39) {
+        super(a36);
+    }
+}
+new C34(v33);
+new C34(v22);
+new C34(F15);
+class C43 extends C34 {
+}
+new C43();

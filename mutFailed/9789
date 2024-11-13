@@ -1,0 +1,33 @@
+new BigInt64Array(3216);
+new Uint8Array(64);
+const v10 = 8 | 64;
+const v12 = new Int16Array(8);
+const v15 = new Float32Array(2);
+v15[1] = v15;
+const v17 = new Int32Array(Int16Array, 2);
+let v20 = 2;
+v20++;
+function f22(a23) {
+    a23 <= f22;
+    const o28 = {
+        "c": f22,
+        "e": v10,
+        213: a23,
+        "g": v20,
+        p(a26, a27) {
+            return v12;
+        },
+    };
+    o28[213];
+    return v15;
+}
+f22(v20);
+%PrepareFunctionForOptimization(f22);
+Float32Array();
+%OptimizeFunctionOnNextCall(f22);
+const v32 = f22();
+v17.BYTES_PER_ELEMENT = v17;
+const v33 = v15;
+v17.fill(...v32);
+const v35 = BigInt64Array?.constructor;
+try { new v35(v15, Uint8Array, Uint8Array); } catch (e) {}

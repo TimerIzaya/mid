@@ -1,0 +1,31 @@
+new Float32Array(2);
+new Uint8ClampedArray(256);
+new Int16Array(14);
+function f15() {
+    return f15;
+}
+const o22 = {
+    "maxByteLength": 268435439,
+};
+const v24 = new SharedArrayBuffer(129, o22);
+new Float64Array(v24);
+class C29 {
+    static #valueOf(a31, a32, a33) {
+        this.f;
+        try {
+            f15();
+        } catch(e36) {
+        }
+        return a33;
+    }
+    get f() {
+        try {
+            f15();
+        } catch(e39) {
+        }
+    }
+}
+const v40 = new C29();
+%PrepareFunctionForOptimization(f15);
+%OptimizeMaglevOnNextCall(f15);
+try { v40.o(v40, 5, 9007199254740991); } catch (e) {}

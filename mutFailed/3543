@@ -1,0 +1,38 @@
+class C3 {
+    static {
+        function f5(a6) {
+            function f7() {
+                return a6;
+            }
+            return C3;
+        }
+        this[Symbol.toPrimitive] = f5;
+        super[this];
+    }
+    static {
+        const o12 = {
+        };
+        new Proxy(this, o12);
+    }
+    static #h = "asinh";
+    static #a = 5.0;
+}
+const v15 = new C3();
+const v16 = new C3();
+new C3();
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a26;
+    try {
+        this.b = a26;
+    } catch(e27) {
+    }
+    try {
+        this.a = 1000.0;
+    } catch(e28) {
+    }
+}
+const v29 = new F21("valueOf", "valueOf", 5.0, "object");
+new F21(v29, "asinh", v16, v29);
+new F21("e", "object", v15, v16);
+Array().unshift(3);

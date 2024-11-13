@@ -1,0 +1,56 @@
+function f0() {
+}
+const v4 = [-65537n,-54977n,10n,-65537n];
+const v5 = [f0,v4,v4];
+v5[2] = v5;
+const v6 = [v5,f0,v5];
+try { v6.find(v5); } catch (e) {}
+class C8 {
+    [v6] = v5;
+    static {
+        const v10 = this?.toString;
+        try { new v10(); } catch (e) {}
+        const v12 = this || this;
+        v12.length = v12;
+        this.f ^= v6[v6];
+        try {
+            v6.f = v12;
+        } catch(e14) {
+        }
+    }
+    static #a;
+}
+try { new C8(); } catch (e) {}
+const v16 = new C8();
+const v17 = v16?.constructor;
+try { new v17(); } catch (e) {}
+const v19 = new C8();
+const v20 = new C8();
+const v21 = v20?.__defineGetter__;
+try { new v21(10n, -54977n); } catch (e) {}
+const v23 = [-53613,268435440,268435440,2,-65536,-2147483647];
+const v24 = [8];
+const v25 = [-1024,-2147483647,-37738,-2,21596,2147483649,9007199254740992,-2039218916];
+class C26 {
+    static #f;
+    static set f(a28) {
+        a28(this, this, a28, v24);
+    }
+    constructor(a31) {
+        this.e = v24;
+    }
+}
+try { new C26(v19); } catch (e) {}
+new C26(v24);
+new C26(v25);
+const v35 = new C26(v25);
+let v38;
+try { v38 = v35.reduceRight(4294967295, v25, C26); } catch (e) {}
+v25[6] ||= -10;
+function f39(a40, a41, a42, a43) {
+    const v44 = v24 in v23;
+    v44 && v44;
+    try { v38(...v24, ...v23, v25, ...v44); } catch (e) {}
+    return f39;
+}
+f39();

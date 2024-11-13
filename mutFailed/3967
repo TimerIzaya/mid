@@ -1,0 +1,97 @@
+function f0() {
+    const o14 = {
+        "b": 57824,
+        n(a5) {
+            const v7 = new String("bigint");
+            "bigint" in v7;
+            const o12 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o12);
+            return this;
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+f0();
+f0();
+with (v15) {
+    b = v15;
+    const o19 = {
+    };
+    try {
+        o19.f = v15;
+    } catch(e20) {
+    }
+    try {
+        const o21 = {
+        };
+        o21.f = v15;
+        o21.b = v15;
+    } catch(e22) {
+    }
+    try {
+        const o23 = {
+        };
+        o23.f = v15;
+        o23.b = v15;
+        o23.g = v15;
+    } catch(e24) {
+    }
+    try {
+        const o25 = {
+        };
+        o25.f = v15;
+        o25.b = v15;
+        o25.e = v15;
+    } catch(e26) {
+    }
+}
+class C29 {
+    static {
+        g = super[this];
+        let v34 = 0.01586605101714844;
+        !v34;
+        v34++;
+        !this;
+        Math.acosh(this);
+    }
+    static [20684];
+    b = v15;
+    3101;
+}
+new C29();
+new C29();
+new C29();
+[127,-268435456,6,-4294967295,-2092593970,4096,129];
+[-854580491,-1,-2147483649,9007199254740991,536870912,-4,-1637070485,26355,-8];
+[12,16];
+const o45 = {
+};
+function F46(a48, a49, a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f55(a56, a57) {
+        const o60 = {
+            968: a57,
+            "d": a56,
+            [268435439n]: 2105444095n,
+            __proto__: o45,
+            "g": a50,
+            ...a57,
+            "b": -4294967296n,
+            "f": this,
+            valueOf(a59) {
+                return a59;
+            },
+        };
+        return a57;
+    }
+    for (let v61 = 0; v61 < 100; v61++) {
+        f55(-4294967296n, v61);
+    }
+}
+const v63 = new F46(F46, F46, o45, F46);
+new F46(v63, o45, F46, o45);
+new F46();

@@ -1,0 +1,45 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+class C2 {
+    static #m(a4) {
+        this >= this;
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeMaglevOnNextCall(f0);
+        f0();
+        return a4;
+    }
+    #valueOf(a14) {
+        this[7] = a14;
+        try {
+            a14.#valueOf(f0, this, this);
+        } catch(e16) {
+            super.h = e16;
+            e16 !== (C2 = this) ? e16 : C2;
+            super.d;
+        }
+        return a14;
+    }
+    b;
+    static h;
+    [C2] = C2;
+    [f1] = C2;
+    static #a = f0;
+}
+new C2();
+const v21 = new C2();
+try { v21.toLocaleString(); } catch (e) {}
+const v23 = new C2();
+const v24 = v23?.constructor;
+try { new v24(); } catch (e) {}
+[13,536870912];
+const v27 = [2,-5013,4294967297,0,11,577823877];
+v27[5] = v27;
+[-12246,609862898,268435440,-932992858];
+-1 != -1;
+Math.tan(-1);

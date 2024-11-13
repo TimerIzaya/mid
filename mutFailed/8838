@@ -1,0 +1,28 @@
+const v5 = new BigUint64Array(2);
+function f8(a9, a10) {
+    const o11 = {
+        "__proto__": 3n,
+        __proto__: v5,
+        "b": a9,
+    };
+    return o11;
+}
+const v12 = f8(322159303n, 322159303n);
+f8(3n, 322159303n);
+const v14 = f8(3n, -56101n, v12);
+new Int8Array(850);
+new Int32Array(173);
+const v25 = new Int16Array(2);
+f8(322159303n, -56101n);
+%PrepareFunctionForOptimization(f8);
+f8(322159303n, -56101n);
+f8(322159303n, -56101n);
+%OptimizeMaglevOnNextCall(f8);
+f8(322159303n, -56101n);
+v25.lastIndexOf(-599.8628109758024);
+const t20 = "arguments";
+t20[3388932655] = -56101n;
+try {
+    f8(322159303n, -56101n, 173, v14);
+} catch(e33) {
+}

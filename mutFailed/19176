@@ -1,0 +1,84 @@
+function f6() {
+    return 10000n;
+}
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a12;
+    } catch(e14) {
+    }
+    try {
+        this.c = a10;
+    } catch(e15) {
+    }
+}
+new F8(-2147483649, -2147483649, -37076n, -2003331780);
+new F8(-2147483649, -2147483649, 10000n, -4294967297);
+function F21(a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v24 = this.constructor;
+    v24.e = v24;
+    try { new v24(); } catch (e) {}
+    this.g = -1;
+    this.f = a23;
+    this.h = a23;
+}
+try { F21(-143547321); } catch (e) {}
+let v27;
+try { v27 = F21.bind(-143547321); } catch (e) {}
+try { v27(-1517929768); } catch (e) {}
+const v29 = new F21(-1);
+const v30 = new F21();
+v30.d = v30;
+let v31 = new F21(-1);
+v31.g = v31;
+class C32 extends F21 {
+    #p(a34, a35) {
+        const v36 = a34?.[32];
+        Object.defineProperty(v30, v29, { writable: true, configurable: true, value: F21 });
+        a34.d = this;
+        return v36;
+    }
+    [-1];
+    static {
+        this.n = F21;
+        super[this];
+        let v40;
+        try { v40 = this["n"](); } catch (e) {}
+        const o41 = {
+        };
+        o41.e = o41;
+        const v43 = new Proxy(v31, o41);
+        v43.f;
+        v43.e = v43;
+        v31 = this;
+        const o45 = {
+            "e": v43,
+            ...v40,
+            65537: o41,
+        };
+    }
+}
+try { new C32(); } catch (e) {}
+new C32();
+const o49 = {
+};
+new F8(-2003331780, -2147483649, 10000n, -4294967297);
+[268435456,268435439,-14,536870912,65133,64];
+[-65536,3,268435441,27347,-9223372036854775808,10008434,4294967296];
+[-4294967295,536870888,-16,2147483647,59476,268435440,536870888,-4294967297];
+function F54() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f56(a57) {
+        new F54();
+    }
+    Object.defineProperty(this, "a", { set: this });
+    1191742690 > 1191742690;
+    try {
+        this.a = 1191742690;
+    } catch(e61) {
+    }
+    const v64 = new Int8Array(257);
+    new Float32Array(v64);
+}
+new F54();

@@ -1,0 +1,89 @@
+function f1(a2, a3) {
+    %VerifyType(a3);
+    f1(a3, f1, a2, 1073741824, a3, a2);
+    f1(1073741824, a3);
+    %PrepareFunctionForOptimization(f1);
+    f1(1073741824, a3);
+    f1(1073741824, a3);
+    %OptimizeMaglevOnNextCall(f1);
+    f1(1073741824, a3);
+    const o9 = {
+        ...a2,
+    };
+    o9.g = o9;
+    return f1;
+}
+f1.d = f1;
+const t16 = f1();
+t16(f1);
+f1();
+-65537 !== -65537;
+const v20 = new Date();
+try { v20.toLocaleDateString(); } catch (e) {}
+function f25(a26, a27, a28, a29) {
+    let v30;
+    try { v30 = a26.padStart(-4294967297); } catch (e) {}
+    try { a28.localeCompare(a27); } catch (e) {}
+    const o58 = {
+        get c() {
+            function f33() {
+                let v34 = 852.2904873570058;
+                const o41 = {
+                    3: "setDate",
+                    "f": 1836424012,
+                    m(a38, a39) {
+                        v34++;
+                        return v34;
+                    },
+                    "d": 1836424012,
+                };
+                return o41;
+            }
+            f33();
+            %OptimizeFunctionOnNextCall(f33);
+            return ("p")[a28];
+        },
+        __proto__: a27,
+        8: -4294967297,
+        ...v30,
+        [1073741824]: 268435440,
+        "type": "p",
+        ..."bigint",
+        o(a45, a46) {
+            class C47 {
+            }
+            return C47;
+        },
+        set d(a49) {
+            this <= Date;
+            const v55 = -(-7);
+            v55 ** v55;
+            const o57 = {
+            };
+        },
+    };
+    return o58;
+}
+f25("p", "bigint", -4294967297, "bigint")[5];
+f25("p", "p", 268435440, "p")[5];
+f25("p", "p", 5, "copyWithin");
+[-1000000.0,0.1600379490765781,-1.6243694690977962e+307,817210.0157459241,1.0,5.0,0.9202958446582343,-1.7976931348623157e+308,-382.2774365702321,-5.737866676165018e+307];
+-1 >>> -1;
+gc();
+Int16Array[0] = 9223372036854775807;
+new Int16Array(Int16Array);
+class C74 {
+    static #e;
+    m(a76, a77, a78, a79) {
+        a78.#e;
+        const t77 = 3;
+        t77.#e = -1;
+    }
+    static [Date] = Date;
+    constructor() {
+        const v88 = this.constructor;
+        try { new v88(); } catch (e) {}
+        super.f >>= this;
+    }
+}
+C74.e = C74;

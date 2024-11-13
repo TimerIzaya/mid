@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        const v3 = new F0();
+        const v5 = new Date();
+        function f6() {
+            return Date;
+        }
+        v3.toString = f6;
+        try { Reflect.set(v5, v3); } catch (e) {}
+        return Reflect;
+    }
+    this[Symbol.iterator] = f2;
+    try {
+        this.c = 65536;
+    } catch(e12) {
+    }
+}
+let v13 = new F0();
+const v14 = new F0();
+function f15() {
+    new F0();
+    for (let v17 = 0; v17 < 32; v17++) {
+        v13["p" + v17] = v17;
+    }
+    return F0;
+}
+v14[Symbol.iterator] = f15;
+const v22 = new F0();
+Uint16Array.BYTES_PER_ELEMENT = Uint16Array;
+new Uint16Array(1);
+new Uint32Array(10);
+-3294;
+const v31 = 10 + 3294;
+v13 = v22;
+c = v31;
+new Uint32Array(34);
+const v38 = Uint16Array?.toString;
+try { new v38(); } catch (e) {}
+new Uint16Array(1904);
+let v41 = 1000;
+v41++;
+const v44 = new Uint8ClampedArray(v41);
+v44[Symbol.toPrimitive] = SyntaxError;
+v44[751] = v44;
+try { new BigUint64Array(v14, v31, v31); } catch (e) {}
+new BigUint64Array(3294);
+const v51 = new Float64Array(Float64Array, Float64Array, Float64Array);
+v51[2];
+for (let v56 = 0; v56 < 32; v56++) {
+    v44["p" + v56] = v56;
+}
+-138.3846677150391;
+Int8Array.prototype = Int8Array;
+new Int8Array(268435456);
+for (let v65 = 0; v65 < 10; v65++) {
+    const v67 = Array(36862);
+    v67.e = v22;
+    v67.e = v67;
+}
+const v68 = [Int8Array];
+v51[138.3846677150391] = 1000000000.0;
+v68.length += 172;

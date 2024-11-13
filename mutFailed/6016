@@ -1,0 +1,54 @@
+function f0() {
+    const o15 = {
+        get h() {
+            let v5 = 10;
+            for (; v5--;) {
+                const o7 = {
+                };
+                try {
+                    o7.e = -3.0;
+                } catch(e8) {
+                }
+                try {
+                    const o9 = {
+                    };
+                    o9.e = -3.0;
+                    o9.h = v5;
+                } catch(e10) {
+                }
+                try {
+                    const o11 = {
+                    };
+                    o11.e = -3.0;
+                    o11.h = v5;
+                    o11.a = v5;
+                } catch(e12) {
+                }
+                try {
+                    const o13 = {
+                    };
+                    o13.e = -3.0;
+                    o13.h = v5;
+                    o13.b = this;
+                } catch(e14) {
+                }
+            }
+            return v5;
+        },
+    };
+    return -7099;
+}
+const t40 = f0();
+t40();
+f0();
+new Uint32Array(6);
+new Float64Array(255);
+new Uint8Array(4096);
+function F31(a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    Number.isFinite(Number);
+    const v37 = this.constructor;
+    try { new v37(); } catch (e) {}
+}
+new F31();
+new F31();

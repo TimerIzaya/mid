@@ -1,0 +1,86 @@
+function f0() {
+}
+try {
+    new f0();
+} catch(e5) {
+}
+(-9007199254740990)[3];
+class C7 {
+    #valueOf(a9) {
+        return -9007199254740990;
+    }
+    constructor(a14, a15) {
+        Object.defineProperty(this, "b", { configurable: true, enumerable: true, value: this });
+        function f16(a17, a18, a19) {
+            try {
+                a19.b = this;
+            } catch(e20) {
+            }
+            return f0;
+        }
+        f16(a15, 536870887, this);
+    }
+}
+const v22 = new C7(3, -9007199254740990);
+const v23 = new C7(536870887, 536870887);
+new C7(536870887, 3);
+const v26 = new WeakSet();
+Float32Array[Symbol.toPrimitive] = f0;
+Float32Array << -9007199254740990;
+f0();
+v23[536870887];
+v26.e;
+v22[3254];
+new Float32Array(1024);
+new BigUint64Array(10);
+new Uint32Array(4);
+class C44 {
+}
+const v45 = Array();
+const v46 = new C44();
+function f47(a48, a49, a50) {
+    const o58 = {
+        toString(a52, a53, a54) {
+            a49 < v45;
+            super[v46];
+            return Array;
+        },
+        get d() {
+        },
+    };
+    const v59 = o58.__lookupSetter__;
+    const v60 = [-5,2147483649,-4294967295,1,8,-4331,52354,15231];
+    v60.toString = f47;
+    const v62 = v60["unshift"]();
+    const v63 = [-1539,1,12];
+    function f64() {
+        return f64;
+    }
+    [-2,-1,65535,-9223372036854775807,-128,-11,1073741824,9223372036854775807,13582,-65536];
+    [536870888,4,1073741823,64,679147314,9007199254740992,65535];
+    [5,1,3463,6,9,-10,-15,129,-177679550];
+    v60.__proto__;
+    C7[v60];
+    function f70(a71, a72) {
+        a71.toString = Array;
+        const o73 = {
+            [a71]: v63,
+        };
+        return a72;
+    }
+    function f74(a75, a76) {
+        function f77(a78, a79) {
+            return a78;
+        }
+        return v62;
+    }
+    f70.toString = f74;
+    f70(f70);
+    f70(f64);
+    try { new v59(a48); } catch (e) {}
+    return o58;
+}
+%PrepareFunctionForOptimization(f47);
+const v84 = f47(f47(), Array, Array);
+%OptimizeFunctionOnNextCall(f47);
+f47(v45, f47, v84);

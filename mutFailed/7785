@@ -1,0 +1,42 @@
+new BigInt64Array(64);
+function f8() {
+    new Uint8ClampedArray([5.0]);
+    const v12 = [-8617,3];
+    function f13(a14, a15, a16, a17) {
+        const o18 = {
+            "h": a14,
+            "b": v12,
+        };
+        return o18;
+    }
+    function f19(a20, a21) {
+        return f8;
+    }
+    const v23 = Promise.resolve(f19);
+    const v24 = new Promise(f19);
+    function f25(a26, a27) {
+        new Uint32Array();
+        return Uint32Array;
+    }
+    v24.constructor = f25;
+    const v30 = v24.constructor;
+    try { new v30(-30285); } catch (e) {}
+    return v23;
+}
+%PrepareFunctionForOptimization(f8);
+f8();
+%OptimizeFunctionOnNextCall(f8);
+f8();
+new Int16Array(129);
+const t30 = 22;
+const v38 = new t30(22);
+const v40 = [9007199254740990,12,13,1073741825,-9223372036854775807,2147483649,-320466038];
+function f41(a42) {
+    function f43() {
+        return v38;
+    }
+}
+Object.defineProperty(v40, 268435441, { enumerable: true, set: f41 });
+const v45 = new Uint8Array();
+new Uint8Array(268435440);
+v40[268435441] = v45;

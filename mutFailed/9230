@@ -1,0 +1,50 @@
+class C3 {
+    constructor(a5, a6) {
+        const t2 = 2.886232157968667;
+        t2[1073741823] += a5;
+        delete a5?.[a5];
+        a5?.[268435439];
+        try {
+            ("bigint").repeat(1449285593);
+        } catch(e11) {
+        }
+    }
+    8 = 845487.0787868425;
+    static #a = 2.886232157968667;
+    3 = C3;
+    #b = 845487.0787868425;
+}
+const v12 = new C3(C3, 845487.0787868425);
+const v13 = new C3(2.886232157968667, v12);
+new C3(2.886232157968667, 845487.0787868425);
+function f21(a22, a23, a24) {
+    const o31 = {
+        valueOf(a26, a27, a28) {
+            try { a28(this, a24, a23); } catch (e) {}
+            function f30() {
+                return a23;
+            }
+            return a26;
+        },
+        "h": a22,
+        "a": a23,
+        [C3]: v12,
+        "f": -4.0,
+        ...C3,
+        ["bigint"]: a24,
+        __proto__: v13,
+    };
+    return o31;
+}
+const v32 = f21(v13, v12, -4.0);
+f21(v32, f21, 2.886232157968667);
+f21(v13, v32, 3.0);
+for (let v35 = 0; v35 < 25; v35++) {
+    const v37 = "p" + v35;
+    v37.match(v37);
+}
+try {
+    Int8Array(Int8Array, Int8Array, Int8Array);
+} catch(e41) {
+    e41.stack;
+}

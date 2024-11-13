@@ -1,0 +1,47 @@
+function f0() {
+}
+class C1 {
+    static [f0] = f0;
+    #n() {
+        const v3 = super[this];
+        %PrepareFunctionForOptimization(v3());
+        const t7 = C1();
+        t7();
+        %OptimizeFunctionOnNextCall(f0);
+        f0();
+        return v3;
+    }
+    9;
+    [f0];
+    static #e = f0;
+}
+new C1();
+const v9 = new C1();
+new v9();
+[65536,2147483648,-47041,-10,-4294967297,-4,3840];
+[-664266495,-5,64194150,1024,30342,0];
+[268435439,50239,53691,15,8,6,-1742872263,10];
+class C14 extends C1 {
+    static #e;
+    static #valueOf(a16, a17) {
+        for (let i19 = 0; i19 < 6, a16; i19++) {
+            super.a;
+        }
+        return a17;
+    }
+}
+new C14();
+new C14();
+new C14();
+function f29() {
+    return f0;
+}
+[4096,-65536,-2147483649,16,-15,2147483649,-2147483649];
+[33901,10336,52456,-2147483648];
+[-4,15,475313151,9,-1024,4,46534,65536,1,-4294967297];
+class C33 {
+}
+const v35 = new C33();
+class C36 {
+}
+try { C1.apply(C33, v35); } catch (e) {}

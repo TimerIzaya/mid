@@ -1,0 +1,85 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 128;
+    } catch(e3) {
+    }
+    try {
+        this.b = 128;
+        const v4 = [-9007199254740992,-9,268435441,-1294677798];
+        const v5 = [-54512,-2147483647,24944,7,268435439,4096,-6];
+        class C6 {
+        }
+        const o8 = {
+        };
+        function f9() {
+            return gc;
+        }
+        Object.defineProperty(o8, "type", { get: f9 });
+        gc(o8);
+        new C6();
+        new C6(v4, v5);
+    } catch(e14) {
+    }
+    try {
+        this.g = 128;
+    } catch(e15) {
+        try {
+            this.fuck(-1.7976931348623157e+308, -1.7976931348623157e+308, -1.7976931348623157e+308, -5430);
+        } catch(e19) {
+        }
+    }
+}
+new F0();
+new F0();
+new F0();
+const v28 = new Int8Array(14);
+new Uint16Array(2352);
+const v34 = Symbol.toPrimitive;
+const o36 = {
+    [v34]() {
+        Object.defineProperty(this, 536870889, { set: Symbol });
+        return 2352;
+    },
+};
+new Uint16Array(530);
+const v40 = new Int32Array();
+function f41() {
+    return Symbol;
+}
+function f42(a43) {
+    try {
+        v28.buffer = o36;
+    } catch(e44) {
+    }
+}
+Object.defineProperty(v40, Symbol.toPrimitive, { writable: true, enumerable: true, get: f41, set: f42 });
+for (let v47 = 0; v47 < 5; v47++) {
+    function f48() {
+        const v51 = new Float64Array();
+        v51.toString = Symbol;
+        const v55 = new Float32Array(4096);
+        function f56(a57, a58) {
+            try {
+                Symbol.d = 530;
+            } catch(e59) {
+            }
+            return Float32Array;
+        }
+        const v61 = Symbol.toPrimitive;
+        v55[v61] = f56;
+        const v63 = [v55,Uint32Array,[v51,Uint32Array,v55]];
+        function f64() {
+            try {
+                v61.length = 1073741825;
+            } catch(e66) {
+            }
+            return v34;
+        }
+        v63[Symbol.toPrimitive] = f64;
+        v63[v63] >>= 1000;
+        Math.acos(v40);
+    }
+    f48();
+    %OptimizeFunctionOnNextCall(f48);
+}

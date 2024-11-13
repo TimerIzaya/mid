@@ -1,0 +1,66 @@
+class C3 {
+    constructor(a5, a6) {
+        a6.g ||= 1.212488027753892;
+        a5[a6] ^= 1.212488027753892;
+    }
+    set g(a8) {
+        super[this] = this;
+        const v9 = this[2147483648];
+        const v11 = [v9?.[a8],4.0];
+        [[v11,4.0,v9],v11];
+    }
+}
+const v14 = new C3(-536870912, C3);
+const v15 = new C3(4.0, -536870912);
+const v16 = new C3(v15, v15);
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -536870912;
+    } catch(e23) {
+    }
+    try {
+        this.h = v14;
+    } catch(e24) {
+    }
+    try {
+        this.f = v15;
+    } catch(e25) {
+    }
+}
+new F17(v14, v15, v15, v14);
+new F17(v16, v14, C3, v16);
+new F17(v15, v15, v15, C3);
+function f29(a30, a31, a32, a33) {
+    const v34 = /(?:a*)+q(?<a>.)/guds;
+    for (let [i38, i39] = (() => {
+            0 >>> 0;
+            return [0, 10];
+        })();
+        (() => {
+            const v40 = i38 < i39;
+            function f41(a42, a43) {
+                return f29;
+            }
+            return v40;
+        })();
+        i39--) {
+        for (let v49 = 0; v49 < 25; v49++) {
+            v34.hasIndices = v34;
+        }
+    }
+    return f29;
+}
+for (let v50 = 0; v50 < 10; v50++) {
+    f29(v50, v50, f29, v50);
+}
+class C59 {
+}
+const v60 = new C59();
+function f70() {
+    try { v60.getMinutes(arguments); } catch (e) {}
+    arguments[arguments] = v60;
+    return 65535;
+}
+%OptimizeFunctionOnNextCall(f29);
+f29();

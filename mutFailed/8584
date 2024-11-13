@@ -1,0 +1,106 @@
+class C3 {
+    constructor(a5) {
+        let {"a":v6,"length":v7,...v8} = "-13";
+        let v10;
+        try { v10 = v6(a5, "P7C", "n", a5, "P7C"); } catch (e) {}
+        %VerifyType(v10);
+        for (let v11 = 0; v11 < 5; v11++) {
+            function f12() {
+                const v14 = ("1073741824").constructor;
+                return v14(f12, v11, v14, "1073741824", v14);
+            }
+            f12();
+            %OptimizeFunctionOnNextCall(f12);
+        }
+    }
+    static d;
+    static #e;
+    f = "n";
+    255 = "-13";
+    static 175 = "n";
+    #f = "P7C";
+    ["P7C"];
+    static 9;
+}
+const v17 = new C3("n");
+const v18 = new C3("-13");
+const v19 = new C3("P7C");
+const v20 = [v19,v19,v18,C3];
+const v21 = [v20];
+const v22 = [v20];
+const v24 = new Set();
+class C25 {
+    65537 = v17;
+    [v21];
+    constructor(a27, a28, a29, a30) {
+        new BigUint64Array(16);
+        Math.atan2(1e-15, 536870887);
+        try {
+            v20.b = a30;
+            function F38() {
+                if (!new.target) { throw 'must be called with new'; }
+            }
+            const v40 = new F38();
+            const v41 = new F38();
+            const o42 = {
+                "h": v41,
+                "e": v40,
+            };
+        } catch(e43) {
+        }
+        new Set(this);
+        const t51 = "-13";
+        delete t51?.length;
+    }
+    static #d = v24;
+    static 6;
+    get b() {
+        const v47 = ("P7C")[21];
+        try {
+            this.e = "P7C";
+        } catch(e48) {
+        }
+        return v47;
+    }
+    static d;
+    #h = v18;
+}
+const v49 = new C25(v20, "n", "-13", C3);
+const v50 = new C25(v21, v49, v49, v49);
+new C25(v50, v49, v50, v22);
+function F52() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 5;
+}
+const v55 = new F52();
+const v56 = new F52();
+function f57(a58, a59) {
+    const o60 = {
+        ...v20,
+        "a": v50,
+        "b": v24,
+        "g": v55,
+        "type": "n",
+        "h": v56,
+        6: v56,
+        128: a59,
+        "e": v55,
+        __proto__: a58,
+        "a": a58,
+        ...a59,
+    };
+    return o60;
+}
+const v61 = f57();
+const v62 = f57();
+f57(v55, v62);
+function f64() {
+    return f57;
+}
+const v67 = new Float32Array(218);
+const v69 = new Uint8Array();
+for (const v70 of v67) {
+    Object.defineProperty(v61, Float32Array, { configurable: true, enumerable: true, get: f57, set: f64 });
+}
+Object.defineProperty(v62, "e", { configurable: true, enumerable: true, set: f57 });
+v69 instanceof f57;

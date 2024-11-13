@@ -1,0 +1,16 @@
+try { new Map(); } catch (e) {}
+const t1 = "d";
+new t1();
+[-9223372036854775808,8,-1169,50579,25200];
+[-9007199254740990,923815413,4294967297,1073741825,10,10,13,1073741823,-91862120,58981];
+[257];
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v14 = this?.constructor;
+    try { new v14(); } catch (e) {}
+    AggregateError.stackTraceLimit = AggregateError;
+    AggregateError.captureStackTrace(AggregateError);
+}
+F12.length;
+new F12();
+new F12();

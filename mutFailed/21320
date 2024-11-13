@@ -1,0 +1,24 @@
+new Uint16Array(13);
+new Float64Array(9);
+new Uint8Array(128);
+[60671,9223372036854775807,4,6,3,268435456,-1643945335,9007199254740992];
+const v10 = [-65537,9007199254740990];
+[1000,36404,-705167121,-1234416956,65536,129,-2147483647];
+const v13 = new Float64Array();
+function f14() {
+    v10.__proto__;
+    function F16(a18, a19, a20) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v21 = new F16();
+    const o27 = {
+        toString(a24, a25, a26) {
+            Object.defineProperty(v21, a24, { writable: true, configurable: true, set: Array });
+            return Array;
+        },
+    };
+    return o27;
+}
+v13.toString = f14;
+Uint32Array[Symbol.toPrimitive] = f14;
+v13 > Uint32Array;

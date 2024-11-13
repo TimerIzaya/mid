@@ -1,0 +1,53 @@
+function f0() {
+    const o11 = {
+        "d": 268435440,
+        [268435440]: 268435440,
+        __proto__: "K7KSQ",
+        ["K7KSQ"]: -993866.8254132981,
+        [-993866.8254132981]: -993866.8254132981,
+        "h": 268435440,
+        "g": "K7KSQ",
+        set buffer(a5) {
+            const o10 = {
+                valueOf() {
+                    try {
+                        ("K7KSQ").substring(13914, 13914);
+                    } catch(e9) {
+                    }
+                    return "K7KSQ";
+                },
+            };
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0(v12, f0, f0);
+const v14 = f0();
+class C15 extends f0 {
+    static e;
+    g = v14;
+    constructor(a17, a18) {
+        super(a17, this);
+        super.d = this;
+        try {
+            super.setMilliseconds(a17, a17, a17, a17, v13, v13);
+        } catch(e20) {
+        }
+    }
+    static c;
+    static b = f0;
+    static g;
+    static #a;
+}
+new C15(v13, v13);
+const v22 = new C15(v12, v14);
+const v23 = new C15(v14, v22);
+const v24 = [v12,C15,v23];
+const v25 = [v13];
+[C15];
+[C15,f0,C15,v22];
+[v25,v23,v13,v24,f0];
+[v24];
+const v32 = new Uint8ClampedArray(1000);
+v32.includes(undefined);

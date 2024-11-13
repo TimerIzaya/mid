@@ -1,0 +1,77 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v8 = this.constructor;
+    try { new v8("a"); } catch (e) {}
+    try { a6.valueOf(); } catch (e) {}
+    try {
+        this.f = "-2147483648";
+        9n >> 9n;
+    } catch(e13) {
+    }
+}
+F4.arguments = F4;
+class C15 {
+    [1024];
+    4294967295 = 1024;
+    static {
+        C15 >>> 1073741824;
+        ("-2147483648")[F4];
+        new Array(512);
+    }
+    b;
+    get c() {
+        const v24 = Symbol.toPrimitive;
+        const o29 = {
+            [v24]() {
+                return 1073741824;
+            },
+        };
+        return o29;
+    }
+}
+const v30 = new C15();
+function f31(a32, a33, a34) {
+    Object.defineProperty(v30, 357, { writable: true, configurable: true, enumerable: true, value: a33 });
+    const o35 = {
+    };
+    new Proxy("-2147483648", o35);
+    return "a";
+}
+f31(C15, 1073741824, 1073741824);
+const v39 = new C15();
+const v40 = new C15();
+function f41(a42, a43) {
+    const o52 = {
+        15: 61209,
+        ...v39,
+        ...a42,
+        "g": 1073741824,
+        [v39]: v40,
+        get f() {
+            delete this?.g;
+            v40[Symbol.matchAll];
+            return v39;
+        },
+    };
+    return o52;
+}
+f41(v39, 1024);
+f41(v40, 1024);
+f41(v30, 1024);
+function f56() {
+    return v40;
+}
+new Float64Array(1073741824);
+class C62 {
+    #n(a64, a65) {
+    }
+}
+for (let v67 = 0; v67 < 5; v67++) {
+    function f68() {
+        const v70 = new BigInt64Array(v67, v67, v67);
+        v70[0];
+        return BigInt64Array;
+    }
+    f68();
+    %OptimizeFunctionOnNextCall(f68);
+}

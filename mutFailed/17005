@@ -1,0 +1,64 @@
+class C3 {
+    o(a5) {
+        super.f = this;
+        const o6 = {
+        };
+        try {
+            o6.f = "vUC";
+        } catch(e7) {
+        }
+        try {
+            const o8 = {
+            };
+            o8.f = "vUC";
+            o8.e = this;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.f = "vUC";
+            o10.e = this;
+            o10.d = "vUC";
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.byteOffset = "vUC";
+            o12.e = this;
+            o12.a = 1.2035332325559365e+308;
+        } catch(e13) {
+        }
+        return this;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+class C17 extends C3 {
+    static #d;
+    o(a19, a20) {
+        a20[1.2035332325559365e+308];
+        return a20;
+    }
+    constructor(a23, a24, a25, a26) {
+        super();
+        if (a26) {
+        } else {
+            const o30 = {
+                "caller": C3,
+            };
+            const v32 = new ArrayBuffer(1615750278, 268435441);
+            new Float64Array(v32);
+        }
+    }
+}
+const v35 = new C17(C17, v14, C17, v16);
+const v36 = new C17(C17, v15, v16, v15);
+new C17(v35, v36, v35, v36);
+new Float64Array(-2147483647);
+new Uint32Array(634, Uint32Array, Uint32Array);
+new BigInt64Array(2586);
+const v48 = new Uint16Array(Uint16Array);
+new Uint8ClampedArray(v48);

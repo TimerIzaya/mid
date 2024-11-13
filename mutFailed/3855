@@ -1,0 +1,44 @@
+const v3 = /[[\011]*]/gdim;
+const v4 = /a+b|c*/gus;
+const v5 = /Aa\nb\bc/gvmy;
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v5.a = a10;
+    } catch(e11) {
+    }
+    try {
+        this.h = -1000000.0;
+    } catch(e12) {
+    }
+    try {
+        this.d = v4;
+    } catch(e13) {
+    }
+}
+new F6(v3, 0.36466827666640156, 1.5581860895586747e+307);
+const v15 = new F6(0.36466827666640156, -1000000.0, 1.5581860895586747e+307);
+new F6(0.36466827666640156, 0.36466827666640156, -1000000.0);
+class C17 {
+    static get g() {
+        const v23 = +4096;
+        !C17;
+        +this;
+        v23 / v23;
+        return v15;
+    }
+}
+new F6();
+new C17();
+new C17();
+class C30 {
+}
+const v31 = new C30();
+const v32 = new F6();
+const v33 = new v32();
+for (let v34 = 0; v34 < 5; v34++) {
+    v32["p" + v34] = v34;
+}
+let v37;
+try { v37 = v33(C30, v32, v33, v32, v32); } catch (e) {}
+v31.f = v37;

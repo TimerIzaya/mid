@@ -1,0 +1,37 @@
+class C3 {
+    static f = 4294967296;
+    6;
+    #f = -418.7499494251788;
+    [4294967296];
+    static [4294967297] = 4294967297;
+    static {
+        Reflect.construct(-418.7499494251788, [Reflect,this,4294967297,4294967297,4294967296], this);
+    }
+}
+new C3();
+new C3();
+const t12 = 4294967296;
+const v10 = new t12();
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a15;
+    } catch(e17) {
+    }
+    try {
+        this.a = a15;
+    } catch(e18) {
+    }
+}
+const v19 = new F11(v10, v10, F11, C3);
+const v20 = new F11(-418.7499494251788, v19, v19, F11);
+new F11(4294967296, v20, 4294967296, v20);
+const v22 = [];
+function F23() {
+    if (!new.target) { throw 'must be called with new'; }
+    let v25 = 0;
+    v25++;
+    v22[v25] += v25;
+    new Uint16Array(v22);
+}
+new F23();

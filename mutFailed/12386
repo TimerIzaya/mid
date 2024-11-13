@@ -1,0 +1,53 @@
+function f0() {
+}
+function f1() {
+    const o18 = {
+        ...f0,
+        ...f0,
+        "g": f0,
+        [f0]: f0,
+        get d() {
+        },
+        "d": f0,
+        o(a4) {
+            const o6 = {
+            };
+            return gc(o6);
+        },
+        o() {
+            new f0();
+            function f10() {
+                ("D")[0].match();
+                return f10;
+            }
+            f10();
+            const o15 = {
+                "set": f0,
+            };
+            new String(this, o15);
+            return this;
+        },
+    };
+    return o18;
+}
+f1();
+f1().fuck();
+const v24 = new Int16Array(5);
+new Float32Array(v24);
+f1();
+new Map();
+[2.0];
+[-1000000000.0];
+const v32 = [6.772566009790907];
+new Array(4);
+function f36() {
+    function f37(a38, a39, a40, a41) {
+        return a39;
+    }
+    f37(f37, f36, f37, f36);
+    return f36;
+}
+%PrepareFunctionForOptimization(f36);
+f36();
+%OptimizeFunctionOnNextCall(f36);
+f36(v32);

@@ -1,0 +1,31 @@
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "h", { writable: true, configurable: true, value: a8 });
+    const v13 = new Uint16Array();
+    let {...v14} = v13;
+    try {
+        this.h = "toPrimitive";
+    } catch(e15) {
+    }
+}
+const v16 = new F6("toPrimitive", F6, "Jdjw", "m");
+new F6("Jdjw", v16, "m", "b");
+new F6("toPrimitive", "m", "matchAll", "matchAll");
+function f20(a21) {
+    const v22 = ("toPrimitive").__lookupSetter__;
+    try { v22(); } catch (e) {}
+    return Float32Array;
+}
+Float32Array[Symbol.iterator] = f20;
+Object.defineProperty(Float32Array, 2, { enumerable: true, value: "Jdjw" });
+const v26 = new Float32Array(Float32Array, Float32Array, Float32Array);
+function f28() {
+    return 160;
+}
+Object.defineProperty(v26, "h", { configurable: true, enumerable: true, get: f28 });
+async function f29(a30, a31, a32) {
+    v26.h = v26;
+    await 160;
+    return f29;
+}
+f29(v26, v26, Float32Array);

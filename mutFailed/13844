@@ -1,0 +1,59 @@
+class C3 {
+    valueOf(a5, a6) {
+        let v4 = this;
+        const o7 = {
+            ..."__proto__",
+            "b": v4,
+        };
+        a5[2] = -9007199254740991;
+        v4 = a6;
+        return "__proto__";
+    }
+    constructor(a12) {
+        const t12 = "__proto__";
+        t12[536870889] |= a12;
+        ("__proto__")[65537] >>> -9007199254740991;
+    }
+    static 1 = 0.0;
+}
+new C3(C3);
+new C3(-9007199254740991);
+new C3(0.0);
+const v32 = new Int16Array(16);
+const v35 = new Uint32Array(9);
+new Uint16Array(3825);
+function F39(a41, a42, a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a44;
+    } catch(e45) {
+    }
+    try {
+        this.b = a42;
+    } catch(e46) {
+    }
+    try {
+        this.d = "b";
+    } catch(e47) {
+    }
+}
+new F39(-1640694823n, -1640694823n, "b", "bigint");
+new F39(29442n, -60970n, "bigint", "b");
+new F39(-60970n, -1640694823n, "__proto__", "bigint");
+function f51() {
+    return f51;
+}
+const o54 = {
+    set b(a53) {
+    },
+    __proto__: f51,
+};
+const v57 = [o54];
+v57[29442n] = Int16Array;
+Object.defineProperty(C3, 8, { writable: true, configurable: true, enumerable: true, value: "bigint" });
+Uint32Array < v32 ? Uint32Array : v32;
+try {
+    v32.__proto__ = v35;
+} catch(e60) {
+}
+Reflect.construct(Int8Array, v57);

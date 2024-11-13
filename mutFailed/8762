@@ -1,0 +1,68 @@
+function f0() {
+    const o4 = {
+        "a": 0,
+        "d": "bigint",
+        __proto__: "bigint",
+        ..."bigint",
+        [0]: 0,
+        [536870887]: "bigint",
+        "split": 536870887,
+        "g": "bigint",
+        ["bigint"]: 0,
+        ..."bigint",
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+v7.bigint = v7;
+class C8 extends f0 {
+    static b;
+    static e = v6;
+    #b;
+    512 = f0;
+    static g;
+    o(a10, a11) {
+        return this;
+    }
+    static 199 = v6;
+    static f;
+    static #a;
+    static [f0] = v5;
+}
+try { new C8(); } catch (e) {}
+const v16 = new C8();
+const v17 = new C8();
+const v18 = new C8();
+v18[1] = v18;
+function f19(a20, a21, a22) {
+    a20.g = f0;
+    a20.g = a20;
+    a21[536870887];
+    try {
+        C8.e = v18;
+    } catch(e24) {
+    }
+    const o29 = {
+        "c": f0,
+        "f": C8,
+        set g(a27) {
+            if (a20) {
+                a21.d;
+            } else {
+                a22[a27] = v16;
+            }
+        },
+        __proto__: v17,
+    };
+    return o29;
+}
+f19.g = v18;
+f19.prototype;
+f19(v17, v17, v16)[2];
+f19(f19(f19, v7, v18), v16, v18);
+Float64Array[Symbol.iterator] = f0;
+const v38 = new Float64Array(Float64Array);
+for (const v39 in v38) {
+}

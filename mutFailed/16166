@@ -1,0 +1,61 @@
+class C3 {
+    constructor(a5, a6) {
+        super.b = "f";
+        super["f"] = this;
+        const t4 = "f";
+        t4[2] = this;
+        const v9 = [0.0,-2.220446049250313e-16];
+        let v10;
+        try {
+        const t0 = 16;
+        v10 = t0(16, 16);
+        } catch (e) {}
+        function f11() {
+            return f11;
+        }
+        class C12 extends f11 {
+        }
+        class C13 {
+            constructor(a15, a16) {
+                let v19 = v9[v10];
+                v19 **= 16;
+                function f20(a21, a22, a23, a24) {
+                    return 2;
+                }
+                for (let v25 = 0; v25 < 625; v25++) {
+                    f20(Uint8Array, 2, v25);
+                    try {
+                        a15 &= C12;
+                    } catch(e27) {
+                    }
+                }
+            }
+        }
+        new C13(16, f11);
+        new C13();
+        new Uint32Array(5);
+        new Int8Array(347);
+        new Float32Array(128);
+    }
+}
+const v38 = new C3(C3, 536870887);
+const v39 = new C3(0.40040275536036574, v38);
+const v40 = new C3(C3, C3);
+function F41(a43, a44, a45, a46) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v40;
+    } catch(e47) {
+    }
+    try {
+        this.h = a43;
+    } catch(e48) {
+    }
+}
+const v49 = new F41(v38, v40, v39, v40);
+new F41("f", v49, C3, v49);
+new F41(v38, "f", v39, v40);
+class C53 extends Array {
+}
+const v54 = new C53();
+v54.push(Array);

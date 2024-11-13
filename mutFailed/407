@@ -1,0 +1,53 @@
+function f0() {
+}
+for (let v2 = 0; v2 < 5; v2++) {
+    const t3 = "undefined";
+    t3["p" + v2] = v2;
+}
+new WeakMap();
+function f7() {
+    return f0;
+}
+function f11(a12, a13, a14) {
+    const o22 = {
+        toString(a16, a17, a18) {
+            a13 < this;
+            return super[a14];
+        },
+        get d() {
+            return this;
+        },
+    };
+    return o22;
+}
+%OptimizeFunctionOnNextCall(f11);
+/(f(?:a?)+(x)(x)(x)\4*\c_)/dm;
+/4foo(?=bar)baz/vim;
+/Ta[^a](x)(x)(x)\3[a\x60+]/vdiy;
+Math[Symbol.toPrimitive] = f7;
+Math.cbrt(Math);
+const v33 = [-1235077344,-4096,50383815,-8476,-9007199254740991];
+class C35 extends Set {
+}
+new C35(v33);
+const o43 = {
+    o(a40, a41) {
+        class C42 {
+        }
+        return C42;
+    },
+};
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    ([257])[0];
+    v33.fill(-9007199254740990n, 9007199254740990);
+}
+const v55 = new F45(-1986892121, -1986892121);
+let v56;
+try {
+const t0 = true;
+v56 = t0(F45, -1986892121, v55, -128);
+} catch (e) {}
+const v57 = `
+`;
+try { v56(v57, v56, f0, "-682210802"); } catch (e) {}

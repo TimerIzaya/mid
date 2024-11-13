@@ -1,0 +1,22 @@
+const v4 = new Map();
+function f5() {
+    return 1413024256n;
+}
+function f6(a7) {
+    const o9 = {
+    };
+    new ArrayBuffer(o9, 0);
+}
+Object.defineProperty(v4, "d", { writable: true, configurable: true, enumerable: true, get: f5, set: f6 });
+const v17 = new Uint8Array(3);
+new Uint8ClampedArray(v17);
+new Int16Array(2);
+const v26 = new Uint32Array(v4);
+for (const v27 in v26) {
+    var h = v27;
+}
+try {
+    v4.d = -7.144841751133186;
+} catch(e28) {
+}
+try { v4.entries(); } catch (e) {}

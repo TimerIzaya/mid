@@ -1,0 +1,34 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = [a6,this,a5,"species"];
+        let v9 = [v7,[a5,v7,"species"],a6,"d"];
+        v9 = v7;
+    }
+    ["d"] = "d";
+    m(a11, a12) {
+        super.c &&= a12;
+        function f13(a14) {
+            return a14;
+        }
+        class C15 extends f13 {
+            static #a = "m";
+        }
+        return C15;
+    }
+}
+const v16 = new C3(C3, "species", "species", "m", "species");
+const v17 = new C3(v16, "species");
+new C3(v17, "m");
+new WeakSet(WeakSet);
+function f24(a25, a26) {
+    const o29 = {
+        toString(a28) {
+            return a25;
+        },
+    };
+    o29[Symbol.toStringTag] = a26;
+    return o29;
+}
+const v32 = f24();
+const v33 = f24(v32, v32);
+v32[WeakMap.toStringTag] = v33;

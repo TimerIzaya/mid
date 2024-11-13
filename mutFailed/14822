@@ -1,0 +1,77 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 268435439;
+    } catch(e3) {
+        function F4(a6, a7, a8) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v9 = new F4();
+        const o15 = {
+            toString(a12, a13, a14) {
+                Object.defineProperty(v9, a12, { writable: true, configurable: true, set: Array });
+                return Array;
+            },
+        };
+    }
+    try {
+        this.a = 268435439;
+    } catch(e16) {
+    }
+    try {
+        this.c = 268435439;
+    } catch(e17) {
+    }
+}
+new F0();
+const v19 = new F0();
+const v20 = new F0();
+[-6,-11,2090902611];
+const v22 = [9007199254740992,-2147483648,-128,-11,-16663,257,2147483648,4294967297,-8];
+const v23 = [65536,14934];
+class C24 extends F0 {
+    static {
+        this.p5 = this;
+        for (let v26 = 0; v26 < 32; v26++) {
+            this["p" + v26] = v26;
+        }
+    }
+    get f() {
+        const v31 = new Date();
+        const v33 = Symbol.unscopables;
+        v31[v33];
+        v33[1073741824] = v20;
+        return v22;
+    }
+}
+const v35 = new C24();
+Object.defineProperty(v35, "join", { value: v19 });
+new C24();
+new C24();
+for (let v42 = 0; v42 < 5; v42++) {
+    function f43() {
+        const v45 = [];
+        Reflect.apply(v23.toString, v35, v45);
+        const v52 = ("c").toLowerCase();
+        const v53 = 1864489360 << v52;
+        const v56 = new Uint32Array(256);
+        try {
+            v56.length = 2;
+        } catch(e58) {
+        }
+        v53 & v53;
+        return v52;
+    }
+    f43();
+    %OptimizeFunctionOnNextCall(f43);
+}
+for (const v61 in v22) {
+    const t68 = -729457499n;
+    const v64 = new t68();
+    [v64,1561n];
+    const v67 = new SharedArrayBuffer(SharedArrayBuffer, SharedArrayBuffer);
+    v67.byteLength;
+    new BigUint64Array(64);
+    new BigUint64Array(1);
+    new Uint32Array(134);
+}

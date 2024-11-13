@@ -1,0 +1,26 @@
+new BigInt64Array(1);
+new BigInt64Array(62);
+new BigUint64Array(971);
+const o12 = {
+};
+function f13(a14) {
+    const o15 = {
+    };
+    return o15;
+}
+const v16 = f13();
+class C17 extends f13 {
+}
+const v18 = new C17();
+function F19(a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    new C17();
+    try {
+        v18.toString = a21;
+    } catch(e24) {
+    }
+    const v25 = this.constructor;
+    try { new v25(a21, v25, v25, o12, v25); } catch (e) {}
+    v16[v18] = o12;
+}
+new F19();

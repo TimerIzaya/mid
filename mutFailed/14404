@@ -1,0 +1,49 @@
+const v2 = new BigInt64Array(21);
+function f5() {
+    const o7 = {
+        get b() {
+            return f5;
+        },
+    };
+    return o7;
+}
+class C8 extends f5 {
+    constructor(a10) {
+        super();
+        for (let v11 = 0; v11 < 25; v11++) {
+            this["p" + v11] = v11;
+        }
+    }
+}
+new C8();
+new Uint32Array(742);
+const v18 = new Uint8ClampedArray(1000, Uint8ClampedArray);
+new isFinite(220);
+new Uint32Array(9);
+const v27 = new BigUint64Array(7, BigUint64Array, v2);
+const v30 = [2.0,NaN,9.478269382388323];
+function f31(a32, a33) {
+    return a33;
+}
+Object.defineProperty(v30, Uint32Array.toPrimitive, { configurable: true, value: f31 });
+[-1.0,1.0,-875790.5323034594,0.22501948637268132,-0.0,-0.0];
+function f37(a38, a39, a40, a41) {
+    const v42 = Symbol.toPrimitive;
+    Object.defineProperty(a38, v42, { configurable: true, enumerable: true, value: f37 });
+    const o49 = {
+        toString(a44, a45) {
+            const v46 = a38 && Float64Array;
+            function f47() {
+                f47 *= v42;
+                return Float64Array;
+            }
+            Object.defineProperty(v46, "E", { value: f47 });
+            v46 <= a41;
+            return this;
+        },
+    };
+    return o49;
+}
+f37(v27);
+const v51 = f37(BigUint64Array, v18);
+try { v51.toString(f37, v30); } catch (e) {}

@@ -1,0 +1,99 @@
+const v2 = new Int8Array(127);
+function f3(a4, a5) {
+    a5[a4] ||= a4;
+    function f7() {
+        const o10 = {
+            501: null,
+            "a": null,
+            "h": null,
+            [null]() {
+                super.b;
+            },
+            "f": null,
+            9: null,
+            "e": null,
+            ...null,
+        };
+        return o10;
+    }
+    return 127;
+}
+const v12 = Symbol.toPrimitive;
+v2[v12] = f3;
+const v15 = new Float64Array(3);
+v15[Symbol.toPrimitive] = Symbol;
+const v20 = new Uint32Array(2);
+class C21 {
+    static o(a23, a24) {
+        try {
+            this.e = 3;
+        } catch(e25) {
+        }
+        return Float64Array;
+    }
+    6;
+    static h;
+    constructor(a27, a28, a29) {
+        delete v15[v2];
+        v20.length;
+        v2 || Int8Array;
+    }
+}
+function f34() {
+    Int8Array in v12;
+    C21["o"](Symbol, Int8Array, "o");
+    return "o";
+}
+C21[Symbol.toPrimitive] = f34;
+const v40 = new C21(2, 3, 3);
+const v41 = new C21(2, 2, Float64Array);
+const v42 = new C21(2, 127, Float64Array);
+function f43(a44, a45) {
+    a45[Symbol.toPrimitive] = Symbol;
+    const o59 = {
+        "e": Int8Array,
+        "d": a44,
+        "g": a44,
+        [a45]: a45,
+        [C21]: v2,
+        "b": a44,
+        set h(a49) {
+            function f51(a52, a53, a54) {
+                const o55 = {
+                    "b": a53,
+                };
+                return o55;
+            }
+            f51(v41, a44, a45);
+            f51(v40, a44, v42);
+            f51(this, 2, a45);
+        },
+    };
+    return o59;
+}
+f43(2, v15);
+f43(3, v20);
+f43(3, v40);
+function F63() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v65 = new F63();
+const v66 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v67 = 0; v67 < 5; v67++) {
+    function f68() {
+        try {
+            v66.forEach();
+        } catch(e70) {
+            e70.a = e70;
+            e70.a = e70;
+            e70.a = v65;
+            e70.a = e70;
+        }
+        const v72 = Symbol.toPrimitive;
+        v72.description;
+        Symbol.for();
+        return v72;
+    }
+    f68();
+    %OptimizeFunctionOnNextCall(f68);
+}

@@ -1,0 +1,92 @@
+const v0 = [-1.2894731051856088e+308];
+function f1(a2) {
+    delete a2?.[a2];
+    function f7(a8, a9) {
+        const o18 = {
+            "g": a9,
+            4: 2.0,
+            ...-4.0,
+            "f": -223887.43443701125,
+            "a": a8,
+            o(a11) {
+                super.c;
+                const v14 = [Reflect,a9];
+                const v15 = Reflect.construct(a8);
+                v14 >= v15 ? v14 : v15;
+            },
+        };
+        return o18;
+    }
+    const v19 = f7(2.0, 2.0);
+    const v20 = f7(2.0, -223887.43443701125);
+    class C21 extends f7 {
+        #g;
+        static 2544510523 = -223887.43443701125;
+        constructor(a23, a24, a25, a26) {
+            super(-4.0);
+            for (let v27 = 0; v27 < 32; v27++) {
+                v20["p" + v27] = v27;
+            }
+        }
+        [v19];
+        static 1;
+    }
+    return f7;
+}
+v0[Symbol.toPrimitive] = f1;
+const v32 = [-5.0,-1.7828131192610533e+308,-2.0,5.0,-658.7379188286502,104.68998993313312,-2.220446049250313e-16,-401.2969591586284,-3.0];
+const v33 = [0.312108536312537,1.7976931348623157e+308,1000000000.0];
+function f34() {
+    return f1;
+}
+Object.defineProperty(v33, Symbol.toPrimitive, { get: f34 });
+function f37(a38, a39) {
+    a38.toString = f1;
+    a39[Symbol.toPrimitive] = f37;
+    const o55 = {
+        __proto__: v0,
+        "c": v33,
+        [a39](a43) {
+            try { v33(a43, v32, this); } catch (e) {}
+            const v47 = v32[Symbol.unscopables];
+            try { v0.at(v47); } catch (e) {}
+            let v50 = 0;
+            const v51 = v50--;
+            v51 / v50;
+            Math.pow(a38, v51);
+            a39 & a39;
+            return a39;
+        },
+    };
+    return o55;
+}
+f37(v32, v33);
+const v57 = f37(v0, v0);
+const v58 = f37(v0, v32);
+function f59() {
+    return v0;
+}
+class C63 {
+    #p(a65, a66, a67, a68) {
+        f37(v58, a66);
+        %PrepareFunctionForOptimization(f37);
+        f37(v58, a66);
+        f37(v58, a66);
+        %OptimizeMaglevOnNextCall(f37);
+        return f37(v58, a66);
+    }
+    #m(a74, a75, a76, a77) {
+        super.e >>= a77;
+        Object.defineProperty(v57, 0, { enumerable: true, set: f59 });
+        return a75;
+    }
+    #d = "I";
+    static 97;
+    #b = v33;
+    #g = v57;
+}
+new C63();
+new C63();
+new C63();
+const t90 = "symbol";
+delete t90[1];

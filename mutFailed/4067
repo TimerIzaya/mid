@@ -1,0 +1,39 @@
+function f0() {
+}
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a11;
+    } catch(e12) {
+    }
+    try {
+        this.h = "function";
+    } catch(e13) {
+    }
+    try {
+        this.a = f0;
+    } catch(e14) {
+    }
+}
+new F7("1", 536870889, "1", -9007199254740991, f0);
+const v16 = new F7("1", -65535, -65535);
+new F7("3fG", -65535, "1", v16, "function");
+new Reflect(64);
+function f23(a24, a25, a26, a27) {
+    64 | a25;
+    const v29 = a24 / a24;
+    const v30 = a25 >= a24;
+    let v31 = a26 >>> a26;
+    v31++;
+    const o36 = {
+        "b": 536870889,
+        "c": a27,
+        now(a34, a35) {
+            return v30;
+        },
+    };
+    return v29;
+}
+for (let v37 = 0; v37 < 625; v37++) {
+    f23(Uint8Array, 2);
+}

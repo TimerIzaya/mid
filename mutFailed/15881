@@ -1,0 +1,74 @@
+let v0 = /aa(?=b)cVV\b?/im;
+const v1 = /a\Sc(p[xyz])/vi;
+const v2 = /(?:a+)+/gvims;
+function f3(a4, a5) {
+    const o16 = {
+        ...a5,
+        [v1]: v1,
+        set c(a7) {
+            try { this.setUint16(a4, v1); } catch (e) {}
+            super.c += v0 -= v1;
+        },
+        1: v2,
+        "b": v2,
+        "e": v1,
+        valueOf(a11, a12, a13, a14) {
+            a12++;
+            return v2;
+        },
+        __proto__: a5,
+        /*
+        __proto__: v2,
+        */
+        [a4]: v2,
+        "c": v1,
+        "d": v2,
+    };
+    return o16;
+}
+const v17 = f3(f3, v2);
+const v18 = f3(v17, v1);
+const v19 = f3(v2, v1);
+const v20 = [-1000.0,331.30187113205557,3.0,0.6516177041100555,-2.0,0.18604304745309896,4.88701320076592e+307];
+const v21 = [-886.0927591156831,356.3624582275934,0.2050602170227912,56627.2170940293,0.8840690757554016,6.405450882885532,-1000.0,NaN,1.0];
+[1000000.0,8.730624975494869e+307,1.7491752210523399e+308,-3.5023289603562358,-1e-15,-463.804634281435,-6.595568712894795];
+v0 * v19;
+Object.defineProperty(v21, v1, { writable: true, enumerable: true, value: v0 });
+v18 - v20;
+v0[1024] = v19;
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = f3;
+    } catch(e33) {
+    }
+}
+const v34 = new F27(v19, v17, v21, v18);
+new F27(v18, v17, v34, v18);
+new F27(v17, v19, v34, v19);
+const v40 = new Int8Array(4);
+new Float32Array(127);
+new Float32Array(1024);
+Uint32Array.from(Array(2597));
+for (let v52 = 0; v52 < 10; v52++) {
+    let v53 = 0;
+    while ((() => {
+            const o55 = {
+                "apply": Array,
+                "construct": Array,
+                "defineProperty": f3,
+                "deleteProperty": Array,
+                "get": f3,
+                "getOwnPropertyDescriptor": Array,
+                "getPrototypeOf": Array,
+                "has": f3,
+                "isExtensible": f3,
+                "ownKeys": Array,
+                "preventExtensions": f3,
+            };
+            new Proxy(v40, o55);
+            return v53 < 2;
+        })()) {
+        v53++;
+    }
+}

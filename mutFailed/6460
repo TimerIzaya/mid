@@ -1,0 +1,37 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 8;
+    } catch(e3) {
+    }
+    try {
+        this.h = 8;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C8 {
+    static toString(a10) {
+        return this;
+    }
+    c;
+    static 3765463134 = v7;
+    f;
+    static 6 = v6;
+}
+new C8();
+new C8();
+new C8();
+new Uint32Array(797);
+new BigInt64Array(2651);
+new Float32Array(4);
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    a31.trimLeft().strike();
+    const v35 = this.constructor;
+    try { new v35("a", "a"); } catch (e) {}
+}
+new v6("a", "-2147483648");
+new F29("-2147483648", "yRMy");

@@ -1,0 +1,22 @@
+new Map();
+function F13() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v15 = new F13();
+const v17 = new Date();
+function f18() {
+    return 2147483648;
+}
+v15.toString = f18;
+try { Reflect.set(v17, v15); } catch (e) {}
+new BigUint64Array(2072);
+new Int8Array(1032);
+new BigInt64Array(128);
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this.constructor;
+    Int8Array.caller;
+    try { new v32(this, F28, F28); } catch (e) {}
+}
+const v35 = new F28(F28, F28);
+new v35();

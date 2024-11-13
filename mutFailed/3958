@@ -1,0 +1,48 @@
+const v1 = new WeakSet();
+function f2(a3) {
+    try {
+        a3.e = a3;
+    } catch(e4) {
+    }
+    return a3;
+}
+const v6 = Symbol.toPrimitive;
+v1[v6] = f2;
+class C7 {
+    static #c;
+    static {
+        try {
+            v1.add(v6);
+        } catch(e10) {
+        }
+    }
+    static [C7];
+    static #b;
+    #g = WeakSet;
+    [WeakSet] = v1;
+}
+const v11 = new C7();
+const v12 = new v11();
+new C7();
+class C14 extends WeakSet {
+    c = v12;
+    #valueOf(a16, a17, a18) {
+        try {
+            this.f = v11;
+        } catch(e19) {
+        }
+        return v11;
+    }
+    static h;
+    #b = v1;
+    [C7] = v12;
+}
+new v12();
+new C14();
+new C14();
+[-65535,536870889,4096];
+for (let v27 in v12) {
+    v27--;
+    Math.log10(v27);
+    "1073741824" ** 1000000000000.0;
+}

@@ -1,0 +1,53 @@
+const v2 = new Int16Array(9);
+let v3 = 9;
+const v5 = v2.__proto__;
+v3 += 9;
+v5?.[2147483648];
+v5[Symbol.matchAll] = Int16Array;
+const v9 = new Int32Array(v3);
+try { v9.toSorted(9); } catch (e) {}
+257 - 257;
+new Uint8ClampedArray(257);
+~(4096 >> 4096);
+function f20() {
+    function f21(a22, a23) {
+        return f20;
+    }
+    const v25 = new Promise(f21);
+    let {"a":v26,} = v25;
+    try {
+        v25.catch(f21);
+    } catch(e28) {
+    }
+    v25.then(f20, f21);
+    return v25;
+}
+function f30() {
+    const t25 = "8";
+    t25[0] = "8";
+    const o43 = {
+        ["8"](a33, a34) {
+        },
+        ["8"](a36, a37) {
+        },
+        n(a39, a40) {
+            return a39;
+        },
+        set c(a42) {
+        },
+    };
+    o43[8];
+    return o43;
+}
+%PrepareFunctionForOptimization(f30);
+const v45 = f30();
+v45[8] = v45;
+const v46 = v45[8];
+v46.BYTES_PER_ELEMENT = v46;
+%OptimizeFunctionOnNextCall(f30);
+try {
+    f20();
+} catch(e48) {
+}
+Object.defineProperty(v45, "e", { writable: true, configurable: true, enumerable: true, get: f20 });
+f30()[8];

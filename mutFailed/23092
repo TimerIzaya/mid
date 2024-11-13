@@ -1,0 +1,21 @@
+new Uint8Array(Uint8Array);
+const v5 = new Float32Array(512);
+new Int32Array(v5);
+const v12 = [1073741824,1073741823,1376142744,1073741825];
+function f13(a14, a15, a16, a17) {
+    function f18() {
+        try {
+            v12.forEach(a15);
+            let v22 = BigUint64Array * 536870887;
+            v22--;
+        } catch(e24) {
+        }
+        return a17;
+    }
+    return f18();
+}
+for (let v26 = 0; v26 < 10; v26++) {
+    v26();
+}
+%OptimizeFunctionOnNextCall(Int32Array);
+f13(f13, v12, f13, v12);

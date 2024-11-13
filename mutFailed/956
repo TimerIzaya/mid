@@ -1,0 +1,51 @@
+const v2 = new Array(5);
+v2[4] = v2;
+181 >>> 181;
+const v6 = new Int8Array(181);
+64 + 64;
+new Uint8Array(64);
+const v13 = new Uint8Array(0);
+const v14 = v13?.constructor;
+try { new v14(181, 181, v2); } catch (e) {}
+class C16 {
+}
+function f17(a18) {
+    return a18;
+}
+try { f17.bind(C16); } catch (e) {}
+class C20 extends f17 {
+    static [v2];
+    d;
+    g;
+}
+function f21() {
+    return v13;
+}
+function f22(a23) {
+    v6[a23] = a23;
+}
+Object.defineProperty(C20, "e", { writable: true, enumerable: true, get: f21, set: f22 });
+C20.e = C20;
+const v25 = new WeakMap();
+v25.h = v25;
+try { v25.delete(Uint8Array); } catch (e) {}
+class C27 extends C16 {
+    static 1 = v25;
+    10000;
+}
+try { C27(); } catch (e) {}
+new Int8Array();
+const o33 = {
+    "execution": "async",
+    "type": "minor",
+};
+const v34 = gc(o33);
+try { v34.finally(C16); } catch (e) {}
+v25.h |= 0;
+new Date();
+try {
+    C20.fuck(v2, -65536, v6, -65536);
+} catch(e40) {
+    e40.message = e40;
+}
+gc();

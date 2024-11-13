@@ -1,0 +1,55 @@
+const v1 = new Date();
+function f2() {
+    return v1;
+}
+class C6 extends Date {
+    constructor(a8, a9, a10) {
+        super(a9, a8, this);
+        let v12 = -898876583;
+        --v12;
+        const v15 = Symbol.iterator;
+        const o24 = {
+            [v15]() {
+                let v17 = 10;
+                const o23 = {
+                    next() {
+                        v17--;
+                        const v21 = v17 == 0;
+                        const o22 = {
+                            "done": v21,
+                            "value": v17,
+                        };
+                        return o22;
+                    },
+                };
+                return o23;
+            },
+        };
+        const v26 = "growable" * 64810;
+        -this;
+        v26 << v26;
+        !v12;
+    }
+    get d() {
+        const v31 = super.toLocaleString();
+        try {
+            Date();
+            const o35 = {
+                "maxByteLength": 65536,
+            };
+            const v37 = new SharedArrayBuffer(10, o35);
+            new WeakMap(v37, v31);
+        } catch(e40) {
+        }
+        return Date;
+    }
+}
+new C6("now", "-9007199254740990", C6);
+new C6("-9007199254740990", "now", Date);
+new C6("growable", "now", f2);
+/y/gui;
+/\P{Any}?/gvdims;
+/7(?:a?)?/gvdms;
+const v52 = new Uint8Array();
+const v54 = Array();
+Array(-536870912)["concat"](v54, v52);

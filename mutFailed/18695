@@ -1,0 +1,33 @@
+const v2 = new Float32Array(255);
+try {
+    v2.valueOf = v2;
+} catch(e5) {
+}
+for (let v6 = 0; v6 < 32; v6++) {
+    v2["p" + v6] = v6;
+}
+new Float64Array(16);
+new Float32Array(16);
+new Uint32Array(64);
+new Int16Array(153);
+new Int32Array(168);
+const v22 = [601759695];
+const v23 = [427812215,61195,-2147483647,4096,-2147483647,30905];
+function f24(a25, a26, a27, a28) {
+    try { a27.find(a25, a27, a26, v23, a26); } catch (e) {}
+    let v31;
+    try { v31 = v23["find"](..."find", a28, ...v22, ...v23); } catch (e) {}
+    v23.length += v31;
+    a26 = Float64Array;
+    try {
+        v2.toString = f24;
+    } catch(e32) {
+    }
+    return a25;
+}
+f24(v22, f24, v23, f24);
+for (let v34 = 0; v34 < 5; v34++) {
+    f24(v22, v34, false);
+}
+%OptimizeFunctionOnNextCall(f24);
+f24();

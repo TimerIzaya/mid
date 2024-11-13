@@ -1,0 +1,76 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 128;
+    } catch(e3) {
+    }
+    try {
+        this.a = 128;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8(a9, a10) {
+    const o17 = {
+        "e": a10,
+        "b": v5,
+        "g": v6,
+        [a9](a12, a13, a14) {
+            try {
+                super.p(a10, a13, a9, a14, v6);
+            } catch(e16) {
+            }
+            return a10;
+        },
+    };
+    return o17;
+}
+f8(v7, v5);
+const v19 = f8(v6, v7);
+const v20 = f8(v6, v6);
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a24;
+    } catch(e26) {
+    }
+}
+const v27 = new F21(v20, v7, F0);
+const v28 = new F21(v27, v6, v19);
+new F21(v7, v7, v28);
+const v30 = [2.2250738585072014e-308,6.427477933354486e+307,1000000000.0,0.08682825617912271,-1000000000.0,3.0,228665.3903849495,0.5660155973967917,0.8606405474237848,3.0108403245603076e+307];
+const v31 = [1000000000.0,12.305595805765165,2.0862036260312724e+307,-5.0,0.3227826650028378,-Infinity,-6.013642736236817,-6.180619420937975e+307,-1000000.0];
+const v32 = [881266.4750531102,900.0211844391163,-148.3543184123963,-878.1424195424157,8.23394403026903,-1000000.0,4.0,1.7976931348623157e+308,-6.700826123638565,Infinity];
+function F33(a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v36 = this.constructor;
+    try { v36(v31); } catch (e) {}
+    v32.a = v30;
+}
+const v38 = new F33(v31);
+const t52 = v38.constructor;
+new t52(v38);
+new F33(v30);
+const v45 = /((?<=a))/gudm;
+const v46 = /gk4b*/vmsy;
+let v48;
+try {
+const t0 = 1e-15;
+v48 = t0(2);
+} catch (e) {}
+for (let v49 = 0; v49 < 5; v49++) {
+    const v50 = [-392.0576825237305,0.3449869706009556,4.447039970507995e+307,-5.063798246562485e+307,-568.9796177589394,388231.4033702491,-3.5365646375454567,0.12172568971863451,-4.474791203319841e+307];
+    const v51 = [9007199254740992,-13,1,206834672,5792,16,856414023,8,2147483648];
+    function f52(a53, a54, a55) {
+        return f52;
+    }
+    const v58 = ["Gjj0t",v51,v50];
+    const o59 = {
+        "arguments": v58,
+        "type": "Gjj0t",
+    };
+    new Worker(f52, o59);
+    try { v48(v45, 127, v46, v49, -4); } catch (e) {}
+}

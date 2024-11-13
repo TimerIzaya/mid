@@ -1,0 +1,92 @@
+let v0 = /\xed\xa0\x80fa\sc+/gdims;
+const v1 = /\xe2\x81\xa3B?/viy;
+const v2 = /Sa\bc/ds;
+v2[216] ^= v1;
+const o5 = {
+    "maxByteLength": 2147483649,
+};
+const v7 = new SharedArrayBuffer(1, o5);
+const v9 = new Uint32Array(v7);
+function f10(a11, a12) {
+    a12.ignoreCase;
+    const o33 = {
+        [a12](a15, a16) {
+            var d = a16;
+            let v18 = 16;
+            const v20 = delete Math?.PI;
+            try { v20.n(v18); } catch (e) {}
+            let v22;
+            try { v22 = a16(); } catch (e) {}
+            %VerifyType(v22);
+            const o23 = {
+                "apply": f10,
+                "construct": f10,
+                "defineProperty": f10,
+                "deleteProperty": f10,
+                "get": f10,
+                "getPrototypeOf": f10,
+                "has": f10,
+                "isExtensible": f10,
+                "ownKeys": f10,
+                "preventExtensions": f10,
+                "set": f10,
+                "setPrototypeOf": f10,
+            };
+            new Proxy(Math, o23);
+            const v26 = v0++;
+            Math.pow(v18, this);
+            v0 & v18;
+            ~v26;
+            -v0;
+            -v0;
+            ++v18;
+            return v18;
+        },
+    };
+    o33.h = o33;
+    return o33;
+}
+const v34 = f10?.__lookupSetter__;
+try { new v34(v2); } catch (e) {}
+const v36 = f10(v2, v2);
+const v37 = f10(v2, v2);
+const v38 = f10(v1, v0);
+-1632224203 >>> -1632224203;
+new Map();
+class C45 {
+}
+const v46 = new C45();
+const v47 = new C45();
+const v48 = v47?.constructor;
+try { new v48(); } catch (e) {}
+class C51 extends v36.constructor {
+    [v9] = v38;
+    #f;
+}
+new C51();
+function F53(a55, a56) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f73(a74, a75) {
+        function f77(a78) {
+            return a75;
+        }
+        class C81 {
+            toString(a83) {
+                this.e *= 0.8199829542463926;
+            }
+        }
+        this.onmessage = f77;
+        return a74;
+    }
+    try { a55.isPrototypeOf(a55); } catch (e) {}
+    const v90 = this?.constructor;
+    v90.arguments = v90;
+    try { new v90(a55, v47); } catch (e) {}
+}
+const v92 = new F53(v47, v46);
+try { v92.hasOwnProperty(v37); } catch (e) {}
+const v94 = new F53(v46, v46);
+const v95 = v94?.constructor;
+try { new v95(v0, Map); } catch (e) {}
+function f97() {
+}

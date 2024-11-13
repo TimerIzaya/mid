@@ -1,0 +1,56 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -1024;
+    } catch(e8) {
+    }
+}
+const v9 = new F4(-1024, 1819748706);
+const v10 = new F4(-1024, -4294967297);
+new F4(-1024, 1819748706);
+[null,null,-4294967297,null];
+[,v10,F4,v9];
+[,-1024,F4,v9];
+for (let v17 = 0; v17 < 5; v17++) {
+}
+class C18 {
+    toString(a20, a21, a22, a23) {
+        const v26 = new WeakSet();
+        function f28(a29, a30, a31) {
+            function f32(a33) {
+                f28(v26, a33, WeakSet);
+                return a30;
+            }
+            f32.caller;
+            a30.toString = f32;
+            try { a29.codePointAt(a30); } catch (e) {}
+            return "function";
+        }
+        f28("function", v26);
+        let v40 = 0;
+        do {
+            function f41() {
+                return 4.0;
+            }
+            v40++;
+        } while (v40 < 5)
+        const v45 = new Uint8ClampedArray();
+        try {
+            eval("e");
+        } catch(e49) {
+        }
+        Math.floor(-6 / -6);
+        new Uint8ClampedArray(798, ...v45, eval());
+    }
+    constructor(a57, a58) {
+        for (let i = 0; i < 10; i++) {
+            this[this];
+        }
+    }
+}
+new C18();
+new C18(v9, v9);
+4.0 instanceof C18;
+new BigUint64Array(16);
+new BigUint64Array(128);
+new Int32Array(762);

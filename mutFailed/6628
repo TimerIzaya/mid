@@ -1,0 +1,88 @@
+class C3 {
+    static get g() {
+        try {
+            super.toString("-2", -10);
+        } catch(e6) {
+        }
+        return "-2";
+    }
+    static #p(a8, a9) {
+        try {
+            super.p(-10, a9, a8, -10, -10);
+        } catch(e11) {
+        }
+        return "undefined";
+    }
+}
+new C3();
+new C3();
+const v14 = new C3();
+function f15() {
+    return C3;
+}
+/(?: foo )/udm;
+/[j\x3zt]/y;
+/b(?:a+)*xyz{1,32}?/vms;
+const v19 = [335.50129161316386,4.0,234.10160249002752,653.1110328037353,0.39645455895403703,5.6775699528816315];
+[2.220446049250313e-16,Infinity,-Infinity,0.9123910964053635,0.7836712689869592,0.39844247861487225,9.597219058731412,-3.0];
+const v21 = [120.6937765058658,1e-15,1.2572561291153482e+308];
+function f25(a26, a27) {
+    const o46 = {
+        "g": v21,
+        4: 2.0,
+        ...-4.0,
+        [a26]: f15,
+        "b": v14,
+        ...a26,
+        ..."undefined",
+        "f": -223887.43443701125,
+        "f": f25,
+        "a": a26,
+        o(a29) {
+            super.c;
+            const v32 = [Reflect,a27];
+            const v33 = Reflect.construct(a26);
+            v32 >= v33 ? v32 : v33;
+        },
+        get d() {
+            new Float32Array(5);
+            new Float64Array(2592);
+            new Uint32Array(10);
+            return v21;
+        },
+    };
+    function f47() {
+        return v19;
+    }
+    function f48(a49) {
+        ("undefined")[o46];
+    }
+    Object.defineProperty(o46, "p3", { writable: true, enumerable: true, get: f47, set: f48 });
+    return o46;
+}
+const v51 = f25(2.0, 2.0);
+function f52() {
+    return f15;
+}
+Object.defineProperty(v51, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f52 });
+f25(-223887.43443701125, -223887.43443701125);
+const v56 = f25(2.0, -223887.43443701125);
+class C57 extends f25 {
+    #g;
+    static 2544510523 = -223887.43443701125;
+    constructor(a59, a60, a61, a62) {
+        super(-4.0);
+        for (let v63 = 0; v63 < 32; v63++) {
+            v56["p" + v63] = v63;
+        }
+    }
+    [v51];
+    static 1;
+}
+new C57();
+new C57(-4.0, v56, 2.0);
+%PrepareFunctionForOptimization(f25);
+f25(2.0);
+f25(2.0);
+%OptimizeFunctionOnNextCall(f25);
+f25(2.0);

@@ -1,0 +1,41 @@
+function f0() {
+    const o8 = {
+        m(a5) {
+            try {
+                super.setMonth(a5, a5, -142329.78724340838, this, this);
+            } catch(e7) {
+            }
+            return this;
+        },
+        "f": 2.0,
+        "e": -142329.78724340838,
+        "d": "number",
+        __proto__: "number",
+        "c": f0,
+        "b": 2.0,
+        ["number"]: -142329.78724340838,
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+f0();
+[f0,7];
+const v17 = [-2];
+[-2,v10,v17,v17];
+new Int16Array(2);
+new BigUint64Array(4);
+new Int32Array(5);
+function f28(a29) {
+    const o33 = {
+        ...a29,
+        get d() {
+            const v31 = this.__lookupSetter__;
+            try { v31(); } catch (e) {}
+            return f28;
+        },
+    };
+    return v9;
+}
+const t39 = -7051;
+t39(f28());

@@ -1,0 +1,42 @@
+[-2.3842600497029025,252919.52074480895,-451.5492981214395,-3.0,-405172.48232504353,-5.0,-34.95655181223549,0.8761816593708905,-0.0];
+[-4.455853709972164,3.3497017509406195];
+[3.5017705070471354,504787.2414688484,804.8453428226903,-1000000000.0,0.034143789271319225,1000000.0,1.0,Infinity];
+new Array(16);
+function f12() {
+    const o16 = {
+        ...1.0,
+        set b(a15) {
+        },
+    };
+    o16.b = o16;
+    return o16;
+}
+for (let v17 = 0; v17 < 5; v17++) {
+    function f18() {
+        return f18;
+    }
+    class C25 {
+        static #valueOf(a27, a28, a29) {
+            this.f;
+            try {
+                a29();
+            } catch(e32) {
+            }
+            return -4;
+        }
+        get f() {
+            try {
+                const t28 = 2.220446049250313e-16;
+                t28();
+            } catch(e35) {
+            }
+        }
+    }
+    const t34 = 0.5084298928592244;
+    const v36 = new t34();
+    %PrepareFunctionForOptimization(f18);
+    %OptimizeMaglevOnNextCall(f18);
+    try { v36.o(v36, 5, 9007199254740991); } catch (e) {}
+    f12();
+    %OptimizeFunctionOnNextCall(f12);
+}

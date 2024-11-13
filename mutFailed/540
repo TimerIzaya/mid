@@ -1,0 +1,61 @@
+class C3 {
+    #p(a5) {
+        [-256];
+        return a5;
+    }
+    get b() {
+        gc();
+        return 3.0;
+    }
+    static b = -256;
+}
+const v15 = new C3();
+let v16 = new C3();
+new C3();
+class C18 {
+    valueOf(a20, a21) {
+        -50971 ^ a20;
+        const v23 = v16[7];
+        C3[this] ||= a21;
+        ({"b":v16,} = v15);
+        for (let v24 = 0; v24 < 32; v24++) {
+            v23["p" + v24] = v24;
+        }
+        return a20;
+    }
+}
+const v27 = new C18();
+const v28 = new C18();
+const v29 = new C18();
+class C30 extends C18 {
+    static #h;
+    static set b(a32) {
+    }
+    constructor(a37, a38, a39) {
+        super();
+        this[2];
+    }
+    256;
+    static a = v29;
+}
+const v41 = new C30(v27, -50971, v29);
+new C30(v28, -50971, v41);
+new C30(C18, v16, C30);
+let v44 = 2;
+v44++;
+function f46(a47) {
+    (a47 === a47) <= a47;
+    const o53 = {
+        __proto__: v44,
+        213: a47,
+        ...a47,
+        "g": v44,
+        p(a51, a52) {
+            return f46;
+        },
+    };
+}
+%PrepareFunctionForOptimization(f46);
+const v54 = f46();
+%OptimizeFunctionOnNextCall(f46);
+v16(v54);

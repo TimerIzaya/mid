@@ -1,0 +1,48 @@
+const v0 = [-9007199254740990,52979,1265498779,-2,536870912,3];
+const v1 = [9007199254740991,9,-4096,4294967297,-54540,0,-726832024,4294967296,-10788];
+const v2 = [2,-7,-65007];
+function f3() {
+    return v0;
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a6;
+    } catch(e8) {
+    }
+    try {
+        this.e = v1;
+    } catch(e9) {
+    }
+    try {
+        this.c = v2;
+    } catch(e10) {
+    }
+}
+new F4(v1, v1);
+new F4(v0, v2);
+new F4(v1, v0);
+new WeakMap();
+new Int8Array(16);
+new Int32Array(60);
+new Uint8ClampedArray(1);
+const v25 = [-1.3667473485475811e+308,1.7976931348623157e+308,5.0,-3.583919688173468e+307,-1.5320462342133301e+308,-414873.4859108749,286122.8434793174,866.7395286670867,-1000.0,-742782.9714922046];
+v25.toString = f3;
+function f27(a28, a29, a30, a31) {
+    function f32() {
+        const o37 = {
+            __proto__: v25,
+            [a30](a34, a35, a36) {
+            },
+        };
+        o37.copyWithin(o37, o37);
+        return o37;
+    }
+    f32();
+    return v25;
+}
+for (let v40 = 0; v40 < 10; v40++) {
+    f27(v40, v40, v40, v40);
+}
+%OptimizeFunctionOnNextCall(f27);
+f27("-1073741824", v25, v25);

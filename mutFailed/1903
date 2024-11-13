@@ -1,0 +1,79 @@
+function f0() {
+    const o15 = {
+        m(a5, a6) {
+            const v8 = Symbol.toPrimitive;
+            const o14 = {
+                [v8]() {
+                    let v9 = this;
+                    function f10(a11) {
+                        return a11;
+                    }
+                    class C12 extends f10 {
+                        static e;
+                        static #b = v8;
+                    }
+                    return Symbol;
+                    v9 = Symbol;
+                    try { a5(-1119316590, v9, v8, -587006547); } catch (e) {}
+                    return 2.1653356210575723;
+                },
+            };
+            return Symbol;
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+f0();
+let v18 = 0;
+do {
+    const o22 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o22);
+    v18++;
+} while (v18 < 7)
+f0(v18, v18);
+new Float64Array(3994);
+const v33 = new Int8Array(-44369);
+new Uint32Array(6);
+const v38 = [Reflect];
+const o39 = {
+};
+try {
+    o39.b = v38;
+} catch(e40) {
+}
+try {
+    const o41 = {
+    };
+    o41.e = v38;
+    o41.g = v38;
+} catch(e42) {
+}
+try {
+    const o43 = {
+    };
+    o43.b = v38;
+    o43.g = v38;
+    o43.f = v33;
+} catch(e44) {
+}
+try {
+    const o45 = {
+    };
+    o45.b = v38;
+    o45.g = v38;
+    o45.e = Uint32Array;
+} catch(e46) {
+}
+const o47 = {
+    __proto__: Reflect,
+    "e": v38,
+};
+const o48 = {
+    __proto__: v16,
+    [v18]: Uint32Array,
+    4096: 6,
+};

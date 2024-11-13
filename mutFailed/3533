@@ -1,0 +1,78 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 16;
+    } catch(e6) {
+    }
+    const v9 = new Uint8Array(4061);
+    const v11 = [4061];
+    Reflect.apply(v9.fill, v9, v11);
+    try {
+        this.e = 16;
+    } catch(e14) {
+    }
+}
+const v15 = new F3(F3);
+const v16 = new F3(15302);
+const v17 = new F3(v16);
+class C21 extends F3 {
+    d;
+    constructor(a23, a24, a25) {
+        super(a25);
+        super[a25] = 15302;
+        function f26(a27, a28, a29) {
+            const o30 = {
+            };
+            const v32 = new Proxy(this, o30);
+            return v32;
+        }
+        f26("0OEZ", v17, 44815);
+        a23 >> a24;
+        const v35 = [v17,v16,a23];
+        ["symbol",v35,"symbol",a24,"iterator"];
+        [v35,a23,15302,a25];
+    }
+    9;
+    static #c;
+    ["symbol"];
+}
+function f38() {
+    let v39 = 946.0676210033328;
+    v39++;
+    const o41 = {
+        __proto__: v39,
+    };
+    return f38;
+}
+f38();
+const v43 = new C21(F3, v17, 44815);
+const v44 = new C21(v15, v17, 15302);
+try {
+    BigInt(BigInt);
+} catch(e47) {
+}
+new C21(v44, v43, 15302);
+class C50 {
+    [-1] = -1.6777590795239637e+308;
+}
+new C50();
+const v54 = new BigInt64Array(12);
+const o55 = {
+    ...v54,
+};
+function f56() {
+    const o61 = {
+        8: 0.043152456200264866,
+        get a() {
+            Math.acos(0.043152456200264866);
+        },
+    };
+    return o61;
+}
+const v62 = f56();
+const v64 = new C50(f56(), v62);
+const v66 = [v64];
+const o67 = {
+    "arguments": v66,
+    "type": "function",
+};

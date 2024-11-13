@@ -1,0 +1,177 @@
+class C3 {
+    static {
+        this.f = this;
+        super.f = -1000000000.0;
+        %VerifyType(this);
+    }
+    set c(a6) {
+        const o7 = {
+        };
+        try {
+            o7.a = -2974.211510063964;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.a = -2974.211510063964;
+            o9.b = 9007199254740990;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.a = -2974.211510063964;
+            o11.b = 9007199254740990;
+            o11.g = -2974.211510063964;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.a = -2974.211510063964;
+            o13.b = 9007199254740990;
+            o13.g = -2974.211510063964;
+        } catch(e14) {
+        }
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+function f17() {
+    function f18(a19) {
+        const v20 = [155533.8602852358,2.0];
+        function F22() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.__lookupGetter__.bind();
+            for (const v29 of Array(19793)) {
+                v20[658291203] = null;
+            }
+        }
+        const v30 = new F22();
+        return v30;
+    }
+    return f18;
+}
+Object.defineProperty(v16, Symbol.toPrimitive, { writable: true, get: f17 });
+const v33 = new C3();
+function f34(a35) {
+    const v38 = new Uint8ClampedArray(16);
+    new Uint32Array(v38);
+    return 9007199254740990;
+}
+v33.toString = f34;
+function f41(a42, a43) {
+    const o48 = {
+        "f": a42,
+        set d(a45) {
+            function f46() {
+                return a42;
+            }
+            try { v33.m(a42, f46, 9007199254740990, v16, f46); } catch (e) {}
+        },
+        "b": a42,
+        "e": C3,
+        "a": a42,
+        10: a42,
+        "h": -1000000000.0,
+        [a42]: a42,
+        "g": 9007199254740990,
+    };
+    return o48;
+}
+f41(v33, v15);
+f41(v33, v33);
+const v51 = f41(v16, v33);
+function f52() {
+    return v51;
+}
+new BigUint64Array(13);
+new BigInt64Array(16);
+new Float32Array(2466);
+function f62(a63, a64, a65, a66) {
+    return a63;
+}
+const v67 = f62();
+const v70 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v71 = [601759695];
+v71[0] = v71;
+const v72 = [1073741824,1073741823,1376142744,1073741825];
+function f74(a75, a76, a77, a78) {
+    arguments.toString();
+    function f81() {
+        const v83 = ("Vre").toLocaleUpperCase;
+        try { new v83(v83, -4294967297n, a77, v72); } catch (e) {}
+        ("Vre").fixed(f74);
+        let v87 = -268435456;
+        v87--;
+        const v91 = new Uint16Array(209);
+        const v92 = 209 > Uint16Array;
+        try {
+            v91.__proto__ = v91;
+        } catch(e93) {
+        }
+        let v94 = 1829;
+        const v96 = new Uint8Array(v94);
+        Object.defineProperty(v96, v92, { writable: true, configurable: true, enumerable: true, value: v94 = 209 });
+        v96[8] = Uint16Array;
+        let v97;
+        try { v97 = v94(); } catch (e) {}
+        try { v91.forEach(v97, v97); } catch (e) {}
+        new Float64Array(3916);
+        /(\xed\xb0\x80)\x01/vdsy;
+        /a[a-z]/vim;
+        -(v87 + v87);
+        const o119 = {
+            "c": -4294967297n,
+            [522675525n](a107, a108) {
+            },
+            ..."Vre",
+            "maxByteLength": -128,
+            "c": v71,
+            valueOf(a110, a111) {
+                return a110;
+            },
+            "e": -4294967295,
+            "e": v87,
+            "maxByteLength": -4294967295,
+            "arguments": v70,
+            ...v71,
+            "type": "Vre",
+            ..."Vre",
+            valueOf(a113, a114) {
+                return -4294967295;
+            },
+            ..."Vre",
+            4: "Vre",
+            "c": v87,
+            "type": "Vre",
+            "type": "Vre",
+            toString(a116, a117, a118) {
+                return a116;
+            },
+            5: -4294967295,
+            6: v87,
+        };
+        o119.valueOf();
+        return f74;
+    }
+    f81.length;
+    f81();
+    Int8Array.a = Int8Array;
+    Int8Array.a = Int8Array;
+    const v124 = new Int8Array();
+    try { v124.findIndex(v67); } catch (e) {}
+    v124.buffer.slice();
+    %OptimizeFunctionOnNextCall(f81);
+    ("find").strike();
+    try { v72["find"](..."find", a78, ...v71, ...v72, ...522675525n); } catch (e) {}
+    return v72;
+}
+for (let v131 = 0; v131 < 5; v131++) {
+    f74(v71, v131, v131, v72);
+}
+%PrepareFunctionForOptimization(f74);
+const v133 = f74();
+%OptimizeFunctionOnNextCall(f74);
+f74(v133, f74, -128, v67);

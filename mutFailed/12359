@@ -1,0 +1,70 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -188.0170586024659;
+    } catch(e11) {
+    }
+    try {
+        this.e = a10;
+    } catch(e12) {
+    }
+}
+const v13 = new F6(-188.0170586024659, 62365n, 257n);
+const v14 = new F6(1e-15, 4294967295n, 4294967295n);
+const v15 = new F6(-188.0170586024659, 62365n, v14);
+class C16 extends F6 {
+    #o(a18, a19, a20) {
+        const o21 = {
+        };
+        try {
+            o21.d = 257n;
+        } catch(e22) {
+        }
+        try {
+            const o23 = {
+            };
+            o23.d = 257n;
+            o23.h = this;
+        } catch(e24) {
+        }
+        try {
+            const o25 = {
+            };
+            o25.d = 257n;
+            o25.h = this;
+            o25.b = -188.0170586024659;
+        } catch(e26) {
+        }
+        try {
+            const o27 = {
+            };
+            o27.d = o27;
+            o27.h = this;
+            o27.b = this;
+        } catch(e28) {
+        }
+        return v14;
+    }
+}
+new C16();
+new C16();
+new C16();
+function f32() {
+    const o37 = {
+        "b": 1e-15,
+        [3](a36) {
+        },
+        "g": F6,
+        __proto__: v14,
+        "d": C16,
+        ...v15,
+        "f": 62365n,
+    };
+    return o37;
+}
+const v38 = v13();
+const v39 = f32();
+const o40 = {
+};
+v39.__proto__ = o40;
+delete v38.b;

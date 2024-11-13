@@ -1,0 +1,28 @@
+function f0() {
+}
+new Uint32Array(15);
+const v6 = new Int32Array(205);
+new Int8Array(0);
+function f10() {
+    return v6;
+}
+function f14() {
+    class C15 {
+    }
+    const v16 = new C15();
+    v16.g = v16;
+    const v17 = new v16();
+    const v18 = [C15];
+    const v19 = v18.constructor;
+    class C20 extends v19 {
+    }
+    try { C20.apply(v19, C15); } catch (e) {}
+    const v22 = new C20();
+    Object.defineProperty(v22, 65537, { value: v17 });
+    return v18;
+}
+%PrepareFunctionForOptimization(f14);
+f14();
+f14();
+%OptimizeFunctionOnNextCall(f14);
+f14();

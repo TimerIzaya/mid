@@ -1,0 +1,39 @@
+let v2 = new Int32Array(4);
+v2--;
+try { new BigInt64Array(17, 17, 17); } catch (e) {}
+new BigInt64Array(17);
+Uint16Array.BYTES_PER_ELEMENT;
+const v11 = new Uint16Array(4096);
+for (let v19 = 0; v19 < 10; v19++) {
+    const t7 = "f";
+    t7[1073741824] = 4294967296;
+}
+const v20 = new Uint8Array(v2);
+try { v20.slice(v11, -13); } catch (e) {}
+const v24 = new Uint32Array(7);
+v24[4] = v24;
+try { new Int32Array(Int32Array, Uint32Array, 4096); } catch (e) {}
+new Int32Array(3698);
+function f29(a30, a31, a32, a33) {
+    function f34() {
+        const o38 = {
+            valueOf(a36, a37) {
+                return f29;
+            },
+        };
+        return o38.valueOf();
+    }
+    f34.g = f34;
+    const t26 = -13;
+    t26();
+    f34();
+    return f29;
+}
+for (let v42 = 0; v42 < 5; v42++) {
+    f29();
+}
+%PrepareFunctionForOptimization(f29);
+f29();
+%OptimizeFunctionOnNextCall(f29);
+const t37 = 17;
+t37();

@@ -1,0 +1,55 @@
+const v0 = [];
+class C1 {
+    n() {
+        const v3 = delete this[v0];
+        const v4 = delete v0[v3];
+        try {
+            this.length = 2;
+        } catch(e6) {
+        }
+        this[1657] += C1;
+        let v7;
+        try { v7 = C1(v0); } catch (e) {}
+        try {
+            super.valueOf(v7, v4, v3);
+        } catch(e9) {
+        }
+        return v0;
+    }
+}
+const v10 = new C1();
+const v11 = new C1();
+const v12 = new C1();
+const v14 = [v10,v10,[v11],v12];
+const v15 = [v12,v0,v14];
+[v14,C1,v10,C1,C1];
+[[v10,v0,v0,C1],v10,v10];
+const v20 = Symbol.species;
+v14[v20] = v15;
+Object.defineProperty(v20, "c", { value: v14 });
+const o23 = {
+    "maxByteLength": 2147483647,
+};
+const v25 = new SharedArrayBuffer(65, o23);
+new BigUint64Array(v25);
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f32(a33, a34) {
+        const o35 = {
+            "b": C1,
+        };
+        return v10;
+    }
+    const v36 = v10[a30];
+    const v37 = delete v36?.[-1];
+    try { new v37(v36, a31, f32); } catch (e) {}
+    try {
+        f32(v20, this);
+    } catch(e40) {
+    }
+    f32(f32, a31);
+    const v42 = this.constructor;
+    try { new v42(f32); } catch (e) {}
+    ++a31;
+}
+new F28(F28, F28);

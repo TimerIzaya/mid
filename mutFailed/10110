@@ -1,0 +1,46 @@
+/SV/vdm;
+/[Q(\xed\xb0\x80)\x01?]/vdisy;
+/(a||bc)/vdimy;
+class C6 {
+}
+const v9 = new Int32Array(257);
+v9[120] = -4294967296;
+function f14() {
+    let v15 = 852.2904873570058;
+    function f16() {
+        const v17 = [];
+        v17[6] = v17;
+        const o20 = {
+            set b(a19) {
+            },
+        };
+        return v15;
+    }
+    for (let v21 = 0; v21 < 5; v21++) {
+        f16();
+        %OptimizeFunctionOnNextCall(f16);
+    }
+    const o27 = {
+        m(a24, a25) {
+            return v15++;
+        },
+    };
+    return o27;
+}
+function F31() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function F34(a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+    } catch(e38) {
+    }
+    try {
+        Math.clz32();
+        new F34();
+    } catch(e41) {
+    }
+}
+const v42 = new F31();
+const t44 = [v42];
+t44[1073741824] = Map;

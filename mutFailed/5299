@@ -1,0 +1,54 @@
+let v2 = 4;
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        a9.h = this;
+    } catch(e11) {
+    }
+    try {
+        this.c = a9;
+    } catch(e12) {
+    }
+}
+new F6(12, v2, v2);
+const v14 = new F6(4294967295, 12, -65535);
+new F6(v14, v2, 0);
+[[4294967295]];
+[v14,v2];
+const v19 = [0.4682077101611182,-180843.87561025552,-1000000000.0,-112.29544483774316,-441165.4052340153];
+[799298.8557884707,0.6789216306018517,0.6111162627936181,0.4174128514181559,0.020048842439242542,-2.220446049250313e-16,1.0,1.7976931348623157e+308,-1.0];
+const t15 = [1000000000000.0,Infinity,0.2943133963716891,268.8113218630483];
+t15.length /= 4294967295;
+const v23 = Symbol.iterator;
+const o32 = {
+    [v23]() {
+        const o31 = {
+            next() {
+                v2--;
+                const v29 = 10 == 10;
+                const o30 = {
+                    "done": v29,
+                    "value": 10,
+                };
+                return this;
+            },
+        };
+        return v23;
+    },
+};
+function f33() {
+    const o38 = {
+        [v2]: 0.0,
+        set e(a37) {
+        },
+    };
+    return f33;
+}
+f33();
+const v40 = f33();
+/4VL[a-zA-Z0-9]/uimy;
+const v42 = /ufoo(?!bar)baz/ums;
+class C43 {
+    static [f33] = v40;
+}
+v42[-2] &&= v19;

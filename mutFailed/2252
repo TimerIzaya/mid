@@ -1,0 +1,79 @@
+let v0 = -1;
+Reflect.construct(v0, [Reflect,v0,1073741824,127,1073741824], 1073741824);
+v0 = 1073741824;
+const o8 = {
+    "maxByteLength": 65537,
+};
+const v10 = new ArrayBuffer(5, o8);
+const v12 = new Float32Array(v10);
+const v14 = new Date();
+new Float32Array(22);
+new Int8Array(512);
+const v23 = new Int8Array(3);
+class C25 {
+    static {
+        this[Symbol.hasInstance];
+    }
+    #p() {
+        let v31;
+        try { v31 = this.p(undefined, this, this, this, this); } catch (e) {}
+        try {
+            v31.#p(undefined, v31, v31, undefined);
+        } catch(e33) {
+        }
+        return undefined;
+    }
+    static #a = undefined;
+    c = undefined;
+}
+const v34 = new C25();
+const v35 = new C25();
+const v36 = new C25();
+function f37(a38) {
+    const o53 = {
+        15: a38,
+        toString(a40, a41) {
+            super.h = a41;
+            try { C25.stringify(a38, a38, this); } catch (e) {}
+            try {
+                function F43(a45, a46, a47) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    try {
+                        this.h = 3;
+                    } catch(e48) {
+                    }
+                }
+                new F43(5, v35, F43);
+                new F43(65537, v34, v14);
+                new F43(127, v36, v35);
+                C25.c = v34;
+            } catch(e52) {
+            }
+            return a40;
+        },
+        2147483647: undefined,
+        __proto__: v35,
+        "c": a38,
+        ...a38,
+        "f": a38,
+        "b": 3,
+        "d": 1073741824,
+        ...v23,
+        "a": v12,
+        "g": 22,
+    };
+    return o53;
+}
+const v54 = f37(C25);
+f37(v36);
+f37(v54);
+[0.0,26.917886948179785];
+[4.0,-6.418452896256084,1000000000.0,4.0,-2.220446049250313e-16,-1000000000.0];
+[883.1365358956336,-266.1024094651509,-5.0,1.4118854267221805e+308,-786614.3512895996];
+v54 > C25 ? v54 : C25;
+for (let i66 = 0; i66 < 5; i66++) {
+    try {
+        new f37(v54);
+    } catch(e73) {
+    }
+}

@@ -1,0 +1,39 @@
+function f2() {
+    const t1 = 3;
+    t1[9] = 3;
+    function f3() {
+        return 3;
+    }
+    return f3;
+}
+Int8Array[Symbol.toPrimitive] = f2;
+const v6 = new Int8Array(3);
+1000 >> 1000;
+const v10 = new BigInt64Array(1000);
+function f11() {
+    function f12(a13) {
+        v10.length <<= v10.__proto__;
+        return a13;
+    }
+    return f12;
+}
+Object.defineProperty(v10, "constructor", { configurable: true, enumerable: true, get: f11 });
+try { v10.slice(Int8Array, 1000); } catch (e) {}
+129 ^ 129;
+Int32Array.d = Int32Array;
+new Int32Array(129);
+const v20 = [-225799.45896231825,-1.8178775151873587,-3.0,Infinity,120.52584012500665,0.8639291930404621];
+const v21 = [829422.2890227675,4.939118270117483,0.2512620740356586,-1e-15,-971.2828467759344];
+Object.defineProperty(v21, "constructor", { writable: true, value: f11 });
+try { v21.flat(); } catch (e) {}
+try { v21.map(v6); } catch (e) {}
+const v24 = [475.433531313761];
+v24[0] = v24;
+try { v24.map(v20); } catch (e) {}
+try { new Int8Array(Int32Array, Int8Array, 129); } catch (e) {}
+Uint8ClampedArray.prototype = Uint8ClampedArray;
+const v30 = Uint8ClampedArray.prototype;
+try { v30.at(BigInt64Array); } catch (e) {}
+const v32 = new Uint8ClampedArray(303);
+try { v32.findIndex(v30); } catch (e) {}
+Object.defineProperty(v32, 7, { writable: true, configurable: true, enumerable: true, value: Int8Array });

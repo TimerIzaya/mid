@@ -1,0 +1,61 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v6 = this?.constructor;
+    try { new v6(F3); } catch (e) {}
+    try {
+        this.dotAll = 512;
+    } catch(e8) {
+    }
+    try {
+        this.c = a5;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(14, F3);
+v10.length;
+const v12 = new F3(512);
+const v13 = new F3(14, v10, 14);
+-2n & -2n;
+class C18 {
+    [-2n];
+    static #g;
+    constructor(a20, a21, a22) {
+        this.maxByteLength = this;
+        const v23 = a21?.constructor;
+        try { new v23(14); } catch (e) {}
+        a22 * a22;
+        Math.SQRT1_2 = Math;
+        let v28 = 10;
+        const v29 = -32767 - v13;
+        v28--;
+        const v31 = -32767 % v29;
+        v31 / v31;
+        a22--;
+    }
+    maxByteLength = v12;
+}
+C18.length;
+const v35 = new C18(C18, v13, 512);
+const v36 = new C18(v12, v10, -536870912);
+const v37 = v36?.constructor;
+try { new v37(v13, v10, F3); } catch (e) {}
+new C18(v10, v10, 512, -2n);
+function f40(a41, a42) {
+    return f40;
+}
+f40.e = f40;
+const v43 = f40(f40, f40, -2n);
+class C44 extends f40 {
+    constructor(a46, a47, a48) {
+        super();
+        const v49 = `
+            try { a46(a48, v43); } catch (e) {}
+        `;
+        const v52 = eval?.__defineSetter__;
+        try { new v52(512, 512); } catch (e) {}
+        eval(v49);
+    }
+}
+try { new C44(-9223372036854775808n, v35, -9223372036854775808n); } catch (e) {}
+const v56 = new C44(f40, C44, f40);
+v56.b = v56;

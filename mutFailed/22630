@@ -1,0 +1,61 @@
+class C3 {
+    #h = -9250;
+    static {
+        this.name = this;
+        const v7 = this[Symbol.toStringTag];
+        super.b = this;
+        try {
+            v7.#h;
+        } catch(e9) {
+            e9.message;
+        }
+    }
+    #e = 10;
+    #a;
+    #d;
+}
+const v11 = new C3();
+const v12 = v11?.constructor;
+try { new v12(); } catch (e) {}
+const v14 = new C3();
+try { v14.toLocaleString(); } catch (e) {}
+const v16 = new C3();
+const v17 = v16?.constructor;
+try { new v17(); } catch (e) {}
+function F19(a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v24 = this?.constructor;
+    try { new v24(a22, v16, a21); } catch (e) {}
+    try { a21.constructor(); } catch (e) {}
+    try {
+        this.e = a22;
+    } catch(e27) {
+    }
+}
+try { F19.bind(-4096); } catch (e) {}
+const v29 = new F19(v14, v11, v11);
+const v30 = new F19(v11, v29, v14);
+const v31 = new F19(v30, v11, v29);
+v31.length;
+const t38 = "9";
+t38.length = "9";
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v40 = this?.__defineGetter__;
+    try { new v40(a38, v29); } catch (e) {}
+}
+const v42 = new F36();
+function f43() {
+    const o49 = {
+        [1836424012](a46, a47, a48) {
+        },
+        "e": v42,
+    };
+    o49.e = o49;
+    return F36;
+}
+%PrepareFunctionForOptimization(f43);
+f43();
+f43();
+%OptimizeFunctionOnNextCall(f43);
+f43();

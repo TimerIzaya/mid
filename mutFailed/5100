@@ -1,0 +1,82 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e6) {
+    }
+    try {
+        this.e = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(49757n);
+const v9 = new F3(49757n);
+const v10 = new F3(49757n);
+class C11 extends F3 {
+    valueOf(a13, a14) {
+        let v17 = 536870887;
+        const v19 = v17++;
+        Math.random();
+        Math.cos(a14);
+        Math.min(3);
+        Math.asin(v19 >> this);
+        return 49757n;
+    }
+    d = v10;
+    [49757n];
+}
+new v10();
+new C11();
+const v27 = new C11();
+function f28(a29, a30) {
+    const o44 = {
+        [a30](a32, a33, a34) {
+            a33[Symbol.iterator] = F3;
+            super.f;
+            return this;
+        },
+        3: -769381416n,
+        [49757n]: F3,
+        2: v27,
+        p(a39, a40, a41) {
+            a41 = a30;
+            super[a40] = a29;
+            a30 in a41;
+            return a41;
+        },
+    };
+    return o44;
+}
+f28(v27, v10);
+f28(v8, v9);
+f28(v27, v8);
+class C48 {
+}
+const v49 = new C48();
+const v50 = new C48();
+const v53 = new Int32Array(C48, 129, 129);
+const v55 = new BigInt64Array(129);
+const v56 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+let v57;
+try { v57 = v56.some(); } catch (e) {}
+const v58 = [-1.7976931348623157e+308];
+function f59(a60, a61, a62, a63) {
+    const o77 = {
+        toString(a65, a66, a67) {
+            let v68;
+            try { v68 = this.toString(a66, v57, a65); } catch (e) {}
+            function f70(a71, a72, a73) {
+                return v53 == v50 ? v49 : a71;
+            }
+            f70(255n, v68);
+            a62[a61] = a60;
+            return 255n;
+        },
+    };
+    return o77;
+}
+f59(v55, 129, v58);
+const v79 = f59(v53, 129, v56);
+for (let v80 = 0; v80 < 5; v80++) {
+    v79 % v79;
+}

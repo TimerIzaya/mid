@@ -1,0 +1,48 @@
+const v2 = new Float32Array(3603);
+const v5 = new Uint16Array(5);
+v5[1] = v5;
+const v7 = 129 / 129;
+const v9 = new Uint16Array(129);
+for (let v11 = 0; v11 < 3; v11++) {
+    try { v5.reduceRight(v11, v11); } catch (e) {}
+    delete v9?.byteLength;
+}
+const v15 = 1024 >= 1024;
+v15 && v15;
+const v18 = BigInt64Array.length;
+const v19 = new BigInt64Array(1024);
+const v20 = v19[712];
+v20 !== v20;
+255 > 255;
+255 - 255;
+new Float32Array(255);
+-2887;
+const v30 = new Uint32Array(2887);
+const v31 = v30?.constructor;
+try { v31(v7, v7, Float32Array); } catch (e) {}
+try { new v31(v30, v30, Uint16Array); } catch (e) {}
+const v35 = 3 != 3;
+!v35;
+function f37(a38, a39, a40) {
+    return f37;
+}
+const v43 = [Worker];
+try { v43.find(BigInt64Array); } catch (e) {}
+%VerifyType(1024);
+const v45 = v2[Worker];
+v18?.f;
+let {"byteLength":v47,"h":v48,} = v19;
+let v49;
+try { v49 = v45(2887); } catch (e) {}
+const v50 = v43.unshift(v35);
+const o51 = {
+    "arguments": v43,
+    "type": "function",
+};
+Object.defineProperty("function", "length", { writable: true, configurable: true, get: f37, set: f37 });
+try {
+    f37(v49, 3603, [v45,Uint16Array,v18,v50,5]);
+} catch(e54) {
+}
+const v55 = new Worker(f37, o51);
+try { v55.terminateAndWait(); } catch (e) {}

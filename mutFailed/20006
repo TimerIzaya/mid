@@ -1,0 +1,36 @@
+function f0() {
+}
+const v1 = /K[\p{Script_Extensions=Mongolian}&&\p{Number}][^123]+/gudimsy;
+const v2 = /abc(?:(?=a))a\1[-\xf0\x9f\x92\xa9]+/gm;
+const v3 = /\1(a)/vd;
+class C4 extends f0 {
+    #valueOf(a6, a7) {
+        try {
+            v1.toString = f0;
+        } catch(e8) {
+        }
+        return v1;
+    }
+    [v1] = v2;
+    static g;
+    [v3] = f0;
+}
+const v9 = new C4();
+new C4();
+new C4();
+new v9();
+[601759695];
+const v15 = [1073741824,1073741823,1376142744,1073741825];
+function f16(a17, a18, a19, a20) {
+    function f21() {
+        +("Vre").constructor;
+    }
+    try { f21(); } catch (e) {}
+    f21();
+    try { v15["find"]("find"); } catch (e) {}
+}
+for (let v29 = 0; v29 < 10; v29++) {
+    f16();
+}
+%OptimizeFunctionOnNextCall(f16);
+f16();

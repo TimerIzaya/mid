@@ -1,0 +1,28 @@
+class C3 {
+    #h = 1.175088015970044e+308;
+    static a;
+    static toString(a5, a6) {
+        let v10;
+        try { v10 = a6.valueOf(1.175088015970044e+308, -2147483647, a5); } catch (e) {}
+        try { v10(a5, -46128, a6, ..."g", v10, this); } catch (e) {}
+        super[-2147483647] = "g";
+        return this;
+    }
+    [1.175088015970044e+308];
+    2594794892;
+    static 64 = "g";
+}
+new C3();
+new C3();
+new C3();
+new Uint8Array(1000);
+new Int32Array(1024);
+new BigInt64Array(10);
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = this.valueOf().constructor;
+    try { new v29(v29, v29, v29, a27); } catch (e) {}
+    RegExp.imul();
+}
+new F24(F24, F24);
+new F24();

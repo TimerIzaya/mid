@@ -1,0 +1,60 @@
+new Float32Array(0);
+const t1 = -1.0;
+new t1(9);
+new Float64Array(2044);
+[-Infinity,Infinity,959819.665748626];
+[0.881533214430694,1000000000000.0,-2.6561951388069446e+306,1e-15,-601975.7256958171,-2.0,1.0,-1000000000000.0,-5.0];
+[-6.825886894231237,-1000000000.0,-7.405832553829715,-5.0];
+function f21() {
+    let v23 = 1000000000000.0;
+    const v24 = v23--;
+    const v25 = -v24;
+    class C29 {
+        constructor(a31) {
+            const v33 = new Float32Array();
+            try { v33.entries(); } catch (e) {}
+            const v35 = new Uint16Array(12, -4294967296, v24);
+            new Float32Array(v35, -4294967296, 268435439, v23, v35);
+        }
+    }
+    try { new C29(12); } catch (e) {}
+    const v38 = new C29(257828.6336153492);
+    const v39 = new C29();
+    const v40 = new C29(-4294967296);
+    const v41 = [v40,C29];
+    const v42 = [257828.6336153492,v40,v38,v40,v41];
+    const v43 = [v40];
+    function f44(a45, a46) {
+        v42[3] = Float32Array;
+        const o50 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o50);
+        return v25;
+    }
+    v43.constructor = -2147483649;
+    class C52 extends C29 {
+        [v38];
+    }
+    const v53 = new C52();
+    v53.m = C29;
+    const v54 = v43.constructor;
+    v54.a = f44;
+    try { v54.isArray(v43); } catch (e) {}
+    class C56 extends v54 {
+    }
+    C56.a = v54;
+    C56.a = C56;
+    const v57 = new C56();
+    const v58 = v57?.constructor;
+    try { new v58(); } catch (e) {}
+    Object.defineProperty(v57, 65537, { value: v39 });
+    try { v53.m(v41); } catch (e) {}
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f21);
+const t56 = 9;
+%OptimizeFunctionOnNextCall(t56());
+const t58 = -59351;
+t58();

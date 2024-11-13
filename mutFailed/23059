@@ -1,0 +1,45 @@
+function f0() {
+    const o10 = {
+        p(a5, a6) {
+            try {
+                ("n").search(/W\11(jHB)/iy);
+            } catch(e9) {
+            }
+            return 65537;
+        },
+        ["n"]: 12,
+        "h": 65537,
+        [65537]: "n",
+        ..."n",
+    };
+    return "n";
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+new WeakSet();
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v13;
+    } catch(e21) {
+    }
+    try {
+        this.a = f0;
+    } catch(e22) {
+    }
+}
+const v23 = new F16(v11, v12, v12);
+const v24 = new F16(v23, v11, v11);
+new v11(v24, v13, v13);
+for (let v29 = 0; v29 < 5; v29++) {
+    function f30() {
+        class C31 {
+        }
+        const v32 = new C31();
+        try { v32.isPrototypeOf(v32); } catch (e) {}
+        return v32;
+    }
+    f30();
+    %OptimizeFunctionOnNextCall(f30);
+}

@@ -1,0 +1,26 @@
+new Int32Array(147);
+new Uint16Array(3);
+new Int32Array(3);
+const v12 = [0.4391436918300139,9.677012907460562e+307,2.2250738585072014e-308,-2.220446049250313e-16,68.1253498768067,-3.0];
+[-2.0,-2.695961293116726,-5.0,Infinity,1.7976931348623157e+308];
+[0.9334664264940868,3.0,1000000000.0,733.9924059860705,4.479733583245014e+307,-1000000000.0];
+const v15 = [];
+function f16() {
+    const o20 = {
+        toString() {
+            super[this];
+        },
+        ...v15,
+        n() {
+            return f16;
+        },
+    };
+    try { (2143589597n).n(); } catch (e) {}
+    return -65535n;
+}
+%PrepareFunctionForOptimization(f16);
+f16();
+const t21 = 147;
+t21();
+%OptimizeFunctionOnNextCall(f16);
+v12();

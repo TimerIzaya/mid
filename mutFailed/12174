@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -268435456;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+class C7 {
+    static set f(a9) {
+        const v10 = v4[6];
+        try {
+            const v11 = [this,v10,F0,v6,a9];
+            v6.fuck(v5, v11, v11);
+        } catch(e13) {
+        }
+    }
+    10;
+    static [v5] = v6;
+    static [v4] = F0;
+    get e() {
+        return v6;
+    }
+    static #e;
+}
+const v18 = C7?.bind;
+try { new v18(v6); } catch (e) {}
+const v20 = new C7();
+v20[10] = v20;
+const v21 = new C7();
+v21[10] = v21;
+new v5();
+64 & 64;
+-2147483649 >> -2147483649;
+class C28 extends F0 {
+    get b() {
+        super.c = this;
+        C7[Symbol.asyncIterator];
+        return v5;
+    }
+    static #m(a34, a35) {
+        a35.a;
+        v6 % v21;
+        try {
+            v21.length = 0;
+        } catch(e42) {
+            try { e42(); } catch (e) {}
+            super[v5] = g;
+        }
+        return a34;
+    }
+}
+C28.b = C28;
+new C28();
+const v49 = new C28();
+v49.a = v49;
+new C28();
+-11;
+const v54 = new BigInt64Array(11);
+const v55 = v54.lastIndexOf();
+v55 >> v55;

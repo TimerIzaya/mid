@@ -1,0 +1,99 @@
+function f0() {
+    const o20 = {
+        valueOf(a5, a6) {
+            this[-1.6036136423145508e+308] = a6;
+            function f7(a8, a9, a10, a11) {
+                const o14 = {
+                    "maxByteLength": 74,
+                };
+                const v16 = new ArrayBuffer(3, o14);
+                const v18 = new Int8Array(v16);
+                return v18;
+            }
+            return f7(0.0, -1.6036136423145508e+308, a6, "bigint");
+        },
+    };
+    return o20;
+}
+const v21 = f0();
+f0();
+function f23() {
+}
+class C24 {
+}
+const v25 = new C24();
+const v26 = v25?.constructor;
+try { new v26(); } catch (e) {}
+class C29 {
+    static {
+        this.name = this;
+        for (let v31 = 0; v31 < 25; v31++) {
+            function f32(a33, a34, a35, a36) {
+                for (let v37 = 0; v37 < 10; v37++) {
+                    v37--;
+                    C24.__proto__ = Date;
+                }
+            }
+            for (let v39 = 0; v39 < 5; v39++) {
+                v39 - v39;
+                f32();
+            }
+        }
+    }
+}
+try { C29.toString(); } catch (e) {}
+const v43 = f0();
+try { v43.valueOf(Date, C24); } catch (e) {}
+4 != 4;
+const v51 = new Uint8Array(4);
+v51[2] = v51;
+new Uint32Array(8);
+14 | 14;
+for (let i60 = 0, i61 = 10;
+    (() => {
+        i61 | i61;
+        const v63 = i60 < i61;
+        class C64 {
+        }
+        const v67 = new BigUint64Array(3375);
+        v67[2497];
+        let [v69,,v70,...v71] = v67;
+        try { v71.pop(); } catch (e) {}
+        return v63;
+    })();
+    i60++) {
+    i60 < i60;
+}
+new Uint16Array(14);
+const v81 = /a\w/gudsy?.test;
+try { new v81(4); } catch (e) {}
+const v83 = /ka{0}/guims;
+const v84 = /ab|c/udmy;
+class C85 {
+}
+const v86 = new C85();
+const v87 = v86?.constructor;
+try { new v87(); } catch (e) {}
+const v89 = new C85();
+const v90 = v89?.constructor;
+try { new v90(); } catch (e) {}
+function f92(a93, a94) {
+    const o95 = {
+        ...v83,
+        "d": v89,
+        "c": a94,
+        "g": a94,
+        "f": a93,
+        "a": v86,
+        7: C85,
+        __proto__: C85,
+        "e": v84,
+        "b": v51,
+    };
+    return o95;
+}
+%PrepareFunctionForOptimization(f92);
+f92(v84);
+const v97 = f92(v84);
+%OptimizeFunctionOnNextCall(f0);
+f92(v97, v21)[7];

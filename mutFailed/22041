@@ -1,0 +1,110 @@
+function f3(a4, a5) {
+    const o19 = {
+        __proto__: a5,
+        get b() {
+            const o7 = {
+            };
+            const v9 = new Proxy(a4, o7);
+            return v9;
+        },
+        ["object"]: a5,
+        256: a4,
+        "f": a5,
+        "e": "object",
+        "d": "p",
+        m(a11) {
+            let v12 = -9007199254740991;
+            v12++;
+            v12 >> v12;
+            const v17 = new Int8Array();
+            let v18 = 3;
+            for (let i = 0; i < 5; i++) {
+                [...v18] = v17;
+            }
+            return v12;
+        },
+    };
+    return o19;
+}
+const v20 = f3("p", "p");
+const v21 = f3("p", "object");
+f3("object", "p");
+class C23 {
+    #n(a25, a26, a27, a28) {
+        let v29;
+        try { v29 = a28(a26); } catch (e) {}
+        a26[1073741823];
+        try {
+            v21.fuck("p", v20, "p", v29);
+        } catch(e32) {
+        }
+        return v20;
+    }
+    1 = v20;
+    static g;
+    static 255;
+    static 65535;
+    static n(a34, a35) {
+    }
+    static #o(a37, a38) {
+    }
+    constructor(a40, a41) {
+        const v42 = this.constructor;
+        try { new v42(); } catch (e) {}
+        const v45 = Math.atan2(this);
+        v45 ** v45;
+    }
+}
+new C23();
+new C23();
+new C23();
+gc();
+new f3(-9223372036854775808n, 268435440n);
+let v58 = 4.150176177212824;
+v58 &= -2.0;
+const v60 = [1354185297,-1187772013,1073741823,7,-13,8,-473031863,-1332151602];
+for (let v61 = 0; v61 < 500; v61++) {
+    v61++;
+    const o67 = {
+        [v60](a64, a65, a66) {
+        },
+        ...v61,
+    };
+}
+function f68() {
+    return -128;
+}
+const v70 = new Uint16Array(-38678);
+try { Int32Array(7, Float32Array, Int32Array); } catch (e) {}
+function F76(a78, a79, a80) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v81 = this?.constructor;
+    try { new v81(Uint16Array, a80, a80); } catch (e) {}
+    a78 * a78;
+    a80++;
+    this.d = a78;
+    try {
+        this.description = v70;
+    } catch(e85) {
+    }
+    try {
+        this.g = Int32Array;
+    } catch(e86) {
+    }
+}
+try { new F76(F76, 256, 256); } catch (e) {}
+class C88 extends f68 {
+    constructor(a90, a91, a92, a93) {
+        super(a90, a93, a93);
+        function f94() {
+            for (const v95 in a91) {
+            }
+            return a90;
+        }
+        for (let v96 = 0; v96 < 5; v96++) {
+            f94(a90, a91, "object");
+            %OptimizeFunctionOnNextCall(f94);
+        }
+    }
+}
+new C88(f68, f68, C88, f68);

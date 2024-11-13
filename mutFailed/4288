@@ -1,0 +1,61 @@
+let v1 = -3.0;
+v1++;
+function f10() {
+    return eval();
+}
+function f22(a23, a24, a25) {
+    const o35 = {
+        "a": a24,
+        n(a27, a28, a29) {
+            super.h -= 65537;
+            try { this.valueOf(a27, a25, a25, 5, a24); } catch (e) {}
+            super.h;
+            const o32 = {
+            };
+            const v34 = new Proxy(this, o32);
+            return v34;
+        },
+        7: a23,
+        "d": 65537,
+    };
+    return o35;
+}
+f22(-4096, 2147483648, 25210);
+f22(3845, 25210, 5);
+const v38 = f22(-4096, 5, 5);
+function F39(a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a41;
+    } catch(e43) {
+    }
+    try {
+        this.a = a42;
+    } catch(e44) {
+    }
+    try {
+        this.d = a41;
+    } catch(e45) {
+    }
+}
+new F39(65537, 25210);
+new F39(25210, v38);
+new F39(25210, 3845);
+for (let v49 = 0; v49 < 10; v49++) {
+    function F51(a53, a54) {
+        if (!new.target) { throw 'must be called with new'; }
+        function f55() {
+            return 25210;
+        }
+        function f56(a57) {
+            ("b")[a54];
+        }
+        Object.defineProperty(this, "b", { writable: true, configurable: true, get: f55, set: f56 });
+        this.b = "b";
+        this.d = a54;
+    }
+    const v59 = new F51();
+    const o60 = {
+        ...v59,
+    };
+}

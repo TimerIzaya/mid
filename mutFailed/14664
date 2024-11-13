@@ -1,0 +1,61 @@
+class C3 {
+    constructor(a5) {
+        const v6 = this.d;
+        try { ("atan").replace(v6, v6); } catch (e) {}
+        const t4 = "atan";
+        t4[this] = "m";
+        for (let v8 = 0; v8 < 32; v8++) {
+            const t7 = "atan";
+            t7["p" + v8] = v8;
+        }
+        try {
+            const t11 = "m";
+            t11.valueOf = C3;
+        } catch(e11) {
+        }
+        const o12 = {
+        };
+        new Proxy(this, o12);
+    }
+    static #d = "m";
+    12 = "atan";
+    #e;
+    #c;
+}
+let v15 = "m" == C3;
+const v16 = v15 ? "m" : C3;
+v15 >>= v15;
+%VerifyType(v15);
+C3 != v16;
+const v18 = new C3("atan");
+const v19 = new C3(-591.0366507574852);
+const v20 = new C3(C3);
+class C21 extends C3 {
+    constructor(a23, a24, a25, a26) {
+        super(a24);
+        function f27(a28, a29, a30, a31) {
+            const o32 = {
+                "e": this,
+                "b": a25,
+                ...a31,
+            };
+            return o32;
+        }
+        const v33 = f27("m", v19, a25, v19);
+        f27(v33, v33, this, v33);
+        f27(this, v20, a25, a23);
+    }
+}
+const v36 = new C21(v19, v19, v18, v18);
+const v37 = new C21(C21, "m", v36, v36);
+new C21(v18, v19, v18, v37);
+for (let v42 = 0; v42 < 5; v42++) {
+    function f43() {
+        const v44 = [-1.5424212036356715e+308];
+        try { v44.findIndex(); } catch (e) {}
+        ~v44.shift();
+        return v42;
+    }
+    f43();
+    %OptimizeFunctionOnNextCall(f43);
+}

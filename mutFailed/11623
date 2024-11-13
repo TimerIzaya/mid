@@ -1,0 +1,36 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a9;
+    } catch(e11) {
+    }
+    try {
+        this.a = -3.0;
+    } catch(e12) {
+    }
+    try {
+        this.g = "c";
+    } catch(e13) {
+    }
+}
+const v14 = new F6("-8", -3.0, "-8");
+const v15 = new F6("1073741825", -2.0, "1073741825");
+const v16 = new F6("c", -3.0, "1073741825");
+class C17 {
+    a = v15;
+    get h() {
+        super[this];
+        super.b;
+        ("oE").normalize("NFKC");
+        return v16;
+    }
+    static #a = "1073741825";
+    [F6];
+    [v14] = -3.0;
+    static #d;
+    static 536870887;
+}
+new C17();
+new C17();
+new v15();
+Int32Array.bind(Int32Array, Int32Array, Int32Array);

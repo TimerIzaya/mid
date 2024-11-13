@@ -1,0 +1,79 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = F0;
+    try {
+        this.b = -1024;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0(F0);
+function f7(a8, a9) {
+    const o22 = {
+        "NaN": F0,
+        __proto__: a8,
+        "c": v6,
+        set a(a11) {
+            const v12 = a8;
+            function F13(a15, a16) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = v5;
+                } catch(e17) {
+                }
+                try {
+                    this.h = a8;
+                } catch(e18) {
+                }
+            }
+            new F13(v6, this);
+            new F13(this, v12, a9);
+            new F13(a8, a8);
+        },
+    };
+    return o22;
+}
+const v23 = f7(v5, f7);
+let v24 = f7(v23, F0);
+const v25 = f7(v6, v4);
+class C26 extends f7 {
+    static #p(a28, a29) {
+        delete a29[65536];
+        ({"a":v24,"b":a28,} = a28);
+        return v23;
+    }
+    #c;
+    next(a32, a33) {
+        return 433n;
+    }
+    static #h;
+    static #a = v25;
+    10 = v4;
+}
+const v37 = new C26();
+const v38 = new C26();
+const v39 = new v6();
+function F40(a42, a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "h", { writable: true, configurable: true, value: v38 });
+    this.f = a44;
+    try {
+        this.f = a42;
+    } catch(e45) {
+    }
+    try {
+        this.h = a42;
+    } catch(e46) {
+    }
+    try {
+        this.c = v5;
+    } catch(e47) {
+    }
+}
+new F40(v37, v38, v39, v4, v39);
+new F40(v38, C26, v37);
+new F40(v37, v37, v6);
+const v53 = new BigInt64Array(3995);
+const v54 = new BigInt64Array();
+v53.indexOf(v54);

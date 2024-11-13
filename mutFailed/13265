@@ -1,0 +1,17 @@
+/ab|cLa+b|c*/gudsy;
+/x(?:a+)+fxyz{93}/vms;
+/I+/umsy;
+const v8 = new Float64Array(128);
+new Uint8ClampedArray(127);
+new Int32Array(148);
+const v15 = [-6.672391061426152e+307];
+function f16() {
+    let v17 = 8n;
+    v17++;
+    [v17];
+    return ~v15["pop"]();
+}
+%PrepareFunctionForOptimization(f16);
+v8();
+%OptimizeFunctionOnNextCall(f16);
+f16();

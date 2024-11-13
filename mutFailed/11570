@@ -1,0 +1,90 @@
+const v0 = [536870912,978312850,1073741825,65536];
+const v1 = [536870887,57184,-16,8066,-536870912,-4096,-4096,-20398,127,5];
+function f2() {
+    ~v0;
+    try {
+        v0.valueOf = v1;
+    } catch(e4) {
+    }
+    return v1;
+}
+Object.defineProperty(v1, Symbol.toPrimitive, { configurable: true, value: f2 });
+const v7 = [-1,1555261047,-536870912,-9007199254740991,-9223372036854775807,1220279930,9,-9223372036854775807];
+function f8(a9) {
+    const o23 = {
+        [v0]: v7,
+        106: v7,
+        "d": v0,
+        "c": v0,
+        [a9]: v0,
+        [a9](a11, a12) {
+            function f13(a14, a15, a16, a17) {
+                try { new a9(a9, v0, a14, a14, a9); } catch (e) {}
+                [-1.0505254222905598e+308,1000000.0];
+                [-9.884460492390775e+307,-5.702245990759035e+307,-3.0];
+                [0.7491033043197519,-5.0,4.358761708260406e+307,NaN,-1000000.0];
+                return a12;
+            }
+            f13(v1, a12, v7, v7);
+            return this;
+        },
+    };
+    o23[7] = o23;
+    return o23;
+}
+const v24 = f8(f8);
+Object.defineProperty(v24, 7, { writable: true, value: v24 });
+new SharedArrayBuffer(62);
+const v28 = [];
+function f29() {
+    -v28;
+    return f29;
+}
+const v31 = f8(v1);
+v31[7] = v24;
+const v32 = f8(v31);
+class C33 {
+    0 = f8;
+    static {
+        try { f8(...this, v24, ...this, v1, ...this); } catch (e) {}
+    }
+    constructor(a37, a38, a39) {
+        function f40(a41) {
+            try {
+                a37.__proto__ = a41;
+            } catch(e42) {
+            }
+            return f29;
+        }
+        this[Symbol.toPrimitive] = f40;
+        a38[7] = SharedArrayBuffer;
+        a39.toString = Symbol;
+        const o45 = {
+            __proto__: v0,
+            [a39]: v0,
+            "h": this,
+        };
+        a38[7];
+    }
+    static 4294967296;
+    3164 = v0;
+}
+C33[7] = v31;
+class C47 {
+    constructor(a49, a50) {
+        this[Symbol.toPrimitive] = f29;
+        for (let i = 0; i < 10; i++) {
+            this[this];
+        }
+    }
+}
+new C47();
+const v55 = new C33(v24, C33, v32);
+new C33(v31, v31, v55);
+new C33(v24, v24, v32);
+function F61(a63) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f29;
+    this.constructor.arguments;
+}
+new F61();

@@ -1,0 +1,67 @@
+class C3 {
+    static #p(a5, a6) {
+    }
+    #h;
+}
+const v7 = new C3();
+const v8 = new v7();
+const v9 = new C3();
+function f10(a11, a12, a13, a14) {
+    const o15 = {
+        "c": -922911.6474995338,
+        242: -922911.6474995338,
+        "g": v8,
+        [a13]: a12,
+        [C3]: a12,
+        "a": -747634.1081113975,
+        "h": a11,
+        "f": a14,
+    };
+    return o15;
+}
+f10(v7, v9, C3);
+function f22(a23, a24) {
+    const o35 = {
+        get c() {
+            function f26(a27, a28, a29, a30) {
+                const o31 = {
+                    [a24]: this,
+                };
+                return o31;
+            }
+            f26(a24, a24, a24, -145548697);
+            f26(-145548697, 2147483648, -145548697, a24);
+            f26(-145548697, 2147483648, -1, a24);
+            return -1;
+        },
+    };
+    return o35;
+}
+class C37 {
+    constructor(a39) {
+        ("valueOf").localeCompare(a39, "valueOf");
+    }
+}
+f10(15n, 2147483648);
+f10(60872n, -1);
+f22(2n, 2147483648);
+class C44 extends f22 {
+    static p(a46, a47) {
+        a47 = a46 * 60872n;
+        try {
+            new f22(8n, -1);
+        } catch(e53) {
+        }
+        return a47;
+    }
+}
+new v8();
+new C44();
+new C44();
+for (let i = 0; i < 25; i++) {
+    const o60 = {
+        "execution": "async",
+        "type": "valueOf",
+    };
+    gc(o60);
+}

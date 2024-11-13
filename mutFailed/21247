@@ -1,0 +1,26 @@
+const v3 = /v(?:a+){0,0}o((((.).).).)v+/vdimy;
+const v4 = /S((((.).).).)1*/udsy;
+const v5 = /fi(?:a?)*/guis;
+function f6() {
+    return v5;
+}
+class C7 extends f6 {
+    static {
+        const v10 = [this];
+        Reflect.apply(v3.compile, this, v10);
+    }
+    constructor(a14, a15, a16, a17) {
+        super();
+        for (const v18 of a14) {
+            Reflect.construct(v18, [v5,Reflect,this], v18);
+        }
+        try {
+            a15.toString = a14;
+        } catch(e22) {
+        }
+    }
+}
+const v23 = new C7(f6, v5, -1n, 3n);
+const v24 = new C7(v5, v23, 3n, v4);
+new C7(-1n, v24, 3n, -25089n);
+Math.atan(5.134563044869008e+307);

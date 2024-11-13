@@ -1,0 +1,78 @@
+function f2() {
+    function f3() {
+        eval();
+        return Uint8ClampedArray;
+    }
+    return f3;
+}
+function f6(a7) {
+    const o8 = {
+    };
+    try {
+        o8.a = f2;
+    } catch(e9) {
+    }
+    try {
+        const o10 = {
+        };
+        o10.a = f2;
+        o10.f = f2;
+    } catch(e11) {
+    }
+    try {
+        const o12 = {
+        };
+        o12.a = f2;
+        o12.f = f2;
+        o12.c = a7;
+    } catch(e13) {
+    }
+    try {
+        const o14 = {
+        };
+        o14.a = f2;
+        o14.f = f2;
+        o14.c = f2;
+    } catch(e15) {
+    }
+}
+Object.defineProperty(Uint8ClampedArray, "toString", { configurable: true, enumerable: true, get: f2, set: f6 });
+const v16 = new Uint8ClampedArray(8);
+const v19 = new Float32Array(64);
+function f20() {
+    return f6;
+}
+Object.defineProperty(v19, "valueOf", { enumerable: true, get: f20 });
+3621 | 3621;
+const v24 = new Int8Array(3621);
+function f25() {
+    return f20;
+}
+function f26(a27) {
+    class C29 extends TypeError {
+    }
+}
+Object.defineProperty(v24, "toString", { configurable: true, get: f25, set: f26 });
+function f30(a31, a32) {
+    a32.valueOf = f26;
+    a31[2181] = a31;
+    a32--;
+    const o34 = {
+        "e": 3621,
+        128: Uint8ClampedArray,
+        "f": v19,
+        [Uint8ClampedArray]: Uint8ClampedArray,
+        65535: a32,
+        "g": v16,
+        __proto__: a31,
+        "a": a31,
+        "b": 64,
+        "d": Int8Array,
+    };
+    return o34;
+}
+try { f30(Float32Array, v19); } catch (e) {}
+f30(f30(v24, 64), 8);
+f30(Int8Array, 64);
+try { ("128").valueOf(); } catch (e) {}
+("128").fontsize();

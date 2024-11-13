@@ -1,0 +1,65 @@
+function f3() {
+    return 9;
+}
+class C4 extends f3 {
+    #f;
+    static c;
+    static {
+        Object.defineProperty(this, this, { writable: true, configurable: true, enumerable: true, get: f3 });
+        this[201] = 9;
+        super.c |= 9;
+        const o9 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o9);
+    }
+}
+new C4();
+new C4();
+new C4();
+const v16 = new Uint32Array(5);
+new Int8Array(2010);
+new Int16Array(4096);
+class C24 {
+    #valueOf(a26, a27) {
+        const v29 = WeakMap();
+        "m" > v29 ? "m" : v29;
+        return this;
+    }
+    static set f(a33) {
+        const o36 = {
+            "maxByteLength": 129,
+        };
+        SharedArrayBuffer();
+        const t33 = "m";
+        t33();
+    }
+}
+const v40 = new C24();
+const v41 = new C24();
+const t40 = v41.constructor;
+new t40();
+const v44 = v41.__lookupGetter__;
+const o45 = {
+    __proto__: v41,
+    "f": v16,
+};
+typeof "m" === "undefined";
+try { v44(); } catch (e) {}
+const v50 = new C24();
+function f51() {
+    return v50;
+}
+f51.d = f51;
+function F52(a54, a55, a56, a57) {
+    if (!new.target) { throw 'must be called with new'; }
+    a56.valueOf();
+    a57.e = a57;
+    const v59 = this?.constructor;
+    try { new v59(v41, a56, a54, F52); } catch (e) {}
+    a57.toLocaleString();
+}
+new F52("m", C24, v50, C24);
+const v63 = new F52(v40, v41, "m", v40);
+new F52(v63, v63, v41, v63);

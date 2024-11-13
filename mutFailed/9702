@@ -1,0 +1,41 @@
+const o6 = {
+    4294967296: 1733353236,
+};
+const o8 = {
+    get h() {
+        return o6;
+    },
+    ...o6,
+};
+new JSON(7);
+new Int8Array(6);
+const v13 = [536870887,-42204,-17288903,-3,9007199254740991,7];
+const v14 = [-15,-2147483649,-899333997,3,1455560807,-1024,-4294967297,2098301778];
+class C15 {
+    constructor(a17) {
+        function f18(a19, a20) {
+            a19[5];
+        }
+        f18(v14, "number");
+        f18(v13, JSON, this);
+        f18(a17);
+    }
+}
+const v25 = C15.constructor;
+try { v13.some(v25); } catch (e) {}
+new BigUint64Array(2675);
+const v33 = new Uint8Array();
+function f34(a35, a36, a37, a38) {
+    a37++;
+    const v40 = a37++;
+    const v41 = a37 % a37;
+    const o42 = {
+        ...v33,
+    };
+    let v43;
+    try { v43 = o42.n(v41, v40); } catch (e) {}
+    return v43;
+}
+for (let v44 = 0; v44 < 500; v44++) {
+    f34(Uint8Array, 2, v44);
+}

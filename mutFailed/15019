@@ -1,0 +1,68 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 1872869133;
+    } catch(e3) {
+    }
+    try {
+        this.a = 1872869133;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f9(a10, a11) {
+    const o18 = {
+        __proto__: a11,
+        "c": F0,
+        "h": a10,
+        "g": v6,
+        "b": undefined,
+        toString(a13, a14) {
+            %VerifyType(this);
+            F0 != a14;
+            try {
+                new F0();
+            } catch(e17) {
+            }
+            return a10;
+        },
+        "a": v7,
+    };
+    return o18;
+}
+const v19 = f9(v7, v6);
+f9(v19, f9(v19, v19));
+const v25 = new Uint16Array(Uint32Array);
+class C26 {
+    #p(a28, a29, a30, a31) {
+    }
+    constructor(a33, a34) {
+        try {
+            v25.#p();
+        } catch(e36) {
+        }
+    }
+}
+new C26();
+new Uint32Array(6);
+new BigUint64Array(649);
+new Uint8ClampedArray(v19);
+function F45() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v49 = this.__proto__?.constructor;
+        try { new v49(); } catch (e) {}
+        F45[8] = this;
+        this.a = -4;
+    } catch(e51) {
+    }
+    try {
+        this.g = -4;
+    } catch(e52) {
+    }
+}
+new F45();
+const t66 = 6;
+new t66();

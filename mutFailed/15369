@@ -1,0 +1,62 @@
+class C3 {
+    static [0];
+    static [4092] = 0;
+    e;
+    167;
+    constructor(a5, a6) {
+        const v7 = a5?.[0];
+        const v8 = v7?.b;
+        v7?.f;
+        let {"f":v10,...v11} = v8;
+        a5[Symbol.replace];
+    }
+}
+const v15 = new C3(0, 4092);
+const v16 = new C3(v15, 1024);
+const v17 = new C3(0, 4092);
+function f18(a19, a20) {
+    try {
+        C3.b = a19;
+    } catch(e21) {
+    }
+    Object.defineProperty(v17, C3, { enumerable: true, set: f18 });
+    const o26 = {
+        [v15](a23, a24) {
+            try {
+                a24.e = a24;
+            } catch(e25) {
+            }
+            return this;
+        },
+        "d": a19,
+        "h": a20,
+        "g": a19,
+        "f": C3,
+    };
+    return o26;
+}
+f18(v16, 0);
+f18(v16, 0);
+f18(v16, 1024);
+const v31 = new Float32Array(Float32Array);
+for (let v32 = 0; v32 < 25; v32++) {
+    const v33 = [1073741824,1073741823,1376142744,1073741825];
+    function f34(a35, a36, a37, a38) {
+        function f40() {
+            return Float32Array;
+        }
+        try { undefined(); } catch (e) {}
+        const v44 = new Int8Array(v31, a37, v32);
+        function f45(a46, a47) {
+            return v31;
+        }
+        f45(v33, v31);
+        v44.buffer;
+        %OptimizeFunctionOnNextCall(f40);
+        try { v33["find"](); } catch (e) {}
+        return arguments;
+    }
+    for (let v52 = 0; v52 < 10; v52++) {
+        f34(v31, v32, v52, Float32Array);
+    }
+}

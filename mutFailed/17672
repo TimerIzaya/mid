@@ -1,0 +1,54 @@
+new Uint16Array(128);
+const v8 = new Int32Array(5);
+new Float32Array(255);
+const v12 = [-20821,Float32Array];
+const v13 = [v12,v8];
+[Float32Array,v12,128];
+class C15 {
+}
+const v16 = new C15();
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v22 = new F17(C15, v16, F17);
+const v23 = [134133844,-339370636,65535,-4294967295,536870888,-324130953,536870912,268435439];
+function f24(a25, a26, a27, a28) {
+    function f29() {
+        const v30 = v23.length;
+        const v31 = v22.__lookupSetter__;
+        v31.valueOf = f24;
+        const v32 = v30 >>> v30;
+        const v36 = [295968041,[-1024,536870889,65536,65536]];
+        const o37 = {
+            "arguments": v36,
+            "type": "-1723624938",
+        };
+        a26[v31 & (v32 % v32)] += v16;
+        return F17;
+    }
+    f29[0] = 255;
+    f29();
+    %OptimizeFunctionOnNextCall(f29);
+    return f29;
+}
+Object.defineProperty(f24, 0, { configurable: true, value: v13 });
+class C41 {
+}
+const v42 = new C41();
+const t37 = v42.constructor;
+new t37();
+const v45 = f24(v23, f24);
+v45[0] = Uint16Array;
+const v46 = f24(v23, v45);
+function f47() {
+    return f24;
+}
+function f48(a49) {
+    const v51 = new BigInt64Array(128);
+    let o52 = {
+    };
+    [,...o52] = v51;
+    return o52;
+}
+Object.defineProperty(v46, 0, { writable: true, configurable: true, enumerable: true, get: f47, set: f48 });
+f24(f24, v46);

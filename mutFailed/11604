@@ -1,0 +1,38 @@
+function f0() {
+    const o12 = {
+        ["1279199762"](a5, a6) {
+            try {
+                const t4 = "e";
+                t4.__proto__ = "e";
+            } catch(e8) {
+            }
+            return true;
+        },
+        3999: "e",
+        ..."1279199762",
+        "c": "1279199762",
+        ["1279199762"]: "e",
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0();
+const v18 = new Uint8Array(1024);
+new BigUint64Array(38);
+new BigUint64Array(4083);
+function f25() {
+    return v14;
+}
+[v18,Uint8Array,v14,BigUint64Array];
+[v14,Uint8Array];
+[v13];
+function f29(a30, a31) {
+    return f29;
+}
+const o34 = {
+    "type": "function",
+};
+const v35 = new Worker(f29, o34);
+const v36 = v35.terminateAndWait();
+v15.terminateAndWait(v36, Worker, v36, v36);

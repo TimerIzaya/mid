@@ -1,0 +1,88 @@
+function f0() {
+}
+const v2 = -10 ^ -10;
+function f3() {
+    const v4 = [f3];
+    function f5(a6) {
+        return a6;
+    }
+    v4.constructor = f5;
+    const v7 = v4.constructor;
+    v7(v7, f5);
+    return f3;
+}
+f3();
+%OptimizeFunctionOnNextCall(f3);
+const v10 = [4.0,0.33870004724581404,-380450.22316207853,947245.4536295086];
+const v11 = [4.0,-Infinity,8.949526573911903,262.601007798075,942.8420069065892,-0.0,3.0,378.92135388698034];
+const v12 = [-4.918227892975958e+307,-159753.3665014872,-7.894028670101665,1000.0,-1000.0,235517.70027802465,-1.7538415764506343e+308,1000000000.0];
+let v14 = new WeakMap();
+class C15 extends WeakMap {
+    static {
+        function f17(a18, a19, a20, a21) {
+        }
+        for (let v22 = 0; v22 < 5; v22++) {
+            f17(this, v22, v22);
+        }
+    }
+    static [v14];
+    constructor(a25, a26) {
+        for (let v27 = 0; v27 < 5; v27++) {
+            const v29 = new Map();
+            v29["p" + v2] = v2;
+            const o32 = {
+                ...v29,
+            };
+        }
+    }
+    /*
+    constructor(a34, a35, a36) {
+        super(a35);
+        a36.length %= this;
+        const v43 = new Float32Array(4096);
+        v43.lastIndexOf(1.3174607869926752e+308);
+    }
+    */
+    static get c() {
+        try {
+            v12.__proto__ = v10;
+        } catch(e46) {
+        }
+        return this;
+    }
+}
+new C15(v12, v10, v11);
+new C15(v11, v10, v10);
+const v49 = new C15(v12, v10, v10);
+class C50 extends C15 {
+    static n(a52, a53, a54) {
+        try {
+            C15.c = a53;
+        } catch(e55) {
+        }
+        ({"b":C15,"e":C15,...v14} = v49);
+        return this;
+    }
+    o(a57, a58) {
+        const v61 = new BigUint64Array(6);
+        new f0(v61);
+        function F63(a65, a66) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.hasOwnProperty(F63);
+            const v68 = this.constructor;
+            try { new v68(); } catch (e) {}
+        }
+        new BigInt64Array(1048);
+        new Uint8ClampedArray(128);
+        new Uint8Array(14);
+        return v12;
+    }
+}
+new C50();
+new C50();
+new C50();
+const v85 = [-4];
+try {
+    new BigUint64Array(v85);
+} catch(e88) {
+}

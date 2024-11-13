@@ -1,0 +1,41 @@
+Reflect.construct(407.99112680321673, [52521], 407.99112680321673);
+["884475119",[10000,10000,52521,1000,1000],1000,"string",1];
+[10000,"884475119","string","884475119",52521];
+function f18() {
+    const v19 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+    for (let v20 = 0; v20 < 5; v20++) {
+        function f21() {
+            try {
+                v19.forEach();
+            } catch(e23) {
+            }
+            return f18;
+        }
+        function f24() {
+            return v20;
+        }
+        function f25(a26) {
+            function f28(a29) {
+                return 512;
+            }
+        }
+        Object.defineProperty(f21, "f", { configurable: true, get: f24, set: f25 });
+        f21.f = f18;
+        f21();
+        %OptimizeFunctionOnNextCall(f21);
+    }
+    return v19;
+}
+const v32 = [-1000.0,351.94489669740733,5.8623101046484845,-160881.40611645568,0.6390643538224362,9.13027568774574];
+v32[Symbol.toPrimitive] = f18;
+function f35(a36, a37) {
+    %PrepareFunctionForOptimization(52521);
+    f18();
+    %OptimizeFunctionOnNextCall(f18);
+}
+v32[Symbol.toPrimitive] = f35;
+function f41(a42, a43) {
+    return a42;
+}
+const v45 = new Promise(f41);
+v45[v32] += 36002;

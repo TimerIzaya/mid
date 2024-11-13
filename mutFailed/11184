@@ -1,0 +1,41 @@
+const v1 = new WeakMap();
+class C2 {
+    static #m(a4) {
+        try { a4(v1, this, WeakMap, this, a4, v1); } catch (e) {}
+        this[WeakMap] >>= a4;
+        return C2;
+    }
+    #toString(a7) {
+        try {
+            this.toString = a7;
+        } catch(e8) {
+        }
+        super[a7];
+        super[C2];
+        return 3;
+    }
+}
+const v14 = new C2();
+const v15 = new C2();
+const v16 = new C2();
+class C23 extends WeakMap {
+    static c;
+    static 6;
+    static [-1];
+    n(a25, a26) {
+        const v27 = [v14,9007199254740991,a26,this,a26];
+        super.set(v27, v27);
+        return v15[10000];
+    }
+    constructor(a31, a32, a33, a34) {
+        super(v16);
+        a32[0];
+        function f37() {
+            return arguments;
+        }
+    }
+}
+new C23(v1, v14, 323140404, -10);
+new C23(v1, v14, 9007199254740991, 536870912);
+new C23(v16, v16, 323140404, -10);
+([[65535,268435439,-9007199254740990,268435440,1024,19743,5,4]]).toLocaleString();

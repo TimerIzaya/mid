@@ -1,0 +1,58 @@
+const v0 = [-5.0,-8.47494865972136e+306,-1e-15,0.06699712027470794];
+function f1(a2) {
+    let {"b":v3,"d":v4,"length":v5,} = v0;
+    try { new a2(v4); } catch (e) {}
+    return v5;
+}
+v0[Symbol.toPrimitive] = f1;
+const v9 = [1.1489783955968047,-2.2250738585072014e-308,0.008441740820453347];
+const v11 = Symbol.toPrimitive;
+v9[v11] = Symbol;
+Symbol.p19 = v11;
+v9[Symbol.toPrimitive] = f1;
+const v14 = [-4.0,-1.7976931348623157e+308,3.9236092875622592,4.0,417.64492560768326,1.5279961618944249e+308,NaN,1.835969709940299,-2.2250738585072014e-308];
+v14.valueOf = f1;
+const v15 = [v9,v9];
+v15.toString = Symbol;
+const v16 = [v15,v0,v15,v14];
+function f17(a18) {
+    try { new a18(v16); } catch (e) {}
+    for (let v20 = 0; v20 < 32; v20++) {
+        Symbol["p" + v20] = v20;
+    }
+    return a18;
+}
+v16[Symbol.toPrimitive] = f17;
+const v25 = [v15,v16,v9];
+v25[Symbol.toPrimitive] = Symbol;
+class C28 {
+    constructor(a30, a31) {
+        a30.b = a30;
+        function f32() {
+            function f33() {
+                (v15 >> 456177292) + 456177292;
+                456177292 / v15;
+                return (456177292 || 456177292) || 456177292;
+            }
+            return f33;
+        }
+        Object.defineProperty(a30, "toString", { get: f32 });
+        const v43 = v0[Symbol.toPrimitive];
+        try { v43(v14, ...v9, ...v25, v43, ...a30); } catch (e) {}
+        v15 | v14;
+    }
+    [v25] = v16;
+    #c;
+    [v9] = v9;
+    [v0];
+    6 = v25;
+    static d;
+    #g;
+}
+const v46 = new C28(v9, C28);
+new C28(v0, v0);
+new C28(v46, v46);
+new Uint8ClampedArray(2);
+new Int16Array(8);
+new BigUint64Array(10);
+("1866165091").normalize();

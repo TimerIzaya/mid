@@ -1,0 +1,96 @@
+class C3 {
+    [-1000000000000.0] = -1000000000000.0;
+    n(a5) {
+        const v7 = new Map();
+        return v7;
+    }
+    static d = -1000000000000.0;
+    static #g = 1.0;
+    [0.0];
+    #d;
+}
+try { new C3(); } catch (e) {}
+const v9 = new C3();
+function f10() {
+    const o11 = {
+    };
+    const v13 = new Proxy(C3, o11);
+    return v13;
+}
+v9[Symbol.toPrimitive] = f10;
+const v16 = new C3();
+const v17 = v16[0];
+const v18 = new C3();
+function f19() {
+    return C3;
+}
+class C20 {
+    toString(a22, a23, a24) {
+        return this;
+    }
+    e = 0.0;
+    g = -1000000000000.0;
+    static b;
+    static #f = v9;
+}
+C20.prototype = C20;
+new C20();
+const v29 = new C20();
+v29.h = v17;
+v29.h = v29;
+const v30 = new C20();
+v30.valueOf = Symbol;
+v30.g;
+try { ("m").codePointAt(-1000000000000.0); } catch (e) {}
+class C34 {
+}
+C34.prototype = C34;
+const v35 = new C34();
+try { v35.constructor(); } catch (e) {}
+const v37 = v35?.constructor;
+try { new v37(); } catch (e) {}
+function f39() {
+    return -1.4618325192014402e+308;
+}
+try { f39(); } catch (e) {}
+v35.toString = f39;
+function F42(a44, a45, a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f48(a49) {
+        ([]).entries;
+        return a45;
+    }
+    a44.valueOf = f48;
+    function f52(a53) {
+        try { this.setFullYear(a53, a53); } catch (e) {}
+        function f56() {
+            const o59 = {
+                [null]() {
+                    super.b;
+                },
+                "f": null,
+            };
+            return o59;
+        }
+        f56();
+        return f56;
+    }
+    a47.toString = f52;
+    const v61 = this?.constructor;
+    try { new v61(a46, a46, a47, "m"); } catch (e) {}
+    try { a46.toString(); } catch (e) {}
+    try { a44.replaceAll(a44, a46); } catch (e) {}
+    try { a46.toString(); } catch (e) {}
+    const v66 = a46.valueOf(a47, this, a46, this, a44);
+    v66[Symbol.toPrimitive] = f48;
+    v66.__lookupSetter__(v66);
+}
+F42.d = C3;
+const v70 = new F42("m", C34, v35);
+const v71 = v70?.constructor;
+v71.d = f19;
+v71.d = v71;
+let v72;
+try { v72 = new v71(v18, v18, v9, v30); } catch (e) {}
+v72.length = C34;
+v72.length = v72;

@@ -1,0 +1,34 @@
+class C3 {
+    #g;
+    #valueOf(a5) {
+        new Uint8ClampedArray(127);
+        new Int16Array(2085);
+        new Int32Array(5);
+        return Int32Array;
+    }
+}
+new C3();
+new C3();
+new C3();
+[745468.7137231876,4.0,-739.1991708735133,-122585.64793042059,-0.0];
+[-2.0,-1.4475499318850887e+308,2.2250738585072014e-308,-0.0,-8.012950273699845e+307,544.503153161331,1000000.0];
+const v20 = [0.19112659061844417,-1.061097116476855,543.0920450507967,-710.3388051372717];
+Object.defineProperty(Number, "toString", { writable: true, enumerable: true, value: Number });
+function f22(a23, a24) {
+    function f25() {
+        return Number;
+    }
+    function f26(a27) {
+        for (let v28 = 0; v28 < 100; v28++) {
+            f22(a27, v20);
+        }
+    }
+    Object.defineProperty(a23, "toString", { writable: true, enumerable: true, get: f25, set: f26 });
+    a24.toString = f25;
+    Number(a23);
+    return a24;
+}
+%PrepareFunctionForOptimization(f22);
+f22(Number, Number);
+%OptimizeFunctionOnNextCall(f22);
+f22();

@@ -1,0 +1,93 @@
+class C3 {
+    #b;
+    constructor(a5, a6, a7, a8) {
+        super();
+        function f9() {
+            const v10 = [];
+            v10[6] = v10;
+            const o13 = {
+                set b(a12) {
+                },
+            };
+            return a8;
+        }
+        for (let v14 = 0; v14 < 5; v14++) {
+            f9();
+            %OptimizeFunctionOnNextCall(f9);
+        }
+    }
+    static toString(a17, a18) {
+        return 1073741824;
+    }
+    /*
+    constructor(a23) {
+        super();
+        for (let v24 = 0; v24 < 25; v24++) {
+            this["p" + v24] = v24;
+        }
+    }
+    */
+    static m(a28, a29) {
+        const t30 = super.d;
+        t30[a29] <<= 536870888;
+        class C31 {
+            p(a33, a34, a35, a36) {
+            }
+        }
+        [C31];
+        return 536870888;
+    }
+}
+const v38 = new C3();
+new C3();
+const v40 = new C3();
+class C41 {
+    get e() {
+        function F43() {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = -1052649622;
+                const v48 = -(-7);
+                Math.tan(v48 ** v48);
+            } catch(e51) {
+            }
+        }
+        function F52(a54, a55) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v56 = this.constructor;
+            try { new v56(F43, a54, F43, v56); } catch (e) {}
+            new F43();
+        }
+        new F52(F43, F52);
+        var c = 536870888;
+        super[v40] = v40;
+        try {
+            v38.length = 2;
+        } catch(e61) {
+        }
+        Uint8Array.toString(Uint8Array, Uint8Array, Uint8Array, Uint8Array);
+        function F64() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.h = 9007199254740991;
+        }
+        new F64();
+        return 1073741824;
+    }
+    #h;
+}
+new C41();
+new C41();
+new C41();
+function f71(a72, a73) {
+    const o74 = {
+        ...a72,
+    };
+    o74.g = o74;
+    return f71;
+}
+f71.d = f71;
+%PrepareFunctionForOptimization(f71);
+const t89 = f71();
+t89(f71);
+%OptimizeFunctionOnNextCall(f71);
+f71();

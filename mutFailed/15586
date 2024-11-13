@@ -1,0 +1,26 @@
+let v0 = -65537;
+let v8 = new Uint16Array(1);
+new Float64Array(1);
+const v14 = new Int8Array(3243);
+new Int32Array(1099);
+new Int8Array(129);
+new Uint32Array(3235);
+const v24 = [-1000000.0,-1.0,952.4163692749257,41232.51719836402,-2.220446049250313e-16,869.918809614255,0.6566814488589754,-2.299816654271874,1000000000.0];
+for (let v25 = 0; v25 < 5; v25++) {
+    function f26() {
+        let v27 = -268435456;
+        v27 ^ v27;
+        v27++;
+        const o30 = {
+            __proto__: v24,
+        };
+        const v31 = v14.set(v27, v25, v25, o30);
+        const v32 = [v31,"1073741825",v14,v31];
+        let v34 = [[Int32Array],v32,Uint16Array,Uint16Array];
+        ({"a":v0,"buffer":v8,"length":v34,} = v8);
+        try { o30.every(); } catch (e) {}
+        return v24;
+    }
+    f26();
+    %OptimizeFunctionOnNextCall(f26);
+}

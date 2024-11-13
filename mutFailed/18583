@@ -1,0 +1,69 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a5;
+    } catch(e6) {
+    }
+    try {
+        this.g = a5;
+    } catch(e7) {
+    }
+}
+const t11 = 4294967295;
+const v8 = new t11(-13186);
+const v9 = new F3(7);
+const v10 = new F3(7);
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v10;
+    } catch(e16) {
+    }
+}
+new F11(v9, -13186, v9);
+new F11(v10, 4294967295, F3);
+let v19 = new F11(v8, 4294967295, -13186);
+try {
+    v10.a = -13186;
+} catch(e21) {
+}
+v19++;
+const v27 = new Set();
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a30;
+    } catch(e32) {
+        for (let [v33,v34] of a30) {
+            function F38(a40, a41, a42) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a40;
+                } catch(e43) {
+                }
+                try {
+                    this.g = this;
+                } catch(e44) {
+                }
+                try {
+                    this.e = a40;
+                } catch(e45) {
+                }
+            }
+            const v46 = new F38(e32, this, 1.0);
+            const v47 = new F38(v46, 1.0, 1.0);
+            new F38(v47, 7, v33);
+        }
+    }
+    this.h = v27;
+    -256n >> -256n;
+    try {
+        v27[this];
+        [WeakSet];
+        new F28();
+        this.b = Set;
+    } catch(e55) {
+    }
+}
+new F28();
+new F28();

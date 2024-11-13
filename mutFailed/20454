@@ -1,0 +1,44 @@
+function f6(a7, a8, a9) {
+    const o14 = {
+        set g(a11) {
+            new a7();
+            a11[6] = a7;
+        },
+        536870888: a9,
+        __proto__: a7,
+        [-4294967296n]: -65536,
+        "f": -16n,
+        ...a8,
+        "d": a7,
+        "h": a8,
+    };
+    return o14;
+}
+const v15 = f6(536870889n, 536870889n, -4294967296n);
+const v16 = f6(-4294967296n, -16n, 536870889n);
+v16.p31 = -4294967296n;
+f6(-16n, -4294967296n, -16n);
+const t19 = 1420;
+new t19(1420);
+v16.f;
+Object.defineProperty(v15, "f", { configurable: true, enumerable: true, get: f6, set: f6 });
+v16 % -65536;
+for (let v26 = 0; v26 < 32; v26++) {
+    v16["p" + v26] = v26;
+}
+new Float64Array(159);
+new Int32Array(82);
+function f34() {
+    return this;
+}
+new Uint8Array(1420);
+class C37 {
+    constructor(a39) {
+        function f40() {
+            return a39;
+        }
+        Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f40 });
+    }
+}
+Symbol.toPrimitive;
+Object.defineProperty(this, 536870889n, { configurable: true, enumerable: true, value: f34 });

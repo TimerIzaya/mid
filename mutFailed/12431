@@ -1,0 +1,75 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = this;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+class C7 {
+    static #f = v4;
+    static #valueOf(a9) {
+        const v12 = -Infinity;
+        ++C7;
+        const v14 = v12 && v5;
+        super.a |= a9;
+        try {
+            const t18 = 15;
+            t18.__proto__ = v5;
+        } catch(e15) {
+        }
+        Math.cos(v14);
+        15 & this;
+        return v12;
+    }
+}
+const v18 = new C7();
+const v19 = v18?.constructor;
+try { new v19(); } catch (e) {}
+new C7();
+const v22 = new v4();
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = a25?.constructor;
+    try { new v29(a26, a28, v18, a27); } catch (e) {}
+    const v31 = a25?.constructor;
+    let v32;
+    try { v32 = new v31(); } catch (e) {}
+    const v33 = v32?.constructor;
+    try { new v33(); } catch (e) {}
+    a27.a = a27;
+    a28.a = a28;
+    try {
+        %VerifyType(v18);
+        const v37 = a27 ** 268435456;
+        a27 << 268435456;
+        Math.atanh(a27);
+        v37 | a27;
+        v19.clz32(268435456);
+        this.a = a26;
+    } catch(e42) {
+    }
+}
+const v43 = new F23(v18, v5, v4, v4);
+F23 <= v22 ? F23 : v22;
+v5[6];
+const v50 = new F23(v6, v43, v5, v6);
+v50.a;
+const v52 = new F23(v4, v50, v22, v5);
+const v53 = v22?.constructor;
+try { new v53(v6, C7, v6, v22); } catch (e) {}
+let v57 = new Float32Array(55);
+const v60 = Float64Array.name;
+new Float64Array();
+50 >> 3170;
+C7.g = BigUint64Array;
+const v65 = new BigUint64Array(3170);
+let v66;
+try { v66 = v19(); } catch (e) {}
+let v67 = new Float64Array(v22);
+({"buffer":v66,"byteLength":v67,"length":v57,} = v67);
+[...v60,...v65];
+v66.slice(3170, 256);
+v57[5] &= v52;

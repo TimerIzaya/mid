@@ -1,0 +1,106 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = F0;
+    try {
+        this.c = -40252;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+const t10 = "f";
+t10[1073741824] = 4294967296;
+const v8 = new v5();
+v8.g = v8;
+new F0();
+([]).constructor;
+function f14(a15) {
+}
+const v18 = new Date();
+const o19 = {
+    __proto__: Date,
+    [3.0]: v18,
+};
+new Array(4096);
+class C22 {
+    #e;
+    static 3;
+}
+for (let i = 0; i < 10; i++) {
+    class C24 {
+        constructor(a26) {
+            const v27 = this.constructor;
+            try { new v27(); } catch (e) {}
+            let v30 = ("size").g?.[7];
+            [...v30] = "size";
+        }
+    }
+    new C24("size");
+}
+new Uint8Array(64);
+const o34 = {
+    "execution": "f",
+};
+const v36 = ["268435441","268435441","268435441"];
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v41;
+    try { v41 = this.propertyIsEnumerable(v36); } catch (e) {}
+    v41[2];
+    const v44 = this.valueOf().constructor;
+    try { new v44(a39); } catch (e) {}
+    a39.lastIndexOf();
+}
+([1000000.0,0.218433446981681,-5.0,-919787.2036172998,872389.6270716691]).pop;
+class C51 {
+}
+const v52 = [9,1073741825,-4096,10,1,4294967297,911296943,-9223372036854775808,-53393,16];
+const v53 = [2147483648,-9223372036854775808,1073741823,-5827,17147,6507,0,255,61798];
+class C54 {
+    valueOf(a56, a57) {
+        v52.length -= a56;
+        return v36 % v53;
+    }
+    1 = v52;
+    static #m(a60, a61) {
+        return 5n;
+    }
+    2916208505 = v53;
+}
+const v65 = new C54();
+let v66 = new C54();
+const v67 = new C54();
+function F68(a70, a71, a72, a73) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = C54;
+    } catch(e74) {
+    }
+}
+const v75 = new F68(v36, v52, C54, v52);
+const v76 = new F68(v52, v53, v67, v53);
+const v77 = new F68(v53, v36, v53, v53);
+function f78(a79, a80, a81) {
+    const o88 = {
+        "g": v53,
+        __proto__: a79,
+        8: a80,
+        176: a79,
+        p(a83, a84, a85) {
+            v66 = this;
+            %VerifyType(this);
+            v53["some"](a80, v52);
+            return a79;
+        },
+        "d": a81,
+    };
+    return o88;
+}
+f78(v76, v53, v65);
+f78(C54, v75);
+f78(v77);
+new Float64Array(3833);
+new BigUint64Array(254);
+for (let v97 = 0; v97 < 10; v97++) {
+    (759956410).__defineGetter__;
+}

@@ -1,0 +1,54 @@
+class C3 {
+    static {
+        const o5 = {
+        };
+        o5.c = o5;
+        new Proxy(this, o5);
+    }
+    static {
+        try { this.apply(C3, -868160665); } catch (e) {}
+        for (let v10 = 0; v10 < 32; v10++) {
+            try { ("g").trimLeft(); } catch (e) {}
+            this["g" + v10] = v10;
+        }
+    }
+}
+C3.e = C3;
+const v14 = new C3();
+const v15 = new C3(v14, v14, v14);
+const v16 = v15?.hasInstance;
+try { new v16(C3, C3); } catch (e) {}
+const v18 = new C3();
+const v19 = v18?.constructor;
+try { new v19(); } catch (e) {}
+10 >> 10;
+Uint8Array.b = Uint8Array;
+const v24 = new Uint8Array(10);
+v24[7] = v24;
+new d8(256);
+const v30 = new Float64Array(651);
+v30[461];
+class C34 {
+    static get d() {
+    }
+    c;
+    static #e = -1000000.0;
+    4294967295;
+    #a;
+}
+new C34();
+new C34();
+new C34();
+const v39 = /ywha??/gvdim;
+v39.sticky;
+const v41 = /(a)F/gvd;
+const t44 = /\1(a)[^123]/gvdimsy;
+t44[3105] = v41;
+let v43;
+try { v43 = C34.search(-1000000.0, -1000000000.0, v39); } catch (e) {}
+function f44(a45) {
+    return f44;
+}
+class C46 extends f44 {
+    #c = v43;
+}

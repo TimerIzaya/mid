@@ -1,0 +1,70 @@
+function f0() {
+    const o19 = {
+        o(a5, a6) {
+            const v7 = a5 != -268435456;
+            const v8 = -this;
+            function F9(a11, a12, a13, a14) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.h = 65535;
+                } catch(e15) {
+                }
+            }
+            const v16 = new F9(v8, a6, F9, -124792.6210651003);
+            const v17 = new F9(this, v7, 65535, 65535);
+            new F9(v17, a5, this, v17);
+            return v16;
+        },
+    };
+    return o19;
+}
+const v20 = f0();
+const v21 = f0();
+const v22 = v20();
+function f23(a24, a25) {
+    const o33 = {
+        "c": a25,
+        __proto__: v21,
+        "f": a25,
+        valueOf(a27, a28) {
+            try { a28.o(a28, a28, v21); } catch (e) {}
+            return 5.0;
+        },
+        ...v20,
+        "a": a25,
+        1073741824: a24,
+        "b": v20,
+    };
+    return o33;
+}
+const v34 = f23(v20, v20);
+const v35 = f23(v22, v20);
+const v36 = f23(v21, v21);
+function f40(a41, a42, a43, a44) {
+    const o50 = {
+        get d() {
+            new f0(a41, this, this, a44);
+            if (v34) {
+                b = a41;
+            } else {
+                super[this] = this;
+                typeof v22 === "object";
+            }
+            return v20;
+        },
+        "g": 1,
+        __proto__: a44,
+    };
+    return o50;
+}
+f40(v34, v21, v22, 10000);
+f40(v36, v20, v21, 10000);
+f40(v35, v22, v20, 10000);
+class C55 {
+    constructor(a57) {
+        let v58 = "atan2";
+        try { a57[v58](); } catch (e) {}
+        v58++;
+    }
+}
+new C55(30492);

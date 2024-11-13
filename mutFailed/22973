@@ -1,0 +1,53 @@
+const v1 = new WeakSet();
+function f2(a3) {
+    const o9 = {
+        __proto__: v1,
+        valueOf(a5) {
+            let v6;
+            try { v6 = v1.add(a3); } catch (e) {}
+            try {
+                super.p(this, a5, v1, this);
+            } catch(e8) {
+            }
+            return v6;
+        },
+        "h": v1,
+        "c": a3,
+        "e": v1,
+        10: a3,
+        ...a3,
+        6: a3,
+    };
+    return o9;
+}
+f2(f2(WeakSet));
+const v12 = f2(v1);
+1283779522 - 1283779522;
+const v17 = [5,-5828,-9007199254740992,203846358,268435439,487859878,16];
+v17.g = v17;
+const v18 = [-10,-2147483647,1073741825,38879,35478,65535];
+const v20 = [[38897,2,-8388,1024,43834,128,51916,-14],v12,v18,WeakSet,WeakSet];
+const v21 = [v18,WeakSet,v20,v1,v20];
+v21[3] = v21;
+[f2];
+const v23 = /8\x01/guis;
+v23.dotAll = v23;
+const v24 = /a\sc/gm;
+v24[Symbol.toPrimitive] = f2;
+const v27 = v24?.test;
+try { new v27(v24); } catch (e) {}
+function f29(a30) {
+    a30[Symbol.toPrimitive] = Symbol;
+    const o35 = {
+        n(a34) {
+            return a34;
+        },
+        [a30]: a30,
+    };
+    return a30;
+}
+const v36 = f29(v24);
+v36.dotAll = v36;
+f29();
+const v38 = f29(v23);
+v38.b = v38;

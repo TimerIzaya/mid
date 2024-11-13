@@ -1,0 +1,28 @@
+Array.toString = Array;
+const v5 = new Array(9);
+v5[4] = v5;
+class C9 extends Array {
+    m(a11, a12) {
+        Array.__proto__;
+        this[16] = 154098443;
+        return 154098443;
+    }
+    static #c;
+    [v5];
+    [1] = 154098443;
+    [255] = 475545971;
+    [Array];
+}
+new C9();
+new C9();
+new C9();
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = Array;
+    const v23 = this.constructor;
+    let v24;
+    try { v24 = new v23(a20); } catch (e) {}
+    typeof v24 < "symbol";
+}
+new F17(F17, F17, F17, F17);
+new F17();

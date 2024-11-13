@@ -1,0 +1,27 @@
+class C3 {
+    static {
+        super.b = C3;
+        const v6 = new WeakMap();
+        v6[C3.species];
+    }
+    static 268435439;
+    2147483647;
+    [4n];
+    static #h;
+    static #f = 0n;
+}
+const v10 = new C3();
+new C3();
+new v10();
+new Uint32Array(6);
+new Int32Array(10);
+new BigUint64Array(64);
+function F22() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v25 = new BigUint64Array();
+const o35 = {
+    [v25](a30, a31, a32, a33) {
+        a30 < a30;
+    },
+};

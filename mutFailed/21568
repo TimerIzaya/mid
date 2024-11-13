@@ -1,0 +1,44 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 37608398n;
+    } catch(e10) {
+    }
+    try {
+        this.d = -13n;
+    } catch(e11) {
+    }
+    try {
+        this.c = 37608398n;
+    } catch(e12) {
+        for (let i14 = 0; i14 < 6; i14++) {
+            Reflect.construct(a8, [a9], F6);
+        }
+    }
+}
+const v23 = new F6("deref", -13n);
+new F6("find", 37608398n);
+const v25 = new F6("find", 37608398n);
+function f26() {
+    return v23;
+}
+const t24 = "deref";
+t24[F6] = "m";
+let {"c":v28,"length":v29,} = "deref";
+const t27 = "find";
+t27[10] = v25;
+const v31 = [e,"deref"];
+const v32 = ("deref").padStart;
+Reflect.apply(v32, "deref", v31);
+const v37 = /[.ma\Sc]/vdimsy;
+Reflect[536870887];
+delete e?.[v32];
+d = v25;
+const o41 = {
+    "getOwnPropertyDescriptor": f26,
+};
+new Proxy(Reflect, o41);
+const v44 = v37.exec(v37);
+const o46 = {
+};
+gc(v44);

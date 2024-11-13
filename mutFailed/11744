@@ -1,0 +1,89 @@
+[[]];
+const o5 = {
+};
+const v8 = new BigInt64Array(5);
+function f9() {
+    return v8;
+}
+function F10(a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a12;
+    } catch(e13) {
+    }
+}
+const v14 = new F10(17292.143441658);
+v14[Symbol.toPrimitive] = f9;
+const v17 = new F10(-74.91396935588114);
+const v18 = new F10(588088.0095762925);
+function f19(a20, a21, a22, a23) {
+    function f24() {
+        for (let v25 = 0; v25 < 100; v25++) {
+            Symbol(a22);
+        }
+        return a22;
+    }
+    a20.toString = f24;
+    const o46 = {
+        ...v14,
+        __proto__: a21,
+        [a20](a28, a29, a30, a31) {
+            const o35 = {
+                "type": "async",
+            };
+            new BigUint64Array();
+            Math.asin(a21);
+            Math.log2(a20);
+            Math.max(-659720212);
+            Math.cos(a21);
+            !a20;
+            -659720212 && a21;
+            a28 * a28;
+            return a23;
+        },
+    };
+    return o46;
+}
+const v47 = f19(v14, v17, 17292.143441658, -74.91396935588114);
+function f48(a49, a50) {
+    const o54 = {
+        [a49](a52, a53) {
+        },
+    };
+    return o54;
+}
+f19(v14, f19(v18, -74.91396935588114, 17292.143441658, v47), -74.91396935588114, v17);
+class C57 extends f19 {
+    set d(a59) {
+        const o62 = {
+            "maxByteLength": 268435441,
+        };
+        const v64 = new ArrayBuffer(104, o62);
+        new Int32Array(v64);
+    }
+    #h;
+    #e = 17292.143441658;
+    static #d;
+    #g = f19;
+}
+new C57();
+new C57();
+new C57();
+function f71() {
+    function f72() {
+        let v74 = -16n;
+        function f75() {
+            v74 *= -1911645276n;
+            return -1911645276n;
+        }
+        f75();
+        f75();
+        f75();
+    }
+    return f72;
+}
+function f79(a80) {
+    return a80;
+}
+Object.defineProperty(WeakSet, Symbol.iterator, { configurable: true, enumerable: true, get: f71, set: f79 });
+try { new BigInt64Array(WeakSet); } catch (e) {}

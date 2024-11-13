@@ -1,0 +1,75 @@
+const v0 = [-2.2250738585072014e-308,2.2250738585072014e-308];
+function f1(a2, a3) {
+    try {
+        v0.length = a2;
+    } catch(e4) {
+    }
+    return v0;
+}
+Object.defineProperty(v0, "toString", { value: f1 });
+const v5 = [1000000.0,-42861.46207383415];
+function f6() {
+    function f7() {
+        return f1;
+    }
+    return f1;
+}
+v5[Symbol.toPrimitive] = f6;
+const v10 = [-2.1165693837264588,-0.0];
+function f11(a12) {
+    const o18 = {
+        "b": v0,
+        [v0](a14, a15) {
+            a15[this];
+            v5 >>> a14;
+            return v5;
+        },
+        [-1]: v10,
+        "f": v0,
+        65535: v5,
+        __proto__: v5,
+        "d": v0,
+    };
+    try { o18.flat(); } catch (e) {}
+    return o18;
+}
+const v20 = f11(v0);
+try { v20.copyWithin(v5, v5); } catch (e) {}
+const v22 = f11(v10);
+v22[65535] = v22;
+const v23 = f11(v5);
+class C24 extends f11 {
+    set e(a26) {
+    }
+    #c = v0;
+    #d;
+    static c = v20;
+    1073741823 = f11;
+    [v23];
+    [v10] = v0;
+}
+C24.name;
+new C24();
+const v32 = new C24();
+const v33 = v32[1];
+new C24();
+const v35 = [-4294967295];
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.length = v33;
+    const v38 = this?.constructor;
+    try { new v38(); } catch (e) {}
+}
+const v40 = new F36();
+v40.length = v40;
+v40.length;
+const v42 = new F36();
+let v45 = -1e-15;
+Math.atan2(v45++, -175950080);
+const o49 = {
+    "h": v42,
+    6: v42,
+    128: undefined,
+    "e": v35,
+    "e": v40,
+};

@@ -1,0 +1,53 @@
+function f0() {
+}
+const v2 = [f0,f0,f0,[f0]];
+const v3 = [v2];
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v3;
+    } catch(e7) {
+    }
+}
+new F4(v2);
+new F4(v3);
+new F4(v2);
+const o21 = {
+    1073741825: "MIN_VALUE",
+};
+function F28(a30, a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v39 = 0; v39 < 100; v39++) {
+        const o44 = {
+            968: a30,
+            "d": undefined,
+            [268435439n]: a32,
+            __proto__: a31,
+            "g": a32,
+            "b": -4294967296n,
+            "f": this,
+            valueOf(a43) {
+                return v39;
+            },
+        };
+        o44[1] = o44;
+        function f45(a46, a47, a48) {
+            const o56 = {
+                toString(a50, a51, a52) {
+                    a47 < this;
+                    return super[a48];
+                },
+                get d() {
+                    return o21;
+                },
+            };
+            return o56;
+        }
+        a31();
+        f45();
+    }
+    268435439 >> -9223372036854775808;
+}
+new F28("n");
+new F28();
+new F28();

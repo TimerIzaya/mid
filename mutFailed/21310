@@ -1,0 +1,68 @@
+function f0() {
+    const o8 = {
+        [-2]: "toString",
+        __proto__: "toString",
+        "constructor": -9007199254740990,
+        ["toString"](a5, a6) {
+            const o7 = {
+                [a5]: a6,
+                __proto__: "toString",
+                "b": "toString",
+            };
+            return this;
+        },
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+let v11 = f0();
+function f15() {
+    return v10;
+}
+class C16 extends f15 {
+    get h() {
+        v11 = this;
+        let v18;
+        try { v18 = f0(...this, this, v10, -4.0); } catch (e) {}
+        v18 /= v18;
+        Object.defineProperty(v9, "b", { enumerable: true, value: this });
+        return -4.0;
+    }
+    static 10;
+    static h = v9;
+    #g;
+}
+new C16();
+new C16();
+new C16();
+const v23 = [0.0,-2.220446049250313e-16];
+let v24;
+try {
+const t0 = 16;
+v24 = t0();
+} catch (e) {}
+function f25() {
+    return f25;
+}
+class C26 extends f25 {
+}
+class C27 {
+    constructor(a29, a30) {
+        /W(jy2)/udy.flags;
+        let v35 = v23[v24];
+        v35 **= Uint8Array;
+        function f36(a37, a38, a39, a40) {
+            return a38;
+        }
+        for (let v41 = 0; v41 < 625; v41++) {
+            f36(Uint8Array, 2, v41);
+            try {
+                a29 &= C26;
+            } catch(e43) {
+            }
+        }
+    }
+}
+new C27();
+new C27();

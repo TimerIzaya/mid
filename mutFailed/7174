@@ -1,0 +1,57 @@
+function f6() {
+    return -1352285429;
+}
+function f7(a8, a9) {
+    const o16 = {
+        "d": a8,
+        [-2]: a9,
+        set h(a11) {
+            const o13 = {
+                "apply": f6,
+                "defineProperty": f6,
+                "deleteProperty": f6,
+                "getOwnPropertyDescriptor": f6,
+                "getPrototypeOf": f6,
+                "set": f6,
+                "setPrototypeOf": f6,
+            };
+            new Proxy(this, o13);
+        },
+    };
+    return o16;
+}
+f7(775554.8412933704, 1.0);
+f7(1.0, 1.0);
+f7(0.18196688601879885, 1.0);
+const v24 = new Set();
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v26 = this;
+    v26.h = a28;
+    function f29(a30, a31, a32, a33) {
+        f7(a32, v26 = a27);
+        return a33;
+    }
+    f29(0.18196688601879885, 0.0, a27, v26);
+    function f36() {
+        const v37 = new f36();
+        for (let v38 = 0; v38 < 32; v38++) {
+            v37["p" + v38] = v38;
+        }
+        let v42 = 10 << 10;
+        --v42;
+        return v37;
+    }
+    Object.defineProperty(v26, Symbol.toPrimitive, { writable: true, value: f36 });
+    v26.h = v24;
+    try {
+        const v46 = v24[v26];
+        try {
+            new F25(v46);
+        } catch(e48) {
+        }
+    } catch(e49) {
+    }
+}
+new F25(Set, f7);
+new F25();

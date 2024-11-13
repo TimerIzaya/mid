@@ -1,0 +1,99 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 9007199254740992;
+    } catch(e3) {
+    }
+    try {
+        this.e = 9007199254740992;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+function f6() {
+    function F10(a12, a13) {
+        if (!new.target) { throw 'must be called with new'; }
+        a12.trimLeft().strike();
+        const v16 = this.constructor;
+        try { new v16("a", "a"); } catch (e) {}
+    }
+    new F10("-2147483648", "yRMy");
+    return F0;
+}
+v5.toString = f6;
+const v19 = new F0();
+v19.length = v19;
+new F0();
+class C21 {
+    #c = F0;
+    constructor(a23, a24) {
+        a24.constructor = f6;
+        this[129];
+        a23.length;
+        const v27 = a24?.constructor;
+        v27.toString = f6;
+        try { new v27(); } catch (e) {}
+        super[a23] = v5;
+        super.b;
+        try {
+            a23.#c;
+        } catch(e31) {
+            e31.message;
+        }
+    }
+    static g = C21;
+    #f = v19;
+    129;
+}
+Object.defineProperty(C21, Symbol.split, { configurable: true, enumerable: true, value: f6 });
+try { C21.toString(); } catch (e) {}
+const v36 = new C21(C21, v5);
+new C21(v19, C21);
+const v38 = new C21(v5, v5);
+v38[129] = v38;
+("random")[4];
+try { ("2").split(C21, F0); } catch (e) {}
+class C44 extends F0 {
+    get g() {
+        function f46(a47) {
+            return this;
+        }
+        class C48 extends f46 {
+            [-1] = C21;
+            [F0] = v36;
+        }
+        return "random";
+    }
+    static [C21] = C21;
+    ["random"] = "2";
+}
+try { new C44(); } catch (e) {}
+new C44();
+new C44();
+new C44();
+class C53 {
+}
+C53.name = C53;
+const v54 = new C53();
+const v55 = v54?.constructor;
+try { new v55(); } catch (e) {}
+const v57 = new C53();
+const v58 = new C53();
+class C59 extends C53 {
+    constructor(a61, a62) {
+        super();
+        try {
+            v54.__proto__ = C53;
+        } catch(e63) {
+        }
+        const v64 = new C53();
+        const v65 = v64?.constructor;
+        try { new v65(); } catch (e) {}
+    }
+}
+const v67 = new C59(v58);
+v67.length = v57;
+v67.length;
+new C59(v67, v67);
+new C59();
+new C53();

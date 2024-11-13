@@ -1,0 +1,26 @@
+const v2 = new Int16Array(1);
+new Float64Array(2692);
+new BigInt64Array(2);
+[Float64Array,2];
+[[1,v2,v2],Int16Array];
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    function F17(a19, a20, a21, a22) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v23 = new this();
+    const v26 = new BigInt64Array(4046);
+    function f27(a28, a29) {
+        Object.defineProperty(v23, v23, { configurable: true, enumerable: true, get: f27 });
+        const o31 = {
+            get e() {
+                return a14;
+            },
+        };
+        [,...a14] = v26;
+        return a28;
+    }
+    f27();
+}
+new F12(F12, F12, F12);
+new F12();

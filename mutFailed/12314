@@ -1,0 +1,38 @@
+class C3 {
+    static {
+        const o7 = {
+            "execution": "async",
+        };
+        gc(o7).then();
+        let v11;
+        try { v11 = this["toString"](-1.0); } catch (e) {}
+        try { v11(0.668200484372443); } catch (e) {}
+        const t9 = "toString";
+        t9["toString"] = 1e-15;
+    }
+    static get h() {
+        try {
+            super.valueOf(this, 1e-15, 0.668200484372443, this, -1.0);
+        } catch(e15) {
+        }
+        this.__proto__;
+        return this;
+    }
+}
+new C3();
+new C3();
+new C3();
+new Uint8ClampedArray(9);
+new Uint8ClampedArray(129);
+new Int32Array(255);
+for (let v29 = 0; v29 < 5; v29++) {
+    function f30() {
+        const v32 = Symbol.for();
+        const o33 = {
+            [v32]: f30,
+        };
+        return f30;
+    }
+    f30();
+    %OptimizeFunctionOnNextCall(f30);
+}

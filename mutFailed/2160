@@ -1,0 +1,101 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = this;
+    try {
+        this.b = 1073741825;
+    } catch(e3) {
+    }
+    try {
+        this.g = 1073741825;
+    } catch(e4) {
+    }
+    try {
+        this.c = 1073741825;
+    } catch(e5) {
+        class C6 {
+            constructor(a8, a9, a10, a11) {
+                const o13 = {
+                };
+                gc(o13);
+            }
+        }
+    }
+}
+let v15 = new F0();
+new F0();
+new F0();
+class C18 extends F0 {
+    static [F0];
+    static get e() {
+        super[this] = this;
+        this[-2];
+        return v15--;
+    }
+    static m(a23) {
+        delete a23?.b;
+        let v26 = -421579818;
+        function f27(a28) {
+            return a28;
+        }
+        class C29 extends f27 {
+            static h;
+        }
+        const v31 = --v26;
+        const v32 = v26--;
+        Math.ceil(v31);
+        const v34 = v26 / v32;
+        v31 | v34;
+        return v34 & v32;
+    }
+}
+new C18();
+const v38 = new C18();
+let v39 = 2365;
+new Float64Array(v39);
+const v45 = new BigUint64Array(1000);
+const o46 = {
+    ...v45,
+};
+new Uint32Array(219);
+new Float64Array(0);
+new C18();
+new BigUint64Array(1209);
+new Uint16Array(3);
+([5,5]).concat(5);
+("toString").match();
+const o68 = {
+    __proto__: null,
+    valueOf() {
+        return null;
+    },
+};
+new Uint16Array(64);
+const o71 = {
+    ...v38,
+};
+v39 = 1073741825;
+try {
+    const o72 = {
+    };
+    new Float64Array(o72, -9007199254740992);
+} catch(e75) {
+}
+class C76 {
+}
+class C77 extends C76 {
+    static {
+    }
+    static set d(a80) {
+    }
+    #toString(a82, a83, a84) {
+    }
+}
+const v85 = new C77();
+const v87 = new Uint8Array();
+function f88(a89, a90) {
+    new Float64Array(Float64Array);
+    return BigUint64Array;
+}
+v87.toString = f88;
+v87.c = 1073741825;
+delete v85[v87];

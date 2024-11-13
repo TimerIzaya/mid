@@ -1,0 +1,167 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f0;
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+}
+function f6(a7) {
+    const v9 = [];
+    const v10 = [0n,0n,0n,0n];
+    class C11 {
+        constructor(a13, a14) {
+            function F15(a17, a18) {
+                if (!new.target) { throw 'must be called with new'; }
+                const v19 = this?.constructor;
+                try { new v19(v10, this); } catch (e) {}
+                a18 ^ a18;
+                this.b = v9;
+            }
+            new F15();
+            new F15();
+            new F15();
+        }
+    }
+    return Date;
+}
+Date.toString = f6;
+const v25 = new Date(-9223372036854775807);
+730 >>> 730;
+new Int16Array(730);
+const v30 = new F1();
+v30.constructor = Date;
+try { v30.hasOwnProperty(v25); } catch (e) {}
+const v32 = v30?.constructor;
+let v33;
+try { v33 = new v32(); } catch (e) {}
+const v34 = v33?.hasOwnProperty;
+try { new v34(-9223372036854775807); } catch (e) {}
+const v36 = new F1();
+function f37() {
+    Date();
+    %PrepareFunctionForOptimization(Date);
+    Date();
+    Date();
+    %OptimizeFunctionOnNextCall(Date);
+    Date();
+    return v34;
+}
+v36[Symbol.toPrimitive] = f37;
+try { v36.d(); } catch (e) {}
+const v45 = new F1();
+function F49(a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    0 / 0;
+}
+let v60;
+try { v60 = new F49(v30); } catch (e) {}
+4294967296 == 4294967296;
+v30 > 1213821846;
+5 >>> 5;
+function f68(a69, a70, a71) {
+    function f72(a73, a74) {
+        a74?.[8];
+        const o78 = {
+            set b(a77) {
+            },
+        };
+        return a74;
+    }
+    a71[Symbol.toPrimitive] = f72;
+    a69 << a69;
+    !(a70 >= a70);
+    try { a71.d(); } catch (e) {}
+    const o132 = {
+        [a71]: 65536n,
+        get h() {
+            const v86 = super[a71];
+            function f89(a90, a91) {
+                const o112 = {
+                    valueOf(a93, a94) {
+                        function f95() {
+                            function f96(a97) {
+                                new Float64Array(64);
+                                new BigInt64Array(3481);
+                            }
+                            10 ^ f96(f96);
+                            return 1987035518;
+                        }
+                        const v109 = [];
+                        const o110 = {
+                            "arguments": v109,
+                            "type": "function",
+                        };
+                        new Worker(f95, o110);
+                        return 1987035518;
+                    },
+                };
+                return o112;
+            }
+            v86[a69] >>>= v33;
+            return 5;
+        },
+        "b": a71,
+        "a": 4294967296,
+        "c": f0,
+        __proto__: v36,
+        "g": v30,
+        [4n](a114, a115, a116, a117) {
+            eval();
+        },
+        [1213821846]: v30,
+        o(a121) {
+            return a121;
+        },
+        toString() {
+            super[this];
+        },
+        "g": 0n,
+        "h": 4294967296,
+        ...a71,
+        ...v36,
+        set g(a125) {
+        },
+        [v36](a127, a128, a129) {
+        },
+        set g(a131) {
+        },
+    };
+    return o132;
+}
+f68.e = f68;
+const v133 = f68(65536n, 1213821846, v45);
+v133.e = v45;
+v133.e = v133;
+const v135 = f68(0n, 1213821846, v30)?.toString;
+let v136;
+try { v136 = new v135(); } catch (e) {}
+const v137 = f68(65536n, 1213821846, v30);
+try { new Int32Array(F1, Int16Array, v136); } catch (e) {}
+Int32Array.c = Int32Array;
+const v141 = new Int32Array(127);
+function f142(a143, a144) {
+    a144.f = v60;
+    a144.b = a144;
+    let v145;
+    try { v145 = a143.toString(); } catch (e) {}
+    try { v145.strike(); } catch (e) {}
+    a144.f = a144;
+    v141.toSorted();
+    return v137;
+}
+try { f142(Date, v137); } catch (e) {}
+const v150 = new Promise(f142);
+function f151(a152) {
+    const v153 = /a\sHa*?/v;
+    v153?.toString;
+    return v153;
+}
+v150.constructor = f151;
+const v155 = v150?.then;
+try { new v155(v45, v45); } catch (e) {}
+const v157 = v150?.constructor;
+try { v157.all(f142); } catch (e) {}
+try { new v157(v45); } catch (e) {}

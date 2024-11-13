@@ -1,0 +1,64 @@
+function f0() {
+}
+function f1() {
+    const o8 = {
+        [f0]: f0,
+        [f0]() {
+            this[6] = f0;
+            Object.defineProperty(this, -1, { configurable: true, enumerable: true, value: f0 });
+            super.e %= this;
+            let {"g":v3,} = this;
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            const v5 = f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            f0();
+            return v5;
+        },
+    };
+    return o8;
+}
+const v9 = f1();
+const v10 = f1();
+const v11 = f1();
+const v12 = [v10,v11,v9,f0,f1,v11];
+[v10,f0,v10,f1,[f1,v9],v10,v9];
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a23;
+    } catch(e24) {
+    }
+    try {
+        this.d = v10;
+    } catch(e25) {
+    }
+    try {
+        this.e = v11;
+    } catch(e26) {
+    }
+}
+const v30 = new Uint16Array(257);
+const v31 = 1511 - 1511;
+v30[v31] = v31;
+const v32 = new F18(50826n, 50826n, v12, -4096n);
+new F18(-4096n, 3n, v12, 50826n);
+const v34 = new F18(3n, 50826n, v32, 3n);
+class C36 {
+    b = "o";
+}
+class C37 extends C36 {
+}
+const v38 = new C37(v34, "o");
+function f39(a40, a41, a42) {
+    return f39;
+}
+const v45 = [v38];
+try { ("function")["toUpperCase"](); } catch (e) {}
+new Map("268435441");
+const o52 = {
+    "arguments": v45,
+    "type": "function",
+};
+new Worker(f39, o52);

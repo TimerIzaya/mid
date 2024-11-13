@@ -1,0 +1,70 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = this?.hasOwnProperty;
+    try { new v7(a6); } catch (e) {}
+    a6 ^ a6;
+    try {
+        this.b = a6;
+    } catch(e10) {
+    }
+    try {
+        F3.c = 52992n;
+    } catch(e11) {
+    }
+    try {
+        this.e = a6;
+    } catch(e12) {
+    }
+}
+const v13 = new F3(9007199254740992n, 3n);
+const v14 = new F3(52992n, 9007199254740992n);
+const v15 = new v14(52992n, 52992n);
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = this;
+    } catch(e20) {
+    }
+    try {
+        this.g = a19;
+    } catch(e21) {
+    }
+    try {
+        this.c = a18;
+    } catch(e22) {
+    }
+}
+const v23 = new F16(9007199254740992n, v13);
+const v24 = v23?.__defineGetter__;
+try { new v24(v14, v23); } catch (e) {}
+const v26 = new F16(3n, F16);
+const v27 = new F16(v15, v15);
+function F28(a30, a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    a31--;
+    a33.b = a33;
+    try {
+        this.h = a32;
+    } catch(e35) {
+    }
+}
+const v36 = new F28(v27, 9007199254740992n, 3n, v26);
+v36.h;
+new F28(v23, 3n, 9007199254740992n, v27);
+new F28(v27, 3n, 3n, v27);
+F3.h;
+class C41 {
+}
+const v42 = new C41();
+const v43 = v42?.constructor;
+try { new v43(); } catch (e) {}
+const v45 = new C41();
+try { v45.__defineSetter__(F28, v15); } catch (e) {}
+const o47 = {
+};
+o47.e = o47;
+o47.b = v42;
+const o48 = {
+};
+o48.f = o48;
+Object.defineProperty(o48, "b", { writable: true, value: v45 });

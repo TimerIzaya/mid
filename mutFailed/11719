@@ -1,0 +1,27 @@
+new Int8Array(2);
+function f5(a6, a7) {
+    eval("-9007199254740990");
+    return a6;
+}
+Int8Array.toString = f5;
+Int8Array.name;
+const v12 = new Int8Array(129);
+const v15 = new Float64Array(177);
+try { v15.reduce(129, v15, v15); } catch (e) {}
+const v17 = [129,Int8Array,Int8Array,Float64Array];
+const v18 = [v17,Float64Array,v17,177,Float64Array];
+try { v18.join(129); } catch (e) {}
+const v20 = [129,2,v12,v17,v17];
+([Infinity,-686.9856326146617,0.47369378110968274,-7.24289104755818]).includes([-1000.0,-2.2250738585072014e-308,511.99933163650917,-386.8372768814137,Infinity]);
+function f24() {
+    return f24;
+}
+v20[4];
+const v28 = new Int32Array(1024);
+let v29 = this;
+v29[Symbol.toPrimitive] = f24;
+const v32 = v29?.RangeError;
+try { new v32(2); } catch (e) {}
+Object.defineProperty(Reflect, "valueOf", { configurable: true, value: Symbol });
+Reflect.construct(Int32Array, [v28]);
+v29 >>>= Reflect;

@@ -1,0 +1,62 @@
+const v0 = [4294967295,-11,1000,65536,2147483647];
+const v1 = [0,64,-14,127,3,-1073741824,536870888,-11,8,-5];
+const v2 = [129,-174844873,10000,1,-9007199254740990,-9];
+function f3() {
+    function f4(a5) {
+        let v7 = 257;
+        const v9 = +v7;
+        v7++;
+        const v11 = !v9;
+        v11 && v7;
+        Math.clz32(v11);
+        v11 >> v11;
+        return v2;
+    }
+    return f4;
+}
+Object.defineProperty(v2, Symbol.toPrimitive, { get: f3 });
+function f17() {
+    return v0;
+}
+function f18(a19, a20) {
+    Object.defineProperty(a20, "toString", { writable: true, value: Symbol });
+    const o29 = {
+        [a20]: a20,
+        valueOf(a22, a23, a24) {
+            const v26 = [];
+            Reflect.apply(v1.isConcatSpreadable, a19, v26);
+            return f17;
+        },
+        "h": a20,
+        "d": a20,
+        "c": f17,
+        "a": f17,
+    };
+    o29[Symbol.toPrimitive] = f18;
+    return o29;
+}
+const v32 = f18(v2, v2);
+const v33 = f18(v1, v1);
+f18(v1, v0);
+function f35(a36, a37) {
+    function f38() {
+        Array();
+        return v1;
+    }
+    a37[Symbol.toPrimitive] = f38;
+    const o54 = {
+        [a37]: v2,
+        [a36](a44, a45, a46) {
+            const v47 = super[v1];
+            a37 | 736443412;
+            -(-v47);
+            return v47;
+        },
+        "c": a36,
+    };
+    o54.toString = Symbol;
+    return o54;
+}
+f35(v32, v32);
+f35(f35(v33, v1), v32);
+URIError(4, 9);

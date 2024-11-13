@@ -1,0 +1,48 @@
+1e-15 << 1e-15;
+function f7(a8, a9) {
+    const o19 = {
+        __proto__: "caller",
+        m(a11, a12, a13) {
+            return a8 instanceof a9;
+        },
+        [1e-15](a16, a17) {
+            try {
+                const t9 = "caller";
+                t9.c = -529.8439876173642;
+            } catch(e18) {
+            }
+            return a9;
+        },
+    };
+    return o19;
+}
+f7.arguments;
+const v21 = f7(938.9750429634419, f7);
+try { v21.m(938.9750429634419, v21, 938.9750429634419); } catch (e) {}
+f7(938.9750429634419, f7(f7, 938.9750429634419));
+const v25 = [0.6962759092984843];
+try { v25.slice(-529.8439876173642, v25); } catch (e) {}
+let v27 = [4.55590263310031,1e-15,2.220446049250313e-16,4.0,3.0];
+class C28 {
+    constructor(a30, a31, a32, a33) {
+        a30--;
+        v27 = a31;
+    }
+}
+const v35 = new C28(938.9750429634419, C28, C28, v25);
+const v36 = v35?.constructor;
+let v37;
+try { v37 = new v36(C28, v35, -529.8439876173642, v35); } catch (e) {}
+new C28(v25, v37);
+class C39 {
+    constructor(a41, a42) {
+        const v43 = this?.constructor;
+        try { new v43(v21, v25); } catch (e) {}
+        const v46 = v27.unshift(v35, a42, [this,this]);
+        v46 % v46;
+    }
+}
+new v25();
+const v49 = new C39();
+const v50 = v49?.constructor;
+try { new v50(938.9750429634419, 938.9750429634419); } catch (e) {}

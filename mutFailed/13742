@@ -1,0 +1,88 @@
+const v0 = /\P{Decimal_Number}a+(\2)(\1)/vmy;
+const v1 = /a(?!b)?/gvdm;
+/ab|c/udims;
+function f3(a4, a5, a6, a7) {
+    function f9() {
+        const o17 = {
+            84: arguments,
+            set b(a12) {
+            },
+            ["Vre"](a14, a15) {
+                super[f9];
+            },
+        };
+        return f3;
+    }
+    f9();
+    %OptimizeFunctionOnNextCall(f9);
+    return a6;
+}
+class C22 {
+    static #e;
+    static {
+        this[Symbol.hasInstance];
+    }
+    a = 1000000000.0;
+    static #h = v1;
+    static n(a28, a29, a30, a31) {
+        const o45 = {
+            "execution": "sync",
+            "type": "minor",
+            "type": "minor",
+            "type": "minor",
+            ...a28,
+            valueOf(a36, a37) {
+                function f38() {
+                    return a37;
+                }
+                const o41 = {
+                    "type": "function",
+                };
+                const v42 = new Worker(f38, o41);
+                const v43 = v42.postMessage;
+                try { v43(); } catch (e) {}
+                return this;
+            },
+        };
+        gc(o45);
+        return this;
+    }
+}
+new C22();
+new C22();
+const v49 = new C22();
+class C50 {
+    static get a() {
+        try { this.toString(v0, v49, this, C22); } catch (e) {}
+        const v55 = [-1000000.0,1.2447871437442695e+308,2.0,-1.7099107331057683e+308,0.0];
+        function F56() {
+            if (!new.target) { throw 'must be called with new'; }
+            const v58 = this.constructor;
+            let v59;
+            try { v59 = new v58("constructor", "constructor", v58, v58); } catch (e) {}
+            const v60 = this.valueOf(F56);
+            switch (v55) {
+                case "constructor":
+                    v60 < v59;
+                    break;
+            }
+        }
+        const o65 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        return gc(o65);
+    }
+}
+new C50();
+new C50();
+new C50();
+const v72 = -4294967296n * 9007199254740991n;
+class C74 {
+}
+new Uint32Array(C74, -1, -1);
+function F77(a79) {
+    if (!new.target) { throw 'must be called with new'; }
+    a79 ^ a79;
+}
+new F77(v72);

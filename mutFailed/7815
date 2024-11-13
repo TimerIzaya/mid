@@ -1,0 +1,54 @@
+new Int8Array(3585);
+const v5 = new Uint16Array(127);
+const v8 = new BigUint64Array(1024);
+class C9 extends Int8Array {
+    get b() {
+        const v11 = super[BigUint64Array];
+        try {
+            this.filter(v11);
+        } catch(e13) {
+        }
+        return 127;
+    }
+    static toString(a15, a16, a17) {
+        const v18 = super[a17];
+        try {
+            this.g = v18;
+        } catch(e19) {
+        }
+        return a17;
+    }
+}
+const v20 = new C9();
+const v21 = new C9(v8, v20);
+const v22 = new C9();
+function f23(a24, a25, a26) {
+    const o32 = {
+        "f": Int8Array,
+        set b(a28) {
+        },
+        [v21]: v5,
+        [C9]: 127,
+        "d": C9,
+        [BigUint64Array]: Int8Array,
+        "h": a25,
+        ...v21,
+        "g": a24,
+        2600: Int8Array,
+    };
+    return o32;
+}
+f23(v22, 1024, 3585);
+f23(v20, 127, 127, Int8Array);
+f23(v21, 1024, 127);
+function f36() {
+}
+class C37 extends f36 {
+    toString(a39, a40) {
+        const v41 = this.constructor;
+        new v41(a40, v41, this, v41, C37, a40, v41);
+        -this;
+    }
+}
+const v44 = new C37();
+try { v44.toString(); } catch (e) {}

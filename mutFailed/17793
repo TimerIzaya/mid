@@ -1,0 +1,104 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = this;
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.d = f0;
+    } catch(e4) {
+    }
+    try {
+        this.e = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new F1();
+const v8 = v7?.e;
+try { new v8(); } catch (e) {}
+try { v7.e(); } catch (e) {}
+function f11() {
+    function f12(a13, a14, a15) {
+        do {
+        } while ((() => {
+                const v18 = 2147483648 < 7;
+                const v19 = !v18;
+                v19 && v19;
+                return v18;
+            })())
+        f12(2147483648, f12, 2147483648);
+        return 2147483648;
+    }
+    return f12;
+}
+try { new f11(); } catch (e) {}
+const v24 = Symbol.toPrimitive;
+v7[v24] = f11;
+Symbol.a = Symbol;
+v7[Symbol.toPrimitive] = f0;
+const v27 = new F1();
+-1n ^ -1n;
+6n >> 6n;
+let v32 = 11n;
+v32 * v32;
+v32--;
+class C35 extends F1 {
+    [v7] = v6;
+    static n(a37, a38, a39, a40) {
+        const v43 = new Array(255);
+        try {
+            super.toString(255, this, v43, a39);
+        } catch(e45) {
+        }
+        return a39;
+    }
+    f = 6n;
+    b = v27;
+}
+try { new C35(); } catch (e) {}
+const v47 = new C35();
+const v48 = v47?.h;
+try { new v48(); } catch (e) {}
+const v50 = new C35();
+v50.b = v50;
+new C35();
+[-4,536870889,-536870912,536870887,7,4294967297,1774644855,1000];
+const v53 = [2147483647,-1711771257];
+let v54;
+try { v54 = v53.fill(C35); } catch (e) {}
+try { v54.push(f11); } catch (e) {}
+[536870887,268435441,58527,2,-4,127];
+const o75 = {
+    [null]() {
+        try { this.null(); } catch (e) {}
+        const v60 = /W(jy2)/udy;
+        let v61;
+        try { v61 = v60.test(v47); } catch (e) {}
+        !v61;
+        Uint8Array.length = Uint8Array;
+        const v64 = new Uint8Array();
+        for (let v65 = 0; v65 < 500; v65++) {
+            const o69 = {
+                ...v64,
+                n(a67, a68) {
+                },
+            };
+            let v70;
+            try { v70 = o69.propertyIsEnumerable(v24); } catch (e) {}
+            !v70;
+        }
+        for (let v72 = 0; v72 < 5; v72++) {
+            const v73 = v72 === v60;
+            v73 && v73;
+        }
+    },
+};
+const v76 = o75?.null;
+try { new v76(); } catch (e) {}
+try { o75.null(); } catch (e) {}
+o75.null(o75);
+o75.null(o75, o75, o75, o75);

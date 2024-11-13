@@ -1,0 +1,62 @@
+let v1 = 0n;
+let v2 = -1024n;
+class C3 {
+    set c(a5) {
+        v2 = v1;
+        v1 = C3;
+        %VerifyType(this);
+        a5 += v1;
+    }
+    m(a10) {
+        let v11;
+        try { v11 = new this(a10, -490778482n, this); } catch (e) {}
+        this.c |= v11;
+        return a10;
+    }
+    static 1;
+    static h = -490778482n;
+    static #f = v2;
+}
+new C3();
+new C3();
+const v14 = new C3();
+const v16 = [1.7976931348623157e+308,0.15227894183030433,-2.0,259880.3330397869,0.0,-1e-15,360683.0243419355,-1e-15,1.7976931348623157e+308];
+const v17 = [0.03568519099872258];
+[462318.599710946,0.6123807977566038,-0.0,-108306.02593608841,Infinity,0.0,-4.0,-1000.0];
+class C19 {
+    static 3518;
+    static 2147483648;
+    static #valueOf(a21, a22) {
+        v14[null] ||= a21;
+        const v23 = v17.__proto__;
+        try { v23(this, a21, v2, v23, this); } catch (e) {}
+        return v17;
+    }
+    [v2] = v2;
+    2;
+    static #f;
+    static [C19];
+    #a;
+    static [C3] = v17;
+    [v16] = C19;
+    static #h = null;
+    #a = null;
+}
+new C19();
+new C19();
+new C19();
+const v30 = new Uint8Array();
+function f31(a32, a33, a34, a35) {
+    a34++;
+    const v37 = a34++;
+    const v38 = a34 % a34;
+    const o39 = {
+        ...v30,
+    };
+    let v40;
+    try { v40 = o39.n(v38, v37); } catch (e) {}
+    return v40;
+}
+for (let v41 = 0; v41 < 500; v41++) {
+    f31(Uint8Array, 2, v41);
+}

@@ -1,0 +1,13 @@
+new Int16Array(1);
+new Int32Array(257);
+const t2 = 60;
+new t2(60);
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = (1.2383345280120462e+308).constructor;
+    let v30;
+    try { v30 = new v29(a25, a28); } catch (e) {}
+    typeof v30 === "symbol";
+}
+const v34 = new F23(65537, 1073741824, 0.19443453377416953, F23);
+new F23(Date, 0.19443453377416953, 1073741824, v34);

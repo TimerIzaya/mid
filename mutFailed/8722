@@ -1,0 +1,111 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        get h() {
+            %VerifyType(this);
+            this << f0;
+            return f0;
+        },
+        "h": f0,
+        __proto__: f0,
+        "d": f0,
+        "f": f0,
+        ...f0,
+    };
+    return o4;
+}
+const v5 = f1();
+const v6 = f1();
+const v7 = f1();
+function f11(a12, a13) {
+    const o20 = {
+        "h": a13,
+        2: a12,
+        "b": "543905523",
+        __proto__: a13,
+        get c() {
+            const o18 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o18);
+            return "minor";
+        },
+    };
+    return o20;
+}
+const v21 = f11(v6, "n");
+const v22 = f11(v7, "543905523");
+const v23 = f11(v6, "n");
+function f24() {
+}
+class C28 {
+    valueOf(a30) {
+        try {
+            f24();
+        } catch(e32) {
+        }
+        return this;
+    }
+    static {
+        let v33 = this;
+        try { v33.call(-65535); } catch (e) {}
+        v33[2769597849] = v33;
+        v33 &= v33;
+        const v35 = [0.5056701084838725,-61629.798017403926,NaN,864.4381894698445,2.220446049250313e-16,783231.8077183717];
+        const v38 = new BigUint64Array();
+        try {
+            v38[16] = v35;
+        } catch(e39) {
+        }
+        C28[7] = v33;
+        super.h = -13676;
+        super.e ||= -65535;
+        const v40 = C28.__proto__;
+        try { v40.call(-13676); } catch (e) {}
+        try { new v40(v38, v22, v33, -13828, C28); } catch (e) {}
+        new f0();
+        try {
+            v33.length = 1;
+        } catch(e48) {
+        }
+    }
+}
+const v49 = new C28();
+const o50 = {
+    __proto__: v22,
+    536870888: v5,
+    "f": v22,
+};
+const v51 = new C28();
+v23["543905523"] -= -65535;
+v22 | v49;
+Object.defineProperty(v7, "n", { writable: true, enumerable: true, set: f1 });
+v21[o50] = v49;
+v22[10] |= -13676;
+const v53 = v51?.constructor;
+try { new v53(); } catch (e) {}
+new C28();
+[1918646213,-4294967296,621719820,-1266287062,-16,9007199254740990,-1073741824,-2147483648,5,1024];
+[871134084,-36561,5,-1,4294967296];
+[5446,9,-9,6529];
+[-3.8605023531436338,1000000.0,0.7554357075872085,-5.355373064713385,-1000000000.0,-4.0,5.866877237178829e+307,2.2250738585072014e-308];
+[Infinity,1000000000.0,NaN,2.220446049250313e-16,9.482037153001748,-1000.0];
+[1.0845227255478667e+308,5.0,-567668.3225691885,1.0,580930.443597048,4.8679168603622855,2.220446049250313e-16,Infinity];
+new Set();
+function F64(a66, a67, a68, a69) {
+    if (!new.target) { throw 'must be called with new'; }
+    eval();
+    function F72(a74) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+}
+const o76 = {
+    "a": f1,
+    "g": -65535,
+    [Set]: v7,
+    4: "7123",
+    "f": -65535,
+};
+gc(o76);

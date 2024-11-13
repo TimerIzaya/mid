@@ -1,0 +1,66 @@
+const v2 = new Array(1867);
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a5;
+    } catch(e7) {
+    }
+    try {
+        this.a = a5;
+    } catch(e8) {
+    }
+    try {
+        this.e = a6;
+    } catch(e9) {
+        function F11(a13, a14, a15) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = F11;
+            } catch(e16) {
+            }
+            try {
+                this.h = a13;
+            } catch(e17) {
+            }
+            try {
+                this.f = a5;
+            } catch(e18) {
+            }
+        }
+        const v19 = new F11(a6, e9, a5);
+        new F11(v19, 1867, 1867);
+        new F11(this, v2, e9);
+    }
+}
+const v22 = new F3(v2, v2);
+const v23 = new F3(v22, Array);
+const v24 = new F3(Array, Array);
+const v25 = [v24,v22,v22,v24];
+const v26 = [1867];
+const v27 = [v26,v22,v25,F3];
+function f28(a29, a30) {
+    const o44 = {
+        "e": F3,
+        n(a32, a33, a34) {
+            new BigInt64Array(176);
+            new Int16Array(144);
+            new v22(11);
+            return v27;
+        },
+    };
+    v24[3] = a29;
+    Math.imul(1867, v23);
+    const v49 = 1.7976931348623157e+308 / 57026;
+    a30 >> 1867;
+    Math.sinh(1.7976931348623157e+308);
+    !v23;
+    Math.expm1(1867);
+    Math.sinh(v49);
+    return o44;
+}
+f28(v2, v24);
+f28(v2, v23);
+f28(v26, v24);
+let v60 = -25283n >> (-25283n && f28);
+v60--;
+~(v60 | v60);

@@ -1,0 +1,83 @@
+class C3 {
+    get c() {
+        function f5() {
+            return "function";
+        }
+        return "function";
+    }
+    constructor(a7, a8) {
+        try {
+            const t9 = "function";
+            t9.__proto__ = this;
+        } catch(e9) {
+        }
+    }
+    [-8.522234819844751] = "charAt";
+    static 2 = "charAt";
+}
+const v10 = new C3("function", C3);
+const v11 = new C3("function", "function");
+const v12 = new C3(v10, "charAt");
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a15;
+    } catch(e17) {
+    }
+    try {
+        this.f = "function";
+    } catch(e18) {
+    }
+}
+const v19 = new F13(v12, -8.522234819844751);
+new F13(v11, F13);
+new F13(v10, C3);
+function f22(a23, a24) {
+    const o37 = {
+        "f": a23,
+        256: v12,
+        ...v19,
+        ...C3,
+        set c(a26) {
+            const v27 = a26?.[7];
+            a26 ** v27;
+            f22(a26, a24);
+            %PrepareFunctionForOptimization(f22);
+            f22(a26, a24);
+            f22(a26, a24);
+            %OptimizeMaglevOnNextCall(f22);
+            f22(a26, a24);
+            delete this[this];
+            v27.construct(C3, [C3,Reflect], a24);
+        },
+        "d": v11,
+        "b": "function",
+        "c": C3,
+        "e": a24,
+    };
+    return o37;
+}
+f22(C3, "charAt");
+f22(f22(-8.522234819844751, v12), C3);
+const v42 = new Int16Array(v11, Int16Array, Int16Array);
+function f43() {
+    return f43;
+}
+class C44 extends f43 {
+    constructor(a46, a47, a48, a49) {
+        super();
+        function f50() {
+            const o51 = {
+                "g": a47,
+                ...v42,
+            };
+            return C44;
+        }
+        for (let v52 = 0; v52 < 5; v52++) {
+            const t76 = -8.522234819844751;
+            t76();
+            %OptimizeFunctionOnNextCall(f50);
+        }
+    }
+}
+new C44();

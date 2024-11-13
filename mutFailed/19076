@@ -1,0 +1,74 @@
+class C3 {
+    static ownKeys(a5, a6) {
+        try {
+            this.__proto__ = this;
+        } catch(e7) {
+        }
+        return a6;
+    }
+    g;
+    #h = -2118881166;
+    1;
+}
+const v8 = new C3(-2118881166, -20684);
+const v9 = new C3();
+v9[1] = v9;
+const v10 = new C3();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v15;
+    try { v15 = this.constructor(-2118881166, a13); } catch (e) {}
+    a14[1];
+    try {
+        this.b = v10;
+    } catch(e17) {
+    }
+    try {
+        this.f = 4294967297;
+    } catch(e18) {
+    }
+    try {
+        v15.a = a13;
+    } catch(e19) {
+    }
+}
+try { F11.bind(v9, C3, v8, -2118881166); } catch (e) {}
+new F11(v8, v8);
+new F11(v10, v8);
+function f23(a24, a25) {
+    function f26(a27, a28) {
+        a28?.__lookupGetter__;
+        a28?.constructor;
+        return f26;
+    }
+    f26(f26, a24);
+    %OptimizeFunctionOnNextCall(f26);
+    return f23;
+}
+new F11(v8, v8);
+~268435456;
+new Int8Array(268435456);
+for (let v38 = 0; v38 < 5; v38++) {
+    let v39 = 36862;
+    v39--;
+    BigUint64Array * 536870887;
+    const v45 = new Int8Array(Int8Array);
+    const v46 = new Int8Array();
+    v46.find(v45);
+    Array(v39);
+}
+function f49() {
+    return f49;
+}
+const v50 = f49.arguments;
+function f51() {
+    for (let v52 = 0; v52 < 5; v52++) {
+        const v56 = Array(36862, v50, v10 & v52);
+        v56[2] = v56;
+    }
+    return v50;
+}
+%PrepareFunctionForOptimization(f51);
+f51();
+%OptimizeFunctionOnNextCall(f51);
+f51();

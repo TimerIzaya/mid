@@ -1,0 +1,22 @@
+function f0() {
+}
+const v3 = new Proxy(58);
+new Float32Array(95);
+new Int32Array(1870, Proxy, v3, 95);
+new Int16Array(6, 58, 95);
+new Int8Array(1870);
+new BigInt64Array(3724);
+function f23(a24, a25) {
+    const o27 = {
+        [8.946504243780264e+307]: a25,
+        get g() {
+            return Int32Array;
+        },
+    };
+    a24[Symbol.isConcatSpreadable] = o27;
+    return o27;
+}
+const v30 = f23(-9.389413203732939e+306, 2.0);
+v30[Float64Array.isConcatSpreadable] = 1870;
+f23(-9.389413203732939e+306, -1000000000000.0);
+v30[Symbol.isConcatSpreadable];

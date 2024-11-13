@@ -1,0 +1,32 @@
+const v3 = [-6,-2,-2,-2,1073741824];
+const v4 = [v3,-2,-6,v3];
+const v5 = [-2,v4];
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a9;
+    } catch(e10) {
+    }
+}
+new F6(v5, -2);
+const t11 = 1073741824;
+new t11(v4, 1073741824);
+new F6(v4, 1073741824);
+const v20 = new Uint8ClampedArray();
+function f21(a22, a23) {
+    const o28 = {
+        [a22]: Float64Array,
+        4: 6,
+        "b": a22,
+        [v20](a25, a26, a27) {
+        },
+    };
+    return o28;
+}
+%PrepareFunctionForOptimization(f21);
+f21(v4);
+f21(2);
+%OptimizeFunctionOnNextCall(f21);
+f21();
+const v32 = new BigInt64Array(11);
+v32.lastIndexOf();

@@ -1,0 +1,17 @@
+function f0() {
+}
+function f4() {
+    return -1.7976931348623157e+308;
+}
+const v5 = f4?.constructor;
+try { new v5(-1.7976931348623157e+308); } catch (e) {}
+1073741823 / 1073741823;
+59620 - 59620;
+1073741823n ^ 1073741823n;
+[35345,59620,1073741823,1073741823n];
+[59620,[-1.7976931348623157e+308],268435456n];
+const v21 = new Int8Array(268435456);
+const v24 = new BigInt64Array(2001);
+v24[73] = v24;
+const v26 = eval(eval);
+try { v26.isExtensible(v21); } catch (e) {}

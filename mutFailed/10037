@@ -1,0 +1,58 @@
+function f1() {
+    const o2 = {
+        "e": null,
+        [null]: null,
+        "h": null,
+        "f": null,
+        "d": null,
+        ...null,
+        __proto__: null,
+        "g": null,
+        "c": null,
+        "b": null,
+        ...null,
+        ...null,
+        ...null,
+    };
+    return o2;
+}
+const v3 = f1();
+const v4 = f1();
+const v5 = f1();
+[0.02360976715414942,-2.749376299505899e+307];
+const v10 = [-1000000000.0,-4.565709894054115,-4.0,553.8844166769115,-1000.0,0.4474105232177362,0.9699494359236002,-1000.0];
+function f11() {
+    function f12(a13, a14) {
+        Array();
+        return 8;
+    }
+    return f12;
+}
+Object.defineProperty(v10, "toString", { writable: true, get: f11 });
+const v17 = [-0.0,-1.0,-Infinity,810.6789519079962,887.527361113659,5.0,-7.337710535276144e+307];
+function f18(a19, a20, a21, a22) {
+    const o34 = {
+        "d": -9007199254740990,
+        "g": a20,
+        ...a22,
+        "a": null,
+        [v10]: null,
+        get h() {
+            const o24 = {
+                "a": v10,
+                __proto__: this,
+                "f": a20,
+            };
+            new Float64Array(351);
+            new Int8Array(255);
+            new Uint8ClampedArray(1000);
+            return a22;
+        },
+    };
+    return o34;
+}
+f18(8, v4, v17, v5);
+f18(-9007199254740990, v3, v17, v3);
+f18(8, v3, v10, v3);
+const v40 = new BigUint64Array();
+v40[2445191368] = 268435441n;

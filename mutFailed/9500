@@ -1,0 +1,59 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -1781;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function F7(a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v10 = a9?.constructor;
+    try { new v10(); } catch (e) {}
+    try {
+        this.b = a9;
+    } catch(e12) {
+    }
+    try {
+        this.a = a9;
+    } catch(e13) {
+    }
+}
+const v14 = new F7(v5);
+v14.length;
+const v16 = new F7(v4);
+new F7(v4, v16, F7, F0);
+class C18 extends F7 {
+    static n(a20, a21, a22, a23) {
+        Object.defineProperty(v4, "g", { writable: true, enumerable: true, value: a21 });
+        delete this[146];
+        a22 **= a22;
+        const v25 = super.a;
+        super.a = v6;
+        try {
+            new F7(v4);
+        } catch(e27) {
+        }
+        return v25;
+    }
+    static [v14];
+    static 536870912;
+}
+new C18();
+const v29 = new C18();
+new C18();
+727054353 & 727054353;
+let v33 = 14;
+v33++;
+const v37 = new Date();
+v37.setUTCFullYear();
+const v40 = new Set();
+try { v40.keys(); } catch (e) {}
+const v42 = v40.has(v37);
+let [v43,,...v44] = v40;
+try { v43.setHours(727054353, v6, v29, v6); } catch (e) {}
+try { v44.findLast(v44); } catch (e) {}
+let v47 = v43.setUTCHours(v42);
+v47++;

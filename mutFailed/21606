@@ -1,0 +1,58 @@
+function f3() {
+    function f5(a6) {
+        try { a6(this, 128, "yLt", "yLt"); } catch (e) {}
+    }
+    this.onmessage = f5;
+    this[65537] = -1012765253;
+}
+const v10 = [];
+const o11 = {
+    "arguments": v10,
+    "type": "function",
+};
+new Worker(f3, o11);
+class C13 {
+    b;
+    static 9 = 128;
+    g;
+    static toString(a15, a16) {
+        try {
+            const t19 = "yLt";
+            t19.length = 128;
+        } catch(e17) {
+        }
+        return "yLt";
+    }
+    #a;
+    ["function"] = -1012765253;
+}
+const v18 = new C13();
+const v19 = new v18();
+new C13();
+const v26 = new Int32Array(2455);
+const v29 = [-1.3667473485475811e+308,1.7976931348623157e+308,5.0,-3.583919688173468e+307,-1.5320462342133301e+308,-414873.4859108749,286122.8434793174,866.7395286670867,-1000.0,-742782.9714922046];
+for (let v31 = 0; v31 < 10; v31++) {
+    function f32() {
+        const o40 = {
+            __proto__: v29,
+            valueOf(a34, a35) {
+                return a34;
+            },
+            ["yLt"](a37, a38, a39) {
+            },
+        };
+        o40.copyWithin(o40, o40, o40, v19, v31);
+        f32.values("-1073741824");
+        return v29;
+    }
+    f32();
+    %OptimizeFunctionOnNextCall(f32);
+}
+C13[4] = 2455;
+try {
+    v26.toString = f3;
+} catch(e44) {
+}
+new Uint8Array(6);
+new Int8Array(71);
+try { Symbol.keyFor(Symbol); } catch (e) {}

@@ -1,0 +1,77 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 65536;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+class C8 {
+    static valueOf(a10, a11) {
+        a11[a11] = v6 + undefined;
+        try { this(v4, ..."lsrR4", ..."number", this); } catch (e) {}
+        return undefined;
+    }
+    static [v4];
+    static [v6] = v5;
+    #f;
+    [v6] = v6;
+}
+C8.d = C8;
+const v17 = new F0();
+const v18 = v17?.constructor;
+let v19;
+try { v19 = new v18(); } catch (e) {}
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+const v22 = new C8();
+const v23 = new v22();
+const v24 = v23?.constructor;
+v24.length;
+try { new v24(); } catch (e) {}
+try { ("string").strike(); } catch (e) {}
+function F31(a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    a34[4];
+    a35.c = a35;
+    try {
+        v6.f = a33;
+    } catch(e37) {
+    }
+    try {
+        this.d = v22;
+    } catch(e38) {
+    }
+}
+F31.e = F31;
+const v39 = new F31("string", "object", v5);
+v39.d = v39;
+const v40 = new F31(C8, "string", "string");
+const v41 = new F31(v4, v22, "object");
+const v42 = v41.d;
+const v43 = v42?.constructor;
+try { new v43(); } catch (e) {}
+function f45() {
+    function f46(a47, a48) {
+        a48.d = a48;
+        let v49;
+        try { v49 = a47.bind(f46); } catch (e) {}
+        try { v49.bind(F31); } catch (e) {}
+        a48.length = v42;
+        return f45;
+    }
+    let v52;
+    try { v52 = new Promise(v6); } catch (e) {}
+    const v53 = new v52(f46);
+    try { v53.then(v39, f46); } catch (e) {}
+    v53.then(f45, f46);
+    try { v53.then(v40, v40); } catch (e) {}
+    return v53;
+}
+f45.name;
+%PrepareFunctionForOptimization(f45);
+f45();
+%OptimizeFunctionOnNextCall(f45);
+f45();

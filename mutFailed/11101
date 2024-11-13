@@ -1,0 +1,37 @@
+const v0 = [-9007199254740992,-28894,1073741824,-64026,-1,-30529,-5,-1454969853,-15,-1843934914];
+const v1 = [330203332];
+const v2 = [8,-4294967297,-65536,2147483649,-958445121,-1190864851,536870887,-45970,-929824485];
+class C3 {
+    static [v0];
+    [v1] = v0;
+    static get h() {
+        let v4 = this;
+        const v5 = v4[v0];
+        v4 >>= v4;
+        return v5;
+    }
+    [v1] = v0;
+    static 216;
+}
+const v9 = new C3();
+new C3();
+new C3();
+class C12 extends C3 {
+    constructor(a14, a15, a16) {
+        super();
+        const v17 = super.a;
+        try { v17(...v2, v17, ...a15, C3); } catch (e) {}
+        try {
+            v9.length = 2;
+        } catch(e20) {
+        }
+    }
+    #c = v2;
+    #e;
+}
+const v21 = new C12(C12, v9, v0);
+const v22 = new C12(v0, v1, v2);
+new C12(v22, v2, v21);
+const v25 = [[v21,C12,v2,v2],v0];
+[v25,v9,v1,v25];
+(0).sinh(0);

@@ -1,0 +1,140 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 9223372036854775807;
+    } catch(e3) {
+    }
+    try {
+        this.g = 9223372036854775807;
+    } catch(e4) {
+    }
+    try {
+        this.a = 9223372036854775807;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0(F0, v6);
+const v8 = new F0();
+function f9() {
+    class C10 {
+    }
+    const v11 = new C10();
+    return v11;
+}
+v8[Symbol.toPrimitive] = f9;
+v8.d = v8;
+function f14(a15) {
+    const o21 = {
+        n(a17) {
+            class C19 extends v8.constructor {
+                [-2];
+                static [v7];
+                static #e = v7;
+            }
+            const v20 = new C19();
+            return v20;
+        },
+        [a15]: a15,
+        255: v8,
+        "e": v8,
+    };
+    return o21;
+}
+const v22 = f14(v7);
+v22[Symbol.iterator] = f14;
+v22[255];
+f14(v7);
+const v27 = f14(v8);
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a31;
+    a31.constructor = f14;
+    const v34 = a32?.constructor;
+    try { new v34(); } catch (e) {}
+    try {
+        this.g = a31;
+    } catch(e36) {
+    }
+    try {
+        this.e = a31;
+    } catch(e37) {
+    }
+    try {
+        this.d = a33;
+    } catch(e38) {
+    }
+}
+F29.constructor = f14;
+new F29(v8, v6, undefined);
+const v40 = new F29(v7, v6, f14);
+const v41 = new F29(v6, v6, v7);
+const v42 = v41?.constructor;
+v42.constructor = f9;
+try { new v42(v27, F29, v40); } catch (e) {}
+try { ("m").toLocaleLowerCase(); } catch (e) {}
+const v48 = Map.name;
+const v49 = new Map();
+new Map();
+function f52(a53, a54, a55, a56) {
+    try { a53.split(a56, a55); } catch (e) {}
+    try { a54.toWellFormed(); } catch (e) {}
+    const o59 = {
+    };
+    Object.defineProperty(o59, "e", { writable: true, configurable: true, value: v48 });
+    return o59;
+}
+const v60 = f52("string", "m");
+v60.g = v49;
+v60.g = v60;
+const v61 = f52("m", "m");
+v61.e = v40;
+v61.e = v61;
+Float64Array.prototype = Float64Array;
+let v64 = 129;
+v64++;
+try { new Float32Array(v22, Float32Array, "m"); } catch (e) {}
+new Float32Array(v64);
+try { new BigInt64Array(v61, 16, Map); } catch (e) {}
+const v72 = new BigInt64Array();
+try { v72.entries(); } catch (e) {}
+~2147483649n;
+let v76 = -128;
+v76++;
+const v78 = [601759695];
+let v79;
+try { v79 = v78.sort(); } catch (e) {}
+v79[0];
+[-13046,-1272828844,65537,55271];
+function f82(a83, a84, a85, a86) {
+    function f88() {
+        let v89 = -268435456;
+        v89--;
+        const v92 = -(v89 + v89);
+        v92 - v92;
+    }
+    f88();
+    const v96 = new Int8Array();
+    v96.buffer;
+    %OptimizeFunctionOnNextCall(f82);
+    let v99;
+    try { v99 = ("find").strike(); } catch (e) {}
+    try { v99.fontcolor(2147483649n); } catch (e) {}
+    try {
+    } catch(e101) {
+    }
+    const o102 = {
+    };
+    o102.g = o102;
+    o102.g = 2147483649n;
+    const o103 = {
+    };
+    o103.h = o103;
+    o103.g = 2147483649n;
+    o103.d = v60;
+}
+f82();
+%PrepareFunctionForOptimization(f82);
+f82();
+%OptimizeFunctionOnNextCall(f82);
+f82();

@@ -1,0 +1,64 @@
+function f0() {
+}
+class C1 {
+    static a;
+    m() {
+        let v2 = this;
+        f0();
+        v2 **= v2;
+        return v2;
+    }
+    static #e = f0;
+    static 3 = f0;
+    [f0] = f0;
+    h = f0;
+    static [-2] = f0;
+}
+const v7 = new C1();
+new C1();
+new C1();
+new Date();
+class C15 extends C1 {
+    constructor(a17, a18) {
+        super();
+        [536870889,2147483648,-4,-8,9,-1,-5,2108937868,2147483649];
+        [-6,9007199254740992,-1366339792];
+        [971419625,1,10,-40447,65535,-896639188];
+    }
+    static #n(a23, a24) {
+        a24[3895] = a23;
+        Reflect.construct(Date, [a23], f0);
+        return this;
+    }
+    static [v7] = f0;
+}
+new C15(v7, 5.0);
+const v29 = new C15(v7, Infinity);
+new C15(v29, Infinity);
+const v31 = [];
+const v34 = new Array(228);
+class C35 {
+    [Array] = v31;
+    static {
+        function F37(a39, a40) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = -5.083456678271827;
+            } catch(e41) {
+            }
+        }
+        const v42 = new F37(v34, this);
+        new F37(Array, F37);
+        new F37(v42, v34);
+    }
+}
+const v45 = new C35();
+const v46 = new C1();
+const v47 = new v45();
+let v50;
+try { v50 = v46.o(C35, v47, -1n, v34); } catch (e) {}
+try {
+    const t60 = "7MU";
+    t60.valueOf = v50;
+} catch(e51) {
+}

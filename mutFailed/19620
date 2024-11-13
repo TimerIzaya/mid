@@ -1,0 +1,58 @@
+Int32Array[0] = Int32Array;
+new Int32Array(1000);
+let v5;
+try { v5 = new Uint16Array(Int32Array, Int32Array, 0); } catch (e) {}
+function f6() {
+    function f7(a8, a9) {
+        function F10(a12, a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = 0;
+            } catch(e15) {
+            }
+            try {
+                this.a = a12;
+            } catch(e16) {
+            }
+        }
+        const v17 = new F10(Uint16Array, 1000, a9);
+        new F10(0, v17, v17);
+        const v19 = new F10(v5, 1000, v17);
+        return v19;
+    }
+    return f7;
+}
+function f20(a21) {
+    new Uint8Array(3291);
+    new Int8Array(1);
+    new BigUint64Array(577);
+}
+Object.defineProperty(v5, "toString", { configurable: true, enumerable: true, get: f6, set: f20 });
+v5[2] = v5;
+const v31 = new Uint16Array(0);
+const v32 = v31?.constructor;
+try { new v32(v5, v5, Uint16Array); } catch (e) {}
+let v34 = 4;
+v34++;
+const v37 = new Float32Array(v34);
+v37.toString = f6;
+try { v37.join(v37); } catch (e) {}
+const v39 = [-1.0,-1.0858423553967114e+308,2.0,0.36678795879193804,570163.5711508358,-1000000000.0,NaN,-0.0,-406.37041853287246];
+v39[6] = v39;
+[1000000000.0,-0.0,-28.16730777098303,878.5249882838855];
+const v41 = [0.39746040625501067,2.220446049250313e-16,1.7976931348623157e+308,-327.99430852181115,0.3528515414996314,0.0,-3.0,-83.2340942084171,-659.0205982944776];
+let v42;
+try { v42 = v41.groupToMap(Uint16Array); } catch (e) {}
+class C46 {
+    n(a48) {
+        this[a48] = 47457;
+    }
+}
+let v49;
+try { v49 = new C46(); } catch (e) {}
+const v50 = v49?.constructor;
+try { new v50(); } catch (e) {}
+Object.defineProperty(Proxy, "e", { writable: true, enumerable: true, value: v41 });
+Proxy.e = Proxy;
+Proxy?.__lookupGetter__;
+try { new v42(v31); } catch (e) {}

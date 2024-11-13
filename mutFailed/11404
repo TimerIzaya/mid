@@ -1,0 +1,41 @@
+function f3(a4) {
+    const o10 = {
+        [-1e-15]: a4,
+        get b() {
+            try { this(this, 0.14341767915007775); } catch (e) {}
+            let v7 = new.target;
+            ++v7;
+            const t6 = 720.1474917018845;
+            t6[2] = this.g;
+            return 0.14341767915007775;
+        },
+        "f": a4,
+    };
+    return o10;
+}
+const v11 = f3(720.1474917018845);
+const v12 = f3(0.14341767915007775);
+const v13 = f3(720.1474917018845);
+const v15 = new WeakSet();
+class C16 extends WeakSet {
+    constructor(a18, a19, a20) {
+        super(a19);
+        f3(f3, 720.1474917018845, v11, a20, a19, a18);
+        f3(0.14341767915007775);
+        %PrepareFunctionForOptimization(f3);
+        f3(0.14341767915007775);
+        f3(0.14341767915007775);
+        %OptimizeMaglevOnNextCall(f3);
+        f3(0.14341767915007775);
+    }
+}
+new C16(WeakSet, v15, v15);
+new C16(v12, C16, v12);
+new C16(f3, v12, v12);
+function f29() {
+    ([]).constructor;
+    new Uint8Array(268435440);
+}
+f29();
+%OptimizeFunctionOnNextCall(f29);
+v13();

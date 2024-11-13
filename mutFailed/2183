@@ -1,0 +1,33 @@
+new Uint8Array(131);
+new Int32Array(172);
+new Int8Array(1024);
+new Int32Array(3045);
+new Int32Array(3451);
+new Uint16Array(7);
+function f19(a20, a21) {
+    const v22 = -a20;
+    v22 >> v22;
+    const o24 = {
+    };
+    o24[Symbol.iterator] = f19;
+    return o24;
+}
+const v27 = f19(2n);
+const v29 = f19().propertyIsEnumerable;
+const v32 = new Uint8Array(v27);
+function f33(a34, a35, a36, a37) {
+    a36++;
+    a36 % a36;
+    const o43 = {
+        "b": a34,
+        ...v32,
+        n(a41, a42) {
+            return a42;
+        },
+    };
+    return v29;
+}
+for (let v44 = 0; v44 < 625; v44++) {
+    const v45 = f33(Uint8Array, 2, v44);
+    try { v45(v44); } catch (e) {}
+}

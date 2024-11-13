@@ -1,0 +1,42 @@
+const v3 = new Uint8ClampedArray(14);
+new BigInt64Array(162);
+const v9 = new Uint8ClampedArray(255);
+function f10(a11, a12) {
+    const o17 = {
+        set c(a14) {
+            const v15 = a14 instanceof Uint8ClampedArray;
+            function f16() {
+                return v15;
+            }
+        },
+        [v9]: a12,
+        "a": 14,
+        ...v3,
+        "e": BigInt64Array,
+        "g": a11,
+    };
+    return o17;
+}
+f10(162, 14);
+f10(255, 14);
+f10(14, 14);
+let v22 = undefined;
+const o23 = {
+};
+v22 = o23;
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this.constructor;
+    try { new v32(v32, -1000000000000.0); } catch (e) {}
+    a30 % a30;
+    this.a = a29;
+}
+new F27(2.220446049250313e-16);
+const v36 = new undefined();
+class C37 extends F27 {
+    65537 = v22;
+    7 = v36;
+}
+new C37();
+new C37();
+new C37();

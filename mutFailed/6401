@@ -1,0 +1,50 @@
+function f0() {
+    const o14 = {
+        5: 1000000.0,
+        "a": 1000000.0,
+        739756823: 1000000000.0,
+        __proto__: 1000.0,
+        get d() {
+            this[Symbol.unscopables];
+            const v8 = super.c;
+            try { v8(1000.0); } catch (e) {}
+            try {
+                this.fuck(-67.20393637349684, -4294967295);
+            } catch(e13) {
+            }
+            return 1000.0;
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+class C21 extends f0 {
+    constructor(a23, a24) {
+        let v22 = this;
+        super();
+        v22 = v16;
+        Object.defineProperty(a23, 6, { enumerable: true, value: -3n });
+    }
+    268435439 = v15;
+    static g;
+    #c;
+}
+new C21(v17, 9007199254740992n);
+new C21(v15, -3n);
+new C21(v17, 9007199254740992n);
+for (let v31 = 0; v31 < 5; v31++) {
+    const v34 = new BigInt64Array(4046, 4046, 4046, BigInt64Array);
+    function f35(a36, a37) {
+        a36++;
+        const v39 = a36++;
+        v39 >> v39;
+        let o41 = {
+            ...a36,
+        };
+        [,...o41] = v34;
+        return a36;
+    }
+    f35();
+}

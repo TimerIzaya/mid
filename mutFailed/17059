@@ -1,0 +1,61 @@
+function f0() {
+    const o17 = {
+        [1.6224176578527423e+308]: 1.6224176578527423e+308,
+        1073741825: 536870888,
+        __proto__: "function",
+        "e": 1.6224176578527423e+308,
+        ["function"]: 536870888,
+        "f": 536870888,
+        set g(a5) {
+            const v7 = Symbol.iterator;
+            const o16 = {
+                [this]() {
+                    const o15 = {
+                        next() {
+                            a5--;
+                            const v13 = 10 == 0;
+                            const o14 = {
+                                "done": v13,
+                                "value": 536870888,
+                            };
+                            return o14;
+                        },
+                    };
+                    return v7;
+                },
+            };
+        },
+    };
+    return f0;
+}
+const v18 = f0();
+f0();
+const v20 = f0();
+class C27 {
+    constructor(a29, a30) {
+        a29 **= this;
+        Object.defineProperty(a30, -2, { writable: true, enumerable: true, get: f0 });
+        [-154937.43118262617,1.7976931348623157e+308,-1.7976931348623157e+308,0.6517558661212788,-1000000000000.0,1000.0];
+        [-1000.0,-0.7108466592522475,-9.332165125578978,-1000000000000.0,-3.0,-8.089155838123245,-801038.2082739422,1.1750924317841979e+308,-2.220446049250313e-16];
+        [-Infinity,-3.0,-17.339292605804303,-1.3076135991387687];
+    }
+    valueOf(a36, a37) {
+        const v39 = Symbol.toPrimitive;
+        const o42 = {
+            [v39]() {
+                v20.toStringTag &&= 0.671366453455724;
+                try {
+                    this.valueOf = Symbol;
+                } catch(e41) {
+                }
+                return a36;
+            },
+        };
+        return 0.671366453455724;
+    }
+}
+const v43 = new C27(-33751n, v18);
+new C27(179151475n, C27);
+new C27(2n, v43);
+const v47 = new Int32Array(Int32Array, Int32Array, Int32Array);
+Math.expm1(~v47);

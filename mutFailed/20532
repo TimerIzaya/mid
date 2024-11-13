@@ -1,0 +1,75 @@
+const v3 = [-2,10000,-65097,9007199254740990,536870912];
+const v4 = [-256,191846645,-15,4,8,50800];
+const v5 = [1345637216,10,4294967296,9007199254740990,-26208,9007199254740990];
+let v6;
+try { v6 = v5.entries(); } catch (e) {}
+try {
+    v5.length = v6;
+} catch(e7) {
+}
+class C8 {
+    #b = v4;
+    static #c = -4;
+    constructor(a10, a11, a12, a13) {
+        this[v3] *= -12;
+        try {
+            a13.length = 2;
+        } catch(e15) {
+        }
+    }
+    m(a17, a18, a19, a20) {
+        a18[10] = 126710906;
+        [v4,v4,[this,v5,a18]];
+        [this,v5,a17,a19,a17];
+        return v5;
+    }
+}
+const v24 = new C8(126710906, v5, -12, v5);
+const t27 = -12;
+const v25 = new t27(-12, v4, 126710906, v3);
+const v26 = new C8(-4, 126710906, -4, v3);
+function f27(a28, a29) {
+    const o47 = {
+        536870889: a28,
+        __proto__: v24,
+        [v3](a31, a32, a33, a34) {
+            try {
+                const v38 = new Array(-62526);
+                const v40 = new C8(-29377, v38, -6, Array);
+                Object.defineProperty(v40, "f", { configurable: true, value: v40 });
+                this[-29377]?.a;
+                Array[1] = v38;
+            } catch(e46) {
+            }
+            return this;
+        },
+        [C8]: v26,
+    };
+    return o47;
+}
+const v48 = f27(126710906, v5);
+if (v3 < f27(-12, 126710906)) {
+    v24 instanceof f27;
+} else {
+    function F52(a54, a55) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = a54;
+        } catch(e56) {
+        }
+    }
+    new F52(-4, v24);
+    new F52(126710906, v48);
+    new F52(-4, v24);
+}
+f27(126710906, v25);
+for (let v64 = 0; v64 < 5; v64++) {
+    function f65() {
+        function f66() {
+            return v64;
+        }
+        return f66.call(v64);
+    }
+    f65();
+    %OptimizeFunctionOnNextCall(f65);
+}

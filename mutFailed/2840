@@ -1,0 +1,62 @@
+const v2 = new Float64Array(257);
+const v5 = v2.__proto__;
+v5.b += v5;
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a9;
+    } catch(e10) {
+    }
+    try {
+        this.f = a9;
+    } catch(e11) {
+    }
+}
+const v12 = new F6(Float64Array, 257);
+new F6(257, v5);
+new F6(v5, v12);
+const v15 = new Uint32Array(4096);
+const v18 = new Uint16Array(10);
+class C19 extends Float64Array {
+    static [v15] = Uint32Array;
+    static #h;
+    static o(a21, a22) {
+        try {
+            v2.byteLength = a22;
+        } catch(e23) {
+        }
+        try {
+            this.valueOf = a21;
+            const v26 = this[this[59]]?.c;
+            super[F6] = this;
+            v26?.[v15];
+        } catch(e28) {
+        }
+        return a21;
+    }
+    #d;
+}
+const v29 = new C19();
+const v30 = new C19();
+new C19();
+function F32(a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a34;
+    } catch(e37) {
+    }
+}
+new F32(4096, 10, v29);
+const v39 = new F32(Float64Array, 10, v30);
+new F32(C19, 10, v30);
+const v43 = C19 / v18;
+let v44;
+try { v44 = v5.at(v43, v43, v5, v43); } catch (e) {}
+v39[-2] = v30;
+JSON["parse"](v44, v44);
+const o48 = {
+    "maxByteLength": 10000,
+};
+const v50 = new ArrayBuffer(3471, o48);
+const v52 = new Uint8Array(v50);
+v52[938] = v52;

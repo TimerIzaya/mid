@@ -1,0 +1,61 @@
+class C3 {
+    set d(a5) {
+        const v6 = this.d;
+        const o7 = {
+            ...this,
+            ..."atanh",
+        };
+        this[v6] >>= 224759452;
+        ("string").normalize("NFC");
+    }
+    static 2545395751 = "atanh";
+    10;
+    static #f;
+}
+const v11 = new C3();
+const v12 = new C3();
+function f13() {
+    const t17 = "bigint";
+    t17[162] = v11;
+    Reflect.construct(C3, [], C3);
+    return "bigint";
+}
+v12[Symbol.toPrimitive] = f13;
+const v19 = new C3();
+v19[Symbol.toPrimitive] = Symbol;
+function f22(a23, a24, a25, a26) {
+    a25[Symbol.toPrimitive] = f22;
+    const o29 = {
+        "d": a26,
+        [a25]: a23,
+        "b": 224759452,
+        "g": "bigint",
+        6: v11,
+        "c": a26,
+        8: a26,
+        "e": C3,
+        "a": v19,
+        __proto__: "bigint",
+        "h": "bigint",
+        "f": "atanh",
+        [-1]: 224759452,
+        ...C3,
+    };
+    function f30() {
+        return Symbol;
+    }
+    function f31(a32) {
+        try {
+            a32.__proto__ = v12;
+        } catch(e33) {
+        }
+    }
+    Object.defineProperty(o29, "toString", { get: f30, set: f31 });
+    return o29;
+}
+const v34 = f22("bigint", v12, v12, v19);
+v34.toString = f13;
+f22(f22("atanh", v34, v19, v34), v34, v34, v19);
+for (const v41 in [-65535,536870889,4096]) {
+    Math.log10(v41) ** 1000000000000.0;
+}

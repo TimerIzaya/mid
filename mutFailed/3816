@@ -1,0 +1,31 @@
+new Int16Array(10);
+Int8Array.h = Int8Array;
+const t2 = 2;
+new t2(2);
+const v8 = new Uint8Array(4096);
+[1000,-11,1,-6924,1885538534,28258];
+[3,21087,54373,16,-9007199254740991,536870887,-24980,-1996297088,-443327705,-23561];
+const v11 = [-50916,-10];
+let v12;
+try { v12 = v11.fill(v8); } catch (e) {}
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this?.propertyIsEnumerable;
+    try { new a15(v8); } catch (e) {}
+}
+const v19 = new F13();
+function f20() {
+    const o26 = {
+        [Int16Array](a23, a24, a25) {
+        },
+        "e": v19,
+    };
+    return o26;
+}
+%PrepareFunctionForOptimization(v12);
+const v27 = F13();
+v27.caller = v27;
+f20();
+%OptimizeFunctionOnNextCall(f20);
+const v29 = f20();
+v29.d = v29;

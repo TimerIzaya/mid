@@ -1,0 +1,53 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a5;
+    } catch(e6) {
+    }
+    try {
+        this.d = a5;
+    } catch(e7) {
+    }
+    try {
+        this.f = a5;
+    } catch(e8) {
+    }
+}
+const t15 = 1000000000000.0;
+const v9 = new t15(2.220446049250313e-16);
+new F3(-4.0);
+new F3(2.220446049250313e-16);
+class C12 {
+    static valueOf(a14, a15) {
+        try {
+            this.__proto__ = v9;
+        } catch(e16) {
+        }
+        try {
+            a15.valueOf = this;
+        } catch(e17) {
+        }
+        return F3;
+    }
+}
+const v18 = new C12();
+new C12();
+const v20 = new C12();
+const v21 = [1073741824,1073741823,1376142744,1073741825];
+function f22(a23, a24, a25, a26) {
+    function f27() {
+        try {
+            v21.forEach(v20);
+            let v31 = BigUint64Array * 536870887;
+            v31--;
+        } catch(e33) {
+        }
+        return 1000000000000.0;
+    }
+    return a26();
+}
+for (let v35 = 0; v35 < 10; v35++) {
+    f22();
+}
+%OptimizeFunctionOnNextCall(f22);
+f22(v18, v21, f22, v21);

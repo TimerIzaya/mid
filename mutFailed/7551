@@ -1,0 +1,59 @@
+class C3 {
+    static 6;
+    static {
+        const o7 = {
+            "maxByteLength": 1024,
+        };
+        function f8() {
+            return f8;
+        }
+        const v9 = f8.arguments;
+        function f10() {
+            for (let v11 = 0; v11 < 5; v11++) {
+                Array(36862, v9, v11 & v11).reverse();
+            }
+            return f10;
+        }
+        %PrepareFunctionForOptimization(f10);
+        f10();
+        %OptimizeFunctionOnNextCall(f10);
+        f10();
+        const v20 = new ArrayBuffer(1024, o7);
+        new Int32Array(v20);
+    }
+}
+new C3();
+new C3();
+const v25 = new C3();
+let v28;
+try { v28 = v25.p(C3, 1073741823, 8, 59806, 1633850158); } catch (e) {}
+try { ("o").search(v28); } catch (e) {}
+new Array(4);
+function f37() {
+    return f37;
+}
+class C38 extends f37 {
+    constructor(a40, a41, a42, a43) {
+        super();
+        function f44() {
+            const v45 = [];
+            v45[6] = 1633850158;
+            v45[6] = v45;
+            const o52 = {
+                [-1782050976](a47, a48) {
+                    let v49 = super[a41];
+                    ({"a":v49,} = a42);
+                    return v25;
+                },
+                set b(a51) {
+                },
+            };
+            return a43;
+        }
+        for (let v53 = 0; v53 < 5; v53++) {
+            f44();
+            %OptimizeFunctionOnNextCall(f44);
+        }
+    }
+}
+new C38();

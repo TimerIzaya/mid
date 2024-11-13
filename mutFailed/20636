@@ -1,0 +1,49 @@
+const v3 = [747159362,-7,-7];
+function f4(a5) {
+    const v7 = Symbol.iterator;
+    a5[v7] = v7;
+    return -7;
+}
+v3.toString = f4;
+const v8 = [747159362];
+const v9 = [-7,-7,v3,v3];
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v8;
+    a12[Symbol.toPrimitive] = f4;
+    if (F10 <= a14) {
+        try { new a12(v3, a13, 747159362); } catch (e) {}
+    } else {
+    }
+    try {
+        this.g = a14;
+    } catch(e22) {
+    }
+    try {
+        this.h = v3;
+    } catch(e23) {
+    }
+    try {
+        a12.e = a13;
+    } catch(e24) {
+    }
+}
+new F10(747159362, v8, v3);
+new F10(747159362, v9, v3);
+new F10(747159362, v3, v8);
+function F34(a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "constructor", { enumerable: true, value: F34 });
+    this.constructor;
+    try { new F10(); } catch (e) {}
+    const v40 = new Int8Array();
+    let v43 = 8;
+    Math.log10(this);
+    Math.asinh(this);
+    Math.atanh(-4294967295);
+    Math.log10(v43);
+    this ** this;
+    v43++;
+    v40.length = 9;
+}
+new F34();

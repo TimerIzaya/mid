@@ -1,0 +1,73 @@
+const v0 = /C[x\dz]/udmsy;
+const v1 = /Wab\b\d\bcd\ud808\udf45*0b[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/gudmy;
+const v2 = /(a\1)?/vdimy;
+class C3 {
+    #f;
+    static p(a5) {
+        try {
+            C3.#f -= v0;
+        } catch(e6) {
+        }
+        return v1;
+    }
+    [v2];
+    static g = v1;
+    #h = v1;
+}
+function f7(a8) {
+    let v9;
+    try { v9 = a8(v2); } catch (e) {}
+    try { v2.compile(v9, ...a8, a8, v9, v9); } catch (e) {}
+    return C3;
+}
+const v12 = Symbol.toPrimitive;
+C3[v12] = f7;
+new C3();
+const v14 = new C3();
+const v15 = new C3();
+[C3,v2,v2,v15];
+[v0,v2];
+const v18 = [C3,v1,v0];
+function f19(a20, a21) {
+    const o29 = {
+        "b": v0,
+        127: a20,
+        [C3]: a20,
+        ...v1,
+        "toPrimitive": a20,
+        valueOf(a23, a24, a25, a26) {
+            function f27() {
+                return f27;
+            }
+            return v18[1248];
+        },
+    };
+    return o29;
+}
+f19(v14, v0);
+f19(C3, v2);
+f19(v2, v1);
+for (let v33 = 0; v33 < 25; v33++) {
+    const v34 = [601759695];
+    const v35 = [1073741824,1073741823,1376142744,1073741825];
+    Object.defineProperty(v35, 15, { writable: true, enumerable: true, value: C3 });
+    function f36(a37, a38, a39, a40) {
+        function f41() {
+            return v12;
+        }
+        function f42(a43) {
+            const v44 = [v34,f36,a43,a43,a43];
+            [v44,v44,v1];
+            [f36];
+        }
+        Object.defineProperty(a39, 15, { writable: true, enumerable: true, get: f41, set: f42 });
+        a37 >>> a37;
+        a39[15];
+        const v50 = ("find").codePointAt(a37, v34, "find", "find");
+        try { v35["find"](..."find", a40, ...v34, "find", v50); } catch (e) {}
+        return a40;
+    }
+    for (let v52 = 0; v52 < 10; v52++) {
+        f36(v52, v52, v35);
+    }
+}

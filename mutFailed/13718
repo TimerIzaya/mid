@@ -1,0 +1,55 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v0;
+    } catch(e3) {
+    }
+}
+new F1();
+new F1();
+new F1();
+new BigInt64Array(1449);
+new Uint32Array(129);
+new Uint8Array(4096);
+const o22 = {
+};
+const v25 = new o22();
+function f26(a27, a28, a29, a30) {
+    const o33 = {
+        "e": v25,
+        ...a27,
+        "d": a27,
+        [v25]: a30,
+        "g": 579720983,
+        256: "getInt32",
+        set b(a32) {
+        },
+        "b": a29,
+        ...v25,
+        "f": a29,
+        "c": o22,
+    };
+    return o33;
+}
+f26();
+const v35 = f26();
+f26(o22, v35, f26(), v35);
+class C41 {
+}
+let v42 = new C41();
+class C43 extends C41 {
+    o(a45, a46) {
+        v42 %= this;
+        %VerifyType(super.g);
+    }
+}
+const v54 = new C43();
+function f55(a56, a57, a58) {
+    const o65 = {
+        toString(a60, a61, a62, a63) {
+            return v54 * a63;
+        },
+    };
+    return f55;
+}

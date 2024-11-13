@@ -1,0 +1,59 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o17 = {
+        toString(a6, a7) {
+            const v8 = new Map(a3, a4, a3, a6);
+            const v10 = [];
+            return Reflect.apply(v8.values, v8, v10);
+        },
+        [a3]: a4,
+        __proto__: a4,
+        valueOf(a14) {
+            const v15 = this ** Map;
+            try {
+                v1.size = v15;
+            } catch(e16) {
+            }
+            return Map;
+        },
+    };
+    return o17;
+}
+const v18 = f2(v1, v1);
+const v19 = f2(v18, v1);
+const v20 = f2(v19, v18);
+function f21() {
+    return v19;
+}
+const v22 = [Map,f2,v1];
+const v23 = [v19];
+const v24 = [v20,v20];
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v30 = [];
+        [v30,v30,v30,v30,v30];
+        class C33 {
+            [null];
+        }
+        this.f = a29;
+    } catch(e34) {
+    }
+    try {
+        this.g = Map;
+    } catch(e35) {
+    }
+    try {
+        this.h = a28;
+    } catch(e36) {
+    }
+}
+new F25(f21, v24, v24);
+new F25(Map, v22, v22);
+new F25(v22, v23, v23);
+[-1.7976931348623157e+308,-3.0,-3.0,363.8138396999086,Infinity,612.3486694343287,1.7976931348623157e+308,1000000000.0];
+[NaN,-139.41140470336723,9.77499234576472,420.6073825280855,1000000000000.0,776.2819047660907,0.07357195689559204,3.779577825846644,-1.0];
+[5.0,215.46537503132595,5.0,-2.220446049250313e-16,Infinity,NaN,1e-15];
+const v44 = new Uint8ClampedArray();
+for (const v47 in [[v44,v44],v44]) {
+}

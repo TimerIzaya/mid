@@ -1,0 +1,35 @@
+const t0 = 536870889;
+const v4 = new t0();
+let v5 = 6;
+new Int8Array(v5);
+new Float32Array(64);
+new BigUint64Array(235);
+function F14(a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    const t8 = a17 === a17;
+    new t8();
+    /anVXYFzN(x)(x)(x)\3/gvdms;
+}
+function f23() {
+    for (let v24 = 0; v24 < 5; v24++) {
+        const v25 = new F14(F14, f23, v24);
+        const v29 = 9 ** 9;
+        Math.sqrt(v29);
+        const v31 = !9;
+        9007199254740991 * v29;
+        v31 % F14;
+        Math.sin(9);
+        const t19 = v25.constructor;
+        new t19();
+    }
+    return v5;
+}
+%PrepareFunctionForOptimization(f23);
+const v37 = f23();
+try {
+    v4.d = v37;
+} catch(e38) {
+}
+v5 = 536870889;
+%OptimizeFunctionOnNextCall(f23);
+f23();

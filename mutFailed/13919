@@ -1,0 +1,41 @@
+let v1 = new Date();
+class C2 extends Date {
+    static #g;
+    static {
+        function f4() {
+            return Date;
+        }
+        Object.defineProperty(this, "toString", { writable: true, get: f4 });
+        this.constructor = Date;
+        const v5 = this?.constructor;
+        try { new v5(C2); } catch (e) {}
+        [v1,this];
+        [[v1,v1,this,this,v1]];
+    }
+    valueOf(a11) {
+        v1[1000] = this;
+        v1 += this;
+        Date[8] = this;
+        const o14 = {
+            "maxByteLength": SharedArrayBuffer,
+        };
+        const v16 = new SharedArrayBuffer(1299, o14);
+        const v18 = new Float32Array(v16);
+        return v18;
+    }
+}
+const v19 = new C2();
+try { v19.getFullYear(); } catch (e) {}
+new Date();
+new C2();
+-1000000000000.0 >>> -1000000000000.0;
+const v32 = new Int8Array(1392);
+v32[Symbol.toPrimitive] = Date;
+const o36 = {
+    "get": Symbol,
+};
+const v37 = o36?.get;
+try { new v37(); } catch (e) {}
+const v40 = new Proxy(v32, o36);
+v40.subarray;
+v40[795];

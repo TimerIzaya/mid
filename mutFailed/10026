@@ -1,0 +1,70 @@
+const v0 = [2147483649,-256];
+const v1 = [-1024,-65537,16];
+const v2 = [493486332,-1024,-128,-37109,-659918045,256,16,169979515];
+const v3 = [v0,v1,v2,v0];
+const v4 = [v3,v3,v0,v1,v2];
+try { v4.with(v2, v2); } catch (e) {}
+try { v4.fill(v0); } catch (e) {}
+const v7 = [v0,v4,v2];
+try { v7.at(v3); } catch (e) {}
+-4 + -4;
+51455 / 51455;
+51455 + 51455;
+-9007199254740992 != -9007199254740992;
+function f16() {
+    return v3;
+}
+let v17 = 2.220446049250313e-16;
+v17--;
+const v23 = new Uint16Array(1024);
+let v26;
+try { v26 = new Uint8ClampedArray(Uint16Array, v23, -2.2250738585072014e-308); } catch (e) {}
+const v27 = v26?.constructor;
+try { new v27(-2.2250738585072014e-308, v26, v26); } catch (e) {}
+function f29() {
+    const o30 = {
+    };
+    return o30;
+}
+const v31 = f29();
+const v32 = f29();
+class C33 {
+    constructor(a35, a36) {
+        for (let v37 = 0; v37 < 32; v37++) {
+            a36["p" + v37] = v37;
+        }
+    }
+}
+new C33(v32, v31);
+const o41 = {
+    ...v31,
+};
+const v42 = new Uint8ClampedArray(129);
+v42[80] = v42;
+const v45 = new Uint8Array(1148);
+const v46 = v45[575];
+v46 >> v46;
+function f48() {
+    let v49 = -9223372036854775808n;
+    v49--;
+    v49 %= 45725n;
+    return 45725n;
+}
+Object.defineProperty(o41, "c", { writable: true, set: f48 });
+1148 ** f48;
+const o55 = {
+    "maxByteLength": 512,
+};
+const v57 = new SharedArrayBuffer(6, o55);
+const v59 = new Int16Array(v57);
+f48.length = f48;
+for (let v60 = 0; v60 < 5; v60++) {
+    function* f61(a62, a63) {
+        v59 && v60;
+        yield* v3;
+        return v60;
+    }
+    f61(v60, v1);
+    f48();
+    %OptimizeFunctionOnNextCall(f48);
+}

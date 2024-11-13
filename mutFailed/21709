@@ -1,0 +1,49 @@
+const v1 = new Date();
+new Uint16Array(4);
+const v10 = new BigUint64Array(8);
+new Uint8ClampedArray(3750);
+class C14 {
+}
+const v15 = new C14();
+function f16(a17, a18) {
+    try { a18(v1, 4, f16); } catch (e) {}
+    v10[2] = Date;
+    function f23() {
+        return f16;
+    }
+    class C24 extends f23 {
+    }
+    class C25 extends C24 {
+    }
+    try {
+        v1.toString = Date;
+    } catch(e26) {
+    }
+    const v27 = a17 ^ f16;
+    function f28(a29, a30, a31, a32) {
+        try { a29(C25); } catch (e) {}
+        const v36 = typeof v27 === "symbol";
+        f28(-741.3384731547678, v27, v36, 0.537761406304714);
+        %PrepareFunctionForOptimization(f28);
+        f28(-741.3384731547678, v27, v36, 0.537761406304714);
+        f28(-741.3384731547678, v27, v36, 0.537761406304714);
+        %OptimizeMaglevOnNextCall(f28);
+        f28(-741.3384731547678, v27, v36, 0.537761406304714);
+        let v41 = a30 & a30;
+        new Map();
+        v41++;
+        const o48 = {
+            n(a46, a47) {
+                return this;
+            },
+        };
+        return v15;
+    }
+    for (let v49 = 0; v49 < 500; v49++) {
+        f28();
+    }
+    return C14;
+}
+Object.defineProperty(v15, "constructor", { value: f16 });
+const v51 = v15.constructor;
+v51(v51, v15);

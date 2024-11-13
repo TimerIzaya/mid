@@ -1,0 +1,37 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [v1,v1,f0];
+const v3 = [v2,v2,f0,f0];
+class C7 {
+    static #a = 56543;
+    constructor(a9, a10) {
+        Object.defineProperty(v3, -3n, { writable: true, configurable: true, get: f0, set: f0 });
+        f0();
+    }
+    static [56543];
+    [f0] = v3;
+    static #e;
+}
+new C7(v2, v3);
+new C7(v1, v2);
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v25 = new F20(BigUint64Array, 4, 241);
+Object.defineProperty(v25, 241, { enumerable: true, value: v3 });
+new C7(v2, v1);
+const v27 = [1.7976931348623157e+308,0.14033774481022865,0.764442389288067,-2.220446049250313e-16,710.5353911028728,1000000.0];
+class C28 {
+}
+const v29 = new C28();
+class C30 {
+    constructor(a32, a33, a34) {
+        for (let v35 = 0; v35 < 32; v35++) {
+            a32["p" + v35] = v35;
+        }
+    }
+}
+for (let v38 = 0; v38 < 25; v38++) {
+    v27[4294967295] = v29;
+}

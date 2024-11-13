@@ -1,0 +1,51 @@
+class C3 {
+    static get g() {
+        try { ("undefined").getPrototypeOf(); } catch (e) {}
+        const o6 = {
+        };
+        const v8 = new Proxy(this, "undefined");
+        return v8;
+    }
+    #d;
+    static {
+        try {
+            const t11 = "Q";
+            t11.valueOf = this;
+        } catch(e10) {
+        }
+    }
+}
+new C3();
+const t18 = "undefined";
+new t18();
+new C3();
+class C15 {
+    static #d;
+    toString(a17, a18, a19) {
+        const o22 = {
+            "maxByteLength": 65537,
+        };
+        const v24 = new ArrayBuffer(3, o22);
+        new Int32Array(v24);
+        return 3;
+    }
+    static #a = "Q";
+    #g = C3;
+}
+new C15();
+const v28 = new C15();
+new C15();
+[2.2250738585072014e-308,0.07086961536332204];
+[7.953739703471683,-2.2250738585072014e-308,-1000.0,1.0,-8.497376977697211,175.53714618928188,-127.56738000943346];
+[-439120.7364269695,0.3914453858538184,0.0,1000.0,-1000.0,2.2250738585072014e-308,33.55547871340082,-4.191375840167799,0.4765767321657257,5.0];
+class C36 {
+}
+const v37 = new C36();
+const v38 = new C36();
+const v39 = [v38,v28];
+function F40(a42, a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    a42.unshift(v37);
+}
+new F40(v39);
+new F40(v39);

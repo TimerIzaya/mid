@@ -1,0 +1,59 @@
+function f1() {
+    const v2 = /(x)(x)(x)\1/uis;
+    const o9 = {
+        4294967295: WeakMap,
+        2: WeakMap,
+        __proto__: WeakMap,
+        [v2](a4, a5, a6, a7) {
+            super.test();
+        },
+    };
+    return v2;
+}
+WeakMap[Symbol.toPrimitive] = f1;
+const v12 = new WeakMap();
+class C13 extends WeakMap {
+    g;
+    static g = v12;
+    static 3 = WeakMap;
+    [WeakMap] = WeakMap;
+    static #o(a15) {
+        super[WeakMap] = WeakMap;
+        try { a15(this, this, WeakMap, a15); } catch (e) {}
+        try { a15(WeakMap); } catch (e) {}
+        a15[4] = v12;
+        return this;
+    }
+}
+const v21 = new C13();
+const v22 = new C13();
+new C13();
+[1,v22,1967754866];
+[C13,v21,v12];
+[v22,v21,C13,1];
+[-1000000000.0,0.8968097643519101,-8.720684288580602e+307,-1.0,0.32807980030170847,117.99447186142652,1000.0];
+new Int32Array(64);
+class C38 {
+}
+class C39 extends C38 {
+}
+[-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+function f43(a44, a45, a46, a47) {
+    function f48() {
+        Symbol.toPrimitive;
+        const o56 = {
+            "e": -268435456,
+            valueOf(a54, a55) {
+            },
+            6: -268435456,
+        };
+    }
+    f48();
+    const v59 = new Int8Array();
+    v59.buffer;
+    %OptimizeFunctionOnNextCall(f48);
+}
+for (let v62 = 0; v62 < 10; v62++) {
+    f43();
+}
+f43();

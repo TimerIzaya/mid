@@ -1,0 +1,41 @@
+class C3 {
+    #valueOf(a5, a6) {
+        typeof -9007199254740990 === "string";
+        return a6;
+    }
+    set b(a11) {
+        try {
+            super.valueOf(a11, this);
+        } catch(e13) {
+        }
+    }
+}
+const v15 = new C3();
+new C3();
+new C3();
+function f18() {
+    return C3;
+}
+class C19 extends f18 {
+    static valueOf(a21, a22, a23) {
+        try {
+            a22.c = a21;
+        } catch(e24) {
+        }
+        return C19;
+    }
+    static [-1];
+    #toString(a26, a27, a28) {
+        [1.769038901113529e+308,-867016.0936162483,3.211207707146514e+307,-1000.0,-1.5975674848667391e+308,NaN];
+        [4.0,-1.5091686424002212e+308,-1.405279090498798];
+        [0.381195234314226,565.1175116346678,1.7976931348623157e+308,-0.0,4.0,1.7976931348623157e+308,-1.0,1e-15,0.545837127723874,1000000000.0];
+        return a28;
+    }
+}
+new v15();
+const v33 = new C19();
+new v33();
+try {
+} catch(e44) {
+} finally {
+}

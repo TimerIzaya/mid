@@ -1,0 +1,71 @@
+try { ("bigint").codePointAt(-1989198876); } catch (e) {}
+-Infinity;
+try {
+    ("bigint").concat("bigint", /(d7a+b+)/gud);
+} catch(e9) {
+}
+class C10 {
+    static {
+        const o12 = {
+        };
+        try {
+            o12.f = -3.0;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.f = -3.0;
+            o14.b = this;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.f = -3.0;
+            o16.b = this;
+            o16.a = this;
+        } catch(e17) {
+        }
+        try {
+            const o18 = {
+            };
+            o18.f = -3.0;
+            o18.b = this;
+            o18.a = -3.0;
+        } catch(e19) {
+        }
+    }
+}
+const v20 = new C10();
+const v21 = new C10();
+const v22 = new C10();
+const v24 = new Map();
+new Map();
+function f27() {
+    return v20;
+}
+class C28 {
+    static 2;
+    constructor(a30, a31, a32) {
+        Object.defineProperty(a31, "a", { writable: true, configurable: true, enumerable: true, get: f27, set: f27 });
+        let v34;
+        try { v34 = v24["entries"](..."entries", v21, ...a32, a32, f27); } catch (e) {}
+        var f = -1989198876;
+        try {
+            a32.valueOf = v34;
+        } catch(e35) {
+        }
+    }
+    static #h;
+    #c = "bigint";
+    static 3967 = "bigint";
+}
+new C28(v21, C28, v24);
+const v37 = new C28("bigint", v24, v22);
+new C28(v37, C28, v37);
+function f40() {
+    return 2147483648n;
+}
+%OptimizeFunctionOnNextCall(f40);
+f40();

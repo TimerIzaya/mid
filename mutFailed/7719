@@ -1,0 +1,63 @@
+class C3 {
+    m(a5, a6) {
+        try {
+            SharedArrayBuffer.d = this;
+        } catch(e8) {
+        }
+        return a5;
+    }
+    static #e;
+    static 6 = "boolean";
+}
+const v9 = new C3(C3, C3, -1017252911);
+const v10 = new C3(-1017252911, C3, 7);
+const v11 = new C3();
+function f12(a13, a14, a15, a16) {
+    const o29 = {
+        valueOf(a18, a19, a20) {
+            const o21 = {
+            };
+            try {
+                o21.d = a19;
+            } catch(e22) {
+            }
+            try {
+                const o23 = {
+                };
+                o23.d = a19;
+                o23.h = -1017252911;
+            } catch(e24) {
+            }
+            try {
+                const o25 = {
+                };
+                o25.d = a19;
+                o25.h = -1017252911;
+                o25.a = a19;
+            } catch(e26) {
+            }
+            try {
+                const o27 = {
+                };
+                this.d = a19;
+                a13.h = -1017252911;
+                o27.c = v9;
+            } catch(e28) {
+            }
+            return a19;
+        },
+    };
+    return o29;
+}
+const v30 = f12(v9, v10, v10, C3);
+f12(v10, v11, v11, v10, v9(v11, v9, v11, v10), v30, C3);
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v38 = a37.constructor;
+    try { new v38(a37, -1017252911); } catch (e) {}
+}
+const t58 = "boolean";
+new t58();
+class C41 extends F33 {
+}
+new C41();

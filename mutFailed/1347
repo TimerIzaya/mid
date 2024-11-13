@@ -1,0 +1,51 @@
+function f3() {
+    return 1602356144;
+}
+class C4 extends f3 {
+    get h() {
+        const o6 = {
+            "call": f3,
+            "get": f3,
+            "getPrototypeOf": f3,
+            "has": f3,
+            "ownKeys": f3,
+            "preventExtensions": f3,
+        };
+        new Proxy(this, o6);
+        return o6;
+    }
+    #b = 1602356144;
+    static #d;
+}
+const v9 = new C4();
+const v10 = v9?.constructor;
+try { new v10(); } catch (e) {}
+const v12 = new C4();
+const v13 = v12?.constructor;
+try { new v13(); } catch (e) {}
+new C4();
+const v16 = [-673919.1575526018,-253.06837176718727,2.2250738585072014e-308,-1.350737200085743e+308,8.457828299655151,-1000000.0,2.3308325814674884];
+([-4.0,181510.3140238796,2.0,3.0,1000.0,-2.744595733192681e+307])[1];
+[5.531549286961874e+307,-3.0,774541.7283179518,-365.1503938362737,0.36420264236117006,304.3920814555795,547.2085348517414,4.788251125336491e+307,-4.0,-1000000000.0];
+try { new Int16Array(v16, f3, f3); } catch (e) {}
+new Int16Array(512);
+1576 + 1576;
+try { new BigUint64Array(v9, 1576, C4); } catch (e) {}
+const v28 = new BigUint64Array(1576);
+v28[623];
+new BigUint64Array(129);
+const v35 = [-21696350,-6,2,9007199254740991];
+[-539523665];
+function F37(a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    a40 ^ a40;
+    a41 >>> a41;
+    const v46 = new Float32Array(this, a41, a41);
+    try { v46.fill(F37); } catch (e) {}
+    const v49 = new Uint8Array(268435440);
+    new Uint8ClampedArray(129);
+    v49[6] = v46;
+}
+const t48 = -2.2250738585072014e-308;
+new t48(v35, -1000000000000.0, -2.2250738585072014e-308);
+new F37();

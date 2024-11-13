@@ -1,0 +1,41 @@
+const v0 = [-4294967295,0,-761222179];
+function f1(a2) {
+    Symbol.for(Symbol.toPrimitive.description);
+    return Symbol;
+}
+v0.toString = f1;
+const v7 = [7,-4294967297,-2121378165,255,-2,9,268435439,65536];
+Object.defineProperty(v7, "toString", { writable: true, configurable: true, enumerable: true, value: f1 });
+[-11,4,-1073741824,4];
+-9007199254740990 >> v7;
+let v12 = 63785;
+v12--;
+let v14 = 1971;
+v14--;
+Uint32Array.BYTES_PER_ELEMENT;
+const v18 = new Uint32Array(v14);
+try { v18.join(v0); } catch (e) {}
+Int32Array.BYTES_PER_ELEMENT;
+const v23 = new Int32Array(v0);
+try { v23.join(v14); } catch (e) {}
+v23[1] = v23;
+let v27;
+try { v27 = Uint8ClampedArray.bind(v23); } catch (e) {}
+let v28;
+try { v28 = v27.hasOwnProperty(v7); } catch (e) {}
+!v28;
+const v30 = new Uint32Array(4017);
+const v31 = v30[2178];
+v31 - v31;
+class C33 {
+    static {
+        this[Symbol.toPrimitive] = f1;
+        try { new this(); } catch (e) {}
+        try { this.bind(-43115); } catch (e) {}
+        const v39 = super[this];
+        try { v39.join(v31, C33, v39); } catch (e) {}
+    }
+}
+const v41 = C33?.toString;
+try { new v41(); } catch (e) {}
+try { new C33(); } catch (e) {}

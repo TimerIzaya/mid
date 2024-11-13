@@ -1,0 +1,28 @@
+const v2 = new Uint8ClampedArray(1774);
+const v5 = new Uint8Array(2902);
+const v8 = new Uint8ClampedArray(520);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a13;
+    } catch(e14) {
+    }
+    try {
+        Uint8Array.g = a12;
+    } catch(e15) {
+    }
+}
+new F9(1774, 520, v8);
+new F9(v5, 520, 2902);
+new F9(v2, 1774, Uint8ClampedArray);
+const v19 = [-13939,-12,1904189168];
+const o20 = {
+};
+function f21(a22, a23) {
+    v19[11] = o20;
+    return o20;
+}
+%PrepareFunctionForOptimization(f21);
+f21(o20, v19);
+%OptimizeFunctionOnNextCall(f21);
+F9();

@@ -1,0 +1,16 @@
+const v1 = new WeakSet();
+new Uint32Array(257);
+new v1(512);
+new Uint8ClampedArray(2666);
+function f14() {
+    const o18 = {
+        ...1.0,
+        set b(a17) {
+        },
+    };
+    return o18;
+}
+for (let v19 = 0; v19 < 5; v19++) {
+    f14();
+    %OptimizeFunctionOnNextCall(Uint8ClampedArray);
+}

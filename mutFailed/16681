@@ -1,0 +1,92 @@
+class C3 {
+    static #o(a5, a6) {
+        try {
+            C3.length = 2309918831;
+        } catch(e8) {
+        }
+        return a6;
+    }
+    static set b(a10) {
+        try { a10(4.1081473615097075e+307, a10, a10, 6.390138093473215, 6.390138093473215, 4.1081473615097075e+307); } catch (e) {}
+        function f12() {
+            return this;
+        }
+    }
+    d;
+    c = 4.1081473615097075e+307;
+    static a = 6.390138093473215;
+    4 = 6.390138093473215;
+    static 9;
+    55;
+    #d;
+    static c = 4.1081473615097075e+307;
+    static #b;
+    [6.390138093473215];
+    [4.1081473615097075e+307];
+    static h = C3;
+    1599;
+    static [6.390138093473215] = 5.0;
+}
+new C3();
+const v14 = new C3();
+const v15 = new C3();
+let v16;
+try { v16 = v15(5.0, 4.1081473615097075e+307, v15); } catch (e) {}
+const v18 = v16.species;
+C3[v18] = 6.390138093473215;
+const v20 = new Set();
+function f25() {
+    function f26(a27, a28) {
+        const o29 = {
+        };
+        v18.g = 4.1081473615097075e+307;
+        try {
+            o29.g = f26;
+        } catch(e30) {
+        }
+        try {
+            const o31 = {
+            };
+            o31.g = v20;
+            o31.g = f26;
+            o31.f = f26;
+        } catch(e32) {
+        }
+        try {
+            const o33 = {
+            };
+            Object.defineProperty(o33, "g", { writable: true, configurable: true, value: o33 });
+            o33.g = f26;
+            o33.f = f26;
+            o33.b = a27;
+        } catch(e34) {
+        }
+        try {
+            const o35 = {
+            };
+            o35.g = f26;
+            a27.f = f26;
+            o35.b = a27;
+        } catch(e36) {
+        }
+        return f25;
+    }
+    const v38 = Promise.resolve(f26);
+    const v39 = new Promise(f26);
+    v39.constructor = Set;
+    const v40 = v18.constructor;
+    try { new v40(-30285); } catch (e) {}
+    return v38;
+}
+%PrepareFunctionForOptimization(f25);
+const v43 = Symbol.toPrimitive;
+const o46 = {
+    [v43]() {
+        Object.defineProperty(v43, 2148, { writable: true, enumerable: true, value: v14 });
+        super.a;
+        return 4.1081473615097075e+307;
+    },
+};
+f25();
+%OptimizeFunctionOnNextCall(v18);
+v16();

@@ -1,0 +1,32 @@
+[];
+const v2 = new Set();
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+    try {
+        Set.a = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(v2, v2);
+const v10 = new F3(v9, v9);
+const v11 = new F3(v9, v2);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v10.a = F3;
+    } catch(e16) {
+    }
+    try {
+        this.h = v10;
+    } catch(e17) {
+    }
+}
+new F12(v10, v2);
+new F12(v9, F12);
+new F12(v11, v2);
+[1.7976931348623157e+308,-5.063738949828065,-1000000.0,-4.0,4.0,1.368499884638594e+307,0.0,-1.2131530743918297,-1000000000.0,-2.809909548595164];
+Set.concat();

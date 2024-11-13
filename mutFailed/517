@@ -1,0 +1,69 @@
+function f0() {
+    function f1(a2, a3, a4) {
+        const o12 = {
+            toString(a6, a7, a8) {
+                a3 < this;
+                return super[a4];
+            },
+            get d() {
+                return this;
+            },
+        };
+        return o12;
+    }
+    %OptimizeFunctionOnNextCall(f1);
+}
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a16;
+}
+const v19 = new F13();
+for (const v20 in v19) {
+}
+function f21() {
+    return f0;
+}
+function f24(a25, a26, a27) {
+    const o35 = {
+        n(a29, a30, a31) {
+            return f24;
+        },
+        valueOf(a33, a34) {
+            return a34;
+        },
+    };
+    return o35;
+}
+const t36 = f24();
+t36[-2147483649] *= -13;
+v19[16];
+function f42(a43, a44) {
+}
+function f47(a48, a49) {
+    const o50 = {
+        __proto__: a49,
+    };
+    return a48;
+}
+f47(1340360056, null);
+const v57 = new Uint8ClampedArray(4);
+const v58 = v57.indexOf();
+new f21();
+new Int16Array(64);
+new v58(257828.6336153492);
+gc();
+const o66 = {
+};
+const v71 = new Int8Array(770);
+new Uint8ClampedArray(v71);
+new Int8Array(1);
+new Int8Array(15);
+for (let v78 = 0; v78 < 5; v78++) {
+    const o82 = {
+        set b(a80) {
+            v78.b;
+        },
+    };
+    o82.b = v78;
+    o82.b = o82;
+}

@@ -1,0 +1,35 @@
+new WeakMap();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a4;
+    } catch(e5) {
+    }
+}
+new F2(WeakMap);
+const v7 = new F2(F2);
+const v8 = new F2(WeakMap);
+const v9 = [-744673.3297502734,-1000000000.0,-894446.5347356123,0.5008261968118526,1.0,-1000000000.0];
+const v10 = [820614.5617819829,-1000000.0,1e-15,1.3156841627616078];
+const v11 = [-273147.6557577348,-1000000000000.0,-2.2250738585072014e-308,NaN,0.8374116396085172,-3.0];
+class C15 {
+    [F2];
+    g = v10;
+    constructor(a17, a18) {
+        v10[v11] = a17;
+        /k+/vsy;
+        /la(?=bbb|bb)c/vdy;
+        /H8\u0060/vs;
+    }
+    #a = 10;
+    static o(a23, a24, a25, a26) {
+        super[a24] = this;
+        try { a25.p(v10, v7, v8, -1073741824, this); } catch (e) {}
+        return v10;
+    }
+}
+new C15(v11, v9);
+new C15(v11, F2);
+new v8(v10, v8);
+const v32 = new Float64Array();
+v32 > Uint32Array;

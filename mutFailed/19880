@@ -1,0 +1,57 @@
+new Int16Array(1);
+new Int8Array(8);
+new Int8Array(181);
+class C9 extends Int8Array {
+    constructor(a11, a12, a13) {
+        super(8, a11, a12);
+        const o14 = {
+        };
+        try {
+            o14.c = 1;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.c = 1;
+            o16.d = 8;
+        } catch(e17) {
+        }
+        try {
+            const o18 = {
+            };
+            o18.d = o18;
+            o18.c = 1;
+            o18.d = 8;
+            o18.b = 181;
+        } catch(e19) {
+        }
+        try {
+            const o20 = {
+            };
+            o20.a = 181;
+            o20.c = 1;
+            o20.d = 8;
+            o20.a = 1;
+        } catch(e21) {
+        }
+    }
+}
+new C9(8, 181, 8);
+new C9(181, 1, 1);
+new C9(8, 8, 8);
+class C26 {
+    constructor(a28, a29) {
+        function f30(a31) {
+            return this;
+        }
+        const o34 = {
+            "type": "function",
+        };
+        o34.arguments = f30;
+        new Worker(f30, o34);
+    }
+}
+const v36 = new C26(C26, C26);
+new C26();
+new C26(-50865, v36);

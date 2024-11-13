@@ -1,0 +1,102 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -53736;
+    } catch(e3) {
+    }
+    try {
+        this.a = -53736;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8() {
+    return v5;
+}
+class C9 extends f8 {
+    valueOf(a11) {
+        const v12 = f8();
+        try {
+            super.all(f8, v7, v12, this);
+        } catch(e14) {
+        }
+        super.f |= v12;
+        this in v7;
+        const v17 = new Date();
+        v17["getUTCMilliseconds"]();
+        class C20 {
+            set e(a22) {
+                const v24 = Symbol.iterator;
+                const o30 = {
+                    [v24]() {
+                        let v26 = 10;
+                        const o29 = {
+                            next() {
+                                v26--;
+                                return this;
+                            },
+                        };
+                    },
+                };
+            }
+        }
+        const v31 = new C20();
+        function f32(a33, a34) {
+            const o41 = {
+                512: C20,
+                4294967295: a33,
+                valueOf(a36, a37) {
+                    return a37;
+                },
+                "e": v31,
+                o(a39, a40) {
+                    return a40;
+                },
+            };
+            return o41;
+        }
+        return f8;
+    }
+    static #d;
+    #c = v5;
+    static e;
+    static 9 = f8;
+}
+const v42 = new C9();
+const v43 = new C9();
+new C9();
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a47;
+    } catch(e49) {
+    }
+    try {
+        this.g = a48;
+    } catch(e50) {
+    }
+}
+new F45(v7, v42);
+new F45(v42, v6);
+new F45(v43, v42);
+[-3.0,0.45659751000498894,-1000000.0,3.0,0.7977175822592876,-1000000000000.0];
+const v55 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+try { v55.some(); } catch (e) {}
+for (let v57 = 0; v57 < 5; v57++) {
+    v57 >>> v57;
+}
+[0.32263210525704633,0.9348771008971412];
+[174.873066708343,-3.841395818816469e+307,-861085.6233315285,Infinity,1.773022318924495];
+function F61(a63, a64, a65, a66) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v67 = this.constructor;
+    let v68;
+    try { v68 = new v67(a64); } catch (e) {}
+    const v71 = new Uint16Array(512);
+    new Float32Array(v71);
+    typeof v68 === "symbol";
+}
+new F61(F61, F61, F61, F61);
+new F61();

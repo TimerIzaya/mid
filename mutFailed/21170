@@ -1,0 +1,46 @@
+let v0 = [];
+class C1 {
+    static #p() {
+        function f3() {
+            return v0;
+        }
+        return f3;
+    }
+    static get g() {
+        v0 | this;
+        v0 = this;
+        this.a;
+        return this;
+    }
+    static #e = v0;
+}
+const v8 = new v0();
+new C1();
+const v10 = new C1();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v8;
+    } catch(e15) {
+    }
+    try {
+        this.a = C1;
+    } catch(e16) {
+    }
+}
+const v17 = new F11(C1, v8);
+new F11(v10, v17);
+new F11(v0, C1);
+new Float64Array(181);
+new Uint32Array(10);
+new Uint8Array(336);
+class C29 {
+}
+const v30 = C29.length;
+const v31 = new Uint32Array();
+const v32 = v31.toLocaleString();
+const v33 = new C29();
+const t42 = v33.constructor;
+const v35 = new t42();
+const v38 = ([126.35858692635452,171.76053631394439,637722.086033537,-4.0,3.0,-1000000.0,1.3044045702886066e+308]).join(v30);
+Date["UTC"](v32, v30, 0, ([-1.5529887870333795e+308,-748.1650295275717,0.9205726241487137,1.0,-1000.0,-3.1477078363151474,2.220446049250313e-16,Infinity]).reverse(), v38, v32, v35);

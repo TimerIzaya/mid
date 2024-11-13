@@ -1,0 +1,26 @@
+const v5 = new BigUint64Array(16);
+[127];
+Reflect.construct(BigUint64Array, v5, BigUint64Array);
+const v10 = new WeakSet();
+new Int16Array(v10);
+new BigInt64Array(129);
+function f17() {
+    const v19 = ([f17,f17]).constructor;
+    const v20 = new v19();
+    class C21 extends v19 {
+    }
+    const v22 = new C21();
+    try { v22.reduceRight(); } catch (e) {}
+    return v20;
+}
+%PrepareFunctionForOptimization(f17);
+const v24 = f17();
+%OptimizeFunctionOnNextCall(f17);
+function f25() {
+    return WeakSet;
+}
+let {"a":v26,"h":v27,} = v24;
+let v30 = 9007199254740991;
+Math.atan2(-2.220446049250313e-16, v24);
+v30 ** +(v30++);
+f17();

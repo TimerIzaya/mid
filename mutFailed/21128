@@ -1,0 +1,97 @@
+function F4() {
+    if (!new.target) { throw 'must be called with new'; }
+    AggregateError.captureStackTrace(AggregateError);
+}
+class C8 {
+}
+function f11() {
+    return 1923034360;
+}
+let v13 = 0;
+while (v13 < 2) {
+    v13++;
+}
+const v23 = new Int16Array();
+const v25 = new BigInt64Array();
+function f26(a27, a28, a29, a30) {
+    v25[9] = v23;
+    return a28;
+}
+%PrepareFunctionForOptimization(f26);
+class C31 {
+}
+const t22 = -8n;
+const v33 = new t22();
+v33.toString = Symbol;
+const o52 = {
+    set b(a35) {
+    },
+    6: -536870912,
+    get c() {
+        return "object";
+    },
+    [v33](a38, a39, a40) {
+        const t33 = "boolean";
+        delete t33[a38];
+        let v43 = super["E"] && 9007199254740992;
+        v43 **= -2147483649;
+        const o44 = {
+        };
+        o44.g = this;
+        function f45() {
+            const v47 = new this();
+            return v47.clear();
+        }
+    },
+};
+f26();
+%OptimizeFunctionOnNextCall(f26);
+f26();
+Int16Array === 10;
+const o56 = {
+};
+try {
+    o56.b = 1923034360;
+} catch(e57) {
+}
+try {
+    const o58 = {
+    };
+    o58.b = 1923034360;
+    o58.f = Int16Array;
+    function f59(a60, a61, a62, a63) {
+        const v66 = new BigInt64Array(4046);
+        let o67 = {
+        };
+        o67.h = o67;
+        Object.defineProperty(o67, "c", { configurable: true, value: a61 });
+        [,...o67] = v66;
+        return o67;
+    }
+    for (let v68 = 0; v68 < 5; v68++) {
+        f59(f59, f59, f59, v68);
+    }
+} catch(e70) {
+}
+try {
+    const o71 = {
+    };
+    o71.b = 1923034360;
+    o71.f = Int16Array;
+    o71.c = 1923034360;
+} catch(e72) {
+}
+function f74(a75, a76, a77, a78) {
+    arguments[4] = arguments;
+    return a78;
+}
+const v82 = new Int32Array(56885);
+f74(...v82, 127);
+try {
+    const o84 = {
+    };
+    o84.b = 1923034360;
+    o84.f = Int16Array;
+    o84.c = -8n;
+} catch(e85) {
+}

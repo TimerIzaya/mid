@@ -1,0 +1,34 @@
+-56602n / -1994632058;
+const v8 = Symbol.iterator;
+const o17 = {
+    [v8]() {
+        const o16 = {
+            next() {
+                let v11 = this;
+                v11--;
+                const v14 = 10 == 0;
+                const o15 = {
+                    "done": v14,
+                    "value": 10,
+                };
+                return o15;
+            },
+        };
+        return -1994632058;
+    },
+};
+const v20 = 4096 | 4096;
+const v27 = delete o17?.f;
+v27[v20] = v27;
+try {
+    v27.__proto__ = v27;
+} catch(e28) {
+}
+try { ("9007199254740991").match(268435439); } catch (e) {}
+try { ("a").trimStart(); } catch (e) {}
+class C34 {
+    ["9007199254740991"] = "a";
+}
+const t31 = 13090n;
+const v35 = new t31();
+v35[9007199254740991] = v35;

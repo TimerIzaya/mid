@@ -1,0 +1,31 @@
+new BigInt64Array(4);
+new Uint32Array(9);
+new Uint8ClampedArray(12);
+function f15() {
+    let v16 = 852.2904873570058;
+    function f17() {
+        const v18 = [];
+        v18[6] = v18;
+        const o21 = {
+            set b(a20) {
+            },
+        };
+        return v16;
+    }
+    for (let v22 = 0; v22 < 5; v22++) {
+        f15();
+        %OptimizeFunctionOnNextCall(f17);
+    }
+    const o28 = {
+        m(a25, a26) {
+            v16++;
+            return 63425;
+        },
+    };
+    return o28;
+}
+%PrepareFunctionForOptimization(f15);
+f15();
+f15();
+%OptimizeFunctionOnNextCall(f15);
+f15();

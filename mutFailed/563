@@ -1,0 +1,40 @@
+const v2 = new Float32Array(1000);
+new BigUint64Array(7);
+const v8 = new Int8Array(1000);
+v8[493] = v8;
+const v9 = [v8,1000];
+const v10 = [v9];
+[Int8Array,v10,v10,1000,v9];
+class C12 {
+}
+const v13 = new C12();
+const v14 = v13?.constructor;
+try { new v14(); } catch (e) {}
+const v16 = new C12();
+const v17 = new C12();
+const v18 = v17?.constructor;
+try { new v18(); } catch (e) {}
+function f20(a21, a22) {
+    const v23 = a21?.constructor;
+    try { new v23(); } catch (e) {}
+    const o25 = {
+        __proto__: a21,
+    };
+    return v13;
+}
+const v26 = f20(v13);
+let v27;
+try { v27 = v26.__defineSetter__(v17, v2); } catch (e) {}
+const v28 = f20(v16);
+const v30 = f20(v17)?.__defineGetter__;
+try { new v30(1000, v26); } catch (e) {}
+try { v28["n"](); } catch (e) {}
+const v36 = -63523 >= 127;
+v36 || v36;
+v36 ? -63523 : 127;
+try { Math.asinh(v16); } catch (e) {}
+const v41 = -(-63523);
+v41 >>> v41;
+Math.asinh(v41);
+const v44 = v27.acosh();
+v44 & v44;

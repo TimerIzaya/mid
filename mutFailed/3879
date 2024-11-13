@@ -1,0 +1,48 @@
+let v0 = -6;
+class C3 {
+    #f = v0;
+    static {
+        const v6 = v0.iterator;
+        const o15 = {
+            [v6]() {
+                const o14 = {
+                    next() {
+                        v0--;
+                        const v12 = 10 == 0;
+                        const o13 = {
+                            "done": v12,
+                            "value": 10,
+                        };
+                        return o13;
+                    },
+                };
+                return o14;
+            },
+        };
+    }
+}
+const v16 = new v0();
+v16?.constructor;
+let v18;
+try { v18 = new C3(); } catch (e) {}
+const v19 = new C3();
+const v20 = v19?.__lookupSetter__;
+try { new v20(v0); } catch (e) {}
+const v22 = new C3();
+try { v22.isPrototypeOf(C3); } catch (e) {}
+new Map();
+function f26() {
+    return "-605499107";
+}
+function f27() {
+    return "-605499107";
+}
+try { v19(); } catch (e) {}
+[v22,v0,f27,["boolean"]];
+[v18];
+~127;
+55268 === 55268;
+let v37 = -1073741824n;
+v37--;
+const v41 = ([16,v37]).flat(16);
+v41[1] = v41;

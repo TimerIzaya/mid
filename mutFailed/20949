@@ -1,0 +1,81 @@
+class C3 {
+    [14];
+    static {
+        const v5 = typeof "is";
+        class C6 {
+        }
+        function f7() {
+            const t7 = "is";
+            t7.length /= 14;
+            C6.a;
+            return C3;
+        }
+        C6.valueOf = f7;
+        const v9 = new C6();
+        v9.constructor = f7;
+        const v10 = v9.constructor;
+        function f11() {
+            return f7;
+        }
+        const v13 = Symbol.toPrimitive;
+        Object.defineProperty(v10, v13, { writable: true, configurable: true, get: f11 });
+        for (let i15 = 0, i16 = v10;
+            (() => {
+                function f17(a18) {
+                    try {
+                        v13.__proto__ = v10;
+                    } catch(e19) {
+                    }
+                    return i15;
+                }
+                i16.valueOf = f17;
+                return i15 < i16;
+            })();
+            ) {
+        }
+        v5 === "boolean";
+    }
+    m(a28, a29) {
+        16 / a29;
+        Math.hypot(3.321869575383777e+307);
+        !3.321869575383777e+307;
+        Math.log10(10);
+        return this;
+    }
+}
+const v38 = new C3();
+const v39 = new C3();
+let v40 = new C3();
+function f41(a42, a43) {
+    const o46 = {
+        ["is"]: "is",
+        __proto__: v38,
+        "a": "is",
+        get g() {
+            v40 = a42;
+            try {
+                this.__proto__ = v38;
+            } catch(e45) {
+            }
+            return v40;
+        },
+        ..."is",
+        1: a42,
+        "h": a42,
+        "d": a42,
+    };
+    return o46;
+}
+f41(v38, v38);
+f41(v38, v38);
+f41(v38, v39);
+class C54 extends Array {
+}
+const o56 = {
+    "c": Array,
+};
+new BigUint64Array(1925);
+new Uint8ClampedArray(255);
+new Uint8ClampedArray(1);
+const v66 = [1868255996,1,2,9007199254740992];
+try { v66.includes(undefined, -4934n); } catch (e) {}

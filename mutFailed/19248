@@ -1,0 +1,116 @@
+const v0 = [23845,39286,-1273,-1906043123,3,1192969650,-1,-47595,10];
+function f1(a2, a3) {
+    function f6(a7, a8, a9) {
+        return true;
+    }
+    const v12 = [188,true];
+    const o13 = {
+        "arguments": v12,
+        "type": "function",
+    };
+    new Worker(f6, o13);
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+const v17 = [340100902,-26837,8,9007199254740991,-9223372036854775807];
+const v18 = [-128,10000,-1024];
+v18[Symbol.toPrimitive] = Symbol;
+function f21(a22) {
+    function f23() {
+        return f21;
+    }
+    Object.defineProperty(a22, Symbol.toPrimitive, { writable: true, configurable: true, get: f23 });
+    const o63 = {
+        ...v18,
+        "d": v18,
+        get f() {
+        },
+        __proto__: v18,
+        [v0](a28, a29, a30) {
+        },
+        "h": a22,
+        valueOf(a32, a33) {
+            return a32;
+        },
+        toString(a35, a36, a37) {
+            return a36;
+        },
+        toString(a39) {
+            a39.toString = Symbol;
+            return delete a22[a39];
+        },
+        "f": v0,
+        /*
+        __proto__: a22,
+        */
+        set e(a42) {
+            for (let i45 = 10, i46 = 10; i45 < i46; i45++) {
+                continue;
+            }
+            v0.length >>= a42;
+            delete a42?.[2147483649];
+            [a42,this];
+            const v56 = a22.findLast;
+            const o60 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o60);
+            Reflect.apply(v56, this, f21);
+        },
+    };
+    return o63;
+}
+const v64 = f21(v18);
+const v65 = f21(v0);
+const v66 = f21(v18);
+const v68 = v66["toString"](v0, v64);
+f21(v68);
+%PrepareFunctionForOptimization(f21);
+f21(v68);
+f21(v68);
+%OptimizeFunctionOnNextCall(f21);
+f21(v68);
+function f73(a74, a75, a76) {
+    a76[Symbol.toPrimitive] = Symbol;
+    const o85 = {
+        __proto__: v18,
+        [v64](a80, a81, a82) {
+            throw a82;
+            try {
+                new f21(a81);
+            } catch(e84) {
+            }
+            return a81;
+        },
+        257: v17,
+        "h": f21,
+        "c": v18,
+        "g": a76,
+        "f": v17,
+    };
+    return o85;
+}
+f73(v18, v18, v64);
+f73(v0, v0, v65);
+f73(v17, v17, v66);
+const v92 = /(?<a>.)\k<a>?/vdimsy;
+const v95 = [4096];
+const o96 = {
+    "arguments": v95,
+    "type": "function",
+};
+let v97;
+try { v97 = v92(); } catch (e) {}
+const v98 = [v97,v97,v97];
+function f99() {
+    const v100 = -v98;
+    v100 && v98;
+    const t107 = -7;
+    t107[v100] &= v97;
+    return v92;
+}
+%PrepareFunctionForOptimization(f99);
+f99();
+%OptimizeFunctionOnNextCall(f99);
+f99();

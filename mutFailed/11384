@@ -1,0 +1,65 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v0;
+    } catch(e3) {
+    }
+    try {
+        this.g = v0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = new F1();
+const v7 = new v0();
+const v9 = new Set();
+const v10 = [F1];
+const v11 = [v7,v7,v10,Set,v9];
+const v12 = [v11,v6,v10,F1,v5];
+function f16(a17, a18) {
+    const o29 = {
+        [v9]: v11,
+        get h() {
+            const v20 = v9.size;
+            const o21 = {
+            };
+            try {
+                o21.c = v20;
+            } catch(e22) {
+            }
+            try {
+                const o23 = {
+                };
+                o23.c = this;
+                o23.e = v0;
+            } catch(e24) {
+            }
+            try {
+                const o25 = {
+                };
+                o25.c = this;
+                o25.e = a18;
+                o25.g = 9707;
+            } catch(e26) {
+            }
+            try {
+                const o27 = {
+                };
+                o27.c = this;
+                o27.e = v0;
+                v5.g = a17;
+            } catch(e28) {
+            }
+            return o21;
+        },
+    };
+    return o29;
+}
+f16(1034246150, v10);
+F1(-758951061, v0);
+f16(-758951061, v12);
+const v33 = [2.0,-1e-15,1.7976931348623157e+308];
+const v36 = new Int16Array(1371);
+v33.flat(1351);
+v36.lastIndexOf(1371, 1351);

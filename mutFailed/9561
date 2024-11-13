@@ -1,0 +1,44 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -65537;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+const t10 = "NEGATIVE_INFINITY";
+t10.toString = -256;
+new Int16Array(-256);
+!false;
+class C18 {
+    set h(a20) {
+    }
+    b;
+}
+13 >>> 13;
+try {
+const t0 = 1e-15;
+t0(2);
+} catch (e) {}
+Math.atanh(2);
+new Float32Array(13);
+let {"c":v33,"g":v34,"length":v35,} = "size";
+const t27 = "size";
+t27.d = -4;
+new Float64Array(1073741824);
+Uint32Array.prototype = Uint32Array;
+const v41 = new Uint32Array(1192);
+try { v41.set(v41); } catch (e) {}
+BigUint64Array.prototype;
+new BigUint64Array(230);
+for (let v47 = 0; v47 < 5; v47++) {
+    function f48() {
+        Math.fround();
+        return v47;
+    }
+    f48();
+    %OptimizeFunctionOnNextCall(f48);
+}
+-10 instanceof WeakMap;

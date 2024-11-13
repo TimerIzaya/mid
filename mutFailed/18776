@@ -1,0 +1,28 @@
+let v0 = [];
+class C1 {
+    static #c;
+    static #m() {
+        let v2 = this;
+        v0[254713983] = v2;
+        let v3 = delete v2[3543];
+        ({"f":v3,...v2} = v0 = v2);
+        const o7 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o7);
+        return o7;
+    }
+}
+new C1();
+new C1();
+new C1();
+new Int16Array(411);
+new BigUint64Array(128);
+new BigInt(2622, BigUint64Array);
+new Array(56);
+for (let v24 = 0; v24 < 5; v24++) {
+    const v27 = v24 >> -18321;
+    Math.log1p(v24);
+    Math.tan(v27);
+}

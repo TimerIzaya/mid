@@ -1,0 +1,77 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    a5--;
+    try {
+        this.b = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(-12n, 1073741824n);
+const v10 = new F3(1073741824n, -12n);
+const v11 = new F3(-2n, 1073741824n);
+const v12 = v11?.__defineSetter__;
+try { new v12(-12n, -12n); } catch (e) {}
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    a16 === a16;
+    try {
+        this.h = v9;
+    } catch(e21) {
+    }
+}
+try { new F14(1073741824n, v10, v9, -2n); } catch (e) {}
+const v23 = new F14(-2n, -12n, F3, -12n);
+v23.h = v23;
+new F14(1073741824n, -12n, v23, -2n);
+new F14(-12n, 1073741824n, F14, -12n);
+Float32Array.e = Float32Array;
+new Float32Array(822);
+2930 << 2930;
+Uint8ClampedArray.prototype = Uint8ClampedArray;
+new Uint8ClampedArray(2930);
+1073741824n & 256;
+new BigUint64Array(256);
+const v37 = [];
+class C38 {
+    static get b() {
+        try {
+            super.getOwnPropertyNames();
+        } catch(e41) {
+        }
+        return v37;
+    }
+    constructor() {
+        const v43 = this?.constructor;
+        try { new v43(); } catch (e) {}
+        this[v37] = this;
+        this[-2n] %= this;
+    }
+    static e;
+    [v37];
+}
+try { new C38(); } catch (e) {}
+const v46 = new C38();
+const v47 = v46?.__defineSetter__;
+try { new v47(v46, Uint8ClampedArray); } catch (e) {}
+const v49 = new C38();
+v49.length;
+class C57 {
+    [-9] = v49;
+    4294967296;
+    5;
+}
+try { new C57(); } catch (e) {}
+new C57();
+const v60 = new F3();
+new C57();
+4294967296 !== v60;
+const v63 = v46 << 65535;
+v63 + v63;
+const o68 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o68);
+const t73 = -9;
+t73[9] = -124726096;
+8342 >> 8342;

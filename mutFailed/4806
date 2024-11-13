@@ -1,0 +1,75 @@
+const v1 = new Date();
+v1.toString = Date;
+function f2(a3, a4) {
+    const v6 = Symbol.toPrimitive;
+    Object.defineProperty(a3, v6, { enumerable: true, value: f2 });
+    function f7() {
+        const o8 = {
+        };
+        const v9 = f2();
+        function F10(a12, a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            a12.g = a12;
+            const v14 = this?.constructor;
+            try { new v14(f2, v9); } catch (e) {}
+        }
+        new F10(o8);
+        return v6;
+    }
+    a4.toString = f7;
+    const o24 = {
+        "f": a3,
+        [a4]: a4,
+        [a3]: a3,
+        valueOf(a18, a19) {
+            Date(a3);
+            %PrepareFunctionForOptimization(Date);
+            Date(a3);
+            Date(a3);
+            %OptimizeFunctionOnNextCall(Date);
+            Date(a3);
+            return this;
+        },
+        [Date]: v1,
+    };
+    return o24;
+}
+const v25 = f2(v1, f2);
+const v26 = f2(Date, f2);
+let v27 = f2(v25, v26);
+function f28(a29, a30) {
+    function f31() {
+        Date * v26;
+        return e;
+    }
+    a30.toString = f31;
+    const o36 = {
+        get c() {
+            v27 = this;
+            Date(v26);
+            return v1;
+        },
+        ...v1,
+        __proto__: v25,
+        "c": v25,
+        "g": a30,
+        [a30]: v27,
+        36: v1,
+        6: a30,
+        536870888: a30,
+    };
+    return o36;
+}
+f28(v27, v26);
+f28(v25, v27);
+f28(v27, v27);
+/efoo(?=bar)baz/dy;
+/foo(?<!bar)baz/gudimsy;
+/a\bc(w)/giy;
+class C49 {
+    constructor(a51, a52) {
+        const o54 = {
+            84: arguments,
+        };
+    }
+}

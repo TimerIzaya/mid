@@ -1,0 +1,55 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a9;
+    } catch(e10) {
+    }
+}
+const v11 = new F6("isNaN", "isNaN");
+const v12 = new F6("find", "isNaN");
+class C13 {
+}
+const v14 = new v11();
+const o16 = {
+};
+const v18 = new Proxy(v14, o16);
+v18[v18] = 0.3050534209767637;
+const v19 = new F6("find", "boolean");
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v19;
+    } catch(e26) {
+    }
+}
+new F20(-1024n, "boolean", "isNaN", v12);
+new F20(57517n, "boolean", "isNaN", v11);
+new F20(-1024n, "isNaN", "find", v19);
+const v32 = new Uint8ClampedArray();
+new Int32Array(2);
+const v38 = new Uint8Array(14);
+let v43 = new o16();
+class C44 {
+    constructor(a46, a47) {
+        super[a46]?.[1];
+    }
+    c = Int32Array;
+    static 268435439;
+    static get d() {
+        let v50 = this;
+        v50 ||= v50;
+        return [-679038690,7,-65536,3,1461677839,9];
+    }
+    static d = WeakMap;
+}
+new C44("-19084", 2);
+new C44("-19084", 5);
+new C44("U2pI", 5);
+v43 /= v38;
+let v55;
+try { v55 = v32("function", 14); } catch (e) {}
+function f56(a57, a58) {
+    v55(14);
+    [Float64Array,Float64Array,Float64Array,a57,a58];
+    [[5],Uint8Array];
+}

@@ -1,0 +1,31 @@
+let v0 = "f";
+class C6 {
+    #g;
+    static set g(a8) {
+        try {
+            this.fuck(-3575n, 1e-15, this);
+        } catch(e11) {
+        }
+        v0 = this;
+    }
+    #b;
+    #d = C6;
+}
+new v0();
+const v13 = new v0();
+new v13();
+function f15() {
+    return -3575n;
+}
+function f16(a17, a18) {
+    const o19 = {
+        ...a17,
+    };
+    o19.g = v0;
+    return f16;
+}
+f16.d = f16;
+%PrepareFunctionForOptimization(f16);
+const t28 = f16();
+%OptimizeFunctionOnNextCall(t28(f16));
+f16();

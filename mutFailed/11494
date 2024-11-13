@@ -1,0 +1,129 @@
+try { (-1.5671435055421935e+308).toSpliced(); } catch (e) {}
+function F3() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f5() {
+    return f5;
+}
+function f6() {
+    const v10 = new Date(-9223372036854775807);
+    v10.setMonth(-3);
+    return v10;
+}
+f5.toString = f6;
+const o13 = {
+    [f5]() {
+    },
+};
+const v14 = [o13];
+const v17 = ["function",[v14]];
+function F19(a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 6.9174841249566725;
+        let v23 = 10;
+        v23--;
+        function F25() {
+            if (!new.target) { throw 'must be called with new'; }
+            const v27 = this.constructor;
+            let v29 = -16n;
+            function f30() {
+                v29 *= -1911645276n;
+                for (let i33 = 0, i34 = 10; i33 < i34; i33++, i34--) {
+                    F19 *= f30;
+                }
+                return F25;
+            }
+            f30();
+            new v27(f30, f30());
+        }
+    } catch(e48) {
+        function f49(a50) {
+            const v51 = [536870887,-42204,-17288903,-3,9007199254740991,7];
+            [6,268435440,13,1073741825];
+            function f53(a54, a55) {
+                const o56 = {
+                    "c": a21,
+                };
+                return o56;
+            }
+            f53(v51, v51);
+            let v58 = 0;
+            v58++;
+            return f49 - o13;
+        }
+    }
+    try {
+        this.f = a21;
+    } catch(e61) {
+    }
+}
+F19.toString = f5;
+const v62 = new F19(-1.5671435055421935e+308, F19);
+const v63 = new F19(-1.5671435055421935e+308, v62);
+new F19(-0.1659385995803948, F19);
+class C65 {
+    static set f(a67) {
+        for (let v68 = 0; v68 < 32; v68++) {
+            v63["p" + v68] = v68;
+        }
+    }
+    static 9 = F19;
+    static h;
+    static [F19] = -1.5671435055421935e+308;
+    static f = -1.5671435055421935e+308;
+}
+new C65();
+new C65();
+const v73 = new C65();
+const v74 = [];
+function f75() {
+    const v76 = v74.constructor;
+    function F77(a79, a80) {
+        if (!new.target) { throw 'must be called with new'; }
+        function f81(a82) {
+            const v83 = [1024];
+            function F84(a86) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.c = v83;
+            }
+            const v87 = new F84();
+            const v88 = new F84();
+            function F90(a92, a93, a94) {
+                if (!new.target) { throw 'must be called with new'; }
+                const v95 = this.constructor;
+                try { new v95(a94, 10n, a94); } catch (e) {}
+                a93.c = a93;
+                a94.e = a94;
+            }
+            const v97 = new F90(v87, v88, v83);
+            return v97;
+        }
+        a80.constructor = f81;
+        const v98 = a80.constructor;
+        try { v98("function", a80); } catch (e) {}
+    }
+    new F77(F77, F77);
+    v76.call();
+    return v76;
+}
+%PrepareFunctionForOptimization(f75);
+f75();
+class C103 {
+    constructor(a105, a106) {
+        for (let v116 = 0; v116 < 32; v116++) {
+            const t114 = "-1073741824";
+            t114["p" + v116] = v116;
+        }
+        const o123 = {
+            84: arguments,
+            "g": a105,
+            ...v73,
+            "d": v14,
+            __proto__: v17,
+            4294967296: a105,
+        };
+    }
+}
+%OptimizeFunctionOnNextCall(C65);
+f75();

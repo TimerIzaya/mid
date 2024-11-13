@@ -1,0 +1,34 @@
+[-128,-3,7];
+[-1,-2147483648];
+[-65536,-65535,9007199254740991,682184533,356850553,4,536870888,268435456,8];
+new Int32Array(37);
+new Uint16Array(2);
+new BigInt64Array(257);
+class C13 {
+    static #c;
+    constructor(a15, a16, a17) {
+        for (let v18 = 0; v18 < 25; v18++) {
+            function F26(a28) {
+                if (!new.target) { throw 'must be called with new'; }
+                const v29 = a28 ^ a28;
+                let v30 = v29 * v29;
+                v30--;
+                const v32 = this.constructor;
+                v32.length = v32;
+                try { new v32(3n); } catch (e) {}
+            }
+            new F26(0n);
+            new F26(349865170n);
+            ("buffer")["search"](..."buffer", ..."search", ..."search", 255, ..."search");
+            const o40 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o40);
+        }
+    }
+}
+new C13();
+new C13();
+new C13();
+[601759695];

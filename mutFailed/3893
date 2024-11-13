@@ -1,0 +1,76 @@
+function f0() {
+    const o12 = {
+        o(a5) {
+            -1000.0 | this;
+            ("167863186").__proto__;
+            return a5;
+        },
+        __proto__: "167863186",
+        "b": -1000.0,
+        "c": "167863186",
+        "h": 16,
+        p(a9, a10) {
+            const t12 = a9?.[8];
+            t12[0] = 16;
+            return a10;
+        },
+        ["167863186"]: -1000.0,
+    };
+    return o12;
+}
+const v13 = f0();
+function f14() {
+    f0();
+    %PrepareFunctionForOptimization(f0);
+    f0();
+    const v17 = f0();
+    %OptimizeFunctionOnNextCall(f0);
+    f0();
+    return v17;
+}
+v13[Symbol.replace] = f14;
+f0();
+const v22 = f0();
+class C23 {
+    constructor(a25, a26) {
+        a25[Symbol.toPrimitive] = f14;
+        (f0 >= a25) instanceof f0;
+        super.a = v13;
+    }
+    static {
+        v13[Symbol.replace];
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeMaglevOnNextCall(f0);
+        f0();
+    }
+}
+const v40 = new C23(v22, v22);
+function f41() {
+    Promise.d = Promise;
+    return Promise;
+}
+v40.valueOf = f41;
+const v43 = new C23(v40, v22);
+v43.valueOf = f0;
+new C23(v43, v13);
+class C45 {
+    #o(a47, a48) {
+        a47 >= v13;
+        new Uint8Array(180);
+        new Uint32Array(8);
+        new Uint32Array(16);
+        return Uint32Array;
+    }
+    [f0];
+}
+new C45();
+new C45();
+new C45();
+function f67() {
+    return undefined;
+}
+const v69 = ([,]).group(f67);
+v69.b = v69;

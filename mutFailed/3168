@@ -1,0 +1,43 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        this.cbrt = this;
+        let v3 = super[this];
+        v3 **= this;
+        let v4;
+        try { v4 = this.cbrt(this, this); } catch (e) {}
+        var d = f0;
+        super.f = v4;
+        try {
+            this.h = v3;
+        } catch(e5) {
+        }
+    }
+}
+const v6 = new C1();
+new C1();
+new C1();
+const v11 = new C1(183);
+new Uint16Array(6);
+const v17 = new Float32Array(4096);
+class C18 {
+    constructor(a20, a21) {
+        [v6[v17]];
+        [[C1,Uint16Array,a21,Uint16Array,183]];
+    }
+}
+const v26 = new C18();
+function f27(a28, a29, a30) {
+    const o32 = {
+        get b() {
+            return a29;
+        },
+        127: v17,
+    };
+    return f27;
+}
+%PrepareFunctionForOptimization(183);
+v11();
+%OptimizeFunctionOnNextCall(f27);
+f27(C1, v26, v26);

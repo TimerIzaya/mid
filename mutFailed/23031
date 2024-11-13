@@ -1,0 +1,22 @@
+function f0() {
+}
+new f0();
+function f3() {
+    return Set;
+}
+new Int32Array(127);
+new Uint32Array(128);
+new BigUint64Array(128);
+function f16() {
+    const o19 = {
+        m(a18) {
+            return f16;
+        },
+    };
+    o19.m();
+    return o19;
+}
+const v21 = f16();
+%PrepareFunctionForOptimization(f16);
+%OptimizeFunctionOnNextCall(f16());
+v21();

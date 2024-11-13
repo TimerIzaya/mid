@@ -1,0 +1,89 @@
+const v2 = new Int32Array(0);
+const v5 = new Uint8ClampedArray(127);
+const v8 = new Float32Array(5);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a13;
+    } catch(e15) {
+    }
+    try {
+        this.h = a11;
+    } catch(e16) {
+    }
+}
+const v17 = new F9(5, 5, 127, 127);
+const v18 = new F9(5, 0, 0, 0);
+const v19 = new F9(0, 5, 5, 5);
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        F20.d = a24;
+    } catch(e26) {
+    }
+}
+new v2(0, v18, v19, v18);
+new F20(5, v8, v19, v19);
+new F20(5, Float32Array, v19, v17);
+let v32 = Array();
+function f33(a34, a35) {
+    const o43 = {
+        "b": a34,
+        ...a35,
+        [a34](a37, a38) {
+            const v40 = WeakMap(a37);
+            const v41 = this.b;
+            super[v40] = v32;
+            function f42() {
+                return a34;
+            }
+            return v41;
+        },
+    };
+    return o43;
+}
+const v45 = f33(f33(8, 8), f33);
+const v46 = f33(v45, Array);
+const v47 = [-439900.9503882638,1.0,6.3170898061028105];
+const v48 = [2.2250738585072014e-308,-642410.6561922245];
+[1000.0,-2.693837761401012];
+function f50() {
+    return v46;
+}
+function f51(a52, a53) {
+    const o64 = {
+        get h() {
+            v32--;
+            4294967296 + v46;
+            ++v32;
+            Math.log1p(4294967296);
+            v32++;
+            -698162.0562706811 % 4294967296;
+            return v48;
+        },
+    };
+    return a52;
+}
+const v65 = f51(v47, v5);
+const v66 = f51(v48, v47);
+try { v66["p"](v46, v45, v65, 8); } catch (e) {}
+const o69 = {
+};
+try {
+} catch(e70) {
+}
+try {
+    const o71 = {
+    };
+} catch(e72) {
+}
+try {
+    const o73 = {
+    };
+} catch(e74) {
+}
+try {
+    const o75 = {
+    };
+} catch(e76) {
+}

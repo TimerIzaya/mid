@@ -1,0 +1,90 @@
+function f0() {
+    const o9 = {
+        ["1073741824"]: 268435441,
+        874720287: 268435441,
+        get d() {
+            try { this.m(268435441, this, this); } catch (e) {}
+            const o6 = {
+            };
+            const v8 = new Proxy("1073741824", o6);
+            return v8;
+        },
+        ["species"]: "1073741824",
+    };
+    return o9;
+}
+const v10 = f0(f0);
+const v11 = f0();
+const v12 = f0();
+v12[1073741824] = v12;
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this[v11] = v10;
+    let v17;
+    try { v17 = a16(a16, v11); } catch (e) {}
+    try { v17["p"](this, "p", "p"); } catch (e) {}
+    v12.d;
+    const v21 = this?.constructor;
+    try { new v21(a15, v10); } catch (e) {}
+    a15[1073741824] = a15;
+    try {
+        this.g = a16;
+    } catch(e23) {
+    }
+}
+F13.length;
+const v25 = new F13(v12, v10);
+const v26 = new F13(v12, v11);
+const v27 = new F13(v10, v11);
+function f28(a29, a30, a31) {
+    a31.g = a31;
+    const o37 = {
+        "a": a30,
+        get e() {
+            v12 & this;
+            return (a30 == a30 ? a30 : a30)[15];
+        },
+        ...a31,
+        "c": v26,
+        "f": v27,
+    };
+    return o37;
+}
+const v38 = f28(v25, v25, v26);
+v38.c = v38;
+f28(v25, v27, v27, v38, f0, v38);
+f28(v26, v25, v25);
+58091 >> 58091;
+Uint8ClampedArray.length;
+try { Uint16Array.from(v26); } catch (e) {}
+const v54 = new Uint16Array();
+try { v54.entries(); } catch (e) {}
+try { ("minor").anchor(v25); } catch (e) {}
+const o61 = {
+    "type": "minor",
+};
+gc(o61);
+Array(228);
+class C64 {
+}
+const v65 = new C64();
+const v66 = v65?.constructor;
+try { new v66(); } catch (e) {}
+const v68 = new C64();
+const v69 = v68?.constructor;
+try { new v69(); } catch (e) {}
+try { new Float64Array(Float64Array, Float64Array, gc); } catch (e) {}
+Float32Array.e = Float32Array;
+new Uint8Array(6);
+function F82() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C84 {
+}
+const v85 = new C84();
+ReferenceError.captureStackTrace(F82, v85);
+const v88 = [1000000000000.0,6.579220753226213e+307,2.0,-2.220446049250313e-16,NaN,-1000000.0];
+gc.caller = gc;
+try { ("findIndex").split("sync", v10); } catch (e) {}
+const v92 = v88["findIndex"](gc);
+v92 / v92;

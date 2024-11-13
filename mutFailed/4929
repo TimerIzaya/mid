@@ -1,0 +1,51 @@
+function f0() {
+}
+const v6 = new Uint8Array(3336);
+new Uint8Array(257);
+const v12 = new BigUint64Array(9);
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v18 = v6.constructor;
+    try { new v18(); } catch (e) {}
+    this.e = a17;
+}
+function f20() {
+    const v21 = [f20,9,v12];
+    function f22(a23) {
+        try {
+            v21.some(a23);
+        } catch(e25) {
+            f22.stack;
+        }
+    }
+    v21.toString = f22;
+    function f27() {
+        const o29 = {
+            __proto__: v21,
+            [v21]() {
+            },
+        };
+        return o29;
+    }
+    const v30 = new f27();
+    const v32 = new Int8Array(v21);
+    v21.a = v32[1];
+    f27(v6, -2.0);
+    class C35 {
+    }
+    let v36;
+    try { v36 = BigUint64Array(); } catch (e) {}
+    const v37 = [F13];
+    for (let v38 = 0; v38 < 5; v38++) {
+        for (let v39 = 0; v39 < 5; v39++) {
+            v30.atanh(v39);
+        }
+        new F13(undefined, v36, v36, v38, f22);
+    }
+    v37.constructor;
+    return F13;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+f20(257, 9);

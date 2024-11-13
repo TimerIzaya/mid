@@ -1,0 +1,78 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3, a4) {
+        new Float32Array([-37102.6674218484,-969411.635186719,-1.3592557640113297e+308,0.9054806195219168,1000000000000.0,-0.0,-3.0,-0.0]);
+        return this;
+    }
+    this[Symbol.toPrimitive] = f2;
+    try {
+        this.g = 9007199254740992;
+    } catch(e11) {
+    }
+    try {
+        this.e = 9007199254740992;
+    } catch(e12) {
+    }
+}
+const v13 = new F0();
+const v14 = new F0();
+const v15 = new F0();
+class C16 {
+    #c = F0;
+    constructor(a18, a19) {
+        function f20(a21, a22) {
+            const t23 = "g";
+            t23[14] &&= 14;
+            return this;
+        }
+        a18.toString = f20;
+        super[a18] = v13;
+        super.b;
+        try {
+            a18.#c;
+        } catch(e27) {
+        }
+    }
+    static g = v15;
+    #f = v14;
+    129;
+}
+const v28 = new C16(C16, v13);
+new C16(v14, C16);
+new C16(v13, v13);
+class C34 extends F0 {
+    get g() {
+        function f36(a37) {
+            return this;
+        }
+        class C38 extends f36 {
+            [-1] = C16;
+            [F0] = v28;
+        }
+        return "random";
+    }
+    static [C16] = C16;
+    ["random"] = "2";
+}
+new C34();
+new C34();
+new C34();
+class C42 {
+}
+new C42();
+new C42();
+const v45 = new C42();
+class C46 extends C42 {
+    constructor(a48, a49) {
+        super();
+        try {
+            a48.__proto__ = C42;
+        } catch(e50) {
+        }
+        new C42();
+    }
+}
+const v52 = new C46(v45);
+new C46(v52, v52);
+new C46();
+new C42();

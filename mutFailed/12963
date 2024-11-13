@@ -1,0 +1,45 @@
+new Uint8Array(2104);
+function f5() {
+    for (let v6 = 0; v6 < 5; v6++) {
+        function f7() {
+            return f7;
+        }
+        f7.d = v6;
+        f7.d = f7;
+    }
+    return 5;
+}
+%PrepareFunctionForOptimization(f5);
+const v8 = f5();
+%OptimizeFunctionOnNextCall(f5);
+v8();
+new Int32Array(5);
+new Uint8Array(256);
+const v16 = new Float64Array(1851);
+new Int16Array(910);
+function F21() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v23 = new F21();
+const v24 = new F21();
+class C25 extends F21 {
+    [v24];
+}
+const v26 = new C25();
+v26.hasOwnProperty(v23);
+new BigInt64Array(8);
+const v30 = [1073741824,1073741823,1376142744,1073741825];
+for (let v31 = 0; v31 < 5; v31++) {
+    function f32() {
+        try {
+            v30.forEach();
+        } catch(e34) {
+            e34.message = e34;
+            const v35 = e34.message;
+            v35.e = v35;
+        }
+        return v16;
+    }
+    f32();
+    %OptimizeFunctionOnNextCall(f32);
+}

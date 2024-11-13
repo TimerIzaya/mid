@@ -1,0 +1,48 @@
+const o7 = {
+};
+const v9 = new Proxy("bigint", o7);
+const o10 = {
+};
+try {
+    o10.g = "padEnd";
+} catch(e11) {
+}
+try {
+    const o12 = {
+    };
+    o12.g = "padEnd";
+    o12.e = -1000000000000.0;
+} catch(e13) {
+}
+try {
+    const o14 = {
+    };
+    o14.g = "padEnd";
+    o14.e = -1000000000000.0;
+    o14.d = -38709;
+} catch(e15) {
+}
+try {
+    const o16 = {
+    };
+    o16.g = "padEnd";
+    o16.e = -1000000000000.0;
+    o16.f = "padEnd";
+} catch(e17) {
+}
+with (o10) {
+    g = "bigint";
+    try {
+        const t35 = "padEnd";
+        t35.h = -1000000000000.0;
+    } catch(e23) {
+    }
+}
+let v24 = 16;
+v24 &= v24;
+v9[536870912] = -2;
+function f25() {
+    return "bigint";
+}
+const v27 = new BigUint64Array(v24);
+try { Float32Array.apply(v24, v27); } catch (e) {}

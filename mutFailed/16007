@@ -1,0 +1,37 @@
+const v2 = new Uint32Array(Uint32Array);
+try { Float64Array.from(2); } catch (e) {}
+new Float64Array(2);
+try { new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray, 2); } catch (e) {}
+const v10 = new Uint8ClampedArray(0);
+const v11 = [-11,-755291942,-13,-9223372036854775807,-9007199254740991,64,-4294967295,2147483649,-128,400116539];
+const v12 = [24336,-23617];
+const v13 = v12?.filter;
+try { new v13(v12); } catch (e) {}
+const v15 = [9007199254740990,1073741825,783603807,-25421];
+v15[2];
+function f17() {
+    const o26 = {
+        "e": -4294967295,
+        ..."Vre",
+        valueOf(a22, a23) {
+        },
+        ..."Vre",
+        4: "Vre",
+        "c": -268435456,
+        5: -4294967295,
+        6: v11,
+        get a() {
+            try {
+                v10.valueOf = f17;
+            } catch(e25) {
+            }
+            return v2;
+        },
+    };
+    return o26[5];
+}
+%PrepareFunctionForOptimization(f17);
+v15();
+f17();
+%OptimizeFunctionOnNextCall(f17);
+f17();

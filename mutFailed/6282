@@ -1,0 +1,77 @@
+const v1 = new WeakSet();
+class C5 extends WeakSet {
+    static [-65537] = WeakSet;
+    constructor(a7) {
+        super(v1);
+        const o9 = {
+        };
+        try {
+            o9.a = 9007199254740990;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.a = 9007199254740990;
+            o11.b = -65537;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.a = 9007199254740990;
+            o13.b = -65537;
+            o13.f = WeakSet;
+        } catch(e14) {
+        }
+        try {
+            const o15 = {
+            };
+            o15.a = 9007199254740990;
+            o15.b = -65537;
+            o15.f = Math;
+        } catch(e16) {
+        }
+        const v19 = 25947 >>> 25947;
+        5.222426788040868e+307 | ~v19;
+        5 - v19;
+        5.222426788040868e+307 << 25947;
+    }
+}
+const v24 = new C5(-65537);
+const v25 = new C5(25947);
+const v26 = new C5(-65537);
+const o32 = {
+    "maxByteLength": 10000,
+};
+const v34 = new ArrayBuffer(3471, o32);
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a37;
+    } catch(e41) {
+    }
+    try {
+        this.h = 10000;
+    } catch(e42) {
+    }
+    try {
+        this.f = a40;
+    } catch(e43) {
+    }
+}
+const v44 = new F35(C5, o32, v26, v24);
+new F35(o32, v25, v26, v44);
+new F35(C5, v1, v1, v25);
+const v48 = new Uint8Array(v34);
+try {
+const t0 = 2.2250738585072014e-308;
+t0(2.2250738585072014e-308, 25947, Uint8Array);
+} catch (e) {}
+v1[v48];
+try { o32.o(F35, v25); } catch (e) {}
+F35 = WeakSet;
+[4096,-952688860,1851994790,-649426557,-703702927,0,2,35474];
+[16,4294967296,1839681026,-7];
+[9007199254740992,-20372,5,-5,16,56560];
+v48[8] = 2.2250738585072014e-308;

@@ -1,0 +1,83 @@
+const v2 = new Int8Array(122);
+const v5 = new Uint16Array(1775);
+const v8 = new Int32Array(1024);
+function f9(a10) {
+    class C11 {
+        constructor(a13) {
+            const v14 = this.constructor;
+            for (let v15 = 0; v15 < 5; v15++) {
+            }
+            try { new v14(C11, C11); } catch (e) {}
+            a13++;
+        }
+    }
+    return C11;
+}
+v8.valueOf = f9;
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f24(a25, a26) {
+        const v28 = Symbol.iterator;
+        const o37 = {
+            [v28]() {
+                let v30 = 10;
+                const o36 = {
+                    next() {
+                        v30--;
+                        const v34 = v30 == 0;
+                        const o35 = {
+                            "done": v34,
+                            "value": v30,
+                        };
+                        return o35;
+                    },
+                };
+                return o36;
+            },
+        };
+        return v8;
+    }
+    a20.toString = f24;
+    try {
+        this.b = a21;
+    } catch(e38) {
+    }
+    try {
+        this.d = a20;
+    } catch(e39) {
+    }
+}
+new F18(v8, 1024, 1775, 1775);
+const v41 = new F18(v2, 122, 122, 1024);
+const v42 = new F18(Int8Array, 1775, 122, 1024);
+class C43 {
+    constructor(a45, a46) {
+        let v44 = this;
+        v44.valueOf = f9;
+        v5[8] = v2;
+        v44 %= v8;
+    }
+    static c;
+    static #m(a48, a49) {
+        this.c >>>= a49;
+        super[this];
+        super.d;
+        new WeakSet();
+        return v42;
+    }
+    static #c = v2;
+}
+new C43(v41, 1024);
+const v55 = new C43(v41, 1775);
+new C43(v55, 1024);
+const v57 = [];
+v57[Symbol.isConcatSpreadable] = v57;
+const v61 = [[128,-1641321930,-2147483649]];
+function f62() {
+    return 1775;
+}
+function f63(a64) {
+    v55.d;
+}
+Object.defineProperty(v61, Symbol.isConcatSpreadable, { writable: true, configurable: true, enumerable: true, get: f62, set: f63 });
+v61.concat(v57);

@@ -1,0 +1,46 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    g;
+    static g = v1;
+    static 3 = WeakMap;
+    [WeakMap] = WeakMap;
+    static #o(a4) {
+        super[WeakMap] = WeakMap;
+        try { a4(this, this, WeakMap, a4); } catch (e) {}
+        try { a4(WeakMap); } catch (e) {}
+        a4[4] = v1;
+        return v1;
+    }
+}
+const v10 = new C2();
+const v11 = new C2();
+new C2();
+[1,v11,1967754866];
+[C2,v10,v1];
+[v11,v10,C2,1];
+[-1000000000.0,0.8968097643519101,-8.720684288580602e+307,-1.0,0.32807980030170847,117.99447186142652,1000.0];
+new Int32Array(64);
+class C27 {
+}
+class C28 extends Uint32Array {
+}
+[-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+function f32(a33, a34, a35, a36) {
+    function f37() {
+        Symbol.toPrimitive;
+        const o45 = {
+            "e": -268435456,
+            valueOf(a43, a44) {
+            },
+            6: -268435456,
+        };
+    }
+    f37();
+    const v48 = new a34();
+    v48.buffer;
+    %OptimizeFunctionOnNextCall(f37);
+}
+for (let v51 = 0; v51 < 10; v51++) {
+    f32();
+}
+f32();

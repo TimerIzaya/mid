@@ -1,0 +1,8 @@
+7n << 7n;
+try { ("h").toLocaleLowerCase(); } catch (e) {}
+try { ("function").localeCompare(7n); } catch (e) {}
+65537n << 24798n;
+const v21 = new Uint8Array(1);
+const v23 = ("function").from(v21);
+const v24 = v23?.constructor;
+try { new v24(v23, 2147483649n, 24798n); } catch (e) {}

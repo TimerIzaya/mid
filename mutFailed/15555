@@ -1,0 +1,39 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v0;
+    } catch(e3) {
+    }
+    try {
+        this.a = v0;
+    } catch(e4) {
+    }
+    try {
+        this.f = v0;
+    } catch(e5) {
+    }
+}
+new F1();
+new F1();
+new F1();
+const t19 = 255;
+new t19(255);
+const t21 = 255;
+new t21(7);
+new Int32Array(5);
+function f18(a19, a20, a21, a22) {
+    return a19;
+}
+const v23 = f18();
+function f24(a25, a26, a27, a28) {
+    const v30 = arguments.toString(v23, arguments);
+    let v31;
+    try { v31 = v30.codePointAt(v23); } catch (e) {}
+    v31 == v31;
+    return a26;
+}
+%PrepareFunctionForOptimization(f24);
+f24();
+%OptimizeFunctionOnNextCall(BigInt64Array);
+f24();

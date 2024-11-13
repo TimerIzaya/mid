@@ -1,0 +1,72 @@
+class C3 {
+    static get g() {
+        super.a >>= this;
+        try {
+            this.fuck(0.13920740060156733, "prototype", [0.13920740060156733,-903.2849170691586,this,"prototype"], "prototype");
+        } catch(e7) {
+        }
+        return this;
+    }
+    static #e;
+    268435440;
+}
+const v8 = new C3();
+function f9(a10, a11) {
+    try { a11(); } catch (e) {}
+    for (let v13 = 0; v13 < 5; v13++) {
+        function f14() {
+            const v15 = [f14,f14,f14,f14];
+            try {
+                v15.some(v13);
+            } catch(e17) {
+                const v18 = `
+                `;
+                eval(e17);
+            }
+            return v15;
+        }
+        f14();
+        %OptimizeFunctionOnNextCall(f14);
+    }
+    return "prototype";
+}
+v8[Symbol.toPrimitive] = f9;
+const v24 = new C3();
+const v25 = new C3();
+function f26(a27, a28, a29, a30) {
+    const o31 = {
+        "b": C3,
+        "a": v24,
+        [a28]: v24,
+        "c": v8,
+        "g": 0.13920740060156733,
+        ...a27,
+        4096: v8,
+        __proto__: "prototype",
+        [a29]: -903.2849170691586,
+        "h": 0.13920740060156733,
+        "e": v24,
+    };
+    function f32(a33, a34) {
+        const v37 = new BigUint64Array(4096);
+        const o41 = {
+            toString(a39, a40) {
+                v37[3408] = this;
+                return 4096;
+            },
+        };
+        return a33;
+    }
+    o31[Symbol.toPrimitive] = f32;
+    return o31;
+}
+const v44 = f26(v25, v8, v8, "prototype");
+v44[Symbol.toPrimitive] = f9;
+const v47 = f26("prototype", C3, v44, "prototype");
+f26(v47, v25, v25, v47);
+const v50 = new C3();
+Object.defineProperty(v50, "find", { writable: true, configurable: true, value: v24 });
+try { v50.find(); } catch (e) {}
+const v54 = /[xyz]/vis;
+v54.toString = f26;
+v54.test(v54);

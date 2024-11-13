@@ -1,0 +1,41 @@
+const v0 = [-4096,4096,-1073741824,128,268435440,-6,268435456,1,3];
+function f1(a2) {
+    return a2 >>> v0;
+}
+Object.defineProperty(v0, "valueOf", { writable: true, configurable: true, value: f1 });
+const v7 = [536870912,10406,0,-12,2422,-816868481,268435456,-28271,-9007199254740990,-15];
+v7[Symbol.toPrimitive] = f1;
+const v10 = [2147483648,-1515777129,671795663];
+v10.valueOf = f1;
+class C11 {
+    constructor(a13) {
+        v10 ^ a13;
+        try {
+            v7.length = 1073741824;
+        } catch(e16) {
+        }
+    }
+    [v7] = v10;
+    1101519902 = v10;
+    8 = v0;
+}
+C11.valueOf = Symbol;
+new C11(v10);
+new C11(C11);
+new C11(v0);
+new Int16Array(9);
+new Int16Array(8);
+new Int16Array(115);
+function F29() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v31 = new F29();
+const o32 = {
+};
+o32.constructor = Symbol;
+const v33 = o32.constructor;
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    a37.caller = a39;
+}
+try { new F34(v31, v33); } catch (e) {}

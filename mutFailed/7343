@@ -1,0 +1,66 @@
+new Uint8Array(129);
+new Int16Array(128);
+const v8 = new Float32Array(6);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 128;
+    } catch(e15) {
+    }
+    try {
+        this.d = a11;
+    } catch(e16) {
+    }
+}
+new F9(Float32Array, 129, 6, 6);
+new F9(v8, 129, 128, 128);
+new F9(F9, 128, 129, 6);
+new Uint32Array(45);
+new Int32Array(512);
+new BigUint64Array(8);
+let v29 = -1.0;
+const v30 = v29++;
+v30 - v30;
+function F33(a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const o38 = {
+        };
+        function f39(a40, a41, a42, a43) {
+            arguments[2] = arguments;
+            function f45() {
+                const o46 = {
+                    __proto__: a42,
+                };
+                try {
+                    f39(45, o38, true, a40);
+                } catch(e49) {
+                }
+                return this.valueOf();
+            }
+            const v51 = f45();
+            gc();
+            v51[6] = v51;
+            %OptimizeFunctionOnNextCall(f45);
+            return gc;
+        }
+        Worker("2140550028", o38);
+    } catch(e55) {
+    }
+}
+new F33(F33, "2140550028");
+new Uint16Array(257);
+function f62(a63, a64) {
+    const o70 = {
+        __proto__: a64,
+        p(a66, a67) {
+            48752008 ^ this;
+            return this;
+        },
+    };
+    return o70;
+}
+const v71 = f62(f62);
+try { F9.p(); } catch (e) {}
+const v73 = new v71();
+v73["copyWithin"](..."-11838");

@@ -1,0 +1,70 @@
+const v7 = !true;
+function F8(a10, a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = v7;
+    function f13() {
+        function F14(a16, a17, a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        return a10;
+    }
+    a11.toString = f13;
+    a10[1];
+    try { a11.toString(); } catch (e) {}
+    try {
+        this.b = a12;
+    } catch(e22) {
+    }
+    try {
+        this.g = "p";
+    } catch(e23) {
+    }
+    try {
+        this.a = "p";
+    } catch(e24) {
+    }
+}
+function f25(a26) {
+    for (let v27 = 0; v27 < 25; v27++) {
+    }
+    return a26;
+}
+Object.defineProperty(F8, "toString", { writable: true, configurable: true, value: f25 });
+F8.length;
+const v29 = new F8("-3", F8, "-3");
+v29.toString = f25;
+const v30 = new F8("-3", v29, "p");
+const v31 = new F8("p", 7n, "p");
+const v33 = (["p","p",v31,v30])[1];
+const v34 = [v31,3n,"-3","p"];
+const v35 = [5299n,"-3",v30,7n,7n];
+const v36 = [-Infinity];
+function f37() {
+    let v38;
+    try { v38 = v33(5299n, 3n); } catch (e) {}
+    try {
+        v34.e = v38;
+    } catch(e39) {
+    }
+    return v7;
+}
+v36[Symbol.toPrimitive] = f37;
+v36[0] = v36;
+class C42 {
+}
+function f43(a44) {
+    const o48 = {
+        toString(a46) {
+            class C47 {
+                static [this] = a46;
+            }
+            return C47;
+        },
+    };
+}
+Object.defineProperty(C42, "e", { configurable: true, set: f43 });
+C42.e = v35;
+C42.e = C42;
+const v49 = new C42();
+v49[Symbol.toPrimitive] = Symbol;
+v36 << v49;

@@ -1,0 +1,68 @@
+const v0 = [9,4096,-2147483647,54651,-13,14,-4294967296,-1303497700];
+function f1(a2, a3) {
+    const v6 = new Int8Array(520);
+    for (let v7 = 0; v7 < 5; v7++) {
+        v6.indexOf(v7);
+    }
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+const v11 = [1073741824,6,-256,-1893648829,0,1883451716,9007199254740991];
+function f12() {
+    return Symbol;
+}
+Object.defineProperty(v11, "toString", { writable: true, get: f12 });
+const v13 = [-5];
+const v15 = [v11];
+const v16 = [v11,v0,v15];
+v16[Symbol.toPrimitive] = f12;
+const v19 = [v16];
+function f20(a21, a22, a23, a24) {
+    const o29 = {
+        "g": v13,
+        "d": a22,
+        "c": a21,
+        "h": v11,
+        __proto__: a22,
+        set b(a26) {
+            try {
+                v0.length = 1;
+            } catch(e28) {
+            }
+        },
+        "b": a21,
+        [v16]: undefined,
+    };
+    return o29;
+}
+const v30 = f20(v16, v13, v15, v11);
+const v31 = f20(v0, v15, v30, v15);
+const v32 = f20(v19, v13, v31, v0);
+function f33(a34, a35, a36) {
+    const o48 = {
+        __proto__: a36,
+        get b() {
+            function F39(a41, a42, a43) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.e = a34;
+                } catch(e44) {
+                }
+            }
+            new F39(a35, v31, v19);
+            new F39(a35, v30, v11);
+            new F39(a34, a, a);
+            return undefined;
+        },
+    };
+    return o48;
+}
+f33(v32, v32, v15);
+f33(v30, v31, v13);
+f33(v31, v31, v13);
+class C55 {
+    static {
+        for (const v58 in this) {
+        }
+    }
+}

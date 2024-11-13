@@ -1,0 +1,31 @@
+new Int8Array(1000, 1073741824, 7, 1073741823);
+new Int16Array(8, 1000);
+new Date(13);
+function f18() {
+    function f19() {
+        let v20;
+        try {
+        const t0 = 1073741824;
+        v20 = t0(Date, 8, 7, Date);
+        } catch (e) {}
+        try { v20["flatMap"](8, "flatMap"); } catch (e) {}
+        return 1073741823;
+    }
+    return f19;
+}
+function f23(a24) {
+    a24?.[210];
+}
+Object.defineProperty(Date, "toString", { configurable: true, get: f18, set: f23 });
+function f26(a27, a28, a29) {
+    return a28;
+}
+class C30 extends f26 {
+}
+for (let v31 = 0; v31 < 5; v31++) {
+    Object.defineProperty(C30, Date, { enumerable: true, get: f26 });
+}
+const v32 = new Int16Array(20);
+for (const v33 in v32) {
+    Float64Array.expm1(v33);
+}

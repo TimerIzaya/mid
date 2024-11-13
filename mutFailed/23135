@@ -1,0 +1,58 @@
+const v3 = new Uint8Array(129);
+const v6 = new Float32Array(78);
+try { new Uint32Array(256, v3, v6); } catch (e) {}
+new Uint32Array(256);
+class C11 extends Float32Array {
+    #valueOf(a13, a14, a15) {
+        const v16 = [a13];
+        const v17 = [v16,129];
+        [true,256,v17,129,v17];
+        try {
+            v16.__proto__ = this;
+        } catch(e19) {
+        }
+        return 129;
+    }
+    #a;
+    static b = Uint32Array;
+}
+new C11();
+const v21 = new C11();
+v21.b = v21;
+new C11();
+function F23() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = this;
+    this.a = this;
+    try {
+        this.a = 1022873702;
+    } catch(e26) {
+    }
+}
+const v27 = new F23();
+const t32 = [v27];
+t32.e = 170.79545126331868;
+class C31 extends Date {
+}
+C31.length = C31;
+const v32 = new C31();
+const v33 = v32.toGMTString();
+const v34 = [155533.8602852358,2.0];
+v34[658291203] = v21;
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.propertyIsEnumerable(true); } catch (e) {}
+    try { new Array(this); } catch (e) {}
+    Array(19793);
+    new Uint16Array(["4294967296"]);
+    const v47 = [-671138503,-536870912,-9007199254740991,-9007199254740992,-268435456,128,2023752111,-970019998,8839,6];
+    v47[Symbol.toPrimitive] = Array;
+    const v50 = [1073741824,-46456,536870888];
+    v50.toString = Array;
+    v47 | v50;
+    v34[658291203] = null;
+    v33[1073741824];
+}
+F36.arguments = F36;
+new F36();
+new F36();

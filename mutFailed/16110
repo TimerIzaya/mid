@@ -1,0 +1,51 @@
+const v0 = [-2];
+const v1 = [2147483648,14,-14,-5];
+const v2 = [9007199254740992,1,12,541233579,1073741824,-456069041,-9223372036854775808,-2147483647,3,-4294967296];
+function f3(a4) {
+    const o14 = {
+        [a4](a6, a7) {
+            let v8 = 0;
+            while (a7 < 8) {
+                v8++;
+            }
+            return v1;
+        },
+        "a": a4,
+        "b": v2,
+    };
+    const v15 = o14?.__lookupSetter__;
+    try { new v15(v1); } catch (e) {}
+    return o14;
+}
+const v17 = f3(v2);
+const v18 = v17.a;
+const v19 = v1(v17);
+let v20 = f3(v0);
+v2.g = [297597663,v19,-4096,-4096];
+[[v18,f3,-4096,1689,-4096],v17,v20,v1,v19];
+try { new Int32Array(-4096, v19, v0); } catch (e) {}
+const v30 = new Int32Array(148);
+try { v30.set(v2); } catch (e) {}
+let v32 = 64;
+const v33 = typeof v32;
+v33 === v17;
+const v36 = typeof f3;
+v36 === v33;
+v32 === v32;
+const v41 = new Uint16Array(v32);
+new Float32Array(3);
+-(-960991.2672411689);
+const o54 = {
+    set b(a50) {
+        function f51(a52) {
+            return f51;
+        }
+        class C53 extends f51 {
+        }
+    },
+};
+o54.b;
+1073741825 - 1073741825;
+v30 & v36;
+[,v20,v32] = v41;
+Math.log10(1073741825);

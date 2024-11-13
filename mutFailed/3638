@@ -1,0 +1,43 @@
+const v2 = new BigInt64Array(64);
+const v5 = new BigUint64Array(13);
+const v8 = new BigUint64Array(64);
+const v9 = [64];
+[64,BigInt64Array];
+[v5,BigUint64Array,BigInt64Array];
+function f12(a13) {
+    return a13;
+}
+class C14 extends f12 {
+}
+const v15 = new C14();
+Object.defineProperty(v2, "d", { writable: true, configurable: true, enumerable: true, get: f12 });
+const o16 = {
+};
+try {
+    o16.a = C14;
+} catch(e17) {
+}
+try {
+    const o18 = {
+    };
+    o18.a = C14;
+    o18.b = v8;
+} catch(e19) {
+}
+try {
+    const o20 = {
+    };
+    o20.a = C14;
+    o20.b = v8;
+    o20.g = v9;
+} catch(e21) {
+}
+try {
+    const o22 = {
+    };
+    o22.a = C14;
+    o22.b = v8;
+    o22.d = v9;
+} catch(e23) {
+}
+Object.defineProperty(v15, 2075456563, { get: f12, set: f12 });

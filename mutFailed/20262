@@ -1,0 +1,30 @@
+const v4 = new Map();
+new Map();
+function f10(a11, a12, a13) {
+    const o16 = {
+        __proto__: a11,
+        get c() {
+            %VerifyType(this);
+            const v15 = delete this[a12];
+            v4.b += 0.0;
+            return v15;
+        },
+        [Map]: a13,
+        1924: -1.0,
+        "b": a11,
+        "e": 0.0,
+        "f": 2,
+        [a13]: -1000000000.0,
+        [-1000000000.0]: -1000000000.0,
+        "a": 2,
+    };
+    return o16;
+}
+f10(Map, 0.0, 0.0);
+const t22 = -1000000000.0;
+t22(-1.0, 0.0, -1.0);
+f10(v4, 0.0, 0.0);
+new WeakSet();
+const t27 = (~9007199254740990).constructor;
+const v26 = new t27();
+try { v26.toPrecision(2136873598); } catch (e) {}

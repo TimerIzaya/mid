@@ -1,0 +1,59 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 13;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+const v6 = new F0();
+class C7 extends F0 {
+    toString(a9, a10) {
+        /vha$/gvm;
+        const v12 = /3[](?:a+)?/gudis;
+        /O/gvdimsy;
+        try { this.valueOf(v12); } catch (e) {}
+        const v18 = `
+        `;
+        eval(v18);
+        return v6;
+    }
+    0 = F0;
+}
+const v24 = new C7();
+const v25 = new C7();
+const v26 = new C7();
+function f27(a28, a29, a30, a31) {
+    const o39 = {
+        "h": a31,
+        "c": a29,
+        set a(a33) {
+            this in this;
+            delete v25[a31];
+        },
+        "d": v25,
+        [a29]: a29,
+    };
+    return o39;
+}
+const v40 = f27(v24, v26, v6, v25);
+f27(v25, v40, v5, v40);
+f27(C7, v25, v6, v24);
+for (let [i50, i51] = (() => {
+        const v46 = new Uint32Array(0, 0, 10);
+        const t1 = v46.constructor;
+        const v48 = new t1();
+        v48.reverse();
+        return [0, 10];
+    })();
+    i50 < i51;
+    i51--) {
+}
+for (const v58 of v5) {
+    const o62 = {
+        "execution": "sync",
+        "type": "major",
+    };
+    gc(o62);
+}

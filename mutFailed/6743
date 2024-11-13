@@ -1,0 +1,45 @@
+const v0 = [8,-5,-9223372036854775808,-367921935,7];
+function f1(a2) {
+    const v4 = new Uint16Array(Uint16Array, Uint16Array, Uint16Array);
+    const v6 = new Uint8ClampedArray(v4, Uint16Array, Uint8ClampedArray);
+    return v6;
+}
+v0[Symbol.toPrimitive] = f1;
+const v9 = [-2,1861862859,13362,-9007199254740991,11795,9,15];
+v9.toString = Symbol;
+const v10 = [-13];
+function f11(a12, a13) {
+    const o17 = {
+        [a12]: a12,
+        ...v9,
+        [-2]: v0,
+        ...v10,
+        "c": v0,
+        set a(a15) {
+            try {
+                a15.f = v0;
+            } catch(e16) {
+            }
+        },
+        "e": a13,
+    };
+    return o17;
+}
+f11(v0, v10);
+f11(v0, v0);
+f11(v9, v9);
+new Uint16Array(453);
+new Uint8Array(7);
+new BigUint64Array(2504);
+function F34(a36) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F34();
+class C38 {
+    g;
+    constructor() {
+        const v40 = this.constructor;
+        try { new v40(); } catch (e) {}
+    }
+}
+new C38();

@@ -1,0 +1,38 @@
+const v1 = new WeakSet();
+class C2 {
+    static #c;
+    static {
+        try {
+            v1.add(WeakSet);
+        } catch(e5) {
+        }
+    }
+    static [v1];
+    static #b;
+    #g = WeakSet;
+    [WeakSet] = C2;
+}
+new C2();
+const v7 = new C2();
+const v8 = new v1();
+class C9 extends WeakSet {
+    c = v8;
+    #valueOf(a11, a12, a13) {
+        try {
+            this.f = v1;
+        } catch(e14) {
+        }
+        return a12;
+    }
+    static h;
+    #b = C2;
+    [C2] = v1;
+}
+new v7();
+new C2();
+new C9();
+for (let v22 in [-65535,536870889,4096]) {
+    v22--;
+    Math.log10(v22);
+    v22 ** 1000000000000.0;
+}

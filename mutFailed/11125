@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = this;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new v4();
+/\p{General_Category=Decimal_Number}/vs;
+/z1Ua*?/gdis;
+const v9 = /foo(?=bar)baz?/gusy;
+class C10 {
+    static d;
+    static [v6];
+    static b;
+    constructor(a12, a13) {
+        this.constructor;
+        class C15 extends C10 {
+            static #f;
+            static 7;
+        }
+        new v9();
+        super.c;
+    }
+    6;
+}
+const v18 = new C10(v5, v5);
+new C10(v6, v18);
+new C10(v6, v5);
+[-697.531736440835,-27.2460076344463,9.783994145019737];
+[-2.220446049250313e-16,-1.1003789265285127e+308,7.789610298204369];
+[-5.6601033183217115,-2.2250738585072014e-308];
+new Uint8Array();
+function f26(a27, a28, a29, a30) {
+    const v31 = a29 ^ a29;
+    const o35 = {
+        "b": v31,
+        ...F0,
+        n(a33, a34) {
+            return v31;
+        },
+    };
+    return f26;
+}
+for (let v36 = 0; v36 < 625; v36++) {
+    f26();
+}

@@ -1,0 +1,57 @@
+class C3 {
+    valueOf(a5, a6) {
+        let v4 = this;
+        a5[2] = -9007199254740991;
+        v4 = a6;
+        return "__proto__";
+    }
+    constructor(a8) {
+        const t8 = "__proto__";
+        t8[536870889] |= a8;
+        ("__proto__")[65537] >>> -9007199254740991;
+    }
+    static 1 = 0.0;
+}
+new C3(C3);
+new C3(-9007199254740991);
+new C3(0.0);
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a28;
+    } catch(e29) {
+    }
+    try {
+        this.b = a26;
+    } catch(e30) {
+    }
+    try {
+        this.d = "b";
+    } catch(e31) {
+    }
+}
+new F23(-1640694823n, -1640694823n, "b", "bigint");
+new F23(29442n, -60970n, "bigint", "b");
+new F23(-60970n, -1640694823n, "__proto__", "bigint");
+class C36 {
+    constructor(a38, a39) {
+        for (let v40 = 0; v40 < 5; v40++) {
+            const v42 = new Map();
+            v42["p" + -7] = -7;
+            const o45 = {
+                ...v42,
+            };
+        }
+    }
+}
+const v46 = new C36(C36, -7);
+new C36(C36, v46);
+function f48() {
+    return f48;
+}
+const o51 = {
+    set b(a50) {
+    },
+    __proto__: f48,
+};
+Reflect.construct(Int8Array, [o51]);

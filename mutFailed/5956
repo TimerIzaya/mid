@@ -1,0 +1,47 @@
+const v1 = new WeakMap();
+function f2(a3, a4) {
+    const v6 = Math.round();
+    async function f7(a8, a9, a10) {
+        await v6;
+        return f7;
+    }
+    return f7;
+}
+v1.toString = f2;
+class C13 extends WeakMap {
+    static {
+        new Float32Array(255);
+        new Int32Array(6);
+        new Int32Array(1024);
+    }
+    a = false;
+}
+const v24 = new C13();
+const v25 = new C13();
+const v26 = new C13();
+function f27(a28, a29) {
+    const o35 = {
+        "e": v26,
+        __proto__: a28,
+        "a": WeakMap,
+        "h": C13,
+        [a28]: v24,
+        [v25]: WeakMap,
+        "g": C13,
+        p(a31, a32, a33) {
+            try { a28.get(v25); } catch (e) {}
+            super[this] = a28;
+            return false;
+        },
+    };
+    return o35;
+}
+const v36 = f27(v25, f27);
+f27(v1, f27(v25, v36));
+function f39() {
+    return v36;
+}
+const o46 = {
+    set e(a44) {
+    },
+};

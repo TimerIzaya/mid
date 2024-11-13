@@ -1,0 +1,33 @@
+new Int8Array(255);
+const t1 = 255;
+new t1(910);
+new Uint8Array(129);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 129;
+    } catch(e14) {
+    }
+    try {
+        this.c = a11;
+    } catch(e15) {
+    }
+}
+new F9(910, 129, 910);
+new F9(255, 910, 129);
+new F9(129, 910, 255);
+const v21 = new Int8Array(BigInt64Array);
+function F24() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v26 = 0; v26 < 50; v26++) {
+        v26 << v26;
+        for (let v28 = 0; v28 < 25; v28++) {
+            this["p" + v28] = v28;
+        }
+    }
+}
+const v31 = new F24();
+new F24();
+new BigInt64Array(v31);
+const v35 = eval(eval);
+try { v35.isExtensible(v21); } catch (e) {}

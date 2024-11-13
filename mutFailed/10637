@@ -1,0 +1,106 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -59207;
+    } catch(e3) {
+    }
+    try {
+        this.e = -59207;
+    } catch(e4) {
+    }
+}
+let v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [642473.9123076752,-8.458095225299516];
+function f11() {
+    let v13 = 1000000000000.0;
+    const v14 = v13--;
+    -v14;
+    let v17 = 257828.6336153492;
+    v17--;
+    class C20 {
+        static #m(a22) {
+        }
+        constructor(a24) {
+            const v26 = new AggregateError();
+            try { v26.entries(); } catch (e) {}
+            const v28 = new Uint16Array(12, -4294967296, v14);
+            new AggregateError(v28, -4294967296);
+        }
+    }
+    try { new C20(12); } catch (e) {}
+    const v31 = new C20(v17);
+    const v32 = new C20();
+    const v33 = new C20(-4294967296);
+    let v34 = [v33,C20];
+    let v35 = [v17,v33,v31,v33,v34];
+    const v36 = [v33];
+    class C37 extends C20 {
+        [v31];
+        #n(a39, a40, a41, a42) {
+            return v36;
+        }
+    }
+    const v43 = new C37();
+    const v44 = v36.constructor;
+    try { v44.isArray(v36); } catch (e) {}
+    class C46 extends v44 {
+    }
+    C46.a = C46;
+    const v47 = new C46();
+    const v48 = v47?.d;
+    try { new v48(); } catch (e) {}
+    Object.defineProperty(v47, 65537, { writable: true, enumerable: true, value: v32 });
+    try { v43.m(v34); } catch (e) {}
+    const o54 = {
+        "e": Uint16Array,
+        [v5](a52, a53) {
+            v34 = v33;
+            v35 = v8;
+            return Uint16Array;
+        },
+        __proto__: 3.4890473589784586e+307,
+    };
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f11);
+const v55 = f11();
+f11();
+%OptimizeFunctionOnNextCall(f11);
+f11();
+const v58 = [4.0];
+const v59 = [1000000.0,-587958.5591889453];
+function f60() {
+    return v7;
+}
+function f61(a62, a63) {
+    const o67 = {
+        [a62]: v5,
+        "h": v58,
+        "c": a62,
+        "g": a63,
+        ...v58,
+        __proto__: a62,
+        set e(a65) {
+            this[1215702076] = this;
+            super.e = this;
+            let v66;
+            try { v66 = new a65(v6, F0, a65, this, v7); } catch (e) {}
+            v5 = v66;
+        },
+        ...v58,
+        ...a63,
+        "f": v59,
+    };
+    return o67;
+}
+f61(v5, v59, Uint16Array, v58, v55);
+f61(v7, v59);
+f61(v6, v59);
+new Set();
+new Uint8Array(3178);
+new Uint32Array(139);
+new Int32Array(5);
+const t104 = /\u{12345}/imsy;
+t104[Math] = -2.6653538746432233;

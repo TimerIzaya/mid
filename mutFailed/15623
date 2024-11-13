@@ -1,0 +1,32 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = this;
+    } catch(e3) {
+    }
+    try {
+        this.d = this;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+new F0();
+new Uint32Array(64);
+new Uint32Array(v6);
+const t16 = 64;
+new t16(7);
+function f21(a22, a23) {
+    const o29 = {
+        toString(a25, a26, a27) {
+            try {
+                a25.f = 536870888n;
+            } catch(e28) {
+            }
+            return Uint32Array;
+        },
+    };
+    return o29;
+}
+const v30 = f21();
+v30 == !f21(536870888n, v30);

@@ -1,0 +1,30 @@
+new Float32Array(97);
+new Uint8Array(2248);
+const v8 = new Uint16Array(3568);
+v8[3106] = v8;
+function f9(a10) {
+    function f12(a13) {
+    }
+    this.onmessage = f12;
+    return f9;
+}
+const o16 = {
+    "type": "a",
+};
+new Worker(f9, o16);
+("Z")[0];
+function F24() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v26 = this?.constructor;
+    try { new v26(); } catch (e) {}
+}
+const v28 = new F24();
+v28.length = v28;
+const o30 = {
+    [-1]: v28,
+    get b() {
+        return F24;
+    },
+};
+const v31 = o30?.b;
+try { new v31(); } catch (e) {}

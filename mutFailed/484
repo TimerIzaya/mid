@@ -1,0 +1,30 @@
+class C6 {
+    set a(a8) {
+        super.a;
+        %VerifyType(super.h);
+        super[16] = this;
+        const o13 = {
+            "maxByteLength": "valueOf",
+        };
+        const v15 = new ArrayBuffer(128, o13);
+        new BigInt64Array(v15);
+    }
+}
+const t12 = "undefined";
+new t12();
+const t14 = 2147483649;
+new t14();
+const t16 = 16;
+new t16();
+class C24 {
+    toString(a26) {
+        super[this];
+    }
+}
+const t23 = 1126198089n;
+const v28 = new t23();
+const v29 = [C24,C24,C24,C24,C24];
+try {
+    v29.length = v28;
+} catch(e30) {
+}

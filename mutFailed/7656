@@ -1,0 +1,73 @@
+function f0() {
+    const t1 = "e";
+    t1[0] = "e";
+    const o19 = {
+        [-18455](a5, a6) {
+            try {
+                this.a = this;
+            } catch(e7) {
+            }
+            return a5?.[a6];
+        },
+        "c": "e",
+        p(a10, a11) {
+            const o14 = {
+                "maxByteLength": 519739134,
+            };
+            const v16 = new ArrayBuffer(1, o14);
+            new Uint8Array(v16);
+            return 1;
+        },
+    };
+    function f20() {
+        return f0;
+    }
+    Object.defineProperty(o19, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f20 });
+    return o19;
+}
+const v23 = f0();
+let v24 = f0();
+const v25 = f0();
+const v26 = [f0,f0,v23];
+const v27 = (v24 = v25).c;
+try { v27.toString(); } catch (e) {}
+try { ("NFKD").localeCompare(v23); } catch (e) {}
+("boolean").normalize("NFKD");
+const v33 = [v23,v23];
+[v26,v23,v33];
+class C35 {
+    m(a37, a38) {
+        let v39 = 0;
+        do {
+            [1.5351410913679798e+308,-1000.0];
+            [Infinity,1000.0,1e-15];
+            [3.7968623450863817,-1.0,-1e-15,2.220446049250313e-16,0.5637903010117754,-1000000000000.0,Infinity,-6.25711963792166,-1.5750615508390783e+308,1e-15];
+            v39++;
+        } while (v39 < 2)
+        return v26;
+    }
+    static #e = v33;
+    [v23] = v23;
+}
+new C35();
+const v47 = new C35();
+const v48 = new C35();
+function f49() {
+    return f0;
+}
+Object.defineProperty(v48, "toString", { configurable: true, get: f49 });
+try { v48.toString(); } catch (e) {}
+const v52 = [f0,[C35,v47,v24,v23]];
+[v52,v52];
+function f54() {
+    return f0;
+}
+try { f54(); } catch (e) {}
+!true;
+const v58 = [1.6045920026493271e+308,-5.0,358.53542407847453,-4.6776659891528976,-1000.0,-Infinity];
+const o60 = {
+    valueOf() {
+        return true;
+    },
+};
+v58.length = o60;

@@ -1,0 +1,51 @@
+function f0() {
+}
+function f1() {
+    const o11 = {
+        get d() {
+            try { this.p(this, this, f0, this, f0); } catch (e) {}
+            return super[this].b;
+        },
+        "g": f0,
+        set c(a7) {
+            a7[7] = f1;
+            try {
+                this.fuck(f0, -5.04421493271107e+307);
+            } catch(e10) {
+            }
+        },
+    };
+    return o11;
+}
+const v12 = f1();
+const v13 = f1();
+let v14;
+try { v14 = v12.d(); } catch (e) {}
+const v15 = f1();
+for (const v17 of v14) {
+    for (let v18 = 0; v18 < 32; v18++) {
+        v15["p" + v18] = v18;
+    }
+}
+const v22 = new Int8Array(v15);
+new Float64Array(9);
+const v26 = v14?.constructor;
+let v27;
+try { v27 = new v26(v22, Float64Array, v26); } catch (e) {}
+v14[Symbol.hasInstance] = f0;
+for (let v31 = 0; v31 < 32; v31++) {
+    v27["p" + v31] = v31;
+}
+2 + 2;
+Float64Array.BYTES_PER_ELEMENT = Float64Array;
+new Float64Array(v13);
+const o46 = {
+    __proto__: v27,
+    valueOf() {
+        return v14;
+    },
+    toString(a40, a41) {
+        new Int8Array(a40);
+        return 4;
+    },
+};

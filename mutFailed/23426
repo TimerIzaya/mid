@@ -1,0 +1,102 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        const v3 = [-21444.420261586667,2.0,2.0,-1e-15,-1000000000000.0,2.220446049250313e-16,-2.0];
+        const o4 = {
+        };
+        const v6 = new Proxy(v3, o4);
+        const o7 = {
+            ...v6,
+        };
+        return F0;
+    }
+    this[Symbol.toPrimitive] = f2;
+    try {
+        this.c = -9;
+    } catch(e11) {
+    }
+    try {
+        this.h = -9;
+    } catch(e12) {
+    }
+    try {
+        this.b = -9;
+    } catch(e13) {
+    }
+}
+const v14 = new F0();
+const v15 = new F0();
+function f16(a17, a18) {
+    const v21 = new Int32Array(2917);
+    v21["lastIndexOf"](10);
+    return v14;
+}
+Object.defineProperty(v15, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, value: f16 });
+const v27 = new F0();
+function f28() {
+    return f16;
+}
+function f29(a30) {
+    try { v14.valueOf(); } catch (e) {}
+}
+Object.defineProperty(v27, "toString", { writable: true, get: f28, set: f29 });
+function f32() {
+    return v27;
+}
+v27.e = f32;
+const v36 = /(?:a*)+q(?<a>.)/guds;
+for (let v37 = 0; v37 < 50; v37++) {
+    f32(v36);
+}
+new Array(9);
+const v44 = new Float64Array(5);
+new Float64Array(v44);
+const v48 = new Float32Array(6);
+const v49 = v48.fill();
+("getPrototypeOf").blink();
+class C53 {
+    ["getPrototypeOf"] = -1.7976931348623157e+308;
+}
+class C54 extends C53 {
+    static {
+    }
+    65537 = v49;
+    ["getPrototypeOf"] = C53;
+}
+new C54();
+const v57 = /i3kKxyz{0,1}?/gdiy;
+const v58 = /h\P{sc=Greek}\P{gc=Decimal_Number}a\S+/guim;
+const v59 = /exyz?/gvdmsy;
+function f60(a61, a62, a63) {
+    const o70 = {
+        "f": a62,
+        "d": a62,
+        "h": a62,
+        set a(a65) {
+            super.d <<= a65;
+            Array(9);
+        },
+        5: v58,
+        [v57]: v14,
+        [a63]: a63,
+        6: a63,
+        "b": v58,
+    };
+    return o70;
+}
+f60(v57, v58, v14);
+f60(v58, v57, v15);
+f60(v59, v57, v27);
+function F74() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v78 = Array(19793);
+        Object.defineProperty(v78, 18726, { writable: true, value: this });
+        for (const v79 of v78) {
+        }
+        let v80 = -9223372036854775808n;
+        v80 %= 45725n;
+    } catch(e82) {
+    }
+}
+new F74();

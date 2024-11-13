@@ -1,0 +1,53 @@
+class C3 {
+    toString(a5) {
+        let v4 = this;
+        const v7 = [v4 = "p","p"];
+        const v8 = ("MAX_SAFE_INTEGER").replaceAll;
+        Reflect.apply(v8, "p", v7);
+        return v8;
+    }
+    static 144 = "p";
+    static #d = 34822;
+}
+C3[144] = C3;
+const v10 = new C3();
+try { v10.toString("p"); } catch (e) {}
+const v12 = new C3();
+const v13 = v12?.constructor;
+let v14;
+try { v14 = new v13(); } catch (e) {}
+const v17 = [v13,34822,v13,[v12,C3,v12,[v14,v10,v14,v12,v10]],v12];
+v10[v17] = 34822;
+v17.length;
+const v19 = new C3();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+const v22 = [v19,34822,"p",v19,"p"];
+const v23 = [v22];
+v23[0] = v23;
+[34822,v23];
+new WeakMap();
+for (let v27 = 0; v27 < 32; v27++) {
+    v22["p" + v27] = v27;
+}
+function F30() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this?.hasOwnProperty;
+    try { new v32("p"); } catch (e) {}
+    this.h = 0;
+}
+class C35 extends F30 {
+    #b;
+    constructor(a37) {
+        super();
+        delete this.h;
+        super.h = this;
+        /\1\2(a(?:\1(b\1\2))\2)\1()l/udm;
+    }
+}
+const v40 = new C35(C35);
+v19[1616];
+("sticky")["split"]("MAX_SAFE_INTEGER");
+("sticky")[2280];
+try { v40.localeCompare("sticky", v19, v20, v10, "sticky"); } catch (e) {}
+try { ("sticky").valueOf(); } catch (e) {}

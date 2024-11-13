@@ -1,0 +1,77 @@
+const v4 = new Set();
+function f5(a6) {
+    const o21 = {
+        get c() {
+            super.c = 9223372036854775807;
+            return super[this];
+        },
+        [a6]: a6,
+        "d": -6,
+        "c": Set,
+        [-1262151501]: -6,
+        "b": a6,
+        p(a10, a11, a12) {
+            const v13 = `function${a12}boolean${a11}tiPV${a6}u`;
+            const v14 = v13.__proto__;
+            v13.length;
+            let v16;
+            try { v16 = v14(); } catch (e) {}
+            let v17;
+            try { v17 = v16(v14); } catch (e) {}
+            [v17,a6,v4,9223372036854775807];
+            [a11,v14,this];
+            return [a6];
+        },
+    };
+    return o21;
+}
+const v22 = f5(9223372036854775807);
+v22[Symbol.toPrimitive] = f5;
+const v25 = f5(9223372036854775807);
+const v26 = f5(-1262151501);
+function f27(a28, a29, a30) {
+    a30[Symbol.toPrimitive] = Symbol;
+    const o48 = {
+        "f": f5,
+        "h": a28,
+        [a30](a34, a35) {
+            function F36(a38, a39, a40, a41) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a38;
+                } catch(e42) {
+                }
+                try {
+                    this.h = a39;
+                } catch(e43) {
+                }
+                try {
+                    this.f = a40;
+                } catch(e44) {
+                }
+            }
+            const v45 = new F36(a34, a35, this, v26);
+            new F36(-6, a29, a34, v45);
+            new F36(-6, a35, v26, f5);
+            return v22;
+        },
+    };
+    return o48;
+}
+f27(v22, 9223372036854775807, v22);
+f27(v25, -1262151501, v26);
+f27(v25, -1262151501, v22);
+new Uint8ClampedArray(4096);
+new Uint16Array(100);
+new Uint32Array(1000);
+class C62 extends Array {
+}
+const v63 = new C62();
+function f64() {
+    return f27;
+}
+function f65(a66) {
+    a66 = Symbol;
+}
+Object.defineProperty(v63, Symbol.toPrimitive, { writable: true, enumerable: true, get: f64, set: f65 });
+1073741823n == v63;

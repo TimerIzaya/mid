@@ -1,0 +1,56 @@
+class C3 {
+    #b;
+    get b() {
+        const v5 = [2.0];
+        const v6 = [v5,this,2.0,v5];
+        [0.0,v6,v6];
+        +8;
+        Math.cos(0.0);
+        Math.sign(v5);
+        Math.abs(0.0);
+        +9007199254740991;
+        return 1.577947638852754e+308;
+    }
+}
+C3.prototype = C3;
+const v17 = new C3();
+const v18 = new v17();
+try { v18.constructor(); } catch (e) {}
+try { v18.isPrototypeOf(v18); } catch (e) {}
+new C3();
+let v23;
+try { v23 = new Array(v17); } catch (e) {}
+let v24 = 4;
+v24++;
+const v26 = new Array(v24);
+try { v26.every(v23); } catch (e) {}
+new Date();
+[-2147483649,14,-4034,-1024,35079,192462397,268435441,8410,-2147483648];
+const v31 = [-9007199254740991,-1092793137,129,-128,2,-58245,536870888,4,-1073741824];
+try { v31.groupToMap("toStringTag"); } catch (e) {}
+[-2,29267,3,512,3,9];
+const v35 = 4096n / 4096n;
+v35 !== v35;
+-(-Infinity);
+const v42 = 42.50750683550177 >>> 42.50750683550177;
+function f43(a44, a45, a46) {
+    a44--;
+    a46 & a46;
+    a44 !== a44;
+    a45 == a45;
+    a46 + a46;
+    const o53 = {
+        [a46]: a45,
+        "g": 65536n,
+        get a() {
+            return a44;
+        },
+        "a": a46,
+    };
+    o53.Infinity = o53;
+    o53.b = o53;
+    return f43;
+}
+f43(42.50750683550177, 65536n, Infinity);
+const v55 = f43(4096n, 4096n);
+try { v55(v35, f43, v42); } catch (e) {}

@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = this;
+    try {
+        this.c = -1082383381;
+    } catch(e3) {
+    }
+    try {
+        Array(-1082383381);
+        const v8 = new Uint32Array(9);
+        new Int8Array(v8);
+        this.h = -1082383381;
+    } catch(e11) {
+    }
+    try {
+        this.f = -1082383381;
+    } catch(e12) {
+    }
+}
+const v13 = new F0();
+new F0();
+const v15 = new F0();
+class C16 {
+}
+Object.defineProperty(C16, "g", { configurable: true, enumerable: true, value: v13 });
+const v17 = v13.__defineGetter__;
+let v18;
+try { v18 = v17(); } catch (e) {}
+try {
+    let v19 = C16.g;
+    let {"c":v20,"g":v21,...v22} = v19 = v18;
+} catch(e23) {
+}
+function f24() {
+    return v15;
+}
+try { f24(); } catch (e) {}
+const v29 = new Int16Array(110);
+v29.toString = f24;
+v29[5] = v29;
+class C31 {
+}
+class C32 extends C31 {
+}
+gc();
+new Int32Array(500);
+const v39 = new Uint8ClampedArray(37);
+v39[27];
+for (let v41 = 0; v41 < 5; v41++) {
+    const o47 = {
+        "d": v41,
+        [Int32Array]: Int32Array,
+        "maxByteLength": 500,
+        "h": Int32Array,
+        set b(a43) {
+            const v44 = a43?.__lookupGetter__;
+            try { new v44(a43); } catch (e) {}
+            this.b;
+        },
+    };
+    try { o47.propertyIsEnumerable(Int16Array); } catch (e) {}
+    o47.b = o47;
+    o47.b = o47;
+}

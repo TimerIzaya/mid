@@ -1,0 +1,43 @@
+function f6() {
+    return 3n;
+}
+new BigUint64Array(2378);
+const t4 = 6n;
+new t4(1024);
+const t6 = 44502n;
+new t6(22);
+const t8 = 228;
+new t8(7);
+new Float32Array(44502n);
+new Int8Array(671);
+try {
+    new BigUint64Array(-4);
+} catch(e27) {
+}
+class C28 {
+}
+const v29 = new C28();
+const v30 = new C28();
+const v31 = new C28();
+v31.valueOf = f6;
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    const t24 = 22;
+    t24.constructor = f6;
+    function f38(a39) {
+        function f40() {
+            return f40;
+        }
+        const v41 = [1073741824,1073741823,1376142744,1073741825];
+        for (let v42 = 0; v42 < 5; v42++) {
+            f6(f40, v42, v42, v41);
+        }
+        return this;
+    }
+    Object.defineProperty(a37, "valueOf", { writable: true, configurable: true, enumerable: true, value: 6n });
+    const v44 = this.constructor;
+    try { new v44(this, a37, -14); } catch (e) {}
+    a37.valueOf(a35, a37);
+}
+new F33(v30, v31, v31);
+new F33(v30, v29, 671);

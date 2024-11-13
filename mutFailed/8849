@@ -1,0 +1,85 @@
+const v1 = new Map();
+const v2 = [0.22765518540216179,1000000000000.0,95110.62484655366,1000000000.0,3.436859148069951,-0.0,2.0,-5.0];
+const v3 = [-102.00254877873078,4.124955647620156e+306,-2.0,-553429.805328496,-2.2250738585072014e-308,3.0];
+const v4 = [513779.5906574144,1.7409613810254415e+307,98.0881888203628,0.0];
+function f5(a6, a7) {
+    const o20 = {
+        ...a6,
+        ...v2,
+        [v2](a9, a10) {
+            a10[v1];
+            const v12 = a7.length;
+            a6 == v12 ? a6 : v12;
+            return a7;
+        },
+        get d() {
+            return a6;
+        },
+        "f": v1,
+        "arguments": v2,
+        __proto__: v1,
+        ...v4,
+        o(a17) {
+            gc();
+            return this;
+        },
+        "a": Map,
+        "b": a7,
+        [a7]: a7,
+    };
+    return o20;
+}
+const v21 = f5(v2, v2);
+f5(v4, v2);
+f5(v3, v3);
+class C27 extends Map {
+    [v21];
+    static [-2];
+    #p(a29, a30, a31) {
+        a30.__proto__;
+        let v33 = 0;
+        do {
+            try {
+                v3.toString = f5;
+                function F34(a36) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    const v38 = this.constructor.bind(F34, F34);
+                    try { new v38(); } catch (e) {}
+                }
+                new F34();
+            } catch(e41) {
+            }
+            const o42 = {
+            };
+            try {
+                o42.#d = Proxy;
+            } catch(e44) {
+            }
+            v33++;
+        } while ((() => {
+                const v47 = v33 < 3;
+                function f48(a49, a50, a51) {
+                    try { a49(); } catch (e) {}
+                    return a49;
+                }
+                f48(f48, f48, f48);
+                %OptimizeFunctionOnNextCall(f48);
+                return v47;
+            })())
+        return this;
+    }
+}
+new C27();
+new C27();
+new C27();
+function F58() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        for (let [v60,v61,v62,v63] of F58) {
+        }
+    } catch(e64) {
+    }
+}
+const v66 = Array(1024);
+const t83 = Reflect.construct(Uint8ClampedArray, [Uint8ClampedArray]).constructor;
+new t83(v66);

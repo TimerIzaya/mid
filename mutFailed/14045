@@ -1,0 +1,100 @@
+const v2 = new Int16Array(7);
+const v5 = new Int8Array(257);
+const v8 = new BigInt64Array(257);
+class C9 extends BigInt64Array {
+    static d;
+    constructor(a11, a12) {
+        super(v5);
+        let v13;
+        try { v13 = a11(BigInt64Array, a11, 257, v2); } catch (e) {}
+        super[v5] = a12;
+        let v14 = this[Int8Array];
+        super.forEach(a11);
+        v8[a11] = v14;
+        v14 <<= this;
+        v13 ^ a12;
+    }
+    5;
+    f;
+    d;
+}
+const v17 = new C9(Int8Array, 257);
+const v18 = new C9(257, 257);
+const v19 = new C9(v5, 257);
+function f20(a21, a22, a23) {
+    const o41 = {
+        set g(a25) {
+            v2[v17];
+        },
+        toString(a28, a29, a30) {
+            let v27 = this;
+            super.h = 257;
+            const v31 = v27++;
+            a22[4294967295] = v31;
+            const o32 = {
+            };
+            a28 = o32;
+            try {
+                a28.f = a21;
+            } catch(e33) {
+            }
+            try {
+                o32.e = a30;
+            } catch(e34) {
+            }
+            try {
+                const o35 = {
+                };
+                o35.e = a30;
+                o35.d = a30;
+            } catch(e36) {
+            }
+            try {
+                const o37 = {
+                };
+                o37.e = a30;
+                o37.d = a30;
+                o37.b = v5;
+            } catch(e38) {
+            }
+            try {
+                const o39 = {
+                };
+                o39.e = a30;
+                o39.d = a30;
+                o39.f = v31;
+            } catch(e40) {
+            }
+            return a22;
+        },
+    };
+    return o41;
+}
+f20(7, v17, 257);
+f20(7, v18, 257);
+f20(257, v8, 257);
+function f48(a49, a50, a51, a52) {
+    "valueOf" | a50;
+    a49 / a50;
+    const v55 = a50 < a50;
+    v55 >>> a51;
+    const o60 = {
+        "c": v19,
+        [257]: v8,
+        __proto__: v17,
+        "e": Int16Array,
+        "h": f20,
+        n(a58, a59) {
+            return v55;
+        },
+    };
+}
+for (let v61 = 0; v61 < 625; v61++) {
+    let v62;
+    try { v62 = f48(...257, ...v17, f48, BigInt64Array, Int16Array); } catch (e) {}
+    Math.fround(-1024 * 268435441);
+    +v61;
+    Math.abs(v62);
+    Math.asinh(v61);
+    -1.1993931679004643e+308 % -1024;
+}

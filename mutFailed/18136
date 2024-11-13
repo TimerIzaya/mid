@@ -1,0 +1,115 @@
+new Uint16Array(9);
+new Uint8Array(8);
+new Uint8ClampedArray(16);
+class C12 extends Uint8ClampedArray {
+    static [16];
+    toString(a14, a15, a16) {
+        function F17(a19, a20) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = a16;
+            } catch(e21) {
+            }
+            try {
+                this.a = -46458;
+            } catch(e22) {
+            }
+            let v26 = 1000000000.0;
+            function f27(a28) {
+                const o31 = {
+                    "g": v26,
+                    set a(a30) {
+                        a30.h = this;
+                    },
+                    "h": a28,
+                    "d": v26,
+                    "b": -1.1013479045636231e+308,
+                    2: a28,
+                };
+                return o31;
+            }
+            const v32 = f27();
+            f27();
+            class C37 {
+                #n(a39, a40, a41, a42) {
+                    super[this] = this;
+                    super[f27].o();
+                }
+                constructor(a47, a48) {
+                    const o52 = {
+                        "type": "minor",
+                    };
+                    gc(o52);
+                }
+            }
+            new C37(v32, 655864.1717298129);
+            new C37();
+            new C37();
+            v26 /= -2.2250738585072014e-308;
+            for (let i58 = 0; i58 < 7; i58++) {
+                new C37();
+            }
+            try {
+                this.c = a20;
+            } catch(e65) {
+            }
+        }
+        new F17(a15, this);
+        new F17(-2037049026, 9);
+        new F17(8, a16);
+        let v69 = 0;
+        while (v69 < 9) {
+            const o72 = {
+            };
+            try {
+                o72.e = 8;
+            } catch(e73) {
+            }
+            try {
+                const o74 = {
+                };
+                o74.e = 8;
+                o74.g = C12;
+            } catch(e75) {
+            }
+            try {
+                const o76 = {
+                };
+                o76.e = 8;
+                o76.g = C12;
+                o76.d = this;
+            } catch(e77) {
+            }
+            try {
+                const o78 = {
+                };
+                o78.e = 8;
+                o78.g = C12;
+                o78.d = a15;
+            } catch(e79) {
+            }
+            v69++;
+        }
+        return F17;
+    }
+}
+new C12();
+new C12();
+new C12();
+function f84() {
+    function F85() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v87 = 0; v87 < 10; v87++) {
+            let v89 = "p" + v87;
+            C12 = F85;
+            v89 = 8;
+            8 in this;
+            f84();
+        }
+    }
+    new F85();
+}
+%PrepareFunctionForOptimization(f84);
+f84();
+%OptimizeFunctionOnNextCall(f84);
+f84();

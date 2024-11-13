@@ -1,0 +1,73 @@
+const v3 = [-71419399,9007199254740992,2147483648,-3,65535,8];
+v3.g = v3;
+const v4 = [1705531040,-2,2957,8,536870887,-1809222092,-9007199254740990,-4294967296,15463];
+let v5;
+try { v5 = v4.toReversed(); } catch (e) {}
+const v6 = [6];
+function f7() {
+    return v6;
+}
+class C8 {
+    static m(a10, a11, a12) {
+        const o13 = {
+            "apply": f7,
+            "construct": f7,
+            "defineProperty": f7,
+            "deleteProperty": f7,
+            "getOwnPropertyDescriptor": f7,
+            "getPrototypeOf": f7,
+            "has": f7,
+            "isExtensible": f7,
+            "ownKeys": f7,
+            "preventExtensions": f7,
+        };
+        const v15 = new Proxy(a11, o13);
+        return v15;
+    }
+    static set c(a17) {
+        super[v4] = this;
+        v5 || v5;
+    }
+    #d;
+}
+C8.prototype = C8;
+const v19 = new C8();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+const v22 = new C8();
+try {
+    v22.a = -536870912n;
+} catch(e23) {
+}
+64n & C8;
+const v25 = new C8();
+const v27 = new WeakMap();
+const v28 = v27?.delete;
+try { new v28(v25); } catch (e) {}
+function f30() {
+    return v27;
+}
+for (let [i34, i35] = (() => {
+        0 !== 0;
+        return [0, 10];
+    })();
+    i34 < i35;
+    (() => {
+        const v39 = i35--;
+        v39 ^ v39;
+    })()) {
+    i34 + i34;
+}
+for (let v44 = 0; v44 < 25; v44++) {
+    const o46 = {
+        __proto__: null,
+    };
+    let v48 = -53803;
+    Math.round(null);
+    -65536;
+    +65536;
+    Math.tan(v48++);
+    Math.random();
+    Math.random();
+    o46.a = o46;
+}

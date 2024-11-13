@@ -1,0 +1,63 @@
+const v2 = new Float32Array(255);
+const v5 = new Uint16Array(4096);
+%VerifyType(v5 || Float32Array);
+const v8 = v2["some"](255, Float32Array, ...v2, ..."some");
+const v10 = new String("some");
+v8 in v10;
+const v14 = new Float32Array(5);
+function f15() {
+    return v5;
+}
+v14[v5] = 5;
+const v17 = v5["values"](Float32Array, ..."values", f15, Float32Array, Uint16Array, ..."values");
+let v19 = 609779850;
+const v21 = Float32Array - v19++;
+Math.acosh(4096);
+Math.max(4096);
+Math.tan(Float32Array);
+Math.abs(v21);
+v19 | 4096;
+const v27 = [-2147483647,-21455,9007199254740991,2081096863,33449];
+const v28 = [45341,11,627242622,2,1073741825,-2147135338,-9007199254740991,-2,10000,-256];
+const o29 = {
+};
+try {
+    o29.a = 255;
+} catch(e30) {
+}
+try {
+    const o31 = {
+    };
+    o31.a = 255;
+    o31.c = "some";
+} catch(e32) {
+}
+try {
+    const o33 = {
+    };
+    o33.a = 255;
+    o33.c = "some";
+    o33.g = v27;
+} catch(e34) {
+}
+try {
+    const o35 = {
+    };
+    o35.a = 255;
+    o35.c = "some";
+    o35.g = v27;
+} catch(e36) {
+}
+[-63588,-5,257,15,47547,-65536,-19602,65536,-122184598];
+v27[255] <<= 255;
+try {
+    v28.push(65536n, [v17,v27,Uint16Array,605575402,65536n]);
+} catch(e46) {
+}
+-Infinity;
+try {
+    f15();
+} catch(e52) {
+}
+const v56 = new Date(127);
+try { v56.setUTCFullYear(127, -8796n); } catch (e) {}

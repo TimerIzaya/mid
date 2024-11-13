@@ -1,0 +1,61 @@
+function f0() {
+    const o8 = {
+        set g(a5) {
+            10 === a5;
+            try {
+                this.c = "1073741824";
+            } catch(e7) {
+            }
+        },
+        [10]: 10,
+        "f": 824453.4063258304,
+        ..."1073741824",
+        __proto__: "1073741824",
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+const v14 = new Int32Array(4);
+v14.buffer <<= 172;
+try {
+    v10.__proto__ = v10;
+} catch(e16) {
+}
+new Uint32Array(v14);
+try {
+    v11.fuck(v11, v9, v14, Uint32Array);
+} catch(e20) {
+}
+f0();
+new BigUint64Array(9);
+const v27 = new Uint16Array(4294967295);
+const v30 = new Float32Array(7);
+try { v30.filter(4294967295); } catch (e) {}
+try { Int32Array(7, Float32Array, Int32Array); } catch (e) {}
+const v35 = new Int32Array(256);
+function F36(a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v41 = this?.constructor;
+    try { new v41(Uint16Array, a40, a40); } catch (e) {}
+    a38 * a38;
+    a40++;
+    this.d = a38;
+    try {
+        this.description = v27;
+    } catch(e45) {
+    }
+    try {
+        this.g = Int32Array;
+    } catch(e46) {
+    }
+}
+try { new F36(F36, 256, 256); } catch (e) {}
+const v48 = new F36(256, v35, 4294967295);
+const v49 = v48?.g;
+try { new v49(Uint16Array, v30, 7); } catch (e) {}
+new F36(7, 7, 4294967295);
+new F36(256, Float32Array, 256);
+Math.asinh();
+Uint32Array.sin(3.862600614459211e+307);

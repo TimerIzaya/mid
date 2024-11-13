@@ -1,0 +1,77 @@
+function f2() {
+    const v5 = Symbol.iterator;
+    Math[v5] = v5;
+    return Symbol;
+}
+%OptimizeFunctionOnNextCall(f2);
+const v6 = new Uint32Array(16);
+const v9 = new BigInt64Array(65);
+new BigUint64Array(5);
+const v13 = [BigUint64Array,v6];
+const v14 = [v6];
+const v15 = [5,v9,BigUint64Array,v6,v14];
+class C16 {
+    #c = 16;
+    #e = BigUint64Array;
+    #d = 5;
+    [v14];
+    b;
+    h = Uint32Array;
+    [v14] = f2;
+    constructor(a18, a19, a20, a21) {
+        super(a18);
+    }
+    static #n(a23, a24) {
+    }
+    static 65536;
+    /*
+    constructor(a26, a27, a28) {
+        function f29(a30, a31, a32) {
+            -(-7);
+            new WeakSet();
+            function f38() {
+                return f38;
+            }
+            const v41 = this >> -268435456;
+            v41 >> this;
+            -268435456 & v41;
+            return -v41;
+        }
+        function F45() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v47 = new F45();
+        class C48 extends F45 {
+            [v47];
+        }
+        f29(a28, a27, v14);
+    }
+    */
+}
+new C16(v15, 5, v14);
+gc();
+try {
+    v14.g = -128;
+} catch(e55) {
+}
+5.0 / -2.220446049250313e-16;
+new C16(v15, 5, v14);
+new C16(v14, 5, v14);
+Math.asin(-3 ^ 16);
+class C64 {
+    #p(a66, a67, a68, a69) {
+    }
+}
+const v72 = new Int8Array(5);
+const v76 = [v13,v13,v13,v13,v13];
+function F77(a79, a80) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v83 = this.valueOf(this.propertyIsEnumerable(a79), v76, v76).constructor;
+    let v84;
+    try { v84 = new v83(a79); } catch (e) {}
+    a79.lastIndexOf(v84, a79);
+}
+const v87 = new BigUint64Array(127);
+v72[v87];
+Math.sin();
+324308659 + 324308659;

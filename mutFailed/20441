@@ -1,0 +1,37 @@
+class C3 {
+    toString(a5) {
+        const o6 = {
+        };
+        new Proxy(this, o6);
+        return o6;
+    }
+    253 = C3;
+    static c = -31297;
+    static #f;
+    a;
+    h;
+    static #g;
+    g = 1.7976931348623157e+308;
+    static #a = -31297;
+}
+new C3();
+const v10 = new C3();
+new C3();
+for (let v16 = 0; v16 < 5; v16++) {
+    function f17() {
+        const v19 = ("undefined").constructor;
+        const t22 = "undefined";
+        return t22(f17, v16, v19, "undefined", v19);
+    }
+    f17();
+    %OptimizeFunctionOnNextCall(f17);
+    if (v16 < -4096) {
+        v10.g &&= -919.8391710168092;
+    } else {
+        Object.defineProperty(v10, "g", { configurable: true, value: v16 });
+    }
+}
+class C24 extends Date {
+}
+const v25 = new C24();
+v25.setUTCMinutes(1073741825, C24, C24);

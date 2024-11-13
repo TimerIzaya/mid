@@ -1,0 +1,49 @@
+function f0() {
+}
+function f1(a2, a3) {
+    %VerifyType(f0);
+    a2 = a3;
+    return a3;
+}
+f0.toString = f1;
+function f4() {
+    const o17 = {
+        "f": f4,
+        "a": f0,
+        "g": f0,
+        m() {
+            super[f0()] = this;
+            let v8 = 536870887;
+            const v11 = ~1858094462;
+            Math.asinh(f0);
+            Math.hypot(539487.4533594395);
+            this & v11;
+            f4.random();
+            ++v8;
+            return f4;
+        },
+    };
+    return f0;
+}
+const v18 = f4();
+v18.toString = f4;
+f4();
+v18();
+[750.9071132794747];
+[0.880215071263203,-1.6569084981207172e+308,0.22988217998930838,-1000.0,-1000000.0,1000.0,3.0];
+const v26 = [-1.7976931348623157e+308,1.0];
+function f27() {
+    return 5.0;
+}
+try { f27(); } catch (e) {}
+let v30 = -268435456n;
+v30--;
+1073741824n >> 1073741824n;
+class C34 {
+}
+C34.length;
+const v36 = new C34();
+try { v36.propertyIsEnumerable(1073741824n); } catch (e) {}
+const v40 = ReferenceError(v18)?.constructor;
+try { new v40(v26); } catch (e) {}
+ReferenceError();

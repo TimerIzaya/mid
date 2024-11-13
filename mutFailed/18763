@@ -1,0 +1,69 @@
+let v6 = ~9007199254740991;
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f12(a13, a14) {
+        v6 = a13;
+        %VerifyType(56381);
+        return a13;
+    }
+    this[Symbol.toPrimitive] = f12;
+    try { this.propertyIsEnumerable(this); } catch (e) {}
+    -a10;
+    a11--;
+    const v20 = a11 === a11;
+    v20 || v20;
+    try {
+        this.g = a9;
+    } catch(e22) {
+    }
+    try {
+        this.e = 56381;
+    } catch(e23) {
+    }
+    try {
+        this.a = a11;
+    } catch(e24) {
+    }
+}
+const v25 = new F7(9007199254740991, 56381, 9007199254740991);
+function f26(a27, a28) {
+    for (let v29 = 0; v29 < 5; v29++) {
+        function f30() {
+            ~([-1.5424212036356715e+308]).shift();
+            return v29;
+        }
+        f30();
+        %OptimizeFunctionOnNextCall(f30);
+    }
+    return a28;
+}
+v25.valueOf = f26;
+new F7(56381, v25, 9007199254740990);
+new F7(9007199254740991, v25, -27930);
+[4.0,-261.08376334222714,-774.3742497301538,-749450.423334604,-1000.0,-4.0,1000000000000.0,-7.0335363633176895,-568.8159531400181,-2.0];
+const v38 = [0.5517752256586609,2.227783633287368,5.0,4.0];
+const v39 = [1.0];
+function f40() {
+    new Date();
+    return 9007199254740990;
+}
+v39.valueOf = f40;
+try { v39.groupToMap(-27930); } catch (e) {}
+[v39,v39,v39];
+const v45 = [v38,56381,268435440];
+function f46() {
+    return f26;
+}
+Object.defineProperty(v45, "constructor", { writable: true, enumerable: true, get: f46 });
+try { v45.slice(v39, 9007199254740991); } catch (e) {}
+try { v45.fill(9007199254740990); } catch (e) {}
+[F7];
+const v50 = /Wlb(?!(a))\1yja\b!/gui;
+v50.h = v45;
+v50.h = v50;
+let v51 = 3;
+v51--;
+1000 / 1000;
+const v57 = 1000 >>> 1000;
+v57 - v57;
+try { gc(); } catch (e) {}

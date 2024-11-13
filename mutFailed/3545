@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3() {
+        return -9007199254740992n;
+    }
+    class C4 {
+    }
+    new C4();
+    try {
+        this.c = 1073741823;
+    } catch(e7) {
+    }
+    const o8 = {
+    };
+    class C9 {
+    }
+    const v11 = new Set();
+    function F12(a14, a15) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = a14;
+        } catch(e16) {
+        }
+        try {
+        } catch(e17) {
+        }
+        v11[this];
+        try {
+            new F12(a15, v11);
+        } catch(e20) {
+        }
+    }
+}
+new F0();
+new F0();
+const v23 = new F0();
+new Float32Array(4);
+new Uint32Array(2);
+function F37(a39, a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v43 = new F37(F37, F37, F37, F37);
+for (let v44 = 0; v44 < 25; v44++) {
+    v43[65535n + v44] = v44;
+}
+class C48 {
+    constructor(a50, a51) {
+        for (let i = 0; i < 10; i++) {
+            this[this];
+        }
+    }
+}
+new C48();
+new v23(0);
+function F55(a57, a58) {
+    if (!new.target) { throw 'must be called with new'; }
+    const t56 = Array(11);
+    t56[212] -= 3774;
+    const v63 = this.constructor;
+    try { new v63(this); } catch (e) {}
+    a58++;
+    this.g = a57;
+}
+new F55();
+const t64 = F37.constructor;
+new t64();

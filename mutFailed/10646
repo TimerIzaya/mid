@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 6;
+        let v3 = 0;
+        while (v3 < 0) {
+            break;
+            v3++;
+        }
+    } catch(e7) {
+    }
+    try {
+        this.h = 6;
+    } catch(e8) {
+    }
+}
+new F0(F0, F0, F0);
+const v10 = new F0();
+new F0();
+const v14 = new Int32Array(64);
+function f15() {
+    const v17 = new Uint8Array(64);
+    v17.includes(false);
+    return v10;
+}
+v14.valueOf = f15;
+Object.defineProperty(Uint8Array, Symbol.toPrimitive, { configurable: true, enumerable: true, value: f15 });
+new Uint8Array(100, Uint8Array, Int32Array);
+new Date(1000);
+function F28() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v30 = [-268435456,-9007199254740990,11,-25356,-536870912,4294967296,1520296454];
+const v31 = v30 & v14;
+v30[Uint8Array] = v10;
+v14[Int32Array];
+let v35 = 9 >> v31;
+Math.hypot(v35);
+v35 ** 9;
+Math.acos(v35);
+Math.clz32(9);
+v35--;
+v31 << v31;
+const o42 = {
+    __proto__: v30,
+};
+o42.m = v30;
+try { o42.m(F28); } catch (e) {}

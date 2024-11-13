@@ -1,0 +1,70 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3, a4) {
+        new F0();
+        for (let v6 = 0; v6 < 5; v6++) {
+            const o8 = {
+            };
+            gc(o8);
+        }
+        return a3;
+    }
+    this[Symbol.toPrimitive] = f2;
+    try {
+        this.b = -18221;
+    } catch(e13) {
+    }
+}
+const v14 = new F0();
+function F15(a17) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v18 = new F15(F15);
+function f19(a20, a21, a22) {
+    for (let i = 0; i < 5; i++) {
+    }
+    f19(a22, v18);
+    return a21;
+}
+const v24 = new F0();
+v24[Symbol.toPrimitive] = f19;
+const v27 = new F0();
+v27.toString = Symbol;
+function f28() {
+    return v27;
+}
+[f28,v27,v24];
+[v27];
+const v31 = [v27,v14,f28,v24,v24];
+v31[Symbol.toPrimitive] = f19;
+F0 * v31;
+try {
+    v27.toString = f28;
+} catch(e35) {
+}
+new Int8Array(1012);
+new Float64Array(3032);
+const v47 = new Uint8Array(8);
+class C52 extends Int8Array {
+}
+const v54 = /NV?/vmy;
+const v55 = /N[^123]a\nz(x)(x)(x)\2?/guim;
+let v56;
+try { v56 = v54(v55); } catch (e) {}
+const v57 = [-2.2250738585072014e-308,v56];
+const v58 = [v57,v57,v57];
+v58.c = v47;
+let {"c":v59,"g":v60,"length":v61,} = v58;
+const v62 = new Float32Array(4096);
+v62.valueOf = Symbol;
+v62 >> v62;
+const v64 = [1073741824,1073741823,1376142744,1073741825];
+function f65(a66, a67, a68, a69) {
+    let [] = v64;
+    try { v64["find"](..."find", a69, ...v31); } catch (e) {}
+    return a68;
+}
+for (let i74 = 0, i75 = 10; i74 < i75; i74++) {
+    continue;
+}
+v62.lastIndexOf(1.3174607869926752e+308);

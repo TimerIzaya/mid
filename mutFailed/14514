@@ -1,0 +1,77 @@
+class C3 {
+    static [-7] = -1000000000000.0;
+    toString(a5) {
+        const v6 = [-1000000000000.0];
+        const v7 = [this,v6,-1000000000000.0,-1000000000000.0];
+        [v6];
+        return v7;
+    }
+    n(a10) {
+        function F11(a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a13;
+            } catch(e14) {
+            }
+        }
+        const v15 = new F11(this);
+        new F11(v15);
+        const v17 = new F11(6.171233985834845e+307);
+        return v17;
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+function f21(a22, a23, a24, a25) {
+    const o34 = {
+        ...a23,
+        m(a27, a28) {
+            let v26 = this;
+            v26 = v19;
+            const o32 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o32);
+            return "minor";
+        },
+    };
+    return o34;
+}
+f21(v20, v20, v19, v18);
+f21(v18, v19, v20, v18);
+const v37 = f21(v18, v19, v20, v19);
+class C38 extends C3 {
+    get b() {
+        this <= f21;
+        try {
+            const o41 = {
+            };
+            const o42 = {
+            };
+            const o43 = {
+            };
+            new f21(o41, o42, o43, v18);
+        } catch(e45) {
+        }
+        return v37;
+    }
+}
+new v19();
+new C38();
+new C38();
+for (let v49 = 0; v49 < 5; v49++) {
+    function f50() {
+        for (let i53 = 10, i54 = 10;
+            i53 < i54;
+            (() => {
+                const v58 = C3++;
+                v58 >> v58;
+            })()) {
+        }
+        return v49;
+    }
+    f50();
+    %OptimizeFunctionOnNextCall(f50);
+}

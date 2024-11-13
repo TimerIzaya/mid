@@ -1,0 +1,144 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    class C2 {
+    }
+    const v3 = new C2();
+    const v4 = new C2();
+    const v5 = v4?.constructor;
+    try { new v5(); } catch (e) {}
+    const v7 = new C2();
+    function f8(a9, a10) {
+        const o11 = {
+            __proto__: a9,
+        };
+        const v12 = o11?.propertyIsEnumerable;
+        try { new v12(a9); } catch (e) {}
+        return v3;
+    }
+    f8(v3);
+    const v15 = f8(v4);
+    Object.defineProperty(v15, "constructor", { writable: true, configurable: true, value: f8 });
+    const v16 = v15?.constructor;
+    try { new v16(); } catch (e) {}
+    f8(v7);
+    127 >>> 127;
+    -(-63523);
+    try { v15["n"](); } catch (e) {}
+    -63523 >= 127 ? -63523 : 127;
+    Math.asinh(-(-63523));
+    Math.acosh();
+    try {
+        this.d = -536870912;
+    } catch(e32) {
+    }
+}
+new F0();
+const v34 = new F0();
+v34.length = v34;
+const v35 = new F0();
+v35.b = v35;
+new Array(570);
+function f39(a40, a41) {
+    a40.toString = Array;
+    a41.length;
+    const o51 = {
+        "g": a41,
+        "b": F0,
+        [a41](a44, a45, a46, a47) {
+            try { a40(a44); } catch (e) {}
+            try {
+                super.trunc();
+            } catch(e50) {
+            }
+            return a40;
+        },
+        "h": a41,
+    };
+    o51.length = v35;
+    return o51;
+}
+const v52 = f39(v34, v34);
+v52.h = v52;
+const v53 = f39(F0, v34);
+v53.g = v53;
+const v54 = f39(v34, v34);
+v54.length = v53;
+class C57 {
+    get b() {
+    }
+    #e;
+    c = 3.2255150730772826;
+}
+try { C57.apply(v34, v54); } catch (e) {}
+const v60 = new C57();
+function f61(a62, a63) {
+    return a63;
+}
+v60.toString = f61;
+const v64 = new C57();
+v64.a = f39;
+v64.a = v64;
+v64.toString = f61;
+const v65 = new C57();
+v65.c = v65;
+class C66 {
+    [v64];
+    #toString(a68, a69, a70) {
+    }
+    [3.2255150730772826] = v60;
+    188 = C57;
+    static 3865;
+    4 = v60;
+    #g = C66;
+}
+C66[3865] = C66;
+try { C66.call(v60); } catch (e) {}
+const v72 = new C66();
+const v73 = v72?.__lookupGetter__;
+try { new v73(v72); } catch (e) {}
+try { v73(C66); } catch (e) {}
+const v76 = new C66();
+const v77 = v76?.constructor;
+v77[3865];
+try { v77(); } catch (e) {}
+const v80 = new C66();
+function f81() {
+    const t105 = "symbol";
+    t105[v60] = v65;
+    class C83 {
+    }
+    try { new C83(); } catch (e) {}
+    const v85 = C83();
+    const v86 = C83();
+    function f87(a88, a89) {
+        const o98 = {
+            [-943.3768400471749]: v86,
+            [a89](a91, a92, a93) {
+            },
+            p(a95, a96) {
+                this.toString(a96, this, v85);
+                return -943.3768400471749;
+            },
+        };
+        return o98;
+    }
+    return v72;
+}
+f81.arguments = f81;
+v80.constructor = f81;
+const v99 = v80?.constructor;
+try { v99(); } catch (e) {}
+class C101 {
+    static {
+        try { this(); } catch (e) {}
+        let v104 = 0;
+        while ((() => {
+                6 - 6;
+                const v107 = v104 < 6;
+                !(!v107);
+                return v107;
+            })()) {
+            v104++;
+        }
+    }
+}

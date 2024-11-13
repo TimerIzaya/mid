@@ -1,0 +1,32 @@
+function f0() {
+}
+/e[\ca]Ya[bc]d/m;
+/(?<!)[(?:ab)|cde]+/vim;
+/j(?: foo )[oR]/udms;
+class C4 extends f0 {
+    m(a6, a7) {
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeFunctionOnNextCall(f0);
+        return f0();
+    }
+    static #e;
+}
+new C4();
+new C4();
+const v16 = new Uint16Array(2);
+new Uint32Array(v16);
+new C4();
+new BigUint64Array(3);
+new Float64Array(9);
+function F28() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v30 = this?.constructor;
+    try { new v30(); } catch (e) {}
+}
+new F28();
+new Int32Array(117);
+const v36 = new Int32Array(3239);
+new Float64Array(v36);

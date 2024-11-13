@@ -1,0 +1,73 @@
+const v0 = [];
+class C1 {
+    static {
+        const v3 = super[v0];
+        %VerifyType(v3);
+        (this & this) instanceof v3;
+    }
+    static #e = v0;
+    toString() {
+        return v0;
+        super.h = this;
+        return this;
+    }
+    static #g = v0;
+    #c = v0;
+    static a = v0;
+}
+new C1();
+const v8 = new C1();
+const v9 = new C1();
+new WeakSet();
+let v13 = -4294967295n;
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a19;
+    } catch(e21) {
+    }
+    try {
+        this.b = 21038n;
+    } catch(e22) {
+    }
+    try {
+        this.d = a20;
+    } catch(e23) {
+    }
+}
+const v24 = new F15(WeakSet, WeakSet, v8, 21038n);
+const v25 = new F15(21038n, v24, v24, 512n);
+const v26 = new F15(C1, v25, v8, v13);
+function f27(a28, a29) {
+    const o47 = {
+        [v9](a31, a32, a33, a34) {
+            let v30 = this;
+            let v35 = super.b;
+            [v30,a32,v35] = v0;
+            v13 += v13;
+            return a29;
+        },
+        set f(a37) {
+            this.b <<= a29;
+            ({"e":a29,} = a29);
+            for (let i39 = 0; i39 < 1; i39++) {
+                try {
+                    v9.length = 0;
+                } catch(e46) {
+                }
+            }
+        },
+    };
+    return o47;
+}
+f27(F15, v26);
+f27(F15, v8);
+f27(v8, v0);
+function F52(a54, a55) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v57 = this.valueOf().constructor;
+    try { new v57(v57, v57, v57, a55); } catch (e) {}
+    F52 instanceof BigInt64Array;
+}
+new F52(F52, C1);
+new F52();

@@ -1,0 +1,64 @@
+const v0 = [536870887,15,-16,0,-592407561,10,2147483648,256,-1];
+const v1 = [-13305224,1024,46980];
+const v2 = [-65536,268435456];
+function f3() {
+    return v0;
+}
+try { new f3(); } catch (e) {}
+function f5(a6) {
+    const o13 = {
+        [v1]: v0,
+        [v0](a8, a9) {
+            try { new a9(v2, a8, a6, a6); } catch (e) {}
+            v1.length;
+            Object.defineProperty(v2, 9, { writable: true, set: f3 });
+            a8 instanceof a9;
+            return a9;
+        },
+        ...a6,
+        [f3]: a6,
+        ...v0,
+        ...v1,
+    };
+    o13[0];
+    return o13;
+}
+const v15 = f5(v0);
+const v16 = v15[5];
+v16 & v16;
+const v18 = f5(v1);
+v18[6] = v18;
+v18[0] = v15;
+const v19 = f5(v2);
+v19[4] = v19;
+class C20 extends f5 {
+    p(a22, a23) {
+        for (const v24 of a23) {
+            for (let v25 = 0; v25 < 32; v25++) {
+                a22["p" + v25] = v25;
+            }
+        }
+        return f5;
+    }
+    [v0] = v1;
+    9;
+}
+let v28;
+try { v28 = new C20(); } catch (e) {}
+const v29 = new C20();
+const v30 = v29[1];
+v30 + v30;
+new v28();
+const v33 = new C20();
+let v35;
+try { v35 = new Int8Array(Int8Array, v33, v33); } catch (e) {}
+try { v35.values(); } catch (e) {}
+let v37 = 12;
+v37 !== v37;
+let v39 = v37--;
+v39++;
+class C41 extends Int8Array {
+    [v37];
+}
+try { new C41(); } catch (e) {}
+try { new C41(); } catch (e) {}

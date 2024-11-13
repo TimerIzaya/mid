@@ -1,0 +1,86 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3) {
+        try { a3(F0, F0, F0, F0, a3); } catch (e) {}
+    }
+    Object.defineProperty(this, "d", { writable: true, enumerable: true, set: f2 });
+    this.d = this;
+    try {
+        this.d = 129;
+    } catch(e6) {
+    }
+}
+const v7 = new F0();
+const v8 = new F0();
+v8.length = v7;
+const v9 = new F0();
+function f10(a11, a12) {
+    a11[Symbol.iterator] = f10;
+    a11.d;
+    a12.d = a12;
+    const o25 = {
+        o(a17, a18, a19) {
+            const o23 = {
+                "execution": "async",
+                "type": "major",
+            };
+            gc(o23);
+            return a12;
+        },
+        190: a12,
+        __proto__: a11,
+        "d": a11,
+    };
+    return o25;
+}
+const v26 = f10(v9, v9);
+f10(v8, v26);
+f10(v26, v9);
+BigUint64Array.e = BigUint64Array;
+const v31 = new BigUint64Array(221);
+new Int16Array(8);
+let v35 = 1024;
+v35--;
+Uint8Array[1] = Int16Array;
+const v38 = new Uint8Array(v35);
+const v39 = v38?.constructor;
+function f40(a41) {
+    function f42() {
+        const o47 = {
+            8: 0.043152456200264866,
+            get a() {
+                Math.acos(0.043152456200264866);
+            },
+        };
+        return o47;
+    }
+    f42();
+    return a41;
+}
+v39[Symbol.iterator] = f40;
+try { new v39(Uint8Array, 8, v31); } catch (e) {}
+const v52 = v31.__proto__;
+v52.b = F0;
+v52?.b;
+new Float32Array(1024);
+new Int8Array(129);
+new Int8Array(64);
+let v65 = new Float32Array(55);
+50 % 50;
+Float64Array.prototype;
+const v70 = new Float64Array();
+3170 >>> 3170;
+const v74 = new BigUint64Array(3170);
+v74.constructor = f10;
+const v75 = v74?.constructor;
+try { new v75(v8, BigUint64Array, v8); } catch (e) {}
+let v77;
+try {
+const t0 = 50;
+v77 = t0();
+} catch (e) {}
+let v78 = new Float64Array(v65);
+({"buffer":v77,"byteLength":v78,"length":v65,} = v78);
+[...v70,...v74];
+v77.slice(3170, 256);
+v65[5] &= 3170;

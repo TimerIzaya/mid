@@ -1,0 +1,39 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -4294967296;
+    } catch(e3) {
+    }
+}
+let v4 = new F0();
+function f5() {
+    function f6() {
+        for (let v7 = 0; v7 < 10; v7++) {
+            function* f8(a9, a10, a11) {
+                return a10;
+            }
+            f8();
+        }
+        return v4;
+    }
+    return f6;
+}
+Object.defineProperty(v4, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f5 });
+const v15 = new F0();
+const v16 = new F0();
+class C17 {
+    static valueOf(a19, a20) {
+        const v21 = super[a19];
+        v4 <<= v15;
+        v4 **= v21;
+        return a20;
+    }
+    [F0] = F0;
+    static [v4] = v4;
+    static 256;
+    static #e = v16;
+}
+new C17();
+new C17();
+new C17();
+4.0 - 4.0;

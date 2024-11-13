@@ -1,0 +1,98 @@
+const v2 = new Uint8ClampedArray(5);
+const v5 = new Uint8Array(2846);
+const v8 = new Int8Array(10);
+v8[7];
+class C10 {
+    b;
+    [v5] = Int8Array;
+    m(a12, a13, a14) {
+        new Uint8Array(a14, 10, 10);
+        super[a14] = Uint8ClampedArray;
+        a14 &= 5;
+        try { a14(); } catch (e) {}
+        return a13;
+    }
+    static #p(a18, a19, a20) {
+        this[10] = Uint8Array;
+        const v22 = Symbol.iterator;
+        try {
+            const o23 = {
+            };
+            v22.fuck(o23, Uint8Array, v2, a18);
+        } catch(e25) {
+        }
+        const o34 = {
+            [v22]() {
+                let v27 = 10;
+                const o33 = {
+                    next() {
+                        v27--;
+                        const v31 = v27 == 0;
+                        const o32 = {
+                            "done": v31,
+                            "value": v27,
+                        };
+                        return o32;
+                    },
+                };
+                return o33;
+            },
+        };
+        return this;
+    }
+}
+const v35 = new C10();
+const v36 = new C10();
+v36.c = v2;
+const v37 = new C10();
+function f38() {
+    function f39(a40, a41) {
+        return "function";
+        return "function";
+    }
+    return f39;
+}
+Object.defineProperty(v37, "toString", { writable: true, get: f38 });
+function F43(a45, a46, a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a46;
+    a48.e = a46;
+    try { this.propertyIsEnumerable(a46); } catch (e) {}
+    a46.e = a46;
+    a48.c = a48;
+    try {
+        this.g = a46;
+    } catch(e50) {
+    }
+}
+F43[3] = 2846;
+const v51 = new F43(v2, v35, F43, v37);
+const v52 = v51?.__defineGetter__;
+try { new v52(10, v2); } catch (e) {}
+new F43(10, v37, v37, v36);
+const v55 = new F43(v37, v35, 10, v37);
+v55.g;
+try { new Uint32Array(F43, 10, Uint32Array); } catch (e) {}
+const v59 = new Uint32Array();
+function f60(a61, a62, a63, a64) {
+    -a61;
+    try { a62(a63, a62, a61); } catch (e) {}
+    for (let [i70, i71] = (() => {
+            10 != 10;
+            return [0, 10];
+        })();
+        (() => {
+            const v72 = i70 < i71;
+            v59[v72];
+            return v72;
+        })();
+        i71--) {
+        i70 / i70;
+    }
+    return f60;
+}
+for (let v80 = 0; v80 < 5; v80++) {
+    f60(v80, Uint32Array, f60, v80);
+}
+%OptimizeFunctionOnNextCall(f60);
+f60();

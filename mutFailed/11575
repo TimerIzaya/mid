@@ -1,0 +1,33 @@
+-993457.2890492466 < 4096;
+new BigInt64Array(4096);
+new Uint16Array(1);
+2 + 2;
+const t3 = 2.211767670913966;
+const v16 = new t3(2);
+const v17 = [];
+v17.length;
+class C19 {
+}
+const v20 = new C19();
+const v21 = v20?.constructor;
+try { new v21(); } catch (e) {}
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v27 = this?.__lookupGetter__;
+    try { new v27(v16); } catch (e) {}
+    try { this.unshift(a25); } catch (e) {}
+    this.c = 2;
+}
+const v30 = new F23(v20, v17);
+try { v30.propertyIsEnumerable(Int16Array); } catch (e) {}
+function f32(a33, a34) {
+    return a34;
+}
+const v35 = f32?.constructor;
+try { new v35(Int16Array); } catch (e) {}
+const v39 = [v30];
+const o40 = {
+    "arguments": v39,
+    "type": 2,
+};
+new Worker(f32, o40);

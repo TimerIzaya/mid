@@ -1,0 +1,80 @@
+const v0 = /d(?<!)+/uiy;
+const v1 = /wPF(?!a)?a+/gi;
+const v2 = /[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/dsy;
+class C3 {
+    [v0];
+    static valueOf(a5, a6) {
+        const o9 = {
+            "maxByteLength": 255,
+        };
+        function F16(a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v20 = this?.constructor;
+            try { new v20(0.29489550717955537, a18); } catch (e) {}
+            try { this.constructor(0.6822080711934364, this); } catch (e) {}
+            try {
+                this.f = 3.0;
+            } catch(e23) {
+            }
+        }
+        new F16("string");
+        new F16();
+        3911 >> 3911;
+        new Int32Array();
+        const v35 = new SharedArrayBuffer(255, o9);
+        new Int8Array(v35);
+        return v0;
+    }
+    b;
+    static e = v2;
+}
+const v38 = new C3();
+const v39 = new C3();
+const v40 = new C3();
+function F41(a43, a44, a45, a46) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v1;
+    } catch(e47) {
+    }
+    try {
+        this.e = a44;
+    } catch(e48) {
+    }
+    try {
+        this.b = v38;
+    } catch(e49) {
+    }
+}
+const v50 = new F41(v0, v2, v38, v2);
+const v51 = new F41(v1, v2, v39, v0);
+const v52 = new F41(v0, v2, v50, v2);
+function f53() {
+    return v2;
+}
+function f54() {
+    return f53;
+}
+function f56(a57, a58, a59) {
+    const o69 = {
+        m(a61, a62, a63, a64) {
+            Object.defineProperty(a59, -2, { writable: true, enumerable: true, set: f53 });
+            try {
+                v39.fuck("sticky", "sticky", "sticky", ["sticky",,this,v50,f54]);
+            } catch(e68) {
+            }
+            return v38;
+        },
+        ...v51,
+        1771074075: v39,
+        ...C3,
+        ...v50,
+        __proto__: v38,
+    };
+    return o69;
+}
+f56(v52, v51, v50);
+f56(v50, v50, v40);
+f56(v50, v39, v38);
+const v74 = [9,1024,256,268435440,-1916992432,7,-2147483648,20126,-2,1645963617];
+try { v74.group(BigInt64Array); } catch (e) {}

@@ -1,0 +1,96 @@
+function f3(a4, a5) {
+    a4(f3);
+    return a5;
+}
+function f7(a8, a9) {
+    return a9;
+}
+f3.then = f7;
+new Promise(f3);
+for (let v12 = 0; v12 < 5; v12++) {
+    const o14 = {
+    };
+    gc(o14);
+}
+class C16 {
+    set b(a18) {
+        a18[3] ||= a18;
+        super.a;
+    }
+    constructor(a24, a25) {
+        let v27 = 3;
+        let v28 = -2;
+        Math.clz32(v27);
+        v27--;
+        Math.sinh(v27);
+        const v33 = --v28;
+        v33 | v33;
+        Number.isNaN(this - v33);
+    }
+}
+try { new C16(-65535, "string"); } catch (e) {}
+const v39 = new C16("string", -65535);
+const v40 = new C16(C16, -1000000000000.0);
+new C16(v40, v40);
+const v42 = [-9.936614236729753e+307,-4.0,82.53878201060115,257071.99292520806];
+try { v42.pop(); } catch (e) {}
+const v44 = [1000000000000.0,595.3112499566648,-2.4107903248601144];
+[1.756696727593307e+308,2.0,0.06652914011424438,1000.0,192.79763931033267,-631826.0929446811];
+class C46 extends C16 {
+    #n(a48, a49, a50, a51) {
+        const v52 = v39 <= a50;
+        a50[10] = v52;
+        try { a48(a49, "string", "string", v39, -65535); } catch (e) {}
+        try {
+            v39.b = v52;
+        } catch(e54) {
+        }
+        return v44;
+    }
+    static #e = -65535;
+    #h;
+}
+C46.a = C46;
+new C46();
+const v56 = new C46();
+const v57 = new v56();
+const v58 = v57?.constructor;
+try { new v58(); } catch (e) {}
+const v63 = ["number","number","number","number"];
+const o81 = {
+    o(a65) {
+        function f66(a67, a68, a69, a70) {
+            const v71 = a67?.constructor;
+            try { new v71(a68); } catch (e) {}
+            function f73() {
+                -4294967295 | -4294967295;
+                -4294967295 === -4294967295;
+                return -4294967295;
+            }
+            try { f73(); } catch (e) {}
+            f73();
+            %OptimizeFunctionOnNextCall(f73);
+            return a67;
+        }
+        f66(f66, f66, f66, f66);
+        f66();
+        return a65;
+    },
+};
+const v82 = o81?.constructor;
+try { new v82(-65535); } catch (e) {}
+o81["o"]();
+const v86 = [v63,v63];
+function F87(a89, a90, a91) {
+    if (!new.target) { throw 'must be called with new'; }
+    a89[1];
+    const v93 = this.constructor;
+    try { new v93(this, this); } catch (e) {}
+    a89[1] = a89;
+    a90[4] = a90;
+    try {
+    } catch(e95) {
+    }
+}
+new F87(v63, v86);
+new F87(v86, v63);

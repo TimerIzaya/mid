@@ -1,0 +1,51 @@
+class C3 {
+    #valueOf(a5, a6) {
+        for (let v7 = 0; v7 < 32; v7++) {
+            this["p" + v7] = v7;
+        }
+        return this;
+    }
+    static d = -14;
+    [9] = -14;
+    static 3;
+    static c;
+}
+C3.d = C3;
+const v10 = new C3();
+v10[9] = v10;
+const v11 = (9)[9];
+v11 - v11;
+new C3();
+const v14 = new C3();
+let v15 = v14[9];
+v15++;
+1000000.0 ^ 1000000.0;
+1000000.0 >>> 1000000.0;
+-2.9702076467547567 - -2.9702076467547567;
+1126838905 - 1126838905;
+Reflect.construct(1126838905 - 1126838905, [1126838905]);
+class C34 {
+    [-2] = 31876;
+}
+try { new C34(); } catch (e) {}
+C34.name = C34;
+const v36 = new C34();
+const v37 = v36?.constructor;
+try { new v37(); } catch (e) {}
+const v39 = v36?.constructor;
+try { new v39(); } catch (e) {}
+const v41 = [-20096,4294967296,-65537,-2];
+const v42 = [-1947047520];
+const v43 = [v42,v42,v42,v41];
+v43[1];
+v43[3][2];
+const v47 = [v43];
+try { v47.map(v43); } catch (e) {}
+const v49 = v47?.filter;
+v49.length;
+try { new v49(v36); } catch (e) {}
+("slice")[0];
+const v54 = v41["slice"](v47);
+const v55 = v54?.findIndex;
+try { new v55(1000000.0); } catch (e) {}
+try { v54.fill(v54); } catch (e) {}

@@ -1,0 +1,42 @@
+const v2 = new Float64Array(129);
+try { Int8Array.of(); } catch (e) {}
+const v6 = new Int8Array(0);
+const v7 = v6?.entries;
+try { new v7(); } catch (e) {}
+new Float32Array(10);
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = v2;
+    Object.defineProperty(a15, "BYTES_PER_ELEMENT", { configurable: true, value: a14 });
+    try { this.hasOwnProperty(this); } catch (e) {}
+    a14--;
+    a15.BYTES_PER_ELEMENT = a15;
+    try {
+        this.g = a16;
+    } catch(e20) {
+    }
+    try {
+        this.e = a16;
+    } catch(e21) {
+    }
+    try {
+        this.d = a14;
+    } catch(e22) {
+    }
+}
+const v23 = new F12(0, Float32Array, 10, 10);
+v23.BYTES_PER_ELEMENT = v7;
+v23.g;
+new F12(0, v23, 0, 10);
+const v26 = new F12(0, Float32Array, 10, 0);
+v26.d = v26;
+function f27() {
+    return f27;
+}
+const o30 = {
+    set b(a29) {
+    },
+    __proto__: f27,
+};
+o30[Symbol.iterator] = f27;
+Reflect.construct(Int8Array, [o30]);

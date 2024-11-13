@@ -1,0 +1,43 @@
+class C3 {
+    static m(a5, a6) {
+        try { a5(a5, this, a6, this, this); } catch (e) {}
+        const o11 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o11);
+        return 16;
+    }
+}
+new C3();
+const v14 = new C3();
+const v15 = new v14();
+let v18;
+try { v18 = new Float64Array(C3, v14, v14); } catch (e) {}
+const v19 = new Float64Array(v18);
+for (let v21 = 0; v21 < 25; v21++) {
+}
+const v22 = new Float32Array();
+v22[4294967295] = v22;
+let v25;
+try { v25 = new Uint32Array(v19, v15, -824732327); } catch (e) {}
+new Uint32Array(v25);
+1000 >> 1000;
+new Uint32Array(268435441);
+class C31 {
+}
+let v32;
+try { v32 = C31(); } catch (e) {}
+function f33(a34, a35) {
+    let v36;
+    try { v36 = new a35(); } catch (e) {}
+    const o37 = {
+        __proto__: v36,
+    };
+    o37.e = o37;
+    const v38 = v32.name;
+    try { v38.strike(); } catch (e) {}
+    return v32;
+}
+%PrepareFunctionForOptimization(v32);
+f33(f33, C31);

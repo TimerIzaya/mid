@@ -1,0 +1,55 @@
+const v1 = new Date();
+try { SharedArrayBuffer.apply(); } catch (e) {}
+class C5 extends Uint8Array {
+}
+let v15;
+try { v15 = ("asIntN").sup(); } catch (e) {}
+new Int16Array(257);
+new Float32Array(v15);
+const v22 = (257)?.constructor;
+try { new v22(v1, "asIntN", 575.789191129877); } catch (e) {}
+class C27 {
+    [31876] = 3;
+    constructor(a29, a30) {
+        const o31 = {
+        };
+        const v33 = new Proxy(this, o31);
+        const t16 = "fround";
+        t16[31876] = v33;
+    }
+}
+new C27();
+const v36 = new BigUint64Array(10);
+v36[1];
+const t22 = "object";
+t22[3] = "object";
+class C39 {
+}
+const v40 = new C39();
+const v41 = v40?.constructor;
+try { new v41(); } catch (e) {}
+268435440 >> 268435440;
+const v46 = v40 >>> 268435440;
+Math.expm1();
+(1 >>> 1) + 1;
+new BigInt64Array(v46);
+class C53 {
+}
+try { C53.apply(Float32Array, BigInt64Array); } catch (e) {}
+2147483647 ^ 2147483647;
+const t38 = "zEH";
+const v59 = new t38(10);
+for (const v61 in v59) {
+    v61[0];
+    let v63 = 10;
+    v63 >>> v63;
+    for (;
+        (() => {
+            const v65 = v63--;
+            v65 - v65;
+            return v65;
+        })();
+        ) {
+    }
+    new Float64Array(2147483647);
+}

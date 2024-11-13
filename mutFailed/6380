@@ -1,0 +1,64 @@
+new Int16Array(253);
+5 >> 5;
+new Int16Array(92);
+new Uint16Array(150, Uint16Array, 92, Int16Array);
+new Int16Array(9007199254740991);
+BigUint64Array.length = BigUint64Array;
+try { new BigUint64Array(253, Int16Array, 5); } catch (e) {}
+const v16 = new BigUint64Array(5);
+const v18 = 235 << 235;
+const v20 = new Uint32Array(235);
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v27 = this?.constructor;
+    try { new v27(235, a23, a23, a23); } catch (e) {}
+    ~a24;
+    a25 & a25;
+    a23++;
+    try {
+        this.e = a25;
+    } catch(e32) {
+    }
+    try {
+        this.f = 253;
+    } catch(e33) {
+    }
+    try {
+        this.b = v20;
+    } catch(e34) {
+    }
+}
+try { new F21(v16, v18, 5, v16); } catch (e) {}
+const v36 = new F21(5, 253, 235, 235);
+const v37 = v36?.constructor;
+v37.arguments;
+let v39;
+try { v39 = new v37(Int16Array, 253, v36, v36); } catch (e) {}
+v39.f;
+new F21(F21, 235, 5, v36);
+new F21(235, 253, 253, v20);
+const v43 = [];
+Uint16Array.c = Uint16Array;
+function f45() {
+    let v46 = 12;
+    v46 >>> v46;
+    const v48 = v46--;
+    v48 - v48;
+    v48 | v48;
+    class C51 {
+        constructor(a53) {
+            Uint16Array(v46);
+        }
+    }
+    try { new C51(5); } catch (e) {}
+    const v57 = v43.constructor.call();
+    try { v57.lastIndexOf(C51); } catch (e) {}
+    const v59 = v57?.copyWithin;
+    try { new v59(Int16Array, Int16Array); } catch (e) {}
+    return Uint16Array;
+}
+%PrepareFunctionForOptimization(f45);
+const v61 = f45();
+try { new v61(Uint16Array, v37, Int16Array); } catch (e) {}
+%OptimizeFunctionOnNextCall(f45);
+f45();

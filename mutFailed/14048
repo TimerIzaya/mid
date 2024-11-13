@@ -1,0 +1,50 @@
+const v0 = [-1000.0];
+Int32Array.bind(Int32Array, Int32Array, Int32Array);
+const v6 = new Uint8ClampedArray(303);
+Object.defineProperty(v6, 7, { writable: true, configurable: true, enumerable: true, value: Int8Array });
+const v7 = [-5.440886984000062,-0.0,-2.7350281079190886];
+let v8 = [-1.386808833450185e+308,-1000000.0,-1.1645737691199648e+308];
+class C9 {
+    constructor(a11, a12) {
+        v8[2] = this;
+        Math.hypot(-9);
+        let v16 = -9 & a12;
+        const v17 = v7 | a12;
+        const v18 = --v8;
+        ~v17;
+        v16++ % v18;
+    }
+    #c = v0;
+    static [v7] = v0;
+    [v0] = v8;
+}
+const v22 = new C9(v8, v7);
+const v23 = new C9(v22, v8);
+const v24 = new C9(v23, v7);
+function f25(a26, a27, a28) {
+    const o29 = {
+        "c": v22,
+        [C9]: v23,
+        ...C9,
+        "h": v8,
+        __proto__: v24,
+        "b": v7,
+        [a27]: a27,
+        "d": v24,
+        "a": C9,
+        "f": a27,
+        ...v7,
+        65536: v24,
+        "e": v23,
+        1073741823: a26,
+        256: v24,
+    };
+    return o29;
+}
+const v31 = f25(v0, v23, f25(v23, v22, v23));
+f25(v31, v23, v31);
+new Uint8ClampedArray(28);
+new BigUint64Array(3994);
+new Float32Array(3858);
+const v44 = new Uint16Array(3);
+v44.reverse();

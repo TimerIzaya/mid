@@ -1,0 +1,22 @@
+let v1 = -65537n;
+try {
+    BigInt(BigInt);
+} catch(e7) {
+}
+const v8 = [v1,v1,-4294967297n,v1,4294967295n];
+const v9 = [-4294967297n,-4294967297n,v1];
+let v10 = v9[1];
+const v11 = v8[v9];
+const v12 = v11?.[v11];
+v1 = 4294967295n;
+Reflect.construct(v11, [BigInt], v12);
+[-4294967297n,v1,4294967295n,4294967295n,-4294967297n];
+v10--;
+new Uint8ClampedArray(10);
+try { BigInt64Array.of(); } catch (e) {}
+new BigInt64Array(v8);
+new Float64Array(Float64Array.name);
+function f29() {
+    return v8;
+}
+Object.defineProperty([f29], -2, { value: f29 });

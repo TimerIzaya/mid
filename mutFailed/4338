@@ -1,0 +1,36 @@
+class C3 {
+    constructor(a5, a6) {
+        new Uint8ClampedArray(3320);
+        new Float64Array(127);
+        new Float32Array(1564);
+    }
+    [-1.7976931348623157e+308];
+}
+const v16 = new C3(1000, -1.7976931348623157e+308);
+const v17 = new v16(1000, v16);
+const v18 = new C3(v17, 5.0);
+/8\P{Any}/gudim;
+/(dde\xed\xa0\x80)/vsy;
+/[a-zA-Z0-9]?/i;
+Reflect.construct(Int16Array, [[-1,16,65536]]);
+let v30 = 1073741824;
+class C32 {
+    constructor(a34) {
+        [a34,v30] = a34;
+    }
+}
+new C32(Int16Array);
+const v36 = new C32();
+function f38(a39, a40, a41) {
+    a39[22] = a41;
+    f38[22] = a39;
+    const o42 = {
+        ...v16,
+        2: v18,
+        268435439: v30,
+    };
+    return a41;
+}
+const v43 = f38(v36, "-65537", v30);
+v30[22] = "boolean";
+f38(v43, "boolean", v43);

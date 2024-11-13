@@ -1,0 +1,91 @@
+function f0() {
+}
+class C1 {
+    p() {
+        for (let v3 = 0; v3 < 32; v3++) {
+            this["p" + v3] = v3;
+        }
+        return f0;
+    }
+    o() {
+        const v9 = this[Symbol.iterator];
+        try {
+            super.from(this, v9, this, this, f0);
+        } catch(e11) {
+        }
+        return this;
+    }
+}
+C1[Symbol.toPrimitive] = f0;
+new C1();
+const v15 = new C1();
+const v16 = new C1();
+function f17() {
+    function f18(a19) {
+        for (let v20 = 0; v20 < 25; v20++) {
+        }
+        return a19;
+    }
+    return f18;
+}
+function f21(a22) {
+    v15[5];
+}
+Object.defineProperty(v16, "constructor", { get: f17, set: f21 });
+function F24(a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f27(a28) {
+        v16[-2] = v15;
+        this.d **= a26;
+        return v16;
+    }
+    this.constructor = f27;
+    function f29() {
+        function f30(a31) {
+            a31?.b;
+            const o33 = {
+                "apply": f0,
+                "call": f27,
+                "construct": f27,
+                "defineProperty": Symbol,
+                "deleteProperty": f0,
+                "get": Symbol,
+                "getOwnPropertyDescriptor": f27,
+                "getPrototypeOf": Symbol,
+                "isExtensible": f21,
+                "ownKeys": f27,
+                "set": f21,
+                "setPrototypeOf": f17,
+            };
+            new Proxy(C1, o33);
+            return o33;
+        }
+        return f30;
+    }
+    Object.defineProperty(a26, "constructor", { enumerable: true, get: f29 });
+    try { this.propertyIsEnumerable(C1); } catch (e) {}
+    const v37 = a26?.constructor;
+    function f38(a39, a40) {
+        new BigUint64Array(128);
+        new Float32Array(6);
+        new Int32Array(1024);
+        return Symbol;
+    }
+    v37[Symbol.toPrimitive] = f38;
+    try { new v37(); } catch (e) {}
+    try {
+        this.d = a26;
+    } catch(e53) {
+    }
+    try {
+        this.f = a26;
+    } catch(e54) {
+    }
+}
+const v55 = new F24(v16);
+new F24(v55);
+new F24(v15);
+1559400861n & 1559400861n;
+-9007199254740992n / -9007199254740992n;
+2147483649n / 2147483649n;
+URIError(Float64Array);

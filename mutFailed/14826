@@ -1,0 +1,91 @@
+const v2 = new BigUint64Array(943);
+const v5 = new Int32Array(4096);
+const v8 = new BigUint64Array(129);
+function f9() {
+    return v2;
+}
+class C13 {
+    static #p(a15, a16) {
+    }
+    #h;
+}
+const v17 = new C13();
+const v18 = new C13();
+const v19 = new C13();
+function f20(a21, a22, a23, a24) {
+    const o28 = {
+        "c": -922911.6474995338,
+        242: -922911.6474995338,
+        "g": v18,
+        [a24]: a22,
+        [C13]: a22,
+        "a": -747634.1081113975,
+        "b": a23,
+        set g(a26) {
+        },
+        ...v5,
+        "maxByteLength": 129,
+        "h": a21,
+        "f": a24,
+        __proto__: a23,
+        get c() {
+            return this;
+        },
+        "g": v8,
+    };
+    return o28;
+}
+const v30 = f20(f20(v17, v19, C13), v19, v17, v17);
+const v31 = /1xyz{1,}?/gims;
+const v32 = /h\p{gc=Nd}/vdy;
+const v33 = /\xf0\x9f\x92\xa9a*/us;
+function F37(a39, a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v43 = new F37(v33, 1, -1263139894, F37);
+const v44 = new F37(v31, v33, -23596, v43);
+const v45 = new F37(v32, F37, -23596, 1);
+const v46 = v45 | F37;
+let v47;
+try { v47 = v44(v33, v46, v46); } catch (e) {}
+if (v47) {
+} else {
+}
+const v48 = f20(v18, v19, v30, v30);
+class C49 {
+    #h;
+    constructor(a51, a52, a53) {
+        function f54(a55, a56, a57) {
+            function f59(a60) {
+                return a57;
+            }
+            %PrepareFunctionForOptimization(f59);
+            return this;
+        }
+        Worker(f54);
+    }
+    /*
+    constructor(a66, a67) {
+        function f68(a69, a70) {
+        }
+        const v74 = [v17,v48];
+        const o75 = {
+            "arguments": v74,
+            "type": "function",
+        };
+        new Worker(f68, o75);
+    }
+    */
+    a;
+    static toString(a78, a79) {
+        const v81 = super[a79];
+        try {
+            delete this[v81];
+            this[v33];
+        } catch(e84) {
+        }
+    }
+}
+Uint32Array[1] = 15;
+new Float64Array(Uint32Array);
+new C49(C13, C49);

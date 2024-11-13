@@ -1,0 +1,27 @@
+[1000.0,707994.5800314306,-0.0];
+[-2.220446049250313e-16,653.0553900578097];
+[-4.0,3.0,-2.220446049250313e-16,-1e-15,-3.270630504797422e+307,-336.9175376652431,744.6579038528116,0.31833551355451906,-3.0,NaN];
+new Uint8ClampedArray(3);
+new BigInt64Array(30);
+new Float64Array(256);
+const o18 = {
+};
+o18.g = Uint8ClampedArray;
+function f19(a20, a21) {
+    const o22 = {
+    };
+    o22.g = o22;
+    return o22;
+}
+const t15 = "function";
+const v23 = t15();
+const v24 = f19();
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(a27, "g", { configurable: true, enumerable: true, value: a28 });
+    a27.g = a27;
+    const v29 = this?.constructor;
+    try { new v29(f19, v23); } catch (e) {}
+}
+new F25("unscopables");
+new F25(v24);

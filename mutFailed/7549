@@ -1,0 +1,38 @@
+const v0 = /i[.M(?:a?)*]+/vd;
+const v1 = /[x]+/umy;
+const v4 = new Uint8ClampedArray(3);
+class C5 {
+    constructor(a7, a8, a9, a10) {
+        const v11 = this.constructor;
+        try { new v11(3, a10, this, this); } catch (e) {}
+        for (let v13 = 0; v13 < 5; v13++) {
+            v4[v13] = a10;
+        }
+    }
+}
+new C5();
+const v15 = /W0a+?/udms;
+class C16 {
+    [v15] = v15;
+    static #b = v1;
+    static n(a18, a19) {
+        super[this] = v0;
+        let v20;
+        try { v20 = a18(v15, a18, this, this); } catch (e) {}
+        return v20;
+    }
+    static [v0] = v1;
+    static [v15] = v0;
+    #d = v0;
+}
+new C16();
+new C16();
+new C16();
+function F27(a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v31 = this.constructor;
+    try { new v31(F27); } catch (e) {}
+    a30 / a30;
+}
+new F27();
+new F27();

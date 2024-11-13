@@ -1,0 +1,96 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = this;
+    try {
+        this.h = 6;
+    } catch(e3) {
+    }
+}
+function f4(a5) {
+    function f7() {
+        return Math;
+    }
+    return f7;
+}
+F0[Symbol.toPrimitive] = f4;
+const v10 = new F0();
+const v11 = new F0();
+const v12 = new F0();
+class C15 {
+    static #a;
+}
+new C15();
+new C15();
+new C15();
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a23;
+    try {
+        this.c = 0.19150106894369479;
+    } catch(e25) {
+    }
+    try {
+        this.b = 0.19150106894369479;
+    } catch(e26) {
+    }
+}
+new F20(v10, v10, -548.339817744028);
+new F20(v11, v10, 2.2250738585072014e-308);
+new F20(v11, v12, 0.19150106894369479);
+new Array(14);
+class C33 {
+}
+const v34 = new C33();
+function f35(a36, a37) {
+    function f38() {
+    }
+    f38.valueOf = f38;
+    class C39 extends f38 {
+    }
+    function f40(a41, a42) {
+        class C43 {
+        }
+        const v44 = [1073741824,1073741823,1376142744,1073741825];
+        function f45(a46, a47, a48, a49) {
+            try { v44["find"](); } catch (e) {}
+            return C43;
+        }
+        for (let v52 = 0; v52 < 5; v52++) {
+            f45(v52, f45);
+        }
+        return f45;
+    }
+    C39.valueOf = f40;
+    class C54 extends C39 {
+    }
+    C54.toString = f38;
+    function f55(a56, a57, a58, a59) {
+        f38.a = a56;
+        let v60;
+        try { v60 = a56(C54); } catch (e) {}
+        a57 & v60;
+        const o65 = {
+            n(a63, a64) {
+            },
+        };
+        return o65;
+    }
+    for (let v66 = 0; v66 < 500; v66++) {
+        f55();
+        try {
+            new f38();
+        } catch(e69) {
+        }
+        C54 & a37;
+    }
+    return a37;
+}
+Object.defineProperty(v34, "constructor", { value: f35 });
+const v73 = 9 & F0;
+let v74 = +F20;
++F0;
+Math.imul(9, v74);
+v74--;
+Math.max(v73);
+const t90 = v34.constructor;
+t90();

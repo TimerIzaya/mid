@@ -1,0 +1,73 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 41821;
+    } catch(e11) {
+    }
+    try {
+        this.g = a9;
+    } catch(e12) {
+    }
+    try {
+        this.e = 15;
+    } catch(e13) {
+    }
+}
+const v14 = new F6(65536, 65536, "10");
+const v15 = new F6("indexOf", 65536, "2147483649");
+new F6(v15, 65536, "indexOf");
+class C17 extends "2147483649" {
+    #m(a19, a20) {
+        this.__proto__;
+        const v23 = new F6("10", -this, a20);
+        this >= v23;
+        return v14;
+    }
+    static [65536];
+    static #o(a26, a27, a28) {
+        Object.defineProperty(v15, a28, { writable: true, enumerable: true, value: 41821 });
+        const v30 = Symbol.iterator;
+        const o39 = {
+            [v30]() {
+                let v32 = 10;
+                const o38 = {
+                    next() {
+                        v32--;
+                        const v36 = v32 == 0;
+                        const o37 = {
+                            "done": v36,
+                            "value": v32,
+                        };
+                        return o37;
+                    },
+                };
+                return o38;
+            },
+        };
+        return a28;
+    }
+}
+new C17();
+const t50 = "10";
+new t50();
+new C17();
+class C43 {
+}
+const v44 = new C43();
+function f45(a46, a47, a48, a49) {
+    const v52 = new Int16Array(1269);
+    for (const v53 in v52) {
+    }
+    const o60 = {
+        valueOf(a55, a56, a57, a58) {
+            const o59 = {
+                [a47]: v44,
+            };
+            return a47;
+        },
+    };
+    return o60;
+}
+const v61 = f45(C43, f45, C43, C43);
+const v62 = f45();
+f45(v62, v62, v61, v61);

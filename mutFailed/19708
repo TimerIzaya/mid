@@ -1,0 +1,52 @@
+function f0() {
+    try {
+        const t2 = 8;
+        t2.h = f0;
+    } catch(e3) {
+    }
+    const o18 = {
+        "e": 64,
+        [8](a9) {
+            return 64;
+        },
+        "b": 64,
+        ...8,
+        "h": 64,
+        toString(a14, a15) {
+            let v16;
+            try { v16 = a15(a15, a14, 1.7976931348623157e+308, this, 64); } catch (e) {}
+            try { v16(v16, a15); } catch (e) {}
+            return 1.7976931348623157e+308;
+        },
+    };
+    return o18;
+}
+const v19 = f0();
+f0();
+const v21 = f0();
+const v23 = new Date();
+const v24 = v23?.setFullYear;
+try { new v24(f0, v23, v19); } catch (e) {}
+const v26 = [-1148633342,-1418432247,1000,12435,268435441,9223372036854775807,512,6];
+try { v26.map(f0); } catch (e) {}
+([268435456,-1024,1669,-9007199254740992,-4294967295,-2,1073741825])[2];
+v19 ^ [1816964233,1861715766,128,1024,-536870912];
+v21();
+64 === 64;
+const v36 = new Int8Array(64);
+v36[4] = v36;
+let v37 = 7;
+v37--;
+new BigUint64Array(v37);
+new Float32Array(4);
+for (let v44 = 0; v44 < 5; v44++) {
+    -v44;
+    function f46() {
+        let v48 = ("Vre").codePointAt(v44);
+        let v50 = v48 * v48--;
+        v50--;
+        return v50 / v50;
+    }
+    f46();
+    %OptimizeFunctionOnNextCall(f46);
+}

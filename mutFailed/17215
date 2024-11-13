@@ -1,0 +1,50 @@
+const v5 = new Int8Array(128);
+try { v5.slice(Int8Array, v5); } catch (e) {}
+Int8Array.g = Int8Array;
+const v9 = new Int8Array(512);
+const v10 = v9?.constructor;
+try { new v10(-3.0, -3.0, 0.0); } catch (e) {}
+Uint8ClampedArray.BYTES_PER_ELEMENT = Uint8ClampedArray;
+new Uint8ClampedArray(3);
+-0.0 - -0.0;
+class C19 {
+}
+C19.length;
+try { new C19(); } catch (e) {}
+let v22 = new C19();
+const v23 = v22?.constructor;
+let v24;
+try { v24 = new v23(); } catch (e) {}
+class C25 extends v24 {
+    o(a27, a28) {
+        v22 %= this;
+        %VerifyType(super.g);
+    }
+}
+let v36;
+try { v36 = new C25(); } catch (e) {}
+const v38 = new Float32Array(Float32Array);
+class C40 {
+}
+const v41 = new C40();
+const v42 = [-5.0];
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v49 = this.constructor;
+    try { new v49(v41, v42); } catch (e) {}
+    a48.__proto__;
+}
+new F45(v38, Uint16Array);
+new F45(-2.220446049250313e-16, 1000000000.0);
+const v54 = v36?.constructor;
+try { new v54(); } catch (e) {}
+const v56 = new C25();
+function f57(a58, a59, a60) {
+    const o67 = {
+        toString(a62, a63, a64, a65) {
+            return v56 * a65;
+        },
+    };
+    return f57;
+}
+v24.c = f57;

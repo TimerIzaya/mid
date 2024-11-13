@@ -1,0 +1,42 @@
+[1024];
+const v1 = [10,2,-536870912,-12,-4,-15491,-15,-9223372036854775807];
+const v2 = [-272801303,2147483649,1796565436,-2147483649,-11];
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v1;
+    } catch(e6) {
+    }
+    try {
+        this.d = a5;
+    } catch(e7) {
+    }
+}
+new F3(v2);
+new F3(v1);
+const v10 = new F3(v2);
+new Array(6);
+gc();
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v29 = F22.constructor;
+let v30;
+try { v30 = v29("function"); } catch (e) {}
+let v33 = 0;
+v33++;
+for (let i37 = 10, i38 = 10; i37 < i38; i38--) {
+}
+const v45 = [3.0];
+new v30(8);
+const o49 = {
+    ...v10,
+};
+for (let v50 = 0; v50 < 10; v50++) {
+    function F51(a53, a54, a55) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v56 = this?.constructor;
+        try { new v56(v30, v45); } catch (e) {}
+    }
+    new F51();
+}

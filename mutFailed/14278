@@ -1,0 +1,33 @@
+function f3() {
+    return 0;
+}
+f3.toString = f3;
+try { f3(); } catch (e) {}
+function f5(a6) {
+    const o22 = {
+        "d": a6,
+        "e": 127,
+        ...2,
+        __proto__: a6,
+        [f3]: f3,
+        get b() {
+            try { this.p(f3, a6, this, this, a6); } catch (e) {}
+            var d = this;
+            new Int8Array(16);
+            new BigInt64Array(4);
+            new Float32Array(48);
+            return this;
+        },
+    };
+    o22[Symbol.toPrimitive] = f5;
+    return o22;
+}
+const v25 = f5(0, f5);
+f5(2);
+f5(127);
+v25 >>> 1698983702;
+15 - 15;
+(0).BYTES_PER_ELEMENT;
+const v39 = new Uint8ClampedArray(15);
+[];
+v39.toLocaleString();

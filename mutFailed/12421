@@ -1,0 +1,63 @@
+new BigInt64Array(2149);
+new Uint16Array(3412);
+new BigUint64Array(129);
+function F15() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f18() {
+        return 13;
+    }
+    class C19 {
+    }
+    new C19();
+    this.c = 1073741823;
+    const o22 = {
+    };
+    class C23 {
+    }
+    const v25 = new Set();
+    function F26(a28, a29) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = a28;
+        } catch(e30) {
+        }
+        v25[this];
+        try {
+            new F26(a29, v25);
+        } catch(e33) {
+        }
+    }
+}
+new F15();
+new BigUint64Array();
+new F15();
+new Float32Array(4);
+const v45 = new Uint32Array(2);
+function F46(a48, a49, a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v52 = new F46(F46, F46, F46, F46);
+for (let v53 = 0; v53 < 25; v53++) {
+    v52["p" + v53] = v45;
+}
+class C56 {
+    constructor(a58, a59) {
+        for (let i = 0; i < 10; i++) {
+            this[this];
+        }
+    }
+}
+const t49 = 13;
+new t49();
+function F62(a64, a65) {
+    if (!new.target) { throw 'must be called with new'; }
+    const t53 = a65(11);
+    t53[212] -= 3774;
+    const v70 = this.constructor;
+    try { new v70(this); } catch (e) {}
+    a65++;
+}
+const t59 = 2;
+const v73 = new t59();
+const t61 = v73.constructor;
+new t61();

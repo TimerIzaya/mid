@@ -1,0 +1,159 @@
+function f0() {
+}
+const v1 = [f0,f0,f0];
+const v2 = [-1.0];
+const o3 = {
+};
+function f4() {
+    return f0;
+}
+Object.defineProperty(o3, "get", { writable: true, configurable: true, get: f4 });
+o3.a = o3;
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = o3;
+    try {
+        this.e = a8;
+    } catch(e9) {
+    }
+    try {
+        this.h = Proxy;
+    } catch(e10) {
+    }
+    try {
+        this.a = o3;
+    } catch(e11) {
+    }
+}
+function f12() {
+    return o3;
+}
+function f13(a14) {
+    v2.__proto__;
+}
+Object.defineProperty(F6, "e", { get: f12, set: f13 });
+F6.prototype = F6;
+const v16 = new F6(v2);
+new F6(f0);
+const v18 = new F6(Proxy);
+let v19 = new Proxy(v2, o3);
+const v20 = v19?.unshift;
+try { new v20(v18); } catch (e) {}
+++v19;
+const v23 = [f0,f0,v1,f0,v1];
+const v24 = [v23,v23,v23,f0];
+let v26 = -1737381205n;
+v26--;
+try {
+    v2.c = 19793;
+    let v31;
+    try { v31 = Array.of(); } catch (e) {}
+    const v32 = Array(19793);
+    v32[8168] = v20;
+    try { v32.reduce(Array); } catch (e) {}
+    try { v32.map(v2); } catch (e) {}
+    for (const v35 of v32) {
+    }
+    const v36 = [];
+    try { new Symbol(); } catch (e) {}
+    const v39 = Symbol.toPrimitive;
+    v36[v39] = Array;
+    const v40 = [v36,v36,v36];
+    function f41() {
+        Symbol[-2] = v31;
+        Math.tanh("1");
+        return Symbol;
+    }
+    Object.defineProperty(v40, Symbol.toPrimitive, { configurable: true, value: f41 });
+    try { Symbol.apply(Symbol, v39); } catch (e) {}
+    const v49 = Symbol.toPrimitive;
+    v1.pop(...v1, v49, ...v24, v16, Symbol);
+    let {"length":v51,} = v24;
+    !false;
+    const v55 = new Map();
+    try { v55.set(v1, v23); } catch (e) {}
+    v40[v49] = Symbol;
+    [v40,v40];
+    Uint16Array.toString = Array;
+} catch(e59) {
+}
+function f60() {
+    const t80 = "undefined";
+    t80["256"] <<= 4.0;
+    return f0;
+}
+const v72 = f60?.bind;
+try { new v72(-13n); } catch (e) {}
+3.769375633820792e+307 | 3.769375633820792e+307;
+class C79 {
+    o(a81, a82) {
+        v23[a82] = f60;
+        function f83() {
+            return a82;
+        }
+        a82 !== v1;
+        new Int8Array(2838);
+        new Uint16Array(15);
+        new BigInt64Array(257);
+        return a81;
+    }
+}
+const v94 = new C79();
+Object.defineProperty(v94, "constructor", { writable: true, configurable: true, enumerable: true, value: f12 });
+const v95 = v94?.constructor;
+try { new v95(); } catch (e) {}
+new C79();
+const v98 = new C79();
+const v99 = v98?.o;
+try { new v99(v19, v19); } catch (e) {}
+const v101 = [];
+function f102(a103, a104) {
+    const v105 = [-15,-2147483649,-899333997,3,1455560807,-1024,-4294967297,2098301778];
+    try { v105.toString(); } catch (e) {}
+    class C107 {
+    }
+    function f108() {
+        return f4;
+    }
+    function f109(a110) {
+        function F111() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+    }
+    Object.defineProperty(C107, "constructor", { writable: true, get: f108, set: f109 });
+    C107.d = C107;
+    const v113 = C107.constructor;
+    v113[Symbol.toPrimitive] = f0;
+    try { v113(v113); } catch (e) {}
+    try { v105.some(v113); } catch (e) {}
+}
+f102.length;
+const v120 = Symbol.species;
+f102[v120] = f102;
+v101.constructor = f102;
+const v122 = [-128,-204399241,1126169676,-39466,-37076,268435456,9223372036854775807,536870888,15798,-1632967117];
+delete v122.length;
+const v124 = `
+    function f125() {
+        return f125;
+    }
+    v122[v122] /= 3.769375633820792e+307;
+    const o126 = {
+        "apply": f60,
+        "call": Symbol,
+        "construct": f125,
+        "deleteProperty": Symbol,
+        "get": f125,
+        "getOwnPropertyDescriptor": f125,
+        "has": Symbol,
+        "isExtensible": f125,
+        "ownKeys": f102,
+        "preventExtensions": f102,
+        "set": f125,
+    };
+    new Proxy(v120, o126);
+`;
+v124[472];
+const v130 = v101["concat"]();
+v130.constructor = f60;
+try { v130.constructor(v19, v19); } catch (e) {}

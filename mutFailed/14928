@@ -1,0 +1,53 @@
+function f0() {
+    let v2 = 4.0;
+    16 >>> 16;
+    const o12 = {
+        "f": v2,
+        get b() {
+            try { this["getInt32"]("getInt32", this, 8117, v2); } catch (e) {}
+            return this;
+        },
+        "h": 8117,
+        "b": 16,
+        __proto__: 16,
+        [8117](a9, a10) {
+            v2 = a9;
+            try {
+                v2.g = a10;
+            } catch(e11) {
+            }
+            return a9;
+        },
+    };
+    o12[8117] = o12;
+    return o12;
+}
+const v13 = f0();
+f0();
+f0();
+new Uint8Array(1024);
+12 == 12;
+12 && 12;
+new BigUint64Array(12, v13);
+Uint8ClampedArray.d = 1024;
+Uint8ClampedArray.d = Uint8ClampedArray;
+const v26 = new Uint8ClampedArray(5);
+try { v26.find(BigUint64Array); } catch (e) {}
+new WeakSet();
+for (let v30 = 0; v30 < 5; v30++) {
+    function f31() {
+        try { new Symbol(); } catch (e) {}
+        const v34 = Symbol.for();
+        Uint32Array.for(v34.description);
+        const o38 = {
+            [v34]: f31,
+        };
+        Object.defineProperty(o38, "h", { writable: true, configurable: true, value: Symbol });
+        o38.growable = o38;
+        return f31;
+    }
+    f31.d = f31;
+    f31.d = f31;
+    f31();
+    %OptimizeFunctionOnNextCall(f31);
+}

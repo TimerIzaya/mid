@@ -1,0 +1,53 @@
+const v5 = new Array(2300);
+function f6() {
+    return -584001977n;
+}
+Object.defineProperty(v5, 1024, { get: f6 });
+try { v5.with(v5, 54228n); } catch (e) {}
+new Uint16Array(228);
+new BigInt64Array(4096);
+4 + 4;
+const v17 = new BigUint64Array(4);
+v17.toString = f6;
+class C20 {
+    static {
+        try { new this(); } catch (e) {}
+        try {
+        const t0 = 529940173;
+        t0(this, this);
+        } catch (e) {}
+        try { Math.sqrt(v17); } catch (e) {}
+        1000 + 1000;
+        Math.cos(1000);
+        Math.tan(1000);
+    }
+}
+try { new C20(); } catch (e) {}
+const v31 = new C20();
+v31[Symbol.toPrimitive] = f6;
+function f36(a37, a38, a39) {
+    a38[Symbol.toPrimitive] = f6;
+    const o45 = {
+        __proto__: a38,
+        [a39]: -2147483648,
+        [a38](a43, a44) {
+        },
+        "c": 529940173,
+        1073741824: C20,
+    };
+    function f46() {
+        const t38 = [-4.0,-1e-15];
+        t38[2] = 54004;
+        return a38;
+    }
+    o45[Symbol.toPrimitive] = f46;
+    return o45;
+}
+f36.caller = f36;
+const v52 = f36(-1, f36());
+v52[1073741824];
+const v54 = f36(-2147483648, v31);
+v54[Symbol.isConcatSpreadable] = v52;
+const v57 = -5 << v52;
+try { new Symbol(); } catch (e) {}
+v54[Symbol.isConcatSpreadable] = v57;

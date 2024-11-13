@@ -1,0 +1,69 @@
+const v0 = /d(?<!)+/uiy;
+const v1 = /wPF(?!a)?a+/gi;
+const v2 = /[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/dsy;
+class C3 {
+    [v0];
+    static valueOf(a5, a6) {
+        const o9 = {
+            "maxByteLength": 255,
+        };
+        const v11 = new SharedArrayBuffer(255, o9);
+        for (let v13 = 0; v13 < 32; v13++) {
+            v1["p" + v13] = v13;
+        }
+        new Int8Array(v11);
+        return v0;
+    }
+    b;
+    static e = v2;
+}
+const v17 = new C3();
+const v18 = new C3();
+const v19 = new C3();
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v1;
+    } catch(e26) {
+    }
+    try {
+        this.e = a23;
+    } catch(e27) {
+    }
+    try {
+        this.b = v17;
+    } catch(e28) {
+    }
+}
+const v29 = new F20(v0, v2, v17, v2);
+const v30 = new F20(v1, v2, v18, v0);
+const v31 = new F20(v0, v2, v29, v2);
+function f32() {
+    return v2;
+}
+function f33() {
+    return f32;
+}
+function f35(a36, a37, a38) {
+    const o48 = {
+        m(a40, a41, a42, a43) {
+            Object.defineProperty(a38, -2, { writable: true, enumerable: true, set: f32 });
+            try {
+                v18.fuck("sticky", "sticky", "sticky", ["sticky",,this,v29,f33]);
+            } catch(e47) {
+            }
+            return v17;
+        },
+        ...v30,
+        1771074075: v18,
+        ...C3,
+        ...v29,
+        __proto__: v17,
+    };
+    return o48;
+}
+f35(v31, v30, v29);
+f35(v29, v29, v19);
+f35(v29, v18, v17);
+const v53 = [9,1024,256,268435440,-1916992432,7,-2147483648,20126,-2,1645963617];
+try { v53.group(BigInt64Array); } catch (e) {}

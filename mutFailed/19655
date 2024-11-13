@@ -1,0 +1,49 @@
+const v1 = [,];
+const v2 = [v1,,v1,,v1];
+const v3 = [v2,v2,v2,,v1,v1];
+class C4 {
+    m(a6) {
+        function f7(a8, a9, a10) {
+            if (a8) {
+                v1[v2] = v2;
+                Object.defineProperty(v2, a8, { enumerable: true, get: f7 });
+            } else {
+                Object.defineProperty(a9, 0, { writable: true, configurable: true, get: f7 });
+            }
+            const o11 = {
+                ...v1,
+                [a10]: v2,
+                "e": a9,
+                [v3]: a10,
+                "b": v3,
+                3330: v1,
+                ...undefined,
+            };
+            return o11;
+        }
+        const v12 = f7(a6, v3, a6);
+        f7(a6, v12, v12);
+        f7(v3, a6, a6);
+        return a6;
+    }
+}
+let v15;
+try { v15 = new C4(); } catch (e) {}
+new C4();
+const v17 = new C4();
+const v18 = new v17();
+"setUTCSeconds" !== v3 ? "setUTCSeconds" : v3;
+v18 < v17 ? v3 : v17;
+("setUTCSeconds")[10];
+("setUTCSeconds")[2];
+function f28() {
+    return f28;
+}
+const v29 = f28?.bind;
+try { new v29(f28); } catch (e) {}
+const v34 = BigUint64Array?.constructor;
+try { new v34(v15); } catch (e) {}
+const v36 = new BigUint64Array(2147483647);
+for (const v38 in v36) {
+    new Float64Array(2147483647, v38, v38);
+}

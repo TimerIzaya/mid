@@ -1,0 +1,35 @@
+new Int16Array(128);
+new Float32Array(1899);
+new Float64Array(3102);
+for (let v12 = 0; v12 < 5; v12++) {
+    function f13() {
+    }
+    f13();
+    %OptimizeFunctionOnNextCall(f13);
+}
+new WeakMap();
+class C17 {
+    #e = 128;
+    static a;
+    static {
+        this >> this;
+        const v20 = this[6];
+        const v21 = [8];
+        v20(this, this, v20, v21);
+        this.e = v21;
+        [-1.7976931348623157e+308,-613.7550152041111] ^ -1264607604;
+    }
+    static m(a27) {
+        gc();
+    }
+}
+const v30 = new C17();
+const v31 = new C17();
+new C17();
+let v34;
+try { v34 = v31.getMonth(1000); } catch (e) {}
+v34 % v30;
+try {
+    C17();
+} catch(e37) {
+}

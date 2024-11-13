@@ -1,0 +1,58 @@
+function f6() {
+    return "m";
+}
+function f7(a8, a9, a10) {
+    const o20 = {
+        get e() {
+            function f12() {
+                return this;
+            }
+            super[a10] = "268435456";
+            return "-1073741824";
+        },
+        o(a14, a15) {
+            const v17 = Symbol.toPrimitive;
+            const o19 = {
+                [v17]() {
+                    a15[1073741825] = a8;
+                    return a14;
+                },
+            };
+            return o19;
+        },
+    };
+    return o20;
+}
+f7.toString = f7;
+const v21 = f7("m", "-1073741824", "hasInstance");
+const v22 = f7("m", v21, "-1073741824");
+f7("268435456", v22, "-1073741824");
+function f24(a25, a26, a27, a28) {
+    const o35 = {
+        __proto__: v21,
+        [a27](a30, a31) {
+            const v32 = f7(a28, a30, a31);
+            a27 | this;
+            super[v32];
+            return a31;
+        },
+        "h": a26,
+        240: a27,
+        "e": "-1073741824",
+        [f7]: a28,
+        153: a27,
+    };
+    return o35;
+}
+f24("m", v22, "-1073741824", "268435456");
+f24("function", v21, "function", "function");
+f24("268435456", v22, "268435456", "function");
+function F42(a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    a44 | a44;
+    const v46 = this.constructor;
+    v46.caller = v46;
+    try { new v46(3n); } catch (e) {}
+}
+new F42(3n);
+new F42(349865170n);

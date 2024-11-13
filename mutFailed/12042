@@ -1,0 +1,74 @@
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f12(a13, a14) {
+        const t3 = 2.0;
+        delete t3[268435456];
+        return 9007199254740991n;
+    }
+    Object.defineProperty(this, "valueOf", { value: f12 });
+    try {
+        this.f = a8;
+    } catch(e17) {
+    }
+    try {
+        this.g = 10000;
+    } catch(e18) {
+    }
+    try {
+        this.a = -1717778873n;
+    } catch(e19) {
+    }
+}
+let v20 = new F6(9007199254740991n, 9007199254740991n, 15, 10000);
+const v21 = new F6(9007199254740991n, -1717778873n, 1957803998, 15);
+const v22 = new F6(9007199254740991n, -1717778873n, 15, 1957803998);
+const v24 = new Set();
+class C25 {
+    constructor(a27, a28, a29) {
+        for (let v30 = 0; v30 < 5; v30++) {
+            function f32() {
+                const o40 = {
+                    [-4294967297n](a34, a35, a36, a37) {
+                        eval(C25);
+                    },
+                };
+                return f32;
+            }
+            f32();
+            %OptimizeFunctionOnNextCall(f32);
+        }
+    }
+}
+class C42 extends F6 {
+    static get d() {
+        try {
+            v22.length = 2;
+        } catch(e45) {
+        }
+        return 9007199254740991n;
+    }
+    constructor(a47, a48) {
+        super(a47, a47, 15, 10000);
+        if (this) {
+            const v49 = new F6(a47, 9007199254740991n, 1957803998, 1957803998);
+            function f50(a51, a52) {
+                const v53 = [-Infinity];
+                class C54 {
+                }
+                const v55 = new C54();
+                v53 << v55;
+                return v49;
+            }
+            Object.defineProperty(v49, Symbol.toPrimitive, { writable: true, configurable: true, value: f50 });
+            v20 /= v49;
+        } else {
+            const v61 = new BigUint64Array(64);
+            v61["copyWithin"]();
+            v21 == v24 ? v21 : v24;
+        }
+    }
+}
+new C42(9007199254740991n, v22);
+const v67 = new C42(9007199254740991n, v21);
+new C42(9007199254740991n, v67);
+([974836.255416306,7.54270135293536,0.0,0.35539841926815563,1.385396251341163,-1000000000000.0,NaN,-1.7976931348623157e+308]).toLocaleString();

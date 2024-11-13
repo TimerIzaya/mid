@@ -1,0 +1,19 @@
+new Uint8Array(1500);
+new Float32Array(49);
+new Int8Array(16);
+const v12 = [];
+function f13(a14, a15) {
+    function F16() {
+        if (!new.target) { throw 'must be called with new'; }
+        const v18 = [-5.0,-4.0,-1.7976931348623157e+308,-897.6003446951657,-1000000.0,1.8928166106024224e+306,-2.0,-1000000000000.0];
+        function F19(a21, a22, a23, a24) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v25 = new F19(v18, F16, v18, F19);
+        const v27 = [F16,F16,F16,F16];
+        Reflect.apply(v18.indexOf, v25, v27);
+    }
+    return v12;
+}
+v12[Symbol.toPrimitive] = f13;
+v12 != -2147483647n;

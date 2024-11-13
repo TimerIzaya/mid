@@ -1,0 +1,123 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2(a3) {
+    f1 in a3;
+}
+Object.defineProperty(f0, Symbol.toPrimitive, { writable: true, enumerable: true, get: f1, set: f2 });
+class C7 {
+    static {
+        delete this[this];
+        ("Uaa").normalize("NFD", "Uaa", "Uaa");
+    }
+    static [f0] = f0;
+    constructor() {
+        let v14 = 0;
+        do {
+            super.f;
+            v14++;
+        } while (v14 < 7)
+    }
+}
+const v19 = new C7();
+const v20 = new C7();
+new C7();
+class C22 {
+    constructor(a24) {
+        const v25 = (a26, a27, a28, a29) => {
+            a26 |= a26;
+            !-2.6406383977057806e+307;
+            const v34 = 18612 * -2.6406383977057806e+307;
+            -2.6406383977057806e+307 % a26;
+            Math.ceil(a26);
+            +v34;
+            return a24;
+        };
+    }
+    #e = f0;
+}
+const v38 = new C22(v20);
+new C22(C22);
+new C22(C7);
+function f41() {
+    return v38;
+}
+new Int8Array(1628);
+new BigUint64Array(10);
+v19 == C22;
+const v52 = new Uint32Array(3551);
+function f53(a54) {
+}
+const o58 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o58);
+new Uint16Array(2);
+const v63 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v64 = [601759695];
+const v65 = [1073741824,1073741823,1376142744,1073741825];
+function f67(a68, a69, a70, a71) {
+    Object.defineProperty(a70, "toString", { value: f53 });
+    function f73() {
+        function f74(a75, a76) {
+            function f77(a78, a79) {
+                return a79;
+            }
+            Set.toString = f77;
+            const o81 = {
+                ...a75,
+            };
+            return a76;
+        }
+        %OptimizeFunctionOnNextCall(f74);
+        const v84 = new Uint8ClampedArray();
+        Float32Array[6] = v84;
+        try { v52.map(v52); } catch (e) {}
+        const o101 = {
+            "e": -4294967295,
+            ...v63,
+            ..."Vre",
+            ...-268435456,
+            __proto__: v65,
+            set b(a90) {
+            },
+            valueOf(a92, a93) {
+            },
+            "c": a71,
+            2: C7,
+            valueOf(a95, a96) {
+                return a96;
+            },
+            "a": -4294967295,
+            "f": "-1073741824",
+            84: arguments,
+            ..."Vre",
+            valueOf(a98, a99) {
+                return v65;
+            },
+            ..."Vre",
+            4: "Vre",
+            "c": -268435456,
+            5: -4294967295,
+            [f0]() {
+            },
+            "c": 522675525n,
+            6: -268435456,
+        };
+    }
+    f73();
+    %OptimizeFunctionOnNextCall(arguments);
+    let v104;
+    try { v104 = v65["find"](..."find", a71, ...v64, ...v65, ...522675525n); } catch (e) {}
+    v104 <= a70;
+    return arguments;
+}
+f67(v63, v65, "-1073741824", 522675525n);
+for (let v107 = 0; v107 < 10; v107++) {
+    f67();
+}
+%OptimizeFunctionOnNextCall(f67);
+f67(v63, 522675525n, v65, v65);

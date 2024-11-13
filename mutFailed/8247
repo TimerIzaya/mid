@@ -1,0 +1,68 @@
+new Float64Array(1024);
+new BigUint64Array(3883);
+new Uint32Array(6);
+function f9(a10, a11, a12, a13) {
+    const o30 = {
+        __proto__: a10,
+        ...a11,
+        toString(a15, a16, a17) {
+            a16.byteOffset;
+            a13 = a15;
+            const v20 = Symbol.iterator;
+            const o29 = {
+                [v20]() {
+                    let v22 = 10;
+                    const o28 = {
+                        next() {
+                            v22--;
+                            const v26 = v22 == 0;
+                            const o27 = {
+                                "done": v26,
+                                "value": v22,
+                            };
+                            return o27;
+                        },
+                    };
+                    return o28;
+                },
+            };
+            return o29;
+        },
+    };
+    return o30;
+}
+f9(6, 1024, 3883, 1024);
+const v32 = f9(1024, 1024, 6, 1024);
+f9(3883, 3883, v32, 1024);
+function f34() {
+    function F35(a37, a38, a39, a40) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v41 = a39.constructor;
+        try { new v41(a38); } catch (e) {}
+    }
+    const o48 = {
+        [7]: 9,
+        get g() {
+        },
+        set g(a47) {
+        },
+    };
+    return 3883;
+}
+-Infinity;
+function F52(a54) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F52();
+class C56 {
+    m(a58, a59) {
+        new a59(3883, 3883, 3883, 3883, ...a58);
+    }
+    1762774961 = 7.91595347391541e+307;
+    g;
+    constructor() {
+        const v63 = this.constructor;
+        try { new v63(); } catch (e) {}
+    }
+}
+new v32();

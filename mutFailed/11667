@@ -1,0 +1,31 @@
+const v2 = new Float32Array(2784);
+new Float64Array(255);
+try { new Uint8ClampedArray(Float32Array, Float32Array, Float32Array); } catch (e) {}
+const v9 = new Uint8ClampedArray(16);
+class C10 extends Float64Array {
+    static {
+        this & v9;
+        const o13 = {
+        };
+        o13.a = o13;
+        try { Proxy.revocable(16, Proxy); } catch (e) {}
+        const v16 = new Proxy(this, o13);
+        v16.length = v16;
+    }
+    a;
+    [Float64Array] = 2784;
+    [v2];
+}
+try { new C10(); } catch (e) {}
+new C10();
+const v19 = new C10();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+new C10();
+class C23 {
+}
+try { gc(); } catch (e) {}
+const o27 = {
+    "execution": "async",
+};
+gc(o27).finally(C23);

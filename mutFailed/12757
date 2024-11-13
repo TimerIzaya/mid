@@ -1,0 +1,68 @@
+[1828250591,11,49503,7,1073741824,280712889,9007199254740990,10000];
+const v1 = [-1079102755,-256,-9007199254740990,10,-864048927];
+const v2 = [-288610309,1253207420,59232,-536870912,-63308,63522,-4486];
+class C15 {
+    static #p(a17, a18) {
+    }
+    #h;
+}
+function f19() {
+    class C20 {
+        #a;
+        valueOf(a22, a23) {
+        }
+        toString(a25) {
+        }
+        static f;
+    }
+    return v2;
+}
+C15[Symbol.toPrimitive] = f19;
+const v28 = new C15(v2, v1);
+function f29() {
+    return Symbol;
+}
+Object.defineProperty(v28, "toString", { writable: true, enumerable: true, get: f29 });
+const v30 = new C15();
+const v31 = new C15();
+function f32(a33, a34, a35, a36) {
+    a33[Symbol.toPrimitive] = f32;
+    a36[Symbol.toPrimitive] = Symbol;
+    const o41 = {
+        "c": -922911.6474995338,
+        242: -922911.6474995338,
+        "g": v30,
+        [a36]: a34,
+        [C15]: a34,
+        "a": -747634.1081113975,
+        "h": a33,
+        "f": a36,
+    };
+    return o41;
+}
+const v43 = f32(f32(v28, v31, C15), v31, v28, v28);
+const v44 = f32(v30, v31, v43, v43);
+class C45 {
+    constructor(a47, a48) {
+        function f49(a50, a51) {
+        }
+        const v55 = [v28,v44];
+        const o56 = {
+            "POSITIVE_INFINITY": v55,
+            "type": "function",
+        };
+        new Worker(f49, o56);
+    }
+}
+const v58 = [-1000000.0,-3.1923473210656557,-1.721355656202141e+308,4.0,0.3955838142797843,-3.0,1.1463753586867827e+308];
+function f59(a60) {
+    const o61 = {
+    };
+    o61[213] = v58;
+    return o61[213];
+}
+%PrepareFunctionForOptimization(f59);
+f59(v58);
+%OptimizeFunctionOnNextCall(f59);
+f59(v58);
+new C45(C15, C45);

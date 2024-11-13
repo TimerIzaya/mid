@@ -1,0 +1,28 @@
+function f0() {
+}
+const v2 = new WeakSet();
+function f6() {
+    return WeakSet;
+}
+[WeakSet,-2147483649];
+[v2];
+[60119,f0,60119];
+const v11 = new Uint16Array(Uint16Array);
+function f13() {
+    const o19 = {
+        "e": Uint16Array,
+        __proto__: -2147483649,
+        "g": 12,
+        o(a18) {
+            return v11;
+        },
+        ...1000000000000.0,
+    };
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f13);
+const t23 = 3;
+t23();
+f13();
+%OptimizeFunctionOnNextCall(f13);
+f13();

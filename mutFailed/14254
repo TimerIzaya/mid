@@ -1,0 +1,53 @@
+[];
+const v2 = new Set();
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+    try {
+        this.a = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(v2, v2);
+const v10 = new F3(v9, v9);
+const v11 = new F3(v9, v2);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = this;
+    try {
+        this.a = F3;
+    } catch(e16) {
+    }
+    try {
+        this.h = v10;
+    } catch(e17) {
+    }
+}
+new F12(v10, v2);
+new F12(v9, F12);
+new F12(v11, v2);
+const v21 = [1.7976931348623157e+308,-5.063738949828065,-1000000.0,-4.0,4.0,1.368499884638594e+307,0.0,-1.2131530743918297,-1000000000.0,-2.809909548595164];
+function f22() {
+    function f23(a24, a25) {
+        [Map,Map];
+        return a25;
+    }
+    return f23;
+}
+function f28(a29) {
+    function F33(a35, a36) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v37 = this?.constructor;
+        try { new v37(0.29489550717955537, a35); } catch (e) {}
+        try { this.constructor(0.6822080711934364, this); } catch (e) {}
+        try {
+            this.f = 3.0;
+        } catch(e40) {
+        }
+    }
+}
+Object.defineProperty(v21, "constructor", { writable: true, enumerable: true, get: f22, set: f28 });
+v21.concat();

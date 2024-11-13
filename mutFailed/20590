@@ -1,0 +1,24 @@
+new Uint16Array(1880);
+const v5 = new Uint8Array(129);
+const v8 = new Float64Array(255);
+class C12 {
+}
+const v13 = new C12();
+function f14() {
+    return "4294967297";
+}
+function f15(a16) {
+    try { v5.set(v8); } catch (e) {}
+}
+Object.defineProperty(Float64Array, "f", { get: f14, set: f15 });
+const t13 = "trimEnd";
+const v18 = new t13();
+v18.p2 = f14;
+v18.p1 = v18;
+const v19 = new C12();
+for (let v20 = 0; v20 < 5; v20++) {
+    v18["p" + v20] = v20;
+}
+let v23;
+try { v23 = v19(C12, v18, v19, v18, v18); } catch (e) {}
+v13.f = v23;

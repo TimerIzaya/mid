@@ -1,0 +1,39 @@
+[-71419399,9007199254740992,2147483648,-3,65535,8];
+[1705531040,-2,2957,8,536870887,-1809222092,-9007199254740990,-4294967296,15463];
+const v5 = [6];
+function f6() {
+    return v5;
+}
+class C7 {
+    static m(a9, a10, a11) {
+        const o12 = {
+            "apply": f6,
+            "construct": f6,
+            "defineProperty": f6,
+            "deleteProperty": f6,
+            "getOwnPropertyDescriptor": -536870912n,
+            "getPrototypeOf": f6,
+            "has": f6,
+            "isExtensible": f6,
+            "ownKeys": f6,
+            "preventExtensions": f6,
+        };
+        const v14 = new Proxy(a10, o12);
+        return v14;
+    }
+}
+new C7();
+const t25 = 64n;
+new t25();
+new C7();
+const v19 = new WeakMap();
+function f20() {
+    return v19;
+}
+for (let i23 = 0, i24 = 10; i23 < i24; i24--) {
+}
+for (let v31 = 0; v31 < 25; v31++) {
+    const o33 = {
+        __proto__: null,
+    };
+}

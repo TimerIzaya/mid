@@ -1,0 +1,45 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f7(a8) {
+        new BigUint64Array();
+    }
+    Object.defineProperty(this, "d", { writable: true, enumerable: true, set: f7 });
+    try {
+        this.b = "0";
+    } catch(e11) {
+    }
+    try {
+        this.d = a6;
+    } catch(e12) {
+    }
+    try {
+        this.a = "a";
+        const o13 = {
+        };
+        new Proxy(F3, o13);
+        a6 ^ "0";
+    } catch(e17) {
+    }
+}
+new F3("a", "8");
+new F3("8", "8");
+const v20 = new F3("8", "8");
+const v26 = new Uint16Array(3564);
+const v30 = ("0")[Symbol.search];
+const o31 = {
+};
+new Proxy(v26, o31);
+const v35 = new Uint8Array(4);
+new Int16Array(2);
+function f39(a40, a41, a42, a43) {
+    const o44 = {
+        __proto__: v20,
+        ...v20,
+        [-1]: "0",
+    };
+    return o44;
+}
+f39(129, o31, o31, v30);
+f39(255985641, f39(129, Uint8Array, Int16Array, "a"), v35, "8");
+class C49 extends Int8Array {
+}

@@ -1,0 +1,59 @@
+const v3 = (-1563514022n)[-2];
+try { v3(); } catch (e) {}
+function F8(a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = -1563514022n;
+    try {
+        this.d = a10;
+    } catch(e11) {
+    }
+}
+new F8(-816092398n);
+const v13 = new F8(-816092398n);
+const v14 = new F8(-816092398n);
+function f21(a22, a23) {
+    const o33 = {
+        "a": a23,
+        ...v14,
+        "c": v13,
+        "b": a23,
+        __proto__: v14,
+        "d": -12,
+        6: -9.054467679864883,
+        [-816092398n](a25, a26, a27, a28) {
+            const v30 = new WeakSet();
+            try {
+                v30.has(this);
+            } catch(e32) {
+            }
+            return 2034460164;
+        },
+    };
+    return o33;
+}
+f21(f21(65535n, -12), 22052);
+f21(-816092398n, -12);
+function F37() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+F37.toString = f21;
+const v39 = new F37();
+const v41 = new Date();
+class C42 extends Date {
+    constructor(a44, a45, a46, a47) {
+        function f48() {
+            return Date;
+        }
+        function f49(a50) {
+            new Int32Array([-4563]);
+        }
+        Object.defineProperty(a44, Symbol.toPrimitive, { writable: true, get: f48, set: f49 });
+        super(a44);
+    }
+}
+new C42(v41);
+new C42(v39);
+new C42(F37);
+class C59 extends C42 {
+}
+new C59();

@@ -1,0 +1,38 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = this;
+    try {
+        this.a = 212968180;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+let v6 = v4[v4];
+v5[v4] = F0;
+const v7 = [v6 %= F0,F0];
+const v8 = [v7];
+const v9 = [v8,v4,v7,v8,v6];
+const v10 = new F0();
+e = v5;
+let v15;
+try { v15 = v9(43); } catch (e) {}
+v5 >>> 9223372036854775807;
+let v20 = F0 || 4294967295;
+const v21 = --v20;
+try { v10.of(v4, v20, v10, Uint16Array); } catch (e) {}
+let v24;
+try { v24 = v15.repeat(v21, F0); } catch (e) {}
+v24 instanceof Uint16Array;
+Reflect.construct(v24, [Reflect,Reflect,v15,F0], v24);
+new Uint16Array(43);
+new Uint32Array(4);
+new Int8Array(4096);
+for (let v36 = 0; v36 < 5; v36++) {
+    function f37() {
+        const v39 = Math.atan(Math);
+        return v39 - v39;
+    }
+    f37();
+    %OptimizeFunctionOnNextCall(f37);
+}

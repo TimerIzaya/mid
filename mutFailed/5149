@@ -1,0 +1,65 @@
+class C3 {
+    set d(a5) {
+        try {
+            super.toString();
+        } catch(e7) {
+        }
+    }
+    constructor(a9, a10) {
+        this[1578] = "hasInstance";
+        const o22 = {
+            valueOf() {
+                function F12(a14, a15) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    try {
+                        this.g = C3;
+                    } catch(e16) {
+                    }
+                    try {
+                        this.h = -13;
+                    } catch(e17) {
+                    }
+                    try {
+                        this.a = a14;
+                    } catch(e18) {
+                    }
+                }
+                new F12(this, a10);
+                new F12(this, "hasInstance");
+                new F12("hasInstance", this);
+                return "hasInstance";
+            },
+        };
+        const v23 = a10?.[7];
+        for (const v24 in "hasInstance") {
+            v23[-13] ||= a10;
+            "P" % ("hasInstance" ** "P");
+            for (let v27 = 0; v27 < 32; v27++) {
+                const t37 = "hasInstance";
+                t37["p" + v27] = v27;
+            }
+        }
+    }
+    static #a = "hasInstance";
+}
+const v30 = new C3(-13, "hasInstance");
+const v31 = new C3(v30, C3);
+const v32 = new C3(v31, -13);
+new Float32Array(255);
+new Uint8ClampedArray(129);
+new Float64Array(120);
+let v42 = 10;
+for (let i = 0; i < 10; i++) {
+    v42--;
+    let v45 = v42 << v42;
+    --v45;
+    let v47 = --v45;
+    let v48 = ++v47;
+    v32.d -= -13;
+    const o52 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o52);
+    Math.cos(++v48);
+}

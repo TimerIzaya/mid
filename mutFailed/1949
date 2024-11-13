@@ -1,0 +1,49 @@
+const v1 = new Map();
+function f2(a3) {
+    function f4() {
+        return f2;
+    }
+    function f5(a6) {
+        try {
+            f2(a6);
+        } catch(e8) {
+        }
+    }
+    Object.defineProperty(a3, Symbol.toPrimitive, { writable: true, enumerable: true, get: f4, set: f5 });
+    const o19 = {
+        ...a3,
+        "d": Map,
+        get b() {
+            try { a3(this, Map, a3, Map, v1); } catch (e) {}
+            [-Infinity,1000000.0];
+            0 == 268435440n;
+            [-1.7976931348623157e+308];
+            [0.49191782126273353,1.7976931348623157e+308,-2.220446049250313e-16,0.5714097134332691,-2.0,-5.0,4.416232726056997,-302701.57729675295,0.20719308482492926];
+            return this;
+        },
+        [a3]: Map,
+        "b": Map,
+    };
+    return o19;
+}
+const v20 = f2(f2);
+v20[Symbol.toPrimitive] = f2;
+const v23 = f2?.d;
+try { new v23(); } catch (e) {}
+f2(v20);
+f2(v20);
+const v28 = new Map();
+[-8.575366250277714e+307,0.8567738557580147];
+[0.7058697814607199,0.928246468552171,-2.0,2.2250738585072014e-308];
+const v31 = [0.5579953871072838,1.7976931348623157e+308,4.0];
+v31[0] = v31;
+function f32() {
+    const o33 = {
+    };
+    o33.f = v28;
+    o33.f = o33;
+    return f32;
+}
+%OptimizeFunctionOnNextCall(f32);
+const v34 = f32();
+v34.length = v34;

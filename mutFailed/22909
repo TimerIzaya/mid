@@ -1,0 +1,36 @@
+let v4;
+try { v4 = new Set(); } catch (e) {}
+const v5 = new Set();
+const v6 = /(?:ab)+/gud;
+const v7 = v4?.constructor;
+let v8;
+try { v8 = new v7(v6, v6); } catch (e) {}
+/[a{1,2}?]/uds;
+/a[^\u{12345}(a*?)]/u;
+let v12 = 3;
+v12--;
+const v14 = new Array(v12);
+try { v14.toSpliced(v12, v12); } catch (e) {}
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v21 = this?.constructor;
+    try { new v21(v6, v6, a20); } catch (e) {}
+    a19 === -11n;
+    this.constructor;
+}
+function f25() {
+    class C26 {
+    }
+    const v27 = new v8();
+    const v28 = v27?.constructor;
+    try { new v28(); } catch (e) {}
+    for (let v30 = 0; v30 < 5; v30++) {
+        const v32 = new F16(undefined, v27);
+        const v33 = v32?.constructor;
+        try { new v33(v30, v32, v28); } catch (e) {}
+    }
+}
+%PrepareFunctionForOptimization(v5);
+f25();
+%OptimizeFunctionOnNextCall(f25);
+f25();

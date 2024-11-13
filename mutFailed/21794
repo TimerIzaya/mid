@@ -1,0 +1,120 @@
+const v0 = [];
+function f1() {
+    const o2 = {
+        "e": v0,
+        "h": v0,
+        "d": v0,
+        __proto__: v0,
+        "c": v0,
+        "e": v0,
+        "b": v0,
+        3: v0,
+        "g": v0,
+        "f": v0,
+        4: v0,
+    };
+    return o2;
+}
+f1();
+f1();
+f1();
+Object.defineProperty(Uint16Array, "constructor", { writable: true, value: f1 });
+new Uint16Array(10);
+new Float64Array(255);
+new Uint32Array(255);
+function F16() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = true;
+    } catch(e18) {
+    }
+    try {
+        this.b = true;
+    } catch(e19) {
+    }
+}
+const v20 = new F16();
+new F16();
+const v22 = new F16();
+v22[Symbol.toPrimitive] = f1;
+const v25 = [1e-15,0.09547881173263595,1.7976931348623157e+308,0.6658730271969261,-1000.0];
+const v26 = [-8.040080448070657e+307,3.8894071891937223,0.7715929616276889];
+let v27;
+try { v27 = v26.with(v22, v22); } catch (e) {}
+v27[2] = v27;
+const v28 = [1.6621172782957435e+308,937862.0109722319];
+try { v28.find(v26); } catch (e) {}
+const v31 = 3154 >>> 3154;
+const v33 = new Int32Array(3154);
+function f34() {
+    return f1;
+}
+Object.defineProperty(v33, "valueOf", { configurable: true, get: f34 });
+v33[1700] = v33;
+try { BigInt64Array.bind(v31); } catch (e) {}
+const v38 = new BigInt64Array(257);
+const v40 = 198 === 198;
+v40 && v40;
+const v43 = new Int32Array(3154);
+let v44;
+try { v44 = v43.entries(); } catch (e) {}
+Uint16Array.constructor = Symbol;
+try { Uint16Array.bind(v22); } catch (e) {}
+const v48 = new Uint16Array();
+function f49(a50) {
+    return a50;
+}
+v48.toString = f49;
+Uint8ClampedArray.BYTES_PER_ELEMENT;
+const v57 = new Uint8ClampedArray(3, v25);
+class C58 {
+    constructor(a60, a61, a62, a63) {
+        function f64() {
+            return 198;
+        }
+        function f65(a66) {
+            function f68() {
+                Math.max(4.0, 4.0);
+                return 4.0;
+            }
+        }
+        Object.defineProperty(this, "g", { configurable: true, enumerable: true, get: f64, set: f65 });
+        this.e = this;
+        const v71 = a62?.constructor;
+        try { new v71(a63); } catch (e) {}
+        try {
+        const t0 = 128;
+        t0();
+        } catch (e) {}
+        for (let i75 = 0;
+            (() => {
+                9 != 9;
+                const v78 = -9;
+                v78 || v78;
+                return i75 < 9;
+            })();
+            i75++) {
+            v57[i75] = a63;
+        }
+    }
+    c;
+}
+try { new C58(3, Uint8ClampedArray, Uint8ClampedArray, v48); } catch (e) {}
+let v85;
+try { v85 = new C58(v44, v38, Uint16Array, C58); } catch (e) {}
+v85.g = v85;
+const v86 = new C58(v57, Uint8ClampedArray);
+v27.c;
+const v88 = new C58(v86, BigInt64Array);
+try { v88.constructor(v20, v20, 198, v43); } catch (e) {}
+v88.c;
+const v92 = [65537,1073741825,7841,-12,13];
+const v93 = [1073741823,4294967295];
+v93[1] = v93;
+function F94(a96, a97, a98) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v99 = this.constructor;
+    try { new v99(a96, a97, a97); } catch (e) {}
+}
+const v101 = new F94(v92, v93, WeakSet);
+new F94(v93, v93, v101);

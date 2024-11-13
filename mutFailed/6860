@@ -1,0 +1,15 @@
+function f8(a9, a10) {
+    const o12 = {
+        get c() {
+            return this;
+        },
+    };
+    return o12;
+}
+Int32Array[Symbol.toPrimitive] = f8;
+new Int32Array(13);
+new Int16Array(74);
+new Uint32Array(3);
+const v23 = Int32Array.bind(Int32Array, Int32Array, Int32Array, Int32Array, Int32Array);
+v23.toString = f8;
+("-1073741824").localeCompare(v23);

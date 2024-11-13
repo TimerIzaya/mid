@@ -1,0 +1,25 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+class C2 {
+    static #m(a4) {
+        return a4;
+    }
+    #valueOf(a9) {
+        this[7] = a9;
+        try {
+            f1.#valueOf(f0, this, this);
+        } catch(e11) {
+        }
+        return C2;
+    }
+}
+const v12 = new C2();
+new v12();
+new C2();
+[13,536870912];
+[2,-5013,4294967297,0,11,577823877];
+[-12246,609862898,268435440,-932992858];
+Math.tan(-1);

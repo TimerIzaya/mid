@@ -1,0 +1,61 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+    try {
+        this.e = a5;
+    } catch(e8) {
+    }
+    try {
+        F3.g = -231308379;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(26339, 26339);
+const v11 = new F3(26339, -231308379);
+const v12 = new F3(-231308379, -231308379);
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a19;
+    } catch(e22) {
+    }
+    try {
+        this.f = a20;
+    } catch(e23) {
+    }
+    try {
+        this.d = "p";
+    } catch(e24) {
+    }
+}
+const v25 = new F16(-231308379, v10, v10, v12);
+new F16(v25, v11, v10, v11);
+new F16(26339, v11, v10, v10);
+function f28() {
+}
+const v29 = [601759695];
+const v30 = [1073741824,1073741823,1376142744,1073741825];
+function f32(a33, a34, a35, a36) {
+    function f38() {
+        return arguments;
+    }
+    f28();
+    new f38();
+    const v42 = Int8Array.buffer;
+    const v46 = new Int32Array(9);
+    v46.reverse();
+    v42.slice(2147483648);
+    %OptimizeFunctionOnNextCall(f38);
+    let v50;
+    try { v50 = v30["find"](..."find", a36, ...v29, ...v30, ...522675525n); } catch (e) {}
+    v50 <= a35;
+    return arguments;
+}
+for (let v52 = 0; v52 < 10; v52++) {
+    f32(v52, v52, f28, 522675525n);
+}
+%OptimizeFunctionOnNextCall(f32);
+f32();

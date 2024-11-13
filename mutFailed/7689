@@ -1,0 +1,62 @@
+const v2 = new Int32Array(7);
+let v3 = 4;
+const v4 = v3--;
+function f6() {
+    function f7(a8, a9) {
+        [v3] = v2;
+        const o13 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o13);
+        return o13;
+    }
+    return f7;
+}
+let v16 = Symbol.toPrimitive;
+Object.defineProperty(Int32Array, v16, { enumerable: true, get: f6 });
+try { new Int32Array(Int32Array, Int32Array, 7); } catch (e) {}
+const v18 = new Int32Array(v3);
+-12;
+new Int16Array(12);
+class C23 extends Int32Array {
+    static {
+        function f25() {
+            function f26(a27) {
+                v16 = C23;
+                v18[a27];
+                return Int32Array;
+            }
+            return f26;
+        }
+        function f29(a30) {
+            f25();
+        }
+        Object.defineProperty(this, Symbol.toPrimitive, { writable: true, get: f25, set: f29 });
+        function f34() {
+            function F35(a37, a38) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.g = 7;
+            }
+            return v4;
+        }
+        this.toString = f34;
+        let v39;
+        try { v39 = new this(); } catch (e) {}
+        v39 = this;
+        this[9] = Int16Array;
+        this[this];
+    }
+    e = Int16Array;
+    h;
+}
+C23[9];
+const v45 = new C23();
+v45.constructor = Symbol;
+try { v45.constructor(); } catch (e) {}
+new C23();
+new Int32Array();
+try {
+    139837843 in "deleteProperty";
+} catch(e52) {
+}

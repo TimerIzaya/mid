@@ -1,0 +1,72 @@
+function f3(a4, a5) {
+    const o9 = {
+        ["69i"]: a5,
+        get f() {
+            a5 += this;
+            const v8 = new Map();
+            return v8;
+        },
+        256: a4,
+        "b": "bigint",
+        "f": a4,
+        "h": a5,
+    };
+    o9[Symbol.toPrimitive] = f3;
+    return o9;
+}
+let v12 = f3("69i", "undefined");
+v12.toString = f3;
+v12 >>= v12;
+try {
+    const t20 = "undefined";
+    t20.length = v12;
+    function f13() {
+        const o20 = {
+            m() {
+                const o18 = {
+                    "execution": "async",
+                    "type": "minor",
+                };
+                gc(o18);
+            },
+        };
+        return o20;
+    }
+    const v21 = f13();
+    const v22 = f13();
+    class C23 {
+    }
+    v21.m();
+    Object.defineProperty(C23, v22[f13], { enumerable: true, set: f13 });
+} catch(e26) {
+}
+f3("undefined", "69i");
+f3("undefined", "bigint");
+function F32(a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "f", { configurable: true, value: this });
+    try {
+        this.f = a35;
+    } catch(e36) {
+        class C38 extends Int32Array {
+        }
+        new C38();
+        const o40 = {
+        };
+    }
+    try {
+        this.d = a34;
+    } catch(e41) {
+    }
+}
+new F32("undefined", "-57913");
+new F32("function", "bigint");
+new F32("bigint", "-57913");
+const v45 = [Infinity,-1.7411766874642142e+308,-1000000.0,-1000000000000.0,-1000.0,-8.633030896336538e+307,3.4879373433419367,3.0,4.0,0.3217386216666849];
+function f47(a48, a49) {
+    new Int32Array(v45);
+    a48();
+    a49();
+    return f47;
+}
+new Promise(f47);

@@ -1,0 +1,107 @@
+function f1() {
+    function f2() {
+        function F3() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        return Map;
+    }
+    return f2;
+}
+function f5(a6) {
+    [-9223372036854775808,9223372036854775807,-9007199254740992,268435439,-9007199254740992,11612,268435440,-128];
+    [9223372036854775807,-57040];
+    [10805,1862840840];
+}
+Object.defineProperty(Map, Symbol.toPrimitive, { writable: true, enumerable: true, get: f1, set: f5 });
+const v12 = new Map();
+let v15 = "number";
+function f16(a17, a18) {
+    const o26 = {
+        valueOf(a20, a21, a22) {
+            try {
+                const o23 = {
+                };
+                new Map(o23);
+            } catch(e25) {
+            }
+            return a20;
+        },
+        "e": v15,
+        "b": a17,
+        [a17]: a17,
+        ...a17,
+        "h": Map,
+    };
+    return o26;
+}
+const v27 = f16(v15, v12);
+const v28 = f16("function", v27);
+const v29 = f16(v15, Map);
+class C30 extends Map {
+    static set b(a32) {
+        function F33() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.h = 268435440;
+        }
+        class C38 extends Float64Array {
+            static 1;
+            static #d = 256;
+        }
+        Object.defineProperty(v27, v27, { writable: true, value: this });
+    }
+    static #d = v12;
+    static ["toISOString"] = v15;
+    static #b;
+    static get f() {
+        for (let v43 = 0; v43 < 6; v43++) {
+            try {
+                v27.g = "function";
+            } catch(e44) {
+            }
+        }
+        return f16;
+    }
+}
+const v45 = new C30();
+const v46 = new C30();
+const v47 = new C30();
+function f48(a49, a50, a51) {
+    const o70 = {
+        "b": v12,
+        [v12]: v28,
+        [Map]: v47,
+        "h": C30,
+        "f": a50,
+        toString(a53, a54, a55) {
+            %VerifyType(this);
+            v15++;
+            v47[v45] = v47;
+            a49[1] = a54;
+            try {
+                super.o("toISOString", a50, v46);
+            } catch(e58) {
+                const t82 = "we3R";
+                t82[544948.2768085275] = -1.187102817546368e+308;
+                const o69 = {
+                    toString(a63, a64, a65) {
+                        "toISOString" < this;
+                        return super[a49];
+                    },
+                    get d() {
+                        return this;
+                    },
+                };
+            }
+            return a49;
+        },
+    };
+    return o70;
+}
+f48(v46, "toISOString", v12);
+f48(v15, C30, v47);
+f48(v12, v29, v15);
+const v76 = new Int8Array(268435456);
+new BigInt64Array(2001);
+const v81 = eval(eval);
+v81.isExtensible = v46;
+try { v81.isExtensible(v76); } catch (e) {}

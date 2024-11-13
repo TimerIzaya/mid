@@ -1,0 +1,86 @@
+for (let i = 0; i < 5; i++) {
+    try {
+    const t0 = 9907n;
+    t0();
+    } catch (e) {}
+}
+const v5 = [Uint32Array];
+const o6 = {
+    "arguments": v5,
+    "type": "function",
+};
+const v9 = [56301,2];
+const v10 = [2147483649];
+const v11 = [1310484928,-65122,-2147483647,-55255484,-3];
+function f12(a13, a14, a15) {
+    const o23 = {
+        "toPrimitive": 44199,
+        "b": v10,
+        __proto__: a13,
+        getUTCHours(a17, a18) {
+            try { a15(a17); } catch (e) {}
+            %VerifyType(v11);
+            for (let v20 = 0; v20 < 32; v20++) {
+                this["p" + v20] = v20;
+            }
+            return this;
+        },
+        ...a13,
+    };
+    return o23;
+}
+const v24 = f12(v9, 1970643772, 1970643772);
+const v25 = f12(v10, 9007199254740990, 9007199254740990);
+const v28 = new Int16Array();
+const v31 = new BigUint64Array(2, 256);
+v28["function"](v31, 256, 2);
+const v33 = f12(v11, 44199, 44199);
+function f34(a35, a36, a37) {
+    function f38() {
+        Int8Array.b = Int8Array;
+        return f38;
+    }
+    %PrepareFunctionForOptimization(f38);
+    const o46 = {
+        "b": 9007199254740990,
+        "g": 9007199254740990,
+        __proto__: v24,
+        "a": 1970643772,
+        "d": v24,
+        get f() {
+            this[v33] = f12;
+            [0.7711235011443343,-1000000000000.0,0.1009950817221279,-447.2052975388781,-766.8664204387098,0.0007045803818740426];
+            const v42 = [-137.79056557717092,2.3727432721555815,0.8764692449010999,0.21821232274950975,-374577.5284690391,465262.4189504215,-1.0183534620376928e+308];
+            const t51 = [383.5830751716521];
+            t51[Symbol.replace] = this;
+            return v42;
+        },
+    };
+    return o46;
+}
+f34(v11, v25, v11);
+f34(v10, v33, v9);
+f34(v11, v25, v9);
+const v52 = Array(6);
+const v53 = [1825031854,1506666665,0,6,536870887,-128,1];
+const o54 = {
+    __proto__: v52,
+};
+function f55(a56, a57) {
+    return a56;
+}
+function F58() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = 9007199254740991;
+}
+const v61 = new F58();
+const o64 = {
+    set h(a63) {
+    },
+    __proto__: v61,
+};
+for (const v65 in o64) {
+}
+class C66 {
+    static [o54] = v53;
+}

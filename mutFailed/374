@@ -1,0 +1,24 @@
+function f0() {
+}
+try { ("2").sup(); } catch (e) {}
+try { ("n").sup(); } catch (e) {}
+const v9 = ("n")?.constructor;
+try { v9.raw("n"); } catch (e) {}
+try { new v9("2"); } catch (e) {}
+[4,"n"];
+const v13 = ["symbol","n"];
+v13.length = v13;
+try { v13.reduce("n"); } catch (e) {}
+const v15 = [4];
+try { new Array(v15); } catch (e) {}
+-0;
+new Array(0);
+const v21 = [1000000000.0,2.2250738585072014e-308,-3.0,-2.2250738585072014e-308,-2.2250738585072014e-308,-6.525028373249204e+307,-7.851646360254072e+307,0.6785915059434757,-0.0];
+let v22;
+try { v22 = v21.lastIndexOf(1099570096); } catch (e) {}
+v22 * v22;
+class C24 {
+}
+try { new C24(); } catch (e) {}
+C24.h = C24;
+C24[Symbol.replace] = v21;

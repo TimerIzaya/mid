@@ -1,0 +1,61 @@
+const v2 = new Uint8Array(127);
+function f5() {
+    return 127;
+}
+Object.defineProperty(Int32Array, 0, { writable: true, configurable: true, get: f5 });
+new Int32Array(Int32Array);
+let v7 = 3;
+v7--;
+Float32Array.e = Int32Array;
+const v10 = new Float32Array(v2);
+try { v10.toSorted(v10); } catch (e) {}
+class C12 extends Float32Array {
+    #n(a14, a15, a16) {
+        const v17 = `
+            Math.ceil(a14);
+            Uint8Array * -4;
+            const v23 = Math.acos(v10);
+            Math.tan(-4);
+            Uint8Array + v23;
+        `;
+        const v26 = [-6.672391061426152e+307];
+        function f28() {
+            let v29 = 8n;
+            v29++;
+            const v32 = [v29] > v29;
+            ~v26["pop"]();
+            let v36 = 0;
+            const o39 = {
+                "maxByteLength": 1814769353,
+            };
+            const v41 = new SharedArrayBuffer(12, o39);
+            try { v41.grow(-10); } catch (e) {}
+            Uint32Array.e = Uint32Array;
+            while ((() => {
+                    const v45 = v36 < 10;
+                    v45 || v45;
+                    return v45;
+                })()) {
+                for (let v47 = 0; v47 < 5; v47++) {
+                    "n" + v47;
+                }
+                v36++;
+            }
+            return v32;
+        }
+        f28();
+        eval(v17);
+        return this;
+    }
+}
+C12.e = C12;
+const v54 = new C12();
+v54.byteLength;
+new C12();
+new C12();
+/a\fb\nc\rd\te\vf/gvms;
+const v61 = Float32Array?.__defineGetter__;
+try { new v61(127, Uint8Array); } catch (e) {}
+let v63 = 1126838905;
+v63++;
+Reflect.construct(Int8Array, []);

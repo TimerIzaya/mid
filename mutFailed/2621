@@ -1,0 +1,60 @@
+let v0 = Map;
+const v1 = new v0();
+class C2 extends v0 {
+    static get c() {
+        v1[this] = this;
+        const v4 = [this,C2];
+        const v5 = [C2,v4,C2,v0];
+        [v4];
+        return v5;
+    }
+    constructor(a8, a9) {
+        super(a9);
+        a9[v0] = v0;
+        super[a8];
+        this[a9] = true;
+        super.c = v0;
+        v0 &&= a9;
+        for (let v12 = 0; v12 < 32; v12++) {
+            a9["p" + v12] = v12;
+        }
+    }
+}
+new C2(C2, C2);
+new C2(v1, v0);
+new C2(v1, v1);
+const v21 = [C2];
+[v21,v21];
+["n","7aoC"];
+[1.5497283755562828e+308,0.03786930937778421,-3.0,419.2565361859256,-2.0,0.5862446929100771,5.0];
+[0.09659919709446219,-2.220446049250313e-16,0.04732946722026887];
+[0.0];
+class C30 {
+    get b() {
+        const v32 = ("B")[21];
+        try {
+            this.e = "B";
+        } catch(e33) {
+        }
+        return v32;
+    }
+    static [2.0];
+    static #g;
+    g = "d";
+}
+new C30();
+const v35 = new C30();
+const v36 = new C30();
+const v39 = new Uint8Array(7);
+const v42 = new BigInt64Array(1221);
+let v45 = new Uint8ClampedArray(5);
+try { v35(1221, v35, "d", v36); } catch (e) {}
+const o47 = {
+    __proto__: v39,
+    "h": v39,
+    "a": v42,
+};
+Math.clz32(-53409);
+const v52 = -53409 % v45;
+--v45;
+-1000.0 && v52;

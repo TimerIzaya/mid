@@ -1,0 +1,37 @@
+class C3 {
+    constructor(a5, a6) {
+        this[7];
+        a5++;
+        a6.name = a6;
+        function f9() {
+            return a6;
+        }
+    }
+    static #g = -1813834741;
+    #b;
+    static #c;
+    7 = -1813834741;
+    static #a;
+}
+const v10 = new C3(-5.0, C3);
+const v11 = new C3(v10, v10);
+try { v11.propertyIsEnumerable(-5.0); } catch (e) {}
+new C3(v10, C3);
+~-9223372036854775808;
+function f18() {
+    const o20 = {
+        get c() {
+            return this;
+        },
+    };
+    o20.c = o20;
+    return o20;
+}
+const v21 = f18();
+class C22 extends f18 {
+}
+C22.h = C22;
+const v23 = new C22();
+const v25 = new Int32Array(v21, v23);
+try { v25.entries(); } catch (e) {}
+Reflect.defineProperty(v21, v25, v23);

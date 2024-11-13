@@ -1,0 +1,70 @@
+function f4(a5, a6) {
+    const o19 = {
+        get c() {
+            try {
+                this.__proto__ = this;
+            } catch(e8) {
+            }
+            const v9 = true ** a6;
+            const o10 = {
+            };
+            try {
+                o10.f = v9;
+            } catch(e11) {
+            }
+            try {
+                const o12 = {
+                };
+                o12.b = v9;
+                o12.d = v9;
+            } catch(e13) {
+            }
+            try {
+                const o14 = {
+                };
+                o14.h = v9;
+                o14.d = v9;
+                o14.f = a6;
+            } catch(e15) {
+            }
+            try {
+                const o16 = {
+                };
+                o16.h = v9;
+                o16.d = v9;
+                o16.g = f4;
+            } catch(e17) {
+            }
+            a6?.[v9];
+            return a6;
+        },
+        "h": a5,
+        "f": 1,
+    };
+    function f20() {
+        f4 &&= a6;
+        a6 = -1825403372;
+        return a5;
+    }
+    o19.name = f20;
+    return o19;
+}
+const v21 = f4(-1825403372, 1);
+f4(2147483647, v21);
+const v23 = f4(-1825403372, v21);
+v23.h;
+const v25 = [-2,-10,10,-1,12];
+v25[1] = v25;
+[10,2147483647,-37275,52479];
+const v27 = [-12,-1802758902,255,4294967295,-30100,536870887];
+const v29 = [9007199254740990,12,13,1073741825,-9223372036854775807,2147483649,-320466038];
+const v31 = new Uint8Array();
+let v32;
+try { v32 = v31.subarray(v23, 1); } catch (e) {}
+const v33 = new Uint8Array(268435440);
+try { v33.lastIndexOf(-1825403372); } catch (e) {}
+v27[Symbol.split] = v32;
+new Uint8Array(-11156);
+new Float32Array(2951);
+new Float32Array(4096);
+v29[-791854083] = v31;

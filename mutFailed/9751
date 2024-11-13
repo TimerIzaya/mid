@@ -1,0 +1,141 @@
+function f0() {
+    const o4 = {
+        ["n"]: 4.0,
+        __proto__: "n",
+        "f": 4.0,
+        ..."n",
+        "d": 4.0,
+        16: 4294967295,
+        "b": 4294967295,
+        "e": 4.0,
+        "h": 4294967295,
+        "c": 4.0,
+        1073741823: "n",
+    };
+    function f5() {
+        return f0;
+    }
+    function f6(a7) {
+        Symbol.for(Symbol.toPrimitive.description);
+        const v13 = [618.1593022982238,-670.4331556988014,-598.8215888934105,1e-15,0.6439103075146282,996419.0616454568,-1.0,-1000000000.0,1e-15,-566.0187654378863];
+        v13[Symbol.toPrimitive] = Symbol;
+        const v16 = [0.38491475396310426,1.7976931348623157e+308,-1e-15,924251.5567374192,NaN,1.5098751561946018e+308,-1.1124820518145282e+308,-3.0,-0.0,-467.0550866857337];
+        let v17;
+        try { v17 = v16("n", "n", "n", "n", "n"); } catch (e) {}
+        try { v17(v13, v17, v17); } catch (e) {}
+    }
+    Object.defineProperty(o4, "toString", { get: f5, set: f6 });
+    return o4;
+}
+function f19(a20) {
+    a = f0;
+    function f24(a25, a26) {
+        const o28 = {
+            get c() {
+                let v27 = this;
+                v27 += v27;
+                return a26;
+            },
+            "b": -65537n,
+            __proto__: a25,
+            ...a25,
+            "a": a26,
+            6: 4294967297n,
+            "c": 4294967297n,
+        };
+        return o28;
+    }
+    const v29 = f24(f24, f24);
+    class C30 extends f24 {
+        set e(a32) {
+            const v33 = v29.h;
+            let {...v34} = v29;
+            Reflect.construct(v33, [4294967296n]);
+        }
+    }
+    const v38 = new C30();
+    Object.defineProperty(v38, "b", { writable: true, enumerable: true, value: v29 });
+    return 4294967297n;
+}
+f0.toString = f19;
+const v39 = f0();
+function f40(a41, a42) {
+    new Date();
+    return v39;
+}
+v39.toString = f40;
+const v45 = f0();
+function f46() {
+    try { v45.getOwnPropertySymbols(true, true); } catch (e) {}
+    return true;
+}
+Object.defineProperty(v45, "toString", { writable: true, configurable: true, value: f46 });
+const v49 = f0();
+v49.toString = f0;
+const v50 = [v45,v45];
+const v51 = [v50,v39];
+function f52() {
+    function f53(a54, a55) {
+        %VerifyType(f40);
+        let [] = v51;
+        return f46;
+    }
+    return f53;
+}
+function f56(a57) {
+    f40(f0, f52);
+}
+const v60 = Symbol.toPrimitive;
+Object.defineProperty(v51, v60, { configurable: true, enumerable: true, get: f52, set: f56 });
+const v61 = [f0,f0,f0,v39,v51];
+function f62(a63, a64) {
+    function f65(a66) {
+        v60.__proto__;
+        const o71 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o71);
+        return o71;
+    }
+    a63[Symbol.toPrimitive] = f65;
+    const o89 = {
+        [a64]: v50,
+        __proto__: v39,
+        [v61](a76, a77, a78) {
+            function F79(a81, a82, a83) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a76;
+                } catch(e84) {
+                }
+                try {
+                    this.d = a64;
+                } catch(e85) {
+                }
+            }
+            new F79(a64, a63, v51);
+            new F79(a78, v45, a63);
+            new F79(F79, v39, f0);
+            return v45;
+        },
+    };
+    return o89;
+}
+f62(f62(v39, v39), v45);
+f62(v49, v49);
+const o93 = {
+};
+function f94(a95) {
+    for (let v96 = 0; v96 < 5; v96++) {
+        const v97 = v96 < v96;
+        class C98 {
+        }
+        const v99 = C98.constructor;
+        v99.toString = f56;
+        try { v99(v97, v97, v96, v99, v99); } catch (e) {}
+    }
+    return a95;
+}
+Object.defineProperty(o93, "h", { enumerable: true, set: f94 });
+o93.h = o93;

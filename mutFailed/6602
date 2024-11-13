@@ -1,0 +1,21 @@
+const v2 = new BigInt64Array(8);
+const t1 = 8;
+const v5 = new t1(255);
+const v6 = v5?.constructor;
+try { new v6(v2, v5, 255); } catch (e) {}
+512 % 512;
+new Int32Array(512);
+[BigInt64Array,BigInt64Array];
+[Int32Array,Uint16Array,Uint16Array];
+[v5,512,512,Int32Array];
+const v15 = /((((.).).).)rfoo|(bar|baz)|quux*/uims;
+try { v15.constructor(8, v2); } catch (e) {}
+const v17 = /[(?:a*)*]/u;
+switch (v15) {
+    default:
+        let v18;
+        try { v18 = v15(); } catch (e) {}
+        try { v18(); } catch (e) {}
+        break;
+    case v17:
+}

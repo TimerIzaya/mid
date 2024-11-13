@@ -1,0 +1,49 @@
+class C3 {
+    toString(a5) {
+        const v6 = a5 === 2.2250738585072014e-308;
+        v6 ? a5 : 2.2250738585072014e-308;
+        Reflect.construct(a5, [a5,2.2250738585072014e-308], a5);
+        return v6;
+    }
+    constructor(a12, a13) {
+        try {
+            a13.toString(-2.220446049250313e-16, "BhqH");
+        } catch(e15) {
+        }
+    }
+}
+const v16 = new C3("BhqH", -2.220446049250313e-16);
+const v17 = new C3(-2.220446049250313e-16, C3);
+const v18 = new C3(C3, C3);
+function f19(a20, a21, a22, a23) {
+    const o38 = {
+        "a": a22,
+        [2.2250738585072014e-308](a25, a26, a27) {
+            a25 = this;
+            let v30 = -313144.2782921585;
+            Math.log10(a25);
+            ~(v30--);
+            Math.asinh(v30);
+            Math.log(a21);
+            a25 * 2.2250738585072014e-308;
+            Math.max(-534338039);
+            return -2.220446049250313e-16;
+        },
+    };
+    return o38;
+}
+f19(v17, v17, v18, v17);
+f19(v18, f19(v17, C3, v16, C3), v17, C3);
+function F45(a47) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F45();
+class C49 {
+    g;
+    constructor() {
+        const v51 = this.constructor;
+        try { new v51(); } catch (e) {}
+    }
+}
+const t47 = -1258522233;
+new t47();

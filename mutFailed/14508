@@ -1,0 +1,24 @@
+new Float64Array(128);
+new Int8Array(112);
+new Uint8Array(15);
+const v15 = [2.0,0.2901658812472846,-8.880306076496956e+307,943883.9104739067];
+function f16(a17, a18, a19, a20) {
+    function f21(a22, a23) {
+        return 4294967296 & 4294967296;
+    }
+    a17.constructor = f21;
+    const v26 = /(?:a*)+q(?<a>.)/guds;
+    function f27(a28) {
+        v15.constructor.isArray(v26);
+        return a28;
+    }
+    for (let i33 = 0, i34 = 10; i33 < i34; i34--) {
+        f27(v26);
+    }
+    return a17;
+}
+for (let v42 = 0; v42 < 5; v42++) {
+    f16(v42, v42, v15, v42);
+}
+%OptimizeFunctionOnNextCall(f16);
+f16(v15, v15, v15, v15);

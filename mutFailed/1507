@@ -1,0 +1,63 @@
+class C3 {
+    g;
+    d;
+    #d = -641.5650834681337;
+    [-641.5650834681337] = -641.5650834681337;
+    constructor(a5, a6) {
+        try { this.valueOf("w", "w", a5, this, this); } catch (e) {}
+        const t7 = "w";
+        t7[Symbol.asyncIterator] = a5;
+    }
+    #b;
+    #g = -641.5650834681337;
+    static #a;
+}
+const v10 = new C3(-641.5650834681337, C3);
+let v11 = new C3(v10, 1.7976931348623157e+308);
+const v12 = new C3("w", v11);
+function f13(a14, a15, a16, a17) {
+    const o27 = {
+        "b": a15,
+        ...v12,
+        [a16]: v12,
+        ...a14,
+        __proto__: a16,
+        "d": v12,
+        ...C3,
+        [v11](a19, a20) {
+            v12.__proto__;
+            const v22 = delete this?.g;
+            this[7];
+            v11 = "w";
+            return v22;
+        },
+    };
+    return o27;
+}
+f13(v12, v10, C3, v10);
+f13(v11, v10, v11, v11);
+const v30 = f13(v12, v10, v10, v11);
+function f31() {
+    return v30;
+}
+new Int8Array(8);
+new Uint16Array(2);
+new Uint8Array(195);
+const v42 = new Uint16Array(Uint16Array);
+function f44() {
+    const o50 = {
+        "e": Uint16Array,
+        __proto__: 1000000000000.0,
+        "g": 12,
+        o(a49) {
+            return v42;
+        },
+        ...1000000000000.0,
+    };
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f44);
+f44();
+f44();
+%OptimizeFunctionOnNextCall(f44);
+f44();

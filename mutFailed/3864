@@ -1,0 +1,66 @@
+class C3 {
+    static set h(a5) {
+        const v6 = `
+            for (let v7 = 0; v7 < 32; v7++) {
+                this["p" + v7] = this;
+            }
+        `;
+        eval(v6);
+    }
+}
+try { new C3(); } catch (e) {}
+const v13 = new C3();
+const v14 = v13?.__lookupGetter__;
+let v15;
+try { v15 = new v14("VL9k"); } catch (e) {}
+const v16 = v13?.constructor;
+v16.prototype = v16;
+let v17;
+try { v17 = new v15(); } catch (e) {}
+function f18(a19) {
+    try {
+        new C3();
+    } catch(e21) {
+    }
+    return "VL9k";
+}
+v17.constructor = f18;
+const v22 = v17?.constructor;
+try { new v22(); } catch (e) {}
+const v24 = new C3();
+v24?.constructor;
+let v26;
+try {
+const t0 = "f";
+v26 = new t0();
+} catch (e) {}
+const v27 = new C3();
+v27.constructor = f18;
+const v28 = v27?.constructor;
+try { new v28(); } catch (e) {}
+const v30 = v27?.constructor;
+try { new v30(); } catch (e) {}
+try { new BigInt64Array("VL9k", "f", C3); } catch (e) {}
+const v35 = new v26(64);
+v28[61];
+BigUint64Array[2] = BigUint64Array;
+new BigUint64Array(257);
+try { new Int8Array(BigUint64Array, 129, BigInt64Array); } catch (e) {}
+new Int8Array(129);
+let v47 = 349865170n - 349865170n;
+v47--;
+function F49(a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    916023.9775313165 | a51;
+    a51 ^ a51;
+    const v54 = this?.constructor;
+    v54.caller = v54;
+    try { new v54(3n); } catch (e) {}
+}
+F49.e = F49;
+const v56 = new F49(0n);
+const v57 = v56?.__lookupSetter__;
+try { new v57(v35); } catch (e) {}
+const v59 = C3?.__defineGetter__;
+try { new v59("VL9k", 3n); } catch (e) {}
+new F49(349865170n);

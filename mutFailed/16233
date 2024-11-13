@@ -1,0 +1,68 @@
+function f0() {
+}
+class C1 {
+    static [f0];
+    static {
+        const v3 = super.e;
+        this.a %= v3;
+        5.0 << v3;
+        (v3 >> f0) << this;
+        f0 / 5.0;
+    }
+    65535 = f0;
+    static #c;
+    static 65535;
+}
+const v11 = new C1();
+const v12 = new C1();
+const v13 = new C1();
+function f14(a15) {
+    const o16 = {
+        "a": v11,
+        __proto__: v13,
+        [v13]: a15,
+        "h": a15,
+        "f": C1,
+        "d": a15,
+        "c": C1,
+        ...C1,
+        "g": v12,
+        4: C1,
+        "e": f0,
+        "b": v11,
+        ...v12,
+        1162: v12,
+        [C1]: a15,
+    };
+    return o16;
+}
+const v17 = f14(v13);
+const v19 = f14(f14(C1));
+function f20(a21, a22) {
+    const o28 = {
+        "d": v19,
+        set f(a24) {
+            this.d;
+            try {
+                f0();
+            } catch(e27) {
+            }
+        },
+        "f": C1,
+        "h": v12,
+        ...v17,
+        __proto__: a22,
+        "g": a21,
+        1245: a21,
+        [a21]: f0,
+    };
+    return o28;
+}
+const v29 = f20(C1, C1);
+f20(v29, f20(v12, v29));
+new Uint32Array(256);
+new BigUint64Array(7);
+new Int8Array(816);
+const v41 = [9007199254740990,12,13,1073741825,-9223372036854775807,2147483649,-320466038];
+v41[1000.0] >>= -4.0;
+new Uint8Array(v41);

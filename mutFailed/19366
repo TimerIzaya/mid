@@ -1,0 +1,68 @@
+class C3 {
+    static p(a5, a6) {
+        try { a5["getUTCMinutes"](); } catch (e) {}
+        return a6;
+    }
+    #b = 1000.0;
+    constructor(a10) {
+        function f11(a12) {
+            return 512;
+        }
+        class C13 extends f11 {
+            static 4;
+        }
+    }
+}
+const v14 = new C3(C3);
+const v15 = new C3(v14);
+const v16 = new C3(v14);
+function f17() {
+    return C3;
+}
+class C21 extends f17 {
+    static #a = v15;
+    g = v14;
+    constructor(a23, a24) {
+        super();
+        try {
+            new this(-4294967295);
+        } catch(e27) {
+        }
+    }
+    static #e;
+    static d;
+    [v14];
+    #b = 3;
+}
+const v28 = new C21(C3, v16);
+const v29 = new C21(f17, C21);
+const v30 = new C21(4294967295, v14);
+const v32 = new Set();
+class C33 {
+    b = v32;
+}
+try {
+    v28[485784667] = v32;
+} catch(e34) {
+    function F35(a37, a38, a39, a40) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = a37;
+        } catch(e41) {
+        }
+    }
+    const v42 = new F35(v15, 512, v28, v29);
+    new F35(v30, 4294967295, f17, v30);
+    new F35(v42, 536870888, v14, e34);
+}
+v32["clear"]();
+const v47 = new C33();
+const v48 = new C33();
+function f49(a50, a51, a52, a53) {
+    for (let v54 = 0; v54 < 25; v54++) {
+        a51["p" + v54] = v54;
+    }
+    return a53;
+}
+f49(v47, v48);
+gc();

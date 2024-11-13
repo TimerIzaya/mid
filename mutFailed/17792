@@ -1,0 +1,85 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = this;
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.d = f0;
+    } catch(e4) {
+    }
+    try {
+        this.e = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new F1();
+try { v7.e(); } catch (e) {}
+function f9() {
+    function f10(a11, a12, a13) {
+        do {
+        } while ((() => {
+                const v16 = -892321831 < 7;
+                const v17 = !v16;
+                v17 && v17;
+                return v16;
+            })())
+        f10(-892321831, f10, -892321831);
+        return -892321831;
+    }
+    return f10;
+}
+const v21 = Symbol.toPrimitive;
+v7[v21] = f9;
+v7[Symbol.toPrimitive] = f0;
+const v24 = new F1();
+6n >> 6n;
+let v28 = 11n;
+v28--;
+class C30 extends F1 {
+    [v7] = v6;
+    static n(a32, a33, a34, a35) {
+        const v38 = new Array(255, a33, v28, f9);
+        try {
+            super.toString(255, this, v38, a34);
+        } catch(e40) {
+        }
+        return a34;
+    }
+    f = 6n;
+    growable = v24;
+}
+try { new C30(); } catch (e) {}
+const v42 = new C30();
+new C30();
+new C30();
+[-4,536870889,-536870912,536870887,7,4294967297,1774644855,1000];
+const v46 = [2147483647,-1711771257];
+try { v46.fill(C30); } catch (e) {}
+[536870887,268435441,58527,2,-4,127];
+const o64 = {
+    [null]() {
+        const v51 = /W(jy2)/udy;
+        try { v51.test(v42); } catch (e) {}
+        const v54 = new Uint8Array();
+        for (let v55 = 0; v55 < 500; v55++) {
+            const o59 = {
+                ...v54,
+                n(a57, a58) {
+                },
+            };
+            try { o59.propertyIsEnumerable(v21); } catch (e) {}
+        }
+        for (let v61 = 0; v61 < 5; v61++) {
+            const v62 = v61 < v51;
+            v62 && v62;
+        }
+    },
+};
+try { o64.null(); } catch (e) {}
+o64.null(o64);
+o64.n(o64, o64, o64, o64);

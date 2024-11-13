@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = F0;
+    try {
+        this.d = 255;
+    } catch(e3) {
+    }
+    try {
+        this.c = 255;
+    } catch(e4) {
+    }
+    try {
+        this.a = 255;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+v8.a = v8;
+function f9() {
+    return F0;
+}
+try { f9.bind(v6); } catch (e) {}
+function F11(a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = this;
+    a13.a = v7;
+    a13.a = a13;
+    try {
+        this.d = v7;
+    } catch(e14) {
+    }
+    try {
+        this.c = v6;
+    } catch(e15) {
+    }
+    try {
+        this.e = v8;
+    } catch(e16) {
+    }
+}
+function f17() {
+    return v7;
+}
+function f18(a19) {
+    try {
+        v6.c = a19;
+    } catch(e20) {
+    }
+}
+Object.defineProperty(F11, "a", { writable: true, configurable: true, get: f17, set: f18 });
+new F11(v6);
+new F11(v7);
+const v23 = new F11(v8);
+const v24 = v23?.constructor;
+v24.a = F0;
+try { new v24(F11); } catch (e) {}
+new Uint32Array(198);
+new Int8Array(8);
+try { Uint8Array.toString(); } catch (e) {}
+const v35 = new Uint8Array(4096);
+v35[18];
+const v39 = new BigInt64Array(128);
+-11907 / -11907;
+v39.indexOf(-11907, 4294967296);

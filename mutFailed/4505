@@ -1,0 +1,94 @@
+function f0() {
+}
+class C1 extends f0 {
+    #m() {
+        %VerifyType(this);
+        super[f0] = this;
+        Reflect.construct(C1, [C1,Reflect,arguments,f0], f0);
+        for (let v7 = 0; v7 < 32; v7++) {
+            arguments["p" + v7] = v7;
+        }
+        return f0;
+    }
+    valueOf() {
+        try {
+            f0();
+        } catch(e12) {
+        }
+        const v13 = this && f0;
+        function F14(a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = a16;
+            } catch(e17) {
+            }
+        }
+        const v18 = new F14(v13);
+        new F14(v18);
+        new F14(v13);
+        return v18;
+    }
+}
+new C1();
+const v22 = new C1();
+const v23 = new C1();
+function F24(a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a26;
+    } catch(e27) {
+    }
+    try {
+        this.g = C1;
+    } catch(e28) {
+    }
+}
+const v29 = new F24(v23);
+new F24(v23);
+const v31 = new F24(v22);
+const v38 = Float32Array.length;
+class C40 {
+}
+const v41 = new C40();
+class C42 {
+    static g = v41;
+    static {
+        delete this.g;
+    }
+}
+try { C42.bind(v41); } catch (e) {}
+const v49 = Symbol("bZ");
+[Float32Array];
+function f52() {
+}
+[[f52,f52],f52];
+const o60 = {
+    "maxByteLength": 255,
+};
+const v62 = new SharedArrayBuffer(15, o60);
+new BigInt64Array(v62);
+try { ("5").split(127, v49); } catch (e) {}
+try {
+    v31.toString = Symbol;
+} catch(e67) {
+}
+C42 = v29;
+const v71 = new Array(228);
+class C72 {
+    static {
+        function F74(a76, a77) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v78 = this?.constructor;
+            try { new v78("yi", v38); } catch (e) {}
+        }
+        new F74(v71, this);
+        new F74(Array, F74);
+    }
+}
+try {
+} catch(e82) {
+}
+let v83 = 0;
+do {
+    v83++;
+} while (v83 < 9)

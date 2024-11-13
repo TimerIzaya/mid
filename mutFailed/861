@@ -1,0 +1,107 @@
+new Date();
+class C6 {
+    set e(a8) {
+        const v10 = Symbol.iterator;
+        const o16 = {
+            [v10]() {
+                let v12 = 10;
+                const o15 = {
+                    next() {
+                        v12--;
+                        return this;
+                    },
+                };
+            },
+        };
+    }
+}
+const v17 = new C6();
+function f18(a19, a20) {
+    const o27 = {
+        512: C6,
+        4294967295: a19,
+        valueOf(a22, a23) {
+            return a23;
+        },
+        "e": v17,
+        o(a25, a26) {
+            return a26;
+        },
+    };
+    return o27;
+}
+f18(f18, 3.1466442940809625);
+class C29 {
+    #b = Date;
+    static {
+        delete this.g;
+    }
+    static b;
+    set e(a33) {
+        const v35 = Symbol.iterator;
+        const o41 = {
+            [v35]() {
+                let v37 = 10;
+                const o40 = {
+                    next() {
+                        v37--;
+                        return this;
+                    },
+                };
+            },
+        };
+    }
+    constructor(a43) {
+        Date[7n] = Date;
+        new Date(a43);
+    }
+    static #m(a46) {
+    }
+    static {
+        [];
+        try {
+            super.setInt8();
+        } catch(e50) {
+        }
+    }
+    static #g = 2n;
+    d;
+    static 5;
+    o(a52, a53) {
+        try { b.p(7n, 2n); } catch (e) {}
+        new Date();
+        return a52;
+    }
+}
+new C29(4096n);
+new C29(4096n);
+new C29(7n);
+const v69 = [10,-2,256,-4294967295,6,-34566,804990459,-256,-1831978218];
+try {
+const t0 = 1073741824;
+t0(-65535, v69, 1073741824);
+} catch (e) {}
+const o75 = {
+    "execution": "async",
+    "type": "major",
+};
+const v77 = [];
+function f78(a79, a80) {
+    const v81 = [-15,-2147483649,-899333997,3,1455560807,-1024,-4294967297,2098301778];
+    class C82 {
+        #o(a84) {
+        }
+        static #n(a86) {
+            function f87(a88) {
+                return a88;
+            }
+            class C89 extends f87 {
+            }
+        }
+    }
+    const v90 = C82.constructor;
+    try { v81.some(v90); } catch (e) {}
+}
+f78[Symbol.species] = f78;
+v77.constructor = f78;
+v77["concat"]();

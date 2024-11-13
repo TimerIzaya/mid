@@ -1,0 +1,79 @@
+function f3() {
+    return 1000.0;
+}
+function f4(a5) {
+    const o18 = {
+        "h": 1000.0,
+        get a() {
+            this.__proto__;
+            for (let v8 = 0; v8 < 100; v8++) {
+                f3();
+            }
+            return 1000.0;
+        },
+        "e": a5,
+        "b": Infinity,
+        [5.0](a11) {
+            function f12(a13) {
+                const v14 = [];
+                Object.defineProperty(a13, 536870888, { writable: true, configurable: true, value: v14 });
+                ({"length":a11,...f12} = v14);
+                f12[Symbol.unscopables] = v14;
+                return a13;
+            }
+            class C17 extends f12 {
+                static #g = a11;
+                static a = this;
+                static 4294967296 = Infinity;
+            }
+            return f12;
+        },
+    };
+    return o18;
+}
+const v19 = f4(Infinity);
+f4(5.0);
+const v21 = f4(Infinity);
+class C22 {
+    static #d = 1000.0;
+    static get h() {
+        /a[^a]/usy;
+        /q/sy;
+        /abc+?(?<=)[foo(?<!bar)baz?]?/gvdimy;
+        try {
+            super.fromCharCode(v19, this);
+        } catch(e28) {
+        }
+        return 1000.0;
+    }
+    static #h;
+    [1000.0] = Infinity;
+    [Infinity];
+    #b;
+}
+const v29 = new C22();
+const v30 = new C22();
+new C22();
+function F32(a34, a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a35;
+    } catch(e38) {
+    }
+}
+const v39 = new F32(5.0, v30, v21, C22);
+const v40 = new F32(1000.0, v39, v39, C22);
+new F32(Infinity, v29, v40, v30);
+gc();
+gc();
+"toString" == "toString";
+("boolean").split("toString");
+const o50 = {
+    "f": 5.0,
+    ...v39,
+    "d": "boolean",
+    ...v30,
+    "c": Infinity,
+    get f() {
+    },
+};

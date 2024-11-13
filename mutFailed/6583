@@ -1,0 +1,181 @@
+class C3 {
+    [0.5321008482462977];
+    constructor(a5) {
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        v9--;
+                        const v13 = v9 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+    }
+}
+const v17 = new C3(C3);
+const v18 = new C3(v17);
+const v19 = new C3(v17);
+function f20(a21, a22) {
+    const o23 = {
+        ...v18,
+        "h": v18,
+        "c": a21,
+        ...v18,
+        "e": v19,
+        256: -3,
+        "d": 65536,
+        __proto__: a22,
+        ...a22,
+        "b": a21,
+    };
+    return o23;
+}
+const v24 = f20(C3, v19);
+const v25 = f20(v18, v24);
+const v26 = f20(v18, v24);
+for (const v27 of v25) {
+    const v28 = v27 + 0.5321008482462977;
+    f20(v28, v28);
+}
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v24;
+    } catch(e35) {
+    }
+    try {
+        this.f = a34;
+    } catch(e36) {
+    }
+    try {
+        this.c = a32;
+    } catch(e37) {
+    }
+}
+const v38 = new F30(v18, v25, v17);
+new F30(v26, v18, v25);
+new F30(v26, v25, v19);
+function F41(a43) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v44 = new F41(F41);
+gc.arguments = gc;
+const v46 = gc();
+let v47 = -1024;
+const v48 = v47--;
+function F49(a51, a52, a53, a54) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v55 = new F49(v46, v44, v44, v48);
+const v56 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+function F57(a59, a60) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C61 {
+}
+let v62 = -4294967297n;
+const v63 = v62--;
+const v64 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+for (let v66 = 0; v66 < 5; v66++) {
+    function f67() {
+        let v69 = Float64Array;
+        const v71 = Array();
+        function f72() {
+        }
+        function f73(a74) {
+        }
+        Object.defineProperty(v71, 0, { configurable: true, enumerable: true, get: f72, set: f73 });
+        const v75 = v71.unshift(v47);
+        const v77 = new Set();
+        function F78(a80, a81) {
+            if (!new.target) { throw 'must be called with new'; }
+            F78(a81, v77);
+        }
+        v69 = F49;
+        const v83 = v56.length;
+        const v84 = v83 >>> v83;
+        try {
+            v84.forEach();
+        } catch(e86) {
+        }
+        const v87 = [-2.220446049250313e-16,0.9798105418016166,-4.830267035271884,-435.7279193107944,864333.2303131514,-3.553417885466287e+306,-1000000000000.0,-1000000000.0,990180.6241720289,-1000000.0];
+        Symbol.unscopables;
+        class C90 {
+        }
+        const v91 = new C90();
+        try {
+            v91.__proto__ = F57;
+            const v92 = ["Vre"];
+            class C93 {
+            }
+            function* f94(a95, a96) {
+                yield* v92;
+                return "Vre";
+            }
+        } catch(e97) {
+        }
+        const v98 = Symbol.toPrimitive;
+        try {
+            Symbol();
+        } catch(e100) {
+        }
+        try { new Symbol(); } catch (e) {}
+        const o108 = {
+            toString(a104, a105) {
+                const v106 = v66 && v69;
+                a104 *= v98;
+                return v106 <= v87;
+            },
+        };
+        const o130 = {
+            "c": v62,
+            [522675525n](a111, a112) {
+            },
+            valueOf(a114, a115) {
+                return a115;
+            },
+            "h": v38,
+            "g": v62,
+            [gc]: v64,
+            "f": v17,
+            __proto__: v91,
+            [v62](a117, a118, a119, a120) {
+            },
+            "e": -268435456,
+            "arguments": v64,
+            ...v55,
+            [v98]() {
+            },
+            "type": C61,
+            ..."Vre",
+            valueOf(a123, a124) {
+                return v63;
+            },
+            ..."Vre",
+            get h() {
+                return f67;
+            },
+            4: "Vre",
+            toString(a127, a128, a129) {
+                return this;
+            },
+        };
+        new Float32Array(Array, v75, v83);
+        new Float64Array(v75);
+        const v136 = new Uint16Array();
+        const v137 = v136?.entries;
+        try { new v137("Vre", v137, v137, v137); } catch (e) {}
+        return f73;
+    }
+    f67();
+    %OptimizeFunctionOnNextCall(f67);
+}

@@ -1,0 +1,58 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 536870887;
+    } catch(e3) {
+    }
+    try {
+        this.h = 536870887;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+33751862 == 33751862;
+let v12 = 62508 << 62508;
+v12++;
+[-2.0,-1000.0];
+const v15 = [-337.6142808849021];
+try { v15.values(); } catch (e) {}
+[-1000000000000.0,-Infinity,754.9790149075502,-350.10515662800117,-2.220446049250313e-16];
+try { ("getMinutes").codePointAt("getMinutes"); } catch (e) {}
+for (let v21 = 0; v21 < 32; v21++) {
+    v6["p" + v21] = v21;
+}
+const t25 = "3Rie";
+t25[1] = "3Rie";
+class C25 {
+    constructor(a27, a28) {
+        a28.prototype = a28;
+        function f29(a30) {
+            const v31 = [6,268435440,13,1073741825];
+            const o32 = {
+                "c": v31,
+            };
+            for (let v33 = 0; v33 < 25; v33++) {
+                o32["p" + v33] = v33;
+            }
+            return C25;
+        }
+        try { f29(a27); } catch (e) {}
+        f29.f = f29;
+        let v38;
+        try { v38 = Worker.toString(); } catch (e) {}
+        try { v38.lastIndexOf(a27); } catch (e) {}
+        const o41 = {
+            "type": "function",
+        };
+        new Worker(f29, o41);
+    }
+}
+const v43 = new C25(C25, C25);
+try { v43.constructor(v7, 62508); } catch (e) {}
+const v45 = new C25(C25, v43);
+const v46 = v45?.constructor;
+try { new v46(62508, "3Rie"); } catch (e) {}
+const v48 = v45?.constructor;
+try { new v48("3Rie", "getMinutes"); } catch (e) {}

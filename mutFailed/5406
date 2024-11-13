@@ -1,0 +1,59 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(1000.0, -1000000000.0);
+const v9 = new F3(-1000000000.0, -1000000000.0);
+const v10 = new F3(-1.5506600478200236e+308, 1000.0);
+class C11 {
+    static [v8] = F3;
+    toString(a13, a14, a15, a16) {
+        super[v10] = v10;
+        const v17 = v10 instanceof a13;
+        %VerifyType(v8);
+        a = v17;
+        return v17;
+    }
+    constructor(a19, a20, a21, a22) {
+        super[a19] = this;
+        const v23 = v9[512];
+        return;
+        super[v23];
+        const o27 = {
+            "maxByteLength": 4294967295,
+        };
+        const v29 = new SharedArrayBuffer(8, o27);
+        new Uint8Array(v29);
+    }
+}
+new C11(-1.5506600478200236e+308, -1.5506600478200236e+308, v9, v8);
+const v33 = new C11(v8, 1000.0, v9, v8);
+const v34 = new C11(v33, 1000.0, v10, C11);
+function f35(a36, a37) {
+    const o52 = {
+        "c": v33,
+        "a": a37,
+        ...v33,
+        "b": v10,
+        "e": v34,
+        "f": a37,
+        "d": v9,
+        n(a39, a40, a41, a42) {
+            try {
+                C11.fuck(false, /(?:ab)?/um);
+            } catch(e46) {
+            }
+            super[a41];
+            (-312218905) ** a40;
+            return a41;
+        },
+    };
+    return o52;
+}
+f35(v9, v9);
+f35(C11, -1000000000.0);
+f35(v34, v9);
+([Infinity,-686.9856326146617,0.47369378110968274,-7.24289104755818]).includes(...[-1000.0,-2.2250738585072014e-308,511.99933163650917,-386.8372768814137,Infinity]);

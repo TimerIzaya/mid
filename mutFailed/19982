@@ -1,0 +1,24 @@
+const t0 = -27191;
+const v4 = new t0();
+try { v4(); } catch (e) {}
+function F7() {
+    if (!new.target) { throw 'must be called with new'; }
+    const o9 = {
+    };
+    const v11 = new Proxy(this, o9);
+    try {
+        with (v11) {
+            o9[b];
+        }
+    } catch(e14) {
+    }
+}
+new Int8Array(0);
+new Int8Array(1000);
+const v22 = new Uint8ClampedArray(128);
+[];
+try { new BigInt64Array(-832267.262043573); } catch (e) {}
+const o31 = {
+    "execution": "async",
+    "type": v22,
+};

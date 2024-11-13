@@ -1,0 +1,19 @@
+const v2 = new NaN(16);
+const v5 = new Int8Array(5);
+const v8 = new BigInt64Array(3736);
+[v8,v2,BigInt64Array];
+const v10 = [5,v2,v5];
+[v8,v10,3736,v10,3736];
+const v12 = [601759695];
+function f13(a14, a15, a16, a17) {
+    function f18() {
+        return ([-Infinity]).push(v12);
+    }
+    f18();
+    Set(a16);
+    %OptimizeFunctionOnNextCall(f18);
+    return f18;
+}
+for (let v24 = 0; v24 < 5; v24++) {
+    f13(f13, v12, v24, v24, v24, BigInt64Array);
+}

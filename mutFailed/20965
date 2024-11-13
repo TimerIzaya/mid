@@ -1,0 +1,39 @@
+/[8(x)(x)(x)\1(?:a+)*[\cZ]sf\p{Changes_When_NFKC_Casefolded}J\xe2\x81\xa3?]/vdy;
+const v1 = /(Ooa$(a{1,2}?)*)/vm;
+/xyz??/ud;
+const v3 = [v1];
+const v4 = [v3,v3,v3];
+[v4];
+class C6 {
+    static p(a8, a9, a10) {
+        try {
+            super.getPrototypeOf(v4, v3, a9);
+        } catch(e12) {
+        }
+        return a9;
+    }
+    static #o(a14, a15, a16, a17) {
+        Reflect.construct(this, [], a15);
+        try {
+            a16.__proto__ = a14;
+        } catch(e21) {
+        }
+        return a14;
+    }
+}
+new C6();
+new C6();
+new C6();
+function f28(a29, a30) {
+    function f31(a32, a33) {
+        a33?.__lookupGetter__;
+        a33?.constructor;
+        new Float32Array([49197,268435456,-12,-5156,35920,-45892,-667,536870888,65537,-12]);
+        return f31;
+    }
+    f31(f31, a29);
+    %OptimizeFunctionOnNextCall(f31);
+    return f28;
+}
+const v40 = f28();
+f28(v40, v40);

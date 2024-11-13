@@ -1,0 +1,47 @@
+const v2 = new Float64Array(64);
+const v5 = new Float32Array(9);
+v5.c = v5;
+new Int8Array(0);
+class C9 extends Int8Array {
+    static #valueOf(a11, a12) {
+        try {
+            v2.b = a12;
+        } catch(e13) {
+        }
+        return v5;
+    }
+    static {
+        this.g = this;
+        v2[1000];
+        const v16 = super[this];
+        const o17 = {
+        };
+        o17.h = o17;
+        const v19 = new Proxy(v2, o17);
+        v19[56] = v19;
+        try { v19.slice(v16, Int8Array); } catch (e) {}
+        let v23 = 129n;
+        v23--;
+    }
+}
+try { new C9(); } catch (e) {}
+C9.prototype = C9;
+new C9();
+new C9();
+new C9();
+function f29() {
+    return -2147483647;
+}
+class C38 extends f29 {
+    p(a40, a41) {
+        class C48 {
+            static #p(a50) {
+                this.#p();
+            }
+        }
+    }
+}
+try { C38(); } catch (e) {}
+1000 + 1000;
+1000 % 1000;
+try { new RangeError(C9); } catch (e) {}

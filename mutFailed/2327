@@ -1,0 +1,35 @@
+const v0 = [2,4294967295,4,1073741824,1,-1924188937,512,65537,-15];
+const v1 = [7,65535,-7,4294967296,-11,-22225665,3,-819316523,8914457,13736];
+const v2 = [-11,-9223372036854775807,-5,9691];
+const v3 = [v2];
+try { v3.at(v3); } catch (e) {}
+const v5 = [v0,v0,v3,v3,v1];
+let v6;
+try { v6 = v5.with(v1, v0); } catch (e) {}
+const v7 = [v2,v5,v1];
+v7.g = v7;
+new Float64Array(255);
+3728 != 3728;
+new v6(3728);
+const v20 = new Int32Array(4096);
+v20[3356];
+let v22 = 2;
+v22++;
+function f24(a25) {
+    a25 === a25;
+    a25 <= a25;
+    const o31 = {
+        __proto__: f24,
+        213: a25,
+        ...a25,
+        "g": v22,
+        p(a29, a30) {
+            return f24;
+        },
+    };
+}
+%PrepareFunctionForOptimization(f24);
+const t31 = 4096;
+const v32 = t31();
+%OptimizeFunctionOnNextCall(v22);
+f24(v32);

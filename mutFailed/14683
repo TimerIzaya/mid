@@ -1,0 +1,79 @@
+function f0() {
+    const o11 = {
+        __proto__: 13,
+        ...65536,
+        [2.2250738585072014e-308]: 13,
+        "d": 65536,
+        "b": 13,
+        set c(a5) {
+            Object.defineProperty(this, Symbol.toPrimitive, { writable: true, configurable: true, value: f0 });
+            this[208] = 65536;
+            super.c -= 65536;
+            const t11 = "o";
+            t11[0] = "o";
+        },
+        "a": 13,
+        "e": 13,
+    };
+    o11.c = o11;
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+v13.toString = f0;
+let v14 = f0();
+function f15() {
+    --v14;
+    return 10000;
+}
+Object.defineProperty(v14, "toString", { writable: true, value: f15 });
+v14.a;
+const v21 = /(?:a+)?/vdims;
+v21.b = v21;
+const v22 = /foo|(bar|baz)|quuxWjlZ[\cA]*/guimsy;
+const v23 = /ab\b\d\bcd/gvimsy;
+const v24 = [-1939,1,-3284,9007199254740991,47727,-937822869,268435456];
+try { v24.lastIndexOf(v23); } catch (e) {}
+for (let v26 = 0; v26 < 100; v26++) {
+    v26 - v26;
+    -v26;
+    f0();
+}
+const v30 = v22.test(v14, v23, v13, v12, v21, v23);
+v30 && v30;
+-10109278 & -10109278;
+3 >>> 3;
+const v37 = 3 / v21;
+v37 + v37;
+const v39 = v13 << v21;
+v39 * v39;
+const v41 = +v39;
+[45969,43360];
+[-1834904396,-13,-2147483649,9,-2,24679,-58580653];
+class C44 extends f0 {
+    static 2;
+    toString(a46, a47, a48, a49) {
+        const v50 = [this,a47,this,a47,v24];
+        if (a48 >= f0) {
+            a46 != v13;
+        } else {
+            try {
+                v50.__proto__;
+                v13.fuck(v14, v23);
+            } catch(e59) {
+            }
+        }
+        return a48;
+    }
+}
+const v60 = new C44();
+v60[208] = v60;
+v60[208] = v60;
+const v61 = new C44();
+v61[208] = v61;
+new C44();
+const v63 = [23795,8,259058917,-256,1,-36806,4096,-9,-1,-18943];
+v63.toString = f15;
+try { v63.pop(); } catch (e) {}
+const v67 = new Date(-2, v63, v63, v63, -2);
+try { v67.setFullYear(v41, v37, v21); } catch (e) {}

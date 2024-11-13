@@ -1,0 +1,34 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { (1777199285n).propertyIsEnumerable(a5); } catch (e) {}
+    const v8 = this?.constructor;
+    try { new v8(a6, 1777199285n); } catch (e) {}
+    try {
+        this.e = a6;
+    } catch(e10) {
+    }
+}
+F3.arguments;
+new F3(1777199285n, -65535n);
+new F3(1777199285n, -65535n);
+new F3(2n, -65535n);
+const v16 = new WeakMap();
+let v17;
+try { v17 = v16.has(2n); } catch (e) {}
+v17 && v17;
+F3.b = WeakSet;
+const t19 = 2n;
+const v20 = new t19();
+const v21 = v20?.constructor;
+try { new v21(); } catch (e) {}
+1073741823 - 1073741823;
+-2147483649 >>> -2147483649;
+const o30 = {
+    "maxByteLength": 3952309630,
+};
+try { o30.propertyIsEnumerable(2n); } catch (e) {}
+-o30.maxByteLength;
+const v35 = new ArrayBuffer(1000, o30);
+v35.h = v35;
+const v36 = v35.transfer();
+try { v36.slice(v20, v16); } catch (e) {}

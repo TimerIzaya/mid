@@ -1,0 +1,49 @@
+[];
+new Uint16Array(111);
+new BigInt64Array(2887);
+new Uint8ClampedArray(1);
+function F13() {
+    if (!new.target) { throw 'must be called with new'; }
+    function F15() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v17 = 0; v17 < 25; v17++) {
+            const v18 = [601759695];
+            const v19 = [1073741824,1073741823,1376142744,1073741825];
+            function f20(a21, a22, a23, a24) {
+                f20(this, v18, a24, this);
+                %PrepareFunctionForOptimization(f20);
+                f20(this, v18, a24, this);
+                f20(this, v18, a24, this);
+                %OptimizeFunctionOnNextCall(f20);
+                f20(this, v18, a24, this);
+                Math.cos(-1073741824);
+                try { v19["find"](..."find", a24, ...v18, ...v19); } catch (e) {}
+                return v17;
+            }
+            for (let v34 = 0; v34 < 5; v34++) {
+                f20();
+            }
+        }
+        function F36(a38, a39) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = this;
+            } catch(e40) {
+            }
+            try {
+                this.e = F15;
+            } catch(e41) {
+            }
+        }
+        new F36(1073741824n, 1073741824n);
+        new F36(-43399n, 1073741824n);
+        new F36(-43399n, -128n);
+    }
+    new F15();
+    try { this.toSorted(-43399n, F13); } catch (e) {}
+    try {
+        new F15();
+    } catch(e48) {
+    }
+}
+new F13();

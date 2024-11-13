@@ -1,0 +1,54 @@
+function f0() {
+    const o9 = {
+        ..."n",
+        "d": f0,
+        [128]: "n",
+        ..."n",
+        set e(a5) {
+            this[3] = a5;
+            let v6;
+            try { v6 = a5(this, this, a5, a5, "n"); } catch (e) {}
+            v6.__proto__;
+            function f8() {
+                return 512;
+            }
+        },
+    };
+    return o9;
+}
+f0();
+const v11 = f0();
+f0();
+new v11(15);
+new Int16Array(2394);
+new Float64Array(1720);
+function f27(a28, a29, a30, a31) {
+    function f32() {
+        const o36 = {
+            "c": a31,
+            valueOf(a34, a35) {
+            },
+        };
+        try {
+            f32();
+        } catch(e38) {
+        }
+    }
+    f32();
+}
+class C40 {
+}
+const v41 = new C40();
+function f42(a43, a44) {
+    a44?.__lookupGetter__;
+    a44?.constructor;
+    return v41;
+}
+%PrepareFunctionForOptimization(f42);
+const v48 = f42(Uint16Array, v41);
+%OptimizeFunctionOnNextCall(21316);
+f42(f42, v48);
+for (let v50 = 0; v50 < 5; v50++) {
+    f27(522675525n, 0.5375507050396837, 0.5375507050396837, v50);
+}
+Int32Array();

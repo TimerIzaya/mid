@@ -1,0 +1,74 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        class C10 {
+            static {
+                class C14 {
+                }
+                function f15(a16, a17, a18) {
+                    const o19 = {
+                        1073741824: C14,
+                    };
+                    return -26368;
+                }
+            }
+        }
+        this.b = a6;
+    } catch(e20) {
+    }
+}
+const v21 = new F3("number", "number");
+const v22 = new F3(v21, "3");
+%VerifyType(v21);
+const v24 = [];
+class C25 {
+    constructor() {
+        super.f >>= this;
+    }
+    static #o() {
+        super[v24];
+        super.a;
+        return v24;
+    }
+}
+function f34(a35) {
+    const o41 = {
+        __proto__: 2,
+        "c": 2,
+        "e": 536870889,
+        213: "number",
+        ...a35,
+        "g": 536870889,
+        p(a37, a38) {
+            try {
+                this.fuck(536870889, a35);
+            } catch(e40) {
+            }
+            return this;
+        },
+    };
+    return o41;
+}
+f34(536870889);
+const t51 = "number";
+t51();
+function F44(a46, a47, a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a47;
+    } catch(e50) {
+    }
+    new Uint32Array(381);
+    new Uint8ClampedArray(4);
+}
+new F44(0.6901422601261148, 1000000.0, "1073741824", F3);
+new F44(1000000.0, 0.6901422601261148, "number", v22);
+new F44(0.6901422601261148, -2.220446049250313e-16, "number", v21);
+new F3(v21, "3");
+function f70(a71, a72, a73, a74) {
+    return a73;
+}
+for (let v76 = 0; v76 < 5; v76++) {
+    const v77 = f70(v76, 0.6901422601261148);
+    v77[1] = v77;
+}

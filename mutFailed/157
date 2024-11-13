@@ -1,0 +1,38 @@
+Int8Array[2] = 2718;
+const v2 = new Int8Array(2718);
+function f5(a6, a7) {
+    function F8() {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = -65536;
+        } catch(e11) {
+        }
+        try {
+            this.b = -65536;
+        } catch(e12) {
+        }
+        try {
+            this.e = -65536;
+        } catch(e13) {
+        }
+    }
+    new F8();
+    return F8;
+}
+Float32Array[Symbol.toPrimitive] = f5;
+const v17 = new Float32Array(216);
+try { Float32Array.from(Int8Array); } catch (e) {}
+const v21 = new Float32Array(2611);
+const v22 = [Float32Array,Float32Array,216];
+-4294967296 - -4294967296;
+const v25 = [2718];
+try { v25.lastIndexOf(Float32Array); } catch (e) {}
+const v29 = new Uint16Array(1024);
+v29.toString = Symbol;
+v29[7] = v29;
+[v2,v22,v2,v17,v22];
+[216,Float32Array,Int8Array,v21];
+127 ^ 127;
+const v35 = new Float64Array(127);
+try { v35.join(v22); } catch (e) {}
+new Uint8ClampedArray(2718);

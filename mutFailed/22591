@@ -1,0 +1,24 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 1000;
+    try {
+        this.c = a5;
+    } catch(e6) {
+    }
+}
+new F3(1000);
+new F3(1668012732);
+new F3(1668012732);
+new Date();
+[4,9,553295762,-49607];
+[6,-2,2147483647,7,-2147483649,1073741824,268435456,-42057,-128];
+[-2147483648];
+class C16 {
+    constructor(a18, a19, a20) {
+    }
+}
+function f21() {
+    return Date;
+}
+Object.defineProperty(C16, Symbol.iterator, { writable: true, enumerable: true, get: f21 });
+new Uint32Array(C16);

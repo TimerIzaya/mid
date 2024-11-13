@@ -1,0 +1,32 @@
+function f0() {
+}
+function f1() {
+    const o7 = {
+        ...f1,
+        set g(a3) {
+            super[this] = a3;
+        },
+        [f0]: f0,
+        "c": f0,
+        "e": f0,
+        "d": f0,
+    };
+    return o7;
+}
+f1();
+f0();
+f1();
+const v16 = new BigUint64Array(2018);
+try { v16.some(-1000000000.0); } catch (e) {}
+let v20;
+try { v20 = new BigUint64Array(BigUint64Array, f1, v16); } catch (e) {}
+const v21 = new BigUint64Array(788);
+try { v21.at(BigUint64Array); } catch (e) {}
+1000 != 1000;
+new Uint16Array(1000);
+const v27 = /foo(?<=bar)baz/s;
+const v28 = /ZMq/vy;
+const v30 = Symbol?.constructor;
+try { new v30(Symbol); } catch (e) {}
+Object.defineProperty(v28, f1.species, { value: f1 });
+v20[Symbol.species] = v27;

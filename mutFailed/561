@@ -1,0 +1,59 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = F0;
+    try {
+        this.c = 2098472742;
+    } catch(e3) {
+    }
+    try {
+        this.g = 2098472742;
+    } catch(e4) {
+    }
+    try {
+        this.a = 2098472742;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function F9(a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v8.a = a11;
+    } catch(e12) {
+    }
+}
+new F9(v6);
+const v14 = new F9(v7);
+const v15 = new F9(v8);
+const v16 = [-1.7913299148097418e+308,-960.8033725462706,-307.34058242237586,-962.4370456264912,892203.6664155396,-1e-15,2.220446049250313e-16,0.2688939418563332];
+const v17 = [469267.7470789151,2.0,-1000000.0,-4.0,-2.2250738585072014e-308,-2.2250738585072014e-308];
+const v18 = [5.0,-2.2250738585072014e-308,1e-15,1.0,-1.5076890765709237e+308,-5.0,959428.1493171426,521946.8876108546];
+function f19(a20, a21, a22) {
+    a21[Symbol.toPrimitive] = f19;
+    const o28 = {
+        set b(a26) {
+            a22?.[v8];
+        },
+        [f19]: v15,
+        [a21]: v8,
+        0: F9,
+        "c": v6,
+        "d": a22,
+        [v6]: v7,
+        __proto__: a21,
+        "f": a21,
+        "g": v6,
+        "h": v15,
+        "e": v6,
+        "a": v16,
+    };
+    return o28;
+}
+const v29 = f19(v7, v17, v14);
+f19(f19(v8, v18, v18), v18, v29);
+const o38 = {
+    set e(a36) {
+    },
+};

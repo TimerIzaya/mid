@@ -1,0 +1,51 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 257;
+    } catch(e3) {
+    }
+    try {
+        this.e = 257;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+class C8 {
+    static #f = v5;
+    #h;
+    constructor(a10) {
+        this[14] = this;
+        a10.caller = a10;
+        /(?!\1(a\1)\1)\1?/gdi.flags;
+        /9a(?!b)/guy;
+        /[^a\sfoo(?<!bar)baz1(?: foo )]/guimy;
+    }
+    14;
+    b;
+    [v5];
+}
+const v15 = new C8(F0);
+new C8(F0);
+const v17 = new C8(v6);
+const v18 = v17?.__defineGetter__;
+try { new v18(C8, v15); } catch (e) {}
+-1 + -1;
+~-2147483649;
+try { ("e").strike(); } catch (e) {}
+const t36 = "atan2";
+t36[2] = "atan2";
+for (let [v39,...v40] of "atan2") {
+    try { v39.substring("e", "e"); } catch (e) {}
+    const v42 = v40?.constructor;
+    try { new v42(1); } catch (e) {}
+}
+-13n;
+const o50 = {
+    set e(a48) {
+    },
+    get e() {
+        return this;
+    },
+};

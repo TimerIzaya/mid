@@ -1,0 +1,36 @@
+const v2 = new Float64Array(1024);
+v2.byteLength >>= 1024;
+const v4 = [v2,1024];
+const v6 = Reflect.apply(v2.set, v2, v4);
+const v9 = ~(72 - 72);
+const v11 = new Uint8ClampedArray(72);
+const v13 = 178 + 178;
+function f14(a15, a16) {
+    const o17 = {
+        [v2]: v13,
+        "h": 72,
+    };
+    return o17;
+}
+f14(72, f14);
+const v19 = f14(f14, v6);
+f14(v9, 178);
+const v21 = 178 - 178;
+v21 - v21;
+try {
+    v11.__proto__ = v19;
+} catch(e23) {
+}
+[];
+const v26 = new Int32Array(72);
+v26.byteLength;
+const v28 = [v2,v26];
+const v29 = [v28,178];
+let v30;
+try { v30 = v29.includes(Uint8ClampedArray); } catch (e) {}
+v30 || v30;
+[v29,v28,1024,Uint8ClampedArray,1024];
+[1000,1000,1000,178,1000];
+for (let i = 0; i < 5; i++) {
+    Object.defineProperty(v28, 130, { value: 1000 });
+}

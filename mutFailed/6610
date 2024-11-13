@@ -1,0 +1,36 @@
+function f2() {
+    return 166;
+}
+Object.defineProperty(Uint32Array, 1, { writable: true, configurable: true, enumerable: true, get: f2 });
+new Uint32Array(Uint32Array);
+try { new Int8Array(Uint32Array, Uint32Array, 166); } catch (e) {}
+const v7 = new Int8Array(64);
+const v10 = new Uint16Array(2);
+v10[1];
+const v13 = Date?.apply;
+try { new v13(Int8Array, 64); } catch (e) {}
+new Date();
+let v17 = 301589919n;
+v17--;
+function f20() {
+    return f20;
+}
+-1024;
+2147483648 >> 2147483648;
+function f26(a27, a28) {
+    a27.constructor = f2;
+    const v29 = a27?.constructor;
+    try { new v29(2, a28, 2); } catch (e) {}
+    const o31 = {
+        "g": a27,
+        "h": 2,
+    };
+    return a28;
+}
+f26(v7);
+class C33 {
+    get e() {
+        ~-7673;
+    }
+}
+try { new C33(); } catch (e) {}

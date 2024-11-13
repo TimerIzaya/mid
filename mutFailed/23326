@@ -1,0 +1,15 @@
+try { ("flags").toLocaleLowerCase(); } catch (e) {}
+const t1 = "flags";
+t1.b = "MAX_SAFE_INTEGER";
+const t3 = 12n;
+new t3();
+const v15 = ("async")[2];
+const o16 = {
+    "execution": "async",
+};
+const v17 = o16(o16);
+const v18 = v17?.then;
+try { new v18(12n, v15); } catch (e) {}
+const v20 = v17.finally();
+v17.then();
+try { ("flags").catch(v20); } catch (e) {}

@@ -1,0 +1,37 @@
+const t0 = 127;
+const v2 = new t0(127);
+const v5 = new Float64Array(21);
+try { new Int8Array(v2, v2, Float32Array, Float32Array, Int8Array, Float32Array); } catch (e) {}
+const v9 = new Int8Array(0);
+function f10() {
+    return 0;
+}
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v16 = this?.__lookupGetter__;
+    try { new v16(a15); } catch (e) {}
+    a13++;
+    try {
+        this.c = Float64Array;
+    } catch(e19) {
+    }
+    try {
+        this.g = a15;
+    } catch(e20) {
+    }
+    try {
+        this.c = 21;
+    } catch(e21) {
+    }
+}
+Object.defineProperty(F11, "g", { configurable: true, enumerable: true, value: Int8Array });
+F11.g = F11;
+new F11(21, 127, f10);
+const v23 = new F11(0, 0, v5);
+try { v23.isPrototypeOf(v23); } catch (e) {}
+const v25 = new F11(127, 21, f10);
+const v26 = v25?.c;
+try { new v26(0, v2, v2); } catch (e) {}
+[[v25,21,Float32Array,v25,Float64Array],Float64Array,v23];
+[Int8Array,f10,f10,F11,v9];
+Math.asin();

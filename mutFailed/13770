@@ -1,0 +1,14 @@
+new EvalError(4096);
+new Infinity(4);
+new Int8Array(9);
+new Int8Array(4022);
+const v14 = new Date();
+v14.setMilliseconds(0.020544302083301824);
+class C16 {
+    #toString(a18, a19, a20) {
+    }
+}
+new C16();
+for (let v23 = 0; v23 < 10; v23++) {
+    Reflect.construct(C16, [Reflect,Reflect,Reflect,Reflect], WeakSet);
+}

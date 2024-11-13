@@ -1,0 +1,39 @@
+new Uint16Array(0);
+function f5() {
+    function f6(a7, a8) {
+        Math.atanh(2705);
+        return Math;
+    }
+    return f6;
+}
+function f11(a12) {
+    a12 -= a12;
+}
+Object.defineProperty(Int8Array, Symbol.toPrimitive, { writable: true, get: f5, set: f11 });
+function f15(a16, a17) {
+    return ~-754089042n;
+}
+Int8Array[Symbol.toPrimitive] = f15;
+new Int8Array(2705);
+new Int16Array(26);
+class C26 {
+    static p(a28, a29, a30, a31) {
+        try {
+            new Int8Array(a28, 2705, a29);
+        } catch(e33) {
+        }
+        return a29;
+    }
+    g;
+    256 = Uint16Array;
+    [Int8Array];
+}
+new C26();
+new C26();
+new C26();
+const v39 = new Int8Array(520);
+const v41 = new Uint8ClampedArray();
+const v42 = v41.toReversed();
+v42.valueOf = f15;
+const v44 = [v42,v42];
+Reflect.apply(v39.includes, v39, v44);

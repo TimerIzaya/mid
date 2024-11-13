@@ -1,0 +1,48 @@
+function f3() {
+    return -4096n;
+}
+class C5 extends f3 {
+    static #g;
+}
+for (const v6 of undefined) {
+    C5[f3];
+}
+const o10 = {
+    "maxByteLength": 512,
+};
+const v12 = new ArrayBuffer(512, o10);
+new Uint16Array(v12);
+new C5();
+const v16 = new C5();
+new C5();
+const v20 = new Uint16Array(231);
+let v22;
+try { v22 = v20.findLast(f3, v20); } catch (e) {}
+~v22;
+v22 != f3;
+try { v22(231, Int8Array, -1n); } catch (e) {}
+try { v16["setUTCFullYear"](); } catch (e) {}
+new Int8Array(v20);
+/U\p{Changes_When_NFKC_Casefolded}/gudis;
+/va+?T/gudimy;
+/5/gumy;
+class C36 {
+}
+const v37 = new C36();
+const v38 = new C36();
+function f39(a40, a41) {
+    const o50 = {
+        [-943.3768400471749]: v38,
+        [a41](a43, a44, a45) {
+        },
+        p(a47, a48) {
+            this.toString(a48, this, v37, a41);
+            return a40;
+        },
+    };
+}
+%PrepareFunctionForOptimization(f39);
+f39();
+f39();
+%OptimizeFunctionOnNextCall(f39);
+f39();

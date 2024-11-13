@@ -1,0 +1,62 @@
+128 < 64;
+function f7(a8, a9, a10, a11) {
+    Object.defineProperty(arguments, 4, { writable: true, enumerable: true, value: -9524 });
+    arguments[4] = arguments;
+    return f7;
+}
+new Int32Array(f7);
+new Uint8Array(3);
+const v22 = new Float32Array();
+function f23(a24, a25, a26, a27) {
+    a24[1];
+    a24--;
+    const t10 = 228;
+    t10[0] = a24;
+    const o32 = {
+        1073741825: "MIN_VALUE",
+    };
+    const o33 = {
+        __proto__: o32,
+    };
+    const v34 = arguments.__lookupGetter__;
+    try { v34.constructor(v22, a26, 228); } catch (e) {}
+    return v34;
+}
+f23(v22);
+function f37(a38, a39, a40) {
+    let v41 = [1073741824,1073741823,1376142744,1073741825];
+    function f42(a43, a44, a45, a46) {
+        function f47() {
+            return a46;
+        }
+        class C48 extends f47 {
+        }
+        for (let v49 = 0; v49 < 5; v49++) {
+            try {
+                v41 &= C48;
+            } catch(e50) {
+            }
+        }
+        return Float32Array;
+    }
+    for (let v51 = 0; v51 < 5; v51++) {
+        f42(f37, v41, v51, v41);
+    }
+    %OptimizeFunctionOnNextCall(f42);
+    return a39;
+}
+f37(Float32Array, 3, v22);
+new BigUint64Array(f23);
+let v56 = 144;
+const v57 = v56++;
+class C58 {
+    constructor(a60, a61) {
+        this.propertyIsEnumerable(C58);
+    }
+}
+function f63(a64) {
+    return v57;
+}
+Symbol.toPrimitive;
+C58[f63] = f63;
+new C58();

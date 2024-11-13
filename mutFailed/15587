@@ -1,0 +1,56 @@
+class C3 {
+    constructor(a5) {
+        try {
+            super.setFloat32(a5, a5, -14, 1073741824);
+        } catch(e7) {
+        }
+        try {
+            super.toDateString(this);
+        } catch(e9) {
+        }
+    }
+    7;
+    #d;
+    #e = 1073741824;
+    b;
+    static #h = -14;
+}
+const v10 = new C3(-14);
+const v11 = new C3(1073741824);
+const v12 = new C3(1073741824);
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    const t22 = 127;
+    t22.h = 1073741824;
+    try {
+        this.h = a17;
+    } catch(e19) {
+    }
+    try {
+        this.f = a15;
+    } catch(e20) {
+    }
+}
+const v21 = new F13(v12, -14, 127, v10);
+const v22 = new F13(v10, v10, 127, v10);
+const v23 = new F13(v11, v22, v12, v10);
+new Float32Array(255);
+new Uint8ClampedArray(127);
+new Float32Array(123);
+new Uint16Array();
+function F35() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v39 = Array(19793);
+    Object.defineProperty(v39, 19497, { writable: true, enumerable: true, value: v10 });
+    v23[17482] = v21;
+    for (const v40 of v39) {
+    }
+    [];
+    function F42() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v44 = 0; v44 < 25; v44++) {
+        }
+    }
+    new v39();
+}
+new F35();

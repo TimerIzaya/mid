@@ -1,0 +1,136 @@
+class C3 {
+    e = -57539;
+    constructor(a5) {
+        a5++;
+        const o7 = {
+        };
+        o7.d = -57539;
+        try {
+            o7.d = a5;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.d = a5;
+            o9.g = -57539;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.g = o11;
+            o11.d = a5;
+            o11.g = -57539;
+            o11.e = this;
+        } catch(e12) {
+        }
+        try {
+            function f13(a14, a15) {
+                const o18 = {
+                    toString(a17) {
+                        return a14;
+                    },
+                };
+                return o18;
+            }
+            const v19 = f13();
+            const v20 = f13(v19, v19);
+            Symbol.replace = Symbol;
+            v19[Symbol.toStringTag] = v20;
+            const o23 = {
+            };
+            o23.g = o23;
+            o23.d = a5;
+            o23.g = -57539;
+            o23.f = a5;
+        } catch(e24) {
+        }
+    }
+}
+const v25 = new C3(-57539);
+v25.e = v25;
+const v26 = new C3("b");
+const v27 = new C3("b");
+v27.e = v27;
+const t55 = "b";
+t55[10] = -57539;
+try { v25("b", -57539, undefined, v26); } catch (e) {}
+try {
+    v27.__proto__ = "bigint";
+} catch(e30) {
+}
+function F35(a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    a38.g = this;
+    function f40(a41, a42) {
+        v25[9];
+        return "bigint";
+    }
+    a39.toString = f40;
+    a38.g = a38;
+    a39--;
+    try {
+        this.f = a37;
+    } catch(e48) {
+    }
+    try {
+        this.a = v26;
+    } catch(e49) {
+    }
+}
+function f50() {
+    function f51(a52) {
+        class C53 {
+            static {
+                for (let i57 = 0, i58 = 10;
+                    i57 < i58;
+                    (() => {
+                        function f62() {
+                            return f62;
+                        }
+                        const v63 = [601759695];
+                        const v64 = [1073741824,1073741823,1376142744,1073741825];
+                        function f66(a67, a68, a69, a70) {
+                            function f72() {
+                                return a67;
+                            }
+                            f62();
+                            const v75 = new Int8Array();
+                            function f76(a77, a78) {
+                                return i58;
+                            }
+                            f76(f76(v64, C53));
+                            v75.buffer.slice(2147483648);
+                            %OptimizeFunctionOnNextCall(f72);
+                            let v85;
+                            try { v85 = v64["find"](..."find", a70, ...v63, ...v64, ...522675525n); } catch (e) {}
+                            v85 <= a69;
+                            return arguments;
+                        }
+                        for (let v87 = 0; v87 < 10; v87++) {
+                            f66();
+                        }
+                        i57++;
+                    })()) {
+                }
+            }
+        }
+        return C53;
+    }
+    return f51;
+}
+function f92(a93) {
+    [-7.255192756037818,378106.8284061928];
+    [1.0,-2.2250738585072014e-308,8.764488999231158e+307,NaN,6.8565736949236324,-3.0,-7.869590474775808e+307,8.552785755860594,8.912186049697964e+307];
+    [0.8445413079494877,-1.0,2.2250738585072014e-308,5.0,0.29329871666470886];
+}
+Object.defineProperty(F35, "toString", { get: f50, set: f92 });
+new F35(-57539, v26, 2147483647n);
+new F35(false, v25, 65535n);
+new F35(undefined, v25, F35);
+for (let v100 = 0; v100 < 100; v100++) {
+    Array.name;
+    const v104 = Array(36862);
+    try { v104.groupToMap("bigint"); } catch (e) {}
+}

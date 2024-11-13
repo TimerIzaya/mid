@@ -1,0 +1,53 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+const v2 = [4294967295];
+const v3 = [-4294967296,15,53546,268435441,-536870912,11,-33563,-1783914519];
+const v4 = [2147483648,-15,2026689960,-11458,-1555300161];
+function f5(a6) {
+    const o18 = {
+        "a": v3,
+        [v4](a8, a9) {
+            const o10 = {
+            };
+            try {
+                o10.g = this;
+            } catch(e11) {
+            }
+            try {
+                const o12 = {
+                };
+                o12.g = this;
+                o12.f = a6;
+            } catch(e13) {
+            }
+            try {
+                const o14 = {
+                };
+                o14.g = this;
+                o14.f = a6;
+                o14.c = a6;
+            } catch(e15) {
+            }
+            try {
+                const o16 = {
+                };
+                o16.g = this;
+                o16.f = a6;
+                o16.c = f1;
+            } catch(e17) {
+            }
+            return v3;
+        },
+    };
+    o18.a = o18;
+    return o18;
+}
+try { f5(v3); } catch (e) {}
+const v20 = f5(f1);
+v20.__proto__ = v20;
+f5(v2);
+f5(f1);
+1 >>> 1;
+-9513n != 1;

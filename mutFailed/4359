@@ -1,0 +1,43 @@
+function f0() {
+    const o12 = {
+        ..."Yk3j",
+        "a": "Yk3j",
+        ..."1000",
+        __proto__: "Xk4",
+        ..."Yk3j",
+        ..."Xk4",
+        "g": "Yk3j",
+        "d": "Xk4",
+        "h": "Xk4",
+        "c": "Yk3j",
+        get f() {
+            try { ("Xk4").indexOf(this, this); } catch (e) {}
+            function f6(a7) {
+                const o8 = {
+                    "f": a7,
+                    __proto__: this,
+                };
+                return o8;
+            }
+            f6("1000");
+            f6("Xk4");
+            f6("Yk3j");
+            return "Xk4";
+        },
+    };
+    return o12;
+}
+f0();
+f0();
+f0();
+new BigInt64Array(3625);
+new Uint8Array(1586);
+new Uint32Array(1234);
+new Uint8ClampedArray(512);
+new Uint8ClampedArray(1105);
+new Int32Array(15);
+const v40 = [-2.14860426829137,-9.58586124400876,2.0,2.2250738585072014e-308,0.0,-3.0,Infinity,-317.1953498647964,2.0];
+v40.toString = f0;
+class C41 extends Int16Array {
+    [v40];
+}

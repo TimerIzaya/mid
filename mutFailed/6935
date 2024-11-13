@@ -1,0 +1,49 @@
+new Float32Array(4);
+new Uint8ClampedArray(82);
+const v8 = new Uint8Array(0);
+new Int8Array(17);
+new Float32Array(639);
+function f17(a18) {
+    -a18;
+    const v20 = /(foo(?!bar)baz)/gis;
+    typeof v20;
+    return v20;
+}
+BigInt64Array[Symbol.toPrimitive] = f17;
+const v24 = new v8(255);
+const v26 = new Set();
+BigInt64Array.toString = Symbol;
+class C32 {
+    g = v26;
+}
+const v33 = new C32();
+const v34 = new C32();
+const v35 = v33?.__defineSetter__;
+try { new v35(v34, v34); } catch (e) {}
+new C32();
+new v24(66);
+new Uint32Array(8);
+new Uint16Array(512);
+class C45 {
+}
+try { new C45(); } catch (e) {}
+const v48 = WeakMap?.constructor;
+try { new v48(BigInt64Array); } catch (e) {}
+const v51 = [2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614];
+try { v51.find(512); } catch (e) {}
+C32.a = Set;
+const v54 = new Set(v51);
+try { v54.add(v54); } catch (e) {}
+function F56(a58, a59) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+    } catch(e60) {
+    }
+    try {
+        Math.clz32();
+    } catch(e62) {
+    }
+}
+F56.caller = F56;
+new F56();
+new F56();

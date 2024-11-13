@@ -1,0 +1,35 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 45367;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+const v6 = new F0();
+new Array(1);
+new Int16Array(10);
+new Float32Array(2358);
+new Int8Array(256);
+class C22 {
+    toString(a24, a25) {
+        super.g = "-9223372036854775808";
+    }
+    n(a27) {
+    }
+}
+const v28 = new v6();
+function f29(a30, a31, a32) {
+}
+const v33 = /(?: foo )/vdm;
+const v34 = /zP/gud;
+v28 > "-9223372036854775808";
+Object.defineProperty(v28, 129, { configurable: true, set: f29 });
+v33.__proto__ = v34;
+Object.defineProperty(v34, "source", { configurable: true, enumerable: true, get: f29, set: f29 });
+const o39 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o39);

@@ -1,0 +1,56 @@
+const v0 = [];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f8() {
+        return v0;
+    }
+    function f9(a10) {
+        class C11 {
+            #m(a13, a14, a15) {
+                for (const v16 in this) {
+                    (delete this?.h).__proto__;
+                }
+            }
+        }
+        class C19 extends C11 {
+            static set e(a21) {
+                this > a21;
+            }
+        }
+    }
+    Object.defineProperty(this, "b", { writable: true, configurable: true, get: f8, set: f9 });
+    try {
+        this.f = a7;
+    } catch(e23) {
+    }
+    try {
+        this.b = a7;
+    } catch(e24) {
+    }
+}
+const v25 = new F4(-12, 64);
+v25.b;
+new F4(-12, 64);
+const v28 = new F4(-12, -12);
+try { ("2147483649").codePointAt(6); } catch (e) {}
+try { ("2").fixed(); } catch (e) {}
+[-1000000000.0,-830.4138586868286,-1000.0,-1000000000000.0,6.686049601912892,1000000000000.0,8.302775526990161e+307,2.220446049250313e-16,0.9604977161967039,4.5491648961107245];
+[1000000.0,2.2250738585072014e-308];
+[1000000.0,-1000000.0,-2.2250738585072014e-308,-1.0018927656199437e+308,2.220446049250313e-16,NaN,5.220469122754746,-0.0,1.1026723470519928e+308];
+function f37(a38, a39) {
+    const v40 = a38?.apply;
+    try { new v40(a39, a38); } catch (e) {}
+    a39.name;
+    a39.constructor(a39);
+    return f37;
+}
+const v45 = new Promise(f37);
+function f46() {
+    try {
+        v25.b = "LdJC";
+    } catch(e47) {
+    }
+    return v28;
+}
+v45.constructor = f46;
+try { v45.catch(Promise); } catch (e) {}

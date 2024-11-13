@@ -1,0 +1,53 @@
+new Uint32Array(Uint32Array);
+const v5 = new BigInt64Array(2);
+const v8 = new Int32Array(129);
+class C9 extends Uint32Array {
+    constructor(a11, a12) {
+        super(v5, 4, a11);
+        const o13 = {
+        };
+        try {
+            o13.f = o13;
+        } catch(e14) {
+        }
+        try {
+            const o15 = {
+            };
+            o15.f = o15;
+            o15.a = a11;
+        } catch(e16) {
+        }
+        try {
+            const o17 = {
+            };
+            o17.f = v8;
+            o17.a = a11;
+            o17.c = this;
+        } catch(e18) {
+        }
+        try {
+            const o19 = {
+            };
+            o19.f = v8;
+            o19.a = a11;
+            o19.g = a12;
+        } catch(e20) {
+        }
+    }
+}
+new C9(129, 4);
+new C9(129, 129);
+new C9(2, 2);
+for (let v24 = 0; v24 < 250; v24++) {
+    function f25() {
+        return f25;
+    }
+    class C26 extends f25 {
+        constructor(a28) {
+            super();
+            for (let v29 = 0; v29 < 5; v29++) {
+            }
+        }
+    }
+    new C26();
+}

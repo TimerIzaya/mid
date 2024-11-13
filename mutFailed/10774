@@ -1,0 +1,82 @@
+class C3 {
+    constructor(a5, a6) {
+        function f7() {
+            const v9 = new BigInt64Array();
+            for (let v10 = 0; v10 < 5; v10++) {
+                v9["p" + v10] = v10;
+            }
+            return BigInt64Array;
+        }
+        a6[Symbol.toPrimitive] = f7;
+        const o15 = {
+            ..."setUTCMilliseconds",
+            [a6]: this,
+        };
+        ++a6;
+    }
+    [738.8750059014151] = 738.8750059014151;
+    static ["setUTCMilliseconds"] = 738.8750059014151;
+    static [-1];
+}
+function f17(a18, a19) {
+    function f20(a21, a22) {
+        const v25 = Array(a21);
+        Object.defineProperty(v25, 0, { configurable: true, enumerable: true, get: a21, set: a22 });
+        return v25.unshift(3);
+    }
+    return f20;
+}
+C3.toString = f17;
+const v27 = new C3("setUTCMilliseconds", C3);
+function f28(a29) {
+    const v30 = v27[C3];
+    try {
+        v30.h = v30;
+    } catch(e31) {
+    }
+    return 738.8750059014151;
+}
+Object.defineProperty(v27, Symbol.toPrimitive, { value: f28 });
+const v34 = new C3("setUTCMilliseconds", v27);
+new C3(64, C3);
+function F36(a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a38;
+    } catch(e41) {
+    }
+    try {
+        this.h = a38;
+    } catch(e42) {
+    }
+    try {
+        this.f = a40;
+    } catch(e43) {
+    }
+}
+new F36(v27, v27, 64);
+const v45 = new F36("setUTCMilliseconds", v34, 64);
+new F36(v27, v45, C3);
+function f47() {
+}
+class C48 extends f47 {
+}
+const v49 = new C48();
+class C50 extends C48 {
+    #b = v49;
+    constructor(a52, a53) {
+        super();
+        let v54 = 0;
+        for (let i = 0; i < 5; i++) {
+            v54 < 7;
+            try {
+                v49.#b;
+            } catch(e58) {
+            }
+            v54++;
+        }
+    }
+}
+const v60 = new C50();
+new C50(v60, C48);
+new C50();

@@ -1,0 +1,26 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [v1,v1,f0];
+const v3 = [v2,v2,f0,f0];
+class C7 {
+    static #a = 56543;
+    constructor(a9, a10) {
+        ([-4294967297n]).toLocaleString();
+        Object.defineProperty(v3, -3n, { writable: true, configurable: true, get: f0, set: f0 });
+        f0();
+    }
+    static [56543];
+    [f0] = v3;
+    static #e;
+}
+new C7(v2, v3);
+new C7(v1, v2);
+new C7(v2, v1);
+const v21 = [1.7976931348623157e+308,0.14033774481022865,0.764442389288067,-2.220446049250313e-16,710.5353911028728,1000000.0];
+class C22 {
+}
+const v23 = new C22();
+for (let v24 = 0; v24 < 25; v24++) {
+    v21[4294967295] = v23;
+}

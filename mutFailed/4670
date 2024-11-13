@@ -1,0 +1,75 @@
+const v1 = new WeakSet();
+const v2 = /o(x)(x)(x)\4+/gis;
+function f3() {
+    v1[WeakSet] = v1;
+    let v4;
+    try { v4 = new WeakSet(v1, v2, WeakSet, v2, ...WeakSet, WeakSet); } catch (e) {}
+    return v4;
+}
+v2[Symbol.toPrimitive] = f3;
+const v7 = /[\cA]Oha?/guisy;
+const v8 = /\xf0\x9f\x92\xa9/guy;
+!v8.dotAll;
+function f11(a12) {
+    const o25 = {
+        [a12]: WeakSet,
+        get e() {
+            a12 != v8;
+            try {
+                this.d = this;
+            } catch(e15) {
+            }
+            function F16(a18, a19) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = a19;
+                } catch(e20) {
+                }
+                try {
+                    this.g = this;
+                } catch(e21) {
+                }
+            }
+            new F16(v2, v8);
+            new F16(v8, v8);
+            new F16(a12, v2);
+            return v8;
+        },
+    };
+    o25.d = f3;
+    return o25;
+}
+f11.caller = f11;
+const v26 = f11(v7);
+function f27() {
+    return v1;
+}
+function f28(a29) {
+    try {
+        v7.compile("boolean");
+    } catch(e32) {
+    }
+}
+Object.defineProperty(v26, "d", { writable: true, configurable: true, enumerable: true, get: f27, set: f28 });
+v26.d = v26;
+f11(v2);
+const v34 = f11(v7);
+v34.d = v7;
+v34.d = v34;
+const t58 = "toISOString";
+t58[8] = "toISOString";
+let v36;
+try { v36 = ("toISOString").italics(); } catch (e) {}
+try { v36.italics(); } catch (e) {}
+("h")[0];
+-13 == -13;
+const v45 = /((((.).).).)rfoo|(bar|baz)|quux*/uims;
+const v46 = /[(?:a*)*]/u;
+switch (v45) {
+    default:
+        let v47;
+        try { v47 = v45(); } catch (e) {}
+        try { v47(); } catch (e) {}
+        break;
+    case v46:
+}

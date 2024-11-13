@@ -1,0 +1,25 @@
+new BigUint64Array(690);
+new Int16Array(1751);
+new Float64Array(1727);
+new Uint32Array(9);
+new BigUint64Array(3);
+new BigUint64Array(8);
+class C19 {
+}
+const v20 = new C19();
+function f21(a22, a23) {
+    a23.toString = f21;
+    const o26 = {
+        "h": v20,
+        [a23]: v20,
+        set h(a25) {
+        },
+    };
+    return f21;
+}
+f21[Symbol.toPrimitive] = f21;
+%PrepareFunctionForOptimization(f21);
+const v29 = f21();
+v29.toString = v29;
+%OptimizeFunctionOnNextCall(f21);
+f21(C19, v29);

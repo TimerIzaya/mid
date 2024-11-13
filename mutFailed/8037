@@ -1,0 +1,80 @@
+gc.constructor;
+class C7 {
+    constructor(a9, a10) {
+        Object.defineProperty(this, "constructor", { writable: true, configurable: true, enumerable: true, value: Date });
+        const v11 = this.constructor;
+        try { new v11(-15n); } catch (e) {}
+    }
+}
+class C17 {
+    static get g() {
+        super.subarray();
+    }
+    [C7];
+    static c = 16;
+    constructor(a21, a22) {
+        const o26 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o26);
+    }
+    [10];
+    #e;
+}
+new C17(undefined, 31179);
+const v29 = new C17(16, 9007199254740990);
+new C17(undefined, 31179);
+const v32 = [[1073741823,1073741823,v29]];
+[v32,v32,v32,v32];
+const v35 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v36 = 0; v36 < 25; v36++) {
+    v35["p" + v36] = v36;
+}
+const v40 = [601759695];
+const v41 = [1073741824,1073741823,1376142744,1073741825];
+function f42(a43, a44, a45, a46) {
+    function f47() {
+        let v50 = Float64Array;
+        v50 = a44;
+        v35.length;
+        try {
+            v41.forEach();
+        } catch(e53) {
+        }
+        let v54 = Symbol;
+        const v55 = v54.toPrimitive;
+        const o60 = {
+            toString(a57, a58) {
+                return a46 && v50;
+            },
+        };
+        const o61 = {
+        };
+        new Proxy(Uint8ClampedArray, o61);
+        o60[9] = a43;
+        const o75 = {
+            [o60](a65, a66, a67, a68) {
+            },
+            ...v40,
+            p(a70, a71, a72, a73) {
+                const v74 = f42(v55, Proxy, v35, -4294967295);
+                v54 += v29;
+                return v74;
+            },
+            "type": "Vre",
+            ..."Vre",
+            4: "Vre",
+            5: -4294967295,
+        };
+        return f42;
+    }
+    f47();
+    %OptimizeFunctionOnNextCall(f47);
+    return -4294967297n;
+}
+for (let v77 = 0; v77 < 10; v77++) {
+    f42();
+}
+%OptimizeFunctionOnNextCall(f42);
+f42(v40, v40, v35, v35);

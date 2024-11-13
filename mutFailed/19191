@@ -1,0 +1,123 @@
+function f1(a2, a3) {
+    function F4() {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.g = 3;
+        } catch(e7) {
+        }
+    }
+    class C8 extends F4 {
+        g = F4;
+        8 = a3;
+        h = C8;
+        static [Set] = Set;
+        #b;
+        static set d(a10) {
+        }
+    }
+    return a3;
+}
+Set.toString = f1;
+const v11 = new Set();
+function f12(a13) {
+    a13.toString = f1;
+    const o19 = {
+        ...v11,
+        "b": v11,
+        m(a15, a16) {
+            try { a15["findLastIndex"](v11, a13, a16, v11); } catch (e) {}
+            return Set;
+        },
+        ...a13,
+        "c": a13,
+        "b": Set,
+        "h": v11,
+        [a13]: Set,
+        "g": a13,
+        ...a13,
+    };
+    return o19;
+}
+f12.e = f1;
+const v20 = f12(v11, v11);
+const v21 = f12(v20);
+const v22 = f12(Set);
+function f23(a24, a25, a26, a27) {
+    const o39 = {
+        valueOf(a29, a30, a31, a32) {
+            new Array(-2147483649);
+            [-9007199254740990,-791447385,4294967297];
+            [-11,-65535,-256,536870887,20704,12,-4294967296,14,13];
+            return [-1726013787,-557179486,1000,10000,13,9007199254740990];
+        },
+        "h": v22,
+        [v11]: v21,
+        [f12]: v22,
+        "g": a25,
+        [Set]: a27,
+    };
+    return o39;
+}
+const v40 = f23(v20, v22, v20, f23);
+const v41 = f23(v21, v22, v21, v40);
+const v42 = f23(v21, v21, v22, v20);
+const v43 = [v42,v40,v20,v42,v42];
+const v44 = f12(f23);
+%PrepareFunctionForOptimization(f12);
+f12(f23);
+f12(f23);
+%OptimizeFunctionOnNextCall(f12);
+f12(f23);
+const v48 = [f23,v40,v41,v43];
+const v49 = [v42];
+function F50(a52, a53, a54, a55) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a52;
+    } catch(e56) {
+        const o58 = {
+        };
+        try {
+            o58.d = a55;
+        } catch(e59) {
+        }
+        try {
+            const o60 = {
+            };
+            o60.d = a55;
+            o60.f = g;
+        } catch(e61) {
+        }
+        try {
+            const o62 = {
+            };
+            o62.d = a55;
+            o62.f = g;
+            o62.g = g;
+        } catch(e63) {
+        }
+        try {
+            const o64 = {
+            };
+            o64.d = a55;
+            o64.f = g;
+            o64.a = v44;
+        } catch(e65) {
+        }
+    }
+    try {
+        this.h = Set;
+    } catch(e66) {
+    }
+}
+new F50(v22, v41, v43, v49);
+new F50(v21, v41, v48, v48);
+new F50(v22, v42, v49, v49);
+for (let v70 = 0; v70 < 5; v70++) {
+    function f71() {
+        ~([-2.220446049250313e-16]).shift();
+        return v70;
+    }
+    f71();
+    %OptimizeFunctionOnNextCall(f71);
+}

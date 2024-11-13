@@ -1,0 +1,63 @@
+let v0 = "c";
+class C3 {
+    #valueOf(a5) {
+        ++v0;
+        Math.min(0.30118519929909837);
+        ++v0;
+        return 7;
+    }
+    static e;
+    static #e = "o";
+    static h;
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+class C16 extends C3 {
+    d = "object";
+    static m(a18, a19, a20) {
+        a = a19;
+        const v23 = typeof a18 === "function";
+        v0 <<= C3;
+        return v23;
+    }
+    #g;
+    static #b;
+    c = "o";
+    static ["o"] = v14;
+}
+const v24 = new C16();
+new C16();
+new C16();
+const v27 = [v0,v15];
+[v13,v24,v0,v27,[v27,v15,"object",C16,v14]];
+const v30 = [0.0,1000000000.0,168.7956281727238,-575464.6142395872,-1000000000.0,938.6271876998214];
+function f31(a32) {
+    function F35(a37, a38) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v39 = this.constructor;
+        try { new v39("a"); } catch (e) {}
+        try { a37.valueOf(); } catch (e) {}
+        try {
+            this.f = "-2147483648";
+            9n >> 9n;
+        } catch(e44) {
+        }
+    }
+    F35.arguments = F35;
+    new F35();
+    return "o";
+}
+v30[Symbol.toPrimitive] = f31;
+const v50 = new Float64Array(64);
+v50.toJSON = C16;
+v50[5] = v30;
+function f51(a52, a53, a54) {
+    return v50;
+}
+const v57 = [v50,v30];
+const o58 = {
+    "arguments": v57,
+    "type": "function",
+};
+new Worker(f51, o58);

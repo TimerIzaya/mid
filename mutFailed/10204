@@ -1,0 +1,31 @@
+new Int16Array(16);
+const v5 = new Int32Array(1135);
+const v8 = new Int16Array(256);
+function f9() {
+    return 256;
+}
+function f10(a11) {
+    const o12 = {
+    };
+}
+Object.defineProperty(v8, "d", { writable: true, configurable: true, get: f9, set: f10 });
+class C13 {
+    static a;
+    constructor(a15, a16) {
+        try {
+            v8.d = v5;
+        } catch(e17) {
+        }
+        super.d = a16;
+    }
+    #c;
+    #e = Int16Array;
+}
+new C13(C13, 1135);
+new C13(256, 256);
+new C13(Int16Array, 256);
+new Uint16Array();
+const o32 = {
+    "type": "minor",
+};
+gc(o32);

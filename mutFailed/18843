@@ -1,0 +1,57 @@
+class C3 {
+    #valueOf(a5) {
+        this[a5];
+        const o7 = {
+        };
+        try {
+            o7.c = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.c = this;
+            o9.a = this;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.length = this;
+            o11.a = this;
+            o11.e = "dotAll";
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.isConcatSpreadable = this;
+            o13.size = this;
+            o13.e = this;
+        } catch(e14) {
+        }
+        return a5;
+    }
+}
+const v15 = new C3("dotAll");
+const v16 = new C3();
+const v17 = new C3();
+class C18 {
+    ["dotAll"] = C3;
+    [v16];
+    constructor(a20, a21, a22) {
+        const t42 = "dotAll";
+        t42[a22] %= 10;
+    }
+    2148 = C3;
+    #b;
+    536870912 = C3;
+    #e;
+}
+const v26 = new C18(v17, C3, v17);
+new C18(v26, v17, "dotAll");
+new C18(C3, v15, v16);
+[-1.7976931348623157e+308,1.0,3.194011291768481,-1e-15,0.7305441764017844];
+[1.0,552733.9294544917];
+[-5.0,-509813.5340585217,5.0,-7.252115132820441,0.12795164709194728,Infinity,34416.60732039774,-1e-15,-5.371800863421554];
+-9513n != 1;

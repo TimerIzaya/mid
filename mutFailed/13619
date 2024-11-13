@@ -1,0 +1,26 @@
+function f7() {
+    return true;
+}
+new Float64Array(8);
+new BigUint64Array(19);
+new BigInt64Array(-1.0);
+const v17 = [2.0,0.2901658812472846,-8.880306076496956e+307,943883.9104739067];
+function f18(a19, a20) {
+    const v23 = a19 && 64;
+    ++a19;
+    BigUint64Array.hypot(a19 * v23);
+    return f18;
+}
+v17.constructor = f18;
+function f27(a28, a29, a30, a31) {
+    for (let i34 = 0, i35 = 10; i34 < i35, i35; i35--) {
+        const v42 = v17.constructor;
+        v42(v42);
+    }
+    return a29;
+}
+for (let v44 = 0; v44 < 5; v44++) {
+    BigUint64Array(v17, v44, v44, v17);
+}
+%OptimizeFunctionOnNextCall(f27);
+f27(v17, v17, f18, v17);

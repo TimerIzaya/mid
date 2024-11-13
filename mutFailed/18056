@@ -1,0 +1,34 @@
+function f6(a7) {
+    return f6;
+}
+const v8 = f6(undefined);
+function f9() {
+    return f9;
+}
+const v11 = Symbol.toPrimitive;
+Object.defineProperty(f9, v11, { writable: true, value: v8 });
+const v12 = [v8,,];
+v12[1] = v11;
+v12.group(f9);
+new Uint32Array(257);
+for (let v15 = 0; v15 < 250; v15++) {
+    function f16() {
+        return f16;
+    }
+    class C17 extends f16 {
+        constructor(a19) {
+            super();
+            for (let v20 = 0; v20 < 5; v20++) {
+            }
+        }
+    }
+    new C17();
+}
+new Uint32Array(3166);
+new Float32Array(1657);
+const v30 = ("536870888")[3];
+const o31 = {
+};
+o31.constructor = Symbol;
+const t32 = o31.constructor;
+t32(128).toExponential(v30);

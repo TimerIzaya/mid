@@ -1,0 +1,19 @@
+const v2 = new Float32Array(9);
+new Int8Array(0, v2, 0, Int8Array);
+new Uint8ClampedArray(3);
+new Set(0, Float32Array);
+function f14(a15, a16, a17, a18) {
+    function f20() {
+        return arguments;
+    }
+    const v22 = new Int8Array();
+    v22.buffer;
+    %OptimizeFunctionOnNextCall(f20);
+    ("find").codePointAt(f14);
+    return arguments;
+}
+for (let v26 = 0; v26 < 10; v26++) {
+    f14();
+}
+%OptimizeFunctionOnNextCall(f14);
+f14();

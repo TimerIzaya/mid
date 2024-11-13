@@ -1,0 +1,85 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = F1;
+    } catch(e3) {
+    }
+    try {
+        this.f = false;
+    } catch(e4) {
+    }
+    try {
+        this.b = false;
+    } catch(e5) {
+    }
+}
+let v6 = new F1();
+function f7() {
+    function f8() {
+        const v13 = false % 10;
+        v6++;
+        v13 || false;
+        const v16 = +10;
+        +v16;
+        return Math.tanh(v16);
+    }
+    return f8;
+}
+Object.defineProperty(v6, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f7 });
+const v21 = new F1();
+const v22 = new F1();
+v22[Symbol.toPrimitive] = f7;
+const v25 = [5.627129677109545e+307,850582.6346538318,-2.0,-Infinity,289.0197571670685,187.7306401241658,1e-15];
+const v26 = [0.6612384037511738,2.2940008033736596];
+const v27 = [1000000000000.0,-1000000000000.0,3.173585042601135e+307,-5.0,-1e-15];
+function f28(a29, a30, a31, a32) {
+    function f33() {
+        return f28;
+    }
+    Object.defineProperty(a29, "toString", { writable: true, get: f33 });
+    const o41 = {
+        __proto__: v26,
+        "h": v27,
+        ...a29,
+        [a32](a35, a36) {
+            try { new a35(a31, a30, a32, a36); } catch (e) {}
+            return 1350805809;
+        },
+        "c": v21,
+        268435439: a29,
+    };
+    return o41;
+}
+f28(v21, v27, v21, v6);
+f28(v6, v25, v6, v21);
+f28(v21, v25, v6, v22);
+function f50() {
+}
+function f51() {
+    const o55 = {
+        "b": f50,
+        valueOf() {
+            try { this.b(); } catch (e) {}
+            [NaN,1000.0,8.951106279668121,-3.0,-Infinity,1.7976931348623157e+308,-4.0,243.50965730660823,0.0];
+        },
+    };
+    try { o55.b(); } catch (e) {}
+    return o55;
+}
+const v57 = f51();
+const t69 = v57?.b;
+new t69();
+new Uint8Array(268435440);
+const v64 = ("function").length;
+const v65 = f51();
+function F66(a68, a69) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 5;
+    try { a69.b(); } catch (e) {}
+    try { a68.valueOf(); } catch (e) {}
+    const v72 = this?.constructor;
+    try { new v72(a68, a68); } catch (e) {}
+    new Uint16Array(v64);
+}
+const v76 = new F66(v65);
+new F66(v57, v76);

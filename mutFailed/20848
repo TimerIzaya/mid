@@ -1,0 +1,64 @@
+class C3 {
+    #n(a5, a6) {
+        a6 == this;
+        try {
+            this.fuck(0.0, -9223372036854775808, 675329438, a6);
+        } catch(e10) {
+        }
+        return this;
+    }
+    static {
+        const v12 = this?.constructor;
+        try { new v12(this); } catch (e) {}
+        try {
+        const t0 = 0.0;
+        t0();
+        } catch (e) {}
+    }
+    static {
+    }
+    b;
+    e = -9223372036854775808;
+    [0.0] = -9223372036854775808;
+}
+C3.d = C3;
+const v16 = new C3();
+new C3();
+new C3();
+const o19 = {
+};
+o19.b = o19;
+Float64Array.length = Float64Array;
+const v21 = new Float64Array();
+const v25 = new v16(4096);
+const v27 = [v25,Uint32Array,[v21,Uint32Array,v25]];
+v27[v27] >>= -9223372036854775808;
+function f34() {
+    const o35 = {
+    };
+    const v36 = o35.constructor;
+    class C37 {
+    }
+    const v38 = C37.name;
+    Symbol.unscopables;
+    const v41 = new v36();
+    const v42 = v41?.constructor;
+    try { new v42(); } catch (e) {}
+    v41.toString = Symbol;
+    let v44 = 59817n;
+    v44--;
+    v44 < v44;
+    Int8Array.BYTES_PER_ELEMENT = Int8Array;
+    const v50 = new Int8Array(v38);
+    try { v50.join("llRnF"); } catch (e) {}
+    for (let v52 = 0; v52 < 5; v52++) {
+        v52++;
+        v50.indexOf(v52);
+    }
+    return f34;
+}
+%PrepareFunctionForOptimization(f34);
+const t60 = "llRnF";
+t60();
+%OptimizeFunctionOnNextCall(f34);
+f34();

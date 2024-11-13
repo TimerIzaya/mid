@@ -1,0 +1,25 @@
+function f0() {
+    const o9 = {
+        [2.2250738585072014e-308](a5, a6) {
+            const v7 = super.c;
+            try {
+                v7.toString = a5;
+            } catch(e8) {
+            }
+            return "g";
+        },
+        "b": f0,
+        [2.2250738585072014e-308]: 127,
+    };
+    return o9;
+}
+const v10 = f0();
+v10();
+const v12 = f0();
+function f13() {
+    return v10;
+}
+new v12(7);
+new Uint16Array(1024);
+new Int16Array(127);
+gc();

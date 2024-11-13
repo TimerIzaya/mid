@@ -1,0 +1,52 @@
+const v2 = new Int16Array(15);
+const v5 = new Float64Array(112);
+const v8 = new Int32Array(1547);
+const v11 = v2;
+v2[37156n] = -1073741824n;
+let {"byteLength":v12,} = v11;
+let {"buffer":v13,"byteLength":v14,...v15} = v8;
+class C20 extends Float64Array {
+    #o(a22, a23, a24, a25) {
+        try {
+            v8.#o(-1073741824n, a23, a25, 15);
+        } catch(e27) {
+        }
+        return 10000n;
+    }
+    3 = -1073741824n;
+    static #c = 37156n;
+    #valueOf(a29, a30) {
+        let v31 = 0;
+        while ((() => {
+                const v33 = v31 < 8;
+                try {
+                    v5.#valueOf(8, v8, 8, a29, 10000n);
+                } catch(e35) {
+                }
+                super.reduceRight(a30, v11);
+                return v33;
+            })()) {
+            try {
+                v8.#c;
+            } catch(e38) {
+            }
+            v31++;
+        }
+        return this;
+    }
+}
+new C20();
+new C20();
+new C20();
+class C43 {
+}
+const v44 = new C43();
+const v45 = [-2,257,-107178159,-35269,9223372036854775807,1203530861,-32678];
+const o46 = {
+};
+const v48 = new Proxy(v45, o46);
+v48.unshift(v44);
+const o50 = {
+    __proto__: v48,
+};
+try { o50.reduceRight(v48); } catch (e) {}

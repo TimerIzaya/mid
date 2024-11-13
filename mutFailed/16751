@@ -1,0 +1,42 @@
+new Uint8Array(257);
+const v4 = 1 !== 1;
+new Uint32Array(1);
+new Int8Array(Uint8Array);
+const v10 = [2.0];
+try { v10.toString(); } catch (e) {}
+[-1000000.0];
+const v13 = [-1000.0,-1.0,-4.0,-2.2250738585072014e-308,0.4498534148659352,1.1238920827456947e+308,774237.3672800853,-3.0,1000000000.0];
+let v14;
+try { v14 = v13.with(1, 257); } catch (e) {}
+class C21 {
+    static #a;
+    static n(a23, a24) {
+        const v25 = super.d;
+        try { v25(); } catch (e) {}
+        return a23;
+    }
+    [1];
+    static [1] = 255;
+    [255];
+    f = -65536;
+}
+const v27 = new C21();
+new C21();
+const v29 = new v27();
+let v30 = 1n;
+v30--;
+let v32 = -65536n;
+let v34;
+try { v34 = v4.m(v30, 10000n, 10000n, 1); } catch (e) {}
+function f35(a36, a37, a38) {
+    let v39;
+    try { v39 = v34(a37); } catch (e) {}
+    v39 = a38;
+    v32 >>= a38;
+    a37[10] = v30;
+    -v29.f;
+    return v32;
+}
+try { f35.bind(v13); } catch (e) {}
+f35(255, 255, v30);
+v14--;

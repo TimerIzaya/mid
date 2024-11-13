@@ -1,0 +1,10 @@
+const v1 = new Set();
+[7,v1,268435456n,65535,65535];
+[-2n];
+[7,Set,-2n,65535,Set];
+function f14() {
+    delete Set.callee;
+    return arguments;
+}
+const t8 = "f";
+t8();

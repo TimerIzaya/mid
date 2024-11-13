@@ -1,0 +1,39 @@
+new Map();
+function f2() {
+    return Map;
+}
+new Int8Array(1);
+new Uint16Array(2);
+new Float32Array(1000);
+new Date();
+class C16 {
+    ["getPrototypeOf"] = -1.7976931348623157e+308;
+}
+const v17 = new C16();
+const v18 = new C16();
+function f19() {
+    return this.printErr();
+}
+v18.constructor = f19;
+const v22 = v18.constructor;
+const v23 = new v22(v22, v18, v17);
+new C16();
+class C25 extends C16 {
+    ["getPrototypeOf"] = C16;
+}
+const v26 = new C25();
+const v27 = v26.constructor;
+new v27(v27, -1.7976931348623157e+308, v17, v23, v18);
+const v29 = new C25();
+const t27 = v29.getPrototypeOf;
+const v31 = new t27();
+const v32 = new C25();
+function f33(a34) {
+    new Int8Array(3663);
+    return 2;
+}
+v32.constructor = f33;
+const t35 = v32.constructor;
+const v39 = new t35();
+const t37 = v32.getPrototypeOf;
+new t37(v31, "getPrototypeOf", v39, v27, v26);

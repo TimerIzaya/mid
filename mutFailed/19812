@@ -1,0 +1,22 @@
+const v2 = new Float32Array(4);
+new Uint8Array(4);
+const v8 = new Uint8ClampedArray(128);
+try {
+    v2.__proto__ = v2;
+} catch(e11) {
+}
+v8.byteOffset;
+new Uint32Array(4);
+new Uint32Array(10);
+delete v2[7];
+try {
+    v2.length = 2;
+} catch(e20) {
+}
+new BigUint64Array(10);
+class C23 {
+}
+const v24 = new C23();
+[5];
+const v27 = [];
+C23.apply(v24.fill, v24, v27);

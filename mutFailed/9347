@@ -1,0 +1,41 @@
+class C3 {
+    set f(a5) {
+        try { a5(a5, this, this); } catch (e) {}
+        this[-2] = 0n;
+    }
+    static {
+        super.b;
+        Math.cbrt(9223372036854775807n);
+        let v13 = 0n / 9223372036854775807n;
+        v13--;
+        -0n;
+    }
+}
+new C3();
+const v17 = new C3();
+new C3(v17, C3);
+function F19(a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.POSITIVE_INFINITY = a22;
+    } catch(e23) {
+    }
+    try {
+        this.d = a21;
+    } catch(e24) {
+    }
+    try {
+        this.c = -9223372036854775808n;
+    } catch(e25) {
+    }
+}
+const v26 = new F19(v17, 9223372036854775807n);
+new F19(C3, -9223372036854775808n, 9223372036854775807n, F19, v26);
+new F19(v17, -9223372036854775808n);
+new Float32Array(1);
+new BigUint64Array(16);
+new Int8Array(339);
+const v39 = 1073741824 & 1073741824;
+const v40 = [6.621588498634488e+307,1.0,3.0,-5.0,-1.7976931348623157e+308,-1.7976931348623157e+308,257.7405098162435,-136018.55674827856];
+const v41 = [v40,v40];
+v40.concat(v41, v41, true, v39);

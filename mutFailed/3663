@@ -1,0 +1,43 @@
+new Uint16Array(255);
+const v5 = new Uint8Array(19);
+new Uint8ClampedArray(9);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 255;
+    try {
+        this.g = a12;
+    } catch(e15) {
+    }
+    try {
+        this.h = a13;
+    } catch(e16) {
+    }
+    try {
+        this.b = a14;
+    } catch(e17) {
+    }
+}
+new F9(v5, 9, 9, 9);
+new F9(Uint8Array, 19, 255, 19);
+new F9(F9, 255, 255, 9);
+function f21() {
+    return Uint8ClampedArray;
+}
+function f24() {
+    function f25(a26) {
+        function f27(a28, a29) {
+        }
+        f27();
+        return a26;
+    }
+    return f25;
+}
+function f31(a32) {
+    try {
+        new F9(Uint8ClampedArray, f24, 268435456n, -16n);
+    } catch(e36) {
+    }
+}
+Object.defineProperty(Uint16Array, Symbol.iterator, { writable: true, configurable: true, enumerable: true, get: f24, set: f31 });
+Uint16Array[1] = 1277001064;
+new Uint16Array(Uint16Array);

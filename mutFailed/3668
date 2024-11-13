@@ -1,0 +1,31 @@
+const v0 = [];
+const v5 = new WeakSet();
+function f6() {
+    return v0;
+}
+let v7;
+try { v7 = f6.bind("object"); } catch (e) {}
+function f11() {
+    try {
+        const t9 = "string";
+        t9.__proto__ = v5;
+    } catch(e12) {
+    }
+    ("e").normalize("NFC");
+    return "string";
+}
+Uint16Array.name;
+const v19 = new Uint16Array(1024);
+let v20;
+try { v20 = v19.with("object", v19); } catch (e) {}
+const v22 = new WeakSet();
+v22[v0];
+try { v20(-9007199254740990n, v19); } catch (e) {}
+function f25() {
+    return v19;
+}
+v19[7] = v19;
+const v27 = -2147483649n > v7 ? -2147483649n : v7;
+f6();
+new WeakSet("string");
+try { ("object").repeat(v27); } catch (e) {}

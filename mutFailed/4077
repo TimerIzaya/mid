@@ -1,0 +1,66 @@
+class C3 {
+    static c;
+    constructor(a5) {
+        this[1] = this;
+        a5.c = a5;
+        let v6 = this % a5;
+        let v7 = a5 >>> v6;
+        let v8 = 60545 % 10000;
+        v8--;
+        [v7,v6] = "getFloat32";
+        try {
+            v6.length = 1;
+        } catch(e11) {
+            e11.b = e11;
+        }
+    }
+    1;
+    static ["getFloat32"] = 60545;
+}
+const v12 = new C3(C3);
+const v13 = new C3(60545, "getFloat32", 10000);
+v13[1];
+const v15 = new C3(v12);
+const v16 = [10000,v15,60545,v15];
+const v17 = [v12,v13,"getFloat32",v16];
+try { v17.fill(C3); } catch (e) {}
+const v19 = [v16];
+try { v19.reverse(); } catch (e) {}
+class C21 {
+    static 1 = v16;
+    toString(a23, a24, a25, a26) {
+        a25 = a26;
+        let v27;
+        try { v27 = a24.clear(60545, a24, v16); } catch (e) {}
+        super.a = a26;
+        Reflect.construct(v27, [v27,v27,v13,v17,a23], C3);
+        return Reflect;
+    }
+    static c = v12;
+    static [-1];
+    [v17];
+    static #h = "getFloat32";
+}
+C21[1] = C21;
+const v31 = new C21();
+new C21();
+const v33 = new C21();
+function F34() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v36 = this?.constructor;
+    try { new v36(); } catch (e) {}
+    this.d = -15;
+}
+F34.fuck = F34;
+class C39 extends F34 {
+}
+try { new C39(); } catch (e) {}
+class C41 extends C39 {
+    set d(a43) {
+        for (const v44 in C39) {
+        }
+    }
+}
+new C41();
+const v46 = new C41(v31, 10000, v33);
+v46.length;

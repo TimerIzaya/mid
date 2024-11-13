@@ -1,0 +1,84 @@
+const v1 = new Date();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    a4[Symbol.toPrimitive] = Date;
+    try {
+        for (let i10 = 0, i11 = 10; i10 < i11; i10++, i11--) {
+            const v20 = Symbol.iterator;
+            const o29 = {
+                [v20]() {
+                    let v22 = 10;
+                    const o28 = {
+                        next() {
+                            v22--;
+                            const v26 = v22 == 0;
+                            const o27 = {
+                                "done": v26,
+                                "value": v22,
+                            };
+                            return o27;
+                        },
+                    };
+                    return o28;
+                },
+            };
+        }
+        this.d = a4;
+    } catch(e30) {
+    }
+    try {
+        this.g = Date;
+    } catch(e31) {
+    }
+    try {
+        /abc+?/gviy;
+        /a\W/gud;
+        /K[\ca]/umsy;
+        this.h = Date;
+    } catch(e38) {
+    }
+}
+function f39(a40) {
+    try { a40["m"](v1); } catch (e) {}
+    return F2;
+}
+Object.defineProperty(F2, Symbol.toPrimitive, { writable: true, enumerable: true, value: f39 });
+let v45 = new F2(Date, v1);
+function f46(a47, a48) {
+    new Uint8ClampedArray(129);
+    return Uint8ClampedArray;
+}
+v45.valueOf = f46;
+const v52 = Date(F2);
+v52[F2] ^= v45;
+v45 = v52;
+const v53 = Date[Date];
+function f54() {
+    return v53;
+}
+const v55 = new F2(Date, v45);
+const v56 = new F2(Date, v55);
+function f60(a61, a62, a63) {
+    const o69 = {
+        "f": 38680,
+        "h": Date,
+        "e": -9,
+        "g": F2,
+        "c": a61,
+        "d": v55,
+        [-9](a65, a66, a67, a68) {
+            Object.defineProperty(v55, "g", { writable: true, configurable: true, value: 16 });
+            return a67;
+        },
+        __proto__: v55,
+        "b": a61,
+        "a": v55,
+    };
+    return o69;
+}
+f60(v56, -9, 38680);
+f60(f60(v55, v56, -9), v56, 16);
+/0k/uis;
+/t/gisy;
+/(\1a)/gvdim;
+([4.0,1.0,1000000.0,2.220446049250313e-16,533350.8402277301,-2.2250738585072014e-308,1000000.0,1.566394140636886]).toLocaleString().toUpperCase();

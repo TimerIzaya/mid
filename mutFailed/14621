@@ -1,0 +1,52 @@
+class C3 {
+    static {
+        function f5() {
+            return this;
+        }
+        Object.defineProperty(this, "b", { writable: true, enumerable: true, get: f5 });
+        35101352 <= 35101352;
+        const v7 = this.b;
+        try {
+            v7.valueOf = v7;
+        } catch(e8) {
+        }
+    }
+    m(a10, a11) {
+        this[2127] = -9223372036854775807;
+        Object.defineProperty(a10, 13, { enumerable: true, value: -9223372036854775807 });
+        new Int16Array(2648);
+        new Uint8ClampedArray(3);
+        new BigInt64Array(8);
+        return 47863;
+    }
+}
+new C3();
+const v22 = new C3();
+const v23 = new C3();
+function f24(a25, a26) {
+    const o32 = {
+        3: -9223372036854775807,
+        "f": a25,
+        ...C3,
+        [a26](a28, a29, a30) {
+            a30.e;
+            a30 &&= a30;
+            %VerifyType(this);
+            return a26;
+        },
+        4294967296: a26,
+        "e": v23,
+        [v22]: a26,
+        10: 35101352,
+    };
+    o32.toString = f24;
+    return o32;
+}
+f24(35101352, 35101352);
+const v34 = f24(-9223372036854775807, -9223372036854775807);
+function f35() {
+    return f24;
+}
+Object.defineProperty(v34, "toString", { writable: true, get: f35 });
+f24(47863, v34);
+/a\s[B{1z}(x)(x)(x)\2]/gdmy;

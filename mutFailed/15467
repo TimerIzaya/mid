@@ -1,0 +1,40 @@
+const v2 = new Int16Array(15);
+new Float64Array(112);
+const v8 = new Int32Array(1547);
+class C12 extends Float64Array {
+    #o(a14, a15, a16, a17) {
+        try {
+            v8.#o(-1073741824n, a15, a17, 15);
+        } catch(e19) {
+        }
+        return 10000n;
+    }
+    3 = -1073741824n;
+    static #c = 37156n;
+    #valueOf(a21, a22) {
+        let v23 = 0;
+        while (v23 < 8, 112) {
+            try {
+                v8.#c;
+            } catch(e27) {
+            }
+            v23++;
+        }
+        return this;
+    }
+}
+new C12();
+new Float64Array();
+new v2();
+class C32 {
+}
+new C32();
+const v34 = [-2,257,-107178159,-35269,9223372036854775807,1203530861,-32678];
+const o35 = {
+};
+const v37 = new Proxy(v34, o35);
+v37.unshift(10000n);
+const o39 = {
+    __proto__: v37,
+};
+try { o39.reduceRight(v37); } catch (e) {}

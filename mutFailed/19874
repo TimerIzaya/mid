@@ -1,0 +1,65 @@
+class C3 {
+    static {
+        super.b = this;
+        const v6 = new WeakMap();
+        v6[Symbol.species];
+    }
+    static 268435439;
+    2147483647;
+    [4n];
+    static #h;
+    static #f = 3n;
+}
+new C3(3n);
+new C3();
+new C3();
+const v15 = new Uint32Array(-7);
+new Int32Array(10);
+const o19 = {
+};
+try {
+    o19.c = 0n;
+} catch(e20) {
+}
+try {
+    const o21 = {
+    };
+    o21.c = 0n;
+    o21.f = -7;
+} catch(e22) {
+}
+try {
+    const o23 = {
+    };
+    o23.c = 0n;
+    o23.f = -7;
+    o23.global = -7;
+} catch(e24) {
+}
+try {
+    const o25 = {
+    };
+    o25.c = 0n;
+    o25.f = -7;
+    o25.h = C3;
+} catch(e26) {
+}
+new BigUint64Array(64);
+function F30() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v33 = new F30();
+function f34(a35, a36) {
+    let [] = v15;
+    const v39 = new Int8Array(10000);
+    for (let v40 = 0; v40 < 5; v40++) {
+        v39.indexOf(v40);
+    }
+    return 10000;
+}
+v33.toString = f34;
+const o51 = {
+    [v33](a46, a47, a48, a49) {
+        "D2z" < a46;
+    },
+};

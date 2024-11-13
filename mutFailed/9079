@@ -1,0 +1,59 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a4;
+    } catch(e5) {
+    }
+}
+const v6 = new F2(f1);
+new F2(f1);
+const v8 = new F2(v6);
+[8093,7];
+const v10 = [3,40985,536870889,-833688125,10000,-2147483649,-444125895];
+const v11 = [14311];
+class C12 extends F2 {
+    constructor(a14, a15) {
+        super(f1);
+        F2();
+        %PrepareFunctionForOptimization(f1);
+        f1();
+        f1();
+        %OptimizeFunctionOnNextCall(f1);
+        f1();
+    }
+    static #m(a21, a22, a23, a24) {
+        let v25 = f1(a21, f1, ...a22, a21, ...a22);
+        const v26 = a21[6];
+        v25 &= v25;
+        return v26;
+    }
+}
+const v27 = new C12(v8, v11);
+const v28 = new C12(v27, v11);
+new C12(v28, v10);
+const v30 = /xyz{1,32}?/gusy;
+class C31 {
+    268435440 = v30;
+}
+const v32 = new C31();
+const o33 = {
+    ...v32,
+};
+/(foo(?<!bar)baz)/guimsy;
+/Ja\w/vdiy;
+/(x)(x)(x)\3*/vdimy;
+function f37(a38, a39, a40, a41) {
+    const v43 = new Int8Array(a40);
+    const v47 = new Int32Array(2528);
+    v47[0] %= -1073741824;
+    return v43.buffer;
+}
+%PrepareFunctionForOptimization(f37);
+f37();
+%OptimizeFunctionOnNextCall(f37);
+f37();

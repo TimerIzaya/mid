@@ -1,0 +1,44 @@
+function f0() {
+}
+function f1() {
+    const o2 = {
+        "h": f0,
+        [f0]: f0,
+        "g": f0,
+        "d": f0,
+        "e": f0,
+        __proto__: f0,
+        1188: f0,
+        "c": f0,
+        ...f0,
+        ...f0,
+        "b": f0,
+    };
+    return o2;
+}
+const v3 = f1();
+const v4 = f1();
+const v5 = f1();
+function f12() {
+    return f12;
+}
+throw f0;
+[f0,-1000000.0];
+[v4,v5,-43514n];
+[v5,2.2250738585072014e-308,-1000000.0,57972n];
+const v17 = [];
+Reflect.construct(f1, v17, f0);
+const v20 = new Map();
+v20.set(f12);
+v20.constructor = f12;
+const v22 = v20.constructor;
+v22.e = v22;
+const o23 = {
+    "g": v22,
+    __proto__: v17,
+    ...v3,
+    [Map]: 57972n,
+    "e": 2.2250738585072014e-308,
+};
+const v26 = new BigInt64Array(9);
+v26.includes(o23);

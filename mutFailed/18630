@@ -1,0 +1,42 @@
+function f0() {
+}
+new Uint8Array(f0);
+new Float64Array(256);
+new Int32Array(1);
+new Float64Array(2206);
+new Int16Array(1);
+new Uint16Array();
+new Int16Array(386);
+new Uint16Array();
+new Int16Array(16);
+new BigInt64Array(2);
+const v33 = Symbol.iterator;
+const o42 = {
+    [v33]() {
+        let v35 = 10;
+        const o41 = {
+            next() {
+                v35--;
+                v35 == 0;
+                const o40 = {
+                };
+            },
+        };
+    },
+};
+new Uint16Array(1018);
+const t27 = 2;
+new t27(569);
+function F48(a50, a51, a52) {
+    if (!new.target) { throw 'must be called with new'; }
+    a51 > a51;
+}
+function f54() {
+    for (let v55 = 0; v55 < 5; v55++) {
+        new F48();
+    }
+}
+f54();
+f54();
+%OptimizeFunctionOnNextCall(f54);
+f54();

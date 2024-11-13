@@ -1,0 +1,142 @@
+const v0 = [];
+function f1() {
+    const v3 = Symbol.iterator;
+    const o12 = {
+        [v3]() {
+            let v5 = 10;
+            const o11 = {
+                next() {
+                    v5--;
+                    const v9 = v5 == 0;
+                    const o10 = {
+                        "done": v9,
+                        "value": v5,
+                    };
+                    return o10;
+                },
+            };
+            return o11;
+        },
+    };
+    return o12;
+}
+v0[Symbol.toPrimitive] = f1;
+class C15 {
+    static #m() {
+        {
+            v0[this] = this;
+            let {"c":v18,"e":v19,"g":v20,...v21} = super[this];
+            v0[4] = v18;
+        }
+        function f22() {
+        }
+        const v23 = /2/gvdims;
+        /n\p{General_Category=Decimal_Number}(?: foo )?/gvdm;
+        const v25 = /[r(?<!)]/uim;
+        class C26 {
+            m(a28, a29) {
+                f22();
+                v23[a28];
+                let v32 = false;
+                v32 <<= v32;
+                const v34 = Symbol.iterator;
+                const o53 = {
+                    [v34]() {
+                        let v36 = 10;
+                        const o52 = {
+                            next() {
+                                const v38 = v36--;
+                                const v40 = v36 == 0;
+                                const o41 = {
+                                    "done": v40,
+                                    "value": v36,
+                                };
+                                Object.defineProperty(v34, v34, { writable: true, configurable: true, get: Symbol });
+                                %VerifyType(v38);
+                                new Int16Array(257);
+                                new Int16Array(4096);
+                                new Int16Array(1);
+                                return o41;
+                            },
+                        };
+                        return o52;
+                    },
+                };
+                return a29;
+            }
+        }
+        const v54 = new C26();
+        const v55 = new C26();
+        const v56 = new C26();
+        function f57(a58, a59, a60, a61) {
+            const o67 = {
+                set a(a63) {
+                    let v62 = this;
+                    [-910865.3408997525,626.3279856071824,-234.8554751364569];
+                    [-3.0,5.0,0.030403066145865854,-2.2250738585072014e-308,-1e-15];
+                    const t74 = [0.0,-2.0,-4.4315495470280674e+307,2.220446049250313e-16,1.176246364365651e+307,-6.320855532259336e+307,2.0];
+                    t74[6] = v25;
+                    v62 = a58;
+                },
+                "e": v25,
+                "d": a61,
+                ...a59,
+                "a": a59,
+            };
+            return o67;
+        }
+        f57(v55, v55, v55, v56);
+        const v69 = f57(v55, f22, v54, v54);
+        const v70 = f57(v54, f22, v55, v55);
+        const v71 = f57 - v55;
+        const v72 = delete v55[5];
+        try { C26.slice(v70, v72, v23, v71); } catch (e) {}
+        v69[Symbol.unscopables];
+        const v77 = super[this];
+        this[536870889] = v77;
+        return v77;
+    }
+    #e;
+    d;
+    a = v0;
+    [v0];
+}
+const v78 = new C15();
+const v79 = new C15();
+const v80 = new C15();
+class C81 extends C15 {
+    valueOf(a83) {
+        let v82 = this;
+        v82 = v80;
+        new Date();
+        return v79;
+    }
+    constructor(a87, a88) {
+        super();
+        a87.__proto__;
+        new Array(16);
+        const o97 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o97);
+        const v102 = -9 % -9;
+        let v103 = v102 << -2.220446049250313e-16;
+        617118924 << v102;
+        -2.220446049250313e-16 << 617118924;
+        ++v103;
+        -(-2.220446049250313e-16);
+        Math.sinh(-9);
+    }
+}
+new C81(v78, v79);
+const v110 = new C81(C81, v79);
+new C81(v110, v79);
+function f118() {
+    const v121 = new Int32Array(1024);
+    for (const v122 of v121) {
+        new SharedArrayBuffer();
+    }
+}
+f118();
+f118();

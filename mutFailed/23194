@@ -1,0 +1,39 @@
+class C3 {
+    [268435456];
+    static {
+        class C5 {
+            static [this] = 4;
+        }
+        new C5();
+        new C5();
+        new C5();
+    }
+    static #h = 65536;
+    89;
+    static [65536] = 4;
+}
+const v9 = new C3();
+const v10 = new v9();
+const v11 = new v10();
+try {
+    v9.fuck(v10, 1n, 1n, 4);
+} catch(e16) {
+}
+try {
+    new C3();
+} catch(e19) {
+}
+const v20 = new C3();
+v11 in v20;
+v11[Symbol.iterator];
+const v28 = "m" ** "m";
+Math.abs(v11);
+v28 - (v28 + "m");
+const v36 = new Uint8ClampedArray();
+function f37() {
+    return v36;
+}
+for (let i = 0; i < 5; i++) {
+    v10();
+    %OptimizeFunctionOnNextCall(f37);
+}

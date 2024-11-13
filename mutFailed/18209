@@ -1,0 +1,103 @@
+function f0() {
+    let v1 = 2.0;
+    const o26 = {
+        set e(a5) {
+            (v1 = a5)?.f;
+        },
+        get a() {
+            Object.defineProperty([-1.0], [3.0,3.770498566133839e+307,5.153108064357937e+307,722956.9834038939,0.8544001441759198,-436515.58680856833,0.13626953680325504,0.9064106370169687,0.5795068810545534,1.4927445997823516e+308], { writable: true, enumerable: true, get: f0 });
+            const v11 = Symbol.iterator;
+            const o24 = {
+                [v11]() {
+                    let v13 = 10;
+                    const o23 = {
+                        next() {
+                            const v15 = v13--;
+                            v13 == 0;
+                            Symbol(v15);
+                            %PrepareFunctionForOptimization(Symbol);
+                            Symbol(v15);
+                            Symbol(v15);
+                            %OptimizeMaglevOnNextCall(Symbol);
+                            Symbol(v15);
+                            const o22 = {
+                                "done": this,
+                                "value": v13,
+                            };
+                            return o22;
+                        },
+                    };
+                    return o23;
+                },
+            };
+            [551.3386993361294];
+            return "function";
+        },
+        "g": "function",
+        __proto__: v1,
+        "a": 0.7027382135563182,
+        [v1]: v1,
+        0: v1,
+        "h": 0.7027382135563182,
+        ...v1,
+    };
+    return o26;
+}
+const v27 = f0();
+const v28 = f0();
+const v29 = f0();
+class C30 extends f0 {
+    #p(a32) {
+        v27[v27] = a32;
+        let v34 = 268435441;
+        try {
+            v29.h = a32;
+        } catch(e35) {
+        }
+        [a32,Math,Math,this];
+        const v37 = [C30,v27];
+        [v37,v37,v29];
+        Math.pow(a32, a32);
+        v34++ >>> Infinity;
+        return v28;
+    }
+    static 2 = v29;
+    #b;
+}
+const v43 = new v28();
+const v44 = new C30();
+const v45 = new C30();
+function f46(a47, a48) {
+    const o59 = {
+        268435456: v27,
+        "a": v45,
+        get d() {
+            function f50(a51, a52, a53, a54) {
+                [536870912,268435439,-1073741824,-301154152,-46017,-1,-15];
+                [-9223372036854775807,51994,-9223372036854775807,536870889,-312243210,9007199254740992,-35675802,-128386568,2147483649];
+                return [12728,3];
+            }
+            f50(a47, a47, a47, v44);
+            return f0;
+        },
+    };
+    return o59;
+}
+f46(v29, v27);
+f46(v28, v28);
+delete v45[255];
+const v63 = v29[f0];
+f46(v43, C30);
+class C69 {
+    static {
+        try { this(this, 3.866732047176795e+307, this, ...this); } catch (e) {}
+    }
+    static {
+        f46(this, this);
+        %PrepareFunctionForOptimization(f46);
+        f46(this, this);
+        f46(C30, this);
+        %OptimizeMaglevOnNextCall(v63);
+        f46(this, this);
+    }
+}

@@ -1,0 +1,60 @@
+const v0 = [];
+function f1(a2) {
+    function F3() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v5 = new F3();
+    const v6 = new F3();
+    const v7 = [v5];
+    const v8 = [v6,v5,v6,v6];
+    return [v5,F3,v8,v8,v7];
+}
+v0.toString = f1;
+function f10() {
+    const o26 = {
+        __proto__: v0,
+        get d() {
+            function f12(a13, a14, a15) {
+                'use strict';
+                return a13;
+            }
+            return this;
+        },
+        [v0]: v0,
+        o() {
+            let v17;
+            try { v17 = this.unregister(this, v0); } catch (e) {}
+            v17 * 0;
+            Math.round(v17 || 0);
+            Math.hypot(v0);
+            Math.abs(0);
+            return this + v0;
+        },
+    };
+    return o26;
+}
+const v27 = f10();
+f10();
+const v29 = f10();
+function f30(a31) {
+    const o47 = {
+        valueOf(a33, a34, a35, a36) {
+            this[Symbol.toStringTag] = this;
+            super[a31];
+            const o42 = {
+                "maxByteLength": 3246,
+            };
+            const v44 = new ArrayBuffer(2, o42);
+            new Uint8ClampedArray(v44);
+            return a31;
+        },
+    };
+    return o47;
+}
+f30(v27);
+f30(v29);
+f30(v27);
+const v56 = new Int16Array(20);
+for (const v57 in v56) {
+    Math.expm1(v57);
+}

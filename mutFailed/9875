@@ -1,0 +1,20 @@
+new Uint16Array(11);
+new BigInt64Array(127);
+new Uint8ClampedArray(127);
+class C9 {
+    1073741825;
+    static get b() {
+        let v12 = 64;
+        -(--v12);
+        return ~v12;
+    }
+    #b = 127;
+    static [127] = Uint16Array;
+}
+const v16 = new C9();
+new C9();
+new v16();
+function f30() {
+    eval("");
+    return -128;
+}

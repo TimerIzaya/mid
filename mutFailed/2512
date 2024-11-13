@@ -1,0 +1,79 @@
+const v3 = [0,129,536870889];
+const v5 = [0,536870889,[v3]];
+function f6() {
+    return 536870889;
+}
+try { f6(); } catch (e) {}
+const v9 = new Set();
+class C10 {
+    [f6] = v3;
+    static {
+        const v12 = [];
+        class C13 {
+            static #g = v12;
+            static d;
+            static #c;
+            static e;
+            static {
+            }
+        }
+        delete this[8];
+        -13 + -13;
+        v9[v3];
+    }
+    static c = v5;
+    static [0];
+}
+const v21 = new C10();
+const v22 = v21?.constructor;
+try { new v22(); } catch (e) {}
+new C10();
+const v25 = new C10();
+new Int16Array();
+function f28(a29, a30) {
+    const o33 = {
+        set b(a32) {
+        },
+    };
+    return o33;
+}
+const v34 = f28();
+for (const v35 in v34) {
+    Object.defineProperty(v34, v35, { set: f28 });
+}
+const v36 = v25?.constructor;
+try { new v36(); } catch (e) {}
+231 >> 231;
+Float64Array.prototype = Float64Array;
+const v41 = new Float64Array(231);
+const v42 = v41.fill();
+new Int16Array(7);
+-v3;
+const o52 = {
+    "c": -11,
+    set g(a49) {
+        try {
+            super.o(this, a49);
+        } catch(e51) {
+        }
+    },
+    ...v42,
+    "a": v42,
+    __proto__: v42,
+};
+function f53() {
+    class C55 {
+    }
+    [Int8Array];
+    class C58 {
+    }
+    o52.finally(C58);
+    const v60 = ("D")[0];
+    try { v60.substring(129, 129); } catch (e) {}
+    return v60;
+}
+%PrepareFunctionForOptimization(f53);
+f53();
+%OptimizeFunctionOnNextCall(f53);
+const v63 = f53();
+try { v63.trimRight(); } catch (e) {}

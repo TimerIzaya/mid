@@ -1,0 +1,32 @@
+function f3() {
+    return -536870912;
+}
+class C4 extends f3 {
+    static {
+        let v6;
+        try { v6 = this(); } catch (e) {}
+        const o7 = {
+            "defineProperty": C4,
+            "getPrototypeOf": v6,
+            "isExtensible": f3,
+            "ownKeys": f3,
+            "setPrototypeOf": f3,
+        };
+        try { C4.bind(this); } catch (e) {}
+        const v10 = new Proxy(this, o7, f3, this, 15);
+        this.b = v10;
+    }
+}
+const v11 = new C4(f3, C4);
+const v12 = v11?.hasOwnProperty;
+let v13;
+try { v13 = new v12(v11); } catch (e) {}
+const v14 = new v13();
+new v14();
+536870888 * 536870888;
+const v20 = [-1000.0,1000000.0,2.220446049250313e-16,614071.3005355855,-1.0,2.220446049250313e-16];
+const o21 = {
+};
+const v23 = new Proxy(v20, o21);
+try { v12.entries(); } catch (e) {}
+v23[301];

@@ -1,0 +1,77 @@
+new Float64Array(2949);
+try { new Float64Array(2949, 2949, Float64Array); } catch (e) {}
+const v6 = new Float64Array(64);
+try { new Int8Array(64, 64, 64); } catch (e) {}
+const v10 = new Int8Array(2);
+class C11 extends Float64Array {
+    static {
+        this.prototype = this;
+        for (let v13 = 0; v13 < 32; v13++) {
+            v13--;
+            this["p" + v13] = v13;
+        }
+        try { v6(Int8Array, this, 64, v10, 64); } catch (e) {}
+        v6.buffer;
+    }
+    static 3;
+    #n(a20, a21, a22) {
+        const v24 = Symbol.iterator;
+        const o33 = {
+            [v24]() {
+                let v26 = 10;
+                const o32 = {
+                    next() {
+                        v26--;
+                        const v30 = v26 == 0;
+                        const o31 = {
+                            "done": v30,
+                            "value": v26,
+                        };
+                        return o31;
+                    },
+                };
+                return o32;
+            },
+        };
+        return a22;
+    }
+}
+const v34 = new C11();
+try { v34.findLast(v6); } catch (e) {}
+new C11();
+const v37 = new C11();
+const v38 = v37?.reduce;
+try { new v38(C11); } catch (e) {}
+const v42 = new Int16Array(0);
+try { v42.entries(); } catch (e) {}
+new Float64Array(3009);
+const v49 = Float64Array?.constructor;
+try { new v49(v10); } catch (e) {}
+new Float64Array(128);
+function f52() {
+    const o53 = {
+    };
+    o53.g = o53;
+    return o53;
+}
+const v54 = f52();
+v54.g = v54;
+const v55 = f52();
+for (let v56 = 0; v56 < 25; v56++) {
+    v56--;
+    const v58 = [601759695];
+    const v59 = [1073741824,1073741823,1376142744,1073741825];
+    function f60(a61, a62, a63, a64) {
+        a62.g = a62;
+        a61[4] = a61;
+        a62[4] = a62;
+        let v66 = 536870887;
+        v66++;
+        BigUint64Array * v66;
+        try { v59["find"](..."find", a64, ...v58, ...v59); } catch (e) {}
+        return v56;
+    }
+    for (let v71 = 0; v71 < 5; v71++) {
+        f60(v54, v55);
+    }
+}

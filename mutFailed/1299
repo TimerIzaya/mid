@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -3;
+    } catch(e3) {
+    }
+    try {
+        this.e = -3;
+    } catch(e4) {
+    }
+    try {
+        this.f = -3;
+        const o15 = {
+            valueOf() {
+                new Int32Array(56);
+                new Uint8ClampedArray(11);
+                new Int8Array(3444);
+                return -3;
+            },
+        };
+    } catch(e16) {
+    }
+}
+const v17 = new F0();
+const v18 = new F0();
+const v19 = new F0();
+const v20 = [1.1298821900600513e+307,4.51108822438454,-2.0,-9.836931041430116,-6.004183923510072e+307,0.11339310332229924,9.20395834970024,0.16252717156726304,-1.0];
+let v21;
+try { v21 = v20.toString(); } catch (e) {}
+let v22;
+try { v22 = v21(F0, v17); } catch (e) {}
+v22[v19] -= v22;
+try {
+    v19.e = v18;
+} catch(e23) {
+}
+const v24 = [1.113978235477969];
+v24.g = v24;
+[-0.0,-454444.0798349909,1000000.0,0.46340694182593756,-2.220446049250313e-16,0.371103284477168];
+[-9007199254740991,512,257,-4294967295];
+const v27 = [6986];
+[-151468126,268435440,-65537,1];
+function f32() {
+    return v27;
+}
+f32.caller = f32;
+const v36 = [];
+let v37;
+try { v37 = v36.includes(268435441); } catch (e) {}
+const v38 = [v36];
+for (let v39 = 0; v39 < 38; v39++) {
+    v38[Symbol.split] = v37;
+}
+delete v38[0];

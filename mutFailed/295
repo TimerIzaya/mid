@@ -1,0 +1,49 @@
+function f0() {
+    const o11 = {
+        "h": "description",
+        valueOf(a5, a6) {
+            a5 % f0;
+            const v8 = [a6];
+            [a5,"Zz",-1e-15,[v8,v8,v8,this]];
+            return a6;
+        },
+        "c": "Zz",
+        "d": -1e-15,
+        "b": "Zz",
+    };
+    return -1e-15;
+}
+const v12 = f0();
+const v13 = f0();
+f0();
+class C15 extends f0 {
+    constructor(a17) {
+        super();
+        v12[a17];
+        const v20 = Symbol.iterator;
+        const o29 = {
+            [v20]() {
+                let v22 = 10;
+                const o28 = {
+                    next() {
+                        v22--;
+                        const v26 = v22 == 0;
+                        const o27 = {
+                            "done": v26,
+                            "value": v22,
+                        };
+                        return o27;
+                    },
+                };
+                return o28;
+            },
+        };
+    }
+}
+const v30 = new C15(v12);
+const v31 = new v12(f0);
+new C15(v31);
+const v33 = [v12,v12,C15,v30];
+[f0,v13,v12,v30,v33];
+[v33,v31,f0,v30,f0];
+new Function("1532738280");

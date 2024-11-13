@@ -1,0 +1,58 @@
+class C3 {
+    constructor(a5, a6) {
+        Object.defineProperty(a5, a6 in this, { writable: true, enumerable: true, value: this });
+    }
+    static m(a10, a11) {
+        a11[a11] = 4;
+        a10 && this;
+        return -5.273824954306776;
+    }
+}
+new C3(-5.273824954306776, 4);
+const v14 = new C3(-5.273824954306776, -5.273824954306776);
+const v15 = new C3(-5.273824954306776, v14);
+class C16 {
+    13;
+    static 788001026 = v15;
+    static set d(a18) {
+        const o21 = {
+            "maxByteLength": 257,
+        };
+        const v23 = new ArrayBuffer(6, o21);
+        new DataView(v23);
+    }
+}
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v15;
+    } catch(e32) {
+    }
+    try {
+        this.f = a29;
+    } catch(e33) {
+    }
+    try {
+        this.d = a28;
+    } catch(e34) {
+    }
+}
+const v35 = new F26(C3, v14, C16, v15);
+let v36 = new F26(v35, v14, v35, v14);
+new F26(v36, v14, v36, v15);
+const v38 = new C16();
+%VerifyType(C16 - F26);
+try {
+    C3.e = C16;
+} catch(e40) {
+}
+const v41 = new C16();
+const v42 = new F26(v38, v38, v41, v36 &&= v35);
+try {
+    v42.toString = v15;
+} catch(e43) {
+}
+new C16();
+const v47 = new Float64Array(5);
+const v48 = new Float64Array(v47);
+v47 ** v48;

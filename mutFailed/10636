@@ -1,0 +1,50 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -59207;
+    } catch(e3) {
+    }
+    try {
+        this.e = -59207;
+    } catch(e4) {
+    }
+}
+let v5 = new F0(F0);
+const v6 = new F0();
+const v7 = new F0(v6, v5, v6);
+[-27.34411034893094,0.7178767864436965,3.0,2.2250738585072014e-308,0.5851033720127942,-3.0,-8.708975678493146e+306,-2.0,1000000000000.0];
+const v9 = [4.0];
+const v10 = [-290152.3499900034,-1.0,0.0,1.0,-2.2034809890309592,0.11236435420055002,4.0,1.0,1000000.0];
+function f11() {
+    return v7;
+}
+function f12(a13, a14) {
+    const o18 = {
+        [a13]: v5,
+        "h": v9,
+        "h": a13,
+        "g": a14,
+        ...v9,
+        __proto__: a13,
+        set e(a16) {
+            this[1215702076] = this;
+            super.e = this;
+            let v17;
+            try { v17 = new a16(v6, F0, a16, this, v7); } catch (e) {}
+            v5 = v17;
+        },
+        ...v9,
+        ...a14,
+        "f": v10,
+    };
+    return o18;
+}
+f12(v5, v10);
+f12(v7, v10);
+f12(v6, v10);
+new Set();
+new Uint8Array(3178);
+new Uint32Array(139);
+new WeakRef(5);
+const t48 = /F((((.).).).)[Ia*b]/gvdm;
+t48[Math] = -2.6653538746432233;

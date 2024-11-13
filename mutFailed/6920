@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 129;
+    } catch(e3) {
+    }
+    try {
+        this.a = 129;
+    } catch(e4) {
+    }
+    try {
+        this.f = 129;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new v6();
+new F0();
+new Int16Array(2);
+new Int8Array(512);
+new Float32Array(2027);
+function f24(a25, a26) {
+    const o28 = {
+        get c() {
+            let v27 = this;
+            v27 += v27;
+            return a26;
+        },
+        "b": -65537n,
+        __proto__: a25,
+        ...a25,
+        "a": a26,
+        6: 4294967297n,
+        "c": -535714.2832976709,
+    };
+    return o28;
+}
+const v29 = f24(0.0, -65537n);
+const t37 = 4294967297n;
+const v30 = t37(f24, f24);
+class C31 extends f24 {
+    set e(a33) {
+        const v34 = v30.h;
+        let {...v35} = v30;
+        Reflect.construct(v34, [4294967296n]);
+    }
+}
+const v39 = new C31();
+Object.defineProperty(v39, "b", { writable: true, enumerable: true, value: v30 });
+try {
+    v39.n(-65537n, v39, 4294967297n, 4294967297n, v29);
+} catch(e41) {
+}

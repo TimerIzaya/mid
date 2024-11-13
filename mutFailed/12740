@@ -1,0 +1,59 @@
+function f0() {
+    const o9 = {
+        "d": -254034.84086019243,
+        p(a5) {
+            return 28693;
+            for (let v6 = 0; v6 < 32; v6++) {
+                a5["p" + v6] = v6;
+            }
+            return a5;
+        },
+        4294967295: 28693,
+        "e": -254034.84086019243,
+    };
+    return o9;
+}
+const v10 = f0();
+f0();
+const v12 = f0();
+function F13(a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = this;
+    try {
+        this.b = a15;
+    } catch(e16) {
+    }
+    try {
+        this.h = a15;
+    } catch(e17) {
+    }
+}
+const v18 = new F13(v10);
+v18[Symbol.toPrimitive] = f0;
+const v21 = new F13(v10);
+new F13(v12);
+class C23 extends f0 {
+    4;
+    static g;
+    get d() {
+        try {
+            v21.length = 4;
+        } catch(e26) {
+        }
+        return v12;
+    }
+    h;
+    static [v18] = v21;
+}
+new C23();
+new C23();
+new C23();
+const v30 = [-876027929,9,536870887,-1257640956];
+function f31() {
+    return v30;
+}
+function f32(a33) {
+    return v30;
+}
+Object.defineProperty(v30, "f", { configurable: true, get: f31, set: f32 });
+Object.defineProperty(v30, "f", { writable: true, value: v30 });

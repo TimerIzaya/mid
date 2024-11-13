@@ -1,0 +1,21 @@
+new BigInt64Array(4096);
+new Uint16Array(1);
+new Int16Array(2);
+const v15 = [];
+class C16 {
+}
+const v17 = new C16();
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a21;
+}
+const v22 = new F18(v17, v15);
+function f23(a24, a25) {
+    return a25;
+}
+[v22];
+const o29 = {
+    "arguments": -9223372036854775808n,
+    "type": "function",
+};
+new Worker(f23, o29);

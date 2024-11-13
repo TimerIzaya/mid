@@ -1,0 +1,91 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v0;
+    } catch(e3) {
+    }
+    try {
+        this.a = v0;
+    } catch(e4) {
+    }
+    const v5 = this.constructor;
+    class C6 extends v5 {
+        static [v0] = F1;
+        [v5] = v0;
+        static c = F1;
+    }
+    new C6();
+    try {
+        this.c = v0;
+    } catch(e8) {
+    }
+}
+new F1();
+const v10 = new F1();
+const v11 = new F1();
+let v15;
+try { v15 = ("p").fontsize("p"); } catch (e) {}
+const v16 = ["p","p","p",v11];
+const v18 = ["s0U",["p",v10,v16,v16,v16]];
+try { v18.find(F1); } catch (e) {}
+[-1e-15,1000000000.0,-1000000000.0,882997.3849395681];
+const v21 = [-4.0,-1e-15,911.649872806327,4.0,7.930321648364128,564220.0960958197,0.0,-2.2250738585072014e-308];
+try { v21.lastIndexOf("p"); } catch (e) {}
+[0.5918656248154259,-2.467048809228496e+307];
+function F24() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v26 = this?.constructor;
+    try { new v26(); } catch (e) {}
+    try {
+        this.h = 268435439;
+    } catch(e29) {
+    }
+}
+const v30 = new F24();
+const v31 = new F24();
+const v32 = new F24();
+function f33(a34) {
+    for (let v35 in v30) {
+        ({"h":v35,} = v30);
+    }
+    const o39 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o39);
+    const v41 = a34?.constructor;
+    try { new v41(); } catch (e) {}
+    const o51 = {
+        __proto__: a34,
+        ...v32,
+        valueOf(a44) {
+            return v30;
+        },
+        get b() {
+            gc();
+            return v15;
+        },
+        "f": v10,
+        ...a34,
+        "a": a34,
+        "b": F24,
+    };
+    return o51;
+}
+f33.length;
+f33(v30);
+const v54 = f33(v32);
+const v55 = f33(v31);
+/(ab)[U]/udmy;
+const v57 = /2(?!(a))\18/giy;
+const v58 = /a[^a]/gms;
+class C59 {
+}
+const v60 = new C59(v57);
+new C59(v58);
+Symbol.prototype;
+const v64 = async (a65, a66, a67) => {
+    [v54,a65,F24,v55];
+    return v60;
+};

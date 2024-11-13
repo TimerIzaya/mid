@@ -1,0 +1,90 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3() {
+        return v0;
+    }
+    function f4(a5) {
+        a5 >>>= this;
+    }
+    Object.defineProperty(this, "h", { configurable: true, get: f3, set: f4 });
+    try {
+        this.b = v0;
+    } catch(e6) {
+    }
+    try {
+        Array.length = Array;
+        function F8(a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v13 = this?.constructor;
+            try { new v13(a10, this, a10); } catch (e) {}
+        }
+        const v15 = new F8();
+        for (let i = 0; i < 5; i++) {
+            v15.toString = Array;
+        }
+        this.h = v0;
+    } catch(e16) {
+    }
+    try {
+        this.e = v0;
+    } catch(e17) {
+    }
+}
+new F1();
+const v19 = new F1();
+v19.b;
+const v21 = new F1();
+v21.b = v21;
+const o26 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o26);
+Int8Array.toString = gc;
+const v29 = new Int8Array(0);
+let v30;
+try { v30 = v29.reduceRight(v29); } catch (e) {}
+let v31 = 256;
+const o33 = {
+    __proto__: v19,
+    "e": v30,
+};
+v30 = v0;
+new Uint16Array(v31);
+new Uint8ClampedArray(4);
+function F38(a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.__defineSetter__(a41, this); } catch (e) {}
+    ~a41;
+    a42.e;
+    try {
+        this.c = a41;
+    } catch(e46) {
+    }
+    try {
+        this.e = Int8Array;
+    } catch(e47) {
+    }
+}
+function f48() {
+    function f49() {
+        const o50 = {
+        };
+        return v19;
+    }
+    return f49;
+}
+Object.defineProperty(F38, "constructor", { writable: true, enumerable: true, get: f48 });
+const v51 = F38?.constructor;
+let v52;
+try { v52 = new v51(Int8Array); } catch (e) {}
+new F38(v19, v31, v19);
+new F38(v21, 0, v19);
+const v55 = new F38(v21, v31, v21);
+const v57 = -v52;
+v29[Symbol.replace];
+v31 <<= v57;
+try { Uint8ClampedArray(Uint8ClampedArray, v55, v55); } catch (e) {}
+const v63 = new Uint8ClampedArray();
+v63["-9223372036854775808"] = 10;

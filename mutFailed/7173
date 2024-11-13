@@ -1,0 +1,40 @@
+function f6() {
+    return -1352285429;
+}
+function f7(a8, a9) {
+    const o16 = {
+        "d": a8,
+        [-2]: a9,
+        set h(a11) {
+            const o13 = {
+                "apply": f6,
+                "defineProperty": f6,
+                "deleteProperty": f6,
+                "getOwnPropertyDescriptor": f6,
+                "getPrototypeOf": f6,
+                "set": f6,
+                "setPrototypeOf": f6,
+            };
+            new Proxy(this, o13);
+        },
+    };
+    return o16;
+}
+const v17 = f7(775554.8412933704, 1.0);
+f7(1.0, 1.0);
+f7(0.18196688601879885, 1.0);
+const v24 = new Set(v17, f6);
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v24;
+    try {
+        const v29 = v24[this];
+        try {
+            new F25(v29);
+        } catch(e31) {
+        }
+    } catch(e32) {
+    }
+}
+new F25(Set, F25);
+new F25();

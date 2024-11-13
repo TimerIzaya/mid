@@ -1,0 +1,23 @@
+const v8 = new Array(168);
+new WeakSet();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = v8;
+    try {
+        this.h = a13;
+    } catch(e15) {
+    }
+}
+const v16 = new F11(-5.344723486454295e+307, 6.648535857334007);
+new F11(v16, -5.344723486454295e+307);
+new F11(WeakSet, -5.344723486454295e+307);
+const v19 = /foo(?!bar)baz/uisy;
+function f20() {
+    return Array;
+}
+Object.defineProperty(v19, "toString", { writable: true, configurable: true, enumerable: true, get: f20 });
+const v21 = [3480,1024,-4294967297,-1024,512,65536,29198,-9223372036854775807,-2147483647];
+try {
+    v21.length = v19;
+} catch(e22) {
+}

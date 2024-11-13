@@ -1,0 +1,91 @@
+class C3 {
+    static #toString(a5) {
+        const v6 = super.g;
+        let v7;
+        try { v7 = new v6(); } catch (e) {}
+        const o8 = {
+        };
+        try {
+            o8.c = v7;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.c = 6.45721206866272;
+            o10.h = "4Wov";
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.c = 6.45721206866272;
+            this.h = "4Wov";
+            o12.f = v7;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.c = 6.45721206866272;
+            o14.h = "4Wov";
+            v7.f = 6.45721206866272;
+        } catch(e15) {
+        }
+        return a5;
+    }
+}
+const v16 = new C3();
+const v17 = new C3();
+const v18 = new C3();
+class C19 extends v17 {
+    static c;
+    static n(a21, a22, a23) {
+        super["4Wov"];
+        v18[3] = a23;
+        return v17;
+    }
+    #m(a26, a27, a28, a29) {
+        const o30 = {
+        };
+        try {
+            o30.b = a29;
+        } catch(e31) {
+        }
+        try {
+            const o32 = {
+            };
+            o32.b = v16;
+            o32.e = "4Wov";
+        } catch(e33) {
+        }
+        try {
+            const o34 = {
+            };
+            o34.b = a29;
+            o34.e = v18;
+            o34.g = -1000000000.0;
+        } catch(e35) {
+        }
+        try {
+            const o36 = {
+            };
+            o36.b = a29;
+            o36.e = "4Wov";
+            o36.f = a27;
+        } catch(e37) {
+        }
+        return 6.45721206866272;
+    }
+}
+new C3();
+new v17();
+new C19();
+function F44(a46, a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v49 = new F44();
+const v50 = new F44(F44, F44, v49);
+for (let v52 = 0; v52 < 5; v52++) {
+    Object.defineProperty(v49 || undefined, v50, { value: v49 });
+}

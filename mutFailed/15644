@@ -1,0 +1,38 @@
+class C3 {
+    constructor(a5, a6) {
+        super.d = "number";
+        a5 / "number";
+        function F8(a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = this;
+            } catch(e13) {
+            }
+            try {
+                this.d = a5;
+            } catch(e14) {
+            }
+            try {
+                this.f = -14;
+            } catch(e15) {
+            }
+        }
+        const v16 = new F8(a5, F8, a6);
+        new F8(v16, a6, v16);
+        new F8(5, this, -14);
+    }
+}
+new C3(-14, C3);
+new C3(-14, "number");
+new C3("number", 5);
+[1.0,1000000000.0,-503035.25447141094,-326718.6968323132,1.7976931348623157e+308];
+[-2.220446049250313e-16,1000.0,2.2250738585072014e-308,0.3030425519140989];
+const v24 = [-Infinity,-1000000.0,-Infinity,609.1876211571137,6.706849398411798e+307,-868.0983605109993,-591990.8317996567,792632.8734861291,4.0];
+function F28() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v30 = 0; v30 < 500; v30++) {
+        "p" + v30;
+        this[this] = v30;
+    }
+}
+new v24();

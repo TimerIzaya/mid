@@ -1,0 +1,76 @@
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    a6 ^ a6;
+    const v8 = this.constructor;
+    v8.length = v8;
+    try { new v8(3n); } catch (e) {}
+}
+try { Float32Array.from(-4096); } catch (e) {}
+const v13 = new Float32Array(1);
+new Int16Array(3583);
+for (let v19 = 0; v19 < 5; v19++) {
+    const v20 = v19++;
+    let v21 = v20 >> v20;
+    v21--;
+    v21 >>> v21;
+}
+Infinity << Infinity;
+try { ("async").blink(); } catch (e) {}
+const o29 = {
+    "execution": "async",
+    "type": "minor",
+};
+o29.execution;
+gc(o29);
+class C33 {
+}
+const v34 = new v13();
+const o37 = {
+    "h": v34,
+    [1]: v34,
+    set h(a36) {
+    },
+};
+const v38 = new Uint32Array(255);
+function F39() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        function F41(a43, a44) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.hasOwnProperty(F41);
+            const v46 = this.constructor;
+            try { new v46(); } catch (e) {}
+        }
+        function f48() {
+        }
+        Object.defineProperty(F41, Symbol.toPrimitive, { enumerable: true, get: f48 });
+        this.a = -4096;
+        "minor" < 9007199254740991;
+        new Uint16Array([34352,4,-9223372036854775808,1092764849,-2147483647,-1162070362,-4294967297,8,-591755449]);
+        this.constructor.name;
+    } catch(e57) {
+    }
+    this !== this;
+    this.a = v38;
+    this.a = 47398;
+}
+const v60 = new F39();
+const v61 = new F39();
+const v62 = new F39();
+const v63 = v62?.hasOwnProperty;
+try { new v63(Uint32Array); } catch (e) {}
+function f66(a67, a68, a69, a70) {
+    a68 << a68;
+    a67.a = a68;
+    return a69;
+}
+f66(v60, 9007199254740991);
+f66(v61);
+const o74 = {
+    ...v62,
+};
+try {
+    const v76 = f66(1, undefined, gc, undefined);
+    v76.length = v76;
+} catch(e77) {
+}

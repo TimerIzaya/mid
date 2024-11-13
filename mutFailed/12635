@@ -1,0 +1,35 @@
+Int32Array.c = 1348;
+new Int32Array(1348);
+let v3 = 512;
+v3++;
+new Uint32Array(v3);
+const v9 = new BigUint64Array(10);
+const v12 = new BigUint64Array(2);
+let v15;
+try { v15 = new BigInt64Array(2, Int32Array, v9); } catch (e) {}
+new BigInt64Array(1916);
+Int32Array.c = BigUint64Array;
+Int32Array.c = Int32Array;
+const t12 = 10;
+const v19 = new t12(128);
+try { v19.join(v12); } catch (e) {}
+const v22 = new Date(Date);
+v22.g = 1348;
+class C23 {
+    static #e;
+    constructor(a25, a26) {
+        a25.g = a26;
+        try { a25.toDateString(); } catch (e) {}
+        a26.g = this;
+        try {
+            a26.#e = Date;
+        } catch(e28) {
+        }
+    }
+}
+const v29 = new C23(v22, Date);
+v29.constructor = Date;
+const v30 = v29?.constructor;
+try { new v30(1916, 1916); } catch (e) {}
+new C23(v22, v22);
+try { v15.valueOf(); } catch (e) {}

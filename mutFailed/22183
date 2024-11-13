@@ -1,0 +1,52 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a5;
+    } catch(e6) {
+    }
+    try {
+        const o10 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o10);
+        this.e = a5;
+    } catch(e12) {
+    }
+}
+const t16 = "number";
+t16["number"] = F3;
+Object.defineProperty("number", "f", { value: "number" });
+try { ("number").concat("number", "valueOf", F3, Int8Array); } catch (e) {}
+Math.expm1(0);
+const v19 = Math.cosh(0);
+Math.fround(F3);
+Math.atanh(2112150957);
+"number" / 0;
+new Int8Array();
+new Uint32Array(4);
+new F3("number");
+const v28 = new F3("number");
+const v29 = new F3("valueOf");
+v29.b = v29;
+let v30 = 28853;
+let [] = "number";
+try {
+    v28.c = v19;
+} catch(e31) {
+}
+v30--;
+10 % 10;
+new Int16Array(10);
+const v41 = new Uint8Array(606);
+try { v41.some("iterator"); } catch (e) {}
+-9;
+new Uint8Array(9);
+class C48 {
+}
+let v49;
+try {
+const t0 = 1073741825;
+v49 = t0();
+} catch (e) {}
+v49?.[126349911];

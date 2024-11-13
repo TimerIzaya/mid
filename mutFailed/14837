@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 10;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new BigUint64Array(3441);
+7 - 7;
+let v12 = Uint32Array;
+let v13;
+try { v13 = v12.constructor(F0); } catch (e) {}
+const v14 = new v12(7);
+Uint16Array.c = Uint16Array;
+let v22 = 4294967297 % (7 >> 7);
+7 && F0;
+let v24 = 4294967297 % 56111;
+v24--;
+const v26 = ~v13;
+v26 >>> v26;
+let v28 = v22--;
+v28--;
+const v30 = ~v26;
+v30 >>> v30;
+new Uint16Array(7);
+for (let i35 = 0, i36 = 10;
+    i35 / i35, i35 < i36;
+    (() => {
+        i36--;
+        function f42(a43, a44) {
+            a43.length = a43;
+            --v12;
+            try { a43(v14, 7); } catch (e) {}
+        }
+        const v48 = new Promise(f42);
+        try { v48.then(v30, v30); } catch (e) {}
+    })()) {
+    i35 - i35;
+}
+function f54() {
+    const o56 = {
+        "c": Array,
+    };
+    const v57 = o56.c;
+    try { new v57(56111); } catch (e) {}
+    const v59 = new f54();
+    let v60;
+    try { v60 = v59.findLast(Array); } catch (e) {}
+    v59.forEach(v60);
+    for (const v64 of Array(4087, Array, v12)) {
+        function f65() {
+            return o56;
+        }
+        o56.toString = f65;
+    }
+}
+%PrepareFunctionForOptimization(f54);
+v12();
+%OptimizeFunctionOnNextCall(f54);
+f54();

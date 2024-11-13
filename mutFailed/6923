@@ -1,0 +1,11 @@
+let v3 = 9;
+v3--;
+new Int8Array(v3);
+new Uint16Array(182);
+let v12;
+try { v12 = Float32Array(Int8Array, v3, Float32Array); } catch (e) {}
+new Float32Array(v3);
+Int8Array.prototype = Int8Array;
+const v16 = new Int8Array(128);
+v12[95] = v16;
+v16.indexOf();

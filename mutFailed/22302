@@ -1,0 +1,40 @@
+class C3 {
+    #a;
+    static #o(a5) {
+        const v6 = -2.0 || a5;
+        const v7 = a5 - "2";
+        try { v6(a5, v7, a5); } catch (e) {}
+        typeof a5 === "asyncIterator";
+        return -2.0;
+    }
+    ["2"] = -2.0;
+    static [-2.0];
+    static #e = -2.0;
+    #h = -2.0;
+}
+const v12 = new C3(-2.0, C3, -2.0);
+const v13 = new C3();
+const v14 = new C3();
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v12;
+    } catch(e20) {
+    }
+    try {
+        this.b = a17;
+    } catch(e21) {
+    }
+    try {
+        this.flags = -2.0;
+    } catch(e22) {
+    }
+}
+const v23 = new F15(v13, C3, v12);
+new F15("2", v14, v23);
+new F15(v14, v12, "2");
+new Uint32Array(129);
+new Int16Array(256);
+new Int32Array(236, Uint32Array);
+const v37 = new Worker(6);
+v37.includes(SyntaxError);

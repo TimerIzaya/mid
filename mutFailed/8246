@@ -1,0 +1,51 @@
+const v2 = new Float64Array(1024);
+const v5 = new BigInt(3883);
+const v8 = new Uint32Array(6);
+function f9(a10, a11, a12, a13) {
+    const o30 = {
+        __proto__: v2,
+        ...v5,
+        toString(a15, a16, a17) {
+            v8.byteOffset;
+            a13 = a15;
+            const v20 = Symbol.iterator;
+            const o29 = {
+                [v20]() {
+                    let v22 = 10;
+                    const o28 = {
+                        next() {
+                            v22--;
+                            const v26 = v22 < 0;
+                            const o27 = {
+                                "done": v26,
+                                "value": v22,
+                            };
+                            return o27;
+                        },
+                    };
+                    return o28;
+                },
+            };
+            return o29;
+        },
+    };
+    return o30;
+}
+const v31 = f9(6, 1024, 3883, 1024);
+f9(3883, 3883, f9(6, 1024, 6, 1024), 1024);
+function f34() {
+    return 3883;
+}
+-Infinity;
+function F38(a40) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F38(3883, 7.91595347391541e+307, v31);
+class C42 {
+    g;
+    constructor() {
+        const v44 = this.constructor;
+        try { new v44(); } catch (e) {}
+    }
+}
+new C42();

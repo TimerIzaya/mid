@@ -1,0 +1,36 @@
+function f0() {
+}
+const v2 = new Set();
+function f6() {
+    return 65536n;
+}
+function f7(a8, a9) {
+    const o18 = {
+        __proto__: a9,
+        "h": -4294967296n,
+        10: 65536n,
+        3954155848: -4294967296n,
+        [a8]: 65536n,
+        "c": v2,
+        11: v2,
+        [f6](a11, a12, a13) {
+            f0(a12, a12, this);
+            %PrepareFunctionForOptimization(f0);
+            f0();
+            f0();
+            %OptimizeMaglevOnNextCall(f0);
+            return f0();
+        },
+    };
+    return o18;
+}
+const v19 = f7(-4294967296n, Set, f6);
+f7(-4294967296n, f6);
+f7(1073741824n, v19);
+const v27 = new Uint8ClampedArray(-3228);
+for (const v28 of v27) {
+    const o31 = {
+        "maxByteLength": 1293466293,
+    };
+    new SharedArrayBuffer(1796, o31);
+}

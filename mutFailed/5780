@@ -1,0 +1,84 @@
+function f0() {
+    const o6 = {
+        [-85036064]: -939211141,
+        "g": -939211141,
+        "f": "F",
+        ["F"]: "F",
+        2147483649: "F",
+        set e(a5) {
+            this[a5 >>>= -939211141] = -939211141;
+            const t9 = "F";
+            t9[-939211141] = this;
+        },
+        "d": -939211141,
+        "a": "F",
+        "c": -85036064,
+        "h": -939211141,
+    };
+    return o6;
+}
+const v7 = f0();
+const v8 = f0();
+f0();
+function F10(a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a12;
+    } catch(e13) {
+    }
+    try {
+        this.b = a12;
+    } catch(e14) {
+    }
+}
+new F10(v7);
+const v16 = new F10(v8);
+new F10(v16);
+const v27 = new Uint32Array();
+v27.toString = f0;
+Object.defineProperty(v27, "constructor", { writable: true, configurable: true, enumerable: true, value: Symbol });
+let v28 = -4294967297n;
+const v29 = v28--;
+function f30(a31, a32, a33, a34) {
+    const v35 = a31.keys;
+    v35.valueOf = f0;
+    try { v35(); } catch (e) {}
+    function f37() {
+        return f37;
+    }
+    a31.constructor = f37;
+    const v38 = a31?.constructor;
+    v38[Symbol.toPrimitive] = f30;
+    if (a31 > v38) {
+        try {
+            const t53 = "4294967296";
+            t53.toString = a33;
+        } catch(e42) {
+        }
+    } else {
+        new Date();
+    }
+    const v45 = v38();
+    function f46(a47, a48) {
+        Symbol.asyncIterator /= a32;
+        const o49 = {
+        };
+        return a47;
+    }
+    v45[Symbol.toPrimitive] = f46;
+    const o59 = {
+        [v28](a53, a54, a55, a56) {
+            eval();
+        },
+    };
+    new Array(v45);
+    const v63 = new Int8Array();
+    const v65 = v63.buffer.slice(v35, v45);
+    try { v65.slice(v29); } catch (e) {}
+    return f37;
+}
+for (let v67 = 0; v67 < 10; v67++) {
+    f30(v27);
+}
+%OptimizeFunctionOnNextCall(f30);
+f30(5);

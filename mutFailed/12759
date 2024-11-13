@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 1073741825;
+    } catch(e3) {
+    }
+    try {
+        this.e = 1073741825;
+    } catch(e4) {
+    }
+    try {
+        this.f = 1073741825;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 extends F0 {
+    #n(a11, a12) {
+        a12 in v6;
+        a11 << v7;
+        return 536870888;
+    }
+    #b;
+    static #f;
+    4 = v8;
+}
+const v18 = C9.e;
+[-13,7,-331712765];
+[256,-1];
+[-332672755,4294967297,-45161,-1980434659,-65535,1800314659,40308,-2147483648,536870888];
+v18.__proto__;
+new C9();
+const v24 = new C9();
+new C9();
+class C28 extends v24.constructor {
+    f;
+    c = Map;
+    #a;
+}
+new C28();
+new Map();
+new Uint32Array(3);
+new BigUint64Array(512);
+new Int8Array(13);
+for (let v40 = 0; v40 < 5; v40++) {
+    %OptimizeFunctionOnNextCall(v40);
+}

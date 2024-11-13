@@ -1,0 +1,52 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        __proto__: f0,
+        [f0]() {
+            try {
+                this.__proto__ = this;
+            } catch(e3) {
+            }
+            return this;
+        },
+        1073741823: f0,
+        "f": f0,
+        "e": f0,
+    };
+    return o4;
+}
+f1();
+f1();
+const v7 = f1();
+v7.prototype = v7;
+-2059730114n + -2059730114n;
+-5883n;
+-571198697n / -571198697n;
+14 / 14;
+const v17 = new Float32Array(14);
+try { v17.join(-2059730114n); } catch (e) {}
+let v21;
+try { v21 = new Int8Array(v17, 14, Int8Array); } catch (e) {}
+try { v21.toSorted(14); } catch (e) {}
+const v23 = new Int8Array(4096);
+v23[2892] = v23;
+new Float32Array(129);
+class C27 {
+    set e(a29) {
+        this.e;
+        const v31 = a29?.__lookupSetter__;
+        try { new v31(Int8Array); } catch (e) {}
+        const v33 = a29?.__lookupSetter__;
+        try { new v33(a29); } catch (e) {}
+        try { SharedArrayBuffer.call(a29); } catch (e) {}
+        const v37 = new SharedArrayBuffer();
+        DataView.prototype = DataView;
+        new DataView(v37, v37, a29);
+    }
+}
+C27.prototype = C27;
+const v40 = new C27();
+const v41 = v40?.constructor;
+try { new v41(); } catch (e) {}
+v40.e = v40;

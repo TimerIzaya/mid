@@ -1,0 +1,75 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = f0;
+    } catch(e3) {
+    }
+    try {
+        this.c = f0;
+    } catch(e4) {
+    }
+    try {
+        this.b = f0;
+    } catch(e5) {
+    }
+}
+new F1();
+const v7 = new F1();
+const v8 = new F1();
+64 * 64;
+try { new Uint16Array(v8, v7, v7); } catch (e) {}
+new Uint16Array(64);
+let v14 = 128;
+v14++;
+new Uint16Array(v14);
+const v19 = [15,52917,-9223372036854775807,-647320912,1463936330,-11132,-65537,1005084643,16,1073741823];
+function f20(a21, a22) {
+    class C23 {
+    }
+    async function f24(a25, a26, a27, a28) {
+        await C23;
+        return a27;
+    }
+    return C23;
+}
+v19[Symbol.toPrimitive] = f20;
+for (let v32 = 0; v32 < 5; v32++) {
+    function f33() {
+        "Vre" == "Vre";
+        const v36 = ("Vre").fixed("Vre");
+        const v37 = v36?.includes;
+        try { new v37(v36); } catch (e) {}
+        return v36.concat(v19);
+    }
+    f33.d = f33;
+    const v40 = f33();
+    v40[93] = v40;
+    %OptimizeFunctionOnNextCall(f33);
+}
+const v42 = new Uint32Array(0);
+function f44() {
+    const o47 = {
+        [null]() {
+            super.b;
+        },
+        "f": null,
+    };
+    function f48(a49) {
+        Object.defineProperty(v42, 4001, { configurable: true, value: v8 });
+        const o52 = {
+            "maxByteLength": 201,
+        };
+        const v54 = new SharedArrayBuffer(0, o52);
+        return v54;
+    }
+    Object.defineProperty(o47, "constructor", { writable: true, value: f48 });
+    return o47;
+}
+f44();
+const v56 = f44();
+%OptimizeFunctionOnNextCall(f44);
+const v57 = f44();
+v57.constructor = f20;
+try { v57.constructor(v56); } catch (e) {}

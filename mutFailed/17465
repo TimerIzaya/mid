@@ -1,0 +1,57 @@
+function f0() {
+    const o8 = {
+        ..."A6",
+        ["A6"]: "A6",
+        2: "A6",
+        m(a5) {
+            try {
+                super.toString(a5, this, "A6");
+            } catch(e7) {
+            }
+            return "A6";
+        },
+        "f": -826.4455997942191,
+        "b": -826.4455997942191,
+        ..."A6",
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+function f12(a13) {
+    const o14 = {
+        3: a13,
+        "e": v10,
+        ...a13,
+        "f": v9,
+        4096: f0,
+        "b": a13,
+        "a": a13,
+        "d": v11,
+        268435441: a13,
+        "c": v11,
+        ...a13,
+        __proto__: v9,
+        2: v10,
+    };
+    return o14;
+}
+const v15 = f12(v10);
+f12(f12(v9));
+const v18 = [f0];
+[f0,v9,v11,v10];
+[v15,v18];
+[-2147483648];
+[58076,705234818,536870888];
+[41825,-1024,1897959269,1000,-65536,-7,1546111754];
+const v26 = Array(87);
+v26[37] = 87;
+const v28 = new Uint32Array();
+new Float32Array(144);
+const o32 = {
+};
+const v34 = new Proxy(Float32Array, o32);
+v34[Symbol.toPrimitive] = Array;
+const v38 = new Array(...v28.subarray(), ...v26);
+v38[v34] = Float32Array;

@@ -1,0 +1,49 @@
+let v4 = 6;
+class C6 {
+    get b() {
+        delete this?.e;
+        v4 = 1664606158;
+        const o10 = {
+            valueOf() {
+                return this;
+            },
+        };
+    }
+}
+class C11 extends C6 {
+    constructor(a13, a14, a15, a16) {
+        super();
+        super.b;
+    }
+}
+new BigInt64Array(1);
+new BigInt64Array(62);
+new BigUint64Array(971);
+new Uint16Array(2);
+function f29(a30) {
+    return a30;
+}
+const o31 = {
+};
+function f32(a33) {
+    const o34 = {
+    };
+    return o34;
+}
+const v35 = f32();
+class C36 extends f32 {
+    constructor(a38, a39) {
+        a39.sup("-12", a38).toLocaleLowerCase();
+    }
+    n(a43, a44) {
+        Object.defineProperty(this, "e", { enumerable: true, value: super[v4] });
+    }
+}
+const v46 = new C36();
+function F47(a49, a50) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v51 = this.constructor;
+    try { new v51(a49, v51, v51, o31, v51); } catch (e) {}
+    v35[v46] = o31;
+}
+new F47();

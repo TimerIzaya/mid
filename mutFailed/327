@@ -1,0 +1,60 @@
+const v0 = [];
+function f1(a2) {
+    function f3() {
+        delete arguments.callee;
+        return arguments;
+    }
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+function f8() {
+    const o19 = {
+        "f": v0,
+        [v0]: v0,
+        n() {
+            v0[this] = v0;
+            new Uint8Array(1024);
+            new Float64Array(128);
+            new Uint8Array(518);
+            return this;
+        },
+    };
+    return o19;
+}
+f8();
+const v21 = f8();
+const v22 = f8();
+function F23(a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = v21;
+    try {
+        this.b = a25;
+    } catch(e26) {
+    }
+}
+new F23(v22);
+new F23(v22);
+new F23(v22);
+class C30 {
+    [v21];
+    #valueOf(a32, a33, a34, a35) {
+        const o36 = {
+            __proto__: this,
+            "h": v0,
+            ...v21,
+            "e": F23,
+        };
+        return a35;
+    }
+}
+new C30();
+new C30();
+new C30();
+const v40 = /xyz{1,32}?/gusy;
+class C41 {
+    268435440 = v40;
+}
+const v42 = new C41();
+const o43 = {
+    ...v42,
+};

@@ -1,0 +1,28 @@
+function f1() {
+    function f2(a3, a4, a5) {
+        return a5;
+    }
+    return f2;
+}
+Set[Symbol.toPrimitive] = f1;
+const v8 = new Set();
+class C12 extends Set {
+    static {
+        this[Symbol.toPrimitive] = Symbol;
+        let v16 = this ^ -8.430852580184701e+307;
+        v16 **= v16;
+    }
+    valueOf(a18, a19) {
+        v8[Set](a19);
+        return -218.1268094132289;
+    }
+    1 = -8.430852580184701e+307;
+}
+new C12();
+new C12();
+new C12();
+new Int32Array(8);
+new Float32Array(1020);
+new Uint8ClampedArray(9);
+const v39 = new Uint8Array(165);
+v39.lastIndexOf();

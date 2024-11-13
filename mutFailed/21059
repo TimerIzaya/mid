@@ -1,0 +1,22 @@
+[];
+new BigInt64Array(5);
+new Uint16Array(210);
+new Uint16Array(2642);
+function f16() {
+    [8n,8n,8n,8n] > 8n;
+    let v20 = 0;
+    for (let v21 = 0; v21 < 5; v21++) {
+        f16(36862);
+    }
+    while (v20 < 10) {
+        for (let v27 = 0; v27 < 5; v27++) {
+            "n" + v27;
+        }
+        v20++;
+    }
+    return v20;
+}
+%PrepareFunctionForOptimization(f16);
+f16();
+%OptimizeFunctionOnNextCall(f16);
+f16();

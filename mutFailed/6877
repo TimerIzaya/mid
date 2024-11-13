@@ -1,0 +1,47 @@
+function f3() {
+    return 15n;
+}
+class C5 extends f3 {
+    constructor(a7) {
+        super();
+        super[f3()] = 128n;
+        const t7 = `a`;
+        t7[1000] >>= true;
+        function f10(a11) {
+            return a11;
+        }
+        [f10];
+        class C13 {
+            [-1];
+        }
+        const v14 = new C13();
+        function f15(a16, a17, a18, a19) {
+            const o22 = {
+                set f(a21) {
+                },
+                ...a17,
+                "f": a18,
+            };
+            o22.valueOf = f15;
+            try { o22.valueOf(); } catch (e) {}
+            return a19;
+        }
+        f15(f15, v14, v14, C13);
+    }
+    #m(a26) {
+        return this;
+        this[f3] += f3;
+        const v27 = new f3();
+        const o30 = {
+            "maxByteLength": 3174383256,
+        };
+        const v32 = new SharedArrayBuffer(4096, o30);
+        new Int32Array(v32);
+        return v27;
+    }
+}
+new C5(15n);
+new C5(2147483648n);
+new C5(2147483648n);
+const v42 = [9,1024,256,268435440,-1916992432,7,-2147483648,20126,-2,1645963617];
+try { v42.group(BigInt64Array); } catch (e) {}

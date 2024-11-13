@@ -1,0 +1,96 @@
+class C3 {
+    static set e(a5) {
+        a5?.[this];
+    }
+    static get g() {
+        super.g != this;
+        return -536870912;
+    }
+    static 1359920616 = -2.220446049250313e-16;
+    #h;
+    #e;
+    #g;
+}
+const v10 = new C3();
+let v11 = new C3();
+const v12 = new C3();
+class C13 {
+    constructor(a15, a16, a17, a18) {
+        super.b;
+    }
+    e = C3;
+    get c() {
+        v11 -= this;
+        v11 -= -1;
+        super.f = this;
+        return this;
+    }
+}
+const v24 = new C13(v12, C13, v10, -1);
+const v25 = new C13(v12, -1, v24, C13);
+const v26 = new C13(v24, v25, v12, C3);
+class C27 extends C3 {
+    constructor(a29, a30) {
+        super();
+        super.d = C13;
+        super[a29] = v12;
+    }
+    #h = v26;
+    #toString(a32, a33, a34, a35) {
+        function f36(a37, a38) {
+            try { this.all(v11); } catch (e) {}
+            const v43 = -7546 + -7546;
+            Math.imul(C13, -7546);
+            Math.fround(v43);
+            return a32;
+        }
+        return f36(-1, v24);
+    }
+}
+new C27(v25, C27);
+new C27(-536870912, v24);
+new C27(C13, v25);
+class C52 {
+    static n(a54, a55) {
+    }
+    static [-4096];
+}
+C52[3] = v11;
+const v56 = new C52();
+function f57(a58) {
+    let v59 = 9;
+    v59++;
+    function f61() {
+        for (let v62 = 0; v62 < 5; v62++) {
+            function F63(a65, a66) {
+                if (!new.target) { throw 'must be called with new'; }
+            }
+            const v67 = new F63();
+            try { v67.constructor(v59); } catch (e) {}
+        }
+        return f61;
+    }
+    f61();
+    f61();
+    return v12;
+}
+v56.toString = f57;
+function f71() {
+    return f71;
+}
+function f72(a73, a74) {
+    const o76 = {
+        ...a73,
+        [v56]: a73,
+        "e": C52,
+        ...C52,
+        "d": f71,
+        get f() {
+            C52[3] >>= 9;
+            return a73;
+        },
+    };
+    return o76;
+}
+f72(f72, C52);
+f72(f72());

@@ -1,0 +1,34 @@
+new Float64Array(0);
+const v5 = new Float32Array(8);
+const v8 = new Float32Array(9);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f16(a17) {
+        function f18() {
+            let v19 = -4294967295;
+            const o21 = {
+                get a() {
+                    v19 %= v19;
+                    return f18;
+                },
+            };
+            return f18;
+        }
+    }
+    Object.defineProperty(this, "d", { writable: true, configurable: true, set: f16 });
+    try {
+        this.d = 0;
+    } catch(e22) {
+    }
+    try {
+        this.f = a14;
+    } catch(e23) {
+    }
+}
+new F12(682371455, v5);
+new F12(8, v5);
+new F12(65536, v8);
+const v27 = [4096,1000,17593,14,569949084,536870888,3,4];
+const v30 = new Uint32Array(9, 9, 9);
+v27[1855803377] = v30.buffer;
+v27.length = 9;

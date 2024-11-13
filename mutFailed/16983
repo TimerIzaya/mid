@@ -1,0 +1,52 @@
+new Float32Array(970);
+const v5 = new Uint16Array(1693);
+v5[129];
+new Float32Array(v5);
+let v8 = v5.__proto__;
+v8 <<= Float32Array;
+v5.__proto__;
+const v12 = new Int16Array(3);
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = this;
+    this.g = F13;
+    try {
+        this.g = a17;
+    } catch(e18) {
+    }
+    try {
+        this.h = v12;
+    } catch(e19) {
+        function f20(a21) {
+            return a21;
+        }
+        class C22 extends f20 {
+            e = f20;
+            static [3] = Int16Array;
+            f = v8;
+        }
+    }
+    try {
+        this.d = 3;
+    } catch(e23) {
+    }
+}
+new F13(3, 3, 3);
+new F13(1693, 970, 970);
+new F13(3, 1693, 1693);
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a30;
+    try {
+        this.e = a30;
+    } catch(e32) {
+    }
+    try {
+        this.a = a30;
+    } catch(e33) {
+    }
+}
+new F27(1693, 1693, 970);
+new F27(1693, 3, 1693);
+new F27(970, 1693, 3);
+new Date("2");

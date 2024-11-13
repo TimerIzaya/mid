@@ -1,0 +1,112 @@
+function f3(a4) {
+    a4 << a4;
+    const o28 = {
+        __proto__: 23914,
+        "f": a4,
+        "c": 23914,
+        [a4](a7, a8) {
+            this[-15];
+            const v10 = super[a4];
+            const o11 = {
+            };
+            try {
+                o11.b = a4;
+            } catch(e12) {
+            }
+            try {
+                const o13 = {
+                };
+                o13.b = a4;
+                o13.f = v10;
+            } catch(e14) {
+            }
+            try {
+                const o15 = {
+                };
+                o15.b = a4;
+                o15.f = v10;
+                o15.h = v10;
+            } catch(e16) {
+                function f17(a18, a19, a20, a21) {
+                    return o11;
+                }
+                f17(-15, -15, a7, 23914);
+            }
+            try {
+                const o26 = {
+                };
+                o26.b = a4;
+                o26.d = v10;
+                o26.e = 2;
+            } catch(e27) {
+            }
+            return a8;
+        },
+    };
+    return o28;
+}
+for (let [...v29] of -15) {
+    const v30 = delete v29?.b;
+    Object.defineProperty(v30, v30, { writable: true, set: f3 });
+    const o33 = {
+        "maxByteLength": 105,
+    };
+    const v35 = new SharedArrayBuffer(1, o33);
+    new Int32Array(v35);
+}
+f3.e = f3;
+f3(2);
+f3(23914);
+f3(23914);
+class C41 {
+    static #n(a43, a44) {
+        let v46 = -9007199254740992;
+        --v46;
+        const v49 = ++a44;
+        Math.floor(v49);
+        v49 + this;
+        return 23914;
+    }
+}
+const v52 = new C41();
+const v53 = v52?.constructor;
+try { new v53(); } catch (e) {}
+const v55 = new C41();
+const v56 = v55?.constructor;
+try { new v56(); } catch (e) {}
+const v58 = new C41();
+const v59 = [-4.0,-187.33463400009316,266767.34688113444,551749.9695726107];
+function f60() {
+    return v59;
+}
+v59.constructor = f60;
+function f61() {
+    return f60;
+}
+try { new f61(); } catch (e) {}
+const v63 = /(?:a*)+q(?<a>.)/guds;
+v63.constructor = f61;
+function f64(a65) {
+    a65.global;
+    a65.constructor;
+    class C68 {
+    }
+    return f64;
+}
+for (let i71 = 0, i72 = 10; i72 & i72, i71 < i72; i71 ^ i71, i72--) {
+    for (let v81 = 0; v81 < 50; v81++) {
+        const v82 = f64(v63, v81);
+        try { v82(v82); } catch (e) {}
+        v82(v59);
+    }
+    function F85(a87, a88, a89, a90) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.g = f3;
+        } catch(e91) {
+        }
+    }
+    const v92 = new F85(v58, v63, f64, C41);
+    new F85(v92, v58, F85, i71);
+    new F85(v63, v92, v92, v63);
+}

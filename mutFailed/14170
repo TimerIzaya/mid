@@ -1,0 +1,56 @@
+class C3 {
+    constructor(a5) {
+        const v6 = this.b;
+        function F7(a9, a10, a11) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = 1000000.0;
+            } catch(e12) {
+            }
+            try {
+                this.d = a11;
+            } catch(e13) {
+            }
+        }
+        const v14 = new F7(v6, 1000000.0, this);
+        const v15 = new F7(v14, F7, 1000000.0);
+        new F7(this, v15, v15);
+    }
+}
+const v17 = new C3(1000000.0);
+const v18 = new C3(v17);
+const v19 = new C3(v18);
+class C20 {
+    #toString(a22, a23, a24, a25) {
+        a24[Symbol.matchAll] = a25;
+        return this;
+    }
+    o(a29, a30, a31) {
+        [this,a30,v19,v17,v19];
+        a31[a31];
+        try {
+            new C3(4294967296);
+        } catch(e36) {
+        }
+        return v19;
+    }
+}
+new C20();
+new C20();
+new C20();
+function f43() {
+    return Date;
+}
+function f44(a45) {
+    function f46() {
+        return a45;
+    }
+}
+Object.defineProperty(Uint8ClampedArray, "toString", { writable: true, enumerable: true, get: f43, set: f44 });
+function F47(a49, a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v52 = new F47(3011, Uint8ClampedArray, F47);
+v52.constructor = Date;
+const t54 = v52.constructor;
+new t54(v52, Uint8ClampedArray, 3011);

@@ -1,0 +1,38 @@
+let v0 = "f";
+class C6 {
+    #g;
+    static set g(a8) {
+        try {
+            this.fuck(-3575n, 1e-15, this);
+        } catch(e11) {
+        }
+        v0 = this;
+    }
+    #b;
+    #d = "4294967296";
+}
+new C6();
+new C6();
+new C6();
+function f15() {
+    return -49472n;
+}
+function f16(a17, a18) {
+    const o19 = {
+        ...a17,
+    };
+    function f20() {
+        return "4294967296";
+    }
+    function f21(a22) {
+    }
+    Object.defineProperty(o19, "g", { writable: true, configurable: true, get: f20, set: f21 });
+    o19.g = o19;
+    return f16;
+}
+f16.d = f16;
+%PrepareFunctionForOptimization(f16);
+const t34 = f16();
+t34(f16);
+%OptimizeFunctionOnNextCall(f16);
+f16();

@@ -1,0 +1,23 @@
+[9007199254740992,-4,314653017];
+[1073741825,128,-5];
+[257,-11,328007605,-21590];
+new BigUint64Array(3123);
+new BigInt64Array(6);
+new Uint8ClampedArray(257);
+function f15() {
+    const o17 = {
+        "c": Array,
+    };
+    const v18 = o17.c;
+    v18[Symbol.toPrimitive] = f15;
+    new v18();
+    for (const v24 of Array(4087, Array, Array)) {
+        v24[Symbol.toPrimitive] = f15;
+        v24 | v24;
+    }
+    return f15;
+}
+%PrepareFunctionForOptimization(f15);
+f15();
+%OptimizeFunctionOnNextCall(f15);
+f15();

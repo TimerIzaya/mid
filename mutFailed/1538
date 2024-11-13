@@ -1,0 +1,31 @@
+new Uint8Array(4);
+const v5 = new Int8Array(1348);
+const v8 = new Uint8Array(1348);
+function f12() {
+    const o14 = {
+        get b() {
+            return Int8Array;
+        },
+    };
+    f12();
+    try {
+        new Uint8Array(o14);
+    } catch(e18) {
+    }
+    return o14;
+}
+class C19 extends f12 {
+    constructor(a21) {
+        v5[536870912n];
+        v8.buffer;
+        try {
+            this.length = 0;
+        } catch(e25) {
+        }
+        super();
+        for (let v26 = 0; v26 < 25; v26++) {
+            this["p" + v26] = v26;
+        }
+    }
+}
+new C19();

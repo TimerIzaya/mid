@@ -1,0 +1,32 @@
+new Int8Array(1664);
+const v5 = new Uint16Array(7);
+const v8 = new Uint16Array(4);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a12;
+    } catch(e14) {
+    }
+    try {
+        a13.b = 7;
+    } catch(e15) {
+    }
+}
+const t14 = 1664;
+const v16 = new t14(7, 7, v8);
+new F9(1664, 1664, v5);
+new F9(1664, 4, v16);
+function F22() {
+    if (!new.target) { throw 'must be called with new'; }
+    const o24 = {
+    };
+    const v26 = new Proxy(this, o24);
+    Object.defineProperty(v26, "o24", { configurable: true, value: F22 });
+    try {
+        with (v26) {
+            o24[b];
+        }
+    } catch(e29) {
+    }
+}
+new F9();

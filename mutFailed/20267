@@ -1,0 +1,64 @@
+let v2 = 2;
+-Infinity;
+let v6 = [-29582,9007199254740992,-1,5,46841,1073741824,3,-11,-986359887];
+[-5,-56647,575068217,65537,-173926510,4,-3,9223372036854775807,-135323507];
+const v8 = [25256,536870888,-65535,1,-9];
+const v12 = new Int16Array(256);
+function f15() {
+    function f16(a17, a18) {
+        const o21 = {
+            "maxByteLength": 487,
+        };
+        const v23 = new ArrayBuffer(487, o21);
+        const v25 = new Float32Array(v23);
+        return v25;
+    }
+    return f16;
+}
+function f26(a27) {
+    const v30 = new Int8Array(16);
+    v30.toSorted();
+}
+Object.defineProperty(Int16Array, "valueOf", { configurable: true, enumerable: true, get: f15, set: f26 });
+%VerifyType(Int16Array);
+v8[Int16Array] = -333060.9549292694;
+v8 == Int16Array;
+e = Int16Array;
+const v34 = Symbol.iterator;
+const o43 = {
+    [v34]() {
+        let v36 = 10;
+        const o42 = {
+            next() {
+                v36--;
+                const v40 = v36 == 0;
+                const o41 = {
+                    "done": v40,
+                    "value": v36,
+                };
+                return o41;
+            },
+        };
+        return o42;
+    },
+};
+new Int16Array(2);
+v2 = 2;
+function f45() {
+    return v6;
+}
+try { v8.includes(2); } catch (e) {}
+for (let v48 = 0; v48 < 49; v48++) {
+    ({"buffer":v48,"e":v48,"length":v48,} = v12);
+    v6 = v8;
+}
+Int16Array & Int16Array;
+new Uint16Array(9);
+const v52 = [-1245897732,-9,-356186296,128,12,1119687909,6,0,268435439,-2147483649];
+const v53 = [-1915908385,268435441,-4096];
+const o54 = {
+};
+const v55 = o54 ^ o54;
+let v56 = 9223372036854775807;
+v52.__proto__ = v53;
+v52.includes(++v56, v55);

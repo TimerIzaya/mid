@@ -1,0 +1,40 @@
+function f0() {
+}
+class C1 extends f0 {
+    static 1866;
+    static #m() {
+        const v3 = f0(this, this, C1);
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeFunctionOnNextCall(f0);
+        const v6 = f0();
+        let v7;
+        try { v7 = this.every(v6, v3, f0, v6); } catch (e) {}
+        return v7;
+    }
+    #c = f0;
+    7 = f0;
+    #g = f0;
+    static b;
+}
+const v8 = new C1();
+const v9 = new C1();
+const v10 = new C1(C1, v9, v9);
+const v11 = [C1,v9,f0,C1];
+const v12 = [C1,v11,v8,v11,f0,v10];
+[f0,v11,f0];
+new Function(2975, v12, v12, f0);
+new BigUint64Array(2943);
+new BigInt64Array(3243);
+for (let v26 = 0; v26 < 5; v26++) {
+    function f27() {
+        const v28 = [-1.5424212036356715e+308];
+        const v29 = v28.shift(v26, v28, 1000000.0);
+        const v30 = [1073741824,1073741823,1376142744,1073741825];
+        v30.g = v30;
+        return v29;
+    }
+    f27();
+    %OptimizeFunctionOnNextCall(f27);
+}

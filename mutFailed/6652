@@ -1,0 +1,55 @@
+const v0 = [];
+function f1(a2) {
+    function F3(a5, a6, a7, a8) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v9 = this.constructor;
+        try { new v9(); } catch (e) {}
+        try {
+        } catch(e11) {
+            const v13 = Float32Array();
+            class C15 extends Float64Array {
+            }
+            const v16 = C15();
+            try { v16(v13); } catch (e) {}
+        }
+    }
+    return a2;
+}
+v0.toString = f1;
+class C18 {
+    static 0 = v0;
+    get a() {
+        [this];
+        [v0,v0,v0];
+        [this];
+        return v0;
+    }
+    static #f;
+    static 56;
+    static [v0] = v0;
+    static 255;
+    #g;
+}
+const v23 = new C18();
+new C18();
+new v23();
+function f26() {
+    return C18;
+}
+new BigUint64Array(128);
+new BigInt64Array(6);
+new Int16Array(207);
+function f36(a37, a38) {
+    const o39 = {
+        ...a37,
+    };
+    o39.g = o39;
+    return f26;
+}
+f36.d = f36;
+f36.d = f36;
+%PrepareFunctionForOptimization(f1);
+const t51 = f36();
+t51(f36);
+%OptimizeFunctionOnNextCall(f1);
+f36();

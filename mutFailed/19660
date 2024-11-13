@@ -1,0 +1,56 @@
+class C3 {
+    static {
+        for (const v5 of "MAX_SAFE_INTEGER") {
+        }
+    }
+    n(a7, a8) {
+        const t6 = "MAX_SAFE_INTEGER";
+        t6[a8] = a8;
+        const o9 = {
+        };
+        const v11 = new Proxy(this, C3);
+        let {"a":v12,"d":v13,"f":v14,} = v11;
+        super.f >>>= a8;
+        return this;
+    }
+    d;
+    ["MAX_SAFE_INTEGER"] = 0.0;
+    #b = 2.220446049250313e-16;
+    #d = C3;
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+const v18 = [v16,"MAX_SAFE_INTEGER","MAX_SAFE_INTEGER",v17];
+[v17,2.220446049250313e-16,[v16,v16]];
+const v22 = [v15,[0.0],v18];
+[v22,"MAX_SAFE_INTEGER",v22];
+function f24() {
+    return v18;
+}
+const v26 = new Map();
+let v27;
+try { v27 = v26.keys(); } catch (e) {}
+v27.__lookupGetter__;
+const v31 = new Uint8Array();
+function f32(a33, a34, a35, a36) {
+    let v38;
+    try { v38 = v27(); } catch (e) {}
+    a36[v22] = v26;
+    v38?.[2];
+    f24();
+    const v41 = a35 ^ a35;
+    const o45 = {
+        "b": a33,
+        "c": a36,
+        ...v31,
+        n(a43, a44) {
+            return v41;
+        },
+    };
+    return v41;
+}
+for (let v46 = 0; v46 < 625; v46++) {
+    f32(Uint8Array, 2, v46);
+}
+new Int8Array(1073741823);

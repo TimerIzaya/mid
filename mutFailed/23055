@@ -1,0 +1,36 @@
+const v0 = [-128,268435440,129,255,-1265012075];
+const v1 = [1073741824,-1,-1476139636,-65536,4294967296,50047,-14,1717586943,356536113,1073741823];
+const v2 = [1073741823,1024,31396,1024,-65536,9007199254740992];
+[v1];
+[v1,v2,v2];
+const v5 = [v1,v0];
+function f9(a10, a11, a12, a13) {
+    const o20 = {
+        valueOf(a15, a16, a17) {
+            const v18 = [a11,a11,a17,...v1];
+            try {
+                v18.length = 65536;
+            } catch(e19) {
+            }
+            return this;
+        },
+        __proto__: v5,
+        127: v5,
+    };
+    return o20;
+}
+f9(65536, 65536, 65536, 9223372036854775807);
+f9(65536, 9223372036854775807, 65536, 627816988);
+f9(65536, 627816988, 9223372036854775807, 9223372036854775807);
+function F24(a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f29() {
+        Math.toString = f9;
+        return Math.asin(Math);
+    }
+    %PrepareFunctionForOptimization(f29);
+    f29();
+    %OptimizeFunctionOnNextCall(f29);
+    f29();
+}
+new F24(F24, F24, F24);

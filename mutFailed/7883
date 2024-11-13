@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 16;
+    } catch(e3) {
+    }
+    try {
+        F0.g = 16;
+    } catch(e4) {
+    }
+    try {
+        this.a = 16;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+let v9 = Date;
+const v10 = new v9();
+function f11(a12, a13, a14, a15) {
+    const o23 = {
+        m(a17, a18, a19) {
+            let v20;
+            try { v20 = a19.setUTCMinutes(a17, a19, a13); } catch (e) {}
+            let v21;
+            try { v21 = v20.p(v20); } catch (e) {}
+            try { new v21(this, a15); } catch (e) {}
+            return v21;
+        },
+        8: a14,
+        __proto__: v9,
+        1: f11,
+        "f": a15,
+        "g": F0,
+        [a13]: v6,
+    };
+    return o23;
+}
+const v24 = f11(v6, v8, v6, f11);
+const v25 = f11(v9, v7, v7, v8);
+f11(v10, v6, v10, v8);
+class C27 {
+    static #b = v6;
+    [v24];
+    #n(a29, a30, a31, a32) {
+        v9 = v7;
+        let v33 = 10;
+        for (; v33--;) {
+            v25 in a31;
+            try {
+                a31.#b;
+            } catch(e37) {
+            }
+        }
+        return a31;
+    }
+}
+new C27();
+new C27();
+new v7();
+const t61 = [8.360030709333259,416819.70671931445,1000.0,-1.0513464134302462e+307,2.2250738585072014e-308,-999.1393293497049];
+t61.length = 1;

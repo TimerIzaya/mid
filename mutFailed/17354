@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 255;
+    } catch(e3) {
+    }
+    try {
+        this.constructor = 255;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [v7];
+const v9 = [v8,v8];
+v9[1] = v9;
+const v10 = [v9];
+class C11 extends F0 {
+    static [v7];
+    [v9];
+    f = v10;
+    static {
+        this.prototype = this;
+        this.name;
+        try {
+            v10.e = v6;
+        } catch(e14) {
+        }
+    }
+    #g = v9;
+    static 268435441;
+}
+try { new C11(); } catch (e) {}
+new C11();
+new C11();
+const v18 = new C11();
+v18.constructor = v18;
+v18.cause;
+const t38 = "object";
+t38[5] = "object";
+%PrepareFunctionForOptimization("object");
