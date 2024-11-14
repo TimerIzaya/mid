@@ -1,0 +1,61 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -256n;
+    } catch(e6) {
+    }
+}
+new F3(-256n);
+const v8 = new F3(-9007199254740991n);
+const v9 = new F3(-9007199254740991n);
+function f10(a11, a12, a13) {
+    const o21 = {
+        "e": -256n,
+        "f": a13,
+        set d(a15) {
+            const v16 = `
+                try {
+                    v8.length = 4294967295;
+                } catch(e18) {
+                }
+            `;
+            eval(v16);
+        },
+    };
+    return o21;
+}
+f10(f10, -9007199254740991n, -256n);
+f10(-256n, -256n, -256n);
+const v24 = f10(-9007199254740991n, -256n, -256n);
+function f25() {
+    return f25;
+}
+class C26 extends f25 {
+}
+Object.defineProperty(v9, "c", { writable: true, enumerable: true, set: f25 });
+const v27 = [-2.220446049250313e-16,-Infinity];
+[-2.0,2.220446049250313e-16,4.918718724113776e+307,7.386970310820197e+307,2.220446049250313e-16,1000000.0,-1000000000.0,-0.0];
+[-1000000000.0,-8.892897412482943,-4.0,Infinity,-712265.6272319343,6.7642482516945925,1.4259384298226187e+307,141808.62868074072,-3.009946532454917,-1.7976931348623157e+308];
+Object.defineProperty(v24, -256n, { configurable: true, enumerable: true, value: -256n });
+class C30 extends C26 {
+}
+function f33(a34, a35, a36, a37) {
+    v27[3];
+    v8[a34];
+    new Array(0);
+    try { a34(); } catch (e) {}
+    a35 & a35;
+    const v45 = 3 | C30;
+    v45 * v45;
+    a34 / a34;
+    const v48 = a35 < a34;
+    const o52 = {
+        n(a50, a51) {
+            return v48;
+        },
+    };
+    return a36;
+}
+for (let v53 = 0; v53 < 500; v53++) {
+    f33(Uint8Array);
+}

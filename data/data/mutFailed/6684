@@ -1,0 +1,33 @@
+const t0 = false;
+const v2 = new t0();
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f12() {
+        return v2;
+    }
+    function f13(a14) {
+        Set.constructor;
+    }
+    Object.defineProperty(this, "f", { enumerable: true, get: f12, set: Set });
+    try {
+        this.a = a11;
+    } catch(e16) {
+    }
+    try {
+        this.f = a10;
+    } catch(e17) {
+    }
+    try {
+        this.g = a8;
+    } catch(e18) {
+    }
+}
+new F6(4096n, -452974669n, 268435441n, -452974669n);
+const v20 = new F6(-452974669n, 268435441n, 268435441n, -452974669n);
+new F6(268435441n, v2, -452974669n, 268435441n);
+const v23 = [-2.220446049250313e-16,-1000000000.0,-1e-15,1000000000.0,-1.0,1000000000.0,-1000.0];
+const v24 = [1000000000000.0,1e-15];
+v24[3] = v20;
+v23.fill(v24, v23);
+v24[3] = -1000000.0;
+delete v24[2];

@@ -1,0 +1,57 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #d;
+    n() {
+        Object.defineProperty(this, this, { enumerable: true, get: f0, set: f0 });
+        return this in this;
+    }
+    constructor() {
+        super();
+        new Uint8Array(1024);
+        new Uint8ClampedArray(1024);
+        Int8Array.prototype = Int8Array;
+        new Int8Array(512);
+    }
+}
+new C1();
+new C1();
+new C1();
+const v17 = [5.0,3.0,2.220446049250313e-16,-1.2853956021201363,-183.88789632668238,-515.6705761033267,5.0,4.0,-840.1124132795834,-6.399117480088508];
+try { v17.map(f0); } catch (e) {}
+[-374956.80334286124];
+const v20 = [0.860872468064004,2.3360287686480063,-0.7195963739855529,-1.7976931348623157e+308,-8.529952229714453,-445694.4799526228,-1.0];
+const v21 = [4294967296,256,65536];
+try { v21.reduce(v20); } catch (e) {}
+const v23 = [256,4096,4096,57827];
+try { v23.toString(); } catch (e) {}
+[52027,-2147483649];
+try { ("bigint").localeCompare("bigint"); } catch (e) {}
+"e" == "e";
+function F31() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v33 = this?.constructor;
+    try { new v33(); } catch (e) {}
+}
+try { F31(); } catch (e) {}
+const v36 = new F31();
+const v37 = new F31();
+v37.length = v37;
+const v38 = new F31();
+const v39 = v38?.__defineGetter__;
+try { new v39(v38, C1); } catch (e) {}
+let v45;
+try {
+const t0 = "object";
+v45 = t0(v36, "number", F31);
+} catch (e) {}
+function f46(a47) {
+    return v45;
+}
+class C48 extends f46 {
+    [v37] = "E";
+    [v36] = -14n;
+    268435441 = -14n;
+}
+const t55 = "object";
+t55[v37] &= v45;

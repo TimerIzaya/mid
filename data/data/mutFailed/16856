@@ -1,0 +1,84 @@
+function f0() {
+    const o23 = {
+        10: -2,
+        __proto__: "constructor",
+        "c": -148.91021304516778,
+        "e": -2,
+        p(a5) {
+            %VerifyType("constructor");
+            let v6;
+            try { v6 = a5("constructor", "constructor", "constructor"); } catch (e) {}
+            const o7 = {
+            };
+            try {
+                o7.g = "constructor";
+            } catch(e8) {
+            }
+            try {
+                const o9 = {
+                };
+                o9.g = "constructor";
+                o9.c = this;
+            } catch(e10) {
+            }
+            try {
+                const o11 = {
+                };
+                o11.g = "constructor";
+                o11.c = this;
+                o11.e = -2;
+            } catch(e12) {
+                const v14 = 16 | 16;
+                const v16 = new Date(v14);
+                v16.setFullYear(Date, v16, v14);
+                class C18 extends Date {
+                }
+                const v19 = new C18();
+                (-148.91021304516778).setHours(C18, C18, v19, C18);
+            }
+            try {
+                const o21 = {
+                };
+                o21.g = "constructor";
+                o21.c = this;
+                o21.e = v6;
+            } catch(e22) {
+            }
+            return -2;
+        },
+    };
+    return o23;
+}
+const v24 = f0();
+const v25 = f0();
+const v26 = f0();
+function f27(a28) {
+    const o29 = {
+        __proto__: f0,
+        208: a28,
+        "c": v24,
+        [v24]: v24,
+        5: v25,
+        [a28]: a28,
+        ...a28,
+        "b": f0,
+        [f0]: a28,
+        ...v25,
+        "f": v25,
+        "e": v24,
+    };
+    return o29;
+}
+const v30 = f27(f27);
+f27(v25);
+const v32 = f27(v30);
+[[v32,v24,[v26,v32,v32,v24]],f27,v30];
+const o42 = {
+    toString(a40) {
+        class C41 {
+            static [this] = a40;
+        }
+        return C41;
+    },
+};
+try { o42.toString(); } catch (e) {}

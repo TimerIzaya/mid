@@ -1,0 +1,94 @@
+function f0() {
+    const o15 = {
+        10: -104.78921033741665,
+        [f0]: 26802.834644760587,
+        ..."pAs",
+        ["pAs"](a5, a6) {
+            function F7(a9, a10) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = this;
+                } catch(e11) {
+                }
+            }
+            const v12 = new F7(this, 26802.834644760587);
+            new F7(v12, v12);
+            new F7(-104.78921033741665, "pAs");
+            return v12;
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+const v17 = f0();
+try {
+    new f0();
+} catch(e19) {
+}
+for (let v20 = 0; v20 < 100; v20++) {
+    f0();
+}
+const v22 = f0();
+class C23 {
+    constructor(a25) {
+        function f26() {
+            return f26;
+        }
+        const v27 = f26();
+        const v28 = [f26];
+        function F29(a31, a32, a33) {
+            if (!new.target) { throw 'must be called with new'; }
+            a31 === a32;
+        }
+        function f35() {
+            for (let v36 = 0; v36 < 5; v36++) {
+                const v37 = new F29();
+                const v38 = v28.constructor;
+                try { new v38(v27, v28); } catch (e) {}
+                const t47 = v37.constructor;
+                new t47();
+            }
+            return v28;
+        }
+        %PrepareFunctionForOptimization(f35);
+        f35();
+        %OptimizeFunctionOnNextCall(f35);
+        F29();
+        function F44(a46, a47) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = this;
+            try {
+                this.e = v16;
+            } catch(e48) {
+                const v49 = [12];
+                let v50 = 8;
+                v50++;
+                v49.toLocaleString();
+            }
+            try {
+                this.c = v17;
+            } catch(e53) {
+            }
+        }
+        new F44(a25, this);
+        const v55 = new F44(v16, v22);
+        new F44(v55, v22);
+    }
+}
+const v57 = new C23(C23);
+new C23(v57);
+new C23(v16);
+new BigInt64Array(7);
+new BigUint64Array(2314);
+new Uint16Array(3);
+class C70 extends WeakMap {
+}
+const v71 = new v57();
+function F72(a74, a75) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v76 = this.constructor;
+    try { new v76(); } catch (e) {}
+    this.h = v71;
+}
+const v78 = new F72(C70, v71);
+new F72(v78, v78);

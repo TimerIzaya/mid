@@ -1,0 +1,72 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 255;
+    } catch(e3) {
+    }
+    const o6 = {
+        set b(a5) {
+        },
+    };
+    const v8 = [-2.14860426829137,-9.58586124400876,2.0,2.2250738585072014e-308,0.0,-3.0,Infinity,-317.1953498647964,2.0];
+    class C9 extends Int16Array {
+        [v8];
+    }
+    try {
+        this.c = 255;
+    } catch(e10) {
+    }
+    try {
+        this.a = 255;
+    } catch(e11) {
+    }
+    const v13 = new Map();
+    const t23 = v13.constructor;
+    const v15 = t23();
+    const o16 = {
+        __proto__: v15,
+    };
+    o16.constructor;
+}
+const v18 = new F0();
+const v19 = new F0();
+const v20 = new F0();
+v20.a = v20;
+function f21() {
+    return F0;
+}
+try { f21.bind(v18); } catch (e) {}
+function F23(a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    a25.a = a25;
+    try {
+        this.d = v19;
+    } catch(e26) {
+    }
+    try {
+        this.c = v18;
+    } catch(e27) {
+    }
+    try {
+        this.e = v20;
+    } catch(e28) {
+    }
+}
+new F23(v18);
+new F23(v19);
+const v31 = new F23(v20);
+const v32 = v31?.constructor;
+try { new v32(F23); } catch (e) {}
+class C34 {
+}
+function f35() {
+    return C34;
+}
+new Uint32Array(198);
+new Int8Array(8);
+try { Uint8Array.toString(); } catch (e) {}
+const v45 = new Uint8Array(4096);
+v45[18];
+const v49 = new BigInt64Array(128);
+-11907 / -11907;
+v49.indexOf(-11907, 4294967296);

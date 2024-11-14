@@ -1,0 +1,23 @@
+new BigInt64Array(2187);
+new Int32Array(229);
+new Int8Array(0);
+[-5,5,1462978037,-1,-2,-128,4294967297,4096,1024,-1915126244];
+[9007199254740991];
+[2,-1343785836,0,65537,2147483649];
+function f16() {
+    const v17 = [f16];
+    function f18(a19) {
+        return a19;
+    }
+    v17.constructor = f18;
+    const v20 = v17.constructor;
+    return v20(v20, f18);
+}
+%PrepareFunctionForOptimization(BigInt64Array);
+f16();
+%OptimizeFunctionOnNextCall(f16);
+Int32Array();
+const v24 = ["symbol","symbol"];
+const v27 = new Float32Array(250);
+const v29 = ["symbol"];
+Reflect.apply(v24.toLocaleString, v27, v29);

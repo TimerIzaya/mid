@@ -1,0 +1,44 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [v1];
+const v3 = [v2,v2,v1,v2,v2];
+class C4 extends f0 {
+    static toString(a6) {
+        const o9 = {
+            "maxByteLength": 2147483647,
+        };
+        const v11 = new ArrayBuffer(v1, o9);
+        new Uint16Array(v11);
+        return 127;
+    }
+    f;
+    static [v2];
+}
+new C4();
+const v15 = new C4();
+new C4();
+class C17 extends C4 {
+    #m(a19, a20, a21) {
+        Object.defineProperty(v3, a21, { writable: true, get: f0 });
+        super.f = a20;
+        a21[Symbol.unscopables] = v1;
+        const v24 = new C4();
+        v2.unshift(v24, ...v2, ...v3, v24, v15, ...v1);
+        return f0;
+    }
+    6 = v2;
+    #d;
+    2147483648;
+    static 1024;
+}
+const v26 = new C17();
+new v26();
+new C17();
+function f29() {
+    return v15;
+}
+[26897];
+[3,255,463960530,4,-4294967296,-2,268435441,-65264];
+[-65536,16,-9223372036854775808,9007199254740990,3,8,1073741823,1000,-12,127];
+(10).toFixed(10);

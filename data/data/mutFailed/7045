@@ -1,0 +1,45 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a6;
+    } catch(e7) {
+    }
+    try {
+        const t7 = "-9223372036854775807";
+        t7.b = a5;
+    } catch(e8) {
+    }
+}
+new F3("-9223372036854775807", "boolean");
+new F3("-9223372036854775807", "536870912");
+new F3("-9223372036854775807", "536870912");
+Promise.race();
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v20 = this.constructor;
+    try { new v20(); } catch (e) {}
+    try { this.constructor(); } catch (e) {}
+}
+new F16();
+new Uint8Array(1277);
+new Int32Array(3691);
+new BigInt64Array(BigInt64Array);
+function f31(a32) {
+    const o33 = {
+        9: a32,
+        "f": "boolean",
+    };
+    return o33;
+}
+f31();
+const v35 = f31();
+v35[9] = v35;
+f31();
+function F37() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+try {
+    Array(-12302);
+} catch(e42) {
+    ("536870912").stack;
+}

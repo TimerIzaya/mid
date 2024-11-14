@@ -1,0 +1,107 @@
+function f0() {
+}
+class C1 {
+    static {
+        new Uint32Array(128);
+        new BigUint64Array(257);
+        new Int32Array(184);
+        function f12() {
+            let v13 = -Infinity;
+            const o31 = {
+                "a": v13,
+                ...2147483647,
+                "d": v13,
+                get f() {
+                    for (let v17 = 0; v17 < 32; v17++) {
+                        this["p" >>> v17] = v17;
+                        try {
+                            const o23 = {
+                                "g": "sync",
+                                "type": "minor",
+                            };
+                            gc(o23);
+                        } catch(e25) {
+                            super.c;
+                        } finally {
+                            try {
+                                new Uint32Array(this);
+                            } catch(e28) {
+                            }
+                        }
+                    }
+                    const v29 = this ^ 2147483647;
+                    v29 || v29;
+                    v13 = -4.057627999724119;
+                    return 2147483647;
+                },
+                __proto__: 2147483647,
+            };
+            return o31;
+        }
+    }
+}
+const v32 = new C1();
+const v33 = new C1();
+new C1();
+536870912n << 536870912n;
+new Uint8ClampedArray();
+function F41(a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F41(f0, 35066, 536870912n);
+function F47(a49, a50) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a49;
+    } catch(e51) {
+    }
+}
+new F47(v33, C1);
+const v53 = new F47(v33, v32, 536870912n, -65537, v33);
+new C1(v53, v33);
+function F55(a57, a58) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f59(a60, a61) {
+        const v63 = ("0x2I").sup(F55, "0x2I", "0x2I", a61, f59);
+        v63.toString(F55, v63, a60, this);
+        return f59;
+    }
+    %PrepareFunctionForOptimization(f59);
+    f59(F55, F55);
+    %OptimizeFunctionOnNextCall(a57);
+    f59(a58, a58);
+}
+new v33();
+class C69 {
+}
+const v70 = new C69();
+function f71(a72, a73) {
+    const v74 = a73?.propertyIsEnumerable;
+    try { v74(); } catch (e) {}
+    const v76 = [];
+    function f77(a78, a79) {
+        class C80 {
+        }
+        return a78;
+    }
+    Object.defineProperty(v76, "valueOf", { configurable: true, value: f77 });
+    let v81;
+    try { v81 = v76.with(v76, v76); } catch (e) {}
+    const v83 = new Float64Array(v76, v81);
+    const v84 = new Float64Array(v83, a72, v81);
+    v84.values();
+    return v84;
+}
+%PrepareFunctionForOptimization(f71);
+f71(Uint16Array, v70);
+const v88 = [];
+class C89 {
+    constructor() {
+        delete v88[1073741824];
+    }
+}
+%OptimizeFunctionOnNextCall(f71);
+const v93 = new Int8Array();
+const v95 = new Uint16Array();
+v95["values"](v93, Int8Array, ..."values");
+f71(v70, v70, 536870912n);

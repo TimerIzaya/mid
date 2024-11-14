@@ -1,0 +1,71 @@
+let v0 = -53207;
+const v6 = 9007199254740990 < 9007199254740990;
+Object.defineProperty(g, v0, { writable: true, configurable: true, enumerable: true, value: v6 });
+const o9 = {
+    "maxByteLength": 2389,
+};
+const v11 = new SharedArrayBuffer(95, o9);
+new DataView(v11);
+let v14 = -9223372036854775807;
+class C15 {
+    set f(a17) {
+        a17 >> this;
+    }
+    constructor(a20, a21, a22, a23) {
+        [this];
+        v0 = 536870887;
+        throw this;
+        super[v14 = 536870887];
+    }
+}
+const v26 = new C15(9007199254740990, 7, 536870887, 9007199254740990);
+const v27 = new C15(v14, v26, 1819717167, v14);
+const v28 = new C15(v14, v27, v0, 536870887);
+const v29 = [1073741824,1073741823,1376142744,1073741825];
+function f30(a31, a32, a33, a34) {
+    function f35() {
+        let v37 = 0;
+        do {
+            [v6];
+            const v39 = [v37,v0,a33,v29,v37];
+            [v39,v39,v39,v37];
+            v37++;
+        } while (v37 < 8)
+        const v44 = Math.expm1(a32);
+        const v45 = Math.tanh();
+        const v46 = Math.hypot(a33, Math);
+        try {
+            v29.findLast(a33);
+        } catch(e48) {
+        }
+        const o49 = {
+            [v45]: v44,
+        };
+        return v46;
+    }
+    const v50 = f35();
+    const v52 = eval(a34);
+    function F53(a55, a56, a57, a58) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = v6;
+        } catch(e59) {
+        }
+        try {
+            this.b = v28;
+        } catch(e60) {
+        }
+        try {
+            this.a = a56;
+        } catch(e61) {
+        }
+    }
+    new F53(v26, 2389, v50, a33);
+    const v63 = new F53(a31, v14, v28, a31);
+    new F53(v28, v63, a33, v52);
+    %OptimizeFunctionOnNextCall(f35);
+    return f30;
+}
+for (let v65 = 0; v65 < 5; v65++) {
+    f30();
+}

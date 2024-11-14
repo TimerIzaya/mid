@@ -1,0 +1,31 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 6;
+    } catch(e3) {
+    }
+    try {
+        this.b = 6;
+    } catch(e4) {
+    }
+    try {
+        this.MIN_VALUE = 6;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Uint16Array(565);
+new d8(0);
+new Float32Array(6);
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    !(-256n >> -256n);
+    try {
+        new F24(this, a26);
+    } catch(e32) {
+    }
+}
+new F24(F24, F24);
+new F24(F24, F24);

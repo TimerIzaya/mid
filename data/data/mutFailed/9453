@@ -1,0 +1,38 @@
+class C3 {
+    constructor(a5, a6) {
+        a5.e = a5;
+        a6 % a6;
+        try { gc(); } catch (e) {}
+        const o12 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        const v13 = gc(o12);
+        try { v13.then("minor", "async"); } catch (e) {}
+    }
+    static get f() {
+        const o19 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o19);
+        return 3;
+    }
+}
+const v21 = new C3(C3, 1000000000000.0);
+const v22 = v21?.constructor;
+try { new v22(1000000000000.0, C3); } catch (e) {}
+const v24 = new C3(v21, "string");
+try { v24.constructor("string", 3); } catch (e) {}
+new C3(3, 3);
+const v29 = ("g")?.trimRight;
+try { new v29(); } catch (e) {}
+const t29 = "-9007199254740992";
+t29[15] = "-9007199254740992";
+try { ("undefined").padStart("g"); } catch (e) {}
+try { ("4").toLowerCase(); } catch (e) {}
+const v41 = new Float64Array();
+for (let v42 = 0; v42 < 25; v42++) {
+    Math.cosh(v42);
+}
+v41[Symbol.matchAll];

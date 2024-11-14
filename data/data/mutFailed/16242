@@ -1,0 +1,69 @@
+function F2() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f4() {
+        return F2;
+    }
+    function f5(a6) {
+        for (let v7 = 0; v7 < 32; v7++) {
+            this["p" + v7] = v7;
+        }
+    }
+    Object.defineProperty(this, 1073741824, { writable: true, get: f4, set: f5 });
+    try {
+        const v10 = this[1073741824];
+        v10[4040] = v10;
+    } catch(e11) {
+    }
+}
+const v12 = new F2();
+const v13 = new F2();
+function f14(a15, a16) {
+    try {
+        v12.fuck(1033400695, 45672n, v12);
+    } catch(e21) {
+    }
+    return a16;
+}
+v13.constructor = f14;
+const v22 = new F2();
+class C23 extends F2 {
+}
+const v24 = new C23();
+const v25 = new C23();
+const t32 = v25.constructor;
+const v27 = new t32();
+const v28 = new C23();
+const v29 = v28.constructor;
+new v29(v27, v29, v27, v22, v29);
+class C31 {
+    constructor(a33, a34, a35) {
+        function f36() {
+            return f14;
+        }
+        Object.defineProperty(a35, "constructor", { writable: true, enumerable: true, get: f36 });
+        const v37 = a34.constructor;
+        new v37(v37, C23, a34, a33);
+        const t45 = a35.constructor;
+        new t45();
+    }
+}
+new C31(v22, v24, v13);
+[1.0,0.40117136137532805,0.9690314419495234,-1000.0];
+[-736851.853569603,-6.188981379865466e+307,1000000000000.0,-1000000.0,0.07741887218081356,1000.0,3.0,-1.0];
+[-7.756186339436578e+307,-5.0,1000000.0,-1000.0,-3.1741074446727913,-1.0,4.055008020150893];
+class C46 {
+    static m(a48, a49) {
+        let v50 = super[a49];
+        try { a48.trimEnd(); } catch (e) {}
+        v50 ^= "deref";
+        return "setMinutes";
+    }
+    g;
+    #f;
+    65537;
+}
+new C46();
+new C46();
+new C46();
+const v58 = new Uint16Array(96);
+new Float64Array(v58);

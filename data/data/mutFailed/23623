@@ -1,0 +1,46 @@
+class C3 {
+    n(a5, a6) {
+        this[4294967296] = "number";
+        let v7;
+        try { v7 = new a5(0.13462413542508522); } catch (e) {}
+        Object.defineProperty(v7, v7, { writable: true, configurable: true, value: this + "arguments" });
+        return 0.13462413542508522;
+    }
+    ["number"] = "number";
+    static #a;
+    static [0.13462413542508522];
+    static f;
+    [0.13462413542508522] = "arguments";
+}
+new C3();
+const v10 = new C3();
+new C3();
+BigInt64Array.a = BigInt64Array;
+new BigInt64Array(127);
+new Float64Array(6);
+const v20 = new Int8Array(863);
+const v21 = [1073741824,1073741823,1376142744,1073741825];
+function f22(a23, a24) {
+    let v25 = gc;
+    v25 /= ("arguments").trim();
+    return v20;
+}
+v21.toString = f22;
+try { v21.map(863); } catch (e) {}
+function f28(a29, a30, a31, a32) {
+    a29.toString = f22;
+    a32[Symbol.toPrimitive] = f28;
+    a29 >> a29;
+    a32 - a32;
+    const v37 = v21.indexOf();
+    v37 & v37;
+    return a32;
+}
+for (let v39 = 0; v39 < 10; v39++) {
+    v39++;
+    const v41 = f28(v39, v39, v39, v39);
+    v41 & v41;
+}
+%OptimizeFunctionOnNextCall(f28);
+const v43 = f28(v21, f28, v21, f28);
+try { v43(v10, v10, v20, v10); } catch (e) {}

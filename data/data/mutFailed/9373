@@ -1,0 +1,54 @@
+const v2 = new Array(1);
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a6;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(F3, 1);
+const v9 = new v8(F3, Array);
+const v10 = new F3(v8, v2);
+function f14(a15, a16, a17) {
+    const o42 = {
+        "b": f14,
+        ...a16,
+        ...a15,
+        "g": a15,
+        n(a19, a20, a21) {
+            let v22;
+            try { v22 = a21(a16, v2, a19); } catch (e) {}
+            try {
+                super.o(v10, v22);
+            } catch(e24) {
+            }
+            return this;
+        },
+        "a": -65535n,
+        valueOf(a26, a27, a28, a29) {
+            super.g;
+            try {
+                a16.toString = Array;
+            } catch(e31) {
+            }
+            super.c /= a29;
+            function f32() {
+                return a27;
+            }
+            new Uint8Array(512);
+            new Int32Array(1507);
+            new Uint8Array(a26);
+            return 1;
+        },
+    };
+    return o42;
+}
+f14(v8, v9, 7n);
+f14(v8, v8, 1200625186n);
+f14(v9, v10, 1200625186n);
+const o49 = {
+    "maxByteLength": 150,
+};
+const v51 = new ArrayBuffer(127, o49);
+const v53 = new v10(v51);
+v53[-65536n] = v53;

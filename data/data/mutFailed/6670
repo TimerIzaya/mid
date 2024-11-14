@@ -1,0 +1,80 @@
+const v0 = /d(?<!)+/uiy;
+const v1 = /wPF(?!a)?a+/gi;
+const v2 = /[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/dsy;
+class C3 {
+    [v0];
+    static valueOf(a5, a6) {
+        const o9 = {
+            "maxByteLength": 255,
+        };
+        const v11 = new SharedArrayBuffer(255, o9);
+        new Int8Array(v11);
+        return v0;
+    }
+    b;
+    static e = v2;
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v1;
+    } catch(e23) {
+        const o29 = {
+            "maxByteLength": 257,
+        };
+        const v31 = new ArrayBuffer(257, o29);
+        new Int8Array(v31);
+    }
+    try {
+        this.e = a20;
+    } catch(e34) {
+        for (let i36 = 0; i36 < 9; i36++) {
+            new Array(9);
+        }
+    }
+    try {
+        this.b = v14;
+    } catch(e45) {
+    }
+}
+const v46 = new F17(v0, v2, v14, v2);
+const v47 = new F17(v1, v2, v15, v0);
+const v48 = new F17(v0, v2, v46, v2);
+function f49() {
+    return v2;
+}
+function f50() {
+    return f49;
+}
+function f52(a53, a54, a55) {
+    const o65 = {
+        m(a57, a58, a59, a60) {
+            Object.defineProperty(a55, -2, { writable: true, enumerable: true, set: f49 });
+            try {
+                v15.fuck("sticky", "sticky", "sticky", ["sticky",,this,v46,f50]);
+            } catch(e64) {
+            }
+            return v14;
+        },
+        ...v47,
+        1771074075: v15,
+        ...C3,
+        ...v46,
+        __proto__: v14,
+    };
+    return o65;
+}
+const v66 = f52(v48, v47, v46);
+f52(v46, v46, v16);
+Object.defineProperty(v0, 268435456, { writable: true, enumerable: true, get: f52 });
+v66[v48.__proto__];
+try {
+    v14.length = 90;
+} catch(e72) {
+}
+f52(v46, v15, v14);
+const v75 = [9,1024,256,268435440,-1916992432,7,-2147483648,20126,-2,1645963617];
+try { v75.group(BigInt64Array); } catch (e) {}

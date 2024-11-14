@@ -1,0 +1,73 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.d = -2147483648;
+    } catch(e4) {
+    }
+    class C7 {
+        static [C7];
+        static #b;
+        static [2.0];
+    }
+    const v8 = new C7();
+    const o9 = {
+        ...v8,
+        "e": this,
+        1073741825: C7,
+        ...C7,
+        4278294744: 0,
+    };
+    try {
+        this.h = -2147483648;
+    } catch(e10) {
+    }
+}
+const v11 = new F0();
+const v12 = new F0();
+const v13 = new F0();
+const v17 = [5,1073741824,479573980,4096,536870912,268435440,1,9007199254740992,-6,-2];
+[-4294967295,-43581,1073741825,255,-34997,-4294967295,1073741824,50958,128,6];
+[536870912,-4294967295,1000,128,1024,1073741825,37730,576835736,-9007199254740991];
+function f20() {
+    return "7";
+}
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v12;
+    } catch(e27) {
+    }
+    try {
+        this.b = a23;
+    } catch(e28) {
+    }
+    try {
+        this.c = a26;
+    } catch(e29) {
+    }
+}
+new F21("o", v11, v17, v12);
+const v31 = new F21("o", v13, v13, "7");
+new F21("-67311601", v13, F21, v13);
+function F34(a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v39 = new Uint8ClampedArray(2147483647);
+        v39.toJSON = v31;
+        function f40(a41) {
+            return f40;
+        }
+        const v44 = [a36];
+        const o45 = {
+            "arguments": v44,
+            "type": "function",
+        };
+        Worker(f40, o45);
+    } catch(e47) {
+    }
+}
+new F34();

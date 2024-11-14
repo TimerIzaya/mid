@@ -1,0 +1,64 @@
+class C3 {
+    static [65535] = 65535;
+    static set f(a5) {
+        super.e = "65535";
+        const o8 = {
+            "maxByteLength": -65536,
+        };
+        class C10 {
+            static #c = 65535;
+            static c = -65536;
+        }
+        new C10();
+        new C10();
+        new C10();
+        const v14 = new SharedArrayBuffer(6, o8);
+        new BigUint64Array(v14);
+    }
+}
+new C3();
+const v18 = new C3();
+new C3();
+/5xi/vs;
+const v21 = /(xyz{1,32}?)/ud;
+/i/vdms;
+new Int8Array(4);
+new Float64Array(512);
+new Uint8Array(512);
+const v32 = [-1000000000.0,0.8968097643519101,-8.720684288580602e+307,-1.0,0.32807980030170847,117.99447186142652,1000.0];
+new Int32Array(64);
+class C37 {
+}
+class C38 extends C37 {
+}
+[-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+function f42(a43, a44, a45, a46) {
+    function f47() {
+        for (let v48 = 0; v48 < 100; v48++) {
+            f42(f42, Uint8Array, Uint32Array, f47);
+        }
+        v32[Uint8Array] = v18;
+        let v50;
+        try { v50 = a43(..."65535", ...v21, 4, a44); } catch (e) {}
+        const v53 = Symbol.toPrimitive;
+        const o58 = {
+            "e": -268435456,
+            valueOf(a56, a57) {
+            },
+            "a": v53,
+            "g": v32,
+            "h": f47,
+            3422008225: v50,
+            "c": Uint32Array,
+            6: -268435456,
+        };
+    }
+    f47();
+    const v61 = new Int8Array();
+    v61.buffer;
+    %OptimizeFunctionOnNextCall(f47);
+}
+for (let v64 = 0; v64 < 10; v64++) {
+    f42();
+}
+f42();

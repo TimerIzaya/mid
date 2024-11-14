@@ -1,0 +1,29 @@
+function f0() {
+    const o7 = {
+        [-13]: -273.71473576408016,
+        "c": 823647.2401381312,
+        set d(a5) {
+            try { a5.toString(a5); } catch (e) {}
+            a5[1] = -273.71473576408016;
+        },
+        __proto__: -13,
+        "g": -13,
+        ...-273.71473576408016,
+        1024: 823647.2401381312,
+        "e": -273.71473576408016,
+    };
+    return o7;
+}
+const v8 = f0();
+f0();
+f0();
+new v8(7);
+new Int16Array(6);
+new Uint8ClampedArray(2);
+const v22 = new Int32Array(1024);
+for (const v23 of v22) {
+    const o25 = {
+    };
+    gc(o25);
+    new SharedArrayBuffer(1024);
+}

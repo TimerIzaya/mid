@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -1024;
+    } catch(e3) {
+    }
+    try {
+        this.c = -1024;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = v7?.constructor;
+let v9;
+try { v9 = new v8(); } catch (e) {}
+const v15 = new Uint8ClampedArray(1832);
+let v17;
+try { v17 = v9(1653); } catch (e) {}
+try { v9(v17, Uint8ClampedArray, v17, v6, v8); } catch (e) {}
+try {
+    v17.__proto__ = v7;
+} catch(e19) {
+}
+let v21 = new Uint8Array(1653);
+const v22 = v21?.findLastIndex;
+v15.__proto__;
+Math.floor(56109);
+++v21;
+Math.acos(v21);
+try { new v22(F0); } catch (e) {}
+15 / 15;
+const v37 = new Float32Array(15);
+v37[5] = v37;
+for (let v38 = 0; v38 < 5; v38++) {
+    v38++;
+    function f40() {
+        const o41 = {
+        };
+        new Proxy(v37, o41);
+        for (let [i50, i51] = (() => {
+                0 ^ 0;
+                return [0, 10];
+            })();
+            (() => {
+                i50 + i50;
+                const v53 = i50 < i51;
+                v53 && v53;
+                return v53;
+            })();
+            (() => {
+                const v57 = i50++;
+                v57 >> v57;
+            })()) {
+        }
+        return v38;
+    }
+    let v61 = "lastIndexOf";
+    let v62 = v21[v61](v15, v38);
+    v62++;
+    v61 += v61;
+    v6[Symbol.species];
+    f40();
+    %OptimizeFunctionOnNextCall(f40);
+}

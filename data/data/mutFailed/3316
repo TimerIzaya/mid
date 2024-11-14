@@ -1,0 +1,96 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -1899735043;
+    } catch(e3) {
+    }
+    try {
+        this.a = -1899735043;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+let v6 = new F0();
+const v7 = new F0();
+function f8(a9) {
+    const v10 = [a9,v6,a9,a9,a9];
+    v10["some"]("some", ..."some", ...v10, v7, ...v10);
+    let v15 = -2147483649;
+    let v16 = v15--;
+    ++v16;
+    ++v6;
+    const o25 = {
+        "f": a9,
+        "h": v6,
+        "e": F0,
+        [v5](a20) {
+            a9 in v7;
+            Object.defineProperty(a20, "f", { writable: true, configurable: true, value: a9 });
+            const o22 = {
+            };
+            const v24 = new Proxy(v6, o22);
+            return v24;
+        },
+    };
+    return o25;
+}
+const v26 = f8(v6);
+f8(f8(v26));
+class C29 {
+    static n(a31, a32, a33, a34) {
+        const v37 = new Int16Array(1000);
+        const v42 = new BigInt64Array(1000);
+        class C43 extends Float64Array {
+            constructor(a45, a46, a47, a48) {
+                super(v37);
+            }
+            set b(a50) {
+                function f51() {
+                    return this;
+                }
+            }
+            [65] = Float64Array;
+        }
+        new C43();
+        v37.toLocaleString(BigInt64Array, v42);
+        const o57 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o57);
+        return a33;
+    }
+}
+const o59 = {
+};
+try {
+    o59.f = f8;
+} catch(e60) {
+}
+try {
+    const o61 = {
+    };
+    o61.f = f8;
+    o61.c = v26;
+} catch(e62) {
+}
+try {
+    const o63 = {
+    };
+    o63.f = f8;
+    o63.c = v26;
+    o63.g = C29;
+} catch(e64) {
+}
+try {
+    const o65 = {
+    };
+    o65.f = f8;
+    o65.c = v26;
+    o65.e = F0;
+} catch(e66) {
+}
+new C29();
+new C29();
+new C29();
+("I").localeCompare();

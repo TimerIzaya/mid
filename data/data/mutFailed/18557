@@ -1,0 +1,32 @@
+class C3 {
+    static get e() {
+        try { this.valueOf(11961, 11961, 8.537286360917151e+307, 11961); } catch (e) {}
+        const o9 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o9);
+        return this;
+    }
+    #e;
+}
+const v11 = new C3();
+const v12 = new v11();
+const v13 = new C3(11961, 11961);
+class C17 extends v11 {
+    constructor(a19, a20, a21) {
+        super();
+        try {
+            new SyntaxError("n");
+        } catch(e26) {
+        }
+    }
+    static #h = -337605.564567453;
+    d;
+    1091441239 = v11;
+}
+new C17(C17, 8.537286360917151e+307, v12, -337605.564567453, 8.537286360917151e+307, v13);
+new C17("toDateString", -337605.564567453, "toDateString");
+new C17(-337605.564567453, -2.220446049250313e-16, "toDateString");
+const v32 = new Date();
+v32.setSeconds(v32, "jFd1");

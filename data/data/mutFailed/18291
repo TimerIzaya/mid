@@ -1,0 +1,24 @@
+const v2 = new Uint8ClampedArray(11);
+new v2(10);
+new Int32Array(256);
+function f15(a16, a17, a18, a19) {
+    function f20() {
+        return f20;
+    }
+    f20();
+    function f22(a23, a24) {
+        const o26 = {
+            get d() {
+                return this;
+            },
+        };
+        return NaN;
+    }
+    f22(f22());
+    return f15;
+}
+for (let v29 = 0; v29 < 10; v29++) {
+    v29();
+}
+%OptimizeFunctionOnNextCall(f15);
+f15();

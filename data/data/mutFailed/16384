@@ -1,0 +1,102 @@
+new Date();
+new Uint8Array(16);
+new Int8Array(11);
+new Int8Array(12);
+function F17() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 14;
+    } catch(e20) {
+    }
+    try {
+        this.a = 14;
+    } catch(e21) {
+    }
+    try {
+        this.h = 14;
+    } catch(e22) {
+    }
+}
+const v23 = new F17();
+const v24 = new F17();
+const v25 = new F17();
+function f26() {
+    return Date;
+}
+Object.defineProperty(v25, "toString", { writable: true, enumerable: true, get: f26 });
+class C27 extends F17 {
+    valueOf(a29) {
+        const o33 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o33);
+        return gc;
+    }
+    e = v25;
+    #d;
+}
+C27[Symbol.toPrimitive] = f26;
+const v37 = new C27();
+const v38 = new C27();
+function f39(a40, a41) {
+    return v37;
+    v25.h = f26;
+    return v24;
+}
+v38.toString = f39;
+const v42 = new C27();
+function f43(a44, a45) {
+    Object.defineProperty(a44, "toString", { configurable: true, enumerable: true, value: Date });
+    const o55 = {
+        [a45](a47, a48, a49, a50) {
+            const v53 = typeof v38 === "boolean";
+            try { a45.m(v53, a45, v53); } catch (e) {}
+            return a47;
+        },
+        __proto__: a44,
+        ...v42,
+        ...v42,
+        "f": v25,
+        "c": v38,
+        "b": C27,
+    };
+    return o55;
+}
+f43(v24, C27);
+const v57 = f43(v24, v38);
+const v58 = f43(v25, v25);
+function F59(a61, a62, a63) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a61;
+    try {
+        this.f = a63;
+    } catch(e64) {
+    }
+}
+class C67 {
+    static ["22307"] = "AanB8";
+    b;
+}
+new C67();
+new C67();
+const o78 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc();
+const v80 = new F59(v25, v25, v57);
+const v81 = new F59(v38, v37, v80);
+new F59(v23, v81, v58);
+const v83 = [];
+function f84() {
+    const o86 = {
+        toString() {
+            return this;
+        },
+        3950: v83,
+    };
+    return o86;
+}
+const v89 = new BigUint64Array(3996);
+v89.every(f84);

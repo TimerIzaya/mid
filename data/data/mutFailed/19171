@@ -1,0 +1,27 @@
+new BigUint64Array(2683);
+const v5 = new Float32Array(127);
+const v8 = new Int16Array(256);
+class C9 {
+    constructor(a11, a12, a13, a14) {
+        function f15(a16, a17, a18) {
+            return Float32Array % BigUint64Array;
+        }
+        f15(a13, 256, 127);
+        for (let v21 = 0; v21 < 32; v21++) {
+            v5["p" + v21] = v21;
+        }
+    }
+}
+const v24 = new C9(BigUint64Array, 2683, 127, 256);
+const v25 = new C9(v24, 2683, 256, 2683);
+new C9(v25, 2683, 2683, 2683);
+function F27(a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v31 = this.constructor;
+    try { new v31(v5); } catch (e) {}
+    a30 / a30;
+}
+new v25();
+new F27();
+new F27(v24, v8);
+try { Float32Array(C9); } catch (e) {}

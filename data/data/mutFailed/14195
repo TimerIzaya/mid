@@ -1,0 +1,35 @@
+const v0 = [];
+function f1() {
+    const o8 = {
+        "f": v0,
+        __proto__: v0,
+        [v0]: v0,
+        ...v0,
+        "h": v0,
+        [v0]() {
+            let v3 = 0;
+            do {
+                %VerifyType(this);
+                -v0;
+                v3++;
+            } while (v3 < 8)
+            return this;
+        },
+    };
+    return o8;
+}
+f1();
+const t20 = f1();
+new Float64Array(t20());
+new BigUint64Array(232);
+new Uint8Array(1073);
+function f21(a22, a23, a24, a25) {
+    const v27 = new Int8Array(a24);
+    const v31 = new Int32Array(2528);
+    v31[0] %= -1073741824;
+    return v27.buffer;
+}
+%PrepareFunctionForOptimization(f21);
+f21();
+%OptimizeFunctionOnNextCall(f21);
+f21();

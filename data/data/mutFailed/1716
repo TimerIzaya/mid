@@ -1,0 +1,54 @@
+const v3 = new Uint8ClampedArray(14);
+const v6 = new Float32Array();
+for (let v7 = 0; v7 < 5; v7++) {
+    v6[836499325] = ~v7;
+}
+const v10 = new BigInt64Array(162);
+const v13 = new Uint8ClampedArray(255);
+function f14(a15, a16) {
+    const o23 = {
+        set c(a18) {
+            const v19 = a18 instanceof Uint8ClampedArray;
+            function f20() {
+                return v19;
+            }
+        },
+        [v13]: a16,
+        "a": 14,
+        ...v3,
+        "e": BigInt64Array,
+        "f": 162,
+        ...a15,
+        "d": v10,
+        get f() {
+            class C22 {
+            }
+        },
+        "g": v13,
+    };
+    return f14;
+}
+f14(162, 14);
+f14(255, 14);
+f14(14, 14);
+let v28 = undefined;
+const o29 = {
+};
+v28 = o29;
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v38 = this.constructor;
+    try { new v38(a35, -1000000000000.0); } catch (e) {}
+    a36 % a36;
+    this.a = a35;
+}
+new F33(2.220446049250313e-16);
+const v42 = new F33();
+class C43 extends F33 {
+    65537 = v28;
+    7 = v42;
+}
+const t50 = 255;
+new t50();
+const v45 = new C43();
+new v45();

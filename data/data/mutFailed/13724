@@ -1,0 +1,37 @@
+function f0() {
+}
+new Int16Array(2);
+new Float32Array(2);
+new BigUint64Array(f0);
+new Int16Array(512);
+const v18 = new Int32Array(4096);
+new Float32Array(7);
+for (let v22 = 0; v22 < 25; v22++) {
+    const v23 = [1073741824,1073741823,1376142744,1073741825];
+    function f24(a25, a26, a27, a28) {
+        function f30() {
+            return a26;
+        }
+        const v32 = new v18();
+        const v33 = v32.entries;
+        try { v33(Int8Array, v33); } catch (e) {}
+        function f35() {
+        }
+        Object.defineProperty(v32, "constructor", { configurable: true, enumerable: true, get: f35 });
+        const v36 = [1840677197,-43868];
+        new Int8Array(6);
+        for (const v39 in a26) {
+            Object.defineProperty(v36, v39, { configurable: true, value: v39 });
+        }
+        v32.map(v36, v32, arguments);
+        try { v23["find"](); } catch (e) {}
+        function F43(a45, a46, a47, a48) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        new F43();
+        return 6;
+    }
+    for (let v50 = 0; v50 < 5; v50++) {
+        f24();
+    }
+}

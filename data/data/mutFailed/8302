@@ -1,0 +1,33 @@
+const v0 = [];
+function f4(a5, a6) {
+    const o20 = {
+        129: 1690531152,
+        "g": a6,
+        __proto__: a5,
+        valueOf(a8, a9) {
+            const o12 = {
+                "maxByteLength": 536870912,
+            };
+            const v14 = new ArrayBuffer(3, o12);
+            const o16 = {
+            };
+            new Proxy(o12, o16);
+            %VerifyType(1690531152);
+            const v19 = new Float64Array(v14);
+            return v19;
+        },
+    };
+    const v22 = Symbol.replace;
+    v0[v22] = v0;
+    f4(v22, a5);
+    function f24() {
+        return 1690531152;
+    }
+    return o20;
+}
+f4(f4(f4, -65536), -65536);
+f4(-65536, 1690531152);
+new Int8Array(6);
+new Uint32Array(3132);
+new Float64Array(16);
+([-3,47741,-16128,9007199254740992,-1024,-58567,268435439,-4294967296,1807295090,-9223372036854775808]).flat();

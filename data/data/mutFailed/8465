@@ -1,0 +1,58 @@
+function f0() {
+    const o9 = {
+        __proto__: "symbol",
+        "b": 2.0043862098910226e+307,
+        ..."symbol",
+        o(a5, a6) {
+            let v7;
+            try { v7 = a5(this, this, "symbol"); } catch (e) {}
+            a5 + v7;
+            a6[0] = a5;
+            return a5;
+        },
+        "e": 2.0043862098910226e+307,
+        ..."symbol",
+        "f": "symbol",
+        "a": -1.7976931348623157e+308,
+        "h": 2.0043862098910226e+307,
+    };
+    o9.p0 = f0;
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+const v13 = [v11,v11,v11];
+const v14 = [v10,v12];
+[v12,v13,v11,f0,v11];
+class C19 extends f0 {
+    constructor(a21, a22, a23, a24) {
+        super();
+        const v25 = 4096n in v14;
+        v14[536870912] = this.o(v25, a23, v25, v25, a21);
+        super[v25] = 4096n;
+        for (let v27 = 0; v27 < 32; v27++) {
+            v10["p" + v27] = v27;
+        }
+    }
+    a;
+    106 = v10;
+}
+new C19(4096n, 4096n, -268435456n, v10);
+new C19(-4294967296n, -268435456n, -4294967296n, v11);
+new v10(4096n, 4096n, v11, v12);
+function f33(a34, a35, a36, a37) {
+    const v40 = new BigInt64Array(4046);
+    let v41 = undefined;
+    const v42 = v41++;
+    v42 >> v42;
+    v42 + v42;
+    v42 >> v42;
+    let o46 = {
+    };
+    [,...o46] = v40;
+    return a37;
+}
+for (let v47 = 0; v47 < 5; v47++) {
+    f33(v47, v47, v47, v47);
+}

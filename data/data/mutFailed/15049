@@ -1,0 +1,79 @@
+function f0() {
+    const o9 = {
+        "e": 2147483647,
+        "h": "bigint",
+        [2147483647]: "bigint",
+        m(a5) {
+            const o6 = {
+            };
+            new Proxy(this, o6);
+            return a5;
+        },
+        "a": "bigint",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+v12[2147483647] = v12;
+function f13(a14) {
+    a14[2147483647];
+    const o21 = {
+        valueOf(a17, a18) {
+            v12[v11] = a17;
+            a17 = this;
+            try { a18(v10, f0, a18, v11); } catch (e) {}
+            return this instanceof a18;
+        },
+        "b": v10,
+        "c": f0,
+        __proto__: v11,
+        ...v10,
+        "c": v10,
+    };
+    try { o21.m(f0); } catch (e) {}
+    return o21;
+}
+f13.c = f13;
+const v23 = f13(v12);
+f13(v12);
+const v25 = f13(v12);
+v25.c = v25;
+class C26 {
+    constructor(a28, a29, a30, a31) {
+        const v32 = this?.__defineSetter__;
+        try { new v32(v25, v10); } catch (e) {}
+        a29[2147483647] = a29;
+        a31.e = a31;
+        class C34 {
+        }
+        try { new C34(); } catch (e) {}
+        new C34();
+        const v37 = new C34();
+        const v38 = v37?.constructor;
+        try { new v38(); } catch (e) {}
+        switch (C26) {
+            default:
+                const v40 = C34.toString();
+                v40[0] = v40;
+                break;
+        }
+        try { this["m"](); } catch (e) {}
+        a29.c;
+        new BigUint64Array(184);
+        try { new Float32Array(a28, C26, f0); } catch (e) {}
+        new Float32Array(a31);
+        Float64Array.g = Float64Array;
+        new Float64Array(1);
+    }
+}
+const v54 = new C26(C26, v25, v11, v10);
+v54.length = v54;
+const v55 = new C26(v11, v54, v11, v12);
+v55.length;
+const v57 = new C26(v10, v23, C26, v54);
+v57.length;
+const v61 = Float64Array.of();
+const v63 = new Date();
+v63.setFullYear(v61, 3811);

@@ -1,0 +1,73 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this[1] = this;
+        this.g = -5;
+    } catch(e9) {
+    }
+    try {
+        this.a = -5;
+    } catch(e10) {
+    }
+    try {
+        this.c = -5;
+        try {
+            this.a = -5;
+        } catch(e11) {
+        }
+    } catch(e15) {
+    }
+}
+const v16 = new F0();
+const v17 = new F0();
+const v18 = new F0();
+v18.g = v18;
+const v19 = [v18,v17];
+const v20 = [F0,v17,v17,v19,F0];
+let v21;
+try { v21 = v20.constructor(v18); } catch (e) {}
+const v22 = v21[0];
+[v17,v19,v17,v16];
+let v24 = 10;
+const v25 = v24++;
+v25 - v25;
+const v28 = new Float64Array(v24);
+const v29 = v28[7];
+const v30 = v28?.constructor;
+let v31;
+try { v31 = new v30(v20, v19, v30); } catch (e) {}
+try { v31.join(v20); } catch (e) {}
+3095 - 3095;
+const v36 = new Uint8Array(v29);
+v31[946];
+129 + v22;
+v36.length;
+const v41 = F0 % v30;
+let {"a":v42,} = v17;
+let v46 = 0.8371116372352035;
+v46--;
+const v49 = +Math.expm1(v46);
+v46 >>> v49;
+const v51 = v49 - v41;
+Math.sin(v49);
+129 >>> 129;
+Uint32Array.name;
+new Uint32Array(129);
+function f58(a59) {
+    return a59;
+}
+const v62 = ("function")?.search;
+v62.length = v62;
+let v63;
+try { v63 = new v51(v20); } catch (e) {}
+[];
+const o65 = {
+    "type": v62,
+};
+new Worker(f58, o65);
+const v69 = new Uint8Array(0);
+try { v42.entries(); } catch (e) {}
+const o71 = {
+};
+v63.f = o71;
+o71.e = v69;

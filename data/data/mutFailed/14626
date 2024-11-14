@@ -1,0 +1,76 @@
+function f0() {
+}
+class C1 {
+    static d = f0;
+    constructor() {
+        gc.arguments = gc;
+        try { ("async").includes("minor"); } catch (e) {}
+        const o7 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o7);
+    }
+}
+const v9 = new C1();
+const v10 = new C1();
+const v11 = v10?.propertyIsEnumerable;
+try { new v11(C1); } catch (e) {}
+const v13 = new C1();
+function f14(a15, a16) {
+    a16.prototype = a16;
+    const o25 = {
+        11: v10,
+        set g(a18) {
+            try {
+                a15.__proto__ = v13;
+            } catch(e19) {
+            }
+        },
+        toString(a21, a22) {
+        },
+        o(a24) {
+            return a24;
+        },
+        150: a15,
+        "h": v13,
+        "g": v13,
+        3: C1,
+    };
+    return o25;
+}
+f14.c = f14;
+f14(C1, C1);
+const v27 = f14(C1, v10);
+f14(v10, v27);
+class C29 {
+    set a(a31) {
+        super.c = a31;
+        try {
+            v9.h = C1;
+        } catch(e32) {
+        }
+    }
+    g;
+    #c = v10;
+    static [v9];
+    static #g = v27;
+}
+try { C29(); } catch (e) {}
+new C29();
+const v35 = new C29();
+v35.b = v35;
+const v36 = new C29();
+v36.g;
+function f38(a39, a40) {
+    const o43 = {
+        toString(a42) {
+            return a39;
+        },
+    };
+    return o43;
+}
+try { f38(f14, f14); } catch (e) {}
+const v45 = f38();
+const v46 = f38(v45, v45);
+v45[Symbol.toStringTag] = v46;

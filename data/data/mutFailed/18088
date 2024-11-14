@@ -1,0 +1,51 @@
+class C3 {
+    [-2147483648] = 81390077;
+    constructor(a5, a6) {
+        const v7 = super.g;
+        super.c = v7;
+        v7.__proto__;
+    }
+    static #g;
+    [81390077];
+    h = -256;
+    #a = 81390077;
+}
+const v12 = new C3(81390077, -2147483648);
+const v13 = new C3(v12, v12);
+const v14 = new C3(v12, v12);
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a18;
+    } catch(e21) {
+    }
+    try {
+        this.a = a17;
+    } catch(e22) {
+    }
+}
+new F15(C3, v12, -2147483648, v12);
+new F15(v12, v13, -2147483648, v13);
+new F15(v14, v12, -256, v14);
+new Uint32Array(963);
+new Uint8Array(189);
+new Int8Array(255);
+function f36() {
+    for (let v37 = 0; v37 < 5; v37++) {
+        const v38 = [1073741824,1073741823,1376142744,1073741825];
+        for (let v39 = 0; v39 < 5; v39++) {
+            const v40 = v38;
+            v40[3];
+            v38[32] = 56;
+            try {
+                Math.ceil(("find" + 15) / 15);
+            } catch(e48) {
+            }
+            try { v38["find"](); } catch (e) {}
+        }
+    }
+    return 56;
+}
+f36();
+%OptimizeFunctionOnNextCall(f36);
+f36();

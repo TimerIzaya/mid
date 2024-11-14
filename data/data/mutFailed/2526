@@ -1,0 +1,25 @@
+const v4 = [9223372036854775807n,[9223372036854775807n],9223372036854775807n];
+[0n,0n];
+[v4];
+[9223372036854775807n];
+const t1 = [v4];
+const v14 = new t1();
+function f15(a16) {
+    const o19 = {
+        n(a18) {
+            return a18;
+        },
+        [v14]: v14,
+    };
+    return o19;
+}
+v14.valueOf = f15;
+function f20(a21) {
+    return Date;
+}
+const v24 = [v14];
+const o25 = {
+    "arguments": v24,
+    "type": "function",
+};
+new Worker(f20, o25);

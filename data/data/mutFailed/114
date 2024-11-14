@@ -1,0 +1,180 @@
+function f0() {
+}
+class C1 {
+    p() {
+        for (let v3 = 0; v3 < 32; v3++) {
+            this["p" + v3] = v3;
+        }
+        return f0;
+    }
+    o() {
+        const v9 = this[Symbol.iterator];
+        try {
+            super.from(this, v9, this, this, f0);
+        } catch(e11) {
+        }
+        return this;
+    }
+}
+C1[Symbol.toPrimitive] = f0;
+new C1();
+const v15 = new C1();
+const v16 = new C1();
+function f17() {
+    function f18(a19) {
+        for (let v20 = 0; v20 < 25; v20++) {
+        }
+        return a19;
+    }
+    return f18;
+}
+function f21(a22) {
+    v15[5];
+}
+Object.defineProperty(v16, "constructor", { get: f17, set: f21 });
+function F24(a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f27(a28) {
+        v16[-2] = v15;
+        this.d **= a26;
+        return v16;
+    }
+    this.constructor = f27;
+    function f29() {
+        function f30(a31) {
+            a31?.b;
+            const o33 = {
+                "apply": f0,
+                "call": f27,
+                "construct": f27,
+                "defineProperty": Symbol,
+                "deleteProperty": f0,
+                "get": Symbol,
+                "getOwnPropertyDescriptor": f27,
+                "getPrototypeOf": Symbol,
+                "isExtensible": f21,
+                "ownKeys": f27,
+                "set": f21,
+                "setPrototypeOf": f17,
+            };
+            new Proxy(C1, o33);
+            return o33;
+        }
+        return f30;
+    }
+    Object.defineProperty(a26, "constructor", { enumerable: true, get: f29 });
+    try { this.propertyIsEnumerable(C1); } catch (e) {}
+    const v37 = a26?.constructor;
+    function f38(a39, a40) {
+        new BigUint64Array(128);
+        new Float32Array(6);
+        new Int32Array(1024);
+        return Symbol;
+    }
+    v37[Symbol.toPrimitive] = f38;
+    try { new v37(); } catch (e) {}
+    try {
+        this.d = a26;
+    } catch(e53) {
+    }
+    try {
+        this.f = a26;
+    } catch(e54) {
+    }
+}
+const v55 = new F24(v16);
+new F24(v55);
+new F24(v15);
+1559400861n & 1559400861n;
+-9007199254740992n / -9007199254740992n;
+2147483649n / 2147483649n;
+URIError(Float64Array);
+const v0 = [];
+const v4 = 16 ^ 16;
+v4 * v4;
+Int8Array.name;
+new v0(parseInt);
+[Infinity,5.0,2.0,-0.0];
+const v12 = [-688.467631421184,-400061.25916586805,0.0];
+[-5.0,-1000000000000.0,5.0,2.220446049250313e-16,3.0,1000000.0,2.0,-1.0,-5.0];
+try { new Uint32Array(16, 1913294534, parseInt); } catch (e) {}
+const v17 = new Uint32Array(1);
+new Int8Array(1563);
+const v21 = [1537795828,31982,65535,28056,-31358,2147483648,-10,536870912,21386];
+function F22(a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a24;
+    } catch(e25) {
+    }
+    try {
+        this.g = v21;
+    } catch(e26) {
+    }
+}
+const v29 = new Int32Array(256);
+try { v29.join(v17); } catch (e) {}
+let v33 = 2.220446049250313e-16;
+v33--;
+new BigUint64Array(128);
+const v38 = [-1000000000.0,1e-15,-9.803124315434264,-366.4099400694298,1000000000000.0,0.7347183727038488,-Infinity,2.0,0.3916117682859279,-461027.2128179858];
+function f39() {
+    return v38;
+}
+const v40 = [v33,4.276454155698374];
+const v41 = [v40,v40,v33,v40];
+try { v33.groupToMap(BigUint64Array); } catch (e) {}
+const v43 = [v33,-176078.02108477498];
+function f44(a45, a46, a47) {
+    const v48 = a45?.constructor;
+    try { new v48(a46); } catch (e) {}
+    a46 >>> a46;
+    a47 * a47;
+    const o62 = {
+        "h": a47,
+        "a": a46,
+        [a47](a53, a54, a55) {
+        },
+        "b": v33,
+        [4.276454155698374](a57, a58) {
+            super.getYear();
+        },
+        get b() {
+            try {
+                super[this] = -176078.02108477498;
+            } catch(e61) {
+            }
+            return this;
+        },
+        [v12]: -176078.02108477498,
+        "b": a47,
+        1942: v43,
+        "g": v43,
+        ...v41,
+    };
+    o62[1942];
+    return o62;
+}
+f44.arguments = f44;
+const v64 = f44(v41, -176078.02108477498, -176078.02108477498);
+v64[1];
+const v66 = f44(v40, v43, v33);
+const v67 = f44(v41, 4.276454155698374, 4.276454155698374);
+function f68(a69, a70, a71, a72) {
+    try { a69.__lookupSetter__(a70); } catch (e) {}
+    const o76 = {
+        __proto__: v64,
+        126: a72,
+        set b(a75) {
+        },
+        ...v67,
+        ...v64,
+    };
+    o76.f = o76;
+    return o76;
+}
+try { f68(1913294534, 1913294534, 1913294534, F22); } catch (e) {}
+f68(v66, v33, v64);
+for (let i = 0; i < 10; i++) {
+    try { v41.findIndex(f44); } catch (e) {}
+}

@@ -1,0 +1,40 @@
+class C3 {
+    static {
+        let v4 = this;
+        super.f;
+        v4.__proto__;
+        v4 = "qq";
+    }
+    ["qq"] = "qq";
+    d = -4294967296;
+    [-1000000000.0] = -1000000000.0;
+    10;
+    [-4294967296] = "qq";
+    static #c = C3;
+    0 = -4294967296;
+}
+const t15 = "qq";
+new t15();
+const t17 = -1000000000.0;
+new t17();
+new C3();
+new Int32Array(155543901);
+const v15 = new Int8Array(162);
+new Int16Array(0, -1000000000.0, 162);
+function f19() {
+    const o21 = {
+        get b() {
+            return f19;
+        },
+    };
+    return o21;
+}
+class C22 extends f19 {
+    constructor(a24) {
+        super(v15, 162, v15);
+        for (let v25 = 0; v25 < 25; v25++) {
+            this["Al" + v25] = v25;
+        }
+    }
+}
+new C22();

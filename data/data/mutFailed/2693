@@ -1,0 +1,45 @@
+const v1 = new WeakSet();
+function f2(a3, a4) {
+    const o12 = {
+        __proto__: a4,
+        "e": a3,
+        "a": a3,
+        set c(a6) {
+            let v7;
+            try { v7 = a3.valueOf(); } catch (e) {}
+            delete a3?.[v7];
+            try {
+                v1.delete(undefined);
+            } catch(e11) {
+            }
+        },
+        10: v1,
+        "c": v1,
+    };
+    return o12;
+}
+f2(f2(WeakSet, WeakSet), f2);
+f2(WeakSet, WeakSet);
+let v18 = 0n;
+class C19 {
+    static #toString(a21, a22, a23, a24) {
+        super.e = a21;
+        this == a23;
+        v18--;
+        [WeakSet,WeakSet,a24,this];
+        const v28 = [v1];
+        return [v28,v28,v1];
+    }
+    #c = -6n;
+    e;
+    static #a = C19;
+    static #g = C19;
+    #d;
+}
+new C19();
+new C19();
+new C19();
+[1024,1999753724,-46460];
+[16,1];
+[-1420673328];
+C19.acosh(1073741825);

@@ -1,0 +1,65 @@
+function f0() {
+}
+const v1 = [4.812715618751469,-2.568640948784157e+307,-1.0,1.0,-1.7976931348623157e+308,-1.1258747643001996,1.6794941263569998e+308,5.316028186981747,-1000000000000.0];
+const v2 = [-4.0,-3.4886523996875667,0.0,4.0];
+const v3 = [-0.0,9.322769580490226e+307,-831943.3694091279,4.0,45828.037033646135,-613771.2919627603];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a7;
+    } catch(e8) {
+    }
+    try {
+        this.d = a7;
+    } catch(e9) {
+    }
+    try {
+        this.f = a6;
+    } catch(e10) {
+    }
+}
+new F4(v2, v2);
+const v12 = new F4(v2, v1);
+const v13 = new F4(v3, v3);
+const o15 = {
+};
+new Proxy(f0, o15);
+const o23 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o23);
+function f25(a26, a27) {
+    const o33 = {
+        [v1]: a27,
+        "h": a27,
+        10000: v1,
+        get f() {
+            %VerifyType(a27);
+            Object.defineProperty(a27, 9, { get: f0 });
+            super.f;
+            return this;
+        },
+    };
+    return o33;
+}
+const v34 = f25(v13, v3);
+f25(v12, v1);
+f25(v34, v3);
+const v37 = [0.36865488864674667,-5.0,972.8964403791567];
+function f38(a39, a40) {
+    return v37;
+}
+v37[Symbol.toPrimitive] = f38;
+const o43 = {
+};
+function f44(a45) {
+    return a45 % v37;
+}
+o43[Symbol.toPrimitive] = f44;
+try { Reflect.defineProperty(o43, o43); } catch (e) {}
+const o55 = {
+    "maxByteLength": 127,
+};
+const v57 = new SharedArrayBuffer(4, o55);
+new BigUint64Array(v57);

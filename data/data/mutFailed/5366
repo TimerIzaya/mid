@@ -1,0 +1,56 @@
+const v6 = new Array(93);
+[[1073741825n],[v6,Array],-268435456n,Array];
+function f16() {
+}
+function f20() {
+    return f16;
+}
+function f21(a22, a23) {
+    const o26 = {
+        get d() {
+            Object.defineProperty(this, 10000, { enumerable: true, get: f16 });
+            return new.target;
+        },
+        __proto__: a23,
+        "b": a22,
+        "c": f20,
+        ...9007199254740991n,
+        ...a23,
+        "g": 9007199254740991n,
+        ...f16,
+        "d": -1010928051n,
+        ...9007199254740991n,
+    };
+    return o26;
+}
+const v27 = f21(-1010928051n, -1010928051n);
+const v28 = f21(-1010928051n, 9007199254740991n);
+const v29 = f21(9007199254740991n, 10000n);
+class C30 extends f16 {
+    [9007199254740991n];
+    static get b() {
+        const o34 = {
+            "maxByteLength": 2559,
+        };
+        const v36 = new ArrayBuffer(2559, o34);
+        new Uint8Array(v36);
+        return v36;
+    }
+    static b = v27;
+}
+let v39 = new C30();
+v39[Symbol.toPrimitive] = f16;
+let v42 = new C30();
+v42[Symbol.toPrimitive] = f20;
+const v45 = new C30();
+function f46(a47, a48, a49, a50) {
+    const o51 = {
+        "a": a49,
+        [v42]: f16,
+        ...a50,
+    };
+    return o51;
+}
+f46(9007199254740991n, v28, v29);
+v39 >>>= v45;
+++v42;

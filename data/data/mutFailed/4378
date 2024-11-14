@@ -1,0 +1,89 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        return F0;
+    }
+    function f3(a4) {
+        ("D")[0];
+    }
+    Object.defineProperty(this, "a", { writable: true, configurable: true, enumerable: true, get: f2, set: f3 });
+    try {
+        this.c = 9223372036854775807;
+    } catch(e8) {
+    }
+    try {
+        this.a = 9223372036854775807;
+    } catch(e9) {
+    }
+}
+const v10 = new F0();
+function f11(a12) {
+    Date.UTC(268435456);
+}
+Object.defineProperty(v10, "f", { configurable: true, enumerable: true, set: f11 });
+const v16 = new F0();
+const v17 = new F0();
+v17.f = v10;
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        a20.f = v16;
+    } catch(e22) {
+    }
+    try {
+        this.h = v16;
+    } catch(e23) {
+    }
+}
+new F18(v16, v10);
+new F18(v10, v10);
+new F18(v17, v17);
+new F0(170);
+new Uint32Array(16);
+new Int8Array(3125);
+const v39 = [65537,268435441,63298,-5,1235122603];
+const v40 = [128,215394418];
+const v41 = [-2,-4294967296,4294967297];
+function F42(a44, a45, a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f48() {
+        Date.UTC(2, 2);
+        return this;
+    }
+    a47.valueOf = f48;
+    try { a47.valueOf(); } catch (e) {}
+    const v53 = this.constructor;
+    try { new v53(1024, 1024, v39, this); } catch (e) {}
+    a45.caller;
+    this.c = a46;
+    this.f = a45;
+}
+const v56 = new F42(-714582153, F42, -714582153, v40);
+new F42(9, v56, 9, v41);
+class C59 {
+    static 7;
+    #n(a61) {
+        const o64 = {
+            "execution": "sync",
+        };
+        gc(o64);
+    }
+}
+const v66 = new C59();
+const v67 = v66?.constructor;
+try { new v67(); } catch (e) {}
+[55948];
+[255,-8,65537,4294967295];
+function f71(a72, a73) {
+    let v74 = 0;
+    v74 < 5;
+    const o85 = {
+        [a72](a78, a79, a80, a81) {
+            [923.3408061449261,-6.350919708227568e+307,-2.220446049250313e-16,0.04850379751250988,4.009495502233909];
+        },
+        "a": a72,
+        set b(a84) {
+            v74 <<= -1;
+        },
+    };
+}

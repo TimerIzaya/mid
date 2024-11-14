@@ -1,0 +1,29 @@
+const v2 = new Uint32Array(3);
+1539 === 1539;
+new BigInt64Array(1539);
+new Uint16Array(3);
+function f10() {
+    return 1539;
+}
+let v15 = Uint32Array();
+v15++;
+%PrepareFunctionForOptimization(f10);
+const t10 = 268435441;
+const v17 = t10();
+v2();
+%OptimizeMaglevOnNextCall(f10);
+f10();
+try { Int8Array.from(v17); } catch (e) {}
+const v22 = new Int8Array(520);
+for (let v23 = 0; v23 < 5; v23++) {
+    v23 * v23;
+    class C25 {
+        [v23];
+    }
+    try { new C25(); } catch (e) {}
+    new C25();
+    const v28 = new C25();
+    v28[0];
+    new C25();
+    v22.indexOf(v23);
+}

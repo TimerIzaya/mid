@@ -1,0 +1,40 @@
+const v0 = [];
+function f1() {
+    const o8 = {
+        get b() {
+            let v3;
+            try { v3 = new this(this, ...v0, ...v0, this); } catch (e) {}
+            this[v0 >>> v3] = f1;
+            try {
+                this.fuck("bigint", this);
+            } catch(e7) {
+            }
+            return f1;
+        },
+        [v0]: v0,
+        ...v0,
+    };
+    return o8;
+}
+v0();
+const v10 = f1();
+try { v10.b(); } catch (e) {}
+const v12 = f1();
+try { v12.b(); } catch (e) {}
+/(\xe2\x81\xa3CL\p{General_Category=Decimal_Number}\xe2\x81\xa3+)/gus;
+/a?/dmy;
+/wR0?/gdimsy;
+function F23() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v25 = this?.__defineGetter__;
+    try { new v25(v12, v0); } catch (e) {}
+}
+new F23();
+function f28() {
+    return 65535;
+}
+const v29 = f28?.constructor;
+try { new v29(-4096); } catch (e) {}
+RangeError.length;
+RangeError.toString = f28;
+try { RangeError(RangeError); } catch (e) {}

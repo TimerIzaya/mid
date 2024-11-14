@@ -1,0 +1,22 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -4096;
+    } catch(e3) {
+    }
+    try {
+        this.d = -4096;
+    } catch(e4) {
+    }
+}
+new F0(F0);
+new F0();
+new F0();
+[-6,1658908483,-268435456,7490,-6,5,-4294967296,11,-1,-4294967295];
+[-50428,1024];
+[6900,-28797];
+new Promise(2376);
+new Uint16Array(255);
+new Set(2);
+Int16Array[0] = -27833;
+new Int16Array(Int16Array);

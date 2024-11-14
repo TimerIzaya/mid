@@ -1,0 +1,31 @@
+class C3 {
+    constructor(a5, a6) {
+        try { this(); } catch (e) {}
+        const o11 = {
+        };
+        new Proxy(this, o11);
+    }
+    [NaN] = NaN;
+    static #d;
+}
+new C3(NaN, NaN);
+new C3(850132.0463118046, 850132.0463118046);
+new C3(NaN, -3.623454235740331);
+[2147483647,-65535,33034,30384,11,268435441,-65535];
+[-756992538,-45203,-2147483649,-6,277911012,-12,1073741825,127,37150];
+const v19 = [-65536,-40145,4294967297];
+v19["flatMap"](v19, v19);
+const o28 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o28);
+function f31(a32) {
+    return f31;
+}
+const v35 = [4096];
+const o36 = {
+    "arguments": v35,
+    "type": "function",
+};
+new Worker(f31, o36);

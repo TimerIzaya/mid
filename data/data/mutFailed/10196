@@ -1,0 +1,77 @@
+const v0 = /(?:foo)/gdims;
+const v1 = /C[x]x9(?:a{5,1000000}){3,1000000}/gvdm;
+const v2 = /4/gumy;
+function f3() {
+    return v1;
+}
+function f5(a6, a7) {
+    const o15 = {
+        valueOf(a9, a10) {
+            try {
+                this.fuck(a6, v2, [a10,v1,this,a7,v0], 33821);
+            } catch(e14) {
+            }
+            return a9;
+        },
+        "c": a7,
+        "a": null,
+        "g": a7,
+        "d": a6,
+        8: a6,
+    };
+    return o15;
+}
+const v16 = f5(v0, v2);
+const v17 = f5(f5, v0);
+const v18 = f5(null, v1);
+class C19 extends f3 {
+    f = f5;
+    static #p(a21, a22, a23) {
+        try {
+            f5(-1000000.0, /0(?:a*)*/uds);
+        } catch(e27) {
+        }
+        return v2;
+    }
+    static [null] = null;
+    static 4 = null;
+    g;
+    #h = null;
+}
+new C19();
+const v29 = new C19();
+new C19();
+function f31(a32, a33, a34) {
+    const o40 = {
+        "b": a33,
+        ...a34,
+        "c": f5,
+        [f5]: a32,
+        "d": v29,
+        set h(a36) {
+        },
+        ...a33,
+        "a": a33,
+        ...v16,
+        [a34]: f3,
+    };
+    return o40;
+}
+f31(v18, v17, v16);
+f31(v17, null, v18);
+f31(v16, f31, v17);
+class C45 {
+    static {
+        new this(this, this, this, this, 852);
+    }
+    constructor(a49) {
+        const v50 = this.constructor;
+        try { new v50(a49, 852, v50, a49); } catch (e) {}
+        const v54 = ~(852 && 852);
+        Math.sinh(Math);
+        +v54;
+    }
+}
+new C45();
+new C45(852);
+new C45(C45);

@@ -1,0 +1,53 @@
+let v2 = "o";
+class C3 {
+    static {
+        this.f = 1.0;
+        try { new this(); } catch (e) {}
+        const v6 = super.f;
+        super.d;
+        try {
+            super.valueOf(v6, v2).length;
+        } catch(e10) {
+        }
+    }
+    64 = v2;
+    static [1.0];
+}
+C3[1];
+const v12 = new C3();
+new C3();
+const v14 = new C3();
+v14[64];
+let v16 = 623;
+v16--;
+new Uint8ClampedArray(v16);
+const v22 = new Float64Array(129);
+v22[81] = v22;
+new Float64Array(2767);
+const v26 = [];
+try { v26.some(v12); } catch (e) {}
+const v29 = [];
+try { v29.toString(); } catch (e) {}
+v29[0] = v29;
+const v31 = new BigUint64Array(v29);
+function f32(a33, a34) {
+    const v35 = [0.0,1.0,-6.743702675363474,400.9902683003188];
+    function f36() {
+        for (let i39 = 0, i40 = 10;
+            i39 < i40;
+            (() => {
+                const v44 = i39++;
+                v44 >> v44;
+            })()) {
+            for (const v48 in v35) {
+                v2 *= v2;
+            }
+        }
+        return v35;
+    }
+    f36();
+    %OptimizeFunctionOnNextCall(f36);
+    return Float64Array;
+}
+v31[Symbol.toPrimitive] = f32;
+v31[v31] = v26;

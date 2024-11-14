@@ -1,0 +1,39 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -34277;
+    } catch(e3) {
+    }
+    try {
+        this.f = -34277;
+    } catch(e4) {
+    }
+    try {
+        this.a = -34277;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+const v8 = new F0();
+v8.g = v8;
+10 & 10;
+const v13 = [10,v8,10,v8,v7];
+let v14;
+try { v14 = v13.sort(v13); } catch (e) {}
+([v13,v13])[1];
+[-4294967296,F0,v13,v7,-4294967296];
+64 ^ 64;
+const v21 = new Int16Array(64, v14);
+try { v21.filter(64, Int16Array); } catch (e) {}
+try { new WeakMap(64, -4294967296, Int16Array); } catch (e) {}
+new WeakMap(2924);
+Int32Array.b = Int32Array;
+try { new Int32Array(v21, v21, v21); } catch (e) {}
+new Int32Array(10);
+Array.prototype = Array;
+const v33 = Array(3398);
+for (const v34 in v33) {
+}
+-4 - -4;
+v33.length = -4;

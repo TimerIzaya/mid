@@ -1,0 +1,17 @@
+class C3 {
+    static {
+        const v8 = Math.abs(this);
+        1.1581561682600482e+308 / v8;
+        Math.min(-65535n);
+        const v11 = -1807584588 * 1.1581561682600482e+308;
+        v8.ceil(-14n);
+        v11 % -1807584588;
+        Math.atanh(-65535n);
+    }
+}
+const v15 = new C3();
+new v15();
+new C3();
+const v24 = new Float32Array(-65535n);
+v24[35] = Uint16Array;
+new Uint16Array(v24);

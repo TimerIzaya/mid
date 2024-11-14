@@ -1,0 +1,87 @@
+class C3 {
+    static 0 = "unicode";
+    static get c() {
+        let v5;
+        try {
+        const t0 = "string";
+        v5 = t0("unicode", this);
+        } catch (e) {}
+        const v6 = -9.53857025218742 / this;
+        v6 instanceof v5;
+        v5 % v6;
+        Math.log("unicode");
+        -1000000.0 >> "unicode";
+        Math.random();
+        -1000000.0 >> -4096;
+        return -4096 ^ v5;
+    }
+}
+function f17(a18, a19) {
+    0 == 268435440n;
+    return -9.53857025218742;
+}
+Object.defineProperty(C3, Symbol.toPrimitive, { enumerable: true, value: f17 });
+try { new C3(); } catch (e) {}
+const v26 = new C3();
+const v27 = new C3();
+const v28 = v27?.constructor;
+v28.f = v28;
+try { new v28(); } catch (e) {}
+const v30 = new C3();
+try { v30.propertyIsEnumerable(C3); } catch (e) {}
+function f32(a33, a34, a35) {
+    Object.defineProperty(a34, "constructor", { configurable: true, enumerable: true, value: f32 });
+    const v36 = a34?.constructor;
+    try { new v36(a33); } catch (e) {}
+    const o47 = {
+        3: C3,
+        __proto__: a34,
+        ...a34,
+        ...v26,
+        "c": "string",
+        set g(a39) {
+            const o42 = {
+                "maxByteLength": 129,
+            };
+            const v44 = new ArrayBuffer(129, o42);
+            new BigUint64Array(v44);
+        },
+    };
+    o47[Symbol.toPrimitive] = f32;
+    return o47;
+}
+const v50 = f32(C3, C3, C3);
+const v51 = f32(v26, C3, v26);
+v51.f = v51;
+const v52 = f32(v51, "string", v27);
+v52[3];
+class C54 {
+    [v52] = v30;
+    m(a56, a57) {
+        for (const v58 of "unicode") {
+            const o59 = {
+            };
+            new Proxy(v50, o59);
+        }
+        let [...v62] = "unicode";
+        return v50;
+    }
+    b;
+    [v26] = v27;
+}
+const v63 = new C54();
+v63.h = v63;
+new C54();
+new C54();
+const v66 = [1073741824,1073741823,1376142744,1073741825];
+try { v66.lastIndexOf(v27); } catch (e) {}
+function f68(a69, a70, a71, a72) {
+    try { v66["find"](..."find"); } catch (e) {}
+    return a72;
+}
+for (let v75 = 0; v75 < 10; v75++) {
+    f68();
+}
+%OptimizeFunctionOnNextCall(f68);
+const v77 = f68(v66, f68, f68, f68);
+try { v77(v30, v66, v27, v27); } catch (e) {}

@@ -1,0 +1,25 @@
+const v5 = new Float64Array(3);
+const v8 = new Int8Array(3663);
+const v10 = v8[14n];
+try {
+    v10.__proto__ = v8;
+} catch(e11) {
+}
+switch (v8) {
+    case Float64Array:
+        v10[v8] = Int8Array;
+        break;
+}
+throw v10;
+try {
+    v10.toString = v10;
+} catch(e13) {
+}
+const v14 = new Uint16Array(6);
+if (v10) {
+    try { v14.entries(); } catch (e) {}
+} else {
+    v5.__proto__;
+}
+const v20 = new Float64Array(1);
+Reflect.construct(Int8Array, [v20]);

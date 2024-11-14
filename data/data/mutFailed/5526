@@ -1,0 +1,46 @@
+const v4 = new WeakSet();
+class C5 {
+    static #g = 1.368486795533563e+307;
+    constructor(a7, a8, a9, a10) {
+        let v12 = 268435439;
+        v12--;
+    }
+    /*
+    constructor(a16, a17) {
+        a16[8] *= -4.450084016725944;
+        [this,WeakSet,this,v4,[a16,this,1.368486795533563e+307,v4]];
+        [0.013005584917724744];
+    }
+    */
+    static valueOf(a22) {
+        super.f = this;
+        try {
+            this.valueOf = -4.450084016725944;
+        } catch(e23) {
+        }
+        this[this];
+        return a22;
+    }
+}
+new C5(WeakSet, 1.368486795533563e+307);
+new C5(WeakSet, -4.450084016725944);
+const v27 = new C5(C5, 0.013005584917724744);
+class C28 extends WeakSet {
+    constructor(a30, a31, a32) {
+        const o35 = {
+            "maxByteLength": 10000,
+        };
+        const v37 = new ArrayBuffer(3471, o35);
+        const v39 = new Uint8Array(v37);
+        v39[938] = v39;
+        super(C5);
+        for (let i41 = 0; i41 < 10; i41++) {
+            a31[8] = i41;
+            try { this(i41, v27, v27, C5, ...0.013005584917724744, a30); } catch (e) {}
+        }
+    }
+}
+const v48 = new C28(0.013005584917724744, v27, 1.368486795533563e+307);
+new C28(0.013005584917724744, v48, 1.368486795533563e+307);
+new C28(-4.450084016725944, v4, 0.013005584917724744);
+Math.pow(-15 >> 8798, -2.220446049250313e-16);

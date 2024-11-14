@@ -1,0 +1,96 @@
+class C1 {
+    constructor(a3) {
+        function F4(a6, a7, a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            a6 === a7;
+        }
+        function f10() {
+            const v11 = new F4();
+            const t8 = v11.constructor;
+            const v13 = new t8();
+            const v14 = v11.constructor;
+            const v15 = new v14();
+            const t12 = v15.constructor;
+            new t12(v14, v15, v13, a3);
+            return a3;
+        }
+        f10();
+        %OptimizeFunctionOnNextCall(f10);
+        f10();
+    }
+    #n() {
+        class C21 {
+            [this] = true;
+            #d = this;
+            #h;
+        }
+        new C21();
+        new C21();
+        new C21();
+        return C21;
+    }
+    8;
+    268435456 = true;
+    #b = true;
+}
+const v25 = new C1();
+new C1();
+const v27 = new C1();
+try {
+    Array(-2119616940);
+} catch(e34) {
+}
+const v35 = [-37383,-13,true,v27,-13];
+[true,C1,[-13,v25,true,v35,C1],-37383,4294967296];
+new BigUint64Array(578, v25, v25);
+new Int32Array(0);
+new Uint16Array(3);
+class C47 {
+    static {
+    }
+    static [578];
+    constructor(a50, a51) {
+        this.propertyIsEnumerable(3);
+    }
+}
+for (let v53 = 0; v53 < 5; v53++) {
+    function f54() {
+        try { new Symbol(); } catch (e) {}
+        const v57 = Symbol.toPrimitive;
+        Symbol.for(v57.description);
+        try { Symbol.bind(v53); } catch (e) {}
+        const v63 = Symbol.for(v57.description).description;
+        Symbol.for(v63);
+        try { Symbol.toString(); } catch (e) {}
+        Symbol.for(v57.description);
+        function f68() {
+            const o76 = {
+                p(a70) {
+                    try {
+                        -1 in [-1];
+                        this.b = -65537n;
+                    } catch(e75) {
+                    }
+                    return f68;
+                },
+            };
+        }
+        try { f68(); } catch (e) {}
+        const v79 = new Float64Array(Float64Array, Float64Array);
+        const v80 = new v35();
+        const o81 = {
+            __proto__: v80,
+        };
+        try { v79.every(o81); } catch (e) {}
+        const v83 = v57.description;
+        v63 in this;
+        ([-Infinity,Infinity,959819.665748626])["concat"]([Uint32Array]);
+        const v91 = v83.codePointAt(C47);
+        v91 - v91;
+        v91 & v91;
+        v91 + v91;
+        return Symbol;
+    }
+    f54();
+    %OptimizeFunctionOnNextCall(f54);
+}

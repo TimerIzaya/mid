@@ -1,0 +1,45 @@
+const v1 = new WeakSet();
+const v5 = new Float32Array(3);
+new Float64Array(129);
+let v10 = 1836424012;
+v10--;
+const o12 = {
+    "f": v10,
+    "d": 1024,
+};
+new Float64Array(1024);
+function f18() {
+    const o20 = {
+        get b() {
+            return WeakSet;
+        },
+    };
+    return v1;
+}
+class C21 extends f18 {
+    constructor(a23) {
+        super();
+        for (let v24 = 0; v24 < 25; v24++) {
+            let v25 = "p";
+            v25 + a23;
+            this[1024] = v24;
+            const v27 = /xe+/gudimsy;
+            function F28(a30, a31, a32) {
+                if (!new.target) { throw 'must be called with new'; }
+                const v33 = this?.__defineGetter__;
+                try { new v33(v27, F28); } catch (e) {}
+                try { a31.entries(); } catch (e) {}
+                this.f = a31;
+            }
+            [...v25] = v25;
+            super.add(v5);
+            f18();
+            %PrepareFunctionForOptimization(f18);
+            f18();
+            f18();
+            %OptimizeFunctionOnNextCall(f18);
+            f18();
+        }
+    }
+}
+new C21();

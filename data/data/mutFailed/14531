@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 0;
+    } catch(e3) {
+    }
+    try {
+        this.d = 0;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+function f8() {
+    return v5;
+}
+class C12 {
+    valueOf(a14, a15, a16) {
+        super[a15] = a15;
+        super.h = a14;
+        this[v6];
+        return v5;
+    }
+    static [F0] = v5;
+    7;
+    static #m(a19, a20) {
+        try { this.p(268435439n, a19); } catch (e) {}
+        const o25 = {
+            "execution": a19,
+            "type": "minor",
+        };
+        return gc(o25);
+    }
+}
+const v27 = new C12();
+const v28 = new F0();
+new v5();
+function F30(a32, a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 4694n;
+    } catch(e36) {
+    }
+    try {
+        v27.f = a35;
+    } catch(e37) {
+    }
+}
+const v38 = new F30(63319n, v27, 268435439n, v27);
+new F30(4694n, v27, 63319n, v38);
+new F30(63319n, v28, 63319n, v28);
+const v43 = new Uint8ClampedArray(4);
+new Uint8Array(v43);

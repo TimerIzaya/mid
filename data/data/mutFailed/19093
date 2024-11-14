@@ -1,0 +1,58 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a6;
+    } catch(e7) {
+    }
+    try {
+        this.c = 52992n;
+    } catch(e8) {
+    }
+    try {
+        this.e = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(9007199254740992n, 3n);
+const v11 = new F3(52992n, 9007199254740992n);
+const v12 = new F3(52992n, 52992n);
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a16;
+    } catch(e17) {
+    }
+    try {
+        const t25 = 52992n;
+        t25.g = v11;
+    } catch(e18) {
+    }
+    try {
+        this.c = v10;
+    } catch(e19) {
+    }
+}
+const v20 = new F13(9007199254740992n, v10);
+const v21 = new F13(3n, v10);
+const v22 = new F13(v12, v12);
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a27;
+    } catch(e29) {
+    }
+}
+new F23(v22, 9007199254740992n, 3n, v21);
+new F23(v20, 3n, 9007199254740992n, v22);
+new F23(v22, 3n, 3n, v22);
+class C33 {
+}
+new C33();
+const t50 = 9007199254740992n;
+const v35 = new t50();
+const o36 = {
+};
+o36.b = o36;
+const o37 = {
+};
+Object.defineProperty(o37, "b", { writable: true, value: v35 });

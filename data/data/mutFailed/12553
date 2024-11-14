@@ -1,0 +1,29 @@
+new BigUint64Array(3516);
+new Uint8ClampedArray(-62347);
+const v11 = new Uint8Array(129);
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v11;
+    } catch(e17) {
+    }
+}
+new F12(129, F12, -256n);
+new F12(129, F12, -256n, 129);
+new F12(129, -4294967296n, -4294967296n);
+const o25 = {
+    get b() {
+        delete this[this];
+        this[this] = 817905185;
+        super[817905185] = "toPrimitive";
+        return 817905185;
+    },
+};
+function f26(a27) {
+    const o28 = {
+        ...o25,
+    };
+    return a27;
+}
+f26(o25);
+f26();

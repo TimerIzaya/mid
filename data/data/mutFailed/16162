@@ -1,0 +1,88 @@
+class C3 {
+    get h() {
+        const o5 = {
+        };
+        new Proxy("M", o5);
+        return this;
+    }
+    #toString(a9) {
+        let v8 = this;
+        if (a9) {
+            v8 ||= v8;
+            function F11(a13, a14) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = -50789;
+                } catch(e15) {
+                }
+                try {
+                    this.h = C3;
+                } catch(e16) {
+                }
+                try {
+                    this.d = a13;
+                } catch(e17) {
+                }
+            }
+            const v18 = new F11(-50789, F11);
+            const v19 = new F11(v18, F11);
+            new F11(v19, v19);
+        } else {
+            super[v8] = a9;
+        }
+        let v21;
+        try { v21 = v8["valueOf"](-50789, "valueOf"); } catch (e) {}
+        v21["valueOf"] -= 65535;
+        try {
+            C3.#toString(65535, 65535, C3, v21, 65535);
+        } catch(e26) {
+        }
+        ("valueOf")[a9];
+        return -164.38558798330916;
+    }
+}
+const v28 = C3.name;
+const v29 = new C3();
+const v30 = new C3();
+const v31 = new v30();
+function f32(a33, a34, a35) {
+    const v36 = a33?.constructor;
+    try { new v36(); } catch (e) {}
+    const o59 = {
+        o(a39, a40) {
+            function f41() {
+                return a40;
+            }
+            return a34;
+        },
+        p(a43, a44, a45, a46) {
+            let v49 = -4294967297;
+            Math.round(v49);
+            Math.fround(a46);
+            let v52 = Math.asinh(v49);
+            v52 = a33;
+            try {
+                v31.fuck(f32, a34, a35);
+            } catch(e54) {
+            }
+            Math.trunc(v49);
+            Math.exp(v49);
+            ++v49;
+            Math.abs(a46);
+            return a35;
+        },
+    };
+    return o59;
+}
+const v60 = f32(v31, v30, v30);
+const v62 = f32(f32(v28, v60, v31), v31, v29);
+try { C3.o(v62, 65535); } catch (e) {}
+[C3,v62,v62,f32];
+[v31,v60];
+[C3,65535];
+try { Int8Array.of(); } catch (e) {}
+const v69 = new Int8Array();
+try { v69.find(); } catch (e) {}
+268435440 | 268435440;
+const v74 = /[xyz]/vis;
+v74.test(v74);

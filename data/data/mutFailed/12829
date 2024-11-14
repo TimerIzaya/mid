@@ -1,0 +1,80 @@
+class C3 {
+    constructor(a5) {
+        Object.defineProperty(this, "o", { configurable: true, enumerable: true, value: a5 });
+        Object.defineProperty(a5, "o", { writable: true, configurable: true, enumerable: true, value: this });
+        try { a5.o(this, a5); } catch (e) {}
+    }
+    #a;
+    static o(a8) {
+        this[a8];
+        new Int16Array(3);
+        new Uint32Array(0);
+        new Uint8ClampedArray(1144);
+        return this;
+    }
+}
+new C3(6);
+const v20 = new C3(6);
+const v21 = new C3(v20);
+const v22 = [v21];
+[6];
+const v24 = [9007199254740991,v21,v20];
+class C25 {
+    #f = v24;
+    #valueOf(a27, a28, a29, a30) {
+        for (let i33 = 0, i34 = 10; i33 < i34; i33++, i34--) {
+            const o45 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o45);
+        }
+        return v22;
+    }
+}
+new C25();
+new C25();
+new C25();
+const v51 = new Map();
+function f52() {
+    const v55 = new Map();
+    const o59 = {
+        set d(a57) {
+            v55.delete();
+        },
+    };
+    o59.d /= -2147483647;
+    return v55;
+}
+v51[Symbol.toPrimitive] = f52;
+function f62(a63, a64) {
+    return -2;
+}
+v51.toString = f62;
+class C68 {
+    [v51];
+    constructor(a70, a71) {
+        this.constructor = f52;
+        const v72 = this?.constructor;
+        try { new v72(); } catch (e) {}
+        const v74 = /(?<!)/gv;
+        v74.e = a70;
+        v74.e = v74;
+        const v75 = /(\xed\xb0\x80)\x01/gudmy;
+        v75.c = v75;
+        const v77 = Symbol.iterator;
+        const o79 = {
+            [v77]() {
+            },
+        };
+    }
+}
+const v80 = new C68(Map, Map);
+function f81() {
+    Symbol[2147483647] ^= 6;
+    ("c").toUpperCase();
+    return Map;
+}
+v80.constructor = f81;
+const t78 = v80.constructor;
+new t78();

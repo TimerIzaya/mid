@@ -1,0 +1,69 @@
+const t0 = "object";
+const v2 = new t0();
+class C3 {
+    [v2];
+    static {
+    }
+}
+class C7 {
+    static {
+        try { new this(); } catch (e) {}
+        new Uint16Array(8);
+        new Float64Array([]);
+        function f21(a22, a23) {
+            const o31 = {
+                set g(a25) {
+                    function F26(a28, a29, a30) {
+                        if (!new.target) { throw 'must be called with new'; }
+                    }
+                },
+            };
+            f21(8, o31);
+            %PrepareFunctionForOptimization(f21);
+            f21(8, o31);
+            f21(8, o31);
+            %OptimizeMaglevOnNextCall(f21);
+            f21(8, o31);
+            return 1.7525626674072842e+307;
+        }
+        try { ("function")["-268435456"](); } catch (e) {}
+        new Int16Array(14);
+        const o47 = {
+            set b(a45) {
+                this.b;
+            },
+        };
+        const t35 = 536870912n;
+        new t35(6);
+    }
+}
+new C7();
+new C7();
+const t41 = -1000000.0;
+new t41();
+new Float64Array(4);
+function f56(a57) {
+    return Float64Array;
+}
+class C58 extends f56 {
+    #b;
+    #e = -1000000.0;
+}
+const o60 = {
+};
+gc(o60);
+class C64 {
+    o(a66, a67, a68, a69) {
+        class C70 {
+            static 44 = "EV";
+        }
+        new C70();
+        new C70();
+        new C70();
+        return 0;
+    }
+    static #f = 0;
+}
+new f56(6);
+new Uint8ClampedArray(6);
+gc();

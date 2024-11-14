@@ -1,0 +1,62 @@
+function f1() {
+    const o7 = {
+        __proto__: true,
+        [true]: true,
+        "f": true,
+        "g": true,
+        "a": true,
+        set d(a3) {
+            let v4;
+            try { v4 = this.p(this, a3); } catch (e) {}
+            try {
+                super.o(v4, v4, true);
+            } catch(e6) {
+            }
+        },
+    };
+    return o7;
+}
+const v8 = f1();
+const v9 = f1();
+const v10 = f1();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "b", { configurable: true, enumerable: true, value: a14 });
+    try {
+        this.b = a14;
+    } catch(e15) {
+    }
+    function f16(a17, a18, a19, a20) {
+        let v21;
+        try { v21 = a18(this, v9, a18); } catch (e) {}
+        v21.g = v8;
+        try { v21(g, a18, g); } catch (e) {}
+        return this;
+    }
+    f16(v9, f16, v10, v9);
+    try {
+        this.f = f1;
+    } catch(e25) {
+    }
+}
+new F11(v8, v8);
+new F11(v10, v10);
+new F11(v10, v9);
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    v10.d;
+    new WeakSet();
+    try {
+        this.c = a32;
+    } catch(e39) {
+    }
+}
+const v40 = new F29(v9, v8);
+const v41 = new F29(v40, v8);
+new F29(v41, v9);
+const v43 = [14,9223372036854775807,-947341810,257,65536,2031413919,-5,127,-20830,4096];
+function f44() {
+    return v43;
+}
+const v45 = [f44,f44];
+v45.includes(v45, v43);

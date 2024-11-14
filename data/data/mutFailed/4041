@@ -1,0 +1,68 @@
+const v4 = -9007199254740990 - -9007199254740990;
+const v8 = new WeakMap();
+let v9;
+try { v9 = v8.set(v4, WeakMap); } catch (e) {}
+v8[5] = -1000000.0;
+let v10;
+try { v10 = v9(5.4377533054728655); } catch (e) {}
+function f11() {
+    return -1000000.0;
+}
+v10[195] -= -9223372036854775807;
+const v13 = Symbol.iterator;
+const o22 = {
+    [v13]() {
+        let v15 = 10;
+        const o21 = {
+            next() {
+                v15--;
+                const v19 = v15 == 0;
+                const o20 = {
+                    "done": v19,
+                    "value": v15,
+                };
+                return o20;
+            },
+        };
+        return o21;
+    },
+};
+let v23;
+try { v23 = f11(); } catch (e) {}
+const v26 = new Float64Array(5);
+v26[3] = v26;
+const v29 = new Int16Array(255);
+128 + 128;
+Uint32Array.e = Uint32Array;
+new Uint32Array(128);
+const v35 = new Date();
+const v36 = [-1000.0,2.0,6.498411136794167e+307,1.5301115680028905e+308,-1.0240581174585665e+308,-73553.73579822388,-474.34134439650745,2.300981674378132,-816063.8647013834,-1.2620665326245469e+308];
+const v37 = [];
+const v38 = [];
+function f39(a40, a41) {
+    const o51 = {
+        129: v37,
+        ...v29,
+        [v23]: Int16Array,
+        "h": a40,
+        [5.4377533054728655]: a40,
+        ...a40,
+        __proto__: v36,
+        o(a43, a44, a45, a46) {
+            [a40];
+            a40.apply(a44.reduce, a41);
+            return a41;
+        },
+        "f": v38,
+        "e": v35,
+        ...740,
+    };
+    o51.c = o51;
+    return o51;
+}
+const v52 = f39();
+let v53;
+try { v53 = v52.push(-9223372036854775807); } catch (e) {}
+%PrepareFunctionForOptimization(v53);
+%OptimizeFunctionOnNextCall(f39(v36, v38));
+f39(f39, v37);

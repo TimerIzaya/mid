@@ -1,0 +1,110 @@
+class C3 {
+    static m(a5, a6) {
+        this.prototype = this;
+        a5 != a5;
+        return this;
+    }
+    get e() {
+        const o12 = {
+            "d": this,
+            ...this,
+        };
+        for (let v13 = 0; v13 < 32; v13++) {
+            this["p" + v13] = v13;
+        }
+        return o12;
+    }
+}
+try { new C3(); } catch (e) {}
+let v17;
+try { v17 = C3.m(1000000.0, 2147483648); } catch (e) {}
+v17.prototype = v17;
+new C3();
+new C3();
+const v20 = new C3();
+const v21 = v20?.toLocaleString;
+try { new v21(); } catch (e) {}
+const v23 = /a\S/dsy;
+v23.g = v23;
+const v24 = /aa\S/gvmy;
+const v25 = v24?.constructor;
+v25.name = v25;
+try { new v25(v24, v24); } catch (e) {}
+/B\u{12345}/gu.lastIndex;
+const v29 = [Infinity,-2.0,2.220446049250313e-16];
+try {
+    v24.d = v29;
+} catch(e30) {
+}
+class C31 extends C3 {
+    static toString(a33, a34) {
+        const v35 = new C3();
+        try {
+            v23.valueOf = v35;
+        } catch(e36) {
+        }
+        return v20;
+    }
+    static m(a38, a39, a40) {
+        function f41() {
+            class C42 {
+            }
+            const v43 = new C42();
+            const v44 = [v43,v43,v43,v43,v43];
+            const v45 = [f41,f41];
+            class C46 extends C42 {
+                [v43];
+            }
+            function F47(a49, a50, a51, a52) {
+                if (!new.target) { throw 'must be called with new'; }
+            }
+            new F47();
+            new BigInt64Array();
+            const v56 = new C46();
+            v45.constructor;
+            try { v56.m(v44); } catch (e) {}
+            return f41;
+        }
+        %PrepareFunctionForOptimization(f41);
+        f41();
+        f41();
+        %OptimizeFunctionOnNextCall(f41);
+        f41();
+        super.e;
+        try {
+            a38.exec("object");
+        } catch(e65) {
+        }
+        return a38;
+    }
+}
+const v66 = new C31();
+v66.e;
+const v68 = v66?.constructor;
+try { new v68(); } catch (e) {}
+const v70 = new C31();
+const v71 = v70?.constructor;
+try { new v71(); } catch (e) {}
+const v73 = new C31();
+const v74 = v73?.constructor;
+try { new v74(); } catch (e) {}
+function f77() {
+    function f78(a79, a80) {
+        a80.d = a80;
+        return f77;
+    }
+    try { new Promise(f78); } catch (e) {}
+    Promise.length = Promise;
+    const v83 = Promise.resolve(f78);
+    const v84 = new Promise(f78);
+    const v85 = v84.constructor;
+    try { v85.bind(1000000.0); } catch (e) {}
+    try { new v85(-30285); } catch (e) {}
+    return v83;
+}
+%PrepareFunctionForOptimization(f77);
+f77();
+%OptimizeFunctionOnNextCall(f77);
+const v90 = f77()?.__defineGetter__;
+v90.length;
+try { new v90(v23, -30285); } catch (e) {}

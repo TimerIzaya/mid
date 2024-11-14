@@ -1,0 +1,28 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v0;
+    } catch(e3) {
+    }
+    try {
+        this.c = v0;
+    } catch(e4) {
+    }
+}
+new F1();
+new F1();
+new F1();
+new Int8Array(255);
+new Int16Array(170);
+new Uint16Array(2032);
+const o20 = {
+};
+function f21() {
+    return o20;
+}
+function f22(a23, a24) {
+    Object.defineProperty("number", "h", { writable: true, configurable: true, enumerable: true, get: f21, set: f21 });
+    return o20;
+}
+new o20(f22);

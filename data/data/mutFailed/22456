@@ -1,0 +1,39 @@
+const v1 = new Map();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v6 = this?.constructor;
+    try { new v6(Map, a5); } catch (e) {}
+    a4.prototype;
+    try {
+        this.d = v1;
+    } catch(e9) {
+    }
+    try {
+        this.a = v1;
+    } catch(e10) {
+    }
+}
+const v11 = new F2(F2, Map);
+const v12 = new F2(v11, v1);
+v12.b = v12;
+const v13 = new F2(Map, v11);
+0 % 0;
+new Uint8ClampedArray(0);
+const v20 = new Int8Array(129);
+try { v20.some(Uint8ClampedArray); } catch (e) {}
+new BigUint64Array(1259);
+class C25 {
+    static {
+        try { new this(); } catch (e) {}
+        function F28(a30, a31) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v32 = this.constructor;
+            try { new v32(); } catch (e) {}
+            try { this.constructor(); } catch (e) {}
+        }
+        F28.length = F28;
+        const v35 = new F28();
+        try { v35.constructor(v13, Int8Array); } catch (e) {}
+    }
+}
+C25.length = C25;

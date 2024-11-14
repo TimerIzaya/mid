@@ -1,0 +1,72 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = "function";
+    } catch(e7) {
+    }
+    try {
+        this.a = a6;
+    } catch(e8) {
+    }
+    try {
+        this.e = a6;
+    } catch(e9) {
+    }
+}
+let v10;
+try { v10 = new F4("Fgw9"); } catch (e) {}
+const v11 = new F4("delete");
+try { v11.toLocaleString(); } catch (e) {}
+const v13 = new F4("delete");
+v13.constructor = f0;
+const v14 = v13?.constructor;
+try { new v14(v11); } catch (e) {}
+const v16 = new F4("function");
+function f17(a18, a19, a20, a21) {
+    a18.h;
+    a20.h = a20;
+    a21.a = a21;
+    const o35 = {
+        "g": v13,
+        m(a24, a25, a26, a27) {
+            let v28 = 0;
+            while (v28 < 7) {
+                const t35 = "delete";
+                t35[10] = v13;
+                v28++;
+            }
+            return a21;
+        },
+    };
+    o35.valueOf = f0;
+    return o35;
+}
+const v36 = f17(v13, v16, v16, v13);
+function f37() {
+    function f38(a39, a40) {
+        v10 += a40;
+        try {
+            v16.fuck(v11, "Fgw9");
+        } catch(e42) {
+        }
+        return a40;
+    }
+    return f38;
+}
+function f43(a44) {
+    const t58 = [3.0,NaN,-1000000000.0,595974.7516182172,-1e-15,0.6881218471964052];
+    delete t58[2.0];
+}
+Object.defineProperty(v36, "valueOf", { writable: true, enumerable: true, get: f37, set: f43 });
+try { v36.valueOf(); } catch (e) {}
+f17(v13, v13, v11, v13);
+f17(v11, v16, v11, v16);
+class C54 {
+}
+const v55 = new C54();
+function f56() {
+    return v55;
+}
+Object.defineProperty(v55, "b", { enumerable: true, get: f56 });

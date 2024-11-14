@@ -1,0 +1,21 @@
+function f7() {
+    function f8(a9, a10) {
+        return f7;
+    }
+    const v12 = Promise.resolve(f8);
+    function f13(a14, a15) {
+        'use strict';
+        -a15;
+        return v12;
+    }
+    f13(1.1495674868744314e+308, Promise);
+    const v21 = new Promise(f8);
+    const v22 = v21.constructor;
+    try { new v22(-30285); } catch (e) {}
+    return v12;
+}
+%PrepareFunctionForOptimization(f7);
+const t17 = -59723;
+%OptimizeFunctionOnNextCall(t17());
+f7();
+([0.021647043302781555,982.9822277058386,68.55386187204931,-3.6548181863708407e+307,0.20797002453168356,1000000.0,-569469.7761417266,-3.877892592640821,Infinity,5.0]).toLocaleString();

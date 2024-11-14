@@ -1,0 +1,42 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+    try {
+        this.h = f0;
+    } catch(e4) {
+    }
+    try {
+        this.a = f0;
+    } catch(e5) {
+    }
+}
+new F1();
+const v7 = new F1();
+const v8 = new v7();
+let v9 = "-1790490113";
+class C12 {
+    static get b() {
+        this[1073741825] *= this;
+        super.e /= v8;
+        let v16 = 58836;
+        const v17 = F1 && C12;
+        v9++;
+        v9 | v17;
+        const v20 = -"toString";
+        const v21 = --v16;
+        Math.abs(v20);
+        return v21;
+    }
+}
+new C12();
+new C12();
+new C12();
+const v29 = new BigInt64Array(3445);
+class C30 {
+}
+try { C30.apply(undefined, v29); } catch (e) {}

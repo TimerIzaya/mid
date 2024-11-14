@@ -1,0 +1,23 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 913697707;
+    } catch(e3) {
+    }
+    try {
+        this.g = F0;
+    } catch(e4) {
+    }
+    try {
+        this.c = 913697707;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+new v6();
+new BigInt64Array(1);
+const v17 = new Int16Array(512);
+new BigInt64Array(v17);
+const v24 = new Int16Array(41);
+v24.fill(725);

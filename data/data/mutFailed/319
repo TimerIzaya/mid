@@ -1,0 +1,66 @@
+const v2 = new Int32Array(8);
+const v5 = new Int32Array(6);
+const v8 = new Uint8Array(10);
+const v9 = [Int32Array,10];
+const v11 = [Int32Array,v9];
+Reflect.apply(v2.map, v5, v11);
+for (let v14 = 0; v14 < 32; v14++) {
+    v8["p" + v14] = v14;
+}
+const v18 = [[v2]];
+class C19 extends Int32Array {
+    p(a21, a22, a23, a24) {
+        let v25;
+        try { v25 = a21(); } catch (e) {}
+        try {
+            for (const v26 of a24) {
+                try {
+                    v2.__proto__ = Reflect;
+                } catch(e27) {
+                }
+            }
+            v9.valueOf = v25;
+        } catch(e28) {
+        }
+        return a23;
+    }
+    static [v2] = v8;
+    toString(a30, a31) {
+        try {
+            v18.c = a31;
+        } catch(e32) {
+        }
+        Object.defineProperty(v9, 1073741825, { writable: true, enumerable: true, value: a31 });
+        super[this] = v18;
+        return 6;
+    }
+}
+const v33 = new C19();
+new C19();
+new C19();
+const o36 = {
+    __proto__: v18,
+    "h": 6,
+    ...v5,
+};
+function f37() {
+}
+const v38 = [-1539,1,12];
+function f39() {
+    return f39;
+}
+function f40(a41, a42) {
+    const o43 = {
+        [a41]: v38,
+    };
+    return a41;
+}
+const v44 = f40(f40);
+f40();
+try {
+    v38.__proto__ = v33;
+} catch(e46) {
+}
+try { v44(f37, v38, f40, v2); } catch (e) {}
+f40(f39);
+new f37();

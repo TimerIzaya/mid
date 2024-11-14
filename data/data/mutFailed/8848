@@ -1,0 +1,92 @@
+const v1 = new Map();
+const v2 = [0.22765518540216179,1000000000000.0,95110.62484655366,1000000000.0,3.436859148069951,-0.0,2.0,-5.0];
+function f3() {
+    return ~9007199254740990;
+}
+v2[Symbol.toPrimitive] = f3;
+const v8 = [-102.00254877873078,4.124955647620156e+306,-2.0,-553429.805328496,-2.2250738585072014e-308,3.0];
+const v9 = [513779.5906574144,1.7409613810254415e+307,98.0881888203628,0.0];
+function f10(a11, a12) {
+    function f13() {
+        function f14(a15, a16) {
+            const v20 = new Uint16Array(9);
+            v20.includes(true, -706152110);
+            return -706152110;
+        }
+        return f14;
+    }
+    function f23(a24) {
+        function F25(a27, a28) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = v2;
+            } catch(e29) {
+            }
+        }
+        const v30 = new F25(F25, v8);
+        new F25(v30, a12);
+        new F25(v30, a24);
+    }
+    Object.defineProperty(a11, Symbol.toPrimitive, { get: f13, set: f23 });
+    function f35() {
+        const v38 = new Int8Array(6);
+        for (const v39 in v38) {
+            Object.defineProperty(v9, v39, { configurable: true, value: v39 });
+        }
+        return 6;
+    }
+    Object.defineProperty(a12, "toString", { configurable: true, value: f35 });
+    const o47 = {
+        ...a11,
+        ...v2,
+        [v2](a41, a42) {
+            a42[v1];
+            const v44 = a12.length;
+            a11 == v44 ? a11 : v44;
+            return a12;
+        },
+        __proto__: v1,
+        ...v9,
+        "a": Map,
+        "b": a12,
+        [a12]: a12,
+    };
+    function f48(a49) {
+        function F50(a52, a53) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v54 = this.constructor;
+            v54.bind(F50, a52, v54, a52);
+            try { new v54(); } catch (e) {}
+            a53 / a53;
+        }
+        return f23;
+    }
+    o47[Symbol.toPrimitive] = f48;
+    return o47;
+}
+const v60 = f10(v2, v2);
+f10(v9, v2);
+f10(v8, v8);
+class C66 extends Map {
+    [v60];
+    static [-2];
+    #p(a68, a69, a70) {
+        a69.__proto__;
+        let v72 = 0;
+        do {
+            try {
+                v8.toString = f10;
+            } catch(e73) {
+            }
+            v72++;
+        } while (v72 < 3)
+        return this;
+    }
+}
+new C66();
+new C66();
+new C66();
+const v82 = Array(1024);
+Uint8ClampedArray[1] = 256;
+const t90 = Reflect.construct(Uint8ClampedArray, [Uint8ClampedArray]).constructor;
+new t90(v82);

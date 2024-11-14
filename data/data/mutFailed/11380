@@ -1,0 +1,61 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 0n;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(29091n, -679932060n);
+const v9 = new F3(0n, v8);
+const v10 = new F3(29091n, v9);
+const v11 = [v10,v9,-679932060n,v10];
+function f12(a13, a14, a15, a16) {
+    const o19 = {
+        "maxByteLength": 206,
+    };
+    const v21 = new ArrayBuffer(127, o19);
+    new a16(v21);
+    return v8;
+}
+const v24 = f12(v10, v10, v9, v9);
+const v26 = [v8,[0n,v11,0n]];
+const v28 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v29 = [601759695];
+const v30 = [1073741824,1073741823,1376142744,1073741825];
+function f32(a33, a34, a35, a36) {
+    function f38() {
+        const o45 = {
+            "e": -4294967295,
+            ...v28,
+            ..."Vre",
+            "c": a36,
+            "f": "-1073741824",
+            84: a35,
+            ...a36,
+            valueOf(a43, a44) {
+                return a44;
+            },
+            ..."Vre",
+            4: "Vre",
+            5: -4294967295,
+            6: -268435456,
+        };
+        return v11;
+    }
+    f38();
+    %OptimizeFunctionOnNextCall(f38);
+    let v48;
+    try { v48 = v30[a35](..."find", a36, ...v29, ...v30, ...522675525n); } catch (e) {}
+    v48 <= a35;
+    return arguments;
+}
+for (let v50 = 0; v50 < 10; v50++) {
+    f32();
+}
+%OptimizeFunctionOnNextCall(f32);
+[v8,v10,F3,f32,v11];
+const v53 = [v8,v11,f32];
+[v24,29091n,v53,v53];
+const v55 = v9.d;
+v26 instanceof f12;
+v55(v30, f32, 522675525n);

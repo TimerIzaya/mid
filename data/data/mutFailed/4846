@@ -1,0 +1,65 @@
+function f0() {
+}
+function f1() {
+    const o7 = {
+        get h() {
+            const v3 = super.b;
+            v3[8] = v3;
+            return f0;
+        },
+        "d": f0,
+        [f0]: f0,
+        p() {
+            const o5 = {
+                [f0]: this,
+                "e": f0,
+                __proto__: this,
+            };
+            f0();
+            return o5;
+        },
+    };
+    const v8 = f0 >= o7;
+    if (v8) {
+        try {
+            o7.e = v8;
+        } catch(e9) {
+        }
+    } else {
+    }
+    return o7;
+}
+f1();
+const v14 = f1();
+f1();
+const o17 = {
+    "defineProperty": f1,
+    "get": f1,
+    "isExtensible": f1,
+    "preventExtensions": f1,
+    "set": f1,
+};
+new Proxy(v14, o17);
+new BigInt64Array(512);
+new Uint32Array(6);
+const v30 = new Int32Array(13);
+v30[v30.__proto__] = 2147483649n;
+f1();
+v30.length;
+[7,2147483648,65536];
+[512,16,4,10170,14,16855];
+[9,255];
+function F46(a48, a49, a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C59 {
+        static {
+            super[this];
+        }
+    }
+}
+new BigUint64Array();
+new BigUint64Array(1448);
+function f66(a67, a68, a69) {
+}
+([-1000000000000.0,-1.7976931348623157e+308,294500.85018206923,-Infinity,-0.0,-7.010036940344757e+307,1.0,-Infinity,-1000.0,-1.1645821156926988e+308]).reduce(f66);
+gc();

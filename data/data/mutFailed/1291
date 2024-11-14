@@ -1,0 +1,58 @@
+function f0() {
+    const o10 = {
+        ...-0.0,
+        get h() {
+            const o5 = {
+                ...this,
+                [this]: this,
+            };
+            delete this[o5];
+            /(?: foo )/gvmsy;
+            /2(?<a>(?<b>(?<c>(?<d>.).).).)/vdimsy;
+            /XA/disy;
+            return -0.0;
+        },
+        "b": -0.0,
+        "c": -0.0,
+    };
+    return o10;
+}
+f0();
+const t19 = f0();
+const v13 = t19();
+const v14 = [-29031298,-489887212,-1,65537,50133,-5];
+const v15 = [3,9007199254740990];
+const v16 = [-1,1229074602,-9223372036854775808,1073741824,2,64,1];
+function f20(a21, a22, a23) {
+    const o33 = {
+        "h": a21,
+        get e() {
+            Object.defineProperty(this, this, { configurable: true, enumerable: true, set: f0 });
+            this || v13;
+            return "WGO";
+        },
+        valueOf(a27, a28) {
+            try {
+                a27.h = a22;
+            } catch(e29) {
+            }
+            const o30 = {
+                "call": f0,
+                "getOwnPropertyDescriptor": f0,
+                "getPrototypeOf": f0,
+                "isExtensible": f0,
+                "setPrototypeOf": f0,
+            };
+            const v32 = new Proxy(Proxy, o30);
+            return v32;
+        },
+    };
+    return o33;
+}
+f20(v16, v15, v14);
+f20(v16, v16, v15);
+f20(v16, v16, v16);
+const o39 = {
+};
+o39.execution = -1472569261;
+gc(o39);

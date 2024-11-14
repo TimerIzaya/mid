@@ -1,0 +1,89 @@
+class C3 {
+    static toString(a5) {
+        return "a";
+    }
+    static {
+        const v10 = this.b;
+        try {
+            v10.__proto__ = this;
+        } catch(e11) {
+        }
+    }
+}
+const t12 = 24652;
+const v12 = new t12();
+const v13 = new C3();
+const v14 = new v13();
+class C15 {
+    static 129;
+    constructor(a17, a18, a19, a20) {
+        class C21 extends C3 {
+            #a = v13;
+            static #c;
+            g = C3;
+        }
+        new C21();
+        new C21();
+        new C21();
+    }
+    static #f = C3;
+    static [24652] = 24652;
+}
+const v25 = new C15(C15, C15, C15, v13);
+new C15(v13, v13, C15, v25);
+new C15(C3, v12, v12, v12);
+class C28 extends C15 {
+    #valueOf(a30, a31, a32, a33) {
+        let v34 = 0;
+        do {
+            const o35 = {
+            };
+            try {
+                o35.g = 2.815049447113421e+307;
+            } catch(e36) {
+            }
+            try {
+                const o37 = {
+                };
+                o37.g = 2.815049447113421e+307;
+                o37.h = 24652;
+            } catch(e38) {
+            }
+            try {
+                const o39 = {
+                };
+                o39.g = 2.815049447113421e+307;
+                o39.h = 24652;
+                o39.f = a30;
+            } catch(e40) {
+            }
+            try {
+                const o41 = {
+                };
+                o41.g = 2.815049447113421e+307;
+                o41.h = 24652;
+                o41.f = a30;
+            } catch(e42) {
+            }
+            v34++;
+        } while (v34 < 4)
+        return v14;
+    }
+}
+new C28();
+new C28();
+new C28();
+for (let v49 = 0; v49 < 25; v49++) {
+    const v50 = [601759695];
+    const v51 = [1073741824,1073741823,1376142744,1073741825];
+    function f53(a54, a55, a56, a57) {
+        const v60 = new Uint8ClampedArray();
+        Math.acosh(v60 & -2);
+        let v65;
+        try { v65 = v51["find"](..."find", a57, ...v50, ...v51, ...522675525n); } catch (e) {}
+        return v65;
+    }
+    for (let v66 = 0; v66 < 5; v66++) {
+        f53();
+    }
+}

@@ -1,0 +1,161 @@
+const v0 = /(ab)\1*/vsy;
+const v1 = /^l/gvdsy;
+const v2 = /J\p{Script=Greek}+/vim;
+function f3(a4, a5) {
+    const o22 = {
+        "a": a4,
+        __proto__: a4,
+        "d": v1,
+        get g() {
+            super.b = this;
+            v0.sticky;
+            return this;
+        },
+        "e": v2,
+        get b() {
+            function F10(a12, a13, a14, a15) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.h = a12;
+                } catch(e16) {
+                }
+                try {
+                    this.a = v1;
+                } catch(e17) {
+                }
+                try {
+                    this.f = v0;
+                } catch(e18) {
+                }
+            }
+            new F10(v1, a5, a5, a4);
+            new F10(v0, a4, v2, v2);
+            const v21 = new F10(a5, a4, a4, v2);
+            return v21;
+        },
+    };
+    return o22;
+}
+const v23 = f3(v2, v1);
+const v24 = f3(v2, v0);
+const v25 = f3(v0, v1);
+function F26(a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a29;
+    } catch(e31) {
+    }
+    try {
+        this.h = a29;
+    } catch(e32) {
+    }
+    try {
+        this.e = v25;
+    } catch(e33) {
+    }
+}
+f3(v1 in v0, v2);
+const o38 = {
+    "maxByteLength": 268435456,
+};
+const v40 = new SharedArrayBuffer(12, o38);
+new BigUint64Array(v40);
+const v43 = new F26(v1, v25, v25);
+const v44 = new F26(v23, v25, v25);
+const v45 = new F26(v44, v24, v23);
+function f46(a47, a48, a49, a50) {
+    const o59 = {
+        "c": a49,
+        [f3](a52, a53, a54) {
+            const v55 = v1[2925];
+            for (let v56 = 0; v56 < 100; v56++) {
+                f3(a52, a48);
+            }
+            try { v55(v45, v45); } catch (e) {}
+            super.g = v55;
+            return v24;
+        },
+        __proto__: v45,
+        "g": a50,
+        [F26]: v0,
+        "h": v25,
+        "a": v25,
+    };
+    return o59;
+}
+v43[v23];
+v23.__proto__;
+v45[o38];
+const o63 = {
+};
+try {
+    o63.f = 12;
+} catch(e64) {
+}
+try {
+    const o65 = {
+    };
+    o65.f = 12;
+    o65.g = f46;
+} catch(e66) {
+}
+try {
+    const o67 = {
+    };
+    o67.f = 12;
+    o67.g = f46;
+    o67.a = f46;
+} catch(e68) {
+}
+try {
+    const o69 = {
+    };
+    o69.f = 12;
+    o69.g = f46;
+    o69.a = v23;
+} catch(e70) {
+}
+f46(v23, v0, v44, v25);
+f46(v23, v1, v43, v25);
+f46(v24, F26, v43, v23);
+[9007199254740992,4294967295,10319,65536,0];
+[62259,268435456,-2,1073741823,1073741824,50327,11];
+[-1024,4294967296,25556];
+new Date();
+new Set();
+function f82(a83) {
+    function F84(a86) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v87 = new F84(F84);
+    try {
+        function f88(a89, a90, a91) {
+            let v92 = 0;
+            do {
+                const o93 = {
+                    [268435456]: a90,
+                    "d": a89,
+                    3737: F84,
+                    __proto__: v23,
+                    7: f88,
+                };
+                o93.h = v87;
+                const o94 = {
+                };
+                v92++;
+            } while ((() => {
+                    a91 === 7;
+                    try {
+                        a90.toString = f88;
+                    } catch(e98) {
+                    }
+                    return v92 < 7;
+                })())
+            return f88(a91, v87);
+        }
+        f88();
+    } catch(e102) {
+    }
+    return a83;
+}
+f82();

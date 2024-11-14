@@ -1,0 +1,51 @@
+const v2 = new Array(9223372036854775807);
+function f3(a4, a5) {
+    const o12 = {
+        [a5](a7, a8) {
+            const v9 = super.e;
+            %VerifyType(Array);
+            v2[Symbol.split] = 9223372036854775807;
+            return v9;
+        },
+        5: Array,
+        ...a4,
+        7: a4,
+        "a": a4,
+    };
+    return o12;
+}
+const v13 = f3(v2, f3);
+f3(v2, f3);
+const v15 = f3(Array, v13);
+let v16 = 4;
+v16--;
+const v19 = new Int16Array(9223372036854775807);
+let v22;
+try { v22 = new Int8Array(Int8Array, v19, 9223372036854775807, f3, Int8Array); } catch (e) {}
+const v23 = new Int8Array(1000);
+new Uint8ClampedArray(415, v13, v23, v22);
+let v28 = 257;
+v28--;
+try { new BigInt64Array(9223372036854775807, v16, v16); } catch (e) {}
+new Int8Array(628786973);
+new BigInt64Array(v28);
+const o41 = {
+    [-12994]: -12994,
+    set maxByteLength(a39) {
+    },
+    get c() {
+        return this;
+    },
+    "b": 2.220446049250313e-16,
+};
+class C42 {
+    #c = "e";
+}
+class C43 {
+}
+let v44;
+try { v44 = new C43(); } catch (e) {}
+new C43(v44, 2.220446049250313e-16, v13);
+const v46 = v15.__defineGetter__;
+try { v46("e", "e"); } catch (e) {}
+try { v46(); } catch (e) {}

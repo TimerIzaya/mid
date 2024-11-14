@@ -1,0 +1,50 @@
+function f0() {
+    const o9 = {
+        "iterator": 14,
+        "h": "1378672765",
+        [14]: "1378672765",
+        m(a5) {
+            const o6 = {
+            };
+            new Proxy(this, o6);
+            return a5;
+        },
+        "a": "1378672765",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function f13(a14) {
+    const o20 = {
+        valueOf(a16, a17) {
+            v12[v11] = a16;
+            a16 = this;
+            try { a17(v10, f0, a17, v11); } catch (e) {}
+            return this instanceof a17;
+        },
+        "b": v11,
+        __proto__: v11,
+        ...v10,
+        "c": v10,
+    };
+    return o20;
+}
+const v21 = f13(v12, f0);
+f13(v12);
+const v23 = f13(v12);
+class C24 {
+    constructor(a26, a27, a28, a29) {
+        a27.c;
+        new BigUint64Array(-4294967297);
+        new Float32Array(128);
+        new Float64Array(1);
+    }
+}
+const v40 = new C24(C24, v23, v11, v10);
+new C24(v11, v40, v11, v12, v10);
+new C24(v10, v21, C24, v40);
+const v45 = Float64Array.of();
+const v47 = new Date();
+v47.setFullYear(v45, 3811);

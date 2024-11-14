@@ -1,0 +1,66 @@
+function f3(a4, a5) {
+    const o15 = {
+        set b(a7) {
+            try { this["isFinite"](a4, "isFinite", a5); } catch (e) {}
+            delete this[65537];
+        },
+        [f3]: 2147483648n,
+        ...2147483648n,
+        [4n](a12, a13) {
+            this.b;
+            return a12;
+        },
+        __proto__: a4,
+        "c": 12n,
+        194: 2147483648n,
+        [a5]: a5,
+    };
+    return o15;
+}
+f3[Symbol.toPrimitive] = f3;
+const v18 = f3(4n, 2147483648n);
+let v19 = f3(12n, 2147483648n);
+const v20 = f3(12n, 4n);
+const v22 = Symbol.toPrimitive;
+v20[v22] = f3;
+const v24 = new Date();
+function f25(a26, a27) {
+    function f28(a29) {
+        const v30 = v22;
+        v19 = a29;
+        return a26;
+    }
+    a27.toString = f28;
+    const o40 = {
+        [a27]: v20,
+        set d(a32) {
+            function f33(a34, a35) {
+                [1e-15];
+                [-2.2250738585072014e-308,1000000.0,-1.7976931348623157e+308,2.2250738585072014e-308,-2.2250738585072014e-308,267.84724974429946,1.7976931348623157e+308,-0.0];
+                [-1000000000.0,8.730154911064909e+307,-2.8445565127413586,1.0,-1.7976931348623157e+308,-1.0,-1.7976931348623157e+308,-3.0];
+                return this;
+            }
+            f33(4n, v18);
+        },
+        "e": v19,
+        ...v19,
+        "f": f3,
+        "h": v19,
+        "d": a27,
+    };
+    return o40;
+}
+f25(v24, 2147483648n);
+f25(v18, v20);
+f25(v18, 12n);
+function f44() {
+    return 12n;
+}
+new Int16Array(411);
+new Float64Array(6);
+new Int8Array(4096);
+function F55() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new Int8Array(268435456);
+[F55,Uint8Array];

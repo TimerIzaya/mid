@@ -1,0 +1,86 @@
+function f3(a4, a5) {
+    function f6(a7) {
+        function f8() {
+            return -444.7374569346309;
+        }
+        return a5;
+    }
+    a4.toString = f6;
+    const o10 = {
+        3423: a5,
+        __proto__: a4,
+        ...a4,
+        "c": a5,
+        "f": a4,
+        [a4]: a5,
+        "g": a5,
+        52: -0.0,
+        "c": f3,
+        get d() {
+            return -444.7374569346309;
+        },
+        "b": -444.7374569346309,
+        [-1.7976931348623157e+308]: -444.7374569346309,
+        [-1]: -444.7374569346309,
+    };
+    return o10;
+}
+const v11 = f3(-444.7374569346309, -444.7374569346309);
+const v12 = f3(f3, v11);
+function f13() {
+    return v12;
+}
+Object.defineProperty(v12, 1, { get: f13 });
+const v14 = f3(f3, -444.7374569346309);
+const v15 = v12.constructor;
+try { new v15(); } catch (e) {}
+const v17 = [506097.1301051206];
+const v18 = v17.toLocaleString(v12);
+function f19() {
+}
+const v23 = new Uint32Array(16);
+function f24(a25, a26) {
+    const o27 = {
+    };
+    o27.e = f24;
+    const o28 = {
+    };
+    o28.e = f24;
+    o28.b = a26;
+    const o29 = {
+    };
+    o29.e = f24;
+    o29.b = a26;
+    o29.c = a25;
+    const o30 = {
+    };
+    o30.e = f24;
+    o30.b = a26;
+    o30.d = a26;
+    function f32(a33) {
+        new f19();
+    }
+    this.onmessage = f32;
+    v23.length = 1073741824;
+}
+function f35(a36, a37, a38, a39) {
+    const o43 = {
+        "a": -0.0,
+        268435439: a39,
+        set c(a41) {
+            super[a41] = Object;
+        },
+        "e": f3,
+        "d": v12,
+        "arguments": v17,
+        "type": v18,
+        129: v17,
+        ...a37,
+        "b": a38,
+    };
+    return o43;
+}
+f35(f35, v11, -1.7976931348623157e+308, -0.0);
+f35(f3, v12, -444.7374569346309, -1.7976931348623157e+308);
+f35(-444.7374569346309, v14, -1.7976931348623157e+308, v14);
+gc();

@@ -1,0 +1,67 @@
+function f2() {
+    function f3() {
+        return "match";
+        return "match";
+    }
+    return f3;
+}
+Object.defineProperty(Int16Array, Symbol.toPrimitive, { configurable: true, get: f2 });
+const v7 = new Int16Array(9);
+function f10(a11, a12) {
+    ("async").lastIndexOf();
+    return "async";
+}
+Float64Array.valueOf = f10;
+const v15 = new Float64Array(345);
+const v18 = new Int32Array(3821);
+v18[v18] || 9;
+v18.buffer;
+delete v18[Int16Array];
+/xyz{1,}?(x)(x)(x)\1*/gvdsy;
+/Ha\D*/gdmsy;
+/jF*/gvimy;
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f32() {
+        try { a28(a28, a29, a30, Int16Array, f10, this); } catch (e) {}
+        function F34() {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                const v36 = this in this;
+                v36 || v36;
+                new F34();
+            } catch(e39) {
+            }
+        }
+        return a29;
+    }
+    this[Symbol.toPrimitive] = f32;
+    try {
+        this.d = Float64Array;
+    } catch(e42) {
+    }
+}
+const v43 = new F26(345, v18, Float64Array, 9);
+const v44 = new F26(3821, v43, v15, 345);
+v44 < v43 ? v44 : v43;
+class C48 extends Array {
+}
+const v49 = new C48();
+v49.push(Array);
+let v52 = Float64Array >= v15 ? Float64Array : v15;
+%VerifyType(v52);
+const v53 = new F26(9, F26, v43, 345);
+const v55 = [v15,345,Int16Array,v18,[v53,345,v7]];
+new Int16Array(v52 = v18);
+const v59 = v18 & 1670976313;
+Math.ceil(1670976313);
+v18 ** (v18 / v59);
+[v55,v43,v55,v44];
+for (let v64 = 0; v64 < 5; v64++) {
+    function f65() {
+        45725n === 45725n;
+        return Int32Array;
+    }
+    f65();
+    %OptimizeFunctionOnNextCall(f65);
+}

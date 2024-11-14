@@ -1,0 +1,40 @@
+const v0 = [];
+class C1 {
+    2 = v0;
+    static get f() {
+        return this in v0;
+    }
+    static a;
+    [v0] = v0;
+}
+new C1(C1);
+const v8 = new C1();
+v8[2] = v8;
+v8[2] = v8;
+const v9 = new C1();
+v9[2] = v9;
+const v11 = new WeakSet();
+try { v11.add(C1); } catch (e) {}
+class C13 extends C1 {
+    static o(a15, a16, a17, a18) {
+        a17[a15] &= a18;
+        Math.asin(v0);
+        a18++;
+        256 << 256;
+        -1.0;
+        return a16;
+    }
+}
+const v26 = new C13();
+v26[2] = v26;
+v26[65535] = v26;
+const v27 = new C13();
+v27[2];
+const v29 = new C13();
+v29[2] = v29;
+512 + 512;
+const v32 = [1073741824,255,-93221804,1,268435440];
+v32.length = 512;
+const v36 = v32["bigint"]([Uint32Array,v27,Uint32Array]);
+v36.g = v36;
+v36.g = v36;

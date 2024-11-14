@@ -1,0 +1,52 @@
+const v5 = new BigInt64Array(257);
+const v6 = new BigUint64Array(v5);
+const v10 = [10,2147483649,-65537,9223372036854775807,2147483647,0,268435440];
+const v13 = ([8.42123894252574,2.2250738585072014e-308,1000000000000.0,1e-15,-1000.0,-5.0,1000000000.0,-3.636295005613261e+307,-3.0]).toString().search(v10);
+const v14 = [1073741824,1073741823,1376142744,1073741825];
+try {
+    v14.forEach(v13);
+} catch(e16) {
+}
+function f18() {
+    return 3n;
+}
+function f22() {
+    function f23(a24, a25, a26, a27) {
+        return a24;
+    }
+    f22 != f23;
+    return f22;
+}
+f22();
+%OptimizeFunctionOnNextCall(v13);
+const o38 = {
+    get b() {
+        delete this[this];
+        this[this] = 817905185;
+        super[817905185] = "object";
+        return 817905185;
+    },
+    valueOf(a35, a36) {
+        return v5;
+    },
+    get e() {
+        return -1073741824n;
+    },
+};
+function f39(a40) {
+    const o41 = {
+        ...o38,
+    };
+    const v42 = [2.0,0.2901658812472846,-8.880306076496956e+307,943883.9104739067];
+    function f43(a44, a45) {
+        const v47 = a44 && 64;
+        ++a44 * v47;
+        return a44;
+    }
+    v42.constructor = f43;
+    v42.constructor;
+    return a40;
+}
+v6(o38);
+const t49 = 257;
+t49();

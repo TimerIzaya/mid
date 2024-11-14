@@ -1,0 +1,69 @@
+function f0() {
+    const o10 = {
+        "c": "-9007199254740990",
+        set b(a5) {
+            let v6;
+            try { v6 = a5(a5, "-62551", "-9007199254740990"); } catch (e) {}
+            %VerifyType(v6);
+        },
+        110: "toISOString",
+        ..."-62551",
+        "b": "-62551",
+        "g": "-62551",
+    };
+    o10.p0 = "toISOString";
+    return o10;
+}
+let v11 = f0();
+v11.p29 = v11;
+const v12 = f0();
+const v13 = f0();
+Object.defineProperty(v13, "p24", { value: v12 });
+v13.p6 = f0;
+class C14 extends f0 {
+    [v11];
+    static #a = v12;
+    static #e;
+    constructor(a16, a17) {
+        super();
+        super.b >>= v12;
+        try {
+            v11.#a;
+        } catch(e19) {
+        }
+    }
+    #d;
+}
+const v20 = new C14(v11, v13);
+const v21 = new C14(v20, v20);
+const v22 = new C14(v12, v13);
+class C23 extends C14 {
+    static m(a25, a26) {
+        v11 = v13;
+        new Array(512);
+        return f0;
+    }
+    constructor(a31, a32, a33, a34) {
+        super(v22, v22);
+        v12[v12] = v20;
+        for (let v35 = 0; v35 < 32; v35++) {
+            a31["p" + v35] = v35;
+        }
+    }
+}
+const v38 = new C23(v21, v20, C23, v22);
+const v39 = new C23(v13, v20, v38, v20);
+new C23(v11, v20, v12, v39);
+for (let v41 = 0; v41 < 5; v41++) {
+    function f42() {
+        const o46 = {
+            __proto__: f42,
+            valueOf(a44, a45) {
+                return a45;
+            },
+        };
+        return v41;
+    }
+    f42();
+    %OptimizeFunctionOnNextCall(f42);
+}

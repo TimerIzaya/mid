@@ -1,0 +1,65 @@
+function f0() {
+    const o4 = {
+        "a": 4294967296,
+        1073741823: 1e-15,
+        [1e-15]: 4294967296,
+        1143: 1e-15,
+        "d": 4294967296,
+        "g": 1e-15,
+        "e": 1e-15,
+        __proto__: 4294967295,
+        "c": 4294967295,
+        [4294967296]: 4294967295,
+    };
+    o4.p4 = o4;
+    return o4;
+}
+const v5 = f0();
+v5.p13 = v5;
+const v6 = f0();
+v6 % v6;
+2147483647 && 536870889;
+const v12 = f0();
+class C13 extends f0 {
+    static {
+        for (let v15 = 0; v15 < 32; v15++) {
+            v5["p" + v15] = v15;
+        }
+    }
+    255 = v6;
+    #a;
+    6 = v12;
+}
+new C13();
+new C13();
+new C13();
+new BigInt64Array(163);
+new BigUint64Array(1117);
+new Float64Array(127);
+function f30() {
+    const o31 = {
+    };
+    return o31;
+}
+const v32 = f30();
+v32.p13 = v32;
+const v33 = f30();
+class C34 {
+    constructor(a36, a37) {
+        function f38() {
+            return a37;
+        }
+        function f39(a40) {
+            const v43 = new Uint32Array(2091);
+            v43[0];
+        }
+        Object.defineProperty(a37, "p13", { writable: true, configurable: true, get: f38, set: f39 });
+        for (let v45 = 0; v45 < 32; v45++) {
+            a37["p" + v45] = v45;
+        }
+    }
+}
+new C34(v33, v32);
+const o49 = {
+    ...v32,
+};

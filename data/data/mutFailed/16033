@@ -1,0 +1,93 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f6() {
+        for (let v7 = 0; v7 < 32; v7++) {
+            a5["p" + v7] = v7;
+        }
+        return this;
+    }
+    this.toString = f6;
+    try {
+        this.a = -0.5596633379849596;
+    } catch(e10) {
+    }
+    try {
+        this.e = 146.60165004232863;
+    } catch(e11) {
+    }
+}
+const v12 = new F3(1000000000.0);
+const v13 = new F3(-0.5596633379849596);
+const v14 = new F3(1000000000.0);
+class C15 {
+    toString(a17, a18, a19, a20) {
+        1000000000.0 >> -0.5596633379849596;
+        try {
+            v12.valueOf = a17;
+        } catch(e22) {
+        }
+        return 146.60165004232863;
+    }
+    static [v13];
+    static #n(a24, a25, a26) {
+        const v28 = [146.60165004232863,Reflect,v12];
+        const v29 = Reflect.construct(a25, v28, F3);
+        function F30(a32, a33, a34) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = C15;
+            } catch(e35) {
+            }
+            try {
+                this.b = a26;
+            } catch(e36) {
+            }
+        }
+        new F30(-0.5596633379849596, a25, a26);
+        new F30(F30, v13, v28);
+        new F30(v29, F3, this);
+        try {
+            super.toString(1000000000.0);
+        } catch(e41) {
+        }
+        try {
+            new F3(-2.220446049250313e-16);
+        } catch(e44) {
+        }
+        return a24;
+    }
+}
+const v45 = new C15();
+const v46 = new C15();
+new C15();
+function f48(a49, a50, a51, a52) {
+    const o69 = {
+        m(a54, a55) {
+            let v56;
+            try { v56 = a55(v46); } catch (e) {}
+            async function f57(a58, a59, a60, a61) {
+                a60 * v56;
+                try { a49.filter(a54, a61, v46, v45); } catch (e) {}
+                return await a60;
+            }
+            f57(a55, v46, v46, a51);
+            return a54;
+        },
+        "g": 1000000000.0,
+        "c": -0.5596633379849596,
+        ...v13,
+        "d": -0.5596633379849596,
+        __proto__: v46,
+    };
+    return o69;
+}
+f48(v13, v45, 146.60165004232863, f48(v45, v46, 1000000000.0, v14));
+f48(v46, v14, -0.5596633379849596, v14);
+new Int8Array(1073741823);
+function f77(a78, a79, a80, a81) {
+    const v82 = new Int8Array();
+    const v83 = v82.buffer;
+    v83.constructor = Array;
+    return v83.slice(1073741823, a79);
+}
+try { f77(); } catch (e) {}

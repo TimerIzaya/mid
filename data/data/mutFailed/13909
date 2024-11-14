@@ -1,0 +1,37 @@
+const v4 = new Map();
+new Float32Array(8, Float32Array, v4, 536870889);
+new Int16Array(127, v4, 17731, 127);
+new Int16Array(240);
+const v17 = [-0.0];
+function f18(a19) {
+    try {
+        v17.__proto__ = v4;
+    } catch(e20) {
+    }
+    return v4;
+}
+Object.defineProperty(v17, Symbol.toPrimitive, { value: f18 });
+class C23 {
+}
+const v24 = new C23();
+function f25() {
+    function F26(a28, a29, a30, a31) {
+        if (!new.target) { throw 'must be called with new'; }
+        function f32() {
+            return F26;
+        }
+        class C33 extends f32 {
+            constructor(a35) {
+                super();
+                for (let v36 = 0; v36 < 25; v36++) {
+                    this["p" + "p"] = v36;
+                }
+            }
+        }
+        new C33();
+    }
+    const v40 = new F26();
+    return v40;
+}
+v24.valueOf = f25;
+v17 << v24;

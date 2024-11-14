@@ -1,0 +1,67 @@
+const v4 = 268435456n | -2147483649n;
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a8;
+    } catch(e9) {
+    }
+    try {
+        this.c = 268435456n;
+    } catch(e10) {
+        class C11 {
+            #a = e10;
+            static 3;
+        }
+        new C11();
+        new C11();
+        new C11();
+    }
+    try {
+        function f15() {
+            function f17(a18) {
+                F5 || this;
+                try { a18(65537n, a8); } catch (e) {}
+            }
+            this.onmessage = f17;
+            f17(F5);
+            %PrepareFunctionForOptimization(f17);
+            f17(F5);
+            f17(F5);
+            %OptimizeMaglevOnNextCall(f17);
+            f17(F5);
+        }
+        const v27 = [];
+        const o28 = {
+            "arguments": v27,
+            "type": "function",
+        };
+        new Worker(f15, o28);
+        this.a = a7;
+        const o30 = {
+        };
+        new Proxy(this, o30);
+        try {
+            this.fuck(this, this, a7);
+        } catch(e34) {
+        }
+    } catch(e35) {
+    }
+}
+const v36 = `
+    v36[v36] = v4;
+    if (-3n === -3n) {
+        v4[65537n] &= -4.0;
+    } else {
+        new F5(-12n, -3n);
+    }
+`;
+const v43 = eval(v36);
+new F5(65537n, -2147483649n);
+const v45 = new F5(65537n, v4, F5, 268435456n, v4);
+new F5(65537n, 268435456n, v45, -2147483649n, v4);
+let v55 = 0;
+while (v55 < 6) {
+    Object.defineProperty(v43, -65536, { writable: true, enumerable: true, get: eval });
+    v55++;
+}
+([1.7976931348623157e+308,-5.063738949828065,-1000000.0,-4.0,4.0,1.368499884638594e+307,0.0,-1.2131530743918297,-1000000000.0,-2.809909548595164]).concat();

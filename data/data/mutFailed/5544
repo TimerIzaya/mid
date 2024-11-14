@@ -1,0 +1,57 @@
+class C3 {
+    constructor(a5) {
+        super.e <<= Reflect.construct(a5, ["setFullYear",1300752439,"setFullYear"], a5);
+        function f9() {
+            return Reflect;
+        }
+    }
+    #p(a11, a12) {
+        try {
+            a11.f = a11;
+        } catch(e13) {
+        }
+        try {
+            const t13 = "setFullYear";
+            t13.toString = a12;
+        } catch(e14) {
+        }
+        return "QnPQ";
+    }
+}
+new C3("QnPQ");
+const v16 = new C3("QnPQ");
+const v17 = new C3("setFullYear");
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a25;
+    } catch(e26) {
+    }
+    try {
+        this.a = "setFullYear";
+    } catch(e27) {
+    }
+    try {
+        this.h = 257;
+    } catch(e28) {
+    }
+}
+new F21(257, 268435440, "QnPQ");
+new F21(268435440, 268435441, v16);
+new F21(268435440, 1300752439, v17);
+function f32(a33, a34) {
+    const v37 = Array(a33);
+    Object.defineProperty(v37, 0, { configurable: true, enumerable: true, get: a33, set: a34 });
+    return v37.unshift(3);
+}
+new Promise(f32);
+function f41() {
+    return f41;
+}
+function F42(a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v46 = new F42();
+v46.constructor = f41;
+const v47 = new F42(F42, F42);
+Object.defineProperty(v47, "constructor", { writable: true, configurable: true, value: f41 });

@@ -1,0 +1,67 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a4;
+    } catch(e6) {
+    }
+    try {
+        this.g = a4;
+    } catch(e7) {
+    }
+    try {
+        this.e = a4;
+    } catch(e8) {
+    }
+}
+let v9 = new F2(F2, f1);
+const v10 = new F2(f1, v0);
+const v11 = new F2(v9, f1);
+class C12 extends f1 {
+    static #valueOf(a14, a15) {
+        const v16 = v11.__proto__;
+        try {
+            v10.#valueOf(v9);
+        } catch(e18) {
+        }
+        v9 = v10;
+        super.filter(a14, v11);
+        a15[a15] = v16;
+        const v20 = super.reduceRight(C12, C12);
+        try { v20(v11); } catch (e) {}
+        try {
+            this.#valueOf(F2, v9);
+        } catch(e23) {
+        }
+        return a15;
+    }
+    #d = v11;
+    static [v11] = v10;
+    static #b = v11;
+}
+new C12();
+new C12();
+new C12();
+new BigUint64Array(0);
+new Uint8ClampedArray(129);
+({"g":f1,} = v11);
+[4294967296,-1,2,-1606620386,-1965119561];
+[257,4,-65537,1073741824,-21730,-268435456,4294967295,-2];
+[-13,11,-256,-256,268435440];
+new Uint16Array(3);
+new Uint16Array(1076);
+new Int32Array(7);
+new Int8Array(2833);
+function F49(a51, a52) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const o54 = {
+        };
+        Worker("2140550028", o54);
+    } catch(e56) {
+    }
+}
+new F49(F49, "2140550028");

@@ -1,0 +1,50 @@
+const v3 = new Int32Array(128);
+const v6 = new Uint8Array(3050);
+const v9 = new Float64Array(720);
+function f10() {
+    let v11 = -4294967295;
+    const o13 = {
+        get a() {
+            v11 %= v11;
+            return f10;
+        },
+    };
+    return f10;
+}
+let v14 = f10();
+const v15 = f10();
+const v16 = f10();
+class C21 extends f10 {
+    #h = false;
+    b;
+    [v3] = 128;
+    [v15] = v6;
+    [Float64Array] = v9;
+    static #g = "o";
+    static [v16];
+    constructor(a23, a24, a25, a26) {
+        super();
+        try {
+            v14.#g **= a23;
+        } catch(e27) {
+        }
+    }
+    static o(a29, a30) {
+        v14 **= this;
+        f10();
+    }
+}
+const v32 = new C21(5n, "-17909", f10, "o");
+new C21("-17909", "-17909", "p", "p");
+new C21(v14, "p", v14, "o");
+class C35 {
+    get g() {
+        Uint16Array();
+        Uint8ClampedArray();
+        BigInt64Array();
+        return v15;
+    }
+    static #h = "p";
+}
+const v43 = new C35();
+try { v43.o(v32); } catch (e) {}

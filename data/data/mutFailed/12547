@@ -1,0 +1,83 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -5;
+    } catch(e3) {
+    }
+    try {
+        this.b = -5;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+function f11() {
+    return "S";
+}
+function f12() {
+    return v5;
+}
+class C13 extends f12 {
+    #c = v5;
+    static [-1] = F0;
+    static #g;
+    set b(a15) {
+        let v14 = this;
+        a15 >= f11;
+        Date.parse(-3);
+        const o21 = {
+            ..."raw",
+        };
+        try {
+            function f22() {
+                return f22;
+            }
+            function f24() {
+                Object.defineProperty(arguments, 13, { enumerable: true, set: f22 });
+                return o21;
+            }
+            f24();
+        } catch(e27) {
+        }
+        v14 /= v6;
+        try {
+            v6.valueOf = a15;
+        } catch(e28) {
+        }
+    }
+    static e = F0;
+    static 5;
+    static 257 = "S";
+}
+const v29 = new C13();
+const v30 = new C13();
+const v31 = new C13();
+function f32(a33, a34) {
+    const o45 = {
+        [a34](a36, a37, a38, a39) {
+            ("tDUy")[5];
+            f12();
+            %PrepareFunctionForOptimization(f12);
+            f12();
+            f12();
+            %OptimizeFunctionOnNextCall(f12);
+            f12();
+            return a33;
+        },
+        __proto__: a33,
+        "e": v30,
+        "a": a33,
+        "d": v31,
+    };
+    return o45;
+}
+f32(v5, f11);
+f32(v29, "rr3VI");
+f32(v29, "S");
+Array.__proto__ = this;
+class C53 extends Date {
+}
+new C53();
+const v56 = new Uint8ClampedArray(255);
+v56[3] = Uint32Array;

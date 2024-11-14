@@ -1,0 +1,74 @@
+function f0() {
+    const o10 = {
+        ["-4"]: "hd",
+        ..."-4",
+        "d": "-4",
+        get c() {
+            function f5() {
+                return f5;
+            }
+            const v7 = ["-4","-4"];
+            Reflect.apply(("-4").replaceAll, "-4", v7);
+            return this;
+        },
+        __proto__: "-4",
+        "f": "hd",
+    };
+    return o10;
+}
+const v11 = f0();
+f0();
+v11();
+new Uint16Array(36);
+new BigUint64Array(11);
+new Float64Array(2843);
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeMaglevOnNextCall(f0);
+f0();
+function f30() {
+    const o45 = {
+        get d() {
+            const v35 = this != 2.220446049250313e-16;
+            function F36(a38, a39) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = "dXSrM";
+                } catch(e40) {
+                }
+                try {
+                    this.d = v35;
+                } catch(e41) {
+                }
+            }
+            const v42 = new F36("82428790", 2.220446049250313e-16);
+            new F36(v42, F36);
+            new F36(this, 2.220446049250313e-16);
+            return "82428790";
+        },
+    };
+    return o45;
+}
+const v46 = f30();
+const v47 = f30();
+const v48 = f30();
+function f52() {
+    return f30;
+}
+[-1000000.0,3.0,-244.3852613351678,2.0,0.8813599337099659,0.0];
+const v54 = [2.0,41.95718811499455,-1000000000.0,441.87475467945524,5.0];
+const v55 = [1000000000000.0];
+function f56(a57, a58, a59) {
+    const o64 = {
+        __proto__: v46,
+        p(a61, a62) {
+            delete this?.e;
+            return this;
+        },
+    };
+    return a57;
+}
+f56(v47, v54);
+f56(v47, v48, v55);

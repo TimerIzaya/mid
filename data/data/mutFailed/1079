@@ -1,0 +1,66 @@
+const v1 = new Map();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a4;
+    try {
+        this.d = F2;
+    } catch(e6) {
+    }
+    try {
+        this.g = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F2(F2, Map);
+const v9 = new F2(v8, v1);
+function f10(a11) {
+    let v12 = -9223372036854775808n;
+    v12 %= 45725n;
+    return F2;
+}
+v9[Symbol.toPrimitive] = f10;
+const v16 = new F2(v8, v8);
+function f17() {
+    return v8;
+}
+function f18(a19, a20, a21) {
+    function f22(a23) {
+        -(-2.220446049250313e-16);
+        const v29 = Math.cosh(2147483648);
+        2147483648 | -2.220446049250313e-16;
+        2 | Map;
+        return v29;
+    }
+    a20[Symbol.toPrimitive] = f22;
+    const o48 = {
+        "f": v1,
+        [a20]: v8,
+        p(a35, a36) {
+            return a36;
+            let v37;
+            try { v37 = a36(v8, a21, a20, F2); } catch (e) {}
+            super.g;
+            v37 = v1;
+            try { v1.values(); } catch (e) {}
+            Math.atan(5.0);
+            let v44 = 5.0 | -9223372036854775807;
+            const v45 = ++v44;
+            v45.acosh(v45);
+            Math.random();
+            return v16;
+        },
+    };
+    return o48;
+}
+f17(v8, v8, v16);
+f18(v16, v9, v16);
+f18(v16, f18, v16);
+const v52 = [-20096,4294967296,-65537,-2];
+const v53 = [-1947047520];
+const v54 = [v53,v53,v53,v52];
+const v55 = [v54];
+function f56(a57, a58) {
+    return v54["some"](a58, v9);
+}
+v55.toString = f56;
+v52["slice"](v55);

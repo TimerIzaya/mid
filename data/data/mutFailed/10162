@@ -1,0 +1,74 @@
+function f0() {
+    const o9 = {
+        ...NaN,
+        "d": NaN,
+        "c": -1.0,
+        __proto__: -1.0,
+        "g": NaN,
+        m(a5) {
+            4.0 ** this;
+            const v7 = a5 instanceof NaN;
+            try {
+                this.d = a5;
+            } catch(e8) {
+            }
+            return v7;
+        },
+    };
+    return o9;
+}
+f0.toString = f0;
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f22() {
+        function f23(a24) {
+            function F25() {
+                if (!new.target) { throw 'must be called with new'; }
+                const v28 = -(-7);
+                v28 ** v28;
+            }
+            function F30(a32, a33) {
+                if (!new.target) { throw 'must be called with new'; }
+                const v34 = this.constructor;
+                try { new v34(F25, a32, F25, v34); } catch (e) {}
+                new F25();
+            }
+            return 14n;
+        }
+        return f23;
+    }
+    function f37(a38) {
+        const t43 = [7.134431132944798e+307];
+        t43[4] = WeakMap;
+    }
+    Object.defineProperty(a21, "toString", { writable: true, configurable: true, get: f22, set: f37 });
+    try {
+        this.g = a21;
+    } catch(e41) {
+    }
+    try {
+        this.a = v12;
+    } catch(e42) {
+    }
+    try {
+        this.b = a18;
+    } catch(e43) {
+    }
+    function F44() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    class C47 extends F44 {
+    }
+    const v48 = new C47();
+    Reflect.getOwnPropertyDescriptor(v48, a19 | "undefined");
+}
+const v53 = new F16(v11, f0, v11, 14n);
+v53.valueOf = f0;
+const v54 = new F16(v10, v53, 9007199254740992n, v53);
+new F16(9007199254740992n, v54, 14n, v53);
+const v57 = [Float32Array];
+v57[Symbol.isConcatSpreadable] = f0;
+v57["concat"]().includes(Float32Array);

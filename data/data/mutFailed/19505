@@ -1,0 +1,48 @@
+class C3 {
+    constructor(a5) {
+        let v4 = this;
+        [v4] = "string";
+        try {
+            v4.c = 9;
+        } catch(e6) {
+        }
+    }
+    static ["string"];
+    static #c;
+    g;
+    static [-1] = "string";
+}
+const v7 = new C3(9);
+const v8 = new C3(v7);
+const v9 = new C3(v8);
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f14() {
+        return "string";
+    }
+    function f15(a16) {
+    }
+    Object.defineProperty(this, "c", { writable: true, configurable: true, enumerable: true, get: f14, set: f15 });
+    try {
+        this.c = a12;
+    } catch(e18) {
+    }
+}
+const v19 = new F10(F10, v7, v9, F10, C3);
+new F10(C3, v9);
+new F10(v19, v8);
+function f22(a23, a24, a25, a26) {
+    const v29 = new BigInt64Array(4046, BigInt64Array, F10);
+    let v30 = undefined;
+    const v31 = v30++;
+    v31 >> v31;
+    v31 / v31;
+    v31 >> v31;
+    let o35 = {
+    };
+    [,...o35] = v29;
+    return f22;
+}
+for (let v36 = 0; v36 < 5; v36++) {
+    f22(v36, v36, v36, v36);
+}

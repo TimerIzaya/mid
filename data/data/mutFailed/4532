@@ -1,0 +1,58 @@
+class C3 {
+    #o(a5, a6) {
+        2.220446049250313e-16 + a6;
+        try {
+            a6.f = this;
+        } catch(e8) {
+        }
+        return 2.220446049250313e-16;
+    }
+    constructor(a10, a11) {
+        function f17(a18, a19, a20) {
+            const o21 = {
+                0: a18,
+                "a": 1.0,
+                "c": -1024,
+            };
+            return o21;
+        }
+        f17(-268435456, a11, C3);
+        f17(a10, f17(-1330486985, C3, a11), -268435456);
+    }
+}
+new C3(2.220446049250313e-16, 1.7397781483734659e+308);
+let v27 = new C3(2.220446049250313e-16, 1.7397781483734659e+308);
+const v28 = new C3(v27, 1.7397781483734659e+308);
+new Uint8ClampedArray(10);
+new Uint8ClampedArray(6);
+const v37 = new Int32Array(512);
+class C38 {
+}
+new C38();
+const v40 = new C38();
+const v41 = new C38();
+v27 = Int32Array;
+let v42;
+try { v42 = v27.o(v40, v28, C3); } catch (e) {}
+typeof v42 === "bigint";
+59817n < undefined;
+class C49 extends C38 {
+    constructor(a51, a52) {
+        super();
+        try {
+            a51.__proto__ = C38;
+        } catch(e53) {
+        }
+        new this();
+    }
+}
+new C49(v41);
+const v58 = Reflect.construct(-1330486985, [512,v37], C49);
+try {
+    const t51 = "bigint";
+    t51.c = v58;
+} catch(e59) {
+}
+new C49();
+new Reflect();
+new C38();

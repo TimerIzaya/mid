@@ -1,0 +1,37 @@
+class C3 {
+    toString(a5, a6) {
+        a5.__proto__;
+        function f8() {
+            return a6;
+        }
+        return "HLjtc";
+    }
+    constructor(a10) {
+        C3.construct("g", [Reflect,"HLjtc","HLjtc","HLjtc"], a10);
+        try {
+            Reflect.__proto__ = a10;
+        } catch(e14) {
+        }
+    }
+}
+const t16 = "g";
+new t16("HLjtc");
+new C3("g");
+new C3("g");
+const t20 = "g";
+new t20();
+new Int32Array(9);
+new Uint16Array(4081);
+new Int8Array(3740);
+const v34 = new BigInt64Array();
+function f35() {
+    const v37 = v34[undefined] instanceof f35;
+    const o38 = {
+    };
+    o38.h = v37;
+    return BigInt64Array;
+}
+%PrepareFunctionForOptimization(f35);
+f35();
+%OptimizeFunctionOnNextCall(f35);
+Uint16Array();

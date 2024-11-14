@@ -1,0 +1,17 @@
+new WeakSet();
+new Uint8Array(0);
+new Int16Array(2896);
+("undefined").localeCompare("undefined", "symbol", "undefined");
+new Float32Array(7);
+/[^(ab)+]/vdim;
+/Gfoo(?!bar)bazga\n[^\p{Changes_When_NFKC_Casefolded}]?/uiy;
+/zABsa\bc?/ud;
+const v19 = new Map();
+const v20 = [-65535,-19265,3,-13,65537,128];
+const v22 = v19.constructor;
+class C23 extends v22 {
+    3832 = v20;
+}
+const v24 = new C23();
+try { v22(WeakMap, v20, 129, v24); } catch (e) {}
+gc();

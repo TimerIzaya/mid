@@ -1,0 +1,51 @@
+const v1 = new WeakMap();
+function f2() {
+    return v1;
+}
+let v3 = WeakMap;
+const v4 = new v3();
+class C5 {
+    static #valueOf(a7, a8) {
+        super[this];
+        Object.defineProperty(this, "g", { configurable: true, enumerable: true, set: f2 });
+        try { a7.defineProperties(this, f2, v3, Math, v3); } catch (e) {}
+        v3++;
+        try {
+            v1.__proto__ = a7;
+        } catch(e16) {
+        }
+        const v19 = v1 ^ -65537n;
+        const v20 = v1 / -65537n;
+        Math.cosh(v20);
+        v19 * v19;
+        v1 + v20;
+        -65537n * v19;
+        return a8;
+    }
+    8;
+    #p(a26) {
+        return v4;
+    }
+}
+const v31 = new C5();
+const v32 = new C5();
+v1 >> f2;
+try {
+    v1.delete(f2);
+} catch(e35) {
+}
+new C5();
+function f38(a39) {
+    return a39;
+}
+class C40 extends f38 {
+    static 9 = C5;
+    #a;
+}
+function f46() {
+    return f46;
+}
+Object.defineProperty(v32, 114, { writable: true, configurable: true, set: f38 });
+v31[0] = C5;
+const v51 = new Uint16Array(f46);
+v51["filter"](f46);

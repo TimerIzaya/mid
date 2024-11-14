@@ -1,0 +1,28 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a8;
+    try {
+        this.e = 37608398n;
+    } catch(e10) {
+    }
+    try {
+        this.d = -13n;
+    } catch(e11) {
+    }
+    try {
+        this.c = 37608398n;
+    } catch(e12) {
+    }
+}
+const v13 = new F6("deref", -13n);
+new F6("find", 37608398n);
+new F6("find", 37608398n);
+function f16() {
+    return v13;
+}
+const v20 = /[.ma\Sc]/vdimsy;
+v20.toString = f16;
+const v22 = v20.exec(v20);
+const o24 = {
+};
+gc(v22);

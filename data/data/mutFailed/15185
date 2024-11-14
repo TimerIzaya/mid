@@ -1,0 +1,130 @@
+let v0 = undefined;
+function f1() {
+    const o7 = {
+        ...v0,
+        "g": v0,
+        "a": v0,
+        valueOf() {
+            this[v0];
+            this[Symbol.unscopables];
+            return this;
+        },
+        "e": v0,
+        ...v0,
+        "c": v0,
+        [v0]: v0,
+    };
+    return o7;
+}
+const v8 = f1();
+const v9 = f1();
+try { v9.valueOf(); } catch (e) {}
+const v11 = f1();
+v11.e;
+function f13(a14, a15) {
+    a14.a;
+    const o31 = {
+        "c": v0,
+        6: a14,
+        "h": a14,
+        [a15]: a15,
+        m(a18, a19) {
+            let v20 = 0;
+            do {
+                v0--;
+                v20++;
+            } while (v20 < 9)
+            let v25 = 0;
+            while (v25 < 0) {
+                const v28 = a14?.g;
+                try {
+                    v9.c = v28;
+                } catch(e29) {
+                }
+                v25++;
+            }
+            return v20;
+        },
+        ...v8,
+        7: a15,
+        ...v8,
+        __proto__: v11,
+        [v9]: f13,
+    };
+    o31[6];
+    return v11;
+}
+const v33 = f13(v11, f13);
+const v34 = f13(v11, v9);
+const v35 = f13(v11, v9);
+v35.b = v35;
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    a38.b = a38;
+    const v40 = a39?.constructor;
+    try { new v40(a38); } catch (e) {}
+    try {
+        this.g = a38;
+    } catch(e42) {
+    }
+    try {
+        this.b = v34;
+        try {
+            const v45 = v33.valueOf(v11, a38, "push", undefined);
+            v45.c = v45;
+        } catch(e46) {
+        }
+    } catch(e47) {
+    }
+}
+const v48 = new F36(v35, v11);
+const v49 = new F36(v35, v9);
+const v50 = new F36(f13, v9);
+try { v50.g(f13, v49); } catch (e) {}
+class C52 {
+    static #toString(a54, a55, a56, a57) {
+        try {
+            super.p(f13, F36, a57);
+        } catch(e59) {
+        }
+        return f1;
+    }
+    constructor(a61, a62, a63, a64) {
+        a62.a = a62;
+        super.a;
+        a61.g;
+    }
+    static 4 = v35;
+    [v49] = v50;
+    #g;
+}
+const v67 = new C52(v50, v8, v11, v11);
+const v68 = v67?.constructor;
+try { new v68(v8, v34, v48, v9); } catch (e) {}
+const v70 = new C52(v48, v67, C52, v11);
+const v71 = v70?.constructor;
+try { new v71(v70, v67, v70, v67); } catch (e) {}
+const v73 = new C52(v70, C52, v9, C52);
+const v74 = v73?.propertyIsEnumerable;
+try { new v74(v50); } catch (e) {}
+function f76(a77, a78, a79, a80) {
+    const o81 = {
+        __proto__: v50,
+        "h": a77,
+        ...C52,
+        "e": v33,
+        1: a77,
+        [a77]: a77,
+    };
+    return o81;
+}
+function f82(a83, a84, a85) {
+    return a84;
+}
+Worker.toJSON = f76;
+const v88 = [Worker];
+const o89 = {
+    "arguments": v88,
+    "type": "function",
+};
+new Worker(f82, o89);

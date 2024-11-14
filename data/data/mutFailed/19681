@@ -1,0 +1,74 @@
+function f0() {
+    const o13 = {
+        268435441: "boolean",
+        ["valueOf"](a5, a6) {
+            let v7 = super.c;
+            v7 = v7;
+            const t6 = "boolean";
+            delete t6?.length;
+            this & "valueOf";
+            return 28515;
+        },
+        "g": "boolean",
+        "b": 5.0,
+        ...5.0,
+    };
+    return o13;
+}
+const v14 = f0();
+const v15 = f0();
+const v16 = f0();
+class C17 {
+    #p(a19, a20) {
+        const v21 = a20++;
+        v16 || a19;
+        const v23 = v21 ** f0;
+        for (let v24 = 0; v24 < 32; v24++) {
+            v14["p" + v24] = v24;
+        }
+        return v23;
+    }
+    9 = v15;
+    static [f0];
+    static #a = v15;
+}
+const v27 = new C17();
+const v28 = new v27();
+const v29 = new C17();
+class C30 extends f0 {
+    0;
+    static #b;
+    #c = C17;
+    static #p(a32, a33, a34) {
+        const v35 = f0();
+        try {
+            v35.b = v16;
+        } catch(e36) {
+        }
+        return v15;
+    }
+    [v16] = v14;
+    [v27];
+    9 = v29;
+}
+new C30();
+const v38 = new C30();
+new v38();
+class C40 {
+    static get f() {
+        try {
+            f0();
+        } catch(e43) {
+        }
+        return C30;
+    }
+    get c() {
+        Object.defineProperty(v27, 10000, { configurable: true, enumerable: true, set: f0 });
+        Reflect.construct(C30, [], f0);
+        return v28;
+    }
+}
+new C40();
+new v38();
+new C40();
+("h").split(65535);

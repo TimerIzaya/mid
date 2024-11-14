@@ -1,0 +1,45 @@
+new Float32Array(26);
+let v5 = new BigInt64Array(215);
+new BigUint64Array(15);
+const v9 = [6.124272065144275];
+[464626.8600683878,543.957958321794,-1000000000000.0,338297.5925717752,-391260.1981607999,-5.028595951846923e+307,0.3937717541331378,-888316.1669926615,77020.21140351798,-1.0];
+const v11 = [-1.091849526286669e+308,-1.4762611200066415e+307,-2.220446049250313e-16,1.0,864.6273807829193,2.2250738585072014e-308,3.0,-469695.44699824485,-1e-15];
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+    function F14() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v16 = new F14();
+    const v17 = v16.__defineSetter__;
+    try { v17(); } catch (e) {}
+    function f19(a20, a21) {
+        const o22 = {
+        };
+        let v23 = 0;
+        do {
+            f19(o22, v17);
+            const v26 = Symbol.iterator;
+            v5[v26] = v26;
+            v23++;
+        } while (v23 < 0)
+        return o22;
+    }
+    const v30 = f19();
+    function f31() {
+    }
+    const v34 = new Float32Array();
+    for (const v35 of v34) {
+        Object.defineProperty(v30, Float32Array, { configurable: true, enumerable: true, get: f19, set: f31 });
+    }
+}
+let v36;
+try { v36 = BigUint64Array(v5); } catch (e) {}
+v5 &&= v5;
+v11.length;
+try {
+    v9.toString = v36;
+} catch(e38) {
+}
+new F12();
+new F12();
+new F12();

@@ -1,0 +1,100 @@
+class C3 {
+    0;
+    #b;
+    #f;
+    set h(a5) {
+        const v6 = super.a;
+        try {
+            const t7 = -270254.19229175453;
+            t7.#f = v6;
+        } catch(e7) {
+        }
+        function f8(a9) {
+            return -270254.19229175453;
+        }
+        class C10 extends f8 {
+            6;
+            [a5];
+        }
+    }
+    static d;
+    #d;
+    static [973030.3568407297];
+    static [-669.1344801611003];
+    #n(a12, a13) {
+        try {
+            this.#b = -669.1344801611003;
+        } catch(e14) {
+        }
+        return C3;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+function f17(a18, a19) {
+    const v20 = !-270254.19229175453;
+    try { v16.indexOf(); } catch (e) {}
+    return v20;
+}
+v16[Symbol.toPrimitive] = f17;
+const v24 = new C3();
+function f26(a27, a28) {
+    a27.toString = f26;
+    const o35 = {
+        [a28]: a28,
+        o(a30, a31, a32, a33) {
+            return a31;
+        },
+        "e": a27,
+        "d": false,
+        3568950959: -270254.19229175453,
+        "b": C3,
+        ...v24,
+        [C3]: a28,
+        "c": v16,
+        4096: a28,
+        "h": a28,
+        "f": a28,
+        129: v15,
+        [v16]: false,
+        "b": 973030.3568407297,
+        __proto__: v15,
+    };
+    return v15;
+}
+f26.toString = f26;
+f26(v24, f26);
+f26(v15, v15);
+f26(v24, 973030.3568407297);
+new Float32Array(0);
+for (let v45 = 0; v45 < 25; v45++) {
+    function f46(a47, a48, a49, a50) {
+        a49[0] = arguments;
+        const v52 = arguments.__lookupGetter__;
+        let v53;
+        try { v53 = v52.constructor(f46, v52); } catch (e) {}
+        const v54 = new Float32Array(v45, v53);
+        const v56 = new Int32Array(v45, a49, a50, a50);
+        const v57 = v54;
+        v56.fill(...v57);
+        return v57;
+    }
+    for (let v59 = 0; v59 < 10; v59++) {
+        f46(v59, v59, v59, v59);
+    }
+}
+new Float32Array(9);
+new Uint32Array(0);
+function f66() {
+    function F67() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v69 = 0; v69 < 10; v69++) {
+            "p" + v69;
+        }
+    }
+    new F67();
+}
+%PrepareFunctionForOptimization(f66);
+f66();
+%OptimizeFunctionOnNextCall(f66);
+f66();

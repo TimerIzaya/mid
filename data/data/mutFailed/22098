@@ -1,0 +1,49 @@
+function f0() {
+}
+function f7() {
+    return 2147483648;
+}
+class C8 extends f7 {
+    n(a10, a11, a12, a13) {
+        let v15;
+        try { v15 = this["getMinutes"](1990859020, f7); } catch (e) {}
+        let v16;
+        try { v16 = v15("getMinutes", this, a10); } catch (e) {}
+        return v16;
+    }
+    constructor(a18, a19, a20) {
+        super();
+        %VerifyType(2147483648);
+    }
+    #c;
+    #b;
+    h = 2147483648;
+}
+const v21 = new C8(1990859020, 11699, 50673);
+const v22 = new C8(11699, v21, 50673);
+const v23 = new C8(50673, -1, 11699);
+f0();
+var g = f0;
+const v26 = v23["n"](f0, "n");
+new f0();
+function f28(a29, a30) {
+    const o35 = {
+        __proto__: v23,
+        get h() {
+            super[11699];
+            const v34 = a30.species;
+            v21[v34] = this;
+            return v34;
+        },
+        "g": -1,
+        "a": 2147483648,
+        2: f7,
+        "c": v21,
+        "f": 50673,
+    };
+    return v22;
+}
+v26(-1, v23);
+f28(50673, v23);
+f28(2147483648, v21);
+f0();

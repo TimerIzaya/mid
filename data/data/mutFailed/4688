@@ -1,0 +1,19 @@
+const t0 = 8;
+const v2 = new t0(8);
+const v5 = new Float32Array(3282);
+new Uint8ClampedArray(2992);
+const v9 = [v2,Float32Array,8];
+const v10 = [v2,v9,Uint8ClampedArray,v2,v9];
+const v11 = [Uint8ClampedArray,v9,v5,v10];
+v11[8];
+let v15;
+try { v15 = v11.flat(8); } catch (e) {}
+v15[0] = v15;
+try {
+    const t12 = 3282;
+    new t12(v10);
+} catch(e17) {
+}
+const v18 = new v9(497);
+const v21 = new Int16Array(v10);
+v18[3] = v21;

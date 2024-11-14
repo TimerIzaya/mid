@@ -1,0 +1,22 @@
+/E[\cA]/guim;
+/C/gvdy;
+/py(x)(x)(x)\4/iy;
+new Int32Array(891);
+new Float64Array(1000);
+const v14 = new Float64Array(128);
+class C15 {
+}
+const v16 = new C15();
+function f17(a18, a19) {
+    const o22 = {
+        "h": v14,
+        [128]: v16,
+        set h(a21) {
+        },
+    };
+    return a18;
+}
+%PrepareFunctionForOptimization(f17);
+const v23 = f17();
+%OptimizeFunctionOnNextCall(f17);
+v23(C15, v23);

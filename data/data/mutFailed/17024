@@ -1,0 +1,43 @@
+function f0() {
+}
+function f7() {
+    return 1000;
+}
+new BigInt64Array(129);
+new Uint32Array(257);
+const v16 = new Float64Array(11);
+class C19 {
+    constructor(a21, a22) {
+        function f23(a24) {
+            try {
+                v16.buffer = this;
+            } catch(e25) {
+            }
+            return a24;
+        }
+        this.constructor = f23;
+        a21.toString = f0;
+        -a21;
+        const v27 = this.a;
+        try { new v27(-15n); } catch (e) {}
+        a21 - a21;
+    }
+}
+function f30(a31) {
+    class C34 {
+        constructor(a36, a37) {
+            function f38(a39, a40) {
+                return a40[3];
+            }
+            f38(a37, a36);
+            f38("e", "e");
+            f38("wNzDt", a36);
+        }
+    }
+    const v45 = new C34("wNzDt");
+    return v45;
+}
+C19.toString = f30;
+const v46 = new C19(-9007199254740992n);
+const v47 = v46.constructor;
+new v47(v47, 11);

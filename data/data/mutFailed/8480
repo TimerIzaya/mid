@@ -1,0 +1,76 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = this;
+    try {
+        this.d = 15;
+    } catch(e3) {
+    }
+    try {
+        this.h = 15;
+        const v5 = [F0,[this,this,15,this]];
+        [F0];
+        v5[15] = f;
+    } catch(e8) {
+    }
+}
+const v9 = new F0();
+function f10(a11, a12) {
+    Math.sin(-9007199254740991);
+    try {
+        a12.length = 6;
+    } catch(e17) {
+    }
+    return a11;
+}
+v9.toString = f10;
+const v18 = new F0();
+const o22 = {
+    "execution": "async",
+    "type": "major",
+};
+const v23 = gc(o22);
+let v24 = new F0();
+class C25 {
+    512;
+    static #n(a27) {
+        try {
+            const v28 = super.getOwnPropertyDescriptors(this, this);
+            v18[C25] |= v28;
+            super.d >>= C25;
+            const v29 = super.e;
+            const v30 = super[C25];
+            try { new C25(this, v28, v29, v30, ..."major"); } catch (e) {}
+        } catch(e32) {
+        }
+        return v18;
+    }
+    [v18] = v18;
+    [v9] = v18;
+    static c;
+}
+const v33 = new C25();
+new C25();
+const v35 = new C25();
+var h = C25;
+Object.defineProperty(v35, "c", { writable: true, enumerable: true, set: f10 });
+v35[v33] = v23;
+try {
+    const v36 = /8foo(?<!bar)baz?/my;
+    const o37 = {
+    };
+    const v38 = /[\d-\d]/gi;
+    const o39 = {
+    };
+    v33.fuck(v36, o37, v38, o39);
+} catch(e41) {
+}
+let v45 = -1.0;
+const v46 = v45++;
+function f47() {
+    v24 = v18;
+    gc(...arguments, arguments, v45, v23, arguments, v35);
+    return arguments;
+}
+f47("c", v23, "c");
+const v51 = v46 - v46;
+try { Reflect.set(v51); } catch (e) {}

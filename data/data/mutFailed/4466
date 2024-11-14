@@ -1,0 +1,36 @@
+const v6 = new Map(2);
+const v7 = new Uint16Array(v6);
+v7[1] = v7;
+class C8 {
+    static o(a10, a11) {
+        ("Zu")[65536];
+        super.g += a10;
+        const o13 = {
+        };
+        const v15 = new Proxy("m", o13);
+        return v15;
+    }
+    #e;
+    ["m"] = "m";
+    constructor(a17, a18) {
+        const v19 = this.constructor;
+        try { new v19(); } catch (e) {}
+        this.propertyIsEnumerable(Uint16Array);
+    }
+    static ["m"] = "m";
+    set g(a23) {
+    }
+    /*
+    constructor(a25, a26, a27) {
+        a26.#a;
+    }
+    */
+    #h;
+}
+new C8();
+new C8();
+new C8(Uint16Array);
+new Float32Array(3233);
+new Float64Array(6);
+new Uint8Array(128);
+try { BigInt.keyFor(BigInt); } catch (e) {}

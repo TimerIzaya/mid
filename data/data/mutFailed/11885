@@ -1,0 +1,69 @@
+const v0 = [1073741824,-35341,-9007199254740992,-15488,74201225,10];
+function f1(a2) {
+    Object.defineProperty(a2, 4, { writable: true, configurable: true, value: a2 });
+    function f3() {
+        const v4 = [f3];
+        function f5(a6) {
+            return a6;
+        }
+        v4.constructor = f5;
+        const v7 = v4.constructor;
+        v7(v7, f5);
+        return f3;
+    }
+    %PrepareFunctionForOptimization(f3);
+    return a2;
+}
+Object.defineProperty(v0, "toString", { configurable: true, enumerable: true, value: f1 });
+const v9 = [-12357,255,536870888];
+const v10 = [-9038,-366632797,7,-11,268435440,-5,1902397923,-1073741824,-9223372036854775808,-959263269];
+class C11 {
+    static #b;
+    static 16 = v9;
+    #valueOf(a13, a14) {
+        super.c = v9.length;
+        try {
+            a13.#b |= this;
+        } catch(e16) {
+        }
+        return a13;
+    }
+    [v0] = v10;
+    static #h;
+}
+new C11();
+new C11();
+new C11();
+let v22 = 0.6886652501645145;
+h = C11;
+try { v9.flatMap(-1263344387); } catch (e) {}
+let v27 = 1750434844;
+v27 && v27;
+v27--;
+const v31 = -v27;
+--v22;
+let v33 = C11 || v31;
+Math.fround(v33);
+v33--;
+const v37 = [1984879050,0,-8575,7,1073741825];
+v37.valueOf = f1;
+function f38(a39, a40, a41, a42) {
+    const v45 = ("Vre").constructor.fromCharCode(v37);
+    const o51 = {
+        valueOf() {
+            const v47 = v9[this];
+            super.c &&= 18974;
+            try {
+                new f38(a39, v47, a39, /\P{scx=Greek}/dim);
+            } catch(e50) {
+            }
+            return 65376;
+        },
+    };
+    return v45;
+}
+for (let v52 = 0; v52 < 10; v52++) {
+    f38(v52, f38, v52, v52);
+}
+%OptimizeFunctionOnNextCall(f38);
+f38(v37, v37, v37, f38);

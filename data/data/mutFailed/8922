@@ -1,0 +1,65 @@
+const v0 = [];
+function f1() {
+    const v4 = new Uint16Array(2);
+    new Uint16Array(v4);
+    return v0;
+}
+v0.toString = f1;
+function f6() {
+    return v0;
+}
+const v8 = new WeakMap();
+function f9(a10, a11) {
+    function f12() {
+        function F13(a15, a16, a17, a18) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v19 = this.constructor;
+            let v20;
+            try { v20 = new v19(); } catch (e) {}
+            typeof v20 === "symbol";
+        }
+        new F13();
+        return a10;
+    }
+    a10.toString = f12;
+    const o34 = {
+        __proto__: v0,
+        "e": a10,
+        ...a11,
+        "d": a10,
+        [-2]: a11,
+        268435456: v8,
+        [v0](a26, a27, a28) {
+            this.__proto__;
+            a26 = v0;
+            return f6;
+        },
+    };
+    return o34;
+}
+const v35 = f9(v0, WeakMap);
+f9(v8, f9(v0, f6));
+class C41 extends WeakMap {
+    static f = v35;
+    static #e;
+    static n(a43, a44, a45, a46) {
+        Object.defineProperty(a44, f6, { writable: true, get: f9 });
+        return f9;
+    }
+    #n(a48, a49, a50, a51) {
+        if (a51) {
+        } else {
+            let v53;
+            try { v53 = a51(a50, WeakMap, a50, f6); } catch (e) {}
+            try {
+                v8.#e **= v53;
+            } catch(e54) {
+            }
+        }
+        return v35;
+    }
+}
+new C41();
+new C41();
+new C41();
+/(x)(x)(x)\4ca(ab)(?:foo)*/imy;

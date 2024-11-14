@@ -1,0 +1,43 @@
+class C3 {
+    [65535] = -1.7976931348623157e+308;
+    constructor(a5, a6) {
+        a5[10] = a6;
+        super.f;
+    }
+    static o(a9) {
+        const o12 = {
+            "maxByteLength": 3887,
+        };
+        const v14 = new SharedArrayBuffer(3887, o12);
+        new Int32Array(v14, v14, o12, Int32Array);
+        return a9;
+    }
+}
+const v17 = new C3(-1.7976931348623157e+308, C3);
+const v18 = new C3(C3, v17);
+new C3(v18, v18);
+[1.0];
+[0.8052524995243795,483890.77336909645,3.0,-2.2250738585072014e-308,5.5526618786472];
+[1000.0,-1000000000000.0,1.1583505892024131e+308,-0.0,-1.4757912027934168,1.5602093545505954e+308,5.0,1.1270423971878345e+308,1000000000000.0];
+[439587533,-323875200,-51962,8,-65537];
+[9007199254740990,-7,37601];
+const v25 = [-12,-3,-9,-11078,-11,240864010];
+("minor").valueOf();
+class C29 {
+    ["minor"] = 0.9009832213714677;
+}
+const v30 = new C29(v17, v25);
+function f31(a32, a33, a34, a35) {
+    v30.minor;
+    const v38 = Math.sign(a33);
+    v38 >>> v38;
+    return a32;
+}
+for (let v40 = 0; v40 < 10; v40++) {
+    f31(C29, v40, v30, "minor");
+    function F42() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+}
+%OptimizeFunctionOnNextCall(f31);
+f31();

@@ -1,0 +1,43 @@
+const t0 = 536870888n;
+const v4 = new t0();
+const v9 = new WeakSet();
+function f10(a11, a12, a13) {
+    const o23 = {
+        n(a15, a16, a17, a18) {
+            v4[0];
+            a12 = a17;
+            return v4[Symbol.species];
+        },
+        "g": 1024n,
+        "f": a13,
+        ["symbol"]: "o",
+        __proto__: a11,
+        "e": v9,
+        "d": a11,
+        [536870888n]: a13,
+    };
+    return o23;
+}
+const v24 = f10("symbol", "o", 1024n);
+f10("o", v24, -65535n, v24);
+f10("o", WeakSet, 536870888n);
+function f30() {
+    return f30;
+}
+const v31 = /(?:a*)+q(?<a>.)/guds;
+function f32(a33) {
+    const v34 = a33.constructor;
+    let v35;
+    try { v35 = v34(a33, f30); } catch (e) {}
+    const o37 = {
+        get d() {
+            return this;
+        },
+    };
+    return v35;
+}
+for (let i40 = 0, i41 = 10; i40 < i41, i40; i41--) {
+    for (let v48 = 0; v48 < 50; v48++) {
+        f32(v31);
+    }
+}

@@ -1,0 +1,70 @@
+class C4 {
+    static #e;
+    229;
+    static a;
+    p(a6, a7) {
+        for (let v8 = 0; v8 < 32; v8++) {
+            this["p" + v8] = v8;
+        }
+        return a7;
+    }
+}
+C4.name;
+const v12 = C4?.constructor;
+try { v12.prototype(); } catch (e) {}
+try { new v12(C4); } catch (e) {}
+const t15 = true;
+new t15();
+const v16 = new C4();
+const v17 = v16?.constructor;
+try { v17.toString(); } catch (e) {}
+let v19;
+try { v19 = new v17(); } catch (e) {}
+v19[229] = v19;
+new C4();
+class C21 extends C4 {
+    o(a23, a24, a25) {
+        try {
+            a23.p(this, a24, this);
+        } catch(e27) {
+        }
+        return this;
+    }
+    1281530877 = true;
+    9;
+    5;
+}
+const v28 = new C21();
+v28[5] = v28;
+const t38 = true;
+const v29 = new t38();
+const v30 = new C21();
+Symbol.matchAll;
+const v34 = Symbol.isConcatSpreadable;
+Symbol.for(v34.description);
+const v38 = Array();
+try { v38.findLast(v38); } catch (e) {}
+v38[267] = v34;
+try { ("concat").toWellFormed(); } catch (e) {}
+v38["concat"]();
+const v43 = [39049,-2147483647,9007199254740991,30221,268435456,-2147483647,41987];
+v43[1] = v43;
+const v44 = [-2];
+try { v44.reduceRight(v29); } catch (e) {}
+v44[Symbol.isConcatSpreadable] = Array;
+function f48(a49) {
+    return v44;
+}
+function f50(a51, a52) {
+    a52[0];
+    for (const v55 of "I") {
+        try { v55.search(v55); } catch (e) {}
+        v55.a %= v55;
+    }
+    return C4;
+}
+f48[(7n).species] = f50;
+Object.defineProperty(v44, "constructor", { value: f48 });
+const v59 = v44.concat(v43);
+v59.b = v59;
+try { v59.find(v30); } catch (e) {}

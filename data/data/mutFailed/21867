@@ -1,0 +1,36 @@
+const v0 = [0.44998480817232445,-1000000.0];
+let v1 = [0.035461780014567346,-2.0,1e-15,-9.073051951350757e+307,-1000000000000.0,1000.0];
+const v2 = [0.9589627328300304,-1000.0,-1.6008336141957104e+308,-2.220446049250313e-16];
+function f3(a4) {
+    const o8 = {
+        get e() {
+            const v6 = super[v0];
+            let v7;
+            try { v7 = v2.toSpliced(v6); } catch (e) {}
+            v2[v6] = v7;
+            v1 >>>= a4;
+            super[a4] = this;
+            return v2;
+        },
+        "d": v0,
+        "a": a4,
+    };
+    return o8;
+}
+const v9 = f3(v2);
+const v10 = f3(v0);
+const v11 = f3(v0);
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a16;
+    } catch(e18) {
+    }
+}
+new F12(v1, v1, v10, v1);
+new v1(v11, v11, v9, v11);
+new F12(v11, v11, v11, v10);
+function F37(a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    0 / 0;
+}

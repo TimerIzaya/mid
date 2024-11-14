@@ -1,0 +1,51 @@
+class C3 {
+    #c = "valueOf";
+    g = "function";
+    n(a5, a6) {
+        try {
+            a6.#c;
+        } catch(e8) {
+        }
+        try {
+            ("function").#c;
+        } catch(e10) {
+        }
+        return a6;
+    }
+    #g;
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+function f14() {
+    for (let i17 = 0, i18 = 10; i17 < i18; i17++) {
+        continue;
+    }
+    return v13;
+}
+class C25 extends f14 {
+    constructor(a27, a28, a29) {
+        super();
+        Reflect.construct(a29, [a29,a28,a29,Reflect], a29);
+        try { a29(f14, v11, a29, Reflect); } catch (e) {}
+    }
+    static #d;
+    static #f;
+    8;
+    [v13];
+    #e = C3;
+    static [v12];
+    15;
+}
+new C25(C3, C3, C3);
+new C25(v13, C25, f14);
+new C25(v11, v13, v11);
+/Ixyz??/vdm;
+/\x60*/gudimy;
+/\p{Script=Greek}/gudisy;
+for (let v40 = 0; v40 < 50; v40++) {
+}
+try {
+    139837843 in "deleteProperty";
+} catch(e44) {
+}

@@ -1,0 +1,98 @@
+let v0 = [-2.0,1.0,0.8427776383271197,1.848819817501922e+307,1.0,-244.93526759543818,0.30271359731801484,-796189.5177231886,-1000000000.0];
+const v1 = [1000000000.0,665.0253659669688,4.0,-946.9737956845374,-788437.6812183183,-1000.0];
+const v2 = [-2.220446049250313e-16,NaN,-1000000000.0,2.0,2.220446049250313e-16,0.5862591966927693,-2.220446049250313e-16];
+[v2,v2,v2,v0];
+const v4 = [v0];
+for (let v6 = 0; v6 < 5; v6++) {
+    function f7() {
+        let v8 = -268435456;
+        v8--;
+        const o13 = {
+            get a() {
+                eval();
+                return f7;
+            },
+        };
+        v0 %= v8;
+        return v6;
+    }
+    f7();
+    %OptimizeFunctionOnNextCall(f7);
+}
+let v15 = [v1];
+class C16 {
+    #b = v4;
+    valueOf(a18, a19) {
+        try {
+            v0.#b;
+        } catch(e21) {
+        }
+        return a18;
+    }
+    static get a() {
+        try {
+            this.#b;
+        } catch(e24) {
+        }
+        let v26 = -2147483648;
+        -Infinity;
+        --v15;
+        v26++;
+        Math.acos(v26);
+        return v15 || this;
+    }
+}
+const v32 = new C16();
+new v0();
+const v34 = new C16();
+function f38(a39, a40) {
+    const o57 = {
+        __proto__: a39,
+        [v34]: 1,
+        "g": v2,
+        n(a42, a43, a44, a45) {
+            v34[129] ||= a45;
+            const v46 = a43.length;
+            super[v46] = v32;
+            function F47(a49, a50) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a49;
+                } catch(e51) {
+                }
+                try {
+                    this.b = v15;
+                } catch(e52) {
+                }
+                try {
+                    this.g = v46;
+                } catch(e53) {
+                }
+            }
+            new F47(11, this);
+            new F47(v46, a39);
+            new F47(a44, v34);
+            return a43;
+        },
+    };
+    return o57;
+}
+f38(v32, 1);
+f38(v32, 11);
+f38(f38, 1);
+function f63() {
+}
+class C64 extends f63 {
+    toString(a66, a67) {
+        this.constructor();
+        -this;
+    }
+}
+const v70 = new C64();
+function f71(a72) {
+    const v73 = 1024 <= 3585;
+    v73 || v73;
+    return f63;
+}
+v70.constructor = f71;
+try { v70.toString(); } catch (e) {}

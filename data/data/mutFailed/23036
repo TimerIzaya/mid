@@ -1,0 +1,27 @@
+const v6 = new Float32Array(5);
+let v9;
+try { v9 = v6.set(v6, 5); } catch (e) {}
+const v10 = delete v6?.buffer;
+v6[undefined] = -9007199254740991n;
+try { v10["n"]("n"); } catch (e) {}
+new Uint8Array(7);
+new Float32Array(128);
+let v18 = 0;
+while (v18 < 1) {
+    SharedArrayBuffer[536870889] = 5;
+    SharedArrayBuffer in v9;
+    v18++;
+}
+function F23() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let i27 = 0, i28 = 10;
+        i27++, i27 < i28;
+        (() => {
+            for (const v36 of Array(4087)) {
+            }
+            const v38 = new Int16Array(4087);
+            v38[251] = v38;
+        })()) {
+    }
+}
+new F23();

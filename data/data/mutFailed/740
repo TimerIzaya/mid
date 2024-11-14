@@ -1,0 +1,46 @@
+function f0() {
+}
+/JzN?/ums;
+/xyz?/vis;
+/(?:a+){0,0}/gvy;
+class C4 extends f0 {
+    static set g(a6) {
+        const o9 = {
+            "g": 12,
+        };
+        const v11 = new ArrayBuffer(12, o9);
+        new Uint16Array(v11);
+    }
+}
+try { new C4(); } catch (e) {}
+new C4();
+const v16 = new C4();
+const v17 = v16?.constructor;
+try { new v17(); } catch (e) {}
+new C4();
+let v24 = 144;
+v24 | v24;
+const v26 = v24++;
+v26 + v26;
+class C28 {
+    constructor(a30, a31) {
+        const v32 = this?.constructor;
+        try { new v32(f0, a30); } catch (e) {}
+        this.propertyIsEnumerable(C28);
+    }
+}
+try { C28.call(v16); } catch (e) {}
+function f36(a37) {
+    a37[4];
+    return v26;
+}
+const v40 = Infinity.c;
+class C44 {
+    static #p(a46) {
+        this.#p(a46);
+    }
+}
+Symbol.for(v40.description);
+C28[v40] = f36;
+const v54 = new C28();
+v54.e = v54;

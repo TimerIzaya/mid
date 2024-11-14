@@ -1,0 +1,68 @@
+class C3 {
+    m(a5, a6) {
+        a6++;
+        return a6;
+    }
+    constructor(a9, a10) {
+        const v11 = 57263 >>> this;
+        try { a10(a9, a10, v11); } catch (e) {}
+        1 - a10;
+        %VerifyType(1);
+        try {
+            a10.a = 1;
+        } catch(e14) {
+        }
+    }
+    #e = 1;
+}
+function f15(a16, a17) {
+    function F18(a20, a21, a22, a23) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v24 = this.constructor;
+        v24.prototype = v24;
+    }
+    new F18(F18, F18, F18, F18);
+    return C3;
+}
+C3[Symbol.toPrimitive] = f15;
+new C3(1, 57263);
+const v29 = new C3(57263, C3);
+new C3(57263, v29);
+new Boolean();
+function f36() {
+    return 57263;
+}
+[4294967297,-490029764,-11,-1073741824,-1024];
+[2147483649];
+[248761179,-9007199254740990,49243,722624917,1073741824,65537,536870888,832939849,-59237,-419823121];
+const v40 = /(J5a{0,1}?)/y;
+v40.valueOf = f36;
+class C41 {
+    static {
+        for (let v43 = 0; v43 < 25; v43++) {
+            const v44 = [601759695];
+            const v45 = [1073741824,1073741823,1376142744,1073741825];
+            function f46(a47, a48, a49, a50) {
+                ~a48;
+                try { a47(); } catch (e) {}
+                const v53 = a49 << a49;
+                v53 % v53;
+                function f55() {
+                }
+                const v57 = new Int8Array();
+                BigUint64Array.length;
+                const v61 = BigUint64Array * 536870887;
+                let v62 = v61 - v61;
+                v62++;
+                v61 ** v61;
+                try { Number(v40); } catch (e) {}
+                const v68 = v57.buffer.__defineGetter__;
+                try { v68(); } catch (e) {}
+                try { v45["find"](..."find", a50, ...v44); } catch (e) {}
+            }
+            for (let v72 = 0; v72 < 5; v72++) {
+                f46(this);
+            }
+        }
+    }
+}

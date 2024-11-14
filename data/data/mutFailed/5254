@@ -1,0 +1,65 @@
+const v0 = [];
+function f10(a11, a12) {
+    const o31 = {
+        valueOf(a14, a15, a16, a17) {
+            try {
+                super.valueOf(a15);
+            } catch(e20) {
+            }
+            return -2n;
+        },
+        __proto__: v0,
+        p(a22, a23, a24) {
+            try { a11(a24); } catch (e) {}
+            -2147483649n - v0;
+            let [v27,v28,v29] = v0;
+            try {
+                v29.__proto__ = v29;
+            } catch(e30) {
+            }
+            return a23;
+        },
+    };
+    return o31;
+}
+f10(1, 65535);
+f10(10, 1);
+f10(65535, 10);
+class C35 {
+    o(a37, a38, a39) {
+        class C40 extends f10 {
+            static [65535] = 65535;
+            static #a;
+            #d;
+        }
+        const v41 = new C40();
+        new C40();
+        new C40();
+        return v41;
+    }
+    g;
+    [1073741824n] = f10;
+    [v0];
+    13;
+}
+new C35();
+new C35();
+new C35();
+function F47(a49) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F47();
+class C51 {
+    g;
+    constructor() {
+        const v53 = this.constructor;
+        try { new v53(); } catch (e) {}
+    }
+}
+C35 * 10000n;
+-65537n instanceof f10;
+try {
+    f10(1, 1);
+} catch(e59) {
+}
+new C51();

@@ -1,0 +1,52 @@
+class C3 {
+    get b() {
+        let v5 = this * this;
+        v5 <<= v5;
+        this * v5;
+        let v8 = 15;
+        const v11 = "bigint" / v8;
+        Math.clz32(0.0);
+        Math.abs(v11);
+        -(v11 >> 512);
+        --v8;
+        return v5;
+    }
+}
+const t14 = 512;
+const v17 = new t14();
+const v18 = new C3();
+const v19 = new C3();
+new v17();
+function F22(a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a25;
+    } catch(e27) {
+    }
+    try {
+        this.b = a26;
+    } catch(e28) {
+    }
+    try {
+        a25.d = a26;
+    } catch(e29) {
+    }
+}
+const v30 = new F22(v18, v17, "bigint");
+const v31 = new F22(v18, v30, v17);
+new F22(v31, v19, v31);
+function F33(a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v37 = new F33();
+const o38 = {
+    129: v37,
+};
+class C39 {
+    #valueOf(a41, a42, a43) {
+    }
+}
+const v47 = new BigUint64Array(10);
+for (const v49 in v47) {
+    new Float64Array(2147483647);
+}

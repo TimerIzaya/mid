@@ -1,0 +1,39 @@
+class C2 {
+}
+function F3() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v5 = this?.constructor;
+    try { new v5(); } catch (e) {}
+}
+const v7 = new F3();
+const v8 = [v7,v7,v7,v7,v7];
+const v9 = delete v8.length;
+const v10 = v9 + v9;
+try {
+    new Int8Array(v8);
+} catch(e12) {
+}
+const v13 = new Int8Array(0);
+-2.241327492701015 & 9007199254740991;
+const v20 = new Uint16Array(3);
+v20.indexOf();
+const v22 = new BigInt64Array();
+const o23 = {
+    "d": v20,
+    1217749516: Int8Array,
+    "g": v22,
+};
+const o24 = {
+    ...v22,
+};
+new Int16Array(1);
+const v28 = v8.constructor;
+class C29 extends 9007199254740991 {
+}
+class C30 {
+}
+new BigUint64Array(262);
+const v39 = [v28];
+const v41 = Reflect.apply(v39.match, "29753", v39);
+try { v28(...v13, v41, v10, -41449n, o23, v41); } catch (e) {}
+("29753").replaceAll("29753");

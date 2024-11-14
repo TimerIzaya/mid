@@ -1,0 +1,49 @@
+class C3 {
+    static {
+        this.prototype = this;
+        try { this.toString(); } catch (e) {}
+        let v6;
+        try { v6 = this(this, -5n); } catch (e) {}
+        try {
+            v6.d = 3n;
+        } catch(e7) {
+        }
+    }
+    static m(a9, a10) {
+        this[2268501565] = this;
+        try {
+            g.d = g;
+        } catch(e12) {
+        }
+        return a9;
+    }
+}
+const v13 = C3.name;
+v13 == v13;
+const v15 = new C3();
+const v16 = new C3();
+const v17 = v16?.propertyIsEnumerable;
+try { new v17(v15); } catch (e) {}
+const v19 = new C3();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+const v22 = v19?.constructor;
+try { new v22(); } catch (e) {}
+const v26 = new Array(8);
+const v28 = [Array,[8,v15],3n,C3,v26];
+let v29;
+try { v29 = v28.indexOf(v15); } catch (e) {}
+~v29;
+[Array];
+let v32 = 256;
+v32--;
+const v35 = new BigInt64Array(v32);
+const v37 = v35.includes(undefined);
+v37 || v37;
+const v39 = [23795,8,259058917,-256,1,-36806,4096,-9,-1,-18943];
+let v40 = -2;
+v40--;
+const v42 = v40--;
+v42 != v42;
+const v45 = new Date(v40, v39, v39, v39, v40);
+try { v45.setTime(v35); } catch (e) {}

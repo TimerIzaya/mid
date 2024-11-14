@@ -1,0 +1,89 @@
+function f3() {
+    return "valueOf";
+}
+const v6 = new Array(1024);
+function f7(a8, a9, a10) {
+    const o16 = {
+        "g": a8,
+        "d": "t",
+        __proto__: v6,
+        "h": a10,
+        ...a9,
+        [-2]: a10,
+        toString(a12, a13, a14) {
+            a14["imul"] = "t";
+            function f15() {
+                return a9;
+            }
+            return f3;
+        },
+    };
+    return o16;
+}
+f7("imul", "imul", "imul");
+f7("valueOf", "t", "t");
+f7("valueOf", "valueOf", "t");
+function f20() {
+}
+function f21() {
+    return f20;
+}
+const v22 = [-9223372036854775808,-8,268435456,536870887,6,-2047336449,42720,-5,-13054,268435439];
+const v23 = [-2041104173];
+const v24 = [7,-9223372036854775808,65536,503852115];
+try { v24.toSpliced(f20, f20); } catch (e) {}
+function f26(a27, a28) {
+    const o37 = {
+        "e": a27,
+        "b": v24,
+        "g": f20,
+        set h(a30) {
+            [-8303,-9007199254740992,2623,65536,512,-9223372036854775807,1551336476,4];
+            [268435439,6,1430293674,3,-959826342];
+            [-5,-551913701,10,1621200107,-7,-8,-126771044];
+        },
+    };
+    return o37;
+}
+const v38 = f26(v22, v22);
+let v39;
+try { v39 = v38.g(); } catch (e) {}
+v39(v24, v24);
+const v41 = f26(v24, v23);
+try { v41.g(); } catch (e) {}
+class C43 extends f26 {
+    get g() {
+        f21();
+        return "-19836";
+    }
+    static #a;
+    static h = v38;
+    static d;
+    static #e;
+}
+C43.prototype = C43;
+C43.h;
+const v50 = new C43();
+v50.b = v50;
+const v51 = new C43();
+v51.e = v51;
+const v52 = v51.e;
+try { v52.reduce(v52); } catch (e) {}
+new C43();
+function f55() {
+    return f55;
+}
+("M")[0];
+10n > 10n;
+10n * 10n;
+for (let v61 = 0; v61 < 25; v61++) {
+    const v63 = "p" + v61;
+    let v64;
+    try { v64 = v63.blink(); } catch (e) {}
+    try { v64.substring(f55, f55); } catch (e) {}
+    const t83 = "M";
+    t83[v63] = v61;
+}
+const v66 = [8,-65537,9007199254740991,-268435456,4294967296,8,44846,-13];
+try { v66.reduce(v50); } catch (e) {}
+Object.defineProperty(v66, 10n, { get: f55, set: f55 });

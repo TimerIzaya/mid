@@ -1,0 +1,85 @@
+let v0 = /(?!\1(a\1)\1)\1/gvi;
+let v1 = /E*/uds;
+let v2 = /[x]5/dims;
+class C3 {
+    static p(a5, a6) {
+        v0 = a5;
+        let v7;
+        try { v7 = v0(v2, a5, a5, v0, v0, ...this); } catch (e) {}
+        v2["compile"](a5);
+        super.g = this;
+        let {"multiline":v11,} = v0;
+        v11.h >>>= a6;
+        JSON[-1];
+        --v7;
+        [super.f,a5,v0.__proto__];
+        [v11,[a6,v0]];
+        return v0;
+    }
+    #c;
+}
+const v22 = new C3();
+const v23 = v22?.constructor;
+let v24;
+try { v24 = new v23(); } catch (e) {}
+const v25 = v24?.constructor;
+try { new v25(); } catch (e) {}
+const v27 = new C3();
+const v28 = new C3();
+const v29 = v28?.constructor;
+try { new v29(); } catch (e) {}
+class C31 extends C3 {
+    8 = v27;
+    g = C3;
+    static {
+        this.length = this;
+        ({"c":v2,"g":v1,...v2} = v28);
+        try {
+            const v33 = new C3();
+            const v34 = v33?.constructor;
+            v34.f = v34;
+            let v35;
+            try { v35 = new v34(); } catch (e) {}
+            const v36 = v35?.constructor;
+            try { new v36(); } catch (e) {}
+        } catch(e38) {
+            let v39 = super.a;
+            v39 = this;
+            v22[268435441] = v1;
+            try { v1(false, this, v22, false); } catch (e) {}
+        }
+    }
+    static f = v2;
+    static #c = C3;
+}
+C31.f = C31;
+let v42;
+try { v42 = new C31(); } catch (e) {}
+try { v42.g(); } catch (e) {}
+const v44 = new C31();
+v44[8] = v44;
+new C31();
+const v46 = new C31();
+v46[8] = v46;
+function F49(a51, a52, a53, a54) {
+    if (!new.target) { throw 'must be called with new'; }
+    a51 !== a51;
+    a52.caller = a54;
+}
+F49.d = F49;
+const v56 = new F49(-714582153, F49);
+const v57 = v56?.__defineGetter__;
+try { new v57(C31, v22); } catch (e) {}
+const v59 = v56?.constructor;
+try { new v59(v1, v1, v56, v28); } catch (e) {}
+const v61 = new F49(9, v56);
+const v62 = v61?.constructor;
+try { new v62(v61, C3, C31, v44); } catch (e) {}
+function f64() {
+    return F49;
+}
+function f65(a66) {
+    return a66;
+}
+try { f65.bind(v28); } catch (e) {}
+Object.defineProperty(v61, "caller", { enumerable: true, get: f64, set: f65 });

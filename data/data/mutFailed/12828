@@ -1,0 +1,66 @@
+class C3 {
+    constructor(a5) {
+        this.o = this;
+        a5.o = this;
+        try { a5.o(this, a5); } catch (e) {}
+    }
+    #a;
+    static o(a8) {
+        this[a8];
+        new Int16Array(3);
+        new Uint32Array(0);
+        new Uint8ClampedArray(1144);
+        return this;
+    }
+}
+new C3(6);
+const v20 = new C3(6);
+v20.o = v20;
+const v21 = new C3(v20);
+const v22 = [v21];
+[6];
+const v24 = [9007199254740991,v21,v20];
+class C25 {
+    #f = v24;
+    #valueOf(a27, a28, a29, a30) {
+        for (let i33 = 0, i34 = 10; i33 < i34; i33++, i34--) {
+            const o45 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o45);
+        }
+        return v22;
+    }
+}
+new C25();
+new C25();
+new C25();
+const v51 = new Map();
+class C52 {
+    [v51];
+    constructor(a54, a55) {
+        const v56 = this?.constructor;
+        try { new v56(); } catch (e) {}
+        const v58 = /(?<!)/gv;
+        v58.e = v58;
+        const v59 = /(\xed\xb0\x80)\x01/gudmy;
+        v59.c = 9007199254740991;
+        v59.c = v59;
+        const v61 = Symbol.iterator;
+        const o63 = {
+            [v61]() {
+            },
+        };
+    }
+}
+const v64 = new C52(Map, Map);
+function f65(a66, a67) {
+    class C68 {
+    }
+    new C68();
+    return a66;
+}
+v64.constructor = f65;
+const t64 = v64.constructor;
+new t64();

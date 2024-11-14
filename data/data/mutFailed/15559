@@ -1,0 +1,8 @@
+new Uint32Array(7);
+const v8 = new Uint32Array(256);
+new Uint8ClampedArray(4096);
+const o18 = {
+    "maxByteLength": v8,
+};
+const v20 = new SharedArrayBuffer(12, o18);
+v20.grow(1073741824);

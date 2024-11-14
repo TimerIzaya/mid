@@ -1,0 +1,91 @@
+new Int16Array(8);
+new Uint8ClampedArray(129);
+const v8 = new Uint32Array(25);
+[5.186794905923627,2.0];
+[1000000000.0,0.6512507597969664,-5.0,-6.585606148715229,1.0,-703.2310875118037,1.8061242225120676e+307];
+[-2.220446049250313e-16,0.9910563365850656];
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 14;
+    } catch(e15) {
+    }
+    try {
+        this.a = 14;
+    } catch(e16) {
+    }
+    try {
+        this.h = 14;
+    } catch(e17) {
+    }
+}
+const v18 = new F12();
+const v19 = new F12();
+const v20 = new v19();
+class C21 extends F12 {
+    valueOf(a23) {
+        const o27 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o27);
+        return gc;
+    }
+    e = v20;
+    #d;
+}
+const v29 = new C21();
+const v30 = new C21();
+const v31 = new C21();
+function f32(a33, a34) {
+    const o44 = {
+        [a34](a36, a37, a38, a39) {
+            const v42 = typeof v30 === a33;
+            try { a34.m(v42, a34, v42); } catch (e) {}
+            return a36;
+        },
+        __proto__: v8,
+        ...v31,
+        ...v31,
+        "f": a34,
+        "c": f32,
+        "b": C21,
+    };
+    return o44;
+}
+f32(8, C21);
+const v46 = f32(v19, v30);
+const v47 = f32(v20, v20);
+function F48(a50, a51, a52) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a52;
+    } catch(e53) {
+    }
+}
+class C56 {
+    static ["22307"] = "AanB8";
+    b;
+}
+new C56();
+new C56();
+const o67 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc();
+const v69 = new F48(v20, v20, v46);
+const v70 = new F48(v30, v29, v69);
+new F48(v18, v70, v47);
+const v72 = [];
+function f73() {
+    const o75 = {
+        toString() {
+            return this;
+        },
+        3950: v72,
+    };
+    return o75;
+}
+const v78 = new BigUint64Array(3996);
+v78.every(f73);

@@ -1,0 +1,123 @@
+const v1 = new WeakMap();
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    a7 >> a7;
+    try {
+        this.b = -44163;
+    } catch(e10) {
+    }
+    try {
+        this.e = a7;
+    } catch(e11) {
+    }
+}
+F5.d = F5;
+const v12 = new F5(-4096, -4096);
+const v13 = v12?.constructor;
+function f14() {
+    class C17 extends Date {
+        constructor(a19, a20, a21, a22) {
+            super(a20);
+            this.setYear(189);
+        }
+    }
+    return 189;
+}
+const v25 = Symbol.toPrimitive;
+v13[v25] = f14;
+let v26;
+try { v26 = new v13(F5, v1); } catch (e) {}
+const v27 = new F5(-44163, 512, v26, WeakMap, v1);
+const v28 = new F5(-44163, 512);
+function f29() {
+    return -44163;
+}
+f29.arguments = f29;
+class C30 {
+    constructor(a32, a33, a34) {
+        function f35(a36, a37) {
+            for (let v38 = 0; v38 < 32; v38++) {
+                v27["p" + v38] = v38;
+            }
+            return v25;
+        }
+        a33[Symbol.toPrimitive] = f35;
+        const v44 = Symbol.toPrimitive;
+        a34[v44] = f14;
+        const v45 = a32?.constructor;
+        try { new v45(a34); } catch (e) {}
+        const v47 = a33?.constructor;
+        function f48(a49, a50) {
+            function f52() {
+                const o55 = {
+                    1678: true,
+                    ...true,
+                    "d": true,
+                    [true]() {
+                        super.e;
+                    },
+                    1: true,
+                };
+                return o55;
+            }
+            new a50(-2147483649, f52(), f52());
+            return v44;
+        }
+        v47[Symbol.toPrimitive] = f48;
+        try { new v47(-44163, F5); } catch (e) {}
+        try { a32(this, v12, -44163, a34); } catch (e) {}
+        const v64 = a33.constructor;
+        v64[Symbol.toPrimitive] = f14;
+        class C67 extends v64 {
+            static #e;
+            7 = v12;
+        }
+        const v68 = new C67();
+        v68[7];
+    }
+    #b;
+    static #g = -4096;
+    static #c;
+}
+function f70(a71) {
+    const v72 = [155533.8602852358,2.0];
+    function F74() {
+        if (!new.target) { throw 'must be called with new'; }
+        const v76 = this?.__defineSetter__;
+        let v77;
+        try { v77 = new v76(v72, v76); } catch (e) {}
+        for (const v81 of Array(19793)) {
+            v72[658291203] = null;
+            v77--;
+        }
+    }
+    new F74();
+    return F5;
+}
+C30.constructor = f70;
+const v84 = new C30(C30, v12, 512);
+v84.length = v84;
+const v85 = new C30(-4096, v28, -4096);
+Object.defineProperty(v85, "cause", { writable: true, enumerable: true, value: -4096 });
+v85.cause;
+const v87 = new C30(WeakMap, v28, -4096);
+Object.defineProperty(v87, "constructor", { configurable: true, value: Symbol });
+const v88 = v87?.constructor;
+try { new v88(-44163, v84, f29); } catch (e) {}
+for (let v90 = 0; v90 < 5; v90++) {
+    function f91() {
+        for (let [i94, i95] = (() => {
+                switch (f91) {
+                }
+                return [0, 10];
+            })();
+            i94 < i95;
+            i95--) {
+            i94 / i94;
+            i95 * i95;
+        }
+        return f91;
+    }
+    f91();
+    %OptimizeFunctionOnNextCall(f91);
+}

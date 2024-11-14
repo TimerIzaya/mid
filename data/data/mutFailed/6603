@@ -1,0 +1,55 @@
+function f12(a13, a14) {
+    const o31 = {
+        __proto__: "object",
+        "e": "30662",
+        [5n](a16, a17, a18) {
+            super.h = "object";
+            this.__proto__;
+            let [v20,v21,v22] = "30662";
+            [a13];
+            ["-1",a13,a18];
+            [a18,a14,a16,this];
+            const v29 = new Int8Array(3663, a13);
+            const t12 = v29[14n];
+            t12.__proto__ = v29;
+            return a13;
+        },
+        [a14]: a13,
+        "c": 127n,
+        4: a14,
+        ["257"]: 127n,
+    };
+    return o31;
+}
+f12("30662", 9223372036854775807n, f12, "object", 127n);
+f12("object", 127n, "30662", "object");
+f12("E", 9223372036854775807n);
+for (let v35 = 0; v35 < 5; v35++) {
+    function f36() {
+        for (let i39 = 0, i40 = 10;
+            i39 < i40;
+            (() => {
+                const v44 = i39++;
+                v44 >> v44;
+            })()) {
+            const o48 = {
+                "deleteProperty": f36,
+                "get": f36,
+                "has": f12,
+                "preventExtensions": f36,
+                "set": f36,
+                "setPrototypeOf": f12,
+            };
+            new Proxy("E", o48);
+        }
+        return v35;
+    }
+    f36();
+    %OptimizeFunctionOnNextCall(f36);
+    ("object").length;
+    try {
+        const t50 = "-1";
+        t50.length = v35;
+    } catch(e53) {
+    }
+}

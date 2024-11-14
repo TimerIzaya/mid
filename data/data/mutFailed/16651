@@ -1,0 +1,45 @@
+function f0() {
+}
+class C1 {
+    o() {
+        let v2 = this;
+        const v3 = -f0;
+        v2 <<= v2;
+        f0.b *= v3;
+        new Int32Array(2);
+        new Float32Array(2);
+        new Uint16Array(2);
+        return 2715;
+    }
+}
+const v13 = new f0();
+const v14 = new f0();
+const v15 = new v14();
+function f16() {
+    return v13;
+}
+function f20(a21, a22, a23, a24) {
+    const o30 = {
+        __proto__: v15,
+        127: f16,
+        "b": a22,
+        [268435439]: f16,
+        "f": a22,
+        [301577888]: v13,
+        ...v14,
+        p(a26, a27, a28, a29) {
+            v14[-2] = a28;
+            return a29;
+        },
+        ...C1,
+        "e": 268435439,
+    };
+    return 268435439;
+}
+const v31 = f20(16, 301577888, v14, 268435439);
+const v33 = f20(301577888, 16, f20(v31, 268435439, v31, 301577888), 301577888);
+function f46(a47) {
+    const v48 = [9007199254740991,10,56647,-29200,-9223372036854775807];
+    v48 & v48;
+    return v33;
+}

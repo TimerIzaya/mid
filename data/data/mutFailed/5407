@@ -1,0 +1,75 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(1000.0, -1000000000.0);
+const v9 = new F3(-1000000000.0, -1000000000.0);
+const v10 = new F3(-1.5506600478200236e+308, 1000.0);
+class C11 {
+    static [v8] = F3;
+    toString(a13, a14, a15, a16) {
+        super[v10] = v10;
+        const v17 = v10 instanceof a13;
+        %VerifyType(v8);
+        a = v17;
+        return v17;
+    }
+    constructor(a19, a20, a21, a22) {
+        super[a19] = this;
+        const v23 = v9[512];
+        return;
+        super[v23];
+        const o27 = {
+            "maxByteLength": 4294967295,
+        };
+        const v29 = new SharedArrayBuffer(8, o27);
+        new Uint8Array(v29);
+    }
+}
+const v32 = new C11(-1.5506600478200236e+308, -1.5506600478200236e+308, v9, v8);
+const v33 = new C11(v8, 1000.0, v9, v8);
+const v34 = new C11(v33, 1000.0, v10, C11);
+function f35(a36, a37) {
+    for (let v38 = 0; v38 < 86; v38++) {
+        const v39 = v8.c;
+        function F40(a42, a43) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = v39;
+            } catch(e44) {
+            }
+        }
+        const v45 = new F40(1000.0, a36);
+        new F40(-1.5506600478200236e+308, v45);
+        new F40(a36, v10);
+    }
+    const o57 = {
+        "c": v33,
+        "a": a37,
+        ...v33,
+        "g": F3,
+        "b": f35,
+        "f": v32,
+        ...v8,
+        [-1]: C11,
+        "b": v10,
+        "e": v34,
+        "f": a37,
+        "d": v9,
+        n(a49, a50, a51, a52) {
+            try {
+                C11.fuck(false, /(?:ab)?/um);
+            } catch(e56) {
+            }
+            return a51;
+        },
+    };
+    return o57;
+}
+f35(v9, v9);
+f35(C11, -1000000000.0);
+f35(v34, v9);
+([Infinity,-686.9856326146617,0.47369378110968274,-7.24289104755818]).includes(...[-1000.0,-2.2250738585072014e-308,511.99933163650917,-386.8372768814137,Infinity]);

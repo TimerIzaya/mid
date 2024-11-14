@@ -1,0 +1,75 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+const v6 = new F1();
+class C7 {
+    static h;
+    2322 = v0;
+    f;
+    constructor(a9, a10) {
+        %VerifyType(a10);
+        const v11 = v4[10];
+        try {
+            a9.toString = v11;
+        } catch(e12) {
+        }
+    }
+    static b = v4;
+    static [v0];
+    e = F1;
+    9;
+}
+new C7(v5, v6);
+const v14 = new C7(v6, v6);
+const v15 = new C7(v5, v4);
+function f16(a17, a18, a19, a20) {
+    const o33 = {
+        __proto__: a18,
+        m(a22, a23, a24, a25) {
+            const o26 = {
+            };
+            new Proxy(a25, o26);
+            return a17;
+        },
+        0: v5,
+        "g": v15,
+        get h() {
+            ++C7;
+            try {
+                super.setInt32();
+            } catch(e32) {
+            }
+            return v5;
+        },
+    };
+    return o33;
+}
+const v34 = f16(v5, v14, v5, C7);
+const v35 = f16(v5, v15, v5, C7);
+const v36 = f16(C7, v14, v14, v14);
+function F37(a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v35.g = f16;
+    } catch(e42) {
+    }
+}
+const v43 = new F37(v6, v14, v34);
+const v44 = new v14(F37, v35, v35);
+new F37(v43, v44, v35);
+for (let v46 = 0; v46 < 5; v46++) {
+    function f47() {
+        new Uint8Array();
+        Uint8Array[8] = Uint16Array;
+        return v36;
+    }
+    f47();
+    %OptimizeFunctionOnNextCall(f47);
+}

@@ -1,0 +1,21 @@
+new Uint32Array(127);
+new Float64Array(127);
+new Uint8ClampedArray(124);
+function f17(a18, a19, a20, a21) {
+    function f22() {
+        const o26 = {
+            "c": a20,
+            valueOf(a24, a25) {
+            },
+        };
+        try {
+            Uint8ClampedArray();
+        } catch(e28) {
+        }
+    }
+    a19();
+}
+for (let v30 = 0; v30 < 5; v30++) {
+    f17(-2147483647n, 0.5375507050396837, 0.5375507050396837, v30);
+}
+f17();

@@ -1,0 +1,84 @@
+class C3 {
+    #d = 3.8810218404005856e+307;
+    set e(a5) {
+        const v7 = ["1g",[3.8810218404005856e+307,"1g",this]];
+        [3.8810218404005856e+307,v7,v7,v7];
+        super.c &= a5;
+    }
+    static set d(a10) {
+        const v12 = Symbol.iterator;
+        const o21 = {
+            [v12]() {
+                let v14 = 10;
+                const o20 = {
+                    next() {
+                        v14--;
+                        const v18 = v14 == 0;
+                        const o19 = {
+                            "done": v18,
+                            "value": v14,
+                        };
+                        return o19;
+                    },
+                };
+                return o20;
+            },
+        };
+    }
+}
+let v22 = new C3();
+const v23 = new C3();
+const v24 = new C3();
+class C25 {
+    get f() {
+        super[this] = this - v23;
+        try { this(v22, this, "1g", this); } catch (e) {}
+        return v23;
+    }
+    #a;
+    constructor(a30, a31, a32, a33) {
+        function f34(a35) {
+            try {
+                v24.e = a35;
+            } catch(e36) {
+            }
+            return a35;
+        }
+        a30[Symbol.toPrimitive] = f34;
+        a31.toString = f34;
+        super[a32] = a30;
+        [v22,,,v22] = "1g";
+        a31[super.c] = C3;
+    }
+    static #e = v24;
+}
+C25.undefined = v24;
+const v40 = new C25(v24, v23, v23, v23);
+const v41 = new C25(v22, v23, v24, v40);
+const v42 = new C25(v23, C25, C25, v41);
+class C43 {
+    static g;
+    toString(a45, a46) {
+        new Float64Array(0);
+        new BigInt64Array(3685);
+        new BigUint64Array(2);
+        return 3685;
+    }
+    g = v42;
+}
+new C43();
+new C43();
+const v58 = new C43();
+const v59 = [];
+function f60(a61) {
+    C43.constructor;
+    f = "1g";
+    return v58;
+}
+v59.valueOf = f60;
+function f63() {
+    -v59;
+    return f63;
+}
+%OptimizeFunctionOnNextCall(f63);
+f63();

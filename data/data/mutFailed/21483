@@ -1,0 +1,30 @@
+function f3() {
+    return 65536n;
+}
+try { f3.bind(65536n); } catch (e) {}
+const v7 = Uint8ClampedArray.length;
+new Uint8ClampedArray(1694);
+const v11 = new BigInt64Array(127, 1694, 1024n);
+new BigInt64Array(7);
+v11[3];
+const v18 = new Uint16Array();
+function f19(a20, a21) {
+    const o28 = {
+        "a": a21,
+        [a20]: v18,
+        [v18]: Uint16Array,
+        [2221](a23, a24, a25) {
+        },
+        ...v18,
+        "b": a20,
+        [a21]: Uint16Array,
+        "h": a20,
+        m(a27) {
+            return a27;
+        },
+    };
+    return a21;
+}
+for (let v29 = 0; v29 < 395; v29++) {
+    v7();
+}

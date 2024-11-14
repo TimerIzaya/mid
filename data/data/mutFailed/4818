@@ -1,0 +1,31 @@
+const v2 = new Float32Array(7);
+const v5 = new BigUint64Array(512);
+const v8 = new Float32Array(2);
+function f12(a13, a14, a15) {
+    const o23 = {
+        2147483647: v5,
+        "c": 512,
+        p(a17, a18, a19) {
+            Reflect.construct(a17, [a15,7,v2,v2], BigUint64Array);
+            return 512;
+        },
+        ...v8,
+        "g": v8,
+        [60581n]: 2,
+        __proto__: v5,
+        "b": a14,
+    };
+    return o23;
+}
+f12(4n, 60581n, 4n);
+f12(4n, 4n, -268435456n);
+f12(4n, 60581n, -268435456n);
+const v36 = Promise.reject(Promise);
+v36[Symbol.iterator] = f12;
+function F49(a51, a52) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v53 = new F49(512, 10000);
+const v54 = new F49();
+const v56 = new Uint32Array(v36, 36002, 4);
+([v54,v53,v56[0.29489550717955537]])[2];

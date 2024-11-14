@@ -1,0 +1,19 @@
+function f6() {
+    return 5;
+}
+function f7() {
+    return 44477;
+}
+new Int16Array(1024);
+new Float32Array(16);
+new Uint8ClampedArray(9);
+class C20 {
+    set e(a22) {
+        a22.toString = f6;
+        const v24 = new SharedArrayBuffer();
+        v24.valueOf = f7;
+        new DataView(v24, v24, a22);
+    }
+}
+const v27 = new C20();
+v27.e = v27;

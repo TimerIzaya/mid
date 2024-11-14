@@ -1,0 +1,71 @@
+class C3 {
+    static p(a5, a6) {
+        super.g;
+        try { this.p("undefined", this, a6, a5); } catch (e) {}
+        const v11 = new Uint8ClampedArray(7);
+        const v14 = new Uint32Array(4096);
+        let v15;
+        try { v15 = C3("function"); } catch (e) {}
+        Object.defineProperty(v15, 1, { writable: true, enumerable: true, value: v14 });
+        try {
+            const t10 = "undefined";
+            t10.a = v11;
+        } catch(e16) {
+        }
+        new BigInt64Array(118);
+        return 4096;
+    }
+}
+const v20 = new C3();
+const v21 = new C3();
+const v22 = new C3();
+class C23 {
+    constructor(a25, a26) {
+        try {
+            new C3();
+        } catch(e28) {
+        }
+        [C3,a26,,a26] = a26;
+    }
+    [v20] = v20;
+    #g;
+    static #f = "function";
+    g;
+    #d = C3;
+}
+new C23(v20, v21);
+const v30 = new C23("c", "undefined");
+const v31 = new C23(v22, v20);
+function f32(a33, a34) {
+    const o42 = {
+        "e": C3,
+        n(a36, a37, a38) {
+            super[v31] = v21;
+            super.f += C3;
+            let v39;
+            try { v39 = new C3("function", v22); } catch (e) {}
+            v39 >= a36 ? v39 : a36;
+            return v20;
+        },
+        "a": a33,
+        "d": "c",
+        "h": "function",
+    };
+    return o42;
+}
+f32("function", C23);
+f32(v22, v30);
+f32(v22, v30);
+const v46 = [1073741824,1073741823,1376142744,1073741825];
+function f47(a48, a49, a50, a51) {
+    a50 * a50;
+    const o53 = {
+    };
+    o53.__proto__;
+    return f47;
+}
+for (let v55 = 0; v55 < 10; v55++) {
+    f47(v46, v55, v55);
+}
+%OptimizeFunctionOnNextCall(f47);
+f47();

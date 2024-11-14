@@ -1,0 +1,33 @@
+new Int16Array(3708);
+const v5 = new Uint32Array(16);
+new Float64Array(4015);
+function f9(a10, a11, a12, a13) {
+    const o25 = {
+        815: a13,
+        "d": a13,
+        [16](a15, a16, a17) {
+            const o20 = {
+                "maxByteLength": 1073741825,
+            };
+            const v22 = new SharedArrayBuffer(1024, o20);
+            const v24 = new Uint8ClampedArray(v22);
+            return v24;
+        },
+    };
+    return o25;
+}
+f9(Uint32Array, 16, 3708, 3708);
+f9(v5, 3708, 3708, 4015);
+f9(16, 3708, 16, 3708);
+function f29(a30, a31, a32, a33) {
+    function f35() {
+        return Math.asin(Math);
+    }
+    %PrepareFunctionForOptimization(f35);
+    f35();
+    %OptimizeFunctionOnNextCall(f35);
+    f35();
+    return arguments;
+}
+const v40 = Uint32Array(f29, f29, f29, f29);
+v40.callee(v40, v40, v40);

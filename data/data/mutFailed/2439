@@ -1,0 +1,69 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -536870912;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+[4294967296,4294967297,268435440,9,-451770153,-15,-15,4];
+const v8 = [2147483647,-9223372036854775808,9341,512,-2663,257,-4096,-35238,-1863839133];
+const v9 = [-2147483649];
+class C10 {
+    get g() {
+        this && this;
+        try { v5.valueOf(v9, v8, v6, this, v4); } catch (e) {}
+        return v9;
+    }
+    #o(a15, a16, a17, a18) {
+        for (let v19 = 0; v19 < 32; v19++) {
+            a15["p" + v19] = v19;
+        }
+        return a17;
+    }
+    static #a;
+    static #e = F0;
+}
+new C10();
+new v6();
+new C10();
+class C25 extends F0 {
+    set f(a27) {
+        const o28 = {
+        };
+        try {
+            o28.e = a27;
+        } catch(e29) {
+        }
+        try {
+            const o30 = {
+            };
+            o30.e = a27;
+            o30.h = v6;
+        } catch(e31) {
+        }
+        try {
+            const o32 = {
+            };
+            o32.e = a27;
+            o32.h = v6;
+            o32.a = v8;
+        } catch(e33) {
+        }
+        try {
+            const o34 = {
+            };
+            o34.e = a27;
+            o34.h = v6;
+            o34.f = this;
+        } catch(e35) {
+        }
+    }
+}
+new C25();
+new C25();
+new C25();
+const v42 = new Uint32Array(381);
+new Float32Array(v42);

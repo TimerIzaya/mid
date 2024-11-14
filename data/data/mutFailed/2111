@@ -1,0 +1,99 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 9;
+    } catch(e3) {
+    }
+    try {
+        this.f = 9;
+    } catch(e4) {
+    }
+    try {
+        this.d = 9;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Int16Array(673);
+new Uint8ClampedArray(127);
+new BigUint64Array(127);
+const v21 = /(\1a)/gums;
+const v22 = /V(?:a{5,1000000}){3,1000000}/vims;
+const v23 = /(?<a>.)\k<a>?/vdimsy;
+for (let v24 = 0; v24 < 27; v24++) {
+    v21.compile(v22).lastIndex;
+}
+let v27;
+try { v27 = v23(v21, v22, v22, v21); } catch (e) {}
+%VerifyType(v27);
+const v28 = [v23,v22,v21];
+v28[2] = v28;
+const v29 = [v28,v22,v23,v28,v28];
+v29[2] = v29;
+[v23,v21,v21];
+let v31 = 8;
+v31--;
+new BigInt64Array(v22, v21, v27);
+const v35 = new BigInt64Array(v31);
+new BigUint64Array(10);
+const v41 = new Uint8Array(7);
+const t41 = BigInt64Array.constructor;
+new t41(Uint8Array, v35, v35);
+try { Int32Array.bind(v28); } catch (e) {}
+function f47() {
+    3.4890473589784586e+307 === 3.4890473589784586e+307;
+    let v50 = 1000000000000.0;
+    const v51 = v50--;
+    -v51;
+    -v29 && v29;
+    class C58 {
+        static #m(a60) {
+        }
+        constructor(a62) {
+            const v64 = new Float32Array();
+            let v65;
+            try { v65 = v64.entries(); } catch (e) {}
+            v65.next();
+            const v67 = new Uint16Array(12, -4294967296, v51);
+            new Float32Array(v67);
+        }
+    }
+    new C58();
+    new C58();
+    Symbol.iterator;
+    try { v35.reduce(Int32Array, 12); } catch (e) {}
+    let v74 = 0;
+    v74++;
+    const v76 = new C58();
+    new C58();
+    const v78 = new C58(-4294967296);
+    [];
+    [257828.6336153492,v78,v76,v78];
+    const v81 = [];
+    v81[0];
+    class C83 extends C58 {
+    }
+    new C83();
+    const v85 = v81.constructor;
+    try { v85.isArray(v81); } catch (e) {}
+    class C87 extends v85 {
+    }
+    C87.a = C87;
+    const v88 = new C87();
+    const v89 = v88.constructor;
+    try { v89.bind(); } catch (e) {}
+    const o91 = {
+        "e": v81,
+        __proto__: v28,
+        [v29]: v41,
+        "h": 257828.6336153492,
+    };
+    try { o91.e(BigUint64Array); } catch (e) {}
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f47);
+f47();
+%OptimizeFunctionOnNextCall(f47);
+f47();

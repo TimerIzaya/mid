@@ -1,0 +1,19 @@
+const v2 = new Float32Array(5);
+const v5 = new Int8Array(5);
+const v8 = new BigInt64Array(5);
+[v8,v2,BigInt64Array];
+const v10 = [5,v2,v5];
+[v8,v10,3736,v10,3736];
+const v12 = [601759695];
+function f13(a14, a15, a16, a17) {
+    function f18() {
+        return ([-2.220446049250313e-16,0.9798105418016166,-4.830267035271884,-435.7279193107944,864333.2303131514,-3.553417885466287e+306,-1000000000000.0,-1000000000.0,990180.6241720289,-1000000.0]).push(v12);
+    }
+    f13();
+    eval(a16);
+    %OptimizeFunctionOnNextCall(a16);
+    return f18;
+}
+for (let v24 = 0; v24 < 5; v24++) {
+    f13(f13, v12, v24, v24);
+}

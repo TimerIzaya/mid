@@ -1,0 +1,95 @@
+let v0 = 0.4976343372556338;
+class C3 {
+    static #toString(a5, a6) {
+        const v8 = Symbol.iterator;
+        const o17 = {
+            [v8]() {
+                let v10 = 10;
+                const o16 = {
+                    next() {
+                        v10--;
+                        const v14 = v10 == 0;
+                        const o15 = {
+                            "done": v14,
+                            "value": v10,
+                        };
+                        return o15;
+                    },
+                };
+                return o16;
+            },
+        };
+        return C3;
+    }
+}
+const t24 = -50056;
+new t24();
+const v19 = new C3();
+const v20 = new C3();
+class C21 extends C3 {
+    static #h = 1.32428917991062;
+    constructor(a23, a24, a25) {
+        super();
+        let v26 = 0;
+        while (v26 < 1) {
+            try {
+                v19.#h;
+            } catch(e30) {
+            }
+            v26++;
+        }
+    }
+}
+const t42 = -50056;
+const v32 = new t42(v19, C3, v20);
+const v33 = new C21(v20, v19, v20);
+new C21(v32, v33, v20);
+class C35 extends C21 {
+    p(a37, a38, a39, a40) {
+        try { v19.valueOf(); } catch (e) {}
+        return -50056;
+        C3[1185] = this;
+        return -50056;
+    }
+    valueOf(a43, a44, a45, a46) {
+        for (let [v47,v48,v49] of v0 = a45) {
+            a44[v19] = v49;
+            const o50 = {
+            };
+            try {
+                o50.b = a43;
+            } catch(e51) {
+            }
+            try {
+                const o52 = {
+                };
+                v48.b = a43;
+                o50.d = v47;
+            } catch(e53) {
+            }
+            try {
+                const o54 = {
+                };
+                o54.b = a43;
+                o54.d = v47;
+                o54.a = v19;
+            } catch(e55) {
+            }
+            try {
+                const o56 = {
+                };
+                o56.b = a43;
+                o56.d = v49;
+                o56.a = v48;
+            } catch(e57) {
+            }
+        }
+        return v20;
+    }
+}
+new C35();
+new C35();
+new C35();
+const v63 = new Uint16Array(255);
+const v65 = v63.buffer;
+v65.slice(v65, 5);

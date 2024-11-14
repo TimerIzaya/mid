@@ -1,0 +1,24 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        F0.f = -747304536;
+    } catch(e3) {
+    }
+    try {
+        this.b = -747304536;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new v5();
+const v7 = new F0();
+new BigUint64Array(0);
+new Uint8Array(64);
+new Int32Array(769);
+const v19 = Array();
+class C20 extends v7 {
+}
+class C21 extends C20 {
+    [1] = v19;
+}
+new C21();

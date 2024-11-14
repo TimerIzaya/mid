@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -906169364;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0(v4, F0, v4);
+new F0(v4, v5);
+(-9223372036854775807n) ** -9223372036854775807n;
+3.0 | 3.0;
+4294967296 % 4294967296;
+const v20 = [4.0,-1.7976931348623157e+308];
+v20[1];
+function F22(a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    a24.iterator = a24;
+}
+const v27 = new F22(F22, v20, F22);
+const v28 = v27?.__lookupGetter__;
+let v29;
+try { v29 = new v28(v4); } catch (e) {}
+const v30 = new F22(v27, v27, v27, 45960n, -2, v29);
+const v31 = v30?.constructor;
+try { new v31(-9223372036854775807n, -9223372036854775807n, -9223372036854775807n); } catch (e) {}
+v30.__proto__ = v20;
+const v34 = Symbol.d;
+v27[v34] = v34;

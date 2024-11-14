@@ -1,0 +1,59 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 800562525;
+    } catch(e3) {
+    }
+    try {
+        this.h = 800562525;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0(F0, F0);
+const v7 = new F0();
+const v8 = /M*/udmy;
+/xyz?T9E\c/guims;
+const v10 = /t0^/gdm;
+function f14() {
+    return 5;
+}
+const v15 = [v7,f14,v7,v5,f14,f14];
+const v16 = [f14,v10,f14];
+[v16,v7,v15,v8];
+function f21(a22, a23) {
+    const o25 = {
+        get c() {
+            let v24 = this;
+            v24 += v24;
+            return a23;
+        },
+        "c": -65537n,
+        "e": f21,
+        "c": a23,
+        "f": v15,
+        "d": 5,
+        [v16]: 5,
+        __proto__: a22,
+        ...a22,
+        "a": a23,
+        6: 4294967297n,
+        "c": 4294967297n,
+    };
+    return o25;
+}
+const v26 = f21(f21, -65537n);
+const v27 = f21(f21, f21);
+class C28 extends f21 {
+    set e(a30) {
+        const v31 = v27.h;
+        let {...v32} = v27;
+        Reflect.construct(v31, [4294967296n]);
+    }
+}
+const v36 = new C28(v10, f14, 4294967297n);
+Object.defineProperty(v36, "b", { writable: true, enumerable: true, value: v27 });
+try {
+    v36.n(-65537n, v36, 4294967297n, 4294967297n, v26);
+} catch(e38) {
+}

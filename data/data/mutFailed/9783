@@ -1,0 +1,139 @@
+const v0 = [];
+function f1() {
+    function f2(a3, a4) {
+        class C7 {
+            static #p(a9, a10) {
+            }
+            #h;
+        }
+        const v11 = new C7();
+        const v12 = new C7();
+        const v13 = new C7();
+        function f14(a15, a16, a17, a18) {
+            const o19 = {
+                "c": -922911.6474995338,
+                242: -922911.6474995338,
+                "g": v12,
+                [a18]: a16,
+                [C7]: a16,
+                "a": -747634.1081113975,
+                "h": a15,
+                "f": a18,
+            };
+            return o19;
+        }
+        const v21 = f14(f14(v11, v13, C7), v13, v11, v11);
+        const v22 = f14(v12, v13, v21, v21);
+        function f23(a24, a25) {
+        }
+        const v29 = [v11,v22];
+        const o30 = {
+            "arguments": v29,
+            "type": "function",
+        };
+        new Worker(f23, o30);
+        return f23;
+    }
+    return f2;
+}
+function f32(a33) {
+    class C34 {
+        constructor(a36) {
+            let v37 = "atan2";
+            try { a36[v37](); } catch (e) {}
+            v37++;
+        }
+    }
+}
+Object.defineProperty(v0, Symbol.toPrimitive, { writable: true, enumerable: true, get: f1, set: f32 });
+function f42() {
+    const o57 = {
+        [-1]: v0,
+        __proto__: v0,
+        ...v0,
+        "d": v0,
+        [v0]: v0,
+        toString() {
+            let v44;
+            try { v44 = this(); } catch (e) {}
+            let v45;
+            try { v45 = new v44(this, v44); } catch (e) {}
+            function F46(a48) {
+                if (!new.target) { throw 'must be called with new'; }
+                a48[Symbol.toPrimitive] = f32;
+                try {
+                    this.c = a48;
+                } catch(e51) {
+                }
+                try {
+                    this.h = a48;
+                } catch(e52) {
+                }
+                try {
+                    this.a = v45;
+                } catch(e53) {
+                }
+            }
+            const v54 = new F46(v0);
+            v54.g = v54;
+            const v55 = new F46(v0);
+            new F46(v55);
+            return v45;
+        },
+    };
+    function f58(a59, a60) {
+        class C63 {
+            ["minor"] = 0.9009832213714677;
+        }
+        const v64 = new C63();
+        function f65(a66, a67, a68, a69) {
+            v64.minor;
+            const v72 = Math.sign(a67);
+            v72 >>> v72;
+            return a66;
+        }
+        return f32;
+    }
+    o57[Symbol.toPrimitive] = f58;
+    return o57;
+}
+f42[Symbol.toPrimitive] = f1;
+const v78 = f42();
+const v79 = f42();
+const v80 = f42();
+try { v80.toLocaleString(); } catch (e) {}
+try { v80.at(f42); } catch (e) {}
+function f83() {
+    return v80;
+}
+f83.d = Symbol;
+f83.d = f83;
+const v84 = [v78,v79,f42];
+function f85() {
+    return f42;
+}
+function f86(a87) {
+    const v88 = [-29345,48135,-2,-485818299,0,-34652,7,-65537];
+    let v89;
+    try { v89 = v88.group(v88, v88, v88, v88, v88); } catch (e) {}
+    const v93 = Object(16);
+    for (let v94 = 0; v94 < 5; v94++) {
+        v93[Symbol.replace] = v89;
+    }
+}
+Object.defineProperty(v84, Symbol.toPrimitive, { configurable: true, get: f85, set: f86 });
+try { v84.toLocaleString(); } catch (e) {}
+const v99 = [v80,f42,v80];
+v99[1];
+try { v99.reduceRight(v99); } catch (e) {}
+[v99];
+let v104 = -443.14948340464093;
+v104--;
+443.14948340464093 - 443.14948340464093;
+-5.0 - -5.0;
+Date.e = Date;
+const v113 = new Date(64);
+let v114;
+try { v114 = v113.setTime(v84); } catch (e) {}
+v114 >>> v114;
+v113.setMonth(-3);

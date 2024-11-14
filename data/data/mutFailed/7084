@@ -1,0 +1,68 @@
+class C3 {
+    constructor(a5, a6) {
+        a6.g ||= 1.212488027753892;
+        a5[a6] ^= 1.212488027753892;
+    }
+    set g(a8) {
+        super[this] = this;
+        const v9 = this[2147483648];
+        const v11 = [v9?.[a8],4.0];
+        const v12 = [v11,4.0,v9];
+        const v13 = [v12,v11];
+        try {
+            v13.__proto__ = v11;
+        } catch(e14) {
+        }
+        super.e = v12;
+    }
+}
+const v15 = new C3(-536870912, C3);
+const v16 = new C3(4.0, -536870912);
+const v17 = new C3(v16, v16);
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v16 || a23;
+        const o25 = {
+        };
+        new Proxy(this, o25);
+        this.b = -536870912;
+    } catch(e28) {
+    }
+    try {
+        this.h = v15;
+    } catch(e29) {
+    }
+    try {
+        this.f = v16;
+    } catch(e30) {
+    }
+}
+new F18(v15, v16, v16, v15);
+new F18(v17, v15, C3, v17);
+new F18(v16, v16, v16, C3);
+function f34(a35, a36, a37, a38) {
+    const v39 = /(?:a*)+q(?<a>.)/guds;
+    for (let [i43, i44] = (() => {
+            0 >>> 0;
+            return [0, 10];
+        })();
+        (() => {
+            const v45 = i43 < i44;
+            function f46(a47, a48) {
+                return f34;
+            }
+            return v45;
+        })();
+        i44--) {
+        for (let v54 = 0; v54 < 25; v54++) {
+            v39.hasIndices = v39;
+        }
+    }
+    return f34;
+}
+for (let v55 = 0; v55 < 10; v55++) {
+    f34(v55, v55, f34, v55);
+}
+%OptimizeFunctionOnNextCall(f34);
+f34();

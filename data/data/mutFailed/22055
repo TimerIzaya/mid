@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 129;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v7 = v6?.constructor;
+try { new v7(); } catch (e) {}
+class C9 extends F0 {
+    static 2662 = v5;
+    constructor(a11, a12) {
+        super();
+        /a*b|c/gvms;
+        const v14 = /E/udms;
+        v14.dotAll = v14;
+        /a\s/gvdimsy;
+    }
+    static o(a17) {
+        const v19 = new WeakSet();
+        try {
+            v4.h = v19;
+        } catch(e20) {
+        }
+        return WeakSet;
+    }
+}
+new C9(v5, v6);
+const v22 = new C9(v4, v5);
+new C9(v5, v22, v5);
+5 << 5;
+new Uint8Array(5, Uint8Array);
+3450 / 3450;
+new BigInt64Array(3450);
+new Float32Array(5);
+481 / 481;
+Uint8Array.name;
+const v39 = new Uint8Array(481);
+v39.indexOf(Uint8Array, 481);

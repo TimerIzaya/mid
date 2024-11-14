@@ -1,0 +1,15 @@
+[-38029,-38029,true,-1555863604,-1555863604];
+const v6 = [true,[true],-1555863604,true];
+function f7() {
+    return v6;
+}
+const v11 = [-2,257,-107178159,-35269,9223372036854775807,1203530861,-32678];
+const o12 = {
+};
+const v14 = new Proxy(v11, o12);
+v14.toString = f7;
+const o15 = {
+    __proto__: v14,
+};
+o15.toString = f7;
+o15.lastIndexOf(o12, o15, o15, Proxy, v11);

@@ -1,0 +1,79 @@
+function f0() {
+    Uint32Array[2] = 1;
+    class C3 {
+        static {
+            for (const v6 in this) {
+            }
+        }
+    }
+}
+class C7 extends f0 {
+    static #valueOf() {
+        const o9 = {
+            "get": f0,
+            "preventExtensions": f0,
+        };
+        [1000000000000.0];
+        const v14 = `
+            try {
+                new Float64Array(127);
+            } catch(e16) {
+            }
+        `;
+        new Proxy(this, o9);
+        return this;
+    }
+    b = f0;
+    a;
+    static {
+    }
+    constructor(a21, a22, a23, a24) {
+        super();
+        super.b;
+    }
+}
+function F26(a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a28;
+}
+gc();
+new C7();
+const v32 = new C7();
+function f33(a34, a35) {
+    a34 + F26;
+    function f37() {
+        return a35;
+    }
+    return v32;
+}
+v32.toString = f33;
+const v38 = new C7();
+v38.length = v32;
+[-3.0,2.0];
+[-1e-15];
+[-922403.5093447354];
+new Uint32Array(v38);
+new Float64Array(0);
+const v50 = new Uint8Array(1024);
+function f51(a52) {
+    for (let v55 = 0; v55 < 100; v55++) {
+    }
+    return v50;
+}
+Object.defineProperty(WeakMap, "valueOf", { writable: true, configurable: true, value: f51 });
+for (let v58 = 0; v58 < 25; v58++) {
+    const v59 = [601759695];
+    const v60 = [1073741824,1073741823,1376142744,1073741825];
+    function f61(a62, a63, a64, a65) {
+        try { v60["find"](..."find", a65, ...v59, ...v60); } catch (e) {}
+        WeakMap / 536870887;
+    }
+    for (let v69 = 0; v69 < 5; v69++) {
+        Math.atan2(536870912, v69);
+        function f73(a74, a75) {
+            a74.arguments = a74;
+            return f73;
+        }
+        f61(v58, v59, 536870887, f61);
+    }
+}

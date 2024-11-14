@@ -1,0 +1,24 @@
+function f3() {
+    return f3;
+}
+const v7 = [-1000000.0,"e"];
+const v8 = ["e",f3];
+const v9 = ["e",-2.0,-2.0,-1000000.0];
+function F10(a12, a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a14;
+    } catch(e16) {
+    }
+}
+new F10(v7, "268435441", v8, v9);
+new F10(0.5473090011097134, "268435441", "268435441", v8);
+new F10(0.5473090011097134, "Z2st", v9, v7);
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v24 = this.constructor;
+    try { new v24(F20); } catch (e) {}
+    v24 / a23;
+}
+new v7();
+new F20();

@@ -1,0 +1,17 @@
+const v5 = new Int32Array(333);
+new Uint8ClampedArray(-128);
+new Uint8ClampedArray(Uint8ClampedArray);
+const t3 = -128;
+new t3();
+function f14() {
+    class C16 {
+    }
+    const t8 = -4294967296;
+    const v17 = new t8();
+    v17[v17] %= -4294967296;
+    return 1;
+}
+%PrepareFunctionForOptimization(BigInt64Array);
+f14();
+%OptimizeFunctionOnNextCall(f14);
+v5();

@@ -1,0 +1,41 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = this?.constructor;
+        try { new v7(a6, this); } catch (e) {}
+        a6[5] = a6;
+        const v10 = Symbol.iterator;
+        Symbol.for(v10.description);
+        const o22 = {
+            [v10]() {
+                let v15 = 10;
+                const o21 = {
+                    next() {
+                        v15--;
+                        const v19 = v15 == 0;
+                        const o20 = {
+                            "done": v19,
+                            "value": v15,
+                        };
+                        return o20;
+                    },
+                };
+                return o21;
+            },
+        };
+        o22.c = o22;
+    }
+}
+const v23 = new C3(C3, "object");
+const v24 = new C3(v23, v23);
+v24.b = v24;
+const v25 = new C3(C3, v24);
+([C3])[0];
+([-33312,[v23,"255"],"object",v25])[2];
+const v32 = new Int32Array();
+129 | 129;
+const v37 = new Uint8ClampedArray(129);
+const v38 = new Int32Array(3208);
+const v39 = v32.constructor;
+v39.name;
+new v39(v37);
+Int32Array.from(v38);

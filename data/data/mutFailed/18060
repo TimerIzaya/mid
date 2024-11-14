@@ -1,0 +1,100 @@
+class C3 {
+    1339;
+    n(a5, a6) {
+        const v8 = Symbol.iterator;
+        const o17 = {
+            [v8]() {
+                let v10 = 10;
+                const o16 = {
+                    next() {
+                        v10--;
+                        const v14 = v10 == 0;
+                        const o15 = {
+                            "done": v14,
+                            "value": v10,
+                        };
+                        return o15;
+                    },
+                    [1000]: 256,
+                    "h": a6,
+                    [256]: a5,
+                    "f": this,
+                    "c": this,
+                };
+                return o16;
+            },
+        };
+        return this;
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+class C21 extends C3 {
+    static #b = v18;
+    [256];
+    static [v19] = 256;
+    static o(a23, a24, a25, a26) {
+        this[Symbol.asyncIterator];
+        return a23;
+    }
+    #h = v18;
+    static #d = v19;
+    static [v20] = 1000;
+    [v19] = 1000;
+}
+const v30 = new C21();
+new C21();
+new C21();
+for (let v33 = 0; v33 < 32; v33++) {
+    v30["p" + v33] = v33;
+}
+const v36 = [v30,v18];
+[v18,v30];
+[v36];
+function f39() {
+    const o40 = {
+    };
+    return o40;
+}
+const v41 = f39();
+class C42 {
+    toString(a44) {
+        return v41;
+    }
+}
+const v45 = new C42();
+const v46 = new C42();
+function F47(a49, a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v52 = this.constructor;
+    try { new v52(v45, f39, F47); } catch (e) {}
+    a51.prototype = a51;
+}
+new F47(v45, v46, C42);
+for (let i56 = 0; i56 < 10; i56++) {
+    const v66 = [];
+    function f67() {
+        const o69 = {
+            ...v66,
+            "c": v66,
+            "e": v66,
+            "f": v66,
+            m() {
+            },
+            "h": f67,
+        };
+        new Int32Array(1024);
+        for (const v75 of v30) {
+            new SharedArrayBuffer();
+        }
+    }
+    f67();
+    f67();
+    for (let v80 = 0; v80 < 5; v80++) {
+    }
+    Math.ceil(-1000000000.0);
+    9 * -1000000000.0;
+    Math.atanh(-3);
+}
+new F47(v46, v45, v45);

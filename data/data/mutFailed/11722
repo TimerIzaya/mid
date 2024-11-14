@@ -1,0 +1,52 @@
+const v0 = [];
+class C1 {
+    static #c;
+    static {
+        let v3;
+        try { v3 = this(...v0, this, this, this, this); } catch (e) {}
+        v3[Symbol.c];
+    }
+    [v0] = v0;
+    8;
+    d;
+}
+const v7 = new C1();
+const v8 = new C1();
+new C1();
+class C10 {
+    constructor(a12, a13) {
+        function f14() {
+            return v0;
+        }
+    }
+    n(a16) {
+        super.f = a16;
+        let v18;
+        try { v18 = a16["toLocaleString"](); } catch (e) {}
+        super.h = v18;
+        return a16;
+    }
+}
+new C10(v7, v8);
+const v20 = new C10(v7, v8);
+new C10(v20, v20);
+new Float64Array(10);
+new Float64Array(7);
+new BigUint64Array(4);
+const v31 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v32 = 0; v32 < 5; v32++) {
+    function f33() {
+        try {
+            v31.forEach(f33);
+        } catch(e35) {
+            e35.message;
+            const v37 = e35.getUTCSeconds();
+            const o38 = {
+                "h": v37,
+            };
+        }
+        return f33;
+    }
+    f33.call(v31, f33, v31, f33);
+    %OptimizeFunctionOnNextCall(f33);
+}

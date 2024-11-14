@@ -1,0 +1,57 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a6;
+    } catch(e7) {
+    }
+}
+new F3("bigint", "symbol");
+const v9 = new F3("toString", "toString");
+const v10 = new F3("symbol", "bigint");
+class C14 extends F3 {
+    [1000];
+    #toString(a16, a17, a18) {
+        const v20 = Symbol.iterator;
+        let v21;
+        try { v21 = new a18(this, v20, 1561931393, v10); } catch (e) {}
+        let v22;
+        try { v22 = new C14(v21, v21, F3); } catch (e) {}
+        [v21,[v22,v9,C14],this];
+        [C14];
+        const o34 = {
+            [v20]() {
+                let v27 = 10;
+                const o33 = {
+                    next() {
+                        v27--;
+                        const v31 = v27 == 0;
+                        const o32 = {
+                            "done": v31,
+                            "value": v27,
+                        };
+                        return o32;
+                    },
+                };
+                return o33;
+            },
+        };
+        return F3;
+    }
+}
+new C14();
+new C14();
+new C14();
+class C42 {
+    constructor(a44) {
+        const v45 = this.constructor;
+        try { new v45(v45, C42, C42, this); } catch (e) {}
+        try {
+            this.toString = a44;
+        } catch(e47) {
+        }
+        ("valueOf").localeCompare(a44, "valueOf");
+    }
+}
+const v52 = new C42("valueOf");
+const v53 = v52.constructor;
+new v53(v52, v52, v53, v52, "valueOf");

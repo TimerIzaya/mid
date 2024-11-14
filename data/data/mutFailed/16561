@@ -1,0 +1,90 @@
+const v6 = [-9471,-0.0,-0.0];
+function f7() {
+    function F8(a10, a11, a12, a13) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v14 = this.constructor;
+        try { new v14(v14); } catch (e) {}
+        for (const v16 in this) {
+            delete this?.h;
+        }
+    }
+    new F8();
+    return 1521714064;
+}
+v6[Symbol.toPrimitive] = f7;
+const v22 = [1521714064,v6,-0.0,v6];
+v22[Symbol.toPrimitive] = f7;
+const v25 = [v6,-9471,v22,v6,v22];
+v25.undefined = 1521714064;
+function f26(a27, a28, a29, a30) {
+    a30[Symbol.toPrimitive] = Symbol;
+    let v33;
+    try { v33 = v6.keys(); } catch (e) {}
+    v25[1];
+    let v35;
+    try { v35 = v25.sort(a28); } catch (e) {}
+    let v36;
+    try { v36 = new v35(...v25, a27, a27, a28, v33); } catch (e) {}
+    v25[v36];
+    const o47 = {
+        o(a39, a40, a41, a42) {
+            super[-0.0] = -9471;
+            let v43;
+            try { v43 = a41.unshift(); } catch (e) {}
+            return v43;
+        },
+        set g(a45) {
+            super.b /= a30;
+            a27 < v22;
+        },
+        256: -1.0,
+        [v22]: a27,
+        10000: -1.0,
+        "d": 1521714064,
+        10: a29,
+        "f": -2.220446049250313e-16,
+    };
+    function f50(a51, a52, a53, a54) {
+        const o55 = {
+            "d": a54,
+        };
+        return o55;
+    }
+    const v56 = new BigInt64Array(11);
+    v56.reverse();
+    return o47;
+}
+f26(-1.0, v25, -2.220446049250313e-16, v25);
+f26(-0.0, v22, -1.0, v6);
+const v60 = f26(-1.0, v6, -1.0, v25);
+const v62 = new Int16Array(Int16Array, Int16Array, Int16Array);
+function f63() {
+    return f63;
+}
+class C64 extends f63 {
+    constructor(a66, a67, a68, a69) {
+        const o73 = {
+            "type": "function",
+        };
+        o73.arguments = v60;
+        new Worker(Date, o73);
+        super();
+        function f75() {
+            const o76 = {
+                "g": a67,
+                "execution": "function",
+                "toPrimitive": this,
+                "type": "function",
+                ...v25,
+                "type": "function",
+                ...v62,
+            };
+            return C64;
+        }
+        for (let v77 = 0; v77 < 5; v77++) {
+            f75();
+            %OptimizeFunctionOnNextCall(f75);
+        }
+    }
+}
+new C64();

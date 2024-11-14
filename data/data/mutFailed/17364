@@ -1,0 +1,32 @@
+const v0 = [-3.0,1.2856637196728047e+308,-836561.9131612226,-402.5612917170988];
+const v1 = [-5.0,1.0,0.6019751056739164,2.220446049250313e-16,0.47720018768595507];
+const v3 = [[-1000000000.0,0.48274020679383967],v1,v1,v0];
+const v4 = [v3,v3];
+v4[1] = v4;
+[v4];
+~5n;
+[268435439,-10,13238];
+[-2147483649,-3846,536870889,-1];
+[-65537];
+new Int8Array(1438);
+-1438;
+const v19 = new BigInt64Array(3153);
+const v20 = v19[206];
+let v21 = 4096;
+v21 - v21;
+new Float64Array(v21);
+function f25() {
+    for (let v26 = 0; v26 < 5; v26++) {
+        v21++;
+        -(v26 / v26);
+        function f30() {
+            return f25;
+        }
+        try { f30.call(v21); } catch (e) {}
+    }
+    return f25;
+}
+%PrepareFunctionForOptimization(f25);
+const v32 = v20();
+%OptimizeFunctionOnNextCall(f25);
+v32();

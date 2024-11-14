@@ -1,0 +1,93 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 256;
+    } catch(e3) {
+    }
+    try {
+        this.d = 256;
+    } catch(e4) {
+    }
+    try {
+        const t11 = 256;
+        t11.h = 256;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new v6();
+const v8 = new v6();
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a12;
+    } catch(e13) {
+    }
+    try {
+        this.a = v7;
+    } catch(e14) {
+    }
+}
+const v15 = new F9(v6, v8);
+const v16 = new F9(v6, v6);
+const v17 = new F9(v8, v7);
+class C18 extends F9 {
+    set f(a20) {
+        try {
+            super.valueOf();
+        } catch(e22) {
+        }
+    }
+    static c = v17;
+    #b = v15;
+    #m(a24, a25) {
+        return super[v6];
+    }
+    [v8] = v16;
+    16 = v17;
+    #g;
+    [v17] = F9;
+    static 1 = v7;
+}
+const v27 = new v15();
+let v28 = new C18();
+new v27();
+function F30(a32) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v33 = new F30();
+function f34(a35, a36) {
+    return F30;
+}
+v33.toString = f34;
+function F37(a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f42(a43) {
+    }
+    Object.defineProperty(this, "g", { set: f42 });
+    function f45(a46, a47, a48, a49) {
+    }
+    for (let v50 = 0; v50 < 25; v50++) {
+        f45();
+    }
+    try {
+        this.g = a40;
+        Object.defineProperty(Float64Array, "valueOf", { enumerable: true, value: f45 });
+        const v53 = Array(a41);
+        v53[v53];
+    } catch(e55) {
+    }
+}
+v28 %= v15;
+function F56(a58, a59) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a58;
+    } catch(e60) {
+    }
+}
+new F56(f34, v17);
+const v62 = new F56(F56, v17);
+new F56(v62, v17);
+new F37(v33, v33, v33);
+new F37();

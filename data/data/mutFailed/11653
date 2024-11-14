@@ -1,0 +1,115 @@
+class C3 {
+    valueOf(a5, a6) {
+        ("w9")[4294967296];
+        const o8 = {
+        };
+        try {
+            o8.d = "boolean";
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.d = 1000000000000.0;
+            o10.g = "boolean";
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.d = "boolean";
+            o12.g = "boolean";
+            o12.f = this;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.d = "boolean";
+            o14.g = "boolean";
+            o14.f = "w9";
+        } catch(e15) {
+        }
+        return o8;
+    }
+}
+const t35 = "w9";
+const v16 = new t35();
+const v17 = new C3();
+const v18 = v17?.constructor;
+try { new v18(); } catch (e) {}
+const v20 = new C3();
+function f21(a22, a23, a24, a25) {
+    try { a25.valueOf(a25, 1000000000000.0); } catch (e) {}
+    const o41 = {
+        "a": C3,
+        o(a28, a29) {
+            super.b = this.a;
+            return a25;
+        },
+        __proto__: v20,
+        p(a32, a33, a34, a35) {
+            for (const v36 of a35) {
+                v36[1402] = 1000000000000.0;
+                const v37 = v17;
+            }
+            return "bigint";
+        },
+    };
+    return o41;
+}
+const v42 = f21(v16, v17, v16, v20);
+f21(v17, v17, v16, f21);
+f21(v17, v17, v17, v16);
+class C48 {
+    static #o(a50, a51, a52) {
+        function F53(a55, a56, a57, a58) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = a56;
+            } catch(e59) {
+            }
+        }
+        new F53(-2.220446049250313e-16, C3, a50, a50);
+        new F53(a50, v42, -1000000.0, v16);
+        const v62 = new F53(-718.6200777291318, this, a50, F53);
+        return v62;
+    }
+    static 2274490115 = v20;
+    static #b;
+    g;
+}
+new C48();
+const v64 = new C48();
+v64.g = v64;
+new C48();
+const v67 = [9];
+let v68 = 0;
+v68--;
+function f71() {
+    const v72 = [f71,f71];
+    function f73(a74) {
+        a74 - a74;
+    }
+    f73.caller = f73;
+    const v77 = [v68];
+    v77[0];
+    const v79 = Reflect.construct(f73, v77, Uint8ClampedArray);
+    try { v79.toReversed(); } catch (e) {}
+    const v81 = [v79,v77];
+    ([v81,9])[1];
+    [v67,Reflect];
+    try { Reflect.findIndex(); } catch (e) {}
+    class C87 extends v72.constructor {
+    }
+    const v88 = new C87();
+    try { v88.fill(v81); } catch (e) {}
+    v88?.constructor;
+    return v72;
+}
+f71.prototype = f71;
+%PrepareFunctionForOptimization(C3);
+const v91 = f71();
+try { v91.fill(f21); } catch (e) {}
+%OptimizeFunctionOnNextCall(f71);
+f71();

@@ -1,0 +1,81 @@
+function f0() {
+    new Float64Array([-9223372036854775808,-12]);
+    function f7() {
+        new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+        return f7;
+    }
+    const o17 = {
+        1073741825: "d",
+        ["d"](a11, a12) {
+            with (a12) {
+                const o14 = {
+                };
+                new Proxy(a12, o14);
+            }
+            return a11;
+        },
+        "b": "f",
+        "e": "d",
+        6: "f",
+        ..."f",
+    };
+    return o17;
+}
+const v19 = [];
+const o20 = {
+    "arguments": v19,
+    "type": "function",
+};
+f0();
+f0();
+f0();
+new WeakSet();
+new WeakSet();
+new Uint8ClampedArray(10);
+new Int16Array(129);
+function f38() {
+    let v39 = 852.2904873570058;
+    const o46 = {
+        3: "setDate",
+        "f": 1836424012,
+        m(a43, a44) {
+            v39++;
+            return v39;
+        },
+        "d": 1836424012,
+    };
+    return o46;
+}
+f38();
+%OptimizeFunctionOnNextCall(f38);
+new Int32Array(256);
+function F50() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        new gc();
+        function f56() {
+            with (undefined) {
+            }
+            return 26352;
+        }
+        const v59 = -(-7);
+        v59 ** v59;
+    } catch(e61) {
+    }
+}
+function F62(a64, a65) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v66 = this.constructor;
+    const v67 = [126.35858692635452,171.76053631394439,637722.086033537,-4.0,3.0,-1000000.0,1.3044045702886066e+308];
+    const v68 = [-1.5529887870333795e+308,-748.1650295275717,0.9205726241487137,1.0,-1000.0,-3.1477078363151474,2.220446049250313e-16,Infinity];
+    function f69() {
+        return v68;
+    }
+    class C70 extends f69 {
+    }
+    const v71 = new C70();
+    v71.length = v67.shift();
+    try { new v66(this, a64); } catch (e) {}
+    new F50();
+}
+new F62();

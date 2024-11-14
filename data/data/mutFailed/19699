@@ -1,0 +1,64 @@
+const v0 = [];
+function f7() {
+    return 0.19511395474978876;
+}
+class C8 {
+    b;
+    p(a10, a11, a12, a13) {
+        try {
+            f7();
+        } catch(e15) {
+        }
+        return -1.707958340356739e+308;
+    }
+    static d;
+    constructor(a17, a18, a19) {
+        [] = v0;
+        Object.defineProperty(this, "c", { writable: true, get: f7 });
+        function F21(a23, a24, a25, a26) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a26;
+            } catch(e27) {
+            }
+            try {
+                this.g = a24;
+            } catch(e28) {
+            }
+            try {
+                this.f = v0;
+            } catch(e29) {
+            }
+        }
+        const v30 = new F21(a17, -24831.046426155604, -1.707958340356739e+308, v0);
+        new F21(a18, a18, -707499.7710646365, v30);
+        new F21(a17, -707499.7710646365, -24831.046426155604, -0.0);
+    }
+}
+const v33 = new C8(-24831.046426155604, -0.0, -24831.046426155604, 3.384921799194179e+307, -1.707958340356739e+308);
+const v34 = new C8(0.19511395474978876, 0.19511395474978876, -1.707958340356739e+308);
+const v35 = new C8(-707499.7710646365, -24831.046426155604, -24831.046426155604);
+function f36(a37, a38) {
+    const o44 = {
+        "g": a38,
+        "d": -707499.7710646365,
+        "c": a38,
+        m(a40, a41, a42) {
+            super[a37] = 0.19511395474978876;
+            Object.defineProperty(a38, 4, { configurable: true, enumerable: true, set: f7 });
+            try { a37.p(v35); } catch (e) {}
+            v0.length >>= -24831.046426155604;
+            return v34;
+        },
+        ...v0,
+        "h": a38,
+        ...a38,
+        11: v34,
+        "b": a38,
+    };
+    return o44;
+}
+const v45 = f36(v33, v33, C8, v35);
+f36(v33, v33);
+f36(v33, v34, v45);
+5.0 / -5.076060076809672e+307;

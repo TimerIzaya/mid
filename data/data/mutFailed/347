@@ -1,0 +1,85 @@
+class C3 {
+    static #p(a5, a6) {
+        try {
+            this.__proto__ = a5;
+        } catch(e7) {
+        }
+        return a5;
+    }
+    static f;
+    static b = "n";
+    static 172 = "n";
+    1 = "n";
+}
+function f8(a9, a10) {
+    try { a9.isExtensible(a10); } catch (e) {}
+    const t15 = "n";
+    t15[3] = a9;
+    return "n";
+}
+C3[Symbol.iterator] = f8;
+const v14 = C3.b;
+const v15 = v14?.toString;
+try { new v15(); } catch (e) {}
+const v17 = new C3();
+v17[1] = v17;
+const v18 = new C3();
+v18[1] = v18;
+const v19 = new C3();
+v19[1] = v19;
+function f20(a21, a22) {
+    a22[6] = v14;
+    try { a21.valueOf(); } catch (e) {}
+    a22[6] = a22;
+    const o28 = {
+        9: "isArray",
+        set d(a25) {
+            try { a25(a25, a25, this, this); } catch (e) {}
+            super.g = a25;
+            v19[v17] = a22;
+            a22[this] = a25;
+            try { a25(a21, "e"); } catch (e) {}
+        },
+        ...a21,
+        ..."n",
+        "e": a22,
+    };
+    o28[6] = v18;
+    return o28;
+}
+f20.e = f20;
+const v29 = f20("n", "isArray");
+v29[9];
+const v31 = f20("e", v17);
+function f32() {
+    return f20;
+}
+function f33(a34) {
+    try {
+        v29.e = a34;
+    } catch(e35) {
+    }
+}
+Object.defineProperty(v31, 6, { writable: true, get: f32, set: f33 });
+v31[9];
+const v37 = f20("e", v31);
+function F38(a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v42 = this?.__defineGetter__;
+    try { new v42(a41, v31); } catch (e) {}
+}
+const v44 = new F38();
+v44.constructor = f8;
+const v45 = v44?.constructor;
+try { new v45(v44, v37); } catch (e) {}
+try { new Int32Array(C3, 2, Int32Array); } catch (e) {}
+1 >>> 1;
+const v55 = Float32Array.BYTES_PER_ELEMENT;
+v55 >>> v55;
+const v57 = v44.constructor;
+let v58;
+try { v58 = new v57(v44, 1); } catch (e) {}
+Object.defineProperty(v58, "e", { configurable: true, enumerable: true, value: v44 });
+v58.e = v58;
+class C59 extends v57 {
+}

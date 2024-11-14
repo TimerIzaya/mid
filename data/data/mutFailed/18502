@@ -1,0 +1,43 @@
+new Uint32Array(10);
+let v3 = 67;
+v3++;
+new Int16Array(v3);
+new Float32Array(127);
+new Array(10);
+class C15 extends BigInt64Array {
+    [10] = Float32Array;
+    static [-1];
+    static #g = 10;
+}
+new C15();
+new C15();
+new C15();
+const v19 = new BigInt64Array(8);
+255 >>> 255;
+Uint16Array.d = Uint16Array;
+const v23 = new Uint16Array(255);
+const v24 = v23?.constructor;
+try { new v24(Float32Array, Float32Array, BigInt64Array); } catch (e) {}
+try { v24(v19, v23, 255); } catch (e) {}
+const v28 = 512 % 512;
+v28 | v28;
+const v31 = new Int32Array(512);
+const v32 = [BigInt64Array,BigInt64Array];
+v32.length;
+([Int32Array,Uint16Array,Uint16Array])[1];
+const v39 = -470357.16677445057 ^ 9007199254740991;
+!9007199254740991;
+Math.cbrt(9007199254740991);
+C15 && v39;
+const v43 = [v23,Uint16Array,512,Int32Array];
+v43[2] = v43;
+const v44 = /((((.).).).)rfoo|(bar|baz)|quux*/uims;
+const v45 = v28.constructor();
+let v51 = 0;
+v51++;
+switch (v44) {
+    case v43:
+        v44[v32];
+        v31.valueOf = v45;
+        break;
+}

@@ -1,0 +1,136 @@
+function f6(a7, a8, a9, a10) {
+    const o37 = {
+        toString(a12, a13, a14) {
+            const o18 = {
+                "execution": "sync",
+                "type": "major",
+            };
+            gc(o18);
+            const v20 = [-1000000.0,0.1600379490765781,-1.6243694690977962e+307,817210.0157459241,1.0,5.0,0.9202958446582343,-1.7976931348623157e+308,-382.2774365702321,-5.737866676165018e+307];
+            class C24 {
+                static #e;
+                m(a26, a27, a28, a29) {
+                    v20.#e;
+                    a27.#e = -1;
+                }
+            }
+            return a8;
+        },
+    };
+    return o37;
+}
+f6.prototype = f6;
+const v38 = f6("hCc", "lfTB8", "hCc", "lfTB8");
+const v39 = f6("lfTB8", "hCc", f6, "hCc");
+try { v39.toString(v38, -1345078577, v39); } catch (e) {}
+const v41 = f6("lfTB8", "lfTB8", "hCc", "hCc");
+const v42 = v41?.toString;
+try { new v42(v41, v41, f6); } catch (e) {}
+function f44(a45, a46) {
+    a45 >> a45;
+    -a45;
+    try { a46.codePointAt(5); } catch (e) {}
+    const o57 = {
+        set e(a51) {
+            this.e = this;
+            a51.e;
+            f6(a51, a46, this, this);
+            %PrepareFunctionForOptimization(f6);
+            f6(a51, a46, this, this);
+            f6(a51, a46, this, this);
+            %OptimizeFunctionOnNextCall(f6);
+            f6(a51, a46, this, this);
+        },
+        ...a46,
+        "a": -1619473317,
+        ...a46,
+    };
+    return o57;
+}
+f44(5, "hCc");
+f44(-1345078577, "hCc")[2];
+const v61 = f44(-1619473317, "8461");
+v61[1] = v61;
+v61.e = v61;
+function F62() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v64 = this?.constructor;
+    try { new v64(); } catch (e) {}
+    function f66(a67) {
+        function f68() {
+            const o70 = {
+                get c() {
+                    return this;
+                },
+            };
+            return o70;
+        }
+        class C71 extends f68 {
+        }
+    }
+    Object.defineProperty(this, "f", { set: f66 });
+    try {
+        this.b = 4294967296;
+    } catch(e73) {
+    }
+    try {
+        function F74() {
+            if (!new.target) { throw 'must be called with new'; }
+            const v76 = this?.constructor;
+            try { new v76(); } catch (e) {}
+        }
+        const v78 = new F74();
+        v78.d = v78;
+        const v79 = new F74();
+        v79.b = v79;
+        function f80(a81, a82) {
+            const o83 = {
+                "h": v79,
+                "e": v78,
+            };
+            return o83;
+        }
+        f80.length = f80;
+        const v84 = f80();
+        f80(F62, v84);
+        function f86() {
+            return f80;
+        }
+        Float32Array.g = Float32Array;
+        function f89(a90) {
+            class C92 {
+                #d = 4096;
+                static {
+                    const v94 = this?.constructor;
+                    try { new v94(v61); } catch (e) {}
+                    try {
+                        this.#d;
+                    } catch(e97) {
+                        const v98 = e97?.constructor;
+                        try { new v98(v79); } catch (e) {}
+                    }
+                }
+            }
+            return f66;
+        }
+        f89.length = f89;
+        Float32Array[Symbol.toPrimitive] = f89;
+        const v102 = new Float32Array(218);
+        v102[51] = v102;
+        for (let v103 of v102) {
+            v103--;
+            Object.defineProperty(v84, Float32Array, { configurable: true, enumerable: true, get: f80, set: f86 });
+        }
+        this.g = 4294967296;
+    } catch(e105) {
+        e105.message;
+    }
+    try {
+        this.f = 4294967296;
+    } catch(e107) {
+    }
+}
+new F62();
+new F62();
+const v110 = new F62();
+v110.f;

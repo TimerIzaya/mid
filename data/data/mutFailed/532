@@ -1,0 +1,62 @@
+const v0 = [268435440,-4096,-6,9,1624];
+const v1 = [2147483647,-1117613793,46856,-14];
+function f2() {
+    function f3(a4, a5) {
+        function F6(a8, a9) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        let v10 = new F6();
+        class C11 {
+            constructor(a13, a14, a15) {
+                ({"c":v10,...v10} = a14);
+            }
+        }
+        return v10;
+    }
+    return f3;
+}
+Object.defineProperty(v1, "toString", { configurable: true, enumerable: true, get: f2 });
+const v17 = [16,-36912,1073741825,9007199254740991,-60752,5165];
+function f18(a19) {
+    const o24 = {
+        ...a19,
+        get d() {
+            return v17;
+        },
+        ...v1,
+        "e": v17,
+        "b": a19,
+        "g": v0,
+        [v1]: v17,
+    };
+    return o24;
+}
+const v25 = f18(v1);
+const v26 = f18(v17);
+f18(v26);
+const v32 = [[v26],"symbol",v25,v1];
+["UhrHf",v32,f18];
+function f35() {
+    return 268435439;
+}
+class C37 {
+}
+const v38 = new C37();
+const v41 = [-1000.0,351.94489669740733,5.8623101046484845,-160881.40611645568,0.6390643538224362,9.13027568774574];
+function f42(a43) {
+    v32[64] = a43;
+    [a43] = "UhrHf";
+    return C37;
+}
+v41[Symbol.toPrimitive] = f42;
+v41[Symbol.toPrimitive] = f35;
+function f48(a49, a50) {
+    Object.defineProperty(a49, "length", { writable: true, configurable: true, enumerable: true, value: 268435439 });
+    return 512;
+}
+const v52 = new Promise(f48);
+v52[268435439] = "symbol";
+v52[v41] += 36002;
+const v53 = new C37();
+const v54 = [v38,v53,8];
+try { v54.every(f48); } catch (e) {}

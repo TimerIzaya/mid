@@ -1,0 +1,81 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 129;
+    } catch(e3) {
+    }
+    try {
+        this.h = 129;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+function F8(a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f11() {
+        return this;
+    }
+    function f12(a13) {
+        v6[536870887];
+    }
+    Object.defineProperty(this, "e", { writable: true, get: f11, set: f12 });
+    try {
+        this.e = F0;
+    } catch(e15) {
+    }
+}
+const v16 = new F8(v5);
+const v17 = new F8(v5);
+const v18 = new F8(v6);
+function f19(a20, a21) {
+    const o27 = {
+        "a": v5,
+        "h": a20,
+        ...v18,
+        "g": v16,
+        n(a23, a24, a25) {
+            a23[9] = a23;
+            return a21 ** F8;
+        },
+        "b": a20,
+    };
+    return o27;
+}
+f19(v17, v17);
+f19(v16, v18);
+f19(v16, v16);
+class C34 {
+    toString(a36) {
+        const o37 = {
+            ..."raw",
+        };
+        try {
+            function f38() {
+                return f38;
+            }
+            function f40() {
+                Object.defineProperty(arguments, 13, { enumerable: true, set: f38 });
+                return o37;
+            }
+            f40();
+        } catch(e43) {
+        }
+    }
+}
+const v44 = new C34();
+function f45(a46, a47) {
+    for (let v49 = 0; v49 < 25; v49++) {
+        function f50(a51, a52, a53, a54) {
+            return -261.99102172609366;
+        }
+    }
+    return "bigint";
+}
+v44.valueOf = f45;
+const v58 = ["raw"];
+try {
+    v58.length = v44;
+} catch(e59) {
+}

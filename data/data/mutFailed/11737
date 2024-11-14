@@ -1,0 +1,37 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 892657765;
+    } catch(e3) {
+    }
+    try {
+        this.c = 892657765;
+    } catch(e4) {
+    }
+}
+let v5 = new F0();
+new F0();
+const v7 = new F0();
+v5.c /= 36411;
+try { v5.setInt8(v5); } catch (e) {}
+const o14 = {
+    "maxByteLength": 7,
+};
+const v16 = new ArrayBuffer(4, o14);
+new Float32Array(v16);
+new Set();
+const o26 = {
+    "type": "async",
+};
+v5 *= v7;
+const o27 = {
+    "call": gc,
+    "defineProperty": gc,
+    "getOwnPropertyDescriptor": gc,
+    "has": gc,
+    "isExtensible": gc,
+    "preventExtensions": gc,
+    "setPrototypeOf": gc,
+};
+new Proxy("async", o27);
+gc(o26);

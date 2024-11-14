@@ -1,0 +1,81 @@
+const v0 = [-692.3264645597301,0.8165710122516123,0.0,-450.8125329053803,-3.0,9.231091802363328e+307,-270.5462682843556];
+let v1 = [-5.0,916.024033980502,0.0,2.0,1000000000000.0,-443.41458497392443];
+const v2 = [-2.0,1000000000.0,-1.8466552725027157,-1000000.0];
+function f3(a4, a5) {
+    const v6 = a4?.constructor;
+    let v7;
+    try { v7 = new v6(a4); } catch (e) {}
+    const o37 = {
+        o(a9) {
+            let v8 = this;
+            v1 = v0;
+            let v12 = --v8;
+            v12 ** v2;
+            const v14 = !v8;
+            const v15 = v12++;
+            Math.pow(a9);
+            const v19 = new Uint32Array(9, 9, 9, f3);
+            v19.toPrimitive;
+            new Uint8ClampedArray([5.0]);
+            -a9;
+            v2 >>> v14;
+            for (let i28 = 0, i29 = 10; i28 < i29; i28++, i29--) {
+                super[v6] = v15;
+            }
+            return v15;
+        },
+    };
+    o37[a4] /= a5;
+    v1.length %= a5;
+    try { v7.valueOf(v1, o37, a5, f3, v1); } catch (e) {}
+    v1.length;
+    const o40 = {
+        "apply": f3,
+        "call": f3,
+        "construct": f3,
+        "get": f3,
+        "getOwnPropertyDescriptor": f3,
+        "getPrototypeOf": f3,
+        "has": f3,
+        "isExtensible": f3,
+        "ownKeys": f3,
+        "preventExtensions": f3,
+        "setPrototypeOf": f3,
+    };
+    new Proxy(v1, o40);
+    return o37;
+}
+f3(v0, v1);
+const v44 = f3(v0, v1);
+const v45 = f3(v1, v2);
+try { v45.o(v45); } catch (e) {}
+const v47 = [v1,v1,f3];
+[v47];
+[v47];
+try { new Uint8Array(v45, v0, v44); } catch (e) {}
+const v53 = new Uint8Array(11);
+v53[8];
+const v57 = new SyntaxError();
+v57.stack = v57;
+v57.d;
+let v59 = -7;
+v59--;
+const v62 = ("-9223372036854775807").lastIndexOf(v59);
+v62 + v62;
+%VerifyType(SyntaxError);
+16491 <= 16491;
+v45[16491];
+new SyntaxError(9);
+new BigInt64Array(171);
+function F73(a75, a76) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v77 = this?.constructor;
+    try { new v77(a75, this); } catch (e) {}
+}
+const v79 = new F73();
+async function f80(a81, a82, a83, a84) {
+    a81.fuck();
+    await v79;
+    return F73;
+}
+f80();

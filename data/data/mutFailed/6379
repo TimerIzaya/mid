@@ -1,0 +1,73 @@
+const t0 = 9007199254740992;
+const v4 = new t0();
+v4.p("m");
+const v6 = /(ab)\1foo(?!bar)bazPg/gdiy;
+function f7() {
+    return v6;
+}
+[f7];
+let v9;
+try {
+const t0 = -268435456;
+v9 = t0();
+} catch (e) {}
+const v10 = delete v9?.[2147483647];
+function F11(a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a13;
+    } catch(e14) {
+    }
+    try {
+        this.c = 37122;
+    } catch(e15) {
+    }
+}
+new F11(v10);
+const v17 = new F11(37122);
+new F11(v9);
+new BigInt64Array(1);
+const v24 = new Float64Array(121);
+const v26 = `
+    for (let v27 = 0; v27 < 5; v27++) {
+        class C28 {
+        }
+        const v29 = new C28();
+        function f30(a31, a32) {
+            const o37 = {
+                [v29](a34, a35, a36) {
+                },
+            };
+            return a31;
+        }
+        f30(C28, v26);
+    }
+`;
+new Uint8ClampedArray(3);
+function f41() {
+    return 121;
+}
+%VerifyType(v9);
+v24[1] = 37122;
+const v47 = new Uint8Array(3521);
+v17.__proto__;
+f41();
+%PrepareFunctionForOptimization(f41);
+new Float32Array(64);
+const o55 = {
+    "execution": "async",
+};
+const t59 = gc(o55);
+t59.constructor = gc;
+f41();
+f41();
+function F59() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C61 {
+}
+const t68 = Array();
+t68[0] = 0.6486308944701847;
+%OptimizeFunctionOnNextCall(f41);
+f41();
+v47.includes(false);

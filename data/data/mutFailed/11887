@@ -1,0 +1,29 @@
+new Array(234);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a12;
+    } catch(e14) {
+    }
+    try {
+        this.h = a13;
+    } catch(e15) {
+    }
+}
+new F9(-1000000000000.0, 234, 234);
+new F9(-2.2250738585072014e-308, 234, 234);
+new F9(1000000.0, -59052, 5);
+function f19() {
+    const o22 = {
+        m(a21) {
+            return f19;
+        },
+    };
+    o22.m();
+    return o22;
+}
+F9();
+%PrepareFunctionForOptimization(f19);
+f19();
+%OptimizeFunctionOnNextCall(5);
+f19();

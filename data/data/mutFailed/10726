@@ -1,0 +1,44 @@
+const v0 = [-1.7976931348623157e+308,-1000.0,-1000000000.0,-2.2250738585072014e-308,507.67579205377,3.3916870568825566];
+[-562.3901968156848,5.421203492852493,2.220446049250313e-16,3.0];
+const v2 = [1e-15,-575.2481348942024,149368.79241435975,-3.862506486261596];
+class C3 {
+    d = v2;
+    static #e = v2;
+    constructor(a5, a6) {
+        let {"a":v7,"e":v8,"length":v9,} = a5;
+        Reflect.construct(a6, [Reflect,v9,Reflect], v8);
+    }
+    e;
+    callee;
+    a;
+    static #f = v0;
+}
+const v13 = new C3(v0, C3);
+const v14 = new C3(v0, v2, v0, v2, v0);
+const v15 = new C3(v0, v14);
+const v16 = [536870887,-48534,-14,-7755,-2147483647,-9007199254740990,-65537,1297188827,-9007199254740990];
+[-14,-14,7,1073741825,-2,536870912];
+const v18 = [-12,7,512,1073741823];
+class C19 extends C3 {
+    constructor(a21, a22, a23, a24) {
+        super(v18, a23);
+        function F25(a27, a28) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = this;
+            } catch(e29) {
+            }
+            try {
+                this.f = v13;
+            } catch(e30) {
+            }
+        }
+        new F25(v15, v2);
+        new F25(C3, a22);
+        new F25(a21, a22);
+    }
+}
+const v34 = new C19(C3, v2, v13, v14);
+new C19(v14, v16, v34, v13);
+new C19(v14, v18, v13, C19);
+RegExp(RegExp);

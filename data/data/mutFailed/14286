@@ -1,0 +1,74 @@
+function f0() {
+    let v3 = "-2147483648";
+    const o10 = {
+        __proto__: v3,
+        get a() {
+            v3 = this;
+            const o8 = {
+                "execution": this,
+                "NaN": "minor",
+            };
+            gc(o8);
+            return this;
+        },
+    };
+    return o10;
+}
+f0();
+const v12 = f0();
+const v13 = f0(v12, v12);
+class C14 extends f0 {
+    set f(a16) {
+        const o17 = {
+        };
+        try {
+            o17.d = a16;
+        } catch(e18) {
+        }
+        try {
+            const o19 = {
+            };
+            o19.d = a16;
+            o19.e = this;
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.d = a16;
+            o21.e = this;
+            o21.h = a16;
+        } catch(e22) {
+        }
+        try {
+            const o23 = {
+            };
+            o23.d = a16;
+            o23.e = this;
+            o23.a = f0;
+        } catch(e24) {
+        }
+    }
+}
+try { C14.call(C14); } catch (e) {}
+new C14();
+let v27 = new C14(v13, v12);
+v27.d = v27;
+const v28 = new C14();
+class C29 {
+    get a() {
+        return this;
+    }
+    set a(a35) {
+        v27 %= this;
+        super.c += a35;
+        /\1(a)/gvmy;
+        /u(?:a*)+2eLqk(a\1)/vdi;
+        /abc+/diy;
+    }
+}
+new C29();
+new v28();
+new C29();
+const t72 = [7.134431132944798e+307];
+t72[4] = WeakMap;

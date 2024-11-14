@@ -1,0 +1,95 @@
+class C6 {
+    #d = -1024;
+    static #b = 9223372036854775807;
+    static o(a8, a9) {
+        let v7 = this;
+        ({"c":a9,"d":v7,"g":a9,} = a8);
+        super.h /= a9;
+        a8[1000] = a8;
+        a8 = a9;
+        return v7;
+    }
+    static c = -1024;
+}
+try { new C6(); } catch (e) {}
+const v11 = new C6();
+function f12() {
+    function f13(a14, a15) {
+        try {
+            C6.__proto__ = Date;
+        } catch(e17) {
+        }
+        return a15;
+    }
+    return f13;
+}
+Object.defineProperty(v11, "constructor", { configurable: true, get: f12 });
+const v18 = v11?.constructor;
+try { new v18(); } catch (e) {}
+const v20 = new C6();
+function f21(a22) {
+    v11[1000] &= -1024;
+    try { new a22(v18); } catch (e) {}
+    return v20;
+}
+v20.constructor = f21;
+const v24 = new C6();
+function f25() {
+    function f26(a27) {
+        const v28 = [281559.5068606585];
+        [1000000000.0,1.7976931348623157e+308,-1000000000.0,-1e-15];
+        [-0.0,-2.220446049250313e-16,0.3621628233219777,-0.0,-470820.555009061];
+        return v28;
+    }
+    return f26;
+}
+function f31(a32) {
+    new Uint8ClampedArray(303);
+}
+Object.defineProperty(v24, "constructor", { writable: true, configurable: true, get: f25, set: f31 });
+const v36 = v24?.constructor;
+try { new v36(); } catch (e) {}
+function f38() {
+    Math.tan(f38);
+    Math.pow(-8, -8);
+    Math.pow(-9223372036854775808, f38);
+    Math.floor(512);
+    ~(!-9223372036854775808);
+    return f38;
+}
+const v49 = /(?:a*)+q(?<a>.)/guds;
+const v50 = v49?.toString;
+try { new v50(); } catch (e) {}
+function f52(a53) {
+    a53.hasIndices;
+    const v55 = a53?.constructor;
+    try { v55(a53, f38); } catch (e) {}
+    const o58 = {
+        get d() {
+            return a53;
+        },
+        __proto__: v49,
+    };
+    return o58;
+}
+try { f52(v20); } catch (e) {}
+for (let [i70, i71] = (() => {
+        v20[8] = 0;
+        const v64 = C6.__proto__;
+        v64[Symbol.toPrimitive] = f12;
+        try { v64.call(16); } catch (e) {}
+        let v68 = 10;
+        v68--;
+        return [0, v68];
+    })();
+    (() => {
+        const v72 = i70 < i71;
+        !v72;
+        return v72;
+    })();
+    i71--) {
+    for (let v79 = 0; v79 < 50; v79++) {
+        v79 + v79;
+        f52(v49);
+    }
+}

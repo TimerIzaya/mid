@@ -1,0 +1,16 @@
+new parseInt(10, 10, 10);
+new Uint8ClampedArray(12);
+new Uint32Array(3705);
+new Map();
+const v14 = new Uint16Array();
+function f15() {
+    const v17 = v14[undefined] instanceof f15;
+    const o18 = {
+    };
+    o18.h = v17;
+    return Uint16Array;
+}
+%PrepareFunctionForOptimization(f15);
+f15(12, v14);
+%OptimizeFunctionOnNextCall(f15);
+f15();

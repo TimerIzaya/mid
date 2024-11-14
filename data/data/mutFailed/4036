@@ -1,0 +1,46 @@
+let v2 = -8n;
+class C3 {
+    static #m(a5, a6) {
+        Object.defineProperty(this, "h", { writable: true, value: this });
+        const v9 = a6?.[268435441];
+        this[v2 ^ v9];
+        const v13 = [gc,[-4294967296n]];
+        const v14 = [v13,-4294967296n];
+        const o16 = {
+            "c": this,
+            "h": v9,
+            "d": "async",
+            __proto__: v14,
+            "a": v13,
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o16);
+        return this;
+    }
+}
+new C3();
+new C3();
+new C3();
+const v21 = /(?:foo)/uy;
+const v22 = /X((\xed\xa0\x80))\x02/udms;
+/[\ca]/gvimy;
+v2 += -65536n;
+try {
+    v22.test("E");
+} catch(e28) {
+}
+const v29 = new Float64Array(200);
+let v32;
+try { v32 = Set.apply(1000, v29); } catch (e) {}
+v21[157] = -65536n;
+let v33;
+try { v33 = v32(); } catch (e) {}
+v33.c %= 200;
+g = v33;
+try {
+    const o34 = {
+    };
+    new Float64Array(o34);
+} catch(e36) {
+}

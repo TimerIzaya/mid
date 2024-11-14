@@ -1,0 +1,22 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e6) {
+    }
+    try {
+        this.h = "-9007199254740991";
+    } catch(e7) {
+    }
+    try {
+        this.a = "boolean";
+    } catch(e8) {
+    }
+}
+new F3("-9007199254740991");
+const t16 = "boolean";
+new t16("-9007199254740991");
+new F3("-9007199254740991", "symbol", "boolean", "-9007199254740991");
+Int16Array[5] = -27833;
+const t20 = 255n;
+new t20(Int16Array);

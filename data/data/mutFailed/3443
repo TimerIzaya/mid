@@ -1,0 +1,73 @@
+const v1 = new WeakMap();
+function f5() {
+    return 0.9017302756668679;
+}
+v1[2299506407] = 1000.0;
+function f8() {
+    return f5;
+}
+f5();
+let v11 = v1[1000000.0];
+({"g":v11,} = v11);
+try {
+    v1.length = 1046;
+} catch(e13) {
+}
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 0.0;
+    } catch(e20) {
+    }
+    try {
+        this.g = a16;
+    } catch(e21) {
+    }
+    try {
+        this.d = f5;
+    } catch(e22) {
+    }
+}
+new F14(WeakMap, 1000.0, 0.0, 0.9017302756668679);
+new F14(v1, 1000000.0, -1e-15, 0.0);
+new F14(F14, -1e-15, 1000.0, 0.9017302756668679);
+class C29 {
+    set e(a31) {
+        Math.fround();
+        Math.ceil();
+    }
+    m(a36) {
+    }
+    e;
+}
+const v37 = new C29();
+const v38 = new C29();
+new C29();
+let v40 = ["number","ignoreCase",v37];
+const v41 = [v38,"number","R"];
+[v41,C29,C29,v40];
+const v46 = ("NN")["9"];
+C29[0] >>= v46;
+let v47;
+try { v47 = v46(v38, v37, "string"); } catch (e) {}
+v40 = v47;
+let v48 = 0;
+while ((() => {
+        let v49 = 7;
+        const v50 = v48 < v49;
+        const v51 = v41.length;
+        v49 >>>= v51;
+        function F52(a54, a55) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = 0.9017302756668679;
+            } catch(e56) {
+            }
+        }
+        const v57 = new F52(v51, v40);
+        new F52(v57, "R");
+        new F52(v1, "R");
+        return v50;
+    })()) {
+    v48++;
+}

@@ -1,0 +1,34 @@
+const v4 = new WeakSet();
+[["boolean","ignoreCase","valueOf",v4,v4],"boolean",WeakSet];
+["ignoreCase"];
+function F11() {
+    if (!new.target) { throw 'must be called with new'; }
+    class C13 {
+    }
+    for (let i16 = 0, i17 = 10;
+        i16++, i16 < i17;
+        (() => {
+            const v22 = [601759695];
+            const v23 = [1073741824,1073741823,1376142744,1073741825];
+            function f24(a25, a26, a27, a28) {
+                a28 - a28;
+                function f30() {
+                    return a25;
+                }
+                function f31(a32, a33) {
+                    return a32;
+                }
+                let v34;
+                try { v34 = f31(); } catch (e) {}
+                v34(v23, C13);
+                try { v23["find"](..."find", a28, ...v22, ...v23); } catch (e) {}
+                return C13;
+            }
+            for (let v38 = 0; v38 < 10; v38++) {
+                f24(v38, f24, i16, v38);
+            }
+        })()) {
+    }
+}
+new F11();
+new F11();

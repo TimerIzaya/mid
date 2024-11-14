@@ -1,0 +1,39 @@
+[-850145.9711086905,1000.0,1.7976931348623157e+308,743.5221745573215,-950.6203668937385];
+[-3.0,1000.0,1e-15,807.0883029541817,1000000000.0];
+[-93.6926728884298,-1.307102346303903e+308,-786.8381921462055,-1000000000000.0,680.6532432259901,-3.3741750273190004e+307,-1.1031134706071721e+308,6.540924195475107];
+function f6() {
+    return 9223372036854775807n;
+}
+let v8 = Float64Array;
+Object.defineProperty(v8, "valueOf", { value: f6 });
+v8 >>>= v8;
+new Uint32Array(4);
+const v13 = new Float32Array(2604);
+new Int16Array(75);
+new Date();
+const v22 = new Float64Array();
+function f23() {
+    const v24 = Date(129);
+    try {
+        v13.reverse();
+    } catch(e26) {
+    }
+    return v24;
+}
+v22[Symbol.toPrimitive] = f23;
+const v30 = new Int32Array();
+v30[v22];
+new Float32Array(129);
+function f34(a35) {
+    return f34;
+}
+const v38 = [4096];
+const o39 = {
+    "arguments": v38,
+    "type": "function",
+};
+new Worker(f34, o39);
+const o43 = {
+    "execution": "async",
+    "type": "minor",
+};

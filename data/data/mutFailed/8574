@@ -1,0 +1,49 @@
+function f0() {
+}
+const v3 = new Float32Array(1024);
+const v6 = new BigInt64Array(1891);
+const v9 = new Int16Array(885);
+v9["set"]("set", 885);
+const t5 = "set";
+t5[f0] = v3;
+const o12 = {
+    "apply": f0,
+    "call": f0,
+    "construct": f0,
+    "defineProperty": f0,
+    "get": f0,
+    "getOwnPropertyDescriptor": f0,
+    "getPrototypeOf": f0,
+    "has": f0,
+    "isExtensible": f0,
+    "set": f0,
+};
+const v14 = new Proxy(v6, o12);
+class C15 extends BigInt64Array {
+    [o12] = BigInt64Array;
+    5 = 885;
+    8;
+    static #g;
+    static g = v14;
+    static [-1] = v9;
+    static 474083620 = BigInt64Array;
+    constructor(a17, a18) {
+        super(a18, a17, a18);
+        const v19 = v9.sort(1891, ...v3, BigInt64Array, 1891);
+        Math.asin(-1566635691);
+        Math.pow(v19, v19);
+        Math.sinh(-1566635691);
+        Math.exp(v19);
+    }
+    #d;
+}
+new C15(1891, 885);
+new C15(1891, 1024);
+try {
+    f0();
+} catch(e29) {
+}
+C15[9] = v14;
+new C15(1891, 1024);
+const t47 = [];
+t47.length += 1.0;

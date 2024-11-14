@@ -1,0 +1,96 @@
+function f0() {
+}
+f0[Symbol.toPrimitive] = f0;
+WeakMap.toString = Symbol;
+const v4 = new WeakMap();
+const v6 = new WeakMap();
+function f7() {
+    return Symbol;
+}
+Object.defineProperty(v6, Symbol.toPrimitive, { writable: true, configurable: true, get: f7 });
+const v10 = [v6,v6,WeakMap,f0,WeakMap];
+const v11 = [v6,v4,v10,f0];
+v11[Symbol.toPrimitive] = f0;
+let v14 = [v4,v11,v6,WeakMap,WeakMap];
+function f15() {
+    function f16(a17) {
+        function f19(a20) {
+        }
+        this.onmessage = f19;
+        return f16;
+    }
+    const o23 = {
+        "type": "function",
+    };
+    new Worker(f16, o23);
+    return f16;
+}
+v14[Symbol.toPrimitive] = f15;
+[228055847,-3,-9007199254740990,2147483648,65537];
+const v28 = [9007199254740992,6,-12,16,23812,5];
+let v30 = 475566322;
+const v32 = v14++;
+v30--;
+-v10;
+const v35 = Math.cos(v14);
+const v36 = [-4294967295];
+function f40(a41, a42, a43, a44) {
+    const v46 = new Int32Array();
+    v46[492];
+    v46[3];
+    return a41;
+}
+const v50 = new Map();
+const v51 = (1191236572).toString;
+function f52(a53) {
+    function f55(a56) {
+        v11.length;
+    }
+    this.onmessage = f55;
+    try {
+        new f40(v32, false, -1.7490548709422053e+308, v14);
+    } catch(e61) {
+    }
+}
+const v64 = [Map];
+const o65 = {
+    "arguments": v64,
+    "type": "function",
+};
+new Worker(f52, o65);
+let v67;
+try { v67 = v51(); } catch (e) {}
+function F68(a70, a71, a72) {
+    if (!new.target) { throw 'must be called with new'; }
+    Reflect.construct(Int8Array, [1126838905]);
+}
+for (let v78 = 0; v78 < 10; v78++) {
+    f0();
+    function f80(a81, a82, a83, a84) {
+        'use strict';
+        const v85 = a84 | a83;
+        function F86(a88, a89, a90) {
+            if (!new.target) { throw 'must be called with new'; }
+            Object.defineProperty(this, "f", { writable: true, configurable: true, enumerable: true, value: v85 });
+            try {
+                this.f = a83;
+            } catch(e91) {
+            }
+            try {
+                this.c = v67;
+            } catch(e92) {
+            }
+            try {
+                this.b = a83;
+            } catch(e93) {
+            }
+        }
+        new F86(v64, v10, v85);
+        new F86(v35, v28, a82);
+        new F86(Worker, v36, v35);
+        return v50;
+    }
+    f80(v36, f0, v78, v67);
+}
+%OptimizeFunctionOnNextCall(f40);
+f40(f40, f40, f40, f40);

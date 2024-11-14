@@ -1,0 +1,89 @@
+class C3 {
+    static #d;
+    static #n(a5, a6) {
+        f = 3.893919197491476e+307;
+        a5[a6] = a6;
+        return a6;
+    }
+    static p(a11) {
+        try {
+            this.c = this;
+        } catch(e12) {
+        }
+        return this;
+    }
+}
+const v13 = new C3();
+const v14 = new C3();
+let v15 = new C3();
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 60714;
+    try {
+        this.e = v13;
+    } catch(e20) {
+    }
+    try {
+        this.a = v14;
+    } catch(e21) {
+    }
+    try {
+        this.c = a18;
+    } catch(e22) {
+    }
+}
+const v23 = new F16(3.893919197491476e+307, v14);
+function f24(a25, a26) {
+    const o27 = {
+    };
+    new Proxy(v13, o27);
+    return o27;
+}
+const v31 = Symbol.toPrimitive;
+v23[v31] = f24;
+const v32 = new F16(C3, v15);
+function f33() {
+    function f34(a35) {
+        v32.d = 2;
+        return 1986738585;
+    }
+    return f34;
+}
+function f37(a38) {
+    [[a38,a38,f33,a38,v32]];
+    [v31,f33,a38,3.893919197491476e+307];
+}
+Object.defineProperty(v32, "toString", { configurable: true, get: f33, set: f37 });
+const v42 = new F16(C3, v23);
+function f44(a45, a46, a47) {
+    function f48(a49) {
+        [-676747203,2,1297003257,1000,56210,391274111,-268435456,76822975];
+        [16,26851,10,512,-1507278415,2147483647,-4294967297];
+        [1000,1073741825,15481,-605693753];
+        return a49;
+    }
+    a46.toString = f48;
+    const o69 = {
+        [v23]: v15,
+        [v32](a54, a55, a56, a57) {
+            a45[6];
+            v15 = v14;
+            const v59 = [v32,F16];
+            [3.893919197491476e+307,v14,this];
+            [a46,v42];
+            return v59;
+        },
+        o(a63, a64, a65) {
+            [-37672];
+            [536870889,-4294967297,-16,4294967296];
+            [-27175872,6,5640];
+            return this;
+        },
+    };
+    return o69;
+}
+f44(f44(v15, f44(v14, v32, v32), C3), v23, v23);
+const v73 = [-1235077344,-4096,50383815,-8476,-9007199254740991];
+class C75 extends Set {
+}
+new C75(v73);

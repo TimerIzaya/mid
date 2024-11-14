@@ -1,0 +1,31 @@
+const o12 = {
+    toString(a2, a3) {
+        function F4(a6, a7, a8, a9) {
+            if (!new.target) { throw 'must be called with new'; }
+            let {"c":v10,} = a3;
+        }
+        const v11 = new F4();
+        return v11;
+    },
+};
+try { o12.toString(); } catch (e) {}
+new Map();
+new Date();
+new gc(10);
+new Uint8Array(5);
+new Uint8ClampedArray(1176);
+const v27 = [601759695];
+function f28(a29, a30, a31, a32) {
+    arguments[2] = arguments;
+    function f34() {
+        Boolean.max(a31);
+        const v37 = +a29;
+        return Boolean.ceil(a29, v37, v37, v37);
+    }
+    f34();
+    %OptimizeFunctionOnNextCall(f34);
+    return f28;
+}
+for (let v40 = 0; v40 < 5; v40++) {
+    f28(v27, v40, v40);
+}

@@ -1,0 +1,37 @@
+const v1 = new WeakMap();
+function f5() {
+    const v8 = new Int16Array(1269);
+    for (const v9 in v8) {
+    }
+    return "-453191390";
+}
+f5[Symbol.toPrimitive] = f5;
+function f15() {
+    return v1;
+}
+class C16 extends f15 {
+    o(a18, a19, a20) {
+        const t13 = "number";
+        delete t13[6];
+        try {
+            this.valueOf = a19;
+        } catch(e22) {
+        }
+        return a19;
+    }
+    static n(a24, a25, a26) {
+        ("-453191390")[3];
+        return Symbol;
+    }
+    [v1] = f5;
+}
+new C16();
+const t28 = -63712;
+new t28();
+const v30 = new C16();
+Uint32Array[1] = v30;
+const v32 = new Uint32Array(Uint32Array, Uint32Array, Uint32Array);
+try {
+    v32.__proto__ = v32;
+} catch(e33) {
+}

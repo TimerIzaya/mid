@@ -1,0 +1,67 @@
+new Array(512);
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = F3;
+    try {
+        this.g = a5;
+    } catch(e6) {
+    }
+    try {
+        this.h = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(Array);
+const v9 = new F3(F3);
+const v10 = new F3(Array);
+const v13 = new Int32Array(512);
+new Int32Array(176);
+const v19 = new Uint8Array(4);
+function F20() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 3872;
+    } catch(e23) {
+    }
+}
+const v24 = new F20();
+const v25 = new F20();
+new F20();
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.p27 = F30;
+    function f35() {
+        const v37 = new Float32Array();
+        v19[6] = v37;
+        return v37;
+    }
+    a33[Symbol.toPrimitive] = f35;
+    a33 in v10;
+    [a33,a32];
+    Array(512);
+    v9.g;
+    for (let v44 = 0; v44 < 32; v44++) {
+        this["p" + v44] = v44;
+    }
+    try {
+        this.b = a33;
+    } catch(e47) {
+    }
+}
+function f48() {
+    new Array(522);
+    return F20;
+}
+F30[Symbol.toPrimitive] = f48;
+const v54 = new F30(4294967295, F20, v24);
+new F30(62324, F30, v25);
+const v57 = Symbol.toPrimitive;
+const o59 = {
+    [v57]() {
+    },
+    "b": v10,
+    "g": v8,
+    "c": Uint8Array,
+    "h": v13,
+    "f": v54,
+};

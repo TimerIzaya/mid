@@ -1,0 +1,85 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, 1073741824, { writable: true, value: this });
+    try {
+        let v3 = [5];
+        v3 **= this;
+        const v4 = this[1073741824];
+        v4[4040] = v4;
+        v4[this] |= v4;
+        this.f = 5;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 extends F0 {
+    static toString(a11, a12) {
+        const v13 = typeof this;
+        const v15 = v13 === "bigint";
+        "bigint" | v13;
+        v6[v8];
+        v7 in a12;
+        return v15;
+    }
+    set b(a20) {
+        try {
+            v7.toString = a20;
+        } catch(e21) {
+        }
+    }
+}
+const v22 = new C9();
+const v23 = new C9();
+function f24() {
+    %OptimizeFunctionOnNextCall(Date);
+    return Date;
+}
+v23.toString = f24;
+function f26(a27) {
+    return F0;
+}
+class C28 extends f26 {
+    c;
+    static [v8];
+}
+const v29 = new C9();
+class C30 {
+    constructor(a32, a33, a34) {
+        a32[v8] = a34;
+        const v39 = +v23;
+        const v40 = +v23;
+        -v40;
+        -4294967296 && v23;
+        +v39;
+        Math.fround(v40);
+        Math.random();
+    }
+}
+new C30(v8, v22, v7);
+const v47 = new C30(v22, v23, C9);
+new C30(v6, v22, v6);
+function f49(a50, a51) {
+    const o61 = {
+        "d": a50,
+        "c": v7,
+        1724: v47,
+        __proto__: C30,
+        "h": a50,
+        [v29](a53, a54, a55, a56) {
+            try {
+                a55.fuck(this, 775386.477315817, undefined);
+            } catch(e60) {
+            }
+            return a55;
+        },
+    };
+    return o61;
+}
+f49(v7, C30);
+f49(C9, v7);
+f49(v6, v8);
+const v66 = new Int32Array(Int32Array, Int32Array, Int32Array);
+v66[Symbol.toPrimitive] = f26;
+Math.expm1(~v66);

@@ -1,0 +1,84 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 10000;
+    } catch(e3) {
+    }
+    try {
+        this.a = 10000;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+class C8 {
+}
+async function f9(a10, a11, a12, a13) {
+    (await C8).call(8, Uint16Array);
+    return a11;
+}
+new F0();
+const v17 = new F0();
+class C18 extends F0 {
+    set g(a20) {
+        let v19 = this;
+        v19 = a20;
+    }
+    get a() {
+        v17[268435440];
+        const v23 = this.b;
+        class C26 {
+            ["9007199254740991"] = "a";
+        }
+        return v23;
+    }
+    static 4;
+    static 6 = v17;
+    static h = v5;
+    static [v5] = F0;
+}
+new C18();
+new C18();
+new C18();
+class C32 {
+}
+function f33() {
+    class C34 {
+        constructor(a36) {
+            function f37() {
+                return a36;
+            }
+            Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f37 });
+        }
+    }
+    new C34();
+    const v39 = new C34(f33);
+    v39.length;
+    return f33;
+}
+f33();
+new Uint8Array(5);
+"function" == "function";
+class C46 {
+    #d = 4096;
+    static {
+        this.#d;
+    }
+}
+("string").normalize("NFKD");
+function f53() {
+    return f53;
+}
+new Int32Array(1000);
+function F58(a60, a61, a62) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v63 = new F58();
+for (let i = 0; i < 5; i++) {
+    v63.toString = Array;
+}
+new Uint8ClampedArray(129);
+function f66() {
+    return f66;
+}
+const v68 = new Date(f66);
+Date.UTC(f66, f66, Date, v68.setUTCMilliseconds(Date), Date, Date);

@@ -1,0 +1,46 @@
+4096 < 4096;
+try { BigInt64Array.from(-268435456n); } catch (e) {}
+new BigInt64Array(4096);
+const v13 = new Uint16Array(1);
+v13[0];
+let v16 = 2 + 2;
+v16--;
+const v19 = new Int16Array(2);
+const v20 = [];
+try { v20.findLast(4n); } catch (e) {}
+v20.length;
+class C23 {
+}
+const v24 = new C23();
+const v25 = v24?.constructor;
+v25.length;
+let v27;
+try { v27 = new v25(); } catch (e) {}
+try { v27.constructor(); } catch (e) {}
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.__proto__ = this;
+    const v33 = a31?.constructor;
+    try { new v33(); } catch (e) {}
+    const v35 = this?.__lookupGetter__;
+    try { new v35(v19); } catch (e) {}
+    try { a32.unshift(a31); } catch (e) {}
+    this.c = a32;
+}
+try { new F29(v20, -993457.2890492466); } catch (e) {}
+const v39 = new F29(v24, v20);
+let v40;
+try { v40 = v39.propertyIsEnumerable(-9223372036854775808n); } catch (e) {}
+!v40;
+function f42(a43, a44) {
+    return a44;
+}
+const v45 = f42?.constructor;
+try { new v45(Int16Array); } catch (e) {}
+Worker.d = Worker;
+const v49 = [v39];
+const o50 = {
+    "arguments": v49,
+    "type": "function",
+};
+new Worker(f42, o50);

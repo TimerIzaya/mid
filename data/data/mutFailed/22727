@@ -1,0 +1,122 @@
+function f3(a4) {
+    const o11 = {
+        "a": -162.22857485187478,
+        "h": a4,
+        "f": 1000000000.0,
+        "e": 1.5093842664001786e+308,
+        "c": a4,
+        "b": 1000000000.0,
+        o(a6) {
+            this[-1];
+            return this;
+        },
+        "d": 1000000000.0,
+        "g": a4,
+    };
+    function f12(a13) {
+        const v14 = [0,1593815803];
+        const v18 = Array(1049);
+        class C19 extends Array {
+            n(a21, a22) {
+            }
+            static #a = 65536;
+            #d;
+            static [v18] = v14;
+        }
+        new C19();
+        return o11;
+    }
+    o11.toString = f12;
+    return o11;
+}
+const v24 = f3(1000000000.0);
+const v25 = f3(-162.22857485187478);
+const v26 = f3(1000000000.0);
+function f27() {
+    const o28 = {
+    };
+    return o28;
+}
+v26[Symbol.toPrimitive] = f27;
+function f31(a32, a33, a34, a35) {
+    const o42 = {
+        __proto__: v26,
+        set b(a37) {
+            v25[257] = this;
+            v24[1.5093842664001786e+308] = -162.22857485187478;
+            const v39 = [v26];
+            Reflect.apply(v24.o, v24, v39);
+        },
+        1: v26,
+        "a": a34,
+        "h": a33,
+        "e": v26,
+        2: 1.5093842664001786e+308,
+        "c": 1.5093842664001786e+308,
+    };
+    return o42;
+}
+const v43 = f31(v26, -162.22857485187478, v25, v26);
+const v44 = f31(f3, 1.5093842664001786e+308, v24, v24);
+f31(v25, 1000000000.0, v43, v25);
+const v46 = /[\118]/gsy;
+/(?=a){0,10}a*/di;
+const v48 = /\u0060?/guims;
+function f49(a50, a51, a52) {
+    const o66 = {
+        [v26]: v46,
+        get d() {
+            function F54(a56, a57, a58, a59) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = a50;
+                } catch(e60) {
+                }
+                try {
+                    this.h = f31;
+                } catch(e61) {
+                }
+                try {
+                    this.f = a56;
+                } catch(e62) {
+                }
+            }
+            new F54(-162.22857485187478, 1.5093842664001786e+308, 1000000000.0, this);
+            new F54(a52, a52, a51, this);
+            new F54(-162.22857485187478, 1000000000.0, -162.22857485187478, v24);
+            return v48;
+        },
+    };
+    return o66;
+}
+f49(f31, 1000000000.0, 1000000000.0);
+f49(1.5093842664001786e+308, -162.22857485187478, 1.5093842664001786e+308);
+f49(v44, 1.5093842664001786e+308, 1000000000.0);
+class C70 {
+}
+for (let v71 = 0; v71 < 5; v71++) {
+    function f72() {
+        try { new Symbol(); } catch (e) {}
+        const v75 = Symbol.toPrimitive;
+        Symbol.for(v75.description);
+        try { Symbol.bind(v71); } catch (e) {}
+        Symbol.for(Symbol.for(v75.description).description);
+        try { Symbol.toString(); } catch (e) {}
+        Symbol.for(v75.description);
+        function f86() {
+            const o89 = {
+                m(a88) {
+                    return f86;
+                },
+            };
+        }
+        try { f86(); } catch (e) {}
+        const v92 = v75.description.codePointAt(C70);
+        v92 - v92;
+        v92 & v92;
+        v92 + v92;
+        return Symbol;
+    }
+    f72();
+    %OptimizeFunctionOnNextCall(f72);
+}

@@ -1,0 +1,41 @@
+const v2 = new Uint16Array(198);
+function f3(a4, a5) {
+    let v6;
+    try { v6 = new a4(a4, a5, a4, Uint16Array, a4); } catch (e) {}
+    ({"e":a5,...v6} = v6);
+    return a4;
+}
+Object.defineProperty(v2, "toString", { writable: true, value: f3 });
+const v9 = new Uint32Array(512);
+new BigInt64Array(11);
+function f13(a14, a15) {
+    const o23 = {
+        ...v9,
+        [v2]: BigInt64Array,
+        toString(a17, a18) {
+            const v19 = v9.__proto__;
+            a18 = 11;
+            return v19;
+        },
+        "c": v2,
+        "h": v2,
+        [11]: a14,
+        __proto__: v9,
+    };
+    return o23;
+}
+f13(11, 11);
+f13(11, 11);
+f13(512, 11);
+function f32(a33) {
+    const o34 = {
+        ..."toStringTag",
+    };
+    return o34;
+}
+class C35 extends f32 {
+    ["15036"];
+}
+const v36 = new C35();
+for (const v37 in v36) {
+}

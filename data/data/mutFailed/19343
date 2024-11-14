@@ -1,0 +1,18 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.EPSILON = 9007199254740992;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new v5();
+[v4,v6];
+[v5,v6,v5];
+[v6,v6];
+new Uint8ClampedArray();
+class C15 {
+}
+const v16 = new C15();
+this.e = v16;

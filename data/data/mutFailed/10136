@@ -1,0 +1,26 @@
+class C3 {
+    static set h(a5) {
+        try { new a5(this, a5, a5, 1, this, -2.220446049250313e-16); } catch (e) {}
+        let v7;
+        try { v7 = new this(-2.220446049250313e-16, 536870889); } catch (e) {}
+        Reflect.construct(v7, [1,Reflect,Reflect,Reflect], v7);
+    }
+    static [536870889];
+    #d;
+    static #e;
+}
+const t11 = -2.220446049250313e-16;
+new t11(1);
+new C3();
+new C3();
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v21 = this.constructor;
+    try { new v21(); } catch (e) {}
+    function f23() {
+        return F17;
+    }
+    %PrepareFunctionForOptimization(f23);
+    %OptimizeFunctionOnNextCall(f23());
+}
+new F17(1);

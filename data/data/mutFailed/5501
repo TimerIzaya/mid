@@ -1,0 +1,51 @@
+/C(?=a){0,10}a/gims;
+/C/gudimy;
+/7/gumy;
+const v5 = new Int8Array(512);
+const o10 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o10);
+new BigUint64Array(255);
+new BigUint64Array(2);
+Object.defineProperty(v5, "async", { writable: true, enumerable: true, get: gc, set: gc });
+let v19 = ("async")[-1];
+v19 = Float64Array;
+new Float32Array(2);
+new BigInt64Array(1);
+new Int16Array(441);
+const v29 = new Float64Array(4);
+const v32 = new Uint8Array(256);
+new Float32Array(7);
+let v37 = v32[44610];
+let v38;
+try { v38 = v37(7, 7, 4); } catch (e) {}
+v37 = 7;
+function F39(a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 256;
+    } catch(e43) {
+    }
+}
+const v44 = new F39(44610, 44610);
+try {
+    v44.toString = v38;
+} catch(e45) {
+}
+let v46;
+try { v46 = v38(256, 7, Float32Array, F39); } catch (e) {}
+const v47 = new F39(7, 7);
+new F39(7, 7);
+typeof v29 === "undefined";
+const v53 = Symbol.toPrimitive;
+const o61 = {
+    [v53]() {
+        v46();
+        function F56(a58, a59) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        F56(F56, v47);
+    },
+};

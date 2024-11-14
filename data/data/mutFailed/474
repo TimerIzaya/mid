@@ -1,0 +1,26 @@
+[];
+[true];
+const v12 = ["9223372036854775807","m",-65535,-65535,-65535];
+[v12,"boolean","-2",v12];
+new Int16Array(512);
+new Float64Array(9);
+new Int8Array(8);
+function f24() {
+    function f25(a26) {
+        Symbol.unscopables;
+        return a26;
+    }
+    return f25;
+}
+function f29(a30) {
+    new f24();
+}
+Object.defineProperty(Float32Array, "toString", { writable: true, enumerable: true, get: f24, set: f29 });
+function f32(a33, a34, a35) {
+    return a34;
+}
+class C36 extends f32 {
+}
+for (let v37 = 0; v37 < 5; v37++) {
+    Object.defineProperty(C36, Float32Array, { enumerable: true, get: f32 });
+}

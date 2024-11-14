@@ -1,0 +1,61 @@
+class C3 {
+    get d() {
+        try { C3(this, this, -4096); } catch (e) {}
+        return -4096;
+    }
+    static [C3] = C3;
+    #h = -9250;
+    static {
+        const v9 = this[Symbol.toStringTag];
+        super.b = this;
+        try {
+            v9.#h;
+        } catch(e11) {
+        }
+    }
+    #e = 10;
+    #a;
+    #d;
+}
+const v12 = new C3();
+function* f13(a14, a15) {
+    'use strict';
+    try {
+        new C3();
+    } catch(e17) {
+    }
+    yield* [a15,-9250];
+    return 10;
+}
+f13(-9250, 10);
+const v20 = new C3();
+new C3();
+function F22(a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a25;
+    } catch(e27) {
+    }
+}
+const v28 = new F22(v20, v12, v12);
+const v29 = new F22(v12, v28, v20);
+new F22(v29, v12, v28);
+function F34(a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v38 = new F34();
+function f39() {
+    const o50 = {
+        [1836424012](a42, a43, a44) {
+            try { a43(); } catch (e) {}
+            this.__proto__;
+        },
+        "e": v38,
+    };
+    return F34;
+}
+%PrepareFunctionForOptimization(f39);
+f39();
+f39();
+%OptimizeFunctionOnNextCall(f39);
+f39();

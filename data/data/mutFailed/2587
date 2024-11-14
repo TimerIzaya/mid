@@ -1,0 +1,45 @@
+class C3 {
+    set c(a5) {
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v11 = this.constructor;
+            try { new v11(this); } catch (e) {}
+            a10++;
+            this.g = a9;
+        }
+        const v14 = new F7();
+        const t10 = v14.constructor;
+        new t10();
+    }
+    static #p(a20, a21) {
+        let v19 = this;
+        (v19 = a20) ** "symbol";
+        return 7;
+    }
+}
+let v23;
+try { v23 = ("65536").indexOf("symbol", 7); } catch (e) {}
+const v27 = [-256,10000];
+const v28 = [1666003053,-4,1842852418,-52375];
+[-37227,4294967295,2023152662,46160,0];
+new C3();
+let v31 = 0;
+do {
+    try { v23(v27, v28); } catch (e) {}
+    v31++;
+} while (v31 < 1)
+const v36 = new C3();
+new v36();
+("wnte").__proto__;
+-35213n instanceof C3;
+const o47 = {
+    "a": -7498n,
+};
+const o50 = {
+    "execution": "async",
+};
+function f51() {
+    return v27;
+}
+Object.defineProperty(o50, "type", { configurable: true, get: f51 });
+gc(o50);

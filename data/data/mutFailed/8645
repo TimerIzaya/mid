@@ -1,0 +1,99 @@
+const v1 = new Date();
+class C2 extends Date {
+    constructor(a4, a5) {
+        super();
+        with (Date) {
+            prototype = v1;
+            typeof a5 === "number";
+        }
+    }
+    static 5;
+    b = Date;
+    [Date];
+    static 10 = v1;
+    static #d = Date;
+}
+const v10 = new C2(Date, Date);
+const v11 = new C2(v1, v10);
+const v12 = new C2(v11, v1);
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v1;
+    } catch(e19) {
+    }
+}
+const v20 = new F13(v1, C2, F13, v11);
+new F13(v12, v20, v20, v12);
+new F13(v10, v11, C2, v10);
+[2147483648,11,9223372036854775807];
+[-15,-2147483647,536870888,4294967295,1024,993302147];
+[-2010868805,536870887,45630,1820816382,9007199254740991,-128,-49254,-3];
+const v30 = new Float32Array(Float32Array);
+for (let v31 = 0; v31 < 10; v31++) {
+    function f32() {
+        return f32;
+    }
+    const v33 = [601759695];
+    const v34 = [1073741824,1073741823,1376142744,1073741825];
+    function f36(a37, a38, a39, a40) {
+        function f42() {
+            return v30;
+        }
+        f32();
+        const v45 = new Int8Array();
+        function f46(a47, a48) {
+            return a47;
+        }
+        f46(v34, v30);
+        v45.buffer.slice(2147483648);
+        %OptimizeFunctionOnNextCall(f42);
+        [0.3917692554960539,-674906.0645804916];
+        [7.924379118654414,8.971532815660825e+306];
+        [155533.8602852358,2.0];
+        1000000000.0 & 1000000000.0;
+        let v62 = 1.394021134332674e+308;
+        v62++;
+        -1.340075496624941e+308 * -1.340075496624941e+308;
+        const v70 = [Infinity,1.0,-1.2272545370579378e+308,-1000000.0,5.0,1.7976931348623157e+308,5.0];
+        try { v70.pop(); } catch (e) {}
+        const v72 = [-1e-15,9.330767979388325e+307,-4.60104484756231e+307,-660449.2774246833,1000000.0,1000.0,-5.0];
+        v72[5] = v72;
+        [-7.672768111123561e+307,-1000000000000.0];
+        function F74() {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                const v78 = Array(19793);
+                for (const v79 of v78) {
+                }
+                const v80 = [v78,v78,v78,v78,v78];
+                [[v80,v80,v80]];
+            } catch(e84) {
+                [e84,this];
+            }
+        }
+        const v86 = new F74();
+        const v87 = v86?.__lookupSetter__;
+        try { new v87(15); } catch (e) {}
+        new F74();
+        let v90;
+        try { v90 = v34["find"](..."find", a40, ...v33, ...v34, ...522675525n); } catch (e) {}
+        v90 <= a39;
+        return arguments;
+    }
+    for (let v92 = 0; v92 < 10; v92++) {
+        f36(v34, v92, v33, v92);
+    }
+}
+function f95(a96, a97, a98, a99) {
+    a96.length;
+    const v101 = new Float32Array();
+    const v103 = new Float32Array(2);
+    const v105 = new Int32Array(v103);
+    const v106 = v103;
+    v105.fill(...v106);
+    return v101;
+}
+for (let v108 = 0; v108 < 625; v108++) {
+    f95(Uint8Array);
+}

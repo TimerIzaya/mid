@@ -1,0 +1,56 @@
+class C9 {
+    toString(a11, a12, a13) {
+        !"string";
+        return -21647;
+    }
+    static #f = 4294967295;
+    #e = -9223372036854775807n;
+    d = "symbol";
+    static 94 = "string";
+}
+const v21 = new C9();
+const v22 = new v21();
+const v23 = new v21();
+function f24(a25, a26, a27) {
+    const o36 = {
+        "a": "string",
+        "d": -9223372036854775807n,
+        "c": v22,
+        n(a29, a30) {
+            let v31 = 0;
+            while (v31 < 3) {
+                try {
+                    const t22 = "symbol";
+                    t22.toString = a25;
+                } catch(e34) {
+                }
+                v31++;
+            }
+            return a27;
+        },
+    };
+    return o36;
+}
+f24(512, "undefined", "symbol");
+f24(v23, "symbol", "string");
+f24(v22, "string", "string");
+for (let v40 = 0; v40 < 5; v40++) {
+    function f41() {
+        function f43(a44, a45, a46, a47) {
+            const o51 = {
+                n(a49, a50) {
+                    return v40;
+                },
+            };
+            o51.n(a47, o51, o51, a44, v40);
+            return v40;
+        }
+        for (let v53 = 0; v53 < 25; v53++) {
+            f43(v53, f41, eval, v53);
+        }
+        eval();
+        return f41;
+    }
+    f41();
+    %OptimizeFunctionOnNextCall(f41);
+}

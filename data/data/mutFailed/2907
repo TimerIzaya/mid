@@ -1,0 +1,29 @@
+const v4 = new Set();
+function f5() {
+    return v4;
+}
+new Uint8Array(14);
+new Int8Array(1827);
+new f5(255);
+class C17 {
+    9 = 6;
+}
+const v18 = new C17();
+v18.valueOf = f5;
+const v19 = new C17();
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "c", { configurable: true, value: F20 });
+    const v26 = this?.constructor;
+    try { new v26(v19, 6, 6, a22); } catch (e) {}
+    let v28 = a22[9];
+    v28.toString = f5;
+    v28--;
+    try {
+        this.c = -578828680;
+    } catch(e30) {
+    }
+}
+const v31 = new F20(v18);
+v31[9] = v18;
+new F20(v31);

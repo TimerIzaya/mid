@@ -1,0 +1,29 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v0;
+    } catch(e3) {
+    }
+    try {
+        this.f = v0;
+    } catch(e4) {
+    }
+    try {
+        this.b = v0;
+    } catch(e5) {
+    }
+}
+new v0();
+new F1();
+new F1();
+new Uint32Array(12);
+new Uint32Array(10);
+new Int8Array(1);
+function F21() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C23 {
+}
+const v24 = new C23();
+ReferenceError.captureStackTrace(F21, v24);

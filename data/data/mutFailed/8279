@@ -1,0 +1,21 @@
+function f0() {
+}
+function f1(a2) {
+    try {
+        a2.__proto__ = a2;
+    } catch(e3) {
+    }
+    return f0;
+}
+Object.defineProperty(f0, Symbol.toPrimitive, { configurable: true, value: f1 });
+function f6() {
+    return f0;
+}
+-Infinity;
+new WeakMap();
+/(c(a))/gms;
+/a+?/gvds;
+/(?:a+)+a??/vd;
+const v18 = [188439.8808918628,491144.33908044384,7.99804504476413,6.321598426193364e+307,-820860.9743012136,0.7234201729305241,-998514.8410675353,5.600912141333236];
+v18.toString = f6;
+Date.parse(v18.toString());

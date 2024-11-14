@@ -1,0 +1,66 @@
+new Uint16Array(523);
+new Uint8Array(2155);
+new Uint8ClampedArray(255);
+let v15 = 3.1466442940809625;
+class C17 {
+    set e(a19) {
+        const v21 = Symbol.iterator;
+        const o28 = {
+            [v21]() {
+                let v23 = 10;
+                const o27 = {
+                    __proto__: v23,
+                    "type": "PV98",
+                    "execution": "C6v",
+                    get g() {
+                        return "PV98";
+                    },
+                    next() {
+                        v23--;
+                        return this;
+                    },
+                };
+            },
+        };
+    }
+}
+const v29 = new C17();
+v29.p = 2155;
+const v30 = new C17();
+const v31 = new C17();
+function f32(a33, a34) {
+    const o41 = {
+        512: C17,
+        4294967295: a33,
+        valueOf(a36, a37) {
+            return a37;
+        },
+        "e": v30,
+        o(a39, a40) {
+            return a40;
+        },
+    };
+    o41.h = -2019408609;
+    return o41;
+}
+const v42 = f32(f32, v15);
+v42.h = "C6v";
+f32(C17, v15);
+const v44 = f32(f32, -1000.0);
+function f45() {
+    return 255;
+}
+function f46(a47) {
+    for (let v48 = 0; v48 < 5; v48++) {
+    }
+}
+Object.defineProperty(v44, "h", { writable: true, get: f45, set: f46 });
+let v49 = 1024n;
+try {
+    C17();
+} catch(e51) {
+}
+v44.h;
+let v53 = v44[v31];
+({"e":v49,"h":v53,...v15} = v42);
+try { v29.p(v53, v53, -1000.0, v31, v29); } catch (e) {}

@@ -1,0 +1,23 @@
+const v1 = new WeakSet();
+const v3 = `
+    const v4 = new WeakSet(v1);
+    v4 ^ v4;
+`;
+const v7 = eval(v3);
+try {
+    v1.add("function");
+} catch(e11) {
+}
+const v15 = new Float64Array(89);
+const v18 = new Float32Array(2160);
+v18[v18] = 1962604902n;
+let {"b":v19,"h":v20,} = v7;
+let v24 = 4.878742273209214e+307 << 4.878742273209214e+307;
+Math.asin(v15);
+v24 + 4.878742273209214e+307;
+const v27 = ++v24;
+v27 && v27;
+v24++;
+new Uint8ClampedArray(2);
+const v34 = Map.prototype;
+try { v34.clear(v34, Map); } catch (e) {}

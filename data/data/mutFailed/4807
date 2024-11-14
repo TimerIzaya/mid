@@ -1,0 +1,44 @@
+function f0() {
+    const o18 = {
+        ..."function",
+        __proto__: "function",
+        "e": f0,
+        ..."-65535",
+        [f0]: f0,
+        "c": f0,
+        n(a5, a6) {
+            const v11 = a6 << "-65535";
+            const v12 = "-65535" ^ a6;
+            const v13 = v11 + 1.0;
+            a5 % v12;
+            const v15 = v11 & 1000;
+            v13 + v15;
+            ~"-65535";
+            return v15;
+        },
+    };
+    return o18;
+}
+function f19(a20, a21) {
+    a20[Symbol.toPrimitive];
+    return f0;
+}
+f0[Symbol.toPrimitive] = f19;
+f0();
+const v28 = f0();
+v28.toString = Symbol;
+const v29 = f0();
+new WeakMap();
+try { v28.n(v28, "growable", v29, "growable"); } catch (e) {}
+[-870621.9214760815,0.9221298598466411,-2.2250738585072014e-308,9.24662998175289];
+[1.0,NaN,-0.0,Infinity,405.34973229250136,-4.636081246407535e+307,-1000000.0,2.6531606197029042e+306];
+[907.2336192999569];
+for (let v39 = 0; v39 < 32; v39++) {
+    const t36 = "getUint32";
+    t36["p" + v39] = v39;
+}
+new Int8Array(8);
+new Int8Array(681);
+new Int8Array(163);
+const v53 = new Uint8Array(6);
+new Int8Array(v53);

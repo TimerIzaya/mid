@@ -1,0 +1,29 @@
+for (let v3 = 0; v3 < 67; v3++) {
+    const o6 = {
+        "maxByteLength": 2147483649,
+    };
+    const v8 = new ArrayBuffer(255, o6);
+    new Int16Array(v8);
+}
+const v13 = new Int32Array(7);
+new Float32Array(3658);
+new Uint8Array(18);
+class C20 {
+}
+const v21 = new C20();
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v13.includes(this);
+    } catch(e27) {
+    }
+    const t19 = "function";
+    delete t19?.length;
+    ~a25;
+    const v30 = this.__proto__;
+    const v31 = v30?.constructor;
+    try { new v31(v21); } catch (e) {}
+    v30.toLocaleString();
+}
+new F22();
+new F22();

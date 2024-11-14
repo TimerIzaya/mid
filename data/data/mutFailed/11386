@@ -1,0 +1,73 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v0;
+    } catch(e3) {
+    }
+    try {
+        this.g = v0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = new F1();
+const v7 = new v0();
+try { new Set(); } catch (e) {}
+const v10 = new v7();
+const v11 = [v7];
+const v12 = [v7,v7,v11,Set,v10];
+const v13 = [v12,v6,v11,F1,v5];
+try { v13.slice(v13, v0); } catch (e) {}
+function f18(a19, a20) {
+    a19--;
+    a20[0] = a20;
+    const o32 = {
+        [v10]: v12,
+        get h() {
+            v10.size;
+            const o24 = {
+            };
+            try {
+                o24.c = this;
+            } catch(e25) {
+            }
+            try {
+                const o26 = {
+                };
+                o26.c = this;
+                o26.e = v0;
+            } catch(e27) {
+            }
+            try {
+                const o28 = {
+                };
+                o28.c = this;
+                o28.e = v0;
+                o28.g = 9707;
+            } catch(e29) {
+            }
+            try {
+                const o30 = {
+                };
+                this.c = this;
+                o30.e = -758951061;
+                o30.g = o30;
+            } catch(e31) {
+            }
+            return o24;
+        },
+    };
+    return o32;
+}
+const v34 = f18(1034246150, v11)?.__defineGetter__;
+try { new v34(F1, v6); } catch (e) {}
+f18(-758951061, v0);
+f18(-758951061, v13);
+const v38 = [2.0,-1e-15,1.7976931348623157e+308];
+const v41 = new Int16Array(v38);
+v41[480];
+-1351;
+const v45 = v38.flat(1351);
+try { v45.sort(-758951061); } catch (e) {}
+v41.lastIndexOf(1371, 1351);

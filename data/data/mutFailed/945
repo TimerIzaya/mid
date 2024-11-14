@@ -1,0 +1,55 @@
+function f3() {
+    return -229879985n;
+}
+class C4 extends f3 {
+    static set g(a6) {
+        let {"a":v7,"c":v8,"g":v9,...v10} = this;
+        try {
+            super.some(-1024n, 4096n);
+        } catch(e12) {
+        }
+    }
+    static get h() {
+        const v14 = this.g;
+        for (let v15 = 0; v15 < 32; v15++) {
+            v14["p" + v15] = v15;
+        }
+        return -1024n;
+    }
+}
+const t19 = 4096n;
+const v18 = new t19();
+const v19 = new v18();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+const v22 = new C4();
+try { ("o").search(-1024n); } catch (e) {}
+function f27(a28, a29, a30) {
+    const v31 = a28?.constructor;
+    try { new v31(); } catch (e) {}
+    a29--;
+    const o34 = {
+        "b": 4096n,
+        [a29]: a28,
+        "c": a29,
+        "h": v19,
+        ...C4,
+        "d": 4096n,
+        "e": v22,
+        __proto__: a28,
+        "a": a30,
+        ...a28,
+        "f": a28,
+        ["Y9Hru"]: f3,
+    };
+    return o34;
+}
+f27(v22, -1024n, "o");
+f27("ceil", 4096n, v18);
+f27("o", -1024n, v19);
+17 << 17;
+const v42 = [Uint8ClampedArray,Uint8ClampedArray];
+try { v42.concat(Uint8ClampedArray); } catch (e) {}
+const v44 = [1,17,v42];
+v44[1];
+new Uint8ClampedArray(v44);

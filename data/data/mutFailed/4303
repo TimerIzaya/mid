@@ -1,0 +1,44 @@
+const v5 = new Int16Array(129);
+const v8 = new Uint16Array(3875);
+const v11 = new Uint8ClampedArray(128);
+function f12() {
+    const o15 = {
+        get b() {
+            super[this] = this;
+            return f12;
+        },
+        ..."b",
+    };
+    return o15;
+}
+const v16 = f12();
+let v17;
+try { v17 = v16.assign(); } catch (e) {}
+try {
+    v16.__proto__ = v8;
+} catch(e18) {
+}
+function F19(a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -795409365;
+    } catch(e24) {
+    }
+    try {
+        this.f = v8;
+    } catch(e25) {
+    }
+    try {
+        this.c = a23;
+    } catch(e26) {
+    }
+}
+new F19(128, v11, v5);
+new F19(129, F19, 3875);
+new F19(3875, 129, Uint8ClampedArray);
+let v30 = 0;
+while (v30 < 7) {
+    Object.defineProperty(v8, "buffer", { writable: true, configurable: true, get: f12, set: f12 });
+    try { v11.subarray(v17, 3875); } catch (e) {}
+    v30++;
+}

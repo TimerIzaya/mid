@@ -1,0 +1,51 @@
+let v2 = 2147483649;
+class C3 {
+    static #a = 2.0;
+    static get f() {
+        let v4 = this;
+        v4 >>>= v4;
+        ({"d":v2,} = v4);
+        return 2.0;
+    }
+    get f() {
+        super[11];
+        try {
+            v2.#a /= 11;
+        } catch(e7) {
+        }
+        return this;
+    }
+}
+new C3();
+new C3();
+const v10 = new v2();
+[-78320.0568950373,2.0,0.9136805945936756];
+[0.9136805945936756,0.9136805945936756,-78320.0568950373];
+[0.9136805945936756,v2,11,v10];
+const o17 = {
+};
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f27(a28, a29) {
+        const o32 = {
+            968: a29,
+            "d": a28,
+            [268435439n]: 2105444095n,
+            __proto__: o17,
+            "g": a22,
+            ...a29,
+            "b": -4294967296n,
+            "f": this,
+            valueOf(a31) {
+                return a31;
+            },
+        };
+        return a29;
+    }
+    for (let v33 = 0; v33 < 100; v33++) {
+        f27(-4294967296n, v33);
+    }
+}
+const v35 = new F18(F18, F18, o17, F18);
+new F18(v35, o17, F18, o17);
+new F18();

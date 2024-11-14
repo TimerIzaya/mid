@@ -1,0 +1,58 @@
+function F2() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -4;
+    } catch(e5) {
+    }
+    try {
+        this.b = -4;
+    } catch(e6) {
+    }
+}
+const v7 = new F2();
+const v8 = new F2();
+const v9 = new F2();
+const v13 = new Int8Array(582);
+const v16 = new BigInt64Array(2001);
+const v19 = [v7,65535,[F2,Uint8Array,582],v16,v13];
+const v20 = [v19,v8,Int8Array];
+const v21 = `
+    v9.d;
+    v20.__proto__;
+`;
+[1000000000.0,0.22252340258108516,-632.477207682899,0.24379161831784013,-0.0,-2.2250738585072014e-308];
+[-246.2647836733969,-5.0,6.504662668325799e+307,-0.0,-3.9351611502962687];
+[-9.936149602024757,3.7148402893986177,NaN,217.69484220702975,0.406539621284823,-1000000000000.0];
+gc();
+v20[4] = WeakMap;
+const v37 = new Int8Array();
+v37.buffer.slice(2147483648);
+for (let [i60, i61] = (() => {
+        const t0 = 0;
+        t0[[-10,54545,2005744164,-1038396756,-1914419652,268435456,-13,129,28425,1000]] = 0;
+        function F49(a51, a52, a53, a54) {
+            if (!new.target) { throw 'must be called with new'; }
+            a51.strike();
+            const v56 = this.constructor;
+            try { new v56(a54, v19, a52, a54); } catch (e) {}
+            a52[2];
+        }
+        new F49("ceil", "pop", "ceil", "isConcatSpreadable");
+        return [0, 10];
+    })();
+    (() => {
+        const v62 = i60 < i61;
+        class C63 extends Date {
+            set d(a65) {
+            }
+            e;
+            constructor(a67, a68, a69, a70) {
+            }
+        }
+        let v71;
+        try { v71 = new C63(); } catch (e) {}
+        v71.constructor;
+        return v62;
+    })();
+    i60++) {
+}

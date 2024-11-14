@@ -1,0 +1,59 @@
+const v1 = new WeakSet();
+function f3(a4, a5) {
+    a5.valueOf = f3;
+    const o15 = {
+        set d(a7) {
+            try {
+                super.values(v1, v1, a5, a7, this);
+            } catch(e9) {
+            }
+        },
+        [WeakSet]: a4,
+        "e": true,
+        ...v1,
+        set g(a11) {
+            [true,[this,this,true],a5,a11];
+            [true];
+        },
+        "a": a4,
+    };
+    return o15;
+}
+function f16(a17) {
+    const v18 = new f3(a17, true);
+    a17[WeakSet] = v18;
+    return v1;
+}
+f3.toString = f16;
+const v19 = f3(WeakSet, WeakSet);
+const v20 = f3(f3, f3);
+f3(v19, f3);
+let v25 = [536870888];
+[55910,-953330619,-54508,-24337,2,268435456,-2143864888,10,1073741824];
+const v27 = [-48563,-536870912,-1387593347];
+class C28 {
+    static {
+        f3 |= f3;
+        v25 = this;
+    }
+    static g = v19;
+    static a;
+    static c = v1;
+    [v19];
+    d;
+    static #p(a31, a32, a33, a34) {
+        v27 * v25;
+        const o38 = {
+            "maxByteLength": 12,
+        };
+        const v40 = new SharedArrayBuffer(12, o38);
+        new Uint8ClampedArray(v40);
+        return v27;
+    }
+}
+new C28();
+new C28();
+new C28();
+Object.defineProperty(Uint8ClampedArray, 0, { writable: true, configurable: true, enumerable: true, value: v20 });
+Uint8ClampedArray[1] = 14;
+new Float32Array(Uint8ClampedArray);

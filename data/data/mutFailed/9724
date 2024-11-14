@@ -1,0 +1,86 @@
+function f0() {
+    const o9 = {
+        m(a5, a6) {
+            const t3 = "7";
+            t3[7] = "7";
+            try {
+                super.m(a6, f0);
+            } catch(e8) {
+            }
+            return 13;
+        },
+        "c": "7",
+        "f": 13,
+        1844: "7",
+        "g": "7",
+        "h": "7",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+const v14 = new Map();
+function f15(a16, a17) {
+    const o31 = {
+        [a16]: v11,
+        "d": a16,
+        "b": a17,
+        "h": v12,
+        n(a19, a20, a21) {
+            return super[a20];
+        },
+        [v14](a24, a25) {
+            a16 << v11;
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            f0();
+            return a25;
+        },
+    };
+    return o31;
+}
+const v32 = f15(v11, f0);
+const v33 = f15(v11, Map);
+const v34 = f15(v11, v11);
+new Map();
+function F37(a39, a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a40;
+    } catch(e43) {
+    }
+    try {
+        this.f = a39;
+    } catch(e44) {
+    }
+}
+new F37(v34, v34, v12, v12);
+new F37(v33, v34, Map, v12);
+new F37(v34, v32, v10, v10);
+let v51 = [-984503.961837067,-3.0,170.79545126331868];
+[v51,v51,-984503.961837067,-3.0];
+const v53 = [Map];
+class C57 {
+    n(a59, a60) {
+        for (; v51--;) {
+            -3.0 | -9007199254740992;
+            try {
+                v53.e = 170.79545126331868;
+            } catch(e64) {
+            }
+        }
+        return 10;
+    }
+}
+new C57();
+const v66 = new C57();
+new v66();
+const o71 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o71);

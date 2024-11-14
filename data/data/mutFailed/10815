@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 1024;
+    } catch(e3) {
+    }
+    try {
+        this.a = 1024;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+[F0,v5,v5,v7,v7];
+const v9 = [F0];
+const v10 = [v5,v5,v6,v9];
+function f11() {
+    return v9;
+}
+function f12() {
+    return v10;
+}
+function f18(a19, a20, a21, a22) {
+    const v23 = a19.length;
+    a19.BYTES_PER_ELEMENT = v23;
+    let v24 = 3 | a20;
+    v24++;
+    (a19 / a19) % -24520n;
+    a20 < -24520n;
+    const o32 = {
+        n(a30, a31) {
+            return v23;
+        },
+    };
+    return a21;
+}
+for (let v33 = 0; v33 < 625; v33++) {
+    f18(Uint8Array);
+}

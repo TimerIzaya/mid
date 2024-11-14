@@ -1,0 +1,31 @@
+function f0() {
+}
+function f2() {
+    return Array;
+}
+function f3(a4) {
+    ({"g":a4,"prototype":a4,} = Array);
+}
+Object.defineProperty(Array, 0, { writable: true, get: f2, set: f3 });
+const v6 = new Array(129);
+v6.e = v6;
+try { new Set(); } catch (e) {}
+const v9 = new Set();
+[15598,-46734,-4294967296];
+[25666];
+[4294967297,429151358,14347,-1869665667,-4294967297];
+const v15 = new Int16Array(2);
+new Float64Array(v15);
+new Uint8Array(v9);
+208.7210663817168 - 208.7210663817168;
+137 << 137;
+BigUint64Array[1] = f3;
+BigUint64Array.BYTES_PER_ELEMENT = BigUint64Array;
+3647 < 3647;
+try { new Uint8Array(BigUint64Array, Uint8Array, 77); } catch (e) {}
+try { Uint8ClampedArray.from(Array); } catch (e) {}
+async function f40(a41, a42, a43) {
+    for (let v44 = 0; v44 < 10; v44++) {
+    }
+    return BigUint64Array;
+}

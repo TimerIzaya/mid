@@ -1,0 +1,79 @@
+function f3() {
+    return 6n;
+}
+class C4 extends f3 {
+    constructor(a6, a7) {
+        super();
+        const v9 = new WeakMap();
+        try {
+            v9.d = v9;
+        } catch(e10) {
+        }
+    }
+    static valueOf(a12) {
+        const v13 = this[5];
+        try {
+            v13.g = 1845024896n;
+        } catch(e14) {
+        }
+        return 1845024896n;
+    }
+    g = 1845024896n;
+    static [f3] = C4;
+    a = -65536n;
+    static #h = 6n;
+    static 111;
+}
+new C4(-65536n, -65536n);
+const v16 = new C4(-65536n, -65536n);
+const v17 = new C4(6n, 6n);
+const v18 = [-Infinity,0.9613200229619907,688.8704733022771,177.60614527156304];
+[-4.923784817239394,-1000000000.0,-2.220446049250313e-16,0.16849918965934663,1.2297636348033715e+308,1000000.0,8.148675276220427,-4.0,1.1303291616061805e+308,-2.220446049250313e-16];
+C4 = v17;
+try { v17.o(); } catch (e) {}
+[1000000000.0,1.3679679680520131e+308,-4.0,424.18198992238104,310.3900348875252,-Infinity,0.0,0.7622198128945562,-3.0];
+const v25 = [-441520.67803396354,845.9380568216138,-1.313143885189306e+308,1.7976931348623157e+308,1.2038997726869893e+308,1000.0];
+function f26() {
+    4294967296 - -65536n;
+    v17[v17] |= 4294967296;
+    return 6n;
+}
+v25.toString = f26;
+[1000000000.0,-7.830768822550988,4.952619659381996,1e-15,-2.0];
+const v29 = [0.8426737789906394,1.0,-3.0,92.06775006204043,-857.1096891071917,-1000000000000.0,-4.837980054865203];
+function f30() {
+    return f3;
+}
+Object.defineProperty(v29, "toString", { enumerable: true, get: f30 });
+const v31 = [v29,f3,v25,v29];
+const v32 = [C4];
+[v25,v18,-65536n];
+const v35 = new Date(Date);
+class C36 {
+    constructor(a38, a39) {
+        super.g += 7;
+        super.e = v25;
+        const o40 = {
+            "construct": Date,
+            "getPrototypeOf": f3,
+            "preventExtensions": Date,
+        };
+        new Proxy(v32, o40);
+    }
+    static #e;
+    f = v35;
+    g = v25;
+    static 6 = v16;
+    static e = v17;
+    static [v31];
+    /*
+    constructor(a44, a45) {
+        try {
+            a45.#e = Date;
+        } catch(e46) {
+        }
+    }
+    */
+}
+new C36(v35, Date);
+new C36(v35, v35);

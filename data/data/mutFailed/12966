@@ -1,0 +1,35 @@
+new Float32Array(44);
+let v3 = 2224;
+const v5 = new BigUint64Array(v3);
+new Int8Array(7);
+class C9 extends Int8Array {
+    static {
+        const v11 = new Int8Array(this, 44);
+        Object.defineProperty(v11, 65535, { enumerable: true, value: v5 });
+    }
+    static 2812;
+    static #c = v5;
+    constructor(a13, a14, a15, a16) {
+        super(a13, a13, a16);
+        v3 &&= a14;
+    }
+    static g = BigUint64Array;
+}
+for (let v17 = 0; v17 < 10; v17++) {
+}
+const v21 = new C9(v3, 44, 7, 7);
+const v22 = new C9(44, 44, 44, 7);
+new C9(v3, v3, 44, v3);
+for (let v24 = 0; v24 < 5; v24++) {
+    for (let i27 = 0, i28 = 10; i27 < i28; i27++) {
+    }
+    let v35 = 0;
+    do {
+        try {
+            v22.__proto__ = v21;
+        } catch(e36) {
+        }
+        v3[-2] = v21;
+        v35++;
+    } while (v35 < 7)
+}

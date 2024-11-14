@@ -1,0 +1,45 @@
+function f0() {
+}
+function f1() {
+    const o9 = {
+        __proto__: f0,
+        "g": f0,
+        268435441: f0,
+        get h() {
+            return this;
+        },
+        10: f0,
+        set b(a4) {
+        },
+        ...f0,
+        get d() {
+            Object.defineProperty(this, this, { value: this });
+            f0();
+            try {
+                f1();
+            } catch(e8) {
+            }
+            super.b = this;
+            return f1;
+        },
+        "b": f0,
+    };
+    return o9;
+}
+const v10 = f1();
+f1();
+f1();
+let v14 = 64;
+v14--;
+const v19 = Uint32Array?.constructor;
+let v20;
+try { v20 = new v19(1000); } catch (e) {}
+new Uint32Array(v14);
+12 * 12;
+const v25 = new BigUint64Array(-51343);
+try { v25.join(Uint32Array); } catch (e) {}
+new v20(2);
+try {
+    v10.ownKeys();
+} catch(e32) {
+}

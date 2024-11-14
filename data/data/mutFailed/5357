@@ -1,0 +1,42 @@
+function f0() {
+}
+function f4(a5) {
+    const o15 = {
+        get b() {
+            for (const v7 in this) {
+                const o10 = {
+                    "maxByteLength": 8,
+                };
+                const v12 = new v7(8, o10);
+                new Uint32Array(v12);
+            }
+            return this;
+        },
+    };
+    return o15;
+}
+f4(-2147483647n);
+const t17 = -2147483647n;
+t17(-2147483647n);
+f4(33766n);
+class C19 {
+    87 = f4;
+    static set b(a21) {
+        f4(33766n);
+        %PrepareFunctionForOptimization(f4);
+        f4(33766n);
+        f4(33766n);
+        %OptimizeMaglevOnNextCall(f4);
+        f4(33766n);
+    }
+    static [33766n];
+}
+new f0();
+new C19();
+new f0();
+const v31 = new BigUint64Array(208);
+function f32(a33, a34) {
+    v31.filter(a33);
+    return f32;
+}
+new BigUint64Array(f32);

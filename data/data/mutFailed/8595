@@ -1,0 +1,59 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    class C3 {
+        c;
+        static 65535 = undefined;
+    }
+    new C3();
+    new C3();
+    new F1();
+    try {
+        this.b = undefined;
+    } catch(e7) {
+    }
+}
+const v8 = new F1();
+const v9 = new F1();
+const v10 = new F1();
+function f12(a13, a14, a15) {
+    const o18 = {
+        get d() {
+            this.a;
+            v8[a14] = undefined;
+            return this;
+        },
+        "b": a15,
+        "g": a13,
+        "f": true,
+        "h": v9,
+        9: undefined,
+    };
+    return o18;
+}
+const v19 = f12(undefined, f12, v9);
+new Uint8Array(14);
+%VerifyType(14);
+let v23 = 0;
+v23++;
+v23 < 5;
+f12(F1, f12(v8, f12, v19), v10);
+const v30 = new Int8Array();
+try { v30.find(); } catch (e) {}
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v23;
+    } catch(e38) {
+    }
+    try {
+        this.b = a37;
+    } catch(e39) {
+    }
+}
+new F1();
+let v43;
+try { v43 = (-9007199254740992).log2(-9007199254740992); } catch (e) {}
+new Float64Array(6);
+new Int16Array(v43);
+const v49 = /[xyz]/vis;
+v49.test(v49);

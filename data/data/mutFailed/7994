@@ -1,0 +1,62 @@
+function f0() {
+    const o10 = {
+        ..."0",
+        __proto__: "0",
+        13: -1393227392,
+        "f": -1393227392,
+        "a": "0",
+        "g": -1393227392,
+        ["0"](a5, a6) {
+            super[delete a6?.e] = "0";
+            a5 << "0";
+            super.b;
+            return 536870888;
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+class C14 extends f0 {
+    #valueOf(a16) {
+        try {
+            a16.fuck(f0, a16, [v11,f0,this,a16,v13]);
+        } catch(e19) {
+        }
+        return C14;
+    }
+    #h = v13;
+    static 1073741824 = v13;
+    static #e = v12;
+    #f;
+}
+new C14();
+new v13();
+new C14();
+function f23() {
+    return v13;
+}
+[3.0,-1000000000000.0,5.930986969956578,0.24851585684514033,-2.0,-1.0,0.32789653984977174,400981.10625706357,544552.2679493374];
+[Infinity,1000000.0];
+[2.0,346978.6809403058,1e-15,-1000000.0,-1000000.0,-521.2398209551288,-2.2250738585072014e-308];
+function f28(a29, a30, a31, a32) {
+    const v35 = new BigInt64Array(4046);
+    let v36 = undefined;
+    const v37 = v36++;
+    const v38 = v37 + v37;
+    const v39 = v37 >> v37;
+    const v40 = v39 >>> v39;
+    function F41(a43, a44, a45) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    new F41(4096, 4096, a31);
+    const v47 = new F41(v38, 4096, v40);
+    let o48 = {
+    };
+    [,...o48] = v35;
+    return v47;
+}
+for (let v49 = 0; v49 < 5; v49++) {
+    f28(v49, v49, v49, f28);
+}

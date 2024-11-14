@@ -1,0 +1,61 @@
+const v5 = -(-4096);
+function f7() {
+    return -4096;
+}
+f7.d = -4096;
+class C8 extends f7 {
+    valueOf(a10, a11, a12) {
+        const v13 = delete this?.f;
+        try {
+            v13.valueOf = f7;
+        } catch(e14) {
+        }
+        return -2064882802;
+    }
+    [-2064882802];
+    e;
+}
+let v15;
+try { v15 = C8.bind(-208599814); } catch (e) {}
+const v16 = new C8();
+const v17 = new v16();
+new C8();
+function f19() {
+    const o35 = {
+        [4](a22, a23) {
+        },
+        [-4096](a25, a26) {
+        },
+        "b": C8,
+        "type": "8",
+        get d() {
+            return "8";
+        },
+        n(a29, a30) {
+            return a29;
+        },
+        set c(a32) {
+        },
+        "maxByteLength": -2064882802,
+        [-4096]: v17,
+        4294967295: f19,
+        [-2064882802](a34) {
+        },
+    };
+    const v37 = new Uint16Array(v15);
+    new Int32Array(v37);
+    const v40 = [727957804,7,49072,-63418,-4,-52120,127,1273312700,-128];
+    function f41() {
+        return v40;
+    }
+    class C42 extends f41 {
+    }
+    new C42();
+    return o35;
+}
+%PrepareFunctionForOptimization(f19);
+f19();
+v5[8];
+%OptimizeFunctionOnNextCall(f19);
+const v46 = f19();
+v46[8] = v46;

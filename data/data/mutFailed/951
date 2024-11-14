@@ -1,0 +1,93 @@
+const v0 = [48812,2];
+function f1() {
+    try {
+        v0.d = v0;
+    } catch(e2) {
+    }
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+const v5 = [-52281,198878415,4,9,64959];
+const v6 = [-1721275672,4096,-9007199254740991,-1073741824,-65536,-128,-10,30712];
+class C10 {
+    e;
+    #m(a12, a13) {
+        Math.atan(-1000000000.0);
+        -1000000000.0 / 438825070n;
+        438825070n + 438825070n;
+        438825070n * -1000000000.0;
+        return 51398n;
+    }
+    [v6] = v5;
+}
+const v21 = new C10();
+const v22 = v21?.constructor;
+try { new v22(); } catch (e) {}
+const v24 = new C10();
+const v25 = new C10();
+v25.g = 51398n;
+v25.g = v25;
+function f26() {
+    return v25;
+}
+class C27 {
+    #b = 51398n;
+    #n(a29, a30, a31, a32) {
+        let v33 = a;
+        v6[v33] = v33;
+        super[a30] = a29;
+        ++v33;
+        a29[1] = a31;
+        return f26;
+    }
+    [v0] = 51398n;
+    #g = v24;
+    a = 719903369n;
+}
+const v35 = new C27();
+const v36 = v35?.constructor;
+try { new v36(); } catch (e) {}
+new C27();
+const v39 = new C27();
+v39.c = v24;
+v39.c = v39;
+function F40() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v42 = new F40();
+const v43 = new F40();
+v43.constructor = f1;
+try { v43.constructor(); } catch (e) {}
+const v45 = new F40();
+try { v45.toString(); } catch (e) {}
+function f47(a48, a49) {
+    const o54 = {
+        "b": v45,
+        n(a51, a52) {
+            a48(v42, a49);
+            return F40;
+        },
+        "a": v43,
+    };
+    o54.h = C10;
+    return o54;
+}
+async function f58(a59, a60) {
+    a59.name;
+    %PrepareFunctionForOptimization(f47);
+    const v63 = f47(a60, f47());
+    v63.h = v63;
+    %OptimizeFunctionOnNextCall(f47);
+    f47();
+    return f58;
+}
+function f65() {
+    Object.defineProperty(v0, "length", { writable: true, get: Symbol, set: Symbol });
+    try {
+        v22.e = v0;
+    } catch(e66) {
+    }
+    return v42;
+}
+f58.then = f65;
+f58(F40, 4294967296);

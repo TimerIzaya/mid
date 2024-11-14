@@ -1,0 +1,42 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = f0;
+    } catch(e3) {
+    }
+    try {
+        this.d = f0;
+    } catch(e4) {
+    }
+    try {
+        this.h = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new v6();
+const o8 = {
+    "b": f0,
+    "c": v6,
+};
+let v9;
+try { v9 = v7.o(F1, o8, o8); } catch (e) {}
+const v10 = new F1();
+const v11 = v10?.h;
+try { new v11(); } catch (e) {}
+127 - 127;
+const v16 = new BigInt64Array(127);
+9 - 9;
+new Int16Array(9);
+const v23 = new Uint8ClampedArray(F1);
+v23[0] = v23;
+const v25 = new ArrayBuffer();
+try { v25.slice(v10, 9); } catch (e) {}
+v11.transfer();
+f0();
+Object.defineProperty(v6, v16, { configurable: true, set: f0 });
+o8 instanceof ArrayBuffer;
+%VerifyType(v9);
+~v25;

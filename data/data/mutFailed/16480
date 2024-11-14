@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        function f3(a4) {
+            const o8 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o8);
+            return o8;
+        }
+        return f3;
+    }
+    function f10(a11) {
+        Object.hasOwn(16);
+        Object(16).toExponential(16);
+    }
+    Object.defineProperty(this, Symbol.toPrimitive, { writable: true, configurable: true, get: f2, set: f10 });
+    try {
+        this.b = -15231;
+    } catch(e20) {
+    }
+}
+new F0();
+const v22 = new F0();
+const v23 = new F0();
+[-465539.860763951,487057.74682811345,3.0,1e-15,3.0,-1.7976931348623157e+308,1000.0];
+[-Infinity];
+[-2.220446049250313e-16,1000.0,0.07135001449820166,-2.0,-6.907011045419001e+307,-1000000.0,2.0,-1.3826897327869165,1.0,-2.038169550559066];
+let v28 = "log10";
+class C30 extends F0 {
+    b = v28;
+    c = "number";
+    #a;
+    [v23];
+    static #valueOf(a32, a33, a34) {
+        if (v22 <= this) {
+            v28 = "o";
+        } else {
+            const v38 = [this,F0,this,[F0,a32]];
+            [null,this,v38,v38];
+        }
+        return a34;
+    }
+}
+new C30();
+new C30();
+new C30();
+for (let v43 = 0; v43 < 5; v43++) {
+    function f44() {
+        function f45(a46, a47, a48) {
+            return a48;
+        }
+        const o51 = {
+            "type": "function",
+        };
+        const v52 = new Worker(f45, o51);
+        v52.terminateAndWait();
+        v52.terminate();
+        return o51;
+    }
+    f44();
+    %OptimizeFunctionOnNextCall(f44);
+}

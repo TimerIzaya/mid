@@ -1,0 +1,69 @@
+class C3 {
+    static ["-44986"];
+    233 = "e";
+    constructor(a5) {
+        const o6 = {
+        };
+        try {
+            o6.g = a5;
+        } catch(e7) {
+        }
+        try {
+            const o8 = {
+            };
+            o8.g = a5;
+            o8.b = this;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.g = a5;
+            o10.b = this;
+            o10.f = "-44986";
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.g = a5;
+            o12.b = this;
+            o12.c = "e";
+        } catch(e13) {
+        }
+        const v14 = this.constructor;
+        class C15 extends v14 {
+            #a;
+            172;
+            #c;
+            static #b = v14;
+            4096 = this;
+            [C15];
+            static ["undefined"] = "-44986";
+        }
+        new C15();
+    }
+    g = "undefined";
+    ["-44986"] = "e";
+    #f;
+}
+const v17 = new C3("e");
+const v18 = new C3("undefined");
+const v19 = new C3("e");
+try {
+    %VerifyType(v18);
+} catch(e20) {
+    e20[v17] &&= e20;
+} finally {
+    try {
+    const t0 = "undefined";
+    t0(v18, "e", "undefined");
+    } catch (e) {}
+}
+[v19,v19];
+[C3,[v18,"undefined"]];
+new Uint8Array(126);
+new Float64Array(96);
+new Uint8ClampedArray(256);
+new Uint16Array(257, 58091);
+([1000000000000.0,6.579220753226213e+307,2.0,-2.220446049250313e-16,NaN,-1000000.0])["findIndex"](gc);

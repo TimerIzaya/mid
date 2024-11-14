@@ -1,0 +1,87 @@
+const v3 = ["function","1073741824","bigint"];
+const v4 = ["1073741824",v3,"1073741824",v3];
+function f5(a6, a7) {
+    try {
+        v4.__proto__ = "bigint";
+    } catch(e8) {
+    }
+    return "function";
+}
+Object.defineProperty(v4, Symbol.toPrimitive, { enumerable: true, value: f5 });
+const v11 = ["function"];
+function f12(a13) {
+    a13[a13] = a13;
+    const v15 = new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray);
+    return v15;
+}
+v11.toString = f12;
+function f16(a17, a18, a19) {
+    a17[Symbol.toPrimitive] = Symbol;
+    function f22() {
+        function f23() {
+            let v24 = -9223372036854775808n;
+            v24 %= 45725n;
+            return a18;
+        }
+        return f23;
+    }
+    function f26(a27) {
+        ("b").normalize("NFD");
+    }
+    Object.defineProperty(a18, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f22, set: f26 });
+    const o50 = {
+        [a18](a34, a35, a36, a37) {
+            a17?.[this];
+            return 268435440n;
+        },
+        n(a43, a44, a45) {
+            try { new a17(a43, a17, this, a44); } catch (e) {}
+            super[a44];
+            v4[Symbol.toStringTag] = this;
+            return this;
+        },
+    };
+    return o50;
+}
+const v51 = f16(v4, v3, v3);
+f16(v51, v4, v4);
+const v53 = f16("function", v11, v3);
+class C54 extends f16 {
+    constructor(a56, a57, a58, a59) {
+        super(a59, v3, a57);
+        a57 = f16;
+        const v60 = super.h;
+        try {
+            const t54 = "1073741824";
+            t54.length = v60;
+        } catch(e61) {
+        }
+    }
+    get g() {
+        this[4294967295] = "function";
+        function* f63(a64, a65, a66) {
+            new Set();
+            yield* v11;
+            return v3;
+        }
+        f63("1073741824", this, this);
+        return f63;
+    }
+}
+const v70 = new C54(v53, v53, "function", "bigint");
+const v71 = new C54(v70, "1073741824", "bigint", v70);
+const v72 = new C54(C54, "1073741824", "function", "1073741824");
+function F73(a75, a76, a77, a78) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = f5;
+    try {
+        this.h = a78;
+    } catch(e79) {
+    }
+}
+new F73("function", v53, "function", v71);
+new F73("1073741824", v72, "bigint", v72);
+new F73("bigint", v51, "1073741824", C54);
+Reflect.undefined = "bigint";
+const v85 = ([Reflect,Reflect])[1];
+v85.set(v85);

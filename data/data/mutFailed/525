@@ -1,0 +1,52 @@
+function f0() {
+    try { ("d").blink(); } catch (e) {}
+    const o14 = {
+        "b": "d",
+        ["d"](a6, a7) {
+            a6?.[1000000.0];
+            return 1;
+        },
+        [1](a10) {
+            return a10[Symbol.asyncIterator];
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+f0();
+const v17 = f0();
+v17[1] = v17;
+const v19 = v17[1]?.constructor;
+try { new v19(v17); } catch (e) {}
+class C21 {
+    constructor(a23, a24) {
+        const v26 = v17 + a23?.f;
+        v26[17] = v26;
+        const v28 = typeof v15;
+        v28[5];
+        try { ("function").italics(); } catch (e) {}
+        v28 === "function";
+    }
+    c = v17;
+    8;
+}
+C21.prototype = C21;
+const v33 = new C21(v15, C21);
+const v34 = new C21(v33, v17);
+v34[8];
+const v36 = new C21(v15, C21);
+const v37 = v36?.__lookupSetter__;
+try { new v37(v33); } catch (e) {}
+/6ca*b/dm;
+const v40 = /WG\p{Nd}?/ums;
+const t41 = /Oabc+/uy;
+t41.global = v40;
+let v43;
+try { v43 = Uint8ClampedArray.from(v17); } catch (e) {}
+try { v43.entries(); } catch (e) {}
+const v46 = new Int32Array();
+function f47() {
+    return Int32Array;
+}
+f47.caller = v46;
+Object.defineProperty(v46, Uint8ClampedArray, { get: f47, set: f47 });

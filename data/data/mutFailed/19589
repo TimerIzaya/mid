@@ -1,0 +1,57 @@
+class C3 {
+    static #b = -1000000000.0;
+    static #h = 13;
+    static set a(a5) {
+        let v6;
+        try { v6 = a5(this, a5, a5); } catch (e) {}
+        v6?.[3];
+        super[this];
+    }
+    static get f() {
+        super[1073741825] = 1073741825;
+        return this != this ? this : this;
+    }
+    2147483649 = 13;
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+function f15(a16, a17) {
+    a16 &= v12;
+    class C18 {
+    }
+    return C3;
+}
+v14.toString = f15;
+class C22 {
+    static [v14] = -1000000000.0;
+    static get a() {
+        new C3();
+        return v14;
+    }
+    [v14] = 13;
+    [9007199254740992] = 13;
+    static 65536 = -1000000000.0;
+    e = C3;
+    257;
+    static [-14185] = v13;
+}
+new C22();
+new C22();
+new C22();
+let v31 = 9;
+v31++;
+function f33() {
+    for (let v34 = 0; v34 < 5; v34++) {
+        function F35(a37, a38) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v39 = new F35();
+        try { v39.constructor(v31); } catch (e) {}
+    }
+    return f33;
+}
+%PrepareFunctionForOptimization(f33);
+f33();
+%OptimizeFunctionOnNextCall(f33);
+f33();

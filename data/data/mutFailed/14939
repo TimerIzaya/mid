@@ -1,0 +1,62 @@
+function f0() {
+    const o9 = {
+        __proto__: "f",
+        "c": -3,
+        ["f"]: -3,
+        [-263691.2441097512](a5) {
+            const v6 = ("f")[268435456];
+            let v7;
+            try { v7 = new v6(this, -3, a5); } catch (e) {}
+            try { v7(v7, -263691.2441097512); } catch (e) {}
+            return a5;
+        },
+        ..."f",
+        "e": -263691.2441097512,
+        ...f0,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = v10();
+function f13() {
+    return v10;
+}
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v12;
+    } catch(e18) {
+    }
+    try {
+        this.b = f13;
+    } catch(e19) {
+    }
+    try {
+        this.g = v12;
+    } catch(e20) {
+    }
+}
+new F14(v10, v12);
+new F14(F14, v12);
+new F14(v11, f13);
+new Uint8Array(1000);
+new BigInt64Array(14);
+new Uint16Array(1574);
+const v34 = new Uint32Array();
+const v36 = new Map();
+function f37(a38, a39) {
+    a38.trim();
+    let v41;
+    try { v41 = a38.valueOf(a39, v36, a39); } catch (e) {}
+    v41 == v41;
+    v34.constructor;
+    class C44 extends F14 {
+    }
+    return v41;
+}
+v36[Symbol.toPrimitive] = f37;
+for (let v47 = 0; v47 < 395; v47++) {
+    const o49 = {
+    };
+}

@@ -1,0 +1,58 @@
+const v0 = [-12,255,10,1744259535,-2147483648,268435441,-355596741,2,8];
+let v1 = [-5,9007199254740991,512,1073741824,1715336060,4,15,6,711777086,-3];
+const v2 = [7,61300,-1024];
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a5;
+    } catch(e6) {
+    }
+    try {
+        this.c = a5;
+    } catch(e7) {
+    }
+    try {
+        this.a = v0;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(v1);
+const v10 = new F3(v0);
+const v11 = new F3(v2);
+class C15 {
+    #a = -9007199254740991;
+    static #b = v0;
+    static #valueOf(a17, a18, a19, a20) {
+        v1 &&= a20;
+        try { v11.test(a20, a19, a18, 1380776901, a20); } catch (e) {}
+        const o22 = {
+        };
+        new Proxy(v10, o22);
+        return F3;
+    }
+    #f = F3;
+}
+new v9();
+const v26 = new C15(v1);
+new C15(v26, F3);
+let v29 = new Int32Array(Int32Array, v1, v11, 1380776901);
+function f30(a31, a32) {
+    Math.acosh(65535);
+    return v29;
+}
+Object.defineProperty(v29, "valueOf", { writable: true, enumerable: true, value: f30 });
+new gc(v29, v29, Int32Array, v0);
+function f38(a39, a40, a41, a42) {
+    const v43 = v29++;
+    const o47 = {
+        "b": v43,
+        ...v9,
+        is(a45, a46) {
+            return v29;
+        },
+    };
+    return a41;
+}
+for (let v48 = 0; v48 < 625; v48++) {
+    f38();
+}

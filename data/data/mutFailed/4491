@@ -1,0 +1,83 @@
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v9 = this.constructor;
+    let v10;
+    try { v10 = new v9(F5, v9, F5, F5); } catch (e) {}
+    const v12 = v10 >>> 38445;
+    38445 >> v10;
+    let v14 = v12 * v12;
+    v14--;
+}
+new F5(F5, F5);
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    new Uint16Array(1073741824);
+    const v25 = new Uint8Array();
+    const v27 = new Uint32Array();
+    function f28(a29, a30, a31, a32) {
+        a29.g = v27;
+        const v33 = a31 % a31;
+        const o39 = {
+            "b": a29,
+            ...v25,
+            n(a35, a36) {
+                const o38 = {
+                    [a30]: Uint8Array,
+                };
+                v27[a29] = v27;
+                return v33;
+            },
+        };
+        const t30 = o39?.b;
+        const v41 = new t30(a31, v33);
+        return v41;
+    }
+    for (let v42 = 0; v42 < 625; v42++) {
+        f28(Uint8Array);
+    }
+    try {
+        this.f = a20;
+    } catch(e44) {
+    }
+    for (let i = 0; i < 10; i++) {
+        const o47 = {
+            "a": 16n,
+            1: 16n,
+            257: undefined,
+        };
+    }
+}
+const v48 = new F18(255, 4096);
+const o52 = {
+    toString(a50) {
+        class C51 {
+            static [this] = a50;
+        }
+        return C51;
+    },
+};
+try { o52.toString(); } catch (e) {}
+new F18(1073741824, 4096);
+new F18(1073741824, 4096, 255);
+Symbol.for(Symbol.toPrimitive.description);
+const v62 = new Uint8ClampedArray(255, 16n);
+class C63 {
+    constructor(a65, a66, a67, a68) {
+        this.#p();
+        function f70() {
+            return f70;
+        }
+        const o72 = {
+            __proto__: f70,
+            m() {
+                return f70;
+            },
+        };
+        const v73 = this.constructor;
+        try { new v73(a67, a68, a65, v73); } catch (e) {}
+        for (let v75 = 0; v75 < 5; v75++) {
+            v62[v75] = a68;
+        }
+    }
+}
+new C63(Uint8ClampedArray, Uint8ClampedArray, Uint8ClampedArray, C63, v48, 4096, 4096);

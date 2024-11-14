@@ -1,0 +1,57 @@
+class C3 {
+    #c;
+    [-0.0];
+    #valueOf(a5, a6) {
+        a6 = this;
+        try {
+            ("MAX_SAFE_INTEGER").#valueOf();
+        } catch(e8) {
+        }
+        a6[3.2149281669993574e+307] = a5;
+        try { new a5("MAX_SAFE_INTEGER", -268435456, -0.0, -268435456); } catch (e) {}
+        const o17 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o17);
+        return a5;
+    }
+}
+new C3();
+const v20 = new C3();
+let v21 = new C3();
+const v23 = -Infinity;
+function f25() {
+    return 2.0;
+}
+function f27() {
+    return -0.0;
+}
+let v29;
+try { v29 = v20.for(BigUint64Array, -0.0, C3, 2.0, v23); } catch (e) {}
+const v33 = [155533.8602852358,2.0];
+function F35() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v37 = this.__lookupGetter__;
+    const v38 = v37.bind();
+    let v39;
+    try { v39 = new v38(v37, this, -0.0, this); } catch (e) {}
+    C3 = this;
+    this[65536] = f27;
+    v39 in this;
+    v39["MAX_SAFE_INTEGER"] = 0;
+    this.b;
+    try {
+        Date.UTC(2.0, v23);
+    } catch(e47) {
+    }
+    for (const v51 of Array(19793)) {
+        v33[658291203] = null;
+    }
+}
+%VerifyType("MAX_SAFE_INTEGER");
+v21 ^= "MAX_SAFE_INTEGER";
+C3[f27 / v29] = 2.0;
+const v54 = new F35();
+const t55 = v54.constructor;
+new t55();

@@ -1,0 +1,39 @@
+function f0() {
+}
+class C10 extends f0 {
+    static #m(a12, a13, a14) {
+        try { a13(); } catch (e) {}
+        const v16 = super[this];
+        try {
+            v16.f = 0;
+        } catch(e17) {
+        }
+        return 0;
+    }
+    set f(a19) {
+        a19 += 46762n;
+        class C20 extends f0 {
+            static f = this;
+            a = -65537n;
+        }
+        new C20();
+        new C20();
+        new C20();
+    }
+}
+const t23 = 1150844203;
+new t23();
+new C10();
+new C10();
+for (let i30 = 0, i31 = 10;
+    (() => {
+        const v32 = i30 < i31;
+        class C33 extends Date {
+        }
+        let v34;
+        try { v34 = new C33(); } catch (e) {}
+        v34.constructor;
+        return v32;
+    })();
+    C10++) {
+}

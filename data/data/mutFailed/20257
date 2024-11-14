@@ -1,0 +1,160 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = this;
+    try {
+        this.e = this;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+Object.defineProperty(v4, 4, { configurable: true, value: v4 });
+const v5 = new F0();
+const v6 = new F0();
+const v7 = v6?.constructor;
+function f8() {
+    function F9() {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.h = 16;
+        } catch(e12) {
+        }
+        try {
+            this.e = 16;
+        } catch(e13) {
+        }
+    }
+    const v14 = new F9();
+    const v15 = new F9();
+    const v16 = new F9();
+    let v18 = 0.6323717873586865;
+    function f19(a20, a21, a22) {
+        const o55 = {
+            "e": v14,
+            "c": a21,
+            "g": a21,
+            [a20]: a21,
+            [a21]: F9,
+            __proto__: a21,
+            set f(a24) {
+                super[a22];
+                const v26 = a22[257];
+                let o27 = {
+                };
+                try {
+                    o27.e = v26;
+                } catch(e28) {
+                }
+                try {
+                    const o29 = {
+                    };
+                    o29.e = v26;
+                    o29.b = v14;
+                } catch(e30) {
+                }
+                try {
+                    const o31 = {
+                    };
+                    o31.e = v26;
+                    o31.b = v14;
+                    o31.d = F9;
+                } catch(e32) {
+                }
+                try {
+                    try {
+                        v15.h = a24;
+                    } catch(e33) {
+                    }
+                    v18 = a24;
+                    const o34 = {
+                    };
+                    function f35(a36, a37) {
+                        function f39(a40) {
+                            Math.cos(this);
+                            Math.atanh(9007199254740992);
+                            const v45 = 9007199254740992 & this;
+                            let v46 = v45 - v45;
+                            ++v46;
+                        }
+                        this.onmessage = f39;
+                        v16[101] -= -250293.25885210384;
+                        o27 = o34;
+                    }
+                    const v50 = [o34,"function"];
+                    try {
+                        a22.__proto__ = v50;
+                    } catch(e51) {
+                    }
+                    super.d = "function";
+                    const o52 = {
+                        "arguments": v50,
+                        "type": "function",
+                    };
+                    new Worker(f35, o52);
+                    o34.e = v26;
+                    o34.b = v14;
+                    o34.a = a20;
+                } catch(e54) {
+                }
+            },
+        };
+        return o55;
+    }
+    return F0;
+}
+v7.toString = f8;
+v4[4] = v5;
+const v60 = 4096 | 4096;
+~4096;
+v60 + v60;
+try { new v7(); } catch (e) {}
+const v65 = [-1073741824,1073741824,-1667265659,-5,1833049193,-268435456,-4294967296];
+const v66 = [4,-4294967296,1847881084,5,-14,4294967295,-4294967295,-2033958321,-6];
+v66[Symbol.toPrimitive] = isFinite;
+const v69 = v66[4];
+const v70 = [39704,65535,-9223372036854775807,1073741824,-4294967296,51027,-4096,9223372036854775807];
+function f71() {
+    return v6;
+}
+const v72 = [v70,v66,v66];
+v72[Symbol.toPrimitive] = isFinite;
+try { v72.shift(); } catch (e) {}
+const v76 = [v72,v72];
+v76.toString = Symbol;
+const v77 = [v70,v70,v72,v65,v76];
+v77[2] = v77;
+function f79(a80, a81) {
+    const o85 = {
+        "c": undefined,
+        "a": v72,
+        get f() {
+            a80 **= undefined;
+            try {
+                super.normalize(this, a81);
+            } catch(e84) {
+            }
+            return a80;
+        },
+        ...v4,
+        "h": a81,
+        [a80]: a80,
+        __proto__: a80,
+        "d": undefined,
+    };
+    return o85;
+}
+Object.defineProperty(f79, "toString", { configurable: true, value: Symbol });
+const v86 = f79(f79, v66);
+try {
+    v66.length = 16;
+} catch(e87) {
+}
+try {
+    v69.__proto__ = v6;
+} catch(e88) {
+}
+v86.d = v86;
+f79(F0, undefined);
+const v90 = f79(v77, v66);
+v90.d = v90;
+const v94 = new Uint8ClampedArray(9);
+new Uint8Array(v94);

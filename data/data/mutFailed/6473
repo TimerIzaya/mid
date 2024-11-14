@@ -1,0 +1,87 @@
+let v0 = -15;
+class C3 {
+    static #p(a5) {
+        super[a5] = this;
+        a5[3086341113] -= v0;
+        this[11497804] = v0;
+        let v6;
+        try { v6 = a5(v0, -1000000.0); } catch (e) {}
+        try {
+            this.valueOf = v6;
+        } catch(e7) {
+        }
+        return a5;
+    }
+    static 10;
+    [-2038870411] = -2038870411;
+    static c = -1000000.0;
+    static h;
+}
+const v8 = new C3();
+const v9 = v8?.__lookupGetter__;
+let v10;
+try { v10 = new v9(v0); } catch (e) {}
+const v11 = new v10();
+const v12 = v11?.__lookupGetter__;
+try { new v12(v0); } catch (e) {}
+const v14 = new C3();
+class C15 extends C3 {
+    static set a(a17) {
+        ({"b":v0,} = this);
+    }
+    static b = v8;
+    #f = v10;
+    n(a19, a20, a21) {
+        try {
+            this.__proto__ = this;
+        } catch(e22) {
+        }
+        v11[Symbol.iterator] = a21;
+        return v14;
+    }
+}
+const v25 = new C15();
+const v26 = v25?.constructor;
+try { new v26(); } catch (e) {}
+const v28 = new C15();
+const v29 = new C15();
+function f30(a31, a32, a33, a34) {
+    const v35 = a34?.constructor;
+    try { new v35(); } catch (e) {}
+    const o48 = {
+        o(a38, a39) {
+            let v37 = this;
+            return v37 = a39;
+        },
+        [C3]: v12,
+        [-1000000.0]: -2038870411,
+        "b": -2038870411,
+        m(a41, a42, a43, a44) {
+            function f45() {
+                return v14;
+            }
+            try {
+                new f45();
+            } catch(e47) {
+            }
+            return a42;
+        },
+    };
+    return o48;
+}
+const v49 = f30(v29, v29, v29, v25);
+try { v49.o(v0, v25); } catch (e) {}
+f30(v25, v28, -2038870411, C3);
+f30(C15, v25, f30, C15);
+function f53() {
+    const v55 = ("D")[0];
+    try { v55.concat(v55); } catch (e) {}
+    const v58 = v12.substring().charCodeAt();
+    v58 ^ v58;
+    return v9;
+}
+%PrepareFunctionForOptimization(f53);
+f53();
+%OptimizeFunctionOnNextCall(f53);
+const v61 = v0();
+try { v61.padEnd(f53); } catch (e) {}

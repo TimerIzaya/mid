@@ -1,0 +1,42 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o11 = {
+        __proto__: a4,
+        m(a6, a7) {
+            const v8 = this[a4];
+            try {
+                super.repeat(Map, v8, a3, this);
+            } catch(e10) {
+            }
+            return a4;
+        },
+        536870887: v1,
+        "b": a3,
+        257: a4,
+        [Map]: a4,
+    };
+    return a3;
+}
+const v12 = f2(Map, Map);
+f2(v12, Map);
+const v14 = f2(v12, v1);
+class C15 extends f2 {
+    n(a17, a18, a19, a20) {
+        const v22 = new this();
+        try { a18.m(v1, WeakSet, a17, v22); } catch (e) {}
+        return a19;
+    }
+    g = Map;
+    e = v1;
+    #m(a25, a26, a27) {
+        super[v14] = Map;
+        %VerifyType(super.b);
+        return a27;
+    }
+}
+new C15();
+new C15();
+new C15();
+new Date();
+new BigInt();
+-9223372036854775808 << -9223372036854775808;

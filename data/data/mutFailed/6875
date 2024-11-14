@@ -1,0 +1,28 @@
+function f3() {
+    return 15n;
+}
+class C5 extends f3 {
+    constructor(a7) {
+        super();
+        super[a7()] = 128n;
+        const t7 = `a`;
+        t7[1000] >>= true;
+    }
+    #m(a11) {
+        return this;
+        this[f3] += f3;
+        const t13 = 2147483648n;
+        const v12 = new t13();
+        const o15 = {
+            "maxByteLength": 3174383256,
+        };
+        const v17 = new SharedArrayBuffer(4096, o15);
+        new Int32Array(v17);
+        return v12;
+    }
+}
+const v20 = new C5(15n);
+new C5(2147483648n);
+new C5(2147483648n);
+const v27 = [9,1024,256,268435440,-1916992432,7,-2147483648,20126,-2,1645963617];
+try { v27.group(v20); } catch (e) {}

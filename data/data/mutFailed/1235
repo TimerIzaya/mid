@@ -1,0 +1,52 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 268435440;
+    } catch(e3) {
+    }
+    try {
+        this.b = 268435440;
+    } catch(e4) {
+    }
+    try {
+        this.c = 268435440;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+let v8 = new v7();
+try { ("7").fixed(); } catch (e) {}
+v6[7];
+const t19 = "join";
+t19[1] = "join";
+const v14 = [v6,F0,v6,"7","join"];
+let v15;
+try { v15 = v14.toReversed(); } catch (e) {}
+const v16 = ["7"];
+let v17;
+try { v17 = v16.push(v16); } catch (e) {}
+const v18 = v17--;
+const v19 = [v6,v8,"join"];
+v8--;
+Object.defineProperty(v16, "join", { writable: true, value: v18 });
+try {
+    v19.__proto__ = v15;
+} catch(e24) {
+}
+112 - 112;
+Uint8ClampedArray.a = v6;
+[-1000000000.0];
+[Infinity,-6.401005942254568e+307,-184.6836747673624,4.549592635875522];
+[0.5840247908070116,3.0,0.21517462917766017,1000000.0,-649364.9382342128,239.60141906396643,-2.220446049250313e-16,-692929.8724060722];
+v6[128];
+const v36 = new Uint8ClampedArray("8");
+let v37 = 46;
+v37++;
+const v40 = new Uint8Array();
+try { v40.find(2n); } catch (e) {}
+const v42 = [Infinity,-1e-15,-5.383093003658099,-232599.5850816276];
+try { v42.filter(v8); } catch (e) {}
+-3.383486186086852e+307 ^ -3.383486186086852e+307;
+try { v36(-85357.59116785484, ...v40, 64, v37, -3.383486186086852e+307, ...v36); } catch (e) {}
+v42.length = 64;

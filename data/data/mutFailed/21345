@@ -1,0 +1,87 @@
+let v0 = WeakMap;
+const v1 = new v0();
+function f2(a3) {
+    a3.toString = f2;
+    const o20 = {
+        [v1]: v0,
+        n(a5, a6) {
+            const v7 = a6 != a3;
+            if (v7) {
+                function F8(a10, a11, a12, a13) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    try {
+                        this.e = a5;
+                    } catch(e14) {
+                    }
+                    try {
+                        this.b = a13;
+                    } catch(e15) {
+                    }
+                    try {
+                        this.f = a11;
+                    } catch(e16) {
+                    }
+                }
+                const v17 = new F8(v7, this, v0, v0);
+                new F8(v17, v17, F8, F8);
+                new F8(this, a6, v1, a3);
+            } else {
+                v0 %= a6;
+                v1[v1] = a3;
+            }
+            return a5;
+        },
+    };
+    return o20;
+}
+const v21 = f2(f2);
+const v22 = f2(v1);
+const v23 = f2(v21);
+class C24 {
+    static {
+        let v25 = this;
+        function f26() {
+            return v1;
+        }
+        v25[Symbol.toPrimitive] = f26;
+        v23 + -1278601453;
+        v21 && v23;
+        ++v25;
+    }
+    static #valueOf(a39, a40) {
+        Object.defineProperty(a39, v22, { enumerable: true, value: a39 });
+        const v42 = a40["n"](a40);
+        const v43 = ("n")[7];
+        try { v43(v43, f2, v43, v22, v0); } catch (e) {}
+        try {
+            a39.valueOf = v43;
+        } catch(e45) {
+        }
+        return v42;
+    }
+}
+const v46 = new C24();
+const v47 = new C24();
+const v48 = new C24();
+function f52(a53, a54) {
+    const o63 = {
+        ...a54,
+        get d() {
+            a54["n"]("n", v47, a54, a53);
+            try {
+                super.isSafeInteger();
+            } catch(e59) {
+            }
+            return v46;
+        },
+        "g": 0n,
+    };
+    return o63;
+}
+f52(0n, v21);
+f52(-734434311n, v48);
+f52(-734434311n, v21);
+const t80 = ("toString").constructor;
+const v69 = new t80();
+v69.toString = f2;
+v69.lastIndexOf();

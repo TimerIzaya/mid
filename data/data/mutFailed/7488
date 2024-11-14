@@ -1,0 +1,52 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        "f": f0,
+        ...f0,
+        10000: f0,
+        "a": f0,
+        valueOf() {
+            Object.defineProperty(this, "a", { writable: true, enumerable: true, set: f1 });
+            this[Symbol.species] = this;
+            return f0;
+        },
+    };
+    return o5;
+}
+f1();
+const v7 = f1();
+f1();
+function f9() {
+    return f1;
+}
+class C10 extends f9 {
+    static #m(a12, a13) {
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        const v16 = f0();
+        %OptimizeFunctionOnNextCall(f0);
+        f0();
+        return v16;
+    }
+    static [f9];
+    static [v7] = f1;
+}
+const v18 = new v7();
+v18.e = v18;
+new C10();
+new C10();
+let v21 = 9;
+v21++;
+const t40 = BigUint64Array.BYTES_PER_ELEMENT;
+const v25 = new t40(v21);
+const v26 = v25?.findLastIndex;
+try { new v26(v25); } catch (e) {}
+new Int8Array(1);
+Uint16Array.g = Uint16Array;
+new Uint16Array(3);
+async function* f34(a35, a36, a37) {
+    return a36;
+}
+f34();

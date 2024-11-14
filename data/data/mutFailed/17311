@@ -1,0 +1,38 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v8 = this.constructor;
+    try { new v8(268435440n, a7); } catch (e) {}
+    this.f = 268435440n;
+}
+const v10 = new F4();
+const v11 = new F4();
+let v12 = 65536;
+v12--;
+function f14(a15) {
+    const o18 = {
+        ...v12,
+        5: v12,
+        valueOf(a17) {
+            return v10;
+        },
+        "g": v12,
+    };
+    return v11;
+}
+%PrepareFunctionForOptimization(f14);
+f14();
+f14();
+%OptimizeFunctionOnNextCall(f14);
+f14(268435440n);
+new Uint8ClampedArray(3456, Uint8ClampedArray);
+new BigUint64Array(255);
+new BigUint64Array(243);
+new BigUint64Array(9);
+new BigUint64Array(257);
+new Float64Array(-155489798);
+new Uint8Array(268435440);
+function F43() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C45 extends F43 {
+}

@@ -1,0 +1,78 @@
+const v1 = new Map();
+function f2() {
+    function f3() {
+        try { Map(v1); } catch (e) {}
+        const v6 = new Float64Array();
+        class C7 {
+            #a;
+            constructor(a9, a10, a11) {
+                const v12 = this.constructor;
+                try { new v12(this, v6, a9); } catch (e) {}
+                try {
+                    a10.#a;
+                } catch(e15) {
+                }
+            }
+        }
+        new C7();
+        return v6;
+    }
+    return f3;
+}
+Object.defineProperty(v1, Symbol.toPrimitive, { enumerable: true, get: f2 });
+function f22(a23, a24) {
+    function f25() {
+        return Symbol;
+    }
+    function f26(a27) {
+        const v29 = /Aabc|defmxyz{1,}?qMa{0,1}?/gvdis.exec();
+        try { v29.shift(); } catch (e) {}
+    }
+    Object.defineProperty(a24, "toString", { enumerable: true, get: f25, set: f26 });
+    const o39 = {
+        ..."prototype",
+        5: v1,
+        ..."padStart",
+        "f": v1,
+        ...a23,
+        [a24](a32, a33) {
+            const o37 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o37);
+            return "minor";
+        },
+    };
+    o39.toString = f2;
+    return o39;
+}
+f22("prototype", v1);
+const v41 = f22("prototype", f22);
+const v42 = f22("search", v41);
+[Map,v41,"prototype","padStart"];
+[f22,f22,"prototype"];
+[v42];
+function f49(a50, a51, a52, a53) {
+    const v56 = new Date(a50);
+    const v58 = new Set();
+    const v59 = v58.add(v56);
+    v59[Symbol.toPrimitive] = f22;
+    let [v62,,...v63] = v58;
+    v62.setUTCHours(v59, Float64Array, v63);
+    const o65 = {
+        __proto__: v58,
+    };
+    function f66() {
+        return f49;
+    }
+    class C67 extends f66 {
+    }
+    return v59;
+}
+for (let v68 = 0; v68 < 25; v68++) {
+    const v69 = [1073741824,1073741823,1376142744,1073741825];
+    for (let v70 = 0; v70 < 5; v70++) {
+        v69.toSorted(f49);
+    }
+}

@@ -1,0 +1,52 @@
+const v4 = new Date();
+class C5 extends Date {
+    static #toString(a7, a8) {
+        for (let v9 = 0; v9 < 32; v9++) {
+            this["p" + v9] = v9;
+        }
+        return this;
+    }
+    #o(a13) {
+        function F14(a16, a17, a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a16;
+            } catch(e20) {
+            }
+            try {
+                this.e = 1;
+            } catch(e21) {
+            }
+        }
+        new F14(a13, 127, 127, -11);
+        const v23 = new F14(1, -11, 1, a13);
+        new F14(a13, 127, -11, -11);
+        return v23;
+    }
+}
+const v25 = new C5();
+new C5();
+const t28 = -11;
+const v27 = new t28();
+[v4,1,1];
+const v29 = [v25,1,Date,-11];
+[Date];
+class C31 extends Date {
+    static [v29] = -11;
+    static #valueOf(a33, a34, a35) {
+        try {
+            Date.length = 7;
+        } catch(e37) {
+        }
+        super[v29];
+        return a33;
+    }
+    static #a;
+    [v27] = C5;
+    d;
+}
+new C31();
+new C31();
+new C31();
+const v43 = new Date();
+v43.getFullYear();

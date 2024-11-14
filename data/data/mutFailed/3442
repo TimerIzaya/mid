@@ -1,0 +1,45 @@
+const v1 = new WeakMap(WeakMap);
+function f5() {
+    return 0.9017302756668679;
+}
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 0.0;
+    } catch(e15) {
+    }
+    try {
+        this.g = a11;
+    } catch(e16) {
+    }
+    try {
+        this.d = f5;
+    } catch(e17) {
+    }
+}
+new F9(WeakMap, 1000.0, 0.0, 0.9017302756668679);
+const v19 = new F9(v1, 1000000.0, -1e-15, 0.0);
+new F9(F9, -1e-15, 1000.0, 0.9017302756668679);
+class C24 {
+    set e(a26) {
+        Math.fround();
+        Math.ceil();
+    }
+    m(a31) {
+    }
+    e;
+}
+const v32 = new C24();
+const v33 = new C24();
+const v34 = new C24(1000.0, v33, C24);
+let v35 = ["number","ignoreCase",v32,"ignoreCase",v34];
+[[v33,"number","R",v19,"ignoreCase"],C24,C24,v35];
+const v41 = ("NN")["9"];
+C24[0] >>= v41;
+let v42;
+try { v42 = v41(v33, v32, "string", C24); } catch (e) {}
+v35 = v42;
+let v43 = 0;
+while (v43 < 7) {
+    v43--;
+}

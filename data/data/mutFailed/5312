@@ -1,0 +1,9 @@
+new Int8Array(2);
+const v8 = new Int8Array(6);
+new Float64Array(2058);
+const v14 = new Uint8Array(64);
+new Int8Array(1073741823);
+const v19 = new Uint16Array(v14);
+const v21 = new v8(3327);
+const v22 = v21.join(v19);
+try { v22.concat(); } catch (e) {}

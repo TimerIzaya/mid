@@ -1,0 +1,46 @@
+class C3 {
+    static valueOf(a5) {
+        let v4 = this;
+        const v6 = ("2147483648").length;
+        v4 &= v4;
+        super[a5];
+        a5[1073741825] **= v6;
+        try {
+            a5.__proto__ = "2147483648";
+        } catch(e8) {
+        }
+        return v6;
+    }
+    [-6.307188492842486] = -6.307188492842486;
+}
+const v9 = new C3();
+function f10(a11, a12) {
+    const t17 = "2147483648";
+    t17["p" + -4294967297] = -4294967297;
+    return v9;
+}
+v9.constructor = f10;
+const v15 = v9?.constructor;
+try { new v15(); } catch (e) {}
+const v17 = new C3();
+Object.defineProperty(v17, "constructor", { writable: true, value: f10 });
+const v18 = v17?.constructor;
+try { new v18(); } catch (e) {}
+const v20 = new C3();
+256 + 256;
+new Float64Array(256);
+new Int8Array(601);
+const v30 = new Uint8Array(601);
+v30[Symbol.toPrimitive] = f10;
+v30[437] = v30;
+-2147483649 >> -2147483649;
+1780359475 !== 1780359475;
+Symbol.name = Symbol;
+const v40 = Symbol.toPrimitive;
+const o44 = {
+    [v40]() {
+        v20.iterator;
+    },
+};
+o44.h = Uint8Array;
+o44.h = o44;

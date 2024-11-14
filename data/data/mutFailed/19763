@@ -1,0 +1,61 @@
+function f0() {
+    const o8 = {
+        [2.2250738585072014e-308]: 0.4561222761076109,
+        ..."14",
+        "h": "14",
+        __proto__: "14",
+        [0.4561222761076109]: 2.2250738585072014e-308,
+        ["14"]: 0.4561222761076109,
+        "a": "14",
+        o(a5, a6) {
+            try {
+                this.__proto__ = a5;
+            } catch(e7) {
+            }
+            return 2.2250738585072014e-308;
+        },
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a15;
+    } catch(e16) {
+    }
+    try {
+        this.f = a14;
+    } catch(e17) {
+    }
+    try {
+        this.h = a15;
+    } catch(e18) {
+    }
+}
+new F12(v9, v11);
+new F12(v10, v9);
+new F12(v11, v11);
+/a(?:b)/uimsy;
+const v23 = /aabc|def/gudimy;
+const v24 = /ksfF/vdiy;
+const v27 = new Int32Array(2948);
+new Float32Array(122);
+new Uint8ClampedArray(1163);
+const v34 = [23795,8,259058917,-256,1,-36806,4096,-9,-1,-18943];
+function f35() {
+    v23[8] = v24;
+    function f38(a39) {
+        const o40 = {
+            ...a39,
+            6: 1073741823,
+        };
+        return 256;
+    }
+    return v27;
+}
+v34[Symbol.toPrimitive] = f35;
+new Date(-2, v34, v34, v34, -2);
+Symbol.for(Symbol.toPrimitive.description);

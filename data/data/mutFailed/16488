@@ -1,0 +1,77 @@
+function f6(a7, a8, a9, a10) {
+    const o14 = {
+        1000: a8,
+        ...a7,
+        "f": a9,
+        get h() {
+            let v11 = this;
+            const v12 = v11++;
+            let v13;
+            try { v13 = new a7(a7, v12, 65537); } catch (e) {}
+            return v13;
+        },
+        __proto__: a7,
+        2721467454: a10,
+    };
+    return o14;
+}
+const v15 = f6(268435440, 42052n, 7n, 7n);
+f6(v15, 7n, 42052n, 2n);
+f6(v15, 42052n, 2n, 2n);
+class C21 {
+    static #p(a23) {
+        function f24(a25) {
+            return a25;
+        }
+        class C26 extends f24 {
+            static [-1] = 4294967296;
+            static [a23];
+            static 268435441;
+        }
+        return a23;
+    }
+    [0.028957958839558873];
+    static 2147483648 = v15;
+    static #g;
+    #a;
+}
+C21[Symbol.toPrimitive] = f6;
+const v29 = new C21();
+const v30 = v29?.constructor;
+try { new v30(); } catch (e) {}
+const v32 = new C21();
+try { v32.propertyIsEnumerable(C21); } catch (e) {}
+new C21();
+/[\11]/gm;
+/(?:a*)*/gudm;
+const v37 = /a(?!bbb|bb)c/vi;
+v37.toString = f6;
+const v38 = v37?.toString;
+try { new v38(); } catch (e) {}
+~117;
+Uint16Array[1] = 7n;
+const v43 = new Uint16Array(Uint16Array);
+v43[1];
+new Int32Array(31);
+Uint32Array.toString = Symbol;
+try { Uint32Array.toString(); } catch (e) {}
+new Uint32Array(128);
+function f52() {
+    let v54 = 1000000000000.0;
+    v54--;
+    const o59 = {
+        "e": Uint16Array,
+        __proto__: 3.4890473589784586e+307,
+        "g": 12,
+        o(a58) {
+            return a58;
+        },
+        ...v54,
+    };
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f52);
+f52();
+f52();
+%OptimizeFunctionOnNextCall(f52);
+f52();

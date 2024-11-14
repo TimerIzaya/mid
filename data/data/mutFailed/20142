@@ -1,0 +1,44 @@
+let v0 = -4.0;
+class C3 {
+    constructor(a5, a6) {
+        const v7 = a5?.constructor;
+        try { new v7(a6); } catch (e) {}
+        a6.length = a6;
+        Date.name = Date;
+        let v10 = new Date();
+        %VerifyType(942535410);
+        ({"c":v10,"prototype":v0,} = Date);
+    }
+    #e = "isConcatSpreadable";
+    1 = v0;
+    e = "isConcatSpreadable";
+    #g = v0;
+}
+const v11 = new C3("isConcatSpreadable", C3);
+v11[1] = v11;
+const v12 = new C3(v11, "isConcatSpreadable");
+const v13 = new C3(v12, v0);
+14 >> 14;
+Int32Array.length = Int32Array;
+new Int32Array(14);
+const v20 = new Float32Array(128);
+try { v20.join(v13); } catch (e) {}
+new Int16Array(123);
+class C25 {
+    constructor(a27, a28) {
+        function f29(a30, a31, a32, a33) {
+            return arguments;
+        }
+        for (let v35 = 0; v35 < 5; v35++) {
+            const v36 = f29();
+            v36[1] = v36;
+        }
+    }
+}
+try { C25(v13, v12); } catch (e) {}
+const v38 = new C25();
+const v39 = v38.constructor;
+try { new v39(Float32Array, Int16Array); } catch (e) {}
+const v41 = new v39();
+const v42 = v41?.constructor;
+try { new v42(v41, Int32Array); } catch (e) {}

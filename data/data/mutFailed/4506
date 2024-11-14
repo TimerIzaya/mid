@@ -1,0 +1,91 @@
+function f0() {
+}
+class C1 extends f0 {
+    #m() {
+        %VerifyType(this);
+        super[f0] = this;
+        return f0;
+    }
+    valueOf() {
+        try {
+            C1();
+        } catch(e6) {
+        }
+        const v7 = this && f0;
+        function F8(a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = a10;
+            } catch(e11) {
+            }
+        }
+        const v12 = new F8(v7);
+        new F8(v12);
+        new F8(v7);
+        return v12;
+    }
+}
+new C1();
+const v16 = new C1();
+const v17 = new C1();
+function F18(a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a20;
+    } catch(e21) {
+    }
+    try {
+        this.g = C1;
+    } catch(e22) {
+    }
+}
+const v23 = new F18(v17);
+new F18(v17);
+new F18(v16);
+let v28 = "X";
+const v32 = Float32Array.length;
+class C34 {
+}
+const v35 = new C34();
+class C36 {
+    static g = v35;
+    static {
+        delete this.g;
+    }
+}
+try { C36.bind(v35); } catch (e) {}
+const v43 = Symbol("bZ");
+const v45 = [Float32Array];
+function f46() {
+}
+[[f46,f46],f46];
+let v53;
+try { v53 = ("5").split(127, v43); } catch (e) {}
+try {
+    v35.b = v23;
+} catch(e56) {
+}
+v45("127");
+const v59 = new Array(228);
+class C60 {
+    #a = C34;
+    static #b;
+    [v53];
+    f = "symbol";
+    a;
+    static {
+        function F62(a64, a65) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v66 = this?.constructor;
+            try { new v66("yi", v32); } catch (e) {}
+        }
+        new F62(v59, this);
+        new F62(Array, F62);
+    }
+}
+try {
+} catch(e70) {
+}
+do {
+    v28++;
+} while (0 < 9)

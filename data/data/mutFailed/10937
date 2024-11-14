@@ -1,0 +1,40 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+Object.defineProperty(Array, -35338n, { writable: true, get: f0, set: f1 });
+const v15 = new Int8Array(251);
+const v18 = new Uint32Array(4);
+new Float32Array(16);
+new Array(3010);
+for (let v24 = 0; v24 < 56; v24++) {
+    const v25 = v15[v24];
+    Array[4] = v25;
+    v25?.[v24];
+}
+const v27 = [-4,536870888,-65243,-256,-4294967295,65536,-12];
+%VerifyType(3010);
+v15.length ||= 4;
+try { v18.some(Array, v15); } catch (e) {}
+try {
+    v27.at(3010);
+} catch(e31) {
+}
+const v32 = [-2096457859];
+const v33 = /a+b|cu(?:foo)*/u;
+const v35 = new Map();
+class C36 {
+    constructor(a38, a39, a40, a41) {
+        const v42 = v32.__proto__;
+        this & v33;
+        v42[6] = a39;
+    }
+    toString(a45, a46, a47, a48) {
+        super[v27] = v35;
+    }
+}
+new C36(v27, v32, v33, v27);
+for (const v50 in v32) {
+    Array(310668736);
+}

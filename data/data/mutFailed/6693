@@ -1,0 +1,76 @@
+let v1 = 536870888;
+class C3 {
+    constructor(a5) {
+        const v7 = [-1000000.0,-3.1923473210656557,-1.721355656202141e+308,4.0,0.3955838142797843,-3.0,1.1463753586867827e+308];
+        function f8(a9) {
+            const o10 = {
+            };
+            o10[213] = o10;
+            o10[213] = v7;
+            return o10[213];
+        }
+        %PrepareFunctionForOptimization(f8);
+        f8(v7);
+        %OptimizeFunctionOnNextCall(f8);
+        f8(v7);
+        try {
+            const t16 = "object";
+            t16.length = 1;
+        } catch(e14) {
+        }
+    }
+    static #n(a16, a17) {
+        const v18 = super[a16];
+        try {
+            super.m(v18);
+        } catch(e20) {
+        }
+        super.d = "object";
+        v1 = a17;
+        return v18;
+    }
+}
+function f21() {
+    return Date.parse([10617.622628886602,-5.0,1.7976931348623157e+308,-8.220199247866622e+307,1000000000000.0,0.0,48740.75682475441,-1000000000.0,6.407443663238073,369.9978678982163]);
+}
+C3.toString = f21;
+const v25 = new C3("object");
+const v26 = new C3(v1);
+let v27 = new C3(v26);
+function f28(a29, a30, a31) {
+    const o43 = {
+        "d": a29,
+        [a30](a33, a34) {
+            a30 >= v1;
+            try {
+                new C3(a30);
+            } catch(e37) {
+            }
+            return v27;
+        },
+        [4.0](a39, a40) {
+            try { new v1(a40, C3, v27, v1, this); } catch (e) {}
+            let {"c":v42,} = a31;
+            return v42;
+        },
+        7: "object",
+    };
+    return o43;
+}
+const v44 = f28("object", f28, v25);
+function f45() {
+    v27 = v26;
+    new WeakMap();
+    return f28;
+}
+v44.toString = f45;
+f28(v25, C3, f28(v25, v44, "object"));
+const v57 = 256 < 256;
+function f58() {
+    return 256;
+}
+function f59(a60) {
+    return v57;
+}
+Object.defineProperty(f58, "toString", { writable: true, value: f59 });
+Date.UTC(f58);

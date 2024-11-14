@@ -1,0 +1,82 @@
+const v2 = new Uint8Array(9);
+let v5;
+try { v5 = Uint8ClampedArray.bind(255); } catch (e) {}
+const v6 = new Uint8ClampedArray(255);
+function f7(a8) {
+    --a8;
+    try { v6.some(v5, a8); } catch (e) {}
+    return a8;
+}
+Object.defineProperty(v6, "valueOf", { writable: true, configurable: true, enumerable: true, value: f7 });
+v6[81] = v6;
+const v13 = new Float64Array(3745);
+v13[3431] = v13;
+class C14 {
+    [C14];
+    p(a16, a17, a18) {
+        let v15 = this;
+        const v19 = v15 != a17;
+        ({"b":a16,"c":v15,} = v15);
+        v6.keys(9, Uint8ClampedArray, ...v2, a17);
+        try { new v15(3745); } catch (e) {}
+        return v19;
+    }
+    set b(a23) {
+        this[a23] = v13;
+    }
+    #g = v6;
+}
+try { new C14(); } catch (e) {}
+new C14();
+new C14();
+const v28 = new C14();
+function f29(a30, a31) {
+    function f32() {
+        return f32;
+    }
+    class C33 extends f32 {
+    }
+    class C34 extends C33 {
+    }
+    function f37(a38, a39, a40, a41) {
+        v2.a = a38;
+        let v42;
+        try { v42 = a38(C34, f32); } catch (e) {}
+        let v43 = v13 & a39;
+        v43++;
+        const v45 = 3 | v42;
+        v45 * v45;
+        const o50 = {
+            n(a48, a49) {
+                return this;
+            },
+        };
+        return a39;
+    }
+    for (let v51 = 0; v51 < 500; v51++) {
+        f37(Uint8Array);
+    }
+    return v13;
+}
+Object.defineProperty(v28, "constructor", { value: f29 });
+const v53 = v5?.constructor;
+try { new v53(); } catch (e) {}
+new WeakSet();
+function f57(a58) {
+    a58.length;
+    const o63 = {
+        "g": C14,
+        "h": a58,
+        __proto__: a58,
+        "a": v5,
+        "f": WeakSet,
+        m(a61, a62) {
+            return a61;
+        },
+    };
+    return o63;
+}
+const v64 = f57?.apply;
+try { new v64(9, Uint8ClampedArray); } catch (e) {}
+f57(f57(v5));
+f57(v2);

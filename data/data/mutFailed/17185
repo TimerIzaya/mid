@@ -1,0 +1,68 @@
+for (let v2 = 0; v2 < 5; v2++) {
+    0 == 5n;
+}
+class C7 {
+    valueOf(a9, a10) {
+        const v12 = Symbol.iterator;
+        const o21 = {
+            [v12]() {
+                let v14 = 10;
+                const o20 = {
+                    next() {
+                        v14--;
+                        const v18 = v14 == 0;
+                        const o19 = {
+                            "done": v18,
+                            "value": v14,
+                        };
+                        return o19;
+                    },
+                };
+                return o20;
+            },
+        };
+        return a9;
+    }
+}
+try { new C7(); } catch (e) {}
+const v23 = new C7();
+new C7();
+new C7();
+const v28 = new BigInt64Array(1449);
+function f29() {
+    ("NN")["9"];
+    return "9";
+}
+v28[Symbol.toPrimitive] = f29;
+try { Uint16Array.from(1037); } catch (e) {}
+const v38 = new Uint16Array(1037);
+Object.defineProperty(v38, "toString", { writable: true, value: Symbol });
+v38[870] = v38;
+const v41 = new Uint8Array(256);
+try { v41.findIndex(BigInt64Array); } catch (e) {}
+let v48 = 268435456n;
+v48--;
+-5;
+v23[v28] = 5;
+const t46 = ("n").normalize("NFKD");
+t46[-18157n] = -9007199254740991;
+try { BigUint64Array.of(); } catch (e) {}
+new BigUint64Array();
+1000 << 1000;
+const v60 = 1000 * 1000;
+const v62 = new Float64Array(v60);
+v62.toString = Symbol;
+v62[47] = v62;
+const v64 = new Float64Array(v60);
+try { v64.findIndex(Uint16Array); } catch (e) {}
+let v66;
+try { v66 = v64.join(Float64Array); } catch (e) {}
+v66[19658362];
+const v68 = [-9007199254740990,49004,536870889,1000,257,65536,-9007199254740990,-9007199254740992];
+try { v68.includes(v68); } catch (e) {}
+const v70 = [1000];
+try { v70.toLocaleString(v70); } catch (e) {}
+let v73;
+try { v73 = eval(4294967297); } catch (e) {}
+v73 % v73;
+eval();

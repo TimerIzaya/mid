@@ -1,0 +1,100 @@
+const v1 = new WeakSet();
+const v2 = [WeakSet,v1];
+const v3 = [WeakSet,v1,v2];
+v3[1] = v3;
+const v4 = [v1,v1];
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a7;
+    Object.defineProperty(a8, "sort", { writable: true, configurable: true, value: a8 });
+    try { a8.sort(a8); } catch (e) {}
+    try {
+        this.a = a8;
+    } catch(e10) {
+    }
+    try {
+        this.f = v4;
+    } catch(e11) {
+    }
+    try {
+        this.e = a7;
+    } catch(e12) {
+        try { v2.toSorted(e12); } catch (e) {}
+        const v14 = new WeakSet(a7);
+        this / v14;
+        const v16 = v3.__proto__;
+        try { new v16(WeakSet); } catch (e) {}
+    }
+}
+function f18() {
+    Reflect.construct(WeakSet, [Reflect], F5);
+    return v4;
+}
+F5[Symbol.toPrimitive] = f18;
+const v24 = new F5(v4, v2);
+v24.b = v24;
+const v25 = new F5(v3, v3);
+const v26 = new F5(v3, v2);
+function f27(a28, a29, a30, a31) {
+    const v32 = a29?.push;
+    try { new v32(f27); } catch (e) {}
+    try { a30.sort(a30); } catch (e) {}
+    const o45 = {
+        [F5](a36, a37, a38, a39) {
+            delete v4[a38.e];
+            const v42 = this[45];
+            v25.f ||= a31;
+            try {
+                a29.find(v42);
+            } catch(e44) {
+            }
+            return a31;
+        },
+        "e": v24,
+    };
+    return o45;
+}
+f27(v1, v4, v3, v1);
+const v47 = f27(v25, v3, v3, v24);
+v47.valueOf = f18;
+v47.e = v47;
+const v48 = f27(v26, v4, v3, v25);
+function f50() {
+    const v52 = ("startsWith")?.toWellFormed;
+    try { new v52(); } catch (e) {}
+    const v54 = ("filter")["startsWith"]();
+    !v54;
+    Math.e = Math;
+    Math.cosh(Math);
+    return v54;
+}
+%PrepareFunctionForOptimization(f50);
+const v58 = f50();
+%OptimizeFunctionOnNextCall(f50);
+new F5("filter", v26);
+const v60 = new f50();
+function f61() {
+    class C62 {
+    }
+    const v63 = new C62();
+    return v63.constructor;
+}
+v60.toString = f61;
+v60.length = v60;
+v60 << v58;
+try {
+    v47.a = v4;
+} catch(e66) {
+}
+f50();
+function f68() {
+    return v3;
+}
+f68.e = f68;
+v47 * v58;
+try { new Int8Array(v26, "filter", v48); } catch (e) {}
+new Int8Array(1849);
+new BigUint64Array(117);
+let v77 = 12;
+v77--;
+new Float32Array(v77);

@@ -1,0 +1,59 @@
+const v0 = [];
+function f6(a7, a8) {
+    const o9 = {
+        "f": a8,
+    };
+    o9.toString = f6;
+    return o9;
+}
+f6(1096487296, 1096487296);
+const v11 = f6(268435441, 268435441);
+v11[Symbol.toPrimitive] = f6;
+new Int8Array(268435456);
+let v18;
+try { v18 = Int8Array.of(); } catch (e) {}
+try { v18.join(v11); } catch (e) {}
+function f20(a21) {
+    const o27 = {
+        get c() {
+            "undefined" && "call";
+            for (let v24 = 0; v24 < 32; v24++) {
+                "p" + v24;
+                const t20 = "object";
+                t20[a21] = v24;
+            }
+            return f20;
+        },
+        "d": a21,
+        "f": a21,
+    };
+    return o27;
+}
+const v28 = f20("call");
+f20("call");
+const v31 = ["call","call",f20("object"),"object"];
+const v33 = [[v0,v31,v28,"object"]];
+function f34() {
+    return f20;
+}
+function f36() {
+    function f37() {
+        v31 ** v33;
+        const v39 = [772665.0825286671,-262.4525935862765,1e-15,1e-15,1e-15,1.0,2.220446049250313e-16,9.028377432945593,379974.7819749671];
+        class C40 {
+            constructor(a42, a43) {
+                try {
+                    delete v39.length;
+                } catch(e45) {
+                }
+            }
+        }
+        return "call";
+    }
+    return f37;
+}
+Object.defineProperty(Date, "valueOf", { writable: true, get: f36 });
+new f34(BigUint64Array, 4, 241);
+("c").toUpperCase();
+const v52 = new Date(f34);
+v52.setUTCMilliseconds(Date);

@@ -1,0 +1,64 @@
+class C3 {
+    static ["object"] = "object";
+    static p(a5) {
+        const o9 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o9);
+        return o9;
+    }
+}
+const v11 = new C3();
+class C12 {
+}
+const v13 = new C12();
+function f14(a15, a16, a17, a18) {
+    new Int16Array(1269);
+    for (const v22 in 1269148727) {
+    }
+    const o29 = {
+        valueOf(a24, a25, a26, a27) {
+            const o28 = {
+                [a16]: v13,
+            };
+            return a16;
+        },
+    };
+    return o29;
+}
+const v30 = f14(C12, f14, C12, C12);
+const v31 = v30();
+f14(v31, v31, v30, v30);
+const v33 = new C3();
+const v34 = new C3();
+function f35(a36, a37, a38) {
+    const o46 = {
+        "g": v33,
+        [-1]: v34,
+        1: v33,
+        set f(a40) {
+            new C3();
+            new C3();
+            const o43 = {
+            };
+            new Proxy(v11, o43);
+        },
+        "a": a37,
+    };
+    return o46;
+}
+f35("object", v11, "object");
+f35(C3, C3, v33);
+f35(C3, v11, v11);
+function f50() {
+    return f35;
+}
+function F52(a54) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v55 = v13.constructor;
+    v55.bind();
+    try { new v55(); } catch (e) {}
+}
+new f14();
+new F52();

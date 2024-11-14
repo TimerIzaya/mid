@@ -1,0 +1,72 @@
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    a8 ^ a8;
+    const v10 = this?.constructor;
+    try { new v10(-5n); } catch (e) {}
+}
+const v12 = new F6(0n);
+10000n ^ 10000n;
+class C15 {
+    static #h = -65535n;
+    static #a;
+    static #g;
+    static #f;
+    static {
+        function F17(a19, a20) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.propertyIsEnumerable(this);
+            const v22 = this.constructor;
+            try { new v22(); } catch (e) {}
+            try { F17.constructor(); } catch (e) {}
+        }
+        new F17(-65535n, -65535n);
+    }
+    #o(a27, a28, a29) {
+        [4294967297,512,2147483649,257,65536,536870889,-9007199254740992,5,127,-14];
+        [128,9223372036854775807];
+        [9007199254740991,-504003394,1073741823,-24947,-9223372036854775808,-1,58793,-13,528536219,11714];
+        try {
+            this.g = this;
+        } catch(e33) {
+        }
+        return 4294967297n;
+    }
+    g;
+    static [v12];
+    static #b;
+    static d;
+    constructor() {
+        const v35 = this.constructor;
+        try { new v35(); } catch (e) {}
+        super.f >>= this;
+    }
+}
+const t43 = -65535n;
+new t43();
+const v38 = new C15();
+v38?.constructor;
+try { new F6(); } catch (e) {}
+const v41 = new C15();
+const v42 = v41?.constructor;
+try { new v42(); } catch (e) {}
+let v44 = 11;
+v44--;
+const v48 = 3 != 3;
+function f52() {
+    return v48;
+}
+for (let v53 = 0; v53 < 5; v53++) {
+    f52();
+    %OptimizeFunctionOnNextCall(f52);
+}
+const v55 = [-13063,230037640,0,-1717935321,257,0,1073741825];
+const v56 = [-2051630605,509562611];
+v56.g = v56;
+class C57 {
+    0 = v56;
+}
+const v58 = new C57();
+v58[0] = "object";
+const v60 = new Float32Array(v55);
+try { v56.sort(v60); } catch (e) {}
+Object.defineProperty(v58, 7, { configurable: true, value: v55 });

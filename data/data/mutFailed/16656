@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "c", { writable: true, value: F0 });
+    try {
+        this.c = 2118;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+let v6 = new F0();
+let v7 = v6.c;
+const t12 = "setUTCHours";
+t12[10] = "setUTCHours";
+const v11 = v4["test"];
+const v13 = v5 in v7;
+v7 = "setUTCHours" in v11;
+const v15 = [v4,v6];
+const v17 = [v6,"test",F0,[v15,v5]];
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a20.italics(); } catch (e) {}
+    try { a21.sort("test"); } catch (e) {}
+    this.e = a21;
+    try {
+        this.e = a20;
+    } catch(e24) {
+    }
+}
+F18.g = F18;
+new F18("setUTCHours", v15);
+[512,8,910075395,35185,-1501712063,-1874124686,-8,-4294967297,-65536];
+const v27 = [1663383019,9337,-1073741824,-1160182085,-1073741824];
+[-16,998854752,-268435456,512,-511949292,-2];
+v6 = v4;
+v27.length;
+const v30 = new F18("boolean", v4);
+const v32 = [v13,F18,[BigUint64Array,v30,BigUint64Array,v30,v5],"test",v13];
+const v33 = [v30,v5,v32];
+try { v11(v17, v32, v33, v33, F0); } catch (e) {}
+Object.defineProperty(v5, 8, { configurable: true, enumerable: true, value: v13 });
+new F18("boolean", v17);
+const v36 = [-536870912,-65537,10,-9007199254740990,-11,46376,2,6];
+class C37 {
+    constructor(a39, a40) {
+        let {...v41} = v36;
+    }
+}

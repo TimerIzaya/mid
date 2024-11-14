@@ -1,0 +1,30 @@
+const v2 = new Uint32Array(170);
+const v5 = new v2(759);
+const v8 = new Int8Array(5);
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v14 = this?.__lookupGetter__;
+    try { new v14(this); } catch (e) {}
+    try {
+        this.b = 170;
+    } catch(e16) {
+    }
+    try {
+        this.f = a12;
+    } catch(e17) {
+    }
+    try {
+        this.c = v8;
+    } catch(e18) {
+    }
+}
+F10.length = F10;
+new F10(F10, 5);
+const v20 = new F10(v5, 5);
+new F10(Int8Array, 5, Uint32Array, v20);
+const v22 = (170)?.constructor;
+try { new v22(v5, Uint32Array, v22, v20, v22); } catch (e) {}
+const v26 = new Float32Array();
+try { null.toSorted(v20); } catch (e) {}
+const v29 = v26["copyWithin"](...Int8Array);
+try { v29.entries(v29, v29, Uint32Array); } catch (e) {}

@@ -1,0 +1,48 @@
+const t0 = 675224009;
+t0[-10n] = 675224009;
+for (let v5 = 0; v5 < 32; v5++) {
+    const t3 = 675224009;
+    t3["p" + v5] = v5;
+}
+%VerifyType(-5);
+6 | 6;
+function f10() {
+    return -5;
+}
+const v11 = [0.4631482032287221,3.0,NaN,0.7199918221192527];
+const v12 = [0.019049879953741855,-1000000000000.0,1000000000000.0,1.0];
+const v13 = [5.0,0.0,5.0];
+class C14 {
+    o(a16, a17) {
+        try {
+            a17.length = v12;
+        } catch(e18) {
+        }
+        return v12;
+    }
+    static #m(a20, a21, a22, a23) {
+        super.g;
+        -5 * a23;
+        this[4294967295] = v13;
+        return v11;
+    }
+}
+new C14();
+new C14();
+new C14();
+const t32 = 6;
+const v30 = new t32();
+function f31(a32, a33, a34, a35) {
+    const v36 = a34 ^ a34;
+    const o40 = {
+        "b": a32,
+        ...v30,
+        n(a38, a39) {
+            return v36;
+        },
+    };
+    return f31;
+}
+for (let v41 = 0; v41 < 625; v41++) {
+    f31();
+}

@@ -1,0 +1,147 @@
+function f0() {
+}
+class C1 extends f0 {
+    static 5 = f0;
+    valueOf() {
+        super.g = f0;
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeFunctionOnNextCall(f0);
+        f0();
+        return this;
+    }
+}
+const v7 = new C1(C1, f0, C1);
+const v8 = new C1();
+const v9 = new C1();
+const v10 = v9?.constructor;
+try { new v10(); } catch (e) {}
+"n" == "n";
+-50465n % -50465n;
+const v19 = 11n ^ 11n;
+new Map();
+let v25;
+try { v25 = Map(C1); } catch (e) {}
+const v26 = new Map();
+function f27(a28, a29, a30, a31) {
+    try { a28.match(v26); } catch (e) {}
+    a29.f = a29;
+    a30.arguments = a30;
+    a28[3];
+    a30.caller = a30;
+    const o44 = {
+        n(a35, a36, a37, a38) {
+            for (let v39 = 0; v39 < 10; v39++) {
+            }
+            super.b;
+            v9[6];
+            super[a38] = arguments;
+            super[a37];
+        },
+        16: a28,
+        ...v26,
+    };
+    o44[0] = o44;
+    return o44;
+}
+const v45 = f27("m", "m", f27);
+const v47 = new Float64Array();
+const v48 = v47?.filter;
+try { new v48("endsWith"); } catch (e) {}
+let v50 = 16;
+const v51 = v50++;
+v51 - v51;
+let v54;
+try { v54 = BigInt64Array(); } catch (e) {}
+const v55 = new BigInt64Array();
+try { v55.entries(); } catch (e) {}
+const t59 = "m";
+t59[v51] = v8;
+let v59 = 2147483649;
+Math.imul(v47, v7);
+Math.atan(++v59);
+const v63 = ~-4294967297n;
+const v64 = v63 ^ v63;
+v64 >= v64;
+const v67 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v68 = [601759695];
+try { v68.sort(v68, v19); } catch (e) {}
+v68[0] = v68;
+const v70 = [1073741824,1073741823,1376142744,1073741825];
+try { v70.values(v54, v54); } catch (e) {}
+function f73(a74, a75, a76, a77) {
+    const v79 = arguments.toString();
+    try { v79.toString(); } catch (e) {}
+    function f81() {
+        const v83 = ("Vre")?.constructor;
+        try { new v83(v55); } catch (e) {}
+        const v85 = ("Vre")?.toLocaleUpperCase;
+        %VerifyType(v50);
+        const v86 = a75 ^ "Vre";
+        v86 % v86;
+        +-26587 && -26587;
+        Math.atanh("Vre");
+        const v97 = !"Vre" | ("Vre" * -1.632556010913421e+308);
+        v97 - v97;
+        try { new v85(); } catch (e) {}
+        let v100;
+        try { v100 = ("Vre").fixed(); } catch (e) {}
+        try { v25(v100); } catch (e) {}
+        let {"c":v102,"f":v103,"g":v104,} = a75;
+        v83?.[a77];
+        const v106 = Math.PI;
+        try { new v54(f81, v106, v103, 522675525n, a76); } catch (e) {}
+        let v109 = -268435456;
+        v109 % v109;
+        v109--;
+        -(v109 + v109);
+        const o128 = {
+            "c": -4294967297n,
+            [522675525n](a115, a116) {
+            },
+            ..."Vre",
+            "maxByteLength": -128,
+            "c": v68,
+            valueOf(a118, a119) {
+            },
+            "e": -4294967295,
+            "e": v109,
+            "maxByteLength": -4294967295,
+            "arguments": v67,
+            ...v68,
+            "type": "Vre",
+            ..."Vre",
+            valueOf(a121, a122) {
+                a121[6] = a121;
+                a122 + a122;
+            },
+            ..."Vre",
+            4: "Vre",
+            "c": v109,
+            "type": "Vre",
+            toString(a125, a126, a127) {
+            },
+            6: v109,
+        };
+        try { o128.valueOf(o128, -128); } catch (e) {}
+        return "Vre";
+    }
+    const v130 = f81.length;
+    v130 + v130;
+    f81();
+    const v134 = new Int8Array();
+    const v135 = v134?.constructor;
+    try { new v135(a77, a77, v45); } catch (e) {}
+    try { v134.findIndex(v45); } catch (e) {}
+    %OptimizeFunctionOnNextCall(f81);
+    ("find").strike();
+    try { v70["find"](..."find", a77, ...v68, ...v70, ...522675525n); } catch (e) {}
+}
+for (let v141 = 0; v141 < 5; v141++) {
+    f73();
+}
+f73();
+%OptimizeFunctionOnNextCall(f73);
+f73();

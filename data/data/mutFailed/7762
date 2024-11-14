@@ -1,0 +1,46 @@
+new Int16Array(3918);
+const v5 = new Uint8ClampedArray(2669);
+new Uint16Array(567);
+for (let v12 = 0; v12 < 5; v12++) {
+    function f13() {
+        let v14 = -4294967295;
+        const v15 = v14++;
+        const o19 = {
+            valueOf(a17, a18) {
+                return v14;
+            },
+            "b": Uint8ClampedArray,
+            "h": v12,
+            "g": 3918,
+            __proto__: v5,
+            4: v12,
+        };
+        return v15;
+    }
+    f13();
+    %OptimizeFunctionOnNextCall(f13);
+}
+function f21(a22, a23) {
+    function f24() {
+        return f21;
+    }
+    function f25(a26) {
+        Math.log2(v5);
+        Math.expm1(2.690441861269229e+307);
+        const v32 = 1462218649 >> 1462218649;
+        Math.max(v32);
+        Math.sinh(v32);
+    }
+    Object.defineProperty(a22, Symbol.toPrimitive, { writable: true, enumerable: true, get: f24, set: f25 });
+    const o42 = {
+        __proto__: a22,
+        p(a38, a39) {
+            48752008 ^ this;
+            return this;
+        },
+    };
+    return o42;
+}
+const v43 = f21(f21);
+v43.toString = f21;
+try { v43.p(); } catch (e) {}

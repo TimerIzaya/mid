@@ -1,0 +1,53 @@
+class C3 {
+    p(a5, a6) {
+        super.e &= a5;
+        function F7(a9, a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = "at";
+            } catch(e13) {
+            }
+        }
+        const v14 = new F7(-143.22286539225604, "at", "at", a6);
+        new F7(-143.22286539225604, "at", F7, -14);
+        const o16 = {
+        };
+        new Proxy(v14, o16);
+        new Map();
+        const v21 = new F7(this, -143.22286539225604, -14, -143.22286539225604);
+        return v21;
+    }
+    10;
+}
+const v22 = new C3();
+const v23 = new C3();
+new C3();
+try {
+    C3.__proto__ = v22;
+} catch(e28) {
+}
+%VerifyType(-143.22286539225604);
+[-1.0100496698545287e+308,1.7976931348623157e+308,3.433104476981315,1e-15,4.0,0.3999785879514307,4.0];
+[-253.9866205338161,-3.3516048488071126,846632.9736542301,-Infinity,6.734974476310331,NaN,-1.997586991256588];
+[0.8530555211114639,-950123.8943234882,-324.37919192079437,1000000000.0,-2.0,-1000000.0,-976.6958715908291,0.6052264490607462,98.86164977587327];
+function F32(a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -4.0;
+    } catch(e36) {
+    }
+}
+new F32(v23, -143.22286539225604);
+new F32(C3, -143.22286539225604);
+new F32(v22, -4.0);
+function f40() {
+    let v42 = 0;
+    do {
+        f40();
+        v42++;
+    } while (v42 < 10)
+    const v47 = new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+    return v47;
+}
+%OptimizeFunctionOnNextCall(f40);
+f40();

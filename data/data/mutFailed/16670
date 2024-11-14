@@ -1,0 +1,54 @@
+const v0 = [1801784456,536870887];
+const v1 = [15,-58975,4294967296];
+const v2 = [1073741824,48217,129];
+function f3(a4, a5) {
+    const o22 = {
+        "b": a4,
+        set e(a7) {
+            const o10 = {
+                "maxByteLength": 8,
+            };
+            const v12 = new SharedArrayBuffer(4, o10);
+            new Uint32Array(v12);
+        },
+        "h": a4,
+        [v0](a16, a17, a18, a19) {
+            try {
+                this.b = v1;
+            } catch(e21) {
+            }
+            return undefined;
+        },
+        "g": v1,
+        ...v1,
+    };
+    for (let [,v23] of v0) {
+        delete v1[o22];
+    }
+    try { a5(v1, v2); } catch (e) {}
+    return o22;
+}
+f3(v2, v2);
+f3(v0, v1);
+f3(v1, v1);
+[9223372036854775807,1000,18220,4,-65537,-12,257,63989,15];
+[-2];
+[-1458185998,-6048,-4,3,-12,128,512,-4294967297,9223372036854775807];
+const v41 = [];
+class C42 {
+}
+const v43 = new C42();
+function F44(a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a47;
+}
+const v48 = new F44(v43, v41);
+function f49(a50, a51) {
+    return a51;
+}
+const v54 = [v48];
+const o55 = {
+    "arguments": v54,
+    "type": "function",
+};
+new Worker(f49, o55);

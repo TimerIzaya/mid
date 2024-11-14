@@ -1,0 +1,102 @@
+const t0 = "-1257727899";
+t0.length *= -2147483648;
+function f3() {
+    function f5(a6) {
+        a6?.[2147483649];
+    }
+    this.onmessage = f5;
+    try {
+        f5("-128");
+    } catch(e9) {
+    }
+}
+const v12 = [];
+const o13 = {
+    "arguments": v12,
+    "type": "function",
+};
+new Worker(f3, o13);
+try { ("-128").codePointAt(-2147483648); } catch (e) {}
+class C19 {
+    constructor(a21, a22) {
+        const v24 = Symbol.iterator;
+        const o38 = {
+            [v24]() {
+                let v26 = 10;
+                const o37 = {
+                    next() {
+                        v26--;
+                        const v30 = v26 == 0;
+                        const o31 = {
+                            "c": this,
+                            ..."-128",
+                            "d": a21,
+                            "b": this,
+                            ...this,
+                            "done": v30,
+                            "value": v26,
+                        };
+                        return o31;
+                    },
+                    n(a33, a34, a35) {
+                        this.c &= C19;
+                        try { a22(Symbol, v24); } catch (e) {}
+                        return a33;
+                    },
+                };
+                return o37;
+            },
+        };
+    }
+}
+const v39 = new C19("-128", C19);
+new C19(v39, C19);
+new C19("-128", "-128");
+class C47 {
+}
+const v48 = new C47();
+function F49(a51, a52, a53) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v54 = new F49(C47, v48, F49);
+const v55 = [134133844,-339370636,65535,-4294967295,536870888,-324130953,536870912,268435439];
+function f56(a57, a58, a59, a60) {
+    function f61() {
+        const v62 = v55.length;
+        const v63 = v54.__lookupSetter__;
+        const v64 = v62 >>> v62;
+        a58[v63 & (v64 % v64)] += v48;
+        return F49;
+    }
+    f61();
+    %OptimizeFunctionOnNextCall(f61);
+    return f61;
+}
+f56(f56, f56(v55, f56(v55, f56)));
+const o77 = {
+    "maxByteLength": 3145,
+};
+const v78 = `
+    for (let v79 = 0; v79 < 5; v79++) {
+        class C80 {
+        }
+        const v81 = new C80();
+        function f82(a83, a84) {
+            const o89 = {
+                [v81](a86, a87, a88) {
+                },
+            };
+            return a83;
+        }
+        f82(C80, v78);
+    }
+    const o93 = {
+        "maxByteLength": 2610056841,
+    };
+    const v95 = new ArrayBuffer(5, o93);
+    new Int16Array(v95);
+`;
+eval(v78);
+const v101 = new SharedArrayBuffer(128, o77);
+const v103 = new Float32Array(v101);
+v103[0];

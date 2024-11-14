@@ -1,0 +1,33 @@
+new Date();
+const v7 = new Uint16Array(2038);
+Object.defineProperty(v7, "valueOf", { writable: true, enumerable: true, value: Date });
+v7[812] = v7;
+const v10 = new Int8Array(127);
+Object.defineProperty(v10, "toString", { enumerable: true, value: Date });
+v10[108] = v10;
+new BigInt64Array(8);
+[-1.7976931348623157e+308];
+[-4.0,1000000.0,1000000.0,49.47315321897054,3.033608167410943e+307];
+[-4.0,-1.7976931348623157e+308,2.175680021257552,1.0,1000000.0,-1000000000000.0,0.2076419629913584,-0.0,3.648692339453887e+307];
+Array.toString = Array;
+Array.name;
+const v20 = Array(Array);
+v20[0];
+for (let v22 = 0; v22 < 5; v22++) {
+    v22 >= v22;
+    const v24 = v22 || v20;
+    function f25() {
+        return Date;
+    }
+    Object.defineProperty(v24, Symbol.toPrimitive, { get: f25 });
+    let v28 = v24 ** v24;
+    v28++;
+}
+try {
+    const o30 = {
+    };
+    o30[Symbol.iterator] = Date;
+    new Map(o30);
+} catch(e34) {
+    e34.message;
+}

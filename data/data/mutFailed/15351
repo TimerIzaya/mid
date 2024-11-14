@@ -1,0 +1,105 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 128;
+    } catch(e3) {
+    }
+    try {
+        this.g = 128;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8() {
+    return v6;
+}
+function f18(a19, a20, a21, a22) {
+    a20[7] = a22;
+    try {
+        new f8();
+    } catch(e24) {
+    }
+    const o40 = {
+        set d(a26) {
+            %VerifyType(this);
+        },
+        __proto__: v7,
+        "e": f8,
+        1: f8,
+        "b": a21,
+        4: a22,
+        set g(a28) {
+            try {
+                this.fuck(f8, false, false, true);
+            } catch(e32) {
+                gc();
+                try {
+                    this.length = 1;
+                } catch(e36) {
+                }
+            }
+        },
+        "f": a21,
+        [a22]: -1024,
+        "d": 391389287n,
+        "h": -1024,
+        "g": -1024,
+        "a": v6,
+        7: -902.6128601222297,
+        /*
+        __proto__: v7,
+        */
+        set g(a38) {
+        },
+        "maxByteLength": -1024,
+        ...v6,
+        ...v5,
+    };
+    return o40;
+}
+const v42 = f18(-258.75239147201796, 1.7976931348623157e+308, F0, f18(1.7976931348623157e+308, -258.75239147201796, -14132, -902.6128601222297));
+const v43 = f18(-902.6128601222297, -902.6128601222297, -13904n, v42);
+function* f44(a45) {
+    return a45;
+}
+function f46() {
+    let v48;
+    try { v48 = v42["toString"]("toString"); } catch (e) {}
+    Object.defineProperty("toString", 3, { writable: true, configurable: true, value: "toString" });
+    function F49(a51, a52, a53, a54) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.h = -902.6128601222297;
+        } catch(e55) {
+        }
+        try {
+            this.e = -5;
+        } catch(e56) {
+        }
+    }
+    new F49(-1024, 1.7976931348623157e+308, -1024, "toString");
+    new F49(-14132, -258.75239147201796, v48, v48);
+    new F49(-14132, v48, v48, -258.75239147201796);
+    const o60 = {
+        "call": f44,
+    };
+    return f46;
+}
+f46();
+class C62 {
+}
+const v63 = new C62();
+try {
+    v7.__proto__ = "o";
+} catch(e65) {
+}
+function f66() {
+    return v43;
+}
+const v67 = delete v63.g;
+let v68;
+try { v68 = v67(); } catch (e) {}
+const t103 = "o";
+t103.length = v68;

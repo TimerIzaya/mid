@@ -1,0 +1,78 @@
+const v0 = [8.777560937535142,-1000000000.0,0.29319563975950313,5.0,-Infinity,1000000.0,975114.495684966,NaN,0.5675476101365111];
+const v1 = [1e-15,-263.7225691083212,-1.7126087413252521e+308];
+const v2 = [-2.0456370118089246e+307,-3.697160212362312e+307];
+class C3 {
+    static {
+        this.prototype = this;
+        const v6 = [v2,v2,Reflect,v1,v2];
+        super[Reflect.construct(this, v6, this)] = this;
+        super[v2] = v6;
+        const o11 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o11);
+    }
+}
+C3.name;
+const v14 = new C3();
+const v15 = v14?.__defineSetter__;
+try { new v15(v1, v2); } catch (e) {}
+const v17 = new C3();
+new C3();
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v25 = this?.__lookupGetter__;
+    try { new v25(v17); } catch (e) {}
+    try { a22.propertyIsEnumerable(this); } catch (e) {}
+    try {
+        this.f = v17;
+    } catch(e28) {
+    }
+}
+try { F19.bind(C3); } catch (e) {}
+new F19(v2, v1, v0, v14);
+new F19(v1, v1, v0, v1);
+new F19(v0, v0, v0, v2);
+try { ("-128").slice("-128", "-128"); } catch (e) {}
+try { ("4294967296").trimRight(); } catch (e) {}
+1000000000000.0 % 1000000000000.0;
+class C43 {
+}
+C43.prototype = C43;
+function f45() {
+    return f45;
+}
+f45.length = f45;
+class C46 extends f45 {
+}
+try { new C46(); } catch (e) {}
+class C48 extends C46 {
+}
+C48.prototype = C48;
+Uint8Array.name = Uint8Array;
+function f51(a52, a53, a54, a55) {
+    try { a52(); } catch (e) {}
+    a53 & a53;
+    const v58 = 3 | C48;
+    v58 * v58;
+    const v60 = a52 / a52;
+    const v61 = a53 < a53;
+    v61 && v61;
+    const o66 = {
+        n(a64, a65) {
+            return v61;
+        },
+    };
+    const v67 = o66?.isPrototypeOf;
+    try { new v67(v61); } catch (e) {}
+    return v60;
+}
+for (let v69 = 0; v69 < 500; v69++) {
+    ~v69;
+    f51(Uint8Array);
+}
+let v74 = undefined;
+const o75 = {
+};
+v74 = o75;

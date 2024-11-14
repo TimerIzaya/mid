@@ -1,0 +1,79 @@
+[];
+const v3 = new Int8Array(2332);
+function f4(a5, a6) {
+    function F7(a9, a10, a11) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.g = a11;
+        } catch(e12) {
+        }
+        try {
+            this.h = a5;
+        } catch(e13) {
+        }
+    }
+    const v14 = new F7(2332, F7, 2332);
+    new F7(v14, v3, v14);
+    new F7(a5, 2332, a6);
+    return v14;
+}
+v3.valueOf = f4;
+v3[2012] = v3;
+Float32Array.toString = f4;
+const v19 = new Float32Array(0);
+const v20 = v19?.toString;
+try { new v20(); } catch (e) {}
+new Int8Array(1998);
+try { ("m").localeCompare(Float32Array); } catch (e) {}
+class C27 {
+}
+C27.e = C27;
+C27.e = C27;
+const v28 = new C27();
+const v29 = new C27();
+function f30() {
+    return f4;
+}
+Object.defineProperty(v29, "toString", { writable: true, enumerable: true, get: f30 });
+const v31 = new C27();
+function f32() {
+}
+function F33(a35, a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    a36.toString = f4;
+    Object.defineProperty(a37, "toString", { writable: true, configurable: true, value: f4 });
+    function F39() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let i43 = 0, i44 = 10; i43 < i44; i44--) {
+        }
+        for (let v51 = 0; v51 < 10; v51++) {
+            for (let v52 = 0; v52 < 5; v52++) {
+            }
+            const o54 = {
+                __proto__: null,
+            };
+            try { o54.valueOf(); } catch (e) {}
+        }
+    }
+    new F39();
+    try { a36.toString(); } catch (e) {}
+    let v58;
+    try { v58 = a37.valueOf(); } catch (e) {}
+    v58.toString = f30;
+    try { v58.valueOf(); } catch (e) {}
+    a38.e = a38;
+    const v60 = this?.constructor;
+    let v61;
+    try { v61 = new v60(v29, a37, a35); } catch (e) {}
+    a37[0];
+    try { a38.toLocaleString(); } catch (e) {}
+    try {
+        this.d = f32;
+    } catch(e64) {
+        C27[[11,-268435456,-2147483648,9007199254740991,-2,536870889,-51277,-9809]] = v61;
+    }
+}
+const v66 = new F33("m", C27, v31, C27);
+const v67 = v66?.d;
+try { new v67(); } catch (e) {}
+new F33(v28, v29, "m", v28);

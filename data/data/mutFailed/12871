@@ -1,0 +1,65 @@
+function f0() {
+    const o7 = {
+        set b(a5) {
+            %VerifyType("15");
+            a5 % "15";
+        },
+        1073741824: "15",
+        [-1]: "15",
+        "c": "15",
+        "g": "split",
+        "f": -65537,
+        ..."split",
+        5: "15",
+    };
+    return o7;
+}
+f0();
+f0();
+f0();
+class C11 {
+    #n(a13, a14) {
+        try { a14.deleteProperty(this, this); } catch (e) {}
+        const o18 = {
+            "maxByteLength": 231237832,
+        };
+        const v20 = new ArrayBuffer(8, o18);
+        const v22 = new Float32Array(v20);
+        return v22;
+    }
+}
+new C11();
+new C11();
+new C11();
+new Int8Array(16);
+new Float64Array(6);
+new Int8Array(-65535);
+const v38 = new Uint32Array();
+Object.defineProperty(v38, "constructor", { writable: true, configurable: true, enumerable: true, value: Symbol });
+let v39 = -4294967297n;
+const v40 = v39--;
+function f41(a42, a43, a44, a45) {
+    const v46 = a42.keys;
+    try { v46(); } catch (e) {}
+    function f48() {
+        return f48;
+    }
+    a42.constructor = f48;
+    const t47 = a42?.constructor;
+    const v50 = t47();
+    const o58 = {
+        [v39](a52, a53, a54, a55) {
+            eval();
+        },
+    };
+    new Array(v50);
+    const v62 = new Int8Array(v50, v39);
+    const v64 = v62.buffer.slice(v46, v50);
+    try { v64.slice(v40); } catch (e) {}
+    return f48;
+}
+for (let v66 = 0; v66 < 10; v66++) {
+    f41(v38);
+}
+%OptimizeFunctionOnNextCall(f41);
+f41(5);

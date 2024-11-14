@@ -1,0 +1,83 @@
+function f0() {
+}
+class C1 extends f0 {
+    static e = f0;
+    constructor() {
+        super();
+        const t6 = `-12`;
+        t6[this] = this;
+        this.a;
+        const o7 = {
+            "maxByteLength": 2253,
+        };
+        const v9 = new ArrayBuffer(2253, o7);
+        new Uint8ClampedArray(v9);
+    }
+}
+const v12 = new C1();
+const v13 = new C1();
+const v14 = new C1();
+function f18() {
+    return v14;
+}
+class C19 extends f18 {
+    static [-2.0] = f18;
+    set d(a21) {
+        const o22 = {
+            __proto__: v14,
+            6: -2.0,
+            [-1]: a21,
+        };
+    }
+    a = v13;
+    g = v12;
+}
+new f18();
+let v24 = new C19();
+new C19();
+let v27 = Int16Array;
+function f28() {
+    v27--;
+    class C31 {
+        static #m(a33) {
+        }
+        set d(a35) {
+            this.#m();
+        }
+        constructor(a38) {
+            function f39() {
+                return f39;
+            }
+            Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f39 });
+        }
+    }
+    const v40 = new C31(-4294967296);
+    v40.g = v40;
+    const v41 = new C31("string");
+    v41.length = -4294967296;
+    v41.length;
+    while (0 < 10) {
+        for (let v46 = 0; v46 < 5; v46++) {
+            const t60 = "string";
+            t60["p" + v46] = v46;
+        }
+        v24++;
+    }
+    const v50 = new C31();
+    const v51 = [v50,v50,v50,v50,v50];
+    const v52 = [v50];
+    class C53 extends C31 {
+        [v40];
+        #n(a55, a56, a57, a58) {
+        }
+        #g;
+    }
+    const v59 = new C53();
+    v52.constructor;
+    try { v59.m(v51); } catch (e) {}
+    return v41;
+}
+%PrepareFunctionForOptimization(f28);
+f28();
+%OptimizeFunctionOnNextCall(f28);
+f28();

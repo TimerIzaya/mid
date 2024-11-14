@@ -1,0 +1,69 @@
+class C3 {
+    static get c() {
+        const v5 = "c" !== "kfUU";
+        try { new v5(this, v5, v5); } catch (e) {}
+        [9223372036854775807,2147483647,4294967295,268435440,2,611935227,1945161219,755221440,268435441];
+        [-536870912];
+        [9223372036854775807,-1265435827,-18089,-12,127];
+        try {
+            this.length = 0;
+        } catch(e11) {
+        }
+        return 0;
+    }
+    a;
+    f = "o";
+}
+const t16 = "kfUU";
+const v12 = new t16();
+const v13 = new C3();
+const v14 = new C3();
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a18;
+    } catch(e19) {
+    }
+    try {
+        this.f = a17;
+    } catch(e20) {
+    }
+    try {
+        this.h = C3;
+    } catch(e21) {
+    }
+}
+const v22 = new F15(F15, "c");
+const v23 = new F15(F15, "kfUU");
+const v24 = new F15("o", "o");
+class C25 extends F15 {
+    p(a27, a28) {
+        a28 &&= v13;
+        Object.defineProperty("o", "length", { configurable: true, enumerable: true, value: v23 });
+        a28.a;
+        v13[-2] *= v22.__proto__;
+        return v23;
+    }
+    c = v12;
+    3;
+    constructor(a32, a33, a34, a35) {
+        super("o", a33);
+        super.h = a32;
+        v22[4] = v22;
+        try {
+            v24.e = v13;
+        } catch(e36) {
+        }
+    }
+}
+const v37 = new C25(v24, "kfUU", v12, v23);
+const v38 = new C25(v12, "o", v13, v22);
+new C25(v37, "o", v14, v38);
+const v42 = new Float32Array(99);
+for (const v43 of v42) {
+    function F44(a46, a47) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.g = v43;
+    }
+    new F44();
+}

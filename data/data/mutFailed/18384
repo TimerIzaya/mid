@@ -1,0 +1,52 @@
+class C3 {
+    ["n"] = "acos";
+    constructor(a5, a6) {
+        const o10 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o10);
+    }
+}
+const v12 = new C3("n", "n");
+const v13 = new C3("n", "n");
+const v14 = new C3("acos", "n");
+function f15() {
+    return "acos";
+}
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f21() {
+        return C3;
+    }
+    function f22(a23) {
+        delete this[a23];
+    }
+    Object.defineProperty(this, "e", { writable: true, enumerable: true, get: f21, set: f22 });
+    try {
+        this.e = f15;
+    } catch(e25) {
+    }
+    try {
+        this.g = a19;
+    } catch(e26) {
+    }
+    try {
+        this.d = a19;
+    } catch(e27) {
+    }
+}
+new F16(v12, v14, v12);
+new F16(v14, "n", v13);
+new F16("2147483649", v12, C3);
+function f31() {
+    return f31;
+}
+function f32() {
+    class C33 {
+    }
+    return C33.name;
+}
+f31.toString = f32;
+const v37 = [f31,f31(),[4,4294967295,-14,-2068970124,63345,9007199254740992,14312,-1300834415,59193]];
+try { v37.toLocaleString(v37); } catch (e) {}

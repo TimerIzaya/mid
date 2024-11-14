@@ -1,0 +1,81 @@
+const v0 = [8,-304609311];
+const v1 = [-2,1073741824,64888,46767,-9223372036854775808];
+const v2 = [2942,65536,268435456,5838,11];
+Reflect.construct(v2, [v2,v1,v1,Reflect], v2);
+const o6 = {
+};
+new Proxy(v1, o6);
+class C9 {
+    set b(a11) {
+        const v12 = `
+            const o15 = {
+                "maxByteLength": 536870888,
+            };
+            const v17 = new ArrayBuffer(10, o15);
+            new DataView(v17);
+        `;
+        eval(v12);
+        let v22;
+        try { v22 = a11(this); } catch (e) {}
+        try {
+            super.includes(v22, this, v22);
+        } catch(e24) {
+        }
+        function F25(a27, a28, a29, a30) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = a27;
+            } catch(e31) {
+            }
+        }
+        const v32 = new F25(a11, v2, this, v2);
+        new F25(v0, v1, v22, this);
+        new F25(v1, v2, v32, v1);
+    }
+}
+new C9();
+new C9();
+const v37 = new C9();
+function f38(a39, a40) {
+    const o48 = {
+        ...a39,
+        "a": C9,
+        "c": C9,
+        "d": v1,
+        n(a42, a43, a44) {
+            let [] = a43;
+            a42[7] = v37;
+            typeof a42 === "object";
+            return a39;
+        },
+    };
+    return o48;
+}
+f38(v0, v1);
+f38(v1, v1);
+const v51 = f38(v0, v1);
+const v52 = v51?.c;
+try { new v52(); } catch (e) {}
+~-2.479206403929293;
+try { new Uint32Array(Uint32Array, "mSzyD", -1000000000.0); } catch (e) {}
+v2[v51];
+try {
+    ("mSzyD").normalize();
+} catch(e71) {
+}
+try { Uint32Array.from("mSzyD"); } catch (e) {}
+7 - 7;
+try { new Int16Array(Uint32Array, Uint32Array, Int16Array); } catch (e) {}
+function f81(a82, a83) {
+    function f85(a86) {
+        return a83;
+    }
+    class C89 {
+        toString(a91) {
+            this.e *= 0.8199829542463926;
+        }
+    }
+    this.onmessage = f85;
+    return a82;
+}
+2147483649 - 2147483649;

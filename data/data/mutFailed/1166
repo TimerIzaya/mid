@@ -1,0 +1,29 @@
+function f0() {
+}
+new Reflect(Reflect);
+[2147483648,9,3];
+const v4 = [65537,1073741825,7841,-12,13];
+const v5 = [1073741823,4294967295];
+v5[1] = v5;
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v11 = this?.d;
+    try { new v11(a8, a9, a9); } catch (e) {}
+    try { a8.pop(); } catch (e) {}
+    a10.g = a10;
+    try {
+        this.f = Reflect;
+    } catch(e14) {
+    }
+    try {
+        this.d = a9;
+    } catch(e15) {
+    }
+}
+const v16 = F6.length;
+new F6(v4, v5, v4);
+const v18 = new F6(v4, v5, Reflect, v5, v16);
+new F6(v5, v5, v18, F6);
+try { new Uint16Array(Uint16Array, v4, Uint16Array); } catch (e) {}
+const v23 = new Uint16Array(3);
+v23.indexOf();

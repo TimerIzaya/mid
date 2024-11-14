@@ -1,0 +1,14 @@
+new Float32Array(97);
+new Uint8Array(2248);
+new Uint16Array(3568);
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const t6 = "Z";
+const v14 = new t6();
+const o16 = {
+    [-1]: v14,
+    get b() {
+        return F12;
+    },
+};

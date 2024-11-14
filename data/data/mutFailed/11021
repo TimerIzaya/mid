@@ -1,0 +1,45 @@
+function f3() {
+    return -4736;
+}
+function f4(a5) {
+    a5 >>> a5;
+    const o7 = {
+        ...a5,
+        "b": -4736,
+        "h": -50584,
+        [-4736]: -4736,
+        ...a5,
+        "a": f3,
+        "d": -4736,
+        ...-4736,
+        "e": a5,
+        "c": f3,
+        179: -50584,
+        __proto__: a5,
+        [f4]: f3,
+        "f": 9223372036854775807,
+        1: -4736,
+        /*
+        __proto__: 9223372036854775807,
+        */
+        3: a5,
+        "h": -4736,
+        "c": a5,
+        ...-50584,
+    };
+    return o7;
+}
+function f8() {
+    return f3;
+}
+Object.defineProperty(f4, "toString", { writable: true, enumerable: true, get: f8 });
+try { f4(-4736); } catch (e) {}
+const v10 = f4(-4736);
+v10.g = f4;
+v10.g = v10;
+f4(-50584);
+f4(-50584);
+3.0 << 3.0;
+Date[Symbol.toPrimitive] = Date;
+const v20 = new Date(Date);
+v20.setFullYear();

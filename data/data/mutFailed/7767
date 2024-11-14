@@ -1,0 +1,63 @@
+let v0 = "string";
+class C3 {
+    [C3] = "string";
+    constructor(a5, a6) {
+        a6[0] = this;
+        v0 = "string";
+        for (let v7 = 0; v7 < 58; v7++) {
+            ("boolean").normalize("NFKD");
+        }
+    }
+    static #a = "string";
+    ["string"];
+    static d = v0;
+    f;
+}
+const v11 = new C3(v0, "string");
+const v12 = new C3("string", "string");
+const v13 = new C3("string", "symbol");
+function f14(a15, a16) {
+    const o18 = {
+        "f": "symbol",
+        "g": a15,
+        "a": v0,
+        "b": a16,
+        __proto__: a16,
+        "h": v12,
+        get d() {
+            a15[this] = a15;
+            return a15;
+        },
+        [a15]: v13,
+        "c": v11,
+        "d": "symbol",
+        2307819295: C3,
+    };
+    return o18;
+}
+const v19 = f14(v0, v0);
+const v20 = f14(v19, "string");
+const v21 = f14("string", "string");
+function f22(a23, a24, a25) {
+    const o35 = {
+        "h": C3,
+        [v21]: a23,
+        valueOf(a27, a28, a29, a30) {
+            a24 in a24;
+            a28 - this;
+            for (let v33 = 0; v33 < 10; v33++) {
+                try {
+                    a28.__proto__ = v12;
+                } catch(e34) {
+                }
+            }
+            return v12;
+        },
+        "e": v21,
+    };
+    return o35;
+}
+f22(v19, v20, "symbol");
+f22(v19, v11, "symbol");
+f22(v20, v13, v0);
+Float32Array.bind();

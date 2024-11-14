@@ -1,0 +1,10 @@
+new BigUint64Array(1024);
+new BigInt64Array("boolean");
+const t2 = "boolean";
+const v11 = new t2(512);
+const t4 = "f";
+t4[450] = v11;
+let v12 = -4294967297n;
+v12--;
+const v15 = ([v12]).toLocaleString();
+try { v15.split("boolean", 1024); } catch (e) {}

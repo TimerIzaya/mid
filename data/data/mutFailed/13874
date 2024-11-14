@@ -1,0 +1,21 @@
+function f0() {
+}
+const v5 = new Uint16Array(512);
+new Float32Array(v5);
+new Uint8Array(127);
+const t5 = 6;
+new t5(6);
+new BigInt64Array(6);
+class C15 {
+}
+function f16(a17, a18) {
+    const o19 = {
+        "c": a18,
+        __proto__: C15,
+    };
+    o19.c;
+    return o19;
+}
+%PrepareFunctionForOptimization(Uint8Array);
+%OptimizeFunctionOnNextCall(f16(C15, C15));
+f16(C15, v5);

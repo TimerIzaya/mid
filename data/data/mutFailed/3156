@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 7;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+function f6(a7) {
+    return a7;
+}
+v5.constructor = f6;
+const v11 = new F0();
+function f12(a13) {
+    a13.toString = f12;
+    const v14 = a13?.constructor;
+    try { new v14(); } catch (e) {}
+    const o27 = {
+        __proto__: a13,
+        "a": F0,
+        "d": v5,
+        [a13]: a13,
+        set f(a17) {
+            class C18 extends F0 {
+                h;
+                [a13] = v5;
+                constructor(a20, a21, a22) {
+                    super();
+                    try {
+                        v11.__proto__ = this;
+                    } catch(e23) {
+                    }
+                }
+            }
+            new C18();
+            new C18();
+            new C18();
+        },
+        [v5]: v4,
+        "b": a13,
+    };
+    return o27;
+}
+const v28 = f12(v5);
+f12(v5);
+const v30 = f12(v5);
+v30.b = v30;
+try { ("a").fixed(); } catch (e) {}
+let v36 = 26448;
+v36--;
+const v38 = -v36;
+v38 - v38;
+try { BigInt64Array.toString(); } catch (e) {}
+new BigInt64Array(1520);
+3 / 3;
+const v48 = new Int32Array(3);
+try { v48.reduceRight(v28); } catch (e) {}
+Int16Array.BYTES_PER_ELEMENT;
+new Int16Array(127);
+-1073741824 - -1073741824;
+const v58 = new Int32Array(2528);
+v58[0] %= -1073741824;

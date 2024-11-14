@@ -1,0 +1,23 @@
+new Float32Array(129);
+new Uint16Array(2, Uint16Array);
+function f11() {
+    ("1073741823").trimRight();
+    return "1073741823";
+}
+%PrepareFunctionForOptimization(f11);
+f11();
+%OptimizeFunctionOnNextCall(f11);
+f11();
+const v16 = new Int8Array(216);
+const v17 = [0.0,1000000000.0,168.7956281727238,-575464.6142395872,-1000000000.0,938.6271876998214];
+const v20 = new v16(64);
+v20[5] = v17;
+function f21(a22, a23, a24) {
+    return v20;
+}
+const v27 = [v20,v17,216,-1190291307,216];
+const o28 = {
+    "caller": v27,
+    "type": "function",
+};
+new Error(f21, o28);

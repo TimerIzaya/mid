@@ -1,0 +1,26 @@
+class C3 {
+    #p(a5) {
+        new Float64Array(2754);
+        new BigUint64Array(154);
+        new Uint8ClampedArray(229);
+        return "a";
+    }
+    #c = "V";
+    static 5 = "V";
+}
+const v15 = new C3();
+const v16 = v15?.__lookupGetter__;
+try { new v16(v15); } catch (e) {}
+new C3();
+const v19 = new C3();
+const v20 = v19?.__lookupSetter__;
+try { new v20(v16); } catch (e) {}
+Float32Array.b = Float32Array;
+const v24 = new Float32Array(64);
+v24[61];
+const t19 = 64;
+new t19(11);
+const v31 = new Int16Array(64);
+const v34 = new Uint16Array(v31);
+const v35 = v34.reverse();
+try { v35.reduceRight(64); } catch (e) {}

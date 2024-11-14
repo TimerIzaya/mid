@@ -1,0 +1,96 @@
+const v0 = [-Infinity,-5.885881966320108,1.7976931348623157e+308];
+const v1 = [Infinity];
+function f2(a3) {
+    %VerifyType(a3);
+    try { a3(a3, v0, v0, v0, a3); } catch (e) {}
+    return a3;
+}
+Object.defineProperty(v1, "toString", { configurable: true, enumerable: true, value: f2 });
+const v5 = [-2.809718812364874,-3.0,-1.3424735045187772e+307,-Infinity,587885.7120917332,NaN];
+function f6() {
+    return f2;
+}
+Object.defineProperty(v5, "toString", { writable: true, get: f6 });
+try { new Array(v5); } catch (e) {}
+const v10 = new Array(1393);
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = v1;
+    function f16() {
+        const v19 = new Uint16Array(5);
+        v19[3] = 1695802898;
+        return v19;
+    }
+    a15[Symbol.toPrimitive] = f16;
+    const v23 = this?.__defineGetter__;
+    try { new v23(this, F11); } catch (e) {}
+    try { a15.copyWithin(v5, a13); } catch (e) {}
+    try {
+        this.g = v10;
+    } catch(e26) {
+    }
+    try {
+        this.f = 1393;
+    } catch(e27) {
+    }
+}
+const v28 = new F11(v10, 1393, v5);
+const v29 = new F11(v10, v0, v5);
+v29.c = v28;
+v29.c = v29;
+new F11(v10, 1393, v1);
+3 >>> 3;
+function f37(a38) {
+    function F39() {
+        if (!new.target) { throw 'must be called with new'; }
+        class C41 {
+        }
+        for (let i44 = 0, i45 = 10;
+            i44++, i44 < i45;
+            (() => {
+                const v50 = [601759695];
+                const v51 = [1073741824,1073741823,1376142744,1073741825];
+                function f52(a53, a54, a55, a56) {
+                    a56 - a56;
+                    function f58() {
+                        return a53;
+                    }
+                    function f59(a60, a61) {
+                        return a60;
+                    }
+                    try { f59(); } catch (e) {}
+                    f59(v51, C41);
+                    try { v51["find"](..."find", a56, ...v50, ...v51); } catch (e) {}
+                    return C41;
+                }
+                for (let v66 = 0; v66 < 10; v66++) {
+                    f52(v66, f52, i44, v66);
+                }
+            })()) {
+        }
+    }
+    new F39();
+    return F39;
+}
+Uint8Array.toString = f37;
+Uint8Array.prototype = Uint8Array;
+function f71(a72, a73, a74, a75) {
+    a72.BYTES_PER_ELEMENT = a72;
+    const v76 = 3 | a73;
+    v76 - v76;
+    const v78 = a72 / a72;
+    const v79 = v78 % v78;
+    a73 < a72;
+    v1 >>> a74;
+    const o85 = {
+        n(a83, a84) {
+            return 3;
+        },
+    };
+    return v79;
+}
+for (let v86 = 0; v86 < 625; v86++) {
+    v86 - v86;
+    let v88 = f71(Uint8Array);
+    v88++;
+}

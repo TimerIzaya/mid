@@ -1,0 +1,107 @@
+const v2 = new Int32Array(2);
+Int16Array.BYTES_PER_ELEMENT = Int16Array;
+const v5 = new Int16Array(2);
+function f8(a9, a10) {
+    return a10;
+    ([,[,,,,,]]).fill();
+    return a10;
+}
+Uint32Array.valueOf = f8;
+const v15 = new Uint32Array(256);
+const v17 = [[256,Uint32Array],Uint32Array,Uint32Array];
+Object.defineProperty(Uint32Array, "valueOf", { writable: true, configurable: true, enumerable: true, value: f8 });
+new Uint32Array(2432);
+8 & 8;
+const v24 = Math.log10(8);
+const v25 = [v15,v15];
+try { v25.group(2); } catch (e) {}
+class C30 {
+    static p(a32, a33) {
+        super.b = 2;
+        function f34() {
+            return v17;
+        }
+    }
+}
+try { new C30(); } catch (e) {}
+const v36 = new C30();
+function f37(a38) {
+    class C40 {
+        [720972705n];
+        #p(a42, a43, a44, a45) {
+            super.m();
+        }
+    }
+    return a38;
+}
+v36.constructor = f37;
+const v47 = v36?.constructor;
+let v48;
+try { v48 = new v47(); } catch (e) {}
+const v49 = [-2,257,-107178159,-35269,9223372036854775807,1203530861,-32678];
+function f50() {
+    return v24;
+}
+function f51(a52) {
+    function F53() {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.f = 10137;
+        } catch(e56) {
+        }
+        try {
+            this.a = 10137;
+        } catch(e57) {
+        }
+        try {
+            this.h = 10137;
+        } catch(e58) {
+        }
+    }
+}
+Object.defineProperty(v49, 8, { writable: true, get: f50, set: f51 });
+v49[7] = 2432;
+try { v49.fill(v5); } catch (e) {}
+class C60 {
+}
+function f61() {
+    %VerifyType(Uint32Array);
+    new Int32Array(v17, 8, 8);
+    return v48;
+}
+C60.constructor = f61;
+try { C60.constructor(v36); } catch (e) {}
+const v64 = new C60();
+function f65(a66, a67, a68) {
+    const o70 = {
+        get b() {
+            return C60;
+        },
+        127: v64,
+    };
+    return f65;
+}
+const o81 = {
+    __proto__: 1000000000000.0,
+    m(a72) {
+        const v75 = new Int8Array(3938);
+        let v76 = 3;
+        let v77 = 0;
+        v77 >> v77;
+        for (let i = 0; i < 5; i++) {
+            [...v76] = v75;
+            v77++;
+        }
+        const o80 = {
+        };
+    },
+};
+const v83 = new Proxy(v49, o81);
+v83[8] = v25;
+v83[7] = Math;
+v83.unshift(v36);
+const o85 = {
+    __proto__: v83,
+};
+try { o85.map(v2); } catch (e) {}
+try { o85.reduceRight(v83); } catch (e) {}

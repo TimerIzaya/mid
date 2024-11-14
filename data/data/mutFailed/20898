@@ -1,0 +1,30 @@
+function f0() {
+}
+const v1 = [f0,f0,f0,f0];
+const v2 = [f0,v1];
+[v1];
+const v5 = new WeakMap();
+function f6() {
+    return v5;
+}
+new Array(1300);
+function f12(a13) {
+    const o14 = {
+        "apply": Array,
+        "get": f6,
+        "getOwnPropertyDescriptor": f0,
+        "getPrototypeOf": Array,
+        "has": f0,
+        "preventExtensions": f6,
+        "setPrototypeOf": f0,
+    };
+    new Proxy(v2, o14);
+    return v1;
+}
+Object.defineProperty(Uint32Array, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, value: f12 });
+function f19(a20, a21) {
+    return 256;
+}
+Uint32Array.valueOf = f19;
+const v23 = new Date(Uint32Array);
+v23.getSeconds();

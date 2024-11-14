@@ -1,0 +1,29 @@
+function f3() {
+    return f3;
+}
+f3.arguments = f3;
+%VerifyType(-4096);
+const v5 = Symbol.isConcatSpreadable;
+const t6 = 0;
+t6[v5] = v5;
+g = -43895;
+const v12 = [0.8168056736595735,5.0];
+const v13 = [-1.6156970509368386e+308,4.0,2.2250738585072014e-308,NaN];
+try { v13.with(-2147483648, v12); } catch (e) {}
+[1.7976931348623157e+308,1.135317860469978e+308,195.53559754296407,-1000.0,184720.17871762463,-2.0,0.0];
+try { ("valueOf").padStart("valueOf"); } catch (e) {}
+class C20 {
+}
+const v21 = new Symbol();
+const v23 = /wo?/gud;
+f3.e = /[\011]\x60O\ud808\udf45*/gms;
+const v25 = /[x\dz]PEuWxyz{1,32}?/gud;
+class C26 extends C20 {
+    static set d(a28) {
+        "9" / (12 && v21);
+    }
+}
+try { new C26(); } catch (e) {}
+const v33 = Symbol.toStringTag;
+Symbol.for(v33.description);
+v25[v33] = v23;

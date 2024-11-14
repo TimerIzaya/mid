@@ -1,0 +1,68 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 256;
+    } catch(e3) {
+    }
+    try {
+        this.g = 256;
+    } catch(e4) {
+    }
+    try {
+        this.a = 256;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+const v10 = new WeakSet();
+class C11 {
+    #b;
+    f;
+    static #toString(a13, a14) {
+        const v15 = [v7,a13,a14];
+        [v6,WeakSet,v10];
+        [WeakSet,v15];
+        try {
+            v7.#b = v8;
+        } catch(e18) {
+        }
+        return v8;
+    }
+    #c;
+    static [v6];
+}
+C11.d = C11;
+const v19 = new C11();
+const v20 = new C11();
+v20.b = v20;
+const v21 = new C11();
+const v22 = v21?.constructor;
+try { new v22(); } catch (e) {}
+const v25 = new WeakMap();
+const v26 = v25?.constructor;
+try { new v26(); } catch (e) {}
+[C11,v6,v25];
+const v29 = [v10,v10];
+let v30;
+try { v30 = v19.entries(); } catch (e) {}
+[v10,F0,v7,v29];
+const v34 = new Int8Array(127);
+v34[59];
+for (const v36 in v34) {
+}
+try { this.readline(); } catch (e) {}
+const v39 = this.escape();
+try { v39.strike(); } catch (e) {}
+const v41 = [16,-1337814116,1282563165,-268435456,-256,58611,-4294967296,-10,-9223372036854775807,9];
+v41.keys();
+function f43(a44, a45) {
+    const o46 = {
+        "g": v41,
+    };
+    return o46;
+}
+f43.length;
+%OptimizeFunctionOnNextCall(f43);
+v30();

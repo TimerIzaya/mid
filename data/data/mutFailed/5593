@@ -1,0 +1,52 @@
+const v1 = new Date();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a4;
+    } catch(e5) {
+        let {"b":v6,"e":v7,"h":v8,...v9} = e5;
+        Date(v7);
+        %PrepareFunctionForOptimization(Date);
+        Date(v7);
+        Date(v7);
+        %OptimizeMaglevOnNextCall(Date);
+        Date(v7);
+    }
+    try {
+        this.b = a4;
+    } catch(e14) {
+    }
+}
+const v15 = new F2(v1);
+const v16 = new F2(v15);
+const v17 = new F2(v1);
+/^R(?:ab)?foo[z]*/gudimy;
+const v19 = /a{/gms;
+const v20 = /1(?<!)+/ums;
+Date["now"]();
+class C29 {
+    [-4096] = -12;
+    [v16] = 512;
+    static c = Date;
+    valueOf(a31, a32, a33, a34) {
+        try {
+            super.set(-4096, a33, v20, v19, v19);
+        } catch(e36) {
+        }
+        return v17;
+    }
+    static [v15] = Date;
+    e = v17;
+    static 4 = v19;
+    [v17];
+}
+const v37 = new C29();
+const v38 = new C29();
+new C29();
+const v40 = [];
+const o42 = {
+    __proto__: v16,
+    ...v16,
+};
+try { v37["valueOf"](...v17, ..."valueOf", v20, v38, C29); } catch (e) {}
+v40[6] = 4294967295;

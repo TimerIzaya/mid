@@ -1,0 +1,23 @@
+new Float64Array(9);
+new WeakSet(16);
+new BigInt64Array(3017);
+const v11 = new Uint32Array(129);
+new Uint8ClampedArray(2);
+new BigInt64Array(-128);
+function F18() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v20 = new F18(BigInt64Array, BigInt64Array, v11);
+const v21 = new F18();
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v26 = this?.b;
+    let v27;
+    try { v27 = new v26(v26, F22); } catch (e) {}
+    try { this.constructor(v21, Uint8ClampedArray, v27); } catch (e) {}
+    try {
+        v20.h = v21;
+    } catch(e29) {
+    }
+}
+new F22(v20, F22);

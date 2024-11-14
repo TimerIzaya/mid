@@ -1,0 +1,21 @@
+new Object(Object);
+new BigInt64Array(107);
+new Promise(Promise, Promise);
+function f12() {
+    return f12;
+}
+const v15 = new Uint32Array();
+v15[40];
+for (let v17 = 0; v17 < 25; v17++) {
+    try { v15(v17); } catch (e) {}
+}
+function F19() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v21 = 0; v21 < 1000; v21++) {
+        const v23 = "p" + F19;
+        v23.tan();
+        this[v23] = v21;
+    }
+}
+new F19(32820);
+new Uint32Array();

@@ -1,0 +1,33 @@
+class C3 {
+    constructor(a5) {
+        const v6 = this?.__lookupGetter__;
+        try { new v6(1.0); } catch (e) {}
+        a5 ^ a5;
+        try { Math.round(1.0); } catch (e) {}
+        Math.min("split");
+        Math.cbrt("split");
+        Math.cosh("string");
+        "split" * a5;
+    }
+}
+const v18 = new C3(1.0);
+const v19 = new C3(v18);
+v19.b = v19;
+const v20 = new C3(1.0);
+v20.e = v20;
+const v21 = [-9007199254740992,-10,2147483647,127,4294967296,62602];
+[-1,4294967297];
+const v23 = [1,-2147483648,129,-1399447181,4,-65536,-9007199254740992,-835516864,-57812,4];
+try { v23.lastIndexOf(v20); } catch (e) {}
+BigUint64Array.prototype = BigUint64Array;
+const v26 = new v21();
+try { v26.entries(); } catch (e) {}
+function f28(a29, a30) {
+    return a30;
+}
+const v31 = /o(\xed\xb0\x80)\x01/gudims;
+const v33 = Symbol.toPrimitive;
+Symbol.for(v33.description);
+v31[v33] = f28;
+const v37 = /(xyz{93})/gusy;
+try { v37.compile(v26, v31); } catch (e) {}

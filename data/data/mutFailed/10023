@@ -1,0 +1,26 @@
+new Float64Array(5);
+new Float64Array(206);
+new Float32Array(752);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a14;
+    } catch(e15) {
+    }
+    try {
+        this.b = a13;
+    } catch(e16) {
+    }
+    try {
+        this.a = this;
+    } catch(e17) {
+    }
+}
+const v18 = new F9(752, 206, Float32Array, 206);
+const v19 = new F9(752, 752, v18, 5);
+new F9(v18, 5, v19, 752);
+const o23 = {
+    "maxByteLength": 3952309630,
+};
+new ArrayBuffer(1000, o23);
+F9.transfer();

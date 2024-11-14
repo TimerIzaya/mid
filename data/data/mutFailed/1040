@@ -1,0 +1,52 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -765157397;
+    } catch(e3) {
+    }
+}
+function f4(a5, a6) {
+    function f12(a13, a14, a15, a16) {
+        const o19 = {
+            get b() {
+                a16[3] = "-26733";
+                for (let v18 = 0; v18 < 24; v18++) {
+                }
+                return a14;
+            },
+            "e": a16,
+            "f": 1073741825,
+            "a": 1073741825,
+        };
+        return o19;
+    }
+    f12(257, 1535195999, 1535195999, "9007199254740991");
+    return F0;
+}
+F0[Symbol.toPrimitive] = f4;
+const v23 = new F0();
+new F0();
+new F0();
+const v28 = new Float32Array(7);
+try { v28.join(F0); } catch (e) {}
+new Uint32Array(1386);
+try { Int8Array.of(); } catch (e) {}
+const v36 = new Int8Array(10);
+v36[7] = v36;
+const v37 = [Float32Array,F0];
+try { v37.reduce(v28); } catch (e) {}
+const v39 = [v23,Uint32Array,Float32Array,7,Uint32Array];
+[Uint32Array,v37,Int8Array,v39];
+function f42(a43) {
+    return f42;
+}
+const v44 = f42(undefined);
+v44.arguments;
+function f46() {
+    return f46;
+}
+f46[Symbol.toPrimitive] = f4;
+const v49 = [v44,,];
+v49[1] = v39;
+const v50 = v49.group(f46);
+v50.b = v50;

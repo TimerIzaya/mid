@@ -1,0 +1,73 @@
+class C6 {
+    static #o(a8, a9) {
+        a9[4] = this;
+        try {
+            this.d = -0.0;
+        } catch(e10) {
+        }
+        return this;
+    }
+    #d;
+    [512n] = 2.2250738585072014e-308;
+    [2.2250738585072014e-308] = -0.0;
+    static [512n];
+    d;
+    #g = -0.0;
+}
+const v11 = new C6();
+v11[512];
+new C6();
+const v14 = new C6();
+v14[512] = v14;
+const v16 = new Map();
+try { v16.clear(); } catch (e) {}
+let v18;
+try { v18 = v16.set(-268435456n, Map); } catch (e) {}
+const v19 = v18?.clear;
+try { new v19(); } catch (e) {}
+const v22 = -1000000000000.0 - -1000000000000.0;
+7.436186273562494e+307 >> 7.436186273562494e+307;
+-1359832726 >> -1359832726;
+const v28 = [4096,2147483648,4096];
+try { v28.pop(); } catch (e) {}
+const v31 = new Int16Array();
+function f32() {
+    class C33 {
+    }
+    const v34 = new C33();
+    function f35(a36, a37) {
+        function f38() {
+            class C39 {
+            }
+            const v40 = new C39();
+            class C41 extends C39 {
+                [v40];
+            }
+            const v42 = new C41();
+            const t46 = v42.constructor;
+            new t46();
+            return C33;
+        }
+        %PrepareFunctionForOptimization(f38);
+        f38();
+        f38();
+        %OptimizeFunctionOnNextCall(f38);
+        f38();
+        return v34;
+    }
+    return v18;
+}
+Object.defineProperty(v31, "constructor", { configurable: true, enumerable: true, value: f32 });
+let v48;
+try { v48 = v31.fill(2.2250738585072014e-308); } catch (e) {}
+const v49 = v48?.constructor;
+try { new v49(v22, v22, v14); } catch (e) {}
+const v53 = new Uint8Array(105);
+v53[Symbol.toPrimitive] = f32;
+function f56(a57, a58) {
+    a58 === Int16Array ? a58 : Int16Array;
+    return a57;
+}
+v53.valueOf = f56;
+v53[62] = v53;
+try { v28(-1359832726, ...v53, ...v31, Int16Array); } catch (e) {}

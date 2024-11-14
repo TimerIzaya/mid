@@ -1,0 +1,42 @@
+const v5 = new Int8Array(9);
+let v6 = 62596;
+v6++;
+Uint16Array.e = Uint16Array;
+new Uint16Array(v6);
+const v12 = new Float32Array(1000);
+v12.BYTES_PER_ELEMENT = v12;
+function f14(a15) {
+    const o19 = {
+        __proto__: 2,
+        ...a15,
+        p(a17, a18) {
+            return a18;
+        },
+    };
+    return o19;
+}
+%PrepareFunctionForOptimization(f14);
+const v20 = f14();
+class C21 {
+}
+const v22 = new C21();
+const v23 = v22?.constructor;
+try { new v23(); } catch (e) {}
+const v25 = v22.toLocaleString(v22, C21, C21, v22);
+try { v25.valueOf(); } catch (e) {}
+v25.normalize();
+function f28() {
+    try { new Uint16Array(v5, f28, Uint16Array); } catch (e) {}
+    2 / 2;
+    const v33 = 2 !== 2;
+    const v35 = new f14(2);
+    const v36 = new Uint16Array(v35);
+    try { v36.entries(); } catch (e) {}
+    v36[1] = v36;
+    return v33;
+}
+const v40 = new Worker(218);
+try { v40.set(218); } catch (e) {}
+v40.sort(f28);
+%OptimizeFunctionOnNextCall(f14);
+f14(v20);

@@ -1,0 +1,45 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    let v3 = WeakSet;
+    let v4;
+    try { v4 = v3(this); } catch (e) {}
+    ({"e":v3,"f":F0,...F0} = v4);
+    function F5(a7) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.b = a7;
+        } catch(e8) {
+        }
+        try {
+            this.g = v3;
+        } catch(e9) {
+        }
+        try {
+            this.a = this;
+        } catch(e10) {
+        }
+    }
+    const v11 = new F5(this);
+    new F5(v11);
+    new F5(F0);
+    try {
+        this.h = 536870889;
+    } catch(e14) {
+    }
+}
+const v15 = new F0();
+const v16 = new F0();
+for (let i19 = 0, i20 = 10; i19 < i20; i19++, i20--) {
+    try { F0(i19, v15, i19, i19); } catch (e) {}
+}
+const v29 = new F0();
+[v29,-1626791577n,65536n,65536n,-4294967295n,v16];
+const v34 = [-4294967295n,v29,v16,-1626791577n,v15];
+[F0,v16,v29,-4294967295n,v34,v34,v34];
+const v37 = new BigUint64Array();
+v37["copyWithin"]();
+class C40 {
+}
+class C41 {
+}
+new C41();

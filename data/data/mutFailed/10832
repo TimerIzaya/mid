@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -14189;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new v4();
+const v6 = new F0();
+v6[-2] = v6;
+class C10 extends F0 {
+    constructor(a12, a13) {
+        super();
+        v6[-2];
+        const o18 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o18);
+    }
+}
+const v20 = new C10(v4, "cXax");
+const v21 = new C10(v20, "cXax");
+const v22 = new C10(v21, "cXax");
+function f24(a25) {
+    const o29 = {
+        __proto__: 2,
+        213: a25,
+        ...a25,
+        "g": 2,
+        p(a27, a28) {
+            return 2;
+        },
+    };
+    return o29;
+}
+f24(f24);
+%PrepareFunctionForOptimization(f24);
+const v31 = v22();
+%OptimizeFunctionOnNextCall(v20);
+f24(v31);

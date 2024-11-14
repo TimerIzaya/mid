@@ -1,0 +1,128 @@
+function f0() {
+    const o8 = {
+        ["n"]: 4.0,
+        __proto__: "n",
+        "f": 4.0,
+        ..."n",
+        "d": 4.0,
+        "f": f0,
+        "maxByteLength": 4294967295,
+        "a": f0,
+        268435439: 4294967295,
+        [4.0](a5, a6) {
+        },
+        16: 4294967295,
+        "b": 4294967295,
+        "e": 4.0,
+        "h": 4294967295,
+        get g() {
+            return 4.0;
+        },
+        "maxByteLength": 4294967295,
+        "apply": f0,
+        "c": 4.0,
+        1073741823: "n",
+    };
+    function f9(a10, a11) {
+        4294967295 ^ 4294967295;
+        new Int8Array(2);
+        new Float32Array(4096);
+        new Int16Array(1825);
+        return f0;
+    }
+    o8[Symbol.toPrimitive] = f9;
+    function F24(a26) {
+        if (!new.target) { throw 'must be called with new'; }
+        class C27 {
+            constructor() {
+                const v29 = this.constructor;
+                try { new v29(); } catch (e) {}
+                super.f >>= this;
+            }
+        }
+        new C27();
+    }
+    return o8;
+}
+const v32 = f0();
+const v33 = f0();
+function f34() {
+    try {
+        new f0();
+    } catch(e36) {
+    }
+    return f0;
+}
+Object.defineProperty(v33, Symbol.toPrimitive, { writable: true, configurable: true, value: f34 });
+const v39 = f0();
+const v40 = [v33,v33];
+v40[Symbol.toPrimitive] = f34;
+const v43 = [v40,v32];
+const v44 = [f0,f0,f0,v32,v43];
+function f45() {
+    return ("Z").normalize("NFKC");
+}
+Object.defineProperty(v44, "toString", { writable: true, configurable: true, value: f45 });
+function f49(a50, a51) {
+    a50.toString = f45;
+    const o75 = {
+        [a51]: v40,
+        ...v44,
+        "arguments": v40,
+        set g(a53) {
+        },
+        __proto__: v44,
+        /*
+        __proto__: v32,
+        */
+        [v44](a55, a56, a57) {
+            function F58(a60, a61, a62) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a55;
+                } catch(e63) {
+                }
+                try {
+                    this.d = a51;
+                } catch(e64) {
+                }
+                this.fuck(this, this, this, this, this);
+                function f67(a68, a69, a70, a71) {
+                    return this;
+                }
+            }
+            new F58(a51, a50, v43);
+            new F58(a57, v33, a50);
+            new F58(F58, v32, f0);
+            return v33;
+        },
+    };
+    for (const v79 of Array()) {
+        v40[658291203] = null;
+    }
+    return o75;
+}
+f49(f49(v32, v32), v33);
+f49(v39, v39);
+const o83 = {
+};
+function f84(a85) {
+    for (let v86 = 0; v86 < 5; v86++) {
+        const v87 = v86 < v86;
+        class C88 {
+        }
+        const v89 = C88.constructor;
+        v89[Symbol.toPrimitive] = f34;
+        try { v89(v87, v87, v86, v89, v89); } catch (e) {}
+    }
+    return a85;
+}
+Object.defineProperty(o83, "h", { enumerable: true, set: f84 });
+o83.h = o83;
+try {
+    const o94 = {
+    };
+    o94[Symbol.iterator] = f34;
+    new Map(o94);
+} catch(e98) {
+}

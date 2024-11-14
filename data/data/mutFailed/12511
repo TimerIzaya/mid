@@ -1,0 +1,14 @@
+new eval(-4);
+new Uint8ClampedArray(46);
+new Int8Array(2016);
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this(19793);
+        for (const v17 of 65536) {
+        }
+        [];
+    } catch(e19) {
+    }
+}
+new F12();

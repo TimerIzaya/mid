@@ -1,0 +1,36 @@
+function f3(a4) {
+    const o15 = {
+        14: 1,
+        536870887: -2147483649,
+        "a": a4,
+        "b": 1,
+        ...19109,
+        __proto__: 19109,
+        get f() {
+            const v8 = new Float64Array(-2, -2, -2);
+            new Uint16Array(11);
+            new Uint32Array(6);
+            return v8;
+        },
+    };
+    return o15;
+}
+f3(1, -2147483649, -2147483649);
+f3(-2147483649);
+f3(1);
+new WeakSet(6);
+new Uint16Array(129);
+new Int32Array(0);
+class C28 {
+}
+const v29 = new C28();
+function F30(a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v34 = ~a33;
+    const v35 = this.__proto__;
+    const v36 = v35?.constructor;
+    try { new v36(v29, f3, v29, v34); } catch (e) {}
+    v35.toLocaleString();
+}
+new F30();
+new F30();

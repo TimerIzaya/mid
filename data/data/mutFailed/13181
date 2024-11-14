@@ -1,0 +1,39 @@
+function f0() {
+    const o8 = {
+        "b": "1073741825",
+        [-2]: -148148833,
+        "c": "1073741825",
+        "f": "9007199254740991",
+        o(a5, a6) {
+            try {
+                a5.__proto__ = a6;
+            } catch(e7) {
+            }
+            return "1073741825";
+        },
+        "g": "1073741825",
+    };
+    return o8;
+}
+const v9 = f0();
+f0();
+f0();
+class C12 extends v9 {
+    #valueOf(a14, a15) {
+        return -1.213398030713511e+308;
+    }
+    static p(a20, a21) {
+        a20[Symbol.toStringTag] = a20;
+        return a20;
+    }
+}
+new C12();
+new C12();
+new C12();
+new Array(2);
+const v34 = ["bpkzx",v9,"bpkzx"];
+"bpkzx" * [v34,v34,v34];
+try {
+    v34.length = -2147483649;
+} catch(e37) {
+}

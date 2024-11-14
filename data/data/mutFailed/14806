@@ -1,0 +1,49 @@
+const v0 = /[ja\sc?]/u;
+const v1 = /7N1wR?/guim;
+const v2 = /a(?!b)/gdiy;
+function f3() {
+    return 729674856;
+}
+v2.toString = f3;
+new BigInt64Array(13);
+new Uint16Array(129);
+new Uint8ClampedArray(3269);
+function f16(a17, a18, a19, a20) {
+    a20[Symbol.toPrimitive] = f16;
+    const o26 = {
+        get g() {
+            super.h = v2;
+            this[Symbol.matchAll] = BigInt64Array;
+            return this;
+        },
+        "e": a19,
+        __proto__: v2,
+        [v2]: a18,
+        ...a20,
+        "a": a19,
+        "c": v0,
+        "h": a19,
+        "b": a19,
+    };
+    return o26;
+}
+f16(13, v1, v0, v2);
+f16(13, f16, v1, v2);
+f16(3269, v0, v1, v0);
+const v30 = [601759695];
+function f31(a32, a33, a34, a35) {
+    arguments[2] = arguments;
+    function f37() {
+        const o38 = {
+            __proto__: a34,
+        };
+        o38[0] = o38;
+        return f31;
+    }
+    const v39 = f37();
+    %OptimizeFunctionOnNextCall(f37);
+    return v39;
+}
+for (let v40 = 0; v40 < 5; v40++) {
+    f31(v30, v40, v40);
+}

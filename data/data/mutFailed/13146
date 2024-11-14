@@ -1,0 +1,29 @@
+function f0() {
+    const o8 = {
+        4: 1.3101247839084082e+308,
+        "g": 1073741824,
+        ...1000000.0,
+        get a() {
+            super[1000000.0] = 1000000.0;
+            %VerifyType(1.3101247839084082e+308);
+            this[Symbol.unscopables];
+            return 1.3101247839084082e+308;
+        },
+        [1.3101247839084082e+308]: 1073741824,
+        ...1000000.0,
+        8: 1000000.0,
+    };
+    return o8;
+}
+f0(f0);
+f0();
+f0();
+new Float64Array(16);
+new Float32Array(2);
+new Uint8ClampedArray(-18557);
+const o30 = {
+    n(a26, a27) {
+        return Math.ceil(64n);
+    },
+};
+try { o30.n(o30, o30, o30, o30); } catch (e) {}

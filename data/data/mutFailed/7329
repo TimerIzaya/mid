@@ -1,0 +1,56 @@
+const v0 = /[x]/guim;
+const v1 = /YE(x)(x)(x)\1*/gvi;
+function f2() {
+    function f3() {
+        const v4 = /h\p{gc=Nd}/vdy;
+        function F7(a9, a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v13 = new F7(v4, F7, -23596, 1);
+        v13 | F7;
+        return v4;
+    }
+    return f3;
+}
+Object.defineProperty(v1, "toString", { writable: true, get: f2 });
+const v15 = /[a+b]/umy;
+v15[Symbol.toPrimitive] = f2;
+class C18 {
+    [v15] = v1;
+    #h;
+    m(a20, a21) {
+        const v22 = a20 < this;
+        super[this];
+        return v22;
+    }
+    static [v1];
+    static c;
+    e = v0;
+}
+try { new C18(); } catch (e) {}
+new C18();
+const v26 = new C18();
+v26.b = v0;
+v26.b = v26;
+new C18();
+const v31 = [];
+try { v31.sort(v0); } catch (e) {}
+function F33(a35, a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v39 = a35.lastIndexOf(a35, a36);
+    v39 === v39;
+}
+const v41 = new F33(v31);
+function f42() {
+    function f43() {
+        new Uint8ClampedArray(0);
+        return v1;
+    }
+    return f43;
+}
+Object.defineProperty(v41, "constructor", { get: f42 });
+const v47 = v41?.constructor;
+try { new v47(-2n, -2n, v31, -2n); } catch (e) {}
+const v49 = v41.constructor;
+v49.e = v49;
+try { new v49(); } catch (e) {}

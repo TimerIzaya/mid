@@ -1,0 +1,70 @@
+function f0() {
+    const o20 = {
+        get f() {
+            try {
+                this.f = Infinity;
+            } catch(e5) {
+            }
+            return -1000000000.0;
+        },
+        "h": -468.5006438155974,
+        o(a7, a8) {
+            a8 >>= -1000000000.0;
+            const v10 = Symbol.iterator;
+            const o19 = {
+                [v10]() {
+                    let v12 = 10;
+                    const o18 = {
+                        next() {
+                            v12--;
+                            const v16 = v12 == 0;
+                            const o17 = {
+                                "done": v16,
+                                "value": 0,
+                            };
+                            return o17;
+                        },
+                    };
+                    return o18;
+                },
+            };
+            return v10;
+        },
+    };
+    return o20;
+}
+const v21 = f0();
+f0();
+const v23 = f0();
+function f24() {
+    return v21;
+}
+let v27 = 1000.0;
+v27 >>> -9.103832797164438e+307;
+/jsa\D/guisy.unicode;
+class C33 {
+    static {
+        this.prototype;
+        try { Math.atan(f0); } catch (e) {}
+        -4294967296 | -4294967296;
+        ++v27;
+    }
+}
+0.9542102040223277 !== 0.9542102040223277;
+const v45 = new Date();
+-7 * -7;
+const v50 = [];
+const v51 = v50?.keys;
+try { new v51(); } catch (e) {}
+function F53(a55, a56, a57, a58) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v59 = this?.toLocaleString;
+    try { new v59(); } catch (e) {}
+    try { a55.some(v23); } catch (e) {}
+    const v62 = a55.lastIndexOf(a55, a56);
+    v62 - v62;
+}
+const v64 = new v51(v50);
+const v65 = v64.constructor;
+try { new v65(-7, -7, Date, -7); } catch (e) {}
+try { new v45(); } catch (e) {}

@@ -1,0 +1,22 @@
+const v0 = [];
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v0;
+    } catch(e12) {
+    }
+    try {
+        this.g = "trunc";
+    } catch(e13) {
+    }
+    try {
+        this.b = "trunc";
+    } catch(e14) {
+    }
+}
+const v15 = new F7(F7, 1.0, v0);
+const v16 = new F7(v15, v0, v15);
+new v16("undefined", 1000000.0, v16);
+for (let v20 = 0; v20 < 10; v20++) {
+    Symbol[Symbol.match] = 5.0;
+}

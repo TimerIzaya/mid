@@ -1,0 +1,30 @@
+[-6,-128,-1024,0,536870888,-1174308135];
+[9007199254740990];
+[18471];
+new Float64Array(4);
+new Float64Array(4);
+const v11 = new Uint8ClampedArray(2);
+function f15(a16, a17, a18, a19) {
+    function f20() {
+        let v22 = Math.expm1(a17);
+        v22--;
+        const v24 = Math.tanh(Math);
+        const o25 = {
+            [v24]: 4,
+        };
+        o25.NaN = o25;
+        return f15;
+    }
+    f20();
+    eval(a19);
+    %OptimizeFunctionOnNextCall(f15);
+    Object.defineProperty(a17, a18, { writable: true, enumerable: true, get: f20, set: f15 });
+    function f29() {
+        return v11;
+    }
+    %VerifyType(2);
+    return eval;
+}
+for (let v30 = 0; v30 < 5; v30++) {
+    f15(v30, v30, f15, f15);
+}

@@ -1,0 +1,35 @@
+let v2 = -8n;
+function f9(a10, a11, a12) {
+    const o25 = {
+        ...a12,
+        get c() {
+            a12["padStart"]("1", "padStart");
+            return "padStart";
+        },
+        get e() {
+            let v16 = this;
+            [v16,v2,v16] = a12;
+            v16 ^= v16 && "-2147483648";
+            const o20 = {
+                "maxByteLength": 110,
+            };
+            new SharedArrayBuffer(110, o20);
+            new Float64Array("-2147483648");
+            return a12;
+        },
+    };
+    return o25;
+}
+f9(4294967297n, 4294967297n, "1");
+f9(10375n, 10375n, "-9007199254740992");
+const v28 = f9(v2, 10375n, "1");
+Uint32Array.toJSON = 0;
+function f31(a32, a33) {
+    return a32;
+}
+[f9];
+const o37 = {
+    "arguments": v28,
+    "type": "function",
+};
+new Worker(f31, o37);

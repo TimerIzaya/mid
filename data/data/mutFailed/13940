@@ -1,0 +1,60 @@
+const v3 = [-2];
+const v4 = [-9223372036854775808,-9223372036854775808,-9223372036854775808,-9223372036854775808,-2];
+v4[2] = v4;
+const v5 = [v3];
+function f6(a7, a8, a9) {
+    try { a7.unshift(a7); } catch (e) {}
+    const o11 = {
+        ...a9,
+        ...a8,
+        "c": v4,
+        7: -26575,
+        __proto__: a7,
+        "g": a7,
+        [a7]: -2,
+        [-26575]: v3,
+        "e": -2,
+        "a": v4,
+        "h": v4,
+        2147: a9,
+    };
+    return o11;
+}
+f6(v4, v3, v4);
+f6(v3, v4, v5);
+f6(v3, v5, v3);
+-40925;
+const v19 = [536870887,-42204,-17288903,-3,9007199254740991,7];
+const v20 = [6,268435440,13,1073741825];
+try { v20.concat(v19); } catch (e) {}
+const v22 = [-15,-2147483649,-899333997,3,1455560807,-1024,-4294967297,2098301778];
+v22[7] = v22;
+class C23 {
+    constructor(a25) {
+        try { a25.toLocaleString(); } catch (e) {}
+        function f27(a28, a29) {
+            a28[5];
+        }
+        const v31 = f27?.toString;
+        try { new v31(); } catch (e) {}
+        f27(v22);
+        f27(v19);
+        f27(a25);
+    }
+}
+let v36;
+try { v36 = new C23(10); } catch (e) {}
+const v37 = C23.constructor;
+const v38 = new C23(v20);
+v38.c = v38;
+const v39 = new C23(v19);
+try { v39.propertyIsEnumerable(v22); } catch (e) {}
+v39.constructor;
+const v42 = new v36(v38);
+v42.b = v42;
+try { v19.some(v37); } catch (e) {}
+const o44 = {
+    __proto__: 40925,
+};
+o44[7] = v3;
+try { o44.groupToMap(); } catch (e) {}

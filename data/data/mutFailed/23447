@@ -1,0 +1,46 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 26477;
+    } catch(e3) {
+    }
+    try {
+        this.d = 26477;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new v5();
+const v7 = new F0();
+const v11 = [v6,v6,v6,-1073741824n];
+const v12 = [v6,v11,F0];
+[v11,-65535n,v7,v11,v12];
+class C14 {
+    constructor(a16, a17, a18, a19) {
+        function f20() {
+            return C14;
+        }
+    }
+    static set e(a22) {
+        this[-65535n] = this;
+        try {
+            v11.toString = a22;
+        } catch(e23) {
+        }
+    }
+}
+new C14(v6, -1073741824n, v6, v12);
+const v25 = new C14(v7, -1073741824n, v5, -1073741824n);
+new C14(v25, -1073741824n, v25, F0);
+function f27() {
+    function f28(a29, a30) {
+        return -65535n;
+    }
+    f28.MAX_SAFE_INTEGER = f28;
+    Promise.resolve(f28);
+    return f27;
+}
+%PrepareFunctionForOptimization(f27);
+f27();
+%OptimizeFunctionOnNextCall(f27);
+f27();

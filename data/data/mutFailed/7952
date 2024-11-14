@@ -1,0 +1,132 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [v1,v1,f0,f0,v1];
+const v3 = [v2,v1,v2];
+function f4() {
+    return v3;
+}
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a8;
+    } catch(e9) {
+    }
+    try {
+        this.g = v1;
+    } catch(e10) {
+    }
+    try {
+        this.e = a7;
+    } catch(e11) {
+    }
+}
+new F5(v3, v1);
+const v13 = new F5(v2, v3);
+new F5(v1, v3);
+class C15 {
+    static [v2];
+    static c;
+    static n(a17, a18) {
+        [a18];
+        return [[F5],a17,a17,v13];
+    }
+    [C15];
+    static 129;
+    [v1];
+    [v13] = v3;
+}
+new v13();
+new C15();
+new C15();
+class C26 extends Map {
+    constructor(a28, a29) {
+        super(v2);
+        Map / a29;
+    }
+    static 3;
+}
+const v31 = new C26();
+const v32 = new C26();
+const v33 = new C26();
+const v37 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+const v39 = new Uint32Array(5);
+let v40 = -4294967297n;
+v40--;
+const v42 = [601759695];
+const v43 = [1073741824,1073741823,1376142744,1073741825];
+function f45(a46, a47, a48, a49) {
+    try { a46.toLocaleString(); } catch (e) {}
+    const v51 = a46?.constructor;
+    let v52;
+    try { v52 = v51(); } catch (e) {}
+    try { v51(); } catch (e) {}
+    const v55 = arguments.length;
+    Object.defineProperty(v31, "e", { configurable: true, enumerable: true, value: f45 });
+    const v57 = v32["entries"](a48, ...v33, BigUint64Array, ..."entries", a47, v55);
+    const v59 = Symbol.toStringTag;
+    v32[v59] = v59;
+    function f60() {
+        let v62;
+        try { v62 = ("Vre").charAt(4096); } catch (e) {}
+        try { v62.lastIndexOf(f60); } catch (e) {}
+        let v64;
+        try { v64 = ("Vre").codePointAt(v37); } catch (e) {}
+        v64 - v64;
+        v64 ^ v64;
+        let v67 = Float64Array;
+        v67 = v67;
+        let v68 = v37.length;
+        v68++;
+        try {
+            v43.forEach(a47);
+        } catch(e71) {
+            e71.stack = e71;
+        }
+        const o82 = {
+            "c": v40,
+            "EPSILON": v42,
+            valueOf(a73, a74) {
+                return a74;
+            },
+            1073741824: v39,
+            [v40](a76, a77, a78, a79) {
+                eval(v52);
+            },
+            "arguments": 5,
+            256: a49,
+        };
+        o82[256];
+    }
+    f60();
+    const v86 = Array();
+    let v87;
+    try { v87 = v86.findLast(f45, v39); } catch (e) {}
+    v86.unshift("entries", v57, "entries", v87);
+    let v90;
+    try { v90 = Int8Array.of(); } catch (e) {}
+    let v91;
+    try { v91 = v90.join(v51); } catch (e) {}
+    const v92 = new Int8Array(v91);
+    v92.c = v92;
+    const v93 = v92.buffer;
+    v93.maxByteLength;
+    const v95 = v93.slice(v51);
+    try { Int32Array(v95, arguments, v40); } catch (e) {}
+    function f98(a99, a100, a101, a102) {
+        return v31;
+    }
+    const v103 = new Int32Array();
+    const v104 = v103[3];
+    v104 + v104;
+    for (let v106 = 0; v106 < 5; v106++) {
+    }
+    %OptimizeFunctionOnNextCall(f60);
+    try { v43["find"](..."find", a49, ...v42, ...v43, ...522675525n); } catch (e) {}
+    return v51;
+}
+for (let v109 = 0; v109 < 10; v109++) {
+    f45(v39);
+}
+%OptimizeFunctionOnNextCall(f45);
+f45();

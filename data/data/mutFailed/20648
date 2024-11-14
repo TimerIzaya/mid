@@ -1,0 +1,68 @@
+const v5 = 127 - 127;
+v5 << v5;
+-(-1936403421);
+let v9 = 287;
+v9--;
+const v12 = new Uint8ClampedArray(v9);
+try { v12.reverse(); } catch (e) {}
+let v14;
+try { v14 = v12.reverse(); } catch (e) {}
+try { v14.map(127); } catch (e) {}
+v14[133] = v14;
+const v18 = new Int16Array(1);
+const v19 = v18?.with;
+try { new v19(1, 1); } catch (e) {}
+2 / 2;
+2 != 2;
+const v25 = new Uint8Array(2);
+let v26;
+try { v26 = v25.with(v5, Int16Array); } catch (e) {}
+v26[1] = v26;
+let v27;
+try { v27 = v25.subarray("valueOf", 127); } catch (e) {}
+v27[1];
+class C29 {
+}
+C29.length = C29;
+C29.name = C29;
+class C30 extends C29 {
+}
+C30.e = C30;
+try { C30(); } catch (e) {}
+const v32 = new C30();
+const v35 = new Uint8Array(2);
+v35[1] = v35;
+let v36;
+try { v36 = v35.entries(); } catch (e) {}
+try { v36.next(); } catch (e) {}
+const v39 = new Uint32Array(C30);
+let v40;
+try { v40 = v39.fill(v12); } catch (e) {}
+let v41;
+try { v41 = v40.entries(); } catch (e) {}
+const v42 = v41?.toLocaleString;
+try { new v42(); } catch (e) {}
+function f44(a45, a46, a47, a48) {
+    a45--;
+    -a48;
+    a45.name = a45;
+    try { a45.apply(); } catch (e) {}
+    const v52 = new a45(a48, a46, v32);
+    try { v52.entries(); } catch (e) {}
+    const o57 = {
+        "b": a45,
+        ...v35,
+        n(a55, a56) {
+            v39[a45] = v39;
+            return a56;
+        },
+    };
+    o57[1] = o57;
+    o57[1] = o57;
+    return a45;
+}
+f44.caller = f44;
+try { f44(1, 1, Uint8ClampedArray, -1936403421); } catch (e) {}
+for (let v59 = 0; v59 < 500; v59++) {
+    f44(Uint8Array);
+}

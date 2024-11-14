@@ -1,0 +1,22 @@
+new Int8Array(127);
+new Float64Array(9);
+const v11 = new Int16Array(8);
+new Uint32Array(5);
+new Uint32Array(8);
+new Int32Array(6);
+function F22(a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        function f25(a26, a27, a28) {
+            return a27;
+        }
+        const v31 = [a24];
+        const o32 = {
+            "arguments": v31,
+            "type": "function",
+        };
+        Int32Array(f25, o32);
+    } catch(e34) {
+    }
+}
+new v11();

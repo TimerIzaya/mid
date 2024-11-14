@@ -1,0 +1,87 @@
+let v1 = 537971777;
+class C3 {
+    o(a5) {
+        function F7(a9, a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                a11 > a9;
+                this[9] = this;
+                this.g;
+                a12 = this;
+                try {
+                    this.valueOf = a11;
+                } catch(e15) {
+                }
+                this.c = a5;
+            } catch(e16) {
+            }
+            try {
+                this.e = this;
+            } catch(e17) {
+            }
+        }
+        const v18 = new F7("E", "E", F7, Proxy);
+        const v19 = new F7(F7, v18, this, F7);
+        new F7(v1, "E", F7, v19);
+        return v18;
+    }
+}
+let v21;
+try { v21 = new C3(); } catch (e) {}
+try {
+    new C3();
+} catch(e23) {
+}
+const v25 = new C3();
+let v26;
+try { v26 = v25.isPrototypeOf(C3); } catch (e) {}
+const v27 = new C3();
+const v28 = v27?.__lookupGetter__;
+let v29;
+try { v29 = new v28("E"); } catch (e) {}
+const v30 = new C3();
+class C31 {
+    constructor(a33, a34) {
+        const v35 = a34?.constructor;
+        try { new v35(); } catch (e) {}
+        super.c = v26;
+    }
+    #e;
+    static a;
+    static [2.0];
+    #f;
+    static #b = v29;
+    6 = "E";
+    static [-2] = "E";
+    static f = C3;
+    #a;
+}
+C31.prototype = C31;
+const v40 = new C31(C31, v25);
+v40[6] = v40;
+const v41 = new C31(v40, v25);
+delete v30?.[9007199254740991n];
+v1 &= v21;
+const v46 = v41.c;
+const v47 = new C31(v41, v25);
+v47[6] = v47;
+new v46(16);
+const v53 = new Uint16Array(117);
+function f54() {
+    function f56(a57) {
+        delete v47[a57];
+        return 16;
+    }
+    this.onmessage = f56;
+    return v30;
+}
+v53.valueOf = f54;
+v53[68] = v53;
+-v29;
+new Uint16Array(2560);
+const o63 = {
+};
+o63.h = v53;
+o63.h = o63;
+("undefined")[5];
+("undefined").localeCompare("undefined", o63);

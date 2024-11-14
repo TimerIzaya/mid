@@ -1,0 +1,100 @@
+class C3 {
+    constructor(a5, a6) {
+        a5.a = this;
+        try {
+            this.fuck(a5, /xyz{93}[(?<!)]/uds, undefined);
+        } catch(e10) {
+        }
+    }
+    static #o(a12, a13) {
+        const o17 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o17);
+        return a13;
+    }
+}
+C3.undefined = -9223372036854775807;
+const v19 = new C3(-9223372036854775807, -9223372036854775807);
+function f20() {
+    const o21 = {
+    };
+    return o21;
+}
+v19[Symbol.toPrimitive] = f20;
+const v24 = new C3(C3, 2.0);
+v24[Symbol.toPrimitive] = f20;
+const v27 = new C3(C3, -9223372036854775807);
+class C28 {
+    constructor(a30, a31, a32, a33) {
+        function f34(a35, a36) {
+            const o37 = {
+            };
+            try {
+                o37.a = a35;
+            } catch(e38) {
+            }
+            try {
+                const o39 = {
+                };
+                o39.a = a35;
+                o39.c = a36;
+            } catch(e40) {
+            }
+            try {
+                const o41 = {
+                };
+                o41.a = a35;
+                o41.c = a36;
+                o41.g = a36;
+            } catch(e42) {
+            }
+            try {
+                const o43 = {
+                };
+                o43.a = a35;
+                o43.c = a36;
+                o43.d = a35;
+            } catch(e44) {
+            }
+            return this;
+        }
+        this.toString = f34;
+        v27[v24] = C3;
+        this & C3[a32];
+        v27[1714] = C3;
+        a31[C3.a];
+    }
+    static #a = 2.0;
+    [v19] = v27;
+    static #e;
+    #d = 55725;
+    [-1] = v27;
+}
+const v50 = new C28(v19, C3, -9223372036854775807, v27);
+const v51 = new C28(v50, v27, v19, v50);
+new C28(C28, v51, -9223372036854775807, v19);
+[-4010,8,-65535,-65536,-4,12];
+[-12,2,-1973182328,42588,1,-25565,-35036];
+[-62117,16,65537];
+class C57 {
+}
+const v58 = new C57();
+const v59 = new C57();
+function f60(a61, a62) {
+    const o71 = {
+        [-943.3768400471749]: v59,
+        [a62](a64, a65, a66) {
+        },
+        p(a68, a69) {
+            this.toString(a69, this, v58, a62);
+            return a61;
+        },
+    };
+}
+%PrepareFunctionForOptimization(f60);
+f60();
+f60();
+%OptimizeFunctionOnNextCall(f60);
+f60();

@@ -1,0 +1,48 @@
+new Uint16Array(256);
+256 === 256;
+const v6 = new Int16Array(256);
+v6[80];
+const v10 = new Int8Array(4);
+function f11() {
+    return v10;
+}
+class C12 {
+    #valueOf(a14, a15, a16, a17) {
+        for (const v18 of v6) {
+            a17 = a15;
+        }
+        new Float64Array(127);
+        new Int16Array(3512);
+        new Int32Array(256);
+        return 256;
+    }
+}
+try { new C12(); } catch (e) {}
+const v29 = new C12();
+const v30 = v29?.constructor;
+try { new v30(); } catch (e) {}
+const v32 = new C12();
+const v33 = v32?.__lookupGetter__;
+try { new v33(256); } catch (e) {}
+const v35 = new C12();
+class C36 {
+    constructor(a38, a39, a40) {
+        const v41 = this?.constructor;
+        try { new v41(v29, v10, v29); } catch (e) {}
+        for (let v43 = 0; v43 < 25; v43++) {
+            const t32 = "minor";
+            t32[3] = "minor";
+            const o47 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o47);
+        }
+    }
+}
+C36.length = C36;
+const v49 = new C36(C36, C36, C36);
+const v50 = v49?.constructor;
+try { new v50(v35, v35, v49); } catch (e) {}
+new C36(C36, C36, v49);
+new C36();

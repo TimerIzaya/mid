@@ -1,0 +1,57 @@
+function f0() {
+    Object.defineProperty(-7.435430844727233, 1746890208, { get: f0, set: f0 });
+    Object.defineProperty(0, -7.435430844727233 >> f0, { writable: true, enumerable: true, set: f0 });
+    %VerifyType(f0);
+    (0).b;
+    const o15 = {
+        get g() {
+            const o7 = {
+            };
+            try {
+                o7.h = this;
+            } catch(e8) {
+            }
+            try {
+                const o9 = {
+                };
+                o9.h = this;
+                o9.c = this;
+            } catch(e10) {
+            }
+            try {
+                const o11 = {
+                };
+                o11.h = this;
+                o11.c = this;
+                o11.g = "toString";
+            } catch(e12) {
+            }
+            try {
+                const o13 = {
+                };
+                o13.h = this;
+                o13.c = this;
+                o13.g = 0;
+            } catch(e14) {
+            }
+            return "toString";
+        },
+    };
+    return o15;
+}
+f0();
+f0();
+f0();
+[4096];
+new BigUint64Array(64);
+new Uint8Array(0);
+new Uint8Array(3132);
+[-43672,4294967295,4294967295,536870888,268435441,-1073741824,36920,4294967296];
+[1073741823,536870887,255,-4294967295,-3];
+function f37(a38, a39) {
+    return Math.tanh("1");
+}
+%PrepareFunctionForOptimization(f37);
+const v43 = f37();
+%OptimizeFunctionOnNextCall(f37);
+f37(v43, f37);

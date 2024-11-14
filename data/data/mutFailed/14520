@@ -1,0 +1,72 @@
+let v1 = Int32Array;
+const v2 = new v1(2357);
+const v5 = new Uint32Array(1392);
+const v8 = new BigInt64Array(1262);
+const v9 = [-1000000000.0];
+const v10 = [-4.64579133938895e+307,0.6771630625536085,-258.4222852029221,Infinity,-1.7976931348623157e+308];
+const v11 = [NaN,-632842.5302683171,-82236.49497993791,1.7976931348623157e+308];
+function f13(a14, a15, a16) {
+    const o25 = {
+        "d": v2,
+        [1262]: 1262,
+        "e": a15,
+        get g() {
+            ++v1;
+            BigInt64Array >>> v8;
+            try {
+                v10.valueOf = new.target;
+            } catch(e24) {
+            }
+            return -1000000.0;
+        },
+        "f": a15,
+        ...v5,
+        ...v11,
+        536870889: v5,
+        4: 1392,
+        2147483649: a16,
+        "a": a16,
+        [a16]: v8,
+        "b": a16,
+        "g": 1392,
+        __proto__: v11,
+        /*
+        __proto__: v8,
+        */
+        "h": 2357,
+        "c": 1262,
+        "a": a16,
+    };
+    return a16;
+}
+f13(2357, 1392, 1262);
+f13(2357, v9, 2357);
+const v28 = f13(2357, BigInt64Array, 1262);
+const v31 = new Float32Array(1899);
+class C32 {
+    static {
+        this[6] = C32;
+        v31[5] = this[6];
+    }
+}
+function f35(a36, a37, a38, a39) {
+    function f40() {
+        return a38;
+    }
+    function f41() {
+        return v9;
+    }
+    function f42(a43) {
+        typeof a43 === "object";
+    }
+    Object.defineProperty(f40, "e", { writable: true, configurable: true, enumerable: true, get: f41, set: f42 });
+    const v47 = f40.bind(a38, f35, a37, f35);
+    v47.e = v28;
+    v47.e = v47;
+    return a38;
+}
+for (let v48 = 0; v48 < 10; v48++) {
+    f35();
+}
+%OptimizeFunctionOnNextCall(f35);
+f35(f35, f35, f35, f35);

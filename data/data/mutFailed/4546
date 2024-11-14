@@ -1,0 +1,73 @@
+function f0() {
+    function f2() {
+        delete arguments.callee;
+        return arguments;
+    }
+    const o32 = {
+        [-1000000.0](a8, a9) {
+            const o10 = {
+            };
+            const v12 = [9007199254740992,-12,-65536,21712,-1,-65536,-152029754,536,-4,1193126662];
+            const o13 = {
+                [v12]: undefined,
+            };
+            ("resizable").constructor;
+            const v18 = new Float32Array(165);
+            v18[35] = v18;
+            new Uint16Array(v18);
+            new Proxy("uw93f", o10);
+            let v24 = 256;
+            512 >> a9;
+            const v26 = Math.log1p(v24);
+            ++a9;
+            Math.acosh("resizable");
+            a8 << ++v24;
+            --a8;
+            return v26;
+        },
+    };
+    return o32;
+}
+f0();
+f0();
+f0();
+function f36() {
+    return f0;
+}
+class C43 {
+    static {
+        try {
+        const t0 = 6;
+        t0(this, this);
+        } catch (e) {}
+        Math.cos(1000);
+        Math.tan(1000);
+    }
+}
+const v50 = new C43();
+function f53(a54, a55, a56) {
+    const o60 = {
+        __proto__: a55,
+        [a56]: -2147483648,
+        [a55](a58, a59) {
+        },
+        "c": 6,
+        1073741824: C43,
+    };
+    function f61() {
+        return f0;
+    }
+    Object.defineProperty(o60, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f61 });
+    return o60;
+}
+const v65 = f53(-1, f53());
+v65.toString = f53;
+const v66 = f53(-2147483648, v50);
+v66[Symbol.isConcatSpreadable] = -2147483648;
+const v69 = -5 << v65;
+v66[Symbol.isConcatSpreadable] = v69;
+new Uint16Array(204);
+new Int8Array(1000);
+new Int32Array(154);
+const v81 = new Float64Array(65536, 65536, 65536);
+v81.copyWithin(65536, 4294967297);

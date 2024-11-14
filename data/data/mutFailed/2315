@@ -1,0 +1,210 @@
+function f1() {
+    class C3 extends Date {
+    }
+    const v4 = [C3,C3];
+    try { v4.fill(); } catch (e) {}
+    return Date;
+}
+WeakMap[Symbol.toPrimitive] = f1;
+const v8 = new WeakMap();
+let v9 = [WeakMap,WeakMap,WeakMap,WeakMap];
+v9.toString = Symbol;
+const v10 = [v9,v9,WeakMap,WeakMap];
+v10[Symbol.toPrimitive] = f1;
+const v13 = [v9,WeakMap,v8,v9,v10];
+class C14 {
+    static [v9] = v13;
+    set f(a16) {
+        const v17 = super[a16];
+        const v18 = super.c;
+        try { v17(v13, v18); } catch (e) {}
+        v9 = this;
+    }
+    a = v9;
+    [v8] = WeakMap;
+    [v10];
+    10000 = v13;
+}
+const v20 = new C14();
+try {
+    v10.length = WeakMap;
+} catch(e21) {
+}
+%VerifyType(C14);
+const v22 = new C14();
+const v23 = new C14();
+function f24(a25, a26, a27) {
+    const o145 = {
+        2769291856: v13,
+        set g(a29) {
+            a27 = a26;
+            function F30(a32, a33, a34, a35) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = a34;
+                } catch(e36) {
+                }
+                try {
+                    this.h = a26;
+                } catch(e37) {
+                }
+                try {
+                    this.b = a35;
+                } catch(e38) {
+                }
+            }
+            new F30(v23, C14, a26, a29);
+            new F30(a27, v22, a27, this);
+            function f41() {
+                const o52 = {
+                    toString(a46, a47) {
+                        try {
+                            super.getMinutes(a47);
+                        } catch(e49) {
+                        }
+                        return "object";
+                    },
+                    "type": "boolean",
+                    set g(a51) {
+                    },
+                    "b": "boolean",
+                    "g": "object",
+                    128: "boolean",
+                    "a": 1000000000000.0,
+                    "c": "boolean",
+                    ["object"]: f41,
+                    ..."object",
+                    ["boolean"]: 1000000000000.0,
+                    [f41]: f41,
+                    5: f41,
+                    __proto__: "boolean",
+                    "h": 1000000000000.0,
+                };
+                return o52;
+            }
+            Math.tan(-532550611);
+            const v56 = [8];
+            const v57 = [-1024,-2147483647,-37738,-2,21596,2147483649,9007199254740992,-2039218916];
+            class C58 {
+                static #f;
+                static set f(a60) {
+                    a60(this, this, a60, v56);
+                }
+                constructor(a63) {
+                    this.e = v56;
+                }
+            }
+            try { Math.reduceRight(4294967295, v57, C58); } catch (e) {}
+            const v66 = f41();
+            const v67 = f41();
+            const v68 = f41();
+            %VerifyType(v67);
+            v67 >> f41;
+            Object.defineProperty(v68, "c", { configurable: true, enumerable: true, set: f41 });
+            function F70(a72) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    function f74(a75, a76) {
+                        const o80 = {
+                            [122188848n](a78, a79) {
+                            },
+                        };
+                        return o80;
+                    }
+                    %PrepareFunctionForOptimization(f74);
+                    this.b = a72;
+                } catch(e81) {
+                }
+            }
+            const v82 = new F70(v66);
+            new F70(v67);
+            new F70(v82);
+            v68[128];
+            function F87(a89) {
+                if (!new.target) { throw 'must be called with new'; }
+                a89[128] = a89;
+                try {
+                    this.f = a89;
+                } catch(e90) {
+                }
+                try {
+                    this.h = a89;
+                } catch(e91) {
+                }
+                try {
+                    this.d = v66;
+                } catch(e92) {
+                }
+            }
+            F87.e = F87;
+            new F87(v67);
+            const v94 = new F87(v68);
+            v94.d = v94;
+            new F87(v67);
+            function f96(a97, a98, a99) {
+                a98[128];
+                a99[128] = a99;
+                const o117 = {
+                    get d() {
+                        function f102(a103, a104, a105) {
+                            'use strict';
+                            return a103;
+                        }
+                        return this;
+                    },
+                    ...v94,
+                    2074850330: a97,
+                    get a() {
+                        const o110 = {
+                            "execution": "async",
+                            "type": "major",
+                        };
+                        const v111 = gc(o110);
+                        class C112 {
+                        }
+                        new C112();
+                        Array(36862);
+                        return v111;
+                    },
+                    "b": a98,
+                };
+                o117[2074850330] = o117;
+                return o117;
+            }
+            const v118 = f96(v68, v68, v66);
+            const v119 = f96(v67, v67, v118);
+            v119[2074850330] = v119;
+            f96(v118, v119, v67);
+            function F121(a123, a124, a125) {
+                if (!new.target) { throw 'must be called with new'; }
+                const v126 = this?.constructor;
+                try { new v126(F121, F121, f41); } catch (e) {}
+                a124.g = a124;
+                try {
+                    this.d = a125;
+                } catch(e128) {
+                }
+                try {
+                    this.a = a123;
+                } catch(e129) {
+                }
+            }
+            new F121(v67, v68, v67);
+            try { Uint32Array.bind(F87); } catch (e) {}
+            function f135(a136, a137, a138, a139) {
+                const o140 = {
+                };
+                return o140;
+            }
+            Math?.expm1;
+            new F30(C14, v20, a25, v23);
+        },
+    };
+    return o145;
+}
+f24(v9, v22, v20);
+f24(v8, v23, v23);
+f24(C14, v23, v20);
+class C149 {
+}
+C149.__proto__ = "f";

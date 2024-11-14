@@ -1,0 +1,37 @@
+const v2 = new TypeError(3);
+const v5 = new Worker(1202);
+new BigInt64Array(110);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a12;
+    } catch(e13) {
+    }
+    try {
+        this.h = 3;
+    } catch(e14) {
+    }
+    try {
+        a12.flags = v5;
+    } catch(e15) {
+    }
+}
+new F9(3, F9);
+const v17 = new F9(3, v2);
+new F9(3, v17);
+new ArrayBuffer();
+function f24(a25, a26) {
+    const o31 = {
+        [a25]: Float64Array,
+        4: 3,
+        "b": a25,
+        [a26](a28, a29, a30) {
+        },
+    };
+    return o31;
+}
+%PrepareFunctionForOptimization(f24);
+f24(2, f24, 6, BigInt64Array);
+f24(2);
+%OptimizeFunctionOnNextCall(f24);
+f24();

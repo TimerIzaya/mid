@@ -1,0 +1,28 @@
+new Int8Array(0);
+new Uint8ClampedArray(128);
+BigInt64Array.BYTES_PER_ELEMENT = BigInt64Array;
+new BigInt64Array(153);
+-8 - -8;
+try { new JSON(9, 0); } catch (e) {}
+const v16 = new JSON();
+function f17(a18, a19) {
+    const o26 = {
+        "a": a19,
+        [a18]: v16,
+        [v16]: JSON,
+        [2221](a21, a22, a23) {
+        },
+        ...v16,
+        "b": a18,
+        [a19]: JSON,
+        "h": a18,
+        o(a25) {
+            return a25;
+        },
+    };
+    o26.b = o26;
+    return a19;
+}
+for (let v27 = 0; v27 < 395; v27++) {
+    f17();
+}

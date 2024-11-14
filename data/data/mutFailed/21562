@@ -1,0 +1,107 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 6;
+    } catch(e3) {
+    }
+    try {
+        this.h = 6;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+const v7 = new F0();
+class C8 extends F0 {
+    static get d() {
+        super.h;
+        %VerifyType(v7);
+        return v5.__proto__;
+    }
+    constructor(a13) {
+        for (let v14 = 0; v14 < 32; v14++) {
+            "p" & v14;
+            for (let v17 = 0; v17 < 5; v17++) {
+                function f18() {
+                    return f18;
+                }
+            }
+            this.p16;
+            try { a13(); } catch (e) {}
+        }
+    }
+    static {
+        const v22 = new F0();
+        const v25 = new Uint16Array(3);
+        v25.indexOf();
+        for (let i29 = 0, i30 = 10; i29 < i30; i29++, i30--) {
+        }
+        let v38;
+        try { v38 = F0(); } catch (e) {}
+        v22[v38];
+    }
+    static [v5] = v7;
+    static #g = v7;
+    static b = v5;
+}
+new C8();
+const v41 = new C8();
+v41.b = v41;
+const v42 = new C8();
+v42.a = v42;
+const v44 = [-882453.1668433619,-2.0];
+const v47 = new BigInt64Array(9);
+try { v44.toLocaleString(v47); } catch (e) {}
+function f51(a52, a53, a54, a55) {
+    return a54;
+}
+for (let v56 = 0; v56 < 32; v56++) {
+    break;
+}
+-256 - -256;
+function f59() {
+    for (let [i62, i63] = (() => {
+            switch (f59) {
+            }
+            return [0, 10];
+        })();
+        i62 - i62, i63 << i63, i62 < i63;
+        i62++, i63--) {
+    }
+    return -2;
+}
+const v76 = new Float32Array(260330366);
+new v76(C8);
+const v78 = [1073741824,1073741823,1376142744,1073741825];
+function f79(a80, a81, a82, a83) {
+    try { v78["find"](); } catch (e) {}
+    return v78;
+}
+for (let v86 = 0; v86 < 10; v86++) {
+    f79(v86, f79, v78, v78);
+}
+1994 >>> 1994;
+new Array(1994);
+function F92(a94, a95) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v96 = this?.__lookupGetter__;
+    try { new v96(this); } catch (e) {}
+}
+const v98 = new F92();
+function f99() {
+    const o105 = {
+        [1836424012](a102, a103, a104) {
+        },
+        "e": v98,
+    };
+    return F92;
+}
+f99.prototype;
+%PrepareFunctionForOptimization(f99);
+Date.parse(([188439.8808918628,491144.33908044384,7.99804504476413,6.321598426193364e+307,-820860.9743012136,0.7234201729305241,-998514.8410675353,5.600912141333236]).toString());
+do {
+} while (0 < 9)
+f99();
+f99();
+%OptimizeFunctionOnNextCall(f99);
+f99();

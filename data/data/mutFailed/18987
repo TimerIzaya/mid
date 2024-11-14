@@ -1,0 +1,44 @@
+const o2 = {
+};
+function f3(a4) {
+    const o5 = {
+    };
+    return o5;
+}
+const v6 = f3();
+class C7 extends f3 {
+}
+const v8 = new C7();
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v13 = this.constructor;
+    try { new v13(a11, v13, v13, o2, v13); } catch (e) {}
+    v6[v8] = o2;
+}
+new F9();
+class C17 {
+    static {
+        try {
+            this.fuck(2n, this, this, -4294967295n);
+        } catch(e21) {
+        }
+    }
+    static 1073741824 = -9007199254740992n;
+    static #a = 2n;
+    #c;
+}
+const t29 = 2n;
+new t29();
+new C17();
+new v6();
+new Map();
+const v37 = new Float64Array(Float64Array, Float64Array, Float64Array);
+function f38() {
+    15312 | [Infinity,5.072687501529128e+307,0.4093098171074484,4.0,-4.442441003635313e+306,843998.4933901483,-714.8973177887364];
+    v37.length = 0;
+    return 0;
+}
+%PrepareFunctionForOptimization(f38);
+f38();
+%OptimizeFunctionOnNextCall(f38);
+f38();

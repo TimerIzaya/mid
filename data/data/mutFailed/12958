@@ -1,0 +1,42 @@
+const v0 = [2.0,1e-15,3.0,0.08937731757466583,2.0];
+const v1 = [-1000.0];
+[1.2293006591868903e+308,5.0,579225.014652244,5.0,-2.2250738585072014e-308,-0.0,0.31719364540249606,189.37300550908049,3.8915861521306727,1000000000.0];
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v1;
+    try {
+        this.e = a5;
+    } catch(e7) {
+    }
+    try {
+        this.h = v0;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(v0, v1);
+const v10 = new F3(F3, v9);
+%VerifyType(v9);
+const o13 = {
+    "maxByteLength": 51,
+};
+const v15 = new SharedArrayBuffer(3, o13);
+const v17 = new BigUint64Array(v15);
+new F3(v10, F3);
+new Date();
+[1000000.0];
+[-4.0,-2.220446049250313e-16];
+[1.389614570115242,-1.4715668590393595e+308,1.3242723793613225e+308,932425.3037001439,-1000000000.0];
+Uint8Array.valueOf = Date;
+class C25 {
+    constructor(a27, a28) {
+        const v29 = `
+            let {"buffer":v30,"byteOffset":v31,"length":v32,...v33} = v17;
+            v33 ** v32;
+            Object.defineProperty(v33, -1, { writable: true, enumerable: true, get: Date, set: Date });
+            Uint8Array >> v29;
+        `;
+        eval(v29);
+    }
+}
+new C25();
+new Date();

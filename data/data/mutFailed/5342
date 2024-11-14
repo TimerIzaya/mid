@@ -1,0 +1,174 @@
+function f0() {
+}
+class C1 extends f0 {
+    [f0] = f0;
+    #b;
+    o() {
+        function f3(a4) {
+            return this;
+        }
+        class C5 extends f3 {
+            3 = f3;
+        }
+        let v7 = this.iterator;
+        const o16 = {
+            [v7]() {
+                const o15 = {
+                    next() {
+                        v7--;
+                        const v13 = 10 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": 10,
+                        };
+                        return this;
+                    },
+                };
+                return o15;
+            },
+        };
+        return f0;
+    }
+}
+const v17 = new C1();
+const v18 = new C1();
+function f19(a20, a21) {
+    class C22 {
+        p(a24, a25) {
+            eval();
+            ([Int32Array,Int32Array,Int32Array,Int32Array]).length;
+        }
+    }
+    return C22;
+}
+v18.constructor = f19;
+const v38 = new C1();
+function f39() {
+    const v41 = [0.71465078532354,-2.2250738585072014e-308,1.0,-2.2250738585072014e-308,2.2250738585072014e-308,-620.8633845139873,0.0,-1.0,3.3358719500528515];
+    const v42 = [-7.462188141503825,-3.070207201828062e+307,0.6861416475431791,1000000000.0,-3.0];
+    const o48 = {
+        ...v41,
+        [Set](a45, a46, a47) {
+        },
+        "b": v42,
+    };
+    [-11,o48];
+    return -11;
+}
+v38.constructor = f39;
+function F50(a52, a53) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = f19;
+    function f54() {
+        function F55(a57, a58, a59, a60) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v61 = new F55();
+        class C62 {
+        }
+        const v64 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+        const v65 = [601759695];
+        const v70 = Symbol.toPrimitive;
+        const o91 = {
+            [522675525n](a73, a74) {
+            },
+            "c": v65,
+            valueOf(a76, a77) {
+                return a77;
+            },
+            [-4294967297n](a79, a80, a81, a82) {
+            },
+            "e": -268435456,
+            "maxByteLength": -4294967295,
+            "arguments": v64,
+            ...v61,
+            [v70]() {
+            },
+            "type": C62,
+            valueOf(a85, a86) {
+                return Symbol;
+            },
+            4: "Vre",
+            toString(a88, a89, a90) {
+                return a53;
+            },
+        };
+        return o91;
+    }
+    a52.constructor = f54;
+    a53.constructor = f0;
+    try { a52.constructor(); } catch (e) {}
+    try {
+        this.b = a53;
+    } catch(e93) {
+    }
+}
+const v94 = new F50(v38, v17);
+const v95 = new F50(v18, v38);
+const v96 = new F50(v17, C1);
+const v97 = v96?.b;
+try { new v97(); } catch (e) {}
+new v94();
+function f101(a102, a103, a104) {
+    function f105() {
+        function f106() {
+            v18[3394] ||= a103;
+            const v108 = new Int16Array(a103, Int16Array, Int16Array);
+            function f109() {
+                return f109;
+            }
+            class C110 extends f109 {
+                constructor(a112, a113, a114, a115) {
+                    super();
+                    function f116() {
+                        const o117 = {
+                            "g": a113,
+                            ...v108,
+                        };
+                        return C110;
+                    }
+                    for (let v118 = 0; v118 < 5; v118++) {
+                        f116();
+                        %OptimizeFunctionOnNextCall(f116);
+                    }
+                }
+            }
+            return C110;
+        }
+        return f106;
+    }
+    Object.defineProperty(a102, "constructor", { enumerable: true, get: f105 });
+    const v120 = a102?.constructor;
+    try { new v120(); } catch (e) {}
+    Date.__proto__;
+    const o130 = {
+        "e": v94,
+        ...v96,
+        get f() {
+            Object.defineProperty(a104, 4, { writable: true, configurable: true, get: f0 });
+            try {
+                super.reject();
+            } catch(e129) {
+            }
+            return -4096;
+        },
+    };
+    return o130;
+}
+f101(v17, C1, v95);
+f101(F50, v18, v96);
+const v134 = f101(f101, v96, v18)?.b;
+try { new v134(); } catch (e) {}
+function f136() {
+    1.0 << 1.0;
+    const o141 = {
+        ...1.0,
+        set b(a140) {
+        },
+    };
+    return o141;
+}
+for (let v142 = 0; v142 < 5; v142++) {
+    f136();
+    %OptimizeFunctionOnNextCall(f136);
+}

@@ -1,0 +1,83 @@
+const v0 = [];
+class C1 {
+    static {
+        const v3 = super[v0];
+        %VerifyType(v3);
+        (this & this) instanceof v3;
+    }
+    static #e = v0;
+    toString() {
+        return v0;
+        super.h = this;
+        return this;
+    }
+    static #g = v0;
+    #c = v0;
+    static a = v0;
+}
+new C1();
+const v8 = new C1();
+const v9 = new C1();
+const v11 = new WeakSet();
+let v13 = -4294967295n;
+function f16(a17, a18) {
+    const v19 = [a17];
+    const v20 = v19.at(a17);
+    try { v20(127, v19); } catch (e) {}
+    return 127;
+}
+%PrepareFunctionForOptimization(f16);
+const v22 = f16();
+%OptimizeFunctionOnNextCall(f16);
+f16(127, v22);
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a28;
+    } catch(e30) {
+    }
+    try {
+        this.b = 21038n;
+    } catch(e31) {
+    }
+    try {
+        this.d = a29;
+    } catch(e32) {
+    }
+}
+const v33 = new F24(WeakSet, WeakSet, v8, 21038n);
+const v34 = new F24(21038n, v11, v33, 512n);
+const v35 = new F24(C1, v34, v8, v13);
+function f36(a37, a38) {
+    const o56 = {
+        [v9](a40, a41, a42, a43) {
+            let v39 = this;
+            let v44 = super.b;
+            [v39,F24,v44] = v0;
+            v13 += v13;
+            return a38;
+        },
+        set f(a46) {
+            this.b <<= a38;
+            ({"e":a38,} = a38);
+            for (let i48 = 0; i48 < 1; i48++) {
+                try {
+                    v9.length = 0;
+                } catch(e55) {
+                }
+            }
+        },
+    };
+    return o56;
+}
+f36(F24, v35);
+f36(F24, v8);
+f36(v8, v0);
+function F61(a63, a64) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v66 = this.valueOf().constructor;
+    try { new v66(v66, v66, v66, a64); } catch (e) {}
+    F61 instanceof BigInt64Array;
+}
+new F61(F61, F61);
+new F61();

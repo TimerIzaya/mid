@@ -1,0 +1,23 @@
+function f3() {
+    return -536870912;
+}
+class C4 extends 15 {
+    static {
+        const o6 = {
+            "defineProperty": f3,
+            "getPrototypeOf": f3,
+            "isExtensible": 15,
+            "ownKeys": f3,
+            "setPrototypeOf": f3,
+        };
+        new Proxy(this, o6, f3, this, 15);
+    }
+}
+const v9 = new C4(f3, C4);
+new C4();
+new v9();
+const v15 = [-1000.0,1000000.0,2.220446049250313e-16,614071.3005355855,-1.0,2.220446049250313e-16];
+const o16 = {
+};
+const v18 = new Proxy(v15, o16);
+v18[301];

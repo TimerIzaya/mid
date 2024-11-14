@@ -1,0 +1,99 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const o3 = {
+        };
+        new Proxy(Proxy, o3);
+        this.b = 9007199254740991;
+    } catch(e7) {
+        for (let v8 = 0; v8 < 32; v8++) {
+            e7["p" + v8] = v8;
+        }
+    }
+}
+const v11 = new F0();
+const v12 = new F0();
+const v13 = new F0();
+v12[v12];
+v11[-1];
+new v12();
+new BigInt64Array(7);
+1000 <= v13;
+Uint16Array.d;
+new Uint16Array(1000);
+gc.d = gc;
+new gc(v11);
+-128n + -128n;
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.__proto__;
+    const v42 = a39.constructor;
+    try { new v42(a38); } catch (e) {}
+}
+new F35(undefined, undefined, -128n);
+new Int8Array(220);
+const v5 = new Uint32Array(16);
+new Uint16Array(512);
+const v11 = new Uint8ClampedArray(127);
+const v14 = new Float64Array(512);
+new Uint8Array(1);
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v25 = this?.constructor;
+    try { new v25(a24, a23); } catch (e) {}
+    a23 - a23;
+    a24.caller = a24;
+    a23 ^ a23;
+    const v30 = [v11,127,512];
+    Reflect.construct(Uint16Array, v30, Uint32Array);
+    const v32 = v30[1];
+    try {
+        v32.toString = v32;
+    } catch(e33) {
+    }
+    a23 >> a23;
+    try {
+        this.h = 628n;
+    } catch(e35) {
+    }
+    try {
+        this.f = 3n;
+    } catch(e36) {
+    }
+    try {
+        this.d = a24;
+    } catch(e37) {
+    }
+}
+let v38;
+try { v38 = new F21(3n, F21); } catch (e) {}
+v38.f = v38;
+const v39 = new F21(3n, 35294n);
+new F21(3n, v39);
+let v41 = 6;
+let v42 = v41--;
+const v43 = async (a44, a45, a46, a47) => {
+    try {
+        v42 = a46;
+    } catch(e48) {
+    }
+    return await 628n;
+};
+Int16Array.prototype = Int16Array;
+Int32Array.BYTES_PER_ELEMENT = Int32Array;
+[1000000000.0,-1000.0,-690.3798026183179,8.153290522672417e+306,2.0,-1000000.0,-1000000000.0];
+[172808.41555842035,6961.648758031544,-1000000000.0,-3.0,-3.473146185040173e+307,-421.3362201856155,-879.0794661120945,-5.0,-2.4710773994464814e+307,1000000000000.0];
+const v55 = [1000000.0,5.0,1000.0,0.5082630760435969];
+let v56;
+try { v56 = v55.push(10); } catch (e) {}
+let v58;
+try { v58 = new gc(); } catch (e) {}
+Object.defineProperty(v5, 2147483648, { writable: true, value: Int16Array });
+try { v56(); } catch (e) {}
+220 ** v58;
+typeof v14 === "number";
+try { gc(); } catch (e) {}
+const o66 = {
+    "execution": "sync",
+};
+o66.execution;

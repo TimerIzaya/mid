@@ -1,0 +1,53 @@
+class C1 {
+}
+const v2 = C1.constructor;
+class C4 extends Date {
+}
+let v5;
+try { v5 = new C4(); } catch (e) {}
+const v7 = new Int32Array(127);
+new C1();
+v2 ^ v2;
+Date();
+%PrepareFunctionForOptimization(Date);
+const v12 = Date();
+const v13 = Date();
+%OptimizeMaglevOnNextCall(Date);
+Date();
+v7[63] = v7;
+let v16;
+try { v16 = new v5(v2, C1, Date); } catch (e) {}
+v12[Int32Array] /= v16;
+const t20 = 127;
+t20[1] = v5;
+try {
+    v7.__proto__ = v13;
+} catch(e17) {
+}
+new Float64Array(2897);
+new Int32Array(1394);
+const o24 = {
+};
+class C25 {
+}
+class C27 extends Int16Array {
+}
+C27.prototype = C27;
+let v33 = 0;
+v33--;
+v33 < 5;
+const v37 = [0.8307152163010869,1.0,0.0];
+try { v37.copyWithin(5, v37); } catch (e) {}
+1494907924 >> 1494907924;
+v37.length = 1494907924;
+const v44 = new Uint32Array();
+try { v44.findLast(Uint32Array); } catch (e) {}
+(1394)[5];
+~-5.0;
+const v50 = Symbol.isConcatSpreadable;
+v12[v50] = Int16Array;
+const v52 = [];
+Reflect.apply(v12.now, v50, v52);
+("sync")[-5.0];
+const v57 = Math.log1p(0.04879611221991542);
+v57 !== v57;

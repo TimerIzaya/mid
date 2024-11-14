@@ -1,0 +1,42 @@
+const v2 = new BigUint64Array(943);
+new Int32Array(4096);
+new BigUint64Array(129);
+function f9() {
+    return v2;
+}
+class C13 {
+    static #p(a15, a16) {
+    }
+    #h;
+}
+const v17 = new C13();
+const v18 = new C13(v17, -747634.1081113975, 129);
+const v19 = new C13();
+function f20(a21, a22, a23, a24) {
+    const o25 = {
+        "c": -922911.6474995338,
+        242: -922911.6474995338,
+        "g": v19,
+        [a24]: a22,
+        [C13]: a22,
+        "a": -747634.1081113975,
+        "h": a21,
+        "f": a24,
+    };
+    return o25;
+}
+const v27 = f20(f20(v17, v19, C13), v19, v17, v17);
+const v28 = f20(v18, v19, v27, v27, v19, 943, v27);
+class C29 {
+    constructor(a31, a32) {
+        function f33(a34, a35) {
+        }
+        const v39 = [v17,v28];
+        const o40 = {
+            "arguments": v39,
+            "type": "MAX_VALUE",
+        };
+        new Worker(f33, o40);
+    }
+}
+new C29(C13, C29);

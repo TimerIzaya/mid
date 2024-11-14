@@ -1,0 +1,33 @@
+new Float64Array(8);
+const v5 = new BigUint64Array(64);
+function f6(a7, a8) {
+    a8?.[a8];
+    const v11 = [1000000000000.0];
+    v11[1] = v11;
+    const v13 = new Uint32Array(v11);
+    return v13;
+}
+v5.toString = f6;
+Uint8ClampedArray.length = Uint8ClampedArray;
+const v16 = new Uint8ClampedArray(0);
+try { v16.entries(); } catch (e) {}
+function f18() {
+    return Uint8ClampedArray;
+}
+for (let v19 = 0; v19 < 5; v19++) {
+    function f20() {
+        const v21 = [-Infinity,1.7976931348623157e+308,1.0,1.7976931348623157e+308,-1.0,Infinity];
+        Object.defineProperty(v21, 7, { writable: true, value: v19 });
+        let v22;
+        try { v22 = v21.splice(64, v19, v5, v21, v21); } catch (e) {}
+        %VerifyType(v16.__proto__);
+        try { v22["sinh"]("sinh", f18, v19, "sinh"); } catch (e) {}
+        Uint8Array.prototype;
+        const v28 = new Uint8Array(v21, v19, v19);
+        try { v28.reduce(Uint8Array); } catch (e) {}
+        v21.length >>>= -65536;
+        return -65536;
+    }
+    f20();
+    %OptimizeFunctionOnNextCall(f20);
+}

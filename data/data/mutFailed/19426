@@ -1,0 +1,67 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = this;
+    try {
+        this.c = "1";
+    } catch(e7) {
+    }
+}
+const v8 = new F3("h", "1");
+const v9 = new F3("1", "h");
+new F3("3", "1");
+const v12 = [F3,"3",v8,[v9]];
+const v13 = ["1",v12,v9,v8];
+class C16 {
+    static #m(a18, a19) {
+        try {
+            ("1").#m(v12, a19, this, a18);
+        } catch(e21) {
+        }
+        return true;
+    }
+    toString(a23, a24) {
+        const v25 = `7${this}37389`;
+        function* f26(a27, a28, a29, a30) {
+            try {
+                new F3(a29, "h");
+            } catch(e33) {
+            }
+            yield a29;
+            return a24;
+        }
+        return f26(a24, v25, a23, v25);
+    }
+}
+new C16();
+new C16();
+new C16();
+function f39() {
+    const o44 = {
+        8: 0.043152456200264866,
+        get a() {
+            Math.acos(0.043152456200264866);
+        },
+    };
+    return o44;
+}
+const v45 = f39();
+v45.toJSON = v45;
+const v46 = f39();
+function F48(a50, a51, a52, a53) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = 257;
+    this.h = a51;
+}
+const v54 = new F48(v46, v45);
+v54.toJSON = v13;
+function f56(a57, a58, a59) {
+    function f61(a62) {
+    }
+    a57[1] = a59;
+}
+const v65 = [v54];
+const o66 = {
+    "arguments": v65,
+    "type": "function",
+};
+new Worker(f56, o66);

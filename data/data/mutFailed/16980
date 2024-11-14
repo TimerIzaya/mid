@@ -1,0 +1,66 @@
+function f0() {
+}
+const v1 = [f0,f0,f0,f0,f0];
+const v2 = [v1,v1,v1,f0,v1];
+const v3 = [v1,v2];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e8) {
+    }
+    try {
+        this.f = a6;
+    } catch(e9) {
+    }
+    try {
+        this.h = a7;
+    } catch(e10) {
+    }
+}
+try {
+    v1.toSpliced(-63905, -63905, F4, -63905);
+} catch(e13) {
+}
+const v14 = new F4(v3, v3);
+const v15 = new F4(v3, v1);
+const v16 = new F4(v2, v3);
+class C20 extends F4 {
+    static {
+        const v22 = [this,...v2];
+        function f23(a24, a25, a26) {
+            const o27 = {
+                "b": v3,
+                "h": v16,
+                ...v2,
+            };
+            return o27;
+        }
+        f23(24880, v14, 24880);
+        f23(2, v16, 2);
+        const v30 = f23(2, v15, 255);
+        with (v22) {
+            const v31 = (a32, a33, a34) => {
+                let v35;
+                try { v35 = v1.entries(); } catch (e) {}
+                Object.defineProperty(v16, v35, { value: v35 });
+                [5701,536870912,-16,-6,8256,2114258862,-785950623,512];
+                [-1,-568955324,9,-1594390780,1073741823,2146838850,2];
+                [2147483648,1973458289];
+                return v30;
+            };
+            v16[2147483648] /= length;
+            for (let v40 = 0; v40 < 100; v40++) {
+                f0();
+            }
+        }
+    }
+    static 2699 = v15;
+    #g;
+    [v16] = v15;
+    g;
+}
+new C20();
+new C20();
+new C20();
+Math.cbrt(1073741824);

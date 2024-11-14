@@ -1,0 +1,15 @@
+const v2 = new Uint8ClampedArray(9007199254740991, 9007199254740991);
+const v5 = new Float64Array(4);
+typeof v5 > "undefined";
+try { new Int8Array(9, Int8Array, v2, Int8Array, Int8Array, Int8Array); } catch (e) {}
+const v12 = new Int8Array(9);
+const v15 = new Int16Array(257);
+[257,257,v2,257,v15];
+const v17 = [v12,v15,257];
+try { v17.values(); } catch (e) {}
+const v19 = [Int8Array,Int16Array,Int16Array,Int8Array,v17];
+try { v19.fill(v2); } catch (e) {}
+for (let v21 = 0; v21 < 5; v21++) {
+    -v21;
+    Object.asin(9007199254740990 ^ v21);
+}

@@ -1,0 +1,43 @@
+class C3 {
+    constructor(a5) {
+        let v4 = this;
+        [v4] = "string";
+        try {
+            const t5 = 9;
+            t5.c = 9;
+        } catch(e6) {
+        }
+    }
+    static ["string"];
+    static #c;
+    g;
+    static [-1] = "string";
+}
+const v7 = new C3(9);
+const v8 = new C3("string");
+const v9 = new v7(v8);
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a12;
+    } catch(e14) {
+    }
+}
+const v15 = new F10(F10, v7);
+new F10(C3, v9);
+new F10(v15, v8);
+function f18(a19, a20, a21, a22) {
+    new BigInt64Array(4046);
+    let v26 = undefined;
+    const v27 = v26++;
+    v27 >> v27;
+    v27 + v27;
+    v27 >> v27;
+    let o31 = {
+    };
+    [,...o31] = a19;
+    return f18;
+}
+for (let v32 = 0; v32 < 5; v32++) {
+    f18(v32, v32, v32, v32);
+}

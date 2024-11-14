@@ -1,0 +1,40 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+const v3 = new WeakSet();
+try { new Uint16Array(v3, f0, 256); } catch (e) {}
+const v7 = new Uint16Array(256);
+const v10 = new Float64Array(45);
+v10[43] = v10;
+new Int16Array(f1);
+new Uint8Array(64);
+try { new BigInt64Array(BigInt64Array, 45, BigInt64Array); } catch (e) {}
+const v20 = new BigInt64Array(129);
+new Int16Array(v20);
+129 & 128n;
+function F29() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -1052649622;
+        const v34 = -(-7);
+        Math.tan(v34 ** v34);
+    } catch(e37) {
+    }
+}
+try { new v7(); } catch (e) {}
+function F39(a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v43 = this.constructor;
+    v43.length = v43;
+    try { new v43(F29, a41, F29, v43); } catch (e) {}
+    new this();
+}
+function f46(a47, a48, a49, a50) {
+    a47--;
+    const o52 = {
+    };
+    o52.h = o52;
+}
+f46(-9007199254740992);

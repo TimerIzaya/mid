@@ -1,0 +1,12 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+new Float32Array(1976);
+new BigInt64Array(1354);
+const v16 = new Uint16Array(4);
+const v19 = new v16(2);
+Object.defineProperty(4, "toString", { configurable: true, value: f0 });
+v19[1] = v19;
+new Int32Array(v19);

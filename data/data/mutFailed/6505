@@ -1,0 +1,32 @@
+const v2 = new Array(129);
+function f3() {
+    return Array;
+}
+const v4 = [Array,129,129,129,Array];
+const v5 = [v4,f3,f3,v4];
+const v6 = [v5,v4,v2,v2];
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    v6.f = a11;
+    try {
+        this.b = v2;
+    } catch(e12) {
+    }
+}
+try { F7.toString(); } catch (e) {}
+new F7(v5, v5, v2);
+new F7(v5, v5, v6);
+new F7(v4, v2, v2);
+let v18 = -1.7976931348623157e+308;
+v18++;
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v26 = this?.constructor;
+    try { new v26(a25, 0.8451424278545969, a25); } catch (e) {}
+}
+const v28 = new F21();
+const v29 = new F21(F21, v28, v28);
+v29.b = v29;
+for (let v31 = 0; v31 < 5; v31++) {
+    Object.defineProperty((v31 + v31) || undefined, v29, { value: v28 });
+}

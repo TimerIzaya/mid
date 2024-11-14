@@ -1,0 +1,53 @@
+class C3 {
+    #a = "prototype";
+    constructor(a5, a6) {
+        this.prototype = a5;
+        this["prototype"] = 1e-15;
+        let v7;
+        try { v7 = this.m(a5, "prototype", 1e-15); } catch (e) {}
+        try { v7("0", a5, v7); } catch (e) {}
+    }
+    static c = "prototype";
+    toString(a10) {
+        try {
+            const t12 = "prototype";
+            t12.a = this;
+            const v13 = new Uint8Array(3346);
+            const v15 = new Float64Array(3346, 3346, 3346);
+            const t16 = v15.constructor;
+            new t16(v13);
+            const v21 = new Date(Array);
+            v21.setHours(3811);
+        } catch(e23) {
+        }
+        try { a10(1e-15, a10, 1e-15); } catch (e) {}
+        return new.target;
+    }
+}
+const v26 = new C3(1e-15, C3);
+const v27 = new C3("prototype", "prototype");
+new C3(v26, v27);
+[1842448584,-9007199254740992,65537,-39586312,15852,5,9,-30153,536870887];
+[-142174523,20907,22129,-128];
+[-1412656490,2147483649,-2147483648,-65536,-12,-14,-29297];
+const v37 = [1.7754312477895002e+308,-5.222433190075309,-1.7976931348623157e+308,7.946171059355148,0.40414902234327965,1000.0,-103405.77967821865,-Infinity,NaN,1.7976931348623157e+308];
+v37.toJSON = "fround";
+const v38 = [0.22970466031530812,NaN,NaN,Infinity];
+v38[9638] = "fround";
+class C39 {
+    constructor(a41, a42) {
+        super["fround"] = v38;
+    }
+}
+const v43 = new C39();
+v43.toJSON = v43;
+function f44(a45) {
+    return f44;
+}
+v38[10000] = v37;
+const v48 = [v43];
+const o49 = {
+    "arguments": v48,
+    "type": "function",
+};
+new Worker(f44, o49);

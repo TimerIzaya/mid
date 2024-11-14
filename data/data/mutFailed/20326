@@ -1,0 +1,20 @@
+const v2 = new Uint8ClampedArray(256);
+new Uint8ClampedArray(16);
+14 >>> 14;
+new Int16Array(14);
+WeakSet.name = WeakSet;
+const v11 = new WeakSet();
+const v12 = v11?.add;
+try { new v12(v2); } catch (e) {}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.__proto__ = this;
+}
+let v19 = new F15();
+class C20 {
+    constructor(a22, a23, a24) {
+        ({"c":v19,...v19} = a23);
+    }
+}
+const v26 = C20?.apply;
+try { new v26(F15, 256); } catch (e) {}

@@ -1,0 +1,44 @@
+function f0() {
+}
+const v1 = /xyz{1,}?/dimy;
+const v2 = /Ha\fb\nc\rd\te\vf\9qZ/gim;
+const v3 = /L*/uim;
+function f4(a5) {
+    v1["test"]("test");
+}
+Object.defineProperty(v3, "f", { writable: true, set: f4 });
+v3.f = v3;
+-866228129 === -866228129;
+try { new Int8Array("object", -16458616, v2); } catch (e) {}
+const v18 = new Int8Array(702);
+v18[149] = v18;
+Uint32Array[0] = f0;
+try { new Uint32Array(Uint32Array, "object", "asinh"); } catch (e) {}
+new Uint32Array(3);
+new Uint8ClampedArray(7);
+function f30() {
+    return -45095n;
+}
+f30.valueOf = f0;
+class C31 {
+    static #m(a33, a34, a35) {
+    }
+    constructor(a37, a38, a39, a40) {
+        a40[Symbol.toPrimitive] = f30;
+        a39 | a39;
+        const v44 = --a40;
+        v44 !== v44;
+        try {
+            this.#m();
+        } catch(e47) {
+            e47.message;
+        }
+    }
+}
+try { new C31("f", -866228129, "f", 702); } catch (e) {}
+const v50 = new C31(9007199254740991n, 64n, 22453n, -45095n);
+const v51 = v50?.constructor;
+try { new v51(f30, v50, f30, v18); } catch (e) {}
+10 / 10;
+const v56 = new BigUint64Array(10);
+v56["filter"](f30);

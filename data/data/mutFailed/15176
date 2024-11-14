@@ -1,0 +1,33 @@
+class C3 {
+    p(a5, a6) {
+        new Int8Array(7);
+        new Float64Array(1024);
+        new Int32Array(1568);
+        return a5;
+    }
+}
+const v16 = new C3();
+const v17 = new v16();
+const v18 = new C3();
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a22;
+    } catch(e25) {
+    }
+    try {
+        this.c = v18;
+    } catch(e26) {
+    }
+    try {
+        this.e = a22;
+    } catch(e27) {
+    }
+}
+const v28 = new F19(v17, "ignoreCase", v18, v17);
+new F19(v18, v28, v28, C3);
+new F19(v18, v18, v16, C3);
+[506097.1301051206];
+const o32 = {
+};
+o32.toLocaleString(o32);

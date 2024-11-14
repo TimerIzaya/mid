@@ -1,0 +1,24 @@
+new Float64Array(-15868);
+new Int8Array(2827);
+const v8 = new Uint8Array(8);
+new BigInt(2);
+new Int16Array(6);
+new Int32Array(11, v8, Float64Array);
+for (let v22 = 0; v22 < 5; v22++) {
+    function f23() {
+        for (let i25 = 0, i26 = 3;
+            (() => {
+                class C27 extends f23 {
+                }
+                return i25 < 3;
+            })();
+            (() => {
+                const v31 = i25++;
+                v31 >> v31;
+            })()) {
+        }
+        return v22;
+    }
+    f23();
+    %OptimizeFunctionOnNextCall(f23);
+}

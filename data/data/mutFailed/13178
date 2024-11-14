@@ -1,0 +1,42 @@
+new Uint8Array(3301);
+new Int8Array(1265);
+new Int8Array(8);
+new Int16Array(4096);
+new Uint16Array(3);
+const v20 = new BigInt64Array(256);
+function F21() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        for (let v23 = 0; v23 < 50; v23++) {
+            for (let v24 = 0; v24 < 25; v24++) {
+                this["p" + v24] = v24;
+            }
+        }
+    } catch(e27) {
+    }
+}
+new v20();
+new F21();
+const v33 = [];
+const v34 = [];
+const v35 = [1000.0];
+function f36(a37, a38) {
+    const o42 = {
+        [a37]: v33,
+        "h": v33,
+        get e() {
+            Uint16Array[1000.0] >>= -4.0;
+            a38();
+        },
+        [227.40634637175117]: 227.40634637175117,
+        [Int16Array]: v34,
+    };
+    return o42;
+}
+const t35 = -1024;
+t35(v35, -4.0);
+%PrepareFunctionForOptimization(f36);
+f36(v35, 227.40634637175117);
+f36(v35, -4.0);
+%OptimizeFunctionOnNextCall(v20);
+f36();

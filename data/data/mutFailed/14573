@@ -1,0 +1,11 @@
+new Int16Array(129);
+new Int16Array(-9);
+new Uint16Array(1839);
+const v16 = new Uint8ClampedArray();
+function f17() {
+    return v16;
+}
+for (let i = 0; i < 5; i++) {
+    f17();
+    %OptimizeFunctionOnNextCall(f17);
+}

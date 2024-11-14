@@ -1,0 +1,25 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "h", { writable: true, configurable: true, value: this });
+    this.PI = this;
+    try {
+        this.d = 417928884;
+    } catch(e3) {
+    }
+    try {
+        this.match = 417928884;
+    } catch(e4) {
+    }
+}
+const v5 = new F0(F0, F0);
+const v6 = new F0(v5);
+const v7 = new F0();
+const v8 = [F0,v7,v6,v5];
+[F0,F0,v7];
+[v8,v8,v7];
+[594.7430687371493,1000000.0,1.0,0.07889038857172959,-Infinity,261189.09935784456,-841991.3556779912,1.0387045052897793e+308,1.0602528961659434e+308,-4.0];
+[-2.2250738585072014e-308];
+[-2.2250738585072014e-308,-1.1373072690366328e+307,-2.0,244883.77255332842,Infinity,-1000000000.0,3.0,-4.0];
+const v19 = new Float32Array(2);
+const v21 = new SyntaxError(v19);
+v21.fill();

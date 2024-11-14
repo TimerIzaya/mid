@@ -1,0 +1,111 @@
+class C3 {
+    constructor(a5, a6) {
+        Object.defineProperty(this, a5, { configurable: true, value: -1n });
+        try {
+            const o7 = {
+            };
+            this.fuck(-1n, o7, o7);
+        } catch(e9) {
+        }
+    }
+    #p(a11, a12) {
+        const o13 = {
+        };
+        new Proxy(this, o13);
+        return this;
+    }
+}
+const v16 = new C3(-1057903194n, -1n);
+new C3(v16, -169628885n);
+const v18 = new C3(v16, -1n);
+function f23(a24, a25, a26) {
+    const o31 = {
+        "h": v16,
+        4045733789: a26,
+        5: a25,
+        "f": a24,
+        __proto__: C3,
+        get e() {
+            return v16;
+        },
+        3037250259: a24,
+        ...C3,
+        257: -1n,
+    };
+    return o31;
+}
+f23(-169628885n, 9, f23(-169628885n, -1024, C3));
+f23(-169628885n, -1766974777, v18);
+const v35 = [];
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v38 = `
+            for (let v39 = 0; v39 < 5; v39++) {
+                class C40 {
+                }
+                const v41 = new C40();
+                const v43 = [-1000000.0,1.2447871437442695e+308,2.0,-1.7099107331057683e+308,0.0];
+                for (let i45 = 0; i45 < 1; i45++) {
+                }
+                function F51() {
+                    if (!new.target) { throw 'must be called with new'; }
+                    const v53 = this.constructor;
+                    let v54;
+                    try { v54 = new v53("constructor", "constructor", v53, v53); } catch (e) {}
+                    const v55 = this.valueOf(F51);
+                    switch (v43) {
+                        case "constructor":
+                            v55 < v54;
+                            break;
+                    }
+                }
+                new F51();
+                new F51();
+                function f60(a61, a62) {
+                    const o67 = {
+                        [v41](a64, a65, a66) {
+                        },
+                    };
+                }
+            }
+        `;
+        const o76 = {
+            set e(a75) {
+            },
+        };
+        function f77(a78) {
+            a78 === a78;
+            a78 <= a78;
+            const o84 = {
+                ...a78,
+                p(a82, a83) {
+                },
+            };
+        }
+    } catch(e85) {
+    }
+    try {
+    } catch(e86) {
+    }
+    try {
+    } catch(e87) {
+    }
+}
+const t94 = 9;
+const v88 = new t94();
+const v89 = new F36();
+const v90 = new F36();
+const v93 = [[v35,v90],F36,[v88,v35,v89],v35];
+try { v93.flat(); } catch (e) {}
+const v97 = new Int8Array(10);
+try { v97.find(v90); } catch (e) {}
+new Uint8ClampedArray(268435440);
+function f104(a105, a106, a107, a108) {
+    Object.defineProperty(a105, Symbol.toPrimitive, { configurable: true, enumerable: true, value: f104 });
+    const o115 = {
+        toString(a112, a113) {
+            new Date(a105);
+        },
+    };
+}

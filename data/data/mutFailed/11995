@@ -1,0 +1,50 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = f0;
+    } catch(e3) {
+    }
+    try {
+        this.g = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = new F1();
+let v7;
+try { v7 = v6.a(); } catch (e) {}
+new F1();
+const v9 = [-1758,-9007199254740990,-2147483648,-65536,-11,1];
+[0,1994686524];
+try { v7.toString(); } catch (e) {}
+v9[8] = [64,1005990703,1073741825,5,-61624,9007199254740990,-4,127,-1];
+function f13() {
+    return v5;
+}
+try { f13(); } catch (e) {}
+const t26 = "string";
+t26[1] = "string";
+("string")[4];
+try { ("bigint").codePointAt(v5); } catch (e) {}
+[9007199254740990,65537,5];
+const v21 = [9007199254740992,-4,-1024,1140997927,-3,-118741998,16,65535];
+try { v21.reduceRight(v9); } catch (e) {}
+const v24 = ([2])?.push;
+let v25;
+try { v25 = new v24(v9); } catch (e) {}
+function f26(a27, a28) {
+    try { a27.apply(a28, v9); } catch (e) {}
+    a28.name;
+    a27.length = a27;
+    return f0.constructor(a28);
+}
+new Promise(f13);
+for (let v34 = 0; v34 < 5; v34++) {
+    const o36 = {
+    };
+    o36.d = o36;
+    v25.e = o36;
+    gc(o36);
+}

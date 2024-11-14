@@ -1,0 +1,35 @@
+const v2 = new Float64Array(216);
+new Float64Array(10);
+const v8 = new Uint16Array(512);
+new Int16Array(4096);
+new Uint32Array(1933);
+const v17 = new Float64Array(9);
+const o18 = {
+    __proto__: v8,
+    "d": v8,
+    "f": 4096,
+    ...v17,
+    [v2]: Float64Array,
+};
+const v19 = o18[o18];
+try {
+    v17.e = v19;
+} catch(e20) {
+}
+const v2 = new Uint32Array(1063);
+new Uint8ClampedArray(14);
+const v8 = new Uint8Array(5);
+new BigInt64Array(3368);
+new Int16Array(3231);
+new Uint16Array(512);
+const o18 = {
+};
+const v20 = new Proxy(v2, o18);
+v20 << 1063;
+v8 && 3231;
+try {
+    const o26 = {
+    };
+    new Uint8ClampedArray(o26);
+} catch(e28) {
+}

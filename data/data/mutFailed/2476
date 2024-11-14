@@ -1,0 +1,67 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    let v3;
+    try { v3 = this.o(-53837, -53837, F0, F0, -53837); } catch (e) {}
+    const v4 = v3?.c;
+    v4[0] = -53837;
+    v4[6] = this;
+    try {
+        new F0();
+    } catch(e6) {
+    }
+    try {
+        this.e = -53837;
+    } catch(e7) {
+    }
+    try {
+        this.b = -53837;
+    } catch(e8) {
+    }
+    try {
+        this.g = -53837;
+    } catch(e9) {
+    }
+}
+let v10 = new F0();
+const v11 = new F0(F0, v10, v10);
+const v12 = new F0();
+const v13 = v10 <= v12;
+v10[65] = v12;
+var a = v12;
+const v14 = v10--;
+Object.defineProperty(v12, 247, { writable: true, configurable: true, value: v14 });
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a18;
+    } catch(e20) {
+    }
+}
+const v21 = new F15(F15, v14, F15);
+new F15(v11, v10, v21);
+new F15(v13, F15, v21);
+function f27() {
+    return v10;
+}
+65536 < 65536;
+-(-1954374852);
+function f33(a34, a35) {
+    const o38 = {
+        "b": a34,
+        __proto__: a35,
+        ...a34,
+        "f": 1178577918,
+        "search": a35,
+        toString(a37) {
+            return a34;
+        },
+    };
+    o38.f;
+    return o38;
+}
+const v40 = f33();
+v40.f;
+const v42 = f33(v40, v40);
+const v44 = Symbol.toStringTag;
+Symbol.for(v44.description);
+v40[v44] = v42;

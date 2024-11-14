@@ -1,0 +1,48 @@
+const v0 = /lGm/gudms;
+const v1 = /(?:ab)?/ui;
+const v2 = /[\xe2\x81\xa3]foo(?<=bar)baz?/guims;
+function f3() {
+    return v0;
+}
+const v4 = /a[^a]/u;
+/(\1a)/vdisy;
+const v6 = /eUA(?:ab)4xyz??/udsy;
+const v7 = [v6,f3,f3,f3,v4];
+let v8 = [v4];
+const v9 = [v6,v7];
+class C11 {
+    constructor(a13, a14) {
+        v8 = a14;
+        a14++;
+        try {
+            C11.toString = a13;
+        } catch(e16) {
+        }
+        %VerifyType(v2);
+        try {
+            v9.length = 2147483649;
+        } catch(e18) {
+        }
+    }
+    [v6];
+    static [C11] = v1;
+    2 = v0;
+    static b;
+    c = v1;
+    static b = v2;
+    static #e = v2;
+    static #h = v2;
+    [f3] = v6;
+}
+const v19 = new C11(f3, v9);
+const v20 = new C11(f3, v19);
+new C11(v4, v9);
+class C22 {
+}
+const v23 = new C22();
+new Date(v23, Date, "F");
+delete v1[v20];
+v6 <= v19 ? v6 : v19;
+[17691,256];
+[9007199254740992,17872,5527,16];
+[-9007199254740992,-128,257];

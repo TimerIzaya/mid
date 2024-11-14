@@ -1,0 +1,58 @@
+const v0 = [-8.37209653175699,-1000000.0,-5.544238641518882e+307,-1000000000.0];
+const v1 = [5.0,4.262498482314901e+307,-1000000000.0,-1e-15,-0.0,1000.0,-1.049497967519413e+308,-8.435768583193761];
+const v2 = [9.077734523674147e+307,-255268.37592272216,-1.4015331859210884e+308,4.0,NaN,636223.0091532625,-5.0,-2.2250738585072014e-308,1e-15,-4.0];
+function f3() {
+    const v5 = new Int8Array();
+    v5.buffer;
+    return Int8Array;
+}
+v2.toString = f3;
+function f7(a8, a9) {
+    a9[Symbol.toPrimitive] = f3;
+    const o17 = {
+        "f": a9,
+        "g": a9,
+        "b": v1,
+        [a9]: v1,
+        "c": v1,
+        get e() {
+            const v13 = a8 !== a8;
+            a8 && this;
+            super.g;
+            try {
+                v0.__proto__ = a9;
+            } catch(e16) {
+            }
+            return v13;
+        },
+    };
+    return o17;
+}
+f7(v1, v1);
+f7(v1, v2);
+f7(v0, v1);
+new Float32Array(12);
+new Int32Array(4);
+new BigUint64Array(829);
+function f39() {
+    const v40 = [f39];
+    function f41(a42) {
+        return a42;
+    }
+    v40.constructor = f41;
+    const v43 = v40.constructor;
+    v43(v43, f41);
+    [BigUint64Array,...v40,v0];
+    for (let v46 = 0; v46 < 100; v46++) {
+        f41(v43);
+    }
+    try {
+        v40.toSpliced(4);
+    } catch(e49) {
+    }
+    return f39;
+}
+%PrepareFunctionForOptimization(f39);
+f39();
+%OptimizeFunctionOnNextCall(f39);
+f39();

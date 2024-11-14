@@ -1,0 +1,23 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -4.205320562880483e+307;
+    } catch(e10) {
+    }
+}
+new F6(268435440, -4.205320562880483e+307);
+new F6(-1141057643, -1000000000.0);
+new F6(1563030013, 712.7981618375829);
+const v15 = [65537,1073741825,7841,-12,13];
+const v16 = [6627];
+v16[1] = v16;
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = this.constructor;
+    try { new v22(a19, a20, a20); } catch (e) {}
+    a19.construct();
+    a21.g = a21;
+}
+new F17(v15, v16, v15);
+const v26 = new F17(v15, v16, WeakSet);
+new F17(v16, v16, v26);

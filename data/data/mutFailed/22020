@@ -1,0 +1,19 @@
+const v2 = new BigUint64Array(9);
+BigUint64Array.name;
+const v6 = new Int32Array(0);
+try { v6.map(BigUint64Array); } catch (e) {}
+const v10 = new Int8Array(9);
+try { v10.some(BigUint64Array); } catch (e) {}
+const v14 = new Uint8ClampedArray(1000);
+try { v14.some(Uint8ClampedArray); } catch (e) {}
+new v2(3106);
+try { Uint16Array.bind(0); } catch (e) {}
+new Uint16Array(158);
+for (let v23 = 0; v23 < 5; v23++) {
+    function f24() {
+        Math.atan(Math);
+        return Math;
+    }
+    v6();
+    %OptimizeFunctionOnNextCall(f24);
+}

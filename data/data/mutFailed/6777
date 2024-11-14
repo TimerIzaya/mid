@@ -1,0 +1,20 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = F1;
+    } catch(e3) {
+    }
+}
+new F1();
+const v5 = new F1();
+const v6 = v5?.constructor;
+let v7;
+try { v7 = new v6(); } catch (e) {}
+const v8 = new F1();
+v7 + -1;
+-NaN;
+new v7(3);
+const v24 = v8.indexOf();
+v24 >> v24;

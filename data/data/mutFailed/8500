@@ -1,0 +1,21 @@
+try { new Int32Array("function", "ssU", Int32Array); } catch (e) {}
+const v6 = new Int32Array(7);
+let v9;
+try { v9 = new Float32Array(3658, v6, 3658); } catch (e) {}
+new Float32Array(3658);
+let v11 = 18;
+v11--;
+new Uint8Array(v11);
+class C15 {
+}
+new C15();
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = this;
+    ~a20;
+    const v23 = this.__proto__?.constructor;
+    try { new v23("E"); } catch (e) {}
+    v23.toLocaleString();
+}
+new F17();
+new v9();

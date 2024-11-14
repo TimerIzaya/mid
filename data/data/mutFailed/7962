@@ -1,0 +1,58 @@
+const v0 = [7,3,2147483648];
+const v1 = [7,-41813,9007199254740992,4,65537,32029,536870889,-10];
+const v2 = [1073741823,-268435456,2147483647,1073741824,45252,-5,-11683,3,-1632620000,40389];
+function f3(a4) {
+    function f5() {
+        return f3;
+    }
+    function f6(a7) {
+        let v9 = -16n;
+        function f10() {
+            v9 *= -1911645276n;
+            return -1911645276n;
+        }
+    }
+    Object.defineProperty(a4, Symbol.toPrimitive, { writable: true, configurable: true, get: f5, set: f6 });
+    const o24 = {
+        "h": v1,
+        valueOf(a14, a15) {
+            v1[a14] = a15;
+            a14[2190];
+            return a4;
+        },
+        set b(a18) {
+            a18 < a4;
+            a4[1293362775] = v1;
+            super.g;
+            super[v0]?.[1073741824];
+            a4[3925176675];
+        },
+        "d": a4,
+    };
+    return o24;
+}
+const v25 = f3(v2);
+f3(v0);
+const v27 = f3(v0);
+function f28(a29, a30) {
+    const o39 = {
+        ...v25,
+        "d": v27,
+        [v0]: a29,
+        ...a30,
+        ...v27,
+        9: v25,
+        o(a32, a33, a34) {
+            try {
+                a32.length = -10;
+            } catch(e38) {
+            }
+            return 268435456;
+        },
+    };
+    return o39;
+}
+f28(v1, v1);
+f28(v1, v0);
+f28(v2, v2);
+("deleteProperty").replace("deleteProperty");

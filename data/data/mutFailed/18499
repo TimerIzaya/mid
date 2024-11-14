@@ -1,0 +1,72 @@
+function f0() {
+    const v1 = -Infinity;
+    -4.0 >> -4.0;
+    const o5 = {
+        "e": 5,
+        106: v1,
+        "f": v1,
+        ...5,
+        [-1]: v1,
+        0: -4.0,
+        [-4.0]: f0,
+        ...f0,
+        ...f0,
+        "b": f0,
+        "b": -4.0,
+        __proto__: -4.0,
+        "g": 5,
+        "c": 5,
+        268435440: -4.0,
+        "h": -4.0,
+    };
+    return o5;
+}
+const v6 = f0();
+const v7 = f0();
+f0();
+try { Float32Array(v6, v7, 2); } catch (e) {}
+new Float32Array(2);
+Int32Array[0] = f0;
+try { new Int32Array(Int32Array, Int32Array, Int32Array); } catch (e) {}
+new Int32Array(0);
+6 % 6;
+new Int16Array(6);
+class C21 {
+}
+C21.name = C21;
+function f22(a23, a24) {
+    a24.e = a24;
+    const o25 = {
+        __proto__: C21,
+    };
+    function f26() {
+        new BigUint64Array(1000);
+        new Uint32Array(11);
+        const v35 = new Float32Array(129);
+        return v35;
+    }
+    o25.constructor = f26;
+    const v36 = o25?.constructor;
+    let v37;
+    try { v37 = new v36(a24); } catch (e) {}
+    v37 instanceof v37;
+    const o39 = {
+        "apply": f22,
+        "call": f22,
+        "construct": f0,
+        "defineProperty": f22,
+        "deleteProperty": f0,
+        "get": f0,
+        "getOwnPropertyDescriptor": f0,
+        "getPrototypeOf": f0,
+        "has": f0,
+        "isExtensible": f22,
+        "preventExtensions": f22,
+        "set": f0,
+    };
+    new Proxy(o25, o39);
+    o25.name;
+    return C21;
+}
+%PrepareFunctionForOptimization(f22);
+f22(f22, C21);

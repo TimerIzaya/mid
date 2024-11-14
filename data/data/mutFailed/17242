@@ -1,0 +1,76 @@
+class C3 {
+    p(a5) {
+        ("valueOf").normalize("NFKC");
+        let v12;
+        try {
+        const t0 = "function";
+        v12 = t0("-2000895689", this, 16, ..."-2000895689");
+        } catch (e) {}
+        return v12;
+    }
+    constructor(a14, a15, a16, a17) {
+        arguments[0] = arguments;
+    }
+    static set d(a20) {
+    }
+    256 = "-2000895689";
+    ["function"] = "-2000895689";
+    /*
+    constructor(a22, a23, a24, a25) {
+        super();
+        function f26() {
+            const v27 = [];
+            v27[6] = v27;
+            const o30 = {
+                set b(a29) {
+                },
+            };
+            return a25;
+        }
+        for (let v31 = 0; v31 < 5; v31++) {
+            f26();
+            %OptimizeFunctionOnNextCall(f26);
+        }
+    }
+    */
+    static #e = "-2000895689";
+    static 7;
+    #g;
+}
+C3.prototype = C3;
+const v33 = new C3();
+const v34 = new v33();
+v34[256];
+new C3();
+new Uint8Array(128);
+0 / 0;
+const v43 = new Uint8Array(0);
+new WeakMap();
+let v46 = 12;
+v46--;
+new Int8Array(v46);
+try { new Uint8Array(1318, 0, v43); } catch (e) {}
+const v53 = new Uint8Array(1318);
+const v55 = [1000000000000.0,1e-15];
+v55[3] = -1000000.0;
+delete v55[2];
+const o59 = {
+    set d(a58) {
+    },
+    "a": v55,
+};
+try { v53.at(v53); } catch (e) {}
+function f61() {
+    for (let v62 = 0; v62 < 5; v62++) {
+        v62 - v62;
+        function f64() {
+            return v62;
+        }
+        f64.a = v62;
+    }
+    return f61;
+}
+%PrepareFunctionForOptimization(f61);
+f61();
+%OptimizeFunctionOnNextCall(f61);
+f61();

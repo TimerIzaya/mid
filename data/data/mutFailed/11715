@@ -1,0 +1,80 @@
+[-71419399,9007199254740992,2147483648,-3,65535,8];
+[1705531040,-2,2957,8,536870887,-1809222092,-9007199254740990,-4294967296,15463];
+const v5 = [6];
+function f6() {
+    return v5;
+}
+class C7 {
+    static m(a9, a10, a11) {
+        const o21 = {
+            "apply": f6,
+            "construct": f6,
+            "defineProperty": f6,
+            "deleteProperty": f6,
+            "getOwnPropertyDescriptor": f6,
+            "getPrototypeOf": f6,
+            "has": f6,
+            ...a10,
+            p(a13, a14, a15) {
+                function f16(a17, a18, a19) {
+                }
+                f16(a13, v5, f6);
+            },
+            "isExtensible": f6,
+            "ownKeys": f6,
+            "preventExtensions": f6,
+        };
+        const v23 = new Proxy(a10, o21);
+        const v25 = [9];
+        function f28() {
+            const v29 = [f28,f28];
+            function f30(a31) {
+            }
+            const v33 = [0];
+            [[Reflect.construct(f30, v33, Uint8ClampedArray),v33],9];
+            const v37 = [v25,Reflect];
+            try { v37.findIndex(); } catch (e) {}
+            class C40 extends v29.constructor {
+            }
+            const v41 = new C40();
+            v41?.constructor;
+            return v29;
+        }
+        return v23;
+    }
+    static #e;
+    static {
+        if (this) {
+        }
+    }
+}
+new C7();
+new C7();
+new C7();
+typeof /(foo(?!bar)baz)/gis === "undefined";
+const v52 = /\c4a.[(x)(x)(x)\4*(x)(x)(x)\3*]/gmy;
+function F53(a55, a56, a57, a58) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+F53(v52);
+const v60 = new WeakMap();
+function f61() {
+    return v60;
+}
+for (let i64 = 0, i65 = 10; i64 < i65; i65--) {
+}
+const v72 = [-3.0,4.0,1.7381830731777672e+308,-Infinity,0.053627216611518036];
+function f74(a75, a76, a77, a78) {
+    const o80 = {
+        get c() {
+        },
+    };
+}
+[f74(16, v72),...v72];
+for (let v83 = 0; v83 < 25; v83++) {
+    Date.parse(([-Infinity,1000000000.0,Infinity,-1e-15,14.557700682017867,-1.7976931348623157e+308,-4.0,6.029322461126224,-2.220446049250313e-16]).toString());
+    let [] = [];
+    const o90 = {
+        __proto__: null,
+    };
+}

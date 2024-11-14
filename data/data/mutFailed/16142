@@ -1,0 +1,122 @@
+const v1 = new Date();
+const v6 = [[v1,Date,2.0,v1]];
+const v7 = [v6,2.0,v6,Date,6.051524202739139e+307];
+let v8;
+try { v8 = v7.reduce(6.051524202739139e+307); } catch (e) {}
+const v11 = new Float64Array(8);
+try {
+    v8.__proto__ = v7;
+} catch(e12) {
+}
+try { v8(Date, v11); } catch (e) {}
+v11[7] = v11;
+try { new Int32Array(Float64Array, 2.0, Float64Array); } catch (e) {}
+new Int32Array(128);
+const v20 = new BigInt64Array(128);
+v20[52];
+function F22() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v24 = this?.constructor;
+    try { new v24(); } catch (e) {}
+    try {
+        this.f = 14;
+    } catch(e27) {
+    }
+    try {
+        this.a = 14;
+    } catch(e28) {
+    }
+    try {
+        this.h = 14;
+    } catch(e29) {
+    }
+}
+try { new F22(); } catch (e) {}
+const v31 = new F22();
+const v32 = new F22();
+const v33 = new F22();
+class C34 extends F22 {
+    valueOf(a36) {
+        const o40 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o40);
+        return gc;
+    }
+    e = v33;
+    #d;
+}
+try { C34.apply(v7, Date); } catch (e) {}
+const v43 = new C34();
+v43.f = v43;
+const v44 = new C34();
+const v45 = new C34();
+function f46(a47, a48) {
+    const o58 = {
+        [a48](a50, a51, a52, a53) {
+            const v56 = typeof v44 === "boolean";
+            try { a48.m(v56, a48, v56); } catch (e) {}
+            return a50;
+        },
+        __proto__: a47,
+        ...v45,
+        ...v45,
+        "f": v33,
+        "c": v44,
+        "b": C34,
+    };
+    return o58;
+}
+f46.caller = f46;
+f46(v32, C34);
+const v60 = f46(v32, v44);
+const v61 = f46(v33, v33);
+function F62(a64, a65, a66) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v67 = this?.constructor;
+    try { new v67(this, this, a64); } catch (e) {}
+    a66.e = a66;
+    try {
+        this.f = a66;
+    } catch(e69) {
+    }
+}
+class C72 {
+    static ["22307"] = "AanB8";
+    b;
+}
+const v73 = new C72();
+v73.h = v73;
+new C72();
+for (let v75 = 0; v75 < 61; v75++) {
+    Object.defineProperty(v1, "d", { writable: true, configurable: true, set: f46 });
+}
+v60 - v73;
+Date[Symbol.search];
+Math.pow(-15 >> 8798, -2.220446049250313e-16);
+let v89 = -3.4869819310561585;
+v89++;
+const o95 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc();
+const v97 = new F62(v33, v33, v60);
+const v98 = new F62(v44, v43, v97);
+v98.length;
+new F62(v31, v98, v61);
+const v101 = [];
+function f102() {
+    const o104 = {
+        toString() {
+            return this;
+        },
+        3950: v101,
+    };
+    return o104;
+}
+3996 - 3996;
+const v108 = new BigUint64Array(3996);
+v108[1903];
+v108.every(f102);

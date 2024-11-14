@@ -1,0 +1,25 @@
+const v0 = [];
+class C1 {
+    static {
+        try { v0(this, v0, this); } catch (e) {}
+        let v4 = Symbol;
+        const v5 = v4.isConcatSpreadable;
+        this[v5];
+        v5 % this;
+        v5 >>> v5;
+        Math.fround(v0);
+        v4++;
+        +this;
+        Math.max(v0);
+    }
+}
+const v16 = new C1();
+new C1();
+new C1();
+new Float32Array(1);
+new Int16Array(13);
+new BigUint64Array(0);
+try {
+    v16(132.432626643787);
+} catch(e37) {
+}

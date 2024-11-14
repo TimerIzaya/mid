@@ -1,0 +1,69 @@
+const v0 = [];
+class C1 {
+    set b(a3) {
+        %VerifyType(this);
+        const v4 = [a3];
+        [v4,[v4,a3,a3],this];
+    }
+    static n() {
+        new AggregateError(127);
+        return v0;
+    }
+}
+const v11 = new C1();
+const v12 = new C1();
+const v13 = new C1();
+class C14 {
+    #toString(a16, a17) {
+        super.a = v11;
+        return this;
+    }
+    set d(a20) {
+        [] = v0;
+        try { v13.n(C1, v11, v12, a20, v13); } catch (e) {}
+        const o24 = {
+            "maxByteLength": 3898544535,
+        };
+        const v26 = new ArrayBuffer(1791, o24);
+        new Uint32Array(v26);
+    }
+}
+const v29 = new C14();
+const v30 = new C14();
+new C14();
+function F32(a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a35;
+    } catch(e37) {
+    }
+    try {
+        this.f = v29;
+    } catch(e38) {
+    }
+}
+new F32(C14, v30, v12);
+const v40 = new F32(v11, C1, v13);
+new F32(v11, v30, v13);
+function F42() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v44 = new F42();
+const v45 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v46 = 0; v46 < 5; v46++) {
+    function f47() {
+        try {
+            v45.forEach();
+        } catch(e49) {
+            e49.a = e49;
+            e49.a = v44;
+            e49.a = e49;
+        }
+        const v51 = v40.toPrimitive;
+        v51.description;
+        Symbol.for();
+        return v51;
+    }
+    f47();
+    %OptimizeFunctionOnNextCall(f47);
+}

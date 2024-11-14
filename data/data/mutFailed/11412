@@ -1,0 +1,21 @@
+function f0() {
+}
+try { Int16Array.bind(-17101); } catch (e) {}
+new Int16Array(167);
+try { new Int8Array(Int16Array, 167, 167); } catch (e) {}
+new Int8Array(2617);
+-65536 & -65536;
+new BigInt64Array(-65536);
+class C16 {
+}
+C16.e = C16;
+function f17() {
+    return C16;
+}
+let v18 = 0;
+do {
+    f17();
+    %OptimizeFunctionOnNextCall(f17);
+    const v20 = v18++;
+    v20 - v20;
+} while (v18 < 2)

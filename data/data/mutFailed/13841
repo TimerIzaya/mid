@@ -1,0 +1,50 @@
+let v4 = Uint8ClampedArray;
+v4.b = v4;
+const v5 = new v4(4);
+const v6 = v5?.findLastIndex;
+try { new v6(v4); } catch (e) {}
+const v10 = new Int16Array(1328, Int16Array, v4);
+function f11() {
+    ("number").length;
+    function F13() {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = -65536;
+        } catch(e16) {
+        }
+        try {
+            this.b = -65536;
+        } catch(e17) {
+        }
+        try {
+            this.e = -65536;
+        } catch(e18) {
+        }
+    }
+    const v19 = new F13();
+    const v20 = new F13();
+    const v21 = [256,9007199254740991,-2147483649,2];
+    class C22 {
+        static e;
+        16 = v21;
+        e = F13;
+        constructor(a24, a25) {
+            try {
+                a24.fuck(false, this);
+            } catch(e28) {
+            }
+        }
+    }
+    const v29 = new C22(v20, v19);
+    return v29;
+}
+v10[Symbol.toPrimitive] = f11;
+v10[522] = v10;
+const v34 = new Float64Array(255);
+v34.toString = f11;
+v34[141] = v34;
+2.0 >>> 2.0;
+const t45 = 2.0;
+const v37 = delete t45[4];
+v4--;
+!v37;

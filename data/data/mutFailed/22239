@@ -1,0 +1,81 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 536870912;
+    } catch(e3) {
+    }
+    try {
+        this.a = 536870912;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+("undefined")[5];
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a17.substr(a18, v6); } catch (e) {}
+    try { a19.valueOf(); } catch (e) {}
+    try {
+        this.c = a19;
+    } catch(e22) {
+    }
+}
+F15.caller = F15;
+const v23 = new F15("h", "add", "add");
+const v24 = new F15("lastIndexOf", "h", "512");
+new F15("lastIndexOf", "add", "h");
+function f26(a27, a28) {
+    const v29 = a28?.constructor;
+    try { new v29(); } catch (e) {}
+    const o55 = {
+        1285: "512",
+        __proto__: "lastIndexOf",
+        "a": a27,
+        "h": F15,
+        toString(a32, a33, a34) {
+            let v35;
+            try { v35 = v5.toString(a34, v24, F0, a32); } catch (e) {}
+            const t39 = "undefined";
+            t39[v35] = F15;
+            !v23;
+            return a33;
+        },
+        [F15](a38, a39, a40, a41) {
+            new F15(a39, a39, a39);
+            const v45 = Symbol.iterator;
+            const o54 = {
+                [v45]() {
+                    let v47 = 10;
+                    const o53 = {
+                        next() {
+                            v47--;
+                            const v51 = v47 == 0;
+                            const o52 = {
+                                "done": v51,
+                                "value": v47,
+                            };
+                            return o52;
+                        },
+                    };
+                    return o53;
+                },
+            };
+            return v7;
+        },
+    };
+    return o55;
+}
+const v56 = f26(v6, v5);
+v56[1285] = v56;
+f26(v6, v6)[1285];
+f26(v7, v6);
+class C60 {
+    static {
+        this.name = this;
+        const v62 = this.toString();
+        v62[27] = v62;
+        try { v62(); } catch (e) {}
+    }
+}

@@ -1,0 +1,41 @@
+Uint32Array.name;
+const v6 = new Uint32Array(1024);
+v6[128];
+try { Float32Array.bind(128); } catch (e) {}
+new Float32Array(128);
+new Uint16Array(3);
+Uint8ClampedArray.name = Uint8ClampedArray;
+const v17 = new Uint8ClampedArray(1428);
+new Uint8ClampedArray(1157);
+let v21 = -569463601;
+v21--;
+const v24 = new BigInt64Array(v21);
+let v25;
+try { v25 = v24.slice(v17, 1024); } catch (e) {}
+const v26 = [-6.672391061426152e+307];
+const v27 = [1,-15];
+function f28() {
+    v27.splice(v26, f28, v26);
+    let v31 = v26["pop"]();
+    v31--;
+    const v34 = 64 <= 64;
+    const v36 = new Float32Array(64);
+    for (let v37 = 0; v37 < 5; v37++) {
+        Array(36862, 36862, v37, v34);
+    }
+    v36.toSorted();
+    return f28;
+}
+const v42 = f28?.constructor;
+try { new v42(f28); } catch (e) {}
+%PrepareFunctionForOptimization(f28);
+f28();
+%OptimizeFunctionOnNextCall(v25);
+const v45 = f28();
+v25?.unscopables;
+const o50 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o50);
+try { v45(); } catch (e) {}

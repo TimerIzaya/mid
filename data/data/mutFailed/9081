@@ -1,0 +1,87 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v5 = this?.constructor;
+    let v6;
+    try { v6 = new v5(a4); } catch (e) {}
+    let v7 = 0;
+    while (v7 < 9) {
+        v6[2] = F2;
+        new Array(5);
+        v7++;
+    }
+    try {
+        this.f = a4;
+    } catch(e14) {
+    }
+}
+const v15 = new F2(f1);
+const v16 = new F2(f1);
+const v17 = v16.length;
+const v18 = new F2(v15);
+const v19 = [8093,7];
+try { v19.toLocaleString(); } catch (e) {}
+const v21 = [3,40985,536870889,-833688125,10000,-2147483649,-444125895];
+v21[5] = v21;
+const v22 = [14311];
+class C23 extends F2 {
+    constructor(a25, a26) {
+        super(f1);
+        const v27 = f1();
+        v27.d = v27;
+        %PrepareFunctionForOptimization(f1);
+        const v28 = f1();
+        try { v28(); } catch (e) {}
+        f1();
+        %OptimizeFunctionOnNextCall(f1);
+        f1();
+    }
+    static #m(a33, a34, a35, a36) {
+        let v37 = f1(a33, f1, ...a34, a33, ...a34);
+        const v38 = a33[6];
+        v37 &= v37;
+        return v38;
+    }
+}
+const v39 = C23?.__lookupGetter__;
+try { new v39(C23); } catch (e) {}
+const v41 = new C23(v18, v22);
+const v42 = v41.length;
+const v43 = new C23(v41, v22);
+new C23(v43, v21);
+const v45 = /xyz{1,32}?/gusy;
+class C46 {
+    static [v21] = v17;
+    static #b;
+    [v16];
+    static 10 = v41;
+    static #a;
+    268435440 = v45;
+}
+try { new C46(); } catch (e) {}
+const v48 = new C46();
+v48[268435440] = v48;
+const o49 = {
+    ...v48,
+};
+/(foo(?<!bar)baz)/guimsy;
+/Ja\w/vdiy;
+const v52 = /(x)(x)(x)\3*/vdimy;
+function f53(a54, a55, a56, a57) {
+    const v59 = new Int8Array(a56);
+    -1073741824 / -1073741824;
+    a55.__proto__;
+    try { a56.m(v59, C23, v15, v42); } catch (e) {}
+    const v69 = new Int32Array(2528);
+    v69[0] %= -1073741824;
+    return v59.buffer;
+}
+%PrepareFunctionForOptimization(f53);
+f53();
+%OptimizeFunctionOnNextCall(f53);
+const v72 = f53();
+try { v72.slice(v52, F2); } catch (e) {}

@@ -1,0 +1,51 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = f0;
+    } catch(e3) {
+    }
+    try {
+        this.f = f0;
+    } catch(e4) {
+    }
+    new BigInt64Array(F1);
+    new Uint8Array(64);
+    new Float32Array(51);
+}
+new F1();
+const v15 = new F1();
+const v16 = new v15();
+function f17() {
+    return v16;
+}
+let v19 = Float32Array;
+new F1(3642);
+const v23 = new Uint16Array(1000);
+let v24 = 5;
+const v25 = (a26, a27, a28, a29) => {
+    const o33 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o33);
+    return f17;
+};
+new BigInt64Array(v24);
+const v37 = [65535,-2147483647,9007199254740990,11241,-3,-299794727,16,1,-4294967297];
+const o38 = {
+};
+function f39(a40, a41) {
+    v37[11] = o38;
+    return 1000;
+}
+%PrepareFunctionForOptimization(f39);
+while (0 < 2) {
+    v19 |= v19;
+    v24 ^= v19;
+    f0++;
+}
+f39(o38, v23);
+%OptimizeFunctionOnNextCall(f39);
+f39();

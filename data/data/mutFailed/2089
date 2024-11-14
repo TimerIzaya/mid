@@ -1,0 +1,60 @@
+const v2 = new Uint16Array(198);
+const v5 = Uint32Array.name;
+const v6 = new Uint32Array(512);
+const v9 = new BigInt64Array(11);
+function f10(a11, a12) {
+    a11++;
+    const o21 = {
+        ...v6,
+        [v2]: BigInt64Array,
+        toString(a15, a16) {
+            const v17 = v6.__proto__;
+            a16 = 11;
+            return v17;
+        },
+        "c": v2,
+        "h": v2,
+        [11]: a11,
+        __proto__: v6,
+    };
+    o21[376] = o21;
+    return o21;
+}
+f10(11, 11);
+const v23 = f10(11, 11);
+const v24 = f10(512, 11);
+v24[458] = v24;
+function f27(a28, a29, a30) {
+    function f32(a33) {
+        try {
+            new f10([this,11,v5,a30,v9], this);
+        } catch(e36) {
+        }
+    }
+    this.onmessage = f32;
+}
+const v40 = [v24,11,-4294967296n];
+const o41 = {
+    "arguments": v40,
+    "type": "function",
+};
+new Worker(f27, o41);
+function f46(a47) {
+    const o48 = {
+        ..."toStringTag",
+    };
+    Object.defineProperty("function", 268435441, { configurable: true, get: f10 });
+    const t46 = f10(BigInt64Array, 4n);
+    const v50 = delete t46?.h;
+    try { v23.toString(v50, "15036"); } catch (e) {}
+    o48.f;
+    return o48;
+}
+const v53 = f46?.toString;
+try { new v53(); } catch (e) {}
+class C55 extends f46 {
+    ["15036"];
+}
+const v56 = new C55();
+for (const v57 in v56) {
+}

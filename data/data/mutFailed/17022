@@ -1,0 +1,10 @@
+new Uint8Array(2);
+new eval(53487);
+new SharedArrayBuffer(14);
+class C12 {
+}
+const v13 = new C12(2, 2, 65536);
+function f14() {
+    return v13;
+}
+Object.defineProperty(v13, "b", { enumerable: true, get: f14 });

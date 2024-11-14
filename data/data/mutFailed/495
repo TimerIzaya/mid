@@ -1,0 +1,74 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 268435441;
+    } catch(e3) {
+    }
+    try {
+        this.c = 268435441;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+const v7 = new F0();
+const v8 = [-4.0,1000000.0];
+const v9 = [-2.220446049250313e-16,-0.0,1.2186371281782681e+308,-4.5081983120904345,-1.7976931348623157e+308,-1.0,0.3280480588762025,-2.1527482974397145,-1.0];
+function f10() {
+    return Math.sinh(128);
+}
+v9[Symbol.toPrimitive] = f10;
+const v16 = [-5.652798882507874e+306,-Infinity,-4.0];
+function f17(a18, a19) {
+    a19.constructor = f17;
+    const o28 = {
+        valueOf(a21, a22, a23, a24) {
+            v7.c;
+            null ** v16;
+            return a19;
+        },
+        "a": a19,
+        "d": a18,
+        [v8]: v8,
+        "c": a19,
+        "h": v5,
+        [v7]: a18,
+        __proto__: v16,
+        "f": a18,
+        "c": v5,
+        "h": a19,
+        "e": v8,
+        [a19]: a18,
+        "g": v9,
+        /*
+        __proto__: a19,
+        */
+    };
+    return o28;
+}
+f17(v7, v9);
+const t48 = v9.constructor;
+new t48();
+class C32 {
+    constructor(a34, a35, a36, a37) {
+    }
+    /*
+    constructor(a39, a40, a41, a42) {
+    }
+    */
+}
+f17(v9, v8);
+f17(v7, v8);
+function f45() {
+    return v16;
+}
+function f49() {
+    return f49;
+}
+function f50(a51, a52) {
+    Math.acosh(1073741825);
+    return f49;
+}
+f49[Symbol.iterator] = f50;
+const v58 = new Uint16Array(f49);
+v58["filter"](f49);

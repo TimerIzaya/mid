@@ -1,0 +1,62 @@
+class C1 {
+    #a = true;
+    #f = true;
+    static [true] = true;
+    static #b;
+    static #o() {
+        try {
+            this.#o(this, true, this, this, this);
+        } catch(e4) {
+        }
+        return this;
+    }
+}
+new C1();
+const v6 = new C1();
+v6?.constructor;
+try { new C1(); } catch (e) {}
+const v9 = new C1();
+const v10 = v9?.constructor;
+try { new v10(); } catch (e) {}
+-32149 + -32149;
+function f16() {
+    return C1;
+}
+221 >> 221;
+new Int16Array(221);
+try { Uint32Array.from(Uint32Array); } catch (e) {}
+const v24 = new Uint32Array(247);
+v24[175];
+const v28 = Uint16Array?.constructor;
+try { new v28(C1); } catch (e) {}
+new Uint16Array(0);
+const v31 = [-1,16,65536];
+try { v31.some(-2); } catch (e) {}
+const v36 = Reflect.construct(Int16Array, [v31]);
+v36[1] = v36;
+let v37 = 1073741824;
+class C39 {
+    constructor(a41) {
+        [a41,v37] = "boolean";
+    }
+}
+const v42 = new C39(Int16Array);
+const v43 = v42?.constructor;
+try { new v43(v37); } catch (e) {}
+const v45 = new C39();
+try { v45.propertyIsEnumerable(221); } catch (e) {}
+function f48(a49, a50, a51) {
+    const v52 = a49?.constructor;
+    try { new v52(v45); } catch (e) {}
+    try { a50.toLocaleLowerCase(); } catch (e) {}
+    a50[22] = a49;
+    const o55 = {
+        ...a51,
+        2: v42,
+        268435439: C39,
+    };
+    return o55;
+}
+const v56 = f48(v45, "-65537", v37);
+v56[268435439];
+v37(v56, "boolean", v56);

@@ -1,0 +1,42 @@
+class C6 {
+    static [C6];
+    static #toString(a8, a9, a10) {
+        const t3 = a10?.[536870912n];
+        const t4 = delete t3?.[this[a10]];
+        t4[5] = a10;
+        return -1599071103;
+    }
+    [-2] = -5;
+    static e;
+}
+new C6();
+new C6();
+const v19 = new C6();
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a23;
+    } catch(e24) {
+    }
+    try {
+        this.b = 6n;
+    } catch(e25) {
+    }
+}
+new F20(6n, v19);
+new F20(6n, v19);
+new F20(536870912n, v19);
+function f31(a32, a33) {
+    const o36 = {
+        "g": 1073741824,
+        get d() {
+            super[a32];
+            return this;
+        },
+        "f": 3,
+        ...a32,
+        10: 1073741824,
+    };
+    return o36;
+}
+f31(f31(f31));

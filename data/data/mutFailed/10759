@@ -1,0 +1,44 @@
+const v2 = new Int16Array(3);
+const v5 = new Float32Array(512);
+const v8 = new Int32Array(8);
+class C9 extends Float32Array {
+    2;
+    static #n(a11, a12) {
+        const v13 = super[a12];
+        try { v13.valueOf(512, a12); } catch (e) {}
+        const o18 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o18);
+        try {
+            new Int16Array(v2);
+        } catch(e21) {
+        }
+        return v5;
+    }
+    static [v5];
+    static {
+        try {
+            this.#n(this, v5, v8, v8);
+            try {
+                v8.find(C9);
+            } catch(e25) {
+            }
+            function f26() {
+                return v8;
+            }
+        } catch(e27) {
+        }
+        [] = v5;
+    }
+}
+const v28 = new C9();
+new C9();
+new C9();
+v5[268435439];
+for (let v36 = 0; v36 < 32; v36++) {
+    v28["p" + v36] = v36;
+}
+const v40 = new Int32Array(2890);
+v40.lastIndexOf();

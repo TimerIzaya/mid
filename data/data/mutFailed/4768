@@ -1,0 +1,44 @@
+const t0 = 520;
+const v3 = new t0();
+for (let v4 = 0; v4 < 25; v4++) {
+    v3["p" + v4] = v4;
+}
+new Int32Array(520);
+new Uint8ClampedArray(54);
+new Float32Array(213);
+function f20() {
+    const o23 = {
+        "h": "toString",
+        "type": "minor",
+    };
+    let v24 = 852.2904873570058;
+    const o31 = {
+        3: "setDate",
+        "f": 1836424012,
+        m(a28, a29) {
+            v24++;
+            return v24;
+        },
+        "d": 1836424012,
+    };
+    return o31;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+f20();
+const v34 = [-10,255];
+const v36 = new Uint8ClampedArray();
+v34 * v36;
+class C38 {
+}
+const v39 = new Int32Array();
+const v40 = new C38();
+function F42(a44, a45, a46) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v47 = this.constructor;
+    try { new v47(this, a46, -14); } catch (e) {}
+    a46.valueOf(a44, a46);
+}
+new F42(v39, v40, v36);
+%OptimizeFunctionOnNextCall(8.690339566028306e+307);
+f20();

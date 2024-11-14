@@ -1,0 +1,59 @@
+class C3 {
+    static {
+        super[this < this];
+        "object" == "object";
+    }
+    static #f;
+    [-1];
+    #b;
+    #e = 2147483649;
+}
+const v11 = new C3();
+const v12 = v11?.constructor;
+try { new v12(); } catch (e) {}
+const v14 = new C3();
+const v15 = v14?.constructor;
+try { new v15(); } catch (e) {}
+const v17 = new C3();
+try { v17.propertyIsEnumerable(C3); } catch (e) {}
+class C20 {
+    static set c(a22) {
+        function f23(a24, a25, a26) {
+            a25[531207157];
+            return this;
+        }
+        f23(a22, a22, v17);
+        ("undefined").normalize("NFC");
+    }
+    [2147483649];
+}
+const v35 = new C20();
+const v36 = new v11();
+const v37 = new C3();
+v37[2147483649] = v37;
+const v38 = [];
+function f39(a40) {
+    try {
+        v38.some(a40);
+    } catch(e42) {
+        e42.message = e42;
+        e42.stack;
+        try { f39.lastIndexOf(v36); } catch (e) {}
+    }
+}
+v38.toString = f39;
+function f45() {
+    const o47 = {
+        __proto__: v11,
+        [f45]() {
+        },
+    };
+    try { o47.copyWithin(v35, f45); } catch (e) {}
+    return o47;
+}
+const v49 = new f45();
+try { v49.concat(C20); } catch (e) {}
+Int8Array.length;
+const v53 = new Int8Array(v38);
+v38.a = v53[1];
+f45();

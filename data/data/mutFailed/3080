@@ -1,0 +1,25 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v0;
+    } catch(e3) {
+    }
+    try {
+        this.e = v0;
+    } catch(e4) {
+    }
+    try {
+        this.a = v0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new F1();
+const v8 = new v6();
+const v9 = [v0,v8];
+[v9,F1,[v6,v0,v7],v0];
+new v9(10);
+new Uint8ClampedArray(512);
+new Float32Array(13);
+/[xyz]/vis;

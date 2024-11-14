@@ -1,0 +1,37 @@
+function f0() {
+}
+new Uint16Array(1745);
+let v5 = Int8Array;
+new v5(232);
+const v9 = new Uint8Array(1000);
+class C10 {
+    toString(a12, a13) {
+        ({"a":a12,"e":a12,...v5} = this);
+        a13?.d;
+        return a12;
+    }
+    valueOf(a16, a17, a18, a19) {
+        ({"d":a17,"f":a16,} = this);
+        try {
+            v9.length = 1000;
+        } catch(e20) {
+        }
+        return a18;
+    }
+}
+new C10();
+new C10();
+new C10();
+function f24(a25, a26, a27, a28) {
+    function f30() {
+        Math[Symbol.toPrimitive] = f30;
+        return Math.asin(Math);
+    }
+    %PrepareFunctionForOptimization(f30);
+    f30();
+    %OptimizeFunctionOnNextCall(f30);
+    f30();
+    return arguments;
+}
+const v37 = f24(f24, f24, f24, f24);
+v37.callee(v37, v37, v37);

@@ -1,0 +1,45 @@
+const v2 = new BigUint64Array(223);
+const v5 = new BigUint64Array(1);
+if (Int32Array) {
+    try {
+        v5.byteLength = 223;
+    } catch(e8) {
+    }
+} else {
+    Object.defineProperty(v2, 16, { enumerable: true, value: 127 });
+}
+const v9 = new Int32Array(127);
+function f10() {
+    return v9;
+}
+class C11 extends BigUint64Array {
+    a = BigUint64Array;
+    m(a13, a14) {
+        v2[255];
+        f10();
+        let v18;
+        try { v18 = v5.copyWithin(223, 223, 127); } catch (e) {}
+        try {
+            arguments.d = v18;
+        } catch(e19) {
+        }
+        return BigUint64Array;
+    }
+    3095068682;
+}
+new C11();
+const o23 = {
+    "maxByteLength": 1024,
+};
+const v25 = new ArrayBuffer(5, o23);
+new Float32Array(v25);
+new C11();
+new C11();
+function f31() {
+    return Date;
+}
+function f35(a36, a37, a38, a39) {
+    return arguments;
+}
+const v41 = f35(f35, f35, Date, f35);
+v41.constructor.setPrototypeOf(Date, v41);

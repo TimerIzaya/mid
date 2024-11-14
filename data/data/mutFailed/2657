@@ -1,0 +1,76 @@
+const v1 = new WeakSet();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a7;
+    } catch(e8) {
+    }
+    try {
+        this.a = v1;
+    } catch(e9) {
+    }
+    try {
+        this.g = a7;
+    } catch(e10) {
+        try { e10(0.23791389786988937); } catch (e) {}
+        e10?.[2147483649];
+    }
+}
+const v16 = new F5(-9007199254740991);
+const v17 = new F5(-23402);
+new F5(-23402);
+class C19 {
+    get g() {
+        let v20 = this;
+        const v22 = new Set();
+        delete v20[7];
+        v20 = v22;
+        return Set;
+    }
+    #h;
+    static e = v17;
+    constructor(a25, a26) {
+        for (let v27 = 0; v27 < 32; v27++) {
+            a26["p" + v27] = v27;
+        }
+    }
+    [WeakSet] = WeakSet;
+    536870887 = v16;
+}
+new C19();
+const v31 = new C19();
+const v32 = new C19();
+function f33() {
+    let v34 = 1000000000000.0;
+    const v35 = v34--;
+    class C37 {
+    }
+    try {
+        v17.a = -9007199254740991;
+    } catch(e38) {
+    }
+    v31 << v31;
+    const v40 = new C37();
+    const v41 = new C37();
+    function f42(a43, a44, a45, a46) {
+        +(+v32);
+        Math.random();
+        return a44;
+    }
+    f42(v16, v17, v35, v40);
+    [v41,C37];
+    [257828.6336153492,v41];
+    const v57 = [v41];
+    class C58 extends C37 {
+    }
+    function f59(a60, a61) {
+        return a60;
+    }
+    Set.toString = f59;
+    Set.constructor(Set);
+    v57.constructor;
+}
+%PrepareFunctionForOptimization(f33);
+f33();
+%OptimizeFunctionOnNextCall(f33);
+f33();

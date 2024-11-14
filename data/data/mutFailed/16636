@@ -1,0 +1,27 @@
+Array[Symbol.toPrimitive] = Array;
+const v7 = new Array(9);
+v7[4] = Symbol;
+class C11 extends Array {
+    m(a13, a14) {
+        Array.__proto__;
+        this[16] = 154098443;
+        return 154098443;
+    }
+    static #c;
+    [v7];
+    [1] = 154098443;
+    [255] = 475545971;
+    [Array];
+}
+new C11();
+new C11();
+new C11();
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v25 = this.constructor;
+    let v26;
+    try { v26 = new v25(a22); } catch (e) {}
+    typeof v26 === "symbol";
+}
+new F19(F19, F19, F19, F19);
+new F19();

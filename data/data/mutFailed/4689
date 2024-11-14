@@ -1,0 +1,24 @@
+const v2 = new Int32Array(8);
+const v5 = new Float32Array(3282);
+new Uint8ClampedArray(2992);
+const v9 = [v2,Float32Array,8];
+const v10 = [v2,v9,Uint8ClampedArray,v2,v9];
+const v11 = [Uint8ClampedArray,v9,v5,v10];
+v11[8];
+let v15;
+try { v15 = v11.flat(8); } catch (e) {}
+v15[0] = v15;
+try {
+    new Uint8ClampedArray(v10);
+} catch(e17) {
+}
+const v18 = new Int32Array(497);
+const v21 = new Int16Array(916);
+delete v11[v21];
+v18["findLastIndex"](v15, ...v2, ..."findLastIndex", Uint8ClampedArray);
+const o27 = {
+    "maxByteLength": 1073741824,
+};
+const v29 = new ArrayBuffer(1, o27);
+new Float32Array(v29);
+v18[3] = v21;

@@ -1,0 +1,63 @@
+function f3(a4, a5) {
+    a5[7] = a4;
+    a4[0] = a4;
+    a5[7];
+    const o11 = {
+        ["string"]: a4,
+        ..."string",
+        128: "o",
+        set b(a8) {
+            a8.toString = f3;
+            this[5];
+            this["function"] = a8;
+            a4[this] = this;
+            delete a4?.[this];
+        },
+        ..."string",
+        __proto__: "function",
+        "h": a5,
+    };
+    return o11;
+}
+const v12 = f3("o", "function", f3, "function");
+v12.string = v12;
+const v13 = f3(v12, f3, v12, "function", v12);
+const v14 = f3(f3, v13);
+function f15() {
+    return f3;
+}
+Object.defineProperty(v14, Symbol.toPrimitive, { enumerable: true, get: f15 });
+v14.b = v14;
+function f18(a19, a20, a21, a22) {
+    try { a19.split("string", a19); } catch (e) {}
+    a20[1] = a20;
+    try { a22.sub(); } catch (e) {}
+    try { a20.blink(); } catch (e) {}
+    a21[6];
+    try { a22.search(a20); } catch (e) {}
+    const o28 = {
+        [a20]: a22,
+        "b": "string",
+        115: v14,
+        "e": "o",
+        ...v13,
+        "a": a21,
+        ...a21,
+        "d": v12,
+        "g": a19,
+        "a": v14,
+        "f": v14,
+    };
+    o28.f = o28;
+    return o28;
+}
+const v29 = f18("o", "function", "function", "o");
+let v30;
+try { v30 = v29.hasOwnProperty(v12); } catch (e) {}
+v30 || v30;
+const v32 = f18("string", "function", "o", "o");
+v32[5] = v32;
+f18("o", "string", "o", "o", v32, f3, "string")[115];
+function f35() {
+    return f35;
+}

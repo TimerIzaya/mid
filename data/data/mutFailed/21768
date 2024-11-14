@@ -1,0 +1,50 @@
+class C3 {
+    f = 46144;
+    static #b;
+    static #h;
+    h = 46144;
+    constructor(a5) {
+        const o6 = {
+        };
+        const v8 = new Proxy(this, o6);
+        let v9;
+        try { v9 = new a5(a5, o6); } catch (e) {}
+        Reflect.construct(a5, [46144,v8,-874580.3133453012,v8], v9);
+    }
+    static 10 = 431.6490004788732;
+}
+new C3(C3);
+const v14 = new C3(C3);
+new C3(v14);
+const v22 = [3,891411439];
+const v23 = [15543];
+const v24 = [7,-15,-65536,-9223372036854775807,-1144732007];
+function f25() {
+    let v26;
+    try { v26 = v24.findLast(f25, v14); } catch (e) {}
+    const v27 = v23 instanceof v26;
+    [] = v22;
+    let v28;
+    try { v28 = v26(v26, 1073741823, v23, v27, 4n); } catch (e) {}
+    v26 | v28;
+    const o40 = {
+        "e": -1781241988,
+        8: -1781241988,
+        "c": -1781241988,
+        ..."g",
+        ..."g",
+        [1](a34, a35) {
+            Object.defineProperty("n", "d", { writable: true, value: "n" });
+            let v39;
+            try { v39 = ("construct").concat(f25, Uint8ClampedArray, this); } catch (e) {}
+            v39["n"] = Uint8ClampedArray;
+        },
+    };
+    return o40;
+}
+const v42 = [f25,f25()];
+function F43(a45, a46, a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v49 = F43.constructor;
+try { v49(v42); } catch (e) {}

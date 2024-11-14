@@ -1,0 +1,36 @@
+function f0() {
+    const o15 = {
+        m(a5, a6) {
+            const v8 = (-2.2250738585072014e-308).toPrimitive;
+            const o14 = {
+                [v8]() {
+                    let v9 = this;
+                    function f10(a11) {
+                        return v8;
+                    }
+                    class C12 extends f10 {
+                        static e;
+                        static #b = v8;
+                    }
+                    return Symbol;
+                    v9 = Symbol;
+                    try { a5(-1119316590, v9, v8, -587006547); } catch (e) {}
+                    return -2.2250738585072014e-308;
+                },
+            };
+            return f0;
+        },
+    };
+    return o15;
+}
+f0();
+const t25 = f0();
+t25();
+new Float64Array(3994);
+new Int8Array(1);
+new Uint32Array(6);
+const v29 = [Reflect];
+const o30 = {
+    __proto__: Reflect,
+    "e": v29,
+};

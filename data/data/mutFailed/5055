@@ -1,0 +1,20 @@
+const v2 = new BigInt64Array(-11);
+try { new Uint8ClampedArray(v2, -11, BigInt64Array, v2, v2); } catch (e) {}
+new Uint8ClampedArray(12);
+3705 < 3705;
+new Float64Array(3705);
+new Map();
+const v16 = new BigInt64Array();
+v16.byteOffset = v16;
+function f17() {
+    v16[undefined] instanceof f17;
+    const o20 = {
+    };
+    o20.d = o20;
+    o20.h = o20;
+    return Map;
+}
+%PrepareFunctionForOptimization(f17);
+f17();
+%OptimizeFunctionOnNextCall(f17);
+f17();

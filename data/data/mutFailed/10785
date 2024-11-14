@@ -1,0 +1,77 @@
+let v3 = 10;
+const v4 = v3--;
+v4 / v4;
+const v7 = new Uint8Array(v3);
+v7[4];
+new Int32Array(10);
+let v14;
+try { v14 = new Int16Array(1000, 10, 10000); } catch (e) {}
+v14[15] = v14;
+const v15 = new v14(1000);
+v15[174];
+const o18 = {
+    ..."boolean",
+};
+o18[3];
+function f20(a21, a22) {
+    return a21;
+}
+Object.defineProperty(o18, 1, { configurable: true, get: f20 });
+const v24 = !true;
+v24 && v24;
+function f26() {
+    const o29 = {
+        1678: true,
+        ...true,
+        "d": true,
+        [true]() {
+            super.e;
+        },
+        1: true,
+    };
+    return o29;
+}
+f26.caller = f26;
+const v30 = f26();
+v30[1] = v30;
+let v31 = f26();
+-2147483649 >= -2147483649;
+let v34 = 9;
+-v34;
+-5 * -5;
+class C39 {
+    constructor(a41, a42, a43, a44) {
+        try { new a44(v30); } catch (e) {}
+        try {
+            new f26();
+        } catch(e47) {
+        }
+        v31[36];
+    }
+    static #a;
+    static {
+        let v50;
+        try { v50 = this.constructor(-9007199254740991); } catch (e) {}
+        try { v50(); } catch (e) {}
+        const v52 = this.__proto__;
+        try { v52.call(v50); } catch (e) {}
+        try {
+            this.b = -9007199254740991;
+        } catch(e54) {
+        }
+    }
+}
+C39.prototype = C39;
+C39.d = C39;
+const v55 = new C39();
+const v56 = new C39(-2147483649, v30, v31);
+const v57 = v56?.__lookupGetter__;
+try { v57.toString(); } catch (e) {}
+try { new v57(f26); } catch (e) {}
+({"c":v31,"h":v34,} = v55);
+v55[8] **= -5;
+const o60 = {
+};
+o60.e = o60;
+Proxy.name = Proxy;
+new Proxy(v55, o60);

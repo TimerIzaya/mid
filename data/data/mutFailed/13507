@@ -1,0 +1,52 @@
+const v2 = new Uint8ClampedArray(169);
+const v5 = new Uint8ClampedArray(3148);
+v5[1899];
+const v9 = new Uint32Array(255);
+try { v9.slice(255, v2); } catch (e) {}
+const v11 = [Uint8ClampedArray,3148,Uint8ClampedArray];
+let v12 = 9;
+-v12;
+function F14(a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v19 = v12++;
+    v19 % v19;
+}
+function f21() {
+    for (let v22 = 0; v22 < 5; v22++) {
+        v22 + v22;
+        const v24 = new F14();
+        function F25(a27, a28) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v29 = new F25();
+        try { v29.constructor(v12, v24); } catch (e) {}
+        [1.7976931348623157e+308,-2.220446049250313e-16,0.8658147400531155,-0.0,4.0,415360.3767628204,-0.0,-541992.1296920711,-2.220446049250313e-16,6.905873236061845e+307];
+        [Infinity,0.5831778008240901,586945.0795628796,185138.43309922703,1000000000000.0,-592.5609547663604,0.7718956908602346,-1.7976931348623157e+308,NaN,1000000.0];
+        [-1000000000000.0,2.2250738585072014e-308,-3.0,-1000000.0,411.4931880153383,-2.2250738585072014e-308,890153.3200508405,-3.24383662140745] >= v24;
+        f21();
+        %PrepareFunctionForOptimization(f21);
+        f21();
+        f21();
+        %OptimizeMaglevOnNextCall(f21);
+        f21();
+        const v40 = v12 ** v12;
+        const v41 = !v12;
+        9007199254740991 * v40;
+        v41 % F14;
+        const v44 = v24.constructor;
+        const v45 = new v44();
+        const v46 = v45?.__defineGetter__;
+        try { new v46(v44, v2); } catch (e) {}
+    }
+}
+%PrepareFunctionForOptimization(f21);
+f21();
+%OptimizeFunctionOnNextCall(f21);
+f21();
+[v9,[v11,v2],v9];
+let v52 = -128n;
+v52--;
+BigUint64Array.length;
+5 * 5;
+-1.0 << -1.0;
+!(BigUint64Array <= 0.7221600461335677);

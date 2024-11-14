@@ -1,0 +1,58 @@
+function F1(a3, a4) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F1();
+function f6(a7, a8, a9) {
+    const o11 = {
+        get d() {
+            return f6;
+        },
+    };
+    const v12 = o11?.__lookupSetter__;
+    let v13;
+    try { v13 = new v12(); } catch (e) {}
+    return v13;
+}
+class C16 {
+    constructor(a18, a19) {
+        const t17 = "4";
+        t17[536870912] = a19;
+        const v20 = "4" <= this;
+        let v21;
+        try { v21 = a19(this, v20, a19, "isConcatSpreadable", a18); } catch (e) {}
+        const o22 = {
+        };
+        try {
+            o22.c = a18;
+        } catch(e23) {
+        }
+        try {
+            const o24 = {
+            };
+            o24.c = a18;
+            o24.d = a19;
+        } catch(e25) {
+        }
+        try {
+            const o26 = {
+            };
+            o26.c = a18;
+            o26.d = a19;
+            o26.b = v20;
+        } catch(e27) {
+        }
+        try {
+            const o28 = {
+            };
+            o28.c = a18;
+            o28.d = a19;
+            o28.f = v21;
+        } catch(e29) {
+        }
+    }
+}
+new C16(C16, -1025071391);
+new C16(C16, C16);
+new C16(C16, "4");
+new WeakMap();
+("I").localeCompare();

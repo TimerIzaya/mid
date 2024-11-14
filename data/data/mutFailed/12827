@@ -1,0 +1,56 @@
+class C1 {
+    static toString() {
+        let v3 = this >>> this;
+        v3++;
+        Reflect.construct(true, [v3,this,v3,Reflect], true);
+        return v3;
+    }
+    static #a = true;
+    static e = true;
+    [true];
+}
+const v8 = new C1();
+const v9 = new C1();
+new C1();
+const v11 = [-9,-70];
+[10];
+const v13 = [-1073741824,4294967297,-256,268435441,7,-28228,-4096,9007199254740990];
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v8;
+    try {
+        this.f = v9;
+    } catch(e18) {
+    }
+    try {
+        this.a = v8;
+    } catch(e19) {
+    }
+    try {
+        this.e = v9;
+    } catch(e20) {
+    }
+}
+new F14(v13, true);
+new F14(v11, v9);
+new F14(v8, C1);
+class C25 extends Int16Array {
+    constructor(a27, a28, a29, a30) {
+        super();
+        function f31(a32) {
+            function f34(a35) {
+                delete a27[a35];
+                return a28;
+            }
+            this.onmessage = f34;
+            return Int16Array;
+        }
+        const o39 = {
+            "type": "function",
+        };
+        new Worker(f31, o39);
+    }
+}
+new C25(Int16Array, C1, C25, Int16Array);
+const t54 = true;
+new t54();

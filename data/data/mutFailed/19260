@@ -1,0 +1,14 @@
+new WeakSet();
+new BigInt64Array(4);
+new Reflect(4096, BigInt64Array, BigInt64Array, WeakSet);
+new Int8Array(-1647096251);
+const v16 = 1073741824 | 1073741824;
+const v17 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+Object.defineProperty(v17, 268435439, { enumerable: true, value: v16 });
+for (let v18 = 0; v18 < 5; v18++) {
+    function f19() {
+        return v17.length;
+    }
+    f19(f19, 4294967296n);
+    %OptimizeFunctionOnNextCall(f19);
+}

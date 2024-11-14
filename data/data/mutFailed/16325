@@ -1,0 +1,32 @@
+const v2 = new WeakSet();
+const v3 = [-3.0936812595238035,0.978551131265684,0.2551710206309791,4.0,NaN,NaN];
+const v4 = [3.303359658862152e+306,1.0,0.19530644751916326,-2.0];
+const v5 = [0.7961196424092696];
+class C6 extends WeakSet {
+    set g(a8) {
+        try { a8(v2); } catch (e) {}
+    }
+    constructor(a11, a12) {
+        super(a11);
+        v4.__proto__;
+    }
+}
+const v17 = new C6(v4, v5);
+const v18 = new C6(v4, v5);
+const v19 = new C6(v3, v5);
+try {
+    v19.g = v5;
+} catch(e20) {
+}
+try { v3(v18, v17, WeakSet, v5, ...v4, false); } catch (e) {}
+class C25 {
+    [1.7976931348623157e+308] = 23354;
+    #h;
+    1;
+    [23354];
+    [-4.055130549492246];
+}
+const v26 = new C25();
+[[]];
+for (const v30 in v26) {
+}

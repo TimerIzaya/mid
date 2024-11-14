@@ -1,0 +1,70 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = f0;
+    } catch(e3) {
+    }
+    try {
+        this.c = f0;
+    } catch(e4) {
+    }
+}
+new F1();
+const v6 = new F1();
+let v7;
+try { v7 = v6.b(); } catch (e) {}
+let v8 = new F1();
+for (let v9 in v8) {
+    let v12 = -9007199254740990;
+    const v13 = !v12;
+    v12--;
+    F1 * v13;
+    v8++;
+    ++v9;
+}
+try { v8.b(); } catch (e) {}
+[-4294967297,65536,436189817,-65536,-1971120385];
+[4294967295,37432,-12,-4096];
+const v21 = [2,9,-4294967295,20203,-852382415];
+[-9223372036854775808];
+[-55346,-215,4747,-268435456,1321935626,4,9223372036854775807,1266526512];
+const v24 = [-2,610464722,26158,7,536870888,-18769,4294967297];
+class C25 {
+    2463;
+    g;
+    static {
+        const v27 = [this,this,f0,v24];
+        const v28 = [v6,F1];
+        const v29 = [v28,this,v6,v28,v27];
+        v29[2] = v29;
+    }
+    n(a31, a32) {
+        const v35 = new Float32Array(3683);
+        new Int16Array(3016);
+        new Float32Array(129);
+        return v35;
+    }
+}
+const v42 = v7.__proto__;
+const v45 = -Infinity;
+const v46 = [v45,v45];
+const v47 = new C25();
+const v48 = v47?.hasOwnProperty;
+try { new v48(f0); } catch (e) {}
+new C25();
+const v51 = new C25();
+[];
+[549,v46];
+const v55 = [v21,v45,v51,v48];
+[v42];
+function f57() {
+    return v55;
+}
+549 ^ 549;
+const v60 = new BigUint64Array(549);
+const v63 = new Uint8ClampedArray(127);
+for (const v64 in v63) {
+    try { v60.filter(); } catch (e) {}
+}

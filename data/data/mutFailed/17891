@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 7;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new v4();
+const v6 = new F0();
+function f7() {
+    return f7;
+}
+function f11(a12, a13, a14) {
+    const o18 = {
+        "b": a14,
+        "c": 8,
+        [a12]: v5,
+        "g": f7,
+        3083816291: 1073741823,
+        "f": a14,
+        [v6]: 1073741823,
+        set h(a16) {
+            const o17 = {
+                __proto__: v4,
+                "b": a16,
+                ...a13,
+            };
+        },
+    };
+    return o18;
+}
+const v19 = f11(v5, F0, v6);
+const v20 = f11(v19, 8, v5);
+f11(v6, v20, v20);
+function f22() {
+    Reflect.construct(f7, [Reflect,Reflect,Reflect,Reflect,Reflect]);
+    return v19;
+}
+try { f22(); } catch (e) {}

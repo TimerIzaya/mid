@@ -1,0 +1,48 @@
+const v0 = [];
+function f1(a2, a3) {
+    Reflect.construct(a3, [v0,v0,a2,a2], a3);
+    return v0;
+}
+v0.toPrimitive;
+v0[Symbol] = f1;
+const v10 = new Date();
+v10.toString = f1;
+const v11 = [v0,v10,Date,v10];
+Symbol.toPrimitive;
+v11[f1] = f1;
+const v14 = [v10,v0,Date,v11,v11];
+const v15 = [v10,v0,v14];
+v15.toString = Date;
+const v17 = new WeakSet();
+const v18 = [v0,v15,v11,v0,v14];
+const v19 = [v18,v15];
+[v17];
+new f1();
+class C23 {
+    static [Date];
+    constructor(a25, a26) {
+        try {
+            v19.reduceRight(Date);
+        } catch(e28) {
+        }
+        try {
+            this.toString = Date;
+        } catch(e29) {
+        }
+    }
+    static #d = v15;
+    #g;
+    static [v15];
+}
+const v30 = new C23(v19, v15);
+const v31 = new C23(v14, v30);
+new C23(v31, v18);
+function F33(a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        ["function",[9007199254740992,-13,1,206834672,5792,16,856414023,8,2147483648]];
+        new a35();
+    } catch(e41) {
+    }
+}
+new F33();

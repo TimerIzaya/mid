@@ -1,0 +1,56 @@
+class C3 {
+    m(a5, a6) {
+        const v8 = Symbol.toPrimitive;
+        const o13 = {
+            [v8]() {
+                Object.defineProperty(this, 1000.0, { writable: true, enumerable: true, value: this });
+                /a|b\x60/dimy;
+                /m/gmsy;
+                /I/gud;
+                return -1.0;
+            },
+        };
+        return o13;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function f17(a18, a19, a20, a21) {
+    const o22 = {
+        1029: -1.0,
+        "f": a21,
+        "h": a21,
+        __proto__: a21,
+        "b": a20,
+        "d": a21,
+        [v16]: a18,
+        [v14]: v16,
+        ...a19,
+        "a": a20,
+        16: a21,
+        "c": C3,
+        "e": a18,
+        [0.9118997352744852]: 1000.0,
+    };
+    return o22;
+}
+const v24 = f17(v15, f17(C3, f17, v15, v15), v14, v14);
+const v25 = f17(v15, v15, v24, v15);
+const v26 = [0.9118997352744852,f17,v24,v25,v25];
+const v27 = [v16,v25,v26,1000.0,v26];
+[0.9118997352744852];
+const v30 = [9007199254740990,12,13,1073741825,-9223372036854775807,2147483649,-320466038];
+function F31(a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v35 = this.constructor;
+    let v36;
+    try { v36 = new v35(); } catch (e) {}
+    ~v36;
+}
+new v27(F31, F31);
+new F31();
+new F31();
+new Uint8Array(v30);
+new Uint8Array(268435440);
+new Uint8ClampedArray(129);

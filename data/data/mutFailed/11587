@@ -1,0 +1,45 @@
+const v2 = new Int16Array(2);
+new Int8Array(255);
+new Uint8Array(14);
+class C9 {
+    static #m(a11, a12, a13) {
+        for (let v14 = 0; v14 < 32; v14++) {
+            this["p" + v14] = v14;
+        }
+        return 255;
+    }
+    #valueOf(a18, a19, a20, a21) {
+        let v22 = 0;
+        do {
+            const v24 = [v2];
+            Reflect.apply(v2.reduce, a18, v24);
+            v22++;
+        } while (v22 < 8)
+        return a21;
+    }
+}
+const t20 = 255;
+new t20();
+new C9();
+new C9();
+class C36 {
+}
+const v37 = new C36();
+function f38(a39) {
+    const v42 = new Uint32Array(5);
+    return v42;
+}
+v37.constructor = f38;
+const v43 = v37.constructor;
+let v44;
+try { v44 = v43(v43, C36); } catch (e) {}
+function f45() {
+    const v47 = ("D")[0];
+    let v48;
+    try { v48 = v47.substring(v44); } catch (e) {}
+    return v48;
+}
+%PrepareFunctionForOptimization(f45);
+f45();
+%OptimizeFunctionOnNextCall(f45);
+Int16Array();

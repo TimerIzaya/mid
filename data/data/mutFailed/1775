@@ -1,0 +1,51 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -5;
+    } catch(e3) {
+    }
+    try {
+        this.d = -5;
+    } catch(e4) {
+    }
+    try {
+        this.h = -5;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+let v7 = new F0();
+const v8 = new F0();
+new WeakSet();
+class C11 extends WeakSet {
+    constructor(a13, a14) {
+        super(a13);
+        F0 - this;
+        super.delete(v7--);
+        const v19 = Symbol.iterator;
+        const o28 = {
+            [v19]() {
+                let v21 = 10;
+                const o27 = {
+                    next() {
+                        v21--;
+                        const v25 = v21 == 0;
+                        const o26 = {
+                            "done": v25,
+                            "value": v21,
+                        };
+                        return o26;
+                    },
+                };
+                return o27;
+            },
+        };
+    }
+}
+const v29 = new C11(C11, v6);
+const v30 = new C11(v29, v6);
+new C11(C11, v8);
+const v34 = typeof v7 === "number";
+try { v30.has(v34); } catch (e) {}
+[] = "number";
+([-7.127262073336987e+307,9.142894664271836,5.0]).toLocaleString();

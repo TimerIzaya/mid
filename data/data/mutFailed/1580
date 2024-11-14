@@ -1,0 +1,44 @@
+new Float32Array(128);
+127 >>> 127;
+new BigInt64Array(127);
+Int16Array.name;
+Int16Array.d = Int16Array;
+new Int16Array(255);
+class C11 extends Int16Array {
+    static get d() {
+        const v13 = 128 >>> this;
+        this.b **= v13;
+        [128,v13,BigInt64Array,this];
+        return 255;
+    }
+    static set b(a16) {
+        try {
+            new BigInt64Array(0, 2147483649);
+        } catch(e20) {
+        }
+    }
+}
+new C11();
+const v22 = new C11();
+try { v22.findLastIndex(C11); } catch (e) {}
+new C11();
+const t24 = 87 - 87;
+const v28 = t24(87);
+try { v28.reduce(Float32Array); } catch (e) {}
+Uint32Array.e = Uint32Array;
+const v31 = new Uint32Array();
+const v32 = v31?.entries;
+try { new v32(); } catch (e) {}
+144 >> 144;
+const v37 = new Float32Array(144);
+const o38 = {
+};
+o38.d = o38;
+o38.c = o38;
+try { new BigInt64Array(C11, Uint32Array); } catch (e) {}
+const v41 = new Proxy(Float32Array, o38);
+v41.b = v41;
+const v43 = C11.subarray()?.entries;
+try { new v43(); } catch (e) {}
+const v45 = new Array(...v37, ...v28);
+v45[v41] = Float32Array;

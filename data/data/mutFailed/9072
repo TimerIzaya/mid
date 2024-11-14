@@ -1,0 +1,55 @@
+for (let v3 = 0; v3 < 5; v3++) {
+    function f4() {
+        for (let v5 = 0; v5 < 5; v5++) {
+            const t3 = [-Infinity,1.7976931348623157e+308,1.0,1.7976931348623157e+308,-1.0,Infinity];
+            t3.length >>>= -65536;
+        }
+        return v3;
+    }
+    v3();
+    %OptimizeFunctionOnNextCall(f4);
+}
+class C9 {
+    constructor(a11, a12) {
+        try {
+            a12.valueOf = a11;
+        } catch(e13) {
+        }
+    }
+    static get b() {
+        [-57909,1073741823,256,-905];
+        [10000,-1824914177,-24270,132821457,10,914922765];
+        return [-536870912];
+    }
+}
+const v18 = new C9(-2.0, 0.0);
+const v19 = new C9(v18, v18);
+const v20 = new C9(0.0, v19);
+class C21 extends C9 {
+    constructor(a23, a24, a25, a26) {
+        super(a26, a23);
+        function f27(a28) {
+            return a23;
+        }
+        class C29 extends f27 {
+            static 4294967295 = C29;
+        }
+    }
+    #h;
+    static #g = v19;
+}
+new C21(v20, v19, v20, C9);
+new C21(v18, 0.0, v20, v20);
+new C21(C9, -2.0, C9, C21);
+class C36 {
+    constructor(a38) {
+        const v39 = (a40, a41, a42, a43) => {
+            a42[a38] = this;
+            new Uint8Array(3641);
+            new BigInt64Array(3745);
+            new Int16Array(1000);
+            this[536870887] = a38;
+            return a43;
+        };
+    }
+}

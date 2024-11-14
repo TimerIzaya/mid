@@ -1,0 +1,168 @@
+class C3 {
+    #g;
+    static #toString(a5, a6) {
+        const o7 = {
+        };
+        try {
+            a5.c = a5;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.c = a5;
+            o9.b = a5;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.c = a5;
+            o11.b = a5;
+            o11.a = this;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.c = a5;
+            o13.b = a5;
+            o13.d = -2.0;
+        } catch(e14) {
+        }
+        return a5;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+function f17() {
+    C3 / v15;
+    C3.f <<= -2.0;
+    return C3;
+}
+v16.toString = f17;
+const v19 = new C3();
+const v20 = [507.82610548884395,4.0,-Infinity,2.0,1.7976931348623157e+308];
+const v21 = [-507207.93457240274,1000.0,-1e-15,976.9516461411217,0.6441719825596224,5.435991988206233];
+const v22 = [-1e-15,Infinity,NaN,1000000000000.0,1000000000.0,-7.509481095566075,1.0];
+class C23 extends C3 {
+    constructor(a25, a26, a27, a28) {
+        super();
+        let v29;
+        try { v29 = v22.map(v16); } catch (e) {}
+        super.f = v29;
+    }
+    static c = v22;
+    static #a = v15;
+    d = -2.0;
+    #c;
+    [-1] = C3;
+    static [-2.0] = v16;
+    [v16];
+    1000 = v19;
+}
+new C23(v16, v16, 0.12920962333537533, v22);
+new C23(v21, v22, 0.6754037778816107, v19);
+const v32 = new C23(v20, v21, -2.0, v19);
+v32.valueOf = f17;
+function F34() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = F34;
+    } catch(e36) {
+    }
+    try {
+        this.f = false;
+    } catch(e37) {
+    }
+    try {
+        this.b = false;
+    } catch(e38) {
+    }
+}
+const v39 = new F34();
+const v40 = new F34();
+const v41 = new F34();
+const v42 = [5.627129677109545e+307,850582.6346538318,-2.0,-Infinity,289.0197571670685,187.7306401241658,1e-15];
+[] != -2147483647n;
+try { v42.join(F34); } catch (e) {}
+const v47 = [0.6612384037511738,2.2940008033736596];
+try { v47.push(v41); } catch (e) {}
+const v49 = [1000000000000.0,-1000000000000.0,3.173585042601135e+307,-5.0,-1e-15];
+v49[4];
+function f51(a52, a53, a54, a55) {
+    a52[Symbol.toPrimitive] = f51;
+    const v58 = a52?.g;
+    try { new v58(); } catch (e) {}
+    a53[2] = a53;
+    let v60 = a55?.g;
+    Object.defineProperty(v60, v41, { set: f51 });
+    v60 %= v47;
+    const o61 = {
+        "apply": f51,
+        "call": f51,
+        "deleteProperty": f51,
+        "get": f51,
+        "getOwnPropertyDescriptor": f51,
+        "has": f51,
+        "isExtensible": f51,
+        "preventExtensions": f51,
+        "set": f51,
+    };
+    new Proxy(v39, o61);
+    try { new v60(); } catch (e) {}
+    const o72 = {
+        __proto__: v47,
+        "h": v49,
+        ...a52,
+        [a55](a66, a67) {
+            try { new a66(a54, a53, a55, a67); } catch (e) {}
+            return 0.12920962333537533;
+        },
+        "c": v40,
+        268435439: a52,
+    };
+    return o72;
+}
+f51(v40, v49, v40, v39);
+f51(v39, v42, v39, v40);
+f51(v40, v42, v39, v41);
+const v78 = 5 ^ 5;
+try { new Int8Array(5, 182, false); } catch (e) {}
+-22631;
+function f84() {
+}
+function f85() {
+    const o90 = {
+        "b": f84,
+        valueOf() {
+            try { this.b(); } catch (e) {}
+            try { v78.b(); } catch (e) {}
+            [NaN,1000.0,8.951106279668121,-3.0,-Infinity,1.7976931348623157e+308,-4.0,243.50965730660823,0.0];
+        },
+    };
+    try { o90.b(); } catch (e) {}
+    return o90;
+}
+const v92 = f85();
+try { v92.b(); } catch (e) {}
+const v94 = v92?.b;
+try { v94(); } catch (e) {}
+const v96 = new v94();
+const v97 = v96?.toLocaleString;
+try { new v97(); } catch (e) {}
+new Uint8Array(268435440);
+const v103 = ("function").length;
+v103 == v103;
+const v105 = f85();
+v105.constructor = f85;
+function F106(a108, a109) {
+    if (!new.target) { throw 'must be called with new'; }
+    a108.constructor = f84;
+    try { a109.b(); } catch (e) {}
+    try { v32.valueOf(); } catch (e) {}
+    const v112 = a108?.constructor;
+    try { new v112(a108, a108); } catch (e) {}
+    new Uint16Array(v103);
+}
+new F106(v105);

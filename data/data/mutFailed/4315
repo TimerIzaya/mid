@@ -1,0 +1,71 @@
+function f0() {
+    const o4 = {
+        "a": 4294967296,
+        1073741823: 1e-15,
+        [1e-15]: 4294967296,
+        1143: 1e-15,
+        "d": 4294967296,
+        "g": 1e-15,
+        "e": 1e-15,
+        __proto__: 4294967295,
+        "c": 4294967295,
+        [4294967296]: 4294967295,
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+v6 % v6;
+2147483647 != 2147483647;
+536870889 - 536870889;
+2147483647 && 536870889;
+const v14 = f0();
+v14.e = v14;
+class C15 extends f0 {
+    static {
+        this.prototype = this;
+        for (let v17 = 0; v17 < 32; v17++) {
+            const v19 = "p" + v17;
+            try { v19.bold(); } catch (e) {}
+            v5[v19] = v17;
+        }
+    }
+    255 = v6;
+    #a;
+    6 = v14;
+}
+new C15();
+const v22 = new C15();
+const v23 = new C15();
+new BigInt64Array(163);
+1117 >> 1117;
+new BigUint64Array(1117);
+let v31 = 127;
+v31++;
+new Float64Array(v31);
+function f35() {
+    const o36 = {
+    };
+    o36.e = o36;
+    return o36;
+}
+const v37 = f35();
+const v38 = v37?.__defineSetter__;
+try { new v38(Float64Array, v23); } catch (e) {}
+const v40 = f35();
+class C41 {
+    constructor(a43, a44) {
+        const v45 = a43?.e;
+        try { new v45(v22, Float64Array, a43); } catch (e) {}
+        for (let v47 = 0; v47 < 32; v47++) {
+            v47 - v47;
+            a44["p" + v47] = v47;
+        }
+    }
+}
+try { new C41(C15, 2147483647); } catch (e) {}
+const v52 = new C41(v40, v37);
+v52.length;
+const o54 = {
+    ...v37,
+};

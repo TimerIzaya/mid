@@ -1,0 +1,64 @@
+function f0() {
+    const o10 = {
+        __proto__: -1,
+        ...536870912,
+        o(a5, a6) {
+            const v7 = [1000000.0];
+            [7.342151720706197e+305,6.695149781808271e+307,9.266931790058845,-8.618424935778084e+305,2.0];
+            [-1000000000.0,1000000.0,-793.0770106540404];
+            return v7;
+        },
+        "a": 536870912,
+        "e": -1,
+    };
+    return o10;
+}
+const v11 = f0();
+f0();
+const v13 = f0();
+class C14 {
+    #valueOf(a16, a17) {
+        for (const v18 of a17) {
+            try {
+                v13.o(v13, "symbol", "isInteger");
+            } catch(e22) {
+            }
+        }
+        return a17;
+    }
+}
+const v23 = new v13();
+const v24 = new C14();
+new v23();
+let v28 = 0;
+while (v28 < 6) {
+    const o31 = {
+        "construct": f0,
+        "deleteProperty": f0,
+        "get": f0,
+        "has": f0,
+        "preventExtensions": f0,
+        "setPrototypeOf": f0,
+    };
+    o31.get -= v28;
+    Proxy * o31;
+    f0();
+    try {
+        o31.has = v24;
+    } catch(e35) {
+    }
+    new Proxy(v11, o31);
+    v28++;
+}
+new Uint8ClampedArray(110);
+new Uint8ClampedArray(64);
+new Float64Array(64);
+const v48 = new Float64Array(257);
+v48.reverse();
+const v51 = new Int8Array(3);
+let v53 = 0;
+do {
+    new WeakSet();
+    v53++;
+} while (v53 < 6)
+new Uint8ClampedArray(v51);

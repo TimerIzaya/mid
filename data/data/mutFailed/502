@@ -1,0 +1,43 @@
+function f0() {
+}
+Object.defineProperty(f0, Symbol.toPrimitive, { writable: true, enumerable: true, value: f0 });
+class C3 {
+    static [f0] = f0;
+    static 201 = f0;
+    #d;
+    toString() {
+        let v4 = this;
+        v4 &&= v4;
+        try {
+            Symbol.#d;
+        } catch(e6) {
+        }
+        super[v4];
+        try {
+            v4.#d = v4;
+        } catch(e8) {
+        }
+        super[f0] = v4;
+        return v4;
+    }
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+const v13 = [f0,true];
+const v14 = [v13,v13,C3];
+[v14,f0,v10,v14];
+const v21 = new Float32Array();
+const v23 = new Uint8Array(v21, Uint8Array, Uint8Array);
+v21[-1e-15] = Uint8ClampedArray;
+class C26 extends Float32Array {
+    constructor(a28, a29, a30) {
+        super(a30);
+    }
+    [v11] = C26;
+    static 6 = Uint8Array;
+    static 425388051 = v9;
+    [1] = v9;
+    static [v9] = true;
+}
+new C26(1, v23, Float32Array);

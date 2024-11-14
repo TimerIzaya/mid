@@ -1,0 +1,44 @@
+const v4 = [9223372036854775807n,[9223372036854775807n],19647n];
+const v5 = [0n,0n];
+const v6 = [v4];
+try {
+    v6.pop();
+} catch(e8) {
+}
+let v9;
+try {
+const t0 = 0n;
+v9 = new t0(v6, 9223372036854775807n);
+} catch (e) {}
+[9223372036854775807n];
+[v4];
+const v17 = new Date();
+function f18(a19) {
+    f18(0n);
+    const v22 = Symbol.iterator;
+    v17[v22];
+    try { v9(19647n, a19, ...v5, 268435440n, 19647n); } catch (e) {}
+    const o30 = {
+        n(a26) {
+            const o27 = {
+                "construct": Date,
+                "get": Date,
+                "ownKeys": Date,
+            };
+            new Proxy(v22, o27);
+            return a26;
+        },
+        [v17]: v17,
+    };
+    return o30;
+}
+v17.valueOf = f18;
+function f31(a32) {
+    return Date;
+}
+const v35 = [v17];
+const o36 = {
+    "arguments": v35,
+    "type": "function",
+};
+new Worker(f31, o36);

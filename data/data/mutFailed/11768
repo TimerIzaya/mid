@@ -1,0 +1,19 @@
+new Int16Array(3);
+let v6 = 9;
+new Uint32Array(v6);
+new Uint8ClampedArray(128);
+const v16 = new Uint8Array(Uint8Array);
+function f17(a18, a19, a20, a21) {
+    const v22 = v6++;
+    v22 * v22;
+    v22 % a20;
+    const o25 = {
+        ...v16,
+    };
+    a20[2];
+    try { o25.n(a19); } catch (e) {}
+    return a21;
+}
+for (let v28 = 0; v28 < 500; v28++) {
+    f17();
+}

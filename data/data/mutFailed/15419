@@ -1,0 +1,28 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        "c": f1,
+        __proto__: f1,
+        "a": f1,
+        get e() {
+            try {
+                super.m(f1, this, this, this);
+            } catch(e4) {
+            }
+            this in this;
+            return this;
+        },
+    };
+    return f0;
+}
+const v7 = f1();
+const v8 = f1();
+try { f1(); } catch (e) {}
+v7();
+27557 * 27557;
+-65535 >> -65535;
+let v18 = -1073741824;
+const v21 = new Uint32Array(v8);
+v8.indexOf(v21, 64);
+v18--;

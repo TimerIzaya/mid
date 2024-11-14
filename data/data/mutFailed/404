@@ -1,0 +1,53 @@
+const v1 = [true,true,true,true,true];
+const v2 = [v1,true,v1,v1,v1];
+const v3 = [v2,v2,true,v1];
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = true;
+    } catch(e7) {
+    }
+    try {
+        this.a = v3;
+    } catch(e8) {
+    }
+}
+new F4(v2);
+new F4(v3);
+const v11 = new F4(v1);
+class C12 {
+    static c;
+    #b = v1;
+    static 536870889;
+    static valueOf(a14, a15, a16) {
+        class C18 extends this.constructor {
+            #h = a14;
+            #e;
+        }
+        new v11();
+        return v2;
+    }
+    static [v2] = F4;
+    g;
+}
+new C12();
+new C12();
+new C12();
+[1.7754312477895002e+308,-5.222433190075309,-1.7976931348623157e+308,7.946171059355148,0.40414902234327965,1000.0,-103405.77967821865,-Infinity,NaN,1.7976931348623157e+308];
+const v28 = [0.22970466031530812,NaN,NaN,Infinity];
+class C29 {
+    constructor(a31, a32) {
+        super["fround"] = this;
+    }
+}
+const v33 = new C29();
+function f34(a35) {
+    return a35;
+}
+v28[10000] = v28;
+const v38 = [v33];
+const o39 = {
+    "arguments": v38,
+    "type": "function",
+};
+new Worker(f34, o39);

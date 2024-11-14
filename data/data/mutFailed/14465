@@ -1,0 +1,72 @@
+function f0() {
+}
+const v2 = [1.0,-2.220446049250313e-16];
+function f3() {
+    const o4 = {
+    };
+    const v5 = o4.__proto__;
+    for (let v6 = 0; v6 < 5; v6++) {
+        v5["p" + v6] = v6;
+    }
+}
+v2[Symbol.toPrimitive] = f3;
+for (let v11 = 0; v11 < 5; v11++) {
+    ("p" + v11).codePointAt(v2);
+}
+const v16 = new Uint8Array(1000);
+class C20 {
+}
+const v21 = new C20();
+const v23 = new Float32Array(v21, "nt", Float32Array);
+const t20 = "nt";
+const v24 = delete t20[v23];
+let v25;
+try { v25 = v21.floor(v24); } catch (e) {}
+for (const v26 in v25) {
+}
+new Uint8ClampedArray(0);
+const o34 = {
+    get b() {
+        delete this[this];
+        this[this] = 817905185;
+        super[817905185] = "object";
+        return 817905185;
+    },
+};
+function f35(a36) {
+    const o37 = {
+        ...o34,
+    };
+    return a36;
+}
+f35(o34);
+new Uint16Array(148);
+for (let i43 = 0, i44 = 10; i43 < i44; i44--) {
+    for (let v51 = 0; v51 < 5; v51++) {
+        v51 >>> v51;
+    }
+}
+new Float32Array(3);
+const v57 = new Int8Array(2509);
+for (let v58 = 0; v58 < 250; v58++) {
+    Date.now();
+    new Date(..."undefined", "undefined", ...v57);
+}
+function f65() {
+}
+const v66 = [v25,f65];
+const v69 = new Int8Array(9);
+class C70 {
+    [v66];
+    10;
+    static c = v69;
+}
+new C70();
+new Float64Array(11);
+new Float32Array(256);
+const v78 = new Date();
+const o79 = {
+    __proto__: v16,
+    [3.0]: v78,
+};
+new Int16Array(o79);

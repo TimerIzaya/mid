@@ -1,0 +1,83 @@
+class C3 {
+    static #d;
+    constructor(a5, a6) {
+        const v7 = ["512","toString",this];
+        const v8 = ["-13",this,v7,v7,"512"];
+        const v9 = [this,a5,v8,v8,a5];
+        try {
+            const t7 = "toString";
+            t7.iterator = this;
+        } catch(e10) {
+        }
+        try { new a6(this, v9, v9, "512", "-13"); } catch (e) {}
+    }
+    static #e;
+    static #g;
+    static #h = "512";
+    static a;
+}
+const v12 = new C3("-13", "512");
+const v13 = new C3(v12, "-13");
+new C3(v13, C3);
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v12;
+    } catch(e19) {
+    }
+    try {
+        this.a = a17;
+        let v20 = 0;
+        while (v20 < 5) {
+            const v23 = ("toString").__proto__;
+            try { new v23(v13, v23, v13, this); } catch (e) {}
+            v20++;
+        }
+    } catch(e26) {
+    }
+    try {
+        this.c = C3;
+    } catch(e27) {
+    }
+}
+const v28 = new F15("toString", v13);
+const t43 = "toString";
+t43[4] = "-13";
+const o29 = {
+};
+new Proxy("toString", o29);
+const v32 = new F15("512", v28);
+new F15(v13, v32);
+new Float64Array(9);
+new Uint16Array(7);
+new Int32Array(1000);
+v28.c;
+("512")[o29];
+const v51 = [7,-1178242889,1000,-65535,-1969418369,8,-8];
+[10000,-13,1073741825,1602065818,65536,16];
+const v53 = [9007199254740990,12,13,1073741825,-9223372036854775807,2147483649,-320466038];
+try { v53.sort(v53); } catch (e) {}
+[901134577,512,16,-13797,-1644674640,-4];
+function F56(a58, a59) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v60 = this?.constructor;
+    try { new v60(this, a59); } catch (e) {}
+    this.c = a58;
+}
+new F56(F56, F56);
+const v63 = new F56(18074, 28602970);
+v63.f = v63;
+const v64 = new F56(18074, 18074);
+new F56(18074, 28602970);
+const v69 = new Uint8Array(v53, v64, 201);
+new Uint8Array(268435440);
+Uint8ClampedArray.b = Uint8ClampedArray;
+const o79 = {
+    "maxByteLength": 5,
+};
+const v81 = new SharedArrayBuffer(0, o79);
+new BigUint64Array(v81);
+v53[268435441] = v69;
+v51.__proto__;
+const v86 = new Uint8ClampedArray(129);
+v86.lastIndexOf();

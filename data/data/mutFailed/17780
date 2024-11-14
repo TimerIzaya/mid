@@ -1,0 +1,39 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -2147483649n;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(-42376736n);
+const v8 = new F3(-42376736n);
+new F3(127n);
+class C13 {
+    constructor(a15, a16, a17, a18) {
+        for (let [v19] of a15) {
+            try { this.o(v19, 8, v7); } catch (e) {}
+            try {
+                this.__proto__ = this;
+            } catch(e21) {
+            }
+        }
+    }
+    5;
+    static #b;
+    #a = 8;
+    static 128 = 8;
+}
+new C13(v8, F3, v7, -2147483649n, 8);
+const v23 = new C13(C13, 8, v8, -42376736n);
+new C13(11360, v23, v7, -42376736n);
+function f25(a26) {
+}
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v33 = this.constructor;
+    try { new v33(); } catch (e) {}
+    this.c = f25;
+}
+++f25;
+new F27();
+new F27();

@@ -1,0 +1,53 @@
+class C3 {
+    #a;
+    static #o(a5) {
+        const v6 = -2.0 || a5;
+        const v7 = a5 - "2";
+        try { v6(a5, v7, a5); } catch (e) {}
+        typeof a5 === "symbol";
+        return -2.0;
+    }
+    ["2"] = -2.0;
+    static [-2.0];
+    static #e = -2.0;
+    #h = -2.0;
+    static [C3];
+    static b;
+    static 4 = -8.333264487463913e+307;
+    [-8.333264487463913e+307] = "2";
+    static #c;
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v12;
+        let v20;
+        try { v20 = v13.compile(v14, -8.333264487463913e+307, a19); } catch (e) {}
+        v20[a17] = "2";
+        try {
+            const t30 = "2";
+            t30.__proto__ = "2";
+        } catch(e21) {
+        }
+    } catch(e22) {
+    }
+    try {
+        this.b = a17;
+    } catch(e23) {
+    }
+    try {
+        this.h = -2.0;
+    } catch(e24) {
+    }
+}
+const v25 = new F15(v13, C3, v12);
+new F15("2", v14, v25);
+new F15(v14, v12, "2");
+new Uint32Array(129);
+new Uint8Array(256);
+new Int32Array(236);
+const v39 = new Float64Array(6);
+v39.includes(Float32Array);

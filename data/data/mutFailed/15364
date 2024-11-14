@@ -1,0 +1,69 @@
+new BigInt64Array(257);
+const v5 = new Float32Array(102);
+const v8 = new BigUint64Array(4);
+function f9() {
+    return 4;
+}
+class C10 extends BigUint64Array {
+    o(a12, a13) {
+        Object.defineProperty(v8, 256, { set: f9 });
+        let v15;
+        try { v15 = this["toSorted"](...a13, ...v5, f9, 102, a12); } catch (e) {}
+        return v15;
+    }
+    constructor(a17, a18, a19, a20) {
+        super(a20, a19, a20);
+        let v21 = new f9();
+        v8.byteOffset ^= 257;
+        v21 >>>= 257;
+        try {
+            new BigInt64Array(88231837, 4);
+        } catch(e25) {
+        }
+        const v26 = Symbol.iterator;
+        const o35 = {
+            [v26]() {
+                let v28 = 10;
+                const o34 = {
+                    next() {
+                        const v30 = v28--;
+                        const v32 = v28 == 0;
+                        const o33 = {
+                            __proto__: Symbol,
+                            [a17]: 0,
+                            "h": v30,
+                            13: a19,
+                            ...a17,
+                            "done": v32,
+                            "value": v28,
+                        };
+                        return o33;
+                    },
+                };
+                return o34;
+            },
+        };
+    }
+}
+new C10(257, 102, 4, 257);
+new C10(4, 257, 257, 4);
+new C10(257, 102, 102, 4);
+new Int32Array(1024);
+new Uint16Array(2);
+new Uint16Array(5);
+const v48 = [1984879050,0,-8575,7,1073741825];
+function f49(a50, a51, a52, a53) {
+    Object.defineProperty(v48, 2282624802, { writable: true, enumerable: true, get: f49, set: f9 });
+    f49(Uint16Array, a51, BigUint64Array, a50);
+    %PrepareFunctionForOptimization(f49);
+    f49(Uint16Array, a51, BigUint64Array, a50);
+    f49(Uint16Array, a51, BigUint64Array, a50);
+    %OptimizeMaglevOnNextCall(f49);
+    f49(Uint16Array, a51, BigUint64Array, a50);
+    return ("Vre").constructor.fromCharCode(v48);
+}
+for (let v61 = 0; v61 < 10; v61++) {
+    f49(v61, f49, v61, v61);
+}
+%OptimizeFunctionOnNextCall(f49);
+f49(v48, v48, v48, f49);

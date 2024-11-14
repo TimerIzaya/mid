@@ -1,0 +1,46 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a10;
+    try {
+        this.c = a9;
+    } catch(e11) {
+    }
+    try {
+        this.f = a9;
+    } catch(e12) {
+    }
+}
+new F6(-58123, 16, -699152969n);
+new F6(-58123, -58123, 11n);
+new F6(-3, 16, -699152969n);
+function f19(a20, a21) {
+    const o26 = {
+        "c": -11,
+        set g(a23) {
+            try {
+                super.o(this, a23);
+            } catch(e25) {
+            }
+        },
+        ...a21,
+        "a": a21,
+        __proto__: a21,
+    };
+    o26[Symbol.toStringTag] = a20;
+    return o26;
+}
+const v29 = f19(-11, -128);
+function f30() {
+    return f19;
+}
+function f31(a32) {
+    ("toString").match();
+}
+Object.defineProperty(v29, "toString", { configurable: true, get: f30, set: f31 });
+const v35 = f19(15, v29);
+function f36(a37) {
+    const v38 = !11n;
+    return v38 ^ v38;
+}
+v35.toString = f36;
+f19(-11, v35) <= 2054272044n;

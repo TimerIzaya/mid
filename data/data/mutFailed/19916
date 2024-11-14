@@ -1,0 +1,36 @@
+function f3(a4) {
+    const o17 = {
+        [a4](a6) {
+            function F7(a9, a10) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a10;
+                } catch(e11) {
+                }
+                try {
+                    this.f = this;
+                } catch(e12) {
+                }
+                try {
+                    this.h = a6;
+                } catch(e13) {
+                }
+            }
+            new F7("f", "b");
+            new F7(a4, this);
+            const v16 = new F7("b", a6);
+            return v16;
+        },
+    };
+    return o17;
+}
+const v18 = f3("jz");
+f3("b");
+const v20 = f3("jz");
+[v20,"jz",v20,v20];
+[f3,["b"],"jz","jz",v18];
+new Int16Array(8);
+new Uint16Array(4096);
+new Uint8ClampedArray(1589);
+const v34 = new f3();
+v34.fill("jz");

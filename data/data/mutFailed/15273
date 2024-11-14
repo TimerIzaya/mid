@@ -1,0 +1,26 @@
+let v0 = null;
+let v1 = 16;
+let v3 = 0;
+while (v3 < 10) {
+    ({"a":v0,"c":v1,} = v3);
+    v0[v3] = v0;
+    v3++;
+}
+const v7 = new Int32Array(v1);
+const v10 = new Uint32Array(1);
+new BigUint64Array(v10);
+v7[7];
+new BigUint64Array(1);
+function f19(a20, a21, a22, a23) {
+    return arguments;
+}
+for (let v25 = 0; v25 < 5; v25++) {
+    const v26 = f19(v25, v25);
+    const o27 = {
+        __proto__: v26,
+        "c": BigUint64Array,
+        "b": v26,
+        0: 1000000.0,
+    };
+    v26[1] = v26;
+}

@@ -1,0 +1,76 @@
+class C3 {
+    static #c;
+    static ["s"];
+    constructor(a5, a6) {
+        try { new a6(); } catch (e) {}
+        function f8() {
+        }
+        gc();
+        this.group(f8);
+        d = a5;
+        try {
+            const t11 = "number";
+            t11.__proto__ = a5;
+        } catch(e12) {
+        }
+    }
+    static ["s"] = 268435439;
+    ["s"];
+    8;
+    static 164 = 268435439;
+    #f;
+    293;
+}
+const v13 = new C3("number", "s");
+const v14 = new C3(v13, "s");
+const v15 = new C3("number", v14);
+function f16(a17, a18) {
+    const o22 = {
+        "b": "s",
+        "c": a17,
+        "a": a17,
+        [a17]: a17,
+        268435440: v14,
+        "e": 268435439,
+        "d": a18,
+        "g": v14,
+        get f() {
+            this.__proto__;
+            %VerifyType(v14);
+            this["s" >>> this] = a18;
+            return this;
+        },
+    };
+    return o22;
+}
+const v23 = f16(v13, "number");
+const v25 = f16("s", f16(v15, "s"));
+class C29 extends C3 {
+    constructor(a31, a32, a33, a34) {
+        super(C3, a31);
+        try {
+            C3.__proto__ = C3;
+        } catch(e35) {
+        }
+    }
+    static #valueOf(a37, a38, a39) {
+        try {
+            a38.a = "s";
+        } catch(e40) {
+        }
+        new BigUint64Array(82);
+        new Uint32Array(256);
+        new Int16Array(385);
+        return 0.35579444986205533;
+    }
+}
+new C29(v14, 0.35579444986205533, 0.35579444986205533, -0.0);
+new C29(v25, -2.2250738585072014e-308, -2.2250738585072014e-308, 0.35579444986205533);
+new C29(v23, -2.2250738585072014e-308, 0.35579444986205533, -0.0);
+class C62 {
+    #valueOf(a64, a65, a66, a67) {
+        this.#valueOf();
+        const v71 = new BigUint64Array(64);
+        v71["copyWithin"]();
+    }
+}

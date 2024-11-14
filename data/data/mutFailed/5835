@@ -1,0 +1,65 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 8;
+    } catch(e3) {
+    }
+    try {
+        this.h = 8;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Int32Array(226);
+new Uint32Array(497);
+new Int8Array(151);
+const v18 = new Date();
+const o19 = {
+    "g": v18,
+};
+function f21() {
+}
+let v23 = 7;
+new Int8Array(964446029);
+let v29 = 0;
+v29++;
+v29 < 3;
+const v33 = new Uint32Array(16);
+function f36() {
+    return v29;
+}
+Object.defineProperty(Uint32Array, "toJSON", { writable: true, enumerable: true, get: f36 });
+new Uint32Array(257);
+v23 &&= 1073741824;
+function f38(a39, a40) {
+    const o41 = {
+    };
+    o41.e = f38;
+    const o42 = {
+    };
+    o42.e = f38;
+    o42.b = a40;
+    const o43 = {
+    };
+    o43.e = f38;
+    o43.b = a40;
+    o43.c = a39;
+    const o44 = {
+    };
+    o44.e = f38;
+    o44.b = a40;
+    o44.d = a40;
+    function f46(a47) {
+        new f21();
+    }
+    this.onmessage = f46;
+    v33.length = 1073741824;
+}
+const v51 = [Uint32Array,3.5885237423067196];
+const o52 = {
+    "arguments": v51,
+    "type": "function",
+};
+new Worker(f38, o52);

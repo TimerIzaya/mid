@@ -1,0 +1,62 @@
+let v0 = 1750264324;
+class C3 {
+    static set d(a5) {
+        try { a5(a5, a5, this, v0, ..."number", v0); } catch (e) {}
+        const v9 = [];
+        Reflect.apply(("number").trimStart, RegExp, v9);
+    }
+    #d = v0;
+    [v0];
+    static #c;
+    2147483648;
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+const v15 = [v12,v14,v14];
+[v14,["number","number",v15,v13,C3],v15,v12,v14];
+function f20(a21, a22, a23, a24) {
+    for (let i27 = 0, i28 = 10;
+        (() => {
+            const v29 = i27 < i28;
+            class C30 {
+            }
+            const v31 = new C30();
+            class C32 {
+                static #e;
+                static {
+                    try {
+                        v31.#e = this;
+                    } catch(e34) {
+                    }
+                }
+            }
+            return v29;
+        })();
+        i28--) {
+    }
+    return a22;
+}
+for (let v40 = 0; v40 < 5; v40++) {
+    f20();
+}
+%OptimizeFunctionOnNextCall(f20);
+f20();
+new Int16Array(955);
+new Uint8ClampedArray(5);
+new BigUint64Array(230);
+function f51(a52, a53) {
+    v0 &&= a52;
+    try { ("number").indexOf(a53, a53); } catch (e) {}
+    return v12;
+}
+Int16Array[Symbol.iterator] = f51;
+const v57 = new Int16Array(Int16Array, Int16Array, Int16Array);
+class C58 {
+}
+with (C58) {
+    const v60 = v57["subarray"]();
+    function f61() {
+        return v60;
+    }
+}

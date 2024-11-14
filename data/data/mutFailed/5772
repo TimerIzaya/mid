@@ -1,0 +1,40 @@
+const v5 = new Int8Array(16);
+const t1 = 7;
+new t1(7);
+const v11 = new BigInt64Array(3);
+class C12 {
+    constructor(a14, a15) {
+        try {
+            this.e = -1116685849n;
+        } catch(e16) {
+        }
+        try {
+            v5.e = this;
+        } catch(e17) {
+        }
+    }
+    #c = 3;
+    static d = BigInt64Array;
+    [v5];
+    static [3];
+}
+new C12(3, -1116685849n);
+new C12(3, 9n);
+new C12(7, v11);
+const v21 = [-1.5314324604839498e+308,-1.8081364344875581,-2.2250738585072014e-308,3.0,3.0];
+const v22 = [101.2980265931285,-1.7177856293756712e+307,-1000000.0,-8.49664044843577];
+const v24 = new Set();
+const v25 = v24.values();
+try { v25.next(); } catch (e) {}
+function f27(a28, a29, a30, a31) {
+    a28.shift();
+    a28[3] = a28;
+    const o33 = {
+        __proto__: v22,
+    };
+    return o33;
+}
+f27(v21);
+f27(v22);
+f27(v22);
+gc();

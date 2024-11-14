@@ -1,0 +1,23 @@
+function f0() {
+}
+new Uint32Array(10000);
+Uint8Array.c = Uint8Array;
+const v6 = new Uint8Array(9007199254740990);
+try { v6.with(f0, f0); } catch (e) {}
+new Float32Array(127, 9007199254740990);
+const v11 = [1073741824,-1422495945,1,-1441464818,997955499,2147483649,21192];
+v11[3];
+[268435441];
+[-128];
+function F16(a18) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v19 = F16?.c;
+try { new v19(v11); } catch (e) {}
+const v21 = new F16();
+const v22 = v21?.constructor;
+try { new v22(F16); } catch (e) {}
+const v24 = F16 >>> 536870887;
+with (v21) {
+    typeof v24;
+}

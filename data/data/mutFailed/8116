@@ -1,0 +1,56 @@
+const v4 = 10 | 10;
+const v7 = Symbol.isConcatSpreadable;
+Int8Array[v7] = Int8Array;
+Int8Array.name;
+const v9 = new Int8Array(10);
+v9.g = v4;
+v9.g = v9;
+let v12;
+try { v12 = new Uint8Array(10, 10000, 10); } catch (e) {}
+const v13 = new Uint8Array(4);
+let v14;
+try { v14 = v13.entries(); } catch (e) {}
+try { v14.next(); } catch (e) {}
+const v18 = new BigUint64Array(9);
+try { v18.reverse(); } catch (e) {}
+function f20() {
+    const v21 = [f20,f20];
+    function f22(a23) {
+        new Date();
+        return BigUint64Array;
+    }
+    v21.constructor = f22;
+    const v26 = v21.constructor;
+    try { v26.toString(); } catch (e) {}
+    const v28 = v26?.constructor;
+    try { new v28(v12); } catch (e) {}
+    try { new v28(10000); } catch (e) {}
+    const v31 = new v26();
+    try { v31.groupToMap(f20); } catch (e) {}
+    try { v31.findLast(v31); } catch (e) {}
+    class C34 extends v26 {
+    }
+    const v35 = new C34();
+    const v36 = v35?.fill;
+    try { new v36(v35); } catch (e) {}
+    try { v35.fill(v9); } catch (e) {}
+    try { v35.reduceRight(); } catch (e) {}
+    return v31;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+const v41 = f20();
+function f42() {
+    return v7;
+}
+function f43(a44) {
+    f20();
+    %PrepareFunctionForOptimization(f20);
+    f20();
+    f20();
+    %OptimizeFunctionOnNextCall(f20);
+    f20();
+}
+Object.defineProperty(v41, Symbol.isConcatSpreadable, { writable: true, configurable: true, get: f42, set: f43 });
+try { v41.concat(Int8Array); } catch (e) {}

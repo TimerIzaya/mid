@@ -1,0 +1,93 @@
+const v0 = [3.0,-4.0,3.0,-4.659475410577012,2.220446049250313e-16,-678.6101407459375,-5.0,-3.0];
+const v1 = [-162.2600175865458,-890.4375781390363,5.0,0.3746126472050789,2.2117383548709313,7.994287489816871e+307,1.6479880582949916e+308];
+const v2 = [-613.4977445004788,1.1317555006936219e+308,923205.9523576908];
+function f10(a11, a12, a13, a14) {
+    function f15(a16) {
+        function f19(a20, a21) {
+            const o23 = {
+                get c() {
+                    let v22 = this;
+                    v22 += v22;
+                    return a21;
+                },
+                "b": -65537n,
+                __proto__: a20,
+                ...a20,
+                "a": a21,
+                6: 4294967297n,
+                "c": 4294967297n,
+            };
+            return o23;
+        }
+        const v24 = f19(f19, -65537n);
+        const v25 = new a16();
+        v25.n(-65537n, v25, 4294967297n, 4294967297n, v24);
+        return false;
+    }
+    Object.defineProperty(a11, "toString", { writable: true, enumerable: true, value: f15 });
+    const o29 = {
+        "d": false,
+        [a13]: a13,
+        get a() {
+            let v28;
+            try { v28 = this.m(257, 257); } catch (e) {}
+            return v28;
+        },
+        [v2]: -993675.4056716576,
+        ...v0,
+        "h": a12,
+        __proto__: a11,
+        "c": -1e-15,
+        "g": 28345,
+        "e": v1,
+    };
+    return o29;
+}
+f10(false, 1000000000.0, 257, 1000000000.0);
+f10(v2, -1e-15, 257, -1e-15);
+f10(v2, -1e-15, 2147483647, 1000000000.0);
+function f33() {
+    let v34 = -4294967295;
+    const o36 = {
+        get a() {
+            v34 %= v34;
+            return f33;
+        },
+    };
+    return f33;
+}
+let v37 = f33();
+Object.defineProperty(v37, "toString", { configurable: true, enumerable: true, value: v37 });
+const v38 = f33();
+v38[Symbol.toPrimitive] = v38;
+const v41 = f33();
+v41[Symbol.toPrimitive] = v41;
+class C48 extends f33 {
+    static #g = "o";
+    static [v41];
+    constructor(a50, a51, a52, a53) {
+        super();
+        try {
+            v37.#g **= a50;
+        } catch(e54) {
+        }
+    }
+    static o(a56, a57) {
+        v37 **= this;
+        f33();
+    }
+}
+const v59 = new C48(5n, "-17909", f33, "o");
+new C48("-17909", "-17909", "p", "p");
+new C48(v37, "p", v37, "o");
+class C62 {
+    get g() {
+        Uint16Array();
+        Uint8ClampedArray();
+        BigInt64Array();
+        return v38;
+    }
+    static #h = "p";
+}
+const v70 = new C62();
+try { v70.o(v59); } catch (e) {}

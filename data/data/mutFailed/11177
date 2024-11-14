@@ -1,0 +1,43 @@
+const v1 = new WeakMap();
+class C2 {
+    set g(a4) {
+        try {
+            super.set(ArrayBuffer, this, a4, v1);
+        } catch(e7) {
+        }
+    }
+    static {
+        try {
+            Reflect.c = Reflect;
+        } catch(e10) {
+        }
+        C2[Symbol.isConcatSpreadable];
+        Reflect.construct(WeakMap, [this], WeakMap);
+    }
+    #c;
+}
+const v16 = new C2();
+const v17 = new C2();
+const v18 = new C2();
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a24;
+    } catch(e25) {
+    }
+}
+new F19(v16, v16, v18, v1);
+const v27 = new F19(v16, v17, v16, C2);
+new F19(v16, v17, v1, v17);
+try {
+    const v30 = /4(?!\1(a\1)\1)\1/v;
+    v27.fuck(v30, v30);
+} catch(e32) {
+}
+const v37 = new WeakSet();
+let v38 = /(w)/gvdmy;
+const v39 = /((ab))/vy;
+for (let v40 = 0; v40 < 25; v40++) {
+    v37["p" + v40] = v40;
+}
+v38 >>= v39;

@@ -1,0 +1,83 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #b = f0;
+    static {
+        try {
+            new f0();
+        } catch(e4) {
+        }
+    }
+    static #g = f0;
+    constructor() {
+        super();
+        super[this] = f0;
+        this.f;
+    }
+    d;
+}
+Object.defineProperty(C1, "toString", { writable: true, configurable: true, value: f0 });
+const v7 = new C1();
+v7.toString = v7;
+const v8 = new C1();
+const v9 = new C1();
+class C10 {
+    toString(a12) {
+        super.b;
+        delete v8[8];
+        return a12;
+    }
+    constructor(a16) {
+        delete this[a16];
+        const v18 = new f0();
+        const v19 = new v18();
+        function f20() {
+            const o23 = {
+                "maxByteLength": 65536,
+            };
+            const v25 = new ArrayBuffer(64, o23);
+            new BigUint64Array(v25);
+            return v19;
+        }
+    }
+    static c = C1;
+}
+const v28 = new C10(v7);
+v7 && v8;
+v9.d <<= C10;
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeFunctionOnNextCall(f0);
+f0();
+const v34 = new C10(v8);
+new C10(C1);
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a39;
+    } catch(e40) {
+    }
+    try {
+        this.c = f0;
+    } catch(e41) {
+    }
+}
+const v42 = new F36(v9, v34);
+new F36(v42, v28);
+new F36(v28, v34);
+function f49() {
+    function F50(a52, a53) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v54 = a52.constructor;
+        try { new v54(); } catch (e) {}
+        this.c = Float32Array;
+    }
+    new F50(f49, F50);
+    new F50();
+}
+Float32Array.toString = f49;
+class C59 {
+    static [Float32Array] = undefined;
+}

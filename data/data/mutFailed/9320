@@ -1,0 +1,99 @@
+function f3() {
+    return 2;
+}
+class C4 {
+    set h(a6) {
+        const v7 = super.b;
+        try {
+            v7.length = 1;
+        } catch(e9) {
+        }
+        a6[this] = 0;
+        const v10 = 2 ^ a6;
+        a6 *= f3;
+        const o11 = {
+        };
+        try {
+            o11.d = 2;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.d = 2;
+            o11.h = this;
+        } catch(e14) {
+        }
+        try {
+            const o15 = {
+            };
+            o15.d = 2;
+            o15.h = this;
+            o15.a = a6;
+        } catch(e16) {
+        }
+        try {
+            const o17 = {
+            };
+            o17.d = v10;
+            o17.unscopables = this;
+            C4.a = 0;
+        } catch(e18) {
+        }
+    }
+    static #c;
+    b;
+    h;
+    static [C4] = -256;
+    static 1024;
+}
+const v19 = new C4();
+class C20 {
+    static 1;
+    #c = C4;
+}
+new C20();
+new C20();
+new C20();
+const v24 = new C4();
+new C4();
+const v36 = new Uint8Array();
+const o42 = {
+    n(a40, a41) {
+    },
+    ...v19,
+    10000: 2,
+    "a": v24,
+    __proto__: v36,
+    2213194472: SharedArrayBuffer,
+};
+const v43 = new SharedArrayBuffer();
+function f44(a45, a46, a47, a48) {
+    Object.defineProperty(a45, "g", { value: a46 });
+    a45.g = a48;
+    const v49 = a46 % a47;
+    const o58 = {
+        "b": -1073741824n,
+        "c": a46,
+        ...o42,
+        "g": SharedArrayBuffer,
+        "h": a45,
+        "d": v49,
+        ...v36,
+        "flags": -1073741824n,
+        __proto__: a45,
+        set b(a51) {
+            function f52(a53) {
+            }
+            class C54 extends f52 {
+            }
+        },
+        n(a56, a57) {
+            v43[a45] = v43;
+        },
+    };
+    return Uint8Array;
+}
+for (let v59 = 0; v59 < 500; v59++) {
+    f44(Uint8Array);
+}

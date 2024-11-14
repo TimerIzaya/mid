@@ -1,0 +1,24 @@
+function f0() {
+    const o7 = {
+        "d": 9007199254740991,
+        ["dotAll"](a5) {
+            try {
+                a5.d = this;
+            } catch(e6) {
+            }
+            return 9007199254740991;
+        },
+        __proto__: "dotAll",
+        ..."dotAll",
+        65537: 247.67258162493795,
+        ..."dotAll",
+    };
+    return o7;
+}
+const t17 = f0();
+const t18 = t17();
+t18();
+new Uint8ClampedArray(2);
+new Uint16Array(8);
+new Int32Array(76);
+Promise.reject(Promise);

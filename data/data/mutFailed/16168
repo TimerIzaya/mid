@@ -1,0 +1,34 @@
+class C3 {
+    constructor(a5, a6) {
+        super.b = this;
+        super["f"] = this;
+        const t4 = "f";
+        t4[2] = this;
+        new Uint32Array(5);
+        new Int8Array(347);
+        new Float32Array(128);
+    }
+}
+const v16 = new C3(C3, 536870887);
+const v17 = new C3(0.40040275536036574, v16);
+const t13 = 536870887;
+const v18 = new t13(C3, C3);
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a21;
+    } catch(e25) {
+    }
+    try {
+        this.h = a21;
+    } catch(e26) {
+    }
+}
+const t26 = 536870887;
+const v27 = new t26(v16, v18, v17, v18);
+new F19("f", v27, C3, v27);
+new F19(v16, "f", v17, v18);
+class C31 extends Array {
+}
+const v32 = new v17();
+v32.push(Array);

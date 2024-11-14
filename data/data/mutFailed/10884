@@ -1,0 +1,25 @@
+new RangeError(3095, 3095, 3095, 3095);
+new Float32Array(RangeError);
+new Uint16Array(4, Uint16Array, 3095);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 3095;
+    } catch(e14) {
+    }
+    try {
+        this.f = a12;
+    } catch(e15) {
+    }
+    try {
+        this.NaN = a12;
+    } catch(e16) {
+    }
+}
+new F9(3095, 257, 4);
+new F9(3095, 4, 4);
+new F9(3095, 3095, 4);
+class C21 extends Date {
+}
+new C21();
+RangeError.setUTCSeconds();

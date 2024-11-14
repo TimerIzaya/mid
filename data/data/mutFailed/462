@@ -1,0 +1,79 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this[F0] = -256;
+    this & -256;
+    const o7 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o7);
+    try {
+        this.d = -256;
+    } catch(e9) {
+    }
+}
+const v10 = new F0();
+const v11 = new F0();
+const v12 = new F0();
+function f13() {
+    return F0;
+}
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a16;
+    } catch(e18) {
+    }
+    try {
+        this.b = v10;
+    } catch(e19) {
+    }
+}
+const v20 = new F14(v12, v10);
+const v21 = new F14(v11, v12);
+new F14(v11, v10);
+class C23 extends F0 {
+    toString(a25, a26) {
+        new f13();
+        super.d = v21;
+        return F0;
+    }
+    constructor(a29, a30) {
+        super();
+        f13();
+        %PrepareFunctionForOptimization(f13);
+        f13();
+        f13();
+        %OptimizeMaglevOnNextCall(f13);
+        f13();
+        try {
+            v11.__proto__ = a30;
+        } catch(e35) {
+        }
+    }
+}
+const v36 = new C23(v12, C23);
+const v37 = new C23(C23, v12);
+new C23(v37, v36);
+const v43 = v20[v37];
+[5,1000,536870888,521952783,-924504063];
+[-5,4294967295,-4294967297];
+[-1854854522,16,1068231307,-626549176,65537,1758144047,1531818880,268435441,10,-1];
+try { new v43(F0); } catch (e) {}
+function f48(a49) {
+    const o53 = {
+        __proto__: 2,
+        213: a49,
+        ...a49,
+        "g": 2,
+        p(a51, a52) {
+            return 2;
+        },
+    };
+    return o53;
+}
+f48(f48);
+%PrepareFunctionForOptimization(f48);
+const v55 = f48();
+%OptimizeFunctionOnNextCall(f48);
+f48(v55);

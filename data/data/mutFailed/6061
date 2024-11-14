@@ -1,0 +1,68 @@
+class C3 {
+    static #d;
+    toString(a5) {
+        let v6;
+        try { v6 = new a5(a5, a5, this, 9007199254740990); } catch (e) {}
+        try {
+            v6.toString = a5;
+        } catch(e7) {
+        }
+        return this;
+    }
+    static a;
+    static [12] = 12;
+    static #b;
+}
+const o8 = {
+};
+const v10 = new Proxy(C3, o8);
+new Uint8Array(1545);
+new Int16Array(64);
+const v19 = new Uint32Array(6);
+new C3();
+const v21 = new C3();
+const v22 = new C3();
+class C23 extends C3 {
+    constructor(a25, a26, a27, a28) {
+        super();
+        if (v22 < this) {
+            delete this[this];
+        } else {
+            try { a26(a26); } catch (e) {}
+        }
+    }
+    #c = 9007199254740990;
+    static [9007199254740990];
+    b = 12;
+}
+new C23(-1497908213, -1497908213, -1497908213, 9007199254740990);
+new C23(9007199254740990, v21, 12, -1497908213);
+new C23(9007199254740990, -1497908213, 9007199254740990, 9007199254740990);
+class C41 {
+    toString(a43, a44) {
+        const v45 = `7${this}dm${"unicode"}m`;
+        function F46(a48, a49, a50) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v51 = F46();
+        function F52(a54, a55, a56) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = v19;
+            } catch(e57) {
+            }
+            try {
+                this.c = v10;
+            } catch(e58) {
+            }
+            try {
+                this.g = v51;
+            } catch(e59) {
+            }
+        }
+        new F52(F46, 12n, 12n);
+        new F52(v45, -128n, v51);
+        new F52(F52, v51, a43);
+        F46(v51, "unicode", v45);
+    }
+}

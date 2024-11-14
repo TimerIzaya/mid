@@ -1,0 +1,53 @@
+const v3 = /\u0034+/gudmy;
+/n9}foo(?<!bar)baz+/ds;
+const v5 = /\P{sc=Greek}\xe2\x81\xa3/gums;
+function f6() {
+    return v3;
+}
+function f7(a8) {
+}
+Object.defineProperty(v5, 65537, { enumerable: true, get: f6, set: f7 });
+const v12 = new Int16Array(129);
+new Float64Array(64);
+new Uint32Array(16);
+function f20() {
+    return f6;
+}
+function f21(a22) {
+}
+Object.defineProperty(Int16Array, 1, { writable: true, configurable: true, get: f20, set: f21 });
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f28() {
+        new Int32Array(9);
+        new BigUint64Array(8);
+        new Uint32Array(246);
+        return Int16Array;
+    }
+    Object.defineProperty(a27, Symbol.iterator, { writable: true, configurable: true, value: f28 });
+    new a26(a27, Int16Array);
+    function f41(a42, a43, a44, a45) {
+        const v46 = /(?:a*)+q(?<a>.)/guds;
+        v46.dotAll = v46;
+        for (let [i51, i52] = (() => {
+                function f48(a49, a50) {
+                    return a49;
+                }
+                return [0, a44];
+            })();
+            i51 < i52;
+            ) {
+        }
+        return f41;
+    }
+    v5[65537] = a27;
+    try {
+        v12.__proto__ = v5;
+    } catch(e58) {
+    }
+    for (let v59 = 0; v59 < 5; v59++) {
+        f41();
+    }
+    %OptimizeFunctionOnNextCall(f41);
+}
+new F24(F24, F24);

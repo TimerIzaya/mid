@@ -1,0 +1,39 @@
+const v2 = new Float64Array(972);
+new Float64Array(5);
+Int32Array.prototype = Int32Array;
+const v8 = new Int32Array(0);
+let v9;
+try { v9 = v8.subarray(0, 0); } catch (e) {}
+class C10 {
+    constructor(a12, a13, a14, a15) {
+        this[972] = this;
+        const v16 = -a12;
+        let v17;
+        try { v17 = v2(Float64Array, Float64Array); } catch (e) {}
+        [] = a14;
+        %VerifyType(972);
+        try { v17(v17, Float64Array); } catch (e) {}
+        this.__proto__;
+        try { v16.propertyIsEnumerable(Int32Array); } catch (e) {}
+        v2[this];
+    }
+    static #e;
+    [972];
+    static #b;
+    static [v9];
+    static #a = 972;
+}
+const v22 = new C10(972, 972, 972, 5);
+v22[972] = v22;
+const v23 = new C10(5, 972, 0, 0);
+new C10(5, 972, v23[972], 972);
+class C26 {
+}
+try { new C26(); } catch (e) {}
+const v28 = new v23();
+const v29 = v28?.constructor;
+try { new v29(); } catch (e) {}
+function f31() {
+    return v28;
+}
+Object.defineProperty(v28, "b", { enumerable: true, get: f31 });

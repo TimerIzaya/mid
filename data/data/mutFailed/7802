@@ -1,0 +1,91 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 128;
+    } catch(e3) {
+    }
+    try {
+        this.f = 128;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new v5();
+const v7 = new F0();
+const v8 = v7?.constructor;
+try { new v8(); } catch (e) {}
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    a13.f;
+    a12.a = a12;
+    a13.h = a13;
+    try {
+        this.a = a13;
+    } catch(e15) {
+    }
+}
+F10.arguments = F10;
+const v16 = new F10(v7, v7);
+let v17 = new F10(v5, v7);
+v17.a = v17;
+const v18 = new F10(v7, v5);
+class C19 {
+    static {
+        let v21;
+        try { v21 = new this(); } catch (e) {}
+        const v22 = v21?.constructor;
+        try { new v22(); } catch (e) {}
+        super[v5];
+        let v26 = -7n;
+        v26--;
+    }
+    static #b = v17;
+    [v18];
+    [-1];
+    #e;
+    static f = F0;
+}
+try { C19.bind(v7); } catch (e) {}
+C19.b = C19;
+new C19();
+const v31 = new C19();
+const v32 = v31?.constructor;
+let v33;
+try { v33 = new v32(); } catch (e) {}
+const v34 = v33?.__defineGetter__;
+try { new v34(C19, v32); } catch (e) {}
+const v36 = new C19();
+const v37 = v36?.constructor;
+try { new v37(); } catch (e) {}
+268435441 - 268435441;
+const v43 = new Date();
+const v45 = new Set();
+let v46;
+try { v46 = v45.entries(); } catch (e) {}
+try { v46.next(); } catch (e) {}
+const v48 = v45.add(v43);
+try { v48.add(F0); } catch (e) {}
+let [v50,,...v51] = v45;
+try { v50.setFullYear(v43, C19, v16); } catch (e) {}
+let v53;
+try { v53 = v50.valueOf(); } catch (e) {}
+const v54 = v53 >> v53;
+const v55 = v50.setUTCHours(v48, Float64Array, v51, 268435441);
+v55 >>> v55;
+v54.setUTCFullYear();
+3938 > 3938;
+const v61 = new Int8Array(3938);
+let v62 = 3;
+v62++;
+try { new Float64Array(268435441, v62, C19); } catch (e) {}
+Float64Array.e = Float64Array;
+const v66 = new Float64Array();
+try { v66.with(v62, v43); } catch (e) {}
+let v68 = 0;
+v17--;
+for (let i = 0; i < 5; i++) {
+    const v71 = v68 < 8;
+    v71 && v71;
+    [...v62] = v61;
+    v68++;
+}

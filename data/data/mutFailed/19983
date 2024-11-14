@@ -1,0 +1,51 @@
+let v2 = 0;
+const v4 = new Date();
+let v6;
+try { v6 = v4(); } catch (e) {}
+function F7() {
+    if (!new.target) { throw 'must be called with new'; }
+    this[F7] = this;
+    %VerifyType(F7);
+    let v9;
+    try { v9 = v4.setUTCMinutes(v6, 104, -9); } catch (e) {}
+    try {
+        v9.a = v9;
+    } catch(e10) {
+    }
+    const o11 = {
+    };
+    const o12 = {
+        __proto__: this,
+        ...v4,
+        "a": this,
+    };
+    const v14 = new Proxy(this, o11);
+    try {
+        with (v14) {
+            Object.defineProperty(Date, "b", { writable: true, configurable: true, enumerable: true, get: Date, set: Date });
+            try {
+                v4.setTime(-27191);
+            } catch(e17) {
+            }
+            o11[b];
+        }
+    } catch(e19) {
+    }
+}
+new Int8Array(104);
+new Int8Array(1000);
+function f26(a27, a28, a29, a30) {
+    v2 &&= a29;
+    /g(?:ab)abc+/udm;
+    /[2xyz{1,32}?9J(?:a?)+]/v;
+    /[qa(?=b)c]/g;
+    return Date;
+}
+f26(v6, 1000, 104, 1000);
+new Uint8ClampedArray(128);
+[];
+try { new BigInt64Array(-832267.262043573); } catch (e) {}
+const o45 = {
+    "execution": "async",
+    "type": "minor",
+};

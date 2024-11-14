@@ -1,0 +1,69 @@
+new Float64Array(128);
+new Int8Array(112);
+function F14() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -4;
+    } catch(e17) {
+    }
+    try {
+        this.b = -4;
+    } catch(e18) {
+    }
+}
+[F14,Uint8Array,582];
+new Uint8Array(15);
+const v23 = [2.0,0.2901658812472846,-8.880306076496956e+307,943883.9104739067];
+function f24(a25) {
+    function f26() {
+        Array[8] = this;
+        Array.__proto__ = this;
+        return this;
+    }
+    return f26;
+}
+v23.constructor = f24;
+function f30(a31, a32, a33, a34) {
+    a31.constructor = f30;
+    const v35 = /(?:a*)+q(?<a>.)/guds;
+    function f36(a37) {
+        v23.constructor.isArray(v35);
+        return a37;
+    }
+    for (let i42 = 0, i43 = 10;
+        (() => {
+            const v44 = i42 < i43;
+            new Int32Array([-4563]);
+            class C48 {
+            }
+            const v49 = new C48();
+            class C50 {
+                static #e;
+                static {
+                    try {
+                        v49.#e = this;
+                    } catch(e52) {
+                    }
+                }
+                static n(a54, a55, a56) {
+                    v49.#e;
+                }
+            }
+            return v44;
+        })();
+        i43--) {
+        f36(v35);
+    }
+    return a31;
+}
+for (let v64 = 0; v64 < 5; v64++) {
+    f30(v64, v64, v23, v64);
+}
+%OptimizeFunctionOnNextCall(f30);
+f30(v23, v23, v23, v23);
+const v68 = Symbol.toPrimitive;
+function f69(a70, a71, a72, a73) {
+    arguments[2] = v68;
+    arguments[2] = arguments;
+    return Symbol;
+}

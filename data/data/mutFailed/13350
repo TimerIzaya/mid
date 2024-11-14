@@ -1,0 +1,119 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.d = f0;
+    } catch(e4) {
+    }
+    try {
+        this.a = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new F1();
+const v8 = new F1();
+function f9() {
+    return f0;
+}
+function f10(a11, a12, a13, a14) {
+    const o20 = {
+        ...a14,
+        [a11]: v7,
+        [a13]: a11,
+        __proto__: v6,
+        toString(a16, a17, a18) {
+            return a17();
+        },
+        [v8]: f0,
+        "f": a11,
+        ...v6,
+    };
+    return o20;
+}
+const v21 = f10(f10, v7, v6, v8);
+const v22 = f10(v7, v6, v6, v7);
+f10(v21, v7, v6, v7);
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v8;
+    } catch(e30) {
+    }
+    try {
+        this.c = a28;
+    } catch(e31) {
+    }
+}
+const v32 = new F24(v21, v22, v6, v8);
+const v33 = new F24(v22, v21, v7, v22);
+new F24(v32, v21, v6, v33);
+function f35() {
+    let v36 = "boolean";
+    const o56 = {
+        "e": -2147483647,
+        [-2147483647]: 8.80579417534662,
+        0: -2147483647,
+        set a(a40) {
+            Math.round(1531487198);
+            ++v36;
+            const v46 = Math.sinh(-268435456);
+            let v47 = ~-268435456;
+            const v48 = [748666.7832804511,3.0];
+            class C50 extends Float64Array {
+                [v48];
+            }
+            new C50();
+            !(v47++);
+            let v54;
+            try { v54 = v46(a40, a40); } catch (e) {}
+            v54?.[-2147483647];
+        },
+        "h": -2147483647,
+        4294967296: 8.80579417534662,
+        __proto__: v36,
+    };
+    return o56;
+}
+f35();
+class C60 extends Array {
+}
+new C60();
+const v65 = new BigUint64Array(10);
+v65.g = v65;
+for (const v67 in v65) {
+    new Float64Array(2147483647);
+}
+const v72 = new BigUint64Array(116);
+const o75 = {
+};
+for (let v76 = 0; v76 < 5; v76++) {
+    for (let v77 = 0; v77 < 5; v77++) {
+        const t96 = [0.8307152163010869,1.0,0.0];
+        t96.length = v77;
+    }
+}
+new BigInt64Array(v72, 116, 116);
+const t101 = f35();
+delete t101?.e;
+const o83 = {
+    "maxByteLength": 150,
+};
+const v84 = /[\cA](?!(a))\1/udims;
+[v84,v84,v84,v84,v84];
+new BigInt64Array(7);
+new Int32Array(1024);
+function f90() {
+    new Uint16Array(209);
+    return 209;
+}
+new Int8Array(268435456);
+const v99 = Float64Array.of();
+v99.toString = f90;
+[];
+new Date(Array, v99);

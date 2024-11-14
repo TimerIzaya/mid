@@ -1,0 +1,48 @@
+class C3 {
+    static {
+        super[this < this];
+    }
+    static #f;
+    [-1];
+    #b;
+    #e = 2147483649;
+}
+new C3();
+const v11 = new C3();
+const v12 = new v11();
+class C14 {
+    static set c(a16) {
+        function f17(a18, a19, a20) {
+            a19[531207157];
+            return this;
+        }
+        f17(a16, a16, v12);
+        ("undefined").normalize("NFC");
+    }
+    [C14];
+}
+new C14();
+new C14();
+new C14();
+const v32 = [];
+function f33(a34) {
+    try {
+        v32.some(a34);
+    } catch(e36) {
+        e36.stack;
+    }
+}
+const t34 = 13;
+t34.toString = f33;
+function f38() {
+    const o40 = {
+        __proto__: v32,
+        [v32]() {
+        },
+    };
+    return o40;
+}
+new f38();
+const v43 = new Int8Array(v32);
+v32.a = v43[1];
+f38();

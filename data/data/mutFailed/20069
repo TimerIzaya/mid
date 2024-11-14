@@ -1,0 +1,71 @@
+[-14,680873793,268435440];
+const v7 = [4294967296,-449464355,-9007199254740992,1,9223372036854775807,7,-536870912,-9223372036854775808,971633206];
+const v8 = [1];
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t6 = "number";
+        t6.b = v8;
+    } catch(e13) {
+    }
+    try {
+        this.d = v7;
+    } catch(e14) {
+    }
+}
+new F9(-1024, -1024);
+const v16 = new F9(1073741824, 1073741824);
+const v17 = new F9(-839031510, 1073741824);
+function F18() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v20 = this[1073741824];
+        v20[4040] = v20;
+    } catch(e21) {
+    }
+}
+new F18();
+const v23 = new F18();
+const v24 = new v16();
+class C25 extends F18 {
+}
+const v30 = Symbol.iterator;
+const o39 = {
+    [v30]() {
+        let v32 = 10;
+        const o38 = {
+            next() {
+                v32--;
+                const v36 = v32 == 0;
+                const o37 = {
+                    "done": v36,
+                    "value": v32,
+                };
+                return v32;
+            },
+        };
+        return o38;
+    },
+};
+const v40 = new C25();
+const t50 = -9;
+const v41 = new t50();
+const v42 = v41.constructor;
+try { v23.n(); } catch (e) {}
+try {
+    v7.length = v42;
+} catch(e44) {
+}
+const v45 = new v17();
+const v46 = new v17();
+const v47 = v46.constructor;
+new v47(v45, v47, v45, v24, v47);
+class C49 {
+    constructor(a51, a52, a53) {
+        const v54 = a52.constructor;
+        const v55 = new v54(v54, C25, a52, a51);
+        const t66 = v55.constructor;
+        new t66();
+    }
+}
+new C49(v24, v40, v23);

@@ -1,0 +1,95 @@
+class C3 {
+    p(a5, a6) {
+        super.b = this;
+        return -1024;
+    }
+    static #d;
+    static #valueOf(a8) {
+        const o14 = {
+            __proto__: this,
+            "f": a8,
+            "a": -1024,
+            [-755182659]: this,
+            n(a10, a11, a12, a13) {
+                a13[1] = this;
+                return a11;
+            },
+            "g": this,
+        };
+        return -1024;
+    }
+    #g = -755182659;
+    2 = -662221.3254993176;
+    [-1] = -662221.3254993176;
+    static set g(a16) {
+        let v17;
+        try { v17 = a16(-1024); } catch (e) {}
+        super.c = v17;
+    }
+    #e;
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+const v21 = [v18,C3,v20];
+const v22 = [v19,-755182659,-1024,v20,-662221.3254993176];
+const v23 = [v20,v21];
+v18[5];
+%VerifyType(v18);
+try {
+    v23.length = 2797283136;
+} catch(e26) {
+}
+function f27() {
+    return v22;
+}
+function f28(a29, a30) {
+    const o34 = {
+        "d": -1024,
+        get e() {
+            try {
+                new C3();
+            } catch(e33) {
+            }
+            return this;
+        },
+        "c": -1024,
+        __proto__: v19,
+        "g": f28,
+        "a": v23,
+    };
+    return o34;
+}
+const v35 = f28(v21, v22);
+const v36 = f28(-662221.3254993176, v35);
+f28(v36, v36);
+let v38 = Map;
+function f39() {
+    function f40(a41, a42) {
+        v35 >>> -65537;
+        let v47 = +5.705960886853895e+307;
+        --v47;
+        return v19;
+    }
+    return f40;
+}
+function f49(a50) {
+}
+Object.defineProperty(v38, "valueOf", { writable: true, get: f39, set: f49 });
+const v58 = v38--;
+const v59 = [-4.0,-1e-15];
+const v60 = [-7.264687027014153e+307];
+v60.pop();
+function F64(a66, a67, a68, a69) {
+    if (!new.target) { throw 'must be called with new'; }
+    a66[0] = a68;
+    const v70 = this?.__defineGetter__;
+    try { v70(undefined, undefined); } catch (e) {}
+    try { a66.unshift(a67); } catch (e) {}
+    a68 != a68;
+    try { a66.toSpliced(a67, a67); } catch (e) {}
+    const v75 = a66?.__defineSetter__;
+    try { v75(); } catch (e) {}
+}
+new F64(v60);
+new F64(v59, v58);

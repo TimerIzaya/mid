@@ -1,0 +1,52 @@
+function f1() {
+    const o7 = {
+        __proto__: true,
+        [true]: true,
+        "f": true,
+        "g": true,
+        "a": true,
+        set d(a3) {
+            let v4;
+            try { v4 = this.p(this, a3); } catch (e) {}
+            try {
+                super.o(v4, v4, true);
+            } catch(e6) {
+            }
+        },
+    };
+    return o7;
+}
+const v8 = f1();
+const v9 = f1();
+const v10 = f1();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a14;
+    } catch(e15) {
+    }
+    try {
+        this.f = f1;
+    } catch(e16) {
+    }
+}
+new F11(v8, v8);
+new F11(v10, v10);
+new F11(v10, v9);
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a23;
+    } catch(e24) {
+    }
+}
+const v25 = new F20(v9, v8);
+const v26 = new F20(v25, v8);
+new F20(v26, v9);
+const v28 = [14,9223372036854775807,-947341810,257,65536,2031413919,-5,127,-20830,4096];
+v28.toString = f1;
+function f29() {
+    return v28;
+}
+const v30 = [f29,f29];
+v30.includes(v30, v28);

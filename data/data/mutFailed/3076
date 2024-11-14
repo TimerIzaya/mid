@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 536870889;
+    } catch(e3) {
+    }
+    try {
+        this.c = 536870889;
+    } catch(e4) {
+    }
+    try {
+        this.multiline = 536870889;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+v8.a = v8;
+function f9() {
+    return F0;
+}
+let v10;
+try { v10 = f9.bind(v6); } catch (e) {}
+function F11(a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    a13.g = a13;
+    try {
+        this.d = v7;
+    } catch(e14) {
+    }
+    try {
+        this.c = v6;
+    } catch(e15) {
+    }
+    try {
+        this.e = v8;
+    } catch(e16) {
+    }
+}
+const v17 = new F11(v6);
+const v18 = new F11(v6);
+const v19 = new v17(v8, F0, v10, v18);
+const v20 = v19?.constructor;
+try { new v20(v20); } catch (e) {}
+new Uint32Array(198);
+new Int8Array(8);
+let v30;
+try { v30 = Uint8Array.toString(); } catch (e) {}
+new Uint8Array(4096, v30, v10);
+(8)[18];
+const v35 = new BigInt64Array(128);
+-11907 / -11907;
+v35.indexOf(-11907, v8);

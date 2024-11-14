@@ -1,0 +1,56 @@
+const v0 = [];
+const v1 = [0.851005897663744];
+function f2(a3) {
+    const v4 = [];
+    function f5(a6) {
+        try {
+            v4.some(a6);
+        } catch(e8) {
+            e8.stack;
+        }
+    }
+    return a3;
+}
+Object.defineProperty(v1, Symbol.toPrimitive, { configurable: true, value: f2 });
+const v12 = [-96.59345176354134,-526.1572129437368,-1000000000000.0,-149229.17003605573];
+let v13 = [-4.0,0.16574144167887594,1000.0,-1.0,-7.792881193336143];
+v13[Symbol.toPrimitive] = Symbol;
+let v16 = 0;
+while (v16 < 7) {
+    v0[555040721] &= v16;
+    v13 %= v1;
+    v16++;
+}
+[v13,v0,v13,v12,v1];
+const v21 = [v13,v0];
+const v22 = [v0,v21,v21,v12];
+function f23() {
+    return v21;
+}
+function f24(a25, a26) {
+    const o40 = {
+        268435456: a26,
+        ...a25,
+        get b() {
+            for (const v28 in a26) {
+                let v30 = -41281;
+                let v31 = -1169824872;
+                const v32 = v30++;
+                Math.fround(v30);
+                Math.max(v32);
+                v31--;
+                a25 >> a25;
+                v13["toLocaleString"](v28);
+            }
+            v1 in v21;
+            return v21;
+        },
+        ...a26,
+    };
+    return o40;
+}
+f24(v21, v13);
+f24(v0, v13);
+f24(v22, v21);
+const v46 = [Uint32Array];
+try { v46.find(Worker); } catch (e) {}

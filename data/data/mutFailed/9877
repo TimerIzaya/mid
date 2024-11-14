@@ -1,0 +1,81 @@
+const v0 = [];
+function f1() {
+    const o27 = {
+        "c": v0,
+        ...v0,
+        p() {
+            1073741823 & 1073741823;
+            const v5 = /a\w/gudsy;
+            const v6 = /ka{0}/guims;
+            class C7 {
+            }
+            new C7();
+            const v9 = new C7();
+            function f10(a11, a12) {
+                const o13 = {
+                    ...v6,
+                    "d": v9,
+                    "c": a12,
+                    "g": a12,
+                    "f": a11,
+                    "a": a12,
+                    7: C7,
+                    __proto__: C7,
+                    "e": v6,
+                    "b": v5,
+                };
+                return o13;
+            }
+            %OptimizeFunctionOnNextCall(f10);
+            const v18 = ~v0;
+            -9223372036854775807 * 16;
+            -9223372036854775807 % v18;
+            new Int8Array(268435456);
+            new Uint8ClampedArray(255);
+            return -9223372036854775807;
+        },
+    };
+    return o27;
+}
+f1();
+const v29 = f1();
+const v30 = f1();
+function f31() {
+    return v30;
+}
+function F32(a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    a34 % a34;
+    const v37 = this.constructor;
+    v37.bind(a34, F32, this, F32);
+    try { new v37(); } catch (e) {}
+}
+const v40 = new F32();
+const v41 = v40.constructor;
+new v41();
+function f46() {
+    return f1;
+}
+function f48(a49) {
+    const o53 = {
+        __proto__: 2,
+        ...a49,
+        p(a51, a52) {
+            return a49;
+        },
+    };
+    function f55(a56, a57) {
+        return a56;
+    }
+    const v60 = [Uint32Array];
+    const o61 = {
+        "arguments": v60,
+        "type": v41,
+    };
+    new Worker(f55, o61);
+    return o53;
+}
+%PrepareFunctionForOptimization(f48);
+f48();
+%OptimizeFunctionOnNextCall(v41);
+f48(v29);

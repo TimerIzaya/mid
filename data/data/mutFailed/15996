@@ -1,0 +1,35 @@
+class C3 {
+    static #g;
+    static h = "add";
+    #o(a5, a6) {
+        let v7;
+        try { v7 = a5(a5, this, a6, this, a6); } catch (e) {}
+        v7.e <<= a6;
+        Object.defineProperty(this, "c", { writable: true, configurable: true, enumerable: true, value: this });
+        function F8(a10, a11, a12, a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = a12;
+            } catch(e14) {
+            }
+        }
+        const v15 = new F8(this, F8, -15474, -15474);
+        const v16 = new F8(F8, "add", a6, -15474);
+        new F8(v16, v15, v16, v16, -15474, v15);
+        return "add";
+    }
+}
+const v18 = new C3("add", -1.5367463139061596e+308);
+const v19 = new C3();
+const v20 = new C3(-15474, -15474, -15474);
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.MIN_SAFE_INTEGER = a25;
+    } catch(e27) {
+    }
+}
+const v28 = new F21(v18, v19, C3, "add");
+new F21(v19, "add", C3, v20);
+new F21(v19, "add", v18, v28);
+/[\xe2\x81\xa3]([\d-z])/vd;

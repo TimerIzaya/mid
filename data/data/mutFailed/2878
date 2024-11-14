@@ -1,0 +1,32 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = 1e-15;
+        t3.b = this;
+    } catch(e6) {
+    }
+    try {
+        this.e = 521.2691210219043;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(1e-15);
+const v9 = new F3(v8);
+const t14 = 1e-15;
+new t14(v9);
+new Uint8Array(1000);
+new Uint8ClampedArray(v8);
+new Uint8Array(64);
+function f20() {
+    const o23 = {
+        m(a22) {
+            return f20;
+        },
+    };
+    o23.m();
+    return o23;
+}
+%PrepareFunctionForOptimization(f20());
+f20();
+%OptimizeFunctionOnNextCall(f20);
+f20();

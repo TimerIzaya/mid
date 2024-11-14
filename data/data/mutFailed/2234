@@ -1,0 +1,55 @@
+const v0 = [-589.3531889713568];
+function f1(a2) {
+    class C3 {
+        #toString(a5, a6, a7) {
+        }
+    }
+    for (let v9 = 0; v9 < 10; v9++) {
+        Reflect.construct(C3, [Reflect,Reflect,Reflect,Reflect], WeakSet);
+    }
+    return C3;
+}
+v0.toString = f1;
+const v13 = [-0.8362203870555245,-1.5682079559747068e+308,57.29834187295501,Infinity];
+Object.defineProperty(v13, "toString", { configurable: true, enumerable: true, value: f1 });
+const v14 = [766048.4665426037,-4.0,-1000000000.0,1000000000.0];
+function f15(a16) {
+    const o30 = {
+        [v0]: v14,
+        ...v14,
+        [v13](a18) {
+            let v19;
+            try { v19 = new a18(); } catch (e) {}
+            %VerifyType(a18);
+            function F20(a22, a23) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = a22;
+                } catch(e24) {
+                }
+                try {
+                    this.b = v13;
+                } catch(e25) {
+                }
+                try {
+                    this.f = v19;
+                } catch(e26) {
+                }
+            }
+            new F20(v14, v14);
+            new F20(a18, v14);
+            const v29 = new F20(v0, v14);
+            return v29;
+        },
+    };
+    return o30;
+}
+f15(v0);
+f15(v14)[3];
+f15(v0);
+const t46 = "f";
+t46[0] = "f";
+~-1e-15;
+-2.220446049250313e-16 + -2.220446049250313e-16;
+let v48 = Math.pow(-15 >> 8798, -2.220446049250313e-16);
+v48--;

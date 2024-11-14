@@ -1,0 +1,57 @@
+const v1 = new Date();
+v1.toString = Date;
+const v6 = [-9007199254740991,-9007199254740991,v1,Date,Date];
+function f7() {
+    const v10 = new Uint8ClampedArray(4);
+    new BigUint64Array(255);
+    new Uint32Array(6);
+    return v10;
+}
+v6.toString = f7;
+const v17 = [Date,-36610,,];
+function f18(a19, a20) {
+    const v21 = v17.constructor;
+    function f22(a23, a24) {
+        let v25 = a23[5];
+        v25++;
+        return v21;
+    }
+    return f22(a20);
+}
+v17[Symbol.toPrimitive] = f18;
+const v30 = [v6,v1,-36610,v17];
+class C31 extends Date {
+    h;
+    static {
+        super[this] = -9007199254740991;
+    }
+    constructor(a34, a35, a36) {
+        function f37() {
+            return Symbol;
+        }
+        function f38(a39) {
+            ~Date;
+        }
+        Object.defineProperty(a36, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f37, set: f38 });
+        super(a35);
+        a34[a36];
+        const v45 = Symbol.toPrimitive;
+        const o50 = {
+            [v45]() {
+                const v47 = delete this[a34];
+                delete Date?.prototype;
+                v45 >= v47;
+                return 6080;
+            },
+        };
+    }
+}
+new C31(v30, 6080, v30);
+new C31(v6, 6080, v30);
+new C31(v6, 6080, v17);
+const o60 = {
+    n(a56, a57) {
+        return Math.ceil(64n);
+    },
+};
+try { o60.n(o60, o60, o60, o60); } catch (e) {}

@@ -1,0 +1,90 @@
+function f0() {
+}
+class C1 extends f0 {
+    constructor() {
+        super();
+        try {
+            f0();
+        } catch(e4) {
+        }
+        C1[C1] = f0;
+        try {
+            this.f = this;
+        } catch(e5) {
+        }
+        const v6 = f0();
+        super[v6] = v6;
+        delete this[this];
+    }
+    static p(a9) {
+        eval(a9);
+    }
+    #d;
+    static #a = f0;
+    [f0];
+}
+const v28 = new f0();
+const v29 = new C1();
+const v30 = new C1();
+const v31 = [0.18790042266116647];
+const v32 = [-489.2961525605952,-279407.33251336054,-2.2250738585072014e-308,0.10882070593335536,0.5084113940707307,-6.016772382329004,-1.0];
+const v33 = [-2.0,2.0,-4.0,0.6768496053930017];
+function f34(a35, a36, a37, a38) {
+    const o52 = {
+        __proto__: v31,
+        [v28](a40, a41, a42) {
+            f0();
+            %PrepareFunctionForOptimization(a36);
+            f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            this();
+            [f0,a41,this];
+            [v31];
+            const v50 = [v28,v28,a40,this];
+            try {
+                a35.h = v50;
+            } catch(e51) {
+            }
+            return v29;
+        },
+        [v30]: v32,
+        ...v33,
+        [v28]: v31,
+    };
+    function f53() {
+        const v55 = new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+        new Int8Array(v55);
+        return o52;
+    }
+    f53();
+    return o52;
+}
+const v59 = [-946.1982015264321,-406.6809700455609];
+const v62 = [1000.0,1000n];
+with ([v62,v62,v59]) {
+    new Int32Array(v31, v59, Int32Array);
+}
+f34(v32, v32, v30, f34(v32, v33, f34(v32, v30, v33, v30), v31));
+[-1637234527,-65536,128,1152271969,-268435456,64,-2147483649,268435439];
+[2147483648,536870888,13772,127,9007199254740992,128,1,-4,6];
+[-13,129,-1,39,1039231501,65535,16];
+function f72() {
+    const v73 = [155533.8602852358,2.0];
+    Array(19793);
+    for (const v78 of f72) {
+        v73[658291203] = f34;
+    }
+    let v79 = 852.2904873570058;
+    for (let v80 = 0; v80 < 5; v80++) {
+    }
+    const o85 = {
+        m(a82, a83) {
+            v79++;
+            return a83;
+        },
+    };
+    return f72;
+}
+%OptimizeFunctionOnNextCall(f72);
+f72();

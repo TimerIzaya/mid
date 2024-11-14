@@ -1,0 +1,105 @@
+class C4 {
+    static #p(a6, a7) {
+        class C14 {
+        }
+        const v15 = new C14();
+        class C16 {
+            static #e;
+            static {
+                try {
+                    v15.#e = this;
+                } catch(e18) {
+                }
+            }
+            static n(a20, a21, a22) {
+                v15.#e;
+            }
+        }
+        try {
+            a6.__proto__ = this;
+        } catch(e26) {
+        }
+        return a7;
+    }
+    static #g;
+    e;
+    static set e(a28) {
+        function f29(a30, a31, a32, a33) {
+            %VerifyType(this);
+            const v35 = Symbol.hasInstance;
+            a28[v35] = v35;
+            const v36 = f29 in v35;
+            [933.5526275046234,-199954.6675095911,-8.310794427110764,1.0,0.03466808034241298,-1.4393800523916286e+308,0.5658341716641709,-5.0];
+            [-1000.0,-614874.9267809056];
+            const v39 = [0.9385026627834202,1.7976931348623157e+308,Infinity,1.7976931348623157e+308,-8.953122624005163,-518.0406237022416,724626.7827250655];
+            try {
+                v39[v36];
+            } finally {
+                a31 < a28 ? a31 : a28;
+            }
+            return a28;
+        }
+        const v43 = f29(f29, 1.2999975716279065e+308, -1.7976931348623157e+308, 0.930481759768382);
+        f29 / false;
+        try { v43.n(0.930481759768382); } catch (e) {}
+        new Map();
+    }
+}
+function f50() {
+    function f51(a52) {
+        const v53 = [];
+        class C54 {
+        }
+        const v55 = new C54();
+        function F56(a58, a59) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = a59;
+        }
+        const v60 = new F56(v55, v53);
+        const v62 = [v60];
+        const o63 = {
+            "arguments": v62,
+            "type": "function",
+        };
+        return C4;
+    }
+    return f51;
+}
+function f64(a65) {
+    RegExp(RegExp);
+}
+Object.defineProperty(C4, "constructor", { writable: true, configurable: true, get: f50, set: f64 });
+const v68 = C4?.constructor;
+try { new v68(1.2999975716279065e+308); } catch (e) {}
+const v70 = new C4();
+v70.c = v70;
+new C4();
+const v72 = new C4();
+class C76 extends C4 {
+    valueOf(a78, a79, a80) {
+        Object.defineProperty(this, "b", { configurable: true, enumerable: true, value: a79 });
+        super.e = this;
+        for (let v81 = 0; v81 < 32; v81++) {
+            v72["p" + v81] = v81;
+            Object.defineProperty(this, 829, { writable: true, configurable: true, enumerable: true, value: 13 });
+            [..."p",40496];
+        }
+        return C4;
+    }
+    toString(a89, a90, a91) {
+        return 59222;
+    }
+}
+C76.prototype = C76;
+new C76();
+new C76();
+const v97 = new C76();
+v97.d = v97;
+function F98() {
+    if (!new.target) { throw 'must be called with new'; }
+    typeof arguments;
+    gc();
+}
+const v104 = new F98();
+const v105 = v104?.constructor;
+try { new v105(); } catch (e) {}

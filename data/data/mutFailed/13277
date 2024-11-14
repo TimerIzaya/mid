@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3) {
+        this.constructor;
+        const v7 = new Uint8Array(1);
+        Float32Array.from(v7);
+        return this;
+    }
+    this.toString = f2;
+    try {
+        this.b = -1073741824;
+    } catch(e11) {
+    }
+}
+new F0();
+const v13 = new F0();
+function f14(a15, a16) {
+    a15.match(v13);
+    const v18 = [];
+    function f19(a20) {
+        try {
+            v18.some(a20);
+        } catch(e22) {
+            e22.stack;
+        }
+    }
+    const o25 = {
+        __proto__: v18,
+        [v18]() {
+        },
+    };
+    return o25;
+}
+v13[Symbol.toPrimitive] = f14;
+const v28 = new F0(v13, v13, F0);
+function f35(a36, a37, a38) {
+    function f39() {
+        return f35;
+    }
+    Object.defineProperty(a37, "toString", { writable: true, get: f39 });
+    const o50 = {
+        "a": "bind",
+        __proto__: a37,
+        "toStringTag": 2147483647,
+        ...a37,
+        "c": a36,
+        "f": a36,
+        [v13](a41, a42, a43) {
+            a37 * a41;
+            for (let [v45,v46] of "9223372036854775807") {
+                const t50 = a36[a36];
+                t50[1] %= -1762538748;
+                delete a41[9];
+            }
+            a36.length;
+            return a38;
+        },
+    };
+    return o50;
+}
+f35("undefined", v28, -1762538748);
+f35("bind", v13, 2147483647);
+f35("9223372036854775807", v13, 2147483647);
+("o").lastIndexOf();

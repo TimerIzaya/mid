@@ -1,0 +1,20 @@
+class C6 {
+    #e = "global";
+    m(a8, a9) {
+        try {
+            this.#e = "global";
+        } catch(e10) {
+        }
+        return 127;
+    }
+}
+new C6();
+new C6();
+const v16 = new C6();
+const v20 = new v16(4080);
+for (const v21 in v20) {
+}
+class C23 extends String {
+}
+new C23();
+(127)[6];

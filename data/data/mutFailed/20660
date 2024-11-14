@@ -1,0 +1,63 @@
+const v2 = new Float32Array(3186);
+const v5 = new Uint8Array(13);
+try { v5.filter(3186); } catch (e) {}
+try { new Uint8Array(Uint8Array, 3782, v2); } catch (e) {}
+const v10 = new Uint8Array(3782);
+try { v10.reverse(); } catch (e) {}
+const v13 = [13,[3782,3186],Uint8Array];
+try { v13.indexOf(v13); } catch (e) {}
+const v15 = [Uint8Array,3186,v13];
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v28 = this?.constructor;
+    try { new v28(a27, Uint8Array, this, a25); } catch (e) {}
+    a24 * a24;
+    a27++;
+    try {
+        this.h = -9;
+    } catch(e32) {
+    }
+    try {
+        this.b = 5;
+    } catch(e33) {
+    }
+}
+new F22(-9, 1073741824, "toString", 1073741824);
+const v35 = new F22(1073741824, 1073741824, F22, "setUint32");
+v35.b = 3186;
+const v36 = new F22(-9, 1073741824, 1073741824, "setUint32");
+function f37(a38, a39) {
+    a38.b = a38;
+    const o45 = {
+        "f": -9,
+        set e(a41) {
+            Reflect.construct(a41, [a38,v36,Reflect,a39], a41);
+        },
+        ["getOwnPropertySymbols"]: v36,
+        "e": "toString",
+        9: "toString",
+    };
+    o45[9] = o45;
+    return o45;
+}
+const t42 = 3782;
+t42(v36, "toString");
+const v47 = f37(v36, 1073741824);
+let v48 = f37(v36, 5);
+v48[9];
+class C50 {
+    static #e = v47;
+    m(a52, a53, a54) {
+        try {
+            a53.#e >>>= a52;
+        } catch(e55) {
+        }
+        return v47;
+    }
+    #n(a57, a58) {
+        Object.defineProperty(a57, "a", { writable: true, configurable: true, value: f37 });
+    }
+}
+new C50();
+"getOwnPropertySymbols" && "getOwnPropertySymbols";
+v48 = v15;

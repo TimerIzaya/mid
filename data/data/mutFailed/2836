@@ -1,0 +1,13 @@
+function f3() {
+    return "NEGATIVE_INFINITY";
+}
+Object.defineProperty(Float32Array, 0, { value: 1073741823n });
+Float32Array[1] = -1e-15;
+const v16 = new Uint8Array();
+class C18 extends Float32Array {
+    constructor(a20, a21, a22) {
+        a22[0] = a21;
+        super(a22);
+    }
+}
+new C18(1, v16, Float32Array);

@@ -1,0 +1,44 @@
+const v0 = [2.0,-1000000000.0];
+v0[2] = v0;
+const v1 = [3.7824658790242243,-8.809520797605935e+307,-1000000000.0,-1000000000000.0,-1000000.0,-1000.0];
+const v2 = [561.0911245519158,-341.01395494475105];
+const v3 = [v2,v2,v1];
+v3[3] = v1;
+try { v3.map(v2); } catch (e) {}
+const v5 = [v2,v0,v1,v0,v1];
+const v6 = [v5,v1,v5,v3,v1];
+v6[6] = v0;
+try { ("-256").blink(); } catch (e) {}
+function f11(a12, a13, a14) {
+    a12[5] = f11;
+    function f15(a16) {
+        function f17(a18, a19, a20, a21) {
+            const v23 = new Int8Array(a20);
+            const v27 = new Int32Array(2528);
+            v27[0] %= -1073741824;
+            return v23.buffer;
+        }
+    }
+    Object.defineProperty(a13, 2, { enumerable: true, set: f15 });
+    a14[2] = a13;
+    try { a12.push(a14); } catch (e) {}
+    a13[2] = a13;
+    const o40 = {
+        __proto__: a14,
+        1000: v5,
+        n(a31, a32) {
+            const o35 = {
+                "maxByteLength": 268435440,
+            };
+            const v37 = new SharedArrayBuffer(14, o35);
+            new DataView(v37);
+            return a12;
+        },
+    };
+    o40[2] = v2;
+    return o40;
+}
+const v41 = f11(v6, "-256", v0);
+try { v41.entries(); } catch (e) {}
+f11(v3, f11(v6, "-256", v0), v3);
+Reflect.preventExtensions(Reflect);

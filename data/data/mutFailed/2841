@@ -1,0 +1,73 @@
+const v2 = new Float64Array(257);
+const v5 = new Uint32Array(4096);
+new Uint16Array(10);
+class C9 extends Float64Array {
+    static [v5] = Uint32Array;
+    static #h;
+    static o(a11, a12) {
+        try {
+            const v15 = new Uint16Array(8);
+            const o16 = {
+                ...v15,
+            };
+            v2.byteLength = a12;
+        } catch(e17) {
+        }
+        try {
+            const o19 = {
+                "maxByteLength": 268435439,
+            };
+            let v20 = 0;
+            v20++;
+            v5.valueOf = a11;
+            const v23 = new Date();
+            const v24 = [-1000.0,2.0,6.498411136794167e+307,1.5301115680028905e+308,-1.0240581174585665e+308,-73553.73579822388,-474.34134439650745,2.300981674378132,-816063.8647013834,-1.2620665326245469e+308];
+            const v25 = [];
+            const v26 = [];
+            function f27(a28, a29) {
+                const o39 = {
+                    129: v26,
+                    __proto__: v24,
+                    o(a31, a32, a33, a34) {
+                        [o19];
+                        Reflect.apply(a32.reduce, a29);
+                        return a29;
+                    },
+                    "f": v25,
+                    "e": v23,
+                    ...a29,
+                };
+                return o39;
+            }
+        } catch(e40) {
+        }
+        return a11;
+    }
+    #d;
+}
+const v41 = new C9();
+const v42 = new C9();
+new C9();
+function F44(a46, a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    function F49(a51, a52, a53) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v54 = new F49();
+    const v55 = new F49(F49, F49, v54);
+    v54 || undefined;
+    Object.defineProperty(v2, v55, { value: v54 });
+    try {
+        v41.e = a46;
+    } catch(e58) {
+    }
+}
+new F44(4096, 10, v41);
+new F44(Float64Array, 10, v42);
+new F44(C9, 10, v42);
+const o64 = {
+    "maxByteLength": 10000,
+};
+const v66 = new ArrayBuffer(3471, o64);
+const v68 = new Uint8Array(v66);
+v68[938] = v68;

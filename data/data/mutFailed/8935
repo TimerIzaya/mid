@@ -1,0 +1,61 @@
+class C3 {
+    #a = 0.36991559101654403;
+    p(a5) {
+        const v6 = a5.d;
+        const v7 = super[v6];
+        const o8 = {
+        };
+        try {
+            C3.POSITIVE_INFINITY = v7;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.h = v7;
+            o10.b = C3;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.h = v7;
+            C3.b = 0.36991559101654403;
+            o12.a = "p";
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.h = v6;
+            o14.b = 0.36991559101654403;
+            o14.a = v7;
+        } catch(e15) {
+        }
+        return o8;
+    }
+}
+const v16 = new C3();
+const v17 = v16?.p;
+try { new v17(-1795392636); } catch (e) {}
+const v19 = new C3();
+let v20;
+try { v20 = v19.isPrototypeOf(v19); } catch (e) {}
+new C3(v19);
+new WeakMap();
+-536870912 + -536870912;
+function f29() {
+    return v20;
+}
+class C30 extends f29 {
+    static {
+        this.b = this;
+        const o32 = {
+            "defineProperty": f29,
+        };
+        o32.set = f29;
+        const v34 = new Proxy(this, o32);
+        v34.b = v34;
+    }
+}
+C30.e = C30;

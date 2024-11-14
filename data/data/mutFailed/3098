@@ -1,0 +1,46 @@
+function f0() {
+    const o16 = {
+        set e(a5) {
+            try { a5["m"](a5, "p"); } catch (e) {}
+        },
+        p(a9, a10) {
+            const o14 = {
+                "execution": "p",
+                "type": a10,
+            };
+            gc(o14);
+            return o14;
+        },
+    };
+    return o16;
+}
+f0();
+const v18 = f0();
+const v19 = f0();
+class C20 extends f0 {
+    static n(a22, a23) {
+        try {
+            a22.b = v18;
+        } catch(e24) {
+        }
+        return a23;
+    }
+    static #a;
+    static [v18];
+    [v19];
+    static #c;
+}
+new v18();
+new C20();
+new C20();
+function f28() {
+    return v18;
+}
+this.DataView;
+try { new f0(); } catch (e) {}
+const v35 = [];
+const o36 = {
+    ...v35,
+};
+const v39 = new Float64Array(2534);
+v39[257] = 1;

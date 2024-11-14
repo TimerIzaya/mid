@@ -1,0 +1,40 @@
+class C6 {
+    static #f;
+    static {
+        function f8(a9) {
+            a9[Symbol.asyncIterator] = 1559542942;
+            return this;
+        }
+        Object.defineProperty(this, Symbol.toPrimitive, { enumerable: true, value: f8 });
+        super[this] = this;
+        try {
+            this.#f &= 1559542942;
+        } catch(e14) {
+        }
+    }
+    [-10];
+    c = 1559542942;
+    static #g = -2;
+    #e;
+}
+const v15 = new C6();
+const v16 = new C6();
+const v17 = new C6();
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a21;
+    } catch(e24) {
+    }
+    try {
+        this.e = C6;
+    } catch(e25) {
+    }
+}
+new F18(-10, v15, 1000000.0, C6);
+new F18(-10, v16, -1000000.0, F18);
+new F18(-2, v17, -797690.0792477814, v15);
+const o30 = {
+    __proto__: Set,
+    ...Set,
+};

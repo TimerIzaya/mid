@@ -1,0 +1,18 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -33232;
+    } catch(e3) {
+    }
+    try {
+        this.e = -33232;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new v5();
+new F0();
+new Uint8Array(1);
+new Uint8Array(1);
+new BigInt64Array(929);
+Math.atan2(929, 2.220446049250313e-16 && 2.220446049250313e-16);

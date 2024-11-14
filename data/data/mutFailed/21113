@@ -1,0 +1,51 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static {
+        try {
+            let o4 = {
+            };
+            function f5(a6) {
+                o4 = a6;
+                return a6;
+            }
+            Object.defineProperty(o4, "g", { set: f5 });
+            o4.e = this;
+        } catch(e7) {
+        }
+        new WeakSet(this);
+    }
+    constructor(a11, a12) {
+        super(v1);
+        const v13 = a11 > this;
+        if (v13) {
+        } else {
+            this.has(this, a11, WeakSet, v13);
+        }
+    }
+}
+new C2(v1, C2);
+new C2(C2, v1);
+new C2(C2, WeakSet);
+[-3.0,-873987.4800721781,8.93374006269779,-1000.0,-5.0,322.05315770746256,Infinity,-5.957769191775776e+306];
+[-5.0,-1.7976931348623157e+308,0.0,-2.220446049250313e-16,0.25654783903767353,-3.0,-2.2250738585072014e-308];
+[-343.98375674372164,NaN,-6.25244490478657,-6.241344910628529e+307,0.05536724194371656,-2.220446049250313e-16,4.0];
+[-9007199254740991,-2147483648,-6];
+[-128,6,3001,-2147483647,65537];
+for (let v26 = 0; v26 < 50; v26++) {
+}
+function f27(a28, a29) {
+    return f27;
+}
+function F30() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        for (const v35 of Array(19793)) {
+        }
+        switch (f27) {
+        }
+    } catch(e36) {
+    }
+}
+[65537];
+const v41 = new Date(-2, [23795,8,259058917,-256,1,-36806,4096,-9,-1,-18943]);
+v41.getHours();

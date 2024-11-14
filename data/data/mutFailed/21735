@@ -1,0 +1,23 @@
+new Int32Array(9);
+const v8 = new Uint8Array(6);
+new Float32Array(295);
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f21() {
+        return F15;
+    }
+    class C22 extends f21 {
+        constructor(a24) {
+            super();
+            for (let v25 = 0; v25 < 25; v25++) {
+                this["c" + "c"] = v25;
+            }
+        }
+    }
+    new C22();
+}
+function f29(a30) {
+    Symbol.toPrimitive.description;
+}
+Object.defineProperty(F15, "pp", { writable: true, set: f29 });
+new F15(v8, 9007199254740990n, 6);

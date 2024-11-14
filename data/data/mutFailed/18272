@@ -1,0 +1,70 @@
+const v4 = new WeakSet();
+class C5 {
+    static g = 4n;
+    static #n(a7, a8) {
+        this[a8] = 13n;
+        const t5 = 4n;
+        t5[0] = v4;
+        return a8;
+    }
+    #b = 13n;
+    [13n] = C5;
+    #d = C5;
+    static [13n];
+    static 149;
+    #a;
+    #d = WeakSet;
+}
+new C5();
+new C5();
+const v14 = new C5();
+function f15() {
+    v14[10] = v14;
+    C5.g;
+    const o20 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o20);
+    return C5;
+}
+function f25() {
+    const o27 = {
+    };
+    try {
+        o27.h = Array;
+    } catch(e28) {
+    }
+    try {
+        const o29 = {
+        };
+        o29.h = Array;
+        o29.g = Array;
+    } catch(e30) {
+    }
+    try {
+        const o31 = {
+        };
+        o31.h = Array;
+        o31.g = Array;
+        o31.f = 20532;
+    } catch(e32) {
+    }
+    try {
+        const o33 = {
+        };
+        o33.h = Array;
+        o33.g = Array;
+        o33.f = Array;
+    } catch(e34) {
+    }
+    Array.__proto__ = this;
+    return Array;
+}
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v40 = this.constructor;
+    try { new v40(); } catch (e) {}
+    f25();
+}
+new F36();

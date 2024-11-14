@@ -1,0 +1,31 @@
+new Int8Array(1910);
+new Uint8ClampedArray(9);
+new BigInt64Array(1292);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f13(a14) {
+        return ("filter")["startsWith"]();
+    }
+    Object.defineProperty(this, "c", { writable: true, configurable: true, set: f13 });
+    try {
+        this.c = 1292;
+    } catch(e18) {
+    }
+    try {
+        this.a = a12;
+    } catch(e19) {
+    }
+}
+const v20 = new F9(1292, Uint8ClampedArray);
+new F9(1292, v20);
+new F9(9, 1910);
+const v26 = new Uint32Array();
+v26[Symbol.toPrimitive] = Array;
+v26[Symbol.toPrimitive] = Array;
+const o34 = {
+    n(a32, a33) {
+        v26[2] = v26;
+        return 2;
+    },
+};
+try { o34.n(); } catch (e) {}

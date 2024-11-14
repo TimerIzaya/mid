@@ -1,0 +1,41 @@
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v9 = new F5();
+Math.log10();
+let v15 = new Int16Array(-536870912);
+new BigInt64Array(179);
+new BigUint64Array(512);
+let v24 = 0;
+while (v24 < 0) {
+    for (let v27 = 0; v27 < 5; v27++) {
+    }
+    v24++;
+}
+Math.tanh(1073741823);
+let v33 = 179 & 1073741823;
+++v33;
+const v35 = ++v15;
+v35 | 1073741823;
+v15--;
++v15;
+("valueOf").localeCompare(128, "valueOf");
+new Int16Array();
+new Float64Array(1000);
+const v54 = new Uint8ClampedArray(2147483647);
+const v56 = [v54];
+const o57 = {
+    "arguments": v9,
+    "type": v9,
+};
+const v58 = new Uint8Array(2707, 3151, 128);
+let v59;
+try { v59 = v58.findLastIndex(v58, v58); } catch (e) {}
+const o62 = {
+    ...v56,
+    "type": v35,
+    "e": v56,
+    set h(a61) {
+    },
+    [v59]: Uint8Array,
+};

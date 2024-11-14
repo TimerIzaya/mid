@@ -1,0 +1,92 @@
+function f0() {
+    const o12 = {
+        __proto__: -445768465,
+        "a": -445768465,
+        "g": f0,
+        14: 233356524,
+        "c": f0,
+        "d": 1.0,
+        "h": -445768465,
+        set e(a5) {
+            const v6 = (a7) => {
+                'use strict';
+                a5?.g;
+                return 1.0;
+            };
+        },
+        "c": -445768465,
+        "f": 1.0,
+        "g": 233356524,
+        "d": f0,
+        [-445768465]: -445768465,
+        "e": f0,
+        "a": 233356524,
+        "d": -445768465,
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0();
+new Float64Array(7);
+const v21 = new BigInt64Array(117);
+new Int16Array(255);
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = f0;
+    try {
+        this.f = a28;
+    } catch(e29) {
+    }
+    const v30 = (a31, a32, a33, a34) => {
+        function F35(a37, a38, a39, a40) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = a40;
+            } catch(e41) {
+            }
+            try {
+                this.b = BigInt64Array;
+            } catch(e42) {
+            }
+            try {
+                this.f = v21;
+            } catch(e43) {
+            }
+        }
+        new F35(v13, a28, v13, a32);
+        new F35(v15, a31, v14, a32);
+        const v46 = new F35(F35, a32, this, a28);
+        return v46;
+    };
+    try {
+        this.b = a28;
+    } catch(e47) {
+    }
+    try {
+        let v48 = 0;
+        do {
+            const v50 = [v48,7,f0,[a28,Int16Array,v48]];
+            [v50,v50,255,a28];
+            v48++;
+        } while (v48 < 6)
+        this.a = f0;
+        let [] = v21;
+        Object.defineProperty(v14, "e", { writable: true, configurable: true, enumerable: true, get: f0, set: f0 });
+        try {
+            new Int16Array(-65535);
+        } catch(e57) {
+        }
+    } catch(e58) {
+    }
+}
+new F25(v15, 117);
+new F25(v15, 117);
+new F25(v13, 117);
+function f63(a64, a65, a66, a67) {
+    arguments.constructor = f63;
+    return arguments;
+}
+const v69 = f63(f63, f63, Date, f63);
+v69.constructor = f63;
+v69.constructor.setPrototypeOf(Date, v69);

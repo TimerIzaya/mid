@@ -1,0 +1,50 @@
+class C3 {
+    static #valueOf(a5, a6) {
+        const v8 = ([a6,a6,9007199254740992,this,a6])[4];
+        -9007199254740992;
+        return v8;
+    }
+    constructor(a11) {
+        const v12 = this?.__lookupGetter__;
+        try { new v12(a11); } catch (e) {}
+        a11 | a11;
+        super.h = 1024;
+        try {
+            this.a = a11;
+        } catch(e15) {
+        }
+    }
+}
+try { C3.constructor(9007199254740992); } catch (e) {}
+new C3(9007199254740992);
+const v18 = new C3(1024);
+const v19 = v18?.constructor;
+try { new v19(v18); } catch (e) {}
+new C3(9007199254740992);
+-10519.906153336051 <= -10519.906153336051;
+let v24 = 759.1869240585743;
+v24++;
+1.3680450437315876 == 1.3680450437315876;
+function f28(a29, a30) {
+    -a29;
+    const o40 = {
+        "a": a29,
+        [C3](a33, a34, a35) {
+            delete C3?.f;
+            for (let v37 = 0; v37 < 32; v37++) {
+                C3["p" + v37] = v37;
+            }
+            return a33;
+        },
+        "g": 1024,
+    };
+    return o40;
+}
+f28(1.3680450437315876, 1024);
+const v42 = f28(1.3680450437315876, 9007199254740992);
+f28(v24, -290635141);
+function f44() {
+    new v42(1073741823);
+}
+f44();
+f44();

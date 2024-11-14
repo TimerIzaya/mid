@@ -1,0 +1,44 @@
+class C3 {
+    static {
+        C3.c |= 1000000.0;
+        try {
+            this.__proto__ = this;
+            class C18 {
+                valueOf(a20, a21, a22) {
+                    let v23 = 10;
+                    for ((() => {
+                            function F24(a26, a27) {
+                                if (!new.target) { throw 'must be called with new'; }
+                            }
+                        })();
+                        v23--;
+                        ) {
+                    }
+                }
+            }
+        } catch(e29) {
+        }
+    }
+    #e;
+    static #h = 1000000.0;
+    static [-1e-15];
+}
+new C3();
+new C3();
+new C3();
+for (let v37 = 0; v37 < 25; v37++) {
+    function f38(a39, a40, a41, a42) {
+        arguments[0] = arguments;
+        const v44 = arguments.__lookupGetter__;
+        let v45;
+        try { v45 = v44.constructor(f38, v44); } catch (e) {}
+        new Float32Array(v37, 11678);
+        const v48 = new Int32Array(v37, a41, a42);
+        const v49 = v45;
+        v48.fill(...v49);
+        return Float32Array;
+    }
+    for (let v51 = 0; v51 < 10; v51++) {
+        f38(v51, v51, v51, v51);
+    }
+}

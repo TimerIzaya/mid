@@ -1,0 +1,47 @@
+new WeakMap();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v5 = this?.__lookupGetter__;
+    try { new v5(this); } catch (e) {}
+    try { new a4(); } catch (e) {}
+    try {
+        this.f = a4;
+    } catch(e8) {
+    }
+}
+const v9 = new F2(WeakMap);
+v9.length = v9;
+const v10 = new F2(F2);
+const v11 = new F2(WeakMap);
+const v12 = [-744673.3297502734,-1000000000.0,-894446.5347356123,0.5008261968118526,1.0,-1000000000.0];
+const v13 = [820614.5617819829,-1000000.0,1e-15,1.3156841627616078];
+const v14 = [-273147.6557577348,-1000000000000.0,-2.2250738585072014e-308,NaN,0.8374116396085172,-3.0];
+-1073741824 / -1073741824;
+128 - 128;
+10 != 10;
+class C21 {
+    [F2];
+    g = v13;
+    constructor(a23, a24) {
+        const v25 = a23?.find;
+        try { new v25(this); } catch (e) {}
+        a24[3];
+        v13[a23] = a23;
+        /k+/vsy;
+        const v29 = /la(?=bbb|bb)c/vdy;
+        v29.dotAll = v29;
+        /H8\u0060/vs;
+    }
+    #a = 10;
+    static o(a32, a33, a34, a35) {
+        super[a33] = this;
+        try { a34.p(v13, v10, v11, 128, this); } catch (e) {}
+        return v14;
+    }
+}
+new C21(v13, v12);
+new C21(v14, F2);
+const v39 = new C21(v13, v11);
+v39.e = v39;
+const v41 = new Float64Array();
+v41 > Uint32Array;

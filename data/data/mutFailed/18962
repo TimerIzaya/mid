@@ -1,0 +1,41 @@
+function f4(a5) {
+    const o8 = {
+        ...65536,
+        5: 65536,
+        __proto__: -9223372036854775807,
+        valueOf(a7) {
+        },
+        "d": a5,
+        "g": 65536,
+        163: 4,
+    };
+}
+%PrepareFunctionForOptimization(f4);
+const t13 = -9223372036854775807;
+t13();
+f4();
+%OptimizeFunctionOnNextCall(f4);
+f4();
+[[1,1948001883,1948001883]];
+const v15 = [-9223372036854775807,1948001883,1948001883];
+class C16 {
+    static n(a18, a19) {
+        this[234] *= a18;
+        v15[a19] = a19;
+        return 1948001883;
+    }
+    n(a21, a22, a23, a24) {
+        switch (this) {
+            case -9223372036854775807:
+                1 * this;
+                break;
+        }
+        return e;
+    }
+}
+new C16();
+new C16();
+new C16();
+const t38 = 65536;
+const v36 = new t38(512);
+new Uint32Array(v36);

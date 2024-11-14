@@ -1,0 +1,59 @@
+const v2 = new Uint8Array(0);
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v9 = this.constructor;
+    try { new v9(); } catch (e) {}
+    this.a = Uint16Array;
+}
+const v12 = new Uint16Array(127);
+function f13(a14) {
+    try {
+        a14.__proto__ = v2;
+    } catch(e15) {
+    }
+    return v12;
+}
+v12[Symbol.hasInstance] = f13;
+let v18;
+try { v18 = v2.slice(0, 0); } catch (e) {}
+function f19(a20, a21) {
+    const v22 = a21?.[257];
+    class C23 {
+    }
+    new C23();
+    return v22;
+}
+v18.valueOf = f19;
+function f25() {
+    return F5;
+}
+v12[Symbol.hasInstance];
+function f29(a30, a31, a32) {
+    const o37 = {
+        get a() {
+            const o35 = {
+            };
+            gc();
+        },
+    };
+    return o37;
+}
+f29[Symbol.toPrimitive] = f25;
+f29();
+new Uint8ClampedArray(1024);
+new BigInt64Array(9);
+new Int8Array(129);
+new Uint16Array(183);
+const v53 = v18 < f29;
+if (v53) {
+    v53 ^ v53;
+} else {
+}
+function F58(a60, a61) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v62 = new F58(F58, F58);
+Math.asinh(~v62);
+const v68 = new Int32Array(3);
+v68.indexOf();
+Array(5);

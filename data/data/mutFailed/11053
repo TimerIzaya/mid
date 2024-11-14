@@ -1,0 +1,47 @@
+function f0() {
+    const o4 = {
+        __proto__: -65535,
+        "h": -1.6405531341540768e+308,
+        "f": -65535,
+        "a": -65535,
+        "g": -1.6405531341540768e+308,
+        "c": -1.6405531341540768e+308,
+        "b": 256,
+        [256]: -1.6405531341540768e+308,
+        2147483647: f0,
+        "e": -65535,
+    };
+    return o4;
+}
+const v5 = f0();
+f0();
+const v7 = f0();
+new Array(13);
+function f11() {
+    return 13;
+}
+class C12 {
+    #f;
+    static #h = f0;
+    static p(a14, a15, a16, a17) {
+        a16 ** v5;
+        a17.b;
+        ++a14;
+        return v7;
+    }
+    4 = 13;
+    #g = v5;
+}
+new C12();
+const v22 = new C12();
+new C12();
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    a26 % a26;
+    const v29 = this.constructor;
+    v29.bind(a26, F24, F24, F24);
+    try { new v29(); } catch (e) {}
+}
+new v22();
+const t45 = f0.constructor;
+new t45();

@@ -1,0 +1,64 @@
+function f0() {
+    const o14 = {
+        ...15781,
+        "f": 15781,
+        "g": 0,
+        [1000.0]: 1000.0,
+        "b": 15781,
+        set d(a5) {
+            a5?.[2];
+            %VerifyType(1000.0 ** 0);
+            try { a5.n(); } catch (e) {}
+        },
+        get d() {
+            const v10 = this[this];
+            try {
+                this.fuck("startsWith", f0, "startsWith");
+            } catch(e13) {
+            }
+            return v10;
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+try { v17.valueOf(); } catch (e) {}
+const v19 = [v17,f0];
+const v20 = [v15];
+const v21 = [v20];
+try { v21.map(v19); } catch (e) {}
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(a26, a25, this); } catch (e) {}
+    a25[0] = a25;
+    a26[1];
+    a27[1000];
+    try {
+        this.b = a27;
+    } catch(e31) {
+    }
+    try {
+        this.c = f0;
+    } catch(e32) {
+    }
+}
+const v33 = new F23(v20, v19, v15);
+v33.d = v33;
+new F23(v19, v19, v16);
+new F23(v20, v19, v15);
+const v40 = ([Infinity,4.380337649859771e+307])["fill"]("undefined", "undefined", "fill");
+try { v40.concat(v33); } catch (e) {}
+class C42 {
+}
+const v43 = new C42();
+const v44 = v43?.constructor;
+let v45;
+try { v45 = new v44(); } catch (e) {}
+try { Math.expm1(v43); } catch (e) {}
+const v49 = -1000000.0 & v43;
+v49 >> v45;
+const v51 = v40.pow(-479921253, v49);
+v51 + v51;
+v49 ** -479921253;

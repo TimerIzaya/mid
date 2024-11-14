@@ -1,0 +1,39 @@
+const v6 = [-Infinity,2147483649n];
+const v7 = [v6,-661144556n,v6,v6];
+const v8 = [v7,-661144556n,-661144556n,v7,v7];
+function f9() {
+    return v8;
+}
+function F10() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "c", { value: this });
+    this.c = 5;
+}
+const v13 = new F10();
+const v14 = new F10();
+function f15(a16, a17) {
+    const o18 = {
+        "h": v14,
+        6: v14,
+        128: a17,
+        "e": v13,
+        __proto__: a16,
+        "a": a16,
+        ...a17,
+    };
+    return o18;
+}
+const v19 = f15();
+const v20 = f15();
+f15(v13, v20);
+function f22() {
+    return f15;
+}
+Float32Array[Symbol.toPrimitive] = f15;
+const v27 = new Float32Array(218);
+const v29 = new Uint8Array();
+for (const v30 of v27) {
+    Object.defineProperty(v19, Float32Array, { configurable: true, enumerable: true, get: f15, set: f22 });
+}
+Object.defineProperty(v20, "e", { configurable: true, enumerable: true, set: f15 });
+v29 instanceof f15;

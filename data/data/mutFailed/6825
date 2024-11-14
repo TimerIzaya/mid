@@ -1,0 +1,98 @@
+class C3 {
+    static a = 23439;
+    static set e(a5) {
+        const v6 = super.c;
+        %VerifyType(this);
+        function F7(a9, a10, a11) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a9;
+            } catch(e12) {
+            }
+            try {
+                this.a = a10;
+            } catch(e13) {
+            }
+            try {
+                this.e = a5;
+            } catch(e14) {
+            }
+        }
+        const v15 = new F7(v6, 0.47885667217887473, v6);
+        new F7(v15, v15, 0.47885667217887473);
+        new F7("bigint", this, this);
+    }
+}
+const v18 = new C3();
+const v19 = v18?.__lookupGetter__;
+const o23 = {
+    [-206.79565552697056]: 352693014,
+    get g() {
+    },
+    "g": -206.79565552697056,
+};
+try { new v19(v18); } catch (e) {}
+new C3();
+const v26 = new C3();
+new Uint8ClampedArray(16);
+2 & 2;
+try { new BigUint64Array(v26, 23439, v26); } catch (e) {}
+const v34 = new BigUint64Array(2);
+let v35 = 7;
+v35--;
+new Float32Array(v35);
+function f40(a41, a42) {
+    const v44 = new Uint8Array(47108);
+    for (const v45 in v44) {
+    }
+}
+const o72 = {
+    get a() {
+        class C49 {
+            constructor(a51, a52) {
+            }
+            10;
+            static [v34];
+            #a = 47108;
+            static {
+                try {
+                    this.#d;
+                } catch(e55) {
+                }
+            }
+        }
+        const v58 = new Int16Array(Int16Array, Int16Array, Int16Array);
+        function f59() {
+            return f59;
+        }
+        class C60 extends f59 {
+            constructor(a62, a63, a64, a65) {
+                super();
+                function f66() {
+                    const o67 = {
+                        "g": a63,
+                        ...v58,
+                    };
+                    return C60;
+                }
+                for (let v68 = 0; v68 < 5; v68++) {
+                    f66();
+                    %OptimizeFunctionOnNextCall(f66);
+                }
+            }
+        }
+        new C60();
+        eval();
+    },
+};
+const v73 = o72?.__lookupGetter__;
+try { new v73(v35); } catch (e) {}
+for (let v75 = 0; v75 < 5; v75++) {
+    const o77 = {
+    };
+    o77.g = o77;
+    -4.380315352541508e+307 >> 129;
+    function f81(a82, a83, a84) {
+    }
+    gc(o77);
+}

@@ -1,0 +1,39 @@
+class C9 {
+    [-2];
+    constructor(a11, a12) {
+        if (a12) {
+            try { new a12(-1e-15, -3.0, 5.0); } catch (e) {}
+        } else {
+            Math.abs(-1e-15);
+            Math.sqrt(+5);
+            -1e-15 >>> 5;
+        }
+    }
+}
+const t12 = 274763.2111697737;
+const v21 = new t12("c", -618140.6288465563, "c", C9, -3.0);
+new C9(-618140.6288465563, -1e-15, "c", -618140.6288465563);
+const v23 = new C9(-618140.6288465563, "c");
+const v24 = [v23,"c",C9,-618140.6288465563];
+const v25 = [v24,-3.0];
+[-618140.6288465563,-1e-15,v24,v21];
+new Uint8Array(1000);
+new Int8Array(v25, v21, v25, Int8Array);
+const v35 = new BigInt64Array(0);
+function f36(a37) {
+    return a37;
+}
+class C38 extends f36 {
+    [5.0] = 0;
+    [f36] = -1000000000.0;
+}
+function f40() {
+    function f41() {
+    }
+    return v35;
+}
+function f42(a43) {
+    return a43;
+}
+Object.defineProperty(WeakSet, Symbol.iterator, { configurable: true, enumerable: true, get: f40, set: f42 });
+try { new BigInt64Array(WeakSet); } catch (e) {}

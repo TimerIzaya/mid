@@ -1,0 +1,14 @@
+[];
+const v2 = new WeakSet();
+let v3 = 257;
+v3--;
+const v6 = new BigUint64Array(v3);
+let v7;
+try { v7 = v6.with(BigUint64Array, v2); } catch (e) {}
+let v8 = 5;
+new v7(v8);
+BigUint64Array.d = BigUint64Array;
+new BigUint64Array(64);
+v8--;
+const v21 = new v7(512);
+v21[148] ||= v7;

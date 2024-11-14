@@ -1,0 +1,42 @@
+class C3 {
+    static set h(a5) {
+        let v6;
+        try { v6 = a5(-557, this, -4294967297, this); } catch (e) {}
+        for (let i8 = 0; i8 < 7; i8++) {
+            let v14;
+            try { v14 = v6(); } catch (e) {}
+            v6.d /= v14;
+        }
+    }
+}
+C3.name;
+const v16 = new C3();
+const v17 = v16?.constructor;
+try { new v17(); } catch (e) {}
+new C3();
+const v20 = new C3();
+function f21(a22) {
+    return [/(?:a?)?U*/dim];
+}
+Object.defineProperty(v20, "constructor", { configurable: true, value: f21 });
+const v25 = v20?.constructor;
+try { new v25(); } catch (e) {}
+14n ^ 14n;
+8 - 8;
+new Uint8Array(8);
+new Uint16Array(256);
+let v38 = 111;
+v38++;
+new Uint32Array(v38);
+const v42 = [-Infinity];
+function f43() {
+    new Float64Array(2534);
+    return 256;
+}
+v42.valueOf = f43;
+class C47 {
+}
+const v48 = new C47();
+v48[Symbol.toPrimitive] = f21;
+const v51 = v42 << v48;
+v51 * v51;

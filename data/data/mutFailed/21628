@@ -1,0 +1,80 @@
+class C3 {
+    10;
+    constructor(a5) {
+        this.fuck = a5;
+        try {
+            const o6 = {
+            };
+            this.fuck(this, o6);
+        } catch(e8) {
+        }
+    }
+    static a;
+    0 = "boolean";
+    d;
+}
+const v9 = new C3(C3);
+const v10 = new C3("boolean");
+function f11(a12) {
+    const v14 = new BigInt64Array();
+    return v14.copyWithin(-9223372036854775808);
+}
+v10[Symbol.toPrimitive] = f11;
+const v19 = new C3(2.2250738585072014e-308);
+v19[Symbol.toPrimitive] = Symbol;
+const v22 = [35967,14,6,9007199254740992,-4096,9,-24709,4,-769612540,9223372036854775807];
+try { v22.reverse(); } catch (e) {}
+const v24 = [7986,4,-4096,2147483649,5,9007199254740991,1916822575];
+v24[Symbol.isConcatSpreadable] = v24;
+const v27 = [-9,-1117411590,-9223372036854775807,65535,-43033,6,-54411];
+try { v27.groupToMap("boolean"); } catch (e) {}
+function f29(a30, a31) {
+    a30.toString = Symbol;
+    try { a30.toLocaleString(); } catch (e) {}
+    const v33 = a31?.__defineGetter__;
+    try { new v33(v22, v19); } catch (e) {}
+    const o43 = {
+        "h": a30,
+        ...a31,
+        "b": a31,
+        [a31]: a30,
+        __proto__: v24,
+        valueOf(a36, a37) {
+            C3 | a37;
+            this[8] = a37 * a37;
+            for (let v40 = 0; v40 < 32; v40++) {
+                v9["p" + v40] = v40;
+            }
+            return this;
+        },
+    };
+    o43[Symbol.isConcatSpreadable] = v33;
+    return o43;
+}
+f29(v22, v19);
+const v47 = f29(2.2250738585072014e-308, v10);
+try { v47.concat(v47); } catch (e) {}
+f29(v10, v9);
+const v50 = [-1.5314324604839498e+308,-1.8081364344875581,-2.2250738585072014e-308,3.0,3.0];
+const v51 = [101.2980265931285,-1.7177856293756712e+307,-1000000.0,-8.49664044843577];
+v51[3] = v51;
+Set.prototype = Set;
+const v53 = new Set();
+const v54 = v53.values();
+try { v54.next(); } catch (e) {}
+function f56(a57, a58, a59, a60) {
+    const v61 = a57?.unshift;
+    try { new v61(v24); } catch (e) {}
+    a57.shift();
+    a57[3] = a57;
+    const o64 = {
+        __proto__: v51,
+    };
+    o64[2];
+    return o64;
+}
+const v66 = f56(v50);
+try { v66.groupToMap(v51); } catch (e) {}
+f56(v51);
+f56(v51);
+gc();

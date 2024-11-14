@@ -1,0 +1,46 @@
+const v5 = new WeakMap(-7n);
+try { v5.has(2n); } catch (e) {}
+new WeakMap();
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a16;
+    } catch(e17) {
+    }
+    try {
+        this.g = WeakMap;
+    } catch(e18) {
+    }
+    try {
+        this.b = WeakMap;
+    } catch(e19) {
+    }
+}
+const v20 = new F11(1n, F11, 2n, 2n);
+const v21 = new F11(1n, v20, -7n, -7n);
+new F11(1n, F11, -7n, 1n);
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v21;
+    } catch(e27) {
+        let v28;
+        try { v28 = e27(e27, e27, 2n); } catch (e) {}
+        a26 && v28;
+        try {
+            this.__proto__ = this;
+        } catch(e30) {
+        }
+    }
+}
+new F23(true, 1n);
+new F23(2n, 1n);
+new F23(v20, 2n);
+function f35(a36, a37) {
+    const o38 = {
+    };
+    return o38;
+}
+with (f35()) {
+    new BigInt64Array(2147483649);
+}

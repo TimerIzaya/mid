@@ -1,0 +1,18 @@
+const t0 = 1073741823n;
+new t0(1);
+new Int32Array(1);
+new Uint8Array(255);
+class C15 {
+}
+const t6 = 255;
+const v16 = new t6();
+function f18(a19, a20) {
+    a20[Symbol.toPrimitive] = Symbol;
+    const o22 = {
+        "g": a20,
+        [C15]: v16,
+    };
+    return Symbol;
+}
+f18(Infinity, f18);
+f18(-1000000000.0, C15);

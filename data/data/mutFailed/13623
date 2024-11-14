@@ -1,0 +1,32 @@
+const t0 = 1024;
+new t0(1000);
+new Int16Array(8);
+new Uint8Array(13);
+function f18() {
+    function f19() {
+        let v20;
+        try {
+        const t0 = 1073741824;
+        v20 = t0(Float32Array, 8, 5, Uint8Array);
+        } catch (e) {}
+        try { v20["flatMap"](8, "flatMap"); } catch (e) {}
+        return 1073741823;
+    }
+    return f19;
+}
+function f23(a24) {
+    a24?.[210];
+}
+Object.defineProperty(Float32Array, "toString", { configurable: true, get: f18, set: f23 });
+function f26(a27, a28, a29) {
+    return a28;
+}
+class C30 extends f26 {
+}
+for (let v31 = 0; v31 < 5; v31++) {
+    Object.defineProperty(C30, Float32Array, { enumerable: true, get: f26 });
+}
+new Int16Array(20);
+for (const v33 in Float32Array) {
+    Math.expm1(v33);
+}

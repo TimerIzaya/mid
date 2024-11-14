@@ -1,0 +1,38 @@
+new Int32Array(0);
+const v5 = new Uint8Array(0);
+function f6() {
+    function F10(a12, a13) {
+        if (!new.target) { throw 'must be called with new'; }
+        a12.trimLeft().strike();
+        const v16 = this.constructor;
+        try { new v16("a", "a"); } catch (e) {}
+    }
+    new F10("-2147483648", "yRMy");
+    return F10;
+}
+v5[Symbol.toPrimitive] = f6;
+const v23 = new Uint8ClampedArray(642);
+class C24 {
+    #valueOf(a26, a27) {
+        let v28;
+        try { v28 = a26(0, v5, a26); } catch (e) {}
+        v28[2] = 642;
+        const o29 = {
+        };
+        new Proxy(v5, v5);
+        return v23;
+    }
+    [v5];
+}
+new C24();
+new C24();
+new C24();
+const o50 = {
+    o(a48) {
+        const o49 = {
+        };
+        o49.execution = Float64Array;
+        o49.execution = o49;
+        return this;
+    },
+};

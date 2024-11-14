@@ -1,0 +1,93 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "a", { value: this });
+    try {
+        this.a = 4294967295;
+    } catch(e3) {
+    }
+    try {
+        this.c = 4294967295;
+    } catch(e4) {
+    }
+    try {
+        this.e = 4294967295;
+    } catch(e5) {
+    }
+}
+function f6(a7) {
+    let v9 = -16n;
+    function f10() {
+        v9 *= -1911645276n;
+        return -1911645276n;
+    }
+    return F0;
+}
+F0[Symbol.toPrimitive] = f6;
+const v13 = new F0();
+const v14 = new F0();
+const v15 = new F0();
+let v17 = "object";
+function f19(a20, a21, a22, a23) {
+    const o37 = {
+        "e": a20,
+        "g": F0,
+        "d": a22,
+        [F0]: v15,
+        ...v15,
+        "b": a21,
+        get h() {
+            super.h;
+            v17 = a21;
+            const v27 = Symbol.iterator;
+            const o36 = {
+                [v27]() {
+                    let v29 = 10;
+                    const o35 = {
+                        next() {
+                            v29--;
+                            const v33 = v29 == 0;
+                            const o34 = {
+                                "done": v33,
+                                "value": v29,
+                            };
+                            return o34;
+                        },
+                    };
+                    return o35;
+                },
+            };
+            return a22;
+        },
+    };
+    return o37;
+}
+f19(v14, "d", v15, "d");
+f19(v17, v17, v13, "d");
+f19(f19, "d", v15, "getOwnPropertySymbols");
+function F44(a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { new a47(); } catch (e) {}
+    function f49(a50, a51, a52, a53) {
+        a51[Symbol.toPrimitive] = f6;
+        const v56 = /(?:a*)+q(?<a>.)/guds;
+        for (let i59 = 0, i60 = 10; i59 < i60; i60--) {
+            v56.compile(a51);
+        }
+        return F44;
+    }
+    function f68() {
+        const v69 = [-6.672391061426152e+307];
+        function f70() {
+            [f70,f70,f70,f70,f70];
+            v69["pop"]();
+            return v69;
+        }
+        return this;
+    }
+    f49.toString = f68;
+    for (let v74 = 0; v74 < 5; v74++) {
+        f49(a46, f49, v74, a46);
+    }
+    %OptimizeFunctionOnNextCall(f49);
+}
+new F44(F44, F44);

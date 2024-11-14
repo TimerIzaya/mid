@@ -1,0 +1,56 @@
+class C3 {
+    [-2.0] = 5;
+    valueOf(a5, a6) {
+        a5.e ||= a6;
+        let v7;
+        try { v7 = a6(a5, 5, this); } catch (e) {}
+        super.f **= v7;
+        try {
+            super.at(a6, 9007199254740991, Reflect);
+        } catch(e10) {
+        }
+        const v11 = this.e;
+        Reflect.construct(v7, [a5], a6);
+        return v11;
+    }
+    #f = 9007199254740991;
+}
+try { new C3(); } catch (e) {}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = v16?.constructor;
+let v18;
+try { v18 = new v17(); } catch (e) {}
+const v19 = new C3();
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v28 = this?.constructor;
+    try { new v28(this, a27, -14); } catch (e) {}
+    try { a27.valueOf(a25, a27); } catch (e) {}
+    try {
+        this.f = -2.0;
+    } catch(e31) {
+    }
+    try {
+        const t34 = -14;
+        t34.c = C3;
+    } catch(e32) {
+    }
+}
+F23.arguments = F23;
+new F23(v16, v19, v19);
+1 * v16;
+let v37 = 1;
+v16[0] = -1;
+try {
+    v19.length = 65536;
+} catch(e39) {
+}
+const v40 = new F23(v16, v15, v15);
+new F23(v15, v40, v15);
+26022 - v18;
+v37 += 8556;
+0.8438860895661086 & 0.8438860895661086;
+const o48 = {
+};
+gc(o48);

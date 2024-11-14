@@ -1,0 +1,45 @@
+const v1 = new Set();
+new Float32Array(v1);
+const v7 = [];
+const v10 = new Array(228);
+class C11 {
+    [Array] = v7;
+    static {
+        function F13(a15, a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a16;
+            } catch(e17) {
+            }
+        }
+        const v18 = new F13(v10, this);
+        new F13(Array, F13);
+        new Array(v18, v10);
+    }
+}
+new C11();
+const v22 = new C11();
+const v23 = new C11();
+let v26;
+try { v26 = v22.o(C11, v23, -1n, v10); } catch (e) {}
+try {
+    const t25 = "7MU";
+    t25.valueOf = v26;
+} catch(e27) {
+}
+const v28 = new Int8Array(3);
+new v28(129);
+function f32(a33, a34, a35, a36) {
+    function f38() {
+        const o39 = {
+            84: arguments,
+        };
+        return a34;
+    }
+    f38();
+    %OptimizeFunctionOnNextCall(arguments);
+    return a35;
+}
+for (let v41 = 0; v41 < 5; v41++) {
+    f32(f32, v41, v41, f32);
+}

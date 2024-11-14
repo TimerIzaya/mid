@@ -1,0 +1,97 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e7) {
+    }
+    try {
+        this.g = "2";
+    } catch(e8) {
+    }
+}
+const v9 = new F3("function", "2");
+new F3("o", "2");
+new F3("2", "o");
+function f13() {
+    return false;
+}
+class C14 {
+    set d(a16) {
+        let {"c":v20,} = a16;
+        try {
+            v20.e = v20;
+        } catch(e21) {
+        }
+    }
+    #f = v9;
+    3881373449 = "2";
+    static 3 = "function";
+}
+new C14();
+const v23 = new C14();
+const v24 = new C14();
+class C25 {
+}
+class C27 {
+    static {
+        let v28 = this;
+        for (let v29 = 0; v29 < 25; v29++) {
+            delete v28?.g;
+            const o33 = {
+                "maxByteLength": 200,
+            };
+            const v35 = new ArrayBuffer(5, o33);
+            new DataView(v35);
+            function f38() {
+                return f38;
+            }
+            const v39 = [601759695];
+            const v40 = [1073741824,1073741823,1376142744,1073741825];
+            function f42(a43, a44, a45, a46) {
+                function f48() {
+                    return a43;
+                }
+                for (let v49 = 0; v49 < 5; v49++) {
+                    try {
+                        C25.__proto__ = Date;
+                    } catch(e50) {
+                    }
+                }
+                for (let v52 = 0; v52 < 32; v52++) {
+                    arguments["p" + v52] = v52;
+                }
+                const v55 = new Int8Array();
+                const v57 = new Uint32Array();
+                const v58 = [v57];
+                function f60(a61, a62) {
+                    return v28;
+                }
+                f60(v29, Uint32Array);
+                try {
+                    new Int8Array(v23, v29, 1073741825);
+                } catch(e69) {
+                }
+                const v70 = v55.buffer;
+                v57.with(5, f60, v9, a45);
+                v28 = a45;
+                ("function")["p"];
+                Object.defineProperty(v35, "b", { configurable: true, get: f13, set: f13 });
+                !"p";
+                new Int8Array(v58);
+                v70.slice(a43, a45);
+                %OptimizeFunctionOnNextCall(f48);
+                try { v40["find"](..."find", a46, ...v39, ...v40, ...522675525n); } catch (e) {}
+                f38(Symbol, BigUint64Array, v28);
+                return arguments;
+            }
+            for (let v80 = 0; v80 < 5; v80++) {
+                f42();
+            }
+        }
+    }
+}
+let v82 = 0;
+while (v82 < 6) {
+    Object.defineProperty(v24, "f", { get: Date });
+    v82++;
+}

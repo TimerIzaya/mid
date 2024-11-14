@@ -1,0 +1,38 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = f0;
+    } catch(e3) {
+    }
+    let v4 = 0;
+    do {
+        v4[0] = f0;
+        f0 * v4;
+        v4++;
+    } while (v4 < 3)
+}
+new F1();
+const v10 = new F1();
+new F1();
+new Array(222);
+let v17 = 54846;
+new Uint8ClampedArray(3417);
+const t21 = -9007199254740990;
+new t21(1909);
+new v10(0);
+for (let v27 = 0; v27 < 25; v27++) {
+    const v28 = [601759695];
+    const v29 = [1073741824,1073741823,1376142744,1073741825];
+    function f30(a31, a32, a33, a34) {
+        v17++;
+        BigUint64Array * 536870887;
+        let v40;
+        try { v40 = v29["find"](..."find", a34, ...v28, ...v29); } catch (e) {}
+        return v40;
+    }
+    for (let v41 = 0; v41 < 5; v41++) {
+        f30();
+    }
+}

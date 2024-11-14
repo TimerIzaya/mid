@@ -1,0 +1,39 @@
+const v3 = [-2147483647n,-2147483647n,-2147483647n];
+const v4 = [-2147483647n,-2147483647n];
+[9007199254740992n,v4];
+function f6(a7, a8, a9) {
+    a9[Symbol.toPrimitive] = f6;
+    const o16 = {
+        get b() {
+            try {
+                this.fuck(3831n, 3831n, 3831n, 3831n);
+            } catch(e15) {
+            }
+            return a9;
+        },
+        [v3]: v4,
+        "d": -2147483647n,
+    };
+    return o16;
+}
+const v17 = f6(v3, v3, v3);
+f6(f6, f6(v17, v17, v4), v3);
+for (let i22 = 0, i23 = 10;
+    i22 < i23;
+    (() => {
+        i23--;
+        let v29 = BigInt64Array;
+        function f30(a31, a32) {
+            return a31;
+        }
+        v29[Symbol.toPrimitive] = f30;
+        const v38 = new v29(3768);
+        let v39 = undefined;
+        const v40 = v29++;
+        const v41 = v40 >> v40;
+        let o42 = {
+        };
+        [,...o42] = v38;
+        v39 = v41;
+    })()) {
+}

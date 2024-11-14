@@ -1,0 +1,58 @@
+const v0 = [1762011022,5,12];
+const v1 = [1024];
+const v2 = [43579,465538741,-2053623419,64172,2,-256];
+class C6 {
+    n(a8, a9) {
+        try {
+            super.o(a9);
+        } catch(e11) {
+        }
+        return v0;
+    }
+    static 3703;
+    constructor(a13, a14, a15, a16) {
+        a14 += a14;
+        let v17 = 10;
+        for (; v17--;) {
+            try { v2.fill(a16); } catch (e) {}
+        }
+    }
+}
+const v23 = new C6(v1, 2.220446049250313e-16, 7.289321165534297e+307, v1);
+const t21 = 2.220446049250313e-16;
+let v24 = new t21(v1, 7.289321165534297e+307, 7.289321165534297e+307, -2.2250738585072014e-308);
+const v25 = new C6(v0, 7.289321165534297e+307, -2.2250738585072014e-308, 7.289321165534297e+307);
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v25;
+    } catch(e33) {
+    }
+    try {
+        this.d = -2.2250738585072014e-308;
+    } catch(e34) {
+    }
+    try {
+        v0.e = v0;
+    } catch(e35) {
+    }
+}
+new F29(v25, -1e-15);
+const v37 = new F29(v23, -1e-15);
+let v38 = new F29(v23, NaN);
+function* f39(a40) {
+    return a40;
+}
+function f41() {
+    const o42 = {
+        "call": f39,
+    };
+    return f41;
+}
+%PrepareFunctionForOptimization(f41);
+v37();
+%OptimizeFunctionOnNextCall(f41);
+let v44 = `f${F29}0O`;
+({"e":v38,"h":v24,...v44} = v38);
+v37[Symbol.toPrimitive];
+f41();

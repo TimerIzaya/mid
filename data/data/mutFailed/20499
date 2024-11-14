@@ -1,0 +1,54 @@
+const v0 = [14372,4096];
+const v1 = [-1024,268435441,0];
+const v2 = [-128,-498083842,4096,1,-646413569,536870888,9007199254740990,479055261,65536];
+function f3() {
+    return v0;
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a7;
+    } catch(e8) {
+    }
+    try {
+        this.g = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F4(v1, v0);
+new F4(v0, v0);
+new F4(v1, v0, f3);
+class C13 {
+    static #m(a15, a16) {
+        v10[a16];
+        try { new a15(); } catch (e) {}
+        return v2;
+    }
+    m(a21, a22, a23) {
+        %VerifyType(v1);
+        for (let v24 = 0; v24 < 32; v24++) {
+            a21["p" + v24] = v24;
+        }
+        return v2;
+    }
+}
+new C13();
+new C13();
+new C13();
+new Float64Array(5);
+new BigUint64Array(-2);
+new Uint8ClampedArray(2);
+class C41 {
+    [720972705n];
+    #p(a43, a44, a45, a46) {
+        super.m();
+    }
+}
+const v48 = new C41();
+const v49 = new C41();
+const v50 = new C41();
+let v51;
+try { v51 = v49(v49, v48, -8n, ...v50); } catch (e) {}
+720972705n | 720972705n;
+((-9932) ** v51) & !-9932;
+~-9932;

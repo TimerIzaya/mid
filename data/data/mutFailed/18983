@@ -1,0 +1,62 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        function f3(a4) {
+            try {
+                this.fuck(true, /T[\cz]/gvdmy, F0);
+            } catch(e8) {
+            }
+            return this;
+        }
+        return f3;
+    }
+    Object.defineProperty(this, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f2 });
+    try {
+        this.g = -1;
+    } catch(e12) {
+    }
+    try {
+        this.a = -1;
+    } catch(e13) {
+    }
+}
+const v14 = new F0();
+const v15 = new F0();
+const v16 = new F0();
+v16.fuck = v14;
+class C17 {
+    [v16] = v15;
+    e;
+    constructor(a19) {
+        this.__proto__;
+        function f21() {
+            return a19;
+        }
+        try {
+            v16.fuck(v15, 2.0, 2.0, 2.0);
+        } catch(e24) {
+        }
+    }
+}
+new C17(v15);
+const v26 = new C17(C17);
+new C17(v15);
+function f28() {
+    return v14;
+}
+v26[4] = F0;
+const v29 = [9007199254740991,65535,-14840];
+[4,16,11,-420053309,-9007199254740990,1496579989,876766876];
+[536870888,-52597,5,268435456];
+[-5.0,1.632623043012467e+308,1.0];
+[-3.0,-4.0,0.5739146091439589,-3.044814288003351e+307,1000000000.0,3.0,-656871.958939069,1.7976931348623157e+308,0.9962397222244552,2.2250738585072014e-308];
+[0.4642413109230935,-2.220446049250313e-16,117356.18493939424,-1e-15];
+function f39() {
+    v29[268435456];
+    function f41() {
+        return 0.38518518522397727;
+    }
+    return f41;
+}
+Symbol.toString = f39;
+Symbol.for(Symbol);

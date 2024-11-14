@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 9007199254740992;
+    } catch(e3) {
+        if (this < F0) {
+            var h = 9007199254740992;
+        } else {
+            try {
+                new F0();
+            } catch(e6) {
+            }
+        }
+    }
+    try {
+        this.d = 9007199254740992;
+    } catch(e7) {
+    }
+}
+const v8 = new F0();
+const v9 = new F0();
+new F0();
+class C11 extends F0 {
+    #valueOf(a13, a14) {
+        let v15;
+        try { v15 = C11(a13, C11, v9, a13); } catch (e) {}
+        let v16;
+        try { v16 = new F0(v9, v8, this, this, ...v15, a14); } catch (e) {}
+        return v16;
+    }
+    static #valueOf(a18, a19) {
+        const v20 = super.e;
+        try {
+            v8.length = 4282344962;
+        } catch(e22) {
+        }
+        return v20;
+    }
+    static #f;
+    static g;
+    [v8];
+}
+new C11();
+new C11();
+new C11();
+new Int32Array(3);
+new Int8Array(0);
+new Float64Array(67);
+/[tlD]/vdims;

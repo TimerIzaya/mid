@@ -1,0 +1,21 @@
+const v3 = [-1.7688701875050267e+308,1000000000.0,-Infinity,8.354932605827223,0.2107218235711794,4.0,-2.2250738585072014e-308,-5.005035631432966,-1e-15];
+const v4 = v3 && v3;
+v4["toLocaleString"]("toLocaleString", v3);
+%VerifyType("toLocaleString");
+let {"length":v7,} = v4;
+[-9.475665611475527e+307,0.0,NaN,5.707533549607823e+307,-1e-15,345174.5164680779];
+[-4.285663001103906,Infinity,0.2548366459171413,-454.25127736563377];
+new WeakMap();
+new Uint8ClampedArray(256);
+new Uint32Array(1389);
+new Uint16Array(3189);
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    a26 % a26;
+    const v29 = this.constructor;
+    v29.bind(a26, F24, this, F24);
+    try { new v29(); } catch (e) {}
+}
+const v32 = new F24();
+const t19 = v32.constructor;
+new t19();

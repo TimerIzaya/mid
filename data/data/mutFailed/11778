@@ -1,0 +1,83 @@
+new WeakSet();
+new Uint8ClampedArray(1020);
+new Int32Array(10);
+const v10 = new Uint8Array(4);
+function f11() {
+    return v10;
+}
+new v10(679);
+new Uint8Array(8);
+const t9 = 9;
+new t9(9);
+function f21() {
+    const o30 = {
+        toString(a26, a27) {
+            try {
+                super.getMinutes();
+            } catch(e29) {
+            }
+            return "object";
+        },
+        "b": "boolean",
+        "g": Int32Array,
+        128: 679,
+        "a": 1000000000000.0,
+        "c": "boolean",
+        __proto__: "boolean",
+        "h": 1000000000000.0,
+    };
+    return o30;
+}
+const v31 = f21();
+const v32 = f21();
+const v33 = f21();
+v33[128];
+function F36(a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    a38[128] = a38;
+    try {
+        this.f = a38;
+    } catch(e39) {
+    }
+    try {
+    } catch(e40) {
+    }
+    try {
+    } catch(e41) {
+    }
+}
+F36.e = F36;
+new F36(v32);
+new F36(v33);
+const v44 = new F36(v32);
+function f45(a46, a47, a48) {
+    const o55 = {
+        get a() {
+            const o53 = {
+                "execution": "async",
+                "type": "major",
+            };
+            gc(o53);
+        },
+    };
+    o55[2074850330] = o55;
+    return o55;
+}
+const v56 = f45(v33, v33, v31);
+f45(v56, f45(v32, v32, v56), v32);
+function F59(a61, a62, a63) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v64 = this?.constructor;
+    try { new v64(F59, F59, f21); } catch (e) {}
+    a62.g = a62;
+    try {
+        this.d = a63;
+    } catch(e66) {
+    }
+    try {
+    } catch(e67) {
+    }
+}
+const v68 = new F59(v33, v31, v44);
+new F59(v33, v56, v68);
+try { Uint32Array.bind(Uint32Array); } catch (e) {}

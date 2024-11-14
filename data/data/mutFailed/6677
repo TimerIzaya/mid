@@ -1,0 +1,24 @@
+try { Uint8ClampedArray.call(-31002); } catch (e) {}
+new Uint8ClampedArray(256);
+try { Uint8ClampedArray.entries(); } catch (e) {}
+const v10 = new Int16Array(1853, Uint8ClampedArray, Int16Array);
+v10[217];
+new Uint16Array(371);
+class C16 {
+}
+try { ("b").call(12); } catch (e) {}
+[-1000.0,C16];
+try { Math.log2(1853); } catch (e) {}
+const v22 = Math.round();
+v22 - v22;
+async function f24(a25, a26, a27) {
+    a27 - f24;
+    await v22;
+    return f24;
+}
+const t18 = 371;
+t18(Math, "b", Uint16Array, 12);
+const o32 = {
+};
+o32.e = v10;
+gc(o32);

@@ -1,0 +1,35 @@
+new Date();
+new Uint16Array(-5n);
+const v10 = new BigUint64Array(8);
+new Uint8ClampedArray(3750);
+class C14 {
+}
+const v15 = new C14();
+function f16(a17, a18) {
+    function f19() {
+        return f16;
+    }
+    class C20 extends a17 {
+    }
+    class C21 extends C20 {
+    }
+    function f22(a23, a24, a25, a26) {
+        try { a23(C21); } catch (e) {}
+        let v28 = a24 & f22;
+        new Map();
+        v28++;
+        const o35 = {
+            n(a33, a34) {
+                return this;
+            },
+        };
+        return v15;
+    }
+    for (let v36 = 0; v36 < 500; v36++) {
+        f22();
+    }
+    return f22;
+}
+Object.defineProperty(v15, "constructor", { value: f16 });
+const v38 = v10.constructor;
+v38(v38, v15);

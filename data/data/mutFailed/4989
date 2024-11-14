@@ -1,0 +1,35 @@
+class C3 {
+    static #b = 1000000000000.0;
+    n(a5) {
+        class C6 {
+            h;
+            [a5];
+        }
+        const t7 = 1000000000000.0;
+        new t7();
+        new C6();
+        new C6();
+        return 1000000000000.0;
+    }
+    static [9007199254740992] = 1000.0;
+    static #a = 1000.0;
+    #e;
+}
+try { new C3(); } catch (e) {}
+const v11 = new C3();
+const t19 = 1000.0;
+new t19();
+new C3();
+new Uint8ClampedArray(0);
+5 * 5;
+new Uint16Array(5);
+2351 < 2351;
+try { new Int16Array(v11, v11, v11); } catch (e) {}
+new Int16Array(2351);
+function f26() {
+    [8n];
+    return Uint16Array;
+}
+%PrepareFunctionForOptimization(f26);
+const v29 = f26();
+try { v29.group(Uint8ClampedArray); } catch (e) {}

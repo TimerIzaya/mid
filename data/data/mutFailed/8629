@@ -1,0 +1,67 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        n() {
+            delete this?.a;
+            return 8;
+        },
+        "a": f0,
+        get d() {
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            const v9 = f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            f0();
+            return v9;
+        },
+    };
+    return o12;
+}
+const t21 = f1();
+t21[f1] = f1;
+const v14 = new f1();
+new Uint8Array(9);
+new Int32Array(1850);
+new Uint32Array(1000);
+f1();
+const v25 = f1();
+const v27 = new Map();
+let v28 = 129;
+new Float32Array(v28);
+new Float64Array(3373);
+let v35 = 65537;
+let v36 = 72227221;
+const v37 = ++v28;
+--v36;
+v35++;
+const v40 = v36 - v35;
+const v41 = Math.abs(v37);
+f0 & v40;
+new Int8Array(193);
+const v48 = new Int16Array(1000);
+const v53 = new BigInt64Array(1000);
+class C54 extends Float64Array {
+    constructor(a56, a57, a58) {
+        super(v27, 1000, 1850);
+        function F59(a61, a62, a63, a64) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = a58;
+            } catch(e65) {
+            }
+        }
+        const v66 = new F59(a56, v36, v41, v14);
+        const v67 = new F59(v66, 3373, a56, v25);
+        new F59(v67, a56, 3373, a57);
+    }
+    /*
+    constructor(a70, a71, a72, a73) {
+        super(v48);
+    }
+    */
+    [65] = Float64Array;
+}
+new C54();
+v48.toLocaleString(BigInt64Array, v53);

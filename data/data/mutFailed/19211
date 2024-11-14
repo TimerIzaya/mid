@@ -1,0 +1,52 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v0;
+    } catch(e3) {
+    }
+}
+new F1();
+new F1();
+function f6() {
+}
+%OptimizeFunctionOnNextCall(f6);
+f6();
+new F1();
+const v16 = new Int8Array(16);
+new Float32Array(1435);
+Object.defineProperty(v16, 129, { writable: true, enumerable: true, get: f6, set: f6 });
+try {
+    f6();
+} catch(e26) {
+}
+new Float64Array(564);
+function f30(a31, a32, a33) {
+    function f35(a36) {
+        class C37 extends f30 {
+            static [a31];
+            c;
+            g = a33;
+        }
+        new C37();
+        new C37();
+        new C37();
+    }
+    this.onmessage = f35;
+}
+const o43 = {
+    "type": "function",
+};
+new Worker(f30, o43);
+const v45 = [-5];
+const t41 = [298054943,4294967295,-268435456,31288,2147483649,-1024,-1073741824,-8358,268435439,2147483647];
+t41[5] = v45;
+("number").trimEnd();
+function f48() {
+}
+f48.arguments = f48;
+const o50 = {
+    "type": "function",
+};
+const v51 = new Worker(f48, o50);
+try { v51.terminateAndWait(); } catch (e) {}

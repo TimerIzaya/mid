@@ -1,0 +1,58 @@
+function F1(a3, a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+Object.defineProperty(Int32Array, 2, { writable: true, configurable: true, enumerable: true, value: F1 });
+const v7 = new Int32Array(Int32Array);
+const o8 = {
+};
+function f9(a10, a11) {
+    try { a10(1271, Int32Array, Int32Array, a10, o8); } catch (e) {}
+    ({"length":F1,...a10} = v7);
+    return a11;
+}
+o8.constructor = f9;
+o8.constructor.isSealed(v7);
+for (let v16 = 0; v16 < 5; v16++) {
+    function f17() {
+        for (let [i20, i21] = (() => {
+                switch (f17) {
+                }
+                return [0, 10];
+            })();
+            i21 << i21, i20 < i21;
+            i20++, i21--) {
+        }
+        return v16;
+    }
+    f17();
+    %OptimizeFunctionOnNextCall(f17);
+}
+new Int8Array(1271);
+new Float64Array(0);
+Math.tan();
+Object.hasOwn(16);
+new Uint16Array(3361);
+new Array(6);
+function f46() {
+    for (let v47 = 0; v47 < 5; v47++) {
+        const v48 = v47 / v47;
+        function f49() {
+            class C51 extends Float64Array {
+            }
+            const v52 = new C51();
+            const v54 = [v52];
+            const o55 = {
+                "arguments": v54,
+                "type": "function",
+            };
+            return f49;
+        }
+        f49.d = v48;
+        f49.d = f49;
+    }
+    return f46;
+}
+%PrepareFunctionForOptimization(f46);
+f46();
+%OptimizeFunctionOnNextCall(f46);
+f46();

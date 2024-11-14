@@ -1,0 +1,79 @@
+function f9() {
+    return 536870889;
+}
+function f16() {
+    return 2720;
+}
+f16.valueOf = f16;
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v21 = this.constructor;
+    try { new v21(a19, 256); } catch (e) {}
+    -a19;
+    a20--;
+    this.h = f16;
+}
+let v25 = new F17(65537, f16);
+const v26 = new F17();
+v26.toString = f16;
+class C27 extends F17 {
+    #h;
+    3120 = F17;
+    #g = v26;
+    valueOf(a29, a30, a31) {
+    }
+    [v26] = 256;
+}
+const o32 = {
+    "apply": f9,
+    "construct": f16,
+    "deleteProperty": f9,
+    "get": f16,
+    "getOwnPropertyDescriptor": f9,
+    "getPrototypeOf": f16,
+    "has": f9,
+    "isExtensible": f16,
+    "preventExtensions": f9,
+    "set": f9,
+    "setPrototypeOf": f9,
+};
+const v34 = new Proxy("NEGATIVE_INFINITY", o32);
+new C27();
+new C27();
+new C27();
+const v40 = new Uint8ClampedArray(2248);
+new Uint16Array(16);
+const v46 = new BigUint64Array(793);
+255 << v46;
+try { v34.toString(v40, 536870888n, "NEGATIVE_INFINITY", -17606); } catch (e) {}
+v25 ||= v25;
+class C52 {
+}
+const v53 = new C52();
+function F54(a56, a57, a58) {
+    if (!new.target) { throw 'must be called with new'; }
+    %VerifyType(a57);
+    new Uint8Array(3185);
+    new BigInt64Array(3273);
+    new Int16Array(257);
+}
+const v68 = new F54(C52, v53, F54);
+const v69 = [134133844,-339370636,65535,-4294967295,536870888,-324130953,536870912,268435439];
+function f70(a71, a72, a73, a74) {
+    function f75() {
+        const v76 = v69.length;
+        const v77 = v68.__lookupSetter__;
+        const v78 = v76 >>> v76;
+        a72[v77 & (v78 % v78)] += v53;
+        return F54;
+    }
+    f75();
+    %OptimizeFunctionOnNextCall(f75);
+    return f75;
+}
+const v82 = f70(v69, f70);
+("NEGATIVE_INFINITY")[2658];
+new Uint8Array(1024);
+new Uint32Array(5);
+new Uint8Array(12);
+f70(f70, f70(v69, v82));

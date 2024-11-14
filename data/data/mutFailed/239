@@ -1,0 +1,86 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = 10000;
+        t3.c = 10000;
+    } catch(e3) {
+    }
+    try {
+        this.g = 10000;
+    } catch(e4) {
+    }
+    try {
+        this.b = 10000;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new F0();
+const v14 = new Float64Array(v7);
+new v14(25);
+new BigUint64Array(512);
+BigUint64Array <= 0.7221600461335677;
+[255,14,-2147483648,-65537,-9223372036854775808];
+const v4 = [-43630,2147483649,22446,-15153,-268435456];
+const v5 = [9007199254740990,4294967297];
+let v6;
+try { v6 = v5.findLastIndex(-0.0); } catch (e) {}
+const v7 = [-2.2250738585072014e-308,0.06025183392231159,2.0,-1.5244470735330644,2.4779179669660003,2.2250738585072014e-308];
+[2.220446049250313e-16,2.0,0.5482270709245335,-5.463978323250663,-1000000000.0,-1.7106463145673823e+308,0.4787729865570276,0.0];
+let {"a":v9,"length":v10,} = v7;
+try {
+    const v11 = v7.pop();
+    v11 === v11;
+} catch(e13) {
+}
+const v14 = [5.0,-823.7056886776433];
+try { v14.map(-0.0); } catch (e) {}
+const v18 = new Int8Array(v10);
+new Uint8ClampedArray(4096);
+new Float64Array(2516);
+1000.0 < 1000.0;
+let v27 = -4096;
+v27--;
+class C29 {
+    constructor(a31, a32) {
+        const v33 = this?.constructor;
+        try { new v33(v5, v5); } catch (e) {}
+        a32.d = a32;
+        const v35 = v18?.constructor;
+        try { new v35(a31, a31); } catch (e) {}
+        a31 | a31;
+        a32.name;
+        const v39 = super.d;
+        a31?.[a32];
+        try {
+            a31[6] = v39;
+        } catch(e41) {
+            e41.stack;
+            e41.b = e41;
+        }
+    }
+    #n(a44, a45) {
+    }
+}
+const v46 = new C29(v27, C29);
+v46.length = v9;
+const v47 = new C29(1000.0, v46);
+v47.e = v47;
+const v48 = new C29(C29, v6);
+v48.b = v48;
+function F49(a51, a52, a53, a54) {
+    if (!new.target) { throw 'must be called with new'; }
+    a51[6] = a51;
+    (1000.0).prototype;
+    a54.a = a54;
+    const v56 = a54.constructor;
+    try { new v56(a53, a54); } catch (e) {}
+    new v56(a51, v4);
+}
+try { new F49(C29, 1000000000000.0, 1000.0, -1000000000.0); } catch (e) {}
+const v60 = new F49(C29, C29, v47, v47);
+const v61 = new F49(v60, v47, v60, v47);
+const v62 = new F49(v48, v47, v61, v48);
+const v63 = v62?.constructor;
+try { new v63(v18, v61, Uint8ClampedArray, v61); } catch (e) {}

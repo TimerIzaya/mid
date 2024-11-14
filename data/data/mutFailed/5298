@@ -1,0 +1,83 @@
+let v2 = 4;
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f11() {
+        return v2;
+    }
+    function f12(a13) {
+        new Float32Array();
+    }
+    Object.defineProperty(this, "c", { writable: true, enumerable: true, get: f11, set: f12 });
+    try {
+        a9.h = a9;
+    } catch(e16) {
+    }
+    try {
+        this.c = a9;
+    } catch(e17) {
+    }
+}
+new F6(12, v2, v2);
+const v19 = new F6(4294967295, 12, -65535);
+const v20 = new F6(v19, v2, 0);
+[[4294967295]];
+[v19,v2];
+[0.4682077101611182,-180843.87561025552,-1000000000.0,-112.29544483774316,-441165.4052340153];
+[799298.8557884707,0.6789216306018517,0.6111162627936181,0.4174128514181559,0.020048842439242542,-2.220446049250313e-16,1.0,1.7976931348623157e+308,-1.0];
+const t22 = [1000000000000.0,Infinity,0.2943133963716891,268.8113218630483];
+t22.length /= 1;
+const v28 = Symbol.iterator;
+const o37 = {
+    [v28]() {
+        const o36 = {
+            next() {
+                v2--;
+                const v34 = 10 == 10;
+                const o35 = {
+                    "done": v34,
+                    "value": 10,
+                };
+                return o35;
+            },
+        };
+        return v28;
+    },
+};
+function f38() {
+    const o43 = {
+        [-1000000.0]: 0.0,
+        set e(a42) {
+        },
+    };
+    return f38;
+}
+function f44(a45) {
+    function F46(a48, a49, a50, a51) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = a50;
+        } catch(e52) {
+        }
+        try {
+            this.b = a50;
+        } catch(e53) {
+        }
+        try {
+            this.e = a45;
+        } catch(e54) {
+        }
+    }
+    const v55 = new F46(a45, 0, v19, v20);
+    const v56 = new F46(a45, -65535, v55, v20);
+    const v57 = new F46(a45, 4294967295, v56, v55);
+    return v57;
+}
+f38[Symbol.toPrimitive] = f44;
+f38();
+const v61 = f38();
+/4VL[a-zA-Z0-9]/uimy;
+const v63 = /ufoo(?!bar)baz/ums;
+class C64 {
+    static [f38] = v61;
+}
+v63[-2] &&= o37;

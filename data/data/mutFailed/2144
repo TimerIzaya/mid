@@ -1,0 +1,72 @@
+new WeakSet();
+function f5(a6) {
+    const o44 = {
+        [a6](a8, a9, a10, a11) {
+            class C15 {
+            }
+            class C16 extends C15 {
+                static set b(a18) {
+                    class C28 {
+                        #a;
+                        constructor(a30, a31, a32) {
+                            a31.#a;
+                        }
+                    }
+                }
+            }
+            let v43;
+            try { v43 = this.m(a10); } catch (e) {}
+            return v43;
+        },
+        1073741823: WeakSet,
+        "e": a6,
+        [a6]: 4.0,
+        "b": a6,
+        "g": 538674.1182176461,
+        "c": 4.0,
+    };
+    return o44;
+}
+f5(-1000.0);
+f5(538674.1182176461);
+const v47 = f5(538674.1182176461);
+class C48 extends f5 {
+    #o(a50, a51, a52) {
+        const v55 = -Infinity;
+        Math.exp(this);
+        const v57 = Math.cosh(v55);
+        v47 / a52;
+        return a52 | v57;
+    }
+}
+const t41 = -1000.0;
+new t41();
+class C63 {
+    ["toString"];
+    get c() {
+        try {
+            f5(536870889);
+        } catch(e66) {
+        }
+        return this;
+    }
+    static #n(a68, a69) {
+    }
+    static p(a71, a72) {
+        super.b = 536870889;
+        function f73() {
+            return C63;
+        }
+    }
+}
+new C63();
+new C48();
+new C48();
+function F77(a79, a80, a81, a82) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v83 = this.constructor;
+    try { new v83(); } catch (e) {}
+    typeof a79;
+}
+const v87 = new F77();
+new F77(F77, v87, F77, v87);

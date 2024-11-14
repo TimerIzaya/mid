@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.d = 2147483648;
+    } catch(e4) {
+    }
+    try {
+        this.a = 2147483648;
+        const o5 = {
+        };
+        new Proxy(F0, o5);
+        const o11 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o11);
+    } catch(e13) {
+    }
+}
+new F0();
+const v15 = new F0();
+const v16 = new F0();
+class C20 {
+    d = 49572;
+    constructor(a22, a23, a24, a25) {
+        a23.e;
+        try { a25(); } catch (e) {}
+        super[a22];
+        try {
+            a24.__proto__ = a22;
+        } catch(e29) {
+        }
+    }
+}
+const v30 = new C20(C20, C20, v16, 49572);
+const v31 = new C20(v30, v16, v15, v30);
+new C20(v15, v31, C20, 49572);
+const v34 = new BigInt64Array();
+const o37 = {
+    "maxByteLength": 51,
+};
+const v39 = new ArrayBuffer(51, o37);
+new Float64Array(v39);
+for (const v42 in v34) {
+}

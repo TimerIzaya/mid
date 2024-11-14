@@ -1,0 +1,39 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.e = f0;
+    } catch(e4) {
+    }
+    try {
+        this.c = f0;
+    } catch(e5) {
+    }
+    F1 <<= F1;
+    -4294967295n == 2147483648n;
+}
+const v10 = new F1();
+v10 >> f0;
+let v15 = ~13;
+++v15;
++v15;
+const v18 = new F1();
+const v19 = new F1();
+for (const v21 in v18) {
+    v19[4294967295] = v21;
+    new Float64Array(256);
+    new Uint16Array(10);
+    new Int8Array(9);
+}
+for (let v35 = 0; v35 < 69; v35++) {
+    v19[v35];
+}
+v18.d;
+delete v10[128];
+new Array(237);
+gc(128n);

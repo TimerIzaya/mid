@@ -1,0 +1,49 @@
+function f0() {
+}
+function f1() {
+    const o7 = {
+        ...f0,
+        set g(a3) {
+            super[this] = a3;
+        },
+        [f0]: f0,
+        "c": f0,
+        "e": f0,
+        "d": f0,
+    };
+    return o7;
+}
+f1();
+f1();
+f1();
+function f16(a17) {
+    Math.cos(2018);
+}
+Object.defineProperty(BigUint64Array, 0, { writable: true, set: f16 });
+BigUint64Array[0] = BigUint64Array;
+const v20 = new BigUint64Array(2018);
+try { v20.some(-1000000000.0); } catch (e) {}
+BigUint64Array[Symbol.toPrimitive] = f0;
+try { new BigUint64Array(BigUint64Array, f1, v20); } catch (e) {}
+const v27 = new BigUint64Array(788);
+Object.defineProperty(v27, "toString", { writable: true, enumerable: true, value: f1 });
+try { v27.at(BigUint64Array); } catch (e) {}
+1000 != 1000;
+new Uint16Array(1000);
+const v33 = /foo(?<=bar)baz/s;
+const v34 = /ZMq/vy;
+function f36(a37) {
+    Math.sqrt(v27);
+    Math.random();
+    const v43 = v27 ^ -8;
+    a37 >> a37;
+    const v45 = v43 | -15646;
+    Math.tanh(v43);
+    -8 * v45;
+    return 1000;
+}
+Symbol[Symbol.toPrimitive] = f36;
+const v50 = Symbol?.constructor;
+try { new v50(Symbol); } catch (e) {}
+Object.defineProperty(v34, Symbol.species, { value: f1 });
+v34[Symbol.species] = v33;

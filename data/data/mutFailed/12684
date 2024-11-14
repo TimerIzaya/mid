@@ -1,0 +1,31 @@
+const v1 = new WeakSet();
+const v5 = v1 == 15n;
+const v8 = new Uint32Array(257);
+try { v8.values(); } catch (e) {}
+const t4 = 15n;
+const v12 = new t4(512);
+const v15 = new Uint8ClampedArray(2666);
+function f16() {
+    const o20 = {
+        ...1.0,
+        set b(a19) {
+        },
+    };
+    return Int8Array;
+}
+const v21 = f16?.toString;
+try { new v21(); } catch (e) {}
+const v23 = v8[4];
+v23 << v23;
+v5[v12] = 2666;
+let v25;
+try { v25 = v12.map(v23); } catch (e) {}
+const v27 = [v25];
+try { v27.reverse(); } catch (e) {}
+const v29 = [v15,257,v23];
+const v30 = [v29,15n,v29,f16,Int8Array];
+try { v30.entries(); } catch (e) {}
+for (let v32 = 0; v32 < 5; v32++) {
+    f16();
+    %OptimizeFunctionOnNextCall(257);
+}

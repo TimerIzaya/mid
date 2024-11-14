@@ -1,0 +1,50 @@
+let v0 = 115;
+new Int8Array(v0);
+new Date(4096, v0, Int8Array, v0);
+const v8 = new Uint8Array(255);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = Int8Array;
+    } catch(e13) {
+    }
+}
+new F9(4096, v0);
+new F9(4096, 4096);
+new F9(v0, v0);
+new Uint8Array(2);
+new BigUint64Array(16);
+new Int8Array(4096, Int8Array, 4096);
+let v26 = 0;
+while (v26 < 2) {
+    const o32 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o32, "minor", "minor");
+    v26++;
+}
+function f35() {
+    Object.defineProperty(v8, f35, { configurable: true, enumerable: true, get: f35, set: f35 });
+    (42789 >>> 16) - 16;
+    BigUint64Array.asin(16);
+    const v41 = 42789 && 42789;
+    const v42 = v0--;
+    BigUint64Array.min(v41);
+    BigUint64Array.startsWith(v42, v0);
+    const o49 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o49);
+    const o54 = {
+        ["8"](a52, a53) {
+        },
+    };
+    return o54;
+}
+%PrepareFunctionForOptimization(f35);
+f35();
+f35();
+%OptimizeFunctionOnNextCall(f35);
+f35();

@@ -1,0 +1,52 @@
+class C3 {
+    set h(a5) {
+        ({"length":a5,} = "-10244");
+        a5 === this;
+    }
+    [1.7976931348623157e+308] = -536870912;
+    static [-536870912];
+    static #c = "-10244";
+    p(a8, a9) {
+        const t9 = a9?.[12];
+        t9[7] ||= -536870912;
+        return -1000.0;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+const v17 = [-536870912,C3,C3,v15,v15];
+const v18 = [v14,v17,v17];
+const v19 = [v18,v18,v18,C3];
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a22;
+    } catch(e26) {
+    }
+    try {
+        this.d = a25;
+    } catch(e27) {
+    }
+    try {
+        this.g = a22;
+    } catch(e28) {
+    }
+}
+new F20(v14, v17, v19, v16);
+const v30 = new F20(v14, v17, v18, v18);
+new F20(v16, v17, v18, v14);
+function F32(a34, a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a34;
+    } catch(e38) {
+    }
+}
+const v39 = new F32(v14, v30, v14, v19);
+new F32(v16, v39, v15, v17);
+new v14(v15, "-10244", v14, v19);
+function f42() {
+    return f42;
+}
+f42 <= 8n;

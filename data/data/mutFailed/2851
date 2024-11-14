@@ -1,0 +1,43 @@
+const v4 = new WeakMap();
+function f5() {
+    return v4;
+}
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 1466077456n;
+    } catch(e11) {
+    }
+    try {
+        this.d = a9;
+    } catch(e12) {
+    }
+}
+new F6(49089n, -1073741824n, 49089n);
+new F6(1466077456n, -1073741824n, 1466077456n);
+new F6(1466077456n, 1466077456n, 1466077456n);
+class C17 {
+}
+const v19 = new C17();
+Object.defineProperty(v19, "valueOf", { enumerable: true, value: Symbol });
+new C17();
+const v21 = [v19];
+35530n & 35530n;
+f5();
+Math.acosh(0.527019773325983);
+Math.min(-5851 + 35530n);
+Math.imul(-5851, -536870912);
+new Float64Array();
+try { Uint8Array.from(v21); } catch (e) {}
+function f37(a38, a39) {
+    a39.name;
+    const v43 = Array();
+    function f44() {
+    }
+    function f45(a46) {
+        gc();
+    }
+    Object.defineProperty(v43, 0, { configurable: true, enumerable: true, get: f44, set: f45 });
+    v43.unshift(3);
+}
+new Promise(f37);

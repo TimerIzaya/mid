@@ -1,0 +1,45 @@
+if ("9N") {
+    try {
+    const t0 = "5";
+    t0("5", "5", "5", "5", "9N");
+    } catch (e) {}
+} else {
+    try {
+    const t0 = "5";
+    t0("5", "9N", "5");
+    } catch (e) {}
+}
+function f5(a6) {
+    const o17 = {
+        [a6]: a6,
+        get e() {
+            let v10 = -5.785545068190507;
+            v10 = a6[4.0];
+            const o15 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o15);
+            return "5";
+        },
+        "c": "9N",
+        "h": a6,
+        "f": a6,
+        __proto__: "9N",
+        "b": "5",
+    };
+    return o17;
+}
+const v18 = f5("6");
+f5("5");
+f5("5");
+new Uint8ClampedArray(3333);
+new Uint32Array(3);
+new BigInt64Array(104);
+function f36() {
+    return 536870888n;
+}
+const v37 = [-55841,536870912,65536,-1024,886617036,3];
+const v38 = +-1n;
+try { f36(v38, v38, ...Uint8ClampedArray, ...3333, v18, -1n); } catch (e) {}
+v37.length = 1;

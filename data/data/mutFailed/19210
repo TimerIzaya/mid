@@ -1,0 +1,41 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = this;
+    try {
+        this.b = v0;
+    } catch(e3) {
+    }
+}
+new F1();
+new F1();
+function f6() {
+}
+%OptimizeFunctionOnNextCall(f6);
+f6();
+new F1();
+new Int8Array(16);
+new Float32Array(1435);
+new Float64Array(564);
+function f25(a26, a27, a28) {
+    function f30(a31) {
+    }
+    this.onmessage = f30;
+}
+const o34 = {
+    "type": "function",
+};
+new Worker(f25, o34);
+const v36 = [-5];
+const t29 = [298054943,4294967295,-268435456,31288,2147483649,-1024,-1073741824,-8358,268435439,2147483647];
+t29[5] = v36;
+("number").trimEnd();
+function f39() {
+}
+f39.arguments = f39;
+const o41 = {
+    "type": "function",
+};
+o41.arguments = f25;
+const v42 = new Worker(f39, o41);
+try { v42.terminateAndWait(); } catch (e) {}

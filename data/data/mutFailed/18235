@@ -1,0 +1,28 @@
+class C3 {
+    [25814] = 25814;
+    set h(a5) {
+        function F6(a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = 4;
+            } catch(e9) {
+            }
+            try {
+                this.b = a5;
+            } catch(e10) {
+            }
+            try {
+                this.a = 25814;
+            } catch(e11) {
+            }
+        }
+        new F6(C3);
+        new C3(255);
+        new F6(a5);
+    }
+}
+const v15 = new C3();
+const v16 = new v15();
+new C3();
+new Int32Array(25814);
+Reflect.construct(Int32Array, [v16]);

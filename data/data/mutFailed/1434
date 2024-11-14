@@ -1,0 +1,41 @@
+new Float32Array(5);
+~1000;
+const v6 = new Float64Array(1000);
+let v7 = 0;
+do {
+    const o10 = {
+        "maxByteLength": 268435441,
+    };
+    const v12 = new ArrayBuffer(7, o10);
+    new Int32Array(v12);
+    v7++;
+} while (v7 < 5)
+new Uint16Array(1708);
+function f21(a22, a23, a24, a25) {
+    a22 + a22;
+    a23 !== a23;
+    a25 / a25;
+    const o47 = {
+        "a": Uint16Array,
+        valueOf(a30, a31, a32, a33) {
+            for (let v34 = 0; v34 < 32; v34++) {
+                this["p" + v34] = v34;
+            }
+            return a25;
+        },
+    };
+    const v48 = o47?.a;
+    try { new v48(o47, o47, 5); } catch (e) {}
+    return o47;
+}
+const v50 = f21(1000, 5, 1708, 1708);
+const v51 = v50?.a;
+try { new v51(1708, v50, 1708); } catch (e) {}
+f21(Float64Array, 1708, 1708, 5);
+f21(v6, 1708, 1708, 1708);
+function f55() {
+    try { Reflect.preventExtensions(Reflect); } catch (e) {}
+    Reflect.construct(Symbol, [Reflect,Reflect,Reflect,Reflect,Reflect]);
+    return f55;
+}
+try { f55(); } catch (e) {}

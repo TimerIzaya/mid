@@ -1,0 +1,75 @@
+class C3 {
+    constructor(a5) {
+        class C6 {
+            #g;
+            3899 = "undefined";
+            static 2147483647;
+        }
+        new C6();
+        new C6();
+        new C6();
+    }
+    static #h;
+    b = -9;
+    c;
+    [-9] = -9;
+    #a;
+    ["o"] = "undefined";
+    #e;
+    #d;
+}
+function f10() {
+    return "o";
+}
+const o14 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o14);
+const v16 = new C3(-9);
+const v17 = new C3("o");
+const v18 = new C3(C3);
+class C19 extends C3 {
+    static c;
+    6 = "o";
+    n(a21, a22, a23) {
+        var f = this;
+        super[v18] = v18;
+        const v25 = new C3(this);
+        const v26 = ("undefined")[0];
+        try {
+            v25.valueOf = v26;
+        } catch(e27) {
+        }
+        return this;
+    }
+}
+const v28 = new C19();
+const v29 = new C19();
+const v30 = new C19();
+class C31 {
+    d = C19;
+    constructor(a33, a34, a35) {
+        const v36 = super[a33];
+        Object.defineProperty(v36, v16, { writable: true, enumerable: true, value: v36 });
+        try {
+            a35.b = v36;
+        } catch(e37) {
+        }
+    }
+    ["undefined"] = v18;
+    static #h;
+    [v18] = v17;
+    [v16];
+}
+new C31(C31, v29, v29);
+new C31(C3, v30, C31);
+new C31(v28, v30, v28);
+function f41() {
+    return f41;
+}
+function f42() {
+    Object.defineProperty(arguments, 13, { enumerable: true, set: f41 });
+    return arguments;
+}
+f42();

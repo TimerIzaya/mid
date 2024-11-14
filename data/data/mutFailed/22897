@@ -1,0 +1,79 @@
+function f0() {
+    const o7 = {
+        1124488688: 129,
+        "a": 49320,
+        __proto__: 129,
+        ...4096,
+        toString(a5) {
+            try {
+                this.a = 129;
+            } catch(e6) {
+            }
+            return 129;
+        },
+    };
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+class C11 {
+    static #d;
+    static #c = v10;
+    static #n(a13) {
+        super.d;
+        v9[v9];
+        function f16() {
+            return v10;
+        }
+        return this;
+    }
+    static [v10] = v8;
+}
+new C11();
+const v18 = new C11();
+new C11();
+new Int32Array(2837);
+throw Int32Array | 2837;
+v18[delete v10[4]];
+new Uint16Array(1);
+new BigUint64Array(127);
+class C35 {
+}
+const v36 = new C35();
+function f37(a38, a39) {
+    function f40() {
+        const v41 = /(?:a*)+q(?<a>.)/guds;
+        for (let i44 = 0, i45 = 10; i44 < i45; i45--) {
+            v41.test(v41);
+        }
+        return v41;
+    }
+    %PrepareFunctionForOptimization(f40);
+    f40();
+    function F54(a56, a57) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = f40;
+        } catch(e58) {
+        }
+        try {
+            this.f = a57;
+        } catch(e59) {
+        }
+        try {
+            this.g = Uint16Array;
+        } catch(e60) {
+        }
+    }
+    new F54(v8, 2837);
+    new F54(v8, a39);
+    new F54(v8, 1);
+    %OptimizeFunctionOnNextCall(f40);
+    f40();
+    return f37;
+}
+Object.defineProperty(v36, "constructor", { value: f37 });
+const v65 = v36.constructor;
+const v66 = v65();
+v65(v66, v66, v66);

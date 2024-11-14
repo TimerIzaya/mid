@@ -1,0 +1,163 @@
+const v1 = new WeakSet(WeakSet);
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a4;
+    } catch(e5) {
+    }
+    try {
+        this.h = a4;
+    } catch(e6) {
+    }
+    try {
+        this.b = a4;
+    } catch(e7) {
+    }
+}
+const v8 = new F2(v1);
+new F2(F2);
+const v10 = new F2(F2);
+function f11() {
+    return v10;
+}
+const v16 = new Date();
+function f17(a18, a19, a20) {
+    const o28 = {
+        1396: a20,
+        __proto__: a19,
+        "h": a20,
+        "d": v16,
+        "c": a20,
+        "g": a20,
+        valueOf(a22, a23, a24) {
+            function f25(a26) {
+                return a26;
+            }
+            class C27 extends f25 {
+                static #f = a23;
+                67;
+                [F2];
+            }
+            return a23;
+        },
+    };
+    return o28;
+}
+f17(-2.0, v16, v16);
+f17(-0.0, v8, v16);
+f17(3.0, v8, v10);
+class C35 {
+    static #toString(a37) {
+        let v38 = 0;
+        while (v38 < 3) {
+            Math.random();
+            Math.sin(this);
+            ++v38;
+            Math.clz32(this);
+            --v38;
+            !1680472700;
+            v38++;
+        }
+        return 7;
+    }
+}
+try {
+    C35.valueOf = "number";
+} catch(e51) {
+}
+const v55 = 3 % 7;
+const v56 = 7 & C35;
+let v57 = Math.log2(13);
+const v58 = C35 << 7;
+(v56 | 13) || v55;
+new C35();
+const v62 = new C35();
+const v63 = new C35();
+class C64 extends C35 {
+    static [v63] = "symbol";
+    static [v62];
+    static set g(a66) {
+        super.d = a66?.["symbol"];
+    }
+    static 6 = v63;
+    static o(a69, a70, a71) {
+        const v72 = v63[4];
+        try {
+            new C35(v72);
+        } catch(e74) {
+        }
+        return a70;
+    }
+}
+new C64();
+new C64();
+new C64();
+class C78 extends C64 {
+    #m(a80, a81, a82, a83) {
+        const o84 = {
+        };
+        try {
+            o84.a = this;
+        } catch(e85) {
+        }
+        try {
+            const o86 = {
+            };
+            o86.a = this;
+            o86.__proto__ = 7;
+        } catch(e87) {
+        }
+        try {
+            const o88 = {
+            };
+            o88.a = this;
+            o88.e = 7;
+            o88.b = v63;
+        } catch(e89) {
+        }
+        try {
+            const o90 = {
+            };
+            o90.a = this;
+            o90.e = 7;
+            o90.d = this;
+        } catch(e91) {
+        }
+        return "symbol";
+    }
+}
+new C78();
+new C78();
+let v97 = v58 / -4.0;
+const v98 = v57++;
+const v99 = v97--;
+v98 ** v58;
+v97 & v58;
+new C78();
+const v105 = new Uint16Array();
+function F106(a108, a109, a110) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+for (let v113 = 0; v113 < 25; v113++) {
+    const v114 = [-587,-11,-5];
+    const v115 = v114.filter;
+    let v116;
+    try { v116 = v115(); } catch (e) {}
+    const v117 = [1073741824,1073741823,1376142744,1073741825];
+    function f118(a119, a120, a121, a122) {
+        -a119;
+        a120 >>> a120;
+        const v125 = a119 >>> a119;
+        let [] = v117;
+        let v127 = v105["toSorted"]();
+        v116 <= v99;
+        v127 = -4.0;
+        v125 | v125;
+        const v130 = a121[3];
+        v130 + v130;
+        try { v117["find"](..."find", a122, ...v114); } catch (e) {}
+    }
+    for (let v134 = 0; v134 < 10; v134++) {
+        f118(v134, v134, v117);
+    }
+}

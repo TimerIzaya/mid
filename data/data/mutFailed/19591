@@ -1,0 +1,58 @@
+class C3 {
+    static #b = -1000000000.0;
+    static #h = 13;
+    static set a(a5) {
+        let v6;
+        try { v6 = a5(this, a5, a5); } catch (e) {}
+        v6?.[3];
+        super[this];
+    }
+    static get f() {
+        super[1073741825] = 1073741825;
+        return this != this ? this : this;
+    }
+    2147483649 = 13;
+}
+let v12;
+try { v12 = C3.bind(-1000000000.0); } catch (e) {}
+new C3();
+const v14 = new C3();
+const v15 = new v14();
+const v17 = 9007199254740992 >> 9007199254740992;
+class C20 {
+    static [v15] = -1000000000.0;
+    static get a() {
+        new C3();
+        return v15;
+    }
+    [v15] = 13;
+    [9007199254740992] = 13;
+    static 65536 = v12;
+    e = C3;
+    257;
+    static [-14185] = v14;
+}
+new C20();
+new C20();
+const v28 = new C20();
+v28[257] = v28;
+let v29 = 9;
+v29 ^ v29;
+v29++;
+function f32() {
+    for (let v33 = 0; v33 < 5; v33++) {
+        function F34(a36, a37) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v38 = this?.constructor;
+            try { new v38(a36, a36); } catch (e) {}
+        }
+        const v40 = new F34();
+        v40.length;
+        try { v40.constructor(v29); } catch (e) {}
+    }
+    return v17;
+}
+%PrepareFunctionForOptimization(f32);
+f32();
+%OptimizeFunctionOnNextCall(f32);
+f32();

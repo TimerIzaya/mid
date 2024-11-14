@@ -1,0 +1,29 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = f0;
+    } catch(e3) {
+    }
+    try {
+        this.f = this;
+    } catch(e4) {
+    }
+}
+new F1();
+new F1();
+new F1();
+[8,1073741824,129,-15,-65535,-47192,24695,257,-1338364810,436961465];
+function F12(a14) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v15 = new F12(F12);
+new v15();
+const v17 = (129n).constructor;
+const v18 = new v17(v15, v17);
+([536870912,268435441,9007199254740992,57419,129,-2147483647]).indexOf(v17, v18);
+[1073741823,18019,-15,-39321,-38441,48198,-40244];
+[8,-27889,-2147483648,4294967297,2147483649,2147483648,6,62036,8,6];
+class C24 extends Uint16Array {
+}

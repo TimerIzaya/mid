@@ -1,0 +1,36 @@
+[];
+const v4 = [0.0,0.0];
+const o5 = {
+    __proto__: v4,
+    "a": 1,
+    "c": Float64Array,
+    "b": Float64Array,
+    "h": Float64Array,
+    "e": 1,
+};
+const v6 = o5.push(0.0);
+const v7 = new Float64Array(1);
+try { v7.filter(v7); } catch (e) {}
+const v11 = new BigInt64Array(4);
+const v14 = new Float64Array(3);
+const v15 = v14?.constructor;
+try { new v15(4, v14, 4); } catch (e) {}
+function f23() {
+    for (let v24 = 0; v24 < 5; v24++) {
+        for (let v25 = 0; v25 < 5; v25++) {
+            v25 - v25;
+            const v31 = new f23();
+            typeof v31 === "boolean";
+            Math.atanh(v25);
+        }
+    }
+    return f23;
+}
+try { f23.call(v14); } catch (e) {}
+const v37 = f23();
+v37.arguments = v37;
+%OptimizeFunctionOnNextCall(f23);
+v6?.d;
+v7.length <<= v15;
+%VerifyType(v11);
+f23();

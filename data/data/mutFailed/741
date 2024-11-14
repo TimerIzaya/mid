@@ -1,0 +1,113 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v0;
+    } catch(e3) {
+    }
+    function f6(a7, a8, a9, a10) {
+        const o14 = {
+            "apply": f6,
+            "deleteProperty": f6,
+            "getOwnPropertyDescriptor": f6,
+            "getPrototypeOf": f6,
+            "has": f6,
+            "ownKeys": f6,
+            "preventExtensions": f6,
+        };
+        new Proxy(this, o14);
+        const o30 = {
+            get b() {
+                a10[3] = "-26733";
+                for (let v18 = 0; v18 < 24; v18++) {
+                    try { new a9(v18, 4096, a10, this, 4096); } catch (e) {}
+                    o14.__proto__;
+                    new Float64Array(64);
+                    new Uint8Array(16);
+                    new BigInt64Array(256);
+                }
+                return a8;
+            },
+            "e": a10,
+            "f": 1073741825,
+            "a": 1073741825,
+        };
+        return o30;
+    }
+    try {
+        this.a = v0;
+    } catch(e31) {
+    }
+    class C35 {
+    }
+    const v36 = new F1();
+    class C37 extends C35 {
+        o(a39, a40) {
+            C35 %= this;
+            %VerifyType(super.g);
+        }
+    }
+    new v36();
+    function f49(a50, a51, a52) {
+        new Uint32Array(255);
+        new BigUint64Array(89);
+        new BigUint64Array(1024);
+        const o68 = {
+            toString(a63, a64, a65, a66) {
+                return this * a66;
+            },
+        };
+        return f49;
+    }
+}
+const v69 = new F1();
+class C71 {
+}
+async function f72(a73, a74, a75, a76) {
+    (await C71).call();
+    return "source";
+}
+const v79 = new F1();
+new F1();
+class C84 {
+    static o(a86, a87, a88, a89) {
+        try {
+            this.c = 1;
+        } catch(e90) {
+        }
+        return 4294967295;
+    }
+    static #toString(a92, a93, a94) {
+        const v95 = [a93,v79,a93,this,v69];
+        [[v95],v69,v95];
+        return 1;
+    }
+    [-1];
+    static f;
+}
+new C84();
+new C84();
+new C84();
+function f104(a105) {
+    const v106 = [-1.5529887870333795e+308,-748.1650295275717,0.9205726241487137,1.0,-1000.0,-3.1477078363151474,2.220446049250313e-16,Infinity];
+    function f107() {
+        return v106;
+    }
+    class C108 extends f107 {
+    }
+    const o109 = {
+        [a105]: a105,
+    };
+    return a105;
+}
+%PrepareFunctionForOptimization(f104);
+f104();
+f104(5.0);
+try {
+const t0 = 0.44967380041772886;
+t0();
+} catch (e) {}
+function f115() {
+}
+class C116 extends f115 {
+}

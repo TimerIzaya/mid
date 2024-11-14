@@ -1,0 +1,10 @@
+new BigInt(2811);
+new Int32Array(256);
+new RegExp(9, "WDlLY", RegExp);
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C15 extends F12 {
+}
+const v16 = new C15();
+Reflect.getOwnPropertyDescriptor(v16, 65536 | "undefined");

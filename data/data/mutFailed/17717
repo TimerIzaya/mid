@@ -1,0 +1,33 @@
+new WeakMap();
+new BigUint64Array();
+const v10 = new Uint32Array(2432);
+const o11 = {
+    ...v10,
+};
+const v13 = new BigInt64Array(1);
+new BigInt64Array(60);
+new Uint8Array(64);
+function f20() {
+    const t10 = [10];
+    t10[536870912] = Int16Array;
+    function f24(a25, a26) {
+        const o27 = {
+            ...a25,
+        };
+        o27.d;
+        return f24;
+    }
+    const v29 = new f20();
+    f24(v13, -1000000000.0);
+    v29[f24] = v10;
+    Math.sinh(4096);
+    Math.floor(-52118);
+    (4096 * v29) ^ 4096;
+    for (const v42 of Array(4087)) {
+    }
+    return 4087;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+f20();

@@ -1,0 +1,24 @@
+const v1 = new Object();
+new eval();
+function f4() {
+    return v1;
+}
+new Float64Array(4);
+const v13 = new Float32Array(65537);
+const v16 = new Uint16Array(239);
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = this.constructor;
+    let v23;
+    try { v23 = new v22(Float32Array, v13, 268435440n); } catch (e) {}
+    this.e = v23;
+}
+function f24() {
+    for (let v25 = 0; v25 < 5; v25++) {
+        new F17();
+    }
+    return f24;
+}
+%PrepareFunctionForOptimization(f24);
+%OptimizeFunctionOnNextCall(f24(v16, F17));
+f24();

@@ -1,0 +1,32 @@
+const v0 = /[\111]/msy;
+const v1 = /a(?!bbb|bb)c/vdi;
+const v2 = /o(?:foo)/y;
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a9;
+    } catch(e10) {
+    }
+}
+new F6(-1.0, v0);
+new F6(2.2250738585072014e-308, v1);
+new F6(2.2250738585072014e-308, v2);
+class C14 {
+    #m(a16, a17) {
+    }
+    [-1];
+}
+const v18 = new v2();
+class C19 {
+    2 = v18;
+}
+new F6();
+function f21(a22, a23) {
+    return a22;
+}
+const v26 = [C19];
+const o27 = {
+    "arguments": v26,
+    "type": v2,
+};
+new Worker(f21, o27);

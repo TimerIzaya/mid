@@ -1,0 +1,50 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = a6?.constructor;
+    try { new v7("a", "a"); } catch (e) {}
+    try { ("a").valueOf(); } catch (e) {}
+    try {
+        this.f = "-2147483648";
+    } catch(e10) {
+    }
+    try {
+        this.g = "-2147483648";
+    } catch(e11) {
+    }
+    try {
+        this.h = "a";
+    } catch(e12) {
+    }
+}
+F3.arguments = F3;
+const v13 = new F3("yRMy", "a");
+const v14 = new F3("a", "-2147483648");
+const v15 = new F3("-2147483648", "yRMy");
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    a19[2];
+    this.h = F16;
+    try {
+        this.h = v13;
+    } catch(e22) {
+    }
+}
+const v23 = new F16(v13, "-2147483648", v13);
+const v24 = v23?.constructor;
+try { new v24(v15, "-2147483648", F16); } catch (e) {}
+new F16(v15, "a", v23);
+new F16(v13, "yRMy", v14);
+-0.29489550717955537;
+let v33 = 1.1660447917673544e+308 | 1.1660447917673544e+308;
+v33++;
+3.0 + 3.0;
+function F41(a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const t43 = v24.length;
+const v46 = new t43();
+const v47 = new F41();
+try { v47.propertyIsEnumerable(v14); } catch (e) {}
+const v51 = new Uint32Array();
+try { new Int32Array(v23, v23, 2.2250738585072014e-308); } catch (e) {}
+[v47,v46,v51[0.29489550717955537]];

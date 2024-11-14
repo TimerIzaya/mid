@@ -1,0 +1,25 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a6;
+    } catch(e7) {
+    }
+}
+new F3(10000n, 15n);
+const v9 = new F3(10000n, 10000n);
+const v10 = new F3(15n, 127n);
+new Float32Array(1000);
+const v15 = [v10,10000n,0,0,127n];
+const v16 = [v15,v15];
+[v16,v15,v16];
+v10.d |= 1000;
+const v18 = v15.__proto__;
+new Int8Array(0);
+v9.d |= 64;
+const v24 = v16 ^ 10000n;
+try { v18(); } catch (e) {}
+new Int8Array(v24, 1000);
+new Int32Array(64);
+const v28 = [1000000000000.0,-554312.8659911777,-85520.97552967619,116.33808524187589,-1.4876365942841e+308,-4.0,-1.0,643243.7601277845,0.5743499435706315,4.0];
+const v29 = v28.groupToMap;
+try { v29(v28, v29, v28, v28, v29); } catch (e) {}

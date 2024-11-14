@@ -1,0 +1,53 @@
+const v1 = [false,false,false,false];
+const v2 = [v1,v1,false];
+function f3(a4) {
+    a4[v1] = a4;
+    for (let i7 = 0, i8 = 10; i7 < i8; i7++) {
+        continue;
+    }
+    return a4;
+}
+v2.toString = f3;
+const v15 = [false,v1,v1,v2,v2];
+function f16(a17, a18) {
+    const o25 = {
+        "h": v2,
+        [a17]: false,
+        [v2]: f16,
+        "d": false,
+        ...v15,
+        "c": a17,
+        7: v1,
+        set f(a20) {
+            class C21 {
+                static 2 = false;
+                static [v1] = a18;
+            }
+            const v22 = new C21();
+            new v22();
+            new C21();
+        },
+    };
+    return a18;
+}
+const v26 = f16(v2, v2);
+v26[Symbol.toPrimitive] = f16;
+const v29 = f16(v1, f16);
+const v30 = f16(v26, false);
+function F31(a33, a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = false;
+    try {
+        this.d = a34;
+    } catch(e37) {
+    }
+    try {
+        this.e = a36;
+    } catch(e38) {
+    }
+}
+new f16(v1, v1, v30, v15);
+new F31(v2, v1, v1, v2);
+new F31(v2, v1, v29, v2);
+class C46 extends BigInt64Array {
+}

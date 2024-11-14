@@ -1,0 +1,71 @@
+function f4() {
+    return "valueOf";
+}
+const v5 = f4?.apply;
+try { new v5("0", f4); } catch (e) {}
+function f7(a8) {
+    const o16 = {
+        ..."-499970708",
+        p(a10, a11, a12) {
+            super.a = a11 & "0";
+            try {
+                super.p(a12);
+            } catch(e15) {
+            }
+            return a8;
+        },
+        "a": a8,
+        "c": "0",
+        "h": f7,
+    };
+    return o16;
+}
+const v17 = f7("0");
+v17[0] = v17;
+const v18 = f7("valueOf");
+const v19 = f7("0");
+v19[0];
+class C21 {
+    get h() {
+        super.h;
+        return "0";
+    }
+    #b;
+    constructor(a26, a27, a28) {
+        try {
+            a26();
+        } catch(e30) {
+        }
+        const v33 = new Int8Array(160);
+        const o34 = {
+        };
+        o34.constructor.getOwnPropertyDescriptors(v33);
+        for (let i39 = 0, i40 = 10; i39 < i40; i40--) {
+        }
+    }
+    static #d = f7;
+}
+const v47 = C21.name;
+const v48 = new v19(v18, "valueOf", v19);
+const v49 = new C21(v48, "-499970708", v48);
+class C50 extends f4 {
+    #c;
+}
+new C50();
+new v49();
+new C50();
+new C21(C21, "-499970708", v18);
+const v56 = new Uint32Array(Uint32Array, Uint32Array);
+v56[2];
+function F59() {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.propertyIsEnumerable(this); } catch (e) {}
+    try {
+        Object.defineProperty(v56, -5.0, { enumerable: true, value: Array() });
+    } catch(e64) {
+    }
+}
+try { new v47(); } catch (e) {}
+const v66 = new F59();
+const v67 = v66?.constructor;
+try { new v67(); } catch (e) {}

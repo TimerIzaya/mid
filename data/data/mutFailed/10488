@@ -1,0 +1,27 @@
+const v1 = new Date();
+function f2() {
+    return v1;
+}
+!false;
+const v5 = [-4294967296,-65314,268435440,-421136682,-9223372036854775807,2];
+try { v5.values(); } catch (e) {}
+const v7 = [-1684145994,-268435456,4294967296,-1024,12,17080,14,2012529871,536870887];
+v7[3] = v7;
+const v8 = [-65536,16,58026,1197,4294967296,16];
+10n % 10n;
+const v15 = new Int16Array(8);
+try { BigUint64Array.bind(v15); } catch (e) {}
+const v19 = new BigUint64Array(3);
+v19.h = v19;
+new Uint32Array(257);
+function f23() {
+    const v26 = Array(4087);
+    v26[1298] = v8;
+    for (const v27 of v26) {
+    }
+    return 4087;
+}
+%PrepareFunctionForOptimization(f23);
+Int16Array();
+%OptimizeFunctionOnNextCall(f23);
+f23();

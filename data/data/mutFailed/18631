@@ -1,0 +1,35 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = -4294967295;
+        t3.b = -4294967295;
+    } catch(e3) {
+    }
+    try {
+        this.g = -4294967295;
+    } catch(e4) {
+    }
+    try {
+        this.f = -4294967295;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new v6();
+const v8 = new v7();
+new Uint8ClampedArray(1168);
+const t20 = 1168;
+new t20(4);
+const v17 = new Float32Array(10);
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a20;
+    } catch(e22) {
+    }
+}
+new F18(v6, 4);
+new F18(v8, 4);
+new F18(v7, 4);
+const v27 = new v17();
+v27.copyWithin(-9223372036854775808);

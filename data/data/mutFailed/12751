@@ -1,0 +1,89 @@
+const v3 = [6,4294967296,6,-1038410742,-1038410742];
+const v4 = [-1038410742];
+const v5 = [6,4294967296,v3,4294967296,v4];
+function f9(a10, a11, a12) {
+    const o18 = {
+        "d": a12,
+        set c(a14) {
+            const v15 = a14?.f;
+            try {
+                v15.length = 257;
+            } catch(e17) {
+            }
+        },
+        "h": a10,
+        "f": "j",
+        "g": v5,
+        "e": "a",
+        "b": a12,
+        ...v3,
+        "c": 4294967296,
+        [6]: v4,
+        __proto__: "j",
+        ..."j",
+        1673: a10,
+    };
+    return o18;
+}
+f9(-1038410742, 6, "-1773234569");
+let v20 = f9(6, 4294967296, "j");
+f9(6, 6, "a");
+class C22 extends f9 {
+    static get f() {
+        new f9(4294967296, 4294967296, this);
+        Object.defineProperty("a", this, { writable: true, enumerable: true, get: f9, set: f9 });
+        const v25 = v4.length;
+        v5[v25];
+        v20 = this;
+        return v25;
+    }
+    static n(a28, a29) {
+        const t40 = "-1773234569";
+        t40[-1038410742] = a28;
+        return this;
+    }
+    f;
+    65535 = 4294967296;
+    7;
+}
+new C22();
+new C22();
+new C22();
+function f35() {
+    new C22();
+    return -65535n;
+}
+BigInt64Array.valueOf = f35;
+const v40 = new BigInt64Array(16);
+Uint32Array.constructor = f9;
+const v43 = new Uint32Array(40, 40, 16);
+v43.constructor = f35;
+const v44 = [1073741824,1073741823,1376142744,1073741825];
+function f45(a46, a47, a48, a49) {
+    Object.defineProperty(a46, "constructor", { value: f45 });
+    const v50 = a46.constructor;
+    let v51;
+    try { v51 = v50(); } catch (e) {}
+    try {
+        v44.forEach();
+    } catch(e54) {
+    }
+    const o55 = {
+        1073741824: v43,
+    };
+    const v56 = undefined?.values;
+    let v57;
+    try { v57 = v56(); } catch (e) {}
+    v40["toSorted"](v51, v56, ..."toSorted", v57, 40);
+    Math.abs(BigInt64Array);
+    return a49;
+}
+for (let v62 = 0; v62 < 10; v62++) {
+    f45(v43);
+}
+try {
+    f9(0.8532284128635943, 0.8532284128635943, /(?<a>)/gi);
+} catch(e67) {
+}
+%OptimizeFunctionOnNextCall(f45);
+f45(Uint32Array);

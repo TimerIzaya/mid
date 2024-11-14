@@ -1,0 +1,33 @@
+const v3 = [255,4294967295,2];
+const v4 = [49446,-9007199254740990];
+const v5 = [-2,1280829614,323460254,268435439,512];
+class C6 {
+    static 3;
+    static [v5] = -5.0;
+    constructor(a8, a9) {
+        const v12 = [v4.__proto__,a8];
+        Reflect.apply(v3.filter, v5, v12);
+    }
+    static #d;
+}
+const v15 = new C6(v4, v3);
+new C6(v15, v15);
+new C6(v5, v4);
+class C18 {
+}
+const v19 = new C18();
+function f20(a21, a22, a23) {
+    const o25 = {
+        get b() {
+            return C18;
+        },
+        127: v19,
+    };
+    return f20;
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+f20(C18, v19, v19);
+const v29 = new Uint16Array(Uint16Array, Uint16Array, Uint16Array);
+v29[10000] = this - this;

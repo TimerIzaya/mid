@@ -1,0 +1,58 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v0;
+    } catch(e3) {
+    }
+    try {
+        Array.length = Array;
+        function F5(a7, a8, a9) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v10 = this?.constructor;
+            try { new v10(a7, this, a7); } catch (e) {}
+        }
+        const v12 = new F5();
+        for (let i = 0; i < 5; i++) {
+            v12.toString = Array;
+        }
+        this.h = v0;
+    } catch(e13) {
+    }
+    try {
+        this.e = v0;
+    } catch(e14) {
+    }
+}
+new F1();
+const v16 = new F1();
+v16.b;
+const v18 = new F1();
+v18.b = v18;
+const v21 = new Int8Array(0);
+try { v21.reduceRight(v21); } catch (e) {}
+new Uint16Array(256);
+new Uint8ClampedArray(4);
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.__defineSetter__(a32, this); } catch (e) {}
+    ~a32;
+    a33.e;
+    try {
+        this.c = a32;
+    } catch(e37) {
+    }
+    try {
+        this.e = Int8Array;
+    } catch(e38) {
+    }
+}
+const v39 = F29?.constructor;
+try { new v39(Int8Array); } catch (e) {}
+new F29(v16, 256, v16);
+new F29(v18, 0, v16);
+const v43 = new F29(v18, 256, v18);
+let v46;
+try { v46 = Uint8ClampedArray(Uint8ClampedArray, v43, v43); } catch (e) {}
+new Uint8ClampedArray();
+v46["-9223372036854775808"] = 10;

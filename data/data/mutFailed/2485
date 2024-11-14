@@ -1,0 +1,43 @@
+class C3 {
+    static get d() {
+        const t2 = "cbrt";
+        t2["cbrt"] += -15;
+        try {
+        const t0 = "cbrt";
+        t0(this);
+        } catch (e) {}
+        return "cbrt";
+    }
+    static valueOf(a7, a8) {
+        return "cbrt" / (a7 = -16697);
+    }
+    ["cbrt"] = "cbrt";
+    [-16697] = -15;
+}
+const v10 = new C3();
+new v10();
+const v12 = new C3();
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -16697;
+    } catch(e19) {
+    }
+    try {
+        this.c = C3;
+    } catch(e20) {
+    }
+    try {
+        this.g = a15;
+    } catch(e21) {
+    }
+}
+const v22 = new F13(F13, C3, v10, "cbrt");
+const v23 = new F13(v10, v22, v12, v22);
+new F13(-16697, v22, C3, v23);
+new Map();
+const v28 = [BigUint64Array];
+try {
+    new v23(v28);
+} catch(e30) {
+}

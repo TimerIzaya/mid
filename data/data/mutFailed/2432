@@ -1,0 +1,60 @@
+47343 != 47343;
+const v6 = -20544 % -20544;
+"number" * v6;
+const v8 = `valueOf`;
+try { v6(v8); } catch (e) {}
+try {
+    const t6 = "bigint";
+    t6.__proto__ = "symbol";
+} catch(e10) {
+}
+const v19 = Symbol.toPrimitive;
+const o23 = {
+    [v19]() {
+        Object.defineProperty(this, super[this], { enumerable: true, get: Symbol });
+        try {
+            this.__proto__ = this;
+        } catch(e22) {
+        }
+        return "bigint";
+    },
+};
+function f24() {
+    return "MIN_SAFE_INTEGER";
+}
+f24.g = f24;
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v30 = this?.isPrototypeOf;
+    try { new v30(F25); } catch (e) {}
+    Symbol[2] %= -20544;
+    Symbol[a29] = "MIN_SAFE_INTEGER";
+    const v33 = ("9007199254740992")["trimLeft"]();
+    return a28;
+    a27--;
+    a28 / a27;
+    "symbol" >>> a29;
+    try {
+        this.d = f24;
+    } catch(e37) {
+    }
+    try {
+        v33.f = a28;
+    } catch(e38) {
+    }
+    try {
+        this.a = a27;
+    } catch(e39) {
+    }
+}
+new F25(-20544, 14, 4294967295);
+new F25(4294967295, 9, 9);
+const v42 = new F25(-20544, 4294967295, -20544);
+v42.c = v42;
+function f43() {
+    const o44 = {
+    };
+    return f43;
+}
+%OptimizeFunctionOnNextCall(f43);
+F25();

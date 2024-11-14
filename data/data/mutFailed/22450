@@ -1,0 +1,28 @@
+class C3 {
+    static #c = -1.1931100933387545e+308;
+    #o(a5) {
+        C3[0] = this;
+        const o6 = {
+            ...a5,
+            "f": this,
+        };
+        super.d = 6;
+        return this;
+    }
+    [6] = "test";
+    251;
+    [6] = -1.1931100933387545e+308;
+}
+const v7 = new C3();
+new C3();
+new v7();
+["test",[[6,C3],v7,v7],-1.1931100933387545e+308,-1.1931100933387545e+308,-1.1931100933387545e+308];
+const v17 = new WeakSet();
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = this.constructor;
+    try { new v22(); } catch (e) {}
+    a20.e = v17;
+}
+const v24 = new F18();
+new F18(v24, v24);

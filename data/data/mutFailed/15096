@@ -1,0 +1,68 @@
+const v3 = [256,31306,4294967297,1073741825,2147483648];
+const v4 = [11,1073741823,-1024,3,4294967297,-891446373,-2506,8];
+const v5 = [-37125,-14,5,-35564,15,-256,-4,9007199254740991,-1024];
+function f6(a7, a8) {
+    return a7 >= 0.5857678210563058 ? a7 : 0.5857678210563058;
+}
+v5.constructor = f6;
+let v11;
+try { v11 = v5.splice(-1000000000000.0); } catch (e) {}
+try {
+    let v12;
+    try { v12 = new v11(); } catch (e) {}
+    function F13(a15, a16) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.f = v11;
+        } catch(e17) {
+        }
+    }
+    new F13(v4, v3);
+    new F13(v12, v5);
+    new F13(v5, v3);
+    v3.reduceRight(v11, 62.17625587543853);
+} catch(e22) {
+}
+function f23(a24, a25, a26, a27) {
+    const o34 = {
+        10: v5,
+        "h": a24,
+        3011: v4,
+        __proto__: v5,
+        "g": v5,
+        "d": a26,
+        [a24]: 0.5857678210563058,
+        2: a26,
+        get a() {
+            try { a27(a26, this, this, a25); } catch (e) {}
+            super[a26] = delete this[536870912];
+            return 0.5857678210563058;
+        },
+    };
+    return o34;
+}
+const v35 = f23(-1000000000000.0, -1000000000000.0, v4, 62.17625587543853);
+f23(62.17625587543853, 0.5857678210563058, v4, -1000000000000.0);
+const v37 = f23(0.5857678210563058, 0.5857678210563058, v4, -1000000000000.0);
+function f38() {
+    return v37;
+}
+function F39(a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v40 = this;
+    function f42() {
+        return f23;
+    }
+    Object.defineProperty(v40, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f42 });
+    v40--;
+    const v46 = v35[4];
+    const v47 = v35.g;
+    v47[9] = v46;
+    !-1000000000000.0;
+    v47?.[9];
+    const v50 = v40.constructor;
+    try { new v50(); } catch (e) {}
+    new BigInt64Array();
+}
+new F39();
+new F39();

@@ -1,0 +1,82 @@
+new Float32Array(4096);
+0 + 0;
+const v9 = new Int8Array(0);
+try { v9.find("getSeconds"); } catch (e) {}
+512 >> 512;
+new Float64Array(512);
+new Int16Array(127);
+Math.cos(-5.0);
+Math.fround(0.41428636270946406);
+new Uint32Array(257);
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F29();
+const v36 = new SharedArrayBuffer(945);
+new Int16Array(v36);
+const v41 = new Float64Array(127);
+class C42 {
+    static b = Int16Array;
+    5;
+    f;
+    #e = 257;
+    static 2;
+    static #p(a44, a45) {
+        try {
+            this.#e;
+        } catch(e47) {
+        }
+        this.b;
+        %VerifyType(a45);
+        return v41;
+    }
+}
+new C42();
+function F50(a52) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v55 = new Float32Array(255);
+v55 instanceof Float32Array;
+new C42();
+const v58 = new C42();
+function f62() {
+    function f64(a65) {
+        const v66 = [v58,a65,a65,C42];
+        [a65,this,this,this,Float64Array];
+        [257,v66];
+    }
+    this.onmessage = f64;
+    delete C42[7];
+    try {
+        ([Reflect,Reflect])[1];
+        const v75 = new Float32Array();
+        v75["copyWithin"](..."-11838");
+        this.valueOf = f64;
+    } catch(e78) {
+    }
+}
+const v81 = [];
+const o82 = {
+    "arguments": v81,
+    "type": "function",
+};
+new Worker(f62, o82);
+127 ^ 127;
+function f88() {
+    const v90 = ([f88,f88]).constructor;
+    class C91 extends v90 {
+    }
+    C91.length = C91;
+    const v92 = new C91();
+    try { v92.reduce(v90); } catch (e) {}
+    const v94 = v92.constructor;
+    v94.length;
+    const v96 = v94.bind();
+    let v97;
+    try { v97 = v96(); } catch (e) {}
+    return v97;
+}
+%PrepareFunctionForOptimization(f88);
+f88();
+%OptimizeFunctionOnNextCall(f88);
+f88();

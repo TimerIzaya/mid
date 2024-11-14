@@ -1,0 +1,47 @@
+let v2 = Uint8ClampedArray;
+const v3 = new v2(8);
+const v6 = new Int16Array(2);
+const v7 = v6?.constructor;
+let v8;
+try { v8 = new v7(8, v3, v3); } catch (e) {}
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a12;
+    } catch(e14) {
+    }
+    try {
+        this.c = 2;
+    } catch(e15) {
+    }
+    try {
+        this.a = v3;
+    } catch(e16) {
+    }
+}
+const v17 = new F9(v7, v3, Int16Array);
+new F9(8, v2, v7);
+new F9(2, v6, 8);
+new Float64Array(0);
+1000000.0 <= 1000000.0;
+function f27(a28) {
+    return a28;
+}
+v17[9];
+[-1849000874,2,65537,12,-898794030,9007199254740990];
+[-9223372036854775807,-326080878,1275302224,1505912808,220964086,-8];
+const v34 = [-4294967297,4096,-1024,-256,718637773,-4096,-481100394,30152,-4096];
+v2 **= v2;
+const o35 = {
+    "type": "setUTCMilliseconds",
+};
+try { o35.propertyIsEnumerable(-252592.77605942602); } catch (e) {}
+const v37 = new Worker(f27, o35);
+const v38 = v37?.terminateAndWait;
+v34[v17] = v8 + 1.1252461536124226e+308;
+try {
+    v6.copyWithin(-1403351959, -1403351959);
+} catch(e42) {
+}
+try { new v38(v34); } catch (e) {}
+try { v37.postMessage(); } catch (e) {}

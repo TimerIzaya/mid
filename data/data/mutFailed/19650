@@ -1,0 +1,53 @@
+const v3 = /(?:a?)+/vm;
+/Wa(?!bbb|bb)c/vm;
+const v5 = /b\p{gc=Nd}/gudsy;
+v5.unicode = v5;
+let v8;
+try { v8 = ("2147483648").italics(); } catch (e) {}
+v8.length;
+try { ("toStringTag").trim(); } catch (e) {}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    a15[8];
+    const v18 = this?.constructor;
+    try { new v18("toStringTag", a16, F12); } catch (e) {}
+    a15[2] = a15;
+    try {
+        this.g = a14;
+    } catch(e20) {
+    }
+    try {
+        this.e = "prototype";
+    } catch(e21) {
+    }
+    try {
+        this.a = a16;
+    } catch(e22) {
+    }
+}
+new F12("2147483648", "toStringTag", v5);
+new F12("2147483648", "toStringTag", "2147483648");
+new F12("toStringTag", "2147483648", "2147483648");
+const v26 = [-6.672391061426152e+307];
+try { DataView.call(DataView); } catch (e) {}
+function f29() {
+    const t33 = "6cDU";
+    t33[-11n] *= v8;
+    [-Infinity,-87.10846241310287,-4.0,0.5503075865473224,-0.0,0.4919686486328272,-2.0,5.283395926882945e+307];
+    [1000000000.0,-3.515475519284845e+305,3.0,1000000000000.0,-1.4726321129114125e+308,-1000000.0,-2.2250738585072014e-308,-240.89775707746526,2.2250738585072014e-308];
+    const v33 = [-Infinity,-5.0,2.220446049250313e-16,-228550.89289085334,-1000000000.0,0.21890422767260242,2.220446049250313e-16,2.0,0.479324207234999,-1.200291345299842e+307];
+    ("toStringTag").charAt(...v33, v3, v8, ..."6cDU", v33);
+    const t38 = "6cDU";
+    t38[1] = "6cDU";
+    const v35 = v26["6cDU"]();
+    -v35;
+    const v37 = ~v35;
+    -v37;
+    -v37;
+    return DataView;
+}
+%PrepareFunctionForOptimization(f29);
+f29();
+%OptimizeFunctionOnNextCall(f29);
+const v42 = f29()?.constructor;
+try { new v42("prototype"); } catch (e) {}

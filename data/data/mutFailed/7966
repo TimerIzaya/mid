@@ -1,0 +1,36 @@
+const v3 = [8.240788274813287];
+const v4 = [-815.4828160045191,-0.9868608117058209,1000000.0];
+const v5 = [-2.220446049250313e-16,1000000.0,Infinity];
+function f6(a7, a8, a9, a10) {
+    const o16 = {
+        [v3](a12, a13) {
+            try {
+                super.m(a12, a9, 9007199254740991, a7, a13);
+            } catch(e15) {
+            }
+            return a8;
+        },
+        "a": a9,
+        "b": v5,
+        ...a7,
+    };
+    return o16;
+}
+f6(v3, 10986, 10986, 59655);
+f6(v5, 9007199254740991, 10986, f6(f6, 10986, 10986, v4));
+class C21 {
+    constructor(a23, a24) {
+        const o25 = {
+            __proto__: a24,
+        };
+        o25[a24] = o25;
+    }
+}
+const t28 = 9007199254740991;
+const v26 = new t28();
+const v27 = new C21(-1000000000.0, v26);
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F28(-1000000000.0, v27);
+v26.c = -1000000000.0;

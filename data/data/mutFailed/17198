@@ -1,0 +1,123 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        this[F0] = this;
+        let v3;
+        try { v3 = new F0(F0, F0, this, F0, this, ...this); } catch (e) {}
+        return v3;
+    }
+    this.toString = f2;
+    -1 >>> -1;
+    try {
+        this.a = -1;
+    } catch(e6) {
+    }
+    try {
+        this.f = -1;
+        try {
+            this.__proto__ = this;
+        } catch(e7) {
+            e7.a = e7;
+        }
+        f2();
+    } catch(e9) {
+    }
+    try {
+        this.h = -1;
+    } catch(e10) {
+    }
+}
+const v11 = new F0();
+const v12 = new F0();
+const v13 = new F0();
+class C14 extends F0 {
+    static #o(a16) {
+        const v17 = this[1024];
+        super[this];
+        try {
+            super.findLastIndex(v17);
+        } catch(e20) {
+        }
+        return a16;
+    }
+    static [F0];
+    [C14] = v11;
+    b = v11;
+    a = v13;
+}
+try { new v12(); } catch (e) {}
+let v22 = new C14();
+function f23() {
+    class C26 extends Int8Array {
+        [9];
+    }
+    return Int8Array;
+}
+v22.valueOf = f23;
+const v27 = new C14();
+v27.b;
+const v29 = new C14();
+const v30 = v29.a;
+let v31 = 2063467797n;
+v31--;
+const v34 = -2147483648n - -2147483648n;
+function f36() {
+    return 3n;
+}
+class C37 extends C14 {
+    [v13];
+    8 = -2147483648n;
+    9;
+    set h(a39) {
+        ~v22;
+        function F41(a43, a44, a45, a46) {
+            if (!new.target) { throw 'must be called with new'; }
+            a45.length = a45;
+            const v47 = -a46;
+            this.d = v13;
+            try {
+                v22 = v29;
+                this[v47] = this;
+                a46.b *= a44;
+                [a44,[[v34],a45],F41,C14,v34];
+                this.b = a39;
+            } catch(e51) {
+            }
+            try {
+                this.d = a39;
+            } catch(e52) {
+            }
+        }
+        F41.length = F41;
+        const v53 = new F41(v27, v31, C14, a39);
+        new F41(v22, -2147483648n, v53, this);
+        const v55 = new F41(v22, -2147483648n, C14, f36);
+        const v56 = v53?.constructor;
+        try { new v56(v55, this, v55, v53); } catch (e) {}
+    }
+}
+new C37();
+new C37();
+new C37();
+const o62 = {
+};
+function f63() {
+    return v27;
+}
+function f64(a65) {
+    class C66 {
+    }
+    const v67 = new C66();
+    o62[64];
+    v22 & v30;
+    new BigUint64Array(1);
+    new BigUint64Array(512);
+    new BigUint64Array(9);
+    SyntaxError();
+    C14[139837843] = v67;
+}
+Object.defineProperty(o62, "setPrototypeOf", { get: f63, set: f64 });
+const v82 = new Proxy(Uint8Array, o62);
+const v83 = new v82();
+const v84 = v83?.findLast;
+try { new v84(C14); } catch (e) {}

@@ -1,0 +1,42 @@
+const v0 = [];
+function f13(a14, a15, a16, a17) {
+    function f18() {
+        return f13;
+    }
+    Object.defineProperty(a15, Symbol.toPrimitive, { writable: true, enumerable: true, get: f18 });
+    const o33 = {
+        "f": v0,
+        "a": a17,
+        "d": 1000000000000.0,
+        [v0](a22, a23, a24, a25) {
+            let v21 = this;
+            Math.sign(v21);
+            v21 || 9;
+            9 * (9 && ++v21);
+            return a15;
+        },
+        13: a14,
+    };
+    return o33;
+}
+f13(-536870912n, 9.24323499442497, 9.24323499442497, -55104n);
+f13(127n, 9.24323499442497, 1000000000000.0, -55104n);
+f13(127n, v0, f13, -536870912n);
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v41 = 0; v41 < 5; v41++) {
+    }
+    const v42 = this.constructor;
+    const t28 = "9007199254740992";
+    t28["255"] &= 7;
+    const v48 = new Float32Array(2);
+    function f49(a50) {
+        try { a40.every(v48, a50, a50); } catch (e) {}
+        Object.defineProperty(this, "e", { writable: true, configurable: true, value: a39 });
+        return a50;
+    }
+    Object.defineProperty(v48, "toString", { configurable: true, value: f49 });
+    v48[1] = v48;
+    try { new v42(); } catch (e) {}
+}
+new F37();

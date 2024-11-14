@@ -1,0 +1,68 @@
+function f0() {
+    const o4 = {
+        "a": 4294967296,
+        1073741823: 1e-15,
+        [1e-15]: 4294967296,
+        1143: 1e-15,
+        "d": 4294967296,
+        "g": 1e-15,
+        "e": 1e-15,
+        __proto__: 4294967295,
+        "c": 4294967295,
+        [4294967296]: 4294967295,
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+v6 % v6;
+2147483647 && 536870889;
+const v12 = f0();
+class C13 extends f0 {
+    static {
+        for (let v15 = 0; v15 < 32; v15++) {
+            v5["p" + v15] = v15;
+        }
+    }
+    constructor(a19, a20) {
+        super[a19]?.[1];
+    }
+    static get c() {
+        const v24 = `
+        `;
+        eval();
+    }
+    255 = v6;
+    #a;
+    6 = v12;
+}
+new C13();
+new C13();
+new C13();
+new BigInt64Array(163);
+new BigUint64Array(1117);
+new Float64Array(127);
+function f39() {
+    const o40 = {
+    };
+    function F41() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    class C43 extends F41 {
+    }
+    new C43();
+    return o40;
+}
+const v45 = f39();
+const v46 = f39();
+class C47 {
+    constructor(a49, a50) {
+        for (let v51 = 0; v51 < 32; v51++) {
+            a50["p" + v51] = v51;
+        }
+    }
+}
+new C47(v46, v45);
+const o55 = {
+    ...v45,
+};

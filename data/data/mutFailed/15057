@@ -1,0 +1,54 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a5;
+    } catch(e6) {
+    }
+    try {
+        this.c = a5;
+    } catch(e7) {
+    }
+    try {
+        this.b = a5;
+    } catch(e8) {
+    }
+}
+const t15 = 1n;
+const v9 = new t15(-1024n);
+const v10 = new F3(1n);
+const v11 = new F3(4294967297n);
+function f12() {
+    return v11;
+}
+const v14 = new WeakMap();
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a17;
+    } catch(e19) {
+    }
+    try {
+        this.b = F3;
+    } catch(e20) {
+    }
+    try {
+        this.e = a18;
+    } catch(e21) {
+    }
+}
+new F15(4294967297n, v9);
+const t39 = -1024n;
+new t39(-1024n, v14);
+new F15(1n, v10);
+class C25 {
+    constructor(a27, a28, a29) {
+        function f30(a31, a32, a33) {
+            function f35(a36) {
+                return a29;
+            }
+            %PrepareFunctionForOptimization(f35);
+            return this;
+        }
+        Worker(f30);
+    }
+}

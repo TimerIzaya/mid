@@ -1,0 +1,99 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 4;
+    } catch(e3) {
+    }
+    try {
+        this.g = 4;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0(F0, v5, F0);
+const v7 = new F0(v6, v5);
+v7.g = v7;
+let v10 = 31458n;
+v10 ^ v10;
+v10--;
+class C13 extends F0 {
+    o(a15, a16, a17) {
+        a15.e;
+        try { a16.hasOwnProperty(a16); } catch (e) {}
+        let v20 = 0;
+        do {
+            try { new SharedArrayBuffer(v7); } catch (e) {}
+            const o24 = {
+                "maxByteLength": 127,
+            };
+            o24.maxByteLength = o24;
+            16 >>> 16;
+            const v27 = new SharedArrayBuffer(16, o24);
+            new DataView(v27);
+            v20++;
+        } while ((() => {
+                ~10;
+                const v33 = v20 < 10;
+                v33 && v33;
+                return v33;
+            })())
+        return a16;
+    }
+}
+const v35 = new C13(C13);
+v35.b = v35;
+const v36 = new C13();
+const v37 = new C13();
+let v38;
+try { v38 = v37.o(v6, v7, v6); } catch (e) {}
+const v39 = v38?.constructor;
+try { new v39(); } catch (e) {}
+class C41 extends C13 {
+    o(a43, a44, a45, a46) {
+        -a43;
+        a44.arguments = a44;
+        a45 / a45;
+        try { a46.p(a45, -13n, this, this); } catch (e) {}
+        a43 * a43;
+        const v51 = a44?.constructor;
+        let v52;
+        try { v52 = new v51(C13); } catch (e) {}
+        try { v52.toString(); } catch (e) {}
+        a45 / a45;
+        try { a46["750855927"](); } catch (e) {}
+        super[F0] = -13n;
+        return v6;
+    }
+    p(a58, a59, a60, a61) {
+        super[a59] = v36;
+        return v35;
+    }
+    static #d;
+    f = v36;
+    [F0];
+}
+C41.d = C41;
+new C41(9007199254740990n, C41, v7);
+const v63 = new C41();
+v63.e;
+let v65;
+try { v65 = v63.o(9007199254740990n, F0, 9007199254740990n, v63); } catch (e) {}
+v65.e = v65;
+const v66 = new C41(-13n);
+v66.f = v66;
+function f67(a68) {
+    return f67;
+}
+try { new Worker(); } catch (e) {}
+Worker.name.length;
+const v74 = ("function")?.search;
+try { new v74(v63); } catch (e) {}
+const o76 = {
+    "type": "function",
+};
+o76.type;
+const v78 = new Worker(f67, o76);
+try { v78.postMessage(); } catch (e) {}
+const v80 = v78.terminate;
+v80.name;
+try { new v80(); } catch (e) {}

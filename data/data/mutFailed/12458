@@ -1,0 +1,20 @@
+let v1 = "match";
+new WeakMap();
+class C8 extends WeakMap {
+    static #valueOf(a10, a11, a12) {
+        super.set(WeakMap, v1);
+        return a12;
+    }
+    static m(a15, a16, a17) {
+        v1 = this;
+        return WeakMap;
+    }
+    #f = WeakMap;
+    f = "replace";
+}
+const v18 = new C8();
+new v18();
+new C8();
+const v21 = [];
+const t18 = [v21,v21,[v21,v21,v1,v21],-159498302];
+t18.length = 2;

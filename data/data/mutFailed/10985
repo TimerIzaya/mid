@@ -1,0 +1,83 @@
+class C3 {
+    constructor(a5, a6) {
+        super[a5];
+        try { a5(); } catch (e) {}
+        const o12 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o12);
+    }
+}
+const v14 = new C3(0.013941505311341862, 256);
+const v15 = new C3(v14, 256);
+function f16(a17) {
+    function F18() {
+        if (!new.target) { throw 'must be called with new'; }
+        this.c = 5;
+    }
+    const v21 = new F18();
+    const v22 = new F18();
+    function f23(a24, a25) {
+        const o26 = {
+            "h": v22,
+            6: v22,
+            128: a25,
+            "e": v21,
+            __proto__: a24,
+            "a": a24,
+            ...a25,
+        };
+        return o26;
+    }
+    f23();
+    f23(v21, f23());
+    return f23;
+    return v22;
+}
+Object.defineProperty(v15, Symbol.toPrimitive, { enumerable: true, value: f16 });
+new C3(v15, 256);
+const v33 = [3.500754431944646,-388.804133052014];
+[-1.0,3.9209373870934456,-420.1718899556008,9.452493828191848e+307,-1e-15,-1000000000.0,-564059.0952023537];
+const v35 = [-1000000.0,Infinity,1.41264885152046e+306];
+function f36(a37, a38, a39) {
+    const o50 = {
+        set h(a41) {
+            super.h = a38;
+            const o42 = {
+            };
+            try {
+                o42.e = this;
+            } catch(e43) {
+            }
+            try {
+                const o44 = {
+                };
+                o44.e = this;
+                o44.c = v35;
+            } catch(e45) {
+            }
+            try {
+                const o46 = {
+                };
+                o46.e = this;
+                o46.c = v35;
+                o46.h = this;
+            } catch(e47) {
+            }
+            try {
+                const o48 = {
+                };
+                o48.e = this;
+                o48.c = v35;
+                o48.b = a39;
+            } catch(e49) {
+            }
+        },
+    };
+    return o50;
+}
+f36(v33, v33, v33);
+f36(v35, v35, v35);
+f36(v14, v35, v35);
+URIError();

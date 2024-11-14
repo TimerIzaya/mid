@@ -1,0 +1,45 @@
+class C3 {
+    constructor(a5, a6) {
+        with (a5) {
+            Object.defineProperty(this, "f", { value: a5 });
+            let v8 = super.b;
+            v8 /= a5;
+        }
+        const v10 = Symbol.iterator;
+        const o19 = {
+            [v10]() {
+                let v12 = 10;
+                const o18 = {
+                    next() {
+                        v12--;
+                        const v16 = v12 == 0;
+                        const o17 = {
+                            "done": v16,
+                            "value": v12,
+                        };
+                        return o17;
+                    },
+                };
+                return o18;
+            },
+        };
+    }
+}
+const v20 = new C3("-128", C3);
+new C3(v20, C3);
+const v22 = new C3("-128", "-128");
+let v26;
+try { v26 = ("-128").replace("-1257727899", "-128"); } catch (e) {}
+try {
+    v22.length = -2;
+} catch(e28) {
+}
+for (let v37 = 0; v37 < 32; v37++) {
+    v26["p" + v37] = v37;
+}
+const o40 = {
+    "maxByteLength": 3145,
+};
+const v42 = new SharedArrayBuffer(128, o40);
+const v44 = new Float32Array(v42);
+v44[0];

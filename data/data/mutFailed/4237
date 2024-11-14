@@ -1,0 +1,18 @@
+new Uint16Array(7);
+new Uint8ClampedArray(2);
+const t2 = 75;
+new t2(75);
+function f15(a16, a17) {
+    return f15;
+}
+const v18 = f15(f15, f15);
+class C19 extends f15 {
+    constructor(a21, a22, a23) {
+        super();
+        const v24 = `
+            try { a21(a23, v18); } catch (e) {}
+        `;
+        eval(v24);
+    }
+}
+new C19(f15, C19, f15);

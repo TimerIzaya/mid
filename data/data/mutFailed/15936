@@ -1,0 +1,67 @@
+const v1 = new Set();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "a", { writable: true, value: a5 });
+    try {
+        this.a = Set;
+    } catch(e6) {
+    }
+    try {
+        this.d = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F2(Set, Set);
+const v9 = new F2(v8, F2);
+new F2(v9, v1);
+new Uint8Array(129);
+new Int16Array(3069);
+new Int8Array(4);
+class C24 {
+}
+new C24();
+new Int8Array(127);
+const v33 = new SharedArrayBuffer(62);
+function f34(a35) {
+    const o39 = {
+        "maxByteLength": 1000,
+    };
+    const v40 = new ArrayBuffer(10000, o39);
+    return v40;
+}
+v33.constructor = f34;
+v33.slice();
+/a(?!bbb|bb)c/vi.toString;
+const v45 = [23795,8,259058917,-256,1,-36806,4096,-9,-1,-18943];
+v45[Symbol.toPrimitive] = f34;
+new Date(-2, v45, v45, v45, -2);
+new Uint32Array(16);
+class C58 {
+    b = C58;
+}
+new C58();
+const v61 = new Date();
+function f62(a63) {
+    return a63;
+}
+v61.valueOf = f62;
+[v61];
+const v65 = new Int16Array(2);
+const v69 = ["dgV"];
+Reflect.apply(("undefined").replaceAll, v65, v69);
+function f72() {
+    function f73(a74) {
+        try {
+            const o75 = {
+            };
+        } catch(e76) {
+        }
+    }
+    try {
+    } catch(e77) {
+    }
+}
+const o80 = {
+    "type": "function",
+};
+new Worker(f72, o80);

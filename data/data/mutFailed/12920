@@ -1,0 +1,96 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = this;
+    try {
+        this.a = v0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+function f6() {
+    const v7 = v5.a;
+    v7[v7] **= v7;
+    return v0;
+}
+v5.toString = f6;
+const v8 = new F1();
+class C9 {
+    static h;
+    2322 = v0;
+    f;
+    constructor(a11, a12) {
+        function f13(a14) {
+            Array(19793);
+            return a14;
+        }
+        a11.toString = f13;
+        a12.toString = f13;
+        %VerifyType(a12);
+        const v18 = v4[10];
+        try {
+            a11.toString = v18;
+        } catch(e19) {
+        }
+    }
+    static b = v4;
+    static [v0];
+    e = F1;
+    9;
+}
+new C9(v5, v8);
+const v21 = new C9(v8, v8);
+const v22 = new C9(v5, v4);
+function f23(a24, a25, a26, a27) {
+    const o40 = {
+        __proto__: a25,
+        m(a29, a30, a31, a32) {
+            const o33 = {
+            };
+            new Proxy(a32, o33);
+            return a24;
+        },
+        0: v5,
+        "g": v22,
+        get h() {
+            ++C9;
+            try {
+                super.setInt32();
+            } catch(e39) {
+            }
+            return v5;
+        },
+    };
+    return o40;
+}
+const v41 = f23(v5, v21, v5, C9);
+const v42 = f23(v5, v22, v5, C9);
+f23(C9, v21, v21, v21);
+function F44(a46, a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f49() {
+        return this;
+    }
+    function f50(a51) {
+        F44 > a51;
+    }
+    Object.defineProperty(this, "g", { writable: true, configurable: true, get: f49, set: f50 });
+    try {
+        this.g = f23;
+    } catch(e53) {
+    }
+}
+const v54 = new F44(v8, v21, v41);
+const v55 = new F44(F44, v42, v42);
+new F44(v54, v55, v42);
+for (let v57 = 0; v57 < 5; v57++) {
+    function f58() {
+        Uint16Array.valueOf = f58;
+        const v61 = new Uint8Array();
+        v61[8] = Uint16Array;
+        return Uint8Array;
+    }
+    f58();
+    %OptimizeFunctionOnNextCall(f58);
+}

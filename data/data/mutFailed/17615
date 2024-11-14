@@ -1,0 +1,38 @@
+let v2 = 268435440;
+class C3 {
+    static {
+    }
+    static #e = v2;
+    constructor(a9, a10) {
+        a10 = v2;
+        a10[7] = v2;
+        super.c = a9;
+        try {
+            ("H").#e;
+        } catch(e12) {
+        }
+    }
+}
+const v13 = new C3(1.6578463092856206e+308, "H");
+const v14 = new C3("H", v13);
+const v15 = new C3("H", v14);
+class C19 extends C3 {
+    toString(a21, a22, a23) {
+        let v24;
+        try { v24 = a21(v13, v15, this, a22, a23); } catch (e) {}
+        v2 = v24;
+        super[v14];
+        try {
+            v14.e = a22;
+        } catch(e29) {
+        }
+        return a22;
+    }
+    g = "H";
+}
+new C19();
+new C19();
+new C19();
+const v34 = new Float32Array();
+const v37 = new BigUint64Array(512);
+v37["g"](v34);

@@ -1,0 +1,32 @@
+function f1() {
+    const o8 = {
+        [true]: true,
+        m() {
+            super[this] = this;
+            const o6 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o6);
+            return this;
+        },
+    };
+    return o8;
+}
+f1();
+f1();
+f1(true, f1, f1);
+function f12() {
+    return true;
+}
+const t21 = "description";
+t21[8] = "description";
+("replace")[1];
+const v20 = [];
+const v21 = [v20,true,f1];
+v21[86006233] = v21;
+v20.c = v21;
+const v23 = (-1460033111).multiline;
+try { v23.isNaN("description"); } catch (e) {}
+const v25 = v23(v23, v23);
+try { v25.toFixed(v20); } catch (e) {}

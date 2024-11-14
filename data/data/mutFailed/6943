@@ -1,0 +1,97 @@
+const v1 = new WeakSet();
+("global")[5];
+try { ("d").charAt("f"); } catch (e) {}
+function f7(a8, a9) {
+    a9[0] = a9;
+    const o26 = {
+        11: a9,
+        1073741824: v1,
+        get e() {
+            /JAF5+/ms;
+            /Q7[a-zA-Z0-9]NgOI(o)/gvdisy;
+            /(a\1)/vy;
+            return "global";
+        },
+        n(a15, a16) {
+            let v17 = 0;
+            while (v17 < 1) {
+                const o23 = {
+                    "execution": a9,
+                    "type": "minor",
+                };
+                gc(o23);
+                v17++;
+            }
+            return WeakSet;
+        },
+    };
+    return o26;
+}
+const v27 = f7("f", "f");
+v27[1073741824] = v27;
+const v28 = f7("d", "global");
+v28[1073741824] = v28;
+const v29 = f7("f", "f");
+class C33 {
+    m(a35, a36, a37) {
+        let v38;
+        try { v38 = v1.has(..."global", v27, a37, ...a36, this, v28); } catch (e) {}
+        try {
+            const t39 = "d";
+            t39.valueOf = v38;
+        } catch(e39) {
+        }
+        return a37;
+    }
+    toString(a41, a42, a43) {
+        const o44 = {
+        };
+        try {
+            o44.g = "f";
+        } catch(e45) {
+        }
+        try {
+            const o46 = {
+            };
+            o46.g = "f";
+            o46.a = this;
+        } catch(e47) {
+        }
+        try {
+            const o48 = {
+            };
+            o48.g = "f";
+            v27.a = this;
+            o48.f = "d";
+        } catch(e49) {
+        }
+        try {
+            const o50 = {
+            };
+            o50.g = "f";
+            o50.a = this;
+            o50.f = a42;
+        } catch(e51) {
+        }
+        return this;
+    }
+}
+const v52 = new C33();
+try { v52.toString("d", v29, 65535n); } catch (e) {}
+const v54 = new C33();
+const t81 = "f";
+new t81();
+function F56() {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.isPrototypeOf(this); } catch (e) {}
+    for (let v59 = 0; v59 < 1000; v59++) {
+        const v61 = "p" + v59;
+        const v62 = v61.fontcolor();
+        try { v62.localeCompare(v54); } catch (e) {}
+        this[v61] = v59;
+    }
+}
+try { new F56(); } catch (e) {}
+const v65 = new F56();
+v65.p236 = v65;
+new F56();

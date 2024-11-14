@@ -1,0 +1,66 @@
+function f7(a8, a9, a10) {
+    const o22 = {
+        [a10]: 914072388n,
+        "e": 31805n,
+        set g(a12) {
+            a12 = a10;
+            new Int8Array(536870889);
+            new Float64Array(257);
+            new Float32Array(4);
+        },
+        "c": -2n,
+    };
+    o22[Symbol.toPrimitive] = f7;
+    return o22;
+}
+Object.defineProperty(f7, Symbol.toPrimitive, { configurable: true, value: f7 });
+const v27 = f7(-1073741824, 31805n, 31805n);
+f7(-1073741824, 914072388n, 31805n);
+f7(914072388n, 31805n, -2n);
+class C30 extends f7 {
+    static b;
+    [914072388n] = v27;
+    static o(a32, a33, a34) {
+        %VerifyType(this);
+        a33[a33] = -2n;
+        v27[-2];
+        try {
+            this.b = undefined;
+        } catch(e36) {
+        }
+        return a33;
+    }
+    [-4096];
+    static [v27] = -1073741824;
+    static [f7];
+}
+new C30();
+new C30();
+new C30();
+class C40 {
+}
+function f41() {
+    function F42() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v44 = 0; v44 < 500; v44++) {
+            this["p" + v44] = v44;
+        }
+    }
+    const v47 = new F42();
+    return v47;
+}
+C40[Symbol.toPrimitive] = f41;
+Date[Symbol.toPrimitive] = Symbol;
+Date.toString = Symbol;
+class C54 extends Date {
+}
+function f55(a56, a57) {
+    try {
+        new f7(a56, a57, 914072388n);
+    } catch(e59) {
+    }
+    return a56;
+}
+C54.valueOf = f55;
+const v60 = new C54();
+try { v60.setMonth(C40, C54); } catch (e) {}

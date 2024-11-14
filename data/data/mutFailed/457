@@ -1,0 +1,47 @@
+class C3 {
+    static e;
+    #p(a5) {
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        const v11 = v9--;
+                        v9 == 0;
+                        const o14 = {
+                            "done": v11,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+        return "VUB";
+    }
+}
+const v17 = new C3();
+const v18 = new C3();
+const v19 = new C3();
+class C20 extends C3 {
+    static o(a22, a23, a24) {
+        Object.defineProperty("VUB", 2382636378, { configurable: true, value: a23 });
+        Math.hypot(-0.0);
+        const v28 = -0.0 + -0.0;
+        Math.imul(v28, v28);
+        Math.cbrt(-0.0);
+        return v18;
+    }
+}
+const v31 = new v17();
+const v32 = new v31();
+new v32();
+const v35 = new Float64Array(Float64Array, Float64Array, Float64Array);
+new Uint8Array(1010);
+try { v35.filter(v35); } catch (e) {}
+const o40 = {
+    268435439: Uint8Array,
+    ...v19,
+};

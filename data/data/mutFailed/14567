@@ -1,0 +1,47 @@
+function f0() {
+    const o8 = {
+        p(a5) {
+            try {
+                this.fuck(-2.220446049250313e-16, a5);
+            } catch(e7) {
+            }
+            return -2.220446049250313e-16;
+        },
+        ["9223372036854775807"]: "9223372036854775807",
+        ..."9223372036854775807",
+        [-1.0758838468395036e+308]: -2.220446049250313e-16,
+    };
+    return o8;
+}
+f0();
+f0();
+f0();
+new Uint8Array(209);
+new Int32Array(1000);
+new Uint16Array(512);
+function f21() {
+    const o23 = {
+        get c() {
+            return this;
+        },
+    };
+    o23.configurable = 1000;
+    return o23;
+}
+const v24 = f21();
+class C25 extends f21 {
+}
+const v26 = new C25();
+function f27() {
+    return f21;
+}
+function f28(a29) {
+    class C30 {
+        constructor(a32, a33) {
+            return;
+        }
+    }
+}
+Object.defineProperty(v26, "enumerable", { writable: true, configurable: true, get: f27, set: f28 });
+const v38 = new Int32Array(v24, v26);
+Reflect.defineProperty(v24, v38, v26);

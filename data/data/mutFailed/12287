@@ -1,0 +1,93 @@
+function f0() {
+}
+function f4(a5, a6) {
+    const o19 = {
+        "e": f0,
+        "g": 0.9358900571201713,
+        [a6](a8, a9, a10) {
+            const o11 = {
+            };
+            try {
+                o11.b = a10;
+            } catch(e12) {
+            }
+            try {
+                const o13 = {
+                };
+                o13.b = a10;
+                o13.c = a8;
+            } catch(e14) {
+            }
+            try {
+                const o15 = {
+                };
+                o15.b = a10;
+                o15.c = a8;
+                o15.f = f0;
+            } catch(e16) {
+            }
+            try {
+                const o17 = {
+                };
+                o17.b = a10;
+                o17.c = a8;
+                o17.f = this;
+            } catch(e18) {
+            }
+            return -2.0;
+        },
+    };
+    return o19;
+}
+f4(565.3840913495906, 565.3840913495906);
+f4(565.3840913495906, 0.9358900571201713);
+const v22 = f4(0.9358900571201713, 565.3840913495906);
+class C23 extends f4 {
+    #o(a25, a26, a27) {
+        const o28 = {
+            "construct": f0,
+            "deleteProperty": f0,
+            "get": f0,
+            "getOwnPropertyDescriptor": f4,
+            "has": f0,
+            "isExtensible": f0,
+            "preventExtensions": f0,
+            "set": f4,
+        };
+        new Proxy(v22, o28);
+        return o28;
+    }
+}
+const v31 = new C23();
+const v32 = new C23();
+new C23();
+class C34 {
+    536870889 = C23;
+    o(a36, a37, a38, a39) {
+        try {
+            v31.g = a37;
+        } catch(e40) {
+        }
+        return C23;
+    }
+    static 268435440;
+    b = v22;
+    static h = v32;
+    7 = v22;
+    static #f;
+}
+const v41 = new C34();
+new v41();
+new C34();
+function f46(a47) {
+    const o48 = {
+        ...a47,
+        9: 255,
+        5: 65536,
+        536870889: a47,
+        6: a47,
+        [a47]: a47,
+    };
+    return o48;
+}
+f46(f46(C34));

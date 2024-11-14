@@ -1,0 +1,70 @@
+function f3() {
+    class C4 {
+    }
+    function f5() {
+        const t4 = -28493;
+        t4[9] = C4;
+        const v6 = /[abc+]/gvdim;
+        const v7 = v6.sticky;
+        const v8 = [v6,v6,v6,v6];
+        const v9 = /ka{0}/guims;
+        function f10(a11, a12) {
+            const o13 = {
+                ...v9,
+                "d": v8,
+                "c": a12,
+                "g": a12,
+                "f": v8,
+                "b": v7,
+                "a": a12,
+            };
+            return f10;
+        }
+        return f10(v8, v9);
+    }
+    Object.defineProperty(C4, "constructor", { configurable: true, value: f5 });
+    const v15 = C4?.constructor;
+    try { new v15(f3); } catch (e) {}
+    const v17 = new C4();
+    v17.length = v17;
+    try { v17.constructor(); } catch (e) {}
+    v17.length = v17;
+    return v17.length;
+}
+%PrepareFunctionForOptimization(f3);
+const v20 = f3();
+const v21 = f3();
+try { v21.isPrototypeOf(v20); } catch (e) {}
+%OptimizeFunctionOnNextCall(f3);
+const v23 = f3();
+try { v23.hasOwnProperty(4294967297); } catch (e) {}
+class C25 {
+    valueOf(a27, a28) {
+        super[a27] = this;
+        try {
+            a27.toString = a27;
+        } catch(e29) {
+        }
+        return this;
+    }
+    static #f = 4294967297;
+    static a = -28493;
+}
+new C25(C25, -28493);
+new C25();
+new C25();
+try { ("number").replaceAll(4294967297, v23); } catch (e) {}
+try { ("p").trimLeft(); } catch (e) {}
+class C38 {
+}
+try { C38(); } catch (e) {}
+const v40 = new C38();
+v40.toString = f3;
+const o41 = {
+};
+o41.h = o41;
+const v43 = new Proxy(v40, o41);
+v43[Symbol.toPrimitive] = f3;
+const v46 = v43?.constructor;
+try { new v46(); } catch (e) {}
+v43.propertyIsEnumerable(v43, C38);

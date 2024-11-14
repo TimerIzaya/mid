@@ -1,0 +1,74 @@
+function f0() {
+    let v3 = 8;
+    v3--;
+    const o19 = {
+        ...6.256726875618803,
+        set a(a6) {
+            a6.d >>= 113;
+        },
+        __proto__: v3,
+        toString(a11, a12) {
+            a11[1410] = a12;
+            const v14 = new Date();
+            v14 !== 6.256726875618803;
+            try { this["p"](Date); } catch (e) {}
+            return super.b;
+        },
+    };
+    return o19;
+}
+const v20 = f0();
+const v21 = v20();
+const v22 = f0();
+try { v22.toString(v22, f0); } catch (e) {}
+class C24 extends f0 {
+    valueOf(a26, a27) {
+        %VerifyType(v22);
+        super.a = v22;
+        return 0.8872185562270466;
+    }
+    get c() {
+        for (const v32 of this) {
+            let v33;
+            try { v33 = new v32(v32, this, f0); } catch (e) {}
+            const v34 = (v33 = this)[v22];
+            const o35 = {
+                "call": f0,
+                "construct": f0,
+                "defineProperty": f0,
+                "deleteProperty": f0,
+                "get": f0,
+                "getOwnPropertyDescriptor": f0,
+                "has": f0,
+                "isExtensible": f0,
+                "ownKeys": v34,
+                "set": v22,
+                "setPrototypeOf": f0,
+            };
+            new Proxy(v33, o35);
+        }
+        return f0;
+    }
+}
+try { new C24(); } catch (e) {}
+const v39 = new C24();
+try { v39.toString(v22, v22); } catch (e) {}
+const v41 = new C24();
+const v42 = new C24();
+const v47 = new Date();
+const v48 = [v42,v47,v39,v42];
+const v49 = [v21,v48,v20,v22,v41];
+try { v49.reduce(v47); } catch (e) {}
+[v22,v47];
+function F53(a55, a56) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v57 = this?.__defineGetter__;
+    try { new v57(a56, v48); } catch (e) {}
+}
+let v59 = new F53();
+class C60 {
+    constructor(a62, a63, a64) {
+        ({"c":v59,...v59} = a63);
+    }
+}
+try { C60(-994392368, -994392368, Date); } catch (e) {}

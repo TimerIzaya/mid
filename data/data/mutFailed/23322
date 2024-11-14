@@ -1,0 +1,53 @@
+const v5 = new Array(4096);
+class C6 {
+    constructor(a8, a9, a10) {
+        const o15 = {
+            "b": 1e-15,
+            [3](a14) {
+            },
+        };
+        delete o15.b;
+        const o19 = {
+            "maxByteLength": 3289434788,
+        };
+        const v21 = new ArrayBuffer(2363, o19);
+        new Float32Array(v21);
+    }
+}
+const v24 = new C6("-60585136", 4096, "-60585136");
+const v25 = new C6("number", Array, v24);
+new C6("lPqy", v25, "lPqy");
+class C27 {
+    static [-2] = C6;
+    n(a29, a30) {
+        try {
+            C6.f = "lPqy";
+        } catch(e31) {
+        }
+        return C6;
+    }
+    226;
+    [v5];
+    static d;
+}
+new C27();
+new C27();
+new C27();
+const v36 = [1073741824,1073741823,1376142744,1073741825];
+v36.g = v36;
+function f37(a38, a39, a40, a41) {
+    try {
+        v36.forEach(a41, a38);
+    } catch(e43) {
+    }
+    const o45 = {
+    };
+    const v47 = new Proxy(Uint8ClampedArray, o45);
+    try { v47.apply(Symbol, f37); } catch (e) {}
+    return o45;
+}
+for (let v49 = 0; v49 < 10; v49++) {
+    f37(v36, v49, f37, f37);
+}
+%OptimizeFunctionOnNextCall(f37);
+f37();

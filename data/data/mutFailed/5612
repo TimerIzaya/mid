@@ -1,0 +1,32 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a5;
+}
+function f6(a7, a8) {
+}
+function f9(a10, a11, a12, a13) {
+    const o14 = {
+    };
+    return a12;
+}
+function F15(a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    const o18 = {
+        "preventExtensions": f9,
+        "setPrototypeOf": f6,
+    };
+    new Proxy(this, this);
+    const v21 = this?.constructor;
+    try { new v21(); } catch (e) {}
+}
+new Float32Array(255);
+new Uint32Array(3);
+new parseInt(222);
+Math.sinh(222);
+new Error(3);
+const v42 = new Map();
+function f43(a44) {
+    return a44;
+}
+Object.defineProperty(v42, "g", { configurable: true, enumerable: true, get: f43, set: Uint32Array });
+Math.log1p();

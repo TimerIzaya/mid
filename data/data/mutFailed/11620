@@ -1,0 +1,50 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o17 = {
+        "c": a4,
+        [Map](a6, a7) {
+            this[6] += a6;
+            new Int8Array(512);
+            new Float32Array(2);
+            const v16 = new BigUint64Array(7);
+            return v16;
+        },
+    };
+    return o17;
+}
+const v18 = f2(f2, v1);
+const v19 = f2(v1, v1);
+const v20 = f2(v19, v1);
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a23;
+    try {
+        this.c = a25;
+    } catch(e26) {
+    }
+    try {
+        this.e = v18;
+    } catch(e27) {
+    }
+    try {
+        this.b = v20;
+    } catch(e28) {
+    }
+}
+const v29 = new F21(v18, v20, v20);
+const v30 = new F21(v29, v20, v18);
+new F21(v30, v30, v29);
+[v1,F21,f2,[f2,v19,Map],Map];
+[f2,Map];
+function f37() {
+    return Uint16Array;
+}
+function f38(a39) {
+    const v41 = new Uint8Array();
+    const o42 = {
+        ...v41,
+    };
+}
+Object.defineProperty(Uint16Array, 1, { writable: true, configurable: true, get: f37, set: f38 });
+Uint16Array[1] = 1277001064;
+new Uint16Array(Uint16Array);

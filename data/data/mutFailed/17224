@@ -1,0 +1,45 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = this;
+    try {
+        this.e = a5;
+    } catch(e6) {
+    }
+    try {
+        this.g = -213505079;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(7);
+new F3(v8);
+const v10 = new F3(7);
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 7;
+    } catch(e17) {
+    }
+    try {
+        this.b = a16;
+    } catch(e18) {
+    }
+}
+new F11(7, v10, -315148103, 7);
+const v20 = new F11(7, v8, 7, 7);
+new F11(-213505079, v20, -213505079, -315148103);
+[22773,-65537,536870889,33636,1478218439,-128,-559743708,16,-9223372036854775807];
+[16627,25050,-65535,-268435456,2147483648,536870912,-909155128];
+[56631,-1989,-65537,1000,29259];
+const v27 = [-48288,15,-63536,268435456];
+v27[Symbol.toPrimitive] = Array;
+class C30 extends Array {
+    constructor(a32, a33, a34) {
+        super(a32);
+    }
+}
+new C30(178);
+const v36 = new C30();
+const v37 = new C30();
+for (let i = 0; i < 5; i++) {
+    v36[v27] = v37;
+}

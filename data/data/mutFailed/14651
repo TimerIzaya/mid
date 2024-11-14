@@ -1,0 +1,60 @@
+const v1 = new Map();
+function f3(a4, a5) {
+    function f6(a7, a8) {
+        return a8;
+    }
+    Set.toString = f6;
+    const o10 = {
+        ...a4,
+    };
+    return a5;
+}
+%PrepareFunctionForOptimization(f3);
+f3();
+%OptimizeFunctionOnNextCall(f3);
+f3(f3);
+class C15 {
+    static [1324543844] = v1;
+    static #d = v1;
+    constructor(a17, a18) {
+        const v20 = [a17];
+        Reflect.apply(v1.forEach, this, v20);
+        [] = v20;
+        try {
+            Reflect.#d **= -10;
+        } catch(e23) {
+        }
+    }
+}
+new C15(1324543844, -10);
+new C15(1324543844, -10);
+const v26 = new C15(1324543844, 1324543844);
+class C27 {
+    static n(a29, a30, a31) {
+        try {
+            a29.fuck(-2.220446049250313e-16, /P/gdis);
+        } catch(e35) {
+        }
+        return v26;
+    }
+    a = Map;
+    static #b = v26;
+    [Map];
+}
+new C27();
+new C27();
+new C27();
+class C40 {
+    constructor(a42, a43) {
+        function f44(a45) {
+            return this;
+        }
+        const o48 = {
+            "type": "function",
+        };
+        new Worker(f44, o48);
+    }
+}
+const v50 = new C40(C40, C40);
+new C40();
+new C40(-50865, v50);

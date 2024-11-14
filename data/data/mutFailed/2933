@@ -1,0 +1,29 @@
+new Float64Array(10);
+new Int8Array(12);
+new Uint32Array(10);
+new Uint8ClampedArray(10);
+new Int16Array(10);
+new Uint32Array(257);
+new Int8Array(129);
+new Uint8ClampedArray(154);
+const v29 = new Int32Array(-34899);
+function F30(a32, a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = Float64Array;
+    try {
+        a32.h = a32;
+    } catch(e36) {
+    }
+    try {
+        this.f = 12;
+    } catch(e37) {
+    }
+}
+let v38 = new F30(3917, 1073741824, 129, 154);
+new F30(154, 129, 129, 129);
+new F30(7, 154, 154, 129);
+const v41 = v29.buffer;
+let v42;
+try { v42 = v41(Uint8ClampedArray, Int8Array, -34899, v41); } catch (e) {}
+typeof v42 === "string";
+v38 = v42;

@@ -1,0 +1,87 @@
+function f1(a2, a3) {
+    URIError(4, 9);
+    return Map;
+}
+Map[Symbol.toPrimitive] = f1;
+const v10 = new Map();
+v10[Symbol.toPrimitive] = f1;
+let v15 = "number";
+function f16(a17, a18) {
+    const o26 = {
+        valueOf(a20, a21, a22) {
+            try {
+                const o23 = {
+                };
+                new Map(o23);
+            } catch(e25) {
+            }
+            return a20;
+        },
+        "e": v15,
+        "b": a17,
+        [a17]: a17,
+        ...a17,
+        "h": Map,
+    };
+    return o26;
+}
+const v27 = f16(v15, v10);
+const v28 = f16("function", v27);
+const v29 = f16(v15, Map);
+class C30 extends Map {
+    static set b(a32) {
+        function F33() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.h = 268435440;
+        }
+        class C38 extends Float64Array {
+            static 1;
+            static #d = 256;
+        }
+        Object.defineProperty(v27, v27, { writable: true, value: this });
+    }
+    static #d = v10;
+    static ["toISOString"] = v15;
+    static #b;
+    static get f() {
+        for (let v43 = 0; v43 < 6; v43++) {
+            try {
+                v27.g = "function";
+            } catch(e44) {
+            }
+        }
+        return f16;
+    }
+}
+const v45 = new C30();
+const v46 = new C30();
+const v47 = new C30();
+function f48(a49, a50, a51) {
+    const o59 = {
+        "b": v10,
+        [v10]: v28,
+        [Map]: v47,
+        "h": C30,
+        "f": a50,
+        toString(a53, a54, a55) {
+            %VerifyType(this);
+            v15++;
+            v47[v45] = v47;
+            a49[1] = a54;
+            try {
+                super.o("toISOString", a50, v46);
+            } catch(e58) {
+            }
+            return a49;
+        },
+    };
+    return o59;
+}
+f48(v46, "toISOString", v10);
+f48(v15, C30, v47);
+f48(v10, v29, v15);
+const v65 = new Int8Array(268435456);
+new BigInt64Array(2001);
+const v70 = eval(eval);
+v70.isExtensible = v27;
+try { v70.isExtensible(v65); } catch (e) {}

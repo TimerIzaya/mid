@@ -1,0 +1,46 @@
+const v1 = new Map();
+const v2 = [Map,v1,v1];
+const v3 = [v2,v2,Map,Map];
+const v4 = [v1,v1,v3,v2,Map];
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v2.g = v4;
+    } catch(e8) {
+    }
+}
+new F5(v3);
+const v10 = new F5(v2);
+const v11 = new F5(v2);
+function f12(a13, a14, a15, a16) {
+    const o22 = {
+        9: v11,
+        "h": a15,
+        ...a16,
+        87: v4,
+        "b": v3,
+        [v1](a18, a19) {
+            return a19;
+            super.b = a18;
+            try {
+                v4.length = 0;
+            } catch(e21) {
+            }
+            return 0;
+        },
+    };
+    return o22;
+}
+f12(v3, v4, v2, v2);
+f12(v10, v4, v4, v4);
+f12(v3, v2, v3, v4);
+const v26 = [-6.672391061426152e+307];
+function f27() {
+    [f27,f27,f27,f27,f27];
+    v26["pop"]();
+    return v26;
+}
+%PrepareFunctionForOptimization(f27);
+f27();
+%OptimizeFunctionOnNextCall(f27);
+F5();

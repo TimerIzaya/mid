@@ -1,0 +1,44 @@
+const v2 = new Uint8Array(142);
+const v4 = 225 >> 225;
+const v6 = new BigInt64Array(225);
+const v9 = new Float64Array(937);
+class C10 extends Float64Array {
+    m(a12, a13, a14, a15) {
+        let v17 = Symbol.hasInstance;
+        v9[v17] = v17;
+        this.length -= a15;
+        v17 /= v17;
+        return Float64Array;
+    }
+    static {
+        C10 = v4;
+    }
+    b = 225;
+    a = Float64Array;
+    [v6] = Uint8Array;
+    static #toString(a20, a21) {
+        let {"byteLength":v22,"byteOffset":v23,"d":v24,...v25} = v9;
+        function F26(a28, a29, a30, a31) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a29;
+            } catch(e32) {
+            }
+        }
+        const v33 = new F26(C10, 142, v2, 937);
+        new F26(937, v4, v24, a21);
+        new F26(v4, a20, v6, a20);
+        return v33;
+    }
+    d;
+}
+const v37 = new Set();
+try {
+    v9.findIndex(v9, v37);
+} catch(e39) {
+}
+new C10();
+new C10();
+new C10();
+gc.arguments = gc;
+gc();

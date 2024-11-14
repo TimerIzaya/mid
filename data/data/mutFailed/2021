@@ -1,0 +1,47 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 37897;
+    } catch(e3) {
+    }
+    try {
+        this.d = 37897;
+    } catch(e4) {
+    }
+    try {
+        this.f = 37897;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 extends v7 {
+    constructor(a11, a12) {
+        super();
+        new Int8Array(3);
+        new BigUint64Array(1024);
+        new Int16Array(257);
+    }
+    static #f;
+}
+new C9(v8, v6);
+const v23 = new C9(v7, v6);
+new C9(v23, v7);
+const v34 = new Uint8Array();
+const v37 = new Uint32Array();
+function f38(a39, a40, a41, a42) {
+    const o46 = {
+        "f": 2,
+        "b": a39,
+        "c": a42,
+        ...v34,
+        n(a44, a45) {
+            v37[a39] = v37;
+        },
+    };
+}
+f38("2147483648", 2, 1, 2);
+for (let v48 = 0; v48 < 625; v48++) {
+    f38(Uint8Array, 2, C9, 2);
+}

@@ -1,0 +1,9 @@
+const v10 = [true,6,,[["isFinite","IM"],"isFinite",true]];
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v16 = this.g;
+    v16.caller;
+    try { new v16(this, F12, F12); } catch (e) {}
+}
+const v19 = new F12(F12, F12);
+new F12(v10, v10, v19);

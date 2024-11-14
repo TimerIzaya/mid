@@ -1,0 +1,83 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 1073741824;
+    } catch(e3) {
+    }
+    try {
+        this.d = 1073741824;
+    } catch(e4) {
+    }
+    try {
+        this.a = 1073741824;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+const v9 = [1073741824,1073741824,2147483649];
+const v10 = [-12];
+const v11 = [10000,16,268435456,-268435456];
+class C12 extends F0 {
+    #p(a14, a15) {
+        a14 | this;
+        function f17(a18, a19, a20, a21) {
+            try { v6["m"](); } catch (e) {}
+            return a18;
+        }
+        f17(v6, this, a15, v8);
+        function F26(a28) {
+            if (!new.target) { throw 'must be called with new'; }
+            a28 ^ a28;
+            const v30 = this?.constructor;
+            try { new v30(3n); } catch (e) {}
+            const o32 = {
+                __proto__: v9,
+                [a28]: v30,
+                "a": f17,
+            };
+        }
+        return v11;
+    }
+    static #d;
+    static get c() {
+        eval();
+    }
+    #e = v8;
+}
+const v36 = new C12();
+new C12();
+const v38 = new C12();
+class C39 extends C12 {
+    #f;
+    constructor(a41, a42, a43, a44) {
+        super();
+        function F45(a47, a48, a49) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = a47;
+            } catch(e50) {
+            }
+        }
+        const v51 = new F45(a41, this, v38);
+        new F45(a41, this, v51);
+        new F45(a42, v36, v6);
+    }
+}
+new C39(v10, v9, v10, v7);
+const v55 = new C39(v10, v10, v10, C39);
+new C39(v11, v10, v10, v55);
+class C58 {
+    static {
+        Object.defineProperty(this, -30745, { writable: true, enumerable: true, value: this });
+        let v60;
+        try { v60 = C58(this, -30745, this, v55, ...v11); } catch (e) {}
+        v60.d >>= v60;
+        const o63 = {
+            "maxByteLength": 2150,
+        };
+        const v65 = new ArrayBuffer(6, o63);
+        new Uint32Array(v65);
+    }
+}

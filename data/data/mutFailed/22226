@@ -1,0 +1,19 @@
+function f3() {
+    return "c";
+}
+f3.arguments = f3;
+-4963 >>> -4963;
+class C14 {
+    static {
+        function F16(a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v20 = this.propertyIsEnumerable(this);
+            v20 && v20;
+            const v22 = this.constructor;
+            try { new v22(); } catch (e) {}
+            try { this.constructor(); } catch (e) {}
+        }
+        F16.name = F16;
+        new F16(C14, C14);
+    }
+}

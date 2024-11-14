@@ -1,0 +1,65 @@
+function f0() {
+    const o17 = {
+        get f() {
+            const o5 = {
+            };
+            new Proxy(this, o5);
+            new Int16Array(2614);
+            new Uint8Array(16);
+            new Int16Array(5);
+            return 2614;
+        },
+    };
+    const v18 = o17?.__defineGetter__;
+    try { new v18(1.6977250023986734, 0.7731853115311048); } catch (e) {}
+    return o17;
+}
+const v20 = f0();
+const v21 = f0();
+const v22 = f0();
+class C23 extends f0 {
+    set g(a25) {
+        f0(this, a25, v21, a25, f0, a25);
+        [v20,v21,this,v20,v20];
+        [v22,a25,a25,this,this];
+        [a25,v22,v22];
+    }
+    360 = f0;
+    static #f;
+    10000 = v21;
+    static f;
+}
+const v30 = new C23();
+const v31 = new v30();
+const v32 = new C23();
+v32[360] = v32;
+class C33 extends f0 {
+    toString(a35, a36, a37, a38) {
+        let v39;
+        try { v39 = v31.log10(a35, this, a36); } catch (e) {}
+        Object.defineProperty(this, a38, { configurable: true, enumerable: true, value: v30 });
+        const v41 = v30;
+        v21[v41] += v39;
+        return Uint8Array;
+    }
+    static e = v30;
+    [-2] = v32;
+}
+const v42 = new C33();
+if (C33 <= v42) {
+    try {
+        v42.length = 0;
+    } catch(e45) {
+    }
+} else {
+    v32[2] = C23;
+}
+const v46 = new C33();
+new C33();
+const v48 = v46?.__defineGetter__;
+try { new v48(v32, v46); } catch (e) {}
+-1 + -1;
+/95(foo(?<!bar)baz)/gvdims;
+/f\b(?:a+)+/gvmy;
+const v56 = /d(?:ab|cde)/dmy;
+try { v56.exec(8); } catch (e) {}

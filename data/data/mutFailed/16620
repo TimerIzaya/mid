@@ -1,0 +1,65 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e6) {
+    }
+    try {
+        this.b = 1558412151n;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(256n);
+const v9 = new F3(30252n);
+const v10 = new F3(30252n);
+const v12 = [null];
+[v12,v10,v12,v12];
+[v8,v10,v9,null,v8];
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C19 {
+    }
+    const v20 = [2.0,0.2901658812472846,-8.880306076496956e+307,943883.9104739067];
+    function f21(a22, a23, a24, a25) {
+        const v26 = /(?:a*)+q(?<a>.)/guds;
+        v26.dotAll = v26;
+        function f27(a28) {
+            const v29 = v20.constructor;
+            try { v29.isArray(v26); } catch (e) {}
+            return a28.constructor.$2.replaceAll(C19, a22);
+        }
+        for (let [i39, i40] = (() => {
+                function f35(a36, a37) {
+                    return a24;
+                }
+                return [0, 0];
+            })();
+            !(i39 < a22), a24;
+            (() => {
+                i40--;
+                const v47 = Symbol.toPrimitive;
+                const o51 = {
+                    [v47]() {
+                        v47["isArray"]();
+                    },
+                };
+            })()) {
+            for (let v54 = 0; v54 < 10; v54++) {
+                f27(v26);
+                function f56() {
+                    const o57 = {
+                        "c": v54,
+                    };
+                    return v54;
+                }
+            }
+        }
+        return a18;
+    }
+    for (let v58 = 0; v58 < 10; v58++) {
+        F3();
+    }
+    %OptimizeFunctionOnNextCall(f21);
+    f21();
+}
+new F15(F15, F15);

@@ -1,0 +1,38 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v3 = v0[F1];
+    Reflect.construct(v3, [this,F1], v3);
+    try {
+        "Fv" % v0;
+        try {
+            const t8 = "c";
+            t8.length = 257;
+        } catch(e12) {
+        }
+        this.e = v0;
+    } catch(e13) {
+    }
+    try {
+        this.a = v0;
+    } catch(e14) {
+    }
+    try {
+        this.b = v0;
+    } catch(e15) {
+    }
+}
+const v16 = new F1();
+new F1();
+new F1();
+9007199254740992 in v16;
+v16.b **= -2147483649;
+new Int16Array(10);
+new Int16Array(128);
+new Uint8ClampedArray(80);
+const o39 = {
+    [-352741132]: -352741132,
+    set b(a38) {
+    },
+    "b": 2.220446049250313e-16,
+};

@@ -1,0 +1,91 @@
+function f0() {
+}
+const v1 = [-59854,-9007199254740991,-36927,-1,536870888,9,2147483649,-17903,-1191258647,-43905];
+[-9017,2002260672,512,19888,-128,-12438,-10288,-1];
+const v3 = [128,512,-922342717,268435456,128];
+const v4 = [v1,f0,v1];
+[f0];
+const v6 = [v1,v3];
+const v7 = [4.659197113280696,-3.0,-1.7976931348623157e+308];
+const v8 = [Infinity,1.0,524933.0040485382,-Infinity,-1.1381764686962064e+307,-1000000000000.0];
+try { v8.reduceRight(); } catch (e) {}
+const v10 = [1.0937207134300834e+308,-1000.0,8.298464805709415e+307,-1000000.0,-2.220446049250313e-16];
+const v11 = v10[3];
+%VerifyType(v3);
+try { v6["sort"](...f, ...v4, ...v10, ...v10); } catch (e) {}
+try {
+    v4.c = v10;
+} catch(e15) {
+}
+class C16 extends f0 {
+    3 = v7;
+    set e(a18) {
+        const v20 = Symbol.iterator;
+        const o26 = {
+            [v20]() {
+                let v22 = 10;
+                const o25 = {
+                    next() {
+                        v22--;
+                        return this;
+                    },
+                };
+            },
+        };
+    }
+    p(a28, a29, a30, a31) {
+        const o35 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o35);
+        return o35;
+    }
+    static {
+        this.name;
+    }
+    [v3] = v3;
+    c;
+    constructor(a43) {
+        function F44(a46, a47, a48) {
+            if (!new.target) { throw 'must be called with new'; }
+            a46 === a47;
+        }
+        function f50() {
+            const v51 = new F44();
+            const t55 = v51.constructor;
+            const v53 = new t55();
+            const v54 = v51.constructor;
+            const v55 = new v54();
+            const t59 = v55.constructor;
+            new t59(v54, v55, v53, a43);
+            return a43;
+        }
+        f50();
+        %OptimizeFunctionOnNextCall(f50);
+        f50();
+    }
+    static #m(a61, a62) {
+        this !== a61 ? this : a61;
+        return 10423n;
+    }
+}
+let v68;
+try { v68 = new C16(); } catch (e) {}
+const v69 = new C16(C16, v11, f0);
+new C16();
+new C16(C16, C16, v68);
+try { new ReferenceError(ReferenceError); } catch (e) {}
+const v74 = ReferenceError(ReferenceError, v4, v69, C16);
+v74.message;
+function f76() {
+    return f76;
+}
+const v79 = new Float32Array();
+function F80(a82, a83, a84, a85) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v86 = this.constructor;
+    try { new v86(v79, a84, 2); } catch (e) {}
+    this.h = a83;
+}
+v74.stack = v74;

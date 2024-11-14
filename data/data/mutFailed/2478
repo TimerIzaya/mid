@@ -1,0 +1,8 @@
+"padEnd" instanceof "bigint";
+try {
+    const t2 = "padEnd";
+    t2.__proto__ = "bigint";
+} catch(e4) {
+}
+const v16 = new BigUint64Array(16);
+try { Float32Array.apply(16, v16); } catch (e) {}

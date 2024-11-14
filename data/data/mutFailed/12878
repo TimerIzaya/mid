@@ -1,0 +1,92 @@
+function f3() {
+    return "-256";
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v8 = this?.constructor;
+    try { new v8(F4, "undefined"); } catch (e) {}
+    try {
+        this.f = a6;
+    } catch(e10) {
+    }
+    try {
+        this.h = a6;
+    } catch(e11) {
+    }
+    try {
+        this.a = a7;
+    } catch(e12) {
+    }
+}
+const v13 = new F4("undefined", "F");
+const v14 = new F4("undefined", "F");
+function f15(a16) {
+    const v18 = Symbol.iterator;
+    const o20 = {
+        [v18]() {
+        },
+    };
+    return v18;
+}
+v14.toString = f15;
+const v21 = new F4("F", "-256");
+v21.toString = f3;
+function f22(a23, a24) {
+    const o25 = {
+        __proto__: a24,
+        "a": v21,
+        "c": a23,
+        8: a24,
+        4096: a24,
+        5: F4,
+        204: v21,
+        ...a23,
+        "h": v14,
+        "g": a24,
+        "e": a24,
+        "g": "undefined",
+        "b": a24,
+        "d": "F",
+        6: a23,
+        "f": v13,
+        ...v14,
+        "d": a24,
+        2513639575: v13,
+        [v14]: f3,
+        "f": a23,
+        "h": v13,
+    };
+    return o25;
+}
+f22.f = f15;
+f22.f = f22;
+f22(v13, v21);
+const v27 = f22(v21, v13);
+v27[2513639575];
+f22(v21, v27)[8];
+try {
+    new f3();
+} catch(e34) {
+}
+v21 - v21;
+-(-5);
+Math.clz32(2.2250738585072014e-308);
+-5 ^ v21;
+Math.log10(-5);
+const v43 = new Uint16Array(3852);
+function f44() {
+    const v47 = new Float32Array(11);
+    return v47;
+}
+v43[Symbol.toPrimitive] = f44;
+v43[2426] = v43;
+new Int8Array(3918);
+let v53 = 9;
+v53++;
+const v56 = new Uint8ClampedArray(v53);
+try { v56.reduceRight(Uint8ClampedArray); } catch (e) {}
+function f59() {
+    return f3;
+}
+Object.defineProperty(Date, Symbol.iterator, { writable: true, configurable: true, enumerable: true, get: f59 });
+new Uint8ClampedArray(Date);

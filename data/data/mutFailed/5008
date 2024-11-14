@@ -1,0 +1,26 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.e = f0;
+    } catch(e4) {
+    }
+    try {
+        this.c = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+v6 >> f0;
+let v11 = ~13;
+const v12 = ++v11;
++v11;
+new v12();
+new F1();
+new Array(F1);
+gc(128n);

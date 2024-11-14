@@ -1,0 +1,41 @@
+const v5 = new Int16Array(2183);
+let [v6,v7,...v8] = v5;
+try {
+} catch(e9) {
+}
+new BigInt64Array(64);
+new Uint8ClampedArray(7);
+new Float32Array(64);
+class C19 extends Uint8ClampedArray {
+    [127] = -65536;
+    m(a21, a22, a23) {
+        new WeakSet();
+        return 127;
+    }
+    static #e = -65536;
+    get f() {
+        const v29 = Symbol.iterator;
+        const o38 = {
+            [v29]() {
+                let v31 = 10;
+                const o37 = {
+                    next() {
+                        v31--;
+                        const v35 = v31 == 0;
+                        const o36 = {
+                            "done": v35,
+                            "value": v31,
+                        };
+                        return o36;
+                    },
+                };
+                return o37;
+            },
+        };
+        return o38;
+    }
+}
+new C19();
+new C19();
+new C19();
+Math.atan(5.134563044869008e+307);

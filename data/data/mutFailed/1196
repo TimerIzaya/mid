@@ -1,0 +1,58 @@
+function f0() {
+    new Float32Array(99);
+    const v9 = Array();
+    function f10(a11, a12) {
+        const o20 = {
+            "b": a11,
+            ...a12,
+            [a11](a14, a15) {
+                const v17 = WeakMap(a14);
+                v17.b;
+                super[v17] = v9;
+                function f19() {
+                    return a11;
+                }
+                return a11;
+            },
+        };
+        return o20;
+    }
+    const v21 = f0(8, 8);
+    f10(f10(v21, f10), Array);
+    for (const v24 of v21) {
+        function F25(a27, a28) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.g = v24;
+        }
+        new F25();
+        function f31(a32, a33) {
+            let [v35,v36,,...v37] = arguments;
+            return 48680;
+        }
+    }
+    const o38 = {
+        "a": 65537,
+        3: 0.7179618118144896,
+        10: v21,
+        "f": 0.7179618118144896,
+        [0.7179618118144896]: "function",
+        "e": 65537,
+        ..."function",
+        ["function"]: "function",
+        "h": "function",
+        ..."function",
+        [65537]: 0.7179618118144896,
+        __proto__: "function",
+        "c": 0.7179618118144896,
+        "g": "function",
+    };
+    return o38;
+}
+f0();
+f0();
+f0();
+[-964.2216304487725,-676216.3592633348,-1.7976931348623157e+308,0.4120993442222869];
+[0.31456055870223154,-2.0898135958003112e+307,285.11608632733805];
+[0.023304855281938597,456413.8775833037,-Infinity];
+const t50 = [-554.3883745381902,874.2208688504531,0.0,1.7976931348623157e+308,1e-15];
+t50[8] ^= -297927.3051276769;

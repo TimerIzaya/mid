@@ -1,0 +1,22 @@
+/abc|defs/dy;
+/Bp/vms;
+/3\P{Decimal_Number}/gvdmsy;
+new Uint8ClampedArray(233);
+new BigUint64Array(2637);
+new Uint32Array(2);
+const v18 = [1073741824,1073741823,1376142744,1073741825];
+function f19(a20, a21, a22, a23) {
+    a22.toString = f19;
+    const v24 = a22 + a22;
+    v24 > v24;
+}
+function f26(a27) {
+    Reflect.construct(a27, [Reflect,Reflect], Uint8ClampedArray);
+    return Reflect;
+}
+f19[Symbol.toPrimitive] = f26;
+for (let v33 = 0; v33 < 10; v33++) {
+    f19(v18, v33, v33);
+}
+%OptimizeFunctionOnNextCall(f19);
+f19(f19, f19, f19, f19);

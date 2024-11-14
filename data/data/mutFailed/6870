@@ -1,0 +1,59 @@
+function f3() {
+    return -15;
+}
+class C4 {
+    static [-15] = -4294967295;
+    #m(a6, a7) {
+        try {
+            this.f = this;
+        } catch(e8) {
+        }
+        function F11(a13, a14, a15) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a15;
+            } catch(e16) {
+            }
+        }
+        const v17 = new F11(-4294967295, a7, 4);
+        new F11(v17, "toString", -4294967295);
+        new F11(F11, F11, 4);
+        return 4;
+    }
+}
+new C4();
+new C4();
+new C4();
+new Uint8Array(1361);
+new Float32Array(129);
+new Int32Array(0);
+const v33 = /LD/vds;
+const v34 = /a\s/vims;
+const v35 = /SO/uis;
+function f36() {
+    return f3;
+}
+function f37(a38) {
+    const o39 = {
+    };
+}
+Object.defineProperty(v35, Symbol.toPrimitive, { writable: true, configurable: true, get: f36, set: f37 });
+function f45() {
+    return v33;
+}
+[12,65535,536870912,-8,1000,-9223372036854775808,-8,2,13];
+[2,30964,-9223372036854775808,8,536870887,61212,-9223372036854775807,10000,-380609068];
+[-527931172,-2147483647,1073741823,1913461086,9007199254740991,128,-2008902983,-7];
+const v49 = [v33,1000.0,v34];
+const v50 = [v33,1000.0];
+[v34,v50,v35,1000.0,v50];
+for (let v52 = 0; v52 < 22; v52++) {
+    const v53 = v34[v52];
+    try { new v53(v53); } catch (e) {}
+    v49[v35];
+    const o59 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o59);
+}

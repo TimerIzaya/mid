@@ -1,0 +1,40 @@
+function f0() {
+    const t1 = "MAX_SAFE_INTEGER";
+    t1[140] = "MAX_SAFE_INTEGER";
+    const v3 = f0();
+    try { new v3(v3, 40051); } catch (e) {}
+    try {
+        const t6 = "MAX_SAFE_INTEGER";
+        t6.toString = f0;
+    } catch(e5) {
+    }
+    const o20 = {
+        ["MAX_SAFE_INTEGER"]: 40051,
+        n(a8) {
+            this === a8;
+            let v13;
+            try {
+            const t0 = 0.3676429150129088;
+            v13 = t0(a8, -1652348057);
+            } catch (e) {}
+            a8 = this;
+            ("MAX_SAFE_INTEGER")["matchAll"](v13);
+            g = 10000;
+            a8[10000];
+            return 40051;
+        },
+        [-1]: 0.3676429150129088,
+        ..."MAX_SAFE_INTEGER",
+        "e": 0.3676429150129088,
+        "h": 40051,
+    };
+    return o20;
+}
+f0();
+f0();
+f0();
+new Int8Array(1651);
+new Float32Array(9);
+new Int32Array(64);
+const v38 = new BigUint64Array(1000);
+v38.includes(undefined);

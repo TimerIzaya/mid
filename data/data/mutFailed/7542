@@ -1,0 +1,53 @@
+function f0() {
+    const o16 = {
+        get e() {
+            function f5() {
+                function f6() {
+                    class C7 {
+                        constructor(a9) {
+                            function f10() {
+                                return a9;
+                            }
+                            Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f10 });
+                        }
+                    }
+                    new C7();
+                    const v12 = new C7(f6);
+                    v12.length;
+                    return f6;
+                }
+                %PrepareFunctionForOptimization(f6);
+                f6();
+                %OptimizeFunctionOnNextCall(f6);
+                f6();
+                return this;
+            }
+            return -1955004249;
+        },
+        182: 3.0,
+        [129]: 129,
+        "h": 3.0,
+        "g": 129,
+        [3.0]: -1955004249,
+        [-1955004249]: 129,
+        "e": 3.0,
+    };
+    return o16;
+}
+f0();
+f0();
+f0();
+/n(?<a>)ab|c+/gusy;
+/\c!xyz??/gmy;
+/[Hxyz{1,32}?]/vdm;
+new Uint8ClampedArray(3);
+new BigInt64Array(3053);
+new Uint32Array(202);
+function f32() {
+    return f32;
+}
+function f33() {
+    Object.defineProperty(arguments, 13, { enumerable: true, set: f32 });
+    return arguments;
+}
+f33();

@@ -1,0 +1,88 @@
+const v2 = new Int16Array(512);
+const v5 = new BigUint64Array(256);
+const v6 = v5?.constructor;
+try { new v6(v2, 256, BigUint64Array); } catch (e) {}
+try { new v6(Int16Array, 512, 512); } catch (e) {}
+let v11;
+try { v11 = new Int8Array(1, 256, 1); } catch (e) {}
+v11[0];
+new Int8Array(1);
+-2.5916949198328514e+307 / -2.5916949198328514e+307;
+[0.27004720807488614,3.0,1.5010010056466082e+308,0.921457067854265,9.826712563692599,3.4115589018267976,139739.609376756,2.0,-133040.35322689067];
+const v19 = [-1.7976931348623157e+308,Infinity,7.949166405363978e+307,-6.688190724164519e+307];
+v19[2] = v19;
+const v20 = [-871.0266213612376,368.7418162065253,-1000000000000.0,1.0766912349822633,2.220446049250313e-16,1.37955723954851e+308,-659.9398749762837,-1000.0,1000000000000.0];
+let v21 = 3;
+v21 >> v21;
+-(v21++);
+Float64Array.f = Float64Array;
+let v30 = 3609 + 3609;
+v30++;
+try { new Float64Array(256, v5, BigUint64Array); } catch (e) {}
+const v34 = new Float64Array(3609);
+function f37() {
+}
+try { f37(); } catch (e) {}
+const v39 = [601759695];
+const v40 = v39?.find;
+try { new v40(256); } catch (e) {}
+let v42;
+try { v42 = v39.toLocaleString(); } catch (e) {}
+try { v42.trimStart(); } catch (e) {}
+const v44 = [1073741824,1073741823,1376142744,1073741825];
+let v45 = 522675525n;
+v45--;
+function f47(a48, a49, a50, a51) {
+    a48--;
+    a49--;
+    arguments[3] = arguments;
+    function f55() {
+    }
+    f37();
+    const v58 = new Int8Array();
+    1073741824 === 1073741824;
+    function f61(a62, a63) {
+        const o67 = {
+            p(a65, a66) {
+            },
+            10: 1073741824,
+        };
+        o67.__proto__ = o67;
+        return o67;
+    }
+    f61();
+    const v69 = f61();
+    v69[10] = v69;
+    v58.buffer;
+    let v72 = 1000000000000.0;
+    v72--;
+    const v74 = [];
+    try { v74.lastIndexOf(v69); } catch (e) {}
+    1.0 === 1.0;
+    v74.length += 1.0;
+    const t62 = "resolve";
+    t62[5] = "resolve";
+    const t64 = "resolve";
+    t64[2] = "resolve";
+    %OptimizeFunctionOnNextCall(f55);
+    const t67 = "find";
+    t67[1] = "find";
+    try { ("6Ct").codePointAt(v72); } catch (e) {}
+    class C83 extends Date {
+    }
+    const v84 = C83?.UTC;
+    try { new v84(a51, v34, v58, v74, v34, v74, a51); } catch (e) {}
+    let v86;
+    try { v86 = new C83(); } catch (e) {}
+    try { v86.setUTCSeconds(f61, arguments); } catch (e) {}
+    try { v44["find"](); } catch (e) {}
+    for (const v90 in "1024") {
+        try { v90.blink(); } catch (e) {}
+    }
+}
+try { f47(BigUint64Array, 3609, v5, v20); } catch (e) {}
+for (let v93 = 0; v93 < 10; v93++) {
+    f47(v93, v93);
+}
+%OptimizeFunctionOnNextCall(f47);
+f47();

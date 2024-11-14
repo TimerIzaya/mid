@@ -1,0 +1,57 @@
+[];
+new Uint8Array(13);
+let v4 = 1675;
+let v5 = v4--;
+const v7 = new Uint8Array(v4);
+let v8 = 129;
+v8--;
+Float32Array.prototype = Float32Array;
+const v11 = new Float32Array(v8);
+const v13 = new WeakSet();
+new Int16Array(1000);
+const v19 = new Int32Array(2414);
+const v22 = new Float64Array(64);
+v7[v22] >>= 1000;
+try { v13.delete(64); } catch (e) {}
+try {
+    new WeakSet(v11);
+} catch(e25) {
+}
+function F27(a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    v5 = a29;
+    Reflect.construct(Uint8Array, [-868508584,-8,-868508584], a29);
+    const v37 = this.constructor;
+    try { v37.toString(); } catch (e) {}
+    try { new v37(268435440n, a30); } catch (e) {}
+    this.f = 268435440n;
+}
+const v40 = new F27();
+v40.f;
+for (let i43 = 0; i43 < 4; i43++) {
+    v19.byteOffset &&= 13;
+    try { v5(i43, i43); } catch (e) {}
+}
+const v50 = new F27();
+let v51 = 65536;
+v51 - v51;
+const v53 = v51--;
+v53 + v53;
+function f55(a56) {
+    const o59 = {
+        ...v51,
+        5: v51,
+        valueOf(a58) {
+            return v40;
+        },
+        "g": v51,
+    };
+    return v50;
+}
+%PrepareFunctionForOptimization(f55);
+const v60 = f55();
+v60.f = v60;
+f55();
+%OptimizeFunctionOnNextCall(f55);
+const v62 = f55(268435440n);
+v62.f = v62;

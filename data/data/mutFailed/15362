@@ -1,0 +1,52 @@
+new BigInt64Array(257);
+const v5 = new Float32Array(102);
+const v8 = new BigUint64Array(4);
+function f9() {
+    return 4;
+}
+class C10 extends BigUint64Array {
+    o(a12, a13) {
+        Object.defineProperty(v8, 256, { set: C10 });
+        let v15;
+        try { v15 = this["toSorted"](...a13, ...v5, f9, 102, 257); } catch (e) {}
+        return v15;
+    }
+    constructor(a17, a18, a19, a20) {
+        super(a20, a19, a20);
+        new f9();
+        v8.byteOffset ^= 257;
+        Symbol.iterator;
+        const o32 = {
+            [Symbol]() {
+                let v25 = 10;
+                const o31 = {
+                    next() {
+                        v25--;
+                        const v29 = v25 == 0;
+                        const o30 = {
+                            "done": v29,
+                            "value": v25,
+                        };
+                        return o30;
+                    },
+                };
+                return o31;
+            },
+        };
+    }
+}
+new C10(257, 102, 4, 257);
+new C10(4, 257, 257, 4);
+new C10(257, 102, 102, 4);
+new Int32Array(1024);
+new Uint16Array(2);
+new Uint16Array(5);
+const v45 = [1984879050,0,-8575,7,1073741825];
+function f46(a47, a48, a49, a50) {
+    return ("Vre").constructor.fromCharCode(v45);
+}
+for (let v54 = 0; v54 < 10; v54++) {
+    f46(v54, f46, v54, v54);
+}
+%OptimizeFunctionOnNextCall(f46);
+f46(v45, v45, v45, f46);

@@ -1,0 +1,18 @@
+new WeakSet();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 9007199254740990n;
+    } catch(e8) {
+    }
+}
+new F5(9007199254740990n, 1073741824n, 1073741824n, 1073741824n);
+new F5(-24144n);
+new F5(-24144n);
+new Map();
+function f14() {
+    return -24144n;
+}
+const t15 = -24144n;
+new t15(257);
+(257).reverse();

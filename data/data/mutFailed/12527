@@ -1,0 +1,38 @@
+function f0() {
+    const o16 = {
+        ["number"](a5, a6) {
+            new BigInt64Array(25);
+            new Int8Array(4096);
+            new Float32Array(5);
+            return 4096;
+        },
+        ..."number",
+        "e": 0,
+    };
+    return o16;
+}
+const v17 = f0();
+const v18 = f0();
+f0();
+const v20 = [v18,v18];
+const v21 = [v20,v17];
+try { v21.toReversed(); } catch (e) {}
+Object.defineProperty(v20, "a", { writable: true, configurable: true, enumerable: true, get: f0, set: f0 });
+v18[257];
+const o26 = {
+    "maxByteLength": 16,
+};
+const v28 = new ArrayBuffer(16, o26);
+new DataView(v28);
+[f0];
+new Uint8Array(59);
+new Uint8ClampedArray(6);
+new Uint8ClampedArray(128);
+new Int16Array(4096);
+function f47() {
+}
+class C48 {
+    [Int16Array];
+}
+new C48();
+new C48(f47, 4096, 256, 64);

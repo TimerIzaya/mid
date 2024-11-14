@@ -1,0 +1,55 @@
+function f0() {
+}
+class C4 {
+    valueOf(a6, a7) {
+        try {
+            this.length = 2;
+        } catch(e9) {
+        }
+        return a7;
+    }
+    static #b;
+    static 144;
+    #h = -4294967296;
+    #f;
+    static e = f0;
+}
+let v10;
+try { v10 = C4.toString(); } catch (e) {}
+const v11 = new v10();
+const v12 = new C4();
+const v13 = v12?.constructor;
+try { new v13(); } catch (e) {}
+const v15 = new C4();
+v13?.constructor;
+try { new v12(); } catch (e) {}
+function f21() {
+    return v12;
+}
+const v22 = [-4294967296,v11,v10,v15,f21];
+[v22,-4294967296,v22,v22,-4294967296];
+[v22,v22,v22,v15,C4];
+function f25(a26, a27, a28, a29) {
+    a28 >> a28;
+    const v31 = a29--;
+    let v32 = /(?:a*)+q(?<a>.)/guds;
+    for (let [i36, i37] = (() => {
+            10 / 10;
+            return [0, v11];
+        })();
+        -i36, i36 < i37, v31;
+        v32--) {
+        for (let v45 = 0; v45 < 25; v45++) {
+            v45 | (v45 + v45);
+            v32.hasIndices = v32;
+        }
+    }
+    return v11;
+}
+for (let v48 = 0; v48 < 10; v48++) {
+    v48 / v48;
+    const v50 = f25(v48, f25, v48, v48);
+    v50 & v50;
+}
+%OptimizeFunctionOnNextCall(f25);
+f25();

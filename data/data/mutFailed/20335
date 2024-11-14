@@ -1,0 +1,97 @@
+function f0() {
+    ("iterator")["iterator"];
+    Object.defineProperty("iterator", 3832, { set: f0 });
+    f0();
+    %PrepareFunctionForOptimization(f0);
+    f0();
+    f0();
+    %OptimizeFunctionOnNextCall(f0);
+    f0();
+    const o14 = {
+        get g() {
+            let v11;
+            try {
+            const t0 = "iterator";
+            v11 = t0(arguments, "iterator", this, arguments, arguments);
+            } catch (e) {}
+            let v12;
+            try { v12 = v11(-1073741824, -1073741824, 265.80524496044154, v11); } catch (e) {}
+            super["iterator"] = v12;
+            try { v11("iterator"); } catch (e) {}
+            return 265.80524496044154;
+        },
+        __proto__: "iterator",
+        2: -1073741824,
+        "g": -1073741824,
+        "b": "iterator",
+        "a": -1073741824,
+        "c": -1073741824,
+        "e": -1073741824,
+        "f": 265.80524496044154,
+        "d": -1073741824,
+        ..."iterator",
+        ..."iterator",
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+function f18() {
+    return v15;
+}
+const v21 = new Int32Array(1616);
+new Uint32Array(1875);
+class C25 extends Int32Array {
+    #h;
+}
+new C25();
+new C25();
+new C25();
+14 & 14;
+function f31(a32, a33, a34) {
+    a32 / a32;
+    const o36 = {
+        "a": f18,
+        ...v21,
+        3: v15,
+    };
+    o36[883];
+    return o36;
+}
+const v38 = f31?.constructor;
+try { new v38(Int32Array); } catch (e) {}
+f31(14, v17, v17)[1177];
+f31(v15, 1616, v16)[489];
+const v44 = f31(Uint32Array, Uint32Array, v15);
+const v46 = new Uint8Array(14);
+v46[5];
+const v48 = [];
+function f49() {
+    const o50 = {
+        ...v48,
+        "c": v48,
+        "e": v48,
+        "f": v48,
+        "arguments": v48,
+        __proto__: f49,
+    };
+    v48.e = o50;
+    let v51 = 4096n;
+    v51--;
+    65537 == v51;
+    1024 ^ 1024;
+    const v58 = new Int32Array(1024);
+    for (const v59 of v58) {
+        v59 | v59;
+        const o63 = {
+            "maxByteLength": 1293466293,
+        };
+        new SharedArrayBuffer(1796, o63);
+    }
+    return v48;
+}
+f49();
+f49();
+const v68 = f49();
+try { v68.findIndex(v44); } catch (e) {}

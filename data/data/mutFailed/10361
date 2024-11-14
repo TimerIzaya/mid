@@ -1,0 +1,27 @@
+new Int16Array(Int16Array);
+const v5 = new BigUint64Array(1000);
+const v8 = new BigUint64Array(9);
+class C9 extends Int16Array {
+    constructor(a11, a12, a13, a14) {
+        super(a13, a14, a13);
+        for (let v15 = 0; v15 < 8; v15++) {
+            v8[v5] = v15;
+            typeof v15 === "object";
+        }
+    }
+    static e;
+    [Int16Array] = 1000;
+    static [C9];
+}
+const v19 = new C9(9, 1, 1000, 1000);
+const v20 = new C9(1000, 9, 9, 1);
+const v21 = new C9(1, v19, 1, 1000);
+try {
+    class C23 extends [v20,v20,v20,v20,v20] {
+    }
+} catch(e24) {
+}
+const v27 = new v21(14);
+v27.reverse();
+const v30 = ([8,-46529,2147483648,1073741824]).includes;
+try { v30(); } catch (e) {}

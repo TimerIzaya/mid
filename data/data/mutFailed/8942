@@ -1,0 +1,47 @@
+function f0() {
+    const o9 = {
+        get a() {
+            let v5;
+            try { v5 = this(); } catch (e) {}
+            try { v5.sort(); } catch (e) {}
+            const v7 = super.b;
+            try {
+                v7.c = v7;
+            } catch(e8) {
+            }
+            return 1;
+        },
+        10: 6,
+    };
+    return o9;
+}
+f0.toString = f0;
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+v12.b = v10;
+function f13(a14, a15) {
+    a15.b = a15;
+    const o16 = {
+        7: a14,
+        "b": a14,
+        [f0]: v12,
+        __proto__: v10,
+        ...a15,
+        268435456: v12,
+        "e": a14,
+        [a15]: v10,
+        ...v11,
+        "c": f0,
+        ...v12,
+    };
+    return o16;
+}
+f13(v10, v12);
+f13(v11, v11);
+f13(v12, v12);
+const v25 = new Int32Array(127);
+function f26(a27, a28) {
+    return v25.toSorted();
+}
+new Promise(f26);

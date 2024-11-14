@@ -1,0 +1,35 @@
+let v0 = /q(?:ab)|cde/gvdiy;
+const v1 = /6(x)(x)(x)\3/gvdi;
+const v2 = /G(?:a?)?/gums;
+const v3 = [v2];
+const v4 = [v0,v3];
+const v5 = [v4,v2,v1,v4];
+class C6 {
+    static #a;
+    [v5];
+    constructor(a8, a9, a10, a11) {
+        a8[a9] = v3;
+        delete v4[2221840698];
+        v0 = v1;
+    }
+    #o(a14, a15, a16) {
+        for (let i19 = a15; i19 < 6; i19++) {
+            super.b |= i19;
+            try { new v3(); } catch (e) {}
+        }
+        return a15;
+    }
+}
+const v26 = new C6(v1, v1, v2, v5);
+new C6(v0, v1, v0, v4);
+const v28 = new C6(v0, v0, v0, v26);
+new WeakMap();
+for (let v34 = 0; v34 < 5; v34++) {
+    function f35() {
+        new Uint8ClampedArray(798);
+        new Uint8ClampedArray(798, ...v28, eval());
+        return v34;
+    }
+    f35();
+    %OptimizeFunctionOnNextCall(f35);
+}

@@ -1,0 +1,44 @@
+for (const v3 in -1000000000.0) {
+    try {
+        const t2 = -1000000000.0;
+        t2.toString = v3;
+    } catch(e4) {
+    }
+}
+function f9(a10, a11) {
+    const v12 = 4.0 >> 4;
+    f9(v12, -9007199254740991);
+    %PrepareFunctionForOptimization(f9);
+    f9(v12, -9007199254740991);
+    f9(v12, -9007199254740991);
+    %OptimizeMaglevOnNextCall(f9);
+    f9(v12, -9007199254740991);
+    const o25 = {
+        "b": undefined,
+        "g": Infinity,
+        564844970: a10,
+        1073741825: a11,
+        get a() {
+            const o20 = {
+                "maxByteLength": 10000,
+            };
+            const v22 = new ArrayBuffer(9, o20);
+            new BigInt64Array(v22);
+            return BigInt64Array;
+        },
+    };
+    return o25;
+}
+f9(-1000000000.0, 4.0);
+f9(-1000000000.0, 4.0);
+f9(4.0, Infinity);
+function f34(a35, a36) {
+    const o37 = {
+        [a35]: a36,
+        [a36]: -65537,
+        65536: -65537,
+    };
+    return -65537;
+}
+f34(9223372036854775807, -65537);
+f34(9223372036854775807, 9223372036854775807);

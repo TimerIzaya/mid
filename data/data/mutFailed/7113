@@ -1,0 +1,33 @@
+function f10(a11, a12, a13) {
+    const o25 = {
+        "d": 37162n,
+        "a": 37162n,
+        set f(a15) {
+            new Uint32Array(1242);
+            new Uint32Array(f10);
+            new Float32Array(255);
+        },
+        [a13]: false,
+    };
+    return o25;
+}
+f10("symbol", 9007199254740990n, "boolean");
+const v27 = f10("-8", 37162n, "symbol");
+f10("symbol", 37162n, "symbol");
+function f29() {
+    const v30 = [1000000000.0,-5.576877862296471e+307,1000000000000.0,-311382.1661484719,1000000000.0];
+    function f31() {
+        return v27;
+    }
+    for (let i = 0; i < 5; i++) {
+        Object.defineProperty(v30, "d", { configurable: true, get: f31, set: f31 });
+    }
+    class C32 {
+    }
+    return f29;
+}
+%PrepareFunctionForOptimization("symbol");
+f29();
+%OptimizeFunctionOnNextCall(f29);
+const t31 = "boolean";
+t31();

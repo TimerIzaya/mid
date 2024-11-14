@@ -1,0 +1,47 @@
+function f0() {
+}
+new Uint8ClampedArray(5);
+Uint8Array.name = 5;
+new Uint8Array(302);
+const v9 = new BigInt64Array(7);
+class C10 {
+    #valueOf(a12, a13) {
+        const t8 = 5;
+        new t8(0);
+        new Uint8ClampedArray(9);
+        new Uint8ClampedArray(64);
+        return Uint8Array;
+    }
+}
+let v23;
+try { v23 = new C10(); } catch (e) {}
+new v9();
+const v25 = new C10();
+const v26 = v25?.constructor;
+try { new v26(); } catch (e) {}
+new v23();
+class C29 {
+    static toString(a31, a32) {
+        this.length;
+        const v35 = super[a32];
+        try {
+            delete this[v35];
+            this[C29];
+        } catch(e38) {
+        }
+    }
+}
+try { new C29(); } catch (e) {}
+const v40 = new C29();
+const v42 = new Uint8ClampedArray(v40, v23, C29);
+try { v42.findLastIndex(f0); } catch (e) {}
+function f44() {
+    function f45(a46, a47) {
+        const v48 = f45.constructor;
+        try { v48.toString(a46, v48); } catch (e) {}
+        return v48 + v48;
+    }
+    return f45;
+}
+Object.defineProperty(v42, "valueOf", { get: f44 });
+v42[5] = v42;

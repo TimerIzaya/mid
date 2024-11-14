@@ -1,0 +1,72 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 2;
+    } catch(e3) {
+        const v5 = new Date();
+        function f6(a7) {
+            return a7;
+        }
+        function f8(a9) {
+            return f6;
+        }
+        const v12 = [v5];
+        const o13 = {
+            "arguments": v12,
+            "type": "function",
+        };
+        new Worker(f8, o13);
+    }
+    try {
+        this.f = 2;
+    } catch(e15) {
+    }
+    F0["p" + 2] = 2;
+    SharedArrayBuffer();
+    const v22 = new Int32Array(257);
+    v22[120] = -4294967296;
+    try {
+        this.h = 2;
+    } catch(e24) {
+    }
+}
+new F0();
+const v26 = new F0();
+const v27 = [0.0,-5.0,-1.0,-Infinity,897329.7015312992,0.4973125219659831,764165.2446988621,2.2250738585072014e-308,0.6108619969059673];
+const v28 = [2147483647,9,9007199254740990,268435439,2,536870888];
+v27.pop();
+v27[2147483647] = v28;
+new F0(gc(), gc, gc);
+const v33 = [F0];
+const v35 = 0 >> 0;
+function f36() {
+    return f36;
+}
+const v37 = f36.unicode;
+function f38() {
+    for (let v39 = 0; v39 < 5; v39++) {
+        d8(36862, v37, v39 & v39);
+    }
+    return f36;
+}
+f38();
+const v45 = [v33,v26,v26,F0];
+[v45,v45];
+const v50 = [0,-346458402,-9007199254740992,58578,9007199254740990];
+[-1073741824,-18892547,-2,8];
+[512,268435440,5,-65537,35266,4096,1293876011];
+const o53 = {
+};
+const v56 = new BigUint64Array(v35);
+const v59 = new Uint8ClampedArray(127);
+for (const v60 in v59) {
+    try { v56.filter(); } catch (e) {}
+}
+function f63(a64) {
+    return v50;
+}
+const o67 = {
+    "MIN_VALUE": "function",
+};
+new Worker(f63, o67);
+Math.sin(1842642860 % !o53);

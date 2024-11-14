@@ -1,0 +1,74 @@
+let v1 = "e";
+const v3 = ["2tlG"];
+const v4 = [v3,v3,v1,"2tlG",v1];
+const v5 = v4?.find;
+try { new v5(v3); } catch (e) {}
+function f7() {
+    return ("acos")[v1++];
+}
+const v11 = Symbol.toPrimitive;
+Symbol.for(v11.description);
+Object.defineProperty(v4, v11, { configurable: true, enumerable: true, value: f7 });
+function f15(a16) {
+    const v18 = new Uint8ClampedArray();
+    v18.toReversed();
+    return a16;
+}
+v4.toString = f15;
+const v20 = [v3,v4,v4,v1];
+v20[3] = v20;
+class C21 {
+    static [v4];
+    g;
+    #toString(a23, a24, a25, a26) {
+        try { a26.replaceAll(v1, a26); } catch (e) {}
+        const o28 = {
+        };
+        function f30(a31, a32) {
+            const o35 = {
+                set b(a34) {
+                },
+            };
+            return o35;
+        }
+        const v36 = f30();
+        for (const v37 in v36) {
+            Object.defineProperty(v36, v37, { set: f30 });
+        }
+        new Proxy(a23, o28);
+        return a26;
+    }
+    #b = "2tlG";
+    ["2tlG"] = v3;
+}
+try { new C21(); } catch (e) {}
+new C21();
+new C21();
+new C21();
+class C43 extends C21 {
+    o(a45, a46, a47) {
+        super.g = v3;
+        const o51 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o51);
+        return a47;
+    }
+}
+const v53 = C43?.constructor;
+try { new v53(f15); } catch (e) {}
+new C43();
+new C43();
+const v57 = new C43();
+v57.2tlG = v57;
+function f58(a59) {
+    const o60 = {
+        [a59]: a59,
+    };
+    return a59;
+}
+%PrepareFunctionForOptimization(f58);
+f58();
+const v63 = f58(5.0);
+v63 - v63;

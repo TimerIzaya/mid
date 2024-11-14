@@ -1,0 +1,59 @@
+const v1 = new Set();
+-Infinity;
+const v9 = v1 == 12n;
+const o10 = {
+};
+try {
+    o10.a = 12n;
+} catch(e11) {
+}
+try {
+    const o12 = {
+    };
+    o12.a = 12n;
+    o12.g = v9;
+} catch(e13) {
+}
+try {
+    const o14 = {
+    };
+    o14.a = 12n;
+    o14.g = v9;
+    o14.flags = 64n;
+} catch(e15) {
+}
+try {
+    const o16 = {
+    };
+    o16.a = 12n;
+    o16.g = v9;
+    o16.h = v1;
+} catch(e17) {
+}
+new Uint16Array(11);
+const v22 = new Uint16Array(-2147483649);
+new Int16Array(3);
+const v28 = new Float64Array(1231);
+const v29 = v28.indexOf(1231);
+v22.keys(12n, v29, 859423936n, -207.20878886420337, 3, 365737.1319226518);
+o10.a;
+v22[10];
+let v35 = 1e-15;
+Math.clz32(v1);
+let v37 = v35++;
+const v38 = +v1;
+(v1 | o10) ^ -65535;
+++v37;
+v37 || v38;
+class C43 {
+}
+function F44(a46, a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    a46 >>> a46;
+    a47 - a47;
+    -a48;
+    const v52 = this.f;
+    try { new v52(a48, C43); } catch (e) {}
+}
+new F44(v29, C43, F44);
+new F44();

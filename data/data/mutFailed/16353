@@ -1,0 +1,36 @@
+function f0() {
+}
+class C1 {
+    static 32 = f0;
+    static #n() {
+        const v3 = this[2];
+        Object.defineProperty(v3, 512, { writable: true, get: f0 });
+        v3[536870889] = v3;
+        try { v3["valueOf"](); } catch (e) {}
+        return "valueOf";
+    }
+    [f0] = f0;
+    #e;
+}
+new C1(C1, C1, C1);
+new C1();
+const v8 = new C1();
+const v9 = v8?.constructor;
+try { new v9(); } catch (e) {}
+1711647146 != 1711647146;
+-9223372036854775807 - -9223372036854775807;
+241 >>> 241;
+const v23 = new BigUint64Array(-7);
+try { v23.entries(); } catch (e) {}
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    a27.d = a27;
+}
+const v30 = new F25(BigUint64Array, -7, -2147483649n);
+const v31 = v30?.constructor;
+try { new v31(v23, 241, C1); } catch (e) {}
+for (let v33 of v23) {
+    v33 << v33;
+    v33--;
+    Object.defineProperty(v30, 241, { writable: true, configurable: true, enumerable: true, value: v33 });
+}

@@ -1,0 +1,35 @@
+function f0() {
+    const v4 = "g" <= 2.2250738585072014e-308;
+    const o10 = {
+        [2.2250738585072014e-308](a6, a7) {
+            const v8 = super.c;
+            try {
+                v8.toString = a6;
+            } catch(e9) {
+            }
+            return "g";
+        },
+        "b": 2.2250738585072014e-308,
+        [2.2250738585072014e-308]: v4,
+    };
+    o10.b;
+    return o10;
+}
+const v12 = f0();
+const v13 = f0();
+f0();
+function f15() {
+    return v12;
+}
+f15.g = f15;
+try { new Int8Array(f0, v13, f0); } catch (e) {}
+f15.length;
+const t25 = 7;
+const v21 = new t25(7);
+try { v21.entries(); } catch (e) {}
+Uint16Array.BYTES_PER_ELEMENT = Uint16Array;
+new Uint16Array(1024);
+const v27 = 127 > 127;
+v27 || v27;
+new Int16Array(127);
+gc();

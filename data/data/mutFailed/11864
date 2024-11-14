@@ -1,0 +1,37 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function f2(a3, a4) {
+    const o19 = {
+        "e": a3,
+        [a4](a6) {
+            const v7 = `
+                Object.defineProperty(v0, v7, { writable: true, configurable: true, get: f1, set: f1 });
+                new Float32Array(2);
+                new Int32Array(512);
+                new Uint16Array(44);
+            `;
+            return eval(eval);
+        },
+    };
+    return o19;
+}
+const v20 = f2(f2, f1);
+f2(f2(f2, f2), v0);
+new v20(1000);
+new Uint8ClampedArray(128);
+new Int8Array(4);
+function f32() {
+    const o37 = {
+        ["8"](a35, a36) {
+        },
+    };
+    o37[8] = o37;
+    return o37;
+}
+%PrepareFunctionForOptimization(128);
+f32();
+f32();
+%OptimizeFunctionOnNextCall(f32);
+f1();

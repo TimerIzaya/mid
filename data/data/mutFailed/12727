@@ -1,0 +1,28 @@
+const v5 = new BigInt64Array(3);
+v5[1];
+129 / 129;
+const v10 = new Float32Array(129);
+v10[33];
+new Uint8Array(1126);
+try { new Int8Array(-1141392799, BigInt64Array, Uint8Array); } catch (e) {}
+const v21 = Reflect.construct(Int8Array, [1126838905]);
+v21.g = v21;
+class C22 {
+    [-2] = 31876;
+}
+C22.length;
+const v24 = new C22();
+const v25 = [-20096,4294967296,-65537,-2];
+const v26 = [-1947047520];
+function f27() {
+    try {
+        v24.fuck(-2147483647, 4.707459086329092e+307);
+    } catch(e31) {
+    }
+    return Float32Array;
+}
+Object.defineProperty(v26, "toString", { writable: true, enumerable: true, value: f27 });
+const v32 = [v26,v26,v26,v25];
+v32[Symbol.toPrimitive] = f27;
+v32[3] = v32;
+v25["slice"]([v32]);

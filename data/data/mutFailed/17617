@@ -1,0 +1,43 @@
+let v2 = 268435440;
+class C3 {
+    static {
+    }
+    static #e = v2;
+    constructor(a9, a10) {
+        a10 = v2;
+        a10[7] = v2;
+        super.c = a9;
+        try {
+            ("H").#e;
+        } catch(e12) {
+        }
+    }
+}
+const v13 = new C3(1.6578463092856206e+308, "H");
+const v14 = new C3("H", v13);
+const v15 = new C3("H", v14);
+class C17 {
+    constructor(a19) {
+    }
+}
+new Int8Array(C17);
+class C24 extends C3 {
+    toString(a26, a27, a28) {
+        let v29;
+        try { v29 = a26(v13, v15, this, a27, a28); } catch (e) {}
+        v2 = v29;
+        super[v14];
+        try {
+            v14.e = a27;
+        } catch(e34) {
+        }
+        return a27;
+    }
+    g = "H";
+}
+new C24();
+new C24();
+new C24();
+const v39 = new Float32Array();
+const v42 = new BigUint64Array(512);
+v42["lastIndexOf"](v39);

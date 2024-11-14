@@ -1,0 +1,94 @@
+function f4() {
+    function f5(a6, a7) {
+        const t2 = 3;
+        t2[3] = a7;
+        function F8() {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                for (let v10 = 0; v10 < 50; v10++) {
+                    for (let v11 = 0; v11 < 25; v11++) {
+                        this["p" + v11] = v11;
+                    }
+                }
+            } catch(e14) {
+            }
+        }
+        return 3;
+    }
+    return f5;
+}
+function f15(a16) {
+    let v17 = -7;
+    class C19 {
+        constructor(a21, a22) {
+            const v23 = this.constructor;
+            try { new v23(a21); } catch (e) {}
+            this[-2147483648] >>>= v17;
+            let v25 = 0;
+            while (v25 < 1) {
+                const v30 = v17--;
+                Math.atan();
+                v17 * 7;
+                const v33 = v30 + 7;
+                v33 * v33;
+                const v35 = v25++;
+                v35 - v35;
+            }
+        }
+    }
+}
+Object.defineProperty(Set, "toString", { writable: true, get: f4, set: f15 });
+const v37 = new Set();
+class C38 {
+    o(a40, a41) {
+        509002051 && v37.size;
+        try { this["log10"](40278); } catch (e) {}
+        try {
+            v37.size = a40;
+        } catch(e46) {
+        }
+        return a41;
+    }
+    static get f() {
+        this.b;
+        return this;
+    }
+    [Set];
+    11;
+    f = 3;
+    static 3 = 509002051;
+    static 89;
+}
+const v49 = new C38();
+new C38();
+const v51 = new C38();
+function f52() {
+    const v56 = new Int32Array(2528);
+    v56[0] %= -1073741824;
+    return -1073741824;
+}
+v51[Symbol.iterator] = f52;
+const v60 = 127 ^ Set;
+try { v51.o(3, ...v51, 3, 127, v60, v49); } catch (e) {}
+new Array(3);
+new Float32Array(127);
+new Uint8Array(2977);
+try {
+    new Array(3);
+} catch(e72) {
+}
+try {
+    new Array(-10);
+} catch(e75) {
+}
+new BigInt64Array(64);
+function F78() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f15;
+    const v80 = this.constructor;
+    try { v80(); } catch (e) {}
+    try { new v80(v80); } catch (e) {}
+}
+const v83 = new F78();
+const v84 = v83.constructor;
+new v84(v84, v83);

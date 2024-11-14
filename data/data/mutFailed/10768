@@ -1,0 +1,52 @@
+const v2 = new Uint8ClampedArray(512);
+let v3 = 13;
+const v4 = v3 - v3;
+const v5 = v3++;
+const v7 = new Int32Array(v3);
+const v8 = v7.buffer;
+2 & 2;
+const v12 = new v4(2);
+const v13 = [2,1650659595,-1,9007199254740990,-65537,128,-4294967295];
+let v14;
+try { v14 = v13.fill(v2); } catch (e) {}
+let v15;
+try { v15 = v14.findLastIndex(BigInt64Array); } catch (e) {}
+[-39715,-1];
+const v17 = [-4294967295,24591,-10290,-4294967295,-9007199254740991,-12,-8,-63223,21761];
+try { v17.lastIndexOf(v8); } catch (e) {}
+class C19 {
+    #toString(a21, a22, a23) {
+    }
+}
+let v24;
+try { v24 = new C19(); } catch (e) {}
+let v25;
+try { v25 = new C19(); } catch (e) {}
+const v26 = new C19();
+const v27 = v26?.constructor;
+let v28;
+try { v28 = new v27(); } catch (e) {}
+const v29 = v26?.constructor;
+try { new v29(); } catch (e) {}
+function f31(a32, a33, a34, a35) {
+    let v36 = a35 + a34;
+    v36 %= v36;
+    const o37 = {
+    };
+    new Proxy(v17, o37);
+    return BigInt64Array;
+}
+f31(v3, v2, v5, v25);
+for (let v42 = 0; v42 < 10; v42++) {
+    let v44;
+    try { v44 = Reflect.construct(Reflect, Reflect); } catch (e) {}
+    const v45 = [Reflect,Reflect,Reflect,Reflect];
+    v45[3] = Reflect;
+    const v46 = v44.construct(C19, v45, WeakSet);
+    try { v46.delete(v12); } catch (e) {}
+}
+try {
+    v2.set(v13);
+} catch(e49) {
+}
+try { v15(v12, v28, v24, v2); } catch (e) {}

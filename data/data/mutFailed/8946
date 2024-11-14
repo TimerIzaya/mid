@@ -1,0 +1,83 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = F0;
+    } catch(e3) {
+    }
+    try {
+        this.g = 9;
+    } catch(e4) {
+    }
+    try {
+        this.b = 9;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C12 {
+    static {
+        try {
+            super.join(this, -1000.0, -1.7976931348623157e+308, v6, v7);
+        } catch(e15) {
+        }
+        [v8,v7,this];
+        [5.0,this,-1000.0,v7,v6,5.0];
+        [F0,this];
+    }
+    #g;
+    static b;
+    #a;
+}
+const v19 = new C12();
+const v20 = new C12();
+new v20();
+[1000000000.0,0.49812201753014407,-323572.7257134613,-3.0260361304831545,4.680818252387153];
+[0.272057939047019,-2.173983387506775,0.15736580806687872];
+const v24 = [-134.21266337826273,-2.0,431647.3148765734,0.354006212021478,-729879.9628927365];
+const v26 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v27 = 0; v27 < 25; v27++) {
+    v26["p" + v27] = v27;
+}
+const v31 = [601759695];
+const v32 = [1073741824,1073741823,1376142744,1073741825];
+function f33(a34, a35, a36, a37) {
+    function f38() {
+        let v41 = Float64Array;
+        v41 = a35;
+        v26.length;
+        try {
+            v32.forEach();
+        } catch(e44) {
+        }
+        Symbol.toPrimitive;
+        const o51 = {
+            toString(a48, a49) {
+                return a37 && v41;
+            },
+        };
+        const o52 = {
+        };
+        new Proxy(Uint8ClampedArray, Proxy, Uint8ClampedArray);
+        v24[9] = a34;
+        const o60 = {
+            [-4294967297n](a56, a57, a58, a59) {
+            },
+            ...v31,
+            "MAX_SAFE_INTEGER": f38,
+            ...o52,
+            4: v41,
+            5: a34,
+        };
+        return v19;
+    }
+    f38();
+    %OptimizeFunctionOnNextCall(f38);
+    return -4294967297n;
+}
+for (let v62 = 0; v62 < 10; v62++) {
+    f33(v62);
+}
+%OptimizeFunctionOnNextCall(v8);
+f33(v31, v31, v26, v26);

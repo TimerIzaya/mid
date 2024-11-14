@@ -1,0 +1,39 @@
+class C3 {
+    m(a5) {
+        1e-15 & !-1000000000000.0;
+        -1e-15;
+        1e-15 >>> -21571;
+        return Math.floor(-1000000000000.0);
+    }
+    static #c;
+}
+new C3();
+new C3();
+new C3();
+new Uint8ClampedArray(0);
+new Int32Array(2637);
+new Int16Array(3991);
+function f27() {
+    const v28 = [f27,f27];
+    function f29(a30, a31) {
+        const o32 = {
+            "call": f27,
+            "construct": f27,
+            "deleteProperty": f27,
+            "getOwnPropertyDescriptor": f27,
+            "has": f27,
+            "ownKeys": f27,
+            "preventExtensions": f27,
+            "set": f27,
+            "setPrototypeOf": f27,
+        };
+        new Proxy(v28, o32);
+        return Int16Array;
+    }
+    v28.constructor = f29;
+    return v28.constructor.isArray();
+}
+%PrepareFunctionForOptimization(f27);
+f27();
+%OptimizeFunctionOnNextCall(f27);
+f27();

@@ -1,0 +1,84 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -2;
+    } catch(e3) {
+    }
+    try {
+        this.b = -2;
+    } catch(e4) {
+    }
+    try {
+        this.a = -2;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v7;
+    } catch(e13) {
+    }
+    try {
+        return arguments;
+        function F15() {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                const t29 = 19793;
+                for (const v19 of t29()) {
+                }
+            } catch(e20) {
+            }
+        }
+        this.g = a11;
+    } catch(e21) {
+        const v25 = Symbol.toPrimitive.description.codePointAt();
+        v25 >> v25;
+    }
+}
+new F9(v7, v7);
+new F9(v8, v6);
+let v29 = -6.50438168344124;
+v29 **= v29;
+for (let i32 = 0, i33 = 10; i32 < i33; i33--) {
+    for (let v40 = 0; v40 < 5; v40++) {
+        v40 >>> v40;
+    }
+}
+new F9(v6, v8);
+[1e-15,1000000.0,0.0];
+const t51 = 3521;
+const v47 = new t51(3521);
+function f48() {
+}
+f48();
+[-4.824921200522868e+307,-341525.6541366542];
+[-469.5735322000205,-3.0,-1000000.0,1.0];
+function F53() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C55 {
+    constructor(a57, a58, a59) {
+        a58.constructor = this;
+        a58.constructor;
+        class C61 extends v47 {
+        }
+        new C61();
+    }
+}
+new C55(F53, C55);
+class C65 {
+    constructor(a67, a68) {
+        function F72(a74) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v75 = this.constructor;
+            try { new v75(); } catch (e) {}
+        }
+        new F72();
+    }
+}
+const v79 = new C65(C65, 256);
+new C65(v79, v79);

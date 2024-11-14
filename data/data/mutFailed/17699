@@ -1,0 +1,69 @@
+new Int8Array(1388);
+new Int32Array(8);
+new Uint8Array(1);
+[10,-128,14,0,-11,65537,-43123,-536870912];
+[1000,9,-65537,-8562,-4,1013159759,-5,-1024,17171];
+[14,-984487292,-9223372036854775807,1,7,-36804,1024,9,1073741823,24396];
+new Uint8ClampedArray(2081);
+new Float32Array(2133);
+new BigUint64Array(256);
+const v21 = [-9007199254740991,536870888,51292,-2147483649];
+const v22 = [536870912,-124426018];
+const v23 = [23930,454087404,65536,-6,-1955199007,1,1073741824,14];
+function f24(a25) {
+    try { a25.map(v22); } catch (e) {}
+    a25[0] = a25;
+    const o31 = {
+        "e": v21,
+        "c": v22,
+        [v23]: v23,
+        "a": v23,
+        [v21]: v23,
+        get f() {
+            let {"h":v28,"length":v29,...v30} = v23;
+            this.toString = v28;
+            return v30;
+        },
+    };
+    return o31;
+}
+const v32 = f24?.toString;
+try { new v32(); } catch (e) {}
+const v34 = f24(v21);
+v34.c = v34;
+const v35 = f24(v22);
+v35.f = v35;
+f24(v23);
+const v38 = 1073741824 * 1073741824;
+v38 - v38;
+65535 | 65535;
+function F42() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v44 = this?.constructor;
+    v44.e = v44;
+    try { new v44(); } catch (e) {}
+}
+F42.arguments = F42;
+const v46 = new F42();
+try { v46.hasOwnProperty(f24); } catch (e) {}
+const t48 = v46.length;
+const v49 = new t48();
+new F42();
+const v52 = -14n ^ -14n;
+try { ("object").padStart(v52); } catch (e) {}
+let v57;
+try {
+const t0 = "object";
+v57 = t0(v46, "number", F42);
+} catch (e) {}
+function f58(a59) {
+    return v57;
+}
+class C60 extends f58 {
+    [v49] = "E";
+    [v46] = -14n;
+    268435441 = -14n;
+}
+C60.length = C60;
+const t67 = "object";
+t67[v49] &= v57;

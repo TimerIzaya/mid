@@ -1,0 +1,28 @@
+const v2 = new Uint16Array(512);
+new Int32Array(65373, 65373, Uint16Array);
+new Float64Array(536870887, Int32Array, 65373, Float64Array);
+class C12 {
+    constructor(a14) {
+        for (let v15 = 0; v15 < 32; v15++) {
+            for (let v16 = 0; v16 < 5; v16++) {
+                const v17 = v16 * v16;
+                function f18() {
+                    return f18;
+                }
+                f18.g = f18;
+                v17(v16).prototype;
+            }
+            const o22 = {
+            };
+            o22.h = o22;
+            gc(o22, v15, Float64Array);
+        }
+    }
+}
+try { new C12(C12); } catch (e) {}
+const v25 = new C12(C12);
+const v26 = v25?.constructor;
+try { new v26(Float64Array); } catch (e) {}
+new C12(C12);
+const v29 = new C12();
+try { v29.constructor(v2); } catch (e) {}

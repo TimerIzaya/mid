@@ -1,0 +1,151 @@
+const v1 = new Map();
+class C2 extends Map {
+    m(a4) {
+        return Reflect.construct(a4, [a4,v1], Map);
+    }
+    p(a9, a10) {
+        function f12(a13, a14) {
+            function f16(a17) {
+                try {
+                    this.m(a9, a14, a17, this);
+                } catch(e19) {
+                }
+            }
+            this.onmessage = f16;
+            try { this.set(a13, a9); } catch (e) {}
+        }
+        const v23 = [a10,a10];
+        const o24 = {
+            "arguments": v23,
+            "type": "function",
+        };
+        new Worker(f12, o24);
+        return Map;
+    }
+}
+const v26 = new C2();
+const v27 = new C2();
+const v28 = new C2();
+function f29(a30, a31, a32, a33) {
+    const o44 = {
+        "h": a32,
+        __proto__: v1,
+        [C2]: v26,
+        "g": a33,
+        4294967296: v27,
+        ...a33,
+        [a31]: v1,
+        "c": a30,
+        [C2](a35, a36, a37) {
+            try { a35["has"](...this, ...v27, ..."has", ...a35, ...a30, ..."has"); } catch (e) {}
+            try { new a36(a32, v1, v26); } catch (e) {}
+            a35 = a32;
+            Reflect.construct(a36, [a33,v26,this,Reflect,v1], a31);
+            return a33;
+        },
+    };
+    return o44;
+}
+const v45 = f29(v27, v28, Map, v27);
+const v46 = f29(v1, Map, v45, v28);
+const v47 = f29(v28, v1, v46, v28);
+class C48 extends Map {
+    static #g;
+    constructor(a50, a51, a52, a53) {
+        super(v47);
+        v26[1] = v45;
+        function f54() {
+            return a53;
+        }
+    }
+    static 3908 = v1;
+    16 = v46;
+    static 128 = v45;
+    static 9 = Map;
+    static a = v28;
+    [f29] = v26;
+    #f = v45;
+}
+const v55 = new C48(v46, v27, C2, v46);
+const v56 = new C48(v46, v45, v55, v46);
+const v57 = new C48(v46, v1, v28, v46);
+class C58 extends f29 {
+    #o(a60, a61) {
+        try {
+            f29(v26, C2, this, v26);
+        } catch(e64) {
+        }
+        return v57;
+    }
+    [v47] = v55;
+    constructor(a66, a67) {
+        super(a66, a66, v47, a67);
+        const v68 = super[C2];
+        Math.acosh(1073741825);
+        function f72() {
+            return f72;
+        }
+        const o73 = {
+            __proto__: f72,
+            "e": f72,
+        };
+        for (let v74 = 0; v74 < 100; v74++) {
+            f29(v1, this, C2, v55);
+        }
+        const v76 = v56 <= v68;
+        try { v68(v76, ...v76, ...a66, ...a67, v46); } catch (e) {}
+        const o78 = {
+        };
+        const v80 = ("stack").trimStart();
+        function f81() {
+            v80.length;
+            return v80;
+        }
+        const o85 = {
+            "maxByteLength": 4096,
+        };
+        const v87 = new SharedArrayBuffer(4096, o85);
+        new DataView(v87);
+    }
+}
+new C58(v27, v28);
+new C58(v26, v56);
+C2.constructor;
+new Int8Array();
+const v96 = /0j/vds;
+try { v96.compile("Di0", "Di0"); } catch (e) {}
+new C58(v56, v57);
+function f99(a100, a101) {
+    const v102 = [1000000000.0,2.2250738585072014e-308,-3.0,-2.2250738585072014e-308,-2.2250738585072014e-308,-6.525028373249204e+307,-7.851646360254072e+307,0.6785915059434757,-0.0];
+    class C103 {
+    }
+    const v105 = Symbol.replace;
+    const v106 = new v105();
+    with (v106) {
+        h = v105;
+    }
+    const v108 = ("h").split();
+    class C109 {
+        constructor(a111, a112) {
+            a112[2];
+            /W(jy2)/udy;
+            const v116 = new Uint8Array();
+            for (let v117 = 0; v117 < 500; v117++) {
+                const o121 = {
+                    ...v116,
+                    n(a119, a120) {
+                    },
+                };
+            }
+            for (let v122 = 0; v122 < 5; v122++) {
+                v108["p" + v122] = v122;
+            }
+        }
+    }
+    C103[v105] = v102;
+    return f99;
+}
+%PrepareFunctionForOptimization(f99);
+f99();
+%OptimizeFunctionOnNextCall(f99);
+f99();

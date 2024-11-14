@@ -1,0 +1,68 @@
+const v0 = [536870888,0,-1073741824,-38564,1,8,-9007199254740992,3];
+const v1 = [28780,257,18372,-114599524,1073741823,54346,-6,1024];
+const v2 = [13,10000,-1589771640,1,128];
+function f3(a4, a5) {
+    const o10 = {
+        o(a7, a8) {
+            try {
+                this.__proto__ = a7;
+            } catch(e9) {
+            }
+            return a4;
+        },
+        [-2]: v2,
+        [v1]: a5,
+        "c": v0,
+        "a": v2,
+    };
+    return o10;
+}
+const v11 = f3(v2, v2);
+f3(v0, v0);
+f3(v1, v1);
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a16;
+    } catch(e18) {
+    }
+    try {
+        this.b = v1;
+    } catch(e19) {
+    }
+    function f20() {
+        Uint8ClampedArray.e = Uint8ClampedArray;
+        return Uint8ClampedArray;
+    }
+    %PrepareFunctionForOptimization(f20);
+    f20();
+    %OptimizeFunctionOnNextCall(f20);
+    a17();
+}
+new F14(v11, v2);
+new F14(v11, v0);
+new F14(v11, v0);
+new BigUint64Array(5);
+new Int32Array(1);
+new Int8Array(5);
+const v36 = [1.5194593916452507e+308,1.7976931348623157e+308,-655.2599062195703,383261.13963534124,-4.351354601083372];
+const v37 = [-3.0767450746058422,-109930.30079491576,1.0710997738525917e+308,1e-15,-4.4029859309287245,1.2647620628346297e+308,0.6128308590917888,-1000000.0,-9.043256096114051];
+const v38 = [547.1067310983665,-3.0,NaN,222205.6815515987,2.2250738585072014e-308];
+function F39(a41, a42, a43) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a41;
+    } catch(e44) {
+    }
+    try {
+        this.b = a43;
+    } catch(e45) {
+    }
+}
+new F39(Int32Array, 12, v37);
+new F39(v37, 5, v38);
+const v48 = new F39(v0, 12, v36);
+v48[65536];
+const o51 = {
+};
+gc(o51);

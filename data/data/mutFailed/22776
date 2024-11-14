@@ -1,0 +1,41 @@
+function f1(a2, a3) {
+    const o4 = {
+    };
+    o4[536870887] = o4;
+    return o4;
+}
+const v6 = f1();
+v6[536870887] = v6;
+let v7 = 10;
+for (; v7--;) {
+    Object.defineProperty(v6, "h", { writable: true, configurable: true, set: f1 });
+    v6[1073741823] = v6;
+}
+[1,4,268435456,0,268435456,-274493738,-206567132];
+[-7];
+[536870888,536870889,-1143483729,16,512,-1023779518,-1434798614,-9007199254740990,-57064];
+function f14(a15, a16, a17) {
+    const o19 = {
+        get d() {
+            return f14;
+        },
+    };
+    const v20 = o19?.__lookupSetter__;
+    let v21;
+    try { v21 = new v20(); } catch (e) {}
+    return v21;
+}
+new Int8Array();
+const o26 = {
+};
+o26.b = -128n;
+new Uint8Array(2771);
+-2147483648 ^ 8.868704382732872e+307;
+const v33 = new Date();
+v33.setUTCFullYear(v33, 1.148427520173608e+308, 1.148427520173608e+308);
+new Uint8Array(0);
+new Float32Array(2030);
+const v42 = 16 | 16;
+Math.exp([-671138503,-536870912,-9007199254740991,-9007199254740992,-268435456,128,2023752111,-970019998,8839,6] | [1073741824,-46456,536870888]);
+const v49 = new Date(v42);
+v49.setUTCMinutes(16, v42);

@@ -1,0 +1,43 @@
+class C3 {
+    static valueOf(a5, a6) {
+        a6[Symbol.hasInstance] = 14;
+        let v9;
+        try { v9 = new a5(a5, a5, 758.2145129796288, 14); } catch (e) {}
+        return v9;
+    }
+    #h;
+    #c;
+    5;
+}
+const v11 = new C3();
+const t12 = 758.2145129796288;
+t12[5] = v11;
+const t14 = 758.2145129796288;
+const v12 = new t14();
+v12[5];
+const t16 = 14;
+const v14 = new t16();
+function f15() {
+    return v11;
+}
+class C16 extends C3 {
+    m(a18, a19) {
+        try {
+            super.toString(this, v14, this);
+        } catch(e21) {
+        }
+        try {
+            C3.__proto__ = this;
+        } catch(e22) {
+        }
+        return a18;
+    }
+}
+try { new C16(); } catch (e) {}
+const v24 = new C16();
+v24[5];
+new C16();
+const v27 = new C16();
+v27[5] = v27;
+const v30 = new Float64Array(257);
+v30.reverse();

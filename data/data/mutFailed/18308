@@ -1,0 +1,39 @@
+function f6(a7, a8, a9) {
+    const o23 = {
+        ...a9,
+        n(a11, a12, a13) {
+            a11 / a12;
+            try { new a9(this, this, this, -1989022008); } catch (e) {}
+            function f16() {
+                return a7;
+            }
+            return a9;
+        },
+        valueOf(a18, a19, a20, a21) {
+            super.g = a19;
+            return this.__proto__;
+        },
+        [a9]: -1989022008,
+    };
+    return o23;
+}
+const v24 = f6(-193530982, -9, f6);
+const v25 = f6(-9, -25272, v24);
+const v26 = f6(0, -193530982, -9);
+3 instanceof 3;
+const v32 = f6(0, v26, v24);
+%PrepareFunctionForOptimization(f6);
+f6(0, v26, v24);
+f6(0, v26, v24);
+%OptimizeMaglevOnNextCall(f6);
+f6(0, v26, v24);
+const v36 = 3 != 3;
+function f37(a38, a39, a40) {
+    return f37;
+}
+([v32]).unshift(v36);
+const o45 = {
+    "arguments": v25,
+    "type": "function",
+};
+new Worker(f37, o45);

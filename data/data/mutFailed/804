@@ -1,0 +1,64 @@
+class C3 {
+    static {
+        const v5 = this?.bind;
+        try { new v5(-1378548628n); } catch (e) {}
+        this[9n] = -1378548628n;
+        try {
+            this.b = 2147483648n;
+        } catch(e7) {
+        }
+    }
+    #b = -1378548628n;
+    #n(a9, a10) {
+        try {
+            this.#b;
+        } catch(e12) {
+        }
+        Math.fround(~6.399344341855686e+307);
+        const v18 = a10++;
+        Math.round(a10);
+        return v18;
+    }
+}
+let v20;
+try { v20 = new C3(); } catch (e) {}
+new C3();
+const v22 = new C3();
+try { v22.constructor(); } catch (e) {}
+const v24 = new C3();
+const v25 = v24?.constructor;
+const v26 = v24[197];
+const v27 = [v26,C3,v26,v26,v25];
+[-1378548628n,-1378548628n,v22];
+const v29 = [v24,v27];
+try { new v20(2147483648n, v29, v22, 2147483648n); } catch (e) {}
+try { new v25(); } catch (e) {}
+const v33 = /(?:a*)+q(?<a>.)/guds;
+function f34(a35) {
+    const o39 = {
+        set b(a37) {
+        },
+        get d() {
+            return a35;
+        },
+        __proto__: v33,
+    };
+    v22[o39];
+    const o44 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o44);
+    return o39;
+}
+for (let i49 = 0, i50 = 10; i49 < i50; i50--) {
+    for (let v57 = 0; v57 < 50; v57++) {
+        f34(v33);
+    }
+}
+new Float64Array(127);
+new Int16Array(36);
+124 < 124;
+new Uint32Array(124);
+const v72 = new Float64Array();
+!(delete v72[-1.5286188982640463e+308]);

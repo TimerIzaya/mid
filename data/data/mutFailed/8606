@@ -1,0 +1,63 @@
+function f0() {
+    let v2 = 4.18151111583358;
+    const o7 = {
+        "b": v2,
+        "h": -1.0,
+        [-2]: v2,
+        "c": -1.0,
+        __proto__: "p",
+        "f": v2,
+        "h": "p",
+        ..."p",
+        /*
+        __proto__: "p",
+        */
+        "g": "p",
+        1862: "p",
+        "d": -1.0,
+        "f": -1.0,
+        "e": -1.0,
+        set c(a5) {
+            a5 |= "p";
+            ("p").__proto__;
+            v2 >>= -1.0;
+        },
+        268435439: "p",
+    };
+    return o7;
+}
+f0();
+const v9 = f0();
+const v10 = f0();
+v10[268435439] = v10;
+const v11 = [52903,536870887,-65536,5];
+let v12;
+try { v12 = v11.constructor(v9); } catch (e) {}
+[-1414063060,-9223372036854775808,536870888,536870889];
+Object.defineProperty(v9, f0, { value: v9 });
+%VerifyType(v10);
+const o17 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o17);
+const v19 = [10,268435456,257,1000,3,9007199254740990];
+o17[gc] -= v12;
+const v21 = [Reflect];
+Reflect.construct(v12, v21, v12);
+v19[v21];
+new Uint8Array(2129);
+9 * 9;
+const v33 = new Uint16Array(9);
+v33[0];
+46 >>> 46;
+new Uint8ClampedArray(46);
+const v40 = ("536870888")?.search;
+try { new v40(Uint8Array); } catch (e) {}
+const v42 = ("536870888")[3];
+try { v42.big(); } catch (e) {}
+const o45 = {
+};
+const t60 = o45.constructor;
+const v48 = t60(2799).toExponential(v42);
+try { v48.trimLeft(); } catch (e) {}

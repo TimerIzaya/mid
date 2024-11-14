@@ -1,0 +1,59 @@
+function f0() {
+    try { ("15415").trimStart(); } catch (e) {}
+    const o17 = {
+        ["15415"]: 2.2250738585072014e-308,
+        set h(a6) {
+            for (let i8 = 0; i8 < 9; i8++) {
+            }
+        },
+    };
+    o17[Symbol.toStringTag] = "15415";
+    try { o17.isPrototypeOf("15415"); } catch (e) {}
+    return o17;
+}
+f0();
+const v22 = f0();
+function f23(a24) {
+    try {
+        f0();
+    } catch(e26) {
+    }
+}
+Object.defineProperty(v22, Symbol.toStringTag, { writable: true, configurable: true, enumerable: true, set: f23 });
+f0();
+let v30 = 10;
+for (; v30--;) {
+    const o34 = {
+        "maxByteLength": 3417281301,
+    };
+    const v36 = new ArrayBuffer(256, o34);
+    new Uint16Array(v36);
+}
+const v39 = [8.941555926588698,8.799733469934747,-715.4866664552619];
+let v40 = [35.24910439079167,-5.0];
+[993251.6829109506,-1000.0];
+const v44 = new Uint8Array(3756);
+const v45 = v44[788];
+new Uint8ClampedArray(5);
+new BigInt64Array(117);
+const o68 = {
+    m(a53, a54, a55, a56) {
+        function f57() {
+            return Symbol;
+        }
+        function f58(a59) {
+            f0();
+        }
+        Object.defineProperty(a53, Symbol.replace, { writable: true, enumerable: true, get: f57, set: f58 });
+        const v63 = a53?.__lookupGetter__;
+        try { new v63(a56); } catch (e) {}
+        Symbol.prototype;
+        a56[Symbol.toStringTag] = a56;
+        return a56;
+    },
+};
+let v69;
+try { v69 = o68.m(o68); } catch (e) {}
+try { o68.m(v44, v69, v45, v22); } catch (e) {}
+v44[Symbol.replace] = v39;
+v40 %= v39;

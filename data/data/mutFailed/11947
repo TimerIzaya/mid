@@ -1,0 +1,56 @@
+const v5 = new Set();
+class C6 extends Set {
+    256 = 127;
+    #m(a8, a9) {
+        this[a9] >>>= a8;
+        delete a8?.[this];
+        return v5;
+    }
+    constructor(a13, a14) {
+        super(a13);
+        function f15(a16) {
+            function f18(a19) {
+                try { new a19(13, -256); } catch (e) {}
+            }
+            this.onmessage = f18;
+            try {
+                this.e = this;
+            } catch(e21) {
+            }
+        }
+        const v24 = [13];
+        const o25 = {
+            "arguments": v24,
+            "g": "function",
+        };
+        new Worker(f15, o25);
+    }
+}
+const v27 = new C6(13, -256);
+new C6(v27, 13);
+new C6(v27, 127);
+[1.7762663734983946,-734602.8649830951,1000000000000.0,2.220446049250313e-16,-474.1348693800667];
+[NaN,-2.0];
+[330956.77940006857,3.0,2.0,5.0,470.607167523709,0.8265506351418377,-4.0,7.108269743738404,-1e-15];
+function F33() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v35 = new F33();
+const v36 = [F33,F33,F33];
+function f37(a38) {
+    try {
+        v36.some();
+    } catch(e40) {
+        e40.b;
+    }
+    return a38;
+}
+v36.toString = f37;
+const o43 = {
+    __proto__: v36,
+    "e": v35,
+    get a() {
+        return this;
+    },
+};
+o43.toString(F33, o43);

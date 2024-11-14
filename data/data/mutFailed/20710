@@ -1,0 +1,43 @@
+class C3 {
+    m(a5, a6) {
+        const v8 = Symbol.unscopables;
+        a5[v8];
+        try {
+            v8.fuck(a5, this);
+        } catch(e11) {
+        }
+        return 17616;
+    }
+    static #a;
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+function f15(a16) {
+    [39049,-2147483647,9007199254740991,30221,268435456,-2147483647,41987] <= [2147483647,-32974,7,-54836,-9,-15,10000];
+    return v13;
+}
+v14[Symbol.iterator] = f15;
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a25;
+    } catch(e28) {
+    }
+}
+const v29 = new F22(v14, v12, v13, v14);
+new F22(v12, v13, v14, v13);
+new F22(v13, v13, v13, v29);
+for (let v32 = 0; v32 < 5; v32++) {
+    function f33() {
+        const v36 = new Uint8ClampedArray(798);
+        const v37 = new Uint8ClampedArray(v14);
+        v37[Symbol.toPrimitive] = f33;
+        v37[(f33 && v37)[v37]];
+        v37 ** 798;
+        new Uint8ClampedArray(798, ...v36, eval());
+        return v32;
+    }
+    f33();
+    %OptimizeFunctionOnNextCall(f33);
+}

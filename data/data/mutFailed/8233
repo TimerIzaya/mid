@@ -1,0 +1,118 @@
+function f0() {
+}
+function f4() {
+    return 3.0;
+}
+class C6 {
+    set e(a8) {
+        const v10 = Symbol.iterator;
+        const o16 = {
+            [v10]() {
+                let v12 = 10;
+                const o15 = {
+                    next() {
+                        v12--;
+                        return -886003937;
+                    },
+                };
+            },
+        };
+    }
+}
+const v17 = C6();
+const v18 = C6();
+const v19 = C6();
+function f20(a21, a22) {
+    const o29 = {
+        valueOf(a24, a25) {
+        },
+        "e": v18,
+        o(a27, a28) {
+            return f4;
+        },
+    };
+    return v17;
+}
+f20()[v19];
+function f35() {
+    return 1000000000.0;
+}
+const v36 = f35?.constructor;
+try { new v36(f35); } catch (e) {}
+const v38 = [3.0,38.079991712538686,-2.2250738585072014e-308,-896.2071270475016,5.0,-1000.0,-532.7284707571846,2.220446049250313e-16,935511.2594957147];
+try { v38.findLastIndex(4.0); } catch (e) {}
+[-1000000000.0,1e-15,-5.0,1000.0,2.2250738585072014e-308,-4.320265161442229,2.220446049250313e-16];
+const v41 = [-4.0,-2.2250738585072014e-308,2.2580720057278203,-7.913474138990316e+306,0.43973359399963785,413884.5166979735,-146775.74637385237,-1000000000000.0,258.7195112030663,484.2760261961712];
+function F42(a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+F42.b = F42;
+const v46 = new F42();
+const v47 = v46?.constructor;
+([-15,-2147483649,-899333997,3,1455560807,-1024,-4294967297,2098301778]).reverse();
+function f50(a51, a52, a53, a54) {
+    const o55 = {
+    };
+}
+try { new v47(v41, 1.0); } catch (e) {}
+function f57() {
+    let v58 = -Infinity;
+    const o67 = {
+        "a": v58,
+        ...2147483647,
+        "d": v58,
+        get f() {
+            for (let v62 = 0; v62 < 32; v62++) {
+                this["p" + v62] = v62;
+            }
+            const v65 = this ^ 2147483647;
+            v65 || v65;
+            v58 = -4.057627999724119;
+            return 2147483647;
+        },
+        __proto__: 2147483647,
+    };
+    return o67;
+}
+function f68() {
+    const v70 = 1836424012 === 1836424012;
+    const o80 = {
+        [1836424012](a72, a73, a74) {
+        },
+        n(a76, a77) {
+            return v70;
+        },
+        set b(a79) {
+        },
+        "e": v46,
+    };
+    function f83(a84) {
+        const o90 = {
+            __proto__: 2,
+            "c": 2,
+            "e": 536870889,
+            213: a84,
+            ...a84,
+            "g": 2,
+            p(a86, a87) {
+                try {
+                    this.fuck(536870889, a84);
+                } catch(e89) {
+                }
+                return this;
+            },
+        };
+        return o90;
+    }
+    f83();
+    f83(536870889);
+    f83();
+    f83();
+    %OptimizeFunctionOnNextCall(f83);
+    return F42;
+}
+%PrepareFunctionForOptimization(f68);
+f68();
+f68();
+%OptimizeFunctionOnNextCall(f68);
+f68();

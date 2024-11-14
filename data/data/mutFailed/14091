@@ -1,0 +1,72 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    a6++;
+    try {
+        this.c = 5;
+    } catch(e8) {
+    }
+    try {
+        this.h = a5;
+    } catch(e9) {
+    }
+}
+new F3(5, 14);
+new F3(14, 5);
+const v12 = new F3(14, 14);
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v18 = this?.constructor;
+    try { new v18(F13, -50561, F13); } catch (e) {}
+    a16--;
+    a17++;
+    try {
+        this.a = v12;
+    } catch(e22) {
+    }
+}
+new F13(-50561, 5, 5);
+const v24 = new F13(5, 14, 5);
+new F13(-50561, -50561, 14);
+class C26 extends F3 {
+    set a(a28) {
+        v24 && -50561;
+        for (let i32 = 0, i33 = 10; i32 < i33; i32++, i33--) {
+            const v41 = v24[a28];
+            const v42 = this[64];
+            try { new a28(F3, v41, v42, v42, this); } catch (e) {}
+        }
+    }
+}
+new C26();
+const v45 = new C26();
+v45.c;
+new C26();
+const v49 = new WeakSet();
+try { ("JG3").strike(); } catch (e) {}
+function f54(a55, a56, a57) {
+    function f58(a59) {
+        for (let v60 = 0; v60 < 100; v60++) {
+            const v61 = f54(a59, 1.0);
+            v61.g = v61;
+        }
+        return a57;
+    }
+    a56.toString = f58;
+    try { a55.codePointAt(a56); } catch (e) {}
+    a57 & a57;
+    const o65 = {
+        get d() {
+            return a56;
+        },
+        ["JG3"]: a56,
+        "c": a57,
+    };
+    return o65;
+}
+const v66 = f54?.constructor;
+let v67;
+try { v67 = new v66(C26); } catch (e) {}
+const v68 = v67("function", v49);
+v68.g = v68;
+f54("JG3", v68);
+f54("JG3", v67);

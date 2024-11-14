@@ -1,0 +1,57 @@
+function f0() {
+    const o12 = {
+        ..."-34530",
+        "g": 1073741824,
+        get b() {
+            function F5(a7) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = "-34530";
+                } catch(e8) {
+                }
+            }
+            new F5("-34530");
+            const v10 = new F5(this);
+            new F5(v10);
+            return "bigint";
+        },
+    };
+    return o12;
+}
+const v13 = f0();
+f0();
+const v15 = f0();
+[127,10,-1959681637,62878,-597914495];
+const v17 = [-33745,8,5,-536870912,1073741825,-2147483647,2,-39170,8,-268435456];
+[536870888,-42728,-550444685,7,9007199254740990];
+class C22 extends f0 {
+    g;
+    [f0];
+    constructor(a24, a25, a26, a27) {
+        super();
+        const o31 = {
+            "execution": "async",
+            "type": "async",
+        };
+        gc(o31);
+    }
+}
+new C22(v17, v17, -6n, C22);
+const v34 = new C22(f0, -1066711526n, -1066711526n, v15);
+new C22(v34, v13, -6n, C22);
+function f36(a37, a38, a39, a40) {
+    function f41() {
+        function f42(a43) {
+            return f36;
+        }
+        f42(f42);
+        return f36;
+    }
+    f41();
+    f36();
+    %OptimizeFunctionOnNextCall(f41);
+    return a38;
+}
+f36();
+new Uint8Array(268435440);
+f36();

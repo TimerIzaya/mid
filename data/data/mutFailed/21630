@@ -1,0 +1,89 @@
+class C3 {
+    10;
+    constructor(a5) {
+        a5.prototype = a5;
+        try {
+            const o6 = {
+            };
+            o6.e = o6;
+            this.fuck(this, o6);
+        } catch(e8) {
+            e8.stack;
+        }
+    }
+    static a;
+    0 = "boolean";
+    d;
+}
+const v10 = new C3(C3);
+const v11 = new C3("boolean");
+const v12 = new C3(2.2250738585072014e-308);
+const v13 = [35967,14,6,9007199254740992,-4096,9,-24709,4,-769612540,9223372036854775807];
+try { v13.reverse(); } catch (e) {}
+const v15 = [7986,4,-4096,2147483649,5,9007199254740991,1916822575];
+try { v15.reverse(); } catch (e) {}
+const v17 = [-9,-1117411590,-9223372036854775807,65535,-43033,6,-54411];
+try { v17.findIndex(v17); } catch (e) {}
+try { v17.groupToMap("boolean"); } catch (e) {}
+function f20(a21, a22) {
+    a21[1] = a21;
+    let v23;
+    try { v23 = a21.toLocaleString(); } catch (e) {}
+    try { v23.codePointAt(v23); } catch (e) {}
+    const v25 = a22?.__defineGetter__;
+    try { new v25(v13, v12); } catch (e) {}
+    const o35 = {
+        "h": a21,
+        ...a22,
+        "b": a22,
+        [a22]: a21,
+        __proto__: v15,
+        valueOf(a28, a29) {
+            C3 | a29;
+            this[8] = a29 * a29;
+            for (let v32 = 0; v32 < 32; v32++) {
+                v10["p" + v32] = v32;
+            }
+            return this;
+        },
+    };
+    try { o35.findLast(o35); } catch (e) {}
+    return o35;
+}
+f20(v13, v12);
+const v38 = f20(2.2250738585072014e-308, v11);
+let v39;
+try { v39 = v38.concat(v38); } catch (e) {}
+const v40 = f20(v11, v10);
+try { v40.some(v39); } catch (e) {}
+const v42 = [-1.5314324604839498e+308,-1.8081364344875581,-2.2250738585072014e-308,3.0,3.0];
+const v43 = [101.2980265931285,-1.7177856293756712e+307,-1000000.0,-8.49664044843577];
+v43[3] = v43;
+Set.prototype = Set;
+const v45 = new Set();
+const v46 = v45.values();
+const v47 = v46?.__lookupSetter__;
+try { new v47(v11); } catch (e) {}
+let v49;
+try { v49 = v46.next(); } catch (e) {}
+v49.value;
+function f51(a52, a53, a54, a55) {
+    const v56 = a52?.unshift;
+    v56.g = v56;
+    try { new v56(v15); } catch (e) {}
+    a52.shift();
+    a52[3] = a52;
+    const o59 = {
+        __proto__: v43,
+    };
+    o59[1];
+    -o59[2];
+    return o59;
+}
+const v63 = f51(v42);
+try { v63.groupToMap(v43); } catch (e) {}
+const v65 = f51(v43);
+try { v65.reduce(f51); } catch (e) {}
+f51(v43);
+try { gc.bind(gc); } catch (e) {}
+gc();

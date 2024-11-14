@@ -1,0 +1,48 @@
+const v4 = `
+    function f5() {
+        return -50836;
+    }
+`;
+const v7 = eval(v4);
+const o12 = {
+    "execution": "async",
+    "type": "minor",
+    [v7]: v7,
+    "e": "minor",
+    __proto__: "object",
+    "c": -50836,
+    1024: v7,
+};
+gc(o12);
+new WeakSet();
+new BigInt64Array(2);
+new Uint8Array(128);
+new Int8Array(1024);
+for (let [i39, i40] = (() => {
+        let v28 = ("df")[536870887];
+        v28 = "df";
+        gc();
+        gc();
+        %PrepareFunctionForOptimization(gc);
+        gc();
+        const v32 = gc();
+        %OptimizeMaglevOnNextCall(gc);
+        v32[0] = Uint8Array;
+        v28[8] = 10;
+        ("-28411")["padStart"](10, "padStart");
+        for (let v35 = 0; v35 < 32; v35++) {
+            const t12 = "df";
+            t12["p" + v35] = v35;
+        }
+        gc();
+        return [0, 10];
+    })();
+    (() => {
+        i40 >>> i40;
+        const v42 = i39 < i40;
+        const v45 = new BigUint64Array(3375);
+        let [v46,,v47,...v48] = v45;
+        return v42;
+    })();
+    i39++) {
+}

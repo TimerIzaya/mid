@@ -1,0 +1,27 @@
+function f0() {
+}
+new WeakSet();
+[2.0,-1.7976931348623157e+308,1e-15,-5.503934016281057e+307,0.3630482165047697,1.0];
+[-1e-15,1000000000000.0,1000.0,-1.0,0.6445963975534179,-0.0,-1000000.0];
+[-3.8049887928782127];
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    function F17(a19, a20, a21, a22) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v23 = new F17();
+    const v26 = new WeakSet(4046);
+    function f27(a28, a29) {
+        Object.defineProperty(v23, v23, { configurable: true, enumerable: true, get: f27 });
+        let o31 = {
+            get e() {
+                return this;
+            },
+        };
+        [,...o31] = v26;
+        return "symbol";
+    }
+    f27();
+}
+new F12("symbol", F12, F12);
+new F12();

@@ -1,0 +1,65 @@
+const v1 = new WeakMap(WeakMap, WeakMap);
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    a7 >> a7;
+    try {
+        this.b = -44163;
+    } catch(e10) {
+    }
+    try {
+        this.e = a7;
+    } catch(e11) {
+    }
+}
+F5.d = F5;
+const v12 = new F5(-4096, -4096);
+const v13 = v12?.constructor;
+try { new v13(F5, v1); } catch (e) {}
+new F5(-44163, -2782);
+const v16 = new F5(-44163, -2782);
+function f17() {
+    return -44163;
+}
+f17.arguments = f17;
+class C18 {
+    constructor(a20, a21, a22) {
+        const v23 = a20?.constructor;
+        try { new v23(a22); } catch (e) {}
+        const v25 = a21?.constructor;
+        try { new v25(-44163, F5, v1); } catch (e) {}
+        try { a20(this, v12, -44163, a22); } catch (e) {}
+        class C29 extends a21.constructor {
+            static #e;
+            7 = v12;
+        }
+        const v30 = new C29();
+        v30[257];
+    }
+    #b;
+    static #g = -4096;
+    static #c;
+}
+const v32 = new C18(C18, v12, -2782);
+v32.length = v32;
+const v33 = new C18(-4096, v16, -4096);
+v33.toStringTag;
+const v35 = new C18(WeakMap, v16, -4096);
+const v36 = v35?.constructor;
+try { new v36(-44163, v32, f17); } catch (e) {}
+for (let v38 = 0; v38 < 5; v38++) {
+    function f39() {
+        for (let [i42, i43] = (() => {
+                switch (f39) {
+                }
+                return [0, 10];
+            })();
+            i42 < i43;
+            i43--) {
+            i42 / i42;
+            i43 / i43;
+        }
+        return f39;
+    }
+    f39();
+    %OptimizeFunctionOnNextCall(f39);
+}

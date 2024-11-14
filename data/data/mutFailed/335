@@ -1,0 +1,61 @@
+const v2 = new Uint16Array(257);
+const o3 = {
+};
+try {
+    o3.b = Uint16Array;
+} catch(e4) {
+}
+try {
+    const o5 = {
+    };
+    o5.b = Uint16Array;
+    o5.a = Uint16Array;
+} catch(e6) {
+}
+try {
+    const o7 = {
+    };
+    o7.b = Uint16Array;
+    o7.a = Uint16Array;
+    o7.h = Uint16Array;
+} catch(e8) {
+}
+try {
+    const o9 = {
+    };
+    o9.b = Uint16Array;
+    o9.a = Uint16Array;
+    o9.h = v2;
+} catch(e10) {
+}
+new Uint32Array(2);
+const v16 = new Int8Array(3710);
+const v19 = new Float32Array(3);
+v16[Symbol.toPrimitive] = 2;
+try {
+const t0 = 3710;
+t0();
+} catch (e) {}
+v16 * 257;
+new Uint32Array(9);
+new BigUint64Array(144);
+const v31 = new Set();
+class C32 {
+    static g;
+    static 5 = BigUint64Array;
+    536870887;
+    g = v19;
+    e;
+    b = v31;
+}
+v31["clear"]();
+const v35 = new C32();
+const v36 = new C32();
+function f37(a38, a39, a40, a41) {
+    for (let v42 = 0; v42 < 25; v42++) {
+        a39["p" + v42] = v42;
+    }
+    return a41;
+}
+f37(v35, v36);
+gc();

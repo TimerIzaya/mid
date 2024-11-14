@@ -1,0 +1,27 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = f1;
+    } catch(e6) {
+    }
+}
+const v7 = new F2(F2, f1);
+const v8 = new F2(v7, F2);
+new v7(f0, v8);
+new f1();
+for (let v15 = 0; v15 < 5; v15++) {
+    function f16() {
+        class C17 {
+        }
+        const v18 = new C17();
+        try { v18.isPrototypeOf(v18); } catch (e) {}
+        return v18;
+    }
+    f16();
+    %OptimizeFunctionOnNextCall(v15);
+}

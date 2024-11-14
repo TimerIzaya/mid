@@ -1,0 +1,44 @@
+const v0 = [-589.3531889713568];
+const v1 = [-0.8362203870555245,-1.5682079559747068e+308,57.29834187295501,Infinity];
+const v2 = [766048.4665426037,-4.0,-1000000000.0,1000000000.0];
+function f3(a4) {
+    const o18 = {
+        [v0]: v1,
+        ...v2,
+        [v1](a6) {
+            let v7;
+            try { v7 = new a6(); } catch (e) {}
+            %VerifyType(a6);
+            function F8(a10, a11) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = a10;
+                } catch(e12) {
+                }
+                try {
+                    a11.b = v1;
+                } catch(e13) {
+                }
+                try {
+                    this.f = v7;
+                } catch(e14) {
+                }
+            }
+            new F8(v2, v2);
+            new F8(a6, v2);
+            const v17 = new F8(v0, a4);
+            return v17;
+        },
+    };
+    return o18;
+}
+f3(v0);
+f3(v2)[3];
+f3(v0);
+const t34 = "f";
+t34[0] = "f";
+~-1e-15;
+-2.220446049250313e-16 + -2.220446049250313e-16;
+const v35 = -15 >> v1;
+let v36 = v35.pow(v35, -2.220446049250313e-16);
+v36--;

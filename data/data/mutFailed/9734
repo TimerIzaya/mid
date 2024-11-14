@@ -1,0 +1,43 @@
+class C3 {
+    ["H"];
+    static #p(a5) {
+        const v6 = ("H")[a5];
+        super.f <<= v6;
+        try {
+            const t6 = "string";
+            t6.c = "object";
+        } catch(e7) {
+        }
+        return v6;
+    }
+    ["string"];
+}
+const v8 = new C3();
+const v9 = new v8();
+const v10 = new C3();
+function f14(a15, a16) {
+    const o30 = {
+        ["string"]: "H",
+        m(a18, a19, a20) {
+            a16.exp("object").tanh("H");
+            -40407 >> "global";
+            const v26 = -"H";
+            "g" >> "g";
+            let v28 = -v26;
+            ++v28;
+            return v28;
+        },
+    };
+    return o30;
+}
+f14("2135009720", f14("string", "string"));
+f14(v10, "object");
+function f34() {
+    const v36 = new Set();
+    v36.add(v36);
+    return v9;
+}
+%PrepareFunctionForOptimization(f14);
+f34();
+%OptimizeFunctionOnNextCall(f34);
+f34();

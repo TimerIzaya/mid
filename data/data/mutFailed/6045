@@ -1,0 +1,41 @@
+const v1 = [null,null,null];
+const v2 = [null,v1,v1,v1];
+const v3 = [null,v1,v2];
+const v10 = [4.0,16n,null,4.0];
+[-154807055n,v10,4.0,4.0];
+[4.0];
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a15;
+    } catch(e17) {
+    }
+}
+const t13 = 533.8810632971936;
+new t13(4.0, v3);
+new F13(-2.0, v2);
+new F13(4.0, v10);
+function F22(a24) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v25 = new F22(F22);
+function f26(a27) {
+    return Symbol.toPrimitive;
+}
+v25.toString = f26;
+class C30 {
+    static [v25];
+}
+function F32(a34, a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    a35.caller = a37;
+}
+new F32(-714582153, F32);
+const v39 = new F32(9, 533.8810632971936);
+function f40() {
+    return F32;
+}
+function f41(a42) {
+    return a42;
+}
+Object.defineProperty(v39, "caller", { enumerable: true, get: f40, set: f41 });

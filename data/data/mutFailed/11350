@@ -1,0 +1,18 @@
+new Int32Array(9);
+new Uint8Array(9007199254740990);
+const v15 = new BigUint64Array(3066);
+const o16 = {
+};
+function f17(a18) {
+    for (let v19 = 0; v19 < 5; v19++) {
+        const v20 = v19 < v19;
+        class C21 {
+        }
+        const v22 = a18.constructor;
+        try { v22(v20, v15, v19, v22, v22); } catch (e) {}
+    }
+    return a18;
+}
+Object.defineProperty(o16, "h", { enumerable: true, set: f17 });
+const t16 = 3066;
+t16.h = o16;

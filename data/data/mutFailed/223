@@ -1,0 +1,144 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o17 = {
+        toString(a6, a7) {
+            const v8 = new Map(a3, a4, a3, a6);
+            const v10 = [];
+            return Reflect.apply(v8.values, v8, v10);
+        },
+        [a3]: a4,
+        __proto__: a4,
+        valueOf(a14) {
+            const v15 = this ** Map;
+            try {
+                v1.size = v15;
+            } catch(e16) {
+            }
+            return Map;
+        },
+    };
+    return o17;
+}
+const v18 = f2(v1, v1);
+const v19 = f2(v18, v1);
+const v20 = f2(v19, v18);
+function f21() {
+    return v19;
+}
+const v22 = [Map,f2,v1];
+const v23 = [v19];
+const v24 = [v20,v20];
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a29;
+    } catch(e30) {
+    }
+    try {
+        this.g = Map;
+    } catch(e31) {
+        new Int8Array(129);
+        new Uint8ClampedArray(154);
+        const v40 = new Int32Array(7);
+        function F41(a43, a44, a45, a46) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = a43;
+            } catch(e47) {
+            }
+            try {
+                this.f = a45;
+            } catch(e48) {
+            }
+        }
+        let v49 = new F41(154, 129, 129, 154);
+        const v50 = new F41(154, 129, 129, 129);
+        const v51 = new F41(7, 154, 154, 129);
+        const v52 = v40.buffer;
+        try { v52(Uint8ClampedArray, Int8Array, 129, v52); } catch (e) {}
+        typeof v50 === "string";
+        v49 = v51;
+    }
+    try {
+        this.h = a28;
+    } catch(e58) {
+    }
+}
+new F25(f21, v24, v24);
+new F25(Map, v22, v22);
+new F25(v22, v23, v23);
+[-1.7976931348623157e+308,-3.0,-3.0,363.8138396999086,Infinity,612.3486694343287,1.7976931348623157e+308,1000000000.0];
+[NaN,-139.41140470336723,9.77499234576472,420.6073825280855,1000000000000.0,776.2819047660907,0.07357195689559204,3.779577825846644,-1.0];
+[5.0,215.46537503132595,5.0,-2.220446049250313e-16,Infinity,NaN,1e-15];
+const v66 = new Uint8ClampedArray();
+for (const v69 in [[v66,v66],v66]) {
+}
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 0.9999170748592061;
+    } catch(e15) {
+    }
+    try {
+        this.f = "J8R";
+    } catch(e16) {
+    }
+    const v17 = [4,-783704779,2,57884,967053942,1033618162,3,186819394];
+    [-1899655270,65535,2147483649,536870889,4294967295,12,9223372036854775807];
+    -2.2250738585072014e-308 + [268435439,2135];
+    Object.defineProperty("number", "b", { value: v17 });
+    try {
+        this.a = a14;
+    } catch(e21) {
+    }
+}
+new F9(0.9999170748592061, 1000.0, -4096, -2.2250738585072014e-308);
+new F9(-4096, -2.2250738585072014e-308, -4096, -2.2250738585072014e-308);
+const v24 = new F9(0.9999170748592061, 1000.0, 129, 1000.0);
+[6,512,-654613596,-1024];
+[1631731694,65535,10,9007199254740992];
+[4096,4,4294967297,-23147];
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const o33 = {
+        };
+        try {
+            o33.f = true;
+        } catch(e34) {
+        }
+        try {
+            const o35 = {
+            };
+            o35.f = true;
+            o35.d = v24;
+        } catch(e36) {
+        }
+        try {
+            const o37 = {
+            };
+            o37.f = true;
+            o37.d = v24;
+            o37.a = this;
+        } catch(e38) {
+        }
+        try {
+            const o39 = {
+            };
+            o39.f = true;
+            o39.d = v24;
+            o39.c = true;
+        } catch(e40) {
+        }
+        function F41() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        new F41();
+        function f44() {
+            return "44061";
+        }
+        Object.defineProperty(this, -1, { writable: true, enumerable: true, get: f44 });
+    } catch(e45) {
+    }
+}
+new F28();

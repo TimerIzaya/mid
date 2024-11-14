@@ -1,0 +1,23 @@
+new BigUint64Array(8);
+const v5 = new Uint8ClampedArray(6);
+new v5(2811);
+new Uint8Array(8);
+new BigUint64Array(512);
+new Int32Array(41);
+let v18 = Boolean;
+v18[Symbol.toPrimitive] = v18;
+v18--;
+function f22() {
+    const v23 = v18--;
+    class C24 {
+    }
+    class C25 extends C24 {
+    }
+    const v26 = new C25();
+    v26.m = v23;
+    return v23;
+}
+%PrepareFunctionForOptimization(f22);
+f22();
+%OptimizeFunctionOnNextCall(Uint8ClampedArray);
+f22();

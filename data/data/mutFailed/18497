@@ -1,0 +1,64 @@
+const v1 = new WeakMap();
+function f2() {
+    try {
+        v1.toString = WeakMap;
+    } catch(e3) {
+    }
+    return WeakMap;
+}
+v1[Symbol.toPrimitive] = f2;
+class C6 {
+    static {
+        const v9 = new WeakSet();
+        1073741824n >> -2n;
+        try {
+            C6.d = v9;
+        } catch(e14) {
+        }
+    }
+    static get f() {
+        const o19 = {
+            "maxByteLength": 257,
+        };
+        const v21 = new ArrayBuffer(257, o19);
+        const v23 = new Float64Array(v21);
+        return v23;
+    }
+}
+const v24 = new C6();
+v1 * v24;
+try {
+    C6.fuck(-1n, v24, -1n);
+} catch(e28) {
+}
+new C6();
+new C6();
+function f34() {
+    return 536870912;
+}
+[-1.3559951018626266e+308,-1.4384054092034988e+308,-1000.0,Infinity,-161854.29500221706,1000000.0,-182269.6406732602];
+const v36 = [0.6562501992163505,-927.157609751746,NaN,-1.6136368064766728e+308,2.220446049250313e-16,-1000.0];
+const v37 = [-1000000.0];
+for (const v38 of v36) {
+    try { v38(536870912, v37, v1); } catch (e) {}
+}
+typeof 536870912 === "string";
+const v44 = [Float32Array];
+const v46 = Symbol.isConcatSpreadable;
+const o47 = {
+};
+o47.e = v46;
+new Proxy(Float32Array, o47);
+new Uint16Array(129);
+new Float32Array(1084);
+let v56 = 3;
+new Float64Array(v56);
+v44[v46] = Float32Array;
+o47.e;
+v56 *= v56;
+const o62 = {
+    "maxByteLength": 536870888,
+};
+const v64 = new SharedArrayBuffer(1000, o62);
+new BigUint64Array(v64);
+v44["concat"]();

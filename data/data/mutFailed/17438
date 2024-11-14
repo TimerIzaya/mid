@@ -1,0 +1,44 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = f0;
+    } catch(e3) {
+    }
+    try {
+        this.c = f0;
+    } catch(e4) {
+    }
+    try {
+        this.b = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new F1();
+new F1(f0, v6);
+new Object(64, v7);
+new Uint16Array(128);
+const v16 = [15,52917,-9223372036854775807,-647320912,1463936330,-11132,-65537,1005084643,16,1073741823];
+for (let v17 = 0; v17 < 5; v17++) {
+    function f18() {
+        return ("Vre").fixed("Vre").concat(v16);
+    }
+    f18();
+    %OptimizeFunctionOnNextCall(f18);
+}
+new Uint32Array(-40019);
+function f26() {
+    const o29 = {
+        [null]() {
+            super.resizable;
+        },
+        "f": null,
+    };
+    return o29;
+}
+f26();
+f26();
+%OptimizeFunctionOnNextCall(f26);
+f26(v16, Object);

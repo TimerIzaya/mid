@@ -1,0 +1,51 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = this?.__lookupGetter__;
+    try { new v7(F3); } catch (e) {}
+    function f9() {
+        try { ("NFKD").localeCompare(this); } catch (e) {}
+        ("string").normalize("NFKD");
+        return "string";
+    }
+    try { Symbol(); } catch (e) {}
+    Object.defineProperty(this, Symbol.toPrimitive, { writable: true, value: f9 });
+    try {
+        this.a = a5;
+    } catch(e17) {
+    }
+    try {
+        this.b = -5.0;
+    } catch(e18) {
+    }
+}
+const v19 = new F3(-1.1816923190189675e+307, -1.1816923190189675e+307);
+v19.h = -1.1816923190189675e+307;
+const v20 = new F3(-1.1816923190189675e+307, v19);
+const t23 = v20.a;
+const v22 = new t23(1000000000.0, 1000000000.0);
+const v24 = new WeakSet();
+try { v24.delete(v22); } catch (e) {}
+class C26 {
+    get c() {
+        this[9];
+        try { new this(); } catch (e) {}
+        return WeakSet;
+    }
+    e = v20;
+    static [v22];
+    static #h = F3;
+    set a(a31) {
+        /(?:a+)?/gvdis;
+        /Ul\p{General_Category=Decimal_Number}/gvdi;
+        /xyz??/gimy;
+    }
+    [WeakSet] = v24;
+}
+new C26();
+new C26();
+const t45 = 1000000000.0;
+new t45();
+[-839251.9516386811,1.0,1000000000000.0,1000000.0,-1000000.0,872.5968622063563,1e-15,-1.7976931348623157e+308,-Infinity,2.0];
+[-9.153486338559055,1.7976931348623157e+308,-1.0,-226369.5417427572,-1000000.0,-9.872528706251509e+307,-980628.1328930052,0.2156153680925723,4.388745285284848,2.220446049250313e-16];
+[NaN];
+try { Worker(); } catch (e) {}

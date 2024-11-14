@@ -1,0 +1,33 @@
+function f3(a4) {
+    const o5 = {
+        [a4]: 1032808354n,
+        ...a4,
+        "c": a4,
+        [-1]: a4,
+        ...1032808354n,
+        __proto__: a4,
+        "d": -1622903056n,
+        "e": -1622903056n,
+        "a": -1622903056n,
+        1024: 10n,
+    };
+    return o5;
+}
+f3(f3(f3));
+f3(10n);
+([8]).fill(8);
+const v17 = new Uint16Array();
+const v20 = new Int32Array();
+class C21 {
+    static #d = -2;
+    constructor(a23, a24) {
+        try {
+            v17.#d += v20;
+        } catch(e25) {
+            e25.toString();
+        }
+    }
+}
+const t30 = C21.constructor;
+t30(255);
+new C21();

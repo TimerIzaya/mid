@@ -1,0 +1,87 @@
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a13;
+    try {
+        this.d = 1e-15;
+    } catch(e14) {
+    }
+}
+new F9(NaN, 10000, -9223372036854775807);
+new F9(1e-15, 536870889, 10000);
+new F9(2.220446049250313e-16, 536870889, 536870889);
+class C18 {
+}
+try {
+    new NaN("268435441");
+} catch(e22) {
+}
+const v23 = new C18();
+function f24(a25, a26) {
+    function f27() {
+        return f24;
+    }
+    class C28 extends f27 {
+    }
+    class C29 extends C28 {
+    }
+    function f30(a31, a32, a33, a34) {
+        try { a31(C29); } catch (e) {}
+        function f36() {
+            return -9223372036854775807;
+        }
+        const t31 = [1000.0,466037.9140147343,-5.0,-674.0867628578474,1e-15,-Infinity,1000.0,1000000000.0];
+        t31[eval.toPrimitive] = f36;
+        let v40 = a32 & a32;
+        new Map();
+        v40++;
+        const o47 = {
+            n(a45, a46) {
+                return this;
+            },
+        };
+        return v23;
+    }
+    const v48 = [601759695];
+    const v49 = [1073741824,1073741823,1376142744,1073741825];
+    function f51(a52, a53, a54, a55) {
+        const v57 = arguments.toString();
+        function f58() {
+            ("Vre").fixed("Vre");
+            const o75 = {
+                [522675525n](a63, a64) {
+                },
+                ..."Vre",
+                valueOf(a66, a67) {
+                    return this;
+                },
+                ...v48,
+                ..."Vre",
+                valueOf(a69, a70) {
+                    return a52;
+                },
+                ..."Vre",
+                4: "Vre",
+                toString(a72, a73, a74) {
+                    return v57;
+                },
+                5: 29536,
+            };
+            o75.valueOf();
+            return f51;
+        }
+        f58();
+        const v79 = new Int8Array();
+        v79.buffer.slice();
+        %OptimizeFunctionOnNextCall(f58);
+        let v83;
+        try { v83 = v49["find"](..."find", a55, ...v48, ...v49, ...522675525n); } catch (e) {}
+        return v83;
+    }
+    for (let v84 = 0; v84 < 500; v84++) {
+        f30();
+    }
+    return C18;
+}
+Object.defineProperty(v23, "constructor", { value: f24 });
+const v86 = v23.c;
+v86(v86, v23);

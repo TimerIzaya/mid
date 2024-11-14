@@ -1,0 +1,27 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.caller = this;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+const v9 = new Int8Array(127);
+12 | v9;
+new parseInt(12);
+let v14 = 2347;
+v14++;
+new BigInt64Array(v14);
+function F18() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v20 = this?.constructor;
+    let v21;
+    try { v21 = new v20(); } catch (e) {}
+    this.iterator = v21;
+}
+try { new F18(); } catch (e) {}
+const v24 = new F18();
+v24.g = v24;
+F18 = v24.h;

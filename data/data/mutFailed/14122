@@ -1,0 +1,52 @@
+class C3 {
+    constructor(a5, a6) {
+        a5 + a5;
+        a6.a = a6;
+        const v9 = Symbol.iterator;
+        const o18 = {
+            [v9]() {
+                let v11 = 10;
+                const o17 = {
+                    next() {
+                        v11--;
+                        const v15 = v11 == 0;
+                        const o16 = {
+                            "done": v15,
+                            "value": v11,
+                        };
+                        return o16;
+                    },
+                };
+                return o17;
+            },
+        };
+    }
+}
+const v19 = new C3(268435440, C3);
+const v20 = new C3(v19, C3);
+const v21 = v20?.propertyIsEnumerable;
+try { new v21(-65537); } catch (e) {}
+const v23 = new C3(v20, "iterator");
+const v24 = v23?.__defineGetter__;
+try { new v24(v23, "iterator"); } catch (e) {}
+function f26() {
+    return 268435440;
+}
+class C27 {
+    static set d(a29) {
+        new BigInt64Array(15);
+        new Float32Array(9);
+        new Uint8ClampedArray(3);
+    }
+    #a;
+    static [f26] = f26;
+}
+new C27();
+const v40 = new C27();
+const v41 = v40?.constructor;
+try { new v41(); } catch (e) {}
+new C27();
+-9223372036854775807 % -9223372036854775807;
+-6 | -6;
+const v53 = ([NaN,52.65298068517177,-4.0])["includes"](-6, -9223372036854775807);
+v53 || v53;

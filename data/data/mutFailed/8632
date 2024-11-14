@@ -1,0 +1,54 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        n() {
+            delete this?.a;
+            return 8;
+        },
+        "a": f0,
+        get d() {
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            const v9 = f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            f0();
+            return v9;
+        },
+    };
+    return o12;
+}
+const t21 = f1();
+t21[f1] = f1;
+new f1();
+new Uint8Array(9);
+new Int32Array(1850);
+new Uint32Array(1000);
+const v24 = f1();
+f1();
+new Map();
+let v28 = 129;
+new Float32Array(v28);
+Float64Array.valueOf = f0;
+new Float64Array(3373);
+let v35 = 65537;
+let v36 = 72227221;
+const v37 = ++v28;
+--v36;
+v35++;
+const v40 = v36 - v35;
+Math.abs(v37);
+f0 & v40;
+new Int8Array(193);
+const v48 = new Int16Array(1000);
+BigInt64Array[0] = v24;
+const v53 = new BigInt64Array(1000);
+class C54 extends Float64Array {
+    constructor(a56, a57, a58, a59) {
+        super(v48);
+    }
+    [65] = Float64Array;
+}
+new C54();
+v48.toLocaleString(BigInt64Array, v53);

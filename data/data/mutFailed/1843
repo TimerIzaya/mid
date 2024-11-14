@@ -1,0 +1,57 @@
+const v0 = /foo(?!bar)baz?/uds;
+const v1 = /[(?:a+)?]/gdisy;
+const v2 = /k/y;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v6;
+    try { v6 = this.constructor(a5); } catch (e) {}
+    a5.c = v6;
+    try {
+        this.f = a5;
+    } catch(e7) {
+    }
+    try {
+        this.e = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(v2);
+const v10 = new F3(v9);
+const v11 = new F3(v0);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v16 = a14.f;
+    try {
+        v2.g = a14;
+    } catch(e17) {
+    }
+    class C19 extends v9.constructor {
+        static [F3] = v9;
+        65537;
+    }
+    new C19();
+    try {
+        this.b = v16;
+    } catch(e21) {
+    }
+    try {
+        this.a = v9;
+    } catch(e22) {
+    }
+}
+try { F12.__proto__(); } catch (e) {}
+new F12(v10, v1);
+const v25 = new F12(v11, F12);
+v25.b = v25;
+new F12(v11, v2);
+function f27(a28, a29) {
+    v1.flags += a29;
+    Object.defineProperty(v10, "e", { writable: true, configurable: true, set: f27 });
+    (a29 * a29) instanceof f27;
+    Object.defineProperty(a28, 2509663092, { enumerable: true, get: f27, set: f27 });
+    a29.name;
+    a29.constructor(v11);
+    return f27;
+}
+try { Promise.hasOwnProperty(Promise); } catch (e) {}
+new Promise(f27);

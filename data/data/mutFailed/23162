@@ -1,0 +1,25 @@
+const v4 = new Date();
+class C8 {
+    get b() {
+        let v9 = this;
+        const v10 = Date(1.7976931348623157e+308);
+        v9 = "__proto__";
+        super.e = 2.2250738585072014e-308;
+        let v11;
+        try { v11 = v10.toISOString(); } catch (e) {}
+        try {
+            super.setBigInt64(v4, v10, v11, "10", v9);
+        } catch(e13) {
+        }
+        return v11;
+    }
+    d;
+    static #g;
+}
+const v14 = new C8();
+new v14();
+new C8();
+const v22 = new Int16Array(255);
+const o23 = {
+    ...v22,
+};

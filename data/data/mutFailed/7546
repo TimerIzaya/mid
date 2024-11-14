@@ -1,0 +1,27 @@
+const v0 = /i[.M(?:a?)*]+/vd;
+const v1 = /[x]+/umy;
+const v2 = /W0a+?/udms;
+class C3 {
+    [v2] = v2;
+    static #b = v1;
+    static n(a5, a6) {
+        super[this] = v0;
+        let v7;
+        try { v7 = a5(v2, a5, this, this); } catch (e) {}
+        return v7;
+    }
+    static [v0] = v1;
+    static [v2] = v0;
+    #d = v0;
+}
+new C3();
+new C3();
+new C3();
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v18 = this.constructor;
+    try { new v18(F14); } catch (e) {}
+    a17 / a17;
+}
+new F14();
+new F14();

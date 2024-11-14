@@ -1,0 +1,20 @@
+function f0() {
+}
+f0[Symbol.iterator] = f0;
+const v5 = new BigInt64Array(6);
+try { new BigInt64Array(f0, v5, BigInt64Array); } catch (e) {}
+new BigInt64Array(3751);
+Uint8ClampedArray.d = f0;
+Uint8ClampedArray.d = Uint8ClampedArray;
+const v12 = new Uint8ClampedArray(9);
+v12[Symbol.toPrimitive] = Symbol;
+v12[5] = v12;
+2147483647 ^ 2147483647;
+new Uint16Array(2519);
+new Uint8ClampedArray(7);
+1000 >> 1000;
+new BigInt64Array(1000);
+const v30 = Map.prototype;
+const v31 = v30?.__lookupSetter__;
+try { new v31(8); } catch (e) {}
+try { v30.clear(v30, Map); } catch (e) {}

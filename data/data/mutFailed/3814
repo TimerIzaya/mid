@@ -1,0 +1,44 @@
+function f3(a4) {
+    const o13 = {
+        "h": 1073741825,
+        get g() {
+            const o8 = {
+                "MAX_VALUE": 257,
+            };
+            const v10 = new ArrayBuffer(a4, o8);
+            new Float32Array(v10);
+            return a4;
+        },
+    };
+    return o13;
+}
+const v14 = f3(1073741825);
+f3(1073741825);
+const v16 = f3(f3);
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v16;
+    } catch(e22) {
+    }
+    try {
+        this.g = v14;
+    } catch(e23) {
+    }
+}
+new F17(1073741825, -11, -11);
+const v25 = new F17(128, -11, -11);
+new F17(1073741825, 128, 1073741825);
+function f30(a31, a32) {
+    const o33 = {
+        "g": a31,
+        "h": 1073741825,
+    };
+    return o33;
+}
+v25(1132580011);
+class C35 {
+    get e() {
+        ~1132580011;
+    }
+}

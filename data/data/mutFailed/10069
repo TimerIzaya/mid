@@ -1,0 +1,89 @@
+class C3 {
+    static {
+        let v5;
+        try { v5 = new this(); } catch (e) {}
+        const v6 = v5?.constructor;
+        let v7;
+        try { v7 = new v6(); } catch (e) {}
+        this[9] = "number";
+        super.f = this;
+        -6n != -6n;
+        const v10 = -6n ^ v7;
+        v10 * v10;
+        const v13 = -15758n % -15758n;
+        v13 - v13;
+    }
+    n(a17) {
+        try {
+            super.getMinutes("number", a17, this, a17, 14);
+        } catch(e19) {
+        }
+        return this;
+    }
+}
+C3[9] = C3;
+new C3();
+new C3();
+const v22 = new C3();
+const v23 = v22?.__lookupSetter__;
+let v24;
+try { v24 = new v23(v22); } catch (e) {}
+const v25 = v22?.constructor;
+let v26;
+try { v26 = new v25(); } catch (e) {}
+const v27 = v26?.constructor;
+try { new v27(); } catch (e) {}
+function f29() {
+    return "number";
+}
+f29.length = f29;
+f29.arguments;
+1073741823 >> 1073741823;
+let v34 = 2147483648;
+const v35 = v34 != v34;
+v35 || v35;
+v34--;
+let v38 = 8;
+v38++;
+Uint8Array.h = Uint8Array;
+const v41 = new Uint8Array(v38);
+v41[8] = v41;
+const v42 = v41[6];
+v42 & v42;
+v42 + v42;
+127 >>> 127;
+127 + 127;
+Float32Array.BYTES_PER_ELEMENT = Float32Array;
+new v24(127);
+const v52 = new Float32Array(8);
+v52[7];
+const v55 = new Uint8Array(Uint8Array);
+const v56 = v55[1];
+v56 >> v56;
+const v58 = v55[1];
+v58 / v58;
+v58 / v58;
+function f61(a62, a63, a64, a65) {
+    const v66 = a64++;
+    v66 << v66;
+    const v68 = a64++;
+    const v69 = v68 - v68;
+    v69 >>> v69;
+    const v71 = v68 * v68;
+    v71 >>> v71;
+    a64 % a64;
+    const o74 = {
+        ...v55,
+    };
+    o74[2] = o74;
+    const v75 = o74[2];
+    v75[1] = v75;
+    const v76 = v75[2];
+    v76[2] = v76;
+    return v75 >>> v75;
+}
+for (let v78 = 0; v78 < 500; v78++) {
+    v78 >>> v78;
+    const v80 = f61();
+    v80 / v80;
+}

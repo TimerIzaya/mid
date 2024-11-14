@@ -1,0 +1,61 @@
+class C3 {
+    p(a5, a6) {
+        for (const v7 in a5) {
+            a5 <<= v7;
+        }
+        try { new a6(-1.3933814477498101e+308, 7, Number, this, a6, this); } catch (e) {}
+        return "constructor";
+    }
+    static #g = "constructor";
+    536870889;
+    e;
+}
+try { new C3(); } catch (e) {}
+const v12 = new C3();
+try { v12.isPrototypeOf(-1.3933814477498101e+308); } catch (e) {}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = [0.5444539010045871,250.64229732520016,1000000000.0,-834879.5000741249,1000.0,Infinity];
+const v17 = [-687.7342743071857,-1000000000000.0,-1.1354952959577234e+308,-79.45776889313288,1000000.0,4.154957326586073,0.8287121668509928];
+v17[2];
+const v19 = [1.7976931348623157e+308];
+function f20(a21) {
+    a21.e |= a21;
+    const v23 = Symbol.match;
+    a21[v23];
+    return v23;
+}
+v19[Symbol.toPrimitive] = f20;
+function f27(a28, a29, a30) {
+    try { a29.map(a28); } catch (e) {}
+    const o47 = {
+        [a29]: a28,
+        ...a30,
+        6: -1.3933814477498101e+308,
+        "d": v12,
+        "h": a29,
+        0: a30,
+        m(a33, a34, a35, a36) {
+            delete C3?.e;
+            new Uint8Array(5);
+            const v43 = new Int8Array(6);
+            new Int8Array(8);
+            return v43;
+        },
+    };
+    return o47;
+}
+f27(v15, v19, f27);
+const v49 = f27(v14, C3, v19);
+function f50() {
+    const v51 = [v17];
+    [v51,[v51,v51,v51,v51]];
+    return f27;
+}
+v49[Symbol.toPrimitive] = f50;
+v49[6] = v49;
+f27(v14, v49, v16);
+const v57 = [6,-963441656,16,29379,4294967295,-1,-7,264333751,-1860319367];
+const v58 = [1.7976931348623157e+308,-1.2968908289000048e+307,0.402129700476598,0.9687558030639707,-3.0,-3.892783004799951,1000000000.0,NaN,-638560.6883919106,764993.5586307007];
+v58[7] = v58;
+v57.indexOf(...v58);

@@ -1,0 +1,55 @@
+function f0() {
+    const o15 = {
+        "a": 1000000000.0,
+        "f": 1000000000.0,
+        "e": -1e-15,
+        "h": -1e-15,
+        get a() {
+            const o5 = {
+            };
+            const v7 = new Proxy(this, o5);
+            const v10 = v7 | 3285;
+            Math.log10(v10);
+            const v12 = -this;
+            v7 / v10;
+            3285 ^ v7;
+            return v12;
+        },
+    };
+    return o15;
+}
+const v16 = f0(f0, f0);
+const v17 = f0();
+v17.toString = f0;
+const v18 = f0();
+let v22 = -26727;
+do {
+    f0(v22, v16, -553727587);
+    v22++;
+} while (v22 >= 3)
+const v28 = [9,[-128,9,v16,v18,9]];
+[v28,v28,-553727587,v18];
+class C30 extends f0 {
+    set c(a32) {
+        v18.__proto__;
+        let {"b":v34,"g":v35,"h":v36,...v37} = v16;
+        this.e ||= a32;
+        try {
+            f0();
+        } catch(e39) {
+        }
+    }
+    static [v17];
+    #c = v28;
+}
+new C30(v18);
+new C30();
+new C30();
+class C43 {
+}
+Date.toString = EvalError;
+class C46 extends Date {
+}
+C46.valueOf = Date;
+const v47 = new C46();
+try { v47.setMonth(C43, C46); } catch (e) {}

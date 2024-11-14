@@ -1,0 +1,71 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 6;
+    } catch(e3) {
+    }
+    try {
+        this.h = 6;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C8 extends F0 {
+    static get d() {
+        super.h;
+        %VerifyType(v7);
+        return v5.__proto__;
+    }
+    static {
+        const v13 = new F0();
+        let v14;
+        try { v14 = F0(); } catch (e) {}
+        v13[v14];
+        function f16() {
+            delete arguments.callee;
+            return arguments;
+        }
+        f16();
+    }
+    static [v5] = v7;
+    static o(a21, a22, a23) {
+        const v24 = v6[4];
+        try {
+            new F0(v24);
+        } catch(e26) {
+        }
+        return a22;
+    }
+    static #g = v7;
+    static b = v5;
+}
+new C8();
+new C8();
+new C8();
+const v31 = new F0();
+const o33 = {
+    [-1]: v31,
+    get b() {
+        return F0;
+    },
+};
+new Array(1994);
+function F40(a42, a43) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v44 = new F40();
+function f45() {
+    const o51 = {
+        [1836424012](a48, a49, a50) {
+        },
+        "e": v44,
+    };
+    return F40;
+}
+%PrepareFunctionForOptimization(f45);
+f45();
+f45();
+%OptimizeFunctionOnNextCall(f45);
+f45();

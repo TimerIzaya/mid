@@ -1,0 +1,54 @@
+const v0 = [];
+function f1() {
+    function f2() {
+        return v0;
+    }
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+function f6() {
+    new Date(Date);
+    new BigUint64Array(64);
+    return v0;
+}
+Date.toString = f6;
+const v11 = new Date();
+const v12 = [v0,v11,Date,v11];
+v12.toString = f6;
+const v13 = [v11,v0,Date,v12,v12];
+v13[Symbol.toPrimitive] = f1;
+const v16 = [v11,v0,v13];
+Object.defineProperty(v16, "toString", { enumerable: true, value: Symbol });
+const v18 = new WeakSet();
+const v19 = [v0,v16,v12,v0,v13];
+const v20 = [v19,v16];
+const v21 = [v18];
+new WeakMap();
+class C24 {
+    static [v16];
+    constructor(a26, a27) {
+        try {
+            v20.reduceRight(Date);
+        } catch(e29) {
+        }
+        try {
+            this.toString = Date;
+        } catch(e30) {
+        }
+    }
+    static #d = v21;
+    #g;
+    static [v12];
+}
+const v31 = new C24(v20, WeakSet);
+const v32 = new C24(v13, v31);
+new C24(v32, v19);
+function F34(a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        ["function",[9007199254740992,-13,1,206834672,5792,16,856414023,8,2147483648]];
+        new F34();
+    } catch(e42) {
+    }
+}
+new F34();

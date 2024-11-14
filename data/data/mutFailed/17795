@@ -1,0 +1,22 @@
+new BigUint64Array(1024);
+new Float32Array(192);
+new Uint8Array(0);
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v14 = new F12();
+function f15(a16) {
+    a16 % Float32Array;
+    const o18 = {
+    };
+    const v19 = o18.__proto__;
+    v19.__lookupSetter__;
+    return v19;
+}
+v14[Symbol.toPrimitive] = f15;
+function f23(a24) {
+    const o25 = {
+    };
+    return o25;
+}
+f23(f23).__defineGetter__(v14, f23);

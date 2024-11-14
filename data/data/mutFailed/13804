@@ -1,0 +1,30 @@
+const v0 = [-5.0,1.7771046134126616e+308,1000000000.0,-1.0];
+const v1 = [0.6257069341385509,-587.6315920209515];
+const v2 = [NaN];
+class C3 {
+    g = v2;
+    [v2] = v1;
+    #m(a5) {
+        const v6 = [a5,v1];
+        const v7 = [v6,a5,v2,v0,v6];
+        const v8 = [v7,v7,v2,v7,v1];
+        function F9(a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = a5;
+            } catch(e13) {
+            }
+        }
+        new v8(v0, v7);
+        new F9(v6, a5);
+        new F9(v1, a5);
+        return F9;
+    }
+}
+new C3();
+new v1();
+const v19 = new C3();
+function f23() {
+    return 64;
+}
+v19();

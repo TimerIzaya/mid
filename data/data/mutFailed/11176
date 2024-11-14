@@ -1,0 +1,46 @@
+const v1 = new WeakMap();
+class C2 {
+    set g(a4) {
+        try {
+            super.set(ArrayBuffer, this, a4, v1);
+        } catch(e7) {
+        }
+    }
+    static {
+        Reflect.construct(WeakMap, [this], WeakMap);
+    }
+    #c;
+}
+const v12 = new C2();
+const v13 = new C2();
+const v14 = new C2();
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a20;
+    } catch(e21) {
+    }
+}
+new F15(v12, v12, v14, v1);
+new F15(v12, v13, v12, C2);
+new F15(v12, v13, v1, v13);
+const v30 = new WeakSet();
+let v31 = /(w)/gvdmy;
+const v32 = /((ab))/vy;
+for (let v33 = 0; v33 < 25; v33++) {
+    const v35 = "p" + v33;
+    const v37 = [-1000.0,351.94489669740733,5.8623101046484845,-160881.40611645568,0.6390643538224362,9.13027568774574];
+    function f38(a39) {
+        a39 ^ a39;
+        return 36002;
+    }
+    v37.toString = f38;
+    %OptimizeFunctionOnNextCall(f38);
+    function f41(a42, a43) {
+        return f38;
+    }
+    const v45 = new Promise(f41);
+    v45[v37] += 36002;
+    v30[v35] = v33;
+}
+v31 >>= v32;

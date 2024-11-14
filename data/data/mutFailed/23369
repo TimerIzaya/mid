@@ -1,0 +1,27 @@
+const v0 = [];
+let v4 = -4096;
+v4++;
+const v12 = new BigUint64Array();
+try { v12.entries(); } catch (e) {}
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v18 = v4?.constructor;
+    let v19;
+    try { v19 = new v18(a16, F14); } catch (e) {}
+    function f20() {
+        try { v12.toLocaleLowerCase(this, "NFKD", BigUint64Array, BigUint64Array); } catch (e) {}
+        let v23;
+        try { v23 = a17.localeCompare(v12); } catch (e) {}
+        return v23;
+    }
+    Symbol.e = Symbol;
+    a17.toPrimitive;
+    Object.defineProperty(this, v19, { writable: true, value: f20 });
+}
+try { new F14(2, v0); } catch (e) {}
+new F14();
+class C28 {
+    static [v0];
+}
+const v29 = C28?.apply;
+try { new v29(2, v4); } catch (e) {}

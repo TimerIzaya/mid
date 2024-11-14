@@ -1,0 +1,37 @@
+const v0 = [15];
+const v1 = [-57682,9223372036854775807,-7,1024,9007199254740990,1297776868];
+function f2(a3) {
+    class C4 {
+    }
+    return v0;
+}
+v1.toString = f2;
+const v5 = [-39859,-36143,-49128,1073741825,-46919,12,-4510,2];
+Object.defineProperty(v5, Symbol.toPrimitive, { writable: true, configurable: true, value: f2 });
+class C9 {
+    [v1];
+    m(a11, a12) {
+        +this;
+        return delete a11[0];
+    }
+    [v5] = false;
+    static #f;
+    static 1024 = false;
+    static b;
+}
+C9[1024] = C9;
+const v15 = new C9(v5, C9);
+const v16 = v15?.constructor;
+try { new v16(); } catch (e) {}
+new C9(v1);
+new C9();
+let v22 = 536870912;
+v22++;
+Array[Symbol.toPrimitive] = Array;
+class C27 extends Array {
+    static [Array] = -8;
+    static #m(a29, a30) {
+        return 5n;
+    }
+}
+C27.length;

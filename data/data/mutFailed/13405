@@ -1,0 +1,97 @@
+const v1 = new undefined();
+class C2 extends undefined {
+    static {
+        %VerifyType(this);
+    }
+    constructor(a5, a6) {
+        super(a5);
+        new Map(v1);
+    }
+    2 = v1;
+    b;
+}
+const v9 = new C2(v1, C2);
+const v10 = new C2(v1, v9);
+const v11 = new C2(undefined, v1);
+class C12 extends undefined {
+    [v10] = v11;
+    static o(a14, a15, a16, a17) {
+        super.delete(v9);
+        const v20 = Symbol.iterator;
+        const o29 = {
+            [v20]() {
+                let v22 = 10;
+                const o28 = {
+                    next() {
+                        v22--;
+                        const v26 = v22 == 0;
+                        const o27 = {
+                            "done": v26,
+                            "value": v22,
+                        };
+                        return o27;
+                    },
+                };
+                return o28;
+            },
+        };
+        return this;
+    }
+}
+new C12();
+new C12();
+new C12();
+const v33 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v34 = [601759695];
+const v35 = [1073741824,1073741823,1376142744,1073741825];
+function f37(a38, a39, a40, a41) {
+    function f42() {
+        const o49 = {
+            "e": -4294967295,
+            ..."Vre",
+            valueOf(a47, a48) {
+            },
+            ..."Vre",
+            "c": a41,
+            5: -4294967295,
+            6: -268435456,
+        };
+    }
+    f42();
+    %OptimizeFunctionOnNextCall(f42);
+    let v52;
+    try { v52 = v35["find"](..."find", a41, ...v34, ...v35, ...522675525n); } catch (e) {}
+    v52 <= a40;
+}
+f37(v34, v33, 522675525n, v33);
+const v59 = new BigInt64Array(3216);
+const v63 = new BigUint64Array(4096);
+function f65() {
+    const o67 = {
+    };
+    return o67;
+}
+for (let v68 = 0; v68 < 51; v68++) {
+    f37(v34, v68, false, v68);
+}
+f37(v63, 3331, v59, 3216);
+%PrepareFunctionForOptimization(f37);
+%OptimizeFunctionOnNextCall(f37);
+f37(v63, 3331, v59, 3216);
+function f78() {
+    return 36924;
+}
+function f79(a80, a81, a82, a83) {
+    const o93 = {
+        __proto__: a82,
+        ...a82,
+        [a82](a85, a86, a87) {
+            function f89() {
+                return f89;
+            }
+            return "function";
+        },
+    };
+    return o93;
+}
+f79(-65536, 36924, f78);

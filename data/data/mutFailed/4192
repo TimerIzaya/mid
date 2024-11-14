@@ -1,0 +1,81 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = this;
+    try {
+        this.d = -342538778;
+    } catch(e3) {
+    }
+}
+function f4() {
+    function f5(a6) {
+        a6[a6] |= a6;
+        return a6;
+        return F0;
+    }
+    return f5;
+}
+function f7(a8) {
+    try { a8.setSeconds(F0, a8, a8, a8); } catch (e) {}
+}
+Object.defineProperty(F0, Symbol.toPrimitive, { writable: true, enumerable: true, get: f4, set: f7 });
+const v12 = new F0();
+const v13 = new F0();
+const v14 = new F0();
+class C15 extends F0 {
+    static #o(a17, a18) {
+        v13[a18] = a18;
+        try {
+            v13.valueOf = this;
+        } catch(e19) {
+        }
+        return a17;
+    }
+    f = v12;
+    static #toString(a21) {
+        try {
+            this.__proto__ = this;
+        } catch(e22) {
+        }
+        return v14;
+    }
+}
+const v23 = new C15();
+const v24 = new C15();
+const v25 = new C15();
+function f26() {
+    return v23;
+}
+class C30 {
+    g;
+    [C15] = C15;
+    valueOf(a32, a33, a34, a35) {
+        return "PI";
+    }
+    constructor(a40, a41, a42, a43) {
+        let v44 = 0;
+        do {
+            try {
+                v23.d = 1.0;
+            } catch(e45) {
+            }
+            v44++;
+        } while (v44 < 1)
+    }
+}
+new C30(v25, 1000000000.0, v24, v14);
+new C30(v24, -478.16718878532913, f26, C15);
+new C30(v14, 1000000000.0, -478.16718878532913, v13);
+function f52(a53, a54) {
+    return f52;
+}
+const v55 = f52(f52, f52);
+class C56 extends f52 {
+    constructor(a58, a59, a60) {
+        super();
+        const v61 = `
+            try { a58(a60, v55); } catch (e) {}
+        `;
+        eval(v61);
+    }
+}
+new C56(f52, C56, f52);

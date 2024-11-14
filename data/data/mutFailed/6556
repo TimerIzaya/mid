@@ -1,0 +1,74 @@
+([]).__proto__;
+const o7 = {
+};
+try {
+    o7.g = 1073741825;
+} catch(e8) {
+}
+try {
+    const o9 = {
+    };
+    o9.g = 1073741825;
+    o9.c = 4096;
+} catch(e10) {
+}
+try {
+    const o11 = {
+    };
+    o11.g = 1073741825;
+    o11.c = 4096;
+    o11.b = 4096;
+} catch(e12) {
+}
+try {
+    const o13 = {
+    };
+    o13.g = 1073741825;
+    o13.c = 4096;
+    o13.a = 1165;
+} catch(e14) {
+}
+const v15 = new Float64Array(1165);
+try { v15.set(v15); } catch (e) {}
+const v18 = 43 * 43;
+Float32Array.prototype = Float32Array;
+const v20 = new Float32Array(43);
+for (let v23 = 0; v23 < 32; v23++) {
+    o7["p" + v23] = v23;
+}
+new Int32Array(0);
+[10];
+const v28 = [1,-1625381982,-1,3,6,65535,161885320];
+let v29;
+try { v29 = v28.every(Float32Array); } catch (e) {}
+[64,-1073741824,6,6,-268435456,-55035];
+const v32 = new Uint8Array(Uint8Array, Uint8Array, Uint8Array);
+Object.defineProperty(v32, 248, { writable: true, configurable: true, enumerable: true, value: v28 });
+let {"f":v33,"length":v34,} = v28;
+1073741825 * o7;
+new Uint8Array(1000);
+new Uint8Array(6);
+new Int32Array(1);
+function f45(a46, a47, a48, a49) {
+    a48++;
+    const v51 = a48++;
+    v51 - v51;
+    const v53 = v51 * v51;
+    v53 >>> v53;
+    const v55 = a48 % a48;
+    const o56 = {
+        ...v32,
+    };
+    o56[2] = o56;
+    const v57 = o56[2];
+    v57 >>> v57;
+    try { o56.n(v55, v51); } catch (e) {}
+    return f45;
+}
+try { f45(v18, v20, v20, v29); } catch (e) {}
+for (let v61 = 0; v61 < 500; v61++) {
+    ~v61;
+    const v63 = v61 >= v61;
+    v63 && v63;
+    f45();
+}

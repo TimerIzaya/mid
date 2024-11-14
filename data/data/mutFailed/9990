@@ -1,0 +1,40 @@
+function f0() {
+}
+function f1() {
+    0 < 0;
+    return 0;
+}
+const v6 = Symbol.toPrimitive;
+f0[v6] = f1;
+const v7 = [f0,f0,f0,f0,f0,v6,v6];
+const v8 = [v7,f0,v7];
+for (let v9 in v8) {
+    v9 >>>= v9;
+    try { v8.indexOf(v9, v9); } catch (e) {}
+}
+v7 & f0;
+[f0,v8,v8,v7,f0];
+new Uint8Array();
+[268435440,-9007199254740992,1,-2,268435456];
+[14,65536,268435441,-2020238355,1457575744,-28341,451940239,-26323,-4294967295,10];
+[142433445,-10,16,9];
+let v21 = 536870889;
+class C24 {
+    get b() {
+        v7["entries"]();
+        delete this?.e;
+        v21 = 1664606158;
+        const o33 = {
+            valueOf() {
+                return this;
+            },
+        };
+    }
+}
+class C34 extends C24 {
+    constructor(a36, a37, a38, a39) {
+        super();
+        super.b;
+    }
+}
+new C34(v21, C34, 1664606158, 1664606158);

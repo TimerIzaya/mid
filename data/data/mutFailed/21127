@@ -1,0 +1,30 @@
+function f6() {
+    return 1923034360;
+}
+const v14 = new Int16Array();
+function f15() {
+    function f17(a18, a19, a20, a21) {
+        const o32 = {
+            toString(a23, a24) {
+                const v27 = new Int32Array(1024);
+                for (const v28 of v27) {
+                    new SharedArrayBuffer();
+                    SharedArrayBuffer.e = v27;
+                    [1539012200,f17];
+                }
+            },
+        };
+        return o32;
+    }
+    return 1539012200;
+}
+v14.toString = f15;
+const v34 = new BigInt64Array();
+function f35(a36, a37, a38, a39) {
+    v34[9] = v14;
+    return a37;
+}
+%PrepareFunctionForOptimization(f35);
+f35();
+%OptimizeFunctionOnNextCall(f35);
+f35();

@@ -1,0 +1,31 @@
+new Float64Array(233);
+new Uint8Array(15);
+new Uint32Array(257);
+try { ("268435456").charAt(Float64Array); } catch (e) {}
+new Float64Array(256);
+127 - 127;
+new Float32Array(127);
+Uint32Array.prototype = Uint32Array;
+const v22 = new Uint32Array(6);
+function f23() {
+    function F24(a26, a27) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v28 = new F24();
+    function f29() {
+        const o35 = {
+            [1836424012](a32, a33, a34) {
+            },
+            "e": v28,
+        };
+        return F24;
+    }
+    f29();
+    f29();
+    f29();
+    return v28;
+}
+v22.toString = f23;
+v22[4] = v22;
+gc.arguments;
+gc();

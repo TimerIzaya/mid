@@ -1,0 +1,27 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [f0,v1,f0];
+const v3 = [v2,v2,f0,f0];
+class C7 {
+    static #a = 56543;
+    constructor(a9, a10) {
+        Object.defineProperty(v3, -3n, { writable: true, configurable: true, get: f0, set: f0 });
+        f0();
+    }
+    static [56543];
+    [f0] = v3;
+    static #e;
+}
+const v15 = new C7(v2, v3);
+new C7(v15, v2);
+const t17 = -9007199254740990;
+new t17(v2, v1);
+const v18 = [1.7976931348623157e+308,0.14033774481022865,0.764442389288067,-2.220446049250313e-16,710.5353911028728,1000000.0];
+class C19 {
+}
+const t22 = -9007199254740990;
+const v20 = new t22();
+for (let v21 = 0; v21 < 25; v21++) {
+    v18[4294967295] = v20;
+}

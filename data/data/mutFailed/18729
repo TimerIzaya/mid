@@ -1,0 +1,36 @@
+[135267.97796028783,NaN,0.0,-1.6863696385077468e+308,-2.388028652879512e+307,-1000000.0,-7.193762043380789e+307,-3.0];
+const v7 = [-0.0,1.726962992848979e+308,-2.0,2.8095446179136214,2.0];
+[1.6338107760728903e+308,769.7444514150777,-1.7686249000059638e+308,5.764447001828622e+307,1000000000000.0,-5.0,3.0,-8.554591665661983e+307,2.220446049250313e-16,-903735.6152410351];
+class C13 {
+}
+function f14(a15, a16) {
+    for (let v17 = 0; v17 < 32; v17++) {
+        v7["p" + v17] = v17;
+    }
+    return a15;
+}
+C13[Symbol.iterator] = f14;
+const v22 = new C13();
+Object.defineProperty(v22, "valueOf", { configurable: true, value: f14 });
+const v25 = new Int16Array(C13);
+Uint32Array[4] = Uint32Array;
+class C30 {
+    constructor(a32, a33, a34) {
+        function f35() {
+            const v38 = new BigUint64Array(4);
+            v38.reverse();
+            return a34;
+        }
+        this[Symbol.toPrimitive] = f35;
+        function f42(a43, a44) {
+            return a43;
+        }
+        this[Symbol.toPrimitive] = f42;
+        a33[4] = v22;
+        for (let v47 = 0; v47 < 25; v47++) {
+        }
+    }
+}
+new C30(v22, v25);
+const v50 = new C30(Int8Array, Uint32Array);
+new C30(v50, C13);

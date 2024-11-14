@@ -1,0 +1,81 @@
+const v0 = /F(m(x)(x)(x)\3*)/vmy;
+const v1 = /Swa\nb\bc/vd;
+function f2(a3) {
+    class C5 {
+        static #m(a7) {
+        }
+        constructor(a9) {
+            new Float32Array();
+            const v13 = new Uint16Array();
+            new Float32Array(v13, -4294967296, a9);
+        }
+    }
+    const v15 = new C5(-4294967296);
+    const v16 = [v15];
+    class C17 extends C5 {
+        [v0];
+        #n(a19, a20, a21, a22) {
+            function f23() {
+                return v16;
+            }
+        }
+        #g;
+    }
+    new C17();
+    return v16;
+}
+v1[Symbol.toPrimitive] = f2;
+const v27 = /a$[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]U4\p{General_Category=Decimal_Number}*/gvdims;
+function F28(a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f31(a32) {
+        a32 * a32;
+    }
+    Object.defineProperty(a30, "e", { enumerable: true, set: f31 });
+    try {
+        this.a = a30;
+    } catch(e34) {
+    }
+    try {
+        a30.e = v27;
+    } catch(e35) {
+    }
+    try {
+        this.e = a30;
+    } catch(e36) {
+    }
+}
+new F28(v27);
+const v38 = new F28(v0);
+function f39() {
+    function f40() {
+        return f40;
+    }
+    Object.defineProperty(v27, "length", { configurable: true, enumerable: true, get: f40 });
+    return f2;
+}
+v38.toString = f39;
+const v41 = new F28(v27);
+class C42 extends F28 {
+    static #d;
+    n(a44, a45, a46) {
+        let v47;
+        try { v47 = a45(a46, v27); } catch (e) {}
+        super.d <= v47 ? v47 : v47;
+        return v27;
+    }
+    [v1];
+    #b = v1;
+    static [v41] = v0;
+    [v38] = v0;
+}
+const v52 = new F28();
+new C42();
+new C42();
+const v58 = [v38];
+v58[128] = v52;
+for (let v59 = 0; v59 < 25; v59++) {
+}
+for (let v60 = 0; v60 < 5; v60++) {
+    v58["128" || v60] = v60;
+}

@@ -1,0 +1,35 @@
+new Uint8ClampedArray(2946);
+new Int8Array(926);
+const v8 = new BigInt64Array(6);
+const v9 = [2946,BigInt64Array];
+[Uint8ClampedArray,926,Uint8ClampedArray];
+[v9,BigInt64Array];
+const v13 = new BigUint64Array();
+function f14() {
+    const o16 = {
+        get a() {
+            return f14;
+        },
+    };
+    return o16;
+}
+f14.toJSON = v8;
+const v17 = f14();
+Object.defineProperty(v17, "toJSON", { writable: true, configurable: true, value: v13 });
+const v18 = f14();
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.toJSON = v13;
+    this.h = a22;
+}
+const v25 = new F19(v18, v17);
+v25.toJSON = v25;
+function f26(a27, a28, a29) {
+    return v13;
+}
+const v32 = [v25];
+const o33 = {
+    "arguments": v32,
+    "type": "function",
+};
+new Worker(f26, o33);

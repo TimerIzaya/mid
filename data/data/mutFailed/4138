@@ -1,0 +1,76 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = f0;
+    } catch(e3) {
+    }
+    try {
+        this.a = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = v5[v5];
+v6[4] = v5;
+const v7 = f0 in v5;
+Object.defineProperty(v5, "a", { writable: true, configurable: true, enumerable: true, value: v6 });
+try {
+    v6.toString = f0;
+} catch(e8) {
+}
+const v9 = new F1();
+const v10 = new F1();
+function f11() {
+    try { v10.asUintN(f0, f11, v9, v5, F1); } catch (e) {}
+    const v14 = new Set();
+    Object.defineProperty(v14, 3969109416, { writable: true, enumerable: true, set: f11 });
+    return v10;
+}
+function f16(a17, a18, a19, a20) {
+    const o29 = {
+        "a": a18,
+        "d": f0,
+        n(a22, a23, a24, a25) {
+            const o26 = {
+                "apply": f0,
+                "defineProperty": f0,
+                "deleteProperty": f11,
+                "get": f0,
+                "d": f0,
+                "h": f16,
+                __proto__: this,
+                2003: v7,
+                "e": v5,
+                "getOwnPropertyDescriptor": f11,
+                "getPrototypeOf": f0,
+                "has": f0,
+                [a23]: v5,
+                "d": a17,
+                "g": a25,
+                "e": this,
+                [a20]: F1,
+                "isExtensible": f0,
+                "ownKeys": f0,
+                "preventExtensions": f11,
+            };
+            const v28 = new Proxy(a17, o26);
+            return v28;
+        },
+    };
+    return o29;
+}
+f16(v5, v10, v9, v5);
+f16(v5, v10, v5, v5);
+f16(v9, v5, v5, v9);
+[1804449423,8,-1335776396,533035415,-7437,-4096,10000,2104,-9007199254740990];
+[-4294967295,536870889];
+[-50295,12,-199596711,2046667408,-15,-24390,-1024,268435440,-65535,-1993513435];
+const v39 = [1000000000.0,-5.576877862296471e+307,1000000000000.0,-311382.1661484719,1000000000.0];
+function f40() {
+    return f40;
+}
+for (let i = 0; i < 5; i++) {
+    Object.defineProperty(v39, "d", { configurable: true, get: f40, set: f40 });
+}

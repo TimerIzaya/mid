@@ -1,0 +1,62 @@
+function f0() {
+    const o8 = {
+        "g": 896558.2877659581,
+        "d": 0.24687672315126274,
+        ...0.24687672315126274,
+        ...896558.2877659581,
+        "h": 0.24687672315126274,
+        "f": 9223372036854775807,
+        __proto__: 9223372036854775807,
+        ...896558.2877659581,
+        [896558.2877659581]: 896558.2877659581,
+        "a": 9223372036854775807,
+        ...0.24687672315126274,
+        [0.24687672315126274]: 9223372036854775807,
+        ...f0,
+        "b": 0.24687672315126274,
+        34: 0.24687672315126274,
+        [9223372036854775807]: 9223372036854775807,
+        ...0.24687672315126274,
+        "e": 9223372036854775807,
+        "c": f0,
+        setUTCDate(a5, a6) {
+            try {
+                a6.a = a5;
+            } catch(e7) {
+            }
+            return a6;
+        },
+    };
+    o8[Symbol.asyncIterator] = f0;
+    return o8;
+}
+const v11 = f0();
+const v12 = f0(v11, f0);
+v12[Symbol.asyncIterator] = f0;
+f0();
+class C16 extends f0 {
+    static p(a18) {
+        const v19 = super.b;
+        delete this[5];
+        return v19;
+    }
+    static n(a25, a26) {
+        a25[219] |= a25;
+        Math.sign(a26);
+        a25 & 268435440;
+        a25 && this;
+        Math.sin(268435440);
+        return a26;
+    }
+}
+new C16();
+new C16();
+new C16(C16, v11);
+v12[Symbol.asyncIterator];
+const o50 = {
+    "maxByteLength": 10000,
+};
+const v52 = new ArrayBuffer(3471, o50);
+const v54 = new Uint8Array(v52, Uint8Array);
+v54[Symbol.toPrimitive] = Symbol;
+v54[938] = v54;

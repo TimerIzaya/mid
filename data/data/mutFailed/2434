@@ -1,0 +1,40 @@
+class C3 {
+    get b() {
+        this & this;
+        var b = ("arguments").__proto__;
+        return C3;
+    }
+    constructor(a8) {
+        class C9 {
+            #f = a8;
+            [a8] = a8;
+        }
+        new C9();
+        new C9();
+        new C9();
+    }
+}
+const v13 = new C3(369932994);
+new C3(v13);
+const v15 = new C3("uUrU");
+new Int16Array(16);
+new Int16Array(369932994);
+[1.671431195240198e+308,2.0];
+[1.0,-1.5583796317284629e+308,3.0,-2.220446049250313e-16,-4.0,1.2599896964472166e+308,0.06705020496316594];
+[522.1907442556922,1.0854260985048695e+308,3.071234354635923,-3.7542566787039996e+307,-4.0,-1.0,395080.72081790515,-1000000.0,-58775.11747788766];
+try { ("arguments").indexOf(v15); } catch (e) {}
+const t25 = "uUrU";
+t25[v15] = C3;
+new Uint16Array(0);
+function F32() {
+    if (!new.target) { throw 'must be called with new'; }
+    -(-7) ** -7;
+}
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v41 = this.constructor;
+    let v42;
+    try { v42 = new v41(v41, F32, F37, this, v41); } catch (e) {}
+    new v42();
+}
+new F37(F32, F32);

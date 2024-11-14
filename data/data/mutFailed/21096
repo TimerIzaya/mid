@@ -1,0 +1,46 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 256;
+    } catch(e3) {
+    }
+    try {
+        this.g = 256;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new v5();
+new Uint32Array(5);
+new Uint32Array(6);
+const v16 = new Uint16Array(3);
+function f17(a18, a19) {
+    class C20 {
+    }
+    const v21 = new C20();
+    function f22(a23, a24) {
+        function f25(a26, a27, a28, a29) {
+            try { a26(f22, a27); } catch (e) {}
+            let v31 = a23 & a27;
+            v31 % v31;
+            new Map(a27);
+            -(v31++);
+            const o40 = {
+                n(a38, a39) {
+                    return C20;
+                },
+            };
+            return f22;
+        }
+        for (let v41 = 0; v41 < 500; v41++) {
+            f25();
+        }
+        return a23;
+    }
+    Object.defineProperty(v21, "constructor", { value: f22 });
+    const t41 = v21.constructor;
+    t41(C20, f22);
+    return this;
+}
+Object.defineProperty(f17(v6, f17), "h", { configurable: true, set: v16 });

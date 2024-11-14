@@ -1,0 +1,41 @@
+class C6 {
+    static #f;
+    static {
+        function f8() {
+            const v9 = [0.09573719926111446,1000000.0];
+            return [[v9,C6],v9,1559542942,v9,-797690.0792477814];
+        }
+        this[Symbol.toPrimitive] = f8;
+        super[this] = this;
+        try {
+            this.#f &= 1559542942;
+        } catch(e14) {
+        }
+    }
+    [-10];
+    c = 1559542942;
+    static #g = -2;
+    #e;
+}
+const v15 = new C6(0.09573719926111446, -797690.0792477814);
+const v16 = new C6();
+const v17 = new C6();
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a23;
+    try {
+        this.f = a21;
+    } catch(e24) {
+    }
+    try {
+        this.e = C6;
+    } catch(e25) {
+    }
+}
+const v26 = new F18(-10, v15, 1000000.0, C6);
+const v27 = new F18(-10, v16, 0.09573719926111446, F18, -797690.0792477814, v26);
+new F18(-2, v17, -797690.0792477814, v15, -2, -797690.0792477814, v27);
+const o30 = {
+    __proto__: Set,
+    ...Set,
+};

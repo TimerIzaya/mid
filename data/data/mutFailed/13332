@@ -1,0 +1,81 @@
+class C3 {
+    d;
+    ["E"];
+    g;
+    constructor(a5, a6) {
+        const t5 = "E";
+        const v7 = delete t5?.length;
+        v7[this] = v7;
+        super.a = a6;
+        try {
+            this.d = a5;
+        } catch(e8) {
+        }
+        super[a6] = v7;
+    }
+    #d;
+    static #a;
+}
+const v9 = new C3("E", C3);
+const v10 = new C3("E", C3);
+const v11 = new C3(v9, v10);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a15;
+    } catch(e16) {
+        const v20 = new Int8Array(7);
+        new Uint32Array(v20);
+    }
+    try {
+        this.d = "E";
+        new Float32Array(1024);
+        class C25 {
+        }
+        const v26 = new C25();
+        const o27 = {
+            ...F12,
+            268435441: v26,
+        };
+        return o27;
+    } catch(e28) {
+    }
+}
+const v29 = new F12(v11, v11);
+const v30 = new F12("E", v9);
+const v31 = new F12(v10, v30);
+function f32(a33, a34) {
+    const o45 = {
+        ...a33,
+        ..."E",
+        "maxByteLength": 1073741825,
+        m() {
+        },
+        "f": v29,
+        "b": a34,
+        ...a34,
+        [a34]: C3,
+        [v30]: C3,
+        ...C3,
+        0: v10,
+        "d": F12,
+        toString(a37, a38) {
+            a38 **= v29;
+            a37 >> f;
+            try {
+                const o41 = {
+                };
+                const o42 = {
+                };
+                v31.fuck(v9, o41, o42);
+            } catch(e44) {
+            }
+            return a38;
+        },
+    };
+    return o45;
+}
+f32(v29, v30);
+f32(v9, f32);
+f32(v29, v30);
+([-8n]).toLocaleString();

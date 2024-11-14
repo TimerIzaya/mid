@@ -1,0 +1,137 @@
+function f3(a4, a5) {
+    const o9 = {
+        ...a5,
+        "f": a5,
+        "b": f3,
+        "d": "boolean",
+        "c": "0",
+        get h() {
+            try {
+                this.g = this;
+            } catch(e7) {
+            }
+            let v8;
+            try {
+            const t0 = "0";
+            v8 = t0("boolean");
+            } catch (e) {}
+            return v8;
+        },
+        "h": a5,
+        "d": "boolean",
+        "g": a5,
+        "b": a4,
+        "c": "boolean",
+    };
+    return o9;
+}
+const v10 = f3("valueOf", "valueOf");
+const v11 = f3("valueOf", "boolean");
+f3("valueOf", "boolean");
+new Set();
+new WeakMap();
+new Set(v11);
+f3(v10, "boolean");
+%PrepareFunctionForOptimization(f3);
+f3(v10, "boolean");
+f3(v10, "boolean");
+%OptimizeFunctionOnNextCall(f3);
+f3(v10, "boolean");
+function F26() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 4294967296;
+    } catch(e29) {
+    }
+    try {
+        function F30() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v32 = new F30();
+        const v33 = new F30();
+        function f34(a35, a36) {
+            const o37 = {
+                "h": v33,
+                "e": v32,
+            };
+            return o37;
+        }
+        const v38 = f34();
+        f34(F26, v38);
+        function f40() {
+            return f34;
+        }
+        const v43 = new Float32Array(218);
+        for (const v44 of v43) {
+            Object.defineProperty(v38, Float32Array, { configurable: true, enumerable: true, get: f34, set: f40 });
+        }
+        class C48 {
+            #b = 26507;
+            static [26507];
+            static get a() {
+                super[this] = 26507;
+                try {
+                    arguments.#b <<= arguments;
+                } catch(e52) {
+                }
+                return SharedArrayBuffer;
+            }
+        }
+        const v53 = new C48();
+        const v54 = v53?.constructor;
+        v54.name = v54;
+        let v55;
+        try { v55 = new v54(); } catch (e) {}
+        const v56 = v55?.constructor;
+        try { new v56(); } catch (e) {}
+        new C48();
+        const v59 = new C48();
+        try { v59.constructor(); } catch (e) {}
+        const v61 = [536870888,-536870912,-1292028157,-35163,1073741825,1126124502,-1269619973,1000,-128,9];
+        try { v61.findLastIndex(C48); } catch (e) {}
+        [-9007199254740991,22341,65537];
+        const v64 = [9007199254740990,2147483647,-9223372036854775808];
+        const v66 = new Date();
+        const v67 = v66?.getHours;
+        try { new v67(); } catch (e) {}
+        let v69;
+        try { v69 = v66.setUTCSeconds(v61, v59); } catch (e) {}
+        v69++;
+        for (let v71 = 0; v71 < 5; v71++) {
+            const v76 = new BigInt64Array(4046);
+            let v77 = undefined;
+            const v78 = v77++;
+            try {
+                v66.setUTCHours(-0.0, 30498);
+            } catch(e82) {
+            }
+            v78 + v78;
+            %VerifyType(4046);
+            v59[v64];
+            v59[undefined] = v66;
+            try {
+                v76.g = v77;
+            } catch(e85) {
+            }
+            const v86 = v78 >> v78;
+            v86 >> v86;
+            const v88 = v86 >>> v86;
+            let v89 = v88 % v88;
+            v89--;
+            const o91 = {
+            };
+            o91.e = o91;
+            for (let i94 = 0, i95 = 10; i94 < i95; i94++) {
+            }
+        }
+        this.g = 4294967296;
+    } catch(e104) {
+    }
+    try {
+        this.f = 4294967296;
+    } catch(e105) {
+    }
+}
+new F26();
+new F26();
+new F26();

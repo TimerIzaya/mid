@@ -1,0 +1,106 @@
+function f0() {
+}
+class C1 extends f0 {
+    static {
+        const v3 = delete this?.e;
+        for (let v4 = 0; v4 < 32; v4++) {
+            v3["p" + v4] = v4;
+        }
+    }
+    6 = f0;
+    8;
+    h = f0;
+}
+const v7 = new C1();
+const v8 = new C1();
+new C1();
+class C10 {
+    static #d;
+    9 = f0;
+    static [v8];
+    constructor(a12) {
+        try {
+            v7.#d = v7;
+        } catch(e13) {
+        }
+    }
+    10 = f0;
+    [f0] = v7;
+}
+new C10(v8);
+let v15 = new C10(v7);
+const v16 = new C10(v7);
+const v22 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v23 = [601759695];
+const v24 = [1073741824,1073741823,1376142744,1073741825];
+function f26(a27, a28, a29, a30) {
+    class C31 extends C1 {
+        static #a = v22;
+    }
+    new C31();
+    new C31();
+    new C31();
+    function f36() {
+        const o53 = {
+            "c": -4294967297n,
+            [522675525n](a41, a42) {
+                try {
+                } finally {
+                }
+            },
+            ..."Vre",
+            "maxByteLength": -128,
+            "c": v23,
+            valueOf(a44, a45) {
+                return a29;
+            },
+            "e": -4294967295,
+            "e": -268435456,
+            "maxByteLength": -4294967295,
+            "arguments": v22,
+            ...v23,
+            "type": "Vre",
+            ..."Vre",
+            valueOf(a47, a48) {
+                return a27;
+            },
+            ..."Vre",
+            4: "Vre",
+            "c": -268435456,
+            "type": "Vre",
+            "type": "Vre",
+            toString(a50, a51, a52) {
+                return a27;
+            },
+            5: -4294967295,
+            6: -268435456,
+        };
+        try {
+            new f36();
+        } catch(e55) {
+        }
+        v15 = v23;
+        return "Vre";
+    }
+    f36();
+    const v58 = new Int8Array();
+    v58.buffer.slice(2147483648);
+    %OptimizeFunctionOnNextCall(f36);
+    let v63;
+    try { v63 = v24["find"](..."find", a30, ...v23, ...v24, ...522675525n); } catch (e) {}
+    v63 <= a29;
+    return arguments;
+}
+for (let v65 = 0; v65 < 5; v65++) {
+    const v66 = f26();
+    f26(856950540, v8, v66, v16);
+    %PrepareFunctionForOptimization(f26);
+    f26(856950540, v8, v66, v16);
+    f26(856950540, v8, v66, v16);
+    %OptimizeMaglevOnNextCall(f26);
+    f26(856950540, v8, v66, v16);
+}
+%PrepareFunctionForOptimization(f26);
+f26();
+%OptimizeFunctionOnNextCall(f26);
+f26();

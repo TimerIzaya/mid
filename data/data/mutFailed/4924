@@ -1,0 +1,71 @@
+function f0() {
+    ~0.02011218503097134;
+    const o11 = {
+        "e": "bigint",
+        [f0]: f0,
+        4: 1,
+        "a": "bigint",
+        "b": 0.02011218503097134,
+        "h": 1,
+        __proto__: "bigint",
+        "f": "bigint",
+        get c() {
+            try { ("bigint").concat(0.02011218503097134); } catch (e) {}
+            return 0.02011218503097134;
+        },
+        toString(a8, a9) {
+            a8 &&= this;
+            super[this];
+            return 0.02011218503097134;
+        },
+        "a": 0.02011218503097134,
+        "h": 0.02011218503097134,
+        "c": 0.02011218503097134,
+    };
+    o11.writable = "bigint";
+    return o11;
+}
+f0[Symbol.toPrimitive] = f0;
+const v14 = f0();
+f0();
+const v16 = f0();
+class C17 extends f0 {
+    static set e(a19) {
+        try {
+            v14.__proto__ = this;
+        } catch(e20) {
+        }
+    }
+    static set c(a22) {
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeMaglevOnNextCall(f0);
+        f0();
+        ("-16263").normalize("NFC");
+    }
+}
+new C17();
+new C17();
+const v32 = new C17();
+v32.f;
+try { ("e").valueOf(); } catch (e) {}
+try { ("undefined").trimStart(); } catch (e) {}
+false || false;
+new Int32Array(1000);
+new Uint16Array(2310);
+Int32Array.length = Int32Array;
+const v49 = new Int32Array(128);
+Object.defineProperty(v49, Symbol.toPrimitive, { writable: true, enumerable: true, value: f0 });
+function f52() {
+    return f52;
+}
+try { Reflect.defineProperty(v16, v49, v32); } catch (e) {}
+const o55 = {
+};
+const o56 = {
+};
+o56.c = o56;
+const v57 = Reflect.apply(f52, o55, o56);
+try { v57(); } catch (e) {}

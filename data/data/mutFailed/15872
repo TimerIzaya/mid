@@ -1,0 +1,65 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 1000;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+new F0();
+[2147483649,-2,2,268435440,8,-256,-2147483647,54107,1055014014,-268435456];
+[-1613618027,16,4294967295,4294967297,-1032502561,2147483648];
+[33429,268435439,1073741824,536870889,0,-65536];
+new WeakSet();
+function f15() {
+    let v16 = -4294967295;
+    const o18 = {
+        get a() {
+            v16 %= v16;
+            return f15;
+        },
+    };
+    return f15;
+}
+let v19 = f15();
+const v20 = f15();
+const v21 = f15();
+class C26 extends f15 {
+    static #g = "o";
+    static [v21];
+    constructor(a28, a29, a30, a31) {
+        super();
+        try {
+            v19.#g **= a28;
+            try {
+                ("-17909").#g;
+            } catch(e33) {
+            }
+            a30 = WeakSet;
+        } catch(e34) {
+        }
+    }
+    static o(a36, a37) {
+        v19 **= this;
+        f15();
+    }
+    m(a40, a41) {
+        return v4.e;
+    }
+    #d;
+}
+const v43 = new C26(5n, "-17909", f15, "o");
+new C26("-17909", "-17909", "p", "p");
+new C26(v19, "p", v19, "o");
+class C46 {
+    get g() {
+        Uint16Array();
+        Uint8ClampedArray();
+        BigInt64Array();
+        return v20;
+    }
+    static #h = "p";
+}
+const v54 = new C46();
+try { v54.o(v43); } catch (e) {}

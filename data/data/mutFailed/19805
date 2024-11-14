@@ -1,0 +1,49 @@
+const v0 = [-1.0,-7.578432653141767,-1000000.0];
+const v1 = [-2.2250738585072014e-308,-2.220446049250313e-16];
+const v2 = [-175.6896687778717,1.0,0.9641612435236007,-536.9244296226905,0.8992519383534456];
+const v3 = [v1,v2,v2,v1,v1];
+const v4 = [v3,v2,v2,v2];
+const v5 = [v2,v1];
+v5[1] = v5;
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v10 = this?.constructor;
+    try { new v10(a8, a8); } catch (e) {}
+    try { a8.values(); } catch (e) {}
+    try {
+        this.h = v5;
+    } catch(e13) {
+    }
+    try {
+        this.b = a9;
+    } catch(e14) {
+    }
+    try {
+        this.a = v0;
+    } catch(e15) {
+    }
+}
+new F6(v4, v3);
+const v17 = new F6(v1, v1);
+v17.a = v17;
+new F6(v1, F6);
+class C19 {
+    toString(a21, a22) {
+        this.d &= a21;
+        try { v5(a22, v3); } catch (e) {}
+        a22 in v5;
+        try {
+            new F6(10361, a21);
+        } catch(e27) {
+        }
+        return v2;
+    }
+    #f;
+}
+const v28 = new C19();
+new v28();
+new C19();
+let v36 = -1;
+v36--;
+const v39 = -2147483648 ^ 8.868704382732872e+307;
+v39 !== v39;

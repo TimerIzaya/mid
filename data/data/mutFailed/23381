@@ -1,0 +1,73 @@
+const v1 = new WeakMap();
+const v5 = [-10,v1,11,11];
+const v6 = [WeakMap,v5,11,v5];
+const v7 = [11,11];
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v5;
+    } catch(e12) {
+    }
+    try {
+        v1.e = a10;
+    } catch(e13) {
+    }
+    try {
+        this.g = a11;
+    } catch(e14) {
+    }
+}
+new F8(v7, v7);
+const v16 = new F8(v7, v6);
+const v17 = new F8(v6, v7);
+function f18(a19, a20) {
+    const o36 = {
+        __proto__: v16,
+        "h": a20,
+        "d": a19,
+        4022: 11,
+        "f": a20,
+        "c": 11,
+        ...v17,
+        set a(a22) {
+            const v23 = super.f;
+            const v24 = f18++;
+            try { a19(F8, v24, v23, v23, a20); } catch (e) {}
+            v6.length >>>= 11;
+            super[v17] = a19;
+            new Int8Array(1024);
+            new Uint8Array(2);
+            new Uint16Array(2);
+            a19[this];
+        },
+        1: F8,
+        "e": a20,
+    };
+    function f37(a38) {
+        function f40(a41) {
+            v6.length;
+        }
+        this.onmessage = f40;
+        try {
+            [a38,v6,-10,v1,F8];
+            f40(a19);
+        } catch(e45) {
+        }
+    }
+    const v48 = [-326081487];
+    const o49 = {
+        "arguments": v48,
+        "type": "function",
+    };
+    new Worker(f37, o49);
+    return o36;
+}
+f18(v17, v5);
+f18(v16, v7);
+f18(v16, v6);
+class C54 {
+}
+const v55 = new C54();
+for (const v57 of `match${v55}-20124`) {
+    v17.strike().codePointAt(v57);
+}

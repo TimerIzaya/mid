@@ -1,0 +1,119 @@
+const v0 = [-128];
+const v1 = [-2147483647,1024,1479143378,8,5,-1024,-256];
+const v2 = [-6,-9223372036854775807,4,129,-7698];
+function f3() {
+    const v6 = new BigInt64Array(4046);
+    function f7(a8, a9) {
+        a8++;
+        const v11 = a8++;
+        v11 >> v11;
+        let o13 = {
+            "d": a8,
+            ...a8,
+        };
+        [,...o13] = v6;
+    }
+    f7();
+    return v2;
+}
+Object.defineProperty(v2, Symbol.toPrimitive, { configurable: true, value: f3 });
+function f17(a18, a19) {
+    function f20() {
+        class C21 {
+        }
+        return v1;
+    }
+    a19.toString = f20;
+    const o33 = {
+        15: a19,
+        "h": v0,
+        "d": v1,
+        [v2](a23, a24) {
+            const o25 = {
+            };
+            try {
+                o25.h = this;
+            } catch(e26) {
+            }
+            try {
+                const o27 = {
+                };
+                o27.h = this;
+                o27.d = a24;
+            } catch(e28) {
+            }
+            try {
+                const o29 = {
+                };
+                o29.h = this;
+                o29.d = a24;
+                o29.c = a23;
+            } catch(e30) {
+            }
+            try {
+                const o31 = {
+                };
+                o31.h = this;
+                o31.d = a24;
+                o31.c = a19;
+            } catch(e32) {
+            }
+            return v1;
+        },
+    };
+    o33.toString = f3;
+    o33[15];
+    return o33;
+}
+f17.toString = Symbol;
+const v35 = f17?.toString;
+try { v35.apply(v35, v2); } catch (e) {}
+try { new v35(); } catch (e) {}
+const v38 = f17(v0, v2);
+v38.toString = f3;
+v38.h = v38;
+f17(v1, v1);
+const v40 = f17(v0, v0);
+v40[15] = v40;
+const v41 = [1000000.0,1e-15];
+try { v41.reverse(); } catch (e) {}
+const v43 = [-8.735818623867442e+307,0.4681803760592873,6.931290289061646e+305,-1.0246838624708771e+308,-4.156870275153641e+307,-1.5356536649947523e+308];
+[-1000.0,1000000000000.0,-1.0387675145191548e+308,1.0,0.795570975644095,2.0,938.060742987157,2.2250738585072014e-308];
+class C45 extends f17 {
+    static [v38];
+    static set b(a47) {
+        v1[a47] = v43;
+        const o48 = {
+            "apply": f17,
+            "call": f17,
+            "construct": f17,
+            "defineProperty": f17,
+            "get": f17,
+            "getOwnPropertyDescriptor": f17,
+            "getPrototypeOf": f17,
+            "has": f17,
+            "isExtensible": f17,
+            "ownKeys": f17,
+            "preventExtensions": f17,
+            "set": f17,
+            "setPrototypeOf": f17,
+        };
+        new Proxy(this, o48);
+    }
+}
+const v51 = new C45();
+v51[15];
+const v53 = new C45();
+new C45();
+try { ("a").link(v53); } catch (e) {}
+const v57 = "a" == "a";
+v57 || v57;
+const v60 = new WeakSet();
+try { v60.delete(v43); } catch (e) {}
+const v62 = v60.delete(WeakSet);
+!v62;
+let v64 = 255;
+v64--;
+let v66 = 4086;
+const v67 = v66--;
+try { v62(v64, v67, ...v57, v67); } catch (e) {}

@@ -1,0 +1,45 @@
+class C3 {
+    set b(a5) {
+        try { new C3(EvalError, 14, 14, EvalError); } catch (e) {}
+        try {
+            super.m(14, 14, -1392244797, Symbol, "number");
+        } catch(e10) {
+        }
+        ("number")[Symbol.hasInstance];
+    }
+    g;
+    #n(a14, a15) {
+        const v18 = a15[Symbol.replace];
+        const o19 = {
+        };
+        try { a14(14, v18, o19, a15, o19); } catch (e) {}
+        const v23 = 9007199254740992 - "number";
+        let v24 = 9007199254740992 >>> v23;
+        v24 >> 9007199254740992;
+        "number" ** v23;
+        ++v24;
+        9007199254740992 & "number";
+        new Proxy(this, o19);
+        return this;
+    }
+}
+const v31 = new C3();
+const v32 = new C3();
+let v33;
+try { v33 = v31(v32); } catch (e) {}
+let v34;
+try { v34 = ("number").search(v33); } catch (e) {}
+v33 % v32;
+Reflect.construct(v33, [-1392244797,Reflect,v33,v31], v34);
+const v39 = new C3();
+new Map();
+function f45() {
+    return v39;
+}
+for (let v49 = 0; v49 < 25; v49++) {
+}
+try {
+    Int8Array();
+} catch(e52) {
+    e52.name;
+}

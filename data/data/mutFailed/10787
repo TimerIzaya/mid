@@ -1,0 +1,59 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v0;
+    } catch(e3) {
+    }
+    try {
+        this.g = v0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = new F1();
+const v7 = new F1();
+class C8 extends F1 {
+    get g() {
+        const v10 = v0[F1];
+        function F11(a13, a14, a15) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = v6;
+            } catch(e16) {
+            }
+        }
+        new F11(v6, this, this);
+        new F11(v5, this, v10);
+        new F11(v6, this, v7);
+        return v5;
+    }
+    static [v6] = v7;
+}
+const v20 = new C8();
+new C8();
+const v22 = new C8();
+function f23(a24, a25, a26) {
+    const o35 = {
+        "g": v0,
+        "c": v5,
+        [v5](a28, a29) {
+            const v30 = v7.__proto__;
+            const v31 = delete v30?.h;
+            const v32 = new C8();
+            v32.g <<= v30;
+            var e = a26;
+            %VerifyType(a24);
+            try {
+                super.toJSON(v30, v30, v31);
+            } catch(e34) {
+            }
+            return F1;
+        },
+    };
+    return o35;
+}
+const t55 = f23(v22, f23(v20, v0, v22), C8);
+t55(v7, C8, v20);
+const v43 = new Date();
+v43.getUTCHours();

@@ -1,0 +1,79 @@
+const v4 = new Date();
+class C5 extends Date {
+    static #toString(a7, a8) {
+        for (let v9 = 0; v9 < 32; v9++) {
+            this["search" + v9] = v9;
+            function f12(a13, a14) {
+                function f15() {
+                    return f12;
+                }
+                Object.defineProperty(a13, "toString", { configurable: true, get: f15 });
+                return a14;
+            }
+        }
+        return this;
+    }
+    #o(a17) {
+        function F18(a20, a21, a22, a23) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a20;
+            } catch(e24) {
+            }
+            try {
+                255 * 255;
+                const v27 = this.constructor;
+                let v28;
+                try { v28 = new v27(); } catch (e) {}
+                typeof v28 === "symbol";
+                this.e = 1;
+            } catch(e32) {
+            }
+        }
+        new F18(a17, 127, 127, -11);
+        const v34 = new F18(1, -11, 1, a17);
+        new F18(a17, 127, -11, -11);
+        return v34;
+    }
+}
+const v36 = new C5(127);
+const v37 = new C5();
+const v38 = new C5(1, v37);
+const v39 = [v4,1,1];
+("65535").lastIndexOf(128, 65536);
+const v44 = [];
+Math.atan2(v44, -40875);
+const v48 = [v36,1,Date,-11];
+[Date];
+class C50 extends Date {
+    static [C5] = -11;
+    static #valueOf(a52, a53, a54) {
+        try {
+            Date.length = 7;
+        } catch(e56) {
+        }
+        super[v48];
+        return a52;
+    }
+    static #a;
+    [v38] = C5;
+    static [-2];
+    e;
+    [65536] = v44;
+    [v39];
+    constructor(a59) {
+        function f60() {
+            return this;
+        }
+        Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f60 });
+    }
+    d;
+}
+new C50();
+new C50();
+new C50();
+const v65 = new Date();
+function f66() {
+}
+parseInt([2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614]);
+v65.getFullYear();

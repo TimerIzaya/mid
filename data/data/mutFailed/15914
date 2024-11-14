@@ -1,0 +1,9 @@
+const v8 = new Uint8Array(249);
+v8[17] = "number";
+const v11 = new Uint16Array(4096);
+try { v11.filter(Uint8Array); } catch (e) {}
+Int32Array.b = Int32Array;
+const t5 = 4096;
+new t5(2047);
+-4096;
+ReferenceError(-1073741824, 9007199254740991n);

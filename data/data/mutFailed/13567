@@ -1,0 +1,52 @@
+class C3 {
+    constructor(a5, a6) {
+        a5++;
+        try {
+            this.fuck(false, "Qvh4");
+        } catch(e11) {
+            e11.message;
+        }
+    }
+    g = C3;
+    #e;
+    static #b;
+    static 10000 = C3;
+}
+const v13 = new C3(536870912, "a");
+const v14 = new C3("a", v13);
+v14.g = v14;
+const v15 = new C3(C3, 536870912);
+const v16 = [v15];
+const v17 = [v13,v13,536870912,v14];
+const v18 = [v15,v14,v13,C3,v17];
+let v19;
+try { v19 = v18.entries(); } catch (e) {}
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v24 = this?.constructor;
+    let v25;
+    try { v25 = new v24(v24, C3); } catch (e) {}
+    const v26 = a23[0];
+    try {
+        v19.h = a23;
+    } catch(e27) {
+    }
+    try {
+        v25.g = a22;
+    } catch(e28) {
+    }
+    try {
+        v26.a = a22;
+    } catch(e29) {
+    }
+}
+new F20(C3, v16);
+new v19(v15, v16);
+("a").a;
+const v33 = new F20(v15, v17);
+v15.e = v33;
+const v35 = [0.0,0.0];
+const o36 = {
+    __proto__: v35,
+};
+o36.push(0.0);

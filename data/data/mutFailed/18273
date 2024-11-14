@@ -1,0 +1,36 @@
+const v4 = new WeakSet();
+class C5 {
+    static g = 4n;
+    static #n(a7, a8) {
+        this[a8] = 13n;
+        const t5 = 4n;
+        t5[0] = v4;
+        return a8;
+    }
+    #b = 13n;
+    #d = v4;
+}
+try { new v4(); } catch (e) {}
+new C5();
+const v14 = C5?.constructor;
+try { new v14(); } catch (e) {}
+const v16 = new C5();
+const v17 = new v4();
+const v18 = v17?.constructor;
+try { new v18(); } catch (e) {}
+function f20() {
+    return C5;
+}
+20532 + 20532;
+function f25() {
+    Array.__proto__ = this;
+    return Array;
+}
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this.constructor;
+    try { new v32(); } catch (e) {}
+    f25();
+}
+try { new F28(v16, 4n); } catch (e) {}
+new F28();

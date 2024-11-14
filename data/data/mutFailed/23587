@@ -1,0 +1,40 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = this;
+    try {
+        this.c = a5;
+    } catch(e6) {
+    }
+    try {
+        a5.g = -12;
+    } catch(e7) {
+    }
+    try {
+        this.h = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(-61514);
+const v10 = new F3(-12);
+const v11 = new F3(-61514);
+function f12() {
+    return v9;
+}
+[[v9,v11,v10],F3,4294967295,v11];
+[4294967295,v11,v11];
+class C19 {
+}
+const v20 = new C19();
+function f23(a24, a25, a26, a27) {
+    const o30 = {
+        "g": a24,
+        [-1]: C19,
+        set b(a29) {
+        },
+        1025549261: v20,
+    };
+    return -5.008255649855068e+307;
+}
+const t37 = -5.008255649855068e+307;
+t37(-1000.0);
+f23(-5.008255649855068e+307);

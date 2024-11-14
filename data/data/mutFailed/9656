@@ -1,0 +1,41 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 7;
+    } catch(e3) {
+    }
+    try {
+        this.b = 7;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new v6();
+class C14 {
+    [4.376065236188272e+307] = F0;
+    set g(a16) {
+        try {
+            super.n(a16);
+        } catch(e18) {
+        }
+    }
+    get d() {
+        new F0();
+        return 4294967295;
+    }
+    [F0] = v5;
+    [0.6150127208442097] = -413926.05686462857;
+    5;
+    #h;
+}
+new C14();
+const v22 = new C14();
+new C14();
+for (let i = 0; i < 10; i++) {
+    const o29 = {
+        "a": F0,
+        1: 16n,
+        257: v22,
+    };
+}

@@ -1,0 +1,40 @@
+const v0 = [2147483648,9007199254740992,-2,25949,-548187223];
+const v1 = [65536];
+const v2 = [0,-38481];
+function f3() {
+    return v2;
+}
+function f10(a11, a12) {
+    const o13 = {
+        "f": 0.411365144971811,
+        ...v1,
+        "b": a12,
+        65535: "c",
+        "d": 0.411365144971811,
+        ..."c",
+        [-1]: "c",
+        __proto__: a11,
+        "g": 0.0,
+        3134325072: a11,
+        "e": v0,
+        ...a12,
+    };
+    return o13;
+}
+f10("constructor", "constructor");
+const v15 = f10("c", "caller");
+f10("caller", "constructor");
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v22 = new F17();
+const v23 = new F17(F17, F17, v22);
+function f24() {
+    const v25 = v15 || f3;
+    v25.g;
+    return v25;
+}
+v23[Symbol.toPrimitive] = f24;
+for (let v30 = 0; v30 < 5; v30++) {
+    Object.defineProperty(v22 || undefined, v23, { value: v22 });
+}

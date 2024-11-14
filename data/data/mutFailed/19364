@@ -1,0 +1,71 @@
+let v1 = 512;
+class C3 {
+    static p(a5, a6) {
+        try { a5["getUTCMinutes"](); } catch (e) {}
+        return a6;
+    }
+    #b = 1000.0;
+    constructor(a10) {
+        let v9 = this;
+        function f11(a12) {
+            return v1;
+        }
+        class C13 extends f11 {
+            static set a(a15) {
+                ({"e":v1,"f":v9,} = C3);
+            }
+            static 4;
+        }
+    }
+}
+const v19 = new C3(C3);
+const v20 = new C3(v19);
+const v21 = new C3(v19);
+function f22() {
+    return C3;
+}
+let v25 = 0;
+while (v25 < 3) {
+    try {
+        v21.__proto__ = v20;
+    } catch(e28) {
+    }
+    v25++;
+}
+class C31 extends f22 {
+    static #a = v20;
+    g = v19;
+    constructor(a33, a34) {
+        super();
+        try {
+            new this(-4294967295);
+        } catch(e37) {
+        }
+    }
+    static #e;
+    static d;
+    [v19];
+    #b = 3;
+}
+new C31(C3, v21);
+new C31(f22, C31);
+new C31(4294967295, v19);
+const v42 = new Set();
+class C43 {
+    b = v42;
+}
+v42["clear"]();
+const v46 = new C43();
+const v47 = new C43();
+function f48(a49, a50, a51, a52) {
+    for (let v53 = 0; v53 < 25; v53++) {
+        a50["p" + v53] = v53;
+    }
+    return a52;
+}
+const v56 = f48(v46, v47);
+let v57;
+try { v57 = v56(536870888, v19); } catch (e) {}
+f48 >>> v57;
+(7510 ^ f48) % 485784667;
+gc();

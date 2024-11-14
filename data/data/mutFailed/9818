@@ -1,0 +1,24 @@
+const v0 = /61(?<!a)/gdisy;
+const v1 = /z\xed\xa0\x80*/usy;
+const v2 = /(a+xyz{1,32}+)/dsy;
+const v4 = v1 * v0;
+v0 | 536870889;
+try { v4(v0, v4); } catch (e) {}
+Object.defineProperty(v0, "c", { configurable: true, enumerable: true, value: v4 });
+const v8 = v0["test"]("test");
+try {
+    v2.g = 48486;
+} catch(e10) {
+}
+function* f20(a21) {
+    const v22 = [9007199254740990,-4294967296,-1205995130,-12581,9];
+    function f23() {
+        new Uint16Array(10);
+        new BigInt64Array(10);
+        new Float64Array(3450);
+        return arguments;
+    }
+    f23(-1.7570084557226905e+308, v8);
+    yield v22;
+    return -1.7570084557226905e+308;
+}

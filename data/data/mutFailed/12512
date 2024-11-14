@@ -1,0 +1,70 @@
+new Int32Array(53045);
+const v8 = new Uint8ClampedArray(46);
+new Int8Array(2016);
+function F12() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        v8.valueOf = this;
+    } catch(e15) {
+    }
+    const v17 = Symbol.iterator;
+    const o26 = {
+        [v17]() {
+            let v19 = 10;
+            const o25 = {
+                next() {
+                    v19--;
+                    const v23 = v19 == 0;
+                    const o24 = {
+                        "done": v23,
+                        "value": v19,
+                    };
+                    return o24;
+                },
+            };
+            return o25;
+        },
+    };
+    try {
+        this(19793);
+        for (const v29 of 65536) {
+        }
+        [];
+    } catch(e31) {
+    }
+}
+function f33() {
+    function f34(a35) {
+        for (let v36 = 0; v36 < 5; v36++) {
+            function f37() {
+                Symbol.toPrimitive.description.codePointAt();
+                return f34;
+            }
+            class C43 extends f37() {
+                8 = v36;
+                static d = -6;
+                [f34] = Uint8ClampedArray;
+            }
+            const v44 = new C43();
+            new C43();
+            new C43();
+            %OptimizeFunctionOnNextCall(f37);
+            if (-6 === f37) {
+                f33();
+            } else {
+                try {
+                    v44.__proto__ = v44;
+                } catch(e49) {
+                }
+            }
+        }
+    }
+    return f34;
+}
+function f50(a51) {
+    return Uint8Array;
+}
+Object.defineProperty(Uint8Array, Symbol.toPrimitive, { get: f33, set: f50 });
+const v54 = new Uint8Array();
+Math.log10(v54.constructor);
+new F12();

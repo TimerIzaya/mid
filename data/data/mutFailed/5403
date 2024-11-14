@@ -1,0 +1,67 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(1000.0, -1000000000.0);
+const v9 = new F3(-1000000000.0, -1000000000.0);
+const v10 = new F3(-1.5506600478200236e+308, 1000.0);
+class C11 {
+    static [v8] = F3;
+    toString(a13, a14, a15, a16) {
+        super[v10] = v10;
+        const v17 = v10 instanceof a13;
+        %VerifyType(v8);
+        try {
+            super.n();
+        } catch(e19) {
+        }
+        try { new a16(a14); } catch (e) {}
+        a = v17;
+        return v17;
+    }
+    constructor(a22, a23, a24, a25) {
+        super[a22] = this;
+        a24?.b;
+        try {
+            super.getMonth();
+        } catch(e29) {
+        }
+        const v30 = v9[512];
+        return;
+        super[v30];
+        const o34 = {
+            "maxByteLength": 4294967295,
+        };
+        const v36 = new SharedArrayBuffer(8, o34);
+        new Uint8Array(v36);
+    }
+}
+new C11(-1.5506600478200236e+308, -1.5506600478200236e+308, v9, v8);
+const v40 = new C11(v8, 1000.0, v9, v8);
+const v41 = new C11(v40, 1000.0, v10, C11);
+function f42(a43, a44) {
+    const o54 = {
+        "c": v40,
+        "a": a44,
+        ...v40,
+        "b": v10,
+        "e": v41,
+        "f": a44,
+        "d": v9,
+        n(a46, a47, a48, a49) {
+            try {
+                C11.fuck(false, /(?:ab)?/um);
+            } catch(e53) {
+            }
+            return a48;
+        },
+    };
+    return o54;
+}
+f42(v9, v9);
+f42(C11, -1000000000.0);
+f42(v41, v9);
+([Infinity,-686.9856326146617,0.47369378110968274,-7.24289104755818]).includes(...[-1000.0,-2.2250738585072014e-308,511.99933163650917,-386.8372768814137,Infinity]);

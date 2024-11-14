@@ -1,0 +1,49 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v7 = this?.constructor;
+    try { new a5(this, a5); } catch (e) {}
+    function F9(a11, a12) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.b = a5;
+        } catch(e13) {
+        }
+        try {
+            this.f = F3;
+        } catch(e14) {
+        }
+    }
+    const v15 = new F9(a6, a5);
+    new F9(129, v7);
+    new F9(129, v15);
+    ~a5;
+    try {
+        this.g = 129;
+    } catch(e19) {
+    }
+    try {
+        this.a = 129;
+    } catch(e20) {
+    }
+}
+F3.arguments = F3;
+const v21 = new F3(129, 14);
+const v22 = new F3(129, 129);
+let v23;
+try { v23 = v22(v22, 129, v21, 14); } catch (e) {}
+new BigUint64Array(257);
+new Uint32Array(8);
+const v32 = new BigInt64Array(255);
+v22.b = 129;
+new F3(v21, 14);
+try { Map.toString(); } catch (e) {}
+new Map();
+new Map(F3, 2147483647, v23, 129);
+for (let v40 = 0; v40 < 32; v40++) {
+    v32["p" + v40] = v40;
+}
+[-7];
+const v45 = [3,1,268435441,1743601212,-41203,-2147483649,2147483647,13717,-4,29278];
+try { v45.map(129); } catch (e) {}
+[55008176,1,-516124065,-1466986198];
+AggregateError.captureStackTrace(AggregateError, 257);

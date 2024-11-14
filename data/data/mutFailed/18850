@@ -1,0 +1,82 @@
+const v1 = new Date();
+function f2(a3) {
+    const o9 = {
+        set h(a5) {
+            try {
+                new Date(-1.7976931348623157e+308);
+            } catch(e8) {
+            }
+        },
+        "b": Date,
+        [v1]: v1,
+        "h": a3,
+        __proto__: a3,
+        "e": Date,
+        "c": Date,
+        3: a3,
+    };
+    return o9;
+}
+const v10 = f2(Date);
+f2(v10);
+const v14 = v10[Symbol.replace];
+try { v1.setUTCHours(v14); } catch (e) {}
+const v17 = [];
+Reflect.apply(v1.getSeconds, Date, v17);
+f2(v1);
+function f21() {
+    return v1;
+}
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a29;
+    } catch(e31) {
+    }
+}
+const v32 = new F25(-9007199254740990, -536870912, -536870912, -9007199254740990);
+new F25(536870888, -536870912, v32, 536870888);
+new F25(-536870912, -536870912, Date, -536870912);
+const v36 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v37 = [16,-28272,-128];
+const v38 = [1073741824,1073741823,1376142744,1073741825];
+function f40(a41, a42, a43, a44) {
+    function f46() {
+        const v49 = -4294967295 >>> -4294967295;
+        const v50 = v49 | v49;
+        const o55 = {
+            "e": -4294967295,
+            ...v36,
+            ..."Vre",
+            "c": v38,
+            "f": "-1073741824",
+            84: arguments,
+            ..."Vre",
+            valueOf(a53, a54) {
+                return a53;
+            },
+            ..."Vre",
+            268435456: a43,
+            ..."Vre",
+            "d": v37,
+            "g": v50,
+            __proto__: v10,
+            4: "Vre",
+            "c": -268435456,
+            5: -4294967295,
+            6: -268435456,
+        };
+        o55[6] = o55;
+    }
+    f46();
+    %OptimizeFunctionOnNextCall(f46);
+    let v58;
+    try { v58 = v38["find"](..."find", a44, ...v37, ...v38, ...522675525n); } catch (e) {}
+    v58 <= a43;
+    return arguments;
+}
+for (let v60 = 0; v60 < 10; v60++) {
+    f40();
+}
+%OptimizeFunctionOnNextCall(f40);
+f40(v36, v36, f40, v36);

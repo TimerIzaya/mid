@@ -1,0 +1,84 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #a = f0;
+    #n() {
+        this[5] = 4;
+        return 4;
+    }
+    e = f0;
+    b;
+    #e;
+    static 2304 = f0;
+}
+const v9 = new C1();
+const v10 = new C1();
+const v11 = new C1();
+function f13(a14, a15, a16) {
+    const o34 = {
+        "b": a15,
+        "e": a15,
+        ...C1,
+        "a": a14,
+        set g(a18) {
+            /(?:ab)+(?<a>.)*/gui;
+            /x+/umy;
+            const v21 = /[R]/umsy;
+            const v22 = [126.35858692635452,171.76053631394439,637722.086033537,-4.0,3.0,-1000000.0,1.3044045702886066e+308];
+            const v23 = [-1.5529887870333795e+308,-748.1650295275717,0.9205726241487137,1.0,-1000.0,-3.1477078363151474,2.220446049250313e-16,Infinity];
+            function f24() {
+                return v23;
+            }
+            class C25 extends f24 {
+            }
+            const v26 = new C25();
+            v26.length = v22.shift();
+            v21 !== C1 ? v21 : C1;
+        },
+        ...v11,
+        get f() {
+            super.n();
+        },
+        "call": f0,
+        __proto__: a14,
+        "d": undefined,
+        "a": C1,
+        [undefined]() {
+            super.b;
+        },
+        "c": f0,
+        [a14]: v11,
+    };
+    return o34;
+}
+const v35 = f13(v11, v9, v11);
+f13(v35, f13(v35, v10, v11), v35);
+class C38 extends f13 {
+    #toString(a40, a41) {
+        v9.b;
+        const o49 = {
+            "maxByteLength": 4294967295,
+        };
+        const v51 = new SharedArrayBuffer(1431, o49);
+        const v53 = new Float64Array(v51);
+        return v53;
+    }
+}
+const v54 = new C38();
+new C38();
+new v54();
+function f62() {
+    return 3585;
+}
+class C63 extends f62 {
+    toString(a65, a66) {
+        this.constructor(a65);
+        -this;
+    }
+}
+const v69 = new C63();
+function f70(a71) {
+    return 1024 <= 3585 ? 1024 : 3585;
+}
+v69.constructor = f70;
+try { v69.toString(f62, 3585, 3585, f62, 1024); } catch (e) {}

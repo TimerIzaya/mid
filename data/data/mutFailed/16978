@@ -1,0 +1,60 @@
+function f0() {
+}
+const v1 = [f0,f0,f0,f0,f0];
+const v2 = [v1,v1,v1,f0,v1];
+const v3 = [v1,v2];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e8) {
+    }
+    try {
+        this.f = a6;
+    } catch(e9) {
+    }
+    try {
+        this.h = a7;
+    } catch(e10) {
+    }
+}
+function F11(a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v2;
+    } catch(e14) {
+    }
+    try {
+        this.h = a13;
+    } catch(e15) {
+    }
+}
+new F11(v2);
+new F11(v1);
+const v18 = new F11(v1);
+new F4(v3, v3);
+const v20 = new F4(v3, v1);
+const v21 = new F4(v2, v3);
+class C25 extends F4 {
+    static {
+        with ([this,...v2]) {
+            v21[2147483648] /= length;
+            for (let v29 = 0; v29 < 100; v29++) {
+                f0();
+            }
+        }
+    }
+    static 2699 = v20;
+    #g;
+    [v21] = v20;
+    set e(a32) {
+        super[a32];
+        super[a32] = v18;
+    }
+    static 268435439 = f0;
+    g;
+}
+new C25();
+new C25();
+new C25();
+Math.cbrt(1073741824);

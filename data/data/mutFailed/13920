@@ -1,0 +1,39 @@
+const v1 = new Date();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = F2;
+    try {
+        this.f = Date;
+    } catch(e6) {
+    }
+    try {
+        this.h = a4;
+    } catch(e7) {
+    }
+    try {
+        this.d = a4;
+    } catch(e8) {
+    }
+}
+const v9 = new F2(v1, F2);
+const v10 = new F2(v9, v9);
+const v11 = new F2(v1, Date);
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f18() {
+        return this;
+    }
+    function f19(a20) {
+        new Date();
+    }
+    Object.defineProperty(this, "b", { writable: true, enumerable: true, get: f18, set: f19 });
+    try {
+        this.b = v1;
+    } catch(e23) {
+    }
+}
+new F12(v10, F2, v9, v11);
+new F12(v9, Date, v10, v9);
+new F12(v10, Date, v9, v9);
+const v29 = 5493 >>> 5493;
+Math.atan2(v29, v29);

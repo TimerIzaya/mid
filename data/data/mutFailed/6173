@@ -1,0 +1,62 @@
+function f0() {
+}
+const v1 = [f0,f0];
+const v2 = [v1,f0,f0];
+const v3 = [f0];
+class C4 extends f0 {
+    set c(a6) {
+        const v7 = super[f0];
+        function f8(a9, a10, a11) {
+            const o12 = {
+                ...v2,
+                5: a11,
+                __proto__: a9,
+            };
+            return o12;
+        }
+        f8(v7, v2, this);
+        f8(v3, a6, v1);
+        f8(v2, v1, v1);
+    }
+}
+const v16 = new C4();
+const v17 = new C4();
+const v18 = new C4();
+class C19 extends C4 {
+    65535 = v17;
+    static #g = C4;
+    constructor(a21, a22) {
+        super();
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeFunctionOnNextCall(f0);
+        f0();
+    }
+    #a;
+    3 = v16;
+}
+new C19(v2, v18);
+new C19(v1, C4);
+new C19(v1, v1);
+function f30() {
+    return C4;
+}
+Reflect.construct(Int8Array, [1126838905]);
+class C37 {
+    [-2] = 31876;
+}
+const v38 = new C37();
+const v39 = [-20096,4294967296,-65537,-2];
+const v40 = [-1947047520];
+const v41 = [v40,v40,v40,v39];
+v41.toString = f0;
+const v42 = [v41];
+function f43() {
+    return C4;
+    Math.E = Math;
+    return v38;
+}
+v42[Symbol.toPrimitive] = f43;
+v39["slice"](v42);

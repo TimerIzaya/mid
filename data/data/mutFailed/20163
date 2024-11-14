@@ -1,0 +1,34 @@
+const v3 = [36929];
+const v4 = [-58013];
+[36929,v3,v4,-13,-13];
+class C6 {
+    g;
+    set e(a8) {
+        super.a &= v3;
+    }
+    valueOf(a14, a15, a16) {
+        try {
+            v4.__proto__ = this;
+        } catch(e17) {
+        }
+        return a14;
+    }
+}
+new C6();
+const v19 = new C6();
+new v19();
+new Uint8ClampedArray(10);
+new Float64Array(4);
+new Uint8ClampedArray(1184);
+function f30(a31, a32, a33, a34) {
+    class C36 extends Date {
+    }
+    const v37 = new C36();
+    v37.getDay();
+    return f30;
+}
+for (let v39 = 0; v39 < 10; v39++) {
+    f30(v39, v39, v39, v39);
+}
+%OptimizeFunctionOnNextCall(f30);
+f30();

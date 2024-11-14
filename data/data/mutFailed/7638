@@ -1,0 +1,70 @@
+const v0 = [];
+function f1() {
+    try { new v0(); } catch (e) {}
+    new Date();
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+const v11 = [-4294967295,v0,-4294967295,[-4294967295]];
+v11.toString = Symbol;
+const v12 = [-4294967295,v11,v11,v11];
+function f16(a17, a18, a19, a20) {
+    function f21(a22) {
+        const v25 = new BigUint64Array(256);
+        return v25;
+    }
+    a17.toString = f21;
+    function f26(a27, a28) {
+        try {
+            f1();
+        } catch(e30) {
+        }
+        return a17;
+    }
+    a20.toString = f26;
+    const o31 = {
+        "c": v0,
+        __proto__: a18,
+        "g": a17,
+        "e": -4294967295,
+        [a20]: v12,
+        [-1]: a17,
+        [a17]: -10,
+        "d": a20,
+        "b": a19,
+        "a": v12,
+        "h": 312268427,
+    };
+    return o31;
+}
+const v32 = f16(v11, 22041, 22041, v11);
+f16(v12, f16(v0, -4294967295, 312268427, v0), 11, v12);
+class C35 {
+}
+const v36 = new C35();
+new C35();
+new C35();
+function f39(a40, a41, a42, a43) {
+    const o47 = {
+        get f() {
+            new a41();
+            return /e\p{Changes_When_NFKC_Casefolded}/vdimy;
+        },
+        ...a41,
+    };
+    return o47;
+}
+const v48 = f39();
+const v49 = f39();
+class C50 extends f39 {
+    constructor(a52, a53, a54) {
+        super(v36, a54, a53, v32);
+        const v55 = new C35();
+        for (let v56 = 0; v56 < 25; v56++) {
+            v55["p" + v56] = v56;
+        }
+    }
+}
+new C50();
+const v60 = new C50(v48, v48, C35);
+new C50(v49, v49, v60);

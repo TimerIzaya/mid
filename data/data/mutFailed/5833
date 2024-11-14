@@ -1,0 +1,41 @@
+[];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v8 = this?.constructor;
+    try { new v8(this, a6); } catch (e) {}
+    a7--;
+    try {
+        this.h = -1;
+    } catch(e11) {
+    }
+}
+F4.name = F4;
+const v12 = new F4(-4294967296, 8);
+v12.e = v12;
+const v13 = new F4(-1, 8);
+v13.h;
+const v15 = new F4(-4294967296, v12);
+v15.p29 = -4294967296;
+class C20 extends F4 {
+    #d;
+    static {
+        this.prototype = this;
+        for (let v22 = 0; v22 < 32; v22++) {
+            try { ("p").localeCompare(-42584478); } catch (e) {}
+            v15["p" + v22] = v22;
+        }
+        try {
+            v13.valueOf = -4294967296;
+        } catch(e26) {
+        }
+    }
+    [v13];
+    c;
+    3107;
+}
+const v27 = new C20();
+new C20();
+new C20();
+const v31 = new Date();
+try { v31.setFullYear(9007199254740992, v27, v27); } catch (e) {}
+v31.getUTCHours();

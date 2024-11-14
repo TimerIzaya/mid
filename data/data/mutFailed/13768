@@ -1,0 +1,19 @@
+const v1 = new Map();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a4;
+    } catch(e5) {
+    }
+    try {
+        Map.e = a4;
+    } catch(e6) {
+    }
+}
+const v7 = new v1(F2);
+new F2(v7);
+new F2(Map);
+const v21 = new Uint16Array(8);
+const o22 = {
+    ...v21,
+};

@@ -1,0 +1,79 @@
+class C3 {
+    static get g() {
+        const o5 = {
+            "c": "-11",
+            __proto__: this,
+            "b": this,
+            "a": "-11",
+            ...this,
+        };
+        try {
+            o5.d = this;
+        } catch(e6) {
+        }
+        try {
+            const o7 = {
+            };
+            o7.d = C3;
+            o7.e = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            const t23 = "-11";
+            t23.d = this;
+            o9.e = this;
+            o9.f = "h";
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.d = "-11";
+            o11.e = this;
+            o11.f = "h";
+        } catch(e12) {
+        }
+        return "-11";
+    }
+}
+C3.e = C3;
+const v13 = new C3();
+const v14 = v13?.constructor;
+try { new v14(); } catch (e) {}
+const v16 = v13?.constructor;
+let v17;
+try { v17 = new v16(); } catch (e) {}
+let v18;
+try { v18 = new v16(); } catch (e) {}
+const v19 = v18?.constructor;
+try { new v17(); } catch (e) {}
+const v21 = new C3();
+try {
+    v21.d = C3;
+} catch(e22) {
+}
+try {
+    const v23 = [v18,v21,"h",v19,-1.720732882679807e+308];
+    C3.fuck(v23, v23);
+} catch(e25) {
+}
+let v26;
+try { v26 = v21.isPrototypeOf(v16); } catch (e) {}
+const v27 = new v16();
+2 - 2;
+const v31 = new Uint16Array(v26);
+const v34 = new v18(8);
+v34[2] = v34;
+1832 >>> 1832;
+v26.length;
+try { new Uint8Array(v21, v27, v27); } catch (e) {}
+const v40 = new Uint8Array(1832);
+try { v40.toSorted(v31); } catch (e) {}
+let v42 = 995;
+v42--;
+new Uint8ClampedArray(v42);
+const v46 = v27?.constructor;
+try { new v46(Uint8Array, v31, 2); } catch (e) {}
+new Int8Array(v19);

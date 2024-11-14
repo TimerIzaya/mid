@@ -1,0 +1,37 @@
+class C3 {
+    static {
+        this.prototype = this;
+        3.0 instanceof this;
+        const o6 = {
+            "f": 3.0,
+        };
+        try {
+        const t0 = 3.0;
+        new t0(65536, this, 65536);
+        } catch (e) {}
+        o6[-2] = 65536;
+    }
+    #d;
+    static [-2] = -1000000000.0;
+    static #c;
+}
+const v8 = new C3();
+try { v8.isPrototypeOf(v8); } catch (e) {}
+const v10 = new C3();
+new C3();
+-12n ^ -12n;
+function f18() {
+    return -536870912;
+}
+class C19 extends f18 {
+    static {
+        this.prototype = this;
+        const o21 = {
+            "defineProperty": f18,
+        };
+        try { Proxy.apply(C3, Proxy); } catch (e) {}
+        const v24 = new Proxy(this, o21);
+        v24.prototype = v24;
+        v10.b = v24;
+    }
+}

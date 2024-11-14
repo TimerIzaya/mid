@@ -1,0 +1,39 @@
+-13817n / -13817n;
+try { new Uint32Array(-6n, 1073741825n, Uint32Array); } catch (e) {}
+new Uint32Array(127);
+try { new Float64Array(127, 127, Uint32Array); } catch (e) {}
+const v14 = new Float64Array(127);
+v14[105] = v14;
+124 >>> 124;
+new Uint8ClampedArray(Uint8ClampedArray);
+function f21(a22, a23, a24, a25) {
+    function F26(a28, a29, a30) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v31 = new F26();
+    const o37 = {
+        toString(a34, a35, a36) {
+            Object.defineProperty(v31, a34, { writable: true, configurable: true, set: Array });
+            return Array;
+        },
+    };
+    try { o37.toString(o37); } catch (e) {}
+    522675525n >> a25;
+    function f40() {
+        const o44 = {
+            "c": v14,
+            valueOf(a42, a43) {
+            },
+        };
+        try {
+            f40();
+        } catch(e46) {
+        }
+    }
+    const t32 = 127;
+    t32();
+}
+for (let v48 = 0; v48 < 5; v48++) {
+    f21(522675525n, 0.5375507050396837, 0.5375507050396837, v48);
+}
+f21();

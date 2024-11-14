@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = this;
+    try {
+        this.a = 26477;
+    } catch(e3) {
+    }
+    try {
+        this.d = 26477;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+let v8 = -65535n;
+v8--;
+const v12 = [v6,v6,v6,-1073741824n];
+const v13 = [v6,v12,F0];
+const v14 = [v12,v8,v7,v12,v13];
+class C15 {
+    constructor(a17, a18, a19, a20) {
+        a20[2] = a20;
+        function f21() {
+            return 48480n;
+        }
+    }
+    static set e(a23) {
+        this[v8] = this;
+        try {
+            v12.toString = a23;
+        } catch(e24) {
+        }
+    }
+}
+C15.e = C15;
+const v25 = new C15(v6, -1073741824n, v6, v13);
+const v26 = v25?.constructor;
+try { new v26(v13, v6, v25, v13); } catch (e) {}
+const v28 = new C15(v7, -1073741824n, v5, -1073741824n);
+const v29 = new C15(v28, -1073741824n, v28, F0);
+const v30 = v29?.constructor;
+try { new v30(F0, v14, v14, v14); } catch (e) {}
+function f32() {
+    function f33(a34, a35) {
+        return f32;
+    }
+    function f36() {
+        v6[17] = v7.a;
+        return f32;
+    }
+    f36.length;
+    f33.then = f36;
+    f33.MAX_SAFE_INTEGER = f33;
+    const v40 = Promise.resolve(f33);
+    const v41 = v40?.constructor;
+    try { new v41(v40); } catch (e) {}
+    return f32;
+}
+%PrepareFunctionForOptimization(f32);
+f32();
+%OptimizeFunctionOnNextCall(f32);
+const v44 = f32();
+v44.e = v44;

@@ -1,0 +1,49 @@
+class C3 {
+    #c;
+    ["MAX_SAFE_INTEGER"];
+    #valueOf(a5, a6) {
+        a6 = this;
+        try {
+            ("MAX_SAFE_INTEGER").#valueOf();
+        } catch(e8) {
+        }
+        a6[3.2149281669993574e+307] = a5;
+        return "MAX_SAFE_INTEGER";
+    }
+}
+new C3();
+const v13 = new C3();
+new C3();
+const v16 = -Infinity;
+function f18() {
+    return 2.0;
+}
+function f20() {
+    return -0.0;
+}
+try { v13.for(BigUint64Array, -0.0, C3, 2.0, v16); } catch (e) {}
+const v26 = [155533.8602852358,2.0];
+function F28() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v30 = v16.__lookupGetter__;
+    async function f31(a32, a33, a34) {
+        await (a32 = f20);
+        return v30;
+    }
+    f31(v30, "MAX_SAFE_INTEGER", -0.0);
+    const v37 = v30.bind();
+    try { new v37(v30, this, -0.0, this); } catch (e) {}
+    C3 = this;
+    this[65536] = f20;
+    try {
+        Date.UTC(2.0, v16);
+    } catch(e40) {
+    }
+    for (const v44 of Array(C3)) {
+        v26[658291203] = null;
+    }
+}
+const v45 = new F28();
+v45.constructor;
+const t46 = 0;
+new t46();

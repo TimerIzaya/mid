@@ -1,0 +1,75 @@
+const v1 = new WeakMap();
+function f2(a3) {
+    const o15 = {
+        get h() {
+            v1[Symbol.unscopables] = a3;
+            a3?.[9];
+            const o10 = {
+                "maxByteLength": 226,
+            };
+            const v12 = new SharedArrayBuffer(8, o10);
+            const v14 = new Uint8ClampedArray(v12);
+            return v14;
+        },
+    };
+    return o15;
+}
+const v16 = f2(WeakMap);
+const v17 = f2(v16);
+const v18 = f2(v16);
+let v21 = "9";
+function f25(a26, a27, a28, a29) {
+    const o37 = {
+        n(a31, a32) {
+            const v33 = a29.__proto__;
+            for (const v34 in "byteOffset") {
+                v21 ^= v34;
+                v18 % v33;
+            }
+            function f36() {
+                return -879754410;
+            }
+            return "byteOffset";
+        },
+        "e": a27,
+        "c": a26,
+        __proto__: a29,
+        ..."byteOffset",
+    };
+    return o37;
+}
+f25(v18, "function", "function", v17);
+f25(v18, "function", "byteOffset", v21);
+f25(v16, "byteOffset", "byteOffset", v21);
+function F41() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f25;
+    try { this.constructor(); } catch (e) {}
+    try {
+    } catch(e44) {
+    }
+    function F45() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v47 = new F45();
+    const v48 = v47?.__defineSetter__;
+    try { v48(); } catch (e) {}
+    function f50(a51, a52) {
+        const o53 = {
+        };
+        return o53;
+    }
+    const v54 = f50(v48, f50);
+    function f55() {
+        return f55;
+    }
+    Float32Array.toString = f2;
+    const v58 = new Float32Array(218);
+    for (const v59 of v58) {
+        v59 >>> v59;
+        Object.defineProperty(v54, Float32Array, { configurable: true, enumerable: true, get: f50, set: f55 });
+    }
+}
+new F41();
+new F41();
+new F41();

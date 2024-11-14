@@ -1,0 +1,42 @@
+class C3 {
+    static {
+        const v9 = Symbol.matchAll;
+        try { v9["valueOf"]("valueOf"); } catch (e) {}
+        Object.defineProperty("valueOf", 2, { writable: true, configurable: true, enumerable: true, set: Symbol });
+        let v13 = 22277;
+        const v15 = ~"valueOf";
+        ~9007199254740991;
+        v13--;
+        !v15;
+        Math.sinh(v15);
+        const t7 = "SXJ";
+        t7[v9] = v9;
+    }
+    static #e;
+    static {
+        const v21 = this[536870912];
+        try {
+            v21.#e = this;
+        } catch(e22) {
+        }
+        "SXJ" - v21;
+    }
+}
+new C3();
+new C3();
+new C3();
+new Uint16Array(3017);
+new Int32Array(127);
+new Int8Array(257);
+function f38(a39) {
+    const o40 = {
+        ..."toStringTag",
+    };
+    return o40;
+}
+class C41 extends f38 {
+    ["15036"];
+}
+const v42 = new C41();
+for (const v43 in v42) {
+}

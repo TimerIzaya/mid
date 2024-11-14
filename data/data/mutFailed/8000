@@ -1,0 +1,47 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a5;
+    } catch(e6) {
+    }
+}
+new F3("p");
+const v8 = new F3("symbol");
+const v9 = new F3("p");
+new Set();
+class C12 extends F3 {
+    #b;
+    static #o(a14, a15) {
+        const v17 = [];
+        const v19 = Reflect.apply(("p").trimLeft, this, v17);
+        try {
+            v19.__proto__ = C12;
+        } catch(e20) {
+        }
+        return v9;
+    }
+    static 512 = v8;
+}
+const v21 = new C12();
+new C12();
+new v21();
+const v25 = new Map();
+class C26 {
+    [v25];
+    constructor(a28, a29) {
+        const v30 = this?.constructor;
+        try { new v30(); } catch (e) {}
+        const v32 = /(?<!)/gv;
+        v32.e = v32;
+        const v33 = /(\xed\xb0\x80)\x01/gudmy;
+        v33.c = v33;
+        const v35 = Symbol.iterator;
+        const o37 = {
+            [v35]() {
+            },
+        };
+    }
+}
+const v38 = new C26(Map, Map);
+const t45 = v38.constructor;
+new t45();

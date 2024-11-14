@@ -1,0 +1,53 @@
+function f0() {
+}
+f0.toString = f0;
+const v1 = [f0,f0];
+v1[Symbol.toPrimitive] = f0;
+const v4 = [v1];
+[f0,v4,v1,v4,v1];
+6 === 6;
+const v8 = 6 - 6;
+const v10 = new BigInt64Array(6);
+64 / 64;
+const v14 = new Int32Array(64, 64, v8, v10);
+try { v14.copyWithin(v1, f0); } catch (e) {}
+136 >> 136;
+Uint32Array.e = Uint32Array;
+Uint32Array.e = Uint32Array;
+const v19 = new Uint32Array(136);
+v19.constructor = f0;
+const v20 = v19?.constructor;
+try { new v20(136, f0, 136); } catch (e) {}
+v19.g = v19;
+[-49039,65537,-14834,-8];
+const v23 = [9007199254740992,9007199254740991,2147483649,6,256,65536,4,10];
+[8,-536870912,1875161442,7,-2147483648,-1024];
+function f25(a26, a27, a28, a29) {
+    a26.toString = f25;
+    a27[Symbol.toPrimitive] = Symbol;
+    a26 + a26;
+    a27 << a27;
+    let v34 = 4046;
+    v34--;
+    const v37 = new BigInt64Array(v34, 136);
+    let v38 = undefined;
+    const v39 = v38++;
+    v39 * v39;
+    v39 >> v39;
+    v39 + v39;
+    v39 >> v39;
+    let o44 = {
+    };
+    o44.e = o44;
+    o44.h = o44;
+    [,...o44] = v37;
+    return f25;
+}
+let v45;
+try { v45 = new f25(v23, Uint32Array, f25, Uint32Array); } catch (e) {}
+v45.length = v45;
+for (let v46 = 0; v46 < 5; v46++) {
+    v46 - v46;
+    const v48 = f25(v46, v46, v46, v46);
+    v48.arguments = v48;
+}

@@ -1,0 +1,59 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 268435456;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v7 = v6?.constructor;
+try { new v7(); } catch (e) {}
+function f12(a13, a14, a15) {
+    a15.b;
+    const o29 = {
+        "h": a15,
+        set e(a18) {
+            const v20 = F0 < v4 ? F0 : v4;
+            const v21 = [a18,a18,8,v4];
+            [8];
+            [v21,v21];
+            typeof v7 === "bigint";
+            v20.f?.[v20];
+        },
+        __proto__: v6,
+        [9007199254740992]: a13,
+        5: a13,
+    };
+    return o29;
+}
+const v30 = f12(v5, 9007199254740992, v6);
+v30[5] = v30;
+if (v30 >= v30) {
+    try {
+        v6.h = v5;
+    } catch(e32) {
+    }
+} else {
+    const o35 = {
+        "maxByteLength": 536870887,
+    };
+    const v37 = new ArrayBuffer(13, o35);
+    new Int8Array(v37);
+}
+f12(v6, 9007199254740992, v6);
+try { Math.expm1(f12); } catch (e) {}
+let v44 = -4096;
+v44 >> v44;
+let v46 = 1e-15;
+v46 ^ 10;
+const v48 = Math.random();
+v44--;
+f12(v6, 9007199254740992, v5).h;
+v46 = v48;
+Object.defineProperty(v5, v7, { writable: true, enumerable: true, get: f12, set: f12 });
+[-8.510530937774839e+307,4.0,2.2250738585072014e-308,1000.0,-1e-15,1.7976931348623157e+308,586.3130002088387,0.0005698615798930273];
+[1e-15,5.0,1.1953759701629151e+308,1000000000.0,-0.0,4.0213693439571714e+307,-1.7976931348623157e+308,2.7389769644089235,0.0];
+[-1000.0,-1000.0];
+Math.expm1(-Infinity);

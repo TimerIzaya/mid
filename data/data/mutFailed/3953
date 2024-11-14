@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 15;
+    } catch(e3) {
+    }
+    try {
+        this.MAX_VALUE = 15;
+    } catch(e4) {
+    }
+    const o11 = {
+        "maxByteLength": 925,
+    };
+    const v13 = new SharedArrayBuffer(925, o11);
+    new DataView(v13);
+    try {
+        h.e = 15;
+    } catch(e16) {
+    }
+}
+const v17 = new F0();
+const v18 = new F0();
+const v19 = new F0();
+const v20 = v19.MAX_VALUE;
+v19.MAX_VALUE;
+let v24;
+try { v24 = v18.cbrt(v17); } catch (e) {}
+try {
+    v24.g = Int16Array;
+} catch(e25) {
+}
+let v26;
+try { v26 = new Int16Array(F0, F0, v18); } catch (e) {}
+new Int16Array(3);
+const v30 = new Float64Array(8);
+try { v30.reduce(3); } catch (e) {}
+new Int16Array(1122);
+class C36 extends v20 {
+    [v26] = v17;
+    static d;
+}
+new C36();
+new C36();
+const v39 = new C36();
+class C41 {
+    constructor(a43, a44) {
+        a43 ^ a43;
+        const v46 = this.constructor;
+        let v47;
+        try { v47 = new v46(a43, v46); } catch (e) {}
+        v47++;
+        a44 <= a44;
+        const v52 = Math.atan2(this, this);
+        v52 ** v52;
+        1122 % !this;
+    }
+    d = -7;
+}
+new C41(8);
+new C41();
+new v39(-2);
+const v59 = new C41();
+v59.iterator = v59;

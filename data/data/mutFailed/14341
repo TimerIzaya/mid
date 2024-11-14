@@ -1,0 +1,44 @@
+const v0 = [];
+class C1 {
+    #h;
+    [v0] = v0;
+    set f(a3) {
+        if (a3) {
+            const o7 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o7);
+        } else {
+            let v9;
+            try { v9 = a3(this, this, this, v0); } catch (e) {}
+            super[v9] = a3;
+        }
+    }
+}
+new C1();
+new C1();
+new C1();
+new Uint32Array(64);
+new BigInt64Array(129);
+new Int32Array(2562);
+const v23 = new Map();
+const v25 = [-1000.0,351.94489669740733,5.8623101046484845,-160881.40611645568,0.6390643538224362,9.13027568774574];
+function f26(a27) {
+    [7.013595050788165,-506.3513414349925,-2.2250738585072014e-308,5.0,3.0,2.220446049250313e-16,-0.9443846493854196,-7.517537406863642e+307];
+    [-1.7976931348623157e+308,1000000000.0,-320.94480050499953,-794071.5375695069,-1.7976931348623157e+308];
+    return [-417.97064933740046,-4.0,-55413.111559632816,-Infinity,-245942.84151135362,-821.4262840690399,-Infinity];
+}
+v25[Symbol.toPrimitive] = f26;
+function f33(a34) {
+    a34 ^ a34;
+    return 36002;
+}
+v25.toString = f33;
+%OptimizeFunctionOnNextCall(f33);
+function f36(a37, a38) {
+    return f33;
+}
+const v40 = new Promise(f36);
+Object.defineProperty(v40, 36002, { configurable: true, value: v23 });
+v40[v25] += 36002;

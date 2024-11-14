@@ -1,0 +1,30 @@
+new Uint16Array(11);
+const v4 = 127 >> 127;
+new BigInt64Array(127);
+const v9 = new Uint8ClampedArray(-2107941675);
+try { v9.entries(); } catch (e) {}
+class C11 {
+    1073741825;
+    static get b() {
+        let v14 = 64;
+        -(--v14);
+        return ~v14;
+    }
+    #b = 127;
+    static [-2107941675] = Uint16Array;
+}
+const v18 = new C11(v4, v4);
+v18[1073741825];
+new C11();
+const v21 = new C11();
+v21[1073741825] = v21;
+0.0 >>> 0.0;
+5.0 / 5.0;
+const v31 = this?.FinalizationRegistry;
+try { new v31(Uint8ClampedArray); } catch (e) {}
+let v33 = -128;
+v33--;
+function f38() {
+    eval("");
+    return v33;
+}

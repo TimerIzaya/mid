@@ -1,0 +1,26 @@
+class C6 {
+    set a(a8) {
+        super.a;
+        %VerifyType(super.h);
+        super[16] = "valueOf";
+        const o13 = {
+            "maxByteLength": 65535,
+        };
+        const v15 = new this(128, o13);
+        new C6(v15);
+    }
+}
+const v18 = new C6();
+new C6();
+new v18();
+class C24 {
+    toString(a26) {
+        super[this];
+    }
+}
+const v28 = new C24();
+const v29 = [C24,C24,C24,C24,C24];
+try {
+    v29.length = v28;
+} catch(e30) {
+}

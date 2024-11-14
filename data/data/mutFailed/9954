@@ -1,0 +1,84 @@
+class C3 {
+    constructor(a5) {
+        function f6(a7) {
+            Object.defineProperty(a7, 1, { configurable: true, value: this });
+            const t4 = "boolean";
+            t4[4] <<= a5;
+            return a7;
+        }
+        this[Symbol.toPrimitive] = f6;
+        a5.valueOf = f6;
+        let v10;
+        try { v10 = a5.valueOf(this, this, 1, "object"); } catch (e) {}
+        v10.valueOf = f6;
+        try { this.n("boolean", "object", a5, 1, "boolean"); } catch (e) {}
+        v10 || "object";
+    }
+    static #p(a14, a15) {
+        try {
+            a14.#p("object", "object", a15, this);
+        } catch(e17) {
+        }
+        return a14;
+    }
+    #a = "object";
+    static b = 1;
+}
+try { new C3("boolean"); } catch (e) {}
+const v19 = new C3("boolean");
+function f20(a21, a22) {
+    const v23 = ("boolean").length;
+    let v24;
+    try { v24 = a21("boolean", v23, v23); } catch (e) {}
+    return v24;
+}
+v19.toString = f20;
+try { v19.propertyIsEnumerable(v19); } catch (e) {}
+new C3(v19);
+const v27 = new C3(C3);
+const v28 = v27?.constructor;
+try { new v28(C3); } catch (e) {}
+268435439 >= 268435439;
+[-4,-270789007];
+[268435441,54986,-9223372036854775807,-1073741824,-54901];
+[8,-9223372036854775807,870173417,7,-1532114684,-5,-1,1290049956];
+const v37 = [3,268435440,1511867536,-2];
+[-2147483647,6,1245814530,9,536870912,64683,-3,2147483649];
+[3,9007199254740991,859556278,-65537,-1002,-4294967296];
+-5.161103313394506 >>> -5.161103313394506;
+0.8199829542463926 % 0.8199829542463926;
+class C44 {
+    static e;
+    e;
+    static 3 = -5.161103313394506;
+    toString(a46) {
+        let v45 = this;
+        v45.e *= 0.8199829542463926;
+        v45 += v45;
+        for (let v47 = 0; v47 < 10; v47++) {
+            a46["p" + v47] = v47;
+        }
+        return 0.8199829542463926;
+    }
+}
+C44.prototype;
+class C51 {
+}
+C51.length;
+const v53 = new C51();
+const v54 = [-0.42703791448452577,-9.174109027962913,-1.7976931348623157e+308,-3.06318157624919,1000000000000.0,-2.2250738585072014e-308,-515.183479844324,0.20435565392355481,616564.7515082213,-3.0];
+const o55 = {
+    [v54]: v53,
+};
+new C44();
+const v57 = new C44();
+const v58 = new C44();
+const v59 = /1(ab)/ud;
+v59.toString = f20;
+/(?<a>)Q/vdimsy;
+const v61 = /i(?:ab){4,7}/gui;
+try { v61.test(v37); } catch (e) {}
+const v64 = -428.8291283785537 in v58;
+const v65 = C44[v59];
+try { new v65(v65, v58, v64, 0.8199829542463926, 0.8199829542463926); } catch (e) {}
+v57.toString = v65;

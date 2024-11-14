@@ -1,0 +1,49 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 2147483647;
+    } catch(e10) {
+    }
+    try {
+        this.g = 4294967296;
+    } catch(e11) {
+    }
+}
+const t11 = 128;
+const v12 = new t11(-157750991, -157750991);
+const v13 = new F6(2147483647, 2147483647);
+const v14 = new F6(-84701401, 1467718315);
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a18;
+    } catch(e20) {
+    }
+    try {
+        this.e = 4294967296;
+    } catch(e21) {
+    }
+}
+new F15(1467718315, v14, v13);
+new F15(2147483647, v12, v13);
+new F15(2147483647, v12, v14);
+for (let v26 = 0; v26 < 100; v26++) {
+    function f29(a30) {
+        const o33 = {
+            ...65536,
+            5: 65536,
+            __proto__: a30,
+            valueOf(a32) {
+                return a32;
+            },
+            "g": 65536,
+            163: 4,
+        };
+        o33[163] = o33;
+        return f29;
+    }
+    f29(v26);
+    f29(null);
+    f29(null);
+    f29();
+}

@@ -1,0 +1,62 @@
+new BigInt64Array(1000);
+const o3 = {
+};
+let v5 = new Proxy(BigInt64Array, o3);
+v5 = BigInt64Array;
+new Uint8ClampedArray(4);
+new BigInt64Array(107);
+const v15 = [9,1073741825,-4096,10,1,4294967297,911296943,-9223372036854775808,-53393,16];
+const v16 = [2147483648,-9223372036854775808,1073741823,-5827,17147,6507,0,255,61798];
+const v17 = [-10,2,536870888,-6,-10,-16,3090,-1132274585,-4612];
+class C18 {
+    valueOf(a20, a21) {
+        v15.length -= a20;
+        return v17 % v16;
+    }
+    1 = v15;
+    static #m(a24, a25) {
+        return 5n;
+    }
+    2916208505 = v16;
+}
+const v29 = new C18();
+let v30 = new C18();
+v29 === C18 ? v29 : C18;
+const v36 = new C18();
+function F37(a39, a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = C18;
+    } catch(e43) {
+    }
+}
+const v44 = new F37(v17, v15, C18, v15);
+const v45 = new F37(v15, v16, v36, v16);
+const v46 = new F37(v16, v17, v16, v16);
+function f47(a48, a49, a50) {
+    const o57 = {
+        "g": v16,
+        __proto__: a48,
+        8: a49,
+        176: a48,
+        p(a52, a53, a54) {
+            v30 = this;
+            %VerifyType(this);
+            v16["some"](a49, v15);
+            return a48;
+        },
+        "d": a50,
+    };
+    [16,7,-2,-2147483649,16527,43012728,268435456,2147483648,0,-1073741824];
+    const v59 = [-2147483649,16,-1962985387,-536870912,-168375993,-1,1026420318,1];
+    [-4294967296,1073741823];
+    v29 << 1e-15;
+    try {
+        o57.c = v59;
+    } catch(e62) {
+    }
+    return o57;
+}
+f47(v45, v16, v29);
+f47(C18, v44);
+f47(v46);

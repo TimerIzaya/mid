@@ -1,0 +1,91 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+class C2 extends f0 {
+    static get e() {
+        let v4 = 10;
+        for (; v4--;) {
+            const v6 = f1();
+            try {
+                this.b = v6;
+            } catch(e7) {
+            }
+        }
+        return this;
+    }
+}
+const v8 = new C2();
+const v9 = v8?.constructor;
+let v10;
+try { v10 = new v9(); } catch (e) {}
+const v11 = v8?.constructor;
+v11.e = v11;
+let v12;
+try { v12 = new v11(); } catch (e) {}
+const v13 = v10?.constructor;
+try { new v13(); } catch (e) {}
+const v15 = new f0();
+const v16 = new C2();
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = a19?.constructor;
+    let v23;
+    try { v23 = new v22(); } catch (e) {}
+    const v24 = a19?.__defineSetter__;
+    const v25 = v24?.apply;
+    try { new v25(v23, a20); } catch (e) {}
+    try { new v24(this, this); } catch (e) {}
+    const v28 = a20?.constructor;
+    try { new v28(); } catch (e) {}
+    const v30 = v24?.constructor;
+    try { new v30(); } catch (e) {}
+    try {
+        this.e = a21;
+    } catch(e32) {
+    }
+}
+try { new F17(F17, C2, C2); } catch (e) {}
+let v34;
+try { v34 = F17.bind(f1); } catch (e) {}
+try { v34.bind(f0); } catch (e) {}
+const v36 = new F17(v15, v8, v16);
+const v37 = new F17(v8, v36, v36);
+v37.e = v37;
+v37.length = v37;
+const v38 = new F17(v36, v37, v8);
+v38.e = v38;
+v38.length = v38;
+-(-16364);
+const v45 = new Int32Array(255);
+try { new Uint16Array(v12, 255, Uint16Array); } catch (e) {}
+new Uint16Array(255);
+const v52 = new BigInt64Array(512);
+try { v52.filter(v45); } catch (e) {}
+class C55 extends v13 {
+}
+C55.b = C55;
+const v56 = new C55();
+const v57 = v56.toGMTString();
+try { v57.valueOf(); } catch (e) {}
+v57[1] = v57;
+const v59 = [155533.8602852358,2.0];
+try { v59.toString(); } catch (e) {}
+function F62() {
+    if (!new.target) { throw 'must be called with new'; }
+    Array(19793);
+    v59[658291203] = null;
+    v57[1073741824];
+}
+const v68 = new F62();
+const v69 = v68?.constructor;
+try { new v69(); } catch (e) {}
+const v71 = v68?.constructor;
+let v72;
+try { v72 = new v71(); } catch (e) {}
+try { v72.constructor(); } catch (e) {}
+const v74 = new F62();
+const v75 = v74?.propertyIsEnumerable;
+try { v75.bind(v38); } catch (e) {}
+try { new v75(v38); } catch (e) {}

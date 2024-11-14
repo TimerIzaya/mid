@@ -1,0 +1,67 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -9;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+let v5 = new F0();
+const v6 = new F0();
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a9;
+    } catch(e11) {
+    }
+}
+new F7(v6, v5);
+const v13 = new F7(v4, v5);
+new F7(v4, v6);
+const v15 = /[(?:ab)+]/ud;
+const v16 = /u(x)(x)(x)\3*/v;
+const v17 = /\cj\cJ\ci\cI\ck\cKa\Scjp9(a)\1?/gu;
+function f18() {
+    return v17;
+}
+function f19(a20, a21, a22) {
+    const o37 = {
+        [a21]: v17,
+        set c(a24) {
+            a24 in this;
+            v5 *= a21;
+            const v26 = super[a20];
+            function F27(a29, a30, a31, a32) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = v5;
+                } catch(e33) {
+                }
+            }
+            new F27(a22, v26, v5, v16);
+            new F27(a20, v6, a20, v26);
+            new F27(v5, v6, F0, v26);
+        },
+    };
+    return o37;
+}
+f19(v15, v6, v16);
+f19(v15, v6, v17);
+f19(v17, v6, v5);
+const v41 = [290511.96857215906,0.3003673637544756,-458526.71260649094,0.8333335605081266,16682.170944584184,0.12597720350931985];
+function f44() {
+    return v15;
+}
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v49 = a47.constructor;
+    try { new v49(a47); } catch (e) {}
+    -a47;
+    a48--;
+}
+new F45(65537, f44);
+class C54 extends v13 {
+}
+new C54(v41);
+new C54();
+new C54();

@@ -1,0 +1,19 @@
+const v8 = new Array(-256);
+const v10 = new WeakSet();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = v8;
+    try {
+        this.h = a13;
+    } catch(e15) {
+    }
+}
+const v16 = new F11(-5.344723486454295e+307, 0.6047604793543656, v8, 512, v10);
+new F11(v16, -5.344723486454295e+307);
+new F11(WeakSet, -5.344723486454295e+307);
+const v19 = /foo(?!bar)baz/uisy;
+const v20 = [3480,1024,-4294967297,-1024,512,65536,29198,-9223372036854775807,-2147483647];
+try {
+    v20.length = v19;
+} catch(e21) {
+}

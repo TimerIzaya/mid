@@ -1,0 +1,40 @@
+Float32Array.name = Float32Array;
+const v4 = new Float32Array(1, undefined);
+const v7 = new Int32Array(6);
+Float64Array.BYTES_PER_ELEMENT = Float64Array;
+const v10 = new Float64Array(7);
+v10[6] = v10;
+class C11 {
+}
+C11.prototype;
+function F13() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v15 = this?.__defineSetter__;
+    try { new v15(v7, v7); } catch (e) {}
+}
+const v17 = new F13();
+v17.growable = v17;
+const v18 = [1000000000000.0,-5.812188629943505e+307,1000000.0,1.0488887852263631e+307,-5.438853528860363e+307,-3.0,-1000000000.0,0.8725021483801662,228.8087600620695,-Infinity];
+const v20 = 9007199254740991n * 9007199254740991n;
+v20 + v20;
+for (let v22 = 0; v22 < 5; v22++) {
+    function f23() {
+        for (let v24 = 0; v24 < 5; v24++) {
+            try { ("p").padStart(C11, C11); } catch (e) {}
+        }
+        try {
+            v18.forEach();
+        } catch(e28) {
+            e28.stack;
+            e28.a = v17;
+            e28.a = e28;
+        }
+        const t31 = "1073741824";
+        t31[3] = "1073741824";
+        const t33 = ("1073741824").POSITIVE_INFINITY;
+        t33(v20);
+        return "1073741824";
+    }
+    f23(v4);
+    %OptimizeFunctionOnNextCall(f23);
+}

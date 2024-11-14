@@ -1,0 +1,49 @@
+let v1 = 1073741824n;
+const v3 = v1++;
+try {
+    v3.c = v3;
+} catch(e4) {
+}
+class C5 {
+    static #e;
+    constructor(a7, a8) {
+        function f9(a10, a11) {
+            const v13 = [];
+            try { v13.flat(4096); } catch (e) {}
+            return this;
+        }
+        this[Symbol.toPrimitive] = f9;
+        try { this["deleteProperty"](a7); } catch (e) {}
+        a7 = 64n;
+        super.d;
+    }
+    1073741824 = 64n;
+    static #a;
+    f = 2397n;
+}
+C5[1073741825] = 64n;
+const v20 = new C5(2397n, 2397n);
+const v21 = new C5(64n, 64n);
+const v22 = new C5(v1, v1);
+function f23(a24, a25, a26, a27) {
+    const o33 = {
+        ...v22,
+        "h": a26,
+        ...v21,
+        "a": 64n,
+        set c(a29) {
+        },
+        "e": a25,
+    };
+    return o33;
+}
+f23(v20, 2397n, 2397n, C5, v1, v3, 2397n);
+f23(v20, 2397n, v1, v20);
+f23(v22, v1, 64n, v20);
+const v39 = new Float32Array(2);
+const v41 = new Int32Array(v39);
+const v42 = `
+    v21[v20] = v1 in C5;
+`;
+eval(v42);
+v41.fill();

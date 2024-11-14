@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 257;
+    } catch(e3) {
+    }
+    try {
+        this.h = 257;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+const v7 = new F0();
+const v10 = new Array(127);
+class C11 {
+    [F0] = v7;
+    static {
+        let v12 = this;
+        const v13 = super[v12];
+        %VerifyType(v12 = v13);
+        v13[Array] = v13;
+        let v14 = v5.__proto__;
+        v14 *= v14;
+    }
+    h = F0;
+    static #g = v5;
+    [127] = v10;
+    #b;
+}
+new C11();
+const v16 = new v10();
+const v17 = new C11();
+class C18 extends Array {
+    a = v16;
+    get b() {
+        let v19 = this;
+        const v20 = new v17(127);
+        g = v20;
+        const v25 = 4096 ^ 6;
+        -(v19++);
+        (6 << 6) >> v25;
+        return v20;
+    }
+}
+new C18();
+new C18();
+new C18();
+Date.UTC(C18);

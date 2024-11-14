@@ -1,0 +1,50 @@
+const v0 = [-2.220446049250313e-16,-8.914711677845511e+307,0.2902117272028686,1.0223588255891421e+308,2.2250738585072014e-308,1000000.0,-2.0,0.0,-1000000.0];
+const v1 = [1.4738155613531754e+308,0.0,0.8535500135003267,180.34088356816892,1.0,-9.557891037676638,-9.469857346153808e+304,947.9382279571241,2.2250738585072014e-308];
+const v2 = [285008.1955304642,1000000.0,1.0,5.0,0.11437378719472158,104.37102310529917,1000000000.0,166496.32042042306];
+function f3(a4, a5) {
+    const o15 = {
+        __proto__: a5,
+        get b() {
+            let v6 = this;
+            const v7 = v6.__proto__;
+            try {
+                v2.includes(v6);
+            } catch(e9) {
+            }
+            v2[a4] -= v7;
+            super.e = a5;
+            let v14 = -v7;
+            [,v14,v6,v14] = a5;
+            return v2;
+        },
+        "d": v2,
+        ...v1,
+        ...a5,
+        5: a5,
+        [a5]: a5,
+    };
+    return o15;
+}
+f3(v2, v0);
+let v17 = f3(v1, v1);
+f3(v1, v0);
+const v21 = new Uint32Array(1676);
+const v24 = v2 * v21;
+f3(v1, v24);
+%PrepareFunctionForOptimization(f3);
+f3(v1, v24);
+f3(v1, v24);
+%OptimizeFunctionOnNextCall(f3);
+const v28 = f3(v1, v24);
+const v29 = new Int32Array(147);
+v1[0];
+v17 = v28;
+const v33 = v29.__proto__;
+new Uint32Array(v33, v33, 147);
+const o37 = {
+    "maxByteLength": 4096,
+};
+const v39 = new ArrayBuffer(4096, o37);
+new Int8Array(v39);
+new Float64Array(7);
+("async").lastIndexOf();

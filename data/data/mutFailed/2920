@@ -1,0 +1,107 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function f2(a3) {
+    new Int8Array(520);
+}
+Object.defineProperty(v0, "toJSON", { writable: true, configurable: true, enumerable: true, get: f1, set: f2 });
+const v10 = [9007199254740990,-6,-6,v0];
+function f11() {
+    function f12() {
+        try {
+            const t12 = 9007199254740990;
+            t12.a = v0;
+        } catch(e13) {
+        }
+        return v0;
+    }
+    return f12;
+}
+let v14 = Symbol;
+Object.defineProperty(v10, v14.toPrimitive, { configurable: true, enumerable: true, get: f11 });
+const v16 = [v0,128];
+function f17() {
+    function f18() {
+        const v19 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+        for (let v20 = 0; v20 < 5; v20++) {
+            function f21() {
+                try {
+                    v19.forEach();
+                } catch(e23) {
+                    e23.a = e23;
+                }
+                const v25 = Symbol.toPrimitive;
+                v25.description;
+                Symbol.for();
+                return v25;
+            }
+            f21();
+            %OptimizeFunctionOnNextCall(f21);
+        }
+        return v0;
+    }
+    return f18;
+}
+function f29(a30) {
+    ++v14;
+    Math.sqrt(128);
+    v14 ** 128;
+    ++v14;
+}
+Object.defineProperty(v16, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f17, set: f29 });
+function f39() {
+    let v40 = this;
+    v40 **= v40;
+    return v40;
+}
+v16[Symbol.toPrimitive] = f39;
+const v43 = [v16,v10];
+function f44(a45, a46) {
+    class C49 {
+        static e;
+        e;
+        static 3 = -5.161103313394506;
+        toString(a51) {
+            let v50 = this;
+            v50.e *= 0.8199829542463926;
+            v50 += v50;
+            for (let v52 = 0; v52 < 10; v52++) {
+                a51["p" + v52] = v52;
+            }
+            return 0.8199829542463926;
+        }
+    }
+    new C49();
+    return f39;
+}
+v43[Symbol.toPrimitive] = f44;
+function f58(a59, a60) {
+    var h = a59;
+    try {
+        v0.toString = a60;
+    } catch(e61) {
+    }
+    return v0;
+}
+v43.valueOf = f58;
+let v62;
+try { v62 = v43.groupToMap(-6); } catch (e) {}
+const v63 = [773734415,7,2,-806318913,128,1964974082,9007199254740991,29565,10];
+try { v63.with(v43, v63); } catch (e) {}
+[-2,65536,257,-7,-65535];
+[10,-807853540,-774634302,8];
+const v67 = [-392.0576825237305,0.3449869706009556,4.447039970507995e+307,-5.063798246562485e+307,-568.9796177589394,388231.4033702491,-3.5365646375454567,0.12172568971863451,-4.474791203319841e+307];
+const v68 = [9007199254740992,-13,1,206834672,5792,16,856414023,8,2147483648];
+function f69(a70, a71, a72) {
+    return f69;
+}
+["function",v68,v67];
+const o76 = {
+    "arguments": v16,
+    "type": "function",
+};
+o76.c = v62;
+o76.c = o76;
+const v77 = new Worker(f69, o76);
+try { v77.terminate(); } catch (e) {}

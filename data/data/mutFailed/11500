@@ -1,0 +1,44 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = f0;
+    function f3(a4) {
+        this.__proto__;
+    }
+    Object.defineProperty(this, "e", { configurable: true, enumerable: true, set: f3 });
+    try {
+        this.e = f0;
+    } catch(e6) {
+    }
+    try {
+        this.f = F1;
+    } catch(e7) {
+    }
+}
+new F1();
+new F1();
+const v10 = new F1();
+[8,1073741824,129,-15,-65535,-47192,24695,257,-1338364810,436961465];
+function F15(a17) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v18 = new F15(F15);
+const v19 = new F15();
+const v20 = v19.constructor;
+const v21 = new v20(v18, v20);
+function f22() {
+    function f23(a24) {
+        const v26 = v10?.constructor;
+        let v27;
+        try { v27 = new v26(0.29489550717955537, a24); } catch (e) {}
+        return v27;
+    }
+    return f23;
+}
+Object.defineProperty(v21, "toString", { configurable: true, get: f22 });
+([536870912,268435441,9007199254740992,57419,129,-2147483647]).indexOf(v20, v21);
+[1073741823,18019,-15,-39321,-38441,48198,-40244];
+[8,-27889,-2147483648,4294967297,2147483649,2147483648,6,62036,8,6];
+class C33 extends Uint16Array {
+}

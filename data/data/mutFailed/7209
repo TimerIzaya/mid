@@ -1,0 +1,99 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3() {
+        return F1;
+    }
+    function f4(a5) {
+        const o6 = {
+        };
+        try {
+            o6.b = this;
+        } catch(e7) {
+        }
+        try {
+            const o8 = {
+            };
+            o8.b = this;
+            o8.a = F1;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.b = this;
+            o10.a = F1;
+            o10.f = a5;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.b = this;
+            o12.a = F1;
+            o12.g = a5;
+        } catch(e13) {
+        }
+    }
+    Object.defineProperty(this, "h", { writable: true, configurable: true, get: f3, set: f4 });
+    try {
+        this.h = v0;
+    } catch(e14) {
+    }
+}
+const v15 = new F1();
+const v16 = new F1();
+const v17 = new F1();
+function F18(a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    function F21() {
+        if (!new.target) { throw 'must be called with new'; }
+        class C23 {
+        }
+        for (let i26 = 0, i27 = 10;
+            i26++, i26 < i27;
+            (() => {
+                const v32 = [601759695];
+                const v33 = [1073741824,1073741823,1376142744,1073741825];
+                function f34(a35, a36, a37, a38) {
+                    a38 - a38;
+                    function f40() {
+                        return a35;
+                    }
+                    function f41(a42, a43) {
+                        return a42;
+                    }
+                    try { f41(); } catch (e) {}
+                    f41(v33, C23);
+                    try { v33["find"](..."find", a38, ...v32, ...v33); } catch (e) {}
+                    return C23;
+                }
+                for (let v48 = 0; v48 < 10; v48++) {
+                    f34(v48, f34, i26, v48);
+                }
+            })()) {
+        }
+    }
+    new F21();
+    new F21();
+    try {
+        this.a = v17;
+    } catch(e54) {
+    }
+    try {
+        this.f = v0;
+    } catch(e55) {
+    }
+    try {
+        this.d = v16;
+    } catch(e56) {
+    }
+}
+new F18(v17);
+new F18(F18);
+new F18(v15);
+new Uint32Array(254);
+new Float64Array(257);
+new Uint8Array(4096);
+const v71 = new Uint8ClampedArray(16);
+new Uint32Array(v71);

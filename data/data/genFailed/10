@@ -1,0 +1,50 @@
+class C3 {
+    toString(a5) {
+        super.e -= 8;
+        const o6 = {
+        };
+        try {
+            o6.b = this;
+        } catch(e7) {
+        }
+        try {
+            const o8 = {
+            };
+            o8.b = this;
+            o8.c = a5;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.b = this;
+            o10.c = a5;
+            o10.h = a5;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.b = this;
+            o12.c = a5;
+            o12.h = 4.5275280863253045;
+        } catch(e13) {
+        }
+        return 4.5275280863253045;
+    }
+}
+const v14 = new C3();
+new C3();
+new C3();
+function f20(a21, a22, a23) {
+    'use strict';
+    const v24 = v14.__proto__;
+    Object.defineProperty(a23, 7, { configurable: true, enumerable: true, value: 1.2995329580519183e+308 });
+    v14.__proto__;
+    return [C3,1.0,v24];
+}
+const v27 = f20(-1000.0, v14, -1000.0);
+const o28 = {
+    "apply": f20,
+};
+new Proxy(v27, o28);

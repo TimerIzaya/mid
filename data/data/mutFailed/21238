@@ -1,0 +1,37 @@
+function f0() {
+    const o6 = {
+        get g() {
+            %VerifyType(("boolean")["boolean"]);
+            return this;
+        },
+        "e": "QXT",
+        ..."QXT",
+        ["setFloat32"]: "setFloat32",
+        "b": "boolean",
+        "g": "QXT",
+        "c": "boolean",
+        ..."QXT",
+        __proto__: "boolean",
+    };
+    const v7 = new f0();
+    [[v7],f0];
+    ["QXT"];
+    function f11() {
+        return "QXT";
+    }
+    return o6;
+}
+f0();
+f0();
+const v14 = f0();
+new Date();
+for (let v24 = 0; v24 < 31; v24++) {
+    try {
+        v14.d = v24;
+    } catch(e25) {
+    }
+}
+const v29 = [9007199254740992,-12,-65536,21712,-1,-65536,-152029754,536,-4,1193126662];
+const o30 = {
+    [v29]: undefined,
+};

@@ -1,0 +1,32 @@
+Int16Array.prototype = Int16Array;
+const v6 = new Int16Array(6);
+let v7 = 256;
+const t3 = ("-65535")[Symbol.split];
+t3[v6] = v7;
+v7--;
+try { new Float32Array("-65535", "13126", v6); } catch (e) {}
+new Float32Array(v7);
+new Int32Array(512);
+function F21(a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v24 = this.constructor;
+    let v25;
+    try { v25 = new v24(); } catch (e) {}
+    for (let i28 = 256n, i29 = 10;
+        v25 < i29;
+        (() => {
+            switch (i28) {
+                case v7:
+                    const o35 = {
+                        "maxByteLength": 1073741824,
+                    };
+                    const v37 = new SharedArrayBuffer(227, o35);
+                    new Uint32Array(v37);
+                    break;
+            }
+        })()) {
+    }
+}
+F21.caller;
+new F21();
+new F21();

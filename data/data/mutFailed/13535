@@ -1,0 +1,28 @@
+class C3 {
+    constructor(a5, a6) {
+        function F7(a9, a10, a11) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = this;
+            } catch(e12) {
+            }
+        }
+        const v13 = new F7(-9223372036854775808, -9223372036854775808, 2);
+        function F15(a17, a18) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v19 = ("async").constructor;
+            v19.raw(v19);
+        }
+        new a6();
+        new a6(v13, 2, 2);
+        new F15(a5, this, "toString");
+    }
+}
+const v24 = new C3(2, "toString");
+new v24(C3, -9223372036854775808);
+new C3("toString", -9223372036854775808);
+new Int8Array(127);
+new Int8Array(1000);
+new Uint8Array(1000);
+const v37 = new Float64Array();
+delete v37[-1.5286188982640463e+308];

@@ -1,0 +1,64 @@
+function f3(a4, a5) {
+    a5 >>> a5;
+    const o17 = {
+        "a": 5,
+        1073741824: a4,
+        set h(a8) {
+            a8[-2] = -1;
+            super.g = 6418;
+            try {
+                const v11 = new BigUint64Array(4);
+                v11.reverse();
+                const v13 = /vSa\sha\bc*/gus;
+                this.fuck(v13, [v13,5,a8,a4,this], v13);
+            } catch(e16) {
+            }
+        },
+    };
+    o17[1073741824] = o17;
+    return o17;
+}
+const v18 = f3(-1, 5);
+f3(6418, -1);
+f3(5, 6418);
+for (let v24 = 0; v24 < 5; v24++) {
+    function f25() {
+        function f26(a27, a28, a29) {
+            return f26;
+        }
+        Worker.caller = Worker;
+        const o34 = {
+            get h() {
+                f26(this, this, "function");
+                return v24;
+            },
+            ...v18,
+            "type": "function",
+        };
+        Object.defineProperty("function", "f", { configurable: true, enumerable: true, get: f26 });
+        const v36 = Symbol.iterator;
+        const o45 = {
+            [v36]() {
+                let v38 = 10;
+                const o44 = {
+                    next() {
+                        v38--;
+                        const v42 = v38 == 0;
+                        const o43 = {
+                            "done": v42,
+                            "value": v38,
+                        };
+                        return o43;
+                    },
+                };
+                return o44;
+            },
+        };
+        const v46 = new Worker(f26, o34);
+        try { v46.terminateAndWait(); } catch (e) {}
+        return v46.terminate(f26, v46, v24);
+    }
+    f25.c = f25;
+    f25();
+    %OptimizeFunctionOnNextCall(f25);
+}

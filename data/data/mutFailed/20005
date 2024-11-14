@@ -1,0 +1,69 @@
+function f0() {
+}
+const v1 = /K[\p{Script_Extensions=Mongolian}&&\p{Number}][^123]+/gudimsy;
+const v2 = /abc(?:(?=a))a\1[-\xf0\x9f\x92\xa9]+/gm;
+const v3 = /\1(a)/vd;
+function f4(a5) {
+    const o6 = {
+    };
+    try {
+        o6.c = a5;
+    } catch(e7) {
+    }
+    try {
+        const o8 = {
+        };
+        o8.c = a5;
+        o8.g = a5;
+    } catch(e9) {
+    }
+    try {
+        const o10 = {
+        };
+        o10.c = a5;
+        o10.g = a5;
+        o10.b = a5;
+    } catch(e11) {
+    }
+    try {
+        const o12 = {
+        };
+        o12.c = a5;
+        o12.g = a5;
+        o12.e = a5;
+    } catch(e13) {
+    }
+    return v3;
+}
+v3.toString = f4;
+class C14 extends f0 {
+    #valueOf(a16, a17) {
+        try {
+            v1.toString = f0;
+        } catch(e18) {
+        }
+        return v2;
+    }
+    [v1] = v2;
+    static g;
+    [v3] = f0;
+}
+new C14();
+new C14();
+new C14();
+new Number();
+[601759695];
+const v25 = [1073741824,1073741823,1376142744,1073741825];
+function f26(a27, a28, a29, a30) {
+    function f31() {
+        +("Vre").constructor;
+    }
+    try { f31(); } catch (e) {}
+    f31();
+    try { v25["find"]("find"); } catch (e) {}
+}
+for (let v39 = 0; v39 < 10; v39++) {
+    f26();
+}
+%OptimizeFunctionOnNextCall(f26);
+f26();

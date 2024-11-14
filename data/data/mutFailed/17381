@@ -1,0 +1,67 @@
+function f2() {
+    for (let v3 = 0; v3 < 5; v3++) {
+        function f4() {
+            for (let v6 = 0; v6 < 5; v6++) {
+            }
+            eval(eval);
+            return f2;
+        }
+        f4().name;
+        %OptimizeFunctionOnNextCall(f4);
+    }
+    const v11 = eval(f2);
+    try { v11.bind("Nwo"); } catch (e) {}
+    return f2;
+}
+const v13 = f2();
+function F15(a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = "64";
+    const v18 = this?.__lookupSetter__;
+    try { new v18(v13); } catch (e) {}
+    const v20 = a17?.search;
+    try { new v20(a17); } catch (e) {}
+    try {
+        this.g = a17;
+    } catch(e22) {
+    }
+    try {
+        this.e = "64";
+    } catch(e23) {
+    }
+}
+F15.arguments = F15;
+new F15("Nwo");
+const v25 = new F15("64");
+v25.length = v25;
+const v26 = new F15(v25);
+v26.e;
+function f28() {
+    return "64";
+}
+new Uint8ClampedArray(12);
+const v34 = new BigUint64Array(2809);
+const v35 = v34[1041];
+const v38 = new Int32Array(9);
+try { v38.indexOf(f2); } catch (e) {}
+function f40() {
+    const o45 = {
+        [-1000000.0]: 0.0,
+        set e(a44) {
+        },
+    };
+    return f40;
+}
+f40.toString = f40;
+f40.length;
+f40();
+const v48 = f40();
+const v49 = /4VL[a-zA-Z0-9]/uimy;
+const v50 = /ufoo(?!bar)baz/ums;
+v50[-2] = v35;
+v50.sticky = v50;
+class C51 {
+    static [f40] = v48;
+}
+try { new C51(); } catch (e) {}
+v50[-2] &&= v49;

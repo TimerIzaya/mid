@@ -1,0 +1,72 @@
+function f0() {
+    const o18 = {
+        set c(a5) {
+            this.e = a5;
+            Object.defineProperty(a5, 5, { writable: true, configurable: true, enumerable: true, value: a5 });
+            const v6 = super.e;
+            super[5.0] = v6;
+            try { a5["toString"](v6, v6, a5, this, a5); } catch (e) {}
+        },
+        valueOf(a10) {
+            function F11(a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = a10;
+                } catch(e14) {
+                }
+            }
+            const v15 = new F11(1000);
+            new F11(1000);
+            new f0(v15);
+            return 1000;
+        },
+    };
+    const v19 = o18?.f;
+    try { new v19(v19); } catch (e) {}
+    return o18;
+}
+const v21 = f0();
+const v22 = f0();
+const v23 = f0();
+Object.defineProperty(v23, 5, { writable: true, enumerable: true, value: v21 });
+function f27(a28, a29, a30, a31) {
+    function f32(a33, a34) {
+        function F35() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.a = 47398;
+        }
+        const v38 = new F35();
+        f0(v38);
+        return v23;
+    }
+    a30.toString = f32;
+    a30.c = a30;
+    const o48 = {
+        "e": a31,
+        [10000n]: 10000n,
+        p(a41, a42, a43) {
+            class C44 {
+                h = a43;
+            }
+            new C44();
+            new C44();
+            new C44();
+            return a29;
+        },
+        ...a30,
+        "c": a31,
+    };
+    return o48;
+}
+f27(f27(v21, 10000n, v23, v22)[10000], 4n, v23, v21);
+const v52 = f27(v21, 8n, v23, v21);
+v52[10000] = v52;
+let v56 = 792613083;
+v56--;
+class C60 {
+    static #p(a62) {
+        this.#p(-37032, 10000n, f0);
+    }
+}
+C60.c;
+-15931924 === -15931924;

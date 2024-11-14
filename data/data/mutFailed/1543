@@ -1,0 +1,43 @@
+class C3 {
+    valueOf(a5) {
+        ("c").__proto__;
+        ++a5;
+        const v9 = new Date();
+        Object.defineProperty(this, 1, { enumerable: true, set: Date });
+        return v9;
+    }
+    static c;
+    a = 1;
+    static 3;
+    static #a = -5.0;
+    [C3] = C3;
+    a = -5.0;
+    e = "c";
+    static 5 = -5.0;
+    static 2 = 1;
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    for (const v17 in this) {
+        try {
+            v11.h = a16;
+        } catch(e19) {
+        }
+    }
+    try {
+        this.b = a16;
+    } catch(e20) {
+    }
+    try {
+        this.d = v11;
+    } catch(e21) {
+    }
+}
+new F13(v11, v10);
+new F13(v10, v12);
+new F13(v12, v11);
+const v30 = new Uint16Array(1024);
+v30[7] = v30;

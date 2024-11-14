@@ -1,0 +1,21 @@
+new Int16Array(8);
+new BigInt64Array(9, 8);
+const v8 = new Math(129);
+function f9(a10, a11, a12) {
+    const o22 = {
+        __proto__: v8,
+        [a10]: a12,
+        set global(a14) {
+            const o17 = {
+                "maxByteLength": 55444,
+            };
+            const v19 = new SharedArrayBuffer(-9007199254740992, o17);
+            new Int32Array(v19);
+        },
+    };
+    return o22;
+}
+f9(8, 129, 8, 8, 8);
+f9(8, 129, 129);
+f9(129, 8, 129);
+Date.parse();

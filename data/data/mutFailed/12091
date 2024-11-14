@@ -1,0 +1,20 @@
+const v3 = [10000];
+const v4 = [-2,-2,-7,v3,-7];
+const v5 = [v4,v4,10000,v4,v3];
+try { v5.entries(); } catch (e) {}
+new BigUint64Array(1428);
+const v12 = new Float64Array(1095);
+try { v12.filter(Float64Array); } catch (e) {}
+try { new BigInt64Array(v12, BigInt64Array, -2); } catch (e) {}
+new BigInt64Array(Float64Array);
+for (let v18 = 0; v18 < 5; v18++) {
+    const o23 = {
+        set b(a20) {
+            v12.b;
+            this.b;
+        },
+    };
+    o23.b = o23;
+    o23.b = o23;
+    o23.b = o23;
+}

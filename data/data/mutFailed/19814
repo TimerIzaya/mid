@@ -1,0 +1,62 @@
+const v0 = [-2079959620,268435440,500434923,4294967297,-1126851865];
+const v1 = [9223372036854775807,-11,1073741825,-4,-4214,7,-9223372036854775808,1073741825,12277];
+const v2 = [-21891,268435440,536870912];
+function f3() {
+    class C5 {
+        536870887;
+    }
+    for (let v6 = 0; v6 < 10; v6++) {
+        new C5();
+    }
+    return C5;
+}
+Object.defineProperty(v2, "toString", { configurable: true, value: f3 });
+Float64Array[Symbol.toPrimitive] = f3;
+const v12 = new Float64Array(9);
+const v15 = new BigInt64Array(7);
+new Int16Array(3322);
+function f19(a20, a21, a22, a23) {
+    function f24() {
+        return Symbol;
+    }
+    Object.defineProperty(a22, "toString", { writable: true, configurable: true, enumerable: true, get: f24 });
+    const o38 = {
+        "h": Int16Array,
+        ...v1,
+        [a20]: Float64Array,
+        ...a21,
+        set a(a26) {
+            class C27 extends a22 {
+                [v15];
+            }
+            new C27();
+            new C27();
+            new C27();
+            Math.hypot(Float64Array);
+            Math.log1p(Float64Array);
+            ~v0;
+            -Float64Array;
+        },
+    };
+    return o38;
+}
+f19(Float64Array, f19, v1, 9);
+f19(v2, v0, v2, 7);
+f19(v12, v1, v2, 3322);
+function f42() {
+    function F43(a45) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v46 = this.constructor;
+        try { new v46(); } catch (e) {}
+    }
+    class C48 extends F43 {
+        #p(a50, a51) {
+        }
+    }
+    try { new C48(); } catch (e) {}
+    return f42;
+}
+%PrepareFunctionForOptimization(f42);
+f42();
+%OptimizeFunctionOnNextCall(f42);
+f42();

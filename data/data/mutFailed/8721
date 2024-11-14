@@ -1,0 +1,104 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        get h() {
+            %VerifyType(this);
+            this << f0;
+            return f0;
+        },
+        "h": f0,
+        __proto__: f0,
+        "d": f0,
+        "f": f0,
+        ...f0,
+    };
+    return o4;
+}
+const v5 = f1();
+let v6 = f1();
+v6 = v5;
+v6[1013234354] >>= v6;
+%VerifyType(f0);
+Object.defineProperty(v5, "f", { configurable: true, enumerable: true, get: f0, set: f1 });
+f1 / v5;
+const v8 = f1();
+function f12(a13, a14) {
+    const o21 = {
+        "h": a14,
+        2: a13,
+        "b": "543905523",
+        __proto__: a14,
+        get c() {
+            const o19 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o19);
+            return "minor";
+        },
+    };
+    return o21;
+}
+f12(v6, "n");
+f12(v8, "543905523");
+f12(v6, "n");
+function f25() {
+}
+class C29 {
+    valueOf(a31) {
+        try {
+            f25();
+            const v33 = a31;
+            new f25();
+            new Float32Array(16);
+            new BigInt64Array(4021);
+            new Float32Array(14);
+        } catch(e44) {
+        }
+        return this;
+    }
+    static {
+        let v45 = this;
+        try { v45.call(-65535); } catch (e) {}
+        v45[2769597849] = v45;
+        v45 &= v45;
+        C29[7] = v45;
+        super.h = -13676;
+        super.e ||= -65535;
+        const v47 = C29.__proto__;
+        try { v47.call(-13676); } catch (e) {}
+        try {
+            v45.length = 1;
+        } catch(e50) {
+        }
+    }
+}
+new C29();
+const v52 = new C29();
+const v53 = v52?.constructor;
+f12(f1, v8);
+const v55 = f25();
+try {
+    v8.h = v55;
+} catch(e56) {
+}
+try { new v53(); } catch (e) {}
+new C29();
+[1918646213,-4294967296,621719820,-1266287062,-16,9007199254740990,-1073741824,-2147483648,5,1024];
+[871134084,-36561,5,-1,4294967296];
+[5446,9,-9,6529];
+[-3.8605023531436338,1000000.0,0.7554357075872085,-5.355373064713385,-1000000000.0,-4.0,5.866877237178829e+307,2.2250738585072014e-308];
+[Infinity,1000000000.0,NaN,2.220446049250313e-16,9.482037153001748,-1000.0];
+[1.0845227255478667e+308,5.0,-567668.3225691885,1.0,580930.443597048,4.8679168603622855,2.220446049250313e-16,Infinity];
+new Set();
+function F67(a69, a70, a71, a72) {
+    if (!new.target) { throw 'must be called with new'; }
+    eval();
+    function F75(a77) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+}
+const o79 = {
+};
+gc(o79);

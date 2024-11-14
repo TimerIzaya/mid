@@ -1,0 +1,56 @@
+class C1 {
+    static b = null;
+    [null];
+    constructor() {
+        try {
+            this.b = this;
+        } catch(e3) {
+        }
+    }
+    static 1073741825 = null;
+    static #e;
+}
+new C1();
+const v5 = new C1();
+const v6 = new C1();
+function f7(a8) {
+    function f9() {
+        return Math.fround(Math);
+    }
+    %OptimizeFunctionOnNextCall(f9);
+    return a8;
+}
+v6[Symbol.iterator] = f7;
+v6.b = v6;
+v6.null = v6;
+const v15 = new WeakSet();
+127 * 127;
+let v19;
+try { v19 = Int32Array.from(v5); } catch (e) {}
+let v20;
+try { v20 = new Int32Array(v15, v5, 127); } catch (e) {}
+for (let v22 = 0; v22 < 10; v22++) {
+    const v23 = (759956410).__defineGetter__;
+    try { new v23(v20, C1); } catch (e) {}
+    try { v23.call(v22); } catch (e) {}
+}
+new Int32Array(127);
+const v28 = 39 << 39;
+v28 >> v28;
+BigInt64Array.valueOf = f7;
+const v31 = new BigInt64Array(39);
+const v32 = v31?.constructor;
+let v33;
+try { v33 = new v32(v6, C1, v31); } catch (e) {}
+function f34(a35) {
+    function f36(a37, a38, a39, a40) {
+        return a38;
+    }
+    return v19;
+}
+v33.toString = f34;
+try { v33.copyWithin(v33, BigInt64Array); } catch (e) {}
+try { new Uint32Array(v28, v33, v33); } catch (e) {}
+const v45 = new Uint32Array(3);
+try { v45.join(v5); } catch (e) {}
+gc();

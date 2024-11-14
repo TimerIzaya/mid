@@ -1,0 +1,18 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = 1;
+        t3.d = 1;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new v4();
+const v6 = new F0();
+function f7() {
+    return v6;
+}
+const t14 = false;
+const v20 = new t14(1024);
+new Int8Array(628786973);
+F0 %= v20;

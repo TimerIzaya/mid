@@ -1,0 +1,62 @@
+class C3 {
+    static #d = C3;
+    valueOf(a5, a6) {
+    }
+    valueOf(a8, a9, a10) {
+    }
+    constructor(a12) {
+        const v14 = new Uint16Array();
+        function f15() {
+            class C16 {
+            }
+            const v17 = new C16();
+            [v17];
+            try { a12.map(v14); } catch (e) {}
+            return C16;
+        }
+        %PrepareFunctionForOptimization(C3);
+        f15();
+        %OptimizeFunctionOnNextCall(f15);
+    }
+    /*
+    constructor(a22, a23) {
+        this.h >>>= 9;
+        class C24 {
+        }
+        const v25 = new C24();
+        try {
+            v25.#e = this;
+        } catch(e26) {
+        }
+        super[a22] = ~a23;
+    }
+    */
+    static #c;
+    [-5.0] = 1.7976931348623157e+308;
+    static b = C3;
+    251 = C3;
+    [9] = 1.7976931348623157e+308;
+}
+const v28 = new C3(9, 9);
+const v29 = new C3(-5.0, v28, -5.0, 1.7976931348623157e+308);
+new C3(9, C3);
+new SyntaxError(5);
+new Int32Array(4096);
+new Int16Array(-14);
+function f40() {
+    return f40;
+}
+function F41(a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+"p" + 5;
+function F47(a49, a50, a51) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v52 = this.constructor;
+    try { new v52(); } catch (e) {}
+}
+new F47(F47, F47, F47);
+const v55 = new F41();
+v55.constructor = f40;
+new F41(F41, F41);
+Object.defineProperty(v29, "constructor", { writable: true, value: f40 });

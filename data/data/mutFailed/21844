@@ -1,0 +1,25 @@
+function f0() {
+    const o12 = {
+        __proto__: "b",
+        set h(a5) {
+            function f6(a7) {
+                const o8 = {
+                    ...486,
+                    __proto__: a5,
+                };
+                return o8;
+            }
+            f6(f6(this));
+            f6(a5);
+        },
+    };
+    return o12;
+}
+f0();
+const v14 = f0();
+f0();
+const v18 = new Uint8ClampedArray(4);
+new BigInt64Array(2);
+new Int8Array(v18);
+const v27 = new v14(243);
+try { (4).from(v27); } catch (e) {}

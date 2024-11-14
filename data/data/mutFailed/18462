@@ -1,0 +1,44 @@
+let v1 = BigUint64Array;
+const v2 = new v1(8);
+v1 >>= v1;
+try { v2.indexOf(8, v1); } catch (e) {}
+const o4 = {
+};
+new Proxy(v2, o4);
+new Uint8ClampedArray(6);
+new Uint8ClampedArray(2811);
+new Uint8Array(512);
+new BigUint64Array(512);
+new Int32Array(41);
+let v22 = Boolean;
+const v25 = Symbol.toPrimitive;
+const o29 = {
+    [v25]() {
+        try {
+            super.unregister(41, Uint8ClampedArray, 512);
+        } catch(e28) {
+        }
+        return 2811;
+    },
+};
+v22[Symbol.toPrimitive] = v22;
+v22--;
+function f32() {
+    const v33 = v22--;
+    class C34 {
+        6 = v1;
+        e;
+        [C34];
+        #a = 41;
+        static e;
+    }
+    class C35 extends C34 {
+    }
+    const v36 = new C35();
+    v36.m = v33;
+    return v33;
+}
+%PrepareFunctionForOptimization(f32);
+f32();
+%OptimizeFunctionOnNextCall(f32);
+f32();

@@ -1,0 +1,19 @@
+function f0() {
+}
+function F3() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v5 = f0?.constructor;
+    try { new v5(); } catch (e) {}
+}
+const v7 = [1.9600488149280893e+306,468.9269702772963];
+const v9 = ([Infinity,-686.9856326146617,0.47369378110968274,-7.24289104755818]).includes(...v7);
+const v11 = [f0,v9];
+const v13 = [v11,["-2",v11,f0,"b"],"-2","b"];
+const v16 = new Float64Array(v13);
+new Date(v13, Date, Date, v16);
+new v9(3);
+class C23 {
+}
+new C23(3168);
+const v27 = new Int16Array(512);
+v27["includes"](f0);

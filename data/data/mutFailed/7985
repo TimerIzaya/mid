@@ -1,0 +1,88 @@
+class C3 {
+    892 = "number";
+    static {
+        const o5 = {
+        };
+        new Proxy(this, o5);
+    }
+    p(a9, a10) {
+        for (const v11 in "message") {
+            const v12 = "number" + a9;
+            this < v12 ? this : v12;
+        }
+        return this;
+    }
+}
+C3[5] = "1073741824";
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+class C18 extends C3 {
+    static get c() {
+        super.a = this;
+        super.c = this;
+        return this;
+    }
+    constructor(a21, a22, a23) {
+        super();
+        a21[5] = a23;
+        try {
+            new C3();
+        } catch(e25) {
+        }
+        try {
+        const t0 = "1073741824";
+        t0(a22, v16, a22);
+        } catch (e) {}
+    }
+}
+const v27 = new C18("message", v15, v17);
+new C18("number", v16, v27);
+new C18("number", v16, v15);
+new Int8Array(2095);
+new BigUint64Array(129);
+new Int32Array(58);
+function f39() {
+}
+const v40 = [1073741824,1073741823,1376142744,1073741825];
+function f41(a42, a43, a44, a45) {
+    function f46() {
+    }
+    a44();
+    const v49 = new Int8Array();
+    function f50(a51, a52) {
+        const o56 = {
+            p(a54, a55) {
+                return a54;
+            },
+        };
+    }
+    f50();
+    f50();
+    v49.buffer;
+    let v60 = 1000000000000.0;
+    v60--;
+    function F64(a66, a67, a68, a69) {
+        if (!new.target) { throw 'must be called with new'; }
+        a69.c = a66;
+    }
+    const v70 = new F64(-2.0);
+    const v71 = new F64(-1.093925554716035e+308);
+    v71 in v70;
+    const t70 = [];
+    t70.length += 1.0;
+    %OptimizeFunctionOnNextCall(f46);
+    class C77 extends Date {
+        static 2544510523 = 1.0;
+        1855;
+    }
+    try { v40["find"](); } catch (e) {}
+    for (const v80 in "1024") {
+    }
+}
+for (let v81 = 0; v81 < 10; v81++) {
+    const t83 = "number";
+    t83();
+}
+%OptimizeFunctionOnNextCall(f41);
+f41(f41, f41, v40, f39);

@@ -1,0 +1,78 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this[7] = F0;
+    try {
+        this.b = 257;
+    } catch(e3) {
+    }
+    try {
+        this.h = 257;
+    } catch(e4) {
+    }
+    try {
+        this.f = 257;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+v7[7] = v7;
+const v8 = new F0();
+function f9() {
+    try {
+        new F0();
+    } catch(e11) {
+    }
+    return v8;
+}
+v8.constructor = f9;
+let v12;
+try { v12 = v8.constructor(); } catch (e) {}
+v7[7] = v12;
+v6.f ^= v12;
+v7.__proto__;
+WeakSet.toString = f9;
+new WeakSet();
+[1084206482,1000,536870889,-9223372036854775807,-65535,16,-4096];
+const v20 = [-2147483649];
+try { v20.reduceRight(5n); } catch (e) {}
+2031010623 & WeakSet;
+Math.cos(-1024);
+-1024 | WeakSet;
+[1000,-7768,-256,-12585,65536,512];
+function f29() {
+    return 5n;
+}
+function f30() {
+    return -1891041836n;
+}
+const o35 = {
+    "maxByteLength": 2119,
+};
+const v37 = new SharedArrayBuffer(255, o35);
+const v39 = new Uint8ClampedArray(v37);
+function f40(a41) {
+    for (let v43 = 0; v43 < 25; v43++) {
+        const t55 = "M";
+        t55["p" + v43] = v43;
+    }
+    return a41;
+}
+v39[Symbol.toPrimitive] = f40;
+v39[185] = v39;
+-13 * -13;
+const v50 = [];
+function f51() {
+    return v50;
+}
+f51.e = WeakSet;
+f51.e = f51;
+class C52 extends f51 {
+}
+C52.caller;
+const v54 = new C52();
+try { v54.every(v54); } catch (e) {}
+const v56 = f51();
+v56[2591] = WeakSet;
+v56[2591] <<= 65535;
+v54.length = 10;

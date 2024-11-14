@@ -1,0 +1,27 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        [f0]: f0,
+        "h": f0,
+        "d": f0,
+        set a(a3) {
+            a3[f1] &&= a3;
+            try {
+                a3.__proto__ = a3;
+            } catch(e4) {
+            }
+        },
+    };
+    return o5;
+}
+const v6 = f1();
+const v7 = f1();
+const v8 = [23795,8,259058917,-256,1,-36806,4096,-9,-1,-18943];
+new v6(-2, v8, v8, v8, -2);
+v7();
+const t21 = 7;
+new t21(7);
+new Int8Array(3);
+new Uint8ClampedArray(129);
+9007199254740990 | -9007199254740990;

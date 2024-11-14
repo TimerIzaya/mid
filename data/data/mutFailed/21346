@@ -1,0 +1,94 @@
+let v0 = WeakMap;
+const v1 = new v0();
+function f2(a3) {
+    const o20 = {
+        [v1]: v0,
+        n(a5, a6) {
+            const v7 = a6 != a3;
+            if (v7) {
+                function F8(a10, a11, a12, a13) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    try {
+                        this.e = a5;
+                    } catch(e14) {
+                    }
+                    try {
+                        this.b = a13;
+                    } catch(e15) {
+                    }
+                    try {
+                        this.f = a11;
+                    } catch(e16) {
+                    }
+                }
+                const v17 = new F8(v7, this, v0, v0);
+                new F8(v17, v17, F8, F8);
+                new F8(this, a6, v1, a3);
+            } else {
+                v0 %= a6;
+                v1[v1] = a3;
+            }
+            return a5;
+        },
+    };
+    const v21 = o20?.__defineGetter__;
+    try { new v21(o20, o20); } catch (e) {}
+    return o20;
+}
+try { f2(v1); } catch (e) {}
+const v24 = f2(f2);
+const v25 = f2(v1);
+const v26 = f2(v24);
+class C27 {
+    static {
+        let v28 = this;
+        v28.length = v28;
+        try { Math.expm1(v25); } catch (e) {}
+        -1e-15 >>> -1e-15;
+        v26 + -1278601453;
+        v24 && v26;
+        ++v28;
+    }
+    static #valueOf(a38, a39) {
+        Object.defineProperty(a38, v25, { enumerable: true, value: a38 });
+        const v41 = a39["n"](a39);
+        const v42 = ("n")[7];
+        try { v42(v42, f2, v42, v25, v0); } catch (e) {}
+        try {
+            a38.valueOf = v42;
+        } catch(e44) {
+        }
+        return v41;
+    }
+}
+try { C27.apply(f2, v1); } catch (e) {}
+const v46 = new C27();
+const v47 = v46?.constructor;
+try { new v47(); } catch (e) {}
+const v49 = new C27();
+const v50 = new C27();
+function f54(a55, a56) {
+    a55 ^ a55;
+    const o66 = {
+        ...a56,
+        get d() {
+            a56["n"]("n", v49, a56, a55);
+            try {
+                super.isSafeInteger();
+            } catch(e62) {
+            }
+            return v46;
+        },
+        "g": 0n,
+    };
+    o66.d = o66;
+    return o66;
+}
+f54(0n, v24);
+f54(-734434311n, v50);
+f54(-734434311n, v24);
+const t86 = ("toString").constructor;
+const v72 = new t86();
+const v73 = v72?.padEnd;
+try { new v73(v50); } catch (e) {}
+v72.lastIndexOf();

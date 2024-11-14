@@ -1,0 +1,35 @@
+new Int8Array(6);
+const v5 = new Int8Array(Int8Array);
+const v8 = new Int8Array(129);
+new v5();
+function F11(a13) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F11();
+let [] = v8;
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a17;
+    } catch(e19) {
+    }
+    try {
+        this.h = a17;
+    } catch(e20) {
+    }
+    try {
+        this.c = v5;
+    } catch(e21) {
+    }
+}
+new F15(F11, 4);
+new F15(Int8Array, 4);
+new F15(Int8Array, 4);
+class C25 {
+    g;
+    constructor() {
+        const v27 = this.constructor;
+        try { new v27(); } catch (e) {}
+    }
+}
+new v8();

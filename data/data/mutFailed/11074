@@ -1,0 +1,70 @@
+const v0 = [4294967295,-11,1000,65536,2147483647];
+function f1() {
+    const v5 = ~25067;
+    14 * v0;
+    +v5;
+    return v5;
+}
+v0[Symbol.toPrimitive] = f1;
+const v10 = [0,64,-14,127,3,-1073741824,536870888,-11,8,-5];
+const v11 = [129,-174844873,10000,1,-9007199254740990,-9];
+function f12(a13, a14) {
+    const v16 = new Date();
+    const v18 = new Set();
+    v18.add(v16);
+    let [v20,,...v21] = v18;
+    return a13;
+}
+v11.toString = f12;
+function f22() {
+    return v0;
+}
+function f23(a24, a25) {
+    function f26() {
+        return f1;
+    }
+    function f27(a28) {
+        f22();
+    }
+    Object.defineProperty(a25, "toString", { configurable: true, get: f26, set: f27 });
+    const o38 = {
+        [a25]: a25,
+        valueOf(a31, a32, a33) {
+            const v35 = [];
+            Reflect.apply(v10.isConcatSpreadable, a24, v35);
+            return f22;
+        },
+        "h": a25,
+        "d": a25,
+        "c": f22,
+        "a": f22,
+    };
+    Object.defineProperty(o38, "toString", { value: f26 });
+    return o38;
+}
+const v39 = f23(v11, v11);
+v39.toString = Symbol;
+const v40 = f23(v10, v10);
+function f41(a42) {
+    this.onmessage = f22;
+    return f23;
+}
+v40.toString = f41;
+f23(v10, v0);
+function f45(a46, a47) {
+    a47[Symbol.toPrimitive] = f41;
+    const o61 = {
+        [a47]: v11,
+        [a46](a51, a52, a53) {
+            const v54 = super[v10];
+            a47 | 736443412;
+            -(-v54);
+            return v54;
+        },
+        "c": a46,
+    };
+    return o61;
+}
+f45(v39, v39);
+f45(f45(v40, v10), v39);
+URIError(4, 9);

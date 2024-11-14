@@ -1,0 +1,111 @@
+function f5() {
+    function F6() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v8 = new F6();
+    const v9 = new F6();
+    const v10 = new F6();
+    function f11(a12, a13) {
+        const o18 = {
+            "b": v10,
+            n(a15, a16) {
+                a12(v8, a13);
+                return F6;
+            },
+            "a": v9,
+        };
+        return o18;
+    }
+    async function f20(a21, a22) {
+        %PrepareFunctionForOptimization(f11);
+        f11(a22, f11());
+        %OptimizeFunctionOnNextCall(f11);
+        f11();
+        return f20;
+    }
+    f20(F6, 4294967296);
+    return v9;
+}
+Object.defineProperty(Int8Array, "toString", { writable: true, configurable: true, value: f5 });
+new Int8Array(9);
+new Float64Array(170);
+const v33 = new BigUint64Array(10);
+const v37 = [155533.8602852358,2.0];
+v33[2] instanceof BigUint64Array;
+v33[Int8Array] <<= 9;
+v37.length;
+[1.1687384136923047,1.6524015694090455,2.2250738585072014e-308,1000000.0,0.5549651734580718,2.628664215823541,-1.7976931348623157e+308,-1.4971047961244759e+308];
+[3.0,-358242.6523136038,1e-15,-5.483115687796431e+307,-1.6765168756937064e+308];
+const v43 = [1.0,1.0,-7.576218199084186,NaN,-2.220446049250313e-16,-1000000000000.0,154535.2978436218,6.310973898631027e+307];
+function F45() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v47 = this?.__defineSetter__;
+    for (let i50 = 0, i51 = 10; i50 < i51; i51--) {
+    }
+    const v58 = /Cs[\cz]*/vi;
+    for (let v59 = 0; v59 < 25; v59++) {
+        const v60 = [1073741824,1073741823,1376142744,1073741825];
+        function f61(a62, a63, a64, a65) {
+            for (let v67 = 0; v67 < 5; v67++) {
+                try {
+                    function f68() {
+                    }
+                } catch(e69) {
+                    arguments.callee;
+                    arguments.g;
+                    arguments.length;
+                    v60.__proto__ = v60;
+                }
+                const v73 = [-6.741855211610779,553.594505585577,1.0637276618206825e+308];
+                const o77 = {
+                    set c(a75) {
+                        class C76 {
+                            static [v73];
+                        }
+                    },
+                };
+            }
+            const v79 = new Int8Array();
+            try { v79.entries(); } catch (e) {}
+            const v81 = v79.buffer;
+            Math.log1p(-(46598 / v58));
+            return v81.slice();
+        }
+        for (let v88 = 0; v88 < 5; v88++) {
+            f61();
+        }
+        const o91 = {
+            __proto__: null,
+        };
+        try { o91.valueOf(v58, v60); } catch (e) {}
+    }
+    let v93;
+    try { v93 = new v47(v37, v47); } catch (e) {}
+    v43[v47];
+    let v97 = 9453;
+    170 + 4.0;
+    const v100 = -v97;
+    const v101 = 170 << v97;
+    --v97;
+    v101 >> 4.0;
+    -v100;
+    return -9007199254740992n;
+    /4H/gvisy.compile(/[m]/gvdimsy);
+    for (const v111 of Array(19793)) {
+        v37[658291203] = null;
+        v93--;
+    }
+}
+const v113 = new F45();
+function f114(a115, a116) {
+    for (let v117 = 0; v117 < 100; v117++) {
+        f5();
+    }
+    return 9;
+}
+v113.constructor = f114;
+const t106 = v113.constructor;
+const v120 = new t106();
+v120.constructor = f5;
+const t109 = v120.constructor;
+new t109();

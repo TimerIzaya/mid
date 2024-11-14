@@ -1,0 +1,19 @@
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = "number";
+        t3.g = a13;
+    } catch(e15) {
+    }
+    try {
+        const t8 = "number";
+        t8.h = a12;
+    } catch(e16) {
+    }
+}
+new F9("number", "getPrototypeOf", "number", 6);
+new F9(536870887, "-2", "getPrototypeOf", -1389485293);
+new F9("constructor", "getPrototypeOf", "number", 6);
+class C27 {
+    [C27];
+}

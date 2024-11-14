@@ -1,0 +1,65 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+const v3 = new WeakMap();
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v3;
+    } catch(e8) {
+    }
+    try {
+        this.h = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F4(WeakMap, F4);
+const v11 = new F4(v10, v10);
+new F4(v10, v11);
+new Float64Array(64);
+new Uint8Array(8);
+new Uint32Array(4096);
+function f22() {
+}
+const v23 = [1073741824,1073741823,1376142744,1073741825];
+function f24(a25, a26, a27, a28) {
+    function f29() {
+    }
+    f22();
+    new Int8Array();
+    function f33(a34, a35) {
+        const o39 = {
+            p(a37, a38) {
+                return a38;
+            },
+        };
+    }
+    f33();
+    f33();
+    a28.buffer;
+    let v43 = 1000000000000.0;
+    v43--;
+    function F47(a49, a50, a51, a52) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.c = a49;
+    }
+    const v53 = new F47(-2.0);
+    const v54 = new F47(-1.093925554716035e+308);
+    v54 in v53;
+    const t48 = [];
+    t48.length += 1.0;
+    %OptimizeFunctionOnNextCall(f29);
+    class C60 extends Date {
+        static 2544510523 = 1.0;
+        1855;
+    }
+    try { v23["find"](); } catch (e) {}
+    for (const v63 in "1024") {
+    }
+}
+for (let v64 = 0; v64 < 10; v64++) {
+    f24();
+}
+%OptimizeFunctionOnNextCall(f22);
+f24(f24, f24, v23, f22);

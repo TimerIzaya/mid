@@ -1,0 +1,62 @@
+const v2 = new Array(405);
+const v3 = [-4294967295,-9223372036854775808,16,9223372036854775807];
+const v4 = [6];
+const v5 = [65535,-10,-22806,1000];
+function f6(a7, a8, a9, a10) {
+    try { a8.copyWithin(a7, v3); } catch (e) {}
+    const v12 = a9?.filter;
+    try { new v12(405); } catch (e) {}
+    try { a10.entries(); } catch (e) {}
+    const o19 = {
+        "h": v4,
+        "e": v4,
+        __proto__: a10,
+        set a(a16) {
+            try {
+                a10.length = 405;
+            } catch(e17) {
+            }
+            a16[3] = 405;
+            delete a8[6];
+        },
+        "d": a7,
+        [v3]: a9,
+        "g": Array,
+    };
+    return o19;
+}
+const v20 = f6(v4, v3, v3, v5);
+try { v20.includes(Array); } catch (e) {}
+const v22 = f6(v2, v2, v5, v2);
+try { v22.includes(v3); } catch (e) {}
+const v24 = f6(v3, v4, v4, v2);
+v24.g = v24;
+class C25 extends v4 {
+    [405] = v5;
+    static [405];
+    static set a(a27) {
+        Object.defineProperty(v4, 7, { configurable: true, value: a27 });
+        %VerifyType(a27);
+    }
+    #d;
+    static #toString(a30, a31, a32, a33) {
+        for (let [v34,v35,v36] of v3) {
+            v2[v24] -= v36;
+        }
+        const v37 = this[2669];
+        try { a30.copyWithin(405, a33, v37); } catch (e) {}
+        const v39 = Array(v37);
+        %PrepareFunctionForOptimization(Array);
+        Array(v37);
+        Array(v37);
+        %OptimizeFunctionOnNextCall(Array);
+        Array(v37);
+        return v39;
+    }
+}
+C25.length = C25;
+new C25();
+new C25();
+const v45 = new C25();
+try { v45.pop(); } catch (e) {}
+try { Symbol.keyFor(v20); } catch (e) {}

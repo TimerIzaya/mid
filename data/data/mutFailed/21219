@@ -1,0 +1,63 @@
+const v3 = ["source"];
+v3[0] = v3;
+const v4 = [v3,"source",v3,"getYear"];
+const v5 = [v4,v4];
+const v6 = [v4];
+const v7 = [v3,v5,"getYear","undefined","source",v5,v4,v5];
+try { v7.group("getYear"); } catch (e) {}
+const v9 = [];
+try { v9.every(v6); } catch (e) {}
+const o11 = {
+    __proto__: v9,
+};
+try { o11.filter(v4); } catch (e) {}
+try { o11.findLast("source"); } catch (e) {}
+o11.length = o11;
+try { o11.push(v9, o11); } catch (e) {}
+function f15(a16, a17, a18, a19) {
+    try { a18.localeCompare(f15); } catch (e) {}
+    let v21;
+    try { v21 = a16.valueOf(); } catch (e) {}
+    try { v21.sup(); } catch (e) {}
+    try { a17.match(a17); } catch (e) {}
+    for (let v24 = 0; v24 < 32; v24++) {
+        v5["p" + v24] = v24;
+    }
+    return a16;
+}
+const v27 = f15("getYear", "undefined", "undefined", "undefined");
+try { v27.substr(v5, "undefined"); } catch (e) {}
+try { v27.strike(); } catch (e) {}
+const v30 = ["source","getYear","undefined"];
+const v31 = [1000,-2147483649,16,-1073741824];
+v31[3] = v31;
+const v32 = [1189181603,-9007199254740992];
+const v33 = [785462757,405935420,-5,268435439,-1341950434,536870888];
+v33[5];
+function f35() {
+    return v32;
+}
+f35.prototype;
+4294967295 >> 4294967295;
+!(4294967295 < 4294967295);
+64 >>> 64;
+class C44 {
+    [-1] = v30;
+    g = v7;
+    #h;
+    static h = v33;
+    #b;
+    static {
+        const v47 = 529940173 >> 529940173;
+        v47 & v47;
+        class C50 {
+        }
+        function f51(a52, a53, a54) {
+            const o55 = {
+                1073741824: C50,
+            };
+            return -26368;
+        }
+        f51.name = f51;
+    }
+}

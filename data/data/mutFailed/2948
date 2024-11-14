@@ -1,0 +1,98 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.length = 44310;
+    } catch(e3) {
+    }
+    try {
+        this.b = 44310;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C11 extends F0 {
+    static o(a13, a14, a15, a16) {
+        super.g = a15[2];
+        const o19 = {
+        };
+        try {
+            o19.ignoreCase = "d";
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.f = "d";
+            o21.h = b;
+        } catch(e22) {
+        }
+        try {
+            const o23 = {
+            };
+            o23.f = "d";
+            o23.b = b;
+            o23.g = b;
+        } catch(e24) {
+        }
+        try {
+            const o25 = {
+            };
+            o25.f = "d";
+            o25.b = b;
+            o25.g = this;
+        } catch(e26) {
+        }
+        return b;
+    }
+}
+const v27 = new C11();
+const v28 = new C11();
+const v29 = new C11();
+function F30(a32, a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v28;
+    } catch(e36) {
+    }
+}
+const v37 = new F30(v28, "undefined", v6, v27);
+const v38 = new F30(v5, "of", v5, v6, v29);
+new F30(v28, "d", v28, v7);
+function F43(a45, a46) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f47(a48) {
+        const v49 = a45 <= a45;
+        v49 >> v49;
+        return v38;
+    }
+    this[Symbol.toPrimitive] = f47;
+    this.h = -1.0458776802029855e+308;
+    this.e = a45;
+}
+const v53 = new F43(1e-15, v37);
+const v54 = new F43(-559.2515874252856);
+const v55 = new F43(-559.2515874252856);
+function f56() {
+    const v57 = [];
+    function f58() {
+        const o62 = {
+            toString() {
+                super[this];
+            },
+            ...v57,
+            n() {
+                return this;
+            },
+        };
+        try { o62.n(); } catch (e) {}
+        return v57;
+    }
+    %OptimizeFunctionOnNextCall(f58);
+    return v37;
+}
+v55.toString = f56;
+const v64 = [v54,-559.2515874252856,v55,v55];
+([v64,v64,v64])[v64];
+v53.__proto__ = v54;

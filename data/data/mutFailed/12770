@@ -1,0 +1,61 @@
+class C3 {
+    constructor(a5) {
+        const t2 = "valueOf";
+        t2[a5] = a5;
+        const v6 = ("valueOf")[7];
+        try { v6.toISOString(this); } catch (e) {}
+        const v9 = Symbol.iterator;
+        const o18 = {
+            [v9]() {
+                let v11 = 10;
+                const o17 = {
+                    next() {
+                        v11--;
+                        const v15 = v11 == 0;
+                        const o16 = {
+                            "done": v15,
+                            "value": v11,
+                        };
+                        return o16;
+                    },
+                };
+                return o17;
+            },
+        };
+        Reflect.construct(a5, [16], a5);
+    }
+    [-261.676603086161];
+    static c;
+    #a = "valueOf";
+    e = -261.676603086161;
+    static #c = -261.676603086161;
+    static [16];
+}
+const v25 = new C3(-261.676603086161);
+const v26 = new C3(v25);
+const v27 = new C3(16);
+function f28() {
+    return v25;
+}
+let v31 = 2019611454;
+class C32 extends f28 {
+    constructor(a34, a35, a36) {
+        super();
+    }
+    static set b(a41) {
+        %VerifyType(a41);
+        Math.log(-2147483647);
+        Math.asin(f28);
+        a41 & -2147483647;
+    }
+    static {
+        v31 = -9007199254740990;
+    }
+    d;
+    h = C3;
+}
+const v49 = new C32(28353, "valueOf", v25);
+new C32(16, v49, v27);
+new C32(28353, v26, v27);
+const v53 = new Int32Array();
+let {...v54} = v53;

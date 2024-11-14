@@ -1,0 +1,30 @@
+new Uint8ClampedArray(8);
+const v5 = new BigInt64Array(221);
+new Int16Array(8);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a12;
+    } catch(e13) {
+    }
+    try {
+        F9.d = v5;
+    } catch(e14) {
+    }
+}
+const v15 = new F9(8, 8);
+const v16 = new F9(v15, 16);
+new F9(v16, 221);
+function f21() {
+    const v23 = -4294967297n ^ -4294967297n;
+    const o30 = {
+        [-4294967297n](a25, a26, a27, a28) {
+            super[v23];
+        },
+    };
+    return o30;
+}
+%PrepareFunctionForOptimization(f21);
+v15();
+%OptimizeFunctionOnNextCall(f21);
+f21();

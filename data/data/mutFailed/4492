@@ -1,0 +1,34 @@
+/abc/guisy;
+/u7*/gvdims;
+/[\u{12345}]/dimy;
+[4096,9007199254740992];
+[-65535,-128,16,8,5801,-194613586,-1690018120];
+[8,268435439];
+/W1r/gdimsy;
+/(?<!a)/vi;
+/ab|c/us;
+function f15() {
+    let v16 = 1000000000000.0;
+    v16--;
+    class C19 {
+    }
+    new C19();
+    const v21 = new C19();
+    [v21,C19];
+    [257828.6336153492,v21];
+    const v24 = [v21];
+    v24.constructor = f15;
+    class C25 extends C19 {
+    }
+    function f26(a27, a28) {
+        return a27;
+    }
+    Set[Symbol.toPrimitive] = f15;
+    Set.toString = f26;
+    Set.constructor(Set);
+    v24.constructor;
+}
+%PrepareFunctionForOptimization(f15);
+f15();
+%OptimizeFunctionOnNextCall(f15);
+f15();

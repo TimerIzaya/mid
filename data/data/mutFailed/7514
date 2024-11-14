@@ -1,0 +1,34 @@
+function f0() {
+    const o22 = {
+        __proto__: 262142987,
+        o(a5) {
+            super[a5] = 262142987;
+            262142987 !== a5;
+            super.b;
+            return a5;
+        },
+        set e(a9) {
+            let v10;
+            try { v10 = this.o(262142987, this, a9, a9); } catch (e) {}
+            try { a9["n"](); } catch (e) {}
+            function F13(a15, a16, a17) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.a = v10;
+                } catch(e18) {
+                }
+            }
+            const v19 = new F13(F13, this, "n");
+            const v20 = new F13(262142987, v19, 6);
+            new F13(v20, F13, v20);
+        },
+    };
+    return o22;
+}
+const t27 = f0();
+t27();
+f0();
+new Map();
+for (let v34 = 0; v34 < 5; v34++) {
+    %OptimizeFunctionOnNextCall(v34);
+}

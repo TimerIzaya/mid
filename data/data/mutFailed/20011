@@ -1,0 +1,125 @@
+let v0 = 2.0;
+let v1 = 2.2250738585072014e-308;
+class C3 {
+    static toString(a5, a6) {
+        const v7 = a5 || v0;
+        this << v7;
+        try {
+            super.lastIndexOf(v1, v7, this, this);
+        } catch(e10) {
+        }
+        return v0;
+    }
+    static d = -799922.1918294718;
+    static #c;
+    #h;
+    #f = v1;
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+function f14(a15, a16) {
+    const o24 = {
+        [C3]: a16,
+        __proto__: v13,
+        "d": C3,
+        0: a16,
+        "b": a16,
+        [-2]: -799922.1918294718,
+        [v12](a18, a19, a20) {
+            +a16;
+            a18.g;
+            super[this];
+            return C3;
+        },
+        "f": v1,
+    };
+    return o24;
+}
+const v25 = f14(v1, v0);
+const v27 = f14(f14(v1, v0), v0);
+class C28 extends f14 {
+    static g = v11;
+    static get f() {
+        super[v11] = v1++;
+        return this;
+    }
+    m(a32, a33, a34) {
+        const v38 = v0 >>> -1.3137706765950117e+308;
+        let v39 = v0++;
+        Math.sin(v38);
+        const v41 = v39++;
+        v38 & -1.3137706765950117e+308;
+        return ~v41;
+    }
+}
+const v44 = new C28();
+new C28();
+const v46 = new C28();
+const v48 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v49 = [601759695];
+if (v12 == v44) {
+    v11 == v49;
+} else {
+    function F52(a54, a55, a56, a57) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.a = C28;
+        } catch(e58) {
+        }
+    }
+    const v59 = new F52(v27, v46, C3, v46);
+    const v60 = new F52(v13, v46, v59, v46);
+    new F52(v27, v44, v60, v25);
+}
+function f63(a64, a65, a66, a67) {
+    function f68() {
+        [-2.220446049250313e-16,0.9798105418016166,-4.830267035271884,-435.7279193107944,864333.2303131514,-3.553417885466287e+306,-1000000000000.0,-1000000000.0,990180.6241720289,-1000000.0];
+        const o76 = {
+            toString(a74, a75) {
+                return this;
+            },
+        };
+        const o98 = {
+            "c": -4294967297n,
+            [522675525n](a79, a80) {
+            },
+            "c": v49,
+            valueOf(a82, a83) {
+                return a65;
+            },
+            "b": -4294967295,
+            [-4294967297n](a85, a86, a87, a88) {
+            },
+            "e": -4294967295,
+            "e": -268435456,
+            "maxByteLength": -4294967295,
+            "arguments": v48,
+            ...v49,
+            "type": "Vre",
+            ..."Vre",
+            valueOf(a90, a91) {
+                return a64;
+            },
+            "type": "byteOffset",
+            o(a93) {
+                return this;
+            },
+            ..."Vre",
+            "c": -268435456,
+            "type": "Vre",
+            toString(a95, a96, a97) {
+                return f63;
+            },
+        };
+        return -4294967297n;
+    }
+    f68();
+    f68();
+    return 522675525n;
+}
+for (let v101 = 0; v101 < 10; v101++) {
+    f63(522675525n, v49, 522675525n, v101);
+}
+%OptimizeFunctionOnNextCall(f63);
+f63();

@@ -1,0 +1,96 @@
+function f0() {
+}
+function f4() {
+    const v6 = Symbol.iterator;
+    const o15 = {
+        [v6]() {
+            let v8 = 10;
+            const o14 = {
+                next() {
+                    v8--;
+                    const v12 = v8 == 0;
+                    const o13 = {
+                        "done": v12,
+                        "value": v8,
+                    };
+                    return o13;
+                },
+            };
+            return o14;
+        },
+    };
+    return 3.0;
+}
+-495601.0338943098 >> -495601.0338943098;
+function f20() {
+    return 1000000000.0;
+}
+const v21 = f20?.constructor;
+let v22;
+try { v22 = new v21(-684.3409783548323); } catch (e) {}
+let v23;
+try { v23 = new v21(f20); } catch (e) {}
+const v24 = [3.0,38.079991712538686,-2.2250738585072014e-308,-896.2071270475016,5.0,-1000.0,-532.7284707571846,2.220446049250313e-16,935511.2594957147];
+try { v24.findLastIndex(4.0); } catch (e) {}
+const v26 = [-1000000000.0,1e-15,-5.0,1000.0,2.2250738585072014e-308,-4.320265161442229,2.220446049250313e-16];
+try { v26.slice(v24, v24); } catch (e) {}
+let v28 = [-4.0,-2.2250738585072014e-308,2.2580720057278203,-7.913474138990316e+306,0.43973359399963785,413884.5166979735,-146775.74637385237,-1000000000000.0,258.7195112030663,484.2760261961712];
+try { v28.fill(-495601.0338943098); } catch (e) {}
+function F30(a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+F30.b = F30;
+const v34 = new F30();
+let v35 = v34?.constructor;
+v35 = v23;
+v28 /= v24;
+const o36 = {
+    "apply": f0,
+    "call": f20,
+    "construct": f0,
+    "get": f20,
+    "has": f0,
+    "isExtensible": f20,
+    "preventExtensions": f4,
+    "set": f0,
+};
+new Proxy(v34, o36);
+let v39;
+try { v39 = new v35(v35, f20); } catch (e) {}
+const v40 = v35 >= v22;
+if (v40) {
+    Object.defineProperty(v28, 255, { writable: true, configurable: true, get: f0 });
+} else {
+    function F41(a43, a44, a45, a46) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.f = a46;
+        } catch(e47) {
+        }
+        try {
+            this.e = v40;
+        } catch(e48) {
+        }
+    }
+    new F41(F30, f4, v26, v26);
+    const v50 = new F41(v35, v39, v35, 1.0);
+    new F41(F30, v50, v28, F41);
+}
+let v52;
+try { v52 = new v35(v28, 1.0); } catch (e) {}
+function f53() {
+    1836424012 === 1836424012;
+    const o60 = {
+        [1836424012](a57, a58, a59) {
+        },
+        "e": v34,
+    };
+    o60[1836424012];
+    return F30;
+}
+%PrepareFunctionForOptimization(f53);
+f53();
+f53();
+%OptimizeFunctionOnNextCall(f53);
+const v64 = f53();
+try { new v64(v52, v64); } catch (e) {}

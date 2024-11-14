@@ -1,0 +1,31 @@
+const v6 = ["string"];
+[[v6]];
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 129;
+    } catch(e13) {
+    }
+    try {
+        this.a = "string";
+    } catch(e14) {
+    }
+    try {
+        this.h = "boolean";
+    } catch(e15) {
+    }
+}
+const v16 = new F9(129, "boolean");
+const v17 = new F9(129, "boolean", "boolean", v16, v6);
+new F9(45844, "a1", v17, "string");
+[-1024,-536870912];
+[-1729613415,61149,-9223372036854775807,-1927780561,3,28178,2147483649];
+const v21 = [10,-18346,-20459,2147483649,9007199254740992,1073741823];
+function f22() {
+    return f22;
+}
+class C23 extends f22 {
+}
+const v24 = new C23();
+new v21();
+v21.slice().filter(v24);

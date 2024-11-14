@@ -1,0 +1,109 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = this;
+    try {
+        this.h = -599298372;
+    } catch(e3) {
+    }
+    try {
+        this.g = -599298372;
+    } catch(e4) {
+        for (let v5 = 0; v5 < 5; v5++) {
+            function f6() {
+                const v8 = new BigInt64Array(v5, v5, v5);
+                v8[0];
+                return BigInt64Array;
+            }
+            f6();
+            %OptimizeFunctionOnNextCall(f6);
+        }
+    }
+}
+const v11 = new F0();
+const v12 = new F0();
+function f13() {
+    const v14 = [f13,f13,f13,f13];
+    v14.constructor;
+    class C16 extends F0 {
+    }
+    const v17 = new C16();
+    const v18 = v17.constructor;
+    const v19 = v17.bind();
+    try { v19(v19, v14, f13, v19, v18); } catch (e) {}
+    return C16;
+}
+const v21 = new F0();
+const v23 = new Map();
+function F26(a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v30 = new F26(512, 10000);
+function F34(a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f39() {
+        return v23;
+    }
+    function f40(a41) {
+    }
+    Object.defineProperty(this, "d", { enumerable: true, get: f39, set: f40 });
+    class C45 {
+        constructor(a47, a48) {
+            const v49 = this.constructor;
+            v49.f = v49;
+            try { new v49(f13, C45, -7); } catch (e) {}
+            this[-2147483648] >>>= -7;
+            for (let v51 = 0; v51 < 5; v51++) {
+            }
+        }
+    }
+    try {
+        this.c = a36;
+        const o57 = {
+            [-1.1635412394243161e+308](a54) {
+            },
+            set b(a56) {
+            },
+        };
+        delete o57.b;
+    } catch(e59) {
+    }
+    function f60() {
+        return f60;
+    }
+    const v61 = a36();
+    function F62(a64, a65) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v66 = f60.constructor;
+        try { v66(this, v61); } catch (e) {}
+    }
+    new F62();
+    try {
+        v30.d = a36;
+    } catch(e69) {
+    }
+}
+new F34(v21, v21, 53262);
+function f71() {
+    const v73 = ([f71,f71]).constructor;
+    const v74 = new v73();
+    class C75 extends v73 {
+    }
+    const v76 = new F34();
+    try { v76.reduceRight(); } catch (e) {}
+    return v74;
+}
+new F34(v12, v11, 8);
+new F34(v21, v12, 53262);
+function F80(a82, a83) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f71;
+    const v84 = this.constructor;
+    try { new v84(); } catch (e) {}
+    function f86() {
+        return F80;
+    }
+    %PrepareFunctionForOptimization(f86);
+    f86();
+    %OptimizeFunctionOnNextCall(f86);
+}
+new F80();

@@ -1,0 +1,62 @@
+class C3 {
+    b;
+    static b = -800862.4569251344;
+    [-800862.4569251344];
+    static {
+        try {
+            const t6 = "sync";
+            t6.__proto__ = this;
+        } catch(e8) {
+        }
+        try { ("sync").normalize(); } catch (e) {}
+        const v10 = ("sync")[1];
+        const o11 = {
+            "execution": "sync",
+            [v10]: gc,
+            "f": -800862.4569251344,
+            "b": v10,
+            __proto__: "sync",
+            [-800862.4569251344]: "sync",
+            "type": "minor",
+        };
+        gc(o11);
+    }
+}
+let v13 = new C3();
+v13.e = v13;
+v13 &= v13;
+try {
+    new C3();
+} catch(e18) {
+}
+const v19 = new C3();
+v19.b = v19;
+let [...v20] = "n";
+const v21 = "n" % "n";
+%VerifyType(v21 ^ C3);
+v13[v21];
+const v24 = new C3();
+v24.b = v24;
+/x[\ca]/guiy;
+/[xyz]co(x)(x)(x)\1/udm;
+/Q(x)(x)(x)\1ara\sc/guiy;
+function f31() {
+    const o41 = {
+        m(a34) {
+            return a34;
+        },
+        set g(a36) {
+        },
+        "type": -6.612369286647296e+307,
+        valueOf() {
+            const v39 = /gk4b*/vmsy;
+            Object.defineProperty(v39, -9223372036854775808, { enumerable: true, set: gc });
+            return v39;
+        },
+        __proto__: v13,
+    };
+}
+const t58 = -6.147399497384116;
+%PrepareFunctionForOptimization(t58());
+%OptimizeFunctionOnNextCall(f31());
+C3();

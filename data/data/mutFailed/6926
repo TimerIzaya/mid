@@ -1,0 +1,40 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v0;
+        F1 |= F1;
+        Object.defineProperty(v0, "c", { writable: true, configurable: true, value: F1 });
+        new Uint8Array(4065);
+        new Int16Array(2);
+        new Int16Array(1762);
+    } catch(e12) {
+    }
+    try {
+        this.b = v0;
+    } catch(e13) {
+        this[1] = e13;
+        e13[189] = F1;
+        e13[Symbol.replace] = e13;
+    }
+    try {
+        this.h = v0;
+    } catch(e16) {
+    }
+}
+new F1();
+const v18 = new F1();
+const v19 = new F1();
+const v20 = [F1,v19];
+[[v18,v19,v0],v18,v20];
+[6];
+[-9223372036854775807,-9007199254740990];
+[4096,-9007199254740992,15];
+const v29 = new Uint16Array(3225);
+for (const v30 of v29) {
+    v30[3] = 5n;
+    [56322,-536870912,50371,8,4096];
+    [-61301,268435456,12,-256,0,-9007199254740991];
+    [14,-3,-4294967296,-65536,-1073741824];
+    9007199254740991 * v30;
+}

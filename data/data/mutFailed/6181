@@ -1,0 +1,57 @@
+const v3 = /\xed\xb0\x80qhfoo|(bar|baz)|quuxS*/uimy;
+const v4 = /\xf0\x9f\x92\xa9+/gumy;
+const v5 = /^tD/gv;
+v5.ignoreCase;
+const v7 = [268435441,-12,14985,-14,4294967295,-1073741824];
+const v8 = [-9007199254740990,1582176086,5,759350219,14,257,536870888,-4294967297,65535,-9007199254740990];
+const v9 = [-57057595,-708341426,-27428,-9007199254740991];
+function f10() {
+    return v3;
+}
+const v11 = [-37935,v8,-37935,v7,v4];
+-v9[2];
+function F14(a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v17 = this.constructor;
+    try { new v17(); } catch (e) {}
+    for (let i21 = 256n, i22 = 10; i21 < i22;) {
+    }
+}
+[v9,-37935,v11];
+[v8,v5];
+-1024 - -1024;
+~4294967296n;
+function f38(a39, a40) {
+    const o42 = {
+        get c() {
+            let v41 = this;
+            v41 += v3;
+            return a40;
+        },
+        "b": -65537n,
+        __proto__: v7,
+        ...a39,
+        "a": a40,
+        6: 4294967297n,
+        "c": 4294967297n,
+    };
+    return o42;
+}
+const v43 = F14(f38, -65537n);
+const v44 = f38(f38, f38);
+class C45 extends v43 {
+    set e(a47) {
+        const v48 = v44.h;
+        let {...v49} = v44;
+        Reflect.construct(v48, [4294967296n]);
+    }
+}
+C45.prototype = C45;
+const v53 = new C45();
+v53.a;
+Object.defineProperty(v43, "b", { writable: true, enumerable: true, value: v44 });
+try {
+    v53.n(4294967297n, v53, 4294967297n, 4294967297n, v43);
+} catch(e56) {
+    e56.name = e56;
+}

@@ -1,0 +1,73 @@
+const v6 = [-9223372036854775808,4];
+const v7 = [38045,-1341908262,-128,10];
+const v8 = [-1,129];
+class C9 {
+    static #p(a11, a12, a13) {
+        try { new a11(); } catch (e) {}
+        for (let v16 = 0; v16 < 32; v16++) {
+            this["p" + v16] = v16;
+        }
+        return -4294967295;
+    }
+    static set b(a20) {
+        [] = v8;
+        const v21 = 10398 & -4294967295;
+        function f22(a23) {
+            try { v7.entries(); } catch (e) {}
+            for (let v26 = 0; v26 < 32; v26++) {
+                this["p" + v26] = v26;
+            }
+            function f29(a30) {
+                try { a30(a30, this, -4294967295, a20); } catch (e) {}
+            }
+            this.onmessage = f29;
+            Object.defineProperty(v8, f29, { enumerable: true, value: v6 });
+            const o34 = {
+                "maxByteLength": 5,
+            };
+            const v36 = new SharedArrayBuffer(3, o34);
+            new Uint8Array(v36);
+        }
+        Object.defineProperty(this, "e", { writable: true, configurable: true, enumerable: true, set: f22 });
+        this.e **= v21;
+        try { new C9(this, f22, f22, Worker); } catch (e) {}
+        const v45 = [v6];
+        const o46 = {
+            "arguments": v45,
+            "type": "function",
+        };
+        new Worker(f22, o46);
+    }
+}
+C9.length = C9;
+new C9();
+new C9();
+const v50 = new C9();
+const v51 = v50?.constructor;
+try { new v51(); } catch (e) {}
+const v59 = new Uint8Array();
+const v62 = new Uint32Array();
+try { v62.includes(59028073); } catch (e) {}
+function f64(a65, a66, a67, a68) {
+    a65 / a65;
+    a66 < a66;
+    a67 >>> a67;
+    const o75 = {
+        "f": 2,
+        "b": a65,
+        "c": a68,
+        ...v59,
+        n(a73, a74) {
+            v62[a65] = v62;
+        },
+    };
+}
+f64(2, 2, 1, 2);
+for (let v77 = 0; v77 < 625; v77++) {
+    f64(Uint8Array, 2, v77, 2);
+    const o81 = {
+        "maxByteLength": 268435440,
+    };
+    const v83 = new SharedArrayBuffer(257, o81);
+    new BigUint64Array(v83);
+}

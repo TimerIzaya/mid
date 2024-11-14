@@ -1,0 +1,61 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        return F0;
+    }
+    function f3(a4) {
+        new F0();
+    }
+    Object.defineProperty(this, "h", { writable: true, configurable: true, get: f2, set: f3 });
+    try {
+        this.h = -1074273800;
+    } catch(e7) {
+    }
+    try {
+        this.f = -1074273800;
+    } catch(e8) {
+    }
+    try {
+        this.d = -1074273800;
+    } catch(e9) {
+    }
+}
+const v10 = new F0();
+new F0();
+new F0();
+const v16 = /2\c_/gdims;
+const v17 = /8/vdms;
+v17[7] = v10;
+const v18 = /S/vi;
+v17[7] != v18;
+const v23 = new Int8Array(47);
+new Int8Array(124);
+new Uint8Array(1370);
+class C30 {
+    static 740586307;
+    #a;
+    [1370] = F0;
+    static g = v16;
+    #g = v23;
+}
+const v31 = new C30();
+const v32 = [-0.42703791448452577,-9.174109027962913,-1.7976931348623157e+308,-3.06318157624919,1000000000000.0,-2.2250738585072014e-308,-515.183479844324,0.20435565392355481,616564.7515082213,-3.0];
+function f33() {
+    class C34 {
+    }
+    const v35 = new C34();
+    function F36(a38, a39) {
+        if (!new.target) { throw 'must be called with new'; }
+        ~a39;
+        const v41 = this.__proto__;
+        const v42 = v41?.constructor;
+        try { new v42(v35); } catch (e) {}
+        v41.toLocaleString();
+    }
+    new F36();
+    return v18;
+}
+v32[Symbol.toPrimitive] = f33;
+const o48 = {
+    [v32]: v31,
+};

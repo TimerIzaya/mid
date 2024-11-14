@@ -1,0 +1,19 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 892657765;
+    } catch(e3) {
+    }
+    try {
+        this.c = this;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+new v5();
+new Set();
+const o18 = {
+    "type": "async",
+};
+gc(o18);

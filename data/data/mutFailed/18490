@@ -1,0 +1,48 @@
+const v0 = [9,15,-4,-2062161478,-1779916533,5,1163073064,-67297154,268435456,16];
+const v1 = [1073741823,9007199254740990];
+const v2 = [47819,-2,-11,2147483647,52878,4294967297,17265,-21370,62679];
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    a5[4] = a5;
+    try {
+        this.f = v1;
+    } catch(e6) {
+    }
+    try {
+        this.b = v2;
+    } catch(e7) {
+    }
+    try {
+        this.e = v0;
+    } catch(e8) {
+    }
+}
+try { new F3(v0); } catch (e) {}
+const v10 = new F3(v0);
+const v11 = new F3(v1);
+const v12 = new F3(v0);
+function f13(a14, a15) {
+    try { a15.group(a15); } catch (e) {}
+    const o18 = {
+        64: v2,
+        [v12]: v11,
+        "f": v12,
+        __proto__: a15,
+        "c": a15,
+        get e() {
+            Object.defineProperty(this, "c", { writable: true, value: a14 });
+            return f13;
+        },
+        [v0]: F3,
+        "a": a15,
+    };
+    return o18;
+}
+const v19 = f13(v10, v1);
+v19[4] = v19;
+const v20 = v11(v11, v2);
+try { v20.e(v0, v11); } catch (e) {}
+f13(v11, v1);
+const v24 = new BigInt64Array();
+try { v24.toReversed(); } catch (e) {}
+v24.copyWithin(-9223372036854775808);

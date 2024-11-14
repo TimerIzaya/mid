@@ -1,0 +1,57 @@
+class C3 {
+    static m(a5, a6) {
+        return this;
+    }
+    get e() {
+        const o11 = {
+            "d": this,
+            ...this,
+        };
+        for (let v12 = 0; v12 < 32; v12++) {
+            this["p" + v12] = v12;
+        }
+        return o11;
+    }
+}
+const v15 = new C3();
+new v15();
+const v17 = new C3();
+/a\S/dsy;
+/aa\S/gvmy;
+/B\u{12345}/gu;
+class C21 extends C3 {
+    static toString(a23, a24) {
+        const v25 = new C3();
+        try {
+            C21.valueOf = v25;
+        } catch(e26) {
+        }
+        return v17;
+    }
+    static m(a28, a29, a30) {
+        super.e;
+        try {
+            a28.exec("object");
+        } catch(e34) {
+        }
+        return a28;
+    }
+}
+new C21();
+const t40 = 2147483648;
+new t40();
+new C21();
+function f39() {
+    function f40(a41, a42) {
+        return f39;
+    }
+    const v44 = f40.resolve(f40);
+    const v45 = new Promise(f40);
+    const v46 = v45.constructor;
+    try { new v46(-30285); } catch (e) {}
+    return v44;
+}
+%PrepareFunctionForOptimization(f39);
+f39();
+%OptimizeFunctionOnNextCall(f39);
+f39();

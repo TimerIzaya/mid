@@ -1,0 +1,47 @@
+class C3 {
+    b = "symbol";
+    constructor(a5, a6) {
+        const v9 = new Int8Array(102);
+        const t4 = "symbol";
+        t4[this] %= 937.4710746242897;
+        v9[268435456];
+        new Uint16Array(16);
+        new Uint32Array(10);
+        new Int8Array(2);
+        new BigUint64Array(2574);
+        new Uint8ClampedArray(1000);
+    }
+}
+const v26 = new C3(-4096, "symbol");
+const v27 = new C3(v26, C3);
+let v28 = new C3(v26, "symbol");
+function f29(a30, a31, a32, a33) {
+    const o34 = {
+        102: -4096,
+        [a30]: a33,
+        __proto__: "symbol",
+        "d": a33,
+        "f": a32,
+        [v28]: a31,
+        ...a32,
+        "e": a31,
+        "g": a33,
+        "b": a31,
+        /*
+        __proto__: a30,
+        */
+        ..."symbol",
+        "f": "symbol",
+        ...v26,
+        [a33]: a30,
+        "h": 937.4710746242897,
+    };
+    return o34;
+}
+const v35 = f29(C3, v26, v26, v27);
+const v36 = f29(v28, v27, v26, v35);
+const v37 = f29(v36, v27, v35, 937.4710746242897);
+v28 **= v36;
+try { f29(-4096, ..."256", f29, 15, ...v37, v36); } catch (e) {}
+const t45 = "undefined";
+t45["256"] <<= 4.0;

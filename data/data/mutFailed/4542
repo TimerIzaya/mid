@@ -1,0 +1,111 @@
+const v1 = new WeakMap();
+function f2(a3) {
+    /foo|(bar|baz)|quux/gimsy;
+    /Xa(?=bbb|bb)c/udms;
+    /[\p{Script_Extensions=Mongolian}&&\p{Number}]4foo[z]*/gvis;
+    return a3;
+}
+const v8 = Symbol.toPrimitive;
+v1[v8] = f2;
+const v9 = [497658199,-1,2147483647,-16,9,-4294967297,-180329643];
+let v10;
+try { v10 = v9.group(Symbol); } catch (e) {}
+const v12 = new BigInt64Array();
+try { v12.entries(); } catch (e) {}
+new Uint8Array();
+Promise.d = Promise;
+const v17 = [-22135,-9,1134546458,4096,129,3,2001142668,-1628951510,8,16261];
+const v18 = [4,323947560,-65535,0];
+function f19(a20) {
+    try {
+        v17.__proto__ = v18;
+    } catch(e21) {
+    }
+    return a20;
+}
+try { new Promise(); } catch (e) {}
+v18[Symbol.toPrimitive] = f19;
+function f25(a26) {
+    const o39 = {
+        "g": a26,
+        __proto__: v9,
+        "h": v9,
+        [v1]: v18,
+        [v18](a28, a29) {
+            for (const v30 in v17) {
+                Object.defineProperty(v18, 8, { configurable: true, enumerable: true, value: this });
+                const o31 = {
+                };
+                try {
+                    o31.a = WeakMap;
+                } catch(e32) {
+                }
+                try {
+                    const o33 = {
+                    };
+                    o33.a = WeakMap;
+                    o33.e = a26;
+                } catch(e34) {
+                }
+                try {
+                    const o35 = {
+                    };
+                    o35.a = WeakMap;
+                    o35.e = a26;
+                    o35.d = a26;
+                } catch(e36) {
+                }
+                try {
+                    const o37 = {
+                    };
+                    o37.a = WeakMap;
+                    o37.e = a26;
+                    o37.d = a26;
+                } catch(e38) {
+                }
+            }
+            return v1;
+        },
+    };
+    return o39;
+}
+let v40 = f25(v17);
+const v41 = f25(v9);
+try { v41.flat(); } catch (e) {}
+const v43 = f25(v17);
+try { v43.group(Symbol); } catch (e) {}
+class C45 extends f25 {
+    static #b = v9;
+    toString(a47, a48) {
+        v1["get"](a47);
+        v43[254];
+        v40 = a48;
+        return this;
+    }
+    2690;
+}
+try { new C45(); } catch (e) {}
+new C45();
+if (v40) {
+} else {
+    const o58 = {
+        "apply": Symbol,
+        "defineProperty": Symbol,
+        "get": Symbol,
+        "has": f19,
+        "isExtensible": Symbol,
+        "ownKeys": f25,
+        "set": f25,
+        "setPrototypeOf": Symbol,
+    };
+    new Proxy(v41, o58);
+}
+const v61 = new C45();
+v61[6] = v61;
+const v62 = new C45();
+for (const v65 in v62) {
+    Symbol instanceof v10;
+    Object.defineProperty(v8, "g", { writable: true, value: v65 });
+    let {"g":v67,"h":v68,...v69} = v62;
+}
+-10 instanceof WeakMap;

@@ -1,0 +1,35 @@
+const v1 = new WeakMap();
+const v2 = [v1];
+function f3(a4) {
+    const v5 = v2.constructor;
+    try { new v5(v1, a4); } catch (e) {}
+    return v1;
+}
+v2[Symbol.toPrimitive] = f3;
+let v10 = [v2,[v1,v2,v1,WeakMap,WeakMap]];
+v10[Symbol.toPrimitive] = Symbol;
+const o16 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o16);
+[772.7544985090449,90.3299660533653,-1000.0,0.14280940774694517,0.1621199395530235,-1.0,-1000000000.0,-230.04353009675935];
+[7.26644961130736e+307];
+[0.3992632240408994,-2.0,-9.274668750289512e+307,-1.7976931348623157e+308];
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        new F24();
+        const v31 = -1.252027415501717e+308 | -32070;
+        (-32070) ** v31;
+        +v31;
+    } catch(e34) {
+    }
+}
+F24.toString = Symbol;
+const v35 = new F24(F24, F24);
+v35.valueOf = f3;
+new F24(F24, v35);
+new Map();
+F24 <= v35 ? F24 : v35;
+v10++;

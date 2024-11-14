@@ -1,0 +1,85 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v5 = this?.constructor;
+    try { new v5(a4); } catch (e) {}
+    try {
+        this.f = a4;
+    } catch(e7) {
+    }
+}
+const v8 = new F2(f1);
+const v9 = new F2(f1);
+v9.length;
+const v11 = new F2(v8);
+const v12 = [8093,7];
+let v13;
+try { v13 = v12.toLocaleString(); } catch (e) {}
+Object.defineProperty(v9, "h", { writable: true, configurable: true, enumerable: true, get: f0, set: f1 });
+try {
+    v13.c = f1;
+} catch(e17) {
+}
+const v18 = [3,40985,536870889,-833688125,10000,-2147483649,-444125895];
+v18[5] = v18;
+const v19 = [14311];
+class C20 extends F2 {
+    constructor(a22, a23) {
+        super(f1);
+        const v24 = f1();
+        v24.d = v24;
+        %PrepareFunctionForOptimization(f1);
+        const v25 = f1();
+        try { v25(); } catch (e) {}
+        f1();
+        %OptimizeFunctionOnNextCall(f1);
+        f1();
+    }
+    static #m(a30, a31, a32, a33) {
+        let v34 = f1(a30, f1, ...a31, a30, ...a31);
+        const v35 = a30[6];
+        v34 &= v34;
+        return v35;
+    }
+}
+const v36 = C20?.__lookupGetter__;
+try { new v36(C20); } catch (e) {}
+const v38 = new C20(v11, v19);
+v38.length;
+const v40 = new C20(v38, v19);
+let v41 = new C20(v40, v18);
+const v42 = /xyz{1,32}?/gusy;
+class C43 {
+    268435440 = v42;
+}
+try { new C43(); } catch (e) {}
+const v45 = new C43();
+v45[268435440] = v45;
+const o46 = {
+    ...v45,
+};
+/(foo(?<!bar)baz)/guimsy;
+/Ja\w/vdiy;
+const v49 = /(x)(x)(x)\3*/vdimy;
+function f50(a51, a52, a53, a54) {
+    const v56 = new Int8Array(a53);
+    v40[3] = -1073741824 / -1073741824;
+    const v61 = -Infinity;
+    Math.round(0);
+    const v63 = v61 | v41;
+    v41--;
+    v41 || v63;
+    ~v61 ^ 0;
+    const v70 = new Int32Array(2528);
+    v70[0] %= -1073741824;
+    return v56.buffer;
+}
+%PrepareFunctionForOptimization(f50);
+f50();
+%OptimizeFunctionOnNextCall(f50);
+const v73 = f50();
+try { v73.slice(v49, F2); } catch (e) {}

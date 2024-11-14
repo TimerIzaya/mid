@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 1162650867;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new v4();
+const v6 = new F0();
+v6.a = v6;
+function f7() {
+    return v6;
+}
+function f8() {
+    return v4;
+}
+f8.g = f8;
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(a12, v6); } catch (e) {}
+    try {
+        this.c = f7;
+    } catch(e14) {
+    }
+}
+new F9(v4, v5);
+new F9(v4, v5);
+const v17 = new F9(v4, v6);
+let v18;
+try { v18 = v17.isPrototypeOf(v4); } catch (e) {}
+[-1668517014,47648,1,-583650218,14,-3,15,255];
+const v20 = [13697,1583861625,2,-256,-40934,6,-12,-4096];
+v20[7] = v20;
+[2,-2147483647,720768288,536870887,-3061,-2147483647];
+function f22() {
+    return f22;
+}
+const v23 = v18.arguments;
+function f24() {
+    for (let v25 = 0; v25 < 5; v25++) {
+        v25 % v25;
+        function f27() {
+            return f27;
+        }
+        Array(36862, v23);
+    }
+    return v23;
+}
+%PrepareFunctionForOptimization(f24);
+f24();
+%OptimizeFunctionOnNextCall(f24);
+f24();

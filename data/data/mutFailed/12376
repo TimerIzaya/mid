@@ -1,0 +1,80 @@
+class C3 {
+    static get g() {
+        const o5 = {
+        };
+        try {
+            o5.d = this;
+        } catch(e6) {
+        }
+        try {
+            const o7 = {
+            };
+            o7.d = this;
+            o7.e = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.d = this;
+            o9.e = this;
+            o9.f = "h";
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.d = this;
+            o11.e = this;
+            o11.f = "h";
+        } catch(e12) {
+        }
+        return "-11";
+    }
+}
+C3.e = C3;
+const v13 = new C3();
+function f14() {
+    function f15() {
+        const v17 = Symbol.for();
+        const o18 = {
+            [v17]: f15,
+        };
+        return f15;
+    }
+    return "h";
+}
+v13.constructor = f14;
+const v19 = v13?.constructor;
+let v20;
+try { v20 = new v19(); } catch (e) {}
+const v21 = v13?.constructor;
+try { new v21(); } catch (e) {}
+let v23;
+try { v23 = new v21(); } catch (e) {}
+const v24 = v23?.constructor;
+try { new v24(); } catch (e) {}
+const v26 = new C3();
+v26.length = v20;
+try { v26.isPrototypeOf(v21); } catch (e) {}
+const v28 = new C3();
+2 - 2;
+const v32 = new Uint16Array(2);
+const v35 = new Float64Array(8);
+function f36(a37) {
+    return v24 !== v19 ? v24 : v19;
+}
+v35[Symbol.toPrimitive] = f36;
+v35[2] = v35;
+1832 >>> 1832;
+Uint8Array.length;
+try { new Uint8Array(v26, v28, v28); } catch (e) {}
+const v47 = new Uint8Array(1832);
+try { v47.toSorted(v32); } catch (e) {}
+let v49 = 995;
+v49--;
+const v52 = new Uint8ClampedArray(v49);
+v52.constructor = f36;
+const v53 = v52?.constructor;
+try { new v53(Uint8Array, v32, 2); } catch (e) {}
+new Int8Array(v52);

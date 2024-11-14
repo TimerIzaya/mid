@@ -1,0 +1,42 @@
+new WeakSet();
+class C2 {
+    static #toString(a4, a5) {
+        try {
+            const o6 = {
+            };
+            new WeakSet(o6);
+        } catch(e8) {
+        }
+        return a4;
+    }
+    2553899333;
+}
+new C2();
+new C2();
+new C2();
+new BigUint64Array(4);
+function f15() {
+    function f17() {
+        function f18(a19) {
+            class C20 extends f15 {
+            }
+            return f15;
+        }
+        return f18;
+    }
+    function f21(a22) {
+        Symbol.hasInstance;
+    }
+    Object.defineProperty(Math, Symbol.iterator, { writable: true, configurable: true, get: f17, set: f21 });
+    const v28 = Symbol.iterator;
+    Math[v28] = v28;
+    return Symbol;
+}
+%PrepareFunctionForOptimization(f15);
+f15();
+%OptimizeFunctionOnNextCall(f15);
+f15();
+new Int8Array(1514);
+new Int8Array(512);
+const v39 = new Float32Array(7);
+v39.includes(1234, 1000);

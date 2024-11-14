@@ -1,0 +1,74 @@
+const v1 = new Set();
+class C2 {
+    toString(a4) {
+        %VerifyType(v1);
+        return a4;
+    }
+    static p(a7, a8) {
+        a8 = a8;
+        a7?.[59];
+        return a8;
+    }
+    10000 = v1;
+    3 = Set;
+}
+const v10 = new C2();
+v10[10000] = v10;
+const v11 = new C2();
+const v12 = new C2();
+class C13 {
+    #toString(a15, a16, a17) {
+        a17 >>> v1;
+        a15 % a15;
+        function F20(a22, a23) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a22;
+            } catch(e24) {
+            }
+            try {
+                this.c = a15;
+            } catch(e25) {
+            }
+            try {
+                this.g = this;
+            } catch(e26) {
+            }
+        }
+        new F20(v12, v11);
+        new F20(v11, a17);
+        const v29 = new F20(v10, v11);
+        return v29;
+    }
+}
+const v30 = new v12(v11);
+const v31 = v30?.constructor;
+try { new v31(); } catch (e) {}
+const v33 = new C13();
+const v34 = v33?.constructor;
+try { new v34(); } catch (e) {}
+const v36 = new C13();
+function f37(a38, a39, a40) {
+    const v41 = a39?.constructor;
+    try { new v41(); } catch (e) {}
+    const v43 = a40?.constructor;
+    try { new v43(); } catch (e) {}
+    const o54 = {
+        "g": v34,
+        "b": v1,
+        valueOf(a46, a47) {
+            ~v36;
+            delete a46[a46];
+            return a47[a38];
+        },
+        "c": a39,
+    };
+    o54.d = o54;
+    return o54;
+}
+const v56 = f37(f37(v12, v36, v30), C2, v33);
+const v57 = f37(v56, v11, v30, v56, v56, v56);
+try { v57.valueOf(v1, v1); } catch (e) {}
+try { new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray, 4); } catch (e) {}
+const v62 = new Uint8ClampedArray(4);
+new v56(v62);

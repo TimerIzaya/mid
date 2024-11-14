@@ -1,0 +1,32 @@
+function f5() {
+    function f6() {
+        return f6;
+    }
+    return f6;
+}
+Uint8Array.toString = f5;
+Uint8Array[0] = Uint8Array;
+new Uint8Array(4);
+const v10 = new Uint8Array(0);
+Int8Array.d = 0;
+Int8Array.d = Int8Array;
+new Int8Array(512);
+try { new Uint16Array(512, 512, 0); } catch (e) {}
+const v17 = new Uint16Array(6);
+v17[Symbol.toPrimitive] = f5;
+function f20() {
+    try {
+        v10.__proto__ = v17;
+    } catch(e21) {
+    }
+    return 4;
+}
+v17.toString = f20;
+v17[0] = v17;
+try { new BigInt64Array(Uint8Array, 512, v10); } catch (e) {}
+new BigInt64Array(1091);
+new Uint16Array(40);
+let v29 = -9223372036854775807;
+v29--;
+const v32 = new Date(v29);
+v32.setTime(v29);

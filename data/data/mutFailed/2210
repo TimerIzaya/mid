@@ -1,0 +1,62 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -9223372036854775807;
+    } catch(e3) {
+    }
+    try {
+        this.h = -9223372036854775807;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C8 extends F0 {
+    static c;
+    constructor(a10) {
+        super();
+        super.c = v5;
+        try { new a10(a10); } catch (e) {}
+        const v14 = Symbol.unscopables;
+        ("getUTCMinutes")[v14];
+        super[v14];
+        for (let v17 = 0; v17 < 32; v17++) {
+            const t24 = "getUTCMinutes";
+            t24["p" + v17] = v17;
+        }
+    }
+    #d;
+    static 4091 = F0;
+    b;
+    static [F0];
+    #g = F0;
+    static #a = F0;
+    static #b = v7;
+}
+const v22 = new C8(F0);
+const v23 = new C8(F0);
+const v24 = new C8(v22);
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a29;
+    } catch(e31) {
+    }
+    try {
+        this.g = C8;
+    } catch(e32) {
+    }
+}
+const v33 = new F25(v7, v22, v5, v23);
+const v34 = new F25(v5, v6, v7, v33);
+new F25(v22, v5, v24, v34);
+function f36() {
+    const v38 = new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+    new Int8Array(v38);
+    return f36;
+}
+%PrepareFunctionForOptimization(f36);
+f36();
+%OptimizeFunctionOnNextCall(f36);
+f36();

@@ -1,0 +1,30 @@
+class C6 {
+    constructor(a8, a9, a10, a11) {
+        let v12;
+        try { v12 = a9(a8); } catch (e) {}
+        function F13(a15, a16, a17, a18) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.g = v12;
+            try {
+                this.g = a9;
+            } catch(e19) {
+            }
+        }
+        const v20 = new F13(12, 1.0, 12, a8);
+        new F13(a8, v20, -64242, a10);
+        new F13(this, F13, a11, a11);
+    }
+}
+const v23 = new C6(-64242, C6, 4, -64242);
+const v24 = new C6(4, 1.0, 4, -9.906526330399328e+307);
+new C6(12, 1.0, v24, 12);
+const v26 = [NaN,3.0];
+function f27(a28, a29) {
+    try {
+        v23.h = -9.906526330399328e+307;
+    } catch(e30) {
+    }
+    return a28;
+}
+Object.defineProperty(v26, "constructor", { configurable: true, value: -9.906526330399328e+307 });
+v26["concat"](-483497369);

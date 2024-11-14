@@ -1,0 +1,111 @@
+const v1 = new Set();
+function f2(a3) {
+    function F4(a6, a7, a8) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    return v1;
+}
+v1.toString = f2;
+let v9 = -1579;
+v1[10] = Set;
+const o11 = {
+};
+try {
+    o11.e = v1;
+} catch(e12) {
+}
+try {
+    const o13 = {
+    };
+    o13.e = v1;
+    o13.h = v9;
+} catch(e14) {
+}
+try {
+    const o15 = {
+    };
+    o15.a = o15;
+    o15.e = v1;
+    o15.h = v9;
+    o15.a = v9;
+} catch(e16) {
+}
+try {
+    const o17 = {
+    };
+    o17.e = v1;
+    o17.h = v9;
+    o17.b = v1;
+} catch(e18) {
+}
+function f20(a21) {
+    const o33 = {
+        valueOf(a23, a24, a25) {
+            try {
+                v1.toString = a25;
+            } catch(e26) {
+            }
+            return a25;
+        },
+        [v1](a28, a29) {
+            try { a29(v1, 656644404, this); } catch (e) {}
+            this[Symbol.species] = v1;
+            return this;
+        },
+    };
+    return o33;
+}
+f20(656644404);
+const v35 = f20(656644404);
+const v36 = f20(v9);
+class C37 extends f20 {
+    static [v9];
+    toString(a39, a40, a41, a42) {
+        super.valueOf(a41, v36);
+        try {
+            v1.values();
+            v1 - -2015089649;
+            Math.trunc(v1);
+            Math.fround(v1);
+            Math.min(-2015089649);
+            Math.hypot(NaN);
+            -2015089649 << v1;
+        } catch(e54) {
+        }
+        return v35;
+    }
+    g = v35;
+    static #h = v35;
+    static #g;
+    [v9];
+    9 = v35;
+}
+const v55 = new C37();
+const v56 = new C37();
+new C37();
+function F58(a60, a61) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "b", { configurable: true, value: this });
+    try {
+        this.e = a61;
+    } catch(e62) {
+    }
+    try {
+        this.a = v55;
+    } catch(e63) {
+    }
+    v35[v56] = o11;
+    let v66 = 58334;
+    ({"a":v66,"b":v9,} = this);
+    try {
+        this.g = a61;
+    } catch(e67) {
+    }
+}
+new F58(256, 656644404);
+new F58(256, v9);
+new F58(v9, 256);
+const v72 = new Int8Array();
+const v73 = v72.buffer;
+v73.constructor = f2;
+v73.slice(2147483648);

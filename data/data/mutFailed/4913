@@ -1,0 +1,14 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 9223372036854775807;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+new F0();
+const v8 = new v4();
+[v8,[298193998n,298193998n,9051680n,F0,v4]];
+[9051680n,9051680n];
+Math.tanh(-1000.0);

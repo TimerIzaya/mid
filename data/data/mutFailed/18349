@@ -1,0 +1,44 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(2.2250738585072014e-308);
+const v8 = new F3(-5.0);
+const v9 = new F3(2.2250738585072014e-308);
+class C10 {
+    static #o(a12, a13, a14, a15) {
+        a14 - a13;
+        a13 |= v9;
+        super.e = a15;
+        return a13;
+    }
+    constructor(a18, a19, a20) {
+        new WeakMap();
+    }
+    a = v7;
+    #f;
+}
+new C10(v9, v8, 2.2250738585072014e-308);
+const v25 = new C10(v9, v8, -5.0);
+const v26 = new C10(v7, v7, 2.2250738585072014e-308);
+[v25,v8];
+const v28 = [-1000.0];
+[v28,v28,C10,v7,-5.0];
+function f30(a31, a32, a33, a34) {
+    let v35 = 4046;
+    const v37 = new BigInt64Array(v35);
+    const v39 = f30++;
+    v39 >> v39;
+    v39 + v26;
+    v39 >> v39;
+    const o43 = {
+    };
+    [,...v35] = v37;
+    return f30;
+}
+for (let v44 = 0; v44 < 5; v44++) {
+    f30(v44, v44, v44, v44);
+}

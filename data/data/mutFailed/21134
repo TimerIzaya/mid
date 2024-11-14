@@ -1,0 +1,24 @@
+const v1 = new WeakSet();
+new Map();
+function f4() {
+    return v1;
+}
+const v10 = new Float64Array(4);
+new Float32Array(4092);
+new Uint16Array(Uint16Array);
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = v1.constructor;
+    let v23;
+    try { v23 = new v22(); } catch (e) {}
+    this.e = v23;
+}
+function f24() {
+    for (let v25 = 0; v25 < 5; v25++) {
+        new Float64Array();
+    }
+    return f24;
+}
+%PrepareFunctionForOptimization(v10);
+%OptimizeFunctionOnNextCall(f24());
+v10();

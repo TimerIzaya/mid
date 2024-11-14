@@ -1,0 +1,33 @@
+new Int32Array(1);
+new Uint16Array(Int32Array);
+const v8 = new Uint8ClampedArray(1398);
+new Int32Array(129);
+new Uint8Array(v8);
+new Uint16Array(10);
+const v18 = [-268435456,-9007199254740990,11,-25356,-536870912,4294967296,1520296454];
+function f19() {
+    function f20() {
+        return Math.atan2(129, 129);
+    }
+    return f20;
+}
+Object.defineProperty(v18, "toString", { configurable: true, enumerable: true, get: f19 });
+function f23(a24, a25) {
+    const o26 = {
+        __proto__: v18,
+    };
+    function f27() {
+        return f19;
+    }
+    function f28(a29) {
+        class C30 {
+            static {
+                const v32 = this.name;
+                this.toString().lastIndexOf(v32);
+            }
+        }
+    }
+    Object.defineProperty(o26, Symbol.toPrimitive, { writable: true, get: f27, set: f28 });
+    return o26;
+}
+f23().group(f23);

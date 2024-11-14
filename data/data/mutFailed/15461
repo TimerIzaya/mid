@@ -1,0 +1,30 @@
+new Int16Array(64);
+const v5 = new Uint32Array(4);
+new Uint16Array(64);
+function f15(a16, a17, a18, a19) {
+    for (let i22 = 0, i23 = 10;
+        (() => {
+            const v24 = i22 < i23;
+            class C25 {
+            }
+            const v26 = new a17();
+            class C27 {
+                static #e;
+                static {
+                    try {
+                        v26.#e = v5;
+                    } catch(e29) {
+                    }
+                }
+            }
+            return v24;
+        })();
+        i23--) {
+    }
+    return a16;
+}
+for (let v35 = 0; v35 < 5; v35++) {
+    f15();
+}
+%OptimizeFunctionOnNextCall(f15);
+f15();

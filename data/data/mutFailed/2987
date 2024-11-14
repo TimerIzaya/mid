@@ -1,0 +1,83 @@
+const v0 = [-5.735517120721631e+307,-1000000000.0,-1000000000.0,1000000000.0,-1.1167935915272093e+308,2.2367656185496525];
+const v1 = [1.7976931348623157e+308,-4.0,Infinity];
+const v2 = [3.0,-2.220446049250313e-16,3.896124111700999,743.7285220714389,-5.917382063057683e+307,-1.7976931348623157e+308,666770.7986022416,-2.220446049250313e-16,1000.0];
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v1;
+    } catch(e12) {
+    }
+    try {
+        this.d = v2;
+    } catch(e13) {
+    }
+    try {
+        this.b = a11;
+    } catch(e14) {
+    }
+}
+let v15 = new F6(v0, 76516438n, 76516438n, v2);
+new F6(v1, -65536n, 76516438n, v0);
+const v17 = new F6(v1, v1, 128n, v2);
+class C18 extends F6 {
+    8 = v15;
+    static #o(a20, a21) {
+        try {
+            v2.c = a21;
+        } catch(e22) {
+        }
+        return v15;
+    }
+    static get g() {
+        v2[8] = v17;
+        try {
+            v15.#o();
+        } catch(e28) {
+        }
+        return -34945;
+    }
+}
+new C18();
+const v30 = new C18();
+new C18();
+const v32 = [0,-65535,11483,-59291,-65536,1711942553];
+[256,257,-39962,-437183812,-268435456];
+[1,9223372036854775807,16,-1024,256];
+v30 in v32;
+const v36 = new C18();
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v36;
+    try {
+        this.g = v17;
+    } catch(e41) {
+    }
+}
+new F37(v2, v1);
+new F37(v2, v2);
+new F37(v1, v1);
+function f45(a46, a47) {
+    const v48 = [1000000000.0,2.2250738585072014e-308,-3.0,-2.2250738585072014e-308,-2.2250738585072014e-308,-6.525028373249204e+307,-7.851646360254072e+307,0.6785915059434757,-0.0];
+    class C49 {
+    }
+    C49[Symbol.replace] = v48;
+    return f45;
+}
+%PrepareFunctionForOptimization(f45);
+const v52 = f45();
+const v53 = [-1.0];
+const o54 = {
+};
+function f55() {
+    ++v15;
+    const v59 = -28182 / -28182;
+    Math.sign(v15);
+    (-28182 / v59) & v59;
+    return v17;
+}
+Object.defineProperty(o54, "get", { writable: true, configurable: true, value: f55 });
+let v64 = new Proxy(v53, o54);
+v64[Symbol.toPrimitive] = v52;
+++v64;
+%OptimizeFunctionOnNextCall(f45);
+f45();

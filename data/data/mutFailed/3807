@@ -1,0 +1,57 @@
+4294967296 + 4294967296;
+try { ("H").toUpperCase(); } catch (e) {}
+try { ("number").fontcolor(1.430024648506921e+308); } catch (e) {}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v16 = this?.__lookupGetter__;
+    try { new v16("H"); } catch (e) {}
+    a15 * a15;
+    try {
+        this.d = a15;
+    } catch(e19) {
+    }
+    try {
+        this.e = 749879.9074465716;
+    } catch(e20) {
+    }
+    try {
+        this.h = "2128598189";
+    } catch(e21) {
+    }
+}
+F12.caller;
+const v23 = new F12(4294967296, 3.0);
+new F12(4294967296, 3.0);
+new F12(4294967296, 1.430024648506921e+308);
+const v26 = ["2128598189"];
+const v27 = [v23,749879.9074465716,v23,v26,1.430024648506921e+308];
+v27[4];
+const v29 = [v23,v26,v27];
+const v30 = [536870887,-42204,-17288903,-3,9007199254740991,7];
+const v31 = [6,268435440,13,1073741825];
+const v32 = [-15,-2147483649,-899333997,3,1455560807,-1024,-4294967297,2098301778];
+class C33 {
+    constructor(a35) {
+        function f36(a37, a38) {
+            let v39 = a37[5];
+            v39++;
+        }
+        f36(v32);
+        v27(v30);
+        f36(a35);
+    }
+}
+const v44 = C33.constructor;
+try { v44.toString(); } catch (e) {}
+const v46 = new C33(v31);
+try { v46.constructor(v23); } catch (e) {}
+const v48 = new C33(v30);
+const t48 = v48.constructor;
+const v50 = new t48(v46);
+const v51 = v50?.constructor;
+try { new v51(v29); } catch (e) {}
+try { v30.some(v44); } catch (e) {}
+const o54 = {
+    __proto__: v32,
+};
+try { o54.groupToMap(); } catch (e) {}

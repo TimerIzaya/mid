@@ -1,0 +1,61 @@
+function f0() {
+}
+const v1 = [-59854,-9007199254740991,-36927,-1,536870888,9,2147483649,-17903,-1191258647,-43905];
+let v2 = [-9017,2002260672,512,19888,-128,-12438,-10288,-1];
+for (const v3 of v2) {
+    Object.defineProperty(v1, "g", { writable: true, configurable: true, get: f0, set: f0 });
+    v2 = v3;
+}
+const v5 = [128,512,-922342717,268435456,128];
+const v6 = [v1,f0,v1];
+[f0];
+const v8 = [v1,v5];
+const v9 = [4.659197113280696,-3.0,-1.7976931348623157e+308];
+const v10 = [Infinity,1.0,524933.0040485382,-Infinity,-1.1381764686962064e+307,-1000000000000.0];
+try { v10.reduceRight(); } catch (e) {}
+const v12 = [1.0937207134300834e+308,-1000.0,8.298464805709415e+307,-1000000.0,-2.220446049250313e-16];
+const v13 = v12[3];
+%VerifyType(v5);
+try { v8["sort"](...f, ...v6, ...v12, ...v12); } catch (e) {}
+try {
+    v6.c = v12;
+} catch(e17) {
+}
+class C18 extends f0 {
+    3 = v9;
+    p(a20, a21, a22, a23) {
+        const o27 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o27);
+        return o27;
+    }
+    static {
+        let v29 = this;
+        v29 >>>= v2;
+        Uint8Array ^ v9;
+        function f32() {
+            return v13;
+        }
+        v29.name;
+        new Uint8ClampedArray(2259);
+        new Uint8ClampedArray(4);
+        new BigUint64Array(1745);
+    }
+    [v5] = v5;
+    c;
+    static #m(a47, a48) {
+        this !== a47 ? this : a47;
+        return 10423n;
+    }
+}
+let v54;
+try { v54 = new C18(); } catch (e) {}
+const v55 = new C18(C18, v13, f0);
+new C18();
+new C18(C18, C18, v54);
+try { new ReferenceError(ReferenceError); } catch (e) {}
+const v60 = ReferenceError(ReferenceError, v6, v55, C18);
+v60.message;
+v60.stack = v60;

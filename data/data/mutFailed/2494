@@ -1,0 +1,31 @@
+const v2 = new Int8Array(1);
+const v5 = new Uint8Array(171);
+const v8 = [v2,v5];
+const v10 = Reflect.apply(v5.toLocaleString, v5, v8);
+let v11;
+try { v11 = v10.charAt(); } catch (e) {}
+try {
+    Reflect.valueOf = v11;
+} catch(e13) {
+}
+new Int16Array(2572);
+class C18 {
+    static 7;
+    static {
+        try {
+            v2.toString();
+        } catch(e24) {
+        }
+    }
+    static #a = 2572;
+    static a = v2;
+}
+new C18();
+new C18();
+new C18();
+class C31 {
+    p(a33, a34) {
+        eval();
+        ([Int32Array,Int32Array,Int32Array,Int32Array]).length;
+    }
+}

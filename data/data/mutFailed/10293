@@ -1,0 +1,29 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a5;
+    } catch(e6) {
+    }
+    try {
+        this.a = a5;
+    } catch(e7) {
+    }
+    try {
+        this.g = a5;
+    } catch(e8) {
+    }
+}
+new F3(F3);
+new F3(-13n);
+new F3(15n);
+const v12 = [3,44379,-4294967296,536870887];
+const v13 = [512,-151633683,-333831032];
+[9007199254740991,-2088867439,9007199254740992,33308,255,-9007199254740990];
+"ex7" <= Uint8ClampedArray;
+const t18 = 0n;
+new t18(8);
+new Uint32Array(Uint32Array);
+new Float32Array(v13);
+const v28 = [v12];
+v28[1] = v28;
+new Uint32Array(v28);

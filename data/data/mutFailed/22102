@@ -1,0 +1,35 @@
+[-9007199254740990,-26460,-776986994,-1];
+const v4 = [-5,51378];
+v4.length = v4;
+const v5 = [-372291961,0,12,536870889,7437,1073741824,-59558];
+try { v5.entries(); } catch (e) {}
+new WeakMap();
+function f9() {
+    return WeakMap;
+}
+new Int16Array(512);
+const v15 = new BigInt64Array(2);
+try { v15.slice(513449036, 65536); } catch (e) {}
+try { Int32Array.from(Int32Array); } catch (e) {}
+new Int32Array(4);
+let v21 = 2;
+v21 * v21;
+const v23 = v21++;
+function f24(a25) {
+    a25--;
+    const o30 = {
+        __proto__: v21,
+        213: a25,
+        p(a28, a29) {
+            return v23;
+        },
+    };
+    let v31 = o30[213];
+    v31--;
+    return v31;
+}
+%PrepareFunctionForOptimization(f24);
+const v33 = f24(v23);
+v33 >>> v33;
+%OptimizeFunctionOnNextCall(f24);
+f24(v33);

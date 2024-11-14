@@ -1,0 +1,43 @@
+function f3(a4) {
+    const o15 = {
+        ...1073741824,
+        "f": 268435440,
+        get b() {
+            new Uint32Array(1915);
+            new Float32Array(13);
+            new Float64Array(2813);
+            return 1073741824;
+        },
+    };
+    o15[Symbol.toPrimitive] = f3;
+    return o15;
+}
+f3(10);
+const v19 = f3(10);
+v19.d = v19;
+const v20 = f3(268435440);
+v20.toString = f3;
+class C21 extends f3 {
+    static 128;
+    static #p(a23, a24, a25, a26) {
+        try {
+            v20.length = 268435440;
+        } catch(e28) {
+        }
+        return a26;
+    }
+    #c;
+    [v20] = v20;
+}
+C21.caller = C21;
+const v29 = new C21();
+v29.d = v29;
+new C21();
+new C21();
+const v32 = [-4];
+try {
+    new BigUint64Array(v32);
+} catch(e35) {
+    Object.defineProperty(e35, "b", { writable: true, configurable: true, value: e35 });
+    e35.b = e35;
+}

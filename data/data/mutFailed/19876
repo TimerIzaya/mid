@@ -1,0 +1,70 @@
+function f0() {
+}
+function f4(a5, a6) {
+    const o9 = {
+        "c": a6,
+        "h": a6,
+        [-1000000000.0]: Infinity,
+        get d() {
+            this.h ^= -1000000000.0;
+            %VerifyType(Infinity);
+            delete this[0];
+            return -1000000000.0;
+        },
+        "g": Infinity,
+        "a": a6,
+        [-1000000000.0]: -3.0,
+        __proto__: -1000000000.0,
+        "f": -1000000000.0,
+        307: Infinity,
+    };
+    function f10(a11, a12) {
+        return Float32Array.from([-1000000000.0,-1000000000.0,[-1000000000.0,-1000000000.0,-1000000000.0]]);
+    }
+    o9[Symbol.toPrimitive] = f10;
+    return o9;
+}
+const v19 = f4(-3.0, -3.0);
+const v20 = f4(-3.0, Infinity);
+function f21(a22) {
+    f4(f4, a22);
+    %PrepareFunctionForOptimization(f4);
+    f4(f4, a22);
+    f4(f4, a22);
+    %OptimizeFunctionOnNextCall(f4);
+    f4(f4, a22);
+    return a22;
+}
+v20.toString = f21;
+f4(-1000000000.0, -3.0);
+class C28 {
+    constructor(a30, a31, a32, a33) {
+        a30[a30] = a32;
+        f4(-1000000000.0, -3.0);
+        %PrepareFunctionForOptimization(f4);
+        f4(-1000000000.0, -3.0);
+        f4(-1000000000.0, -3.0);
+        %OptimizeMaglevOnNextCall(f4);
+        f4(-1000000000.0, -3.0);
+    }
+    static 0;
+    static #toString(a39, a40, a41) {
+        try {
+            this.a = f4;
+        } catch(e42) {
+        }
+        try {
+            new f4(922.0555188645587, 0.7359938425766122);
+        } catch(e46) {
+        }
+        return v19;
+    }
+}
+C28[Symbol.toPrimitive] = f21;
+new C28(v20, v19, v19, -3.0);
+new C28(C28, C28, C28, Infinity);
+new C28(v19, Infinity, C28, -3.0);
+class C57 extends Int8Array {
+    [9];
+}
+try { new C57(); } catch (e) {}

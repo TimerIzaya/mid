@@ -1,0 +1,77 @@
+function f0() {
+    try { ("multiline").valueOf(); } catch (e) {}
+    const o17 = {
+        set a(a6) {
+            const v10 = a6 >> 5.783867315482631;
+            Math.ceil(a6);
+            Math.atan(-536870912);
+            a6 * -9;
+            Math.asin(v10);
+            Math.atan(-536870912);
+            !-536870912;
+        },
+        "e": -536870912,
+        "b": -536870912,
+        "a": "multiline",
+    };
+    return o17;
+}
+const v18 = f0();
+const v19 = f0();
+const v20 = f0();
+function F21(a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    a23.a;
+    try {
+        this.c = v19;
+    } catch(e25) {
+    }
+}
+new F21(v18);
+const v27 = new F21(v20);
+new F21(v19);
+class C29 {
+    static 5 = v19;
+    #g;
+    static [-1];
+    valueOf(a31, a32, a33, a34) {
+        a31 = a32;
+        a32[a33] = a32;
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        a32();
+        %OptimizeMaglevOnNextCall(f0);
+        f0();
+        return v27;
+    }
+    1 = v20;
+}
+const v39 = new C29();
+const v40 = v39?.constructor;
+try { new v40(); } catch (e) {}
+new C29();
+new C29();
+Float32Array.name;
+const v47 = new Float32Array(256);
+new Uint8Array(16);
+new Uint16Array(7);
+64 - 64;
+class C58 {
+    static {
+        this.name = this;
+        let v61 = -1;
+        v61++;
+        class C63 {
+        }
+        try { C63.bind(v47); } catch (e) {}
+        function f65(a66, a67, a68) {
+            const o69 = {
+                1073741824: C63,
+            };
+            return -26368;
+        }
+        f65.name = f65;
+    }
+}
+try { C58.apply(-26368, F21); } catch (e) {}

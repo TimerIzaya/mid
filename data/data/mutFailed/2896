@@ -1,0 +1,48 @@
+class C3 {
+    #g = -406463802;
+    static [-1.628655582646224e+308];
+    get c() {
+        const o5 = {
+        };
+        try {
+            o5.c = 2.2250738585072014e-308;
+        } catch(e6) {
+        }
+        try {
+            const o7 = {
+            };
+            o7.c = 2.2250738585072014e-308;
+            o7.b = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.c = 2.2250738585072014e-308;
+            o9.b = this;
+            o9.g = o5;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            const v14 = `
+            `;
+            eval(v14);
+            o11.c = 2.2250738585072014e-308;
+            o11.b = this;
+            o11.f = 2.2250738585072014e-308;
+        } catch(e17) {
+        }
+        return o5;
+    }
+}
+new C3();
+new C3();
+const t41 = 2.2250738585072014e-308;
+const v20 = new t41();
+Uint8Array.length;
+const v27 = new Uint8Array(268435440);
+try { new Uint8ClampedArray(129, Uint8Array, 129); } catch (e) {}
+new Uint8ClampedArray(v20);
+try { v27.at(2.2250738585072014e-308); } catch (e) {}

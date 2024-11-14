@@ -1,0 +1,42 @@
+const v0 = [346.59968320635426,-8.570763331395798e+307,2.220446049250313e-16,1000.0,2.220446049250313e-16,-898.5246718929476,5.0];
+[-2.220446049250313e-16,-6.695570991806157];
+const v2 = [-Infinity,1.187054772852327e+308,0.42666116204617033,1000000.0,3.0,0.48747334286330657,483.688627548727,0.2360515890302851];
+v2[255] = v0;
+try {
+    v0.f = 4294967296;
+} catch(e6) {
+}
+new v2();
+new Float32Array(128);
+new BigUint64Array(13);
+const o19 = {
+    "maxByteLength": 89,
+};
+const v21 = new ArrayBuffer(1, o19);
+new Uint8ClampedArray(v21);
+new BigUint64Array(127);
+function f26() {
+    function f27(a28, a29) {
+        return f26;
+    }
+    const v31 = Promise.resolve(f27);
+    function F32(a34, a35, a36) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.g = f27;
+        } catch(e37) {
+        }
+    }
+    new F32(7, Uint8ClampedArray, 255);
+    new F32(1, 13, 255);
+    new F32(-30285, 1, 128);
+    const v41 = new Promise(f27);
+    const v42 = v41.constructor;
+    try { new v42(-30285); } catch (e) {}
+    return v31;
+}
+%PrepareFunctionForOptimization(f26);
+const t38 = 4294967296;
+t38();
+%OptimizeFunctionOnNextCall(f26);
+f26();

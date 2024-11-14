@@ -1,0 +1,47 @@
+function f0() {
+    let v1 = 53958;
+    const o6 = {
+        ...-4294967296,
+        ...v1,
+        get g() {
+            let v4 = this;
+            v4[82] = v4;
+            v4 += v4;
+            -4294967296 in (v1 = -4294967296);
+            return v4;
+        },
+        "d": -3.0,
+    };
+    o6.d = o6;
+    return o6;
+}
+const v7 = f0();
+const v8 = f0();
+const v9 = f0();
+class C10 {
+    [v7];
+    1;
+    #valueOf(a12) {
+        let v13 = v8[v9];
+        v13 = this;
+        v8[v8] = v7;
+        a12 = f0;
+        try {
+            new a12();
+        } catch(e15) {
+        }
+        return v13;
+    }
+}
+const v16 = new C10();
+v16[1];
+const v18 = new C10();
+v18[1] = v18;
+new v7();
+new Set();
+64 + 64;
+class C25 extends Array {
+    2 = 64;
+}
+const v26 = new v16();
+v26[2];

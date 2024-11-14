@@ -1,0 +1,48 @@
+class C3 {
+    static set g(a5) {
+        const o9 = {
+            valueOf() {
+                this != "undefined" ? this : "undefined";
+                return "undefined";
+            },
+        };
+    }
+    static {
+        const o14 = {
+        };
+        new Proxy("getOwnPropertySymbols", o14);
+    }
+}
+const v17 = new C3();
+const v18 = new C3();
+for (const v19 in v18) {
+    g = v19;
+}
+try {
+    v17.fuck(v18, undefined, C3, undefined);
+} catch(e22) {
+}
+new C3();
+function f24() {
+    return v17;
+}
+[9,129,64,-268435456,-1024,8,-47833,-1148184745,29829717];
+[-1277079464,-14,-15,268435456,9007199254740992];
+[256,4294967297,-7,65536,-256,-9223372036854775807,-22763,27549,-9223372036854775808,-4294967295];
+new Float64Array(129);
+new Int16Array(9);
+new Uint8Array(1290);
+for (let v39 = 0; v39 < 5; v39++) {
+    for (const v40 in "toString") {
+    }
+}
+try {
+    try {
+        const o42 = {
+        };
+        new Float64Array(o42);
+    } catch(e44) {
+    }
+    undefined.fuck();
+} catch(e46) {
+}

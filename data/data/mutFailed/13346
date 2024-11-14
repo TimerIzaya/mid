@@ -1,0 +1,57 @@
+const v2 = new Float64Array(5);
+const v5 = new Float32Array(Float64Array);
+const v8 = new Uint8ClampedArray(16);
+delete v8?.byteLength;
+const o13 = {
+};
+try {
+    o13.b = v5;
+} catch(e14) {
+}
+try {
+    const o15 = {
+    };
+    o15.b = v5;
+    o15.h = "E";
+} catch(e16) {
+}
+try {
+    const o17 = {
+    };
+    o17.b = v5;
+    o17.h = "E";
+    o17.f = "-128";
+} catch(e18) {
+}
+try {
+    const o19 = {
+    };
+    o19.b = v5;
+    o19.h = "E";
+    o19.f = v8;
+} catch(e20) {
+}
+class C21 {
+    #h = 16;
+    b = v5;
+    static valueOf(a23, a24, a25, a26) {
+        const o27 = {
+        };
+        new Proxy(this, o27);
+        Float64Array[0] = 5 % Float64Array;
+        return v2;
+    }
+    static 4;
+    ["E"] = Uint8ClampedArray;
+}
+new C21();
+new C21();
+new C21();
+const v34 = [];
+class C36 {
+    constructor(a38, a39) {
+        Date | a38;
+    }
+}
+const t55 = 2881;
+new t55(v34);

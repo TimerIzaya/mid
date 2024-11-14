@@ -1,0 +1,59 @@
+function f0() {
+    const o10 = {
+        "c": "7",
+        ["7"]: "7",
+        277556625: 8,
+        __proto__: "7",
+        "d": 2.220446049250313e-16,
+        "g": 2.220446049250313e-16,
+        [2.220446049250313e-16]: 2.220446049250313e-16,
+        get e() {
+            const v5 = super.d;
+            class C6 {
+                static a = 8;
+                f = v5;
+                static f = 2.220446049250313e-16;
+            }
+            const v7 = new C6();
+            new v7();
+            new C6();
+            return v7;
+        },
+    };
+    return o10;
+}
+f0();
+const v12 = f0();
+const v13 = f0();
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v12;
+    } catch(e22) {
+    }
+}
+const v23 = new F17(54814, 4294967296, -65536);
+const v24 = new F17(54814, -65536, v23);
+const v25 = new F17(54814, 4294967296, v24);
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    v13.a = v25;
+    try {
+        a29.a = a31;
+    } catch(e32) {
+    }
+}
+new F26(v24, v24, -65536, 54814);
+new F26(v25, v25, 4294967296, 4294967296);
+new v24(v23, v24, 54814, 54814);
+const o47 = {
+    toString(a37, a38) {
+        function F39(a41, a42, a43, a44) {
+            if (!new.target) { throw 'must be called with new'; }
+            let {"c":v45,} = a38;
+        }
+        const v46 = new F39();
+        return v46;
+    },
+};
+try { o47.toString(); } catch (e) {}

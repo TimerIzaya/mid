@@ -1,0 +1,82 @@
+try { new WeakSet(); } catch (e) {}
+const v6 = new WeakSet();
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    a14 < a14;
+    try {
+        this.h = a12;
+    } catch(e16) {
+    }
+    try {
+        this.g = v6;
+    } catch(e17) {
+    }
+    try {
+        this.c = a14;
+    } catch(e18) {
+    }
+}
+new F10(-4096, -1258087790, -14n);
+new F10(-1258087790, -4096, -5n);
+new F10(-1303492941, -1258087790, -1258087790);
+-36382 + -36382;
+0 === 0;
+let v29 = -1;
+v29++;
+function F31(a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    a33 < a33;
+    const v35 = this.constructor;
+    v35.e = v35;
+    try { new v35(); } catch (e) {}
+    this.g = v29;
+    this.f = a33;
+    this.h = a33;
+}
+try { F31(-143547321); } catch (e) {}
+let v38;
+try { v38 = F31.bind(-143547321); } catch (e) {}
+try { v38(2n); } catch (e) {}
+try { v38(-1517929768); } catch (e) {}
+const v41 = new F31(v29);
+const v42 = new F31();
+v42.g;
+v42.d = v42;
+let v44 = new F31(v29);
+v44.b = v44;
+v44.g = v44;
+class C45 extends F31 {
+    #p(a47, a48) {
+        const v49 = a47?.[32];
+        Object.defineProperty(v42, v41, { writable: true, configurable: true, value: F31 });
+        a47.d = this;
+        return v49;
+    }
+    [v29];
+    static {
+        this.n = F31;
+        super[this];
+        const t57 = "n";
+        t57[0] = "n";
+        let v53;
+        try { v53 = this["n"](); } catch (e) {}
+        const o54 = {
+        };
+        o54.e = o54;
+        const v56 = new Proxy(v44, o54);
+        v56.g;
+        let v58 = v56.f;
+        v58--;
+        v56.e = v56;
+        v44 = this;
+        const o60 = {
+            "e": v56,
+            ...v53,
+            65537: o54,
+        };
+    }
+}
+try { new C45(); } catch (e) {}
+new C45();
+const o64 = {
+};

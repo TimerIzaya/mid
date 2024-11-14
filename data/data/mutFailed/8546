@@ -1,0 +1,60 @@
+function f0() {
+    const o11 = {
+        get a() {
+            this.__proto__;
+            super.c = this;
+            const o9 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o9);
+            return this;
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+class C15 extends v13 {
+    static {
+        try {
+            v12.a = this;
+        } catch(e17) {
+        }
+    }
+    11 = f0;
+    #d = v13;
+    static [v13];
+    static [v14];
+}
+const v18 = new C15();
+const v19 = new C15();
+const v20 = new C15();
+function f21(a22, a23, a24) {
+    const o32 = {
+        "c": a24,
+        [v20]: v14,
+        "d": a23,
+        __proto__: a22,
+        "a": v19,
+        set g(a26) {
+            [C15,[a24,a26,v14,a23]];
+            const v29 = [v19,this];
+            try { v29.pop(); } catch (e) {}
+            let {"a":v31,} = a24;
+        },
+    };
+    return o32;
+}
+f21(f21(v20, f21(v14, v19, v18), v14), v13, v20);
+for (let v36 = 0; v36 < 5; v36++) {
+    function f37() {
+        for (let v38 = 0; v38 < 5; v38++) {
+            const t53 = [-Infinity,1.7976931348623157e+308,1.0,1.7976931348623157e+308,-1.0,Infinity];
+            t53.length >>>= -65536;
+        }
+        return f37;
+    }
+    %OptimizeFunctionOnNextCall(f37());
+}

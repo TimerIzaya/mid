@@ -1,0 +1,83 @@
+class C3 {
+    get c() {
+        this[this] = this;
+        const v6 = Symbol.unscopables;
+        this[v6] = 512;
+        return v6;
+    }
+    #h;
+    static #o(a8, a9) {
+        a9[4096] = a9;
+        try {
+            a9.#h &&= 316660047;
+        } catch(e10) {
+        }
+        var a = 316660047;
+        try {
+            super.toString();
+        } catch(e12) {
+        }
+        return 1000;
+    }
+}
+function f13(a14, a15) {
+    try { a15(a15); } catch (e) {}
+    return -1262530018;
+}
+C3.toString = f13;
+const v20 = new C3();
+v20[Symbol.toPrimitive] = f13;
+const v23 = new C3();
+const v24 = new C3(C3, 512);
+function f25(a26, a27) {
+    function f28(a29) {
+        for (let i32 = 0, i33 = 10; i32 < i33; i32++) {
+        }
+        return a29;
+    }
+    a26[Symbol.toPrimitive] = f28;
+    const o48 = {
+        valueOf(a43, a44, a45, a46) {
+            C3[234] = 512;
+            v20[a46];
+            return v24;
+        },
+        "f": 512,
+        [v23]: a27,
+        "d": v24,
+        ...v24,
+        __proto__: a26,
+        "f": v24,
+        ...C3,
+        "g": v20,
+        "a": C3,
+        "b": 512,
+        "c": 1000,
+        "e": 1000,
+        [C3]: a26,
+    };
+    return o48;
+}
+const v49 = f25(512, 512);
+f25(v24, 316660047);
+const v51 = f25(v49, 512);
+class C52 extends C3 {
+    static set a(a54) {
+        const v55 = this[f25];
+        try { new v55(this); } catch (e) {}
+        try {
+            v51.f = v23;
+        } catch(e58) {
+        }
+    }
+    static c;
+    static [v49] = v24;
+    static 268435439;
+    [512] = 1000;
+}
+new C52(1000, 512);
+new C52();
+new C52();
+const v65 = [Uint8ClampedArray,Uint8ClampedArray];
+v65[Symbol.toPrimitive] = Symbol;
+new Uint8ClampedArray([1,17,v65,v20,f25]);

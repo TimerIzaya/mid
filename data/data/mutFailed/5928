@@ -1,0 +1,84 @@
+new Set();
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v6 = this?.constructor;
+    try { new v6(this); } catch (e) {}
+    try {
+        this.b = Set;
+    } catch(e8) {
+    }
+    try {
+        this.c = a5;
+    } catch(e9) {
+    }
+    try {
+        this.d = Set;
+    } catch(e10) {
+    }
+}
+const v11 = new F3(F3);
+new F3(v11);
+const v13 = new F3(true);
+const v14 = v13?.b;
+try { new v14(); } catch (e) {}
+2 >> 2;
+Uint16Array.d = Uint16Array;
+const v23 = new Uint16Array(2);
+const v26 = new Float64Array(1228);
+v26[819];
+let v29 = Uint32Array;
+new v29(129);
+const v32 = new BigUint64Array(192);
+v32[71] = v32;
+new Int16Array(5);
+131 >>> 131;
+new Int8Array(131);
+const v43 = /(x)(x)(x)\3*/gvi;
+v43.dotAll = v43;
+const v44 = /((?<=a))/gudm;
+v29 -= v29;
+const t39 = 5;
+t39[5] = 4294967296n;
+try {
+    const o45 = {
+    };
+    new Uint16Array(o45);
+} catch(e47) {
+}
+const v48 = /gk4b*/vmsy;
+1e-15 / 1e-15;
+[v48,v48,v48];
+[-6,1e-15,v44];
+const v54 = [-4,2];
+try { v54.pop(); } catch (e) {}
+let v56;
+try {
+const t0 = -1.3832922122240728e+307;
+v56 = t0(2);
+} catch (e) {}
+for (let v57 = 0; v57 < 5; v57++) {
+    ~v57;
+    v57 < 1;
+    function f61(a62, a63, a64, a65) {
+        a63.length = a63;
+        const o66 = {
+            536870889: 131,
+        };
+        o66[536870889];
+        return o66;
+    }
+    f61(4294967296n, f61, v56, v56)[536870889];
+    f61(-2147483647n, v23, v56, v13);
+    f61(-2147483647n, v57, v44, v57);
+    try { v56(v44, v57, v48, v57, -4); } catch (e) {}
+    const v74 = Symbol.iterator;
+    const o78 = {
+        [v74]() {
+            const o77 = {
+                next() {
+                    return v48;
+                },
+            };
+        },
+    };
+}

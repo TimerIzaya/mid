@@ -1,0 +1,43 @@
+new Uint32Array(73);
+class C4 {
+}
+C4.d = C4;
+const v5 = new C4();
+function f6(a7, a8) {
+    const v9 = a8?.constructor;
+    try { new v9(); } catch (e) {}
+    const v11 = a8?.__lookupGetter__;
+    try { new v11(v11); } catch (e) {}
+    a8?.constructor;
+    return v11;
+}
+const v14 = f6.name;
+%PrepareFunctionForOptimization(f6);
+f6(Uint16Array, v5);
+%OptimizeFunctionOnNextCall(f6);
+v14();
+new BigInt64Array(16);
+new Float64Array(1742);
+let v24 = -65022;
+v24++;
+255 >> 255;
+new Array(C4);
+const v31 = [290511.96857215906,0.3003673637544756,-458526.71260649094,0.8333335605081266,16682.170944584184,0.12597720350931985];
+~256;
+function f35() {
+    return 256;
+}
+f35.e = f35;
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v40 = this.constructor;
+    try { new v40(a38); } catch (e) {}
+    -a38;
+    a39--;
+}
+new F36(65537, f35);
+class C45 extends F36 {
+}
+new C45(v31);
+new C45();
+new C45();

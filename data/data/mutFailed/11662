@@ -1,0 +1,11 @@
+new Uint8ClampedArray(8);
+new Int16Array(2);
+new Float64Array(0);
+function f13(a14) {
+    return a14;
+}
+const o17 = {
+    "e": "function",
+};
+const v18 = new Worker(f13, o17);
+try { v18.getMessage(); } catch (e) {}

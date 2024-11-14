@@ -1,0 +1,91 @@
+const v0 = /a(?!bbb|bb)c/dsy;
+v0[536870888] = v0;
+const v1 = /(9Gh(ab)\1?)/vsy;
+const v2 = /Wlb(?!(a))\1yja\b!/gui;
+function f3(a4) {
+    Math.asin(2.220446049250313e-16);
+    return v1;
+}
+Object.defineProperty(v2, Symbol.toPrimitive, { configurable: true, value: f3 });
+function F10(a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f13(a14) {
+        function f17(a18, a19, a20) {
+            return a20;
+        }
+        const v22 = [f17,4294967297,,];
+        const o23 = {
+            "arguments": v22,
+            "type": "function",
+        };
+    }
+    Object.defineProperty(this, "b", { writable: true, enumerable: true, set: f13 });
+    let v24;
+    try { v24 = this.propertyIsEnumerable(v0); } catch (e) {}
+    try {
+        this.b = v0;
+    } catch(e25) {
+    }
+    try {
+        this.d = v2;
+    } catch(e26) {
+        try {
+            v2.compile("number");
+        } catch(e29) {
+        }
+    }
+    v2[a12];
+    v0[536870888] = a12;
+    this[v24];
+}
+function f35() {
+    return f3;
+}
+function f36(a37) {
+    class C38 {
+    }
+    const v39 = new C38();
+    try {
+        v39.__proto__ = a37;
+    } catch(e40) {
+    }
+}
+Object.defineProperty(F10, "toString", { get: f35, set: f36 });
+const v41 = new F10(v2);
+new F10(v1);
+new F10(v0);
+3 / 3;
+class C48 extends F10 {
+    static 255;
+    2816 = v0;
+    static n(a50, a51) {
+        try {
+            super.b;
+        } catch(e53) {
+            Reflect.construct(e53, [v1,Reflect,Reflect], F10);
+        } finally {
+            try {
+                for (let v57 = 0; v57 < 32; v57++) {
+                    v41["p" + v57] = v57;
+                }
+                v41.toString = 45412;
+            } catch(e60) {
+            }
+        }
+        return F10;
+    }
+}
+new C48();
+new C48();
+const v63 = new C48();
+v63[2816];
+class C66 {
+}
+Object.defineProperty(C66, "constructor", { enumerable: true, value: Symbol });
+const v67 = C66?.constructor;
+try { new v67(C48); } catch (e) {}
+const t86 = C66.constructor;
+t86();
+try { gc(); } catch (e) {}
+try { ("async").small(); } catch (e) {}
+gc();

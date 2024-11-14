@@ -1,0 +1,47 @@
+const v1 = new Map();
+function f2(a3) {
+    function F4() {
+        if (!new.target) { throw 'must be called with new'; }
+        this.h = 9007199254740991;
+    }
+    const v7 = new F4();
+    const o10 = {
+        set h(a9) {
+        },
+        __proto__: v7,
+    };
+    return Map;
+}
+v1.toString = f2;
+function f14(a15, a16) {
+    const o35 = {
+        [v1](a18, a19) {
+            Reflect.construct(Map, [this], a16);
+            const o25 = {
+                "maxByteLength": 268435456,
+            };
+            let {"c":v27,"e":v28,"maxByteLength":v29,} = o25;
+            super[ArrayBuffer];
+            super.d = a15;
+            super[Map] = f14;
+            const v32 = new ArrayBuffer(240, o25);
+            new Uint16Array(v32);
+            return a19;
+        },
+    };
+    return o35;
+}
+f14(8, f14);
+f14(1674968680, 268435441);
+f14(268435441, 1674968680);
+new Float32Array(2148);
+new Int32Array(2970);
+new Float64Array(12);
+function f48() {
+    Uint8ClampedArray.e = Uint8ClampedArray;
+    return Uint8ClampedArray;
+}
+%PrepareFunctionForOptimization(f48);
+f48();
+%OptimizeFunctionOnNextCall(f48);
+f48();

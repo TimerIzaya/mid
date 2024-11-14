@@ -1,0 +1,42 @@
+const v3 = /\cm[\cZ]N?/disy;
+const v4 = /G\1\2(a(?:\1(b\1\2))\2)\1xyz{1,32}*/vdims;
+const v5 = /Uxyz{0,1}?\u{12345}?/vms;
+let v9;
+try {
+const t0 = -773502482n;
+v9 = new t0(v3);
+} catch (e) {}
+const v13 = !"valueOf";
+const v14 = -"valueOf";
+-v9;
+5 - v13;
+const v17 = v5 | v5;
+v13 && v14;
+const v21 = new Uint8Array(257);
+const v24 = new Uint8ClampedArray(3154);
+const v27 = new Uint16Array(3702);
+const v28 = [1073741824,1073741823,1376142744,1073741825];
+function f29(a30, a31, a32, a33) {
+    a32 * a32;
+    const o35 = {
+        "c": v24,
+        "b": v27,
+        "e": v17,
+        ..."a",
+        "d": a32,
+    };
+    o35.__proto__;
+    return f29;
+}
+for (let v37 = 0; v37 < 10; v37++) {
+    v14 % f29(v28, v37, v37);
+    v4[257] = v9;
+    try { v9(); } catch (e) {}
+    v21["valueOf"] = 3702;
+    try {
+        v4.test("valueOf");
+    } catch(e42) {
+    }
+}
+%OptimizeFunctionOnNextCall(f29);
+f29();

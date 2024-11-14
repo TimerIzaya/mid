@@ -1,0 +1,101 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        function f3() {
+            try {
+                this.toString = this;
+            } catch(e4) {
+            }
+            return this;
+        }
+        return f3;
+    }
+    function f5(a6) {
+        function f7(a8) {
+            class C9 {
+                set g(a11) {
+                }
+            }
+            return C9;
+        }
+    }
+    Object.defineProperty(this, Symbol.iterator, { writable: true, enumerable: true, get: f2, set: f5 });
+    try {
+        this.a = -2147483648;
+    } catch(e15) {
+    }
+    try {
+        this.d = -2147483648;
+    } catch(e16) {
+    }
+}
+const v17 = new F0();
+let v18 = new F0();
+function f19(a20, a21) {
+    a20 = v17;
+    new Float32Array();
+    return F0;
+}
+v18[Symbol.toPrimitive] = f19;
+const v26 = new F0();
+v26.d = v26;
+function f27(a28) {
+    a28[Symbol.toPrimitive] = Symbol;
+    const o40 = {
+        "b": a28,
+        128: v26,
+        __proto__: v18,
+        "d": a28,
+        toString(a32, a33) {
+            this[4096] = Symbol;
+            this[4096] = v17;
+            v17[a28] = a28;
+            v18 |= v18;
+            for (let [v34,v35,v36,...v37] of a28) {
+                try { a28.o(); } catch (e) {}
+            }
+            delete v26[3];
+            this.d |= v18;
+            return a33;
+        },
+    };
+    return o40;
+}
+try { f27(F0); } catch (e) {}
+const v42 = f27(v17);
+f27(v18);
+f27(v26);
+const v45 = [-6.475250648797446,602.492588710787,2.220446049250313e-16];
+v45.toString = Symbol;
+v45.g = v45;
+[-2.0,2.220446049250313e-16,958792.5475981603];
+const v47 = [-1000.0,0.7110049474940872,0.17218851865552098,1.0,0.5062321583737336,-Infinity,7.645077495821308,3.6824436311444373];
+try { v47.reduce(v42); } catch (e) {}
+class C49 {
+    #p(a51, a52, a53) {
+        const v54 = new F0();
+        try {
+            super.valueOf(a53, v54, this, a51, a53);
+        } catch(e56) {
+        }
+        return a53;
+    }
+    static 6;
+    static 2;
+    static #valueOf(a58, a59, a60, a61) {
+        const v62 = v26[v47];
+        let v63;
+        try { v63 = v62(a58, f27, v26); } catch (e) {}
+        super.c = a60;
+        return v63;
+    }
+}
+const v64 = C49?.constructor;
+try { new v64(v42); } catch (e) {}
+const v66 = new C49();
+try { v66.propertyIsEnumerable(v45); } catch (e) {}
+new C49();
+new C49();
+const v70 = [];
+Object.defineProperty(v70, 1, { writable: true, enumerable: true, value: v70 });
+v70.push();

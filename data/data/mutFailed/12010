@@ -1,0 +1,38 @@
+new Uint8ClampedArray(5);
+new Uint16Array(9);
+const v8 = new Uint8ClampedArray(177);
+function f9() {
+    return Uint16Array;
+}
+class C10 extends Uint8ClampedArray {
+    get g() {
+        f9();
+        %PrepareFunctionForOptimization(f9);
+        f9();
+        const t10 = 9;
+        t10();
+        %OptimizeMaglevOnNextCall(f9);
+        f9();
+        return Uint16Array;
+    }
+    static #p(a17, a18, a19) {
+        super[177];
+        return a18;
+    }
+    static [v8] = f9;
+}
+new C10();
+new C10();
+const t25 = 5;
+new t25();
+class C24 {
+}
+const v25 = new C24();
+const v26 = [-5.0];
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v33 = this.constructor;
+    try { new v33(v25, v26); } catch (e) {}
+    a32.__proto__.valueOf();
+}
+new F29(-2.220446049250313e-16, 1000000000.0);

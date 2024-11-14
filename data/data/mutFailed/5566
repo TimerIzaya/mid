@@ -1,0 +1,35 @@
+class C3 {
+    get e() {
+        if (-65536 > "setYear") {
+            try {
+            const t0 = "setYear";
+            new t0(-65536);
+            } catch (e) {}
+        } else {
+            this[-2];
+        }
+        return this;
+    }
+    static #g = C3;
+}
+const v8 = new C3();
+new C3();
+new C3();
+class C11 extends C3 {
+    static [v8];
+    set c(a13) {
+    }
+    static 7 = -9223372036854775807;
+    [C3] = "setYear";
+    c = "setYear";
+    static 268435456;
+}
+const v17 = new C11();
+new v17();
+new C11();
+const o22 = {
+    "maxByteLength": 1000,
+};
+const v24 = new ArrayBuffer(8, o22);
+let v26 = new BigUint64Array(v24);
+v26 *= v26;

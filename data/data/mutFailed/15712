@@ -1,0 +1,17 @@
+function f3() {
+    return -5n;
+}
+new Int16Array(4096n);
+new Float32Array(512);
+const v18 = new Float64Array(9);
+function f19(a20, a21, a22, a23) {
+    class C25 {
+        static ["-2"];
+    }
+    return v18;
+}
+for (let v26 = 0; v26 < 10; v26++) {
+    f19(v26, v26, f19, v26);
+}
+%OptimizeFunctionOnNextCall(-1.7976931348623157e+308);
+f19();

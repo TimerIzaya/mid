@@ -1,0 +1,101 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        function f3() {
+            function f4() {
+                return ("D")[0].substring().charCodeAt();
+            }
+            %PrepareFunctionForOptimization(f4);
+            return F0;
+        }
+        return f3;
+    }
+    function f9(a10) {
+        f2 = a10;
+    }
+    Object.defineProperty(this, "toString", { configurable: true, get: f2, set: f9 });
+    try {
+        this.a = 5;
+    } catch(e12) {
+    }
+}
+const v13 = new F0();
+const v14 = new F0();
+function f15(a16, a17) {
+    const o19 = {
+        84: arguments,
+    };
+    return v14;
+}
+v14.toString = f15;
+new F0();
+class C21 extends F0 {
+    static get h() {
+        !this;
+        const v24 = super.a;
+        let {"c":v25,"e":v26,} = v24;
+        this[v24] = v25;
+        return v25;
+    }
+    static #valueOf(a28) {
+        let {"a":v29,"f":v30,} = v13;
+        const o36 = {
+            "maxByteLength": 2639,
+        };
+        const v38 = new ArrayBuffer(10, o36);
+        const v40 = new Int32Array(v38);
+        return v40;
+    }
+}
+new C21();
+const v42 = new C21();
+const v43 = new C21();
+class C44 extends C21 {
+    static [v14];
+    toString(a46, a47, a48, a49) {
+        new F0();
+        return 10000;
+    }
+    constructor(a55, a56) {
+        super();
+        super[this] = a56;
+        return a55;
+        const v58 = new WeakMap();
+        Object.defineProperty(a55, "a", { value: v42 });
+        true.toString(v14, v58, true, C21);
+    }
+}
+new C44(v42, v14);
+new C44(v43, v14);
+new C44(v14, v14);
+new Int32Array(2312);
+new BigInt64Array(87);
+new Int32Array(3161);
+const o77 = {
+    1073741825: "MIN_VALUE",
+};
+function F84(a86, a87, a88, a89) {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let v95 = 0; v95 < 100; v95++) {
+        const o108 = {
+            968: undefined,
+            "d": undefined,
+            [268435439n]: 2105444095n,
+            __proto__: o77,
+            "g": a88,
+            "b": -4294967296n,
+            "f": this,
+            valueOf(a99) {
+                Math.pow(-1073741824, -Infinity);
+                new v13(964446029);
+                return v95;
+            },
+        };
+        o108[1] = 87;
+        o108[1] = o108;
+    }
+    -9223372036854775808 >> -9223372036854775808;
+}
+new F84("n");
+new F84();
+new F84();

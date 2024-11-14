@@ -1,0 +1,112 @@
+function f3() {
+    return 9;
+}
+class C4 extends f3 {
+    #f;
+    static c;
+    static {
+        Object.defineProperty(this, this, { writable: true, configurable: true, enumerable: true, get: f3 });
+        this[201] = 9;
+        super.c |= 9;
+        const o9 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o9);
+    }
+}
+new C4();
+new C4();
+new C4();
+new Uint32Array(5);
+class C17 {
+    static #p(a19) {
+        return a19;
+    }
+}
+new Int8Array(2010);
+new Int16Array(4096);
+/Aabc|defmxyz{1,}?qMa{0,1}?/gvdis.exec();
+const o29 = {
+    get f() {
+        return this;
+    },
+};
+class C31 {
+    #valueOf(a33, a34) {
+        const v36 = ([16,-1337814116,1282563165,-268435456,-256,58611,-4294967296,-10,-9223372036854775807,9]).keys();
+        function f37(a38, a39) {
+            const o40 = {
+                "g": v36,
+            };
+            return o40;
+        }
+        f37();
+        %OptimizeFunctionOnNextCall(f37);
+        const v43 = WeakMap();
+        "m" > v43 ? "m" : v43;
+        return this;
+    }
+    static set f(a47) {
+        const o50 = {
+            "maxByteLength": 129,
+        };
+        class C54 {
+            #c = "toUpperCase";
+            get a() {
+                const v56 = this << "toUpperCase";
+                const v57 = v56 ^ v56;
+                let v58;
+                try { v58 = v57(v57, this, v57, v57, v56, this); } catch (e) {}
+                v58[v57] <<= 1.1922093890401552e+308;
+                return "Tx";
+            }
+            static b;
+        }
+        const v60 = new C54();
+        v60?.toLocaleString;
+        SharedArrayBuffer();
+        const t66 = "m";
+        t66();
+    }
+}
+const v64 = new C31();
+const v65 = new C31();
+function f66() {
+    return f66;
+}
+class C67 extends f66 {
+}
+new C67();
+const t80 = v65.constructor;
+new t80();
+const v71 = v65.__lookupGetter__;
+try { v71(); } catch (e) {}
+const v73 = new C31();
+function f74() {
+    class C75 {
+    }
+    const v76 = new C75();
+    function f77() {
+        return v76;
+    }
+    return v73;
+}
+f74.d = f74;
+function F78(a80, a81, a82, a83) {
+    if (!new.target) { throw 'must be called with new'; }
+    a82.valueOf();
+    a83.e = a83;
+    let v85 = 12;
+    v85--;
+    new Int8Array(v85);
+    function f89(a90, a91) {
+        return arguments[1073741823];
+    }
+    const v94 = this?.constructor;
+    try { new v94(v65, a82, a80, F78); } catch (e) {}
+    a83.toLocaleString();
+}
+new F78("m", C31, v73, C31);
+const v98 = new F78(v64, v65, "m", v64);
+new F78(v98, v98, v65, v98);

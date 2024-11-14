@@ -1,0 +1,75 @@
+function f0() {
+    const o6 = {
+        [-85036064]: -939211141,
+        "g": -939211141,
+        "f": "F",
+        ["F"]: "F",
+        2147483649: "F",
+        set e(a5) {
+            this[a5 >>>= -939211141] = -939211141;
+            const t9 = "F";
+            t9[-939211141] = this;
+        },
+        "d": -939211141,
+        "a": "F",
+        "c": -85036064,
+        "h": -939211141,
+    };
+    return o6;
+}
+let v7 = f0();
+const v8 = f0();
+f0();
+function F10(a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a12;
+    } catch(e13) {
+    }
+    try {
+        this.b = a12;
+    } catch(e14) {
+    }
+}
+const v15 = new F10(v7);
+v7 &= v7;
+new Uint8ClampedArray(4);
+new Uint8ClampedArray(127);
+new Float64Array(3849);
+const v25 = new F10(v8);
+new F10(v25);
+const v36 = new Uint32Array();
+Object.defineProperty(v36, "constructor", { writable: true, configurable: true, enumerable: true, value: Symbol });
+let v37 = -4294967297n;
+const v38 = v37--;
+function f39(a40, a41, a42, a43) {
+    const v44 = a40.keys;
+    try { v44(); } catch (e) {}
+    function f46() {
+        let v47;
+        try { v47 = new v44(a41, "d", Symbol, a41, v15); } catch (e) {}
+        v47.__proto__;
+        var e = a41;
+        let [...v49] = "constructor";
+        Reflect.construct(f0, [], v49);
+        return f46;
+    }
+    a40.constructor = f46;
+    const t57 = a40?.constructor;
+    const v54 = t57();
+    const o62 = {
+        [v37](a56, a57, a58, a59) {
+            eval();
+        },
+    };
+    new Array(v54);
+    const v66 = new Int8Array();
+    const v68 = v66.buffer.slice(v44, v54);
+    try { v68.slice(v38); } catch (e) {}
+    return f46;
+}
+for (let v70 = 0; v70 < 10; v70++) {
+    f39(v36);
+}
+%OptimizeFunctionOnNextCall(f39);
+f39(5);

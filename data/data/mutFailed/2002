@@ -1,0 +1,60 @@
+const v1 = new Date();
+function f2() {
+    return Date;
+}
+const v12 = [2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614];
+const v13 = [];
+function f14() {
+    const o15 = {
+    };
+    try {
+        o15.e = "tan";
+    } catch(e16) {
+    }
+    try {
+        const o17 = {
+        };
+        o17.e = "tan";
+        o17.c = "tan";
+    } catch(e18) {
+    }
+    try {
+        const o19 = {
+        };
+        o19.e = "tan";
+        o19.c = "tan";
+        o19.a = "tan";
+    } catch(e20) {
+    }
+    try {
+        const o21 = {
+        };
+        o21.e = "tan";
+        o21.c = "tan";
+        o21.g = v12;
+    } catch(e22) {
+    }
+    return v13;
+}
+v13.valueOf = f14;
+function f24() {
+    function f25() {
+        try {
+            Date.now();
+        } catch(e27) {
+        }
+        return v1;
+    }
+    return f25;
+}
+function f28(a29) {
+}
+Object.defineProperty(Date, "valueOf", { writable: true, configurable: true, get: f24, set: f28 });
+class C31 {
+    constructor(a33, a34) {
+        a33.valueOf = f24;
+        Date | a33;
+    }
+}
+new C31(v13);
+parseInt(v12);

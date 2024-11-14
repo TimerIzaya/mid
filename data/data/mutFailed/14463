@@ -1,0 +1,24 @@
+function f0() {
+}
+new Uint8Array(1000);
+new Uint8ClampedArray(0);
+new Uint16Array(148);
+new Float32Array(3);
+new Float64Array(11);
+new Float32Array(256);
+function f21() {
+    return 148;
+}
+function f22(a23) {
+    try {
+        new Uint16Array(3);
+    } catch(e26) {
+    }
+}
+Object.defineProperty(Date, 4, { writable: true, enumerable: true, get: f21, set: f22 });
+const v27 = new Date();
+const o28 = {
+    __proto__: Date,
+    [3.0]: v27,
+};
+new Int16Array(o28);

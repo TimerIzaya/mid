@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = this;
+    } catch(e3) {
+    }
+    try {
+        this.g = -1755394341;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0(F0, F0);
+const v7 = new v6();
+function f8(a9, a10) {
+    const o17 = {
+        __proto__: a9,
+        268435439: v5,
+        set dotAll(a12) {
+            const v13 = super[this];
+            const o14 = {
+            };
+            new v13(v5, o14);
+        },
+        238: a9,
+    };
+    return o17;
+}
+const v18 = f8(v5, v7);
+f8(v18, v18, v18);
+f8(f8, v7);
+[-3.0,3.452144300445224e+307,796.2566956979554];
+[0.0,Infinity,849664.8996953485,2.2250738585072014e-308,2.2250738585072014e-308,-1000.0,91456.48905641469,8.006499580648549e+307,0.0,3.5545658110204457];
+[-2.220446049250313e-16];
+const v26 = new Map();
+function f27(a28, a29) {
+    const o36 = {
+        "a": a28,
+        [v26]: a29,
+        [4096](a31, a32, a33) {
+        },
+        ...v26,
+        [a29]: Map,
+        valueOf(a35) {
+        },
+    };
+    return a29;
+}
+for (let v37 = 0; v37 < 395; v37++) {
+    f27();
+}
+const o39 = {
+};

@@ -1,0 +1,81 @@
+let v1 = new Map();
+class C2 {
+    toString(a4) {
+        delete this[Map];
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        v9--;
+                        const v13 = v9 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+        return o16;
+    }
+}
+const v17 = new C2();
+const v18 = new C2();
+const v19 = new C2();
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a26;
+    } catch(e27) {
+    }
+    try {
+        this.e = a25;
+    } catch(e28) {
+    }
+    try {
+        this.c = a26;
+    } catch(e29) {
+    }
+    const v31 = new Map();
+    v1 *= v31;
+    try { C2.then(a23, v17, a24, this, v1); } catch (e) {}
+}
+const v34 = new F21(v19, v17, v18, v17);
+const v35 = new F21(v18, v17, v34, v18);
+const v36 = new F21(v35, v17, v35, v19);
+class C37 {
+    constructor(a39, a40, a41, a42) {
+        class C44 extends v19.constructor {
+            static d = v34;
+            #g;
+        }
+        new C44();
+    }
+    [F21];
+    [v17];
+    static [v17] = C2;
+    a = v35;
+    1000 = v36;
+}
+const v46 = new C37(v36, v19, v19, v17);
+new C37(v17, v46, C37, v19);
+new C37(v34, v35, v19, v18);
+const v51 = new BigUint64Array(3927);
+function f52(a53, a54, a55) {
+    try { a53.apply(a54, v51); } catch (e) {}
+    class C57 {
+        static g = v1;
+        static [F21];
+        static a;
+    }
+    new C57();
+    new C57();
+    new C57();
+    f52 ** a54;
+    return v51;
+}
+f52(f52);

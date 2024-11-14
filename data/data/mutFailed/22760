@@ -1,0 +1,62 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a5;
+    } catch(e6) {
+    }
+    try {
+        this.c = -13n;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(F3);
+new F3(v8);
+new F3(v8);
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a16;
+    } catch(e18) {
+    }
+}
+new F14(-13n, 8n);
+new F14(8n, -13n);
+new F14(268435456n, 8n);
+const v24 = new Int32Array();
+const t25 = 8n;
+const v27 = new t25();
+const v30 = new Float64Array();
+function f31(a32, a33, a34, a35) {
+    a33 - a32;
+    a33 >> a33;
+    a34 | a34;
+    a35 >>> a35;
+    const v40 = a33 - a33;
+    v40 >>> v40;
+    try {
+        for (let v42 = 0; v42 < 50; v42++) {
+            for (let v43 = 0; v43 < 25; v43++) {
+                v24["p" + v43] = v43;
+            }
+        }
+    } catch(e46) {
+    }
+    a34 & a34;
+    a35 >> a35;
+    const o59 = {
+        [616]: Int32Array,
+        "b": Int32Array,
+        10: v27,
+        "g": 616,
+        [v24]: a34,
+        "d": Int32Array,
+        n(a50, a51) {
+            4096 | v30;
+            v30[110];
+            a51--;
+        },
+    };
+    return o59;
+}
+f31();
+f31(4096, 4096);

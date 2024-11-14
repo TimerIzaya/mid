@@ -1,0 +1,55 @@
+class C3 {
+    static #d = "-29896";
+    f = "-29896";
+    static get f() {
+        let v5;
+        try {
+        const t0 = "-1690923011";
+        v5 = t0(this);
+        } catch (e) {}
+        function F6(a8, a9) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = a8;
+            } catch(e10) {
+            }
+        }
+        new F6("-1690923011", v5);
+        new F6("-29896", "5xV");
+        new F6("-1690923011", "-1690923011");
+        return F6;
+    }
+}
+const v14 = C3?.__defineSetter__;
+try { new v14("-1690923011", C3); } catch (e) {}
+new C3();
+const v17 = new C3();
+v17.f;
+new C3();
+const v21 = new Date();
+const v24 = new Uint16Array(2);
+new Uint32Array(v24);
+function f27() {
+    return v21;
+}
+let v29 = -1778293875n;
+v29--;
+for (let v31 = 0; v31 < 5; v31++) {
+    function f32() {
+        const o36 = {
+            __proto__: f32,
+            valueOf(a34, a35) {
+                return a35;
+            },
+        };
+        return v31;
+    }
+    f32();
+    %OptimizeFunctionOnNextCall(f32);
+}
+try { ("-9007199254740991").blink(); } catch (e) {}
+const v43 = [];
+Object.defineProperty(v43, Symbol.toPrimitive, { writable: true, configurable: true, value: f27 });
+try { v43.reverse(); } catch (e) {}
+v43[0] = v43;
+new BigInt64Array(v43);

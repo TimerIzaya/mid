@@ -1,0 +1,52 @@
+class C3 {
+    o(a5, a6) {
+        const v7 = super.c;
+        const v8 = super[v7];
+        try { new v8(v8); } catch (e) {}
+        function F10(a12, a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a12;
+            } catch(e14) {
+            }
+            try {
+                this.c = v7;
+            } catch(e15) {
+            }
+        }
+        const v16 = new F10(-2, F10);
+        new F10(F10, this);
+        const v18 = new F10(this, v16);
+        return v18;
+    }
+}
+const v19 = new C3();
+new C3(v19, -2);
+new C3("number", -2);
+new Int32Array(1897);
+new Int32Array(-65535);
+new Uint32Array(1635);
+C3.constructor;
+Reflect.construct(Uint8ClampedArray, [[1.0,-6.818981069405753e+307]]);
+const v42 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+function f43() {
+    try {
+        v42.forEach();
+    } catch(e45) {
+        e45.a = e45;
+    }
+    const v47 = String.toPrimitive;
+    String.for(v47.description);
+    v47.description;
+    String.fromCharCode();
+    return v47;
+}
+f43();
+const o57 = {
+    ["536870889"]: "isSafeInteger",
+    set growable(a55) {
+    },
+    get e() {
+        return "536870889";
+    },
+};

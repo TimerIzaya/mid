@@ -1,0 +1,16 @@
+[4294967296];
+[268435440,-12];
+[268435456,-12];
+new Uint16Array(4096);
+new Uint16Array(0);
+new Uint16Array(200);
+function f18() {
+    return ([f18,f18]).constructor.isArray();
+}
+%PrepareFunctionForOptimization(f18);
+const v23 = -12 % 0;
+const v25 = new Date(v23);
+v25.setFullYear(v25, v23, v23);
+f18();
+%OptimizeFunctionOnNextCall(f18);
+Uint16Array();

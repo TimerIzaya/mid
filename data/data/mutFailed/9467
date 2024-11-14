@@ -1,0 +1,54 @@
+function f0() {
+}
+class C1 {
+    static #n() {
+        try {
+            this.d = f0;
+        } catch(e3) {
+        }
+        this[Symbol.toStringTag];
+        return f0;
+    }
+}
+const v7 = new C1();
+const v8 = new C1();
+const v9 = new C1();
+function f10(a11) {
+    const o12 = {
+        "h": v8,
+        "e": v7,
+        "f": v8,
+        [v9]: C1,
+        [a11]: v9,
+        "c": a11,
+        "d": f0,
+        "b": v8,
+        [f0]: a11,
+        __proto__: v7,
+    };
+    return o12;
+}
+[-1.7976931348623157e+308,-613.7550152041111] ^ -1264607604;
+f10(v7);
+const v17 = f10(f10);
+const v18 = f10(f10);
+class C19 extends f0 {
+    constructor(a21, a22, a23) {
+        super();
+        this[1] = a22;
+        try {
+            a22.__proto__ = v9;
+        } catch(e24) {
+        }
+    }
+    g = C1;
+    static 373 = f0;
+}
+const v25 = new C19(C19, v18, v17);
+const v26 = new C19(v7, C19, v8);
+new C19(v25, v26, v26);
+for (let v28 = 0; v28 < 5; v28++) {
+    let v31 = -2147483649 * v28;
+    ++v31;
+    Math.tan(v31);
+}

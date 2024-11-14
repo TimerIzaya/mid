@@ -1,0 +1,26 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = F0;
+    } catch(e3) {
+    }
+    try {
+        this.h = -5;
+    } catch(e4) {
+    }
+    try {
+        this.b = -5;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new v6();
+new v7();
+const v12 = [F0];
+[F0];
+[v6,-2.2250738585072014e-308,0.048697054965161524,v12];
+new Map();
+/\p{Nd}/gumy;
+/(\1a)/gvdy;
+/a*b|c\1(a)/umsy;
+Math.tanh();

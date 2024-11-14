@@ -1,0 +1,48 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = undefined;
+    } catch(e3) {
+        class C4 {
+            static valueOf(a6) {
+                a6[5];
+            }
+        }
+        const v8 = new C4();
+        try { ("uVO").lastIndexOf(v8, C4); } catch (e) {}
+    }
+    try {
+        this.e = undefined;
+    } catch(e11) {
+    }
+}
+new F1();
+new F1();
+new F1();
+new Int8Array(9);
+new Uint8Array(16);
+const v26 = new Int8Array(1);
+const v27 = [-47479,-256,-11,58632];
+const v28 = [536870888,8];
+const v29 = [2147483649,2147483649,-65537,-268435456,10,9223372036854775807];
+function f30(a31) {
+    const o35 = {
+        set g(a33) {
+        },
+        get g() {
+            return v26;
+        },
+        __proto__: a31,
+        ...v28,
+        4096: v29,
+    };
+    return o35;
+}
+const v36 = f30(v27);
+const v37 = f30(v27);
+Object.defineProperty(v36, 512, { configurable: true, get: f30 });
+const o40 = {
+    __proto__: v37,
+    "d": f30,
+};
+Object.defineProperty(v27, 1024, { get: f30, set: o40 });

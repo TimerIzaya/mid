@@ -1,0 +1,51 @@
+function f0() {
+    const o8 = {
+        "b": -15,
+        [-3.0]: "V",
+        __proto__: "V",
+        "d": -3.0,
+        "c": "V",
+        valueOf(a5) {
+            let v6;
+            try { v6 = a5(-3.0, this, this, "V"); } catch (e) {}
+            try {
+                this.b = v6;
+            } catch(e7) {
+            }
+            return v6;
+        },
+    };
+    return o8;
+}
+const t19 = f0();
+t19();
+const t20 = f0();
+new t20(2208);
+const v17 = new Int16Array(4, 4, Int16Array, Int16Array);
+new BigUint64Array(0);
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v26 = this.constructor;
+    try { new v26(268435440n, v17); } catch (e) {}
+    this.f = 268435440n;
+}
+const v28 = new F22();
+const v29 = new F22();
+let v30 = 65536;
+v30--;
+function f32(a33) {
+    const o36 = {
+        ...BigUint64Array,
+        5: a33,
+        valueOf(a35) {
+            return v28;
+        },
+        "g": v30,
+    };
+    return v29;
+}
+%PrepareFunctionForOptimization(f32);
+f32();
+f32();
+%OptimizeFunctionOnNextCall(f32);
+f32(268435440n);

@@ -1,0 +1,69 @@
+class C6 {
+    static f;
+    8;
+    constructor(a8, a9) {
+        const v10 = this.constructor;
+        try { new v10(); } catch (e) {}
+        let v12 = 0;
+        for (let i = 0; i < 10; i++) {
+            Math.atan();
+            const v16 = v12++;
+            v16 - v16;
+        }
+    }
+    static get d() {
+        const v19 = this[this];
+        let v20;
+        try { v20 = v19(); } catch (e) {}
+        v20[232] |= v19;
+        return v19;
+    }
+    static get b() {
+        switch (-1000000000000.0) {
+            case this:
+                this.f;
+                break;
+        }
+        for (let v23 = 0; v23 < 32; v23++) {
+            this["p" + v23] = v23;
+        }
+        return -1.7976931348623157e+308;
+    }
+    #a = 65536;
+    /*
+    constructor(a27) {
+        class C28 {
+            static [65536] = this;
+            static d = 65536;
+            static [this] = this;
+        }
+        new C28();
+        new C28();
+        new C28();
+    }
+    */
+}
+new C6();
+const v33 = new C6();
+new v33();
+const o40 = {
+    "arguments": "async",
+};
+gc(o40);
+function f42() {
+    function f43() {
+        class C44 {
+        }
+        const v45 = new C44();
+        const t57 = v45.constructor;
+        new t57();
+    }
+    %PrepareFunctionForOptimization(f43);
+    f43();
+    %OptimizeFunctionOnNextCall(f43);
+    f43();
+}
+const o52 = {
+    "type": "function",
+};
+new Worker(f42, o52);

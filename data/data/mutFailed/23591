@@ -1,0 +1,30 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const o6 = {
+            "maxByteLength": 1000,
+        };
+        new ArrayBuffer(10000, o6);
+    } catch(e8) {
+    }
+}
+const v9 = new F1();
+const v14 = [];
+const v15 = [3.0,NaN,2.2250738585072014e-308,0.7793185707561511,3.9639593786765336e+307,438.7897065657694,1.7976931348623157e+308,0.6694720141233361,-952389.5319984192,-3.333354770552637e+307];
+class C16 {
+    constructor(a18) {
+        try { this(); } catch (e) {}
+        for (let v21 = 0; v21 < 32; v21++) {
+        }
+        a18[Symbol.toStringTag] = v14;
+    }
+}
+new C16(v14);
+new C16(v9);
+const t23 = undefined.constructor;
+new t23(v15);
+new Uint8Array(14);
+const t26 = -4294967296;
+new t26(3820);
+new Int8Array(2877);
+-9223372036854775808n - -9223372036854775808n;

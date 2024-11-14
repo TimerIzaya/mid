@@ -1,0 +1,61 @@
+class C3 {
+    [1];
+    static c = 1;
+    #o(a5, a6) {
+        this.__proto__;
+        %VerifyType(1);
+        return a5;
+    }
+    static #g = 268435440;
+    static #f;
+    static 9;
+}
+const v8 = new C3();
+new C3();
+new C3();
+const v11 = [64,C3,C3];
+[1,1,[268435440,64,v8,268435440,64],C3];
+function f16(a17) {
+    try {
+        new C3();
+    } catch(e19) {
+    }
+    return v11;
+}
+Uint8ClampedArray[Symbol.toPrimitive] = f16;
+const v22 = new Uint8ClampedArray(129);
+const v25 = new Int32Array(1450);
+class C26 {
+    [Uint8ClampedArray] = v25;
+    static valueOf(a28, a29, a30) {
+        new a30();
+    }
+    static a = v22;
+}
+const v32 = new C26();
+const v33 = new C26();
+const v34 = new C26();
+try { v34(v34, v34); } catch (e) {}
+function f36() {
+    function f38(a39) {
+        this.c = v32;
+    }
+    v33[2147483647] = v25 << this;
+}
+const v43 = [];
+const o46 = {
+    "arguments": v43,
+    __proto__: v25,
+    ...C3,
+    65537: C26,
+    "e": f36,
+    get d() {
+        return this;
+    },
+    get c() {
+        return 1;
+    },
+    "f": v43,
+    "type": "function",
+};
+new Worker(f36, o46);

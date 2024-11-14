@@ -1,0 +1,20 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = -5.0;
+        t3.g = a9;
+    } catch(e11) {
+    }
+}
+const t8 = 1000.0;
+new t8(9, 58218, 0.6113809928208516);
+const v13 = new F6(-4294967297, 9, 0.6113809928208516);
+try {
+    F6.__proto__ = v13;
+} catch(e14) {
+}
+const t15 = 1000.0;
+t15.g -= 9;
+new F6(v13, -4294967297, 0.6113809928208516);
+new WeakMap();
+/p[a-zA-Z0-9]a||bc/gvm;

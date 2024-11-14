@@ -1,0 +1,55 @@
+new Set();
+new Float32Array(3);
+const v7 = [];
+const v10 = new Array(228);
+class C11 {
+    [Array] = v7;
+    static {
+        function F13(a15, a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a16;
+            } catch(e17) {
+                const o18 = {
+                    "getPrototypeOf": Array,
+                };
+                new Proxy(this, o18);
+            }
+        }
+        const v21 = new F13(v10, this);
+        new F13(Array, F13);
+        new F13(v21, 228);
+    }
+}
+new C11();
+const v25 = new C11();
+const v26 = new C11();
+let v29;
+try { v29 = v25.o(C11, v26, -1n, v10); } catch (e) {}
+try {
+    C11.valueOf = v29;
+} catch(e30) {
+    class C31 extends Array {
+        #h = v26;
+        static e = v10;
+    }
+    new C31();
+    new C31();
+    new C31();
+}
+new v25(3);
+new BigInt64Array(129);
+function f39(a40, a41, a42, a43) {
+    function f45() {
+        const o46 = {
+            84: arguments,
+        };
+        return a41;
+    }
+    f45();
+    %OptimizeFunctionOnNextCall(arguments);
+    return a42;
+}
+for (let v48 = 0; v48 < 5; v48++) {
+    f39(f39, v48, v48, f39);
+}

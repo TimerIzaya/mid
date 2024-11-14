@@ -1,0 +1,113 @@
+function f0() {
+}
+class C1 extends f0 {
+    #m() {
+        %VerifyType(this);
+        super[f0] = this;
+        return f0;
+    }
+    valueOf() {
+        try {
+            f0();
+        } catch(e6) {
+        }
+        const v7 = this && f0;
+        function F8(a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = a10;
+            } catch(e11) {
+            }
+        }
+        const v12 = new F8(v7);
+        new F8(this);
+        new F8(v7);
+        return v12;
+    }
+}
+const v15 = new C1();
+const v16 = new C1();
+const v17 = new C1();
+const v18 = v17?.constructor;
+try { new v18(); } catch (e) {}
+function F20(a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v23 = this?.constructor;
+    try { new v23(v15); } catch (e) {}
+    const v25 = a22?.constructor;
+    try { new v25(); } catch (e) {}
+    try {
+        this.e = a22;
+    } catch(e27) {
+    }
+    try {
+        this.g = C1;
+    } catch(e28) {
+    }
+}
+const v29 = new F20(v17);
+new F20(v17);
+new F20(v16);
+try { ("X").toWellFormed(); } catch (e) {}
+Float32Array.prototype = Float32Array;
+const v39 = Float32Array.length;
+v39 & v39;
+127 / 127;
+class C43 {
+}
+const v44 = new C43();
+const v45 = v44?.__defineSetter__;
+try { new v45(3967, C43); } catch (e) {}
+class C47 {
+    static g = v44;
+    static {
+        this.length = this;
+        const v49 = delete this.g;
+        v49 && v49;
+    }
+}
+let v51;
+try { v51 = C47.bind(v44); } catch (e) {}
+v51.e = v51;
+const v55 = Symbol("bZ");
+Symbol.f = Symbol;
+[Float32Array];
+function f58() {
+}
+[[f58,f58],f58];
+let v65;
+try { v65 = ("5").split(127, v55); } catch (e) {}
+try {
+    v44.b = v29;
+} catch(e68) {
+}
+Symbol("127");
+228 >>> 228;
+const v72 = new Array(228);
+try { v72.forEach(BigInt64Array); } catch (e) {}
+class C74 {
+    #a = C43;
+    static #b;
+    [v65];
+    f = "symbol";
+    a;
+    static {
+        this.prototype = this;
+        function F76(a78, a79) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v80 = this?.constructor;
+            try { new v80(this, a79); } catch (e) {}
+            const v82 = this?.constructor;
+            try { new v82("yi", v39); } catch (e) {}
+        }
+        new v51(v72, this);
+        new F76(Array, F76);
+    }
+}
+try {
+} catch(e86) {
+}
+let v87 = 0;
+do {
+    v87++;
+} while (9 < 9)

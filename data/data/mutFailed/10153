@@ -1,0 +1,25 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = -2147483648n;
+        t3.f = 9223372036854775807n;
+    } catch(e6) {
+    }
+    try {
+        this.d = -2147483648n;
+    } catch(e7) {
+    }
+    try {
+        this.a = 9223372036854775807n;
+    } catch(e8) {
+    }
+}
+new F3(-2147483648n);
+const v10 = new F3(-1487368726n);
+const v11 = new v10(-2147483648n);
+/\p{Script=Greek}(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\10/guy;
+for (let v21 = 0; v21 < 25; v21++) {
+    ("b")[164];
+    const t21 = "65537";
+    t21.__proto__ = v11;
+}

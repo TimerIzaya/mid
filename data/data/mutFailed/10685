@@ -1,0 +1,16 @@
+new Set(145, Set);
+new Uint8Array(2147483649);
+new Uint16Array(2300);
+new Set(62);
+new Uint32Array(385);
+new Float32Array(5);
+const v19 = ReferenceError(ReferenceError);
+v19.name = v19;
+const v21 = new Set(145);
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    +a25;
+}
+const v29 = new F22(Uint8ClampedArray, ReferenceError, Uint8ClampedArray, v19, ReferenceError, 385);
+const v30 = v29.constructor;
+try { new v30(v21, v19); } catch (e) {}

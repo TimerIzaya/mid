@@ -1,0 +1,91 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3) {
+        new Int8Array();
+        return a3;
+    }
+    this.toString = f2;
+    const o11 = {
+        valueOf() {
+            const v9 = [[this,this],F0];
+            [v9,-29076,this,v9,-29076];
+            return -29076;
+        },
+    };
+    try {
+        this.g = -29076;
+    } catch(e12) {
+    }
+    try {
+        this.e = -29076;
+    } catch(e13) {
+    }
+}
+const v14 = new F0();
+function f15(a16, a17) {
+    function f18() {
+        new Uint16Array(209);
+    }
+    class C22 extends f18 {
+    }
+    return F0;
+}
+v14.toString = f15;
+const v23 = new F0();
+function f24() {
+    return f15;
+}
+function f25(a26) {
+    for (let v27 = 0; v27 < 25; v27++) {
+    }
+}
+Object.defineProperty(v23, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f24, set: f25 });
+const v30 = new F0();
+function f31(a32) {
+    a32.valueOf = f15;
+    const o37 = {
+        "c": a32,
+        "g": a32,
+        __proto__: v14,
+        "e": v30,
+        "f": a32,
+        [a32]: v23,
+        /*
+        __proto__: v14,
+        */
+        [v23]: v23,
+        ...v23,
+        get a() {
+            return -9007199254740992;
+        },
+    };
+    return o37;
+}
+const v38 = f31(v14);
+function f39(a40) {
+    for (let v41 = 0; v41 < 100; v41++) {
+        f15(a40, a40);
+    }
+}
+Object.defineProperty(v38, "d", { enumerable: true, set: f39 });
+v38.d = v38;
+const v43 = f31(v14);
+v43.toString = f25;
+f31(v14);
+new Map();
+const v47 = [];
+v47.strike = f31;
+function F51(a53, a54, a55, a56) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a56.strike(); } catch (e) {}
+    const v58 = a53.strike();
+    try { v58.strike(); } catch (e) {}
+    const v60 = this.constructor;
+    v60.d = v60;
+    try { new v60(a56, v47, a54, a56); } catch (e) {}
+    a54[2];
+}
+v47[128];
+-v43;
+try { new F51(v47, f31, v47, F0); } catch (e) {}
+new F51("ceil", "pop", "ceil", "isConcatSpreadable");

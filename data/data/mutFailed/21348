@@ -1,0 +1,103 @@
+let v0 = WeakMap;
+const v1 = new v0();
+function f2(a3) {
+    const o20 = {
+        [v1]: v0,
+        n(a5, a6) {
+            const v7 = a6 != a3;
+            if (v7) {
+                function F8(a10, a11, a12, a13) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    try {
+                        this.e = a5;
+                    } catch(e14) {
+                    }
+                    try {
+                        this.b = a13;
+                    } catch(e15) {
+                    }
+                    try {
+                        this.f = a11;
+                    } catch(e16) {
+                    }
+                }
+                const v17 = new F8(v7, this, v0, v0);
+                new F8(v17, v17, F8, F8);
+                new F8(this, a6, v1, a3);
+            } else {
+                v0 %= a6;
+                v1[v1] = a3;
+            }
+            return a5;
+        },
+        "h": v1,
+        "c": f2,
+        "e": a3,
+        __proto__: a3,
+        [f2]: a3,
+    };
+    return o20;
+}
+const v21 = f2(f2);
+const v22 = f2(v1);
+const v23 = f2(v21);
+class C24 {
+    static {
+        let v25 = this;
+        v23 + -1278601453;
+        v21 && v23;
+        ++v25;
+    }
+    static #valueOf(a33, a34) {
+        Object.defineProperty(a33, v22, { enumerable: true, value: a33 });
+        class C35 {
+            p(a37, a38, a39, a40) {
+            }
+        }
+        const v41 = [C35];
+        Object.defineProperty(this, "e", { get: f2 });
+        try {
+            const o42 = {
+            };
+            const o43 = {
+            };
+            this.fuck(o42, v22, o43);
+        } catch(e45) {
+        }
+        const t66 = v41[Symbol.iterator].constructor;
+        const t67 = t66(C35);
+        t67();
+        const v53 = a34["n"](a34);
+        const v54 = ("n")[7];
+        try { v54(v54, f2, v54, v22, v0); } catch (e) {}
+        try {
+            a33.valueOf = v54;
+        } catch(e56) {
+        }
+        return v53;
+    }
+}
+const v57 = new C24();
+const v58 = new C24();
+const v59 = new C24();
+function f63(a64, a65) {
+    const o74 = {
+        ...a65,
+        get d() {
+            a65["n"]("n", v58, a65, a64);
+            try {
+                super.isSafeInteger();
+            } catch(e70) {
+            }
+            return v57;
+        },
+        "g": 0n,
+    };
+    return o74;
+}
+f63(0n, v21);
+f63(-734434311n, v59);
+f63(-734434311n, v21);
+const t97 = ("toString").constructor;
+const v80 = new t97();
+v80.lastIndexOf();

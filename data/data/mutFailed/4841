@@ -1,0 +1,42 @@
+class C3 {
+    constructor(a5) {
+        function F6(a8, a9) {
+            if (!new.target) { throw 'must be called with new'; }
+            for (const v10 in this) {
+                /\xe2\x81\xa3kSYa(?:b)?/dsy;
+                /Ei/gimsy;
+                /(?<=a)*/udsy;
+            }
+            try {
+                this.d = a9;
+            } catch(e14) {
+            }
+        }
+        new F6(-7.583241427522892e+307, -7.583241427522892e+307);
+        new F6(0.4875975623756904, a5);
+        new F6(a5, -7.583241427522892e+307);
+    }
+}
+const v18 = new C3(-7.583241427522892e+307);
+new C3(1.4541615252672482e+308);
+const v20 = new C3(-7.583241427522892e+307);
+Math.log(5.0);
+0.4875975623756904 / 0.4875975623756904;
+Math.tanh(44666);
+new Uint32Array(129);
+const o30 = {
+    "d": Uint32Array,
+    "c": 1.4541615252672482e+308,
+    __proto__: v20,
+    "a": 0.4875975623756904,
+    "h": C3,
+};
+new Proxy(v18, o30);
+try { v20["isArray"](); } catch (e) {}
+new Int32Array(1024);
+new Float32Array(0);
+function f41(a42, a43) {
+    a43();
+    return f41;
+}
+new Promise(f41);

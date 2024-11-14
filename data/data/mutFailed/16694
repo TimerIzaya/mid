@@ -1,0 +1,89 @@
+function f0() {
+    const o16 = {
+        get f() {
+            this ** "61580";
+            this[1665856969];
+            function F7(a9, a10) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a9;
+                } catch(e11) {
+                }
+                try {
+                    this.g = a9;
+                } catch(e12) {
+                }
+            }
+            new F7(this, this);
+            new F7("61580", "61580");
+            const v15 = new F7("61580", this);
+            return v15;
+        },
+    };
+    return o16;
+}
+f0();
+const v18 = f0();
+f0();
+class C20 {
+    #d = C20;
+    static m(a22) {
+        function f23(a24, a25) {
+            a25.f;
+            try {
+                C20();
+                ("1073741824").constructor;
+                const v32 = new Int8Array();
+                v32.buffer.slice(1073741823, "1073741824");
+            } catch(e35) {
+            }
+            return v18;
+        }
+        return a22(f23, a22);
+    }
+}
+const v37 = new C20();
+const v38 = new C20();
+const v39 = new C20();
+class C40 extends f0 {
+    static set f(a42) {
+        try {
+            this.__proto__ = v39;
+        } catch(e43) {
+        }
+    }
+    static [v39] = v18;
+    static #b;
+    static toString(a45, a46, a47) {
+        new Float32Array(8);
+        new BigUint64Array(C40);
+        new C20(3295);
+        return BigInt64Array;
+    }
+}
+new C40();
+const v58 = new C40();
+const v59 = new C40();
+function F60(a62, a63) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a62;
+    } catch(e64) {
+    }
+    try {
+        this.h = v38;
+    } catch(e65) {
+    }
+}
+new F60(v37, v59);
+new F60(v18, v58);
+new F60(v37, C40);
+const v69 = [0.0,829774.1429442992,1e-15,0.6239241725805341,Infinity];
+function F70(a72) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v73 = this.constructor;
+    try { v73.apply(v73); } catch (e) {}
+    try { new v73(); } catch (e) {}
+}
+new F70();
+new v69();

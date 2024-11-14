@@ -1,0 +1,50 @@
+class C3 {
+    ["UkcHJ"] = C3;
+    constructor(a5, a6, a7, a8) {
+        super();
+        function f9() {
+            const v10 = [];
+            v10[6] = v10;
+            const o13 = {
+                set b(a12) {
+                },
+            };
+            return a8;
+        }
+        for (let v14 = 0; v14 < 5; v14++) {
+            f9();
+            %OptimizeFunctionOnNextCall(f9);
+        }
+    }
+    static #h;
+    0;
+    static #c = "boolean";
+    static #toString(a17, a18) {
+        if (a17) {
+            function F19(a21, a22, a23, a24) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = a21;
+                    const v27 = new Int8Array(3816);
+                    v27[1];
+                    try { ("function")["boolean"](); } catch (e) {}
+                } catch(e31) {
+                }
+            }
+            const v32 = new F19(F19, a18, F19, this);
+            const v33 = new F19(a17, F19, a18, "boolean");
+            new F19(v33, v32, "boolean", F19);
+        } else {
+            %VerifyType("UkcHJ");
+        }
+        return 536870888;
+    }
+}
+new C3();
+for (const v37 in [1000.0,-1000.0,0.4309916776051478,1000000.0,-1.0,-560.6262021777798,NaN,3.0]) {
+    Math.tan(-23394);
+}
+new C3();
+new C3();
+const v49 = new Uint16Array(9);
+v49.includes(true, -706152110);

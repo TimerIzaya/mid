@@ -1,0 +1,65 @@
+class C3 {
+    static {
+        try { new this(); } catch (e) {}
+        this[9] = "number";
+        super.f = this;
+        -6n != -6n;
+        const v8 = -6n ^ -6n;
+        v8 * v8;
+        -15758n % -15758n;
+    }
+    n(a14) {
+        try {
+            super.getMinutes("number", a14, this, a14, 14);
+        } catch(e16) {
+        }
+        return this;
+    }
+}
+new C3();
+new C3();
+const v19 = new C3();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+function f22() {
+    return "number";
+}
+f22.arguments;
+let v26 = 2147483648;
+v26 != v26;
+v26--;
+let v29 = 8;
+v29++;
+const v32 = new Uint8Array(v29);
+const v33 = v32[6];
+v33 + v33;
+127 + 127;
+new Float32Array(127);
+const v41 = new Float32Array(8);
+v41[7];
+Uint8Array[Symbol.iterator] = f22;
+const v46 = new Uint8Array(Uint8Array);
+v46[1];
+const v48 = v46[1];
+v48 / v48;
+function f50(a51, a52, a53, a54) {
+    const v55 = a53++;
+    v55 << v55;
+    const v57 = a53++;
+    const v58 = v57 - v57;
+    v58 >>> v58;
+    const v60 = v57 * v57;
+    v60 >>> v60;
+    a53 % a53;
+    const o63 = {
+        ...v46,
+    };
+    o63.valueOf = Symbol;
+    o63[2] = o63;
+    const v64 = o63[2];
+    v64[2];
+    return v64 >>> v64;
+}
+for (let v67 = 0; v67 < 500; v67++) {
+    f50();
+}

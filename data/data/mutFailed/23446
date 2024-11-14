@@ -1,0 +1,56 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        return F0;
+    }
+    function f3(a4) {
+        [-1000000000.0,2.100099765769839,0.13675887841668832,518994.7119583967,-279449.54151107755,-217.75214882766704,-516030.57038455334,989023.7055491325,NaN];
+        [-5.0,2.220446049250313e-16,-0.0,-5.0,-294598.6100102003];
+        [-1.4283661541005274e+308,1.252790776889953e+308,NaN];
+    }
+    Object.defineProperty(this, "a", { writable: true, get: f2, set: f3 });
+    try {
+        this.a = 26477;
+    } catch(e9) {
+    }
+    try {
+        this.d = 26477;
+    } catch(e10) {
+    }
+}
+const v11 = new F0();
+const v12 = new F0();
+const v13 = new F0();
+const v17 = [v12,v12,v12,-1073741824n];
+const v18 = [v12,v17,F0];
+[v17,-65535n,v13,v17,v18];
+class C20 {
+    constructor(a22, a23, a24, a25) {
+        function f26() {
+            return 48480n;
+        }
+    }
+    static set e(a28) {
+        this[-65535n] = this;
+        try {
+            v17.toString = a28;
+        } catch(e29) {
+        }
+    }
+}
+new C20(v12, -1073741824n, v12, v18);
+const v31 = new C20(v13, -1073741824n, v11, -1073741824n);
+new C20(v31, -1073741824n, v31, F0);
+function f33() {
+    function f34(a35, a36) {
+        return f33;
+    }
+    f34.MAX_SAFE_INTEGER = f34;
+    f34.MAX_SAFE_INTEGER = f34;
+    Promise.resolve(f34);
+    return f33;
+}
+%PrepareFunctionForOptimization(f33);
+f33();
+%OptimizeFunctionOnNextCall(f33);
+f33();

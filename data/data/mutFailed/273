@@ -1,0 +1,64 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = undefined;
+    } catch(e3) {
+    }
+    try {
+        F1.f = undefined;
+    } catch(e4) {
+    }
+}
+new undefined();
+const v6 = new F1();
+const v7 = new v6();
+[1.7199173331222077e+308,-8.477231850471515,-326.5657634251353,-948.2645400726233,1000000000.0,542.468309472705,Infinity,1.0,5.0];
+[1.0,182.85782615647008,-5.0,-1.4597178032841622e+308,887750.4199285181,0.5567963867851168,-0.0,NaN,-4.0,0.7281260625078178];
+[NaN,-5.0,-Infinity,2.220446049250313e-16];
+~v7;
+let v1 = Uint8ClampedArray;
+function f2(a3, a4) {
+    const v7 = 6 ** v1;
+    v7 - v7;
+    ++v1;
+    6 & a4;
+    return 6;
+}
+v1[Symbol.toPrimitive] = f2;
+new v1(6);
+const v16 = new Int8Array(2326);
+try { new Int16Array(Int16Array, v1, v1); } catch (e) {}
+const v20 = new Int16Array(3275);
+try { v20.filter(3275); } catch (e) {}
+function f22(a23, a24, a25, a26) {
+    a24--;
+    a25--;
+    const o40 = {
+        [v1](a30, a31, a32) {
+            const o35 = {
+                "maxByteLength": 536870888,
+            };
+            const v37 = new ArrayBuffer(4066, o35);
+            new Uint16Array(v37);
+            return v37;
+        },
+        [2326]: a23,
+        10000: Int16Array,
+    };
+    return o40;
+}
+f22.e = v16;
+f22.e = f22;
+f22(2326, 6, 6, 2326);
+const v42 = f22(v1, 3275, 3275, 3275);
+v42[10000] = v42;
+f22(v42, 2326, 3275, 6)[10000];
+const v47 = new Int32Array(255);
+v47[230];
+new Int8Array(8);
+const v54 = new Int16Array(0);
+try { v54.entries(); } catch (e) {}
+try { BigInt64Array(v1, v1, Int8Array); } catch (e) {}
+const v58 = new BigInt64Array();
+v58.b = v58;
+try { v58.reduce(v58); } catch (e) {}

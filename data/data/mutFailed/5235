@@ -1,0 +1,48 @@
+for (const v3 in -2147483649) {
+    var b = v3;
+}
+Reflect.construct(-4, [], -2147483649);
+function f10(a11, a12, a13) {
+    const o18 = {
+        [a13]: -2147483649,
+        "e": a13,
+        "a": -2147483649,
+        __proto__: "o",
+        10: a13,
+        [5]: a13,
+        set h(a15) {
+            let v16 = "valueOf";
+            try { this[v16](); } catch (e) {}
+            v16 = "boolean";
+            a11 = a15;
+            [] = v16;
+        },
+    };
+    return o18;
+}
+f10("2", "o", "o");
+f10("o", "boolean", "2");
+f10("2", "o", "boolean");
+function F28(a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    delete this?.g;
+    const o34 = {
+        "maxByteLength": 1670,
+    };
+    const v36 = new SharedArrayBuffer(1670, o34);
+    new Int16Array(v36);
+    this.constructor = f10;
+    if (4.0 != 0n) {
+        f10(1670, 0n, Int16Array);
+    } else {
+        throw F28;
+    }
+    const v41 = a30 ^ a30;
+    Math.cosh(Math);
+    v41 * v41;
+    const v45 = this.constructor;
+    v45.length = v45;
+    try { new v45(3n); } catch (e) {}
+}
+new F28(0n);
+new F28(349865170n);

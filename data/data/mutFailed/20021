@@ -1,0 +1,26 @@
+new Uint32Array(3082);
+new Int16Array(256);
+new Float64Array(8);
+class C12 {
+}
+const v13 = new C12();
+function f14() {
+    let v17 = -3;
+    let v18 = v17 << 256;
+    const v20 = ++v18 % 256;
+    v17 % v17;
+    Math.sqrt(256);
+    v20 & v20;
+    return v17++;
+}
+v13.constructor = f14;
+function f25(a26, a27) {
+    a27.constructor = f25;
+    const v28 = a27?.__lookupGetter__;
+    a27?.constructor;
+    return v28;
+}
+%PrepareFunctionForOptimization(f25);
+f25(Uint16Array, v13);
+%OptimizeFunctionOnNextCall(f25);
+f25();

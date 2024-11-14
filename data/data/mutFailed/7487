@@ -1,0 +1,50 @@
+class C3 {
+    valueOf(a5, a6) {
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = "charCodeAt";
+            } catch(e11) {
+            }
+            try {
+                this.h = a9;
+            } catch(e12) {
+            }
+        }
+        const v13 = new F7(this, 1.7976931348623157e+308);
+        new F7(v13, a5);
+        new F7(2147483648, 2147483648);
+        return this;
+    }
+}
+const v16 = new C3();
+const v17 = new C3();
+const v18 = v17?.__lookupSetter__;
+try { new v18(1.7976931348623157e+308); } catch (e) {}
+const v20 = new C3();
+class C21 extends v20 {
+    #n(a23, a24, a25, a26) {
+        let v22 = this;
+        v22 = super.valueOf(a25);
+        a24[1127] &&= v20.a;
+        a25 |= a26;
+        return v16;
+    }
+    f = "charCodeAt";
+    static #c;
+    static #e;
+    [2147483648] = C3;
+}
+const v29 = C21?.constructor;
+let v30;
+try { v30 = new v29(2147483648); } catch (e) {}
+const v31 = new C21();
+v31[2147483648] = v31;
+new C3();
+new C21();
+([-65537,-1073741824,-128,-65535,-12,-2147483649,15])[2];
+[7,-9007199254740990,-4294967295,7,-595232131,13702,55884];
+[23588,-2];
+const v39 = v30?.tan;
+try { new v39(Math); } catch (e) {}
+Math.exp(-359.60295377780096);

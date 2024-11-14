@@ -1,0 +1,47 @@
+const v2 = new Array(7);
+try { v2.reduce(Array, v2); } catch (e) {}
+Array(7);
+%PrepareFunctionForOptimization(Array);
+Array(7);
+Array(7);
+%OptimizeFunctionOnNextCall(Array);
+const v8 = Array(7);
+const v13 = new Int32Array(4);
+Int16Array.BYTES_PER_ELEMENT = Int16Array;
+const v16 = new Int16Array(1916);
+const v19 = typeof v16 === "function";
+const v20 = v19 || v19;
+const v23 = new Uint8ClampedArray(2);
+try { new Int8Array(7, "function", "function"); } catch (e) {}
+const v27 = new Int8Array(1024);
+const v30 = Float32Array?.of;
+const o33 = {
+    valueOf() {
+        try {
+            v8.length = 1916;
+        } catch(e32) {
+        }
+        return 1024;
+    },
+};
+try { new v30(); } catch (e) {}
+new Float32Array(3332);
+const v38 = new BigUint64Array(3080);
+Set.f = Set;
+v27.buffer ||= 1024;
+new Array(3080);
+v13[1916] = v38;
+Object.defineProperty("function", 536870887, { configurable: true, value: v20 });
+[v2,129n,Int32Array,v2];
+[Int8Array,v13,Int16Array,Int32Array];
+[v23,Set];
+class C45 extends Set {
+}
+try { new C45(); } catch (e) {}
+const v47 = new C45();
+try { v47.forEach(1916); } catch (e) {}
+try { ("delete").toLocaleLowerCase(); } catch (e) {}
+let v54 = -5.0;
+v54--;
+-1.7976931348623157e+308 === -1.7976931348623157e+308;
+v47["delete"](129n);

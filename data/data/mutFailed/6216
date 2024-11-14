@@ -1,0 +1,71 @@
+class C3 {
+    constructor(a5, a6) {
+        /[x]d[^(?:a+){0,0}]?/gvim;
+        /M/gudsy;
+        /f\p{General_Category=Decimal_Number}a|b+/gum;
+    }
+    toString(a11, a12) {
+        const t7 = "number";
+        t7[a12] = this;
+        let v13 = 0;
+        do {
+            let v14;
+            try { v14 = a12(-968954084); } catch (e) {}
+            try { v14(v14, v14, v13, this, v14); } catch (e) {}
+            v13++;
+        } while (v13 < 6)
+        return v13;
+    }
+}
+new C3(1000000000000.0, C3);
+const v20 = new C3("number", 1000000000000.0);
+new C3("number", v20);
+/(?<=)/guimy;
+/[a-zA-Z0-9]/gvdims;
+/a??a{0}foo(?<=bar)baz+/vim;
+new Array(5);
+const v28 = [0.4011189249997249];
+[-0.6837508401846577,-1.7976931348623157e+308];
+[-195141.55497202475,0.0452235209359082];
+[-Infinity,Infinity,959819.665748626];
+const v32 = [0.881533214430694,1000000000000.0,-2.6561951388069446e+306,1e-15,-601975.7256958171,-2.0,1.0,-1000000000000.0,-5.0];
+[-6.825886894231237,-1000000000.0,-7.405832553829715,-5.0];
+function f37() {
+    let v39 = 1000000000000.0;
+    const v40 = v39--;
+    -v40;
+    class C45 {
+        constructor(a47) {
+            const v49 = new Float32Array();
+            try { v49.entries(); } catch (e) {}
+            const v51 = new Uint16Array(12, -4294967296, v40);
+            new Float32Array(v51, -4294967296, 268435439, v39, v51);
+        }
+    }
+    try { new C45(12); } catch (e) {}
+    const v54 = new C45(257828.6336153492);
+    const v55 = new C45();
+    const v56 = new C45(-4294967296);
+    const v57 = [v56,C45];
+    [257828.6336153492,v56,v54,v56,v57];
+    const v59 = [v56,C3,-968954084,Int32Array];
+    class C60 extends C45 {
+        [v54];
+    }
+    const v61 = new C60();
+    const v62 = v59.constructor;
+    try { v62.isArray(v59); } catch (e) {}
+    class C64 extends v62 {
+    }
+    C64.a = C64;
+    const v65 = new C64();
+    const v66 = v65?.constructor;
+    try { new v66(); } catch (e) {}
+    Object.defineProperty(v65, 65537, { value: v55 });
+    try { v61.m(v57); } catch (e) {}
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f37);
+f37();
+%OptimizeFunctionOnNextCall(f37);
+f37(v28, Array, v32);

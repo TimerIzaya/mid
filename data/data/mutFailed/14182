@@ -1,0 +1,43 @@
+const v2 = new Uint32Array(193);
+const v5 = new Uint16Array(178);
+function f6(a7) {
+    try {
+        a7.c = v5;
+    } catch(e8) {
+    }
+    return a7;
+}
+v5[Symbol.toPrimitive] = f6;
+try { v5.slice(v5, 178); } catch (e) {}
+3152 >>> 3152;
+const v15 = new Float32Array(3152);
+const v17 = [v5,v5,Uint32Array,true];
+v17[1] = v17;
+const v18 = [v2,Uint32Array,Float32Array,Float32Array];
+v18[1];
+[Uint32Array,v17,3152];
+function f21(a22, a23, a24) {
+    a22 - a22;
+    a24[3] = a24;
+    const o34 = {
+        __proto__: a24,
+        [a23]: a23,
+        "c": a24,
+        [3152]: a22,
+        "d": 3152,
+        ...a24,
+        valueOf(a27, a28, a29, a30) {
+            return a23;
+        },
+        "e": v15,
+        "f": true,
+        "a": a24,
+    };
+    return o34;
+}
+f21(3152, 178, v17);
+f21(193, 193, v18);
+f21(3152, 193, v17)[3];
+ReferenceError[Symbol.toPrimitive] = ReferenceError;
+const v42 = ReferenceError(ReferenceError);
+v42.stack = v42;

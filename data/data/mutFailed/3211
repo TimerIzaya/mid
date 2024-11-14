@@ -1,0 +1,43 @@
+class C3 {
+    constructor(a5, a6) {
+        for (let v7 = 0; v7 < 32; v7++) {
+            const t3 = "fromCodePoint";
+            t3["p" + v7] = v7;
+            function F10(a12, a13, a14, a15) {
+                if (!new.target) { throw 'must be called with new'; }
+                eval();
+                function F18(a20) {
+                    if (!new.target) { throw 'must be called with new'; }
+                }
+                new F18();
+            }
+            const o23 = {
+            };
+            gc(o23);
+        }
+    }
+    static set g(a26) {
+        const v27 = -1e-15 - a26;
+        -1e-15 - this;
+        const v30 = new WeakSet();
+        try {
+            super.o(this, v30, v27, NaN);
+        } catch(e32) {
+        }
+    }
+}
+const v33 = new C3(NaN, "fromCodePoint");
+new C3(v33, C3);
+new C3(NaN, v33);
+[1.0,4.1398675632228666e+307,-3.0];
+[1.7976931348623157e+308,0.5183868937327629,NaN,-4.19687936662728];
+[0.0,0.047775405855942865,0.3496596760505436];
+const o43 = {
+    4294967296: 1733353236,
+};
+const o45 = {
+    get h() {
+        return o43;
+    },
+    ...o43,
+};

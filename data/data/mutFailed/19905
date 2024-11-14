@@ -1,0 +1,45 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 5;
+    } catch(e3) {
+    }
+    try {
+        this.d = 5;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C8 {
+    static #p(a10) {
+        super[super.d] = v7;
+        return F0;
+    }
+    constructor(a13, a14) {
+        try { a14(a14, v7); } catch (e) {}
+        for (let i18 = 0, i19 = 10; i18 < i19; i19 & i19, i18++, i19--) {
+            i18 >> i18;
+            i19 | i19;
+            try {
+                v7.fuck(-250051807, i19, -250051807, 7.619961690178926e+307);
+            } catch(e33) {
+                e33.message;
+            }
+        }
+    }
+}
+C8.a = C8;
+const v35 = new C8(v6, C8);
+const v36 = new C8(v35, v6);
+new C8(v36, v7);
+1073741824 !== 1073741824;
+new BigInt64Array(2048276341);
+8 + 8;
+const v48 = new Int16Array(8);
+v48[4];
+64 + 64;
+new BigUint64Array(64);
+const t43 = [-24725,-9223372036854775807,268435439,-267077871,-63246,2147483647,-12];
+t43.length = -65537;

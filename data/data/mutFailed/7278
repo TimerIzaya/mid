@@ -1,0 +1,103 @@
+function f0() {
+    const o17 = {
+        "b": "d",
+        valueOf(a5) {
+            try {
+                this.toString = a5;
+            } catch(e9) {
+            }
+            new Uint16Array();
+            const v12 = [268435456,-12,1073741825,-9007199254740990,-1024,10000,512,-3];
+            const v14 = new Int8Array();
+            const t11 = v14.constructor;
+            new t11(v12, a5, f0, Int8Array);
+            return this;
+        },
+        __proto__: "d",
+        "f": 1000000000.0,
+        ..."d",
+    };
+    return o17;
+}
+const v18 = f0(f0, f0);
+const v19 = f0();
+const v20 = f0(v19, v19, f0);
+function f21() {
+    return v20;
+}
+v18[8] = f0;
+const v23 = Symbol.iterator;
+const o35 = {
+    [v23]() {
+        let v25 = 10;
+        const o34 = {
+            next() {
+                v25--;
+                const v29 = v25 == 0;
+                const o30 = {
+                    "done": v29,
+                    "value": v25,
+                };
+                return o30;
+            },
+            get d() {
+                return this;
+            },
+            toString() {
+                super[this];
+                return this;
+            },
+        };
+        return this;
+    },
+};
+function f36(a37) {
+    const o48 = {
+        [v20](a39, a40) {
+            try {
+                return;
+                let v42;
+                try { v42 = this["cos"](); } catch (e) {}
+                v42 = "cos";
+                a37 = f0;
+                new f0();
+            } catch(e44) {
+            }
+            return v18;
+        },
+        set byteOffset(a46) {
+            v18[5] = a46;
+            super[a37];
+        },
+        [a37]: v19,
+        __proto__: v20,
+        ...a37,
+    };
+    return o48;
+}
+function f49(a50, a51, a52, a53) {
+    class C55 extends Float64Array {
+    }
+    const v56 = new C55();
+    v56.getDay();
+    return f49;
+}
+for (let v58 = 0; v58 < 10; v58++) {
+    f49(v58, v58, v58, v58);
+}
+f36(v19);
+f36(v18);
+const v62 = f36(v18);
+const v65 = new BigInt64Array(1024);
+new Uint16Array(61174, v20, v65, v18);
+function* f70(a71, a72, a73) {
+    try { a72["n"](a72, f70, v23); } catch (e) {}
+    return yield v20;
+}
+f70(v18, v62, o35);
+new Uint32Array(257);
+const v81 = new BigUint64Array();
+const v83 = [v81];
+for (let v84 = 0; v84 < 50; v84++) {
+}
+v83[65536] %= 256;

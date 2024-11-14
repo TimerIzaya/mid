@@ -1,0 +1,45 @@
+function f3(a4) {
+    const o13 = {
+        "f": -1.6123677279207305e+308,
+        "a": 356.9901081967996,
+        toString(a6, a7) {
+            const o11 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o11);
+            return 1e-15;
+        },
+    };
+    return o13;
+}
+const v14 = f3(1e-15);
+const v15 = f3(356.9901081967996);
+f3(356.9901081967996);
+class C17 extends f3 {
+    static set b(a19) {
+        try {
+            this.__proto__ = v14;
+        } catch(e20) {
+        }
+    }
+    #valueOf(a22, a23, a24, a25) {
+        this[v15];
+        function f27() {
+            return a24;
+        }
+        return f3;
+    }
+}
+new C17();
+new C17();
+new C17();
+const v37 = [15,52917,-9223372036854775807,-647320912,1463936330,-11132,-65537,1005084643,16,1073741823];
+v37.toString = f3;
+for (let v38 = 0; v38 < 5; v38++) {
+    function f39() {
+        return ("Vre").fixed("Vre").concat(v37);
+    }
+    f39();
+    %OptimizeFunctionOnNextCall(f39);
+}

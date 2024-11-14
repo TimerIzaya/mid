@@ -1,0 +1,28 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = null;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+new v5();
+new WeakSet();
+new WeakSet();
+function F14() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v16 = new F14();
+function f17() {
+    const t17 = "g";
+    t17[14] &&= -31455;
+    return 14;
+}
+v16.valueOf = f17;
+const v21 = new WeakSet();
+function f22() {
+    return Date;
+}
+v16.toString = f22;
+try { v4.set(v21, v16); } catch (e) {}

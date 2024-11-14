@@ -1,0 +1,37 @@
+function f0() {
+    const v4 = ("2147483648")?.toLocaleUpperCase;
+    try { new v4(); } catch (e) {}
+    const o13 = {
+        "d": -1e-15,
+        o(a7, a8) {
+            const v9 = a8?.d;
+            const t6 = "2147483648";
+            delete t6[536870887];
+            a8?.d;
+            v9.c -= a7;
+            try {
+                a8.__proto__ = this;
+            } catch(e12) {
+            }
+            return -1e-15;
+        },
+    };
+    return o13;
+}
+f0();
+const v15 = f0();
+const v17 = v15()?.constructor;
+try { new v17(f0); } catch (e) {}
+[f0];
+const v20 = [f0,v15];
+try { v20.map(f0); } catch (e) {}
+const v22 = [v20];
+try { v22.findLastIndex(f0); } catch (e) {}
+new Uint16Array(64);
+const v29 = new Uint16Array(434);
+v29[74];
+new Uint8ClampedArray(127);
+try {
+    ("number").repeat(506345303);
+} catch(e37) {
+}

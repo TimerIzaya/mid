@@ -1,0 +1,47 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0];
+const v2 = [v1,v1,v1,v1];
+const v3 = [v2,v2,v2,v2];
+function f4() {
+    return v2;
+}
+function f5() {
+    return v3;
+}
+function f6(a7, a8) {
+    let v9;
+    try { v9 = a7.sort(f6); } catch (e) {}
+    try { a8.groupToMap(v9); } catch (e) {}
+    const o19 = {
+        __proto__: a7,
+        m(a12, a13, a14, a15) {
+            f5();
+            try {
+                new a15();
+            } catch(e18) {
+            }
+            return a7;
+        },
+        "b": f5,
+    };
+    try { o19.findLast(v2); } catch (e) {}
+    return o19;
+}
+try { f6(v2, f6); } catch (e) {}
+f6(v2, v1);
+const v23 = f6(v1, f6);
+const v24 = f6(v1, v1);
+try { v24.find(v23); } catch (e) {}
+function f26() {
+    return f26;
+}
+f26.finally = v23;
+const v27 = [-3,257];
+class C28 extends v1 {
+    static #n(a30, a31, a32) {
+        Object.defineProperty(a30, 10, { writable: true, configurable: true, enumerable: true, set: f26 });
+    }
+}
+const v33 = new C28();
+v33.finally = v23;
+try { v33.finally(v27, f26, f26); } catch (e) {}

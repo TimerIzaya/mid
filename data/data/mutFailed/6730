@@ -1,0 +1,65 @@
+const v0 = [2.2250738585072014e-308,656.0321045098649,1000000000000.0,NaN,1000.0,0.0,-0.0,1000.0];
+const v1 = [-2.220446049250313e-16,-1.1651797109709587e+308,146321.18034394272,3.0,1000000.0,705310.9755896444];
+function f2(a3) {
+    const o4 = {
+    };
+    new Proxy(v0, o4);
+    return v1;
+}
+v1[Symbol.toPrimitive] = f2;
+const v9 = [-0.0,1000.0,736.7094580946687,-2.220446049250313e-16,-170.20292356591392,-1000000000.0,-1000000000.0,-1.172436345137942e+308];
+const v10 = [13,-4294967297,9007199254740991,1073741825,536870889,919959323,-128];
+const v11 = [9007199254740990,8,1000,4294967295,268435456,-2147483647,12,-4294967297];
+const v12 = [129,12,-1316052513,-55955,-7,-4,536870887,-268435456];
+for (const v13 of v11) {
+    try {
+        v10.keys();
+    } catch(e15) {
+    }
+}
+function f16() {
+    return v11;
+}
+function f20(a21, a22, a23, a24) {
+    a21.toString = f16;
+    Object.defineProperty(a24, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, value: f2 });
+    const o41 = {
+        255: a24,
+        "f": v10,
+        __proto__: v0,
+        get g() {
+            let v28;
+            try { v28 = v11.values(); } catch (e) {}
+            try { new v28(); } catch (e) {}
+            [...v28,v28,f16,this,...a21];
+            return a22;
+        },
+        [a21](a32, a33) {
+            const v37 = typeof "ymg5q";
+            v37 === "symbol";
+            v0.length;
+            return v37;
+        },
+    };
+    return o41;
+}
+f20(v1, v0, v12, v10);
+const v43 = f20(v10, v12, v1, v11);
+f20(v1, v9, v12, v0);
+class C48 {
+}
+class C49 extends C48 {
+    static set b(a51) {
+        class C61 {
+            #a;
+            constructor(a63, a64, a65) {
+                a64.#a;
+            }
+        }
+    }
+}
+switch (f20) {
+    case v43:
+        try { C49.toString(-1.5876750346470025e+308); } catch (e) {}
+        break;
+}

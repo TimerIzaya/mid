@@ -1,0 +1,57 @@
+class C3 {
+    constructor(a5) {
+        this[-1];
+        let v7;
+        try { v7 = ("f").search(a5); } catch (e) {}
+        a5 instanceof v7;
+        this + "f";
+        const v12 = new Uint8Array(3345);
+        new Uint16Array(4);
+        new Uint8ClampedArray(9);
+        v12.byteOffset;
+        a5 * v7;
+        const o21 = {
+        };
+        new Proxy("f", o21);
+    }
+}
+const v24 = new C3(5.0);
+const v25 = new C3(5.0);
+const v26 = new C3(v25);
+class C27 extends C3 {
+    [v25];
+    constructor(a29, a30, a31, a32) {
+        super(v24);
+        5.0 instanceof C3;
+        super.b %= -1.7976931348623157e+308;
+        super[-1.7976931348623157e+308 ^ v24] = v25;
+    }
+    static #a = v26;
+    3 = 5.0;
+    [v24] = v24;
+    1577 = -1.7976931348623157e+308;
+}
+const v35 = new C27(C27, "f", C3, v26);
+const v36 = new C27(v35, "f", C3, v26);
+const v37 = new C27(v35, v36, v36, v36);
+[1281595220];
+[8];
+[255,822328068];
+const o43 = {
+    valueOf() {
+        return [NaN,1000.0,8.951106279668121,-3.0,-Infinity,1.7976931348623157e+308,-4.0,243.50965730660823,0.0];
+    },
+    6: C27,
+    "g": v37,
+    "h": 5.0,
+    "d": 5.0,
+    __proto__: v35,
+};
+function F44(a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a46.valueOf(); } catch (e) {}
+    const v49 = this.constructor;
+    try { new v49(a46); } catch (e) {}
+}
+new F44();
+new F44(o43);

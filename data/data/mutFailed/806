@@ -1,0 +1,62 @@
+class C9 {
+    get c() {
+        try {
+            super.o(1024n, this);
+        } catch(e12) {
+        }
+        return this;
+    }
+    f;
+    static set h(a14) {
+        function F15(a17, a18) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = "g";
+            } catch(e19) {
+            }
+            try {
+                this.f = a18;
+            } catch(e20) {
+            }
+            try {
+                this.a = "e";
+            } catch(e21) {
+            }
+        }
+        new F15(a14, "e");
+        new F15(1000000000000.0, "e");
+        new F15(-6.121128688418393, this);
+    }
+}
+new C9();
+const v26 = new C9();
+new C9();
+function f28(a29, a30, a31) {
+    const o40 = {
+        __proto__: C9,
+        4: "e",
+        valueOf(a33, a34, a35, a36) {
+            let v37 = 10;
+            for (; v37--;) {
+                try { v37.p(); } catch (e) {}
+            }
+            return 45034n;
+        },
+        [a29]: a30,
+        [a30]: a29,
+    };
+    return a30;
+}
+const v41 = f28(1000000000000.0, -6.121128688418393, v26);
+f28(1000000000000.0, 1000000000000.0, v41);
+v41(1000000000000.0, -6.121128688418393, v41);
+const o44 = {
+};
+function f45() {
+    return o44;
+}
+function f46(a47, a48) {
+    Object.defineProperty(o44, "h", { writable: true, configurable: true, enumerable: true, get: f45, set: f45 });
+    return a48;
+}
+new Promise(f46);

@@ -1,0 +1,141 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.d = f0;
+    } catch(e4) {
+    }
+    try {
+        this.a = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new F1();
+const v8 = new F1();
+function f9() {
+    return f0;
+}
+function f10(a11, a12, a13, a14) {
+    const o20 = {
+        ...a14,
+        [a11]: v7,
+        [a13]: a11,
+        __proto__: v6,
+        toString(a16, a17, a18) {
+            f9();
+            return F1;
+        },
+        [v8]: f0,
+        "f": a11,
+        ...v6,
+    };
+    return o20;
+}
+const v21 = f10(f10, v7, v6, v8);
+const v22 = f10(v7, v6, v6, v7);
+f10(v21, v7, v6, v7);
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v8;
+    } catch(e30) {
+    }
+    try {
+        this.c = a28;
+    } catch(e31) {
+        let v33 = undefined;
+        const o34 = {
+        };
+        v33 = o34;
+        o34.propertyIsEnumerable;
+        const v38 = new Uint8Array();
+        function f39(a40, a41, a42, a43) {
+            const v44 = a42++;
+            a42 % a42;
+            const o49 = {
+                "b": a40,
+                ...v38,
+                n(a47, a48) {
+                },
+            };
+            return v44;
+        }
+        for (let v50 = 0; v50 < 625; v50++) {
+            const v51 = f39(Uint8Array, 2, v50);
+            try { v51(v33); } catch (e) {}
+        }
+    }
+}
+const v53 = new F24(v21, v22, v6, v8);
+const v54 = new F24(v22, v21, v7, v22);
+new F24(v53, v21, v6, v54);
+function f56() {
+    let v57 = "boolean";
+    const o77 = {
+        "e": -2147483647,
+        [-2147483647]: 8.80579417534662,
+        0: -2147483647,
+        set a(a61) {
+            Math.round(1531487198);
+            ++v57;
+            Math.sinh(-268435456);
+            let v68 = ~1531487198;
+            const v69 = [748666.7832804511,3.0];
+            class C71 extends Float64Array {
+                [v69];
+            }
+            new C71();
+            !(v68++);
+            let v75;
+            try { v75 = a61(a61, a61); } catch (e) {}
+            v75?.[-2147483647];
+        },
+        "h": -2147483647,
+        4294967296: 8.80579417534662,
+        __proto__: v57,
+    };
+    return o77;
+}
+f56();
+class C81 extends Array {
+}
+new C81();
+const v86 = new BigUint64Array(10);
+v86.g = v86;
+for (const v88 in v86) {
+    new Float64Array(2147483647);
+}
+const v93 = new BigUint64Array(116);
+const o96 = {
+};
+for (let v97 = 0; v97 < 5; v97++) {
+    for (let v98 = 0; v98 < 5; v98++) {
+        const t118 = [0.8307152163010869,1.0,0.0];
+        t118.length = v98;
+    }
+}
+new BigInt64Array(v93, 116, 116);
+const t123 = f56();
+delete t123?.e;
+const o104 = {
+    "maxByteLength": 150,
+};
+const v105 = /[\cA](?!(a))\1/udims;
+[v105,v105,v105,v105,v105];
+new BigInt64Array(7);
+new Int32Array(1024);
+function f111() {
+    new Uint16Array(209);
+    return 209;
+}
+new Int8Array(268435456);
+const v120 = Float64Array.of();
+v120.toString = f111;
+[];
+new Date(Array, v120);

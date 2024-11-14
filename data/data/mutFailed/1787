@@ -1,0 +1,19 @@
+class C1 {
+    #p() {
+        this[9] = false;
+        %VerifyType(C1);
+        Reflect.construct(this, [], false);
+        return Reflect;
+    }
+    static #g = false;
+    #b = false;
+    [false];
+    static 0 = false;
+}
+const v6 = new C1();
+new v6();
+new C1();
+new BigInt64Array(732);
+new Uint8Array(64);
+new Float64Array(6);
+/\P{Decimal_Number}/gudims;

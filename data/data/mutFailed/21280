@@ -1,0 +1,59 @@
+const v5 = new BigUint64Array(2);
+v5[1];
+new Int8Array(644);
+let v10 = 7;
+v10--;
+new Uint32Array(v10);
+new Date();
+9007199254740991n << 9007199254740991n;
+const v18 = 9007199254740991n * 9007199254740991n;
+function F19() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v21 = this?.constructor;
+    try { new v21(); } catch (e) {}
+    4294967296 >>> 4294967296;
+    try {
+        this.b = 4294967296;
+    } catch(e25) {
+    }
+    try {
+        function F26() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v28 = new F26();
+        const v29 = v28?.constructor;
+        try { new v29(); } catch (e) {}
+        const v31 = new F26();
+        const v32 = v31?.constructor;
+        try { new v32(); } catch (e) {}
+        function f34(a35, a36) {
+            const o37 = {
+                "h": v31,
+                "e": v28,
+            };
+            return o37;
+        }
+        const v38 = f34();
+        f34(F19, v38);
+        function f40() {
+            return f34;
+        }
+        const v43 = new Float32Array(218);
+        v43[216] = v43;
+        for (const v44 of v43) {
+            Object.defineProperty(v38, Float32Array, { configurable: true, enumerable: true, get: f34, set: f40 });
+        }
+        this.g = 4294967296;
+    } catch(e45) {
+    }
+    try {
+        this.f = 4294967296;
+    } catch(e46) {
+    }
+}
+F19.prototype;
+new F19();
+new F19();
+const v50 = new F19();
+v50.f;
+v18 & v18;

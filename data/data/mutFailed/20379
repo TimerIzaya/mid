@@ -1,0 +1,20 @@
+new Int16Array(6);
+new Uint16Array(2.2250738585072014e-308);
+const t2 = 2.2250738585072014e-308;
+new t2(153);
+const o19 = {
+    "h": true,
+    ...true,
+    get c() {
+        return this;
+    },
+    set d(a18) {
+    },
+    "d": Uint8ClampedArray,
+};
+const v21 = new Float64Array();
+const v22 = v21.maxByteLength;
+try {
+    v22.resize(o19);
+} catch(e24) {
+}

@@ -1,0 +1,22 @@
+class C3 {
+    constructor(a5, a6) {
+        function F7(a9, a10, a11) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = this;
+            } catch(e12) {
+            }
+        }
+        const v13 = new C3(-9223372036854775808, -9223372036854775808, 2);
+        new F7(v13, 2, a5);
+        new F7(a5, this, "toString");
+    }
+}
+new C3(2, "toString");
+new C3(C3, -9223372036854775808);
+new C3("toString", 2);
+new Int8Array(127);
+new Int8Array(1000);
+new Uint8Array(835);
+const v29 = new Float64Array();
+delete v29[-1.5286188982640463e+308];

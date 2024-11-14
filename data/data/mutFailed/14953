@@ -1,0 +1,28 @@
+new Int16Array(16);
+new Int8Array(181);
+new Float64Array(6);
+const v10 = new Uint8Array();
+const t4 = [65535,9223372036854775807,2101773358,536870888,536870912,7];
+t4.__proto__ = v10;
+const v14 = new Uint8ClampedArray(995);
+Reflect.apply(v10, v14, [16,127,16]);
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "c", { writable: true, value: 16 });
+    try {
+        this.b = a23;
+    } catch(e25) {
+    }
+    try {
+        this.e = a24;
+    } catch(e26) {
+    }
+    try {
+        this.c = Int16Array;
+    } catch(e27) {
+    }
+}
+new F19(181, 181, 16, 16);
+new F19(16, 6, 6, 181);
+new F19(6, 181, 181, 6);
+([735.0257666748869,0.8927745243580386]).push(-93227259);

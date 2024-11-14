@@ -1,0 +1,125 @@
+const v0 = [-4096,268435439,65537,5,-4294967296];
+const v1 = [4,65536,-6,15];
+const v2 = [-893189373,-9007199254740990,4294967295];
+function f3() {
+    [] = v2;
+    function F4(a6, a7, a8, a9) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v10 = this.constructor;
+        try { new v10(v10, a6, F4, this); } catch (e) {}
+        function f12(a13, a14) {
+            return a6;
+        }
+        new Promise(f12);
+    }
+    return F4;
+}
+v2[Symbol.toPrimitive] = f3;
+class C19 {
+    constructor(a21, a22) {
+        super[v2] = this;
+        const v24 = Symbol.iterator;
+        const o33 = {
+            [v24]() {
+                let v26 = 10;
+                const o32 = {
+                    next() {
+                        v26--;
+                        const v30 = v26 == 0;
+                        const o31 = {
+                            "done": v30,
+                            "value": v26,
+                        };
+                        return o31;
+                    },
+                };
+                return o32;
+            },
+        };
+    }
+    toString(a35) {
+        let v36;
+        try { v36 = C19(); } catch (e) {}
+        try {
+            super.trimStart(v36);
+        } catch(e38) {
+        }
+        return a35;
+    }
+}
+const v39 = new C19(v0, v0);
+const v40 = new C19(v2, v0);
+const v41 = new C19(v1, v1);
+function f42(a43, a44) {
+    const o53 = {
+        get g() {
+            super[this] = this;
+            return -995883;
+        },
+        get h() {
+            const v50 = [this,this];
+            const v51 = [v50];
+            [v50,v51];
+            return v51;
+        },
+        "d": C19,
+        "b": v2,
+        "c": v41,
+        "e": v1,
+        "a": v1,
+        "a": v41,
+    };
+    return o53;
+}
+const v54 = f42(C19, C19);
+const v55 = f42(v39, v39);
+v55.toString = Symbol;
+f42(v55, v39);
+class C57 {
+    static m(a59, a60) {
+        try {
+            a59.__proto__ = this;
+            let v61;
+            try { v61 = C57.o(v41, C57, v1); } catch (e) {}
+            delete v40[2147483649];
+            function F64(a66, a67, a68, a69) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.e = a66;
+                } catch(e70) {
+                }
+                try {
+                    this.d = this;
+                } catch(e71) {
+                }
+                try {
+                    this.c = v61;
+                } catch(e72) {
+                }
+            }
+            new F64(this, a59, v61, v54);
+            new F64(v61, v39, v0, v55);
+            new F64(C57, this, v61, v54);
+        } catch(e76) {
+        }
+        super.c;
+        const v78 = v39 >> v1;
+        v55[v78];
+        return v78;
+    }
+    #f;
+    d;
+    [v55];
+    #g = v0;
+}
+new C57();
+new C57();
+new C57();
+function f85(a86, a87) {
+    const o88 = {
+        "f": a87,
+    };
+    return o88;
+}
+f85(1096487296, 1096487296);
+f85(268435441, 268435441);

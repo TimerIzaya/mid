@@ -1,0 +1,20 @@
+class C3 {
+    static #toString(a5, a6) {
+        try {
+            ("function").#toString(this, a6, "deref", this);
+        } catch(e8) {
+        }
+        return this;
+    }
+    ["function"];
+    g;
+    static 3420;
+}
+const v9 = new C3();
+const v10 = new C3();
+new v10();
+function f12() {
+    return v9;
+}
+new f12();
+Symbol("function");

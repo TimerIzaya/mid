@@ -1,0 +1,30 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.byteOffset = -28299;
+    } catch(e3) {
+    }
+    try {
+        this.a = -28299;
+    } catch(e4) {
+    }
+}
+const v5 = new F0(F0);
+new F0();
+new F0();
+new Float64Array(7);
+new v5(7);
+new Int32Array(107, 107);
+function F17(a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v20 = [0.42814979232542394,311.25870633837985,-730.6995581896936,-31162.384441508562];
+    function F21(a23, a24, a25, a26) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v27 = this.caller;
+        try { new v27(a24, F17, v27); } catch (e) {}
+        v20.a <<= 1;
+    }
+    new F21();
+}
+const v31 = new F17();
+new F17(v31);

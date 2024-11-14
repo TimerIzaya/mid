@@ -1,0 +1,63 @@
+const v1 = new WeakMap();
+class C2 {
+    [-2];
+    static e;
+    static valueOf(a4, a5) {
+        try {
+            super.n(new.target, a5, a5, 6);
+        } catch(e11) {
+        }
+        return 9223372036854775807;
+    }
+    static #g;
+}
+const v12 = new C2();
+const v13 = new C2();
+const v14 = v13?.constructor;
+try { new v14(); } catch (e) {}
+const v16 = new C2();
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v21 = this?.__lookupGetter__;
+    try { new v21(this); } catch (e) {}
+    const v23 = a20?.constructor;
+    try { new v23(); } catch (e) {}
+    try {
+        this.d = v1;
+    } catch(e25) {
+    }
+}
+F17.b = F17;
+const v26 = new F17(C2, v16);
+const v27 = new F17(v26, v26);
+v27.length = v27;
+const v28 = new F17(v12, WeakMap);
+const v29 = [v1,v1];
+let v30;
+try { v30 = v29.values(); } catch (e) {}
+const v31 = [v12,WeakMap];
+try { v31.reduce(v13); } catch (e) {}
+const v34 = Math.round();
+async function f35(a36, a37, a38) {
+    await v34;
+    return f35;
+}
+[v28,v13,F17,v29];
+class C45 extends Array {
+    2 = 64;
+}
+const t48 = 64;
+const v46 = new t48();
+function f47() {
+    return Array;
+}
+v46.some(f47);
+const v49 = new v30();
+const v51 = new Set();
+v51.add(v49);
+let [v53,,...v54] = v51;
+const v55 = v53?.setFullYear;
+try { new v55(v12, C2, v53); } catch (e) {}
+const v57 = v54?.findLast;
+try { new v57(v26); } catch (e) {}
+v53.setUTCMilliseconds();

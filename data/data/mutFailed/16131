@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3) {
+        new Uint8Array(2974);
+        return this;
+    }
+    this.toString = f2;
+    try {
+        this.a = 536870888;
+    } catch(e8) {
+    }
+    try {
+        this.b = 536870888;
+    } catch(e9) {
+    }
+    try {
+        this.f = 536870888;
+    } catch(e10) {
+    }
+}
+function f11(a12) {
+    a12[7] = a12;
+    for (let v13 = 0; v13 < 32; v13++) {
+        a12["p" + v13] = v13;
+    }
+    return a12;
+}
+Object.defineProperty(F0, Symbol.toPrimitive, { writable: true, configurable: true, value: f11 });
+const v18 = new F0();
+const v19 = new F0();
+const v20 = new F0();
+class C21 extends F0 {
+    #a = F0;
+    static n(a23, a24) {
+        e = v18;
+        super.b;
+        return v18;
+    }
+    4054353957 = v18;
+    static [F0];
+    [v19] = v20;
+    static #d;
+}
+new C21();
+new C21();
+const v28 = new C21();
+v28[4054353957] = v28;
+1898089719 >> 1898089719;
+class C33 {
+}
+const v34 = new C33();
+try { v34.propertyIsEnumerable(C33); } catch (e) {}
+try { ReferenceError(v19); } catch (e) {}
+ReferenceError(v34);
+ReferenceError();

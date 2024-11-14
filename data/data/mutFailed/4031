@@ -1,0 +1,109 @@
+class C3 {
+    set h(a5) {
+        function f6() {
+            class C7 {
+            }
+            const v8 = new C7();
+            const v9 = new C7();
+            function f10(a11, a12) {
+                const o13 = {
+                    __proto__: a11,
+                };
+                return v8;
+            }
+            const v14 = f10(v9);
+            try { v14["n"](); } catch (e) {}
+            return v14;
+        }
+        a5.constructor = f6;
+        const v17 = this?.constructor;
+        try { new v17(); } catch (e) {}
+        try { a5.constructor(); } catch (e) {}
+        const v20 = this.__proto__;
+        const v21 = v20?.constructor;
+        try { new v21(); } catch (e) {}
+        function f23() {
+            return v20;
+        }
+        f23.name;
+    }
+    static ["-44973"];
+    #valueOf(a26, a27) {
+        const v30 = Reflect.construct(a26, [], a26);
+        ("o").__proto__;
+        const v32 = super.e;
+        function F33(a35, a36, a37, a38) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = v30;
+            } catch(e39) {
+            }
+        }
+        const v40 = new F33(NaN, this, v32, v30);
+        new F33(v40, Reflect, "o", v40);
+        const v42 = new F33(a27, NaN, Reflect, "-44973");
+        return v42;
+    }
+}
+const v43 = C3?.call;
+try { new v43("o"); } catch (e) {}
+const v45 = new C3();
+function f46(a47, a48) {
+    const o49 = {
+    };
+    return o49;
+}
+v45[Symbol.toPrimitive] = f46;
+const v52 = new C3();
+v52.constructor = f46;
+v52.h = v52;
+const v53 = new C3();
+function F54(a56) {
+    if (!new.target) { throw 'must be called with new'; }
+    const o58 = {
+        "b": 1e-15,
+    };
+    !(delete o58.b);
+}
+const v61 = new F54(F54);
+v61.constructor = f46;
+const v62 = v61?.constructor;
+try { new v62("-44973"); } catch (e) {}
+new F54();
+class C68 {
+    2;
+    static 6;
+    static {
+        this[6] = this;
+        const v70 = this;
+        v70.h = v70;
+        v70[6];
+    }
+    constructor(a73, a74, a75) {
+        this.d = C3;
+        a73.constructor = Symbol;
+        this[2];
+        a74 >>> a74;
+        Object.defineProperty(this, NaN, { configurable: true, enumerable: true, value: a75 });
+        a73 - a74;
+        super.e = a73;
+        this.d;
+        class C80 {
+        }
+        try { new C80(); } catch (e) {}
+        const v82 = C80.toString;
+        try { v82(); } catch (e) {}
+        try {
+            a75.h = a73;
+        } catch(e84) {
+        }
+    }
+}
+C68.h = "-44973";
+new C68(v53, NaN, v45);
+new C68(v45, "-5", C68);
+const v87 = new C68(v45, "-44973", v45);
+v87[2] = v87;
+Int32Array.BYTES_PER_ELEMENT;
+const v92 = new Int32Array(2528);
+v92[0] %= -1073741824;

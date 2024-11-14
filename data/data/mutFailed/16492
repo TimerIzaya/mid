@@ -1,0 +1,38 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static {
+        const v4 = WeakSet > this;
+        v4 || v4;
+        if (!v4) {
+            try {
+                const v6 = v1.add(WeakSet);
+                let v7;
+                try { v7 = v6.delete(this); } catch (e) {}
+                v7 || v7;
+            } catch(e9) {
+            }
+        } else {
+            const v10 = new WeakSet(this);
+            const v12 = [v10];
+            Reflect.apply(v4.has, v10, v12);
+        }
+    }
+}
+const v15 = new C2(C2);
+try { v15.constructor(); } catch (e) {}
+const v17 = new C2();
+const v18 = new C2();
+const v21 = Uint16Array.name;
+try { v21.italics(); } catch (e) {}
+const v23 = new Uint16Array(1376);
+const v24 = v23?.findLastIndex;
+try { new v24(v1); } catch (e) {}
+try { v23.at(v17); } catch (e) {}
+new Int32Array(1376);
+let v30 = 2884;
+v30++;
+new Uint8Array(v30);
+try { new Date(v18, v18, 1376, v18, v21, v18, v18); } catch (e) {}
+const v36 = new Date();
+v36.setFullYear();
+v36.getMinutes();

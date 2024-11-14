@@ -1,0 +1,54 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    function f5() {
+        return f2(a4 &= f2, Map);
+    }
+    a3[Symbol.toPrimitive] = f5;
+    function f9(a10, a11) {
+        try {
+            Symbol.for("valueOf");
+        } catch(e14) {
+        }
+        return Map;
+    }
+    a4[Symbol.toPrimitive] = f9;
+    const o23 = {
+        __proto__: a4,
+        m(a18, a19) {
+            const v20 = this[a4];
+            try {
+                super.repeat(Map, v20, a3, this);
+            } catch(e22) {
+            }
+            return a4;
+        },
+        208: v1,
+        "b": a3,
+        257: a4,
+        [Map]: a4,
+    };
+    return a3;
+}
+const v24 = f2(Map, Map);
+f2(v24, Map);
+const v26 = f2(v24, v1);
+class C27 extends f2 {
+    n(a29, a30, a31, a32) {
+        new this();
+        try { a30.m(v1); } catch (e) {}
+        return a31;
+    }
+    g = Map;
+    e = v1;
+    #m(a37, a38, a39) {
+        super[v26] = Map;
+        %VerifyType(super.b);
+        return a39;
+    }
+}
+new C27();
+new C27();
+new C27();
+new Date();
+new Date();
+-9223372036854775808 << -9223372036854775808;

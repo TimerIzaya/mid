@@ -1,0 +1,68 @@
+function f0() {
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = NaN;
+    try {
+        this.h = a7;
+    } catch(e8) {
+    }
+    try {
+        this.d = -4.1731592438238;
+    } catch(e9) {
+    }
+    try {
+        this.f = -4.1731592438238;
+    } catch(e10) {
+    }
+}
+new F4(NaN, NaN);
+const v12 = new F4(-2.220446049250313e-16, NaN);
+const v13 = new F4(-2.220446049250313e-16, -4.1731592438238);
+function F14(a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "f", { writable: true, configurable: true, value: F14 });
+    try {
+        this.e = a17;
+    } catch(e19) {
+    }
+    try {
+        this.f = NaN;
+    } catch(e20) {
+        class C28 {
+            toString(a30, a31, a32, a33) {
+                const o42 = {
+                    [-4294967297n](a36, a37, a38, a39) {
+                        eval(a39);
+                    },
+                };
+                eval();
+            }
+        }
+    }
+    try {
+        this.c = a17;
+    } catch(e49) {
+    }
+}
+const v50 = new F14(NaN, -4.1731592438238, v13);
+new F14(v12, NaN, v50);
+new F14(F14, NaN, v12);
+class C57 {
+    n(a59, a60) {
+        super[-8n] = this;
+        const o63 = {
+            "maxByteLength": 47,
+        };
+        SharedArrayBuffer(3, o63);
+        new Int8Array();
+    }
+}
+try { Map.bind(Map, 6, Map, Map); } catch (e) {}
+const v73 = new Int32Array(-4);
+for (const v75 of v73) {
+    const o78 = {
+        "maxByteLength": 1293466293,
+    };
+    new SharedArrayBuffer(1796, o78);
+}

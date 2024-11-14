@@ -1,0 +1,65 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+const v6 = new F1();
+class C7 {
+    g;
+    static #h;
+    static get f() {
+        this[5] = v0;
+        v6[this] &&= this;
+        super[this] = v6;
+        v6[73] += v6;
+        super[this] = v6;
+        return F1;
+    }
+    static #c;
+    b;
+    #e;
+}
+new C7();
+const v10 = new C7();
+new C7();
+new BigInt64Array(0);
+new Int16Array(255);
+function f23(a24) {
+    v10[268435439] = Uint32Array;
+    v10[v5] = a24;
+    return v4;
+}
+Uint32Array.constructor = f23;
+new Uint32Array(6);
+const v26 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+Uint32Array.constructor = f23;
+const v28 = new Uint32Array();
+function f30(a31, a32, a33, a34) {
+    const v35 = a31.constructor;
+    let v36;
+    try { v36 = v35(); } catch (e) {}
+    const v37 = v36?.constructor;
+    let v38;
+    try { v38 = v37(); } catch (e) {}
+    v38.toString = f30;
+    function f39() {
+        ("Vre").charAt(v38).blink();
+        ("Vre").codePointAt(v26);
+        const o51 = {
+            [-4294967297n](a45, a46, a47, a48) {
+                eval();
+            },
+        };
+    }
+    f39();
+}
+for (let v53 = 0; v53 < 10; v53++) {
+    f30(v28);
+}
+%OptimizeFunctionOnNextCall(f30);
+f30(Uint32Array);

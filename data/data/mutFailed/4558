@@ -1,0 +1,25 @@
+class C3 {
+    static ["V"];
+    233 = "e";
+    constructor(a5) {
+        const v6 = this.constructor;
+        class C7 extends v6 {
+            #a;
+            static ["undefined"] = "V";
+        }
+        new C7("e", this, v6);
+    }
+    g = "undefined";
+    ["V"] = "e";
+    #f;
+}
+new C3("e", "V", "e", "V");
+const v10 = new C3("undefined");
+const v11 = new C3("e");
+[v11,v11];
+[C3,[v10,"undefined"]];
+new Uint8Array(126);
+new Float64Array(96);
+new Uint8ClampedArray(256);
+new Uint16Array(257, 614254366);
+([1000000000000.0,6.579220753226213e+307,2.0,-2.220446049250313e-16,NaN,-1000000.0])["findIndex"](BigInt, "findIndex", "V");

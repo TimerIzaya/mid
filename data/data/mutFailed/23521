@@ -1,0 +1,48 @@
+function f6() {
+    return 1n;
+}
+for (let v11 = 0; v11 < 5; v11++) {
+    function f12() {
+        f6 *= f12;
+        try {
+            new f12(v11, 439825.13198712794);
+        } catch(e14) {
+        }
+        const v17 = ("-2147483649").fixed("-2147483649").codePointAt();
+        const v18 = v17 | v17;
+        v18 >= v18;
+        return f12;
+    }
+    f12();
+    %OptimizeFunctionOnNextCall(f12);
+}
+function f23() {
+    const v25 = Symbol.iterator;
+    const o34 = {
+        [v25]() {
+            let v27 = 10;
+            const o33 = {
+                next() {
+                    v27--;
+                    v27 !== 0;
+                    const o32 = {
+                        "done": 9.505526644024393,
+                        "value": v27,
+                    };
+                    return o32;
+                },
+            };
+            return o33;
+        },
+    };
+}
+const v35 = [-2,257,-107178159,-35269,9223372036854775807,1203530861,-32678];
+const o36 = {
+};
+Object.defineProperty(o36, "set", { writable: true, configurable: true, enumerable: true, value: f23 });
+const v38 = new Proxy(v35, o36, Proxy, Proxy);
+let [v39,...v40] = v35;
+typeof v40 === "symbol";
+const t44 = 257;
+t44();
+v38[7] = o36;

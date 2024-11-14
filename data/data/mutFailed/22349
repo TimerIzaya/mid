@@ -1,0 +1,46 @@
+const v3 = [2.220446049250313e-16,2.220446049250313e-16];
+const v4 = [-731.3768672772916,7.369090147093541,-1e-15,1.0,1e-15,1.0];
+const v5 = [3.0,1.7976931348623157e+308,-348282.42608161643,NaN,-1.551408263279596e+308,0.6542301664942437];
+v4[5] = v5;
+class C6 {
+    valueOf(a8, a9) {
+        let {"length":v10,} = a8;
+        Reflect.construct(a9, [], a9);
+        return 2.220446049250313e-16;
+    }
+    constructor(a15, a16, a17) {
+        a16 > a16;
+        let v20 = -9007199254740991;
+        v20--;
+        let v22 = 1535300936;
+        Math.clz32(a15);
+        --v22;
+        Math.min(a16);
+        Math.imul(v3, a17);
+        v20 >> v5;
+        const v30 = !(v22 >>> a17);
+        v30 && v30;
+    }
+}
+let v32;
+try { v32 = new C6(2.220446049250313e-16, 9.688406554998787e+307, 9.281033391583108); } catch (e) {}
+const v33 = new C6(9.688406554998787e+307, v32, v3);
+const v34 = v32?.constructor;
+let v35;
+try { v35 = new v34(C6, C6, v33); } catch (e) {}
+const v36 = new C6(v4, 9.688406554998787e+307, v5);
+let v37;
+try { v37 = v36.valueOf(v36, v5); } catch (e) {}
+const v38 = new C6(v33, 2.220446049250313e-16, v4);
+const v39 = v38?.constructor;
+try { new v39(9.281033391583108, C6, v3); } catch (e) {}
+function f45() {
+    const v47 = Set.prototype;
+    try { v47.keys(); } catch (e) {}
+    return v47;
+}
+%PrepareFunctionForOptimization(v37);
+f45();
+try { v35.keys(); } catch (e) {}
+%OptimizeFunctionOnNextCall(f45);
+f45();

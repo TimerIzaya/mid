@@ -1,0 +1,9 @@
+new Uint8ClampedArray(255);
+new Float32Array(0);
+new Float64Array(1000);
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    a17.constructor;
+    try { new Float32Array(a18); } catch (e) {}
+}
+new F15(undefined, undefined, -128n);

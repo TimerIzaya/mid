@@ -1,0 +1,89 @@
+const v1 = new WeakSet();
+6 === 6;
+const v8 = new Int8Array(6);
+function f9(a10, a11) {
+    return Date.now();
+}
+v8.constructor = f9;
+try { v8.slice("bigint", "1073741823"); } catch (e) {}
+const v17 = new Uint16Array(42);
+const v19 = Symbol.toPrimitive;
+v17[v19] = f9;
+v17[12] = v17;
+function f21() {
+    ("Vre").fixed().normalize();
+    let v25 = -268435456;
+    const v26 = v25--;
+    v26 << v26;
+    return 13;
+}
+const v29 = new BigUint64Array(13);
+try { v29.with("1073741823", "bigint"); } catch (e) {}
+function f31() {
+    const o33 = {
+        get c() {
+            return this;
+        },
+    };
+    o33.configurable = o33;
+    return o33;
+}
+function f34() {
+    f31 >>> "bigint";
+    return v1 << v17;
+}
+f31.constructor = f34;
+function f37() {
+    const o39 = {
+        get c() {
+            return this;
+        },
+    };
+    return o39;
+}
+f37.constructor = f9;
+const v40 = f37?.constructor;
+try { new v40("1073741823"); } catch (e) {}
+const v42 = f31();
+v42.length = v19;
+v42.c = v42;
+class C43 extends f31 {
+    static get c() {
+    }
+    o(a46, a47, a48, a49) {
+    }
+    static get c() {
+        let v51 = 10;
+        for (; v51--;) {
+            super.c = this;
+            Symbol.isConcatSpreadable;
+        }
+    }
+}
+try { C43.constructor(C43); } catch (e) {}
+const v56 = new C43();
+const v57 = [];
+const v58 = v57?.includes;
+try { new v58(42); } catch (e) {}
+const v60 = /a\w/gudsy;
+v60.f = v60;
+const v61 = /ka{0}/guims;
+class C62 {
+}
+C62.name;
+function f64(a65, a66) {
+    const o67 = {
+        ...v61,
+        "d": v57,
+        "c": a66,
+        "g": a66,
+        "f": a65,
+        "a": a66,
+        7: C62,
+        __proto__: C62,
+        "e": v61,
+        "b": v60,
+    };
+}
+const v69 = new Int32Array(v42, v56);
+Reflect.defineProperty(v42, v69, v56);

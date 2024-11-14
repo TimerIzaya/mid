@@ -1,0 +1,35 @@
+function f0() {
+}
+const v6 = new Uint8Array(1000);
+new Uint16Array(2138);
+new Uint8ClampedArray(1024);
+function F13() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f15() {
+        function f16() {
+            for (let v17 = 0; v17 < 32; v17++) {
+                this["p" + v17] = v17;
+            }
+            return this;
+        }
+        return f16;
+    }
+    function f20(a21) {
+        try {
+            v6.byteLength = a21;
+        } catch(e22) {
+        }
+    }
+    Object.defineProperty(this, Symbol.toPrimitive, { writable: true, enumerable: true, get: f15, set: f20 });
+    try {
+        this in this;
+        new F13();
+    } catch(e31) {
+        try {
+            this.fuck(1000.0, false);
+        } catch(e35) {
+        }
+    }
+}
+new F13();
+new F13();

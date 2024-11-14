@@ -1,0 +1,43 @@
+class C1 {
+}
+const v2 = new C1();
+const v3 = new C1();
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v8 = this?.constructor;
+    try { new v8(a6, v3); } catch (e) {}
+}
+new F4(v3, v2);
+class C13 {
+    1890;
+    static {
+        function f15(a16) {
+            a16[-15] = a16;
+            return this;
+        }
+        f15(-15);
+    }
+    constructor(a19, a20) {
+        try { a19(-2.220446049250313e-16, a20, -2.220446049250313e-16, this, a19); } catch (e) {}
+        super.f = this;
+        -7.952449002201791 << a19;
+    }
+    static c = -7.952449002201791;
+    1;
+}
+const v23 = new C13(-7.952449002201791, -7.952449002201791);
+new C13(-15, v23);
+const v25 = new C13(C13, v23);
+function f26() {
+    return v25;
+}
+new Uint16Array(16);
+new BigUint64Array(1241);
+new Int16Array(7);
+const o48 = {
+    set e(a46) {
+    },
+    get e() {
+        return this;
+    },
+};

@@ -1,0 +1,41 @@
+const v1 = new WeakMap();
+function f2() {
+    return v1;
+}
+class C3 extends f2 {
+    constructor(a5, a6) {
+        super();
+        g = a6;
+        v1[this] = f2;
+        new EvalError(1);
+        new Float32Array(129);
+        new Int32Array(257);
+    }
+    static f;
+}
+new C3(WeakMap, f2);
+new C3(WeakMap, C3);
+new C3(f2, v1);
+new Array(4);
+for (let v28 = 0; v28 < 5; v28++) {
+    const v31 = new BigInt64Array(4046);
+    function f32(a33, a34) {
+        const v35 = a33++;
+        function F36(a38) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        class C39 extends F36 {
+        }
+        const v40 = new C39(4046, v35);
+        v40.constructor;
+        const o42 = {
+        };
+        for (const v43 in o42) {
+        }
+        let o44 = {
+        };
+        [,...o44] = v31;
+        return 4046;
+    }
+    f32();
+}

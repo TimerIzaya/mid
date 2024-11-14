@@ -1,0 +1,42 @@
+class C9 {
+    static p(a11, a12, a13, a14) {
+        this % a13;
+        try {
+            super.toString();
+        } catch(e18) {
+        }
+        return this;
+    }
+    get e() {
+        const t10 = 255;
+        t10[4] = this;
+        const v20 = this[this];
+        %VerifyType(-10);
+        for (let v21 = 0; v21 < 32; v21++) {
+            v20["p" + "p"] = 65536;
+        }
+        return v20;
+    }
+}
+try {
+const t0 = 54278;
+new t0();
+} catch (e) {}
+const t24 = 65536;
+new t24();
+const v26 = new C9();
+v26?.constructor;
+try { new C9(); } catch (e) {}
+const v29 = new C9();
+const v30 = v29?.constructor;
+try { new v30(); } catch (e) {}
+function f32() {
+    return C9;
+}
+[0.8491082885506085,-1.0,-1000000000.0,3.0,3.0,Infinity,-0.0,NaN];
+[7.141898409611489,Infinity,8.236025599964108,1.3500631027699364e+308,1.3379282772294201e+308,1000.0,Infinity];
+[4.815442227058694e+307,-0.0,-2.2250738585072014e-308,614.2273610200816];
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+F36.caller = F36;

@@ -1,0 +1,86 @@
+const v3 = [-2.0,-558.3379052657258];
+const v4 = [1e-15,3.0,1e-15,-1000000.0,-2.0,-187992.4158141457,-3.5174978408794733,-72.31672861971754,4.0];
+function f5() {
+    function f6(a7) {
+        for (let v8 = 0; v8 < 5; v8++) {
+            const v9 = [2.220446049250313e-16,-2.0,9.472378156545009,0.0,1e-15,0.3751557433004281,0.0,-474740.46049005154];
+            const o10 = {
+                __proto__: v9,
+            };
+            o10[6];
+        }
+        return a7;
+    }
+    return f6;
+}
+Object.defineProperty(v4, Symbol.toPrimitive, { configurable: true, get: f5 });
+try { v4.toString(); } catch (e) {}
+const v15 = [1.0,-218059.90039623622,-1000.0,-1000000000.0];
+v15.toString = Symbol;
+try { v15.toString(); } catch (e) {}
+function f17(a18, a19) {
+    try { a18.split("function", a18); } catch (e) {}
+    try { a19.entries(); } catch (e) {}
+    const o28 = {
+        ...v3,
+        "h": a18,
+        "f": "function",
+        [a19]: a18,
+        "d": "symbol",
+        "g": "symbol",
+        ["function"](a23, a24, a25) {
+            const v26 = a19.length;
+            try {
+                a18.length = v26;
+            } catch(e27) {
+            }
+            return v4;
+        },
+    };
+    o28[1] = o28;
+    return o28;
+}
+const v29 = f17("function", v15);
+v29[1] = v29;
+const v30 = f17("function", v4);
+f17("symbol", v15);
+const v34 = new Int16Array(4);
+v34[1];
+new Uint16Array(257);
+new Uint32Array(2);
+new Int8Array(3710);
+new Float32Array(3);
+new Uint32Array(9);
+new BigUint64Array(144);
+const v57 = new Set();
+class C58 {
+    b = C58;
+}
+v57["clear"]();
+const v61 = new C58();
+const v62 = new C58();
+v62.p2 = v30;
+function f63(a64, a65, a66, a67) {
+    for (let v68 = 0; v68 < 25; v68++) {
+        a65["p" + v68] = v68;
+    }
+    return a67;
+}
+f63(v61, v62);
+gc();
+new Float64Array(6);
+new Float64Array(7);
+const v78 = [-5.034735835956977e+307,-385.25474675985527];
+function f79() {
+    return f63;
+}
+function f80(a81) {
+}
+Object.defineProperty(v78, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f79, set: f80 });
+function f85(a86) {
+    let v87 = -9007199254740991;
+    v87--;
+    return v87;
+}
+v78.toString = f85;
+parseInt(v78);

@@ -1,0 +1,37 @@
+class C6 {
+    #p(a8, a9) {
+        Symbol.asyncIterator;
+        this[a8] = a8;
+        super[65535n] = this;
+        return a8;
+    }
+    static [3n];
+    static h = 64;
+    d;
+    [-9];
+    g = -9;
+}
+const v12 = new C6();
+const v13 = v12?.constructor;
+try { new v13(); } catch (e) {}
+let v15;
+try { v15 = new v12(); } catch (e) {}
+v15.g;
+const v17 = new v15();
+v17?.constructor;
+try { new C6(); } catch (e) {}
+const v20 = new C6();
+v20.b = v20;
+function f21() {
+    return 65535n;
+}
+f21.arguments = f21;
+const v22 = [2.2250738585072014e-308,1.0,-1.0,2.0,2.0,1000000000.0,-1.7976931348623157e+308,-1000.0];
+const v23 = [-741.909922364514,-5.336916539293717,-261.47537329663794,-1000000000.0,-3.0];
+const v24 = [-2.2250738585072014e-308,0.9261848366601524,-1e-15,8.72100622073302e+307,Infinity];
+v24[0] = v24;
+821 - 821;
+try { new Uint16Array(v12, v23, v12); } catch (e) {}
+const v30 = new Uint16Array(821);
+try { v30.filter(v22); } catch (e) {}
+new Uint8Array(v13);

@@ -1,0 +1,21 @@
+new Infinity(1940);
+new Int32Array(-28224);
+new Float64Array(257);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a12;
+    } catch(e14) {
+    }
+}
+new F9(257, 257, 1940);
+new F9(-28224, 1940, -28224);
+new F9(1940, -28224, 1940);
+class C18 {
+}
+const v19 = new C18();
+const v21 = delete v19.MAX_VALUE;
+let v22;
+try { v22 = v21(); } catch (e) {}
+const t19 = "f";
+t19.length = v22;

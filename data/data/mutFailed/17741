@@ -1,0 +1,86 @@
+class C4 {
+    get d() {
+        try {
+            this.__proto__ = this;
+        } catch(e6) {
+        }
+        return undefined;
+    }
+    static valueOf(a8) {
+        a8[5];
+    }
+    constructor(a11, a12, a13, a14) {
+        super();
+        function f15() {
+            return a14;
+        }
+        for (let v16 = 0; v16 < 5; v16++) {
+            f15();
+            %OptimizeFunctionOnNextCall(f15);
+        }
+    }
+    static #p(a19) {
+        const o23 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        const v27 = new Int16Array(8);
+        delete v27[-1000000000.0];
+        gc(o23);
+        return 1.0;
+    }
+}
+const v30 = new C4();
+new C4();
+const v32 = new C4();
+const v33 = [C4,v30,v32,1.0];
+[1.0];
+[v33];
+const o39 = {
+    "maxByteLength": 257,
+};
+const v41 = new ArrayBuffer(203, o39);
+v41.slice();
+const v45 = [-65535,406094985];
+const v46 = [-17291,1886,-9007199254740992,857,2,13,14,-1,536870912];
+const v47 = /(q()n)/guimsy;
+const v49 = [[],v45,v46,v47,v46];
+function f50(a51, a52) {
+    const o59 = {
+        "e": v46,
+        n(a54, a55, a56, a57) {
+            try {
+            } catch(e58) {
+            }
+        },
+    };
+}
+const v61 = new BigInt64Array();
+const o62 = {
+    ...v61,
+};
+new Date(v49);
+function f65() {
+    const o79 = {
+        next() {
+        },
+        m(a68) {
+            const o69 = {
+            };
+            function f70(a71, a72, a73) {
+            }
+            try {
+            } catch(e74) {
+            }
+            try {
+                const o75 = {
+                };
+            } catch(e76) {
+            }
+            class C77 {
+            }
+            const o78 = {
+            };
+        },
+    };
+}

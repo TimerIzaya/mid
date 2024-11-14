@@ -1,0 +1,58 @@
+function f0() {
+}
+const v1 = [f0,f0,f0,f0,f0];
+const v2 = [v1,v1,v1,f0,v1];
+const v3 = [v1,v2];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e8) {
+    }
+    try {
+        this.f = a6;
+    } catch(e9) {
+    }
+    try {
+        this.h = a7;
+        new Uint32Array(8);
+        %OptimizeFunctionOnNextCall(f0);
+        new BigInt64Array();
+    } catch(e15) {
+        new Int32Array(257);
+        class C19 {
+            #d;
+        }
+        new C19();
+    }
+}
+new F4(v3, v3);
+const v22 = new F4(v3, v1);
+const v23 = new F4(v2, v3);
+const t31 = "symbol";
+delete t31[1];
+function f28() {
+    gc();
+    return Int8Array;
+}
+class C33 extends F4 {
+    static {
+        with ([this,...v2]) {
+            v23[2147483648] /= length;
+            for (let v37 = 0; v37 < 100; v37++) {
+                f0();
+            }
+        }
+    }
+    static 2699 = v22;
+    #g;
+    [v23] = v22;
+    g;
+}
+class C39 {
+}
+Math.tanh(-1000.0);
+new C33();
+new C33();
+new C33();
+Math.cbrt(1073741824);

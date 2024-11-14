@@ -1,0 +1,44 @@
+const v1 = new Map();
+function f2(a3) {
+    const o15 = {
+        __proto__: a3,
+        [a3](a5, a6) {
+            a6 ^ a6;
+            let v8 = 3;
+            super.b;
+            v8 = 65535;
+            super.g += 4;
+            return v1;
+        },
+        3592279428: a3,
+        [Map]: Map,
+        "g": a3,
+        "f": a3,
+    };
+    return o15;
+}
+const v16 = f2(Map);
+f2(v16);
+f2(Map);
+class C19 extends f2 {
+    static #m(a21, a22, a23, a24) {
+        try {
+            a22.#m(a22);
+        } catch(e26) {
+        }
+        return a21;
+    }
+    get a() {
+        f2(v16);
+        new Uint32Array(9);
+        new Int16Array(129);
+        new Int16Array(4096);
+        return Int16Array;
+    }
+}
+new C19();
+new C19();
+new C19();
+function f45(a46, a47, a48) {
+    return null;
+}

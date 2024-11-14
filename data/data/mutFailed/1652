@@ -1,0 +1,50 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const v4 = this.__proto__?.constructor;
+        try { new v4(); } catch (e) {}
+        F0[8] = this;
+        this.a = -4;
+    } catch(e9) {
+    }
+    try {
+        this.g = -4;
+    } catch(e10) {
+    }
+}
+let v11 = new F0();
+new F0();
+const v13 = new F0();
+v13.length = v13;
+const v19 = new BigUint64Array(174);
+1718 << 1718;
+Int8Array.prototype;
+new Int8Array(1718);
+let v28;
+try { v28 = Math.trunc(Math); } catch (e) {}
+const v31 = ~-2;
+v19 - 1335860007;
+Math.floor(v11);
+Math.clz32(v31);
+const v35 = v11++;
+const v36 = new Uint8Array(8);
+const v37 = v36?.values;
+try { new v37(); } catch (e) {}
+const o42 = {
+    __proto__: null,
+    valueOf() {
+        return null;
+    },
+};
+Object.defineProperty(v19, v28, { writable: true, enumerable: true, value: BigUint64Array });
+%VerifyType(v35);
+try { o42.valueOf(); } catch (e) {}
+class C47 {
+}
+const v48 = new C47();
+("NaN")[996491688];
+v13[0];
+h[Symbol.isConcatSpreadable];
+with (v48) {
+    try { ("NaN").startsWith(h); } catch (e) {}
+}

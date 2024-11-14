@@ -1,0 +1,41 @@
+const v1 = new WeakSet();
+function f2() {
+    return v1;
+}
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f7(a8) {
+        this.f /= a6;
+    }
+    Object.defineProperty(a5, "e", { enumerable: true, set: f7 });
+    try {
+        this.c = a6;
+    } catch(e9) {
+    }
+    try {
+        a5.e = f2;
+    } catch(e10) {
+    }
+}
+F3.e = WeakSet;
+const v11 = new F3(F3, WeakSet);
+const v12 = new F3(F3, v11);
+new F3(v11, F3);
+[-9007199254740991,55159];
+[2042179764,1000,16,268435440,1444966199,589262168,-11,36879429];
+const v16 = [596121713,-4294967295,-13,8,-1073741824,-10744,15821,-1169593511,268435441];
+class C17 {
+    static #m(a19, a20, a21) {
+        Math.tanh(v11);
+        const v25 = a19 * v1;
+        Math.cbrt(v25);
+        v11 && v16;
+        return v25;
+    }
+    536870889 = v12;
+    static [v11];
+}
+new C17();
+new C17();
+new v1();
+9007199254740990 | -9007199254740990;

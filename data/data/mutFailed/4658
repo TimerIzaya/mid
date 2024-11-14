@@ -1,0 +1,103 @@
+const v1 = new WeakMap();
+const v2 = [WeakMap];
+const v3 = [v1,v2,v1,v1];
+const v4 = [v2,v3];
+function f5(a6, a7) {
+    const o17 = {
+        ...a7,
+        "e": WeakMap,
+        set b(a9) {
+            this in a9;
+        },
+        "g": v3,
+        set d(a15) {
+            let v14 = this;
+            super.d += a15;
+            v14--;
+        },
+        ...a7,
+    };
+    return o17;
+}
+f5(v3, v3);
+f5(v3, v3);
+f5(v3, v4);
+new Array(435);
+const v28 = /(\1a)/gums;
+const v29 = /V(?:a{5,1000000}){3,1000000}/vims;
+const v30 = /(?<a>.)\k<a>?/vdimsy;
+for (let v31 = 0; v31 < 27; v31++) {
+    v28.compile(v29).lastIndex;
+}
+let v34;
+try { v34 = v30(v28, v29, v29, v28); } catch (e) {}
+%VerifyType(v34);
+const v35 = [v30,v29,v28];
+v35[2] = v35;
+const v36 = [v35,v29,v30,v35,v35];
+v36[2] = v36;
+[v30,v28,v28];
+let v38 = 8;
+v38--;
+new BigInt64Array(v29, v28, v34);
+const v42 = new BigInt64Array(v38);
+new BigUint64Array(10);
+const v48 = new Uint8Array(7);
+const t45 = v48.constructor;
+new t45(Uint8Array, v42, v42);
+try { Int32Array.bind(v35); } catch (e) {}
+function f54() {
+    3.4890473589784586e+307 === 3.4890473589784586e+307;
+    let v57 = 1000000000000.0;
+    const v58 = v57--;
+    -v58;
+    -v36 && v36;
+    class C65 {
+        static #m(a67) {
+        }
+        constructor(a69) {
+            const v71 = new Float32Array();
+            let v72;
+            try { v72 = v71.entries(); } catch (e) {}
+            v72.next();
+            const v74 = new Uint16Array(12, -4294967296, v58);
+            new Float32Array(v74);
+        }
+    }
+    new C65();
+    new C65();
+    const v79 = Symbol.iterator;
+    try { v42.reduce(Int32Array, 12); } catch (e) {}
+    let v81 = 0;
+    v81++;
+    const v83 = new Array();
+    new v79();
+    const v85 = new C65(-4294967296);
+    [];
+    [257828.6336153492,v85,v83,v85];
+    const v88 = [];
+    v88[0];
+    class C90 extends C65 {
+    }
+    new C90();
+    const v92 = v88.constructor;
+    try { v92.isArray(v88); } catch (e) {}
+    class C94 extends v92 {
+    }
+    C94.a = C94;
+    const v95 = new C94();
+    const v96 = v95.constructor;
+    try { v96.bind(); } catch (e) {}
+    const o98 = {
+        "e": v88,
+        __proto__: v35,
+        [v36]: v48,
+        "h": 257828.6336153492,
+    };
+    try { o98.e(BigUint64Array); } catch (e) {}
+    return Int32Array;
+}
+%PrepareFunctionForOptimization(f54);
+f54();
+%OptimizeFunctionOnNextCall(f54);
+f54();

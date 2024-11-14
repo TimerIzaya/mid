@@ -1,0 +1,34 @@
+class C3 {
+    [-1e-15];
+    static toString(a5, a6) {
+        super.f = super.e;
+        function f8() {
+            return "symbol";
+        }
+        return a6;
+    }
+    #h = -1e-15;
+    static #d;
+    112;
+}
+const v9 = new C3();
+new C3();
+const v11 = new C3();
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a19;
+    try {
+        this.d = v11;
+    } catch(e20) {
+    }
+}
+const v21 = new F15(C3, "symbol", "65536");
+const v22 = new F15("symbol", v9, v21);
+new F15(v22, "65536", "symbol");
+const o27 = {
+    "maxByteLength": 150,
+};
+const t30 = 127;
+const v29 = new t30(127, o27);
+const v31 = new Uint8ClampedArray(v29);
+v31[-65536n] = v31;

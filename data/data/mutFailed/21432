@@ -1,0 +1,49 @@
+class C6 {
+    static [5n];
+    static #toString(a8, a9, a10) {
+        const t3 = a10?.[536870912n];
+        const t4 = delete t3?.[this[a10]];
+        t4[5] = a10;
+        return -1599071103;
+    }
+    [-2] = -5;
+    static e;
+}
+new C6();
+new C6();
+const v19 = new C6();
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a23;
+    } catch(e24) {
+    }
+    try {
+        this.b = 6n;
+    } catch(e25) {
+    }
+}
+const v26 = new F20(6n, v19);
+new F20(6n, v19);
+new F20(536870912n, v19);
+v26.b |= 1073741824;
+[-65535,0,-2029890242,2,-65536,1194371230];
+[1743895426,268435456,1073741824,65535,-27356];
+const v33 = [2,4294967295,2,5,4];
+const o34 = {
+};
+new Proxy(v33, o34);
+function f37(a38, a39) {
+    const o42 = {
+        "g": 1073741824,
+        get d() {
+            super[a38];
+            return this;
+        },
+        "f": 3,
+        ...a38,
+        10: 1073741824,
+    };
+    return o42;
+}
+f37(f37(f37));

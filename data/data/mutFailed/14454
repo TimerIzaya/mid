@@ -1,0 +1,32 @@
+const v6 = [-1.0,5.0,9.767351226840665e+307,-1.0,378.7864687508677];
+function f7(a8, a9) {
+    class C10 {
+    }
+    const v11 = new C10();
+    class C12 extends C10 {
+        [v11];
+    }
+    const v13 = new C12();
+    v13.constructor;
+    return C10;
+}
+v6[Symbol.toPrimitive] = f7;
+const v17 = [4.451050807658115,6.158299286148994e+307];
+const v18 = [933.9402305079698,-421.74901061677565,921.1311038354595,913354.288403129,0.12951551754413693,2.7493610915127537e+307];
+class C19 {
+    static [v6];
+    valueOf(a21, a22, a23, a24) {
+        try {
+            super.replace(v17, a24, 0, v18);
+        } catch(e26) {
+        }
+        return a21;
+    }
+    #g = -2165;
+    static #h = 41706;
+}
+new C19();
+new C19();
+new C19();
+const v31 = this.Realm;
+try { v31.owner(); } catch (e) {}

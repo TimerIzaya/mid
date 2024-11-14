@@ -1,0 +1,29 @@
+const v0 = /l/dims;
+const v1 = /foo(?!bar)baz/s;
+const v2 = /[\cZ](?:a+)?/gvdims;
+class C3 {
+    [v1] = v0;
+    static [v0];
+    constructor(a5) {
+        try { v2.exec(v2); } catch (e) {}
+        try {
+            v0.f = v1;
+        } catch(e7) {
+        }
+    }
+    790681913;
+}
+const v8 = new C3(v0);
+const v9 = new C3(v2);
+new C3(v9);
+new v8(8);
+new Uint32Array(6);
+const v19 = new BigInt64Array(2519);
+function f20() {
+    v19[8] = this;
+    Array.__proto__ = this;
+    return this;
+}
+f20();
+%OptimizeFunctionOnNextCall(f20);
+f20();

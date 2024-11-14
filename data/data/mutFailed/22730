@@ -1,0 +1,24 @@
+/DQ4Q/vdm;
+/[^(?!(a))\1*]/vdms;
+/pL/vi;
+let v3 = 9;
+v3++;
+for (let v5 = 0; v5 < 5; v5++) {
+    function F6(a8, a9) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v10 = new F6();
+    try { v10.constructor(v3); } catch (e) {}
+}
+new Float64Array(257);
+new Float32Array(13);
+new BigUint64Array(14);
+const v23 = new Uint32Array(3);
+class C24 {
+    constructor(a26, a27, a28, a29) {
+        for (let v30 = 0; v30 < 5; v30++) {
+            v23[v30] = a29;
+        }
+    }
+}
+new C24();

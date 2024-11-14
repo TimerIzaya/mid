@@ -1,0 +1,67 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -430903656;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f7(a8, a9) {
+    const o17 = {
+        10000: v5,
+        "f": v4,
+        8: a8,
+        "g": a9,
+        "e": v5,
+        toString(a11, a12, a13) {
+            try {
+                new F0();
+            } catch(e15) {
+            }
+            const v16 = a13;
+            return v5;
+        },
+        "a": a9,
+    };
+    return o17;
+}
+const v18 = f7(f7, v4);
+const v19 = f7(F0, v18);
+f7(v19, v18);
+class C21 extends f7 {
+    #p(a23, a24, a25) {
+        super.toString();
+        Object.defineProperty(this, a25, { get: f7 });
+        try {
+            a25.valueOf = f7;
+        } catch(e27) {
+        }
+        return this;
+    }
+    static #a = f7;
+    h = v6;
+    d = v19;
+    static #e;
+    static #h = v18;
+}
+new C21();
+const v29 = new C21();
+new v5();
+new Uint32Array(14);
+new Float32Array(v29);
+new Int32Array(129);
+function F40() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f42(a43) {
+        new F40();
+    }
+    Object.defineProperty(this, "a", { set: f42 });
+    1191742690 > 1191742690;
+    try {
+        this.a = 1191742690;
+    } catch(e47) {
+    }
+}
+new v6();

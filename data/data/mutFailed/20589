@@ -1,0 +1,44 @@
+function f0() {
+}
+f0.toString = f0;
+class C1 {
+    f = f0;
+    static [f0];
+    static o() {
+        try { this["getUTCDate"]("getUTCDate"); } catch (e) {}
+        return "getUTCDate";
+    }
+    static #d = f0;
+    [f0];
+    static 2147483649 = f0;
+    static #e = f0;
+}
+const v5 = new f0();
+const v6 = new C1();
+try { v6.f(); } catch (e) {}
+const v8 = new C1();
+function f9(a10) {
+    const o18 = {
+        [C1]: C1,
+        __proto__: v6,
+        2142: C1,
+        "e": v8,
+        "a": v5,
+        p(a12, a13, a14, a15) {
+            try {
+                new C1();
+            } catch(e17) {
+            }
+            return a15;
+        },
+    };
+    o18[2142];
+    return o18;
+}
+f9(C1);
+v8(v5);
+f9(v8);
+7 - 7;
+-2147483647 >>> -2147483647;
+const t37 = [];
+t37.length += 1.0;

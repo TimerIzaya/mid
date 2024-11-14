@@ -1,0 +1,64 @@
+class C3 {
+    valueOf(a5, a6) {
+        try {
+            super[-4294967296] = a6;
+        } catch(e7) {
+            const o8 = {
+            };
+            new Proxy("iterator", o8);
+        } finally {
+            -4294967296 >>> a5;
+            const v13 = Symbol.toPrimitive;
+            const o18 = {
+                "h": -14,
+                "type": "iterator",
+                1073741824: this,
+                [v13]() {
+                    v13.iterator;
+                },
+                [v13]() {
+                    C3[a5] = this;
+                    return "iterator";
+                },
+            };
+        }
+        return a5;
+    }
+}
+const v19 = new C3();
+try {
+    v19.valueOf(600.7345986312644, false, false, false);
+} catch(e23) {
+}
+const t32 = -14;
+new t32();
+const v25 = new C3();
+for (let v26 = 0; v26 < 32; v26++) {
+    v25["p" + v26] = v26;
+}
+[10000,1024,9223372036854775807,-9007199254740991,268435456];
+[2147483649,-42668,-9,65535,-4,1567593161];
+[-1,5741,156176972];
+const v34 = [-195.17246022083714,-1e-15,58520.45042095962,-2.0,-2.2250738585072014e-308];
+function F35(a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    a39--;
+    a39 / a39;
+    function F42(a44, a45, a46, a47) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v48 = this.constructor;
+        let v49;
+        try { v49 = new v48(v48, a47); } catch (e) {}
+        const v50 = typeof v49;
+        const o53 = {
+            get b() {
+                return C3;
+            },
+        };
+        v50 === "symbol";
+    }
+    const v55 = this.constructor;
+    try { new v55(a38, a38, a39); } catch (e) {}
+}
+const v57 = new F35(0, F35, 4);
+new v57(4, v34, 0);

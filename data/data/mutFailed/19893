@@ -1,0 +1,86 @@
+function f0() {
+    const o18 = {
+        __proto__: "string",
+        set f(a5) {
+            const v7 = new Map();
+            const v8 = v7.values();
+            try { v8.next(); } catch (e) {}
+            Float64Array.toString = gc;
+            try { new a5(a5, a5); } catch (e) {}
+            const o16 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o16);
+        },
+        "f": -56003,
+        ..."string",
+        "e": -56003,
+    };
+    return o18;
+}
+let v19 = 10;
+v19--;
+const v22 = v19 == 0;
+const o23 = {
+    "done": v22,
+    "value": v19,
+};
+const v24 = f0();
+const v25 = f0();
+function f26() {
+    return f0;
+}
+function f27(a28) {
+    try {
+        o23.__proto__ = v25;
+    } catch(e29) {
+    }
+}
+Object.defineProperty(v25, Symbol.toPrimitive, { writable: true, get: f26, set: f27 });
+const v32 = f0();
+function f33(a34, a35) {
+    a34.toString = f27;
+    function f36(a37, a38) {
+        const v41 = new Float32Array(260330366);
+        v41.byteOffset = v41;
+        return v41;
+    }
+    a35.toString = f36;
+    a34[1];
+    const o49 = {
+        ...v32,
+        "h": f0,
+        4096: v25,
+        __proto__: a35,
+        "d": v25,
+        215: a34,
+        [a34](a44, a45) {
+            [-2.5463836374085913,-1.7976931348623157e+308,-2.0,1.7976931348623157e+308,-1e-15,1000000000000.0,-122.39931622077393,-1.7976931348623157e+308,955485.2587843633];
+            [315262.6551695487,-1.0,0.29079501442498334,1000000000.0,2.2250738585072014e-308,-706479.7772571307,-1.0,-629980.2920141565];
+            [2.534072484897136e+307];
+            return f0;
+        },
+        [v24]: v25,
+        1793: f0,
+        ...a35,
+    };
+    return o49;
+}
+const v50 = f33(v25, v24);
+v50[0] = v50;
+f33(v32, v25);
+f33(v32, v24);
+new Uint32Array(2258);
+new Int32Array(1783);
+new Int32Array(257);
+function F62() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v64 = [-268435456,-9007199254740990,11,-25356,-536870912,4294967296,1520296454];
+v64[0] = v64;
+const o65 = {
+    __proto__: v64,
+};
+o65[3] = o65;
+try { o65.group(F62); } catch (e) {}

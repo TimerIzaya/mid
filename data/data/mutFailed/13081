@@ -1,0 +1,95 @@
+const v1 = new WeakMap();
+function f2(a3, a4) {
+    const o16 = {
+        [v1]: v1,
+        ...a3,
+        "f": a4,
+        ...a3,
+        set g(a6) {
+            new a3(4);
+            new a4(1789);
+            new Uint8ClampedArray(12);
+        },
+    };
+    return a4;
+}
+const v17 = f2(v1, WeakMap);
+f2(v17, v17);
+f2(WeakMap, WeakMap);
+[-1,-4294967297,-9589,127,-5169,0,14];
+[-10,-270034610,-9007199254740990];
+[-3197,-2,-65535,9,536870887,-65536,2147483648,-256,256,5];
+[-1.0,1e-15,0.3236357243261839,0.6480731733480022,NaN];
+[-4.0199055339416247e+307,-954021.5357182899,0.3518109897559697];
+[0.0,-6.097174280280983];
+function F30(a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    function F34(a36, a37, a38, a39) {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v40 = 0; v40 < 100; v40++) {
+            const o43 = {
+                valueOf(a42) {
+                },
+            };
+            function f44(a45, a46, a47) {
+                const o53 = {
+                    toString(a49, a50, a51) {
+                        return a46;
+                    },
+                    "a": o43,
+                    get d() {
+                    },
+                };
+            }
+            const v54 = f44(f44, undefined, F34);
+            f44(undefined, v54, v54);
+        }
+    }
+    new F34();
+}
+const v57 = new F30(157382.34669750673, F30);
+new F30(-1000.0, v57);
+[1203057924,64,28912,-2,-14,12,48928,-1,-8,12];
+[-6,-536870912,11,-46969,-9819];
+class C61 {
+}
+new v17();
+class C63 extends v57 {
+    constructor(a65, a66, a67) {
+        super();
+        const o71 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o71);
+    }
+}
+new C63();
+[-4.0,-187.33463400009316,266767.34688113444,551749.9695726107];
+/(?:a*)+q(?<a>.)/guds;
+for (let i78 = 0, i79 = 10; i78 < i79; i79--) {
+}
+function f87(a88, a89, a90, a91) {
+    function f92() {
+        const o99 = {
+            "type": "Vre",
+            5: a89,
+            "g": C61,
+            "execution": "Vre",
+            "type": "Vre",
+            p(a96, a97) {
+                this.toString(a97, this, a88);
+                return 1000000.0;
+            },
+            6: -268435456,
+        };
+    }
+    f92();
+    %OptimizeFunctionOnNextCall(f92);
+}
+new BigInt64Array();
+new BigUint64Array();
+for (let v107 = 0; v107 < 10; v107++) {
+    f87();
+}
+%OptimizeFunctionOnNextCall(f87);

@@ -1,0 +1,32 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a5;
+    } catch(e7) {
+    }
+    try {
+        this.g = -1447598099;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(512, -1447598099);
+new F3(-1447598099, 0);
+const v11 = new F3(0, -1447598099, 512, F3);
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = F3;
+    } catch(e20) {
+    }
+}
+new F15(0, -1447598099, v11);
+const v22 = new F15(0, 0, v9);
+new F15(0, 0, v11);
+function f24() {
+    ("D")[0];
+    return v22.substring().charCodeAt();
+}
+%PrepareFunctionForOptimization(F15);
+f24();
+%OptimizeFunctionOnNextCall(F15);
+F15();

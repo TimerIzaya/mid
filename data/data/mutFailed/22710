@@ -1,0 +1,54 @@
+function f0() {
+    const o8 = {
+        [-536870912](a5) {
+            let v6;
+            try { v6 = a5(-536870912, a5, 0.9856803578576538, a5); } catch (e) {}
+            try {
+                v6.__proto__ = this;
+            } catch(e7) {
+            }
+            return 0.9856803578576538;
+        },
+        __proto__: -65430,
+        [-65430]: -536870912,
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+function f11(a12, a13) {
+    let {"a":v14,"f":v15,"g":v16,...v17} = v9;
+    Object.defineProperty(v10, v10, { configurable: true, set: f0 });
+    try { new v16(v17); } catch (e) {}
+    new Uint8Array(9);
+    new Float64Array(2432);
+    new Int16Array(507);
+    Uint8ClampedArray.prototype = Uint8ClampedArray;
+    return a13;
+}
+v10[Symbol.toPrimitive] = f11;
+const v31 = f0();
+function f32(a33) {
+    const o45 = {
+        [v10]: v31,
+        "f": v10,
+        1073741824: a33,
+        get d() {
+            v10[this] = a33;
+            new Int32Array(512);
+            new Int32Array(3023);
+            new Uint32Array(127);
+            return a33;
+        },
+    };
+    return o45;
+}
+f32(f0);
+f32(f32(v10));
+const v55 = new Date();
+const v57 = new Set();
+v57.valueOf = f11;
+const v58 = v57.add(v55);
+let [v59,,...v60] = v57;
+v59.setUTCHours(v58, Float64Array, v60, 268435441);
+v59.setUTCFullYear();

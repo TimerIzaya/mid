@@ -1,0 +1,89 @@
+const v1 = new Map();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f6(a7) {
+        const o10 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        return o10;
+    }
+    this[Symbol.toPrimitive] = f6;
+    try {
+        this.d = F2;
+    } catch(e13) {
+    }
+    const v16 = new Int32Array();
+    const v18 = new BigInt64Array();
+    const v19 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+    const v20 = [-1.7976931348623157e+308];
+    Object.defineProperty(v20, 129, { configurable: true, enumerable: true, value: 129 });
+    function f21(a22, a23, a24, a25) {
+        a24[129] = Map;
+        const o31 = {
+            toString(a27, a28, a29) {
+                a24[a23] = a22;
+                return 255n;
+            },
+        };
+        Object.defineProperty(o31, "valueOf", { writable: true, configurable: true, value: f6 });
+        return o31;
+    }
+    const v32 = f21(v18, 129, v20);
+    const v33 = f21(v16, 129, v19);
+    v33[Symbol.toPrimitive] = f21;
+    v33 % v32;
+    try {
+        this.g = a5;
+    } catch(e37) {
+    }
+}
+const v38 = new F2(F2, Map);
+const v39 = new F2(v38, v1);
+const v40 = new F2(v38, v38);
+function f41() {
+    return v38;
+}
+function f42(a43, a44, a45) {
+    const o67 = {
+        "f": v1,
+        set h(a47) {
+        },
+        "f": f42,
+        set d(a49) {
+            for (let v50 = 0; v50 < 25; v50++) {
+            }
+            try { this[v38](); } catch (e) {}
+        },
+        [a44]: v38,
+        p(a54, a55) {
+            return a55;
+            let v56;
+            try { v56 = a55(v38, a45, a44, F2); } catch (e) {}
+            super.g;
+            v56 = v1;
+            try { v1.values(); } catch (e) {}
+            Math.atan(5.0);
+            let v63 = 5.0 | -9223372036854775807;
+            const v64 = ++v63;
+            v64.acosh(v64);
+            Math.random();
+            return v40;
+        },
+    };
+    return o67;
+}
+f41(v38, v38, v40);
+f42(v40, v39, v40);
+f42(v40, f42, v40);
+const v71 = [-20096,4294967296,-65537,-2];
+v71.constructor = f42;
+const v72 = [-1947047520];
+v72.toString = f41;
+const v74 = [[v72,v72,v72,v71]];
+function f75() {
+    parseInt([2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614]);
+    return v74;
+}
+Object.defineProperty(v74, "toString", { enumerable: true, value: f75 });
+v71["slice"](v74);

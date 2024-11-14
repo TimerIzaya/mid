@@ -1,0 +1,87 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        new Set();
+        class C5 {
+            static p(a7) {
+            }
+        }
+        const v8 = new C5();
+        const v9 = v8.constructor;
+        try { new v9(); } catch (e) {}
+        this.b = -1073741824;
+    } catch(e11) {
+    }
+}
+new F0();
+const v13 = new F0();
+const v14 = new F0(v13, v13, F0);
+function f21(a22, a23, a24) {
+    function f25() {
+        const o29 = {
+            ...1.0,
+            set b(a28) {
+            },
+        };
+        return o29;
+    }
+    for (let v30 = 0; v30 < 5; v30++) {
+        f25();
+        %OptimizeFunctionOnNextCall(f25);
+    }
+    const o59 = {
+        "execution": "bind",
+        "type": "undefined",
+        m(a33) {
+            const v36 = new Int8Array(3938);
+            let v37 = 3;
+            let v38 = 0;
+            [...v37] = v36;
+            -(v38++);
+        },
+        "a": "bind",
+        __proto__: a23,
+        "toStringTag": 2147483647,
+        ...a23,
+        "c": a22,
+        "f": a22,
+        [v13](a42, a43, a44) {
+            a23 * a42;
+            for (let [v46,v47] of "9223372036854775807") {
+                const t50 = a22[a22];
+                t50[1] %= -1762538748;
+                delete a42[9];
+            }
+            const v52 = new Date();
+            v52.setTime(-26321);
+            function f54() {
+                let v55 = 946.0676210033328;
+                v55++;
+                const o57 = {
+                    __proto__: v55,
+                };
+                return f54;
+            }
+            a22.length;
+            return a24;
+        },
+    };
+    const v61 = new Map();
+    const t69 = v61.constructor;
+    const v63 = t69();
+    const o64 = {
+        __proto__: v63,
+    };
+    return o59;
+}
+f21("undefined", v14, -1762538748);
+f21("bind", v13, 2147483647);
+f21("9223372036854775807", v13, 2147483647);
+("o").lastIndexOf();
+new BigInt64Array(4046);
+const v76 = [-554799.8407135659,-2.220446049250313e-16,731041.3668807968,-0.0,0.12359094160643747,-1000.0,-1e-15,-5.0,314.0545280433057];
+function f77(a78, a79) {
+    v76.length = 0;
+    return a78;
+}
+v76.toString = f77;

@@ -1,0 +1,55 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        "b": f0,
+        "c": f0,
+        "g": f0,
+        __proto__: f0,
+        "h": f0,
+        "d": f0,
+        2231765069: f0,
+        [f0]: f0,
+        "a": f0,
+        n() {
+            const v3 = this.constructor;
+            class C4 extends v3 {
+                static #e = f0;
+                #d = f0;
+                static #c = this;
+            }
+            new C4();
+            return v3;
+        },
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+const v9 = f1();
+const v10 = [46156,-2147483647,4294967296,569368083,-1677055818,257,-8,65535];
+[536870888,-538881102,9007199254740990,-2,64,15];
+const v12 = [-8,536870887,9007199254740992,-755665373];
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v10;
+    } catch(e19) {
+    }
+    try {
+        this.f = a15;
+    } catch(e20) {
+    }
+}
+const v21 = new F13(v10, v8, f1, v9);
+new F13(v12, v7, F13, v12);
+new F13(v12, v8, f0, v12);
+function f24() {
+    return v21;
+}
+new ReferenceError(268435440);
+new Float32Array(2795);
+new BigInt64Array(1321, v9, BigInt64Array);
+const v35 = [[-9007199254740990,49004,536870889,1000,257,65536,-9007199254740990,-9007199254740992]];
+try { v35.keys(v35); } catch (e) {}
+Proxy(Float32Array, v35, v35);

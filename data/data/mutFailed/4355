@@ -1,0 +1,25 @@
+const v2 = new Int32Array(1716);
+let v4 = v2[10];
+try {
+    v4.__proto__ = v4;
+} catch(e5) {
+}
+new Int16Array(0);
+[15923,-7,-2147483647,-9223372036854775807,-8,0,-1522744595,65536];
+[9007199254740991,129,-1664796724,52590];
+[2057350200,2147483649,-54972,536870887,-268435456,-61663368];
+[-13,6400,-643026699,-9007199254740991];
+[9223372036854775807,63864];
+[1611483413,-9,536870912];
+new BigInt64Array(13);
+function f17() {
+    return Int32Array;
+}
+v4 = v2;
+v2 + 1716;
+Object.defineProperty(v4, 2473123943, { writable: true, configurable: true, enumerable: true, get: f17 });
+function f26() {
+    return 2147483648n;
+}
+%OptimizeFunctionOnNextCall(f26);
+f26();

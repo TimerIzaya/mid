@@ -1,0 +1,26 @@
+new ArrayBuffer(0);
+new undefined(3);
+new Uint8ClampedArray(1073741824);
+[0.0030786162193855438,2.4746028859892344e+307,8.184271854311452e+307];
+[-Infinity];
+[4.0];
+function f13(a14, a15, a16, a17) {
+    const v20 = new BigInt64Array(4046);
+    let v21 = undefined;
+    const v22 = v21++;
+    const v23 = v22 + v22;
+    const v24 = v22 >> v22;
+    const v25 = v24 >>> v24;
+    function F26(a28, a29, a30) {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    new F26(2, 2, a16);
+    const v32 = new F26(v23, 2, v25);
+    let o33 = {
+    };
+    [,...o33] = v20;
+    return v32;
+}
+for (let v34 = 0; v34 < 5; v34++) {
+    f13(v34, v34, v34, f13, v34);
+}

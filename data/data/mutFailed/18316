@@ -1,0 +1,64 @@
+class C3 {
+    set g(a5) {
+        super[this] = a5 = -1e-15;
+    }
+    static ["ltyD"] = 4.0;
+    static #g = 4.0;
+    static {
+        let v7;
+        try {
+        const t0 = -1e-15;
+        v7 = t0(this, "ltyD", 4.0, -1e-15);
+        } catch (e) {}
+        try {
+            v7.#g >>>= -1e-15;
+        } catch(e8) {
+        }
+    }
+    f = -1e-15;
+}
+new C3();
+const v10 = new C3();
+/95(foo(?<!bar)baz)/gvdims;
+/f\b(?:a+)+/gvmy;
+/d(?:ab|cde)/dmy;
+new C3();
+const v19 = [-6.492045120766739e+307,0.8833910141358768];
+[-4.712770320916168e+307,3.0,-2.447030585037706,101857.43519372819,-8.028261130012499,-3.0,0.0,-270966.67298586306,-1000000000.0,848507.0936974327];
+const v21 = [7.189650373228954,0.7632137842253144,-1000000.0,-7.513937933706676,-1000000.0];
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a28;
+    try {
+        this.c = v10;
+    } catch(e29) {
+    }
+}
+const v30 = new F25("ltyD", v21);
+new F25("ltyD", v19);
+new F25(v30, v21);
+const v35 = new Uint8ClampedArray();
+const v37 = new Uint8Array(64);
+const v41 = new Int32Array();
+const v43 = new BigInt64Array();
+const v44 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+v44[129] = -85357.59116785484;
+const v45 = [-1.7976931348623157e+308];
+function f46(a47, a48, a49, a50) {
+    const o55 = {
+        toString(a52, a53, a54) {
+            a49[a48] = a47;
+        },
+    };
+    function f56(a57) {
+        const v59 = new Set();
+        return v59;
+    }
+    o55.valueOf = f56;
+    return o55;
+}
+const v60 = f46(v43, 129, v45);
+const v61 = f46(v41, 129, v44);
+v61[Symbol.toPrimitive] = f46;
+v61 % v60;
+try { v35(-85357.59116785484, ...v37, 64); } catch (e) {}

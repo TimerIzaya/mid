@@ -1,0 +1,53 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -256n;
+    } catch(e6) {
+    }
+}
+new F3(-256n);
+const v8 = new F3(-9007199254740991n);
+new F3(-9007199254740991n);
+function f10(a11, a12, a13) {
+    const o21 = {
+        "e": -256n,
+        "f": -256n,
+        set d(a15) {
+            const v16 = `
+                try {
+                    v8.length = 4294967295;
+                } catch(e18) {
+                }
+            `;
+            eval(v16);
+        },
+    };
+    return o21;
+}
+const t26 = f10(f10, -9007199254740991n, -256n);
+t26(-256n, -256n, -256n);
+f10(-9007199254740991n, -256n, -256n);
+function f25() {
+    return f25;
+}
+class C26 extends f25 {
+}
+class C27 extends C26 {
+}
+function f30(a31, a32, a33, a34) {
+    try { a31(); } catch (e) {}
+    a33 & a32;
+    const v37 = 3 | C27;
+    v37 * v37;
+    a31 / a31;
+    const v40 = a32 < a31;
+    const o44 = {
+        n(a42, a43) {
+            return v40;
+        },
+    };
+    return a33;
+}
+for (let v45 = 0; v45 < 500; v45++) {
+    f30(Uint8Array);
+}

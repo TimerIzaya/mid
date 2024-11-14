@@ -1,0 +1,72 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 9223372036854775807;
+    } catch(e3) {
+    }
+    try {
+        this.a = 9223372036854775807;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v6;
+    } catch(e12) {
+    }
+    try {
+        this.h = a10;
+    } catch(e13) {
+    }
+}
+const v14 = new F8(v6, v5);
+new v14(v5, v5);
+const v16 = new F8(v7, v7);
+new F0(170);
+new Uint32Array(16);
+new Int8Array(3125);
+const v29 = [65537,268435441,63298,-5,1235122603];
+const v30 = [128,215394418];
+const v31 = [-2,-4294967296,4294967297];
+function F32(a34, a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a37.valueOf(); } catch (e) {}
+    const v39 = this.constructor;
+    try { new v39(1024, 1024, v29, v16); } catch (e) {}
+    a35.caller;
+    this.c = a36;
+    this.f = a35;
+}
+const v42 = new F32(-714582153, F32, -714582153, v30);
+new F32(1024, v42, 9, v31);
+let v44 = -1;
+class C45 {
+    static 7;
+    #n(a47) {
+        const o50 = {
+            "execution": "sync",
+        };
+        gc(o50);
+    }
+}
+new Int8Array();
+const v53 = F8?.constructor;
+try { new v53(); } catch (e) {}
+[55948];
+[255,-8,65537,4294967295];
+function f57(a58, a59) {
+    0 < 5;
+    const o71 = {
+        [a58](a64, a65, a66, a67) {
+            [923.3408061449261,-6.350919708227568e+307,-2.220446049250313e-16,0.04850379751250988,4.009495502233909];
+        },
+        "a": a58,
+        set b(a70) {
+            v44 <<= v44;
+        },
+    };
+}

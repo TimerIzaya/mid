@@ -1,0 +1,58 @@
+function f3(a4) {
+    a4[Symbol.toPrimitive] = f3;
+    a4 | a4;
+    const o13 = {
+        "f": 1073741823,
+        "b": a4,
+        "g": -1517077279,
+        "c": 1073741823,
+        [1073741823]: a4,
+        o(a9) {
+            return this;
+        },
+        ...a4,
+        "e": 127,
+        ...a4,
+        "a": a4,
+    };
+    return o13;
+}
+const v14 = f3(127);
+v14.toString = f3;
+const v15 = f3(v14);
+const v16 = f3(127);
+const v17 = [v15];
+let v18;
+try { v18 = v17.toReversed(); } catch (e) {}
+try {
+    v14.o(v17, -878.345000973371);
+} catch(e21) {
+}
+const v22 = [1073741823];
+v22[0] = v22;
+[v22];
+[3.0,1000000000000.0,-1000000000.0,0.9540815120694079,-1000000000000.0];
+[-261.2211024710791];
+const v26 = [-4.354303940249091,-824601.1309524153,0.33384383121628947];
+function f27() {
+    return v26;
+}
+for (let v30 = 0; v30 < 100; v30++) {
+    f27();
+}
+try { v18(v16, -1517077279); } catch (e) {}
+f27();
+%PrepareFunctionForOptimization(f27);
+f27();
+f27();
+%OptimizeFunctionOnNextCall(f27);
+f27();
+const v37 = [1.6045920026493271e+308,-5.0,358.53542407847453,-4.6776659891528976,-1000.0,-Infinity];
+try { v37.pop(); } catch (e) {}
+const o41 = {
+    valueOf() {
+        try { this.valueOf(); } catch (e) {}
+        return true;
+    },
+};
+v37.length = o41;

@@ -1,0 +1,39 @@
+const v5 = new Uint8ClampedArray(206);
+const v8 = new Float32Array(808);
+const v11 = new Int8Array(808);
+class C12 extends Int8Array {
+    [v5] = v8;
+    constructor(a14, a15, a16, a17) {
+        const o18 = {
+        };
+        new Proxy("-380138368", o18);
+        const o24 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o24);
+        super(a14, a14, a16);
+        const o36 = {
+            valueOf() {
+                super.e = 9;
+                for (let v27 = 0; v27 < 32; v27++) {
+                    "p" + v27;
+                    let v30 = 0;
+                    do {
+                        "p" == o24;
+                        function f32() {
+                            return 206;
+                        }
+                        v30++;
+                    } while (v30 < 0)
+                    v11[v11] = a16;
+                }
+                return Uint8ClampedArray;
+            },
+        };
+    }
+}
+new C12(206, 9, 808, Uint8ClampedArray);
+new C12(206, 206, 808, "repeat");
+new C12(9, 808, 9, "repeat");
+%PrepareFunctionForOptimization("object");

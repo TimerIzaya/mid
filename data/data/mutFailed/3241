@@ -1,0 +1,71 @@
+let v0 = -300901371n;
+const v3 = [268435441,41456,-13];
+v3[1] = v3;
+const v4 = [-770330144,-9007199254740990];
+const v5 = v4?.values;
+let v6;
+try { v6 = new v5(); } catch (e) {}
+const v7 = [1828,16,-1372314303,-1042497969];
+class C8 {
+    static [v4];
+    static #a = -11n;
+    m(a10, a11, a12) {
+        let v13;
+        try { v13 = new a10(v0, a10, v0, a11); } catch (e) {}
+        try {
+            v13.#a = v0;
+        } catch(e14) {
+        }
+        v0 = -11n;
+        return v13;
+    }
+    #h = C8;
+    #f = v7;
+    static #c = v3;
+}
+const v15 = new C8();
+const v16 = new C8();
+const v17 = new C8();
+const v18 = [v17];
+const v19 = [v4,v18,v4,1073741823n];
+v19[3] = v19;
+const v20 = [v4,v18,1073741823n,v19,v16];
+function f21(a22, a23, a24, a25) {
+    const v26 = a22?.constructor;
+    try { new v26(); } catch (e) {}
+    const v28 = a24?.constructor;
+    let v29;
+    try { v29 = new v28(); } catch (e) {}
+    try { a25.pop(); } catch (e) {}
+    const o42 = {
+        toString(a32, a33) {
+            try { a23(a33, a32, a33); } catch (e) {}
+            const o37 = {
+                "maxByteLength": v29,
+            };
+            const v39 = new SharedArrayBuffer(142, o37);
+            new Uint8ClampedArray(v39);
+            return v16;
+        },
+        "g": -11n,
+    };
+    return o42;
+}
+const v43 = f21(v16, v3, v17, v7);
+const v44 = f21(v15, v43, v17, v7);
+try { v44.toString(v19, v43); } catch (e) {}
+f21(v15, v19, C8, v7);
+const v49 = new Map();
+try { v49.set(v18, v20); } catch (e) {}
+const v51 = v49.delete(v49);
+function F52(a54, a55, a56, a57) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v58 = this?.__defineGetter__;
+    try { new v58(Date, v16); } catch (e) {}
+    this.c = v6;
+}
+const v60 = new F52();
+const t67 = v60.c;
+const v62 = new t67(v51, Map);
+const v63 = v62?.setFullYear;
+try { new v63(v44, v0, F52); } catch (e) {}

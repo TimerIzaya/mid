@@ -1,0 +1,50 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        __proto__: f0,
+        [f1]() {
+            try {
+                this.__proto__ = this;
+            } catch(e3) {
+            }
+            return this;
+        },
+        1073741823: f0,
+        "f": f0,
+        "e": f0,
+    };
+    return o4;
+}
+f1();
+f0[1073741823] = f1();
+f1();
+const v10 = -5883n;
+const v12 = -571198697n / -571198697n;
+v12 * v12;
+14 + 14;
+const v16 = 14 / 14;
+v16 | v16;
+const v19 = new Float32Array(14);
+Int8Array.prototype = Int8Array;
+try { new Int8Array(v19, 14, Int8Array); } catch (e) {}
+const v23 = new Int8Array(4096);
+const v26 = new Float32Array(129);
+try { v26.join(v10); } catch (e) {}
+class C28 {
+    set e(a30) {
+        const v31 = a30?.constructor;
+        try { new v31(); } catch (e) {}
+        const v33 = v23?.__lookupSetter__;
+        try { new v33(a30); } catch (e) {}
+        try { SharedArrayBuffer.call(a30); } catch (e) {}
+        const v37 = new SharedArrayBuffer();
+        new DataView(v37, v37, a30);
+    }
+}
+C28.prototype;
+const t44 = 14;
+t44.prototype = C28;
+const t47 = 14;
+const v41 = new t47();
+v41.e = v41;

@@ -1,0 +1,50 @@
+function f0() {
+    const o4 = {
+        "e": "ownKeys",
+        ..."ownKeys",
+        [1.0]: "ownKeys",
+        ..."ownKeys",
+        "h": 1.0,
+        "c": -30865,
+        __proto__: "ownKeys",
+        ..."ownKeys",
+        "b": -30865,
+        "g": "ownKeys",
+        "d": -30865,
+    };
+    return o4;
+}
+f0();
+const v6 = f0();
+const v7 = f0();
+class C8 {
+    static #p(a10) {
+        try {
+            super.valueOf();
+        } catch(e12) {
+        }
+        return v6;
+    }
+    [f0];
+    static #f;
+    248 = v7;
+    f;
+}
+new C8();
+new v7();
+new C8();
+[2.699226935443729];
+[1000000000000.0,-3.347616110090314];
+[2.0,2.0,Infinity,-4.0,9.971399045711124,2.220446049250313e-16,-9.806325879617548e+307,-17.858787344849475];
+function f19(a20) {
+    const o24 = {
+        ...a20,
+        get d() {
+            const v22 = this.__lookupSetter__;
+            try { v22(); } catch (e) {}
+            return f19;
+        },
+    };
+    return o24;
+}
+f19(f19());

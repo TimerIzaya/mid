@@ -1,0 +1,127 @@
+const v1 = new Map();
+class C2 extends Map {
+    m(a4) {
+        return Reflect.construct(a4, [a4,v1], Map);
+    }
+    p(a9, a10) {
+        const v11 = [5,4142,11,268435456,11,-30743,4096,268435440,1753297073];
+        function f12() {
+            Int8Array.b = Int8Array;
+            gc();
+            Object.defineProperty(v11, 1, { writable: true, enumerable: true, value: v11 });
+            return Int8Array;
+        }
+        f12();
+        function f18(a19, a20) {
+            function f22(a23) {
+                try {
+                    this.m(a9, a20, a23, this);
+                } catch(e25) {
+                }
+            }
+            this.onmessage = f22;
+            try { this.set(a19, a9); } catch (e) {}
+        }
+        const v29 = [a10,a10];
+        const o30 = {
+            "arguments": v29,
+            "type": "function",
+        };
+        new Worker(f18, o30);
+        return Map;
+    }
+}
+const v32 = new C2();
+const v33 = new C2();
+const v34 = new C2();
+function f35(a36, a37, a38, a39) {
+    const o50 = {
+        "h": a38,
+        __proto__: v1,
+        [C2]: v32,
+        "g": a39,
+        4294967296: v33,
+        ...a39,
+        [a37]: v1,
+        "c": a36,
+        [C2](a41, a42, a43) {
+            try { a41["has"](...this, ...v33, ..."has", ...a41, ...a36, ..."has"); } catch (e) {}
+            try { new a42(a38, v1, v32); } catch (e) {}
+            a41 = a38;
+            Reflect.construct(a42, [a39,v32,this,Reflect,v1], a37);
+            return a39;
+        },
+    };
+    return o50;
+}
+const v51 = f35(v33, v34, Map, v33);
+const v52 = f35(v1, Map, v51, v34);
+const v53 = f35(v34, v1, v52, v34);
+class C54 extends Map {
+    static #g;
+    constructor(a56, a57, a58, a59) {
+        super(v53);
+        v32[1] = v51;
+        function f60() {
+            return a59;
+        }
+    }
+    static 3908 = v1;
+    16 = v52;
+    static 128 = v51;
+    static 9 = Map;
+    static a = v34;
+    [f35] = v32;
+    #f = v51;
+}
+const v61 = new C54(v52, v33, C2, v52);
+const v62 = new C54(v52, v51, v61, v52);
+const v63 = new C54(v52, v1, v34, v52);
+class C64 extends f35 {
+    #o(a66, a67) {
+        try {
+            f35(v32, C2, this, v32);
+        } catch(e70) {
+        }
+        return v63;
+    }
+    [v53] = v61;
+    constructor(a72, a73) {
+        super(a72, a72, v53, a73);
+        const v74 = super[C2];
+        for (let v75 = 0; v75 < 100; v75++) {
+            f35(v1, this, C2, v61);
+        }
+        const v77 = v62 <= v74;
+        let v78;
+        try { v78 = v74(v77, ...v77, ...a72, ...a73, v52); } catch (e) {}
+        const o84 = {
+            "maxByteLength": 4096,
+            n(a82, a83) {
+                return v78;
+            },
+            ...4096,
+            "done": v77,
+        };
+        const v86 = new SharedArrayBuffer(4096, o84);
+        new DataView(v86);
+    }
+}
+new C64(v33, v34);
+new C64(v32, v62);
+("undefined").normalize("NFC");
+class C94 {
+    4259938026;
+}
+new C64(v62, v63);
+function f96(a97, a98) {
+    const v99 = [1000000000.0,2.2250738585072014e-308,-3.0,-2.2250738585072014e-308,-2.2250738585072014e-308,-6.525028373249204e+307,-7.851646360254072e+307,0.6785915059434757,-0.0];
+    class C100 {
+    }
+    C100[Symbol.replace] = v99;
+    return f96;
+}
+%PrepareFunctionForOptimization(f96);
+f96();
+%OptimizeFunctionOnNextCall(f96);
+f96();

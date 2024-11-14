@@ -1,0 +1,65 @@
+const v2 = new Int8Array(129);
+const v5 = new Int16Array(1880);
+let v6 = 3;
+new Uint32Array(v6);
+function f9(a10, a11, a12, a13) {
+    const o14 = {
+        "d": Int16Array,
+        [Uint32Array]: a13,
+        "e": Uint32Array,
+        "f": Int16Array,
+        "c": v5,
+        "h": Int8Array,
+        "a": a10,
+        "b": a12,
+        [1880]: Uint32Array,
+        1024: a12,
+        __proto__: v2,
+    };
+    return o14;
+}
+const v15 = f9(129, v6, 129, 1880);
+f9(129, 1880, v6, 129);
+const v17 = f9(v6, v6, v6, 129);
+v17.c;
+try {
+    v6 = 1880;
+} catch(e19) {
+}
+new Int16Array(v15);
+const v21 = new f9(1880, v6, v6, 1880);
+try {
+    v21.fuck(-1240800265, Int8Array, Uint32Array, [f9,Uint32Array,-1240800265,v17,Int16Array]);
+} catch(e25) {
+}
+let v2 = -256n;
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a9;
+    } catch(e11) {
+    }
+    try {
+        this.h = a10;
+    } catch(e12) {
+    }
+    try {
+        this.a = a9;
+    } catch(e13) {
+    }
+}
+new F6(4294967296, 4294967296, 10000n);
+const v15 = new F6(4294967296, 28426, 10000n);
+new F6(4294967296, 93167283, -4294967295n);
+let v18 = -16;
+try {
+    v18 ^= v18;
+} catch(e23) {
+}
+v2 - 0.27270705098307635;
++-9007199254740992;
+~1532051870;
+1532051870 ^ v15;
+v15 && -9007199254740992;
+Math.ceil(v15);
+--v2;

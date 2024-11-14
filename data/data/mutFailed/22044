@@ -1,0 +1,50 @@
+class C3 {
+    static toString(a5) {
+        function f9() {
+            return -1000.0;
+        }
+        return this;
+    }
+    static a = -1000000000000.0;
+}
+const v10 = new C3();
+const v11 = v10?.constructor;
+try { new v11(); } catch (e) {}
+const v13 = new C3();
+const v14 = v13?.propertyIsEnumerable;
+try { new v14(268435439); } catch (e) {}
+const v16 = new C3();
+const v17 = v16?.constructor;
+try { new v17(); } catch (e) {}
+10 + 10;
+51608 & 51608;
+try { new BigUint64Array(v10, -1.1300572168170124e+308, BigUint64Array); } catch (e) {}
+function f31() {
+    return v13;
+}
+function f32(a33) {
+    const v35 = new Date();
+    const v36 = [-1000.0,2.0,6.498411136794167e+307,1.5301115680028905e+308,-1.0240581174585665e+308,-73553.73579822388,-474.34134439650745,2.300981674378132,-816063.8647013834,-1.2620665326245469e+308];
+    const v37 = [];
+    const v38 = [];
+    function f39(a40, a41) {
+        const o51 = {
+            129: v37,
+            __proto__: v36,
+            o(a43, a44, a45, a46) {
+                [a40];
+                Reflect.apply(a44.reduce, a41);
+                return a41;
+            },
+            "f": v38,
+            "e": v35,
+            ...a41,
+        };
+        return o51;
+    }
+}
+Object.defineProperty(Map, "d", { writable: true, configurable: true, enumerable: true, get: f31, set: f32 });
+Map.d = Map;
+9 + 9;
+/[I[\cA][xyz]Cxyz?]/vmsy;
+try { Array.call(Uint32Array); } catch (e) {}

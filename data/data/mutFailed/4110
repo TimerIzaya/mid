@@ -1,0 +1,51 @@
+function f0() {
+}
+const v2 = new WeakSet();
+class C3 extends f0 {
+    get g() {
+        new C3();
+        return Set;
+    }
+    constructor(a8) {
+        super();
+        const o9 = {
+        };
+        try {
+            o9.c = this;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.c = C3;
+            v2.h = a8;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.c = this;
+            o13.h = a8;
+            o13.d = WeakSet;
+        } catch(e14) {
+        }
+        try {
+            const o15 = {
+            };
+            o15.c = this;
+            o9.h = a8;
+            o9.d = a8;
+        } catch(e16) {
+        }
+    }
+}
+new v2(C3);
+new C3(v2);
+new C3(WeakSet);
+function F27(a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v31 = a30.constructor;
+    try { new v31("-268435456"); } catch (e) {}
+    a29.prototype;
+}
+new F27(F27);

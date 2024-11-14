@@ -1,0 +1,72 @@
+const v0 = [-8.37209653175699,-1000000.0,-5.544238641518882e+307,-1000000000.0];
+const v1 = [5.0,4.262498482314901e+307,-1000000000.0,-1e-15,-0.0,1000.0,-1.049497967519413e+308,-8.435768583193761];
+function f2(a3, a4) {
+    class C5 {
+    }
+    const v6 = new C5();
+    class C7 {
+        static #e;
+        static {
+            try {
+                v6.#e = this;
+            } catch(e9) {
+            }
+        }
+        static n(a11, a12, a13) {
+            v6.#e;
+        }
+    }
+    return C5;
+}
+v1[Symbol.toPrimitive] = f2;
+const v17 = [9.077734523674147e+307,-255268.37592272216,-1.4015331859210884e+308,4.0,NaN,636223.0091532625,-5.0,-2.2250738585072014e-308,1e-15,-4.0];
+function f18(a19, a20) {
+    a19.toString = Symbol;
+    a20.toString = Symbol;
+    const o26 = {
+        "f": a20,
+        "g": a20,
+        "b": v1,
+        [a20]: v1,
+        "c": v1,
+        get e() {
+            const v22 = a19 !== a19;
+            a19 && this;
+            super.g;
+            try {
+                v0.__proto__ = a20;
+            } catch(e25) {
+            }
+            return v22;
+        },
+    };
+    return o26;
+}
+f18(v1, v1);
+f18(v1, v17);
+f18(v0, v1);
+new Float32Array(12);
+new Int32Array(4);
+new BigUint64Array(829);
+function f48() {
+    const v49 = [f48];
+    function f50(a51) {
+        return a51;
+    }
+    v49.constructor = f50;
+    const v52 = v49.constructor;
+    v52(v52, f50);
+    [BigUint64Array,...v49,v0];
+    for (let v55 = 0; v55 < 100; v55++) {
+        f50(v52);
+    }
+    try {
+        v49.toSpliced(4);
+    } catch(e58) {
+    }
+    return f48;
+}
+%PrepareFunctionForOptimization(f48);
+f48();
+%OptimizeFunctionOnNextCall(f48);
+f48();

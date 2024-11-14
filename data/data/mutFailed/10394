@@ -1,0 +1,49 @@
+function f0() {
+    502318493 !== 502318493;
+    const o11 = {
+        get d() {
+            var d = 1000000000.0;
+            const v6 = this[1073741823];
+            try { new v6(v6, 502318493); } catch (e) {}
+            return 7;
+        },
+        "b": 1000000000.0,
+        __proto__: 502318493,
+        6: 502318493,
+        1940330987: 570192021,
+        [502318493]: 570192021,
+    };
+    return o11;
+}
+const v12 = f0();
+f0();
+const v14 = f0();
+try { v14.isPrototypeOf(v12); } catch (e) {}
+try { Set.bind(Set); } catch (e) {}
+const v18 = new Set();
+const v21 = new v18(1);
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    a28 ^ a28;
+    a29--;
+    try {
+        this.g = a28;
+    } catch(e32) {
+    }
+}
+const v33 = F25?.bind;
+try { new v33(v21); } catch (e) {}
+new F25(v12, -1229172910, 1);
+new F25(v14, v21, -1229172910);
+new F25(v12, v18, 1);
+function F41(a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v46 = this?.__lookupGetter__;
+    try { new v46(a43); } catch (e) {}
+    a45.g = a45;
+}
+const v48 = new F41(3011, Uint8ClampedArray, F41);
+v48.constructor = Date;
+const t46 = v48.constructor;
+const v50 = new t46(v48, Uint8ClampedArray, 3011);
+try { v50.setUTCSeconds(v12, f0); } catch (e) {}

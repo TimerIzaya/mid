@@ -1,0 +1,62 @@
+let v1 = Float64Array;
+const v2 = new v1(v1);
+const v5 = new Float64Array(64);
+const v8 = new Int8Array(2);
+class C9 extends v1 {
+    static {
+        for (let v11 = 0; v11 < 32; v11++) {
+            this["p" + v11] = v11;
+        }
+        let v14;
+        try { v14 = v5(Int8Array, this, 64, v8, 64); } catch (e) {}
+        v14.buffer;
+    }
+    static 3;
+    #n(a17, a18, a19) {
+        Symbol.iterator;
+        const o30 = {
+            [v2]() {
+                const o29 = {
+                    next() {
+                        v1--;
+                        const v27 = 10 == 0;
+                        const o28 = {
+                            "done": v27,
+                            "value": 10,
+                        };
+                        return o28;
+                    },
+                };
+                return o29;
+            },
+        };
+        return a19;
+    }
+}
+new C9();
+const v32 = new C9();
+new C9();
+new Int16Array(0);
+new Float64Array(3009);
+new Float64Array(128);
+function f43() {
+    const o44 = {
+    };
+    return o44;
+}
+const v45 = f43();
+const v46 = f43();
+for (let v47 = 0; v47 < 25; v47++) {
+    const v48 = [601759695];
+    const v49 = [1073741824,1073741823,1376142744,1073741825];
+    function f50(a51, a52, a53, a54) {
+        a51[4] = a51;
+        a52[4] = a52;
+        BigUint64Array * v48;
+        try { v49["find"](..."find", a54, ...v48, ...v49); } catch (e) {}
+        return v32;
+    }
+    for (let v60 = 0; v60 < 5; v60++) {
+        f50(v45, v46);
+    }
+}

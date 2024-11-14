@@ -1,0 +1,46 @@
+const v1 = new Map();
+-65536n / -65536n;
+const v7 = new WeakMap();
+try { v7.delete(v1); } catch (e) {}
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    a11--;
+    Object.defineProperty(v7, "e", { configurable: true, enumerable: true, value: -65536n });
+    try {
+        this.e = -65536n;
+    } catch(e14) {
+    }
+}
+new F9(-4096n, v7);
+new F9(-4096n, v7);
+v7.e;
+new F9(-4096n, v7);
+function f19() {
+    return v1;
+}
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        Uint8ClampedArray.constructor = f19;
+        const v26 = Uint8ClampedArray?.constructor;
+        try { new v26(Uint8ClampedArray); } catch (e) {}
+        const v28 = new Uint8ClampedArray(2147483647);
+        v28.toJSON = -4096n;
+        const v29 = v28?.__defineSetter__;
+        try { new v29(Uint8ClampedArray, a24); } catch (e) {}
+        function f31(a32) {
+            return a24;
+        }
+        const v35 = [v28];
+        const o36 = {
+            "arguments": v35,
+            "type": v26,
+        };
+        Worker(f31, o36);
+    } catch(e38) {
+        a24.name;
+    }
+}
+const v40 = new F21();
+v40.length = -4096n;
+v40.length = v40;

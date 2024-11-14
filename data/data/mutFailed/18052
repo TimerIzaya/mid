@@ -1,0 +1,103 @@
+const v1 = new WeakSet();
+function f5(a6) {
+    a6 >>> a6;
+    const o21 = {
+        [970336268](a9, a10, a11) {
+            new WeakSet(v1);
+            super[9007199254740991] = WeakSet;
+            return a9;
+        },
+        "c": 970336268,
+        "f": a6,
+        "d": WeakSet,
+        valueOf(a14, a15) {
+            const o19 = {
+                "execution": "sync",
+                "type": "major",
+            };
+            return gc(o19);
+        },
+    };
+    return o21;
+}
+const v22 = f5.name;
+const v23 = f5(10000);
+const v24 = v22(9007199254740991);
+const v25 = f5(9007199254740991);
+const o26 = {
+    __proto__: v25,
+    "a": v23,
+    "c": v24,
+    2147483649: v22,
+};
+const v28 = 9007199254740990 * 9007199254740990;
+v28 ^ v28;
+1899 & 1899;
+class C33 {
+    static 6 = 970336268;
+    set b(a35) {
+        function F36(a38, a39, a40, a41) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = 9007199254740991;
+            } catch(e42) {
+            }
+            try {
+                this.b = a35;
+            } catch(e43) {
+            }
+            try {
+                this.h = this;
+            } catch(e44) {
+            }
+        }
+        new F36(a35, a35, 10000, v25);
+        new F36(a35, 1899, 7, v23);
+        new F36(a35, this, a35, v23);
+    }
+}
+C33[6] = C33;
+new C33();
+new C33();
+const v50 = new C33();
+const v51 = v50?.constructor;
+try { new v51(); } catch (e) {}
+Float32Array.prototype = Float32Array;
+Float32Array.d = Float32Array;
+const v54 = new Float32Array(Float32Array, Float32Array);
+v54[1];
+function f57(a58, a59, a60, a61) {
+    a58.prototype = a58;
+    const v62 = a58.length;
+    const v63 = v62 << v62;
+    v63 < v63;
+    const v66 = 2 - 2;
+    -v66;
+    const v68 = new Float32Array(2);
+    try { v68.with(v63, v63); } catch (e) {}
+    try { v68.reduce(v25); } catch (e) {}
+    try { Int32Array.apply(1899, v66); } catch (e) {}
+    try { Int32Array.of(); } catch (e) {}
+    try { Int32Array(v54); } catch (e) {}
+    const v75 = v68;
+    v75[1];
+    v54[1];
+    function f78() {
+        const o82 = {
+            ...a61,
+            set b(a81) {
+            },
+        };
+        o82.b;
+        return o82;
+    }
+    for (let v84 = 0; v84 < 5; v84++) {
+        f78();
+        %OptimizeFunctionOnNextCall(f78);
+    }
+    return f57;
+}
+for (let v86 = 0; v86 < 500; v86++) {
+    v86++;
+    f57(Uint8Array);
+}

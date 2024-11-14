@@ -1,0 +1,93 @@
+function f0() {
+    const o11 = {
+        get a() {
+            this.__proto__;
+            super.c = this;
+            const o9 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o9);
+            return this;
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+v13[Symbol.toPrimitive] = f0;
+const v16 = f0();
+class C17 extends f0 {
+    static {
+        try {
+            v12.a = this;
+        } catch(e19) {
+        }
+    }
+    11 = f0;
+    #d = v12;
+    static [v13];
+    static [v16];
+}
+const v20 = new C17();
+const v21 = new C17();
+const v22 = new C17();
+function f23(a24) {
+    class C25 {
+    }
+    const v26 = new C25();
+    const v27 = [v26];
+    class C28 {
+        constructor(a30, a31, a32) {
+            function f33(a34, a35, a36) {
+                v27.copyWithin();
+                try {
+                    f33(a36, a35, 252859902);
+                } catch(e40) {
+                }
+                const v41 = this >> 252859902;
+                v41 - this;
+                return -v41;
+            }
+            f33();
+        }
+    }
+    class C45 extends C28 {
+    }
+    return v26;
+}
+v22[Symbol.toPrimitive] = f23;
+function f48(a49, a50, a51) {
+    function f52() {
+        class C53 {
+        }
+        return a50;
+    }
+    a49.toString = f52;
+    const o61 = {
+        "c": a51,
+        [v22]: v16,
+        "d": f0,
+        __proto__: a49,
+        "a": v21,
+        set g(a55) {
+            [C17,[a51,a55,v16,a50]];
+            const v58 = [v21,a51];
+            try { v58.pop(); } catch (e) {}
+            let {"a":v60,} = a51;
+        },
+    };
+    return o61;
+}
+f48(f48(v22, f48(v16, v21, v20), v16), v13, v22);
+for (let v65 = 0; v65 < 5; v65++) {
+    function f66() {
+        for (let v67 = 0; v67 < 5; v67++) {
+            const t85 = [-Infinity,1.7976931348623157e+308,1.0,1.7976931348623157e+308,-1.0,Infinity];
+            t85.length >>>= -65536;
+        }
+        return f66;
+    }
+    f66();
+    %OptimizeFunctionOnNextCall(f66);
+}

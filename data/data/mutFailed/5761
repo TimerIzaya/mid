@@ -1,0 +1,45 @@
+function f0() {
+    function F1(a3) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v4 = this.constructor;
+        const v5 = v4.bind(F1, F1, F1, F1);
+        try { v5(); } catch (e) {}
+        try { new v4(); } catch (e) {}
+    }
+    new F1();
+}
+const v9 = [f0];
+const v10 = [v9];
+const v11 = [v9,f0,v9,v10,f0];
+new BigInt64Array(3444);
+class C16 {
+    g;
+    constructor() {
+        const v18 = this.constructor;
+        v18.length = v18;
+        try { new v18(); } catch (e) {}
+    }
+}
+new C16();
+const v22 = [];
+v22.some(Uint8Array);
+function f24() {
+    const o26 = {
+        __proto__: v22,
+        [v22]() {
+        },
+    };
+    return o26;
+}
+new f24();
+new Uint8Array(4033);
+new Uint8ClampedArray(1024);
+const v33 = new Date();
+const v35 = new BigUint64Array();
+v35[v33] = v33;
+f0(BigInt64Array, f0, ...v10, 3444, 1024, ...v11);
+f0();
+f0();
+[0.9830880735406903,-0.6660198851192867,729.1589343121786,6.490727458123557e+307,-1.2538779643386477e+308,-1000000000.0];
+[638.8226705123661,3.0,-2.2250738585072014e-308,771474.4832247959,816263.8956170448,2.220446049250313e-16,5.0];
+[279.4336277527582,-3.0,255.65523693558407,1000000000000.0,367060.87602609536,1e-15];

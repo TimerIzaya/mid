@@ -1,0 +1,76 @@
+let v1 = "o";
+class C3 {
+    #p(a5) {
+        let v4 = this;
+        [v4,v1,a5] = v1;
+        C3[15] = v4;
+        v1?.c;
+        try {
+            a5.valueOf = C3;
+        } catch(e8) {
+        }
+        const o11 = {
+            "maxByteLength": 7,
+        };
+        const v13 = new ArrayBuffer(0, o11);
+        const v15 = new Int8Array(v13);
+        return v15;
+    }
+}
+const v16 = new C3();
+const v17 = new C3();
+function f18(a19) {
+    function F20(a22, a23) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v24 = this.constructor;
+        try { new v24(); } catch (e) {}
+        a22--;
+        a22 & a22;
+    }
+    return F20;
+}
+v17.toString = f18;
+const v28 = new C3();
+class C29 {
+    set f(a31) {
+        v16.__proto__;
+        const o33 = {
+        };
+        new Proxy(C3, o33);
+    }
+    constructor(a37, a38) {
+        v16[4] **= v1;
+    }
+    static #h = C3;
+    [v1] = v16;
+    268435439;
+    static [v17] = C3;
+}
+new C29(v28, C29);
+const v40 = new C29(v28, v17);
+const v41 = new C29(v40, v17);
+[C29,v16,C29,v16];
+const v43 = [v17];
+[v43,v43,v1,v41];
+const v46 = new Set();
+class C47 {
+    b = v46;
+}
+const o53 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o53);
+v46["clear"]();
+const v56 = new C47();
+const v57 = new C47();
+v57.p7 = v57;
+function f58(a59, a60, a61, a62) {
+    a60.p11 = v41;
+    for (let v63 = 0; v63 < 25; v63++) {
+        a60["p" + v63] = v63;
+    }
+    return a62;
+}
+f58(v56, v57);
+gc();

@@ -1,0 +1,47 @@
+try { ("-1").strike(); } catch (e) {}
+Int32Array.name;
+new Int32Array(9);
+3 - 3;
+Object.defineProperty(Float32Array, "d", { writable: true, enumerable: true, value: "toString" });
+Float32Array.d = Float32Array;
+const v17 = new Float32Array(3);
+function f18() {
+    function f20() {
+        for (let i23 = 0, i24 = 10;
+            (() => {
+                const v25 = i23 < i24;
+                v25 || v25;
+                return v25;
+            })();
+            ) {
+            let v31 = i23++;
+            const v32 = v31++;
+            v32 !== v32;
+        }
+        return f20;
+    }
+    return arguments;
+}
+v17.valueOf = f18;
+v17[2] = v17;
+new Uint32Array(128);
+function f37(a38, a39, a40, a41) {
+    const v42 = ++a40;
+    const v43 = v42 >>> v42;
+    let v44 = v42 * v42;
+    const v45 = v44--;
+    const o46 = {
+    };
+    function f47() {
+        return a38;
+    }
+    Object.defineProperty(o46, 2, { writable: true, enumerable: true, get: f47 });
+    o46.a = o46;
+    const v48 = o46[2];
+    try { v48.hasOwnProperty(v45); } catch (e) {}
+    return v43;
+}
+for (let v50 = 0; v50 < 500; v50++) {
+    const v51 = f37();
+    v51 + v51;
+}

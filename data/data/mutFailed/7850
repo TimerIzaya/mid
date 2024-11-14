@@ -1,0 +1,16 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t3 = -9007199254740992;
+        t3.a = -536870912;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(35398, -9007199254740992);
+new F3(-9007199254740992, -9007199254740992);
+new F3(v8, 35398);
+const v14 = [257];
+const t12 = [256,-4294967297,536870912,-8,255,-2670];
+t12.length = -9007199254740992;
+const v17 = v14[0];
+try { v17(...v14, v17); } catch (e) {}

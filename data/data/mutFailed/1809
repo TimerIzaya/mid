@@ -1,0 +1,47 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+const v2 = [f0];
+const v3 = [v2];
+const v4 = [v3,f1,f1];
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v3;
+    } catch(e9) {
+    }
+}
+const v10 = new F5(v2, f1);
+new F5(v3, v3);
+new F5(v3, v10);
+class C13 {
+    static #g = v4;
+    static d;
+    get f() {
+        for (let v15 = 0; v15 < 65; v15++) {
+            try {
+                this.#g;
+            } catch(e17) {
+            }
+        }
+        return f0;
+    }
+    #d = v4;
+    static #c;
+    static 4 = f0;
+    d;
+}
+new C13();
+new C13();
+new C13();
+function f21() {
+    return v2;
+}
+new Uint8Array(v10);
+new Float32Array(F5);
+new Uint32Array(3141);
+Math.log1p(4294967295);
+(-1.4618325192014402e+308) ** -724330360;
+(923).UTC(2, 2);

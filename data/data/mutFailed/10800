@@ -1,0 +1,78 @@
+const v1 = new Map();
+function f2() {
+    return Map;
+}
+class C3 extends f2 {
+    static #b = f2;
+    #d;
+    [f2];
+    static #h;
+    toString(a5, a6) {
+        super.e /= a5;
+        delete C3?.size;
+        const o8 = {
+        };
+        try {
+            o8.c = a5;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.c = a5;
+            o10.a = Map;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.c = a5;
+            o12.a = Map;
+            o12.f = o12;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.c = a5;
+            o14.a = Map;
+            o14.h = this;
+        } catch(e15) {
+        }
+        return a5;
+    }
+}
+new C3();
+const v17 = new C3();
+const v18 = new C3();
+function f19(a20, a21) {
+    const o30 = {
+        1475601886: f2,
+        "g": v1,
+        "f": a21,
+        get c() {
+            const o25 = {
+                "maxByteLength": 536870888,
+            };
+            const v27 = new ArrayBuffer(2360, o25);
+            const v29 = new Uint8Array(v27);
+            return v29;
+        },
+    };
+    return o30;
+}
+const v31 = f19(C3, v17);
+f19(C3, v18);
+const v33 = f19(C3, v31);
+/R(?:a*)+/gvdisy;
+/\x01/us;
+/\xed\xb0\x80/gvis;
+for (let v37 = 0; v37 < 5; v37++) {
+    const o41 = {
+        set b(a39) {
+            this.b;
+        },
+    };
+    v33.b = o41;
+    o41.b = o41;
+}

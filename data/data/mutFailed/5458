@@ -1,0 +1,32 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        "g": f1,
+        "f": f0,
+        get e() {
+            const v3 = super.a;
+            try {
+                f1.c = v3;
+            } catch(e4) {
+            }
+            return this;
+        },
+        "e": f0,
+    };
+    return o5;
+}
+f1();
+const v7 = f1();
+try { f0.e(); } catch (e) {}
+const v9 = v7?.g;
+const v10 = f1.arguments;
+try { new v9(); } catch (e) {}
+v9();
+v10 * -2147483648n;
+const v19 = 3 !== v10;
+Int32Array.BYTES_PER_ELEMENT = Int32Array;
+const v23 = new Int32Array(Int32Array);
+let {...v24} = v23;
+v19[1];
+v24[2] = v24;

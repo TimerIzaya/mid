@@ -1,0 +1,21 @@
+const t0 = -21641n;
+new t0(1024);
+new Uint32Array(7);
+new Float64Array(9);
+[-5,691468665,172839122,-297879482,-47047779,12,-24440,43729,-1325840171,65535];
+[-1467330200,41035,5,22411,7,268435439,512];
+const v14 = [22611,6,1385484059,1,1000,-9,9,-15,3,2];
+function f16(a17) {
+    const o21 = {
+        __proto__: 2,
+        ...a17,
+        p(a19, a20) {
+            return 7;
+        },
+    };
+    return a17;
+}
+%PrepareFunctionForOptimization(f16);
+const v22 = f16();
+%OptimizeFunctionOnNextCall(v14);
+f16(v22);

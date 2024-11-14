@@ -1,0 +1,117 @@
+function f0() {
+}
+class C1 {
+    static #c = f0;
+    static #o() {
+        let v2 = this;
+        --v2;
+        try { v2["o"](); } catch (e) {}
+        return "o";
+    }
+    static 1540;
+    f = f0;
+    static #m() {
+        this[this] = this;
+        try {
+            this.#c = this;
+        } catch(e7) {
+        }
+        return this;
+    }
+}
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    class C30 {
+        static {
+            super[this];
+        }
+    }
+}
+new BigUint64Array();
+new BigUint64Array(1448);
+function f37(a38, a39, a40) {
+}
+([-1000000000000.0,-1.7976931348623157e+308,294500.85018206923,-Infinity,-0.0,-7.010036940344757e+307,1.0,-Infinity,-1000.0,-1.1645821156926988e+308]).reduce(f37);
+gc();
+const v45 = new C1();
+const v46 = new C1();
+const v47 = new C1();
+const v48 = [v46,v45,v47,v46,C1];
+const v49 = [v45,v47,v48,v45,v48];
+const v50 = [f0];
+function f51(a52, a53, a54) {
+    const o64 = {
+        "b": a53,
+        get c() {
+            try {
+                super.getUint8(this, this, C1, this, C1);
+            } catch(e57) {
+            }
+            return v49;
+        },
+        p(a59, a60, a61, a62) {
+            v45 - a62;
+            ({"a":a52,"length":a52,...a52} = a59);
+            return v47;
+        },
+        ...v45,
+    };
+    return o64;
+}
+f51(v46, v46, v45);
+f51(v45, v45, v45);
+f51(v45, v46, v47);
+function f74(a75, a76) {
+    const o81 = {
+        "c": -11,
+        set g(a78) {
+            try {
+                super.o(this, a78);
+            } catch(e80) {
+            }
+        },
+        ...a76,
+        "a": a76,
+        __proto__: a76,
+    };
+    return o81;
+}
+const v82 = f74(-11, -128);
+v82.toString = f0;
+const v83 = f74(15, v82);
+v83.toString = f51;
+const v84 = f74(-11, v83);
+function f85(a86, a87) {
+    const o88 = {
+    };
+    try {
+        o88.d = v82;
+    } catch(e89) {
+    }
+    try {
+        const o90 = {
+        };
+        o90.d = v82;
+        o90.h = v83;
+    } catch(e91) {
+    }
+    try {
+        const o92 = {
+        };
+        o92.d = v82;
+        o92.h = v83;
+        o92.g = a87;
+    } catch(e93) {
+    }
+    try {
+        const o94 = {
+        };
+        o94.d = v82;
+        o94.h = v83;
+        o94.g = v50;
+    } catch(e95) {
+    }
+    return v50;
+}
+Object.defineProperty(v84, Symbol.toPrimitive, { writable: true, enumerable: true, value: f85 });
+v84 <= 2054272044n;

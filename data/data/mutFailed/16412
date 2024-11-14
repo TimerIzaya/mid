@@ -1,0 +1,18 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.growable = 536870912;
+    } catch(e3) {
+    }
+}
+const v4 = new F0(F0);
+const v5 = new F0();
+const v6 = new F0(v4, v5, v5);
+v6.e = v6;
+-15n ^ -15n;
+const v15 = [1,1661724184,1868910471,6,-2147483648,1940011086];
+[-4096,-9007199254740991,-2106986148,65536,-9,65537];
+const v17 = [-126169988,65536,129,-5,-1024,-2147483647,1,5,14];
+try { v17.group(v15); } catch (e) {}
+v5.globalThis;
+v4.write();

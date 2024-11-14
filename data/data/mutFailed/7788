@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.byteOffset = -28299;
+    } catch(e3) {
+    }
+    try {
+        this.a = -28299;
+    } catch(e4) {
+    }
+}
+new F0(F0);
+const v6 = new F0();
+const v7 = new F0();
+const v10 = new Float64Array(7);
+const v13 = new Int16Array(7);
+const v15 = F0;
+try {
+    v6.fuck([7,v7,v10,107,v13], v6);
+} catch(e18) {
+}
+new Int32Array(107, 107);
+function F21(a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v24 = [0.42814979232542394,311.25870633837985,-730.6995581896936,-31162.384441508562];
+    function F25(a27, a28, a29, a30) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v31 = this.caller;
+        try { new v31(a28, F21, v31); } catch (e) {}
+        v24.a <<= 1;
+        let v34 = 0;
+        while (v34 < 2) {
+            v34 in a28;
+            v34++;
+        }
+    }
+    new F25();
+}
+const v40 = new Float64Array();
+new F21(v40);

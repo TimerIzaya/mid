@@ -1,0 +1,61 @@
+new BigUint64Array(6);
+new Float64Array(57);
+new BigUint64Array(127);
+-0.21869327586044374;
+~82.10662121187238;
+let v16 = -922911.6474995338;
+v16--;
+class C18 {
+    static #p(a20, a21) {
+    }
+    #h;
+}
+const v22 = new C18();
+const v23 = new C18();
+const v24 = v23?.constructor;
+try { new v24(); } catch (e) {}
+const v26 = new C18();
+const v27 = v26?.constructor;
+try { new v27(); } catch (e) {}
+function f29(a30, a31, a32, a33) {
+    const v34 = a31?.constructor;
+    try { new v34(); } catch (e) {}
+    const o36 = {
+        "c": v16,
+        242: v16,
+        "g": v23,
+        [a33]: a31,
+        [C18]: a31,
+        "a": -747634.1081113975,
+        "h": a30,
+        "f": a33,
+    };
+    try { Int32Array.bind(a33); } catch (e) {}
+    try { Float64Array.bind(o36); } catch (e) {}
+    const v42 = new Float64Array(6);
+    v42["toLocaleString"](Int32Array, 6);
+    return o36;
+}
+const v46 = f29(f29(v22, v26, C18), v26, v22, v22);
+const v47 = f29(v23, v26, v46, v46);
+class C48 {
+    constructor(a50, a51) {
+        const v52 = this?.constructor;
+        try { new v52(f29, v22); } catch (e) {}
+        a50.length = a50;
+        function f54(a55, a56) {
+        }
+        const v60 = [v22,v47];
+        v60[1];
+        const o62 = {
+            "arguments": v60,
+            "type": "function",
+        };
+        const v63 = o62?.__defineSetter__;
+        try { new v63(o62, f29); } catch (e) {}
+        const v65 = new Worker(f54, o62);
+        try { v65.terminateAndWait(); } catch (e) {}
+    }
+}
+const v67 = new C48(C18, C48);
+v67.d = v67;

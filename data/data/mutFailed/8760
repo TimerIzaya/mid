@@ -1,0 +1,36 @@
+function f0() {
+    const o15 = {
+        __proto__: "16",
+        "f": "setInt16",
+        "b": 1,
+        "a": "setInt16",
+        n(a5, a6) {
+            super["setInt16"] = this;
+            function F7(a9, a10) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = a10;
+                } catch(e11) {
+                }
+            }
+            const v12 = new F7("setInt16", a5);
+            new F7(this, v12);
+            new F7(a6, f0);
+            return 1;
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+f0();
+const v18 = f0();
+function f19() {
+    return v18;
+}
+const v26 = [];
+function f27(a28) {
+    Math.tanh("1");
+    return v16;
+}
+v26.toString = f27;
+new Int8Array([v26]);

@@ -1,0 +1,69 @@
+class C9 extends Array {
+    10 = 134;
+}
+const v10 = new C9();
+const o11 = {
+    ...v10,
+};
+try {
+    C9.length = 0;
+} catch(e13) {
+}
+function f16(a17, a18, a19, a20) {
+    function f21() {
+    }
+    class C22 extends f21 {
+        toString(a24, a25) {
+            const t16 = this.constructor;
+            new t16();
+            -this;
+        }
+    }
+    const v29 = new C22();
+    try { v29.toString(); } catch (e) {}
+    for (let i = 0; i < 5; i++) {
+        ["object",-789249927n,"object"];
+    }
+}
+function f33() {
+    return 111806460;
+}
+class C34 extends f33 {
+    o(a36, a37) {
+        super[268435456] = 111806460;
+        const v38 = new f33(24235, 3, -789249927n, 8);
+        const t34 = 8;
+        t34[0] = -9007199254740992n;
+        try { new C9(...a36, 0, a36, f16); } catch (e) {}
+        function F40(a42, a43, a44) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a42;
+            } catch(e45) {
+            }
+            try {
+                this.h = a42;
+            } catch(e46) {
+            }
+        }
+        new F40(a37, -9007199254740992n, 0);
+        new F40(2016677017n, C34, f33);
+        new F40(2016677017n, -789249927n, 24235);
+        function F50(a52, a53) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = a52;
+            } catch(e54) {
+            }
+        }
+        const v55 = new F50(24235, v38);
+        new F50(3, F40);
+        new F50(268435456, o11);
+        return v55;
+    }
+}
+new C9();
+const t65 = 2016677017n;
+new t65();
+new C34(o11, o11);
+Math.sinh(128);

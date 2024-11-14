@@ -1,0 +1,44 @@
+function f4() {
+    return f4;
+}
+Object.defineProperty([f4], -2, { value: f4 });
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C15 {
+    p(a17, a18, a19, a20) {
+    }
+}
+F9(C15);
+async function f23(a24, a25, a26) {
+    return a26;
+}
+f23.constructor;
+const v30 = new Uint8Array(165);
+v30.lastIndexOf();
+new Uint16Array(7);
+new Uint8ClampedArray(2);
+new BigInt64Array(75);
+function f39(a40, a41) {
+    return f39;
+}
+const v42 = f39(f39, f39);
+class C43 extends f39 {
+    constructor(a45, a46, a47) {
+        const v50 = Symbol.iterator;
+        const t28 = "string";
+        t28[v50] = v50;
+        function f51(a52, a53, a54) {
+            'use strict';
+            return a52;
+        }
+        super();
+        const v55 = `
+            try { a45(a47, v42); } catch (e) {}
+        `;
+        eval(v55);
+        try { new SharedArrayBuffer(-2147483647n); } catch (e) {}
+        parseInt("pop");
+    }
+}
+new C43(f39, C43, f39);

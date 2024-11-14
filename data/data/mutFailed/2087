@@ -1,0 +1,45 @@
+const v2 = new Uint16Array(198);
+const v5 = new Uint32Array(512);
+new BigInt64Array(11);
+function f9(a10, a11) {
+    const o19 = {
+        ...v5,
+        [v2]: BigInt64Array,
+        toString(a13, a14) {
+            const v15 = v5.__proto__;
+            a14 = 11;
+            return v15;
+        },
+        "c": v2,
+        "h": v2,
+        [11]: a10,
+        __proto__: v5,
+    };
+    return o19;
+}
+const v20 = f9(11, 11);
+const v21 = f9(11, 11);
+f9(512, 11);
+v21[-2] = v21;
+const o29 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o29);
+function f33(a34) {
+    const o35 = {
+        ..."toStringTag",
+        "a": "minor",
+        __proto__: v2,
+        "f": v21,
+        "c": Uint16Array,
+        "g": v20,
+    };
+    return o35;
+}
+class C36 extends f33 {
+    ["15036"];
+}
+const v37 = new C36();
+for (const v38 in v37) {
+}

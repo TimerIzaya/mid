@@ -1,0 +1,63 @@
+new Int16Array(4);
+let v3 = 1015;
+new Int16Array(v3);
+try {
+const t0 = 65536n;
+t0(65536n);
+} catch (e) {}
+try {
+    class C10 extends [BigUint64Array,BigUint64Array,BigUint64Array,BigUint64Array] {
+    }
+} catch(e11) {
+}
+const v14 = new Uint8ClampedArray(39);
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 4;
+    } catch(e19) {
+    }
+    try {
+        this.a = Uint8ClampedArray;
+    } catch(e20) {
+    }
+}
+const v21 = new F15(v3, 4);
+const v22 = new F15(v3, v3);
+%VerifyType(v22);
+const v23 = v14.byteLength;
+delete v14?.buffer;
+try { v22.toString(4); } catch (e) {}
+Math.clz32(39);
+v23.tan(51219);
+Math.atan2(14, 39 && 2.61091947157332e+307);
+let v35 = 2.61091947157332e+307 + ++v3;
+v35++;
+new F15(4, v3);
+class C38 extends Uint8ClampedArray {
+    #valueOf(a40, a41, a42, a43) {
+        function f44(a45, a46) {
+            function f48(a49) {
+                v21 > a49 ? v21 : a49;
+            }
+            this.onmessage = f48;
+        }
+        ("object").normalize("NFD");
+        const v60 = [a41,a40--];
+        const o61 = {
+            "arguments": v60,
+            "type": "function",
+        };
+        new Worker(f44, o61);
+        return 39;
+    }
+}
+new C38();
+const v64 = new C38();
+new v64();
+Array(4087, -2.220446049250313e-16);
+Int16Array % 257;
+const v74 = new BigUint64Array(1000);
+const o75 = {
+    ...v74,
+};

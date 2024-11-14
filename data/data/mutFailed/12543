@@ -1,0 +1,73 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -5;
+    } catch(e3) {
+    }
+    try {
+        this.b = -5;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+v5[1024] = "rr3VI";
+const v10 = "rr3VI" === v6;
+let v11;
+try { v11 = v5(F0, v10, v10, "rr3VI", v10); } catch (e) {}
+try {
+    const t19 = "rr3VI";
+    t19.length = v11;
+} catch(e12) {
+}
+function f14() {
+    return "S";
+}
+function f15() {
+    return v5;
+}
+class C16 extends f15 {
+    #c = v5;
+    static [-1] = F0;
+    static #g;
+    set b(a18) {
+        let v17 = this;
+        a18 >= f14;
+        v17 /= v6;
+        try {
+            v6.valueOf = a18;
+        } catch(e20) {
+        }
+    }
+    static e = F0;
+    static 5;
+    static 257 = "S";
+}
+const v21 = new C16();
+const v22 = new C16();
+const v23 = new C16();
+function f24(a25, a26) {
+    const o37 = {
+        [a26](a28, a29, a30, a31) {
+            ("tDUy")[5];
+            f15();
+            %PrepareFunctionForOptimization(f15);
+            f15();
+            f15();
+            %OptimizeFunctionOnNextCall(f15);
+            f15();
+            return a25;
+        },
+        __proto__: a25,
+        "e": v22,
+        "a": a25,
+        "d": v23,
+    };
+    return o37;
+}
+f24(v5, f14);
+f24(v21, "rr3VI");
+f24(v21, "S");
+const v43 = new Uint8ClampedArray(255);
+v43[3] = Uint32Array;

@@ -1,0 +1,45 @@
+class C3 {
+    static {
+        function f5(a6, a7) {
+            for (let v8 = 0; v8 < 32; v8++) {
+                a6["p" + v8] = v8;
+            }
+            return a6;
+        }
+        this.toString = f5;
+        try { new this(); } catch (e) {}
+        this[this] ^= 1000000000.0;
+        this[this];
+        16n | 16n;
+    }
+    static g = 320.3673378298022;
+    f;
+    static [9.668717748820228e+307] = 320.3673378298022;
+}
+function f17() {
+    C3[722140261] = 1000000000.0;
+    try { Reflect.set(); } catch (e) {}
+    return C3;
+}
+C3[Symbol.iterator] = f17;
+try { new C3(); } catch (e) {}
+new C3();
+const v24 = new C3();
+new C3();
+[-4294967297,-115052900,-15,-53911,4,7,-16,-3];
+[-2147483647,-4096,257,1073741825,720346672,-2147483648];
+const v28 = [-1194598745,0,-33939,551697293,-53274];
+v28.constructor = f17;
+try { v28.flat(); } catch (e) {}
+208 >>> 208;
+try { new Uint8Array(C3, v24, 208); } catch (e) {}
+const v34 = new Uint8Array(208);
+Object.defineProperty(v34, "toString", { configurable: true, enumerable: true, value: f17 });
+try { v34.join(v34); } catch (e) {}
+new BigInt64Array();
+for (const v38 of v34) {
+    for (let v39 = 0; v39 < 5; v39++) {
+        v38["p" + v39] = v39;
+    }
+}
+new Float64Array();

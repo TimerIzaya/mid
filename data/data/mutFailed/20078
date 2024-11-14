@@ -1,0 +1,39 @@
+class C6 {
+    static #m(a8, a9) {
+        const v11 = Symbol.iterator;
+        const o20 = {
+            [v11]() {
+                let v13 = 10;
+                const o19 = {
+                    next() {
+                        v13--;
+                        const v17 = v13 == 0;
+                        const o18 = {
+                            "done": v17,
+                            "value": v13,
+                        };
+                        return o18;
+                    },
+                };
+                return a9;
+            },
+        };
+        return this;
+    }
+}
+new C6();
+const v22 = new C6();
+new v22();
+class C25 {
+}
+function f26() {
+    const o28 = {
+    };
+    gc(o28);
+}
+const v30 = new C25();
+const v31 = v30.constructor;
+v31[Symbol.toPrimitive] = f26;
+new v31();
+[C6.constructor,Map];
+v22.toSorted();

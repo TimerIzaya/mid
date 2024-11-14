@@ -1,0 +1,33 @@
+new Uint16Array(1);
+const v8 = new Int16Array(1150);
+new BigUint64Array(1770);
+const v14 = new Uint8Array(127);
+const o18 = {
+    "maxByteLength": 65536,
+};
+const v20 = new ArrayBuffer(287, o18);
+const v22 = new BigInt64Array(v20);
+new BigInt64Array(8);
+new Float64Array(2);
+const o31 = {
+};
+new Proxy(v22, o31);
+const v34 = new Uint8ClampedArray(255);
+let v36 = 0;
+while (v36 < 3) {
+    try { v8(v20, 287, v14, Uint8Array); } catch (e) {}
+    v36++;
+}
+function f44(a45, a46) {
+    class C48 {
+        static {
+            try {
+            const t0 = "boolean";
+            t0(this);
+            } catch (e) {}
+        }
+    }
+    return a45;
+}
+Uint32Array.toString = f44;
+v34[3] = Uint32Array;

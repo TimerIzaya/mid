@@ -1,0 +1,55 @@
+function f3(a4, a5) {
+    const o15 = {
+        "g": a5,
+        "d": "getMonth",
+        get e() {
+            super[this] = "getMonth";
+            return "f";
+        },
+        get a() {
+            function f8(a9, a10) {
+                const o11 = {
+                    ["f"]: a10,
+                    "f": a9,
+                };
+                return o11;
+            }
+            const v12 = f8("getMonth", "getMonth");
+            f8("getMonth", a5);
+            f8("filter", "f");
+            return v12;
+        },
+    };
+    return o15;
+}
+const v16 = f3("f", "f");
+const v17 = f3("filter", "f");
+f3("f", "getMonth");
+class C19 extends f3 {
+    valueOf(a21, a22, a23) {
+        try {
+            v17.toString = f3;
+        } catch(e24) {
+        }
+        return a23;
+    }
+    static #n(a26, a27, a28) {
+        function f29(a30, a31) {
+            try { a31(a30, "f", a30); } catch (e) {}
+            -Infinity;
+        }
+        new Promise(f29);
+        return v17;
+    }
+}
+new v16();
+new C19();
+new C19();
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v49 = C19.constructor;
+    let v50;
+    try { v50 = new v49("-268435456"); } catch (e) {}
+    v50.prototype;
+}
+new F45(F45);

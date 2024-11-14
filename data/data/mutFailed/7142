@@ -1,0 +1,24 @@
+const v2 = new Array(11);
+function f3(a4, a5) {
+    const o6 = {
+        "g": a5,
+        1073741825: a5,
+        __proto__: v2,
+        ...Array,
+        "b": a4,
+        "e": Array,
+        "h": 11,
+        "d": a4,
+        [a5]: v2,
+        "f": 11,
+        "c": a4,
+        "a": v2,
+    };
+    return o6;
+}
+f3(f3, v2);
+f3(f3, Array);
+f3(v2, f3);
+new Map();
+new Set();
+v2.localeCompare("isArray", "isArray");

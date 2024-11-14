@@ -1,0 +1,55 @@
+const v0 = [13,2147483649];
+const v1 = [268435440,1,2147483649,-7115];
+const v2 = [-16,8,4294967297,12770,-10,-1972513765];
+const v4 = new Date();
+class C5 extends Date {
+    constructor(a7) {
+        super(a7);
+        for (const v8 in v4) {
+            this[65537] = v8;
+        }
+        const v9 = super.toLocaleString();
+        v2[6] = v1;
+        function f10(a11, a12) {
+            function f14(a15) {
+                try {
+                    new Date("256");
+                } catch(e18) {
+                }
+            }
+            this.onmessage = a11;
+            const o19 = {
+            };
+            new Proxy(this, o19);
+        }
+        function f23(a24) {
+            return a24;
+        }
+        class C25 extends a7 {
+            [v9] = this;
+        }
+        const v27 = [this,this];
+        const o28 = {
+            "arguments": v27,
+            "type": "function",
+        };
+        new Worker(f10, o28);
+    }
+}
+const v30 = new C5(v0);
+class C32 extends v30.constructor {
+    static #g;
+    static g;
+    #a;
+}
+new C32();
+const v34 = new C5(v0);
+new C5(v34);
+function f39(a40, a41, a42) {
+    try { a40(); } catch (e) {}
+    return a40;
+}
+%PrepareFunctionForOptimization(f39);
+const v44 = f39(f39, f39, f39);
+%OptimizeFunctionOnNextCall(f39);
+v44();

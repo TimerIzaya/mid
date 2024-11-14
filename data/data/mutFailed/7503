@@ -1,0 +1,100 @@
+const v0 = /((\xed\xa0\x80))\x02/gvd;
+const v1 = /foo[z]*/gvds;
+const v2 = /foo(?!bar)baz/uim;
+1000000000.0 * 1000000000.0;
+const o8 = {
+};
+const t6 = o8[o8];
+t6();
+function f12(a13) {
+    const o14 = {
+        "c": a13,
+        16: -4.0,
+        1073741824: a13,
+    };
+    return o14;
+}
+const v16 = new Array(512);
+function f17() {
+    return v16;
+}
+function f18(a19, a20, a21) {
+    a19++;
+    a20.h = a20;
+    a21.d = a21;
+    const o52 = {
+        7: -7.852956324922657e+307,
+        "h": a19,
+        "e": v1,
+        51: a19,
+        "f": a20,
+        [512](a24, a25) {
+        },
+        get e() {
+            return Array;
+        },
+        "c": -7.852956324922657e+307,
+        p(a28, a29, a30, a31) {
+            const v32 = 4.3635830826231405 !== v16;
+            if (v32) {
+                const o40 = {
+                    "apply": f17,
+                    "call": f17,
+                    "deleteProperty": f17,
+                    "get": f17,
+                    "getPrototypeOf": Array,
+                    "has": Array,
+                    "f": a31,
+                    "g": v32,
+                    "h": 1000000000.0,
+                    "a": a20,
+                    __proto__: v16,
+                    valueOf(a34, a35) {
+                        return v32;
+                    },
+                    [a21]: v32,
+                    [a21]: o8,
+                    ...v16,
+                    "c": 512,
+                    "arguments": v16,
+                    "arguments": v16,
+                    "ownKeys": a28,
+                    "preventExtensions": Array,
+                    "c": this,
+                    valueOf(a37) {
+                    },
+                    [-4.0]: f18,
+                    get f() {
+                        class C39 {
+                        }
+                    },
+                    "setPrototypeOf": f17,
+                };
+                new Proxy(a20, o40);
+            } else {
+                f17();
+                %PrepareFunctionForOptimization(f17);
+                const v47 = new Uint8Array(512);
+                v47.includes(2011);
+                f17();
+                f17();
+                %OptimizeMaglevOnNextCall(f17);
+                f17();
+            }
+            return a21;
+        },
+    };
+    return o52;
+}
+f18(4.3635830826231405, v2, v0);
+f18(-7.852956324922657e+307, v0, v2);
+const v55 = f18(1000000000.0, v0, v1);
+v55.c = v55;
+function f56() {
+    try { new Int8Array(Int8Array, v1, v1); } catch (e) {}
+    const v60 = new Int8Array(1073741823);
+    v60.g = v60;
+    return f56;
+}
+f56();
+f56();

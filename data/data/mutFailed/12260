@@ -1,0 +1,52 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -2147483649;
+    } catch(e3) {
+    }
+    try {
+        this.h = -2147483649;
+    } catch(e4) {
+    }
+    try {
+        this.b = -2147483649;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+v8.f;
+function f11() {
+    return v8;
+}
+try { f11(); } catch (e) {}
+new BigInt64Array(1000);
+new Int32Array(13);
+let v19 = 2879;
+v19++;
+const v22 = new Uint8Array(f11);
+const v23 = v22?.entries;
+try { new v23(); } catch (e) {}
+const v27 = new Int32Array(129, 129, 129);
+const v29 = new BigInt64Array();
+const v30 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+v30[1] = v30;
+try { (129).some(); } catch (e) {}
+const v32 = [-1.7976931348623157e+308];
+function f33(a34, a35, a36, a37) {
+    a35 + a35;
+    a36.length = a36;
+    const o44 = {
+        toString(a40, a41, a42) {
+            try { this.toString(); } catch (e) {}
+            a36[a35] = a34;
+        },
+    };
+    return o44;
+}
+try { f33.bind(v22); } catch (e) {}
+const v46 = f33(v29, 129, v32);
+try { v46.toString(F0, v7, v6); } catch (e) {}
+v46.toString();
+f33(v27, v19, v30) % v32;

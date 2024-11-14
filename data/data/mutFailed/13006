@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -4096;
+    } catch(e3) {
+    }
+    try {
+        this.g = -4096;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8(a9, a10) {
+    const o17 = {
+        set h(a12) {
+            try { a12.setFullYear(); } catch (e) {}
+        },
+        ...a9,
+        "e": v7,
+        __proto__: v6,
+        "a": a10,
+        "c": v5,
+        "h": a9,
+        "f": f8,
+        "d": v6,
+    };
+    return o17;
+}
+f8(v5, v7);
+v6(v5, v6);
+f8(v5, v6);
+let v27 = 1073741824;
+class C29 {
+    constructor(a31) {
+        [a31,v27] = "boolean";
+    }
+}
+const v32 = new C29();
+const v33 = new C29(v32);
+function f35(a36, a37, a38) {
+    const t42 = 12597n;
+    t42[22] = a36;
+    const o39 = {
+        ...a38,
+        2: v32,
+        268435439: C29,
+    };
+    return o39;
+}
+const v40 = f35(v33, "-65537", v27);
+f35(v40, "boolean", v40);

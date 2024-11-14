@@ -1,0 +1,45 @@
+const v0 = [1e-15,0.837463598720701,2.220446049250313e-16,-2.2250738585072014e-308,1.0];
+[5.706875609876917,2.2250738585072014e-308,-2.0,-6.36840244475195e+307,1000.0,-1000.0,-1.0378793923762218e+308,4.0,-150.2660996415808,1e-15];
+[0.0,3.1819644725212513,4.0,-727.1772217090609,-1.6334477545202649e+308,-720.2935959931535,746.9535651276469];
+new Int8Array(4096);
+new Float32Array(117, Float32Array, 4096);
+const v11 = new Float32Array(163);
+function f14() {
+    return f14;
+}
+class C15 extends f14 {
+    constructor(a17, a18, a19, a20) {
+        super();
+        function f21() {
+            const t13 = [];
+            t13[6] = this;
+            return v0;
+        }
+        for (let v23 = 0; v23 < 5; v23++) {
+            const v24 = f14;
+            v11[v24] <<= C15;
+            const v25 = !f21;
+            const o26 = {
+                "call": v24,
+                "deleteProperty": v24,
+                "get": v24,
+                "getOwnPropertyDescriptor": f21,
+                "getPrototypeOf": f14,
+                "has": f21,
+                "isExtensible": f21,
+                "ownKeys": v24,
+                "set": v24,
+            };
+            a18[4] = Proxy;
+            o26[a17] = v25;
+            a18 ^ this;
+            4096 <= 163;
+            Object.defineProperty(o26, "c", { get: f14, set: v24 });
+            new Proxy(this, o26);
+            f21();
+            %OptimizeFunctionOnNextCall(a20);
+        }
+    }
+}
+new C15(Uint8ClampedArray, Uint8ClampedArray, 9007199254740991);
+new C15();

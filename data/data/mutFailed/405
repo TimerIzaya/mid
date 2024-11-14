@@ -1,0 +1,52 @@
+const v0 = [];
+function f1() {
+    const o4 = {
+        __proto__: v0,
+        clz32() {
+            let v2 = this;
+            return v2 = v0;
+        },
+        "b": v0,
+        "f": v0,
+        ...v0,
+        "c": v0,
+    };
+    return o4;
+}
+f1();
+const v6 = f1();
+const v7 = f1();
+function f8() {
+    return f1;
+}
+let v10;
+try { v10 = ("7l").codePointAt(v7); } catch (e) {}
+let v12 = "-1";
+let v14;
+try { v14 = WeakMap.call(f1); } catch (e) {}
+const v15 = f1();
+const v16 = v12.length;
+try {
+    const v17 = ("-4096")[v7];
+    v15[7];
+    const t31 = "-4096";
+    t31[v17] = v14;
+    const v20 = [v12,v16];
+    Reflect.apply(v12.endsWith, "7l", v20);
+    const v23 = new f8();
+    const v24 = v23?.constructor;
+    try { new v24(v6); } catch (e) {}
+} catch(e26) {
+}
+const v27 = new WeakMap();
+try { v27.has(v6); } catch (e) {}
+try { Int8Array.from(v6); } catch (e) {}
+const v31 = v27.b;
+v12[v31] = v6;
+v12 <<= v12;
+v15 == v6;
+Object.defineProperty(v6, "a", { writable: true, get: f8, set: f1 });
+Reflect.construct(v10, [v31,v31,Reflect,v27,WeakMap], f8);
+delete v0[7];
+const v40 = new String(303);
+Object.defineProperty(v40, 7, { writable: true, configurable: true, enumerable: true, value: Int8Array });

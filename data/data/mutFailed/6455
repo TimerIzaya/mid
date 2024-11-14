@@ -1,0 +1,45 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = true;
+    } catch(e3) {
+        new Uint16Array(129);
+        try {
+        } catch(e7) {
+            eval("");
+        }
+    }
+    const o16 = {
+        "g": 1073741824,
+        get d() {
+            super[this];
+            return this;
+        },
+        "f": 3,
+        ...this,
+        10: 1073741824,
+    };
+}
+const v18 = new WeakMap();
+const o21 = {
+    get e() {
+        v18.get();
+    },
+};
+new F1();
+const v23 = new F1();
+new F1();
+const v27 = new Int8Array(3715);
+try { v27.join(v27); } catch (e) {}
+9 >>> 9;
+const v34 = new BigUint64Array(64);
+v34["copyWithin"]();
+const v37 = new Float64Array(9);
+v37[4];
+new v23(211);
+Float64Array.BYTES_PER_ELEMENT = Float64Array;
+new Float64Array();
+try { Float32Array.from(Float64Array); } catch (e) {}
+const v49 = new Float32Array(1000);
+const v51 = [v49,Uint32Array,[v37,Uint32Array,v49]];
+v51[v51] >>= 1000;

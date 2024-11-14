@@ -1,0 +1,20 @@
+new Int16Array(Int16Array);
+const v4 = 255 >> 255;
+const v8 = Reflect.construct(Uint8ClampedArray, [Reflect,v4,8], Uint8ClampedArray);
+const v11 = [Reflect,Reflect,Reflect,v4,255];
+Reflect.construct(v8, v11, v8);
+new Uint8ClampedArray(255);
+try { Uint32Array.from(Uint32Array); } catch (e) {}
+new Uint32Array(255);
+-2147483647 >>> -2147483647;
+try {
+    -2147483647 in "deleteProperty";
+    let [...v25] = v11;
+    try {
+        const t13 = "deleteProperty";
+        t13.length = 255;
+    } catch(e26) {
+    }
+} catch(e27) {
+    e27.message;
+}

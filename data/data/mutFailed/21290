@@ -1,0 +1,15 @@
+const v1 = new WeakSet();
+function f2() {
+    return WeakSet;
+}
+const v3 = [f2,WeakSet,f2,f2];
+[v3,v3,f2,v3,f2,v1,v3];
+const v5 = [v1,v1,v3,WeakSet,f2];
+[536870888,1959623916,8];
+[10,21841,-10,-65535,-65535,5,-1916359607,4294967295,7892];
+[127,-12,38283,24638,-9223372036854775807];
+new NaN(2147483649, WeakSet, v5);
+const o16 = {
+    __proto__: Set,
+    ...Set,
+};

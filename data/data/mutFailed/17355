@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 255;
+    } catch(e3) {
+    }
+    try {
+        this.constructor = 255;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [v7];
+function f9(a10) {
+    function F11(a13, a14, a15, a16) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.a = a13;
+        } catch(e17) {
+        }
+    }
+    new F11(v7, v7, a10, v5);
+    const v19 = new F11(v7, v5, a10, v5);
+    new F11(v5, v5, a10, v6);
+    return v19;
+}
+v8.toString = f9;
+const v21 = [v8,v8];
+const v22 = [v21];
+class C23 extends F0 {
+    static [v7];
+    [v21];
+    f = v22;
+    static {
+        this.name;
+        try {
+            v22.e = v6;
+        } catch(e26) {
+        }
+    }
+    #g = v21;
+    static 268435441;
+}
+new C23();
+new C23();
+const v29 = new C23();
+v29.cause = v29;
+v29.cause;
+const t49 = "object";
+t49[5] = "object";
+%PrepareFunctionForOptimization("object");

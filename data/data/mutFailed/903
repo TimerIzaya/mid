@@ -1,0 +1,36 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 1073741823;
+    } catch(e3) {
+    }
+    try {
+        this.b = 1073741823;
+    } catch(e4) {
+    }
+}
+new F0();
+new Int16Array(20);
+for (const v9 in F0) {
+    Math.expm1(v9);
+}
+const v12 = new F0();
+new v12();
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a20;
+}
+class C23 {
+}
+new F17();
+class C34 extends Date {
+}
+const v35 = new C34();
+v35.constructor;
+try { new v35(0.8735699512350641, -4.955027307164173); } catch (e) {}
+class C39 {
+}
+const v40 = new C39();
+with (v40) {
+    try { h.startsWith(h); } catch (e) {}
+}

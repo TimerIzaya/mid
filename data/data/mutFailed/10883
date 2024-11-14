@@ -1,0 +1,25 @@
+const v2 = new BigInt64Array(255);
+for (let v3 = 0; v3 < 99; v3++) {
+    try {
+    const t0 = 255;
+    t0(v2, v3, 255, v3, v2);
+    } catch (e) {}
+}
+let v6 = v2["with"](255, "with");
+BigInt64Array.BYTES_PER_ELEMENT = BigInt64Array;
+const v9 = new BigInt64Array(256);
+try { v6(v2, 10, BigInt64Array, v9, 10); } catch (e) {}
+v6 = 255;
+const t11 = "with";
+t11[Symbol.hasInstance] = 256;
+new Int8Array(10);
+[-36943,5,536870887,59859,47408,-1,9007199254740992,-4294967295];
+[-1,-55191,2147483648,536870887,12,8,65537,-9007199254740991,-1];
+const v18 = [8,5,-10];
+try { v18.with(v18, v18); } catch (e) {}
+class C21 extends Date {
+}
+C21.e = C21;
+const v22 = new C21();
+try { v22.getDay(); } catch (e) {}
+v22.setUTCMinutes();

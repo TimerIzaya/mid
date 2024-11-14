@@ -1,0 +1,23 @@
+class C3 {
+    n(a5, a6) {
+        const v7 = super[a5];
+        try {
+            v7.__proto__ = v7;
+        } catch(e8) {
+        }
+        return 7;
+    }
+    655429990 = 7;
+    536870889;
+}
+new C3();
+const v10 = new C3();
+v10[655429990] = v10;
+const v11 = new C3();
+v11[655429990] = v11;
+Set[Symbol.toPrimitive] = Array;
+try { new Set(); } catch (e) {}
+Set.__defineSetter__(Set, Set);
+const v22 = Array(4096);
+v22[3649] = v11;
+v22.shift();

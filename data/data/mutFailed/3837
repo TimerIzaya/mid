@@ -1,0 +1,65 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(2147483647);
+const v8 = new F3(9007199254740992);
+const v9 = new F3(1073741825);
+new Date(v7, 9007199254740992, Date);
+[-23806];
+[-53407,4,2,-710728270];
+[-58811,13409,1496270583,9,-60118,8];
+class C16 {
+}
+const v17 = new C16();
+const v18 = v17[v17];
+v9[1] = Date;
+v8.b **= v18;
+const v20 = undefined.iterator;
+const o29 = {
+    [v20]() {
+        let v22 = 10;
+        const o28 = {
+            toString() {
+                v22--;
+                const v26 = v22 == 0;
+                const o27 = {
+                    "done": v26,
+                    "value": v22,
+                };
+                return o27;
+            },
+        };
+        return o28;
+    },
+};
+const v30 = new C16();
+const v31 = new C16(C16, undefined);
+function f32(a33, a34) {
+    const v37 = new Float64Array(127, Float64Array, undefined);
+    new Uint8Array(12);
+    const v43 = new Infinity(6);
+    const v44 = [];
+    try { v44.with(); } catch (e) {}
+    const o53 = {
+        [v30](a47, a48, a49) {
+            super[-9223372036854775807];
+        },
+        set b(a52) {
+        },
+        [a34]: v17,
+        ...v43,
+        "d": v9,
+        __proto__: v37,
+        [-9223372036854775807]: 6,
+        "c": v37,
+    };
+    return a33;
+}
+%PrepareFunctionForOptimization(f32);
+f32(Uint16Array, v31);
+%OptimizeFunctionOnNextCall(f32);
+f32();

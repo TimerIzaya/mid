@@ -1,0 +1,35 @@
+new Float32Array(4);
+new BigInt64Array(3692);
+new Float64Array(4096);
+new Int8Array(16);
+new Int8Array(14);
+new BigUint64Array(1132);
+const v20 = new Float32Array(9);
+v20.fill();
+function f22(a23, a24, a25, a26) {
+    function f27() {
+        const v29 = new Int32Array();
+        v29.reverse();
+        return a26;
+    }
+    Object.defineProperty(a24, Symbol.toPrimitive, { writable: true, value: f27 });
+    const v33 = a24 >>> a24;
+    v33 >>> v33;
+    const v36 = new Int8Array();
+    v36.entries().next();
+    function f39(a40, a41) {
+        a40.arguments = a40;
+        return f39;
+    }
+    const v42 = f39(f39);
+    class C44 extends Date {
+    }
+    const v45 = new C44();
+    v45.getDay();
+    return v42;
+}
+for (let v47 = 0; v47 < 10; v47++) {
+    f22(v47, v47, v47, 9);
+}
+%OptimizeFunctionOnNextCall(f22);
+f22(9, Float32Array, v20, f22);

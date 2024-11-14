@@ -1,0 +1,62 @@
+function f0() {
+    const o25 = {
+        ["n"]: -14,
+        [-14]: -329.1128065128688,
+        valueOf(a5, a6) {
+            const v7 = !a6;
+            const v8 = v7 / a5;
+            let v9;
+            try { v9 = a6.valueOf(this, v7, this); } catch (e) {}
+            for (let i13 = 0; i13 < 6; i13++) {
+                try { new a5(v7, v9, v8, i13); } catch (e) {}
+            }
+            Math.imul(-9007199254740990, ~-9007199254740990);
+            -9007199254740990 * -9007199254740990;
+            +v7;
+            v8 << v8;
+            return "n";
+        },
+    };
+    Object.defineProperty(o25, "toString", { configurable: true, enumerable: true, value: f0 });
+    return o25;
+}
+const v26 = f0();
+const v27 = f0();
+v27[Symbol.toPrimitive] = f0;
+const v30 = f0();
+class C34 {
+    o(a36, a37) {
+        try {
+            a36.valueOf(a36, -1, [this,a36,101165835,a37,-1], 0.20699955175406615);
+        } catch(e41) {
+        }
+        let v42 = 0;
+        while (v42 < 4) {
+            try {
+                v27.toString = a36;
+            } catch(e45) {
+            }
+            v42++;
+        }
+        return a37;
+    }
+    [v27] = v26;
+    static a = v30;
+}
+const v47 = new C34();
+Object.defineProperty(v47, -1, { configurable: true, value: v47 });
+new C34();
+const v49 = new C34();
+function f51(a52, a53, a54, a55) {
+    const o59 = {
+        ["42776"](a57, a58) {
+        },
+    };
+    return a52;
+}
+("function").search(f51);
+%VerifyType(C34);
+const v63 = new f51(v49, v27, "function", v47[-1]);
+f51(v47, v63, v27, v63);
+const t59 = "function";
+t59.length ^= -1;

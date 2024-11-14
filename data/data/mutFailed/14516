@@ -1,0 +1,51 @@
+let v2 = 1000;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a5;
+    } catch(e6) {
+    }
+    try {
+        v2 = a5;
+        try { a5.o(this, this); } catch (e) {}
+        a5?.[5]?.g;
+        try { a5(); } catch (e) {}
+        this.g = -1338392485;
+    } catch(e11) {
+    }
+}
+new F3(-1338392485);
+new F3(v2);
+const v14 = new F3(-1333563585);
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a20;
+    } catch(e21) {
+    }
+    try {
+        this.f = v2;
+    } catch(e22) {
+    }
+}
+const v23 = new F15(v2, v2, F15, v2);
+const v24 = new F15(v23, -1333563585, v14, -1338392485);
+const v25 = new F15(v24, -1333563585, v14, -1333563585);
+function f29() {
+    const v30 = v23 == f29;
+    v25[4033] = f29();
+    %VerifyType(v30);
+    const o35 = {
+        "execution": "async",
+        "type": "major",
+    };
+    gc(o35);
+    let v37 = 6;
+    v37 % v37;
+    v37--;
+    return v37;
+}
+for (let v40 = 0; v40 < 5; v40++) {
+    f29();
+    %OptimizeFunctionOnNextCall(f29);
+}

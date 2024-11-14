@@ -1,0 +1,30 @@
+class C3 {
+    toString(a5, a6) {
+        const v7 = delete this[a5];
+        let v8;
+        try { v8 = ("__proto__").concat(a6, "m"); } catch (e) {}
+        let v9;
+        try { v9 = v8(..."__proto__", ..."m", ...a5, ..."m", v7); } catch (e) {}
+        return v9;
+    }
+    static set g(a11) {
+        new Float64Array(16);
+        new Uint8ClampedArray(1);
+        new C3(0);
+    }
+}
+const v21 = new C3();
+const v22 = new v21();
+new v22();
+["m"];
+[["5",v22],"-5"];
+function f30(a31, a32) {
+    const o33 = {
+        ...a31,
+    };
+    return f30;
+}
+%PrepareFunctionForOptimization(f30);
+const v34 = f30();
+%OptimizeFunctionOnNextCall(v34);
+f30(f30, v34);

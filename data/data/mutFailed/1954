@@ -1,0 +1,27 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -9007199254740990;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new v4();
+new F0();
+new Int8Array(2);
+const v12 = new Int32Array(2990);
+new BigUint64Array(5);
+new Uint32Array(v12);
+new Int32Array(34);
+new Float64Array(255);
+class C25 {
+}
+const v26 = new C25();
+const t19 = 5;
+const v27 = new t19();
+const o28 = {
+};
+o28.b = v26;
+const o29 = {
+};
+Object.defineProperty(o29, "b", { writable: true, value: v27 });

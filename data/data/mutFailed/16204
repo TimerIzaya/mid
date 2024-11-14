@@ -1,0 +1,43 @@
+new Int32Array(14);
+new Uint16Array(2083082747);
+new Float64Array(3772);
+new Set();
+class C11 {
+    constructor(a13, a14) {
+        function F15(a17, a18, a19, a20) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v23 = new Int32Array();
+            const v25 = new a19();
+            const v26 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+            const v27 = [-1.7976931348623157e+308];
+            function f28(a29, a30, a31, a32) {
+                const o38 = {
+                    toString(a34, a35, a36) {
+                        try { this.toString(); } catch (e) {}
+                        a31[a30] = a29;
+                    },
+                };
+                return o38;
+            }
+            const v39 = f28(v25, a20, v27);
+            const v40 = f28(v23, 129, v26);
+            for (let v41 = 0; v41 < 5; v41++) {
+                v40 % v39;
+            }
+        }
+        const v43 = new F15();
+        new F15();
+        new F15(F15, v43, v43, F15);
+        function f46(a47, a48, a49, a50) {
+            try { a47(a13); } catch (e) {}
+            a49 >> a49;
+            return a13;
+        }
+        for (let v53 = 0; v53 < 500; v53++) {
+            f46(a14, f46, v53, a14);
+        }
+    }
+}
+const v55 = new C11();
+const t41 = v55.constructor;
+new t41();

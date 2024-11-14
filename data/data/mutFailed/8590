@@ -1,0 +1,81 @@
+const v3 = [1073741825];
+function f4() {
+    try { v3.reduce(536870887); } catch (e) {}
+    const v8 = new Uint16Array(3);
+    return v8.indexOf();
+}
+v3.constructor = f4;
+const v10 = v3?.constructor;
+try { new v10(1073741825); } catch (e) {}
+const v12 = [536870887,v3,1073741825,1073741825];
+try { v12.reduceRight(536870887); } catch (e) {}
+const v14 = [3,536870887,3,v3,1073741825];
+v14.constructor = f4;
+try { v14.propertyIsEnumerable(536870887); } catch (e) {}
+class C16 {
+    constructor(a18, a19, a20, a21) {
+        a19[Symbol.toPrimitive] = f4;
+        a20[Symbol.toPrimitive] = Symbol;
+        try { this.propertyIsEnumerable(a21); } catch (e) {}
+        try { a18.map(536870887); } catch (e) {}
+        a19++;
+        try { a20.group(536870887); } catch (e) {}
+        if (v3 < a20) {
+            v12[a20];
+        } else {
+            try {
+                v14.slice(1073741825, 559057204);
+            } catch(e34) {
+            }
+        }
+    }
+}
+try { C16.apply(3, v14); } catch (e) {}
+const v36 = new C16(v12, 536870887, v14, 3);
+try { v36.constructor(v12, v3, 3, v12); } catch (e) {}
+const v38 = new C16(v12, 536870887, v14, 1073741825);
+v38.constructor = f4;
+const v39 = v38?.constructor;
+try { new v39(v36, v38, v12, v38); } catch (e) {}
+const v41 = new C16(v3, 3, v3, 3);
+class C42 extends C16 {
+    m(a44, a45) {
+        const o46 = {
+        };
+        try {
+            o46.f = a44;
+        } catch(e47) {
+        }
+        try {
+            const o48 = {
+            };
+            o48.f = a44;
+            o48.h = v38;
+        } catch(e49) {
+        }
+        try {
+            const o50 = {
+            };
+            o50.f = a44;
+            o50.h = v38;
+            o50.d = v3;
+        } catch(e51) {
+        }
+        try {
+            const o52 = {
+            };
+            o52.f = a44;
+            o52.h = v38;
+            o52.c = this;
+        } catch(e53) {
+        }
+        return v41;
+    }
+}
+C42.prototype = C42;
+new C42();
+new C42();
+new C42();
+const v58 = (2136873598).constructor;
+v58.prototype = v58;
+v58().toExponential();

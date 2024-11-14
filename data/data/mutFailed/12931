@@ -1,0 +1,72 @@
+const v0 = [9,4096,-2147483647,54651,-13,14,-4294967296,-1303497700];
+const v1 = [1073741824,6,-256,-1893648829,0,1883451716,9007199254740991];
+const v2 = [-5];
+function f4(a5, a6) {
+    function f8(a9, a10) {
+        return f4;
+    }
+    const o13 = {
+        "type": "function",
+    };
+    new Worker(f8, o13);
+}
+const v15 = [v1];
+const v16 = [v1,v0,v15];
+const v17 = [v16];
+function f18(a19, a20, a21, a22) {
+    const o32 = {
+        "g": v2,
+        "d": a20,
+        "c": a19,
+        "h": v1,
+        __proto__: a20,
+        set b(a24) {
+            gc();
+            new Uint8Array(a19);
+            try {
+                v0.length = 1;
+            } catch(e31) {
+            }
+        },
+        "b": a21,
+        [v16]: undefined,
+    };
+    return o32;
+}
+const v35 = 209 > Uint16Array;
+let v36 = 1829;
+const v38 = new Uint8Array(v36);
+Object.defineProperty(v38, v35, { writable: true, configurable: true, enumerable: true, value: v36 = 209 });
+const v39 = f18(v16, v2, v15, v1);
+const v40 = f18(v0, v15, v39, v1);
+const v41 = f18(v17, v2, v40, v0);
+function f42(a43, a44, a45) {
+    const o57 = {
+        __proto__: a45,
+        get b() {
+            function F48(a50, a51, a52) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    v0.e = a43;
+                } catch(e53) {
+                }
+            }
+            new f18(a44, v40, v17);
+            new F48(a44, v39, v1);
+            new F48(a43, a, a);
+            return undefined;
+        },
+    };
+    return v39;
+}
+f42(v41, v41, v15);
+f42(v39, v40, v2);
+f42(v40, v40, v2);
+const v65 = new Uint32Array(-59997);
+new Uint8Array(v65);
+class C69 {
+    static {
+        for (const v72 in this) {
+        }
+    }
+}

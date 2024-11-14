@@ -1,0 +1,24 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = f0;
+    } catch(e3) {
+    }
+    try {
+        this.e = f0;
+    } catch(e4) {
+    }
+    try {
+        this.g = f0;
+    } catch(e5) {
+    }
+}
+new F1();
+const v7 = new F1();
+new F1();
+const v9 = /(bfoo[z]*)/udsy;
+/(a+b|c)/vdmsy;
+new WeakMap(WeakMap, WeakMap, /o/udisy);
+new Worker(4294967295, Worker, v9, v7);

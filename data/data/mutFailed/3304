@@ -1,0 +1,22 @@
+function f1() {
+    return undefined;
+}
+class C5 extends -2 {
+    static {
+        this[3] = this;
+        this[Symbol.toPrimitive] = -2;
+        Object.defineProperty(Symbol, "d", { configurable: true, get: f1 });
+    }
+    #g;
+    c;
+    [undefined] = 4096;
+    static c;
+    f = -2;
+}
+new C5();
+new C5();
+new C5();
+[2147483649,1883,-26599,-9007199254740992,1556655572,15,4096,-1,65535,7];
+[-7,899780330,49430,2147483648,-1,-4294967295,16];
+[-1566774738];
+-256n >> -256n;

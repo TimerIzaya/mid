@@ -1,0 +1,41 @@
+new EvalError(4839);
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f12(a13) {
+        /abc+?i/um;
+        /a\Wa{YQYn/gisy;
+        /xyz??/gudi;
+    }
+    Object.defineProperty(this, "b", { writable: true, configurable: true, set: f12 });
+    let v17 = 0;
+    while (v17 < 4) {
+        const v20 = [v17,a8,a10,EvalError];
+        [v20,4839,v20,v20];
+        [a8,v20];
+        v17++;
+    }
+    try {
+        this.d = 392197876;
+    } catch(e24) {
+    }
+    try {
+        this.b = 392197876;
+    } catch(e25) {
+    }
+}
+F6[Symbol.toPrimitive] = EvalError;
+new F6(EvalError, 392197876, 65535, 4839);
+new F6(65535, 65535, 392197876, 4839);
+new F6(392197876, 65535, 392197876, 4839);
+const v34 = new Float32Array(2);
+v34[Symbol.toPrimitive] = EvalError;
+v34 / Int32Array;
+try {
+    const o38 = {
+    };
+    5 ^ 118946.99128565704;
+    Math.sin(5);
+    +F6;
+    v34.set(o38, 2147483647);
+} catch(e49) {
+}

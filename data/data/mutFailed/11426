@@ -1,0 +1,9 @@
+new Uint8ClampedArray(128);
+new EvalError(1000);
+new Uint16Array(512, EvalError);
+new Int16Array(27148);
+new Uint32Array(3);
+new RangeError(10);
+const v19 = new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray, Uint8ClampedArray);
+const v23 = Reflect.construct(Worker, [v19]);
+try { v19.findIndex(v23, 10, RangeError); } catch (e) {}

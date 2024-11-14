@@ -1,0 +1,72 @@
+const v3 = [65535,127,15,-65536];
+[-43769,-974827610,-9223372036854775807,-25705,15,15,-35684,-30707,-4,53276];
+const v5 = [536870888,4294967297,7,-845489869,127,536870889];
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a8;
+    try {
+        this.c = a9;
+    } catch(e12) {
+    }
+}
+new F6(v3, 7, v5, 7);
+const v14 = new F6(v5, 0, v5, 0);
+new F6(v5, 7, v5, 0);
+function f19() {
+    const v20 = [601759695];
+    function f21(a22) {
+        const v24 = new Date(a22);
+        v24.setYear();
+        return a22;
+    }
+    v20[Symbol.toPrimitive] = f21;
+    v20 & v20;
+    let v29 = -4294967295;
+    const o31 = {
+        get a() {
+            v29 %= v29;
+            return f19;
+        },
+    };
+    return f19;
+}
+Object.defineProperty(f19, Symbol.toPrimitive, { configurable: true, value: f19 });
+let v34 = f19();
+function f35(a36, a37) {
+    try { v3.concat(a36, 1, a37, a36, v14); } catch (e) {}
+    const v41 = new Float32Array(11);
+    return v41;
+}
+v34[Symbol.toPrimitive] = f35;
+const v44 = f19();
+const v45 = f19();
+v45.toString = Symbol;
+class C50 extends f19 {
+    static #g = "o";
+    static [v45];
+    constructor(a52, a53, a54, a55) {
+        super();
+        try {
+            v34.#g **= a52;
+        } catch(e56) {
+        }
+    }
+    static o(a58, a59) {
+        v34 **= this;
+        f19();
+    }
+}
+const v61 = new C50(5n, "-17909", f19, "o");
+new C50("-17909", "-17909", "p", "p");
+new C50(v34, "p", v34, "o");
+class C64 {
+    get g() {
+        Uint16Array();
+        Uint8ClampedArray();
+        BigInt64Array();
+        return v44;
+    }
+    static #h = "p";
+}
+const v72 = new C64();
+try { v72.o(v61); } catch (e) {}

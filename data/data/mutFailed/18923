@@ -1,0 +1,26 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        F1.e = v0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+new v4();
+new F1();
+const v8 = new Date();
+const v12 = [v8];
+[v12,v12,"268435441"];
+[v4];
+function F15(a17) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v18 = new F15(F15);
+function f19(a20) {
+    return a20.toPrimitive;
+}
+v18.toString = f19;
+class C23 {
+    static [v18];
+}

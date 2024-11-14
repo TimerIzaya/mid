@@ -1,0 +1,52 @@
+const v1 = new WeakMap();
+class C3 extends WeakMap {
+    static {
+        new v1(255);
+        6 / 6;
+        Int32Array?.constructor;
+        try {
+        const t0 = 6;
+        new t0(WeakMap);
+        } catch (e) {}
+        new Int32Array(6);
+        try { new Int32Array(WeakMap, this, v1); } catch (e) {}
+        new Int32Array(1024);
+    }
+    a = false;
+}
+const v18 = C3.prototype;
+const v19 = new C3();
+const v20 = new C3();
+v20.a = v18;
+const v21 = new C3();
+function f22(a23, a24) {
+    a24.d = a24;
+    const o30 = {
+        "e": v21,
+        __proto__: a23,
+        "a": WeakMap,
+        "h": C3,
+        [a23]: v19,
+        [v20]: WeakMap,
+        "g": C3,
+        p(a26, a27, a28) {
+            try { a23.get(a24); } catch (e) {}
+            super[this] = a23;
+            return false;
+        },
+    };
+    const v31 = o30?.a;
+    try { new v31(); } catch (e) {}
+    return o30;
+}
+try { new f22(v20, v21); } catch (e) {}
+const v34 = f22(v20, f22);
+f22(v1, f22(v20, v34));
+function f37() {
+    return v34;
+}
+const o44 = {
+    set e(a42) {
+    },
+};
+-24886 | -24886;

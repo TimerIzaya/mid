@@ -1,0 +1,53 @@
+function f0() {
+    const o13 = {
+        get g() {
+            const o5 = {
+            };
+            try {
+                o5.h = this;
+            } catch(e6) {
+            }
+            try {
+                const o7 = {
+                };
+                o7.h = this;
+                o5.c = this;
+            } catch(e8) {
+            }
+            try {
+                const o9 = {
+                };
+                o9.h = this;
+                o9.c = this;
+                o9.g = "toString";
+            } catch(e10) {
+            }
+            try {
+                const o11 = {
+                };
+                o11.h = this;
+                o11.c = o11;
+                o5.g = 0;
+            } catch(e12) {
+            }
+            return "toString";
+        },
+    };
+    return o13;
+}
+f0();
+f0();
+f0();
+[4096];
+new BigUint64Array(64);
+new Uint8Array(0);
+new Uint8Array(3132);
+[-43672,4294967295,4294967295,536870888,268435441,-1073741824,36920,4294967296];
+[1073741823,536870887,255,-4294967295,-3];
+function f35(a36, a37) {
+    return a36.tanh("1");
+}
+%PrepareFunctionForOptimization(f35);
+const v41 = f35();
+%OptimizeFunctionOnNextCall(f35);
+f35(v41, f35);

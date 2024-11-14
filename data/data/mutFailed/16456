@@ -1,0 +1,68 @@
+const v3 = [0.22970466031530812,NaN,NaN,Infinity];
+class C4 {
+    constructor(a6, a7) {
+        const v8 = this?.constructor;
+        try { new v8(this, Uint8Array); } catch (e) {}
+        super["fround"] = v3;
+    }
+}
+const v10 = new C4();
+const v12 = [v10];
+const o13 = {
+    "arguments": v12,
+    "type": "function",
+};
+new Uint8Array(512);
+const v17 = new Int32Array(3872);
+try { v17.reverse(); } catch (e) {}
+try { ("async").charAt(o13); } catch (e) {}
+const o23 = {
+    "execution": "async",
+    "type": "minor",
+};
+const v25 = new Uint8Array(5);
+function f27() {
+}
+f27.f = f27;
+%OptimizeFunctionOnNextCall(f27);
+class C28 {
+}
+const v29 = C28?.constructor;
+try { new v29("function"); } catch (e) {}
+new Set();
+const o35 = {
+    ...1.0,
+    set b(a34) {
+        this.b = this;
+    },
+};
+o35.g = o35;
+o35.b = o35;
+let v37 = 6n;
+v37--;
+try { new Int32Array("fround", 3872, v3); } catch (e) {}
+function f44(a45, a46) {
+    NaN !== NaN;
+    class C49 {
+    }
+    try { C49.apply(1.7976931348623157e+308); } catch (e) {}
+    const v52 = new Float64Array();
+    return v52.values().next();
+}
+%PrepareFunctionForOptimization(f44);
+const v55 = new Int32Array();
+function f56() {
+    return Int32Array;
+}
+try { f56.bind(v25); } catch (e) {}
+Object.defineProperty(v55, Uint8ClampedArray, { get: f56, set: f56 });
+for (let [i61, i62] = (() => {
+        10 & 10;
+        return [0, 10];
+    })();
+    i61 < i62;
+    (() => {
+        const v66 = i62--;
+        v66 * v66;
+    })()) {
+}

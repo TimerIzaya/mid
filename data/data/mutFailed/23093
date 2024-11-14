@@ -1,0 +1,53 @@
+const v2 = new Uint8Array(255);
+let v3 = 512;
+const v4 = v3++;
+const v6 = new Float32Array(v3);
+1307 >>> 1307;
+Int32Array.d = Int32Array;
+const v10 = new Int32Array(1307, Int32Array, v4, 1307);
+const v14 = [1073741824,1073741823,1376142744,1073741825];
+function f15(a16, a17, a18, a19) {
+    function f20() {
+        try {
+            v14.forEach(a17);
+            let v23 = 10;
+            for (; v23--;) {
+                v10.byteLength += a17;
+            }
+            let v26 = BigUint64Array * 536870887;
+            v26--;
+        } catch(e28) {
+        }
+        return a19;
+    }
+    try { a16(Uint8Array, Uint8Array, a17, 10, 1307); } catch (e) {}
+    Object.defineProperty(v2, "f", { writable: true, get: f15, set: f20 });
+    const o30 = {
+        "call": f20,
+        "construct": f20,
+        "defineProperty": f20,
+        "deleteProperty": f15,
+        "get": f20,
+        "getOwnPropertyDescriptor": f15,
+        "getPrototypeOf": f20,
+        "has": f15,
+        "ownKeys": f20,
+        "preventExtensions": f15,
+        "set": f15,
+    };
+    new Proxy(v6, o30);
+    f20.caller;
+    return f20();
+}
+for (let v35 = 0; v35 < 10; v35++) {
+    f15();
+}
+try {
+    const o37 = {
+    };
+    new Int32Array(o37, 10);
+} catch(e39) {
+}
+%OptimizeFunctionOnNextCall(f15);
+const v40 = f15(f15, v14, f15, v14);
+try { v40.valueOf(Int32Array); } catch (e) {}

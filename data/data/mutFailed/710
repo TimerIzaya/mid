@@ -1,0 +1,85 @@
+class C3 {
+    #b;
+    constructor(a5, a6) {
+        super.e = this;
+        Object.defineProperty("-1895025714", "-1895025714", { configurable: true, enumerable: true, value: -1073741824 });
+        const o7 = {
+        };
+        try {
+            o7.d = this;
+        } catch(e8) {
+        }
+        const o9 = {
+        };
+        new Proxy("-1895025714", o9);
+        C3 ^ -1073741824;
+        try {
+            const o13 = {
+            };
+            o13.d = this;
+            o13.b = this;
+        } catch(e14) {
+        }
+        try {
+            const o15 = {
+            };
+            o15.d = this;
+            o15.b = this;
+            o15.g = a6;
+        } catch(e16) {
+        }
+        try {
+            const o17 = {
+            };
+            o17.d = this;
+            o17.b = this;
+            o17.g = "-1895025714";
+        } catch(e18) {
+        }
+    }
+}
+const v19 = new C3("object", "-1895025714");
+const v20 = new C3(v19, C3);
+const v21 = new C3(v20, v20);
+const v22 = [v20,v21,"object",v21];
+const v23 = [v20,v21,"object",v22,v22];
+const v24 = [v19,v23];
+function f25() {
+    return v21;
+}
+function f26(a27, a28, a29, a30) {
+    const o44 = {
+        "c": a29,
+        ...a28,
+        __proto__: a29,
+        ..."object",
+        "e": v19,
+        "a": v21,
+        [a29](a32, a33) {
+            super.g ^= -1073741824;
+            function F34(a36, a37, a38) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.h = a36;
+                } catch(e39) {
+                }
+                try {
+                    this.c = a28;
+                } catch(e40) {
+                }
+            }
+            new F34(a33, a33, v20);
+            new F34(a28, F34, a29);
+            new F34(a28, v24, v24);
+            return C3;
+        },
+    };
+    return o44;
+}
+f26(v24, v22, v21, v23);
+f26("-1895025714", v24, v22, v19);
+f26(v24, v22, v22, v23);
+const v48 = [1630629478,9,2034969337];
+for (let v49 = 0; v49 < 25; v49++) {
+    v48.__proto__;
+}

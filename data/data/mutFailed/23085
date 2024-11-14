@@ -1,0 +1,42 @@
+const v0 = /p(x)(x)(x)\2/gvsy;
+const v1 = /[^[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]+]/udimy;
+const v2 = /(a)\1/gm;
+function f3(a4, a5) {
+    const o22 = {
+        set g(a7) {
+            a4[Symbol.matchAll] = this;
+            try {
+                super.valueOf();
+            } catch(e11) {
+            }
+        },
+        536870912: a5,
+        "h": a4,
+        "g": f3,
+        "c": a4,
+        ...v0,
+        get e() {
+            super.a ||= a5;
+            const v13 = super.c;
+            super[a4];
+            const v19 = [a5];
+            Reflect.apply(v0.compile, v13, v19);
+            return v2;
+        },
+    };
+    return o22;
+}
+f3(v1, v0);
+f3(v1, v2);
+f3(v1, v0);
+new BigUint64Array(62);
+new BigInt64Array(64);
+new Int16Array(118);
+function F35(a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v38 = this.constructor;
+    try { new v38(); } catch (e) {}
+    new BigInt64Array();
+}
+new F35();
+new F35();

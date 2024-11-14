@@ -1,0 +1,24 @@
+const v2 = new Uint8ClampedArray(4);
+const o5 = {
+    "maxByteLength": 1,
+};
+const v7 = new ArrayBuffer(0, o5);
+const v9 = new Uint8Array(v7);
+let v10 = 256;
+v10++;
+v9.byteLength >>>= 4;
+const v14 = v9["map"](v2);
+let v15;
+try { v15 = v7.resize(0, 0, ...Uint8ClampedArray, v14, ...v9, 1); } catch (e) {}
+v15 = Uint8Array;
+Uint8Array.length;
+new Uint8Array(v10);
+new Float64Array(1000);
+const v21 = [9,1716157430];
+v21[1] = v21;
+[-3,-1530555448,61898,6,3,9,-128,45543,9223372036854775807];
+[-65536,5,1073741824,268435440,-46996,2147483647,-11,-4096];
+try { new Uint8Array(v2, 4, v10); } catch (e) {}
+const v27 = new Uint8Array(225);
+for (const v28 in v27) {
+}

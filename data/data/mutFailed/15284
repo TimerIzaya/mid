@@ -1,0 +1,65 @@
+function f0() {
+    const o15 = {
+        "h": 13544,
+        ..."symbol",
+        "a": "gFUX9",
+        "b": 13544,
+        "c": 13544,
+        ..."gFUX9",
+        __proto__: "gFUX9",
+        set d(a5) {
+            this >= "symbol";
+            const t10 = "symbol";
+            delete t10[a5];
+            const o10 = {
+                "maxByteLength": 1073741824,
+            };
+            const v12 = new ArrayBuffer(4096, o10);
+            new Int16Array(v12);
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+const v17 = f0();
+const v18 = f0();
+class C19 {
+    static e;
+    constructor(a21, a22) {
+        Reflect.construct(a22, [Reflect,-30430,-4294967297,a22,-30430], f0);
+    }
+    e = f0;
+    static #e = v17;
+    static #g;
+}
+const v29 = new C19(v16, f0);
+const v30 = new C19(v16, C19);
+const v31 = new C19(v17, v16);
+const v32 = [9007199254740992,4,16,2147483649,6,-4294967297,366114939];
+const v33 = [1024,10000,-1073741824,-1962901549,4096,536870887];
+const v34 = [-1939206934,29355,2147483649,127,1641977695,1558082658,-1,4096,1334089733];
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a40;
+    } catch(e41) {
+    }
+    try {
+        this.g = v34;
+    } catch(e42) {
+    }
+}
+new F35(v33, v31, v33, v18);
+new v29(v32, v31, v34, v17);
+new F35(v34, v30, v34, v17);
+class C47 {
+    constructor(a49) {
+    }
+}
+const v51 = new Date();
+v51.toLocaleDateString();
+new C47("g");
+class C56 {
+}
+new C56();
+new Uint8ClampedArray(268435440);

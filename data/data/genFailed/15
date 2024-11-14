@@ -1,0 +1,56 @@
+const v2 = new Float64Array(1000);
+const v5 = new Uint16Array(1493);
+const v8 = new Float32Array(2147);
+class C9 {
+    toString(a11, a12) {
+        Reflect.construct(Uint16Array, [v5,1493,a12], Float32Array);
+        -1000;
+        return v8;
+    }
+    static get a() {
+        try {
+            new Float64Array(this);
+        } catch(e19) {
+        }
+        const v20 = this[3573904266];
+        try { v20(v20, 2147, v2, this, v20); } catch (e) {}
+        return v20;
+    }
+}
+new C9();
+const v23 = new C9();
+const v24 = new C9();
+class C25 extends Float32Array {
+    static #m(a27, a28) {
+        try {
+            v2.__proto__ = v23;
+        } catch(e29) {
+        }
+        return a28;
+    }
+    constructor(a31, a32, a33, a34) {
+        super(a33, a31, 1493);
+        try {
+            v2.byteOffset = a33;
+        } catch(e35) {
+        }
+    }
+    static #h = 1000;
+}
+const v36 = new C25(1493, v23, v5, 1000);
+const v37 = new C25(1000, 1000, 1000, 1493);
+new C25(2147, v24, v37, 1493);
+const o39 = {
+    "g": Uint16Array,
+    "c": v2,
+};
+let v40;
+try { v40 = v36(C25, 2147, v37); } catch (e) {}
+Uint16Array + v37;
+v5["findLast"](v40, C25);
+let v47 = -2.0;
+const v48 = v24 >> 15;
+0 | v24;
+--v47;
+Math.sinh(0);
+v48 / 15;

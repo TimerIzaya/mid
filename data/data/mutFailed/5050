@@ -1,0 +1,65 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.d = -2147483648;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+let v6 = new F0();
+const v7 = new F0();
+function f8(a9) {
+    const o19 = {
+        "b": a9,
+        128: v7,
+        __proto__: v6,
+        "d": a9,
+        toString(a11, a12) {
+            this[4096] = v5;
+            v5[a9] = a9;
+            v6 |= v6;
+            for (let [v13,v14,v15,...v16] of a9) {
+                try { a9.o(); } catch (e) {}
+            }
+            delete v7[3];
+            this.d |= v6;
+            return a12;
+        },
+    };
+    return o19;
+}
+f8(v5);
+f8(v6);
+f8(v7);
+[-6.475250648797446,602.492588710787,2.220446049250313e-16];
+const v24 = [-2.0,2.220446049250313e-16,958792.5475981603];
+const v25 = [-1000.0,0.7110049474940872,0.17218851865552098,1.0,0.5062321583737336,-Infinity,7.645077495821308,3.6824436311444373];
+class C26 {
+    #p(a28, a29, a30) {
+        const v31 = new F0();
+        try {
+            super.valueOf(a30, v31, this, a28, a30);
+        } catch(e33) {
+        }
+        return a30;
+    }
+    static 6;
+    static 2;
+    static #valueOf(a35, a36, a37, a38) {
+        const v39 = v7[v25];
+        let v40;
+        try { v40 = v39(a35, f8, v7); } catch (e) {}
+        super.c = v24;
+        return v40;
+    }
+}
+new C26();
+new C26();
+const v43 = new C26();
+const v44 = [];
+Object.defineProperty(v44, 1, { writable: true, enumerable: true, value: v44 });
+v43.push();

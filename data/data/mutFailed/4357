@@ -1,0 +1,87 @@
+function f0() {
+    let v3 = -1.0;
+    v3++;
+    const o14 = {
+        "c": v3,
+        "d": v3,
+        [2.0](a6) {
+            v3 = 2.0;
+            Math.random();
+            Math.exp(this);
+            Math.round(1024);
+            return v3;
+        },
+    };
+    o14[2];
+    return o14;
+}
+const t17 = f0();
+const v17 = t17();
+f0();
+const v22 = new BigUint64Array(1912);
+new BigUint64Array(128);
+new BigUint64Array(255);
+try { v17.filter(v22); } catch (e) {}
+const o59 = {
+    [128](a33, a34, a35) {
+    },
+    set b(a37) {
+    },
+    set b(a39) {
+        class C43 {
+            p(a45) {
+                this.g ^= this[8];
+            }
+        }
+        const o56 = {
+            get d() {
+                function f52(a53, a54, a55) {
+                    'use strict';
+                    return a53;
+                }
+                return this;
+            },
+        };
+    },
+};
+function F60() {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(); } catch (e) {}
+    const v63 = this?.constructor;
+    try { v63.bind(undefined); } catch (e) {}
+    try { new v63(); } catch (e) {}
+}
+class C68 extends Set {
+}
+const v69 = new C68();
+v69["delete"](129n);
+const v72 = new F60();
+try { v72.propertyIsEnumerable(1912); } catch (e) {}
+const v74 = new F60();
+const v75 = v74?.constructor;
+try { new v75(); } catch (e) {}
+function f77(a78, a79) {
+    const o83 = {
+        "b": v74,
+        n(a81, a82) {
+            this.b = this;
+            return a78;
+        },
+        "a": o59,
+    };
+    return o83;
+}
+const v85 = 1 <= 1;
+const v87 = new Uint16Array(536870887);
+v87[284133700];
+const v90 = new Uint32Array(Uint16Array);
+const o91 = {
+};
+o91.e = o91;
+new Proxy(v90, o91);
+%PrepareFunctionForOptimization(f77);
+const v95 = f77()?.n;
+try { new v95(v85, v87); } catch (e) {}
+f77().n();
+%OptimizeFunctionOnNextCall(f77);
+f77(Proxy, o59);

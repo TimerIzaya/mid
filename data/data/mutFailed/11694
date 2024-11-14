@@ -1,0 +1,18 @@
+new Uint32Array(7);
+const t1 = 7;
+const v5 = new t1(173);
+const t3 = 129;
+const v8 = new t3(129);
+const v11 = new Float64Array(512);
+v11[215] = v11;
+try { new Uint32Array(v11, 7, 512); } catch (e) {}
+new Uint32Array(121);
+new Float32Array(171);
+5 >>> 5;
+try { BigInt64Array.from(v8); } catch (e) {}
+const v23 = new BigInt64Array(5);
+try { v23.entries(); } catch (e) {}
+function f25() {
+    return v5;
+}
+try { v23.map(f25); } catch (e) {}

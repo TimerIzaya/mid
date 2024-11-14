@@ -1,0 +1,52 @@
+const v0 = [-9007199254740991,21608,-4096,-9,-8,-25192,2147483649,-9223372036854775807];
+const v1 = [536870912,-8,2147483648,6,18062,-41373,-567845615];
+const v2 = [64,5];
+function f3(a4) {
+    const o10 = {
+        set g(a6) {
+            for (let v7 = 0; v7 < 32; v7++) {
+                v1["p" + v7] = v7;
+            }
+        },
+        "h": a4,
+        "c": v1,
+        "b": v0,
+    };
+    return a4;
+}
+const v11 = f3(v1);
+const v12 = f3(v1, v1, v0, v1);
+f3(v2);
+function f14(a15, a16) {
+    const o19 = {
+        ...v1,
+        get h() {
+            try {
+                a16.__proto__ = this;
+            } catch(e18) {
+            }
+            return v11;
+        },
+        268435439: f3,
+        "a": v0,
+    };
+    return v12;
+}
+const v20 = f14(v12, v11);
+f14(v11, v2);
+const v22 = f14(v12, f3);
+new v20(Uint8Array, Uint8Array, Uint8Array, v22, v11);
+function f25(a26, a27, a28, a29) {
+    f3++;
+    const v31 = a28++;
+    const v32 = v31 - a28;
+    const o33 = {
+        ...v22,
+    };
+    let v34;
+    try { v34 = o33.n(v32, v31); } catch (e) {}
+    return v34;
+}
+for (let v35 = 0; v35 < 500; v35++) {
+    f25();
+}

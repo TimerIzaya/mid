@@ -1,0 +1,69 @@
+function f3(a4, a5) {
+    a5++;
+    const o7 = {
+        "f": -5637,
+        [1073741823]: a5,
+        "a": -5637,
+        [a4]: a5,
+        [-5637]: 1073741823,
+        "g": 1073741823,
+        __proto__: 1073741823,
+        ...a5,
+        ...-5637,
+        [a5]: -9,
+    };
+    o7[1073741823];
+    return o7;
+}
+f3(-9, -9);
+f3(1073741823, -9);
+f3(-9, 1073741823);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v16 = this?.constructor;
+    try { new v16(a14, this); } catch (e) {}
+    try {
+        this.c = a14;
+    } catch(e18) {
+    }
+    try {
+        this.g = -9;
+    } catch(e19) {
+    }
+}
+new F12(-9, -9);
+new F12(-9, -9);
+new F12(1073741823, 1073741823);
+class C23 {
+}
+try { new C23(); } catch (e) {}
+class C25 extends C23 {
+}
+C25.f = C25;
+const v26 = new C25();
+const v27 = v26?.constructor;
+try { new v27(); } catch (e) {}
+const v31 = new Uint8Array(2);
+v31[1] = v31;
+const v33 = new Uint32Array(C25);
+const v34 = v33?.entries;
+try { new v34(); } catch (e) {}
+function f36(a37, a38, a39, a40) {
+    try { new a37(f36, a40, f36); } catch (e) {}
+    try { a37.apply(); } catch (e) {}
+    new a37(a40, a38, v26);
+    const o47 = {
+        "b": a37,
+        ...v31,
+        n(a45, a46) {
+            v33[a37] = v33;
+            return a46;
+        },
+    };
+    o47[0];
+    o47[1] = o47;
+    return a37;
+}
+for (let v49 = 0; v49 < 500; v49++) {
+    f36(-5637);
+}

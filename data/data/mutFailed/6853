@@ -1,0 +1,74 @@
+class C3 {
+    constructor(a5, a6) {
+        function f7(a8, a9) {
+            const o12 = {
+                set g(a11) {
+                },
+            };
+            Object.defineProperty(o12, Symbol.toStringTag, { enumerable: true, value: o12 });
+            return a6;
+        }
+        a5[Symbol.toPrimitive] = f7;
+        super[a5] = "-536870912";
+        const o17 = {
+        };
+        new Proxy(this, o17);
+    }
+    static 9;
+    p(a21, a22) {
+        Object.defineProperty(a21, this, { enumerable: true, value: 2.220446049250313e-16 });
+        Math.sign(a21);
+        Math.asinh(a21);
+        -(~(256 & a21));
+        return 65535;
+    }
+}
+function f30(a31, a32) {
+    ([1321234440,-2012385285,503280511,-65535,-50525,1929142229]).sort(-5);
+    return C3;
+}
+C3[Symbol.toPrimitive] = f30;
+new C3(65535, 65535);
+const v39 = new C3(C3, "-536870912");
+const v40 = new C3(v39, 65535);
+[v40];
+const v42 = ["-536870912",C3,65535,C3,C3];
+[v42,v42,v42];
+new Uint8Array(125);
+new BigInt64Array(2);
+new Int32Array(257);
+const v53 = [-6.672391061426152e+307];
+function f55() {
+    let v56 = 8n;
+    v56++;
+    const v58 = [v56];
+    function f59(a60) {
+        return gc();
+    }
+    v58.toString = f59;
+    const v63 = v58 > v56;
+    ~v53["pop"]();
+    let v67 = 0;
+    const o70 = {
+        "maxByteLength": 1814769353,
+    };
+    const v72 = new SharedArrayBuffer(12, o70);
+    try { v72.grow(-10); } catch (e) {}
+    Uint32Array.e = "-536870912";
+    Uint32Array.e = Uint32Array;
+    while ((() => {
+            const v76 = v67 < 10;
+            v76 || v76;
+            return v76;
+        })()) {
+        for (let v78 = 0; v78 < 5; v78++) {
+            "n" + v78;
+        }
+        v67++;
+    }
+    return v63;
+}
+%PrepareFunctionForOptimization(f55);
+f55();
+%OptimizeFunctionOnNextCall(f55);
+f55();

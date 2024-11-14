@@ -1,0 +1,72 @@
+function f0() {
+}
+const v3 = new Uint8ClampedArray(3);
+const v6 = new Int16Array(2253);
+const v7 = v6.__proto__;
+const v9 = new Int16Array();
+let v10;
+try { v10 = v7.now(v9); } catch (e) {}
+try {
+    const v11 = f0();
+    try {
+        try { v7(f0, v11); } catch (e) {}
+    } finally {
+        let v13;
+        try { v13 = v9.set(v10); } catch (e) {}
+        v13[7] = v11;
+        try {
+            v6.byteLength = v13;
+        } catch(e14) {
+        }
+    }
+} catch(e15) {
+}
+class C16 extends WeakSet {
+    constructor(a18, a19, a20, a21) {
+        super(a18);
+        let v22 = v9[-2];
+        v22 = a18;
+    }
+    #f;
+    static #b;
+    c;
+}
+new C16();
+new C16();
+new C16();
+const v28 = new Uint16Array(9);
+function F29() {
+    if (!new.target) { throw 'must be called with new'; }
+    let v31;
+    try { v31 = v28.findIndex(v7, v9); } catch (e) {}
+    let v32 = v3 / v31;
+    let v34 = -9223372036854775808;
+    Float32Array.floor(v34);
+    const v36 = ++v34;
+    F29 >> v34;
+    --v32;
+    F29 % v36;
+}
+const v40 = new F29();
+function f41(a42, a43) {
+    const o50 = {
+        [a43](a45, a46, a47) {
+        },
+        set h(a49) {
+        },
+        "h": v6,
+        [a43]: v28,
+        __proto__: v7,
+        ...a43,
+        "b": v7,
+        ...v40,
+        3081: v7,
+        "d": 2253,
+        [a42]: Uint16Array,
+        "e": Uint8ClampedArray,
+        "h": v40,
+    };
+    return F29;
+}
+f41();
+f41();

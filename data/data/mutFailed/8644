@@ -1,0 +1,71 @@
+const v1 = new Date();
+class C2 extends Date {
+    constructor(a4, a5) {
+        super();
+        with (Date) {
+            prototype = v1;
+            typeof a5 === "number";
+        }
+    }
+    static 5;
+    b = C2;
+    [Date];
+    static 10 = v1;
+    static #d = Date;
+}
+const v10 = new C2(Date, Date);
+const v11 = new C2(v1, v10);
+const v12 = new C2(v11, Date);
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v1;
+    } catch(e19) {
+    }
+}
+const v20 = new F13(v1, C2, F13, v11);
+new F13(v12, v20, v20, v12);
+new F13(v10, v11, C2, v10);
+[2147483648,11,9223372036854775807];
+[-15,-2147483647,536870888,4294967295,1024,993302147];
+[-2010868805,536870887,45630,1820816382,9007199254740991,-128,-49254,-3];
+const v30 = new Float32Array(Float32Array);
+for (let v31 = 0; v31 < 10; v31++) {
+    function f32() {
+        return f32;
+    }
+    const v33 = [601759695];
+    const v34 = [1073741824,1073741823,1376142744,1073741825];
+    function f36(a37, a38, a39, a40) {
+        function f42() {
+            return v30;
+        }
+        Float32Array();
+        const v45 = new Int8Array();
+        function f46(a47, a48) {
+            return a47;
+        }
+        f46(v34, v30);
+        v45.buffer.slice(2147483648);
+        %OptimizeFunctionOnNextCall(f42);
+        let v54;
+        try { v54 = v34["find"](...f42, a40, ...v33, ...v34, ...522675525n); } catch (e) {}
+        v54 <= a39;
+        return arguments;
+    }
+    for (let v56 = 0; v56 < 10; v56++) {
+        f36(v34, v56, v33, v56);
+    }
+}
+function f59(a60, a61, a62, a63) {
+    a60.length;
+    const v65 = new Float32Array();
+    const v67 = new Float32Array(2);
+    const v69 = new C2(v67);
+    const v70 = v67;
+    v69.fill(...v70);
+    return v65;
+}
+for (let v72 = 0; v72 < 625; v72++) {
+    f59(Uint8Array);
+}

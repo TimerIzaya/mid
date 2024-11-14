@@ -1,0 +1,50 @@
+class C3 {
+    static #n(a5, a6) {
+        const o7 = {
+        };
+        new Proxy(this, o7);
+        return -2;
+    }
+    static #f = 3;
+    static #d = C3;
+    [-2] = -2;
+}
+let v10;
+try { v10 = C3.bind(C3); } catch (e) {}
+const v11 = new C3();
+v11[3];
+const v13 = new v10();
+v13[3] = v13;
+const v14 = new C3();
+function f15() {
+    return v14;
+}
+try { ("byteOffset").strike(); } catch (e) {}
+const v21 = new BigUint64Array();
+function F22() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        let v24 = 0;
+        v24 * v24;
+        let v26 = 0;
+        const v27 = v26 - v26;
+        while (v26 < 0) {
+            for (let v30 = 0; v30 < 5; v30++) {
+            }
+            v26++;
+        }
+        do {
+            try { v21.entries(); } catch (e) {}
+            const v34 = v24++;
+            v34 ^ v34;
+        } while (v24 < 5)
+        new v27();
+    } catch(e39) {
+    }
+}
+([]).indexOf();
+new F22();
+try { (-2).constructor(); } catch (e) {}
+const v44 = new v14();
+const v45 = v44?.__defineSetter__;
+try { new v45("byteOffset", "byteOffset"); } catch (e) {}

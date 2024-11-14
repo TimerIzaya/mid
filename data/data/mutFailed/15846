@@ -1,0 +1,81 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v11 = new F6(F6, F6, F6);
+const o19 = {
+    toString(a14, a15, a16) {
+        a14[Symbol.toPrimitive] = Array;
+        Object.defineProperty(v11, a14, { writable: true, configurable: true, set: Array });
+        return a14;
+    },
+};
+const v23 = new Uint8ClampedArray(1907);
+v23[7] = 43464885;
+v23.fill(512, v23);
+v23[-1] = 10;
+o19[Symbol.toPrimitive] = Array;
+try { o19.toString(o19, 10); } catch (e) {}
+new Uint32Array(1);
+new Float32Array(9);
+new BigInt64Array();
+let v40 = -314.9391272852571;
+--v40;
+function f42(a43) {
+    return v40;
+}
+new Int32Array(3);
+for (let v46 = 0; v46 < 10; v46++) {
+    const v49 = /(?:a*)+q(?<a>.)/guds;
+    for (let [i54, i55] = (() => {
+            v49();
+            return [0, 10];
+        })();
+        i54 < i55;
+        i55--) {
+        for (let v62 = 0; v62 < 25; v62++) {
+            v49.constructor.$4;
+            let v65 = 1.7047100695894155e+308;
+            function f66() {
+                let v67 = -65535;
+                const o97 = {
+                    next() {
+                    },
+                    m(a70) {
+                        try { a70.next(); } catch (e) {}
+                        a70.g = a70;
+                        const o72 = {
+                        };
+                        function f73(a74, a75, a76) {
+                        }
+                        try {
+                        } catch(e77) {
+                        }
+                        try {
+                            const o78 = {
+                            };
+                            o78.unscopables = o78;
+                        } catch(e79) {
+                        }
+                        try { Math.cos(a70); } catch (e) {}
+                        try { Math.expm1(); } catch (e) {}
+                        --v67;
+                        let v84 = -9007199254740991;
+                        v84++ >> v65;
+                        class C87 {
+                        }
+                        try { new C87(); } catch (e) {}
+                        C87.name.codePointAt();
+                        const v93 = new Int8Array(3938);
+                        let v94 = 3;
+                        v65++;
+                        [...v94] = v93;
+                        const o96 = {
+                        };
+                    },
+                };
+                try { o97.next(); } catch (e) {}
+                o97.m(o97);
+            }
+        }
+    }
+}

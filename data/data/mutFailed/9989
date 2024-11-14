@@ -1,0 +1,43 @@
+function f0() {
+}
+function f1() {
+    0 < 0;
+    return 0;
+}
+f0[Symbol.toPrimitive] = f1;
+const v7 = [f0,f0,f0,f0,f0];
+const v8 = [v7,f0,v7];
+for (let v9 in v8) {
+    v9 >>>= v9;
+    try { v8.indexOf(v9, v9); } catch (e) {}
+}
+v7 & f0;
+[f0,v8,v8,v7,f0];
+const v17 = new Uint8Array();
+[268435440,-9007199254740992,1,-2,268435456];
+[14,65536,268435441,-2020238355,1457575744,-28341,451940239,-26323,-4294967295,10];
+[142433445,-10,16,9];
+if (v17 <= v8) {
+    Object.defineProperty(Object, "f", { writable: true, enumerable: true, set: Object });
+} else {
+}
+let v26 = 536870889;
+class C29 {
+    get b() {
+        v7["entries"]();
+        delete this?.e;
+        v26 = 1664606158;
+        const o38 = {
+            valueOf() {
+                return this;
+            },
+        };
+    }
+}
+class C39 extends C29 {
+    constructor(a41, a42, a43, a44) {
+        super();
+        super.b;
+    }
+}
+new C39(v26, C39, 1664606158, 1664606158);

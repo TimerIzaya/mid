@@ -1,0 +1,82 @@
+const v0 = /a./vmy;
+const v1 = /D(x)(x)(x)\1Q^7[\ca]O*/viy;
+const v2 = /[\118]8(?:a+)*/dim;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this[Symbol.toStringTag] = a5;
+    function f8() {
+        return Symbol;
+    }
+    function f9(a10) {
+        try { a10(this, a10, this, this, F3); } catch (e) {}
+    }
+    Object.defineProperty(a5, "p5", { configurable: true, get: f8, set: f9 });
+    try {
+        this.b = a5;
+    } catch(e12) {
+    }
+}
+const v13 = new F3(v0);
+const v14 = new F3(v2);
+const v15 = new F3(v2);
+function f16(a17, a18, a19) {
+    const o29 = {
+        "h": a17,
+        __proto__: v14,
+        p(a21, a22) {
+            return a22;
+        },
+        get c() {
+            try {
+                a18.length = 1;
+            } catch(e28) {
+            }
+            return 1;
+        },
+    };
+    o29[4294967296] = a17;
+    return o29;
+}
+Object.defineProperty(f16, "toString", { configurable: true, enumerable: true, value: f16 });
+const v30 = f16(v0, v15, v2);
+const v31 = f16(v0, v13, v1);
+f16(v0, v15, v0);
+v15[f16];
+const t42 = -3.2655728344910857e+307;
+t42[2] = f16;
+v2["test"]("test");
+const v38 = v30[4294967296];
+function F40() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v42 = new F40();
+const v43 = [F40,F40,F40];
+f16("test", v38, v31);
+%PrepareFunctionForOptimization(f16);
+f16("test", v38, v31);
+f16("test", v38, v31);
+%OptimizeFunctionOnNextCall(f16);
+const v47 = f16("test", v38, v31);
+v47.toString = f16;
+function f48(a49) {
+    try {
+        v43.some();
+    } catch(e51) {
+        e51.stack;
+    }
+    return a49;
+}
+v43.toString = f48;
+Object.defineProperty(v42, "c", { enumerable: true, get: f48, set: f48 });
+v42[v47];
+for (let v54 = 0; v54 < 32; v54++) {
+    v0["p" + v54] = v54;
+}
+const o58 = {
+    __proto__: v43,
+    "e": v42,
+    get a() {
+        return this;
+    },
+};
+o58.toString(F40, o58);

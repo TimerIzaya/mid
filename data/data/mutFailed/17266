@@ -1,0 +1,78 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function F2() {
+        if (!new.target) { throw 'must be called with new'; }
+        for (let v4 = 0; v4 < 10; v4++) {
+            "p" + v4;
+        }
+    }
+    new F2();
+    try {
+        this.g = 6;
+    } catch(e9) {
+    }
+    try {
+        this.d = F0;
+    } catch(e10) {
+    }
+    try {
+        this.c = 6;
+        Math.g = Math;
+        const v15 = new Uint8ClampedArray();
+        function f16(a17, a18) {
+            return v15;
+        }
+        v15[Symbol.toPrimitive] = f16;
+        const o28 = {
+            [Math]: Float64Array,
+            4: 6,
+            "b": Math,
+            [v15](a25, a26, a27) {
+            },
+        };
+        return o28;
+    } catch(e29) {
+    }
+    function F30(a32, a33, a34, a35) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v36 = a32.push();
+        const v37 = this.__defineGetter__;
+        try { v37.call(v36); } catch (e) {}
+    }
+}
+const v39 = new F0();
+new F0(v39, F0, v39);
+Array().unshift();
+const v46 = Array(19793);
+const v47 = [v46,v46,v46,v46,v46];
+v47.toString = Array;
+const v48 = [v47,v47,v47];
+function f49() {
+    class C51 extends Array {
+    }
+    return v46;
+}
+v48[Symbol.toPrimitive] = f49;
+const v54 = [v48];
+v54.e = v54;
+Uint16Array.valueOf = Array;
+v54 >= Uint16Array;
+const v57 = new F0();
+const o59 = {
+    4294967296: 1733353236,
+};
+const o61 = {
+    get h() {
+        return o59;
+    },
+    ...o59,
+};
+new Uint8Array(2, v39);
+("ignoreCase").normalize();
+class C72 {
+}
+const v73 = new C72();
+v54.e = v73;
+new Float64Array(2392, v57);
+new BigUint64Array(4070);
+([-7.127262073336987e+307,9.142894664271836,5.0]).concat();

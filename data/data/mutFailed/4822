@@ -1,0 +1,17 @@
+const v2 = new BigUint64Array(2);
+const v5 = new Int32Array(9);
+let v6 = 7;
+~v6;
+const v9 = new Float32Array(v6);
+let v10;
+try { v10 = v9.find(Int32Array); } catch (e) {}
+const v12 = [v10];
+Reflect.apply(v5.map, v2, v12);
+let [v15,v16,v17,v18] = v5;
+1000.0 - 1000.0;
+const v26 = [v15,2];
+Reflect.apply(("o").substring, v2, v26);
+v2[v2] = ("entries").toUpperCase();
+v9[-2] = 1000.0;
+v6 = 2;
+delete v2?.length;

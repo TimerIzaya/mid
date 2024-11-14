@@ -1,0 +1,31 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -7;
+    } catch(e3) {
+    }
+    try {
+        this.a = -7;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+new F0();
+[-2,27873,9007199254740991,1943408135,-14];
+[268435439,-1,5126];
+[1073741823,-9007199254740990,703579416,128];
+4.0 - 4.0;
+try { Set.toString(); } catch (e) {}
+new Set();
+let v18 = 4294967296n;
+v18++;
+--0.0;
+const o26 = {
+    [Infinity]: -0.0,
+    [-16]: Infinity,
+    "h": -16,
+    ...-0.0,
+    "c": Infinity,
+    "e": -0.0,
+};

@@ -1,0 +1,70 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 4294967296;
+    } catch(e3) {
+    }
+    try {
+        try { ("imul").padEnd(1073741824); } catch (e) {}
+        class C7 {
+            static #p(a9) {
+                this.#p();
+            }
+        }
+        this.a = 4294967296;
+    } catch(e11) {
+    }
+}
+const v12 = new F0();
+v12[F0] = v12;
+const v14 = new Set();
+[Set,Set,v14];
+([601759695]).unshift(3);
+const v19 = new F0();
+const v20 = new v19();
+function f21(a22, a23) {
+    const o32 = {
+        "a": F0,
+        "c": a23,
+        [v19]: a23,
+        valueOf(a25, a26) {
+            try { v12["p"](a22, "p", a22); } catch (e) {}
+            let [] = "p";
+            var c = this;
+            return f21;
+        },
+        set b(a30) {
+        },
+        get f() {
+            return this;
+        },
+        [a22]: v19,
+        "d": F0,
+        __proto__: v20,
+    };
+    return o32;
+}
+f21(v20, v20);
+const v35 = f21(f21(v20, v19), v12);
+function f36() {
+    return v35;
+}
+function f37() {
+    return f36;
+}
+[-Infinity,-7.248385440138336,1.0,429.18921982751635,1.7976931348623157e+308,0.8730443136033686,-295.16143001154546];
+[-5.0,-2.5036079940361855e+307,2.5512508767543345,0.25908268574563764,NaN];
+[-1000000000000.0,-122760.88869112707,-Infinity,1e-15];
+const o41 = {
+};
+class C43 {
+    static {
+        try {
+            const t62 = null;
+            t62.valueOf = this;
+        } catch(e45) {
+            e45.stack;
+        }
+    }
+}
+Math.log1p(1842642860 % !o41);

@@ -1,0 +1,42 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e7) {
+    }
+    class C8 {
+        165;
+        static e = a6;
+        d;
+    }
+    new C8();
+    new C8();
+    new C8();
+}
+const v12 = new F3(Infinity, Infinity);
+function f13(a14) {
+    const o17 = {
+        "maxByteLength": 16,
+    };
+    const v19 = new SharedArrayBuffer(1, o17);
+    new Float32Array(v19);
+    return 16;
+}
+f13(-2.220446049250313e-16);
+const v23 = new F3(2.0, Infinity);
+const v24 = new F3(2.0, 2.0);
+try {
+    v12.fuck(2.0, F3, "ec", 6n);
+} catch(e28) {
+}
+[15,-2.220446049250313e-16,v24,[Infinity,v23,v24]];
+[15,Infinity,15,2.0,F3,v24];
+function f35() {
+    const v37 = new Set();
+    v37.add(v37);
+    return v37;
+}
+%PrepareFunctionForOptimization(f35);
+f35();
+%OptimizeFunctionOnNextCall(f35);
+f35();

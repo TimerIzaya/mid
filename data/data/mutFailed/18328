@@ -1,0 +1,37 @@
+const v0 = [-21171,1,16,-1685,37039,536870887,1073741825,33866,-2030544371,-835203305];
+const v1 = [-65535,2,1204888851,-2,-14,14925,2147483648,6,-532962916];
+const v2 = [4,1,0,-1328874726,-15114,-128,1073741823,16,1073741825,-533059778];
+function f3(a4) {
+    const o11 = {
+        ...v1,
+        __proto__: a4,
+        "g": a4,
+        "c": a4,
+        "toStringTag": v2,
+        7: v0,
+        ...v2,
+        "e": v0,
+        set h(a6) {
+            try {
+                v2.toString = a6;
+            } catch(e7) {
+            }
+            const v8 = [this];
+            [[a6,v0,v8,this,v8],this,a6,a4];
+        },
+    };
+    return o11;
+}
+const v12 = f3(v1);
+f3(v0);
+f3(v2, v1, v1, v0);
+function f17() {
+    return v2;
+}
+v2[4] = v2;
+f3 **= f3;
+new v12(255);
+new Int16Array(257);
+new Uint8Array(2445);
+const t35 = "symbol";
+delete t35[1];

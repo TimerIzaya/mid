@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    let v3;
+    try { v3 = this.asinh(-4294967296); } catch (e) {}
+    for (let v4 = 0; v4 < 32; v4++) {
+        v3["p" + v4] = v4;
+    }
+    try {
+        this.g = -4294967296;
+        const v7 = v3?.[10];
+        this.g ^= delete v7?.[v3];
+        try {
+            this.fuck(v7, undefined);
+        } catch(e11) {
+        }
+    } catch(e12) {
+    }
+    try {
+        this.b = -4294967296;
+    } catch(e13) {
+    }
+}
+new F0();
+new F0();
+const v16 = new F0();
+%VerifyType(9007199254740990);
+("536870888").normalize("NFKD");
+new F0();
+class C24 {
+    static #e;
+    get a() {
+        return 9007199254740990 | v16;
+    }
+    #n(a28, a29) {
+        let v30 = -1801167708 > a29;
+        const v35 = -2147483649 && v30++;
+        v35 >>> v35;
+        return v30;
+    }
+}
+C24.name;
+const v38 = new C24();
+const v39 = v38?.constructor;
+try { new v39(); } catch (e) {}
+new C24();
+const v42 = new C24();
+const v46 = new Uint8ClampedArray(995);
+const v48 = new Int8Array(995);
+try { v48.map(v42); } catch (e) {}
+127 >> 127;
+const v53 = [9,127,9];
+const v54 = v48.copyWithin;
+Reflect.apply(v54, v46, v53);
+try { v46.some(v54); } catch (e) {}

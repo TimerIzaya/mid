@@ -1,0 +1,114 @@
+let v1 = 9;
+class C3 {
+    static p(a5, a6) {
+        v1 = a5;
+        let {"b":v10,"c":v11,} = this;
+        return v11;
+    }
+    static [1073741825] = 4294967297;
+    [v1] = 1073741825;
+    static [v1] = 4294967297;
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v13;
+    try {
+        this.e = a20;
+    } catch(e21) {
+    }
+    try {
+        const t22 = 4294967297;
+        t22.c = a19;
+    } catch(e22) {
+    }
+}
+const v23 = new F16(4294967297, 1073741825, C3);
+new F16(1073741825, v1, v14);
+new F16(1073741825, v1, v15);
+new Array(256);
+function F29() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v31 = new F29();
+const v32 = new F29();
+function f33(a34) {
+}
+f33(v32);
+Array(v31);
+const v38 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+const v39 = [2.0,7.10011887634696e+307,5.04629902085264,-235569.90430342825,1000000000000.0,426535.30541040236,-734908.2544538898,-780.4792630242589,NaN,0.9523787688077121];
+for (let v41 = 0; v41 < 25; v41++) {
+    v38["p" + v41] = v41;
+}
+function F44(a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new F44(v39);
+class C49 {
+}
+[-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v52 = [601759695];
+const v53 = [1073741824,1073741823,1376142744,1073741825];
+function f55(a56, a57, a58, a59) {
+    function f60() {
+        let v63 = Float64Array;
+        v63 = a57;
+        b = v52;
+        v38.length;
+        try {
+            v53.forEach(v63);
+        } catch(e66) {
+        }
+        const v67 = [-2.220446049250313e-16,0.9798105418016166,-4.830267035271884,-435.7279193107944,864333.2303131514,-3.553417885466287e+306,-1000000000000.0,-1000000000.0,990180.6241720289,-1000000.0];
+        const v69 = Symbol.toPrimitive;
+        const o75 = {
+            toString(a71, a72) {
+                const v73 = a59 && v63;
+                a71 *= v69;
+                return v63;
+                return v73 <= v67;
+            },
+        };
+        const o95 = {
+            "c": a58,
+            [a57](a78, a79) {
+            },
+            "c": v52,
+            valueOf(a81, a82) {
+            },
+            "b": -4294967295,
+            [-4294967297n](a84, a85, a86, a87) {
+            },
+            "e": -4294967295,
+            "e": -268435456,
+            "maxByteLength": -4294967295,
+            "arguments": 522675525n,
+            ...v52,
+            "type": "Vre",
+            ..."Vre",
+            valueOf(a89, a90) {
+            },
+            ..."Vre",
+            4: "Vre",
+            "c": -268435456,
+            "type": "Vre",
+            "type": "Vre",
+            toString(a92, a93, a94) {
+            },
+            5: -4294967295,
+            6: -268435456,
+        };
+    }
+    f60();
+    new Int8Array();
+    %OptimizeFunctionOnNextCall(f60);
+    try { v53["find"]("find", a59, v52, v53); } catch (e) {}
+}
+for (let v101 = 0; v101 < 10; v101++) {
+    v23();
+}
+%OptimizeFunctionOnNextCall(f55);
+f55();

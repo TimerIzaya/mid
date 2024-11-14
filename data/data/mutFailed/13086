@@ -1,0 +1,49 @@
+function f0() {
+}
+const v2 = new Date();
+let v3 = "boolean";
+const v6 = [268435440,-629490930,-9223372036854775808,2147483647,-9223372036854775808,-13,8,8,536870888,-37573];
+const v7 = [-15,12,-1720476660,256,256,4096,256];
+const v8 = [58636,-2019450645,65535,1647439736,536870888,4294967297,34552,2023149916,911154374];
+function f9() {
+    return Date;
+}
+function f10(a11) {
+    const v12 = [Infinity];
+    class C13 {
+        [v12];
+    }
+}
+Object.defineProperty(v8, Symbol.toPrimitive, { writable: true, enumerable: true, get: f9, set: f10 });
+function f16() {
+    return v8;
+}
+function f17(a18, a19, a20, a21) {
+    const o27 = {
+        get b() {
+            let v22 = this;
+            v22 >>>= v2;
+            const o23 = {
+            };
+            new Proxy(f16, o23);
+            super.d;
+            v3 *= "23158";
+            return f16;
+        },
+        __proto__: a21,
+        "b": a18,
+        3: v7,
+        [v8]: v7,
+    };
+    return o27;
+}
+f17(v7, f16, v6, v6);
+f17(v6, f16, v7, v6);
+f17(v6, Date, v7, v6);
+function f31() {
+    return f31;
+}
+const o32 = {
+    __proto__: f31,
+    "g": f31,
+};

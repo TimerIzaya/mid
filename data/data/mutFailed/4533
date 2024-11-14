@@ -1,0 +1,76 @@
+const v0 = [];
+function f1() {
+    const o15 = {
+        set f(a3) {
+            try { a3.propertyIsEnumerable(f1); } catch (e) {}
+            const v5 = a3 && this;
+            function F6(a8) {
+                if (!new.target) { throw 'must be called with new'; }
+                a8.b = a8;
+                try {
+                    this.d = v0;
+                } catch(e9) {
+                }
+                try {
+                    this.e = a8;
+                } catch(e10) {
+                }
+                try {
+                    this.g = this;
+                } catch(e11) {
+                }
+            }
+            new F6(v5);
+            new F6(a3);
+            const v14 = new F6(this);
+            v14.e = v14;
+        },
+    };
+    return o15;
+}
+const v16 = f1();
+let v17 = f1();
+const v18 = f1();
+class C19 {
+    constructor(a21, a22) {
+        a21.f = a21;
+        a22.f = a22;
+        a22.f = a22;
+        536870888 != 536870888;
+        const v26 = a22 / a22;
+        const v27 = v26 >> v26;
+        v27 >>> v27;
+        Math.tan(v26);
+        --v17;
+        ~a22;
+    }
+    static p(a33, a34) {
+        const o38 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        return gc(o38);
+    }
+}
+const v40 = new C19(v18, v17);
+const v41 = v40?.constructor;
+try { new v41(f1, v17); } catch (e) {}
+const v43 = new C19(v18, v16);
+const v44 = v43?.constructor;
+let v45;
+try { v45 = new v44(v16, v40); } catch (e) {}
+const v46 = v45?.constructor;
+try { new v46(v41, C19); } catch (e) {}
+new C19(v17, v40);
+("b")[0];
+try { ("KH").charCodeAt(f1); } catch (e) {}
+4.758689429574832e+307 * 4.758689429574832e+307;
+let v58 = 3995;
+v58--;
+try { new BigInt64Array(v45, f1, f1); } catch (e) {}
+const v62 = new BigInt64Array(v58);
+let v63;
+try { v63 = v62.find(4.758689429574832e+307); } catch (e) {}
+const v64 = new BigInt64Array();
+try { v64.reduceRight(v63); } catch (e) {}
+v62.indexOf(v64);

@@ -1,0 +1,48 @@
+new Map();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = Map;
+    } catch(e5) {
+    }
+    try {
+        Map.d = a4;
+    } catch(e6) {
+    }
+}
+const v7 = new F2(F2);
+const v8 = new F2(v7);
+const v9 = new F2(Map);
+class C10 extends F2 {
+    static {
+        Object.defineProperty(this, "f", { writable: true, value: v8 });
+        new Array(v8);
+    }
+    static o(a16, a17, a18) {
+        return -128n;
+    }
+    #f = F2;
+    a = F2;
+}
+const v22 = new C10();
+new C10();
+new F2();
+class C28 {
+    #m(a30, a31, a32, a33) {
+        a31 === a32;
+        Math.random();
+        a31 - a31;
+        Math.sqrt(-1e-15);
+        Math.hypot(a31);
+        return v9;
+    }
+    [-1024];
+    static #f;
+    72 = v8;
+}
+new C28();
+new v22();
+new v22();
+const o45 = {
+};
+("undefined").localeCompare("undefined", o45);

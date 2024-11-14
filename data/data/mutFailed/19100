@@ -1,0 +1,66 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        const o5 = {
+            "maxByteLength": 255,
+        };
+        const v7 = new ArrayBuffer(255, o5);
+        new Uint32Array(v7);
+    }
+    static #e = f0;
+}
+const v10 = new C1();
+const v11 = new C1();
+const v12 = new v10();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v12;
+    } catch(e17) {
+    }
+    try {
+        this.h = v10;
+    } catch(e18) {
+    }
+}
+const v19 = new F13(C1, v11);
+const v20 = new F13(v19, C1);
+new F13(v19, v12);
+function f22() {
+    return f0;
+}
+class C23 {
+    static {
+        if (v20) {
+            Math.log1p(!(-2 ^ (-2 % this)));
+        } else {
+            this[2] = this;
+        }
+    }
+}
+const v31 = new C23();
+const v32 = new v31();
+new v32();
+class C34 {
+    static toString(a36, a37) {
+        const v39 = super[a37];
+        try {
+            this[delete this[v39]];
+        } catch(e42) {
+        }
+    }
+}
+const v43 = new C34();
+const v45 = new Uint8ClampedArray(C34, C34, v43);
+function f46() {
+    function f47(a48, a49) {
+        const v50 = v43.constructor;
+        v50 + v50;
+        return f22;
+    }
+    f47(Uint8ClampedArray, Uint8ClampedArray);
+    return f47;
+}
+Object.defineProperty(v45, "valueOf", { get: f46 });
+v45[5] = v45;

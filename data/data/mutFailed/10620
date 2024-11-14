@@ -1,0 +1,53 @@
+const v3 = ["number","number","MAX_VALUE"];
+v3[2] = v3;
+const v4 = ["number",v3,v3,v3,v3];
+["number",v4,v3,v3];
+function f6() {
+    return "MAX_VALUE";
+}
+f6.e = f6;
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v12 = this?.constructor;
+    try { new v12(this, this, a11); } catch (e) {}
+    a9[1] = a9;
+    function f15() {
+        return WeakMap;
+    }
+    %PrepareFunctionForOptimization(f15);
+    f15();
+    %OptimizeFunctionOnNextCall(f15);
+    f15();
+    a10[4] = a10;
+    a11.caller = a11;
+    try {
+        this.g = a11;
+    } catch(e18) {
+        let {"a":v19,"b":v20,"length":v21,...v22} = "MAX_VALUE";
+        const v23 = a11 << F7;
+        v3.entries([e18,a9], ..."MAX_VALUE", e18, ...v4);
+        Reflect.construct(v19, [v23,a10,e18], f6);
+    }
+    try {
+        this.c = a10;
+    } catch(e29) {
+    }
+    try {
+        this.h = f6;
+    } catch(e30) {
+    }
+    Object.defineProperty("number", "g", { enumerable: true, get: f15, set: f6 });
+    Math.log1p(-15003);
+    const v35 = (-15003) ** -3;
+    a11 * (-3 - a11);
+    Math.acos(v35);
+    Math.ceil(f15);
+}
+const v40 = new F7(v3, v4, f6);
+const v41 = new F7(v4, v3, v40);
+const v42 = new F7("MAX_VALUE", v4, v41);
+v42.h = v42;
+-4294967295 - -4294967295;
+class C47 {
+}
+C47.__proto__ = "f";

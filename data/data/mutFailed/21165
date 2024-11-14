@@ -1,0 +1,119 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a10;
+    } catch(e11) {
+    }
+    try {
+        this.c = a9;
+    } catch(e12) {
+    }
+}
+function f13(a14, a15) {
+    function f17(a18, a19, a20, a21) {
+        try { Set.apply(a18, a21, a18, Set, a19); } catch (e) {}
+        const v25 = new BigInt64Array(4046);
+        [,...a21] = v25;
+        return a21;
+    }
+    return "undefined";
+}
+const v27 = Symbol.toPrimitive;
+F6[v27] = f13;
+F6.caller = F6;
+const v28 = new F6("bigint", "X", "X");
+v28.a = v28;
+const v29 = new F6("undefined", "X", "X");
+const v30 = new F6("X", "X", "X");
+v30.a = v30;
+class C31 extends F6 {
+    static #m(a33, a34, a35) {
+        const v36 = new F6(a33, 65537, ...a34, ...a34, a33, 65537);
+        v30[2] = "bigint";
+        const o37 = {
+        };
+        try {
+            o37.e = 1000;
+        } catch(e38) {
+        }
+        try {
+            const o39 = {
+            };
+            o39.e = 1000;
+            o39.h = "bigint";
+        } catch(e40) {
+        }
+        try {
+            const o41 = {
+            };
+            o41.e = 1000;
+            o41.h = "bigint";
+            o41.f = "bigint";
+        } catch(e42) {
+        }
+        try {
+            const o43 = {
+            };
+            o43.e = 1000;
+            o43.h = "bigint";
+            o43.f = v36;
+        } catch(e44) {
+        }
+        return "undefined";
+    }
+}
+function f45(a46, a47) {
+    for (let i50 = 0, i51 = 10;
+        (() => {
+            const v52 = i50 < i51;
+            const v55 = new BigUint64Array(3375);
+            let [v56,,v57,...v58] = v55;
+            v58[1190] = v58;
+            v56--;
+            return v52;
+        })();
+        i50++) {
+    }
+    return v27;
+}
+const v66 = Symbol.toPrimitive;
+C31[v66] = v66;
+const v67 = new C31();
+const v68 = new C31();
+const v69 = new C31();
+function f70(a71, a72, a73, a74) {
+    a72.valueOf = f70;
+    a73.constructor = f13;
+    try { a71.toUpperCase(); } catch (e) {}
+    const v76 = a72 % a72;
+    const v77 = a74?.constructor;
+    try { new v77(C31, v67, "undefined", v76); } catch (e) {}
+    const o87 = {
+        [C31](a80, a81, a82) {
+            a71 === this;
+            return a71;
+        },
+        ...a74,
+        3604708920: 1000,
+        "b": a72,
+        "f": a73,
+        "MAX_SAFE_INTEGER": a74,
+        ...a74,
+        "d": C31,
+        [65537]: v28,
+    };
+    o87[3604708920] = o87;
+    return o87;
+}
+const v88 = f70("X", 1000, v69, v29);
+v88.toString = f45;
+v88[3604708920] = v88;
+const v89 = f70("undefined", v88, v68, v68);
+v89[1073741824] = v88;
+v89[1073741824] = v89;
+f70("undefined", v89, v67, v29);
+~5.0;
+for (let v94 = 0; v94 < 10; v94++) {
+    const t116 = "-4294967296";
+    t116[Symbol.match] = 5.0;
+}

@@ -1,0 +1,42 @@
+function f0() {
+}
+f0[Symbol.toPrimitive] = f0;
+class C6 extends f0 {
+    static #toString(a8, a9) {
+        Symbol[a9] = a9;
+        return "g";
+    }
+    static b = f0;
+    static #b = 3;
+    [2] = 2;
+    static 3357 = 2;
+    24 = C6;
+}
+new C6();
+let v14 = new C6();
+const v15 = new v14();
+v15.toString = f0;
+class C16 extends C6 {
+    [-1] = f0;
+    536870888;
+    constructor(a18, a19) {
+        super();
+        this || v15;
+        v14 = v15;
+        try { v14["sin"](C6, C16, -9007199254740992); } catch (e) {}
+    }
+    d;
+    [v15] = C6;
+    static [f0] = v14;
+}
+new C16(C6, 3);
+new C16(v14, 3);
+new C16(v14, 3);
+function f26() {
+    Int8Array.b = Int8Array;
+    return f26;
+}
+%PrepareFunctionForOptimization(f26);
+const v28 = f26();
+%OptimizeFunctionOnNextCall(v28);
+v28();

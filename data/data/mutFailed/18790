@@ -1,0 +1,52 @@
+new Uint8Array(3);
+const v5 = new Uint8ClampedArray(128);
+new Int8Array(0);
+/\b(?:ab)+/udis;
+/xyz?xyz{1,}?/gu;
+/Qa[^a]/vimsy;
+class C12 {
+    static {
+        function f14() {
+            return this;
+        }
+    }
+    static #valueOf(a16, a17, a18, a19) {
+        a16 * v5;
+        super.h **= 0;
+        return a16;
+    }
+    static 128 = Int8Array;
+}
+new C12();
+new C12();
+new C12();
+function f28(a29) {
+    function F30(a32, a33) {
+        if (!new.target) { throw 'must be called with new'; }
+        this[Symbol.toPrimitive] = Date;
+        try {
+            this.d = a32;
+        } catch(e36) {
+        }
+    }
+    new F30(0, 128);
+    const v38 = new F30(a29, a29);
+    v38[Symbol.toPrimitive] = f28;
+    new F30(128, 128);
+    return v38;
+}
+Object.defineProperty(Date, "toString", { configurable: true, value: f28 });
+const v42 = Date.toString(Date, Date, Date, Date);
+v42.toString = f28;
+function f43(a44, a45) {
+}
+const v46 = f43(v42, Date);
+const o47 = {
+    [v42]: v46,
+};
+for (let v48 = 0; v48 < 5; v48++) {
+    const o50 = {
+    };
+    Object.defineProperty(o50, "type", { configurable: true, enumerable: true, value: o47 });
+    gc(o50);
+}

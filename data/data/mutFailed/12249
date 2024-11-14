@@ -1,0 +1,20 @@
+function f3() {
+    return -4294967296;
+}
+new Float64Array(2486);
+new WeakSet(3744, 2486);
+new BigInt64Array(1);
+function f13() {
+    const o18 = {
+        "resizable": 1e-15,
+        [3](a17) {
+        },
+    };
+    return o18;
+}
+const v19 = f13();
+const v20 = f13(1000);
+const o21 = {
+};
+v20.__proto__ = o21;
+delete v19.matchAll;

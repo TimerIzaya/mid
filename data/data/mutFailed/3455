@@ -1,0 +1,21 @@
+new Uint32Array(-65536);
+new ArrayBuffer(-31129, "setUTCHours", ArrayBuffer, -31129);
+new parseFloat(971);
+const o12 = {
+};
+function f13(a14) {
+    const o15 = {
+    };
+    return o15;
+}
+const v16 = f13();
+class C17 extends f13 {
+}
+const v18 = new C17("setUTCHours", v16);
+function F19(a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v23 = this.b;
+    try { new v23(a21, v23, v23, o12, v23); } catch (e) {}
+    v16[v18] = o12;
+}
+new F19();

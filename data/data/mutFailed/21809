@@ -1,0 +1,37 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 8;
+    } catch(e3) {
+    }
+    try {
+        this.g = 8;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Int32Array(-43638, 2008882102);
+const v17 = new BigInt64Array(1566);
+new Int32Array(38, 916760682, v17);
+function F21(a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f24() {
+        return f24;
+    }
+    try {
+        class C25 extends f24 {
+            #h = f24;
+        }
+        C25[8];
+        const v27 = [-9223372036854775807,9223372036854775807,-32203,860646773];
+        [127,9,-14,536870887];
+        [-14,-29400,9];
+        v27[1];
+        new C25();
+        new C25();
+    } catch(e33) {
+    }
+}
+new F21(F21);

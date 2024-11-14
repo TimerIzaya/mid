@@ -1,0 +1,44 @@
+const v0 = [-430662.10979750147,-3.437139675785934e+307,-1000000.0,3.72303473068963,-1000000000000.0,-1000000.0];
+const v1 = [-1.0,0.31500463891299013,1000000.0,892644.4248067217,-3.0779488108769775e+306,0.4463626431628126];
+function f2() {
+    function f3(a4, a5) {
+        function f6() {
+            return v1;
+        }
+        return v0;
+    }
+    return f3;
+}
+Object.defineProperty(v1, Symbol.toPrimitive, { writable: true, configurable: true, get: f2 });
+const v9 = [-4.0,0.0];
+function f10(a11) {
+    const o25 = {
+        [a11](a13, a14) {
+            super[a11] = a13;
+            v0[8] &= a11;
+            let {"length":v15,...v16} = a14;
+            let v19 = 3;
+            const v20 = v19 / a14;
+            const v21 = 512 ** v20;
+            (512 || v20) >> v21;
+            v19++;
+            return v20;
+        },
+    };
+    function f26() {
+        const o28 = {
+            "type": "async",
+        };
+        return o28;
+    }
+    o25[Symbol.toPrimitive] = f26;
+    return o25;
+}
+const v31 = f10(v1);
+v31.toString = f2;
+f10(v9);
+f10(v31);
+new Int16Array(64);
+new BigUint64Array(4096);
+new Uint32Array(4096);
+("n").split("n", 4096);

@@ -1,0 +1,20 @@
+const v3 = [65535n,3n,3n,3n];
+const v4 = [65535n,65535n,v3,v3,4294967296n,65535n];
+[v4,65535n];
+v4[536870888] = -8580;
+try {
+    v4.__proto__ = v3;
+} catch(e9) {
+}
+new Float32Array(4);
+new Float32Array(128);
+new BigInt64Array(128);
+%VerifyType(~-8580);
+-8796n % -8796n;
+const o26 = {
+    "maxByteLength": 16,
+};
+const v28 = new SharedArrayBuffer(5, o26);
+new Uint8Array(v28);
+const v31 = new parseFloat(127);
+try { v31.setUTCFullYear(127, -8796n); } catch (e) {}

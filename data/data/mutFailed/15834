@@ -1,0 +1,34 @@
+class C3 {
+    set c(a5) {
+        try { a5(-9.748295386006e+307); } catch (e) {}
+    }
+    223 = "function";
+    static #f;
+    [-9.748295386006e+307];
+    static 1;
+}
+new C3();
+new Float64Array(-128);
+let v14 = -16n;
+function f15() {
+    v14 *= -1911645276n;
+    return -1911645276n;
+}
+f15();
+f15();
+new C3();
+new C3();
+function f23(a24, a25) {
+    function f26(a27, a28) {
+        return a28;
+    }
+    Set.toString = f26;
+    const o30 = {
+        ...a24,
+    };
+    return a25;
+}
+%PrepareFunctionForOptimization(f23);
+f23();
+%OptimizeFunctionOnNextCall(f23);
+f23(f23);

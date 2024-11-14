@@ -1,0 +1,85 @@
+function f1(a2, a3) {
+    BigInt.toString = BigInt;
+    try {
+        BigInt(BigInt);
+    } catch(e6) {
+    }
+    return BigInt;
+}
+WeakSet.toString = f1;
+const v7 = new WeakSet();
+function f8(a9) {
+    const o19 = {
+        toString(a11) {
+            function f12(a13, a14) {
+                const o15 = {
+                    [v7]: this,
+                };
+                return o15;
+            }
+            f12(f12(a11, f12), WeakSet);
+            f12(a11, a9);
+            return f12;
+        },
+        [WeakSet]: a9,
+    };
+    return o19;
+}
+const v22 = f8(f8(f8(v7)));
+class C25 {
+    [Int16Array];
+}
+("asin").b;
+const v29 = [1000000.0,-3.189155214712293e+306,1.0,-873242.5380498769];
+const v30 = [298947.82336055697,4.506595223144437,-2.2250738585072014e-308,-0.0];
+const v31 = [-1000000000000.0,0.9760954286518986,0.19462259822738048,-4.371871571662604,-1.367764646942396e+308];
+class C32 extends f8 {
+    87;
+    constructor(a34, a35, a36) {
+        super(v29);
+        f8(v7);
+        %PrepareFunctionForOptimization(f8);
+        f8(v7);
+        f8(v7);
+        %OptimizeMaglevOnNextCall(f8);
+        function F40(a42) {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        class C43 {
+        }
+        class C44 {
+        }
+        const v45 = new C44();
+        for (let v47 = 0; v47 < 5; v47++) {
+            try { new C43(v45, v47, Float32Array, ...v47, this); } catch (e) {}
+        }
+        f8(v7);
+        Object.defineProperty(this, 128, { configurable: true, enumerable: true, set: f8 });
+    }
+    7 = WeakSet;
+    static c = v22;
+}
+new C32("species", v22, v29);
+const v51 = new C32(v7, v31, v29);
+new C32("species", v51, v30);
+class C55 {
+    constructor(a57) {
+        this.c = a57;
+        for (const v58 of "bigint") {
+            this.c = v58;
+        }
+    }
+    h = undefined;
+}
+new C55();
+new C55();
+const v61 = new C55();
+[];
+class C63 extends C55 {
+}
+new C63();
+const o66 = {
+};
+o66.getOwnPropertyDescriptor = v31;
+const v68 = new Proxy(v61, o66);
+v68.h **= 588663.7778410686;

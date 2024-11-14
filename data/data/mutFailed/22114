@@ -1,0 +1,41 @@
+function f0() {
+    const o10 = {
+        [2147483647](a5, a6) {
+            typeof 2147483647 === "symbol";
+            return a6;
+        },
+        "h": -1024,
+        __proto__: -1024,
+        "e": 2147483647,
+        1: -55295,
+    };
+    return o10;
+}
+f0();
+f0();
+f0();
+class C23 {
+    constructor(a25, a26, a27, a28) {
+    }
+    /*
+    constructor(a30, a31, a32, a33) {
+    }
+    */
+    ["4"] = C23;
+    static [C23] = "4";
+    #g;
+    static 10;
+    static #f = 2.220446049250313e-16;
+}
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeMaglevOnNextCall(f0);
+f0();
+let v48 = 0;
+while (v48 < 10) {
+    h = "constructor";
+    typeof C23 === "object";
+    v48++;
+}

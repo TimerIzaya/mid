@@ -1,0 +1,26 @@
+new BigUint64Array(57);
+const v8 = new Float32Array(255);
+new BigUint64Array(57);
+class C13 {
+}
+new C13();
+new C13();
+const v16 = new C13();
+function f17(a18, a19) {
+    const v20 = [];
+    v20[Symbol.toPrimitive] = f17;
+    try { v20.with(); } catch (e) {}
+    const o31 = {
+        [v20](a25, a26, a27) {
+            super[a27];
+        },
+        set b(a30) {
+        },
+        [a19]: v8,
+    };
+    return a18;
+}
+%PrepareFunctionForOptimization(f17);
+f17(Uint16Array, v16);
+%OptimizeFunctionOnNextCall(f17);
+f17();

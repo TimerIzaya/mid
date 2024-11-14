@@ -1,0 +1,43 @@
+class C6 {
+    128 = -13;
+    static #o(a8, a9, a10, a11) {
+        super.d **= this;
+        try {
+            this.e = C6;
+        } catch(e12) {
+        }
+        return a9;
+    }
+    a;
+    static c = -2;
+    static #h;
+    h;
+}
+new C6();
+new C6();
+new C6();
+class C16 {
+    get f() {
+        const v18 = this[8];
+        const o21 = {
+            "maxByteLength": 255,
+        };
+        const v23 = new SharedArrayBuffer(255, v18);
+        new DataView(v23);
+        return v23;
+    }
+}
+const v26 = new C16();
+const v27 = new v26();
+new C16();
+function f29(a30, a31, a32, a33) {
+    class C35 {
+        static ["-2"];
+    }
+    return v27;
+}
+for (let v36 = 0; v36 < 10; v36++) {
+    f29(v36, v36, f29, v36);
+}
+%OptimizeFunctionOnNextCall(f29);
+f29();

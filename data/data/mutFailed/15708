@@ -1,0 +1,93 @@
+function f0() {
+    const o10 = {
+        get h() {
+            this ** this;
+            return ("Pg").length;
+        },
+        "f": "Pg",
+        [-1]: "2147483649",
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+f0();
+try {
+    v12.f = -256n;
+} catch(e17) {
+}
+const v18 = typeof -4n;
+const v20 = v18 === "undefined";
+try { WeakSet.call(v18); } catch (e) {}
+const v23 = new WeakSet();
+class C24 {
+    static #p(a26, a27, a28) {
+        v11.f;
+        return v23;
+    }
+    b = -256n;
+    257;
+    4;
+}
+C24.name;
+const v34 = new C24();
+v34[4] = v34;
+new C24();
+const v36 = new C24();
+function F37() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+let v39;
+try { v39 = new F37(); } catch (e) {}
+new F37();
+const v41 = new F37();
+const v42 = v41?.constructor;
+try { new v42(); } catch (e) {}
+const v44 = new F37();
+v44.b = v39;
+class C46 {
+    static get b() {
+        const v48 = new F37();
+        typeof v48 === "function";
+    }
+    static 182 = F37;
+    static g;
+    static #b = v41;
+}
+function f53(a54, a55) {
+    const v57 = [v20,v20,[a54,a55,v20,v36],a55];
+    return [v57,v57,v57];
+}
+C46[Symbol.toPrimitive] = f53;
+C46.length = C46;
+C46.valueOf = f0;
+new C46();
+new C46();
+const v63 = new C46();
+const v64 = v63?.constructor;
+v64[Symbol.toPrimitive] = f53;
+try { new v64(); } catch (e) {}
+try {
+    v44.b = v63;
+} catch(e68) {
+}
+6.921221993207333e+307 != C46 ? 6.921221993207333e+307 : C46;
+let v71;
+try { v71 = C46(); } catch (e) {}
+try { v71(); } catch (e) {}
+for (let i75 = (() => {
+        0 / 0;
+        return 0;
+    })();
+    -2, i75 < 2;
+    i75++) {
+    -2111443763;
+    let v85 = -196520.2462436672;
+    let v86 = v85++;
+    v86++;
+    let v88 = !v86;
+    v88 || v88;
+    v88 / v86;
+    v86 / v86;
+    v88++;
+}

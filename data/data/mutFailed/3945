@@ -1,0 +1,73 @@
+function f0() {
+    const o6 = {
+        "d": "-17015",
+        "g": 268435439,
+        6: 268435439,
+        get b() {
+            try {
+                this.g = this;
+            } catch(e5) {
+            }
+            return this;
+        },
+    };
+    return o6;
+}
+let v7 = f0();
+const v8 = f0();
+f0();
+new BigInt64Array(3445);
+new Float32Array(1024);
+const v21 = new Int16Array(3919);
+new Int16Array(-1879, 3919, 3967);
+f0 && v21;
+v7 <<= v8;
+const o26 = {
+    "apply": f0,
+    "call": f0,
+    "defineProperty": f0,
+    "getPrototypeOf": f0,
+    "has": f0,
+    "isExtensible": f0,
+    "ownKeys": f0,
+    "preventExtensions": f0,
+    "set": f0,
+    "setPrototypeOf": f0,
+};
+new Proxy(v21, o26);
+const v30 = Float32Array.length;
+class C32 {
+}
+const v33 = new C32();
+class C34 {
+    static g = v33;
+    static {
+        delete this.g;
+    }
+}
+try { C34.bind(v33); } catch (e) {}
+const v41 = Symbol("bZ");
+[Float32Array];
+function f44() {
+}
+[[f44,f44],f44];
+try { ("5").split(127, v41); } catch (e) {}
+const v55 = new Array(228);
+class C56 {
+    static {
+        function F58(a60, a61) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v62 = this?.constructor;
+            try { new v62("yi", v30); } catch (e) {}
+        }
+        new F58(v55, this);
+        new F58(Array, F58);
+    }
+}
+try {
+} catch(e66) {
+}
+let v67 = 0;
+do {
+    v67++;
+} while (v67 < 9)

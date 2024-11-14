@@ -1,0 +1,133 @@
+const v0 = [-4096,268435439,65537,5,-4294967296];
+const v1 = [4,65536,-6,15];
+const v2 = [-893189373,-9007199254740990,4294967295];
+class C3 {
+    constructor(a5, a6) {
+        super[v2] = this;
+        const v8 = Symbol.iterator;
+        const o17 = {
+            [v8]() {
+                let v10 = 10;
+                const o16 = {
+                    next() {
+                        v10--;
+                        const v14 = v10 == 0;
+                        const o15 = {
+                            "done": v14,
+                            "value": v10,
+                        };
+                        return o15;
+                    },
+                };
+                return o16;
+            },
+        };
+    }
+    toString(a19) {
+        let v20;
+        try { v20 = C3(); } catch (e) {}
+        try {
+            super.trimStart(v20);
+        } catch(e22) {
+        }
+        return a19;
+    }
+}
+const v23 = new C3(v0, v0);
+const v24 = new C3(v2, v0);
+const v25 = new C3(v1, v1);
+function f26(a27, a28) {
+    const o37 = {
+        get g() {
+            super[this] = this;
+            return -995883;
+        },
+        get h() {
+            const v34 = [this,this];
+            const v35 = [v34];
+            [v34,v35];
+            return v35;
+        },
+        "d": C3,
+        "b": v2,
+        "c": v25,
+        "e": v1,
+        "a": v1,
+        "a": v25,
+    };
+    return o37;
+}
+const v38 = f26(C3, C3);
+const v39 = f26(v23, v23);
+function f40() {
+    function f41(a42) {
+        Object.defineProperty(v23, a42, { configurable: true, get: f26 });
+        c = a42;
+        return v0;
+    }
+    return f41;
+}
+function f43(a44) {
+    const o45 = {
+        "apply": f26,
+        "call": f26,
+        "construct": f26,
+        "defineProperty": f40,
+        "get": f26,
+        "has": f40,
+        "preventExtensions": f40,
+        "set": f26,
+        "setPrototypeOf": f40,
+    };
+    new Proxy(v2, o45);
+}
+Object.defineProperty(v39, Symbol.toPrimitive, { enumerable: true, get: f40, set: f43 });
+f26(v39, v23);
+class C51 {
+    static m(a53, a54) {
+        try {
+            a53.__proto__ = this;
+            let v55;
+            try { v55 = C51.o(v25, C51, v1); } catch (e) {}
+            delete v24[2147483649];
+            function F58(a60, a61, a62, a63) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.e = a60;
+                } catch(e64) {
+                }
+                try {
+                    this.d = this;
+                } catch(e65) {
+                }
+                try {
+                    this.c = v55;
+                } catch(e66) {
+                }
+            }
+            new F58(this, a53, v55, v38);
+            new F58(v55, v23, v0, v39);
+            new F58(C51, this, v55, v38);
+        } catch(e70) {
+        }
+        super.c;
+        const v72 = v23 >> v1;
+        v39[v72];
+        return v72;
+    }
+    #f;
+    d;
+    [v39];
+    #g = v0;
+}
+new C51();
+new C51();
+new C51();
+function f79(a80, a81) {
+    const o82 = {
+        "f": a81,
+    };
+    return o82;
+}
+f79(1096487296, 1096487296);
+f79(268435441, 268435441);

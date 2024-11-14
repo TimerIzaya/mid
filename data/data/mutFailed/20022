@@ -1,0 +1,22 @@
+new Uint32Array(3082);
+const v4 = -16 > -16;
+Int16Array.length;
+new Int16Array(-16);
+8 >>> 8;
+new Float64Array(8, Float64Array, Float64Array);
+class C15 {
+}
+C15.e = C15;
+const v16 = new C15();
+const v17 = v16?.constructor;
+try { new v17(); } catch (e) {}
+function f19(a20, a21) {
+    const v22 = a21?.__lookupGetter__;
+    a21?.constructor;
+    return v22;
+}
+%PrepareFunctionForOptimization(f19);
+const v25 = f19(Uint16Array, v16);
+try { new v25(-16); } catch (e) {}
+%OptimizeFunctionOnNextCall(f19);
+f19(Int16Array, v4);

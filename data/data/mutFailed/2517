@@ -1,0 +1,76 @@
+const v1 = new WeakMap();
+function f2(a3) {
+    new WeakMap(a3);
+    const o5 = {
+    };
+    new Proxy(v1, o5);
+    return v1;
+}
+v1[Symbol.toPrimitive] = f2;
+const v10 = [-15,-1,268435441,4294967295,-10,9007199254740990,7,-2147483648];
+const v11 = [256,-664039705];
+const v12 = [7,5,6095,255,268435456];
+/[UMa\fb\nc\rd\te\vf]/udms;
+class C18 {
+    static #p(a20) {
+        super[a20] = v12;
+        return v10;
+    }
+    #o(a23, a24) {
+        v12.length;
+        const o29 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o29);
+        return a23;
+    }
+}
+const v31 = new C18();
+function f32() {
+    class C33 {
+    }
+    return 4;
+}
+v31.toString = f32;
+const v34 = new C18();
+new C18();
+function f36(a37, a38) {
+    Object.defineProperty(a38, Symbol.toPrimitive, { writable: true, value: f36 });
+    const o47 = {
+        __proto__: v11,
+        [v10]: a37,
+        "c": v10,
+        [a38](a42, a43, a44, a45) {
+            v12 instanceof WeakMap;
+            a44 = a37;
+            return this;
+        },
+        "e": WeakMap,
+        "g": v11,
+        [v1]: a38,
+        "b": v12,
+        5: C18,
+    };
+    return o47;
+}
+const v48 = f36(v10, v10);
+f36(v34, v31);
+f36(v48, v1);
+const v55 = new Uint8ClampedArray();
+v55[Symbol.toPrimitive] = f36;
+function f58(a59, a60) {
+    const o65 = {
+        [a59]: Float64Array,
+        4: 6,
+        "b": a59,
+        [v55](a62, a63, a64) {
+        },
+    };
+    return o65;
+}
+%PrepareFunctionForOptimization(f58);
+f58(2);
+f58(2);
+%OptimizeFunctionOnNextCall(f58);
+f58();

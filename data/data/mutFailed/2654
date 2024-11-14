@@ -1,0 +1,58 @@
+const v1 = new WeakSet();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a7;
+    } catch(e8) {
+    }
+    try {
+        this.a = v1;
+    } catch(e9) {
+    }
+    try {
+        this.g = a7;
+    } catch(e10) {
+    }
+}
+const v11 = new F5(-9007199254740991);
+const v12 = new F5(-23402);
+new F5(-23402);
+class C14 {
+    get g() {
+        let v15 = this;
+        const v17 = new v15();
+        delete v15[7];
+        v15 = v17;
+        return Set;
+    }
+    #h;
+    static e = v12;
+    [WeakSet] = WeakSet;
+    536870887 = v11;
+}
+new C14();
+const v20 = new C14();
+new v20();
+function f22() {
+    let v23 = 1000000000000.0;
+    v23--;
+    class C26 {
+    }
+    new C26();
+    const v28 = new C26();
+    const v29 = [v28,C26];
+    [257828.6336153492,v28];
+    const v31 = [v28];
+    class C32 extends C26 {
+    }
+    function f33(a34, a35) {
+        return v29;
+    }
+    Set.toString = f33;
+    Set.constructor(Set);
+    v31.constructor;
+}
+%PrepareFunctionForOptimization(f22);
+f22();
+%OptimizeFunctionOnNextCall(f22);
+f22();

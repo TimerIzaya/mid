@@ -1,0 +1,36 @@
+new Map();
+new Date();
+new Int8Array(2492);
+const v9 = new BigUint64Array(2410);
+new Uint8Array(10);
+function f13() {
+    const o18 = {
+        8: 0.043152456200264866,
+        get a() {
+            Math.acos(0.043152456200264866);
+        },
+    };
+    return 0.043152456200264866;
+}
+const v19 = f13();
+Object.defineProperty(v19, "toJSON", { writable: true, configurable: true, value: v9 });
+f13();
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    a25.toJSON = a25;
+    this.d = Uint8Array;
+    this.h = a25;
+}
+const v28 = new F22(10, v19);
+function f30(a31, a32, a33) {
+    function f35(a36) {
+    }
+    a31[1] = a33;
+}
+const v39 = [v28];
+const o40 = {
+    "arguments": v39,
+    "type": v9,
+};
+const t34 = 257;
+new t34(f30, o40);

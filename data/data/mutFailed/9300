@@ -1,0 +1,30 @@
+new Uint32Array(2081);
+new Uint8ClampedArray(4096);
+new Int8Array(187);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        class C14 extends Int8Array {
+            6 = a11;
+        }
+        new C14();
+        new C14();
+        new C14();
+        this.a = a12;
+    } catch(e18) {
+    }
+    const o21 = {
+        "maxByteLength": 536870888,
+    };
+    const v23 = new ArrayBuffer(5, o21);
+    new Float64Array(v23);
+    try {
+        this.c = 187;
+    } catch(e26) {
+    }
+}
+new F9(187, 4096, 4096);
+new F9(187, 4096, 4096);
+new F9(187, 2081, 2081);
+const v32 = new BigInt64Array(3);
+try { Float32Array.from(v32); } catch (e) {}

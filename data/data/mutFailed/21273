@@ -1,0 +1,47 @@
+class C3 {
+    [0.8748258920838669];
+    static #valueOf(a5) {
+        a5 &= a5;
+        this[Symbol.isConcatSpreadable];
+        return h;
+    }
+    static e = -1.0705875168587063e+308;
+}
+const v10 = new C3();
+new C3();
+new C3();
+function f13(a14, a15) {
+    const o28 = {
+        [-1.0705875168587063e+308]: a14,
+        ...C3,
+        [-153452.03307009104](a17, a18) {
+            return this;
+            new Uint16Array(1);
+            new Uint8ClampedArray(512);
+            new Int8Array(1);
+            return this;
+        },
+    };
+    return o28;
+}
+f13(v10, -1.0705875168587063e+308);
+f13(0.8748258920838669, f13(-153452.03307009104, v10));
+function f32() {
+    class C33 {
+    }
+    const v34 = new C33();
+    v34.valueOf = f32;
+    Object.defineProperty(v34, "length", { writable: true, configurable: true, value: v34 });
+    v34.length = v34;
+    const v35 = [5];
+    const v37 = [];
+    const v38 = v35.fill;
+    try { v38(); } catch (e) {}
+    Reflect.apply(v38, v34, v37);
+    return f32;
+}
+const v41 = f32();
+%PrepareFunctionForOptimization(f32);
+v41();
+%OptimizeFunctionOnNextCall(f32);
+f32();

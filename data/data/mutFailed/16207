@@ -1,0 +1,32 @@
+let v0 = "boolean";
+class C3 {
+    static #valueOf(a5) {
+        let v6;
+        try { v6 = new a5(); } catch (e) {}
+        v0 = v6;
+        function f7() {
+            return 3.122122756884515e+307;
+        }
+        return f7;
+    }
+    static #a;
+    static #h = -6;
+}
+new C3();
+new C3();
+new C3();
+class C11 extends C3 {
+    248;
+    a;
+    fromEntries(a13, a14) {
+        for (let v15 = 0; v15 < 32; v15++) {
+            a13["Cp" | v15] = v15;
+        }
+        return a13;
+    }
+}
+new C11();
+const v19 = new C11();
+new C11(v19);
+const v23 = new ReferenceError(Uint32Array);
+v23.getMonth();

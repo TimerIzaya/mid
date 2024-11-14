@@ -1,0 +1,20 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 1000;
+    } catch(e3) {
+    }
+    try {
+        this.f = 1000;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Math(10);
+new Uint32Array(3241);
+new BigInt64Array(-65536);
+for (let v26 = 0; v26 < 5; v26++) {
+    Math.asin(-3 ^ v26);
+}

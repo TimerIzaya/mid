@@ -1,0 +1,38 @@
+function f0() {
+    const o9 = {
+        [5](a5, a6) {
+            const t3 = "object";
+            t3[2] = a6;
+            try { new a5(a6, 5); } catch (e) {}
+            try {
+            const t0 = "object";
+            new t0(a5, "symbol", this, a6);
+            } catch (e) {}
+            return a6;
+        },
+        "h": "object",
+        1000: "object",
+        "b": "object",
+        "g": "symbol",
+        __proto__: "symbol",
+        536870912: "object",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = v10();
+const v12 = f0();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = F13;
+    try {
+        this.b = v11;
+    } catch(e17) {
+    }
+}
+const v18 = new F13(v10, v10);
+const v19 = new F13(F13, v12);
+const v20 = new F13(v18, v12);
+const v21 = [v12,v20,v11];
+[v11,f0,v11,[v20,v19,v21,v20],v21];
+(-4.0).normalize();

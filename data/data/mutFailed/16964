@@ -1,0 +1,66 @@
+class C3 {
+    2 = "deleteProperty";
+    #toString(a5) {
+        %VerifyType(1073741823);
+        return -1.0;
+    }
+    constructor(a7, a8) {
+        function f9(a10, a11) {
+            [-1.0,0.7778082402243707,-4.0,7.478471753499711,-1.286918154923979e+307];
+            [-5.0,-1000000000000.0,1000.0];
+            [0.0,451.0756588447566,1.0,-1000000.0,-1.0,-1.7976931348623157e+308];
+            return this;
+        }
+        a8[Symbol.toPrimitive] = f9;
+        a7--;
+        a8--;
+        const v19 = [a7,a8,a7,a8,this];
+        try { new a8(v19, v19); } catch (e) {}
+        const v21 = typeof "deleteProperty";
+        v21[3];
+        ("undefined")[2];
+        v21 === "undefined";
+    }
+    static ["deleteProperty"] = "deleteProperty";
+    h = -1.0;
+    e;
+}
+function f26(a27, a28) {
+    function F29() {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            const v33 = this.__proto__?.constructor;
+            try { new v33(); } catch (e) {}
+            F29[8] = this;
+            this.a = -4;
+        } catch(e35) {
+        }
+        try {
+            this.g = -4;
+        } catch(e36) {
+        }
+    }
+    return "deleteProperty";
+}
+C3.toString = f26;
+try { new C3("deleteProperty", C3); } catch (e) {}
+const v38 = new C3(1073741823, 1073741823);
+v38.valueOf = f26;
+const v39 = new C3(v38, v38);
+v39.c = v39;
+new C3(v38, v39);
+-250121652 - -250121652;
+[2,9007199254740991];
+[1073741825,0,-1073741824,8,-32768,536870888,-65537,-9007199254740990,-65536];
+const v47 = [39257];
+try { v47.entries(); } catch (e) {}
+function F52() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v54 = this.constructor;
+    try { v54(); } catch (e) {}
+    try { new v54(v54); } catch (e) {}
+}
+const v57 = new F52();
+v57.constructor = f26;
+const v58 = v57.constructor;
+new v58(v58, v57);

@@ -1,0 +1,45 @@
+const v0 = /u.a+b(?!a)?ap/gdy;
+const v1 = /(?:a*)+/gvm;
+const v2 = /a(?=bbb|bb)c((?:a?)+)?/ui;
+function f3() {
+    return v1;
+}
+new Function();
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v2;
+    } catch(e13) {
+    }
+    try {
+        this.c = "now";
+    } catch(e14) {
+    }
+    try {
+        this.g = a12;
+    } catch(e15) {
+    }
+}
+new F9("eDRy7", v1, "eDRy7", f3, v0);
+new F9("-891997291", v2);
+new F9("now", v0);
+const v19 = [2.0,0.2901658812472846,-8.880306076496956e+307,943883.9104739067];
+function f20(a21, a22) {
+    const v25 = a21 && 64;
+    ++a21;
+    Int16Array.hypot(a21 * v25);
+    return f20;
+}
+v19.constructor = f20;
+function f29(a30, a31, a32, a33) {
+    for (let i36 = 0, i37 = 216014180; i36 < i37; --i37) {
+        const v44 = v19.constructor;
+        v44(v44, "now");
+    }
+    return a31;
+}
+for (let v46 = 0; v46 < 5; v46++) {
+    f29(v19, v46, v46, v19);
+}
+%OptimizeFunctionOnNextCall(f29);
+f29(v19, v19, f20, v19);

@@ -1,0 +1,36 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.d = 2147483648;
+    } catch(e4) {
+    }
+    try {
+        this.a = 2147483648;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C12 {
+    d = 49572;
+    constructor(a14, a15, a16, a17) {
+        a15.e;
+        try { a17(); } catch (e) {}
+        super[a14];
+        try {
+            a16.__proto__ = a14;
+        } catch(e21) {
+        }
+    }
+}
+const v22 = new C12(C12, C12, v8, 536558159);
+new C12(v22, v8, v7, v22);
+new C12(v7, v22, C12, 49572);
+new v22();
+for (const v27 in C12) {
+}

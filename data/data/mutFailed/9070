@@ -1,0 +1,105 @@
+for (let v3 = 0; v3 < 5; v3++) {
+    function f4() {
+        for (let v5 = 0; v5 < 5; v5++) {
+            const t3 = [-Infinity,1.7976931348623157e+308,1.0,1.7976931348623157e+308,-1.0,Infinity];
+            t3.length >>>= -65536;
+        }
+        return f4;
+    }
+    f4();
+    %OptimizeFunctionOnNextCall(f4);
+}
+class C9 {
+    constructor(a11, a12) {
+        function f13(a14) {
+            const o15 = {
+            };
+            try {
+                o15.f = -2.0;
+            } catch(e16) {
+            }
+            try {
+                const o17 = {
+                };
+                o17.f = -2.0;
+                o17.g = 0.0;
+            } catch(e18) {
+            }
+            try {
+                const o19 = {
+                };
+                o19.f = -2.0;
+                o19.g = 0.0;
+                o19.b = 0.0;
+            } catch(e20) {
+            }
+            try {
+                const o21 = {
+                };
+                o21.f = -2.0;
+                o21.g = 0.0;
+                o21.b = a14;
+            } catch(e22) {
+            }
+            return this;
+        }
+        a11.valueOf = f13;
+        try {
+            a12.valueOf = a11;
+        } catch(e23) {
+        }
+    }
+    static get b() {
+        [-57909,1073741823,256,-905];
+        const v26 = [10000,-1824914177,-24270,132821457,10,914922765];
+        [-536870912];
+        return v26;
+    }
+}
+const v28 = new C9(-2.0, 0.0);
+function f29(a30) {
+    -v28;
+    function F32() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    new F32();
+    return F32;
+}
+v28.valueOf = f29;
+const v36 = new C9(v28, v28);
+const v37 = new C9(0.0, v36);
+function f38() {
+    return f29;
+}
+function f39(a40) {
+    C9[v28];
+}
+Object.defineProperty(v37, "valueOf", { writable: true, get: f38, set: f39 });
+class C42 extends C9 {
+    constructor(a44, a45, a46, a47) {
+        super(a47, a44);
+        function f48(a49) {
+            return a44;
+        }
+        class C50 extends f48 {
+            static 4294967295 = v28;
+        }
+    }
+    #h;
+    static #g = v36;
+}
+new C42(v37, v36, v37, C9);
+new C42(v28, 0.0, v37, v37);
+new C42(C9, -2.0, C9, C42);
+class C57 {
+    constructor(a59) {
+        const v60 = (a61, a62, a63, a64) => {
+            a63[a59] = this;
+            new Uint8Array(3641);
+            new BigInt64Array(3745);
+            new Int16Array(1000);
+            this[536870887] = a59;
+            return a64;
+        };
+    }
+}

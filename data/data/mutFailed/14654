@@ -1,0 +1,125 @@
+let v1 = new WeakSet();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F2(F2, F2);
+const v8 = new F2(WeakSet, v7);
+const v9 = new F2(v7, v7);
+function f10(a11, a12, a13, a14) {
+    const o23 = {
+        "b": v9,
+        "a": WeakSet,
+        "d": a14,
+        7: a13,
+        __proto__: a12,
+        "g": WeakSet,
+        "h": v1,
+        set e(a16) {
+            v8 / this;
+            const o21 = {
+                "execution": "async",
+                "type": "major",
+            };
+            gc(o21);
+        },
+    };
+    return o23;
+}
+const v24 = f10(v1, v8, v8, v1);
+const v25 = f10(v24, F2, v9, v24);
+[v7,v24,f10,WeakSet,v9];
+let v27 = [v25,v1,v9];
+const v28 = [f10,v7,F2,v25];
+const v31 = v27 << 2147483647;
+v27--;
+const v33 = v24 ** v25;
+Math.min(v31);
+2147483647 ^ v33;
+Math.atanh(v25);
+f10(v1, v7, v8, v9);
+for (let v39 = 0; v39 < 32; v39++) {
+    v9["p" + v39] = v39;
+}
+new Map();
+class C46 {
+    #m(a48, a49, a50) {
+        for (const v51 in this) {
+            (delete this?.h).__proto__;
+        }
+    }
+}
+const v54 = [2.0,0.2901658812472846,-8.880306076496956e+307,943883.9104739067];
+function f55(a56, a57, a58, a59) {
+    let v60 = a58?.constructor;
+    const v61 = /(?:a*)+q(?<a>.)/guds;
+    v61.dotAll = v61;
+    function f62(a63) {
+        const v64 = v54.constructor;
+        try { v64.isArray(v61); } catch (e) {}
+        a63.constructor.$2.replaceAll(C46, a56);
+        return a63;
+    }
+    for (let [i85, i86] = (() => {
+            v60 = v28;
+            a58 >>>= v61;
+            let v70;
+            try { v70 = new a57(WeakSet); } catch (e) {}
+            try { v70(); } catch (e) {}
+            Math.fround(0);
+            Math.abs(-65536);
+            const v77 = v27 << -1.205296490031446e+308;
+            let v78 = v77 + -1.205296490031446e+308;
+            v78 ** v77;
+            v78--;
+            function f81(a82, a83) {
+                return a58;
+            }
+            return [10, 10];
+        })();
+        (() => {
+            const v87 = i85 < i86;
+            !v87;
+            return v87;
+        })();
+        (() => {
+            i86--;
+            const v93 = Symbol.toPrimitive;
+            const o97 = {
+                [v93]() {
+                    v93["isArray"]();
+                },
+            };
+        })()) {
+        for (let v100 = 0; v100 < 10; v100++) {
+            f62(v61);
+            v9[i86];
+            let v104 = -4;
+            ++v104;
+            let v106 = --v1;
+            v106--;
+            const v108 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+            const v109 = [601759695];
+            function f110() {
+                const o111 = {
+                    ...v108,
+                    "c": v100,
+                };
+                return v109;
+            }
+        }
+        [196330.99080480286,-1000000000.0,5.0,-1000000.0,-1.3661500326728674e+308,-735361.45302493,0.07703356362627845];
+        [1000000.0,-2.2250738585072014e-308,-5.423333572838769,-2.2250738585072014e-308,-1000000000.0,0.14308021560425055,1000000000000.0];
+    }
+    function f114() {
+    }
+    return f114;
+}
+for (let v115 = 0; v115 < 10; v115++) {
+    f55();
+}
+%OptimizeFunctionOnNextCall(f55);
+f55();

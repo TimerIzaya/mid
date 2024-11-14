@@ -1,0 +1,112 @@
+function f0() {
+}
+function f1() {
+    const o8 = {
+        __proto__: f0,
+        "d": f0,
+        p() {
+            Object.defineProperty(this, "h", { configurable: true, enumerable: true, get: f0 });
+            const o6 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o6);
+            return "async";
+        },
+    };
+    return o8;
+}
+const v9 = f1();
+const v10 = f1();
+let v11 = f1();
+class C15 {
+    constructor(a17, a18) {
+    }
+    static {
+        try {
+            this.toString = f1;
+        } catch(e23) {
+        }
+        v11 = v10;
+        v9[6];
+    }
+    static 6;
+    /*
+    constructor(a26, a27) {
+        super();
+        let v28 = 0;
+        for (let i = 0; i < 5; i++) {
+            v28 < 7;
+            try {
+                v11.#b;
+            } catch(e32) {
+            }
+            v28++;
+        }
+    }
+    */
+    static [v10];
+}
+const v34 = new C15(-1641, -1641);
+new C15(255, v34);
+new C15(255, v34);
+function F37(a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a41;
+    } catch(e42) {
+    }
+    try {
+        this.a = v34;
+    } catch(e43) {
+    }
+    try {
+        this.b = -1641;
+    } catch(e44) {
+    }
+}
+new F37(-1641, v10, 38932);
+new F37(38932, -1641, 255);
+new F37(38932, v10, 255);
+/ND2/gds;
+class C50 extends Map {
+}
+const v51 = new C50();
+v51.isPrototypeOf();
+class C55 {
+    static {
+        for (let v57 = 0; v57 < 25; v57++) {
+            const v58 = [601759695];
+            const v59 = [1073741824,1073741823,1376142744,1073741825];
+            function f61(a62, a63, a64, a65) {
+                try { new a62(); } catch (e) {}
+                a64 << a64;
+                function f69() {
+                    return a62;
+                }
+                const v71 = new Int8Array();
+                const v74 = BigUint64Array * 536870887;
+                v74 - v74;
+                Number.isNaN(v74 ** v74);
+                function f79(a80, a81) {
+                }
+                try { f79(); } catch (e) {}
+                const v83 = v71.buffer;
+                const v84 = v83.__defineGetter__;
+                try { v84(); } catch (e) {}
+                Object.defineProperty(v83, "constructor", { writable: true, configurable: true, value: Date });
+                %OptimizeFunctionOnNextCall(f69);
+                let v87;
+                try { v87 = v59["find"](..."find", a65, ...v58); } catch (e) {}
+                const o88 = {
+                };
+                o88.e = o88;
+                v87 <= a64;
+                return arguments;
+            }
+            for (let v90 = 0; v90 < 5; v90++) {
+                f61(this, v90, v90);
+            }
+        }
+    }
+}

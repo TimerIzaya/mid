@@ -1,0 +1,39 @@
+function f0() {
+    const o7 = {
+        set b(a5) {
+            try {
+                this.toString = a5;
+            } catch(e6) {
+            }
+        },
+        __proto__: "3u",
+        ..."3u",
+        "c": -5.0,
+        "h": "3u",
+        65537: -5.0,
+    };
+    return o7;
+}
+f0();
+f0();
+f0();
+[3,-9223372036854775807,-7,-42424,-9007199254740991];
+[-1961909049];
+[-543351513,1757423300,-2147483649,4096,512,16,-9007199254740991,-4096,-2,44102];
+new Uint16Array(89);
+new Int8Array(7);
+new Float64Array(2968);
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this.constructor;
+    try { new v32(); } catch (e) {}
+    for (const v34 in this) {
+        delete this?.h;
+    }
+}
+const v36 = new F26(F26, F26, F26, F26);
+v36.length = 2968;
+const v37 = new F26();
+const v39 = new BigUint64Array(v36, v37);
+for (const v40 in v39) {
+}

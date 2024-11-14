@@ -1,0 +1,52 @@
+function f0() {
+    let v3 = 9.682961692729933;
+    const v4 = v3--;
+    const o5 = {
+        1000: "boolean",
+        "e": 10000,
+        ..."boolean",
+        ..."boolean",
+        8: 10000,
+        "c": "boolean",
+        __proto__: v4,
+        "g": v3,
+        [v3]: 10000,
+        "a": "boolean",
+    };
+    o5[2];
+    return o5;
+}
+f0();
+const v8 = f0();
+const v9 = f0();
+const v11 = 6 !== 6;
+v11 && v11;
+Float64Array.length;
+const v15 = new Float64Array(6);
+const v16 = v15?.constructor;
+try { new v16(v9, f0, v9); } catch (e) {}
+v15[5] = v15;
+9 >> 9;
+new Float32Array(9);
+255 - 255;
+new Uint8Array(255);
+function f26() {
+    const o33 = {
+        m(a28) {
+            const v29 = this?.constructor;
+            try { new v29(v11); } catch (e) {}
+            const v31 = this?.m;
+            v31.f = v31;
+            try { new v31(Float64Array); } catch (e) {}
+            return f26;
+        },
+    };
+    o33.m();
+    return o33;
+}
+f26();
+%PrepareFunctionForOptimization(f26);
+v8();
+%OptimizeFunctionOnNextCall(f26);
+const v37 = f26();
+try { v37.m(Float32Array); } catch (e) {}

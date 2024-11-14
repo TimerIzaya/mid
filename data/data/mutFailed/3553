@@ -1,0 +1,46 @@
+new Int32Array(198);
+const v8 = new Float64Array(128);
+new Uint8ClampedArray(9);
+const v12 = /foo(?<=bar)baz/s;
+const v13 = /ZMq/vy;
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v19 = this.constructor;
+    try { new v19(268435440n, a18); } catch (e) {}
+    this.f = 268435440n;
+}
+const v21 = new F15();
+try { v21(...v8, 128, 198, ...v21, v13); } catch (e) {}
+const v27 = +-1.7676535467930285e+308 >>> -1.7676535467930285e+308;
+const v28 = Math.sinh(F15);
+const v29 = new F15();
+let v30 = 65536;
+v30--;
+function f32(a33) {
+    const o36 = {
+        ...v30,
+        5: v30,
+        "e": -9007199254740990,
+        "c": 1073741823n,
+        "g": a33,
+        [v27]: -9007199254740990,
+        "b": v13,
+        valueOf(a35) {
+            return v21;
+        },
+        "g": v30,
+    };
+    return v29;
+}
+%PrepareFunctionForOptimization(f32);
+const v37 = Float64Array();
+const v38 = f32();
+%OptimizeFunctionOnNextCall(f32);
+const v39 = f32(268435440n);
+const v41 = Symbol.species;
+v13[v41] = v12;
+const v42 = F15(v28, v41, v38, 268435440n, v37, v27);
+try {
+    v42.fuck(v39, v21, 1000000000000.0, 1000000000000.0);
+} catch(e45) {
+}

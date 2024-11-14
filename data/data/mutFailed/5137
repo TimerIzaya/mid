@@ -1,0 +1,28 @@
+let v1 = Float64Array;
+const v2 = new v1(13);
+const v3 = delete v2?.buffer;
+~v1;
+const v7 = v1++;
+Math.clz32(v7);
+!v2;
+const v10 = -v7;
+const v13 = new Int32Array(128);
+new Float32Array(129);
+const v18 = new WeakMap();
+function f19(a20, a21) {
+    try {
+        new Int32Array(a20, a20, 127);
+    } catch(e24) {
+    }
+    return v18;
+}
+const v25 = f19(v10, v1);
+const v26 = [-10,255];
+let v27 = Uint8ClampedArray;
+({"byteOffset":v27,...f19} = v2);
+[v25];
+[129,Float32Array,128];
+[128,v13,128];
+try { v3(129, f19, v10); } catch (e) {}
+const v32 = new v27();
+v26 * v32;

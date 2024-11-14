@@ -1,0 +1,67 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0,v0];
+const v2 = [v1,v1];
+const v3 = [v2,v2,v2,v2];
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v1;
+    } catch(e7) {
+    }
+}
+const v8 = new F4(v1, v3, v1, F4);
+const v9 = new F4(v3);
+const v10 = new F4(v1, v2);
+class C11 extends F4 {
+    g;
+    [F4] = v8;
+}
+const v12 = new C11();
+new C11();
+new C11();
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "g", { configurable: true, value: F4 });
+    new F15(this, v10, a19);
+    v10 >>> v12;
+    const v23 = Symbol.iterator;
+    const o32 = {
+        [v23]() {
+            let v25 = 10;
+            const o31 = {
+                next() {
+                    v25--;
+                    const v29 = v25 == 0;
+                    const o30 = {
+                        "done": v29,
+                        "value": v25,
+                    };
+                    return o30;
+                },
+            };
+            return o31;
+        },
+    };
+    try {
+        this.g = a19;
+    } catch(e33) {
+    }
+    try {
+        this.caller = a19;
+    } catch(e34) {
+    }
+}
+new F15(v9, v9, v2);
+new F15(v10, v8, v3);
+new F15(v8, v10, v2);
+for (let v38 = 0; v38 < 10; v38++) {
+    function F40(a42, a43) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.b = "b";
+        this.d = a43;
+    }
+    const v44 = new F40(F40);
+    const o45 = {
+        ...v44,
+    };
+}

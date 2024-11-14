@@ -1,0 +1,23 @@
+new Int16Array(134);
+new Uint32Array(129);
+new Int32Array("global");
+const v21 = [];
+const v22 = [v21,v21,v21,v21,v21];
+class C23 {
+    constructor(a25, a26) {
+        function F27(a29, a30) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v31 = this?.constructor;
+            try { new v31(v22, this); } catch (e) {}
+            a30 + a30;
+            this.b = v21;
+        }
+        new F27(C23, this);
+        new F27(v21, v22);
+        new F27(C23, v21);
+    }
+}
+const t19 = 1024;
+new t19();
+new C23();
+new C23(v22, v21);

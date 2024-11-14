@@ -1,0 +1,82 @@
+class C3 {
+    static {
+        try { this.bind(this); } catch (e) {}
+        [65535,-256,1615158300,16,-9007199254740992,-15449,9223372036854775807,-9007199254740991,-9223372036854775807,11];
+        [127,-268435456,-9223372036854775808,-2147483648,536870912];
+        const v8 = [-7,-27314,-9007199254740992,62818,9007199254740991,842187301,8,2147483648,10,-350740874];
+        v8[9] = v8;
+    }
+    #c = "d";
+    static set b(a10) {
+        const v11 = "d" * this;
+        let v12 = 0;
+        while (v12 < 5) {
+            %VerifyType(v11);
+            Object.defineProperty(this, "a", { configurable: true, enumerable: true, value: "1423770978" });
+            v12++;
+        }
+    }
+}
+const v16 = new C3();
+const v17 = v16?.__defineSetter__;
+try { new v17("d", "d"); } catch (e) {}
+new C3();
+const v20 = new C3();
+const v21 = v20?.constructor;
+try { new v21(); } catch (e) {}
+-1e-15 + -1e-15;
+255 % 255;
+new Uint16Array(255);
+Uint16Array.d = Uint16Array;
+const v33 = new Uint16Array(3659);
+try { new Uint8ClampedArray(1.7976931348623157e+308, v33, v33); } catch (e) {}
+const v37 = new Uint8ClampedArray(255);
+v37[1171] = v37;
+function F40(a42) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v43 = new F40(536870889);
+const v44 = v43?.__defineGetter__;
+try { new v44("d", F40); } catch (e) {}
+with (v43) {
+    let v46 = 10;
+    for (; v46--;) {
+    }
+}
+for (let [v49,...v50] of "atan2") {
+    v49[0] = v49;
+}
+const v53 = new Float32Array(2);
+const t49 = 4.0;
+t49[0] = v53;
+const o67 = {
+    set d(a55) {
+        for (let v56 = 0; v56 < 25; v56++) {
+        }
+    },
+    o(a58) {
+        const o60 = {
+        };
+        gc(o60);
+    },
+    m(a63) {
+    },
+    set d(a65) {
+        for (let v66 = 0; v66 < 25; v66++) {
+        }
+    },
+};
+const o69 = {
+};
+o69.c = o69;
+try { new Proxy(4.0, Uint32Array); } catch (e) {}
+const v72 = new Proxy(Uint32Array, o69);
+const t73 = "o";
+t73[0] = "o";
+o67[v20](o67, Uint32Array, "o", "o", v72);
+new Int32Array(v53, 2);
+const v77 = v53;
+const v78 = (3659).fill(...v77);
+const v79 = v78?.with;
+try { new v79(Proxy, Proxy); } catch (e) {}
+try { v78.lastIndexOf(v78); } catch (e) {}

@@ -1,0 +1,38 @@
+new WeakMap();
+new WeakSet();
+-15;
+new Int16Array(512);
+64 === 64;
+("fround")[2];
+const v16 = [1.7754312477895002e+308,-5.222433190075309,-1.7976931348623157e+308,7.946171059355148,0.40414902234327965,1000.0,-103405.77967821865,-Infinity,NaN,1.7976931348623157e+308];
+v16[9] = v16;
+const v17 = [0.22970466031530812,NaN,NaN,Infinity];
+class C18 {
+    constructor(a20, a21) {
+        const v22 = this?.constructor;
+        try { new v22(-2147483648, -2147483648); } catch (e) {}
+        super["fround"] = v17;
+    }
+}
+try { new C18(64, -2147483648); } catch (e) {}
+const v25 = new C18();
+function f26(a27) {
+    return f26;
+}
+v17[10000] = v16;
+try { new Worker(); } catch (e) {}
+const v31 = [v25];
+const o32 = {
+    "arguments": v31,
+    "type": "function",
+};
+o32.type;
+new Worker(f26, o32);
+new Int16Array(64);
+const v38 = new Int16Array(2);
+const v39 = v38?.constructor;
+try { new v39(WeakSet, -2147483648, v25); } catch (e) {}
+class C42 extends BigUint64Array {
+}
+try { new C42(); } catch (e) {}
+("c").normalize();

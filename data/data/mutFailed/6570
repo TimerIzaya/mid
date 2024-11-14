@@ -1,0 +1,65 @@
+function f0() {
+}
+class C10 extends f0 {
+    constructor(a12, a13, a14, a15) {
+        super();
+        for (let v19 = 0; v19 < 10; v19++) {
+            const t6 = "f";
+            t6[1073741824] = 4294967296;
+        }
+        const v20 = Symbol.iterator;
+        const o29 = {
+            [v20]() {
+                const o28 = {
+                    next() {
+                        let v23 = this;
+                        v23--;
+                        const v26 = 10 == 0;
+                        const o27 = {
+                            "done": v26,
+                            "value": 10,
+                        };
+                        return o27;
+                    },
+                };
+                return a15;
+            },
+        };
+    }
+}
+new C10(-65536, 5, -1073741824, 4);
+new C10(-1073741824, 6, 1073741824, 5);
+class C32 {
+}
+const v33 = new C32();
+new Date(v33, Date, "F");
+new C10(6, 1073741824, -1073741824, 4);
+class C38 {
+}
+new C38();
+const v40 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v41 = 0; v41 < 5; v41++) {
+    function f42() {
+        try {
+            v40.forEach();
+        } catch(e44) {
+        }
+        const v46 = Symbol.toPrimitive;
+        const v47 = v46.description;
+        try { v47.link(v47, v47, f42); } catch (e) {}
+        Symbol.for();
+        return v46;
+    }
+    f42();
+    %OptimizeFunctionOnNextCall(f42);
+}
+const o55 = {
+    "h": 6,
+    ...true,
+    get c() {
+        return this;
+    },
+    set d(a54) {
+    },
+    "d": true,
+};

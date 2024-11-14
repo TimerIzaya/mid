@@ -1,0 +1,70 @@
+class C1 {
+    get a() {
+        const o3 = {
+        };
+        const v5 = new Proxy(this, o3);
+        return v5;
+    }
+    static toString() {
+        let v7;
+        try { v7 = new this(); } catch (e) {}
+        super.h = this;
+        let v8;
+        try { v8 = v7(undefined, this, undefined); } catch (e) {}
+        v8[10] = true;
+        return true;
+    }
+}
+const v10 = new C1();
+const v11 = new C1();
+const v12 = new C1();
+function f13(a14, a15) {
+    const o27 = {
+        421: undefined,
+        "f": undefined,
+        0: a14,
+        "e": v11,
+        ...v11,
+        "c": v12,
+        "a": a15,
+        __proto__: a15,
+        toString(a17, a18) {
+            function F19(a21, a22, a23, a24) {
+                if (!new.target) { throw 'must be called with new'; }
+                let {"c":v25,} = a18;
+            }
+            const v26 = new F19();
+            return v26;
+        },
+        [v10]: a15,
+        [-2]: v10,
+        [v12]: a14,
+        "d": a15,
+        "b": v11,
+        "g": a14,
+        [a14]: C1,
+    };
+    return o27;
+}
+const v28 = f13(v12, f13);
+f13(v28, f13);
+f13(v28, v10);
+new Int8Array(216);
+new Int32Array(439);
+new BigInt64Array(1292);
+const v40 = [155533.8602852358,2.0];
+function F42() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v44 = this?.__defineSetter__;
+    let v45;
+    try { v45 = new v44(v40, v44); } catch (e) {}
+    for (const v49 of Array(19793)) {
+        v40[658291203] = null;
+        v45--;
+    }
+}
+const v51 = new F42();
+const t66 = v51.constructor;
+const v53 = new t66();
+const t68 = v53.constructor;
+new t68();

@@ -1,0 +1,74 @@
+class C3 {
+    get c() {
+        const v5 = ("bigint")[430033672];
+        v5 >>> v5;
+        for (let v7 = 0; v7 < 32; v7++) {
+            this["p" + v7] = v7;
+        }
+        return "bigint";
+    }
+    #e;
+    static #a;
+}
+try { new C3(); } catch (e) {}
+const v11 = new C3();
+function f12(a13, a14) {
+    return -0.0 == a13 ? -0.0 : a13;
+}
+Object.defineProperty(v11, "constructor", { enumerable: true, value: f12 });
+const v17 = v11?.constructor;
+try { new v17(); } catch (e) {}
+const v19 = new C3();
+const v20 = v19?.constructor;
+let v21;
+try { v21 = new v20(); } catch (e) {}
+const v22 = new C3();
+function f23(a24, a25) {
+    const o41 = {
+        __proto__: a24,
+        o(a27, a28, a29) {
+            const v31 = Symbol.iterator;
+            const o40 = {
+                [v31]() {
+                    let v33 = 10;
+                    const o39 = {
+                        next() {
+                            v33--;
+                            const v37 = v33 == 0;
+                            const o38 = {
+                                "done": v37,
+                                "value": v33,
+                            };
+                            return o38;
+                        },
+                    };
+                    return o39;
+                },
+            };
+            return "bigint";
+        },
+    };
+    return o41;
+}
+const v42 = f23(v19, v11);
+f23(v42, v11);
+const v44 = f23(v42, v19);
+[v11,v44,v44,v22];
+const v46 = [v44,v44,-0.0,-0.0];
+[v46,v46,v46,C3];
+const v49 = new Set();
+v49.toJSON = v49;
+const v50 = [Set,Set,v49];
+v50.toJSON = v21;
+function f51(a52, a53, a54) {
+    return f51;
+}
+try { f51.call(v19); } catch (e) {}
+Worker.name = Worker;
+const v58 = [v50];
+const o59 = {
+    "arguments": v58,
+    "type": "function",
+};
+const v60 = new Worker(f51, o59);
+try { v60.terminateAndWait(); } catch (e) {}

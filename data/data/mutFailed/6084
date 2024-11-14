@@ -1,0 +1,74 @@
+let v0 = "WV";
+function f3() {
+    return "0";
+}
+class C4 {
+    3687 = "growable";
+    1024;
+    constructor(a6) {
+        this[v0] = v0;
+        Object.defineProperty("0", "d", { get: f3 });
+        [-1.2437958032674885,-1000000000000.0,1000000.0,-5.21435662230322,-2.0,-646194.2539194658,-835781.9134655235];
+        [6.536825322573593e+307,1.5383038979082428e+308,-0.0,-8.191069775545952,-66.49348428274845,2.2250738585072014e-308,-1.7976931348623157e+308,-907.3734652632339,1000.0];
+        [NaN,68.38588427468403,-1e-15,0.4408316492907608,-1000.0];
+    }
+    static 12;
+    static #g = f3;
+    h;
+}
+function f10(a11, a12) {
+    function f14(a15) {
+        [-1913563110,65537,-1,2,706473933,7,175047176,-9007199254740992,1032027738];
+        [-2002645395,1,2,10000,14,9007199254740992];
+        [-2147483649,2,-2147483648,1024,268435439,-2147483647,7];
+    }
+    this.onmessage = f14;
+    C4.f;
+}
+const v22 = [f10,v0];
+const o23 = {
+    "arguments": v22,
+    "type": "function",
+};
+new Worker(f10, o23);
+new C4("growable");
+new C4("0");
+new C4(v0);
+function f28() {
+    const o29 = {
+        "construct": f28,
+        "defineProperty": f10,
+        "deleteProperty": f28,
+        "get": f28,
+        "getPrototypeOf": f28,
+        "isExtensible": f28,
+        "ownKeys": f10,
+    };
+    new Proxy(v0, o29);
+    return "growable";
+}
+class C32 {
+    n(a34, a35) {
+        let v36;
+        try { v36 = a35(v0, f28, a34, C4); } catch (e) {}
+        v0 = v36;
+        const o40 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o40);
+        return v36;
+    }
+}
+const v42 = new C32();
+function f43(a44) {
+    return a44;
+}
+class C45 extends f43 {
+    ["growable"];
+    #e = v42;
+    e = Worker;
+}
+new C32();
+new C32();
+("undefined").normalize("NFC");

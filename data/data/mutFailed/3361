@@ -1,0 +1,20 @@
+function f0() {
+}
+-(-9007199254740990n);
+new Int32Array(121);
+Uint16Array.e = Uint16Array;
+const v10 = new Uint16Array(127);
+v10[49];
+const v14 = new Uint8Array(9);
+v14[2] = v14;
+const v16 = SharedArrayBuffer(SharedArrayBuffer);
+v16.name = v16;
+const v18 = new Uint8ClampedArray();
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    ~a22;
+}
+const v26 = new F19(Uint8ClampedArray, SharedArrayBuffer, Uint8ClampedArray, v16);
+try { v26.m(); } catch (e) {}
+const v28 = v26.constructor;
+try { new v28(v18, v16); } catch (e) {}

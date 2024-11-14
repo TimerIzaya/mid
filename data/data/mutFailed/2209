@@ -1,0 +1,52 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -9223372036854775807;
+    } catch(e3) {
+    }
+    try {
+        this.h = -9223372036854775807;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C8 extends F0 {
+    static c;
+    constructor(a10) {
+        super();
+        super.c = v5;
+        try { new a10(a10); } catch (e) {}
+    }
+    #d;
+    static #b = v7;
+}
+const v15 = new C8(F0);
+const v16 = new C8(F0);
+const v17 = new C8(v15);
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a20;
+    try {
+        this.d = a22;
+    } catch(e24) {
+    }
+    try {
+        this.g = C8;
+    } catch(e25) {
+    }
+}
+const v26 = new F18(v7, v15, v5, v16);
+const v27 = new F18(v5, v6, v7, v26);
+new F18(v15, v5, v17, v27);
+function f29() {
+    ArrayBuffer[Symbol.toPrimitive] = f29;
+    const v33 = new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+    new Int8Array(v33);
+    return f29;
+}
+%PrepareFunctionForOptimization(f29);
+f29();
+%OptimizeFunctionOnNextCall(f29);
+f29();

@@ -1,0 +1,63 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 65536;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+new F0();
+("-65535")[5];
+const t10 = "c";
+t10[0] = "c";
+const v13 = new Uint32Array(1651);
+try { v13.reduce(v4); } catch (e) {}
+new Uint32Array(4096);
+try { Float64Array.toString(); } catch (e) {}
+new Float64Array(1);
+function F22() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let [i46, i47] = (() => {
+            class C27 extends Int16Array {
+                constructor(a29, a30, a31, a32) {
+                    super();
+                    function f33(a34) {
+                        function f36(a37) {
+                            delete a29[a37];
+                            return a30;
+                        }
+                        this.onmessage = f36;
+                        return Int16Array;
+                    }
+                    const o41 = {
+                        "type": "toString",
+                    };
+                    new Worker(f33, o41);
+                }
+            }
+            new C27(Int16Array, C27, C27, Int16Array);
+            new C27();
+            1 / 1;
+            return [0, 1];
+        })();
+        (() => {
+            const v48 = i46 < i47;
+            v48 ** v48;
+            return v48;
+        })();
+        !i47) {
+    }
+    for (let v55 = 0; v55 < 10; v55++) {
+        for (let v56 = 0; v56 < 5; v56++) {
+        }
+        const o58 = {
+            __proto__: null,
+        };
+        o58.c = o58;
+        try { o58.valueOf(); } catch (e) {}
+    }
+}
+const v60 = new F22();
+const v61 = v60?.E;
+try { new v61(); } catch (e) {}

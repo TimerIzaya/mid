@@ -1,0 +1,42 @@
+const v0 = [];
+class C4 {
+    static #b;
+    charAt(a6) {
+        try {
+            v0.iterator = 1873094039;
+        } catch(e7) {
+        }
+        return 1873094039;
+    }
+    static #a = 1873094039;
+    get a() {
+        for (let v9 = 0; v9 < 32; v9++) {
+            v0["p" + v9] = v9;
+        }
+        return 1873094039;
+    }
+}
+const v12 = new C4();
+const v13 = new C4();
+const v14 = new C4();
+function f15(a16, a17, a18, a19) {
+    const o26 = {
+        ...v0,
+        __proto__: C4,
+        "e": v14,
+        set isConcatSpreadable(a21) {
+            try { this.valueOf(this, a21, a19, a21); } catch (e) {}
+            for (let v23 = 0; v23 < 32; v23++) {
+                a18["p" + v23] = v23;
+            }
+        },
+        [a17]: 1873094039,
+        [a19]: a17,
+        "c": C4,
+        "d": v13,
+    };
+    return o26;
+}
+f15(f15(1873094039, v13, v12, f15(v12, v13, C4, v0)), v14, v14, 14);
+const v34 = /0j/vds;
+try { v34.compile("ceil", "ceil"); } catch (e) {}

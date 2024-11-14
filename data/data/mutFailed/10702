@@ -1,0 +1,80 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        return F0;
+    }
+    function f3(a4) {
+        a4 <<= f2;
+    }
+    Object.defineProperty(this, "d", { writable: true, configurable: true, get: f2, set: f3 });
+    try {
+        this.f = -65537;
+    } catch(e6) {
+    }
+    try {
+        this.d = -65537;
+    } catch(e7) {
+    }
+}
+new F0();
+const v9 = new F0();
+const v10 = new F0();
+const v14 = [F0,-11,-11];
+const v15 = [-11];
+[F0,v10,v15,16,-11];
+class C17 {
+    [v14];
+    p(a19, a20, a21) {
+        delete this[this];
+        const o23 = {
+        };
+        try {
+            o23.d = v9;
+        } catch(e24) {
+        }
+        try {
+            const o25 = {
+            };
+            o25.d = v9;
+            o25.a = 4096;
+        } catch(e26) {
+        }
+        try {
+            const o27 = {
+            };
+            o27.d = v9;
+            o27.a = 4096;
+            o27.e = -11;
+        } catch(e28) {
+        }
+        try {
+            const o29 = {
+            };
+            o29.d = v9;
+            o29.a = 4096;
+            o29.e = v15;
+        } catch(e30) {
+        }
+        return this;
+    }
+}
+function f32(a33) {
+    return f32;
+}
+const v34 = f32(undefined);
+function f35() {
+    return f35;
+}
+([v34,,]).group(f35);
+new C17();
+new C17();
+new C17();
+class C41 {
+    toString(a43, a44, a45) {
+    }
+}
+for (let v46 = 0; v46 < 25; v46++) {
+    Promise.reject(Promise);
+}
+const o49 = {
+};

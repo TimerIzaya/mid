@@ -1,0 +1,44 @@
+const v2 = new Uint16Array(512);
+new Int32Array(65373, 65373, Uint16Array);
+new Float64Array(536870887, Int32Array, 65373, Float64Array);
+class C12 {
+    constructor(a14) {
+        for (let v15 = 0; v15 < 32; v15++) {
+            for (let v16 = 0; v16 < 5; v16++) {
+                v16 * v16;
+                function f18() {
+                    return f18;
+                }
+                f18.g = v16;
+                f18.g = f18;
+                f18(v16).prototype;
+            }
+            const o22 = {
+            };
+            o22.h = o22;
+            gc(o22, v15, Float64Array);
+        }
+    }
+}
+try { new C12(C12); } catch (e) {}
+const v25 = new C12(C12);
+function f26() {
+    function f27(a28) {
+        function F29(a31) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v32 = this.constructor;
+            v32.bind();
+            try { new v32(); } catch (e) {}
+        }
+        new F29();
+        return a28;
+    }
+    return f27;
+}
+Object.defineProperty(v25, "constructor", { writable: true, configurable: true, enumerable: true, get: f26 });
+const v36 = v25?.constructor;
+try { new v36(Float64Array); } catch (e) {}
+new C12(C12);
+const v39 = new C12();
+v39.constructor = f26;
+try { v39.constructor(v2); } catch (e) {}

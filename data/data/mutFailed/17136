@@ -1,0 +1,56 @@
+class C3 {
+    static get c() {
+        try {
+            super.getFullYear();
+        } catch(e6) {
+        }
+        return 3.0717733932168696e+307;
+    }
+    #m(a8) {
+        let v7 = this;
+        let v11 = 41442;
+        Math.max(v7);
+        const v13 = 1000.0 * v7;
+        ++v11;
+        Math.tan(v13);
+        return Math.tanh(v7-- / v7);
+    }
+}
+const v19 = new C3();
+const v20 = v19?.constructor;
+try { new v20(); } catch (e) {}
+const v22 = new C3();
+const v23 = new C3();
+const v24 = v23?.__lookupSetter__;
+try { new v24(v22); } catch (e) {}
+const v27 = new Date();
+let v28 = -1049279786n;
+v28--;
+10n / 10n;
+class C33 extends C3 {
+    n(a35, a36, a37, a38) {
+        try { Date.now(); } catch (e) {}
+        const o42 = {
+            "maxByteLength": 89911565,
+        };
+        const v44 = new ArrayBuffer(4096, o42);
+        new BigInt64Array(v44);
+        return a38;
+    }
+    [1203718391n] = Date;
+    [v27];
+}
+C33.b = C33;
+new C33();
+new C33();
+const v49 = new C33();
+v49[1203718391] = v49;
+for (let v50 = 0; v50 < 5; v50++) {
+    function f51() {
+        const v53 = ([v50,v50,v50,v50]).toSpliced();
+        v53.length = v53;
+        parseInt(v53);
+    }
+    f51();
+    %OptimizeFunctionOnNextCall(f51);
+}

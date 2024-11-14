@@ -1,0 +1,63 @@
+const v1 = [-65535,452354247,-2,78479092,-2147483648,1073741823,5,6528,-1024,-261130286];
+const o3 = {
+};
+const v5 = new Proxy(v1, o3);
+new Int32Array(v5);
+class C9 {
+    #c;
+    #h = "-349014333";
+    static get g() {
+        try {
+            var a = super.subarray();
+        } catch(e12) {
+        }
+    }
+    constructor(a14, a15) {
+        let v16;
+        try { v16 = a14(this); } catch (e) {}
+        const t17 = "string";
+        t17[45530] += v16;
+        try {
+            this.#c;
+        } catch(e18) {
+        }
+    }
+    static #a = "-349014333";
+    [-1];
+    static #b;
+}
+const v19 = new C9("string", C9);
+new C9("-349014333", v19);
+new C9(v19, v19);
+for (let v26 = 0; v26 < 5; v26++) {
+    function f27() {
+        return f27;
+    }
+    const o30 = {
+        "type": "function",
+    };
+    new Worker(f27, o30);
+}
+Math.__defineSetter__;
+function F38(a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { new a41(); } catch (e) {}
+    function f43(a44, a45, a46, a47) {
+        const v48 = /(?:a*)+q(?<a>.)/guds;
+        for (let i51 = 0, i52 = 10; i51 < i52; i52--) {
+            v48.compile(a45);
+        }
+        return F38;
+    }
+    for (let v60 = 0; v60 < 5; v60++) {
+        f43(a40, f43, v60, a40);
+    }
+    %OptimizeFunctionOnNextCall(f43);
+}
+const v62 = ("minor").valueOf();
+v62.split(v62);
+const v65 = ("stack").trimStart();
+function f66() {
+    v65.length;
+    return v65;
+}

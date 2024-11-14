@@ -1,0 +1,32 @@
+const v1 = new WeakSet();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = this;
+    } catch(e5) {
+    }
+    try {
+        this.c = a4;
+    } catch(e6) {
+    }
+}
+const v7 = new v1(v1);
+new v7(F2);
+new F2(WeakSet);
+const v12 = new Uint32Array(Uint32Array);
+new Float32Array(2124);
+new Float32Array(v12);
+for (let v19 = 0; v19 < 5; v19++) {
+    function f20() {
+        let v21 = -4294967295;
+        v21++;
+        const o26 = {
+            valueOf(a24, a25) {
+                return 10;
+            },
+        };
+        return Float32Array;
+    }
+    f20();
+    %OptimizeFunctionOnNextCall(f20);
+}

@@ -1,0 +1,55 @@
+function f3(a4, a5) {
+    return a4;
+}
+try { f3(-15, Uint32Array); } catch (e) {}
+const v9 = [Uint32Array];
+const o10 = {
+    "arguments": v9,
+    "type": "function",
+};
+const v11 = new Worker(f3, o10);
+try { v11.terminateAndWait(); } catch (e) {}
+function F14(a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -15;
+    } catch(e17) {
+    }
+    try {
+        this.a = a16;
+    } catch(e18) {
+    }
+}
+const v19 = new F14(-15);
+v19.b = f3;
+const v20 = new F14(-21248);
+const t25 = -21248;
+const v21 = new t25(v20);
+let v24 = -(-256n);
+function f26(a27, a28, a29) {
+    -a27;
+    const o47 = {
+        set e(a32) {
+            new a29();
+        },
+        ...v20,
+        set f(a36) {
+            const v43 = ~v19;
+            Math.fround(-4.0);
+            (-4.0) ** v43;
+            Math.abs(v43);
+        },
+    };
+    return 1116110974;
+}
+f26(-21248, v21, 6n);
+f26(-21248, v21, 648119956n);
+const v50 = f26(-15, v19, 648119956n);
+v50.d = v50;
+class C52 {
+}
+try { new C52(); } catch (e) {}
+function f54(a55, a56, a57, a58) {
+    return a58;
+}
+({"b":f54,"f":v24,} = C52);

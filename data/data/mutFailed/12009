@@ -1,0 +1,7 @@
+const t0 = 2;
+new t0(2);
+const v8 = new Int8Array(1982);
+new Uint8ClampedArray(Int8Array);
+const v13 = new Uint8ClampedArray(Uint8ClampedArray, Uint8ClampedArray, v8);
+const v17 = Reflect.construct(Uint8Array, [v8]);
+try { v13.findIndex(v17); } catch (e) {}

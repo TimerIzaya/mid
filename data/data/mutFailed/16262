@@ -1,0 +1,74 @@
+class C3 {
+    static p(a5) {
+        a5 ^= this;
+        this[6] = this;
+        %VerifyType(this);
+        return this;
+    }
+    h = -30767n;
+    #p(a8) {
+        let v10;
+        try { v10 = this["valueOf"](15n); } catch (e) {}
+        try { ("valueOf").split("valueOf", v10); } catch (e) {}
+        new Uint16Array(3);
+        new Uint8ClampedArray(1024);
+        new BigUint64Array(6);
+        return 15n;
+    }
+}
+const v21 = new C3();
+new C3();
+const v23 = new C3();
+function f24(a25, a26) {
+    const o33 = {
+        ...a26,
+        3464: a25,
+        ...a25,
+        "a": a26,
+        [v21](a28, a29) {
+            return 5;
+        },
+        "d": -30767n,
+        ...v21,
+        ...a25,
+        ...v23,
+        94: a25,
+    };
+    return o33;
+}
+const v34 = f24(v21, v21);
+let v35 = f24(-30767n, -30767n);
+const v36 = f24(v23, f24);
+class C37 extends -56757n {
+    static set c(a39) {
+        v35 <<= v34;
+        try { a39(); } catch (e) {}
+    }
+    e = -56757n;
+    static m(a45, a46) {
+        function f47(a48, a49, a50) {
+            'use strict';
+            let v51;
+            try { v51 = a45(v34, a50, a48, a50, a49); } catch (e) {}
+            try { v51(a48, -56757n, this, a50, v21); } catch (e) {}
+            Math.floor(-9007199254740991);
+            Math.expm1(a50);
+            a50 + -912850058;
+            a46 + 690.2653232777782;
+            return v36;
+        }
+        f47(-56757n, a46, -56757n);
+        return -56757n;
+    }
+}
+new C37();
+new C37();
+new C37();
+for (let v65 = 0; v65 < 5; v65++) {
+    function f66() {
+        Math.tan(Math);
+        return v65;
+    }
+    f66();
+    %OptimizeFunctionOnNextCall(f66);
+}

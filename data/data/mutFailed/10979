@@ -1,0 +1,44 @@
+const v0 = [4,2147483648,129,1803183027,607280237,4294967295];
+function f1() {
+    !v0;
+    function f3(a4, a5) {
+        function f6(a7, a8) {
+            return a8;
+        }
+        Set.toString = f6;
+        const o10 = {
+            ...a4,
+        };
+        return a5;
+    }
+    return f3;
+}
+Object.defineProperty(v0, "constructor", { writable: true, enumerable: true, value: f1 });
+[-65535,-50874,-9223372036854775807,-2088459117,2147483647,9];
+[-9007199254740990,255,-9,1818721508];
+function f19() {
+    return "h";
+}
+const v23 = [];
+class C24 {
+    constructor(a26) {
+        let v25 = this;
+        a26.toString = f19;
+        const v27 = v0.constructor;
+        v25 = "h";
+        new WeakSet();
+        for (let v30 = 0; v30 < 100; v30++) {
+            f19();
+        }
+        try { new v27(v23); } catch (e) {}
+        function f33(a34, a35) {
+            a34[Symbol.toPrimitive] = f19;
+            a34++;
+            return a26;
+        }
+        f33();
+        f33(a26);
+    }
+}
+new C24();
+new C24(C24);

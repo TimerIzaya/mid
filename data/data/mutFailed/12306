@@ -1,0 +1,52 @@
+let v2 = "128";
+class C3 {
+    #h;
+    #c = "9007199254740991";
+    static #f = "9007199254740991";
+    static m(a5, a6) {
+        const o7 = {
+        };
+        new Proxy(a6, o7);
+        return a5;
+    }
+}
+const v10 = new C3();
+const o11 = {
+};
+new Proxy("growable", o11);
+try { v10.propertyIsEnumerable("growable", C3); } catch (e) {}
+const v16 = new C3();
+const v17 = new C3();
+class C18 {
+    constructor(a20, a21, a22) {
+        const v23 = this?.constructor;
+        try { new v23(C18, a21, a21); } catch (e) {}
+        a21 = a22;
+        v2 = "growable";
+        v17.b &&= v16;
+    }
+    static 88 = v2;
+    static 1 = "growable";
+    #g = "9007199254740991";
+    static d;
+    get f() {
+        this[Symbol.isConcatSpreadable];
+        return C3;
+    }
+    #c = "growable";
+}
+let v29;
+try { v29 = new C18("growable", v17, v16); } catch (e) {}
+class C30 {
+    [v29] = this;
+}
+new C30();
+new C30();
+new C30();
+const v34 = new C18(v10, "9007199254740991", v10);
+let v35;
+try { v35 = v34.toLocaleString(); } catch (e) {}
+const v36 = new C18(C3, v2, v34, v35, v10, v35);
+new C18(v36, v10, v10, v35, v36, "growable");
+try { URIError("9007199254740991", URIError, "growable"); } catch (e) {}
+new URIError(19793);

@@ -1,0 +1,54 @@
+new Int8Array(7);
+Float32Array.prototype = Float32Array;
+const v6 = Symbol.toPrimitive;
+const o9 = {
+    [v6]() {
+        try {
+            Symbol.toString = Symbol;
+        } catch(e8) {
+        }
+        return 7;
+    },
+};
+const v10 = new Float32Array(133);
+v10[112] = v10;
+new Uint16Array(629);
+3596 & 3596;
+new BigInt64Array(3596);
+new Float64Array(2);
+new Uint16Array(2);
+class C24 {
+}
+try { new C24(); } catch (e) {}
+const v26 = new C24();
+C24.f &&= 2;
+const o27 = {
+    "call": Symbol,
+    "defineProperty": Symbol,
+    "deleteProperty": Symbol,
+    "get": Symbol,
+    "isExtensible": Symbol,
+    "setPrototypeOf": Symbol,
+};
+new Proxy(v6, o27);
+const v30 = v26?.constructor;
+try { new v30(); } catch (e) {}
+const v32 = [-5.0];
+let v33;
+try { v33 = v32.reduce(BigInt64Array); } catch (e) {}
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v40 = this.constructor;
+    try { new v40(v26, v32); } catch (e) {}
+    a39.__proto__.valueOf();
+}
+try {
+    v6.description = v33;
+} catch(e44) {
+}
+try {
+    Symbol("t");
+} catch(e47) {
+}
+try { new F36(v10, Uint16Array); } catch (e) {}
+new F36(-2.220446049250313e-16, 1000000000.0);

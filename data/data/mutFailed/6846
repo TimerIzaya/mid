@@ -1,0 +1,31 @@
+class C3 {
+    #valueOf(a5) {
+        a5[a5] = 9007199254740990;
+        super.h >>= -268435456;
+        this[this] = this;
+        try { new a5(a5, a5, 10, a5); } catch (e) {}
+        return a5;
+    }
+}
+const v10 = new C3();
+const t10 = 10;
+const v11 = new t10();
+new C3();
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "b", { writable: true, configurable: true, enumerable: true, value: a18 });
+    try {
+        v11.b = a16;
+    } catch(e19) {
+    }
+    try {
+        this.g = v10;
+    } catch(e20) {
+    }
+}
+const v21 = new F13(v11, 10, C3, -268435456);
+new F13(10, -268435456, v11, 9007199254740990);
+new F13(9007199254740990, 10, v21, 9007199254740990);
+const t28 = 268435456;
+new t28(268435456);
+new v10();

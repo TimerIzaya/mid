@@ -1,0 +1,35 @@
+const v0 = [61725];
+const v1 = [2100101793,1,5,-11,-65537,-28660,-2018026146,-14243];
+const v2 = [-9,1543297124,-256,1073741824,3,3,-536870912,-1,268435439];
+function f3() {
+    return v0;
+}
+let v4;
+try { v4 = f3(); } catch (e) {}
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v9 = this?.constructor;
+    try { new v9(v9, this); } catch (e) {}
+    try {
+        this.b = a7;
+    } catch(e11) {
+    }
+    try {
+        this.a = a8;
+    } catch(e12) {
+    }
+}
+const v13 = new F5(v1, v1);
+new F5(v1, v2);
+new F5(v0, v2);
+v4 << 3;
+function f24() {
+    return v1;
+}
+function f25(a26) {
+    -9223372036854775808n - -9223372036854775808n;
+}
+f25.caller = Date;
+Object.defineProperty(Date, 3, { configurable: true, enumerable: true, get: f24, set: f25 });
+const v30 = new v13(Date);
+v30[1] = v30;

@@ -1,0 +1,31 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 4294967297;
+        for (let v3 = 0; v3 < 57; v3++) {
+            for (let v4 = 0; v4 < 32; v4++) {
+                this["p" + v4] = v4;
+            }
+        }
+    } catch(e7) {
+    }
+}
+const v8 = new F0();
+const v9 = new F0();
+const v10 = new v9();
+F0 + F0;
+try {
+    v10.fuck(undefined, undefined);
+} catch(e14) {
+}
+[-336765771,-1969906550,-128,10000,268435456,949893421];
+const v19 = [-1357701925,112848674];
+[4294967295,-13505,64,-9,1024,536870912];
+[F0];
+const v22 = [v19,v19];
+[v8,v19];
+function f24() {
+    return f24;
+}
+[f24,f24,F0,f24];
+v22.flatMap(f24);

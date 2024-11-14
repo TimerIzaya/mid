@@ -1,0 +1,20 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 127;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+new F0();
+new Uint8Array(-13, Uint8Array, -13);
+new Float64Array(-4096);
+new Uint8ClampedArray(3558);
+[15960,64,-983823738,-2147483649];
+[268435456,65537,-6,2,-2147483649,31492,11548];
+[1328443131];
+const v20 = [Float64Array,-4096,v5,-4096];
+for (let v21 = 0; v21 < 5; v21++) {
+    v20.length = 2;
+}

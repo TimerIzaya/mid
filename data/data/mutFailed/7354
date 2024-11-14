@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 15;
+    } catch(e3) {
+    }
+    try {
+        this.h = 15;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [9007199254740990];
+v8[0];
+const v10 = [611241490,25915,-268435456,268435440,2];
+v10[1] = v10;
+const v11 = [4635,4294967297];
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v18 = a16?.constructor;
+    try { new v18(); } catch (e) {}
+    try {
+        this.f = v5;
+    } catch(e20) {
+    }
+    try {
+        F12.b = v10;
+    } catch(e21) {
+    }
+    try {
+        this.c = a15;
+    } catch(e22) {
+    }
+}
+Object.defineProperty(F12, "b", { value: v10 });
+new v5(v7, v10, v6, v10);
+const v24 = new F12(v6, v8, v11, v8);
+new F12(v6, v10, v8, v8);
+-3.469497096711235e+307 >>> -3.469497096711235e+307;
+-4.136366671962028 != -4.136366671962028;
+const v33 = new Uint32Array(3);
+class C34 {
+    constructor(a36, a37, a38, a39) {
+        const v40 = this?.constructor;
+        try { new v40(C34, a39, this, C34); } catch (e) {}
+        for (let v42 = 0; v42 < 5; v42++) {
+            v33[v42] = a39;
+        }
+    }
+}
+const v43 = new v33();
+const v44 = v43?.constructor;
+try { new v44(F0, v24, F0, 528794.9520966129); } catch (e) {}

@@ -1,0 +1,90 @@
+class C3 {
+    [-9007199254740991] = NaN;
+    static get d() {
+        const o7 = {
+            "maxByteLength": 4096,
+        };
+        const v9 = new SharedArrayBuffer(15, o7);
+        new DataView(v9);
+        return 4096;
+    }
+    constructor(a13, a14, a15, a16) {
+        super();
+        function f17() {
+            const t13 = [];
+            t13[6] = a15;
+            return this;
+        }
+        for (let v19 = 0; v19 < 5; v19++) {
+            f17();
+            %OptimizeFunctionOnNextCall(f17);
+        }
+    }
+    d = -9007199254740991;
+}
+const v21 = new C3();
+new C3();
+new C3();
+function f24() {
+    return v21;
+}
+[-628185.4295491707,1.0,8.347922188942661,-8.238768077615005,0.6564140575046442,-3.7448125851331884e+307];
+[-1.0609670167018013e+308,905879.1806061505,428903.3611863903,-0.0];
+const v27 = [-0.0,222.7734312972509,1000000.0,0.0,-1000000000.0,6.010993159957439e+307,-1000.0];
+f24();
+class C29 {
+}
+const v30 = new C29();
+try {
+    v30.__proto__ = v21;
+} catch(e31) {
+}
+class C35 {
+    h = NaN;
+    static #f = v27;
+    [-9007199254740991] = 301349230;
+    96 = -9007199254740991;
+    f;
+}
+const v36 = new C35();
+const v37 = new C35();
+function f38(a39, a40, a41) {
+    Symbol.isConcatSpreadable.description.fontsize(Uint8Array);
+    const v50 = new Uint8ClampedArray(112);
+    function F51() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    class C53 {
+        constructor(a55, a56, a57) {
+            class C59 extends a56.constructor {
+            }
+            new C59();
+        }
+    }
+    new C53(F51, C53);
+    const v64 = new Uint8Array();
+    try { v50(-85357.59116785484, ...v64, 64, 46, -3.383486186086852e+307, ...v50); } catch (e) {}
+    const o68 = {
+        __proto__: a40,
+        1073741824: v36,
+    };
+    return f38;
+}
+const v69 = f38(v37, f38, v36);
+class C70 extends f24 {
+}
+new Date();
+function f73(a74, a75, a76, a77) {
+    function f78() {
+        function f79(a80) {
+            return f73;
+        }
+        f79(f79);
+        return f73;
+    }
+    f78();
+    f78();
+    %OptimizeFunctionOnNextCall(f78);
+    return a75;
+}
+f38(v69, v37);

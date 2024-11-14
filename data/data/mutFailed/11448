@@ -1,0 +1,50 @@
+const v3 = /(?<=)/gvdmsy;
+const v4 = /na*?/vis;
+const v5 = /a\Sc/gm;
+class C6 {
+    static get h() {
+        let v8;
+        try { v8 = this(); } catch (e) {}
+        return v5 instanceof v8;
+    }
+    static 2526 = v5;
+    constructor(a11, a12) {
+        const v13 = this?.constructor;
+        try { new v13(this, 2147483649n); } catch (e) {}
+        a11 << a11;
+        try { arguments.isPrototypeOf(arguments); } catch (e) {}
+    }
+    static 7 = v4;
+}
+const v21 = new C6(2147483649n, v3);
+v21.b = v21;
+new C6(587388550n, v4);
+new C6(587388550n, v21);
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this.constructor;
+    v32.caller;
+    try { new v32(268435440n, a31); } catch (e) {}
+    this.f = 268435440n;
+}
+F28.g = F28;
+const v35 = new F28();
+const v36 = new F28();
+let v37 = 65536;
+v37--;
+function f39(a40) {
+    const o43 = {
+        ...v37,
+        5: v37,
+        valueOf(a42) {
+            return v35;
+        },
+        "g": v37,
+    };
+    return v36;
+}
+%PrepareFunctionForOptimization(f39);
+f39();
+f39();
+%OptimizeFunctionOnNextCall(f39);
+f39(268435440n);

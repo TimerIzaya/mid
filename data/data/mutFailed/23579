@@ -1,0 +1,8 @@
+new Int16Array(53);
+new Float64Array(2);
+new BigUint64Array(5);
+new Date();
+const o18 = {
+};
+const v20 = new Proxy(5, o18);
+v20.bind(v20, Uint32Array, Uint32Array, Proxy);

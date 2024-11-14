@@ -1,0 +1,35 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 44815;
+    } catch(e6) {
+    }
+    try {
+        this.e = 16;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(F3);
+const v9 = new F3(15302);
+const v10 = new F3(v9);
+class C14 extends F3 {
+    d;
+    constructor(a16, a17, a18) {
+        super(a16);
+        super[a18] = 15302;
+        a16 >> a17;
+        const v20 = [v10,v10,a16];
+        ["symbol",v20,"symbol",a17,"iterator"];
+        [v20,a16,15302,a18];
+    }
+    9;
+    static #c;
+    ["symbol"];
+}
+const v23 = new v9(F3, v10, 44815);
+const v24 = new C14(v8, v10, 15302);
+new C14(v24, v23, 15302);
+const v28 = new BigInt64Array(12);
+const o29 = {
+    ...v28,
+};

@@ -1,0 +1,78 @@
+const v4 = new WeakSet();
+try { v4.delete(v4); } catch (e) {}
+function f6() {
+    return v4;
+}
+f6.d = f6;
+function f10() {
+    return -5.0;
+}
+class C12 {
+    static {
+        this.length;
+        for (let v15 = 0; v15 < 25; v15++) {
+            v15 << v15;
+            function f17() {
+                return C12;
+            }
+            try { new f17(); } catch (e) {}
+            const v19 = [601759695];
+            const v20 = [1073741824,1073741823,1376142744,1073741825];
+            function f22(a23, a24, a25, a26) {
+                try { new a23(); } catch (e) {}
+                -a24;
+                a26 << a26;
+                for (let i32 = 0;
+                    (() => {
+                        const v34 = i32 < 2;
+                        v34 || v34;
+                        return v34;
+                    })();
+                    i32++) {
+                    ~i32;
+                    try {
+                        arguments.g = i32;
+                    } catch(e40) {
+                    }
+                }
+                function f41() {
+                    return a23;
+                }
+                const v42 = f17();
+                const v44 = new Int8Array();
+                const v47 = new Uint32Array(4);
+                try { v47.join(v47); } catch (e) {}
+                const v49 = [v47];
+                try { v49.push(f17); } catch (e) {}
+                const v53 = BigUint64Array * 536870887;
+                Number.isNaN(v53 ** v53);
+                function f57(a58, a59) {
+                    return v42;
+                }
+                try { new f57(v19, f41); } catch (e) {}
+                const v61 = f57();
+                v61.length = v61;
+                const v62 = v44.buffer;
+                Object.defineProperty(v62, "constructor", { writable: true, configurable: true, value: Date });
+                new Int8Array();
+                v62.slice(2147483648);
+                %OptimizeFunctionOnNextCall(f41);
+                try { ("find").big(); } catch (e) {}
+                let v68;
+                try { v68 = v20["find"](..."find", a26, ...v19, ...v20, ...522675525n); } catch (e) {}
+                Symbol("find");
+                const v72 = new Uint8ClampedArray();
+                const o73 = {
+                    ...v72,
+                };
+                o73.a = o73;
+                const v74 = v68 <= a25;
+                v74 && v74;
+                return arguments;
+            }
+            for (let v76 = 0; v76 < 5; v76++) {
+                f22(this, v76, v76, v76);
+            }
+        }
+    }
+}

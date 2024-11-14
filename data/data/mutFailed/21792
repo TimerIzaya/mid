@@ -1,0 +1,57 @@
+const v2 = new Int16Array(1728);
+const v4 = 127 * 127;
+let v6;
+try { v6 = Float32Array.bind(v2); } catch (e) {}
+const v7 = new Float32Array(127);
+const v8 = v7[49];
+v8 >> v8;
+12 >>> 12;
+let v13;
+try { v13 = Int8Array.of(); } catch (e) {}
+let v14;
+try { v14 = v13.entries(); } catch (e) {}
+const v15 = new Int8Array(12);
+class C16 {
+    static #g = 127;
+    f;
+    #valueOf(a18, a19, a20) {
+        try {
+            v15.__proto__ = a20;
+        } catch(e21) {
+        }
+        return C16;
+    }
+    #a = v13;
+    c;
+    E;
+}
+const v22 = v8.prototype;
+new v14();
+const v24 = new C16();
+const v25 = new C16();
+v25.g = v25;
+class C26 {
+}
+try { new C26(); } catch (e) {}
+try { C26.call(v24); } catch (e) {}
+function f29(a30, a31, a32, a33) {
+    1269 >>> v4;
+    const v37 = new Int16Array(1269);
+    a32[50];
+    function F39(a41, a42, a43, a44) {
+        if (!new.target) { throw 'must be called with new'; }
+        try { this.propertyIsEnumerable(a42); } catch (e) {}
+    }
+    const v46 = new F39();
+    const v47 = v46?.constructor;
+    try { new v47(12, 12, F39, v22); } catch (e) {}
+    let v49;
+    try { v49 = C26.n(v6, a30); } catch (e) {}
+    for (const v50 in v37) {
+    }
+    return v49;
+}
+try { f29(f29, v6, Int8Array, f29); } catch (e) {}
+const v52 = v13();
+f29();
+v52();

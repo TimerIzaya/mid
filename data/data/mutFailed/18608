@@ -1,0 +1,66 @@
+function f0() {
+}
+function f1() {
+    const o31 = {
+        get c() {
+            super[f0] = f0;
+            --f0;
+            class C4 {
+                toString(a6, a7, a8, a9) {
+                    const v11 = ("throw")?.trimRight;
+                    let v12;
+                    try { v12 = v11(); } catch (e) {}
+                    const v16 = new Uint8ClampedArray(v12);
+                    new Uint8ClampedArray(798, ...v16, eval());
+                }
+                constructor(a21, a22) {
+                    for (let i = 0; i < 5; i++) {
+                        this[this];
+                    }
+                }
+            }
+            const o26 = {
+                "maxByteLength": 4034987614,
+            };
+            const v28 = new SharedArrayBuffer(57, o26);
+            new DataView(v28);
+            return 57;
+        },
+    };
+    return o31;
+}
+f1();
+const v33 = f0();
+function f34() {
+    const t34 = ([f34,v33]).constructor;
+    const v37 = new t34();
+    class C38 extends v37 {
+    }
+    const v39 = new C38();
+    try { v39.reduceRight(); } catch (e) {}
+    return v37;
+}
+%PrepareFunctionForOptimization(v33);
+f34();
+%OptimizeFunctionOnNextCall(f34);
+f34();
+f1();
+[1000000.0,Infinity,481952.281229452,1000000000000.0];
+[1.0];
+[-1e-15,0.7158105226782641,-1.7976931348623157e+308];
+for (let i = 0; i < 5; i++) {
+    function f50() {
+        arguments[1073741823];
+        return f50;
+    }
+    f0();
+    %OptimizeFunctionOnNextCall(f50);
+    function f54(a55, a56, a57, a58) {
+        a55.a = a56;
+        return a57;
+    }
+    function F59() {
+        if (!new.target) { throw 'must be called with new'; }
+        AggregateError.captureStackTrace(AggregateError);
+    }
+}

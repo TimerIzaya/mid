@@ -1,0 +1,51 @@
+const v5 = new Uint8Array(3);
+const v8 = new Uint8ClampedArray(0);
+const v11 = new Uint8ClampedArray(256);
+function f12(a13, a14) {
+    const o27 = {
+        "a": v11,
+        o(a16, a17, a18) {
+            try {
+                v8.__proto__ = v11;
+            } catch(e19) {
+            }
+            return a17;
+        },
+        "g": -9223372036854775807,
+        ...a13,
+        ...v11,
+        "f": v11,
+        ...v5,
+        n(a21, a22) {
+            const v24 = this != a14 ? this : a14;
+            a13 = v24;
+            try {
+                super.toString(v24, a21, a22, a13, v11);
+            } catch(e26) {
+            }
+            return -128;
+        },
+    };
+    return o27;
+}
+f12(-2147483649, 256);
+f12(-128, -2147483649);
+const v30 = f12(-2147483649, -2147483649);
+let v31 = Map;
+const v36 = v31--;
+const v37 = [-4.0,-1e-15];
+const v38 = [-7.264687027014153e+307];
+const v39 = v38.pop();
+function F42(a44, a45, a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v48 = v30?.__defineGetter__;
+    try { v48(undefined, undefined); } catch (e) {}
+    try { a44.unshift(a45); } catch (e) {}
+    a46 != a46;
+    let v52;
+    try { v52 = a44.toSpliced(a45, a45); } catch (e) {}
+    const v53 = v52?.__defineSetter__;
+    try { v53(); } catch (e) {}
+}
+new v39(v38);
+new F42(v37, v36);

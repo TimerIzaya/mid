@@ -1,0 +1,44 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = this;
+    try {
+        this.d = true;
+    } catch(e3) {
+    }
+    try {
+        this.b = true;
+    } catch(e4) {
+    }
+    try {
+        const t12 = true;
+        t12.f = true;
+    } catch(e5) {
+    }
+}
+const t17 = true;
+const v6 = new t17();
+const v7 = new F1();
+const t20 = true;
+t20.d = v7;
+const v8 = new F1();
+const v11 = [v6,v7,v8.b,[true]];
+[v6];
+let v14 = -3846;
+v14 - v14;
+const v19 = new Int16Array(3);
+const v22 = new Int8Array(14);
+try { v22.reduce(3); } catch (e) {}
+v11[512];
+new Date();
+const v32 = Uint8ClampedArray?.constructor;
+try { new v32(Int16Array); } catch (e) {}
+const v34 = new Uint8ClampedArray(8);
+var d = Uint8ClampedArray;
+b = v14++;
+[19292];
+[-32863,-536870912];
+const v38 = [16740,0,5022,1073741824,28636,12,-2147483648];
+try { v38.toSpliced(Int16Array, v34); } catch (e) {}
+-5n >> -5n;
+[1.0,141599.63044947106,730.845463907873,1000000.0,-4.2811873669589365e+307,0.0,3.0];
+try { v19.forEach(-5n); } catch (e) {}

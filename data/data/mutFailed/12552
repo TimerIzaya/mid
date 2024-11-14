@@ -1,0 +1,37 @@
+new BigUint64Array(3516);
+new Uint8ClampedArray(6);
+const v11 = new Uint8Array(129);
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = 65536n;
+    try {
+        this.g = v11;
+    } catch(e17) {
+    }
+}
+new F12(129, F12, -256n);
+new F12(129, F12, -256n);
+new F12(129, -4294967296n, -4294967296n);
+const o25 = {
+    get b() {
+        delete this[this];
+        this[this] = 817905185;
+        super[817905185] = "object";
+        return 817905185;
+    },
+};
+function f26() {
+    function f27(a28, a29) {
+        return -11773n;
+    }
+    return f27;
+}
+Object.defineProperty(o25, "toString", { writable: true, configurable: true, enumerable: true, get: f26 });
+function f33(a34) {
+    const o35 = {
+        ...o25,
+    };
+    return a34;
+}
+f33(o25);
+f33();

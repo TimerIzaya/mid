@@ -1,0 +1,46 @@
+2147483648 - 2147483648;
+-Infinity;
+class C10 {
+    g = 10n;
+    e = -4294967297;
+    get a() {
+        try { this["valueOf"](); } catch (e) {}
+        return 2147483648;
+    }
+    static toString(a15, a16, a17, a18) {
+        let {"g":v19,"h":v20,...v21} = this;
+        for (let v22 = 0; v22 < 32; v22++) {
+            v20["p" + v22] = v22;
+        }
+        return v21;
+    }
+}
+const v25 = new C10();
+const v26 = v25.g;
+new v26();
+new C10();
+const v31 = new v26();
+try { v31.fill(v31); } catch (e) {}
+const v34 = new Uint8Array(64);
+-85357.59116785484 >> -85357.59116785484;
+129 - 129;
+try { new Int32Array(10n, v34, v34); } catch (e) {}
+const v41 = new Int32Array();
+const v43 = new BigInt64Array();
+const v44 = [-2.2250738585072014e-308,3.392499338451276e+307,-747.2945132947244,0.9386986579024902,570.3429467836224,-2.2250738585072014e-308,-2.5986211042998715,0.7677312292190223];
+const v45 = [-1.7976931348623157e+308];
+function f46(a47, a48, a49, a50) {
+    a48 - a47;
+    try { a49.pop(); } catch (e) {}
+    const o58 = {
+        toString(a54, a55, a56) {
+            try { this.toString(this, v34, 1208074499n); } catch (e) {}
+            a49[a48] = a47;
+        },
+    };
+    try { v44.toString(a50, o58, a48); } catch (e) {}
+    return o58;
+}
+const v60 = f46(v43, 129, v45);
+f46(v41, 129, v60) % v60;
+try { v31(-85357.59116785484, ...v34, 64); } catch (e) {}

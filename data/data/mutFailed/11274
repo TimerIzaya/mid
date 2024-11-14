@@ -1,0 +1,36 @@
+const v5 = new Float32Array(0);
+const v8 = new Int16Array(1024);
+const v11 = new Uint8ClampedArray(3005);
+try { v11.reduce(Uint8ClampedArray); } catch (e) {}
+function f16() {
+    let v17 = 1000000000000.0;
+    v17 % v17;
+    v17--;
+    257828.6336153492 & 257828.6336153492;
+    class C22 {
+    }
+    new C22();
+    const v24 = new C22();
+    const v25 = v24?.__lookupGetter__;
+    try { new v25(C22); } catch (e) {}
+    const v27 = [v24,C22];
+    try { v27.groupToMap(v5); } catch (e) {}
+    [257828.6336153492,v24];
+    const v30 = [v24];
+    const v31 = v25?.filter;
+    try { new v31(-9007199254740991); } catch (e) {}
+    class C33 extends -2 {
+    }
+    function f34(a35, a36) {
+        return a35;
+    }
+    v8.toString = f34;
+    Set.constructor(Set);
+    const v39 = v30.constructor;
+    try { v39.isArray(v39); } catch (e) {}
+}
+%PrepareFunctionForOptimization(f16);
+const t32 = 410498912n;
+t32();
+%OptimizeFunctionOnNextCall(f16);
+f16();

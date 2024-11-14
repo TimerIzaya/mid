@@ -1,0 +1,27 @@
+function f0() {
+}
+class C1 {
+    static 3499864030 = f0;
+    static #n() {
+        const v3 = this[2];
+        Object.defineProperty(v3, 512, { writable: true, get: f0 });
+        v3[536870889] = v3;
+        try { v3["valueOf"](); } catch (e) {}
+        return "valueOf";
+    }
+    [f0] = C1;
+    #e;
+}
+new C1();
+new C1();
+new C1();
+new BigUint64Array(4);
+function F19(a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const t21 = 241;
+const v24 = new t21(BigUint64Array, 4, -2147483649n);
+for (let v25 of -9223372036854775807) {
+    v25--;
+    Object.defineProperty(v24, 241, { enumerable: true, value: v25 });
+}

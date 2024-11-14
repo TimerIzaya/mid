@@ -1,0 +1,23 @@
+new WeakSet();
+new Symbol(2792);
+new BigInt64Array(4);
+new Uint8Array(15);
+new BigInt64Array(129);
+new Int32Array(3135, 15);
+new Float32Array(-732255137);
+let v20 = Boolean;
+v20--;
+function f22() {
+    const v23 = v20--;
+    class C24 {
+    }
+    class C25 extends C24 {
+    }
+    const v26 = new C25();
+    v26.POSITIVE_INFINITY = v23;
+    return v23;
+}
+%PrepareFunctionForOptimization(f22);
+f22();
+%OptimizeFunctionOnNextCall(f22);
+f22();

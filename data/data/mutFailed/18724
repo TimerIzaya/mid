@@ -1,0 +1,42 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -50202;
+    } catch(e3) {
+    }
+    try {
+        this.b = -50202;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new v5();
+class C8 {
+    4 = v5;
+    #b;
+    h;
+    constructor(a10) {
+        const v11 = a10 ** v7;
+        const v12 = a10[3789515707];
+        try {
+            a10.fuck(v12, v11);
+        } catch(e14) {
+        }
+    }
+    static [v6] = v5;
+    static #f = v7;
+}
+new C8(F0);
+new C8(v7);
+new C8(C8);
+[7,-384327212,8,2];
+[678388584,-9007199254740990,30178,64,9007199254740990,-34857,-34129,24679,-707435221];
+[64,-76587197,4294967295,-284378489,-4,964755466,-15,268435456,64];
+new BigInt64Array(C8);
+new Uint32Array(667);
+new Uint8Array(4);
+class C32 extends Set {
+}
+const v33 = new C32();
+v33["delete"](129n);

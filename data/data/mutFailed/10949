@@ -1,0 +1,29 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 9;
+    } catch(e6) {
+    }
+    try {
+        a5.h = 696940216;
+    } catch(e7) {
+    }
+    try {
+        this.g = 696940216;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(9);
+new F3(9);
+new v9(-536870912);
+[-2147483647];
+[9,-4096,1000,16,2147483647,1000,-2147483649,127];
+[9007199254740991,16,536870912,0,-16,-12,14508,16,9007199254740991,825152215];
+for (let v18 = 0; v18 < 5; v18++) {
+    function f19() {
+        [WeakSet,9];
+        return v18;
+    }
+    f19();
+    %OptimizeFunctionOnNextCall(9);
+}

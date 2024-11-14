@@ -1,0 +1,44 @@
+[1.7976931348623157e+308];
+[-1e-15,969.9845729588701,-2.220446049250313e-16,1.0];
+const v5 = [1000000.0,5.0,0.3948057683963563,-0.0];
+let v10 = new Set();
+class C11 extends Set {
+    1024 = v10;
+    #d = -9007199254740990n;
+    get a() {
+        v10 &= this;
+        let [...v13] = v5;
+        super.size = v13;
+        return this;
+    }
+    p(a15, a16, a17) {
+        const o18 = {
+        };
+        new Proxy(this, o18);
+        return o18;
+    }
+}
+new C11();
+new C11();
+new C11();
+const v24 = [-1.3667473485475811e+308,1.7976931348623157e+308,5.0,-3.583919688173468e+307,-1.5320462342133301e+308,-414873.4859108749,286122.8434793174,866.7395286670867,-1000.0,-742782.9714922046];
+function f26(a27, a28, a29, a30) {
+    Object.defineProperty(a29, "toString", { enumerable: true, value: f26 });
+    function f31() {
+        const o36 = {
+            __proto__: v24,
+            [a29](a33, a34, a35) {
+            },
+        };
+        o36.valueOf = f26;
+        o36.copyWithin(o36, o36);
+        return o36;
+    }
+    f31();
+    return v24;
+}
+for (let v39 = 0; v39 < 10; v39++) {
+    f26(v39, v39, v39, v39);
+}
+%OptimizeFunctionOnNextCall(f26);
+f26("-1073741824", v24, v24);

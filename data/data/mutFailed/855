@@ -1,0 +1,26 @@
+const v1 = new WeakSet();
+class C5 {
+    static {
+        const o9 = {
+            "maxByteLength": 1073741824,
+        };
+        const v11 = new ArrayBuffer(9, o9);
+        new Float64Array(v11);
+    }
+    [v1] = WeakSet;
+}
+new C5();
+new C5();
+new C5();
+function F20() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C22 {
+    constructor(a24, a25, a26) {
+        a25.constructor;
+        class C28 extends -256 {
+        }
+        new C28();
+    }
+}
+new C22(F20, C22);

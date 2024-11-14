@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.a = -2147483648;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f11() {
+    return v6;
+}
+try {
+    v5.valueOf = f11;
+} catch(e13) {
+}
+Object.defineProperty(v7, v5, { configurable: true, get: f11 });
+const v15 = new Uint8ClampedArray(3838);
+const t23 = 3838;
+new t23(3773);
+const v21 = new Int16Array(64);
+function f22() {
+    for (let v23 = 0; v23 < 5; v23++) {
+        "p" + v23;
+    }
+    class C28 {
+    }
+    function F32(a34) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v35 = this.constructor;
+        try { new v35(); } catch (e) {}
+        this.g = -1517929768;
+        this.g = -1;
+        F32.h = a34;
+    }
+    const o38 = {
+        "b": -1000000.0,
+        "h": -1540034480,
+    };
+}
+f22();
+f22();
+v15[1609184825] = v15;
+try {
+    v21.e = F0;
+} catch(e41) {
+}
+class C42 {
+}

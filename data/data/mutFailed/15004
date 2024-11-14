@@ -1,0 +1,28 @@
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f12(a13) {
+        const v16 = new Uint8ClampedArray(995);
+        new Int8Array(v16);
+    }
+    Object.defineProperty(this, "h", { writable: true, configurable: true, set: f12 });
+    this.h = this;
+    try {
+        this.h = a11;
+    } catch(e19) {
+    }
+}
+new F6(-51476, 512, 65537, -51476);
+new F6(-51476, -51476, 4, -51049962);
+new F6(-6, 4, 65537, -6);
+function f23(a24, a25, a26) {
+    const v30 = new Uint8ClampedArray(112);
+    const v33 = new Uint8Array(64);
+    try { v30(-85357.59116785484, ...v33, 64, 46, -3.383486186086852e+307, ...v30); } catch (e) {}
+    const o39 = {
+        set e(a38) {
+        },
+    };
+    o39.e;
+    return a24;
+}
+f23(f23, f23(f23, f23, f23), f23);

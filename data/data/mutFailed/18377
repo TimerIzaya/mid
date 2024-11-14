@@ -1,0 +1,88 @@
+function f0() {
+    try { ("byteLength").split("byteLength", 0.3502100235679467); } catch (e) {}
+    const o9 = {
+        "c": 0.3502100235679467,
+        "e": "dotAll",
+        get d() {
+            function f6(a7) {
+                return 0.3502100235679467;
+            }
+            class C8 extends f6 {
+                #h;
+                4 = "dotAll";
+            }
+            return "dotAll";
+        },
+    };
+    function f10() {
+        return f0;
+    }
+    function f11(a12) {
+        new Int32Array(257);
+    }
+    Object.defineProperty(o9, "toString", { writable: true, configurable: true, get: f10, set: f11 });
+    return o9;
+}
+const v16 = f0();
+const v17 = f0();
+const v19 = f0()?.__defineSetter__;
+try { new v19(v17, v16); } catch (e) {}
+1000 >> 1000;
+new Set();
+-55961 !== -55961;
+const v32 = new Float64Array();
+v32.toString = f0;
+function f33() {
+    try { Math.tanh(v16); } catch (e) {}
+    Math.exp(v32);
+    return Float64Array;
+}
+11n << 11n;
+for (let v39 = 0; v39 < 5; v39++) {
+    function f40() {
+        try {
+            for (let i43 = (() => {
+                    0 < 0;
+                    return 0;
+                })();
+                i43 & i43, i43 < 6;
+                i43++) {
+                function f51() {
+                    return arguments;
+                }
+                function f52(a53) {
+                    const v55 = Symbol.iterator;
+                    const o64 = {
+                        [v55]() {
+                            let v57 = 10;
+                            const o63 = {
+                                next() {
+                                    v57--;
+                                    const v61 = v57 == 0;
+                                    const o62 = {
+                                        "done": v61,
+                                        "value": v57,
+                                    };
+                                    return o62;
+                                },
+                            };
+                            return o63;
+                        },
+                    };
+                }
+                Object.defineProperty(arguments, "e", { configurable: true, get: f51, set: f52 });
+                arguments.e = arguments;
+                f33();
+                %OptimizeFunctionOnNextCall(f33);
+            }
+        } catch(e66) {
+            for (let v68 = 0; v68 < 500; v68++) {
+                v39 = undefined;
+                var d = eval();
+            }
+        }
+        return f40;
+    }
+    f40();
+    %OptimizeFunctionOnNextCall(f40);
+}

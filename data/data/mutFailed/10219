@@ -1,0 +1,12 @@
+new BigInt64Array(2542);
+new Float64Array(3);
+new BigUint64Array(8);
+function f15() {
+    Array[8] = this;
+    Array.__proto__ = this;
+    return this;
+}
+f15();
+%OptimizeFunctionOnNextCall(Float64Array);
+const t10 = 2542;
+t10();

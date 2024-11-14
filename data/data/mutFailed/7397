@@ -1,0 +1,20 @@
+new ArrayBuffer();
+let v5 = 2n;
+const v7 = v5--;
+new Int32Array(1024);
+new Uint32Array(64);
+16 | 16;
+const v18 = new Uint8Array(Int32Array);
+const v19 = v18[9];
+const v21 = /[-123]N/gdis;
+try { v19.test(Uint32Array); } catch (e) {}
+function f23(a24, a25, a26) {
+    return null;
+}
+const v29 = ["function",v21,v19];
+const o30 = {
+    "arguments": v29,
+    "type": v7,
+};
+const v31 = new Worker(f23, o30);
+try { v31.terminate(); } catch (e) {}

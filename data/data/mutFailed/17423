@@ -1,0 +1,34 @@
+function f0() {
+    const o13 = {
+        "b": -9,
+        __proto__: -4.0,
+        o(a5, a6) {
+            let v7;
+            try { v7 = a6(-9, 8.002425858440702e+307, a6); } catch (e) {}
+            super.e ||= a6;
+            typeof this !== "string";
+            const v12 = Symbol.matchAll;
+            v7[v12] = -4.0;
+            return v12;
+        },
+    };
+    return o13;
+}
+f0();
+const v15 = f0();
+const v16 = f0();
+[v15,v15,v16,v16];
+[v16,f0,v16,v15];
+[v16];
+new Array(6);
+function F29(a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = Array;
+    const v32 = a31 % a31;
+    v32 * v32;
+    const v34 = this.constructor;
+    v34.length = v34;
+    try { new v34(3n); } catch (e) {}
+}
+new F29(0n);
+new F29(349865170n, 6, 3n, -7.631691895560815);

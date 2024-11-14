@@ -1,0 +1,31 @@
+function f0() {
+}
+class C1 {
+    constructor() {
+        for (const v3 of f0) {
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            f0();
+            f0();
+            %OptimizeMaglevOnNextCall(f0);
+            f0();
+        }
+    }
+    static 129 = f0;
+    [f0] = f0;
+}
+new C1();
+new C1();
+new C1();
+function f12() {
+    function f16(a17) {
+        typeof 0 === "string";
+        return Int16Array;
+    }
+    return Worker(f16);
+}
+new Uint8Array(655);
+new BigUint64Array(256);
+new Int8Array(3);
+let v67 = -6.50438168344124;
+v67 **= v67;

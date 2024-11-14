@@ -1,0 +1,38 @@
+new Set();
+const v4 = new Uint32Array(152);
+const v5 = v4?.constructor;
+let v6;
+try { v6 = new v5(v4, Uint32Array, Uint32Array); } catch (e) {}
+new Int8Array(9);
+const v12 = new Float64Array(2385);
+BigInt64Array.name;
+new BigInt64Array(133);
+~1734;
+BigInt64Array[0] = v6;
+try { new BigInt64Array(BigInt64Array, v12, v12); } catch (e) {}
+new BigInt64Array(1734);
+Int16Array.BYTES_PER_ELEMENT = Int16Array;
+new Int16Array(255);
+Array.toString = Array;
+Array.prototype = Array;
+Array.valueOf = Array;
+const v26 = [-2,1024];
+try { v26.valueOf(); } catch (e) {}
+function F28(a30, a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.length = this;
+    const v34 = this?.__lookupSetter__;
+    try { new v34(BigInt64Array); } catch (e) {}
+    for (let v36 = 0; v36 < 100; v36++) {
+        for (let v37 = 0; v37 < 5; v37++) {
+            function f38() {
+                return v37;
+            }
+        }
+        Array / v26.length;
+    }
+}
+const v41 = new F28();
+v41.f = v41;
+const v42 = new F28(F28, v26, v41, v41);
+v42.length;

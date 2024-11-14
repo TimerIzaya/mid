@@ -1,0 +1,27 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0];
+const v2 = [v1];
+[v2,v2];
+const v4 = /(a)\1*/uy;
+const v5 = /0xyz{93}(a)\17(?<!)?/guimsy;
+const v6 = /(?:a{5,1000000}){3,1000000}?/gudi;
+function f7(a8, a9, a10, a11) {
+    const o16 = {
+        [v4]: a9,
+        set g(a13) {
+            this[4] = v2;
+            try { new a11(); } catch (e) {}
+            function f15() {
+                return v1;
+            }
+        },
+        ...v1,
+        ...a11,
+        3: v2,
+    };
+    return o16;
+}
+f7(v5, v6, v6, f7(v6, v6, v4, v1));
+f7(v4, v6, v5, v2);
+const v22 = new v4("undefined");
+v22.getYear();

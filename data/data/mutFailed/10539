@@ -1,0 +1,62 @@
+function f3(a4, a5) {
+    const o10 = {
+        [a4]: 6n,
+        __proto__: a5,
+        "h": a5,
+        get e() {
+            a4 <<= -1024n;
+            try { a5.m(this, this, a4); } catch (e) {}
+            const v8 = super.h;
+            try { v8(); } catch (e) {}
+            return -1024n;
+        },
+    };
+    return o10;
+}
+f3(3n, 3n);
+f3(6n, -1024n);
+f3(-1024n, 6n);
+const o20 = {
+};
+let v21 = 1000;
+const v23 = new Uint32Array();
+function f26() {
+    return f3;
+}
+Object.defineProperty(Uint8ClampedArray, Symbol.toPrimitive, { enumerable: true, get: f26 });
+function F35(a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "d", { configurable: true, enumerable: true, value: v23 });
+    try {
+        this.d = a39;
+    } catch(e40) {
+    }
+    ~F35;
+    Uint32Array << a39;
+    [,...v21] = v23;
+}
+function f43() {
+    function f44() {
+        const o48 = {
+            ...1.0,
+            set b(a47) {
+            },
+        };
+        return o48;
+    }
+    return f44;
+}
+F35.valueOf = f43;
+new F35(426155202, 128, Uint8ClampedArray);
+new F35(426155202, 128, 2305);
+new F35(4294967296, 2305, v21);
+function f52() {
+}
+class C53 extends f52 {
+    toString(a55, a56) {
+        -this;
+    }
+}
+const v58 = new C53();
+v58.valueOf = f43;
+try { v58.toString(); } catch (e) {}

@@ -1,0 +1,59 @@
+function f0() {
+}
+function f1() {
+    const o2 = {
+        "a": f0,
+        [-1]: f0,
+        9: f0,
+        [f0]: f0,
+        "b": f0,
+        "e": f0,
+        "h": f0,
+        "c": f0,
+        "g": f0,
+        "f": f0,
+        "d": f0,
+    };
+    o2.v3 = f0;
+    return o2;
+}
+const v3 = f1();
+const v4 = f1();
+v4.v3 = f1;
+let v5;
+try { v5 = v4.f(); } catch (e) {}
+const v6 = f1();
+function f7() {
+    v3[v6] = delete v4[2735810727];
+    return v5;
+}
+v6.toString = f7;
+class C9 {
+    [v6];
+    [v4];
+    static a;
+    static #f = f0;
+    o(a11) {
+        const o14 = {
+            "maxByteLength": 268435441,
+        };
+        const v16 = new ArrayBuffer(2, o14);
+        const v18 = new Int32Array(v16);
+        return v18;
+    }
+}
+new C9();
+const v20 = new C9();
+const v21 = new C9();
+with (v4) {
+    f = v3;
+    try { v20.o(); } catch (e) {}
+    [f1,v21];
+}
+127n % 127n;
+42403n | 42403n;
+try { Math.sin(v20); } catch (e) {}
+let v32 = -(-1e-15);
+v32--;
+const v34 = Math.sinh(v32);
+v34 != v34;

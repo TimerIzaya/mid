@@ -1,0 +1,63 @@
+class C3 {
+    ["20466"] = "536870888";
+    static set d(a5) {
+        this[-2];
+        for (let v7 = 0; v7 < 32; v7++) {
+            const t5 = "20466";
+            t5["p" + v7] = v7;
+        }
+    }
+    static d;
+    #d;
+    h;
+    ["536870888"] = -652639166;
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+try {
+    C3.d = v11;
+} catch(e13) {
+}
+for (let v14 = 0; v14 < 32; v14++) {
+    v12["p" + v14] = v14;
+}
+const v18 = new Map();
+const v19 = /zP[x\dz]a[a]/vd;
+const v20 = /4(?:a{5,1000000}){3,1000000}+/vdims;
+const v21 = /E/di;
+class C22 {
+    constructor(a24, a25) {
+        v21.sticky |= v18[2937051634];
+        try { v18.set(v12, a25); } catch (e) {}
+        let v29 = super[undefined];
+        const v34 = Symbol.iterator;
+        const o43 = {
+            [v34]() {
+                let v36 = 10;
+                const o42 = {
+                    next() {
+                        v36--;
+                        const v40 = v36 == 0;
+                        const o41 = {
+                            "done": v40,
+                            "value": v36,
+                        };
+                        return o41;
+                    },
+                };
+                return o42;
+            },
+        };
+        ++v29;
+    }
+    static #h = v18;
+    c;
+    e;
+    #f = "536870888";
+    static [C3];
+}
+new C22(v19, v11);
+new C22(v21, v10);
+new C22(v20, v10);
+("undefined").normalize("NFC");

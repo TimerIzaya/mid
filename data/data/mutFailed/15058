@@ -1,0 +1,60 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v6 = a5 <= a5;
+    try {
+        this.f = a5;
+    } catch(e7) {
+    }
+    try {
+        this.c = a5;
+    } catch(e8) {
+    }
+    try {
+        this.b = v6;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(-1024n);
+const v11 = new F3(1n);
+const v12 = new F3(4294967297n);
+function f13() {
+    return v12;
+}
+try { WeakMap.bind(v10); } catch (e) {}
+const v16 = new WeakMap();
+let v17;
+try { v17 = v16.has(4294967297n); } catch (e) {}
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v22 = this?.constructor;
+    try { new v22(v10, this); } catch (e) {}
+    try {
+        this.c = 4294967297n;
+    } catch(e24) {
+    }
+    try {
+        this.b = a20;
+    } catch(e25) {
+    }
+    try {
+        this.e = a21;
+    } catch(e26) {
+    }
+}
+F18.length;
+new v17(4294967297n, v10);
+new F18(-1024n, v16);
+new F18(1n, v11);
+class C31 {
+    constructor(a33, a34, a35) {
+        function f36(a37, a38, a39) {
+            function f41(a42) {
+                return a42;
+            }
+            %PrepareFunctionForOptimization(WeakMap);
+            return this;
+        }
+        Worker(v17);
+    }
+}
+C31.g = C31;

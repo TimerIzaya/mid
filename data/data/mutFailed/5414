@@ -1,0 +1,25 @@
+const v1 = new WeakSet();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v1;
+    } catch(e5) {
+    }
+}
+const v6 = new F2(F2);
+const v7 = new F2(v1, v6);
+new F2(v7);
+[2,1,-65535,-9007199254740990,-9223372036854775807,27329069];
+[-4294967297,-536870912,-1618350058,128,15,65537,-1389551079,-792304058];
+[-9,-1073741824];
+new Int8Array(128);
+new Float64Array(13);
+new JSON(-1024, -2.0, JSON);
+function f25() {
+    const o28 = {
+        "g": -132626040,
+        6: "-641657515",
+    };
+    return -132626040;
+}
+("object").__proto__.fontcolor(f25);

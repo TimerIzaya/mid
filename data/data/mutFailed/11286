@@ -1,0 +1,76 @@
+const v3 = (-2).h;
+const v7 = v3?.g;
+const o10 = {
+};
+try {
+    o10.h = -12;
+} catch(e11) {
+}
+try {
+    const o12 = {
+    };
+    o12.h = -12;
+    o12.d = 27007;
+} catch(e13) {
+}
+try {
+    const o14 = {
+    };
+    o14.h = -12;
+    o14.d = 27007;
+    o14.c = 1073741823;
+} catch(e15) {
+}
+try {
+    const o16 = {
+    };
+    o16.h = -12;
+    o16.d = 27007;
+    o16.c = v3;
+} catch(e17) {
+}
+class C19 {
+    128 = -13;
+    static #o(a21, a22, a23, a24) {
+        super.d **= a22;
+        try {
+            this.e = -13;
+        } catch(e25) {
+        }
+        return a22;
+    }
+    a;
+    static c = -2;
+    static #h;
+    h;
+}
+let v26 = o10 instanceof v7;
+v26 &&= v7;
+new C19();
+new C19();
+new C19();
+class C33 {
+    get f() {
+        this[1073741823];
+        const o38 = {
+            "maxByteLength": 255,
+        };
+        const v40 = new SharedArrayBuffer(255, o38);
+        new DataView(v40);
+        return v40;
+    }
+}
+new C33();
+new C33();
+new C33();
+function f46(a47, a48, a49, a50) {
+    class C52 {
+        static ["-2"];
+    }
+    return "-2";
+}
+for (let v53 = 0; v53 < 10; v53++) {
+    f46(v53, v53, f46, v53);
+}
+%OptimizeFunctionOnNextCall(f46);
+f46();

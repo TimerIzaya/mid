@@ -1,0 +1,73 @@
+let v0 = -15;
+class C3 {
+    static #p(a5) {
+        super[a5] = this;
+        a5[3086341113] -= v0;
+        this[11497804] = v0;
+        let v6;
+        try { v6 = a5(v0, -1000000.0); } catch (e) {}
+        try {
+            this.valueOf = v6;
+        } catch(e7) {
+        }
+        return a5;
+    }
+    static 10;
+    [-2038870411] = -2038870411;
+    static c = -1000000.0;
+    static h;
+}
+const v8 = new C3();
+const v9 = new C3();
+const v10 = new C3();
+class C11 extends v9 {
+    static set a(a13) {
+        ({"b":v0,} = this);
+    }
+    static b = v8;
+    #f = v9;
+    n(a15, a16, a17) {
+        try {
+            this.__proto__ = this;
+        } catch(e18) {
+        }
+        v9[v10.iterator] = a17;
+        return v10;
+    }
+}
+const v21 = new C11();
+const v22 = new C11();
+const v23 = new v22();
+function f24(a25, a26, a27, a28) {
+    const o40 = {
+        o(a30, a31) {
+            let v29 = this;
+            return v29 = v8;
+        },
+        [C3]: -2038870411,
+        [-1000000.0]: C11,
+        "b": -2038870411,
+        m(a33, a34, a35, a36) {
+            function f37() {
+                return v10;
+            }
+            try {
+                new f37();
+            } catch(e39) {
+            }
+            return a34;
+        },
+    };
+    return o40;
+}
+f24(v23, v23, v23, v21);
+const v42 = f24(v21, v22, -2038870411, C3);
+f24(C11, v21, f24, C11);
+function f44() {
+    ("D")[0].substring().charCodeAt();
+    return "D";
+}
+%PrepareFunctionForOptimization(f44);
+v42();
+%OptimizeFunctionOnNextCall(f44);
+f44();

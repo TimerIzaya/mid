@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -16;
+    } catch(e3) {
+    }
+    try {
+        this.a = -16;
+    } catch(e4) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Int32Array(234);
+new Float64Array(64);
+new Int8Array(1);
+const v20 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+let v21 = -4294967297n;
+v21--;
+const v23 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v24 = [601759695];
+const v25 = [1073741824,1073741823,1376142744,1073741825];
+function f26(a27, a28, a29, a30) {
+    function f31() {
+        try { ("Vre").codePointAt(); } catch (e) {}
+        let v34 = Float64Array;
+        v34 = a28;
+        b = v24;
+        v20.length;
+        try {
+            v25.forEach(a28);
+        } catch(e37) {
+        }
+        const o48 = {
+            "c": v21,
+            "c": v24,
+            valueOf(a39, a40) {
+                return a39;
+            },
+            [v21](a42, a43, a44, a45) {
+                eval();
+            },
+            "arguments": v23,
+            256: a30,
+        };
+    }
+    const t47 = 1;
+    t47();
+    %OptimizeFunctionOnNextCall(234);
+    return f26;
+}
+for (let v50 = 0; v50 < 5; v50++) {
+    f26(v50, v21, v23, v50);
+}

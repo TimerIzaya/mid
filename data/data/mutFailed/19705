@@ -1,0 +1,12 @@
+function f3() {
+    return "1073741824";
+}
+function f10() {
+    return f10;
+}
+const o13 = {
+    set b(a12) {
+    },
+    __proto__: f10,
+};
+Reflect.construct(Int8Array, ["9007199254740992"]);

@@ -1,0 +1,81 @@
+function f0() {
+    const o8 = {
+        [-2]: "toString",
+        __proto__: "toString",
+        "d": -9007199254740990,
+        ["toString"](a5, a6) {
+            const o7 = {
+                [a5]: a6,
+                __proto__: "toString",
+                "b": "toString",
+            };
+            return this;
+        },
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+let v11 = f0();
+function f15() {
+    return v10;
+}
+class C16 extends f15 {
+    get h() {
+        v11 = this;
+        let v18;
+        try { v18 = f0(...this, this, v10, -4.0); } catch (e) {}
+        v18 /= v18;
+        Object.defineProperty(v9, "b", { enumerable: true, value: this });
+        typeof v18 === "bigint";
+        super[v18] = v18 << v9;
+        return -4.0;
+    }
+    static 10;
+    static h = v9;
+    #g;
+}
+new C16();
+new C16();
+let v25 = new C16();
+const v27 = [0.0,-2.220446049250313e-16];
+let v28;
+try {
+const t0 = 16;
+v28 = t0();
+} catch (e) {}
+function f29() {
+    return f29;
+}
+class C30 extends f29 {
+}
+class C31 {
+    constructor(a33, a34) {
+        const v35 = /W(jy2)/udy;
+        Math.tanh(a34);
+        --v25;
+        const v40 = a34 ^ a34;
+        v35.flags;
+        let v44 = v27[v28];
+        v44 **= Uint8Array;
+        function f45(a46, a47, a48, a49) {
+            return a47;
+        }
+        for (let v50 = 0; v50 < 625; v50++) {
+            f45(Uint8Array, 2, v50);
+            try {
+                a33 &= C30;
+            } catch(e52) {
+            }
+            class C53 {
+                static a = v40;
+                static 4;
+            }
+            new C53();
+            new C53();
+            new C53();
+        }
+    }
+}
+new C31();
+new C31();

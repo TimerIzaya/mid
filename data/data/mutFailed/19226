@@ -1,0 +1,42 @@
+const t0 = 9007199254740990n;
+const v5 = new t0(300);
+const v8 = new Uint16Array(16);
+const v11 = new Uint16Array(16);
+function f12(a13, a14, a15, a16) {
+    const o32 = {
+        [a14]: a13,
+        __proto__: a16,
+        [v8](a18, a19, a20) {
+            a16 = Uint16Array;
+            return -11564n;
+        },
+        n(a22, a23) {
+            a22 = a16 ** a15;
+            16 ^ 268435439;
+            const v29 = a22 + a15;
+            Math.log1p(1000000000.0);
+            1000000000.0 && v29;
+            return v29;
+        },
+    };
+    return o32;
+}
+f12(16, 9007199254740990n, -11564n, v11);
+f12(16, -11564n, 257n, v5);
+f12(16, -11564n, 9007199254740990n, Uint16Array);
+let v36 = 2;
+const v37 = v36++;
+function f38(a39) {
+    const o43 = {
+        __proto__: v36,
+        213: a39,
+        p(a41, a42) {
+            return v37;
+        },
+    };
+    return o43[213];
+}
+%PrepareFunctionForOptimization(f38);
+const v45 = f38(v37);
+%OptimizeFunctionOnNextCall(f38);
+f38(v45);

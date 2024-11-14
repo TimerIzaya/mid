@@ -1,0 +1,51 @@
+const v1 = new WeakMap();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v5 = this?.constructor;
+    try { new v5(v1); } catch (e) {}
+    try {
+        this.c = this;
+    } catch(e7) {
+    }
+}
+let v8;
+try { v8 = new F2(v1); } catch (e) {}
+const v9 = new F2(v1);
+v9[0] = v8;
+const v10 = new F2(v1);
+const v11 = new F2(v10);
+const v12 = [WeakMap,WeakMap,v11];
+try { v12.lastIndexOf(v1); } catch (e) {}
+[v9,v1,v12,v11,v10];
+v9[0] = [v11,WeakMap,v12];
+new Int32Array(2162);
+new BigUint64Array(2453);
+const v23 = [-646258.8006221732,5.0,-1000000.0,2.2250738585072014e-308,-2.2250738585072014e-308,1000000.0];
+for (let i = 0; i < 5; i++) {
+    v23.length = 29;
+}
+10 | 10;
+const v27 = new Uint32Array(10);
+function f28(a29) {
+    function f30() {
+        return f30;
+    }
+    return v9;
+}
+Object.defineProperty(v27, Symbol.toPrimitive, { writable: true, configurable: true, value: f28 });
+v27[0] = v27;
+const v34 = new WeakSet();
+v34.pp = BigUint64Array;
+let v35 = /(w)/gvdmy;
+const v36 = /((ab))/vy;
+function f37(a38) {
+    v10[4] = a38;
+    [Uint32Array];
+    return v27;
+}
+Object.defineProperty(v36, Symbol.toPrimitive, { writable: true, enumerable: true, value: f37 });
+v36.dotAll;
+for (let v44 = 0; v44 < 25; v44++) {
+    v34["p" + "p"] = v44;
+}
+v35 >>= v36;

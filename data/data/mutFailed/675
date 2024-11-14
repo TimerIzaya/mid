@@ -1,0 +1,72 @@
+class C3 {
+    static get b() {
+        return 2147483647;
+        const v6 = Symbol.iterator;
+        const o15 = {
+            [0.26830648659192713]() {
+                let v8 = 10;
+                const o14 = {
+                    next() {
+                        v8--;
+                        v8 == 0;
+                        const o13 = {
+                            "done": Symbol,
+                            "value": v6,
+                        };
+                        return this;
+                    },
+                };
+                return o14;
+            },
+        };
+        return o15;
+    }
+}
+C3.a = C3;
+const v16 = new C3();
+const v17 = new C3();
+function f18() {
+    try {
+        const o19 = {
+        };
+    } catch(e20) {
+    }
+    return 2147483647;
+}
+v16.constructor = f18;
+const v21 = new C3();
+v21?.constructor;
+try { new C3(); } catch (e) {}
+function f24(a25, a26, a27, a28) {
+    const v29 = a25?.constructor;
+    try { new v29(); } catch (e) {}
+    const v31 = a27?.constructor;
+    try { new v31(); } catch (e) {}
+    const v33 = a28?.constructor;
+    try { new v33(); } catch (e) {}
+    const o45 = {
+        __proto__: C3,
+        n(a36, a37, a38) {
+            Math.fround(2147483647);
+            Math.tanh(this);
+            let v43 = ++a36;
+            --v43;
+            return a38;
+        },
+    };
+    return o45;
+}
+try { new f24(v17, 0.26830648659192713, v16, v17); } catch (e) {}
+const v47 = v17.constructor;
+v47.arguments;
+class C49 extends v47 {
+    268435440;
+}
+C49.prototype = C49;
+new C49();
+const v51 = f24(v16, C3, v16, v16);
+const v52 = f24(7, v51, v51, v51);
+v52.a = v52;
+const v53 = f24(v21, C3, 7, v17);
+const v56 = new Uint8Array([749138.7740098275,-413.55890355139604,-2.0,5.0,4.0,1.7976931348623157e+308,1.0,5.956393081352694]);
+try { v56.findIndex(v53); } catch (e) {}

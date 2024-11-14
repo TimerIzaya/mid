@@ -1,0 +1,67 @@
+class C3 {
+    static p(a5, a6) {
+        super.e ^= a6;
+        const o9 = {
+            "maxByteLength": 127,
+        };
+        const v11 = new SharedArrayBuffer(5, o9);
+        const v13 = new Uint8Array(v11);
+        return v13;
+    }
+}
+new C3();
+new C3();
+const v16 = new C3();
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a20;
+    } catch(e21) {
+    }
+    try {
+        this.h = C3;
+    } catch(e22) {
+    }
+}
+const v25 = new Uint8Array(1);
+Float32Array.from(v25);
+const v28 = new F17(-579617.466146201, v16);
+const v29 = new F17(v28, v28);
+new F17(-1.5944102440996584e+308, v28);
+class C33 {
+    static n(a35, a36) {
+    }
+    static [-4096];
+}
+C33[3] = v29;
+const v37 = new C33();
+function f38(a39, a40) {
+    const v42 = new Date();
+    return v42;
+}
+v37[Symbol.toPrimitive] = f38;
+function f45() {
+    const t43 = [3.0,NaN,-1000000000.0,595974.7516182172,-1e-15,0.6881218471964052];
+    delete t43[2.0];
+    return 2.0;
+}
+v37.toString = f45;
+function f49() {
+    return f49;
+}
+function f50(a51, a52) {
+    const o54 = {
+        ...a51,
+        [v37]: a51,
+        "e": C33,
+        ...C33,
+        "d": f49,
+        get f() {
+            C33[3] >>= 9;
+            return a51;
+        },
+    };
+    return o54;
+}
+f50(f50, C33);
+f50(f50());

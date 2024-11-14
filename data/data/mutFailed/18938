@@ -1,0 +1,75 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = this;
+    try {
+        this.e = -4;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Float32Array(241);
+new Float64Array(1559);
+new Int32Array(1000);
+Promise.race();
+for (let i23 = 0, i24 = 10;
+    (() => {
+        const v25 = i23 < i24;
+        let v27 = Int16Array;
+        const v28 = v27--;
+        function f29() {
+            let v30 = v27--;
+            class C32 {
+                static #m(a34) {
+                }
+                set d(a36) {
+                    this.#m();
+                }
+                constructor(a39) {
+                    function f40() {
+                        return this;
+                    }
+                    Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f40 });
+                }
+            }
+            const v41 = new C32();
+            v41.g = v41;
+            const v42 = new C32();
+            v42.length = -4294967296;
+            v42.length;
+            for (let i = 0; i < 5; i++) {
+                for (let v45 = 0; v45 < 5; v45++) {
+                    const t25 = "string";
+                    t25["p" + v45] = v45;
+                }
+                v30++;
+            }
+            const v49 = new C32(0);
+            [v49,v49,v49,v49,v49];
+            const v51 = [v49];
+            class C52 extends C32 {
+                [v41];
+                #n(a54, a55, a56, a57) {
+                }
+                #g;
+            }
+            const v58 = new C52();
+            v51.constructor;
+            let v60;
+            try { v60 = v58.m(); } catch (e) {}
+            return v60;
+        }
+        %PrepareFunctionForOptimization(f29);
+        f29();
+        %OptimizeFunctionOnNextCall(f29);
+        f29();
+        let v63 = 3375;
+        const v64 = v63++;
+        v64 / v64;
+        const v67 = new v28(v63);
+        let [v68,,v69,...v70] = v67;
+        return v25;
+    })();
+    i23++) {
+}

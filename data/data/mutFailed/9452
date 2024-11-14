@@ -1,0 +1,74 @@
+class C3 {
+    static b;
+    constructor(a5) {
+        a5 = [-1.7976931348623157e+308,1000000.0];
+    }
+    static set c(a8) {
+        for (const v9 of a8) {
+            try {
+                super.setFloat32("symbol");
+            } catch(e11) {
+            }
+        }
+    }
+    static #e;
+    static [1000000.0] = -1.7976931348623157e+308;
+}
+new C3("symbol");
+const v13 = new C3(C3);
+new C3(1000000.0);
+1002 > 1002;
+const v24 = new Float32Array(1002);
+v24[898] = v24;
+190 >>> 190;
+const t22 = 9;
+const v28 = new t22(190);
+1138 ^ 1138;
+const v32 = new Int8Array(1138);
+let v33 = 4n;
+v33--;
+function f35() {
+    return v28;
+}
+function f36(a37, a38, a39, a40) {
+    try { a38.join("e"); } catch (e) {}
+    const v42 = a40?.constructor;
+    try { new v42(Uint32Array); } catch (e) {}
+    const o44 = {
+    };
+    try {
+        o44.g = a37;
+    } catch(e45) {
+    }
+    try {
+        const o46 = {
+        };
+        o46.h = o46;
+        o46.g = a37;
+        o46.a = v24;
+    } catch(e47) {
+    }
+    try {
+        const o48 = {
+        };
+        o48.b = o48;
+        o48.g = a37;
+        a38.a = v24;
+        o48.f = a39;
+    } catch(e49) {
+    }
+    try {
+        const o50 = {
+        };
+        Int8Array.d = o50;
+        o50.g = o50;
+        o50.a = v24;
+        o50.f = "symbol";
+    } catch(e51) {
+    }
+    return 13;
+}
+let v52 = f36("e", v32, "symbol", v13);
+v52--;
+%OptimizeFunctionOnNextCall(f35);
+f35();

@@ -1,0 +1,55 @@
+function f3() {
+    const v4 = ("species")["VnQaO"];
+    const t1 = "species";
+    t1[5] = f3;
+    "VnQaO" << v4;
+    try {
+        ("species").match(/\u0060*/uims);
+    } catch(e9) {
+    }
+    return "VnQaO";
+}
+("zuVG").length;
+const o13 = {
+    "apply": f3,
+    "call": f3,
+    "construct": f3,
+    "deleteProperty": f3,
+    "get": f3,
+    "getOwnPropertyDescriptor": f3,
+    "getPrototypeOf": f3,
+    "isExtensible": f3,
+    "ownKeys": f3,
+    "set": f3,
+    "setPrototypeOf": f3,
+};
+new Proxy("zuVG", o13);
+new BigInt64Array(243);
+const v19 = new Uint8Array(74);
+let v20 = 127;
+new BigUint64Array(v20);
+function f23(a24, a25) {
+    v20 = 243;
+    try { new a25(); } catch (e) {}
+    function F27(a29, a30) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.a = a25;
+        } catch(e31) {
+        }
+        try {
+            this.g = a29;
+        } catch(e32) {
+        }
+    }
+    const v33 = new F27(v19, a25);
+    const v34 = new F27(v33, 74);
+    new F27(v34, 243);
+    return f23;
+}
+const o38 = {
+    "type": "function",
+};
+const v39 = new Worker(f23, o38);
+const v40 = v39.terminateAndWait;
+try { new v40(); } catch (e) {}

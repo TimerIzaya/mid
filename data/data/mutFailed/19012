@@ -1,0 +1,32 @@
+let v0 = 199517834;
+let v2 = 255;
+function f5(a6, a7) {
+    const o10 = {
+        "maxByteLength": 218,
+    };
+    const v12 = new SharedArrayBuffer(129, o10);
+    const v14 = new Uint32Array(v12);
+    return v14;
+}
+Uint32Array[Symbol.iterator] = f5;
+const v17 = new Uint32Array(3);
+try {
+    Uint32Array.length = 1;
+} catch(e19) {
+}
+const v22 = new Uint8ClampedArray(13);
+try { v22["subarray"](..."subarray", v2, 1, ...Uint32Array); } catch (e) {}
+v2 *= 13;
+let v30 = FinalizationRegistry;
+({"buffer":v0,"byteLength":v0,"byteOffset":v30,} = v22);
+const o31 = {
+};
+function f33(a34) {
+    v17[3141] &&= -40833;
+    Object.defineProperty(o31, "g", { configurable: true, enumerable: true, value: a34 });
+    return v22;
+}
+Proxy.toString = f33;
+new Proxy(v17, o31);
+new Uint16Array(8);
+Math.tanh(Proxy);

@@ -1,0 +1,61 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 6;
+    } catch(e3) {
+    }
+    try {
+        this.a = 6;
+    } catch(e4) {
+    }
+    try {
+        this.c = 6;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+const v8 = new F0();
+const v9 = [10,-9223372036854775807,572031007,11,-9223372036854775807];
+const v10 = v9?.filter;
+try { new v10(v8); } catch (e) {}
+const v12 = [-29819,8,-843931994];
+const v13 = v9?.values;
+try { new v13(); } catch (e) {}
+const v15 = [268435439,-13,2147483648,-1439152389,268435456];
+v15[0] = v15;
+class C16 {
+    static {
+        try {
+            v8.toString = this;
+        } catch(e18) {
+        }
+        try { this(v12, v12, v12); } catch (e) {}
+        v15.__proto__;
+    }
+    3601800402 = v7;
+    3627558150 = v12;
+    #g;
+}
+const v21 = new C16();
+v21[3627558150] = v21;
+const v22 = new C16();
+v22[3627558150] = v22;
+const v23 = new C16();
+v22[3627558150] = v23;
+class C24 {
+}
+/xEz\xe2\x81\xa3/gumy;
+const v28 = 55 ^ 55;
+let v30 = new Float32Array();
+const v31 = v28?.entries;
+try { new v31(); } catch (e) {}
+let v36;
+try {
+const t0 = 50;
+v36 = t0();
+} catch (e) {}
+let v37 = new Float64Array();
+({"buffer":v36,"byteLength":v37,"length":v30,} = v37);
+const v42 = ([1000000000000.0,6.579220753226213e+307,2.0,-2.220446049250313e-16,NaN,-1000000.0])["findIndex"](NaN);
+v42 + v42;

@@ -1,0 +1,87 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #a = f0;
+    constructor() {
+        super();
+        this[4] = 28909n;
+    }
+    static #f;
+    static #b = f0;
+}
+const v6 = new C1();
+const v7 = new v6();
+v7[4] = v7;
+const v8 = new C1();
+const v10 = ReferenceError(ReferenceError);
+v10.name = v10;
+let v11 = 2684;
+v11--;
+const v14 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v15 = [601759695];
+("Vre").codePointAt("Vre");
+const o31 = {
+    [522675525n](a22, a23) {
+    },
+    "c": v15,
+    [-1]: v11,
+    "b": -4294967295,
+    [-4294967297n](a25, a26, a27, a28) {
+    },
+    "arguments": v14,
+    set b(a30) {
+    },
+    256: v6,
+    ...v15,
+    "type": "Vre",
+    ..."Vre",
+    4: "Vre",
+    "c": -268435456,
+};
+v8[4] = v8;
+function F32(a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v36 = this?.constructor;
+    try { new v36(a34, a35); } catch (e) {}
+    try {
+        this.d = a35;
+    } catch(e38) {
+    }
+    try {
+        this.g = v6;
+    } catch(e39) {
+        new Float64Array(1073741824);
+        class C44 extends Int16Array {
+        }
+    }
+}
+const v45 = new F32(v8, v6);
+const v46 = new F32(v6, v45);
+const v47 = new F32(v46, v46);
+[v46,C1];
+const v50 = [v47,[v47],v8,v46];
+v50[3] = v50;
+Int32Array.d = Int32Array;
+function f53() {
+    new Int8Array(1073741823);
+    return Int8Array;
+}
+f53();
+const v58 = new Int32Array(Int32Array);
+function f59() {
+    return f59;
+}
+const o60 = {
+};
+function f61() {
+    return o60;
+}
+function f62(a63, a64) {
+    Object.defineProperty(o60, "h", { writable: true, configurable: true, enumerable: true, get: f61, set: f61 });
+    return v6;
+}
+const v65 = v58?.constructor;
+try { new v65(v45, v7, C1); } catch (e) {}
+try { Reflect.set(Reflect, v6, v58); } catch (e) {}
+const v70 = Reflect.construct(Int32Array, [v58]);
+v70[1] = v70;

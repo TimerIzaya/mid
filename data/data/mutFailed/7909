@@ -1,0 +1,80 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v0;
+    } catch(e3) {
+    }
+}
+new F1();
+new F1();
+new F1();
+class C13 {
+    static {
+        let v14 = this;
+        ({"length":v14,} = "function");
+        const t15 = "getUTCHours";
+        t15[1] /= v14;
+        let v19 = 256;
+        33256 ** "function";
+        let v23 = ++v19;
+        "size" >> "size";
+        v23++;
+        "function" + 33256;
+        const v31 = [257,0];
+        Reflect.apply(("get").substring, Math, v31);
+    }
+}
+new C13();
+new C13();
+new C13();
+function f37() {
+    new Int16Array(255);
+    new Uint32Array(128);
+    new Int32Array(750);
+    const o53 = {
+        toString(a51, a52) {
+        },
+        "b": "boolean",
+        "c": "boolean",
+        ["object"]: f37,
+        ["boolean"]: 1000000000000.0,
+        "h": 1000000000000.0,
+    };
+    return o53;
+}
+%VerifyType(f37);
+new f37();
+try {
+    v0.d = "p";
+} catch(e55) {
+}
+const v56 = f37();
+f37();
+const v58 = f37();
+function F59(a61) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v62 = new F59();
+function f63(a64, a65, a66) {
+    const o71 = {
+        get a() {
+            const o69 = {
+            };
+            gc();
+        },
+    };
+    return o71;
+}
+const v72 = f63();
+f63();
+function F74(a76, a77, a78) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v79 = this.constructor;
+    try { new v79(F74, F74); } catch (e) {}
+    a77.g = a77;
+    this.a = a76;
+}
+new F74(v58, v56, v62);
+new F74(v58, v72);
+Math?.expm1;

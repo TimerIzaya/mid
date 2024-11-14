@@ -1,0 +1,101 @@
+class C3 {
+    10;
+    constructor(a5) {
+        function f6(a7, a8) {
+            function F9() {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    new F9();
+                    /Ckza\Wb?/vis;
+                    /Ma\W+/gudm;
+                } catch(e14) {
+                }
+            }
+            return a8;
+        }
+        Object.defineProperty(this, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, value: f6 });
+        try {
+            const o17 = {
+            };
+            this.fuck(this, o17);
+        } catch(e19) {
+        }
+    }
+    static a;
+    0 = "boolean";
+    d;
+}
+const v20 = new C3(C3);
+const v21 = new C3("boolean");
+function f22() {
+    new Array(7);
+    return Array;
+}
+v21[Symbol.toPrimitive] = f22;
+const v28 = new C3(2.2250738585072014e-308);
+const v29 = [35967,14,6,9007199254740992,-4096,9,-24709,4,-769612540,9223372036854775807];
+try { v29.reverse(); } catch (e) {}
+const v31 = [7986,4,-4096,2147483649,5,9007199254740991,1916822575];
+function f32() {
+    return Symbol;
+}
+function f33(a34) {
+    const v35 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+    for (let v36 = 0; v36 < 25; v36++) {
+        v35["p" + v36] = v36;
+    }
+}
+Object.defineProperty(v31, Symbol.isConcatSpreadable, { configurable: true, get: f32, set: f33 });
+const v41 = [-9,-1117411590,-9223372036854775807,65535,-43033,6,-54411];
+try { v41.groupToMap("boolean"); } catch (e) {}
+function f43(a44, a45) {
+    a44.toString = f43;
+    try { a44.toLocaleString(); } catch (e) {}
+    const v47 = a45?.__defineGetter__;
+    try { new v47(v29, v28); } catch (e) {}
+    const o57 = {
+        "h": a44,
+        ...a45,
+        "b": a45,
+        [a45]: a44,
+        __proto__: v31,
+        valueOf(a50, a51) {
+            C3 | a51;
+            this[8] = a51 * a51;
+            for (let v54 = 0; v54 < 32; v54++) {
+                v20["p" + v54] = v54;
+            }
+            return this;
+        },
+    };
+    return o57;
+}
+f43(v29, v28);
+const v59 = f43(2.2250738585072014e-308, v21);
+try { v59.concat(v59); } catch (e) {}
+f43(v21, v20);
+const v62 = [-1.5314324604839498e+308,-1.8081364344875581,-2.2250738585072014e-308,3.0,3.0];
+const v63 = [101.2980265931285,-1.7177856293756712e+307,-1000000.0,-8.49664044843577];
+v63[3] = v29;
+v63[3] = v63;
+Set.prototype = Set;
+const v65 = new Set();
+const v66 = v65.values();
+try { v66.next(); } catch (e) {}
+function f68(a69, a70, a71, a72) {
+    a69[3] = v62;
+    const v73 = a69?.unshift;
+    try { new v73(v31); } catch (e) {}
+    a69.shift();
+    a69[3] = a69;
+    const o76 = {
+        __proto__: v63,
+    };
+    o76[2];
+    return o76;
+}
+const v78 = f68(v62);
+try { v78.groupToMap(v63); } catch (e) {}
+f68(v63);
+f68(v63);
+gc();

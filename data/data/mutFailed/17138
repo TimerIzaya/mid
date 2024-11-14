@@ -1,0 +1,18 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+new Int16Array(10);
+new Int32Array(217);
+new Int32Array(9007199254740992, v0);
+const v14 = [-13939,-12,1904189168];
+const o15 = {
+};
+function f16(a17, a18) {
+    v14[3765] = o15;
+    return a17;
+}
+%PrepareFunctionForOptimization(f16);
+f16(v14, o15);
+%OptimizeFunctionOnNextCall(f16);
+f16();

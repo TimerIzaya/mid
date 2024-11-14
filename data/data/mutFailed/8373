@@ -1,0 +1,37 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+class C2 extends f1 {
+    static #o(a4) {
+        (a4 += f1) ^ this;
+        return v0;
+    }
+    #f = v0;
+    static #h;
+}
+new C2();
+const v10 = new C2();
+new C2();
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = "1073741824";
+    } catch(e19) {
+    }
+    try {
+        this.f = a18;
+    } catch(e20) {
+    }
+    try {
+        this.d = v10;
+    } catch(e21) {
+    }
+}
+new F15("1073741824", "1073741824");
+new F15("1073741824", "-43077");
+new F15("-43077", "1073741824");
+const o26 = {
+    0: "1ya",
+    162: "1ya",
+};

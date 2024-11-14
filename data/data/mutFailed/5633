@@ -1,0 +1,5 @@
+new Uint8Array(71);
+const v5 = new Int8Array(71);
+new Float64Array(v5);
+new BigInt64Array(BigInt64Array);
+try { Float32Array.from(536870887n); } catch (e) {}

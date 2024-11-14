@@ -1,0 +1,42 @@
+new Int32Array(64);
+new Int32Array(64);
+2 !== 2;
+new Int16Array(2);
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v14 = this?.__defineGetter__;
+    let v15;
+    try { v15 = new v14(Uint16Array, Uint16Array); } catch (e) {}
+    -a13;
+    try {
+        Uint16Array.g = a12;
+    } catch(e17) {
+    }
+    try {
+        this.c = v15;
+    } catch(e18) {
+    }
+    try {
+        v14.b = Uint16Array;
+    } catch(e19) {
+    }
+}
+const v20 = new Uint16Array(64, 64);
+let v21;
+try { v21 = v20.join(64); } catch (e) {}
+new v21(64, 2);
+new F10(2, 2);
+function f24() {
+    1.0 % 1.0;
+    const o29 = {
+        ...F10,
+        set b(a28) {
+        },
+    };
+    return o29;
+}
+for (let v30 = 0; v30 < 5; v30++) {
+    64 - v30;
+    f24();
+    %OptimizeFunctionOnNextCall(v30);
+}

@@ -1,0 +1,53 @@
+function f3() {
+    return -9447n;
+}
+function F7(a9, a10, a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -1024n;
+    } catch(e13) {
+    }
+    try {
+        this.e = f3;
+    } catch(e14) {
+    }
+}
+const v15 = new F7(-1024n, "7x", "7x", -1024n);
+const v16 = new F7(-9447n, v15, "caller", -1024n);
+const v17 = new F7(-9447n, "caller", "9M7P5", -1024n);
+new WeakMap();
+class C20 {
+    static #f;
+    e = "9M7P5";
+    static #h = v17;
+    p(a22, a23) {
+        try {
+            super.n(a22, -1024n);
+        } catch(e25) {
+        }
+        const v27 = Symbol.iterator;
+        const o36 = {
+            [v27]() {
+                let v29 = 10;
+                const o35 = {
+                    next() {
+                        v29--;
+                        const v33 = v29 == 0;
+                        const o34 = {
+                            "done": v33,
+                            "value": v29,
+                        };
+                        return this;
+                    },
+                };
+                return o35;
+            },
+        };
+        return "caller";
+    }
+}
+new v15();
+new v16();
+new C20();
+const v41 = new Float64Array();
+delete v41[-1.5286188982640463e+308];

@@ -1,0 +1,90 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        new Float32Array(89);
+        new Uint16Array(255);
+        new Uint16Array(3052);
+        this.f = f0;
+    } catch(e13) {
+    }
+}
+const v14 = new F1();
+const v15 = new F1();
+v15.toString = f0;
+const v16 = new F1();
+function f17() {
+    return v16;
+}
+let v18;
+try { v18 = f17(); } catch (e) {}
+function f19() {
+    function f20() {
+        let v23 = 12853;
+        2.2250738585072014e-308 + 2.2250738585072014e-308;
+        Math.asin(2.2250738585072014e-308);
+        const v27 = --v23;
+        +v16;
+        Math.asinh(v27);
+        ~v27;
+        return v23;
+    }
+    return f20;
+}
+Object.defineProperty(v18, Symbol.toPrimitive, { enumerable: true, get: f19 });
+function f33(a34, a35, a36, a37) {
+    function f38(a39) {
+        Math.acos(Symbol);
+        Math.cosh(a37);
+        return ++a37;
+    }
+    a34.toString = f38;
+    a35.valueOf = f38;
+    a36.valueOf = f17;
+    try { a37.f(); } catch (e) {}
+    const o51 = {
+        16: v15,
+        set h(a48) {
+            try {
+                f0();
+            } catch(e50) {
+            }
+        },
+        "d": a35,
+        ...v15,
+        ...a34,
+        ...v16,
+        ...a34,
+        [a34]: a35,
+        [a36]: v15,
+    };
+    return o51;
+}
+f33(v16, v16, v14, v14)[16];
+const v54 = f33(v16, v16, v16, v15);
+Object.defineProperty(v54, "length", { writable: true, configurable: true, enumerable: true, value: f19 });
+const v55 = f33(v15, v16, v15, v14);
+2142676890 >>> 2142676890;
+new Uint8Array(6);
+v54.d;
+v16 - 9223372036854775807;
+new F1(v18, v55, v15, v55, v14);
+v18 = f33;
+let v70 = 7 >> 7;
+const v73 = v70 >> +(v70 ^ F1);
+--v70;
+!v73;
+new Int32Array(536870889);
+255 - 255;
+new Float32Array(255);
+try { new Float32Array(v54, 255, 255); } catch (e) {}
+const v86 = new Float32Array(127);
+v86[108] = v86;
+const v88 = new Int32Array(v86, 2);
+const v89 = v86;
+v88.fill(...v89);

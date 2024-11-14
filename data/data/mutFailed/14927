@@ -1,0 +1,61 @@
+const v0 = [1073741824,530930987,624415751,-1002264586,-616142225,316275384,7,-927628076,-11203];
+const v1 = [1073741823,15,4,43830];
+const v2 = [4294967295];
+const v3 = [4.0,4.0,0.28821646804226364,Infinity,8.498842778719837,576.9171987200175];
+const v4 = [-1000000.0,8.62735141325302e+307,0.0,2.220446049250313e-16,373982.1380253325,-4.0,-5.263398753129816e+307,-180072.9304035455,5.30905859218417];
+const v5 = [1.0517946531683428e+308,1000000000.0,1000000.0,-2.0,5.0];
+class C6 {
+    constructor(a8, a9) {
+        %VerifyType(a8);
+        try {
+            v4.valueOf = v2;
+        } catch(e11) {
+        }
+    }
+    static #h = v3;
+    e;
+}
+new C6(v3, v5);
+new C6(v4, v2);
+new C6(v3, v0);
+function f15(a16, a17, a18, a19) {
+    return a16;
+}
+function f20() {
+    function f21(a22) {
+        const v25 = new Uint16Array(512);
+        const v27 = new Float32Array(v25);
+        return v27;
+    }
+    return f21;
+}
+function f28(a29) {
+    new Date(-2, [23795,8,259058917,-256,1,-36806,4096,-9,-1,-18943]);
+}
+Object.defineProperty(f15, Symbol.iterator, { writable: true, configurable: true, get: f20, set: f28 });
+function f36(a37, a38, a39, a40) {
+    a37[Symbol.toPrimitive] = f20;
+    function f43() {
+        return f43;
+    }
+    const v44 = f43.length;
+    const v45 = v44 + v44;
+    const v47 = new Int8Array(a37);
+    const v48 = v47.buffer;
+    function f49(a50) {
+        return a50;
+    }
+    f49.constructor = f15;
+    f49.constructor;
+    const v52 = v48.slice(v44, a38);
+    function f53(a54) {
+        v52.slice(a54, v45);
+        return f36;
+    }
+    return v45;
+}
+f36[2] = v1;
+%PrepareFunctionForOptimization(f36);
+f36(f15, f36, f36, f15);
+%OptimizeFunctionOnNextCall(f36);
+f36(f36, f36, f36, f15);

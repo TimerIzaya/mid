@@ -1,0 +1,36 @@
+function f0() {
+}
+class C1 extends f0 {
+    static valueOf() {
+        return this.e;
+    }
+    h = f0;
+    static #h = f0;
+    static 625021701;
+}
+const v7 = new C1();
+const v8 = new f0();
+const v9 = new v8();
+function f10() {
+    return f0;
+}
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a14;
+    } catch(e15) {
+    }
+    try {
+        this.f = v8;
+    } catch(e16) {
+    }
+    try {
+        this.b = a14;
+    } catch(e17) {
+    }
+}
+new v7(v8, v9);
+new F11(v7, v7);
+const v20 = new F11(v7, v9);
+const v23 = new Int32Array(v20);
+new Float64Array(v23);

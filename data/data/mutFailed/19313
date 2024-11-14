@@ -1,0 +1,68 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f4(a5, a6) {
+        const o10 = {
+            __proto__: a6,
+            "b": a6,
+            [a5]: a6,
+            "c": a5,
+            "e": a6,
+            valueOf(a8, a9) {
+                super[a8] = "symbol";
+                return a9;
+            },
+        };
+        return a5;
+    }
+    f4();
+    try {
+        this.a = 0;
+        const v12 = [54857,1024,3,268435456,-1268853494,-1493310458,48721,2147483647,-28834];
+        v12[4] = v12;
+        const v15 = new Uint32Array(8);
+        new Uint8ClampedArray(v15);
+    } catch(e18) {
+    }
+}
+const v19 = new F0();
+new F0();
+const v21 = new F0();
+const v22 = [v21];
+const v23 = [-2.220446049250313e-16,0.4010936999061169];
+try {
+    v23.length = 27172;
+} catch(e25) {
+}
+[v22,v19,v22,F0,v22];
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+for (let v33 = 0; v33 < 5; v33++) {
+    function f34() {
+        const v36 = Array();
+        try { v36.some(F27); } catch (e) {}
+        return ([]).includes();
+    }
+    f34();
+    %OptimizeFunctionOnNextCall(f34);
+}
+[v19,F0,v19];
+[1.1822180693101283e+308,616.117380495235,0.6104928705827948,-4.0];
+[-2.0,Infinity,-1000.0,-1000000000000.0];
+[-1000000.0,-812118.6208527373,-549470.1021089487,-4.0,734.6278716910901,8.891346800842676,1.6336522021159558e+308];
+class C46 extends isFinite {
+}
+new C46();
+for (let v48 = 0; v48 < 5; v48++) {
+    function f49(a50) {
+    }
+    const o53 = {
+        "type": "function",
+    };
+    new Worker(f49, o53);
+}
+[-1];
+[834662905,-1024,5,4294967297,256,-6,7,9,268435441,127];
+[-9223372036854775808,-5,4294967297,16,7,-536870912];
+const v59 = new Uint16Array(Uint16Array);
+new Uint8ClampedArray(v59);

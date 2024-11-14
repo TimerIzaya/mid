@@ -1,0 +1,21 @@
+new WeakSet();
+new Float32Array(3);
+const v8 = new Float64Array(129);
+new Float64Array(1024);
+function f15() {
+    const o17 = {
+        get b() {
+            return f15;
+        },
+    };
+    return o17;
+}
+class C18 extends v8 {
+    constructor(a20) {
+        super();
+        for (let v21 = 0; v21 < 25; v21++) {
+            this["p" + v21] = v21;
+        }
+    }
+}
+new C18();

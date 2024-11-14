@@ -1,0 +1,30 @@
+class C15 {
+}
+const v16 = new C15();
+function F17() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v20 = new this();
+    for (let v21 = 0; v21 < 5; v21++) {
+        v20[v21] = v16;
+    }
+    try {
+        const v22 = this.constructor;
+        const o24 = {
+            get e() {
+                return v22;
+            },
+        };
+        Math.atanh(0.033437543729764596);
+        class C28 extends v22 {
+            e = F17;
+        }
+        new C28();
+        v20.constructor = gc;
+        function f31() {
+            return f31;
+        }
+    } catch(e32) {
+    }
+}
+new F17();
+new F17();

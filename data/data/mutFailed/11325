@@ -1,0 +1,47 @@
+const v1 = new WeakMap();
+function f5() {
+    return -943223507n;
+}
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f12() {
+        return a11;
+    }
+    function f13(a14) {
+        Array(4087);
+    }
+    Object.defineProperty(this, "c", { configurable: true, enumerable: true, get: f12, set: f13 });
+    try {
+        this.e = 636901854n;
+    } catch(e18) {
+    }
+    try {
+        this.c = a9;
+    } catch(e19) {
+    }
+    try {
+        this.h = a8;
+    } catch(e20) {
+    }
+}
+const v21 = new F6(2063422144n, 2063422144n, f5, 636901854n);
+const t27 = 2063422144n;
+const v22 = new t27(636901854n, -943223507n, WeakMap, v21);
+new F6(-943223507n, 2063422144n, v22, v22);
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v32 = new F27();
+function f33(a34, a35, a36, a37) {
+    try { v1(v32); } catch (e) {}
+    try { a36(); } catch (e) {}
+    const o43 = {
+        n(a41, a42) {
+            return a37;
+        },
+    };
+    return 10n;
+}
+for (let v44 = 0; v44 < 500; v44++) {
+    v44();
+}

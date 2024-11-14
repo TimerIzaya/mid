@@ -1,0 +1,50 @@
+function f1() {
+    const o2 = {
+        "e": null,
+        [null]: f1,
+        "h": f1,
+        "f": null,
+        "d": null,
+        ...null,
+        __proto__: null,
+        "g": null,
+        "c": null,
+        "b": null,
+        ...null,
+        ...null,
+        ...null,
+    };
+    return o2;
+}
+const v3 = f1();
+const v4 = f1();
+const v5 = f1();
+[0.02360976715414942,-2.749376299505899e+307];
+const v10 = [-1000000000.0,-4.565709894054115,-4.0,553.8844166769115,-1000.0,0.4474105232177362,0.9699494359236002,-1000.0];
+const v11 = [-0.0,-1.0,-Infinity,810.6789519079962,887.527361113659,5.0,-7.337710535276144e+307];
+function f12(a13, a14, a15, a16) {
+    const o28 = {
+        "d": -9007199254740990,
+        "g": a14,
+        ...a16,
+        "a": null,
+        [v10]: null,
+        get h() {
+            const o18 = {
+                "a": a16,
+                __proto__: this,
+                "f": a14,
+            };
+            new Float64Array(351);
+            new Int8Array(255);
+            new Uint8ClampedArray(1000);
+            return a16;
+        },
+    };
+    return o28;
+}
+v4(8, v4, v11, v5);
+f12(-9007199254740990, v3, v11, v3);
+f12(8, v3, v10, v3);
+const v34 = new BigUint64Array();
+v34[2445191368] = 268435441n;

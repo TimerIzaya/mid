@@ -1,0 +1,48 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = undefined;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+const v6 = new F1(v5);
+function F7(a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = undefined;
+    } catch(e10) {
+    }
+}
+new F7(v4);
+new F7(v6);
+new F7(v5);
+/YzTK+/vs;
+/{12,3b/m;
+/ab\b\d\bcd/gudsy;
+const v22 = new Float64Array(127);
+const v24 = new Uint8ClampedArray(v22);
+const v25 = [1000000000000.0,0.9960435535667199,1000.0,-1.6540773985510377e+308,0.3018853678306006,410.9648048644401,-6.0085450863810586,-529.8311372035074];
+const v26 = `
+    function f27() {
+        return f27;
+    }
+    let {...v28} = v25;
+    function f29() {
+        return v24;
+    }
+    function f30(a31) {
+        const v33 = new BigUint64Array();
+        v33.byteLength;
+    }
+    Object.defineProperty(v28, "fuck", { writable: true, get: f29, set: f30 });
+    try {
+        new Uint32Array(16);
+        new Int8Array(219);
+        new BigInt64Array(3647);
+        v28.fuck(v28);
+    } catch(e45) {
+    }
+`;
+eval(v26);

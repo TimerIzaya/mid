@@ -1,0 +1,76 @@
+function f0() {
+    const t1 = "e";
+    t1[0] = "e";
+    const o19 = {
+        [-18455](a5, a6) {
+            try {
+                this.a = this;
+            } catch(e7) {
+            }
+            return a5?.[a6];
+        },
+        "c": "e",
+        p(a10, a11) {
+            const o14 = {
+                "maxByteLength": 519739134,
+            };
+            const v16 = new ArrayBuffer(1, o14);
+            new Uint8Array(v16);
+            return 1;
+        },
+    };
+    o19[Symbol.toPrimitive] = f0;
+    return o19;
+}
+const v22 = f0();
+function f23() {
+    class C24 {
+        p(a26, a27, a28, a29) {
+        }
+    }
+    return ([C24])[Symbol.iterator].constructor;
+}
+v22[Symbol.toPrimitive] = f23;
+let v37 = f0();
+const v38 = f0();
+const v39 = [f0,f0,v22];
+const v40 = (v37 = v38).c;
+try { v40.toString(); } catch (e) {}
+try { ("NFKD").localeCompare(v22); } catch (e) {}
+("boolean").normalize("NFKD");
+const v46 = [v22,v22];
+[v39,v22,v46];
+class C48 {
+    m(a50, a51) {
+        let v52 = 0;
+        do {
+            [1.5351410913679798e+308,-1000.0];
+            [Infinity,1000.0,1e-15];
+            [3.7968623450863817,-1.0,-1e-15,2.220446049250313e-16,0.5637903010117754,-1000000000000.0,Infinity,-6.25711963792166,-1.5750615508390783e+308,1e-15];
+            v52++;
+        } while (v52 < 2)
+        return v39;
+    }
+    static #e = v46;
+    [v22] = v22;
+}
+new C48();
+const v60 = new C48();
+const v61 = new C48();
+v61.toString = Symbol;
+try { v61.toString(); } catch (e) {}
+const v64 = [f0,[C48,v60,v37,v22]];
+[v64,v64];
+function f66() {
+    return f0;
+}
+try { f66(); } catch (e) {}
+!true;
+const v70 = [1.6045920026493271e+308,-5.0,358.53542407847453,-4.6776659891528976,-1000.0,-Infinity];
+const o72 = {
+    valueOf() {
+        return true;
+    },
+};
+o72[Symbol.toPrimitive] = f0;
+v70.length = o72;

@@ -1,0 +1,25 @@
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -4096;
+    } catch(e13) {
+    }
+}
+new F9(-9223372036854775808, -4294967296n);
+const v15 = new F9(-9223372036854775808, 9007199254740992n);
+new F9(F9, 1000n);
+const v17 = [-25552.232795396703,-1e-15,-4.0,4.0,-1000000000.0,Infinity,5.418706939384283e+306,3.0,-5.0,1.7434284636811316e+308];
+v17.toJSON = v17;
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f22(a23, a24, a25) {
+    return a24;
+}
+Worker.toJSON = v15;
+const v28 = [Worker,F18,v17];
+const o29 = {
+    "arguments": v28,
+    "type": -4096,
+};
+new Worker(f22, o29);

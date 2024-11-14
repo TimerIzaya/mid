@@ -1,0 +1,54 @@
+class C3 {
+    #g = 1073741823;
+    get g() {
+        function f5(a6, a7) {
+            const t4 = a7?.[3];
+            t4[1073741825] = a6;
+            return a7;
+        }
+        f5(2147483648, 2147483648);
+        return 2147483648;
+    }
+    [1073741823] = 1073741823;
+    a;
+    5 = -4294967296;
+    set e(a11) {
+        Math.fround();
+        Math.ceil();
+    }
+}
+try { new C3(); } catch (e) {}
+new C3();
+const v17 = new C3();
+new v17();
+let v19 = 8;
+v19--;
+const v22 = new Uint8Array(v19);
+BigUint64Array.name = BigUint64Array;
+new BigUint64Array(v22);
+const v28 = new Uint16Array(179);
+try { v28.with(v22, Uint16Array); } catch (e) {}
+const v30 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+for (let v31 = 0; v31 < 5; v31++) {
+    function f32() {
+        try {
+            v30.forEach();
+        } catch(e34) {
+            e34.f = e34;
+            e34.constructor(e34, v31, f32, f32, f32);
+            e34.a = Uint16Array;
+            e34.a = e34;
+        }
+        return Uint16Array;
+        try {
+        const t0 = 50;
+        t0();
+        } catch (e) {}
+        class C38 {
+        }
+        return 50;
+    }
+    try { f32(); } catch (e) {}
+    f32();
+    %OptimizeFunctionOnNextCall(f32);
+}

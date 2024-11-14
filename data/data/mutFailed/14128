@@ -1,0 +1,58 @@
+const v0 = [8.777560937535142,-1000000000.0,0.29319563975950313,5.0,-Infinity,1000000.0,975114.495684966,NaN,0.5675476101365111];
+const v1 = [1e-15,-263.7225691083212,-1.7126087413252521e+308];
+const v2 = [-2.0456370118089246e+307,-3.697160212362312e+307];
+class C3 {
+    static {
+        const v7 = Reflect.construct(this, [v2,v2,Reflect,v1,v2], this);
+        super[v7] = this;
+        super[v2] = v7;
+        const o11 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o11);
+    }
+}
+const v13 = new C3();
+new v0();
+new C3();
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a19;
+    } catch(e22) {
+    }
+}
+const v23 = new F16(v2, v1, v0, v13);
+new F16(v1, v1, v23, v1);
+new F16(v0, v0, v0, v2);
+class C33 {
+}
+function f35() {
+    return f35;
+}
+class C36 extends f35 {
+}
+class C37 extends C36 {
+}
+function f40(a41, a42, a43, a44) {
+    try { a41(); } catch (e) {}
+    a42 & a44;
+    const v47 = 3 | C37;
+    v47 * v47;
+    const v49 = a41 / a41;
+    const v50 = C36 < a42;
+    const o54 = {
+        n(a52, a53) {
+            return v50;
+        },
+    };
+    return v49;
+}
+for (let v55 = 0; v55 < 500; v55++) {
+    f40(Uint8Array);
+}
+let v59 = undefined;
+const o60 = {
+};
+v59 = o60;

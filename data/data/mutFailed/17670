@@ -1,0 +1,27 @@
+const v5 = new Uint16Array(128);
+new Int32Array(5);
+new Float32Array(255);
+const v12 = [-20821,Float32Array];
+[v12,v5];
+[Float32Array,v12,128];
+class C15 {
+}
+const v16 = new v12();
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v22 = new F17(C15, Float32Array, F17);
+const v23 = [134133844,-339370636,65535,-4294967295,536870888,-324130953,536870912,268435439];
+function f24(a25, a26, a27, a28) {
+    function f29() {
+        const v30 = v23.length;
+        const v31 = v22.__lookupSetter__;
+        const v32 = v30 >>> v30;
+        a26[v31 & (v32 % v32)] += v16;
+        return F17;
+    }
+    f29();
+    %OptimizeFunctionOnNextCall(f29);
+    return f29;
+}
+f24(f24, f24(v23, f24(v23, f24)));

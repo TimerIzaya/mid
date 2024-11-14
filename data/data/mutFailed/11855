@@ -1,0 +1,42 @@
+class C3 {
+    constructor(a5, a6) {
+        new Uint8ClampedArray(10);
+        new Uint8ClampedArray(236);
+        new Uint32Array(2);
+    }
+    static [3.0] = 166688.70949262776;
+}
+new C3(3.0, 1.7976931348623157e+308);
+new C3(166688.70949262776, 1.7976931348623157e+308);
+new C3(166688.70949262776, 166688.70949262776);
+[268435440,536870888,256,-7,-1035605308,7800,9007199254740990,-1073741824,34622,7];
+[4096,-2,1480439631,782668240,-1115363898,4294967297,2147483647];
+[-536870912,4294967296,2147483649,8,49579,-454615065,-32966,14];
+class C27 {
+    static {
+        try {
+        const t0 = 529940173;
+        t0(this, this);
+        } catch (e) {}
+        Math.cos(1000);
+        Math.tan(1000);
+    }
+}
+const v34 = new C27();
+v34[Symbol.isConcatSpreadable] = C27;
+function f39(a40, a41, a42) {
+    const o46 = {
+        __proto__: a41,
+        [a42]: -2147483648,
+        [a41](a44, a45) {
+        },
+        "c": 529940173,
+        1073741824: C27,
+    };
+    return o46;
+}
+const v48 = f39(-1, f39());
+v48[Symbol.toPrimitive] = Symbol;
+const v51 = f39(-2147483648, v34);
+const v52 = -5 << v48;
+v51[Symbol.isConcatSpreadable] = v52;

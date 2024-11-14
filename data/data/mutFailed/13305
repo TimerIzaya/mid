@@ -1,0 +1,58 @@
+function f1() {
+    const o17 = {
+        "b": undefined,
+        "g": undefined,
+        [undefined]: undefined,
+        __proto__: undefined,
+        "f": undefined,
+        set a(a3) {
+            let v4;
+            try { v4 = a3.toString(undefined, undefined, a3, a3, a3); } catch (e) {}
+            try { a3.asUintN(v4); } catch (e) {}
+            const v7 = Symbol.iterator;
+            const o16 = {
+                [v7]() {
+                    let v9 = 10;
+                    const o15 = {
+                        next() {
+                            const v11 = v9--;
+                            const v13 = v9 == 0;
+                            const o14 = {
+                                "done": v13,
+                                "a": 0,
+                                "b": Symbol,
+                                "f": a3,
+                                ...this,
+                                "h": v11,
+                                "value": v9,
+                            };
+                            return o14;
+                        },
+                        ...this,
+                        "g": undefined,
+                        "e": v7,
+                        "a": this,
+                        ...Symbol,
+                    };
+                    return o15;
+                },
+            };
+        },
+    };
+    return o17;
+}
+f1();
+f1();
+f1();
+new Int8Array(2);
+new BigInt64Array(257);
+Float32Array[Symbol.toPrimitive] = f1;
+const v34 = new Float32Array(7);
+try {
+    new f1();
+} catch(e37) {
+}
+v34[Float32Array];
+const v40 = Math.tan(-1);
+const v43 = new Uint8Array(127);
+v43.indexOf(v40);

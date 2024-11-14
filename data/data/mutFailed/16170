@@ -1,0 +1,35 @@
+268435441n << 268435441n;
+const v8 = new Uint8Array(2707, 2707, 128);
+try { v8.findLastIndex(v8, v8); } catch (e) {}
+class C10 {
+    constructor(a12, a13) {
+        super.b = "f";
+        super["f"] = this;
+        const t7 = "f";
+        t7[2] = this;
+        new Uint32Array(5);
+        new Int8Array(347);
+        new Float32Array(128);
+    }
+}
+const v23 = new C10(C10, 536870887);
+const v24 = new C10(0.40040275536036574, v23);
+const v25 = new C10(C10, C10);
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v25;
+    } catch(e32) {
+    }
+    try {
+        this.h = a28;
+    } catch(e33) {
+    }
+}
+const v34 = new F26(v23, v25, v24, v25);
+new F26("f", v34, C10, v34);
+new F26(v23, "f", v24, v25);
+class C38 extends Array {
+}
+const v39 = new C38();
+v39.push(Array);

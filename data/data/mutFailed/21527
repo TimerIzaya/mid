@@ -1,0 +1,35 @@
+class C3 {
+    #d;
+    ["1024"] = "1024";
+    constructor(a5) {
+        try {
+            a5.__proto__ = this;
+        } catch(e6) {
+        }
+        let [...v7] = a5;
+        function F8(a10, a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a11;
+            } catch(e13) {
+            }
+        }
+        new F8(this, a5, "h");
+        const v15 = new F8("1024", this, "h");
+        new F8("h", "h", v15);
+    }
+}
+const v17 = new C3("h");
+new C3(C3);
+new C3("fCiP");
+[10,504348468,-1771370050,-5,1430650075,-2147483647];
+[25296,-49862,4294967297,1073741824,-1100453917,536870912];
+[257,-22413,9007199254740990,10,2080590061,268435456,-2147483649,-1511383007,6,11];
+new Int16Array(Int16Array);
+new BigInt64Array(255);
+new Uint8ClampedArray(257);
+const v32 = [-Infinity];
+class C33 {
+}
+new C33();
+v32 << v17;

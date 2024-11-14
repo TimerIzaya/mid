@@ -1,0 +1,44 @@
+const v0 = [0.43193519975290395,-1000000000000.0,-Infinity,-1.7976931348623157e+308,353072.8312181141,-379720.1697664474,5.0,-3.0];
+const v1 = [1.0,1.7976931348623157e+308,1000000000000.0,1.1689040390444803e+308,-1e-15,-1.7976931348623157e+308,-1000000000.0,-671726.4513473741,-2.0345151800654797,1e-15];
+const v2 = [-1.7060614033639748e+307,1.8781129139043347e+307,2.220446049250313e-16,0.5195989275201953,106.50530157621438,165534.02023460274];
+class C3 {
+    static 5 = v1;
+    m(a5, a6) {
+        %VerifyType(a6);
+        super.h = a5;
+        return v2;
+    }
+    [v0];
+    static 2;
+    static h;
+    #d;
+}
+const v7 = new C3();
+const v8 = new C3();
+const v9 = new C3();
+function f10(a11, a12, a13) {
+    const o22 = {
+        [v1](a15, a16, a17, a18) {
+            for (let v19 = 0; v19 < 32; v19++) {
+                a17["p" + v19] = v19;
+            }
+            return a15;
+        },
+        "h": a12,
+        [v2]: a13,
+    };
+    return o22;
+}
+const v23 = f10(v0, v1, v8);
+f10(v1, v2, v9);
+const v25 = f10(v0, v0, v7);
+for (let [v27] of v23) {
+}
+function F28() {
+    if (!new.target) { throw 'must be called with new'; }
+    const v30 = v25.constructor;
+    let v31;
+    try { v31 = new v30(v30); } catch (e) {}
+    Object.defineProperty(this, "c", { enumerable: true, set: v31 });
+}
+new F28();

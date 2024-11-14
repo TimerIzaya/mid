@@ -1,0 +1,97 @@
+const v0 = [];
+const v3 = new WeakSet();
+function f6() {
+    return Uint32Array;
+}
+function f7(a8) {
+    v0[f6] = v3;
+}
+Object.defineProperty(Uint32Array, 0, { writable: true, configurable: true, get: f6, set: f7 });
+Uint32Array[1] = v0;
+new Uint32Array(Uint32Array);
+new Uint8Array(256);
+const v15 = new Int32Array(3424);
+class C19 {
+    constructor(a21, a22) {
+        this.m = this;
+        Object.defineProperty(this, "h", { writable: true, configurable: true, enumerable: true, value: this });
+        function f23(a24) {
+            function f26(a27) {
+                a27 & a27;
+            }
+            this.onmessage = f26;
+            this.__proto__;
+        }
+        const v34 = [f23];
+        const o35 = {
+            "arguments": v34,
+            "type": "function",
+        };
+        new Worker(f23, o35);
+    }
+}
+C19.undefined = v15;
+const v37 = new C19(C19, -4.0);
+const v38 = new C19(-4.0, -4.0);
+const v39 = new C19(9007199254740992, 512);
+v39.m = Int32Array;
+let v40 = 0;
+const v42 = new Uint8Array(v40);
+const v45 = new Uint8Array(4096);
+const v48 = new Uint8Array(255);
+function f49() {
+    return f6;
+}
+function f50(a51) {
+    class C52 {
+    }
+    const v53 = new C52();
+    class C54 extends C52 {
+        [v53];
+    }
+    new C54();
+}
+Object.defineProperty(v48, Symbol.toPrimitive, { writable: true, get: f49, set: f50 });
+function f58(a59, a60) {
+    v40 ^= 9007199254740992;
+    try { new a60(a60, v38, a60, Uint8Array, a59); } catch (e) {}
+    return a60;
+}
+v48[Symbol.toPrimitive] = f58;
+let v64;
+try { v64 = v45(); } catch (e) {}
+try { v64(v42, v64, v38); } catch (e) {}
+C19[v48];
+let v70;
+try { v70 = v39.m(v40, v42); } catch (e) {}
+const o71 = {
+};
+try {
+    o71.h = v70;
+} catch(e72) {
+}
+try {
+    const o73 = {
+    };
+    o73.d = v64;
+    v37.h = v70;
+    o73.d = 512;
+} catch(e74) {
+}
+try {
+    const o75 = {
+    };
+    o75.d = o75;
+    o75.h = v70;
+    o75.d = 512;
+    o75.e = v42;
+} catch(e76) {
+}
+try {
+    const o77 = {
+    };
+    o77.h = v70;
+    o77.d = 512;
+    o77.e = 255;
+} catch(e78) {
+}

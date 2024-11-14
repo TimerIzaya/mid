@@ -1,0 +1,43 @@
+const v1 = new Map();
+function f8(a9, a10, a11, a12) {
+    const o26 = {
+        "c": 50827n,
+        set b(a14) {
+            try { new a11(...v1, Map, a10, ...a14, ...v1); } catch (e) {}
+            super[a12].__proto__;
+        },
+        "f": a9,
+        __proto__: v1,
+        "d": a12,
+        n(a19, a20, a21, a22) {
+            return -536870912n;
+        },
+    };
+    return a9;
+}
+const v27 = f8(-1000000000.0, -1000000000.0, 509844.9801830696, 8679n);
+const v28 = v27(-1000000000.0, 509844.9801830696, v27, 50827n);
+const v29 = f8(509844.9801830696, -1.2641183599209558e+308, f8, 10n);
+class C30 extends v28 {
+    static {
+        super.size ^= -1.2641183599209558e+308;
+        super.size;
+        try {
+            f8(509844.9801830696, -1.2641183599209558e+308, this, 1514097296n);
+        } catch(e35) {
+        }
+    }
+    static #d = v29;
+    #h;
+    d = v1;
+    h = -1.2641183599209558e+308;
+    static 213 = 8679n;
+}
+new C30();
+new C30();
+new C30();
+class C39 {
+    static {
+        this < this;
+    }
+}

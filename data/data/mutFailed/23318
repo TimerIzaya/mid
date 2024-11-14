@@ -1,0 +1,32 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v0;
+    } catch(e3) {
+    }
+    try {
+        this.b = v0;
+    } catch(e4) {
+    }
+}
+new F1(v0, F1);
+const v6 = new F1();
+new F1(F1, v6);
+class C11 {
+    static get a() {
+        return 7;
+    }
+    static {
+        let v17;
+        try { v17 = F1("c", "c"); } catch (e) {}
+        v17.a |= v17;
+        super["-4294967295"] = "-4294967295";
+    }
+}
+new C11();
+new C11();
+new C11();
+const v21 = [1,4294967296,-9007199254740992,4,-4294967295,-9,-4294967297,255,536870888,255];
+const v22 = [v21,v21,v21,"search"];
+Array(1102693041).slice(v22, v21);

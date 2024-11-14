@@ -1,0 +1,31 @@
+new Set();
+[-1000.0,-Infinity,1.0235319888513317e+307,1.5199732281850112e+308];
+[-232.64213936620683,-2.220446049250313e-16,-5.0,-1.0,-789176.8400585222];
+[2.2250738585072014e-308,-1.286379981716932e+308,-4.342243958910257,-37285.964403582155,-4.0,-1.254334847385927e+308];
+/^a{bfoo(?!bar)bazxxyz{1,}*/imsy;
+/3/gsy;
+/[\cA]/guisy;
+class C14 {
+}
+class C15 extends Set {
+}
+const v16 = new C15();
+const v19 = new Uint8Array(2);
+const v21 = new Uint32Array(C15);
+function f22(a23, a24, a25, a26) {
+    try { v19.apply(); } catch (e) {}
+    new a23(a26, a24, v16);
+    const o32 = {
+        "b": f22,
+        ...v19,
+        n(a30, a31) {
+            v21[a23] = v21;
+            return a31;
+        },
+    };
+    o32[1] = o32;
+    return a23;
+}
+for (let v33 = 0; v33 < 500; v33++) {
+    f22(Uint8Array);
+}

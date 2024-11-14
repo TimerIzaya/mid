@@ -1,0 +1,91 @@
+const v2 = new Float64Array(697);
+new BigInt64Array(Float64Array);
+new Uint8ClampedArray(99);
+const v9 = /k1fb/d;
+const v10 = /Ioc((\xed\xa0\x80))\x02/gudim;
+const v11 = /\x01/vy;
+function f12() {
+    return v10;
+}
+class C13 {
+    static {
+        function F15(a17, a18, a19, a20) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = a20;
+            } catch(e21) {
+            }
+            try {
+                this.f = a17;
+            } catch(e22) {
+            }
+        }
+        new F15(2, 2, v11, v10);
+        new this(697, 99, this, v9);
+        new F15(99, v2, v10, this);
+    }
+}
+new C13();
+new C13();
+new C13();
+const v29 = [-207.12380510118123,-982114.0356244294,0.9612192807513333,-3.0,-1000.0,1.0];
+const v31 = new Uint32Array();
+let v32 = -4294967297n;
+const v33 = v32--;
+const v34 = [601759695];
+const v35 = [1073741824,1073741823,1376142744,1073741825];
+function f36(a37, a38, a39, a40) {
+    const v41 = a37.constructor;
+    let v42;
+    try { v42 = v41(); } catch (e) {}
+    const v43 = v42?.constructor;
+    let v44;
+    try { v44 = v43(f36, a37, v29, Uint32Array, v41); } catch (e) {}
+    function f45() {
+        const v47 = ("Vre").charAt(v44);
+        v47.blink();
+        let v49;
+        try { v49 = ("Vre").codePointAt(v29); } catch (e) {}
+        Uint32Array % v49;
+        let v51 = Float64Array;
+        v51 = a38;
+        b = v29;
+        let v52 = v29.length;
+        v52++;
+        try {
+            v35.forEach(a38);
+        } catch(e55) {
+            v49.message = e55;
+        }
+        const o66 = {
+            "c": v32,
+            valueOf(a57, a58) {
+                return v42;
+            },
+            1073741824: v31,
+            [v32](a60, a61, a62, a63) {
+                eval(v47);
+            },
+        };
+        return v35;
+    }
+    f45();
+    const v69 = Array(v43);
+    try { v69.findLast(); } catch (e) {}
+    const v72 = Int8Array.of();
+    let v73;
+    try { v73 = a37.every(v72, a37, v72, a38, Array); } catch (e) {}
+    const v74 = new Int8Array(v73);
+    const v76 = v74.buffer.slice();
+    const v77 = v76.constructor;
+    try { v77(v76, v73, v33, v72, a37); } catch (e) {}
+    const v80 = new Int32Array(v77, v41, v41);
+    v80.lastIndexOf(a37, a39);
+    try { v35["find"](..."find", a40, ...v34, ...v35); } catch (e) {}
+    return v32;
+}
+for (let v84 = 0; v84 < 10; v84++) {
+    f36(v31);
+}
+%OptimizeFunctionOnNextCall(f36);
+f36(Uint32Array);

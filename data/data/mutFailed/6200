@@ -1,0 +1,59 @@
+[];
+const v3 = new Uint8Array(1900);
+let v6;
+try { v6 = new Uint16Array(10, v3, 1900); } catch (e) {}
+const v7 = new Uint16Array(10);
+5 >>> 5;
+new Int32Array(5);
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v6;
+    const v17 = this?.__lookupGetter__;
+    try { new v17(5); } catch (e) {}
+    try {
+        this.e = v7;
+    } catch(e19) {
+    }
+    try {
+        this.c = 5;
+    } catch(e20) {
+    }
+}
+new F12(1900, 1900, 10);
+const v22 = new F12(10, 10, 10);
+new F12(1900, 1900, 5);
+for (let v27 = 0; v27 < 25; v27++) {
+    const v28 = [601759695];
+    const v29 = v28?.filter;
+    let v30;
+    try { v30 = new v29(v7); } catch (e) {}
+    const v31 = [1073741824,1073741823,1376142744,1073741825];
+    function f32() {
+        function f33() {
+            v7[v30] = -16n;
+            try {
+                v28.length = 1900;
+            } catch(e34) {
+            }
+            return v22;
+        }
+        return f33;
+    }
+    Object.defineProperty(v31, "toString", { writable: true, configurable: true, get: f32 });
+    function f35(a36, a37, a38, a39) {
+        a38.toString = f35;
+        -a36;
+        a37 >>> a37;
+        const v42 = a36 >>> a36;
+        v42 | v42;
+        const v44 = a38[3];
+        v44 + v44;
+        ("find").codePointAt(v31);
+        try { v31["find"](..."find", a39, ...v28); } catch (e) {}
+        return a39;
+    }
+    f35.length = f35;
+    for (let v49 = 0; v49 < 10; v49++) {
+        f35(v49, v49, v31);
+    }
+}

@@ -1,0 +1,34 @@
+class C6 {
+    static set e(a8) {
+        try {
+            this.fuck(295987891n, this);
+        } catch(e11) {
+        }
+        const t6 = "a";
+        t6[-1] = C6;
+        Object.defineProperty(this, 105, { writable: true, configurable: true, enumerable: true, value: this });
+        const v12 = -9223372036854775807n || "construct";
+        this.__proto__;
+        ("construct")[v12];
+    }
+    ["construct"];
+    ["a"];
+    static e = -9223372036854775807n;
+}
+const v15 = new C6();
+const v16 = v15?.__lookupSetter__;
+try { new v16(C6); } catch (e) {}
+const v18 = new C6();
+class C19 extends C6 {
+    ["construct"];
+}
+C19.prototype = C19;
+new C19();
+const v21 = new C19();
+v21.a = v21;
+const v22 = new v18();
+v16.construct = v22;
+const v23 = new C6();
+C6.construct = v23;
+const v25 = new v22(Int32Array);
+let {...v26} = v25;

@@ -1,0 +1,105 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #f = f0;
+    constructor() {
+        super();
+        1935518033n << 1935518033n;
+    }
+    static toString() {
+        const o11 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o11);
+        return this;
+    }
+}
+const v13 = new C1();
+const v14 = new C1();
+const v15 = v14?.constructor;
+try { new v15(); } catch (e) {}
+const v17 = new C1();
+function f21(a22, a23, a24, a25) {
+    const o37 = {
+        get e() {
+            const t25 = "toString";
+            t25.length <<= a23;
+            try {
+                super.m(this);
+            } catch(e28) {
+            }
+            return a25;
+        },
+        get g() {
+            const t34 = "function";
+            delete t34[2480846716];
+            this.e &&= a23;
+            Object.defineProperty(a22, a24, { enumerable: true, get: f0 });
+            C1[2] = "function";
+            const v33 = -(delete v13[-1]);
+            [-2,268435440,1024,234093285,4,4096];
+            [-10227,1073741824,4096,-256,7,-65536,4,255,-2,1];
+            [1073741823,2147483648,-23755];
+            return v33;
+        },
+    };
+    return o37;
+}
+const v38 = f21(v13, "constructor", C1, "toString");
+const v39 = f21(v38, f0, v13, C1);
+f21(v17, "constructor", v39, v39).e;
+class C42 extends C1 {
+    static #f;
+    ["constructor"];
+    #o(a44, a45) {
+        function F46(a48, a49, a50, a51) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a51;
+            } catch(e52) {
+            }
+        }
+        const v53 = new F46(v38, this, a44, this);
+        new F46(v53, v38, this, "function");
+        new F46(C1, this, this, this);
+        return F46;
+    }
+    g;
+}
+const v56 = new C42();
+try { v56.isPrototypeOf(v38); } catch (e) {}
+const v58 = new C42();
+v58.g = v58;
+new C42();
+const v61 = new WeakMap();
+try { v61.delete(v13); } catch (e) {}
+const v63 = /8[\cA]v/uisy;
+v63[Symbol.toPrimitive] = f0;
+function f66(a67, a68) {
+    const v69 = [a67,a67,a67,a67,a67];
+    v61.set(v69, v69);
+}
+f66.e = f66;
+const v72 = Symbol.toPrimitive;
+function f74(a75, a76, a77, a78) {
+    Object.defineProperty(a75, Symbol.toPrimitive, { configurable: true, enumerable: true, value: f74 });
+    const o85 = {
+        toString(a82, a83) {
+            new Date(a75);
+            return this;
+        },
+    };
+    return o85;
+}
+f74.d = f74;
+v63[v72] = f66;
+const v86 = [3480,1024,-4294967297,-1024,512,65536,29198,-9223372036854775807,-2147483647];
+v86[2] = v86;
+try {
+    v86.length = v63;
+} catch(e87) {
+    e87.message;
+}
+const v91 = new BigInt64Array(1073741824);
+try { v91.reduce(v63); } catch (e) {}

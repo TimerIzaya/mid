@@ -1,0 +1,45 @@
+const v3 = [-1000000000000.0,-1000000000000.0,-546.6734457364817,-193495.33715750056];
+const v4 = [v3,-193495.33715750056];
+const v5 = [v4,v4,v3,v3];
+const v10 = new Date();
+function f11(a12, a13, a14) {
+    function f15() {
+        const v17 = new Date();
+        const v19 = new Set();
+        v19.add(v17);
+        return a12;
+    }
+    a12.toString = f15;
+    const o29 = {
+        [a12](a22, a23, a24) {
+            Date(-4096);
+            %PrepareFunctionForOptimization(Date);
+            Date(-4096);
+            Date(-4096);
+            %OptimizeMaglevOnNextCall(Date);
+            super.h = Date(-4096);
+            return a12;
+        },
+        [-4096]: Date,
+        __proto__: v10,
+        "c": -546.6734457364817,
+        "g": -193495.33715750056,
+    };
+    return o29;
+}
+f11(v4, -193495.33715750056, v4);
+f11(v5, -1000000000000.0, v3);
+f11(v3, -1000000000000.0, -546.6734457364817);
+const v38 = new BigInt64Array(4046);
+function f40(a41, a42) {
+    a41++;
+    const v44 = a41++;
+    v44 >> v44;
+    let o46 = {
+        "d": a41,
+        ...a41,
+    };
+    [,...o46] = v38;
+}
+f40();
+f40(4046);

@@ -1,0 +1,66 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = f0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+new F1();
+new v4();
+class C7 extends F1 {
+    toString(a9, a10) {
+        super.d;
+        Math.log2(1004886040);
+        Math.trunc(v4);
+        a9.acosh(~f0);
+        return f0;
+    }
+}
+new C7();
+new C7();
+new C7();
+for (let v25 = 0; v25 < 5; v25++) {
+    function f26() {
+        for (let i28 = 0, i29 = 3;
+            (() => {
+                class C30 extends f26 {
+                }
+                return C30 < 3;
+            })();
+            (() => {
+                const v34 = i28++;
+                v34 >> v34;
+            })()) {
+            class C38 {
+            }
+            const t38 = [-Infinity,1.7976931348623157e+308,1.0,1.7976931348623157e+308,-1.0,Infinity];
+            t38.length >>>= -65536;
+        }
+        return f26;
+    }
+    f26();
+    %OptimizeFunctionOnNextCall(f26);
+    function f44() {
+        return 2720;
+    }
+    function F45(a47, a48) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v49 = this.constructor;
+        try { new v49(a47, 256); } catch (e) {}
+        -a47;
+        a48--;
+        this.h = f44;
+    }
+    const v53 = new F45();
+    class C54 extends F45 {
+        #h;
+        3120 = F45;
+        #g = v53;
+        valueOf(a56, a57, a58) {
+        }
+        [v53] = 256;
+    }
+}

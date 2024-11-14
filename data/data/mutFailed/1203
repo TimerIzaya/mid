@@ -1,0 +1,56 @@
+function f0() {
+    const o18 = {
+        "d": -1.0,
+        ..."i",
+        ..."i",
+        "a": 1000000000000.0,
+        ..."i",
+        "h": "i",
+        p(a5, a6) {
+            super[-1.0];
+            a5 == "i";
+            new Uint32Array(4096);
+            new BigInt64Array(2408);
+            new BigUint64Array(7);
+            return "i";
+        },
+    };
+    return o18;
+}
+f0.p5 = f0;
+const v19 = f0();
+v19[Symbol.toPrimitive] = f0;
+const v22 = f0();
+const v23 = f0();
+class C24 extends f0 {
+    static b;
+    [v19] = v19;
+    static {
+        super[v22] = v19;
+        for (let v26 = 0; v26 < 32; v26++) {
+            this["p" + v26] = C24;
+        }
+    }
+    c = v23;
+    #b;
+    static #d;
+}
+const v29 = new C24();
+const v30 = new C24();
+new C24();
+function F32(a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "a", { enumerable: true, value: this });
+    try {
+        this.a = v22;
+    } catch(e37) {
+    }
+}
+new C24(v30, v30, v22);
+new F32(v22, v30, v30);
+new F32(v29, v30, v30);
+[-1000.0,1000000000.0];
+[-128798.16829319892,-1.0,0.7896448067029134,-991187.9510324982,-5.0,-1000000000000.0,-2.2250738585072014e-308,-650.1127926368764,0.0,-2.220446049250313e-16];
+[2.220446049250313e-16,-446.2277220139599,-372861.98417430324,NaN,-0.0,0.573292969783698,-7.201675535238162e+307];
+const v47 = new Float32Array(3);
+Reflect.construct(Uint32Array, [v47]);

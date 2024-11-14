@@ -1,0 +1,56 @@
+class C5 {
+    constructor(a7) {
+        try { this(undefined, this); } catch (e) {}
+        new Int16Array(40);
+        new Float32Array(16);
+        new Float64Array(64);
+    }
+    static [undefined] = -7n;
+    [11392n];
+    g;
+}
+new C5(129n);
+new C5(129n);
+const v20 = new C5(129n);
+class C21 extends C5 {
+    #g;
+    static {
+        let v23;
+        try { v23 = this.fill(); } catch (e) {}
+        function f24(a25, a26, a27, a28) {
+            const v30 = [129n,129n,v23];
+            Reflect.construct(a27, v30, a27);
+            try {
+                v30.length = a27;
+            } catch(e32) {
+            }
+            return Reflect;
+        }
+        f24(129n, this, f24, v20);
+    }
+}
+const v34 = new C21();
+const v35 = new C21();
+new C21();
+let v37;
+try { v37 = C5(v20); } catch (e) {}
+try { v35["search"](undefined, 11392n, "search"); } catch (e) {}
+try {
+    v34.g = v37;
+} catch(e40) {
+}
+[Infinity,-334567.22365112475,9.609942811801246e+307,563.7120149510397,2.0];
+[-1.5930846205921978e+308,1000000000000.0,2.220446049250313e-16,NaN,-Infinity,-1000.0];
+[835.8905575280332,261864.54187176982,-Infinity,-1.0,5.0];
+class C47 {
+}
+class C48 extends C47 {
+    static set b(a50) {
+        class C60 {
+            #a;
+            constructor(a62, a63, a64) {
+                a63.#a;
+            }
+        }
+    }
+}

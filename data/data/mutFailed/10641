@@ -1,0 +1,97 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -9223372036854775808;
+    } catch(e8) {
+    }
+    try {
+        this.a = a7;
+    } catch(e9) {
+    }
+    try {
+        this.f = f1;
+    } catch(e10) {
+    }
+}
+const v11 = new F5(1109859588);
+const v12 = new F5(1109859588);
+const v13 = new F5(1109859588);
+v11[v13] %= -9223372036854775808;
+let v14;
+try { v14 = v12.m(f1, v13, v12, F5, v12); } catch (e) {}
+f1 in v14;
+new WeakSet();
+function F24() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v26 = new F24();
+function F27(a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f31() {
+        return a30;
+    }
+    const v32 = f31();
+    class C34 {
+    }
+    const v35 = new C34();
+    function f36(a37, a38) {
+        const v39 = a37.BYTES_PER_ELEMENT;
+        class C40 {
+        }
+        C40.length;
+        try { ("0x2I").sup(); } catch (e) {}
+        class C45 {
+        }
+        const v46 = C45.call;
+        try { v46(); } catch (e) {}
+        class C48 extends C45 {
+        }
+        try { C48(NaN, v35, NaN, v32); } catch (e) {}
+        Math.asinh("0x2I");
+        Math.trunc("0x2I");
+        let v56 = !"0x2I" - "0x2I";
+        Math.floor(--v56);
+        try {
+            v35.__proto__ = v39;
+        } catch(e59) {
+        }
+        function F60(a62, a63) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.e = a38;
+        }
+        const v64 = new F60(a38, v46);
+        new F60(v64, v64);
+        new F60(v26);
+        const v67 = a38?.propertyIsEnumerable;
+        try { v67(); } catch (e) {}
+        class C69 {
+        }
+        try { C69.call(NaN, v32, v26); } catch (e) {}
+        [1000000000.0,2.2250738585072014e-308,-3.0,-2.2250738585072014e-308,-2.2250738585072014e-308,-6.525028373249204e+307,-7.851646360254072e+307,0.6785915059434757,-0.0];
+        class C72 {
+        }
+        try { C72.apply(1.7976931348623157e+308); } catch (e) {}
+        Symbol.b = Symbol;
+        Symbol.replace;
+        const v76 = [];
+        try { v76.with(); } catch (e) {}
+        new Float64Array();
+        const v80 = new Float64Array();
+        const v81 = v80.values();
+        let v82;
+        try { v82 = v81.next(); } catch (e) {}
+        return v82;
+    }
+    %PrepareFunctionForOptimization(f36);
+    f36(Uint16Array);
+    %OptimizeFunctionOnNextCall(f36);
+    f36(v35);
+    new BigInt64Array(1073741824);
+}
+new F27();
+new F27();

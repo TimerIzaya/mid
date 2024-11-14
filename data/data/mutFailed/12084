@@ -1,0 +1,42 @@
+class C3 {
+    static {
+        const o5 = {
+        };
+        try {
+            o5.b = this;
+        } catch(e6) {
+        }
+        try {
+            const o7 = {
+            };
+            o7.g = o7;
+            o7.b = this;
+            o7.g = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.b = this;
+            o9.g = this;
+            o9.h = -3.7327392415986154;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.b = this;
+            o11.g = this;
+            o11.d = -3.7327392415986154;
+        } catch(e12) {
+        }
+    }
+}
+new C3(-3.7327392415986154, -3.7327392415986154, C3);
+new C3();
+new C3();
+new Uint32Array(3096);
+new Int8Array(129);
+const v24 = new Int8Array(-65536);
+const v27 = new Uint16Array(255);
+v27.buffer.slice(Int8Array, v24).transfer();

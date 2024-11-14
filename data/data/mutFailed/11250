@@ -1,0 +1,62 @@
+class C3 {
+    static #toString(a5, a6) {
+        const v9 = new Date();
+        try {
+            super.valueOf(this, Date, Date, v9);
+        } catch(e11) {
+        }
+        const v12 = [a6];
+        const v14 = Reflect.apply(("p").codePointAt, "matchAll", v12);
+        try {
+            Reflect.valueOf = v14;
+        } catch(e15) {
+        }
+        return "p";
+    }
+}
+const v16 = new C3();
+new v16();
+new C3();
+class C25 {
+}
+function f26(a27, a28) {
+}
+f26.prototype = f26;
+%OptimizeFunctionOnNextCall(f26);
+f26();
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f35(a36) {
+        const o37 = {
+        };
+        function F38(a40, a41, a42, a43) {
+            if (!new.target) { throw 'must be called with new'; }
+            function f47(a48, a49) {
+                const o52 = {
+                    968: a48,
+                    "d": a48,
+                    [268435439n]: 2105444095n,
+                    __proto__: o37,
+                    "g": a42,
+                    ...a49,
+                    "b": -4294967296n,
+                    "f": this,
+                    valueOf(a51) {
+                        return a51;
+                    },
+                };
+                return a49;
+            }
+            for (let v53 = 0; v53 < 100; v53++) {
+                f47(-4294967296n, v53);
+            }
+        }
+        return this;
+    }
+    Object.defineProperty(this, "constructor", { configurable: true, value: f35 });
+    const v55 = C25.constructor;
+    try { new v55(a34, C25); } catch (e) {}
+    a32 % a32;
+}
+new C3(820, 121, 129);
+new F30(820, 121);

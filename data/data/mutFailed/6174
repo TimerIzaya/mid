@@ -1,0 +1,110 @@
+function f0() {
+}
+const v1 = [f0,f0];
+const v2 = [v1,f0,f0];
+const v3 = [f0];
+class C4 extends f0 {
+    set c(a6) {
+        const v7 = super[f0];
+        function f8(a9, a10, a11) {
+            const o12 = {
+                ...v2,
+                5: a11,
+                __proto__: a9,
+            };
+            return o12;
+        }
+        function f13(a14, a15, a16, a17) {
+            const o22 = {
+                [a16](a19, a20, a21) {
+                    switch (a14) {
+                        default:
+                            break;
+                    }
+                },
+            };
+            return a17;
+        }
+        f8(v7, v2, this);
+        for (let v26 = 0; v26 < 10; v26++) {
+            const t29 = "f";
+            t29[1073741824] = 4294967296;
+        }
+        f8(v3, a6, v1);
+        f8(v2, v1, v1);
+    }
+}
+const v29 = new C4();
+const v30 = new C4();
+const v31 = new C4();
+class C32 extends C4 {
+    65535 = v30;
+    static #g = C4;
+    constructor(a34, a35) {
+        super();
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeFunctionOnNextCall(f0);
+        f0();
+    }
+    #a;
+    3 = v29;
+}
+new C32(v2, v31);
+new C32(v1, C4);
+new C32(v1, v1);
+function f43() {
+    return C4;
+}
+function f48() {
+    for (let v52 = 0; v52 < 32; v52++) {
+        const t62 = "g";
+        t62["p" + v52] = v52;
+    }
+    class C55 {
+    }
+    const v56 = new C55();
+    const v57 = v56.constructor;
+    const v58 = new v57(f48);
+    const v59 = v58.constructor;
+    const v60 = new v59();
+    const v61 = v56.constructor;
+    const v62 = new v61();
+    const v63 = new v61(v59, f48, v62, v60, v57);
+    const t75 = v63.constructor;
+    const v65 = new t75();
+    const t77 = v65.constructor;
+    new t77();
+    const v68 = new C55();
+    const v69 = v68.constructor;
+    const t81 = v69.valueOf(v69, v69, f48, v69);
+    new t81();
+    return v65;
+}
+const v72 = [1126838905];
+const v73 = Reflect.construct(Int8Array, v72);
+class C74 {
+    constructor(a76) {
+        const v77 = (a78, a79, a80, a81) => {
+            this[536870887] = a76;
+            return a81;
+        };
+    }
+    [-2] = 31876;
+}
+C32 = v73;
+try {
+    v72.__proto__ = v2;
+} catch(e82) {
+}
+new C74();
+const v84 = [-20096,4294967296,-65537,-2];
+v84.constructor = f0;
+const v85 = [-1947047520];
+const v86 = [v85,v85,v85,v84];
+v86.toString = f48;
+const v87 = [v86];
+v87.toString = f43;
+v84["slice"](v87);

@@ -1,0 +1,44 @@
+function f0() {
+    const o9 = {
+        ..."n",
+        "d": 128,
+        [128]: "n",
+        ..."n",
+        set e(a5) {
+            this[3] = a5;
+            let v6;
+            try { v6 = a5(this, this, a5, a5, "n"); } catch (e) {}
+            v6.__proto__;
+            function f8() {
+                return 512;
+            }
+        },
+    };
+    return o9;
+}
+f0();
+f0();
+f0();
+new Int32Array(1000);
+new Int16Array(2394);
+new Float64Array(1720);
+function f27(a28, a29, a30, a31) {
+    function f32() {
+        const o36 = {
+            "c": 1000,
+            valueOf(a34, a35) {
+            },
+        };
+        try {
+            const t32 = 1;
+            t32();
+        } catch(e38) {
+        }
+    }
+    const t37 = 15;
+    t37();
+}
+for (let v40 = 0; v40 < 5; v40++) {
+    f27(522675525n, 0.5375507050396837, 0.5375507050396837, v40);
+}
+f27();

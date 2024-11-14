@@ -1,0 +1,36 @@
+new Int32Array(Int32Array);
+const v5 = new Int32Array(6);
+new Uint32Array(1977);
+function f15(a16, a17, a18, a19) {
+    const v21 = new Int8Array();
+    const v22 = v21.buffer;
+    v22.g = v22;
+    function f23() {
+        const o24 = {
+        };
+        return o24;
+    }
+    function F25() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const t15 = 6;
+    const v27 = new t15();
+    v27.constructor = f23;
+    const t18 = F25.constructor;
+    ("cbrt").toLocaleUpperCase(t18());
+    return Int8Array;
+}
+%PrepareFunctionForOptimization(2509);
+f15();
+%OptimizeFunctionOnNextCall(f15);
+try {
+    v5.e = -4096n;
+} catch(e33) {
+}
+const o37 = {
+    "execution": "async",
+    "type": "minor",
+};
+const t33 = "async";
+t33(o37);
+f15();

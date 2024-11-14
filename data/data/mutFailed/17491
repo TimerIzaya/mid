@@ -1,0 +1,32 @@
+const o2 = {
+};
+const t2 = 4096;
+new t2(4096, 4096, 4096);
+function f4() {
+    class C5 {
+        constructor(a7) {
+            function f8() {
+                return a7;
+            }
+            Object.defineProperty(this, "length", { configurable: true, enumerable: true, get: f8 });
+        }
+    }
+    new C5();
+    const v10 = new C5(f4);
+    v10.length;
+    return f4;
+}
+%OptimizeFunctionOnNextCall(f4);
+const v12 = new Int16Array(4096);
+0 >> 0;
+const v19 = ("n")[2147483648];
+%VerifyType(v12);
+const v20 = new Int8Array(0);
+try { v20.copyWithin("symbol", v19); } catch (e) {}
+new Int8Array(5);
+-(-4294967297n);
+const v29 = [];
+const v31 = [];
+v31[0] = v31;
+const v32 = new BigUint64Array(v31);
+v32[v32] = v29;

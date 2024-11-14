@@ -1,0 +1,76 @@
+const v0 = /h\x0f\ud808\udf45*/guds;
+function f1() {
+    function f2() {
+        return v0;
+    }
+    return v0;
+}
+v0[Symbol.toPrimitive] = f1;
+const v5 = /\p{Script=Greek}/gim;
+const v6 = /a(?=bbb|bb)c{12,+/msy;
+const v8 = [true,v5,v0,v6,v5];
+const v9 = [v8,v8,v6,v8];
+const v10 = [v0,v8,v8];
+class C11 {
+    #c = true;
+    static o(a13, a14, a15, a16) {
+        v8.length;
+        super[a13] = true;
+        super[v8];
+        try {
+            v5.e = a13;
+        } catch(e19) {
+        }
+        return v9;
+    }
+    [-2] = v9;
+    static [v8] = v5;
+}
+new C11();
+const v21 = new C11();
+const v22 = new C11();
+function f23() {
+    function F24(a26, a27, a28) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.e = a27;
+        } catch(e29) {
+        }
+    }
+    const v30 = new F24(v10, v5, v10);
+    const v31 = new F24(v9, v0, v30);
+    new F24(v22, v5, v31);
+    return v9;
+}
+[-8,255,-50410,9007199254740990,-16,5818,-29292];
+[-21152];
+[0];
+for (let v36 = 0; v36 < 5; v36++) {
+    function f37() {
+        function f39(a40, a41, a42, a43) {
+            const v44 = a42;
+            eval && v5;
+            const o46 = {
+                "defineProperty": eval,
+                "deleteProperty": f37,
+                "ownKeys": f39,
+                "set": eval,
+            };
+            new Proxy(v21, o46);
+            const o52 = {
+                n(a50, a51) {
+                    return v36;
+                },
+            };
+            o52.n(a43, o52, o52, a40, v36);
+            return v36;
+        }
+        for (let v54 = 0; v54 < 25; v54++) {
+            f39(v54, f37, eval, v54);
+        }
+        eval();
+        return f37;
+    }
+    f37();
+    %OptimizeFunctionOnNextCall(f37);
+}

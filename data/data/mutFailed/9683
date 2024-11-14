@@ -1,0 +1,84 @@
+class C3 {
+    static p(a5, a6) {
+        this || this;
+        this != a5;
+        return a6;
+    }
+    m(a10, a11) {
+        new Map();
+        return 4.0;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function f17() {
+    function F18(a20, a21) {
+        if (!new.target) { throw 'must be called with new'; }
+        const v22 = this?.constructor;
+        try { new v22(this); } catch (e) {}
+    }
+    new F18();
+    return 1.1174806599556943e+308;
+}
+v16[Symbol.toPrimitive] = f17;
+function f27() {
+    function f28(a29, a30) {
+        const o32 = {
+            get c() {
+            },
+        };
+        return 4.0;
+    }
+    function F33() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    class C35 {
+        constructor(a37, a38, a39) {
+            class C41 extends a38.constructor {
+            }
+            new C41();
+        }
+    }
+    new C35(F33, C35);
+    return f28;
+}
+function f44(a45) {
+    const v47 = new BigInt64Array();
+    v47.copyWithin(10000);
+}
+Object.defineProperty(v16, "toString", { configurable: true, get: f27, set: f44 });
+class C49 extends C3 {
+    static [v16] = 10000;
+    constructor(a51, a52, a53) {
+        super();
+        try {
+            v14.valueOf = a51;
+        } catch(e54) {
+        }
+    }
+    static #f;
+    static f;
+}
+const v55 = new C49(v14, v14, v14);
+new C49(v55, v55, v55);
+new C49(v15, v15, v14);
+const v58 = [-671138503,-536870912,-9007199254740991,-9007199254740992,-268435456,128,2023752111,-970019998,8839,6];
+v58.valueOf = Symbol;
+function f59() {
+    function f60(a61, a62) {
+        try {
+            f44(true);
+        } catch(e65) {
+        }
+        return a61;
+    }
+    return f60;
+}
+function f66(a67) {
+    Object.defineProperty(v15, 65535, { writable: true, get: f44 });
+}
+Object.defineProperty(v58, "toString", { configurable: true, get: f59, set: f66 });
+const v68 = [1073741824,-46456,536870888];
+v68.toString = f44;
+Math.exp(v58 | v68);

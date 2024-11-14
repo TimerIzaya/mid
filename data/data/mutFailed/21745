@@ -1,0 +1,40 @@
+const v0 = /0Oa(?!b)+/guisy;
+const v1 = /foo(?!bar)baz^N\u003z+/gdis;
+const v2 = /A[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/gvdiy;
+function f6(a7, a8, a9, a10) {
+    const o19 = {
+        4294967296: v2,
+        "b": 876090793n,
+        "h": 646233787n,
+        valueOf(a12, a13) {
+            const v15 = [a10];
+            Reflect.apply(v1.compile, v2, v15);
+            try {
+                v15.g = Reflect;
+            } catch(e18) {
+            }
+            return 646233787n;
+        },
+    };
+    return o19;
+}
+const v20 = f6(v1, 876090793n, v1, v2);
+f6(v0, 876090793n, v2, 646233787n);
+f6(v0, 646233787n, v2, v20);
+class C26 {
+    #d;
+}
+const v27 = new C26();
+const v31 = new BigUint64Array(10);
+for (const v33 in v31) {
+    const v34 = v27.constructor;
+    class C35 extends v34 {
+    }
+    new C35();
+    new Float64Array(v34);
+}
+class C38 {
+}
+C38.constructor;
+const t37 = "bigint";
+t37();

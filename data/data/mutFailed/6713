@@ -1,0 +1,37 @@
+function f0() {
+}
+const v3 = new Array(2740);
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v3;
+    } catch(e7) {
+    }
+    try {
+        this.d = a6;
+    } catch(e8) {
+    }
+}
+const v9 = new F4(f0);
+new F4(v9);
+new F4(v3);
+function f15() {
+    return v3;
+}
+class C20 {
+    f = "1073741824";
+}
+const v21 = new C20();
+class C24 {
+    [C20];
+    static 1073741825;
+    static ["YZmA"] = v21;
+}
+new v21();
+("YZmA")["indexOf"]("g");
+("YZmA")[Symbol.toStringTag];
+const o34 = {
+    "execution": "sync",
+    "type": "YZmA",
+};
+gc(o34);

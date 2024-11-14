@@ -1,0 +1,63 @@
+class C3 {
+    p(a5) {
+        Object.defineProperty(this, "cSSF", { enumerable: true, value: this });
+        try {
+            ("cSSF").trimRight();
+        } catch(e7) {
+        }
+        return a5;
+    }
+    [1.7976931348623157e+308];
+    [8];
+    ["cSSF"] = 8;
+    #c = 8;
+}
+C3.d = C3;
+new C3();
+new C3();
+const v10 = new C3();
+const v11 = v10?.__lookupGetter__;
+try { new v11(1.7976931348623157e+308); } catch (e) {}
+new Int8Array(8);
+4096 === 4096;
+Int16Array.name = Int16Array;
+new Int16Array(4096);
+try { new BigUint64Array(8, Int16Array, BigUint64Array); } catch (e) {}
+new BigUint64Array(3858);
+const v24 = [];
+function f25(a26) {
+    try { Symbol.bind(Symbol); } catch (e) {}
+    return Symbol.toPrimitive.description;
+}
+v24.toString = f25;
+const v31 = [v24,v24];
+function F32(a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(); } catch (e) {}
+}
+class C36 extends F32 {
+    valueOf(a38, a39, a40, a41) {
+        super[this] = F32;
+        let v43 = 945;
+        v43++;
+        const v45 = new SharedArrayBuffer(v43);
+        new Int16Array(v45);
+    }
+}
+C36.g = C36;
+const t47 = 8;
+const v48 = new t47();
+const o55 = {
+    set g(a50) {
+    },
+    [v31](a52, a53, a54) {
+    },
+};
+o55.c = o55;
+let v56 = 65535;
+v56++;
+const t57 = 4096;
+t57.length = v56;
+for (const v58 in o55) {
+    try { v48.valueOf(); } catch (e) {}
+}

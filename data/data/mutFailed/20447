@@ -1,0 +1,117 @@
+const v0 = [];
+function f1(a2, a3) {
+    let v4;
+    try { v4 = a3.setUTCMilliseconds(); } catch (e) {}
+    function F5(a7) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.d = a2;
+        } catch(e8) {
+        }
+    }
+    const v9 = new F5(v4);
+    new F5(v0);
+    new F5(v9);
+    return v4;
+}
+v0.toString = f1;
+function f12() {
+    const o18 = {
+        "a": v0,
+        get b() {
+            const v15 = [v0,this];
+            Reflect.apply(v0.toSpliced, v0, v15);
+            return v15;
+        },
+        __proto__: v0,
+        [v0]: v0,
+        "e": v0,
+    };
+    return o18;
+}
+const v19 = f12();
+const v21 = new Int8Array();
+const v22 = v21.buffer;
+function f23() {
+    return f1;
+}
+Object.defineProperty(v22, 127, { writable: true, enumerable: true, get: f23 });
+const v27 = new Uint16Array(3225);
+for (const v28 of v27) {
+    v28[3] = 5n;
+    9007199254740991 * v28;
+}
+const v31 = f12();
+const v32 = f12();
+const o37 = {
+};
+new Proxy(Uint32Array, o37);
+class C46 {
+}
+const v47 = new C46();
+v22[127];
+const o50 = {
+};
+o50.g = v31;
+try {
+    o50.g = v21;
+} catch(e51) {
+}
+try {
+    const o52 = {
+    };
+    o52.e = o52;
+    o52.g = v21;
+    o52.e = -534568.6902183883;
+} catch(e53) {
+}
+try {
+    const o54 = {
+    };
+    o54.g = v21;
+    o54.e = -534568.6902183883;
+    o54.c = 5n;
+} catch(e55) {
+}
+try {
+    const o56 = {
+    };
+    function f57() {
+        return v31;
+    }
+    function f58(a59) {
+        try {
+            v32.e = a59;
+        } catch(e60) {
+        }
+    }
+    Object.defineProperty(o56, "c", { get: f57, set: f58 });
+    o56.g = v21;
+    o56.e = -534568.6902183883;
+    o56.c = v19;
+} catch(e61) {
+}
+function F64(a66, a67) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v68 = a66?.__lookupSetter__;
+    const o72 = {
+        [-16]: 65536,
+        [6]: 257,
+        ...a67,
+        "f": v47,
+        __proto__: v32,
+        set c(a71) {
+            super.c -= 65536;
+        },
+    };
+    try { new v68(a66, ...v68, -534568.6902183883, this); } catch (e) {}
+    try {
+        v47.__proto__ = a66;
+    } catch(e74) {
+    }
+    try { v68(6); } catch (e) {}
+    a67[2147483648] = a67;
+    const v77 = new Int8Array();
+    for (const v78 in v77) {
+    }
+}

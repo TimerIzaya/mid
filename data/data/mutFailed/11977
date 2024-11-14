@@ -1,0 +1,92 @@
+function f0() {
+    try { ("-9223372036854775807").trimEnd(); } catch (e) {}
+    const o11 = {
+        "f": "-9223372036854775807",
+        set d(a6) {
+            class C7 {
+                #h = "-9223372036854775807";
+                #e = a6;
+            }
+            new C7();
+            new C7();
+            new C7();
+        },
+        __proto__: "a",
+        "c": "symbol",
+        "h": "symbol",
+        ..."a",
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+const v15 = [v12,v14,v12,f0];
+const v16 = [v12,v14,v15,v14,f0];
+const v17 = [v12,v16,v12];
+-1.9742687737112679 - -1.9742687737112679;
+function F22(a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v27 = this?.constructor;
+    try { new v27(v13, v12, a24); } catch (e) {}
+    try {
+        this.h = a25;
+    } catch(e29) {
+    }
+}
+const v30 = new F22(v15, v17, v15);
+v30.length = v30;
+v30.length = v30;
+const v31 = new F22(v15, v17, v17);
+v31.length = v12;
+v31.length = v31;
+const v32 = new F22(v15, v16, v16);
+const v34 = [-8,-9007199254740991,-2,5,-710979536,-16743,-722516666,-14817,1352913669,1];
+const v35 = [601759695];
+const v36 = [1073741824,1073741823,1376142744,1073741825];
+function f37(a38) {
+    ~v32;
+    const t47 = "-1073741824";
+    t47[v35] = "-1073741824";
+    return v16;
+}
+v36.valueOf = f37;
+function f41(a42, a43, a44, a45) {
+    a44[Symbol.toPrimitive] = f0;
+    try { a42.find(F22); } catch (e) {}
+    a45 > a45;
+    function f51() {
+        try { ("Vre").toLocaleLowerCase(); } catch (e) {}
+        const o59 = {
+            "e": -4294967295,
+            ...v34,
+            ..."Vre",
+            "c": a45,
+            "f": "-1073741824",
+            84: arguments,
+            ..."Vre",
+            valueOf(a57, a58) {
+                return v36;
+            },
+            ..."Vre",
+            4: "Vre",
+            "c": -268435456,
+            5: -4294967295,
+            6: -268435456,
+        };
+    }
+    f51();
+    %OptimizeFunctionOnNextCall(arguments);
+    let v62;
+    try { v62 = v36["find"](..."find", a45, ...v35, ...v36, ...522675525n); } catch (e) {}
+    !(v62 <= a44);
+    return arguments;
+}
+f41(v34, v36, "-1073741824", 522675525n);
+for (let v66 = 0; v66 < 10; v66++) {
+    v66 >>> v66;
+    const v68 = f41();
+    v68.length = v68;
+}
+%OptimizeFunctionOnNextCall(f41);
+f41(v34, 522675525n, v36, v36);

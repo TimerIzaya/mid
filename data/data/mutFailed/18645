@@ -1,0 +1,19 @@
+new Uint16Array(4);
+new Uint32Array(16);
+new Int16Array(155);
+new Int32Array(8);
+new BigUint64Array(1024);
+new Uint16Array(3523);
+Infinity();
+%VerifyType(3523);
+try {
+    function f20(a21, a22, a23) {
+        for (let i = 0; i < 5; i++) {
+            /k/gdsy;
+        }
+        f20();
+        return f20;
+    }
+    f20();
+} catch(e27) {
+}

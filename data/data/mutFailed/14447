@@ -1,0 +1,82 @@
+function f0() {
+    const o12 = {
+        set a(a5) {
+            super["toPrimitive"];
+            super.d = "toPrimitive";
+        },
+        5: -1000000000000.0,
+        set b(a8) {
+            super["values"] = a8;
+        },
+        "g": -1000000000000.0,
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0(v13, v13);
+v15[5] = v15;
+-(-0.0 + -0.0);
+-(-1000.0);
+const v21 = -Infinity;
+class C22 {
+    static #n(a24, a25) {
+        function f26(a27, a28) {
+            try {
+                new f0();
+            } catch(e30) {
+            }
+            return v14;
+        }
+        f26(-0.0, a25);
+        return v15;
+    }
+    #e = -1000.0;
+}
+C22.d = C22;
+const v32 = new C22();
+const v33 = v32?.__lookupGetter__;
+try { new v33(C22); } catch (e) {}
+const v35 = v32?.constructor;
+try { new v35(); } catch (e) {}
+const v37 = new C22();
+const v38 = v37?.__defineGetter__;
+try { new v38(f0, v13); } catch (e) {}
+const v40 = new C22();
+const v41 = v40?.constructor;
+let v42;
+try { v42 = new v41(); } catch (e) {}
+const v43 = v42?.constructor;
+try { new v43(); } catch (e) {}
+new WeakMap(WeakMap, v32, v15);
+129 >>> 129;
+class C51 {
+}
+C51.a;
+C51.prototype = C51;
+function f53(a54, a55) {
+    a54.d;
+    a54.d = a54;
+    const v57 = a55[5];
+    v57 | v57;
+}
+f53.prototype = f53;
+%OptimizeFunctionOnNextCall(f53);
+f53(f0, v13, v32);
+function F60(a62, a63, a64) {
+    if (!new.target) { throw 'must be called with new'; }
+    -a64;
+    a64 >>> a64;
+    const v67 = this.constructor;
+    try { new v67(a64, C51); } catch (e) {}
+    a62 % a62;
+}
+F60.caller;
+const v71 = new F60(820, 121, 129);
+const v72 = v71?.constructor;
+try { new v72(C22, v21, v21); } catch (e) {}
+let v74;
+try { v74 = v71.valueOf(); } catch (e) {}
+const v75 = v74?.__lookupGetter__;
+try { new v75(v14); } catch (e) {}
+new F60(820, 121, C22);

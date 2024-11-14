@@ -1,0 +1,63 @@
+const v0 = [1,536870912,268435441,1150044608,-965310995];
+const v1 = [0,-1325740339,9007199254740991];
+const v2 = [536870912,2147483648,-128,65536,-15,1024];
+function f3() {
+    return v0;
+}
+class C4 extends f3 {
+    d = v2;
+    #toString(a6) {
+        try {
+            f3();
+        } catch(e8) {
+        }
+        const v10 = v1.iterator;
+        const o19 = {
+            [v10]() {
+                let v12 = 10;
+                const o18 = {
+                    next() {
+                        v12--;
+                        const v16 = v2 == 0;
+                        const o17 = {
+                            "done": v16,
+                            "value": v12,
+                        };
+                        return o17;
+                    },
+                };
+                return o18;
+            },
+        };
+        return C4;
+    }
+}
+const v20 = new C4();
+let v21 = new C4();
+const v22 = new C4();
+const v23 = [v2];
+const v24 = [v23,v23,v2,v0];
+[f3,v23,v21,v24];
+class C29 {
+    #d;
+    valueOf(a31, a32, a33) {
+        const v34 = a32[-1];
+        v24[f3] *= a31;
+        v21 <<= a32;
+        g = a31;
+        a32["-65537"] = v24;
+        super.h -= v34;
+        return a32;
+    }
+    [v1];
+    [v22] = f3;
+    [v20];
+    [v24] = C4;
+    static 255 = v21;
+}
+new C29();
+new C29();
+new C29();
+const v40 = Float64Array.of();
+const v42 = new Date(Date);
+v42.setFullYear(v40, 3811);

@@ -1,0 +1,38 @@
+const v1 = new Date();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v1;
+    } catch(e8) {
+    }
+    try {
+        this.e = v1;
+    } catch(e9) {
+    }
+    try {
+        a7.g = v1;
+    } catch(e10) {
+    }
+}
+const v11 = new F5(-6210);
+const v12 = new F5(3);
+const v13 = new F5(3);
+class C14 {
+    536870912 = v11;
+    constructor(a16, a17, a18, a19) {
+        try {
+            v11.f = a18;
+        } catch(e20) {
+        }
+        -293119312 instanceof a19;
+    }
+    [3] = C14;
+    static 1000;
+}
+const v22 = new C14(v11, v13, 3, v11);
+new C14(v12, v11, 3, v22);
+new C14(v11, 3, -6210, v11);
+let v26;
+try { v26 = Float32Array.bind(); } catch (e) {}
+v26.length;
+gc();

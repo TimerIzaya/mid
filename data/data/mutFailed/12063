@@ -1,0 +1,58 @@
+function f0() {
+}
+class C1 {
+    #m() {
+        const v3 = this in this;
+        f0 % f0;
+        this();
+        return v3;
+    }
+    static c;
+    static set f(a7) {
+        const v9 = Symbol.iterator;
+        const o18 = {
+            [v9]() {
+                let v11 = 10;
+                const o17 = {
+                    next() {
+                        v11--;
+                        const v15 = v11 == 0;
+                        const o16 = {
+                            "done": v15,
+                            "value": v11,
+                        };
+                        return o16;
+                    },
+                };
+                return this;
+            },
+        };
+    }
+}
+new C1();
+const v20 = new C1();
+const v21 = new C1();
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v21;
+    } catch(e31) {
+    }
+    try {
+        this.d = a30;
+    } catch(e32) {
+    }
+    try {
+        this.e = a30;
+    } catch(e33) {
+    }
+}
+const v34 = new F25(C1, v21, v20, -1073741824n);
+new F25(v21, v21, v34, 2007446254n);
+new F25(v34, v34, v20, -1073741824n);
+new Uint16Array(10);
+const v42 = new Uint8ClampedArray(16);
+new v21(127);
+const v46 = [-536870912,12,65535,268435440,59916,438058862,-15,1073741823,-9007199254740990];
+v46.push(v42);
+new Int8Array(v46);

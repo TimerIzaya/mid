@@ -1,0 +1,47 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 1793632241;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new v4();
+new F0();
+const v8 = -Infinity;
+let v10 = -13;
+v10--;
+class C14 {
+    constructor(a16, a17, a18) {
+        -12 >> a17;
+        new.target.g = new.target;
+        try {
+            a16.g = -12;
+        } catch(e21) {
+            e21.b = e21;
+        }
+    }
+    [1000000000.0];
+    2;
+    g = v5;
+    #d;
+    c;
+    f;
+}
+try { C14.toString(); } catch (e) {}
+new C14(C14, v10, v10);
+new C14(v10, 47944, v10);
+new C14(-1.0, 47944, -12);
+function F26(a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = this.constructor;
+    v29.arguments = v29;
+    v29.prototype;
+    v29.caller = v29;
+    try { new v29(); } catch (e) {}
+}
+try { new v5(v8); } catch (e) {}
+const v33 = new F26(F26);
+const v34 = v33?.constructor;
+try { new v34(v5); } catch (e) {}
+new F26(v33);

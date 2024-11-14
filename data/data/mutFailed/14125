@@ -1,0 +1,64 @@
+class C4 {
+    [720972705n];
+    #p(a6, a7, a8, a9) {
+        super.m();
+    }
+}
+const v11 = new C4();
+const v12 = new C4();
+const v13 = new C4();
+let v14;
+try { v14 = v12(v12, v11, -8n, ...v13); } catch (e) {}
+let v15 = -9932;
+720972705n | 720972705n;
+(v15 >>> v14) & !v15;
+++v15;
+class C22 {
+    constructor(a24, a25) {
+        const v27 = Symbol.iterator;
+        const o42 = {
+            [v27]() {
+                function F29(a31) {
+                    if (!new.target) { throw 'must be called with new'; }
+                }
+                const v32 = new F29(F29);
+                const v33 = v32.propertyIsEnumerable();
+                with (v32) {
+                    try { v33(); } catch (e) {}
+                }
+                let v35 = 10;
+                const o41 = {
+                    next() {
+                        v35--;
+                        const v39 = v35 == 0;
+                        const o40 = {
+                            "done": v39,
+                            "value": v35,
+                        };
+                        return o40;
+                    },
+                };
+                return o41;
+            },
+        };
+    }
+}
+const v43 = new C22(268435440, C22);
+const v44 = new C22(v43, C22);
+new C22(v44, "iterator");
+function f46() {
+    return 268435440;
+}
+class C47 {
+    static set d(a49) {
+        new BigInt64Array(15);
+        new Float32Array(9);
+        new Uint8ClampedArray(3);
+    }
+    #a;
+    static [f46] = f46;
+}
+new C47();
+new C47();
+new C47();
+([NaN,52.65298068517177,-4.0])["includes"](-6, -9223372036854775807);

@@ -1,0 +1,139 @@
+class C3 {
+    static {
+        try { this.bind(this); } catch (e) {}
+        [65535,-256,1615158300,16,-9007199254740992,-15449,9223372036854775807,-9007199254740991,-9223372036854775807,11];
+        [127,-268435456,-9223372036854775808,-2147483648,536870912];
+        const v8 = [-7,-27314,-9007199254740992,62818,9007199254740991,842187301,8,2147483648,10,-350740874];
+        v8[9] = v8;
+    }
+    #c = "d";
+    static set b(a10) {
+        const v11 = "d" * this;
+        let v12 = 0;
+        while (v12 < 5) {
+            %VerifyType(v11);
+            Object.defineProperty(this, "a", { configurable: true, enumerable: true, value: "1423770978" });
+            v12++;
+        }
+    }
+}
+const v16 = new C3();
+const v17 = v16?.__defineSetter__;
+try { new v17("d", "d"); } catch (e) {}
+new C3();
+const v20 = new C3();
+const v21 = v20?.constructor;
+try { new v21(); } catch (e) {}
+-1e-15 + -1e-15;
+255 % 255;
+new Uint16Array(255);
+Uint16Array.d = v16;
+Array(8);
+const v38 = new Int16Array();
+const v41 = new Int16Array(8);
+async function f42(a43, a44, a45) {
+    delete v41[-1000000000.0];
+    v38[0];
+    const v48 = v38[1];
+    let [,,...v49] = v38;
+    await v48;
+}
+Uint16Array.d = Uint16Array;
+const v54 = new Uint16Array(3225);
+for (const v55 of v54) {
+    v55[3] = 5n;
+    9007199254740991 * v55;
+}
+const v58 = new Uint16Array(3659);
+try { new Uint8ClampedArray(1.7976931348623157e+308, v58, v58); } catch (e) {}
+const v62 = new Uint8ClampedArray(1690);
+v62.toString = Array;
+v62[1171] = v62;
+function F63() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v66 = new F63();
+const v67 = new F63();
+const v68 = new F63();
+function f69() {
+    return v68;
+}
+function f72(a73, a74) {
+    const o76 = {
+        [F63]: a73,
+        "h": f69,
+        512: v67,
+        166: "bigint",
+        get d() {
+            Object.defineProperty(this, v66, { writable: true, set: f69 });
+            return this;
+        },
+        "d": a74,
+        "g": F63,
+    };
+    return o76;
+}
+const v78 = f72(f72(v68, "d"), "-1024");
+const o83 = {
+    "e": "bigint",
+    ...v78,
+    get f() {
+        class C80 {
+            static [-2];
+            16;
+        }
+        new C80();
+        new C80();
+    },
+};
+function F86(a88) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v89 = new F86(536870889);
+v89.Probe = v89;
+const v90 = v89?.__defineGetter__;
+try { new v90("d", F86); } catch (e) {}
+with (v89) {
+    let v92 = 10;
+    for (; v92--;) {
+    }
+}
+for (let [v95,...v96] of "atan2") {
+    v95[0] = v95;
+}
+const v99 = new Float32Array(2);
+v99.toString = Array;
+v99[0] = v99;
+const o113 = {
+    set d(a101) {
+        for (let v102 = 0; v102 < 25; v102++) {
+        }
+    },
+    o(a104) {
+        const o106 = {
+        };
+        o106.execution = Uint8ClampedArray;
+        gc(o106);
+    },
+    m(a109) {
+    },
+    set d(a111) {
+        for (let v112 = 0; v112 < 25; v112++) {
+        }
+    },
+};
+const o115 = {
+};
+o115.setPrototypeOf = 8;
+o115.c = o115;
+try { new Proxy(4.0, Uint32Array); } catch (e) {}
+const v118 = new Proxy(Uint32Array, o115);
+const t130 = "o";
+t130[0] = "o";
+o113["o"](o113, Uint32Array, "o", "o", v118);
+const v122 = new Int32Array(v99, 2);
+const v123 = v99;
+const v124 = v122.fill(...v123);
+const v125 = v124?.with;
+try { new v125(Proxy, Proxy); } catch (e) {}
+try { v124.lastIndexOf(v124); } catch (e) {}

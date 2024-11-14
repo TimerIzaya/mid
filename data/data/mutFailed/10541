@@ -1,0 +1,45 @@
+function f3(a4, a5) {
+    const o10 = {
+        [a4]: 6n,
+        __proto__: 3n,
+        "h": a5,
+        get e() {
+            a4 <<= -1024n;
+            try { a5.m(this, this, a4); } catch (e) {}
+            const v8 = super.h;
+            try { v8(); } catch (e) {}
+            return -1024n;
+        },
+    };
+    return o10;
+}
+f3(3n, 3n);
+f3(6n, -1024n);
+f3(-1024n, 6n);
+const o20 = {
+};
+let v21 = 1000;
+const v23 = new Uint32Array();
+function F32(a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(a36, "d", { configurable: true, enumerable: true, value: v23 });
+    try {
+        this.d = a36;
+    } catch(e37) {
+    }
+    ~F32;
+    Uint32Array << a36;
+    [,...v21] = v23;
+}
+new F32(426155202, 128, Uint8ClampedArray);
+new F32(426155202, 128, 2305);
+new F32(4294967296, 128, v21);
+function f43() {
+}
+class C44 extends f43 {
+    toString(a46, a47) {
+        -this;
+    }
+}
+new C44();
+try { f43.toString(); } catch (e) {}

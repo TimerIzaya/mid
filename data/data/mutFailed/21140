@@ -1,0 +1,65 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 64;
+    } catch(e3) {
+    }
+    try {
+        this.f = 64;
+    } catch(e4) {
+    }
+    try {
+        this.h = 64;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new v6();
+const v8 = new F0();
+const v9 = [10000,60732,15668,257,-4294967297];
+let v10 = [-1836357144,-49986,0,3];
+const v11 = [-2147483649,1352073683,-65537,512,4,12,-256,16415,9];
+function f12(a13, a14, a15, a16) {
+    const o36 = {
+        m(a18, a19, a20) {
+            a18 & v7;
+            this instanceof F0;
+            v10 = a13;
+            return a16;
+        },
+        p(a24, a25, a26) {
+            super[a26] = a25;
+            a26[0.6186813233818139] = 0.6186813233818139;
+            a14 > a26;
+            let v31;
+            try { v31 = a24.reverse(); } catch (e) {}
+            try { v31(a14, a16, a13); } catch (e) {}
+            let {"a":v34,"f":v35,} = a16;
+            return a13;
+        },
+    };
+    return o36;
+}
+f12(v11, v10, v7, v7);
+const v38 = f12(v9, v10, v7, v7);
+const v39 = f12(v10, v7, F0, v8);
+const v40 = [v38];
+delete v38[v38];
+const v42 = v39.__proto__;
+try { v9(); } catch (e) {}
+try {
+    new f12(/(\1a)?/gudis, "-1024", v11, "-1024");
+} catch(e47) {
+}
+const v48 = [v40];
+[v40,v11,f12,v48];
+for (const v51 in v7) {
+    v51 >>> "byteOffset";
+}
+v11[v42];
+v38[f12] = v48;
+const v56 = new Float32Array(10, 10, 10);
+const v58 = new Float64Array();
+v58[10] = v56;
+const t63 = "byteOffset";
+t63[4] = Float64Array;

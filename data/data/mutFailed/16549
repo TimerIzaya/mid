@@ -1,0 +1,69 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = f0;
+    } catch(e3) {
+    }
+    try {
+        this.f = f0;
+    } catch(e4) {
+    }
+    new BigInt64Array(86);
+    new Uint8Array(64);
+    new Float32Array(51);
+}
+const v14 = new F1();
+new F1();
+const v16 = new F1();
+function f17() {
+    return v16;
+}
+let v19 = Float32Array;
+const o20 = {
+    "ownKeys": f17,
+    "set": f0,
+};
+new Proxy(v14, o20);
+new v19(3642);
+const v26 = new Uint16Array(1000);
+let v27 = 5;
+const v28 = (a29, a30, a31, a32) => {
+    try {
+        const o33 = {
+        };
+        v28(a32, a31, o33, o33);
+    } catch(e35) {
+    }
+    const o39 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o39);
+    return f17;
+};
+const v42 = new BigInt64Array(v27);
+const v43 = [65535,-2147483647,9007199254740990,11241,-3,-299794727,16,1,-4294967297];
+const o44 = {
+};
+function f45(a46, a47) {
+    v43[11] = o44;
+    return a46;
+}
+%PrepareFunctionForOptimization(f45);
+let v48 = 0;
+while (v48 < 2) {
+    v19 |= v19;
+    v27 ^= v19;
+    const v53 = Symbol.species;
+    v42[v53] = v16;
+    o44 * v53;
+    new Uint8Array(7);
+    new BigInt64Array(3136);
+    new Uint16Array(3797);
+    v48++;
+}
+f45(o44, v26);
+%OptimizeFunctionOnNextCall(f45);
+f45();

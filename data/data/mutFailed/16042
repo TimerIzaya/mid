@@ -1,0 +1,27 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 65536;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new v4();
+new F0();
+new Uint32Array(v5);
+new Uint32Array(4096);
+new Float64Array(1);
+function F19() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (let i23 = 0, i24 = 10; i23 < i23; i24--) {
+    }
+    for (let v31 = 0; v31 < 10; v31++) {
+        for (let v32 = 0; v32 < 5; v32++) {
+        }
+        const o34 = {
+            __proto__: null,
+        };
+        try { o34.valueOf(); } catch (e) {}
+    }
+}
+new F19();

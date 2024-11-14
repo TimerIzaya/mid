@@ -1,0 +1,24 @@
+class C3 {
+    #m(a5) {
+        ("10765")[new.target];
+        %VerifyType(this);
+        this[Symbol.species] = this;
+        return a5;
+    }
+    callee = "o";
+}
+const v11 = new C3();
+const v12 = v11?.toLocaleString;
+let v13;
+try { v13 = new v12(); } catch (e) {}
+new C3(C3, v13);
+new C3();
+10 < 10;
+try { new BigUint64Array(BigUint64Array, v11, BigUint64Array); } catch (e) {}
+new BigUint64Array(10);
+Int8Array.name;
+new Int8Array(512);
+const v27 = new Uint16Array(4096);
+v27[14];
+const v32 = new Uint8ClampedArray(4);
+Object.defineProperty(v32, 7, { writable: true, configurable: true, enumerable: true, value: Int8Array });

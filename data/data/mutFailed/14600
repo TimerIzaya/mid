@@ -1,0 +1,101 @@
+class C3 {
+    static get h() {
+        this[Symbol.search] = this;
+        return 4294967296n;
+    }
+    static p(a8, a9) {
+        try {
+            a8.__proto__ = this;
+        } catch(e13) {
+        }
+        return -256n;
+    }
+}
+C3.length;
+let v15;
+try { v15 = C3.bind(4294967296n); } catch (e) {}
+v15.e = 4294967296n;
+v15.e = v15;
+const v16 = new C3();
+class C17 {
+    #d = 4294967296n;
+    static #a = C3;
+}
+Object.defineProperty(C17, "g", { writable: true, configurable: true, value: v15 });
+C17.g = C17;
+new C17();
+new C17();
+const v20 = new C17();
+const v21 = v20?.constructor;
+try { new v21(); } catch (e) {}
+const v23 = v16?.toLocaleString;
+try { v23(); } catch (e) {}
+try { new v23(); } catch (e) {}
+const v26 = new C3();
+function f27(a28) {
+    return Reflect.construct(C17, [], a28);
+}
+Object.defineProperty(v26, "constructor", { writable: true, configurable: true, enumerable: true, value: f27 });
+const v32 = v26?.constructor;
+let v33;
+try { v33 = new v32(); } catch (e) {}
+const v34 = new C3();
+const v35 = v34?.constructor;
+try { new v35(); } catch (e) {}
+const v37 = [-1000000000.0];
+v37[0] = v37;
+const v38 = [5.0,4.0,-2.0,411914.50931442063,2.576786804148611,-698230.2905442346,-558.6170214933493,Infinity,1000000.0];
+const v39 = [1e-15,2.220446049250313e-16,5.67112873962718,0.1380354877896569,1e-15];
+function F40(a42, a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.toString = f27;
+    a43.toString = f27;
+    const v46 = this?.__defineSetter__;
+    try { new v46(a42, a42); } catch (e) {}
+    a43 + a43;
+    const v49 = a45?.groupToMap;
+    try { new v49(a44); } catch (e) {}
+    const v51 = a42?.__lookupGetter__;
+    try { new v51(-256n); } catch (e) {}
+    a43--;
+    a44--;
+    a45[0];
+    try {
+        this.g = a43;
+    } catch(e56) {
+    }
+    try {
+        this.c = a44;
+    } catch(e57) {
+    }
+    try {
+        this.a = v34;
+    } catch(e58) {
+    }
+}
+function f59(a60) {
+    try { a60.getSeconds(a60, 4294967296n, v34); } catch (e) {}
+    try {
+        new C3();
+    } catch(e63) {
+    }
+    return v33;
+}
+F40.toString = f59;
+F40.caller;
+const v65 = new F40(v26, 52355n, 4294967296n, v37);
+Object.defineProperty(v65, "toString", { enumerable: true, value: f27 });
+v65.d = v65;
+new F40(v34, v65, 52355n, v39);
+new F40(C3, F40, 52355n, v38);
+-2147483648;
+~-10;
+-(-10 >>> -10);
+let v77 = 0.0;
+v77--;
+v77--;
+-21582n <= -21582n;
+const v83 = 1479729120n >= 1479729120n;
+v83 && v83;
+const v89 = ~-9007199254740992;
+v89 != v89;

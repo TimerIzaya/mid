@@ -1,0 +1,33 @@
+new Uint8ClampedArray(Uint8ClampedArray);
+new Uint8ClampedArray(1933);
+new Uint16Array(5);
+const v9 = [1000.0,-2.0];
+[-566129.1999229374,-2.0,-2.2250738585072014e-308];
+const v11 = [-1.7976931348623157e+308,1000000000.0,867887.6042050705,-1000000000.0,5.0,-2.2250738585072014e-308,2.2250738585072014e-308,249620.5428979788,1000000000000.0];
+function f12() {
+    return v9;
+}
+class C13 extends f12 {
+    #g = Int8Array;
+    static #n(a15, a16, a17, a18) {
+        try {
+            f12.__proto__ = v11;
+        } catch(e19) {
+        }
+        return 1933;
+    }
+    n(a21, a22, a23) {
+        f12();
+        %PrepareFunctionForOptimization(f12);
+        f12();
+        f12();
+        %OptimizeMaglevOnNextCall(f12);
+        f12();
+        return this;
+    }
+}
+new C13();
+new C13();
+new C13();
+const v34 = new Uint16Array(9);
+v34.includes(9223372036854775807);

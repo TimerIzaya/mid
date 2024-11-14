@@ -1,0 +1,39 @@
+function f4(a5) {
+    function f6() {
+        "Vre" == "Vre";
+        return f6;
+    }
+}
+Object.defineProperty(Set, Symbol.toPrimitive, { writable: true, configurable: true, set: f4 });
+function f11() {
+    try {
+        ("hasInstance").charCodeAt(1024);
+    } catch(e14) {
+    }
+    return "hasInstance";
+}
+Set[Symbol.toPrimitive] = f11;
+new Set();
+class C18 {
+    ["resolve"] = Set;
+    constructor(a20, a21) {
+        let v22;
+        try { v22 = new a21(a20, this, a20, this); } catch (e) {}
+        !(v22 << -9223372036854775807);
+        -536870912 || v22;
+    }
+    ["resolve"];
+    [Set] = "hasInstance";
+}
+const v29 = new C18("resolve", "r");
+const v30 = new C18("hasInstance", v29);
+new C18(C18, v30);
+const v32 = ["r"];
+[v32,v29];
+["resolve",v32,v30,Set];
+const v36 = [Array,Array];
+class C37 {
+}
+const v38 = new C37();
+const v40 = [v38];
+Reflect.apply(Array.of, v36, v40);

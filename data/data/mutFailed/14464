@@ -1,0 +1,21 @@
+function f0() {
+}
+new Uint8Array(1000);
+const v6 = new Uint8ClampedArray(0);
+try { v6.entries(); } catch (e) {}
+new Uint16Array(148);
+const v13 = new Float32Array(3);
+11 >>> 11;
+const v17 = new Float64Array(11);
+v17[7];
+new Float32Array(256);
+-3.0;
+try { Date.bind(Float64Array); } catch (e) {}
+const v26 = new Date();
+const o27 = {
+    __proto__: Date,
+    [3.0]: v26,
+};
+o27[3] = o27;
+const v29 = new Int16Array(o27);
+try { v29.filter(v13); } catch (e) {}

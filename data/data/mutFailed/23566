@@ -1,0 +1,42 @@
+const v3 = [-1.7481821786762952e+308,1000.0,Infinity];
+const v4 = [-0.0,2.0,0.5501335002074256,-3.3241598825318475,-1.7976931348623157e+308];
+const v5 = [1000.0];
+function f6(a7, a8) {
+    const o9 = {
+        "a": v3,
+        "h": a7,
+        "g": v4,
+        "e": a8,
+        "d": "g",
+        ...a7,
+        __proto__: v5,
+        "b": a8,
+        ..."-48702",
+        ..."-48702",
+        "f": v5,
+    };
+    return o9;
+}
+f6("i", v4);
+f6("i", v4);
+v4("i", v5);
+new BigUint64Array(v5);
+const v18 = new Float64Array(7);
+new BigInt64Array(256);
+function f23() {
+    return v18;
+}
+function f24(a25) {
+    try {
+        const t30 = "i";
+        t30.__proto__ = v18;
+    } catch(e26) {
+    }
+}
+Object.defineProperty(Float32Array, Symbol.toPrimitive, { enumerable: true, get: f23, set: f24 });
+const v30 = new Map();
+BigUint64Array[Symbol.toPrimitive] = Symbol;
+class C34 {
+}
+const v35 = C34.constructor;
+try { v35(Float32Array, Uint8Array, -9007199254740992, v30); } catch (e) {}

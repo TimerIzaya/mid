@@ -1,0 +1,95 @@
+function f0() {
+    const o15 = {
+        "a": -1000000000.0,
+        "g": -1000000000.0,
+        "e": 11,
+        [129]: 11,
+        get b() {
+            let v5;
+            try { v5 = this(this, 11, -1000000000.0, 11); } catch (e) {}
+            let v6;
+            try { v6 = this.join(-1000000000.0, v5, -1000000000.0, v5, v5); } catch (e) {}
+            let v10 = 3.0;
+            ~v5;
+            --v10;
+            -(-993216834);
+            Math.sinh(v10);
+            return v6;
+        },
+    };
+    o15[Symbol.toPrimitive] = f0;
+    return o15;
+}
+const v18 = f0();
+v18.toString = f0;
+const v19 = f0();
+v19[Symbol.toPrimitive] = f0;
+const v22 = f0();
+new BigInt64Array(1);
+new Float64Array(140);
+new Int32Array(129);
+function f32(a33, a34, a35) {
+    a33.toString = f32;
+    const o42 = {
+        "e": a34,
+        [a35]: Float64Array,
+        __proto__: a33,
+        get c() {
+            a33 = v18;
+            const v37 = v19 <= a35;
+            if (v37) {
+                let v38;
+                try { v38 = v19.max(v37, f0, this, v22); } catch (e) {}
+                %VerifyType(v38);
+            } else {
+                f0();
+                try {
+                    f0();
+                } catch(e41) {
+                }
+            }
+            return v37;
+        },
+    };
+    return o42;
+}
+f32(v19, v22, v18);
+const v44 = f32(v19, v22, v19);
+f32(v19, v19, v18);
+const v46 = [-53613,268435440,268435440,2,-65536,-2147483647];
+v46[8] = BigInt64Array;
+const v47 = [8];
+function f48(a49) {
+    const o52 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    return "minor";
+}
+v47[Symbol.toPrimitive] = f48;
+const v55 = [-1024,-2147483647,-37738,-2,21596,2147483649,9007199254740992,-2039218916];
+class C56 {
+    static #f;
+    static set f(a58) {
+        a58(this, this, a58, v47);
+    }
+    constructor(a61) {
+        this.e = v47;
+    }
+}
+new C56(v47);
+new C56(v55, 129);
+const v64 = new C56(v55);
+function f65() {
+    return v44;
+}
+Object.defineProperty(v64, "reduceRight", { configurable: true, enumerable: true, get: f65 });
+let v68;
+try { v68 = v64.reduceRight(4294967295, v55, C56); } catch (e) {}
+v55[6] ||= -10;
+function f69(a70, a71, a72, a73) {
+    const v74 = v47 in v46;
+    try { v68(...v47, ...v46, v55, ...v74); } catch (e) {}
+    return f69;
+}
+f69();

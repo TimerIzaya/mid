@@ -1,0 +1,20 @@
+-Infinity;
+const v8 = new Uint8ClampedArray(3869);
+new Int16Array(261);
+new Int16Array(4);
+class C15 {
+}
+const v16 = new C15();
+function f17(a18, a19) {
+    const v20 = a19?.propertyIsEnumerable;
+    try { v20(); } catch (e) {}
+    const v22 = [];
+    try { v22.with(v22, v22); } catch (e) {}
+    const v25 = new Float64Array(v22, v20);
+    const v26 = new Float64Array(v25, a18, v8);
+    return v26.values();
+}
+%PrepareFunctionForOptimization(f17);
+f17(Uint16Array, Int16Array);
+%OptimizeFunctionOnNextCall(f17);
+v16(v16, v16);

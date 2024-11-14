@@ -1,0 +1,61 @@
+function f0() {
+    let v3 = -15;
+    v3++;
+    const o9 = {
+        "g": f0,
+        get e() {
+            super.c = this;
+            const t7 = "valueOf";
+            t7["valueOf"] = "valueOf";
+            const v6 = "valueOf" >>> this;
+            try { v3(); } catch (e) {}
+            v6 - v6;
+            return "valueOf";
+        },
+        "e": 5.494651761182369e+307,
+        1073741823: "valueOf",
+        2147483647: v3,
+    };
+    o9[2147483647] = o9;
+    return o9;
+}
+f0.toString = f0;
+const v10 = f0();
+let v11 = f0();
+const v12 = f0();
+function f13() {
+    return v10;
+}
+class C14 extends f0 {
+    g = v12;
+    get e() {
+        const v16 = v12 && this;
+        try {
+            f0();
+        } catch(e18) {
+        }
+        v11 = this;
+        super.g = v16;
+        const v19 = super[v11];
+        v16[5];
+        this.g >>= v19;
+        return f13;
+    }
+    static 62 = v12;
+    [f0];
+    #c = v12;
+}
+try { new C14(); } catch (e) {}
+const v22 = new C14();
+v22[2147483647] = v22;
+new C14();
+new C14();
+const v25 = [-256,2147483649,14746,-12,-24534,0,536870888,-44523];
+try { v25.toLocaleString(); } catch (e) {}
+[28992,4,-1643161277,-9007199254740992,4096,56942,7,-9007199254740992,12];
+[47638,10,-14,0];
+const v30 = [Reflect];
+const o31 = {
+    __proto__: Reflect,
+    "e": v30,
+};

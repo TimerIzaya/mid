@@ -1,0 +1,65 @@
+class C3 {
+    static n(a5, a6) {
+        try { a6(-9223372036854775807, -146215592, a6, -146215592, "valueOf"); } catch (e) {}
+        return this;
+    }
+    static #valueOf(a9, a10) {
+        for (let v11 = 0; v11 < 49; v11++) {
+            const o15 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o15);
+        }
+        return -146215592;
+    }
+}
+const v17 = new C3();
+const v18 = new C3();
+const v19 = new C3();
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a25;
+    } catch(e29) {
+    }
+    try {
+        this.f = a26;
+    } catch(e30) {
+        function f31() {
+            const o35 = {
+            };
+            return "caller";
+        }
+    }
+    try {
+        this.a = 9007199254740991;
+    } catch(e36) {
+    }
+}
+const v37 = new F23(v19, v17, "valueOf", -9223372036854775807);
+new F23(v17, v37, v37, -9223372036854775807);
+new F23(v17, v37, v17, 9007199254740991);
+class C41 extends v18 {
+}
+const v43 = new Date();
+const v44 = [-1000.0,2.0,6.498411136794167e+307,1.5301115680028905e+308,-1.0240581174585665e+308,-73553.73579822388,-474.34134439650745,2.300981674378132,-816063.8647013834,-1.2620665326245469e+308];
+const v45 = [];
+const v46 = [];
+function f47(a48, a49) {
+    const o59 = {
+        129: v45,
+        __proto__: v44,
+        o(a51, a52, a53, a54) {
+            [a48];
+            Reflect.apply(a52.reduce, a49);
+            return a49;
+        },
+        "f": v46,
+        "e": v43,
+        ...a49,
+    };
+    return o59;
+}
+const v61 = new Float64Array();
+("p").lastIndexOf(v61);

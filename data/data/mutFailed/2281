@@ -1,0 +1,38 @@
+new Set();
+class C7 {
+    g = C7;
+}
+const v8 = new C7();
+const v9 = new v8();
+const v10 = v9?.__defineSetter__;
+let v11;
+try { v11 = new v10(v9, v9); } catch (e) {}
+new C7();
+new BigInt64Array(66);
+const t11 = "1RHU";
+new t11(8);
+new Uint16Array(512);
+class C20 {
+}
+try { new C20(); } catch (e) {}
+const v23 = WeakMap?.constructor;
+try { new v23(66); } catch (e) {}
+const v26 = [2.220446049250313e-16,-Infinity,NaN,-1e-15,-4.0,-2.2250738585072014e-308,-742.8087895557678,-4.0,Infinity,655658.0990783614];
+try { v26.find(512); } catch (e) {}
+Set.a = Set;
+const v29 = new Set(v26);
+try { v29.add(Uint16Array); } catch (e) {}
+function F31(a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+    } catch(e35) {
+    }
+    try {
+        ("-35960").clz32();
+        new F31();
+    } catch(e38) {
+    }
+}
+F31.caller = F31;
+new F31();
+new v11();

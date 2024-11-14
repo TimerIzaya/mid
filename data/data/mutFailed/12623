@@ -1,0 +1,14 @@
+new Uint8Array(10);
+new Uint8Array(16);
+const t2 = "object";
+t2[1073741825] = Uint8Array;
+const o12 = {
+};
+new Proxy("object", o12);
+new Int16Array(6);
+const v19 = ["bpkzx","bpkzx","bpkzx"];
+const v21 = "bpkzx" * [v19,v19,v19];
+try {
+    v19.length = v21;
+} catch(e22) {
+}

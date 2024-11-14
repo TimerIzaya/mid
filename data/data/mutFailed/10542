@@ -1,0 +1,69 @@
+function f3(a4, a5) {
+    const o18 = {
+        [a4]: 6n,
+        __proto__: a5,
+        "h": a5,
+        get e() {
+            function f7(a8, a9, a10) {
+                [a9,a10,this,a4];
+                const v12 = [this];
+                return [v12,a10,v12];
+            }
+            f7(-1024n, a4, 3n);
+            a4 <<= -1024n;
+            try { a5.m(this, this, a4); } catch (e) {}
+            const v16 = super.h;
+            try { v16(); } catch (e) {}
+            return -1024n;
+        },
+    };
+    return o18;
+}
+f3(3n, 3n);
+f3(6n, -1024n);
+f3(-1024n, 6n);
+const o28 = {
+};
+let v29 = 1000;
+const v31 = new Uint32Array();
+function F40(a42, a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    a44.valueOf = Symbol;
+    Object.defineProperty(this, "d", { configurable: true, enumerable: true, value: v31 });
+    try {
+        this.d = a44;
+    } catch(e45) {
+    }
+    ~F40;
+    Uint32Array << a44;
+    [,...v29] = v31;
+}
+F40[Symbol.toPrimitive] = f3;
+new F40(426155202, 128, Uint8ClampedArray);
+new F40(426155202, 128, 2305);
+new F40(4294967296, 2305, v29);
+function f53() {
+}
+class C54 extends f53 {
+    toString(a56, a57) {
+        -this;
+    }
+    static 8 = v29;
+    static [128];
+    [F40] = 2305;
+    268435440;
+    static g = "Vre";
+}
+const v59 = new C54();
+function f60() {
+    function f61() {
+        try {
+            v31.__proto__ = "NFKD";
+        } catch(e62) {
+        }
+        return Uint32Array;
+    }
+    return f61;
+}
+Object.defineProperty(v59, Symbol.toPrimitive, { configurable: true, get: f60 });
+try { v59.toString(); } catch (e) {}

@@ -1,0 +1,23 @@
+const v3 = [1,9007199254740991,1,1,9007199254740991];
+const v4 = [-1,v3];
+try { v4.splice(v3, 9007199254740991); } catch (e) {}
+const v7 = ([v4,v4,v4])?.filter;
+let v8;
+try { v8 = new v7(v4); } catch (e) {}
+function f9() {
+    return v8;
+}
+128 !== 128;
+new BigInt64Array(128);
+new Float32Array(1874);
+357 !== 357;
+new Uint32Array(357);
+class C22 extends v4 {
+}
+try { new BigInt64Array(); } catch (e) {}
+const v24 = new C22();
+try { Float32Array.join(1); } catch (e) {}
+const v27 = [v24,v24];
+const v28 = v24.reverse;
+try { v28(); } catch (e) {}
+Reflect.apply(v28, v24, v27);

@@ -1,0 +1,130 @@
+function f0() {
+    const v1 = -Infinity;
+    -Infinity;
+    const o23 = {
+        "f": v1,
+        "a": v1,
+        "h": 1.0,
+        "d": v1,
+        6: v1,
+        p(a5, a6) {
+            return "C";
+        },
+        [v1](a11) {
+            let v14 = 10000;
+            const v15 = Math.tanh(-14);
+            const v16 = +a11;
+            const v17 = ++v14;
+            v16 * v17;
+            throw v15;
+            v17 instanceof f0;
+            this === arguments;
+            return a11;
+        },
+    };
+    return o23;
+}
+const v24 = f0();
+const v25 = v24();
+const v26 = f0();
+function f30(a31, a32) {
+    const o38 = {
+        "b": a31,
+        "d": -10,
+        get h() {
+            let v34;
+            try { v34 = this.assign(this); } catch (e) {}
+            const o35 = {
+                "apply": f0,
+                "call": f0,
+                "a": 0,
+                ...v24,
+                __proto__: v26,
+                2370: v26,
+                "c": this,
+                "construct": f0,
+                "defineProperty": f0,
+                "deleteProperty": f0,
+                "getPrototypeOf": f0,
+                "has": f0,
+                "isExtensible": f0,
+                "ownKeys": f0,
+                "preventExtensions": f0,
+                "set": f0,
+                "setPrototypeOf": f0,
+            };
+            new Proxy(v24, o35);
+            return v34;
+        },
+    };
+    return o38;
+}
+f30(v24, f0);
+f30(v24, v26);
+f30(v25, v24);
+[1000,10,10,-1];
+[-128,-54775,-1654345051,-268435456,1283883794,536870887,-1000755951];
+[-4294967297,-4294967296,-58489,-9007199254740991,9007199254740991,-9007199254740990,599782574,-7,9223372036854775807,-256];
+-9223372036854775808 & -9223372036854775808;
+class C3 {
+    [-256];
+    static get b() {
+        try {
+            super[16] = -256;
+        } catch(e5) {
+        }
+        return 16;
+    }
+    static #g;
+    static #h;
+    static 65536;
+    90;
+    static f = 16;
+}
+const v6 = new C3();
+const v7 = new C3();
+new C3();
+class C9 {
+    [v7] = -128;
+    [v6];
+    [-256];
+    static [C3];
+    constructor(a11, a12, a13) {
+        try {
+            this[7] = C3;
+        } catch(e14) {
+        }
+        const v15 = v7;
+        try {
+            new C3();
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C9(-256, C3, -128);
+const v19 = new C9(16, v18, -256);
+const v20 = new C9(-128, v19, -128);
+class C27 {
+    constructor(a29, a30) {
+        const v31 = this?.constructor;
+        try { new v31(a29, C9); } catch (e) {}
+        a29 | a29;
+        a30.name;
+        super.replace;
+    }
+}
+const v36 = new C27(-4096, C27);
+const v37 = new v20(1000.0, v36);
+v37.constructor;
+const v39 = new C27(C27, v37);
+function F40(a42, a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    a44.d = a44;
+    const t54 = a45.constructor;
+    new t54(a42, v39);
+}
+const v48 = new F40(v39, C27, v37, v37);
+new F40(v48, v37, v48, v37, v48);
+([0.43093005420324215,1000.0]).toString();
+const t59 = [-9223372036854775807,1073741824,-65535,1945375758,4294967295,-9,-65537,1,-268435456];
+t59[268435439] = "freeze";

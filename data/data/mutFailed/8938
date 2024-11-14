@@ -1,0 +1,37 @@
+for (const v5 in 11923) {
+    function F6(a8, a9) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.g = a9;
+        } catch(e10) {
+        }
+        try {
+            this.f = -12n;
+        } catch(e11) {
+        }
+    }
+    new F6(-12n, 848713023n);
+    new F6(848713023n, -12n);
+    new F6(848713023n, 690955292n);
+}
+const t16 = 11923;
+const v18 = new t16(719);
+function f21() {
+    return 848713023n;
+}
+v18[f21] = 690955292n;
+try {
+    f21();
+} catch(e23) {
+}
+const v24 = new Float64Array(16);
+const v29 = [1.5340415543558148e+308];
+Reflect.apply((16).indexOf, v24, v29);
+new Int8Array(96);
+function F35() {
+    if (!new.target) { throw 'must be called with new'; }
+    for (const v40 of Array(719)) {
+        16 % Math.cbrt();
+    }
+}
+new F35();

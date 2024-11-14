@@ -1,0 +1,41 @@
+function f2() {
+    function f3() {
+        const o6 = {
+            get b() {
+                super[this] = this;
+                return f3;
+            },
+            ..."b",
+        };
+        return o6;
+    }
+    return f3();
+}
+Int32Array[Symbol.iterator] = f2;
+new Int32Array(2);
+Int16Array.e = Int16Array;
+const v13 = new Int16Array(3765);
+let v16;
+try { v16 = new Uint8Array(Int32Array, 2171, Int16Array); } catch (e) {}
+const v17 = new Uint8Array(2171);
+v17.toString = Symbol;
+v17[298] = v17;
+new Date();
+function f20() {
+    return v13;
+}
+const v23 = new BigUint64Array(113);
+const v24 = v23[38];
+197 / 197;
+try { new v16(Uint8Array, 2171, Uint32Array); } catch (e) {}
+new Uint32Array(197);
+new Int8Array(2547);
+for (let v33 = 0; v33 < 5; v33++) {
+    function f34() {
+        const v36 = new Float64Array();
+        v36[2];
+        return v33;
+    }
+    f34();
+    %OptimizeFunctionOnNextCall(v24);
+}

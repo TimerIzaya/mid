@@ -1,0 +1,43 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -536870912;
+    } catch(e3) {
+    }
+    try {
+        function f4() {
+            const v6 = new ArrayBuffer(ArrayBuffer, ArrayBuffer);
+            return v6;
+        }
+        %OptimizeFunctionOnNextCall(f4);
+        f4();
+        this.a = F0;
+    } catch(e8) {
+    }
+}
+new F0();
+new F0();
+new F0();
+new Int16Array(8);
+const o21 = {
+    "execution": gc,
+    "type": "minor",
+};
+gc(o21);
+new Uint8ClampedArray(129);
+for (let [v26] of "minor") {
+}
+new Uint16Array(166);
+new Uint8Array(268435440);
+function F34() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C36 {
+    constructor(a38, a39, a40) {
+        a39.constructor = gc;
+        class C42 extends a39.constructor {
+        }
+        new C42();
+    }
+}
+new C36(F34, "sync");

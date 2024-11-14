@@ -1,0 +1,70 @@
+function f0() {
+}
+class C1 {
+    #m() {
+        const v3 = this in this;
+        f0 % f0;
+        f0();
+        return v3;
+    }
+    static c;
+    static set f(a7) {
+        const v9 = Symbol.iterator;
+        const o18 = {
+            [v9]() {
+                let v10 = this;
+                const o17 = {
+                    next() {
+                        v10--;
+                        10 == 0;
+                        const o16 = {
+                            "done": v10,
+                            "value": this,
+                        };
+                        return o16;
+                    },
+                };
+                return o17;
+            },
+        };
+    }
+}
+const v19 = new C1();
+const v20 = new C1();
+const v21 = new C1();
+const v22 = v21?.constructor;
+try { new v22(); } catch (e) {}
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v33 = this?.constructor;
+    try { new v33(f0, v19, a32, a32); } catch (e) {}
+    -a32;
+    try {
+        this.h = v21;
+    } catch(e36) {
+    }
+    try {
+        this.d = a32;
+    } catch(e37) {
+    }
+    try {
+        this.e = v33;
+    } catch(e38) {
+    }
+}
+F27.f = F27;
+const v39 = new F27(C1, v21, v20, -1073741824n);
+v39.length = v39;
+new F27(v21, F27, v39, 2007446254n);
+new F27(v39, v39, v20, -1073741824n);
+new Uint16Array(10);
+const v47 = new Uint8ClampedArray(16);
+v47[10];
+new Int32Array(127);
+const v52 = [-536870912,12,65535,268435440,59916,438058862,-15,1073741823,-9007199254740990];
+try { new v47(); } catch (e) {}
+const v55 = Symbol.toPrimitive;
+v52[v55] = f0;
+v55.push(v52);
+const v58 = new Int8Array(v52);
+try { v58.reverse(); } catch (e) {}

@@ -1,0 +1,74 @@
+function f4() {
+    return "0";
+}
+const v5 = f4?.apply;
+try { new v5("0", f4); } catch (e) {}
+function f7(a8) {
+    const o16 = {
+        ...a8,
+        p(a10, a11, a12) {
+            super.a = a11 & "-499970708";
+            try {
+                super.p(a12);
+            } catch(e15) {
+            }
+            return a8;
+        },
+        "a": f4,
+        "c": "0",
+        "h": a8,
+    };
+    return o16;
+}
+const v17 = f7("0");
+v17[0] = v17;
+const v18 = f7("valueOf");
+const v19 = f7("0");
+v19[0];
+class C21 {
+    get h() {
+        super.h;
+        return "-499970708";
+    }
+    #b;
+    constructor(a26, a27, a28) {
+        try {
+            f4();
+        } catch(e30) {
+        }
+        const v33 = new Int8Array(160);
+        const o34 = {
+        };
+        o34.constructor.getOwnPropertyDescriptors(v33);
+        for (let i39 = 0, i40 = 10; i39 < i40; i40--) {
+        }
+    }
+    static #d = f7;
+}
+C21.name;
+const v48 = new C21(v18, "valueOf", v19);
+new C21(v48, "-499970708", v48);
+new C21(C21, "-499970708", v18);
+function f52() {
+    f4();
+    %PrepareFunctionForOptimization(f4);
+    f4();
+    f4();
+    %OptimizeFunctionOnNextCall(f4);
+    return f4();
+}
+Uint32Array[Symbol.iterator] = f52;
+const v59 = new Uint32Array(Uint32Array, Uint32Array);
+v59[2];
+function F62() {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.propertyIsEnumerable(this); } catch (e) {}
+    try {
+        Object.defineProperty(v59, -5.0, { enumerable: true, value: Array() });
+    } catch(e67) {
+    }
+}
+try { new F62(); } catch (e) {}
+const v69 = new F62();
+const v70 = v69?.constructor;
+try { new v70(); } catch (e) {}

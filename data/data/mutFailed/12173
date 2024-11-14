@@ -1,0 +1,70 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -268435456;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+function f5(a6) {
+    const v7 = /foo(?<=bar)baz/s;
+    const t10 = /ZMq/vy;
+    t10[Symbol.species] = v7;
+    return v4;
+}
+v4[Symbol.toPrimitive] = f5;
+const v13 = new F0();
+const v14 = new F0();
+class C15 {
+    static set f(a17) {
+        const v18 = v4[6];
+        try {
+            const v19 = [this,v18,F0,v14,a17];
+            v14.fuck(v13, v19, v19);
+        } catch(e21) {
+        }
+    }
+    10;
+    static [v13] = v14;
+    static [v4] = F0;
+    get e() {
+        return v14;
+    }
+    static #e;
+}
+const v26 = C15?.bind;
+try { new v26(v14); } catch (e) {}
+const v28 = new C15();
+v28[10] = v28;
+const v29 = new C15();
+v29[10] = v29;
+new C15();
+64 & 64;
+-2147483649 >> -2147483649;
+class C36 extends F0 {
+    get b() {
+        super.c = this;
+        C15[Symbol.asyncIterator];
+        return v13;
+    }
+    static #m(a42, a43) {
+        a43.a;
+        v14 % v29;
+        try {
+            v29.length = 0;
+        } catch(e50) {
+            try { e50(); } catch (e) {}
+            super[v13] = g;
+        }
+        return a42;
+    }
+}
+C36.b = C36;
+new C36();
+const v57 = new C36();
+v57.a = v57;
+new C36();
+-11;
+const v62 = new BigInt64Array(11);
+const v63 = v62.lastIndexOf();
+v63 >> v63;

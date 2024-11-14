@@ -1,0 +1,45 @@
+const v0 = [];
+v0[8] = v0;
+class C1 {
+    n() {
+        const v3 = delete this?.g;
+        v3[536870888] = v0;
+        return v3;
+    }
+    0 = v0;
+    static [v0];
+    static 9;
+    [v0];
+    c;
+}
+const v4 = new C1();
+const v5 = new C1();
+const v6 = new v5();
+function f7(a8, a9) {
+    const o21 = {
+        "f": v6,
+        ...C1,
+        "e": v6,
+        valueOf(a11, a12) {
+            super[this];
+            Object.defineProperty(C1, v4, { enumerable: true, value: a9 });
+            return a11;
+        },
+        __proto__: v0,
+        n(a16, a17) {
+            Reflect.construct(a8, [a8,Reflect], a9);
+            return Reflect;
+        },
+    };
+    o21[8] = f7;
+    return o21;
+}
+const v22 = f7(v6, v6);
+v22[v0] >>>= v0[8];
+[[[f7,v0,v6],v22,v6]];
+f7(C1, C1);
+f7(v6, v5);
+function f29() {
+    return v6;
+}
+("by").normalize();

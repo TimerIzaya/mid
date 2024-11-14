@@ -1,0 +1,46 @@
+const v0 = [];
+function f4() {
+    return v0;
+}
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a7;
+    } catch(e9) {
+    }
+    try {
+        this.a = a8;
+    } catch(e10) {
+    }
+}
+const t15 = 536870887;
+const v11 = new t15(-9223372036854775807, 536870887);
+new F5(19852, 536870887);
+const v13 = new F5(19852, -9223372036854775807);
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a16;
+    } catch(e18) {
+    }
+    try {
+        this.c = F5;
+    } catch(e19) {
+    }
+}
+new F14(v11, v11);
+new F14(-9223372036854775807, v13);
+new F14(f4, v13);
+const o25 = {
+    valueOf() {
+        return [NaN,1000.0,8.951106279668121,-3.0,-Infinity,1.7976931348623157e+308,-4.0,243.50965730660823,0.0];
+    },
+};
+function F26(a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a28.valueOf(); } catch (e) {}
+    const v31 = this.constructor;
+    try { new v31(a28); } catch (e) {}
+}
+new F26();
+new F26(o25);

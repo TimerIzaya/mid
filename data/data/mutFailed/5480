@@ -1,0 +1,81 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        return this;
+    }
+    function f3(a4) {
+        function f5(a6, a7) {
+            const v8 = -a6;
+            v8 >> v8;
+            const o10 = {
+            };
+            return o10;
+        }
+        const v12 = f5().propertyIsEnumerable;
+        const v15 = new Uint8Array(this);
+        function f16(a17, a18, a19, a20) {
+            a19++;
+            a19 % a19;
+            const o26 = {
+                "b": a17,
+                ...v15,
+                n(a24, a25) {
+                    return a25;
+                },
+            };
+            return v12;
+        }
+        for (let v27 = 0; v27 < 625; v27++) {
+            const v28 = f16(Uint8Array, 2, v27);
+            try { v28(v27); } catch (e) {}
+        }
+    }
+    Object.defineProperty(this, "caller", { writable: true, configurable: true, get: f2, set: f3 });
+    try {
+        this.g = 10;
+    } catch(e31) {
+    }
+    try {
+        this.d = 10;
+    } catch(e32) {
+    }
+}
+F0.includes = F0;
+const v33 = new F0();
+const v34 = new F0();
+const v35 = new F0();
+function f36() {
+    return v35;
+}
+const v37 = [v35,f36,F0,v34];
+const v38 = [v37,v37,f36,f36];
+const v39 = [f36,f36,f36];
+function F40(a42, a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a42;
+    a43.caller = F40;
+    a45.caller = F40;
+    try { a43.map(a43); } catch (e) {}
+    a44.caller = a44;
+    try { a45.includes(v33); } catch (e) {}
+    try {
+        this.c = F0;
+    } catch(e48) {
+    }
+    try {
+        this.h = a44;
+    } catch(e49) {
+    }
+    try {
+        this.a = F0;
+    } catch(e50) {
+    }
+}
+try { new F40(F40, v35, f36, F0); } catch (e) {}
+new F40(v37, v38, f36, v39);
+new F40(v37, v39, v35, v37);
+new F40(v37, v39, v39, v39);
+55586 % 55586;
+const v61 = new Uint8Array(165);
+v61.d = v61;
+-v61.lastIndexOf();

@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.d = 2147483648;
+    } catch(e4) {
+    }
+    try {
+        this.a = 2147483648;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C12 {
+    d = 49572;
+    constructor(a14, a15, a16, a17) {
+        Object.defineProperty(a14, Symbol.toStringTag, { configurable: true, value: 17388 });
+        a15[Symbol.toPrimitive] = Symbol;
+        a17[Symbol.toStringTag] = 536558159;
+        a15.e;
+        try { a17(); } catch (e) {}
+        super[a14];
+        try {
+            a16.__proto__ = a14;
+        } catch(e27) {
+        }
+    }
+}
+const v28 = new C12(C12, C12, v8, 49572);
+function f29(a30) {
+    try {
+        C12.fuck(1.462031068228928, [536558159,1.462031068228928,17388,a30,v8]);
+    } catch(e34) {
+    }
+    return F0;
+}
+v28.toString = f29;
+const v35 = new C12(v28, v8, v7, v28);
+v35.e = v35;
+new C12(v7, v35, C12, 49572);
+const v38 = new BigInt64Array();
+for (const v39 in v38) {
+}

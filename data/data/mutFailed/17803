@@ -1,0 +1,25 @@
+function f0() {
+    const o10 = {
+        __proto__: "symbol",
+        "e": 2,
+        [9007199254740990]: "symbol",
+        set c(a5) {
+            ("symbol")[4130224441];
+            function f7(a8) {
+                return 9007199254740990;
+            }
+            class C9 extends f7 {
+                ["symbol"] = 2;
+                [-2] = f7;
+            }
+        },
+    };
+    return o10;
+}
+f0();
+f0();
+f0();
+new Uint8ClampedArray(-13);
+new Int8Array(-256);
+new BigInt64Array(-4294967295);
+Math.cosh(Math);

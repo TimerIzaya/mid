@@ -1,0 +1,22 @@
+function f0() {
+}
+function F7(a9, a10, a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        const t5 = 1e-15;
+        t5.e = Infinity;
+    } catch(e13) {
+    }
+    try {
+        this.c = a9;
+    } catch(e14) {
+    }
+}
+new F7(Infinity, 1290718475n, F7, 4096n);
+const v16 = new F7(1290718475n, -5n, 1290718475n, -5n);
+new Infinity(1.0, 4096n, 1e-15, 4096n);
+function f18() {
+    new Int8Array(1073741823);
+}
+v16();
+f18();

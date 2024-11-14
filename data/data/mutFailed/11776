@@ -1,0 +1,57 @@
+const v2 = new Array(64);
+function f3(a4, a5) {
+    a5.toString = Array;
+    const o12 = {
+        [a5](a7, a8) {
+            const v9 = super.e;
+            %VerifyType(Array);
+            v2[Symbol.split] = 64;
+            return v9;
+        },
+        5: Array,
+        ...a4,
+        7: a4,
+        "a": a4,
+    };
+    function f13() {
+        try {
+            new f3(false, false);
+        } catch(e16) {
+        }
+        return f3;
+    }
+    o12.toString = f13;
+    return o12;
+}
+function f17(a18) {
+    function f19() {
+        return 64;
+    }
+    return f3;
+}
+f3.toString = f17;
+const v20 = f3(v2, f3);
+f3(v2, f3);
+const v22 = f3(Array, v20);
+new Int16Array(64);
+new Int8Array(1000);
+new Uint8ClampedArray(415);
+new Int8Array(628786973);
+new BigInt64Array(257);
+const o44 = {
+    [-352741132]: -352741132,
+    set b(a42) {
+    },
+    get c() {
+        return this;
+    },
+    "b": 2.220446049250313e-16,
+};
+class C45 {
+    #c = "e";
+}
+class C46 {
+}
+new C46();
+const v48 = v22.__defineGetter__;
+try { v48(); } catch (e) {}

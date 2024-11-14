@@ -1,0 +1,28 @@
+[-2147483649,-51766,128,6];
+const v1 = [512];
+const v2 = [8,4,49890,1486707364,1514442543,-2,9,1652029695,10000,-16];
+const v3 = [v1];
+try { v3.map(v1); } catch (e) {}
+const v5 = [v2,v3];
+[v5,v5];
+let v10 = 0;
+v10--;
+const v13 = new Uint32Array(v10);
+try { v13.entries(); } catch (e) {}
+const v17 = new Int16Array(6);
+v17[2] = v17;
+const v20 = new Float64Array(10);
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v26 = F22?.constructor;
+try { new v26(v20); } catch (e) {}
+let v28 = new F22();
+const v29 = v28?.__lookupGetter__;
+try { new v29(v1); } catch (e) {}
+class C31 {
+    constructor(a33, a34, a35) {
+        ({"c":v28,...v28} = a34);
+    }
+}
+C31.e = C31;

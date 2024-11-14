@@ -1,0 +1,50 @@
+class C5 {
+    constructor(a7) {
+        let v8;
+        try { v8 = this(undefined, this); } catch (e) {}
+        new Int16Array(v8);
+        new Float32Array(11392n);
+        new Float64Array(64);
+    }
+    static [undefined] = -7n;
+    [11392n];
+    g;
+}
+const v18 = new C5(-7n);
+const v19 = new C5(v18);
+const v20 = new C5(129n);
+class C21 extends C5 {
+    #g;
+    static {
+        let v23;
+        try { v23 = this.fill(); } catch (e) {}
+        function f24(a25, a26, a27, a28) {
+            const v30 = [129n,129n,v23];
+            Reflect.construct(a27, v30, a27);
+            try {
+                v30.length = a27;
+            } catch(e32) {
+            }
+            return Reflect;
+        }
+        f24(129n, this, f24, v20);
+    }
+}
+const v34 = new C21();
+new v19();
+new C21();
+[Infinity,-334567.22365112475,9.609942811801246e+307,563.7120149510397,2.0];
+[-1.5930846205921978e+308,1000000000000.0,2.220446049250313e-16,NaN,-Infinity,-1000.0];
+[835.8905575280332,261864.54187176982,-Infinity,-1.0,5.0];
+class C43 {
+}
+class C44 extends C43 {
+    static set b(a46) {
+        class C56 {
+            #a;
+            constructor(a58, a59, a60) {
+                v34.#a;
+            }
+        }
+    }
+}

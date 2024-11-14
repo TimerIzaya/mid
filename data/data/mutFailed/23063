@@ -1,0 +1,101 @@
+const o7 = {
+};
+class C9 extends Array {
+}
+const v10 = new C9();
+function f12(a13, a14, a15, a16) {
+    const o17 = {
+        3: a15,
+        "e": a16,
+        "h": a15,
+        "c": 30826n,
+        "g": false,
+        __proto__: -9223372036854775807n,
+        "d": a16,
+        ...false,
+        "f": 10n,
+        "b": a15,
+    };
+    return o17;
+}
+f12(10n, -9223372036854775807n, 10n, -480225170n);
+f12(307198770n, 30826n, -480225170n, 268435456n);
+function f20(a21, a22, a23, a24) {
+    function f25() {
+        const o29 = {
+            valueOf(a27, a28) {
+                return f20;
+            },
+        };
+        o29.valueOf();
+        return a24;
+    }
+    const v32 = new Float32Array();
+    v32.fill();
+    new WeakSet();
+    f25();
+    f25();
+    return f20;
+}
+for (let v38 = 0; v38 < 5; v38++) {
+    f20();
+}
+%PrepareFunctionForOptimization(f20);
+f20();
+%OptimizeFunctionOnNextCall(f20);
+f20();
+f12(10n, 30826n, 30826n, 10n);
+const v43 = [];
+function f44() {
+    v10[10] = o7;
+    Array["of"](v43);
+    return C9;
+}
+v43[Symbol.toPrimitive] = f44;
+function f49(a50) {
+    try {
+        v43.some();
+    } catch(e52) {
+        function f53(a54) {
+            function f55() {
+            }
+            class C58 {
+                valueOf(a60) {
+                    try {
+                        f55();
+                    } catch(e62) {
+                    }
+                    return this;
+                }
+                static {
+                    let v63 = this;
+                    try { v63.call(-65535); } catch (e) {}
+                    v63[2769597849] = v63;
+                    v63 &= v63;
+                    C58[7] = v63;
+                    super.h = -13676;
+                    super.e ||= -65535;
+                    const v65 = C58.__proto__;
+                    try { v65.call(-13676); } catch (e) {}
+                    try {
+                        v63.length = 1;
+                    } catch(e68) {
+                    }
+                }
+            }
+            const v69 = new C58();
+            const v70 = v69?.constructor;
+            try { new v70(); } catch (e) {}
+            return -65535;
+        }
+        e52[Symbol.toPrimitive] = f53;
+        e52.message = e52;
+        e52.stack;
+    }
+    return a50;
+}
+v43.toString = f49;
+const o76 = {
+    [v43]() {
+    },
+};

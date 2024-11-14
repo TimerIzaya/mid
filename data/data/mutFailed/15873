@@ -1,0 +1,59 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = this;
+    try {
+        this.e = 1000;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+[2147483649,-2,2,268435440,8,-256,-2147483647,54107,1055014014,-268435456];
+const v11 = [-1613618027,16,4294967295,4294967297,-1032502561,2147483648];
+[33429,268435439,1073741824,536870889,0,-65536];
+new WeakSet();
+function f15() {
+    let v16 = -4294967295;
+    const o18 = {
+        get a() {
+            v16 %= v16;
+            return f15;
+        },
+    };
+    return f15;
+}
+f15[Symbol.toPrimitive] = f15;
+let v21 = f15();
+const v22 = f15();
+const v23 = f15();
+class C28 extends f15 {
+    static #g = "o";
+    static [v23];
+    constructor(a30, a31, a32, a33) {
+        super();
+        try {
+            v21.#g **= a30;
+        } catch(e34) {
+        }
+    }
+    static o(a36, a37) {
+        v21 **= this;
+        f15();
+    }
+}
+const v39 = new C28(5n, "-17909", f15, "o");
+new C28("-17909", "-17909", "p", "p");
+new C28(v21, "p", v21, "o");
+class C42 {
+    get g() {
+        Uint16Array();
+        Uint8ClampedArray();
+        BigInt64Array();
+        return v22;
+    }
+    static #h = "p";
+}
+const v50 = new C42();
+v50.o = v11;
+try { v50.o(v39); } catch (e) {}

@@ -1,0 +1,70 @@
+const v1 = new Set();
+class C2 {
+    get b() {
+        try {
+            v1.size = this;
+        } catch(e4) {
+        }
+        return v1;
+    }
+    2147483648 = v1;
+    static 0;
+    static #a;
+    #c;
+    static #b = v1;
+}
+const v5 = new C2();
+v5[2147483648];
+C2[2147483648];
+const v8 = new C2();
+const v9 = v8[2147483648];
+const v10 = new C2();
+~1;
+-65535 - -65535;
+-65535 !== -65535;
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    let v22;
+    try { v22 = v5.toTimeString(v9, v8, this); } catch (e) {}
+    let {"g":v23,...v24} = v22;
+    try {
+        v24.h = v23;
+    } catch(e25) {
+    }
+    a20[2147483648];
+    const v27 = this?.constructor;
+    try { new v27(a21, a20); } catch (e) {}
+    try {
+        this.f = a20;
+    } catch(e29) {
+    }
+}
+const v30 = new F18(v10, C2);
+new F18(v10, v10);
+const v32 = new F18(C2, C2);
+const v33 = v32?.f;
+try { new v33(); } catch (e) {}
+function f35(a36, a37) {
+    function f38(a39, a40) {
+        const v41 = v30.f;
+        let v42;
+        try { v42 = v41(a39); } catch (e) {}
+        try { new v42(a36, undefined, v41, a37); } catch (e) {}
+        let v46 = 17982;
+        v46 / !v46;
+        v46++;
+        a37 >>> 847907007;
+        return a40;
+    }
+    try { new Set(); } catch (e) {}
+    Set.toString = f38;
+    const o53 = {
+        ...a36,
+    };
+    o53.f = o53;
+    return a37;
+}
+%PrepareFunctionForOptimization(f35);
+f35();
+%OptimizeFunctionOnNextCall(f35);
+f35(f35);

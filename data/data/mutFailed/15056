@@ -1,0 +1,76 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f6() {
+        return F3;
+    }
+    function f7(a8) {
+        function F9(a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = 4294967297n;
+            } catch(e13) {
+            }
+            try {
+                this.f = a11;
+            } catch(e14) {
+            }
+            try {
+                this.g = -1024n;
+            } catch(e15) {
+            }
+        }
+        new F9(4294967297n, a8);
+        const v17 = new F9(a8, 1n);
+        new F9(a8, v17);
+    }
+    Object.defineProperty(this, "f", { writable: true, enumerable: true, get: f6, set: f7 });
+    try {
+        this.f = a5;
+    } catch(e19) {
+    }
+    try {
+        this.c = a5;
+    } catch(e20) {
+    }
+    try {
+        this.b = a5;
+    } catch(e21) {
+    }
+}
+const v22 = new F3(-1024n);
+const v23 = new F3(1n);
+const v24 = new F3(4294967297n);
+function f25() {
+    return v24;
+}
+const v27 = new WeakMap();
+function F28(a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 4294967297n;
+    } catch(e32) {
+    }
+    try {
+        this.b = a30;
+    } catch(e33) {
+    }
+    try {
+        this.e = a31;
+    } catch(e34) {
+    }
+}
+new F28(4294967297n, v22);
+new F28(-1024n, v27);
+new F28(1n, v23);
+class C38 {
+    constructor(a40, a41, a42) {
+        function f43(a44, a45, a46) {
+            function f48(a49) {
+                return a46;
+            }
+            %PrepareFunctionForOptimization(f48);
+            return this;
+        }
+        Worker(f43);
+    }
+}

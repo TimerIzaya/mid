@@ -1,0 +1,50 @@
+function f0() {
+    const v3 = [9007199254740990,12,13,1073741825,-9223372036854775807,2147483649,-320466038];
+    const v5 = new Uint8Array();
+    v3[-9007199254740990] = v5;
+    let v8;
+    try { v8 = ("prototype").search(-2.2250738585072014e-308); } catch (e) {}
+    const o9 = {
+        ...v8,
+        "c": -2.2250738585072014e-308,
+        [127]: 127,
+        ...v8,
+        1466004914: v8,
+        "h": v8,
+        __proto__: "prototype",
+        9: v8,
+        "d": "prototype",
+        ..."prototype",
+        "e": 127,
+    };
+    return o9;
+}
+const v10 = f0();
+f0();
+const v12 = f0();
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new Int8Array(1024);
+const v22 = [f0];
+const v23 = [v10,v12,f0,f0];
+[v12,v12,v23,v12,f0];
+const o26 = {
+};
+gc(o26);
+new Int8Array();
+("undefined")[5];
+try { ("string").trimLeft(); } catch (e) {}
+class C34 {
+}
+const v37 = new Float32Array(2);
+v37[1] = v37;
+new v22();
+const v45 = [-1.5424212036356715e+308];
+v45[268435441n] = v45;
+for (const v46 in v22) {
+    Math.tan(-23394);
+}
+try { new BigUint64Array(268435441n, -31037n, v23); } catch (e) {}
+const v51 = new BigUint64Array();
+v51[2445191368] = 268435441n;

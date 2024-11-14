@@ -1,0 +1,112 @@
+function f0() {
+    const v3 = -Infinity;
+    const o12 = {
+        "g": 255,
+        ...255,
+        "e": v3,
+        __proto__: v3,
+        [255](a5, a6) {
+            a5 === 255 ? a5 : 255;
+            [9007199254740990,-2147483649,-50631,-1937119414,-568353738,9223372036854775807,8,-9007199254740992,-8852];
+            const v10 = [1024,-5,2107821487,-16];
+            [-9007199254740990,-4294967295,2,4294967296];
+            return v10;
+        },
+        "f": 255,
+        "d": 9,
+        "b": 255,
+    };
+    o12[255] = o12;
+    return o12;
+}
+const v13 = f0();
+let v14 = f0();
+const v15 = f0();
+function f16(a17, a18) {
+    const o27 = {
+        "h": f0,
+        "c": v14,
+        __proto__: v14,
+        "f": v15,
+        "g": v15,
+        set d(a20) {
+            switch (a20) {
+                case v13:
+                    let v23;
+                    try { v23 = ("1073741823").indexOf("h", a17); } catch (e) {}
+                    try {
+                        super.toJSON(v23);
+                    } catch(e25) {
+                    }
+            }
+            ({"f":v14,"h":a17,...a18} = this);
+        },
+    };
+    return o27;
+}
+v13.e -= v14;
+/a*?O\p{Changes_When_NFKC_Casefolded}a[^a]c\9+/gdms;
+/Sd/gvdis;
+/\q/s;
+const o31 = {
+    "apply": f0,
+    "deleteProperty": f0,
+    "getOwnPropertyDescriptor": f16,
+    "getPrototypeOf": f16,
+    "isExtensible": f0,
+    "ownKeys": f16,
+    "set": f16,
+};
+new Proxy(v15, o31);
+const v34 = f16(v13, v14);
+const v35 = f16(f16, v14);
+const v36 = f16(v35, v14);
+[0.7182632976491499,0.8455289508166738,-5.050619265968049,1000000000.0,-1000000.0,2.2250738585072014e-308];
+const v38 = [-77706.51783159503,-723.6979012972074,0.3967525901577881,0.6905571478466825,5.0,-1000000.0,-Infinity];
+const v39 = [-1.4956119546629118e+308,1.0];
+function f43(a44, a45, a46, a47) {
+    a44[255] = a44;
+    a45[255];
+    const o49 = {
+        "d": a47,
+        "f": v39,
+        "g": -37030,
+        2: v36,
+        ...a46,
+        "h": v38,
+        "a": a45,
+        "e": a44,
+        "b": -37030,
+        __proto__: v38,
+        [-9]: v13,
+        [a46]: a45,
+        2147483647: v35,
+        "c": v34,
+        8: v14,
+    };
+    return o49;
+}
+f43(v14, v14, f16, v34).d;
+const v53 = f43(v38, -13, f43(v14, -9, -9, v36), v14);
+v53.g = v53;
+const v54 = [1073741824,1073741823,1376142744,1073741825];
+%VerifyType(v54);
+const t93 = v35.d;
+t93[8] = f0;
+try {
+    v53.f = v54;
+} catch(e56) {
+}
+function f57(a58, a59, a60, a61) {
+    a58 >> a58;
+    a59 >>> a59;
+    let v64 = v54.indexOf();
+    v64--;
+    return a61;
+}
+for (let v66 = 0; v66 < 10; v66++) {
+    v66 / v66;
+    f57(v66, v66, v66, v66);
+}
+%OptimizeFunctionOnNextCall(f57);
+f57(v54, f57, v54, f57);

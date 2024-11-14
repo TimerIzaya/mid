@@ -1,0 +1,81 @@
+const v0 = /a(?!b)/gisy;
+const v1 = /K\xe2\x81\xa3*/gdis;
+const v2 = /8(\1a)/gvdis;
+const v3 = [v1,v2,v0,v1];
+const v4 = [v3,v3,v0,v2];
+const v5 = [v4,v0,v2];
+function f6() {
+    return v3;
+}
+class C7 extends f6 {
+    constructor(a9, a10, a11, a12) {
+        super();
+        let v13 = 0;
+        while (v13 < 1) {
+            a11 = v13;
+            const o16 = {
+            };
+            try {
+                o16.e = v4;
+            } catch(e17) {
+            }
+            try {
+                const o18 = {
+                };
+                o18.a = v4;
+                o18.f = v5;
+            } catch(e19) {
+            }
+            try {
+                const o20 = {
+                };
+                o20.a = v4;
+                o20.f = v5;
+                o20.b = v13;
+            } catch(e21) {
+            }
+            try {
+                const o22 = {
+                };
+                o22.a = v4;
+                o22.f = v5;
+                o22.message = v4;
+            } catch(e23) {
+            }
+            v13++;
+        }
+    }
+}
+const v25 = new C7(v0, v3, v2, v4);
+const v26 = new C7(v0, v25, v5, v5);
+new C7(v2, v5, v26, v25);
+new RegExp(9);
+class C37 {
+    b = "c";
+    static #h;
+    268435439;
+    static #c;
+}
+new C37();
+new C37();
+new C37();
+[2.220446049250313e-16,1.7976931348623157e+308,1.7976931348623157e+308];
+[-788.7260290236088,1.7976931348623157e+308,"c"];
+[-788.7260290236088,C37];
+isFinite.E = isFinite;
+const v48 = isFinite.round();
+for (let v49 = 0; v49 < 10; v49++) {
+    v49 / v49;
+    async function f51(a52, a53, a54) {
+        a54 >>> a54;
+        Number.isNaN(await v48);
+        const v60 = [0.8307152163010869,1.0,0.0];
+        v60[2] = v60;
+        v60.length = v49;
+        %VerifyType(v60 instanceof -24894);
+        return f51;
+    }
+    try { f51(-788.7260290236088, -1000000000.0, -1000000000.0); } catch (e) {}
+    const v63 = f51(isFinite, "b", v48);
+    try { v63.hasOwnProperty(-788.7260290236088); } catch (e) {}
+}

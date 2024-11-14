@@ -1,0 +1,60 @@
+function f8(a9, a10, a11, a12) {
+    const o13 = {
+        3: a11,
+        "e": a12,
+        "h": a11,
+        "c": 30826n,
+        "g": false,
+        __proto__: -9223372036854775807n,
+        "d": a12,
+        ...false,
+        "f": 10n,
+        "b": a11,
+    };
+    return o13;
+}
+f8(10n, -9223372036854775807n, 10n, -480225170n);
+f8(307198770n, 30826n, -480225170n, 268435456n);
+function f16(a17, a18, a19, a20) {
+    function f21() {
+        const o25 = {
+            valueOf(a23, a24) {
+                return f16;
+            },
+        };
+        o25.valueOf();
+        return a20;
+    }
+    f21();
+    f21();
+    return f16;
+}
+for (let v29 = 0; v29 < 5; v29++) {
+    f16();
+}
+%PrepareFunctionForOptimization(f16);
+f16();
+%OptimizeFunctionOnNextCall(f16);
+f16();
+f8(10n, 30826n, 30826n, 10n);
+const v34 = [];
+function f35() {
+    return f16;
+}
+function f36(a37) {
+}
+Object.defineProperty(v34, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f35, set: f36 });
+function f41(a42) {
+    try {
+        v34.some();
+    } catch(e44) {
+        e44.message = e44;
+        e44.stack;
+    }
+    return a42;
+}
+v34.toString = f41;
+const o47 = {
+    [v34]() {
+    },
+};

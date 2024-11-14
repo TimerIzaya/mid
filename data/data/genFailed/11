@@ -1,0 +1,14 @@
+let v1 = 241;
+new Array(v1);
+const v8 = new BigInt64Array(239);
+new Float32Array(257);
+const v14 = new Float32Array(4);
+try {
+    v1 <<= 4;
+} catch(e15) {
+}
+const v19 = v14.filter(..."undefined", ...v14, ...v8, ...v14, "number");
+try {
+    v19.toString = Array;
+} catch(e20) {
+}

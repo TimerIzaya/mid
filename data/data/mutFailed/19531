@@ -1,0 +1,27 @@
+~65537;
+const v8 = new WeakSet();
+class C9 {
+    constructor(a11, a12, a13) {
+        Object.defineProperty(a12, "b", { enumerable: true, value: a12 });
+        const v14 = a12++;
+        super.d = a11;
+        const v15 = [2147483648];
+        [v8];
+        const v17 = [4,v15,a11];
+        v17[2] = v17;
+        try { ("minor").codePointAt(65537); } catch (e) {}
+        const o22 = {
+            "execution": "sync",
+            "type": v14,
+        };
+        o22.type;
+        gc(o22);
+    }
+}
+try { new C9(2147483648, v8, v8); } catch (e) {}
+new C9(16, 16, 6);
+const v27 = new C9(268435456, 65537, 268435456);
+v27.b = v27;
+const v28 = new C9(65537, 2147483648, 268435456);
+v28.d;
+Date[-22872n] = Date;

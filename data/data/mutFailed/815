@@ -1,0 +1,57 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        o() {
+            new Uint32Array(16);
+            new Int32Array(314);
+            new Uint16Array(154);
+            return this;
+        },
+    };
+    return o12;
+}
+const v13 = f1();
+const v14 = f1();
+const v15 = v14();
+function f16(a17) {
+    const v18 = a17?.o;
+    let v19;
+    try { v19 = new v18(); } catch (e) {}
+    const o25 = {
+        "c": v14,
+        "d": a17,
+        "a": v19,
+        "h": a17,
+        [f0]: v18,
+        __proto__: a17,
+        "e": f1,
+        "a": v13,
+        set e(a21) {
+            const v22 = [a17,this,a17,a21];
+            v13.f ^= a21;
+            a21[a17] = this;
+            Object.defineProperty(v22, "h", { configurable: true, enumerable: true, set: f0 });
+            try {
+                super.p(this, this, a17, f1);
+            } catch(e24) {
+            }
+        },
+    };
+    o25.d = o25;
+    return o25;
+}
+f16(v15);
+f16(v14).a;
+f16(v15);
+let v30 = 1000000000.0;
+v30--;
+-0.9086444286247701;
+function f36(a37) {
+}
+class C38 extends f36 {
+}
+C38.length = C38;
+const o40 = {
+};
+gc(o40);
