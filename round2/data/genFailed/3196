@@ -1,0 +1,55 @@
+class C3 {
+    c = "byteOffset";
+    #p(a5, a6) {
+        try {
+            super.valueOf(a5);
+        } catch(e8) {
+        }
+        return "byteOffset";
+    }
+    #g = 1024;
+    static #h;
+    f;
+    static #b;
+}
+let v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+const v15 = [v14,"byteOffset",v14,1024];
+const v16 = [v15,"LBxGH",v13];
+const v17 = [v16,v12,v15,v16,"byteOffset"];
+function f18() {
+    return v17;
+}
+function f19(a20, a21) {
+    const o27 = {
+        [v16]: a21,
+        "e": a21,
+        [v12]: a21,
+        "a": v17,
+        "h": 1024,
+        "g": "LBxGH",
+        set f(a23) {
+            new C3();
+            try { this["n"]("n", "byteOffset", v14, v12); } catch (e) {}
+        },
+        "b": v12,
+        __proto__: v17,
+        "d": "byteOffset",
+        2: C3,
+    };
+    return o27;
+}
+f19(v17, v12);
+const v29 = f19(v16, v12);
+f19(v15, C3);
+const o31 = {
+    "e": v16,
+    "d": v17,
+};
+v29.valueOf = f18;
+v12 && v14;
+Object.defineProperty(C3, "d", { writable: true, enumerable: true, get: f19, set: f18 });
+v13[255] = v12;
+let v33 = "LBxGH" !== 1024;
+({"c":v33,"g":f19,...v12} = v12);

@@ -1,0 +1,42 @@
+function f0() {
+    const o10 = {
+        "d": NaN,
+        __proto__: "P6bWM",
+        set f(a5) {
+            a5?.[NaN];
+        },
+        3: "P6bWM",
+        [NaN]: "P6bWM",
+    };
+    return o10;
+}
+let v11 = f0();
+const v12 = f0();
+const v13 = f0();
+const v14 = /[\ca]/m;
+const v15 = /a|ba$a$/gmidv;
+const v16 = /a{1,2}?/sdu;
+function f17(a18, a19, a20, a21) {
+    const o30 = {
+        ...a19,
+        [v16]: v14,
+        m(a23, a24, a25, a26) {
+            a18[802] = v12;
+            for (let v27 = 0; v27 < 32; v27++) {
+                a20["p" + v27] = v27;
+            }
+            return a25;
+        },
+    };
+    return o30;
+}
+f17(f17, v13, v15, v14);
+const v32 = f17(v14, v12, v15, v11);
+f17(f17, v12, v14, v32);
+for (const v34 of v16) {
+    for (let v35 = 0; v35 < 32; v35++) {
+        v15["p" + v35] = v35;
+    }
+}
+v11 = v13;
+f17 === v32;

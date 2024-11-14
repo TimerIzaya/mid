@@ -1,0 +1,43 @@
+class C3 {
+    4 = "1024";
+    static {
+        const o5 = {
+        };
+        new Proxy("LQ1", o5);
+    }
+    #d;
+    static set h(a9) {
+        let v10 = 0;
+        do {
+            -Infinity;
+            v10++;
+        } while (v10 < 5)
+    }
+}
+const v17 = new C3();
+let v18 = new C3();
+const v19 = new C3();
+function f20(a21, a22) {
+    const o27 = {
+        get f() {
+            v18 &&= a21;
+            let v24 = this.__proto__;
+            const t24 = super.e;
+            t24.f ||= v24 /= "LQ1";
+            v18 = a22;
+            super.b;
+            return v24;
+        },
+        12: v17,
+        "d": a21,
+        ...C3,
+    };
+    return o27;
+}
+const v28 = f20("LQ1", v19);
+f20("1024", f20("LQ1", v28));
+let v37 = 0;
+do {
+    Reflect.construct(f20, [v28,Reflect], f20);
+    v37++;
+} while (v37 < 7)

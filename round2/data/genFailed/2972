@@ -1,0 +1,19 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = 256;
+    this.a = -64303;
+}
+new F3(256);
+new F3(-64303);
+new F3(256);
+new Uint32Array(512);
+const v14 = new Float32Array(700);
+const v17 = new BigInt64Array(129);
+let v18 = 10;
+for (; v18--;) {
+    new Uint32Array(v14, 700, 547568186);
+    v17[883] >>>= 700;
+}
+function f21() {
+    return 547568186;
+}

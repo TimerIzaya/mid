@@ -1,0 +1,31 @@
+const v5 = new Uint16Array(9);
+const v8 = new Uint8Array(97);
+new Int32Array(177);
+class C12 extends Uint8Array {
+    constructor(a14, a15, a16, a17) {
+        super(v5, 177, a17);
+        for (let v18 = 0; v18 < 32; v18++) {
+            this["p" + v18] = v18;
+        }
+    }
+    static #f;
+    #m(a22, a23) {
+        try { Uint16Array(v8, 97, 177); } catch (e) {}
+        e = 97;
+        return a22;
+    }
+    [Uint16Array] = 177;
+}
+const v25 = new C12(97, Int32Array, -3.0, 177);
+const v26 = new C12(177, 9, 4.0, 97);
+const v27 = new C12(97, 97, 4.0, 9);
+const v28 = v27.byteOffset;
+if (v28 > v28) {
+    try {
+        v25.toReversed();
+    } catch(e31) {
+    }
+} else {
+    const v33 = [v8,9];
+    Reflect.apply(v8.set, v26, v33);
+}

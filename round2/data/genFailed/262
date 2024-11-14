@@ -1,0 +1,78 @@
+const v3 = ["e"];
+const v4 = ["e","e","e","e","e"];
+const v5 = ["e","e",v3,"e"];
+function f6(a7, a8, a9, a10) {
+    const o17 = {
+        m(a12, a13, a14) {
+            super.c = a13;
+            %VerifyType(a7);
+            let v16 = new Map();
+            v16 += v16;
+            return v3;
+        },
+        ...v4,
+        [a7]: a9,
+        "g": v5,
+        2654558422: a7,
+    };
+    return o17;
+}
+const v18 = f6("g", v3, v4, v5);
+const v19 = f6("e", v5, v4, v3);
+const v20 = f6("e", v3, v4, v5);
+function f21(a22, a23) {
+    const o39 = {
+        __proto__: a22,
+        [-2]: v19,
+        "c": a23,
+        6: v18,
+        "g": v18,
+        2147483647: v19,
+        [a23](a25, a26) {
+            v20.g;
+            super.h;
+            let v30 = 40647;
+            const v32 = -2.2250738585072014e-308;
+            v20 % a25;
+            const v34 = v4 >>> v30;
+            v34 % 2.2250738585072014e-308;
+            v30++;
+            v32 * 2.2250738585072014e-308;
+            Math.atan(v34);
+            return a23;
+        },
+    };
+    return o39;
+}
+f21(v5, v19);
+f21(f21("object", v19), v18);
+const o45 = {
+    "maxByteLength": 2205278886,
+};
+const v47 = new SharedArrayBuffer(9, o45);
+new BigUint64Array(v47);
+b = v19;
+try {
+    new Uint16Array(8);
+} catch(e9) {
+}
+try {
+    new Uint8Array(5);
+} catch(e13) {
+}
+try {
+    new Uint8Array(0);
+} catch(e17) {
+}
+try {
+    const t13 = 5;
+    t13[512] = -128;
+} catch(e21) {
+}
+let v25;
+try {
+const t0 = -46376;
+v25 = t0(-12n, -12n, 2147483648, 1079439638n);
+} catch (e) {}
+v25.__proto__;
+12 - -1777025083n;

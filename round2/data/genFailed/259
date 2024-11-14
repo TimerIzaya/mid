@@ -1,0 +1,74 @@
+class C3 {
+    static #m(a5) {
+        try { a5(); } catch (e) {}
+        return a5;
+    }
+    static {
+        const o8 = {
+        };
+        new Proxy(this, o8);
+    }
+}
+new C3();
+const v12 = new C3();
+const v13 = new C3();
+class C14 extends C3 {
+    valueOf(a16, a17, a18, a19) {
+        a16[a16] = a16;
+        try { C3["isNaN"](a18, this, a17, this); } catch (e) {}
+        return a17;
+    }
+    static 0 = v13;
+    static b;
+    static 1 = 2.220446049250313e-16;
+    #g = "XZb6";
+}
+const v22 = new C14();
+const v23 = new C14();
+new C14();
+const v25 = v23 * "XZb6";
+let v26 = v25 >= v25;
+if (v26) {
+    v12.g = v22;
+    [-2.220446049250313e-16,-2.0,1e-15,-219937.9795082832,-1.085377702295626e+308,0.37702820316954,1000000000000.0,4.0,-557.6835779602216];
+    [0.0,1.7976931348623157e+308,3.186487938234034,-1000000000000.0,1.5321221841527738e+308,1.591457635484631e+308,2.2250738585072014e-308,-1.271215249715846e+308,-Infinity,605365.1084934319];
+    [4.0,2.2250738585072014e-308,5.1458187807755245,-4.0,-0.0,9.963701497515249];
+} else {
+    [v26] = "XZb6";
+}
+const v0 = [];
+try {
+    new Int8Array(12);
+} catch(e4) {
+}
+try {
+    new BigInt64Array(64);
+} catch(e8) {
+}
+try {
+    new Float64Array(10);
+} catch(e12) {
+}
+try {
+    new Int8Array(2872);
+} catch(e19) {
+}
+try {
+    new Int16Array(129);
+} catch(e23) {
+}
+try {
+    new BigUint64Array(3);
+} catch(e27) {
+}
+let v28;
+try { v28 = v0.with(2872, Float64Array); } catch (e) {}
+try {
+    v28[129] = 10;
+} catch(e29) {
+}
+try {
+    v0.every(v28);
+} catch(e31) {
+}
+v28.e &&= 1.7787040526807e+308;

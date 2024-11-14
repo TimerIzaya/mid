@@ -1,0 +1,33 @@
+const v2 = new BigUint64Array(64);
+new Float32Array(4096);
+const v8 = new Float32Array(256);
+for (let v12 = 0; v12 < 32; v12++) {
+    v8["p" + v12] = v12;
+}
+try { v8.findIndex(Float32Array, v2); } catch (e) {}
+delete v2[2];
+Math.acosh(255n);
+Math.tanh(255n);
+~255n;
+const v1 = new Date();
+try {
+    new BigInt64Array(1000);
+} catch(e5) {
+}
+try {
+    new Uint8Array(70);
+} catch(e9) {
+}
+try {
+    new Float64Array(249);
+} catch(e13) {
+}
+Date["now"]();
+Object.defineProperty("undefined", v1, { get: Date, set: Date });
+[] = "bigint";
+Date("undefined");
+%PrepareFunctionForOptimization(Date);
+Date("undefined");
+Date("undefined");
+%OptimizeMaglevOnNextCall(Date);
+Date("undefined");

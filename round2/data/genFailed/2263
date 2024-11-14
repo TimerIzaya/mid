@@ -1,0 +1,67 @@
+function f0() {
+    const o8 = {
+        set e(a5) {
+            a5[530.1196834102705] &&= 530.1196834102705;
+            ("string")["concat"](a5, this, "concat", this);
+        },
+        "f": "string",
+        ..."string",
+        4: "string",
+        "e": 530.1196834102705,
+        __proto__: "string",
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+f0();
+function f12(a13) {
+    const o21 = {
+        "c": v9,
+        [v9](a15) {
+            a13 = v9;
+            return this;
+        },
+        toString(a17) {
+            v9.f -= a17;
+            const o18 = {
+                "call": f0,
+                "construct": f0,
+                "defineProperty": f0,
+                "get": f0,
+                "getOwnPropertyDescriptor": f0,
+                "getPrototypeOf": f0,
+                "has": f0,
+                "isExtensible": f0,
+                "preventExtensions": f0,
+                "set": f0,
+                "setPrototypeOf": f0,
+            };
+            new Proxy(a17, o18);
+            return o18;
+        },
+    };
+    return o21;
+}
+let v22 = f12(f12);
+const v24 = f12(f12(v22));
+class C25 {
+    5 = v10;
+    e = v24;
+    [f0] = v24;
+    p(a27, a28, a29) {
+        return a28[Symbol.toPrimitive];
+    }
+    static #g;
+}
+new C25();
+new C25();
+new C25();
+let v38 = -37487;
+--v22;
+const v40 = -3 | f12;
+const v41 = ++v38;
+Math.min(v41);
+Math.log1p(v41);
+-3 ^ -3;
+v40 || v41;

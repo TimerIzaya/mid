@@ -1,0 +1,67 @@
+const v2 = new RangeError(10);
+const v5 = new Function(257);
+v5[9] = v5;
+try { new Int32Array(4033, v5, 4033); } catch (e) {}
+const v9 = new Int32Array(4033, 257, v2);
+v9.c = v9;
+[RangeError,RangeError,[[v9]],v5,Function];
+const v13 = [];
+const v14 = v13.message;
+try { v14.some(v13); } catch (e) {}
+v13.length = v14;
+let v0 = [65536,8,-2,1,-9007199254740990,9007199254740991,1073741824,-1];
+const v1 = [1119897228,536870912,-15763,-3];
+const v2 = [20290864,-702335753,-2147483647,0,2147483647,16,-29350,-42779,65537,257];
+class C6 {
+    constructor(a8, a9, a10, a11) {
+        try {
+            v0 /= v2;
+        } catch(e14) {
+        }
+        try {
+            new BigInt64Array(2368);
+        } catch(e18) {
+        }
+        try {
+            new Uint8ClampedArray(14);
+        } catch(e22) {
+        }
+        try {
+            new Int32Array(129);
+        } catch(e26) {
+        }
+        v1.length = 4;
+        Math.log1p(196);
+        [98,Int8Array];
+        try {
+            v1.__proto__ = "kP3wB";
+        } catch(e34) {
+            class C35 {
+            }
+            const v36 = new C35();
+            function f37() {
+                return v36;
+            }
+            %OptimizeFunctionOnNextCall(f37);
+        }
+    }
+    256 = 4;
+    1;
+}
+const v38 = new C6(v2, v0, v0, 4);
+const v39 = new v1(v0, v1, v38, 8);
+new C6(v0, v1, v38, 4);
+function f41() {
+    return v39;
+}
+class C44 extends Date {
+    6 = Date;
+    static b;
+    f = v0;
+    static [C6];
+    b = "setInt16";
+    constructor(a46, a47) {
+        super("setInt16");
+    }
+}
+new C44(Date, Date);

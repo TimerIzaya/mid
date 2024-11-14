@@ -1,0 +1,47 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a5;
+}
+new F3(4096n);
+new F3(4096n);
+new F3(4096n);
+Math.atan2(-14646, 255);
+Math.imul(12n, 450.1346116138229);
+255 / 450.1346116138229;
+try {
+    new Int16Array(1710);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(3);
+} catch(e10) {
+}
+try {
+    new Int8Array(128);
+} catch(e14) {
+}
+class C15 extends Int16Array {
+    constructor(a17, a18, a19) {
+        super(-39381, 257, a18);
+        try {
+            super[1710] = 257;
+        } catch(e20) {
+        }
+    }
+    #g = 3;
+    static #a = BigUint64Array;
+    static #e = 257;
+    4 = 3;
+}
+new C15(128, 1, 1710);
+const v22 = new C15(128, 257, 3);
+new C15(1710, 128, 257);
+v22[536870912];
+for (const v25 of v22) {
+    let {"a":v26,"g":v27,} = C15;
+    const v29 = new Date();
+    try {
+        v29.length = 28;
+    } catch(e31) {
+    }
+}

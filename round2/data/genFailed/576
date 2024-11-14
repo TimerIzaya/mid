@@ -1,0 +1,128 @@
+function f0() {
+}
+function f4(a5) {
+    const o14 = {
+        ...a5,
+        "e": f0,
+        "a": f0,
+        __proto__: "valueOf",
+        "c": "valueOf",
+        ["kPl"]: a5,
+        "d": "kPl",
+        "h": "valueOf",
+        "f": f0,
+        valueOf(a7, a8) {
+            %VerifyType(a5);
+            super.d;
+            if (a5 !== "valueOf") {
+            } else {
+                super["valueOf"] = a7;
+            }
+            return f0;
+        },
+    };
+    return o14;
+}
+const v15 = f4("valueOf");
+const v16 = f4("valueOf");
+const v17 = f4("valueOf");
+function f18(a19, a20) {
+    const o35 = {
+        ...a19,
+        n(a22, a23, a24) {
+            Math.expm1(new.target);
+            const v30 = 4294967297 >> 4294967297;
+            const v31 = new.target & new.target;
+            let v32 = 4294967297 << new.target;
+            v30 || new.target;
+            v32--;
+            return v31;
+        },
+        2616357998: v16,
+    };
+    return o35;
+}
+const v36 = f18(v16, v16);
+const v37 = f18(v15, v15);
+const v38 = f18(v17, v16);
+class C39 {
+    a = v37;
+    ["valueOf"] = "valueOf";
+    static o(a41, a42, a43) {
+        f4[8] = a42;
+        v36[f4] = f0;
+        f0[1] = a43;
+        return v17;
+    }
+    static #b;
+    get h() {
+        v38.__proto__ = this;
+        let v46 = 268435440;
+        let v47 = v46--;
+        v46 ** v38;
+        v47++;
+        for (let v50 = 0; v50 < 32; v50++) {
+            this["p" + v50] = v50;
+        }
+        return v17;
+    }
+}
+new C39();
+new C39();
+new C39();
+let v56 = 0;
+do {
+    Object.defineProperty("valueOf", f18, { configurable: true, get: f0 });
+    const t75 = "valueOf";
+    t75["kPl"] <<= v56;
+    v38.h;
+    v56++;
+} while (v56 < 9)
+const v1 = [-1.7976931348623157e+308,1000000000.0,-1000000.0,-3.0];
+const v2 = [-0.0,-897.7769619382958,NaN];
+const v3 = [0.2031986022135156,-0.0,-1e-15,NaN];
+function f4(a5, a6) {
+    const o15 = {
+        "d": v3,
+        "c": undefined,
+        toString(a8, a9, a10) {
+            a10[9];
+            return a6;
+        },
+        "e": a6,
+        "h": a6,
+    };
+    return o15;
+}
+const v16 = f4(v1, v1);
+f4(v2, v1);
+const v18 = f4(v1, v2);
+function f19(a20, a21) {
+    const o32 = {
+        382032483: v18,
+        __proto__: a21,
+        ...v16,
+        ...a21,
+        valueOf(a23, a24, a25, a26) {
+            try { a20.toString(); } catch (e) {}
+            f4(a21, a23);
+            %PrepareFunctionForOptimization(f4);
+            f4(a21, a23);
+            f4(a21, a23);
+            %OptimizeMaglevOnNextCall(f4);
+            f4(a21, a23);
+            return a20;
+        },
+    };
+    return o32;
+}
+const v33 = f19(v18, v3);
+f19(v18, v3);
+let v36 = f19(v18, v3)[v33];
+try {
+    v36 &&= undefined;
+} catch(e37) {
+}
+const t45 = "charCodeAt";
+delete t45[v36];
+try { ("charCodeAt").slice(v36, v36); } catch (e) {}

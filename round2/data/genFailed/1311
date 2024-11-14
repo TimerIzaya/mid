@@ -1,0 +1,49 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a6;
+}
+const v7 = new F4(F4);
+new F4(-4294967296n);
+new F4(v7);
+const v10 = [5,7];
+const v11 = [-9223372036854775808,47287,1073741824,9007199254740992];
+[8672,2,536870887,65536,0];
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeMaglevOnNextCall(f0);
+f0();
+v11.length /= v10;
+v10 && -1831588422n;
+const v0 = [];
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -256;
+    } catch(e11) {
+    }
+    try {
+        this.h = a9;
+    } catch(e12) {
+    }
+    try {
+        this.g = -7n;
+    } catch(e13) {
+    }
+}
+new F7(-256, -9007199254740990n);
+const v15 = new F7(-256, -9007199254740990n);
+const v16 = new F7(-256, 492076478n);
+0.010777043563475308 >>> -256;
+try {
+    v15[v16] = 0.010777043563475308;
+} catch(e21) {
+}
+const v22 = [-256,v16,-256,492076478n,-9007199254740990n];
+[-256,492076478n];
+const v24 = [492076478n,v0,v22];
+const v26 = [v24,54139];
+Reflect.apply(v24.flatMap, v24, v26);

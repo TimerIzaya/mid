@@ -1,0 +1,32 @@
+function f6(a7, a8) {
+    const o16 = {
+        4096: a8,
+        [a8]: 6,
+        "f": "U3p",
+        "a": "N",
+        __proto__: a8,
+        "h": "N",
+        [a7]: 536870889,
+        "c": 3,
+        m(a10, a11, a12) {
+            const t11 = "CTR";
+            t11.length = 6;
+            return a11;
+        },
+    };
+    return o16;
+}
+const v17 = f6(3, "n");
+const v18 = f6(3, "N");
+f6(536870889, "n");
+try {
+    new f6(536870889, "N");
+} catch(e24) {
+}
+const v25 = f6(3, "n");
+129n | "U3p";
+Object.defineProperty(v25, "d", { writable: true, get: f6, set: f6 });
+let v27;
+try { v27 = v18.m("U3p"); } catch (e) {}
+Object.defineProperty("U3p", 5769n, { writable: true, value: v27 });
+Object.defineProperty(v17, 6, { writable: true, configurable: true, enumerable: true, set: f6 });

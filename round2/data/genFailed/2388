@@ -1,0 +1,37 @@
+const v0 = -Infinity;
+function f6(a7, a8, a9) {
+    const o14 = {
+        "d": a8,
+        get a() {
+            super[this] = a7;
+            return this;
+        },
+        3: -4096n,
+        "a": v0,
+        "g": a8,
+    };
+    return o14;
+}
+f6(8n, 8n, 2.0);
+const v16 = f6(-4096n, 8n, 5.0);
+f6(8n, 8n, 5.0);
+class C18 {
+    #toString(a20, a21) {
+        let v19 = this;
+        let v22;
+        try { v22 = v19.get(v16); } catch (e) {}
+        v19 = super[a21];
+        for (let v24 = 0; v24 < 32; v24++) {
+            a20["p" + v24] = v24;
+        }
+        return v22;
+    }
+}
+const v27 = new C18();
+new C18();
+const v29 = new C18();
+v29.c = v29;
+for (const v33 of Reflect.construct(C18, [], f6)) {
+    const v36 = Symbol.toStringTag;
+    v27[v36] = v36;
+}

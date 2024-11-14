@@ -1,0 +1,30 @@
+const v2 = new BigInt64Array(1653);
+const v5 = new Int16Array(1024);
+const v8 = new Uint16Array(5);
+class C9 extends BigInt64Array {
+    [Int16Array] = 5;
+    static #g = 1024;
+    static get h() {
+        Object.defineProperty(v8, "c", { writable: true, configurable: true, enumerable: true, value: v8 });
+        let v11 = v5[7];
+        super.d = v11 &= v8;
+        return v5;
+    }
+    static a = Uint16Array;
+    #f = 1653;
+    c = v5;
+}
+new C9();
+new C9();
+new C9();
+v2[1653] >>>= 1024;
+5 ** 1024;
+const v16 = `
+    try { C9(); } catch (e) {}
+    v8.byteOffset;
+`;
+eval(v16);
+%VerifyType(1653);
+new Uint8ClampedArray(5);
+new BigInt64Array(10);
+new Uint8ClampedArray(5);

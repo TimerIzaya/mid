@@ -1,0 +1,70 @@
+let v2 = "undefined";
+const v5 = new Array(2);
+class C6 extends Array {
+    static set c(a8) {
+        a8 >>> "function";
+        v5.__proto__;
+        try {
+            new Array(2);
+        } catch(e12) {
+        }
+    }
+    constructor(a14, a15, a16, a17) {
+        super(a15);
+        const v18 = "sI" & v5;
+        Array.b = v18;
+        a14.length = v18;
+    }
+}
+const v22 = new C6(v2, v5, C6, v2);
+const v23 = new C6("sI", v22, "sI", "function");
+const v24 = new C6("sI", Array, v22, "function");
+function f25(a26, a27) {
+    const o44 = {
+        "e": a27,
+        [v5]: 2,
+        "g": v24,
+        get d() {
+            Object.defineProperty(v23, "a", { writable: true, set: Array });
+            const v29 = super.b;
+            try { new v29(a26, this, a26, v22, v5); } catch (e) {}
+            return v22;
+        },
+        __proto__: v22,
+        valueOf(a32, a33, a34, a35) {
+            a32 ^ v2;
+            4 << a32;
+            const v41 = ++v2;
+            Math.cos(-1000000.0);
+            Math.sinh(v41);
+            return 4;
+        },
+    };
+    return o44;
+}
+f25(v2, v2);
+f25(v23, "function");
+const v47 = f25(v22, "sI");
+function f48() {
+    return v24;
+}
+v47.d = C6;
+try {
+    Array(2);
+} catch(e50) {
+}
+const o54 = {
+    "apply": f25,
+    "call": f25,
+    "construct": f25,
+    "defineProperty": f48,
+    "deleteProperty": f25,
+    "get": f48,
+    "getPrototypeOf": Array,
+    "has": f48,
+    "isExtensible": f25,
+    "ownKeys": Array,
+    "set": Array,
+    "setPrototypeOf": Array,
+};
+new Proxy("function", o54);

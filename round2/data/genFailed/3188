@@ -1,0 +1,27 @@
+let v1 = 6;
+const v2 = new Array(v1);
+const v3 = [-2];
+const v4 = [1073741823,5,-54342];
+const v5 = [-2,1000,-2147483649,11,-1190294702];
+function f6(a7, a8) {
+    const o15 = {
+        __proto__: a7,
+        [-1]: v4,
+        n(a10, a11, a12, a13) {
+            ~a7;
+            v1 %= v1;
+            return v4;
+        },
+        ...a7,
+        "e": v1,
+        [a8]: Array,
+        ...a8,
+    };
+    return o15;
+}
+let v16 = f6(v3, v2);
+f6(v2, v4);
+v16 += f6(v5, v5);
+Reflect.construct(f6, [v5,v2], f6);
+Array(-12);
+new Array(4294967296);

@@ -1,0 +1,61 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = 16;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C6 {
+    valueOf(a8, a9) {
+        a9[v5] /= v3.__proto__;
+        %VerifyType(this);
+        v4[Symbol.isConcatSpreadable] = a8;
+        return v5;
+    }
+    [v3];
+    static #g = F0;
+    f;
+    [F0];
+}
+new C6();
+new C6();
+const v15 = new C6();
+class C16 extends F0 {
+    toString(a18, a19) {
+        a19 / 0;
+        const v24 = Math.hypot(28001);
+        Math.sinh(28001);
+        Math.atanh(a19);
+        Math.round(this);
+        return v24;
+    }
+    c = v3;
+    static 4 = C6;
+}
+const v28 = new C16();
+new C16();
+const v30 = new C16();
+const v31 = /ab\b\d\bcd/myiv;
+const v32 = /(?:a*)+/gd;
+const v33 = /za\qxJa(?=bbb|bb)c(?:a+)+/gy;
+v31 * v30;
+%VerifyType(v15);
+function F35(a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v28;
+}
+new F35(v28, v33, v4);
+new F35(v28, v31, C16);
+new F35(v4, v32, v28);
+try {
+    const o44 = {
+        "g": undefined,
+    };
+    const v47 = new RegExp("undefined");
+    const o49 = {
+        "c": undefined,
+        "g": v4,
+    };
+    new F35(o44, v47, o49);
+} catch(e51) {
+}

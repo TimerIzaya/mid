@@ -1,0 +1,37 @@
+class C3 {
+    static p(a5) {
+        try {
+        const t0 = "reject";
+        new t0("o", a5);
+        } catch (e) {}
+        return "reject";
+    }
+    static {
+        this.__proto__ = this;
+        super["now"] = "reject";
+        this[2147483647] = ("now").length;
+    }
+    #f = "o";
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a17;
+    this.h = a18;
+}
+const v20 = new F15("now", "o", v14);
+const v21 = new F15(C3, "reject", v14);
+const v22 = new F15(F15, "now", "reject");
+const v23 = [3,-4294967295];
+const v24 = [-1157959150,45017,256,-65537,8,-128,512];
+[-2,-33009];
+const v26 = ("o").length;
+let v27;
+try { v27 = v20.m(v12, v26, v22); } catch (e) {}
+v27 % v21;
+new F15("o", v13, C3);
+C3.d = v24;
+v23.valueOf = v27;
+try { v27(F15, v26, v23, C3); } catch (e) {}

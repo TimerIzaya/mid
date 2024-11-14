@@ -1,0 +1,64 @@
+const v1 = new Map();
+const v2 = [v1,Map,Map,Map];
+const v3 = [v2,v2];
+[v2,v3,v3,v1,v3];
+const v6 = new Map();
+const v10 = [2093784760n,v1];
+const v12 = [Map,[v10,1n,v6],Map,v6,Map];
+for (let i15 = 0, i16 = 10; i15 < i16; i15++, i16--) {
+    let v24;
+    try { v24 = new Map(i16, ...2093784760n, i15, ...v12, i15, 2093784760n); } catch (e) {}
+    v10.length = v24;
+    i16 === v24;
+}
+try {
+    new Float64Array(2483);
+} catch(e3) {
+}
+try {
+    new Float32Array(3851);
+} catch(e7) {
+}
+try {
+    new Int8Array(512);
+} catch(e11) {
+}
+class C12 extends Int8Array {
+    toString(a14, a15, a16) {
+        delete this[268435440];
+        super.byteLength >>= a16;
+        try { this.set(this, a14); } catch (e) {}
+        return a16;
+    }
+    static {
+        try {
+            this[this] = this;
+        } catch(e20) {
+        }
+    }
+}
+const v21 = new C12();
+const v22 = new C12();
+const v23 = new C12();
+class C24 {
+    constructor(a26, a27) {
+        let v31;
+        try { v31 = v23.find(268435456n, C12); } catch (e) {}
+        try { v23.slice(v31); } catch (e) {}
+        [a26] = v23;
+    }
+    static [v23];
+    8 = Float64Array;
+    static #a;
+}
+const v33 = new C24(512, v21);
+const v34 = new C24(3851, v23);
+new C24(2483, v22);
+const v36 = v34[7];
+try { v23.findLastIndex(v36, C12); } catch (e) {}
+[v23,v33,v22,512,C24];
+([v34,512,C12,[Float32Array,v23],v23])[v21];
+3851 + 3851;
+Math.round(3);
+-512;
+Math.fround(512);

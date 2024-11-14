@@ -1,0 +1,52 @@
+function f6(a7, a8) {
+    const o16 = {
+        "e": 417.06615664485844,
+        [a7]: -4.0,
+        [a8]: a8,
+        "d": -15156,
+        ...-1.0,
+        [-15156](a10, a11) {
+            let v12;
+            try { v12 = new a11(); } catch (e) {}
+            const o13 = {
+            };
+            new Proxy(v12, o13);
+            return v12;
+        },
+    };
+    return o16;
+}
+f6(13687, -4.0);
+const v18 = f6(-15156, 417.06615664485844);
+const v19 = f6(-26635, 417.06615664485844);
+class C20 extends f6 {
+    toString(a22, a23, a24, a25) {
+        const v26 = a24?.a;
+        v18.e &&= a22;
+        let v27;
+        try { v27 = a24(-26635, a24); } catch (e) {}
+        const o28 = {
+            "apply": f6,
+            "construct": f6,
+            "defineProperty": f6,
+            "get": f6,
+            "has": f6,
+            "setPrototypeOf": f6,
+        };
+        new Proxy(v26, o28);
+        return v27;
+    }
+}
+new C20();
+const v32 = new C20();
+const v33 = new C20();
+const v34 = v33[-15156];
+const v35 = delete v19[v18];
+let v36;
+try { v36 = v34(C20, v35, 13687, -1.0, 417.06615664485844); } catch (e) {}
+v33.toString = f6;
+f6(13687, a);
+try {
+    v19.some(v36, undefined, v32, -9223372036854775807n);
+} catch(e42) {
+}

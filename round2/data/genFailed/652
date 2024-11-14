@@ -1,0 +1,60 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 1922311943;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C9 extends F0 {
+    [v3];
+    static [v5];
+    #toString(a11, a12, a13, a14) {
+        try {
+            new F0();
+        } catch(e16) {
+        }
+        return F0;
+    }
+    h;
+    #g = v4;
+}
+const v17 = new C9();
+new C9();
+new C9();
+const o22 = {
+    "maxByteLength": 4294967296,
+};
+const v24 = new ArrayBuffer(9, o22);
+new Uint16Array(v24);
+v17 !== 2147483647 ? v17 : 2147483647;
+const v3 = [-30829,1024,-4294967297,256,536870887,14];
+const v4 = [268435441,128,87440119];
+const v5 = [-1241517192,9,-712208044,-28584,11,1788987255,128];
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a9;
+    } catch(e10) {
+    }
+    try {
+        this.g = a8;
+    } catch(e11) {
+    }
+    try {
+        this.b = -1073741824;
+    } catch(e12) {
+    }
+}
+const v13 = new F6(v3, v4);
+const v14 = new F6(v5, F6);
+const v15 = new F6(v14, 256);
+const v16 = delete v13?.h;
+try { v16.compile(-1073741824, v14); } catch (e) {}
+try { v14.tanh(v3); } catch (e) {}
+delete v4[10];
+try {
+    v14.g = v3;
+} catch(e20) {
+}
+const v21 = -v5;
+v3.reduceRight(v21, v21, v15, v4);

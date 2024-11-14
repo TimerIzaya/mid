@@ -1,0 +1,41 @@
+const v0 = /\u0034/myiu;
+const v1 = /[[-123]]/gm;
+const v2 = /a[bc]dabc|def*/gysv;
+function f3(a4) {
+    const o12 = {
+        1073741824: a4,
+        "a": v0,
+        "g": v1,
+        512: a4,
+        ...v1,
+        __proto__: a4,
+        [v2]: v0,
+        "b": v2,
+        o(a6) {
+            this.a;
+            class C8 {
+                1926;
+                [v0] = this;
+            }
+            new C8();
+            new C8();
+            new C8();
+            return this;
+        },
+    };
+    return o12;
+}
+const v13 = f3(v0);
+f3(v1);
+const v15 = f3(v1);
+const o22 = {
+    __proto__: v13,
+    "d": v15,
+};
+%VerifyType(5n);
+Math.atan2(-5, -5);
+Math.asinh(-5);
+let v31 = -5 % 5n;
+v31--;
+-4294967296 || -5;
+-4294967296 || v31;

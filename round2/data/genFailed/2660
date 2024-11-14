@@ -1,0 +1,50 @@
+function f3(a4) {
+    const o19 = {
+        __proto__: a4,
+        "d": -1000000000000.0,
+        set g(a6) {
+            try {
+                this.flat(-9223372036854775807n, -9223372036854775807n, -9223372036854775807n);
+            } catch(e9) {
+            }
+        },
+        [-1.3036367646830235e+308](a11) {
+            function f12(a13, a14) {
+                const o15 = {
+                    "e": this,
+                    ...a4,
+                    __proto__: this,
+                };
+                return o15;
+            }
+            f12(-1000000000000.0, -1000000000000.0);
+            f12(1.7976931348623157e+308, -1000000000000.0);
+            return f12(a4, a11);
+        },
+    };
+    return o19;
+}
+const v20 = f3(1.7976931348623157e+308);
+const v21 = f3(f3);
+f3(-1.3036367646830235e+308);
+const v23 = /a\nb\bc/gyisdu;
+const v24 = /Pv/gmyisdv;
+const v25 = /\cj\cJ\ci\cI\ck\cK6a+/du;
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a31;
+    this.h = v21;
+    this.a = a29;
+}
+new F26(-1000000000000.0, v25, v23, v20);
+new F26(1.7976931348623157e+308, v24, v23, v20);
+const v34 = new F26(-1000000000000.0, v25, v24, v20);
+v34[330103747] = v34;
+const o35 = {
+    __proto__: v25,
+    [f3]: v24,
+    2834228039: v24,
+    [v21]: v21,
+};
+delete v23[2128];
+v34.length = 2;

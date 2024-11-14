@@ -1,0 +1,46 @@
+const v0 = /g{qw/yid;
+const v1 = /ab|c/midv;
+/nw\P{gc=Decimal_Number}p[x\dz]?/ysv;
+new Int8Array(9);
+const v8 = new Uint8ClampedArray(128);
+new BigInt64Array(507);
+try { v1.compile(-897513742n); } catch (e) {}
+const v17 = [v8];
+const v18 = v8.indexOf;
+Reflect.apply(v18, v0, v17);
+%VerifyType(-897513742n);
+for (let v20 = 0; v20 < 32; v20++) {
+    v18["p" + v20] = v20;
+}
+try {
+    new Float32Array(112);
+} catch(e3) {
+}
+try {
+    new Float64Array(775);
+} catch(e7) {
+}
+try {
+    new Int16Array(512);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    valueOf(a14, a15, a16) {
+        try { a16(a14, 512); } catch (e) {}
+        [] = this;
+        return Int16Array;
+    }
+    3676464841 = Float32Array;
+    static [Float64Array];
+}
+new C12();
+const v22 = new C12();
+new C12();
+try {
+    v22.fill(-214508722, 9);
+} catch(e27) {
+}
+try {
+    C12 <<= Int16Array;
+} catch(e28) {
+}

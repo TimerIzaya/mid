@@ -1,0 +1,36 @@
+function f0() {
+}
+function f7(a8, a9, a10, a11) {
+    const o19 = {
+        [-14]: 268435439,
+        "d": a11,
+        ...a10,
+        ...a10,
+        536870888: a10,
+        "g": a11,
+        valueOf(a13, a14, a15) {
+            a8 in a10;
+            try {
+                super.includes(-14, a14);
+            } catch(e18) {
+            }
+            return 1073741825n;
+        },
+        ...a10,
+    };
+    return o19;
+}
+f7(16, 33643n, f0, 268435439);
+const v21 = f7(268435439, 33643n, -59456n, -14);
+const v22 = f7(-14, -59456n, 33643n, 16);
+const v27 = new Map();
+try {
+    new f7(2147483648, -59456n, 2147483648, 268435439);
+} catch(e30) {
+}
+let v31 = 10;
+for (; v31--;) {
+    delete v27[f0];
+    v21 == v31;
+    Object.defineProperty(v22, "b", { writable: true, configurable: true, enumerable: true, set: f7 });
+}

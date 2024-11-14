@@ -1,0 +1,25 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+class C8 extends f1 {
+    get c() {
+        new Int8Array(3);
+        new BigUint64Array(64);
+        new Uint16Array(48);
+        return Int8Array;
+    }
+    f = -4.3392885375005244e+306;
+    b = 6.686091368254183e+307;
+}
+new C8();
+new C8();
+new C8();
+new Array(106);
+Array(106);
+const o31 = {
+    "maxByteLength": 1024,
+};
+const v33 = new ArrayBuffer(7, o31);
+new Int16Array(v33);

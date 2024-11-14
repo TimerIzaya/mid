@@ -1,0 +1,31 @@
+class C3 {
+    #o(a5) {
+        const v6 = a5 != this;
+        const v8 = new WeakMap();
+        try {
+            ("boolean").#o(WeakMap, v6, "g");
+        } catch(e10) {
+        }
+        return v8;
+    }
+    constructor(a12, a13) {
+        const t11 = "boolean";
+        delete t11?.length;
+        let v17 = 29273;
+        v17 *= v17;
+    }
+}
+const v18 = new C3("g", "boolean");
+new C3(v18, v18);
+new C3("boolean", C3);
+new Int32Array(129);
+new Uint8Array(256);
+const v29 = new Uint8Array(3878);
+const v30 = v29[v29];
+let v32 = 4;
+delete v18[3];
+Object.defineProperty(v30, 4, { writable: true, configurable: true, enumerable: true, value: Uint8Array });
+++v32;
+new Uint32Array(2);
+new Uint8Array(2994);
+new BigUint64Array(663);

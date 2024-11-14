@@ -1,0 +1,93 @@
+const v0 = [];
+class C1 {
+    valueOf() {
+        v0.length = 3815;
+        return v0;
+    }
+    static #h = v0;
+    #p() {
+        v0[v0] = v0;
+        const v5 = v0 in this;
+        this[v0] = v5;
+        this.__proto__;
+        try {
+            this.#p();
+        } catch(e8) {
+        }
+        return v5;
+    }
+}
+const v9 = new C1();
+const v10 = new C1();
+const v11 = new C1();
+class C15 extends C1 {
+    constructor(a17, a18) {
+        super();
+        const t25 = -4096;
+        t25[8] = a17;
+        let v19 = 10;
+        for (; v19--;) {
+            Math.random();
+            const v24 = 2147483647 && 536870889;
+            a17 && a17;
+            a17 | v24;
+            536870889 * 536870889;
+            2147483647 << 2147483647;
+            !v24;
+        }
+    }
+}
+const v30 = new C15(2147483647, v9);
+new C15(-4096, v30);
+const v32 = new C15(2147483647, v10);
+for (const v36 in v30) {
+    try { v11.valueOf(); } catch (e) {}
+    v0.length = 10756;
+    v32["valueOf"]();
+}
+v30[C15] = -268435456;
+const o43 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o43);
+try {
+    new Uint16Array(103);
+} catch(e3) {
+}
+try {
+    new Uint16Array(7);
+} catch(e7) {
+}
+try {
+    new Float32Array(10);
+} catch(e11) {
+}
+function f12() {
+    return Uint16Array;
+}
+const v13 = [7,f12];
+[Uint16Array,103,Uint16Array];
+[v13];
+try {
+    new Int32Array(188);
+} catch(e19) {
+}
+try {
+    new Uint32Array(1);
+} catch(e23) {
+}
+try {
+    new Uint8ClampedArray(4096);
+} catch(e27) {
+}
+class C28 extends f12 {
+    7;
+    #c;
+    static #f;
+    static #d = 188;
+}
+new C28();
+new C28();
+new C28();
+C28.d ||= 7;

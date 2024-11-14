@@ -1,0 +1,67 @@
+new WeakMap();
+[-1000000.0,1000000000.0,1.7976931348623157e+308,1000000.0,0.0,-2.0,-0.0];
+const v3 = [NaN,5.0,-3.0];
+[0.5022863072751622,1.0,0.22702094805357298,4.0,0.5024119367939832,-4.652895777391196e+307,3.8681745058352757,-1.6100851471816814e+308,-1.7976931348623157e+308];
+new Set();
+new Uint8ClampedArray(9);
+new Float32Array(20);
+new Uint8Array(255);
+const v16 = [-256];
+[0,-65535,-4,-28241];
+[-9007199254740990,2,268435456];
+new WeakSet();
+Reflect.construct(WeakMap, [v3], Uint8Array);
+255 << v16;
+try {
+    new Float32Array(512, 1073741824, 10);
+} catch(e29) {
+}
+const v6 = /a$abc+?[\ca]a\W/simuy;
+const v7 = /m(?:a?)*X(?<!a)?/siduy;
+const v8 = /9[1(?:a*)+(eabc+?)]/sidy;
+function f9(a10, a11) {
+    const o14 = {
+        "b": "number",
+        get c() {
+            this[this] -= a11;
+            const o13 = {
+                ..."valueOf",
+                [4294967297n]: v7,
+                __proto__: a10,
+            };
+            return o13;
+        },
+        "g": a11,
+        [v8]: 4294967297n,
+        [a10]: 4294967297n,
+    };
+    return o14;
+}
+const v15 = f9("0x", "valueOf");
+const v16 = f9("valueOf", v15);
+const v17 = f9("0x", v8);
+const v18 = [4294967297n,"0x","valueOf"];
+const v19 = ["0x",v16,2147483649n,v8];
+const v20 = ["number",4294967297n,4294967297n];
+["valueOf",2147483649n,"0x",v17];
+[v7,v16,v19,"valueOf"];
+const v23 = [v17,v15,v20];
+new f9("number", v6);
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a29;
+    } catch(e31) {
+    }
+    try {
+        this.b = a30;
+    } catch(e32) {
+    }
+    try {
+        this.h = a29;
+    } catch(e33) {
+    }
+}
+new F25("0x", 2147483649n, v23, 14n);
+new F25("0x", 2147483649n, v18, 2147483649n);
+new F25("number", 14n, v18, 4294967297n);

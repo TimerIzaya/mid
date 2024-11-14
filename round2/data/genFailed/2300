@@ -1,0 +1,46 @@
+function f0() {
+    const o4 = {
+        [-1000000000.0]: -1,
+        "b": -1000000000.0,
+        "f": -1,
+        "a": -1,
+        "h": -1000000000.0,
+        [-1]: "setMilliseconds",
+        1: -1000000000.0,
+        "g": "setMilliseconds",
+        "e": -1,
+        ["setMilliseconds"]: -1,
+        "d": "setMilliseconds",
+        ..."setMilliseconds",
+    };
+    return o4;
+}
+f0();
+const v6 = f0();
+const v7 = f0();
+new Int8Array(501);
+new Float32Array(4056);
+let v17 = 128;
+const v19 = new Int32Array(v17);
+v19.__proto__ = v19;
+v17 = 669129821;
+delete v6?.a;
+v7[7];
+const v23 = Symbol.iterator;
+const o32 = {
+    [v23]() {
+        let v25 = 10;
+        const o31 = {
+            next() {
+                v25--;
+                const v29 = v25 == 0;
+                const o30 = {
+                    "done": v29,
+                    "value": v25,
+                };
+                return o30;
+            },
+        };
+        return o31;
+    },
+};

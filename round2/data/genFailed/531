@@ -1,0 +1,79 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static #toString(a4) {
+        try { new a4(this, this, WeakSet, v1, this, a4); } catch (e) {}
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        v9--;
+                        const v13 = v9 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+        return this;
+    }
+}
+const v17 = new C2();
+const v18 = new C2();
+const v19 = new C2();
+class C20 extends WeakSet {
+    static c = v1;
+    constructor(a22, a23) {
+        super(v19);
+        try { this["delete"](WeakSet, v17, v1, ...a23, v1, v18); } catch (e) {}
+        try {
+            a22.add(1.0);
+        } catch(e28) {
+        }
+    }
+    static [v17];
+    static b = WeakSet;
+    static [C2] = v1;
+}
+const v29 = new C20(v17, C2);
+const v30 = new C20(v17, v17);
+new C20(v30, v29);
+new Int8Array(200);
+const v37 = new BigInt64Array(308);
+const v40 = new Int32Array(1);
+delete v19[v40];
+v37[Symbol.toPrimitive] = 1;
+try { v1.add(Int32Array); } catch (e) {}
+try {
+    new Map();
+} catch(e47) {
+    v1[1073741823] = e47;
+}
+const v0 = [10,-12,1152051369,-9007199254740992,-16,-536870912,34868];
+[9007199254740991,65537,-9007199254740992,536870887,512];
+[6,-9007199254740992,9,-43062];
+try {
+    new Int8Array(217);
+} catch(e9) {
+}
+try {
+    new Uint32Array(7);
+} catch(e13) {
+}
+try {
+    new Uint16Array(2);
+} catch(e17) {
+}
+const v18 = v0.__proto__;
+new Uint32Array(-31604, 16102, 217);
+v18?.["prototype"];
+try {
+    const t19 = "prototype";
+    t19.__proto__ = "prototype";
+} catch(e24) {
+}

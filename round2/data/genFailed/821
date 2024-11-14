@@ -1,0 +1,80 @@
+let v1 = -397096.56956681935;
+const v4 = new WeakSet();
+function f5(a6, a7) {
+    const o12 = {
+        "h": v4,
+        "a": a6,
+        __proto__: a7,
+        8: 632460.8661785945,
+        valueOf(a9, a10) {
+            let v11 = super.g;
+            v11 = a6;
+            return WeakSet;
+        },
+        [v1]: a6,
+        13: 235.18794447470782,
+    };
+    return o12;
+}
+const v13 = f5(632460.8661785945, v1);
+const v14 = f5(v1, 235.18794447470782);
+const v15 = f5(235.18794447470782, WeakSet);
+function f16(a17, a18, a19, a20) {
+    const o27 = {
+        "e": 235.18794447470782,
+        __proto__: a18,
+        "d": WeakSet,
+        7: v1,
+        "a": v14,
+        "h": a20,
+        toString(a22, a23, a24, a25) {
+            try {
+                Object.defineProperty(v15, 4, { writable: true, enumerable: true, set: f5 });
+            } catch(e26) {
+                super.h = e26;
+            }
+            return v14;
+        },
+    };
+    return o27;
+}
+f16(v14, v14, v13, v1);
+f16(v15, f5, v4, 632460.8661785945);
+let v30 = f16(v14, 235.18794447470782, v1, 632460.8661785945);
+const v33 = v30 ^ v30;
+let v34 = Math.floor(-9721);
+v30 * -9721;
+const v36 = Math.round(v33);
+v30++;
+Math.round(v30);
+v4[65537] = v15;
+[,v34,v1,v34] = v36;
+try {
+    new BigUint64Array(0);
+} catch(e10) {
+}
+try {
+    new Uint8Array(1);
+} catch(e14) {
+}
+try {
+    new Float32Array(105);
+} catch(e18) {
+}
+for (const v19 of 0n) {
+    [5,4294967295,-1780689716,9,744847107,-65537,6,-1683224964];
+    [0,-15,-11,1000,-65535,9,-2034041677,2147483649];
+    [6];
+}
+try {
+    new Uint16Array(4044);
+} catch(e29) {
+}
+try {
+    new Int16Array(3462);
+} catch(e33) {
+}
+try {
+    new BigUint64Array(2337);
+} catch(e37) {
+}

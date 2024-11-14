@@ -1,0 +1,88 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = -1868599846;
+    this.c = -1868599846;
+    this.e = -1868599846;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C6 {
+    a;
+    #c;
+    constructor(a8) {
+        try { v4(F0); } catch (e) {}
+        const v10 = this;
+        try {
+            v10.#c = this;
+        } catch(e11) {
+        }
+    }
+    static 93 = v4;
+    #a;
+}
+const v12 = new C6(v3);
+const v13 = new C6(v4);
+let v14 = new C6(v3);
+class C15 extends F0 {
+    #e = v5;
+    valueOf(a17, a18, a19, a20) {
+        super.e = v14;
+        return super[this]?.g;
+    }
+    [v3] = C6;
+    f;
+    [v13] = v4;
+    static #c = v14;
+    [v12];
+}
+const v23 = new C15();
+const v24 = new C15();
+new C15();
+const v26 = v23[0];
+C15 % v26;
+let {"a":v28,"h":v29,} = v24;
+v29[v29] <<= v29;
+v14 ^= v12;
+C15 ^ v26;
+v3[10];
+v24[1344] = C15;
+try {
+    new Uint8Array(120);
+} catch(e3) {
+}
+try {
+    new Float64Array(16);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e11) {
+}
+function f15(a16, a17, a18, a19) {
+    const o23 = {
+        "e": -56747,
+        "g": a19,
+        "c": a19,
+        65537: a16,
+        set b(a21) {
+            try {
+                a21 = Uint8Array;
+            } catch(e22) {
+            }
+        },
+        __proto__: a18,
+        "f": 268435456,
+    };
+    return o23;
+}
+const v24 = f15(268435456, 268435456, BigInt64Array, 10);
+f15(128, 16, 120, -56747);
+const v26 = f15(128, 120, 120, 10);
+for (let [v27,v28,v29] of 16) {
+    try {
+        v26[10] = v29;
+    } catch(e33) {
+    }
+}
+try { v24["slice"]("slice", 120, "slice", 120); } catch (e) {}

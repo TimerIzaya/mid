@@ -1,0 +1,78 @@
+const v0 = [];
+const v1 = [-9223372036854775808];
+[3,-11,-12,127,536870888,-13,1073741824,7,2147483648,16];
+const v3 = [-1856815993,-23058,-4294967295,9,64,-4294967295];
+class C4 {
+    static set e(a6) {
+        let v5 = this;
+        a6 || v5;
+        %VerifyType(v3);
+        const v11 = v5 << -2147483647;
+        --v5;
+        -2147483647 / v11;
+        Math.max(v11);
+        !v11;
+        +v11;
+        Math.hypot(-2147483647);
+    }
+}
+const v18 = new C4();
+const v19 = new C4();
+const v20 = new C4();
+function f21(a22, a23, a24, a25) {
+    const o42 = {
+        "a": v1,
+        ...v0,
+        [a24]: v0,
+        "d": a24,
+        p(a27, a28) {
+            let {"b":v29,"c":v30,"length":v31,...v32} = v0;
+            new Uint32Array(512);
+            new BigUint64Array(5);
+            new Uint8ClampedArray(92);
+            return 512;
+        },
+    };
+    return o42;
+}
+const v43 = f21(v18, v3, v18, v3);
+f21(v1, v20, v19, v19);
+f21(v1, v1, v1, v3);
+v18.a = "function";
+Object.defineProperty(v43, "a", { writable: true, get: f21, set: f21 });
+let v49 = 0;
+while (v49 < 1) {
+    try {
+        C4.preventExtensions(f21, "function", -3n, -3n);
+    } catch(e54) {
+    }
+    v49++;
+}
+function f3(a4, a5) {
+    const o10 = {
+        [a4]: a5,
+        [a5]: 2068294191,
+        [-128]: 364,
+        get b() {
+            const v7 = this.g;
+            try { a5(a5, -128, 364); } catch (e) {}
+            try {
+                this.b = v7;
+            } catch(e9) {
+            }
+            return v7;
+        },
+    };
+    return o10;
+}
+const v12 = f3(f3(2068294191, 2068294191), f3);
+f3(2068294191, 364);
+let v17 = -9007199254740992n;
+const v21 = Symbol.asyncIterator;
+const v22 = v12[v21];
+try {
+    v17 = v22;
+} catch(e23) {
+}
+Object.defineProperty(v21, f3, { configurable: true, value: 2145253771 });
+new Map();

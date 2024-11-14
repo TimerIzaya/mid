@@ -1,0 +1,42 @@
+const v0 = /[^ja(?!bbb|bb)c\xe2\x81\xa3+]/msv;
+const v1 = /(?:a+)*/mdu;
+const v2 = /[G]/gmd;
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a5;
+    this.f = v2;
+    this.h = a5;
+}
+const v7 = new F3(v2, v0);
+const v8 = new F3(v1, v1);
+const v9 = new F3(v1, v1);
+function f10(a11, a12, a13, a14) {
+    const o26 = {
+        get d() {
+            const o16 = {
+                __proto__: this,
+                "e": v0,
+                "c": a14,
+            };
+            new Uint8ClampedArray(1024);
+            new Uint8ClampedArray(2072);
+            new Int32Array(102);
+            return a13;
+        },
+    };
+    return o26;
+}
+f10(v0, v8, v2, v0);
+const v28 = f10(v0, v9, v2, v2);
+const v29 = f10(v2, v7, v0, v1);
+v1.unicode;
+v29 in v28;
+const o38 = {
+};
+new Proxy(F3, o38);
+try {
+    const o41 = {
+    };
+    v28.register(v7, f10, o41, v0);
+} catch(e43) {
+}

@@ -1,0 +1,64 @@
+function f0() {
+}
+[-681848.0897152505,1000000000000.0,-1000.0,-6.697245424139863,869268.7900982427,437.54320916970414,0.4414420901270868,-810.053107551073];
+const v5 = [-2.2250738585072014e-308,1e-15,-3.28443829602425,-1000000.0,2.631781691106929e+307,-3.6638971951364097,0.30789924994171636,909594.6917832142];
+[-1000000000000.0,-3.0,-Infinity,8.951568839988145,-2.0,0.1346877603198675];
+new WeakMap();
+const v9 = [-1,64,-536870912];
+[-2147483649,27915,268435456,16,-130911040,-32160,-9223372036854775808,3370];
+[8,-128,-9223372036854775808];
+for (let v12 = 0; v12 < 100; v12++) {
+    f0();
+}
+Object.defineProperty(v5, "c", { writable: true, configurable: true, enumerable: true, set: f0 });
+const o14 = {
+    "construct": f0,
+    "defineProperty": f0,
+    "deleteProperty": f0,
+    "get": f0,
+    "getOwnPropertyDescriptor": f0,
+    "has": f0,
+    "ownKeys": f0,
+    "setPrototypeOf": f0,
+};
+new Proxy(v9, o14);
+let v0 = [-5,4294967297,-268435456,2147483647,-2,1073741825,-16,65536];
+const v1 = [0,536870889];
+const v2 = [9007199254740990,7,-507333717];
+function f3() {
+    return v2;
+}
+class C4 extends f3 {
+    static #o(a6) {
+        try {
+            v0 = a6;
+        } catch(e7) {
+        }
+        return this;
+    }
+    constructor(a9) {
+        super();
+        Object.defineProperty(this, "length", { get: f3 });
+        super[v2];
+        try {
+            super[this] = this;
+        } catch(e11) {
+        }
+    }
+}
+const v12 = new C4(v0);
+const v13 = new C4(v1);
+const v14 = new C4(v12);
+const v21 = 4096 instanceof C4;
+let v22 = v2 << C4;
+const o23 = {
+    "d": v14,
+    [v13]: v21,
+    "f": v21,
+    "e": v13,
+    "a": v0,
+};
+try {
+    v22 = 1;
+} catch(e24) {
+}

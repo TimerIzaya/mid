@@ -1,0 +1,39 @@
+function f0() {
+}
+class C1 extends f0 {
+    [f0];
+    e = f0;
+    constructor() {
+        super();
+        for (let v3 = 0; v3 < 100; v3++) {
+            f0();
+        }
+        this.length = 536870912;
+    }
+}
+new C1();
+const v7 = new C1();
+const v8 = new C1();
+function f12(a13, a14, a15, a16) {
+    const o27 = {
+        "e": v7,
+        "d": a15,
+        "h": a16,
+        p(a18, a19, a20, a21) {
+            const v22 = delete C1[a20];
+            try { a15.valueOf(C1, v22, a13, v22, a21); } catch (e) {}
+            return a15;
+        },
+    };
+    return o27;
+}
+f12("n", "isConcatSpreadable", C1, "n");
+const v30 = f12(f0, "n", f12(v8, f12, C1, "isConcatSpreadable"), "n");
+const t29 = "isConcatSpreadable";
+t29.length = "n";
+for (let v31 = 0; v31 < 100; v31++) {
+    f12(f12, f0, v30, "isConcatSpreadable");
+}
+f0 *= f0;
+7 <= "number";
+new C1();

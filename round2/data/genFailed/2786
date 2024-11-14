@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = 443700200;
+    this.b = 443700200;
+    this.d = 443700200;
+}
+new F0();
+new F0();
+const v5 = new F0();
+let v6 = 6;
+const v9 = [2147483649,-10,128,268435441,-9007199254740992,22052,-2040232764,129,4294967297,-6];
+const v10 = [1024,16,10,4,-37905];
+const v11 = [16,16,-8];
+function f12(a13, a14) {
+    const o26 = {
+        toString(a16, a17, a18) {
+            for (const v19 in this) {
+                try { new a16(a17); } catch (e) {}
+                const o24 = {
+                    "execution": "sync",
+                    "type": "minor",
+                };
+                gc(o24);
+            }
+            return a14;
+        },
+    };
+    return o26;
+}
+const v27 = f12(v9, v11);
+const v28 = f12(v9, v11);
+const v30 = f12(v11, v10) instanceof F0;
+let v31;
+try { v31 = v5.isSafeInteger(v6, v11, 7202); } catch (e) {}
+const v32 = v27 ** -961780605;
+try { v31(-961780605, v28, 7202, ...f12, 7202); } catch (e) {}
+if (v30) {
+    v6 = v32;
+} else {
+    function F34(a36, a37) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.h = f12;
+        this.e = v28;
+    }
+    new F34(v32, F34);
+    new F34(v6, F34);
+    new F34(v6, F34);
+}

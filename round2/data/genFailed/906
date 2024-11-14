@@ -1,0 +1,96 @@
+class C3 {
+    #e;
+    static {
+        let v5;
+        try {
+        const t0 = -7048;
+        v5 = new t0(this, -7048, this, this);
+        } catch (e) {}
+        try { v5(this, -7048, this, v5); } catch (e) {}
+        const v8 = Symbol.toStringTag;
+        v5[v8] = v8;
+    }
+    m(a10, a11) {
+        const v13 = [a10,[-7048],a11];
+        return [this,v13,a10,v13,a10];
+    }
+    static 0;
+}
+const v15 = new C3();
+new C3();
+const v17 = new C3();
+[[v17,9007199254740991,v17,v17]];
+[v17];
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a23;
+    this.c = v15;
+    this.a = a24;
+}
+new F21(v15, 9007199254740991);
+new F21(9007199254740991, 7);
+new F21(v17, 7);
+new Set();
+let v34 = 56813;
+let v35 = 3.0;
+Math.atanh(v34);
+Math.imul(v35, v34);
+~(v35++);
+v34++;
+function f3(a4, a5) {
+    const o16 = {
+        [43495](a7) {
+            let {"b":v8,"f":v9,} = this;
+            super.e &= 43495;
+            return a5;
+        },
+        __proto__: a5,
+        get b() {
+            let v11 = 0;
+            while (v11 < 1) {
+                try {
+                    a4 /= v11;
+                } catch(e14) {
+                }
+                v11++;
+            }
+            return this;
+        },
+    };
+    return o16;
+}
+f3(-121243807, -8);
+const v18 = f3(-121243807, -8);
+f3(-121243807, -8);
+[16,-65536,2147483648,4294967295,-1202223995,-4096];
+const v21 = [-9223372036854775808,64,1222538140,5,-47798,30304,-65535,129,27526,-8];
+[-4294967296];
+try {
+    new Uint16Array(484);
+} catch(e26) {
+}
+try {
+    new Int8Array(4096);
+} catch(e30) {
+}
+try {
+    new Int8Array(128);
+} catch(e34) {
+}
+function f35(a36, a37) {
+    function f39(a40) {
+        43495 ^ 4096;
+        Object.defineProperty(v21, 110, { configurable: true, enumerable: true, get: f3, set: f3 });
+    }
+    this.onmessage = f39;
+    try {
+        f39 = a36;
+    } catch(e42) {
+    }
+}
+const v45 = ["function",v18];
+const o46 = {
+    "arguments": v45,
+    "type": "function",
+};
+new Worker(f35, o46);

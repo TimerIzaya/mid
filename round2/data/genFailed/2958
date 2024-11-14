@@ -1,0 +1,68 @@
+const v0 = /[z-\d]/msd;
+const v1 = /a\bc/myiv;
+const v2 = /o(?<=a)8+/gmisv;
+class C3 {
+    toString(a5, a6) {
+        let v7 = v1[0];
+        v7 >>= v2;
+        return a5;
+    }
+    g;
+    get a() {
+        let v9;
+        try { v9 = v0.compile(v2); } catch (e) {}
+        try { v9(this); } catch (e) {}
+        return v0;
+    }
+    [v2] = v0;
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+function f14(a15, a16, a17, a18) {
+    const o25 = {
+        o(a20, a21) {
+            C3--;
+            const v23 = a16[63];
+            return v23 <= v23;
+        },
+        __proto__: a15,
+        8: v12,
+        [a17]: v2,
+        [a15]: a17,
+        "f": v12,
+        "c": v1,
+    };
+    return o25;
+}
+const v26 = f14(v12, v13, v12, v11);
+const v27 = f14(v13, v13, v12, v13);
+const v28 = f14(C3, v12, v13, v12);
+function f29(a30, a31) {
+    const o41 = {
+        m(a33, a34, a35) {
+            C3 = f14;
+            return a30;
+        },
+        ...v13,
+        set a(a37) {
+            a30.a <<= C3;
+            try {
+                const v38 = [a37,v28,a31,v12,a30];
+                v27.o(v38, v38);
+            } catch(e40) {
+            }
+        },
+    };
+    return o41;
+}
+const v42 = f29(v13, v12);
+f29(v13, v11);
+f29(C3, v13);
+const o48 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o48);
+const v50 = v27 >>> v28;
+try { v42.m(v26, v50, v2); } catch (e) {}

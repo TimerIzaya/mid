@@ -1,0 +1,77 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = 3;
+    this.f = 3;
+}
+new F0();
+new F0();
+const v5 = new F0();
+new Uint16Array(16);
+new Uint8ClampedArray(1);
+new Int8Array(128);
+new Int16Array(13);
+new Int16Array(3);
+const v23 = new BigInt64Array(8);
+v23.__proto__ = v23;
+function* f24(a25, a26, a27) {
+    a26[a26];
+    yield -11;
+    return Uint16Array;
+}
+f24(3, v5, 16);
+class C3 {
+    9;
+    o(a5) {
+        try {
+            super.b = a5;
+        } catch(e6) {
+        }
+        return -7.867167798356277e+307;
+    }
+    static g = "Pws";
+    constructor(a8, a9) {
+        for (let v10 = 0; v10 < 32; v10++) {
+            a8["p" + v10] = v10;
+        }
+    }
+}
+const v13 = new C3("Pws", "Pws");
+new C3(536870887, v13);
+new C3(-7.867167798356277e+307, "Pws");
+class C16 {
+    #toString(a18, a19, a20) {
+        try {
+            a18 = a19;
+        } catch(e21) {
+        }
+        try {
+            a19[this] = C3;
+        } catch(e22) {
+        }
+        return C3;
+    }
+    static e;
+    #h = v13;
+    a;
+}
+new C16();
+new C16();
+new C16();
+let v28 = 6;
+[...v28] = "Pws";
+for (let i30 = 0; i30 < 0; i30++) {
+    const v36 = new C3(i30, i30);
+    Object.defineProperty(C3, 65535, { writable: true, configurable: true, value: v36 });
+    try {
+        new Int16Array(2395);
+    } catch(e40) {
+    }
+    try {
+        new Uint8ClampedArray(255);
+    } catch(e44) {
+    }
+    try {
+        new Int16Array(1024);
+    } catch(e48) {
+    }
+}

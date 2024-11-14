@@ -1,0 +1,33 @@
+const v2 = new Int8Array(329);
+const v5 = new Uint8ClampedArray(238);
+const v8 = new Uint8ClampedArray(111);
+function f9(a10, a11) {
+    const o12 = {
+        [a11]: 238,
+        ...v5,
+        256: Int8Array,
+        "a": 238,
+        ...v5,
+        [a10]: a11,
+        __proto__: v2,
+        "h": Int8Array,
+        "d": a10,
+        "g": v8,
+    };
+    return o12;
+}
+const v13 = f9(111, 238);
+f9(238, 329);
+Object.defineProperty(f9(238, 111), 2147483648, { writable: true, enumerable: true, get: f9 });
+const v16 = [9007199254740990,-257573800,9007199254740990,1661033219,-3,23374982,16,9007199254740992,-47665,-9223372036854775808];
+[1361058047,268435439,-9,8];
+[13,-4294967297,62866,10,268435456,1073741824,25629,128];
+class C19 extends f9 {
+    static [v13];
+    [v13];
+    [v16] = 329;
+    static e = v16;
+}
+new C19();
+new C19();
+new C19();

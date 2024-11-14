@@ -1,0 +1,40 @@
+const v8 = new BigUint64Array(98);
+const v11 = new Uint8Array(5);
+const v14 = new BigUint64Array(127);
+const v15 = v8[98];
+const v16 = [v8,-9007199254740991n,127];
+const v17 = [-11498n,v16,127,0n,98];
+[v16,BigUint64Array,Uint8Array];
+v17.__proto__ = v11;
+v11.valueOf = v15;
+v8.__proto__ = v8;
+v16.__proto__ = v14;
+try {
+    v16.indexOf(v17);
+} catch(e20) {
+}
+function f6(a7, a8) {
+    const o9 = {
+        "h": -9223372036854775807,
+        [a7]: -9223372036854775807,
+        [729002344]: a7,
+        2203: 1658003637,
+        ...729002344,
+        "a": 58907,
+        7: a8,
+        ...1,
+        ...-9223372036854775807,
+        "d": 1,
+    };
+    return o9;
+}
+f6(-9223372036854775807, 729002344);
+f6(-9223372036854775807, -9223372036854775807);
+const v12 = f6(1658003637, 1658003637);
+v12 >>> v12;
+const o17 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o17);
+Object.defineProperty("major", v12, { configurable: true, enumerable: true, get: gc });

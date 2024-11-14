@@ -1,0 +1,67 @@
+let v2 = "eZQRf";
+const v3 = [v2,v2,"valueOf"];
+const v4 = [v3,v2,v2];
+const v5 = ["valueOf",v4,"valueOf",v4,v4];
+function f6() {
+    return v4;
+}
+class C7 extends f6 {
+    ["g"] = v4;
+    static [f6];
+    #c;
+    ["valueOf"] = v4;
+    g;
+    p(a9, a10, a11, a12) {
+        let v8 = this;
+        v2 = a12;
+        v8 = a10;
+        try {
+            a9.#c;
+        } catch(e14) {
+        }
+        return a10;
+    }
+}
+let v15 = new C7();
+const v16 = new C7();
+const v17 = new C7();
+function f18(a19, a20, a21) {
+    const o26 = {
+        "d": "g",
+        "h": v17,
+        [v5](a23, a24) {
+            this.d &&= a21;
+            v15 = a19;
+            try { v2.trimRight(); } catch (e) {}
+            return v3;
+        },
+        ...v16,
+        "g": v15,
+        "c": C7,
+        "e": a21,
+        "b": f6,
+        "a": a21,
+    };
+    return o26;
+}
+f18(v17, v16, f18(v16, v4, f18(v16, v15, C7)));
+("valueOf").length;
+class C31 {
+    p(a33, a34, a35) {
+        return ("g").length;
+    }
+    [v16];
+}
+new C31();
+new C31();
+new C31();
+const t0 = "f";
+delete t0[65536n];
+const v13 = ("symbol")[601];
+const v14 = "f" ** 129;
+try {
+    v13[7] = v13;
+} catch(e15) {
+}
+v13[3] = v14;
+("symbol")["slice"](..."slice", ..."getUint16", 21492n, ..."slice", 65536n);

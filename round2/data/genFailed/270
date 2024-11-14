@@ -1,0 +1,60 @@
+const v7 = new WeakSet();
+const v11 = v7.g;
+v7.toString = v11;
+v11.f = -4294967295;
+try {
+    new WeakSet(v7);
+} catch(e13) {
+}
+function f14() {
+    return -5;
+}
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 0;
+    } catch(e3) {
+    }
+    try {
+        this.a = 0;
+    } catch(e4) {
+    }
+    try {
+        this.b = 0;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+const v8 = new F0();
+try {
+    new Float64Array(16);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(54);
+} catch(e16) {
+}
+try {
+    new BigUint64Array(257);
+} catch(e20) {
+}
+function f21() {
+    return Float64Array;
+}
+const v22 = /VXa?hr*/guy;
+/a(?!bbb|bb)c/idgyv;
+/Ttabc+/dgu;
+const v25 = v8[v22];
+const v26 = v25.__proto__;
+function f27(a28, a29, a30, a31) {
+    try {
+        f21();
+    } catch(e33) {
+    }
+    for (let v34 = 0; v34 < 32; v34++) {
+        a28["p" + v34] = v34;
+    }
+    return a29;
+}
+f27(v22, v25, v26, v6);

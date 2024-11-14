@@ -1,0 +1,29 @@
+class C3 {
+    static {
+        let v4 = this;
+        v4 <<= "uw";
+        for (let i7 = 0, i8 = 10; i7 < i8; i7++, i8--) {
+            const t5 = "10";
+            t5["b"] = v4;
+            const t7 = "b";
+            t7[v4] = v4;
+            try { new i7(i7, "uw", "b", i7); } catch (e) {}
+        }
+    }
+}
+const v17 = new C3();
+new C3();
+const v19 = new C3();
+new Uint8Array(257);
+new Uint32Array(129);
+const v28 = new Float64Array(255);
+[16];
+[-398268524,35336,-30449,-1,-9007199254740992,5];
+const v31 = [-14,4294967297,-2074040236,256,4096,-12,-1482467242,16,-6,2030564818];
+let v32;
+try { v32 = v31(v19, v17, Float64Array); } catch (e) {}
+try {
+    v28.findLastIndex(v32);
+} catch(e34) {
+}
+v17[Symbol.asyncIterator] = v32;

@@ -1,0 +1,15 @@
+new Int16Array(5);
+new Int8Array(3473);
+const v8 = new Float32Array(1000);
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a14;
+    this.e = v8;
+}
+new F12(3473, 7);
+const v17 = new F12(3473, 4096);
+new F12(1000, 4096);
+const v19 = v17[v17];
+for (let v20 = 0; v20 < 32; v20++) {
+    v19["p" + v20] = v20;
+}

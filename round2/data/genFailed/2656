@@ -1,0 +1,56 @@
+function f0() {
+}
+class C1 {
+    static m() {
+        super[f0] = this;
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeMaglevOnNextCall(f0);
+        f0();
+        return this;
+    }
+    [f0] = f0;
+    static #c = f0;
+    static #e;
+    static f;
+}
+const v7 = new C1();
+const v8 = new C1();
+const v9 = new C1();
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = v9;
+    this.h = a12;
+}
+const v14 = new F10(v9, v8);
+const v15 = new F10(v8, v7);
+const v16 = new F10(v8, C1);
+function f17(a18, a19) {
+    const o28 = {
+        "h": v9,
+        "f": f0,
+        __proto__: v16,
+        n(a21, a22, a23, a24) {
+            return typeof this === "string";
+        },
+        [v16]: v16,
+        "c": v14,
+        [a19]: v9,
+        "b": v9,
+        "e": v9,
+    };
+    return o28;
+}
+let v30 = f17(v15, f17(v16, v15));
+f17(v14, v30);
+[0.1633088117694178,0.026934470723542048,3.0,-1000000000.0,1000000000000.0,-3.0,-2.0,-3.872702619379078];
+[1.0,0.5393906108371239,2.220446049250313e-16,2.0,8.736169866956718,-485.3896185782263,-1.0491876108140777e+308];
+const v34 = [2.0,268010.6454148805,-53031.60699532379,0.1546800829482563,0.08629043798025549,1e-15,1000000.0,-1.0329685442550698];
+v30 = v8;
+const v39 = ~200.98051018594333;
+Math.abs(v39);
++-268435456;
+Math.max(v7);
+v34.length = v39;

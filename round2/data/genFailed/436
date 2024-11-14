@@ -1,0 +1,71 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        "a": f0,
+        get f() {
+            this[28] = f0;
+            return this[this];
+        },
+        [f0]: f0,
+        3: f0,
+        "c": f0,
+        "h": f0,
+        __proto__: f0,
+    };
+    return o4;
+}
+f1();
+f1();
+const v7 = f1();
+new Uint8ClampedArray(1954);
+new Float64Array(4);
+const v19 = new Int16Array(4096);
+const v22 = new Array(7);
+delete v7[v19.__proto__];
+try {
+    v22.join("stack");
+} catch(e27) {
+}
+class C3 {
+    static [64] = 268435441;
+    static {
+        d = delete this?.c;
+    }
+    static ["VRn"] = 64;
+    176;
+    static #m(a7, a8) {
+        let v9;
+        try { v9 = new a7(this); } catch (e) {}
+        %VerifyType(v9);
+        const v10 = [this,64,"VRn"];
+        [[64,v10,this,v10,64],"VRn",a7];
+        return a8;
+    }
+}
+const v13 = new C3();
+new C3();
+const v15 = new C3();
+try {
+    new Uint32Array(1024);
+} catch(e19) {
+}
+try {
+    new Int8Array(1481);
+} catch(e23) {
+}
+try {
+    new Float64Array(512);
+} catch(e27) {
+}
+class C28 {
+    [1024] = v13;
+    3974;
+    h = v15;
+}
+new C28();
+new C28();
+const v31 = new C28();
+var h = v31;
+const v33 = [268435441];
+Reflect.apply(("VRn").repeat, v31, v33);

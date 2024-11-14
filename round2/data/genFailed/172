@@ -1,0 +1,67 @@
+const v4 = new WeakMap();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 6;
+    this.a = a7;
+}
+new F5(536870912);
+const v9 = new F5(536870912);
+new F5(-5);
+const v13 = new Uint8Array(255);
+new Uint32Array(3158);
+const v19 = new BigUint64Array(8);
+v9.__proto__ = v13;
+v4[153];
+function f21() {
+    return BigUint64Array;
+}
+const v23 = Symbol.split;
+v13[v23] = v4;
+Object.defineProperty(v23, 9, { enumerable: true, value: WeakMap });
+const o24 = {
+    "call": f21,
+    "construct": f21,
+    "deleteProperty": f21,
+    "get": f21,
+    "getOwnPropertyDescriptor": f21,
+    "getPrototypeOf": f21,
+    "has": f21,
+    "preventExtensions": f21,
+    "set": f21,
+    "setPrototypeOf": f21,
+};
+new Proxy(v19, o24);
+const v0 = /(?<!)?/sigu;
+const v1 = /a{12,3bma(?!bbb|bb)c/dm;
+const v2 = /[^a\n]/idu;
+class C3 {
+    static [v0] = v0;
+    p(a5) {
+        [-856.4348640592681,2.2250738585072014e-308,-Infinity,9.096776485099586,0.43922844154600926,8.708115695024588,4.0,0.2376874150098609];
+        const v7 = [1e-15,3.0,9.636943281337544,2.2250738585072014e-308,312.0929153514803,634739.2178309092,2.2250738585072014e-308,0.9428684986654665,0.8616284311696936,-Infinity];
+        [NaN,318981.2888772129,1000000.0,-2.220446049250313e-16,0.5960525001190593,-171.70309650906006,-2.7942740692841033e+307];
+        return v7;
+    }
+    [v2];
+    268435441;
+    static #a = v2;
+}
+new C3();
+new C3();
+new C3();
+try { C3["defineProperties"](v1, -2); } catch (e) {}
+function f17(a18, a19) {
+    function f21(a22) {
+        try { this.asin(a18, a22, -14); } catch (e) {}
+    }
+    this.onmessage = f21;
+    let v24;
+    try { v24 = a18(a18); } catch (e) {}
+    try { this["call"](v24, a18); } catch (e) {}
+}
+const v29 = [59401,C3];
+const o30 = {
+    "arguments": v29,
+    "type": "function",
+};
+new Worker(f17, o30);

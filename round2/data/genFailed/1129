@@ -1,0 +1,74 @@
+const v0 = [1841186323];
+const v1 = [-6,6,8,1];
+const v2 = [1073741823,16,14,1,268435439,-9007199254740990,65535,-9007199254740992];
+const v3 = [v2,v0,v2,v2];
+const v4 = [v3];
+const v5 = [v2,v4,v3];
+function f6(a7, a8, a9, a10) {
+    const o23 = {
+        [v1]: v2,
+        "c": v2,
+        o(a12, a13, a14, a15) {
+            super.b |= a12;
+            const v19 = super[v0];
+            for (let v20 = 0; v20 < 32; v20++) {
+                v19["p" + v20] = v20;
+            }
+            return a13;
+        },
+    };
+    return o23;
+}
+const v24 = f6(v3, v3, v4, v5);
+const v25 = f6(v4, v3, v4, v3);
+f6(v4, v5, v3, v0);
+[-46010,152648337,64,-12,7];
+const v28 = [7,57134];
+[2,-1464793806,-9007199254740992,7,-4,-30306,9223372036854775807,9];
+Object.defineProperty(v24, "a", { writable: true, get: f6 });
+Math.tan(-4.0);
+const v37 = !v25;
+~-15;
+Math.sign(v37);
+-v25;
+v28["flatMap"](f6, v3);
+try {
+    new BigUint64Array(1705);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(195);
+} catch(e7) {
+}
+try {
+    new Uint8Array(4053);
+} catch(e11) {
+}
+function f12() {
+    return BigUint64Array;
+}
+const v14 = new Map();
+const v18 = [195,4053];
+[256,v14];
+[v18,BigInt64Array];
+Reflect.construct(BigUint64Array, [-65535], f12);
+function f24(a25, a26) {
+    function f28(a29) {
+        try {
+            v14.a = a29;
+        } catch(e30) {
+        }
+    }
+    this.onmessage = f28;
+    try { a25(Reflect, this, 256, f28); } catch (e) {}
+    try {
+        a26 &= 4;
+    } catch(e32) {
+    }
+}
+const v35 = [Uint8Array,BigInt64Array];
+const o36 = {
+    "arguments": v35,
+    "type": "function",
+};
+new Worker(f24, o36);

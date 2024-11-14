@@ -1,0 +1,14 @@
+const v2 = new Int8Array(3086);
+new Float64Array(7);
+const v8 = new Uint8Array(46);
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a16;
+    this.f = a17;
+    this.b = a16;
+}
+const v18 = new F12(3086, Uint8Array, 46, 46);
+const v19 = new F12(-2, v18, 46, 4294967297);
+const v20 = new F12(7, v8, 1185399482, 7);
+v20.__proto__ = v20;
+try { v20.toGMTString(v19, v2); } catch (e) {}

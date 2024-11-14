@@ -1,0 +1,106 @@
+[-1.7976931348623157e+308];
+[-887357.7445324607,1000000.0,-1.7976931348623157e+308,-0.0,-860.0887543909905,2.220446049250313e-16,34.405893933138714,1000000.0,0.8302172596379669,176969.77457088325];
+[1000.0,0.21201212520890222,-1000000.0,-7.900587735993474,6.187982938288712,0.1860023729280329,-5.0,-1000.0,178.36441467013674,2.0];
+const v12 = ("-16")[5];
+const o13 = {
+};
+new Proxy("LdCae", o13);
+("unicode")[o13];
+var f = "LdCae";
+o13.toString = v12;
+("LdCae")[5];
+const o20 = {
+    "maxByteLength": 183,
+};
+const v22 = new SharedArrayBuffer(183, o20);
+new BigInt64Array(v22);
+class C3 {
+    static #f;
+    o(a5, a6) {
+        try {
+            super.fround(-7795, a5, -7795, -14, -14);
+        } catch(e8) {
+        }
+        const v10 = true <= true;
+        try { new this(); } catch (e) {}
+        try {
+            super.o(a5, v10, a6, a5);
+        } catch(e13) {
+        }
+        return a5;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function f17(a18, a19, a20, a21) {
+    const o35 = {
+        "c": -7795,
+        "b": v15,
+        "a": -14,
+        "g": v16,
+        "f": C3,
+        "h": -9,
+        __proto__: C3,
+        ...a21,
+        [a20]: v14,
+        "d": a19,
+        [a21](a23, a24) {
+            %VerifyType(-14);
+            function F25(a27, a28) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = a19;
+                } catch(e29) {
+                }
+                try {
+                    this.g = a18;
+                } catch(e30) {
+                }
+                try {
+                    this.b = a24;
+                } catch(e31) {
+                }
+            }
+            new F25(a24, a24);
+            new F25(-7795, a24);
+            new F25(a18, -9);
+            return v16;
+        },
+    };
+    return o35;
+}
+const v36 = f17(-14, v14, -9, v14);
+f17(-14, f17(-14, v15, -7795, v36), -7795, v14);
+try {
+    new Float32Array(4);
+} catch(e42) {
+}
+try {
+    new Float64Array(15);
+} catch(e46) {
+}
+try {
+    new BigInt64Array(33);
+} catch(e50) {
+}
+let v51 = delete v36?.f;
+++v51;
+with (v14) {
+    try { c(-9); } catch (e) {}
+    const o55 = {
+        "construct": f17,
+        "defineProperty": f17,
+        "getOwnPropertyDescriptor": f17,
+        "has": f17,
+        "isExtensible": f17,
+        "ownKeys": f17,
+        "preventExtensions": f17,
+        "set": f17,
+        "setPrototypeOf": f17,
+    };
+    try {
+        new Proxy(v36, o55);
+    } catch(e58) {
+    }
+}

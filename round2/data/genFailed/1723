@@ -1,0 +1,25 @@
+function f0() {
+}
+class C1 extends f0 {
+    constructor() {
+        super();
+        Object.defineProperty(this, 6, { writable: true, configurable: true, get: f0, set: f0 });
+    }
+    static g = f0;
+    static #h;
+    static 6;
+}
+const v6 = new C1();
+new C1();
+new C1();
+[-10,7,-194955381,-7,13,11843];
+const v10 = [52409,-9007199254740992,-4,10000,1073741825,9007199254740991,873107134,1073741823,-9223372036854775808];
+[350,-605339784,-256,-10,3,4];
+v10[268435439n % v6] = C1;
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeMaglevOnNextCall(f0);
+f0();
+Object.defineProperty(v10[8], "c", { configurable: true, set: f0 });

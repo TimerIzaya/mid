@@ -1,0 +1,33 @@
+class C3 {
+    [6] = 6;
+    static {
+        const t3 = "constructor";
+        t3[3632310535] = "constructor";
+        const o5 = {
+        };
+        new Proxy(this, o5);
+        const o11 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o11);
+    }
+}
+new C3();
+new C3();
+new C3();
+const v18 = new BigInt64Array(197);
+new Float32Array(4081);
+const v24 = new Uint16Array(2167);
+C3[v18] = 6;
+function f25(a26) {
+    return v24;
+}
+class C27 extends f25 {
+    static #a;
+}
+const o31 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o31);

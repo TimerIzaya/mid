@@ -1,0 +1,58 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 1073741824;
+    this.g = 1073741824;
+    this.e = 1073741824;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function f12() {
+    return 7n;
+}
+class C13 extends f12 {
+    static {
+        for (let v15 = 0; v15 < 63; v15++) {
+            v5[16n];
+        }
+        try {
+            this.from(v5, -23327n, v5);
+        } catch(e19) {
+        }
+    }
+    [v4];
+    [v3];
+    ["bXr1d"] = v3;
+    #e = "bXr1d";
+}
+new C13();
+const v21 = new C13();
+new C13();
+function f23(a24, a25, a26) {
+    function f28(a29) {
+    }
+    this.onmessage = f28;
+    const o31 = {
+    };
+    o31.a = F0;
+    const o32 = {
+    };
+    o32.a = F0;
+    o32.g = "bXr1d";
+    const o33 = {
+    };
+    o33.a = F0;
+    o33.g = "bXr1d";
+    o33.b = v4;
+    const o34 = {
+    };
+    o34.a = F0;
+    o34.g = "bXr1d";
+    o34.b = C13;
+}
+const v37 = [16n,"function",v21];
+const o38 = {
+    "arguments": v37,
+    "type": "function",
+};
+new Worker(f23, o38);

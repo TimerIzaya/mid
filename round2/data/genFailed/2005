@@ -1,0 +1,28 @@
+[];
+const v9 = new Float64Array(256);
+const v12 = new Int16Array(255);
+new Uint8ClampedArray(5);
+async function f16(a17, a18, a19) {
+    let v20;
+    try { v20 = a17(a19, a18); } catch (e) {}
+    v20 * v20;
+    return await v9;
+}
+f16(v12, 3.0, 298233.6441969515);
+const t10 = "PI";
+t10[268435439] = Int16Array;
+const o24 = {
+    "apply": f16,
+    "call": f16,
+    "construct": f16,
+    "defineProperty": f16,
+    "get": f16,
+    "getOwnPropertyDescriptor": f16,
+    "getPrototypeOf": f16,
+    "has": f16,
+    "ownKeys": f16,
+    "preventExtensions": f16,
+    "set": f16,
+    "setPrototypeOf": f16,
+};
+new Proxy("boolean", o24);

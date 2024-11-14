@@ -1,0 +1,27 @@
+class C3 {
+    static {
+        Reflect.construct("ph", [Reflect,Reflect], this);
+    }
+    static #e;
+    static #a;
+    static #f = 1;
+    #g;
+    10;
+}
+const v8 = new C3();
+const v9 = new C3();
+const v10 = new C3();
+const v11 = [v10];
+const v12 = [1,1,v8,v11,v11];
+["p"];
+new C3();
+const v15 = ("ph")[v12];
+function* f16(a17, a18, a19, a20) {
+    a18[11] = a18;
+    function f21() {
+        return a18;
+    }
+    yield f21;
+    return v15;
+}
+f16(v9, "p", "p", v11);

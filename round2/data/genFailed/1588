@@ -1,0 +1,38 @@
+class C3 {
+    static #e;
+    constructor(a5, a6) {
+        let v7;
+        try { v7 = a5(a5, -274227352); } catch (e) {}
+        a6[-5.0] = v7;
+    }
+    #f;
+    10;
+    11 = -274227352;
+    [-5.0] = -5.0;
+    [-834.4989080192673];
+}
+const v8 = new C3(-274227352, -834.4989080192673);
+const v9 = new C3(-274227352, v8);
+new C3(-274227352, -834.4989080192673);
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v9;
+}
+const v15 = new F11(C3, C3);
+const v16 = new F11(v15, v9);
+const v17 = new F11(v8, v8);
+const v18 = [v9,F11];
+const v19 = [-5.0,-274227352,-834.4989080192673];
+[v15,v19,v19];
+v16[v9] = v17;
+function f21(a22, a23, a24) {
+    const o25 = {
+        __proto__: a24,
+        3670619160: v18,
+        "a": a22,
+        "f": -274227352,
+        "b": v19,
+    };
+    return o25;
+}
+f21(f21(v16, f21(C3, v17, C3), v19), v17, C3);

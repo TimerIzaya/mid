@@ -1,0 +1,69 @@
+function f0() {
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a7;
+    this.e = 102971164n;
+}
+const v8 = new F4(55354n, 102971164n);
+const v9 = new F4(55354n, f0);
+const v10 = new F4(102971164n, 1777988407n);
+class C11 {
+    constructor(a13, a14) {
+        v10.d = F4;
+        const v15 = a14[1460];
+        const o16 = {
+        };
+        o16.a = 55354n;
+        const o17 = {
+        };
+        o17.a = 55354n;
+        o17.f = v15;
+        const o18 = {
+        };
+        o18.a = 55354n;
+        o18.f = v15;
+        o18.c = f0;
+        const o19 = {
+        };
+        o19.a = 55354n;
+        o19.f = v15;
+        o19.c = 102971164n;
+    }
+}
+new C11(v10, v9);
+new C11(v10, v9);
+const v22 = new C11(v9, v8);
+const o23 = {
+    __proto__: v22,
+    [v10]: v22,
+    "f": f0,
+};
+const o26 = {
+    "maxByteLength": 268435441,
+};
+const v28 = new ArrayBuffer(3, o26);
+new Int16Array(v28);
+function f6(a7, a8, a9, a10) {
+    const o14 = {
+        "e": 268435439,
+        set h(a12) {
+            super.d;
+        },
+        [2147483649n]: a8,
+        "a": -4294967295,
+        "b": 4n,
+        __proto__: a8,
+        "g": 2147483649n,
+        4: -4294967295,
+    };
+    return o14;
+}
+f6(268435439, f6(268435439, f6(-4294967295, 8n, 2147483649n, 8n), 4n, 8n), 2147483649n, 2147483649n);
+new Array(8);
+new WeakMap();
+const v26 = (-9007199254740991) ** 65535;
+Math.clz32(8n);
+Math.random();
+8n >>> (v26 * 65535);
+8n | (v26 ^ v26);

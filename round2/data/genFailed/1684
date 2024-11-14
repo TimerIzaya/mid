@@ -1,0 +1,48 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 4096;
+    this.b = 4096;
+}
+new F0();
+let v4 = new F0();
+const v5 = new F0();
+[512];
+const v7 = [-536870912,56454,9,-1092157622,-9007199254740990,16];
+const v8 = [1000,37325,-1717389302,2,-1073741824,536870912,803011814,1073741825];
+class C10 {
+    #p(a12, a13, a14, a15) {
+        let v16;
+        try { v16 = new a14(this, a14, undefined, a12, v7); } catch (e) {}
+        try { a14(a15, a15, v16, a15); } catch (e) {}
+        return v8;
+    }
+    set a(a19) {
+        const v20 = [this,this,v7,...v7];
+        super.e = this;
+        switch (a19) {
+            case v4:
+                let v21;
+                try { v21 = a19(this, v5, this, v5, ...v20); } catch (e) {}
+                let v23 = 31985;
+                Math.sign(undefined);
+                const v25 = undefined / v21;
+                v4++;
+                const v27 = ++v23;
+                v21 - v25;
+                Math.tan(v21);
+                Math.abs(v27);
+                break;
+        }
+    }
+}
+new C10();
+new C10();
+new C10();
+for (let i39 = 0, i40 = 10; i39 < i40; i39++, i40--) {
+    const v48 = v5[268435440n];
+    v5.b %= v48;
+    v48?.[i39];
+    for (let v50 = 0; v50 < 32; v50++) {
+        v48["p" + v50] = v50;
+    }
+}

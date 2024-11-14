@@ -1,0 +1,104 @@
+class C3 {
+    static [-1000000000000.0] = 3;
+    9;
+    static #f;
+    static #b = 3;
+    #a = -1000000000000.0;
+    get c() {
+        this.__proto__;
+        const o8 = {
+            "maxByteLength": 1073741824,
+        };
+        const v10 = new SharedArrayBuffer(5, o8);
+        const v12 = new Uint8Array(v10);
+        return v12;
+    }
+}
+new C3();
+const v14 = new C3();
+const v15 = new C3();
+const v16 = [-Infinity,5.0,4.0,-3.0,1000000000000.0,2.0,-134.22333627285468,-9.17956275361794];
+const v17 = [-Infinity,-214.27973711504353,-1000000000.0,-663.1730046670714];
+const v18 = [Infinity,Infinity,0.0,788.0431888496587,-1.1603503962693438,5.0,-4.802336305846586,926.6657388613148,4.0,1.0907791815441437e+308];
+const v23 = delete C3?.d;
+undefined != undefined;
+const v25 = v16[v17];
+for (const v26 of v18) {
+    v18[1.7976931348623157e+308] = -1000.0;
+}
+%VerifyType(-1000000000000.0);
+let v27;
+try { v27 = new v23(v25, v14, v15, v14); } catch (e) {}
+v25[2] = v27;
+v17.valueOf = v23;
+function f3() {
+    return -65536n;
+}
+class C4 extends f3 {
+    [-65536n];
+    static {
+        throw this;
+        const o6 = {
+        };
+        try {
+            o6.c = this;
+        } catch(e7) {
+        }
+        try {
+            const o8 = {
+            };
+            o8.c = this;
+            o8.e = this;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.c = this;
+            o10.e = this;
+            o10.g = this;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.c = this;
+            o12.e = this;
+            o12.g = this;
+        } catch(e13) {
+        }
+    }
+}
+const v14 = new C4();
+const v15 = new C4();
+let v16 = new C4();
+class C17 extends C4 {
+    #d;
+    constructor(a19, a20, a21) {
+        super();
+        Object.defineProperty(this, "g", { configurable: true, enumerable: true, set: f3 });
+        switch (v15) {
+            default:
+                new C4();
+                break;
+            case a21:
+                Reflect.construct(f3, [], f3);
+                break;
+        }
+    }
+}
+const v26 = new C17(v14, v15, 33589n);
+new C17(v15, v26, -65536n);
+new C17(v14, C4, -65536n);
+["512","512"];
+[-65536n];
+[-65536n];
+let v35 = v15 instanceof f3;
+({"length":v35,...f3} = "r9X");
+const o36 = {
+};
+const v38 = new Proxy(C17, o36);
+try {
+    v16 = v38;
+} catch(e39) {
+}

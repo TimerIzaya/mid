@@ -1,0 +1,57 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = -2105763411;
+    this.f = -2105763411;
+}
+new F0();
+const v4 = new F0();
+const v5 = new F0();
+[-Infinity];
+const v7 = [-1000000000000.0,NaN,0.5786204264630955,-358.3274406395451,-479845.0633196112,1000000000.0,5.0,-3.0];
+const v8 = [1000000000000.0,-1.0,1000.0,962003.6125872917,13394.31466251437,267191.96405183454,3.0,0.4284839945893434,1.7976931348623157e+308,0.0];
+class C9 {
+    static d = F0;
+    constructor(a11, a12, a13) {
+        new F0();
+    }
+    static 9 = v4;
+    static #a;
+    static #e = F0;
+}
+const v18 = new C9(v8, v7, C9);
+new C9(v18, v18, F0);
+new C9(v7, v8, v5);
+const o23 = {
+    "maxByteLength": 6,
+};
+const v25 = new SharedArrayBuffer(6, o23);
+new Uint32Array(v25);
+const v0 = [];
+class C4 {
+    static {
+        [[268435440n,[-256n,this,-2.0]],-2.0];
+    }
+    #p(a13) {
+        for (let v14 = 0; v14 < 32; v14++) {
+            this["p" + v14] = v14;
+        }
+        return v0;
+    }
+}
+const v17 = new C4();
+const v18 = new C4();
+new C4();
+[C4,-2147483649n];
+const v22 = [v18,-256n,C4,[-256n,v0,-2147483649n,v17]];
+const v24 = new WeakMap();
+const v26 = [[-256n,-256n,C4,WeakMap,v24],v17,268435440n];
+const v28 = ([v26,-256n,v26,v24,268435440n])[5];
+new WeakMap(v18);
+try {
+    v22.length = v28;
+} catch(e30) {
+}
+try {
+    C4 = WeakMap;
+} catch(e31) {
+}

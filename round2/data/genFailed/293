@@ -1,0 +1,57 @@
+function f9(a10, a11) {
+    const o18 = {
+        set a(a13) {
+            a11 = 127;
+            super.a;
+            a13 += 127;
+        },
+        [a10]: a10,
+        "e": 536870888,
+        "b": -4096,
+        ...a10,
+        1: -12419,
+    };
+    return o18;
+}
+f9(f9(-65536, -65536), -25824);
+let v21 = f9(f9, 127);
+({"b":v21,} = v21);
+const v22 = v21?.[3742];
+try { v22(v22, -2147483647, f9, -2147483647); } catch (e) {}
+typeof f9 === "function";
+Reflect.construct(v22, [-12419,536870888], v21);
+try {
+    f9("function", 268435440);
+} catch(e32) {
+}
+new WeakSet();
+try {
+    new Float32Array(3511);
+} catch(e5) {
+}
+try {
+    new Uint8ClampedArray(43);
+} catch(e9) {
+}
+try {
+    new Float32Array(181);
+} catch(e13) {
+}
+const v18 = new Date();
+const v19 = [Float32Array,"268435441",3511,v18];
+const v20 = [Float32Array];
+[v18,WeakSet];
+Date();
+Float32Array - v20;
+try {
+    Date[82] = 43;
+} catch(e24) {
+}
+new Float32Array("undefined", 3511, 43);
+let v26;
+try { v26 = v19.findLastIndex(Date); } catch (e) {}
+Object.defineProperty("p", "e", { configurable: true, set: Date });
+try {
+    v26.a = Date;
+} catch(e27) {
+}

@@ -1,0 +1,30 @@
+function f3(a4, a5) {
+    const o10 = {
+        "b": a5,
+        "d": 415222313,
+        "h": 415222313,
+        "e": a4,
+        ...a5,
+        set a(a7) {
+            let v8;
+            try { v8 = this.freeze(); } catch (e) {}
+            try { new v8(a4, a4, 415222313, a5); } catch (e) {}
+        },
+        [4]: 4294967296,
+    };
+    return o10;
+}
+const v11 = f3(4, 4);
+const v12 = f3(4294967296, v11);
+const t17 = f3(4294967296, 415222313);
+t17[-4] = 415222313;
+for (const v17 of 4) {
+    v12[143] = v17;
+    v17.b = v11;
+    f3(-4, 4294967296);
+    %PrepareFunctionForOptimization(f3);
+    f3(-4, 4294967296);
+    f3(-4, 4294967296);
+    %OptimizeMaglevOnNextCall(f3);
+    f3(-4, 4294967296);
+}

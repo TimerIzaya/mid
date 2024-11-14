@@ -1,0 +1,65 @@
+function f0() {
+    const o10 = {
+        get h() {
+            let v4 = this;
+            v4 >>= v4;
+            Object.defineProperty("toString", "e", { writable: true, configurable: true, value: v4 });
+            -2147483648n - -2147483648n;
+            try {
+            const t0 = 2n;
+            t0();
+            } catch (e) {}
+            return "toString";
+        },
+        "g": "string",
+        "c": -9007199254740990,
+        [-9007199254740990]: -9007199254740990,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f14(a15) {
+    const o20 = {
+        "e": v12,
+        toString(a17) {
+            try {
+                f0();
+            } catch(e19) {
+            }
+            return a17;
+        },
+        [a15]: v11,
+        ...v13,
+        "f": v11,
+        "a": a15,
+        ...v12,
+    };
+    return o20;
+}
+f14(f0);
+const v22 = f14(f14);
+f14(f14);
+class C24 {
+    set b(a26) {
+        new Int32Array(1992);
+        new Uint8ClampedArray(539);
+        new Uint16Array(5);
+    }
+    f = v13;
+    #c;
+}
+new C24();
+const v37 = new C24();
+new C24();
+const v39 = [536870888,-270464318,9007199254740990];
+[4096];
+[7,12,4294967297,-128,53212];
+v22.toString = f0;
+Object.defineProperty(v37, 141661968, { value: v11 });
+if (v37) {
+    typeof v39 === "bigint";
+} else {
+    v22[v13];
+}

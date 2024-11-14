@@ -1,0 +1,63 @@
+function f0() {
+    const o10 = {
+        ...-1000.0,
+        16: -1000.0,
+        m(a5, a6) {
+            for (let v7 = 0; v7 < 32; v7++) {
+                a5["p" + v7] = v7;
+            }
+            return a6;
+        },
+        "c": -5.0,
+        2147483649: -5.0,
+        "a": -1000.0,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f14(a15) {
+    const o28 = {
+        __proto__: v11,
+        [a15]: v11,
+        "h": f0,
+        set f(a17) {
+            a15[this];
+        },
+        "d": v13,
+        set b(a21) {
+            const o22 = {
+            };
+            new Proxy(f0, o22);
+            ("3").normalize("NFD");
+        },
+    };
+    return o28;
+}
+const v29 = f14(v11);
+const v30 = f14(v13);
+const v31 = f14(v12);
+function f32(a33, a34, a35) {
+    const o36 = {
+        ...a35,
+        "c": v11,
+        "a": v12,
+        "e": a35,
+        [a33]: v31,
+        __proto__: a34,
+        "b": a34,
+        "h": a35,
+        4: a34,
+        "g": a33,
+        "d": v30,
+        "f": v11,
+        8: v13,
+    };
+    return o36;
+}
+f32(v30, v30, v30);
+f32(f32(v29, f0, v31), f32, v31);
+new Int16Array(64);
+new Float32Array(257);
+new Uint8ClampedArray(255);

@@ -1,0 +1,14 @@
+[21480,2];
+[65536,256,-65535,-45909,6,65536,4294967297,5];
+[536870889,127,9007199254740991,536870912];
+new Set();
+new Int32Array(129);
+const v10 = new BigUint64Array(1000);
+const v13 = new Uint8Array(3566);
+const o14 = {
+};
+new Proxy(Int32Array, o14);
+const v19 = Reflect.construct(Uint8Array, [v10,129,129], Proxy);
+v19?.[Reflect];
+v10.toString = v19;
+v13.buffer;

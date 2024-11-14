@@ -1,0 +1,58 @@
+function f0() {
+    const o17 = {
+        ..."hasInstance",
+        o(a5, a6) {
+            const v9 = Reflect.construct(a5, [536870887], a6);
+            const v13 = !2.0;
+            0 & 2.0;
+            Math.acosh(v13);
+            Reflect + 2.0;
+            return v9;
+        },
+        ..."hasInstance",
+    };
+    return o17;
+}
+const v18 = f0();
+const v19 = f0();
+const v20 = f0();
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v19;
+    this.h = a26;
+    this.b = v18;
+}
+const v30 = new F24(0.3762948639914936, -1.716059406705487e+308, 1000.0, v18);
+new F24(1000.0, 0.3762948639914936, -1.716059406705487e+308, v20);
+new F24(0.3762948639914936, 1000.0, 1000.0, -1.716059406705487e+308);
+function f33(a34, a35) {
+    const o41 = {
+        get h() {
+            try {
+                new f0();
+            } catch(e38) {
+            }
+            try {
+                super.valueOf(a35, a35, a35, this, v19);
+            } catch(e40) {
+            }
+            return v30;
+        },
+        "h": 0.3762948639914936,
+        8: v20,
+        "d": a34,
+        "b": f0,
+    };
+    return o41;
+}
+const v42 = f33(v30, 0.3762948639914936);
+f33(v19, 1000.0);
+f33(v42, -1.716059406705487e+308);
+try {
+    v20.o(v19, true, /\xf0\x9f\x92\xa9\p{gc=Nd}/mdv);
+} catch(e48) {
+}
+const v49 = [7,14,-404980616,59773,-9223372036854775807,-8];
+[-2];
+[12];
+v49.length = v18;

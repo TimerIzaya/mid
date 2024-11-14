@@ -1,0 +1,57 @@
+function f0() {
+    const o7 = {
+        __proto__: "mR",
+        get a() {
+            super.h = this instanceof "mR";
+            let v6;
+            try { v6 = ("replace").startsWith("mR", 2147483648); } catch (e) {}
+            v6[256] ^= 2147483648;
+            return "mR";
+        },
+        [2147483648]: "replace",
+        ..."mR",
+        ["mR"]: "replace",
+    };
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+const v11 = [v9,v8,v8];
+const v12 = [v11,v11,f0,f0,f0];
+const v13 = [f0,v9,f0];
+function f14(a15, a16, a17, a18) {
+    const o30 = {
+        "h": a16,
+        "g": a15,
+        ...v8,
+        get d() {
+            let v19 = this;
+            ({"g":v19,} = v19);
+            try { new v19(...a16, a15, ...v11, a15, f0); } catch (e) {}
+            try { v10["getOwnPropertyDescriptors"](a15, v10); } catch (e) {}
+            function F23(a25, a26) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.g = a25;
+                this.h = a16;
+            }
+            new F23(v19, v10);
+            const v28 = new F23(a15, v19);
+            const v29 = new F23(v28, a18);
+            return v29;
+        },
+    };
+    return o30;
+}
+const v31 = f14(v13, v12, v11, v9);
+f14(f14, v12, v11, v10);
+let v33 = f14(v9, v12, v13, v9);
+f14(v31, v12, v13, v8);
+%PrepareFunctionForOptimization(f14);
+let v35 = f14(v31, v12, v13, v8);
+const v36 = f14(v31, v12, v13, v8);
+%OptimizeFunctionOnNextCall(f14);
+let v37 = f14(v31, v12, v13, v8);
+({"a":v33,"e":v35,"length":v37,} = v13);
+v33?.[v36];
+Reflect.construct(f0, [], v35);

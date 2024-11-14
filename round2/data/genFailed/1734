@@ -1,0 +1,36 @@
+const v3 = new Uint32Array(124);
+let v6 = new Float64Array(3);
+const v9 = new Uint8Array(319);
+function f10() {
+    return v9;
+}
+class C11 {
+    static {
+        v6 = this;
+        delete this?.a;
+        v6[319];
+        for (let v15 = 0; v15 < 32; v15++) {
+            this["p" + v15] = v15;
+        }
+    }
+    [null];
+    b = v9;
+    #g;
+    static 1;
+    4294967296 = Uint8Array;
+}
+new C11();
+const v19 = new C11();
+const v20 = new C11();
+Object.defineProperty(v3, 2147483648, { configurable: true, value: f10 });
+v6.e = v19;
+let [,v21,,...v22] = v9;
+const o23 = {
+    "apply": f10,
+    "call": f10,
+    "defineProperty": f10,
+    "deleteProperty": f10,
+    "getOwnPropertyDescriptor": f10,
+    "getPrototypeOf": f10,
+};
+new Proxy(v20, o23);

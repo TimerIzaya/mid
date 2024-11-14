@@ -1,0 +1,59 @@
+const v5 = new Float64Array(578);
+const v8 = new Int32Array(118);
+const v11 = new Float64Array(10);
+v11[4] = v11;
+let v12;
+try { v12 = Float64Array(578, 578, 10); } catch (e) {}
+v8[v12] = 376714379n;
+%VerifyType(v5);
+const v13 = v12.__proto__;
+try { new v13(578, v12, v13, 118); } catch (e) {}
+v5.buffer;
+function f0() {
+}
+const v1 = [f0,f0,f0,f0];
+const v2 = [v1,v1,v1];
+[v2,v2,v1,v1];
+try {
+    new Uint32Array(256);
+} catch(e7) {
+}
+try {
+    new Uint32Array(257);
+} catch(e11) {
+}
+try {
+    new Float32Array(234);
+} catch(e15) {
+}
+function f16() {
+    return f0;
+}
+class C17 extends Uint32Array {
+    d = v2;
+    static [257] = 234;
+    #valueOf(a19, a20) {
+        try { new a20(a19); } catch (e) {}
+        try {
+            a19 %= 257;
+        } catch(e22) {
+        }
+        return a19;
+    }
+    [257];
+    14;
+    static #a = v2;
+}
+new C17();
+const v24 = new C17();
+new C17();
+try {
+    new Uint32Array(257);
+} catch(e27) {
+}
+let v31 = !(-(-9223372036854775807));
+v31--;
+try {
+    v24.byteOffset = v31;
+} catch(e33) {
+}

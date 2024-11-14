@@ -1,0 +1,27 @@
+const v0 = /(?:a+)*/giv;
+/xyz{0,1}?/i;
+const v2 = /Ixyz{0,1}85a|b((ab)\1)+/gm;
+let v4 = 32397;
+class C6 {
+    constructor(a8, a9) {
+        let v12 = -2147483647n;
+        a9.unicode = v12;
+        v12 ||= 4n;
+        try { v0.test(a8); } catch (e) {}
+        try {
+            a9.exec("symbol");
+        } catch(e16) {
+        }
+    }
+}
+new C6(12231, v0);
+const v18 = new C6(v4, v0);
+const v19 = new C6(12231, v18);
+("so5").__proto__;
+let v24 = 0;
+while (v24 < 1) {
+    v4 = -1970682399;
+    try { v19["toString"]("-268435456"); } catch (e) {}
+    try { v2.compile("-2147483648"); } catch (e) {}
+    v24++;
+}

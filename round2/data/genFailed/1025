@@ -1,0 +1,63 @@
+class C3 {
+    constructor(a5) {
+        let v7;
+        try { v7 = this["deleteProperty"](1000000000.0); } catch (e) {}
+        const t4 = "deleteProperty";
+        t4[10] = 1.1012933383444876e+308;
+        typeof v7 === "number";
+    }
+    toString(a12) {
+        this[a12];
+        super[this]?.[this];
+        return this;
+    }
+}
+let v19 = new C3(1000000000.0);
+const v20 = new C3(1.1012933383444876e+308);
+const v21 = new C3(-911230.1744054864);
+class C22 extends C3 {
+    [1.1012933383444876e+308];
+    constructor(a24, a25, a26, a27) {
+        super(a25);
+    }
+    c;
+    #p(a32, a33, a34, a35) {
+        function f36(a37) {
+            return a33;
+        }
+        class C38 extends f36 {
+            e = f36;
+            static #b = 1.1012933383444876e+308;
+        }
+        return a32;
+    }
+}
+const v39 = new C22(C22, -911230.1744054864, v21, v19);
+const v40 = new C22(v20, 1000000000.0, v19, v39);
+let v41 = new C22(v19, 1.1012933383444876e+308, C22, v40);
+v20[-911230.1744054864] = 1066098597;
+switch (-911230.1744054864) {
+    case v41:
+        C22[Symbol.species];
+        break;
+}
+v41 = v40;
+v19 = C3;
+function f3() {
+    return -9;
+}
+function f8() {
+    return f3;
+}
+[-1.7976931348623157e+308,-3.141859325340211e+307];
+[-1000.0,Infinity];
+const v12 = [Infinity,1.0,2.220446049250313e-16,-1000000000.0,2.220446049250313e-16,1.0,6.85632634807385,5.0,-1.0];
+0.5433211500134402 >>> v12;
+v12.length /= 4294967295;
+class C17 {
+    #g;
+    255 = -9;
+}
+new C17();
+new C17();
+new C17();

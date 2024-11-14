@@ -1,0 +1,10 @@
+new Date();
+let v2 = 128;
+new Int16Array(v2);
+new Float64Array(1);
+new BigInt64Array(111);
+%VerifyType(++v2);
+for (let v13 = 0; v13 < 32; v13++) {
+    this["p" + v13] = v13;
+}
+throw this;

@@ -1,0 +1,91 @@
+class C3 {
+    static {
+        new Date("seal");
+    }
+    static 3;
+    static toString(a8, a9) {
+        const v10 = a8[a9];
+        super[v10];
+        v10 <= "toJSON";
+        return "number";
+    }
+    ["seal"];
+    2144246191;
+    static 8;
+    ["toJSON"];
+}
+const v13 = new C3();
+let v14 = new C3();
+const v15 = new C3();
+[v13,"number",v15];
+[[v15]];
+function f19() {
+    return "toJSON";
+}
+v14 = C3;
+let v28 = v14 ^ -9007199254740992;
+~v14;
+v14 << v28;
+let v31 = ++v28;
+v14++;
+--v31;
+v31 >> v14;
+try {
+    new Uint8Array(3);
+} catch(e3) {
+}
+try {
+    new Int32Array(8);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(86);
+} catch(e11) {
+}
+try {
+    new Uint32Array(8);
+} catch(e15) {
+}
+try {
+    new Float64Array(16);
+} catch(e19) {
+}
+try {
+    new Float64Array(10);
+} catch(e23) {
+}
+try {
+    new Float64Array(11);
+} catch(e27) {
+}
+try {
+    new Uint8ClampedArray(2);
+} catch(e31) {
+}
+try {
+    new BigInt64Array(13);
+} catch(e35) {
+}
+try {
+    Float64Array[3] = 2;
+} catch(e36) {
+}
+let v37;
+try { v37 = BigInt64Array(8); } catch (e) {}
+let v38;
+try { v38 = v37(Uint8ClampedArray); } catch (e) {}
+v38.__proto__;
+function F40(a42, a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a43;
+    } catch(e46) {
+    }
+    try {
+        this.g = Int32Array;
+    } catch(e47) {
+    }
+}
+const v48 = new F40(16, 8, 3, v38);
+new F40(v48, 8, 10, v37);
+new F40(Int32Array, 2, 16, Float64Array);

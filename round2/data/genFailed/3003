@@ -1,0 +1,30 @@
+function f0() {
+    const o10 = {
+        "c": "2",
+        [0.20457168145429527]: 0.20457168145429527,
+        "b": 0.20457168145429527,
+        1000: 0.20457168145429527,
+        toString(a5, a6) {
+            for (let v7 = 0; v7 < 32; v7++) {
+                a5["p" + v7] = v7;
+            }
+            return 1e-15;
+        },
+    };
+    return o10;
+}
+f0();
+f0();
+f0();
+new Uint8ClampedArray(3253);
+new BigUint64Array(128);
+const v22 = new Float32Array(1866);
+Object.defineProperty(v22, "f", { writable: true, get: f0 });
+%VerifyType(f0 | Float32Array);
+[9007199254740991,-2147483649,64,-546533258,1767698503];
+const v25 = [536870888];
+[3,65536,129,-13,63829,1,128,-9007199254740990,-13,0];
+function f27() {
+    return v25;
+}
+f27();

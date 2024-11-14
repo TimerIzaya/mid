@@ -1,0 +1,57 @@
+function f0() {
+    const o12 = {
+        2: "7PgwK",
+        "e": 1781959449,
+        __proto__: "7PgwK",
+        get b() {
+            const o5 = {
+            };
+            const v7 = new Proxy("7PgwK", o5);
+            v7 & 0.05332647897320075;
+            for (let v9 = 0; v9 < 32; v9++) {
+                const t11 = "7PgwK";
+                t11["p" + v9] = v9;
+            }
+            return o5;
+        },
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+f0();
+const v20 = new WeakMap();
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = f0;
+    this.c = f0;
+}
+const v26 = new F21(4n, 884843893n, v14);
+const v27 = new F21(884843893n, v26, v14);
+const v28 = new F21(-50700818n, v26, v20);
+class C29 {
+    static #m(a31, a32) {
+        const v33 = typeof v27;
+        v33 === "bigint";
+        try {
+            f0();
+        } catch(e37) {
+        }
+        return v33;
+    }
+    static 1;
+    static e = f0;
+    [v13] = v28;
+    static #d;
+}
+new C29();
+new C29();
+new C29();
+for (let [...v41] of v26) {
+    v20.e;
+    let v45 = 2.354299129717665;
+    WeakMap << v45;
+    WeakMap + 884843893n;
+    v45--;
+    Math.random();
+}

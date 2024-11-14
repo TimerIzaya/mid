@@ -1,0 +1,59 @@
+class C3 {
+    ["boolean"] = "EPSILON";
+    static #p(a5) {
+        const t3 = "boolean";
+        t3[-55865] ||= -55865;
+        ~this;
+        const o7 = {
+        };
+        o7.a = -55865;
+        const o8 = {
+        };
+        o8.a = -55865;
+        o8.b = "EPSILON";
+        const o9 = {
+        };
+        o9.a = -55865;
+        o9.b = "EPSILON";
+        o9.e = this;
+        const o10 = {
+        };
+        o10.a = -55865;
+        o10.b = "EPSILON";
+        o10.e = -55865;
+        return o7;
+    }
+}
+new C3();
+const v12 = new C3();
+const v13 = new C3();
+function f14(a15, a16, a17, a18) {
+    const o19 = {
+        "d": a15,
+        "h": a16,
+        "a": "boolean",
+        ...C3,
+        [-2]: v12,
+        8: a15,
+        ...a17,
+        [C3]: a17,
+        ["EPSILON"]: a15,
+        "c": -55865,
+        __proto__: a15,
+        "f": C3,
+    };
+    return o19;
+}
+const v20 = f14("boolean", C3, v12, C3);
+const v21 = f14(v20, "boolean", v20, v13);
+f14(v21, v21, C3, "EPSILON");
+function f23() {
+    return C3;
+}
+Promise instanceof C3;
+Object.defineProperty("boolean", "length", { writable: true, configurable: true, value: f14 });
+for (let v26 = 0; v26 < 32; v26++) {
+    C3["p" + v26] = v26;
+}
+-55865 instanceof f23;
+C3.f;

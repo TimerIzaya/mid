@@ -1,0 +1,33 @@
+function f3() {
+    return 65535;
+}
+function f7(a8, a9, a10) {
+    const o17 = {
+        ...a9,
+        __proto__: a9,
+        348: 65535,
+        ...a9,
+        "f": 10,
+        [a9](a12, a13) {
+            for (let v14 = 0; v14 < 32; v14++) {
+                this["p" + v14] = v14;
+            }
+            return a10;
+        },
+    };
+    return o17;
+}
+const v18 = f7(-1, -7, -1275216768);
+const v19 = f7(9223372036854775807, f3, -7);
+const v20 = f7(-7, 65535, 9223372036854775807);
+for (const v24 of 9223372036854775807) {
+    v18.f = v24;
+    let v25;
+    try { v25 = new v24(v24, 10); } catch (e) {}
+    v19.f /= 10;
+    v20[3] = v25;
+    v18 !== v24;
+}
+new Int8Array(5);
+new Float64Array(2);
+new BigUint64Array(1697);

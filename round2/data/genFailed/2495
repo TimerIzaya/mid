@@ -1,0 +1,22 @@
+const v2 = new Float32Array(95);
+new Uint16Array(1000);
+new Int32Array(230);
+const v15 = `
+    let v16;
+    try {
+    const t0 = -5n;
+    v16 = t0(95, v15, Int32Array, 230, -5n);
+    } catch (e) {}
+    let {"a":v17,...v18} = v16;
+    v16 % v17;
+`;
+const v21 = eval(v15);
+let v22;
+try { v22 = v21(); } catch (e) {}
+Object.defineProperty(v2, 512, { set: eval });
+Math.atanh(v15);
+++v22;
+Math.atanh(-2147483649);
+Math.exp(-2147483649);
+Math.expm1(eval);
+Math.min(v15);

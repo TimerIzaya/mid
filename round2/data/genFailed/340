@@ -1,0 +1,46 @@
+function f1() {
+    return false;
+}
+const v7 = new BigUint64Array(6);
+const v10 = new Float64Array(6);
+new Uint16Array(6);
+class C14 {
+    f;
+}
+new C14();
+new C14();
+new C14();
+Object.defineProperty(v10, 6, { set: f1 });
+try { v7.sort(f1, ...6, BigUint64Array, Float64Array, ...C14, false); } catch (e) {}
+const o21 = {
+    "maxByteLength": 2560,
+};
+const v23 = new ArrayBuffer(2560, o21);
+new BigInt64Array(v23);
+const v3 = [-765523.6812046093,NaN];
+const v4 = [-8.88739524060702,-1.5174125213194278e+308,7.40733319092229e+307];
+const v5 = [-7.410521666140557,8.863123472968343,-663.2953619605324,977974.7230090026];
+let v6 = 14722n;
+function f12(a13, a14, a15, a16) {
+    const o23 = {
+        "c": "boolean",
+        get a() {
+            let v19 = [-5n,v5,v3];
+            -Reflect.construct(a13, v19, a13);
+            try {
+                v19 = a14;
+            } catch(e22) {
+            }
+            return "boolean";
+        },
+        "e": "n",
+    };
+    return o23;
+}
+f12(f12(f12, v4, -1000000000000.0, v3), v3, -1000000000000.0, v3);
+f12("valueOf", v5, -1.0587537390798781e+308, v3);
+Math.floor(2.2250738585072014e-308);
+const v30 = Math.trunc(v4);
+~v6;
+Math.max(v6++);
+Reflect.construct(f12, [v30,v3,2.2250738585072014e-308,v4], f12);

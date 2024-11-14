@@ -1,0 +1,39 @@
+class C3 {
+    [7];
+    2147483649;
+    static {
+        const t4 = this[8];
+        t4[Symbol.search] = 10;
+        this[Symbol.iterator] = 7;
+    }
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+function f13(a14, a15) {
+    const o24 = {
+        [7](a17, a18, a19, a20) {
+            return a20;
+        },
+        [10]: a14,
+        ...v10,
+        "c": v12,
+        [a15]: a14,
+        [a14]: v10,
+    };
+    return o24;
+}
+const v25 = f13(10, v11);
+let v26 = f13(1000, C3);
+f13(10, C3);
+const v28 = f13(10, v10);
+function f29(a30, a31) {
+    v10[9] = a31;
+    return a31;
+}
+v12[v28] = f29(v10, v10);
+v28 === v25;
+({"c":v26,"h":C3,} = v26);
+for (let v34 = 0; v34 < 32; v34++) {
+    v11["p" + v34] = v34;
+}

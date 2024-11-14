@@ -1,0 +1,60 @@
+function f0() {
+}
+new Map();
+new Float64Array(249);
+const v11 = new BigInt64Array(1);
+new Uint16Array(3918);
+v11["some"](-1.7976931348623157e+308, Float64Array, -3.455341681116768e+306, BigInt64Array, Float64Array, ..."some");
+const v18 = Symbol.iterator;
+const o27 = {
+    [v18]() {
+        let v20 = 10;
+        const o26 = {
+            next() {
+                v20--;
+                const v24 = v20 == 0;
+                const o25 = {
+                    "done": v24,
+                    "value": v20,
+                };
+                return o25;
+            },
+        };
+        return o26;
+    },
+};
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 3;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(3, 14);
+new F3(3, -1481298395);
+new F3(-1481298395, 14);
+try {
+    new Int32Array(16);
+} catch(e17) {
+}
+try {
+    new Float32Array(1741);
+} catch(e21) {
+}
+try {
+    new Int32Array(142);
+} catch(e25) {
+}
+class C26 extends Int32Array {
+    static 268435440;
+    #g;
+    #b;
+    [-1481298395] = 0n;
+}
+new C26();
+new C26();
+new C26();
+try {
+    v8[16] = -58610n;
+} catch(e30) {
+}

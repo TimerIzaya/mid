@@ -1,0 +1,15 @@
+new Uint16Array(256);
+const v5 = new Int16Array(1024);
+new Uint32Array(2);
+new Map();
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = v5;
+}
+new F11(2, 1024, 1024);
+const v17 = new F11(256, 256, 1024);
+new F11(256, 1024, 256);
+v17.toString = 2;
+let v22 = -7 << v17;
+v22++;
+v22 & v17;

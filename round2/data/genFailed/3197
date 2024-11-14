@@ -1,0 +1,60 @@
+function f0() {
+    const o14 = {
+        [3]: "o",
+        ..."2147483649",
+        "g": 3,
+        "f": "2147483649",
+        __proto__: "2147483649",
+        223: "2147483649",
+        ["2147483649"]: "o",
+        "h": 3,
+        get d() {
+            let v4 = this;
+            let v8 = v4++;
+            !(v8 & v4);
+            v4--;
+            ++v8;
+            return ~0.0;
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+let v17 = f0();
+let v18 = "getMilliseconds";
+let v19 = "split";
+const v21 = /(^xxx$)/gyisv;
+let v22 = /(?:a*)+\ud808\udf45*9ab\cA(\1a)+/gmyisv;
+const v23 = /[Awb[]]/gu;
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v23;
+    this.b = v21;
+    this.h = v16;
+}
+const v28 = new F24(v17, v23);
+let v29 = new F24(v28, v21);
+new F24(v29, v21);
+const v31 = [2147483647,-9223372036854775808,3];
+[512,1965494834,-268435456,1,728298826,-49962,-1498731281];
+[-536870912,1301037020,-2,-65536];
+v17 = v16;
+v22 = v23;
+v23 && v15;
+v15[v29] = v21;
+v18 ||= "undefined";
+let v35 = Symbol;
+const v36 = v35.toPrimitive;
+const o40 = {
+    [v36]() {
+        let v37 = this;
+        ({"length":v29,...v37} = v31);
+        [v19,...v35] = v18;
+        try {
+            f0();
+        } catch(e39) {
+        }
+        return "undefined";
+    },
+};

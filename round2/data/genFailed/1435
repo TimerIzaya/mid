@@ -1,0 +1,23 @@
+function f6() {
+    return 1073741825n;
+}
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a12;
+    this.c = a12;
+    this.f = 536870887;
+}
+const v15 = new F10(-11, 56523n, -11);
+let v16 = new F10(-11, -1.7055412275646965e+308, 536870887);
+const v17 = new F10(536870887, 255n, -11);
+v16 = v17;
+F10 >>> -11;
+let v19 = 0;
+while (v19 < 7) {
+    Object.defineProperty(v17, "f", { writable: true, configurable: true, enumerable: true, get: f6, set: f6 });
+    Object.defineProperty(v16, f6, { writable: true, configurable: true, set: f6 });
+    v16[-11] = -11;
+    continue;
+    try { v17.valueOf(56523n, -1.7055412275646965e+308, f6, v15, v15); } catch (e) {}
+    v19++;
+}

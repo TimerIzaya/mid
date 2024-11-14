@@ -1,0 +1,46 @@
+const v0 = [];
+function f1() {
+    const o7 = {
+        "e": v0,
+        __proto__: v0,
+        get b() {
+            const o3 = {
+            };
+            o3.c = this;
+            const o4 = {
+            };
+            o4.c = this;
+            o4.b = v0;
+            const o5 = {
+            };
+            o5.c = this;
+            o5.b = v0;
+            o5.a = v0;
+            const o6 = {
+            };
+            o6.c = this;
+            o6.b = v0;
+            o6.d = v0;
+            return this;
+        },
+    };
+    return o7;
+}
+f1();
+const v9 = f1();
+f1();
+new BigInt64Array(0);
+new Uint32Array(405);
+const v22 = new Float64Array(174);
+%VerifyType(405);
+if (Uint32Array) {
+    Object.defineProperty(v9, 0, { writable: true, enumerable: true, get: f1 });
+} else {
+    for (let v23 = 0; v23 < 100; v23++) {
+        f1();
+    }
+}
+v22 + v22;
+[49146,111185854,2,268435440,-30204,-536870912,-128];
+[-1555538896];
+[64];

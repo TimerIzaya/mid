@@ -1,0 +1,72 @@
+class C3 {
+    static 0 = 0.12076085322064312;
+    #o(a5, a6) {
+        a5[a5] ||= a6;
+        return this.__proto__;
+    }
+    static o(a9) {
+        const t7 = "o";
+        t7[2] = a9.__proto__;
+        function f11() {
+            return 0.12076085322064312;
+        }
+        try {
+            new f11();
+        } catch(e13) {
+        }
+        return f11;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function f17(a18, a19, a20) {
+    const o32 = {
+        __proto__: v14,
+        "f": a20,
+        ...v15,
+        "h": a20,
+        ...v15,
+        "d": v14,
+        ...v16,
+        toString(a22, a23, a24) {
+            var b = a20;
+            v14.__proto__ = C3;
+            const o27 = {
+                "maxByteLength": 94,
+            };
+            const v29 = new ArrayBuffer(64, o27);
+            new Int8Array(v29);
+            return "o";
+        },
+    };
+    return o32;
+}
+const v33 = f17(C3, v14, "o");
+const v34 = f17("o", v16, v16);
+f17(v16, v33, v15);
+class C36 extends f17 {
+    m(a38, a39, a40) {
+        try { v16.toString(C3); } catch (e) {}
+        return "o";
+    }
+    static [v34] = v14;
+    [v14];
+    get f() {
+        new Array(180);
+        C3["o"](v14);
+        return v16;
+    }
+}
+const v49 = new C36();
+new C36();
+new C36();
+if (v49[10]) {
+    const o55 = {
+        "maxByteLength": 129,
+    };
+    const v57 = new ArrayBuffer(16, o55);
+    new Uint8ClampedArray(v57);
+} else {
+    try { v15.charCodeAt("o", "o"); } catch (e) {}
+}

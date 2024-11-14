@@ -1,0 +1,45 @@
+let v1 = 1e-15;
+const v11 = new Float64Array(3849);
+const v14 = new BigInt64Array(129);
+const v17 = new Int8Array(2);
+v11[-4096] = 226624.31906700204;
+++v1;
+v17[1073741823];
+try {
+    new Int8Array(v14, -4096);
+} catch(e21) {
+}
+v14[1073741824] = v1;
+try { v17.with(3849, BigInt64Array); } catch (e) {}
+[1073741825,6,65536,936036741,-9223372036854775807,18846];
+[1073741825,9];
+[-268435456,-1110717195,1295623904,129,16,4294967295,-497190495,5,536870888];
+const v1 = new WeakSet();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v1;
+    } catch(e5) {
+    }
+    try {
+        this.f = v1;
+    } catch(e6) {
+    }
+}
+new F2(v1);
+const v8 = new F2(F2);
+new F2(v8);
+try {
+    v1[-2] = -2;
+} catch(e16) {
+}
+function f17(a18, a19, a20, a21) {
+    a21 << 1073741825;
+    Object.defineProperty(a19, -2, { writable: true, configurable: true, value: a19 });
+    try {
+        a18 = -2;
+    } catch(e24) {
+    }
+    return a19;
+}
+f17(1073741825, "kp2bP", 4294967296, v1);

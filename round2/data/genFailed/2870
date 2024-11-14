@@ -1,0 +1,19 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = -30782;
+}
+new F0();
+const v4 = new F0();
+const v5 = new F0();
+const t7 = "function";
+const v15 = delete t7?.length;
+Object.defineProperty("function", "c", { writable: true, configurable: true, value: v15 });
+function f16(a17, a18) {
+    if (v15) {
+        -4096 == -9 ? -4096 : -9;
+    } else {
+        try { v5.n(-9, "POSITIVE_INFINITY", "function", F0); } catch (e) {}
+    }
+    return a17;
+}
+f16(-51822, v4);

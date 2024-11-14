@@ -1,0 +1,63 @@
+const v2 = new Uint8ClampedArray(184);
+new Int32Array(1057);
+const v8 = new Int8Array(995);
+class C9 {
+    static [1057];
+    [995] = Uint8ClampedArray;
+    #m(a11, a12, a13, a14) {
+        let v15 = 0;
+        while (v15 < 10) {
+            v15++;
+        }
+        return a14;
+    }
+}
+new C9();
+new C9();
+new C9();
+new Int8Array(v8, 184);
+const o30 = {
+    valueOf() {
+        return 1057;
+    },
+};
+Object.defineProperty(v2, 184, { writable: true, enumerable: true, value: Uint8ClampedArray });
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a5;
+    } catch(e6) {
+    }
+}
+let v7 = new F3(-4294967297n);
+const v8 = new F3(1024n);
+const v9 = new F3(-4294967297n);
+const v10 = [-9007199254740991n];
+const v11 = [v7,v7,-4294967297n,v10];
+const v12 = [v8,1024n,v11,v9];
+function f13(a14, a15) {
+    const o19 = {
+        "b": F3,
+        set h(a17) {
+            let v16 = this;
+            ({"f":v16,"h":v7,} = v8);
+            try {
+                super.h = a15;
+            } catch(e18) {
+            }
+        },
+        129: -4294967297n,
+        "e": a14,
+        6: a14,
+    };
+    return o19;
+}
+const v20 = f13(-4294967297n, v10);
+const v22 = f13(f13(v20, v12), v12);
+[[v22,-9007199254740991n,v22,v22],v20];
+[v22,v10];
+new F3(1024n);
+for (let v27 = 0; v27 < 32; v27++) {
+    v11["p" + v27] = v27;
+}
+Reflect.construct(v7, [f13,Reflect], F3);

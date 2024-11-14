@@ -1,0 +1,101 @@
+const v3 = [7.436771483749869,1e-15,520272.332678976,-2.220446049250313e-16,0.3082493424049638,1.0,1.956440643078201];
+const v4 = [-5.0,2.2250738585072014e-308,-4.3188556460878785e+307,0.0011835550670875605,11.384402741010831,1.3153540208994612e+308,Infinity,2.8426283564978085,-2.220446049250313e-16];
+[429.18811332260225,0.5552382589460194,-2.0,4.904291608584307e+307,122.16258567961108,538706.0909972179];
+const v6 = [-1000000000.0,4.687682977947731e+307,519.3835891785318,-0.0,1000000000.0,1.7976931348623157e+308,-1.7976931348623157e+308,0.9205762981137976,0.24383397011400865,2.0];
+[0.9619875602228131,NaN,1000000000.0,91.89971059113373,47327.93116890837];
+[1000.0,-1.7976931348623157e+308];
+function f9() {
+    return v4;
+}
+class C10 extends f9 {
+    static set a(a12) {
+        this >>> v6;
+        a12[Symbol.asyncIterator];
+    }
+    #o(a18, a19, a20) {
+        function f21(a22, a23, a24, a25) {
+            return a25 == this ? a25 : this;
+        }
+        f21(this, v4, a18, v4);
+        return a20;
+    }
+}
+new C10();
+new C10();
+new C10();
+v3["toLocaleString"]();
+f9();
+%PrepareFunctionForOptimization(f9);
+f9();
+f9();
+%OptimizeMaglevOnNextCall(f9);
+f9();
+new Uint8Array(64);
+new Uint32Array(0);
+new Float32Array(64);
+const v1 = new Date();
+function f2() {
+    return v1;
+}
+function f3(a4, a5) {
+    const o10 = {
+        "e": Date,
+        "f": a5,
+        get a() {
+            let v6 = this;
+            try {
+                v6 >>>= a4;
+            } catch(e7) {
+            }
+            try {
+                new f2();
+            } catch(e9) {
+            }
+            return a5;
+        },
+        "d": v1,
+        __proto__: v1,
+    };
+    return o10;
+}
+const v11 = f3(v1, f2);
+const v12 = f3(f2, f2);
+const v13 = f3(f2, f3);
+function f14(a15, a16, a17) {
+    const o26 = {
+        ...v12,
+        "h": a15,
+        set e(a19) {
+            let v20;
+            try { v20 = a19.isSealed(this, a15); } catch (e) {}
+            let v21;
+            try { v21 = v20.setFloat32(v1); } catch (e) {}
+            let v22;
+            try { v22 = this.p(); } catch (e) {}
+            try { v21.tan(v11, this, v22); } catch (e) {}
+            a15.e;
+        },
+        [v1]: a17,
+        "g": v12,
+        "e": v1,
+        [a15]: a15,
+        "a": Date,
+    };
+    return o26;
+}
+f14(v13, v12, v11);
+f14(v12, v11, v12);
+f14(v11, v13, v13);
+new WeakMap();
+try {
+    new f2();
+} catch(e36) {
+}
+try {
+    Date.toString = Date;
+} catch(e37) {
+}
+try {
+    v13.fuck(undefined, undefined, v12);
+} catch(e40) {
+}

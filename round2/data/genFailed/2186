@@ -1,0 +1,28 @@
+function f6() {
+    return "arguments";
+}
+class C7 extends f6 {
+    [f6] = "for";
+    constructor(a9, a10, a11) {
+        super();
+        a9.a = "for";
+        Object.defineProperty(this, a10, { writable: true, set: f6 });
+        this * "arguments";
+        const o13 = {
+            "construct": f6,
+            "defineProperty": f6,
+            "deleteProperty": f6,
+            "getPrototypeOf": f6,
+            "isExtensible": f6,
+            "ownKeys": f6,
+            "set": f6,
+            "setPrototypeOf": f6,
+        };
+        new Proxy(this, o13);
+    }
+}
+new C7(f6, C7, -1000000000000.0);
+new C7(f6, "arguments", 1000.0);
+const v18 = new C7("NaN", -426.35074209199433, 1000.0);
+v18.length = 0;
+%VerifyType(10000);

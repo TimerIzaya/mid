@@ -1,0 +1,51 @@
+new WeakMap();
+function f5() {
+    return 512n;
+}
+const o14 = {
+    "maxByteLength": 129,
+};
+const v16 = new ArrayBuffer(129, o14);
+new BigUint64Array(v16);
+try {
+    new Float64Array(12);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(64);
+} catch(e7) {
+}
+try {
+    new Uint32Array(257);
+} catch(e11) {
+}
+let v13 = Int32Array;
+try {
+    new v13(5);
+} catch(e15) {
+}
+let v16 = 3677;
+try {
+    new Uint32Array(v16);
+} catch(e19) {
+}
+try {
+    new Int16Array(512);
+} catch(e23) {
+}
+const v24 = 512 >> 12;
+({"c":v13,"d":v16,} = Int16Array);
+function f25(a26, a27, a28) {
+    'use strict';
+    if (5 != Uint32Array) {
+        v13.g += 5;
+        try { v16["getUint32"]("getUint32", 5, "getUint32"); } catch (e) {}
+    } else {
+        try {
+            v16.__proto__ = v16;
+        } catch(e32) {
+        }
+    }
+    return Float64Array;
+}
+f25(257, v24, v13);

@@ -1,0 +1,77 @@
+function f0() {
+}
+class C1 {
+    static [f0];
+    static {
+        new f0();
+        this[64]?.a;
+    }
+    constructor() {
+        this.__proto__ = this;
+        new WeakSet();
+        const v9 = super.b;
+        const v10 = this.__proto__;
+        try { new v9(v9, f0, v10); } catch (e) {}
+        super.g = this;
+    }
+}
+const v12 = new C1();
+const v13 = new C1();
+const v14 = new C1();
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a17;
+    this.a = a18;
+}
+new F15(v12, C1);
+const v20 = new F15(v14, v13);
+const v21 = new F15(v20, v13);
+const v24 = [[[v14,F15,f0,v21,f0]],f0,F15];
+class C25 extends C1 {
+    static get d() {
+        const o30 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o30);
+        return o30;
+    }
+    [C1] = C1;
+    static #g = v20;
+}
+new C25();
+new C25();
+const v34 = new C25();
+const v35 = v21.constructor;
+class C36 extends v35 {
+    b = v35;
+    static #f;
+    static #b = v24;
+}
+new C36();
+v34 ** v14;
+new Array(3);
+try {
+    new Int8Array(10);
+} catch(e3) {
+}
+try {
+    new Uint16Array(1949);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(4096);
+} catch(e11) {
+}
+function f15() {
+    return 4096;
+}
+class C19 extends Int8Array {
+    #d = BigInt64Array;
+    [-1441025482] = -1441025482;
+    c;
+    static e;
+}
+new C19();
+new C19();
+new C19();

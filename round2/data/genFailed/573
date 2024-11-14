@@ -1,0 +1,75 @@
+new Map();
+new Int32Array(128);
+new Uint8ClampedArray(15);
+let v9 = BigInt64Array;
+const v10 = new v9(1590);
+let v14;
+try { v14 = Int32Array(v10); } catch (e) {}
+v14[-3] = 15;
+v10[1590];
+let v20 = --v9;
+1024 ** v9;
+Math.clz32(v9);
+2.0 % ++v20;
+class C3 {
+    get d() {
+        const v5 = 536870912 & 268435456;
+        let v7;
+        try { v7 = this["filter"](v5, 160452702, "filter"); } catch (e) {}
+        try {
+            v7.__proto__ = v7;
+        } catch(e8) {
+        }
+        return "filter";
+    }
+    b;
+    4;
+    268435441;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+class C12 extends C3 {
+    constructor(a14, a15, a16, a17) {
+        super();
+        a15 instanceof a14;
+    }
+    static #m(a23, a24) {
+        try {
+            super.m(v9, a24);
+        } catch(e26) {
+        }
+        return v9;
+    }
+}
+const v27 = new C12(C3, 536870912, C3, 536870912);
+let v28 = new C12(v9, 536870912, C12, 160452702);
+new C12(536870912, 268435456, v11, 268435456);
+class C30 {
+    static a = v10;
+    set g(a32) {
+        try {
+            v28 = this;
+        } catch(e33) {
+        }
+    }
+    [-2] = v27;
+    static e;
+    static #f = v28;
+    static f = C3;
+    static #g;
+}
+new C30();
+new C30();
+const v37 = new C30();
+const v38 = C30 instanceof C12;
+{
+    try {
+        new C3();
+    } catch(e40) {
+    }
+    try {
+        v37[1000] = v38;
+    } catch(e41) {
+    }
+}

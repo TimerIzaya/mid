@@ -1,0 +1,88 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        "d": f0,
+        [f0]: f0,
+        get c() {
+            let v3;
+            try { v3 = f0(f0, ...this, ...f0, f0); } catch (e) {}
+            v3[6] = v3;
+            return v3;
+        },
+        "h": f0,
+        9: f0,
+        "f": f0,
+        "g": f0,
+    };
+    return o4;
+}
+const v5 = f1();
+const v6 = f1();
+let v7 = f1();
+const v8 = [f0];
+[f1];
+[v8,f0,f1,v6,f0];
+v7 = v5;
+const o16 = {
+    "maxByteLength": 185,
+};
+const v18 = new ArrayBuffer(127, o16);
+new Uint32Array(v18);
+function f4() {
+    return -53013n;
+}
+const v6 = new Map();
+function f7(a8, a9) {
+    const o10 = {
+        "a": f4,
+        __proto__: v6,
+        "h": -53013n,
+        "f": -930983155n,
+        "e": -53013n,
+        "d": -930983155n,
+        ...a8,
+        "g": a8,
+        ...v6,
+        "c": a8,
+        [a8]: v6,
+        "b": -268435456n,
+        ...v6,
+        ...a8,
+    };
+    return o10;
+}
+const v11 = f7(f4, -268435456n);
+f7(v11, -268435456n);
+const v13 = f7(v11, -53013n);
+v11.d += 4;
+Object.defineProperty(v11, 4, { configurable: true, get: f7, set: f4 });
+const o17 = {
+};
+try {
+    o17.b = v11;
+} catch(e18) {
+}
+try {
+    const o19 = {
+    };
+    o19.b = v11;
+    o19.c = v13;
+} catch(e20) {
+}
+try {
+    const o21 = {
+    };
+    o21.b = v11;
+    o21.c = v13;
+    o21.e = 4;
+} catch(e22) {
+}
+try {
+    const o23 = {
+    };
+    o23.b = v11;
+    o23.c = v13;
+    o23.d = v11;
+} catch(e24) {
+}

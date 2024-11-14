@@ -1,0 +1,70 @@
+class C3 {
+    constructor(a5) {
+        function f6() {
+            return this;
+        }
+        try {
+            this.p(-2.2250738585072014e-308, -35662);
+        } catch(e9) {
+        }
+    }
+    g = 3;
+    [-2];
+}
+const v10 = new C3(-35662);
+const v11 = new C3(-2);
+new C3(3);
+class C16 extends C3 {
+    static #a;
+    268435456;
+    static o(a18, a19, a20, a21) {
+        for (let i23 = 0; i23 < 0; i23++) {
+            function F29(a31, a32, a33, a34) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.d = a34;
+                this.c = v10;
+            }
+            const v35 = new F29(3, -35662, a20, v11);
+            new F29(-2, v35, this, a21);
+            new F29(-35662, v10, v10, a19);
+        }
+        return -35662;
+    }
+}
+new C16();
+new C16();
+const v40 = new C16();
+for (let v41 = 0; v41 < 32; v41++) {
+    v40["p" + v41] = v41;
+}
+new C16();
+const o47 = {
+    "maxByteLength": 1001291585,
+};
+const v49 = new ArrayBuffer(27, o47);
+new BigInt64Array(v49);
+function f0() {
+}
+try {
+    new Uint8Array(2);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(155);
+} catch(e14) {
+}
+try {
+    new Uint8Array(1505);
+} catch(e18) {
+}
+Object.defineProperty("object", 4028, { configurable: true, enumerable: true, get: f0, set: f0 });
+let v19 = 0;
+do {
+    ("object")[10];
+    try {
+        const t19 = "object";
+        t19.length = 1505;
+    } catch(e21) {
+    }
+    v19++;
+} while (v19 < 4)

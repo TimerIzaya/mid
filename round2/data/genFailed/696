@@ -1,0 +1,48 @@
+function f3() {
+    return 268435441;
+}
+new WeakMap();
+new Uint8ClampedArray(257);
+const v11 = new Int16Array(1571);
+const v14 = new BigInt64Array(577);
+Object.defineProperty(v14, Int16Array, { writable: true, set: f3 });
+const o15 = {
+    "call": f3,
+    "construct": f3,
+    "deleteProperty": f3,
+    "isExtensible": f3,
+    "set": f3,
+};
+new Proxy(v11, o15);
+function f0() {
+}
+let v2 = -9n;
+const v4 = [906.9816703032673,0.03459191284089924,1000000.0,-2.0,-1000000000000.0,5.0,1.7976931348623157e+308,1.7462357531109944e+308,-663496.5566754418,-2.0];
+const v5 = [0.6199431938421819,2.220446049250313e-16,-88.26858898824003,-1000000000.0,-706274.4263425716];
+[NaN,1000.0,1000000000000.0,0.3312048082827874,1.5134436218256397e+308,0.23935113312237966,-2.220446049250313e-16];
+new Map();
+class C9 extends f0 {
+    f;
+    [Map];
+    toString(a11, a12, a13, a14) {
+        try {
+            v2 = a12;
+        } catch(e15) {
+        }
+        return v4;
+    }
+    4096 = f0;
+}
+const v16 = new C9();
+const v17 = new C9();
+new C9();
+try {
+    f0();
+} catch(e20) {
+}
+Object.defineProperty(v5, 268435441, { set: f0 });
+const v21 = v17[v16];
+try {
+    v21.length = 5;
+} catch(e23) {
+}

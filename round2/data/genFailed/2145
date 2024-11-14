@@ -1,0 +1,33 @@
+const v2 = new Uint32Array(10);
+const v5 = new Int16Array(1);
+new BigUint64Array(3);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = v2;
+}
+const v15 = new F9(v5, 10, 10, Int16Array);
+new F9(v15, 3, 1, BigUint64Array);
+const v17 = new F9(Uint32Array, 3, 1, F9);
+for (let v18 = 0; v18 < 32; v18++) {
+    v17["p" + v18] = v18;
+}
+Object.defineProperty(v2, 10, { configurable: true, enumerable: true, value: v17 });
+v5 >> v17;
+const v23 = Symbol.iterator;
+const o32 = {
+    [v23]() {
+        let v25 = 10;
+        const o31 = {
+            next() {
+                v25--;
+                const v29 = v25 == 0;
+                const o30 = {
+                    "done": v29,
+                    "value": v25,
+                };
+                return o30;
+            },
+        };
+        return o31;
+    },
+};

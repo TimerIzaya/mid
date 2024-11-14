@@ -1,0 +1,64 @@
+const v1 = new WeakMap();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a5;
+}
+const v6 = new F2(WeakMap, F2);
+const v7 = new F2(WeakMap, WeakMap);
+const v8 = new F2(v6, v7);
+class C9 extends WeakMap {
+    #n(a11, a12, a13, a14) {
+        v7.__proto__ = this;
+        let v16 = new Set();
+        super.h >>>= v1;
+        ++v16;
+        return a13;
+    }
+    a = v7;
+    static f;
+    static 5 = v8;
+}
+const v18 = new C9();
+const v19 = new C9();
+const v20 = new C9();
+class C21 {
+    [v6];
+    static set d(a23) {
+        let v24;
+        try { v24 = C9.unregister(v18, a23, a23, v8, v19); } catch (e) {}
+        try { v24(v20, v24); } catch (e) {}
+        let v29 = -565555.2882892152;
+        ++v29;
+        let v31 = !-4294967295;
+        Math.sqrt(v29);
+        Math.tanh(v31++);
+    }
+}
+const v35 = new C21();
+new C21();
+const v37 = new C21();
+const v41 = ("x7aOI")[v20];
+const o42 = {
+};
+new Proxy(v41, o42);
+v19[128] = v8;
+function F45(a47, a48, a49, a50) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v19;
+    this.b = F2;
+}
+const v51 = new F45(v35, v6, v7, F45);
+new F45("d", C21, v6, v8);
+new F45("c", WeakMap, v37, v51);
+/8/sgu;
+/mYa\b!Z/idmv;
+/\P{scx=Greek}/sdgmy;
+new Array(3);
+Reflect.construct(Array, [3], Array);
+const v21 = 47505 % -9007199254740990n;
+const v22 = 47505 || v21;
+let v23 = v22 && v22;
+Math.trunc(v21);
+Math.min(-9007199254740990n);
+--v23;
+++v23;

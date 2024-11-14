@@ -1,0 +1,60 @@
+function f0() {
+    const o22 = {
+        get c() {
+            const v5 = ("-6")[this];
+            new WeakSet();
+            return v5;
+        },
+        valueOf(a9, a10) {
+            a9.g -= a10;
+            const v12 = Symbol.iterator;
+            const o21 = {
+                [v12]() {
+                    let v14 = 10;
+                    const o20 = {
+                        next() {
+                            v14--;
+                            const v18 = v14 == 0;
+                            const o19 = {
+                                "done": v18,
+                                "value": v14,
+                            };
+                            return o19;
+                        },
+                    };
+                    return o20;
+                },
+            };
+            return a10;
+        },
+    };
+    return o22;
+}
+f0();
+const v24 = f0();
+const v25 = f0();
+const v28 = new BigUint64Array(6);
+new Int8Array(3944);
+let v33 = Int32Array;
+const v34 = new v33(85);
+class C35 extends Int8Array {
+    static p(a37, a38, a39) {
+        let [,v40,v41,v42] = v34;
+        const o46 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o46);
+        return Int8Array;
+    }
+    static d = v25;
+    static [v25] = 6;
+}
+new C35();
+new C35();
+const v50 = new C35();
+Object.defineProperty(v28, 1704, { enumerable: true, get: f0, set: f0 });
+v50[v24] = 85;
+for (let i53 = 0, i54 = 10; i53 < i54; i53++, i54--) {
+    v33 -= v33;
+}

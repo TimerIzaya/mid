@@ -1,0 +1,38 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 9007199254740991;
+}
+const v3 = new F0();
+new F0();
+const v5 = new F0();
+class C6 extends F0 {
+    static #g;
+    toString(a8, a9) {
+        super["13"] = a8;
+        try {
+            this.m(v5, F0);
+        } catch(e14) {
+        }
+        return "boolean";
+    }
+    f;
+}
+const v15 = new C6();
+const v16 = new C6();
+const v17 = new C6();
+const v18 = /ULza/gms;
+/a\Sc/ysu;
+const v20 = /6/ys;
+const v21 = [-1189785085,-60558,-1135156078,268435440,-1874218103];
+[9308,-65093,65536,6,-13,-9,10];
+[-13530,1534170138,-11,3,-11828,5,6,15192];
+delete v21[v18];
+const o25 = {
+    [v16]: v20,
+    ...v17,
+    __proto__: v5,
+    [v17]: v3,
+};
+let v26;
+try { v26 = v21(v15); } catch (e) {}
+v26[6] = v18;

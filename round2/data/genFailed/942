@@ -1,0 +1,65 @@
+function f0() {
+}
+new BigInt64Array(15);
+const v6 = new Uint8ClampedArray(2);
+const v9 = new BigUint64Array(6);
+v9.valueOf = f0;
+v6.g = 15;
+Object.defineProperty(v9, 512, { writable: true, enumerable: true, set: f0 });
+[-477282426,-9007199254740990];
+[0,-734031575,-536870912,-1106471849,-3];
+[-4294967295,-1,2];
+try {
+    new BigUint64Array(15, 5);
+} catch(e18) {
+}
+function f6(a7, a8, a9) {
+    const o15 = {
+        [-6n]: a8,
+        "g": a7,
+        o(a11, a12, a13) {
+            try {
+                this.__proto__ = this;
+            } catch(e14) {
+            }
+            return a8;
+        },
+        __proto__: 128,
+        ...a9,
+    };
+    return o15;
+}
+f6(-6n, 19072n, -44283);
+const v17 = f6(-6n, 1349076917n, -8);
+f6(-6n, 19072n, 128);
+try {
+    new Int32Array(16);
+} catch(e22) {
+}
+try {
+    new Uint32Array(1000);
+} catch(e26) {
+}
+try {
+    new Float64Array(6);
+} catch(e30) {
+}
+const v32 = new Date();
+for (const v33 of f6) {
+    v32[v33] ^= 128;
+}
+if (128) {
+    const o34 = {
+        "apply": Date,
+        "call": f6,
+        "has": f6,
+        "ownKeys": f6,
+        "preventExtensions": f6,
+    };
+    try {
+        new Proxy(v17, o34);
+    } catch(e37) {
+    }
+} else {
+    Reflect[Float64Array];
+}

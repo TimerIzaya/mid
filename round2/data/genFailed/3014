@@ -1,0 +1,22 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = f0;
+    this.f = f0;
+    this.h = f0;
+}
+const v3 = new F1();
+new F1();
+const v5 = new F1();
+const v9 = new Uint8ClampedArray(1656);
+const v12 = new Uint32Array(8);
+const v15 = new BigUint64Array(15);
+let {"buffer":v16,"byteOffset":v17,"h":v18,...v19} = v12;
+const v20 = v15[1073741823];
+delete v9[Uint8ClampedArray];
+v20.a = null;
+for (let v22 = 0; v22 < 21; v22++) {
+    const v23 = v22 >> 8;
+    [v23,v17,[v20,[v23,v23],v3,v15,v5]];
+}

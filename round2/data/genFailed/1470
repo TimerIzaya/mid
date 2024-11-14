@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = -43632;
+    this.f = -43632;
+    this.e = -43632;
+}
+const v3 = new F0();
+new F0();
+new F0();
+class C9 extends F0 {
+    static #g;
+    static set d(a11) {
+        this.__proto__ = this;
+        try { a11(16); } catch (e) {}
+    }
+    static [F0];
+    3 = -451731642;
+    e;
+    static #e = -451731642;
+    #a = F0;
+    6 = 16;
+}
+new C9();
+new C9();
+let v15 = new C9();
+-14 instanceof C9;
+-451731642 * v3;
+let [v24] = -1234692952;
+++v15;

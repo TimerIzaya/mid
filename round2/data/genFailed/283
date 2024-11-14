@@ -1,0 +1,49 @@
+function f3() {
+    return -536870912n;
+}
+const v8 = new Map();
+Object.defineProperty(v8, "e", { configurable: true, set: f3 });
+17104 << Map;
+const v16 = Reflect.construct(Map, [v8], f3);
+try { v8.get(v16); } catch (e) {}
+new WeakMap();
+%VerifyType(Reflect);
+try { Reflect.preventExtensions(v16); } catch (e) {}
+/A1a??/dguy;
+const v1 = /m/uy;
+/((((.).).).)+/sdguy;
+[0.6020000713312624,0.5790573879655343,0.36926173200128065,-213501.79860978154,-1000000.0,3.55708626466567e+306];
+[-189277.3750701713,-785878.1110901553,-2.2250738585072014e-308,-4.0,-2.6956354335295327e+307,-1e-15,0.35572433381196156];
+const v5 = [0.0];
+class C6 {
+    static f;
+    a;
+    valueOf(a8, a9, a10) {
+        const v12 = v1["exec"]("exec");
+        v12[0] = a8;
+        const o15 = {
+            "maxByteLength": 3233,
+        };
+        const v17 = new SharedArrayBuffer(128, o15);
+        try {
+            new Int8Array(v17);
+        } catch(e20) {
+        }
+        return v12;
+    }
+}
+const v21 = new C6();
+new C6();
+const v23 = new C6();
+let v25 = new WeakMap();
+try {
+    v21[-256] = v5;
+} catch(e29) {
+}
+const v30 = new WeakMap(v23);
+let {"a":v31,"c":v32,"d":v33,} = v30;
+Math.fround(4294967295);
+const v38 = v25++;
+-12 + -12;
+(v38 / C6) / v38;
+Math.ceil(C6);

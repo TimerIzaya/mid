@@ -1,0 +1,41 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a5;
+    this.c = a5;
+    this.b = a5;
+}
+const v6 = new F3(-268435456n);
+const v7 = new F3(-268435456n);
+new F3(-268435456n);
+const v11 = new Float32Array(54);
+new Int16Array(64);
+new BigUint64Array(2);
+const v23 = typeof F3 === "object";
+("boolean").length;
+v11["sort"](-1n);
+[v7,64];
+[[v6,v23,256n]];
+const v1 = new WeakSet();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v1;
+    } catch(e6) {
+    }
+}
+const v7 = new F2(WeakSet, F2);
+new F2(v7, v7);
+new F2(v1, v1);
+try {
+    const t12 = "string";
+    t12[WeakSet] = "string";
+} catch(e16) {
+}
+[] = "string";
+let v17 = 0;
+do {
+    let v18;
+    try { v18 = F2(2147483647, WeakSet); } catch (e) {}
+    v18 instanceof v18;
+    v17++;
+} while (v17 < 6)

@@ -1,0 +1,45 @@
+function f3() {
+    return -2147483649;
+}
+class C7 {
+    static [f3] = -2147483649;
+    static #a = 1687224454;
+    #n(a9, a10) {
+        let {"c":v11,"e":v12,...v13} = this;
+        try {
+            new f3();
+        } catch(e15) {
+        }
+        return 1073741825n;
+    }
+    static e;
+    a;
+}
+const v16 = new C7();
+new C7();
+const v18 = new C7();
+class C19 {
+    toString(a21, a22, a23, a24) {
+        v18.b = v16;
+        function F25(a27, a28) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = 9n;
+        }
+        new F25(16, a22);
+        new F25(1687224454, a22);
+        new F25(16, 1687224454);
+        return 1687224454;
+    }
+    static b;
+    static g;
+}
+new C19();
+new C19();
+new C19();
+f3();
+%PrepareFunctionForOptimization(f3);
+f3();
+f3();
+%OptimizeMaglevOnNextCall(f3);
+f3() ** -65537n;
+C19[Symbol.species];

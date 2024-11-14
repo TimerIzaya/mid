@@ -1,0 +1,31 @@
+class C3 {
+    #p(a5) {
+        a5[5] = this;
+        const t3 = "a";
+        t3[a5] = this;
+        1000000000.0 instanceof a5;
+        return a5;
+    }
+    g;
+    #f = "a";
+    #h = 1000000000.0;
+    f;
+}
+const v7 = new C3();
+const v8 = new C3();
+const v9 = new C3();
+function F10(a12, a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a13;
+    this.d = a14;
+}
+const v16 = new F10(v8, v9, v8, v9);
+new F10(v9, v8, v7, v16);
+new F10(v7, v7, v8, NaN);
+typeof C3 === "bigint";
+const v22 = [-32870,-1,44517,-16255,2147483647,-1673960854,-30299,-13];
+[256,2,-9007199254740992,10000,-1776595338,-15,-268435456,-268435456,536870912,-4294967295];
+const v24 = [1367752553,16,-1963342495,128,5867,16,-3,-2,-2147483647];
+v7[6];
+v24.length -= NaN;
+b >= v22 ? b : v22;

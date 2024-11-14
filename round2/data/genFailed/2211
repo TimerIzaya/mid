@@ -1,0 +1,14 @@
+function f0() {
+}
+const v6 = new Int32Array(512);
+const v9 = new BigUint64Array(4063);
+const v12 = new Uint32Array(7);
+for (const v13 in v12) {
+    try {
+        new BigUint64Array(7, 7, 9007199254740990);
+    } catch(e16) {
+    }
+}
+f0();
+let [v18,v19] = v9;
+Object.defineProperty(v6, 4294967296, { enumerable: true, get: f0, set: f0 });

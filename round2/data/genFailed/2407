@@ -1,0 +1,22 @@
+function f3() {
+    return -65537n;
+}
+class C4 {
+    static #h = -16n;
+    valueOf(a6, a7) {
+        this.f **= -65537n;
+        const o11 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        return gc(o11);
+    }
+}
+new C4();
+const v14 = new C4();
+const v15 = new C4();
+Object.defineProperty(v15, "c", { writable: true, enumerable: true, set: f3 });
+Object.defineProperty(v14, C4, { writable: true, configurable: true, enumerable: true, get: f3, set: f3 });
+new BigUint64Array(64);
+new BigUint64Array(5);
+new Uint32Array(2);

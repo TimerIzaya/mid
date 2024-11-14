@@ -1,0 +1,39 @@
+function f0() {
+    const o15 = {
+        "a": -1616127404,
+        valueOf(a5, a6) {
+            const o7 = {
+            };
+            new Proxy(a6, o7);
+            const o13 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o13);
+            return a5;
+        },
+    };
+    return o15;
+}
+f0();
+const v17 = f0();
+f0();
+const v21 = new Float64Array(6);
+const v24 = new Int16Array(10);
+const v27 = new Uint16Array(0);
+Object.defineProperty(v21, 1052009596, { configurable: true, enumerable: true, set: f0 });
+const v28 = v24.byteLength;
+v17.__proto__;
+v24[Uint16Array];
+Object.defineProperty(v27, 10, { writable: true, configurable: true, enumerable: true, set: f0 });
+const v32 = Symbol.toPrimitive;
+const o39 = {
+    [v32]() {
+        const o37 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o37);
+        return v28;
+    },
+};

@@ -1,0 +1,36 @@
+function f3(a4) {
+    const o10 = {
+        o(a6, a7) {
+            a7 = a4;
+            let v8;
+            try { v8 = new this(a7); } catch (e) {}
+            try { new v8(); } catch (e) {}
+            const t7 = "-10";
+            t7[this] = a4;
+            return a4;
+        },
+        __proto__: a4,
+        "b": "undefined",
+        "a": "-10",
+        ..."undefined",
+    };
+    return o10;
+}
+f3("-10");
+f3("nB");
+f3("undefined");
+[268435439,-6,-3,-2147483647,6,38780,-8,9007199254740990,14106,7];
+[2104239167,45827,61090,9,-512903538,-4096,65537,-9007199254740991,65536,2126683443];
+const v19 = [14,59529];
+const v20 = new f3("undefined");
+for (let v21 = 0; v21 < 32; v21++) {
+    v20["p" + v21] = v21;
+}
+1 >> 1;
+Object.defineProperty(v19, 8, { writable: true, enumerable: true, set: f3 });
+f3("-10");
+const o28 = {
+    "maxByteLength": 192,
+};
+const v30 = new ArrayBuffer(192, o28);
+new Uint8Array(v30);

@@ -1,0 +1,55 @@
+function f9(a10, a11, a12, a13) {
+    const o18 = {
+        1: a12,
+        "e": a12,
+        "d": -13460,
+        [536870888]: a12,
+        get f() {
+            a11 ** (a12 >>> this);
+            this.valueOf = a12;
+            return a10 && -9.219409858220029;
+        },
+    };
+    return o18;
+}
+f9(823.7719573789157, -9.219409858220029, 1.3373430586733867e+308, 536870888);
+f9(823.7719573789157, 823.7719573789157, 1.3373430586733867e+308, -13460);
+f9(3.0, -942.8726361165977, -1.2013636060947768, -5);
+throw 536870888;
+const v23 = `
+    const o26 = {
+        "maxByteLength": 2147483648,
+    };
+    const v28 = new ArrayBuffer(128, o26);
+    new BigUint64Array(v28);
+`;
+eval(v23);
+try {
+    new Uint32Array(16);
+} catch(e3) {
+}
+try {
+    new Uint16Array(0);
+} catch(e7) {
+}
+try {
+    new Int32Array(1024);
+} catch(e11) {
+}
+const t12 = "-17789";
+t12[4] = null;
+const t14 = "-17789";
+t14.length >>>= 16;
+new Uint16Array("-17789", 16, 16);
+try {
+    new Float32Array(2905);
+} catch(e20) {
+}
+try {
+    new Uint32Array(2701);
+} catch(e24) {
+}
+try {
+    new Float64Array(127);
+} catch(e28) {
+}

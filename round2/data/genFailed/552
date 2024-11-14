@@ -1,0 +1,60 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = -268435456;
+    this.e = -268435456;
+    this.h = -268435456;
+}
+new F0();
+const v4 = new F0();
+new F0();
+[364986.00704215374,0.32192817262525253,0.10850123015018565,-0.0,-1000000.0,-714.1020768928912,2.0,-9.950828187308673];
+[2.2250738585072014e-308,4.0,-371.06851886613936,-3.4431296379827536,-1000000000.0,8.401377160331233];
+[-545.5640464029657,9.08281260542712e+307,3.7638956725842156];
+new Int8Array(1);
+const v17 = new BigInt64Array(2175);
+new BigInt64Array(245);
+new Int8Array(v4, 2175, 1);
+for (let [v22,v23,,v24] of v17) {
+    new WeakMap();
+    const o30 = {
+        "execution": "sync",
+        "type": "major",
+    };
+    gc(o30);
+}
+const v2 = new Array(13);
+const v3 = [-128,1680177780,-4294967296,2147483649,-3801,1073741825,10,-1505180717];
+const v4 = [-65535,-2,2147483649,-128];
+const v5 = [1073741824,-4294967296,-9007199254740991,1073741824,2030101289,1467522341,127,8,-2147483648];
+function f6(a7, a8, a9, a10) {
+    const o11 = {
+        ...v4,
+        [v3]: 13,
+        __proto__: v2,
+        "e": a8,
+        [a9]: Array,
+        "b": v4,
+        [v5]: a10,
+        [13]: v5,
+        "g": a9,
+        [Array]: Array,
+        "a": v5,
+    };
+    return o11;
+}
+const v12 = f6(v5, v3, v5, v5);
+f6(v5, v2, v5, v2);
+f6(v2, Array, v5, v5);
+throw v12;
+const o18 = {
+    "call": Array,
+    "construct": f6,
+    "deleteProperty": f6,
+    "getOwnPropertyDescriptor": Array,
+    "ownKeys": f6,
+    "preventExtensions": f6,
+};
+try {
+    new Proxy(v2, o18);
+} catch(e21) {
+}

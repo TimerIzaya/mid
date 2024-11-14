@@ -1,0 +1,31 @@
+const v1 = new WeakMap();
+let v3 = "toString";
+let v4 = "-1552173339";
+class C8 {
+    [v4] = 1073741824;
+    constructor(a10, a11, a12) {
+        a12["charCodeAt"](42212);
+        v3[42212];
+    }
+    static valueOf(a17, a18, a19, a20) {
+        const o23 = {
+            "maxByteLength": 219,
+        };
+        const v25 = new ArrayBuffer(219, o23);
+        const v27 = new Uint16Array(v25);
+        return v27;
+    }
+}
+const v28 = new C8("toString", v4, v3);
+new C8(v3, WeakMap, v4);
+let v30 = new C8(v4, 1073741824, v4);
+for (let v31 in v3) {
+    [v31,v4,v3] = v4;
+    v30 = v31;
+}
+try { v4(42212, C8, WeakMap, -2147483649); } catch (e) {}
+delete C8[1];
+const v34 = v28[9];
+var c = WeakMap;
+%VerifyType(v34);
+v1[511] = 42212;

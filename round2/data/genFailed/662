@@ -1,0 +1,58 @@
+const v0 = [];
+class C4 {
+    #e = 268435441;
+    static d = v0;
+    [268435441] = 268435441;
+    [403042198] = v0;
+    [v0];
+    #o(a6, a7) {
+        v0.valueOf = this;
+        function F8(a10, a11) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.a = a10;
+            this.c = a6;
+            this.h = v0;
+        }
+        new F8(F8, a7);
+        const v13 = new F8(this, a7);
+        new F8(v13, a7);
+        return v0;
+    }
+}
+const v15 = new C4();
+new C4();
+const v17 = new C4();
+for (let v24 = 0; v24 < 50; v24++) {
+    const v25 = v0[1073741823];
+    v17.b = delete C4[3];
+    v25.b *= v24;
+    Reflect.construct(C4, [], C4);
+}
+C4 = v15;
+const v3 = [-1073741824];
+[-4105,v3,-48132,v3,-4105];
+[-4105,-48132,v3,-4105];
+try {
+    new Uint32Array(6);
+} catch(e10) {
+}
+let v11 = 7;
+try {
+    new Uint8ClampedArray(v11);
+} catch(e14) {
+}
+try {
+    new Float32Array(1);
+} catch(e18) {
+}
+try {
+    /foo(?!bar)bazec\u0060/idgyv;
+    /[a\scZ(?:ab){4,7}a+?]/siv;
+    /(W5u5)/idgu;
+} catch(e22) {
+} finally {
+    try {
+        v11 *= -48132;
+    } catch(e26) {
+    }
+}

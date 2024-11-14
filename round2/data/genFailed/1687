@@ -1,0 +1,24 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a5;
+}
+const v6 = new F3(-1508624931n);
+const v7 = new F3(4294967297n);
+const v8 = new F3(4294967297n);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a12;
+}
+const v15 = new F9(4294967297n, v7, 7n, 7n);
+new F9(4294967297n, v15, 4294967297n, 4294967297n);
+const v17 = new F9(v6, v6, -1508624931n, -1508624931n);
+let v19 = -3688;
+let v21;
+try { v21 = v6.apply(4294967297n, v8); } catch (e) {}
+const v22 = delete v17?.e;
+%VerifyType(4294967297n);
+for (const v23 in v17) {
+    try { v6.o(); } catch (e) {}
+    typeof v22 === "undefined";
+}
+[,v19] = v21;

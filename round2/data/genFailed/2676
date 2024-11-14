@@ -1,0 +1,9 @@
+const v2 = new BigInt64Array(5);
+const v5 = new Uint16Array(3817);
+new Int16Array(8);
+let {"buffer":v12,"byteLength":v13,"byteOffset":v14,} = v5;
+%VerifyType(0.9644040688735664);
+let v15;
+try { v15 = Uint16Array(5, ...v2, v12, Uint16Array, ...v2); } catch (e) {}
+const v17 = [v15];
+Reflect.apply(v5.some, v15, v17);

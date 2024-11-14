@@ -1,0 +1,40 @@
+function f0() {
+}
+class C1 {
+    set d(a3) {
+        super.d **= a3;
+        [...f0] = a3;
+    }
+    static {
+        %VerifyType(this);
+    }
+    #toString() {
+        f0?.b;
+        [128,-45672,701748487,-936258238,-9223372036854775808,-128];
+        [-452536448,-31755,7];
+        [-15,2147483647];
+        return this;
+    }
+}
+new C1();
+const v11 = new C1();
+const v12 = new C1();
+const v14 = new Set();
+[1224807436];
+const v16 = [26815,-673310626,52062];
+[449490882];
+let v19 = -16n;
+const v21 = v14[3267];
+const v22 = v14.size;
+try { new v21(C1, f0, v19, v22); } catch (e) {}
+%VerifyType(v12);
+v11.__proto__;
+v19 %= -629194656n;
+Object.defineProperty(v16, 1980, { configurable: true, value: v12 });
+v11.d -= f0;
+try {
+    const o26 = {
+    };
+    new Set(o26);
+} catch(e28) {
+}

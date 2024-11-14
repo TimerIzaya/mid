@@ -1,0 +1,17 @@
+const v2 = new BigUint64Array(257);
+const v5 = new Int32Array(3389);
+const v8 = new BigUint64Array(982);
+-Infinity;
+const v12 = v8[v5];
+for (let [v13,,v14,v15] of v2) {
+    for (let v16 = 0; v16 < 12; v16++) {
+        v13 = v15;
+        try { v13.n(BigUint64Array, v12, v14, v16); } catch (e) {}
+    }
+    v14.__proto__ = v2;
+}
+try { v8.includes(982, 257); } catch (e) {}
+try {
+    v8.includes(982);
+} catch(e20) {
+}

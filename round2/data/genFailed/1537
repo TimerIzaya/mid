@@ -1,0 +1,48 @@
+class C3 {
+    get d() {
+        const v8 = -1.160891241431077e+308;
+        let v9 = this >> 6.074801573766604e+307;
+        v8 | v8;
+        v8 % v8;
+        this || 6.074801573766604e+307;
+        ++v9;
+        return v9;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+let v17 = 65535;
+function f20(a21, a22, a23) {
+    const o30 = {
+        __proto__: v14,
+        "d": v14,
+        "a": a22,
+        "h": 1.160891241431077e+308,
+        "e": a23,
+        set g(a25) {
+            super[a22];
+            delete a21[a23];
+            super.f;
+            ~v16;
+        },
+        "g": -571816.2022129223,
+    };
+    return o30;
+}
+const v32 = f20(v16, 7, f20(v16, v17, C3));
+const v33 = f20(v14, v17, v15);
+v17 = 7;
+!v14[536870887];
+const v36 = C3.__proto__;
+Object.defineProperty(C3, v32, { writable: true, configurable: true, get: f20, set: f20 });
+const t38 = v33.g;
+t38.valueOf = v36;
+const v38 = new C3();
+try {
+    const o39 = {
+        "d": v36,
+    };
+    f20(o39, 7, v38);
+} catch(e41) {
+}

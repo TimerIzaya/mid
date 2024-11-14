@@ -1,0 +1,21 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 7n;
+    this.f = a5;
+    this.c = 7n;
+}
+new F3(-972823933n);
+new F3(2147483647n);
+new F3(7n);
+new BigInt64Array(1591);
+const v14 = new Uint8Array(12);
+new Uint8Array(1964);
+try {
+const t0 = 1591;
+t0();
+} catch (e) {}
+Math.atan(7n);
+const v24 = --F3 && Infinity;
+-2147483649;
+Math.sqrt(v24);
+new Uint8Array(v14, 12, 12);

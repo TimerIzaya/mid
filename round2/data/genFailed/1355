@@ -1,0 +1,70 @@
+const v0 = [387834427,268435441,-1911236764,1073741825,7,3,9007199254740990];
+const v1 = [-4976,34035,536870888,-11,12,22317,9007199254740991,5,-2,-43583];
+const v2 = [49554,59711,-9007199254740991,65535];
+class C3 {
+    static [v1];
+    static set g(a5) {
+        const v7 = v0["includes"]("includes", a5);
+        v2.e = v7;
+        %VerifyType(this);
+        typeof v7 === "boolean";
+    }
+    #b;
+    #g;
+    #h = v2;
+    a = v1;
+}
+new C3();
+new C3();
+new C3();
+new Date();
+new Uint8ClampedArray(236);
+new Uint32Array(29);
+new BigUint64Array(6);
+Reflect.construct(BigUint64Array, [v1], Date);
+const v29 = (a30, a31, a32, a33) => {
+    return a30;
+};
+Reflect.construct(Uint32Array, [v2,236,236], Date);
+class C3 {
+    #o(a5) {
+        let v6;
+        try { v6 = a5("n"); } catch (e) {}
+        try {
+            ("n").padStart(6);
+        } catch(e8) {
+        }
+        return v6;
+    }
+    #e;
+    d;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+function f12(a13, a14, a15) {
+    const o20 = {
+        get f() {
+            for (let v17 = 0; v17 < 32; v17++) {
+                v9["p" + v17] = v17;
+            }
+            return v9;
+        },
+        __proto__: C3,
+        ...v10,
+    };
+    return o20;
+}
+const v21 = f12(v11, v11, v9);
+f12(C3, C3, v10);
+const v23 = f12(C3, v10, v9);
+typeof v21 === "object";
+const v27 = v23[10000];
+Reflect.construct(f12, [Reflect,v9,C3], v27);
+try {
+    const o32 = {
+        "d": 128n,
+    };
+    f12(v9, o32, o32);
+} catch(e34) {
+}

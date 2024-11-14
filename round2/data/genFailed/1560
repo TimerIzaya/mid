@@ -1,0 +1,51 @@
+const v0 = /[(?!\1(a\1)\1)\1]/mysdv;
+const v1 = /6A(a\1)/mu;
+const v2 = /4a+/gidu;
+function f3(a4) {
+    const o10 = {
+        "b": a4,
+        "a": v2,
+        ...v2,
+        __proto__: v2,
+        "g": v2,
+        m(a6, a7) {
+            super[a6] = this;
+            let v8;
+            try { v8 = v0.compile(this); } catch (e) {}
+            let v9;
+            try { v9 = new v8(); } catch (e) {}
+            return v9;
+        },
+        "d": a4,
+        [v2]: v0,
+        "c": v2,
+        "h": v1,
+    };
+    return o10;
+}
+const v11 = f3(v0);
+const v12 = f3(v0);
+const v13 = f3(v0);
+new Uint16Array(1815);
+const v19 = new Int8Array(9);
+const v22 = new Uint8ClampedArray(2);
+v12[v0] = v22;
+Object.defineProperty(v1, 127, { writable: true, configurable: true, enumerable: true, get: f3 });
+Uint8ClampedArray << v11;
+for (const v24 of v19) {
+    const o25 = {
+        "call": f3,
+        "construct": f3,
+        "deleteProperty": f3,
+        "get": f3,
+        "getOwnPropertyDescriptor": f3,
+        "getPrototypeOf": f3,
+        "has": f3,
+        "isExtensible": f3,
+        "ownKeys": f3,
+        "preventExtensions": f3,
+        "set": f3,
+        "setPrototypeOf": f3,
+    };
+    new Proxy(v13, o25);
+}

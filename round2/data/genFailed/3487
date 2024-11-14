@@ -1,0 +1,63 @@
+const v0 = [10];
+const v1 = [1073741825];
+const v2 = [268435456,65536,13037,9223372036854775807,-1024,-2,268435439];
+class C6 {
+    #o(a8, a9, a10) {
+        super.a;
+        const o12 = {
+        };
+        new Proxy(v1, o12);
+        return this;
+    }
+    static #h;
+    static ["symbol"] = v2;
+    constructor(a16, a17, a18, a19) {
+        const o22 = {
+            "maxByteLength": 147,
+        };
+        const v24 = new SharedArrayBuffer(2, o22);
+        new BigInt64Array(v24);
+    }
+}
+let v27 = new C6(v0, "toString", "uMSt", v1);
+const v28 = new C6(v2, v2, v27, v27);
+const v29 = new C6(v1, v28, "symbol", v2);
+function f30() {
+    return v29;
+}
+const v32 = new Map();
+function f33(a34, a35) {
+    const o41 = {
+        [a34]: a35,
+        "h": a35,
+        [v2]: v32,
+        set c(a37) {
+            const v38 = super[a35];
+            try {
+                f30();
+            } catch(e40) {
+            }
+            super.f = v38;
+        },
+        "e": "uMSt",
+        ...v2,
+        ...a35,
+        ...a35,
+    };
+    return o41;
+}
+f33(v1, v2);
+const v43 = f33(v0, v1);
+f33(v0, v1);
+v27 = v32;
+v43.c **= v1;
+try {
+    new Map("toString");
+} catch(e46) {
+}
+try { v29.push(v28); } catch (e) {}
+const o51 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o51);

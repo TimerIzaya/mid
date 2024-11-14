@@ -1,0 +1,33 @@
+const v7 = new Set();
+class C8 extends Set {
+    g;
+    constructor(a10, a11, a12, a13) {
+        super(v7);
+        const t5 = "toString";
+        t5[typeof Set === "undefined"] += a10;
+    }
+    static {
+        const v18 = super.size;
+        function f19(a20, a21, a22, a23) {
+            const o24 = {
+                [a21]: "p",
+                __proto__: a21,
+            };
+            return o24;
+        }
+        const v25 = f19(f19, "toString", f19, "toString");
+        const v26 = f19(v25, "apply", "toString", v18);
+        f19(v25, v26, v26, v18);
+    }
+}
+new C8(268435439, "p", "apply", "apply");
+new C8(128, "apply", "apply", "toString");
+new C8(-7247, "apply", "toString", "p");
+with ("p") {
+    length = 128;
+    try {
+        new C8(268435439, "-10", "-10", "iyTX9");
+    } catch(e37) {
+    }
+}
+Object.defineProperty(C8, "h", { writable: true, configurable: true, value: v7 });

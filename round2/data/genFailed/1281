@@ -1,0 +1,94 @@
+const v1 = new Map();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v1;
+    this.f = a4;
+}
+const v6 = new F2(F2, Map);
+let v7 = new F2(v6, F2);
+const v8 = new F2(Map, v6);
+v7 = v8;
+const o15 = {
+    "maxByteLength": 5,
+};
+const v17 = new ArrayBuffer(4, o15);
+new BigUint64Array(v17);
+let v2 = -9.363478738785114;
+class C3 {
+    constructor(a5) {
+        400.9779272380872 instanceof a5;
+        const v8 = [a5];
+        Reflect.apply(("-128").codePointAt, this, v8);
+    }
+    static get c() {
+        try {
+            new Float64Array(16);
+        } catch(e15) {
+        }
+        try {
+            new Uint8ClampedArray(10);
+        } catch(e19) {
+        }
+        try {
+            new Uint32Array(6);
+        } catch(e23) {
+        }
+        return this;
+    }
+}
+const v24 = new C3(400.9779272380872);
+const v25 = new C3(v24);
+const v26 = new C3("-128");
+class C27 {
+    static [400.9779272380872] = "-128";
+    static {
+        const v29 = super.e;
+        function f30() {
+            return v29;
+        }
+    }
+    65535;
+    constructor(a32, a33, a34, a35) {
+        try {
+            v2 **= 400.9779272380872;
+        } catch(e36) {
+        }
+    }
+}
+const v37 = new C27(v2, "-128", v25, v26);
+const v38 = new C27(v2, v26, C3, v37);
+new C27(C3, C3, C27, v38);
+function f40(a41, a42) {
+    const o54 = {
+        __proto__: "-128",
+        ["-128"](a44, a45, a46) {
+            let v47;
+            try { v47 = a42.n(v37, a42); } catch (e) {}
+            const v48 = v24 === C3;
+            v48 ? v24 : C3;
+            try { new v47(v48); } catch (e) {}
+            let v52;
+            try { v52 = a41["o"](this); } catch (e) {}
+            try {
+                v52 = v2;
+            } catch(e53) {
+            }
+            return a41;
+        },
+    };
+    return o54;
+}
+const v55 = f40("-128", v24);
+f40(v26, f40(v38, v37));
+try {
+    const t68 = "-128";
+    t68.valueOf = f40;
+} catch(e58) {
+}
+[-4294967297,65536,-415255464];
+[-16,37536,3];
+[-26589,-21695,6,19923,257];
+try {
+    v55.__proto__ = C3;
+} catch(e62) {
+}

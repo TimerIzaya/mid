@@ -1,0 +1,105 @@
+class C3 {
+    constructor(a5) {
+        Object.defineProperty(a5, a5, { writable: true, enumerable: true, value: this });
+    }
+    static {
+        const v12 = Symbol.iterator;
+        const o21 = {
+            [v12]() {
+                let v14 = 10;
+                const o20 = {
+                    next() {
+                        v14--;
+                        const v18 = v14 == 0;
+                        const o19 = {
+                            "done": v18,
+                            "value": v14,
+                        };
+                        return o19;
+                    },
+                };
+                return o20;
+            },
+        };
+    }
+}
+const v22 = new C3(-119935480);
+new C3(4.0);
+new C3(C3);
+const v25 = [145.81979137725102,1.0022789805476044,2.2250738585072014e-308];
+[-0.0,-2.0,1.427096111891241e+308,Infinity,1.3411457632406083e+308,743676.2280547565];
+const v27 = [-0.0,0.8205396564468679,0.3412560893277311];
+[12,-4096,-1024,-1226288574,256,57123,4,62794];
+const v29 = [-65537];
+[800975342,-2645,-6,2,-16568,256,-16783,-42179,-2147483647,4];
+let v31 = 0;
+do {
+    const v32 = delete v27[3];
+    const v33 = v32 && v32;
+    let v34;
+    try { v34 = v29(v33, v33, v22, v22); } catch (e) {}
+    delete v34?.[v25];
+    v31++;
+} while (v31 < 1)
+function f3() {
+    return -9223372036854775808n;
+}
+function f4(a5) {
+    const o9 = {
+        [a5]: -9223372036854775808n,
+        958: f3,
+        "h": a5,
+        256: -9223372036854775808n,
+        "a": f3,
+        "f": f3,
+        get c() {
+            this.f;
+            try {
+                this[257n] = 257n;
+            } catch(e8) {
+            }
+            return a5;
+        },
+    };
+    return o9;
+}
+const v10 = f4(4294967297n);
+const v11 = f4(4294967297n);
+f4(4294967297n);
+const v14 = new Set();
+class C15 extends f4 {
+    b;
+    7 = f3;
+    constructor(a17, a18, a19, a20) {
+        super(a19);
+        for (const v21 of v14) {
+            try { v21(v21, v21, a18, v10, v21); } catch (e) {}
+        }
+        super.c;
+        Math.asinh(1501862022);
+        1501862022 || 1501862022;
+        Math.cos(4294967297n);
+        Math.expm1(1501862022);
+        1501862022 & 4294967297n;
+        Math.asinh(4294967297n);
+    }
+}
+new C15(257n, 4294967297n, 4294967297n, v11);
+const v33 = new C15(-9223372036854775808n, 4294967297n, -9223372036854775808n, v10);
+new C15(257n, 4294967297n, -9223372036854775808n, v11);
+for (const v35 of v14) {
+    v14.__proto__;
+    delete v33[7];
+    try {
+        new Int32Array(49);
+    } catch(e41) {
+    }
+    try {
+        new Float32Array(15);
+    } catch(e45) {
+    }
+    try {
+        new Uint8Array(22);
+    } catch(e49) {
+    }
+}

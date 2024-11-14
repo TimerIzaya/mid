@@ -1,0 +1,39 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 2147483647;
+    this.d = 2.2250738585072014e-308;
+    this.e = -1884531088;
+}
+const v11 = new F6(2147483647, 2147483648, 8.302285587333063);
+const v12 = new F6(2147483648, -1884531088, 2.2250738585072014e-308);
+const v13 = new F6(v12, -1884531088, 2.2250738585072014e-308);
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a17;
+    this.c = a17;
+}
+const v18 = new F14(v13, -9.425040836372435);
+const v19 = new F14(-1884531088, 8.302285587333063);
+const v20 = new F14(v12, 8.302285587333063);
+for (const v21 of v11) {
+    v21.valueOf = v21;
+    try { v21(2.2250738585072014e-308, 2147483648, v19, v21); } catch (e) {}
+    new Set();
+}
+v11.a = v20;
+v18[268435456] = v20;
+v18.__proto__;
+function F26(a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = -9.425040836372435;
+}
+new F26(2147483647, 2147483647, v13);
+new F26(-1884531088, 2147483647, v13);
+new F26(-1884531088, -1884531088, v11);
+const v10 = new Map();
+v10.__proto__;
+let v19 = 50228;
+Math.cbrt(4096n);
+v19--;
+++v19;
+4096n || 1.7976931348623157e+308;

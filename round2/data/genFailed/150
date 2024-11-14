@@ -1,0 +1,93 @@
+let v0 = -274768.747740014;
+const v5 = -Infinity;
+function f6() {
+    return v5;
+}
+const v7 = [f6,f6,-1.0];
+const v8 = [f6,v0,-951.6332897349818];
+const v9 = [-951.6332897349818,-1.0,-1000.0];
+function f10(a11, a12, a13) {
+    const o25 = {
+        __proto__: v7,
+        "b": v7,
+        "f": f6,
+        "a": v7,
+        "c": v0,
+        ...a12,
+        "e": -1000000000.0,
+        toString(a15, a16, a17) {
+            Object.defineProperty(a15, a17, { writable: true, value: a15 });
+            let v19 = -268435456;
+            v19--;
+            f6 ** f6;
+            v0--;
+            Math.atanh(-1.9760116225509812);
+            return -1.9760116225509812;
+        },
+    };
+    return o25;
+}
+const v26 = f10(-1000.0, v8, v8);
+const v27 = f10(-1000000000.0, v9, v9);
+f10(v0, v8, v7);
+v8.length = v0;
+v7.toString = f10;
+f6();
+function f30(a31, a32, a33) {
+    function f35(a36) {
+        try { a36.setInt16(a31, a36, v26); } catch (e) {}
+    }
+    this.onmessage = f35;
+}
+const v44 = ["function",v27,v8];
+const o45 = {
+    "arguments": v44,
+    "type": "function",
+};
+new Worker(f30, o45);
+try {
+    new Int32Array(5);
+} catch(e3) {
+}
+try {
+    new Float64Array(6);
+} catch(e7) {
+}
+try {
+    new Int16Array(0);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    static get d() {
+        try {
+            this[5] = 6;
+        } catch(e14) {
+        }
+        return this;
+    }
+    static e;
+    #h;
+    [0];
+    #f;
+}
+new C12();
+const v16 = new C12();
+new C12();
+typeof v16 === "undefined";
+const v24 = v16.byteOffset;
+const t28 = "xWV";
+t28.length >>>= 0;
+const t32 = "undefined";
+t32.length **= v24;
+try {
+    new Int8Array(4090);
+} catch(e28) {
+}
+try {
+    new BigInt64Array(2236);
+} catch(e32) {
+}
+try {
+    new Float32Array(3292);
+} catch(e36) {
+}

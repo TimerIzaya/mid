@@ -1,0 +1,28 @@
+function f3(a4) {
+    const o10 = {
+        "f": a4,
+        "h": "string",
+        "c": a4,
+        4: "Asy",
+        get a() {
+            "symbol" >>> this;
+            const o7 = {
+            };
+            const v9 = new Proxy(this, o7);
+            return v9;
+        },
+    };
+    return o10;
+}
+f3("string");
+f3("symbol");
+f3("Asy");
+f3("Asy");
+for (let i25 = 0; i25 < 7; i25++) {
+    let v31 = 0;
+    while (v31 < 7) {
+        Object.defineProperty("symbol", 6, { enumerable: true, set: f3 });
+        let [] = "Asy";
+        v31++;
+    }
+}

@@ -1,0 +1,56 @@
+function f0() {
+    const o9 = {
+        "e": "min",
+        __proto__: "min",
+        "a": 13,
+        "c": "min",
+        "d": "min",
+        get b() {
+            Object.defineProperty(this, 13, { value: 4.0 });
+            const t9 = "min";
+            t9.toString = "min";
+            const v5 = super.h;
+            Reflect.construct(v5, [Reflect,v5], v5);
+            return "min";
+        },
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function f13() {
+    return v12;
+}
+function f17(a18, a19) {
+    const o25 = {
+        ...v11,
+        "e": a19,
+        "a": a18,
+        "f": a19,
+        set d(a21) {
+            v10.c = v11;
+            new f13();
+            try { a21(f13); } catch (e) {}
+            let v24 = delete this?.e;
+            ({"d":v24,} = v12);
+        },
+        8: v12,
+        7: f13,
+    };
+    return o25;
+}
+f17(v11, 11560n);
+f17(v12, 536870888n);
+const v28 = f17(v12, 9007199254740991n);
+const v32 = (a33, a34, a35) => {
+    function F36(a38, a39) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.h = a39;
+    }
+    const v40 = new F36(536870888n, 9223372036854775807n);
+    new F36(a34, 9223372036854775807n);
+    new F36(a34, 536870888n);
+    return v40;
+};
+v28.toString = f17;

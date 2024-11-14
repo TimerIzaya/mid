@@ -1,0 +1,41 @@
+const v0 = /\xed\xa0\x80/gydu;
+const v1 = /a|bca\sc/mysdu;
+const v2 = /mi(ab)/gmisu;
+const v4 = new WeakSet();
+function f5(a6, a7) {
+    const o18 = {
+        __proto__: v1,
+        get f() {
+            new Int16Array(1);
+            new BigUint64Array(16);
+            new Int32Array(2576);
+            return Int16Array;
+        },
+        "h": v4,
+        "c": v1,
+    };
+    return o18;
+}
+const v19 = f5(v1, v1);
+const v20 = f5(v2, v2);
+const v21 = f5(v1, v2);
+const v22 = [v20,f5,v1];
+const v23 = [v4,v22,f5,v1];
+const v24 = [v21,v2,f5,v0,v0];
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a27;
+    this.d = a27;
+}
+const v30 = new F25(v22, WeakSet, v21);
+let v31 = new F25(v30, v19, F25);
+const v32 = new F25(WeakSet, v1, v31);
+const v33 = new F25(v32, v4, v2);
+v20[9] = v24;
+v31 = v33;
+Object.defineProperty(v23, "c", { get: f5 });
+Object.defineProperty(v24, v20, { writable: true, get: f5 });
+try {
+    new WeakSet(v21);
+} catch(e39) {
+}

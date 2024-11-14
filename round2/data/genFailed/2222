@@ -1,0 +1,76 @@
+const v0 = /a{,}fa\Bb*/yid;
+const v1 = /(?:a?)*/yidu;
+const v2 = /G7/midv;
+class C3 {
+    static [v0] = v2;
+    p(a5) {
+        try { a5.test(a5); } catch (e) {}
+        let v7 = 10;
+        for (; v7--;) {
+            %VerifyType(v0);
+            super.h = v2;
+            let {"dotAll":v9,} = a5;
+        }
+        return a5;
+    }
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+class C13 {
+    valueOf(a15, a16) {
+        v12.d += a16[v11];
+        try {
+            super.m(v0, v11, v10, v12);
+        } catch(e19) {
+        }
+        return v1;
+    }
+    [v0];
+    g = v0;
+    static #e = v2;
+    [v12];
+    static #f;
+    static 536870889;
+}
+const v20 = new C13();
+const v21 = new C13();
+new C13();
+const v23 = [-2147483647,4,1,1,-1413877658,-24781164];
+const v24 = [9007199254740991,-536870912,65537,-17087];
+const v25 = [-16,1024];
+function f26(a27, a28) {
+    const o38 = {
+        "b": v23,
+        __proto__: a28,
+        "h": C13,
+        475078213: v11,
+        "e": v20,
+        "a": a27,
+        [v20](a30, a31, a32, a33) {
+            v24[a31] = a33;
+            a28 < this;
+            return 1262220613;
+        },
+        1073741824: a28,
+    };
+    return o38;
+}
+f26(f26, v21);
+const v40 = f26(C13, v20);
+const v41 = f26(v2, v20);
+%VerifyType(v24);
+Object.defineProperty(v0, v20, { writable: true, configurable: true, enumerable: true, get: f26 });
+try {
+    new C13();
+} catch(e43) {
+}
+function F44(a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a47;
+    this.d = a47;
+    this.f = v12;
+}
+new F44(v40, v11);
+new F44(v41, C3);
+new F44(v40, v25);

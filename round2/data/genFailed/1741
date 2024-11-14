@@ -1,0 +1,42 @@
+class C3 {
+    static {
+        Object.defineProperty("caller", 9, { writable: true, configurable: true, value: this });
+        try {
+        const t0 = "caller";
+        t0("caller", 128, this, "caller");
+        } catch (e) {}
+    }
+    p(a7, a8) {
+        128 < 128;
+        const v11 = Symbol.iterator;
+        const o20 = {
+            [v11]() {
+                let v13 = 10;
+                const o19 = {
+                    next() {
+                        v13--;
+                        const v17 = v13 == 0;
+                        const o18 = {
+                            "done": v17,
+                            "value": v13,
+                        };
+                        return o18;
+                    },
+                };
+                return o19;
+            },
+        };
+        return this;
+    }
+}
+new C3();
+new C3();
+new C3();
+let v25 = 4n;
+v25 = 268435456n;
+let v27 = 0;
+while (v27 < 9) {
+    const v31 = [];
+    Reflect.apply(("Jb").normalize, C3, v31);
+    v27++;
+}

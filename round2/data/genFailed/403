@@ -1,0 +1,86 @@
+Object.defineProperty(255, "g", { enumerable: true, value: 8 });
+let v15 = 0;
+while (v15 < 3) {
+    const o22 = {
+        "execution": "async",
+        "type": "major",
+    };
+    gc(o22);
+    v15++;
+}
+const v0 = [9223372036854775807,4,259019020,8];
+const v1 = [-256,1024,1,-491641612,4294967295];
+const v2 = [-1];
+try {
+    new Float64Array(129);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e10) {
+}
+try {
+    new Float64Array(1024);
+} catch(e14) {
+}
+class C15 extends Float64Array {
+    static #c = 129;
+    get f() {
+        const o17 = {
+        };
+        try {
+            new Proxy(v1, o17);
+        } catch(e20) {
+        }
+        return o17;
+    }
+    [4];
+    [v0] = 1024;
+    static #d;
+    static [129] = Uint8ClampedArray;
+}
+new C15();
+const v22 = new C15();
+new C15();
+try {
+    new BigInt64Array(256);
+} catch(e27) {
+}
+try {
+    new BigInt64Array(512);
+} catch(e31) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e35) {
+}
+v2.__proto__;
+const o37 = {
+};
+try {
+    o37.h = 129;
+} catch(e38) {
+}
+try {
+    const o39 = {
+    };
+    o39.h = 129;
+    o39.d = 4;
+} catch(e40) {
+}
+try {
+    const o41 = {
+    };
+    o41.h = 129;
+    o41.d = 4;
+    o41.g = v22;
+} catch(e42) {
+}
+try {
+    const o43 = {
+    };
+    o43.h = 129;
+    o43.d = 4;
+    o43.g = 1024;
+} catch(e44) {
+}

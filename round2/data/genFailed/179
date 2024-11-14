@@ -1,0 +1,72 @@
+/[^\u0034]/gmv;
+/B\p{General_Category=Decimal_Number}/gyidu;
+/a{,}/gyid;
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a13;
+    this.h = 0.929014790210487;
+    this.g = a14;
+}
+new F10(-14.423280242774808, 0.7544884103770632, 0.929014790210487);
+new F10(0.929014790210487, 0.7544884103770632, -564.5100603376194);
+new F10(-14.423280242774808, 1000000000.0, -14.423280242774808);
+[7,906027931,13,4096];
+[17812,-4294967295,6];
+throw [-12,11,4096,50345,257,958828994,-6,9];
+new Set();
+new WeakMap();
+class C3 {
+    static a;
+    static get f() {
+        let v4 = this;
+        try {
+            v4 -= v4;
+        } catch(e5) {
+        }
+        return -2147483649;
+    }
+    static set c(a7) {
+        const o11 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o11);
+    }
+}
+const v13 = new C3();
+const v14 = new C3();
+new C3();
+class C19 extends C3 {
+    #toString(a21, a22, a23) {
+        try {
+            super[v14] = this;
+        } catch(e24) {
+        }
+        return -2147483649;
+    }
+    constructor(a26, a27) {
+        super();
+        const v28 = `
+            const v29 = -7427.985561978538 ^ v28;
+            const v30 = a27.__proto__;
+            Reflect.construct(v30, [a27,v14,v29,this,this], C3);
+        `;
+        eval(v28);
+    }
+}
+const v36 = new C19(C3, v13);
+new C19(C19, v36);
+let v38 = new C19(v13, C19);
+C3 === C3;
+const v40 = (a41, a42) => {
+    try {
+        v38 |= v36;
+    } catch(e43) {
+    }
+    return a41;
+};
+try { v14.valueOf(-7427.985561978538, 608454.0183052206, v38); } catch (e) {}
+try {
+    new C3();
+} catch(e46) {
+}

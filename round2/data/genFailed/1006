@@ -1,0 +1,46 @@
+const v5 = new Int8Array(6);
+new Uint16Array(10);
+let v9 = 16;
+const v11 = new Int32Array(v9);
+let [v12,,v13,v14] = v5;
+v9 += v9;
+for (let v15 = 0; v15 < 40; v15++) {
+    const v16 = new Uint16Array(v11);
+    v16[4294967295] = -2147483647n;
+    v16["lastIndexOf"]("lastIndexOf", v15);
+}
+v5["some"](v13);
+const v0 = [];
+function f1() {
+    return v0;
+}
+class C2 extends f1 {
+    static {
+        const v4 = super[this];
+        try {
+            super[v4] = this;
+        } catch(e5) {
+        }
+    }
+    static #d;
+    #e;
+    1024 = f1;
+}
+const v6 = new C2();
+const v7 = new C2();
+const v8 = new C2();
+const v9 = [v8,v6,v0,v7];
+const v10 = [f1,v8];
+const v11 = [v8,v6,v10,f1];
+const v12 = [v11,v11,f1,f1,v11];
+[v6,v10,v12,v11];
+[C2,v10,v8,C2];
+with (v12) {
+    let [v16,,v17,v18] = v11;
+    Object.defineProperty(v9, v12, { enumerable: true, get: f1, set: f1 });
+    %VerifyType(C2);
+    try {
+        v0.b = v7;
+    } catch(e19) {
+    }
+}

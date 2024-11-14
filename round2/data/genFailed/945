@@ -1,0 +1,73 @@
+function f0() {
+}
+class C5 {
+    static {
+        try { this.isSafeInteger(this, 0.0); } catch (e) {}
+    }
+    g;
+    static n(a9, a10) {
+        let v11 = 0;
+        while (v11 < 7) {
+            a9 ^ this;
+            let {"a":v15,"e":v16,"h":v17,} = this;
+            v11++;
+        }
+        return true;
+    }
+}
+const v19 = new C5();
+const v20 = new C5();
+const v21 = new C5();
+function f22() {
+    return v21;
+}
+delete v20?.g;
+v19 * 1000.0;
+f0();
+const o40 = {
+    "maxByteLength": 2740634198,
+};
+const v42 = new ArrayBuffer(10, o40);
+new Uint32Array(v42);
+function f0() {
+    const o15 = {
+        __proto__: "boolean",
+        [9007199254740990](a5, a6) {
+            const o9 = {
+                "maxByteLength": 536870887,
+            };
+            const v11 = new SharedArrayBuffer(2006, o9);
+            try {
+                new Uint8Array(v11);
+            } catch(e14) {
+            }
+            return Uint8Array;
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+const v17 = f0();
+f0();
+function F19(a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v16;
+    } catch(e22) {
+    }
+    try {
+        this.a = a21;
+    } catch(e23) {
+    }
+}
+const v24 = new F19(v17);
+new F19(v16);
+const v26 = new F19(v24);
+("string")[8n];
+let v34 = 10;
+for (; v34--;) {
+    const v36 = v26.c;
+    v26 instanceof v36;
+    v24["function"];
+    v16.a %= v36;
+}

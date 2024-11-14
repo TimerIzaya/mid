@@ -1,0 +1,79 @@
+const v0 = [-5795,-4294967296,1881790308,1000,-15,65536,6,-1432472473,-2093700209,536870887];
+const v1 = [15,16,-20496,6,-53192,127,3,9,4096];
+const v2 = [-1084835691,2147483647,16,-10,-9007199254740992,481169976,-2094321628,1073741824,-9007199254740992,51849];
+class C6 {
+    constructor(a8, a9, a10, a11) {
+        let [,,,...v15] = a8;
+    }
+    static get g() {
+        let {"e":v17,"g":v18,"length":v19,} = v0;
+        for (let v20 = 0; v20 < 32; v20++) {
+            v0["p" + v20] = v20;
+        }
+        return v17;
+    }
+}
+const v23 = new C6(v0, v0, v0, v2);
+new C6(v0, v2, v23, v0);
+new C6(v23, v0, v1, v1);
+[1.7976931348623157e+308,1.6317720772009076e+308,88.79283564057073];
+[-573437.5777602389,-2.2250738585072014e-308,4.120907868074971e+307];
+[5.0,-2.220446049250313e-16,0.654580809288257,-970.9488073585233,-9.52010378949277];
+const v34 = Symbol.toPrimitive;
+const o36 = {
+    [v34]() {
+        super[this] = this;
+        v2[3063394681] **= 2025968149;
+        return 2025968149;
+    },
+};
+const v0 = /a(?!b){,}Wa(?:b)*/sid;
+const v1 = /foo(?=bar)baz?/idmv;
+const v2 = /(?:a+)*oa\bc/sigyv;
+class C3 {
+    c = v2;
+    static m(a5) {
+        super.b |= v1;
+        /Labc*/sdmv;
+        /[(a\1)]/sgmyv;
+        return /xyz??/idgy;
+    }
+    static f;
+    8;
+    static #f;
+    [v1] = v1;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+const v12 = /(?: foo )([\1111]a+a.+)?/dgm;
+const v13 = /xyz??/dmy;
+const v14 = /(?<!a)N/dmu;
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v9;
+    } catch(e21) {
+    }
+    try {
+        this.h = v9;
+    } catch(e22) {
+    }
+}
+new F15(v2, v14, v1, v12);
+const v24 = new F15(v0, v14, v13, v13);
+const v25 = new F15(v12, v2, v1, v12);
+function F26(a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v13;
+    } catch(e31) {
+    }
+    try {
+        this.g = v14;
+    } catch(e32) {
+    }
+}
+new F26(v13, v24, F26);
+new F26(v0, v24, v10);
+new F26(v13, v25, v11);

@@ -1,0 +1,64 @@
+function f3(a4) {
+    const o12 = {
+        set h(a6) {
+            function f7() {
+                return a4;
+            }
+            [,f7,a4] = a6;
+            try {
+                this.imul([a4,177529.05042123608,4.0,f7,this], /xyz{1,}?(^g((((.).).).)\x01(\xed\xb0\x80)\x01co?)/gmisu, f7);
+            } catch(e11) {
+            }
+        },
+        "e": a4,
+        "a": a4,
+    };
+    return o12;
+}
+const v13 = f3(177529.05042123608);
+const v14 = f3(4.0);
+const v15 = f3(-9.333387130129868);
+class C19 extends f3 {
+    m(a21, a22) {
+        %VerifyType(v13);
+        function f23() {
+            return -1073741824;
+        }
+        return v14;
+    }
+    static a;
+    constructor(a25, a26, a27) {
+        super(177529.05042123608);
+        f3(a26);
+        %PrepareFunctionForOptimization(f3);
+        f3(a26);
+        f3(a26);
+        %OptimizeMaglevOnNextCall(f3);
+        f3(a26);
+    }
+}
+const v32 = new C19(-1073741824, -1073741824, -9.333387130129868);
+new C19(-1073741824, v32, -9.333387130129868);
+new C19(4294967295, v32, 4.0);
+Object.defineProperty(v15, v14, { writable: true, set: f3 });
+let v35;
+try { v35 = v32.m(-1073741824, v32, 4294967295); } catch (e) {}
+let v36;
+try { v36 = C19.deleteProperty(2, f3, v35, -1073741824, 2); } catch (e) {}
+const o37 = {
+};
+o37.d = f3;
+const o38 = {
+};
+o38.d = f3;
+o38.a = v36;
+const o39 = {
+};
+o39.d = f3;
+o39.a = v36;
+o39.f = C19;
+const o40 = {
+};
+o40.d = f3;
+o40.a = v36;
+o40.f = 177529.05042123608;

@@ -1,0 +1,85 @@
+const v3 = [8.872524809453702e+307,-1000000000000.0,0.844485108630548,-1.0,1.6927637456006614e+307,-1000000000000.0];
+const v4 = [0.6623770630912532,1.7976931348623157e+308,-1000000000000.0,5.0];
+[568370.3436394727,0.9367704409766093];
+const v6 = [-1.00313366984785e+308,v3];
+const v7 = [-4.0,314.51961991014514,v3,v3,v6];
+const v8 = [314.51961991014514,-1.00313366984785e+308,314.51961991014514,-1.00313366984785e+308];
+const v9 = [-0.0,0.040048164635022254,-1.0,-1000000000000.0,-3.5285912441962145e+307];
+const v10 = [-1.7976931348623157e+308];
+const v11 = [-1e-15,1.7976931348623157e+308,-5.0,8.075441727486291e+307,1.0];
+function f12(a13, a14, a15, a16) {
+    const o23 = {
+        __proto__: v4,
+        [-1.00313366984785e+308]: a14,
+        ...a13,
+        set a(a18) {
+            a16["reverse"](this, ..."reverse", a15, ...v7, ...a16);
+            try {
+                a16.values();
+            } catch(e22) {
+            }
+        },
+        189: a13,
+        "g": v11,
+    };
+    return o23;
+}
+f12(v3, v7, 314.51961991014514, v8);
+const v25 = f12(v10, v8, 314.51961991014514, v9);
+const v26 = f12(v6, v6, -4.0, v7);
+const o27 = {
+    __proto__: v26,
+    ...v9,
+    65536: f12,
+    "a": v25,
+};
+o27.toString = f12;
+throw v8;
+f12 ** v7;
+try {
+    v7.toLocaleString("number");
+} catch(e31) {
+}
+const v3 = new Array(64);
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v3;
+    } catch(e7) {
+    }
+    try {
+        this.e = a6;
+    } catch(e8) {
+    }
+}
+const v9 = new F4(v3);
+const v10 = new F4(v3);
+new F4(F4);
+try {
+    new Float64Array(836);
+} catch(e18) {
+}
+try {
+    new Uint8ClampedArray(1608);
+} catch(e22) {
+}
+try {
+    new Uint16Array(8);
+} catch(e26) {
+}
+-2147483648n | v10;
+v9 + false;
+for (let v29 = 0; v29 < 50; v29++) {
+    try {
+        new Int16Array(2);
+    } catch(e33) {
+    }
+    try {
+        new Int16Array(3338);
+    } catch(e37) {
+    }
+    try {
+        new Int32Array(64);
+    } catch(e41) {
+    }
+}

@@ -1,0 +1,22 @@
+new WeakMap();
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a9;
+    this.c = 4;
+}
+new F6(-1789950612, -1789950612);
+new F6(536870887, -1789950612);
+new F6(4, 536870887);
+const o16 = {
+};
+const v18 = new Proxy("m", o16);
+function f19(a20) {
+    return a20;
+}
+class C21 extends f19 {
+    #d;
+    static 2;
+    4096;
+    static 1000 = v18;
+    #e;
+}

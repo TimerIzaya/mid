@@ -1,0 +1,28 @@
+const v1 = new Date();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a4;
+    this.g = a4;
+}
+const v5 = new F2(v1);
+new F2(Date);
+const v7 = new F2(v1);
+function f8() {
+    return v7;
+}
+function f12() {
+    return v5;
+}
+Object.defineProperty(v7, 65537, { writable: true, enumerable: true, get: Date });
+function f19(a20, a21, a22) {
+    'use strict';
+    [0.0009325213644469921,-5.0,-Infinity];
+    [1000000000000.0,1.0,0.008181953529561192,-6.63850846587033,-0.0,0.45200742684662976,-3.3443628482071635,-660.8053650024287];
+    [-2.220446049250313e-16,1.312055175677573e+308,-6.556716629645713e+307,0.8282351741233156,637420.2724653373,-Infinity,0.0];
+    return a21;
+}
+f19(v1, 46603.532984095276, 3.0);
+Object.defineProperty(v7, 26, { writable: true, enumerable: true, get: f12, set: f8 });
+for (let v27 = 0; v27 < 32; v27++) {
+    v5["p" + v27] = v27;
+}

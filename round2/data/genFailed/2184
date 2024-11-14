@@ -1,0 +1,50 @@
+function f0() {
+}
+class C1 {
+    get f() {
+        let v2 = this;
+        [...v2] = v2;
+        super.h /= v2;
+        try { v2["n"](); } catch (e) {}
+        return v2;
+    }
+    static [f0] = f0;
+    static #e;
+    [f0];
+    static c = f0;
+}
+const v5 = new C1();
+const v6 = new C1();
+new C1();
+function F8(a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a10;
+    this.h = a10;
+}
+new F8(v5);
+new F8(v5);
+new F8(v6);
+const v14 = [4.0480311833885557e+307,-3.0,-747151.599013943];
+[0.8857109228556954,-1000000000000.0,981.1279943828188,4.0680082859539234e+307,0.2975472397550045];
+const v16 = [91388.09844378242,-5.246566206470327,0.025146091790004155,467.97150101237344,-1.7072717852096485e+308,-979454.5366384255,-2.2250738585072014e-308,0.7380215131465698];
+let v17 = 0;
+do {
+    F8 << v16;
+    v5.f;
+    const o20 = {
+        "apply": f0,
+        "call": f0,
+        "construct": f0,
+        "defineProperty": f0,
+        "deleteProperty": f0,
+        "getOwnPropertyDescriptor": f0,
+        "getPrototypeOf": f0,
+        "isExtensible": f0,
+        "ownKeys": f0,
+        "preventExtensions": f0,
+        "set": f0,
+        "setPrototypeOf": f0,
+    };
+    new Proxy(v14, o20);
+    v17++;
+} while (v17 < 7)

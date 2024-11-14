@@ -1,0 +1,12 @@
+function f0() {
+}
+new BigInt64Array(1096);
+const v6 = new Uint8ClampedArray(6);
+const v9 = new Int16Array(4);
+v6.find(Uint8ClampedArray, 4, 4, ...v9);
+try { v9.slice(6); } catch (e) {}
+Reflect.construct(Int16Array, [4], BigInt64Array);
+throw v9;
+new BigInt64Array(1516);
+new Float64Array(62);
+new BigInt64Array(127);

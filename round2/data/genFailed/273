@@ -1,0 +1,76 @@
+const v4 = new Map();
+const v5 = [Map,9n,Map,9007199254740992n,Map];
+const v6 = [v5,v5];
+const v7 = [9007199254740992n,v5,Map,v6,Map];
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a13;
+}
+const v14 = new F8(v5, v5, v5, v5);
+const v15 = new F8(v5, v7, v6, v6);
+const v16 = new F8(v6, v5, v5, v7);
+class C17 {
+    static h = v14;
+    [v4];
+    constructor(a19, a20, a21) {
+        const v23 = [a21,this];
+        Reflect.apply(a19.some, v4, v23);
+    }
+    h = -630742266n;
+    f = v6;
+    [v7] = -630742266n;
+    c;
+    g;
+}
+new C17(v5, v16, v6);
+const v27 = new C17(v6, v15, v7);
+const v28 = new C17(v7, v14, v27);
+function f29(a30, a31, a32) {
+    function f33(a34, a35) {
+        a35[F8] = v27;
+        return v4;
+    }
+    f33(v28, v5);
+    return v15;
+}
+f29(F8, v15, -630742266n);
+function f38() {
+    return v28;
+}
+class C3 {
+    static [344015.71849696455] = 4294967295;
+    static #b;
+    set d(a5) {
+        Reflect.construct(a5, [a5,Reflect,344015.71849696455,Reflect,this], a5);
+    }
+    static #d = "943941943";
+    static e = 344015.71849696455;
+    #f;
+    f = 4294967295;
+}
+new C3();
+const v10 = new C3();
+const v11 = new C3();
+try {
+    new Float32Array(229);
+} catch(e15) {
+}
+try {
+    new BigInt64Array(1);
+} catch(e19) {
+}
+try {
+    new Uint8Array(3);
+} catch(e23) {
+}
+try { C3.keyFor(v10, 344015.71849696455, v11, "943941943"); } catch (e) {}
+class C25 extends Float32Array {
+    #e = 1;
+    #d;
+    static [Float32Array] = BigInt64Array;
+    static #a;
+    2307 = 3;
+}
+new C25();
+new C25();
+new C25();

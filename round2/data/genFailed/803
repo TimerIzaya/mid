@@ -1,0 +1,55 @@
+function f3() {
+    return -1.7794759938724772e+308;
+}
+let v8 = "string";
+const v12 = new Uint8ClampedArray(4);
+new Int16Array(254);
+const v18 = new Int16Array(5);
+if (254 != "resizable") {
+    Object.defineProperty(v12, 256, { writable: true, configurable: true, get: f3, set: f3 });
+} else {
+    const t10 = "indexOf";
+    t10[5] = v8 %= "resizable";
+}
+let {"f":v20,"length":v21,...v22} = "resizable";
+v18[8] = v22;
+("resizable").length;
+const v4 = new WeakMap();
+class C5 {
+    g = v4;
+    constructor(a7) {
+        try {
+            v4.a = a7;
+        } catch(e8) {
+        }
+        const o12 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o12);
+    }
+}
+new C5(-2071832836n);
+new C5(-2071832836n);
+new C5(4096n);
+try {
+    new Float32Array(1790);
+} catch(e20) {
+}
+try {
+    new Int32Array(169);
+} catch(e24) {
+}
+try {
+    new Float32Array(182);
+} catch(e28) {
+}
+for (const v30 of C5.e) {
+    const t31 = 169;
+    t31[9] = Int32Array;
+}
+const o34 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o34);

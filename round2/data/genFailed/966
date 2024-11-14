@@ -1,0 +1,78 @@
+const v4 = [-5,-40760891];
+const v5 = [v4,true,v4,-40760891];
+const v6 = [-5,v5,-5];
+function f7(a8, a9) {
+    const o10 = {
+        268435456: 2,
+        ...v6,
+        [a9]: a9,
+        [true]: 2,
+        "h": a8,
+        [a8]: a9,
+        "c": a8,
+        __proto__: a8,
+        "d": v4,
+        "e": a9,
+        "f": true,
+    };
+    return o10;
+}
+f7(v5, -5);
+f7(v5, -5);
+f7(v6, -40760891);
+f7(v6, 2);
+%PrepareFunctionForOptimization(f7);
+const v15 = f7(v6, 2);
+f7(v6, 2);
+%OptimizeMaglevOnNextCall(f7);
+f7(v6, 2);
+v15[7] = -40760891;
+v4[-5] = 2;
+v6.length = -40760891;
+new WeakMap();
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 4;
+    } catch(e3) {
+    }
+    try {
+        this.h = 4;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v6;
+    } catch(e12) {
+    }
+}
+const v13 = new F8(v5, v6);
+new F8(v13, v7);
+const v15 = new F8(v13, v7);
+try {
+    new Uint8ClampedArray(0);
+} catch(e22) {
+}
+try {
+    new Uint8ClampedArray(128);
+} catch(e26) {
+}
+try {
+    new Int16Array(3239);
+} catch(e30) {
+}
+[-1e-15,NaN,2.2250738585072014e-308,-1000.0,0.9319765396263636,-5.276763130067574,0.0];
+[1e-15,-5.0,4.0,2.5930994439406636e+307,-8.123121282313784e+306,-1000.0];
+[-1000.0,1.0,0.5262317754645455,6.92869916061206e+307,-1.0,9.489730790685005];
+class C34 extends Uint8ClampedArray {
+    static e = F0;
+    3974888125 = v15;
+}
+new C34();
+new C34();
+new C34();

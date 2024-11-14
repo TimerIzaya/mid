@@ -1,0 +1,86 @@
+function f0() {
+}
+class C1 {
+    static n() {
+        return -2147483648;
+    }
+    [f0] = f0;
+    static #d;
+    static #a = f0;
+    static [f0] = f0;
+}
+const v6 = new C1();
+const v7 = new C1();
+const v8 = new C1();
+const v9 = /z2a{0,1}?/yisdu;
+const v10 = /a[a][xyz{93}]/mysd;
+const v11 = /T0/misd;
+function f12(a13, a14, a15, a16) {
+    const o18 = {
+        "d": a13,
+        ...v7,
+        get h() {
+            Object.defineProperty(this, "h", { writable: true, get: f0 });
+            v7[202] %= a14;
+            return v7;
+        },
+        "e": C1,
+        "b": v11,
+        "h": a16,
+    };
+    return o18;
+}
+const v19 = f12(v7, v10, v7, v7);
+const v20 = f12(v19, v8, v19, v9);
+f12(v8, v8, v20, v6);
+Object.defineProperty(v19, 268435456, { configurable: true, set: f12 });
+Object.defineProperty(v7, 1, { writable: true, configurable: true, enumerable: true, get: f12, set: f0 });
+const v22 = [];
+C1++;
+v10.sticky;
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v22;
+    this.b = f0;
+}
+const v31 = new F25(v6, v20, v19, v10);
+const v32 = new F25(v11, v9, v31, v8);
+new F25(v9, v31, v32, v9);
+try {
+    new Uint8Array(1156);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(129);
+} catch(e7) {
+}
+try {
+    new Int16Array(106);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    constructor(a14, a15) {
+        super(106, a14);
+        Object.defineProperty(this, "g", { writable: true, enumerable: true, value: 1156 });
+        a15?.f;
+    }
+    static [-1];
+    static #g = 1156;
+    268435456 = Uint8Array;
+    5 = Uint8Array;
+    268435439;
+}
+const v17 = new C12(129, 129);
+new C12(1156, 1156);
+new C12(106, BigUint64Array);
+const v20 = [-78886.99347062223];
+[5.0,-2.220446049250313e-16];
+[1.2535274444042551e+308,1e-15,-4.0];
+let v23 = 0;
+while (v23 < 10) {
+    try {
+        v20.toString = v17;
+    } catch(e26) {
+    }
+    v23++;
+}

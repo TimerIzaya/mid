@@ -1,0 +1,107 @@
+function f0() {
+    const o9 = {
+        get d() {
+            this.toString = this;
+            this.toString |= 65536;
+            try {
+            const t0 = 65536;
+            t0(65536, this, this, this, -9.537259185794946);
+            } catch (e) {}
+            try {
+                const o6 = {
+                };
+                this.trim(o6, this);
+            } catch(e8) {
+            }
+            return this;
+        },
+        [65536]: -9.537259185794946,
+        ...65536,
+        [-1284711153]: 65536,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+f0();
+class C16 {
+    set g(a18) {
+        super[3.630625524970423];
+    }
+    [f0];
+    static set h(a24) {
+        %VerifyType(-1000000.0);
+        try { new a24(v10); } catch (e) {}
+    }
+    static #f;
+    static [v10] = v11;
+    [3.630625524970423];
+}
+const v27 = new C16();
+const v28 = new C16();
+new C16();
+class C30 extends C16 {
+    set b(a32) {
+        v28 ** a32;
+        Object.defineProperty(v27, -275.00279800713633, { enumerable: true, set: f0 });
+    }
+    static valueOf(a38, a39, a40) {
+        for (let v41 = 0; v41 < 32; v41++) {
+            a39["p" + v41] = v41;
+        }
+        return a40;
+    }
+}
+const v44 = new C30();
+new C30();
+new C30();
+let [] = C16;
+class C47 {
+    2396;
+    static g;
+    3379 = v44;
+}
+new C47();
+new C47();
+new C47();
+try {
+    new Int8Array(553);
+} catch(e3) {
+}
+try {
+    new Int8Array(7);
+} catch(e7) {
+}
+try {
+    new Float32Array(182);
+} catch(e11) {
+}
+class C15 extends Float32Array {
+    constructor(a17, a18, a19) {
+        super(a17, a18, 7);
+        try {
+            a17 -= "d";
+        } catch(e20) {
+        }
+    }
+    #valueOf(a22, a23, a24) {
+        try {
+            a24.valueOf = a22;
+        } catch(e28) {
+        }
+        return a23;
+    }
+}
+const v29 = new C15("n", 7, "d");
+const v30 = new C15("n", 553, "1073741823");
+new C15("d", 553, "d");
+class C32 extends Float32Array {
+    a;
+    6 = "d";
+    static #e = v30;
+}
+new C32();
+const v34 = new C32();
+new C32();
+const v36 = v34[553];
+try { v29.every(v36, v29); } catch (e) {}

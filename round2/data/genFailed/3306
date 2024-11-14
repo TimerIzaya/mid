@@ -1,0 +1,28 @@
+class C3 {
+    c;
+    constructor(a5) {
+        a5[this] %= a5;
+        Object.defineProperty(a5, 1680804208, { writable: true, configurable: true, value: 1000.0 });
+        const o9 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o9);
+    }
+}
+const v11 = new C3(C3);
+new C3(v11);
+new C3(8);
+const v16 = new Uint32Array(2784);
+new Float32Array(93);
+new Float32Array(9);
+try { v16(Float32Array, 93, 1000.0); } catch (e) {}
+let v24 = 0;
+do {
+    const v25 = v16.buffer;
+    v25[v25];
+    [0.0,0.0,1000000000.0];
+    [1.7976931348623157e+308,Infinity,-93987.86823560251,-6.768440378096619e+307,-2.7715055098723784];
+    [572.1516274598121,487.48618947582395,-3.0,-786885.6931876016,-1000.0,NaN,-1000.0,132.13535601756485,2.49563645629224e+307,1000000000.0];
+    v24++;
+} while (v24 < 5)

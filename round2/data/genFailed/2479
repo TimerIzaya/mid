@@ -1,0 +1,33 @@
+const v0 = [0.8796136508504557,662.8044326337556,3.0];
+const v1 = [-1.2467316649164763e+308,523.8269566571751,1000000.0,2.220446049250313e-16];
+const v2 = [897.6749173506346,0.4177928786394908,NaN,26381.883056631777,523354.4962014358,-2.0,1.7976931348623157e+308,0.08876534990739005,4.27606091301859];
+function f3() {
+    return v1;
+}
+function f4() {
+    return v2;
+}
+const v5 = [5.895740195651783];
+const v6 = [-7.093880026351425e+307,0.9928524821869411,-1000.0,-238.13199170880898,1000.0,-Infinity];
+const v7 = [2.2250738585072014e-308,-284269.0781438955,1000000.0,-1.0];
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = f4;
+    this.g = v0;
+    this.b = f3;
+}
+const v12 = new F8(v2, v1);
+const v13 = new F8(v2, v2);
+const v14 = new F8(v13, v1);
+try {
+    v14.search(v12, false, [false,v12,v1,v2,v6]);
+} catch(e18) {
+}
+Object.defineProperty(v13, "d", { writable: true, enumerable: true, get: f3, set: f4 });
+function F19(a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a22;
+}
+new F19(v1, v2, v2);
+new F19(v7, v1, v1);
+new F19(v5, v2, v2);

@@ -1,0 +1,116 @@
+function f0() {
+    const o14 = {
+        "d": "flags",
+        "a": -268435456,
+        ..."flags",
+        ..."set",
+        0: "set",
+        ["flags"](a5, a6) {
+            typeof "set" === "number";
+            try { new a6(-268435456, -268435456); } catch (e) {}
+            const o11 = {
+            };
+            new Proxy("set", o11);
+            return "flags";
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+const v18 = [v15];
+const v19 = [v18,v18,f0,f0,f0];
+const v20 = [f0];
+const v21 = [-4096];
+[-9,10000,1073741823,15,6,-879326378,-9223372036854775808];
+[-12,512];
+[4,-4294967295,-65535,2,8,3,-9,65535];
+[4294967296,-15,-1835062770,1275054107,9,-15,-2147483648,-16];
+const v26 = [10,-4096,1000,9,512];
+v26.__proto__ = v26;
+[-7,-1810036488,65535];
+[16,8,2915,16];
+[1073741823,268435439,-1073741824,62433,-652456263];
+function f30(a31, a32) {
+    const o33 = {
+        "b": f0,
+        ...v20,
+        2364458722: v17,
+        "a": a32,
+        __proto__: v21,
+    };
+    return o33;
+}
+f30(v15, v19);
+f30(v16, v26);
+f30(v17, v21);
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 10;
+    } catch(e3) {
+    }
+    try {
+        this.c = 10;
+    } catch(e4) {
+    }
+    try {
+        this.f = 10;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+let v7 = new F0();
+const v8 = new F0();
+const v11 = new Array(78);
+function f12(a13, a14, a15, a16) {
+    const o28 = {
+        [78]: Array,
+        "d": a15,
+        [F0]: F0,
+        ...a14,
+        "g": a16,
+        ...v6,
+        __proto__: a15,
+        p(a18, a19, a20) {
+            let v17 = this;
+            Math.fround(4096);
+            v17++;
+            a15 << v17;
+            4096 && v17;
+            return v7;
+        },
+    };
+    return o28;
+}
+const v29 = f12(v6, v7, v7, v8);
+const v30 = f12(v7, v6, v7, v7);
+f12(v7, v7, v6, v8);
+class C32 {
+    set g(a34) {
+        function f35(a36, a37) {
+            try {
+                v8[7] = a36;
+            } catch(e38) {
+            }
+        }
+        new Promise(f35);
+    }
+    a;
+    static 1024;
+    g;
+}
+new C32();
+new C32();
+new C32();
+v29 == v29;
+f12(v8, v6, v7, v7);
+Object.defineProperty(v30, 58, { enumerable: true, get: f12 });
+f12(v8, v7, v6, v7);
+for (let [,v47,v48,v49] of v11) {
+    try {
+        v7 = v6;
+    } catch(e53) {
+    }
+}

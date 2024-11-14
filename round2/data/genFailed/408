@@ -1,0 +1,60 @@
+new Set();
+let v2 = [5,1000,7,0];
+const v3 = [268435439,1000,2147483648,13,-192613820];
+const v4 = [15];
+new BigInt64Array(64);
+new Float32Array(2968);
+new Int16Array(6);
+class C14 extends Float32Array {
+    #h = Int16Array;
+    static g = v2;
+    [2968] = Int16Array;
+    [v3];
+}
+new C14();
+new C14();
+new C14();
+v2 = v4;
+try {
+    new Uint8Array(1823);
+} catch(e3) {
+}
+try {
+    new Uint8Array(4);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(512);
+} catch(e11) {
+}
+function f15(a16, a17, a18, a19) {
+    const o22 = {
+        __proto__: a18,
+        "g": 6,
+        ...a18,
+        "d": a19,
+        get f() {
+            try {
+                a18 ||= this;
+            } catch(e21) {
+            }
+            return this;
+        },
+        [512]: 1823,
+    };
+    return o22;
+}
+f15(6, 1073741825, 341373394, 4);
+const v24 = f15(6, 6, Uint8Array, 341373394);
+f15(1073741825, 1823, Uint8Array, 1823);
+for (const v26 of 1823) {
+    Object.defineProperty(v24, v26, { configurable: true, get: f15, set: f15 });
+    %VerifyType(v26 * 6);
+    1823 != Uint8Array;
+}
+f15(1823, 1073741825, f15, 341373394);
+%PrepareFunctionForOptimization(f15);
+f15(1823, 1073741825, f15, 341373394);
+f15(1823, 1073741825, f15, 341373394);
+%OptimizeMaglevOnNextCall(f15);
+f15(1823, 1073741825, f15, 341373394);

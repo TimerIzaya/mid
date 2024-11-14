@@ -1,0 +1,114 @@
+function f0() {
+    let v1 = 2147483648;
+    let v3 = "4096";
+    const o14 = {
+        ...v3,
+        [2.220446049250313e-16]: 2.220446049250313e-16,
+        "d": 2.220446049250313e-16,
+        o(a5) {
+            const v6 = [2.220446049250313e-16];
+            [this,[v3,a5,a5,v1],v6];
+            return a5;
+        },
+        "h": 2.220446049250313e-16,
+        set g(a10) {
+            a10.toString = a10;
+            let v13 = -35036n;
+            ({"a":v1,"d":v3,"f":v13,...a10} = a10);
+            v13[2.220446049250313e-16] ^= v13;
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+class C18 extends f0 {
+    static set f(a20) {
+        this[a20] = a20;
+        v16[129] ^= a20;
+        function F21(a23, a24, a25, a26) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = a20;
+            this.h = a23;
+        }
+        const v27 = new F21(this, v16, v16, v17);
+        new F21(v15, v27, v16, v16);
+        new F21(v16, f0, a20, this);
+    }
+    static [v16];
+    static #e;
+    [v15];
+    static #c;
+}
+new C18();
+new C18();
+new C18();
+[536870888,974941704,65535];
+const v34 = [65535,10000,257,-6,128,-592522251,769,-5];
+[-4294967295,-23971,65537,-5,82158369,-1,42820,351213407];
+const v36 = [793.916967972521,1.7934516727345675e+308,-2.0,-1000000000000.0];
+[-1.0,1000000.0,1.0,-62.786240829632675];
+[-1000000000000.0,1000000000000.0];
+v34.length = v36;
+const o42 = {
+};
+new Proxy(f0, o42);
+const o51 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o51);
+function f0() {
+}
+function f1() {
+    const o11 = {
+        __proto__: f0,
+        [f0]: f0,
+        set c(a3) {
+            function f4(a5, a6) {
+                const o7 = {
+                    "e": a3,
+                };
+                return o7;
+            }
+            f4(f0, this);
+            f4(this, a3);
+            f4(this, this);
+        },
+    };
+    return o11;
+}
+f1();
+const v13 = f1();
+f1();
+[-9,46965,-32921,-11507,-90720115,6,0,-2,-1369696771];
+const v16 = [65537];
+const v17 = [-1,7,9007199254740992,257,-1054951857,268435440];
+class C18 extends f0 {
+    static [v13] = v13;
+    static p(a20, a21) {
+        try {
+            v16[0] = f0;
+        } catch(e22) {
+        }
+        return a21;
+    }
+    c = v13;
+    static [f1];
+    g = v16;
+    static #b = f0;
+}
+new C18();
+new C18();
+new C18();
+const v29 = v17 > v16;
+v29 ? v17 : v16;
+if (v29) {
+    v13[Symbol.asyncIterator];
+} else {
+    try {
+        f1();
+    } catch(e35) {
+    }
+}

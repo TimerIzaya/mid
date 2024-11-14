@@ -1,0 +1,43 @@
+let v2 = 10000;
+const v4 = new WeakSet();
+function f5(a6) {
+    const o17 = {
+        [1073741824](a8, a9) {
+            -7495 >>> v2;
+            let v12;
+            try { v12 = a6(); } catch (e) {}
+            v12?.[WeakSet];
+            return a6;
+        },
+        "a": a6,
+    };
+    return o17;
+}
+f5(v2);
+const v19 = f5(v2);
+f5(v2);
+class C22 extends f5 {
+    get d() {
+        [v4,1073741824,f5,this,this];
+        this.a;
+        for (let v26 = 0; v26 < 32; v26++) {
+            v19["p" + v26] = v26;
+        }
+        return 1073741824;
+    }
+    static d;
+}
+let v29 = new C22();
+let v30 = new C22();
+const v31 = new C22();
+({"a":v2,} = v19);
+v29[155] = v30;
+let v33;
+try { v33 = v29["p"]("p", v30, v31, true); } catch (e) {}
+let v34;
+try { v34 = v2(f5); } catch (e) {}
+v29 = v4;
+({"d":v30,"h":f5,"length":v2,...v2} = "p");
+%VerifyType("p");
+v34.b = true;
+v19.toString = v33;

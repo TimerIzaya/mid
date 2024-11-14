@@ -1,0 +1,48 @@
+class C3 {
+    static #m(a5, a6) {
+        -4.0 & a5;
+        const o10 = {
+            "maxByteLength": 512,
+        };
+        const v12 = new SharedArrayBuffer(7, o10);
+        new BigUint64Array(v12);
+        return 512;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+class C18 {
+    static #o(a20, a21) {
+        v16[46] = super[this];
+        return a21;
+    }
+    constructor(a24, a25, a26, a27) {
+        try { a26(C3, this); } catch (e) {}
+        new WeakMap();
+    }
+}
+const v31 = new C18(v16, C18, v16, v15);
+const v32 = new C18(v16, C18, v31, C3);
+new C18(v15, v32, v31, v32);
+Object.defineProperty(v32, "e", { writable: true, configurable: true, value: v17 });
+const v34 = v16.h;
+for (const v35 of v34) {
+    const o36 = {
+    };
+    o36.e = v35;
+    const o37 = {
+    };
+    o37.e = v35;
+    o37.f = v35;
+    const o38 = {
+    };
+    o38.e = v35;
+    o38.f = v35;
+    o38.c = v34;
+    const o39 = {
+    };
+    o39.e = v35;
+    o39.f = v35;
+    o39.a = -4.0;
+}

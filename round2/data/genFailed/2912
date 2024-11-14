@@ -1,0 +1,36 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 1073741824;
+    this.c = 1073741824;
+}
+new F0();
+new F0();
+const v5 = new F0();
+const v6 = [823372770,257,-13222,268435439];
+[-283148159,8,0,2147483648,-4294967297,-40934];
+const v8 = [16274,-9,2,536870887,-9007199254740990,-3];
+class C9 extends F0 {
+    constructor(a11, a12) {
+        super();
+        Reflect.construct(super[a11], [this,Reflect,this], F0);
+    }
+    #h;
+    1073741823 = v8;
+    static #c;
+}
+const v17 = new C9(v5, v8);
+const v18 = new C9(v17, v8);
+const v19 = new C9(v18, v6);
+class C23 {
+    static get a() {
+        let v27 = -65536;
+        let v28 = -Infinity;
+        v27 % ++v27;
+        Math.sqrt(v27);
+        ++v28;
+        return v19;
+    }
+}
+new C23();
+new C23();
+new C23();

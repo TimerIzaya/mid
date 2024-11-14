@@ -1,0 +1,42 @@
+class C3 {
+    o(a5) {
+        const v7 = Symbol.toStringTag;
+        a5[v7];
+        return v7;
+    }
+    toString(a10, a11) {
+        class C12 {
+            #b;
+            static #a = -0.0;
+            static 127;
+        }
+        new C12();
+        const v14 = new C12();
+        new C12();
+        return v14;
+    }
+}
+const v16 = new C3();
+const v17 = new C3();
+const v18 = new C3();
+function F19(a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a22;
+    this.b = a22;
+    this.f = a22;
+}
+new F19(v18, v16);
+const v24 = new F19(v16, v17);
+new F19(v17, v17);
+new Uint8Array(10);
+new Int32Array(1024);
+const v34 = new Int32Array(3);
+try { v34.toSorted(Int32Array); } catch (e) {}
+let v36;
+try { v36 = v24.setUint16(v17, 3, F19); } catch (e) {}
+const v38 = [v36,Uint8Array];
+Reflect.apply(v34.reduceRight, v36, v38);
+try {
+    new F19(v17, v17);
+} catch(e42) {
+}

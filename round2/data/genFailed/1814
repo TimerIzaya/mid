@@ -1,0 +1,16 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 7n;
+    this.b = 13n;
+}
+const v7 = new F3(7n, 13n);
+const v8 = new F3(7n, -13n);
+new F3(7n, 7n);
+new Int8Array(6);
+new Uint8ClampedArray(4096);
+const v21 = new Uint8ClampedArray(4);
+new Int8Array(v7);
+Reflect.construct(Uint8ClampedArray, [v8,4,4], Int8Array);
+443446.3488132977 | 4096;
+v21.__proto__;
+7n & v7;

@@ -1,0 +1,19 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = "h";
+}
+const v7 = new F3("undefined", F3);
+const v8 = new F3("getInt16", v7);
+new F3("h", v7);
+const v12 = new Float32Array(635);
+const v15 = new Uint32Array(15);
+const v18 = new BigUint64Array(3756);
+class C20 extends v18.constructor {
+    static [v15];
+    #g;
+}
+new C20();
+v18[9] = v8;
+const v22 = ["h",F3,"h",Float32Array];
+const v23 = [v22,"getInt16",15,v22];
+[v23,v23,v12,v15,"h"];

@@ -1,0 +1,86 @@
+function f1() {
+    return false;
+}
+let v2 = [323031.6920397454,1.7976931348623157e+308,-2.220446049250313e-16,0.3229698500464764,-1000000000.0];
+const v3 = [0.27943996929594217,2.0];
+const v4 = [-281632.5660932084,-1.5832532664240568e+308,-898342.6755576844,3.0,-884526.8835294881,1000000000.0,-1.4695945849398377,-6.002532014595772e+307];
+function f5(a6) {
+    const o10 = {
+        __proto__: a6,
+        get b() {
+            let v7 = this;
+            f1();
+            ({"h":v2,"length":v7,} = a6);
+            a6 ||= a6;
+            new f1();
+            return v7;
+        },
+        [false]: v3,
+        "g": a6,
+        [v4]: v3,
+    };
+    return o10;
+}
+f5(v4);
+f5(v4);
+const v13 = f5(v4);
+new Float64Array(8);
+const v19 = new Int32Array(1);
+const v22 = new Uint8Array(1);
+Object.defineProperty(v19, "b", { writable: true, get: f1 });
+v22[-2] = v19;
+const o23 = {
+};
+o23.g = false;
+const o24 = {
+};
+o24.g = false;
+o24.e = v13;
+const o25 = {
+};
+o25.g = false;
+o25.e = v13;
+o25.a = 1;
+const o26 = {
+};
+o26.g = false;
+o26.e = v13;
+o26.a = v4;
+const v0 = [0.46400503740270194,5.0,0.18585960209949937,1000.0,6.751980566758686,-2.2250738585072014e-308,0.3705574684994146,-2.2250738585072014e-308,-1.0];
+const v1 = [1.0,1.4930895407656393e+308,-2.220446049250313e-16,0.5934328555156402,2.220446049250313e-16,5.603997005485111e+307,156.83871063310949,-Infinity];
+const v2 = [0.8035930199995744,-1000000000000.0];
+class C3 {
+    set f(a5) {
+    }
+    [v2];
+    constructor(a10, a11) {
+        try {
+            super.d = v2;
+        } catch(e12) {
+        }
+    }
+}
+const v13 = new C3(v2, v2);
+new C3(v2, v0);
+const v15 = new C3(v1, v1);
+try {
+    new Float32Array(7);
+} catch(e19) {
+}
+try {
+    new Int32Array(234);
+} catch(e23) {
+}
+try {
+    new Uint32Array(182);
+} catch(e27) {
+}
+a = v13.__proto__;
+Math.log1p(v0 & -6);
++182;
+Math.trunc(-6);
+Object.defineProperty(v1, "length", { configurable: true, enumerable: true, value: v0 });
+try {
+    v15.__proto__ = v15;
+} catch(e35) {
+}

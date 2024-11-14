@@ -1,0 +1,37 @@
+class C6 {
+    static p(a8, a9) {
+        try {
+            super.p(a9, a9);
+        } catch(e11) {
+        }
+        a9 ^ 2147483648;
+        return 2147483648;
+    }
+    o(a14, a15, a16) {
+        new Uint32Array(8);
+        new Uint8ClampedArray(127);
+        new BigUint64Array(10);
+        return -1.3865741736015652e+308;
+    }
+}
+const v26 = new C6();
+new C6();
+const v28 = new C6();
+function F32(a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a34;
+    this.h = a35;
+}
+const v37 = new F32(1000n, 190279887n, 190279887n);
+new F32(v37, 9n, 190279887n);
+const v39 = new F32(v28, 1000n, 9n);
+let [v40,...v41] = v39;
+try { v37.valueOf(2147483649, 2147483648, 190279887n, v40, v41); } catch (e) {}
+const o48 = {
+    set e(a44) {
+        try {
+            v28.o(2147483649, 190279887n, [F32,190279887n,v26,2147483648,v39]);
+        } catch(e47) {
+        }
+    },
+};

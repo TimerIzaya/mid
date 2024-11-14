@@ -1,0 +1,46 @@
+const v0 = [9007199254740992,536870887,-268435456,0,536870889,-65536,-1600211579,-32022];
+const v1 = [2544,-7,536870888,268435439];
+const v2 = [1595748980,-9007199254740991,-4294967296];
+class C3 {
+    [v0];
+    static p(a5, a6) {
+        let v4 = this;
+        v4 ^= v0;
+        return -6.009327065304096e+307;
+    }
+    static #f = v2;
+    static [v1];
+    static #c = v1;
+}
+const v10 = new C3();
+new C3();
+const v12 = new C3();
+function f13(a14, a15, a16) {
+    const o26 = {
+        [a15](a18, a19, a20, a21) {
+            a20 = a15;
+            v12 ^ v12;
+            const v23 = a20[v10];
+            try { v10.toString(C3, v12, v23, v1, v1); } catch (e) {}
+            super.g;
+            return C3;
+        },
+        [v10]: a16,
+        "d": a16,
+        [a15]: C3,
+    };
+    return o26;
+}
+const v27 = f13(v0, C3, v2);
+const v28 = f13(v2, C3, v1);
+const v29 = f13(v1, v1, v0);
+v2.length = v29;
+const v30 = v10[v27];
+const v31 = C3[v30];
+f13 &&= f13;
+if (v0 instanceof C3) {
+    v30?.[v29];
+} else {
+    new f13(v31, v2, v31);
+    Object.defineProperty(v10, v28, { writable: true, enumerable: true, get: f13 });
+}

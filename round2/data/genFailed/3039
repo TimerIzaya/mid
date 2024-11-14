@@ -1,0 +1,38 @@
+function f0() {
+    const o12 = {
+        ...477.4762694907597,
+        [5.424196882032184]: 5.424196882032184,
+        "a": -5.228625321273513e+307,
+        "b": 5.424196882032184,
+        "g": 477.4762694907597,
+        268435441: -5.228625321273513e+307,
+        get e() {
+            function f5(a6, a7, a8, a9) {
+                a6 = arguments;
+                return arguments;
+            }
+            f5();
+            return f5;
+        },
+    };
+    return o12;
+}
+f0();
+const v14 = f0();
+const v15 = f0();
+let v16 = 13;
+new Int32Array(v16);
+let v21 = new Int8Array(3);
+const v24 = new Uint32Array(4);
+const v25 = [Int8Array,v14,v24];
+[v25,Uint32Array,Int8Array,v24,Int32Array];
+const v27 = [f0,v25];
+with (v15) {
+    let v29 = v15[e];
+    [...v29] = e;
+    ({"b":v21,"h":v16,"length":v21,} = v27);
+    ~3;
+    [9.155972210470516];
+    [-766.8726415262752];
+    [2.0,-1.4452410180900138e+308];
+}

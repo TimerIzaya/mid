@@ -1,0 +1,30 @@
+const v2 = new Float64Array(3751);
+new Int16Array(3426);
+new Uint8Array(16);
+class C12 {
+    #p(a14, a15) {
+        try {
+            new Uint8Array(2);
+        } catch(e18) {
+        }
+        return v2;
+    }
+    m(a20, a21, a22) {
+        try {
+            ("bigint").#p(Int16Array, a21);
+        } catch(e24) {
+        }
+        return 16;
+    }
+}
+new C12();
+new C12();
+new C12();
+const o28 = {
+};
+new Proxy("bigint", o28);
+let v31;
+try { v31 = C12(); } catch (e) {}
+const v35 = v31?.[3460];
+const v37 = [];
+Reflect.apply(("bigint").trimStart, v35, v37);

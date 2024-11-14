@@ -1,0 +1,55 @@
+const v5 = new BigUint64Array(4096);
+new Uint8ClampedArray(1024);
+new Int8Array(39);
+function f15() {
+    return -314588.17458941543;
+}
+try {
+    v5.subarray();
+} catch(e17) {
+}
+v5 ^ 9007199254740990;
+const o21 = {
+    "maxByteLength": 14,
+};
+const v23 = new ArrayBuffer(14, o21);
+new Float32Array(v23);
+const v0 = [1.8488152880473367e+307,-8.469382644534046e+307,2.0,-Infinity,5.198804727953144e+307,0.8665934081159004,-53.30876237903999,-9.48596044437652];
+const v1 = [2.0,-552203.8627012994,-2.0,4.0,-5.0];
+const v2 = [-722173.8616534941,1.5041303548275817e+308,987.8523283803243,-1000000000.0];
+class C3 {
+    1293481821 = v2;
+    constructor(a5) {
+        v1.length **= a5;
+    }
+    [v0] = v0;
+    static #f = v1;
+    static #a;
+    static b;
+}
+const v9 = new C3(v1);
+const v10 = new C3(v1);
+const v11 = new C3(v0);
+class C15 extends C3 {
+    valueOf(a17, a18) {
+        return C3;
+    }
+    #g;
+    h = v9;
+    #d;
+    static d = v11;
+}
+const v23 = new C15();
+const v24 = new C15();
+const v25 = new C15();
+function F26(a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v25;
+    } catch(e31) {
+    }
+}
+new F26(v24, v25, v23);
+new F26(v25, v25, v23);
+new F26(v24, v24, v23);
+try { v10("-15643"); } catch (e) {}

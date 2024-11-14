@@ -1,0 +1,28 @@
+let v1 = Int16Array;
+let v2 = new v1(73);
+let v4 = Int16Array;
+const v5 = new v4(2650);
+new Uint8Array(15);
+class C10 extends v4 {
+    toString(a12, a13) {
+        v2["values"]();
+        const t7 = "values";
+        t7[this] ||= a13;
+        v2[a13];
+        ({"byteOffset":v2,...v1} = v5);
+        return v1;
+    }
+}
+const v20 = new C10();
+new C10();
+const v22 = new C10();
+let v23;
+try { v23 = v20(v22, false); } catch (e) {}
+const v24 = (a25, a26, a27, a28) => {
+    a27.byteLength = a25;
+    a28.toString = v23;
+    v4 = C10;
+    return a25;
+};
+Object.defineProperty(v20, "b", { writable: true, get: v24 });
+2650 >= false ? 2650 : false;

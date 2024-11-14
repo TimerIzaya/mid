@@ -1,0 +1,50 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = -40481;
+    this.b = -40481;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C9 extends F0 {
+    constructor(a11, a12) {
+        super();
+        a12[-4096n];
+        new WeakSet();
+    }
+    static #n(a17, a18, a19, a20) {
+        super[a17];
+        super[F0] = F0;
+        super.b;
+        return 268435441;
+    }
+}
+const v26 = new C9(-4096n, v4);
+const v27 = new C9(v4, v26);
+const v28 = new C9(v26, v27);
+function f29(a30, a31, a32, a33) {
+    const o34 = {
+        [-1]: a33,
+        "b": 3n,
+        "d": 3n,
+        "c": v28,
+        [a30]: v3,
+        __proto__: C9,
+        [v3]: F0,
+        "e": a31,
+        4096: v4,
+        ...v26,
+        "h": v3,
+        "f": a33,
+    };
+    return o34;
+}
+let v35 = f29(-58689n, v28, -4096n, -58689n);
+const v36 = f29(3n, v3, 3n, v4);
+f29(3n, v5, -58689n, v28);
+v36 / v35;
+v35 = v28;
+new f29(-58689n, v28, -58689n, C9);
+new Int32Array(0);
+new Int16Array(14);
+new Int32Array(1214);

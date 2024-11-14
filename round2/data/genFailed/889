@@ -1,0 +1,50 @@
+[-16];
+[14,4096,1,35170,1997569289];
+[0,-2147483647,-268435456,1024,62429,65535,9];
+const v13 = /\P{gc=Decimal_Number}yxyz{1,}?/gmyisdu;
+const v14 = /[\118][x\dz]/mi;
+const v15 = /a\Bb/mysdu;
+const o16 = {
+    __proto__: v13,
+    "c": 1073741825n,
+    "g": v15,
+};
+let v17;
+try { v17 = new v14(v14); } catch (e) {}
+o16 & -13n;
+const v20 = [v17];
+Reflect.apply(v13.exec, o16, v20);
+try {
+    new BigInt64Array(1914);
+} catch(e3) {
+}
+try {
+    new Float32Array(2208);
+} catch(e7) {
+}
+try {
+    new Uint16Array(5);
+} catch(e11) {
+}
+function F18(a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = Float32Array;
+    } catch(e23) {
+    }
+}
+new F18("function", 1914, "-9007199254740991");
+new F18("hHx8", 5, "object");
+const v26 = new F18("-9007199254740991", 2208, "undefined");
+%VerifyType("object");
+try { v26(v26, BigInt64Array, BigInt64Array, "hHx8"); } catch (e) {}
+v26.e;
+class C29 extends Uint16Array {
+    b = Float32Array;
+    [Float32Array] = "undefined";
+    2;
+    5;
+}
+new C29();
+new C29();
+new C29();

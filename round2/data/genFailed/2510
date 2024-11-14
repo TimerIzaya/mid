@@ -1,0 +1,61 @@
+class C3 {
+    constructor(a5) {
+        let [v6] = a5;
+        "f" == v6;
+        const t3 = "f";
+        t3[1] += -1000000000.0;
+        a5[-1000000000.0] = "f";
+        a5 %= 26331;
+        const v9 = Symbol.iterator;
+        const o18 = {
+            [v9]() {
+                let v11 = 10;
+                const o17 = {
+                    next() {
+                        v11--;
+                        const v15 = v11 == 0;
+                        const o16 = {
+                            "done": v15,
+                            "value": v11,
+                        };
+                        return o16;
+                    },
+                };
+                return o17;
+            },
+        };
+    }
+}
+const v19 = new C3("f");
+new C3(C3);
+const v21 = new C3("f");
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v21;
+    this.f = a24;
+    this.h = a24;
+}
+const v26 = new F22(v19, v19);
+const v27 = new F22("f", v26);
+const v28 = new F22(C3, v27);
+new Int16Array(6);
+new Uint16Array(255);
+new BigInt64Array(129);
+v28.__proto__;
+const o39 = {
+};
+o39.f = "f";
+const o40 = {
+};
+o40.f = "f";
+o40.d = v21;
+const o41 = {
+};
+o41.f = "f";
+o41.d = v21;
+o41.c = v21;
+const o42 = {
+};
+o42.f = "f";
+o42.d = v21;
+o42.c = 255;

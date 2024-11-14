@@ -1,0 +1,13 @@
+const v3 = ["bx","symbol","getOwnPropertyDescriptor","getOwnPropertyDescriptor","getOwnPropertyDescriptor"];
+const v4 = [v3];
+const v5 = ["symbol","getOwnPropertyDescriptor","symbol",v3,v4];
+new Array(512);
+Array[Array] /= 16;
+for (let v15 = 0; v15 < 100; v15++) {
+    const v17 = [Array];
+    Reflect.apply(v4.sort, "getOwnPropertyDescriptor", v17);
+}
+Object.defineProperty(v5, "length", { set: Array });
+function f20() {
+    return 512;
+}

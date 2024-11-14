@@ -1,0 +1,28 @@
+const v1 = [null,null,null];
+const v2 = [v1,null,null];
+const v3 = [null,null];
+const v5 = new WeakSet();
+class C6 extends WeakSet {
+    f = v3;
+    constructor(a8, a9, a10, a11) {
+        super(a10);
+        a8.toString = a9;
+        %VerifyType(null);
+        new Int16Array(5);
+        new Uint16Array(12);
+        new BigUint64Array(1860);
+    }
+}
+const v21 = new C6(v1, null, v1, v2);
+const v22 = new C6(v1, WeakSet, v3, v3);
+const v23 = new C6(v2, v22, v2, v2);
+[9007199254740990,268435441,-2147483648];
+[257,16400,31082];
+[-15,-6,13,-49970,-536870912,257,24332,-31085,16];
+try {
+    new C6(v2, v3, v3, [v21,v5,v22,v23,C6]);
+} catch(e29) {
+}
+new BigUint64Array(44);
+new BigUint64Array(43);
+new Uint16Array(2);

@@ -1,0 +1,44 @@
+const v1 = new Set();
+function f2(a3, a4) {
+    const o9 = {
+        get d() {
+            this[a4] >>>= a4;
+            for (let v6 = 0; v6 < 32; v6++) {
+                v1["p" + v6] = v6;
+            }
+            return this;
+        },
+        ...v1,
+        "b": v1,
+        "f": Set,
+        ...v1,
+        "a": Set,
+    };
+    return o9;
+}
+const v10 = f2(v1, f2);
+const v11 = f2(Set, v10);
+const v12 = f2(f2, v10);
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a15;
+}
+const v18 = new F13(v11, v11, v12);
+const v19 = new F13(v12, v12, v12);
+const v20 = new F13(v11, v12, v10);
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v10;
+}
+new F21(v19, v20);
+new F21(v19, v18);
+new F21(v20, v18);
+let v28 = 10;
+for (; v28--;) {
+    v10 == v1 ? v10 : v1;
+    const o34 = {
+        "maxByteLength": 3,
+    };
+    const v36 = new SharedArrayBuffer(3, o34);
+    new Int32Array(v36);
+}

@@ -1,0 +1,84 @@
+new BigUint64Array(255);
+const v5 = new Uint32Array(15);
+const v8 = new Int16Array(5);
+function f9() {
+    return v8;
+}
+class C10 extends Int16Array {
+    251397664 = 15;
+    constructor(a12, a13, a14, a15) {
+        super(a12, 255, 255);
+        super.some(f9);
+    }
+    g = 5;
+    static #p(a19, a20, a21, a22) {
+        const v24 = Symbol.toPrimitive;
+        const o26 = {
+            [v24]() {
+                super[v24] = BigUint64Array;
+                v8[5] = v5;
+                return a22;
+            },
+        };
+        return o26;
+    }
+}
+new C10(5, 5, 5, 5);
+new C10(5, 255, 255, 15);
+new C10(5, 5, 5, 5);
+const o35 = {
+    "maxByteLength": 129,
+};
+const v37 = new ArrayBuffer(129, o35);
+const v39 = new DataView(v37);
+v39 - v39;
+[1029742607,-65535,7,-25221];
+const v1 = [536870912,-4294967297,1073741824,4294967295,1];
+const v2 = [1073741823,-26252,511267536,-1979481472,-65535,619204695,4];
+[-309751.69985531294,-964.8864830395316,-6.59459103756007e+307,-8.02228417228246,NaN,493.76454139249245,1.7976931348623157e+308];
+const v4 = [3.0,6.4975777763549445,1.417984829363636e+308,-1000000000.0,-5.0,-1.7976931348623157e+308];
+const v5 = [588128.6747838149,-5.016173198618505e+307,-Infinity,6.934686442631783,-1.7976931348623157e+308,0.042536604445343795,-2.2250738585072014e-308];
+const v6 = [-0.0,-1.0994312410905298,-2.220446049250313e-16,1.736967248829826];
+const v7 = [1.14384968186377e+308,-3.0,0.642921906418557,790215.5309903852,2.0,0.11388353107441851,Infinity,583.4132694169477,-2.220446049250313e-16];
+const v8 = [1.0,751645.874261382,-0.8120392553390801,1000000000.0,-1.2782388645472393e+307,5.0];
+let v10 = new WeakSet();
+function f11(a12, a13, a14, a15) {
+    const o30 = {
+        "a": v5,
+        "h": v1,
+        set g(a17) {
+            try { a17(a13, a12); } catch (e) {}
+        },
+        get f() {
+            Math.trunc(~255);
+            const v25 = ++a13;
+            v25 ^ v25;
+            Math.atanh(a12 & v25);
+            Math.cosh(v25);
+            return v4;
+        },
+    };
+    return o30;
+}
+const v31 = f11(v5, v4, v4, v6);
+f11(v5, v2, v1, v6);
+const v33 = f11(v1, v2, v7, v5);
+try {
+    v10 &= v33;
+} catch(e34) {
+}
+const v36 = [f11];
+const v37 = v8.reduceRight;
+const v38 = Reflect.apply(v37, v31, v36);
+let v39;
+try { v39 = v37(v38); } catch (e) {}
+function F40(a42, a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a44;
+    } catch(e46) {
+    }
+}
+const v47 = new F40(v1, v8, Reflect, v38);
+const v48 = new F40(v47, v8, v47, v2);
+new F40(v48, v2, v36, v39);

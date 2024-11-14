@@ -1,0 +1,24 @@
+class C3 {
+    #toString(a5, a6) {
+        this[a6] = a5;
+        try {
+            this.#toString(2n, a6, 12n, 64n);
+        } catch(e8) {
+        }
+        return a6;
+    }
+    [2n];
+    f;
+}
+new C3();
+const v10 = new C3();
+const v11 = new C3();
+[257,2147483649,63373,1073741824];
+[-46670];
+[2147483648,-1666874856];
+for (let v15 = 0; v15 < 32; v15++) {
+    C3["p" + v15] = v15;
+}
+C3 = v11;
+v10[3] ^= 2n;
+Reflect.construct(v10, [], v11);

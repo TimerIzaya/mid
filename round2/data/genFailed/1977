@@ -1,0 +1,60 @@
+function f0() {
+}
+class C4 extends f0 {
+    static [1389255265];
+    static {
+        const v6 = this.b;
+        Object.defineProperty(v6, "c", { writable: true, enumerable: true, set: f0 });
+        v6.valueOf = f0;
+        v6.__proto__ = v6;
+    }
+    static #g;
+    static set c(a8) {
+        const v9 = super.c;
+        this[268435440] %= v9;
+        try {
+            this.toString(15498, a8, this, v9);
+        } catch(e11) {
+        }
+        try {
+            a8.#g = 48584;
+        } catch(e12) {
+        }
+    }
+}
+const v13 = new C4();
+const v14 = new C4();
+const v15 = new C4();
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v14;
+    this.b = a18;
+}
+const v22 = new F16(15498, v13, v14, v14);
+const v23 = new F16(v22, v14, v14, v13);
+new F16(v15, v14, 15498, v23);
+function f25(a26, a27) {
+    const o34 = {
+        7: C4,
+        [a26]: a27,
+        "b": a26,
+        set d(a29) {
+            this.b;
+            /n*/gisd;
+            /[(a)\1+]/yiv;
+            /(v(?:a?)?)/myisu;
+            a26.a <<= 1389255265;
+        },
+        "f": v22,
+        "c": v14,
+        __proto__: v14,
+    };
+    return o34;
+}
+f25(v14, v23);
+f25(v23, 15498);
+f25(v15, v14);
+const v42 = f0 - f0;
+Math.floor(v42);
+v15 || (1.0 & 58289);
+%VerifyType(v42 && 536870887);

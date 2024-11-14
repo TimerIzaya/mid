@@ -1,0 +1,30 @@
+class C3 {
+    m(a5, a6) {
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = a5;
+        }
+        new F7("e", "a");
+        const v12 = new F7(a6, a6);
+        new F7("a", a5);
+        return v12;
+    }
+    static e;
+    ["e"] = "e";
+}
+new C3();
+new C3();
+new C3();
+[0.9881445026572144,1000000.0,Infinity,-4.0];
+[-9.13371833850301e+307,157.8268278445023,-5.0,477.62803527325445,394364.9407509321,-680629.2040645066,Infinity,4.0,-1.0,Infinity];
+const v19 = [373794.6962507712,1.2989580728640862e+307,-92.96178790186354,1.5775313619735272,-1e-15,2.9629501556128254e+307,-5.0];
+new Date();
+let v22 = 0;
+do {
+    Object.defineProperty(v19, "d", { writable: true, configurable: true, enumerable: true, set: Date });
+    try {
+        Date(v22);
+    } catch(e24) {
+    }
+    v22++;
+} while (v22 < 9)

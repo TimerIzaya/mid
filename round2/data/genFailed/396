@@ -1,0 +1,49 @@
+const v1 = new WeakMap();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = WeakMap;
+}
+const v5 = new F2(WeakMap);
+const v6 = new F2(WeakMap);
+let v7 = new F2(F2);
+class C8 extends F2 {
+    b = WeakMap;
+    o(a10, a11, a12, a13) {
+        a11 + a13;
+        v7 ||= a11;
+        return F2;
+    }
+    [v6];
+    [v5] = WeakMap;
+    static d = F2;
+    static 3;
+    [F2] = WeakMap;
+}
+const v15 = new C8();
+const v16 = new C8();
+const v17 = new C8();
+const v18 = [C8,v16,v5,C8,WeakMap];
+const v19 = [v16,v15];
+[v19,v19,v17];
+const v21 = delete v6[2898];
+v17 >> v6;
+let v23;
+try { v23 = v7(v15, v1, WeakMap, ...v19, v17, ...v18); } catch (e) {}
+v19 instanceof v23;
+function* f25(a26, a27, a28, a29) {
+    try {
+        const v31 = [-3.0,WeakMap,a26,a29,v21];
+        C8.n(a28, -3.0, v31, v31);
+    } catch(e33) {
+    }
+    yield* v19;
+    return a27;
+}
+f25(v15, v18, v16, v15);
+[1000000000000.0,-215809.4938196966,-9.748590442860747];
+[-8.632176648485304,-1.5259941898295698e+308,-957.5526642300665,-1000000000.0,1000000.0,4.0,-43948.780988477985];
+typeof [-1000.0,Infinity,-203.30947833110315] === "boolean";
+const v20 = +7;
+const v21 = 7 || -128n;
+(-128n + -128n) << 66376884;
+v20 >> v21;

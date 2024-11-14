@@ -1,0 +1,53 @@
+function f1() {
+    const o5 = {
+        [true]() {
+            var h = true;
+            try {
+                super.m(true, this, true, true);
+            } catch(e4) {
+            }
+            return true;
+        },
+        [true]: true,
+        "c": true,
+        "d": true,
+    };
+    return o5;
+}
+const v6 = f1();
+const v7 = f1();
+const v8 = f1();
+function f12(a13, a14, a15, a16) {
+    const o22 = {
+        ...v7,
+        2: v7,
+        "b": a14,
+        "f": a13,
+        ...a13,
+        toString(a18, a19) {
+            try {
+                super.is(this);
+            } catch(e21) {
+            }
+            return v8;
+        },
+    };
+    return o22;
+}
+const v23 = f12(v8, v7, v7, 536870887);
+const v24 = f12(f1, v6, v8, -41398);
+f12(v7, v7, v6, -41398);
+switch (f12) {
+    case v6:
+        f1(f1, v6, true, 1073741823);
+        break;
+}
+class C27 {
+    [v24] = v23;
+    static 5;
+    static 9;
+    g;
+}
+new C27();
+new C27();
+new C27();

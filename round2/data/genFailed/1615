@@ -1,0 +1,30 @@
+const v1 = new WeakSet();
+class C8 extends WeakSet {
+    static #m(a10, a11, a12, a13) {
+        v1["growable"];
+        return 268435456n;
+    }
+    constructor(a19, a20, a21) {
+        super(v1);
+        try {
+            this.#m(a21, 268435456n, this, 1073741825n);
+        } catch(e23) {
+        }
+    }
+}
+new C8(1n, -2116986652, 10);
+new C8(1073741825n, 10, -2116986652);
+new C8(1073741825n, -2116986652, -2116986652);
+let v33 = 0;
+do {
+    const o38 = {
+        valueOf() {
+            try {
+                this.o(WeakSet, 0n);
+            } catch(e37) {
+            }
+            return -2116986652;
+        },
+    };
+    v33++;
+} while (v33 < 10)

@@ -1,0 +1,56 @@
+const v1 = new WeakSet();
+let v2 = WeakMap;
+new v2();
+new Float64Array(11);
+const v9 = new Int8Array(129);
+let v10 = 3151;
+new Int32Array(v10);
+v1.b = v1;
+let v13;
+try { v13 = v9.reduce(v10); } catch (e) {}
+[v2,...v10] = v9;
+Int32Array instanceof v10;
+class C15 {
+    #g;
+    3900343878 = v13;
+}
+new C15();
+new C15();
+new C15();
+try {
+    new Int8Array(4096);
+} catch(e6) {
+}
+try {
+    new Float64Array(10);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e14) {
+}
+try {
+    new Int16Array(151);
+} catch(e18) {
+}
+try {
+    new Uint8Array(3522);
+} catch(e22) {
+}
+try {
+    new BigUint64Array(257);
+} catch(e26) {
+}
+c = 4096;
+%VerifyType(BigUint64Array);
+for (const v28 of 8) {
+    let v29;
+    try { v29 = v28(v28); } catch (e) {}
+    new Float64Array(Uint8Array, v29, v29, 151);
+    Math.log2(-9007199254740992);
+    Math.cosh(v28);
+    Math.cbrt(-9007199254740992);
+    -9007199254740992 - ~v28;
+    !-9007199254740992;
+    -9007199254740992 / -9007199254740992;
+}

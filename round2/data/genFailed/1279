@@ -1,0 +1,42 @@
+let v0 = false;
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v0;
+}
+new F1();
+new F1();
+new F1();
+const v8 = new Int8Array(128);
+const v11 = new Uint32Array(5);
+new Int16Array(8);
+v0 = Int8Array > 128;
+v8.toString = v11;
+const o18 = {
+    "maxByteLength": 4,
+};
+const v20 = new SharedArrayBuffer(4, o18);
+new Float64Array(v20);
+const v0 = [257,2099561382];
+[1000,59395,10000,16];
+const v2 = [4,64,1,-772867868];
+const v6 = [1.2758352646569292e+308,4.576932885817195,-2.0,-5.0,-Infinity,-2.2250738585072014e-308,716.6622086426098,-3.192288509803927e+307,-2.220446049250313e-16];
+[-4.4080985303533e+307,0.9193825746374686,7.469469336148897,-1.0];
+const v8 = [825193.3022912962,917.9580029111314,1.344852214178059e+308,0.21012337745540755,1000000.0];
+const v9 = [-2094464686,-1073741824,14,2,-30282,107779416,246700245,7];
+const v10 = [-1218026861,1024,-9,-12061,1024,1154873038,139696020,-1073741824];
+const v11 = [268435441];
+[v2,v6,1n,v11];
+const v13 = [v11,v2,-65535n,v9];
+[v10,v0,v10,v13];
+const v16 = delete v2[BigInt];
+for (let i18 = 0; i18 < 8; i18++) {
+    try { v2.keys(); } catch (e) {}
+    -19260n >> v8;
+    const v29 = 1 ^ 1;
+    Math.tanh(v16);
+    Math.sin(v29);
+    Math.sinh(1);
+    const v33 = v16 | v13;
+    !1024172717;
+    v33 * 1;
+}

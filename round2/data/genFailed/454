@@ -1,0 +1,58 @@
+const v2 = new Int32Array(2);
+new Float64Array(120);
+new BigUint64Array(14);
+const v10 = new WeakMap();
+Int32Array ^ v10;
+v2.length = 8;
+v2["every"](14, "every");
+try {
+    new WeakMap("every");
+} catch(e19) {
+}
+function f0() {
+}
+function f1() {
+    const o12 = {
+        "f": f0,
+        "h": f0,
+        "b": f0,
+        __proto__: f0,
+        o() {
+            function F3(a5) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = a5;
+                } catch(e6) {
+                }
+                try {
+                    this.g = f0;
+                } catch(e7) {
+                }
+                try {
+                    this.b = this;
+                } catch(e8) {
+                }
+            }
+            const v9 = new F3(this);
+            const v10 = new F3(v9);
+            new F3(v10);
+            return v9;
+        },
+    };
+    return o12;
+}
+f1();
+let v14 = f1();
+const v15 = f1();
+f1();
+"f" <= f0;
+try {
+    v14 = v15;
+} catch(e24) {
+}
+"length" != v15 ? "length" : v15;
+const o30 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o30);

@@ -1,0 +1,56 @@
+const v1 = new WeakSet();
+class C2 {
+    m(a4, a5) {
+        d = this;
+        a4 = v1;
+        let v6;
+        try { v6 = a5(); } catch (e) {}
+        return v6;
+    }
+    static #m(a8, a9) {
+        super.c = a8;
+        v1.valueOf = a8;
+        try {
+            const o10 = {
+            };
+            new WeakSet(o10);
+        } catch(e12) {
+        }
+        return WeakSet;
+    }
+}
+const v13 = new C2();
+const v14 = new C2();
+const v15 = new C2();
+class C16 extends WeakSet {
+    set e(a18) {
+        super[C2];
+        [-5.0];
+        [1000000.0,5.0,1000000000000.0,-1.7976931348623157e+308,-676.8683566629375];
+        [-2.0,1e-15,-1.488799809480561,5.23331720955971e+307,-1.0,0.017326310756346164,-4.783217867606109e+307,-1000.0,-7.594783576064376,-2.220446049250313e-16];
+    }
+    constructor(a25, a26, a27) {
+        super(a27);
+        this[this] >>= a25;
+        [4294967295,-9007199254740992,536870912,0,407977349,536870888,-51211787];
+        [60140,4294967296,1073741824,-9007199254740991,268435456,667517647,10];
+        [4,65536,1,6,2147483648];
+        v13[6];
+        var d = C2;
+    }
+}
+new C16(v15, v15, v15);
+const v33 = new C16(v15, C16, v13);
+new C16(v15, C2, v15);
+function f38(a39, a40) {
+    function F41(a43, a44, a45) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.d = a45;
+        this.f = a45;
+    }
+    new F41(v14, -128, -128);
+    const v47 = new F41(C16, -128, -128);
+    const v48 = new F41(v47, -13, -528591195);
+    return v48;
+}
+f38(v15, v33);

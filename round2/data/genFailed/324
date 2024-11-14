@@ -1,0 +1,36 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 4294967297;
+    this.d = 4294967297;
+    this.g = 4294967297;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+[v3,v4,F0,v4,v4];
+[v3];
+[v5,v5];
+const v11 = new Array(9);
+new WeakMap();
+let v17 = v3 & 536870888;
+Math.log2(v17);
+v17 - 536870888;
+v17++;
+v17--;
+v11.__proto__ = v11;
+/a(?!b)(9)/gdv;
+/xyz{1,}\b/gyidu;
+/\118/gis;
+const v0 = [];
+function f1() {
+    return v0;
+}
+try {
+    const t5 = "I";
+    t5.length = -1;
+} catch(e14) {
+}
+Object.defineProperty("getUint16", "a", { enumerable: true, get: f1 });
+Reflect.construct(f1, [], f1);
+new f1();
+%VerifyType(v0);

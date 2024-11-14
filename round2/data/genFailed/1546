@@ -1,0 +1,14 @@
+new Float64Array(1);
+const v5 = new BigInt64Array(5);
+const v8 = new Int8Array(3103);
+const v11 = new Array(58);
+Object.defineProperty(v8, v11, { writable: true, configurable: true, get: Array });
+try {
+    const o15 = {
+    };
+    new BigInt64Array(o15, 58, 1);
+} catch(e17) {
+}
+58 in Array;
+v5[7] = -299.4029216335732;
+%VerifyType(BigInt64Array);

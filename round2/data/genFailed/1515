@@ -1,0 +1,72 @@
+function f0() {
+    const v2 = -Infinity;
+    const o12 = {
+        ...v2,
+        __proto__: -7.331776663719611,
+        set g(a5) {
+            function f6(a7) {
+                const o8 = {
+                    "h": a5,
+                    ...this,
+                    "e": a7,
+                };
+                return o8;
+            }
+            f6(a5);
+            f6(536870887);
+            f6(this);
+        },
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0();
+class C22 {
+    static {
+        try {
+            super.o(f0, f0, this, 14n, this);
+        } catch(e25) {
+        }
+        v14.g = this;
+    }
+    [1000n];
+    m(a27, a28, a29, a30) {
+        Math.sign(536870889n);
+        Math.atan2(536870889n, 536870889n);
+        Math.pow(536870889n, 536870889n);
+        536870889n - this;
+        536870889n + 1000n;
+        return -9223372036854775808;
+    }
+}
+const v38 = new C22();
+const v39 = new C22();
+const v40 = new C22();
+function f41(a42, a43, a44, a45) {
+    const o57 = {
+        "b": a44,
+        "f": a45,
+        "c": f0,
+        p(a47, a48) {
+            throw this;
+            14n || a48;
+            return a45;
+        },
+        toString(a51, a52, a53) {
+            a51.d = -60274;
+            a53 >>> -9223372036854775808;
+            return v39["m"](this, v38);
+        },
+    };
+    return o57;
+}
+f41(v38, v15, C22, v39);
+const v59 = f41(v40, v14, v14, 14n);
+const v60 = f41(v40, v13, v14, 5);
+delete v38?.e;
+v39[v59];
+try { v60.toString(); } catch (e) {}
+14n in v40;
+const v69 = new WeakSet();
+v69 !== v69;

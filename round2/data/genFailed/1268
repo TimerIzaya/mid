@@ -1,0 +1,86 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = -15;
+    this.h = -15;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v3;
+    this.e = a8;
+}
+const v10 = new F6(F0, v5);
+const v11 = new F6(v10, v5);
+const v12 = new F6(v10, v3);
+class C13 extends F0 {
+    set a(a15) {
+        const v16 = v3[1];
+        const v17 = v16?.[3065];
+        v16 in v17;
+        this.toString = v17;
+    }
+    constructor(a20, a21, a22, a23) {
+        super();
+        v4 instanceof a20;
+        new Uint8ClampedArray(129);
+        new Uint8ClampedArray(119);
+        new Float32Array(4);
+    }
+}
+new C13(C13, v12, v4, v3);
+const v38 = new C13(v4, v12, v11, C13);
+new C13(v38, v11, F0, v5);
+[9.16046278720208e+307,-1000000000000.0,1.0,2.220446049250313e-16,-3.9705407903684247,0.240140952838656,0.0,-1000000.0,-1000000.0,-561397.6425556943];
+[-2.2250738585072014e-308,-Infinity,-656.895538606005];
+[-1000000000000.0,2.2250738585072014e-308,-45.78300013077467,6.884646327245328,1000000.0,1e-15];
+for (let i44 = 0; i44 < 4; i44++) {
+    {
+        v12[Symbol.isConcatSpreadable] = v5;
+    }
+}
+try {
+    new Uint32Array(1857);
+} catch(e6) {
+}
+try {
+    new Uint32Array(6);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(3950);
+} catch(e14) {
+}
+class C15 extends Uint32Array {
+    [BigUint64Array];
+    set f(a17) {
+        try {
+            super.e = this;
+        } catch(e18) {
+        }
+    }
+    2 = Uint32Array;
+    #a = Uint32Array;
+    713382889;
+    0;
+}
+new C15();
+new C15();
+new C15();
+let v22 = 0;
+while (v22 < 7) {
+    try {
+        new Int32Array(2743);
+    } catch(e28) {
+    }
+    try {
+        new Int8Array(7);
+    } catch(e32) {
+    }
+    try {
+        new Int16Array(206);
+    } catch(e36) {
+    }
+    v22++;
+}

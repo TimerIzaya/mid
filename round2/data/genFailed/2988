@@ -1,0 +1,18 @@
+[];
+const v6 = new Uint8Array(256);
+new Int32Array(0);
+const v12 = new BigUint64Array(0);
+const v13 = [256,Uint8Array,0,v12];
+const v15 = [1024n,256,[v13,BigUint64Array,v13],v12,27851n];
+v15[6] = 27851n;
+const v16 = BigUint64Array >>> 1024n;
+let v20;
+try { v20 = v6.copyWithin(2147483649, -1, -6413); } catch (e) {}
+%VerifyType(v20);
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a24;
+}
+new F21(1024n, 27851n, v15);
+new F21(-1n, -1n, v15);
+new F21(v16, v20, v15);

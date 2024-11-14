@@ -1,0 +1,56 @@
+[1];
+[-65535,4096,268435439,-8688,5,2114140391,506448788];
+[4294967296,-1306730726,-268435456,48613,2147483648,-16164,3,2024975352];
+/qa\s[x\dz]tC[xyz]W5nk/myiu;
+/lwa+b|c/sdv;
+const v5 = /H(foo(?!bar)baz(a(?=bbb|bb)ctfoo(?=bar)baza$abc(?=)+))/isdu;
+let v7 = Int8Array;
+new v7(16);
+let v9 = 186;
+new Uint8ClampedArray(v9);
+new Uint16Array(648);
+let v18 = 0;
+do {
+    ({"h":v9,"length":v7,} = "undefined");
+    v5.__proto__ = "then";
+    ("then")[5];
+    v18++;
+} while (v18 < 6)
+const v1 = new Map();
+function f2(a3, a4) {
+    const o13 = {
+        ...a3,
+        "e": a4,
+        set c(a6) {
+            try { v1.entries(); } catch (e) {}
+            let {"e":v8,"h":v9,} = a6;
+        },
+        "g": a3,
+    };
+    return o13;
+}
+const v14 = f2(f2, Map);
+f2(f2, v1);
+const v16 = f2(v14, v1);
+let v17 = 127;
+try {
+    new Int16Array(v17);
+} catch(e20) {
+}
+try {
+    new Int16Array(430);
+} catch(e24) {
+}
+try {
+    new Uint16Array(4087);
+} catch(e28) {
+}
+Map || Uint16Array;
+try {
+    v17 = 430;
+} catch(e30) {
+}
+e = v1;
+%VerifyType(Uint16Array);
+new Map(v16);
+new Map();

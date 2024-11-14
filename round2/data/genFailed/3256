@@ -1,0 +1,48 @@
+function f0() {
+    const o17 = {
+        [1131191057]: "setYear",
+        "d": -2147483648,
+        [-2147483648]: 1131191057,
+        set a(a5) {
+            const v7 = Symbol.iterator;
+            const o16 = {
+                [v7]() {
+                    let v9 = 10;
+                    const o15 = {
+                        next() {
+                            v9--;
+                            const v13 = v9 == 0;
+                            const o14 = {
+                                "done": v13,
+                                "value": v9,
+                            };
+                            return o14;
+                        },
+                    };
+                    return o15;
+                },
+            };
+        },
+    };
+    return o17;
+}
+const v18 = f0();
+const v19 = f0();
+f0();
+function f21() {
+    return v18;
+}
+function F22(a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a24;
+}
+new F22(f0);
+new F22(F22);
+new F22(f0);
+v19[Symbol.asyncIterator];
+new f21();
+const o37 = {
+    "maxByteLength": 2030,
+};
+const v39 = new ArrayBuffer(2030, o37);
+new Uint32Array(v39);

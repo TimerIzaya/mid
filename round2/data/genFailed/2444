@@ -1,0 +1,20 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a10;
+    this.f = -4n;
+    this.h = 1024n;
+}
+new F6(-268435456n, 6n, -268435456n);
+const v12 = new F6(F6, -256n, -268435456n);
+new F6(v12, 6n, F6);
+new WeakSet();
+let v19 = 15627 / 1024n;
+v19 **= -256n;
+const o20 = {
+    "f": 1024n,
+};
+const o24 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o24);

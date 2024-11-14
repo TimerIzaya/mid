@@ -1,0 +1,31 @@
+const v5 = new Float64Array(43);
+let v7 = Int8Array;
+let v8 = new v7(64);
+const v11 = new Int32Array(3);
+class C13 {
+    #toString(a15, a16, a17) {
+        const o18 = {
+            __proto__: v8,
+            "g": a15,
+            [-33753]: this,
+        };
+        o18[v5] = o18;
+        v8.__proto__ = o18;
+        return a17;
+    }
+    [v5];
+    [Int32Array] = -33753;
+    1;
+    static c;
+    f = 2061109089;
+}
+new C13();
+let v20 = new C13();
+new C13();
+({"a":v20,"b":v7,"c":v8,} = C13);
+try { v8(v11, 3); } catch (e) {}
+v7 = v20;
+let v23;
+try { v23 = v20(64, 9007199254740990, v7, 3); } catch (e) {}
+v23.h &&= 2061109089;
+try { v20(64); } catch (e) {}

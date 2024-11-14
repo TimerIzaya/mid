@@ -1,0 +1,88 @@
+const v1 = new WeakMap();
+const v3 = new Map();
+class C4 extends Map {
+    static {
+        (this && this) == Map;
+    }
+    constructor(a9) {
+        super(a9);
+    }
+    [WeakMap];
+    e = WeakMap;
+    [v1];
+}
+const v13 = new C4(v1);
+const v14 = new C4(C4);
+const v15 = new C4(WeakMap);
+function f16(a17, a18) {
+    const o34 = {
+        ...v1,
+        "b": a17,
+        __proto__: v1,
+        [a18]: v3,
+        [C4]: v1,
+        "d": WeakMap,
+        "g": C4,
+        valueOf(a20, a21) {
+            a17.size *= a20;
+            this % v14;
+            const v24 = Symbol.iterator;
+            const o33 = {
+                [v24]() {
+                    let v26 = 10;
+                    const o32 = {
+                        next() {
+                            v26--;
+                            const v30 = v26 == 0;
+                            const o31 = {
+                                "done": v30,
+                                "value": v26,
+                            };
+                            return o31;
+                        },
+                    };
+                    return o32;
+                },
+            };
+            return a18;
+        },
+    };
+    return o34;
+}
+f16(v3, v3);
+const v36 = f16(v13, v15);
+f16(v15, v3);
+class C38 {
+    f = WeakMap;
+    static set e(a40) {
+        this >>> v36;
+    }
+    get h() {
+        super.h = this;
+        return v13;
+    }
+    #p(a44, a45) {
+        new f16(v14, a45);
+        f16(a45, v13);
+        f16(v13, v13);
+        %PrepareFunctionForOptimization(f16);
+        f16(v13, v13);
+        f16(v13, v13);
+        %OptimizeFunctionOnNextCall(f16);
+        f16(v13, v13);
+        return v3;
+    }
+}
+new C38();
+new C38();
+new C38();
+const v55 = f16(v14, v3);
+const v56 = v15[168];
+v55.g %= v56;
+const v57 = v56 * v36;
+class C59 extends v14.constructor {
+    a = Map;
+    static b = v57;
+    static [f16] = Map;
+}
+new C59();

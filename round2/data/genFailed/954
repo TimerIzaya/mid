@@ -1,0 +1,77 @@
+new Uint32Array(1024);
+const v5 = new BigInt64Array(7);
+let v6 = 5;
+const v8 = new Int8Array(v6);
+function f9(a10, a11, a12, a13) {
+    const o20 = {
+        241: Int8Array,
+        "c": a13,
+        "g": a12,
+        set f(a15) {
+            v6 * this;
+            this.c;
+            const v18 = v5.__proto__;
+            try { v18(this); } catch (e) {}
+        },
+        "b": 1024,
+        "h": v5,
+    };
+    return o20;
+}
+const v21 = f9(1024, 7, v8, v6);
+const v22 = f9(v6, 7, Uint32Array, 1024);
+f9(7, v22, v22, v6);
+for (let v25 = 0; v25 < 79; v25++) {
+    const v26 = v25;
+    v6 = v25;
+}
+v21[1024];
+v22[v6];
+throw v22;
+try {
+    const o29 = {
+    };
+    new BigInt64Array(o29, 14, 14);
+} catch(e32) {
+}
+/o[^z[x]?]/smuy;
+const v1 = /(?<=)/idgmu;
+/\bu/u;
+const v3 = /a+/siguy;
+const v4 = /(?:ab|cde)/smyv;
+/(?:foo)o(?:a*)+/siguy;
+/(x)(x)(x)\1?/myv;
+const v7 = /Ha\Sc/dgu;
+const v8 = /xyz{0,1}/iv;
+function f12(a13, a14, a15, a16) {
+    const o22 = {
+        __proto__: v3,
+        set c(a18) {
+            this.__proto__;
+            try {
+                v3.length = 2;
+            } catch(e21) {
+            }
+        },
+        "g": v7,
+        [v1]: a15,
+        ...a13,
+        "h": a15,
+        "e": v8,
+        "d": a16,
+    };
+    return o22;
+}
+f12("caller", v8, "caller", "0P");
+const v24 = f12("-10", "0P", "-10", "0P");
+f12("-10", v4, "-10", "caller");
+let v26 = 0;
+do {
+    f12("caller", v24, "caller", "caller");
+    %PrepareFunctionForOptimization(f12);
+    f12("caller", v24, "caller", "caller");
+    f12("caller", v24, "caller", "caller");
+    %OptimizeMaglevOnNextCall(f12);
+    f12("caller", v24, "caller", "caller");
+    v26++;
+} while (v26 < 2)

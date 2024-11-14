@@ -1,0 +1,46 @@
+class C3 {
+    static [732689.6825302846] = 732689.6825302846;
+    #p(a5, a6) {
+        +11;
+        typeof 1n === "object";
+        return this[-9.19506718506943e+307];
+    }
+    #a = 11;
+    static 3;
+    static [-9.19506718506943e+307];
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+const v23 = new Array(3);
+function f24(a25, a26, a27) {
+    const o28 = {
+        "a": 0.5640620667266372,
+        "f": 3.0,
+        "h": C3,
+        ...v17,
+        "g": 11,
+        __proto__: C3,
+        ...C3,
+        225: a26,
+        ...a27,
+        3254843607: a27,
+        ...v23,
+        "e": 732689.6825302846,
+        [v15]: 3.0,
+        "b": -9.19506718506943e+307,
+        "c": 0.5640620667266372,
+    };
+    return o28;
+}
+const v29 = f24(v17, 0.5640620667266372, 0.5640620667266372);
+f24(v17, -9.19506718506943e+307, v16);
+const v31 = f24(v29, 3.0, v23);
+Object.defineProperty(v17, 3, { writable: true, configurable: true, value: f24 });
+try { v15.toString(5.368899683752114e+307, v17, 512n, v17, 3); } catch (e) {}
+for (const v36 in v31) {
+    Object.defineProperty(delete v31?.b, 2737519324, { writable: true, configurable: true, enumerable: true, get: Array, set: f24 });
+    for (let v38 = 0; v38 < 32; v38++) {
+        Array["p" + v38] = v38;
+    }
+}

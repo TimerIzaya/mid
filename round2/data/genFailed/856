@@ -1,0 +1,79 @@
+let v1 = 6n;
+new Uint32Array(52);
+new Int16Array(10);
+const v11 = new Float32Array(2284);
+v1 = 268435439n;
+const o12 = {
+};
+const v14 = new Proxy(v11, o12);
+Math.max(10);
+const v19 = v1 >> 1e-15;
+Math.tan(v19);
+Math.ceil(1e-15);
+v14 ^ v19;
+-v1;
+Math.tanh(v19);
+const v4 = new WeakSet();
+new Date();
+const v7 = [-14];
+[-13];
+[9,-30446,512,55570,-1,4157];
+class C10 {
+    static #d = 16;
+    static {
+        this[Date] ^= 6;
+        const o12 = {
+            "call": Date,
+            "defineProperty": Date,
+            "getOwnPropertyDescriptor": Date,
+            "ownKeys": Date,
+            "preventExtensions": Date,
+            "set": Date,
+            "setPrototypeOf": Date,
+        };
+        try {
+            new Proxy(v7, o12);
+        } catch(e15) {
+        }
+    }
+}
+new C10();
+new C10();
+new C10();
+Reflect.construct(WeakSet, [v4], C10);
+class C22 extends Date {
+    static {
+        const o24 = {
+        };
+        try {
+            o24.a = 5;
+        } catch(e25) {
+        }
+        try {
+            const o26 = {
+            };
+            o26.a = 5;
+            o26.h = this;
+        } catch(e27) {
+        }
+        try {
+            const o28 = {
+            };
+            o28.a = 5;
+            o28.h = this;
+            o28.g = this;
+        } catch(e29) {
+        }
+        try {
+            const o30 = {
+            };
+            o30.a = 5;
+            o30.h = this;
+            o30.g = v7;
+        } catch(e31) {
+        }
+    }
+}
+new C22();
+new C22();
+new C22();

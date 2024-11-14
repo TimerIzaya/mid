@@ -1,0 +1,28 @@
+function f0() {
+    const o6 = {
+        "h": 5,
+        "f": "-37293",
+        "a": 1000000.0,
+        o(a5) {
+            const t6 = "-37293";
+            t6.toString = a5;
+            a5 = "-37293";
+            return this;
+        },
+        "c": 1000000.0,
+        ..."-37293",
+        "d": 1000000.0,
+    };
+    return o6;
+}
+const v7 = f0();
+const v8 = f0();
+f0();
+v7[2050] = "1073741823";
+const v21 = v8[Symbol.hasInstance];
+try {
+    new f0();
+} catch(e23) {
+}
+Object.defineProperty("boolean", 0.848260694030722, { writable: true, configurable: true, enumerable: true, get: f0, set: f0 });
+try { ("b").matchAll(v21); } catch (e) {}

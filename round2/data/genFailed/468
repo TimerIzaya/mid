@@ -1,0 +1,63 @@
+new Set();
+const v7 = new Float32Array(111);
+let v8 = 6;
+const v10 = new Uint8Array(v8);
+const v13 = new Uint32Array(127);
+for (const v14 of v7) {
+    Object.defineProperty(v14, "c", { configurable: true, value: v8 });
+    v14.__proto__;
+    let v16;
+    try { v16 = v13.toSorted(v14); } catch (e) {}
+    try { v16(61905); } catch (e) {}
+}
+v8 &&= 111;
+v10[Uint8Array] += 127;
+try {
+    new BigInt64Array(2642);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e7) {
+}
+try {
+    new Int32Array(129);
+} catch(e11) {
+}
+const v13 = new Map();
+function f14(a15, a16, a17) {
+    const o43 = {
+        ...v13,
+        valueOf(a19, a20) {
+            function f21(a22, a23) {
+                function f25(a26) {
+                    /(ab|cde)\1/sigmyv;
+                    /a??791[(?:a+)*]/sdgmv;
+                    /R\p{Changes_When_NFKC_Casefolded}[\11]/sgmy;
+                }
+                this.onmessage = f25;
+                const v34 = 536870887 ^ 536870887;
+                Math.sinh(a22);
+                v34 % Int32Array;
+                Math.sqrt(a22);
+            }
+            const v40 = ["function",a15];
+            const o41 = {
+                "arguments": v40,
+                "type": "function",
+            };
+            new Worker(f21, o41);
+            return BigUint64Array;
+        },
+    };
+    return o43;
+}
+f14(2642, 2642, 129);
+const v45 = f14(16, 16, 2642);
+const v46 = f14(v45, 129, 129);
+try {
+    f14(2642, 4294967297, -48616);
+} catch(e50) {
+}
+f14(v45, 129, 16);
+%VerifyType(v46);

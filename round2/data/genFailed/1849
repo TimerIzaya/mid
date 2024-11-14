@@ -1,0 +1,27 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a5;
+    this.e = 1000000000.0;
+}
+new F3(2.220446049250313e-16);
+const v7 = new F3(0.20281537909751923);
+new F3(v7);
+class C9 {
+    static e = 2.220446049250313e-16;
+    set g(a11) {
+        const o18 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o18);
+    }
+}
+new C9();
+new C9();
+const v22 = new C9();
+for (const v23 of v22) {
+    %VerifyType(C9);
+    new Uint8ClampedArray(255);
+    new Int32Array(209);
+    new BigUint64Array(5);
+}

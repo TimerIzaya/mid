@@ -1,0 +1,70 @@
+[];
+new Float64Array(4096);
+new Uint16Array(1024);
+new Uint8Array(220);
+new Uint16Array(-5, 1024, -17262);
+let v15 = 0;
+while (v15 < 2) {
+    [-31535,-1437292996,1024,9223372036854775807,24636,-9223372036854775808,4];
+    [257,-874623857,30537,-1073741824,65537,-698535522,1596406407,-1394207799,8,-65536];
+    [-2147483647,-13,255,-56835,7,-55704,-4,9,14445];
+    v15++;
+}
+try {
+    new Uint8Array(7);
+} catch(e3) {
+}
+let v4 = 3015;
+try {
+    new BigInt64Array(v4);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1769);
+} catch(e11) {
+}
+class C12 extends Uint8Array {
+    #valueOf(a14, a15, a16, a17) {
+        try {
+            this.byteLength = a16;
+        } catch(e18) {
+        }
+        return 7;
+    }
+    10 = BigInt64Array;
+    static #m(a20, a21, a22, a23) {
+        try {
+            v4 <<= 7;
+        } catch(e27) {
+        }
+        try {
+            const o28 = {
+            };
+            this.fuck(o28, BigInt64Array, 10);
+        } catch(e31) {
+        }
+        return a23;
+    }
+}
+new C12();
+new C12();
+new C12();
+%VerifyType(-256n);
+const v42 = Symbol.iterator;
+const o51 = {
+    [v42]() {
+        let v44 = 10;
+        const o50 = {
+            next() {
+                v44--;
+                const v48 = v44 == 0;
+                const o49 = {
+                    "done": v48,
+                    "value": v44,
+                };
+                return o49;
+            },
+        };
+        return o50;
+    },
+};

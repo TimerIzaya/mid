@@ -1,0 +1,24 @@
+class C3 {
+    static #f;
+    static #g = 0.09284561085856091;
+    static ["object"] = "undefined";
+    constructor(a5) {
+        ("undefined" && this)[Symbol.unscopables];
+    }
+    0 = 0.09284561085856091;
+}
+const v10 = new C3("object");
+const v11 = new C3(v10);
+new C3(v11);
+const v15 = new BigInt64Array(8);
+new Uint8Array(10);
+new Uint32Array(6);
+const v22 = 8 & C3;
+try { ("undefined").concat(v22, BigInt64Array); } catch (e) {}
+new Date();
+Object.defineProperty(v15, 536870888, { configurable: true, enumerable: true, set: Date });
+const o29 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o29);

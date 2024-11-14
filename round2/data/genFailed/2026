@@ -1,0 +1,27 @@
+function f0() {
+}
+function f7(a8, a9, a10) {
+    const o22 = {
+        "d": 3,
+        n(a12, a13, a14) {
+            Object.defineProperty(this, 559548288, { writable: true, configurable: true, get: f0, set: f0 });
+            this.d = 2;
+            const o17 = {
+                "maxByteLength": 8,
+            };
+            const v19 = new SharedArrayBuffer(8, o17);
+            new BigInt64Array(v19);
+            return 9;
+        },
+    };
+    return o22;
+}
+f7(2, 4, 2);
+f7(3, 9, 1905228309);
+const v26 = [1905228309,f7(2, 1905228309, 1905228309)];
+const v27 = [1905228309];
+const v28 = [v27,3,v27,v26,4];
+for (let i30 = 0; i30 < 6; i30++) {
+    Object.defineProperty(v28, -1, { enumerable: true, value: i30 });
+    f0();
+}

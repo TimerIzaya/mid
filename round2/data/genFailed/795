@@ -1,0 +1,64 @@
+const v3 = ["MAX_VALUE","c"];
+const v4 = [v3,"zehu",v3,v3];
+[v4,v3];
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a10;
+    this.a = a10;
+}
+const v11 = new F6(v3, v4, v4);
+new F6(v3, v4, "MAX_VALUE");
+const v13 = new F6(v3, v4, v11);
+(typeof ("c" in v13) === "string") % "zehu";
+for (let [v19,v20,v21] of "c") {
+    const o24 = {
+        "maxByteLength": 128,
+    };
+    const v26 = new ArrayBuffer(3, o24);
+    new BigUint64Array(v26);
+}
+function f3() {
+    return "bigint";
+}
+class C4 {
+    3 = "bigint";
+    8;
+    static m(a6, a7) {
+        try { ("1").substring(a7, a7); } catch (e) {}
+        return "1";
+    }
+    toString(a10) {
+        const o11 = {
+            ...this,
+            "b": "1",
+            "c": f3,
+        };
+        return this;
+    }
+}
+const v12 = new C4();
+let v13 = new C4();
+const v14 = new C4();
+/[\cZ]^xxx$+/sdmu;
+/(\2)(\1)/idmyv;
+/n\w|\d\b[]/sidguy;
+try {
+    new Int8Array(81);
+} catch(e21) {
+}
+try {
+    new BigUint64Array(1000);
+} catch(e25) {
+}
+try {
+    new Int16Array(177);
+} catch(e29) {
+}
+try {
+    v13[6] = v12;
+} catch(e30) {
+}
+try {
+    v13 = v14;
+} catch(e31) {
+}

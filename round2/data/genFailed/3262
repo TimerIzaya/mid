@@ -1,0 +1,52 @@
+function f0() {
+}
+const v1 = [f0,f0,f0,f0];
+const v2 = [v1];
+const v3 = [v2,v2,v2,v2,v2];
+class C4 extends f0 {
+    4;
+    9 = f0;
+    static 244;
+    o(a6) {
+        const v7 = super[v3];
+        try {
+            super.n(a6, v3, f0, v1);
+        } catch(e9) {
+        }
+        try {
+            f0();
+        } catch(e11) {
+        }
+        return v7;
+    }
+}
+const v12 = new C4();
+const v13 = new C4();
+const v14 = new C4();
+function f15() {
+    return v14;
+}
+class C16 extends f15 {
+    7 = v12;
+    245 = v13;
+    #n(a18, a19, a20) {
+        super[v1] = v12;
+        const o24 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o24);
+        return "sync";
+    }
+}
+const v26 = new C16();
+const v27 = new C16();
+const v28 = new C16();
+v13.e = v27;
+f0();
+v2[65535] = v1;
+for (let v30 = 0; v30 < 32; v30++) {
+    v3["p" + v30] = v30;
+}
+C4.d = v28;
+v26[Symbol.unscopables];

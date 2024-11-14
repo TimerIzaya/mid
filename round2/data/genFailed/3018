@@ -1,0 +1,52 @@
+function f0() {
+    const o12 = {
+        "f": -0.0,
+        ...-2147483648,
+        [-2147483648]: 4,
+        [4]: -0.0,
+        __proto__: -2147483648,
+        ...-0.0,
+        [-0.0]: -0.0,
+        "c": -2147483648,
+        16: 4,
+        p(a5) {
+            this.g = 4;
+            const o9 = {
+            };
+            new Proxy(this, o9);
+            return -0.0;
+        },
+    };
+    return o12;
+}
+const v13 = f0();
+f0();
+const v15 = f0();
+function f25() {
+    return 10000;
+}
+class C26 {
+    static #c = -58609;
+    static {
+        super.c;
+    }
+    constructor(a33, a34, a35) {
+        const v36 = this[10000];
+        let v37;
+        try { v37 = v15.p(f0, v36, v36); } catch (e) {}
+        v15[v37];
+        this[120];
+    }
+}
+new C26(12, -1024n, C26);
+const v44 = new C26(89794251, -15972n, v13);
+new C26(v44, -1024n, v15);
+try {
+    f25();
+} catch(e47) {
+}
+const o50 = {
+    "maxByteLength": 3985,
+};
+const v52 = new SharedArrayBuffer(3985, o50);
+new Float64Array(v52);

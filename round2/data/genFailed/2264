@@ -1,0 +1,34 @@
+new Uint8ClampedArray(7);
+const v5 = new BigUint64Array(1787);
+const v8 = new Float32Array(7);
+function f12(a13, a14) {
+    const o21 = {
+        __proto__: v5,
+        "d": BigUint64Array,
+        o(a16, a17) {
+            Reflect.construct(Float32Array, [9007199254740991,a14,1787], BigUint64Array);
+            return a16;
+        },
+        "b": BigUint64Array,
+        "g": 1787,
+        65536: a14,
+        "c": a14,
+        "h": -9007199254740991,
+        "a": a14,
+        ...v8,
+    };
+    return o21;
+}
+const v22 = f12(127, 9007199254740991);
+f12(7, 9007199254740991);
+f12(9007199254740991, 7).a;
+for (let i27 = 0; i27 < 1; i27++) {
+    function f33(a34) {
+        return i27;
+    }
+    class C35 extends f33 {
+        static [v22] = i27;
+        static f;
+        2 = v22;
+    }
+}

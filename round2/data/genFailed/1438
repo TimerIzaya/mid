@@ -1,0 +1,65 @@
+function f0() {
+}
+class C1 {
+    7 = f0;
+    #b = f0;
+    constructor() {
+        super[this ** f0];
+        const v6 = super.b?.[-2];
+        const v7 = delete this[257];
+        v6.e = f0;
+        this === v7;
+    }
+    static #g;
+}
+const v12 = new C1();
+const v13 = new C1();
+const v14 = new C1();
+function f15(a16) {
+    const o25 = {
+        [-1]: f0,
+        "b": C1,
+        "c": a16,
+        __proto__: C1,
+        [v13](a18, a19, a20) {
+            const v21 = [a16,f0,this,a16,v14];
+            [f0,[f0],a16,v13,a18];
+            v21.toString = a19.g;
+            return C1;
+        },
+        8: v12,
+        ...a16,
+        ...v14,
+    };
+    return o25;
+}
+const v26 = f15(v14);
+const v27 = f15(v12);
+f15(C1);
+[C1,[C1,v27,v26,v14],C1];
+[v13,v14];
+function f32() {
+    return v12;
+}
+[-14,-9223372036854775808,-4096,-9007199254740992,268435441];
+const v34 = [-1822109760,10,6,-1581746674,-43895,536870887,-1379245374,-1760243620];
+[-629453262];
+class C36 {
+    [C1] = v34;
+}
+const v37 = new C36();
+new C36();
+new C36();
+const o40 = {
+    "apply": f0,
+    "call": f0,
+    "construct": f0,
+    "get": f15,
+    "getPrototypeOf": f15,
+    "isExtensible": f15,
+    "ownKeys": f15,
+    "preventExtensions": f15,
+    "set": f0,
+    "setPrototypeOf": f32,
+};
+new Proxy(v37, o40);

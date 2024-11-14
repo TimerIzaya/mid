@@ -1,0 +1,39 @@
+class C3 {
+    toString(a5, a6) {
+        const o7 = {
+        };
+        new Proxy(a6, o7);
+        return a5;
+    }
+    g;
+    static #f = "function";
+    ["function"] = "function";
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+function f13(a14, a15) {
+    const o26 = {
+        [v10]: C3,
+        "c": a15,
+        [a14](a17, a18, a19) {
+            const v23 = 1.0 | a19;
+            v23 << a17;
+            a19 & a19;
+            return v23;
+        },
+    };
+    return o26;
+}
+const v27 = f13(v12, -47147);
+const v28 = f13(v11, v12);
+f13(v12, -47147);
+let v31 = "minor";
+const o33 = {
+    "execution": "async",
+    "type": v31,
+};
+gc(o33);
+v31 = "async";
+const v36 = [v11,v27];
+Reflect.apply(v12.toString, v28, v36);

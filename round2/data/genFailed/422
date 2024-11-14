@@ -1,0 +1,83 @@
+function f6() {
+    return -3;
+}
+function f10(a11, a12, a13) {
+    const o18 = {
+        "b": a13,
+        [470320699]: 7,
+        3418: -65535,
+        [-65535]: a13,
+        ..."o8",
+        "c": 9223372036854775807,
+        set g(a15) {
+            try {
+                new f6();
+            } catch(e17) {
+            }
+            this.c = a13;
+        },
+        "f": -3,
+        "e": "o8",
+    };
+    return o18;
+}
+const v19 = f10(f6, -3, 470320699);
+const v20 = f10(f6, 52194, 7);
+const v21 = f10(-65535, 470320699, -65535);
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v21;
+    this.f = a25;
+    this.h = v20;
+}
+const v26 = new F22("2147483648", v19);
+const v27 = new F22("o8", v20);
+let v28 = new F22("2147483648", v20);
+v28 = v27;
+v26 & "2147483648";
+v27[470320699];
+const t35 = "forEach";
+t35[-3] = -2.2250738585072014e-308;
+Object.defineProperty("2147483648", -2, { configurable: true, enumerable: true, get: f6 });
+const v3 = /\xed\xb0\x80/v;
+const v4 = /z5x/sdgu;
+const v5 = /[foo|(bar|baz)|quux*]/igv;
+try {
+    new BigUint64Array(317);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(30);
+} catch(e13) {
+}
+try {
+    new Int8Array(16);
+} catch(e17) {
+}
+const v19 = new WeakSet();
+try {
+    new Float32Array(257);
+} catch(e23) {
+}
+try {
+    new Int16Array(2891);
+} catch(e27) {
+}
+try {
+    new Int32Array(240);
+} catch(e31) {
+}
+try {
+    v19[v4] = Float32Array;
+} catch(e32) {
+}
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 2891;
+    } catch(e38) {
+    }
+}
+new F33(v5, v3, v3);
+new F33(v5, v5, v4);
+new F33(v3, v4, v5);

@@ -1,0 +1,80 @@
+function f1() {
+    const o9 = {
+        "g": null,
+        64: null,
+        "d": null,
+        170: null,
+        [null]() {
+            let v4;
+            try { v4 = this["m"](null, this, "m", this); } catch (e) {}
+            const v5 = "m" === "m";
+            if (v5) {
+                throw +v5;
+            } else {
+                const v7 = v4?.g;
+                try { new v4(v5, v7, "m", v7, this); } catch (e) {}
+            }
+            return v5;
+        },
+    };
+    return o9;
+}
+const v10 = f1();
+const v11 = f1();
+const v12 = f1();
+function f13() {
+    return v12;
+}
+class C14 extends f1 {
+    [v11];
+    constructor(a16, a17, a18) {
+        super();
+        const v19 = super[f1];
+        f13 instanceof v19;
+        super.d %= v19;
+    }
+    [null];
+    static {
+        const v22 = v11[0];
+        function F24(a26, a27, a28, a29) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.a = a26;
+        }
+        const v30 = new F24(v11, f1, v22, v11);
+        new F24(v11, v30, v12, v11);
+        new F24(v11, f13, v12, v11);
+    }
+}
+const v33 = new C14(v10, v11, v12);
+const v34 = new C14(v33, v33, C14);
+new C14(v33, v34, v12);
+const v42 = f1 / 1000000000000.0;
+const v43 = f1 ^ 1000000000000.0;
+~v42;
+const v45 = -4294967295;
+4294967295 * 1000000000000.0;
+Math.imul(v42 >>> v45, v43);
+const v0 = /(ab|cde)/sv;
+/a$(?:a*)+/sdgv;
+const v2 = /3Kh(?:ab)|cde/sdu;
+try {
+    new BigInt64Array(1024);
+} catch(e9) {
+}
+try {
+    new Uint8Array(184);
+} catch(e13) {
+}
+try {
+    new Uint8Array(129);
+} catch(e17) {
+}
+[-398.0170055779429,Uint8Array,1024];
+const v19 = [184,129];
+const v20 = [-398.0170055779429,v19,BigInt64Array,v2,129];
+v20["reduce"](v0, "reduce");
+for (let [v26,v27] of v20) {
+    let {"length":v29,} = v19;
+    try { f["toISOString"](v27, 1024); } catch (e) {}
+    ("toISOString").length;
+}

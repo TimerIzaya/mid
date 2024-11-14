@@ -1,0 +1,46 @@
+let v1 = -2147483649;
+const v3 = [1000000000000.0,1000000.0];
+const v4 = [-1000000.0,-1000.0,1.371311747430183e+308,883.4573885468703,-1.6888632550665814e+308,1.0];
+const v5 = [9.958362725883473e+307];
+class C6 {
+    o(a8, a9, a10, a11) {
+        const v13 = [];
+        return Reflect.apply(v5.push, this, v13);
+    }
+    static #b;
+    4;
+    #c = v4;
+    static 4014;
+    [v3] = v1;
+    f = v5;
+    [-13] = v3;
+}
+const v16 = new C6();
+const v17 = new C6();
+const v18 = new C6();
+function f19() {
+    return v18;
+}
+class C20 {
+    constructor(a22, a23, a24, a25) {
+        Reflect.construct(f19, [], f19);
+        f19();
+        %PrepareFunctionForOptimization(f19);
+        f19();
+        f19();
+        %OptimizeFunctionOnNextCall(f19);
+        f19();
+    }
+    static 1 = v5;
+    static #h = -13;
+    #f;
+}
+new C20(-13, -13, v16, v4);
+const v34 = new C20(-2, -13, v17, v18);
+new C20(v1, -13, v18, v34);
+v1 /= v1;
+let v36 = f19 >>> v18;
+const v37 = v3[v36];
+v18.f = v3;
+Object.defineProperty(v34, v36 += v1, { writable: true, get: f19 });
+try { v37(v36, -2); } catch (e) {}

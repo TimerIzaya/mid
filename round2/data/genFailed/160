@@ -1,0 +1,73 @@
+[0.10981376556743594,2.2250738585072014e-308,-0.0,2.0,-1000000000.0,1000000.0,-1.3121990356696147e+308];
+const v1 = [-1.8015598179167434,-1.2540089107768608,-5.5130306550229395,0.7961902705985829,1000000000.0,2.220446049250313e-16,-595113.3652316413,-0.0,5.0,-39.31380566957762];
+const v2 = [NaN,-5.090702557961118,-1.5207342750636011e+308,-1000000000000.0,2.220446049250313e-16,-388613.76504036714,-328878.25302621466,-4.0,2.0,1.7976931348623157e+308];
+class C3 {
+    get c() {
+        class C6 extends this.constructor {
+            [v2];
+            [this];
+        }
+        new C6();
+        return v2;
+    }
+    static #h;
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+class C14 extends C3 {
+    constructor(a16, a17, a18) {
+        super();
+        function F19(a21, a22) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.h = a18;
+            this.e = a21;
+        }
+        new F19(a16, v13);
+        new F19(this, a16);
+        new F19(a18, a18);
+    }
+    e = v1;
+    #f;
+    g;
+}
+const v26 = new C14(v13, v12, C14);
+const v27 = new C14(C3, v26, v2);
+new C14(v11, v11, v27);
+throw v27;
+for (let v32 = 0; v32 < 32; v32++) {
+    C3["p" + v32] = v32;
+}
+let v35;
+try {
+const t0 = 0.010406126587402253;
+v35 = t0(C3, v13, v27);
+} catch (e) {}
+v26 === v27 ? v26 : v27;
+v35 = -1.7976931348623157e+308;
+try {
+    new Uint8Array(13);
+} catch(e6) {
+}
+try {
+    new Float64Array(6);
+} catch(e10) {
+}
+try {
+    new Float64Array(9);
+} catch(e14) {
+}
+let v18;
+try {
+const t0 = 65537;
+v18 = t0(16, 13, 13, 6);
+} catch (e) {}
+try {
+    v18[6] = 65537;
+} catch(e19) {
+}
+let {"f":v20,"g":v21,} = v18;
+try {
+    v20[268435439] = -1000000000000.0;
+} catch(e22) {
+}

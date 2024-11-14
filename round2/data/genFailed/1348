@@ -1,0 +1,78 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        set g(a3) {
+            new Array(102);
+            Object.defineProperty(Array, 16, { configurable: true, set: Array });
+            f0[8] = this;
+        },
+        p() {
+            let v8 = this.g;
+            this[5] = f0;
+            v8 = this;
+            return -14;
+        },
+    };
+    return o12;
+}
+f1();
+const v14 = f1();
+const v15 = f1();
+const v18 = new Uint8ClampedArray(7);
+const v21 = new Int8Array(4);
+const v24 = new Float32Array(124);
+Object.defineProperty(v24, 124, { writable: true, configurable: true, get: f1, set: f1 });
+f0 > v21;
+try {
+    new Int8Array(v24, -35400, -35400);
+} catch(e28) {
+}
+const v30 = [v15,Float32Array,124,v15,7];
+Reflect.apply(v14.p, v18, v30);
+function f0() {
+}
+new WeakSet();
+[-5,1,1073741824,14];
+const v4 = [-64690,9007199254740992,16198,-38846,2272,-2147483648,255,536870888,2147483648,-9223372036854775807];
+const v5 = [872694201,536870912,268435441,-1,1073741825,2084973030,-4294967296,6,-65536,10];
+/(?=.)s/dmu;
+const v7 = /1(x)(x)(x)\2/igmu;
+/(?=.)+/sdmv;
+try {
+    new Uint8Array(257);
+} catch(e12) {
+}
+try {
+    new Uint32Array(2360);
+} catch(e16) {
+}
+try {
+    new Float32Array(2519);
+} catch(e20) {
+}
+/[\[\]\{\}\(\)\%\^\ ]P[\cA]?/i;
+/J/id;
+const v23 = /z(?<a>.)\k<a>+/gmv;
+try {
+    v23[15] = 2519;
+} catch(e24) {
+}
+v7 || v5;
+const o26 = {
+    "call": f0,
+    "construct": f0,
+    "deleteProperty": f0,
+    "get": f0,
+    "getOwnPropertyDescriptor": f0,
+    "getPrototypeOf": f0,
+    "has": f0,
+    "isExtensible": f0,
+    "preventExtensions": f0,
+    "set": f0,
+    "setPrototypeOf": f0,
+};
+try {
+    new Proxy(v4, o26);
+} catch(e29) {
+}

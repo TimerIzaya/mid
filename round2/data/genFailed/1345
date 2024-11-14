@@ -1,0 +1,72 @@
+new BigUint64Array(0);
+const v14 = new Int32Array(127);
+const v17 = new Int16Array(207);
+if (207 >= v17) {
+    -Infinity;
+} else {
+    v14.a = Int32Array;
+}
+const v24 = 2147483649n | 2147483649n;
+2147483649n >> v24;
+Math.log1p(536870889n);
+Math.sign(v24);
+Math.tan(2147483649n ** 2147483649n);
+const v0 = [];
+class C1 {
+    static 1 = v0;
+    10000;
+    constructor() {
+        v0[1944] /= v0;
+        const v4 = Symbol.toStringTag;
+        v0[v4] = v4;
+    }
+    static e;
+    static [v0] = v0;
+    static #b = v0;
+}
+const v5 = new C1();
+const v6 = new C1();
+const v7 = new C1();
+function f8(a9, a10) {
+    const o19 = {
+        __proto__: v0,
+        valueOf(a12, a13, a14, a15) {
+            return v5;
+        },
+        [v7]: v5,
+        "a": v7,
+        ...v6,
+        "b": a9,
+    };
+    return o19;
+}
+f8(v0, v6);
+const v21 = f8(C1, v0);
+f8(v21, v0);
+class C23 {
+    get g() {
+        try {
+            v7.a = this;
+        } catch(e25) {
+        }
+        return this;
+    }
+    [v7] = f8;
+    [v21] = v21;
+    static #f;
+    static #e;
+}
+new C23();
+new C23();
+const v28 = new C23();
+Reflect.construct(v21[Symbol.species], [v21], C1);
+const o35 = {
+    "defineProperty": f8,
+    "getOwnPropertyDescriptor": f8,
+    "isExtensible": f8,
+    "ownKeys": f8,
+};
+try {
+    new Proxy(v28, o35);
+} catch(e38) {
+}

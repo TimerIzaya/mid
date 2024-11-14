@@ -1,0 +1,58 @@
+function f3() {
+    return "p";
+}
+new Uint8ClampedArray(4);
+new Int32Array(5);
+new Uint8ClampedArray(5);
+Object.defineProperty("p", Int32Array, { writable: true, value: f3 });
+const o16 = {
+};
+const v18 = new Proxy(f3, o16);
++Int32Array;
+v18();
+new Int32Array(4);
+new Float64Array(3);
+new Float32Array(4076);
+const v0 = /(?:foo)O7/smu;
+const v1 = /l[-\xf0\x9f\x92\xa9]+i[\0]/sigy;
+const v2 = /[^C(\2)(\1)?]/igyv;
+function f3(a4, a5) {
+    const o18 = {
+        get f() {
+            try {
+                a5.c = a4;
+            } catch(e7) {
+            }
+            return this;
+        },
+        toString(a9) {
+            let v10;
+            try { v10 = this.raw(a5); } catch (e) {}
+            try { this.isExtensible(a9, v2, a4, v10, a9); } catch (e) {}
+            v0.ignoreCase;
+            const o16 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            return gc(o16);
+        },
+    };
+    return o18;
+}
+const v19 = f3(v0, v0);
+const v21 = f3(v2, f3(v19, f3));
+const v22 = [v19,f3,v21,v1];
+const v23 = [v21];
+[v0,v19,v23,v23];
+new Array(257);
+function f31(a32, a33) {
+    for (const v34 of v22) {
+        Object.defineProperty(v2, "a", { enumerable: true, get: Array, set: f3 });
+        v0.dotAll;
+    }
+    try {
+        v19.length = 2;
+    } catch(e37) {
+    }
+}
+new Promise(f31);

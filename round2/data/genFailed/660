@@ -1,0 +1,66 @@
+const v2 = new Int32Array(2);
+const v5 = new Int32Array(6);
+new Float32Array(9);
+const v11 = new Array(12);
+if (12) {
+    Object.defineProperty(v11, v2, { writable: true, configurable: true, enumerable: true, get: Array, set: Array });
+    Array[1073741824] &&= 9;
+} else {
+    new Float32Array(v11, 9);
+}
+%VerifyType(v5);
+try {
+    new Int32Array(1000);
+} catch(e15) {
+}
+const v1 = new WeakSet();
+const v3 = new WeakMap();
+class C4 extends WeakMap {
+    static #c;
+    static set f(a6) {
+        a6 || 678054.483420603;
+        [-2115084812,536870912,-4294967296,-9007199254740991,268435441,-46460,-57898];
+        [268435439,-15,0,1,268435439,2,2,255,-2098992780,-2];
+        [3,3,536870887];
+    }
+    static #b = WeakMap;
+    static [WeakSet];
+    static [v3] = WeakSet;
+}
+const v14 = new C4();
+const v15 = new C4();
+const v16 = new C4();
+function f17(a18, a19, a20) {
+    const o24 = {
+        ...v1,
+        [WeakSet]: C4,
+        "a": v15,
+        [v1]: a19,
+        ...a20,
+        set f(a22) {
+            super.c %= a22;
+            try {
+                a20[268435441] = this;
+            } catch(e23) {
+            }
+        },
+        "c": a20,
+    };
+    return o24;
+}
+f17(v3, v15, v16);
+f17(v14, v3, v16);
+f17(v3, v15, v3);
+v15[0].__proto__;
+function f33(a34) {
+    return a34;
+}
+class C35 extends f33 {
+    h;
+    static #c;
+}
+try {
+    const v37 = new WeakMap(v15);
+    f17(v3, v37, 7n);
+} catch(e40) {
+}

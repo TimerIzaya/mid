@@ -1,0 +1,44 @@
+function f0() {
+    const o8 = {
+        get e() {
+            const v5 = this in "5jz";
+            let v6;
+            try { v6 = ("symbol").search(v5); } catch (e) {}
+            try { new v6(v6, "symbol", -2.0203988335134104); } catch (e) {}
+            %VerifyType("5jz");
+            return -2.0203988335134104;
+        },
+        "d": "5jz",
+        225: "5jz",
+        __proto__: "5jz",
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+let v11 = f0();
+function f15(a16, a17, a18) {
+    const o19 = {
+        "e": v10,
+        __proto__: a18,
+        "d": v11,
+        "a": v11,
+        "f": v10,
+        "h": 8,
+        ...v10,
+        [v10]: v9,
+        "b": a16,
+        ...v11,
+    };
+    return o19;
+}
+const v20 = f15(-5, v11, v9);
+f15(-65535, v11, f15(8, v9, v20));
+v11 = v10;
+try {
+    v11.n(undefined, undefined, undefined);
+} catch(e25) {
+}
+for (let v26 = 0; v26 < 32; v26++) {
+    v20["p" + v26] = v26;
+}

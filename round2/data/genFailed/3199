@@ -1,0 +1,17 @@
+const v2 = new BigUint64Array(12);
+new Float64Array(217);
+const v8 = new Uint8Array(253);
+function f9() {
+    return Float64Array;
+}
+Object.defineProperty(v2, "e", { set: f9 });
+const v13 = new Uint8Array(v2, 253, 253);
+Object.defineProperty(v13, "e", { writable: true, enumerable: true, get: f9 });
+for (const v14 of v8) {
+    v8.byteOffset = v14;
+    const o17 = {
+        "maxByteLength": 3826,
+    };
+    const v19 = new ArrayBuffer(3826, o17);
+    new Uint8ClampedArray(v19);
+}

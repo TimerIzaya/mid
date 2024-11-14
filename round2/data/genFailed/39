@@ -1,0 +1,85 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a6;
+    this.g = a6;
+    this.c = 268435441n;
+}
+const v7 = new F4(268435441n);
+const v8 = new F4(2147483647n);
+new F4(2147483647n);
+function f10() {
+    return v8;
+}
+[[v8],F4,F4,v7];
+const v13 = [v8];
+for (const v17 of v13) {
+    v13[v17];
+    f10();
+    %PrepareFunctionForOptimization(f10);
+    f10();
+    f10();
+    %OptimizeMaglevOnNextCall(f10);
+    f10();
+}
+v7[-9007199254740990n] >>= -9007199254740990n;
+function f0() {
+}
+function f1() {
+    const o17 = {
+        "f": f0,
+        __proto__: f0,
+        "d": f0,
+        toString() {
+            this || f0;
+            super.b;
+            const v5 = this.f;
+            const v7 = Symbol.iterator;
+            const o16 = {
+                [v7]() {
+                    let v9 = 10;
+                    const o15 = {
+                        next() {
+                            v9--;
+                            const v13 = v9 == 0;
+                            const o14 = {
+                                "done": v13,
+                                "value": v9,
+                            };
+                            return o14;
+                        },
+                    };
+                    return o15;
+                },
+            };
+            return v5;
+        },
+    };
+    return o17;
+}
+const v18 = f1();
+f1();
+const v20 = f1();
+const v21 = /Ajxyz?(?<a>.)\k<a>/igmuy;
+const v22 = /(?:a{5,1000000}){3,1000000}/igmuy;
+const v23 = /[hF]/sd;
+class C24 {
+    constructor(a26, a27) {
+        try {
+            super.d = a27;
+        } catch(e31) {
+        }
+    }
+    static [f1] = f0;
+    static 6 = v20;
+}
+new C24(v18, v21);
+const v33 = new C24(C24, v23);
+const v34 = new C24(v20, v22);
+const v35 = v20 - v21;
+Object.defineProperty(v34, "a", { get: f1, set: f1 });
+const v38 = v22 | v33;
+680369323 || v22;
+~v22;
+v38 + !v35;

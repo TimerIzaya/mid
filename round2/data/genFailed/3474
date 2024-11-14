@@ -1,0 +1,60 @@
+let v1 = 4;
+function f3(a4) {
+    const o11 = {
+        10: a4,
+        "d": a4,
+        p(a6) {
+            const v7 = this[990];
+            const v8 = v7?.c;
+            v8[-2] = v1;
+            v7[7] = this;
+            const v9 = delete v8?.c;
+            let v10;
+            try { v10 = v9(v9, v7, a4, 127); } catch (e) {}
+            return v10;
+        },
+        __proto__: 127,
+        [v1]: v1,
+        "h": 127,
+        "c": v1,
+    };
+    return o11;
+}
+const v12 = f3(v1);
+let v13 = f3(9007199254740990);
+const v14 = f3(v1);
+let v15 = -2;
+function f21(a22, a23, a24) {
+    const o33 = {
+        "c": 46243,
+        __proto__: v12,
+        set b(a26) {
+            %VerifyType(a23);
+            a23.valueOf = a26;
+            try {
+                super.m(a26, v15, a24, a22, v13);
+            } catch(e28) {
+            }
+        },
+        [v13](a30, a31) {
+            a30.__proto__ = a23;
+            a23 += v14;
+            super.d;
+            return f3;
+        },
+    };
+    return o33;
+}
+f21(-2, v14, 24291);
+const v35 = f21(46243, v12, 127);
+let v36 = f21(46243, v14, 127);
+let v37;
+try { v37 = v12.p(f21, v1, v36, 127); } catch (e) {}
+let v38;
+try { v38 = v13.p(v14, -710, v36); } catch (e) {}
+v13 = v14;
+++v36;
+try { v38.m(); } catch (e) {}
+({"c":v1,"h":v15,} = v35);
+typeof f3 === "function";
+v35 instanceof v37;

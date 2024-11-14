@@ -1,0 +1,69 @@
+new Float64Array(1024);
+const v5 = new Int16Array(10);
+const v8 = new BigUint64Array(512);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a11;
+}
+const v15 = new F9(1024, 512, 1024, 10);
+const v16 = new F9(1024, 1024, 10, 512);
+const v17 = new F9(512, 1024, 10, 10);
+try { BigUint64Array(v16, 512, ...v8, Float64Array, v17); } catch (e) {}
+for (let [...v19] of v8) {
+    const v20 = v15 * v19;
+    let v21;
+    try { v21 = v19(v20, v20); } catch (e) {}
+    const o22 = {
+    };
+    o22.f = v21;
+    const o23 = {
+    };
+    o23.f = v21;
+    o23.h = 10;
+    const o24 = {
+    };
+    o24.f = v21;
+    o24.h = 10;
+    o24.g = v5;
+    const o25 = {
+    };
+    o25.f = v21;
+    o25.h = 10;
+    o25.e = v21;
+}
+function f6() {
+    return -268435456n;
+}
+try {
+    new Int16Array(16);
+} catch(e11) {
+}
+try {
+    new Int32Array(255);
+} catch(e15) {
+}
+try {
+    new Int32Array(4075);
+} catch(e19) {
+}
+let v20;
+try { v20 = (11280n).valueOf(11280n, 268435440n); } catch (e) {}
+function f21(a22, a23, a24, a25) {
+    const v26 = true & a22;
+    function F27(a29, a30) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.e = 255;
+        } catch(e31) {
+        }
+        try {
+            this.a = a25;
+        } catch(e32) {
+        }
+    }
+    new F27(11280n, 255);
+    new F27(-40271n, a25);
+    new F27(v26, a23);
+    return v26;
+}
+f21(2n, v20, true, 4075);

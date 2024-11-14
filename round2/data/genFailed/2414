@@ -1,0 +1,16 @@
+new Int32Array(2);
+const v5 = new Uint8Array(148);
+new BigInt64Array(128);
+/[U\p{Changes_When_NFKC_Casefolded}foo(?<!bar)baz]/sv;
+/(a)\1+/myisdu;
+const v11 = /qa{0}?/g;
+const o19 = {
+    valueOf() {
+        new Int32Array(this, 2, 2);
+        "deref" in "multiline";
+        delete v11?.flags;
+        return "any";
+    },
+};
+o19 in v5;
+v11[2632];

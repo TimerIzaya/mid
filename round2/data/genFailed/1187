@@ -1,0 +1,55 @@
+const v2 = new Int16Array(3);
+const v5 = new BigInt64Array(127);
+new Int8Array(41);
+function f9() {
+    return v5;
+}
+const v10 = [41,v2,v2,41];
+[Int16Array,v10,v10,Int8Array,[41,v5,BigInt64Array]];
+const v15 = new BigUint64Array(211);
+new Int8Array(1);
+new Int32Array(255);
+v15[1];
+function f23(a24, a25, a26) {
+    function f28(a29) {
+        f9 >>= a29;
+        a29?.[16];
+    }
+    this.onmessage = f28;
+    f28(Int16Array);
+    %PrepareFunctionForOptimization(f28);
+    f28(Int16Array);
+    f28(Int16Array);
+    %OptimizeMaglevOnNextCall(f28);
+    f28(Int16Array);
+}
+const v37 = [v15,127,"function"];
+const o38 = {
+    "arguments": v37,
+    "type": "function",
+};
+new Worker(f23, o38);
+try {
+    new Float32Array(16);
+} catch(e3) {
+}
+try {
+    new Uint8Array(69);
+} catch(e7) {
+}
+try {
+    new Int16Array(10);
+} catch(e11) {
+}
+new WeakSet();
+const v14 = [-65536,536870888,-2];
+const v15 = [-2,65535,536870888,2147483649,1702258920,5,-65536,-36817,47279,30109];
+[-256];
+let v20 = 0;
+do {
+    let v21;
+    try { v21 = v14.indexOf(16, 10); } catch (e) {}
+    v15[8] ||= v20;
+    v21 instanceof v21;
+    v20++;
+} while (v20 < 7)

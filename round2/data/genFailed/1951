@@ -1,0 +1,19 @@
+const v3 = [8,512,3437,268435441,-2147483649];
+const v4 = [-2147483648,268435440,7,343297788,9007199254740991,10659,-60341,-15];
+[129,-9223372036854775808,-4096,9007199254740992,-1073741824,26589,268435440];
+const v8 = new Uint32Array(9);
+const v11 = new Int16Array(6);
+let v14 = new Uint8ClampedArray(0);
+let v15;
+try { v15 = v8.findLast(Int16Array, v11); } catch (e) {}
+let v16;
+try { v16 = v15(v14); } catch (e) {}
+let v17;
+try { v17 = new v16(); } catch (e) {}
+for (let [v18,...v19] of v3) {
+    %VerifyType(v18);
+    v14--;
+}
+v4.__proto__ = v4;
+v4.valueOf = v17;
+v11["map"](..."map", ...v11, Int16Array, v16, ...v4);

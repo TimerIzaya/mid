@@ -1,0 +1,109 @@
+const v4 = new WeakSet();
+const v5 = ["c","1850870475","1850870475"];
+const v6 = [v4,"1850870475",WeakSet];
+[WeakSet,v5,"1850870475",v6,v5];
+const v8 = ["c",v6,"c"];
+[WeakSet,v8,v6,v5];
+[v4];
+[1.3616435531182511e+308,-2.8162795136031676e+307];
+[v8];
+[v8];
+v8[Symbol.isConcatSpreadable] = "valueOf";
+function f19(a20, a21) {
+    const o24 = {
+        "maxByteLength": 1662,
+    };
+    const v26 = new ArrayBuffer(1662, o24);
+    const v28 = new BigUint64Array(v26);
+    return v28;
+}
+f19(1.3616435531182511e+308, 799835.7379624506);
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    static toString(a4, a5) {
+        try {
+            this[6] = v1;
+        } catch(e6) {
+        }
+        return a4;
+    }
+    #f;
+    constructor(a8) {
+        super(a8);
+        a8[-2] /= a8;
+        try {
+            v1.toString = a8;
+        } catch(e9) {
+        }
+    }
+}
+const v10 = new C2(v1);
+const v11 = new C2(v10);
+const v12 = new C2(v10);
+class C13 {
+    c;
+    constructor(a15, a16, a17) {
+        v10.c;
+        const v19 = delete v11[a16];
+        function f20(a21, a22) {
+            return v19;
+            for (let v23 = 0; v23 < 32; v23++) {
+                a22["p" + v23] = v23;
+            }
+            return v19;
+        }
+        f20(v11, a16);
+    }
+}
+const v27 = new C13(v10, C2, v1);
+const v28 = new C13(v10, v27, v12);
+new C13(v11, C13, v28);
+try {
+    new BigInt64Array(9);
+} catch(e33) {
+}
+try {
+    new Int16Array(9);
+} catch(e37) {
+}
+try {
+    new Uint32Array(2512);
+} catch(e41) {
+}
+new Date();
+let v45;
+try { v45 = C13["p"]("p"); } catch (e) {}
+v11[v45] ||= 9;
+try {
+    C2[8] = v28;
+} catch(e46) {
+}
+const o47 = {
+};
+try {
+    o47.e = 9;
+} catch(e48) {
+}
+try {
+    const o49 = {
+    };
+    o49.e = 9;
+    o49.f = C2;
+} catch(e50) {
+}
+try {
+    const o51 = {
+    };
+    o51.e = 9;
+    o51.f = C2;
+    o51.b = C13;
+} catch(e52) {
+}
+try {
+    const o53 = {
+    };
+    o53.e = 9;
+    o53.f = C2;
+    o53.h = v45;
+} catch(e54) {
+}

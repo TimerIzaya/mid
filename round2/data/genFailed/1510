@@ -1,0 +1,36 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = -4294967296;
+}
+const v3 = new F0();
+new F0();
+const v5 = new F0();
+class C6 {
+    static #toString(a8, a9) {
+        class C10 extends F0 {
+            [F0];
+            f;
+        }
+        const v11 = new C10();
+        new C10();
+        new C10();
+        return v11;
+    }
+}
+const v14 = new C6();
+const v15 = new C6();
+const v16 = new C6();
+C6.toString = v5;
+v16.__proto__;
+v3 < C6;
+function f22(a23, a24, a25) {
+    let v26;
+    try { v26 = new a23(-234616173n, a23); } catch (e) {}
+    v16.__proto__ = a25;
+    try {
+        v15.getUint8("coUN", v26, "coUN");
+    } catch(e30) {
+    }
+    return -1409902182n;
+}
+f22(v14, F0, v16);

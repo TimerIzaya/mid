@@ -1,0 +1,55 @@
+function f0() {
+    const o9 = {
+        [-4294967297]: 7.257578541884445,
+        get g() {
+            const v5 = delete this[2578020304];
+            try { this(v5, v5, v5, ..."bigint", ..."bigint"); } catch (e) {}
+            ("bigint")["includes"](-4294967297, -4294967297);
+            return "includes";
+        },
+        [7.257578541884445]: "bigint",
+        "d": -4294967297,
+        0: -4294967297,
+        ["bigint"]: -4294967297,
+        ..."bigint",
+        3676411675: "bigint",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+const v13 = [f0,f0,v12,f0];
+const v14 = [v11,v11];
+const v15 = [v14,v14,v14,v14];
+class C16 extends f0 {
+    static #f = v10;
+    p(a18, a19) {
+        try {
+            a19.#f = this;
+        } catch(e20) {
+        }
+        return this;
+    }
+    static valueOf(a22, a23, a24, a25) {
+        try {
+            this.#f *= v13;
+        } catch(e26) {
+        }
+        return v14;
+    }
+}
+const v27 = new C16();
+const v28 = new C16();
+const v29 = new C16();
+let v30 = [v29,f0,v13];
+const v32 = [v27,f0,v29,C16,[v13,v14,v15]];
+typeof v32 === "function";
+v30 = v32;
+if (v14 <= v29) {
+    b = v12;
+    v30.length = v14;
+} else {
+    Object.defineProperty(v27, f0, { configurable: true, get: f0 });
+    v15.length = v28;
+}

@@ -1,0 +1,32 @@
+let v1 = 1000000.0;
+class C3 {
+    constructor(a5) {
+        try { a5(4.0, a5, a5); } catch (e) {}
+    }
+    static b = v1;
+    static m(a11, a12) {
+        let v10 = this;
+        try { a12(); } catch (e) {}
+        ({"b":v10,"g":v1,} = f);
+        return 4.0;
+    }
+}
+const v15 = new C3(C3);
+const v16 = new C3(v15);
+new C3(v15);
+const v18 = [C3];
+const v19 = [v15,4.0];
+[v1,v19,v19,v16,1.7328087832526359e+308];
+function f21() {
+    return 4.0;
+}
+function f22() {
+    return v1;
+}
+Object.defineProperty(v1, 7, { get: f22, set: f22 });
+%VerifyType(2.0);
+v16[1];
+function f27() {
+    return 1.7328087832526359e+308;
+}
+v18 - v18;

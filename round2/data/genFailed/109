@@ -1,0 +1,66 @@
+const v1 = new Map();
+[-0.0,0.6190258843601955];
+const v6 = [-1.7976931348623157e+308,0.3123323964520639,2.2250738585072014e-308,-1.3504905460701186e+308];
+let v7 = [-1000000000000.0,100.52453608183896,615.8595747913225,1.7976931348623157e+308,-2.0,937000.6985637292];
+class C8 {
+    static [Map] = Map;
+    valueOf(a10, a11) {
+        this.__proto__ = this;
+        v7 = a11;
+        super[a11] = v1;
+        super.c;
+        v1.size **= 2.220446049250313e-16;
+        return Uint16Array;
+    }
+    [-2] = Map;
+    [2.220446049250313e-16] = 2.0;
+    static #a;
+}
+new C8();
+const v15 = new C8();
+const v16 = new C8();
+for (let [v20] of v6) {
+    v16 * v20;
+    function F22(a24, a25, a26) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.f = -2.220446049250313e-16;
+        this.e = v20;
+    }
+    new F22(-209.71335213083898, v7, v15);
+    new F22(-2.220446049250313e-16, 2.220446049250313e-16, v20);
+    new F22(2.0, -1.7976931348623157e+308, v20);
+}
+function f6(a7, a8, a9, a10) {
+    const o18 = {
+        ..."2147483649",
+        "b": a7,
+        [1073741825]: a9,
+        valueOf(a12, a13, a14) {
+            function f15(a16) {
+                return -24230;
+            }
+            class C17 extends f15 {
+                5 = a9;
+                [a7] = "search";
+            }
+            return a9;
+        },
+    };
+    return o18;
+}
+const v19 = f6(24126602, f6, "forEach", "search");
+const v20 = f6(1073741825, 1073741825, v19, "forEach");
+f6(-24230, "forEach", 1073741825, "forEach");
+const v22 = ("search").__proto__;
+let v23;
+try { v23 = new v22("forEach"); } catch (e) {}
+%VerifyType(v20);
+Object.defineProperty("search", v20, { enumerable: true, set: f6 });
+try {
+    v19[209] = v22;
+} catch(e24) {
+}
+try {
+    v23 = v22;
+} catch(e25) {
+}

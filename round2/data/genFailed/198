@@ -1,0 +1,95 @@
+class C3 {
+    constructor(a5) {
+        %VerifyType(1073741824);
+        const o8 = {
+            "maxByteLength": 924,
+        };
+        const v10 = new ArrayBuffer(255, o8);
+        new Int16Array(v10);
+    }
+    #c = 1073741824;
+    [256];
+}
+new C3(256);
+new C3(256);
+const v15 = new C3(1073741824);
+const v17 = new WeakSet();
+function f18(a19, a20) {
+    const o29 = {
+        [WeakSet](a22, a23, a24) {
+            super.g = v17;
+            super[this];
+            try {
+                const o26 = {
+                };
+                new WeakSet(o26);
+            } catch(e28) {
+            }
+            return a24;
+        },
+        268435439: a20,
+        "a": a20,
+        "h": 256,
+    };
+    return o29;
+}
+const v30 = f18(256, v17);
+f18(1073741824, v30);
+f18(-61526, v17);
+class C33 {
+    #n(a35, a36) {
+        const o37 = {
+        };
+        o37.a = this;
+        const o38 = {
+        };
+        o38.a = this;
+        o38.h = a35;
+        const o39 = {
+        };
+        o39.a = this;
+        o39.h = a35;
+        o39.c = a36;
+        const o40 = {
+        };
+        o40.a = this;
+        o40.h = a35;
+        o40.c = -61526;
+        return v15;
+    }
+}
+new C33();
+new C33();
+const v43 = new C33();
+v43.e = v30;
+new Uint16Array(4);
+new Float64Array(8);
+new Float32Array(128);
+new Date();
+try {
+    new Float64Array(9);
+} catch(e5) {
+}
+try {
+    new Uint8Array(255);
+} catch(e9) {
+}
+let v10 = 6;
+try {
+    new Float64Array(v10);
+} catch(e13) {
+}
+const v14 = /P[\xe2\x81\xa3]y[]a\n/sdgu;
+const v15 = /M(?:ab)/sdu;
+/Da(?=bbb|bb)cxyz{1,}+/dguy;
+try {
+    new Uint8Array(v15);
+} catch(e18) {
+}
+%VerifyType(v14);
+for (let i20 = 0; i20 < 0; i20++) {
+    try {
+        v10 = i20;
+    } catch(e26) {
+    }
+}

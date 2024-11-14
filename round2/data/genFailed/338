@@ -1,0 +1,87 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = -16;
+    this.h = -16;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function f13(a14, a15, a16, a17) {
+    const o26 = {
+        "g": v5,
+        ...v3,
+        ...v3,
+        "f": a14,
+        "a": a14,
+        4: v3,
+        p(a19, a20, a21) {
+            return 1000.0;
+        },
+    };
+    return o26;
+}
+const v27 = f13(64061, -4n, -4n, v3);
+f13(64061, -9007199254740991n, -9007199254740991n, v4);
+f13(1, -4n, -9007199254740991n, v5);
+const v30 = v4.h;
+let [] = v30;
+v30?.[v27];
+const o35 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o35);
+function f3() {
+    return "getMinutes";
+}
+class C4 extends f3 {
+    static m(a6) {
+        return "d" << a6;
+    }
+    ["getMinutes"];
+    constructor(a12) {
+        super();
+    }
+}
+const v16 = new C4("toString");
+const v17 = new C4("toString");
+const v18 = new C4("d");
+const v19 = [f3];
+const v20 = [v16,v19,C4,v16];
+const v21 = [v20,v20,v20,f3];
+function f22(a23, a24) {
+    const o43 = {
+        [C4](a26, a27, a28, a29) {
+            Object.defineProperty(a29, "length", { writable: true, configurable: true, value: a26 });
+            a27 + this;
+            return "toString";
+        },
+        "g": a23,
+        [v17]: a23,
+        [v18](a32, a33) {
+            function f34(a35, a36, a37, a38) {
+                const o39 = {
+                    "d": a36,
+                    "h": a23,
+                    "e": a37,
+                };
+                return o39;
+            }
+            f34(a32, v20, a33, v20);
+            f34(v20, v21, a33, a32);
+            f34(a23, a32, "getMinutes", a32);
+            return v20;
+        },
+    };
+    return o43;
+}
+const v44 = f22(v21, "d");
+f22(v19, "toString");
+const v46 = f22(v21, v16);
+const v50 = v46 | 0.5208772733095713;
+0.5208772733095713 || -12;
+Math.expm1(v46);
+v50 && v44;
+let v54 = +v50;
+v54++;
+Object.defineProperty("toString", "length", { configurable: true, get: f3 });

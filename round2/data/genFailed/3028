@@ -1,0 +1,31 @@
+let v0 = 1684863023;
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v0;
+    this.d = a5;
+    this.b = -26460;
+}
+const v7 = new F3(-25767, -25767);
+new F3(-25767, F3);
+const v9 = new F3(-25767, v7);
+class C13 extends F3 {
+    toString(a15, a16) {
+        try { v9.padStart(a16, v0, this, -256n, this); } catch (e) {}
+        const o20 = {
+            "maxByteLength": 2,
+        };
+        const v22 = new SharedArrayBuffer(2, o20);
+        new Int8Array(v22);
+        return a15;
+    }
+}
+new C13();
+new C13();
+const v27 = new C13();
+let v31 = 0;
+while (v31 < 8) {
+    v27["toString"](8n, "toString", "toString", "toString");
+    Object.defineProperty("toString", "f", { value: 65537 });
+    v0 += 65537;
+    v31++;
+}

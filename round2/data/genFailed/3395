@@ -1,0 +1,52 @@
+function f0() {
+    let v3 = 0.7107671993394021;
+    const o11 = {
+        get b() {
+            let v5 = -455313.0570691917 == this;
+            let v6 = this.e;
+            ({"c":v3,"e":v6,"f":v3,...v5} = this);
+            return v6;
+        },
+        get f() {
+            return v3;
+        },
+        __proto__: v3,
+    };
+    return o11;
+}
+let v12 = f0();
+const v13 = f0();
+const v14 = f0();
+class C15 extends f0 {
+    static [v14] = v12;
+    static [f0] = v12;
+    static 8 = f0;
+    d;
+    #o(a17) {
+        function f18(a19, a20, a21) {
+            ~(a21 + this);
+            v12--;
+            return v12;
+        }
+        f18(this, this, a17);
+        return v14;
+    }
+}
+new C15();
+new C15();
+new C15();
+const v32 = [256,45013,-128,-9223372036854775808];
+const v33 = [19551,-268435456,16,1996680392,-4294967295,10719,-1,-421474136,-28311,24559];
+const v34 = [22481984,-1015852054,-9007199254740991,-65536,2147483649,172548359,-1,709847590,5,536870888];
+async function f35(a36, a37, a38, a39) {
+    C15.valueOf = f0;
+    a39[a36] >>= 38468;
+    await v12;
+    return a38;
+}
+f35(v34, v32, 42770, v33);
+Object.defineProperty(v13, "g", { writable: true, get: f35, set: f0 });
+try {
+    new f0();
+} catch(e43) {
+}

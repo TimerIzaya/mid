@@ -1,0 +1,92 @@
+const v0 = /a\nb\bc4(?<!a)*/gsu;
+const v1 = /G0/gmyv;
+const v2 = /a\b!/gmys;
+class C6 {
+    #o(a8, a9, a10, a11) {
+        let v12 = super[a10];
+        const v16 = a8 >>> -1024;
+        v16 + v12;
+        --v12;
+        return v16;
+    }
+    f = -25974;
+    [-2];
+    9 = v2;
+}
+const v19 = new C6();
+const v20 = new C6();
+new C6();
+function f22(a23, a24, a25) {
+    const o26 = {
+        1073741824: v19,
+        5: v1,
+        ...a25,
+        "g": v20,
+        __proto__: a23,
+        255: v19,
+        0: 0,
+        ...v20,
+        6: v1,
+        "c": a23,
+        "a": a25,
+        "d": v20,
+        "h": v20,
+    };
+    return o26;
+}
+f22(0, 0, v1);
+const v28 = f22(f22, 0, v1);
+f22(v28, -25974, v1);
+f22(v0, 0, v2);
+%PrepareFunctionForOptimization(f22);
+f22(v0, 0, v2);
+f22(v0, 0, v2);
+%OptimizeMaglevOnNextCall(f22);
+const t44 = f22(v0, 0, v2);
+t44.length = 4;
+var h = v28;
+let v0 = "function";
+class C3 {
+    constructor(a5) {
+        const v6 = this / a5;
+        "symbol" && v0;
+        v6[9] = v6;
+        try {
+            v0 = this;
+        } catch(e8) {
+        }
+    }
+    static [v0];
+    #e = "symbol";
+}
+new C3(v0);
+new C3(C3);
+new C3("number");
+class C12 extends C3 {
+    g = "number";
+    a = C3;
+    static #valueOf(a14, a15) {
+        try {
+            C3.__proto__ = "symbol";
+        } catch(e16) {
+        }
+        return a15;
+    }
+    1755822218;
+    static ["symbol"] = "number";
+}
+let v17 = new C12();
+new C12();
+const v19 = new C12();
+try { C3("symbol"); } catch (e) {}
+try {
+    v17 = v19;
+} catch(e21) {
+}
+class C22 extends C12 {
+    static ["symbol"];
+    a = v17;
+}
+new C22();
+new C22();
+new C22();

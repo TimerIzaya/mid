@@ -1,0 +1,47 @@
+let v0 = -1.0;
+function f3() {
+    return 0.7412015153531878;
+}
+class C4 {
+    constructor(a6) {
+        let v5 = this;
+        [v5,v0,,...v5] = a6;
+        %VerifyType(v5);
+    }
+    get b() {
+        let v8;
+        try { v8 = v0(v0, 0.7412015153531878, this, f3, this); } catch (e) {}
+        this.h = f3;
+        return v8;
+    }
+    7 = 0.7412015153531878;
+    c = f3;
+    [v0] = 0.7412015153531878;
+    static 7 = NaN;
+    e;
+    static #h = 0.7412015153531878;
+}
+const v9 = new C4(0.7412015153531878);
+const v10 = new C4(v0);
+const v11 = new C4(NaN);
+[128,1073741825,-8,-19701,4,3];
+[10000,-27223,-12,3,536870888,7,-114346565,-30724,9007199254740990];
+[56955,10,268435441,-9007199254740992,255,4,8];
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a17;
+    this.h = f3;
+}
+new F15(C4, v11);
+new F15(v10, v0);
+new F15(v9, v0);
+class C22 extends f3 {
+    static c;
+    [v0];
+    [F15];
+    g;
+}
+new C22();
+new C22();
+new C22();
+v0 = C22;

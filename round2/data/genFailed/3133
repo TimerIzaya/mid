@@ -1,0 +1,51 @@
+const v0 = [103817753,1073741824,-2147483647,256,-532778823,16,4];
+const v1 = [65536,256,-128,1073741824,-9007199254740991,2,268435456];
+const v2 = [418651682,-1977186267,268435439,-1134345430,1800896020,-55966,-718098187];
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a9;
+    this.e = a9;
+    this.a = -1000.0;
+}
+let v11 = new F6(-2.2250738585072014e-308, v0, v2);
+const v12 = new F6(-1000.0, v1, v2);
+const v13 = new F6(-2.2250738585072014e-308, v0, v2);
+function f15(a16, a17, a18, a19) {
+    const o37 = {
+        [F6]: v11,
+        [-0.0]: a18,
+        "g": v12,
+        ...a19,
+        [a17]: v13,
+        "d": v2,
+        1000: v12,
+        ...a19,
+        toString(a21, a22, a23, a24) {
+            a22[2] = a23;
+            a22.length;
+            const v26 = a22[a24];
+            let v27 = 0;
+            do {
+                -a24;
+                Math.max(a17);
+                Math.imul(a17, 6531);
+                v27++;
+            } while (v27 < 8)
+            return v26;
+        },
+    };
+    return o37;
+}
+f15(v12, -1000.0, -2.2250738585072014e-308, v1);
+const v39 = f15(v13, -2.2250738585072014e-308, false, v0);
+f15(v11, -0.0, -1000.0, v2);
+v39.g;
+v11 <<= v12;
+function f42(a43) {
+    return -2.2250738585072014e-308;
+}
+class C44 extends f42 {
+    static #d;
+}
+Object.defineProperty(v12, 308, { writable: true, configurable: true, enumerable: true, get: f42 });
+v2[1073741824] ^= -0.0;

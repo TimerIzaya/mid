@@ -1,0 +1,36 @@
+class C3 {
+    n(a5, a6) {
+        const o7 = {
+        };
+        o7.f = "object";
+        const o8 = {
+        };
+        o8.f = "object";
+        o8.c = this;
+        const o9 = {
+        };
+        o9.f = "object";
+        o9.c = this;
+        o9.e = a5;
+        const o10 = {
+        };
+        o10.f = "object";
+        o10.c = this;
+        o10.e = a6;
+        return "object";
+    }
+}
+const v11 = new C3();
+new C3();
+new C3();
+[61319,5012,4,65537,940925518,-2];
+[2147483649,1073741823,2147483649,-4,65535,1222569983,37172,268435441];
+const v16 = [-4];
+const v18 = new Date();
+const v22 = v16 >>> C3;
+const o27 = {
+    valueOf() {
+        return v22;
+    },
+};
+Object.defineProperty(v18, v11, { writable: true, configurable: true, get: Date });

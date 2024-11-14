@@ -1,0 +1,84 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a5;
+}
+new F3(-128);
+const v7 = new F3(-536870912);
+const v8 = new F3(0);
+/(?:a?)?/sdv;
+const v13 = /xyz?/idv;
+/a(?=bbb|bb)c/gmsdv;
+class C15 {
+    static [v7];
+    n(a17, a18, a19) {
+        function f20() {
+            function f22(a23) {
+                function f24() {
+                    return this;
+                }
+            }
+            this.onmessage = f22;
+            v8[2054624740] = this;
+        }
+        const v27 = [];
+        const o28 = {
+            "arguments": v27,
+            "type": "function",
+        };
+        new Worker(f20, o28);
+        return 16;
+    }
+}
+new C15();
+new C15();
+const v32 = new C15();
+v32[v13];
+const o36 = {
+    "maxByteLength": 3807,
+};
+const v38 = new ArrayBuffer(3, o36);
+new BigInt64Array(v38);
+try {
+    new Float64Array(580);
+} catch(e3) {
+}
+try {
+    new Int8Array(0);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e11) {
+}
+function f12() {
+    return Float64Array;
+}
+class C13 extends Int8Array {
+    static o(a15, a16, a17, a18) {
+        Object.defineProperty(this, a15, { value: a15 });
+        try { this.defineProperty(8, BigInt64Array, a18); } catch (e) {}
+        /(ya(?=b))/uy;
+        /wa|bc/sidgyv;
+        /F/smv;
+        return a18;
+    }
+    56;
+    static #b;
+}
+new C13();
+const v24 = new C13();
+const v25 = new C13();
+const o26 = {
+    [v25]: C13,
+    ...v24,
+};
+const o28 = {
+    "deleteProperty": Symbol,
+    "get": Symbol,
+    "preventExtensions": f12,
+    "setPrototypeOf": Symbol,
+};
+try {
+    new Proxy(C13, o28);
+} catch(e31) {
+}

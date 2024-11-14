@@ -1,0 +1,26 @@
+const v1 = new WeakSet();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a4;
+    this.h = v1;
+    this.c = v1;
+}
+const v5 = new F2(v1);
+const v6 = new F2(v5);
+const v7 = new F2(v5);
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a13;
+    this.b = a13;
+    this.d = a10;
+}
+const v14 = new F8(v7, v6, v5, F2);
+const v15 = new F8(v6, v6, v6, v6);
+const v16 = new F8(v7, v7, v6, v5);
+for (const v17 of WeakSet) {
+    v15[F8];
+}
+for (const v19 in v14) {
+    v14.__proto__ = v1;
+    v16.a = v6;
+}

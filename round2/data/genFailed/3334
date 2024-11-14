@@ -1,0 +1,42 @@
+function f0() {
+}
+function f5(a6, a7) {
+    const o13 = {
+        [63031]: a6,
+        "e": -1005089001,
+        get c() {
+            let v8 = this;
+            v8 = a6;
+            Reflect.construct(f0, [], a6);
+            return a6;
+        },
+        ...a6,
+        "c": -1005089001,
+        "b": f0,
+    };
+    return o13;
+}
+const v14 = f5(63031, 63031);
+const v15 = f5(v14, 63031);
+const v16 = f5(v15, 512);
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a19;
+    this.c = a19;
+    this.f = a21;
+}
+const v22 = new F17(v16, v16, undefined);
+new F17(v15, 63031, -1005089001);
+const v24 = new F17(v15, v22, v14);
+v24[7] = v24;
+Object.defineProperty(v24, "c", { writable: true, configurable: true, enumerable: true, get: f5 });
+let v28 = 0;
+do {
+    v15.c <<= 512;
+    v24.toString = f0;
+    try {
+        f5(v16, 512);
+    } catch(e30) {
+    }
+    v28++;
+} while (v28 < 10)

@@ -1,0 +1,44 @@
+function f0() {
+    const o14 = {
+        "c": 930.3820179373806,
+        "b": 930.3820179373806,
+        "f": 4.0,
+        o(a5, a6) {
+            const o9 = {
+                "maxByteLength": 65535,
+            };
+            const v11 = new SharedArrayBuffer(9, o9);
+            new Uint8ClampedArray(v11);
+            return v11;
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+class C24 extends f0 {
+    [v17];
+    constructor(a26, a27, a28, a29) {
+        super();
+        const o32 = {
+            "maxByteLength": 7,
+        };
+        const v34 = new ArrayBuffer(7, o32);
+        new Int32Array(v34);
+    }
+    [-41405n] = v15;
+}
+const v37 = new C24(v15, 10n, 268435441n, v17);
+const v38 = new C24(v37, 8n, v37, f0);
+new C24(v37, 10n, 10n, -65537n);
+async function f40(a41, a42) {
+    'use strict';
+    try {
+        v16.o("byteLength", f0, "byteLength");
+    } catch(e45) {
+    }
+    await a42;
+    return a42;
+}
+f40(v38, C24);

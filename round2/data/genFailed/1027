@@ -1,0 +1,66 @@
+const v0 = [];
+const v3 = new Uint8ClampedArray(1024);
+const v6 = new Int32Array(167);
+const v9 = new BigUint64Array(4);
+function f11(a12, a13, a14, a15) {
+    const o20 = {
+        ...v6,
+        [a14]: a13,
+        valueOf(a17, a18, a19) {
+            v6.buffer ||= 167;
+            super[a14] = a17;
+            return Int32Array;
+        },
+        "b": Int32Array,
+        "a": v9,
+        "f": a12,
+        __proto__: v9,
+        ...v6,
+    };
+    return o20;
+}
+const v21 = f11(1024, 4, 1024, 167);
+f11(167, 4, 1024, 167);
+const v23 = f11(1024, 1024, 167, 1024);
+const v26 = Reflect.construct(Int32Array, [v0], Int32Array);
+delete v21[v23];
+try { Reflect.set(v23, v26, v0, v9); } catch (e) {}
+v3["keys"]();
+/Pa??/yisu;
+/gl(?<=)/mis;
+/xyz??/gmyidu;
+const v0 = [Infinity,3.0,553159.3170479911,1000.0,Infinity];
+const v1 = [1.0,-3.0,96956.1207828396];
+const v2 = [0.22659365110313945,-7.5062546896596665,-1.7976931348623157e+308,-259.297479491859,-1.5787663216591425e+308,Infinity,4.0,-594587.2933658842,-1e-15,1.867422108693555];
+class C9 {
+    m(a11, a12, a13, a14) {
+        try {
+            this.a = this;
+        } catch(e15) {
+        }
+        return this;
+    }
+    static #valueOf(a17, a18, a19) {
+        try { this(a17, 2.2250738585072014e-308, a19); } catch (e) {}
+        v1[5];
+        for (const v22 in a17) {
+            v1[Symbol.unscopables];
+        }
+        return "-65536";
+    }
+}
+new C9();
+const v27 = new C9();
+const v28 = new C9();
+[v28];
+const v30 = [v1];
+const v31 = ["__proto__",2.2250738585072014e-308,v30,0.928307837111197,v27];
+try {
+    v31[v31] = v31;
+} catch(e32) {
+}
+v30 % v0;
+const v34 = [v2,v27,C9,"-433476776",v1];
+const t32 = [v28,v1,["__proto__",C9,v34,v34,"__proto__"]];
+t32.length **= 0.928307837111197;
+%VerifyType("__proto__");

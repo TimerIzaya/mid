@@ -1,0 +1,62 @@
+const v1 = new Set();
+class C2 {
+    [Set] = v1;
+    set h(a4) {
+        this.valueOf = a4;
+        let v5;
+        try { v5 = a4(this, this, this); } catch (e) {}
+        v5[Symbol.split];
+    }
+    static o(a10) {
+        function f11() {
+            return this;
+        }
+        return this;
+    }
+}
+const v12 = new C2();
+const v13 = new C2();
+const v14 = new C2();
+const v16 = new Map();
+class C17 extends C2 {
+    constructor(a19, a20, a21) {
+        super();
+        Object.defineProperty(v13, this, { writable: true, configurable: true, enumerable: true, value: a19 });
+        let v22 = ~v14;
+        try { a20(Set, v16, a21); } catch (e) {}
+        super.h = this;
+        v22 %= v22;
+    }
+    static f = C2;
+    static p(a25, a26, a27, a28) {
+        new C2();
+        delete a26[5];
+        v12.__proto__ = v13;
+        return C2;
+    }
+}
+const v31 = new C17(v14, v12, v12);
+const v32 = new C17(v31, v16, v31);
+const v33 = new C17(v12, v13, v13);
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a37;
+    this.c = a39;
+    this.e = a38;
+}
+const v40 = new F34(v32, v31, v12, v31);
+new F34(v33, v14, v40, v40);
+new F34(v33, v32, C17, v13);
+let v43 = 0;
+do {
+    let v44;
+    try { v44 = Map(v12); } catch (e) {}
+    const v45 = v44.__proto__;
+    Math.atan2(Set, F34);
+    v45 << 257;
+    const v50 = !F34;
+    --F34;
+    Math.cosh(v45);
+    Math.round(v50 | 257);
+    v43++;
+} while (v43 < 8)

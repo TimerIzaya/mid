@@ -1,0 +1,130 @@
+const v0 = [-4294967296];
+const v1 = [-4294967297,5,-16,-2147483647,16,13];
+const v2 = [-11,-9007199254740992,65535,1178462829,19882,3,2,-1073741824];
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a5;
+    this.g = v1;
+}
+const v6 = new F3(v2);
+const v7 = new F3(v0);
+const v8 = new F3(v0);
+class C9 {
+    constructor(a11, a12, a13) {
+        const v14 = v2.toSpliced(...a12, ...a12, ...a11, v6);
+        super.c ^= v1;
+        v8[2111] = v14;
+        super[v8];
+    }
+    static #toString(a18, a19, a20, a21) {
+        const v23 = Symbol.iterator;
+        const o32 = {
+            [v23]() {
+                let v25 = 10;
+                const o31 = {
+                    next() {
+                        v25--;
+                        const v29 = v25 == 0;
+                        const o30 = {
+                            "done": v29,
+                            "value": v25,
+                        };
+                        return o30;
+                    },
+                };
+                return o31;
+            },
+        };
+        return v8;
+    }
+}
+const v33 = new C9(v0, v2, v2);
+const v34 = new C9(v33, v2, v2);
+const v35 = new C9(v1, v1, v1);
+function f36(a37, a38, a39, a40) {
+    const o45 = {
+        "h": v34,
+        __proto__: v2,
+        "f": v1,
+        "a": v6,
+        ...v33,
+        [a39]: v0,
+        get b() {
+            const v42 = [this,v35,this,a37];
+            return [v35,a37,[a40,v42,v42,a39,this]];
+        },
+        ...v6,
+        "c": a37,
+        "e": a39,
+    };
+    return o45;
+}
+f36(v6, v0, v2, v8);
+const v47 = f36(v8, v35, v7, F3);
+const v48 = f36(v8, v2, v47, F3);
+const v49 = new F3(v33);
+try {
+    const v50 = [v47,v49,v48,C9,v8];
+    const o51 = {
+    };
+    f36(v6, v50, v34, o51);
+} catch(e53) {
+}
+const o57 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o57);
+class C3 {
+    static {
+        const v6 = this.g.__proto__;
+        try {
+            v6[v6] = -39220;
+        } catch(e7) {
+        }
+    }
+    get a() {
+        let v12 = -591.943771788328;
+        Math.ceil(v12);
+        Math.log10(-3);
+        const v15 = v12--;
+        Math.sign(-3);
+        let v17 = +-34421;
+        v15 * -34421;
+        v17--;
+        return -34421;
+    }
+}
+new C3();
+new C3();
+new C3();
+try {
+    new Uint8Array(101);
+} catch(e26) {
+}
+try {
+    new Uint16Array(1328);
+} catch(e30) {
+}
+try {
+    new Uint32Array(16);
+} catch(e34) {
+}
+new Date();
+let v40 = 0;
+while (v40 < 7) {
+    Date();
+    try {
+        new Int16Array(2672);
+    } catch(e47) {
+    }
+    try {
+        new Int32Array(256);
+    } catch(e51) {
+    }
+    try {
+        new Int32Array(0);
+    } catch(e55) {
+    }
+    v40++;
+}

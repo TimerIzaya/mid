@@ -1,0 +1,114 @@
+const v0 = /\p{Nd}/gmsdv;
+const v1 = /a[^a]/msd;
+const v2 = /\u0034a[a-z]?/yisdv;
+function f3(a4, a5) {
+    const o9 = {
+        p(a7, a8) {
+            Object.defineProperty(a4, a8, { value: this });
+            return a8;
+        },
+        ...a4,
+        "a": a4,
+        __proto__: a5,
+        [v1]: v0,
+        "e": a5,
+        "d": a5,
+        "b": a4,
+        [a4]: v2,
+    };
+    return o9;
+}
+const v10 = f3(v2, v2);
+const v11 = f3(v0, v0);
+const v12 = f3(v2, v0);
+for (const v19 in v10) {
+    v2.global = v11;
+    let v21;
+    try { v21 = v11["p"](...v19, v12, -9007199254740990, ..."p", v19, 119804854); } catch (e) {}
+    v21.a = v0;
+}
+v0.valueOf = f3;
+const v22 = f3(v1, v1);
+try { new f3(1, v22, ...v11, v22); } catch (e) {}
+const o24 = {
+};
+o24.b = -9007199254740990;
+const o25 = {
+};
+o25.b = -9007199254740990;
+o25.f = -9007199254740990;
+const o26 = {
+};
+o26.b = -9007199254740990;
+o26.f = -9007199254740990;
+o26.c = v1;
+const o27 = {
+};
+o27.b = -9007199254740990;
+o27.f = -9007199254740990;
+o27.c = -9007199254740990;
+try {
+    new BigUint64Array(4096);
+} catch(e3) {
+}
+try {
+    new Float64Array(1615);
+} catch(e7) {
+}
+let v9 = Uint16Array;
+try {
+    new v9(3);
+} catch(e11) {
+}
+class C12 {
+    o(a14, a15, a16, a17) {
+        try {
+            v9 ^= v9;
+        } catch(e18) {
+        }
+        return this;
+    }
+    [3] = v9;
+    #e;
+    691316685 = 3;
+    [4096];
+}
+new C12();
+const v20 = new C12();
+const v21 = new C12();
+function F22(a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v21;
+    } catch(e27) {
+    }
+    try {
+        this.a = a26;
+    } catch(e28) {
+    }
+    try {
+        this.b = Float64Array;
+    } catch(e29) {
+    }
+}
+const v30 = new F22(3, v21, 1615);
+new F22(v30, v30, v30);
+new F22(3, C12, C12);
+const v33 = v30.a;
+throw v33;
+try {
+    v20[1] = v33;
+} catch(e34) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e38) {
+}
+try {
+    new BigUint64Array(512);
+} catch(e42) {
+}
+try {
+    new Int8Array(8);
+} catch(e46) {
+}

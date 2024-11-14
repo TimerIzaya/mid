@@ -1,0 +1,62 @@
+new BigUint64Array(10);
+new BigUint64Array(180);
+new Uint8ClampedArray(129);
+const v10 = new WeakMap();
+for (let v15 = 0; v15 < 32; v15++) {
+    v10["p" + v15] = v15;
+}
+v10.length = 0;
+Reflect.construct(WeakMap, [Reflect], Uint8ClampedArray);
+function f0() {
+    let v3 = "V";
+    const o19 = {
+        toString(a5, a6) {
+            delete this[255];
+            const v8 = /[\p{Script_Extensions=Mongolian}&&\p{Number}]a?/sdmv;
+            /ra$v\b+/sdmyv;
+            /la+b|c+/sdy;
+            return v8;
+        },
+        [v3](a12) {
+            let v14 = 33724;
+            ++v14;
+            Math.sign(v3);
+            ++v3;
+            return v3;
+        },
+    };
+    return o19;
+}
+const v20 = f0();
+const v21 = f0();
+const v22 = f0();
+function f23(a24) {
+    const o29 = {
+        ...v21,
+        __proto__: v20,
+        "a": a24,
+        [a24]: v21,
+        "e": a24,
+        "g": f0,
+        "c": v20,
+        set h(a26) {
+            f0 - v20;
+            try {
+                a26 ^= a24;
+            } catch(e28) {
+            }
+        },
+    };
+    return o29;
+}
+const v30 = f23(v21);
+const v31 = f23(v22);
+f23(v21);
+function f36() {
+    return -13n;
+}
+v30[Symbol.hasInstance] = v21;
+try {
+    v20[v31] = 1073741824n;
+} catch(e42) {
+}

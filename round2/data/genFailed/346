@@ -1,0 +1,63 @@
+function f6() {
+    return 10;
+}
+const v9 = new BigInt64Array(256);
+const v12 = new BigInt64Array(944);
+const v15 = new Int8Array(64);
+try { v15.set(v12, 10); } catch (e) {}
+const o17 = {
+    __proto__: v9,
+    "h": BigInt64Array,
+    [4096n]: v9,
+};
+[2147483648,1073741824,257,-65537];
+[9007199254740990,-128];
+[-1170525073,128,0];
+let v22 = -449971264;
+Int8Array << Int8Array;
+const v25 = v22 >> 4096n;
+Math.sign(Int8Array);
+const v27 = v22++;
+v25 | v27;
+v27 * v25;
+class C3 {
+    constructor(a5, a6) {
+        const o9 = {
+            "maxByteLength": 4294967295,
+        };
+        const v11 = new ArrayBuffer(16, o9);
+        try {
+            new Uint8Array(v11);
+        } catch(e14) {
+        }
+    }
+}
+const v15 = new C3("object", 127);
+const v16 = new C3(-3.0, v15);
+const v17 = new C3(C3, v16);
+class C18 extends C3 {
+    static valueOf(a20, a21, a22) {
+        const v24 = [127];
+        Reflect.apply(("object").charAt, a22, v24);
+        return a22;
+    }
+    static #h = v16;
+    c;
+    static #c = C3;
+    static 255 = v15;
+    #b = v17;
+}
+new C18();
+new C18();
+new C18();
+[-4,0,-14,-2147483649,1805769018,-28492,64];
+[-14,1073741824,7,268435441,-2];
+[0,-1528604614,1489228914];
+let v34 = 2147483647;
+Math.atan2(C18, v34);
+Math.cosh(C18);
+~v34;
+-1.0 & C18;
+Math.log2(-1.0);
++v34;
+v34++;

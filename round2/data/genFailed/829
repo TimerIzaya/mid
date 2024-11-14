@@ -1,0 +1,79 @@
+let v2 = new Uint16Array(0);
+const v5 = new BigInt64Array(26);
+const v8 = new Float64Array(29);
+function f9(a10, a11, a12) {
+    const o23 = {
+        10: a11,
+        __proto__: v8,
+        [a11](a14, a15) {
+            v2.byteLength <<= a15;
+            return 26;
+        },
+        ...v5,
+        "a": Float64Array,
+        ...v2,
+        "h": a11,
+        valueOf(a17, a18, a19) {
+            if (this < a18) {
+                v5.byteOffset ||= a11;
+            } else {
+                const v21 = this.h;
+                try { new v21(0, v21, v21); } catch (e) {}
+            }
+            return a18;
+        },
+    };
+    return o23;
+}
+let v24 = f9(26, 29, 0);
+const v25 = f9(29, 29, 29);
+const v26 = f9(26, 0, 29);
+const v27 = [26];
+[v27,v8,v27];
+[v25];
+v24 += v26;
+try {
+    new Uint16Array(1073741823);
+} catch(e32) {
+}
+Math.fround(0.875101212073828);
+!(v2++);
+[1.2625486580625726e+307];
+const v1 = [-4.0,1000000000.0,-2.220446049250313e-16,NaN,-3.606730040115213,513756.19282260514,-1.7976931348623157e+308,3.0,0.09232747142534636];
+[-0.0,0.0,9.533261572800843,-Infinity,2.220446049250313e-16,1.788011041380784e+308,0.3710933125439426,0.4444469663422512,1e-15];
+try {
+    new Int32Array(68);
+} catch(e6) {
+}
+let v7 = 256;
+try {
+    new Uint8Array(v7);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(3646);
+} catch(e14) {
+}
+class C15 extends Uint8Array {
+    p(a17, a18) {
+        a17.length;
+        const v22 = Uint8Array >>> v7;
+        Math.cbrt(6);
+        v7--;
+        Math.atan2(6, v22);
+        return v1;
+    }
+    a;
+    b;
+    [68] = Int32Array;
+}
+new C15();
+const v27 = new C15();
+new C15();
+for (const v32 in v27) {
+    try {
+        const t34 = "129";
+        t34[Int32Array] = 3646;
+    } catch(e33) {
+    }
+}

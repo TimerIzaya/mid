@@ -1,0 +1,56 @@
+function f0() {
+    const o7 = {
+        ["toString"]: 500.6316878144539,
+        "g": "toString",
+        "c": -1307710576,
+        15: -1307710576,
+        set d(a5) {
+            a5 **= "toString";
+            "toString" << -1307710576;
+            %VerifyType(a5);
+        },
+        "d": "toString",
+        140: 500.6316878144539,
+    };
+    return o7;
+}
+const v8 = f0();
+f0();
+const v10 = f0();
+const v15 = [-9223372036854775808,-43918];
+const v16 = [v15,v15,-9007199254740990,-9007199254740990];
+const v17 = [v8,v16,-9007199254740990,v16,-9223372036854775808];
+v10.g;
+for (let [v19] of v17) {
+    v19.toString = v19;
+    const t25 = f0();
+    t25.toString = v19;
+    const o23 = {
+        "maxByteLength": 4294967295,
+    };
+    const v25 = new SharedArrayBuffer(21, o23);
+    new Int8Array(v25);
+}
+try {
+    new Uint32Array(8);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e7) {
+}
+try {
+    new Float32Array(10);
+} catch(e11) {
+}
+const v13 = [1308094648,4096,-585629668,-536870912,-6,1,65537];
+[3,-2147483647,1042355789,-5,4294967295,16,-2147483647,4294967297,1024];
+const v15 = [40560,9,1000,-572971449];
+function f16() {
+    return v13;
+}
+v13.every(...v15, ..."-15737", 8, ..."replace", 10);
+null << 10;
+Math.expm1(f16);
+Math.log(f16);
+Math.atan(+(13 % f16));

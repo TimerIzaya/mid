@@ -1,0 +1,32 @@
+function f0() {
+    const o9 = {
+        "d": -65535,
+        ...65535,
+        n(a5, a6) {
+            try { a5(a5, this, a6, -65535); } catch (e) {}
+            return a6;
+            this << 65535;
+            return -65535;
+        },
+        1024: 65535,
+        "c": 65535,
+    };
+    return o9;
+}
+f0();
+const v11 = f0();
+f0();
+new Float32Array(4096);
+new Uint32Array(255);
+new Float32Array(1233);
+let v22 = 0;
+while (v22 < 3) {
+    Object.defineProperty(v11, 1853, { writable: true, get: f0 });
+    f0();
+    %PrepareFunctionForOptimization(f0);
+    f0();
+    f0();
+    %OptimizeMaglevOnNextCall(f0);
+    f0();
+    v22++;
+}

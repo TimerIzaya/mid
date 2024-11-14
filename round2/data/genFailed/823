@@ -1,0 +1,115 @@
+const v0 = [2.2250738585072014e-308,725906.9293275273,4.0,0.4905491941069223,-405812.10054606514,-1e-15,4.774925466704147,8.420289081522778e+307,-1.7976931348623157e+308,1e-15];
+const v1 = [-1000000000.0,-1.4928571721871455e+308,1e-15,-2.2250738585072014e-308,1000.0,0.7532609265496449,3.0,2.220446049250313e-16,1.612481321562484];
+const v2 = [-1.7976931348623157e+308,0.8416578200484798];
+function f3(a4) {
+    const o18 = {
+        4294967295: v2,
+        [a4](a6, a7) {
+            let v9 = -2147483649;
+            a4 / v9;
+            Math.asin(v9);
+            const v13 = --v9;
+            const v14 = 0.7527749900994191 + 0.7527749900994191;
+            ~v9;
+            v14 >>> v13;
+            ++a4;
+            return a4;
+        },
+    };
+    return o18;
+}
+const v19 = f3(v1);
+let v20 = f3(v2);
+const v21 = f3(v1);
+function f22(a23, a24, a25) {
+    const o34 = {
+        "d": f3,
+        11: a25,
+        valueOf(a27, a28, a29) {
+            v0[v0];
+            for (let v31 = 0; v31 < 32; v31++) {
+                v2["p" + v31] = v31;
+            }
+            return this;
+        },
+    };
+    return o34;
+}
+const v35 = f22(v20, v21, v21);
+const v36 = f22(v0, v1, v19);
+let v37 = f22(v36, v36, v19);
+v37 = v35;
+const t40 = v35[v20 = v21];
+t40[1] = v36;
+%VerifyType(v36);
+function f39() {
+    return v1;
+}
+function f40() {
+    return v37;
+}
+const v1 = new Date();
+const v3 = new WeakSet();
+class C4 extends WeakSet {
+    static #p(a6, a7) {
+        return -9007199254740991n;
+    }
+    constructor(a12, a13) {
+        super(v1);
+        try {
+            v3.__proto__ = v1;
+        } catch(e14) {
+        }
+    }
+}
+const v15 = new C4(v3, v3);
+const v16 = new C4(Date, WeakSet);
+new C4(v1, v16);
+function F18(a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = C4;
+    } catch(e23) {
+    }
+    try {
+        this.h = v1;
+    } catch(e24) {
+    }
+    try {
+        this.a = a20;
+    } catch(e25) {
+    }
+}
+const v26 = new F18(C4, v15, v3);
+const v27 = new F18(v26, v16, v3);
+const v28 = new F18(v3, v27, v3);
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v27;
+    } catch(e34) {
+    }
+    try {
+        this.g = v27;
+    } catch(e35) {
+    }
+}
+new F29(v27, v16, v16);
+const v37 = new F29(v28, v15, C4);
+new F29(v27, v37, v27);
+let v39 = 0;
+while (v39 < 10) {
+    try {
+        new Int8Array(9);
+    } catch(e45) {
+    }
+    try {
+        new Uint32Array(3499);
+    } catch(e49) {
+    }
+    try {
+        new Int16Array(351);
+    } catch(e53) {
+    }
+    v39++;
+}

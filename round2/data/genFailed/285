@@ -1,0 +1,72 @@
+class C3 {
+    valueOf(a5, a6) {
+        a6.a = this;
+        const v9 = ("l5gb")[Symbol.hasInstance];
+        const v10 = [a6,this];
+        const v11 = [v10,v10,v9];
+        [v11,a6,"b",v11];
+        return "b";
+    }
+    #a;
+    ["l5gb"] = "b";
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+class C16 {
+    #m(a18, a19) {
+        let v20 = 0;
+        while (v20 < 9) {
+            super[v20] = this;
+            %VerifyType(a19);
+            v20++;
+        }
+        return this;
+    }
+}
+const v24 = new C16();
+new C16();
+const v26 = new C16();
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = C3;
+    this.a = a29;
+    this.f = v14;
+}
+new F27(v15, v24, v15, C3);
+new F27(v15, v14, v13, v15);
+new F27(C16, v15, v13, v26);
+const v36 = v15[v15];
+Reflect.construct(v36, [Reflect], v36);
+try {
+    v26.n("-44439", "-44439");
+} catch(e42) {
+}
+delete Reflect[536870888];
+const v0 = [1000000.0,-5.0,-1.7926667244052181e+308,-5.88042799994821e+307,3.0,-1.7976931348623157e+308,-0.0];
+[959.3394048174187,137.5149439772324,-3.478669782405685e+307,-1000.0];
+[1.5383080139402665e+308,-1000000.0,-5.4797111508996625,1000000000000.0,-922.1263065592116];
+[-1000000000000.0,7.050982013285093e+307];
+[4.0,-1.7976931348623157e+308,0.8172440008816018,-1000000000.0,1.7976931348623157e+308,-0.0];
+const v14 = [242433.69917882234,1.0,0.9702292853610521];
+for (let [v15,v16] of v0) {
+    let [v17,v18] = v14;
+    const v20 = Symbol.iterator;
+    const o29 = {
+        [v20]() {
+            let v22 = 10;
+            const o28 = {
+                next() {
+                    v22--;
+                    const v26 = v22 == 0;
+                    const o27 = {
+                        "done": v26,
+                        "value": v22,
+                    };
+                    return o27;
+                },
+            };
+            return o28;
+        },
+    };
+}

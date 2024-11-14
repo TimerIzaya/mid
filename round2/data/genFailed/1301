@@ -1,0 +1,44 @@
+const v5 = new Int8Array(257);
+const v8 = new Uint8ClampedArray(684);
+const v11 = new BigInt64Array(11);
+v8[7854] = -9223372036854775808;
+const v16 = [v8,684,257];
+const v17 = Reflect.construct(BigInt64Array, v16, Uint8ClampedArray);
+v5[v16] = v17;
+try { v11.lastIndexOf(v5, -9223372036854775808); } catch (e) {}
+function f19() {
+    return v11;
+}
+delete v17?.[Int8Array];
+const v4 = [1000000000.0,-502695.5957054002,1.7976931348623157e+308,-2.0];
+const v5 = [4.0,-5.750420801923686,1.0,134.55519491180394,-1.942173639110628,-672.7580160128064,1000000.0];
+const v6 = [1000000000000.0,312617.58523032884,286971.400929098];
+new WeakMap();
+class C9 extends WeakMap {
+    static #a = v4;
+    d = v4;
+    constructor(a11, a12) {
+        super(a12);
+        try {
+            const o13 = {
+            };
+            new WeakMap(o13);
+        } catch(e15) {
+        }
+    }
+    static #h = -3n;
+    221;
+}
+let v16 = new C9(7n, v5);
+const v17 = new C9(v6, v6);
+const v18 = new C9(null, v5);
+try {
+    v16 += v18;
+} catch(e19) {
+}
+v17 >> -3n;
+let v21 = delete v18[4294967296n];
+try {
+    v21 = v16;
+} catch(e22) {
+}

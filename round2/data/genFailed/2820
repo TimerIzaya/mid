@@ -1,0 +1,28 @@
+function f0() {
+    const o9 = {
+        "g": "n",
+        [0]: "n",
+        16: "n",
+        ["n"]: "toLocaleString",
+        __proto__: "n",
+        ["toLocaleString"](a5) {
+            delete this[a5];
+            return ("toLocaleString").__proto__;
+        },
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+const v13 = [v12,v11,f0,f0,v12];
+const v14 = [v13,v13,v12,f0,v13];
+const v15 = [v14,f0,f0,v14];
+new Set();
+Object.defineProperty([], "e", { writable: true, enumerable: true, get: f0 });
+if (v15 == v10) {
+    Reflect.construct(Map, [v15], f0);
+} else {
+    const v28 = Symbol.species;
+    v14[v28] = v28;
+}

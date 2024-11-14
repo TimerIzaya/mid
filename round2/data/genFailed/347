@@ -1,0 +1,75 @@
+new BigInt64Array(255);
+new Int32Array(0);
+const v8 = new Int16Array(8);
+new Float32Array(192);
+new Float64Array(257);
+const v17 = new Uint16Array(201);
+Math.tanh(34078);
+let v22 = 2.0 ** 34078;
+2.0 >>> 201;
+v17.__proto__ = v17;
+v22 ^= 257;
+v8[Uint16Array] <<= 8;
+v17.g = 192;
+try {
+    new Int8Array(13);
+} catch(e3) {
+}
+try {
+    new Float64Array(9);
+} catch(e7) {
+}
+try {
+    new Float32Array(2905);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o20 = {
+        "h": 2905,
+        __proto__: a15,
+        toString(a17, a18) {
+            try {
+                super.a = a13;
+            } catch(e19) {
+            }
+            return this;
+        },
+        9: Float64Array,
+    };
+    return o20;
+}
+const v21 = f12(2905, 13, Float64Array);
+const v22 = f12(13, 9, Float32Array);
+f12(9, 2905, 9);
+for (const v24 of Float32Array) {
+    const v25 = v21 in v22;
+    const o26 = {
+    };
+    try {
+        o26.c = v22;
+    } catch(e27) {
+    }
+    try {
+        const o28 = {
+        };
+        o28.c = v22;
+        o28.d = v25;
+    } catch(e29) {
+    }
+    try {
+        const o30 = {
+        };
+        o30.c = v22;
+        o30.d = v25;
+        o30.e = v24;
+    } catch(e31) {
+    }
+    try {
+        const o32 = {
+        };
+        o32.c = v22;
+        o32.d = v25;
+        o32.e = v22;
+    } catch(e33) {
+    }
+}

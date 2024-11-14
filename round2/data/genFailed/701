@@ -1,0 +1,43 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = 1000;
+    this.d = a5;
+    this.e = a5;
+}
+new F3(1000);
+new F3(10000);
+new F3(536870887);
+[-13632,1073741823,-1,512];
+[-1022880836,65537,914930035];
+const v14 = [268435441,42227,268435440,256,-1206532580,257,-556967176,0,0,-2082995501];
+const o15 = {
+};
+new Proxy("symbol", o15);
+Math.hypot(-65537);
+const v23 = !(~v14);
+v14 && -65537;
+Math.imul(v23, -1.7976931348623157e+308);
+Math.expm1(v23);
+try {
+    new BigUint64Array(73);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(129);
+} catch(e7) {
+}
+try {
+    new Uint16Array(9);
+} catch(e11) {
+}
+let v13 = 536870887n;
+try {
+    BigUint64Array.f = BigUint64Array;
+} catch(e18) {
+}
+try {
+    v13 = 28467n;
+} catch(e19) {
+}
+536870912n ^ 129;
+%VerifyType(9);

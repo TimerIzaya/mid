@@ -1,0 +1,85 @@
+const v0 = [2,1987535169,4294967297,257,-256,-65537];
+const v1 = [-49966,255,536870889,-256,-701341416,-780];
+const v2 = [10000,-205641352,-9007199254740992,29780,-1155241381,65536,-4294967296];
+function f3() {
+    return v2;
+}
+class C4 extends f3 {
+    d;
+    #o(a6) {
+        return v2;
+    }
+    static [v2];
+    static [v0] = v0;
+    1;
+    65535;
+    #g;
+}
+new C4();
+new C4();
+new C4();
+new Int16Array(10);
+new Float32Array(257);
+new Uint8ClampedArray(7);
+const t23 = v1["join"]("join");
+t23.length = 1;
+Object.defineProperty(f3(), "length", { get: f3 });
+function f3(a4, a5) {
+    const o13 = {
+        set d(a7) {
+            super[a7];
+            try {
+                a4 = a5;
+            } catch(e9) {
+            }
+        },
+        __proto__: -128n,
+        268435441: a5,
+        get g() {
+            try {
+                this[246] = -7n;
+            } catch(e12) {
+            }
+            return this;
+        },
+    };
+    return o13;
+}
+let v14 = f3(-128n, -128n);
+const v15 = f3(-7n, -1754664422n);
+const v16 = f3(-1754664422n, -7n);
+function f17(a18, a19, a20, a21) {
+    const o27 = {
+        toString(a23, a24) {
+            super.e;
+            const o26 = {
+                __proto__: v15,
+                [a24]: a19,
+                "b": a21,
+                "d": a18,
+            };
+            return v16;
+        },
+        ...v15,
+        "b": a20,
+        "f": v14,
+        "a": f3,
+    };
+    return o27;
+}
+f17(-7n, -1754664422n, v16, v16);
+f17(-1754664422n, -7n, v16, v16);
+f17(-7n, -1754664422n, v15, v15);
+%VerifyType(-1754664422n);
+const v34 = v15.g;
+v34 instanceof v34;
+for (const v36 in v15) {
+    try {
+        v34[v36] = -1754664422n;
+    } catch(e37) {
+    }
+}
+try {
+    v14 = v15;
+} catch(e38) {
+}

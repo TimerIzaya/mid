@@ -1,0 +1,61 @@
+new WeakMap();
+const v2 = [1073741825,9007199254740992,1264827164,9007199254740991,-698135953,-256,-2147483649];
+const v3 = [-5481,-536870912,-4294967296,-1879926888,-55302,4294967297,-9007199254740991];
+const v4 = [-724395994,-1];
+let v5 = -22083n;
+function f8(a9, a10, a11) {
+    const o18 = {
+        ...v2,
+        "a": v5,
+        toString(a13, a14) {
+            return v3;
+        },
+        [v3]: a10,
+        __proto__: a11,
+        [a10]: 951716934n,
+        "f": -53878n,
+    };
+    return o18;
+}
+f8(WeakMap, 951716934n, v4);
+f8(v2, -53878n, v2);
+const v21 = f8(v2, -53878n, v2);
+v3.length;
+const v23 = v21.a;
+v5 = 951716934n;
+delete v2[5];
+function f25(a26, a27) {
+    'use strict';
+    const o30 = {
+        "maxByteLength": 2329,
+    };
+    const v32 = new SharedArrayBuffer(193, o30);
+    new Float64Array(v32);
+    return 193;
+}
+f25(v3, v23);
+const v1 = new WeakMap();
+class C5 extends WeakMap {
+    0;
+    constructor(a7, a8) {
+        super(a7);
+        const v10 = new String(a8);
+        a7 in v10;
+        v1.g;
+    }
+    static #h = "wfZ";
+    static #a = "wfZ";
+}
+new C5("string", "wfZ");
+const v14 = new C5(C5, "string");
+const v15 = new C5(v14, "m");
+const v16 = [v15];
+const v17 = [v1,v1,"wfZ",C5,v16];
+[C5,v15];
+const v20 = v16.length;
+new Array(6);
+try { v17.at(v20); } catch (e) {}
+try {
+    C5 = this;
+} catch(e28) {
+}

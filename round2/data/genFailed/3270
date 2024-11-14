@@ -1,0 +1,42 @@
+let v2 = "-2147483648";
+class C3 {
+    o(a5, a6) {
+        let v4 = this;
+        [,v2,...v4] = v2;
+        const o10 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o10);
+        return "d";
+    }
+    static [v2] = "d";
+}
+const v12 = new C3();
+const v13 = new C3();
+new C3();
+function f18() {
+    return 10000;
+}
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 3;
+    this.b = a24;
+}
+new F19(v2, v12, 3, -2147483647);
+new F19(v2, v12, 10000, 3);
+const v27 = new F19(v2, v13, 10000, -2147483647);
+v27.__proto__ = v27;
+new C3();
+f18();
+%PrepareFunctionForOptimization(f18);
+f18();
+f18();
+%OptimizeMaglevOnNextCall(f18);
+f18();
+v2 = "d";
+const o35 = {
+    "maxByteLength": 1073741824,
+};
+const v37 = new ArrayBuffer(170, o35);
+new Int32Array(v37);

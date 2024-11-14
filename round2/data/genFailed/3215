@@ -1,0 +1,31 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v0;
+    this.f = v0;
+    this.a = v0;
+}
+new F1();
+const v4 = new F1();
+const v5 = new F1();
+const v6 = [v4,v5,F1,v4,v0];
+[F1,v6,v6,v5,v6];
+[v5,F1,v0,F1];
+function f12(a13, a14) {
+    function f16(a17) {
+        a17.valueOf = a17;
+        const o21 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o21);
+    }
+    this.onmessage = f16;
+    a13[10] = f16;
+}
+const v25 = [1000n,f12];
+const o26 = {
+    "arguments": v25,
+    "type": "function",
+};
+new Worker(f12, o26);

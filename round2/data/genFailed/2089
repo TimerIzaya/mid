@@ -1,0 +1,12 @@
+new Date();
+const v7 = new Float32Array(1621);
+const v10 = new Int32Array(3650);
+let v11 = 5;
+const v13 = new Uint8ClampedArray(v11);
+const v15 = Symbol.unscopables;
+v13[v15] = v15;
+v10.length = 2;
+const v18 = v7[1621 || 3650];
+v11 -= 2;
+try { Date.parse(v18); } catch (e) {}
+Object.defineProperty(Date, 1621, { writable: true, configurable: true, set: Date });

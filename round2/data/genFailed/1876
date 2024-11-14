@@ -1,0 +1,62 @@
+const v0 = /a\nb\bc/gdv;
+const v1 = /xyz{0,1}?/gmd;
+const v2 = /W(x)(x)(x)\2/s;
+function f3() {
+    return v2;
+}
+function f4(a5, a6) {
+    const o19 = {
+        "g": a5,
+        ...v1,
+        __proto__: v2,
+        10: a6,
+        "d": v0,
+        ...v1,
+        "b": a6,
+        o(a8, a9, a10, a11) {
+            const v15 = a10 && -1.7976931348623157e+308;
+            --a10;
+            !v15;
+            Math.ceil(a10);
+            return a5;
+        },
+    };
+    return o19;
+}
+const v20 = f4(v2, v2);
+const v21 = f4(v1, v0);
+f4(v1, v1);
+class C23 {
+    static #o(a25, a26) {
+        Object.defineProperty(v0, "c", { writable: true, configurable: true, enumerable: true, set: f3 });
+        return 1n;
+    }
+    214;
+    static #h = f3;
+    constructor(a31, a32) {
+        super[v20] = this;
+        for (let v33 = 0; v33 < 32; v33++) {
+            a32["p" + v33] = v33;
+        }
+    }
+}
+const v36 = new C23(v1, C23);
+const v37 = new C23(v0, v21);
+const v38 = new C23(v37, v20);
+function f39() {
+    return v36;
+}
+const v43 = v38[v38];
+try {
+    v21.o(f39, 536870888);
+} catch(e45) {
+}
+try { v37.valueOf(); } catch (e) {}
+v1[10000] = v43;
+v38[v2] |= 39227;
+f39();
+%PrepareFunctionForOptimization(f39);
+f39();
+f39();
+%OptimizeMaglevOnNextCall(f39);
+f39();

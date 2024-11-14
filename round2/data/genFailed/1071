@@ -1,0 +1,101 @@
+function f0() {
+    const o17 = {
+        n(a5, a6) {
+            this[new.target];
+            return a6;
+        },
+        ...-3.0,
+        get c() {
+            this.valueOf = this;
+            function F10(a12, a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.d = this;
+            }
+            const v14 = new F10(-3.0, -3.0);
+            new F10(v14, v14);
+            new F10(0.8302960826749246, -3.0);
+            return v14;
+        },
+    };
+    return o17;
+}
+f0();
+f0();
+f0();
+new Float32Array(346);
+new BigUint64Array(2572);
+const v29 = new Uint32Array(1024);
+class C30 extends Float32Array {
+    #a;
+    6;
+    static 3900 = v29;
+    static d = 1024;
+}
+new C30();
+new C30();
+const v33 = new C30();
+v33[1];
+class C3 {
+    static #a;
+    constructor(a5) {
+        let v9;
+        try { v9 = this.n(-907513.3446412942, a5, 3.0, a5, 3.0); } catch (e) {}
+        v9?.[-907513.3446412942];
+    }
+    static #c;
+    #f = 5.361593770155336e+307;
+}
+const v11 = new C3(3.0);
+const v12 = new C3(3.0);
+const v13 = new C3(3.0);
+function f14(a15, a16, a17, a18) {
+    const o31 = {
+        toString(a20, a21, a22) {
+            const o23 = {
+            };
+            try {
+                o23.g = v12;
+            } catch(e24) {
+            }
+            try {
+                const o25 = {
+                };
+                o25.g = v12;
+                o25.h = this;
+            } catch(e26) {
+            }
+            try {
+                const o27 = {
+                };
+                o27.g = v12;
+                o27.h = this;
+                o27.b = a21;
+            } catch(e28) {
+            }
+            try {
+                const o29 = {
+                };
+                o29.g = v12;
+                o29.h = this;
+                o29.b = v11;
+            } catch(e30) {
+            }
+            return a15;
+        },
+    };
+    return o31;
+}
+f14(v11, v11, v11, 5.361593770155336e+307);
+const v33 = f14(v13, v12, f14, 3.0);
+const v34 = f14(C3, v12, 0.7028421281940789, 0.7028421281940789);
+let {"f":v35,} = v34;
+new WeakMap();
+v35 < (v34 && v33);
+try {
+    const o40 = {
+    };
+    const o41 = {
+    };
+    f14(o40, o40, o41, 5.361593770155336e+307);
+} catch(e43) {
+}

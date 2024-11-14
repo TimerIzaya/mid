@@ -1,0 +1,80 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function f2(a3) {
+    const o9 = {
+        1073741825: a3,
+        toString(a5, a6) {
+            try {
+                super.toString(a5, f1);
+            } catch(e8) {
+            }
+            return a3;
+        },
+        "a": f1,
+        __proto__: v0,
+        "g": f1,
+        ...v0,
+        "h": f1,
+        [a3]: a3,
+        "e": v0,
+    };
+    return o9;
+}
+const v10 = f2(v0);
+const v11 = f2(v10);
+const v12 = f2(f2);
+class C13 extends f2 {
+    static #b;
+    static 13 = v0;
+    constructor(a15, a16) {
+        super(v12);
+        let v17;
+        try { v17 = new f1(f1, ...v11, a15, ...v0, a15, a16); } catch (e) {}
+        super[Reflect.construct(f2, [f1], v17)] = v10;
+    }
+    static [v0];
+    #g;
+    static h = f1;
+    #h;
+    #d;
+}
+new C13(v10, v12);
+new C13(v12, v11);
+new C13(v12, C13);
+[-487741202,3];
+[2,-9223372036854775807,-13332,3,4096,4,515059251,-128,-35719];
+[127,1157673169,-4294967297,-10,512,4294967297,-30827,-1177390447];
+new Uint8Array(1259);
+const v32 = new Int8Array(128);
+new Uint8Array(128);
+let v36 = 0;
+do {
+    v10["toString"](f1, f1, "toString", v32, v0);
+    ("toString").length;
+    v36++;
+} while (v36 < 9)
+try {
+    new Uint8Array(10);
+} catch(e9) {
+}
+try {
+    new Int8Array(5);
+} catch(e13) {
+}
+try {
+    new Uint8Array(2206);
+} catch(e17) {
+}
+const v21 = Int8Array / 3n;
+if (v21 === -65535n) {
+    const v23 = [112956102n,-65535n,-74637216n,5];
+    try {
+        const o24 = {
+        };
+        v23.findIndex(v21, o24);
+    } catch(e26) {
+    }
+} else {
+}

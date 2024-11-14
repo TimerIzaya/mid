@@ -1,0 +1,35 @@
+function f0() {
+    const o7 = {
+        [-5](a5, a6) {
+            const t3 = "object";
+            t3[a5] = -2.0;
+            a6 = -2.0;
+            const t5 = "object";
+            t5.length = -5;
+            return -2.0;
+        },
+        "b": -2.0,
+        __proto__: "object",
+        "h": "object",
+        ..."object",
+        "d": -5,
+        "a": -2.0,
+    };
+    return o7;
+}
+const v8 = f0();
+f0();
+f0();
+let v13 = "d";
+const v17 = ["byteOffset","sticky","byteOffset","byteOffset"];
+[v17,v8,v17,["valueOf",f0,v17,"sticky","sticky"],"sticky"];
+(v13 = "valueOf")[2147483647];
+const o21 = {
+    "apply": f0,
+    "call": f0,
+    "defineProperty": f0,
+    "get": f0,
+    "has": f0,
+    "preventExtensions": f0,
+};
+new Proxy("byteOffset", o21);

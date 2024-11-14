@@ -1,0 +1,32 @@
+const v2 = new Int8Array(5);
+const v5 = new Uint8Array(1);
+const v8 = new BigInt64Array(255);
+class C9 extends Int8Array {
+    static [BigInt64Array] = v5;
+    static 171 = Uint8Array;
+    13 = 5;
+    constructor(a11, a12) {
+        super(1, a11);
+        new Int16Array(2651);
+        new Float64Array(3371);
+        new Int32Array(8);
+    }
+}
+new C9(255, 1);
+new C9(255, 5);
+const v24 = new C9(255, 1);
+new Float64Array(5);
+const v30 = new Uint16Array(3581);
+new Int8Array(20);
+let v34;
+try { v34 = v24.toSorted(v2); } catch (e) {}
+%VerifyType(v24);
+const v35 = [v2,v34,v30,3581];
+[v2,Int8Array,v8];
+[Int8Array,20];
+function f38() {
+    return Uint8Array;
+}
+function f39() {
+    return v35;
+}

@@ -1,0 +1,44 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = -7;
+    this.c = -7;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+const v8 = new Date();
+function f9(a10, a11, a12) {
+    const o29 = {
+        [a10]: a12,
+        "b": a12,
+        valueOf(a14, a15) {
+            var e = a11;
+            [v3,this,v3,v3,[v4]];
+            [Date,1000000000000.0];
+            function F22(a24, a25) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.b = a25;
+                this.h = v3;
+            }
+            new F22(a10, a12);
+            new F22(a10, v3);
+            new F22(v5, a11);
+            return v4;
+        },
+    };
+    return o29;
+}
+const v30 = f9(v3, v3, v3);
+const v31 = f9(v3, v5, f9);
+f9(v4, v4, Date);
+const v33 = [29375,26121,-226157759,9007199254740992,-57520,4294967296];
+const v34 = [1024,-55947,8,-9007199254740992,-2147483649,-1698528781,-1,10,9,-5];
+[-2088588407,5,1620435508,3,9007199254740991,257];
+[15];
+const v37 = [2147483649,32736,20136,-9007199254740991];
+const v38 = [38406,-81752151,-9007199254740990,-14090,1000,-14,64];
+v30.__proto__;
+[v31,v38,v3,[v5,v30,v34,[v8,v33,v38],v5]];
+Object.defineProperty(v37, "length", { writable: true, configurable: true, enumerable: true, value: 642490980 });
+v31[F0];
+new F0();

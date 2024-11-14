@@ -1,0 +1,55 @@
+new Float64Array(2853);
+new Uint8ClampedArray(2541);
+new Uint32Array(512);
+new Uint16Array(512);
+new Float64Array(13);
+const v17 = new BigUint64Array(3091);
+v17[1] = v17;
+typeof Float64Array === "object";
+try {
+    new Uint8ClampedArray(2147483647, -12, 3091);
+} catch(e24) {
+}
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a6;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(3n, 3n);
+new F3(3n, -2078778166n);
+const v10 = new F3(9007199254740990n, -2078778166n);
+try {
+    new Uint32Array(10);
+} catch(e14) {
+}
+try {
+    new Uint32Array(1000);
+} catch(e18) {
+}
+try {
+    new Uint16Array(1134);
+} catch(e22) {
+}
+function f23() {
+    return 9007199254740990n;
+}
+const v24 = Uint32Array >> 3n;
+for (let v25 = 0; v25 < 100; v25++) {
+    f23();
+}
+function F27(a29, a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a32;
+    } catch(e33) {
+    }
+    try {
+        this.a = a32;
+    } catch(e34) {
+    }
+}
+new F27(v10, 1134, 1000, 3n);
+new F27(v8, v24, 1000, -2078778166n);
+new F27(v10, 10, 10, -2078778166n);

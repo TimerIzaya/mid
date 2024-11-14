@@ -1,0 +1,102 @@
+let v0 = -949518949;
+let v1 = 9007199254740992;
+class C3 {
+    static f;
+    #f;
+    static {
+        let v4 = this;
+        let v5 = v4 instanceof 65536;
+        [v5,v1,v0,v4] = v4;
+        v5.b = 65536;
+    }
+    constructor(a7) {
+        try {
+            super.p(65536, a7, 65536, v0);
+        } catch(e9) {
+        }
+    }
+}
+const v10 = new C3(65536);
+new C3(v1);
+const v12 = new C3(v10);
+const v13 = [3.0,2.0];
+const v14 = [-2.2250738585072014e-308,-794.7066226982226];
+let v15 = [1.0,-383733.0723247259,-469.368959604642,1000000000000.0,249401.58878062665];
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v13;
+    this.d = a18;
+}
+const v20 = new F16(v14, v12);
+new F16(v12, v15);
+const v22 = new F16(v20, v0);
+const o23 = {
+};
+new Proxy(v15, o23);
+v14[v20] = v15;
+v1?.[v10];
+%VerifyType(v22);
+delete v1?.[4081];
+v15 ^= v13;
+let v2 = "536870887";
+class C3 {
+    constructor(a5) {
+        try {
+            const t4 = "raw";
+            t4[268435441] = a5;
+        } catch(e6) {
+        }
+        try { v2.search(a5); } catch (e) {}
+        delete v2?.length;
+    }
+    #o(a10) {
+        this in a10;
+        try {
+            this.#o();
+        } catch(e13) {
+        }
+        try {
+            new Uint16Array(129);
+        } catch(e17) {
+        }
+        try {
+            new Float64Array(4096);
+        } catch(e21) {
+        }
+        try {
+            new Uint16Array(4);
+        } catch(e25) {
+        }
+        return 4096;
+    }
+}
+const v26 = new C3("raw");
+const v27 = new C3(-333665132);
+const v28 = new C3(v26);
+const v29 = [v2,"raw",v28,v27];
+[v26,[v26]];
+let v32 = 3062;
+try {
+    new Float64Array(v32);
+} catch(e35) {
+}
+try {
+    new Int16Array(141);
+} catch(e39) {
+}
+try {
+    new Int8Array(1747);
+} catch(e43) {
+}
+({"a":v32,} = v28[v2]);
+var d = 141;
+for (const v45 of "raw") {
+    try {
+        v2 **= v45;
+    } catch(e46) {
+    }
+}
+try {
+    v29.valueOf = v32;
+} catch(e47) {
+}

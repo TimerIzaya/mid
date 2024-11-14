@@ -1,0 +1,53 @@
+function f0() {
+    const o13 = {
+        __proto__: "-50556",
+        5: "oR42",
+        ..."oR42",
+        "e": 8,
+        "h": "oR42",
+        set b(a5) {
+            const t8 = "-50556";
+            delete t8[2976500543];
+            a5.__proto__;
+            const o11 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o11);
+        },
+    };
+    return o13;
+}
+const v14 = f0();
+const v15 = f0();
+const v16 = f0();
+function F17(a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a19;
+    this.g = a19;
+}
+let v20 = new F17(v14);
+new F17(v15);
+const v22 = new F17(v16);
+class C23 {
+    static set b(a25) {
+        const o26 = {
+            7: a25,
+            [v22]: v15,
+            ...this,
+        };
+    }
+    static 1000 = F17;
+    3;
+    8;
+    static [v20];
+}
+const v27 = new C23();
+new C23();
+new C23();
+let v30 = 0;
+while (v30 < 6) {
+    v30++;
+}
+v20 %= v22;
+[] = v27;

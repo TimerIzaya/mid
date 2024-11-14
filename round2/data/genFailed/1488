@@ -1,0 +1,20 @@
+const v2 = new BigInt64Array(255);
+const v5 = new Uint16Array(257);
+const v8 = new Int16Array(13);
+class C9 extends BigInt64Array {
+    static #p(a11, a12) {
+        return v8[Symbol.species];
+    }
+    constructor(a17, a18, a19, a20) {
+        super(v5);
+        try { this["with"](...a17, a17, ...this, a18, ..."with"); } catch (e) {}
+        this[Symbol.split] = a17;
+    }
+}
+new C9(Uint16Array, 13, v2, 13);
+new C9(13, 257, Uint16Array, 255);
+new C9(v2, 257, 13, 13);
+v8.byteLength;
+/5c/gyidu;
+/[a-zA-Z0-9]/gyv;
+Reflect.construct(BigInt64Array, [/s(?:a+)+n?/gmisdu,257,255], Int16Array);

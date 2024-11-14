@@ -1,0 +1,32 @@
+class C3 {
+    constructor(a5, a6) {
+        super.a = this;
+        function F10(a12, a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.g = a12;
+            this.a = a6;
+            this.e = 1000.0;
+        }
+        new F10(NaN, 5.0, NaN);
+        const v16 = new F10(5.0, -0.0, a6);
+        new F10(-0.0, -0.0, v16);
+    }
+}
+const v18 = new C3(4294967295, 2104192187);
+const v19 = new C3(v18, C3);
+const v20 = new C3(4294967295, 4294967295);
+[6.225527517888336e+307,-244045.75561336533,-956.0522819868494];
+[0.34755882607295296,0.730838629031591];
+h = ([3.0,-1.5826126839967376,117.09487171944966,-1e-15]).length;
+const o28 = {
+};
+new Proxy(v18, o28);
+const t23 = v19.d;
+t23[536870887] >>>= 536870887;
+const v32 = v20.d;
+try {
+    const o33 = {
+    };
+    v19.o(v32, o33);
+} catch(e35) {
+}

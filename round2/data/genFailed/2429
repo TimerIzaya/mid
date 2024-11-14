@@ -1,0 +1,33 @@
+let v0 = -3;
+class C3 {
+    get c() {
+        this[0] = this;
+        try { new v0(this, -62449); } catch (e) {}
+        const o9 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        return gc(o9);
+    }
+}
+let v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+const v14 = [v13,C3,v13];
+const v15 = [v0,v0,v12,873.441648551139,v0];
+const v16 = [v14];
+Object.defineProperty(v16, "e", { writable: true, enumerable: true, value: v16 });
+({"e":v0,"f":v11,"length":v0,} = v16);
+!v14;
+v11.__proto__ = v15;
+function f18(a19, a20) {
+    const o21 = {
+        "a": -62449,
+        ...v14,
+        "g": v13,
+        "f": v14,
+    };
+    return o21;
+}
+f18(f18(v13, v14), -62449);
+f18(-62449, v11);

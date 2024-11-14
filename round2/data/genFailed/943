@@ -1,0 +1,56 @@
+function f3() {
+    return "valueOf";
+}
+new BigUint64Array(790);
+const v10 = new Uint8ClampedArray(100);
+new BigInt64Array(9);
+Object.defineProperty(v10, 127, { configurable: true, set: f3 });
+[2147483648,9];
+[-65537];
+[-3511,-1024,-15,1073741825,8,-65536,-50345];
+const v17 = `
+    function f18() {
+        return false;
+    }
+`;
+eval(v17);
+function f0() {
+    const o8 = {
+        get b() {
+            const v5 = this.h;
+            try { v5["compile"]("compile", this, v5); } catch (e) {}
+            return "compile";
+        },
+        36: 3.0,
+        ["YdZ"]: 3.0,
+        ..."YdZ",
+        2: "YdZ",
+        "f": 3.0,
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+try {
+    new Int8Array(1791);
+} catch(e18) {
+}
+try {
+    new Uint32Array(0);
+} catch(e22) {
+}
+try {
+    new Int32Array(3);
+} catch(e26) {
+}
+Object.defineProperty(v10, "d", { configurable: true, get: f0, set: f0 });
+Object.defineProperty(v9, "f", { enumerable: true, get: f0, set: f0 });
+v11[Int32Array]?.[9];
+/p(?<!)(?: foo )?/uy;
+const v30 = /[((\xed\xa0\x80))\x02]/dgv;
+/nx{}/idg;
+try {
+    v30[2147483649] = v10;
+} catch(e32) {
+}

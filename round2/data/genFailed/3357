@@ -1,0 +1,17 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = 536870887;
+}
+new F6(536870888, 536870888, 536870888);
+new F6(536870887, 536870887, 536870887);
+new F6(536870887, 22141, 536870887);
+new Float64Array(3);
+new Int8Array(16);
+new Uint32Array(198);
+for (let i24 = 0; i24 < 3; i24++) {
+    const o32 = {
+        "maxByteLength": 2396,
+    };
+    const v34 = new SharedArrayBuffer(9, o32);
+    new BigInt64Array(v34);
+}

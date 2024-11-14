@@ -1,0 +1,29 @@
+const v2 = new Uint8Array(0);
+const v5 = new Uint32Array(257);
+let v7 = Uint8Array;
+new v7(7);
+class C9 extends v7 {
+    static set c(a11) {
+        try {
+            const o12 = {
+            };
+            new Uint32Array(o12, 257, -128);
+        } catch(e15) {
+        }
+    }
+    static [0] = v7;
+    static #h = 257;
+    [0] = Uint32Array;
+}
+const v16 = new C9();
+new C9();
+const v18 = new C9();
+v7 %= C9;
+v16["set"](C9, 0);
+const o21 = {
+    __proto__: v5,
+    "e": 7,
+    10: v18,
+    [v5]: v2,
+};
+try { o21.values(); } catch (e) {}

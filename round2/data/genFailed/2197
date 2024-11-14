@@ -1,0 +1,32 @@
+function f9() {
+    return 9n;
+}
+new Float64Array(16);
+const v15 = new BigUint64Array(127);
+new Int8Array(255);
+const t6 = "NaN";
+t6.length = -40237;
+Object.defineProperty("B", 16, { get: f9, set: f9 });
+Object.defineProperty("NaN", 10, { enumerable: true, set: f9 });
+if (127 <= -40237) {
+    const v21 = Symbol.iterator;
+    const o30 = {
+        [v21]() {
+            let v23 = 10;
+            const o29 = {
+                next() {
+                    v23--;
+                    const v27 = v23 == 0;
+                    const o28 = {
+                        "done": v27,
+                        "value": v23,
+                    };
+                    return o28;
+                },
+            };
+            return o29;
+        },
+    };
+} else {
+    v15[5] = Int8Array;
+}

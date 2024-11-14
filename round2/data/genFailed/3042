@@ -1,0 +1,55 @@
+const v0 = /V(x)(x)(x)\1R[\cZ]?/gysu;
+const v1 = /a(?=b)cKu/gisdu;
+const v2 = /a\w/gmiv;
+function f3() {
+    return v1;
+}
+class C7 {
+    constructor(a9, a10) {
+        a10.__proto__ = v2;
+        let [v11] = f3;
+        [a10,...a10] = v11;
+    }
+    static #o(a13, a14) {
+        const o15 = {
+        };
+        o15.a = a13;
+        const o16 = {
+        };
+        o16.a = a13;
+        o16.f = this;
+        const o17 = {
+        };
+        o17.a = a13;
+        o17.f = this;
+        o17.d = this;
+        const o18 = {
+        };
+        o18.a = a13;
+        o18.f = this;
+        o18.g = v2;
+        return 4;
+    }
+}
+new C7(-58623, v2);
+new C7(-46247632, v2);
+const v21 = new C7(4, v1);
+new f3(v0, v21, 4, -46247632, 4);
+const v24 = Symbol.iterator;
+const o33 = {
+    [v24]() {
+        let v26 = 10;
+        const o32 = {
+            next() {
+                v26--;
+                const v30 = v26 == 0;
+                const o31 = {
+                    "done": v30,
+                    "value": v26,
+                };
+                return o31;
+            },
+        };
+        return o32;
+    },
+};

@@ -1,0 +1,38 @@
+function f0() {
+}
+function f4(a5) {
+    const o13 = {
+        set d(a7) {
+            this.__proto__?.[1073741824];
+            this.e;
+            this[3458640712];
+            try { a7(); } catch (e) {}
+        },
+        [a5]: 9n,
+        64: 9n,
+        "d": a5,
+        __proto__: 9n,
+    };
+    return o13;
+}
+const v14 = f4(-1352722414n);
+f4(675339866n);
+f4(675339866n);
+const o20 = {
+    "a": f4,
+};
+Object.defineProperty(o20, "f", { configurable: true, enumerable: true, get: f4, set: f0 });
+function f21(a22, a23, a24) {
+    function f26(a27) {
+        a27.e = a27;
+        this[9] = 256;
+        f0();
+    }
+    this.onmessage = f26;
+}
+const v34 = [v14,9n,"function"];
+const o35 = {
+    "arguments": v34,
+    "type": "function",
+};
+new Worker(f21, o35);

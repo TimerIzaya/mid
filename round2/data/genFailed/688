@@ -1,0 +1,115 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = 10000;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C6 extends F0 {
+    [F0] = v3;
+    #toString(a8) {
+        let v7 = this;
+        v7 -= a8;
+        const o11 = {
+            "maxByteLength": 128,
+        };
+        const v13 = new SharedArrayBuffer(128, o11);
+        new BigUint64Array(v13);
+        return o11;
+    }
+}
+new C6();
+const v17 = new C6();
+const v18 = new C6();
+const v20 = new Date();
+const v21 = [v17,v5];
+[[Date,v21,v5,v18,v21],v20];
+const v24 = Date[10];
+const v25 = C6.e;
+for (const v26 in C6) {
+    v25[v4] = v26;
+    %VerifyType(v3);
+}
+[-662.4847564619815,2.220446049250313e-16,-2.2250738585072014e-308,-7.463786587949586,-718.6551679076645,1.0];
+[-5.0,5.0,-4.0,-668.5336688065937,-4.0,-269.72932833445486,2.220446049250313e-16,-207.45437660336074];
+[3.0];
+const o30 = {
+    "call": Date,
+    "construct": Date,
+};
+new Proxy(v24, o30);
+const v0 = [-107976044,1000,16658];
+const v1 = [0,-9007199254740991,-32727];
+const v2 = [844810098,7,15,-6445,-4294967297];
+function f3(a4) {
+    const o8 = {
+        16: v2,
+        ...v0,
+        4: v2,
+        "b": v1,
+        [v0](a6) {
+            a6[5] = this;
+            try {
+                this[a6] = a6;
+            } catch(e7) {
+            }
+            return v2;
+        },
+        ...v1,
+        ...v1,
+    };
+    return o8;
+}
+const v9 = f3(v1);
+const v10 = f3(v2);
+const v11 = f3(v2);
+function f15() {
+    return v0;
+}
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v0;
+    } catch(e20) {
+    }
+}
+new F16(v10, v9);
+new F16(v9, v9);
+new F16(v9, v9);
+switch (v11) {
+    default:
+        const v24 = v0 + v9;
+        Object.defineProperty("-9223372036854775808", "g", { configurable: true, enumerable: true, value: v24 });
+        F16 ^ v24;
+        break;
+}
+c = v10;
+const o26 = {
+};
+try {
+    o26.g = v0;
+} catch(e27) {
+}
+try {
+    const o28 = {
+    };
+    o28.g = v0;
+    o28.h = v11;
+} catch(e29) {
+}
+try {
+    const o30 = {
+    };
+    o30.g = v0;
+    o30.h = v11;
+    o30.d = f3;
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.g = v0;
+    o32.h = v11;
+    o32.c = "-9223372036854775808";
+} catch(e33) {
+}

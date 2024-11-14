@@ -1,0 +1,48 @@
+new Uint8Array(8);
+new BigUint64Array(3);
+const v14 = new BigUint64Array(16);
+[-3,8,Uint8Array];
+[-3,["string"],BigUint64Array,16,16];
+Reflect.construct(Uint8Array, [v14], Uint8Array);
+new Float64Array(48);
+new BigInt64Array(11);
+new Uint16Array(4);
+try {
+    new Float64Array(1119);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(5);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e11) {
+}
+const v12 = -Infinity;
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 1119;
+    } catch(e22) {
+    }
+    try {
+        this.h = a18;
+    } catch(e23) {
+    }
+}
+new F16(BigUint64Array, 1119, -3.0, 256);
+const v25 = new F16(F16, 256, v12, 256);
+new F16(v25, 256, v12, 256);
+class C27 extends BigInt64Array {
+    static f = -3.0;
+    3;
+}
+const v28 = new C27();
+new C27();
+new C27();
+const v31 = C27[F16];
+try {
+    v28.__proto__ = v31;
+} catch(e32) {
+}

@@ -1,0 +1,67 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 10;
+    this.b = 10;
+}
+new F0();
+new F0();
+const v5 = new F0();
+let v7 = 670664.3927711153;
+function f9() {
+    return F0;
+}
+let v12 = -2.7647673696260373;
+({"a":v7,"b":v12,} = v5);
+const o13 = {
+    "preventExtensions": f9,
+};
+new Proxy(v12, o13);
+for (let v16 = 0; v16 < 100; v16++) {
+    f9();
+}
+v12[Symbol.unscopables];
+try {
+    new Int8Array(3);
+} catch(e3) {
+}
+try {
+    new Float32Array(512);
+} catch(e7) {
+}
+try {
+    new Uint8Array(60);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o22 = {
+        "e": a15,
+        "h": a13,
+        __proto__: a15,
+        "a": 60,
+        o(a17, a18) {
+            return Float32Array;
+        },
+        "f": 60,
+        ...a15,
+        ...a15,
+        "b": 512,
+    };
+    return o22;
+}
+const v23 = f12(60, 60, Uint8Array);
+f12(512, 60, 512);
+f12(3, 512, v23);
+const v27 = new WeakMap();
+const v28 = [4.0,-6.370821977556647,7.101533575493146e-05];
+const v29 = [1000000.0,-3.0,-4.0,-429648.8798973401,NaN,-208419.90891960857,0.3720837798237068,0.0,-1.373312470184771e+308];
+const v30 = [-1.7976931348623157e+308,4.604781637070056];
+const v32 = new WeakMap();
+let v33;
+try { v33 = v30.indexOf(v32, 3); } catch (e) {}
+try {
+    v28[v33] = v30;
+} catch(e34) {
+}
+try { v29.reduceRight(v33, WeakMap); } catch (e) {}
+const v37 = [Int8Array];
+Reflect.apply(v27.has, v23, v37);

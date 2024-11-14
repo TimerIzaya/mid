@@ -1,0 +1,67 @@
+class C3 {
+    get a() {
+        const v6 = Symbol.matchAll;
+        this[v6] = v6;
+        return v6;
+    }
+    static #valueOf(a8) {
+        try {
+            this.valueOf(this, 14, /Wa$+/gmyv, 10n);
+        } catch(e12) {
+        }
+        return this;
+    }
+}
+const v13 = new C3();
+new C3();
+new C3();
+function f19() {
+    return v13;
+}
+function f20(a21, a22, a23, a24) {
+    f19();
+    %PrepareFunctionForOptimization(f19);
+    f19();
+    f19();
+    %OptimizeMaglevOnNextCall(f19);
+    f19();
+    return a21;
+}
+f20(-16, 16, 16, -16);
+let v0 = 1947;
+try {
+    new Uint8Array(v0);
+} catch(e3) {
+}
+try {
+    new Int16Array(1);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e11) {
+}
+try {
+    new Uint16Array(1000);
+} catch(e18) {
+}
+try {
+    new Int32Array(13);
+} catch(e22) {
+}
+try {
+    new Uint8Array(128);
+} catch(e26) {
+}
+({"g":v0,} = 128);
+for (let v27 = 0; v27 < 34; v27++) {
+    v27 & v27;
+    const v29 = v0?.f;
+    try {
+        v29.__proto__ = v0;
+    } catch(e30) {
+    }
+}
+for (let v31 = 0; v31 < 32; v31++) {
+    v0["p" + v31] = v31;
+}

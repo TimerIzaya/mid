@@ -1,0 +1,99 @@
+const v2 = new Uint16Array(242);
+const v5 = new BigUint64Array(2157);
+new Float32Array(8);
+function f9(a10, a11) {
+    const o16 = {
+        "d": a11,
+        get e() {
+            return "byteOffset";
+        },
+        "e": a11,
+        ...a10,
+        "g": v2,
+        ...v2,
+        "h": 242,
+        "c": v5,
+    };
+    return o16;
+}
+const v17 = f9(8, 2157);
+const v18 = f9(f9, 8);
+const v19 = f9(8, 2157);
+try { v18["o"](242, v19, v17, 8); } catch (e) {}
+v2.__proto__ = v17;
+for (let i24 = 0, i25 = 10; i24 < i25; i24++, i25--) {
+    v2[i24];
+    Object.defineProperty(v18, -1, { writable: true, get: f9 });
+}
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 1;
+    } catch(e3) {
+    }
+    try {
+        this.a = 1;
+    } catch(e4) {
+    }
+    try {
+        this.e = 1;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C18 {
+    #p(a20, a21, a22, a23) {
+        -1n in v7;
+        Reflect.construct(F0, [], F0);
+        return v8;
+    }
+    constructor(a29, a30) {
+        try {
+            new F0();
+        } catch(e32) {
+        }
+    }
+    [1073741823];
+    [v6];
+}
+const v33 = new C18(v7, -1n);
+new C18(v6, v33);
+let v35 = new C18(v8, 20092);
+try {
+    v35 = v33;
+} catch(e36) {
+}
+14n << C18;
+const v38 = v35 >>> v7;
+10n instanceof C18;
+const o40 = {
+};
+try {
+    o40.d = v38;
+} catch(e41) {
+}
+try {
+    const o42 = {
+    };
+    o42.d = v38;
+    o42.c = 268435441;
+} catch(e43) {
+}
+try {
+    const o44 = {
+    };
+    o44.d = v38;
+    o44.c = 268435441;
+    o44.h = F0;
+} catch(e45) {
+}
+try {
+    const o46 = {
+    };
+    o46.d = v38;
+    o46.c = 268435441;
+    o46.e = -1715873610n;
+} catch(e47) {
+}

@@ -1,0 +1,69 @@
+class C3 {
+    static c = -1.6927085553546865e+308;
+    static get d() {
+        const v5 = /[(x)(x)(x)\1]/mysv;
+        const v6 = /o\x60/gysu;
+        const v7 = /Z\u{12345}\u{23456}/yidv;
+        function F8(a10, a11, a12, a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.f = -1.6927085553546865e+308;
+        }
+        new F8(v6, v6, v7, v7);
+        const v15 = new F8(v6, v7, v6, v5);
+        new F8(v7, v5, v7, v6);
+        return v15;
+    }
+    static #c;
+    b = 0;
+}
+new C3();
+const v18 = new C3();
+new C3();
+const v22 = new Int16Array(207);
+new Int32Array(158);
+const v28 = new Uint16Array(127);
+const o29 = {
+};
+new Proxy(v18, o29);
+let v32 = 0;
+while (v32 < 3) {
+    v22.f = v28 ^ 158;
+    new C3();
+    v32++;
+}
+try {
+    new Float64Array(572);
+} catch(e3) {
+}
+try {
+    new Uint16Array(89);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(21);
+} catch(e11) {
+}
+class C15 extends Float64Array {
+    static #a;
+    static #p(a17, a18) {
+        464338545 * 464338545;
+        -464338545;
+        Math.cbrt(a18);
+        return 464338545;
+    }
+    1073741823 = 44670;
+}
+const v24 = new C15();
+const v25 = new C15();
+new C15();
+const o27 = {
+};
+try {
+    new Proxy(v24, o27);
+} catch(e30) {
+}
+v24.buffer;
+try {
+    v25.subarray();
+} catch(e33) {
+}

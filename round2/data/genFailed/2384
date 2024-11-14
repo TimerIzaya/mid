@@ -1,0 +1,48 @@
+class C3 {
+    p(a5) {
+        this.h;
+        const v8 = Symbol.iterator;
+        const o17 = {
+            [v8]() {
+                let v10 = 10;
+                const o16 = {
+                    next() {
+                        v10--;
+                        const v14 = v10 == 0;
+                        const o15 = {
+                            "done": v14,
+                            "value": v10,
+                        };
+                        return o15;
+                    },
+                };
+                return o16;
+            },
+        };
+        return 0.389236251150074;
+    }
+}
+new C3();
+new C3();
+new C3();
+let v23 = -1880852232n;
+class C24 extends C3 {
+    static get b() {
+        const v26 = delete this[899357079];
+        %VerifyType(9.01574967730181e+307);
+        try {
+            this.o([v26,this,v23,C3,6n], true);
+        } catch(e30) {
+        }
+        return 0.389236251150074;
+    }
+}
+new C24();
+new C24();
+new C24();
+const o36 = {
+    "maxByteLength": 1982892377,
+};
+const v38 = new SharedArrayBuffer(9, o36);
+new BigInt64Array(v38);
+v23 = 6n;

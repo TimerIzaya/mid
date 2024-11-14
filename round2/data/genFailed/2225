@@ -1,0 +1,8 @@
+new Float32Array(12);
+new Int32Array(234);
+const v14 = new BigUint64Array(16);
+%VerifyType(-527498.1903733113);
+let v16 = v14["some"](-4096, BigUint64Array);
+BigUint64Array !== BigUint64Array;
+v16 = URIError;
+("some")[Float32Array];

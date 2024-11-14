@@ -1,0 +1,40 @@
+new WeakMap();
+new Float64Array(3);
+new BigUint64Array(6);
+const v20 = new BigUint64Array(3);
+v20[256n] = -643275501;
+const v3 = [-27404,-995032615,59410,9223372036854775807,351559945,128];
+const v4 = [-56024];
+const v5 = [1073741823,64,1926544158];
+try {
+    new Float64Array(4);
+} catch(e12) {
+}
+try {
+    new BigUint64Array(1037);
+} catch(e16) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e20) {
+}
+let v21;
+try { v21 = Uint8ClampedArray(v5, 4294967296); } catch (e) {}
+let [] = v4;
+if (v21) {
+    new Float64Array(v3, -4942);
+    try {
+        new Int8Array(0);
+    } catch(e26) {
+    }
+    try {
+        new BigInt64Array(64);
+    } catch(e30) {
+    }
+    try {
+        new Float64Array(2953);
+    } catch(e34) {
+    }
+} else {
+    v21[0] = 7;
+}

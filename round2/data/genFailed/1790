@@ -1,0 +1,23 @@
+const v2 = new Uint32Array(103);
+const v5 = new Float32Array(5);
+const v8 = new Uint16Array(255);
+class C9 extends Uint32Array {
+    static {
+        try { v2.fill(v2, 255); } catch (e) {}
+        v5.length = 255;
+        v8[this] = v5;
+        super.byteLength = 255;
+    }
+    static #f = v5;
+    #g = v8;
+    #b = Float32Array;
+    [5];
+}
+new C9();
+const v13 = new C9();
+new C9();
+const v15 = v5.__proto__;
+v13[v5] &= 255;
+const v17 = v15 < 103 ? v15 : 103;
+v17.__proto__ = v13;
+v8["findIndex"](v17, v2);

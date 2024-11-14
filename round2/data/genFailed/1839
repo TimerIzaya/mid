@@ -1,0 +1,21 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = undefined;
+    this.h = undefined;
+    this.g = undefined;
+}
+new F1();
+new F1();
+const v5 = new F1();
+const v6 = [-7,-398936250,128,-12453,268435456,9223372036854775807,57303,46477,1073741823,41372];
+let v7 = [-11,6];
+const v8 = [52522,9461,1,10000,7990,-64680,-65535,10];
+new Int8Array(145);
+const v14 = new BigInt64Array(13);
+new BigUint64Array(129);
+const v18 = delete v14[129];
+v18 instanceof F1;
+v7 = v8;
+const v21 = [v5,v18];
+Reflect.apply(v8.some, v6, v21);
+129 <= F1 ? 129 : F1;

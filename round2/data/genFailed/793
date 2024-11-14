@@ -1,0 +1,29 @@
+const v5 = new Uint16Array(8);
+const v8 = new Uint16Array(2499);
+const v11 = new Float32Array(10);
+v8.length *= 8;
+Object.defineProperty(v5, v11, { configurable: true, value: Float32Array });
+const o13 = {
+};
+new Proxy(f, o13);
+const v17 = new WeakMap();
+delete v17[237];
+/b?/smuy;
+const v1 = /abc/dgu;
+const v2 = /(a)\1\xed\xa0\x80/sidv;
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a12;
+    } catch(e15) {
+    }
+}
+new F9(-1000000000.0, 7.916473496513873, 1.2337664158274354e+307, 7.916473496513873);
+new F9(0.5928321008652772, v1, -4.0, -1000000000.0);
+const v18 = new F9(0.5928321008652772, v2, 0.5928321008652772, 1.2337664158274354e+307);
+const v20 = [v18];
+Reflect.apply(v2.test, v18, v20);
+try {
+    v2[-1000000000.0] = v2;
+} catch(e26) {
+}

@@ -1,0 +1,70 @@
+function f0() {
+    const o14 = {
+        [536870887]: 835849878,
+        ["315"](a5) {
+            super.d &= a5;
+            try { a5(835849878, 536870887, ..."315", this, a5, a5); } catch (e) {}
+            const o9 = {
+                "maxByteLength": 1073741824,
+            };
+            const v11 = new ArrayBuffer(10, o9);
+            new Int16Array(v11);
+            return this;
+        },
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+class C18 extends f0 {
+    get d() {
+        v15.a;
+        const o24 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o24);
+        return this;
+    }
+    0;
+    1;
+    [f0] = v15;
+}
+const v26 = new C18();
+const v27 = new C18();
+const v28 = new C18();
+class C29 extends C18 {
+    5 = f0;
+    constructor(a31, a32) {
+        super();
+        const v33 = new C18();
+        super.d = v33;
+        const v34 = new C18();
+        v34.__proto__;
+        Object.defineProperty(v27, "a", { writable: true, enumerable: true, get: f0, set: f0 });
+    }
+    static 127 = v15;
+    static #valueOf(a37, a38, a39, a40) {
+        let v41;
+        try { v41 = a40.trimEnd(v26, v27, v28); } catch (e) {}
+        let v42;
+        try { v42 = new v41(v16, a38, v41); } catch (e) {}
+        try {
+            super.o(v16, v17, v16);
+        } catch(e44) {
+        }
+        return v42;
+    }
+}
+new C29(v17, v16);
+const v46 = new C29(C18, v15);
+new C29(v46, v46);
+let v51 = 0;
+while (v51 < 10) {
+    Object.defineProperty(v27, C29, { writable: true, configurable: true, enumerable: true, set: f0 });
+    new Uint8Array(1913);
+    new Uint32Array(6);
+    new Int8Array(3);
+    v51++;
+}

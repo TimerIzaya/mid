@@ -1,0 +1,13 @@
+const v2 = new BigUint64Array(34);
+new Float32Array(128);
+new Uint16Array(3642);
+v2[4] = 198614100;
+function f12() {
+    return 128;
+}
+f12();
+%PrepareFunctionForOptimization(f12);
+f12();
+f12();
+%OptimizeFunctionOnNextCall(f12);
+f12();

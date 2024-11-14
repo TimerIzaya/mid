@@ -1,0 +1,62 @@
+new Int8Array(256);
+const v8 = new BigUint64Array(3546);
+new Uint16Array(9);
+new BigUint64Array(v8, 256, 9);
+function f13(a14, a15, a16) {
+    const v18 = [v8,a16,16];
+    const v19 = Reflect.construct(Int8Array, v18, Int8Array);
+    v18 >>> a14;
+    return v19;
+}
+f13(9, -11, 1);
+[-5];
+[27197,3,7,-65536,536870889,-9007199254740991];
+[1210642485,-13014,-2147483648,127,29880,-534398926,268435440];
+try {
+    new Uint32Array(236);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(1024);
+} catch(e7) {
+}
+try {
+    new Float32Array(238);
+} catch(e11) {
+}
+const v12 = /Ux\p{General_Category=Decimal_Number}+/idgmv;
+const v13 = /(?<=a)?/uy;
+const v14 = /\u{12345}\p{Script_Extensions=Greek}*/sidgmv;
+class C15 {
+    constructor(a17, a18, a19, a20) {
+        const v24 = !536870887;
+        try {
+            super.lastIndexOf(v24, a20, 1024);
+        } catch(e26) {
+        }
+    }
+    h = 238;
+}
+const v27 = new C15(v12, v13, 238, v13);
+new C15(v12, v12, 1024, v13);
+new C15(v12, v13, 238, v14);
+try { v12(Uint32Array, C15, BigInt64Array, BigInt64Array); } catch (e) {}
+function f31(a32) {
+    function f34(a35) {
+        this[7] ||= 236;
+        const v36 = Float32Array;
+    }
+    this.onmessage = f34;
+    f34(v27);
+    %PrepareFunctionForOptimization(f34);
+    f34(v27);
+    f34(v27);
+    %OptimizeFunctionOnNextCall(f34);
+    f34(v27);
+}
+const v43 = [v13];
+const o44 = {
+    "arguments": v43,
+    "type": "function",
+};
+new Worker(f31, o44);

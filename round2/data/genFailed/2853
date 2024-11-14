@@ -1,0 +1,16 @@
+let v1 = 1.7976931348623157e+308;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a5;
+}
+const v6 = new F3(Infinity);
+const v7 = new F3(Infinity);
+const v8 = new F3(v7);
+v7.a = -15;
+v1 = Infinity;
+let v13;
+try { v13 = v7["copyWithin"](v6, Infinity, -12854, v1, v8); } catch (e) {}
+for (const v14 of v13) {
+    const t13 = "copyWithin";
+    t13.length = -12854;
+}

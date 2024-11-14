@@ -1,0 +1,79 @@
+new Int8Array(7);
+new Uint16Array(25);
+const v8 = new Float64Array(4);
+let v9 = [731.9612609271403,-881.3768642338755,-4.3016147194248264e+307,1e-15,-114049.45852194645,1.7976931348623157e+308,0.595120216163523,0.05562991915392057];
+let v10 = [-321116.0581281247,-1000000000000.0];
+const v11 = [2.220446049250313e-16,1.0];
+v10 = v9;
+let v15;
+try { v15 = ("-268435456").match("-268435456"); } catch (e) {}
+const o16 = {
+    __proto__: v8,
+    [4]: 4,
+    "a": v11,
+    "c": v9,
+};
+v15 in "-268435456";
+v9 = v10;
+try {
+    new Int32Array(1000);
+} catch(e3) {
+}
+try {
+    new Float32Array(2449);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e15) {
+}
+try {
+    new Int8Array(242);
+} catch(e19) {
+}
+try {
+    new Int32Array(3107);
+} catch(e23) {
+}
+class C24 extends BigInt64Array {
+    #e = Int8Array;
+    constructor(a26, a27, a28) {
+        super(242, a28);
+        const v30 = Symbol.iterator;
+        const o39 = {
+            [v30]() {
+                let v32 = 10;
+                const o38 = {
+                    next() {
+                        v32--;
+                        const v36 = v32 == 0;
+                        const o37 = {
+                            "done": v36,
+                            "value": v32,
+                        };
+                        return o37;
+                    },
+                };
+                return o38;
+            },
+        };
+    }
+}
+new C24(2449, 8, 242);
+new C24(242, 1000, 3107);
+new C24(1, 8, 3107);
+1 / 2449;
+const v44 = 1000;
+class C45 extends Float32Array {
+    static #h;
+    static 3655 = BigInt64Array;
+    static #f;
+    256;
+}
+new C45();
+new C45();
+new C45();

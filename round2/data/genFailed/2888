@@ -1,0 +1,54 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+class C2 {
+    h;
+    #h = v0;
+    static [v0];
+    p(a4, a5) {
+        const v6 = this.h;
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = a9;
+            this.b = a10;
+            this.g = f1;
+        }
+        new F7(v6, f1);
+        new F7(v0, F7);
+        new F7(v0, f1);
+        return this;
+    }
+}
+const v14 = new C2();
+new C2();
+const v16 = new C2();
+function f17() {
+    return f1;
+}
+class C21 extends f17 {
+    p(a23, a24, a25, a26) {
+        const o27 = {
+            "construct": f17,
+            "get": f1,
+            "getOwnPropertyDescriptor": f1,
+            "getPrototypeOf": f1,
+            "setPrototypeOf": f1,
+        };
+        new Proxy(this, o27);
+        return this;
+    }
+    #f;
+    0;
+    [-2];
+}
+const v30 = new C21();
+const v31 = new C21();
+const v32 = new C21();
+try {
+    f17();
+} catch(e37) {
+}
+v16[v30] = f1;
+v30[v30] = v0;
+v32["p"](v31, C21, "p", v14, -2.220446049250313e-16);

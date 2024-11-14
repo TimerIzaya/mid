@@ -1,0 +1,37 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 4294967295;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = F0;
+    this.b = a8;
+}
+const v9 = new F6(v5);
+const v10 = new F6(F0);
+const v11 = new F6(v10);
+class C12 extends F0 {
+    constructor(a14, a15, a16, a17) {
+        super();
+        new Float64Array(0);
+        new Uint8Array(8);
+        new Float32Array(14);
+    }
+    #b;
+    10;
+}
+let v27 = new C12(C12, v10, v9, v10);
+const v28 = new C12(v27, v5, v11, v10);
+new C12(v10, v11, v11, v4);
+v27 = v28;
+const o33 = {
+};
+new Proxy(v11, o33);
+v4.__proto__ = v4;
+v9[10] |= 1000.0;
+try { v27.setFloat64(F6, v5, v3, -1.2258054486580185); } catch (e) {}
+%VerifyType(v27);
+v9.f = 1000000000000.0;

@@ -1,0 +1,75 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 1024;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+const v6 = [16,-7,-2];
+const v7 = [127,-8433,1,-9535,257,-7,1444,1446730048,268435441];
+const v8 = [1024,3598940,48944,-1073741824,-491755059,-1498417109];
+const v9 = [7.074609313254674e+307,-3.1079008925255502,-2.0,-5.0,1000000000000.0,3.0,0.36724650714044405];
+const v10 = [1000.0,4.871368452176492,511.6178129674197,1000000000.0,0.10182715658666908,2.0,5.0,-826.5535147099432,7.443135256863067e+307,-2.220446049250313e-16];
+const v11 = [-1000000000000.0,-4.619223874513369e+307];
+class C12 extends F0 {
+    constructor(a14, a15, a16) {
+        super();
+        const v18 = super[a16[F0]];
+        function F19(a21, a22, a23) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.e = v9;
+            this.f = v7;
+            this.a = v7;
+        }
+        new F19(v7, a16, v18);
+        new F19(a14, a16, a14);
+        new F19(v18, v18, v9);
+    }
+    #b;
+}
+const v27 = new C12(v8, C12, C12);
+new C12(v10, v27, v3);
+const v29 = new C12(v9, v3, v3);
+const v31 = [v5,v4];
+Reflect.apply(v11.every, v29, v31);
+function* f34(a35, a36) {
+    a35.__proto__ = v3;
+    v3[a36] = v29;
+    v29.__proto__ = v5;
+    function F37(a39, a40, a41, a42) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.f = a39;
+    }
+    const v43 = new F37(v27, a36, v6, a35);
+    new F37(a35, a36, v11, a35);
+    new F37(F37, v5, a35, a35);
+    return yield v43;
+}
+f34(v31, v29);
+[-4.0,0.49142554875339095,-1000000000.0,1000000000000.0,-4.0,-0.0,0.8589652836300368,1000000000.0];
+const v1 = [1e-15];
+const v2 = [0.19060630539455947,0.4567205090546139];
+try {
+    new BigInt64Array(6);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(3244);
+} catch(e10) {
+}
+try {
+    new Int8Array(2);
+} catch(e14) {
+}
+v1[v1];
+new BigUint64Array(v2, 3244, 3244);
+function f20() {
+    return v2;
+}
+const v21 = [5,-128,512,-1873018594,255,-2147483647,16];
+[9007199254740991,-1637251658];
+[-65537,13699,213887157,1000,-2147483647,13];
+try {
+    v2[6] = v21;
+} catch(e24) {
+}

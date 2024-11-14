@@ -1,0 +1,11 @@
+const v2 = new Uint32Array(255);
+const v5 = new BigInt64Array(4);
+const v8 = new BigInt64Array(7);
+let v15 = 0;
+do {
+    let v16;
+    try { v16 = v5.toLocaleString(128, v2); } catch (e) {}
+    v2.buffer = v16;
+    v15++;
+} while (v15 < 2)
+v8[103] = 128;

@@ -1,0 +1,104 @@
+const v0 = [128,-2089867093,-157648724,363621092,10000,0,-9007199254740991,-12288,-2147483648,12];
+const v1 = [-11,4,-18637,-128,-11,-12,-9223372036854775808];
+const v2 = [-2036592570,536870887,46909,-16,-536870912,1073741825];
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a6;
+}
+const v7 = new F3(v1, v2);
+const v8 = new F3(v2, v1);
+const v9 = new F3(v2, v2);
+class C10 extends F3 {
+    #toString(a12, a13, a14) {
+        v8.toString = a13;
+        let v15 = this[6];
+        v15 ||= v2;
+        return a14;
+    }
+    [v1];
+    constructor(a17, a18, a19, a20) {
+        super(v0, v2);
+        h = this;
+        const v22 = Symbol.iterator;
+        const o31 = {
+            [v22]() {
+                let v24 = 10;
+                const o30 = {
+                    next() {
+                        v24--;
+                        const v28 = v24 == 0;
+                        const o29 = {
+                            "done": v28,
+                            "value": v24,
+                        };
+                        return o29;
+                    },
+                };
+                return o30;
+            },
+        };
+    }
+}
+const v32 = new C10(v1, v2, v7, v7);
+const v33 = new C10(v2, v1, C10, C10);
+const v34 = new C10(v2, v1, v7, v33);
+function F35(a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a37;
+    this.f = a38;
+}
+let v40 = new F35(v0, v1, F35);
+const v41 = new F35(v0, v2, v40);
+const v42 = new F35(v1, v1, F3);
+with (v42) {
+    e = v34;
+    const v43 = v33[9];
+    try { v43(); } catch (e) {}
+}
+let v45;
+try { v45 = C10.at(v2); } catch (e) {}
+v40 &&= v41;
+v32[1401] ^= v45;
+const v48 = ~v9;
+let v49 = -v9;
+--v49;
+v49 + v48;
+Math.atan2(v49, v49);
+-128 % v49;
+const v2 = new Array(4);
+const v4 = new Map();
+class C5 extends Map {
+    [Map] = v2;
+    m(a7) {
+        function f8(a9, a10, a11, a12) {
+            return arguments;
+        }
+        f8(4, v2, Map, v4);
+        return Array;
+    }
+    static #e;
+    1073741825;
+    static 1;
+}
+new C5();
+new C5();
+new C5();
+try {
+    new BigUint64Array(0);
+} catch(e21) {
+}
+try {
+    new Float64Array(2616);
+} catch(e25) {
+}
+try {
+    new Int32Array(255);
+} catch(e29) {
+}
+const v30 = v4.size;
+const v33 = Reflect.construct(Map, [Array], C5);
+for (let i35 = 0; i35 < 5; i35++) {
+    const v42 = v4["forEach"](v33, "forEach");
+    try { v42(Float64Array, v42, 4); } catch (e) {}
+    2616 ^ v30;
+}

@@ -1,0 +1,30 @@
+const v3 = ["boolean","hH"];
+const v4 = [v3,v3,"boolean",v3,"h"];
+const v5 = [v3];
+function f6(a7, a8, a9, a10) {
+    const o16 = {
+        "b": v5,
+        __proto__: a8,
+        ...a10,
+        ["h"](a12, a13, a14) {
+            var d = a14;
+            function f15() {
+                return a7;
+            }
+            return a13;
+        },
+        "g": v3,
+        [a10]: a9,
+        ...a8,
+    };
+    return o16;
+}
+const v17 = f6(v4, "boolean", "boolean", v4);
+let v18 = f6(v5, v17, "h", v3);
+const v19 = f6(v4, v17, "boolean", v3);
+Object.defineProperty(v3, "d", { get: f6, set: f6 });
+Object.defineProperty("function", 3680, { set: f6 });
+v4[v17] &&= "assign";
+"h" in "boolean";
+e = v5;
+("boolean")["split"](..."assign", v3 | ("h" <= v17), ..."split", v18 = v19, ..."split");

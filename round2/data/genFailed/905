@@ -1,0 +1,77 @@
+function f0() {
+}
+[1000000000.0,Infinity,1e-15,83522.13670075336,0.03626577883966642];
+[-1000000000000.0,2.2250738585072014e-308,-2.2250738585072014e-308,0.5761859639044122,1000000000000.0,849357.7269004029,0.11149959895105321,1000.0,2.220446049250313e-16,-1.762006738945195e+308];
+[-659952.3727900507,0.9507731904822317,-1.0];
+const v9 = new BigInt64Array(8);
+new Uint8ClampedArray(6);
+const v15 = new Uint8ClampedArray(1);
+const o17 = {
+    "defineProperty": ReferenceError,
+    "get": ReferenceError,
+    "ownKeys": ReferenceError,
+    "preventExtensions": ReferenceError,
+};
+const v19 = new Proxy(v15, o17);
+v9[v19];
+class C3 {
+    4056;
+    ["object"];
+    static ["2"];
+    static {
+        try {
+            this.valueOf = this;
+        } catch(e5) {
+        }
+        try { this("string", "2", this); } catch (e) {}
+    }
+    #e;
+    static ["string"] = "object";
+}
+const v7 = new C3();
+const v8 = new C3();
+const v9 = new C3();
+class C10 {
+    static {
+        let v12 = 0;
+        do {
+            v12 <= v7;
+            for (let v14 = 0; v14 < 32; v14++) {
+                const t23 = "string";
+                t23["p" + v14] = v14;
+            }
+            v12++;
+        } while (v12 < 3)
+    }
+}
+new C10();
+const v21 = new C10();
+const v22 = new C10();
+class C23 extends C3 {
+    constructor(a25, a26, a27, a28) {
+        super();
+        ("object")["match"](v8);
+        [a26,,a28] = a25;
+        try {
+            this[v22] = v9;
+        } catch(e31) {
+        }
+    }
+    [v7];
+    #a = "object";
+}
+new C23("object", v8, "2", "object");
+const v33 = new C23(v22, C10, C10, "2");
+new C23("string", v21, v33, v21);
+try {
+    new Int16Array(129);
+} catch(e38) {
+}
+try {
+    new Uint32Array(4);
+} catch(e42) {
+}
+try {
+    new BigUint64Array(256);
+} catch(e46) {
+}

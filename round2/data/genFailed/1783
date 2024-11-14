@@ -1,0 +1,27 @@
+class C9 {
+    static ["function"];
+    static #d;
+    static h;
+    constructor(a11, a12) {
+        for (let i15 = 0, i16 = 10; i15 < i16; i15++, i16--) {
+            try {
+                this.#d = i16;
+            } catch(e24) {
+            }
+        }
+    }
+}
+const v25 = new C9("number", 4451n);
+new C9("e", -128n);
+const v27 = new C9("D0q", 1073741823n);
+function f28(a29) {
+    return 1073741823n;
+}
+class C30 extends f28 {
+    ["e"] = v27;
+    static ["findIndex"];
+    static b = v25;
+}
+const t24 = "function";
+delete t24[-2];
+v25[7] >>>= -128n;

@@ -1,0 +1,64 @@
+function f0() {
+}
+class C1 extends f0 {
+    #n() {
+        try {
+            f0();
+        } catch(e4) {
+        }
+        return f0;
+    }
+    static #o() {
+        super[f0];
+        function f7(a8) {
+            return a8;
+        }
+        class C9 extends f7 {
+            static #a = f0;
+            static h = f0;
+        }
+        return this;
+    }
+}
+const v10 = new C1();
+const v11 = new C1();
+const v12 = new C1();
+class C13 extends C1 {
+    b = v11;
+    static {
+        let v16 = 65537;
+        const v18 = --v16;
+        Math.atan2(-2.220446049250313e-16, -2.220446049250313e-16);
+        Math.sign(v10);
+        v18 / (v18 - -2.220446049250313e-16);
+    }
+    [v10] = v12;
+    10 = v11;
+    static g;
+    e = C1;
+}
+const v23 = new C13();
+new C13();
+new C13();
+[34912];
+[12,-9,-1024,2];
+[-536870912,8,-8,-9,1611621682,129];
+Object.defineProperty(v23, v23, { writable: true, configurable: true, get: f0 });
+const v36 = Symbol.iterator;
+const o45 = {
+    [v36]() {
+        let v38 = 10;
+        const o44 = {
+            next() {
+                v38--;
+                const v42 = v38 == 0;
+                const o43 = {
+                    "done": v42,
+                    "value": v38,
+                };
+                return o43;
+            },
+        };
+        return o44;
+    },
+};

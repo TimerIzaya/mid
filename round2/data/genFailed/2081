@@ -1,0 +1,50 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = -65536;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C6 extends F0 {
+    static {
+        const v8 = this.d;
+        v4 == v8 ? v4 : v8;
+        this.__proto__;
+    }
+    #e = v4;
+    #a;
+    65536 = v3;
+    1;
+    static 10000 = v5;
+    static #f = v4;
+}
+const v12 = new C6();
+new C6();
+new C6();
+function f18(a19, a20, a21) {
+    const o38 = {
+        [a19](a23, a24, a25) {
+            const o26 = {
+            };
+            new Proxy(v4, o26);
+            return 4294967295n;
+        },
+        [1073741825n](a30, a31) {
+            +133215142;
+            const v35 = !a21;
+            const v36 = v35 & v35;
+            return v36 % v36;
+        },
+    };
+    return o38;
+}
+f18(4294967295n, v3, -57359n);
+Object.defineProperty(f18(4294967295n, f18(-57359n, F0, 4294967295n), -57359n), "f", { writable: true, configurable: true, set: f18 });
+new WeakSet();
+v12.length = 1;
+C6[3];
+const o49 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o49);

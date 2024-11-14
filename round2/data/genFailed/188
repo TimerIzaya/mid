@@ -1,0 +1,71 @@
+new Uint32Array(2310);
+const v5 = new Uint8ClampedArray(210);
+const v8 = new Float32Array(4096);
+let v10 = 2147483648;
+function f12(a13, a14, a15) {
+    const o21 = {
+        n(a17, a18) {
+            const v19 = 9223372036854775807;
+            v10 ^= a14;
+            super.b = v19;
+            delete a18?.b;
+            return a14;
+        },
+        ...v5,
+        2: a14,
+        __proto__: v5,
+        ...v8,
+        [2310]: a15,
+        "g": a13,
+    };
+    return o21;
+}
+let v22 = f12(2310, 9223372036854775807, -6);
+f12(4096, 4096, 9223372036854775807);
+const v24 = f12(-6, 2310, 210);
+function f25(a26, a27, a28, a29) {
+    v22 *= a27;
+    return a29;
+}
+f25(v24, v22, v10, v22);
+const o34 = {
+};
+o34.d = Float32Array;
+const o35 = {
+};
+o35.d = Float32Array;
+o35.b = v10;
+const o36 = {
+};
+o36.d = Float32Array;
+o36.b = v10;
+o36.g = f12;
+const o37 = {
+};
+o37.d = Float32Array;
+o37.b = v10;
+o37.e = 210;
+let v1 = new WeakSet();
+class C2 extends WeakSet {
+    [WeakSet];
+    constructor(a4, a5) {
+        super(a5);
+        for (let v6 = 0; v6 < 32; v6++) {
+            this["p" + v6] = v6;
+        }
+    }
+    #c;
+}
+const v9 = new C2(WeakSet, C2);
+new C2(WeakSet, WeakSet);
+new C2(v1, WeakSet);
+v9 << -4294967296n;
+for (let v19 = 0; v19 < 56; v19++) {
+    const v22 = v1--;
+    v19 && v19;
+    v22 | v19;
+    v19 >>> 0;
+}
+[-1073741824,-168829700,129,-1121658340,7];
+[10,-256,-4294967295,1,-800877102,-2147483648,15,-1715211853,145638546];
+[-6,61574,7,29828,-26329,-2147483648,-536870912,27453,3,7];

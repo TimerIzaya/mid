@@ -1,0 +1,90 @@
+function f0() {
+}
+class C1 {
+    static #f = f0;
+    #b;
+    static 13 = f0;
+    constructor() {
+        this[Symbol.match] = f0;
+    }
+    static {
+        this[this] = this;
+        Object.defineProperty(this, "f", { writable: true, value: this });
+        f0();
+        let v8;
+        try { v8 = this["valueOf"](this, f0); } catch (e) {}
+        super.b <<= v8;
+    }
+}
+new C1();
+const v10 = new C1();
+new C1();
+const v12 = [v10,C1,f0];
+const v13 = [C1];
+const v14 = [v12];
+function f15() {
+    return f0;
+}
+function f16() {
+    return v14;
+}
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a21;
+    this.b = v14;
+}
+const v23 = new F17(v12, C1, v14, v14);
+new F17(v13, v23, C1, v14);
+new F17(v13, v14, v10, v14);
+let v29 = 0;
+while (v29 < 9) {
+    const o34 = {
+        "maxByteLength": 1073741823,
+    };
+    const v36 = new ArrayBuffer(1494, o34);
+    new Int32Array(v36);
+    v29++;
+}
+function f3() {
+    return -35684;
+}
+try {
+    new Int8Array(255);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1918);
+} catch(e11) {
+}
+try {
+    new Float64Array(880);
+} catch(e15) {
+}
+let v18 = "valueOf";
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a23;
+    } catch(e25) {
+    }
+    try {
+        this.h = f3;
+    } catch(e26) {
+    }
+}
+new F19(880, 11269, "-4", -35684);
+new F19(13, -35684, v18, 880);
+const v29 = new F19(-35684, 13, "p", 880);
+function f30(a31, a32, a33, a34) {
+    Object.defineProperty("-4", a33, { get: f3 });
+    try {
+        v29[2] = 11269;
+    } catch(e35) {
+    }
+    return a33;
+}
+f30(13, v29, 880, 11269);
+try {
+    v18 |= "-4";
+} catch(e37) {
+}

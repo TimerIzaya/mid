@@ -1,0 +1,11 @@
+const v7 = new WeakSet();
+const t1 = "q";
+t1.__proto__ = v7;
+let v14 = 2135769851 <= -1024;
+const v15 = v14 ? 2135769851 : -1024;
+const v17 = [Reflect];
+const v18 = Reflect.construct(WeakSet, v17, WeakSet);
+v17[4294967296] = -1024;
+let v19;
+try { v19 = v18(v18, "boolean", 1374451636n, v15, 127); } catch (e) {}
+[v14,v19] = v17;

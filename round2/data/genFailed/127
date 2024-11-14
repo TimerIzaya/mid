@@ -1,0 +1,83 @@
+function f0() {
+    const o4 = {
+        "g": -1000000000.0,
+        "b": 268435439,
+        "f": -1000000000.0,
+        "e": 268435439,
+        "a": "add",
+        ..."add",
+        ..."add",
+        ["add"]: "add",
+        __proto__: "add",
+        "c": "add",
+        "d": "add",
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+class C8 extends f0 {
+    o(a10) {
+        new Uint8ClampedArray(128);
+        new Int8Array(16);
+        new Uint8ClampedArray(512);
+        return v6;
+    }
+}
+const v20 = new C8();
+new C8();
+const v22 = new C8();
+new WeakSet();
+const v25 = [v22];
+[v25,v25,v20];
+[C8,v5,f0];
+v6 % WeakSet;
+f0 % v7;
+const o32 = {
+    "maxByteLength": 73,
+};
+const v34 = new ArrayBuffer(5, o32);
+new Float64Array(v34);
+class C3 {
+    static #valueOf(a5, a6) {
+        const o10 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o10);
+        return "__proto__";
+    }
+    #f;
+}
+const v12 = new C3();
+const v13 = new C3();
+new C3();
+function f15() {
+    return "__proto__";
+}
+class C16 extends f15 {
+    static f = 1.0;
+    static {
+        let v18;
+        try { v18 = v12.n(this); } catch (e) {}
+        super.length += v18;
+    }
+    static #b = v12;
+    [C3];
+    257 = v13;
+    static #a;
+}
+const v22 = new C16();
+const v23 = new C16();
+new C16();
+class C25 extends C16 {
+    static 2 = f15;
+    #e;
+    static [v22] = v23;
+    a;
+}
+new C25();
+new C25();
+const v28 = new C25();
+try { v28.localeCompare(v23); } catch (e) {}

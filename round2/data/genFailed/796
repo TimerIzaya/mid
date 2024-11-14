@@ -1,0 +1,77 @@
+new Date();
+class C5 extends Date {
+    h = -4294967295n;
+    constructor(a7) {
+        super(257n);
+        let v8;
+        try { v8 = this.getUTCHours(); } catch (e) {}
+        %VerifyType(v8);
+        super[super.h];
+        [] = v8;
+        try {
+            Date("a");
+        } catch(e13) {
+        }
+    }
+}
+new C5(257n);
+const v15 = new C5(-9223372036854775808n);
+new C5(257n);
+257n + 1073741825;
+try {
+    v15.now();
+} catch(e28) {
+}
+try {
+    new Date("boolean");
+} catch(e30) {
+}
+try {
+    new Uint16Array(162);
+} catch(e3) {
+}
+try {
+    new Int32Array(4);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o21 = {
+        ...a15,
+        valueOf(a17, a18, a19) {
+            try {
+                super[a18] = a14;
+            } catch(e20) {
+            }
+            return this;
+        },
+        __proto__: a15,
+        2987: a15,
+    };
+    return o21;
+}
+const v22 = f12(4, 4, BigUint64Array);
+const v23 = f12(4, 162, v22);
+f12(4, 4, 4);
+for (let v25 = 0; v25 < 15; v25++) {
+}
+const v29 = v22 == f12;
+if (v29) {
+    try {
+        new BigInt64Array(3214);
+    } catch(e33) {
+    }
+    try {
+        new Uint16Array(4096);
+    } catch(e37) {
+    }
+    try {
+        new BigUint64Array(1000);
+    } catch(e41) {
+    }
+} else {
+    v23 ^ v29;
+}

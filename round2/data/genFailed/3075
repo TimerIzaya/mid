@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = -9007199254740991;
+    this.e = -9007199254740991;
+    this.h = -9007199254740991;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+const v7 = new Set();
+class C8 extends Set {
+    constructor(a10, a11, a12) {
+        super(v4);
+        try {
+            new F0();
+        } catch(e14) {
+        }
+    }
+    static 3736;
+    c;
+    static #n(a16, a17) {
+        async function f18(a19, a20) {
+            new WeakMap();
+            await a17;
+            return a17;
+        }
+        f18(a16, a16);
+        return a17;
+    }
+}
+let v25 = new C8(v3, F0, v5);
+const v26 = new C8(v3, C8, C8);
+const v27 = new C8(v3, v4, v3);
+function F28(a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a32;
+    this.h = v5;
+    this.c = a31;
+}
+new F28(v26, v25, v27);
+new F28(v26, v27, v26);
+const v35 = new F28(v25, v25, v25);
+v25[F0] = F0;
+v25 = v7;
+try {
+    v27.forEach(v3, v35);
+} catch(e37) {
+}
+try { F28(v7, v27, v27); } catch (e) {}
+const o42 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o42);

@@ -1,0 +1,38 @@
+let v2 = -1.7976931348623157e+308;
+function f3() {
+    return v2;
+}
+class C4 extends f3 {
+    #h;
+    static [v2] = -2.2250738585072014e-308;
+    [0.2098548651822948] = 0.2098548651822948;
+    constructor(a6) {
+        let v5 = this;
+        super();
+        let v7 = FinalizationRegistry;
+        ({"a":v7,"b":v2,"d":v5,} = v5);
+        const o10 = {
+            "maxByteLength": 65535,
+        };
+        const v12 = new SharedArrayBuffer(165, o10);
+        new Uint8ClampedArray(v12);
+    }
+}
+new C4(0.2098548651822948);
+new C4(0.2098548651822948);
+const v17 = new C4(0.2098548651822948);
+new Uint8ClampedArray(255);
+new BigUint64Array(7);
+new BigUint64Array(3106);
+const o27 = {
+    "call": f3,
+    "construct": f3,
+    "deleteProperty": f3,
+    "get": f3,
+    "getOwnPropertyDescriptor": f3,
+    "getPrototypeOf": f3,
+    "has": f3,
+    "isExtensible": f3,
+    "setPrototypeOf": f3,
+};
+new Proxy(v17, o27);

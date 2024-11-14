@@ -1,0 +1,26 @@
+let v0 = WeakSet;
+const v1 = new v0();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a4;
+    this.a = a4;
+}
+const v6 = new F2(F2, v1);
+const v7 = new F2(v0, v6);
+const v8 = new F2(v7, v6);
+function f9() {
+    return v7;
+}
+/S\cj\cJ\ci\cI\ck\cK+/mysd;
+const v14 = /5foo|(bar|baz)|quux/isdu;
+const v15 = /^xxx$+/isv;
+v0 = f9;
+try { v14.exec(-25616); } catch (e) {}
+const o17 = {
+    "a": v8,
+    "c": v15,
+    8: v14,
+    "b": v7,
+};
+v0 & v8;
+v14 - -65535;

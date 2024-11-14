@@ -1,0 +1,79 @@
+const v2 = new Float64Array(127);
+new Uint8Array(119);
+new BigUint64Array(1024);
+-64655n >= 1616072479n;
+v2[268435456] = 5n;
+function f13(a14, a15) {
+    try {
+        const o16 = {
+        };
+        new Float64Array(o16, 127);
+    } catch(e18) {
+    }
+    return a15;
+}
+f13(BigUint64Array, 119);
+function f0() {
+}
+class C1 extends f0 {
+    static 0 = f0;
+    #d = f0;
+    constructor() {
+        super();
+        const v3 = this.__proto__;
+        f0[3] = f0;
+        try {
+            super.c = v3;
+        } catch(e4) {
+        }
+    }
+    a;
+    7;
+}
+const v5 = new C1();
+const v6 = new C1();
+const v7 = new C1();
+const v9 = new WeakSet();
+const v11 = new Date();
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = WeakSet;
+    } catch(e16) {
+    }
+    try {
+        this.c = a14;
+    } catch(e17) {
+    }
+    try {
+        this.a = a15;
+    } catch(e18) {
+    }
+}
+new F12(v7, v9);
+const v20 = new F12(v7, v6);
+const v21 = new F12(v20, v5);
+try {
+    v9.__proto__ = v21;
+} catch(e22) {
+}
+v11[Date];
+Object.defineProperty(C1, 65535, { enumerable: true, get: Date, set: f0 });
+const v24 = v9.add(v5, Date, Date, v9, v9);
+let v25;
+try { v25 = v24.add(C1); } catch (e) {}
+v9[C1];
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = C1;
+    } catch(e32) {
+    }
+    try {
+        this.g = f0;
+    } catch(e33) {
+    }
+}
+const v34 = new F27(v20, v21, C1);
+new F27(v25, v24, v34);
+new F27(v5, v9, v20);

@@ -1,0 +1,19 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = -16;
+}
+const v3 = new F0();
+new F0();
+const v5 = new F0();
+new Float32Array(1711);
+new Int32Array(4);
+const v14 = new Int16Array(165);
+0.4094376226041514 > 0.4094376226041514;
+let v19;
+try { v19 = Float32Array(v5, 165, 1711); } catch (e) {}
+v14[v19] = v3;
+const o25 = {
+    "maxByteLength": 6,
+};
+const v27 = new SharedArrayBuffer(5, o25);
+new Float32Array(v27);

@@ -1,0 +1,73 @@
+class C3 {
+    constructor(a5) {
+        const t2 = "multiline";
+        delete t2?.length;
+        -this;
+    }
+    toString(a9) {
+        const o10 = {
+        };
+        const v12 = new Proxy(this, o10);
+        return v12;
+    }
+    static d = "multiline";
+    f = -4294967296;
+}
+const v13 = new C3(C3);
+const v14 = new C3("-1777500972");
+const v15 = new C3("multiline");
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a19;
+}
+const v21 = new F16(v13, "-1777500972", v14);
+const v22 = new F16(v14, -4294967296, v15);
+const v23 = new F16(v14, v22, v13);
+function f24(a25, a26) {
+    const o37 = {
+        [C3]: a25,
+        [a26]: "multiline",
+        "d": -4294967296,
+        toString(a28, a29) {
+            v14[Symbol.search];
+            return v21;
+        },
+    };
+    return o37;
+}
+f24(v21, v13);
+f24(v22, -4294967296);
+f24(v23, C3);
+v22.c = -4294967296;
+const v44 = F16 * f24;
+4294967296 || v23;
+f24 ** v44;
+Math.sign(v23);
+-F16;
+Math.log(v44);
+Math.sign(v44);
+const v3 = [1073741823,6,-64805,1264579856,-276298447,57483,42772,24759];
+[2147483648,2147483649,-1631000092,-44699,314449318,4294967297,0];
+const v5 = [4];
+try {
+    new Float32Array(3);
+} catch(e12) {
+}
+try {
+    new Int8Array(7);
+} catch(e16) {
+}
+try {
+    new Int32Array(16);
+} catch(e20) {
+}
+switch (Int8Array) {
+    case 1073741824:
+        try {
+            v5.__proto__ = v5;
+        } catch(e21) {
+        }
+        break;
+}
+const v22 = v3[11];
+Reflect.construct(v22, [Reflect,1073741824,v22], Int32Array);

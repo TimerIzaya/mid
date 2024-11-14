@@ -1,0 +1,25 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = -65536;
+    this.e = -65536;
+}
+new F0();
+const v4 = new F0();
+const v5 = new F0();
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a8;
+}
+new F6(F0);
+const v10 = new F6(v5);
+new F6(v4);
+function f15() {
+    return v10;
+}
+let v18 = 1e-15;
+const v19 = F0 % F0;
+v19 % 5618n;
+v4 >>> v4;
+++v18;
++v19;
+0 ^ 0;

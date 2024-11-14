@@ -1,0 +1,83 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = -52804;
+}
+const v3 = new F0();
+new F0();
+new F0();
+function f9(a10, a11, a12, a13) {
+    const o28 = {
+        "f": F0,
+        set d(a15) {
+            const t11 = "c";
+            t11.length = 4;
+            try { a15(a15, a12, a11, F0, this); } catch (e) {}
+        },
+        "g": "7",
+        "h": a10,
+        toString(a19, a20) {
+            function f21(a22, a23, a24, a25) {
+                let [,v26] = "7";
+                return F0;
+            }
+            return f21("7", a19, this, v3);
+        },
+    };
+    return o28;
+}
+const v29 = f9(v3, "c", "7", "c");
+f9(f9(f9, "bfdb", "7", "bfdb"), "c", "bfdb", "bfdb");
+new BigUint64Array(0);
+const v37 = new Int16Array(1263);
+new Uint8ClampedArray(11);
+[985263.1656348337,0.9263253995629874,-Infinity,-1000000000000.0,-2.220446049250313e-16];
+[-409.92041990857285];
+[-4.284718790025992];
+if (v29 === v29) {
+    try { ("bfdb").localeCompare("c", "bfdb", v29); } catch (e) {}
+    Object.defineProperty(v3, 1, { writable: true, enumerable: true, set: f9 });
+} else {
+    new BigUint64Array(v37);
+    try {
+        new F0();
+    } catch(e48) {
+    }
+}
+[9007199254740991];
+[8,536870887,-34284,-268435456,-4885,-9007199254740991];
+const v5 = [-54585,9007199254740990,12];
+try {
+    new Uint8Array(2);
+} catch(e9) {
+}
+try {
+    new Float64Array(146);
+} catch(e13) {
+}
+try {
+    new Float64Array(4096);
+} catch(e17) {
+}
+try {
+    new BigInt64Array(495);
+} catch(e21) {
+}
+let v22 = 15;
+try {
+    new Int8Array(v22);
+} catch(e25) {
+}
+try {
+    new Int16Array(10);
+} catch(e29) {
+}
+const v31 = v5["every"](10, 9.79538186832211, ..."every", v22, 4096, 495);
+1.3632223357494077e+308 > v31;
+try {
+    v22 = 146;
+} catch(e33) {
+}
+try {
+    v5.findLastIndex(v31);
+} catch(e35) {
+}

@@ -1,0 +1,86 @@
+const v4 = new Date();
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = Date;
+}
+const v9 = new F5(-2.220446049250313e-16, -2.220446049250313e-16);
+const v10 = new F5(908.0181243697921, -2.220446049250313e-16);
+new F5(5.0, -2.220446049250313e-16);
+function f12(a13, a14, a15) {
+    const o25 = {
+        536870888: Date,
+        "d": a15,
+        ...v10,
+        __proto__: a15,
+        valueOf(a17, a18) {
+            let v20;
+            try { v20 = v9.setUTCSeconds(); } catch (e) {}
+            const o21 = {
+            };
+            o21.e = v20;
+            const o22 = {
+            };
+            o22.e = v20;
+            o22.d = v20;
+            const o23 = {
+            };
+            o23.e = v20;
+            o23.d = v20;
+            o23.b = 908.0181243697921;
+            const o24 = {
+            };
+            o24.e = v20;
+            o24.d = v20;
+            o24.f = a18;
+            return o22;
+        },
+    };
+    return o25;
+}
+f12(v4, 5.0, v4);
+const v28 = f12(v4, 5.0, f12(v9, 5.0, Date));
+Object.defineProperty(v10, 10, { writable: true, configurable: true, enumerable: true, set: Date });
+try { v28.valueOf(Date, v28, F5, v9, 908.0181243697921); } catch (e) {}
+Date(908.0181243697921);
+const v32 = Symbol.iterator;
+const o41 = {
+    [v32]() {
+        let v34 = 10;
+        const o40 = {
+            next() {
+                v34--;
+                const v38 = v34 == 0;
+                const o39 = {
+                    "done": v38,
+                    "value": v34,
+                };
+                return o39;
+            },
+        };
+        return o40;
+    },
+};
+const v4 = new Map();
+try {
+    new Float32Array(9);
+} catch(e8) {
+}
+try {
+    new Int8Array(9);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e16) {
+}
+new Array(1024);
+const v20 = new Array(9);
+Array(6n, ...v4, v20, 9, ...v20, 6n).length;
+const v25 = Reflect.construct(Map, [Reflect], BigInt64Array);
+Object.defineProperty(v20, "c", { configurable: true, get: Array, set: Array });
+try { v25(9); } catch (e) {}
+const o30 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o30);

@@ -1,0 +1,42 @@
+const v6 = /(?!\1(a\1)\1)\1+/gdu;
+const v7 = /[tr()Ea\Sc]/isdv;
+const v8 = /foo(?<!bar)baz/gmyu;
+function f9(a10, a11, a12, a13) {
+    const o32 = {
+        ...v8,
+        "b": v7,
+        ...a12,
+        "c": -65537n,
+        p(a15, a16, a17) {
+            let v18;
+            try { v18 = a11.o(a10, this, -65537n, -65537n); } catch (e) {}
+            let v19 = 0;
+            while (v19 < 4) {
+                function F22(a24, a25, a26, a27) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    this.d = a16;
+                    this.g = a17;
+                    this.b = a27;
+                }
+                const v28 = new F22(v18, F22, v18, v8);
+                new F22(1024n, v28, a15, v18);
+                new F22(a11, a13, 1024n, v7);
+                v19++;
+            }
+            return v8;
+        },
+    };
+    return o32;
+}
+f9(v6, f9(v8, f9(v8, 1073741823, v7, v6), v8, v8), v6, v7);
+new Int32Array(127);
+new BigUint64Array(11);
+const v44 = new Uint8ClampedArray(11);
+let v45 = 0;
+do {
+    [2147483649];
+    const v47 = [65537,5,8,9007199254740991,7,62885,1073741824,9007199254740990,61686,1073741823];
+    v6 in [4,536870889,60369,-13,47579,7,-1106766119];
+    v44[v47] |= 8;
+    v45++;
+} while (v45 < 1)

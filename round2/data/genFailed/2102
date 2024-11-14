@@ -1,0 +1,30 @@
+function f0() {
+    const o9 = {
+        2: 1073741824,
+        10: "bigint",
+        m(a5, a6) {
+            let v7;
+            try { v7 = ("bigint").includes(1073741824, 1073741824); } catch (e) {}
+            function f8() {
+                return "undefined";
+            }
+            return v7;
+        },
+        "a": "bigint",
+        "c": "undefined",
+        __proto__: "undefined",
+    };
+    return o9;
+}
+f0();
+const v11 = f0();
+f0();
+const v23 = [];
+Reflect.construct(f0, v23, f0);
+const v25 = [-268435456,184881492,16,1620095041,6,8615];
+[13,1073741823,536870887,10,-9007199254740990,1106572781,-14];
+[9223372036854775807,-4096,10000,536870889,-128,65535];
+-715017836 < v11;
+Reflect.valueOf = f0;
+Object.defineProperty(v23, -1, { writable: true, get: f0, set: f0 });
+%VerifyType(v25);

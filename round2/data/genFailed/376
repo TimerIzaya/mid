@@ -1,0 +1,44 @@
+const v6 = ["string"];
+["-11254",-128n,-128n,129n];
+[129n,"-4096"];
+function f9() {
+    return v6;
+}
+let v13 = f9();
+v13 = v6;
+const o14 = {
+    "call": f9,
+    "defineProperty": f9,
+    "get": f9,
+    "getPrototypeOf": f9,
+    "ownKeys": f9,
+    "preventExtensions": f9,
+    "setPrototypeOf": f9,
+};
+new Proxy("-11254", o14);
+const v6 = [0.8605013408272456,-1000000000.0];
+const v7 = [-801.4040438055306,-1e-15,1.0,-1.1031227627708612e+308,-1e-15,2.0,2.0];
+const v8 = [2.0,1000.0,465.1337420067425,-1.322132656793619e+308,0.7933714805091515,-1000.0,-1.567516709281575e+307,NaN];
+try {
+    new Float64Array(1046);
+} catch(e12) {
+}
+try {
+    new Int16Array(14);
+} catch(e16) {
+}
+try {
+    new Float32Array(129);
+} catch(e20) {
+}
+const o21 = {
+    __proto__: v7,
+    "a": "maxByteLength",
+    "e": 14,
+    ["a"]: Int16Array,
+};
+v8[8] |= 1046;
+v7[v6];
+const v23 = o21.__proto__;
+const v25 = [v23,v23,14];
+Reflect.apply(v6.copyWithin, "maxByteLength", v25);

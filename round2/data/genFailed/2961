@@ -1,0 +1,12 @@
+new Int8Array(6);
+new Uint8Array(8);
+new Int8Array(9);
+new Uint8ClampedArray(4);
+new Int16Array(8);
+const v17 = new Int16Array(2988);
+const o20 = {
+    "maxByteLength": 3784,
+};
+const v22 = new SharedArrayBuffer(5, o20);
+const v24 = new Float32Array(v22);
+try { v24.fill(v17); } catch (e) {}

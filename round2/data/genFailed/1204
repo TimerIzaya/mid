@@ -1,0 +1,71 @@
+class C3 {
+    constructor(a5) {
+        super[0.44589818790129576];
+        let v7 = 10;
+        for (; v7--;) {
+            this.c;
+            const o10 = {
+            };
+            new Proxy(this, o10);
+        }
+    }
+}
+const v13 = new C3(NaN);
+new C3(v13);
+const v15 = new C3(10);
+const v18 = new Int32Array(6);
+const v21 = new BigInt64Array(172);
+const v24 = new Int8Array(128);
+v24[2] = 6;
+const v26 = [172];
+const v27 = v21.at;
+Reflect.apply(v27, v15, v26);
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a33;
+    this.b = 128;
+}
+new F29(128, Reflect, v21);
+const v35 = new F29(10, v26, v27);
+new F29(128, v18, v35);
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 2147483647;
+    } catch(e3) {
+    }
+    try {
+        this.c = 2147483647;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = [v7,v7];
+const v9 = [v6,v8];
+const v10 = [v9,v8];
+function f11(a12, a13, a14, a15) {
+    const o20 = {
+        "b": a13,
+        get g() {
+            const v17 = new F0();
+            try { v9(v17, v17); } catch (e) {}
+            try {
+                a13.f = F0;
+            } catch(e19) {
+            }
+            return v17;
+        },
+        "f": a14,
+    };
+    return o20;
+}
+f11(v5, v10, v7, v7);
+f11(v6, v9, v6, v6);
+f11(v5, v10, v6, v7);
+Object.defineProperty("toUpperCase", v5, { configurable: true, enumerable: true, get: f11, set: f11 });
+F0 + 0.00023030178574234839;
+[-65535,-653961851,536870887,9223372036854775807,-35209];
+[-5,-62342];
+[-65447,-1,-4096,16,497245629,-536870912];

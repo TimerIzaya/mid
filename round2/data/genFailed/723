@@ -1,0 +1,94 @@
+const v3 = [-1000000000.0,-1.7976931348623157e+308,-2.2250738585072014e-308,-417891.85763189546,-1.0,0.06619361596680229,-1000000.0];
+[317.34674106624675,6.646027337401898e+307,5.0,2.2250738585072014e-308,4.0,-1.2810165123875983,249078.43616249086,-7.3711477841933455,376083.3074731368];
+const v5 = [Infinity,-2.0,2.4878241891755183e+307,0.0,-217463.50413867808,-2.0];
+class C9 {
+    constructor(a11, a12, a13) {
+        let v14;
+        try { v14 = a11(-1627547972n, 127n, a11, -10n, a13); } catch (e) {}
+        let v15;
+        try { v15 = v5.findIndex(v14); } catch (e) {}
+        v15?.g;
+        const o17 = {
+        };
+        new Proxy(v14, o17);
+    }
+    m(a21, a22, a23, a24) {
+        let v25 = 0;
+        do {
+            this[268435441];
+            v25++;
+        } while (v25 < 4)
+        return v3;
+    }
+}
+new C9(-5n, v3, 268435440n);
+new C9(-10n, v3, -10n);
+new C9(1682805662n, v5, 127n);
+let v39 = 0;
+while (v39 < 5) {
+    const o45 = {
+        "execution": "async",
+        "type": "major",
+    };
+    gc(o45);
+    v39++;
+}
+try {
+    new Int16Array(127);
+} catch(e6) {
+}
+try {
+    new Uint8Array(7);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(2);
+} catch(e14) {
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a17;
+    } catch(e19) {
+    }
+    try {
+        this.e = BigInt64Array;
+    } catch(e20) {
+    }
+}
+const v21 = new F15(127, 127);
+const v22 = new F15(9007199254740991, 7);
+const v23 = new F15(Int16Array, 127);
+class C24 extends BigInt64Array {
+    constructor(a26, a27, a28) {
+        super(v22, a27, 2);
+        function f29(a30, a31) {
+            const o32 = {
+                128: 7,
+                [a30]: a30,
+                "c": a30,
+                "f": a31,
+            };
+            return o32;
+        }
+        f29(a27, 7);
+        f29(268435440, 9007199254740991);
+        f29(4096, 4096);
+    }
+}
+new C24(v22, 127, v21);
+const v37 = new C24(v21, 7, v23);
+new C24(C24, 4096, v23);
+let v39 = 0;
+do {
+    throw v21;
+    let v40;
+    try { v40 = v23(v39, C24, v37, BigInt64Array); } catch (e) {}
+    try { v40(v21, v40, 9007199254740991, v39); } catch (e) {}
+    const o45 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o45);
+    v39++;
+} while (v39 < 2)

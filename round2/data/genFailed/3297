@@ -1,0 +1,27 @@
+class C3 {
+    static [256] = 542.5802100442661;
+    constructor(a5) {
+        let v6;
+        try { v6 = new a5(); } catch (e) {}
+        v6?.[a5];
+        %VerifyType(this);
+        const o8 = {
+        };
+        new Proxy(a5, o8);
+    }
+    [-3.0] = -3.0;
+    static [-3.0] = 256;
+    static [542.5802100442661] = 542.5802100442661;
+    g = 542.5802100442661;
+    static 1;
+}
+const v11 = new C3(-3.0);
+new C3(v11);
+new C3(542.5802100442661);
+new C3(15n);
+function f27() {
+    return -12;
+}
+new Uint8Array(13);
+new Int32Array(4096);
+new Int32Array(1228);

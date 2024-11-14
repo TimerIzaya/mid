@@ -1,0 +1,13 @@
+new Float64Array(128);
+const v5 = new Float64Array(10);
+const v8 = new Uint8ClampedArray(6);
+const t3 = v5["some"](v8, 10);
+delete t3?.[6];
+const o15 = {
+};
+new Proxy(Float64Array, o15);
+const o20 = {
+    "maxByteLength": 268435440,
+};
+const v22 = new ArrayBuffer(51, o20);
+new Int16Array(v22);

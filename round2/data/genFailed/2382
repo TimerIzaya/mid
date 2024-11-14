@@ -1,0 +1,36 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = -268435456n;
+}
+const v6 = new F3(-637702111n);
+const v7 = new F3(-637702111n);
+const v8 = new F3(64n);
+function f9(a10, a11, a12) {
+    const o23 = {
+        toString(a14, a15) {
+            a10 = a14;
+            function f16(a17, a18) {
+                const o19 = {
+                    ...a15,
+                    ...a15,
+                };
+                return o19;
+            }
+            const v20 = f16(a15, a12);
+            f16(a15, f16(v6, v20));
+            return v20;
+        },
+    };
+    return o23;
+}
+const v24 = f9(-268435456n, 64n, 64n);
+let v25 = f9(v8, -268435456n, f9);
+f9(v6, -268435456n, v24);
+Math.abs(-43343);
+const v33 = v25 ** v7;
++v7;
+v25--;
+try {
+    f9(/(ab|cde)/gmsu, -637702111n, v33);
+} catch(e38) {
+}

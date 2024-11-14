@@ -1,0 +1,22 @@
+const v2 = new Uint8ClampedArray(10);
+const v5 = new Uint32Array(2);
+const v8 = new BigUint64Array(197);
+class C12 extends Uint32Array {
+    constructor(a14, a15, a16) {
+        super(a16, 4096, a16);
+        function f17(a18, a19) {
+            const v21 = [a19,this];
+            return Reflect.apply(v2.reduceRight, v2, v21);
+        }
+        f17(a14, a16);
+    }
+    static 9 = 197;
+    #e;
+    [v8] = v5;
+}
+new C12(-2129611760, Uint8ClampedArray, Uint8ClampedArray);
+const v26 = new C12(10, Uint32Array, 197);
+new C12(-2129611760, v5, v26);
+new Float32Array(11);
+new BigInt64Array(114);
+new Uint32Array(128);

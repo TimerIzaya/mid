@@ -1,0 +1,53 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = f0;
+    this.a = f0;
+    this.d = f0;
+}
+const v3 = new F1();
+const v4 = new F1();
+const v5 = new F1();
+function f6() {
+    return v5;
+}
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a10;
+    this.d = a9;
+    this.g = v5;
+}
+const v11 = new F7(v4, v4);
+const v12 = new F7(v11, v11);
+const v13 = new F7(v5, v12);
+/pZa*b|ca(?=b)+/gmisdv;
+/PIk[\cA]/myi;
+const v16 = /\xf0\x9f\x92\xa9/yidu;
+class C17 extends f6 {
+    n(a19, a20, a21, a22) {
+        F1 = F7;
+        return a22;
+    }
+    static 9;
+    static #p(a24, a25) {
+        try { v13.startsWith(F1, v3, a24); } catch (e) {}
+        v13 instanceof f6;
+        return v5;
+    }
+    [F1];
+    [F7];
+    static h;
+    static e = v13;
+    [v16];
+}
+let v28 = new C17();
+new C17();
+const v30 = new C17();
+new C17();
+v28 = v30;
+const o34 = {
+    "maxByteLength": 1992,
+};
+const v36 = new ArrayBuffer(1992, o34);
+new Int16Array(v36);

@@ -1,0 +1,14 @@
+const v5 = new Int8Array(227);
+const v8 = new Int32Array(127);
+const v11 = new Uint16Array(416);
+v5[7] = v8;
+v11[65537] = v5;
+v8.__proto__ = v11;
+v5["slice"](-12181n, ...v11, -12921n, -12181n, ..."slice");
+class C14 extends Int32Array {
+    static 0;
+    static f;
+}
+new C14();
+new C14();
+new C14();

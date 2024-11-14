@@ -1,0 +1,38 @@
+function f0() {
+    const o4 = {
+        __proto__: -13,
+        ...6,
+        0: -13,
+        "a": -8,
+        "c": -8,
+        10: 6,
+        3: 6,
+        "g": 6,
+        "d": -13,
+        "e": -13,
+        "h": 6,
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+const v10 = new Array(137);
+class C14 extends Array {
+    constructor(a16, a17, a18, a19) {
+        super(a18);
+        super[-10] = v7;
+        this[132] = Array;
+    }
+    static #d = v10;
+    [-10];
+    static [v7] = v5;
+}
+new C14(v10, v7, -1073741824, -10);
+new C14(C14, v7, -1, -10);
+new C14(Array, v6, -10, -1073741824);
+for (const v26 of v10) {
+    for (let i29 = 0, i30 = 10; i29 < i30; i29++, i30--) {
+        Object.defineProperty(v7, 1073741824, { value: i29 });
+    }
+}

@@ -1,0 +1,33 @@
+function f3(a4, a5) {
+    const o6 = {
+        "d": -9007199254740990,
+        __proto__: a5,
+        ...4,
+        13: -9007199254740990,
+        "a": a5,
+        "b": a5,
+        25131017: 4,
+        [4]: -9007199254740990,
+        "e": a4,
+        "g": -9007199254740990,
+        "f": a4,
+    };
+    return o6;
+}
+f3(4, 4);
+const v8 = f3(1000, -9007199254740990);
+f3(-9007199254740990, -9007199254740990);
+new BigInt64Array(492);
+const v15 = new Uint32Array(129);
+new Int32Array(64);
+const o19 = {
+    __proto__: v15,
+    [492]: 4,
+    2415: 129,
+    "d": v8,
+};
+Object.defineProperty(o19, "buffer", { writable: true, configurable: true, enumerable: true, get: f3, set: f3 });
+try {
+    new f3(1, 1706485003);
+} catch(e23) {
+}

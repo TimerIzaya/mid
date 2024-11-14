@@ -1,0 +1,52 @@
+new Uint16Array(256);
+const v5 = new Int8Array(255);
+const v8 = new BigInt64Array(1000);
+const v10 = new WeakMap();
+const v11 = [Uint16Array,Int8Array,WeakMap,v10];
+const v12 = [Int8Array,1000];
+[v12,v12,v5,Int8Array,256];
+const v16 = new BigUint64Array(62);
+const v19 = new BigInt64Array(3);
+const v22 = new Uint32Array(255);
+v22 >>> 255;
+v8[2820] = v22;
+const v24 = v19[256];
+%VerifyType(62);
+v11.valueOf = v24;
+function f25(a26) {
+    return Int8Array;
+}
+class C27 extends f25 {
+    a = v16;
+    static #c = v12;
+}
+const v3 = /xyz?/idyv;
+/[a\nb\bc]/dgyv;
+/xyz{0,1}[^i(?:a+){0,0}]/sidgv;
+class C6 {
+    static #e;
+    valueOf(a8, a9, a10) {
+        a10 | v3;
+        [58171,57736,-2147483647,-14,32178,64,6];
+        [10,9007199254740991,-15,59673,7702,-128,-9223372036854775807,129];
+        const v14 = [16];
+        this === v14;
+        return v14;
+    }
+    #b = "-2147483649";
+}
+const v16 = new C6();
+const v17 = new C6();
+new C6();
+for (let v19 = 0; v19 < 32; v19++) {
+    v16["p" + v19] = v19;
+}
+let v22 = 0;
+do {
+    try {
+    const t0 = "p";
+    t0("bigint", v22, v22, C6, v17);
+    } catch (e) {}
+    typeof (C6++) === "string";
+    v22++;
+} while (v22 < 10)

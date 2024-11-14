@@ -1,0 +1,56 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = 255;
+    this.f = 255;
+    this.a = 255;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function f6(a7, a8) {
+    const o19 = {
+        257: a7,
+        ...a7,
+        "a": a8,
+        "h": v5,
+        [v4](a10, a11, a12, a13) {
+            new F0();
+            v4[2] = null;
+            v3.toString = a11;
+            return a12;
+        },
+    };
+    return o19;
+}
+const v20 = f6(v4, v3);
+f6(v4, v4);
+const v22 = f6(v5, v5);
+function f23(a24, a25, a26) {
+    const o35 = {
+        [v20](a28, a29, a30) {
+            v3 & v5;
+            super.h = f6;
+            v22.__proto__ = v3;
+            return 54267685;
+        },
+        "b": a26,
+        "f": a26,
+        ...a25,
+    };
+    return o35;
+}
+let v37 = f23(v20, v4, f23(v22, v4, v3));
+const v38 = f23(v20, v5, F0);
+Object.defineProperty(v3, "e", { get: f23, set: f6 });
+const o39 = {
+    __proto__: v5,
+    "c": f23,
+    "d": v38,
+};
+v37.b;
+v37 = v38;
+const o43 = {
+    "maxByteLength": 2147483649,
+};
+const v45 = new SharedArrayBuffer(4030, o43);
+new Int32Array(v45);

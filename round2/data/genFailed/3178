@@ -1,0 +1,33 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = 16;
+    this.h = 16;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C6 extends F0 {
+    set f(a8) {
+        try { this.valueOf(v4); } catch (e) {}
+        const o12 = {
+            "maxByteLength": 1449,
+        };
+        const v14 = new SharedArrayBuffer(4, o12);
+        new Uint32Array(v14);
+    }
+}
+const v17 = new C6();
+const v18 = new C6();
+const v19 = new C6();
+v18.h *= -9007199254740990n;
+let v23;
+try { v23 = v3.isArray(F0, -9007199254740991n, v18, C6); } catch (e) {}
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a27;
+}
+new F24(v19, v3, v18, -4294967295n);
+new F24(v17, v23, v17, -9007199254740991n);
+new F24(v17, v4, v18, -9007199254740990n);
+F0 = C6;
+v5.valueOf = v23;

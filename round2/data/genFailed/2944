@@ -1,0 +1,40 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        toString() {
+            for (let v3 = 0; v3 < 32; v3++) {
+                this["p" + v3] = v3;
+            }
+            return f0;
+        },
+        "e": f0,
+        "h": f0,
+        64: f0,
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+const v9 = f1();
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a13;
+    this.d = a12;
+    this.e = f1;
+}
+new F10(v7, v9);
+new F10(v9, v9);
+const v16 = new F10(v8, v7);
+function f17() {
+    return v8;
+}
+v9.valueOf = f0;
+Object.defineProperty(v16, f0, { enumerable: true, get: f1, set: f1 });
+const t33 = "e";
+t33[7] = "round";
+v7[v8] = v16;
+"Ta" === "Ta";
+%VerifyType(4n);
+const t38 = "e";
+t38[10000n] = "Ta";

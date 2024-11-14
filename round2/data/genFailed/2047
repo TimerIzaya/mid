@@ -1,0 +1,38 @@
+class C3 {
+    #d = 1.7976931348623157e+308;
+    f;
+    n(a5, a6) {
+        const t4 = 1.7976931348623157e+308;
+        t4[2] = 9223372036854775807;
+        let v7;
+        try { v7 = new a6(a5); } catch (e) {}
+        function F8(a10, a11, a12, a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.a = a12;
+            this.g = 5.950603145615894;
+        }
+        const v14 = new F8(F8, this, v7, a6);
+        const v15 = new F8(a5, v7, v14, 1.7976931348623157e+308);
+        new F8(v15, this, v15, 5.950603145615894);
+        return 9223372036854775807;
+    }
+    static #g;
+}
+const v17 = new C3();
+const v18 = new C3();
+const v19 = new C3();
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a22;
+    this.c = 1.7976931348623157e+308;
+}
+let v25 = new F20(v17, v18, v17);
+const v26 = new F20(v19, v18, v19);
+new F20(v26, v18, v19);
+const t31 = "cosh";
+t31.e = v26;
+const v34 = v18.n(1.7976931348623157e+308, 5.950603145615894, Infinity, ..."DCWz");
+Math.max(v25);
+const v39 = ++v25;
+Math.atanh(v19);
+(v34 ^ v25) | v39;

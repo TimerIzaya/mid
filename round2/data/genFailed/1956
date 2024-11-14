@@ -1,0 +1,48 @@
+class C3 {
+    n(a5) {
+        const v10 = Symbol.iterator;
+        const o19 = {
+            [v10]() {
+                let v12 = 10;
+                const o18 = {
+                    next() {
+                        v12--;
+                        const v16 = v12 == 0;
+                        const o17 = {
+                            "done": v16,
+                            "value": v12,
+                        };
+                        return o17;
+                    },
+                };
+                return o18;
+            },
+        };
+        return o19;
+    }
+}
+const v20 = new C3();
+const v21 = new C3();
+const v22 = new C3();
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v21;
+    this.c = v21;
+}
+const v27 = new F23(v20, "0m");
+const v28 = new F23(C3, v21);
+const v29 = new F23(v20, v27);
+const v30 = [v20,v28,v29,v27];
+const v31 = [v22,v30,v30];
+const v32 = [F23,v31,v20];
+new Map();
+v29.c;
+C3[3];
+for (const v40 in C3) {
+    v32.toString(v29, "c", v22, v40, v20);
+}
+v31.length *= -1186196573;
+try {
+    new F23(v20, "-9");
+} catch(e44) {
+}

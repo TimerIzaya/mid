@@ -1,0 +1,80 @@
+function f0() {
+    let v3 = "string";
+    const o10 = {
+        129: "symbol",
+        "c": "function",
+        ["function"]: "function",
+        ["symbol"]: "symbol",
+        __proto__: "symbol",
+        "a": v3,
+        [v3]: v3,
+        set h(a5) {
+            v3 += a5;
+            const o6 = {
+            };
+            o6.b = a5;
+            const o7 = {
+            };
+            o7.b = a5;
+            o7.e = v3;
+            const o8 = {
+            };
+            o8.b = a5;
+            o8.e = v3;
+            o8.a = "function";
+            const o9 = {
+            };
+            o9.b = a5;
+            o9.e = v3;
+            o9.a = a5;
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+class C14 {
+    [f0] = v13;
+    static 1337542165 = v12;
+    p(a16, a17) {
+        return this >= a16 ? this : a16;
+    }
+    static #e = v13;
+    static [v11] = f0;
+    static [v12];
+    #a;
+    static 1 = f0;
+}
+const v20 = new C14();
+const v21 = new C14();
+const v22 = new C14();
+const v23 = /Uxyz{1,}+/gisdv;
+/XWv[\cz]Wa(?!bbb|bb)cQa?/midu;
+/x/yv;
+class C26 {
+    static [v13] = v21;
+    static #h;
+    constructor(a28, a29, a30, a31) {
+        let v32;
+        try { v32 = this.findIndex(a29, a28); } catch (e) {}
+        try {
+            v32.#h;
+        } catch(e34) {
+        }
+    }
+    static #e;
+    static d;
+    static 5;
+}
+const v35 = new C26(v23, v21, v20, v20);
+const v36 = new C26(v22, v11, v21, v35);
+new C26(C14, v36, v22, v22);
+function f38(a39, a40, a41, a42) {
+    'use strict';
+    new Uint16Array(9);
+    new Uint32Array(2936);
+    const v52 = new Float64Array(16);
+    return v52;
+}
+f38(v23, v35, v11, v36);

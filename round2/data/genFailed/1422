@@ -1,0 +1,16 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = -65537;
+    this.g = 8;
+    this.f = a9;
+}
+const v10 = new F6("round", 8);
+const v11 = new F6("round", 7);
+const v12 = new F6("number", 8);
+let {"a":v13,...v14} = v11;
+v14[Symbol.matchAll];
+const o18 = {
+};
+new Proxy(v12, o18);
+try { ("round").trimLeft(); } catch (e) {}
+v10.__proto__ = v10;

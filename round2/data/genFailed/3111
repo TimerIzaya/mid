@@ -1,0 +1,21 @@
+function f0() {
+}
+function F7(a9, a10, a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a10;
+    this.a = -2n;
+    this.d = 127;
+}
+const v13 = new F7(9007199254740991n, 127, -2n, 127);
+new F7(9007199254740991n, 127, -64985n, 48768);
+new F7(-64985n, 48768, 9007199254740991n, 127);
+for (const v19 of f0) {
+    [1073741824,7,27394,893197525,2,1339558984,13,15,3];
+    [1024,2,2,65536];
+    [536870887,-9,10,-28187];
+    %VerifyType(2049548672);
+}
+Object.defineProperty(v13.a, "e", { enumerable: true, value: -65537 });
+function f24() {
+    return F7;
+}

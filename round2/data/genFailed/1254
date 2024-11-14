@@ -1,0 +1,73 @@
+class C3 {
+    #m(a5, a6) {
+        const v10 = +a5;
+        Math.tan(a5);
+        const v12 = -2 << v10;
+        Math.asinh(14178);
+        Math.imul(a6 << v10, a6);
+        return v12;
+    }
+}
+const v16 = new C3();
+new C3();
+new C3();
+new Int16Array(2005);
+const v27 = new BigInt64Array(4096);
+let v28 = 1009;
+const v30 = new BigInt64Array(v28);
+const v31 = v30[16];
+v16[-1] **= v28;
+v16[5] = "-4096";
+[v28] = v30;
+let v32;
+try { v32 = ("d").charAt(v31); } catch (e) {}
+v16.toString = v32;
+v16 >= v27 ? v16 : v27;
+class C3 {
+    [14];
+    constructor(a5) {
+        a5?.f;
+        a5[0] = a5;
+    }
+    static #d;
+    #b;
+    #e = 14;
+    42;
+    #h = 2.0;
+}
+const v7 = new C3(14);
+const v8 = new C3(2.0);
+const v9 = new C3(v8);
+function f10(a11, a12) {
+    const o16 = {
+        [-2.0]: 2.0,
+        "b": v7,
+        "d": 14,
+        ...a11,
+        set h(a14) {
+            let v13 = this;
+            try {
+                v13 /= C3;
+            } catch(e15) {
+            }
+        },
+    };
+    return o16;
+}
+const v18 = f10(C3, f10(v7, v9));
+f10(v18, C3);
+const o20 = {
+    "call": f10,
+    "defineProperty": f10,
+    "getPrototypeOf": f10,
+    "has": f10,
+    "isExtensible": f10,
+    "ownKeys": f10,
+    "preventExtensions": f10,
+    "set": f10,
+    "setPrototypeOf": f10,
+};
+try {
+    new Proxy(v18, o20);
+} catch(e23) {
+}

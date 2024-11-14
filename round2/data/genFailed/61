@@ -1,0 +1,87 @@
+const v0 = [];
+class C1 {
+    [v0];
+    constructor() {
+        let v3;
+        try { v3 = v0(v0, v0, this, this, this); } catch (e) {}
+        delete this[4294967295];
+        const o6 = {
+        };
+        new Proxy(v3, o6);
+    }
+    g = v0;
+    9 = v0;
+    static #c;
+    f;
+}
+const v9 = new C1();
+const v10 = new C1();
+new C1();
+function f12(a13) {
+    const o24 = {
+        n(a15, a16, a17) {
+            this[a16] %= a15;
+            const v20 = Reflect.construct(a15, [Reflect], a13);
+            const o21 = {
+            };
+            new Proxy(v20, o21);
+            return o21;
+        },
+        "b": a13,
+        "c": v9,
+        "h": a13,
+    };
+    return o24;
+}
+f12(v10);
+f12(C1);
+f12(v9);
+new Float64Array(2627);
+const v33 = new Int32Array(82);
+new Uint16Array(8);
+try { f12(Uint16Array, ...v33, ...C1, 8); } catch (e) {}
+if (Int32Array > v33) {
+    f12(v33);
+    %PrepareFunctionForOptimization(f12);
+    f12(v33);
+    f12(v33);
+    %OptimizeMaglevOnNextCall(f12);
+    f12(v33);
+} else {
+    const o45 = {
+        "maxByteLength": 65537,
+    };
+    const v47 = new SharedArrayBuffer(0, o45);
+    new Uint8Array(v47);
+}
+const v0 = [0.2365962580335198,0.8814237422635556,23.877477793561297,1.5202899065753988e+307,-Infinity];
+const v1 = [-2.1939720053717586,51313.64995603217,1000000000.0,1.0,7.727736848953871e+307,1e-15,0.0];
+const v2 = [-1.0,-2.2250738585072014e-308,-1.0,-1000000000000.0,2.220446049250313e-16,-1000000.0,3.0,-1.0,-0.0];
+let v8 = 536870889;
+class C9 {
+    constructor(a11, a12) {
+        a12[21] /= v8;
+        ++v8;
+        for (let v14 = 0; v14 < 96; v14++) {
+            try {
+                a11.__proto__ = this;
+            } catch(e15) {
+            }
+        }
+    }
+    static g = 5;
+    static #a = v8;
+    [v1];
+}
+new C9(v1, v1);
+new C9(v2, v2);
+new C9(v0, v1);
+class C19 extends C9 {
+    3152025126 = 128;
+    f;
+}
+const v20 = new C19();
+new C19();
+const v22 = new C19();
+try { v22(...v20, v20, v22, ...C9); } catch (e) {}
+Reflect == v22 ? Reflect : v22;

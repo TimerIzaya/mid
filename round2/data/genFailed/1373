@@ -1,0 +1,26 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = 12;
+    this.e = 12;
+    this.f = 12;
+}
+new F0();
+new F0();
+new F0();
+const v6 = [945994863,65536,2,-16,1024,6,3,-10,27510,4294967297];
+const v7 = [24290,-1073741824,4294967297,1787828262,-84656111,-9007199254740991,127,-14];
+[1000,6];
+const v11 = new BigInt64Array(1);
+const v14 = new Int32Array(23);
+const v17 = new Float32Array(10);
+v11[-1] = BigInt64Array;
+try {
+const t0 = -5.37082953882186;
+t0(F0, Int32Array, v7, v6, v14);
+} catch (e) {}
+const o22 = {
+    __proto__: v14,
+    [-5.37082953882186]: F0,
+    ...v6,
+    1: v17,
+};

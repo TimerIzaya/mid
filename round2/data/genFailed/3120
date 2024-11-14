@@ -1,0 +1,13 @@
+function f3() {
+    return 1073741824;
+}
+const v6 = new Int8Array(256);
+const v9 = new Uint8Array(0);
+new Int8Array(135);
+const o19 = {
+    "execution": "sync",
+    "type": "major",
+};
+const t10 = gc(o19);
+t10.a = 256;
+try { o19.valueOf(v6, "sync", v9); } catch (e) {}

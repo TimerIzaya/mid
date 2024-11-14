@@ -1,0 +1,114 @@
+function f3(a4) {
+    const o11 = {
+        "a": a4,
+        get b() {
+            try { this.toString(); } catch (e) {}
+            let {"a":v7,} = this;
+            const o8 = {
+            };
+            new Proxy(this, o8);
+            return 1000000000.0;
+        },
+        "e": a4,
+    };
+    return o11;
+}
+const v12 = f3(-1.0);
+const v13 = f3(-1.0);
+const v14 = f3(-1.0);
+class C15 extends f3 {
+    constructor(a17, a18, a19, a20) {
+        super(a17);
+        f3(-1.0);
+        %PrepareFunctionForOptimization(f3);
+        f3(-1.0);
+        f3(-1.0);
+        %OptimizeMaglevOnNextCall(f3);
+        f3(-1.0);
+    }
+    [f3];
+    c = -1.0;
+}
+new C15(-1.0, -0.0, v12, v13);
+new C15(-0.0, -0.0, C15, v12);
+new C15(-1.0, 1000000000.0, C15, C15);
+const v28 = v14.__proto__;
+let v29 = 0;
+while (v29 < 5) {
+    let [v33,v34,v35,v36] = v28;
+    let v38 = -1214146997;
+    let v39 = 31271;
+    const v41 = ~(v38 + v39);
+    v39--;
+    1000000000.0 & v41;
+    --v38;
+    v29++;
+}
+function f3(a4) {
+    const o20 = {
+        get b() {
+            (-9902n - this) in this;
+            try {
+                new Uint8ClampedArray(3);
+            } catch(e11) {
+            }
+            try {
+                new Uint8Array(127);
+            } catch(e15) {
+            }
+            try {
+                new Float64Array(3);
+            } catch(e19) {
+            }
+            return Uint8Array;
+        },
+    };
+    return o20;
+}
+const v21 = f3(-9902n);
+const v22 = f3(268435441n);
+let v23 = f3(268435441n);
+function f30(a31, a32) {
+    function f34(a35) {
+        const o36 = {
+        };
+        try {
+            o36.c = a35;
+        } catch(e37) {
+        }
+        try {
+            const o38 = {
+            };
+            o38.c = a35;
+            o38.b = a35;
+        } catch(e39) {
+        }
+        try {
+            const o40 = {
+            };
+            o40.c = a35;
+            o40.b = a35;
+            o40.d = a35;
+        } catch(e41) {
+        }
+        try {
+            const o42 = {
+            };
+            o42.c = a35;
+            o42.b = a35;
+            o42.e = v21;
+        } catch(e43) {
+        }
+    }
+    this.onmessage = f34;
+    try {
+        v23 >>= v21;
+    } catch(e44) {
+    }
+}
+const v47 = [v22,"function"];
+const o48 = {
+    "arguments": v47,
+    "type": "function",
+};
+new Worker(f30, o48);

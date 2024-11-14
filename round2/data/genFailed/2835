@@ -1,0 +1,21 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 4294967295;
+    this.c = 4294967295;
+}
+new F0();
+const v4 = new F0();
+const v5 = new F0();
+new Uint8Array(2894);
+const v11 = new Uint16Array(2783);
+const v14 = new Uint8Array(173);
+function f15() {
+    return v14;
+}
+let v16;
+try { v16 = v5.p(); } catch (e) {}
+v14 >>> v4;
+for (let v18 in v14) {
+    ({"byteOffset":v18,} = v11);
+    v16[3] = 173 ^ v11;
+}

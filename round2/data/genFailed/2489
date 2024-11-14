@@ -1,0 +1,73 @@
+function f1() {
+    const o6 = {
+        [false]: false,
+        "c": false,
+        "d": false,
+        "a": false,
+        __proto__: false,
+        "h": false,
+        ...false,
+        o() {
+            try {
+                super.p(this);
+            } catch(e4) {
+            }
+            false >>> false;
+            return false;
+        },
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+const v9 = f1();
+function f10() {
+    return f1;
+}
+class C11 extends f1 {
+    constructor(a13, a14, a15, a16) {
+        super();
+        delete v9[9];
+        %VerifyType(a13);
+        v7[10] = f1;
+    }
+    static 1022036587;
+    static valueOf(a19, a20, a21) {
+        v7[a20] = this;
+        try { a20(false, a20, false, a19, a20); } catch (e) {}
+        for (let v23 = 0; v23 < 100; v23++) {
+            f1();
+        }
+        return false;
+    }
+}
+let v25 = new C11(v9, C11, v8, v9);
+const v26 = new C11(v8, v25, v8, v9);
+const v27 = new C11(v8, false, v9, v7);
+class C28 extends f10 {
+    static #o(a30, a31, a32, a33) {
+        try {
+            f1();
+        } catch(e35) {
+        }
+        return C11;
+    }
+    #m(a37, a38) {
+        const v39 = a38 != a38;
+        const v41 = v26 < v39 ? v26 : v39;
+        a38.c = this;
+        v41 >>> v8;
+        const v43 = v39;
+        return v43;
+    }
+}
+new C28();
+new C28();
+const v46 = new C28();
+const v47 = v46.d;
+const o48 = {
+};
+const v50 = new Proxy(v9, o48);
+typeof v50 === "boolean";
+v25 = v27;
+o48[v47] = v50;

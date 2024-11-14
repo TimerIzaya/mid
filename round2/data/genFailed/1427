@@ -1,0 +1,35 @@
+const v2 = new Uint8ClampedArray(257);
+const v5 = new Int16Array(5);
+const v8 = new Uint8ClampedArray(14);
+function f9() {
+    return 257;
+}
+function f10() {
+    return v5;
+}
+class C11 extends Uint8ClampedArray {
+    static a = Int16Array;
+    static [v5] = 5;
+    a = Uint8ClampedArray;
+    #c = 257;
+    [f10];
+    #m(a13, a14, a15) {
+        v8.b = v5;
+        return v2;
+    }
+    e = 257;
+    #d = v8;
+}
+new C11();
+const v20 = new C11();
+const v21 = new C11();
+v5[v21];
+Object.defineProperty(C11, -1, { writable: true, enumerable: true, get: f10, set: f9 });
+const o23 = {
+    __proto__: v8,
+    "a": v20,
+    "e": v5,
+};
+[-14811,1919371667,-6];
+[-32697,8,512,59916,-9007199254740992,-993344908,-918971922,536870889];
+[-1851678620,65535,-536870912,4096,-268435456,536870889,-16];

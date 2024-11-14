@@ -1,0 +1,36 @@
+const v6 = [54.768356940328886,0.4507075654850473];
+const v7 = [-3.0,-425270.12279338995,-739753.4372611276,307420.53129836894];
+const v8 = [-613.8589446026788,1000000000000.0];
+function f9() {
+    return v6;
+}
+function f10(a11, a12, a13) {
+    const o22 = {
+        "h": v8,
+        "e": a13,
+        p(a15, a16, a17, a18) {
+            %VerifyType(v6);
+            f9();
+            try {
+                new f9();
+            } catch(e21) {
+            }
+            return a12;
+        },
+        "a": 1073741825n,
+        "g": v6,
+        "b": "c",
+    };
+    return o22;
+}
+const v23 = f10(1073741825n, "getInt16", v8);
+f10(-238980512n, "getInt16", v7);
+const v25 = f10(11n, "c", v6);
+v7[v25];
+v23[3073524822];
+Object.defineProperty(v23, "e", { writable: true, enumerable: true, get: f9 });
+v7[v25];
+try {
+    f10(5n, "pvN", v7);
+} catch(e32) {
+}

@@ -1,0 +1,41 @@
+function f0() {
+    const o7 = {
+        268435441: -37032,
+        5: -37032,
+        ..."getUTCMilliseconds",
+        __proto__: "getUTCMilliseconds",
+        9: -37032,
+        "c": -37032,
+        p(a5) {
+            let v6;
+            try { v6 = new a5(); } catch (e) {}
+            v6 *= "getUTCMilliseconds";
+            return -14;
+        },
+        [-37032]: "getUTCMilliseconds",
+        190: -37032,
+    };
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a14;
+    this.d = v9;
+    this.b = a13;
+}
+const v15 = new F11(v9, v10);
+const v16 = new F11(v9, v10);
+const v17 = new F11(v9, v8);
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a21;
+    this.b = v10;
+}
+new F18(v8, v15);
+let v23 = new F18(v10, v17);
+const v24 = new F18(v10, v16);
+[v23] = v15[Symbol.iterator];
+v24.b;

@@ -1,0 +1,59 @@
+[];
+let v2 = 5.01972981222519;
+const v6 = new Uint32Array(255);
+new Int8Array(1);
+const v12 = new Int8Array(2051);
+function f13(a14, a15, a16) {
+    const o27 = {
+        get h() {
+            function f18(a19) {
+                return this;
+            }
+            class C20 extends f18 {
+                static #b = a16;
+            }
+            return 255;
+        },
+        m(a22, a23, a24, a25) {
+            super[v6] = v2 = a16?.[255];
+            super.a = Int8Array;
+            return this;
+        },
+    };
+    return o27;
+}
+const v29 = f13(v6, 2051, f13(2051, 1, v6));
+const v30 = f13(-1000000000000.0, v2, Int8Array);
+delete v30[v12];
+Object.defineProperty(v30, 1, { writable: true, get: f13 });
+v29.f = v12;
+%VerifyType(Int8Array);
+function f32() {
+    function f34(a35) {
+        function f36() {
+            return a35;
+        }
+    }
+    this.onmessage = f34;
+}
+const v40 = [];
+const o41 = {
+    "arguments": v40,
+    "type": "function",
+};
+new Worker(f32, o41);
+const v0 = -Infinity;
+const v9 = ["MG",50894];
+[v9,v9];
+const v11 = ["MG",-122.83303661772857,-0.0];
+try {
+    const t5 = "cause";
+    t5.length = 50894;
+} catch(e12) {
+}
+const v15 = Reflect.construct(v0, [], "findIndex");
+[-0.0,-0.0,v11,...v9];
+try {
+    Reflect.valueOf = v15;
+} catch(e17) {
+}

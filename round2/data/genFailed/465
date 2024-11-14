@@ -1,0 +1,32 @@
+let v0 = 9007199254740991;
+let v5 = 268435441;
+v5 = 1288364400;
+%VerifyType(-5.0);
+const v12 = -0.29503424488456176;
+for (let [v13,v14,v15,v16] of -10n) {
+    v13 >> v12;
+    v0 = v12;
+}
+v12 * 0.29503424488456176;
+[-31196,-2147483648,64765,870925721,12,65535,-9007199254740991,9007199254740992,-14];
+[4096,6,257,7,9];
+[26027];
+try {
+    new Uint8Array(207);
+} catch(e3) {
+}
+try {
+    new Uint16Array(562);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1024);
+} catch(e11) {
+}
+try { ("number").trimEnd(562, 506023405, 4096, ...Uint16Array, ...1024); } catch (e) {}
+Object.defineProperty("number", 207, { writable: true, enumerable: true, value: "d" });
+4096 && "n";
+const v20 = `
+    ("d")["match"](("number")[v20]);
+`;
+eval(v20);

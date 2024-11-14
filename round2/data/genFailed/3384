@@ -1,0 +1,19 @@
+new Set();
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a13;
+}
+new F8(-7, 1478074238, -7, -50756);
+const v15 = new F8(1478074238, -50756, Set, 5);
+const v16 = new F8(1073741824, -50756, F8, 5);
+v15.d = 8;
+try { v15(5); } catch (e) {}
+try {
+    new Set(v16);
+} catch(e22) {
+}
+const o25 = {
+    "maxByteLength": 2456,
+};
+const v27 = new SharedArrayBuffer(2, o25);
+new BigInt64Array(v27);

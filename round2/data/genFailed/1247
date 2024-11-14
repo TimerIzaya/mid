@@ -1,0 +1,67 @@
+class C3 {
+    static ["object"];
+    static toString(a5) {
+        let v4 = this;
+        const v6 = "object" % v4;
+        Math.atanh(v6);
+        Math.tanh(v6);
+        const v12 = --v4;
+        const v13 = -8 / v12;
+        v4 >> v4;
+        v13 + -8;
+        Math.fround(v12);
+        return -8;
+    }
+}
+const v17 = new C3();
+const v18 = new C3();
+const v19 = new C3();
+const v21 = new WeakMap();
+function f22() {
+    return "object";
+}
+[-3.353542995744583,-2.0,395857.5309065308,0.22633528855220608,1000000.0,-2.261929114588004e+307,85.59586540669216,1e-15];
+const v24 = [1000.0,2.220446049250313e-16,-2.220446049250313e-16,-1000000000.0,-5.0,252.1351183296174];
+const v25 = [1000.0,-0.0,766160.3014074087,NaN,-4.0,3.078218224364284e+307,Infinity,3.0];
+Object.defineProperty(v17, 2125, { configurable: true, get: f22, set: f22 });
+for (let [v26,v27,v28] of v24) {
+    for (let v29 = 0; v29 < 32; v29++) {
+        v21["p" + v29] = v29;
+    }
+}
+try { v19.toString(v17, v18, v21, f22); } catch (e) {}
+%VerifyType(v25);
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a10;
+    } catch(e12) {
+    }
+    try {
+        this.e = a9;
+    } catch(e13) {
+    }
+}
+const v14 = new F6(4294967296n, 22362, -4294967295, -4294967295);
+const v15 = new F6(1n, 4294967296, v14, 22362);
+const v16 = new F6(64n, -4294967295, 4294967296, 4294967296);
+const v17 = [v15,F6,F6];
+const v18 = [v16];
+const v19 = [1n,v17];
+let v21 = -1;
+Math.pow(1n, v18);
+v21--;
+!1n + 492775.4681140727;
+Object.defineProperty(v19, "e", { configurable: true, value: 64n });
+try {
+    new Float32Array(64);
+} catch(e30) {
+}
+try {
+    new Float64Array(6);
+} catch(e34) {
+}
+try {
+    new BigInt64Array(66);
+} catch(e38) {
+}

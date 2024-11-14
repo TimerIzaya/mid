@@ -1,0 +1,36 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = v0;
+}
+const v3 = new F1();
+const v4 = new F1();
+const v5 = new F1();
+class C6 extends F1 {
+    c = v3;
+    #n(a8) {
+        switch (a8) {
+            case v3:
+                for (let v9 = 0; v9 < 32; v9++) {
+                    this["p" + v9] = v9;
+                }
+                break;
+        }
+        return v5;
+    }
+    static #d;
+}
+const v12 = new C6();
+const v13 = new C6();
+new C6();
+new Int16Array(64);
+new BigUint64Array(1000);
+new BigUint64Array(128);
+try {
+    new BigUint64Array(v3, 9007199254740991, -1648443627);
+} catch(e27) {
+}
+%VerifyType(v13);
+throw F1;
+var h = v12;
+try { v4.subarray(F1, 64, Int16Array); } catch (e) {}

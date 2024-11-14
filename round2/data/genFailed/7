@@ -1,0 +1,87 @@
+class C3 {
+    constructor(a5) {
+        let v6;
+        try { v6 = a5(this, "name", "name"); } catch (e) {}
+        const v7 = v6.__proto__;
+        try { v7(this, v6); } catch (e) {}
+    }
+    static ["-9"];
+    e = "-9";
+    c = "-9";
+    1181384245 = 0.8696311519073575;
+    f = "-9";
+}
+new C3("name");
+const v10 = new C3("-9");
+new C3(v10);
+[2.2250738585072014e-308,-Infinity,-355.065051404992,Infinity,-0.0,2.220446049250313e-16,-1e-15];
+[102263.04707016936];
+[0.5983004713083427,1000000.0,-627955.452898681,0.9431831328653493,684.9254124954464,-321161.28326902876,0.2209020597481519,8.677206478770167];
+const o17 = {
+    "maxByteLength": 65536,
+};
+const v19 = new SharedArrayBuffer(9, o17);
+new BigUint64Array(v19);
+function f22() {
+    return BigUint64Array;
+}
+const v3 = [0,15,4294967295];
+const v4 = [-128,-11746,-47890,-39353,8,943348762];
+const v5 = [-12,825768124,1271177210,268435456,-51320,7,-2069400894,-1812164735];
+function f6(a7, a8) {
+    const o13 = {
+        10000: a8,
+        ...v4,
+        get c() {
+            super.g += a8;
+            return a8;
+        },
+        "b": a8,
+        ...a7,
+    };
+    return o13;
+}
+const v14 = f6(v4, v3);
+f6(v3, f6(v4, -1093099665));
+class C17 extends f6 {
+    #c;
+    constructor(a19, a20) {
+        super(v5, v3);
+        delete v4?.length;
+    }
+    static set e(a24) {
+        const v25 = 4294967296 !== 65537;
+        new f6(v3, f6);
+        try { a24(v25); } catch (e) {}
+        const o28 = {
+            "apply": f6,
+            "call": f6,
+            "construct": f6,
+            "get": f6,
+            "getOwnPropertyDescriptor": f6,
+            "getPrototypeOf": f6,
+            "has": f6,
+            "isExtensible": f6,
+            "setPrototypeOf": f6,
+        };
+        try {
+            new Proxy(v14, o28);
+        } catch(e31) {
+        }
+    }
+}
+new C17(v5, v5);
+const v33 = new C17(v4, v3);
+new C17(v4, v4);
+v33.c &= -1093099665;
+const v35 = new f6(v5, v14);
+const v36 = v3 == v33;
+try { C17.push(65537, v36, v33); } catch (e) {}
+try {
+    v3[-2] = v3;
+} catch(e38) {
+}
+try {
+    v35.g = v14;
+} catch(e39) {
+}

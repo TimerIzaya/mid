@@ -1,0 +1,38 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = -1;
+    this.f = -1;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function f9(a10, a11, a12, a13) {
+    const o16 = {
+        "a": a10,
+        "h": a12,
+        get b() {
+            let v15;
+            try { v15 = this(this, F0, this, "boolean", F0); } catch (e) {}
+            a11[3053598106] -= v15;
+            return v15;
+        },
+        ...a13,
+        ...a13,
+        "e": a13,
+    };
+    return o16;
+}
+f9(v4, "boolean", v5, v5);
+const v18 = f9(v5, "undefined", v3, v4);
+f9(v3, "boolean", v3, v3);
+let v20;
+try { v20 = v3.setUTCDate(); } catch (e) {}
+let v21 = [-1000000000.0,0.31494666293321116];
+[1.5986708001886126e+308,-1.2448875216252628e+308,1.5832050357883849e+308,2.0,1000000000000.0,-1000000000000.0,1e-15];
+const v23 = [2.2250738585072014e-308,49.381630638325305,1000000000.0,-2.2250738585072014e-308,-1.0,-3.401033234781181,1000.0];
+const v25 = Symbol.toPrimitive;
+const t33 = "number";
+t33[v25] = v18;
+v25[v3] >>= v20;
+Object.defineProperty("number", 0, { configurable: true, set: f9 });
+v21 = v23;

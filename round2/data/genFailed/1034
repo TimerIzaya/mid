@@ -1,0 +1,70 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = -18123;
+    this.e = -18123;
+    this.d = -18123;
+}
+new F0();
+new F0();
+new F0();
+[29149,2147483648,6,-14,9];
+[257,268435441,-1612897560];
+[1,11,-9223372036854775807,-65535,1772780016,-36330];
+const o14 = {
+    "maxByteLength": 2623,
+};
+const v16 = new SharedArrayBuffer(2623, o14);
+const v18 = new Uint32Array(v16);
+2623 & v18;
+function f3() {
+    return "VrV";
+}
+const v4 = ["VrV","function","b"];
+const v5 = [f3,"VrV","function","VrV"];
+const v6 = [v5,v4,f3,"b"];
+try {
+    new BigInt64Array(10);
+} catch(e10) {
+}
+try {
+    new Uint16Array(1);
+} catch(e14) {
+}
+try {
+    new Int8Array(2);
+} catch(e18) {
+}
+class C19 extends Uint16Array {
+    static g = Int8Array;
+    d = "VrV";
+    static 2147483647 = "VrV";
+    static set a(a21) {
+        const v22 = ("VrV")[this];
+        try {
+            this.fuck(v6, a21, v22, /d\xed\xb0\x80(5RWxyz{0,1})/m);
+        } catch(e25) {
+        }
+    }
+    8 = Int8Array;
+    a = Int8Array;
+    f;
+    #a = "b";
+}
+new C19();
+new C19();
+const v28 = new C19();
+const t37 = "VrV";
+const v29 = delete t37?.length;
+try { v29(BigInt64Array, "VrV", Uint16Array, Int8Array, v5); } catch (e) {}
+const o31 = {
+    "apply": f3,
+    "call": f3,
+    "defineProperty": f3,
+    "deleteProperty": f3,
+    "has": f3,
+    "setPrototypeOf": f3,
+};
+try {
+    new Proxy(v28, o31);
+} catch(e34) {
+}

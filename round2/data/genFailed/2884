@@ -1,0 +1,51 @@
+class C3 {
+    b;
+    [1000000000000.0];
+    static set b(a5) {
+        a5?.[6];
+        const o10 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o10);
+    }
+    #b = 1000000000000.0;
+    c;
+}
+new C3();
+const v13 = new C3();
+const v14 = new C3();
+function f18(a19, a20, a21, a22) {
+    const o31 = {
+        get a() {
+            super.g = 1000;
+            const v24 = a19 != a21;
+            try { a21(v24, v24); } catch (e) {}
+            a19 **= this;
+            const o29 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o29);
+            return this;
+        },
+    };
+    return o31;
+}
+const v32 = f18(v14, 4294967297, 1000000000000.0, 1343777007);
+f18(v13, 1343777007, f18(C3, 536870912, 1000, 1343777007), 536870912);
+new Uint32Array(4);
+const v40 = new Int8Array(4);
+const v43 = new BigInt64Array(3640);
+for (let [,v44] of v43) {
+    f18(v44, 4, v44, 4);
+    %PrepareFunctionForOptimization(f18);
+    f18(v44, 4, v44, 4);
+    f18(v44, 4, v44, 4);
+    %OptimizeFunctionOnNextCall(f18);
+    f18(v44, 4, v44, 4);
+}
+v40 >= v32;
+/[Ja?]/gyv;
+/X\u{12345}\u{23456}[x\dz]Da\b!?/mdu;
+/^xxx$/gmidv;

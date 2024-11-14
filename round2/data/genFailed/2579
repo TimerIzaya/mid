@@ -1,0 +1,57 @@
+class C3 {
+    ["O"];
+    a = "O";
+    n(a5, a6) {
+        const t4 = "O";
+        t4.__proto__ = this;
+        const o7 = {
+        };
+        o7.g = "abs";
+        const o8 = {
+        };
+        o8.g = "abs";
+        o8.c = "abs";
+        const o9 = {
+        };
+        o9.g = "abs";
+        o9.c = "abs";
+        o9.h = "abs";
+        const o10 = {
+        };
+        o10.g = "abs";
+        o10.c = "abs";
+        o10.b = a6;
+        return o8;
+    }
+}
+let v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+const v15 = [v12,v12,436.6891259914594,false,false];
+const v16 = [v11];
+let v17 = [436.6891259914594,v16,v16,C3,"O"];
+class C18 extends C3 {
+    valueOf(a20, a21, a22, a23) {
+        v12.__proto__ = v13;
+        return "O";
+    }
+    f;
+    static #p(a28, a29, a30, a31) {
+        let v32;
+        try { v32 = a28.n("abs", this); } catch (e) {}
+        return v32;
+    }
+    static #g;
+    1073741823;
+}
+const v33 = new C18();
+new C18();
+const v35 = new C18();
+new C3();
+v33 >= C18;
+%VerifyType(v35);
+v11 = C3;
+Object.defineProperty("abs", 1, { writable: true, configurable: true, enumerable: true, value: v13 });
+for (let i39 = 0; i39 < 0; i39++) {
+    v17 = v15;
+}

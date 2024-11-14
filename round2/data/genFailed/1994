@@ -1,0 +1,33 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0];
+let v2 = [v0,v1];
+const v3 = [v1,v2];
+const v4 = [v3,v2];
+const v5 = [v0,v0,v4];
+const v6 = [v4,v3,v4];
+class C7 {
+    [v2] = v6;
+    set b(a9) {
+        v2 |= this;
+    }
+    #d = v5;
+    static [v0] = v6;
+    [v5] = v4;
+    [v0];
+    static e = v6;
+    static 2 = v2;
+    [v4] = v6;
+}
+const v10 = new C7();
+const v11 = new C7();
+const v12 = new C7();
+let v13;
+try { v13 = v12.valueOf(v5, v10, v6); } catch (e) {}
+v0 instanceof v13;
+v12.b /= v13;
+Object.defineProperty(v1, 10, { value: v13 });
+let v16 = 16;
+Math.cosh(v16);
+v11 ^ v16;
+Math.acos(v11);
+--v16 >>> v11;

@@ -1,0 +1,14 @@
+const v5 = new Int32Array(2);
+const v8 = new BigInt64Array(2261);
+new BigUint64Array(7);
+let v15;
+try { v15 = v8.keys(); } catch (e) {}
+try {
+    v5.find(v15);
+} catch(e17) {
+}
+let v18 = "fill";
+const v19 = v8[v18](v15, 7, 12911);
+try { v19(v8, Int32Array, v8, -9007199254740992n); } catch (e) {}
+v18 |= v18;
+delete v8[v8];

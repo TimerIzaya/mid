@@ -1,0 +1,77 @@
+let v1 = 4294967296n;
+function f3(a4, a5) {
+    const o6 = {
+        [v1]: 1940949963n,
+        "d": a5,
+        "a": a5,
+        [a4]: 129n,
+        "h": v1,
+        "b": a4,
+        __proto__: 1940949963n,
+        "e": a4,
+        "c": 1940949963n,
+        "g": 129n,
+        "f": 129n,
+        12: v1,
+    };
+    return o6;
+}
+const v7 = f3(v1, 1940949963n);
+const v8 = f3(v1, 129n);
+const v9 = f3(v1, v1);
+let v11 = 65537;
+class C14 {
+    constructor(a16, a17, a18) {
+        this << this;
+        let v21 = a18.b;
+        ({"b":v11,"f":v1,...v21} = v8);
+        super[1940949963n] = 129n;
+        %VerifyType(v9);
+    }
+    e;
+    static c;
+    #a;
+    16 = true;
+}
+const v22 = new C14(64, 536870888, v9);
+new C14(v22, v1, v8);
+const v24 = new C14(v1, 64, v1);
+let v25 = v7[1940949963n];
+try { v24.keys(v1, v7, v1, v9); } catch (e) {}
+const o27 = {
+    "getPrototypeOf": f3,
+};
+new Proxy(v9, o27);
+v25 /= 1940949963n;
+try {
+    new Uint8Array(276);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(77);
+} catch(e7) {
+}
+try {
+    new Uint16Array(219);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(1000);
+} catch(e18) {
+}
+try {
+    new BigUint64Array(1024);
+} catch(e22) {
+}
+try {
+    new Uint16Array(1629);
+} catch(e26) {
+}
+for (const v27 of 1629) {
+    v27[219] ^= v27;
+    const v28 = new BigUint64Array(Uint16Array, v27, v27, BigUint64Array, Uint8Array, Uint8ClampedArray);
+    v28[Symbol.search] = v28;
+}
+function f31() {
+    return 1024;
+}

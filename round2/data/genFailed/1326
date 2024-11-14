@@ -1,0 +1,91 @@
+function f0() {
+    const o12 = {
+        "h": 1.0,
+        __proto__: "g",
+        [423992.91502442886](a5, a6) {
+            a5.a = 423992.91502442886;
+            const v9 = 18306 & this;
+            Math.cos("g");
+            v9 ** "g";
+            return a6;
+        },
+    };
+    return o12;
+}
+const v13 = f0();
+const v14 = f0();
+const v15 = f0();
+new Date();
+const v18 = /abc|def2(a)\1*/msv;
+const v19 = /Ea\S/;
+const v20 = /foo(?!bar)bazP\ud808\udf45*L(?=.)+/myidv;
+class C21 {
+    static 127;
+    constructor(a23, a24, a25, a26) {
+        v13.h /= a25;
+        for (let v27 = 0; v27 < 32; v27++) {
+            this["p" + v27] = v27;
+        }
+    }
+    660 = v18;
+}
+new C21(v13, v19, v15, v19);
+const v31 = new C21(v14, v18, v19, v19);
+new C21(v14, v19, v18, v18);
+Date(v31);
+for (const v34 of v15) {
+    function F35(a37, a38) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.g = v34;
+        this.b = v31;
+    }
+    const v39 = new F35(v20, F35);
+    const v40 = new F35(v19, v39);
+    new F35(v19, v40);
+}
+try {
+    new Int8Array(256);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(2);
+} catch(e10) {
+}
+try {
+    new Float32Array(512);
+} catch(e14) {
+}
+class C15 extends Int8Array {
+    constructor(a17, a18, a19) {
+        super(256, a17, a18);
+        new Float32Array(a18, Uint8ClampedArray, Uint8ClampedArray, Uint8ClampedArray, ...this, 512);
+        const v21 = this[5];
+        function F22(a24, a25, a26, a27) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = a26;
+            } catch(e28) {
+            }
+            try {
+                this.h = -65536n;
+            } catch(e29) {
+            }
+            try {
+                this.e = a19;
+            } catch(e30) {
+            }
+        }
+        new F22(Int8Array, -65536n, 10n, a18);
+        new F22(512, 10n, -65536n, 512);
+        new F22(10n, v21, v21, a17);
+    }
+}
+new C15(512, 2, 512);
+const v35 = new C15(256, 256, 512);
+const v36 = new C15(256, 512, 2);
+const v37 = v36[v35];
+const v40 = [v36.buffer];
+const v41 = Reflect.construct(v37, v40, C15);
+Object.defineProperty(v40, "e", { writable: true, configurable: true, value: 2 });
+let [v42,v43,v44] = v35;
+v41.__proto__;

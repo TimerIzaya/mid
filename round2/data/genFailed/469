@@ -1,0 +1,93 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = "tfI";
+    this.e = "has";
+    this.f = "tfI";
+}
+const v7 = new F3("tfI", "tfI");
+const v8 = new F3("has", "string");
+new F3("string", "string");
+new Int32Array(64);
+new Uint32Array(10);
+const v18 = new Float32Array(1835);
+const t12 = "string";
+t12.__proto__ = v18;
+v8.valueOf = v7;
+const t15 = "tfI";
+t15[3942827234] = "tfI";
+const o21 = {
+    "maxByteLength": 1073741824,
+};
+const v23 = new SharedArrayBuffer(6, o21);
+new Uint32Array(v23);
+const v0 = [Infinity,-4.0,-Infinity,-2.0,1e-15,644937.1837029713,1.1329589610945796e+308,560.5683537192672];
+let v1 = [1.7976931348623157e+308,-1.0,-365830.74198928766,0.3122578253055671,0.8729294910928513,-452.7039830864585,1000000.0,-1e-15,-166.2458374060394,-2.220446049250313e-16];
+const v2 = [0.8646641291168383,-Infinity,1.0,-400.14310299954593,-4.289192083392209,-1000000000.0,5.0];
+class C3 {
+    static d;
+    [v1] = v2;
+    static 129 = v0;
+    constructor(a5) {
+    }
+    static {
+        const o10 = {
+        };
+        try {
+            o10.h = v2;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.h = v2;
+            o12.a = v1;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.h = v2;
+            o14.a = v1;
+            o14.e = v2;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.h = v2;
+            o16.a = v1;
+            o16.g = this;
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C3(v1);
+const v19 = new C3(v0);
+const v20 = new C3(v0);
+class C24 extends C3 {
+    static 0;
+    constructor(a26, a27, a28) {
+        let v25 = this;
+        super(v2);
+        try { a27(v19, -536870912); } catch (e) {}
+        let v30 = 0;
+        do {
+            try {
+                v25 = v2;
+            } catch(e31) {
+            }
+            v30++;
+        } while (v30 < 4)
+    }
+}
+const v35 = new C24(v0, 1073741823, v20);
+new C24(v20, -536870912, v35);
+new C24(v2, -536870912, v18);
+function f38(a39, a40, a41, a42) {
+    return -9007199254740992;
+}
+f38(v1, v35, v1, v18);
+try {
+    v1 |= v18;
+} catch(e47) {
+}

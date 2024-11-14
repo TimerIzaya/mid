@@ -1,0 +1,19 @@
+const v2 = new Uint16Array(199);
+const v5 = new Uint16Array(5);
+const v8 = new Int32Array(0);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a11;
+}
+const v13 = new F9(5, 0);
+const v14 = new F9(0, 5);
+new F9(0, 5);
+for (let [v19,v20] of v5) {
+    let v21;
+    try { v21 = v14.p(F9, v20, Uint16Array); } catch (e) {}
+    try { v19(199, 199, 199, v21); } catch (e) {}
+    v5.byteLength = 199;
+}
+const v23 = new Uint16Array(v8, 199, 0);
+v8[1] = v23;
+v2.__proto__ = v13;

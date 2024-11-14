@@ -1,0 +1,41 @@
+new Date();
+new Uint8Array(1703);
+new Float32Array(512);
+new Uint32Array(464);
+const v13 = new Float32Array(257);
+const v16 = new Int8Array(512);
+new BigUint64Array(2287);
+v16.byteLength;
+const o21 = {
+    "d": 464,
+    [Int8Array]: 512,
+    "a": 512,
+    "g": Uint32Array,
+};
+let v22 = v13.__proto__;
+o21[v13] = Uint32Array;
+v22 ^= Uint32Array;
+const v0 = [];
+class C2 {
+    valueOf(a4) {
+        const o5 = {
+        };
+        try {
+            new Proxy(this, o5);
+        } catch(e8) {
+        }
+        return true;
+    }
+    #d;
+    [v0] = v0;
+}
+new C2();
+const v10 = new C2();
+const v11 = new C2();
+try {
+    v10[v0] = v11;
+} catch(e18) {
+}
+const v19 = v11.e;
+const v20 = 536870889n << v19;
+try { v19(v20, 10000, v20, v20); } catch (e) {}

@@ -1,0 +1,32 @@
+new Map();
+const v2 = [-1000000.0,2.0];
+[3.8158569358926453e+307,1e-15,1.7976931348623157e+308,-98.15200290104258,-1000000000.0,0.17168382335177346];
+const v4 = [0.7292233780313162,-1.3148568132551937,3.0,-1e-15,-820.7660830665915];
+const v9 = new Date();
+function f10(a11, a12) {
+    const o20 = {
+        ...a11,
+        valueOf(a14, a15, a16) {
+            v9.a = a16;
+            Reflect.construct(a12, [a12,Reflect,this,"fjN",v4], Map);
+            return a11;
+        },
+        __proto__: a11,
+        ...a12,
+        "e": a12,
+    };
+    return o20;
+}
+const v21 = f10("string", v9);
+const v23 = f10("preventExtensions", f10("preventExtensions", "string"));
+f10("fjN", v2);
+%PrepareFunctionForOptimization(f10);
+f10("fjN", v2);
+f10("fjN", v2);
+%OptimizeFunctionOnNextCall(f10);
+f10("fjN", v2);
+v23.e += f10;
+Object.defineProperty(v21, 6, { get: f10, set: f10 });
+new BigInt64Array(1);
+new Uint16Array(6);
+new Uint32Array(512);

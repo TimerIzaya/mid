@@ -1,0 +1,50 @@
+function f0() {
+    const o4 = {
+        "g": -19324,
+        9: -43717,
+        "d": "setUint8",
+        "b": "setUint8",
+        "e": -19324,
+        "a": -19324,
+        "f": "setUint8",
+        "c": "setUint8",
+        "h": -43717,
+        __proto__: "setUint8",
+        ["setUint8"]: -43717,
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+const v9 = new WeakSet();
+class C10 {
+    8 = f0;
+    2;
+    constructor(a12, a13, a14) {
+        v5[1449] = v9;
+        super.a = v7;
+    }
+    static #b;
+    static [f0] = v7;
+    static #g;
+    static [v6];
+    static #d;
+}
+const v15 = new C10(v6, v6, v6);
+const v16 = new C10(v15, v7, v7);
+const v17 = new C10(v7, v16, v16);
+new Set();
+new Set(v17);
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeFunctionOnNextCall(f0);
+f0();
+try {
+    const o25 = {
+    };
+    new Set(o25);
+} catch(e27) {
+}

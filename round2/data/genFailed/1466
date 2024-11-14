@@ -1,0 +1,40 @@
+let v1 = "536870889";
+class C3 {
+    [-2];
+    constructor(a5, a6) {
+        a6 = 127;
+    }
+    6 = "c";
+    static 2991;
+    #b;
+}
+const v10 = new C3("c", 127);
+let v11 = new C3(C3, "c");
+const v12 = new C3(C3, v11);
+function f13(a14, a15, a16, a17) {
+    const o28 = {
+        "g": v12,
+        "b": a15,
+        get d() {
+            new Uint32Array(128);
+            new Int8Array(6);
+            const v27 = new BigInt64Array(4);
+            return v27;
+        },
+    };
+    return o28;
+}
+const v29 = f13(v10, "c", C3, v10);
+const v30 = f13(f13, v29, v11, v29);
+const v31 = f13(f13, v30, C3, C3);
+Object.defineProperty(v1, 225, { get: f13 });
+v10.c = v1;
+v31[f13];
+v11 = v1;
+for (const v33 of v1) {
+    v1 = v12;
+    Object.defineProperty(v30, "g", { configurable: true, get: f13, set: f13 });
+    function f35() {
+        return "c";
+    }
+}

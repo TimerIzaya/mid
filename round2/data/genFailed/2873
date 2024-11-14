@@ -1,0 +1,18 @@
+new Float64Array(255);
+const v5 = new Float32Array(2);
+const v8 = new Uint8Array(16);
+let v12;
+try { v12 = v5.findIndex(9007199254740992n, v8); } catch (e) {}
+const v14 = 586789483n <= v5 ? 586789483n : v5;
+try {
+    v5.every(v12);
+} catch(e16) {
+}
+v8.__proto__ = v8;
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a21;
+}
+new F17(v12, 2, 10000n, 9007199254740992n);
+new F17(586789483n, 16, 10000n, 10000n);
+new F17(v14, 2, 10000n, 9007199254740992n);

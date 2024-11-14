@@ -1,0 +1,97 @@
+const v1 = new Date();
+function f2(a3) {
+    const o10 = {
+        __proto__: a3,
+        "a": v1,
+        [Date]: a3,
+        ...a3,
+        [a3]: a3,
+        [v1]: v1,
+        "h": Date,
+        "g": v1,
+        [v1](a5) {
+            try {
+                const o7 = {
+                };
+                this.valueOf(a5, undefined, o7, a3);
+            } catch(e9) {
+            }
+            return Date;
+        },
+    };
+    return o10;
+}
+const v11 = f2(v1);
+const v12 = f2(v11);
+f2(v12);
+const v14 = [f2,v12];
+const v15 = [v12,v14,f2,f2,v14];
+const v16 = [v15,Date,v15];
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a22;
+    this.e = v14;
+}
+const v23 = new F17(v1, v16, v14, v16);
+const v24 = new F17(v12, v11, v14, v16);
+new F17(v11, v14, v16, v15);
+class C26 {
+    [Date];
+    static {
+        const v28 = delete this?.c;
+        let v29;
+        try { v29 = v28(v14); } catch (e) {}
+        v12.toString = v29;
+        try {
+            super.n(v14);
+        } catch(e34) {
+        }
+    }
+    static #g;
+    #f = v16;
+}
+new C26();
+new C26();
+const v37 = new C26();
+let v39;
+try { v39 = v23["p"](C26, v37); } catch (e) {}
+try {
+    v39.__proto__;
+    new BigUint64Array(12);
+    new Uint16Array(255);
+    new Float32Array(256);
+} catch(e50) {
+    try {
+        Date();
+    } catch(e52) {
+    }
+} finally {
+    const v53 = [v12,v15,v24,Date,v11];
+    [[v53,v53,v53,v53]];
+}
+const v0 = /[[\11]?]/i;
+const v1 = /02(?<!)/igmu;
+/(?:a?)+/sigmy;
+try {
+    new Uint32Array(10);
+} catch(e9) {
+}
+let v10 = 1000;
+try {
+    new Int8Array(v10);
+} catch(e13) {
+}
+try {
+    new Int32Array(10);
+} catch(e17) {
+}
+try {
+    v0.f = v0;
+} catch(e21) {
+}
+v1[37] &= v10;
+Uint32Array & -1n;
+try {
+    v10 = 10;
+} catch(e23) {
+}

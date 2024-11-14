@@ -1,0 +1,52 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    #p(a4, a5) {
+        function F6(a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.b = a8;
+            this.c = a5;
+            this.a = this;
+        }
+        new F6(a5);
+        new F6(F6);
+        new F6(a4);
+        return WeakMap;
+    }
+    static c;
+    140 = v1;
+    static #a;
+}
+new C2();
+const v13 = new C2();
+const v14 = new C2();
+new WeakMap();
+function f20() {
+    return v13;
+}
+const v22 = new WeakSet();
+v22 >> WeakMap;
+for (const v24 of WeakMap) {
+    const v25 = delete v24?.d;
+    try { v25.toISOString(v24, v14); } catch (e) {}
+    continue;
+    v22[3];
+}
+delete v1?.d;
+const v30 = Symbol.iterator;
+const o39 = {
+    [v30]() {
+        let v32 = 10;
+        const o38 = {
+            next() {
+                v32--;
+                const v36 = v32 == 0;
+                const o37 = {
+                    "done": v36,
+                    "value": v32,
+                };
+                return o37;
+            },
+        };
+        return o38;
+    },
+};

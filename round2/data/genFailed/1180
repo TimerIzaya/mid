@@ -1,0 +1,44 @@
+function f0() {
+}
+/[CI[\cz]]/gmisdu;
+/habc/gmsv;
+/m*/u;
+new Float32Array(4);
+new Int8Array(2465);
+new Float64Array(7);
+%VerifyType(0.7641563062841059);
+new Float64Array(5.0, 4, 7, Float64Array, NaN, 7);
+Float32Array >= f0;
+new Uint8ClampedArray(2001);
+new Int32Array(1);
+new Int32Array(220);
+const v3 = [64764,-536870912,982122927,25136];
+[-9007199254740992,1524939096,-128,1074888607,-706921228,9007199254740990,37729,31998];
+const v5 = [1024,-50876,-65535,4294967295,-14956,268435441,-14,268435456,10];
+class C6 {
+    static #n(a8, a9, a10, a11) {
+        %VerifyType(a10);
+        try { new a11("valueOf", a9, a10, a11, v5); } catch (e) {}
+        for (let v13 = 0; v13 < 32; v13++) {
+            a10["p" + v13] = v13;
+        }
+        return this;
+    }
+    #c = v3;
+    #e = v5;
+}
+let v16 = new C6();
+new C6();
+new C6();
+const v24 = [];
+Reflect.construct(C6, v24, C6);
+with (v24) {
+    length = "g";
+    Math.cosh(45163);
+    5.870713777128299e+307 % 45163;
+    Math.random();
+    !v16;
+    const v34 = -(-536870912n);
+    ++v16;
+    Math.fround(v34);
+}

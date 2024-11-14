@@ -1,0 +1,76 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+const v4 = new BigInt64Array(8);
+const v7 = new Int16Array(16);
+const v10 = new Uint8Array(2);
+class C11 extends Uint8Array {
+    p(a13, a14) {
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeMaglevOnNextCall(f0);
+        f0();
+        return 8;
+    }
+    static 536870912;
+    #a;
+    2147483647;
+    [f0];
+}
+const v19 = new C11();
+const v20 = new C11();
+const v21 = new C11();
+with (v21) {
+    byteOffset = v7;
+    const v22 = v4.buffer;
+    v22[6] = v22;
+    function F23(a25, a26, a27, a28) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.f = a27;
+    }
+    new F23(v22, v21, v20, F23);
+    new F23(v4, v21, v19, F23);
+    new F23(f1, v10, v10, C11);
+}
+let v2 = -2.0;
+try {
+    new Uint8Array(231);
+} catch(e6) {
+}
+try {
+    new Int32Array(2);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(1066);
+} catch(e14) {
+}
+try {
+    new BigUint64Array(0);
+} catch(e21) {
+}
+try {
+    new BigInt64Array(13);
+} catch(e25) {
+}
+try {
+    new BigInt64Array(127);
+} catch(e29) {
+}
+function f30() {
+    return Int32Array;
+}
+let v31;
+try { v31 = (-1000000.0).setUTCFullYear(); } catch (e) {}
+v31[6] %= v31;
+Math.pow(-9, -2);
+const v37 = v2++;
+-2 || -9;
+Math.clz32(-9);
+Math.sinh(v37);
+-9 || -2147483647;
+v2 && -2147483647;

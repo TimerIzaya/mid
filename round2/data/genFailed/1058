@@ -1,0 +1,39 @@
+new Float64Array(3348);
+const v11 = new BigInt64Array(1002);
+new BigUint64Array(257);
+const o17 = {
+    "maxByteLength": 766,
+};
+const v19 = new SharedArrayBuffer(766, o17);
+new BigUint64Array(v19);
+v11.byteLength;
+try {
+    new Int32Array(3500);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(3346);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(6);
+} catch(e14) {
+}
+const v16 = new Date();
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a20;
+    } catch(e22) {
+    }
+}
+const v23 = new F17(3346, 10n, -9223372036854775807n);
+new F17(3346, -10n, -9223372036854775807n);
+new F17(3500, 10n, -10n);
+if (v16) {
+    v23.__proto__;
+} else {
+    try { Date.UTC(6, 3346); } catch (e) {}
+}
+6 % 10n;
+-(6 >> 127);

@@ -1,0 +1,87 @@
+const v0 = [7,-10,-1985985555,40314,175833791,-1322222617];
+const v1 = [-1000568806,44741,4294967295,-2147483649];
+const v2 = [5,7,-42958,-33345];
+function f3(a4, a5) {
+    const o9 = {
+        147240077: v2,
+        "e": v1,
+        0: a4,
+        "f": v0,
+        "c": v0,
+        [v1]: v1,
+        [a4](a7) {
+            try { new v0(this, this, a5, a5); } catch (e) {}
+            return a4;
+        },
+        "b": v2,
+        "d": a5,
+        ...v1,
+        [v2]: v2,
+        ...a5,
+    };
+    return o9;
+}
+const v10 = f3(v0, v0);
+const v11 = f3(v0, v1);
+const v12 = f3(v2, v1);
+class C13 extends f3 {
+    constructor(a15, a16, a17) {
+        super(a15, v0);
+        delete a16?.c;
+        delete a16?.f;
+        let {"d":v20,"e":v21,...v22} = this;
+        try {
+            this.padStart(9223372036854775807n, v12, true, v11);
+        } catch(e26) {
+        }
+    }
+    static [v1] = v10;
+    [v0];
+    static #a = v10;
+}
+new C13(v1, v12, v0);
+const v28 = new C13(v2, v12, v11);
+new C13(v2, v28, v11);
+const v38 = v28[Symbol.match];
+Object.defineProperty(v0, "hasInstance", { writable: true, enumerable: true, value: v38.__proto__ });
+const v40 = 10000n || "symbol";
+v40[C13] = v40;
+Object.defineProperty("symbol", v2, { writable: true, configurable: true, value: v1 });
+[] = v1;
+v0.length **= v38;
+class C3 {
+    #f = "undefined";
+    #p(a5, a6) {
+        return "undefined";
+    }
+    static #a = "Viu";
+    ["24499"];
+    get g() {
+        const t8 = "24499";
+        t8[3] %= "24499" == this ? "24499" : this;
+        return this;
+    }
+}
+const v13 = new C3();
+new C3();
+const v15 = new C3();
+class C16 {
+    [v15];
+    constructor(a18, a19) {
+        v15.g -= this;
+        new Date();
+        Math.exp(1313);
+        Math.log2(1313 % 2.2250738585072014e-308);
+        Math.log(-7);
+        Math.imul(-7, 2.2250738585072014e-308);
+    }
+}
+const v31 = new C16("24499", "24499");
+const v32 = new C16("undefined", "undefined");
+const v33 = new C16("24499", v31);
+[["undefined",[-18547,v33,v15]],"24499",v32];
+++C3;
+Math.clz32(-10709);
+-10709 % C3;
+Object.defineProperty(v15, v13, { writable: true, configurable: true, value: v31 });
+("undefined")[Symbol.iterator];

@@ -1,0 +1,19 @@
+function f0() {
+}
+function f4() {
+    return -2n;
+}
+new Set();
+new Uint8ClampedArray(3159);
+new Float32Array(6);
+const v15 = new Uint16Array(512);
+for (const v16 in v15) {
+    for (let v17 = 0; v17 < 100; v17++) {
+        f4();
+    }
+}
+const o21 = {
+    "maxByteLength": 2147483648,
+};
+const v23 = new ArrayBuffer(5, o21);
+new Float32Array(v23);

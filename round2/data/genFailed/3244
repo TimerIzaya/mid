@@ -1,0 +1,57 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 17462;
+    this.e = 17462;
+    this.c = 17462;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function f9() {
+    return 1n;
+}
+function f10(a11, a12, a13, a14) {
+    const o20 = {
+        "a": a14,
+        set b(a16) {
+            a16 = F0;
+            f9(F0, v3, f9, a13, -9223372036854775807n);
+            try {
+                f9();
+            } catch(e19) {
+            }
+        },
+        "f": a14,
+        8: a14,
+        ...v4,
+    };
+    return o20;
+}
+f10(v4, 1n, 1n, 3n);
+const v22 = f10(v4, -9223372036854775807n, -9223372036854775807n, 1n);
+f10(v5, 1n, -9223372036854775807n, 3n);
+if (f10 > F0) {
+    v22.f -= F0;
+    v4.a &= f10;
+    Reflect.construct(f9, [], f9);
+} else {
+    Object.defineProperty(v5, "c", { writable: true, configurable: true, get: f9, set: f9 });
+    const v29 = Symbol.iterator;
+    const o38 = {
+        [v29]() {
+            let v31 = 10;
+            const o37 = {
+                next() {
+                    v31--;
+                    const v35 = v31 == 0;
+                    const o36 = {
+                        "done": v35,
+                        "value": v31,
+                    };
+                    return o36;
+                },
+            };
+            return o37;
+        },
+    };
+}

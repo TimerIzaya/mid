@@ -1,0 +1,16 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = "AQ2";
+}
+const v7 = new F3("nMbx", "AQ2");
+const v8 = new F3(v7, "nMbx");
+const v9 = new F3("e", "e");
+const v10 = [F3,v8];
+const v12 = [[v9,v10,v10],"e",v7];
+try { v12.entries(); } catch (e) {}
+const o17 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o17);
+v10 in "e";

@@ -1,0 +1,67 @@
+function f0() {
+}
+const v2 = new Map();
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a6;
+    this.h = a6;
+}
+const v7 = new F3(f0, f0);
+const v8 = new F3(v7, v2);
+new F3(v8, v8);
+try { v7["keyFor"](1e-15, v7); } catch (e) {}
+function f15(a16, a17) {
+    'use strict';
+    let v18 = d;
+    v18 = -3.0;
+    return a16;
+}
+f15(1e-15, -8.867002145712142);
+try {
+    new Int32Array(6);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(64);
+} catch(e7) {
+}
+try {
+    new Uint32Array(2198);
+} catch(e11) {
+}
+const v12 = [4.065199125485968e+307,-2.0,-1e-15,0.04060605670640827,0.8349628080472199,-934509.180327912];
+const v13 = [4.677737490636049e+307,70749.55297398055,1.0,9.828268844253525,1.3446423267262766,0.5684680916497521];
+const v14 = [-1.7976931348623157e+308,-302.97966641196354,-285883.5604382906,-3.0,-2.220446049250313e-16,488.94958524918775,1000.0,0.48677223160050764,-1.2729512290761156e+308];
+const v15 = [v14,Uint32Array,v14,2198];
+const v16 = [v14,6,2198,v15];
+const v17 = [Uint8ClampedArray,v13,v16,v12];
+class C18 extends Uint32Array {
+    static 9 = Int32Array;
+    [64];
+    constructor(a20, a21, a22) {
+        super(v17, 64, a22);
+        const v23 = [a20];
+        [v23,64,a22,v23];
+        [v23,a20,64,a20];
+        new Uint32Array(a20, a22, a22);
+        super.fill(a22, 64, 2198);
+    }
+    static 7;
+    #e;
+    268435441 = 2198;
+    static 3108006747;
+    static #d = Uint8ClampedArray;
+}
+new C18(v15, 2198, 6);
+const v29 = new C18(v15, 6, 6);
+const v30 = new C18(v16, 6, 2198);
+%VerifyType(v30);
+for (const v31 of v29) {
+    v31 << Int32Array;
+    v12.__proto__;
+    const o37 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o37);
+}

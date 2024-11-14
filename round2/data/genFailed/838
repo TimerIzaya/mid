@@ -1,0 +1,55 @@
+const v10 = new WeakSet();
+try {
+    new WeakSet("-50526");
+} catch(e12) {
+}
+const t5 = "-9";
+t5.b = ("3")[3];
+%VerifyType(v10);
+const o15 = {
+    "preventExtensions": BigInt,
+};
+new Proxy("3", o15);
+class C3 {
+    static {
+        try {
+            super.setUTCFullYear(this, -689473.1704137388);
+        } catch(e6) {
+        }
+    }
+    ["toString"] = -1000.0;
+    static ["toString"];
+    static 65536;
+    3 = -689473.1704137388;
+    11;
+    2482919427;
+}
+const v7 = new C3();
+const v8 = new C3();
+const v9 = new C3();
+class C10 extends C3 {
+    constructor(a12, a13, a14, a15) {
+        super();
+        268435439 % this;
+        [-1.0,810.4968715494417];
+        [1.7976931348623157e+308,0.782885647645502];
+        [2.2250738585072014e-308,0.8970793006933052,-159.05032874312735,0.12466357928045602,-8.868015408220745e+307,1.0,-420790.9383187598,197771.80180760892,1000000000.0,-1.7547462134578817e+308];
+    }
+    g = -1000.0;
+    [v8];
+}
+const v23 = new C10(v8, v7, "toString", v7);
+const v24 = new C10(C10, v7, v7, C10);
+const v25 = new C10("toString", v23, "toString", "toString");
+const v27 = new WeakSet();
+function f28(a29, a30) {
+    const o31 = {
+        "e": C3,
+        [v27]: WeakSet,
+        [WeakSet]: C3,
+    };
+    return o31;
+}
+f28(v24, C10);
+f28(v25, v9);
+f28(v24, v24);

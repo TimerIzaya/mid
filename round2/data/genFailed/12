@@ -1,0 +1,56 @@
+const v1 = [,,];
+const v2 = [v1,v1,v1];
+const v3 = [v1,v2];
+class C4 {
+    f = v3;
+    g = undefined;
+    constructor(a6) {
+        try { new a6(this, v3); } catch (e) {}
+        this.g;
+    }
+    #b = v2;
+}
+new C4(v1);
+new C4(v2);
+const v14 = new C4(v2);
+function f15() {
+    return v14;
+}
+new Uint32Array(13);
+new BigUint64Array(8);
+const v24 = new Uint16Array(1247);
+const v25 = v24.constructor;
+class C26 extends v25 {
+    [13];
+    e;
+    static #h;
+}
+const v27 = new C26();
+const v29 = [f15,v25];
+Reflect.apply(v27.every, C4, v29);
+try {
+    new BigInt64Array(5);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(8);
+} catch(e7) {
+}
+try {
+    new Int16Array(8);
+} catch(e11) {
+}
+try {
+    const t13 = "MIN_VALUE";
+    t13[1053694884] = 1000000.0;
+} catch(e18) {
+}
+function f19() {
+    return 8;
+}
+const v20 = new BigUint64Array(8, BigUint64Array, ..."10", Int16Array, 5, BigUint64Array);
+Object.defineProperty("MIN_VALUE", 536870889, { writable: true, value: 8 });
+try {
+    v20.toString = f19;
+} catch(e21) {
+}

@@ -1,0 +1,46 @@
+let v1 = -2.220446049250313e-16;
+let v2 = "Z";
+class C3 {
+    constructor(a5) {
+        Reflect.construct(a5, [this,Reflect,v1,-317892.26969149325], a5);
+    }
+    set g(a10) {
+        this.a = a10;
+        [v2,v1,a10] = a10;
+        ({"a":v2,"b":v2,...a10} = this);
+        try { new v2(a10, v1); } catch (e) {}
+    }
+    f;
+    static #d = v1;
+}
+const v12 = new C3(-317892.26969149325);
+const v13 = new C3(-317892.26969149325);
+const v14 = new C3(v13);
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a18;
+    this.g = C3;
+    this.a = -317892.26969149325;
+}
+new F15(v13, v14, C3, v2);
+const v22 = new F15(v14, v13, v12, v14);
+new F15(v14, v13, v22, v14);
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a27;
+    this.e = C3;
+    this.g = F15;
+}
+const v28 = new F24(v2, v22);
+new F24(v14, v2);
+const v30 = new F24(v12, C3);
+class C31 extends C3 {
+    f;
+    [F24];
+    [v28];
+    #a = v22;
+}
+new C31();
+new C31();
+new C31();
+v30[9];

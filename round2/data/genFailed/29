@@ -1,0 +1,98 @@
+const v0 = [-1000000.0,-1.0,NaN,-1.1900531899958754e+308];
+const v1 = [-0.0];
+const v2 = [0.2640605962189646,-9.844636613773446,-2.220446049250313e-16,-3.0136869958334938,-7.049751073901058];
+const v3 = [v2];
+const v4 = [v3,v2,v0,v2,v3];
+const v5 = [v1];
+function f6(a7, a8, a9, a10) {
+    const o19 = {
+        "f": a10,
+        get e() {
+            return "number";
+        },
+        "a": v1,
+        "b": a10,
+        get g() {
+            const v16 = a9[v5];
+            a9.length = v16;
+            a7 = v5;
+            super.c ^= v16;
+            super[v2] = a9;
+            try {
+                super.valueOf();
+            } catch(e18) {
+            }
+            return v4;
+        },
+    };
+    return o19;
+}
+const v20 = f6(v4, v3, v5, v3);
+const v22 = f6(f6(v2, v2, v0, v4), v2, v0, v4);
+const v24 = new Map();
+function f25(a26, a27, a28, a29) {
+    const o34 = {
+        9: v20,
+        [v1]: a27,
+        ...v3,
+        get d() {
+            this[1344744038] >>>= a28 - v1;
+            try {
+                f6(Map, a29, v0, v3);
+            } catch(e33) {
+            }
+            return v20;
+        },
+        ...v22,
+        ...v5,
+        "h": a29,
+    };
+    return o34;
+}
+f25(v0, v3, v1, v5);
+const v36 = f25(v0, v1, v0, v5);
+f25(v3, v1, v1, v0);
+const v39 = v1["copyWithin"]("copyWithin", v1);
+new f6(v22, v39, v1, v39);
+try { v3.push(v36, v24); } catch (e) {}
+typeof Map === "string";
+v20[100] = v5;
+function f0() {
+    const o13 = {
+        "h": -2147483649,
+        142: -2147483649,
+        "e": -4294967295,
+        __proto__: -4294967295,
+        set c(a5) {
+            async function f6(a7) {
+                return await a7;
+            }
+            f6(a5);
+        },
+    };
+    return o13;
+}
+f0();
+f0();
+const v16 = f0();
+try {
+    new Float32Array(1783);
+} catch(e20) {
+}
+try {
+    new Int16Array(2714);
+} catch(e24) {
+}
+try {
+    new Uint32Array(14);
+} catch(e28) {
+}
+try {
+    v16.fuck(Int16Array, /a[^a]*/sdgmyv);
+} catch(e31) {
+}
+[f0,v16,Float32Array,1783];
+[Float32Array,1783,Int16Array,1783,Uint32Array];
+[Float32Array];
+const v35 = new Uint32Array(v16, 1783, 14);
+Object.defineProperty(v35, 14, { enumerable: true, get: f0, set: f0 });

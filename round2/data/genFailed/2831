@@ -1,0 +1,13 @@
+const v1 = new WeakMap();
+new Int32Array(500);
+const v7 = new BigUint64Array(1024);
+const v10 = new Uint32Array(8);
+new WeakSet();
+let v13 = 0;
+do {
+    %VerifyType(f);
+    v7.toString = f;
+    const t9 = v1.__proto__;
+    t9.__proto__ = v10;
+    v13++;
+} while (v13 < 3)

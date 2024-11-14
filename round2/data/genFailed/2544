@@ -1,0 +1,49 @@
+function f0() {
+    const o5 = {
+        get f() {
+            %VerifyType(this);
+            this[-1e-15] = this;
+            return -1e-15;
+        },
+        "b": -1e-15,
+        4: 2147483647,
+        "a": -1e-15,
+        [1000.0]: 2147483647,
+        "c": 2147483647,
+        "d": 1000.0,
+        "e": 2147483647,
+    };
+    return o5;
+}
+const v6 = f0();
+const v7 = f0();
+const v8 = f0();
+function f9(a10) {
+    const o20 = {
+        [-2]: a10,
+        ...v8,
+        get d() {
+            function F12(a14, a15, a16) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.d = a10;
+                this.a = a15;
+            }
+            const v17 = new F12(v7, this, a10);
+            new F12(v7, v17, v8);
+            const v19 = new F12(v6, v6, v8);
+            return v19;
+        },
+    };
+    return o20;
+}
+f9(f9(v7));
+f9(v7);
+const v24 = /6Z(?<=)?/mysdu;
+const v25 = /a+[\ca]/msdu;
+const v26 = /q(ab)/gsu;
+v6[7] = v25;
+v24.length = 1;
+const o31 = {
+    ...v26,
+};
+f9(v6);

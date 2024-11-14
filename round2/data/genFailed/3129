@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = -9007199254740991;
+    this.a = -9007199254740991;
+    this.b = -9007199254740991;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v3;
+}
+new F6(v5);
+let v10 = new F6(v5);
+const v11 = new F6(v4);
+const v12 = /a*b/ys;
+const v13 = /6(x)(x)(x)\3/gidu;
+const v14 = /T/my;
+const v17 = new Uint8ClampedArray(2009);
+const v20 = new Uint16Array(129);
+new Uint32Array(2117);
+v10 >>>= v11;
+v14[2117] |= 2009;
+v20.__proto__ = v3;
+v12.exec(v13, ...v17, v14, Uint16Array, ...v20);
+new Int8Array(11);
+new BigInt64Array(13);
+new BigInt64Array(4096);

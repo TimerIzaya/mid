@@ -1,0 +1,34 @@
+const v1 = new WeakSet();
+function f2(a3, a4) {
+    const o12 = {
+        "a": a3,
+        [a3](a6) {
+            const v8 = super[v1[a4]];
+            for (let v9 = 0; v9 < 32; v9++) {
+                v8["p" + v9] = v9;
+            }
+            return a3;
+        },
+        10: a4,
+        "b": a3,
+        __proto__: a3,
+    };
+    return o12;
+}
+const v14 = f2(f2(WeakSet, v1), v1);
+const v15 = f2(v14, v14);
+function f16() {
+    return v15;
+}
+const v19 = new Int8Array(13);
+new Float64Array(2);
+const v25 = new Int8Array(255);
+v25["find"](f16, v1);
+try {
+    f16();
+} catch(e29) {
+}
+const v30 = [f16,WeakSet,Int8Array];
+[v30];
+[Int8Array,v19];
+try { v19.find(f2, v30); } catch (e) {}

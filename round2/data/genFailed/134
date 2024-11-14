@@ -1,0 +1,83 @@
+new Uint8Array(154);
+new Int32Array(1812);
+new Float64Array(512);
+const v12 = new Uint8Array(154);
+for (let [v13,...v14] of v12) {
+    try { v14(v13, v13); } catch (e) {}
+    function f16() {
+        return 65536;
+    }
+}
+const v18 = Symbol.iterator;
+const o27 = {
+    [v18]() {
+        let v20 = 10;
+        const o26 = {
+            next() {
+                v20--;
+                const v24 = v20 == 0;
+                const o25 = {
+                    "done": v24,
+                    "value": v20,
+                };
+                return o25;
+            },
+        };
+        return o26;
+    },
+};
+const v0 = [];
+function f1() {
+    return v0;
+}
+const v3 = new WeakSet();
+class C4 extends WeakSet {
+    static toString(a6, a7) {
+        Object.defineProperty(v0, 257, { writable: true, enumerable: true, value: WeakSet });
+        %VerifyType(a7);
+        return a6;
+    }
+    static m(a9) {
+        try { this.toString(this, v3, Worker); } catch (e) {}
+        super.delete(f1);
+        /./iy;
+        /O[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]a{1,2}?/duy;
+        return /U(?=)(?!(a))\1n\u0060/myv;
+    }
+}
+new C4();
+const v17 = new C4();
+new C4();
+const v20 = new WeakMap();
+class C21 extends WeakSet {
+    toString(a23, a24, a25) {
+        function F26(a28, a29, a30) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a23;
+            } catch(e31) {
+            }
+            try {
+                this.e = a23;
+            } catch(e32) {
+            }
+        }
+        const v33 = new F26(this, a24, a23);
+        const v34 = new F26(v33, v20, a23);
+        const v35 = new F26(v34, a25, v17);
+        return v35;
+    }
+}
+new C21();
+new C21();
+const v38 = new C21();
+let v39 = v38[v38];
+try {
+    v39 = v38;
+} catch(e40) {
+}
+try {
+    new f1();
+} catch(e42) {
+}
+let [v43,v44] = v0;

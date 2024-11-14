@@ -1,0 +1,81 @@
+class C3 {
+    static {
+        let v5 = g;
+        v5 %= 2.2250738585072014e-308;
+    }
+    static [576570.1018568829] = -3.0;
+    constructor(a7, a8) {
+        const v9 = super.c;
+        v9.g = v9;
+        (-3.0) ** v9;
+        Object.defineProperty(this, "c", { writable: true, configurable: true, enumerable: true, value: 576570.1018568829 });
+    }
+}
+const v11 = new C3(576570.1018568829, 2.2250738585072014e-308);
+new C3(2.2250738585072014e-308, 576570.1018568829);
+new C3(576570.1018568829, 576570.1018568829);
+function f14() {
+    return C3;
+}
+Object.defineProperty(v11, 227, { configurable: true, set: f14 });
+const o25 = {
+    valueOf() {
+        +this.d;
+        v11.c;
+        return "string";
+    },
+};
+try {
+    new Int32Array(9);
+} catch(e3) {
+}
+try {
+    new Int8Array(3075);
+} catch(e7) {
+}
+try {
+    new Float64Array(3388);
+} catch(e11) {
+}
+try {
+    new Int32Array(256);
+} catch(e15) {
+}
+try {
+    new BigInt64Array(257);
+} catch(e19) {
+}
+try {
+    new Int8Array(5);
+} catch(e23) {
+}
+function f24(a25, a26, a27, a28) {
+    const o33 = {
+        [a26]: 3388,
+        [a25]: 256,
+        "c": 3388,
+        __proto__: a25,
+        get a() {
+            return -2.0;
+        },
+        "b": 256,
+        "a": a28,
+        13: 3388,
+        "d": a28,
+        "f": a26,
+    };
+    return o33;
+}
+const v34 = f24(BigInt64Array, 3388, 9, Int8Array);
+const v35 = f24(f24, 257, 9, v34);
+const v36 = f24(v34, 5, 3388, 5);
+try {
+    v35[6] = v36;
+} catch(e37) {
+}
+new Int8Array(v35);
+const o42 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o42);

@@ -1,0 +1,83 @@
+new WeakSet();
+let v2 = 257;
+const v4 = new Uint8Array(v2);
+const v7 = new BigUint64Array(6);
+const v10 = new Int8Array(512);
+function f11(a12, a13) {
+    const o21 = {
+        ...v10,
+        p(a15, a16, a17, a18) {
+            const o19 = {
+                "e": a17,
+                2: a15,
+            };
+            try { a15.o(a12, o19, v7, o19); } catch (e) {}
+            return 6;
+        },
+        __proto__: v4,
+        ...v7,
+        ...v10,
+        [BigUint64Array]: Int8Array,
+        "e": WeakSet,
+    };
+    return o21;
+}
+f11(v2, 512);
+const v23 = f11(6, v2);
+const v24 = f11(6, v2);
+Object.defineProperty(v23, v24, { get: f11, set: f11 });
+(v2 = 512) % v2;
+v4 & v24;
+v23.e;
+const o28 = {
+    "call": f11,
+    "defineProperty": f11,
+    "deleteProperty": f11,
+    "get": f11,
+    "isExtensible": f11,
+    "preventExtensions": f11,
+    "set": f11,
+    "setPrototypeOf": f11,
+};
+new Proxy(v7, o28);
+try {
+    new Int32Array(4);
+} catch(e3) {
+}
+try {
+    new Int16Array(12);
+} catch(e7) {
+}
+try {
+    new Int32Array(4096);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    [4096] = 4096;
+    constructor(a14, a15, a16, a17) {
+        super(12, 4096, a14);
+        Int16Array[4] = Int16Array;
+        try {
+            a17 += a17;
+        } catch(e18) {
+        }
+    }
+    194;
+    #g = 12;
+}
+new C12(4, 4, 12, 12);
+new C12(12, 12, 4, 4096);
+new C12(4096, 12, 4096, 12);
+new Map();
+try {
+    new Float64Array(129);
+} catch(e27) {
+}
+try {
+    new Uint16Array(0);
+} catch(e31) {
+}
+try {
+    new Float64Array(1);
+} catch(e35) {
+}

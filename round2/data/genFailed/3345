@@ -1,0 +1,30 @@
+function f0() {
+    const o11 = {
+        ["aT"](a5) {
+            let v6;
+            try { v6 = a5(this); } catch (e) {}
+            try { ("aT").padEnd(v6, a5); } catch (e) {}
+            for (let v8 = 0; v8 < 32; v8++) {
+                const t7 = "aT";
+                t7["p" + v8] = v8;
+            }
+            return "unscopables";
+        },
+        __proto__: "unscopables",
+        "g": -984356599,
+    };
+    return o11;
+}
+f0();
+f0();
+const v14 = f0();
+new Uint32Array(9);
+new Int32Array(8);
+let v21 = 0;
+const v23 = new Uint16Array(v21);
+v14.g;
+const v25 = v23[Uint32Array];
+for (let v26 = 0; v26 < 32; v26++) {
+    v25["p" + v26] = v26;
+}
+v21 *= 8;

@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 128;
+}
+const v3 = new F0();
+new F0();
+const v5 = new F0();
+const t7 = "Ecshe";
+delete t7?.length;
+function f19(a20, a21, a22) {
+    Object.defineProperty("prototype", "f", { writable: true, value: "536870887" });
+    const o23 = {
+    };
+    new Proxy(v5, o23);
+    return a22;
+}
+f19(2147483648n, 256n, v3);
+[0.42754186008400386,-4.0,-446.6099805121662,1000000000000.0,0.18191346811482678];
+[-1000000000000.0,1.7976931348623157e+308,1.50415600239877e+308,1e-15,-1.6224424292852334e+307,7.463545581475664,-1000000000.0,3.0];
+const v2 = [-1.0,-918.4192328575127,-9.05114290759978,-290.32382283016386,785.8586475859549,-1000000000000.0,1000000.0,1.3050003386824756,-8.253441666913607];
+try {
+    new Int32Array(127);
+} catch(e6) {
+}
+try {
+    new Uint32Array(5);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(9);
+} catch(e14) {
+}
+class C15 extends Int32Array {
+    0;
+    static {
+        this[268435441];
+        const o21 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o21);
+    }
+}
+const v23 = new C15();
+new C15();
+new C15();
+9 ^ 127;
+try {
+    v2.findIndex(9);
+} catch(e28) {
+}
+let v31 = Reflect.construct(C15, [], Uint32Array);
+v23.__proto__;
+v31--;

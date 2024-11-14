@@ -1,0 +1,29 @@
+function f6(a7, a8, a9) {
+    const o15 = {
+        ...a9,
+        "f": "string",
+        n(a11, a12) {
+            const v13 = a11.length;
+            const t5 = super["finally"];
+            t5[-4818] = this;
+            return v13;
+        },
+        __proto__: "string",
+        "a": "finally",
+    };
+    return o15;
+}
+f6(14, 14, "bd");
+f6(14, -4818, "finally");
+f6(2, 2, "finally");
+try { ("finally").substring(14, 2); } catch (e) {}
+const v20 = "bd" ^ "bd";
+Object.defineProperty("finally", v20, { value: v20 });
+class C21 extends f6 {
+    #d;
+    12;
+    static f = "bd";
+}
+new C21();
+new C21();
+new C21();

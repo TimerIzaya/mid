@@ -1,0 +1,71 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 255;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+class C15 extends F0 {
+    static {
+        try {
+            super.m(this, 4294967296, -2147483649, this);
+        } catch(e18) {
+        }
+        try {
+            super.n(this, 2, v3, v5);
+        } catch(e20) {
+        }
+    }
+    set a(a22) {
+        v4[0] = -1347789711n;
+        try {
+            new F0();
+        } catch(e24) {
+        }
+    }
+}
+const v25 = new C15();
+const v26 = new C15();
+const v27 = new C15();
+Object.defineProperty(v25, "b", { enumerable: true, value: v4 });
+const v28 = v27.a;
+let v29;
+try { v29 = v28(v27, v27, v5, v25, v26, ...C15); } catch (e) {}
+v29.e = F0;
+try { new v28(C15, v25); } catch (e) {}
+129 instanceof v29;
+function F32(a34, a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = v25;
+}
+new F32(4294967296, -1347789711n, 1073741824, 4294967296);
+new F32(2, -1325671102n, 4294967296, -2147483649);
+new F32(v29, -1347789711n, 2, 1073741824);
+try {
+    new Float32Array(4096);
+} catch(e6) {
+}
+try {
+    new Int16Array(192);
+} catch(e10) {
+}
+try {
+    new Int32Array(11);
+} catch(e14) {
+}
+const v15 = [-4];
+const v16 = [-1,-30638,4,47353];
+const v19 = ([-2147483647,65537,6,65535,-4096,1073741825])["flatMap"](4096, 6n);
+try { v15.flatMap(v19, v15); } catch (e) {}
+v15[536870912] *= 192;
+const v21 = [4096,Int16Array,v16,v19,Int16Array];
+const v22 = [Float32Array,691440112n,192,691440112n];
+v21 % [6n,v22,6n,4096,v22];
+const o27 = {
+    "maxByteLength": 3791664117,
+};
+const v29 = new SharedArrayBuffer(7, o27);
+try {
+    new Int16Array(v29);
+} catch(e32) {
+}

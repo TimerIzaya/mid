@@ -1,0 +1,62 @@
+class C1 {
+    p() {
+        this[this] = this;
+        return Reflect.construct(this, [this,,], undefined);
+    }
+    static [undefined];
+    static #e = undefined;
+    static valueOf() {
+        let v6 = this;
+        ++v6;
+        const v8 = typeof v6;
+        v8 === "number";
+        return v8;
+    }
+}
+const v11 = new C1();
+const v12 = new C1();
+const v13 = new C1();
+class C17 {
+    n(a19, a20, a21, a22) {
+        const o23 = {
+        };
+        const v25 = new Proxy(a21, o23);
+        return v25;
+    }
+    h = v12;
+    static [3.0];
+    1 = 0.37715950268875;
+    f;
+    static [v12];
+    static h;
+    7 = 3.0;
+}
+const v26 = new C17();
+new C17();
+const v28 = new C17();
+class C29 {
+    10;
+    static #c = v13;
+    [v26] = v11;
+    constructor(a31, a32, a33, a34) {
+        try {
+            a32.#c = this;
+        } catch(e35) {
+        }
+        const v37 = [a34,v26,a32,v13];
+        Reflect.apply(v12.p, v12, v37);
+    }
+    static #g = v12;
+}
+const v40 = new C29(3.0, v13, v12, v12);
+const v41 = new C29(1000.0, v11, C17, v12);
+const v42 = new C29(1000.0, v13, C29, v41);
+C29 !== v11;
+const v44 = v12.c;
+const v45 = 1000.0 >> 1000.0;
+v44 * 1000.0;
+try {
+    v28.n(v11, v40, [,C1,v42,3.0,v12], 0.37715950268875);
+} catch(e49) {
+}
+try { new C17(...v11, v42, C17, v45); } catch (e) {}

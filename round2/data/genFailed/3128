@@ -1,0 +1,49 @@
+const v0 = /(a+)/gmysdu;
+const v1 = /a+?(ab)\1/yisdu;
+const v2 = /Nfoo|(bar|baz)|quux\1111*/mis;
+class C3 {
+    static #b;
+    static o(a5) {
+        try {
+            v2.#b = a5;
+        } catch(e6) {
+        }
+        return v1;
+    }
+    constructor(a8, a9) {
+        try {
+            v2.#b = a8;
+        } catch(e10) {
+        }
+        const o14 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o14);
+    }
+}
+const v16 = new C3(v0, v0);
+const v17 = new C3(v0, v1);
+const v18 = new C3(v17, v1);
+function f19() {
+    return v0;
+}
+class C20 {
+    #p(a22, a23) {
+        try {
+            f19();
+        } catch(e25) {
+        }
+        return "-9223372036854775808";
+    }
+    3 = v1;
+    #e;
+    static [v17] = C3;
+}
+new C20();
+const v30 = new C20();
+const v31 = new C20();
+[v30,-2147483648,v31,v16,v18];
+const v39 = [v16];
+[C20,v16,v0];
+Object.defineProperty(v39, "c", { writable: true, configurable: true, set: f19 });

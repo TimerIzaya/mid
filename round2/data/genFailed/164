@@ -1,0 +1,110 @@
+class C3 {
+    get h() {
+        const t2 = "g";
+        t2[1] >>>= 9007199254740990;
+        this.valueOf = this;
+        return "g";
+    }
+    #c = 268435440;
+    [268435440] = "g";
+    b;
+    static ["g"] = 268435440;
+    static #a;
+    [9007199254740990];
+    g;
+}
+const v5 = new C3();
+new C3();
+const v7 = new C3();
+const v8 = /2K(a\1)/yis;
+const v9 = /(?:foo)/d;
+const v10 = /(?:ab)?/gmyu;
+function f11(a12, a13) {
+    const o18 = {
+        __proto__: C3,
+        get d() {
+            for (let v15 = 0; v15 < 32; v15++) {
+                this["p" + v15] = v15;
+            }
+            return this;
+        },
+        4: C3,
+        "a": "g",
+        15: 268435440,
+    };
+    return o18;
+}
+f11(v5, v10);
+f11(f11, v10);
+f11(v7, v9);
+let v22;
+try { v22 = v7.toDateString(v5); } catch (e) {}
+({"d":v22,"f":v22,} = v22);
+v5[v8];
+v7.valueOf = v22;
+v10["g"] = v7;
+v5 instanceof v22;
+class C7 {
+    constructor(a9, a10) {
+        a10 | a9;
+        for (let v13 = 0; v13 < 32; v13++) {
+            c["p" + v13] = v13;
+        }
+    }
+    n(a17, a18, a19) {
+        try {
+            super.e = -810350.2745642908;
+        } catch(e20) {
+        }
+        try { new a19(a17, a18, 1.1689214502190836e+308, 1474162187, a18); } catch (e) {}
+        let v24 = 4294967297;
+        let v25 = !-9;
+        Math.atan(9);
+        a17 * 9;
+        const v28 = ~v24;
+        const v29 = ++v25;
+        Math.cbrt(v28);
+        --v24;
+        return v29;
+    }
+}
+new C7(C7, -810350.2745642908);
+const v33 = new C7(-384273491, 1.1689214502190836e+308);
+const v34 = new C7(-384273491, -810350.2745642908);
+function f35() {
+    return -810350.2745642908;
+}
+try {
+    new Int32Array(3930);
+} catch(e39) {
+}
+try {
+    new Float32Array(6);
+} catch(e43) {
+}
+try {
+    new Float32Array(257);
+} catch(e47) {
+}
+function f48(a49, a50) {
+    function f52(a53) {
+        f35();
+        %PrepareFunctionForOptimization(f35);
+        f35();
+        f35();
+        %OptimizeFunctionOnNextCall(f35);
+        f35();
+    }
+    this.onmessage = f52;
+    delete v33?.a;
+    try {
+        v34[1073741823] = 6;
+    } catch(e59) {
+    }
+}
+const v62 = ["function",1474162187];
+const o63 = {
+    "arguments": v62,
+    "type": "function",
+};
+new Worker(f48, o63);

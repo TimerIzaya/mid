@@ -1,0 +1,69 @@
+function f0() {
+    const o10 = {
+        "d": 1640858753,
+        "f": "bigint",
+        4096: 1640858753,
+        o(a5, a6) {
+            return a5;
+        },
+        "e": 1640858753,
+        "b": 1640858753,
+        "c": "bigint",
+        "g": 1640858753,
+        "h": "bigint",
+        [1640858753]: 65536,
+    };
+    return o10;
+}
+const v11 = f0();
+f0();
+const v13 = f0();
+new Uint8ClampedArray(0);
+new Float64Array(2863);
+const v22 = new Int32Array(8);
+v11[-2] = v22;
+for (const v26 of v22) {
+}
+const v31 = [v13,18542];
+Reflect.apply(v22.lastIndexOf, v11, v31);
+try {
+    new Float32Array(2);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(3957);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3345);
+} catch(e11) {
+}
+const v13 = new WeakSet();
+function f14(a15, a16, a17) {
+    const o32 = {
+        n(a19, a20) {
+            const v21 = `-4294967296${Uint8ClampedArray}e`;
+            async function* f22(a23, a24, a25, a26) {
+                a15[Symbol.species] = Uint8ClampedArray;
+                await this;
+                try {
+                    yield* v21;
+                } catch(e30) {
+                }
+                return this;
+            }
+            return f22(a19, 3957, a20, 3957);
+        },
+    };
+    return o32;
+}
+let v33 = f14(v13, 3345, 3957);
+f14(BigUint64Array, 3345, 3957);
+const v35 = f14(Uint8ClampedArray, 3345, 3345);
+for (const v36 of v13) {
+    let v41 = ++v33;
+    const v42 = v41++;
+    v33 / v35;
+    -1000.0 ^ v33;
+    -v42;
+}

@@ -1,0 +1,58 @@
+class C3 {
+    constructor(a5) {
+        ({"h":a5,} = a5);
+        a5[this] <<= NaN;
+        const o8 = {
+            "maxByteLength": 10000,
+        };
+        const v10 = new ArrayBuffer(3837, o8);
+        new Uint8Array(v10);
+    }
+    a = NaN;
+    g;
+}
+const v13 = new C3(NaN);
+const v14 = new C3(1000000000000.0);
+const v15 = new C3(C3);
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a18;
+    this.h = a18;
+    this.c = a19;
+}
+const v20 = new F16(v15, v14);
+const v21 = new F16(v14, C3);
+const v22 = new F16(v13, v13);
+function f26(a27, a28, a29, a30) {
+    const o42 = {
+        o(a32, a33) {
+            a29[2];
+            a29.toString = a33[v22];
+            v15[10] = a33;
+            return 1000000000000.0;
+        },
+        "e": v15,
+        "d": a28,
+        "c": v15,
+        get b() {
+            const v39 = Reflect.construct(F16, [Reflect,Reflect], F16);
+            v22[1000000000000.0] = Reflect;
+            try { new v39(17338); } catch (e) {}
+            try { v21.filter(1577212108, v20, C3); } catch (e) {}
+            return 1000000000000.0;
+        },
+    };
+    return o42;
+}
+f26(NaN, 17338, v14, 17338);
+const v44 = f26(6, 17338, v14, v20);
+const v45 = f26(f26, 17338, C3, v22);
+try {
+    v13.toString(f26, false, F16);
+} catch(e48) {
+}
+const v49 = new f26(1000000000000.0, 17338, v13, v45);
+Object.defineProperty(v44, -9007199254740992, { configurable: true, enumerable: true, get: f26, set: f26 });
+C3 !== v49;
+v21.h = f26;
+v49[268435441] = v20;

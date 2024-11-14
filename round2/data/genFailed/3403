@@ -1,0 +1,50 @@
+function f0() {
+    const o15 = {
+        __proto__: "caller",
+        ..."6l1",
+        ..."6l1",
+        toString(a5) {
+            try { ("6l1").trimLeft(); } catch (e) {}
+            Math.log1p("NEGATIVE_INFINITY");
+            "NEGATIVE_INFINITY" >> 9223372036854775807;
+            const v11 = "NEGATIVE_INFINITY" * "NEGATIVE_INFINITY";
+            Math.abs(v11);
+            Math.hypot(v11 + "NEGATIVE_INFINITY");
+            return "6l1";
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+const v17 = f0();
+const v18 = f0();
+function f19(a20) {
+    const o29 = {
+        "d": a20,
+        ...a20,
+        [v16](a22, a23) {
+            const v24 = super[v18];
+            const v26 = [];
+            Reflect.apply(v16.toString, v24, v26);
+            return a20;
+        },
+        __proto__: a20,
+        "a": f0,
+        [a20]: v17,
+    };
+    return o29;
+}
+const v31 = f19(f19(f19));
+f19(v18);
+function f39(a40, a41, a42, a43) {
+    const o44 = {
+        "a": a42,
+        "h": v31,
+        "e": a43,
+        "c": NaN,
+    };
+    return o44;
+}
+f39(v17, -65536, 5.0, -65536);
+f39(f19, -65536, 5.0, 4);
+f39(5.0, -1523796248, 215.82673742206885, -65536);

@@ -1,0 +1,21 @@
+const v2 = new Uint32Array(0);
+const v5 = new Int32Array(1368);
+const v8 = new Float64Array(198);
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a12;
+    this.d = a13;
+}
+const v15 = new F9(F9, 1368, 1368, 198);
+new F9(Float64Array, 1368, 0, 198);
+new F9(Float64Array, 0, 0, 1368);
+let v18;
+try { v18 = v8.set(v15); } catch (e) {}
+const v19 = delete v18?.[Uint32Array];
+v2 | v19;
+function f21() {
+    return v5;
+}
+1368 instanceof v19;
+v5.byteLength = 0;
+new WeakMap();

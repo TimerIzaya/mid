@@ -1,0 +1,82 @@
+class C3 {
+    #toString(a5, a6) {
+        a6[a6] = this;
+        return a5;
+    }
+    constructor(a8) {
+        let v11 = -25567;
+        ({"length":v11,} = "-12193");
+        Object.defineProperty("-12193", this, { writable: true, value: "-12193" });
+    }
+}
+new C3(-732749175);
+let v13 = new C3(-732749175);
+const v14 = new C3("-12193");
+let v15 = 255n;
+let v17 = -53119n;
+[v13,v15,v17] = "-12193";
+const o21 = {
+    __proto__: v14,
+    "e": -732749175,
+    ...v14,
+    "f": -1408242278n,
+};
+class C3 {
+    get g() {
+        for (const v5 of this) {
+            try {
+                super[11] = this;
+            } catch(e6) {
+            }
+        }
+        return 6;
+    }
+    static [439743882] = 439743882;
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+function f16() {
+    return -2147483647;
+}
+function f17(a18, a19) {
+    const o34 = {
+        "f": C3,
+        "g": a19,
+        n(a21, a22, a23) {
+            Object.defineProperty(v10, "a", { writable: true, configurable: true, value: 11 });
+            function F24(a26, a27) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = a21;
+                } catch(e28) {
+                }
+                try {
+                    this.f = a27;
+                } catch(e29) {
+                }
+                try {
+                    this.g = a23;
+                } catch(e30) {
+                }
+            }
+            new F24(a23, v12);
+            const v32 = new F24(v12, a21);
+            new F24(v32, a21);
+            return a22;
+        },
+    };
+    return o34;
+}
+f17(v11, v12);
+f17(f17(v10, f17), f17);
+Object.defineProperty(v12, 439743882, { configurable: true, get: f17 });
+const v38 = C3[1073741824];
+%VerifyType(v38);
+f17(v10, v10);
+%PrepareFunctionForOptimization(f17);
+f17(v10, v10);
+f17(v10, v10);
+%OptimizeMaglevOnNextCall(f17);
+f17(v10, v10);
+Reflect.construct(C3, [], v38);

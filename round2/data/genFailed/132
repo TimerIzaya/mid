@@ -1,0 +1,90 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = 1073741824;
+    this.h = 1073741824;
+}
+const v3 = new F0();
+new F0();
+const v5 = new F0();
+class C6 extends F0 {
+    #g = F0;
+    #b = v5;
+    m(a8, a9) {
+        v5[2] = a9;
+        try { a8(this, a9, v3, a9); } catch (e) {}
+        v5[2];
+        return F0;
+    }
+    static 10 = F0;
+    constructor(a13, a14) {
+        super();
+        let [v15,,v16,v17] = a13;
+        v15?.[9];
+    }
+    e = v3;
+}
+const v19 = new C6(v5, v3);
+const v20 = new C6(v3, v19);
+new C6(v20, v5);
+function f22() {
+    return C6;
+}
+[198.81146256592638,0.7746149322606417,-1.5164373153909534e+308,1.5391450491789168e+306,1000.0,-1.3275615159908454e+308,1e-15];
+[80084.40380155388,2.5720702879416386,800810.2632352423,-1.687694563511338e+308,-4.974986668868018,0.0,0.0];
+[6.374984740381893e+307,8.003646970208358,-1000000.0,1e-15,1.345609040847097e+308,2.2250738585072014e-308,-0.0,1.3388410205112377e+308];
+new BigInt64Array(128);
+new Float64Array(0);
+new Uint16Array(100);
+[1e-15];
+[-0.0,-1000000000.0];
+[432.7148545531777,-7.036130080664551,-0.0,-0.0,-4.0];
+const v0 = /y.td/sgu;
+const v1 = /[[-123]M]/idgy;
+const v2 = /a\Sc/igmuy;
+function f3(a4, a5) {
+    const o9 = {
+        "e": v0,
+        ...a4,
+        ...a4,
+        get d() {
+            let v7 = a5[v0];
+            ({"global":v7,"unicode":a5,} = a5);
+            try {
+                v1.unicode = v7;
+            } catch(e8) {
+            }
+            return v1;
+        },
+    };
+    return o9;
+}
+let v10 = f3(v1, v1);
+const v11 = f3(v1, v0);
+const v12 = f3(v1, v0);
+function f13(a14, a15, a16, a17) {
+    const o22 = {
+        "f": v0,
+        set g(a19) {
+            try { this.n(this, v10, v0); } catch (e) {}
+            d = v12;
+            try {
+                v11[2147483649] = v0;
+            } catch(e21) {
+            }
+        },
+        __proto__: a15,
+    };
+    return o22;
+}
+const v23 = f13(f3, v12, v2, v1);
+const v24 = f13(v1, v10, v0, v2);
+f13(v10, v11, v1, v2);
+let v29 = --v10;
+-1 << v10;
+-v24;
+const v32 = ~v10;
+v29--;
+Math.abs(v32);
+function f35() {
+    return v23;
+}

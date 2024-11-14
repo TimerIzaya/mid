@@ -1,0 +1,33 @@
+const v4 = ["number",["16","function","16","16"],"number","function"];
+const v5 = ["number"];
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = "function";
+    this.d = a10;
+}
+new F6("16", "number", "16");
+let v12 = new F6("16", "function", "number");
+const v13 = new F6("16", "16", "number");
+class C14 {
+    constructor(a16, a17, a18, a19) {
+        const o22 = {
+            "maxByteLength": 536870888,
+        };
+        const v24 = new SharedArrayBuffer(9, o22);
+        new BigUint64Array(v24);
+    }
+}
+new C14("function", "function", v4, v4);
+new C14("16", "number", "function", v5);
+new C14("16", "number", v13, F6);
+v12 %= C14;
+const v30 = F6 >> v13;
+let v36 = -12;
+let v38 = -Infinity;
+Math.atan2(v38, v30);
+Math.exp(v30);
+const v41 = --v36;
+const v42 = v38++;
+-2 * -2;
+v41 && v42;
+Math.acosh(v41);

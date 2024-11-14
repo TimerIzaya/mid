@@ -1,0 +1,15 @@
+function f3() {
+    return "15";
+}
+new Uint8ClampedArray(59);
+new Float64Array(2);
+const v12 = new Float32Array(128);
+try {
+    v12.reduceRight(f3, Float32Array);
+} catch(e14) {
+}
+const o17 = {
+    "maxByteLength": 1420,
+};
+const v19 = new SharedArrayBuffer(141, o17);
+new BigInt64Array(v19);

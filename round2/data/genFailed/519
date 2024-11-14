@@ -1,0 +1,74 @@
+function f0() {
+    const o4 = {
+        "e": -128,
+        [-4096]: -42059,
+        "h": -42059,
+        "d": -4096,
+        "g": -42059,
+        __proto__: -128,
+        "c": -128,
+        "b": -42059,
+        "a": -128,
+        [-128]: -128,
+        ...-128,
+        "f": -4096,
+        [-42059]: -42059,
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+class C14 {
+    static #a = v6;
+    #g;
+    constructor(a16, a17, a18) {
+        return a17;
+        try {
+            this.p(v6, v7, v7, this);
+        } catch(e20) {
+        }
+    }
+    10000 = 5;
+    static #e = -1747111074;
+    [f0];
+    static [f0];
+}
+new C14(268435439, 4, v5);
+new C14(-4294967295, v7, v6);
+new C14(268435439, v5, v7);
+Object.defineProperty(C14, "f", { writable: true, configurable: true, set: f0 });
+const o26 = {
+    "maxByteLength": 16,
+};
+const v28 = new SharedArrayBuffer(16, o26);
+new Float64Array(v28);
+new WeakSet();
+try {
+    new Int16Array(136);
+} catch(e5) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e9) {
+}
+try {
+    new Uint32Array(35);
+} catch(e13) {
+}
+[-1000000000000.0];
+[-5.148670848461662e+307,526240.4138409835,339.4350369774327,-1000000.0,3.0,5.178477399485795,-1000.0,0.7924518916697216];
+[2.2250738585072014e-308,2.0162959460176495,3.5197695700549513e+307,-274343.78868808236,0.3314599984715292];
+function f17() {
+    return Uint32Array;
+}
+function f18(a19) {
+    return a19;
+}
+class C20 extends f18 {
+    static e = f18;
+    static b = f17;
+    #e;
+}
+Object.defineProperty(C20, "b", { get: f18 });
+throw Int16Array;

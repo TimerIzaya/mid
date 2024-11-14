@@ -1,0 +1,43 @@
+function f9() {
+    return 5;
+}
+let v16;
+try { v16 = ("boolean").repeat(-9007199254740991); } catch (e) {}
+let v17;
+try { v17 = v16.subarray(); } catch (e) {}
+v17 in "function";
+("boolean").length;
+("-234139730")[5];
+const t7 = "function";
+t7.length = ("-234139730").length;
+const t12 = "function";
+t12[f9] = NaN;
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = f0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+new F1();
+const v6 = new F1();
+e = "X";
+Object.defineProperty("1785010810", "d", { enumerable: true, get: f0, set: f0 });
+const o13 = {
+    "g": "X",
+};
+new WeakSet();
+v6.c;
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a20;
+    } catch(e21) {
+    }
+}
+const v22 = new F17(v6, WeakSet);
+new F17(v6, v22);
+new F17(v4, v4);

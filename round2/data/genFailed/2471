@@ -1,0 +1,60 @@
+const v1 = new Date();
+const v3 = new WeakMap();
+class C4 {
+    static o(a6) {
+        super[a6];
+        class C8 extends Date {
+            #d = this;
+            [v3] = a6;
+            [-2] = this;
+        }
+        new C8();
+        new C8();
+        new C8();
+        return v1;
+    }
+    d;
+    c = v3;
+    static #f;
+}
+const v12 = new C4();
+const v13 = new C4();
+const v14 = new C4();
+function f18(a19, a20, a21, a22) {
+    const o48 = {
+        "e": -45421,
+        m(a24, a25, a26, a27) {
+            delete this[a27];
+            try {
+                Date(-5.733018715887182e+307);
+            } catch(e31) {
+            }
+            return v14;
+        },
+        get b() {
+            C4 = WeakMap;
+            v1[1];
+            const v34 = (a35, a36, a37, a38) => {
+                this.a = v13;
+                return 13;
+            };
+            new BigUint64Array(129);
+            new Int8Array(3564);
+            new BigInt64Array(16);
+            return C4;
+        },
+    };
+    return o48;
+}
+const v49 = f18(v13, v14, v13, 13);
+const v50 = f18(v14, v13, v14, -56976);
+const t48 = f18(v3, v3, v1, 13);
+t48.e += 13;
+for (let v52 of v12) {
+    v52 |= v52;
+    const v53 = new f18(v14, v13, v1, -56976);
+    v53.valueOf = Date;
+    try { v53.m(-56976, f18, v49); } catch (e) {}
+}
+new WeakMap(v14[v50]);
+v13 << -45421;

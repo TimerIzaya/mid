@@ -1,0 +1,33 @@
+let v3 = "boolean";
+function f6() {
+    return -268435456n;
+}
+function f7(a8, a9, a10) {
+    const o17 = {
+        o(a12, a13, a14) {
+            try {
+                f6();
+            } catch(e16) {
+            }
+            return "bigint";
+        },
+        "f": a8,
+        "e": a8,
+        "a": a9,
+        __proto__: a9,
+    };
+    return o17;
+}
+const v19 = f7(f7(536870889n, "bigint", "bigint"), "bigint", v3);
+f7(-268435456n, "bigint", v3);
+for (const v21 in "bigint") {
+    -268435456n ^ v21;
+    Object.defineProperty(v19, "a", { enumerable: true, value: f6 });
+    break;
+}
+v3 = "bigint";
+Object.defineProperty("bigint", f6, { get: f7 });
+try {
+    new f6();
+} catch(e24) {
+}

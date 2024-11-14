@@ -1,0 +1,77 @@
+class C3 {
+    constructor(a5) {
+        Object.defineProperty(this, -1565172184, { configurable: true, enumerable: true, value: a5 });
+        const t3 = "getUTCDate";
+        t3.valueOf = a5;
+    }
+    #a = -299.40320506500814;
+    ["getUTCDate"];
+    8 = "getUTCDate";
+    p(a7) {
+        let v8;
+        try { v8 = a7.trimRight(-1565172184); } catch (e) {}
+        delete v8?.[-299.40320506500814];
+        return -1565172184;
+    }
+}
+const v10 = new C3("getUTCDate");
+const v11 = new C3(-1565172184);
+const v12 = new C3(v11);
+function f14() {
+    return v10;
+}
+function f15() {
+    return undefined;
+}
+const o19 = {
+    [f14]: v10,
+    __proto__: "MIN_VALUE",
+    "f": "MIN_VALUE",
+    [-1]: v12,
+};
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = undefined;
+    this.c = f15;
+    this.g = o19;
+}
+new F20(F20, -299.40320506500814, v10);
+new F20("36917012", "-4294967297", v11);
+new F20("-4294967297", "-4294967297", v10);
+function f3(a4) {
+    const o5 = {
+        "a": "-12",
+        ["-12"]: a4,
+        "g": "94Hc",
+        "b": "toStringTag",
+        "f": a4,
+        __proto__: a4,
+        ...a4,
+        "d": "-12",
+        "c": "toStringTag",
+        "e": "toStringTag",
+    };
+    return o5;
+}
+const v6 = f3("toStringTag");
+const v7 = f3("toStringTag");
+const v8 = f3("94Hc");
+function f9(a10, a11, a12) {
+    const o20 = {
+        [v7](a14, a15, a16) {
+            const v17 = a15 instanceof a12;
+            return v17 != v17 ? v17 : v17;
+        },
+        "c": a11,
+        "b": v6,
+        "f": v6,
+        "d": f3,
+    };
+    return o20;
+}
+f9(f9(v6, v6, v8), v6, f3);
+f9(v6, v7, f9);
+for (let i25 = 0; i25 < 4; i25++) {
+    ("toStringTag")["94Hc"];
+    throw i25;
+}

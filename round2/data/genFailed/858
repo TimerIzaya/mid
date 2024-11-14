@@ -1,0 +1,71 @@
+class C3 {
+    static #g;
+    static [2147483647n] = 5n;
+    536870887 = 2147483647n;
+    set d(a5) {
+        with (a5) {
+            g[1] = a5;
+        }
+        a5.e ||= a5;
+    }
+    static #h = 5n;
+}
+const v8 = new C3();
+const v9 = new C3();
+const v10 = new C3();
+let v11 = [v9,v10,v10,3n,C3];
+const v12 = [v11];
+const v13 = [v9];
+const v14 = [v13];
+[v12];
+[C3,v8];
+let v17 = 0;
+while (v17 < 4) {
+    C3.__proto__ = v14;
+    v11 = v13;
+    v11[Symbol.search] = v10;
+    v17++;
+}
+try {
+    new Int32Array(128);
+} catch(e3) {
+}
+try {
+    new Int32Array(1024);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(128);
+} catch(e11) {
+}
+const v15 = [-8.6740528770782,-5.0,1e-15,-1.3895016347238055e+308,354786.9554665461];
+const v16 = [-1000.0];
+const v17 = [542.227444467625,-1.3449033542880446,394374.07448800607,-4.0,-Infinity,0.23907797546566056,0.0,-5.228918175906328];
+class C18 extends BigInt64Array {
+    constructor(a20, a21, a22) {
+        super(v16);
+        Reflect.construct(Int32Array, [536870889,128,128], Int32Array);
+    }
+    static 536870887;
+    static get b() {
+        try { this(); } catch (e) {}
+        try {
+            super.f = v15;
+        } catch(e28) {
+        }
+        this[8];
+        const v31 = new WeakMap();
+        return v31;
+    }
+}
+const v32 = new C18(v16, v16, 128);
+new C18(v32, v17, 536870889);
+const v34 = new C18(536870889, v16, 128);
+536870889 + v34;
+let v36 = 0;
+while (v36 < 0) {
+    const v39 = [-9223372036854775807];
+    const t39 = [Int32Array,v34,[v39,v39,v39]];
+    delete t39[v39];
+    v36++;
+}

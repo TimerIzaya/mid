@@ -1,0 +1,102 @@
+const v2 = new Uint16Array(161);
+new Uint8Array(7);
+const v8 = new Int8Array(10);
+class C9 extends Int8Array {
+    n(a11, a12) {
+        function F13(a15, a16, a17) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.c = 10;
+            this.b = a17;
+            this.d = a17;
+        }
+        new F13(a11, 7, a12);
+        new F13(a11, a12, 161);
+        new F13(10, 161, 7);
+        return 10;
+    }
+    #b;
+    static #h = Uint16Array;
+    [Int8Array];
+}
+new C9();
+new C9();
+new C9();
+const v26 = new Int8Array(128);
+new BigInt64Array(3878);
+new Float32Array(3);
+[...v8];
+v8[2147483648] = Int8Array;
+v2["filter"](v2, v26);
+let v36 = 0;
+while (v36 < 3) {
+    try {
+        new Int8Array(3, v36);
+    } catch(e41) {
+    }
+    v36++;
+}
+class C3 {
+    #c = -2.220446049250313e-16;
+    static n(a5) {
+        let v6;
+        try {
+        const t0 = -2.220446049250313e-16;
+        v6 = new t0(762.3580468434373);
+        } catch (e) {}
+        const v7 = v6?.[762.3580468434373];
+        try {
+            super.seal(v7, -3.0);
+        } catch(e9) {
+        }
+        return -3.0;
+    }
+    d;
+    a;
+}
+new C3();
+const v11 = new C3();
+const v12 = new C3();
+try {
+    new BigInt64Array(256);
+} catch(e16) {
+}
+try {
+    new Uint16Array(16);
+} catch(e20) {
+}
+try {
+    new Float64Array(573);
+} catch(e24) {
+}
+for (const v25 of v11) {
+    Object.defineProperty(v12, 2, { writable: true, configurable: true, value: 762.3580468434373 });
+    const o26 = {
+    };
+    try {
+        o26.d = v25;
+    } catch(e27) {
+    }
+    try {
+        const o28 = {
+        };
+        o28.d = v25;
+        o28.c = v25;
+    } catch(e29) {
+    }
+    try {
+        const o30 = {
+        };
+        o30.d = v25;
+        o30.c = v25;
+        o30.h = v25;
+    } catch(e31) {
+    }
+    try {
+        const o32 = {
+        };
+        o32.d = v25;
+        o32.c = v25;
+        o32.h = v25;
+    } catch(e33) {
+    }
+}

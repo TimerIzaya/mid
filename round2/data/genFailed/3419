@@ -1,0 +1,35 @@
+new WeakSet();
+function f5(a6) {
+    const o15 = {
+        "b": "c",
+        __proto__: a6,
+        [WeakSet](a8, a9, a10) {
+            let v11;
+            try {
+            const t0 = "c";
+            v11 = t0(a10, a10, a8);
+            } catch (e) {}
+            const v12 = a6[v11];
+            try {
+                super.p(v12, v11, this);
+            } catch(e14) {
+            }
+            return WeakSet;
+        },
+    };
+    return o15;
+}
+f5("c");
+f5("keys");
+const v18 = f5("c");
+const v21 = new Uint8Array(47);
+new BigInt64Array(5);
+new BigInt64Array(717);
+BigInt64Array === v18 ? BigInt64Array : v18;
+f5("keys");
+%PrepareFunctionForOptimization(f5);
+f5("keys");
+f5("keys");
+%OptimizeMaglevOnNextCall(f5);
+f5("keys") * WeakSet;
+Object.defineProperty(v21, 2031255093, { enumerable: true, get: f5, set: f5 });

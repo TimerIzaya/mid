@@ -1,0 +1,117 @@
+class C3 {
+    static o(a5, a6) {
+        const o8 = {
+            "call": Date,
+            "getOwnPropertyDescriptor": Date,
+            "getPrototypeOf": Date,
+            "isExtensible": Date,
+            "ownKeys": Date,
+            "set": Date,
+            "setPrototypeOf": Date,
+        };
+        new Proxy(this, o8);
+        return "description";
+    }
+}
+new C3();
+const v12 = new C3();
+new C3();
+const v16 = new Array(3558);
+const v17 = [-128,-2106207617,-4294967297];
+const v18 = [-16,57603,-709119329,1000,-1449415392,50675,45257,9007199254740991];
+const v19 = [-34869,65535,1,-11,-4294967296];
+v12[2] **= -1000.0;
+Object.defineProperty(v17, "f", { writable: true, set: Array });
+v16[74];
+const v21 = v18.__proto__;
+const v22 = [v21,v21];
+[[v22,v17,v19,v22,v22],Array];
+Array(3558);
+%PrepareFunctionForOptimization(Array);
+Array(3558);
+Array(3558);
+%OptimizeMaglevOnNextCall(Array);
+Array(3558);
+function f0() {
+    let v2 = 1;
+    const o10 = {
+        valueOf(a5, a6) {
+            let v4 = this;
+            for (const v7 in "-2") {
+                super[v7];
+            }
+            ({"a":v4,...v2} = v4);
+            v4[2] = v4;
+            1000 & a5;
+            return "-2";
+        },
+        "c": 1000,
+        "g": v2,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f14(a15, a16) {
+    const o30 = {
+        __proto__: v13,
+        "b": a15,
+        "h": v13,
+        m(a18, a19) {
+            function F20(a22, a23) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = a19;
+                } catch(e24) {
+                }
+                try {
+                    this.h = a19;
+                } catch(e25) {
+                }
+                try {
+                    this.e = a15;
+                } catch(e26) {
+                }
+            }
+            new F20(v11, a16);
+            new F20(a16, a15);
+            new F20(a19, a16);
+            return a15;
+        },
+    };
+    return o30;
+}
+const v31 = f14(v13, v11);
+f14(v11, v13);
+const v33 = f14(v12, v11);
+const v35 = new Set();
+function f36(a37, a38, a39) {
+    const o46 = {
+        [f14](a41, a42, a43) {
+            try {
+                super.n(f0, a43, a42, Set, a43);
+            } catch(e45) {
+            }
+            return a43;
+        },
+        "e": f0,
+        [v31]: a38,
+        "f": a39,
+        "h": v13,
+    };
+    return o46;
+}
+f36(f36(f36(v35, v13, v13), v33, v11), f36, v12);
+v11 - v12;
+~f14;
+const o52 = {
+    [v31]: Set,
+    1024: f36,
+};
+f14(v11, o52);
+%PrepareFunctionForOptimization(f14);
+f14(v11, o52);
+f14(v11, o52);
+%OptimizeFunctionOnNextCall(f14);
+f14(v11, o52);

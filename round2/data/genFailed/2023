@@ -1,0 +1,72 @@
+function f0() {
+    let v3 = 0.2866818800130073;
+    const o17 = {
+        set c(a5) {
+            super.c = this;
+            [,,v3,a5] = a5;
+        },
+        n(a7) {
+            const v10 = new Int16Array(7);
+            new Int16Array(218);
+            new Float32Array(1000);
+            return v10;
+        },
+    };
+    return o17;
+}
+const v18 = f0();
+f0();
+const v20 = f0();
+function f21(a22, a23) {
+    const o36 = {
+        n(a25, a26) {
+            super[a25] = this;
+            a25 < v18 ? a25 : v18;
+            return f0;
+        },
+        "b": v20,
+        set f(a30) {
+            a30.d = this;
+            const v31 = a22 || v20;
+            v31[a22] = v31;
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            f0();
+        },
+    };
+    return o36;
+}
+const v37 = f21(f21, v18);
+const v38 = f21(v18, f21);
+const v39 = f21(v18, f0);
+let v41 = 9;
+class C43 extends f0 {
+    constructor(a45, a46) {
+        super();
+        ({"c":v41,"h":f0,...v41} = this);
+        try { a45(f0); } catch (e) {}
+        super.c <<= a46;
+    }
+    o(a50, a51, a52) {
+        function f53(a54, a55, a56, a57) {
+            a52.toString = a51;
+            return 9;
+        }
+        f53(v38, v38, v39, a50);
+        return v39;
+    }
+}
+new C43(v37, v41);
+new C43(f21, f0);
+new C43(v18, 5);
+try {
+    f21(-2147483647, /\xed\xa0\x80/ysd);
+} catch(e67) {
+}
+v39[1044] -= v41;
+[-40.375705383359104,0.930995127428253,-762.1399824813841];
+[1.0];
+[4.0,0.8414661490387432,0.17229209028249304,-2.0,-514.9797149348485,1000.0];

@@ -1,0 +1,17 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a6;
+    this.f = a6;
+}
+new F4(-44532);
+const v8 = new F4(-9007199254740990);
+const v9 = new F4(-1073741824);
+for (let i14 = 0; i14 < 6; i14++) {
+    function f20() {
+        return f0;
+    }
+    Object.defineProperty(v9, "h", { writable: true, enumerable: true, get: f0 });
+    v8[2147483648];
+}

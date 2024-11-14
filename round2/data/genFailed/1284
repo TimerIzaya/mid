@@ -1,0 +1,85 @@
+new Uint32Array(13);
+new Int32Array(4096);
+const v8 = new BigUint64Array(222);
+const v9 = [0.0,1000.0,2.220446049250313e-16,0.9284621713310345,1000000000000.0,0.45637842723974575];
+[1000.0];
+const v11 = [0.46616123510505203,-1000000.0,-1.0,414.33857103078367,917.3578392981308,3.0,2.2250738585072014e-308];
+let v15;
+try {
+const t0 = "L";
+v15 = t0(v8, v9);
+} catch (e) {}
+v15[3] = "symbol";
+new Int32Array(v11, 13);
+let v17 = 0;
+do {
+    const t15 = "symbol";
+    t15.toString = v15;
+    v17++;
+} while (v17 < 10)
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 1073741823;
+    } catch(e3) {
+    }
+    try {
+        this.e = 1073741823;
+    } catch(e4) {
+    }
+    try {
+        this.a = 1073741823;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 {
+    constructor(a11) {
+        const v13 = Symbol.iterator;
+        const o22 = {
+            [v13]() {
+                let v15 = 10;
+                const o21 = {
+                    next() {
+                        v15--;
+                        const v19 = v15 == 0;
+                        const o20 = {
+                            "done": v19,
+                            "value": v15,
+                        };
+                        return o20;
+                    },
+                };
+                return o21;
+            },
+        };
+    }
+}
+const v23 = new C9(C9);
+const v24 = new C9(v23);
+new C9(v7);
+function f26() {
+    return v23;
+}
+try {
+    new Int8Array(16);
+} catch(e30) {
+}
+try {
+    new Uint16Array(2);
+} catch(e34) {
+}
+try {
+    new Int32Array(598);
+} catch(e38) {
+}
+C9[10] >>= 2;
+let {"a":v40,...v41} = v8;
+const o42 = {
+    __proto__: v41,
+    [2]: v40,
+    [a]: v8,
+};
+v24 > o42 ? v24 : o42;

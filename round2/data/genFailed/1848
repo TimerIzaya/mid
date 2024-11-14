@@ -1,0 +1,37 @@
+const v0 = [-64979,9,4294967295,13,127,9007199254740991,257,6];
+const v1 = [6,-64450,1017010944,536870889,1073741825,-999470691,-4294967297,8];
+let v2 = [-10,2,0,-4,19029,8,10,512,-3,-45818];
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v2;
+    this.b = v2;
+}
+const v7 = new F3(v1, v1);
+const v8 = new F3(v1, v1);
+const v9 = new F3(v2, v1);
+class C10 {
+    static b = v0;
+    4;
+    constructor(a12, a13, a14) {
+        a12.__proto__ = a12;
+        function F16(a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.h = a18;
+        }
+        const v20 = new F16(v8, a14);
+        new F16(v8, v20);
+        new F16(v8, F16);
+    }
+}
+new C10(v9, v8, F3);
+const v24 = new C10(v7, v9, v0);
+const v25 = new C10(v7, v7, v0);
+v1[C10] = v25;
+[v2] = v2;
+try {
+    new C10(v7, v8, v9);
+} catch(e27) {
+}
+const v28 = v7[1424881721];
+const v30 = v28 <= v28 ? v28 : v28;
+try { v24.m(v30, C10); } catch (e) {}

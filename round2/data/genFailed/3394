@@ -1,0 +1,31 @@
+function f0() {
+}
+class C4 extends f0 {
+    [f0] = 0.0;
+    f;
+    static m(a6) {
+        const v7 = super.g;
+        v7.e ^= v7;
+        try { this["construct"]("construct"); } catch (e) {}
+        new f0();
+        return v7;
+    }
+}
+const v11 = new C4();
+const v12 = new C4();
+const v13 = new C4();
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 0.0;
+}
+const v18 = new F14(v13, v13);
+new F14(v11, C4);
+const v20 = new F14(C4, v12);
+f0();
+~43899;
+let v26;
+try { v26 = C4.m(1.7976931348623157e+308, v12, f0, C4); } catch (e) {}
+const v27 = v18[0.0];
+Object.defineProperty(v13, "f", { writable: true, configurable: true, enumerable: true, get: f0 });
+try { v27(v20, v26, v20, v26); } catch (e) {}
+delete v12[4294967295];

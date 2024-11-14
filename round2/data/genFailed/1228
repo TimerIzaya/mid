@@ -1,0 +1,56 @@
+function f3() {
+    return "f";
+}
+new Float64Array(55);
+const v9 = new Uint8Array(6);
+new BigInt64Array(53);
+for (let v13 = 0; v13 < 100; v13++) {
+    f3();
+}
+Object.defineProperty("b", f3, { enumerable: true, set: f3 });
+("f").length;
+let [v17,v18,v19,v20] = v9;
+try { new f3(...6, v18, v19, 55); } catch (e) {}
+try {
+    v9.reduceRight(f3, v19);
+} catch(e23) {
+}
+let v3 = 10;
+try {
+    new Uint32Array(v3);
+} catch(e6) {
+}
+try {
+    new Float32Array(5);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(3839);
+} catch(e14) {
+}
+try {
+    new Float32Array(13);
+} catch(e18) {
+}
+try {
+    new Int8Array(4096);
+} catch(e22) {
+}
+try {
+    new Int8Array(129);
+} catch(e26) {
+}
+--v3;
+try {
+    const t27 = 13;
+    t27.toString = Int8Array;
+} catch(e28) {
+}
+class C29 extends Float32Array {
+    f = 7.174314729669693e+307;
+    [13];
+    static 207 = Float32Array;
+}
+new C29();
+new C29();
+new C29();

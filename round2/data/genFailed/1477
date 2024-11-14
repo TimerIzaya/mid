@@ -1,0 +1,24 @@
+new BigInt64Array(81);
+new Float64Array(2648);
+const v8 = new Uint32Array(15);
+function f9() {
+    return v8;
+}
+const v14 = Symbol.iterator;
+const t7 = "65535";
+t7[v14] = Uint32Array;
+("-12").__proto__;
+const v17 = new Set();
+const v18 = v17[7];
+Object.defineProperty(v18, v18, { writable: true, enumerable: true, get: f9 });
+const o19 = {
+    "apply": f9,
+    "call": f9,
+    "defineProperty": f9,
+    "deleteProperty": f9,
+    "get": f9,
+    "getPrototypeOf": f9,
+    "has": f9,
+    "setPrototypeOf": f9,
+};
+new Proxy(v14, o19);

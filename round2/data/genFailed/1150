@@ -1,0 +1,70 @@
+new Uint32Array(255);
+new Uint8ClampedArray(7);
+const v8 = new Float64Array(1024);
+function f9(a10, a11, a12, a13) {
+    const o19 = {
+        1: a12,
+        get g() {
+            super[a11];
+            typeof this === "undefined";
+            return 7;
+        },
+        "b": 1024,
+        [Uint8ClampedArray]: v8,
+    };
+    return o19;
+}
+const v20 = f9(7, 1024, 1024, 7);
+f9(1024, 7, 255, 1024);
+f9(1024, 7, 1024, 255);
+for (const v23 in v20) {
+    for (const v24 of v8) {
+        function f25() {
+            return 1024;
+        }
+    }
+}
+Math.sqrt(f9);
+const v29 = --f9;
+Math.exp(v29);
+let v32 = !f9 ** f9;
+-v29;
+v32--;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F3("m");
+const v8 = new F3("undefined");
+const v9 = new F3("-38091");
+function f10(a11, a12, a13) {
+    const o22 = {
+        __proto__: a12,
+        ...a13,
+        ..."m",
+        set f(a15) {
+            [a12,v9,a12,[this,v8,F3,v8],a12];
+            [v7];
+        },
+        [F3]: v8,
+        ["m"]: v8,
+    };
+    return o22;
+}
+const v23 = f10(v7, v9, "-38091");
+f10(v7, v8, "undefined");
+f10(v9, v8, "-38091");
+let v26 = -4294967297n;
+try {
+    v23[307] = v26;
+} catch(e29) {
+}
+try {
+    v9[F3] = v26;
+} catch(e30) {
+}
+Object.defineProperty("undefined", 268435456, { enumerable: true, get: f10, set: f10 });
+v26--;

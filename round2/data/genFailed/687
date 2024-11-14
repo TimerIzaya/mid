@@ -1,0 +1,75 @@
+function f7() {
+    return 1073741825;
+}
+/4\ud808\udf45*/;
+const v9 = /Lsa(?=b)c*/misu;
+/cOpP/myu;
+const o11 = {
+    "apply": f7,
+    "call": f7,
+    "getOwnPropertyDescriptor": f7,
+    "isExtensible": f7,
+    "preventExtensions": f7,
+};
+const v13 = new Proxy(v9, o11);
+Object.defineProperty(v13, v9, { writable: true, get: f7, set: f7 });
+try {
+    new Uint8ClampedArray(4096);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e7) {
+}
+let v8 = 6;
+try {
+    new Int8Array(v8);
+} catch(e11) {
+}
+class C12 {
+    [16];
+    #p(a14, a15, a16) {
+        let v17 = this >> this;
+        try {
+            v17 %= 16;
+        } catch(e18) {
+        }
+        try {
+            this.fuck(4096, a16);
+        } catch(e20) {
+        }
+        return this;
+    }
+}
+const v21 = new C12();
+new C12();
+const v23 = new C12();
+function f24(a25, a26, a27) {
+    const o37 = {
+        "g": a25,
+        set c(a29) {
+        },
+        "c": v23,
+        get b() {
+            const v34 = super.e;
+            try {
+                super.splice(a25, v34, v34);
+            } catch(e36) {
+            }
+            return v21;
+        },
+    };
+    return o37;
+}
+f24(C12, 16, 16);
+f24(C12, 4096, 4096);
+f24(v21, 16, v8);
+if (4096 !== v21) {
+    const v42 = C12.d;
+    v42[0] *= v42;
+} else {
+    try {
+        v8 &&= 16;
+    } catch(e43) {
+    }
+}

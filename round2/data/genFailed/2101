@@ -1,0 +1,43 @@
+class C3 {
+    toString(a5, a6) {
+        const o7 = {
+        };
+        o7.b = a6;
+        const o8 = {
+        };
+        o8.b = a6;
+        o8.g = a6;
+        const o9 = {
+        };
+        o9.b = a6;
+        o9.g = a6;
+        o9.h = a5;
+        const o10 = {
+        };
+        o10.b = a6;
+        o10.g = a6;
+        o10.a = 279989246;
+        return -65535;
+    }
+}
+const v11 = new C3();
+new C3();
+new C3();
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = C3;
+    this.g = 65536;
+    this.c = C3;
+}
+const v18 = new F14(-65535, 279989246);
+const v19 = new F14(279989246, 279989246);
+new F14(65536, -65535);
+v18[C3] = v11;
+for (const v24 of v18) {
+    %VerifyType(65536);
+    v19[468819364] >>>= 4294967295;
+}
+const o25 = {
+};
+new Proxy(C3, o25);
+v11[268435439] = 279989246;

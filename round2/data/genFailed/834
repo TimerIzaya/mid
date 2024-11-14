@@ -1,0 +1,59 @@
+function f0() {
+}
+new Array(2727);
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a9;
+    this.e = a10;
+    this.g = "48671";
+}
+new F7(f0, "p", "toStringTag");
+const v13 = new F7("toStringTag", "p", "48671");
+const v14 = new F7(v13, "p", "p");
+const o15 = {
+};
+new Proxy(f0, o15);
+throw v14;
+Array instanceof Array;
+o15.b |= 2727;
+v14[268435439] = f0;
+for (let v19 = 0; v19 < 32; v19++) {
+    const t20 = "toStringTag";
+    t20["p" + v19] = v19;
+}
+try {
+    new Uint8Array(105);
+} catch(e3) {
+}
+try {
+    new Float64Array(1);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(127);
+} catch(e11) {
+}
+class C12 extends Float64Array {
+    static [1] = 105;
+    #h = 1;
+    toString(a14, a15, a16, a17) {
+        Uint8Array | 1;
+        this["map"](Float64Array, "map");
+        delete this[8];
+        return a16;
+    }
+    [127];
+}
+new C12();
+const v23 = new C12();
+new C12();
+for (const v25 of v23) {
+    const o28 = {
+        "maxByteLength": 1000,
+    };
+    const v30 = new SharedArrayBuffer(1000, o28);
+    try {
+        new Uint8ClampedArray(v30);
+    } catch(e33) {
+    }
+}

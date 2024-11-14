@@ -1,0 +1,30 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = f1;
+    this.a = a4;
+}
+const v6 = new F2(F2, f0);
+const v7 = new F2(v6, f1);
+const v8 = new F2(f0, v7);
+const v12 = /a.\c~/my;
+const v13 = /[\011]/gmsd;
+const v14 = /exB+/msu;
+[39474,504719822,38760,2147483648,4,36005,9007199254740991,-2147483647,-11,268435441];
+const v16 = [-7,1,-59113,-663930712,1497349214,-9007199254740991,1480087782];
+const v17 = [-49838,10,-2147483648,512];
+v17 % v12;
+function F19(a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a23;
+}
+new F19(v14, v7, F19);
+const v25 = new F19(v13, v6, 6n);
+new F19(v13, v8, v25);
+Object.defineProperty(v16, "b", { writable: true, configurable: true, get: f1, set: f0 });
+v17.length;
+F19 %= F19;

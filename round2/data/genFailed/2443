@@ -1,0 +1,58 @@
+function f0() {
+}
+class C4 extends f0 {
+    static {
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        v9--;
+                        const v13 = v9 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+    }
+}
+const v17 = new C4();
+const v18 = new C4();
+const v19 = new C4();
+class C20 {
+    #a = v18;
+    g;
+    constructor(a22, a23, a24) {
+        a23[a24] = a23;
+        try {
+            C4.#a;
+        } catch(e26) {
+        }
+    }
+    static c = v17;
+    static g = f0;
+    #b = "getFloat64";
+    static 150 = v19;
+    static 3367;
+}
+new C20("getFloat64", C20, v18);
+new C20("getFloat64", "split", v19);
+const v29 = new C20("split", v17, "getFloat64");
+/a(?=bbb|bb)cZ(?<a>(?<b>(?<c>(?<d>.).).).)(a(?!bbb|bb)c)+/gmyu;
+/(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\11/gmi;
+const v32 = /Dxyz{93}a\fb\nc\rd\te\vf/gyis;
+Object.defineProperty(v32, "a", { writable: true, configurable: true, get: f0, set: f0 });
+if (C4) {
+    C20[0] = "getFloat64";
+} else {
+    v29[10000];
+}
+-41602 >> v32;
+~C4;
++C4;

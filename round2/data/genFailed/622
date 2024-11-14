@@ -1,0 +1,98 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = v0;
+    this.h = v0;
+    this.c = v0;
+}
+new F1();
+new F1();
+const v5 = new F1();
+const v7 = new Date();
+new WeakSet();
+Object.defineProperty("b", "h", { configurable: true, get: Date, set: Date });
+v0.a = v7;
+const o13 = {
+};
+new Proxy(WeakSet, o13);
+Math.random();
+Math.pow(9, 45251);
+const v22 = 1e-15 | v5;
+v22 | "b";
+Math.imul(45251, v22);
+Math.sin(v22);
+Math.acos(v22);
+[];
+try {
+    new BigUint64Array(11);
+} catch(e4) {
+}
+try {
+    new Float32Array(127);
+} catch(e8) {
+}
+try {
+    new Float64Array(1);
+} catch(e12) {
+}
+class C13 extends Float64Array {
+    [1] = 11;
+    static #f = Float32Array;
+    [Float32Array];
+    #toString(a15, a16) {
+        127 >>> a15;
+        try { Float64Array(a15, a15, ...this, ...this); } catch (e) {}
+        return 1000.0;
+    }
+    static #d = Float64Array;
+    static #a;
+    static 138 = 11;
+    static #e;
+}
+new C13();
+new C13();
+const v24 = new C13();
+try {
+    new Int16Array(1848);
+} catch(e28) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e32) {
+}
+try {
+    new Int8Array(3427);
+} catch(e36) {
+}
+const o38 = {
+};
+new Proxy(C13, o38);
+const o41 = {
+};
+try {
+    o41.c = Int8Array;
+} catch(e42) {
+}
+try {
+    const o43 = {
+    };
+    o43.c = Int8Array;
+    o43.d = Int8Array;
+} catch(e44) {
+}
+try {
+    const o45 = {
+    };
+    o45.c = Int8Array;
+    o45.d = Int8Array;
+    o45.h = v24;
+} catch(e46) {
+}
+try {
+    const o47 = {
+    };
+    o47.c = Int8Array;
+    o47.d = Int8Array;
+    o47.g = BigUint64Array;
+} catch(e48) {
+}

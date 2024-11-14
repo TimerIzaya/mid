@@ -1,0 +1,53 @@
+new BigUint64Array(1406);
+const v5 = new Float64Array(512);
+let v6 = 3791;
+new BigUint64Array(v6);
+class C9 extends Float64Array {
+    constructor(a11, a12, a13) {
+        super(a13, a11);
+        super[a12] = a12;
+        v6 = a12;
+    }
+    static set a(a15) {
+        this[1024] |= v6;
+        v5[v5] = Float64Array;
+        try {
+            new Float64Array(v5);
+        } catch(e17) {
+        }
+    }
+}
+new C9(1406, 1406, 1406);
+const v19 = new C9(512, v6, 1406);
+new C9(v6, 1406, 512);
+Object.defineProperty(v19, 127, { writable: true, configurable: true, value: C9 });
+const o23 = {
+    "maxByteLength": 1073741825,
+};
+const v25 = new SharedArrayBuffer(87, o23);
+new BigUint64Array(v25);
+const v0 = [];
+const v1 = -Infinity;
+const v4 = [-5.0,0.29035692905508437,3.1415441407727555e+307,-1e-15,6.517240409712512e+307,NaN,1.0,816869.8004944338,-936.3815848412587,0.46552751325505326];
+const v5 = [-0.0,-4.0,0.3986182939517765,-6.424555427518442e+307,-7.533423743214591e+307,96.670642028575,612.2837157348647,0.5032482667732804];
+const v6 = [-7.861719005562616e+307,-7.8095170423918265,1.0001734957556708e+308,-1e-15,409974.3954038685,-2.220446049250313e-16,2.433103826526626,0.6934183030336252,289887.95192214847,0.37155603257918135];
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 1.6528552661007402e+308;
+    } catch(e11) {
+    }
+}
+new F7(v5, v6);
+const v13 = new F7(v4, v6);
+new F7(v4, v0);
+new Map();
+Reflect.construct(Map, [v4], F7);
+const v26 = Reflect.construct(F7, [v0[8],v6], Map);
+try { v26(v13, v1); } catch (e) {}
+const o28 = {
+};
+try {
+    new Proxy(Reflect, o28);
+} catch(e31) {
+}

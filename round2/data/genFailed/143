@@ -1,0 +1,80 @@
+const v0 = [];
+class C4 {
+    constructor(a6) {
+        Reflect.construct(v0, [48667n,1000n || 48667n,Reflect,v0,this], 1000n);
+    }
+    #n(a12) {
+        let v11 = this;
+        v11 = v0;
+        let v13;
+        try { v13 = v11.flatMap(1073741825n, 1000n); } catch (e) {}
+        %VerifyType(v0);
+        v0[3];
+        return v13;
+    }
+}
+const v15 = new C4(1073741825n);
+let v16 = new C4(1000n);
+const v17 = new C4(1073741825n);
+class C18 extends C4 {
+    static o(a20, a21, a22, a23) {
+        C4.__proto__ = a21;
+        try { new a22(a23); } catch (e) {}
+        return a21;
+    }
+    h = v17;
+    167;
+    set f(a26) {
+        new C4(a26);
+    }
+    [v15] = C4;
+    [C4] = v15;
+}
+const v28 = new C18();
+const v29 = new C18();
+const v30 = new C18();
+v0 || v15;
+v30[65536] <<= C4;
+v16 = v29;
+new C18();
+try { WeakMap(v0); } catch (e) {}
++1073741825n;
+v28 && 1073741824;
+Math.floor(v28 ** 1073741824);
+class C3 {
+    constructor(a5, a6) {
+        %VerifyType(a5);
+        for (let v7 = 0; v7 < 32; v7++) {
+            a5["p" + v7] = v7;
+        }
+    }
+    static #f;
+    static #b = 4.0;
+    static #g = 4.0;
+    [-1035964132];
+}
+const v10 = new C3(C3, -1035964132);
+const v11 = new C3(v10, "o");
+const v12 = new C3(-1035964132, 4.0);
+try {
+    new Int32Array(3772);
+} catch(e16) {
+}
+try {
+    new BigUint64Array(8);
+} catch(e20) {
+}
+try {
+    new BigInt64Array(1);
+} catch(e24) {
+}
+function f25(a26, a27) {
+    const o28 = {
+    };
+    try {
+        new Proxy(a26, o28);
+    } catch(e31) {
+    }
+    return 3772;
+}
+f25(v12, v11);

@@ -1,0 +1,26 @@
+function f3(a4) {
+    const o10 = {
+        __proto__: "3",
+        set e(a6) {
+            super[a6];
+            try { this["setTime"]("g", a6, "setTime"); } catch (e) {}
+        },
+        "g": "h",
+        ..."h",
+        "d": "g",
+        "e": "g",
+    };
+    return o10;
+}
+f3("g");
+f3("h");
+const v13 = f3("g");
+new Set();
+new BigInt64Array(129);
+new BigUint64Array(14);
+new Uint8Array(1205);
+[f3,BigInt64Array];
+([[Set,"h"],v13,Uint8Array]).__proto__;
+const o33 = {
+};
+new Proxy("g", o33);

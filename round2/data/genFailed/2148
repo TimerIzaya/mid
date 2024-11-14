@@ -1,0 +1,37 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2(a3, a4) {
+    const o13 = {
+        "g": a4,
+        ...a4,
+        __proto__: a4,
+        toString(a6, a7) {
+            let v8 = 0;
+            while (v8 < 1) {
+                delete a4?.b;
+                v8++;
+            }
+            return this;
+        },
+    };
+    return o13;
+}
+const v14 = f2(f1, f2);
+const v15 = f2(f2, f2);
+const v16 = f2(f2, v15);
+const v20 = /a+b|c/gmyu;
+/a\DE/gsdu;
+/srvf*/gidu;
+new Uint16Array(3188);
+new Int8Array(255);
+const v31 = new BigUint64Array(256);
+try { v16.toString(v20, v14, -2147483649, v14, 3188); } catch (e) {}
+const v34 = [255];
+Reflect.apply(v31.at, v15, v34);
+f1();
+f0();
+new Int8Array(v14);
+f2 *= f2;

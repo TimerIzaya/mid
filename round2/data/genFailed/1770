@@ -1,0 +1,52 @@
+function f0() {
+    const o9 = {
+        get d() {
+            const v5 = "e" ** this;
+            let v6;
+            try { v6 = this.trunc(this); } catch (e) {}
+            try {
+                this.o(v6, v5);
+            } catch(e8) {
+            }
+            return this;
+        },
+        "c": 10,
+        ..."e",
+        "f": "e",
+        [10]: -4241,
+    };
+    return o9;
+}
+const v10 = f0();
+let v11 = f0();
+const v12 = f0();
+class C16 {
+    constructor(a18, a19, a20, a21) {
+        function f22(a23, a24, a25) {
+            v11 *= a18;
+            Object.defineProperty(a23, 2740471145, { value: 255 });
+            return f0;
+        }
+        f22(v12, f0, f22);
+    }
+    #n(a28, a29) {
+        try {
+            this.#n(this, f0);
+        } catch(e31) {
+        }
+        try {
+            new f0();
+        } catch(e33) {
+        }
+        return this;
+    }
+}
+const v34 = new C16(v12, v12, -500270671, v11);
+const v35 = new C16(v12, f0, -500270671, v12);
+new C16(v35, 2026555437, v11, v34);
+Object.defineProperty(v34, v34, { writable: true, configurable: true, enumerable: true, set: f0 });
+%VerifyType(1000000000.0);
+const v41 = v35 | v10[255];
+Math.round(v41);
+Math.abs(1970788812);
+-(1970788812 || v41);

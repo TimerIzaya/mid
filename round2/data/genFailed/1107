@@ -1,0 +1,87 @@
+const v0 = [];
+function f1() {
+    const o7 = {
+        __proto__: v0,
+        ...v0,
+        [v0]: v0,
+        set b(a3) {
+            for (let v4 = 0; v4 < 32; v4++) {
+                a3["p" + v4] = v4;
+            }
+            this[this] *= a3;
+        },
+        ...v0,
+        "f": v0,
+        "a": v0,
+        ...v0,
+    };
+    return o7;
+}
+const v8 = f1();
+const v9 = f1();
+const v10 = f1();
+const v16 = new BigUint64Array(3);
+const v19 = new BigInt64Array(11);
+const v22 = new Int16Array(1024);
+v22["entries"](v8, BigUint64Array, v10, 3, Int16Array, Infinity);
+for (const v28 in v16) {
+    let v29;
+    try { v29 = v22.set(v19, 24283); } catch (e) {}
+    v29[7] = v16;
+    try { v9.o(v8, v29); } catch (e) {}
+}
+const v0 = [-2.220446049250313e-16,3.369080499303802,5.0,2.0];
+const v1 = [178.52105335888405];
+const v2 = [-1.0,1000000000.0,-314.880003381703];
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a6;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(v2, v2);
+const v9 = new F3(v2, v1);
+const v10 = new F3(v2, v2);
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v10;
+    } catch(e17) {
+    }
+}
+new F11(v0, v1, v10, v9);
+new F11(v0, v2, v9, v10);
+new F11(v2, v0, v8, v8);
+delete v10[4];
+for (let [v25] of v1) {
+    const o26 = {
+    };
+    try {
+        o26.f = v25;
+    } catch(e27) {
+    }
+    try {
+        const o28 = {
+        };
+        o28.f = v25;
+        o28.b = v9;
+    } catch(e29) {
+    }
+    try {
+        const o30 = {
+        };
+        o30.f = v25;
+        o30.b = v9;
+        o30.e = v8;
+    } catch(e31) {
+    }
+    try {
+        const o32 = {
+        };
+        o32.f = v25;
+        o32.b = v9;
+        o32.g = v25;
+    } catch(e33) {
+    }
+}

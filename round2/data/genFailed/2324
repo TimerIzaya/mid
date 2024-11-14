@@ -1,0 +1,37 @@
+class C3 {
+    get g() {
+        const v5 = this.__proto__;
+        let v6;
+        try { v6 = v5.n(256, 256); } catch (e) {}
+        v6[this] = this;
+        let v7;
+        try { v7 = v5(-1000000000.0); } catch (e) {}
+        this.f = this;
+        return v7;
+    }
+    #f;
+    5;
+}
+const v8 = new C3();
+const v9 = new C3();
+const v10 = new C3();
+const v11 = [4294967296,v9,v10,-1000000000.0];
+const v12 = [v11,v11];
+const v13 = [v10];
+v12.length *= -1000000000.0;
+C3.c = 256;
+v11.length = 256;
+v11.valueOf = v11;
+function f14(a15, a16) {
+    function f18(a19) {
+        v13[536870912];
+    }
+    this.onmessage = f18;
+    v8[5];
+}
+const v24 = ["function",f14];
+const o25 = {
+    "arguments": v24,
+    "type": "function",
+};
+new Worker(f14, o25);

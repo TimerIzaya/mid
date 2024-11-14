@@ -1,0 +1,67 @@
+new Int32Array(3);
+const v5 = new Float64Array(92);
+new Uint8ClampedArray(2283);
+[11,-4294967295,-13,-1185450399,23605];
+const v10 = [11,-59636,805026534,-9898];
+[-812689622,1,-65535,-2147483649,9];
+new Int32Array(v5);
+v10["filter"](2283, v10);
+try {
+    new Int32Array(v5, 10, 10);
+} catch(e20) {
+}
+const v0 = [5.0];
+const v1 = [-1000000000000.0,463.12982691199045,-9651.047928315005,0.19580475025913302,9.761984873281935e+307,1.961697462948423e+307,1.5474181020477578e+308,-5.0,-1.0];
+[1000000000.0,1000.0,-580.4068584147366,1000.0,522067.88988920953,1000000000.0,-6.055815679761558,-0.0,376273.7968604148];
+function f3() {
+    return v0;
+}
+class C4 extends f3 {
+    static 2;
+    m(a6, a7) {
+        try {
+            f3();
+        } catch(e9) {
+        }
+        return a6;
+    }
+    a = v0;
+    #h;
+    h;
+    d;
+}
+new C4();
+const v11 = new C4();
+new C4();
+class C16 extends C4 {
+    set g(a18) {
+        f3();
+        %PrepareFunctionForOptimization(f3);
+        f3();
+        f3();
+        %OptimizeMaglevOnNextCall(f3);
+        f3();
+    }
+    [v1] = C4;
+    #e;
+    #h;
+    static f = v11;
+}
+new C16();
+new C16();
+new C16();
+function f26(a27) {
+    function f29(a30) {
+        a27[Symbol.isConcatSpreadable] = this;
+    }
+    this.onmessage = f29;
+    return a27;
+    try { this.valueOf(C4, f3, this); } catch (e) {}
+    let {"d":v34,} = v11;
+}
+const v37 = [f26];
+const o38 = {
+    "arguments": v37,
+    "type": "function",
+};
+new Worker(f26, o38);

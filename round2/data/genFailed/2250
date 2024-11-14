@@ -1,0 +1,47 @@
+const v0 = [];
+class C1 {
+    #c = v0;
+    constructor() {
+        this % v0;
+        Object.defineProperty(this, v0, { writable: true, configurable: true, enumerable: true, value: this });
+        try {
+            const v4 = /apJ/gmyis;
+            this.valueOf(v4, v4, v4, v4);
+        } catch(e6) {
+        }
+    }
+}
+const v7 = new C1();
+const v8 = new C1();
+const v9 = new C1();
+class C10 extends C1 {
+    1073741824;
+    toString(a12, a13) {
+        delete Reflect[536870889];
+        v7.__proto__ = v8;
+        return C1;
+    }
+    static #e;
+    g;
+    static d = v0;
+}
+const v16 = new C10();
+const v17 = new C10();
+const v18 = new C10();
+function F19(a21, a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v17;
+    this.h = a22;
+    this.d = a23;
+}
+new F19(v8, v18, v16, v9);
+new F19(v9, v18, C1, C10);
+const v27 = new F19(C1, C1, v16, v7);
+class C29 extends v9.constructor {
+    static 220 = v27;
+    [v7];
+    536870887;
+}
+const v30 = new C29();
+try { v30["next"]("next", v27, v9, v30); } catch (e) {}
+F19 === F19;

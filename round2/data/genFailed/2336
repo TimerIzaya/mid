@@ -1,0 +1,36 @@
+function f0() {
+}
+const v1 = [-1000000000.0,680.6024943930468,-2.0,1000000000.0,NaN,1.7976931348623157e+308];
+const v2 = [2.220446049250313e-16,1000000000000.0,-4.696144705674266,1.068622785049179e+308,-1000000000000.0,-822.5674433881389,922.7040628876043];
+const v3 = [1.7535664504325794e+308,-1000000.0];
+class C7 extends f0 {
+    static get b() {
+        const v10 = [f0];
+        return Reflect.apply(v1.findIndex, v2, v10);
+    }
+    static set g(a14) {
+        new Uint16Array(0);
+        new Int8Array(7);
+        new Uint32Array(46);
+    }
+}
+const v24 = new C7();
+const v25 = new C7();
+const v26 = new C7();
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v1;
+    this.c = v26;
+}
+const v32 = new F27(v25, v24, v1);
+new F27(v3, C7, 512);
+new F27(v1, v26, f0);
+let v37 = -15;
+F27 - v37;
+Object.defineProperty(v32, "h", { writable: true, get: f0 });
+const v39 = `
+    v25.g = v32;
+    Object.defineProperty(C7, 4294967296, { configurable: true, enumerable: true, get: f0, set: f0 });
+    v37 = -6;
+`;
+eval(v39);

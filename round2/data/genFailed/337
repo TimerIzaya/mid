@@ -1,0 +1,50 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = f0;
+}
+new F1();
+new F1();
+new F1();
+const v7 = new WeakSet();
+function f11() {
+    return f0;
+}
+function f12() {
+    return WeakSet;
+}
+let v13 = 0;
+do {
+    let v15 = 7;
+    Math.asinh(1024n);
+    let v17 = --v15;
+    Math.tanh(v7);
+    v17 - v17;
+    --v17;
+    v13++;
+} while (v13 < 8)
+let v4 = 6.931689233638642e+307;
+try {
+    new Uint8Array(256);
+} catch(e9) {
+}
+try {
+    new Float64Array(512);
+} catch(e13) {
+}
+try {
+    new Int16Array(7);
+} catch(e17) {
+}
+let v18 = -5.0;
+let v20 = -6.5439494947887855;
+for (let i23 = 0, i24 = 10; i23 < i24; i23++, i24--) {
+    let v32;
+    try {
+    const t0 = 256;
+    v32 = t0(7, 1073741823, -1.4614905676067084e+308, i24);
+    } catch (e) {}
+    try { v32(); } catch (e) {}
+    ({"d":v4,"f":v32,"g":v20,...v18} = v32);
+}

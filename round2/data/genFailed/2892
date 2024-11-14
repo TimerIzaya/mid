@@ -1,0 +1,24 @@
+new Int32Array(1);
+const v5 = new BigUint64Array(16);
+new Float32Array(68);
+let v9 = -1793984419n;
+v9 = -1760771095n;
+function f12(a13) {
+    let v14 = this;
+    function f15(a16) {
+        v5[v14--];
+    }
+    v14.onmessage = f15;
+    f15(a13);
+    %PrepareFunctionForOptimization(f15);
+    f15(a13);
+    f15(a13);
+    %OptimizeMaglevOnNextCall(f15);
+    f15(a13);
+}
+const v25 = [1n];
+const o26 = {
+    "arguments": v25,
+    "type": "function",
+};
+new Worker(f12, o26);

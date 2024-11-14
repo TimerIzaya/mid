@@ -1,0 +1,28 @@
+const v2 = new Uint8Array(4);
+new Float32Array(1024);
+const v8 = new Int8Array(5);
+function f9(a10, a11, a12) {
+    const o21 = {
+        "c": Float32Array,
+        get f() {
+            return a11;
+        },
+        valueOf(a18, a19) {
+            function f20() {
+                return a11;
+            }
+            return Int8Array;
+        },
+    };
+    return o21;
+}
+const v22 = f9(5, 1024, 5);
+f9(4, 1024, 1024);
+v8 === f9(4, 4, 4);
+const o26 = {
+};
+new Proxy(Uint8Array, o26);
+const v30 = v8 != Uint8Array ? v8 : Uint8Array;
+v22.toString = f9;
+Object.defineProperty(v2, 10, { value: v30 });
+Object.defineProperty(o26, 2681593152, { writable: true, get: f9, set: f9 });

@@ -1,0 +1,126 @@
+const v3 = /(ab)\12/msv;
+const v4 = /x/ydv;
+const v5 = /{12,/g;
+class C6 {
+    static #valueOf(a8, a9, a10, a11) {
+        function f12() {
+            return a8;
+        }
+        const o13 = {
+        };
+        o13.d = a9;
+        const o14 = {
+        };
+        o14.d = a9;
+        o14.g = a11;
+        const o15 = {
+        };
+        o15.d = a9;
+        o15.g = a11;
+        o15.a = a9;
+        const o16 = {
+        };
+        o16.d = a9;
+        o16.g = a11;
+        o16.a = v4;
+        return o13;
+    }
+}
+const v17 = new C6();
+const v18 = new C6();
+const v19 = new C6();
+class C21 extends C6 {
+    static #g;
+    [C6] = -59078n;
+    #d;
+    constructor(a23, a24, a25, a26) {
+        super();
+        a23[this] = v18;
+        const v27 = this[1073741824];
+        v3.e = a24;
+        ~a26;
+        a23.valueOf = v27;
+    }
+    static f = v17;
+    static [C6] = -9223372036854775807n;
+}
+const v29 = new C21(v3, v5, v19, -59078n);
+new C21(v17, v4, v29, -59078n);
+new C21(v18, v3, v18, -59078n);
+function f32() {
+    return v3;
+}
+class C33 {
+    static #f = C21;
+    [-1670061881n] = v18;
+    static 15;
+    9 = v3;
+}
+new C33();
+new C33();
+new C33();
+const v5 = new Map();
+function f6(a7, a8, a9) {
+    const o21 = {
+        536870889: null,
+        ...v5,
+        131: -64962,
+        [a9]: Map,
+        get h() {
+            function F12(a14, a15) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.e = 6;
+                } catch(e16) {
+                }
+                try {
+                    this.d = 6;
+                } catch(e17) {
+                }
+            }
+            new F12(6, a7);
+            new F12(a9, 268435439);
+            new F12(a7, a8);
+            return Map;
+        },
+    };
+    return o21;
+}
+const v22 = f6(6, 268435439, 268435439);
+const v23 = f6(-64962, -64962, -64962);
+const v24 = f6(6, 6, 268435439);
+function f26(a27, a28) {
+    const o32 = {
+        "d": Map,
+        ...a27,
+        __proto__: v23,
+        get f() {
+            const v30 = this[null];
+            throw v30;
+            try {
+                super[v30] = this;
+            } catch(e31) {
+            }
+            return this;
+        },
+        "h": a28,
+        "e": v23,
+    };
+    return o32;
+}
+const v33 = f26(v22, 268435439);
+f26(v33, -64962);
+const v35 = f26(v24, -64962);
+try {
+    v35[129] = 6;
+} catch(e36) {
+}
+v24[6] <<= 268435439;
+try {
+    v33[240] = undefined;
+} catch(e37) {
+}
+try {
+    v22.h = v5;
+} catch(e38) {
+}

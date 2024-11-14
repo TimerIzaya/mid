@@ -1,0 +1,71 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v0;
+    this.f = v0;
+    this.d = v0;
+}
+const v3 = new F1();
+const v4 = new F1();
+const v5 = new F1();
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a8;
+    this.b = a8;
+    this.h = a8;
+}
+const v9 = new F6(v5);
+new F6(v3);
+new F6(v4);
+class C12 extends F6 {
+    static #c;
+    static #a;
+    static {
+    }
+    b;
+    e = v0;
+    255;
+    d;
+    #d;
+}
+new C12();
+const v18 = new C12();
+new C12();
+this[this] = this;
+function f21(a22, a23, a24) {
+    let v25;
+    try { v25 = a22(a22, a23, this, a24); } catch (e) {}
+    v25[4] >>>= v25;
+    return v18;
+}
+f21(C12, C12, v9);
+F6 - v5;
+this[Symbol.search];
+const v0 = [];
+let v8 = Int8Array;
+try {
+    new v8(9);
+} catch(e10) {
+}
+try {
+    new Int32Array(3985);
+} catch(e14) {
+}
+try {
+    new Float32Array(10);
+} catch(e18) {
+}
+[-2147483647,-2147483648,-5,-63275,9007199254740990,-2147483649,16,2147483648,-2];
+[-4294967296,6,1,50871,-12528,14271,7];
+const v21 = [4294967297];
+v0.length;
+new WeakSet();
+try {
+    v8 >>= v8;
+} catch(e25) {
+}
+try {
+const t0 = -5.0;
+t0(-9007199254740991);
+} catch (e) {}
+Object.defineProperty(v21, "length", { configurable: true, get: ReferenceError });

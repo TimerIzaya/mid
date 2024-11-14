@@ -1,0 +1,101 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        "f": f0,
+        "g": f0,
+        __proto__: f0,
+        ...f0,
+        ...f0,
+        "h": f0,
+        valueOf() {
+            const t11 = "global";
+            t11["toStringTag"] = this;
+            return f0;
+        },
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+const v9 = f1();
+const v10 = [f1,f1,v9,v9,v9];
+[v9,v10,v7,f0,v10];
+[f1,v9,f1];
+class C13 {
+    static 5;
+    209;
+    toString(a15, a16, a17, a18) {
+        Object.defineProperty(v10, 6, { enumerable: true, set: f1 });
+        Object.defineProperty(v8, v10, { enumerable: true, get: f1 });
+        try {
+            new f1();
+        } catch(e20) {
+        }
+        return a18;
+    }
+    static 2538;
+}
+new C13();
+const v22 = new C13();
+const v23 = new C13();
+let v26 = 8 - v23;
+v26 || 8;
+Math.atan(v26);
+Math.atan2(v26, v23);
+const v30 = v26--;
+Math.expm1(v30);
+v30 % v30;
+try { v7.valueOf(v30, v22); } catch (e) {}
+function f0() {
+    const o11 = {
+        ..."c",
+        ..."c",
+        p(a5, a6) {
+            class C7 {
+                536870887;
+                c = "c";
+            }
+            new C7();
+            const v9 = new C7();
+            new C7();
+            return v9;
+        },
+        2147483649: 2,
+        "h": "stack",
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+let v15 = [v14,v14,v12];
+const v16 = [v13,v15,v15,v13];
+const v17 = [v16,v16,v15,v14,v12];
+class C21 {
+    static [v12];
+    constructor(a23, a24) {
+        b = a23;
+        const v26 = new Map();
+        %VerifyType(a24);
+        try {
+            super.floor(v26, v26);
+        } catch(e28) {
+        }
+    }
+    static 1073741823 = 1n;
+    [f0] = 12425n;
+    h = v17;
+}
+new C21(v13, 1n);
+new C21(v14, 1n);
+new C21(v12, 1n);
+v16[-2] <<= v14;
+f0();
+const v40 = v15 >> -1529369853;
+Math.imul(-1529369853, 0.5595903734464561);
+const v42 = 1616944365 << v40;
+v40 ** 0.5595903734464561;
+Math.round(1616944365);
+--v15;
++v42;

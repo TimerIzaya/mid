@@ -1,0 +1,29 @@
+let v0 = 1073741824;
+function f3() {
+    return v0;
+}
+class C4 extends f3 {
+    constructor(a6, a7) {
+        super();
+        this.valueOf = f3;
+        const t8 = 2147483647;
+        t8[9] = f3;
+        this.valueOf >>= 2147483647;
+        try {
+            f3();
+        } catch(e9) {
+        }
+    }
+}
+new C4(-1073741824, v0);
+new C4(-1073741824, 2147483647);
+new C4(-1073741824, -1073741824);
+let v14 = -4n;
+v14 = 13n;
+const v18 = --f3;
+const v19 = v0++;
+!v18;
+Math.log1p(v19);
+v18 && v18;
+[] = v18;
+C4.e;

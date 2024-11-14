@@ -1,0 +1,25 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = -13;
+    this.a = -13;
+    this.c = -13;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+new Uint8ClampedArray(5);
+const v11 = new Uint8Array(512);
+const v14 = new BigUint64Array(11);
+const v15 = [v14];
+[512,BigUint64Array,512];
+[v4,v3,v11,F0,5];
+class C18 {
+    static [Uint8Array];
+    127 = v5;
+}
+const v19 = new C18();
+new C18();
+new C18();
+%VerifyType(v19);
+v15[8];
+Reflect.construct(BigUint64Array, [v15,11,512], C18);

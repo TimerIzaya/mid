@@ -1,0 +1,93 @@
+const v2 = new Uint8ClampedArray(27);
+const v5 = new Int32Array(7);
+const v8 = new Int16Array(1);
+class C9 {
+    m(a11, a12, a13) {
+        let v14;
+        try { v14 = a13(v8, 27, Int32Array); } catch (e) {}
+        a12 = v14;
+        const o15 = {
+        };
+        o15.a = Uint8ClampedArray;
+        const o16 = {
+        };
+        o16.a = Uint8ClampedArray;
+        o16.g = v14;
+        const o17 = {
+        };
+        o17.a = Uint8ClampedArray;
+        o17.g = v14;
+        o17.f = 1;
+        const o18 = {
+        };
+        o18.a = Uint8ClampedArray;
+        o18.g = v14;
+        o18.f = a11;
+        return v2;
+    }
+}
+new C9();
+const v20 = new C9();
+const v21 = new C9();
+class C26 extends v5.constructor {
+    #h = v20;
+    static f;
+    1;
+}
+new C26();
+v21.d *= 27;
+try {
+    new Uint8Array(6);
+} catch(e3) {
+}
+try {
+    new Uint16Array(8);
+} catch(e7) {
+}
+try {
+    new Int8Array(1136);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o17 = {
+        "g": a15,
+        __proto__: a16,
+        1118: Uint16Array,
+        "e": a13,
+        "b": a14,
+        "a": a14,
+        4: Int8Array,
+        "h": 1136,
+        "c": 6,
+        ...a16,
+        "f": 1136,
+        "d": a16,
+    };
+    return o17;
+}
+const v18 = f12(1136, 1136, 8, 1136);
+const v19 = f12(8, 8, 1136, Uint16Array);
+f12(6, 1136, 1136, v18);
+class C21 {
+    static [v19];
+    static #o(a23, a24, a25, a26) {
+        [a23];
+        [a26];
+        [v19];
+        v18.a >>= 1136;
+        return 6;
+    }
+    [Uint8Array] = 6;
+}
+new C21();
+new C21();
+new C21();
+let v36 = 0;
+while (v36 < 2) {
+    const o42 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o42);
+    v36++;
+}

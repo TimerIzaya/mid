@@ -1,0 +1,19 @@
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a13;
+    this.d = -301689794n;
+    this.c = a14;
+}
+new F10(4, 6n, 15);
+const v16 = new F10(15, 268435439n, 15);
+const v17 = new F10(815896536, -301689794n, 30846);
+[] = 268435439n;
+v16[536870912];
+async function* f19(a20, a21, a22, a23) {
+    for (const v24 in v17) {
+        v16[Symbol.search] = a22;
+    }
+    yield* await a22;
+    return a23;
+}
+f19(v16, 4, v16, 43798);

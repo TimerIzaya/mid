@@ -1,0 +1,83 @@
+const v1 = new Map();
+const v6 = new WeakMap();
+class C7 extends Map {
+    static set g(a9) {
+        super[a9] = v1;
+        const t5 = "object";
+        t5.length = 1073741825;
+        super.entries();
+    }
+    constructor(a13, a14) {
+        super(v6);
+        a14 %= a14;
+        try { WeakMap(..."m", ...this, a14, v6); } catch (e) {}
+    }
+    static c;
+    8 = "object";
+}
+const v16 = new C7("function", "object");
+new C7("object", "m");
+new C7("function", "object");
+const v21 = new Float64Array(9);
+new BigUint64Array(12);
+const v27 = new Int32Array(4);
+const t23 = "m";
+delete t23?.length;
+const t24 = 9;
+t24[4] = v16;
+%VerifyType(C7);
+v21[Int32Array] *= 9;
+for (let [v29,v30,v31] of "function") {
+}
+v27[v6] %= 4;
+const v0 = [-1718387584,-9007199254740991];
+const v1 = [-2,1149793253,8,1073741823,-53200,65536,23411,2114233053];
+const v2 = [-2,19702,11334,7];
+try {
+    new BigInt64Array(1212);
+} catch(e9) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e13) {
+}
+try {
+    new Uint16Array(8);
+} catch(e17) {
+}
+function f18(a19, a20, a21, a22) {
+    const o32 = {
+        3487: a21,
+        ...a20,
+        [-2]: Uint16Array,
+        "d": a20,
+        valueOf(a24, a25, a26, a27) {
+            try {
+                try { a20.map(a24, v1); } catch (e) {}
+            } catch(e29) {
+                try {
+                    super[v1] = 8;
+                } catch(e30) {
+                }
+            } finally {
+                try {
+                    a20 %= a27;
+                } catch(e31) {
+                }
+            }
+            return this;
+        },
+    };
+    return o32;
+}
+f18(8, v0, -1000.0, 0.0);
+f18(8, v0, -1000.0, 0.04686405874454713);
+v2["some"](v0[f18(8, v2, 0.0, 0.04686405874454713)]);
+const o47 = {
+    "maxByteLength": 129,
+};
+const v49 = new SharedArrayBuffer(129, o47);
+try {
+    new DataView(v49);
+} catch(e52) {
+}

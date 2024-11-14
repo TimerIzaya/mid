@@ -1,0 +1,91 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0];
+const v2 = [v0,v0,v1];
+const v3 = [v0,v0,v1];
+function f4() {
+    return v2;
+}
+class C6 extends f4 {
+    #d = null;
+    static d;
+    get h() {
+        const o8 = {
+        };
+        o8.b = v3;
+        const o9 = {
+        };
+        o9.b = v3;
+        o9.g = f4;
+        const o10 = {
+        };
+        o10.b = v3;
+        o10.g = f4;
+        o10.e = this;
+        const o11 = {
+        };
+        o11.b = v3;
+        o11.g = f4;
+        o11.f = v3;
+        return o11;
+    }
+}
+const v12 = new C6();
+const v13 = new C6();
+const v14 = new C6();
+function f18() {
+    return v2;
+}
+const v22 = v13.length;
+f18(Infinity, v22, v22, ...v14);
+v12.length = v22;
+let v24 = RangeError;
+Object.defineProperty(v14, "d", { writable: true, set: v24 });
+v24 &&= v24;
+v14 > null;
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 8;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function F7(a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a9;
+    } catch(e10) {
+    }
+}
+const v11 = new F7(v6);
+const v12 = new F7(v5);
+const v13 = new F7(v4);
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v4;
+    } catch(e20) {
+    }
+    try {
+        this.f = a19;
+    } catch(e21) {
+    }
+    try {
+        this.b = a18;
+    } catch(e22) {
+    }
+}
+const v23 = new F14(v6, v6, v12, v11);
+new F14(v5, v5, v11, v13);
+new F14(v6, v5, v12, v5);
+let v26 = 0;
+do {
+    Object.defineProperty(v23, v11, { enumerable: true, value: v26 });
+    v26++;
+} while (v26 < 3)
+try {
+    v13[f] = v23;
+} catch(e31) {
+}

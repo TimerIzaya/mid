@@ -1,0 +1,129 @@
+const v0 = [9,-2,-49089,3,-4096,1073741824,-2147483648,112996152,-4294967297];
+const v1 = [-27520,-321924472,-1024,10];
+const v2 = [-15649,-4294967295,-12,57013,-16269,2147483648,9,2,14,2147483649];
+function f3(a4) {
+    const o14 = {
+        119: v1,
+        ...v0,
+        __proto__: v1,
+        [v0](a6, a7) {
+            a7 = v1;
+            try { this["toUpperCase"](a4, v0); } catch (e) {}
+            return a4;
+        },
+        "b": v2,
+        get h() {
+            for (let v11 = 0; v11 < 32; v11++) {
+                v0["p" + v11] = v11;
+            }
+            return v0;
+        },
+    };
+    return o14;
+}
+const v15 = f3(v2);
+const v16 = f3(v1);
+const v17 = f3(v0);
+function f18(a19, a20, a21, a22) {
+    const o23 = {
+        "e": a20,
+        [v1]: f3,
+        ...v0,
+        [v0]: a20,
+        __proto__: v15,
+        [v2]: a19,
+        65535: v15,
+        [v15]: v0,
+        ...v16,
+        "b": f3,
+        2812297143: a22,
+        [a21]: f3,
+        "f": a21,
+        ...a21,
+        "h": a21,
+    };
+    return o23;
+}
+const v25 = f18(v1, v1, v17, f18(v1, v1, v17, v15));
+f18(v0, v0, v15, v15);
+function f27() {
+    return v0;
+}
+new Uint8Array(5);
+let v31 = 4;
+new Float64Array(v31);
+const v36 = new Int8Array(3);
+v2.valueOf = f27;
+let v37 = g;
+%VerifyType(v17);
+new Array(0);
+const v41 = new f27();
+v37 = v36.reverse(...v41, v16, f18, v25, Array);
+v31 = 0;
+try {
+    new Int32Array(8);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(128);
+} catch(e7) {
+}
+let v8 = 2;
+try {
+    new BigInt64Array(v8);
+} catch(e11) {
+}
+class C12 {
+    get h() {
+        const v14 = super[this];
+        try {
+            v8 = v14;
+        } catch(e15) {
+        }
+        return this;
+    }
+    constructor(a17, a18) {
+        new Set();
+        [9.909461046259797e+307];
+        [0.6867580239767658,354608.50010092556,964.6248152307733];
+        [1e-15,3.0,-1.0,-1e-15,4.0,-5.131480937487605,-675.7086707148096,1.0162704068591992e+308,8.160495868930927e+307];
+    }
+}
+const v27 = new C12(v8, C12);
+const v28 = new C12(v27, Uint8ClampedArray);
+const v29 = new C12(Int32Array, v27);
+class C30 extends BigInt64Array {
+    static e = v27;
+    [8];
+    [v29] = 128;
+    static 939865933 = 128;
+    268435439;
+    h;
+    171;
+    static #n(a32, a33) {
+        C12[13] += delete a32?.h;
+        try {
+            a33.fuck(true, C12, true, Int32Array);
+        } catch(e37) {
+        }
+        return BigInt64Array;
+    }
+}
+new C30();
+const v39 = new C30();
+new C30();
+function f41() {
+    return C30;
+}
+f41();
+%PrepareFunctionForOptimization(f41);
+const v43 = f41();
+f41();
+%OptimizeFunctionOnNextCall(f41);
+f41();
+BigInt64Array && v28;
+v39.byteLength;
+try {
+    C30[-2] = v43;
+} catch(e48) {
+}

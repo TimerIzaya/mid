@@ -1,0 +1,11 @@
+const v1 = new WeakSet();
+const v4 = new Int8Array(1);
+const v7 = new Uint32Array(127);
+const v10 = new Uint8ClampedArray(127);
+v10.toString = 127;
+delete v4[2];
+v10[65536] = v1;
+v7["find"](v7, "find");
+new Float64Array(1000);
+new Float64Array(257);
+new Uint8Array(1);

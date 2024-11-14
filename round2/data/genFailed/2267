@@ -1,0 +1,53 @@
+function f0() {
+    const o10 = {
+        "h": -4.376973035250028e+307,
+        valueOf(a5, a6) {
+            this[65537] = "b";
+            typeof this === "bigint";
+            return this;
+        },
+        "a": "KB",
+        "c": "KB",
+        "g": -4.376973035250028e+307,
+        "f": -4.376973035250028e+307,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function F14(a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a16;
+}
+const v17 = new F14(v11);
+const v18 = new F14(v11);
+const v19 = new F14(v17);
+let v20 = [v18];
+const v21 = [v12];
+let v22 = [v21];
+class C23 {
+    [v22] = v20;
+    constructor(a25, a26, a27, a28) {
+        v20 = v21;
+        a27.toString = f0;
+        v22 = this;
+        try { new F14(...a27, f0, v18, ...v18, v22, F14); } catch (e) {}
+        a27[a27];
+        f0 % v13;
+    }
+    2073;
+    [v20];
+    #d = v19;
+}
+const v32 = new C23(v12, v17, v20, v12);
+const v33 = new C23(v11, v13, v20, v18);
+new C23(v19, v19, v22, v12);
+function f35(a36, a37, a38) {
+    const o39 = {
+        "h": a37,
+        "f": v13,
+    };
+    return o39;
+}
+f35(v13, f35(v12, f35(v19, v32, v17), v33), v19);

@@ -1,0 +1,66 @@
+const v2 = new Array(614);
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a5;
+    const t4 = 614;
+    t4.f = v2;
+}
+const v7 = new F3(Array, v2);
+const v8 = new F3(v7, Array);
+const v9 = new F3(v8, Array);
+function F10(a12, a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = v8;
+    this.d = a15;
+}
+const v16 = new F10(Array, v9, v8, v2);
+const v17 = new F10(v9, v8, v7, v7);
+const v18 = new F10(v9, v7, v9, v8);
+new v17();
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = v8;
+    this.h = a25;
+}
+new F21(v17, v17, v16);
+new F21(v18, v17, v17);
+new F21(v18, v16, v17);
+const v30 = [-1435695831,9007199254740990,-1,1810159856,1907152236,64,10000,-10888,12513,2041470852];
+let v31 = [255,6,9,-23732];
+const v32 = v31--;
+for (const v33 of v30) {
+    class C34 {
+        static [v16] = v32;
+    }
+}
+const v0 = [1.210730136274171e+308,1000000000.0,1000000000.0,844.6098635881476,0.8877643734080972,0.5026304331770306,-632.1340190006357,4.1296337087708304e+307,-5.193904954180406];
+const v1 = [-5.0,-7.767734830770077];
+[2.220446049250313e-16,0.34993621191237134,-8.196652290924617e+307,-181.6126840775969,-3.0,-3.96722609351945e+307,-4.0,6.154992885698089,3.0];
+const v6 = /(?:foo)\xed\xb0\x80/sdgmuy;
+const v7 = /[Hxyz{0,1}?w\1(a)]/sdv;
+const v8 = /((((.).).).)/gmyv;
+class C9 {
+    static d;
+    p(a11, a12, a13) {
+        let v14;
+        try { v14 = new a13(v1, a11); } catch (e) {}
+        (13n)?.h;
+        v6["test"](v14);
+        return v7;
+    }
+    e;
+    [13n] = 6n;
+    static #f = v6;
+    static #c = v7;
+    #g = v8;
+}
+new C9();
+const v19 = new C9();
+new C9();
+function f22() {
+    return v0;
+}
+for (let v23 = 0; v23 < 5; v23++) {
+    f22();
+    %OptimizeFunctionOnNextCall(v19);
+}

@@ -1,0 +1,16 @@
+new Uint16Array(2047);
+const v5 = new BigUint64Array(255);
+const v8 = new Int16Array(1025);
+Int16Array !== v5;
+let v13;
+try { v13 = v8.toLocaleString(2n, v5); } catch (e) {}
+for (let [v14,v15] of v5) {
+    v14[v15] &&= v13;
+    v5.byteOffset = 255;
+    try {
+        const o16 = {
+        };
+        v5.filter(v13, o16);
+    } catch(e18) {
+    }
+}

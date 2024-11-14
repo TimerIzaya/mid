@@ -1,0 +1,36 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        ...f0,
+        "d": f0,
+        "e": f0,
+        "g": f0,
+        __proto__: f0,
+        "b": f0,
+        set a(a3) {
+            Object.defineProperty(this, 1000, { writable: true, configurable: true, enumerable: true, get: f0, set: f0 });
+            +-13317413;
+            -a3;
+            ~this;
+            Math.log2(1000000000000.0);
+        },
+    };
+    return o12;
+}
+const v13 = f1();
+f1();
+f1();
+new Float64Array(5);
+const v21 = new Uint8Array(930);
+const v24 = new Int8Array(1024);
+class C26 extends v24.constructor {
+    [1024];
+    [v21] = 1024;
+}
+new C26();
+Math.cosh(v13 && -2);
+-2 && v24;
+v24 ** v24;
+Math.min(v24);
+-1942593300;

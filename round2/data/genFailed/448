@@ -1,0 +1,89 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 9n;
+    this.h = 1273721167n;
+    this.e = -13n;
+}
+const v6 = new F3(-13n);
+const v7 = new F3(1273721167n);
+new F3(9n);
+class C12 extends F3 {
+    constructor(a14, a15) {
+        super(a15);
+        try {
+            new F3(F3);
+        } catch(e17) {
+        }
+        let v18;
+        try { v18 = a14.p(); } catch (e) {}
+        try {
+            super.slice(v18, v18);
+        } catch(e20) {
+        }
+    }
+    static 8 = -1.0;
+    #d;
+    static h;
+}
+const v21 = new C12(v7, 9n);
+new C12(v7, 9n);
+new C12(v6, 9n);
+function f24() {
+    return v6;
+}
+const v25 = f24();
+for (const v26 of v6) {
+    v21[4] = -13n;
+}
+function f27(a28) {
+    function f30(a31) {
+        const o34 = {
+            "maxByteLength": 65536,
+        };
+        const v36 = new SharedArrayBuffer(3794, o34);
+        new Float32Array(v36);
+    }
+    this.onmessage = f30;
+    v25[C12];
+    f24();
+}
+const v43 = [1273721167n];
+const o44 = {
+    "arguments": v43,
+    "type": "function",
+};
+new Worker(f27, o44);
+const v10 = [null,10];
+[-9,[v10,v10,1073741824,65536],-2147483647,65536];
+with (v10) {
+    length = -2147483647;
+    const o13 = {
+    };
+    try {
+        o13.h = 1073741824;
+    } catch(e14) {
+    }
+    try {
+        const o15 = {
+        };
+        o15.h = 1073741824;
+        o15.e = -1338673199;
+    } catch(e16) {
+    }
+    try {
+        const o17 = {
+        };
+        o17.h = 1073741824;
+        o17.e = -1338673199;
+        o17.g = 31382;
+    } catch(e18) {
+    }
+    try {
+        const o19 = {
+        };
+        o19.h = 1073741824;
+        o19.e = -1338673199;
+        o19.c = -9;
+    } catch(e20) {
+    }
+}

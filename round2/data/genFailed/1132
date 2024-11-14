@@ -1,0 +1,89 @@
+function f0() {
+}
+function f1() {
+    const o6 = {
+        toString() {
+            super[this] = f0;
+            const v5 = new Array(4096);
+            Object.defineProperty(v5, 8, { configurable: true, enumerable: true, set: Array });
+            return f0;
+        },
+        "d": f0,
+        "h": f0,
+        4082: f0,
+        "f": f0,
+    };
+    return o6;
+}
+const v7 = f1();
+const v8 = f1();
+const v9 = f1();
+const v11 = new Map();
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a14;
+    this.d = v8;
+    this.a = a14;
+}
+const v17 = new F12(F12, v7, v7);
+const v18 = new F12(f1, v8, v8);
+const v19 = new F12(f0, v8, v7);
+function f20(a21, a22) {
+    const o24 = {
+        __proto__: v11,
+        get g() {
+            let v23 = this;
+            v23 = a21;
+            %VerifyType(f0);
+            return v9;
+        },
+        "b": a22,
+        [a21]: a22,
+        536870889: a21,
+        2277836058: v17,
+        255: f0,
+        "h": f0,
+    };
+    return o24;
+}
+f20(v8, v8);
+f20(v9, v7);
+f20(v8, v9);
+v9[v18] ||= v19;
+const o32 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o32);
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -1n;
+    } catch(e7) {
+    }
+    try {
+        this.g = -1n;
+    } catch(e8) {
+    }
+    try {
+        this.f = 2112488930n;
+    } catch(e9) {
+    }
+}
+new F3(F3, 7n);
+const v11 = new F3(F3, 7n);
+new F3(7n, 2112488930n);
+function f13() {
+    return 2112488930n;
+}
+const v14 = [f13];
+[2112488930n,7n,v11,7n];
+[v14,v14];
+[4.939105547635343,2.220446049250313e-16,308741.74909332534,1e-15,-513290.23372270924,-2.220446049250313e-16,-861.0565802981307];
+[-1.7976931348623157e+308,-5.0,83.47415462875983,477.04285598223487,869813.0728991595,-2.1929948332848337,-6.881258563745196e+307,5.0,-4.0,-5.0];
+[-1.0,0.25808913394587363];
+v14[3] <<= F3;
+let [v23,v24,v25] = v14;
+const v32 = 0.811195101589836 >>> 7n;
+0.811195101589836 ^ 7n;
+Math.imul(v32, -12);

@@ -1,0 +1,108 @@
+const v0 = [-881757031,-1024,3];
+const v1 = [778480268,-11,536870888];
+const v2 = [-1024,16,13,-9949];
+function f3(a4, a5) {
+    const o19 = {
+        "h": a5,
+        valueOf(a7, a8) {
+            function f10() {
+                return arguments;
+            }
+            4 ^ a4;
+            const v15 = v1 / a4;
+            -4;
+            ~v15;
+            return v1 % 4;
+        },
+    };
+    return o19;
+}
+const v20 = f3(v1, v2);
+const v21 = f3(v0, v0);
+const v22 = f3(v0, v0);
+const v28 = [[[v1,f3,v0]]];
+v2.length = -1408470468;
+Object.defineProperty(v2, "h", { enumerable: true, value: v2 });
+v0[6] = v28;
+Object.defineProperty(v0, v20, { writable: true, value: v20 });
+let v31;
+try { v31 = g(); } catch (e) {}
+v31 /= v21;
+delete v0[257];
+try {
+    v22.valueOf(v1, Float32Array);
+} catch(e34) {
+}
+function f0() {
+}
+class C1 extends f0 {
+    [f0] = f0;
+    #h;
+    constructor() {
+        let v2 = this;
+        super();
+        super.e;
+        v2++;
+    }
+    8;
+    static [f0];
+    static g;
+    1 = f0;
+}
+const v5 = new C1();
+const v6 = new C1();
+const v7 = new C1();
+class C8 {
+    static 1024 = C1;
+    static [v6];
+    static 125;
+    static #o(a10, a11) {
+        try {
+            a11[2] = this;
+        } catch(e12) {
+        }
+        return v5;
+    }
+    e = v6;
+}
+const v13 = new C8();
+new C8();
+const v15 = new C8();
+function f16(a17, a18, a19, a20) {
+    const o40 = {
+        [C8](a22, a23, a24) {
+            const v25 = [a24,v15];
+            const v26 = [v25,v25,a19,v25];
+            Object.defineProperty(a18, [a17,v5,v6], { writable: true, configurable: true, enumerable: true, value: v25 });
+            try { v15.asUintN(v5, v26, this); } catch (e) {}
+            const v30 = Symbol.iterator;
+            const o39 = {
+                [v30]() {
+                    let v32 = 10;
+                    const o38 = {
+                        next() {
+                            v32--;
+                            const v36 = v32 == 0;
+                            const o37 = {
+                                "done": v36,
+                                "value": v32,
+                            };
+                            return o37;
+                        },
+                    };
+                    return o38;
+                },
+            };
+            return a18;
+        },
+    };
+    return o40;
+}
+f16(v7, f16(v13, v13, v7, C8), v5, v15);
+f16(v7, v13, f16, v7);
+Object.defineProperty(v15, v13, { configurable: true, enumerable: true, get: f16 });
+const o50 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o50);

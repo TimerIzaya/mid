@@ -1,0 +1,22 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = -2;
+    this.e = -2;
+    this.d = -2;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+let v7 = 16;
+let v10 = -4;
+[,,v7,...v10] = -2147483648;
+function f12(a13, a14, a15) {
+    const o16 = {
+        ...v5,
+        "b": a13,
+        "a": 19191,
+    };
+    return o16;
+}
+f12(v7, v4, v3);
+f12(-2147483648, v5, f12(-2147483648, v5, v5));

@@ -1,0 +1,60 @@
+const v0 = [0.40455498277240176,4.542503565451195,-4.0,1.7976931348623157e+308,-3.0,NaN,-4.0];
+const v1 = [1000000.0,1.7976931348623157e+308,-378.754024452635,0.0,-1.078588495085554e+308,-4.0,2.2250738585072014e-308,-3.0,-932565.034104858,30676.710881094565];
+const v2 = [3.0];
+function f3() {
+    return v1;
+}
+class C4 extends f3 {
+    static [v1] = v2;
+    #m(a6, a7) {
+        Reflect.construct(a6, [], a6);
+        return f3;
+    }
+    static c;
+    65537;
+    1122365492;
+}
+const v14 = new C4();
+const v15 = new C4();
+const v16 = new C4();
+function F17(a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a21;
+    this.h = v15;
+}
+const v22 = new F17(v1, v2, v1);
+const v23 = new F17(v14, v0, v14);
+const v24 = new F17(v1, v16, v14);
+function f25(a26, a27) {
+    const o35 = {
+        [v0](a29, a30, a31, a32) {
+            try {
+                f3();
+            } catch(e34) {
+            }
+            return a27;
+        },
+        ...v14,
+        "c": v2,
+        [v1]: v22,
+        ...a26,
+        [v22]: v1,
+        [-1]: a27,
+    };
+    return o35;
+}
+f25(v23, v23);
+const v37 = f25(v23, v24);
+const v38 = f25(v24, v22);
+class C39 {
+    e;
+    [v38] = f3;
+}
+new C39();
+new C39();
+new C39();
+v24[9] >>>= v0;
+C4 = v37;
+function f43() {
+    return C39;
+}

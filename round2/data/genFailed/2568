@@ -1,0 +1,29 @@
+const v2 = new Array(57);
+function f3() {
+    return v2;
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a6;
+    this.a = 57;
+    this.d = a6;
+}
+new F4(F4);
+const v8 = new F4(f3);
+new F4(v8);
+const v14 = [v8,0n,f3,[65536n,65536n,65536n,v2,65536n],-1726119826n];
+const t14 = [65536n,v14,Array];
+t14.__proto__ = Array;
+0n == v2;
+f3();
+v8 & -1726119826n;
+let {"length":v19,...v20} = v14;
+[NaN,-2.2250738585072014e-308,0.6344294290265811,-2.2250738585072014e-308];
+[3.0,-3.5932649026272655e+307,-875853.257583533,NaN];
+[-2.2250738585072014e-308,4.018643888832358,-435206.36739274533,2.0,0.0,158216.49333783425,2.2250738585072014e-308,1e-15,-5.0];
+f3();
+%PrepareFunctionForOptimization(f3);
+f3();
+f3();
+%OptimizeMaglevOnNextCall(f3);
+f3();

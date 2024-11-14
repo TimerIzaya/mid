@@ -1,0 +1,38 @@
+let v1 = 10;
+let v2 = 1.7976931348623157e+308;
+class C3 {
+    static {
+        try { this["valueOf"](v1, v2, this, "valueOf", v2); } catch (e) {}
+    }
+    static #f;
+    static {
+        ({"b":v2,"e":v2,"g":v1,} = this);
+        %VerifyType(-3.044536810133517e+306);
+        v1.toString = super[this];
+    }
+    static 59 = v1;
+    [v1];
+    static [v2];
+    static #e = v1;
+}
+new C3();
+new C3();
+const v11 = new C3();
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = v11;
+    this.h = a18;
+    this.g = -3.044536810133517e+306;
+}
+const v20 = new F15(C3, v1, F15);
+new F15(v20, v20, -3.044536810133517e+306);
+new F15(v20, v11, -3.044536810133517e+306);
+const v27 = Symbol.toPrimitive;
+const o29 = {
+    [v27]() {
+        return this;
+        v2 = F15;
+        v20.g = this;
+        return -1000000.0;
+    },
+};

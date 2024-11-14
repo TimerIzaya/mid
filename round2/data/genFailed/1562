@@ -1,0 +1,17 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = 14;
+    this.h = 14;
+    this.c = 14;
+}
+const v3 = new F0();
+const v4 = new F0();
+new F0();
+const v11 = new Uint8ClampedArray(10);
+const v14 = new BigInt64Array(1954);
+new BigInt64Array(128);
+[v11,[[v3],1024,v14,10]];
+const v22 = [Uint8ClampedArray];
+const v24 = Reflect.apply(v14.join, v4, v22);
+Reflect != v24 ? Reflect : v24;
+v24[13] = v11;

@@ -1,0 +1,49 @@
+function f3(a4, a5) {
+    const o13 = {
+        get d() {
+            try { ("g").replace(a4, a4); } catch (e) {}
+            return a5;
+        },
+        "g": "-4096",
+        "b": "-4096",
+        p(a9) {
+            const o12 = {
+                valueOf() {
+                    this[8];
+                    return "-4096";
+                },
+            };
+            return "2";
+        },
+    };
+    return o13;
+}
+f3("2", "-4096");
+f3("g", "-4096");
+f3("g", "2");
+class C17 {
+    get a() {
+        const o19 = {
+            "apply": f3,
+            "get": f3,
+            "getOwnPropertyDescriptor": f3,
+            "preventExtensions": f3,
+            "set": f3,
+            "setPrototypeOf": f3,
+        };
+        const v21 = new Proxy("-4096", o19);
+        return v21;
+    }
+}
+const v22 = new C17();
+new C17();
+new C17();
+f3("-4096", "-4096");
+%PrepareFunctionForOptimization(f3);
+f3("-4096", "-4096");
+f3("-4096", "-4096");
+%OptimizeFunctionOnNextCall(f3);
+f3("-4096", "-4096");
+new Date();
+v22.a;
+f3 !== "-4096";

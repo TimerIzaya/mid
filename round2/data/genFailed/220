@@ -1,0 +1,62 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = 1073741824;
+}
+new F0();
+new F0();
+const v5 = new F0();
+function f12() {
+    return -60335n;
+}
+F0 >>> 268435440n;
+f12();
+function f18(a19) {
+    return -65537;
+}
+class C20 extends f18 {
+    static [v5];
+    [8n];
+    8 = 16;
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(987);
+} catch(e7) {
+}
+try {
+    new Float64Array(2054);
+} catch(e11) {
+}
+class C12 extends Float64Array {
+    #m(a14, a15, a16) {
+        const v17 = super.filter(this, this);
+        [128,209,-616578130,4294967297,-536870912,1073741823,-9223372036854775808];
+        const v19 = [-40230969,3];
+        const v20 = [-9007199254740992,43717,-1,127,128,-1024];
+        [this,Float64Array,16,v17,a16];
+        [BigUint64Array,v20,v19,v20];
+        return [16,v19];
+    }
+    e = Uint8ClampedArray;
+    #g = Float64Array;
+    static #a = 2054;
+    90 = 987;
+}
+const v24 = new C12();
+const v25 = new C12();
+new C12();
+try {
+    v24.h = -9;
+} catch(e33) {
+}
+delete v25[987];
+Math.imul(5.0, 5.0);
+-12 / 5.0;
+Math.round(-12);
+-(-915.5852881353042);
+const v45 = !-12;
+Math.max(5.0);
+v45 | 5.0;

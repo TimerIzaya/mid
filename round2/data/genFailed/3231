@@ -1,0 +1,61 @@
+class C3 {
+    static b = 4.0;
+    static #o(a5, a6) {
+        [-3.0,-7,4.0,a6];
+        [4.0,this];
+        [a5];
+        /\P{sc=Greek}(?:a+){0,0}*/ys;
+        /B2?/misu;
+        /W(?<a>.)/mydv;
+        return -7;
+    }
+    static #toString(a14, a15) {
+        a15[-3.0] = a14;
+        super.h <<= 4.0;
+        switch (a14?.[536870888]) {
+            case a14:
+                break;
+        }
+        return this;
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a29;
+}
+const v30 = new F24(v19, -7, 846513.6881642006, 846513.6881642006);
+const v31 = new F24(C3, v30, 4.0, -2.0);
+const v32 = new F24(v30, v31, 846513.6881642006, 2.220446049250313e-16);
+function f33(a34, a35, a36) {
+    const o44 = {
+        ...a34,
+        "g": -3.0,
+        "e": 2.220446049250313e-16,
+        "d": v30,
+        [a34](a38, a39, a40) {
+            for (let v41 = 0; v41 < 32; v41++) {
+                v20["p" + v41] = v41;
+            }
+            return a35;
+        },
+        ...v19,
+        "f": 2.220446049250313e-16,
+        "a": a36,
+    };
+    return o44;
+}
+const v45 = f33(v31, v18, 4.0);
+f33(v20, v30, -3.0);
+const v47 = f33(v30, v31, 846513.6881642006);
+const v48 = new F24(v47, v18, v32, v47, v30, v45);
+for (const v49 in v48) {
+    v18.d = v49;
+}
+for (const v50 in v31) {
+    Object.defineProperty(v32, 4294967295, { get: f33 });
+    Object.defineProperty(v31, 256, { writable: true, enumerable: true, get: f33, set: f33 });
+    v31.__proto__ = v45;
+}

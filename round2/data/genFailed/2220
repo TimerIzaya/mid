@@ -1,0 +1,28 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 268435456;
+    this.e = 268435456;
+    this.b = 268435456;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a8;
+    this.f = a9;
+    this.a = a8;
+}
+new F6(F0, v4);
+new F6(v5, v4);
+const v12 = new F6(v4, v5);
+const v15 = new Uint32Array(1855);
+new Float32Array(5);
+new Uint16Array(1824);
+try { v15["findIndex"](...F0, v4, v12, ..."findIndex"); } catch (e) {}
+const v24 = ("findIndex")[v4];
+for (let v25 = 0; v25 < 32; v25++) {
+    v3["p" + v25] = v25;
+}
+v5.a ^= 5;
+v24[-2] = v12;

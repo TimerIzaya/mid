@@ -1,0 +1,86 @@
+const v2 = new Uint16Array(15);
+const v5 = new Float32Array(1000);
+const v8 = new Float64Array(8);
+let v11 = -6;
+function f12() {
+    return v5;
+}
+class C13 extends Float32Array {
+    constructor(a15, a16, a17, a18) {
+        super(a18, 15, 1000);
+        function F19(a21, a22, a23) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.e = a21;
+            this.b = v5;
+            this.d = f12;
+        }
+        new F19(-1274359050, a17, a16);
+        new F19(1000, a17, v11);
+        new F19(a17, 9007199254740991, a16);
+    }
+    [Float64Array] = v11;
+    static #d = Float32Array;
+    d = v11;
+    static [v2];
+}
+const v27 = new C13(-1274359050, 9007199254740991, -1274359050, v11);
+new C13(9007199254740991, 8, 1000, 8);
+const v29 = new C13(f12, 15, -1274359050, 8);
+Object.defineProperty(v8, 127, { writable: true, configurable: true, value: v11 });
+try { v5.keys(); } catch (e) {}
+({"byteOffset":v11,} = v8);
+let v31;
+try { v31 = v27.findLast(f12); } catch (e) {}
+const o32 = {
+};
+o32.e = v31;
+const o33 = {
+};
+o33.e = v31;
+o33.g = v29;
+const o34 = {
+};
+o34.e = v31;
+o34.g = v29;
+o34.c = Float64Array;
+const o35 = {
+};
+o35.e = v31;
+o35.g = v29;
+o35.a = v8;
+function f3(a4) {
+    const o10 = {
+        13: a4,
+        "d": a4,
+        "g": a4,
+        ...-39204,
+        "h": 1983587413,
+        get e() {
+            const o6 = {
+            };
+            try {
+                new Proxy(this, o6);
+            } catch(e9) {
+            }
+            return this;
+        },
+    };
+    return o10;
+}
+f3(7);
+const v12 = f3(-39204);
+f3(-39204);
+new WeakMap();
+for (const v22 of v12) {
+    function f23() {
+        return 4.254299802574026;
+    }
+}
+const o26 = {
+    "maxByteLength": 536870888,
+};
+const v28 = new SharedArrayBuffer(0, o26);
+try {
+    new Int16Array(v28);
+} catch(e31) {
+}

@@ -1,0 +1,22 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = -4294967295;
+    this.d = -4294967295;
+}
+new F0();
+const v4 = new F0();
+new F0();
+new Float64Array(7);
+const v11 = new BigUint64Array(200);
+let v13 = BigInt64Array;
+const v14 = new v13(179);
+try {
+    v14.reduce(v14);
+} catch(e16) {
+}
+!v11;
+for (let [v18,v19,v20] of v11) {
+    v4.h = v4;
+    v19 = this;
+    v13--;
+}

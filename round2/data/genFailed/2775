@@ -1,0 +1,26 @@
+const v4 = new WeakMap();
+class C5 {
+    ["-43650"] = v4;
+    constructor(a7) {
+        a7[1] = "-43650";
+        super[v4];
+        const o12 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o12);
+    }
+}
+new C5("-43650");
+const v15 = new C5("-5");
+new C5(v15);
+function f20() {
+    return 17835n;
+}
+for (let i23 = 0, i24 = 10; i23 < i24; i23++, i24--) {
+    const o34 = {
+        "maxByteLength": 255,
+    };
+    const v36 = new SharedArrayBuffer(8, o34);
+    new Int8Array(v36);
+}

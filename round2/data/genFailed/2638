@@ -1,0 +1,37 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = 1073741823n;
+    this.h = a5;
+    this.a = -11473n;
+}
+const v6 = new F3(1073741823n);
+const v7 = new F3(-158159056n);
+const v8 = new F3(-158159056n);
+function f9(a10, a11, a12) {
+    const o18 = {
+        [a10]: -11473n,
+        "f": v6,
+        get g() {
+            try {
+            const t0 = -11473n;
+            t0();
+            } catch (e) {}
+            v7[Symbol.toStringTag];
+            return v7;
+        },
+        "d": v7,
+        __proto__: v8,
+    };
+    return o18;
+}
+f9(-11473n, -158159056n, v6);
+f9(-11473n, -11473n, v8);
+f9(-158159056n, -158159056n, v7);
+let v22 = 10;
+for (; v22--;) {
+    let [v24] = -11473n;
+    v24 >>>= v24;
+}
+function f25() {
+    return -158159056n;
+}

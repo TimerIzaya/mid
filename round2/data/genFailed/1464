@@ -1,0 +1,50 @@
+const v0 = [0.23342291265639215,0.5743599317550794,-331.63422192671214,0.5133968240967879,-5.024396415785768,-5.53395103551384,5.637576769115438e+307,-1.0,2.2250738585072014e-308,-1.4104191736154448];
+const v1 = [0.7110320983322075,0.754786307345855];
+const v2 = [1.4315214840353806e+308,-863.3720964064364,0.6564551595652579,-2.9305299864007246,463.13668998610365];
+function f3(a4) {
+    const o17 = {
+        "f": a4,
+        3: a4,
+        set h(a6) {
+            let v7;
+            try { v7 = a4.toString(a6, a4, this, v1, this); } catch (e) {}
+            try { v1.map(a6, ...a4, ...a4, a4, v7); } catch (e) {}
+            function F9(a11, a12, a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.g = a6;
+                this.a = a12;
+            }
+            const v14 = new F9(a4, a4, a6);
+            new F9(a6, a6, v14);
+            new F9(v1, v1, v1);
+        },
+    };
+    return o17;
+}
+const v18 = f3(v1);
+const v19 = f3(v1);
+const v20 = f3(v2);
+function f22(a23, a24, a25) {
+    const o26 = {
+        __proto__: v1,
+        "h": a24,
+        ...v18,
+        "d": v0,
+        [v18]: v1,
+        "g": null,
+        [a25]: a25,
+        "b": a23,
+        1073741823: f3,
+        [v0]: v2,
+    };
+    return o26;
+}
+f22(v1, v2, v19);
+f22(v2, null, v20);
+f22(v0, v1, f3);
+const o32 = {
+    "maxByteLength": 1709567775,
+};
+const v34 = new SharedArrayBuffer(3226, o32);
+new Float64Array(v34);
+Object.defineProperty(o32, v2, { writable: true, get: f3 });

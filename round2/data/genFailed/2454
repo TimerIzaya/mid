@@ -1,0 +1,54 @@
+class C3 {
+    valueOf(a5) {
+        const t2 = "charCodeAt";
+        t2[this] /= 35237;
+        try { new a5(); } catch (e) {}
+        const t5 = "charCodeAt";
+        t5["charCodeAt"] <<= 35237;
+        return a5;
+    }
+    set h(a8) {
+        const v9 = a8 <= this;
+        if (v9) {
+            try { a8.stringify(35237); } catch (e) {}
+        } else {
+            super.c = this;
+            a8 = v9;
+        }
+    }
+}
+const v11 = new C3();
+const v12 = new C3();
+let v13 = new C3();
+class C14 extends C3 {
+    toString(a16, a17, a18, a19) {
+        let v20;
+        try { v20 = a17.valueOf(); } catch (e) {}
+        v20.a >>= 35237;
+        [a18,C3,a16,...v13] = v20;
+        return v12["charCodeAt"];
+    }
+    static g = v12;
+    3110;
+    o(a23, a24, a25) {
+        const v28 = 4294967296 << v12;
+        v12 ** v12;
+        v28 ^ v28;
+        let v31 = v28 && v28;
+        v31++;
+        return +v12;
+    }
+}
+const v34 = new C14();
+new C14();
+const v36 = new C14();
+let v40;
+try { v40 = C3(0.2865510336382343, v34, C14, v36); } catch (e) {}
+Object.defineProperty(v11, "d", { configurable: true, enumerable: true, value: -5.0 });
+function f41() {
+    return 0.2865510336382343;
+}
+v34.h = v40;
+new f41();
+C14[4] = C14;
+try { C14["valueOf"](35237, "valueOf", "valueOf", C3); } catch (e) {}

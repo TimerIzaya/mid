@@ -1,0 +1,87 @@
+new Map();
+function f5(a6, a7) {
+    const o27 = {
+        "a": a6,
+        "b": a7,
+        __proto__: a7,
+        4: 12,
+        n(a9, a10, a11, a12) {
+            this.length = 1;
+            for (let i16 = 0, i17 = 10; i16 < i17; i16++, i17--) {
+                let v25;
+                try { v25 = a7(i16, a7); } catch (e) {}
+                try { new a7(this, 36611, v25, a10); } catch (e) {}
+            }
+            return a10;
+        },
+    };
+    return o27;
+}
+const v28 = f5(12, f5);
+const v29 = f5(10905, v28);
+const v30 = f5(12, f5);
+function F31(a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a34;
+    this.d = v29;
+}
+const v35 = new F31(v29, v28);
+new F31(v29, v35);
+new F31(v29, v30);
+function F41(a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a44;
+}
+const v45 = new F41(12, 12);
+new F41(10905, 12);
+new F41(10905, 36611);
+Object.defineProperty(v45, "b", { writable: true, get: f5, set: f5 });
+[1.6099667024866005e+308,-975.1143032381449,7.4709248200940905];
+[-9.038752278037656e+307,-470.57686700826287,-1.7976931348623157e+308,0.6823125477749518,-1000000000000.0,-7.1817436564073915,-2.0,1e-15,9.715447454450594];
+[2.2250738585072014e-308,8.521170386984423,-193460.22637543431,1000.0,-4.0,-283.368847165725,1e-15];
+class C3 {
+    toString(a5, a6) {
+        class C7 {
+            #c = 268435456;
+            8;
+        }
+        new C7();
+        new C7();
+        const v10 = new C7();
+        return v10;
+    }
+    #e;
+    static #a = 0.4833504115403864;
+    [268435456] = 0.4833504115403864;
+    #b;
+}
+new C3();
+new C3();
+let v13 = new C3();
+class C17 {
+    static [-1929158931] = -12n;
+    n(a19, a20, a21, a22) {
+        try {
+            v13 = this;
+        } catch(e23) {
+        }
+        return this;
+    }
+    c = -12n;
+    static #m(a25, a26, a27, a28) {
+        try {
+            this[252] = 0.4833504115403864;
+        } catch(e29) {
+        }
+        return a27;
+    }
+}
+new C17();
+const v31 = new C17();
+new C17();
+try { C17(); } catch (e) {}
+v13 >> "boolean";
+Object.defineProperty(v31, 176, { configurable: true, value: v13 });
+function f41() {
+    return 0.4833504115403864;
+}

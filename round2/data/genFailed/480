@@ -1,0 +1,76 @@
+const v1 = new WeakMap();
+const v2 = [v1,v1,v1,WeakMap];
+const v3 = [v2,v2,WeakMap,v1];
+const v4 = [v3,v3,v3,v1,v3];
+function f5() {
+    return WeakMap;
+}
+function f9(a10, a11, a12, a13) {
+    const o27 = {
+        "e": 4096,
+        3: a11,
+        toString(a15, a16) {
+            const v17 = -this;
+            try { new a13(v17, v17); } catch (e) {}
+            super.e;
+            10 << 10;
+            Math.min(10);
+            let v25 = -10;
+            v25--;
+            return 4096;
+        },
+    };
+    return o27;
+}
+f9(v4, v3, 4096, v1);
+f9(v3, v3, 4096, f5);
+const v30 = f9(v4, v4, 4096, v1);
+try {
+    v4.slice();
+} catch(e32) {
+}
+const v37 = 129 ** 129;
++-9223372036854775808;
+Math.cosh(v30);
+Math.sign(v37);
+const v41 = v37 >> 0.3325087065085175;
++-9223372036854775808;
+v37 % v41;
+const v0 = [536870912,-10,13,9,9223372036854775807,-4294967297,-2147483648];
+const v1 = [-2];
+[-211027610,1,10000,6,-128];
+const v3 = /(?<=)xyz{1,}?5h(?:ab)+/igmuy;
+const v4 = /(x)(x)(x)\1/du;
+const v5 = /a{,}AU[](?:a+)*/sgy;
+function f6(a7, a8) {
+    const o16 = {
+        [v0]: a7,
+        [a8](a10, a11) {
+            return Reflect.construct(a7, [a10,a8 instanceof a7,a8], a7);
+        },
+        "c": v1,
+        "d": v1,
+        "f": a7,
+        "b": a8,
+        ...a8,
+        ...v4,
+    };
+    return o16;
+}
+f6(f6, v5);
+f6(v0, v5);
+f6(v3, v4);
+[706.8122480941106,95687.6831744886,57.07105866778329,-2.0,0.13513718203291658,-2.2250738585072014e-308,-1000000000000.0,-0.0];
+const v21 = [1.381697419099117e+307];
+[2.2250738585072014e-308,3.0];
+const v24 = new WeakMap();
+if (WeakMap >= v24) {
+    f6(v24, b);
+    %PrepareFunctionForOptimization(f6);
+    f6(v24, b);
+    f6(v24, b);
+    %OptimizeMaglevOnNextCall(f6);
+    f6(v24, b);
+} else {
+    v1[v4] ^= v21;
+}

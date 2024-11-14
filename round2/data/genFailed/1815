@@ -1,0 +1,31 @@
+const v2 = new BigInt64Array(16);
+const v5 = new BigUint64Array(151);
+const v8 = new BigInt64Array(4096);
+class C9 extends BigInt64Array {
+    valueOf(a11, a12, a13) {
+        let v14;
+        try { v14 = this.filter(BigUint64Array); } catch (e) {}
+        this | BigInt64Array;
+        const v16 = v2[this];
+        v14.a = v5;
+        try { v2.reduceRight(v14, v16); } catch (e) {}
+        %VerifyType(a13);
+        v8["reverse"]();
+        return v16;
+    }
+    #g;
+    static c = BigInt64Array;
+}
+let v20 = new C9();
+new C9();
+new C9();
+try {
+    v8.fill(C9, 151, 1);
+} catch(e25) {
+}
+with (C9) {
+    c = BigInt64Array;
+    v20 = v2;
+    const v27 = v8["toSorted"](v5);
+    try { v5.reduceRight(v27); } catch (e) {}
+}

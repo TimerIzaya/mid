@@ -1,0 +1,35 @@
+[];
+const v3 = new Float64Array(5);
+const v6 = new Float32Array(129);
+new Uint32Array(8);
+const v12 = new Uint32Array(1000);
+new Uint8Array(910);
+const v18 = new Int16Array(7);
+v6.__proto__;
+const o20 = {
+    5: v3,
+    __proto__: v3,
+    "g": v12,
+    65537: v18,
+};
+let v21;
+try { v21 = o20.o(); } catch (e) {}
+v21.toString = v21;
+const v23 = Symbol.iterator;
+const o32 = {
+    [v23]() {
+        let v25 = 10;
+        const o31 = {
+            next() {
+                v25--;
+                const v29 = v25 == 0;
+                const o30 = {
+                    "done": v29,
+                    "value": v25,
+                };
+                return o30;
+            },
+        };
+        return o31;
+    },
+};

@@ -1,0 +1,25 @@
+const v3 = [252.80631363622774,-1.1056290014669946e+308];
+const v4 = [-1000000.0,NaN,0.10075335914975925,NaN,0.6944625292314264,1.7976931348623157e+308,-1.0300650750879815e+308,-1e-15];
+const v5 = [-Infinity,5.0,694129.2849338558];
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = a10;
+}
+const v12 = new F6(v4, 6n, v4, v4);
+const v13 = new F6(v3, 6n, v3, v3);
+const v14 = new F6(v4, 6n, v5, v13);
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a18;
+}
+new F15(v12, v4);
+new F15(v13, v5);
+new F15(v12, v3);
+const o22 = {
+    ...v12,
+};
+v5.length = v13[2n];
+try { v14.m(); } catch (e) {}
+new Set();
+%VerifyType(o22);
+v5 < v3;

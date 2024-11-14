@@ -1,0 +1,24 @@
+class C3 {
+    static o(a5, a6) {
+        ([a5]).__proto__;
+        new Uint8ClampedArray(8);
+        const v14 = new Uint8Array(333);
+        new Int16Array(1000);
+        return v14;
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+const t12 = "toString";
+t12[v19] = v19;
+throw v20;
+%VerifyType(-852644069);
+const v28 = ("f")["m"];
+const v29 = 7.838788311865695e+307 >> C3;
+7.838788311865695e+307 - v20;
+const t18 = "bigint";
+t18[5.0] = "8l60";
+("toString")["toString"];
+v18.c = C3;
+try { v28(v29, -852644069, v29, v19); } catch (e) {}

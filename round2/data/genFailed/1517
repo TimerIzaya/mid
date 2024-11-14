@@ -1,0 +1,21 @@
+const v2 = new Uint16Array(257);
+const v5 = new Uint16Array(8);
+const v8 = new BigInt64Array(1);
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = v5;
+    this.g = BigInt64Array;
+    this.a = v8;
+}
+const v14 = new F9(8, 1, 8);
+new F9(257, 1, 8);
+new F9(257, 1, 257);
+v5.__proto__ = v14;
+const v18 = new Uint16Array(1);
+const v19 = new Uint16Array(v5, 8, 257);
+Object.defineProperty(v18, v19, { value: g });
+const o20 = {
+    "f": 1,
+    "h": v14,
+    "a": v2,
+};

@@ -1,0 +1,28 @@
+let v0 = -3;
+const v1 = -Infinity;
+class C3 {
+    static #g;
+    m(a5) {
+        a5 | a5;
+        %VerifyType(this);
+        let v8 = 1;
+        ++v0;
+        const v12 = ++v0;
+        --v8;
+        +v12;
+        return -65536;
+    }
+}
+new C3();
+new C3();
+new C3();
+new Float32Array(1788);
+const v26 = new BigUint64Array(16);
+new BigUint64Array(2417);
+const o32 = {
+    "maxByteLength": 2019,
+};
+const v34 = new ArrayBuffer(2019, o32);
+const v36 = new Int32Array(v34);
+const v37 = [v36,v1,v0,25463n];
+[v37,v26,[Float32Array,v37,2417],v34,v26];

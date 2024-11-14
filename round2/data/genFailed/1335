@@ -1,0 +1,77 @@
+const v1 = new Set();
+class C5 extends Set {
+    static ["with"];
+    constructor(a7, a8) {
+        super(v1);
+        const v9 = super.size;
+        const t6 = "with";
+        t6[v9] ||= "m" >> v9;
+        this in "m";
+        a8.length = 1073741825;
+        v1.length = 0;
+    }
+    static #c;
+    #h = v1;
+    #b;
+}
+const v14 = new C5("R", "with");
+const v15 = new C5(Set, "with");
+let v16 = new C5("with", "R");
+const v21 = new Date();
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a25;
+}
+const v28 = new F22(v16, "with", v14, Set);
+const v29 = new F22(v16, "m", v15, "R");
+new F22(v14, "with", v15, Set);
+v29[3] <<= -4294967296;
+v16 >>>= v16;
+function F31(a33, a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a36;
+    this.b = -1799547478;
+    this.e = a34;
+}
+new F31(v15, v15, 5, v16);
+new F31(v28, v1, v15, 5);
+new F31(v21, v14, -1799547478, -1799547478);
+function f0() {
+    const o7 = {
+        [9223372036854775807]: "536870889",
+        "h": "536870889",
+        [9223372036854775807](a5) {
+            try {
+                this.a = 2.2250738585072014e-308;
+            } catch(e6) {
+            }
+            return a5;
+        },
+        "e": "536870889",
+    };
+    return o7;
+}
+f0();
+f0();
+f0();
+let v11 = 15733;
+try {
+    new Int32Array(11);
+} catch(e18) {
+}
+try {
+    new Int8Array(8);
+} catch(e22) {
+}
+try {
+    new Int16Array(0);
+} catch(e26) {
+}
+new Date();
+for (let i32 = 0, i33 = 10; i32 < i33; i32++, i33--) {
+    ({"a":v11,"prototype":i33,...i32} = Date);
+    try {
+        Date.h = i32;
+    } catch(e41) {
+    }
+}

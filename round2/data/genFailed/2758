@@ -1,0 +1,32 @@
+class C3 {
+    [2n];
+    static #valueOf(a5) {
+        let {"a":v6,"g":v7,"h":v8,} = a5;
+        v6[a5] = v6;
+        return a5;
+    }
+    constructor(a10) {
+        function F11(a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.f = -4n;
+            this.a = 3n;
+        }
+        new F11(a10, 3n);
+        new F11(a10, 2n);
+        new F11(-4n, 2n);
+    }
+}
+new C3(-4n);
+new C3(3n);
+const v20 = new C3(-4n);
+const v23 = new Int16Array(8);
+new Uint16Array(94);
+new Int32Array(133);
+let [] = v23;
+for (const v31 of C3[v20]) {
+    try {
+        v20.preventExtensions(-4294967296, Int32Array, v31);
+    } catch(e34) {
+    }
+}
+v20[7] = 94;

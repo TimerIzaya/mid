@@ -1,0 +1,34 @@
+function f3() {
+    return 2n;
+}
+function f10(a11, a12, a13, a14) {
+    const o29 = {
+        "g": 4n,
+        [a14](a16, a17) {
+            try { a17.setInt8(this, a16, 4n); } catch (e) {}
+            return this;
+        },
+        __proto__: a12,
+        [a12]: 2n,
+        valueOf(a20, a21, a22) {
+            return a11;
+        },
+    };
+    return o29;
+}
+const v30 = f10(4n, 44510, 2n, -40641);
+const v31 = f10(f3, -40641, 13n, -40641);
+const v32 = f10(13n, 44510, 13n, 512);
+try { v31.valueOf(44510, -170513781n, v32, 512); } catch (e) {}
+const v35 = new WeakMap();
+Object.defineProperty(v32, "g", { writable: true, configurable: true, enumerable: true, get: f3, set: f3 });
+with (v35) {
+    v30[WeakMap] &&= 44510;
+}
+let v37;
+try { v37 = v35.get(-40641); } catch (e) {}
+let v40 = 0.16370877321130628;
+const v41 = v40++;
+Math.log(-6);
++v41;
+f10 || v37;

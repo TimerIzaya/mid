@@ -1,0 +1,53 @@
+class C3 {
+    #f = -1000.0;
+    static 10000;
+    4 = 536870912;
+    static #toString(a5) {
+        try {
+            this.#toString(a5, a5, this);
+        } catch(e7) {
+        }
+        return this;
+    }
+    constructor(a9) {
+        const v10 = super.e;
+        super.c = v10;
+        a9.__proto__ = v10;
+        try {
+            a9.#f;
+        } catch(e15) {
+        }
+    }
+}
+const v16 = new C3(0.705183462758745);
+const v17 = new C3(C3);
+const v18 = new C3(v17);
+function f22() {
+    return 0.705183462758745;
+}
+class C23 extends C3 {
+    #m(a25, a26, a27, a28) {
+        Object.defineProperty(a25, 9, { writable: true, configurable: true, enumerable: true, get: f22 });
+        v17[4];
+        %VerifyType(a27);
+        a25[6];
+        return a28;
+    }
+    static #c;
+    static 2;
+    #a = v18;
+    [v17] = v17;
+    [C3];
+}
+new C23();
+const v35 = new C23();
+new C23();
+class C37 extends f22 {
+    802 = -2.0;
+}
+new C37();
+new C37();
+const v40 = new C37();
+v40 << v35;
+try { v18.p(v16, 536870912); } catch (e) {}
+C37[Symbol.species];

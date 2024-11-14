@@ -1,0 +1,16 @@
+new Set();
+const v9 = new WeakSet();
+const v12 = new Int8Array(257);
+new Uint8ClampedArray(3433);
+new Int16Array(255);
+function F19(a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a23;
+    this.b = a23;
+    this.g = "sq";
+}
+new F19(257, 257, 255);
+new F19(3433, 255, Int8Array);
+new F19(257, 3433, v12);
+257 / 4294967297n;
+v9.__proto__;

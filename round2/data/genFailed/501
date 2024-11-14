@@ -1,0 +1,80 @@
+function f0() {
+}
+class C1 extends f0 {
+    set e(a3) {
+        let {"d":v7,"e":v8,} = this;
+    }
+    constructor() {
+        super();
+    }
+}
+const v13 = new C1();
+const v14 = new C1();
+const v15 = new C1();
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = null;
+}
+const v23 = new F17(F17, v13, v13, v14);
+const v24 = new F17(v23, v13, v13, v13);
+new F17(f0, v15, C1, v14);
+const v28 = new Uint16Array(13);
+new Float64Array(4);
+new Float32Array(129);
+!v28;
+function f36(a37, a38) {
+    arguments[129] = v24;
+    const o42 = {
+        "maxByteLength": 13,
+    };
+    const v44 = new SharedArrayBuffer(2, o42);
+    new BigUint64Array(v44);
+    return arguments;
+}
+f36(Uint16Array, 129);
+try {
+    new Float32Array(21);
+} catch(e3) {
+}
+try {
+    new Int16Array(4096);
+} catch(e7) {
+}
+try {
+    new Int32Array(168);
+} catch(e11) {
+}
+function f12() {
+    return 168;
+}
+[-9.040592011988382,2.0,-1000.0,-1000000000000.0,-1.0,Infinity,858185.2719065528];
+let v14 = [-1e-15];
+const v15 = [-5.0];
+try {
+    new Uint8ClampedArray(3079);
+} catch(e19) {
+}
+try {
+    new Uint32Array(9);
+} catch(e23) {
+}
+try {
+    new Uint8Array(1282);
+} catch(e27) {
+}
+const v28 = v14[1233];
+const v30 = [];
+const v31 = v14.pop;
+Reflect.apply(v31, v28, v30);
+try {
+    v14 = v15;
+} catch(e33) {
+}
+let v35 = -9007199254740990;
+const v36 = v35++;
+v35 >>> v36;
+let v38 = v35 - v35;
+const v39 = v36 - v31;
+v38++;
+Math.cos(v39);
+Math.trunc(v31);

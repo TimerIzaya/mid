@@ -1,0 +1,15 @@
+let v2 = new Float32Array(0);
+let v4 = BigInt64Array;
+new v4(4096);
+const v8 = new BigUint64Array(8);
+const v9 = [4096,v4];
+const v10 = [v4,v9];
+const v11 = [Float32Array,0];
+let v12;
+try { v12 = v10.findLast(Float32Array, v9); } catch (e) {}
+let v13 = v11 * v12;
+({"e":v4,"length":v13,} = v10);
+v4[1] = v2;
+v2 -= v12;
+v8.length = v13;
+try { new v4(); } catch (e) {}

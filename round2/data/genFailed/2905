@@ -1,0 +1,26 @@
+class C3 {
+    valueOf(a5, a6) {
+        super[a6 - "-58768"] = "-58768";
+        const o10 = {
+            "maxByteLength": 1024,
+        };
+        const v12 = new ArrayBuffer(1024, o10);
+        new DataView(v12);
+        return "bigint";
+    }
+}
+new C3();
+const v16 = new C3();
+const v17 = new C3();
+const v20 = new Array(2);
+[[v20,Array,2,v20,v20],"-58768",2];
+[v20,C3,v16];
+for (let v24 = 0; v24 < 32; v24++) {
+    const t18 = "-58768";
+    t18["p" + v24] = v24;
+}
+C3 = v16;
+%VerifyType(v17);
+("bigint").__proto__;
+Object.defineProperty("boolean", "a", { configurable: true, set: Array });
+new Array(1013);

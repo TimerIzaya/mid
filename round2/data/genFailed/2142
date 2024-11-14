@@ -1,0 +1,25 @@
+let v0 = "undefined";
+class C3 {
+    n(a5) {
+        const v6 = a5.__proto__;
+        try { v6(v0); } catch (e) {}
+        a5 |= v0;
+        const v10 = new Array(8);
+        return v10;
+    }
+    static 2936 = "g";
+    static 57 = "g";
+}
+const v11 = new C3();
+new C3();
+const v13 = new C3();
+const v16 = new Int32Array(255);
+new Float32Array(14);
+new Int32Array(199);
+v16.byteOffset;
+const v24 = v13.c;
+const v28 = -9223372036854775807n % 14;
+Object.defineProperty("g", v24, { writable: true, configurable: true, value: v24 });
+%VerifyType(v28);
+v11.__proto__;
+++v0;

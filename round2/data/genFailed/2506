@@ -1,0 +1,21 @@
+function f0() {
+}
+new Int16Array(16);
+const v9 = new Int16Array(1024);
+const v12 = new Float64Array(129);
+Object.defineProperty(v12, "b", { writable: true, get: f0, set: f0 });
+const v18 = Reflect.construct(Int16Array, [v9], Int16Array);
+if (1024 !== v12) {
+    /foo(?<!bar)baz/isu;
+    /((?:ab)?)/gysdv;
+    /CY/gmdu;
+} else {
+    function F23(a25, a26, a27) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.b = a25;
+        this.f = a25;
+    }
+    const v28 = new F23(-1.7270074598677935e+308, 129, -1.7270074598677935e+308);
+    new F23(v18, v28, -1.0);
+    new F23(1.2843557922259795e+308, F23, -1.0);
+}

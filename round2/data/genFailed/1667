@@ -1,0 +1,32 @@
+function f0() {
+    const o4 = {
+        [-2]: 2147483648,
+        1: 36414,
+        "b": -1073741824,
+        "a": 2147483648,
+        [2147483648]: -1073741824,
+        ...-1073741824,
+        "c": 36414,
+        "f": -1073741824,
+        "d": -1073741824,
+        "g": 2147483648,
+        "h": 36414,
+    };
+    return o4;
+}
+const v5 = f0();
+const v6 = f0();
+const v7 = f0();
+new Map();
+[v6,v5,Map,"lz","valueOf"];
+["lz","bigint",v6,"bigint",[Map,"valueOf"]];
+class C16 extends Map {
+    constructor(a18, a19, a20, a21) {
+        super(a20);
+        "valueOf" - "bigint";
+    }
+    #c = v7;
+}
+new C16(v5, "bigint", "lz", v6);
+new C16(v7, "bigint", "lz", v7);
+new C16(v5, "valueOf", "valueOf", "lz");

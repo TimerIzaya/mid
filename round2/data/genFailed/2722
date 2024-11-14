@@ -1,0 +1,26 @@
+class C3 {
+    static [-256] = "9007199254740992";
+    static 10 = -256;
+    a = 0.7496141036134131;
+    static ["9007199254740992"] = -256;
+    g;
+    get f() {
+        let v5;
+        try { v5 = this.getOwnPropertyDescriptors(this, this); } catch (e) {}
+        v5[1] = v5?.g;
+        v5.length = 1;
+        return this;
+    }
+}
+const v8 = new C3();
+new C3();
+const v10 = new C3();
+const v12 = new Map();
+class C17 extends v8.constructor {
+    [v10] = v12;
+    c = v10;
+}
+new C17();
+v12.size;
+throw C3;
+C3.g;

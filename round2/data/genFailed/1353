@@ -1,0 +1,85 @@
+const v0 = [1.0,1000.0,-1e-15,-813.4001751172102,-1.6559212388478315,-1e-15,-2.2250738585072014e-308,0.10073553570623706];
+[-560882.7886923302,701.1471276793391,246.30788562708562,-947.0526704090004];
+[372714.66662861523,1.7976931348623157e+308,-2.0];
+class C3 {
+    static {
+    }
+    static set c(a9) {
+        const o13 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o13);
+    }
+}
+const v15 = new C3();
+new C3();
+new C3();
+const v22 = new WeakSet();
+v15 | v22;
+let v25 = -51805;
+Math.cbrt(v25);
+!v25;
+++v25;
+const v29 = v0.__proto__;
+v29 instanceof v29;
+function f0() {
+}
+function f4(a5) {
+    const o19 = {
+        __proto__: a5,
+        268435456: -24373n,
+        "b": a5,
+        "e": a5,
+        ...a5,
+        set f(a7) {
+            const v9 = Symbol.iterator;
+            const o18 = {
+                [v9]() {
+                    let v11 = 10;
+                    const o17 = {
+                        next() {
+                            v11--;
+                            const v15 = v11 == 0;
+                            const o16 = {
+                                "done": v15,
+                                "value": v11,
+                            };
+                            return o16;
+                        },
+                    };
+                    return o17;
+                },
+            };
+        },
+    };
+    return o19;
+}
+const v20 = f4(1073741824n);
+const v21 = f4(v20);
+const v22 = f4(v21);
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v20;
+    } catch(e27) {
+    }
+    try {
+        this.b = a25;
+    } catch(e28) {
+    }
+}
+new F23(-1594312839n, 1073741824n);
+new F23(v22, f0);
+const v31 = new F23(v21, f0);
+Object.defineProperty(v31, "d", { configurable: true, enumerable: true, set: f0 });
+const v32 = v21[v21];
+for (let v33 of v32) {
+    try {
+        v33 **= v33;
+    } catch(e34) {
+    }
+}
+let v35;
+try { v35 = v21.min(v32); } catch (e) {}
+try { v35(1073741824n); } catch (e) {}

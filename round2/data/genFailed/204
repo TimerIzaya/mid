@@ -1,0 +1,48 @@
+let v0 = "string";
+Math.sign(8);
+const v15 = v0 >> 8;
+const v16 = ++v0;
+let v17;
+try { v17 = ("D").slice(8, v16); } catch (e) {}
+Object.defineProperty(v17, "a", { configurable: true, value: -1e-15 });
+const t7 = "-3";
+t7[8.278230516603998] = v15;
+%VerifyType(v0);
+Object.defineProperty(v17, -268435456n, { writable: true, configurable: true, enumerable: true, value: -268435456n });
+try {
+    new Uint8Array(2372);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(512);
+} catch(e7) {
+}
+try {
+    new Float32Array(4);
+} catch(e11) {
+}
+try {
+    new Int16Array(2677);
+} catch(e15) {
+}
+try {
+    new BigUint64Array(9);
+} catch(e19) {
+}
+try {
+    new Int32Array(1000);
+} catch(e23) {
+}
+for (const v24 of Float32Array) {
+    v24[2677] *= v24;
+    try {
+        const o25 = {
+        };
+        new BigUint64Array(o25, 9);
+    } catch(e27) {
+    }
+}
+try {
+    new Int16Array(1);
+} catch(e30) {
+}

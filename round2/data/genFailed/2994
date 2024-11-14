@@ -1,0 +1,41 @@
+class C6 {
+    ["T"];
+    constructor(a8, a9) {
+        function f10() {
+            return a9;
+        }
+        const t6 = "freeze";
+        t6.length = a8;
+        a9.length;
+        const o14 = {
+            "maxByteLength": 268435441,
+        };
+        const v16 = new SharedArrayBuffer(470, o14);
+        new Float32Array(v16);
+    }
+}
+const v19 = new C6(189257345n, "T");
+new C6(189257345n, "freeze");
+const v21 = new C6(189257345n, "T");
+function f23() {
+    return "T";
+}
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a28;
+}
+const v29 = new F25("freeze", 189257345n);
+new F25("T", 8n);
+const v31 = new F25(v19, 536870912n);
+try {
+    new C6(8n, "freeze");
+} catch(e33) {
+}
+delete v21[v29];
+const v35 = v29 * v31;
+v21[v35];
+v31.b = undefined;
+v31.g <<= v35;
+for (let v37 = 0; v37 < 32; v37++) {
+    v31["p" + v37] = v37;
+}

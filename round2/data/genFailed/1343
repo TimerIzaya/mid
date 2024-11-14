@@ -1,0 +1,38 @@
+new Int32Array(255);
+new Int32Array(2283);
+new Float64Array(2581);
+const v10 = new Date();
+new Float64Array(3);
+new Uint16Array(0);
+const v19 = new Int8Array(13);
+v19[5];
+%VerifyType(v10);
+Date[536870889];
+const o25 = {
+    "maxByteLength": 1024,
+};
+const v27 = new ArrayBuffer(7, o25);
+new Float32Array(v27);
+try {
+    new Float64Array(2);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(7);
+} catch(e10) {
+}
+try {
+    new Int16Array(255);
+} catch(e14) {
+}
+/A\p{Script=Greek}(?<=a)+/igmv;
+const v16 = /i8(x)(x)(x)\4*/gm;
+/\p{gc=Nd}(?:a+){0,0}?/y;
+function f18() {
+    return -4294967295n;
+}
+let v19 = 0;
+while (v19 < 5) {
+    Reflect.construct(BigUint64Array, [Reflect,v16[855688273]], f18);
+    v19++;
+}

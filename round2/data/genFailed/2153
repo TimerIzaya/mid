@@ -1,0 +1,61 @@
+function f0() {
+    const o13 = {
+        set f(a5) {
+            function f6(a7, a8) {
+                const o9 = {
+                    "b": -1000000000000.0,
+                    "h": "bigint",
+                    "d": 0.41853418111712914,
+                };
+                return o9;
+            }
+            f6(a5, this);
+            f6("bigint", this);
+            f6(0.41853418111712914, "bigint");
+        },
+        ..."bigint",
+        ..."bigint",
+    };
+    return o13;
+}
+const v14 = f0();
+const v15 = f0();
+const v16 = f0();
+const v19 = new Uint8Array(3520);
+new Uint32Array(651);
+new Float64Array(6);
+function f26(a27, a28, a29, a30) {
+    const o36 = {
+        "h": a28,
+        "a": a28,
+        [3520]: v19,
+        __proto__: v15,
+        "e": v15,
+        6: v19,
+        [v16]: 651,
+        ...a29,
+        [651]: a28,
+        get c() {
+            [9253,1027448494,717311923,16,44619];
+            [-9,2147483647];
+            [1073741825,16,-14,-2,-4,-204,341,1205011599];
+            function f35() {
+                return 3520;
+            }
+            return this;
+        },
+    };
+    return o36;
+}
+const v37 = f26(f0, v15, v14, 651);
+const v38 = f26(6, v16, v16, 651);
+f26(v38, v16, v16, 6);
+class C40 {
+    static #g;
+}
+new C40();
+new C40();
+new C40();
+v37.f = v15;
+Object.defineProperty(v38, "c", { writable: true, configurable: true, get: f26, set: f26 });
+Reflect.construct(f0, [], f26);

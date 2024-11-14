@@ -1,0 +1,70 @@
+const v1 = new Date();
+class C2 extends Date {
+    #d;
+    #f = Date;
+    #a;
+    [Date];
+    constructor(a4, a5) {
+        super(a4);
+        delete this?.b;
+        const v7 = (a8, a9, a10) => {
+            a8 |= a9;
+            const o11 = {
+            };
+            o11.f = a9;
+            const o12 = {
+            };
+            o12.f = a9;
+            o12.e = v1;
+            const o13 = {
+            };
+            o13.f = a9;
+            o13.e = v1;
+            o13.h = a4;
+            const o14 = {
+            };
+            o14.f = a9;
+            o14.e = v1;
+            o14.c = a5;
+            return a5;
+        };
+    }
+}
+const v15 = new C2(Date, C2);
+const v16 = new C2(C2, C2);
+const v17 = new C2(v16, v16);
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a24;
+    this.a = v16;
+}
+const v26 = new F21(v15, v17, "I8k");
+const v27 = new F21(v26, v16, "I8k");
+const v28 = new F21("buffer", v27, "valueOf");
+("buffer")[v28];
+("I8k")["trim"]();
+const v33 = Symbol.hasInstance;
+("trim")[v33];
+C2[v28];
+v15 << v33;
+try {
+    Date("trim");
+} catch(e38) {
+}
+[true,true,true,true];
+const v2 = [true,true];
+const v3 = [v2];
+const v5 = new WeakMap();
+function f6() {
+    return true;
+}
+const v8 = [[WeakMap,v5,true],WeakMap];
+const v9 = [WeakMap,v8,v8];
+v8["findLast"](v3[2910922778], v3);
+try {
+    new f6();
+} catch(e14) {
+}
+const v15 = new WeakMap(...v2, ...v2, v5, true);
+%VerifyType(v15);
+Object.defineProperty(v9, 0, { configurable: true, get: f6 });

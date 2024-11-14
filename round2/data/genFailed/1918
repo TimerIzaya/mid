@@ -1,0 +1,35 @@
+const v1 = new WeakSet();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a5;
+}
+const v6 = new F2(v1, WeakSet);
+const v7 = new F2(v1, v6);
+const v8 = new F2(v7, v7);
+function f10(a11, a12) {
+    const o17 = {
+        "c": v6,
+        get d() {
+            function f14(a15) {
+                return a15;
+            }
+            class C16 extends f14 {
+                #f = v1;
+            }
+            return a12;
+        },
+        "h": v8,
+        [a11]: v6,
+    };
+    return o17;
+}
+const v18 = f10(v7, v6);
+f10(v18, v18);
+f10(v18, v8);
+new Set();
+%VerifyType(v7);
+const o25 = {
+    "maxByteLength": 2128,
+};
+const v27 = new SharedArrayBuffer(246, o25);
+new Float32Array(v27);

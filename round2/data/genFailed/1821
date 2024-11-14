@@ -1,0 +1,56 @@
+class C3 {
+    constructor(a5, a6) {
+        this.__proto__ = this;
+        this.toString = a6;
+    }
+    static #m(a8) {
+        function f9(a10) {
+            const o11 = {
+                "d": 1803960925,
+                "e": a10,
+            };
+            return o11;
+        }
+        const v12 = f9(a8);
+        f9(v12);
+        f9(v12);
+        return f9;
+    }
+}
+const v15 = new C3("function", "function");
+const v16 = new C3("function", "function");
+new C3(v15, C3);
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v15;
+    this.b = "function";
+    this.d = a20;
+}
+const v22 = new F18(v15, C3);
+const v23 = new F18(F18, v22);
+const v24 = new F18(F18, C3);
+[21856,1878885522,257,268435439,-9725,65537];
+[-12407,65536,1000,-11,-5,-9007199254740991,-11,-13,2,5018];
+const v27 = [1816732386,-15,4294967295,-2085419836,-59997,6];
+if (v16) {
+    const o28 = {
+    };
+    o28.d = v24;
+    const o29 = {
+    };
+    o29.d = v24;
+    o29.a = v27;
+    const o30 = {
+    };
+    o30.d = v24;
+    o30.a = v27;
+    o30.g = v23;
+    const o31 = {
+    };
+    o31.d = v24;
+    o31.a = v27;
+    o31.c = v22;
+} else {
+    v22.b += 8;
+    1803960925 && F18;
+}

@@ -1,0 +1,71 @@
+new Int16Array(9);
+new Float32Array(9);
+const v8 = new Int32Array(4);
+try {
+    new Int32Array(v8);
+} catch(e16) {
+}
+const o17 = {
+};
+new Proxy("m", o17);
+try {
+    new Uint8Array(595);
+} catch(e3) {
+}
+try {
+    new Uint32Array(12);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3137);
+} catch(e11) {
+}
+try {
+    new Int16Array(102);
+} catch(e15) {
+}
+try {
+    new BigUint64Array(175);
+} catch(e19) {
+}
+try {
+    new Int8Array(5);
+} catch(e23) {
+}
+let v24 = 0;
+while (v24 < 8) {
+    let v27;
+    try { v27 = Int16Array.p(3137, Uint32Array); } catch (e) {}
+    v27[7] = v27;
+    ({"c":v27,"d":v27,"g":v27,...v27} = v27);
+    const o28 = {
+    };
+    try {
+        o28.f = BigUint64Array;
+    } catch(e29) {
+    }
+    try {
+        const o30 = {
+        };
+        o30.f = BigUint64Array;
+        o30.e = Uint8Array;
+    } catch(e31) {
+    }
+    try {
+        const o32 = {
+        };
+        o32.f = BigUint64Array;
+        o32.e = Uint8Array;
+        o32.d = v27;
+    } catch(e33) {
+    }
+    try {
+        const o34 = {
+        };
+        o34.f = BigUint64Array;
+        o34.e = Uint8Array;
+        o34.d = v27;
+    } catch(e35) {
+    }
+    v24++;
+}

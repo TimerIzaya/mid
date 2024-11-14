@@ -1,0 +1,20 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = -1000.0;
+}
+const v6 = new F3(-1000.0);
+const v7 = new F3(-1000.0);
+const v8 = new F3(1.7976931348623157e+308);
+const v13 = v8[Boolean];
+try { v7.m(-0.0, v6, Boolean, -1000000000000.0, v13); } catch (e) {}
+for (let v15 = 0; v15 < 100; v15++) {
+    Boolean(1.7976931348623157e+308);
+}
+v13.d = v7;
+v7[9] = v7;
+Boolean(F3);
+%PrepareFunctionForOptimization(Boolean);
+Boolean(F3);
+Boolean(F3);
+%OptimizeFunctionOnNextCall(Boolean);
+Boolean(F3);

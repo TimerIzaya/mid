@@ -1,0 +1,78 @@
+class C3 {
+    constructor(a5) {
+        2.0020341991685088e+307 instanceof a5;
+        this.toString = 2.0020341991685088e+307;
+        super.a = -348705.19078390824;
+    }
+    [Infinity];
+    [-348705.19078390824] = Infinity;
+    static #d;
+    static #g;
+}
+const v10 = new C3(-348705.19078390824);
+const v11 = new C3(Infinity);
+const v12 = new C3(-348705.19078390824);
+function f17(a18, a19, a20) {
+    const o21 = {
+        "h": -348705.19078390824,
+        "f": v12,
+        [a19]: -339.8466883858089,
+        "g": a19,
+        2: a20,
+        "d": C3,
+        __proto__: a18,
+        ...a18,
+        "e": v11,
+        ...a18,
+        "a": v10,
+        "b": -0.0,
+    };
+    return o21;
+}
+let v23 = f17(f17(v10, Infinity, -0.0), -339.8466883858089, 6.061101921298754);
+const v24 = f17(C3, -0.0, -0.0);
+v23 = v24;
+for (let v25 = 0; v25 < 36; v25++) {
+    v25 << v23;
+}
+try { v11["toReversed"](); } catch (e) {}
+const v29 = v24.g;
+v29 > f17;
+throw v29;
+const o34 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o34);
+const v3 = [1000000000000.0,-3.0,-5.0];
+const v4 = [-1.4955204584493725e+308,-4.0,0.0,-Infinity,-86113.229245077,0.8740843306733086,-2.647655584864525,5.0,1000000000.0,0.0];
+const v5 = [2.220446049250313e-16,-908834.01504633];
+function f6(a7, a8, a9, a10) {
+    const o11 = {
+        "b": "R",
+        __proto__: a9,
+        [-1]: v3,
+        [a8]: v5,
+        2264: a7,
+        "a": a10,
+        "e": "R",
+        ...a10,
+        ...v5,
+        "g": "isNaN",
+    };
+    return o11;
+}
+f6(v4, v3, "-54972", "isNaN");
+f6(v5, v3, "-54972", "R");
+f6(v5, v5, "R", "isNaN");
+const v15 = f6(v4, v5, "-54972", "R");
+Object.defineProperty("isNaN", v15, { enumerable: true, get: f6, set: f6 });
+var c = "isNaN";
+[[v15,"isNaN",v4],"R"];
+[v3,v15] | v5;
+f6(v3, v5, "isNaN", "R");
+%PrepareFunctionForOptimization(f6);
+f6(v3, v5, "isNaN", "R");
+f6(v3, v5, "isNaN", "R");
+%OptimizeFunctionOnNextCall(f6);
+f6(v3, v5, "isNaN", "R");

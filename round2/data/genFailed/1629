@@ -1,0 +1,45 @@
+class C3 {
+    constructor(a5) {
+        new Uint16Array(257);
+        new Uint16Array(6);
+        new Uint8ClampedArray(559);
+    }
+    #g = -1000000.0;
+    b = 13;
+    static #d = -1000000.0;
+}
+let v15 = new C3(C3);
+const v16 = new C3(13);
+const v17 = new C3(v15);
+function f21(a22, a23, a24, a25) {
+    const o29 = {
+        "a": a23,
+        "g": v15,
+        "h": 13,
+        "d": a23,
+        "b": a25,
+        set f(a27) {
+            function f28() {
+                return a22;
+            }
+        },
+        "e": v17,
+        "c": C3,
+        "f": a23,
+        3: v16,
+    };
+    return o29;
+}
+let v31 = f21(48570, v16, f21, f21(48570, "n", v16, v16));
+const v32 = f21(512, 13, v15, C3);
+({"length":v15,...v31} = "n");
+try {
+    v32.atanh(3, 3);
+} catch(e35) {
+}
+v32 >> v15;
+try { f21(v17, ...v17, v16, 13, 13); } catch (e) {}
+v17.__proto__ = v17;
+for (let v38 = 0; v38 < 32; v38++) {
+    C3["p" + v38] = v38;
+}

@@ -1,0 +1,32 @@
+const v5 = new Float32Array(6);
+const v8 = new Int8Array(216);
+new Uint32Array(1169);
+v8.length = 1;
+let v13;
+try { v13 = v5(6); } catch (e) {}
+const v14 = typeof v5;
+const v16 = v14 === "boolean";
+v5.byteLength;
+try { v13(v13, "boolean", v14, 1, v16); } catch (e) {}
+const o19 = {
+};
+new Proxy("boolean", o19);
+try {
+    new BigInt64Array(11);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(512);
+} catch(e14) {
+}
+try {
+    new Float64Array(1);
+} catch(e18) {
+}
+for (const v19 of BigInt64Array) {
+    try { v19.p(v19, v19, v19); } catch (e) {}
+}
+(-8).__proto__;
+let v22 = 10;
+for (; v22--;) {
+}

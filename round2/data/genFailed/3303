@@ -1,0 +1,23 @@
+const v1 = new Set();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = v1;
+    this.d = Set;
+}
+const v5 = new F2(F2);
+const v6 = new F2(v5);
+new F2(v5);
+const v10 = new Uint8ClampedArray(0);
+new Int32Array(8);
+new BigInt64Array(129);
+const v19 = v6[Symbol.species];
+v19 << v5;
+let [v21,v22,v23,...v24] = v19;
+Object.defineProperty(v10, 4294967295, { writable: true, configurable: true, enumerable: true, value: 8 });
+v23 ** v10.byteLength;
+try {
+    const o27 = {
+    };
+    v5.o(o27, 23401);
+} catch(e30) {
+}

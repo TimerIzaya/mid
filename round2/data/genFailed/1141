@@ -1,0 +1,50 @@
+const v2 = new Uint8ClampedArray(1024);
+const v5 = new Int16Array(6);
+const v8 = new Float64Array(19);
+let v11 = 1242360603n;
+({"byteOffset":v11,} = v2);
+Object.defineProperty(v8, Float32Array, { writable: true, configurable: true, value: v11 });
+const v13 = v2[2];
+v5 == -2n ? v5 : -2n;
+1073741823n instanceof v13;
+new Uint32Array(8);
+new Int16Array(7);
+new Uint16Array(10);
+try {
+    new Int16Array(128);
+} catch(e3) {
+}
+try {
+    new Uint16Array(216);
+} catch(e7) {
+}
+try {
+    new Float32Array(30);
+} catch(e11) {
+}
+const v12 = [536870889];
+const v13 = [-50275,-2,-9,8,7,19813];
+const v14 = [27785,1623174795,-1,892,536870889,536870887,-1517084019,-65535,-751105422];
+try {
+    new Int16Array(78);
+} catch(e18) {
+}
+try {
+    new Uint8Array(746);
+} catch(e22) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e26) {
+}
+v13.length **= 216;
+let v27;
+try { v27 = new Int16Array(Int16Array, ...v12, ...746, 30, Uint8ClampedArray, ...v12); } catch (e) {}
+Float32Array & Uint16Array;
+try {
+    v14.__proto__ = v12;
+} catch(e29) {
+}
+const v30 = Uint8ClampedArray / 4;
+try { v12.fill(Uint8ClampedArray, 746, v30); } catch (e) {}
+v27?.h;

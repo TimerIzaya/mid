@@ -1,0 +1,34 @@
+let v0 = 127;
+const v2 = new Int16Array(v0);
+const v5 = new Uint8Array(3401);
+const v8 = new Int16Array(256);
+class C9 extends Uint8Array {
+    static #d = Int16Array;
+    4096 = v2;
+    static {
+        try {
+            this.#d = this;
+        } catch(e11) {
+        }
+    }
+    m(a13, a14) {
+        v0 = a13;
+        v8["filter"](v5);
+        return v2["keys"]();
+    }
+}
+const v19 = new C9();
+const v20 = new C9();
+let v21 = new C9();
+var a = v19;
+v21 = v19;
+let v25;
+try { v25 = v20.toLocaleString(Int16Array, v8); } catch (e) {}
+try { v25(v0, v25); } catch (e) {}
+v25?.a;
+try {
+    const o28 = {
+    };
+    new Int16Array(o28);
+} catch(e30) {
+}

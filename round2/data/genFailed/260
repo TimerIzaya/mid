@@ -1,0 +1,104 @@
+class C3 {
+    static #g;
+    static set e(a5) {
+        a5 ^ "p";
+    }
+    static m(a11, a12) {
+        function F16(a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.g = a19;
+            this.f = a18;
+        }
+        new F16("p", "a");
+        new F16(a12, "mm9");
+        new F16(a12, "p");
+        return "mm9";
+    }
+}
+const v23 = new C3();
+new C3();
+new C3();
+let v32;
+try { v32 = C3.m(-3.479006224711389); } catch (e) {}
+const o33 = {
+};
+new Proxy("p", o33);
+v23.h = -686959350;
+v23[128] *= 349096.6070167769;
+try { o33.getHours(); } catch (e) {}
+C3.e;
+try { new v32(); } catch (e) {}
+try {
+    new Uint8ClampedArray(9);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(6);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1284);
+} catch(e11) {
+}
+try {
+    new Uint8Array(2);
+} catch(e16) {
+}
+try {
+    new Int16Array(112);
+} catch(e20) {
+}
+try {
+    new Int16Array(7);
+} catch(e24) {
+}
+function f25(a26, a27, a28, a29) {
+    const o30 = {
+        [1284]: 1284,
+        290639240: 7,
+        [Int16Array]: BigInt64Array,
+        "e": 1284,
+        536870888: BigInt64Array,
+        "b": 9,
+        "f": 112,
+        "h": BigInt64Array,
+        "d": Int16Array,
+        "c": BigInt64Array,
+        __proto__: a26,
+        ...a28,
+        10: a26,
+        "g": Int16Array,
+        "a": 6,
+    };
+    return o30;
+}
+const v31 = f25(null, 1284, 9, 9);
+const v32 = f25(v31, 7, v31, 2);
+const v33 = f25(Uint8ClampedArray, 7, 9, 1284);
+for (const v34 of v32) {
+    try {
+        v31.h = 9;
+    } catch(e35) {
+    }
+}
+let v36;
+try { v36 = v32.valueOf(); } catch (e) {}
+const v37 = 112;
+function F38(a40, a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a40;
+    } catch(e43) {
+    }
+    try {
+        this.h = a42;
+    } catch(e44) {
+    }
+    try {
+        this.b = a41;
+    } catch(e45) {
+    }
+}
+const v46 = new F38(v31, v31, v36);
+new F38(v46, v36, v33);
+new F38(v31, v32, v46);

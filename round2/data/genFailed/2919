@@ -1,0 +1,53 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = f0;
+}
+let v3 = new F1();
+const v4 = new F1();
+let v5 = new F1();
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = F1;
+    this.h = v3;
+    this.b = v5;
+}
+const v9 = new F6(v4);
+const v10 = new F6(v3);
+const v11 = new F6(v5);
+class C12 {
+    static 7 = v3;
+    [f0];
+    static #valueOf(a14, a15, a16, a17) {
+        Object.defineProperty(v9, 10, { configurable: true, enumerable: true, get: f0 });
+        a14.c = v4;
+        v5 = a16;
+        return F1;
+    }
+    constructor(a19, a20, a21) {
+        function* f22(a23, a24, a25, a26) {
+            const o30 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o30);
+            yield* a23;
+            return a24;
+        }
+        f22(a19, v11, v3, a19);
+    }
+}
+new C12(v5, v11, v9);
+new C12(v3, C12, v9);
+new C12(C12, v11, v10);
+const v36 = f0();
+try {
+    v3.m(v4, F6);
+} catch(e38) {
+}
+v36[9] = C12[178];
+++v3;
+Math.atan2(v3, 1000000000000.0);
+~v36;
+Math.random();

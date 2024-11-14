@@ -1,0 +1,75 @@
+const v3 = [9.936971820062947];
+const v4 = [-1.1224468630865158e+308,-1.0,-921753.9282832398,0.9055725770902124,-979.6493345097508];
+const v5 = [-Infinity,-1000000.0,4.903600410588936,894.7696850118011];
+const v11 = new Float64Array(8);
+new BigUint64Array(3567);
+new BigInt64Array(3544);
+v3[v11] = v11;
+const v18 = (a19, a20) => {
+    const t8 = -995156069n;
+    t8[0] = a19.length;
+    let v22;
+    try { v22 = v4.findLast(v5); } catch (e) {}
+    v22[0] = v11;
+    return -995156069n;
+};
+let v23;
+try { v23 = v18(BigInt64Array, 3567, ...v18, ...v4, 1024n, -995156069n); } catch (e) {}
+v18(v23, -1.7976931348623157e+308);
+%PrepareFunctionForOptimization(v18);
+v18(v23, -1.7976931348623157e+308);
+v18(v23, -1.7976931348623157e+308);
+%OptimizeFunctionOnNextCall(v18);
+v18(v23, -1.7976931348623157e+308);
+function f0() {
+    const o8 = {
+        "c": 52631,
+        [-1.0]: "-7269",
+        "d": 52631,
+        __proto__: "-7269",
+        get h() {
+            for (let v5 = 0; v5 < 32; v5++) {
+                this["p" + v5] = v5;
+            }
+            return this;
+        },
+        "b": 52631,
+        ..."-7269",
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+const v12 = [f0];
+const v13 = [v12];
+const v14 = [v13,v13,v13,f0,v13];
+class C15 {
+    o(a17, a18, a19, a20) {
+        function f21(a22, a23) {
+            const o24 = {
+                "a": a20,
+                __proto__: a17,
+                [a20]: a20,
+                "f": a17,
+            };
+            return o24;
+        }
+        f21(v9, a19);
+        f21(v9, v11);
+        f21(v10, a17);
+        return v12;
+    }
+}
+const v28 = new C15();
+new C15();
+const v30 = new C15();
+try {
+    v28[v13] = v14;
+} catch(e34) {
+}
+v11 instanceof v14["flat"]();
+try {
+    v14[153] = v30;
+} catch(e38) {
+}

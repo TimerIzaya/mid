@@ -1,0 +1,45 @@
+let v1 = -17078;
+class C3 {
+    get e() {
+        Object.defineProperty(this, this, { writable: true, enumerable: true, value: this });
+        v1 = this[22];
+        this > -4.689992388713845e+307;
+        %VerifyType(this);
+        let v7;
+        try { v7 = v1(this, this); } catch (e) {}
+        return v7;
+    }
+    constructor(a9, a10) {
+        this.length = 2;
+        ~1;
+        let v17 = this % 1;
+        const v18 = --v17;
+        Math.fround(-12);
+        !v18;
+        -(-2.220446049250313e-16);
+        Math.sqrt(v17);
+    }
+}
+const v23 = new C3(-4.689992388713845e+307, C3);
+const v24 = new C3(v23, C3);
+const v25 = new C3(536870912, v23);
+function f29(a30, a31, a32) {
+    const o46 = {
+        valueOf(a34, a35, a36) {
+            +(+(~a34));
+            for (let v43 = 0; v43 < 32; v43++) {
+                a34["p" + v43] = v43;
+            }
+            return v1;
+        },
+        [v1]: a30,
+    };
+    return o46;
+}
+const v48 = f29(v25, v23, f29(v25, v23, -4.689992388713845e+307));
+f29(v23, v24, v48);
+-Infinity;
+Object.defineProperty(v48, "c", { writable: true, configurable: true, get: f29, set: f29 });
+new BigInt64Array(83);
+new BigUint64Array(123);
+new BigInt64Array(1000);

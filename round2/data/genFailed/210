@@ -1,0 +1,86 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = 3n;
+    this.g = a5;
+}
+const v7 = new F3(585098767n, 3n);
+const v8 = new F3(3n, 3n);
+const v9 = new F3(3n, 585098767n);
+function f16(a17, a18) {
+    const o24 = {
+        "b": v9,
+        "a": a18,
+        get f() {
+            new F3(2147483649n, 1415860186n);
+            return 3n;
+        },
+        "h": a18,
+        "f": 1415860186n,
+        "d": 1415860186n,
+        [v9]: F3,
+        "c": 585098767n,
+    };
+    return o24;
+}
+f16(v7, "setMilliseconds");
+f16(v9, "boolean");
+f16(v9, "setMilliseconds");
+v7.__proto__ = f16(v8, "boolean");
+let v32 = -3n;
+v32--;
+const v34 = v32 >>> v32;
+let v35 = !-275563.9361977356;
+Math.trunc(3n);
+Math.sqrt(v34);
+--v35;
+try {
+    new Uint32Array(5);
+} catch(e3) {
+}
+try {
+    new Uint16Array(128);
+} catch(e7) {
+}
+try {
+    new Uint32Array(519);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(3216);
+} catch(e15) {
+}
+try {
+    new Uint32Array(19);
+} catch(e19) {
+}
+let v20 = 9;
+try {
+    new Uint32Array(v20);
+} catch(e23) {
+}
+try {
+    new Int16Array(64);
+} catch(e27) {
+}
+let v29 = Float32Array;
+try {
+    new v29(9);
+} catch(e31) {
+}
+try {
+    new Float64Array(257);
+} catch(e35) {
+}
+let v36;
+try {
+const t0 = 128;
+v36 = t0(128, 128, Uint32Array);
+} catch (e) {}
+try {
+    v36.length = 7;
+} catch(e38) {
+}
+let v40;
+try { v40 = v36["toISOString"](Uint32Array, "toISOString", 9); } catch (e) {}
+({"b":v20,"d":v40,"h":v29,} = v36);
+v36?.[536870889];

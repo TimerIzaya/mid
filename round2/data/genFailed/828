@@ -1,0 +1,94 @@
+const v2 = new Uint8ClampedArray(1);
+const v5 = new Uint8ClampedArray(2);
+new Float64Array(2);
+class C9 extends Uint8ClampedArray {
+    static #valueOf(a11, a12) {
+        v5.valueOf = Uint8ClampedArray;
+        new Date();
+        return this;
+    }
+    constructor(a16, a17, a18) {
+        super(a16, a16);
+        const v19 = new Uint8ClampedArray(2, a16, a18);
+        super.byteLength = Uint8ClampedArray;
+        a17.__proto__ = v19;
+    }
+    a;
+    [2] = Uint8ClampedArray;
+}
+const v20 = new C9(1, Float64Array, 1);
+const v21 = new C9(2, v20, v20);
+const v22 = new C9(1, v21, v21);
+class C23 extends Uint8ClampedArray {
+    #b;
+    h;
+    static d;
+    d = v2;
+    static #h;
+    constructor(a25, a26, a27) {
+        super(a26, 1, a26);
+        super[a27] = v2;
+        try {
+            this.#h <<= 2;
+        } catch(e28) {
+        }
+    }
+    static b;
+}
+new C23(2, 2, 2);
+new C23(2, 2, 2);
+new C23(2, 1, 2);
+function f35(a36) {
+    function f38(a39) {
+        let v40;
+        try { v40 = new a39(a39, a39, a39); } catch (e) {}
+        try { C23.p(v40); } catch (e) {}
+    }
+    this.onmessage = f38;
+    v22.length;
+}
+const v46 = ["function"];
+const o47 = {
+    "arguments": v46,
+    "type": "function",
+};
+new Worker(f35, o47);
+const v0 = [0.05833232812449762,-5.0,-1.5736338712995777e+308,NaN,1000000.0,1.2543437238597367e+308,668.5334486791767];
+const v1 = [0.18535397898707373,-667.6451237164407,-347.6119313054427,-271.59088927735195,0.5209889113253091,1000000.0,-964048.6288572357,-3.123022893124481,0.9161801928822197,2.220446049250313e-16];
+const v2 = [Infinity,2.798221111704887,0.8686182507625149];
+class C6 {
+    static o(a8, a9) {
+        try {
+            super.f = v1;
+        } catch(e10) {
+        }
+        return v0;
+    }
+    constructor(a12, a13) {
+        const v14 = a13 ** a12;
+        delete v0[v14];
+        const t13 = v0[v14];
+        t13.f *= v14;
+        const o17 = {
+        };
+        try {
+            new Proxy(v0, o17);
+        } catch(e20) {
+        }
+    }
+}
+const v21 = new C6(-2n, v2);
+const v22 = new C6(v21, v0);
+new C6(v22, v0);
+const v24 = [v21,v1,-2n,v2,C6];
+const v25 = [v21,v22,11n];
+const v26 = [v25,v25,v24,11n,-2n];
+const v27 = v22 || v21;
+function f28(a29, a30, a31, a32) {
+    const o33 = {
+        ...a31,
+    };
+    return o33;
+}
+f28(v24, 11n, v25, v0);
+f28(v1, -2n, v26, f28(v26, -2n, v26, v27));

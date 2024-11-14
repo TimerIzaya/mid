@@ -1,0 +1,31 @@
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a8;
+    this.a = a8;
+}
+const v12 = new F6(12n, 129, -35086n, -44421n);
+const v13 = new F6(-44421n, -1330404425, 12n, -35086n);
+const v14 = new F6(-44421n, 129, -35086n, v13);
+const v16 = [-128,[-44421n,v13,v13,-1330404425],v14,v14];
+[F6,-1330404425];
+v13.a >>= -128;
+v12[v16];
+%VerifyType(F6);
+const v21 = Symbol.iterator;
+const o30 = {
+    [v21]() {
+        let v23 = 10;
+        const o29 = {
+            next() {
+                v23--;
+                const v27 = v23 == 0;
+                const o28 = {
+                    "done": v27,
+                    "value": v23,
+                };
+                return o28;
+            },
+        };
+        return o29;
+    },
+};

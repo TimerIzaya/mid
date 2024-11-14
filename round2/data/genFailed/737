@@ -1,0 +1,110 @@
+class C3 {
+    static #b = -2092275834;
+    constructor(a5) {
+        const o6 = {
+        };
+        new Proxy(a5, o6);
+    }
+    static set a(a10) {
+        a10?.d;
+        let {"a":v12,"c":v13,} = a10;
+        try {
+            this.n(a10, -1.0, a10, 0);
+        } catch(e15) {
+        }
+    }
+}
+const v16 = new C3(-1.0);
+const v17 = new C3(-2092275834);
+const v18 = new C3(-1.0);
+function f19(a20, a21) {
+    const o30 = {
+        ...v17,
+        [a21](a23, a24, a25, a26) {
+            class C28 extends a26.constructor {
+                c = C3;
+            }
+            let v29 = new C28();
+            v29 = this;
+            return a20;
+        },
+        [v16]: 0,
+        ...a21,
+        2: C3,
+        9: v18,
+        65536: a20,
+    };
+    return o30;
+}
+const v31 = f19(v17, v18);
+const v32 = f19(C3, v31);
+const v33 = f19(v17, v31);
+class C34 extends f19 {
+    #valueOf(a36, a37) {
+        let v38;
+        try { v38 = v18.asinh(this, a36); } catch (e) {}
+        try {
+            a37.#valueOf(v16);
+        } catch(e40) {
+        }
+        Object.defineProperty(v33, 4, { writable: true, configurable: true, get: f19, set: f19 });
+        function F41(a43, a44, a45, a46) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.b = -2092275834;
+        }
+        new F41(v33, v33, a36, this);
+        new F41(v32, C3, a36, a37);
+        const v49 = new F41(v33, v38, v16, v33);
+        return v49;
+    }
+}
+new C34();
+new C34();
+new C34();
+for (let v53 = 0; v53 < 32; v53++) {
+    v31["p" + v53] = v53;
+}
+v18[2] = v17;
+v17.b;
+const o60 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o60);
+const v0 = /B[x\dz]/guy;
+const v1 = /a\W(?<!a)+/suy;
+const v2 = /\cj\cJ\ci\cI\ck\cKa\nb\bc/idgv;
+function f3() {
+    return v1;
+}
+class C7 {
+    static toString(a9, a10) {
+        try {
+            super["g"] = v0;
+        } catch(e11) {
+        }
+        return "xkolK";
+    }
+    static #c;
+    set b(a13) {
+        try {
+            f3();
+        } catch(e15) {
+        }
+        a13[9] = a13;
+    }
+}
+new C7();
+const v20 = new C7();
+const v21 = new C7();
+const v25 = [v20,f3,v2];
+const v26 = [NaN,648633.7449589521,-1000.0,-1.0,-1000000.0,-713052.5157036409];
+const v27 = [-1.1870165535184441e+308,0.0,-0.0,-657780.5807919942,-920.7365477671718];
+[-4.0,507.17462010759914,3.1123514187628807,507.3978513350819,-1000000000000.0,1.7976931348623157e+308];
+v27.length ^= v25;
+for (let [v29,v30,v31] of v26) {
+    try {
+        v21.__proto__ = "o";
+    } catch(e32) {
+    }
+}

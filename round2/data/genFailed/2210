@@ -1,0 +1,42 @@
+const v1 = new WeakSet();
+const v2 = [WeakSet];
+const v3 = [v1,v2,v2,v2];
+const v4 = [v1,v1,v3,v2,v2];
+class C14 {
+    #g = 536870888;
+    g;
+    static get a() {
+        for (let v16 = 0; v16 < 21; v16++) {
+            this & v16;
+        }
+        let v18;
+        try {
+        const t0 = 536870888;
+        v18 = t0();
+        } catch (e) {}
+        return v3 + v18;
+    }
+    valueOf(a21, a22, a23) {
+        4294967296n & this;
+        [a22,v4,[v2],this];
+        [2];
+        return 918266173n;
+    }
+}
+new C14();
+new C14();
+const v33 = new C14();
+v33[3301563607] = v3;
+const v34 = C14[3];
+const v36 = 536870888 - 918266173n;
+if (v34) {
+    ("A").normalize("NFC");
+} else {
+    function F40(a42, a43, a44, a45) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.g = a42;
+    }
+    new F40(v34, 1073741824n, 2, 2);
+    new F40(v2, 268435441n, -565575030, v36);
+    new F40(v4, 918266173n, 536870888, v34);
+}

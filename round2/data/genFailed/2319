@@ -1,0 +1,39 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = a6;
+    this.a = 7n;
+    this.g = a6;
+}
+const v7 = new F3(F3, 46930n);
+let v8 = new F3(v7, 46930n);
+const v9 = new F3(46930n, 10n);
+function f10() {
+    return F3;
+}
+class C11 extends f10 {
+    #f = 7n;
+    constructor(a13, a14, a15, a16) {
+        super();
+        async function f17(a18, a19, a20, a21) {
+            const v24 = v8--;
+            const v25 = a21 >> v8;
+            v24 / a21;
+            await 46930n;
+            return v25;
+        }
+        f17(v7, a13, v8, 46930n);
+    }
+}
+new C11(v8, 7n, v8, 10n);
+const v30 = new C11(C11, 7n, v9, 46930n);
+const v31 = new C11(C11, 10n, v30, 46930n);
+v30.g = F3;
+class C32 {
+    static #e;
+    h;
+    static #f;
+    f = v31;
+}
+new C32();
+new C32();
+new C32();

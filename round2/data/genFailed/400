@@ -1,0 +1,79 @@
+const v2 = new Array(6);
+function f3() {
+    return v2;
+}
+new Int32Array(64);
+new Float64Array(7);
+const v12 = new Float32Array(257);
+class C13 {
+    static m(a15, a16) {
+        6 >>> this;
+        super.c = v2;
+        this.h = 257;
+        return v2;
+    }
+    get a() {
+        const o22 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o22);
+        return "minor";
+    }
+}
+const v24 = new C13();
+new C13();
+new C13();
+Object.defineProperty(C13, 16, { writable: true, configurable: true, set: f3 });
+f3();
+class C28 extends Float32Array {
+    [v24];
+    218 = Float64Array;
+}
+new C28();
+new C28();
+new C28();
+try { v12.slice(); } catch (e) {}
+const v0 = /a\bc/simyv;
+const v1 = /foo(?<!bar)baz/sdu;
+const v2 = /\u{12345}\u{23456}?/smy;
+class C3 {
+    constructor(a5) {
+        try {
+            v1.f = v2;
+        } catch(e6) {
+        }
+    }
+    [v2];
+    static d;
+    static #b = v1;
+    a = v1;
+    9 = v2;
+}
+const v7 = new C3(v1);
+new C3(v0);
+const v9 = new C3(v2);
+try {
+    new Uint8ClampedArray(2644);
+} catch(e13) {
+}
+let v14 = 2;
+let v15 = Uint16Array;
+try {
+    new v15(v14);
+} catch(e17) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e21) {
+}
+({"global":C3,"sticky":v15,...v14} = v0);
+for (let v22 = 0; v22 < 32; v22++) {
+    v9["p" + v22] = v22;
+}
+let v25;
+try { v25 = v2(C3); } catch (e) {}
+let v26;
+try { v26 = new v25(v15, v25, v14); } catch (e) {}
+v26 * v7;
+Reflect.construct(v25, [v2,8,v7], Uint8ClampedArray);

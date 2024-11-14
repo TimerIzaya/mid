@@ -1,0 +1,46 @@
+function f0() {
+    const o10 = {
+        get h() {
+            const t3 = this || this;
+            t3.length = 0;
+            for (let v7 = 0; v7 < 32; v7++) {
+                const t6 = "-268435456";
+                t6["p" + v7] = v7;
+            }
+            return this;
+        },
+        "b": "-268435456",
+        ..."-268435456",
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+class C14 extends f0 {
+    #n(a16) {
+        this ** a16;
+        super[-59067];
+        this.c = -59067;
+        return v11;
+    }
+    [v11];
+    static [v13];
+    static 0;
+    static 8 = v12;
+}
+new C14();
+const v23 = new C14();
+new C14();
+new Int8Array(10);
+new Uint8ClampedArray(10);
+new Uint8ClampedArray(3);
+const v34 = v23[12];
+switch (v34) {
+    default:
+        v34[2] = 10;
+        break;
+    case v12:
+        break;
+}
+try { v11["o"](v12); } catch (e) {}

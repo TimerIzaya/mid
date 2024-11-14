@@ -1,0 +1,111 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a6;
+    this.h = 3.0;
+    this.b = f0;
+}
+const v7 = new F4(2.220446049250313e-16);
+const v8 = new F4(2.220446049250313e-16);
+const v9 = new F4(3.0);
+class C10 {
+    m(a12, a13, a14, a15) {
+        let v11 = this;
+        for (const v16 in a13) {
+            v11--;
+            %VerifyType(a12);
+        }
+        a14 = 2.220446049250313e-16;
+        try {
+            new F4(-0.0);
+        } catch(e20) {
+        }
+        return a13;
+    }
+    [v9] = 2.220446049250313e-16;
+    #a = v7;
+}
+const v21 = new C10();
+const v22 = new C10();
+const v23 = new C10();
+class C24 extends f0 {
+    constructor(a26, a27) {
+        super();
+        v22.b += 2.0;
+        if (v7 < v9) {
+            try { a27(v21, a26, a26, a27); } catch (e) {}
+        } else {
+            const v31 = super[a26];
+            Reflect.construct(a27, [v31,v31,Reflect], F4);
+        }
+    }
+    static a = v23;
+}
+const v35 = new C24(v21, C24);
+new C24(v7, v8);
+new C24(v8, f0);
+f0();
+let v39 = new C24(v35, v9);
+v39 &= C24;
+try {
+    f0();
+} catch(e41) {
+}
+v8.c = v8;
+const v42 = delete v35?.f;
+for (let v43 = 0; v43 < 32; v43++) {
+    v42["p" + v43] = v43;
+}
+let v0 = "valueOf";
+class C3 {
+    static #b;
+    static {
+        class C5 {
+            static #b = this;
+            h;
+            static [-2.2250738585072014e-308] = this;
+        }
+        new C5();
+        new C5();
+        new C5();
+    }
+    static e = v0;
+    static 7 = 524153949;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+function f12(a13, a14) {
+    const o29 = {
+        [v0]: -2.2250738585072014e-308,
+        [v11](a16, a17, a18, a19) {
+            try { new a13(this, a17, a13); } catch (e) {}
+            const o23 = {
+                "maxByteLength": 255,
+            };
+            const v25 = new SharedArrayBuffer(255, o23);
+            try {
+                new Int32Array(v25);
+            } catch(e28) {
+            }
+            return a14;
+        },
+    };
+    return o29;
+}
+let v30 = f12(v0, v9);
+let v31 = f12(-2.2250738585072014e-308, v0);
+const v32 = f12(-2.2250738585072014e-308, v10);
+let v33 = -470140.3649908331;
+-Infinity;
+try {
+    v32.f = -2.2250738585072014e-308;
+} catch(e36) {
+}
+try {
+    v11.h = v11;
+} catch(e37) {
+}
+({"c":v33,"g":v31,...v30} = v31);
+({"d":v0,"e":f12,} = v33);

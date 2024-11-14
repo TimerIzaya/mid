@@ -1,0 +1,62 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = false;
+    this.b = false;
+}
+const v3 = new F1();
+const v4 = new F1();
+const v5 = new F1();
+function f6() {
+    return v4;
+}
+function f7(a8, a9) {
+    const o20 = {
+        __proto__: v5,
+        "h": false,
+        [v4]: a8,
+        ...a8,
+        "e": a8,
+        set b(a11) {
+            function F12(a14, a15, a16) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.e = a14;
+            }
+            new F12(a9, v4, v3);
+            new F12(a9, a8, a8);
+            new F12(v3, v5, a8);
+        },
+    };
+    return o20;
+}
+const v21 = f7(v3, F1);
+const v22 = f7(v21, f7);
+const v23 = f7(v21, v22);
+class C24 {
+    e = v23;
+    #n(a26, a27) {
+        try {
+            v22.#n(false, a27, false);
+        } catch(e29) {
+        }
+        return v23;
+    }
+    [v4] = false;
+    [F1] = v21;
+    #g = f7;
+    [f6];
+}
+let v30 = new C24();
+new C24();
+new C24();
+[C24,v30,f6,...C24] = C24;
+for (let [v33,v34,v35] of C24) {
+    v34 = v23;
+    function F36(a38, a39) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.g = v34;
+        this.h = v35;
+    }
+    new F36(F36, f7);
+    new F36(v22, v33);
+    new F36(v23, v34);
+}

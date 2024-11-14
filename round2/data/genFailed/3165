@@ -1,0 +1,30 @@
+class C3 {
+    static #e = "9223372036854775807";
+    constructor(a5, a6) {
+    }
+    static #d = "9223372036854775807";
+    #p(a11, a12) {
+        const o15 = {
+            valueOf() {
+                super.b = g;
+                return -2.2250738585072014e-308;
+            },
+        };
+        return a12;
+    }
+}
+const v16 = new C3(-2.2250738585072014e-308, "9223372036854775807");
+const v17 = new C3(v16, v16);
+new C3(v17, -2.2250738585072014e-308);
+new Uint8ClampedArray(64);
+const v24 = new Int16Array(3227);
+const v27 = new Int32Array(2);
+C3[v27] ^= 2;
+const v29 = Symbol.iterator;
+v17[v29] = v16;
+%VerifyType(Int32Array);
+v29[5] >>>= 64;
+delete v17[Uint8ClampedArray];
+const v31 = v29 ^ v16;
+v24.d = v29;
+v24[Uint8ClampedArray] &&= v31;

@@ -1,0 +1,34 @@
+const v2 = new Float32Array(1);
+const v5 = new BigInt64Array(1487);
+const v8 = new Uint32Array(88);
+function f9(a10, a11, a12) {
+    const o13 = {
+        "f": Uint32Array,
+        "d": 88,
+        "c": a11,
+        "b": a10,
+        "a": a10,
+        __proto__: v2,
+        1: v2,
+        ...v5,
+        536870889: v2,
+        "h": v2,
+        "g": a10,
+        "e": 1,
+    };
+    return o13;
+}
+const v14 = f9(1, Float32Array, 1487);
+const v15 = f9(f9, f9, 88);
+const v16 = f9(v8, v5, 1487);
+const v17 = v8 == v16;
+if (v17) {
+    v16 !== v14;
+} else {
+    const v19 = [BigInt64Array,v15,88];
+    [v19,88,v17,v15];
+    [1,v19];
+}
+const v25 = v16 ^ 2085441927;
+const v26 = 4294967296 - v17;
+(BigInt64Array ** v25) >> v26;

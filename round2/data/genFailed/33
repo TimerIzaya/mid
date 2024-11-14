@@ -1,0 +1,74 @@
+function f1() {
+    return true;
+}
+function f2(a3) {
+    const o9 = {
+        __proto__: a3,
+        "a": true,
+        valueOf(a5) {
+            let {"a":v6,"c":v7,...v8} = this;
+            a3.d **= v6;
+            return a3;
+        },
+        ...a3,
+        2: true,
+        "f": f1,
+        86: true,
+    };
+    return o9;
+}
+const v10 = f2(f2);
+const v11 = f2(v10);
+f2(v11);
+function f16() {
+    return true;
+}
+new Uint32Array(2);
+new Int16Array(4);
+new Uint32Array(1480);
+const v29 = -536870887;
+536870888 ^ 536870888;
+const v31 = 536870888 % v11;
+v31 >> 536870887;
+function F33(a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a36;
+    this.c = v31;
+}
+new F33(f16, 4);
+const v38 = new F33(v10, 536870887);
+new F33(v38, v29);
+try {
+    new Uint8Array(257);
+} catch(e3) {
+}
+try {
+    new Int16Array(3);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(4096);
+} catch(e11) {
+}
+const v15 = [4096,536870887,3];
+const v16 = [257,Uint8Array,Uint8Array];
+const v17 = [v15,v16,v16];
+const v19 = [Int16Array,v15];
+Reflect.apply(v17.some, v15, v19);
+function* f22(a23, a24, a25, a26) {
+    try {
+        new Uint8ClampedArray(9);
+    } catch(e30) {
+    }
+    try {
+        new Float32Array(1);
+    } catch(e34) {
+    }
+    try {
+        new Int32Array(150);
+    } catch(e38) {
+    }
+    yield 257;
+    return 1;
+}
+f22(v19, 4096, 3, v16);

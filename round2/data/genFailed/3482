@@ -1,0 +1,54 @@
+const v0 = [-1e-15,5.0,3.0,1000000000000.0,0.5495850156031511,-161959.09385639906,6.219876896418562,NaN,0.0];
+const v1 = [-1000.0,111.21334410834356];
+const v2 = [-1.2133756474240596e+308,660599.4134433719,-2.220446049250313e-16,1e-15,9.551854898485882,399.9279990971629,-2.220446049250313e-16,3.0];
+function f3() {
+    return v2;
+}
+class C7 {
+    constructor(a9, a10) {
+        let v12 = [];
+        const v13 = Reflect.construct(f3, v12, f3);
+        let v15;
+        try { v15 = v13["construct"](a9); } catch (e) {}
+        let v16;
+        try { v16 = this.startsWith(v0, v15, v15, v2); } catch (e) {}
+        ({"g":v16,"h":v16,...v12} = v16);
+    }
+    static #f = v0;
+    b;
+    e = v0;
+    #g;
+}
+new C7(-1073741824, v0);
+const v18 = new C7(10, v1);
+const v19 = new C7(8840, v1);
+function f20() {
+    return C7;
+}
+function f21() {
+    return f3;
+}
+async function f22(a23, a24) {
+    v18[a23] = f21;
+    await Int8Array;
+    return v19;
+}
+f22(v0, v19);
+const v29 = Symbol.iterator;
+const o38 = {
+    [v29]() {
+        let v31 = 10;
+        const o37 = {
+            next() {
+                v31--;
+                const v35 = v31 == 0;
+                const o36 = {
+                    "done": v35,
+                    "value": v31,
+                };
+                return o36;
+            },
+        };
+        return o37;
+    },
+};

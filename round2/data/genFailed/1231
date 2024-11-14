@@ -1,0 +1,84 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = v0;
+    this.d = v0;
+}
+const v3 = new F1();
+const v4 = new F1();
+const v5 = new F1();
+class C6 {
+    static 268435439;
+    o(a8) {
+        super.b = this;
+        try { v5.trim(); } catch (e) {}
+        return this.c;
+    }
+    constructor(a12, a13) {
+        v5.g = 268435440n;
+        let v17;
+        try { v17 = this(v4, v4, this); } catch (e) {}
+        Reflect.construct(v17, [this], F1);
+    }
+}
+const v21 = new C6(v5, v5);
+const v22 = new C6(v4, v5);
+const v23 = new C6(v22, v4);
+class C27 extends F1 {
+    get g() {
+        const v31 = "o" instanceof v23["o"]();
+        v31 && v21;
+        return v31;
+    }
+    constructor(a34, a35, a36) {
+        let v33 = this;
+        super();
+        const v38 = v0["at"](..."at", v22, ..."at", ..."at", v33);
+        v33 = a36;
+        try {
+            const o40 = {
+                "d": v38,
+                "e": undefined,
+            };
+            new C6(o40, o40);
+        } catch(e42) {
+        }
+    }
+}
+const v43 = new C27(v4, v21, C27);
+new C27(v4, v43, v4);
+new C27(v43, v22, v3);
+const o49 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o49);
+c = C27;
+[2.2250738585072014e-308,233484.05449449946,-2.220446049250313e-16,5.0,438290.9693915709,-765.5697636771956,-708.076154697316,0.5839391026880669,-3.0];
+[2.220446049250313e-16,-2.1522512339984114e+307,4.0,1000000000.0,865.9226482448062,-65772.4392612211,0.4598066789306867,1.0];
+const v2 = [2.0,1.7976931348623157e+308,-1000000000000.0,-1000000.0,-887688.1098246048,0.13657109851948668,1.0152106506779473e+307];
+new WeakMap();
+class C8 extends WeakMap {
+    n(a10, a11) {
+        [1000,64,57841,-536870912,-1537677147,64,128];
+        const v13 = [1118858565,-50440];
+        [2,1073741823,-64325,-268435456,9007199254740991,-268435456];
+        return v13;
+    }
+    static get a() {
+        return this;
+    }
+}
+const v19 = new C8();
+new C8();
+const v21 = new C8();
+v21 | -31281n;
+try {
+    v19[4] = v2;
+} catch(e23) {
+}
+const v24 = new C8();
+try {
+    v2.e = v24;
+} catch(e25) {
+}

@@ -1,0 +1,31 @@
+function f0() {
+    const o10 = {
+        [9](a5, a6) {
+            for (let v7 = 0; v7 < 32; v7++) {
+                a6["p" + v7] = v7;
+            }
+            return this;
+        },
+        65535: "MIN_SAFE_INTEGER",
+        "b": 9,
+        "h": 9,
+        __proto__: "MIN_SAFE_INTEGER",
+        "g": "b",
+        ["MIN_SAFE_INTEGER"]: 9,
+    };
+    return o10;
+}
+f0();
+f0();
+f0();
+const v22 = new Float64Array(10);
+new BigInt64Array(0);
+let v27 = Uint8Array;
+const v28 = new v27(255);
+1.0 ^ BigInt64Array;
+v22[Symbol.match];
+++v27;
+let v34 = 10;
+for (; v34--;) {
+    Object.defineProperty(v28, "d", { writable: true, get: f0 });
+}

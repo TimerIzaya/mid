@@ -1,0 +1,41 @@
+class C1 {
+    set f(a3) {
+        super[a3] = this;
+        %VerifyType(null);
+        this.length = 7;
+    }
+    #valueOf() {
+        const v7 = Symbol.iterator;
+        const o16 = {
+            [v7]() {
+                let v9 = 10;
+                const o15 = {
+                    next() {
+                        v9--;
+                        const v13 = v9 == 0;
+                        const o14 = {
+                            "done": v13,
+                            "value": v9,
+                        };
+                        return o14;
+                    },
+                };
+                return o15;
+            },
+        };
+        return o16;
+    }
+}
+new C1();
+new C1();
+new C1();
+/o\p{Nd}Pv7(ab)\1(\xed\xb0\x80)\x01/misv;
+/Nab|c/misu;
+/(x)(x)(x)\3*mOmSabc|def|ghi/myidv;
+new Set();
+const o30 = {
+    "maxByteLength": 129,
+};
+const v32 = new ArrayBuffer(129, o30);
+const v34 = new Int16Array(v32);
+v34 instanceof Int16Array;

@@ -1,0 +1,49 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function f2() {
+    return v0;
+}
+function f3(a4, a5) {
+    const o6 = {
+        7: v0,
+        "b": a5,
+        ...v0,
+        "g": f1,
+        ...a5,
+        [f2]: v0,
+        [a4]: f2,
+        "f": a5,
+        [-2]: a4,
+        "a": v0,
+    };
+    return o6;
+}
+const v7 = f3(f3, f2);
+const v8 = f3(v0, f2);
+const v9 = f3(v7, f2);
+class C10 extends f1 {
+    o(a12, a13, a14) {
+        function f15() {
+            return a13;
+        }
+        return f3;
+    }
+    [v8];
+    [f2] = v9;
+    static [f3];
+    static [v8];
+}
+new C10();
+new C10();
+const v18 = new C10();
+Object.defineProperty(v18, "length", { writable: true, enumerable: true, get: f2 });
+const v19 = f1();
+v19.toString = f1;
+C10.a = v7;
+C10[4096];
+Object.defineProperty(v19, "c", { enumerable: true, set: f1 });
+new Uint8Array(255);
+new Uint8Array(129);
+new Int16Array(2453);

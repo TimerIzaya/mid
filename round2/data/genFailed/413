@@ -1,0 +1,68 @@
+class C3 {
+    constructor(a5, a6) {
+        Reflect.construct(a6, [a5,a6,this], a6);
+        const t2 = "valueOf";
+        t2.__proto__ = "valueOf";
+    }
+    static 128 = "valueOf";
+    static [16910] = 617.9727600289652;
+    static #c = "valueOf";
+    static 6;
+    static [617.9727600289652] = 617.9727600289652;
+}
+let v10 = new C3("valueOf", "valueOf");
+const v11 = new C3("valueOf", C3);
+const v12 = new C3(C3, v10);
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a16;
+    this.h = a15;
+    this.d = v12;
+}
+const v17 = new F13(v12, "valueOf");
+new F13(C3, C3);
+const v19 = new F13(v12, v11);
+new F13(v19, 617.9727600289652, v19, 16910, F13);
+switch (v17.b) {
+    case F13:
+        v10++;
+        -9223372036854775808 << -9223372036854775808;
+        v10 ^ v10;
+        break;
+}
+const v0 = [1000.0,754318.6722783467,-5.081594189374843e+307,1000000000000.0,3.0,2.220446049250313e-16,NaN];
+[-249.3566547545289,1.0];
+const v2 = [0.0,NaN,632240.0028299221];
+[20075];
+[1418710403,748706904,-1786742716,-10,-2117092778,24630,12];
+[256,-9007199254740991,10,9007199254740992,15,1883083627,-52414,-2024836774,-4096];
+class C12 {
+    static {
+        const t8 = "toString";
+        t8.length /= -2147483647;
+        try {
+            this.e = this;
+        } catch(e14) {
+        }
+        v2[this] ^= -1411417600;
+        const o18 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o18);
+    }
+}
+new C12();
+const v21 = new C12();
+new C12();
+try {
+    new C12();
+} catch(e24) {
+}
+const t29 = "-15";
+delete t29[-2147483647];
+try {
+    v21.valueOf = v0;
+} catch(e26) {
+}
+v0 | "toString";

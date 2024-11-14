@@ -1,0 +1,98 @@
+function f0() {
+    const o9 = {
+        128: 0.7067271673462713,
+        set c(a5) {
+            let v7;
+            try { v7 = this["o"](); } catch (e) {}
+            try { v7(); } catch (e) {}
+            const t7 = "o";
+            t7.length -= a5;
+        },
+        ...14,
+        [14]: 0.7067271673462713,
+        "b": 0.7067271673462713,
+        1024: 14,
+        __proto__: 14,
+        "f": 0.7067271673462713,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function f16() {
+    return v11;
+}
+function f17(a18, a19, a20) {
+    const o27 = {
+        "c": 268435440n,
+        set e(a22) {
+            v10.f = a20;
+            f16();
+            const v24 = super.a;
+            try { v24.repeat(); } catch (e) {}
+            this[536870887] = v24;
+            v11[178];
+        },
+        "h": v10,
+        "f": a20,
+        __proto__: v12,
+        1073741825: f0,
+    };
+    return o27;
+}
+const v28 = f17(2n, 2n, -731271978n);
+f17(2n, 268435440n, 2n);
+const v30 = f17(2n, 2n, 2n);
+new Float64Array(1024);
+new Uint32Array(255);
+new Int16Array(7);
+[-698.2011620941148,516.9888099061477,7.044378185933752,-6.044175172430338,2.2250738585072014e-308,577830.5508676197,-1.6089582920067889e+308,-451.70025136793174,-1.1321149199022386e+308,1e-15];
+[-Infinity,NaN,2.2250738585072014e-308,3.0,0.9597666409260487,-81174.35508350469,-1e-15,-1.622134414876649e+308,819.2214788178153,-1.0];
+const v42 = [0.0,0.5910591572419417];
+Object.defineProperty(v28, v42, { writable: true, configurable: true, enumerable: true, set: f16 });
+v10.c = v42;
+v28[Symbol.search] = v30;
+try {
+    const o45 = {
+    };
+    new Int16Array(o45);
+} catch(e47) {
+}
+try {
+    new BigInt64Array(5);
+} catch(e3) {
+}
+let v4 = 128;
+try {
+    new Uint32Array(v4);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(2048);
+} catch(e11) {
+}
+const v12 = [5,BigInt64Array,5,5,2048];
+const v13 = [BigInt64Array];
+[v4,v13];
+function f15() {
+    return 2048;
+}
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a19;
+    } catch(e20) {
+    }
+}
+const v21 = new F16(5, 5);
+new F16(5, v21);
+new F16(2048, v13);
+with (v12) {
+    length = BigInt64Array;
+    const v27 = f15();
+    try {
+        v4 %= v27;
+    } catch(e28) {
+    }
+}

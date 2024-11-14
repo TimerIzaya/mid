@@ -1,0 +1,16 @@
+function f3() {
+    return 16;
+}
+const v6 = new BigUint64Array(9);
+const v9 = new Int32Array(1573);
+const v12 = new BigInt64Array(7);
+let v13;
+try { v13 = v12.indexOf(f3, 7); } catch (e) {}
+with (v13) {
+    d = Int32Array;
+    String >> v6;
+    let {"a":v16,"byteLength":v17,"length":v18,} = v12;
+}
+%VerifyType(BigUint64Array);
+Object.defineProperty(v12, 7, { configurable: true, get: f3, set: f3 });
+v9.__proto__ = v9;

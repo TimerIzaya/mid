@@ -1,0 +1,57 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = -65535;
+}
+const v3 = new F0();
+const v4 = new F0();
+new F0();
+const v8 = new Int16Array(255);
+new Int32Array(9);
+new Int16Array(9);
+[-2734,-2,-41194,1073741825,628018424,-15,-9223372036854775808];
+const v17 = [-44516,-11388,46853,3,-1818001447,-4294967297,8713];
+[-536870912,512,65535,-9223372036854775807,-9,-4,-9223372036854775808];
+v3[v8] = v4;
+v17 && v3;
+const o25 = {
+    "maxByteLength": 255,
+};
+const v27 = new SharedArrayBuffer(6, o25);
+new BigUint64Array(v27);
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -10;
+    } catch(e3) {
+    }
+    try {
+        this.e = -10;
+    } catch(e4) {
+    }
+    try {
+        this.c = -10;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+new F0();
+[129];
+[15,748783153,1491748136,-1157300367,-7,-256,536870888,268435456];
+[9007199254740992,16,4294967296];
+[616.5748455559008];
+[1000000000000.0,-1.0,0.0,4.8921567039217716e+306,-2.9984844891665414];
+const t18 = [NaN,-1.6954218581068918,0.197123032595372,NaN];
+t18.length **= 4294967295;
+let v24 = 0;
+do {
+    const o27 = {
+        "maxByteLength": 1092285181,
+    };
+    const v29 = new ArrayBuffer(3, o27);
+    try {
+        new Float64Array(v29);
+    } catch(e32) {
+    }
+    v24++;
+} while (v24 < 6)

@@ -1,0 +1,47 @@
+function f0() {
+    const o14 = {
+        "a": -7,
+        "c": -7,
+        ["boolean"]: -65536,
+        get e() {
+            try {
+                super.o(this);
+            } catch(e6) {
+            }
+            const o9 = {
+                "maxByteLength": 848,
+            };
+            const v11 = new ArrayBuffer(848, o9);
+            new Int32Array(v11);
+            return -7;
+        },
+    };
+    return o14;
+}
+f0();
+const v16 = f0();
+f0();
+class C18 {
+    static #m(a20, a21) {
+        new Float32Array(129);
+        new Int16Array(246);
+        new Int32Array(2678);
+        return 2678;
+    }
+    e = v16;
+}
+const v31 = new C18();
+new C18();
+new C18();
+new WeakSet();
+f0();
+for (const v40 of C18) {
+    C18.valueOf = v40;
+    Object.defineProperty(v40, "b", { configurable: true, enumerable: true, set: f0 });
+}
+const v46 = !C18;
+const v47 = v31 && v46;
+C18 * -2;
+const v49 = v46 ^ C18;
+(-2) ** C18;
+v47 || v49;

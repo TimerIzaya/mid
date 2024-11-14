@@ -1,0 +1,26 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = f0;
+}
+const v3 = new F1();
+new F1();
+new F1();
+const v11 = new Int16Array(64);
+const v14 = new BigInt64Array(5);
+const v17 = new Uint8ClampedArray(2);
+Object.defineProperty(v14, "h", { set: f0 });
+const v20 = [v11,v11,F1,[5n,v17,[64,5n,1073741824n],Int16Array],-4096n];
+f0();
+for (let [v22] of v20) {
+    function* f23(a24, a25) {
+        2 && 2.7806285921222073e+307;
+        const v30 = BigInt64Array / a24;
+        Math.log(2);
+        ~BigInt64Array;
+        yield v30;
+        return a24;
+    }
+    f23(v20, v3);
+}

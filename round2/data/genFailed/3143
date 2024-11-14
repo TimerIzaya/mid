@@ -1,0 +1,15 @@
+new Int16Array(11);
+const v5 = new Int16Array(1777);
+const v8 = new Int8Array(4);
+const v11 = new Float64Array(128);
+const v14 = new BigUint64Array(1810);
+new Int32Array(2054);
+new Int8Array(v14);
+const o19 = {
+    "a": v5,
+    ...v8,
+    [2054]: 2054,
+    "h": Int16Array,
+};
+%VerifyType(BigUint64Array);
+typeof v11 === "symbol";

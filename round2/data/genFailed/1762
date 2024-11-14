@@ -1,0 +1,54 @@
+const v0 = [1000000.0];
+const v1 = [-0.17936711098444036,1000000000000.0,-3.0,1.7976931348623157e+308,-1000000.0,6.92632875795918];
+const v2 = [-Infinity];
+let v4 = -2147483647n;
+function f9(a10, a11) {
+    const o24 = {
+        o(a13, a14, a15, a16) {
+            a13 >>> a16;
+            return -4294967297n;
+        },
+        set b(a22) {
+            let v21 = this;
+            v21 &= a11;
+            function f23() {
+                return v21;
+            }
+        },
+        "a": a11,
+    };
+    return o24;
+}
+const v25 = f9(v4, v0);
+const v26 = f9(v25, v2);
+const v27 = f9(v25, f9);
+function f28(a29, a30) {
+    const o38 = {
+        __proto__: v27,
+        o(a32, a33) {
+            for (let v34 = 0; v34 < 32; v34++) {
+                a29["p" + v34] = v34;
+            }
+            this[1];
+            v1.__proto__ = v1;
+            return a30;
+        },
+        "h": v1,
+        "c": a29,
+        ...v26,
+    };
+    return o38;
+}
+const v39 = f28(v26, 2n);
+f28(v25, v4);
+const v41 = f28(v25, 2n);
+v2 >> 1073741824n;
+let v43;
+try { v43 = v26.o(v26, v4, v27, v27); } catch (e) {}
+[v25,v41,v1];
+[[v41,v25],1073741824n];
+for (let v47 = 0; v47 < 11; v47++) {
+    [v47,v4,v47,...v47] = v1;
+    v26[11] = v43;
+    v47[Symbol.match] = v39;
+}

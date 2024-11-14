@@ -1,0 +1,63 @@
+function f3(a4, a5) {
+    const o11 = {
+        __proto__: a4,
+        [a5]: "-29161",
+        0: "global",
+        "g": "global",
+        ["-29161"]: "-29161",
+        get a() {
+            const o10 = {
+                valueOf() {
+                    let v8;
+                    try { v8 = a5(this, a4, "global"); } catch (e) {}
+                    this && this;
+                    v8[7] = this;
+                    return "-29161";
+                },
+            };
+            return "-29161";
+        },
+    };
+    return o11;
+}
+f3("global", f3("-29161", "function"));
+f3("global", "function");
+const v16 = new WeakSet();
+Reflect.construct(WeakSet, [v16], WeakSet);
+const o29 = {
+    valueOf() {
+        try {
+            f3("-29161", -1016855865);
+        } catch(e28) {
+        }
+        return "function";
+    },
+};
+function f0() {
+}
+try {
+    new Int16Array(2);
+} catch(e4) {
+}
+try {
+    new Uint8Array(7);
+} catch(e8) {
+}
+try {
+    new Int32Array(1042);
+} catch(e12) {
+}
+const v22 = [708179827];
+const v23 = [v22,v22,v22];
+[v23,f0];
+v23.length ^= -6389;
+function f25(a26, a27, a28) {
+    const o29 = {
+        "h": v22,
+        ...a27,
+    };
+    return o29;
+}
+f25(7, 1042, -1754578340n);
+f25(7, f25, -1399176646n);
+f25(7, 708179827, 1135n);

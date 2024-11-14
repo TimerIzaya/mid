@@ -1,0 +1,36 @@
+const v0 = /a$(a)(?:a+)?Z(a)\1/gmyu;
+const v1 = /j/myisdv;
+const v2 = /U/ysu;
+function f3(a4, a5) {
+    const o10 = {
+        __proto__: a5,
+        set f(a7) {
+            let v8;
+            try { v8 = a7(v1, v0, v2); } catch (e) {}
+            try { a5.compile(v8); } catch (e) {}
+        },
+        ...v0,
+        "h": v2,
+        ...a5,
+        [v2]: v1,
+        "a": a5,
+        "f": v1,
+        ...v1,
+        "b": a5,
+    };
+    return o10;
+}
+const v11 = f3(v2, v1);
+f3(v0, v2);
+f3(v0, v2);
+[6,-47500,49084];
+[16263,2147483647,887177301,-7199];
+[1382220833,9007199254740992,-16613,65535,-15,257,-2147483649,6,1];
+v0.dotAll;
+Object.defineProperty(v11, 1706883570, { writable: true, set: f3 });
+try {
+    const v23 = new RegExp("a");
+    const v25 = new RegExp("a");
+    new f3(v23, v25);
+} catch(e27) {
+}

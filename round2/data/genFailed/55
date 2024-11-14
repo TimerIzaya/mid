@@ -1,0 +1,103 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = 1073741825;
+}
+const v3 = new F0();
+const v4 = new F0();
+const v5 = new F0();
+const v6 = [65535,48405,2147483647,-9007199254740991,-61725,11,-883427241,-1435264113,-1801194141,4096];
+const v7 = [268435441,-10,6997,536870888,1182265676];
+const v8 = [268435441,-20743,-268435456,-23637,2,-9007199254740990,1205881475];
+class C9 {
+    #d;
+    [F0];
+    a;
+    #c = v7;
+    constructor(a11, a12, a13, a14) {
+        delete a13?.length;
+        super.b = a14;
+        v6.length;
+        v8[128] *= a14[Symbol.hasInstance];
+    }
+}
+const v20 = new C9(v5, v7, v6, v4);
+const v21 = new C9(v8, v6, v8, v5);
+const v22 = new C9(v4, v7, v8, v4);
+function f23(a24, a25, a26) {
+    const o32 = {
+        "f": a25,
+        __proto__: v8,
+        "d": v7,
+        toString(a28, a29) {
+            v20[8] = v4;
+            v21[this];
+            this.__proto__ = v8;
+            super[v4] = a25;
+            return v21;
+        },
+        ...v3,
+        ...v6,
+    };
+    return o32;
+}
+f23(v8, v7, v5);
+f23(v7, f23, v20);
+f23(v6, f23, v22);
+Object.defineProperty(v4, 206, { writable: true, configurable: true, enumerable: true, set: f23 });
+try {
+    function f37() {
+        return F0;
+    }
+} catch(e38) {
+    typeof e38 === "function";
+} finally {
+    const v45 = -5.0 * v21;
+    const v46 = ~-5.0;
+    -v21;
+    Math.sin(v45);
+    +-5.0;
+    !v46;
+    -v21;
+}
+const v4 = new Set();
+class C5 extends Set {
+    static #d = 2147483647n;
+    static #n(a7, a8) {
+        let v9;
+        try { v9 = v4.entries(); } catch (e) {}
+        try {
+            v9 = 8n;
+        } catch(e10) {
+        }
+        return v4;
+    }
+    static #e;
+}
+new C5();
+const v12 = new C5();
+const v13 = new C5();
+class C14 {
+    f = v13;
+    static #p(a16, a17, a18) {
+        return a18?.c;
+    }
+    valueOf(a21, a22) {
+        for (let v23 = 0; v23 < 32; v23++) {
+            v12["p" + v23] = v23;
+        }
+        return this;
+    }
+}
+const v26 = new C14();
+const v27 = new C14();
+new C14();
+v27 % 8n;
+const v30 = [-2147483647,4096,-256,256,-482575830,18814,1,16];
+[257,8,54405,-536870912,7,-9223372036854775807,9,-1,-1073741824,-2094418141];
+[256,8,256,-11];
+delete v30[v26];
+v26[10];
+try {
+    new C5();
+} catch(e36) {
+}

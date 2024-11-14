@@ -1,0 +1,76 @@
+const v2 = new Array(445);
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.h = v2;
+    this.e = a5;
+}
+let v7 = new F3(v2, 445);
+const v8 = new F3(v2, Array);
+new F3(v8, F3);
+let v16;
+try { v16 = v2.keys(); } catch (e) {}
+for (let v17 = 0; v17 < 27; v17++) {
+    Reflect.construct(v16, [Reflect,445,Reflect], F3);
+}
+let v24 = -9.875712467704673;
+const v25 = ++v7;
+const v26 = v7 >>> 89031038n;
+Math.log1p(v26);
+Math.asinh(v26);
+const v29 = v24--;
+Math.acos(v25);
+v25 & v29;
+class C3 {
+    get b() {
+        Object.defineProperty("undefined", "e", { value: this });
+        const o7 = {
+            "maxByteLength": 7,
+        };
+        const v9 = new ArrayBuffer(1, o7);
+        try {
+            new Uint8Array(v9);
+        } catch(e12) {
+        }
+        return 3;
+    }
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+function f16(a17, a18) {
+    const o23 = {
+        [a18]: a17,
+        "d": C3,
+        [v13]: a17,
+        __proto__: a17,
+        ["undefined"](a20, a21) {
+            %VerifyType(v15);
+            a20 / a20;
+            return a17;
+        },
+        ...v13,
+        ...a18,
+        ...v14,
+    };
+    return o23;
+}
+const v24 = f16(v13, C3);
+const v25 = f16(v15, v15);
+f16(C3, v13);
+const v27 = [f16,v24,v13,-2147483647,v24];
+const v28 = ["undefined",v25,v27,"undefined"];
+const v29 = [C3];
+Object.defineProperty(v29, v13, { enumerable: true, set: f16 });
+v29 || "undefined";
+function f31() {
+    return v27;
+}
+d = v28;
+var h = v15;
+let v32 = v13.b;
+const v35 = 536870888 || v32;
+536870888 >> 536870888;
+Math.sinh(v32);
+v32--;
+Math.log10(v35);
+Math.abs(v32);

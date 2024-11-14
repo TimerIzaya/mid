@@ -1,0 +1,48 @@
+function f3(a4, a5) {
+    const o21 = {
+        [a5]: "-9007199254740990",
+        [a4]: "-45548",
+        "g": "-9007199254740990",
+        p(a7, a8) {
+            a8?.[2];
+            const v11 = Symbol.iterator;
+            const o20 = {
+                [v11]() {
+                    let v13 = 10;
+                    const o19 = {
+                        next() {
+                            v13--;
+                            const v17 = v13 == 0;
+                            const o18 = {
+                                "done": v17,
+                                "value": v13,
+                            };
+                            return o18;
+                        },
+                    };
+                    return o19;
+                },
+            };
+            return a8;
+        },
+    };
+    return o21;
+}
+const v22 = f3("59019", "-45548");
+const v23 = f3("-9007199254740990", v22);
+const v24 = f3("59019", v22);
+new Uint16Array(50);
+const v30 = new Int8Array(6);
+const v33 = new Int32Array(5);
+v24.a = v33;
+v30[268435439];
+Object.defineProperty(v33, "f", { writable: true, enumerable: true, get: f3 });
+[] = "-45548";
+const t40 = "-9007199254740990";
+t40[Int32Array] = v23;
+f3("59019", v33);
+%PrepareFunctionForOptimization(f3);
+f3("59019", v33);
+f3("59019", v33);
+%OptimizeFunctionOnNextCall(f3);
+f3("59019", v33);

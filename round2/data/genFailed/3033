@@ -1,0 +1,33 @@
+const v1 = new WeakSet();
+const v6 = new Map();
+class C7 extends Map {
+    static get f() {
+        Reflect.construct(WeakSet, [v6], Map);
+        return Reflect;
+    }
+    [v6];
+    static {
+        let [v13] = v6;
+        super[v13];
+    }
+    static #d;
+    static 4 = "268435440";
+}
+new C7();
+const v16 = new C7();
+const v17 = new C7();
+new BigUint64Array(16);
+new Int8Array(257);
+const v26 = new Uint8ClampedArray(5);
+v26.length <<= 5;
+const v28 = [];
+const v30 = Reflect.apply(v16.keys, "bn", v28);
+const t23 = "MAX_SAFE_INTEGER";
+t23[6] = WeakSet;
+const t26 = "bn";
+const v31 = delete t26[v1];
+let v32;
+try { v32 = v30(v17, v31); } catch (e) {}
+const o33 = {
+};
+new Proxy(v32, o33);

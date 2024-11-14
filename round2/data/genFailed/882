@@ -1,0 +1,96 @@
+function f3(a4, a5) {
+    const o15 = {
+        set f(a7) {
+            ("f").normalize("NFKC");
+        },
+        __proto__: 8n,
+        "h": 8n,
+        "a": a5,
+        [8n]: a4,
+        [a4](a12, a13) {
+            a13.valueOf = a12;
+            try { a12.valueOf(-15028n, a12, this); } catch (e) {}
+            return a13;
+        },
+    };
+    return o15;
+}
+const v16 = f3(8n, 8n);
+const v17 = f3(-28621n, 8n);
+f3(-15028n, -15028n);
+function f19() {
+    return v16;
+}
+new Int8Array(7);
+new Int32Array(3624);
+new BigUint64Array(1);
+const v29 = delete v17?.f;
+v29 >> Int8Array;
+%VerifyType(f19);
+const o31 = {
+    "apply": f3,
+    "call": f19,
+    "construct": f19,
+    "defineProperty": f3,
+    "deleteProperty": f19,
+    "get": f3,
+    "getOwnPropertyDescriptor": f19,
+    "getPrototypeOf": f19,
+    "has": f19,
+    "preventExtensions": f19,
+    "set": f19,
+    "setPrototypeOf": f19,
+};
+new Proxy(v29, o31);
+let v2 = -3.0;
+class C3 {
+    [-8.864249350774188];
+    constructor(a5, a6) {
+        [1000000000.0,265248.255862745,-Infinity,1000.0];
+        [-1.4626191582601251,-1.2788741663891692,1000000000.0,0.9262373074043715];
+        const t4 = [-1.695774011162987,-0.0,5.0];
+        t4.length **= -8.864249350774188;
+    }
+    static #e = 5.0;
+    set g(a11) {
+        this[16] >>>= v2;
+        let v12;
+        try { v12 = a11.valueOf(); } catch (e) {}
+        super[this];
+        try {
+            v2 &&= v12;
+        } catch(e14) {
+        }
+    }
+}
+const v15 = new C3(5.0, 5.0);
+new C3(5.0, v2);
+new C3(-8.864249350774188, 5.0);
+try {
+    new Uint16Array(176);
+} catch(e21) {
+}
+try {
+    new Uint8ClampedArray(2288);
+} catch(e25) {
+}
+try {
+    new Int32Array(257);
+} catch(e29) {
+}
+let v33;
+try { v33 = v2.getUint8(2288); } catch (e) {}
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v15;
+    } catch(e40) {
+    }
+    try {
+        this.f = a39;
+    } catch(e41) {
+    }
+}
+new F34(24956n, 257, 2288, -65536n);
+new F34(-65536n, 257, 257, -65536n);
+new F34(24956n, 2288, v33, -65536n);

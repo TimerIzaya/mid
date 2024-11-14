@@ -1,0 +1,35 @@
+class C3 {
+    static {
+        -1000.0 >>> -1000.0;
+        function f6(a7, a8, a9) {
+            function f11(a12) {
+                a12?.[a9];
+                try { a7["valueOf"](this, "valueOf"); } catch (e) {}
+            }
+            this.onmessage = f11;
+            this[this];
+        }
+        const v19 = [-1000.0,"function",f6];
+        const o20 = {
+            "arguments": v19,
+            "type": "function",
+        };
+        new Worker(f6, o20);
+    }
+}
+new C3();
+const v23 = new C3();
+new C3();
+new Map();
+for (let v30 = 0; v30 < 32; v30++) {
+    C3["p" + v30] = v30;
+}
+const v33 = new Map(v23);
+try { v33.delete(v33); } catch (e) {}
+delete v33?.size;
+try {
+    const o36 = {
+    };
+    new Map(o36);
+} catch(e38) {
+}

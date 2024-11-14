@@ -1,0 +1,87 @@
+function f0() {
+}
+const v4 = ["getFullYear",f0];
+const v5 = [v4];
+const v6 = ["getInt16","getInt16","a","getInt16"];
+class C7 {
+    static valueOf(a9, a10, a11) {
+        const o14 = {
+            "maxByteLength": 129,
+        };
+        const v16 = new ArrayBuffer(128, o14);
+        const v18 = new Uint8Array(v16);
+        return v18;
+    }
+    static #f;
+    [f0];
+}
+new C7();
+const v20 = new C7();
+new C7();
+v6[C7] = v5;
+const v25 = "a" && "a";
+const v26 = [-1000000000.0,-1000000000.0,-1000000000.0,v25];
+let v27 = [1.14206429824265e+308,"a",-1000.0,v26,v25];
+const v28 = [C7,v20];
+v4[v20] = "getFullYear";
+v27 = v26;
+v28[1.14206429824265e+308];
+const o30 = {
+    "defineProperty": f0,
+    "deleteProperty": f0,
+    "set": f0,
+};
+new Proxy(v25, o30);
+function f0() {
+    const o7 = {
+        ..."2T6AS",
+        __proto__: "2T6AS",
+        p(a5) {
+            try {
+                super["2T6AS"] = a5;
+            } catch(e6) {
+            }
+            return 0.14506520325021588;
+        },
+        [-4096]: -4096,
+        "e": "2T6AS",
+    };
+    return o7;
+}
+f0();
+const v9 = f0();
+f0();
+try {
+    new Uint8Array(14);
+} catch(e14) {
+}
+try {
+    new Uint32Array(4);
+} catch(e18) {
+}
+try {
+    new Uint16Array(15);
+} catch(e22) {
+}
+try {
+    new Int32Array(786);
+} catch(e26) {
+}
+try {
+    new Uint32Array(8);
+} catch(e30) {
+}
+try {
+    new BigInt64Array(1139);
+} catch(e34) {
+}
+Object.defineProperty(v9, "e", { enumerable: true, get: f0, set: f0 });
+for (const v35 of Uint8Array) {
+    try { v35(v35, f0, v35); } catch (e) {}
+    try {
+        v9.valueOf = v35;
+    } catch(e37) {
+    }
+}
+v9[12] *= 15;
+f0();

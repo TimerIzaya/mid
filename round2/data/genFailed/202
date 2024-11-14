@@ -1,0 +1,42 @@
+const v0 = [];
+const v4 = [0.7211471795177609,4.660911464977557e+307];
+const v5 = [0.36106763408974496,-2.0,1.7976931348623157e+308,-8.740379198766406e+307,-5.0,-4.3154934044769163e+307];
+const v6 = [5.0,-0.7182445446383063,-1000.0,-804.5569259293417,-7.267729775675381e+307];
+function f7(a8, a9) {
+    const o19 = {
+        ...v5,
+        get e() {
+            for (let i12 = 0; i12 < 3; i12++) {
+                super.h;
+            }
+            return a8;
+        },
+    };
+    return o19;
+}
+f7(2147483647, 2147483647);
+const v21 = f7(2147483647, 4);
+const v22 = f7(4, 127);
+try {
+    new f7(2147483647, -4);
+} catch(e25) {
+}
+[v6,v5,v6,v5];
+[v5,v4,v22,v6,f7];
+Object.defineProperty([2147483647,v21,v0], 268435439, { writable: true, get: f7, set: f7 });
+function f29() {
+    return v22;
+}
+const v1 = new Set();
+const v4 = -Infinity;
+new Map();
+const v13 = 1n >>> v4;
+try {
+    v1[-8.961651788949893e+307] = v13;
+} catch(e14) {
+}
+const o18 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o18);

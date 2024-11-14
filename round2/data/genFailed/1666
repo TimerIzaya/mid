@@ -1,0 +1,43 @@
+function f3(a4) {
+    const o11 = {
+        __proto__: "h",
+        "e": "-30514",
+        3766859182: "h",
+        ["h"](a6) {
+            super.a;
+            const o8 = {
+            };
+            new Proxy("flags", o8);
+            return a6;
+        },
+    };
+    return o11;
+}
+f3("flags");
+const v13 = f3("h");
+const v14 = f3("-30514");
+class C18 {
+    static 663 = 256;
+    static get a() {
+        if (this != f3) {
+            super["-30514"] = this;
+            const t23 = "flags";
+            delete t23[1];
+        } else {
+            const t26 = "-30514";
+            delete t26[3477];
+        }
+        return "h";
+    }
+}
+new C18();
+new C18();
+new C18();
+v14[Symbol.unscopables];
+Object.defineProperty("h", 268435439, { configurable: true, enumerable: true, get: f3, set: f3 });
+function f29(a30) {
+    return "h";
+}
+class C31 extends f29 {
+    9 = v13;
+}

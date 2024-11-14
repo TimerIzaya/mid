@@ -1,0 +1,62 @@
+const v1 = new WeakMap();
+class C2 extends WeakMap {
+    valueOf(a4) {
+        const v8 = [62722,4,-1097494775,0,2,4294967295,4294967296,-5619,-45605,-28748];
+        [4096,-65535,1073741823,8,-12,-1073741824,1073741824];
+        [-1024,127,-18178,357105630,-4];
+        return v8;
+    }
+    static {
+        let v11 = this;
+        v1.length = 0;
+        v1.__proto__ = v11;
+        v11 = v1;
+        super.c = WeakMap;
+    }
+}
+const v13 = new C2();
+const v14 = new C2();
+const v15 = new C2();
+function f16(a17, a18) {
+    const o29 = {
+        get g() {
+            let v19 = this;
+            Math.log10(v13);
+            const v23 = v13 ** v1;
+            v13 >>> v23;
+            9007199254740990 && v23;
+            +v1;
+            9007199254740990 >> v23;
+            --v19;
+            return 9007199254740990;
+        },
+        ...v15,
+        [v1]: v15,
+    };
+    return o29;
+}
+const v30 = f16(v13, v13);
+f16(v1, v14);
+f16(v15, v15);
+class C33 {
+    n(a35, a36) {
+        Object.defineProperty(a35, 2, { configurable: true, get: f16, set: f16 });
+        super[v30] = a36;
+        const v39 = -4294967295 + v30;
+        Math.atan(v30);
+        let v41 = ~v30;
+        Math.random();
+        Math.acos(v39);
+        --v41;
+        return Math.min(v30);
+    }
+}
+new C33();
+new C33();
+new C33();
+for (let v52 = 0; v52 < 91; v52++) {
+    try {
+        v1.has(false);
+    } catch(e55) {
+    }
+}

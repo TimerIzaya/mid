@@ -1,0 +1,89 @@
+function f9(a10, a11) {
+    const o19 = {
+        [-2]: 9223372036854775807,
+        65535: 1344685104,
+        176: a11,
+        "b": a10,
+        [a10](a13, a14, a15) {
+            switch (a11) {
+                case a15:
+                    super.c &&= 9223372036854775807;
+            }
+            Reflect.construct(a11, [8,Reflect,8], a11);
+            return a14;
+        },
+    };
+    return o19;
+}
+const v20 = f9(-37683, 8);
+const v21 = f9(-419268604, 9223372036854775807);
+let v22 = f9(-37683, v21);
+let [,v24] = v22[5];
+v22 |= v22;
+v21.valueOf = v24;
+delete v20?.b;
+[1000,5];
+[34265,9223372036854775807];
+[-1670241030,1,1300475056];
+Math.atan2(-1000000000000.0, -1000000000000.0);
+Math.trunc(-419268604);
+Math.clz32(13);
+function f0() {
+    let v2 = 9007199254740991;
+    const o18 = {
+        "c": -13487,
+        ["source"]: "source",
+        get b() {
+            const v12 = ++v2;
+            Math.random();
+            1698328044 % "source";
+            -1114695287 & v12;
+            v12 - 0.2026464116352289;
+            Math.atan(v12);
+            return 536870889;
+        },
+    };
+    return o18;
+}
+const v19 = f0();
+const v20 = f0();
+const v21 = f0();
+try {
+    new Int32Array(16);
+} catch(e25) {
+}
+try {
+    new Float64Array(11);
+} catch(e29) {
+}
+try {
+    new Int32Array(2750);
+} catch(e33) {
+}
+class C34 {
+    set b(a36) {
+        try {
+            a36[2147483648] = 2750;
+        } catch(e37) {
+        }
+        for (let v38 = 0; v38 < 32; v38++) {
+            v20["p" + v38] = v38;
+        }
+    }
+    e;
+    [v19] = 16;
+    #d;
+}
+new C34();
+new C34();
+const v43 = new C34();
+for (const v44 of v21) {
+    try { v44.cos(v44, v44, v21, 2750, v20); } catch (e) {}
+    const o46 = {
+        "set": f0,
+    };
+    try {
+        new Proxy(v43, o46);
+    } catch(e49) {
+    }
+}

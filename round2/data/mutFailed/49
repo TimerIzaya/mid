@@ -1,0 +1,53 @@
+class C6 {
+    static 512;
+    static {
+        function f8(a9, a10, a11) {
+            function f13(a14) {
+                a14?.g;
+            }
+            this.onmessage = f13;
+            function f16() {
+                return this;
+            }
+        }
+        const v19 = ["function","function",0.531295456001807];
+        const o20 = {
+            "arguments": v19,
+            "type": 2.0,
+        };
+        new Worker(f8, o20);
+    }
+}
+const v22 = new C6();
+const t21 = -1000000.0;
+new t21();
+new C6();
+try {
+    new Int8Array(16);
+} catch(e28) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e32) {
+}
+try {
+    new Int32Array(129);
+} catch(e36) {
+}
+new Map();
+function f39(a40) {
+    const o47 = {
+        valueOf(a42) {
+            const o45 = {
+                "type": "minor",
+            };
+            gc(o45);
+        },
+    };
+    return o47;
+}
+f39();
+f39();
+const o50 = {
+};
+-605471.3444360895 / v22();

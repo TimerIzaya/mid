@@ -1,0 +1,77 @@
+class C1 {
+    o() {
+        try {
+            super.valueOf(this, true, this, this);
+        } catch(e4) {
+        }
+        return this;
+    }
+    set g(a6) {
+        function f7() {
+            function f9(a10) {
+                try { a10(true, this, this, a10, a10, this); } catch (e) {}
+                new Uint32Array(4);
+                new BigUint64Array(13);
+                new Float64Array(7);
+            }
+            this.onmessage = f9;
+            const o21 = {
+                "call": f9,
+                "ownKeys": f9,
+            };
+            new Proxy(this, o21);
+        }
+        const v26 = [];
+        const o27 = {
+            "arguments": v26,
+            "type": "function",
+        };
+        new Worker(f7, o27);
+    }
+}
+const v29 = new C1();
+new C1();
+const v31 = new C1();
+class C32 extends C1 {
+    static set h(a34) {
+        const v36 = Date[C1];
+        C1[C1] = TypeError;
+        v31[a34];
+        super[true] = v36;
+    }
+    p(a40) {
+        v29["o"](a40);
+        new Uint16Array(3824);
+        new BigInt64Array(6);
+        new Uint16Array(184);
+        return Uint16Array;
+    }
+}
+const v52 = new C32();
+const v53 = new C32();
+new C32();
+class C56 {
+    [v31];
+    static #e;
+    set f(a58) {
+        try {
+            new C1();
+        } catch(e60) {
+        }
+        try {
+            this.#e = v52;
+        } catch(e61) {
+        }
+    }
+    #b;
+}
+new C56();
+new C56();
+new C56();
+const o67 = {
+    "maxByteLength": 10,
+};
+const v69 = new ArrayBuffer(2, o67);
+const v71 = new Int32Array(v69);
+const v73 = [C32,v53];
+Reflect.apply(v71.reduce, v52, v73);

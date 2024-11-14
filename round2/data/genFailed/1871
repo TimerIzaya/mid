@@ -1,0 +1,29 @@
+const v3 = -Infinity;
+const v4 = -Infinity;
+const v7 = new Date();
+const v9 = new WeakMap();
+function f10(a11, a12) {
+    const o13 = {
+        __proto__: Date,
+        "d": WeakMap,
+        "a": Date,
+        "c": a11,
+        ...a12,
+        "b": a12,
+        [a12]: v9,
+        ...a12,
+        [v7]: v3,
+        [v4]: 0.010147568121195216,
+        ...v9,
+    };
+    return o13;
+}
+f10(-5.0, v9);
+const v16 = f10(-542.193815202857, f10(v4, Date));
+Object.defineProperty(Date, v3 >> -5.0, { set: Date });
+function f19() {
+    return -5.0;
+}
+var f = 0.0;
+const v21 = [];
+Reflect.apply(Date.now, v16, v21);

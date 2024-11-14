@@ -1,0 +1,28 @@
+const v3 = [-256,-906248176];
+const v4 = [268435440,1674646198,128,65537,2074578656,883713506,-9223372036854775808,-2945];
+const v5 = [1073741823,7];
+class C6 {
+    static o(a8, a9) {
+        Object.defineProperty(v5, 4, { writable: true, value: a9 });
+        return -12;
+    }
+    static set f(a11) {
+        const v13 = [a11,a11,-256];
+        Reflect.apply(this.o, v4, v13);
+    }
+    #h = v5;
+    [v3];
+}
+const v16 = new C6();
+const v17 = new C6();
+const v18 = new C6();
+const v20 = new WeakMap();
+C6 += v17;
+new WeakMap(v4);
+const v22 = -12 % WeakMap;
+v3.a = v22;
+try { v17.random(v22, v16); } catch (e) {}
+const o24 = {
+};
+new Proxy(v18, o24);
+let {"b":v27,"f":v28,"g":v29,} = v20;

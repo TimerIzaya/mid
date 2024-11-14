@@ -1,0 +1,22 @@
+const v1 = new WeakSet();
+const v2 = [WeakSet,WeakSet];
+const v3 = [v2];
+const v4 = [v3,v1,WeakSet,v2];
+const v7 = new Array(1);
+new Uint16Array(129);
+new Uint8ClampedArray(4096);
+new BigUint64Array(673);
+Array(4096);
+%VerifyType(1);
+Array.prototype = v4;
+Object.defineProperty(v7, 673, { writable: true, configurable: true, enumerable: true, get: Array });
+function f18() {
+    return v7;
+}
+Object.defineProperty(v3, "length", { enumerable: true, set: f18 });
+new WeakSet(Array);
+const o23 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o23);

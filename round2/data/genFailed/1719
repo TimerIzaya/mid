@@ -1,0 +1,32 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = -24994;
+}
+new F3(-63688);
+const v7 = new F3(1382);
+const v8 = new F3(-63688);
+function f9(a10, a11) {
+    const o19 = {
+        __proto__: v7,
+        "b": a10,
+        set a(a13) {
+            const o17 = {
+                "execution": "sync",
+                "type": "major",
+            };
+            gc(o17);
+        },
+        42982705: v8,
+    };
+    return o19;
+}
+f9(-24994, -63688);
+f9(1382, -24994);
+f9(-63688, -24994);
+let v23 = -2.0;
+Object.defineProperty(v8, "b", { writable: true, configurable: true, set: f9 });
+v23 = 0.6960322183994143;
+try {
+    f9(-24994, 4294967297);
+} catch(e28) {
+}

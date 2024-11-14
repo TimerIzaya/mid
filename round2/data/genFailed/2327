@@ -1,0 +1,34 @@
+function f6(a7, a8) {
+    const o22 = {
+        "h": 0.3215531419300801,
+        toString(a10, a11, a12) {
+            const v17 = Symbol.iterator;
+            a12[v17];
+            try {
+                v17.toLocaleString(this, -8.486259341298219, "lrG", /(?<a>)/sdu);
+            } catch(e21) {
+            }
+            return "valueOf";
+        },
+    };
+    return o22;
+}
+const v23 = f6("lrG", 1.718428598344735);
+const v24 = f6(1.718428598344735, 0.3215531419300801);
+const v25 = f6(-8.486259341298219, -8.486259341298219);
+["source",v23,[60138]];
+let v31 = [1.718428598344735];
+v31--;
+v24.h;
+let v34 = 0;
+while (v34 < 1) {
+    const v37 = v31 > v25;
+    v37 ? v31 : v25;
+    f6(v37, 1.718428598344735);
+    %PrepareFunctionForOptimization(f6);
+    f6(v37, 1.718428598344735);
+    f6(v37, 1.718428598344735);
+    %OptimizeMaglevOnNextCall(f6);
+    f6(v37, 1.718428598344735);
+    v34++;
+}

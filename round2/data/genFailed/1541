@@ -1,0 +1,30 @@
+const v2 = new BigInt64Array(1000);
+const v5 = new BigInt64Array(3137);
+const v8 = new Uint16Array(28);
+function f9(a10, a11, a12) {
+    const o19 = {
+        "f": a11,
+        get e() {
+            try { a10(a12, 28); } catch (e) {}
+            with (v2) {
+            }
+            return v5;
+        },
+        "d": a10,
+        "c": 28,
+        "g": 3137,
+        [a10]: a12,
+    };
+    return o19;
+}
+const v20 = f9(BigInt64Array, v5, 28);
+const v21 = f9(v8, f9, BigInt64Array);
+f9(v21, f9, v5);
+const v26 = delete v20?.f;
+v5 >>> v5;
+!BigInt64Array;
+!v5;
+v21.valueOf = v26;
+/[7[[\ca]+]+]/miu;
+/H/y;
+/dSGu/giv;

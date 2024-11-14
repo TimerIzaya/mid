@@ -1,0 +1,47 @@
+function f0() {
+    const o19 = {
+        "b": "resizable",
+        m(a5, a6) {
+            let v7;
+            try { v7 = a5(); } catch (e) {}
+            Reflect.construct(a6, [-3,"resizable",Reflect,256,-3], v7);
+            return a5;
+        },
+        set g(a12) {
+            "resizable" && a12;
+            const o17 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o17);
+        },
+    };
+    return o19;
+}
+let v20 = f0();
+const v21 = f0();
+const v22 = f0();
+function F23(a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = v22;
+    this.b = v21;
+}
+const v26 = new F23(v22);
+const v27 = new F23(v20);
+new F23(v21);
+const v31 = new Uint32Array(512);
+const v34 = new Uint8Array(7);
+new Float64Array(7);
+v26[10] **= 7;
+try {
+    v20.m(7, 1931001016n);
+} catch(e40) {
+}
+v20 = v21;
+%VerifyType(v31);
+try { v27.replace(v27, F23, v31, v34, 7); } catch (e) {}
+const o44 = {
+    "maxByteLength": 7,
+};
+const v46 = new SharedArrayBuffer(7, o44);
+new Float32Array(v46);

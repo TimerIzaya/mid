@@ -1,0 +1,47 @@
+const v0 = -Infinity;
+class C3 {
+    static valueOf(a5, a6) {
+        const o8 = {
+            valueOf() {
+                this[4] >>= v0;
+                return -1;
+            },
+        };
+        return o8;
+    }
+    [v0];
+    [-1];
+    [-9007199254740992] = -9007199254740992;
+    c = -1;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+class C12 {
+    [v0] = C3;
+    [v9];
+    static set a(a14) {
+    }
+    m(a19, a20) {
+        function F21(a23, a24) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.d = a23;
+        }
+        new F21(v9, v0);
+        new F21(v11, C3);
+        new F21(C3, this);
+        return -1;
+    }
+}
+new C12();
+new C12();
+new C12();
+const v31 = [C3,-9007199254740992,v10,C12];
+[-9007199254740992,v9,v9];
+const t40 = [v10,C3,v31];
+t40.__proto__ = C3;
+const o36 = {
+    "maxByteLength": 268435456,
+};
+const v38 = new SharedArrayBuffer(109, o36);
+new Int32Array(v38);

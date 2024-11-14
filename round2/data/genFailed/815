@@ -1,0 +1,41 @@
+const v5 = new Uint8ClampedArray(15);
+new Uint16Array(1000);
+new Int32Array(12);
+new Int32Array(9);
+new BigInt64Array(14);
+new Float64Array(119);
+let v24 = 0;
+do {
+    const v25 = v5.__proto__;
+    Object.defineProperty(v25, v25, { enumerable: true, value: Int32Array });
+    let [,v26] = v25;
+    v24++;
+} while (v24 < 10)
+const v3 = [1000000.0,262.4039312497307,1000000.0,262.4039312497307,0.49447040766473593];
+[1000000.0,1000000.0,v3];
+const v5 = [1000000.0];
+[4.0];
+[-1000.0,1e-15,-1.1861638734919208e+308,-7.9388066523788225,124423.58267708588,-1000.0];
+[0.0,0.4592289652559777,-409921.76671992,-1.7976931348623157e+308,-0.0,-7.798651104671331,1000.0,1e-15];
+class C9 {
+    static #toString(a11, a12, a13) {
+        this - a11;
+        Math.sin(a11);
+        Math.expm1(a11);
+        const v21 = a12 ** ~-65537;
+        !v21;
+        -65537 / v3;
+        return 1.864942613761908 & v21;
+    }
+}
+new C9();
+let v26 = new C9();
+const v27 = new C9();
+let v28;
+try { v28 = v27(v3); } catch (e) {}
+({"g":v28,"length":v26,} = v5);
+for (let v29 = 0; v29 < 32; v29++) {
+    v28["p" + v29] = v29;
+}
+new Date();
+new C9();

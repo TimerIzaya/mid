@@ -1,0 +1,15 @@
+const v3 = [-4294967296n,536870889n,-4294967296n];
+const v4 = [v3];
+const v5 = [536870889n,v3,4294967295n,v4,-4294967296n];
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a9;
+    this.b = v3;
+}
+new F6(v5, 4294967295n, v4, -4294967296n);
+new F6(v4, 4294967295n, v3, 536870889n);
+new F6(v5, 4294967295n, v4, -4294967296n);
+new Float32Array(512);
+const v20 = new BigInt64Array(512);
+const v23 = new Uint8ClampedArray(9);
+Object.defineProperty(v23, 9, { configurable: true, enumerable: true, value: v20 });

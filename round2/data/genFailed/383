@@ -1,0 +1,33 @@
+const v1 = [,,,,,];
+const v2 = [v1,v1];
+const v3 = [,v2,v2];
+const v4 = [v2,v3,v3,v2];
+const v5 = [v4];
+const v6 = [v1,v4,v5,v1,v4];
+function f7() {
+    return v5;
+}
+const o16 = {
+    "maxByteLength": 257,
+};
+const v18 = new SharedArrayBuffer(5, o16);
+const v20 = new Int16Array(v18);
+v6[11] = v20;
+const v0 = [10,1073741823,-61801,7152,4294967297,49025636];
+const v1 = [-6,7];
+const v2 = [9223372036854775807];
+const v4 = new WeakMap();
+const v5 = [65537,-1526455180,9007199254740992,-12,56432];
+const v6 = [4602,1703796069,268435441,4294967297,6,10,-242195186,-4096,-27456];
+const v7 = [4294967295,-60720];
+[v1,v5,v7,v1,v5];
+const v9 = [v7,v2];
+[v4,v4];
+const o11 = {
+};
+try {
+    new Proxy(v9, o11);
+} catch(e14) {
+}
+v2 > v0 ? v2 : v0;
+new WeakMap(v6);

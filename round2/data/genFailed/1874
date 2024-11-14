@@ -1,0 +1,39 @@
+/xyz{93}na[a-z]*/gmi;
+const v1 = /Aqxabc+xa\s/yu;
+const v2 = /(?:a+)?/yi;
+class C3 {
+    static p(a5, a6) {
+        const v8 = a6["test"]("test");
+        let v9;
+        try { v9 = v2.test(v8); } catch (e) {}
+        v9[this] = this;
+        return v1;
+    }
+    toString(a11) {
+        let v12;
+        try { v12 = a11(v1, a11, v2, v1); } catch (e) {}
+        super[v1] = v12;
+        const o16 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o16);
+        return v2;
+    }
+}
+const v18 = new C3();
+new C3();
+new C3();
+function f24() {
+    return v18;
+}
+if (52582) {
+    const v28 = v18;
+    v28[v28] = 52582;
+} else {
+    const o32 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o32);
+}

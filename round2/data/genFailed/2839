@@ -1,0 +1,28 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = -1864986661;
+    this.h = -1864986661;
+}
+const v3 = new F0();
+const v4 = new F0();
+new F0();
+class C9 {
+    static {
+        const v11 = v4[5];
+        const v12 = this.f;
+        const v13 = v12?.["Qo1co"];
+        Reflect.construct(v12, [v11], v13);
+    }
+    static [F0] = v3;
+    static h;
+    static 7 = F0;
+}
+const v17 = new C9();
+const v18 = new C9();
+const v19 = new C9();
+v17.__proto__ = v19;
+[F0];
+[["Qo1co",v19],v17,"1024",v18,C9];
+new Uint8ClampedArray(85);
+new Int32Array(397);
+new Uint32Array(13);

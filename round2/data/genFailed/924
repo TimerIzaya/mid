@@ -1,0 +1,55 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = -4096;
+    this.d = -4096;
+    this.c = -4096;
+}
+new F0();
+new F0();
+new F0();
+const v6 = [-2.2250738585072014e-308,NaN,0.0,2.2250738585072014e-308,-1.0,-109751.64124628797,0.10212487157739658];
+const v7 = [780286.2339035477,-1.1329631808038785e+308];
+[-472303.2735953956,Infinity,NaN,0.6386602759743938,-2.617770952810668,-801794.0567814561];
+new Uint16Array(12);
+new Float32Array(15);
+new Int32Array(3);
+v7[v6];
+let v19 = 0;
+do {
+    var h = e;
+    v19++;
+} while (v19 < 7)
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a5;
+    } catch(e7) {
+    }
+    try {
+        this.f = 0.8174036414882592;
+    } catch(e8) {
+    }
+}
+new F3(0.8174036414882592, 0.8174036414882592);
+const v10 = new F3(-143148.94511990948, -143148.94511990948);
+const v11 = new F3(-143148.94511990948, -143148.94511990948);
+const v12 = [v11];
+const v13 = [F3,v12,1e-15,F3,v10];
+const v14 = [v11,v12,1e-15,v10];
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 1e-15;
+    } catch(e20) {
+    }
+}
+new F15(v12, v12, F3);
+new F15(v13, v13, v11);
+new F15(v14, v14, F3);
+for (let [...v24] of v13) {
+    const v28 = v12.__proto__;
+    try { v13.map(v28); } catch (e) {}
+}
+-364709571 && -364709571;
+Math.round(-143148.94511990948);
+Math.log(-364709571);

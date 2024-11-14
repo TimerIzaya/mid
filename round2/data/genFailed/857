@@ -1,0 +1,42 @@
+const v2 = new Uint8ClampedArray(778);
+let v4 = Uint8ClampedArray;
+let v5 = new v4(2);
+const v8 = new BigUint64Array(255);
+let v9 = [778,2,BigUint64Array];
+const v10 = [v5,778];
+const v11 = [255,v5,v8,2,Uint8ClampedArray];
+v5 = v2;
+v10.valueOf = v11;
+const v14 = Reflect.construct(BigUint64Array, [v11,778], v4);
+let v15;
+try { v15 = v2.join(v14); } catch (e) {}
+v15?.e;
+({"length":v4,...v9} = v2);
+%VerifyType(v9.d);
+const v0 = [536870888,1073741824,710071208,-815011594,7,9007199254740992];
+const v1 = [65535,-256,-10,-59997,4,3,438490597,4096];
+const v2 = [-1707422934,-9007199254740991,15,-16,-1827778469,-536870912,-9007199254740991,-128,-4294967295,268435439];
+try {
+    new Float64Array(10);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(2000);
+} catch(e10) {
+}
+try {
+    new Int16Array(203);
+} catch(e14) {
+}
+const v15 = [2000,v2,v1,v1,2000];
+const v16 = [v1,v15,v0,v1,BigInt64Array];
+[203,2000,Int16Array,v16,Int16Array];
+try {
+    v2.length = 2000;
+} catch(e21) {
+}
+try {
+    v15[7.978152256895747] = 2000;
+} catch(e22) {
+}
+v2[v16][Symbol.asyncIterator];

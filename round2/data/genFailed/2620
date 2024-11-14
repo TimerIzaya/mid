@@ -1,0 +1,23 @@
+const v1 = [4.0,-3.1140852675336124];
+const v2 = [2.2250738585072014e-308,2.2250738585072014e-308,3.0,1.2549514930032934e+308,2.0,-9.035722430991642e+307];
+const v3 = [-680339.1060828124,2.220446049250313e-16,2.6918571116601875,-1.1040404315002874,708005.175511254];
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a6;
+    this.c = a6;
+}
+new F4(v1);
+new F4(v2);
+const v9 = new F4(v3);
+v3.length &&= -50480;
+v9[3] = v3;
+let v14 = 10;
+for (; v14--;) {
+    function F16(a18, a19) {
+        if (!new.target) { throw 'must be called with new'; }
+        this.f = 12;
+    }
+    new F16(v1, v9);
+    new F16(v2, b);
+    new F16(v1, b);
+}

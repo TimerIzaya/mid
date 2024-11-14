@@ -1,0 +1,56 @@
+let v0 = -1847882476;
+class C3 {
+    e;
+    n(a5, a6) {
+        let v7;
+        try { v7 = this.n(this, a6, -42758, a5); } catch (e) {}
+        [,v0,v0] = v7;
+        return -42758;
+    }
+    constructor(a12, a13) {
+        a13?.[this];
+        this[6] = a12;
+        try { new a13(a12, this, this, v0, v0); } catch (e) {}
+    }
+}
+const v20 = new C3(-42758, 255);
+const v21 = new C3(v20, v20);
+const v22 = new C3(C3, v21);
+class C23 extends C3 {
+    [v0];
+    #e = v0;
+    [v20];
+    static #valueOf(a25, a26) {
+        %VerifyType(this);
+        try {
+            v22.#valueOf(v0, v22);
+        } catch(e28) {
+        }
+        return a25;
+    }
+    e = -42758;
+    [v22] = v22;
+    c;
+    d = v22;
+}
+const v29 = new C23();
+const v30 = new C23();
+const v31 = new C23();
+function F32(a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a36;
+    this.b = a35;
+    this.c = v22;
+}
+new F32(v20, v31, C23);
+new F32(v31, v30, v0);
+const v39 = new F32(v30, v29, 255);
+C23[2305] = v39;
+delete v29?.e;
+switch (v22) {
+    case v22:
+        new F32(v21, v22, NaN);
+        break;
+}
+F32 ||= F32;
+v29.__proto__ = v29;

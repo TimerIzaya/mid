@@ -1,0 +1,41 @@
+const v3 = [-2.2250738585072014e-308];
+const v4 = [-712033.691730831,-2.2250738585072014e-308];
+const v5 = [Infinity,-Infinity];
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a8;
+    this.a = a8;
+}
+const v10 = new F6(-5.0, 0.5516989276749522);
+const v11 = new F6(-5.0, -159.96178719425575);
+const v12 = new F6(0.5516989276749522, -5.0);
+class C13 {
+    constructor(a15, a16, a17) {
+        Reflect.construct(F6, [0.5516989276749522,a15], a15);
+        a16.__proto__;
+    }
+    set h(a23) {
+        function f24() {
+            this[512] = this;
+            return arguments;
+        }
+        f24(v4, 0.5516989276749522, 0.5516989276749522, -5.0);
+    }
+    static #b = v3;
+}
+new C13(v3, v4, v12);
+new C13(-5.0, v3, v11);
+const v29 = new C13(v11, v4, v12);
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = a32;
+}
+new F30(v4, v4, v11);
+new F30(v4, v5, v10);
+new F30(v5, v5, v11);
+v5[v29];
+for (let i40 = 0; i40 < 2; i40++) {
+    new Uint16Array(1000);
+    new BigUint64Array(7);
+    new Uint32Array(128);
+}

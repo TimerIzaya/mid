@@ -1,0 +1,118 @@
+let v1 = 1683920711;
+class C3 {
+    m(a5) {
+        a5[-1446024923] = this;
+        a5?.[1024];
+        return v1;
+    }
+    static [-1446024923];
+    static 710;
+    static o(a8) {
+        const v9 = super.c;
+        let v10 = 0;
+        do {
+            v9 != this;
+            const v12 = this[0];
+            const o13 = {
+            };
+            new Proxy(v12, o13);
+            v10++;
+        } while (v10 < 4)
+        return -9007199254740992;
+    }
+}
+const v19 = new C3();
+const v20 = new C3();
+const v21 = new C3();
+function f22(a23, a24, a25, a26) {
+    const o46 = {
+        ...v19,
+        ...a24,
+        __proto__: C3,
+        "g": v1,
+        "e": -9007199254740992,
+        [a26](a28, a29, a30, a31) {
+            v1 = a31;
+            return a28;
+        },
+        valueOf(a33, a34, a35, a36) {
+            const v37 = a33.__proto__;
+            function F38(a40, a41, a42) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.f = a42;
+                this.b = a23;
+            }
+            const v43 = new F38(a26, -9007199254740992, a34);
+            new F38(v43, a25, v37);
+            new F38(v43, a26, -1446024923);
+            return F38;
+        },
+    };
+    return o46;
+}
+const v47 = f22(v20, v20, -9007199254740992, -9007199254740992);
+f22(v20, v21, -9007199254740992, C3);
+const v49 = f22(v21, v19, v1, C3);
+class C50 {
+    static valueOf(a52, a53) {
+        return "-1343812922";
+    }
+    p(a58, a59) {
+        function F60(a62, a63, a64, a65) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.f = a62;
+        }
+        new F60(v21, a59, v1, v49);
+        new F60(v20, v19, a59, a58);
+        new F60(v19, v19, -9007199254740992, v47);
+        return f22;
+    }
+}
+new C50();
+new C50();
+new C50();
+try {
+    new f22(v21, v21, -9007199254740992, v47);
+} catch(e73) {
+}
+v49 >>> -9007199254740992;
+function f75() {
+    function f77(a78) {
+        function f79() {
+            return a78;
+        }
+    }
+    this.onmessage = f77;
+    this[this] = this;
+}
+const v82 = [];
+const o83 = {
+    "arguments": v82,
+    "type": "function",
+};
+new Worker(f75, o83);
+function f6() {
+    return 45876;
+}
+try {
+    new Int16Array(121);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(8);
+} catch(e14) {
+}
+try {
+    new Int8Array(64);
+} catch(e18) {
+}
+%VerifyType(8);
+const t16 = -65537;
+const v19 = delete t16[8];
+try {
+    const t19 = 64;
+    t19.g = v19;
+} catch(e20) {
+}
+new BigUint64Array(-65537, -65537, -65537);
+45876 * f6;

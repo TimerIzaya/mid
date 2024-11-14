@@ -1,0 +1,38 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static {
+        const v4 = [this,WeakSet,this,WeakSet,this];
+        v4[v4] = this;
+    }
+    #e;
+    constructor(a6, a7) {
+        super(a7);
+        a7[5] = false;
+        try { a7(false, a6, this, this, v1); } catch (e) {}
+    }
+    static #d = v1;
+}
+const v10 = new C2(v1, v1);
+new C2(v1, v1);
+new C2(C2, v10);
+[-1.0,NaN,1.7976931348623157e+308,0.6616589482144248,-1.778417407880784e+308,-1e-15,-1e-15];
+[0.6781640436606376,-1.0,1000000000.0,1.547475989163212e+308,127939.99009979586];
+[0.1609520421424382,0.8201295500182659,322.80830449731366,0.20892821335161316,-1000000.0,999.057882314843,916088.2785030042,0.6423500232603625,-5.0];
+v1.c <<= 4.0;
+new BigUint64Array(8);
+new Uint8ClampedArray(2);
+new Int8Array(1);
+const v4 = new WeakMap();
+const v9 = new WeakMap();
+-8904n == +4n;
+const v15 = new WeakMap(v4);
+try {
+    v15[9] = 0.42221614346488956;
+} catch(e16) {
+}
+const o17 = {
+};
+try {
+    new Proxy(v9, o17);
+} catch(e20) {
+}

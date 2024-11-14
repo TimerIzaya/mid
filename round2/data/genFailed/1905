@@ -1,0 +1,22 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = -4096;
+    this.h = -4096;
+}
+new F0();
+new F0();
+const v5 = new F0();
+const v11 = new BigInt64Array(1937);
+new Uint16Array(90);
+new BigUint64Array(0);
+function f18(a19, a20) {
+    const v21 = v5[9];
+    v11[-65537] = -4294967295;
+    let v22;
+    try { v22 = a19.reduce(v21, 90, a20, 1937, 129); } catch (e) {}
+    function f23() {
+        return 129;
+    }
+    return v22;
+}
+f18(v5, v5);

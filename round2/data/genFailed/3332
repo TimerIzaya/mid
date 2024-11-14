@@ -1,0 +1,50 @@
+let v0 = WeakSet;
+let v1 = new v0();
+class C2 {
+    constructor(a4) {
+        let v3 = this;
+        v3 = a4;
+        let v5;
+        try { v5 = v3(); } catch (e) {}
+        v5[1073741824] = v5;
+        super.h;
+    }
+    static e = v1;
+    h = v0;
+    static #a = v1;
+    static d = v1;
+}
+let v10 = new C2(v0);
+const v11 = new C2(v0);
+new C2(C2);
+function f13(a14, a15) {
+    const o25 = {
+        set h(a17) {
+            super[this] = a17;
+        },
+        [v11]: a14,
+        set d(a19) {
+            let v20 = 0;
+            while (v20 < 2) {
+                a19 = C2;
+                ({"h":v1,} = this);
+                --v10;
+                v20++;
+            }
+        },
+    };
+    return o25;
+}
+const v26 = f13(v10, v1);
+f13(v26, v26);
+let v28 = f13(v11, v11);
+/\cA\xf0\x9f\x92\xa9*/giu;
+/9(x)(x)(x)\1*/miu;
+let v31 = /b\p{Script_Extensions=Greek}/isd;
+({"f":v28,"g":v31,"h":v0,} = v10);
+let v32 = 10;
+for (; v32--;) {
+    [-1000000000000.0,2.2250738585072014e-308,68032.74020708539,2.220446049250313e-16];
+    [-62752.59968879388,1000000000.0,4.051613920491786e+307,0.06951619432241174];
+    [-4.3674403239376556e+307,4.0,Infinity];
+}

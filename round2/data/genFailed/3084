@@ -1,0 +1,24 @@
+const v0 = /[\p{Script_Extensions=Mongolian}&&\p{Number}]/sv;
+const v1 = /(a\fb\nc\rd\te\vf)/gmsu;
+const v2 = /Yxyz?\u00603foo(?!bar)baz/ysu;
+new Map();
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a14;
+    this.f = 1308563289;
+    this.c = 222953596;
+}
+const v16 = new F11(v0, 222953596, 1308563289);
+new F11(v2, -128, -128);
+const v18 = new F11(v0, 1308563289, -16);
+const v19 = new Map(v2);
+v2[536870889] = v19;
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = v1;
+    this.h = -128;
+    this.f = 1308563289;
+}
+new F20(1308563289, 1308563289, -128, v16);
+new F20(257, -128, 222953596, v16);
+new F20(-128, -128, 512, v18);

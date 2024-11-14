@@ -1,0 +1,75 @@
+function f0() {
+}
+class C1 extends f0 {
+    #f = f0;
+    constructor() {
+        super();
+        try {
+            this.#f = f0;
+        } catch(e3) {
+        }
+        f0 * this;
+        this[8];
+        Object.defineProperty(this, "f", { writable: true, configurable: true, get: f0 });
+    }
+    c;
+    d = f0;
+    static a = f0;
+    #e = f0;
+}
+const v6 = new C1();
+const v7 = new C1();
+new C1();
+/(?:a+)+/gsdv;
+const v10 = /8[]/gmiv;
+/a\Bb5/gyd;
+new Set();
+new Set();
+v7[3];
+[3.0,-1.897766807550326,1000.0,-2.2250738585072014e-308];
+[-170325.58956342586,-1000000.0,7.639100523129641e+307,3.0,-109.71645772382192,-1000000000000.0,-875.1736811117346];
+[1000000.0,1.2759665775094924e+308,-1000000000.0,-2.2250738585072014e-308,-2.0,-6.539149281928635,-1e-15,602.8320510300657,-3.0,1000.0];
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.f = a27;
+    this.h = v6;
+    this.c = a26;
+}
+new F23(v7, "p", f0, v10);
+new F23(v7, "p", "1073741823", v10);
+new F23(v6, "p", Set, v10);
+function f3() {
+    return 870366250n;
+}
+[2.220446049250313e-16,1000.0,-7.067605385977216,3.5754559687368127e+307,-3.884098463768194e+307,-4.0,2.2250738585072014e-308,2.2250738585072014e-308];
+[2.220446049250313e-16];
+[3.0,-799185.6258416004,2.2250738585072014e-308,1000000000.0,-Infinity,0.0,3.0225118918972544,0.6987035499403215,6.695300488799719e+307];
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -6n;
+    } catch(e14) {
+    }
+    try {
+        this.c = "symbol";
+    } catch(e15) {
+    }
+    try {
+        this.e = 870366250n;
+    } catch(e16) {
+    }
+}
+const v17 = new F10("KGs", -6n);
+const v18 = new F10(v17, -6n);
+new F10(v18, -6n);
+const t24 = "symbol";
+t24.length &= 870366250n;
+let v20 = 0;
+while (v20 < 0) {
+    const o26 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o26);
+    v20++;
+}

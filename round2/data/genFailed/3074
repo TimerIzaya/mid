@@ -1,0 +1,31 @@
+let v1 = new WeakMap();
+class C2 extends WeakMap {
+    constructor(a4) {
+        let v3 = this;
+        super(v1);
+        ({"b":v1,"g":v3,...v3} = a4);
+        try {
+            const v6 = /H/i;
+            v3.valueOf(-21319n, v6, v6, v3);
+        } catch(e8) {
+        }
+    }
+}
+new C2(C2);
+const v10 = new C2(v1);
+const v11 = new C2(v10);
+class C12 extends C2 {
+    h;
+    set g(a14) {
+        Object.defineProperty(v11, "d", { configurable: true, enumerable: true, value: v10 });
+    }
+    static 7;
+    static f;
+    b;
+}
+new C12();
+new C12();
+new C12();
+new Uint8Array(5);
+new BigUint64Array(4096);
+new Uint8Array(3);

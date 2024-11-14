@@ -1,0 +1,84 @@
+class C3 {
+    static {
+        this.toString = this;
+        try { this.valueOf(27055, 1000, this); } catch (e) {}
+        let v6 = 0;
+        while (v6 < 0) {
+            const o11 = {
+                "maxByteLength": 15,
+            };
+            const v13 = new SharedArrayBuffer(6, o11);
+            new Float32Array(v13);
+            v6++;
+        }
+    }
+}
+const v17 = new C3();
+const v18 = new C3();
+new C3();
+const v22 = new Float32Array(4096);
+const v25 = new Uint8ClampedArray(13);
+new Int8Array(16);
+let v29;
+try { v29 = v25(v18, v22, v17); } catch (e) {}
+function f30(a31, a32, a33, a34) {
+    const o37 = {
+        "maxByteLength": 114,
+    };
+    const v39 = new ArrayBuffer(114, o37);
+    new Int32Array(v39);
+    return 114;
+}
+f30(v22, 4096, 4096, v29);
+let v0 = 209;
+try {
+    new Int16Array(v0);
+} catch(e3) {
+}
+let v4 = 6;
+try {
+    new Uint16Array(v4);
+} catch(e7) {
+}
+try {
+    new Float32Array(165);
+} catch(e11) {
+}
+function f12() {
+    return Int16Array;
+}
+class C13 extends Float32Array {
+    static 1073741823;
+    constructor(a15, a16) {
+        super(165, a16, a15);
+        super.byteOffset &= v0;
+        Object.defineProperty(this, 65535, { set: f12 });
+        delete this[8];
+    }
+    m(a19, a20, a21, a22) {
+        try {
+            v0 *= 165;
+        } catch(e23) {
+        }
+        return v4;
+    }
+}
+const v24 = new C13(v0, v0);
+new C13(165, v0);
+new C13(v4, v0);
+const v27 = [0.0,Infinity,-258321.9562491799,0.973185651667564,0.25497644707791023,0.6915672854238891,4.697674175622469,-865.5636394043058];
+[-2.2250738585072014e-308,3.0,-3.9801206839242482,-Infinity,0.7401988139269935,1000000000.0,-591.0517367409025];
+const v29 = [-106.42936760264024,-1.0,1000.0,NaN,-8.393292427276995,3.0,0.4157773655005239,2.325442080103792e+307];
+const v30 = v27 instanceof Int16Array;
+if (f12() >= v30) {
+    try {
+        v4 &= v4;
+    } catch(e33) {
+    }
+} else {
+    f12();
+    try {
+        v24[3] = v29;
+    } catch(e35) {
+    }
+}

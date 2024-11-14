@@ -1,0 +1,97 @@
+function f0() {
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = 16n;
+}
+const v7 = new F4(8n);
+const v8 = new F4(16n);
+new F4(16n);
+function f10(a11, a12, a13, a14) {
+    const o22 = {
+        "f": F4,
+        "e": F4,
+        set c(a16) {
+            a12 = a16;
+            const o20 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o20);
+        },
+    };
+    return o22;
+}
+const v23 = f10(v8, v7, 8n, 16n);
+let v24 = f10(v7, v8, 10n, 10n);
+const v25 = f10(v8, v7, 10n, 16n);
+Object.defineProperty(v23, 864, { writable: true, enumerable: true, get: f10 });
+let v26 = v8 && F4;
+/\P{Decimal_Number}/isdu;
+/3LC(?<a>)/mi;
+const v30 = /[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/gyd;
+({"a":f10,"c":v24,} = v25);
+v30.dotAll = f10;
+Math.sin(F4);
+const v36 = --v26;
+v36 + v36;
+let v2 = -9223372036854775808n;
+class C3 {
+    static a = 1073741823n;
+    constructor(a5) {
+        a5[8] += a5;
+        super.f;
+    }
+    toString(a8, a9) {
+        %VerifyType(a8);
+        function F10(a12, a13, a14, a15) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = a8;
+            } catch(e16) {
+            }
+            try {
+                this.a = a12;
+            } catch(e17) {
+            }
+        }
+        new F10(a8, a9, a9, a9);
+        new F10(1073741823n, 1073741823n, 1073741823n, 1073741823n);
+        const v20 = new F10(a8, a8, a8, v2);
+        return v20;
+    }
+}
+new C3(v2);
+new C3(-9223372036854775807n);
+const v23 = new C3(-9223372036854775807n);
+class C24 {
+    static {
+        let v27 = 23227;
+        Math.clz32(217526.225407484);
+        const v30 = --v27;
+        v2++;
+        !v30;
+        Math.abs(v27);
+    }
+    128;
+}
+new C24();
+new C24();
+const v36 = new C24();
+try {
+    C3[15] = v36;
+} catch(e37) {
+}
+if (C3) {
+    try {
+        v23.toString("yJu", C24, "object", -1);
+    } catch(e42) {
+    }
+} else {
+    const o43 = {
+    };
+    try {
+        new Proxy(v36, o43);
+    } catch(e46) {
+    }
+}

@@ -1,0 +1,67 @@
+class C3 {
+    constructor(a5) {
+        super.h = -63168;
+        for (let v6 = 0; v6 < 32; v6++) {
+            const t4 = "__proto__";
+            t4["p" + v6] = v6;
+        }
+    }
+    valueOf(a10) {
+        const v12 = -63168 > 127 ? -63168 : 127;
+        try { ("__proto__").codePointAt(v12); } catch (e) {}
+        this[8] = 127;
+        const v14 = delete a10?.[483];
+        %VerifyType(a10);
+        v14[6] = "__proto__";
+        return -63168;
+    }
+}
+const v15 = new C3("__proto__");
+const v16 = new C3(v15);
+const v17 = new C3("__proto__");
+function f18() {
+    return v16;
+}
+function f19() {
+    return 127;
+}
+class C20 {
+    get c() {
+        const t29 = "__proto__";
+        t29.__proto__ = this;
+        this instanceof f18;
+        try {
+            const o23 = {
+            };
+            v17.valueOf(o23, f18, o23);
+        } catch(e25) {
+        }
+        return v15;
+    }
+    static d = f18;
+    static #g = "__proto__";
+    static b;
+    static 127 = f18;
+}
+new C20();
+new C20();
+new C20();
+function f29() {
+    return "__proto__";
+}
+[-547552.209794687,-4.0,-1.0,2.2250738585072014e-308];
+[-1000000000.0,1e-15,-1000.0,1.0,627.551790445938,0.9724791778999051,0.0,-3.7294609705150013];
+[1.7976931348623157e+308,-9.751277414418503,-3.0];
+C3[1073741824] = v16;
+const v34 = Symbol.isConcatSpreadable;
+C20[v34] = v34;
+const v35 = f19();
+class C36 extends f19 {
+    static #e;
+    [v15];
+    8;
+    static 5 = v35;
+}
+new C36();
+new C36();
+new C36();

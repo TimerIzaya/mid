@@ -1,0 +1,43 @@
+const v2 = new Int32Array(2);
+new Uint16Array(129);
+let v6 = 64;
+const v8 = new Float32Array(v6);
+function f9(a10, a11) {
+    const o22 = {
+        "d": a11,
+        8: v8,
+        "a": 2,
+        9: v8,
+        "g": a11,
+        "b": a11,
+        __proto__: a10,
+        7: a10,
+        "c": v2,
+        m(a13, a14, a15) {
+            delete this[1024];
+            const v17 = a10 && a10;
+            a10?.[a14];
+            v6 >>>= 2;
+            /c(?:ab)+/gyisv;
+            /\p{Script_Extensions=Greek}+/dv;
+            /5O/gyidu;
+            return v17;
+        },
+    };
+    return o22;
+}
+const v23 = f9(f9, 129);
+const v24 = f9(v23, 129);
+const v26 = [f9(2, v6)];
+let v27 = [Int32Array];
+[Int32Array,v27];
+for (let [,,v29] of v26) {
+    %VerifyType(v23);
+    const v30 = v24[v29];
+    try {
+        f9(v30, 2);
+    } catch(e32) {
+    }
+}
+v27 %= v26;
+delete v26[-1];

@@ -1,0 +1,21 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = 3;
+}
+new F0();
+new F0();
+const v5 = new F0();
+[1.7976931348623157e+308,-1000.0,Infinity,-1.0];
+[-Infinity,2.0,2.0,-1.0];
+const v8 = [-Infinity,0.1935459760352073,1000000000.0,0.5773014948807113,0.6644514433255803,1e-15];
+new Uint8Array(127);
+const v20 = new Uint8Array(5);
+new Int8Array(6);
+v8.length >>= 5;
+-3 >> 20896n;
+const o28 = {
+    __proto__: v20,
+    [Int8Array]: -4n,
+    "h": v5,
+    238: 257,
+};

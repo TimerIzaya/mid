@@ -1,0 +1,55 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = 3n;
+    this.b = a5;
+}
+const v6 = new F3(3n);
+const v7 = new F3(536870887n);
+const v8 = new F3(v6);
+class C9 extends F3 {
+    static b = 3n;
+    static #h = v8;
+    constructor(a11, a12) {
+        super(3n);
+        try { v6.throw(536870887n); } catch (e) {}
+        this & v8;
+    }
+    1073741825 = v7;
+    static h = v6;
+    5 = v7;
+}
+const v15 = new C9(536870887n, v6);
+const v16 = new C9(536870887n, v8);
+new C9(4294967297n, v16);
+let v18 = 0;
+while (v18 < 2) {
+    const v21 = 4294967297n * v15;
+    const v22 = v6.b;
+    try { new v22(); } catch (e) {}
+    a = v21;
+    v18++;
+}
+try {
+    new BigUint64Array(6);
+} catch(e3) {
+}
+try {
+    new Int16Array(128);
+} catch(e7) {
+}
+try {
+    new Int8Array(249);
+} catch(e11) {
+}
+const v15 = [2.220446049250313e-16,0.6365430048563409,-4.0,1000.0];
+[0.0,3.0,-7.850025524940172e+306,-320118.3192109021,-5.141998205010143e+307,Infinity];
+[-5.0,-481.0451852088968,-Infinity,0.7267406213308539,0.5141654151253754];
+try {
+    new Int16Array(v15, 65535, 15);
+} catch(e19) {
+}
+const v20 = [-4096,13943];
+const v21 = [3,-4294967296,19413,24231,-1396620195,4294967297,7];
+[536870888,-65535,6,5,-1174320114,5,1207021899,-11,9007199254740991];
+let {"a":v23,"b":v24,"length":v25,} = v21;
+v20.length -= 256;

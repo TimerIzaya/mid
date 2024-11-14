@@ -1,0 +1,48 @@
+new BigInt64Array(4021);
+const v5 = new Uint32Array(512);
+const v8 = new Uint8ClampedArray(1000);
+class C9 extends Uint8ClampedArray {
+    static f = 4021;
+    static #o(a11, a12) {
+        function F13(a15, a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            this.a = a15;
+            this.e = a16;
+            this.h = 1000;
+        }
+        new F13(a11, 512);
+        const v18 = new F13(this, 512);
+        new F13(v18, a12);
+        return this;
+    }
+    [BigInt64Array];
+    e = v8;
+    6;
+}
+const v20 = new C9();
+const v21 = new C9();
+const v22 = new C9();
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.g = a25;
+    this.f = v20;
+    this.c = v20;
+}
+const v29 = new F23(v22, 4021, v22, v21);
+const v30 = new F23(v21, 4021, v20, v8);
+const v31 = new F23(v21, 4021, v21, v8);
+for (const v32 of v8) {
+    v32 instanceof v32;
+    v21.length = 208;
+    v29.g /= 512;
+}
+v5 == v31;
+v22[512] = v21;
+function F36(a38, a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = a40;
+    this.h = a40;
+}
+const v42 = new F36(v21, v29, 1000, v30);
+new F36(v20, v5, 512, v30);
+new F36(v22, v42, 4021, C9);

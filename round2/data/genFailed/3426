@@ -1,0 +1,29 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = 268435439;
+    this.h = 268435439;
+    this.e = 268435439;
+}
+new F0();
+new F0();
+const v5 = new F0();
+const v6 = [209.2506101518411,-20.945108629049287,-4.0,0.38646797941565303,0.9475669902662804,2.2250738585072014e-308,-6.174452860219015,1e-15,1000000000.0];
+const v7 = [-1.0894961453727543e+308,278572.362445995,939896.4006629912,215965.6515825938,-305489.3350400911,-4.0,NaN,0.41909932965247754,-1000000000000.0,-3.2020858635898435e+307];
+const v8 = [-1000000000.0,389.1845024197821,0.5484731936249011,Infinity,883304.6806244757];
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = a13;
+    this.a = a11;
+    this.f = v5;
+}
+const v14 = new F9(v8, v6, v8);
+new F9(v6, v6, F9);
+new F9(v6, v7, v7);
+let v23;
+try { v23 = ("toString").trimStart(); } catch (e) {}
+F9 instanceof v23;
+"entries" ** v14;
+try {
+    new F0();
+} catch(e27) {
+}

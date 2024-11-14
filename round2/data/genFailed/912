@@ -1,0 +1,63 @@
+new Float32Array(512);
+const v8 = new Uint16Array(3807);
+const v11 = new Uint8ClampedArray(15);
+let [] = v8;
+const v12 = new Uint8ClampedArray(3807, 512, 15);
+const v13 = v11[256n];
+try { v8.map(v13); } catch (e) {}
+let v15 = 0;
+do {
+    const v16 = [-290186757,-4294967297,-9223372036854775807,2,1228940211,9007199254740990];
+    const v17 = [-1045341157,9084];
+    [268435441,536870912,16,2,-1587823524];
+    const v20 = [v16,3807];
+    Reflect.apply(v12.includes, v17, v20);
+    v15++;
+} while (v15 < 0)
+function f6(a7, a8, a9, a10) {
+    const o15 = {
+        __proto__: a9,
+        get c() {
+            const v12 = this instanceof this;
+            try { v12(a9); } catch (e) {}
+            a9.length;
+            return v12;
+        },
+        ..."d",
+        "b": a7,
+        "d": a10,
+        "h": a9,
+        "g": "-1885024149",
+    };
+    return o15;
+}
+const v16 = f6("-1885024149", "d", "function", "toGMTString");
+const v17 = f6("function", "valueOf", "d", "function");
+const v18 = f6("toGMTString", "4", "function", "function");
+class C19 extends f6 {
+    toString(a21, a22, a23, a24) {
+        try {
+            super.a = v17;
+        } catch(e25) {
+        }
+        return a22;
+    }
+    static ["-1885024149"];
+    static [v18] = v16;
+    static #b;
+    [v18] = "toGMTString";
+    g;
+}
+const v26 = new C19();
+const v27 = new C19();
+new C19();
+function f29(a30, a31, a32) {
+    const o33 = {
+        ...a32,
+        0: "d",
+    };
+    return o33;
+}
+f29(v16, v27, C19);
+const v35 = f29(v26, v27, v18);
+f29(v35, v35, v27);

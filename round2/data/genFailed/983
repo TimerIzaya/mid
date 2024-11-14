@@ -1,0 +1,68 @@
+new Int16Array(12);
+new BigUint64Array(256);
+const v8 = new BigUint64Array(8);
+class C9 extends BigUint64Array {
+    constructor(a11, a12, a13) {
+        super(8);
+        const o16 = {
+            "maxByteLength": 536870912,
+        };
+        const v18 = new SharedArrayBuffer(257, o16);
+        new Float32Array(v18);
+    }
+    static a;
+}
+const v21 = new C9(256, 8, 256);
+new C9(256, 12, 8);
+new C9(256, 8, 12);
+const v24 = delete v8?.byteOffset;
+v21.buffer;
+let {"a":v29,"f":v30,"h":v31,} = v24;
+const o32 = {
+};
+new Proxy(v29, o32);
+new WeakSet();
+try {
+    new Int32Array(3);
+} catch(e8) {
+}
+try {
+    new Int32Array(3);
+} catch(e12) {
+}
+try {
+    new Uint8Array(6);
+} catch(e16) {
+}
+function f17(a18, a19, a20, a21) {
+    const o30 = {
+        "b": 3,
+        set d(a23) {
+            [0.7115294670177499];
+            [801862.5896222705,1000000000000.0,2.220446049250313e-16];
+            const v26 = [NaN,0.9533172834295507,-2.2250738585072014e-308,-643.8613289490904];
+            %VerifyType(v26);
+            try { a23(); } catch (e) {}
+            try {
+                super.some(v26, a19, this);
+            } catch(e29) {
+            }
+        },
+        "h": 9007199254740991n,
+        "d": 6,
+    };
+    return o30;
+}
+const v31 = f17(3, WeakSet, 6, 268435441n);
+const v32 = f17(6, 3, 6, 9007199254740991n);
+f17(3, 6, 3, 65535n);
+Object.defineProperty(v32, 7, { writable: true, configurable: true, value: v31 });
+try {
+    v31[65535n] = v31;
+} catch(e34) {
+}
+Math.cosh(65535n);
+const v39 = -4294967296 % -4294967296;
+let v40 = !42844;
+v40++;
+(v40 / v39) && 65535n;
