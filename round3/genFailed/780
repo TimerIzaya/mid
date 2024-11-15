@@ -1,0 +1,49 @@
+function f0() {
+    const o17 = {
+        "f": 4,
+        ..."multiline",
+        "c": -1359966411,
+        [-1359966411]: "multiline",
+        1073741823: 4,
+        "e": -1359966411,
+        get d() {
+            try {
+                new BigUint64Array(16);
+            } catch(e8) {
+            }
+            try {
+                new BigInt64Array(10);
+            } catch(e12) {
+            }
+            try {
+                new Int32Array(257);
+            } catch(e16) {
+            }
+            return 257;
+        },
+    };
+    return o17;
+}
+f0();
+f0();
+const v20 = f0();
+try {
+    new Float64Array(126);
+} catch(e24) {
+}
+try {
+    new Float64Array(1257);
+} catch(e28) {
+}
+try {
+    new Uint8Array(86);
+} catch(e32) {
+}
+function f36(a37, a38, a39) {
+    const v40 = new Float64Array(a37);
+    try { a37.setFullYear("toStringTag", a37, a37, 126); } catch (e) {}
+    const v43 = [f0,"d"];
+    Reflect.apply(v40.findLastIndex, a38, v43);
+    return "b";
+}
+f36(v20, v20, 86);

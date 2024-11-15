@@ -1,0 +1,52 @@
+function f3() {
+    return "toString";
+}
+class C4 extends f3 {
+    6 = "toString";
+    #f;
+    static {
+        try {
+            const t8 = "toString";
+            t8.toString = f3;
+        } catch(e6) {
+        }
+        Object.defineProperty("9", 10000, { writable: true, enumerable: true, value: this });
+        try {
+            super.length = "toString";
+        } catch(e7) {
+        }
+    }
+    2155 = "9";
+}
+const v8 = new C4();
+new C4();
+const v10 = new C4();
+class C14 {
+    static e;
+    b = 10;
+    #a = v10;
+    #h = "toString";
+    static n(a16, a17) {
+        try {
+            this.#h *= 65535;
+        } catch(e18) {
+        }
+        try {
+            v8[a17] = a16;
+        } catch(e19) {
+        }
+        return C4;
+    }
+}
+new C14();
+const v21 = new C14();
+new C14();
+C4[C14];
+try {
+    -31097 * "9";
+} catch(e25) {
+}
+Object.defineProperty(C14, 536870887, { configurable: true, set: f3 });
+v10.__proto__;
+C14[4];
+new String(v21);

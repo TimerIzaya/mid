@@ -1,0 +1,54 @@
+class C3 {
+    static #m(a5, a6) {
+        with (this) {
+            e = 3.145592700079643e+307;
+            "symbol" < "symbol";
+        }
+        const o8 = {
+        };
+        try {
+            new Proxy(this, o8);
+        } catch(e11) {
+        }
+        return "valueOf";
+    }
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+function f15(a16, a17, a18, a19) {
+    const o29 = {
+        "e": "symbol",
+        ...a16,
+        "h": C3,
+        toString(a21, a22, a23, a24) {
+            `bigint${this}b${a17}lf${a18}stack${C3}1073741824`;
+            return a21;
+        },
+        get f() {
+            try {
+                this | a19;
+            } catch(e28) {
+            }
+            return v12;
+        },
+    };
+    return o29;
+}
+const v32 = f15(f15(v12, "symbol", v12, v12), "symbol", f15("valueOf", C3, v12, v14), "valueOf");
+const v33 = [v13,"valueOf",v32,v32];
+const v34 = [v32];
+[v33,"valueOf",v33,v34];
+v34[162];
+try {
+    const o37 = {
+    };
+    const o38 = {
+    };
+    const o39 = {
+    };
+    const o40 = {
+    };
+    new f15(o37, o38, o39, o40);
+} catch(e42) {
+}

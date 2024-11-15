@@ -1,0 +1,35 @@
+const v0 = -Infinity;
+try {
+    new Uint32Array(31);
+} catch(e6) {
+}
+try {
+    new Float32Array(32);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e14) {
+}
+function f15() {
+    return Float32Array;
+}
+function f16() {
+    return Float32Array;
+}
+const v18 = [[32,-5.0]];
+const v19 = [f15,31];
+try {
+    v18[2] = v0;
+} catch(e20) {
+}
+class C21 extends BigInt64Array {
+    constructor(a23, a24) {
+        super(v18, 32, 0);
+        new BigInt64Array(v18, 32, 0);
+    }
+    h = v19;
+}
+const v26 = new C21(v0, 31);
+const v27 = new C21(v26, 32);
+new C21(v27, 0);

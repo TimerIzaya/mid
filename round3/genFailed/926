@@ -1,0 +1,28 @@
+const v0 = [5,9223372036854775807,-2147483648,642367735];
+const v1 = [9007199254740990,-9305,7,-1312056545,-2147483647,14];
+const v2 = [256,-2147483648,65536,19068,536870912];
+const v3 = [v1];
+[v0,v3,v3,v2];
+[v3];
+let v6 = 7;
+try {
+    new Int16Array(v6);
+} catch(e9) {
+}
+try {
+    new Int8Array(256);
+} catch(e13) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e17) {
+}
+const v20 = Reflect.construct(BigUint64Array, [v2,4,4], BigUint64Array);
+try { Reflect.deleteProperty(v1, v20); } catch (e) {}
+try {
+    v6++;
+} catch(e23) {
+}
+[-1957254153];
+[536870887,68331199];
+[-63262,-1461534646,49754,536870912,854462174];

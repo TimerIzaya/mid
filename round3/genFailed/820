@@ -1,0 +1,74 @@
+function f0() {
+}
+class C1 extends f0 {
+    toString() {
+        super[this];
+        return f0;
+    }
+    static get c() {
+        let v6 = 4096;
+        f0 || v6;
+        const v8 = !v6;
+        let v9 = --v6;
+        ++v9;
+        try {
+            Math.expm1(v6);
+        } catch(e12) {
+        }
+        f0 * v8;
+        -v6;
+        return v6;
+    }
+}
+const v15 = new C1();
+const v16 = new C1();
+const v17 = new C1();
+function f18(a19, a20) {
+    const o30 = {
+        [v16]: a19,
+        "g": C1,
+        valueOf(a22, a23, a24) {
+            const o25 = {
+                __proto__: this,
+                "b": a19,
+            };
+            const v26 = v16;
+            return "9223372036854775807";
+        },
+        "c": C1,
+    };
+    return o30;
+}
+const v31 = f18(v17, C1);
+const v32 = f18(v16, v17);
+const v33 = f18(v16, v16);
+const v34 = [0.6770972691084252,5.10844961226874e+307,-0.9685601939392523,-1000.0,-6.175097313085367];
+[0.8914593238226329,-1e-15,930416.1524147468,1.7976931348623157e+308,-161.60025815469135,-4.625241986045047];
+const v36 = [-1.6571576954614285e+307,-Infinity,-1e-15,-7.365662506142279,-0.0,578701.262068005];
+class C37 {
+    #c;
+    static [v15] = f18;
+    constructor(a39, a40, a41, a42) {
+        const o45 = {
+            "maxByteLength": 2862,
+        };
+        const v47 = new ArrayBuffer(2862, o45);
+        try {
+            new BigInt64Array(v47);
+        } catch(e50) {
+        }
+    }
+}
+const v51 = new C37(C1, v31, v33, v34);
+new C37(C1, v32, C37, v36);
+new C37(v36, v32, v31, v16);
+[v33,v32,f18,v33];
+const v55 = [v32,v31,v36,v33];
+[v55,v51,v55,v16];
+/N(?:foo)/sd;
+let v58 = /[x\dz]/gidum;
+const v59 = /[\xe2\x81\xa3]/gydvm;
+try {
+    v58 >>>= v59;
+} catch(e60) {
+}

@@ -1,0 +1,58 @@
+function f0() {
+    const o7 = {
+        set d(a5) {
+            try {
+                this.toString = a5;
+            } catch(e6) {
+            }
+        },
+        "f": -0.0,
+        "g": "match",
+        "c": "valueOf",
+        "d": -0.0,
+        ..."match",
+    };
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+class C11 extends f0 {
+    static [v8];
+    128;
+    m(a13) {
+        return 16;
+    }
+    static [v9];
+    f = v8;
+    static #f = v10;
+}
+const v17 = new C11();
+const v18 = new C11();
+const v19 = new C11();
+function f20(a21, a22, a23) {
+    const o30 = {
+        "g": a23,
+        [a21](a25, a26, a27, a28) {
+            try {
+                v10.f = v18;
+            } catch(e29) {
+            }
+            return v9;
+        },
+        "e": v17,
+        "b": f0,
+        "f": v18,
+    };
+    return o30;
+}
+const v31 = f20(v17, v10, v18);
+f20(v10, v19, v9);
+f20(v19, v17, v18);
+for (const v37 of 1.1200753790074292e+308) {
+    try {
+        f0();
+    } catch(e39) {
+    }
+}
+typeof v31 === "boolean";

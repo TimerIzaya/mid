@@ -1,0 +1,56 @@
+const v0 = /a[a]?/gsum;
+const v1 = /e/gyisv;
+const v2 = /ab|c/svm;
+const v3 = [2.2182126656196848e+307,-1000000.0,9.20434739631036e+307,-1000.0,755542.7574977358];
+const v4 = [Infinity,1000000.0,-797.9685998635595,1000000.0,2.220446049250313e-16,-8.961072602043902];
+const v5 = [-Infinity,-5.756821814167255,-280.3640733559048,-64157.9045821334,-576.7134130898779,NaN,872.9681902326329,3.1033842290640994,-80.17576772558323];
+function f6(a7, a8) {
+    const o15 = {
+        __proto__: a8,
+        set b(a10) {
+            const v11 = v4 in this;
+            try {
+                v11 < a7 ? v11 : a7;
+            } catch(e14) {
+            }
+        },
+        ...a8,
+        [v1]: a8,
+    };
+    return o15;
+}
+f6(v5, v2);
+const v17 = f6(v4, v0);
+let v18 = f6(v3, v1);
+class C19 extends f6 {
+    static {
+        try {
+            v18 &= v18;
+        } catch(e21) {
+        }
+        v4["slice"](v18, v18);
+    }
+    [v1] = v2;
+    static d = v3;
+    [v3];
+}
+const v24 = new C19();
+const v25 = new C19();
+new C19();
+try {
+    v3 ** v1;
+} catch(e29) {
+}
+try { C19.clear(v0, f6, v24, v25, v17); } catch (e) {}
+try {
+    new Uint8ClampedArray(236);
+} catch(e34) {
+}
+try {
+    new Uint16Array(3556);
+} catch(e38) {
+}
+try {
+    new Uint32Array(127);
+} catch(e42) {
+}

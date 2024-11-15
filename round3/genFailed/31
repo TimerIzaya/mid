@@ -1,0 +1,32 @@
+const v0 = [2.220446049250313e-16,-767.5650188674961,-717.8248475049518,-1000000000.0];
+const v1 = [-1.2984336508046998e+308,470.6929896372146];
+const v2 = [439640.915801869,-1.0];
+function f3(a4, a5) {
+    const o11 = {
+        "a": v2,
+        set h(a7) {
+            for (const v8 of a4) {
+                try {
+                    super.n(a7, v1, a5, v2);
+                } catch(e10) {
+                }
+            }
+        },
+        __proto__: a5,
+    };
+    return o11;
+}
+const v12 = f3(v0, v0);
+const v13 = f3(v1, v2);
+const v14 = f3(v1, v0);
+const v16 = [[v0,v2,v13],v1,v14];
+[v2,v16,v12];
+let v19;
+try { v19 = v12["valueOf"](); } catch (e) {}
+let v20;
+try { v20 = new v19(v12, v16, v19, v19, v1); } catch (e) {}
+const v21 = v2;
+v16[Symbol.toPrimitive] = v1;
+Object.defineProperty("valueOf", "c", { get: f3, set: f3 });
+v2[v20];
+typeof v16 === "function";

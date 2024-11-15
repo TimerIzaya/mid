@@ -1,0 +1,41 @@
+try {
+    new Float64Array(129);
+} catch(e3) {
+}
+try {
+    new Float32Array(4);
+} catch(e7) {
+}
+try {
+    new Uint8Array(1499);
+} catch(e11) {
+}
+function f15() {
+    return 4294967296;
+}
+new WeakSet();
+function f18(a19, a20) {
+    const o30 = {
+        "e": 536870888,
+        "f": 4294967295,
+        [a20](a22, a23) {
+            return -14;
+        },
+        get h() {
+            try {
+                f15();
+            } catch(e29) {
+            }
+            return a19;
+        },
+    };
+    return o30;
+}
+const v31 = f18(4, 129);
+const v32 = f18(536870888, Float32Array);
+const v33 = f18(4294967296, v32);
+[v33,v32,[[Float64Array,v31,v33],f15,Uint8Array]];
+Object.defineProperty(v33, 8, { set: f18 });
+throw Float32Array;
+for (let i38 = 0; i38 < 9; i38++) {
+}

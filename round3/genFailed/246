@@ -1,0 +1,40 @@
+try {
+    new Uint32Array(2496);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(255);
+} catch(e7) {
+}
+try {
+    new Uint16Array(1000);
+} catch(e11) {
+}
+class C12 extends Uint8ClampedArray {
+    207;
+    constructor(a14, a15, a16) {
+        super(a15, a14);
+        const v17 = this.__proto__;
+        super.length;
+        for (let v19 = 0; v19 < 32; v19++) {
+            v17["p" + v19] = v19;
+        }
+    }
+    #h = 2496;
+}
+const v22 = new C12(1000, 2496, 1000);
+const v23 = new C12(2496, 2496, 255);
+const v24 = new C12(1000, 2496, 1000);
+[-1000000000.0,969.5352419334329,3.0,2.220446049250313e-16,0.3249818692296209,1.7976931348623157e+308,NaN,-6.846273645154661];
+[-1.2569707406967705e+308,-1000000000.0,0.6223734513421709];
+[9.032971780637887,5.402615996239621,1.5441709890242605e+308,-3.0,-1.0,Infinity,Infinity,583.0831530444068,-3.0];
+const v29 = [2496,v24];
+const v31 = Reflect.apply(v23.reduceRight, v24, v29);
+try {
+    v24.byteLength = v31;
+} catch(e32) {
+}
+try {
+    v22.reduce(v31, v31);
+} catch(e34) {
+}

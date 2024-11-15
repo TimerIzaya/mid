@@ -1,0 +1,37 @@
+const v6 = ["Tw"];
+const v7 = [v6,v6];
+const v8 = [v7,"Tw","v",v7,1000000.0];
+function f12(a13, a14) {
+    const o21 = {
+        ..."boolean",
+        268435441: 1000000.0,
+        __proto__: "boolean",
+        [-65536]: v8,
+        [v7](a16, a17) {
+            try {
+                super[a16] = this;
+            } catch(e18) {
+            }
+            const v19 = v7.length;
+            try {
+                super.g = a17;
+            } catch(e20) {
+            }
+            return v19;
+        },
+    };
+    return o21;
+}
+f12(-65536, "Tw");
+const v23 = f12(15633, "Tw");
+const v24 = f12(15633, v23);
+let v25;
+try { v25 = v24.reduce(1000000.0, "boolean", -9007199254740991); } catch (e) {}
+const t29 = "Tw";
+t29[1] &= -9007199254740991;
+const v26 = v25 instanceof f12;
+try { v23.setUTCFullYear(1000000.0, v25, v26, "Tw"); } catch (e) {}
+try { v23.p(); } catch (e) {}
+try { v7.with(15633, v25); } catch (e) {}
+Object.defineProperty("boolean", "length", { enumerable: true, get: f12 });
+f12(-9007199254740991, "v");

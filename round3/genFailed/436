@@ -1,0 +1,46 @@
+const v0 = [0.07257677389681694,-384.223965884809];
+const v1 = [0.9322444740970011,-1000.0,2.220446049250313e-16,6.11529958849917];
+const v2 = [641801.9382652983,-4.74196573718852,1.7976931348623157e+308];
+function f3(a4) {
+    const o7 = {
+        [a4]: v1,
+        get b() {
+            v0.length -= super[this];
+            return this;
+        },
+        "f": a4,
+        ...a4,
+        9: v2,
+        "e": a4,
+        [v2]: a4,
+        __proto__: v2,
+        "a": v2,
+    };
+    return o7;
+}
+const v8 = f3(v1);
+f3(v2);
+f3(v1);
+try {
+    new Float64Array(0);
+} catch(e17) {
+}
+try {
+    new Float32Array(127);
+} catch(e21) {
+}
+try {
+    new Int16Array(2491);
+} catch(e25) {
+}
+let v26;
+try { v26 = ("p").toLowerCase(); } catch (e) {}
+try {
+    v2.toString = v26;
+} catch(e27) {
+}
+let [v28] = "d";
+%VerifyType(Int16Array);
+let {"f":v29,"g":v30,"length":v31,} = "p";
+const v34 = [v8,127];
+Reflect.apply(("p").includes, v1, v34);

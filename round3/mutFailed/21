@@ -1,0 +1,37 @@
+try {
+    new Float32Array(Float32Array);
+} catch(e3) {
+}
+try { new Float32Array(1073741823, Float32Array, Float32Array); } catch (e) {}
+try {
+    new Float32Array(1);
+} catch(e8) {
+}
+const v10 = 2183 << 2183;
+try { new Uint8ClampedArray(Uint8ClampedArray, Float32Array, 1073741823, 2183); } catch (e) {}
+try {
+    new Uint8ClampedArray(2183, v10, 2183, Uint8ClampedArray);
+} catch(e14) {
+}
+class C15 {
+    m(a17, a18, a19) {
+        a18 in this;
+        try {
+            a19.toString = a19;
+        } catch(e21) {
+        }
+        return 1073741823;
+    }
+    #b;
+    [Float32Array];
+    #d = 1073741823;
+}
+Float32Array.prototype = C15;
+const t29 = 1;
+const v22 = new t29();
+new C15(v22, v22);
+new C15();
+const t33 = "toString";
+t33[5] = "toString";
+const v29 = [0.30189089109717293];
+v29["concat"]([v29]);

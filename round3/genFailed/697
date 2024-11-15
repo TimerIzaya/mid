@@ -1,0 +1,52 @@
+try {
+    new Int16Array(8);
+} catch(e3) {
+}
+try {
+    new Uint8Array(512);
+} catch(e7) {
+}
+try {
+    new Int32Array(1024);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    [Int32Array];
+    constructor(a14, a15, a16, a17) {
+        super(a17, 1024, a16);
+        this[14];
+        super[512];
+    }
+    [512];
+    [Uint8Array];
+    n(a21, a22) {
+        a22[8] = a21;
+        const o26 = {
+            "maxByteLength": 10000,
+        };
+        const v28 = new SharedArrayBuffer(2999, o26);
+        try {
+            new Int16Array(v28);
+        } catch(e31) {
+        }
+        return Int16Array;
+    }
+}
+new C12(512, 512, 8, 1024);
+const v33 = new C12(1024, 8, 1024, 8);
+const v34 = new C12(1024, 512, 1024, 8);
+const v36 = new WeakSet();
+try {
+    const t39 = "b";
+    t39[10] = "b";
+} catch(e40) {
+}
+Object.defineProperty(v36, 9, { enumerable: true, value: v34 });
+class C41 extends Int16Array {
+    static 1073741825 = "b";
+    127 = v33;
+    [512] = Uint8Array;
+}
+new C41();
+new C41();
+new C41();

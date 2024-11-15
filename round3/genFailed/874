@@ -1,0 +1,52 @@
+function f0() {
+}
+const v1 = [6,-2147483648,10,536870889,1618417317,127,-64330,1073741823,10];
+const v2 = [-4,268435439,-590772455];
+const v3 = [1006876670,1024,536870889];
+function f4() {
+    return f0;
+}
+class C5 {
+    static #b = v1;
+    constructor(a7) {
+    }
+    static m(a12, a13) {
+        f4();
+        %PrepareFunctionForOptimization(f4);
+        f4();
+        f4();
+        %OptimizeMaglevOnNextCall(f4);
+        f4();
+        return v2;
+    }
+}
+const v21 = new C5(v2);
+const v22 = new C5(v21);
+new C5(v22);
+class C24 extends C5 {
+    constructor(a26, a27, a28, a29) {
+        super(a28);
+        try {
+            v22.fuck(v1, a27, -34003n, a26);
+        } catch(e32) {
+        }
+    }
+    static [C5] = v3;
+    g = f0;
+    static #d;
+}
+const v33 = new C24(v21, v21, v3, v3);
+new C24(v3, v2, v3, v21);
+const v35 = new C24(v33, v21, v3, C24);
+const v36 = v35.__proto__;
+const v37 = /jY\b/isdv;
+/[a|b+]/ydv;
+const v39 = /(x)(x)(x)\3*/ium;
+try {
+    v37.flags = v36;
+} catch(e40) {
+}
+try {
+    v22.fuck(v35, v37, [v39,v33,v22,v35,f0]);
+} catch(e43) {
+}

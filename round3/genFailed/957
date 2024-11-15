@@ -1,0 +1,32 @@
+const v0 = [];
+class C1 {
+    b;
+    static #n() {
+        let v2 = this;
+        const v3 = delete v2[v2];
+        try {
+            v2 = v0;
+        } catch(e4) {
+        }
+        %VerifyType(v0);
+        return v3;
+    }
+    [v0] = v0;
+    static b = v0;
+}
+new C1();
+const v6 = new C1();
+new C1();
+[-4294967296,10000];
+const v12 = [268435441,8,255];
+const v13 = [-5,-7687];
+function f14() {
+    return -9007199254740991n;
+}
+delete v6[f14];
+v12.length **= v13;
+Object.defineProperty(v0, 536870889, { configurable: true, enumerable: true, get: f14 });
+try {
+    new f14();
+} catch(e17) {
+}

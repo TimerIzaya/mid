@@ -1,0 +1,70 @@
+function f0() {
+    let v1 = 1000000000000.0;
+    const o14 = {
+        __proto__: "61517",
+        ["61517"](a5) {
+            v1--;
+            let v10 = v1--;
+            const v12 = v10++ * v1;
+            return v12 & v12;
+        },
+        ..."61517",
+        "a": "61517",
+        "d": 4294967296,
+    };
+    return o14;
+}
+const v15 = f0();
+const v16 = f0();
+const v17 = f0();
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = f0;
+    } catch(e27) {
+    }
+    try {
+        this.g = a26;
+    } catch(e28) {
+    }
+    try {
+        this.d = a24;
+    } catch(e29) {
+    }
+}
+const v30 = new F21(v15, 0n, v17, 9007199254740991n);
+const v31 = new F21(v17, 9007199254740991n, v17, 0n);
+let v32 = new F21(v17, 0n, v17, -799943874n);
+function f33(a34, a35, a36, a37) {
+    const o45 = {
+        o(a39, a40) {
+            const v43 = typeof a40 === "symbol";
+            try {
+                super[v43] = 9007199254740991n;
+            } catch(e44) {
+            }
+            return a37;
+        },
+        "g": a37,
+        1: a35,
+        "d": a34,
+        "f": a34,
+        "b": -799943874n,
+    };
+    return o45;
+}
+f33(v32, v31, v17, v15);
+for (const v49 of f33(v32, v30, v16, f33(v31, v31, v15, v30))) {
+    try {
+        f0();
+    } catch(e51) {
+    }
+}
+let v53 = -12;
+const v56 = (-799943874n + 22422) & 22422;
+try {
+    Math.acosh(v56);
+} catch(e58) {
+}
+--v53;
+--v32;

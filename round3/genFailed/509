@@ -1,0 +1,39 @@
+class C3 {
+    static b;
+    set a(a5) {
+        %VerifyType(5.0);
+        return 5.0;
+    }
+    #g;
+    #o(a7, a8) {
+        super.g;
+        const o10 = {
+        };
+        try {
+            new Proxy(this, o10);
+        } catch(e13) {
+        }
+        return 5.0;
+    }
+}
+new C3();
+const v15 = new C3();
+new C3();
+let v21 = -1024;
+let v22 = 536870887;
+const v23 = [268435439,-7,16564,-65536,65536,-1025300068,4096,65535];
+const v24 = [6,10000,-6,-21216];
+const v25 = [-2147483648,15,-9007199254740991];
+let v26;
+try {
+const t0 = 5.2607425046598255;
+v26 = t0(v15, v25, C3, v23, -20844);
+} catch (e) {}
+Object.defineProperty(v23, 1, { writable: true, configurable: true, value: 1073741824 });
+with (v26) {
+    [v22] = v24;
+    try {
+        v21 ||= v21;
+    } catch(e32) {
+    }
+}

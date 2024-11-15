@@ -1,0 +1,48 @@
+const v0 = /(?=a){9,10}a/gys;
+const v1 = /X+/su;
+const v2 = /[1D[x\dz]]/gsu;
+function f3(a4, a5) {
+    const o11 = {
+        [v1]: a4,
+        "e": v0,
+        ...v0,
+        "f": v2,
+        0: v1,
+        [a4](a7) {
+            const v8 = this.f;
+            try {
+                v8 | v8;
+            } catch(e10) {
+            }
+            return a4;
+        },
+    };
+    return o11;
+}
+const v12 = f3(f3, v0);
+const v13 = f3(v12, v12);
+const v14 = f3(v0, v0);
+try {
+    new Uint16Array(256);
+} catch(e18) {
+}
+try {
+    new Uint8ClampedArray(2);
+} catch(e22) {
+}
+try {
+    new Float32Array(4096);
+} catch(e26) {
+}
+v0[v14] += 4096;
+function* f27(a28, a29, a30) {
+    v1.dotAll instanceof Uint16Array;
+    f3(2, v12);
+    try {
+        Math.cosh(-65537);
+    } catch(e39) {
+    }
+    2.220446049250313e-16 << 2.220446049250313e-16;
+    return yield 4096 >> 4096;
+}
+f27(256, v13, 2);

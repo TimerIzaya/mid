@@ -1,0 +1,43 @@
+[];
+try {
+    new Int32Array(256);
+} catch(e4) {
+}
+try {
+    new Uint16Array(3970);
+} catch(e8) {
+}
+try {
+    new Float64Array(18);
+} catch(e12) {
+}
+class C13 extends Uint16Array {
+    static #f;
+    static [Int32Array];
+    10 = 18;
+    static #g = 3970;
+    static set g(a15) {
+        Uint16Array[5] = Uint16Array;
+        try { a15(256, Int32Array); } catch (e) {}
+        try {
+            a15.g = a15;
+        } catch(e17) {
+        }
+    }
+}
+new C13();
+const v19 = new C13();
+new C13();
+try {
+    v19.buffer = Uint16Array;
+} catch(e21) {
+}
+Object.defineProperty(v19, 1082, { configurable: true, value: Int32Array });
+try {
+    C13[Float64Array] = 18;
+} catch(e22) {
+}
+try {
+    C13[5] = Float64Array;
+} catch(e23) {
+}

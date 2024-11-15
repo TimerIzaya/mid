@@ -1,0 +1,36 @@
+const v4 = new WeakMap();
+let v5 = 139;
+try {
+    new Uint8Array(v5);
+} catch(e8) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e12) {
+}
+try {
+    new Int8Array(573);
+} catch(e16) {
+}
+try {
+    new Uint8Array(2075);
+} catch(e20) {
+}
+try {
+    new Float32Array(11);
+} catch(e24) {
+}
+try {
+    new BigUint64Array(1890);
+} catch(e28) {
+}
+try {
+    v5 = 11;
+} catch(e29) {
+}
+const v30 = new Uint8ClampedArray(11, v5);
+const v32 = [WeakMap];
+Reflect.apply(v30.sort, v4, v32);
+for (let v35 = 0; v35 < 32; v35++) {
+    v32["p" + v35] = v35;
+}

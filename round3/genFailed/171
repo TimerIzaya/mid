@@ -1,0 +1,35 @@
+try {
+    new Uint32Array(5);
+} catch(e3) {
+}
+try {
+    new Float64Array(3);
+} catch(e7) {
+}
+let v8 = 98;
+try {
+    new Int8Array(v8);
+} catch(e11) {
+}
+try {
+    new Int8Array(13);
+} catch(e15) {
+}
+try {
+    new Uint16Array(0);
+} catch(e19) {
+}
+try {
+    new Uint16Array(3068);
+} catch(e23) {
+}
+try {
+    Uint16Array & 3068;
+} catch(e25) {
+}
+const v26 = Int8Array[7];
+try {
+    v8 |= 13;
+} catch(e27) {
+}
+v26.__proto__;

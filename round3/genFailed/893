@@ -1,0 +1,56 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -150041372;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f7() {
+    return v4;
+}
+function f8() {
+    return v5;
+}
+class C9 extends f7 {
+    static set a(a11) {
+        let v12;
+        try { v12 = a11(); } catch (e) {}
+        let {"d":v13,"f":v14,} = v12;
+        try {
+            f7();
+        } catch(e16) {
+        }
+    }
+    #d = F0;
+    static #c = v5;
+    b = v5;
+    static 5 = v4;
+}
+let v17 = new C9();
+const v18 = new C9();
+const v19 = new C9();
+const v20 = [v19,v18,v6,v19];
+const v21 = [v20,v20];
+[v6,f8,v5,f7];
+f7();
+switch (F0) {
+    default:
+        try {
+            v17 *= v5;
+        } catch(e24) {
+        }
+        break;
+}
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a28;
+    } catch(e29) {
+    }
+}
+new F25(v21, v20);
+new F25(v21, v21);
+new F25(v20, v21);

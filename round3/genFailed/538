@@ -1,0 +1,46 @@
+try {
+    new Int16Array(7);
+} catch(e3) {
+}
+try {
+    new Int32Array(10);
+} catch(e7) {
+}
+try {
+    new Int16Array(2);
+} catch(e11) {
+}
+[10,Int16Array,7,7,Int32Array];
+const v13 = [2,7];
+const v14 = [10];
+class C15 extends Int16Array {
+    [v14];
+    constructor(a17, a18, a19) {
+        super(a18, 10, 7);
+        super[a17];
+        try {
+            this.f = a18;
+        } catch(e21) {
+        }
+    }
+    156;
+    e;
+    [Int32Array];
+}
+new C15(7, 2, v13);
+new C15(10, 2, v13);
+new C15(10, 7, v14);
+for (const v25 in v14) {
+    try {
+        new Float32Array(3288);
+    } catch(e29) {
+    }
+    try {
+        new Float64Array(4096);
+    } catch(e33) {
+    }
+    try {
+        new Int16Array(4);
+    } catch(e37) {
+    }
+}

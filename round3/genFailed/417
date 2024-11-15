@@ -1,0 +1,28 @@
+function f0() {
+}
+new Set();
+class C6 extends Set {
+    constructor(a8, a9, a10) {
+        super(a9);
+        const o13 = {
+            "maxByteLength": 1280377023,
+        };
+        const v15 = new ArrayBuffer(24, o13);
+        try {
+            new Int8Array(v15);
+        } catch(e18) {
+        }
+    }
+}
+const v19 = new C6(-1, -53887, -53887);
+const v20 = new C6(8, v19, 8);
+const v21 = new C6(-53887, v20, -1);
+const v27 = new Array(1024);
+try {
+    !v27;
+} catch(e29) {
+}
+v21["has"](0);
+for (let v32 = 0; v32 < 32; v32++) {
+    v21["p" + v32] = v32;
+}

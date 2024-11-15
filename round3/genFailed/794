@@ -1,0 +1,57 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a5;
+    } catch(e6) {
+    }
+    try {
+        this.f = 536870887n;
+    } catch(e7) {
+    }
+    try {
+        this.g = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(127n);
+const v10 = new F3(536870887n);
+const v11 = new F3(127n);
+function f12(a13, a14, a15, a16) {
+    const o32 = {
+        __proto__: v11,
+        "g": 536870887n,
+        "h": a16,
+        "f": v11,
+        "a": a14,
+        [v9]: a14,
+        m(a18, a19, a20, a21) {
+            let v23 = 9007199254740992;
+            try {
+                Math.tanh(v23);
+            } catch(e27) {
+            }
+            !this;
+            const v29 = --v23;
+            try {
+                Math.exp(v29);
+            } catch(e31) {
+            }
+            return a21;
+        },
+    };
+    return o32;
+}
+const v33 = f12(127n, 536870887n, v10, 536870887n);
+const v34 = f12(127n, 536870887n, 536870887n, 536870887n);
+f12(536870887n, 127n, v34, 127n);
+const v40 = new Date();
+try {
+    v34[v33] = Date;
+} catch(e41) {
+}
+try {
+    v33[Date] = v40;
+} catch(e42) {
+}
+const v43 = v11[-2];
+Reflect.construct(F3, [127n], v43);

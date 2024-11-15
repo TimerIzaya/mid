@@ -1,0 +1,67 @@
+class C3 {
+    constructor(a5) {
+        Reflect.construct(a5, [], a5);
+    }
+    p(a10) {
+        var f = this;
+        const v12 = ("n")[10];
+        try {
+            super.f = v12;
+        } catch(e13) {
+        }
+        return Proxy;
+    }
+}
+const v14 = new C3("concat");
+let v15 = new C3(1073741824);
+const v16 = new C3(C3);
+[v15,v16,v15,"concat"];
+const v18 = ["concat"];
+const v19 = [v15,v16,v14,v18];
+function f20(a21, a22) {
+    const o29 = {
+        "g": "concat",
+        "b": v19,
+        ...C3,
+        "c": a21,
+        [v14]: v16,
+        set e(a24) {
+            try {
+                a22.a = a21;
+            } catch(e25) {
+            }
+            [1.5748684791377893e+308,-Infinity,-1.6158465980204197e+308,-990.3410018538939];
+            [-2.220446049250313e-16];
+            [-1.7976931348623157e+308];
+        },
+    };
+    return o29;
+}
+f20(f20(f20(v16, v19), v18), v18);
+try {
+    ++v15;
+} catch(e34) {
+}
+function f35(a36) {
+    function f38(a39) {
+        try {
+            this[10] = this;
+        } catch(e40) {
+        }
+    }
+    this.onmessage = f38;
+    let v42 = 5;
+    const v43 = v42--;
+    const v44 = ~1073741824;
+    v42 >>> this;
+    try {
+        Math.atan2(v43, v44);
+    } catch(e47) {
+    }
+}
+const v50 = ["function"];
+const o51 = {
+    "arguments": v50,
+    "type": "function",
+};
+new Worker(f35, o51);

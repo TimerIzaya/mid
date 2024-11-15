@@ -1,0 +1,46 @@
+try {
+    new Float32Array(1024);
+} catch(e3) {
+}
+try {
+    new Float64Array(8);
+} catch(e7) {
+}
+try {
+    new Uint16Array(1024);
+} catch(e11) {
+}
+class C12 extends Float64Array {
+    3;
+    toString(a14, a15, a16, a17) {
+        try {
+            new Int8Array(257);
+        } catch(e21) {
+        }
+        try {
+            new Uint8Array(257);
+        } catch(e25) {
+        }
+        try {
+            new BigUint64Array(511);
+        } catch(e29) {
+        }
+        return Int8Array;
+    }
+}
+new C12();
+new C12();
+new C12();
+[-4.0,722413.4558767015,-4.883430862547547,0.21147044313681396,3.0,-1000000000000.0,0.6009221476281984,0.5947537864481715,835722.9390649735,-1000000000000.0];
+[3.0];
+[-0.0,5.0,1000000000.0];
+[-2,4294967295,-268435456,268435439,-25959,-4294967295];
+[1000,4294967295,-11,647476181,64,24393,7,-528313138];
+Object.defineProperty(C12, Float64Array, { writable: true, value: [-65536,50869,268435441,714032040] });
+new WeakSet();
+const v42 = [];
+Reflect.construct(C12, v42, Float64Array);
+try {
+    8 << v42;
+} catch(e45) {
+}

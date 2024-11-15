@@ -1,0 +1,41 @@
+const v0 = /l\x01/ym;
+const v1 = /1Yabc+?/gu;
+const v2 = /J(?<!)H(a)\1/isv;
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a6;
+    } catch(e7) {
+    }
+    try {
+        this.a = v2;
+    } catch(e8) {
+    }
+    try {
+        this.f = v0;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(v1, v0);
+new F3(v1, v2);
+new F3(v1, v1);
+try {
+    new Uint8Array(418);
+} catch(e16) {
+}
+try {
+    new Int32Array(3844);
+} catch(e20) {
+}
+try {
+    new BigInt64Array(1167);
+} catch(e24) {
+}
+let v25;
+try { v25 = v0.exec(v10); } catch (e) {}
+v25[F3] ^= 3844;
+delete v1[2147483649];
+try {
+    v2 * 1167;
+} catch(e32) {
+}

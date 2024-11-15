@@ -1,0 +1,60 @@
+const v1 = new Date();
+let v4 = 12364;
+function f11(a12, a13, a14, a15) {
+    const o21 = {
+        92: 1n,
+        __proto__: v1,
+        ...Date,
+        [v1](a17, a18) {
+            let v19;
+            try { v19 = a13(1n, this, 4294967297, this, -57134); } catch (e) {}
+            try {
+                v19.__proto__ = this;
+            } catch(e20) {
+            }
+            return v19;
+        },
+        "f": a12,
+        "a": -128359878,
+        "d": 268435441,
+        "e": 268435441,
+    };
+    return o21;
+}
+f11(268435441, f11, -13n, -57134);
+const v23 = f11(-57134, -57134, 1n, 4294967297);
+f11(4294967297, v23, 1n, -128359878);
+try {
+    v4 ||= 268435441;
+} catch(e25) {
+}
+const v26 = v23 in Date;
+const o27 = {
+};
+try {
+    o27.g = v26;
+} catch(e28) {
+}
+try {
+    const o29 = {
+    };
+    o29.g = v26;
+    o29.b = -15;
+} catch(e30) {
+}
+try {
+    const o31 = {
+    };
+    o31.g = v26;
+    o31.b = -15;
+    o31.a = 1n;
+} catch(e32) {
+}
+try {
+    const o33 = {
+    };
+    o33.g = v26;
+    o33.b = -15;
+    o33.a = Date;
+} catch(e34) {
+}

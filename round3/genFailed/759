@@ -1,0 +1,70 @@
+try {
+    new Float32Array(13);
+} catch(e3) {
+}
+try {
+    new Float64Array(256);
+} catch(e7) {
+}
+try {
+    new Int8Array(4);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o27 = {
+        [Float64Array](a17, a18) {
+            const v20 = Symbol.toPrimitive;
+            const o26 = {
+                [v20]() {
+                    try { this.throw(this, this, Int8Array); } catch (e) {}
+                    try {
+                        Symbol.for("replaceAll");
+                    } catch(e25) {
+                    }
+                    return 4;
+                },
+            };
+            return a14;
+        },
+    };
+    return o27;
+}
+const v28 = f12(Float32Array, 13, Float32Array);
+const v29 = f12(v28, 13, v28);
+const v30 = f12(v29, 13, v29);
+class C31 extends Int8Array {
+    static [13];
+    1 = 256;
+    get e() {
+        try {
+            super.buffer = Float64Array;
+        } catch(e33) {
+        }
+        for (let v34 = 0; v34 < 32; v34++) {
+            v28["p" + v34] = v34;
+        }
+        return this;
+    }
+}
+const v37 = new C31();
+new C31();
+const v39 = new C31();
+let v40;
+try { v40 = v28.o(v37, v39); } catch (e) {}
+try {
+    Int8Array + v30;
+} catch(e42) {
+}
+let v45 = 5.030618589297767;
+try {
+    Math.expm1(v40);
+} catch(e47) {
+}
++v40;
+13 & -60177;
+let v50 = ++v45;
+v50--;
+try {
+    Math.log(v40);
+} catch(e53) {
+}

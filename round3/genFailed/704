@@ -1,0 +1,28 @@
+const v5 = [[[1.7976931348623157e+308,1.7976931348623157e+308]]];
+try {
+    new Uint16Array(200);
+} catch(e9) {
+}
+try {
+    new Float64Array(4);
+} catch(e13) {
+}
+try {
+    new Uint16Array(124);
+} catch(e17) {
+}
+Object.defineProperty("getInt32", "d", { writable: true, enumerable: true, value: "function" });
+let v21;
+try {
+const t0 = "function";
+v21 = t0(0.3522449447313364, 200, v5);
+} catch (e) {}
+try {
+    this.a = "function";
+} catch(e23) {
+}
+this.a;
+try {
+    v21 = 200;
+} catch(e25) {
+}

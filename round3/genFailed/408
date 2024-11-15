@@ -1,0 +1,56 @@
+try {
+    new Float32Array(512);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(3);
+} catch(e7) {
+}
+try {
+    new Uint16Array(229);
+} catch(e11) {
+}
+let v12 = 409558.2426400329;
+function f15(a16, a17, a18, a19) {
+    const o30 = {
+        [Float32Array]: a16,
+        "a": 229,
+        __proto__: a17,
+        [a19]: -3.5241771592055464,
+        [Uint8ClampedArray]: a16,
+        [a17]: a19,
+        "g": Uint16Array,
+        ...a17,
+        [3](a21, a22, a23) {
+            try {
+                a21 & a22;
+            } catch(e25) {
+            }
+            const o26 = {
+            };
+            try {
+                new Proxy(this, o26);
+            } catch(e29) {
+            }
+            return a21;
+        },
+    };
+    return o30;
+}
+const v31 = f15(3, 1000.0, 3, 1000.0);
+f15(229, f15(512, Uint16Array, v31, 229), 229, v31);
+let v34 = [-2073037569,-2,11,7];
+[4294967295,0,129,-1883835088];
+const v36 = [-1701802348,268435441,-4294967296,-65535,6,10,1265255605,2987,55004,1000];
+for (let v37 = 0; v37 < 100; v37++) {
+    f15(512, v12, v36, v36);
+}
+v36[v34] >>>= v12;
+try {
+    v12 ||= 1000.0;
+} catch(e39) {
+}
+try {
+    v34 = v36;
+} catch(e40) {
+}

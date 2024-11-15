@@ -1,0 +1,41 @@
+function f0() {
+}
+function f1() {
+    const o11 = {
+        toString() {
+            try {
+                super[f0] = f0;
+            } catch(e3) {
+            }
+            return this;
+        },
+        get d() {
+            delete this[129];
+            const v6 = this[0];
+            const v8 = Symbol.asyncIterator;
+            this[v8];
+            delete v6?.[this];
+            return v8;
+        },
+    };
+    return o11;
+}
+f1();
+const v13 = f1();
+f1();
+new Date();
+[-2147483648,-1073741824,65535,-10];
+let v24 = [1980650645,2147483647];
+const v25 = [6,14691,15];
+for (let [v26] of v24) {
+    %VerifyType(v26);
+    try { ("a").matchAll(v26); } catch (e) {}
+}
+try {
+    v24 %= v25;
+} catch(e28) {
+}
+try {
+    v13[5] = "-4294967296";
+} catch(e29) {
+}

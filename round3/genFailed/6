@@ -1,0 +1,52 @@
+class C3 {
+    constructor(a5, a6) {
+        a5.g **= 127;
+        try { new a6(a5, 467537.4196990954, a6, this, 6.145305167244729); } catch (e) {}
+    }
+    static #a;
+    static n(a9) {
+        const o12 = {
+            "maxByteLength": 163,
+        };
+        const v14 = new SharedArrayBuffer(163, o12);
+        try {
+            new Uint8Array(v14);
+        } catch(e17) {
+        }
+        return this;
+    }
+}
+const v18 = new C3(127, 467537.4196990954);
+const v19 = new C3(6.145305167244729, C3);
+let v20 = new C3(v19, v19);
+const v21 = [v18,v18,v20,v19,v19];
+const v22 = [v21,v21,6.145305167244729];
+const v23 = [127];
+function f24(a25, a26, a27) {
+    const o34 = {
+        __proto__: v18,
+        m(a29, a30) {
+            [6.145305167244729,v22,a30,v20];
+            [[a27],this,a29];
+            return v22;
+        },
+        ...a26,
+        "f": a26,
+        "h": v20,
+        "g": v23,
+    };
+    return o34;
+}
+f24(v19, v20, v19);
+const v36 = f24(v22, f24, v23);
+f24(v36, 6.145305167244729, v23);
+function f38(a39, a40) {
+    try {
+        v20 = a39;
+    } catch(e41) {
+    }
+    return 127;
+}
+f38(v22, v36);
+try { new v20(6.145305167244729, 6.145305167244729, v22, 127); } catch (e) {}
+C3[129];

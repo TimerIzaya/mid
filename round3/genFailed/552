@@ -1,0 +1,29 @@
+try {
+    new Uint32Array(10);
+} catch(e3) {
+}
+try {
+    new Uint8Array(161);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(3);
+} catch(e11) {
+}
+[-1e-15,1000000.0,1000.0,1.5308423625091048e+308,-1e-15,-433.5788815095549,1.5417627502015907e+308];
+const v16 = [3.076607440979127e+307];
+[-0.42396006464833036,1.0,-0.0,-1000.0,Infinity];
+const v19 = new Map();
+v16.length -= 3;
+let v20;
+try { v20 = v19.forEach(4n, v19); } catch (e) {}
+function f21(a22, a23, a24) {
+    const o25 = {
+        "a": v19,
+        "g": a24,
+    };
+    return o25;
+}
+f21(161, 3, 10);
+f21(v20, 3, Uint8ClampedArray);
+f21(10, 3, f21);

@@ -1,0 +1,54 @@
+try {
+    new Float32Array(204);
+} catch(e3) {
+}
+try {
+    new Uint16Array(552);
+} catch(e7) {
+}
+try {
+    new Uint16Array(2);
+} catch(e11) {
+}
+class C12 {
+    static #c;
+    static [Float32Array] = 204;
+    4096;
+    #f;
+    static get a() {
+        try {
+            this.#f = this;
+        } catch(e14) {
+        }
+        return this;
+    }
+    #a;
+    3772;
+    static h = 552;
+}
+new C12();
+const v16 = new C12();
+new C12();
+try {
+    new Float64Array(257);
+} catch(e21) {
+}
+try {
+    new Float64Array(257);
+} catch(e25) {
+}
+try {
+    new Float64Array(9);
+} catch(e29) {
+}
+C12.h >>= 257;
+let v30 = 0;
+while (v30 < 5) {
+    const v33 = new Float32Array(552, 9);
+    Object.defineProperty(C12, 257, { enumerable: true, value: v33 });
+    try {
+        v16.toString = 204;
+    } catch(e34) {
+    }
+    v30++;
+}

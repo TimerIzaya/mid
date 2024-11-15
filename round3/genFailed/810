@@ -1,0 +1,36 @@
+try {
+    new BigInt64Array(6);
+} catch(e3) {
+}
+try {
+    new Float64Array(129);
+} catch(e7) {
+}
+try {
+    new Float32Array(3672);
+} catch(e11) {
+}
+const v15 = [362.33365716331036,6.436824130157358,-1000000000.0,-4.0,NaN,408.48726805736555];
+const v16 = [-0.47504720148861423,-449.47840112503684,-1000000000000.0,1000000000000.0];
+const v17 = [-1.0,6.978273297339314,657.539444828333,-0.0,0.893954336091203,-1.5036320114122108e+308,-4.0];
+class C18 {
+    constructor(a20, a21) {
+        const t17 = "EG";
+        t17[Symbol.toStringTag] = a20;
+    }
+    static set b(a25) {
+        try {
+            const o26 = {
+            };
+            new Float64Array(o26);
+        } catch(e28) {
+        }
+    }
+}
+new C18(129, v17);
+const v30 = new C18(v17, v15);
+new C18(129, v15);
+for (let i33 = 0; i33 < 5; i33++) {
+    try { v30(i33); } catch (e) {}
+    let {"a":v40,"e":v41,"length":v42,} = v16;
+}

@@ -1,0 +1,43 @@
+const v0 = /a*b|c/gyvm;
+const v1 = /(?:ab)[a-zA-Z0-9](a\1)*/gi;
+const v2 = /A(?:ab)/ivm;
+try {
+    new Float64Array(6);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(10);
+} catch(e10) {
+}
+try {
+    new Uint16Array(4);
+} catch(e14) {
+}
+class C15 extends Uint8ClampedArray {
+    get e() {
+        let v17;
+        try { v17 = v2.test(v2); } catch (e) {}
+        try {
+            v1[10] = v0;
+        } catch(e18) {
+        }
+        v17 instanceof Uint8ClampedArray;
+        return Float64Array;
+    }
+    static #h;
+    static #f;
+    [10] = v2;
+    a = 4;
+}
+new C15();
+new C15();
+const v22 = new C15();
+v22[Symbol.isConcatSpreadable];
+const o28 = {
+    "maxByteLength": 2062,
+};
+const v30 = new ArrayBuffer(7, o28);
+try {
+    new BigUint64Array(v30);
+} catch(e33) {
+}

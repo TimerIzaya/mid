@@ -1,0 +1,52 @@
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a6;
+    } catch(e7) {
+    }
+    try {
+        this.e = undefined;
+    } catch(e8) {
+    }
+    try {
+        this.d = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F4("string");
+const v11 = new F4("aXDUx");
+const v12 = new F4(v11);
+class C13 {
+    static set c(a15) {
+        const v17 = Symbol.iterator;
+        const o26 = {
+            [v17]() {
+                let v19 = 10;
+                const o25 = {
+                    next() {
+                        v19--;
+                        const v23 = v19 == 0;
+                        const o24 = {
+                            "done": v23,
+                            "value": v19,
+                        };
+                        return o24;
+                    },
+                };
+                return o25;
+            },
+        };
+    }
+}
+new C13();
+new C13();
+const v29 = new C13();
+[v10,"string",,v10,v10];
+[v29,v10];
+const t43 = ["683842140",v12,v11,F4];
+const v33 = delete t43?.length;
+const o34 = {
+    __proto__: v12,
+    ..."683842140",
+};
+Reflect.construct(v33, [,"683842140",v33,"string",Reflect], F4);

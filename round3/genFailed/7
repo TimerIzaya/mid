@@ -1,0 +1,54 @@
+const v5 = new Array(256);
+class C9 extends Array {
+    static valueOf(a11, a12) {
+        with (Array) {
+            prototype = Array;
+            const o13 = {
+            };
+            try {
+                o13.f = v5;
+            } catch(e14) {
+            }
+            try {
+                const o15 = {
+                };
+                o15.f = v5;
+                o15.d = this;
+            } catch(e16) {
+            }
+            try {
+                const o17 = {
+                };
+                o17.f = v5;
+                o17.d = this;
+                o17.g = a12;
+            } catch(e18) {
+            }
+            try {
+                const o19 = {
+                };
+                o19.f = v5;
+                o19.d = this;
+                o19.a = 15n;
+            } catch(e20) {
+            }
+        }
+        return a12;
+    }
+}
+new C9();
+new C9();
+new C9();
+[-719156.1750090503,331874.80620420934,0.0,2.0,-Infinity,621.7810911469039,1e-15];
+[-404978.1350260952,0.3314634360547998,1000.0,-1.522909667318158e+308];
+const v26 = [55.60008459890378];
+C9.e;
+Object.defineProperty(v26, 2252366460, { configurable: true, enumerable: true, get: Array });
+function f28() {
+    return v5;
+}
+f28();
+try {
+    Array(-35166);
+} catch(e32) {
+}

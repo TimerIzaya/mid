@@ -1,0 +1,23 @@
+let v9 = 6;
+try {
+    new BigUint64Array(v9);
+} catch(e12) {
+}
+try {
+    new Float32Array(13);
+} catch(e16) {
+}
+try {
+    new Int32Array(1485);
+} catch(e20) {
+}
+for (const v22 of ("2147483649")[4294967295]) {
+    try {
+        v9 = v22;
+    } catch(e23) {
+    }
+}
+try {
+    13 || "find";
+} catch(e25) {
+}

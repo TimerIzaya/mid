@@ -1,0 +1,32 @@
+class C3 {
+    static {
+        [2147483647,512];
+        [4096,-645474937,16,-53529];
+        [14,-65535,65537,268435456,-13,-128,-9007199254740990,-653123517];
+    }
+    static toString(a9, a10) {
+        let v11;
+        try { v11 = a10(this, this, 2.0); } catch (e) {}
+        try {
+            v11.c = a9;
+        } catch(e12) {
+        }
+        return v11;
+    }
+}
+const v13 = new C3();
+new C3();
+const v15 = new C3();
+const v19 = [2n,12258n];
+const v21 = [[2.0,2.0,"a"],v19,"-9007199254740992","a",2.0];
+class C22 extends C3 {
+    constructor(a24, a25, a26) {
+        super();
+        let v27;
+        try { v27 = new a25(v19, 12258n, a26, 1n); } catch (e) {}
+        v27[v15] |= 2.0;
+    }
+}
+const v28 = new C22(12258n, v21, v13);
+new C22(1n, C22, v28);
+new C22(1n, 2.0, "-9007199254740992");

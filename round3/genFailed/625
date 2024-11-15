@@ -1,0 +1,15 @@
+[];
+try { ("Vw").indexOf("p"); } catch (e) {}
+try {
+    try { ("object").charCodeAt(7); } catch (e) {}
+    const o15 = {
+    };
+    try {
+        new Proxy("prototype", o15);
+    } catch(e18) {
+    }
+} finally {
+    %VerifyType("object");
+    Object.defineProperty("search", "function", { writable: true, enumerable: true, value: "object" });
+    ("object")["function"];
+}

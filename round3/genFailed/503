@@ -1,0 +1,35 @@
+let v2 = "HVSWk";
+try {
+    new BigUint64Array(3465);
+} catch(e6) {
+}
+try {
+    new Int16Array(4096);
+} catch(e10) {
+}
+try {
+    new Int16Array(7);
+} catch(e14) {
+}
+class C15 {
+    get f() {
+        try {
+            v2 -= this;
+        } catch(e17) {
+        }
+        return Int16Array;
+    }
+    static h;
+    d = v2;
+    h;
+}
+const v18 = new C15();
+new C15();
+const v20 = new C15();
+new BigUint64Array(Int16Array, C15, v20, v20);
+v18[Symbol.match] = "d";
+const o27 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o27);

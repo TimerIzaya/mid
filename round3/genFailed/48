@@ -1,0 +1,52 @@
+try {
+    new Uint32Array(12);
+} catch(e3) {
+}
+try {
+    new Float32Array(412);
+} catch(e7) {
+}
+try {
+    new Uint16Array(1463);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = Uint32Array;
+    } catch(e17) {
+    }
+}
+const v18 = new F12(1463, 1463, 12);
+const v19 = new F12(12, 1463, 412);
+const v20 = new F12(412, 12, 1463);
+function f21(a22, a23) {
+    const o28 = {
+        "b": a22,
+        set f(a25) {
+            try {
+                new F12(412, 412, 1463);
+            } catch(e27) {
+            }
+        },
+        "c": v19,
+        "d": Uint16Array,
+        "f": v18,
+        "g": 1463,
+    };
+    return o28;
+}
+const v30 = f21(f21(v19, v18), v19);
+f21(v30, v30);
+let v32;
+try { v32 = v18.includes(); } catch (e) {}
+for (const v33 of v32) {
+}
+try {
+    v20.c = f21;
+} catch(e36) {
+}
+try {
+    v18 && v32;
+} catch(e38) {
+}

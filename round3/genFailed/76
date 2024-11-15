@@ -1,0 +1,35 @@
+try {
+    new Int16Array(6);
+} catch(e4) {
+}
+try {
+    new Uint8Array(202);
+} catch(e8) {
+}
+try {
+    new BigInt64Array(129);
+} catch(e12) {
+}
+try {
+    new Int8Array(2);
+} catch(e19) {
+}
+try {
+    new Int32Array(6);
+} catch(e23) {
+}
+try {
+    new Uint8ClampedArray(1484);
+} catch(e27) {
+}
+let v31;
+try { v31 = ("string").trimEnd(); } catch (e) {}
+class C32 extends BigInt64Array {
+    #c = v31;
+    [37564] = "256";
+    static a;
+    2147483647;
+}
+new C32();
+new C32();
+new C32();

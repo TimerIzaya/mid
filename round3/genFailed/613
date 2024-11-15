@@ -1,0 +1,25 @@
+try {
+    new BigInt64Array(257);
+} catch(e6) {
+}
+try {
+    new Int8Array(2);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(5);
+} catch(e14) {
+}
+const v16 = new Date();
+const v20 = new BigInt64Array(Date, 257, 257);
+try {
+    v16.valueOf = Date;
+} catch(e21) {
+}
+let {"buffer":v22,"length":v23,} = v20;
+Date(0.6346517223376994);
+%PrepareFunctionForOptimization(Date);
+Date(0.6346517223376994);
+Date(0.6346517223376994);
+%OptimizeMaglevOnNextCall(Date);
+Date(0.6346517223376994);

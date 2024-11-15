@@ -1,0 +1,41 @@
+try {
+    new Uint8Array(512);
+} catch(e6) {
+}
+try {
+    new Int8Array(8);
+} catch(e10) {
+}
+try {
+    new Float32Array(1826);
+} catch(e14) {
+}
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 512;
+    } catch(e22) {
+    }
+    try {
+        this.h = 1826;
+    } catch(e23) {
+    }
+    try {
+        this.a = -13n;
+    } catch(e24) {
+    }
+}
+const v25 = new F18(-3.0962222121802707, -4.461265576886366);
+const v26 = new F18(2.2250738585072014e-308, -4.461265576886366);
+const v27 = new F18(2.2250738585072014e-308, -4.461265576886366);
+const v30 = [10n,10n,[F18,v27],v26];
+[v30,v30];
+let v32 = 0;
+while (v32 < 5) {
+    new DataView(v25, v32, v32);
+    try {
+        v26.a = v26;
+    } catch(e36) {
+    }
+    v32++;
+}

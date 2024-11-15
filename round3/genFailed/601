@@ -1,0 +1,33 @@
+try {
+    new Float64Array(3284);
+} catch(e3) {
+}
+try {
+    new Int32Array(1024);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(10);
+} catch(e11) {
+}
+const v15 = [1000000000.0,0.0,2.2250738585072014e-308];
+const v16 = [-1000000000000.0,-818240.1824257104,0.7886588066018074,5.0];
+[-1e-15,-87.67729563807359];
+class C18 extends Float64Array {
+    static 148;
+    [v16] = v15;
+    #h;
+    65535 = -1.7042880272579394e+308;
+}
+const v19 = new C18();
+new C18();
+new C18();
+try {
+    Math.hypot(v19);
+} catch(e26) {
+}
+try {
+    Math.round(752368770);
+} catch(e28) {
+}
+1.4114260561677673e+308 << v19;

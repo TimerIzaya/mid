@@ -1,0 +1,78 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+class C2 extends f1 {
+    static #a;
+    valueOf(a4) {
+        try {
+            v0 >>> v0;
+        } catch(e6) {
+        }
+        return a4;
+    }
+    o(a8) {
+        for (let v9 = 0; v9 < 32; v9++) {
+            a8["p" + v9] = v9;
+        }
+        try {
+            this[65536] = f1;
+        } catch(e12) {
+        }
+        return this;
+    }
+}
+const v13 = new C2();
+const v14 = new C2();
+const v15 = new C2();
+class C16 extends f1 {
+    #valueOf(a18, a19, a20) {
+        try {
+            v13.map(f1, v13);
+        } catch(e22) {
+        }
+        return v0;
+    }
+    m(a24, a25) {
+        super.length;
+        let {"g":v27,"length":v28,} = v15;
+        const o29 = {
+            "call": f1,
+            "getPrototypeOf": f1,
+            "has": f1,
+        };
+        try {
+            new Proxy(C2, o29);
+        } catch(e32) {
+        }
+        return v15;
+    }
+}
+const v33 = new C16();
+let v34 = new C16();
+const v35 = new C16();
+class C36 extends C2 {
+    #p(a38, a39, a40, a41) {
+        %VerifyType(v0);
+        a41[f1];
+        return v35;
+    }
+    [C16] = v14;
+    static #m(a44, a45) {
+        const v46 = super.with(C2, v34);
+        super.length /= v46[3194029606];
+        return v46[v15];
+    }
+}
+new C36();
+const v50 = new C36();
+new C36();
+try {
+    v50.length = 1;
+} catch(e53) {
+}
+Object.defineProperty(v15, "d", { configurable: true, get: f1 });
+try {
+    v34 += v33;
+} catch(e54) {
+}

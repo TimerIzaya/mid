@@ -1,0 +1,48 @@
+const v1 = new Map();
+function f2(a3) {
+    const o9 = {
+        "d": Map,
+        "g": v1,
+        "a": a3,
+        [Map](a5, a6) {
+            try {
+                this % a5;
+            } catch(e8) {
+            }
+            return Map;
+        },
+        __proto__: v1,
+        ...a3,
+        "b": v1,
+        "c": a3,
+    };
+    return o9;
+}
+f2(f2);
+const v11 = f2(Map);
+f2(Map);
+try {
+    new Float64Array(177);
+} catch(e16) {
+}
+try {
+    new Int8Array(4);
+} catch(e20) {
+}
+try {
+    new Uint8Array(0);
+} catch(e24) {
+}
+[65536,1346421826,4,-65535];
+const v26 = [-11,5,13801,127];
+[-8,-1998670162,0,-2147483647,1063427343,14,-446002672,-11973,-14];
+try { v11["call"](f2); } catch (e) {}
+let v31;
+try { v31 = h.setUTCFullYear(h); } catch (e) {}
+try {
+    v31.__proto__ = v26;
+} catch(e32) {
+}
+let v33;
+try { v33 = v31(v1, Float64Array, 4); } catch (e) {}
+v33.__proto__;

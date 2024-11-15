@@ -1,0 +1,123 @@
+try {
+    new Int16Array(1261);
+} catch(e3) {
+}
+try {
+    new Uint32Array(1719);
+} catch(e7) {
+}
+try {
+    new Int8Array(14);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a15;
+    } catch(e17) {
+    }
+    try {
+        this.h = Int16Array;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(1261, 1719, 1719);
+new F12(1261, 1719, 1261);
+new F12(1261, 1719, 1261);
+try {
+    new Float64Array(127);
+} catch(e25) {
+}
+try {
+    new Uint32Array(127);
+} catch(e29) {
+}
+try {
+    new Uint16Array(795);
+} catch(e33) {
+}
+const v34 = [-3.0,-2.2250738585072014e-308,-1e-15,-838.2123667339067,-454872.6313716385,1000.0,-0.0,1000.0,-1.2109465705179296e+308,-5.475401719870585];
+const v35 = [Infinity,-768.9772059140516,-1.0,-Infinity,0.07960790899668546,2.0];
+const v36 = [-2.220446049250313e-16,3.0,-734833.456872626,-1000000000.0,490.470557716809,0.4222722850827826,-Infinity,-1.0,0.7233566159548522,2.220446049250313e-16];
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f41(a42) {
+        function F43() {
+            if (!new.target) { throw 'must be called with new'; }
+            this.e = 0;
+            this.a = 0;
+            this.c = 0;
+        }
+        return F43;
+    }
+    this.toString = f41;
+    try {
+        this.f = v35;
+    } catch(e46) {
+    }
+}
+const v47 = new F37(v35, v34);
+const v48 = new F37(v35, v34);
+const v49 = new F37(v36, v35);
+function f50(a51, a52, a53, a54) {
+    Object.defineProperty(a52, Symbol.toPrimitive, { writable: true, value: f50 });
+    const o72 = {
+        [a54](a58, a59, a60) {
+            a51 === Int32Array;
+            return a52;
+        },
+        __proto__: v35,
+        get a() {
+            super.b >>= a52;
+            try { a52(v36, this, v47, v34, F37); } catch (e) {}
+            try {
+                new Float32Array(10);
+            } catch(e68) {
+            }
+            try {
+            } catch(e70) {
+            }
+            try {
+            } catch(e71) {
+            }
+        },
+    };
+    function f73(a74) {
+        a74 === a74;
+        const v77 = new WeakSet();
+        const v78 = [1356889592,-4294967297,9007199254740991,129,2,-654716367];
+        function f79(a80, a81, a82) {
+            return a80;
+        }
+        const v85 = [v77,v78];
+        const o86 = {
+            "arguments": v85,
+            "type": "function",
+        };
+        new Worker(f79, o86);
+        return Int16Array;
+    }
+    o72[Symbol.toPrimitive] = f73;
+    return o72;
+}
+let v90 = f50(v49, v47, v48, v47);
+function f91() {
+    const v92 = v36.length;
+    try {
+        v19.a = v92;
+    } catch(e93) {
+    }
+    return v92;
+}
+v90.valueOf = f91;
+class C96 extends f50(v48, v34, v47, v47).constructor {
+}
+const v97 = new C96();
+function f98() {
+    return f91;
+}
+Object.defineProperty(v97, "valueOf", { configurable: true, enumerable: true, get: f98 });
+try {
+    v90 <<= v97;
+} catch(e99) {
+}

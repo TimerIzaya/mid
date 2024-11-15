@@ -1,0 +1,99 @@
+class C3 {
+    [-2.636621409344158e+307];
+    h = -5.0;
+    #g;
+    n(a5, a6) {
+        const o7 = {
+        };
+        try {
+            o7.f = -5.0;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.f = -5.0;
+            o9.h = a5;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.f = -5.0;
+            o11.h = a5;
+            o11.a = a6;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.f = -5.0;
+            o13.h = a5;
+            o13.a = this;
+        } catch(e14) {
+        }
+        return -5.0;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+class C18 {
+    static #f = v16;
+    get c() {
+        [0.30062062203058737,1.7976931348623157e+308];
+        [719112.7264764244,0.9669892630503107,-1000000000.0,27134.30880297115,-1e-15,1000000000000.0,-2.9343728980652736e+307,-2.9188016340862504,1e-15];
+        [232.65842214946701,0.7983287194330269,266612.84311620286,1.7976931348623157e+308,9.264306021636466e+307,1.6285232535556382,2.2250738585072014e-308,-1000000000.0,-1.8665746233709246];
+        try {
+            new Int8Array(234);
+        } catch(e26) {
+        }
+        try {
+            new Float32Array(3);
+        } catch(e30) {
+        }
+        try {
+            new Uint16Array(8);
+        } catch(e34) {
+        }
+        return v15;
+    }
+}
+const v35 = new C18();
+const v36 = new C18();
+new C18();
+function f38(a39, a40, a41, a42) {
+    const o54 = {
+        "e": v15,
+        set f(a44) {
+            try {
+                a41.c = v35;
+            } catch(e45) {
+            }
+            const o48 = {
+                "maxByteLength": 2244167524,
+            };
+            const v50 = new SharedArrayBuffer(1856, o48);
+            try {
+                new Float32Array(v50);
+            } catch(e53) {
+            }
+        },
+    };
+    return o54;
+}
+f38(v36, v17, C18, -2.636621409344158e+307);
+const v56 = f38(v35, v15, v35, 0.05243189201857523);
+let v57 = f38(C18, v16, v36, -2.636621409344158e+307);
+for (const v58 of v57) {
+    function f59() {
+        return v58;
+    }
+}
+let v60 = 10;
+for (; v60--;) {
+    try {
+        v57 = v56;
+    } catch(e62) {
+    }
+}

@@ -1,0 +1,21 @@
+try {
+    new Float64Array(9);
+} catch(e12) {
+}
+try {
+    new Float64Array(1090);
+} catch(e16) {
+}
+try {
+    new Uint16Array(66);
+} catch(e20) {
+}
+const o21 = {
+    "a": "4294967297",
+    0: -1,
+    "d": 30540,
+};
+const v22 = o21[1090];
+for (let v23 = 0; v23 < 32; v23++) {
+    v22["p" + v23] = v23;
+}

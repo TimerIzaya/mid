@@ -1,0 +1,38 @@
+let v8 = 7n;
+function f12(a13, a14, a15, a16) {
+    const o26 = {
+        get h() {
+            try {
+                const t5 = "boolean";
+                t5.__proto__ = "function";
+            } catch(e18) {
+            }
+            return this;
+        },
+        ["object"](a20, a21) {
+            try {
+                super[a21] = "resize";
+            } catch(e22) {
+            }
+            const v23 = ["-1773247256",this,a20,-8n,a20];
+            [65074n,a13,[v23,1360361028n,a21,v23]];
+            return a15;
+        },
+    };
+    return o26;
+}
+const v27 = f12(v8, "resize", "object", "resize");
+f12(-5n, "-1773247256", "resize", f12(-8n, "object", "function", 65074n));
+("function").length;
+try {
+    v8--;
+} catch(e32) {
+}
+Object.defineProperty(v27, "z2G", { enumerable: true, get: f12, set: f12 });
+-5n instanceof f12;
+Object.defineProperty("function", "length", { configurable: true, enumerable: true, get: f12, set: f12 });
+try {
+    const t34 = "z2G";
+    t34.valueOf = f12;
+} catch(e34) {
+}

@@ -1,0 +1,43 @@
+const v1 = new Map();
+try {
+    new Uint8ClampedArray(657);
+} catch(e5) {
+}
+try {
+    new Int8Array(2);
+} catch(e9) {
+}
+try {
+    new Float32Array(2);
+} catch(e13) {
+}
+function f14(a15, a16, a17) {
+    const o18 = {
+        [a16]: 657,
+        1073741824: 657,
+        "e": a17,
+        __proto__: a17,
+        "g": Uint8ClampedArray,
+        "d": a16,
+        "c": v1,
+        ...a15,
+        [Float32Array]: a17,
+        ...a15,
+        ...a15,
+        "h": a15,
+    };
+    return o18;
+}
+const v19 = f14(2, 2, f14);
+const v20 = f14(2, 2, Map);
+f14(v20, 2, 657);
+const v22 = new Uint8ClampedArray(2, 2, 657);
+Object.defineProperty(v19, v22, { value: Float32Array });
+function f23(a24) {
+    return a24;
+}
+class C25 extends f23 {
+    [v20];
+    f;
+}
+var f = v22;

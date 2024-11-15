@@ -1,0 +1,69 @@
+function f0() {
+    let v2 = "3ApKU";
+    const o9 = {
+        [1000000000000.0]: 1000000000000.0,
+        "g": 1000000000000.0,
+        __proto__: v2,
+        set f(a5) {
+            try {
+                a5 = this;
+            } catch(e6) {
+            }
+        },
+        "d": 1000000000000.0,
+        get c() {
+            try {
+                v2 = "object";
+            } catch(e8) {
+            }
+            return this;
+        },
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+class C19 extends f0 {
+    e = v10;
+    constructor(a21, a22) {
+        super();
+        "N" instanceof a22;
+    }
+    [v12];
+    static [v10];
+    static a = 536870887;
+    #valueOf(a25, a26, a27, a28) {
+        const v29 = a25.__proto__;
+        try {
+            super.unshift("isConcatSpreadable", v11, v29, a28);
+        } catch(e31) {
+        }
+        return a28;
+    }
+}
+new C19(v10, 536870887);
+const v33 = new C19(v12, C19);
+const v34 = new C19(v11, C19);
+function F35(a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a37;
+    } catch(e39) {
+    }
+}
+const v40 = new F35(v33, "isConcatSpreadable");
+const v41 = new F35(v33, v33);
+const v42 = new F35(v34, v34);
+switch (v41) {
+    case 4294967295:
+        f0();
+        break;
+}
+function f44() {
+    return v42;
+}
+try {
+    536870887 + v40;
+} catch(e46) {
+}

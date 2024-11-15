@@ -1,0 +1,43 @@
+class C3 {
+    static n(a5) {
+        try {
+            super.d = 512n;
+        } catch(e6) {
+        }
+        return this;
+    }
+    static #h = -1137775093n;
+    65537;
+    #e;
+}
+const v7 = new C3();
+new C3();
+const v9 = new C3();
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -1137775093n;
+    } catch(e14) {
+    }
+}
+const v15 = new F10(1n, C3);
+const v16 = new F10(1n, v9);
+const v17 = new F10(512n, v7);
+const v19 = Symbol.split;
+v9[v19] = v19;
+function f20(a21) {
+    function f23(a24) {
+        try { this["valueOf"](); } catch (e) {}
+    }
+    this.onmessage = f23;
+    try {
+        v17.__proto__ = v15;
+    } catch(e27) {
+    }
+}
+const v30 = [v16];
+const o31 = {
+    "arguments": v30,
+    "type": "function",
+};
+new Worker(f20, o31);

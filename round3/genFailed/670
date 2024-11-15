@@ -1,0 +1,28 @@
+const v1 = new WeakMap();
+class C8 {
+    static [-2];
+    constructor(a10, a11, a12) {
+        const v13 = this.__proto__;
+        const v14 = v13 instanceof v13;
+        try {
+            a12 = v14;
+        } catch(e15) {
+        }
+    }
+    static d = -311774855;
+    static [1];
+    static 50;
+}
+const v16 = new C8(0n, -15n, 0n);
+new C8(-15n, 0n, v16);
+new C8(-15n, -15n, v1);
+for (let i20 = 0; i20 < 9; i20++) {
+    for (const v26 in v1) {
+        try { i20(); } catch (e) {}
+    }
+    const o31 = {
+        "execution": "async",
+        "type": "major",
+    };
+    gc(o31);
+}

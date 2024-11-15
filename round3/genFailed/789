@@ -1,0 +1,33 @@
+const v9 = ["startsWith","string","-2038637676","15"];
+[v9];
+const v11 = [v9,"bigint","string","symbol"];
+Object.defineProperty("startsWith", 5, { writable: true, configurable: true, value: v11 });
+("string").padStart(..."string", ..."-2038637676", ..."string", ...v11);
+try { ("string").startsWith("15"); } catch (e) {}
+("15")[134];
+const v15 = `
+    try {
+        const t9 = "-2038637676";
+        t9["-2038637676"] = "15";
+    } catch(e16) {
+    }
+    const v18 = Symbol.iterator;
+    const o27 = {
+        [v18]() {
+            let v20 = 10;
+            const o26 = {
+                next() {
+                    v20--;
+                    const v24 = v20 == 0;
+                    const o25 = {
+                        "done": v24,
+                        "value": v20,
+                    };
+                    return o25;
+                },
+            };
+            return o26;
+        },
+    };
+`;
+eval(v15);

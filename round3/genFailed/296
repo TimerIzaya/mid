@@ -1,0 +1,81 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2(a3) {
+    const o11 = {
+        512: f0,
+        [a3]: f1,
+        p(a5, a6) {
+            try {
+                a3 + a5;
+            } catch(e8) {
+            }
+            try {
+                super.trimLeft(a5);
+            } catch(e10) {
+            }
+            return f1;
+        },
+        __proto__: a3,
+    };
+    return o11;
+}
+const v12 = f2(f0);
+const v13 = f2(f1);
+const v14 = f2(f1);
+function f15(a16, a17, a18) {
+    const o35 = {
+        ...a16,
+        [v14]: a18,
+        "d": a17,
+        "g": f2,
+        ...a16,
+        4: a16,
+        "a": f0,
+        valueOf(a20, a21, a22, a23) {
+            v14[1] >>>= a22;
+            let v26 = !5;
+            const v27 = a17 >> v26;
+            try {
+                Math.max(5);
+            } catch(e29) {
+            }
+            try {
+                Math.random();
+            } catch(e31) {
+            }
+            v27 % a17;
+            a17 * 5;
+            v26--;
+            return a21;
+        },
+    };
+    return o35;
+}
+const v36 = f15(v13, v14, v12);
+const v37 = f15(v14, v13, v14);
+const v38 = f15(v12, v14, v12);
+try {
+    new BigUint64Array(119);
+} catch(e42) {
+}
+try {
+    new Int32Array(2556);
+} catch(e46) {
+}
+try {
+    new Uint32Array(18);
+} catch(e50) {
+}
+typeof Uint32Array === "number";
+function f54(a55, a56, a57, a58) {
+    const o59 = {
+        "f": Int32Array,
+    };
+    return o59;
+}
+f54(18, 119, 2556, v36);
+f54(119, 2556, 2556, v37);
+f54(18, 119, 119, v38);

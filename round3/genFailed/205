@@ -1,0 +1,53 @@
+try {
+    new Int32Array(1024);
+} catch(e3) {
+}
+try {
+    new Float64Array(1000);
+} catch(e7) {
+}
+try {
+    new Int16Array(1);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    f;
+    9 = 1024;
+    static {
+        const v14 = this.__proto__;
+        try {
+            1024 >>> Float64Array;
+        } catch(e16) {
+        }
+        try {
+            v14[536870888] = v14;
+        } catch(e17) {
+        }
+    }
+    static #g = Float64Array;
+}
+new C12();
+new C12();
+new C12();
+try {
+    new Int16Array(168);
+} catch(e24) {
+}
+try {
+    new BigInt64Array(37);
+} catch(e28) {
+}
+try {
+    new Float64Array(2065);
+} catch(e32) {
+}
+try {
+    C12[77235364] = Int32Array;
+} catch(e33) {
+}
+const v34 = (a35, a36, a37, a38) => {
+    for (let v39 = 0; v39 < 32; v39++) {
+        a37["p" + v39] = v39;
+    }
+    return 1;
+};

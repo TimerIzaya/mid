@@ -1,0 +1,81 @@
+function f0() {
+    const o21 = {
+        ["WF"](a5, a6) {
+            const v11 = 200803.287363878 || 268435441;
+            try {
+                Math.round(v11);
+            } catch(e13) {
+            }
+            const v14 = 268435441 >>> 200803.287363878;
+            try {
+                Math.tan(v14);
+            } catch(e16) {
+            }
+            +200803.287363878;
+            try {
+                Math.atan2(-12200, a5);
+            } catch(e19) {
+            }
+            return -12200 >>> 200803.287363878;
+        },
+    };
+    return o21;
+}
+const v22 = f0();
+f0();
+f0();
+class C25 extends f0 {
+    static #a;
+    static #m(a27) {
+        try {
+            a27.#a = a27;
+        } catch(e28) {
+        }
+        const o29 = {
+            "call": f0,
+            "construct": f0,
+            "defineProperty": f0,
+            "deleteProperty": f0,
+            "get": f0,
+            "has": f0,
+            "ownKeys": f0,
+            "preventExtensions": f0,
+            "set": f0,
+        };
+        try {
+            new Proxy(v22, o29);
+        } catch(e32) {
+        }
+        return v22;
+    }
+}
+const v33 = new C25();
+const v34 = new C25();
+const v35 = new C25();
+class C36 extends f0 {
+    static [v33];
+    n(a38, a39, a40) {
+        try {
+            a38.__proto__ = v35;
+        } catch(e41) {
+        }
+        return a38;
+    }
+    static 8 = v34;
+    g;
+    static g;
+    256;
+}
+new C36();
+const v43 = new C36();
+const v44 = new C36();
+try {
+    v34 ^ v44;
+} catch(e46) {
+}
+Object.defineProperty(v43, 10, { set: f0 });
+v44["n"]();
+try {
+    v33.length = 4294967296;
+} catch(e50) {
+}

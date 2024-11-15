@@ -1,0 +1,18 @@
+try {
+    new Int32Array(4);
+} catch(e9) {
+}
+try {
+    new Uint16Array(22);
+} catch(e13) {
+}
+try {
+    new Uint16Array(6);
+} catch(e17) {
+}
+-(-73103671n) ^ 1073741823;
+try {
+    Math.acosh(1073741823);
+} catch(e24) {
+}
+new Uint16Array(1073741823, 6, 4);

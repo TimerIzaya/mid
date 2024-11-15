@@ -1,0 +1,45 @@
+try {
+    new Int16Array(4096);
+} catch(e3) {
+}
+try {
+    new Float64Array(1702);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(11);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o19 = {
+        "h": 4096,
+        __proto__: a13,
+        get f() {
+            a13[11] *= 11;
+            try {
+                a13.__proto__ = this;
+            } catch(e17) {
+            }
+            try {
+                a13 = a14;
+            } catch(e18) {
+            }
+            return BigUint64Array;
+        },
+    };
+    return o19;
+}
+const v21 = f12(f12(f12, 4096, 1702), 1702, 4096);
+f12(BigUint64Array, 1702, 4096);
+if (1702 > v21) {
+    typeof Float64Array === "bigint";
+} else {
+    const o30 = {
+        "apply": f12,
+        "call": f12,
+    };
+    try {
+        new Proxy("2147483648", o30);
+    } catch(e33) {
+    }
+}

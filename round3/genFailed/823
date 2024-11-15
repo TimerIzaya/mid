@@ -1,0 +1,73 @@
+const v0 = [47163,-520961295,-35401,-2007,4096,129,-2075220313,2];
+const v1 = [11,-1,-13,3,21723,4294967297,-12,-1679340010,12];
+const v2 = [-536870912,19572,4294967296,16];
+const v4 = new WeakSet();
+class C5 extends WeakSet {
+    constructor(a7) {
+        super(v2);
+        try {
+            v1 / a7;
+        } catch(e9) {
+        }
+    }
+    static #o(a11) {
+        const v13 = v4["delete"](v0);
+        try {
+            v0 && a11;
+        } catch(e15) {
+        }
+        return v13;
+    }
+}
+const v16 = new C5(WeakSet);
+new C5(WeakSet);
+const v18 = new C5(WeakSet);
+const v19 = [v18,v18];
+const v21 = [[v19,v18]];
+function f22(a23, a24) {
+    const o25 = {
+        8: v2,
+        __proto__: v16,
+        "b": v21,
+        "d": v16,
+        ...a23,
+        ...a23,
+        "h": v0,
+        ...v19,
+        "a": v21,
+        [v2]: v16,
+        4: v1,
+        "g": v4,
+        "c": v2,
+    };
+    return o25;
+}
+const v26 = f22(v21, v18);
+f22(v0, v18);
+f22(v21, v4);
+try {
+    const o30 = {
+    };
+    const v31 = new WeakSet(o30);
+    new f22(v0, v31);
+} catch(e33) {
+}
+v21[v26] /= WeakSet;
+const v35 = Symbol.iterator;
+const o44 = {
+    [v35]() {
+        let v37 = 10;
+        const o43 = {
+            next() {
+                v37--;
+                const v41 = v37 == 0;
+                const o42 = {
+                    "done": v41,
+                    "value": v37,
+                };
+                return o42;
+            },
+        };
+        return o43;
+    },
+};

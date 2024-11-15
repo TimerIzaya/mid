@@ -1,0 +1,52 @@
+try {
+    new Float32Array(141);
+} catch(e3) {
+}
+try {
+    new Int16Array(155);
+} catch(e7) {
+}
+try {
+    new Int8Array(11);
+} catch(e11) {
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a14;
+    } catch(e16) {
+    }
+}
+const v17 = new F12(11, 155);
+new F12(141, Float32Array);
+new F12(155, Int16Array);
+class C20 {
+    constructor(a22, a23) {
+        const o27 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o27);
+    }
+    1507;
+    static a;
+    static d;
+    a;
+}
+new C20(v17, 155);
+new C20(155, 141);
+new C20(F12, 141);
+for (let [v32,v33,v34] of v17) {
+    try {
+        new BigInt64Array(127);
+    } catch(e38) {
+    }
+    try {
+        new Float64Array(16);
+    } catch(e42) {
+    }
+    try {
+        new Uint8Array(127);
+    } catch(e46) {
+    }
+}

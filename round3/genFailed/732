@@ -1,0 +1,42 @@
+try {
+    new Uint16Array(2808);
+} catch(e3) {
+}
+try {
+    new Int16Array(16);
+} catch(e7) {
+}
+try {
+    new Uint16Array(3229);
+} catch(e11) {
+}
+class C12 {
+    constructor(a14, a15, a16, a17) {
+        [Uint16Array,a17,a15,a14];
+        [a14,a16,[a16,3229],16,a14];
+        const t14 = "number";
+        t14[1] = "number";
+    }
+    a = Uint16Array;
+    static #e;
+    #d;
+    b = Uint16Array;
+}
+const v24 = new C12(16, Uint16Array, 2808, 3229);
+const v25 = new C12(3229, v24, 16, 2808);
+const v26 = new C12(Uint16Array, Int16Array, v25, 2808);
+v26[Uint16Array];
+try {
+    2808 * v25;
+} catch(e32) {
+}
+switch (v25) {
+    case v26:
+        try {
+            const o33 = {
+            };
+            new Int16Array(o33);
+        } catch(e35) {
+        }
+        break;
+}

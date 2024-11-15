@@ -1,0 +1,24 @@
+function f0() {
+}
+try {
+    new BigUint64Array(540);
+} catch(e4) {
+}
+try {
+    new BigUint64Array(161);
+} catch(e8) {
+}
+try {
+    new Float64Array(10);
+} catch(e12) {
+}
+const v14 = new WeakSet();
+[-2.2250738585072014e-308,-2.2250738585072014e-308,-1000000000000.0,-2.2250738585072014e-308,-2147483647];
+[[-1000000000000.0,v14,f0,BigUint64Array]];
+throw -1000000000000.0;
+f0();
+%PrepareFunctionForOptimization(f0);
+f0();
+f0();
+%OptimizeMaglevOnNextCall(f0);
+f0();

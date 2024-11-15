@@ -1,0 +1,50 @@
+const v5 = new WeakSet();
+const v6 = [-53540,2,1015245426,-9007199254740992,8,16,12];
+const v7 = [-2147483648,8,4294967295,4294967297,2,-955166183,6,3,7315];
+const v8 = [-1090142803,-4096];
+function f9(a10, a11) {
+    const o21 = {
+        o(a13, a14, a15, a16) {
+            Object.defineProperty(v6, 2147483649, { writable: true, value: WeakSet });
+            const v18 = [a13];
+            return Reflect.apply(a15.charCodeAt, v5, v18);
+        },
+        4: v6,
+        [v5]: v8,
+        "a": null,
+        "g": v5,
+        "h": a10,
+        "c": "setBigInt64",
+        __proto__: v8,
+    };
+    return o21;
+}
+const v22 = f9(null, "split");
+const v23 = f9(v8, "split");
+f9(v22, "MIN_VALUE");
+class C25 extends f9 {
+    [v23] = WeakSet;
+    constructor(a27, a28) {
+        super(a28, a27);
+        Object.defineProperty(v5, "g", { get: f9, set: f9 });
+        for (const v29 of "MIN_VALUE") {
+            v29[9] = a27;
+            const o33 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o33);
+        }
+    }
+}
+new C25("MIN_VALUE", v7);
+new C25("MIN_VALUE", v7);
+new C25("split", v8);
+("MIN_VALUE")[Symbol.species];
+[127,7,-536870912,-9,924329544];
+const v42 = [12,4,536870912,-65535];
+[16,10000,-65536,-2147483647,-4294967296,59692,0,2147483649];
+try {
+    WeakSet >> v42;
+} catch(e45) {
+}

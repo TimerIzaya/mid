@@ -1,0 +1,45 @@
+const v7 = new WeakSet();
+function f8() {
+    return v7;
+}
+function f9(a10, a11, a12, a13) {
+    const o36 = {
+        "c": -128,
+        __proto__: v7,
+        [a12](a15, a16, a17) {
+            Reflect.construct(WeakSet, [Reflect], f8);
+            Object.defineProperty(this, "h", { set: f8 });
+            return a13;
+        },
+        ...v7,
+        o(a22, a23, a24) {
+            const v25 = super[f8];
+            try {
+                a13 = -128;
+            } catch(e26) {
+            }
+            (-19592n) ** 10;
+            try {
+                Math.pow(v25, 10);
+            } catch(e33) {
+            }
+            try {
+                Math.max(-0.0);
+            } catch(e35) {
+            }
+            return -128;
+        },
+    };
+    return o36;
+}
+const v37 = f9(-19592n, -7, -128, -7);
+const v38 = f9(-19592n, -7, -7, -128);
+const v39 = f9(512n, 1820279739, 1820279739, -128);
+if (-Infinity) {
+    v38[-62044n] *= -128;
+    v39.c;
+} else {
+    Reflect.construct(f9, [-19592n,1820279739,-128,-128], WeakSet);
+}
+new WeakSet(v7);
+delete v37[-7];

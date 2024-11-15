@@ -1,0 +1,52 @@
+const v0 = /2v\P{Decimal_Number}(?!\1(a\1)\1)\1/sdvm;
+const v1 = /[^a{}]/gyis;
+const v2 = /Pu/yisdm;
+function f3() {
+    return v1;
+}
+class C4 extends f3 {
+    7 = v1;
+    constructor(a6, a7) {
+        super();
+        super.dotAll;
+        Object.defineProperty(a7, "flags", { writable: true, configurable: true, value: v0 });
+    }
+    #valueOf(a10) {
+        super[v0]?.[8];
+        const o16 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o16);
+        return o16;
+    }
+}
+new C4(v2, v1);
+const v19 = new C4(f3, v0);
+const v20 = new C4(v2, v19);
+class C21 {
+    #p(a23, a24) {
+        const v25 = super.b;
+        try {
+            super[a23] = v25;
+        } catch(e26) {
+        }
+        return this;
+    }
+    static #d;
+    #a;
+    #c = v20;
+}
+const v27 = new C21();
+new C21();
+new C21();
+if (v27) {
+    try {
+        C21.f = C4;
+    } catch(e30) {
+    }
+} else {
+    [1000000000.0,0.6730328087264635,8.104357809583483,4.0,-3.9086032479718185];
+    [0.21959509292285795,0.3210362403747836,-2.220446049250313e-16,0.3752162487121521,-363553.7984008539,-1000000.0];
+    [-384949.89357709454,0.0,1e-15];
+}

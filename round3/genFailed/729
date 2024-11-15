@@ -1,0 +1,44 @@
+class C3 {
+    o(a5) {
+        const o6 = {
+        };
+        try {
+            new Proxy(this, o6);
+        } catch(e9) {
+        }
+        return a5;
+    }
+}
+const v10 = new C3();
+new C3();
+const v12 = new C3();
+class C13 extends C3 {
+    static {
+        super[super.o()];
+    }
+    static d;
+    toString(a18, a19, a20, a21) {
+        a20.c ^= a20;
+        try {
+            const t22 = "0E";
+            t22.e = v12;
+        } catch(e22) {
+        }
+        return a18;
+    }
+}
+new C13();
+new C13();
+new C13();
+for (let v26 = 0; v26 < 70; v26++) {
+    try {
+        Math.ceil(v10);
+    } catch(e32) {
+    }
+    7 & v10;
+    +-2.0;
+    try {
+        Math.cos(7);
+    } catch(e36) {
+    }
+}

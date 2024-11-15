@@ -1,0 +1,49 @@
+try {
+    new Float32Array(246);
+} catch(e3) {
+}
+try {
+    new Float64Array(6);
+} catch(e7) {
+}
+try {
+    new Int8Array(1047);
+} catch(e11) {
+}
+const v12 = [2.0,-7.488746361637916e+307,-192104.5677389619,-0.0,0.43162922010283955,-161.60027520815152,NaN,-1.7976931348623157e+308,-5.634454550301806,660763.8073498013];
+const v13 = [-3.4922350205764075e+306,1000000.0,0.5558122956709337,229.42874743280572,580.0681171932379,1e-15];
+const v14 = [-660200.141890513,2.2250738585072014e-308,1000000.0,-1e-15,1000000000.0,-1.0,1.7976931348623157e+308,0.5456243317095755,947361.3978984002];
+class C15 extends Float64Array {
+    d;
+    constructor(a17, a18, a19, a20) {
+        super(a19, 6, 246);
+        let v21;
+        try { v21 = v12.findIndex(a19); } catch (e) {}
+        Object.defineProperty(a20, 4, { configurable: true, value: a20 });
+        const v23 = [v21];
+        Reflect.apply(v12.forEach, v14, v23);
+    }
+    static #d = Int8Array;
+    b;
+}
+const v26 = new C15(v12, v14, v12, v12);
+new C15(v12, v14, v14, v13);
+new C15(v14, v14, v12, v13);
+function F29(a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a31;
+    } catch(e33) {
+    }
+    try {
+        this.d = v12;
+    } catch(e34) {
+    }
+    try {
+        this.a = v13;
+    } catch(e35) {
+    }
+}
+new F29(v26, Float32Array);
+new F29(v26, 1047);
+new F29(v26, v26);

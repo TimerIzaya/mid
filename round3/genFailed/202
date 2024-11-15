@@ -1,0 +1,55 @@
+try {
+    new Uint8Array(9);
+} catch(e3) {
+}
+try {
+    new Int8Array(9);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(4096);
+} catch(e11) {
+}
+class C15 {
+    p(a17, a18) {
+        try {
+            this[BigUint64Array] = Int8Array;
+        } catch(e19) {
+        }
+        return Uint8Array;
+    }
+    constructor(a21, a22, a23, a24) {
+        let v20 = this;
+        try {
+            v20.f = a22;
+        } catch(e25) {
+        }
+        let v26;
+        try { v26 = a23(9, 4096, BigUint64Array); } catch (e) {}
+        ({"c":a22,"e":v20,"g":v26,...v26} = v26);
+        let {"e":v27,} = a22;
+        try {
+            v27 ** a24;
+        } catch(e29) {
+        }
+    }
+}
+const v30 = new C15(9, 1e-15, BigUint64Array, C15);
+new C15(9, 1e-15, v30, Uint8Array);
+new C15(4096, 458.9609633196867, Int8Array, 9);
+[1.0,1e-15,-816272.3146472349,-7.690665140928883,2.220446049250313e-16,-2.220446049250313e-16];
+[-3.089194125751855e+307,8.207746169479549,-167.6006562503851,0.32811930114004006];
+[4272.788475157227,-3.0,6.554186864137596e+306,1000000.0,-1.7976931348623157e+308,-7.616686312013123,-7.690175787120945,-2.220446049250313e-16,1000000.0,-2.2250738585072014e-308];
+function f36(a37) {
+    return a37;
+}
+class C38 extends f36 {
+    m(a40, a41, a42, a43) {
+        f36(this);
+        try {
+            a43 = a41;
+        } catch(e45) {
+        }
+        return C15;
+    }
+}

@@ -1,0 +1,35 @@
+try {
+    new Uint16Array(1151);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(2493);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(173);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = BigInt64Array;
+    } catch(e17) {
+    }
+}
+new F12(173, BigUint64Array, F12);
+let v19 = new F12(173, 2493, 1151);
+const v20 = new F12(1151, v19, 2493);
+function f21() {
+    return v20;
+}
+let v24 = -1000000000000.0;
+try {
+    --v19;
+} catch(e26) {
+}
+new AggregateError(v19);
+try {
+    v24 ||= 0.9924012249432694;
+} catch(e29) {
+}

@@ -1,0 +1,39 @@
+try {
+    new Int8Array(1597);
+} catch(e3) {
+}
+try {
+    new Uint32Array(4096);
+} catch(e7) {
+}
+try {
+    new Float64Array(1024);
+} catch(e11) {
+}
+class C12 extends Float64Array {
+    #p(a14, a15) {
+        const v16 = a15 < Int8Array;
+        if (v16) {
+            try {
+                this.#p(1597, 1024, this, a14, a15);
+            } catch(e18) {
+            }
+        } else {
+            var c = this;
+        }
+        return v16;
+    }
+}
+new C12();
+new C12();
+const v21 = new C12();
+try {
+    v21.toString = 39006n;
+} catch(e25) {
+}
+const v26 = C12[10];
+v21["reduceRight"](v26);
+v26[4096] -= 1597;
+/foo(?<!bar)baz/gyv;
+/a{0}(?<=)+/gysu;
+/u\u003z((?:ab)?iyabc+(?:a*)+)/gisd;

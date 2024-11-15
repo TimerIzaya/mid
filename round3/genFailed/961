@@ -1,0 +1,27 @@
+try {
+    new Uint32Array(0);
+} catch(e3) {
+}
+try {
+    new Int16Array(1);
+} catch(e7) {
+}
+try {
+    new Float64Array(8);
+} catch(e11) {
+}
+const v14 = new Array(7);
+try {
+    v14 & 7;
+} catch(e19) {
+}
+function f20(a21, a22) {
+    delete a21?.[v14];
+    const v24 = new Float64Array(0, -128, -128);
+    let v25;
+    try { v25 = v24.reduce(Array); } catch (e) {}
+    -808049.3953019606;
+    v25 << (-a22 ** 808049.3953019606);
+    v25--;
+}
+new Promise(f20);

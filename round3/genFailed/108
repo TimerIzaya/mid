@@ -1,0 +1,51 @@
+class C3 {
+    static {
+        let v5;
+        try { v5 = this.n(this); } catch (e) {}
+        const t4 = "m";
+        delete t4[v5];
+        const t5 = "m";
+        t5[Symbol.hasInstance] = 65536;
+    }
+    constructor(a10, a11) {
+        const o15 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o15);
+    }
+}
+const v17 = new C3(C3, 65536);
+const v18 = new C3(v17, 65536);
+const v19 = new C3(C3, 65536);
+function f20(a21, a22, a23, a24) {
+    const o25 = {
+        [-1]: "m",
+        [a24]: v18,
+        [v18]: a21,
+        "b": 65536,
+        [v19]: C3,
+        ...v18,
+        __proto__: C3,
+        ...a22,
+        "c": v18,
+        ...a21,
+        "e": a23,
+        [a23]: v18,
+        "g": 65536,
+    };
+    return o25;
+}
+const v27 = f20(v17, v19, f20(v19, C3, v19, v17), v17);
+const v28 = f20(v27, v19, C3, v27);
+const o32 = {
+    "deleteProperty": f20,
+    "getPrototypeOf": f20,
+    "has": f20,
+    "isExtensible": f20,
+    "set": f20,
+};
+try {
+    new Proxy(v28, o32);
+} catch(e35) {
+}

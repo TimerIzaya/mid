@@ -1,0 +1,66 @@
+function f0() {
+    const o7 = {
+        5: 1073741824,
+        2: 1000000000000.0,
+        set d(a5) {
+            try {
+                this.d = 458910198;
+            } catch(e6) {
+            }
+            %VerifyType(a5);
+        },
+        64: 1000000000000.0,
+        "d": 1000000000000.0,
+        __proto__: 458910198,
+        ...1000000000000.0,
+    };
+    return o7;
+}
+f0();
+f0();
+f0();
+try {
+    new Uint8ClampedArray(255);
+} catch(e14) {
+}
+try {
+    new BigInt64Array(64);
+} catch(e18) {
+}
+try {
+    new Float64Array(2021);
+} catch(e22) {
+}
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a27;
+    } catch(e28) {
+    }
+    try {
+        this.a = a25;
+    } catch(e29) {
+    }
+    try {
+        this.h = Float64Array;
+    } catch(e30) {
+    }
+}
+const v31 = new F23(255, 2021, f0);
+const v32 = new F23(2021, 2021, BigInt64Array);
+new F23(255, 2021, 64);
+for (const v34 of v31) {
+    Object.defineProperty("-4294967295", 7, { configurable: true, enumerable: true, value: v34 });
+}
+const o38 = {
+    "apply": f0,
+    "getOwnPropertyDescriptor": f0,
+    "getPrototypeOf": f0,
+    "has": f0,
+    "ownKeys": f0,
+    "set": f0,
+};
+try {
+    new Proxy(v32, o38);
+} catch(e41) {
+}

@@ -1,0 +1,27 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f0;
+    } catch(e3) {
+    }
+    try {
+        this.f = f0;
+    } catch(e4) {
+    }
+    try {
+        this.b = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+new F1();
+new v6();
+[176787644,6,12,-268435456,-59570,-5,1073741825,25005];
+[127];
+[4294967295,19152,-4311508,536870887];
+class C19 extends 2100972070 {
+}
+const v20 = new C19();
+v20.reverse();

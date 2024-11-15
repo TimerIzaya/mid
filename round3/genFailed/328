@@ -1,0 +1,26 @@
+try {
+    new Uint8ClampedArray(28);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(2995);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(605);
+} catch(e14) {
+}
+function f18() {
+    return 28;
+}
+("-60794").length;
+Object.defineProperty("boolean", "length", { configurable: true, get: f18, set: f18 });
+const o26 = {
+    "deleteProperty": f18,
+    "get": f18,
+    "set": f18,
+};
+try {
+    new Proxy("-1024", o26);
+} catch(e29) {
+}

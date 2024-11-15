@@ -1,0 +1,31 @@
+try {
+    new Int32Array(7);
+} catch(e6) {
+}
+try {
+    new Uint32Array(0);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(512);
+} catch(e14) {
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a17;
+    } catch(e19) {
+    }
+}
+const v20 = new F15(0.7976373206533314, 0.7976373206533314);
+new F15(0.30355065022195404, 1.3059031340134662e+308);
+const v22 = new F15(1.3059031340134662e+308, 0.30355065022195404);
+try { v22["getUTCMinutes"]("getUTCMinutes", v20); } catch (e) {}
+class C25 extends BigInt64Array {
+    static #c;
+    [0];
+    a = 0;
+}
+new C25();
+new C25();
+new C25();

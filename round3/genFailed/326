@@ -1,0 +1,64 @@
+const v0 = [0.9089000298779831,1e-15];
+[3.0,4.0,41.06054623604723,898536.1827489033,1.3151968123152002e+307];
+const v2 = [6.060635650217584,-2.8789785202227e+307,NaN,-1000000.0,-1.7976931348623157e+308,3.0];
+try {
+    new Float64Array(256);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(3);
+} catch(e10) {
+}
+try {
+    new Int8Array(4);
+} catch(e14) {
+}
+try {
+    new Int8Array(13);
+} catch(e18) {
+}
+try {
+    new Int8Array(4);
+} catch(e22) {
+}
+try {
+    new Uint32Array(64);
+} catch(e26) {
+}
+try {
+    v2[0] = Float64Array;
+} catch(e27) {
+}
+v0.length -= 13;
+let [v28] = v0;
+v0.length;
+try { v28(); } catch (e) {}
+const o31 = {
+};
+try {
+    o31.a = 3;
+} catch(e32) {
+}
+try {
+    const o33 = {
+    };
+    o33.a = 3;
+    o33.f = Float64Array;
+} catch(e34) {
+}
+try {
+    const o35 = {
+    };
+    o35.a = 3;
+    o35.f = Float64Array;
+    o35.g = Int8Array;
+} catch(e36) {
+}
+try {
+    const o37 = {
+    };
+    o37.a = 3;
+    o37.f = Float64Array;
+    o37.g = Uint32Array;
+} catch(e38) {
+}

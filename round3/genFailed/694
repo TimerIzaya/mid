@@ -1,0 +1,54 @@
+class C6 {
+    16;
+    constructor(a8, a9, a10, a11) {
+        try {
+            super.toString(this);
+        } catch(e13) {
+        }
+    }
+    static [4096n];
+    p(a15, a16, a17, a18) {
+        %VerifyType(4096n);
+        try {
+            -3n << "10000";
+        } catch(e20) {
+        }
+        return 59464n;
+    }
+}
+const v21 = new C6(-3n, "10000", "2a0P", 59464n);
+const v22 = new C6(-3n, "o", "2a0P", -3n);
+const v23 = new C6(-3n, "2a0P", "2a0P", 59464n);
+const v25 = new Set();
+function f26(a27, a28, a29, a30) {
+    const o41 = {
+        "c": v22,
+        "g": v21,
+        ["2a0P"](a32, a33, a34, a35) {
+            let {"c":v36,} = this;
+            super.g;
+            a30?.[3];
+            let v39 = super[a29];
+            ({"length":v39,} = a35);
+            try {
+                super[C6] = v22;
+            } catch(e40) {
+            }
+            return a34;
+        },
+    };
+    return o41;
+}
+f26("o", "10000", 4096n, "2a0P");
+const v43 = f26("10000", "10000", 4096n, "o");
+const v44 = f26("o", "o", 59464n, v43);
+try {
+    v43 == "2a0P" ? v43 : "2a0P";
+} catch(e47) {
+}
+const v48 = v44.__proto__;
+Object.defineProperty(v23, "b", { configurable: true, enumerable: true, get: f26 });
+const t50 = -3n;
+t50[8] = "o";
+const v50 = [];
+Reflect.apply(v25.clear, v48, v50);

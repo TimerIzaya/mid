@@ -1,0 +1,65 @@
+const v4 = Math.pow(-1.7976931348623157e+308, -2.2250738585072014e-308);
+for (let v5 = 0; v5 < 25; v5++) {
+    "p" + v5;
+}
+const v8 = new Set();
+const v10 = [-2.2250738585072014e-308,NaN,9.924873486116923,0.8858595561951235];
+const v11 = [-Infinity,0.5482469649644446,-1000.0,-3.0,2.0,-0.0,1e-15,-8.633328459182163,-307.29520957655757,811.4891277678391];
+try {
+    v11.length = v10;
+} catch(e12) {
+}
+let v14 = -1.7976931348623157e+308;
+function f15(a16) {
+    const o22 = {
+        [a16](a18, a19, a20) {
+            %VerifyType(-1e-15);
+            this.d ^= v8;
+            try {
+                v14 = a16;
+            } catch(e21) {
+            }
+            return -1e-15;
+        },
+        "c": a16,
+        __proto__: a16,
+    };
+    return o22;
+}
+f15(-1.7976931348623157e+308);
+f15(-1.7976931348623157e+308);
+f15(-1e-15);
+class C28 {
+}
+class C29 extends Set {
+    static get b() {
+        super.a = this;
+    }
+}
+try {
+    const v33 = new v4();
+    class C34 extends v4 {
+        [v4];
+        [4.0] = 4.0;
+        [4.0];
+        4 = v33;
+        #e;
+    }
+    new Int8Array(1);
+} catch(e36) {
+}
+try {
+    new Int32Array(64);
+} catch(e40) {
+}
+class C43 {
+}
+class C44 {
+    static get b() {
+    }
+}
+try {
+    new Float64Array(256);
+} catch(e50) {
+}
+v14.toUpperCase();

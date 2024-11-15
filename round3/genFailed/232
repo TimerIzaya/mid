@@ -1,0 +1,64 @@
+const v0 = [0.17053162238399078];
+const v1 = [1000000000.0,-1e-15,0.9134373497025972,5.0,1000.0,2.0,-4.479224299119746,610549.1978622554];
+const v2 = [-418284.2669246234,-1.2169013750801743e+308,-1000000000000.0,-1.7976931348623157e+308,-1000000000.0];
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a6;
+    } catch(e7) {
+    }
+    try {
+        this.e = v2;
+    } catch(e8) {
+    }
+    try {
+        this.g = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(v0, F3);
+new F3(F3, v0);
+const v12 = new F3(v0, v1);
+class C13 extends F3 {
+    #a;
+    toString(a15, a16) {
+        const v17 = super.g;
+        const v18 = this instanceof v17;
+        function F19(a21, a22, a23, a24) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a21;
+            } catch(e25) {
+            }
+            try {
+                this.b = a23;
+            } catch(e26) {
+            }
+        }
+        const v27 = new F19(v12, v18, a16, v1);
+        const v28 = new F19(v17, a16, v27, v2);
+        const v29 = new F19(v17, v1, v28, v1);
+        return v29;
+    }
+}
+const v30 = new C13();
+new C13();
+const v32 = new C13();
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a35;
+    } catch(e38) {
+    }
+}
+new F33(v30, v2, C13);
+const v40 = new F33(v30, v10, C13);
+new F33(v32, v40, v2);
+for (let [v42,v43] of v1) {
+    try {
+        v40.valueOf = v42;
+    } catch(e44) {
+    }
+}
+Reflect.construct(F3, [v2,Reflect], C13);
+Object.defineProperty(v0, 2147483647, { writable: true, value: v2 });

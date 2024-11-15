@@ -1,0 +1,50 @@
+function f0() {
+}
+try {
+    new Uint8Array(2684);
+} catch(e4) {
+}
+try {
+    new BigInt64Array(257);
+} catch(e8) {
+}
+try {
+    new BigUint64Array(2599);
+} catch(e12) {
+}
+function f13(a14, a15, a16) {
+    const o17 = {
+        "b": 2684,
+        "d": BigUint64Array,
+        "h": f0,
+        "a": a14,
+        __proto__: BigInt64Array,
+        10: 2599,
+        2173498022: f0,
+        "g": BigUint64Array,
+        "f": a15,
+        ...Uint8Array,
+        "c": a14,
+        [a14]: a15,
+    };
+    return o17;
+}
+f13(2684, 2684, 2684);
+const v19 = f13(2599, 2599, 257);
+f13(2599, 257, 2684);
+const o24 = {
+    __proto__: v19,
+    [Uint8Array]: f0,
+    [2599]: -8n,
+    "e": f13,
+};
+try { v19["n"](); } catch (e) {}
+let v28 = 64;
+const v29 = -v19;
+try {
+    Math.expm1(v19);
+} catch(e31) {
+}
+v28--;
+v28 * v29;
+v19 && v19;

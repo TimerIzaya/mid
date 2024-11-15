@@ -1,0 +1,41 @@
+const v3 = /JM/sdm;
+const v4 = /N1(?<=)+/gsu;
+const v5 = /a+b|c/idu;
+class C6 {
+    constructor(a8, a9, a10) {
+        try {
+            super.o(a10, v4, a10, 9223372036854775807n);
+        } catch(e12) {
+        }
+        const v14 = [v5];
+        Reflect.apply(v3.compile, v5, v14);
+    }
+    static 3487812024;
+    #b = v3;
+    [3n];
+    static 4;
+}
+const v17 = new C6(3n, v5, 15n);
+new C6(15n, v3, 3n);
+new C6(15n, v17, 15n);
+try {
+    new Int32Array(5);
+} catch(e23) {
+}
+try {
+    new Uint32Array(8);
+} catch(e27) {
+}
+try {
+    new Float64Array(256);
+} catch(e31) {
+}
+try {
+    256 >= Int32Array ? 256 : Int32Array;
+} catch(e34) {
+}
+const v35 = v5[v17];
+try {
+    Float64Array == v35 ? Float64Array : v35;
+} catch(e38) {
+}

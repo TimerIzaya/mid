@@ -1,0 +1,52 @@
+try {
+    new Float64Array(7);
+} catch(e3) {
+}
+try {
+    new Uint8Array(43);
+} catch(e7) {
+}
+try {
+    new Int8Array(1000);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(400);
+} catch(e15) {
+}
+try {
+    new BigUint64Array(10);
+} catch(e19) {
+}
+try {
+    new BigUint64Array(512);
+} catch(e23) {
+}
+class C24 extends BigUint64Array {
+    4096 = 10;
+    constructor(a26, a27, a28, a29) {
+        super(10, 43, 43);
+        new Uint8Array(BigUint64Array, delete this?.byteOffset, a28, 400, 400, 7);
+    }
+    static [BigUint64Array] = Uint8ClampedArray;
+    static #f = Uint8Array;
+    10 = 43;
+    static #b = 1000;
+    static #g = Int8Array;
+}
+const v35 = new C24(10, 400, 1000, 7);
+new C24(400, 7, 10, 10);
+const v37 = new C24(10, 512, 512, 1000);
+function f38(a39, a40) {
+    let v41;
+    try { v41 = a39(a39, a39, Uint8Array, Uint8ClampedArray); } catch (e) {}
+    try {
+        v37[2] = v41;
+    } catch(e42) {
+    }
+}
+const v44 = new Promise(f38);
+try {
+    v35[v44] = 400;
+} catch(e45) {
+}

@@ -1,0 +1,36 @@
+function f3() {
+    return 12;
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a6;
+    } catch(e7) {
+    }
+}
+new F4(12);
+const v9 = new F4(12);
+const v10 = new F4(2147483648);
+try {
+    new BigUint64Array(9);
+} catch(e17) {
+}
+let v18 = 4;
+let v19 = Int32Array;
+try {
+    new v19(v18);
+} catch(e21) {
+}
+try {
+    new Uint8Array(128);
+} catch(e25) {
+}
+for (let v26 in v9) {
+    let v27 = Map;
+    const v28 = new v27();
+    [v26,v19,v18,v27] = v28;
+}
+const v29 = new Uint8Array(9, 128, 2147483648);
+typeof v10 === "bigint";
+const v34 = [v18];
+Reflect.apply(v29.join, v9, v34);

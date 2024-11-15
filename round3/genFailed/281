@@ -1,0 +1,52 @@
+[];
+try {
+    new Int32Array(257);
+} catch(e4) {
+}
+try {
+    new Uint16Array(1174);
+} catch(e8) {
+}
+try {
+    new Float64Array(192);
+} catch(e12) {
+}
+const v13 = /\p{Nd}/du;
+const v14 = /a(?!b)*/gdvm;
+/Zfoo(?!bar)baz/isv;
+let v16 = 381;
+try {
+    new BigUint64Array(v16);
+} catch(e19) {
+}
+try {
+    new BigUint64Array(192);
+} catch(e23) {
+}
+try {
+    new BigUint64Array(2959);
+} catch(e27) {
+}
+try {
+    v16 = 192;
+} catch(e28) {
+}
+if (v13 === v14) {
+    try {
+        ~192;
+    } catch(e31) {
+    }
+} else {
+    let v33 = 9;
+    try {
+        Math.sign(v16);
+    } catch(e36) {
+    }
+    const v37 = --v33;
+    let v39 = (v37 | v16) * 257;
+    try {
+        Math.atan(v37);
+    } catch(e41) {
+    }
+    ++v39;
+}

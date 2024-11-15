@@ -1,0 +1,60 @@
+try {
+    new Int16Array(5);
+} catch(e3) {
+}
+try {
+    new Int8Array(257);
+} catch(e7) {
+}
+try {
+    new Float64Array(127);
+} catch(e11) {
+}
+try {
+    new Int8Array(5);
+} catch(e15) {
+}
+try {
+    new Uint8Array(1);
+} catch(e19) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e23) {
+}
+function f24(a25, a26, a27, a28) {
+    const o43 = {
+        "e": a27,
+        "c": a28,
+        1073741824: Float64Array,
+        __proto__: Float64Array,
+        m(a30, a31) {
+            function F32(a34, a35, a36, a37) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.e = a37;
+                } catch(e38) {
+                }
+                try {
+                    this.b = a27;
+                } catch(e39) {
+                }
+            }
+            new F32(a26, a30, a28, a31);
+            new F32(a31, a26, a27, a31);
+            new F32(a25, 4, a27, 4);
+            return 5;
+        },
+    };
+    return o43;
+}
+f24(4, 5, 5, 5);
+f24(5, 257, 1, 1);
+const t50 = f24(127, 5, 5, 257);
+t50[-1] ^= 1;
+try {
+    Int8Array - f24;
+} catch(e48) {
+}
+for (const v49 of BigUint64Array) {
+}

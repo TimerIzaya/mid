@@ -1,0 +1,65 @@
+function f0() {
+}
+const v1 = [128,4096,10,-268435456,10,39851329,64];
+const v2 = [781,-9,-4096,-9223372036854775807,1073741825];
+const v3 = [-9,-9223372036854775807,6,-536870912,772151913,1950149116,57815,-128];
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a6;
+    } catch(e8) {
+    }
+    try {
+        this.e = f0;
+    } catch(e9) {
+    }
+    try {
+        this.b = a6;
+    } catch(e10) {
+    }
+}
+const v11 = new F4(v2, F4);
+const v12 = new F4(v3, v11);
+const v13 = new F4(v2, v12);
+function f14(a15, a16, a17) {
+    const o32 = {
+        [a17]: v12,
+        toString(a19, a20) {
+            const v22 = v1["toSpliced"](a19, a19, a16, a17, a15, "toSpliced", v13);
+            function F23(a25, a26) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = a25;
+                } catch(e27) {
+                }
+                try {
+                    this.e = v22;
+                } catch(e28) {
+                }
+            }
+            new F23(v13, v11);
+            new F23(v12, a17);
+            new F23(v13, F23);
+            return a16;
+        },
+    };
+    return o32;
+}
+const v33 = f14(v2, v13, v11);
+let v34 = f14(v33, v12, f0);
+const v35 = f14(v1, v33, v2);
+try {
+    v34 = v35;
+} catch(e36) {
+}
+try {
+    Math.clz32(v33);
+} catch(e40) {
+}
+let v41 = -v33;
+try {
+    Math.cbrt(-4294967297);
+} catch(e43) {
+}
+v41++;
+v41 >>> v33;

@@ -1,0 +1,56 @@
+try {
+    new Float32Array(256);
+} catch(e3) {
+}
+try {
+    new Float64Array(1);
+} catch(e7) {
+}
+try {
+    new Float32Array(179);
+} catch(e11) {
+}
+const v12 = [9223372036854775807,-10];
+const v13 = [1073741825,-536870912,-794945605,-52167,257,64,-256,3,1073741825,-4294967295];
+const v14 = [2147483649,-63433,-65535];
+[1e-15,-1e-15];
+const v16 = [-1000000.0,940851.6366010737,3.567124778424777];
+let v17 = [-191.1623884080684,-1.3458262904235687e+308,-5.0,3.0,0.1562344807507018,-1.2652709781233336e+308,54.584891797885575];
+class C18 {
+    static #a;
+    static #e = v16;
+    constructor(a20, a21, a22) {
+        const v23 = super[Float64Array];
+        try {
+            v12.#a;
+        } catch(e25) {
+        }
+        v14 instanceof v23;
+    }
+    static h;
+    #d;
+    static #c;
+}
+const v27 = new C18(179, 1, v14);
+new C18(1, 1, v13);
+new C18(1, 1, v13);
+const o30 = {
+    [Float32Array]: C18,
+};
+new Float32Array(v27);
+let v34 = -1.5996043139808601e+308;
+try {
+    Math.asin(v17);
+} catch(e36) {
+}
+v34--;
+try {
+    Math.asinh(-16);
+} catch(e39) {
+}
+(-16) ** v34;
+++v17;
+try {
+    Math.tan(v17);
+} catch(e43) {
+}

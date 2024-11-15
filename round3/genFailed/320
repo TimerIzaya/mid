@@ -1,0 +1,17 @@
+const v0 = [];
+const v1 = [v0,v0,v0];
+[v1];
+[v1,v0];
+new WeakMap();
+function f9() {
+    return 3.9903853072496036e+307;
+}
+with (v0) {
+    length = 3.9903853072496036e+307;
+    %VerifyType(f9);
+    const o16 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o16);
+}

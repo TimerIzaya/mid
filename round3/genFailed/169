@@ -1,0 +1,47 @@
+try {
+    new BigUint64Array(1);
+} catch(e3) {
+}
+try {
+    new Int8Array(4);
+} catch(e7) {
+}
+try {
+    new Uint16Array(376);
+} catch(e11) {
+}
+class C12 {
+    constructor(a14, a15, a16) {
+        super.a;
+    }
+    static c = 4;
+    static #o(a19, a20, a21) {
+        return 40410;
+    }
+    1073741823 = Uint16Array;
+}
+const v25 = new C12(1, 376, 376);
+const v26 = new C12(1, 4, 376);
+const v27 = new C12(4, 1, 1);
+try {
+    new Int32Array(9);
+} catch(e31) {
+}
+try {
+    new Int8Array(2138);
+} catch(e35) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e39) {
+}
+let v40;
+try { v40 = v25.n(BigUint64Array, 9, 2138, 256); } catch (e) {}
+for (const v41 of v40) {
+    v41?.e;
+    try { v40(v27); } catch (e) {}
+    Reflect.construct(BigUint64Array, [9,4,v41], BigUint64Array);
+}
+let v47;
+try { v47 = v26.find(Int8Array, Int32Array, v25, Uint16Array); } catch (e) {}
+delete v47?.[4];

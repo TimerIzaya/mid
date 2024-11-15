@@ -1,0 +1,37 @@
+function f0() {
+}
+function f1() {
+    const o2 = {
+        ...f0,
+        "g": f0,
+        "a": f0,
+        ...f0,
+        ...f0,
+        ...f0,
+        [f0]: f0,
+        __proto__: f0,
+        ...f0,
+        ...f0,
+        "f": f0,
+        "e": f0,
+    };
+    return o2;
+}
+f1();
+const v4 = f1();
+f1();
+new Set();
+const v15 = Symbol.hasInstance;
+v4[v15] = v15;
+try {
+    f0();
+} catch(e17) {
+}
+let v22 = !v15 ^ -4294967297n;
++v15;
+try {
+    Math.tanh(-536870912);
+} catch(e25) {
+}
++4294967296;
+v22--;

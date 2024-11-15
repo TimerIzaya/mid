@@ -1,0 +1,59 @@
+const v0 = [65537,9007199254740991,-110773945,64,2];
+const v1 = [1908484537,-63928,268435441,1548720371,5782,-1889433079,-256,1073741824,-14];
+let v2 = [14,-4096,1073741824,9223372036854775807];
+const v3 = [v2,v1,v0];
+const v4 = [v3,v3,v2];
+[v1,v3,v3,v1,v4];
+new Set();
+try {
+    new Uint16Array(1962);
+} catch(e11) {
+}
+let v12 = 64;
+try {
+    new BigInt64Array(v12);
+} catch(e15) {
+}
+try {
+    new Uint8Array(0);
+} catch(e19) {
+}
+class C20 extends BigInt64Array {
+    constructor(a22, a23, a24) {
+        super(a24, v12);
+        function F26(a28, a29, a30, a31) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = this;
+            } catch(e32) {
+            }
+            try {
+                this.g = a23;
+            } catch(e33) {
+            }
+            try {
+                this.e = Set;
+            } catch(e34) {
+            }
+        }
+        new F26(a24, v4, v12, v12);
+        new F26(a23, v3, 0, v12);
+        new F26(a22, v0, v12, a23);
+    }
+}
+new C20(C20, v1, v0);
+const v39 = new C20(Uint8Array, BigInt64Array, v1);
+const v40 = new C20(v39, v12, v3);
+const o41 = {
+    __proto__: v3,
+    "g": 1962,
+    [v0]: v40,
+};
+try {
+    v2 = v0;
+} catch(e42) {
+}
+try {
+    ++v12;
+} catch(e44) {
+}

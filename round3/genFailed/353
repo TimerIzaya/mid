@@ -1,0 +1,58 @@
+const v0 = [];
+try {
+    new Int32Array(13);
+} catch(e4) {
+}
+try {
+    new Uint8Array(2595);
+} catch(e8) {
+}
+try {
+    new Uint32Array(196);
+} catch(e12) {
+}
+class C13 extends Int32Array {
+    static 4 = Int32Array;
+    #o(a15, a16, a17, a18) {
+        const v20 = Symbol.iterator;
+        const o29 = {
+            [v20]() {
+                let v22 = 10;
+                const o28 = {
+                    next() {
+                        v22--;
+                        const v26 = v22 == 0;
+                        const o27 = {
+                            "done": v26,
+                            "value": v22,
+                        };
+                        return o27;
+                    },
+                };
+                return o28;
+            },
+        };
+        return a17;
+    }
+}
+new C13();
+const v31 = new C13();
+new C13();
+[Int32Array,v0,196,Uint32Array];
+const v35 = [Uint32Array,[Int32Array]];
+const v36 = /a{0}*/isd;
+/a{12,{,}/gi;
+const v38 = /[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/gdum;
+try {
+    v38 >>> v36;
+} catch(e40) {
+}
+let v41 = 0;
+do {
+    const v42 = v35.length;
+    try {
+        v31.length = v42;
+    } catch(e43) {
+    }
+    v41++;
+} while (v41 < 2)

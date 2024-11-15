@@ -1,0 +1,45 @@
+const v0 = /y/gidu;
+const v1 = /foo(?=bar)baz/gsm;
+const v2 = /Z\1\2(a(?:\1(b\1\2))\2)\1/ysdum;
+class C3 {
+    static [v1];
+    static m(a5) {
+        try {
+            v0.g = this;
+        } catch(e9) {
+        }
+        return a5;
+    }
+    [v0] = v2;
+}
+const v10 = new C3();
+const v11 = new C3();
+new C3();
+const v13 = /a*?/ysum;
+const v14 = /La\fb\nc\rd\te\vf/ivm;
+const v15 = /E(?:ab){4,7}*/ysm;
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a19;
+    } catch(e22) {
+    }
+    try {
+        this.d = a19;
+    } catch(e23) {
+    }
+}
+new F16(v14, v14, v13, v10);
+new F16(v1, v1, v14, v1);
+const v26 = new F16(v13, v11, v2, v10);
+try {
+    v26[v26] = F16;
+} catch(e27) {
+}
+v15 instanceof F16;
+const v31 = typeof v10 === "bigint";
+("bigint").__proto__;
+try {
+    v1[7] = v31;
+} catch(e33) {
+}

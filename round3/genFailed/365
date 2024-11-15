@@ -1,0 +1,69 @@
+class C3 {
+    constructor(a5) {
+    }
+    static m(a13) {
+        const o17 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o17);
+        return 0.12131860606847267;
+    }
+}
+const v19 = new C3(0.12131860606847267);
+const v20 = new C3(v19);
+const v21 = new C3(v20);
+function f22(a23, a24, a25, a26) {
+    const o30 = {
+        "e": a23,
+        130: v21,
+        __proto__: a26,
+        "g": a25,
+        3285: v19,
+        set a(a28) {
+            delete a24[a28];
+        },
+        [a24]: a23,
+        2556: v19,
+        [v19]: a26,
+        2095: v20,
+        "b": 0.12131860606847267,
+    };
+    return o30;
+}
+const v32 = f22(v19, f22(v20, v20, v20, v20), f22, C3);
+f22(v32, v32, 0.25269461156973416, v21);
+try {
+    new Int16Array(3982);
+} catch(e37) {
+}
+try {
+    new Float64Array(7);
+} catch(e41) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e45) {
+}
+v21 instanceof f22;
+v32.__proto__;
+%VerifyType(Int16Array);
+Uint8ClampedArray || -12124;
+try {
+    Math.asin(f22);
+} catch(e55) {
+}
+try {
+    Math.acosh(C3);
+} catch(e57) {
+}
+try {
+    Math.log2(2.9433812606684917);
+} catch(e59) {
+}
+const v60 = !2.9433812606684917;
+~C3;
+try {
+    Math.min(v60);
+} catch(e63) {
+}

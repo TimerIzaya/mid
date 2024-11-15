@@ -1,0 +1,46 @@
+const v1 = new WeakSet();
+try {
+    new Uint8ClampedArray(682);
+} catch(e5) {
+}
+try {
+    new BigUint64Array(1024);
+} catch(e9) {
+}
+try {
+    new Uint8Array(16);
+} catch(e13) {
+}
+class C14 extends Uint8Array {
+    static set c(a16) {
+        v1[682];
+        try {
+            Math.asin(1024);
+        } catch(e22) {
+        }
+        a16--;
+        const v24 = -401882315 | 1024;
+        try {
+            Math.random();
+        } catch(e26) {
+        }
+        try {
+            Math.min(v24);
+        } catch(e28) {
+        }
+    }
+}
+const v29 = new C14();
+const v30 = new C14();
+const v31 = new C14();
+const v32 = [v29,v29,v30,682,16];
+const v33 = [v32,v32];
+const v34 = [v33,v33,Uint8ClampedArray];
+const v35 = `
+    const v36 = delete v34[2];
+    v36[0] = v36;
+    new Uint8Array(v31);
+`;
+eval(v35);
+const v41 = [v31];
+Reflect.apply(v1.add, v34, v41);

@@ -1,0 +1,36 @@
+const v0 = [];
+class C4 {
+    static p(a6, a7) {
+        let v8 = [a6,this];
+        let v10 = [65536n,v0,-306484616n,[v8,a6]];
+        [v8,...v10] = v10;
+        return a7;
+    }
+    1073741823 = 65536n;
+    static #h;
+    static 2;
+}
+let v11 = new C4();
+const v12 = new C4();
+const v13 = new C4();
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a16;
+    } catch(e20) {
+    }
+}
+const v21 = new F14(v12, v12, 65536n, 65536n);
+const v22 = new F14(v21, 5779n, 65536n, -306484616n);
+const v23 = new F14(v22, v13, 5779n, 5779n);
+try {
+    v23.fuck(v12, [v22,-306484616n,v13,v21,F14]);
+} catch(e26) {
+}
+let v28;
+try { v28 = g(); } catch (e) {}
+throw v28;
+try {
+    v11 = v12;
+} catch(e29) {
+}

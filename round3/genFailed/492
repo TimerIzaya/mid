@@ -1,0 +1,38 @@
+try {
+    new Uint8ClampedArray(1233);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(876);
+} catch(e7) {
+}
+try {
+    new Uint8Array(33);
+} catch(e11) {
+}
+class C15 extends Uint8ClampedArray {
+    static o(a17, a18, a19, a20) {
+        super.map(a18, a18);
+        var b = Uint8Array;
+        try {
+            this[2] = a18;
+        } catch(e22) {
+        }
+        return 65536n;
+    }
+    625 = BigUint64Array;
+    static 3;
+}
+const v23 = new C15();
+new C15();
+new C15();
+const v27 = Symbol.toPrimitive;
+const o31 = {
+    [v27]() {
+        try {
+            super.p(this, v23, this, v27, BigUint64Array);
+        } catch(e30) {
+        }
+        return 1233;
+    },
+};

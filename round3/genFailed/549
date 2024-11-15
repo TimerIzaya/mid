@@ -1,0 +1,54 @@
+class C3 {
+    constructor(a5, a6) {
+        try { a5(this, a6); } catch (e) {}
+        const t3 = "symbol";
+        t3[Symbol.isConcatSpreadable] = a5;
+    }
+    static #b = 7.500689942628021e+306;
+    n(a11, a12) {
+        try {
+            this.fuck("splice", a12, "splice", a12);
+        } catch(e14) {
+        }
+        const o18 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o18);
+        return a11;
+    }
+}
+const v20 = new C3(7.500689942628021e+306, "symbol");
+const v21 = new C3(C3, "splice");
+const v22 = new C3(v20, 7.500689942628021e+306);
+function f23(a24, a25) {
+    const o38 = {
+        m(a27, a28) {
+            ~0;
+            try {
+                Math.log1p(-1000000.0);
+            } catch(e34) {
+            }
+            try {
+                Math.trunc(a24);
+            } catch(e36) {
+            }
+            v21 & 0;
+            return a28;
+        },
+    };
+    return o38;
+}
+f23(v22, v22);
+f23(v22, 7.500689942628021e+306);
+f23(v21, v21);
+try {
+    new C3(f23, 9007199254740991);
+} catch(e47) {
+}
+for (let v48 = 0; v48 < 90; v48++) {
+    try {
+        C3.h = v48;
+    } catch(e49) {
+    }
+}

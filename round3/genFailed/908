@@ -1,0 +1,40 @@
+let v1 = "7MOl";
+const v6 = [2.2250738585072014e-308,2.220446049250313e-16];
+const v7 = [0.5174065184272745,1.3048239721390669,3.0,0.7177131716210082,-5.0,1.0,1.5162330541862892e+308];
+const v8 = [-1.7976931348623157e+308,-1.0,2.2250738585072014e-308,-5.0,-8.479297683135954,2.9687991737054453];
+function f9(a10, a11, a12) {
+    const o21 = {
+        [a12]: a11,
+        o(a14, a15, a16, a17) {
+            g = "127";
+            try {
+                a14 > "127" ? a14 : "127";
+            } catch(e20) {
+            }
+            return a14;
+        },
+        __proto__: a10,
+        "g": v8,
+        [-1]: a11,
+        "h": "toUTCString",
+    };
+    return o21;
+}
+f9(v7, "127", v7);
+const v23 = f9(v8, v1, v8);
+const v24 = f9(v6, "toUTCString", v8);
+function f25() {
+    return f9;
+}
+try {
+    v1 = "toUTCString";
+} catch(e26) {
+}
+Object.defineProperty(v1, 128, { configurable: true, set: f9 });
+Object.defineProperty("c", "c", { set: f9 });
+new f25();
+v23[v24];
+try {
+    f25();
+} catch(e31) {
+}

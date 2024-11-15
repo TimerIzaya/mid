@@ -1,0 +1,43 @@
+function f3() {
+    return 6n;
+}
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = f3;
+    } catch(e12) {
+    }
+}
+const v13 = new F7("number", f3, 6n);
+new F7("c", 6n, -2145329649n);
+new F7("number", "number", 746694812n);
+function f16() {
+    return v13;
+}
+let v20;
+try { v20 = ("o").split(); } catch (e) {}
+[-4.0,-214.80505978016276,-150934.2860050036,-5.981699142524503,-1000.0,-Infinity,5.56140950661921,4.0,-2.220446049250313e-16,1000000000000.0];
+[1000000000.0,-1000000000000.0,418615.08322391333,3.8105258703142025e+307];
+[-737.7317443161448,-584.1524957623567,-4.0,1.7976931348623157e+308,-0.0,0.414870352552119,0.3050281287641672];
+const v26 = Reflect.construct(f3, [], v20);
+try {
+    Math.clz32(v26);
+} catch(e30) {
+}
+try {
+    Math.abs(v26);
+} catch(e32) {
+}
+try {
+    Math.log1p(-11);
+} catch(e34) {
+}
+try {
+    Math.imul(-11, v26);
+} catch(e36) {
+}
+const v38 = F7-- >>> v26;
+try {
+    Math.clz32(v38);
+} catch(e40) {
+}

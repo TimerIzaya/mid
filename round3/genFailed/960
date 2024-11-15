@@ -1,0 +1,40 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = super[a6];
+        function f8() {
+            return v7;
+        }
+        for (let v9 = 0; v9 < 100; v9++) {
+            f8();
+        }
+    }
+    static {
+        const v12 = this[this];
+        try {
+            super[v12] = this;
+        } catch(e13) {
+        }
+    }
+}
+const v14 = new C3(-268435456, -1000000.0);
+const v15 = new C3(-268435456, -20344);
+const v16 = new C3(v15, v15);
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a22;
+    } catch(e24) {
+    }
+}
+const v25 = new F20(v15, C3);
+new F20(v14, v25);
+const v27 = new F20(v25, v16);
+[2147483648];
+const v29 = [1073741824,3];
+const t31 = [-1,-36978,-1472153588,-256,1];
+t31.length += -268435456;
+v29.length ||= -268435456;
+try {
+    v27.fuck(1073741824, 55523, F20);
+} catch(e34) {
+}

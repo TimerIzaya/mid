@@ -1,0 +1,31 @@
+const v7 = new Set();
+function f8(a9, a10, a11, a12) {
+    const o21 = {
+        "e": a10,
+        "c": a12,
+        n(a14, a15, a16, a17) {
+            return a10;
+        },
+        ..."-9007199254740992",
+        "h": a12,
+        __proto__: a9,
+        ...v7,
+        [a11]: "replace",
+    };
+    return o21;
+}
+const v22 = f8("-9007199254740992", "replace", 9007199254740992, "replace");
+f8("-9007199254740992", "rPbMh", v22, "rPbMh");
+f8("-9007199254740992", "-9007199254740992", v22, 9007199254740992);
+Object.defineProperty("replace", "f", { set: f8 });
+%VerifyType(3n);
+const v28 = new Set("rPbMh");
+v28[3] = v28;
+function f29() {
+    return 1182652271n;
+}
+try {
+    const t27 = "rPbMh";
+    t27.__proto__ = "replace";
+} catch(e30) {
+}

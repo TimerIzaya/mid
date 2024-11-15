@@ -1,0 +1,42 @@
+try {
+    new Int8Array(2);
+} catch(e3) {
+}
+try {
+    new Float32Array(3);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3331);
+} catch(e11) {
+}
+const v12 = /.ab|c^?/gsu;
+const v13 = /\p{Nd}?/vm;
+const v14 = /G\x01/gdum;
+function f15(a16, a17, a18, a19) {
+    const o24 = {
+        1073741825: Float32Array,
+        n(a21, a22) {
+            try {
+                super[this] = Int8Array;
+            } catch(e23) {
+            }
+            return Float32Array;
+        },
+        8: v12,
+        239: v13,
+        "e": v13,
+    };
+    return o24;
+}
+f15(v14, 3331, 3, 2);
+const v26 = f15(v13, 2, 3331, 3);
+f15(v12, 2, 2, 3331);
+delete v26[3];
+function f32(a33) {
+    return a33;
+}
+class C34 extends f32 {
+    #e;
+    static #f;
+}

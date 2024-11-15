@@ -1,0 +1,47 @@
+let v1 = "valueOf";
+class C3 {
+    constructor(a5) {
+        [this,this,a5];
+        v1.length ||= 3;
+        for (let [v7,v8] of "string") {
+            try {
+                v1.length = a5;
+            } catch(e9) {
+            }
+        }
+    }
+    static #g = "string";
+    #a;
+    static 0 = 3;
+    static #c = v1;
+    8;
+}
+const v10 = new C3(3);
+const v11 = new C3("string");
+const v12 = new C3(v11);
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a15;
+    } catch(e17) {
+    }
+    try {
+        this.g = a15;
+    } catch(e18) {
+    }
+}
+const v19 = new F13(v10, v12);
+const v20 = new F13(v12, v10);
+new F13(v19, v12);
+const v28 = ("getUint32").length;
+[v1] = "name";
+try {
+    "getUint32" & 3;
+} catch(e30) {
+}
+try { v1(); } catch (e) {}
+Object.defineProperty("4294967297", 1000, { writable: true, enumerable: true, value: v28 });
+try {
+    v11 & v20;
+} catch(e33) {
+}

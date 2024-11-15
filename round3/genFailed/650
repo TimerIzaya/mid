@@ -1,0 +1,20 @@
+try {
+    new BigUint64Array(2055);
+} catch(e3) {
+}
+try {
+    new Float32Array(4);
+} catch(e7) {
+}
+try {
+    new Uint32Array(3);
+} catch(e11) {
+}
+try {
+    1703923029n && -65537;
+} catch(e22) {
+}
+%VerifyType(61582n);
+let v23;
+try { v23 = (-1139225916).for(-133092973, 2055, 4, 2055); } catch (e) {}
+v23.__proto__;

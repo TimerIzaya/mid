@@ -1,0 +1,43 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        toString() {
+            const v3 = f0();
+            try {
+                this[f0] = v3;
+            } catch(e4) {
+            }
+            return this;
+        },
+        "g": f0,
+        __proto__: f0,
+    };
+    return o5;
+}
+const v6 = f1();
+let v7 = f1();
+const v8 = f1();
+class C9 extends f0 {
+    o(a11) {
+        const v13 = super[super[v6]];
+        v7[v13] %= v13;
+        return v6;
+    }
+    static [f0] = v6;
+    [v7] = f0;
+    static #c = v6;
+    #b = f0;
+}
+new C9();
+const v15 = new C9();
+new C9();
+new Array(69);
+try {
+    v15.a = f0;
+} catch(e23) {
+}
+try {
+    v7 = v8;
+} catch(e24) {
+}

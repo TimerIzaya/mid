@@ -1,0 +1,68 @@
+function f0() {
+    const o13 = {
+        get b() {
+            let v5 = 0;
+            do {
+                4294967295 instanceof this;
+                v5++;
+            } while (v5 < 4)
+            return this;
+        },
+    };
+    return o13;
+}
+const v14 = f0();
+const v15 = f0();
+const v16 = f0();
+class C17 extends f0 {
+    #e;
+    f;
+    static #g;
+    valueOf(a19) {
+        try {
+            this.#g;
+        } catch(e21) {
+        }
+        a19[Symbol.asyncIterator];
+        return f0;
+    }
+}
+new C17();
+const v26 = new C17();
+const v27 = new C17();
+function f28() {
+    return v14;
+}
+function f29() {
+    return C17;
+}
+function f30(a31, a32, a33, a34) {
+    const o42 = {
+        512: f0,
+        "b": a31,
+        __proto__: a33,
+        "g": v16,
+        [a31](a36, a37, a38, a39) {
+            try {
+                this & this;
+            } catch(e41) {
+            }
+            return a38;
+        },
+        ...v16,
+        2: a33,
+    };
+    return o42;
+}
+let v43 = f30(v26, v26, v14, v26);
+const v44 = f30(C17, C17, v26, v27);
+const v45 = f30(v15, v27, v26, v26);
+try {
+    v43 >>>= v44;
+} catch(e46) {
+}
+try {
+    v45.fuck(f28, v27, v27, 4n);
+} catch(e49) {
+}
+new C17();

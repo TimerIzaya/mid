@@ -1,0 +1,59 @@
+try {
+    new BigUint64Array(9);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(512);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(129);
+} catch(e11) {
+}
+class C12 extends BigUint64Array {
+    2;
+    g = BigInt64Array;
+    static [BigUint64Array] = 512;
+    static [129];
+    static set g(a14) {
+        try {
+            this ^ a14;
+        } catch(e16) {
+        }
+        try {
+            ~9;
+        } catch(e18) {
+        }
+    }
+}
+const v19 = new C12();
+new C12();
+const v21 = new C12();
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 512;
+    } catch(e26) {
+    }
+    try {
+        this.f = a25;
+    } catch(e27) {
+    }
+    try {
+        this.h = 129;
+    } catch(e28) {
+    }
+}
+const v29 = new F22(v19, 129);
+new F22(v19, 129);
+const v31 = new F22(v21, 512);
+const o32 = {
+};
+try {
+    new Proxy(C12, o32);
+} catch(e35) {
+}
+try {
+    v31[536870889] = v29;
+} catch(e36) {
+}

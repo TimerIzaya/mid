@@ -1,0 +1,37 @@
+class C3 {
+    constructor(a5, a6) {
+        for (let v7 = 0; v7 < 80; v7++) {
+            Object.defineProperty("dotAll", this, { configurable: true, enumerable: true, value: 10 });
+        }
+    }
+    h;
+    #b = "dotAll";
+    static h;
+    #a = "dotAll";
+    g = "dotAll";
+}
+const v11 = new C3("dotAll", "string");
+const v12 = new C3(C3, v11);
+const v13 = new C3(v12, 10);
+try {
+    new Uint32Array(14);
+} catch(e17) {
+}
+try {
+    new Int16Array(512);
+} catch(e21) {
+}
+try {
+    new Uint16Array(126);
+} catch(e25) {
+}
+for (let v26 = 0; v26 < 20; v26++) {
+    try {
+        v26 + v26;
+    } catch(e28) {
+    }
+}
+try {
+    C3[v13] = Uint32Array;
+} catch(e32) {
+}

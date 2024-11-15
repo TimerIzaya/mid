@@ -1,0 +1,41 @@
+try {
+    new Uint16Array(101);
+} catch(e3) {
+}
+try {
+    new Uint32Array(129);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(2245);
+} catch(e11) {
+}
+class C12 {
+    static #valueOf(a14, a15, a16) {
+        try {
+            a14[1] = a15;
+        } catch(e17) {
+        }
+        return a14;
+    }
+    constructor(a19, a20) {
+        try { this.getFullYear(); } catch (e) {}
+    }
+}
+new C12(101, 101);
+new C12(129, 101);
+new C12(2245, 101);
+[-2.2250738585072014e-308,-2.0,0.07566981135610695,-537739.2526256961,Infinity];
+[-Infinity,740.47524724762,-5.0,2.2250738585072014e-308,Infinity,-5.294000759380491e+307];
+const v30 = [0.201257083320163,0.5866875999713477,87.44569247284039,1.3808553018312836e+308,736.3081955164298,-1000000000000.0,1e-15,-4.389898615607503,6.374202932113992,-5.0];
+for (let v31 = 0; v31 < 32; v31++) {
+    v30["p" + v31] = v31;
+}
+class C34 extends Uint16Array {
+    static 0 = v30;
+    static d;
+    16;
+}
+new C34();
+new C34();
+new C34();

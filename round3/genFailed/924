@@ -1,0 +1,44 @@
+const v4 = new WeakMap();
+const v7 = new Array(14);
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 14;
+    } catch(e12) {
+    }
+}
+new F8(14, 1667885843);
+new F8(1667885843, 14);
+const v15 = new F8(1667885843, 1667885843);
+function f16(a17, a18) {
+    const o30 = {
+        [v15]: F8,
+        ...v4,
+        "c": Array,
+        "h": WeakMap,
+        n(a20, a21) {
+            return super.g;
+        },
+        valueOf(a24, a25) {
+            let v23 = this;
+            try {
+                v23 = a25;
+            } catch(e26) {
+            }
+            const v28 = Symbol.matchAll;
+            v7[v28];
+            return v28;
+        },
+    };
+    return o30;
+}
+f16(9007199254740990, 537943881);
+f16(537943881, 14);
+f16(14, 1667885843);
+const o37 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o37);
+const v39 = new WeakMap(v15);
+v4[v39] <<= 537943881;

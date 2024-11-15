@@ -1,0 +1,54 @@
+const v1 = new Set();
+try {
+    new Int8Array(12);
+} catch(e5) {
+}
+try {
+    new Int32Array(512);
+} catch(e9) {
+}
+try {
+    new Int32Array(119);
+} catch(e13) {
+}
+function f14(a15, a16) {
+    const o23 = {
+        "f": 12,
+        4294967295: a16,
+        "c": a16,
+        set a(a18) {
+            try {
+                Int32Array + 512;
+            } catch(e20) {
+            }
+            try {
+                this[new.target] = a16;
+            } catch(e22) {
+            }
+        },
+    };
+    return o23;
+}
+f14(512, f14);
+f14(119, Int32Array);
+f14(12, f14);
+try {
+    new BigUint64Array(111);
+} catch(e30) {
+}
+try {
+    new BigInt64Array(7);
+} catch(e34) {
+}
+try {
+    new Uint8ClampedArray(3567);
+} catch(e38) {
+}
+const v40 = v1["entries"]();
+BigUint64Array[9] = 12;
+Object.defineProperty("entries", 2147483649, { get: f14 });
+try { v40("entries", -26158, -26158, -26158); } catch (e) {}
+try {
+    BigUint64Array >>> Int32Array;
+} catch(e46) {
+}

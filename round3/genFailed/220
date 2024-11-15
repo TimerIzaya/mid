@@ -1,0 +1,31 @@
+[];
+const v12 = -Infinity;
+class C13 {
+    e;
+    static ["stack"];
+    12;
+    static #d;
+    static {
+        function f18(a19, a20, a21, a22) {
+            a21.length <<= 2147483647;
+            return v12;
+        }
+        f18(-64456, 4, "stack", 2.2250738585072014e-308);
+    }
+}
+new C13();
+new C13();
+const v29 = new C13();
+("stack")["charAt"](4);
+function f32(a33, a34, a35) {
+    const o36 = {
+        "e": 1000.0,
+        "g": v29,
+        "a": 4,
+        "b": a35,
+    };
+    return o36;
+}
+const v37 = f32(2.2250738585072014e-308, C13, -64456);
+f32(1000.0, v37, 4);
+f32(2.2250738585072014e-308, v37, -3);

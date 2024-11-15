@@ -1,0 +1,34 @@
+class C3 {
+    f = "f";
+    static {
+        function f5() {
+            return this;
+        }
+        this[this] += this <= f5;
+    }
+    ["f"] = "byteLength";
+    e;
+}
+new C3();
+new C3();
+const v9 = new C3();
+const v12 = [C3,v9,"flatMap",[["byteLength",v9],"flatMap"],C3];
+v12["flatMap"](v12, C3);
+const v16 = Symbol.iterator;
+const o25 = {
+    [v16]() {
+        let v18 = 10;
+        const o24 = {
+            next() {
+                v18--;
+                const v22 = v18 == 0;
+                const o23 = {
+                    "done": v22,
+                    "value": v18,
+                };
+                return o23;
+            },
+        };
+        return o24;
+    },
+};

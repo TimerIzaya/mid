@@ -1,0 +1,58 @@
+try {
+    new Uint32Array(127);
+} catch(e3) {
+}
+try {
+    new Uint8Array(456);
+} catch(e7) {
+}
+try {
+    new Int8Array(16);
+} catch(e11) {
+}
+function f18(a19, a20, a21, a22) {
+    const o33 = {
+        "b": a20,
+        "h": 456,
+        get f() {
+            function F24(a26, a27) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = this;
+                } catch(e28) {
+                }
+                try {
+                    this.d = -128;
+                } catch(e29) {
+                }
+            }
+            new F24(a21, -1563673086);
+            new F24(127, -30391);
+            const v32 = new F24(a19, a21);
+            return v32;
+        },
+    };
+    return o33;
+}
+const v34 = f18(16, 536870912, 16, Uint32Array);
+f18(-30391, v34, 4, -128);
+const v36 = f18(-30391, -30391, 4, 127);
+for (let v37 = 0; v37 < 100; v37++) {
+    f18(-30391, v36, -30391, 536870912);
+}
+delete v34[536870912];
+/lq\p{Script_Extensions=Greek}/gisdum;
+/k(?=)*/yidu;
+/9xyz??/iu;
+const v48 = +-1563673086;
+try {
+    Math.atan2(8, v48);
+} catch(e50) {
+}
+try {
+    Math.acosh(1000000.0);
+} catch(e52) {
+}
+1000000.0 % -7104;
+1000000.0 % -1563673086;
+-1563673086 << -1563673086;

@@ -1,0 +1,45 @@
+function f0() {
+    const o12 = {
+        127: -47.305260228198904,
+        ["p"]: -6.641909481098981e+307,
+        10000: -47.305260228198904,
+        ..."p",
+        o(a5) {
+            /((\xed\xa0\x80))\x02\P{scx=Greek}K?/yidum;
+            /0Ea+/ysu;
+            /\xf0\x9f\x92\xa9/isdm;
+            return 43506;
+        },
+        ..."p",
+    };
+    return o12;
+}
+const v13 = f0();
+f0();
+f0();
+try {
+    new Int8Array(1000);
+} catch(e25) {
+}
+try {
+    new Uint16Array(1024);
+} catch(e29) {
+}
+try {
+    new Float64Array(16);
+} catch(e33) {
+}
+for (const v35 of v13.c) {
+    try {
+        new Float64Array(1024);
+    } catch(e39) {
+    }
+    try {
+        new Uint8Array(512);
+    } catch(e43) {
+    }
+    try {
+        new Int8Array(256);
+    } catch(e47) {
+    }
+}

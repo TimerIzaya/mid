@@ -1,0 +1,45 @@
+try {
+    new BigUint64Array(1385);
+} catch(e3) {
+}
+try {
+    new Int32Array(3);
+} catch(e7) {
+}
+try {
+    new Int32Array(2785);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    static [1385] = 3;
+    #n(a14, a15) {
+        try {
+            this[a15] = this;
+        } catch(e16) {
+        }
+        return 3;
+    }
+    set h(a18) {
+        try {
+            this[119] = this;
+        } catch(e19) {
+        }
+    }
+}
+new C12();
+new C12();
+const v22 = new C12();
+[65537,13];
+[-53006,16,2147483647,-2147483648,536870889,0,-9223372036854775808,4294967297,4,711182924];
+const v28 = [-2,0,268435440,-2147483647,4096,-4294967296,-4294967296,-4294967295];
+for (let v29 = 0; v29 < 83; v29++) {
+    let v30;
+    try { v30 = Int32Array(v29, v29, v29); } catch (e) {}
+    for (let v31 = 0; v31 < 32; v31++) {
+        v30["p" + v31] = v31;
+    }
+}
+try {
+    v22.findLastIndex(Int32Array, v28);
+} catch(e35) {
+}

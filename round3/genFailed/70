@@ -1,0 +1,31 @@
+try {
+    new BigUint64Array(256);
+} catch(e3) {
+}
+try {
+    new Int8Array(4);
+} catch(e7) {
+}
+try {
+    new Uint8Array(0);
+} catch(e11) {
+}
+class C15 extends Int8Array {
+    constructor(a17, a18, a19) {
+        super(a19, 4, -54471);
+        this instanceof a17;
+        delete a17?.c;
+        const v22 = super[a19];
+        for (let v23 = 0; v23 < 32; v23++) {
+            v22["p" + v23] = v23;
+        }
+    }
+}
+const v26 = new C15(0, -7523605, 4);
+new C15(256, v26, -54471);
+const v28 = new C15(256, BigUint64Array, -7523605);
+try {
+    v26[256];
+} catch(e33) {
+    v28[-2];
+}

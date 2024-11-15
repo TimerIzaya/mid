@@ -1,0 +1,73 @@
+let v0 = /(\1a)[^R[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf](a\1)]+/isdu;
+const v1 = /(?=)/gyvm;
+const v2 = /[\xe2\x81\xa3]o/g;
+class C3 {
+    static #o(a5) {
+        let v6;
+        try { v6 = v1.exec(a5); } catch (e) {}
+        return v6;
+    }
+    get e() {
+        let v10 = this;
+        try {
+            v10++;
+        } catch(e12) {
+        }
+        return v1;
+    }
+    static [v2] = v2;
+}
+new C3();
+new C3();
+new C3();
+class C16 extends C3 {
+    static set e(a18) {
+        try {
+            this % this;
+        } catch(e20) {
+        }
+    }
+    #e;
+    valueOf(a22, a23, a24, a25) {
+        const v29 = v0 & v0;
+        const v30 = v0 >> v0;
+        try {
+            Math.acos(v29);
+        } catch(e32) {
+        }
+        v0--;
+        try {
+            Math.log1p(v29);
+        } catch(e35) {
+        }
+        return v30;
+    }
+}
+new C16();
+new C16();
+new C16();
+try {
+    new Float32Array(128);
+} catch(e42) {
+}
+try {
+    new Int8Array(365);
+} catch(e46) {
+}
+try {
+    new Uint32Array(8);
+} catch(e50) {
+}
+C3.g;
+try {
+    new Int32Array(9);
+} catch(e55) {
+}
+try {
+    new Int16Array(2);
+} catch(e59) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e63) {
+}

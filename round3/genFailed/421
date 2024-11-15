@@ -1,0 +1,39 @@
+function f0() {
+    const o12 = {
+        set g(a5) {
+            let v6;
+            try { v6 = a5(-40781.716870713164, 65536, a5, this); } catch (e) {}
+            try {
+                v6 = this;
+            } catch(e7) {
+            }
+            let v8;
+            try { v8 = a5.valueOf(); } catch (e) {}
+            v8[Symbol.hasInstance];
+        },
+        "d": 65536,
+        "b": 1e-15,
+        "g": 65536,
+    };
+    return o12;
+}
+f0();
+const v14 = f0();
+const v15 = f0();
+try {
+    new Uint8ClampedArray(1000);
+} catch(e19) {
+}
+try {
+    new Int8Array(16);
+} catch(e23) {
+}
+try {
+    new Int32Array(255);
+} catch(e27) {
+}
+255 != 1000;
+const v39 = v14.__proto__;
+v15.__proto__;
+%VerifyType(Int8Array);
+Reflect.construct(v39, [], f0);

@@ -1,0 +1,80 @@
+const v0 = /wJ8/gisvm;
+const v1 = /(ab)O\p{Changes_When_NFKC_Casefolded}+/gidu;
+let v2 = /(?:a*)*a{0,1}?(\P{Decimal_Number}1((?:a*)+))?/du;
+function f3(a4, a5) {
+    const o12 = {
+        ...v0,
+        __proto__: a4,
+        3617374332: v1,
+        m(a7) {
+            Reflect.construct(a5, [v1,Reflect,a7,Reflect], a5);
+            try {
+                v2 &= v2;
+            } catch(e11) {
+            }
+            return this;
+        },
+    };
+    return o12;
+}
+let v13 = f3(v2, v1);
+const v14 = f3(v2, v13);
+const v15 = f3(v2, v1);
+class C16 extends f3 {
+    constructor(a18, a19, a20, a21) {
+        super(a18, v0);
+        try {
+            a21 <= a20 ? a21 : a20;
+        } catch(e24) {
+        }
+    }
+    g;
+    [f3];
+    e;
+    [v15] = v2;
+}
+const v25 = new C16(v0, C16, v2, C16);
+const v26 = new C16(C16, v14, C16, v25);
+const v27 = new C16(v26, v14, v26, v15);
+class C28 {
+    constructor(a30, a31, a32) {
+        try {
+            a30[4075] = this;
+        } catch(e33) {
+        }
+    }
+    #o(a35, a36, a37) {
+        try { v27.m(v26, v2, a35, this, a35); } catch (e) {}
+        10 && 10;
+        v13++;
+        try {
+            Math.max(1000);
+        } catch(e46) {
+        }
+        try {
+            Math.cosh(1000);
+        } catch(e48) {
+        }
+        ~a37;
+        try {
+            Math.exp(NaN);
+        } catch(e51) {
+        }
+        return a36;
+    }
+}
+new C28(v26, v26, v2);
+const v53 = new C28(v26, v25, v15);
+new C28(v53, v53, v25);
+try {
+    new BigInt64Array(5);
+} catch(e59) {
+}
+try {
+    new Float64Array(82);
+} catch(e63) {
+}
+try {
+    new Int16Array(4096);
+} catch(e67) {
+}

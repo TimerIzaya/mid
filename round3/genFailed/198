@@ -1,0 +1,63 @@
+try {
+    new Uint8Array(255);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(127);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(256);
+} catch(e11) {
+}
+class C12 extends BigUint64Array {
+    static #toString(a14, a15, a16, a17) {
+        try {
+            super.e = BigInt64Array;
+        } catch(e18) {
+        }
+        return -3.0;
+    }
+    static #e = 256;
+    static a = Uint8Array;
+    static [BigInt64Array] = 127;
+    [127];
+}
+new C12();
+const v23 = new C12();
+const v24 = new C12();
+const v25 = [Uint8Array];
+const v27 = [[v25,BigInt64Array,Uint8Array,127],256,v24,v24];
+function f28(a29, a30) {
+    const o34 = {
+        ...v23,
+        "a": a30,
+        "h": a30,
+        "b": v25,
+        "g": a29,
+        __proto__: v24,
+        "f": v23,
+        get e() {
+            const v32 = this.h;
+            this.h ||= v32;
+            try {
+                C12[257] = this;
+            } catch(e33) {
+            }
+            return v32;
+        },
+    };
+    return o34;
+}
+f28(256, 256);
+f28(v23, 255);
+f28(f28, 127);
+function f41(a42, a43) {
+    'use strict';
+    if (a43 == a42) {
+    } else {
+        let {"c":v48,"f":v49,...v50} = a42;
+    }
+    return -13n;
+}
+f41(v27, -13n);

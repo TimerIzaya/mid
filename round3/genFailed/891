@@ -1,0 +1,62 @@
+try {
+    new Int32Array(4);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(130);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(3499);
+} catch(e11) {
+}
+function f12() {
+    return 3499;
+}
+class C16 extends Int32Array {
+    static [130];
+    toString(a18, a19, a20) {
+        this[1767];
+        f12();
+        %PrepareFunctionForOptimization(f12);
+        f12();
+        f12();
+        %OptimizeFunctionOnNextCall(f12);
+        f12();
+        return Int32Array;
+    }
+    [-4.026279020304688] = f12;
+    static #a;
+    static [Int32Array] = Uint8ClampedArray;
+    d;
+}
+new C16();
+new C16();
+new C16();
+try {
+    new BigUint64Array(845);
+} catch(e32) {
+}
+try {
+    new Int32Array(4);
+} catch(e36) {
+}
+try {
+    new Uint8Array(1);
+} catch(e40) {
+}
+const v41 = delete C16?.a;
+try {
+    try { v41(C16, Int32Array, f12); } catch (e) {}
+    try { C16.setUTCFullYear(); } catch (e) {}
+} catch(e44) {
+    const v47 = 648785802 / 648785802;
+    Uint8ClampedArray >>> v47;
+    const v49 = -v47;
+    !v47;
+    v49 << Uint8ClampedArray;
+    try {
+        Math.asinh(v49);
+    } catch(e53) {
+    }
+}

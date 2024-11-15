@@ -1,0 +1,53 @@
+const v7 = new WeakMap();
+function f8() {
+    return v7;
+}
+const v9 = -Infinity;
+class C12 {
+    static c = -2.2250738585072014e-308;
+    #n(a14, a15, a16, a17) {
+        with (this) {
+            const v20 = Symbol.iterator;
+            const o29 = {
+                [v20]() {
+                    let v22 = 10;
+                    const o28 = {
+                        next() {
+                            v22--;
+                            const v26 = v22 == 0;
+                            const o27 = {
+                                "done": v26,
+                                "value": v22,
+                            };
+                            return o27;
+                        },
+                    };
+                    return o28;
+                },
+            };
+        }
+        return a15;
+    }
+}
+new C12();
+new C12();
+const v32 = new C12();
+let v33 = C12[v32];
+try {
+    --v33;
+} catch(e35) {
+}
+WeakMap[0] = v9;
+const o36 = {
+    "construct": f8,
+    "get": f8,
+    "getOwnPropertyDescriptor": f8,
+    "getPrototypeOf": f8,
+    "has": f8,
+    "preventExtensions": f8,
+    "set": f8,
+};
+try {
+    new Proxy(C12, o36);
+} catch(e39) {
+}

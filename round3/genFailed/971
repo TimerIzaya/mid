@@ -1,0 +1,72 @@
+try {
+    new Float32Array(8);
+} catch(e3) {
+}
+try {
+    new Uint32Array(25);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(13);
+} catch(e11) {
+}
+class C12 extends Uint8ClampedArray {
+    constructor(a14, a15, a16) {
+        super(13);
+        let v17;
+        try {
+        const t0 = 8;
+        v17 = t0(13, 13, this);
+        } catch (e) {}
+        try {
+            v17 = 13;
+        } catch(e18) {
+        }
+        try {
+            this.__proto__ = this;
+        } catch(e19) {
+        }
+    }
+    #h;
+    [25];
+}
+new C12(13, 25, 25);
+new C12(8, 25, 13);
+new C12(25, 8, 8);
+class C23 {
+    static get h() {
+        let v24 = this;
+        try {
+            C12[v24] = C12;
+        } catch(e25) {
+        }
+        const v29 = Uint32Array & C12;
+        try {
+            Math.cosh(Uint32Array);
+        } catch(e31) {
+        }
+        try {
+            Math.trunc(536870912);
+        } catch(e33) {
+        }
+        v24--;
+        const v35 = C12 | v29;
+        const v36 = !v35;
+        try {
+            Math.hypot(v35);
+        } catch(e38) {
+        }
+        return v36;
+    }
+}
+new C23();
+new C23();
+const v41 = new C23();
+v41[10000] &= 8;
+for (let i43 = 0; i43 < 8; i43++) {
+    const o52 = {
+        "execution": "async",
+        "type": "major",
+    };
+    gc(o52);
+}

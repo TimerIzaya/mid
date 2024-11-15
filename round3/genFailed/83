@@ -1,0 +1,52 @@
+new WeakSet();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a7;
+    } catch(e8) {
+    }
+    try {
+        this.d = -2147483648;
+    } catch(e9) {
+    }
+}
+const v10 = new F5(-2147483648);
+const v11 = new F5(14);
+new F5(2147483649);
+function f13() {
+    return v10;
+}
+function f14() {
+    return WeakSet;
+}
+class C18 extends f14 {
+    #c;
+    0 = v11;
+    o(a20, a21, a22) {
+        try {
+            a22 >> a21;
+        } catch(e24) {
+        }
+        return F5;
+    }
+    static #o(a26, a27, a28, a29) {
+        super.h;
+        try {
+            v10.#c;
+        } catch(e32) {
+        }
+        return a27;
+    }
+}
+new C18();
+new C18();
+const v35 = new C18();
+try {
+    255n >>> v35;
+} catch(e37) {
+}
+const o41 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o41);

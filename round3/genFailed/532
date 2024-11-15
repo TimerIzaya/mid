@@ -1,0 +1,48 @@
+let v1 = "bigint";
+class C3 {
+    static [1.0];
+    constructor(a5, a6) {
+        let v4 = this;
+        try {
+            super.b = 9.768257686933241e+307;
+        } catch(e7) {
+        }
+        ({"b":v1,"e":v4,"g":v4,...a5} = a6);
+    }
+    static #e = 9.768257686933241e+307;
+    static #b = 9.768257686933241e+307;
+    static a;
+    5921161;
+}
+const v8 = new C3(1.0, v1);
+const v9 = new C3(C3, v1);
+const v10 = new C3(v9, 1.0);
+class C11 extends C3 {
+    static b = v8;
+    constructor(a13, a14) {
+        super(a13, a14);
+        try { new a14(v9, this, ...v1, v1, a14, v9); } catch (e) {}
+    }
+    static [v9] = 1.0;
+    #e = v8;
+    toString(a17, a18) {
+        try {
+            v9.length = 9;
+        } catch(e20) {
+        }
+        return 1.0;
+    }
+}
+const v21 = new C11(v10, v1);
+const v22 = new C11(v21, C11);
+const v23 = new C11(C3, v22);
+try { new v1(v9, 177411074n, 177411074n, v23); } catch (e) {}
+const v28 = C3;
+for (let v29 = 0; v29 < 32; v29++) {
+    C11["p" + v29] = v29;
+}
+const o35 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o35);

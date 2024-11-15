@@ -1,0 +1,54 @@
+const v1 = new WeakMap();
+function f2(a3) {
+    const o4 = {
+        [a3]: WeakMap,
+        "b": WeakMap,
+        "h": a3,
+        "e": a3,
+        __proto__: a3,
+        ...a3,
+        "c": a3,
+        "g": WeakMap,
+        "a": v1,
+        [WeakMap]: WeakMap,
+        [v1]: v1,
+    };
+    return o4;
+}
+const v5 = f2(f2);
+const v6 = f2(v5);
+f2(v5);
+class C8 extends WeakMap {
+    static m(a10, a11, a12, a13) {
+        try {
+            f2(a11);
+        } catch(e15) {
+        }
+        try {
+            v6[4294967295] = this;
+        } catch(e16) {
+        }
+        return a11;
+    }
+}
+const v17 = new C8();
+new C8();
+new C8();
+function f20() {
+    return v17;
+}
+try {
+    -v5;
+} catch(e22) {
+}
+const v26 = v1 ** v1;
+try {
+    Math.asin(65535);
+} catch(e28) {
+}
+try {
+    Math.clz32(65535);
+} catch(e30) {
+}
+0.21499451890686494 >>> v26;
+0.21499451890686494 ** 0.21499451890686494;

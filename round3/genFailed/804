@@ -1,0 +1,34 @@
+let v1 = -1;
+class C3 {
+    constructor(a5) {
+        for (let i8 = 0, i9 = 10; i8 < i9; i8++, i9--) {
+            try {
+                super.o();
+            } catch(e18) {
+            }
+        }
+    }
+}
+new C3(v1);
+new C3(5);
+const v21 = new C3(v1);
+try {
+    new Uint8ClampedArray(253);
+} catch(e25) {
+}
+try {
+    new Uint16Array(512);
+} catch(e29) {
+}
+try {
+    new Uint8ClampedArray(3152);
+} catch(e33) {
+}
+try {
+    v1 = 512;
+} catch(e40) {
+}
+try {
+    v21.fuck(-1n, -1n, /[\cZ]Z[4Q\1\2(a(?:\1(b\1\2))\2)\1]+/um, "-1024");
+} catch(e45) {
+}

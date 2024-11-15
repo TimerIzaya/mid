@@ -1,0 +1,75 @@
+const v1 = new WeakMap();
+try {
+    new BigUint64Array(5);
+} catch(e5) {
+}
+try {
+    new Float64Array(512);
+} catch(e9) {
+}
+try {
+    new Uint8Array(10);
+} catch(e13) {
+}
+function f14(a15, a16) {
+    const o24 = {
+        "g": 5,
+        "d": Float64Array,
+        __proto__: v1,
+        "c": a15,
+        "e": BigUint64Array,
+        "a": a16,
+        [BigUint64Array](a18, a19) {
+            class C20 {
+                static #b = 5;
+                static #a = Uint8Array;
+            }
+            new C20();
+            new C20();
+            new C20();
+            return 10;
+        },
+    };
+    return o24;
+}
+const v25 = f14(10, BigUint64Array);
+f14(5, v25);
+f14(512, 512);
+let v30 = "toString";
+if ("constructor" !== 10) {
+    Object.defineProperty("object", "f", { value: v25 });
+    const o32 = {
+    };
+    try {
+        o32.g = "constructor";
+    } catch(e33) {
+    }
+    try {
+        const o34 = {
+        };
+        o34.g = "constructor";
+        o34.d = Uint8Array;
+    } catch(e35) {
+    }
+    try {
+        const o36 = {
+        };
+        o36.g = "constructor";
+        o36.d = Uint8Array;
+        o36.b = BigUint64Array;
+    } catch(e37) {
+    }
+    try {
+        const o38 = {
+        };
+        o38.g = "constructor";
+        o38.d = Uint8Array;
+        o38.h = 512;
+    } catch(e39) {
+    }
+} else {
+    try {
+        v30 = "object";
+    } catch(e40) {
+    }
+}

@@ -1,0 +1,53 @@
+function f0() {
+}
+function f1() {
+    const o7 = {
+        ...f0,
+        "g": f0,
+        "d": f0,
+        valueOf() {
+            for (const v3 of f0) {
+            }
+            return this;
+        },
+        ...f0,
+    };
+    return o7;
+}
+f1();
+const v9 = f1();
+const v10 = f1();
+function f11() {
+    return v10;
+}
+class C15 {
+    static toString(a17, a18) {
+        v10.d += 723455038;
+        try {
+            a18.__proto__ = a18;
+        } catch(e20) {
+        }
+        return -2050888828;
+    }
+    static 8 = v9;
+    h = f1;
+    g = v10;
+}
+const v21 = new C15();
+new C15();
+new C15();
+Object.defineProperty("jmG9Z", "g", { enumerable: true, set: f11 });
+try {
+    C15 = v21;
+} catch(e27) {
+}
+const v31 = 52984 << "V";
+try {
+    Math.acos("V");
+} catch(e33) {
+}
+try {
+    Math.acos(v31);
+} catch(e35) {
+}
+!1.5863097567493617e+308;

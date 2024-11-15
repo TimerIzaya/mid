@@ -1,0 +1,41 @@
+function f0() {
+}
+const v1 = [9.875681557457657];
+const v2 = [4.088282030097369e+305,-6.867876934062882,1.7976931348623157e+308,-5.0,0.0,Infinity,1000000.0,-1.2050955857815424,1000000000000.0,-9.463581405846993];
+[3.0,0.003183620653115171,1000000.0,2.220446049250313e-16,4.0,337774.8520819037,-2.220446049250313e-16];
+class C7 {
+    constructor(a9, a10) {
+        try { a10(); } catch (e) {}
+        g = v2;
+        const v13 = Symbol.iterator;
+        const o22 = {
+            [v13]() {
+                let v15 = 10;
+                const o21 = {
+                    next() {
+                        v15--;
+                        const v19 = v15 == 0;
+                        const o20 = {
+                            "done": v19,
+                            "value": v15,
+                        };
+                        return o20;
+                    },
+                };
+                return o21;
+            },
+        };
+    }
+}
+const v23 = new C7(v1, -2147483648);
+new C7(v23, v23);
+new C7(v1, v2);
+f0();
+const o29 = {
+    "maxByteLength": 257,
+};
+const v31 = new SharedArrayBuffer(1, o29);
+try {
+    new Int8Array(v31);
+} catch(e34) {
+}

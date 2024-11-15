@@ -1,0 +1,40 @@
+try {
+    new Float32Array(16);
+} catch(e3) {
+}
+try {
+    new Int8Array(5);
+} catch(e7) {
+}
+let v8 = 3;
+try {
+    new Int8Array(v8);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o23 = {
+        __proto__: a14,
+        255: v8,
+        [Int8Array](a18, a19, a20, a21) {
+            try {
+                v8 /= a15;
+            } catch(e22) {
+            }
+            return 16;
+        },
+        142: 5,
+        "e": a16,
+        [a13]: a16,
+        "a": Float32Array,
+        [a14]: a14,
+    };
+    return o23;
+}
+f12(v8, f12(16, v8, 5, v8), 16, v8);
+f12(16, Int8Array, 5, 16);
+-Float32Array;
+const v38 = 65537 << 46000n;
+try {
+    Math.cbrt(v38);
+} catch(e40) {
+}

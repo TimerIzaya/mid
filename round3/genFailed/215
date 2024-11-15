@@ -1,0 +1,57 @@
+function f0() {
+}
+const v1 = [f0,f0];
+const v2 = [v1,v1,v1];
+const v3 = [v2,v2,v1];
+try {
+    new BigUint64Array(2447);
+} catch(e7) {
+}
+try {
+    new Int16Array(1000);
+} catch(e11) {
+}
+try {
+    new Float32Array(255);
+} catch(e15) {
+}
+class C16 extends BigUint64Array {
+    set c(a18) {
+        try {
+            f0();
+        } catch(e20) {
+        }
+    }
+    static {
+        try {
+            this.c = this;
+        } catch(e22) {
+        }
+    }
+    static #g;
+    a = v3;
+    5;
+}
+new C16();
+new C16();
+new C16();
+try {
+    new Uint8ClampedArray(9);
+} catch(e29) {
+}
+try {
+    new Float32Array(884);
+} catch(e33) {
+}
+try {
+    new BigInt64Array(993);
+} catch(e37) {
+}
+const o40 = {
+    "maxByteLength": 1073741824,
+};
+const v42 = new ArrayBuffer(2359, o40);
+try {
+    new Uint8ClampedArray(v42);
+} catch(e45) {
+}

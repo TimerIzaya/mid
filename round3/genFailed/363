@@ -1,0 +1,78 @@
+function f0() {
+    const o26 = {
+        "g": "p",
+        valueOf(a5, a6) {
+            try {
+                super[this] = this;
+            } catch(e7) {
+            }
+            return "p";
+        },
+        set b(a9) {
+            [this,a9,1000000.0];
+            ["p"];
+            [a9,a9];
+            let v14 = 975152525;
+            let v16 = --v14;
+            try {
+                Math.sign(-2.220446049250313e-16);
+            } catch(e18) {
+            }
+            (-2.220446049250313e-16) ** v16;
+            --v16;
+            --v16;
+            try {
+                Math.atanh(this);
+            } catch(e23) {
+            }
+            try {
+                Math.random();
+            } catch(e25) {
+            }
+        },
+    };
+    return o26;
+}
+const v27 = f0();
+const v28 = f0();
+const v29 = f0();
+try {
+    new Uint8ClampedArray(129);
+} catch(e33) {
+}
+try {
+    new Float64Array(2091);
+} catch(e37) {
+}
+try {
+    new Float32Array(2);
+} catch(e41) {
+}
+class C42 extends f0 {
+    [Uint8ClampedArray];
+    static a = v28;
+    #a;
+    set e(a44) {
+        this[3] = a44;
+        try {
+            a44.valueOf = a44;
+        } catch(e45) {
+        }
+    }
+    [Float32Array];
+    9;
+    [2] = v29;
+}
+new C42();
+new C42();
+const v48 = new C42();
+try {
+    C42[2091] = v27;
+} catch(e49) {
+}
+for (let [v50] of v28) {
+    try {
+        v29 / v48;
+    } catch(e52) {
+    }
+}

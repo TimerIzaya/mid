@@ -1,0 +1,50 @@
+try {
+    new Float64Array(3150);
+} catch(e3) {
+}
+try {
+    new Float32Array(878);
+} catch(e7) {
+}
+try {
+    new Float64Array(1000);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(142);
+} catch(e15) {
+}
+try {
+    new Float32Array(12);
+} catch(e19) {
+}
+try {
+    new Float64Array(4096);
+} catch(e23) {
+}
+try {
+    +4096;
+} catch(e25) {
+}
+class C26 extends Float32Array {
+    constructor(a28, a29) {
+        super(a28, 12, a28);
+        const t31 = 1000;
+        t31[8] = 1000;
+        try {
+            new Uint32Array(64);
+        } catch(e33) {
+        }
+        try {
+            new Uint16Array(199);
+        } catch(e37) {
+        }
+        try {
+            new Float64Array(348);
+        } catch(e41) {
+        }
+    }
+}
+new C26(4096, 3150);
+new C26(878, 3150);
+new C26(4096, 142);

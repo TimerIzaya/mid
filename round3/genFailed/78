@@ -1,0 +1,23 @@
+const v5 = new Array(219);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 3;
+    } catch(e13) {
+    }
+}
+const v14 = new F9(53434n, 219);
+const v15 = new F9(4294967297n, 219);
+const v16 = new F9(9007199254740992n, -3);
+for (let [v18] of v5) {
+    function F19(a21, a22, a23, a24) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.a = a24;
+        } catch(e25) {
+        }
+    }
+    new F19(4294967297n, v15, v14, v18);
+    new F19(53434n, v18, v18, v14);
+    new F19(9007199254740992n, v16, v18, v18);
+}

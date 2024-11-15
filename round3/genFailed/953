@@ -1,0 +1,82 @@
+try {
+    new Float32Array(8);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(884);
+} catch(e7) {
+}
+try {
+    new Uint16Array(177);
+} catch(e11) {
+}
+class C12 {
+    #p(a14, a15) {
+        try {
+            this[a14] = a14;
+        } catch(e16) {
+        }
+        return 8;
+    }
+    static #c = 884;
+    static [BigUint64Array];
+    static m(a18, a19, a20) {
+        let v21 = 0;
+        do {
+            v21++;
+        } while (v21 < 4)
+        return a18;
+    }
+}
+new C12();
+const v29 = new C12();
+const v30 = new C12();
+class C31 extends Float32Array {
+    static #c = v30;
+    static {
+        try {
+            v29.toString = 177;
+        } catch(e33) {
+        }
+        try {
+            this.fuck(/VLd}(?<a>.)*/gysd, v29);
+        } catch(e36) {
+        }
+    }
+    static e = v29;
+    a = 8;
+    [BigUint64Array];
+}
+const v37 = new C31();
+const v38 = new C31();
+const v39 = new C31();
+function f40(a41, a42) {
+    const o49 = {
+        set c(a44) {
+            try {
+                v29 / a44;
+            } catch(e46) {
+            }
+            %VerifyType(this);
+            super.a;
+            super.b;
+        },
+        __proto__: a41,
+        2: v29,
+        [Uint16Array]: a42,
+        536870888: BigUint64Array,
+        [a41]: v37,
+        "b": BigUint64Array,
+    };
+    return o49;
+}
+const v50 = f40(v39, 884);
+const v51 = f40(v38, 8);
+f40(v37, 884);
+for (let v53 = 0; v53 < 32; v53++) {
+    v29["p" + v53] = v53;
+}
+try { C31["p"](v38); } catch (e) {}
+v50.c;
+C31[v51];
+try { v50["toString"](v37, v30); } catch (e) {}

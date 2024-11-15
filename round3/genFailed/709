@@ -1,0 +1,48 @@
+function f3(a4, a5) {
+    const o22 = {
+        "d": a5,
+        "a": 4.0,
+        [a5]: 4.0,
+        4: -1.7976931348623157e+308,
+        __proto__: 4.0,
+        "h": a4,
+        m(a7) {
+            const v9 = this[a7]?.[-1.7976931348623157e+308];
+            try {
+                a7 = a4;
+            } catch(e10) {
+            }
+            function F11(a13, a14, a15, a16) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = a15;
+                } catch(e17) {
+                }
+                try {
+                    this.e = a13;
+                } catch(e18) {
+                }
+            }
+            const v19 = new F11(v9, 4.0, 4.0, -1.7976931348623157e+308);
+            new F11(v19, -1.7976931348623157e+308, a4, a4);
+            const v21 = new F11(F11, a4, a5, -1.7976931348623157e+308);
+            return v21;
+        },
+    };
+    return o22;
+}
+f3(4.0, NaN);
+const v24 = f3(4.0, 4.0);
+let v25 = f3(-1.7976931348623157e+308, 4.0);
+/(a\W)/yisv;
+let v33 = /[^hWfoo(?<!bar)baz]/gisdvm;
+/a\ScCj+/yvm;
+try {
+    v25 |= v25;
+} catch(e36) {
+}
+const v38 = v24["m"](65537n, "m", v25, f3);
+try {
+    v33 = v38;
+} catch(e39) {
+}

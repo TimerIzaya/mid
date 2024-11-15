@@ -1,0 +1,61 @@
+const v0 = [63425,8,256,-1,4294967297];
+const v1 = [7,-37580];
+const v2 = [-1073741824,823609506,10];
+function f3() {
+    return v2;
+}
+function f4(a5, a6) {
+    const o11 = {
+        ...a6,
+        [v2]: v2,
+        [a5]: v0,
+        "c": a5,
+        [v1]: a5,
+        "d": a6,
+        "b": v2,
+        "g": a6,
+        "h": v2,
+        get e() {
+            this[7];
+            try {
+                f3();
+            } catch(e10) {
+            }
+            return f3;
+        },
+    };
+    return o11;
+}
+f4(v0, v1);
+const v13 = f4(v0, v0);
+const v14 = f4(v1, v0);
+class C15 extends f3 {
+    set b(a17) {
+        super.findLast(f3, v1);
+        Object.defineProperty(v13, 64, { enumerable: true, get: f3, set: f3 });
+    }
+    static [f3] = v13;
+    #e;
+    constructor(a20, a21, a22) {
+        super();
+        [this,v14];
+        const v24 = [this,f3];
+        const v25 = [a21,v24,v1,v24,v24];
+        try {
+            super[v25] = f4;
+        } catch(e26) {
+        }
+    }
+}
+new C15(v0, v14, v14);
+new C15(v1, v13, v14);
+new C15(v0, v13, v13);
+try {
+    v0.length = 9007199254740990;
+} catch(e33) {
+}
+let v34 = 0;
+do {
+    C15.h *= 9;
+    v34++;
+} while (v34 < 7)

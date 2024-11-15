@@ -1,0 +1,55 @@
+function f0() {
+}
+class C1 {
+    o() {
+        this[268435456];
+        const o4 = {
+            "call": f0,
+            "deleteProperty": f0,
+            "get": f0,
+            "getOwnPropertyDescriptor": f0,
+            "getPrototypeOf": f0,
+            "isExtensible": f0,
+            "ownKeys": f0,
+            "preventExtensions": f0,
+            "set": f0,
+        };
+        try {
+            new Proxy(this, o4);
+        } catch(e7) {
+        }
+        return this;
+    }
+}
+const v8 = new C1();
+new C1();
+const v10 = new C1();
+[313.26782293642736,0.0,-0.4204327441221345];
+const v12 = [0.2106092466736159,Infinity,-1000000.0,3.0,-1e-15,894973.0365067762];
+const v13 = [-6.256890347544604e+306];
+class C14 {
+    #m(a16, a17, a18, a19) {
+        try {
+            v10[5] = v8;
+        } catch(e20) {
+        }
+        return C1;
+    }
+    [v8] = v13;
+    static g = v12;
+    static #a = v13;
+    d;
+}
+const v21 = new C14();
+const v22 = new C14();
+const v23 = new C14();
+for (let [v24] of v13) {
+    try { v22.toString(v23, v24, v21, v24, v24); } catch (e) {}
+    const v29 = v24 & 4.375020847783976;
+    try {
+        Math.fround(v24);
+    } catch(e31) {
+    }
+    v29 & 4.375020847783976;
+    v29 + -4096;
+}

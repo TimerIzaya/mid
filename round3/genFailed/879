@@ -1,0 +1,48 @@
+class C3 {
+    get c() {
+        try {
+            new Uint32Array(1);
+        } catch(e8) {
+        }
+        try {
+            new Int16Array(41);
+        } catch(e12) {
+        }
+        try {
+            new BigInt64Array(1792);
+        } catch(e16) {
+        }
+        return Int16Array;
+    }
+}
+const v17 = new C3();
+new C3();
+const v19 = new C3();
+class C23 extends C3 {
+    h = 694.9478704558446;
+    static #p(a25, a26) {
+        super[this];
+        const t23 = -11n;
+        t23[1] = v19;
+        try {
+            super.b = 6n;
+        } catch(e28) {
+        }
+        return -9007199254740992n;
+    }
+    static [1171925781];
+    g = v17;
+}
+const v29 = new C23();
+const v30 = new C23();
+const v31 = new C23();
+for (const v32 of v31) {
+}
+v30.g;
+[512,1675076005,2096133707,58978,-128,4096];
+[8,-10,-51591,268435439,-9007199254740990];
+[-18045991];
+try {
+    v29 || 1000000000000.0;
+} catch(e41) {
+}

@@ -1,0 +1,34 @@
+try {
+    new BigUint64Array(0);
+} catch(e3) {
+}
+try {
+    new Float64Array(35);
+} catch(e7) {
+}
+try {
+    new Uint16Array(1247);
+} catch(e11) {
+}
+try {
+    new Int32Array(1550);
+} catch(e15) {
+}
+let v16 = 856;
+try {
+    new Uint32Array(v16);
+} catch(e19) {
+}
+try {
+    new Uint16Array(12);
+} catch(e23) {
+}
+let v24;
+try { v24 = Uint16Array.n(); } catch (e) {}
+v24[Symbol.search];
+for (let i30 = 0, i31 = 10; i30 < i31; i30++, i31--) {
+    try {
+        v16 = i30;
+    } catch(e39) {
+    }
+}

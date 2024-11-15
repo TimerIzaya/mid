@@ -1,0 +1,45 @@
+try {
+    new Float32Array(1634);
+} catch(e3) {
+}
+try {
+    new Int32Array(2);
+} catch(e7) {
+}
+try {
+    new Uint32Array(127);
+} catch(e11) {
+}
+function f12() {
+    return 2;
+}
+class C13 extends Float32Array {
+    b;
+    #f;
+    constructor(a15, a16, a17) {
+        super(1634, a16, 127);
+        this[Symbol.toPrimitive] = a15;
+        Object.defineProperty(this, 3, { configurable: true, get: f12, set: f12 });
+        try {
+            2 % this;
+        } catch(e22) {
+        }
+    }
+}
+const v23 = new C13(f12, 1634, Int32Array);
+const v24 = new C13(127, 1634, 2);
+const v25 = new C13(Uint32Array, 127, v24);
+function F27(a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a31;
+    } catch(e32) {
+    }
+    try {
+        this.f = a30;
+    } catch(e33) {
+    }
+}
+new F27(v23, 2, 127);
+const v35 = new F27(v25, 1634, 1634);
+new F27(v23, 127, v35);

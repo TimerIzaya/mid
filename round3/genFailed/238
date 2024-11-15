@@ -1,0 +1,35 @@
+try {
+    new Uint32Array(64);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e7) {
+}
+try {
+    new Float64Array(7);
+} catch(e11) {
+}
+class C16 {
+    static p(a18, a19) {
+        Object.defineProperty(this, 9, { configurable: true, enumerable: true, value: this });
+        return "a";
+    }
+    static get d() {
+        let v24 = 10;
+        for (; v24--;) {
+            this.__proto__;
+        }
+        return 4;
+    }
+}
+new C16();
+new C16();
+new C16();
+for (const v30 of 7) {
+    const o34 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o34);
+}

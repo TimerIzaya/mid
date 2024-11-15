@@ -1,0 +1,29 @@
+class C3 {
+    get f() {
+        const v5 = 22689n instanceof this;
+        const v6 = super.g;
+        %VerifyType(v5);
+        return v6;
+    }
+    static #valueOf(a8) {
+        try {
+            this.valueOf = 65536n;
+        } catch(e9) {
+        }
+        return this;
+    }
+}
+new C3();
+const v11 = new C3();
+new C3();
+new WeakMap();
+function* f18(a19, a20, a21) {
+    try {
+        a20.fuck(C3, "-7954", /(?:ab)+(?<=a)?/gisdvm);
+    } catch(e25) {
+    }
+    const v26 = [a20,a20];
+    yield* v26;
+    return v26;
+}
+f18(-29777n, v11, 7.903015866140706);

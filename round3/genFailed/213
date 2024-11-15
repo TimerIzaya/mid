@@ -1,0 +1,62 @@
+function f0() {
+    const o11 = {
+        ..."function",
+        [-4.0]: "function",
+        o(a5, a6) {
+            try { new a5(-1000000000.0, a6, this, -4.0, this); } catch (e) {}
+            return a5;
+        },
+        9: -4.0,
+        65537: -4.0,
+        "b": "function",
+        "f": "function",
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+function f15(a16) {
+    const o20 = {
+        [v13]: v13,
+        [a16]: v14,
+        "b": a16,
+        "c": v13,
+        "g": a16,
+        [f0]: f0,
+        "d": a16,
+        "h": a16,
+        set a(a18) {
+            try {
+                super.h = this;
+            } catch(e19) {
+            }
+        },
+    };
+    return o20;
+}
+f15(v14);
+const v22 = f15(v12);
+const v23 = f15(v12);
+try {
+    new Uint16Array(15);
+} catch(e27) {
+}
+try {
+    new BigInt64Array(1302);
+} catch(e31) {
+}
+try {
+    new Float32Array(193);
+} catch(e35) {
+}
+for (const v36 of f15) {
+    try {
+        v22.length = 3667;
+    } catch(e38) {
+    }
+}
+try {
+    v23.fuck("yZZ1t", "yZZ1t");
+} catch(e41) {
+}

@@ -1,0 +1,53 @@
+try {
+    new Uint8ClampedArray(1);
+} catch(e6) {
+}
+try {
+    new Uint16Array(161);
+} catch(e10) {
+}
+try {
+    new Float32Array(257);
+} catch(e14) {
+}
+const v17 = [257,[161,Uint8ClampedArray,Uint8ClampedArray,null],null,161];
+[null,v17,Uint16Array,v17];
+class C19 extends Uint8ClampedArray {
+    65536;
+    get a() {
+        let v21;
+        try {
+        const t0 = 257;
+        v21 = t0(257, this, null);
+        } catch (e) {}
+        function f22() {
+            return this;
+        }
+        try {
+            new Int16Array(3348);
+        } catch(e26) {
+        }
+        try {
+            new Float32Array(132);
+        } catch(e30) {
+        }
+        try {
+            new Uint8ClampedArray(1000);
+        } catch(e34) {
+        }
+        return v21;
+    }
+}
+new C19();
+new C19();
+new C19();
+function f38(a39) {
+    return 161;
+}
+class C40 extends f38 {
+    #a;
+    static [f38];
+    static ["b"];
+    static 4 = 1;
+}
+Reflect.construct(C40, [], C19);

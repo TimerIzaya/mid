@@ -1,0 +1,50 @@
+try {
+    new Uint32Array(16);
+} catch(e3) {
+}
+try {
+    new Int8Array(136);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(1000);
+} catch(e11) {
+}
+try {
+    new Int32Array(122);
+} catch(e15) {
+}
+try {
+    new Int16Array(1719);
+} catch(e19) {
+}
+try {
+    new Uint32Array(2);
+} catch(e23) {
+}
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a27;
+    } catch(e30) {
+    }
+    try {
+        this.c = Uint32Array;
+    } catch(e31) {
+    }
+}
+new F24(1000, 136, 16, F24);
+const v33 = new F24(136, 1719, 16, Int16Array);
+new F24(136, 1719, 2, Int32Array);
+for (let [v35,,v36] of 136) {
+    try {
+        v36 >> 2;
+    } catch(e38) {
+    }
+}
+try {
+    const o41 = {
+    };
+    v33.fuck(2.2250738585072014e-308, "d", Int32Array, o41);
+} catch(e43) {
+}

@@ -1,0 +1,27 @@
+class C6 {
+    toString(a8, a9, a10) {
+        try {
+            const t3 = "ior";
+            t3.toString = this;
+        } catch(e11) {
+        }
+        return -34521;
+    }
+    #c = -2147483649;
+    ["concat"] = -34521;
+    e = -34521;
+}
+new C6();
+new C6();
+const v14 = new C6();
+let v15 = 0;
+do {
+    v14.e <<= 49761;
+    Object.defineProperty("test", 10000, { configurable: true, enumerable: true, value: -2147483649 });
+    const v16 = v14[-2147483649];
+    try {
+        v16[2147483647] = v16;
+    } catch(e17) {
+    }
+    v15++;
+} while (v15 < 6)

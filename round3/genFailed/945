@@ -1,0 +1,29 @@
+try {
+    new BigInt64Array(257);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(10);
+} catch(e10) {
+}
+try {
+    new Float64Array(6);
+} catch(e14) {
+}
+let v21;
+try {
+const t0 = 6;
+v21 = t0(1024, 257, -2.2250738585072014e-308, 78.55173854522377);
+} catch (e) {}
+%VerifyType(-1000000000.0);
+v21.c -= -1000000000.0;
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 10;
+    } catch(e28) {
+    }
+}
+new F22(2.2250738585072014e-308, 78.55173854522377, v21, 0.15875214294710405);
+new F22(4.2753953492850894e+307, v21, 10, 2.2250738585072014e-308);
+new F22(-2.2250738585072014e-308, 78.55173854522377, 257, 0.15875214294710405);

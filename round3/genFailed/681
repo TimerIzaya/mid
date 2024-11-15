@@ -1,0 +1,62 @@
+class C3 {
+    [-3.636976005205364];
+    #valueOf(a5) {
+        try {
+            new Uint32Array(3);
+        } catch(e9) {
+        }
+        try {
+            new Uint8Array(10);
+        } catch(e13) {
+        }
+        try {
+            new Int8Array(6);
+        } catch(e17) {
+        }
+        return -3.636976005205364;
+    }
+}
+new C3();
+const v19 = new C3();
+const v20 = new C3();
+function f21(a22, a23, a24, a25) {
+    const o35 = {
+        215: a25,
+        [a23]: v19,
+        "h": a22,
+        __proto__: C3,
+        [v19]: -3.636976005205364,
+        ...v19,
+        p(a27, a28, a29, a30) {
+            for (let v31 = 0; v31 < 32; v31++) {
+                C3["p" + v31] = v31;
+            }
+            try { a28(-9.982901696976839, a27, a28, a29); } catch (e) {}
+            return a23;
+        },
+    };
+    return o35;
+}
+const v36 = f21(-2.220446049250313e-16, C3, -2.220446049250313e-16, v20);
+f21(-9.982901696976839, v36, -9.982901696976839, v36);
+f21(-3.636976005205364, C3, v36, v19);
+try {
+    new Float64Array(3571);
+} catch(e42) {
+}
+try {
+    new Float64Array(9);
+} catch(e46) {
+}
+try {
+    new Uint8Array(1000);
+} catch(e50) {
+}
+new C3();
+try {
+    Math.cbrt(-7);
+} catch(e57) {
+}
+-9.982901696976839 >>> -9.982901696976839;
+-7 >> -501.5298188930497;
+~-9.982901696976839 && -9.982901696976839;

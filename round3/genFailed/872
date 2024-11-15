@@ -1,0 +1,26 @@
+function f3() {
+    return 2;
+}
+try {
+    new Float32Array(6);
+} catch(e10) {
+}
+let v11 = 4096;
+try {
+    new Uint32Array(v11);
+} catch(e14) {
+}
+try {
+    new Uint32Array(3);
+} catch(e18) {
+}
+try {
+    v11 = 3;
+} catch(e19) {
+}
+const v20 = new Uint32Array(-268435456, -1107919032, 6);
+for (const v21 of v20) {
+    try { v21(v21, v21, v21, v21, v21); } catch (e) {}
+}
+new Float32Array(3, 4294967296, 4294967296);
+v20["indexOf"](6, -1107919032);

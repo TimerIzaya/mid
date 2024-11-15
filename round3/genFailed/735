@@ -1,0 +1,32 @@
+let v1 = -65536n;
+class C3 {
+    #toString(a5, a6) {
+        let v7;
+        try { v7 = a5(-4n, a5, -4n, a6); } catch (e) {}
+        try { this["o"](v7, "o", "o"); } catch (e) {}
+        return v1;
+    }
+    #valueOf(a11) {
+        const v12 = super.g;
+        try {
+            v1 &= v12;
+        } catch(e13) {
+        }
+        super[a11];
+        return this;
+    }
+}
+new C3();
+new C3();
+const v17 = new C3();
+[1073741824,4294967295,2,11,1035107727,-65537,-1073741824,54936,175755172];
+const v22 = [-35366,4294967295,-4096,-268435456];
+[8,-2147483647,128,4294967297,-9007199254740990];
+const v26 = v17[Symbol.replace];
+v17[C3];
+"symbol" instanceof v26;
+const v32 = delete v22?.length;
+try {
+    C3.toString = v32;
+} catch(e33) {
+}

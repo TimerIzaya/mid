@@ -1,0 +1,60 @@
+try {
+    new Uint16Array(16);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(1024);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(146);
+} catch(e11) {
+}
+[146,Uint16Array,BigUint64Array,Uint8ClampedArray];
+[[1024,Uint16Array,Uint16Array],16];
+function F21(a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    a23--;
+    const v26 = (16)?.constructor;
+    v26.caller = v26;
+    try { new v26(this, this); } catch (e) {}
+    a23 | F21;
+    this.b = this;
+    try {
+        this.g = 525;
+    } catch(e29) {
+    }
+    try {
+        this.b = a23;
+    } catch(e30) {
+    }
+    try {
+        this.a = a24;
+    } catch(e31) {
+        const v35 = [-563.8300444052281,-4.0,6.214542320354038,3.0,5.501544326604899];
+        [1000000000.0,1000000.0,6.786621454666595e+307,415.10252547606206,-823.446597356467,-5.092304743954367e+307,0.4423453108384088,-428679.2517763142,-1.5198953531242676];
+        const v37 = [-4.0,1e-15,0.4680105691682177,123275.4983435811,811368.2278528295,-1000000.0,-5.0,183.66763440842146];
+        const v41 = [925728.2988822516,679.4858328868554,1.7976931348623157e+308,-1.7976931348623157e+308,0.18423301598853603,-Infinity,1.363925426380676e+308,-154691.7994676904,-1.0];
+        try {
+        } catch(e48) {
+            try {
+                new Uint16Array(v37);
+            } catch(e52) {
+            }
+            try {
+                new Int32Array(3085);
+            } catch(e56) {
+            }
+            try {
+                new Uint8Array(v35);
+            } catch(e60) {
+            }
+        }
+        [v41];
+        [[v37]];
+    }
+}
+new F21(-17598n, 257);
+const t57 = -963.4739848768768;
+new t57();
+new F21(-17598n);

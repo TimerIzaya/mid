@@ -1,0 +1,23 @@
+const v1 = new Set();
+let v4 = -9007199254740992;
+try {
+    new BigUint64Array(1024);
+} catch(e8) {
+}
+try {
+    new Float64Array(16);
+} catch(e12) {
+}
+try {
+    new Float64Array(208);
+} catch(e16) {
+}
+const v18 = Symbol.unscopables;
+delete v18[v1[v18]];
+try {
+    v4 = 16;
+} catch(e21) {
+}
+%VerifyType(Float64Array);
+const v23 = [-25607];
+Reflect.apply(v1.delete, v18, v23);

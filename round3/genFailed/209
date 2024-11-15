@@ -1,0 +1,31 @@
+try {
+    new Float64Array(64);
+} catch(e3) {
+}
+try {
+    new Uint8Array(15);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(0);
+} catch(e11) {
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 64;
+    } catch(e19) {
+    }
+}
+const v20 = new F15(0, 15);
+new F15(v20, 15);
+const v22 = new F15(Uint8Array, 0);
+v22[Symbol.asyncIterator] = -1295316594;
+[1e-15];
+[-4.0,-3.0,-953214.2816145492,Infinity,0.5832868699136584,4.0,-512031.2342472326,0.0,-1000000000.0];
+[1000.0];
+[-1574539217,536870889,5,-180675744,-128,7,-18756,34239,-1024,128];
+[8,9,12,29323,-6962,51072,281630838,65535,8];
+const v30 = [-65537,1073741824,787243742,-2967,-65537,2,-643073636];
+const v32 = [Uint8ClampedArray,v30];
+Reflect.apply(v30.flatMap, v30, v32);

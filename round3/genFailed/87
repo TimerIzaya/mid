@@ -1,0 +1,40 @@
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a6;
+    } catch(e8) {
+    }
+    try {
+        this.g = "E";
+    } catch(e9) {
+    }
+}
+new F4("number", "E");
+new F4("3", "number");
+const v12 = new F4("E", "number");
+class C13 extends F4 {
+    set f(a15) {
+        delete this["E"];
+        try {
+            ("E").normalize();
+        } catch(e18) {
+        }
+    }
+    get a() {
+        try {
+            v12 || this;
+        } catch(e21) {
+        }
+        return this;
+    }
+}
+const v22 = new C13();
+new C13();
+const v24 = new C13();
+const v25 = `
+`;
+eval(v25);
+Object.defineProperty("3", v22, { configurable: true, get: eval, set: eval });
+function f31() {
+    return v24;
+}

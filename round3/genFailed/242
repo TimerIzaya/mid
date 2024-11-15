@@ -1,0 +1,22 @@
+try {
+    new Uint8Array(9);
+} catch(e3) {
+}
+try {
+    new Int16Array(1024);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(186);
+} catch(e11) {
+}
+const v12 = [65537];
+const v13 = [1000];
+const v14 = [9007199254740992];
+try {
+    v14.__proto__ = v14;
+} catch(e18) {
+}
+const v21 = [v12[110],9];
+Reflect.apply(v13.reduce, v13, v21);
+Reflect[Symbol.search] = -917;

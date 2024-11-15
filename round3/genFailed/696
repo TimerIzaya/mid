@@ -1,0 +1,73 @@
+class C3 {
+    ["boolean"] = "1046497041";
+    static m(a5, a6) {
+        const v7 = ("boolean").length;
+        try {
+            const t5 = "boolean";
+            t5.length = 0;
+        } catch(e9) {
+        }
+        return v7;
+    }
+    static #p(a11, a12) {
+        try {
+            Math.atanh(0);
+        } catch(e18) {
+        }
+        try {
+            Math.sqrt(a12);
+        } catch(e20) {
+        }
+        const v21 = a12 + 1e-15;
+        const v22 = 1e-15 ^ a12;
+        try {
+            Math.imul(v22, a12);
+        } catch(e24) {
+        }
+        try {
+            Math.sqrt(v21);
+        } catch(e26) {
+        }
+        return "1046497041";
+    }
+}
+const v27 = new C3();
+const v28 = new C3();
+const v29 = new C3();
+function f33(a34, a35, a36, a37) {
+    const o47 = {
+        "e": v27,
+        get a() {
+            try {
+                a36++;
+            } catch(e40) {
+            }
+            return "entries";
+        },
+        ["boolean"]: a35,
+        p(a42, a43, a44) {
+            let v45;
+            try { v45 = a44(a42, a42, "1046497041", a42); } catch (e) {}
+            try {
+                v45 >>= a44;
+            } catch(e46) {
+            }
+            return a36;
+        },
+    };
+    return o47;
+}
+f33(v29, "entries", f33(v27, "boolean", "1046497041", "1046497041"), v28);
+f33("boolean", "1046497041", -2n, "boolean");
+let v52 = new Date();
+Object.defineProperty("entries", 1551, { get: f33, set: f33 });
+for (const v53 of "boolean") {
+    try {
+        v52 = v27;
+    } catch(e54) {
+    }
+}
+try {
+    C3 | -9007199254740992n;
+} catch(e56) {
+}

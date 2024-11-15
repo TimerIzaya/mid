@@ -1,0 +1,45 @@
+function f3() {
+    return "unscopables";
+}
+try {
+    new Uint16Array(10);
+} catch(e7) {
+}
+try {
+    new Int16Array(594);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e15) {
+}
+function f16(a17, a18, a19) {
+    const o24 = {
+        ..."unscopables",
+        __proto__: "sUjNI",
+        ...a18,
+        ..."536870912",
+        "h": BigInt64Array,
+        p(a21, a22, a23) {
+            const t23 = "536870912";
+            t23[10] >>= 10;
+            return f3;
+        },
+        7: 4,
+        "c": a19,
+    };
+    return o24;
+}
+const v25 = f16("536870912", "536870912", "sUjNI");
+f16("unscopables", "sUjNI", "sUjNI");
+const v27 = f16("unscopables", "unscopables", "unscopables");
+Object.defineProperty("536870912", "a", { configurable: true, get: f16, set: f3 });
+v25["p"](f16, ..."unscopables", Uint16Array, 10, v27, Int16Array);
+const o35 = {
+    "maxByteLength": 3680006491,
+};
+const v37 = new SharedArrayBuffer(9, o35);
+try {
+    new Int8Array(v37);
+} catch(e40) {
+}

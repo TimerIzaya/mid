@@ -1,0 +1,45 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v0;
+    } catch(e3) {
+    }
+    try {
+        this.c = v0;
+    } catch(e4) {
+    }
+    try {
+        this.f = v0;
+    } catch(e5) {
+    }
+}
+new F1();
+new F1();
+new F1();
+[5.490630503296923e+307,939.4664897935668,1.2613383528704893e+308,3.0,-1000000000.0,-2.220446049250313e-16,-5.0,0.9604875803596387,1000000000000.0];
+[-Infinity,1000000000000.0,8.39244333752071];
+[-5.0,2.0];
+try {
+    new BigUint64Array(2018);
+} catch(e19) {
+}
+try {
+    new Uint16Array(4);
+} catch(e23) {
+}
+try {
+    new Float64Array(10);
+} catch(e27) {
+}
+/[foo(?<=bar)baz]/gv;
+/Fr/gyis;
+/(?:a?)?/gdu;
+const o33 = {
+    "maxByteLength": 1873,
+};
+const v35 = new SharedArrayBuffer(1873, o33);
+try {
+    new Int8Array(v35);
+} catch(e38) {
+}

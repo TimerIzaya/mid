@@ -1,0 +1,41 @@
+const v1 = new WeakSet();
+const v2 = [WeakSet,v1,v1];
+const v3 = [v2,WeakSet];
+const v4 = [v1];
+class C8 {
+    #valueOf(a10, a11, a12) {
+        try {
+            a10.#valueOf(this);
+        } catch(e14) {
+        }
+        const o18 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o18);
+        return WeakSet;
+    }
+}
+const v20 = new C8();
+new C8();
+const v22 = new C8();
+try {
+    v4.valueOf = -892502681;
+} catch(e23) {
+}
+const v24 = v4[C8];
+Reflect.construct(WeakSet, [v3], v24);
+function F28(a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v2;
+    } catch(e33) {
+    }
+    try {
+        this.c = a30;
+    } catch(e34) {
+    }
+}
+new F28(-892502681, v20, v24);
+new F28(1073741823, v3, -892502681);
+new F28(1073741823, v22, 1073741823);

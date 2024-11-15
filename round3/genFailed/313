@@ -1,0 +1,55 @@
+const v0 = /1+/isvm;
+const v1 = /^(a\1)/yisdv;
+const v2 = /\u{12345}\u{23456}if(x)(x)(x)\2/gis;
+try {
+    new Int32Array(255);
+} catch(e6) {
+}
+try {
+    new Int16Array(1110);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(16);
+} catch(e14) {
+}
+class C15 extends BigInt64Array {
+    static b;
+    #b;
+    static [BigInt64Array];
+    #o(a17, a18, a19) {
+        let v20 = 0;
+        while (v20 < 0) {
+            try {
+                a17.exec("object");
+            } catch(e25) {
+            }
+            v20++;
+        }
+        return a17;
+    }
+}
+const v27 = new C15();
+const v28 = new C15();
+const v29 = new C15();
+class C30 extends Int16Array {
+    #f;
+    constructor(a32, a33) {
+        super(a33, 255, 16);
+        try {
+            v27.#f /= v28;
+        } catch(e34) {
+        }
+        const o38 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o38);
+    }
+}
+new C30(v2, v29);
+new C30(v1, v29);
+new C30(v0, v28);
+for (let i45 = 0, i46 = 10; i45 < i46; i45++, i46--) {
+    %VerifyType(i46);
+}

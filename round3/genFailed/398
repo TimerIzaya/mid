@@ -1,0 +1,41 @@
+try {
+    new Uint8ClampedArray(90);
+} catch(e3) {
+}
+try {
+    new Float32Array(236);
+} catch(e7) {
+}
+let v8 = 129;
+try {
+    new Uint8ClampedArray(v8);
+} catch(e11) {
+}
+function f12() {
+    return 236;
+}
+try {
+    new Float32Array(3832);
+} catch(e19) {
+}
+try {
+    new Int32Array(1000);
+} catch(e23) {
+}
+try {
+    new Float32Array(7);
+} catch(e27) {
+}
+try {
+    v8 = 236;
+} catch(e28) {
+}
+let v29;
+try { v29 = Float32Array.p(Float32Array); } catch (e) {}
+with (v29) {
+    b = 3.0;
+    try {
+        Uint8ClampedArray !== Float32Array ? Uint8ClampedArray : Float32Array;
+    } catch(e32) {
+    }
+}

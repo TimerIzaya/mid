@@ -1,0 +1,116 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2(a3, a4) {
+        try { this["return"](); } catch (e) {}
+        return F0;
+    }
+    this[Symbol.toPrimitive] = f2;
+    try {
+        this.f = 16;
+    } catch(e10) {
+        try {
+            new Int32Array(1000);
+        } catch(e14) {
+        }
+        try {
+            new Uint32Array(924);
+        } catch(e18) {
+        }
+        try {
+            new Int32Array(179);
+        } catch(e22) {
+        }
+    }
+}
+const v23 = new F0();
+const v24 = new F0();
+function f25() {
+    try {
+        new Float64Array(7);
+    } catch(e29) {
+    }
+    try {
+        new Int16Array(9);
+    } catch(e33) {
+        function f34() {
+            const o40 = {
+                valueOf(a36) {
+                    const o38 = {
+                    };
+                    return gc(o38);
+                },
+            };
+            return o40;
+        }
+    }
+    try {
+        new Uint8Array(3053);
+    } catch(e44) {
+    }
+    return 9;
+}
+v24.valueOf = f25;
+let v45 = new F0();
+const v46 = [v24,F0,v45];
+const v47 = [v23,v46,v46,F0,v45];
+[F0];
+function f49() {
+    return v45;
+}
+new v47();
+const v54 = [63837,-9223372036854775808];
+for (let v55 = 0; v55 < 19; v55++) {
+    v54.length = v55;
+}
+let v56 = "iterator";
+try {
+    v56 = "bigint";
+} catch(e59) {
+}
+try {
+    v45 >>>= v24;
+    const o62 = {
+        set b(a61) {
+        },
+    };
+    Object.defineProperty(o62, "b", { enumerable: true, set: Date });
+} catch(e64) {
+}
+const o75 = {
+    [-2.0](a66) {
+        0.0 & -4294967297;
+    },
+    "b": -175480.3807539458,
+    [v56]: F0,
+    ...v56,
+    "e": 75898.05349453911,
+    __proto__: "bigint",
+};
+const v77 = ["bigint","bigint","bigint"];
+const v78 = [Date,Date];
+const o85 = {
+    9: v77,
+    o(a82, a83, a84) {
+        return a82;
+    },
+    255: v78,
+};
+const v86 = [];
+v86["reverse"](v86, ..."reverse", ..."reverse");
+class C90 {
+    static #m(a92, a93) {
+        try {
+            super.f = "jl3";
+        } catch(e95) {
+        }
+        return this;
+    }
+    static a;
+    244 = -3;
+}
+const v96 = new C90();
+let v97 = new C90();
+try {
+    v97 >>= v96;
+} catch(e98) {
+}

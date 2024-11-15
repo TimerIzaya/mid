@@ -1,0 +1,50 @@
+const v1 = new WeakSet();
+class C2 {
+    constructor(a4) {
+        function f5(a6, a7) {
+            new WeakSet(a6);
+            a6.__proto__;
+        }
+        new Promise(f5);
+    }
+    static 5 = v1;
+    5;
+}
+const v12 = new C2(C2);
+const v13 = new C2(v12);
+new C2(v12);
+class C15 {
+    static g = C2;
+    b = C2;
+    129;
+    toString(a17, a18, a19) {
+        try {
+            super.e = v12;
+        } catch(e20) {
+        }
+        return v13;
+    }
+}
+const v21 = new C15();
+const v22 = new C15();
+new C15();
+try {
+    v1[4294967295] = v22;
+} catch(e24) {
+}
+let v27 = !-2147483649;
+const v28 = -v21;
+try {
+    Math.atan2(v28, v27);
+} catch(e30) {
+}
+let v31 = ++v27;
+try {
+    Math.log(v28);
+} catch(e33) {
+}
+try {
+    Math.min(v27);
+} catch(e35) {
+}
+++v31;

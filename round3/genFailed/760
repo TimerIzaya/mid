@@ -1,0 +1,31 @@
+try {
+    new BigInt64Array(257);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(3);
+} catch(e7) {
+}
+try {
+    new Uint16Array(512);
+} catch(e11) {
+}
+try {
+    new Float64Array(10);
+} catch(e15) {
+}
+try {
+    new Uint8Array(1000);
+} catch(e19) {
+}
+try {
+    new BigInt64Array(2);
+} catch(e23) {
+}
+class C30 extends Uint16Array {
+    [3.518988755721612e+306] = 2.0;
+    static 19 = BigInt64Array;
+}
+new C30();
+new C30();
+new C30();

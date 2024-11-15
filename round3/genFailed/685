@@ -1,0 +1,25 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 7;
+    } catch(e3) {
+    }
+    try {
+        this.d = 7;
+    } catch(e4) {
+    }
+    try {
+        this.g = 7;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+const v8 = new F0();
+for (let [v15] of 11206) {
+    v8[v15] ||= 37794;
+}
+try {
+    v8.valueOf = 6;
+} catch(e19) {
+}

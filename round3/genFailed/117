@@ -1,0 +1,17 @@
+try {
+    new Int16Array(1171);
+} catch(e9) {
+}
+try {
+    new Int8Array(5);
+} catch(e13) {
+}
+try {
+    new Float32Array(191);
+} catch(e17) {
+}
+const t12 = -751.2988771294298;
+const v18 = delete t12?.d;
+for (let i20 = 0; i20 < 3; i20++) {
+    Reflect.construct(v18?.[i20], [Reflect,i20,i20,Reflect], Int8Array);
+}

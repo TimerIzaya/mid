@@ -1,0 +1,23 @@
+const v6 = [256,-7,2,365492988,2147483649,-1024,268435439];
+[256];
+[2,0];
+try {
+    new Uint32Array(3);
+} catch(e12) {
+}
+try {
+    new Int32Array(1);
+} catch(e16) {
+}
+try {
+    new Int8Array(129);
+} catch(e20) {
+}
+if (v6) {
+    const v24 = 2147483648n & (129 ^ 129);
+    const v25 = +v24;
+    -(-65536);
+    v25 >>> v24;
+} else {
+    0.0 instanceof Int32Array;
+}

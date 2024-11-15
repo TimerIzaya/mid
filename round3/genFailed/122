@@ -1,0 +1,51 @@
+const v1 = new Date();
+function f5(a6) {
+    const o9 = {
+        ...Date,
+        __proto__: Date,
+        ...Date,
+        "d": v1,
+        "e": a6,
+        get c() {
+            try {
+                this[Date] = this;
+            } catch(e8) {
+            }
+            return this;
+        },
+    };
+    return o9;
+}
+const v10 = f5(6n);
+const v11 = f5(6n);
+const v12 = f5(6n);
+class C13 {
+    static get d() {
+        v10[1];
+        return f5;
+    }
+    static [v12];
+    h;
+    [v11] = -36086n;
+    b = v12;
+}
+new C13();
+new C13();
+new C13();
+try {
+    f5(6n);
+} catch(e23) {
+}
+let v28 = 541208927;
+--v28;
+const v32 = ++v28;
+try {
+    Math.cosh(7);
+} catch(e34) {
+}
+const v35 = !Date;
+try {
+    Math.cos(v35);
+} catch(e37) {
+}
+v32 + v28;

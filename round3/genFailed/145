@@ -1,0 +1,55 @@
+try {
+    new Uint32Array(9);
+} catch(e3) {
+}
+try {
+    new Uint16Array(209);
+} catch(e7) {
+}
+try {
+    new Uint16Array(4);
+} catch(e11) {
+}
+class C12 extends Uint16Array {
+    static 1073741825 = 209;
+    constructor(a14, a15, a16, a17) {
+        super(a15, a16);
+        const v18 = this[a16];
+        try {
+            super[v18] = 209;
+        } catch(e19) {
+        }
+    }
+    static c = Uint16Array;
+    c;
+    4096 = Uint16Array;
+}
+const v20 = new C12(209, 4, 4, 4);
+const v21 = new C12(9, 4, 4, v20);
+const v22 = new C12(4, 9, 209, 209);
+function f23(a24, a25) {
+    const o32 = {
+        "e": a25,
+        set b(a27) {
+            const v28 = this[4294967296];
+            try {
+                this.e = v28;
+            } catch(e29) {
+            }
+            v20[Symbol.toStringTag] = v22;
+        },
+        ...a24,
+    };
+    return o32;
+}
+f23(v22, v20);
+f23(v22, v21);
+f23(v21, v21);
+%VerifyType(4);
+v21[Uint16Array];
+for (let i38 = 0; i38 < 10; i38++) {
+    try {
+        C12[Uint16Array] = 209;
+    } catch(e44) {
+    }
+}

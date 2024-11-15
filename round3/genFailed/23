@@ -1,0 +1,46 @@
+try {
+    new Uint8Array(4096);
+} catch(e3) {
+}
+try {
+    new Int8Array(4);
+} catch(e7) {
+}
+let v8 = 4;
+try {
+    new BigUint64Array(v8);
+} catch(e11) {
+}
+class C12 extends Int8Array {
+    1073741823 = BigUint64Array;
+    [Int8Array] = 4096;
+    p(a14, a15, a16) {
+        try {
+            this.slice(-4294967296, v8);
+        } catch(e19) {
+        }
+        return v8;
+    }
+    1 = BigUint64Array;
+    #g;
+    2638;
+    c = 4;
+}
+const v20 = new C12();
+new C12();
+const v22 = new C12();
+let v24 = 268435456n;
+const v27 = new WeakSet();
+try {
+    v27[4] = v20;
+} catch(e28) {
+}
+[v8,,v24] = v22;
+let v32 = 2.2250738585072014e-308;
+const v33 = v32++;
+try {
+    Math.ceil(-20627);
+} catch(e35) {
+}
+v20 || v20;
+~v33;

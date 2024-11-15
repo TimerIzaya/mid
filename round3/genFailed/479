@@ -1,0 +1,75 @@
+class C3 {
+    static o(a5, a6) {
+        try {
+            a5 || 0.9598006556915644;
+        } catch(e8) {
+        }
+        try {
+            ("d").repeat(3);
+        } catch(e11) {
+        }
+        return -2.4424032286134834;
+    }
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+class C15 extends C3 {
+    #a;
+    static 127 = 0.9598006556915644;
+    constructor(a17, a18, a19) {
+        super();
+        a17[v12];
+        super[v14];
+        try { ("d").trimStart(); } catch (e) {}
+    }
+    #g;
+    a;
+    9;
+    8 = "d";
+}
+const v23 = new C15(v13, C15, v14);
+const v24 = new C15(C15, v14, v23);
+new C15(C15, v14, "d");
+class C26 extends C15 {
+    p(a28, a29, a30, a31) {
+        function f32(a33, a34, a35) {
+            const o36 = {
+                "e": a35,
+                "d": a31,
+                ...a33,
+            };
+            return o36;
+        }
+        f32(a28, -2.4424032286134834, this);
+        f32(v24, f32(a28, this, v23), v24);
+        return v14;
+    }
+}
+const v40 = new C26();
+new C26();
+const v42 = new C26();
+let v43;
+try { v43 = C3.o(v14); } catch (e) {}
+try {
+    v24.b = v43;
+} catch(e44) {
+}
+function F45(a47, a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a47;
+    } catch(e50) {
+    }
+    try {
+        this.d = a49;
+    } catch(e51) {
+    }
+    try {
+        this.g = 0.9598006556915644;
+    } catch(e52) {
+    }
+}
+new F45(C3, v42, v13);
+new F45(C3, v24, v12);
+new F45(0.9598006556915644, v42, v40);

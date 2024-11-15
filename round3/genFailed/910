@@ -1,0 +1,44 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -15;
+    } catch(e3) {
+    }
+    try {
+        this.f = -15;
+    } catch(e4) {
+    }
+    try {
+        this.c = -15;
+    } catch(e5) {
+    }
+}
+let v6 = new F0();
+const v7 = new F0();
+new F0();
+new Set();
+try {
+    v7[-65535] = v7;
+} catch(e20) {
+}
+function f21(a22) {
+    let v23 = this;
+    function f24(a25) {
+        try {
+            v6 = v7;
+        } catch(e26) {
+        }
+    }
+    v23.onmessage = f24;
+    ("-52052")[v6];
+    try {
+        v23 = a22;
+    } catch(e28) {
+    }
+}
+const v31 = [v7];
+const o32 = {
+    "arguments": v31,
+    "type": "function",
+};
+new Worker(f21, o32);

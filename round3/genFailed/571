@@ -1,0 +1,21 @@
+try {
+    new Uint8ClampedArray(203);
+} catch(e3) {
+}
+try {
+    new Uint8Array(4);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(2);
+} catch(e11) {
+}
+let v13 = "number";
+for (const v18 in "function") {
+    Uint8ClampedArray[0] = v18;
+    try {
+        v13 = v18;
+    } catch(e19) {
+    }
+}
+new Uint8ClampedArray(-256, -256);

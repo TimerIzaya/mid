@@ -1,0 +1,23 @@
+const v5 = [,,,[29543,-452295880,29543,3,-452295880]];
+const v6 = [-452295880,,3];
+try {
+    new Uint32Array(6);
+} catch(e11) {
+}
+try {
+    new Uint32Array(11);
+} catch(e15) {
+}
+try {
+    new Float32Array(139);
+} catch(e19) {
+}
+delete v5[-452295880];
+let v21;
+try { v21 = v5.push(undefined, v6, 29543, -452295880, undefined); } catch (e) {}
+try {
+    undefined & undefined;
+} catch(e23) {
+}
+const v25 = [v21];
+Reflect.apply(v6.find, v5, v25);

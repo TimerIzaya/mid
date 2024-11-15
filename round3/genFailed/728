@@ -1,0 +1,50 @@
+class C3 {
+    constructor(a5) {
+        a5[0] = "object";
+        try {
+            const t4 = "boolean";
+            t4[a5] = "boolean";
+        } catch(e6) {
+        }
+        try {
+            ("boolean").localeCompare("function", "2136466220");
+        } catch(e10) {
+        }
+    }
+}
+new C3(-6.365227922420404);
+new C3("object");
+new C3(C3);
+function f17(a18, a19, a20, a21) {
+    const o27 = {
+        p(a23, a24, a25) {
+            try {
+                super.d = "boolean";
+            } catch(e26) {
+            }
+            super.c /= a21;
+            return "object";
+        },
+        "b": a19,
+        214067796: a20,
+        "h": a19,
+    };
+    return o27;
+}
+f17(-65535, -65535, 128, -65535);
+f17(-65535, -65535, -1, 128);
+const v30 = f17(-1, -1, -1, 128);
+function F31(a33, a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a36;
+    } catch(e37) {
+    }
+    try {
+        this.h = v30;
+    } catch(e38) {
+    }
+}
+const v39 = new F31("object", -65535, v30, -65535);
+new F31(v39, v39, "object", 128);
+new F31(v30, "object", v39, 128);

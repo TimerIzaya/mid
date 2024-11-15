@@ -1,0 +1,31 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a5;
+    } catch(e6) {
+    }
+}
+new F3("toString");
+new F3("toString");
+new F3("toString");
+try {
+    new Float32Array(10);
+} catch(e13) {
+}
+try {
+    new Float64Array(922);
+} catch(e17) {
+}
+try {
+    new Uint8Array(255);
+} catch(e21) {
+}
+throw Uint8Array;
+("h").length;
+const v28 = -7386 * -7386;
+Float64Array >> Float64Array;
+const v30 = !v28;
+try {
+    Math.tan(v30);
+} catch(e32) {
+}

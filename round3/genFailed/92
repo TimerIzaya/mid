@@ -1,0 +1,35 @@
+try {
+    new Int16Array(127);
+} catch(e3) {
+}
+try {
+    new Uint8Array(2525);
+} catch(e7) {
+}
+try {
+    new Int32Array(3495);
+} catch(e11) {
+}
+const v18 = (1000000000000.0)[0.8396597808902954];
+throw v18;
+try {
+    v18[0.8396597808902954] = 127;
+} catch(e19) {
+}
+let v20 = Array;
+new v20(10);
+try {
+    Math.exp(5.0);
+} catch(e28) {
+}
+const v29 = v20--;
+try {
+    Math.log1p(5.0);
+} catch(e31) {
+}
+const v32 = 3495 & 3495;
+try {
+    Math.min(v20);
+} catch(e34) {
+}
+v29 % v32;

@@ -1,0 +1,38 @@
+class C3 {
+    #m(a5, a6) {
+        a5 !== this;
+        function f8(a9) {
+            return a9;
+        }
+        class C10 extends f8 {
+            #b;
+            static 77 = a6;
+            static [-1024] = a6;
+        }
+        return "5";
+    }
+}
+const v11 = new C3();
+new C3();
+new C3();
+try {
+    new Int32Array(1024);
+} catch(e17) {
+}
+try {
+    new Int32Array(7);
+} catch(e21) {
+}
+try {
+    new Uint16Array(4);
+} catch(e25) {
+}
+Object.defineProperty("55428", 17, { writable: true, configurable: true, value: Int32Array });
+try {
+    new Int32Array("5");
+} catch(e27) {
+}
+try {
+    Int32Array != v11 ? Int32Array : v11;
+} catch(e30) {
+}

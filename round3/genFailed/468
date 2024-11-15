@@ -1,0 +1,50 @@
+let v2 = 1.7429042832959451e+308;
+const v4 = new WeakMap();
+class C5 {
+    o(a7) {
+        const v10 = v2 | v2;
+        --v2;
+        try {
+            Math.sin(0);
+        } catch(e13) {
+        }
+        try {
+            Math.cos(v2);
+        } catch(e15) {
+        }
+        try {
+            Math.atanh(v10);
+        } catch(e17) {
+        }
+        return WeakMap;
+    }
+}
+const v18 = new C5();
+const v19 = new C5();
+const v20 = new C5();
+function f21(a22, a23) {
+    const o28 = {
+        2120: WeakMap,
+        __proto__: a23,
+        p(a25, a26) {
+            let v24 = this;
+            try {
+                v24 *= v4;
+            } catch(e27) {
+            }
+            return v18;
+        },
+        "c": a23,
+    };
+    return o28;
+}
+f21(-2.220446049250313e-16, v19);
+f21(f21, v20);
+const v32 = f21(v20, C5).__proto__;
+new WeakMap(v32);
+for (let v37 of v32) {
+    try {
+        v37++;
+    } catch(e39) {
+    }
+}

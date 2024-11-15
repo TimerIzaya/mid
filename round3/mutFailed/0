@@ -1,0 +1,93 @@
+try {
+    new Int8Array(124);
+} catch(e3) {
+}
+try {
+    const v6 = new Int16Array(7);
+    try { v6.join(7); } catch (e) {}
+} catch(e8) {
+}
+function f9() {
+    function f11(a12) {
+        return undefined;
+    }
+    this.onmessage = f11;
+    try {
+        +124;
+    } catch(e15) {
+    }
+}
+const v18 = [];
+const o19 = {
+    "arguments": v18,
+    "type": "test",
+};
+new Worker(f9, o19);
+try {
+    new Float64Array(127);
+} catch(e24) {
+}
+const v25 = [22923,1024,-113035252,-10551,-9223372036854775807,3,7,-1236036011];
+try { v25.values(); } catch (e) {}
+const v27 = [1073741824,-8,1073741824,-1105968793,8,25196,9,-4,-1,-888349551];
+const v28 = [65536,-2,-1,1073741824,38910,1073741824,268435441,-536870912,1073741823];
+const v29 = [v28,Float64Array,Int16Array,v25,v28];
+[124,v27];
+[Float64Array,v28];
+class C32 {
+    [v25] = Int16Array;
+    #valueOf(a34, a35, a36, a37) {
+        const v38 = a36 <= v25;
+        if (a35) {
+            try {
+                -a37;
+            } catch(e40) {
+            }
+        } else {
+            try {
+                v25.findLast(a36);
+            } catch(e42) {
+            }
+        }
+        return v38;
+    }
+}
+try { C32(); } catch (e) {}
+new C32();
+const v45 = new C32();
+const v46 = v45?.constructor;
+try { new v46(); } catch (e) {}
+const v48 = new C32();
+try { v48.constructor(); } catch (e) {}
+try {
+    v29[4] = v48;
+} catch(e51) {
+}
+var d = v46;
+try { ("F").blink(); } catch (e) {}
+class C55 {
+    6 = "F";
+    set g(a57) {
+        try {
+        } catch(e58) {
+        }
+    }
+    constructor(a60, a61) {
+        function f62() {
+            return "F";
+        }
+        function f63() {
+            return C55;
+        }
+    }
+}
+C55.length;
+function f69() {
+    return "F";
+}
+delete v18?.length;
+[0.33864051841562004,-5.0,369.88163111270114,2.2250738585072014e-308,1000000000000.0,-891.6629968848338,-1e-15,145.30362736422558];
+[4.966688091308939,75.1603974193124];
+[4.0,1000.0,757847.6163505898,759.5788715307672,0.0,3.0,0.0,-494893.6126166974,-1.3894978693567977e+308,-1000000.0];
+try { ("EQ").blink(); } catch (e) {}
+("toString")[3];

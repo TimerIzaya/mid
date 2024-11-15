@@ -1,0 +1,61 @@
+function f3(a4, a5) {
+    const o11 = {
+        __proto__: 536870887n,
+        "b": a5,
+        "c": a4,
+        [-128n]: -128n,
+        get g() {
+            Reflect.construct(a5, [], this);
+            return Reflect;
+        },
+        "h": -128n,
+        "f": a5,
+        "d": -128n,
+    };
+    return o11;
+}
+const v12 = f3(4n, -128n);
+const v13 = f3(536870887n, 4n);
+const v14 = f3(-128n, 536870887n);
+const v16 = new Set();
+function f17() {
+    return v12;
+}
+class C18 {
+    f;
+    constructor(a20, a21, a22, a23) {
+        var h = 4n;
+        let v25;
+        try { v25 = this["o"](a20, v13, Set); } catch (e) {}
+        v25[2] *= v25;
+        try {
+            super[536870887n] = a22;
+        } catch(e26) {
+        }
+    }
+    static #a = 4n;
+    c = v16;
+    [v14] = Set;
+}
+const v27 = new C18(v13, v14, v13, v14);
+const v28 = new C18(C18, v27, v27, v27);
+new C18(v28, C18, v13, v13);
+try {
+    f17();
+} catch(e31) {
+}
+if (v16) {
+} else {
+    v28[2147483649] **= -128n;
+    const o35 = {
+        "call": f17,
+        "get": f3,
+        "isExtensible": f3,
+        "set": f17,
+        "setPrototypeOf": f3,
+    };
+    try {
+        new Proxy(v27, o35);
+    } catch(e38) {
+    }
+}

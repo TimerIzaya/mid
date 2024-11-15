@@ -1,0 +1,37 @@
+[];
+try {
+    new BigUint64Array(0);
+} catch(e4) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e8) {
+}
+try {
+    new Uint16Array(64);
+} catch(e12) {
+}
+class C13 extends Uint16Array {
+    536870888;
+    constructor(a15, a16, a17) {
+        super(a16, a17);
+    }
+    static h = 64;
+    #e;
+    static 2;
+    [Uint16Array];
+}
+new C13(64, 0, 64);
+new C13(64, 64, 4);
+const v23 = new C13(4, 64, 0);
+if (v23 < Uint16Array) {
+    try {
+        new Uint16Array(0);
+    } catch(e27) {
+    }
+} else {
+    try {
+        v23.valueOf = BigUint64Array;
+    } catch(e28) {
+    }
+}

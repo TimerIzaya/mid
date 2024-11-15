@@ -1,0 +1,61 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2() {
+    return f0;
+}
+class C3 extends f1 {
+    #m(a5) {
+        try {
+            this.#m(f0, f1);
+        } catch(e7) {
+        }
+        return f2;
+    }
+    o(a9, a10) {
+        let v8 = this;
+        try {
+            v8 = a9;
+        } catch(e11) {
+        }
+        return a10;
+    }
+    static a = f1;
+}
+const v12 = new C3();
+new C3();
+new C3();
+function f15() {
+    return f2;
+}
+const v18 = new Array(76);
+class C19 extends C3 {
+    constructor(a21, a22, a23) {
+        super();
+        const v24 = Array(a23);
+        try {
+            v24.__proto__ = v18;
+        } catch(e25) {
+        }
+    }
+    static #toString(a27, a28) {
+        for (let v29 = 0; v29 < 100; v29++) {
+            f2();
+        }
+        this.f;
+        return C3.a;
+        return a27;
+    }
+}
+const v33 = new C19(Array, v12, f15);
+const v34 = new C19(f1, C19, f0);
+new C19(v34, v33, v34);
+const v36 = C19.f;
+new f0();
+new C3();
+let v43 = 281.64154730736846 << v36;
+--v43;
+~2147483649;
+~v36;

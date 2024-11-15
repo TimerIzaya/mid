@@ -1,0 +1,39 @@
+try {
+    new Float32Array(388);
+} catch(e3) {
+}
+try {
+    new Int16Array(8);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e11) {
+}
+try {
+    new Uint32Array(195);
+} catch(e15) {
+}
+try {
+    new BigInt64Array(3610);
+} catch(e19) {
+}
+try {
+    new Uint8ClampedArray(13);
+} catch(e23) {
+}
+function f24(a25, a26) {
+    let v27;
+    try { v27 = (10).call(BigInt64Array, a25); } catch (e) {}
+    return v27;
+}
+f24(8, 388);
+class C29 extends Uint8ClampedArray {
+    static [8] = BigInt64Array;
+    static #e;
+    3285031681 = f24;
+    static c;
+}
+new C29();
+new C29();
+new C29();

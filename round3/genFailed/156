@@ -1,0 +1,40 @@
+class C3 {
+    static m(a5) {
+        try {
+            128 & 255;
+        } catch(e7) {
+        }
+        return 255;
+    }
+    g;
+    #f = 255;
+    e;
+}
+new C3();
+const v9 = new C3();
+const v10 = new C3();
+const v12 = new WeakMap();
+class C13 {
+    8 = v12;
+    constructor(a15, a16) {
+        try { v10(a15, 255, WeakMap, this, a16); } catch (e) {}
+        g = v10;
+        try {
+            v9[4] = a15;
+        } catch(e18) {
+        }
+    }
+    h;
+}
+const v19 = new C13(128, v9);
+const v20 = new C13(128, C3);
+new C13(128, v9);
+try {
+    v9[C3] = v10;
+} catch(e22) {
+}
+v19[v20];
+C3[Symbol.matchAll] = v20;
+for (let v26 = 0; v26 < 32; v26++) {
+    v19["p" + v26] = v26;
+}

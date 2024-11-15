@@ -1,0 +1,52 @@
+function f3() {
+    return 256;
+}
+const v4 = /A[x]sabc+I*/ysdvm;
+const v5 = /Pua(?!b)axyz{1,}xyz{93}*/gydum;
+const v6 = /Y(?!\1(a\1)\1)\1/givm;
+class C7 extends f3 {
+    set h(a9) {
+        try {
+            new Float64Array(1000);
+        } catch(e13) {
+        }
+        try {
+            new Uint32Array(250);
+        } catch(e17) {
+        }
+        try {
+            new Uint32Array(1612);
+        } catch(e21) {
+        }
+    }
+}
+const v22 = new C7();
+new C7();
+new C7();
+try {
+    v22[4294967295] = v6;
+} catch(e25) {
+}
+-65536 === v5;
+try {
+    v6.__proto__ = v4;
+} catch(e27) {
+}
+const v29 = Symbol.iterator;
+const o38 = {
+    [v29]() {
+        let v31 = 10;
+        const o37 = {
+            next() {
+                v31--;
+                const v35 = v31 == 0;
+                const o36 = {
+                    "done": v35,
+                    "value": v31,
+                };
+                return o36;
+            },
+        };
+        return o37;
+    },
+};

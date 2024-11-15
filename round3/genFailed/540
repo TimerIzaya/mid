@@ -1,0 +1,43 @@
+try {
+    new Float64Array(1);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(129);
+} catch(e7) {
+}
+try {
+    new Int32Array(10);
+} catch(e11) {
+}
+const v16 = new WeakMap();
+class C17 {
+    static get c() {
+        try { this(v16); } catch (e) {}
+        try {
+            v16.__proto__ = v16;
+        } catch(e20) {
+        }
+        return this;
+    }
+    constructor(a22, a23, a24, a25) {
+        const v27 = new WeakMap(this);
+        const v28 = new Float64Array(a25);
+        v28[-2];
+        try { v27.get(...v28, 1.3998940302811621e+308, Float64Array, ...v28, ...0.0); } catch (e) {}
+        try {
+            v27.g = Float64Array;
+        } catch(e31) {
+        }
+    }
+}
+const v32 = new C17(10, 10, 129, 129);
+const v33 = new C17(10, 129, 10, 129);
+new C17(1, 1, 10, 129);
+const v37 = Reflect.construct(Int32Array, [v33,129,1], Float64Array);
+try {
+    v32.a = v16;
+} catch(e38) {
+}
+%VerifyType(v37);
+new Array(0);

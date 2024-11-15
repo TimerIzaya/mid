@@ -1,0 +1,46 @@
+let v1 = NaN;
+try {
+    new BigUint64Array(256);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(63);
+} catch(e10) {
+}
+try {
+    new Float64Array(1234);
+} catch(e14) {
+}
+class C15 extends BigUint64Array {
+    static {
+        [Float64Array,[BigUint64Array,0.20951544843452996,[2.2250738585072014e-308,0.20951544843452996,Uint8ClampedArray],Float64Array,this],Float64Array,v1];
+        try {
+            const o20 = {
+            };
+            new Float64Array(o20);
+        } catch(e22) {
+        }
+    }
+    [256] = 1234;
+    static c = 256;
+    [Uint8ClampedArray] = 256;
+}
+const v23 = new C15();
+const v24 = new C15();
+new C15();
+try {
+    v24.reduce(256, undefined);
+} catch(e31) {
+}
+function f32(a33, a34) {
+    let v35;
+    try { v35 = v24.lastIndexOf(v23, 1234); } catch (e) {}
+    let v36;
+    try { v36 = a33(a33, v35, 1073741824n, Uint8ClampedArray); } catch (e) {}
+    try {
+        v1 = v36;
+    } catch(e37) {
+    }
+    return a33;
+}
+f32(BigUint64Array, -1326344495n);

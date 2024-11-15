@@ -1,0 +1,56 @@
+let v0 = 1024;
+class C3 {
+    get c() {
+        return v0;
+    }
+    static #h = 3.774170104289058e+307;
+    #m(a9, a10) {
+        a10.b &= 3.774170104289058e+307;
+        let v11 = 10;
+        for (; v11--;) {
+            try {
+                v0 = a10;
+            } catch(e13) {
+            }
+        }
+        return a10;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function f20() {
+    return "n";
+}
+function f21() {
+    return v16;
+}
+class C22 extends f21 {
+    d = "random";
+    e;
+    #c = v16;
+    static g = v14;
+    o(a24, a25, a26) {
+        try {
+            this % f20;
+        } catch(e28) {
+        }
+        try { a26.m(C3, a24, a24, a24, v15); } catch (e) {}
+        return f21;
+    }
+    static #g = v15;
+    static #d = 2.7307886296326593;
+    #h;
+}
+new C22();
+new C22();
+const v32 = new C22();
+try { v0(f21, v32, v32); } catch (e) {}
+[13,-56988];
+[2147483647,4,0,7,1073741823];
+const v36 = [-4096,9007199254740991];
+try {
+    "h" != v36 ? "h" : v36;
+} catch(e39) {
+}
+("random").length;

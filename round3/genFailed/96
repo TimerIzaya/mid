@@ -1,0 +1,29 @@
+const v6 = [-1682243425,8,1024];
+[1645329628,-42858,4096];
+[-29532,536870912,-1073741824,1073741825,254444913,-1194245188,-461815767,-4];
+try {
+    new Int16Array(127);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(257);
+} catch(e16) {
+}
+try {
+    new Int8Array(128);
+} catch(e20) {
+}
+try {
+    const t16 = "pN9";
+    t16.valueOf = 127;
+} catch(e21) {
+}
+let v22;
+try { v22 = Int8Array("-268435456", 257, 127); } catch (e) {}
+let v23;
+try { v23 = v22(v22, v6, v22, 128, v6); } catch (e) {}
+v23[Symbol.toPrimitive];
+try {
+    ("pN9").includes(127);
+} catch(e28) {
+}

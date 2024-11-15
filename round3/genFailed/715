@@ -1,0 +1,41 @@
+function f0() {
+}
+new Date();
+try {
+    new Float64Array(1);
+} catch(e6) {
+}
+try {
+    new Uint32Array(4096);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(227);
+} catch(e14) {
+}
+/(foo(?<!bar)baz*)/ysdu;
+const v16 = /\xed\xb0\x80?/vm;
+const v17 = /mfoo(?<=bar)baz\x60(?<=)*/gidum;
+try {
+    new Uint8ClampedArray(7);
+} catch(e21) {
+}
+try {
+    new Uint16Array(127);
+} catch(e25) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e29) {
+}
+function* f30(a31, a32, a33, a34) {
+    Object.defineProperty(v17, 8, { writable: true, enumerable: true, value: a32 });
+    Object.defineProperty(a33, 8, { writable: true, enumerable: true, value: 227 });
+    try {
+        v17 && 127;
+    } catch(e36) {
+    }
+    yield* [227,Uint16Array];
+    return a33;
+}
+f30(256, 227, v16, 127);

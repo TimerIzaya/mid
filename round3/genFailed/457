@@ -1,0 +1,22 @@
+[-2.0,NaN,-443740.6534142379,2.823225856137888e+306,0.7806071302527157,-1000.0,-3.0];
+[-Infinity,-Infinity,3.0,-973.84654929958,-1000.0,0.0,5.0];
+[686908.8781287086,0.9426973981881476,0.638041215391075];
+try {
+    new Float64Array(255);
+} catch(e9) {
+}
+try {
+    new Uint8Array(4);
+} catch(e13) {
+}
+try {
+    new Float64Array(2);
+} catch(e17) {
+}
+throw 512n;
+const v21 = 2;
+const o25 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o25);

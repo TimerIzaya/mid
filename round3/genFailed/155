@@ -1,0 +1,36 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    constructor(a4) {
+        super(a4);
+        try {
+            v1.valueOf = a4;
+        } catch(e5) {
+        }
+    }
+    static c = WeakSet;
+    static #a;
+    [WeakSet] = v1;
+}
+const v6 = new C2(v1);
+const v7 = new C2(v1);
+const v8 = new C2(v7);
+/V[][\cz]k/gidvm;
+/Sfoo(?<=bar)baza{z}*/gydm;
+const v11 = /X\x60?/gdm;
+function f15(a16, a17, a18, a19) {
+    [2147483647,a17,a19,a17];
+    try {
+        new Int16Array(3001);
+    } catch(e24) {
+    }
+    try {
+        new Uint8Array(2236);
+    } catch(e28) {
+    }
+    try {
+        new Int32Array(127);
+    } catch(e32) {
+    }
+    return a19;
+}
+f15(v11, v8, v6, 2);

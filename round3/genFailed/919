@@ -1,0 +1,33 @@
+new Array(4);
+function f6() {
+    return 4;
+}
+class C10 {
+    constructor(a12, a13, a14) {
+        const v16 = new String("normalize");
+        this in v16;
+    }
+    d;
+    static n(a19, a20, a21) {
+        let v18 = this;
+        try {
+            v18 = a21;
+        } catch(e22) {
+        }
+        return a19;
+    }
+}
+new C10("normalize", 1000000.0, 1000000.0);
+new C10("normalize", -2.220446049250313e-16, -659.1108924173245);
+new C10("normalize", 1000000.0, 1000000.0);
+const t22 = "normalize";
+t22[10] *= -659.1108924173245;
+try {
+    -659.1108924173245 << "normalize";
+} catch(e27) {
+}
+try {
+    C10.__proto__ = Array;
+} catch(e28) {
+}
+Object.defineProperty("13", "length", { configurable: true, enumerable: true, get: f6, set: f6 });

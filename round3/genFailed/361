@@ -1,0 +1,68 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2() {
+    return f1;
+}
+function f3(a4) {
+    const o9 = {
+        __proto__: a4,
+        "e": a4,
+        "a": a4,
+        [f0]: f1,
+        [f0](a6, a7) {
+            try {
+                super[a7] = f2;
+            } catch(e8) {
+            }
+            return this;
+        },
+        [f1]: f1,
+    };
+    return o9;
+}
+const v10 = f3(f1);
+const v11 = f3(f3);
+const v12 = f3(f3);
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a16;
+    } catch(e17) {
+    }
+    try {
+        this.b = v11;
+    } catch(e18) {
+    }
+}
+const v19 = new F13(v10, v10);
+let v20 = new F13(v10, v10);
+new F13(v12, v12);
+new WeakSet();
+Object.defineProperty(v20, 5, { configurable: true, set: f0 });
+for (const v24 of v19) {
+    try {
+        Math.asin(v10);
+    } catch(e29) {
+    }
+    const v30 = v10 ^ v10;
+    try {
+        Math.abs(v10);
+    } catch(e32) {
+    }
+    try {
+        Math.abs(v30);
+    } catch(e34) {
+    }
+    try {
+        Math.cosh(v24);
+    } catch(e36) {
+    }
+    try {
+        Math.acos(v24);
+    } catch(e38) {
+    }
+    --v20;
+}

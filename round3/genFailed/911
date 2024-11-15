@@ -1,0 +1,45 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2() {
+    return f1;
+}
+class C3 {
+    static #g = f0;
+    constructor(a5) {
+        const v6 = super[this];
+        try {
+            this[v6] = f0;
+        } catch(e7) {
+        }
+    }
+    get f() {
+        this[f0] |= this;
+        f0();
+        try {
+            super.fromEntries();
+        } catch(e11) {
+        }
+        return f1;
+    }
+}
+const v12 = new C3(f0);
+const v13 = new C3(v12);
+const v14 = new C3(v13);
+[f2,f2,v13];
+const v17 = [[v14,v13]];
+const v21 = delete v13[5];
+v17.length;
+v17["reduce"](...v17, f2, v14, -941.4096992096339, v21);
+let v25 = 0;
+while (v25 < 4) {
+    1000000000000.0 >= -134841.71173657652;
+    const o32 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o32);
+    v25++;
+}

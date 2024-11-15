@@ -1,0 +1,59 @@
+let v1 = "-53528";
+const v3 = [-12,6,11091,191854393,5,-22882,7,1576639997,3];
+const v4 = [2147483648];
+const v5 = [4294967296,-2,9223372036854775807,8,-1105156971,268435439,-1];
+function f6(a7, a8) {
+    const o22 = {
+        "b": a7,
+        [a8](a10, a11) {
+            try { a8(); } catch (e) {}
+            const v13 = super[a10];
+            const o14 = {
+            };
+            try {
+                o14.a = v13;
+            } catch(e15) {
+            }
+            try {
+                const o16 = {
+                };
+                o16.a = v13;
+                o16.e = v3;
+            } catch(e17) {
+            }
+            try {
+                const o18 = {
+                };
+                o18.a = v13;
+                o18.e = v3;
+                o18.c = v13;
+            } catch(e19) {
+            }
+            try {
+                const o20 = {
+                };
+                o20.a = v13;
+                o20.e = v3;
+                o20.f = a10;
+            } catch(e21) {
+            }
+            return a7;
+        },
+    };
+    return o22;
+}
+const v23 = f6(v4, v4);
+const v24 = f6(v3, v3);
+const v25 = f6(v5, v4);
+let v26;
+try { v26 = v25.exp(v25, v25, "g", v24, f6); } catch (e) {}
+try {
+    v1++;
+} catch(e28) {
+}
+Object.defineProperty("g", v1, { get: f6 });
+v25[f6(v3, v4)];
+try {
+    v26 = v23;
+} catch(e31) {
+}

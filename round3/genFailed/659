@@ -1,0 +1,47 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 1677752456;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v7 = [v5,v6];
+const v8 = [F0,v4,F0];
+const v9 = [F0,v8];
+function f16(a17, a18, a19, a20) {
+    const o26 = {
+        7: a18,
+        ..."boolean",
+        1040: a19,
+        ...v4,
+        get h() {
+            try {
+                a20 ** v9;
+            } catch(e23) {
+            }
+            try {
+                a17.endsWith("undefined");
+            } catch(e25) {
+            }
+            return "undefined";
+        },
+    };
+    return o26;
+}
+f16("boolean", 1024n, v5, v9);
+const v28 = f16("7", v4, v4, v8);
+f16("undefined", v7, v5, v8);
+const v30 = [-2147483649,-256,1,446,295526137,35131,49463,-9223372036854775807,-1403603373,-9007199254740990];
+[9007199254740990,2];
+[9,16,536870888,-1024,536870889,39042,2147483649,536870887,428103129];
+Object.defineProperty("undefined", "e", { configurable: true, get: f16 });
+const o33 = {
+    "h": v28,
+    __proto__: v30,
+    [F0]: -65535n,
+    "e": v30,
+    "d": v9,
+};

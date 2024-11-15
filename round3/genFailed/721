@@ -1,0 +1,21 @@
+try {
+    new Float64Array(6);
+} catch(e6) {
+}
+try {
+    new Uint8Array(256);
+} catch(e10) {
+}
+try {
+    new Uint32Array(10);
+} catch(e14) {
+}
+Float64Array in 256;
+const v19 = `
+    (-9223372036854775808n)[1];
+`;
+eval(v19);
+try {
+    eval(v19);
+} catch(e24) {
+}

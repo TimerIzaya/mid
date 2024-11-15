@@ -1,0 +1,68 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static [WeakSet] = v1;
+    a;
+    static #h;
+    7;
+    constructor(a4, a5) {
+        super(a5);
+        try {
+            -this;
+        } catch(e7) {
+        }
+    }
+}
+const v8 = new C2(WeakSet, v1);
+const v9 = new C2(v8, v8);
+let v10 = new C2(WeakSet, v9);
+try {
+    new Int8Array(4096);
+} catch(e17) {
+}
+try {
+    this[Symbol.matchAll];
+    const v27 = -43505;
+    try {
+        Math.trunc(v27);
+    } catch(e29) {
+    }
+    try {
+        Math.sin(128);
+    } catch(e31) {
+    }
+    ++v10;
+    new Float32Array(128);
+} catch(e34) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e38) {
+}
+const o41 = {
+    set f(a40) {
+    },
+};
+class C42 {
+    f = 1453253335;
+    16 = v1;
+    static [Int8Array] = 43505;
+    static #d = WeakSet;
+    #a = Float32Array;
+    #n(a44, a45) {
+        let v46 = 0;
+        while (v46 < 2) {
+            try {
+                BigInt64Array && C2;
+            } catch(e50) {
+            }
+            v46++;
+        }
+    }
+    constructor(a53) {
+        try {
+            o41.#n();
+        } catch(e55) {
+        }
+    }
+}
+new C42(o41);

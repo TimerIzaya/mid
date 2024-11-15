@@ -1,0 +1,28 @@
+try {
+    new Int32Array(9);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(4096);
+} catch(e11) {
+}
+function f12() {
+    return 9;
+}
+function f13() {
+    return f12;
+}
+switch (701.7232439926747) {
+    case 4096:
+        try {
+            const t21 = 16;
+            t21[Int32Array] = -320800.2283405269;
+        } catch(e17) {
+        }
+}
+const t26 = Int32Array[BigUint64Array];
+t26.g &&= 701.7232439926747;

@@ -1,0 +1,49 @@
+const v1 = new Date();
+try {
+    new Uint8ClampedArray(125);
+} catch(e5) {
+}
+try {
+    new Int32Array(3127);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(792);
+} catch(e13) {
+}
+function f17(a18, a19, a20, a21) {
+    const o38 = {
+        "c": 125,
+        o(a23, a24, a25) {
+            try {
+                new Uint32Array(150);
+            } catch(e29) {
+            }
+            try {
+                new Float64Array(9);
+            } catch(e33) {
+            }
+            try {
+                new Int32Array(129);
+            } catch(e37) {
+            }
+            return 3127;
+        },
+    };
+    return o38;
+}
+f17(125, f17(125, Uint8ClampedArray, 125, 125), 792, 125);
+const v41 = f17(3127, 792, 792, 125);
+let v42;
+try { v42 = v1.setUTCMonth(125); } catch (e) {}
+for (const v43 of v42) {
+    [32070,2147483647,1073741825,-1746186216,-10,-2147483649,500682236,-1024,-1,-1595855482];
+    [-268435456,2147483649,8,1024,4294967295,-9];
+    [-2147483648,-225389454,976979287,450904369];
+    break;
+}
+let v47 = v41.c;
+try {
+    v47 = 8n;
+} catch(e48) {
+}

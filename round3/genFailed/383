@@ -1,0 +1,35 @@
+const v0 = [];
+const v1 = [v0,v0];
+[v0];
+const v3 = [v1];
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a6;
+    } catch(e7) {
+    }
+    try {
+        this.c = a6;
+    } catch(e8) {
+    }
+    try {
+        this.f = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F4(v3);
+new F4(v1);
+const v12 = new F4(v0);
+[v12,v10,v0,F4,v1];
+[v3];
+const v15 = [v12,v0];
+delete v1[[v15,v10,[[v1,F4]],v12]];
+v3["find"](v15, v12);
+const o24 = {
+    "maxByteLength": 3588661721,
+};
+const v26 = new ArrayBuffer(127, o24);
+try {
+    new DataView(v26);
+} catch(e29) {
+}

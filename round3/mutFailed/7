@@ -1,0 +1,48 @@
+function f0() {
+}
+try {
+    new Uint16Array(406);
+} catch(e4) {
+}
+try {
+    new Int32Array(8);
+} catch(e8) {
+}
+try {
+    new Int8Array(10);
+} catch(e12) {
+}
+function f13() {
+    return 406;
+}
+class C18 extends Date {
+}
+const t19 = 5;
+const v19 = new t19();
+const t21 = 8;
+const v20 = new t21(406, Uint16Array, f0);
+function f21(a22) {
+    const v26 = 2147483649 ^ f13;
+    const v27 = +C18;
+    try {
+        Math.atan(v27);
+    } catch(e29) {
+    }
+    -v26;
+    return 8;
+}
+v20.toString = f21;
+const v31 = [3,-20487,-4294967297,-2635,-4251];
+function f32(a33, a34) {
+    const v37 = Array(Array);
+    function f39() {
+        return 6108;
+    }
+    const v41 = new Map();
+    try { v41["set"](6108, ..."set", v37, ...f39, ..."set", "set", ...C18); } catch (e) {}
+    return 406;
+}
+v31.valueOf = f32;
+v20.setUTCSeconds(v31, [1073741823]);
+v19.setHours(-1414945548, -1414945548);
+Object.defineProperty(Date, v20, { configurable: true, enumerable: true, set: Date });

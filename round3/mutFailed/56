@@ -1,0 +1,100 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f3() {
+    return f3;
+}
+try {
+    new Float32Array(3763);
+} catch(e6) {
+}
+try {
+    new Uint32Array(174);
+} catch(e10) {
+}
+try {
+    new Float64Array(512);
+} catch(e14) {
+}
+if (Float64Array) {
+    try {
+        const t20 = 3763;
+        t20.toString = Uint32Array;
+    } catch(e15) {
+        class C17 extends Int8Array {
+            1;
+        }
+        const o18 = {
+            "d": e15,
+        };
+    }
+} else {
+    const v21 = new WeakMap();
+    v21.set(BigInt64Array);
+    class C24 extends Int32Array {
+    }
+    try {
+        const t36 = 174;
+        t36.d = Float32Array;
+    } catch(e25) {
+    }
+}
+const t41 = 3763;
+t41.c &&= 3763;
+typeof -4294967295n === "bigint";
+const t43 = "bigint";
+delete t43?.length;
+[-9223372036854775807];
+[5,-9007199254740990,62775,-9223372036854775808,-38357,4294967297,-1296182262];
+[-4294967295n,[5,-2,9007199254740990,49765,62021,-2147483649,65536,-549]];
+[Float64Array,[268435441n],174,3763,174];
+new Float32Array("1658439437");
+function f42(a43, a44, a45) {
+    return a44;
+}
+const v48 = new WeakSet();
+Uint8Array(1962);
+function f57(a58, a59, a60, a61) {
+    const o63 = {
+        get e() {
+            super.b = this;
+            return -15;
+        },
+    };
+    return o63;
+}
+const v64 = f57(3, 1073741824, 3, 1962);
+f57(3, 4096, -15, 1073741824);
+const v66 = f57(1962, 4096, 3, -15);
+const v68 = Symbol.toPrimitive;
+const o71 = {
+    [v68]() {
+        super[Uint8Array];
+    },
+};
+try {
+    v66.fuck(Int16Array, v64, o71);
+} catch(e73) {
+}
+function f76(a77, a78, a79, a80) {
+    const o84 = {
+        __proto__: v48,
+        o(a82, a83) {
+            return a82;
+        },
+        "c": a77,
+        "h": a79,
+        "g": 3.0,
+        ...v48,
+        "e": -65537n,
+        [-1]: WeakSet,
+    };
+    return o84;
+}
+%PrepareFunctionForOptimization(f76);
+f76(-65537n, v48, v48, -65537n);
+f76(f76, WeakSet, WeakSet, v48);
+%OptimizeFunctionOnNextCall(f76);
+"-16" - ["-16","-16","-16","-16","-16"];
+f76(3.0, f76, v48, WeakSet);
+Date.parse("8Uel");

@@ -1,0 +1,76 @@
+try {
+    new Uint32Array(127);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e7) {
+}
+try {
+    new Int8Array(1);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o19 = {
+        "a": 127,
+        get f() {
+            try {
+                a14[Uint8ClampedArray] = null;
+            } catch(e18) {
+            }
+            return a13;
+        },
+        ...a15,
+        "g": 127,
+        __proto__: a15,
+        "f": a13,
+        "h": a15,
+        "d": a13,
+    };
+    return o19;
+}
+const v20 = f12(1, Uint32Array, Uint8ClampedArray);
+const v22 = f12(Uint32Array, f12(7, 127, 1), Uint8ClampedArray);
+class C23 extends Uint8ClampedArray {
+    static #h = 1;
+    [v20] = Uint32Array;
+    constructor(a25, a26) {
+        super(v20);
+        const o29 = {
+            "maxByteLength": 3460,
+        };
+        const v31 = new ArrayBuffer(3460, o29);
+        try {
+            new Uint8Array(v31);
+        } catch(e34) {
+        }
+    }
+}
+new C23(v22, C23);
+new C23(C23, v20);
+const v37 = new C23(v20, v22);
+function f38() {
+    return v37;
+}
+let v39 = 0;
+while (v39 < 4) {
+    try {
+        const o45 = {
+            "a": Int8Array,
+            "d": "f",
+            "f": 2.2250738585072014e-308,
+            "g": true,
+            "h": true,
+        };
+        const o48 = {
+            "a": -61757,
+            "d": f12,
+            "f": -1000000.0,
+            "g": -61757,
+            "h": o45,
+        };
+        new C23(o45, o48);
+    } catch(e50) {
+    }
+    v39++;
+}

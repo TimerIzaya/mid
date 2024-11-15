@@ -1,0 +1,35 @@
+try {
+    new Int32Array(6);
+} catch(e3) {
+}
+try {
+    new Uint16Array(1557);
+} catch(e7) {
+}
+try {
+    new Uint16Array(4025);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    4;
+    static {
+        g = this;
+        try { this.valueOf(Uint16Array, this, 1557, 1557); } catch (e) {}
+        let v15;
+        try { v15 = this.n(Uint16Array, 6); } catch (e) {}
+        super.byteOffset |= 6;
+        for (let v16 = 0; v16 < 32; v16++) {
+            v15["p" + v16] = v16;
+        }
+    }
+}
+const v19 = new C12();
+const v20 = new C12();
+new C12();
+[7092,5];
+RangeError(...[-4294967296,-608432481,-1,-268435456,58779,-1,-8], ...v19, ...[-417299330,16,-7246,9,127,-9007199254740992,7731], RangeError);
+("name").length;
+try {
+    v20.toLocaleString();
+} catch(e32) {
+}

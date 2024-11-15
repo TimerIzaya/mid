@@ -1,0 +1,60 @@
+try {
+    new Uint32Array(2);
+} catch(e3) {
+}
+try {
+    new Int32Array(129);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(10);
+} catch(e11) {
+}
+class C12 extends Uint8ClampedArray {
+    147;
+    set c(a14) {
+        try {
+            a14.toString = a14;
+        } catch(e15) {
+        }
+    }
+    o(a17, a18, a19, a20) {
+        const v21 = super[Uint32Array];
+        function F22(a24, a25, a26, a27) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = this;
+            } catch(e28) {
+            }
+        }
+        new F22(a20, Int32Array, a17, 129);
+        const v30 = new F22(a19, v21, a18, 10);
+        new F22(129, v30, a17, 10);
+        return a17;
+    }
+}
+let v32 = new C12();
+new C12();
+new C12();
+try {
+    new Float64Array(0);
+} catch(e38) {
+}
+try {
+    new Float32Array(257);
+} catch(e42) {
+}
+try {
+    new Int8Array(8);
+} catch(e46) {
+}
+const v48 = Symbol.toPrimitive;
+const o51 = {
+    [v48]() {
+        try {
+            v32 = this;
+        } catch(e50) {
+        }
+        return 0;
+    },
+};

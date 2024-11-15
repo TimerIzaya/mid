@@ -1,0 +1,50 @@
+class C3 {
+    static m(a5, a6) {
+        try {
+            super[a6] = 1820368349n;
+        } catch(e7) {
+        }
+        return a6;
+    }
+    constructor(a9, a10) {
+        for (const v12 of this.c) {
+            const o13 = {
+            };
+            try {
+                new Proxy(this, o13);
+            } catch(e16) {
+            }
+        }
+    }
+}
+new C3(1820368349n, 1820368349n);
+new C3(1820368349n, 16n);
+const v19 = new C3(16n, 16n);
+function f20() {
+    return v19;
+}
+let v21 = 3;
+try {
+    new Uint8ClampedArray(v21);
+} catch(e24) {
+}
+try {
+    new Uint8Array(1);
+} catch(e28) {
+}
+try {
+    new Uint32Array(146);
+} catch(e32) {
+}
+class C33 extends Uint32Array {
+    2;
+    [1];
+    d;
+}
+new C33();
+new C33();
+new C33();
+try {
+    v21 += 1;
+} catch(e37) {
+}

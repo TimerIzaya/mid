@@ -1,0 +1,26 @@
+const v1 = [0,6,9223372036854775807,7];
+const v2 = [16017,-256,16,1454212177,1000,-536870912];
+const v3 = [9007199254740991,1024,1,1073741823,-1197479103];
+try {
+    new Int8Array(128);
+} catch(e10) {
+}
+let v12 = Uint8ClampedArray;
+try {
+    new v12(3);
+} catch(e14) {
+}
+try {
+    new Float64Array(1142);
+} catch(e18) {
+}
+try {
+    v12 &= v12;
+} catch(e22) {
+}
+v1[1073741823n];
+try {
+    v2[6] = -2147483648n;
+} catch(e24) {
+}
+Object.defineProperty(v2, "length", { enumerable: true, value: v3 });

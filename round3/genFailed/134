@@ -1,0 +1,53 @@
+function f0() {
+}
+try {
+    new Int32Array(3391);
+} catch(e4) {
+}
+try {
+    new Int8Array(3706);
+} catch(e8) {
+}
+try {
+    new Int16Array(2941);
+} catch(e12) {
+}
+function f13(a14, a15) {
+    const o34 = {
+        "d": a15,
+        __proto__: a14,
+        p(a17, a18, a19) {
+            for (let i22 = 0, i23 = 10; i22 < i23; i22++, i23--) {
+                a17?.d;
+                try {
+                    ~a15;
+                } catch(e33) {
+                }
+            }
+            return a19;
+        },
+    };
+    return o34;
+}
+const v35 = f13(3391, 2941);
+f13(3706, 3706);
+const v37 = f13(3391, 3391);
+try {
+    new Int32Array(2804);
+} catch(e41) {
+}
+try {
+    new Int16Array(7);
+} catch(e45) {
+}
+try {
+    new Int32Array(2);
+} catch(e49) {
+}
+f0();
+Object.defineProperty(v37, 8, { enumerable: true, get: f0, set: f13 });
+const v54 = [0.3953809383740706,1000000000.0,4.434085487025204,467790.33841905626,-2.220446049250313e-16,0.01636498665759123,1000000.0,1e-15,2.0,491.11335620300633];
+[2.2250738585072014e-308,-1e-15,7.0912883823786785,-3.0,-579752.799476329,0.239145504004174,-399.0515209563313,29.176676863812645];
+[-353.27859478785183,-1.0,-4.0,-435.0627728572558,25715.324065326247,-1000000000.0,1e-15,-2.220446049250313e-16];
+v35[v54] <<= 3706;
+Object.defineProperty(v54, "length", { writable: true, enumerable: true, value: 3391 });

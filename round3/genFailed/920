@@ -1,0 +1,46 @@
+try {
+    new BigInt64Array(129);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(256);
+} catch(e10) {
+}
+try {
+    new Int16Array(807);
+} catch(e14) {
+}
+const v15 = [1000000000.0,-4.0];
+const v16 = [-3.857393251471602e+307,-9.014348395256022,2.532091994100607e+307];
+const v17 = [-738410.1453541279,2.6784078760393534e+307,0.4327589596428322,1.7540011278742363e+308];
+class C18 extends Int16Array {
+    static get h() {
+        const v21 = delete this[129];
+        v17["toLocaleString"]("toLocaleString", v16);
+        return v21;
+    }
+    constructor(a25, a26, a27) {
+        let v24 = this;
+        super(a27);
+        a25 in a26;
+        try {
+            v24 &= v24;
+        } catch(e29) {
+        }
+    }
+}
+new C18(1e-15, v16, v16);
+new C18(-5.0, v17, v15);
+new C18(-5.0, v15, v15);
+try {
+    Math.sign(268435440);
+} catch(e38) {
+}
+-9223372036854775807 ^ 1e-15;
+try {
+    Math.log(-9223372036854775807);
+} catch(e41) {
+}
++BigUint64Array;
+-1.395864319804984e+308 + 1e-15;
+!-9223372036854775807;

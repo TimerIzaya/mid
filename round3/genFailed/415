@@ -1,0 +1,51 @@
+const v1 = new Set();
+class C8 extends Set {
+    f = v1;
+    constructor(a10, a11, a12, a13) {
+        super(v1);
+        const o14 = {
+        };
+        try {
+            o14.c = 2;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.c = 2;
+            o16.b = 2;
+        } catch(e17) {
+        }
+        try {
+            const o18 = {
+            };
+            o18.c = 2;
+            o18.b = 2;
+            o18.d = a10;
+        } catch(e19) {
+        }
+        try {
+            const o20 = {
+            };
+            o20.c = 2;
+            o20.b = 2;
+            o20.h = v1;
+        } catch(e21) {
+        }
+    }
+}
+new C8(915789503, 2, 268435440, 9);
+new C8(915789503, 268435440, 915789503, 4294967297);
+const v24 = new C8(2, -1391428971, 4294967297, 915789503);
+function f25() {
+    return 915789503;
+}
+let v29 = 0;
+do {
+    new Set(-1391428971, ...v24, Set, f25);
+    try {
+        268435440 < f25 ? 268435440 : f25;
+    } catch(e33) {
+    }
+    v29++;
+} while (v29 < 2)

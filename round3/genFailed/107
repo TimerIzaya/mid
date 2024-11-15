@@ -1,0 +1,36 @@
+class C3 {
+    constructor(a5) {
+        `nEUZ5`;
+    }
+    static 2147483649 = -9.223005697694528;
+    #h;
+    m(a8) {
+        const o11 = {
+            "maxByteLength": 4294967295,
+        };
+        const v13 = new ArrayBuffer(8, o11);
+        try {
+            new Float32Array(v13);
+        } catch(e16) {
+        }
+        return 8;
+    }
+}
+const v17 = new C3(-9.223005697694528);
+new C3(1000.0);
+const v19 = new C3(2.2250738585072014e-308);
+const v20 = [v19,-9.223005697694528,2.2250738585072014e-308];
+const v22 = [-9.223005697694528,v20,v19,[C3],1000.0];
+-Infinity;
+try {
+    v20[268435439] = v17;
+} catch(e26) {
+}
+for (let [v27,...v28] of v22) {
+    const o29 = {
+    };
+    try {
+        new Proxy(v20, o29);
+    } catch(e32) {
+    }
+}

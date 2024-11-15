@@ -1,0 +1,24 @@
+try {
+    new Uint8Array(5);
+} catch(e3) {
+}
+try {
+    new Float64Array(803);
+} catch(e7) {
+}
+try {
+    new Uint32Array(6);
+} catch(e11) {
+}
+let v19;
+try { v19 = (64)["n"]("n", 6, "n", "n", 64); } catch (e) {}
+try {
+    v19[1000] = v19;
+} catch(e20) {
+}
+const v22 = Symbol.species;
+v19[v22] = 89234013n;
+try {
+    v22[2554899512] = 64;
+} catch(e23) {
+}

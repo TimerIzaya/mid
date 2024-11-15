@@ -1,0 +1,39 @@
+let v2 = 0;
+try {
+    new Float32Array(118);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(1000);
+} catch(e10) {
+}
+try {
+    new Float64Array(1137);
+} catch(e14) {
+}
+class C15 extends BigInt64Array {
+    constructor(a17, a18, a19) {
+        let v16 = this;
+        super(a18, 2147483647, 1137);
+        [v2,v16] = v16;
+    }
+    0 = Float64Array;
+    static #n(a21, a22, a23, a24) {
+        return -4294967295n;
+    }
+}
+const v28 = new C15(C15, v2, v2);
+const v29 = new C15(C15, 1137, -65537);
+new C15(v28, v2, 1137);
+try {
+    const o31 = {
+    };
+    v29.every(v2, o31);
+} catch(e33) {
+}
+try {
+    const o34 = {
+    };
+    new Float32Array(o34);
+} catch(e36) {
+}

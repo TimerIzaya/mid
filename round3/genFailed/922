@@ -1,0 +1,16 @@
+new WeakSet();
+let v14;
+try {
+const t0 = "g";
+v14 = t0(1818901274, -5);
+} catch (e) {}
+let {"b":v15,"d":v16,...v17} = v14;
+try {
+    v17.valueOf = v15;
+} catch(e18) {
+}
+const t11 = "g";
+t11[16] -= -9007199254740992;
+const v19 = ("dotAll")[1];
+try { v14(15n, v14, -9007199254740992, -128, -9007199254740992); } catch (e) {}
+%VerifyType(v19);

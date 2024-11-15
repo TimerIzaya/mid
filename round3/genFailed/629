@@ -1,0 +1,51 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(1650233332);
+new F3(1650233332);
+const v9 = new F3(-54812);
+new Date();
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v9;
+    } catch(e20) {
+    }
+    try {
+        this.f = -8.204239048214455e+307;
+    } catch(e21) {
+    }
+    try {
+        this.d = v7;
+    } catch(e22) {
+    }
+}
+new F15(1650233332, -8.204239048214455e+307, 1000000000000.0);
+new F15(1650233332, -8.204239048214455e+307, 1000000000000.0);
+new F15(-54812, -8.204239048214455e+307, -8.204239048214455e+307);
+for (let v26 = 0; v26 < 72; v26++) {
+    Date.prototype %= v26;
+    [Date,this,this,Date,this];
+}
+const v30 = Symbol.iterator;
+const o39 = {
+    [v30]() {
+        let v32 = 10;
+        const o38 = {
+            next() {
+                v32--;
+                const v36 = v32 == 0;
+                const o37 = {
+                    "done": v36,
+                    "value": v32,
+                };
+                return o37;
+            },
+        };
+        return o38;
+    },
+};

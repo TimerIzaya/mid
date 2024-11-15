@@ -1,0 +1,58 @@
+const v0 = [-6.6914400054356555,4.0,-1.0,-4.0,-0.0,-1000.0,0.2215142746300458,4.0];
+const v1 = [Infinity,815664.1390881129,0.6224655542625036,0.42372525787342574,-0.727295552125165,2.2250738585072014e-308];
+const v2 = [2.2250738585072014e-308,0.9096372350717615,-5.881982173642477,7.641864596119923,-1.7437280484477747e+308,59.62021238961074,0.358025538057829,-3.296331167682382,-5.0];
+class C3 {
+    get d() {
+        let v5;
+        try { v5 = this.o(); } catch (e) {}
+        try {
+            v1[128] = v5;
+        } catch(e6) {
+        }
+        return v5;
+    }
+    m(a8) {
+        try {
+            super.sqrt(a8, v0, v1, v2);
+        } catch(e10) {
+        }
+        return v1;
+    }
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+const v15 = new Date();
+[v11,v0,v12,v13,v12];
+const v17 = [v1,v2,Date];
+const v18 = [Date,v17,v0];
+function f19(a20, a21) {
+    const o29 = {
+        "h": a20,
+        [v15](a23, a24, a25, a26) {
+            var a = a26;
+            try {
+                a23 >>> this;
+            } catch(e28) {
+            }
+            return a24;
+        },
+        1058102642: v2,
+        "g": v18,
+        __proto__: v17,
+        "e": Date,
+        ...a20,
+    };
+    return o29;
+}
+const v30 = f19(C3, v12);
+f19(v11, v12);
+v15[f19(v12, v13)];
+try {
+    v18.length = 0;
+} catch(e35) {
+}
+let v36;
+try { v36 = v30.atanh(v12); } catch (e) {}
+v17["findLast"](v36, v2);
+("findLast")[659096435];

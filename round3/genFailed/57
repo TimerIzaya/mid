@@ -1,0 +1,39 @@
+try {
+    new Int32Array(817);
+} catch(e3) {
+}
+try {
+    new Uint32Array(8);
+} catch(e7) {
+}
+try {
+    new Float64Array(194);
+} catch(e11) {
+}
+class C15 extends Float64Array {
+    static #h = Int32Array;
+    static [11] = 194;
+    #m(a17, a18) {
+        try {
+            this.#h = a17;
+        } catch(e19) {
+        }
+        return Float64Array;
+    }
+    [Float64Array];
+    6;
+    [-2] = Uint32Array;
+}
+new C15();
+const v21 = new C15();
+new C15();
+for (let v23 = 0; v23 < 84; v23++) {
+    try {
+        v21.fill(817, v23, -319762659);
+    } catch(e26) {
+    }
+}
+try {
+    -1 > C15 ? -1 : C15;
+} catch(e29) {
+}

@@ -1,0 +1,53 @@
+const v0 = [];
+try {
+    new Float32Array(1764);
+} catch(e4) {
+}
+try {
+    new Int16Array(9);
+} catch(e8) {
+}
+try {
+    new Int8Array(4076);
+} catch(e12) {
+}
+class C13 extends Int16Array {
+    static #c;
+    static {
+        const o15 = {
+            __proto__: this,
+            [-1]: this,
+        };
+        const v16 = super.byteOffset;
+        try {
+            o15.f = v16;
+        } catch(e17) {
+        }
+    }
+    [9] = Float32Array;
+    #b = 9;
+}
+const v18 = new C13();
+const v19 = new C13();
+const v20 = new C13();
+new WeakMap();
+[C13,Int16Array,Float32Array];
+[WeakMap,9,4076];
+const v25 = [v18,9,v18];
+try { v19.reduce(v25); } catch (e) {}
+try {
+    const v29 = -Infinity;
+    const v30 = 9 - 49171;
+    const v31 = v29 << 9;
+    try {
+        Math.ceil(v31);
+    } catch(e33) {
+    }
+    v30 ^ v30;
+    !v31;
+} catch(e36) {
+    new Int16Array(e36, e36, Float32Array, e36, ...v20, ...v25);
+    for (let v38 = 0; v38 < 32; v38++) {
+        v0["p" + v38] = v38;
+    }
+}

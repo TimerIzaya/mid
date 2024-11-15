@@ -1,0 +1,63 @@
+class C3 {
+    static 16 = C3;
+    n(a5, a6) {
+        try {
+            a6 = -2;
+        } catch(e7) {
+        }
+        return a6;
+    }
+    #o(a9, a10) {
+        const v11 = (a12, a13) => {
+            const v14 = [0.927662132988256,0.4633794728428803,1.7976931348623157e+308,-490.02079510670194,5.1747273159427625];
+            try { v14.toLocaleString(); } catch (e) {}
+            class C18 {
+            }
+            const v19 = new C18();
+            v19[-1218210988] = "length";
+            for (let v20 = 0; v20 < 32; v20++) {
+                const v22 = -Infinity;
+                v22 & v22;
+                for (const v26 in "Av9zN") {
+                    ("z")[v26];
+                }
+                const t23 = "number";
+                t23["p" + v20] = v20;
+            }
+            return a9;
+        };
+        return "number";
+    }
+}
+const v29 = new C3();
+const v30 = new C3();
+v30.length = -2;
+new C3();
+new WeakMap();
+function f36(a37) {
+    try {
+        a37.c = v29;
+    } catch(e38) {
+    }
+    return 9223372036854775807;
+}
+Uint32Array[Symbol.toPrimitive] = f36;
+try {
+    new Uint32Array(696);
+} catch(e42) {
+}
+try {
+    new BigUint64Array(v30);
+} catch(e46) {
+}
+BigUint64Array[Symbol.toPrimitive] = f36;
+try {
+    new BigUint64Array(26);
+} catch(e52) {
+}
+BigUint64Array[Symbol.toPrimitive] = Symbol;
+function f58() {
+    return Symbol;
+}
+Object.defineProperty(Uint32Array, "valueOf", { configurable: true, enumerable: true, get: f58 });
+new Uint32Array([Uint32Array,BigUint64Array]);

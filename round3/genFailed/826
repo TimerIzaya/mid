@@ -1,0 +1,63 @@
+class C3 {
+    static valueOf(a5, a6) {
+        try {
+            this.__proto__ = this;
+        } catch(e7) {
+        }
+        return 1000000000000.0;
+    }
+    f;
+    constructor(a9, a10) {
+        try {
+            new Float64Array(1873);
+        } catch(e14) {
+        }
+        try {
+            new Int8Array(2914);
+        } catch(e18) {
+        }
+        try {
+            new Float64Array(57);
+        } catch(e22) {
+        }
+    }
+}
+const v23 = new C3(0.2082880948705973, 1000000000000.0);
+const v24 = new C3(0.2082880948705973, 1000000000000.0);
+const v25 = new C3(0.2082880948705973, 0.2082880948705973);
+[264778.86579313525,0.15087128874284617];
+const v27 = [4.8777176973294e+307];
+const v28 = [3.758195511341146,-5.011663372086401];
+class C29 extends C3 {
+    static [NaN];
+    constructor(a31, a32, a33, a34) {
+        super(0.2082880948705973, 1000000000000.0);
+        switch (a31) {
+            default:
+                Reflect.construct(a34, [a34], a34);
+                break;
+        }
+    }
+    static #g;
+    e;
+}
+const v38 = new C29(0.2082880948705973, NaN, C3, v28);
+new C29(NaN, 0.2082880948705973, v25, v38);
+new C29(0.2082880948705973, 1000000000000.0, v24, v23);
+let v43 = Reflect.construct(C29, [NaN,0.2082880948705973,Reflect,v38], C3);
+try {
+    try {
+        v43 = 1000000000000.0;
+    } catch(e44) {
+    }
+} catch(e45) {
+    try {
+        -C29;
+    } catch(e47) {
+    }
+} finally {
+    try {
+        Reflect.valueOf = v27;
+    } catch(e48) {
+    }
+}

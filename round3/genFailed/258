@@ -1,0 +1,46 @@
+const v0 = [];
+class C1 {
+    [v0];
+    static #p() {
+        let v2 = this;
+        let {"c":v3,"length":v4,} = v0;
+        ({"a":v4,"c":v2,} = v2);
+        try {
+            v0.reduce(v3, v2);
+        } catch(e6) {
+        }
+        return v0;
+    }
+    static [v0] = v0;
+    static 3081 = v0;
+    static #h;
+    static e = v0;
+}
+new C1();
+const v8 = new C1();
+new C1();
+function f10() {
+    return v8;
+}
+try {
+    new BigUint64Array(1);
+} catch(e17) {
+}
+try {
+    new Uint32Array(2063);
+} catch(e21) {
+}
+try {
+    new Uint8ClampedArray(255);
+} catch(e25) {
+}
+Object.defineProperty("p", 10, { get: f10 });
+try {
+    f10();
+} catch(e27) {
+}
+let v28 = 0;
+while (v28 < 0) {
+    typeof 1 === "bigint";
+    v28++;
+}

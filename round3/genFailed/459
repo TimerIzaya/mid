@@ -1,0 +1,60 @@
+class C3 {
+    constructor(a5) {
+        1e-15 instanceof a5;
+        try {
+            a5.d = 65022;
+        } catch(e7) {
+        }
+    }
+    #c;
+    static [65022];
+    static [1e-15];
+    static 1073741825 = 1e-15;
+}
+const v8 = new C3(65022);
+const v9 = new C3(v8);
+const v10 = new C3(v9);
+const v11 = [v8,1e-15,v10,1e-15];
+const v12 = [v8,1e-15,65022,"finally"];
+const v13 = [C3,v12,1e-15,v11,v9];
+function f14(a15, a16, a17, a18) {
+    const o34 = {
+        __proto__: v13,
+        "e": a16,
+        p(a20, a21, a22, a23) {
+            /(ab|cde)\1/gydum;
+            /(\u{12345}\u{23456})/yum;
+            /nm+/gyu;
+            let v28 = -15;
+            a22 % v13;
+            const v30 = ++v28;
+            const v31 = v13 && v28;
+            try {
+                Math.atanh(v30);
+            } catch(e33) {
+            }
+            return v31;
+        },
+    };
+    return o34;
+}
+f14(v12, v9, v11, f14(v9, "finally", v13, v9));
+f14(v11, v12, v12, C3);
+const v39 = Symbol.iterator;
+const o48 = {
+    [v39]() {
+        let v41 = 10;
+        const o47 = {
+            next() {
+                v41--;
+                const v45 = v41 == 0;
+                const o46 = {
+                    "done": v45,
+                    "value": v41,
+                };
+                return o46;
+            },
+        };
+        return o47;
+    },
+};

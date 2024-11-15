@@ -1,0 +1,52 @@
+function f0() {
+}
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a7;
+    } catch(e8) {
+    }
+    try {
+        this.g = -1000.0;
+    } catch(e9) {
+    }
+    try {
+        this.d = f0;
+    } catch(e10) {
+    }
+}
+const v11 = new F4(2.0, 2.0);
+const v12 = new F4(-1000.0, -1000.0);
+const v13 = new F4(f0, -1000.0);
+class C14 {
+    static [v11];
+    #g = v11;
+    static {
+        let v16;
+        try { v16 = v11.toString(); } catch (e) {}
+        try {
+            F4 && v16;
+        } catch(e18) {
+        }
+    }
+    #a;
+    static [-1000.0] = v12;
+    #b;
+}
+new C14();
+new C14();
+const v21 = new C14();
+try {
+    C14 % -1000.0;
+} catch(e23) {
+}
+Object.defineProperty(v13, "h", { get: f0 });
+const v24 = C14.g;
+let v25 = v11.e;
+let v26;
+try { v26 = v11.asIntN(f0, v24, v25, 2.0); } catch (e) {}
+({"d":v25,"e":v25,} = v26);
+try {
+    v11.h = v21;
+} catch(e27) {
+}

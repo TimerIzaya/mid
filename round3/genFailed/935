@@ -1,0 +1,65 @@
+try {
+    new Float64Array(3755);
+} catch(e3) {
+}
+try {
+    new Float32Array(3232);
+} catch(e7) {
+}
+try {
+    new Uint8Array(3568);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    static #a = 3568;
+    constructor(a14, a15) {
+        super(3755, a15, 3232);
+        try { a15(3232, Uint8Array, 3568, a14, a14); } catch (e) {}
+        super.byteOffset >>= a14;
+        super[this];
+    }
+    static #g;
+    static #o(a19, a20, a21) {
+        try {
+            ~a21;
+        } catch(e23) {
+        }
+        return Reflect.construct(Float32Array, [Reflect], Uint8Array);
+    }
+}
+const v27 = new C12(3568, 3755);
+const v28 = new C12(3755, 3755);
+const v29 = new C12(3232, 3755);
+class C30 extends Float32Array {
+    static {
+        throw 3232;
+    }
+    g = 3568;
+    b = 3755;
+    m(a33, a34) {
+        %VerifyType(a34);
+        try { v27.sort(C12); } catch (e) {}
+        return C12;
+    }
+    static 4294967296 = C12;
+    static #b = Uint8Array;
+    f;
+    static #h;
+}
+const v37 = new C30();
+new C30();
+new C30();
+const v40 = [Float32Array,3755,3232];
+[v27,v29];
+[v37];
+%VerifyType(Float64Array);
+let v43;
+try { v43 = v27(); } catch (e) {}
+v28[v28];
+for (let i46 = 0; i46 < 10; i46++) {
+    try { v27.map(v43, v40); } catch (e) {}
+    try {
+        v27[0] = i46;
+    } catch(e56) {
+    }
+}

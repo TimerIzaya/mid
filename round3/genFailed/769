@@ -1,0 +1,31 @@
+new Date();
+function f2() {
+    return Date;
+}
+class C6 extends f2 {
+    #e = Infinity;
+    h;
+    constructor(a8, a9, a10, a11) {
+        super();
+        function f12() {
+            return this;
+        }
+    }
+    #a;
+    f;
+}
+const v13 = new C6(-1.7976931348623157e+308, 3.415453817531384e+307, 3.415453817531384e+307, Infinity);
+const v14 = new C6(Infinity, Infinity, Infinity, -1.7976931348623157e+308);
+new C6(3.415453817531384e+307, Infinity, 3.415453817531384e+307, v14);
+try {
+    v13.d = Infinity;
+} catch(e16) {
+}
+let v18 = -256;
+let v19 = 268435439;
+--v19;
+try {
+    Math.floor(Date);
+} catch(e23) {
+}
+--v18;

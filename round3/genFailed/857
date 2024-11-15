@@ -1,0 +1,71 @@
+try {
+    new Int16Array(2383);
+} catch(e3) {
+}
+try {
+    new Uint16Array(13);
+} catch(e7) {
+}
+try {
+    new Uint16Array(29);
+} catch(e11) {
+}
+class C12 extends Uint16Array {
+    toString(a14, a15) {
+        const v17 = [];
+        return Reflect.apply(this.keys, this, v17);
+    }
+    valueOf(a21, a22, a23, a24) {
+        try {
+            new Uint16Array(6);
+        } catch(e28) {
+        }
+        try {
+            new Float64Array(295);
+        } catch(e32) {
+        }
+        try {
+            new BigInt64Array(0);
+        } catch(e36) {
+        }
+        return Uint16Array;
+    }
+}
+const v37 = new C12();
+let v38 = new C12();
+const v39 = new C12();
+class C40 {
+    get c() {
+        [-2.220446049250313e-16,-132760.513648303,-8.785792584605417,863.1190905387466,725222.9548624714,-4.0,2.2250738585072014e-308];
+        const v43 = [1000000000.0,0.0,-669.3807698685603,1e-15,-1.7584394166640617e+308];
+        [1000000000.0,0.2062714540036601,-1000000000000.0,2.2250738585072014e-308,-2.220446049250313e-16,-8.57657381055827,-298357.7535504927,-914188.8757013074];
+        return v43;
+    }
+    constructor(a46, a47, a48) {
+        try {
+            new Uint16Array(this, 13, 2383);
+        } catch(e50) {
+        }
+        try {
+            v38.__proto__ = this;
+        } catch(e51) {
+        }
+    }
+}
+const v52 = new C40(v37, 13, Int16Array);
+const v53 = new C40(v37, 29, v52);
+new C40(v39, 29, v53);
+const t57 = C40[7];
+t57[4] = C12;
+++v38;
+const v59 = v38 | v39;
++v39;
+const v61 = v59 & v38;
+try {
+    Math.asinh(v61);
+} catch(e63) {
+}
+try {
+    Math.clz32(v61);
+} catch(e65) {
+}

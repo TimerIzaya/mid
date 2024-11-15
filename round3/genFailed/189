@@ -1,0 +1,66 @@
+function f0() {
+    const o15 = {
+        [60550](a5) {
+            try {
+                super[this] = a5;
+            } catch(e6) {
+            }
+            const o9 = {
+                "maxByteLength": 256,
+            };
+            const v11 = new SharedArrayBuffer(256, o9);
+            try {
+                new Int32Array(v11);
+            } catch(e14) {
+            }
+            return 56901;
+        },
+    };
+    return o15;
+}
+f0();
+const v17 = f0();
+const v18 = f0();
+class C19 {
+    static #a;
+    e = v17;
+    static [-2] = v17;
+    static #n(a21, a22) {
+        try {
+            f0();
+        } catch(e24) {
+        }
+        v18[Symbol.unscopables] = a21;
+        return a21;
+    }
+    #b;
+}
+new C19();
+new C19();
+const v29 = new C19();
+try {
+    new Int16Array(6);
+} catch(e33) {
+}
+try {
+    new Int8Array(16);
+} catch(e37) {
+}
+try {
+    new BigInt64Array(64);
+} catch(e41) {
+}
+for (let [v42,v43,v44,v45] of 6) {
+    try {
+        Math.cbrt(v43);
+    } catch(e51) {
+    }
+    -2.2250738585072014e-308 & v43;
+    try {
+        Math.cbrt(7);
+    } catch(e54) {
+    }
+    let v55 = !7;
+    v43 ** v29;
+    --v55;
+}

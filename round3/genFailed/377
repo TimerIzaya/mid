@@ -1,0 +1,65 @@
+function f0() {
+    const o10 = {
+        256: "function",
+        "d": 5.941732134705258e+307,
+        [5.941732134705258e+307]: "function",
+        "g": 5.941732134705258e+307,
+        "b": "function",
+        2: 5.941732134705258e+307,
+        "a": 5.941732134705258e+307,
+        set f(a5) {
+            function f9() {
+                return a5;
+            }
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f20() {
+    return 779369948n;
+}
+function f21(a22, a23, a24) {
+    const o32 = {
+        "f": 779369948n,
+        [a24](a26, a27) {
+            f0();
+            %PrepareFunctionForOptimization(f0);
+            const v29 = f0();
+            f0();
+            %OptimizeMaglevOnNextCall(f0);
+            f0();
+            return v29;
+        },
+        "d": f20,
+        "c": 779369948n,
+        __proto__: a24,
+        "b": a24,
+        "g": a24,
+    };
+    return o32;
+}
+f21(v13, v13, v11);
+const v34 = f21(v12, v12, v13);
+f21(v13, v12, v13);
+for (const v36 of f0) {
+    const o37 = {
+        __proto__: v34,
+        ...v36,
+        "c": f21,
+    };
+}
+try {
+    new BigUint64Array(225);
+} catch(e41) {
+}
+try {
+    new Uint8Array(1);
+} catch(e45) {
+}
+try {
+    new Uint8Array(236);
+} catch(e49) {
+}

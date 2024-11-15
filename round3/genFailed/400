@@ -1,0 +1,72 @@
+function f3(a4, a5) {
+    const o16 = {
+        m(a7, a8) {
+            const v12 = -"o";
+            try {
+                Math.random();
+            } catch(e14) {
+            }
+            v12 & 5.0;
+            return -2147483649;
+        },
+        "b": "bigint",
+        "e": "o",
+    };
+    return o16;
+}
+const v17 = f3("o", "bigint");
+const v19 = f3(f3(v17, "compile"), "compile");
+function f20() {
+    return v17;
+}
+class C21 extends f3 {
+    ["compile"];
+    static get d() {
+        super.m();
+        Object.defineProperty("compile", 4, { configurable: true, set: f3 });
+        function f24() {
+            return v19;
+        }
+        return f3;
+    }
+    constructor(a26, a27) {
+        super(a26, a27);
+        super.m();
+        var c = a27;
+    }
+}
+new C21("compile", "bigint");
+new C21("bigint", "compile");
+new C21("compile", "compile");
+[-4.2941015498957173e+307,8.50811321913108,787062.4251280776,1000.0,-83.82457296634936,1000000000.0,-1000000.0,-386.45259270737074];
+[-2.084917735056786,-0.0,-738.7102060853721,Infinity,2.2250738585072014e-308,-800.9094766291685,1000000000.0,-1.7976931348623157e+308,300116.84652085905,2.220446049250313e-16];
+const v34 = [-1.1660478379379444e+308,-4.0,-2.0412363109407158e+307,942.179290419552,-7.139821622021161];
+const o35 = {
+};
+try {
+    o35.d = f20;
+} catch(e36) {
+}
+try {
+    const o37 = {
+    };
+    o37.d = f20;
+    o37.e = v17;
+} catch(e38) {
+}
+try {
+    const o39 = {
+    };
+    o39.d = f20;
+    o39.e = v17;
+    o39.a = v34;
+} catch(e40) {
+}
+try {
+    const o41 = {
+    };
+    o41.d = f20;
+    o41.e = v17;
+    o41.a = v34;
+} catch(e42) {
+}

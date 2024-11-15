@@ -1,0 +1,57 @@
+class C3 {
+    h = 14;
+    #c;
+    static 8;
+    constructor(a5, a6) {
+        a5[Symbol.search] = this;
+    }
+    static set e(a10) {
+        try {
+            super.setUint32(8, a10);
+        } catch(e12) {
+        }
+        const t12 = "1KH";
+        delete t12?.length;
+    }
+}
+const v14 = new C3(8, "1KH");
+const v15 = new C3(v14, 8);
+const v16 = new C3(C3, 8);
+function f17(a18, a19, a20, a21) {
+    const o30 = {
+        ...v14,
+        "f": C3,
+        __proto__: v15,
+        ...v16,
+        toString(a23, a24, a25) {
+            if (a21 >= "1KH") {
+                try {
+                    a18 || C3;
+                } catch(e28) {
+                }
+            } else {
+                try {
+                    C3.toString = a25;
+                } catch(e29) {
+                }
+            }
+            return 14;
+        },
+    };
+    return o30;
+}
+const v31 = f17(v16, C3, 8, v14);
+const v32 = f17(v15, v15, v31, v14);
+f17(v16, v32, v32, v14);
+/d/sdum;
+const v35 = /[k(x)(x)(x)\3]/gisdum;
+const v36 = /5/gdvm;
+g?.c;
+let {"b":v39,"f":v40,...v41} = v31;
+let v42;
+try { v42 = v16.getSeconds(v35, f17); } catch (e) {}
+try {
+    g ^ v42;
+} catch(e44) {
+}
+Object.defineProperty(v36, 1073741823, { enumerable: true, get: f17, set: f17 });

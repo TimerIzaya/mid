@@ -1,0 +1,16 @@
+new Array(7);
+new Map();
+Object.defineProperty("f", Array(7), { configurable: true, get: Array });
+const o24 = {
+    valueOf() {
+        const o18 = {
+            "maxByteLength": 2414,
+        };
+        const v20 = new SharedArrayBuffer(9, o18);
+        try {
+            new Int32Array(v20);
+        } catch(e23) {
+        }
+        return -196916.5050520338;
+    },
+};

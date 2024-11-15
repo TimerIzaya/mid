@@ -1,0 +1,41 @@
+const v0 = [-1024,3];
+const v1 = [65537,14,2147483648,-268435456,9,-9007199254740992];
+const v2 = [65535,6,-65536,-1646204947,12910,-268435456,536870888];
+function f3(a4, a5) {
+    const o13 = {
+        __proto__: a5,
+        toString(a7, a8) {
+            class C9 {
+                [a7];
+            }
+            new C9();
+            new C9();
+            new C9();
+            return a5;
+        },
+        [a4]: v0,
+        [a5]: v0,
+        "h": v0,
+    };
+    return o13;
+}
+const v14 = f3(v1, v1);
+f3(f3(v14, v0), v1);
+try {
+    Object.defineProperty(v14, 4, { get: f3, set: f3 });
+    v2[7];
+} catch(e24) {
+    function F25(a27, a28) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.h = 57830;
+        } catch(e29) {
+        }
+    }
+    const v30 = new F25(e24, e24);
+    const v31 = new F25(v0, v30);
+    new F25(v1, v31);
+} finally {
+    v1[1312] >>= -2;
+    v2[Symbol.replace] = v14;
+}

@@ -1,0 +1,46 @@
+try {
+    new Int16Array(8);
+} catch(e3) {
+}
+try {
+    new Int16Array(1);
+} catch(e7) {
+}
+try {
+    new Int16Array(5);
+} catch(e11) {
+}
+const v13 = new WeakMap();
+function f14(a15, a16, a17) {
+    const o26 = {
+        __proto__: v13,
+        get e() {
+            const v19 = a16?.[this];
+            let v20;
+            try { v20 = v19.setInt32(v19, WeakMap, 5, v19, v19); } catch (e) {}
+            v20?.[128];
+            v19.__proto__;
+            Object.defineProperty(this, 1, { configurable: true, enumerable: true, value: this });
+            return a16;
+        },
+        ...a16,
+        ...a17,
+    };
+    return o26;
+}
+f14(5, f14(1, Int16Array, 8), v13);
+f14(5, 1, Int16Array);
+[268435440,9223372036854775807,6140,536870889,-1,127,4];
+[-6864,-4294967296,10000,536870888,2147483648,-1185866154,127,-12,7];
+[49120,16,-5,-395352643,-824898212,1531,1169830573,2147483647];
+const v41 = -16378 && (-16378 >> 8);
+const v42 = !-16378;
+try {
+    Math.log2(-16378);
+} catch(e44) {
+}
+try {
+    Math.acos(v42);
+} catch(e46) {
+}
+v41 << 8;

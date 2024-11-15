@@ -1,0 +1,26 @@
+const v1 = new Date();
+function f2() {
+    return v1;
+}
+class C3 extends f2 {
+    static {
+        try { this.freeze(f2, this); } catch (e) {}
+    }
+    #b = v1;
+    static #d;
+    static [f2];
+    c;
+}
+const v9 = new C3();
+let v10 = new C3();
+const v11 = new C3();
+v1.g += -536870912;
+%VerifyType(v9);
+v11[Date];
+0 << v10;
+try {
+    Math.atan(0);
+} catch(e20) {
+}
+v10--;
+v10 >>> C3;

@@ -1,0 +1,45 @@
+/P6(ab|cde)\1[ra{(?=a){1,10}a]/gd;
+const v1 = /a\nb\bcZV[a-b-c]]A?/y;
+const v2 = /\q/gm;
+try {
+    new Uint8Array(0);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(160);
+} catch(e14) {
+}
+try {
+    new Int16Array(198);
+} catch(e18) {
+}
+class C19 extends Int16Array {
+    [false] = Int16Array;
+    static {
+        class C21 {
+            e = this;
+        }
+        new C21();
+        new C21();
+        new C21();
+    }
+    static [v2];
+    static c;
+    2147483648 = "1073741824";
+}
+const v28 = new C19();
+const v29 = new C19();
+const v30 = new C19();
+let v31;
+try { v31 = v30.filter(Uint8Array); } catch (e) {}
+const v32 = Int16Array instanceof Uint8Array;
+function F33(a35, a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a38;
+    } catch(e39) {
+    }
+}
+new F33(v32, v28, v29, v1);
+new F33(v32, v31, v30, v2);
+new F33("p", v28, v28, v1);

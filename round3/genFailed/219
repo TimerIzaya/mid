@@ -1,0 +1,37 @@
+let v3 = 184;
+try {
+    new Float32Array(v3);
+} catch(e6) {
+}
+try {
+    new Uint8Array(1206);
+} catch(e10) {
+}
+try {
+    new Int16Array(991);
+} catch(e14) {
+}
+function f15() {
+    return Uint8Array;
+}
+const v19 = new Float32Array(991);
+const o20 = {
+    ...v19,
+    "e": 1206,
+};
+try {
+    Object.defineProperty(o20, "b", { configurable: true, enumerable: true, set: f15 });
+} catch(e21) {
+} finally {
+    throw 10n;
+    let v26 = 129;
+    try {
+        Math.exp(1.1720389148308955e+308);
+    } catch(e29) {
+    }
+    v3++;
+    const v31 = --v26;
+    v3 + 1206;
+    v3++;
+    -v31;
+}

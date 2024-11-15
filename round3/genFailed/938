@@ -1,0 +1,45 @@
+try {
+    new Uint16Array(127);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(1743);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3505);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o15 = {
+        ...a13,
+        3617: a13,
+        [a13]: Uint16Array,
+        10: BigUint64Array,
+        "a": BigUint64Array,
+        [a14]: 3505,
+        __proto__: a13,
+        "g": a14,
+        "f": a14,
+        "d": a14,
+        "b": BigUint64Array,
+        "e": a14,
+        ...a13,
+    };
+    return o15;
+}
+const v16 = f12(Uint16Array, 127);
+const v17 = f12(v16, 3505);
+const v18 = f12(Uint8ClampedArray, 127);
+for (let v22 = 0; v22 < 32; v22++) {
+    v18["p" + v22] = v22;
+}
+function f25(a26, a27, a28) {
+    'use strict';
+    try {
+        3505 * Uint8ClampedArray;
+    } catch(e30) {
+    }
+    return 127;
+}
+f25(v17, v18, v16);

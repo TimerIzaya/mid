@@ -1,0 +1,66 @@
+class C6 {
+    static h = 10n;
+    get d() {
+        a = -57136;
+        try {
+            super[-256n] = this;
+        } catch(e8) {
+        }
+        return -57136;
+    }
+    static 1049886520;
+    [7] = -57136;
+    static b;
+    f;
+    static d;
+}
+new C6();
+const v10 = new C6();
+const v11 = new C6();
+const v13 = new WeakSet();
+class C14 extends WeakSet {
+    b;
+    static set d(a16) {
+        try {
+            super.g = a16;
+        } catch(e17) {
+        }
+    }
+    constructor(a19, a20, a21) {
+        super(a20);
+        const v26 = Symbol.iterator;
+        const o35 = {
+            [v26]() {
+                let v28 = 10;
+                const o34 = {
+                    next() {
+                        v28--;
+                        const v32 = v28 == 0;
+                        const o33 = {
+                            "done": v32,
+                            "value": v28,
+                        };
+                        return o33;
+                    },
+                };
+                return o34;
+            },
+        };
+    }
+}
+const v36 = new C14(10n, v10, v10);
+new C14(11n, v13, v13);
+new C14(10n, v11, v11);
+let v39 = 0;
+while (v39 < 7) {
+    let v42;
+    try { v42 = v36.has(C14); } catch (e) {}
+    try { v42(); } catch (e) {}
+    try {
+        const o44 = {
+        };
+        new WeakSet(o44);
+    } catch(e46) {
+    }
+    v39++;
+}

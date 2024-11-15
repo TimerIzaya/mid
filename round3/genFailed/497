@@ -1,0 +1,49 @@
+class C3 {
+    static #m(a5) {
+        return 512;
+    }
+    p(a10) {
+        try {
+            super.trimRight(9007199254740992);
+        } catch(e12) {
+        }
+        try {
+            super.create(a10, this, 14, 14, 9007199254740992);
+        } catch(e14) {
+        }
+        return 9007199254740992;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+function f18() {
+    return v17;
+}
+class C19 extends f18 {
+    #c = C3;
+    static valueOf(a21, a22, a23, a24) {
+        try {
+            v15 || C3;
+        } catch(e26) {
+        }
+        return this;
+    }
+    g;
+    [9007199254740992] = v15;
+    [f18] = v16;
+}
+const v27 = new C19();
+const v28 = new C19();
+const v29 = new C19();
+let v30;
+try { v30 = C3.set(v16, v29, v17, v27); } catch (e) {}
+try {
+    v28 ^ v30;
+} catch(e32) {
+}
+const v34 = v28["p"](v28, ..."p", ..."string", v15);
+try {
+    v34.valueOf = v34;
+} catch(e35) {
+}

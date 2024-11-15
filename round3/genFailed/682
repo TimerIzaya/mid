@@ -1,0 +1,38 @@
+new WeakMap();
+class C9 {
+    constructor(a11, a12, a13) {
+        function f14(a15, a16, a17) {
+            function f19(a20) {
+                try {
+                    this[83] = a20;
+                } catch(e21) {
+                }
+            }
+            this.onmessage = f19;
+            this.onmessage;
+            const o26 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o26);
+        }
+        const v30 = ["function",1791038930n,a12];
+        const o31 = {
+            "arguments": v30,
+            "type": "function",
+        };
+        new Worker(f14, o31);
+    }
+}
+new C9(1791038930n, true, 7n);
+new C9(-49966n, 1000000.0, 1791038930n);
+new C9(1791038930n, -49966n, -49966n);
+if (true) {
+    const o36 = {
+    };
+    try {
+        new Proxy(C9, o36);
+    } catch(e39) {
+    }
+} else {
+}

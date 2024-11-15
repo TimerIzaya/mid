@@ -1,0 +1,28 @@
+function f3() {
+    return 2;
+}
+const v5 = new WeakSet();
+try {
+    new BigInt64Array(5);
+} catch(e12) {
+}
+try {
+    new Uint32Array(3682);
+} catch(e16) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e20) {
+}
+function f21(a22, a23, a24, a25) {
+    Object.defineProperty(a22, "e", { configurable: true, enumerable: true, set: f3 });
+    function f26() {
+        return Uint32Array;
+    }
+    return f3;
+}
+f21("o", "o", "NnZKo", -9007199254740990);
+try {
+    v5[-9007199254740990] = 3682;
+} catch(e28) {
+}

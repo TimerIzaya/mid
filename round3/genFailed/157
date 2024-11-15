@@ -1,0 +1,19 @@
+try {
+    new BigUint64Array(256);
+} catch(e3) {
+}
+try {
+    new Int16Array(2071);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3926);
+} catch(e11) {
+}
+const v12 = [-2147483648,-4096];
+const v13 = [9007199254740990];
+const v14 = [-268435456,44585,-44224295,5,512976581,1584288206];
+[NaN,BigUint64Array,[BigUint64Array,BigUint64Array,v12,BigUint64Array,[v13,v12]]];
+for (let i23 = 0, i24 = 10; i23 < i24; i23++, i24--) {
+    Object.defineProperty(v14, i23, { configurable: true, enumerable: true, value: f });
+}

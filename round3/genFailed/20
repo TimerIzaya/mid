@@ -1,0 +1,37 @@
+try {
+    new Int8Array(860);
+} catch(e3) {
+}
+try {
+    new Float64Array(75);
+} catch(e7) {
+}
+try {
+    new Uint32Array(129);
+} catch(e11) {
+}
+function f12() {
+    return Int8Array;
+}
+try {
+    new Uint8Array(478);
+} catch(e19) {
+}
+try {
+    new Float64Array(16);
+} catch(e23) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e27) {
+}
+for (const v28 of Float64Array) {
+    function f29() {
+        return Uint8Array;
+    }
+    v28?.[Int8Array];
+    try {
+        new f29();
+    } catch(e32) {
+    }
+}

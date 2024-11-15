@@ -1,0 +1,30 @@
+const v1 = new WeakSet();
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a8;
+    } catch(e9) {
+    }
+}
+const v10 = new F5(1403928447n, -2n);
+const v11 = new F5(1403928447n, 1403928447n);
+new F5(-2n, 1403928447n);
+try {
+    new Uint16Array(0);
+} catch(e19) {
+}
+try {
+    new Float64Array(7);
+} catch(e23) {
+}
+try {
+    new Int8Array(11);
+} catch(e27) {
+}
+v1[Symbol.search] = Float64Array;
+const v31 = [v1];
+const v33 = Reflect.apply(v1.has, v11, v31);
+try {
+    v10[v33] = v33;
+} catch(e34) {
+}

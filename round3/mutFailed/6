@@ -1,0 +1,41 @@
+function f0() {
+}
+try {
+    new Uint16Array(406);
+} catch(e4) {
+}
+try {
+    new Int32Array(f0);
+} catch(e8) {
+}
+try {
+    new Int8Array(10);
+} catch(e12) {
+}
+function f13() {
+    return f0;
+}
+class C18 extends Date {
+}
+const v19 = new C18();
+const t20 = 10;
+const v20 = new t20();
+function f21(a22) {
+    const v26 = 2147483649 ^ f13;
+    const v27 = +C18;
+    try {
+        Math.atan(v27);
+    } catch(e29) {
+    }
+    -v26;
+    return v20;
+}
+v20.toString = f21;
+const v31 = [3,-20487,-4294967297,-2635,-4251];
+function f32(a33, a34) {
+    return 406;
+}
+v31.valueOf = f32;
+v20.setUTCSeconds(v31, [1073741823]);
+v19.setHours(-1414945548, -1414945548);
+Object.defineProperty(Date, v20, { enumerable: true, set: Date });

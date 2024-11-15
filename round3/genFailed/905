@@ -1,0 +1,67 @@
+try {
+    new Int32Array(64);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(13);
+} catch(e7) {
+}
+try {
+    new Uint16Array(184);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o25 = {
+        "a": 64,
+        __proto__: a14,
+        o(a17, a18, a19, a20) {
+            class C21 extends BigUint64Array {
+                static #e;
+                static [13] = 13;
+            }
+            new C21();
+            new C21();
+            new C21();
+            return 184;
+        },
+        "h": BigUint64Array,
+        "e": 13,
+        "g": 13,
+    };
+    return o25;
+}
+f12(184, BigUint64Array, 13);
+f12(184, 64, 184);
+const v28 = f12(13, BigUint64Array, 13);
+class C29 extends Int32Array {
+    static #f = Uint16Array;
+    [13] = 13;
+    static 2244;
+    #b = 64;
+    static m(a31, a32) {
+        const v33 = new Uint16Array(13, 184, a31, a31);
+        try {
+            v28.#f /= a31;
+        } catch(e34) {
+        }
+        return v33;
+    }
+    #e = 13;
+    static [13] = 184;
+    static #a;
+}
+new C29();
+const v36 = new C29();
+const v37 = new C29();
+const v41 = v28[v28];
+const v42 = f12(64, v41, 13);
+function f43() {
+    return v42;
+}
+const v44 = [1n];
+[v36,7n,v28,Uint16Array];
+[Int32Array,-43185n,v28];
+let [...v47] = v37;
+[v47,7n];
+[Uint16Array,v44,v47];
+[v41,f43];

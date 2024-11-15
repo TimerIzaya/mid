@@ -1,0 +1,51 @@
+class C3 {
+    static {
+        Object.defineProperty("tanh", "b", { writable: true, configurable: true, value: -33695n });
+        Object.defineProperty("tanh", 14, { configurable: true, value: -33695n });
+        try {
+            ("tanh").padStart(268435439, "symbol");
+        } catch(e11) {
+        }
+    }
+}
+const v12 = new C3();
+new C3();
+const v14 = new C3();
+function f18(a19, a20, a21) {
+    const o32 = {
+        ...a20,
+        n(a23, a24, a25, a26) {
+            function f27(a28, a29) {
+                let v30;
+                try { v30 = new a19(a28, a24, ...a25, a29, ...a19, a29); } catch (e) {}
+                C3[v14] <<= v30;
+                return a26;
+            }
+            f27(a24, 16n);
+            return -1n;
+        },
+        __proto__: a20,
+        "e": a21,
+        "h": a19,
+    };
+    return o32;
+}
+f18(C3, v12, 16n);
+f18(-1n, "16912", -1n);
+f18(C3, v14, -33695n);
+try {
+    v12 - v12;
+} catch(e37) {
+}
+try {
+    new BigUint64Array(127);
+} catch(e41) {
+}
+try {
+    new Int16Array(9);
+} catch(e45) {
+}
+try {
+    new Uint16Array(257);
+} catch(e49) {
+}

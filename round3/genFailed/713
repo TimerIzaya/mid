@@ -1,0 +1,49 @@
+function f0() {
+    const o10 = {
+        "e": -10,
+        get b() {
+            let v4 = this;
+            try {
+                v4 &&= v4;
+            } catch(e5) {
+            }
+            return -15;
+        },
+        "b": -15,
+        [-2.3992569058016044e+307](a7, a8) {
+            try {
+                a7 >>= -15;
+            } catch(e9) {
+            }
+            return a8;
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a24;
+    } catch(e26) {
+    }
+    try {
+        this.a = a22;
+    } catch(e27) {
+    }
+}
+new F20("6", v12, v11, v12);
+new F20("b", v11, v13, v12);
+const v30 = new F20("b", v13, v12, v12);
+if (v30 != v12) {
+    ("b")["substring"](v11, "substring");
+    Object.defineProperty("substring", 1073741823, { writable: true, configurable: true, value: v12 });
+} else {
+    f0();
+}
+try {
+    F20 *= F20;
+} catch(e35) {
+}

@@ -1,0 +1,37 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -42976;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+class C7 extends F0 {
+    static get g() {
+        try {
+            v6.toString = 1975200130;
+        } catch(e12) {
+        }
+        return this;
+    }
+    static 10;
+    static #a = v4;
+    static f = F0;
+}
+const v13 = new C7();
+const v14 = new C7();
+new C7();
+const v19 = [NaN,1.7976931348623157e+308,-426.0004722789721,-169678.14496470604,-1000000000000.0,1000000.0,-1000.0,0.6793870829016317];
+const v20 = [4.0];
+const v21 = [-568.5183159349327,-7.204697110349171e+307];
+try {
+    v21[4294967295] = v13;
+} catch(e22) {
+}
+try {
+    -7 || v19;
+} catch(e24) {
+}
+v20["filter"](v13, v14);

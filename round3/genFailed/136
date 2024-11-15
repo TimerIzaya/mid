@@ -1,0 +1,32 @@
+const v5 = new Array(486);
+class C9 extends Array {
+    constructor(a11, a12, a13) {
+        let v10 = this;
+        super(a11);
+        Object.defineProperty(v5, 9007199254740991, { configurable: true, get: Array });
+        try {
+            v10 = v5;
+        } catch(e14) {
+        }
+    }
+    static f;
+    static b;
+    [-2];
+}
+new C9(486, 255, 486);
+const v16 = new C9(-50072, 486, -2);
+const v17 = new C9(255, 903165515, 486);
+try {
+    v16.toString = Array;
+} catch(e18) {
+}
+try {
+    try {
+        v17.reduceRight(Array);
+    } catch(e20) {
+    }
+} catch(e21) {
+    Object.defineProperty(C9, "e", { enumerable: true, set: Array });
+    const v23 = [e21];
+    Reflect.apply(v17.toSorted, v5, v23);
+}

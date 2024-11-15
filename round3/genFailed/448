@@ -1,0 +1,25 @@
+try {
+    new BigInt64Array(10);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(28);
+} catch(e10) {
+}
+try {
+    new Uint32Array(2);
+} catch(e14) {
+}
+try {
+    const t13 = -2072881055;
+    t13[10000] = 6;
+} catch(e18) {
+}
+try {
+    const t18 = 0.42161310526297724;
+    t18[64] = 10;
+} catch(e19) {
+}
+let v20;
+try { v20 = Uint8ClampedArray.p(6, -503.01218816311047); } catch (e) {}
+let {"a":v21,"f":v22,...v23} = v20;

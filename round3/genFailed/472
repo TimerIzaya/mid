@@ -1,0 +1,55 @@
+new Set();
+try {
+    new Int8Array(106);
+} catch(e5) {
+}
+try {
+    new Int32Array(8);
+} catch(e9) {
+}
+try {
+    new Uint8ClampedArray(325);
+} catch(e13) {
+}
+class C14 extends Int32Array {
+    static a;
+    static #g = Int32Array;
+    static {
+        const o16 = {
+            [Set]: this,
+            "d": Uint8ClampedArray,
+        };
+        try {
+            this.#g = this;
+        } catch(e17) {
+        }
+    }
+    c;
+    84753811;
+}
+new C14();
+new C14();
+new C14();
+function f21() {
+    return 106;
+}
+try {
+    new BigInt64Array(2128);
+} catch(e25) {
+}
+try {
+    new Float32Array(128);
+} catch(e29) {
+}
+try {
+    new Uint32Array(16);
+} catch(e33) {
+}
+const o36 = {
+    "maxByteLength": 3074,
+};
+const v38 = new SharedArrayBuffer(128, o36);
+try {
+    new Float64Array(v38);
+} catch(e41) {
+}

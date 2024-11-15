@@ -1,0 +1,41 @@
+class C3 {
+    get g() {
+        try {
+            const t3 = "all";
+            t3.valueOf = 598.3865058568733;
+        } catch(e5) {
+        }
+        return 598.3865058568733;
+    }
+    ["all"] = "all";
+    static #g = "9";
+    d = "all";
+    e;
+    static #b = "all";
+}
+const v6 = new C3();
+const v7 = new C3();
+new C3();
+try {
+    new Int16Array(6);
+} catch(e12) {
+}
+try {
+    new Int16Array(229);
+} catch(e16) {
+}
+try {
+    new Int32Array(1132);
+} catch(e20) {
+}
+Object.defineProperty("9", "9", { configurable: true, value: v6 });
+let v21 = 0;
+do {
+    v7[6] *= 1132;
+    gc();
+    new Int32Array("all", v21, 1132);
+    let v26 = 10800;
+    0.7309275397333256 ^ v26++;
+    v26--;
+    v21++;
+} while (v21 < 9)

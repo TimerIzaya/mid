@@ -1,0 +1,80 @@
+const v0 = [-2.0,1000.0,0.7660437582132407,Infinity,-3.0,-0.0];
+const v1 = [-1000000000.0,714570.1482113663,-1.7509677695548995e+308];
+const v2 = [0.028602031940328176,426286.83709638566,-3.0,0.032314183794624585,-695.3884181289662];
+const v6 = [v2,v0,"j6U",v0,"j6U"];
+const v7 = ["-51574"];
+[v7,"j6U"];
+class C9 {
+    set e(a11) {
+        let v12;
+        try { v12 = a11(); } catch (e) {}
+        try { new a11(v12, "j6U", this); } catch (e) {}
+        let v15;
+        try { v15 = v6["toLocaleString"](this, ...v2, ...v12, this); } catch (e) {}
+        try { new v15(); } catch (e) {}
+    }
+    static m(a18, a19) {
+        if (v6 !== v1) {
+            a18[Symbol.replace] = "j6U";
+        } else {
+            const o23 = {
+            };
+            try {
+                new Proxy(a18, o23);
+            } catch(e26) {
+            }
+        }
+        return v7;
+    }
+}
+C9.length;
+const v28 = new C9();
+const v29 = v28?.__lookupGetter__;
+try { new v29(v2); } catch (e) {}
+const v31 = new v29();
+new C9();
+try { ("at").toString(); } catch (e) {}
+class C40 {
+    #b;
+    static toString(a42, a43) {
+        Set(this);
+    }
+    p(a47) {
+        super.n();
+    }
+    static #e;
+}
+const v49 = new C40();
+const v50 = v49?.constructor;
+try { new v50(); } catch (e) {}
+const v52 = new C40();
+const v53 = new C40();
+const v54 = v53?.constructor;
+try { new v54(); } catch (e) {}
+function F56(a58, a59, a60) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a58.p(this); } catch (e) {}
+    const v62 = a60?.constructor;
+    try { new v62(); } catch (e) {}
+}
+F56.arguments = F56;
+const v64 = new F56(v49, "pvOG2", v49);
+const v65 = v64?.constructor;
+try { new v65("e", F56, "e"); } catch (e) {}
+const v67 = new F56(v49, v52, v53);
+const v68 = new F56(v49, "e", v52);
+const v69 = v68?.constructor;
+try { new v69("number", v67, "number"); } catch (e) {}
+function f71(a72, a73, a74) {
+    try { a74.constructor(v31, v52, a74); } catch (e) {}
+    const o83 = {
+        "e": v64,
+        get a() {
+            return v67;
+        },
+    };
+    return F56;
+}
+f71.e = f71;
+const v84 = f71(v49, v68, v67);
+try { v84.bind("at"); } catch (e) {}

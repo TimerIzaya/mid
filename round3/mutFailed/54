@@ -1,0 +1,83 @@
+try {
+    new Int16Array(1261);
+} catch(e3) {
+}
+try {
+    const t5 = 1719;
+    new t5(1719);
+} catch(e7) {
+}
+try {
+    new Int8Array(14);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a15;
+    } catch(e17) {
+    }
+    try {
+        a15.h = Int16Array;
+    } catch(e18) {
+    }
+}
+new F12(1261, 1719, 1719);
+const v20 = new F12(1261, 1719, 1261);
+new F12(1261, 1719, 1261);
+try {
+    new Float64Array(127);
+} catch(e25) {
+}
+try {
+    new Uint32Array(127);
+} catch(e29) {
+}
+try {
+    new Uint16Array(795);
+} catch(e33) {
+}
+const v34 = [-3.0,-2.2250738585072014e-308,-1e-15,-838.2123667339067,-454872.6313716385,1000.0,-0.0,1000.0,-1.2109465705179296e+308,-5.475401719870585];
+const v35 = [Infinity,-768.9772059140516,-1.0,-Infinity,0.07960790899668546,2.0];
+const v36 = [-2.220446049250313e-16,3.0,-734833.456872626,-1000000000.0,490.470557716809,0.4222722850827826,-Infinity,-1.0,0.7233566159548522,2.220446049250313e-16];
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        a40.f = v34;
+    } catch(e41) {
+    }
+}
+const v42 = new F37(127, v34);
+const v43 = new F37(v35, v34);
+const v44 = new F37(v36, v35);
+function f45(a46, a47, a48, a49) {
+    const o65 = {
+        [a49](a51, a52, a53) {
+            return a46 === Int32Array;
+        },
+        __proto__: v35,
+        get a() {
+            super.b >>= a47;
+            try { a47(v36, this, v42, v34, F37); } catch (e) {}
+            try {
+                new Float32Array(10);
+            } catch(e61) {
+            }
+            try {
+            } catch(e63) {
+            }
+            try {
+            } catch(e64) {
+            }
+        },
+    };
+    return o65;
+}
+let v66 = v20(v44, v42, v43, v42);
+class C69 extends f45(v43, v34, v42, v42).constructor {
+}
+const v70 = new C69();
+try {
+    v66 <<= v70;
+} catch(e71) {
+}

@@ -1,0 +1,28 @@
+const v1 = new WeakSet();
+new WeakSet();
+try {
+    new BigInt64Array(0);
+} catch(e7) {
+}
+try {
+    new Uint16Array(156);
+} catch(e11) {
+}
+try {
+    new Uint8Array(128);
+} catch(e15) {
+}
+new Array(914);
+function f19() {
+    return WeakSet;
+}
+try {
+    v1.toString = f19;
+} catch(e20) {
+}
+const v21 = Array(156);
+new WeakSet(Array);
+try {
+    v21 << v21;
+} catch(e24) {
+}

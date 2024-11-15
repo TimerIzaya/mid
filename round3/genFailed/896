@@ -1,0 +1,28 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 65535;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v7 = [F0,v5];
+const v9 = [[F0,v6,F0,v7]];
+const v10 = [1000.0,-3.0,-1000000.0];
+[-Infinity,-6.826779621590145,-859791.3874431138,518.4964576965156,-3.0,266.93380712036037,1e-15];
+[0.7991693354394536,-553.88526586121,-1.6032379777895552e+308,1000000000.0,5.0,1.8731665207029254e+307,NaN];
+const v13 = [v9];
+const v14 = [v10,v6];
+[v14,v14];
+const v20 = v10["reduceRight"](v7, v14);
+try { new v20(v4, "__proto__", v13, v7, v5); } catch (e) {}
+function f22(a23, a24) {
+    try {
+        a24.toSorted();
+    } catch(e26) {
+    }
+    return "__proto__";
+}
+f22(v5, v10);

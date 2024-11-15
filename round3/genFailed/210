@@ -1,0 +1,22 @@
+const v0 = [];
+try {
+    new Uint8ClampedArray(228);
+} catch(e7) {
+}
+try {
+    new Float32Array(1024);
+} catch(e11) {
+}
+try {
+    new Int16Array(128);
+} catch(e15) {
+}
+let [,v25,v26] = v0;
+try {
+    v25.a = 2147483649n;
+} catch(e27) {
+}
+v25[536870887] <<= 1024;
+for (let v28 = 0; v28 < 32; v28++) {
+    v26["p" + v28] = v28;
+}

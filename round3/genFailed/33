@@ -1,0 +1,21 @@
+const v1 = new WeakSet();
+const v2 = [8.182637986396877,-Infinity,-2.0,2.2250738585072014e-308,5677.838769188267,0.0,1000.0,2.0,-8.46071481183086e+307];
+[NaN,NaN,2.0,7.379516273270294,1000.0];
+const v4 = [1.0,5.209318974988534,38.30990695275045,1000.0,-1e-15,-0.5920103351643817];
+function f5() {
+    return v4;
+}
+function f9() {
+    return f5;
+}
+for (let v10 = 0; v10 < 100; v10++) {
+    f9();
+}
+const v12 = new f5(...v2, f9, v1, f5, f5);
+new WeakSet("boolean");
+%VerifyType(v12);
+const v14 = ("boolean").length;
+try {
+    v12[v14] = v14;
+} catch(e15) {
+}

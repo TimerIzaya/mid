@@ -1,0 +1,70 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -1721362630;
+    } catch(e3) {
+    }
+    try {
+        this.c = -1721362630;
+    } catch(e4) {
+    }
+    try {
+        this.h = -1721362630;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+const v10 = new WeakMap();
+function F11(a13, a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v7;
+    } catch(e16) {
+    }
+    try {
+        this.f = WeakMap;
+    } catch(e17) {
+    }
+    try {
+        this.e = v6;
+    } catch(e18) {
+    }
+}
+const v19 = new F11(WeakMap, v7, v10);
+new F11(v19, v7, v6);
+const v21 = new F11(v8, v7, v7);
+function F22(a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a25;
+    } catch(e27) {
+    }
+    try {
+        this.c = a25;
+    } catch(e28) {
+    }
+    try {
+        this.b = a25;
+    } catch(e29) {
+    }
+}
+let v30 = new F22(v8, v7, v10);
+const v31 = new F22(F0, v7, v7);
+const v32 = new F22(v31, v6, v7);
+try {
+    v30 >>>= v32;
+} catch(e33) {
+}
+throw v31;
+if (v6) {
+    const o34 = {
+    };
+    try {
+        new Proxy(v21, o34);
+    } catch(e37) {
+    }
+} else {
+    try { v6.toString(v32, v30, v10); } catch (e) {}
+}

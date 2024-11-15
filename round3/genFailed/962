@@ -1,0 +1,51 @@
+try {
+    new Float32Array(81);
+} catch(e3) {
+}
+try {
+    new Float32Array(250);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(184);
+} catch(e11) {
+}
+const v12 = [81,BigUint64Array,Float32Array,184,BigUint64Array];
+const v14 = [[Float32Array,v12],250];
+/ne[^E(?<a>)]/yisv;
+/B(?!\1(a\1)\1)\1[\cz]/gyv;
+const v17 = /(?:foo)/giu;
+[-268435456,-4294967296,1151036933,268435439,2147483648,494747010,-1137115803,-536870912];
+const v19 = [10,11,-61555,-806192542,16];
+const v20 = [8,-268435456,-4294967296,-4294967297,2147483647];
+%VerifyType(NaN);
+v19.shift(81, NaN, ...v14, ...v20, ...v12, 184);
+const o26 = {
+};
+try {
+    o26.e = v17;
+} catch(e27) {
+}
+try {
+    const o28 = {
+    };
+    o28.e = v17;
+    o28.g = 81;
+} catch(e29) {
+}
+try {
+    const o30 = {
+    };
+    o30.e = v17;
+    o30.g = 81;
+    o30.a = v17;
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.e = v17;
+    o32.g = 81;
+    o32.a = v17;
+} catch(e33) {
+}

@@ -1,0 +1,39 @@
+const v3 = /[a\Bb]/gsum;
+const v4 = /R5(?:a{5,1000000}){3,1000000}/um;
+const v5 = /(G)/yisv;
+function f6(a7, a8) {
+    const o14 = {
+        7: 0.43077001262542736,
+        [a8]: v3,
+        "h": 0.43077001262542736,
+        [v5]: -1.7976931348623157e+308,
+        "e": a8,
+        "b": -1.7976931348623157e+308,
+        o(a10, a11, a12) {
+            let v13;
+            try { v13 = new a8(a10, ...this, a10, a7, ...this, a11); } catch (e) {}
+            return v13;
+        },
+        "g": v3,
+        __proto__: v4,
+        "f": 0.43077001262542736,
+    };
+    return o14;
+}
+f6(-1.7976931348623157e+308, v5);
+Object.defineProperty(f6(-1.7976931348623157e+308, f6(0.43077001262542736, -1.7976931348623157e+308)), 0, { configurable: true, enumerable: true, get: f6 });
+for (const v21 of v5) {
+    for (let v22 = 0; v22 < 59; v22++) {
+        Object.defineProperty(v3, v22, { configurable: true, value: v21 });
+        v21[2] = v22;
+    }
+    v3[996247715];
+}
+const o26 = {
+    "maxByteLength": 61,
+};
+const v28 = new SharedArrayBuffer(2, o26);
+try {
+    new Uint32Array(v28);
+} catch(e31) {
+}

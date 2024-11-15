@@ -1,0 +1,61 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+class C2 extends f0 {
+    static get e() {
+        const v4 = this.__proto__;
+        try {
+            this.e = f0;
+        } catch(e5) {
+        }
+        return v4;
+    }
+    static #toString(a7, a8) {
+        const v13 = 3.2068254458108587 % -65536;
+        const v14 = !3.2068254458108587;
+        try {
+            Math.log(this);
+        } catch(e16) {
+        }
+        !v13;
+        const v18 = -v14;
+        ~v14;
+        try {
+            Math.atan(v18);
+        } catch(e21) {
+        }
+        return a8;
+    }
+}
+const v22 = new C2();
+new C2();
+const v24 = new C2();
+class C28 extends C2 {
+    static #e;
+    static 6 = v22;
+    #g;
+    constructor(a30, a31, a32) {
+        super();
+        const v34 = `127${9.007768135265422e+307}getOwnPropertyNames${v22}6${this[5.174168768541351e+307]}a${v24}IE`;
+        try { a31(a30, v34, a32, 9.007768135265422e+307, 1000000.0); } catch (e) {}
+        try {
+            a31.d = v34;
+        } catch(e36) {
+        }
+    }
+    static #c;
+}
+const v37 = new C28(9.007768135265422e+307, 5.174168768541351e+307, C28);
+const v38 = new C28(1000000.0, f0, C2);
+new C28(9.007768135265422e+307, C28, v37);
+function f40() {
+    return v38;
+}
+for (const v44 of f1) {
+    try {
+        v44 & this;
+    } catch(e47) {
+    }
+}

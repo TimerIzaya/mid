@@ -1,0 +1,50 @@
+const v0 = [];
+try {
+    new Uint8Array(5);
+} catch(e4) {
+}
+try {
+    new Int16Array(3459);
+} catch(e8) {
+}
+try {
+    new Float32Array(33);
+} catch(e12) {
+}
+const v13 = [5,33,Int16Array,3459];
+const v14 = [v13,Float32Array,5,33];
+const v15 = [Float32Array,v14,Float32Array,3459,v14];
+class C16 extends Uint8Array {
+    static get a() {
+        try {
+            v13.__proto__ = v15;
+        } catch(e18) {
+        }
+        return this;
+    }
+    static b = Int16Array;
+    10;
+    #f = v15;
+    [v13] = v0;
+}
+new C16();
+new C16();
+new C16();
+const v26 = Symbol.iterator;
+const o35 = {
+    [v26]() {
+        let v28 = 10;
+        const o34 = {
+            next() {
+                v28--;
+                const v32 = v28 == 0;
+                const o33 = {
+                    "done": v32,
+                    "value": v28,
+                };
+                return o33;
+            },
+        };
+        return o34;
+    },
+};

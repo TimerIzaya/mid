@@ -1,0 +1,38 @@
+try {
+    new Uint32Array(1024);
+} catch(e6) {
+}
+try {
+    new Uint32Array(16);
+} catch(e10) {
+}
+try {
+    new Uint8Array(1);
+} catch(e14) {
+}
+class C15 extends Uint8Array {
+    constructor(a17, a18, a19) {
+        super(a19, 16);
+        function f20(a21) {
+            return a21;
+        }
+        class C22 extends f20 {
+            7;
+            #d;
+        }
+    }
+    static f;
+    [2.220446049250313e-16] = Uint32Array;
+    static [2.220446049250313e-16] = 1024;
+}
+new C15(-1.7139304625454187e+307, 1, 16);
+new C15(1.7976931348623157e+308, 16, 16);
+const v25 = new C15(1.7976931348623157e+308, 16, 1);
+class C27 extends v25.constructor {
+    129 = Uint8Array;
+    static c = Uint32Array;
+    [16] = 1;
+}
+new C27();
+v25 in C27;
+Uint32Array[3] = -1.7139304625454187e+307;

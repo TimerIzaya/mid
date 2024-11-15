@@ -1,0 +1,51 @@
+function f0() {
+}
+const v2 = new Map();
+const v4 = new WeakMap();
+class C8 extends f0 {
+    constructor(a10, a11, a12) {
+        super();
+        Object.defineProperty(v4, -16566, { configurable: true, set: f0 });
+        new Map(this);
+        f0();
+        const o15 = {
+        };
+        try {
+            o15.h = v2;
+        } catch(e16) {
+        }
+        try {
+            const o17 = {
+            };
+            o17.h = v2;
+            o17.d = WeakMap;
+        } catch(e18) {
+        }
+        try {
+            const o19 = {
+            };
+            o19.h = v2;
+            o19.d = WeakMap;
+            o19.b = f0;
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.h = v2;
+            o21.d = WeakMap;
+            o21.b = -9007199254740991;
+        } catch(e22) {
+        }
+    }
+}
+const v23 = new C8(-16566, -9007199254740991, 4096);
+let v24 = new C8(-9007199254740991, -9007199254740991, -9007199254740991);
+new C8(-16566, -16566, -16566);
+try { v23.toString(); } catch (e) {}
+v23[2575];
+%VerifyType(v23);
+try {
+    v24 %= C8;
+} catch(e31) {
+}

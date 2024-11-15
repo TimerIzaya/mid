@@ -1,0 +1,30 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -2147483647;
+    } catch(e3) {
+    }
+    try {
+        this.d = -2147483647;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+let v7 = new F0();
+[v6,v6,[v7,[F0,v5]],v6];
+for (let i21 = 0; i21 < 9; i21++) {
+    const v30 = 55600n + v7;
+    const v31 = v7 ** -9223372036854775807;
+    v7 + 55600n;
+    try {
+        Math.log10(1000);
+    } catch(e34) {
+    }
+    --v7;
+    try {
+        Math.sqrt(v7);
+    } catch(e37) {
+    }
+    v31 >>> v30;
+}

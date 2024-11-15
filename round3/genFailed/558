@@ -1,0 +1,27 @@
+try {
+    new BigUint64Array(5);
+} catch(e9) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e13) {
+}
+try {
+    new Int16Array(4);
+} catch(e17) {
+}
+5 in -28554n;
+try {
+    const t14 = 16;
+    t14.__proto__ = 268435456;
+} catch(e19) {
+}
+let v20 = 0;
+while (v20 < 0) {
+    try {
+        const t21 = 268435456;
+        t21.toString = 268435456;
+    } catch(e23) {
+    }
+    v20++;
+}

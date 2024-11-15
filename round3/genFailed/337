@@ -1,0 +1,23 @@
+try {
+    new Uint32Array(8);
+} catch(e3) {
+}
+try {
+    new Int32Array(15);
+} catch(e7) {
+}
+try {
+    new Int16Array(63);
+} catch(e11) {
+}
+let v12 = "f";
+const v15 = [v12,8,Int16Array,63];
+[[v15,"stack"],Int32Array];
+const t14 = "stack";
+t14[8] >>>= 15;
+try {
+    --v12;
+} catch(e19) {
+}
+Object.defineProperty("m", 1757, { writable: true, enumerable: true, value: "m" });
+new Int16Array(Int32Array, Int16Array, ...v15, Int32Array, 63, ..."stack");

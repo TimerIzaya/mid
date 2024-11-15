@@ -1,0 +1,48 @@
+[3];
+[10000,4294967295,10,-2,256,268435456];
+const v2 = [679906688,-1705287133,19123,-268435456,536870912,5,2027293806,4294967296,1000,1073741824];
+function f3() {
+    return v2;
+}
+try {
+    new Int32Array(128);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(127);
+} catch(e11) {
+}
+try {
+    new Int8Array(1197);
+} catch(e15) {
+}
+Object.defineProperty("object", 7, { enumerable: true, value: Int32Array });
+const o19 = {
+};
+try {
+    o19.f = 127;
+} catch(e20) {
+}
+try {
+    const o21 = {
+    };
+    o21.f = 127;
+    o21.b = f3;
+} catch(e22) {
+}
+try {
+    const o23 = {
+    };
+    o23.f = 127;
+    o23.b = f3;
+    o23.g = f3;
+} catch(e24) {
+}
+try {
+    const o25 = {
+    };
+    o25.f = 127;
+    o25.b = f3;
+    o25.g = f3;
+} catch(e26) {
+}

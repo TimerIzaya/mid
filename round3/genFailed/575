@@ -1,0 +1,48 @@
+try {
+    new BigInt64Array(1013);
+} catch(e3) {
+}
+try {
+    new Float64Array(255);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(128);
+} catch(e11) {
+}
+const v13 = new WeakSet();
+try {
+    new Float32Array(16);
+} catch(e17) {
+}
+try {
+    new Uint32Array(5);
+} catch(e21) {
+}
+try {
+    new Float32Array(820);
+} catch(e25) {
+}
+const v26 = `
+    const v28 = v13["add"]("add");
+    try { v28(255, v28, Uint32Array, 128); } catch (e) {}
+    const v31 = Symbol.iterator;
+    const o40 = {
+        [v31]() {
+            let v33 = 10;
+            const o39 = {
+                next() {
+                    v33--;
+                    const v37 = v33 == 0;
+                    const o38 = {
+                        "done": v37,
+                        "value": v33,
+                    };
+                    return o38;
+                },
+            };
+            return o39;
+        },
+    };
+`;
+eval(v26);

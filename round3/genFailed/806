@@ -1,0 +1,48 @@
+function f0() {
+}
+function f2(a3, a4) {
+    const o13 = {
+        [false]: a4,
+        [f0]: a4,
+        "c": a3,
+        [f0](a6, a7) {
+            try {
+                this.__proto__ = a4;
+            } catch(e8) {
+            }
+            try {
+                const o10 = {
+                };
+                this.fuck("un", o10);
+            } catch(e12) {
+            }
+            return a4;
+        },
+    };
+    return o13;
+}
+const v14 = f2(false, f2);
+const v16 = f2(false, f2(v14, v14));
+try {
+    new Int32Array(1052);
+} catch(e20) {
+}
+try {
+    new Uint8ClampedArray(237);
+} catch(e24) {
+}
+try {
+    new Int16Array(4);
+} catch(e28) {
+}
+for (const v29 of false) {
+    %VerifyType(v29);
+    try { v29(); } catch (e) {}
+    const v31 = v14[1];
+    v31[6] = v31;
+}
+let v32;
+try { v32 = v14.o(v14); } catch (e) {}
+f0 instanceof v32;
+new Int16Array(237);
+Object.defineProperty(v16, "g", { configurable: true, set: f2 });

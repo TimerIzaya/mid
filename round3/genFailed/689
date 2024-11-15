@@ -1,0 +1,46 @@
+function f0() {
+}
+try {
+    new Int16Array(257);
+} catch(e4) {
+}
+try {
+    new Int8Array(1301);
+} catch(e8) {
+}
+try {
+    new Float32Array(2);
+} catch(e12) {
+}
+try {
+    new Uint16Array(257);
+} catch(e16) {
+}
+try {
+    new Int16Array(8);
+} catch(e20) {
+}
+try {
+    new Uint16Array(64);
+} catch(e24) {
+}
+for (const v28 of 257) {
+    for (const v29 in v28) {
+        try {
+            1301 == v28 ? 1301 : v28;
+        } catch(e32) {
+        }
+    }
+}
+try {
+    new Uint8ClampedArray(2519);
+} catch(e36) {
+}
+try {
+    new Int8Array(4096);
+} catch(e40) {
+}
+try {
+    new Int16Array(4);
+} catch(e44) {
+}

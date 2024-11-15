@@ -1,0 +1,55 @@
+class C3 {
+    #a = "string";
+    ["string"] = -2.2250738585072014e-308;
+    static #g;
+    constructor(a5) {
+        try {
+            a5[this] = a5;
+        } catch(e6) {
+        }
+        try {
+            super.getInt16(-3.6560659883656935e+307, -2.2250738585072014e-308, this, a5);
+        } catch(e8) {
+        }
+    }
+    2147483649;
+    #f = -2.2250738585072014e-308;
+}
+const v9 = new C3(-3.6560659883656935e+307);
+const v10 = new C3(v9);
+const v11 = new C3(v10);
+try {
+    new Int32Array(711);
+} catch(e21) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e25) {
+}
+try {
+    new Uint32Array(4);
+} catch(e29) {
+}
+try {
+    const t33 = "string";
+    t33.__proto__ = v11;
+} catch(e30) {
+}
+function f31(a32) {
+    function f34(a35) {
+        C3.d *= 711;
+        try {
+            const t41 = "string";
+            t41[302498564] = Int32Array;
+        } catch(e36) {
+        }
+    }
+    this.onmessage = f34;
+    try { v9["forEach"]("forEach", -3.6560659883656935e+307, -1210193100n, -10); } catch (e) {}
+}
+const v41 = [v9];
+const o42 = {
+    "arguments": v41,
+    "type": "function",
+};
+new Worker(f31, o42);

@@ -1,0 +1,45 @@
+const v0 = /[Wxyz{1,}?]/gidvm;
+const v1 = /a(?=bbb|bb)c*/ysdum;
+const v2 = /(qN\xed\xa0\x80NQ\xed\xb0\x80R)/gydu;
+class C3 {
+    get e() {
+        return v0[Symbol.unscopables];
+    }
+    6;
+    static 9;
+    1355697071 = v1;
+    static #b = v2;
+    e = v0;
+    static 5;
+    static f = v2;
+}
+const v8 = new C3();
+const v9 = new C3();
+const v10 = new C3();
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a15;
+    } catch(e17) {
+    }
+    try {
+        this.h = a16;
+    } catch(e18) {
+    }
+    try {
+        this.c = v1;
+    } catch(e19) {
+    }
+}
+new F11(v1, v1, v0, v8);
+new F11(v0, v2, v1, v8);
+new F11(v2, v2, v1, v10);
+const v24 = new WeakSet();
+try {
+    C3 = v24;
+} catch(e25) {
+}
+%VerifyType(C3);
+try { v2(v1, v10); } catch (e) {}
+Reflect.construct(F11, [v1,v2,v2,Reflect], WeakSet);
+v9.e;

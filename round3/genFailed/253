@@ -1,0 +1,14 @@
+const v3 = ["a","a","-128"];
+const v4 = ["a"];
+const v5 = [v4,"n"];
+new WeakSet();
+Object.defineProperty(v5, 9, { writable: true, configurable: true, enumerable: true, value: -1799578844 });
+try {
+    v5.length = 129;
+} catch(e14) {
+}
+let v15 = 0;
+do {
+    v4["every"](-1799578844, v3);
+    v15++;
+} while (v15 < 3)

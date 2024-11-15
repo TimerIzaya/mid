@@ -1,0 +1,55 @@
+class C3 {
+    get b() {
+        return this;
+        this[9] ^= Reflect;
+        return this;
+    }
+    static #a = 10n;
+    static {
+        this.f **= 10n;
+        const v7 = 9007199254740990n;
+        function F8(a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = 10n;
+            } catch(e11) {
+            }
+            try {
+                this.g = -33093n;
+            } catch(e12) {
+            }
+            try {
+                this.f = this;
+            } catch(e13) {
+            }
+        }
+        new F8(v7);
+        new F8(v7);
+        new F8(9007199254740990n);
+    }
+}
+new C3();
+const v18 = new C3();
+new C3();
+new WeakSet();
+try {
+    new BigInt64Array(131);
+} catch(e28) {
+}
+try {
+    new Int16Array(127);
+} catch(e32) {
+}
+try {
+    new BigInt64Array(2);
+} catch(e36) {
+}
+let v37 = 0;
+while (v37 < 9) {
+    C3[v18];
+    v37++;
+}
+try {
+    127 - BigInt64Array;
+} catch(e43) {
+}

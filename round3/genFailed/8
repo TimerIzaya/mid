@@ -1,0 +1,68 @@
+function f0() {
+    const o4 = {
+        "h": "register",
+        "f": 1073741824,
+        "d": 1073741824,
+        "b": -265233.7799688196,
+        "c": "register",
+        ["register"]: 1073741824,
+        "e": "register",
+        "g": -265233.7799688196,
+        ..."register",
+        "a": -265233.7799688196,
+        [-2]: -265233.7799688196,
+        ..."register",
+        151: -265233.7799688196,
+    };
+    return o4;
+}
+f0();
+f0();
+const v7 = f0();
+class C11 {
+    static #toString(a13, a14, a15, a16) {
+        const o17 = {
+        };
+        try {
+            o17.a = a15;
+        } catch(e18) {
+        }
+        try {
+            const o19 = {
+            };
+            o19.a = a15;
+            o19.d = a16;
+        } catch(e20) {
+        }
+        try {
+            const o21 = {
+            };
+            o21.a = a15;
+            o21.d = a16;
+            o21.b = this;
+        } catch(e22) {
+        }
+        try {
+            const o23 = {
+            };
+            o23.a = a15;
+            o23.d = a16;
+            o23.b = v7;
+        } catch(e24) {
+        }
+        return a15;
+    }
+}
+new C11();
+new C11();
+let v27 = new C11();
+const v29 = new WeakMap();
+try {
+    v27 = v7;
+} catch(e30) {
+}
+try {
+    v29[1073741825] = WeakMap;
+} catch(e31) {
+}
+WeakMap instanceof ("268435441").__proto__;

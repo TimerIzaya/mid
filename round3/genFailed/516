@@ -1,0 +1,24 @@
+[];
+try {
+    new Uint16Array(964);
+} catch(e4) {
+}
+try {
+    new Int32Array(235);
+} catch(e8) {
+}
+try {
+    new Uint8Array(5);
+} catch(e12) {
+}
+[5,235,"message","52103"];
+const v17 = [Uint16Array,"symbol"];
+["message",Int32Array];
+new WeakSet();
+let v21 = 0;
+do {
+    Object.defineProperty("symbol", "g", { writable: true, configurable: true, enumerable: true, value: Int32Array });
+    v21++;
+} while (v21 < 5)
+const v27 = new String("52103");
+v17 in v27;

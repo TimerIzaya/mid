@@ -1,0 +1,47 @@
+const v4 = new WeakMap();
+class C5 {
+    constructor(a7) {
+        const v8 = new WeakMap(v4);
+        super.f;
+        try {
+            this != v8 ? this : v8;
+        } catch(e12) {
+        }
+    }
+    [v4] = 1864620074;
+    #d;
+    638;
+    #h;
+}
+const v13 = new C5(7);
+const v14 = new C5(55887);
+new C5(7);
+function f16(a17, a18, a19) {
+    const o28 = {
+        __proto__: v14,
+        "f": v13,
+        set h(a21) {
+            try {
+                a21 *= v14;
+            } catch(e22) {
+            }
+        },
+        p(a24, a25) {
+            v13[9];
+            try {
+                super[a19] = 1864620074;
+            } catch(e27) {
+            }
+            return a19;
+        },
+    };
+    return o28;
+}
+const v29 = f16(7, 55887, 7);
+const v30 = f16(7, 1864620074, 7);
+f16(55887, 1864620074, 1864620074);
+function f32(a33, a34) {
+    return 238.4202677595315;
+}
+f32(v29, C5);
+f32(v13, v30);

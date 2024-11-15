@@ -1,0 +1,44 @@
+try {
+    new Int8Array(1);
+} catch(e3) {
+}
+try {
+    new Float64Array(255);
+} catch(e7) {
+}
+try {
+    new Int8Array(2);
+} catch(e11) {
+}
+class C12 {
+    #f = Int8Array;
+    static #p(a14, a15, a16) {
+        try {
+            const o17 = {
+            };
+            new Int8Array(o17, 6, 1073741823);
+        } catch(e21) {
+        }
+        return Float64Array;
+    }
+    2 = Int8Array;
+    #d;
+    static 8 = Float64Array;
+}
+const v22 = new C12();
+const v23 = new C12();
+new C12();
+const v25 = [v23];
+[v25,v25];
+[v22,255,Float64Array,Int8Array];
+const v28 = [1000000000.0,-5.030156209387526,-2.2250738585072014e-308,0.25900143897199857,1e-15,Infinity];
+const v29 = [0.0,-1000.0,6.8980353833973105,0.9635343413582789,1.4732878804159759e+308,746583.7325715306,-752.4701318726943,-1e-15];
+[0.0,-779947.6634907764,-2.0,647436.1346922319,-5.0,-1000.0,2.0];
+const v33 = Reflect.construct(Int8Array, [1,1,255], C12);
+let v34;
+try { v34 = v33.m(v33, Float64Array, v33, v33); } catch (e) {}
+try {
+    v29.length = v34;
+} catch(e35) {
+}
+v28["findIndex"](v34);

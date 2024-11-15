@@ -1,0 +1,60 @@
+function f0() {
+    const o10 = {
+        set d(a5) {
+            const v6 = this[a5];
+            try { v6.m(-1073741824, a5, -12, a5); } catch (e) {}
+            try {
+                super.valueOf();
+            } catch(e9) {
+            }
+        },
+        "e": -12,
+        ...-1073741824,
+        ...-12,
+        "h": 0.7767129969747987,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+class C14 {
+    static get f() {
+        try {
+            super[v13] = this;
+        } catch(e16) {
+        }
+        return f0;
+    }
+    static d;
+    b;
+    static 4 = v13;
+    static 256;
+    #d;
+}
+const v17 = new C14();
+const v18 = new C14();
+const v19 = new C14();
+class C20 extends f0 {
+    2147483649;
+    constructor(a22, a23, a24, a25) {
+        super();
+        typeof this === "string";
+        for (let v29 = 0; v29 < 32; v29++) {
+            v17["p" + v29] = v29;
+        }
+    }
+}
+const v32 = new C20(v18, v11, v17, v12);
+new C20(v11, v11, v19, v32);
+new C20(C14, v17, v17, v13);
+let v35 = 0;
+while (v35 < 10) {
+    for (const v38 of v11) {
+        try {
+            v38 && v35;
+        } catch(e40) {
+        }
+    }
+    v35++;
+}

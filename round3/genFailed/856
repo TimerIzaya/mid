@@ -1,0 +1,50 @@
+try {
+    new Int32Array(8);
+} catch(e3) {
+}
+try {
+    new Int16Array(256);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(822);
+} catch(e11) {
+}
+new Date();
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a16;
+    } catch(e18) {
+    }
+    try {
+        this.d = a16;
+    } catch(e19) {
+    }
+}
+const v20 = new F14(256, Date);
+new F14(8, Int32Array);
+new F14(8, v20);
+try {
+    new BigUint64Array(45);
+} catch(e26) {
+}
+try {
+    new Int16Array(512);
+} catch(e30) {
+}
+try {
+    new Float64Array(2622);
+} catch(e34) {
+}
+for (const v36 of v20[Date]) {
+    const o37 = {
+        "apply": Date,
+        "deleteProperty": Date,
+        "preventExtensions": Date,
+    };
+    try {
+        new Proxy(Date, o37);
+    } catch(e40) {
+    }
+}

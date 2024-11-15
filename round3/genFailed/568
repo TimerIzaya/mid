@@ -1,0 +1,59 @@
+try {
+    new BigUint64Array(3574);
+} catch(e3) {
+}
+try {
+    new Float64Array(1581);
+} catch(e7) {
+}
+try {
+    new Float32Array(987);
+} catch(e11) {
+}
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a17;
+    } catch(e18) {
+    }
+    try {
+        this.e = a17;
+    } catch(e19) {
+    }
+}
+const v20 = new F12(Float32Array, 1581, 987, 987);
+const v21 = new F12(1581, 987, 3574, 3574);
+const v22 = new F12(987, 3574, 987, 1581);
+new Array(2);
+class C26 extends Float32Array {
+    p(a28, a29, a30) {
+        try {
+            this.toLocaleString("-2146703247");
+        } catch(e33) {
+        }
+        return 1581;
+    }
+    constructor(a35, a36, a37, a38) {
+        super(v22, 987, 2);
+        super.findLastIndex(a38, a35);
+        Array(a37);
+        let v43 = 1276104880;
+        try {
+            v43 &= a38;
+        } catch(e44) {
+        }
+    }
+}
+const v45 = new C26(v22, 2, 3574, 987);
+const v46 = new C26(v20, 2, 987, v45);
+new C26(C26, 987, 987, v46);
+try { Array.of(BigUint64Array, v21); } catch (e) {}
+v45[v20] |= 3574;
+try {
+    Array(1569754735);
+} catch(e51) {
+}
+try {
+    v21.__proto__ = v22;
+} catch(e52) {
+}

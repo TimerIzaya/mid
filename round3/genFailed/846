@@ -1,0 +1,27 @@
+function f0() {
+}
+new WeakSet();
+const v7 = new WeakSet();
+class C8 extends WeakSet {
+    static c;
+    get d() {
+        try {
+            this << WeakSet;
+        } catch(e11) {
+        }
+        return this;
+    }
+    static 122;
+    static h = WeakSet;
+}
+new C8();
+const v13 = new C8();
+new C8();
+const o15 = {
+    __proto__: v13,
+    "h": v7,
+    ...v7,
+    "a": f0,
+};
+Object.defineProperty("symbol", WeakSet, { configurable: true, get: f0, set: f0 });
+o15[Symbol.isConcatSpreadable];

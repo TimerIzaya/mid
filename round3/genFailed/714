@@ -1,0 +1,36 @@
+class C9 {
+    d = 0.9441803606385205;
+    ["ML"] = "valueOf";
+    m(a11, a12, a13, a14) {
+        Object.defineProperty(a12, 5, { configurable: true, value: a11 });
+        a12[7] = a13;
+        let v15;
+        try { v15 = new a13(); } catch (e) {}
+        try { ("hasInstance").substring(v15, a13); } catch (e) {}
+        const o19 = {
+            "maxByteLength": 257,
+        };
+        const v21 = new SharedArrayBuffer(257, o19);
+        try {
+            new BigUint64Array(v21);
+        } catch(e24) {
+        }
+        return a14;
+    }
+}
+new C9();
+const v26 = new C9();
+new C9();
+("valueOf").length;
+if (0.9441803606385205 instanceof C9) {
+    try {
+        "hasInstance" + -550.3100449658502;
+    } catch(e31) {
+    }
+} else {
+    const v33 = v26["m"]("m");
+    try {
+        C9[v33] = 0.9441803606385205;
+    } catch(e34) {
+    }
+}

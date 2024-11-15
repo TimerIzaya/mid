@@ -1,0 +1,54 @@
+function f0() {
+    const o11 = {
+        7: "65536",
+        "a": "65536",
+        [-2]: 4.0,
+        valueOf(a5) {
+            try { a5(this); } catch (e) {}
+            return ("0q55").length;
+        },
+        "g": 4.0,
+        "f": "0q55",
+        1: "65536",
+        "d": 4.0,
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+let v14 = f0();
+let v15 = 64;
+try {
+    new Uint8Array(v15);
+} catch(e18) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e22) {
+}
+try {
+    new Int32Array(16);
+} catch(e26) {
+}
+try {
+    new Uint8ClampedArray(1000);
+} catch(e30) {
+}
+let v31 = 1984;
+try {
+    new Int32Array(v31);
+} catch(e34) {
+}
+try {
+    new Int8Array(1000);
+} catch(e38) {
+}
+try {
+    v14[268435441] = v15;
+} catch(e39) {
+}
+try {
+    v14 >>>= v12;
+} catch(e40) {
+}
+({"f":v15,...v31} = v13[133]);

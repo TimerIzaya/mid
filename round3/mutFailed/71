@@ -1,0 +1,33 @@
+function f0() {
+}
+try {
+    new f0(3242);
+} catch(e7) {
+}
+try {
+    const t7 = 4096;
+    new t7(4096);
+} catch(e11) {
+}
+try {
+    BigUint64Array[10] = BigUint64Array;
+} catch(e14) {
+}
+const o17 = {
+    "maxByteLength": 3242,
+};
+const v19 = new ArrayBuffer(2785, o17);
+try {
+    new BigInt64Array(v19);
+} catch(e22) {
+}
+try {
+    new Int8Array(3090);
+} catch(e24) {
+}
+const v28 = [1478176179,-10,970706523,-16,-62186];
+function f29() {
+    return v28;
+}
+Object.defineProperty(v28, 10, { configurable: true, enumerable: true, get: o17, set: f29 });
+v28.pop();

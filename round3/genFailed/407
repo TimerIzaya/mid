@@ -1,0 +1,60 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = this[a6];
+        Reflect.construct(v7, [v7,"-4096"], v7);
+    }
+    163 = -65536n;
+    static #d;
+    static [-65536n];
+    #a = -2n;
+    static 2980490710;
+}
+new C3(-2n, -2n);
+let v15 = new C3(-65536n, -2n);
+new C3(-2n, -65536n);
+try {
+    new Int16Array(4);
+} catch(e20) {
+}
+try {
+    new Int8Array(2767);
+} catch(e24) {
+}
+try {
+    new Float64Array(10);
+} catch(e28) {
+}
+class C29 extends C3 {
+    set c(a31) {
+        const v32 = super.e;
+        const v36 = v15 ^ 5.0;
+        const v37 = +v32;
+        try {
+            Math.round(v36);
+        } catch(e39) {
+        }
+        v15++;
+        v36 ^ v37;
+    }
+}
+new C29();
+new C29();
+new C29();
+const v46 = Symbol.iterator;
+const o55 = {
+    [v46]() {
+        let v48 = 10;
+        const o54 = {
+            next() {
+                v48--;
+                const v52 = v48 == 0;
+                const o53 = {
+                    "done": v52,
+                    "value": v48,
+                };
+                return o53;
+            },
+        };
+        return o54;
+    },
+};

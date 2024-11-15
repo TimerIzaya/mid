@@ -1,0 +1,75 @@
+const v2 = new Array(5);
+function f3(a4, a5) {
+    const o6 = {
+        ...a5,
+        "h": 5,
+        "g": Array,
+        "d": a5,
+        "b": a4,
+        [a5]: v2,
+        ...v2,
+        "f": 5,
+        "c": Array,
+        [a4]: a5,
+        "e": v2,
+        __proto__: Array,
+        "a": 5,
+    };
+    return o6;
+}
+const v7 = f3(v2, Array);
+const v8 = f3(5, v7);
+const v9 = f3(v8, v8);
+class C10 {
+    #p(a12, a13) {
+        try {
+            new Int32Array(3551);
+        } catch(e17) {
+        }
+        try {
+            new Int16Array(16);
+        } catch(e21) {
+        }
+        try {
+            new BigInt64Array(10);
+        } catch(e25) {
+        }
+        return v8;
+    }
+}
+new C10();
+new C10();
+new C10();
+function f29(a30, a31) {
+    const o42 = {
+        2: v9,
+        get d() {
+            Array.__proto__;
+            a31.b;
+            ~-9223372036854775807;
+            const v39 = +Array;
+            try {
+                Math.clz32(v39);
+            } catch(e41) {
+            }
+            return v9;
+        },
+    };
+    return o42;
+}
+f29(v9, v8);
+const v44 = f29(v7, v8);
+f29(v44, v44);
+v7.g |= 5;
+try {
+    v2.a = 5;
+} catch(e46) {
+}
+for (let i48 = 0; i48 < 8; i48++) {
+    Array(5);
+    %PrepareFunctionForOptimization(Array);
+    Array(5);
+    Array(5);
+    %OptimizeMaglevOnNextCall(Array);
+    Array(5);
+}

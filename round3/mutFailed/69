@@ -1,0 +1,44 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static [WeakSet] = v1;
+    a;
+    static #h;
+    7;
+    constructor(a4, a5) {
+        super(a5);
+        try {
+            -this;
+        } catch(e7) {
+        }
+    }
+}
+const v8 = new C2(WeakSet, v1);
+const v9 = new C2(v8, v8);
+const v10 = new C2(WeakSet, v9);
+try {
+    new Int8Array(4096);
+} catch(e17) {
+}
+try {
+    new v10(128);
+} catch(e21) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e25) {
+}
+const o28 = {
+    set f(a27) {
+    },
+};
+class C29 {
+    #n(a31, a32) {
+    }
+    constructor(a34) {
+        try {
+            o28.#n();
+        } catch(e36) {
+        }
+    }
+}
+new C29(o28);

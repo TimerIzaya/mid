@@ -1,0 +1,22 @@
+try {
+    new Float64Array(128);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(1679);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(6);
+} catch(e14) {
+}
+for (const v18 of 4294967295) {
+    try {
+        6 | 128;
+    } catch(e20) {
+    }
+}
+try {
+    ~9007199254740991;
+} catch(e22) {
+}

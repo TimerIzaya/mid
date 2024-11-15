@@ -1,0 +1,48 @@
+const v1 = new WeakSet();
+function f2(a3, a4) {
+    const o9 = {
+        4: a3,
+        get c() {
+            for (let v6 = 0; v6 < 32; v6++) {
+                a4["p" + v6] = v6;
+            }
+            return v1;
+        },
+        "b": a3,
+    };
+    return o9;
+}
+const v10 = f2(v1, WeakSet);
+const v11 = f2(WeakSet, v10);
+f2(v11, f2);
+class C16 {
+    static 129;
+    set h(a18) {
+        try {
+            super.h = v1;
+        } catch(e19) {
+        }
+    }
+    [WeakSet];
+    129 = WeakSet;
+    [v1];
+}
+new C16();
+const v21 = new C16();
+new C16();
+v21[v1] /= -1;
+let v23;
+try { v23 = v1.has(-1); } catch (e) {}
+for (const v24 of v23) {
+    let v25;
+    try { v25 = v24.padEnd(v11); } catch (e) {}
+    v25?.[5];
+    try {
+        const o27 = {
+        };
+        const o28 = {
+        };
+        v10.fuck(v23, o27, o28);
+    } catch(e30) {
+    }
+}

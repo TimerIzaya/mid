@@ -1,0 +1,95 @@
+const v0 = /N2(?:ab|cde)/ysdvm;
+const v1 = /[^Re\u0034[\ca]+]/yidu;
+const v2 = /(3\1\2(a(?:\1(b\1\2))\2)\1a{1,2}?)/gisdu;
+function f3(a4) {
+    const o18 = {
+        "c": a4,
+        "d": v1,
+        "b": a4,
+        p(a6, a7) {
+            (delete a6?.sticky).__proto__;
+            const o10 = {
+            };
+            try {
+                o10.f = v2;
+            } catch(e11) {
+            }
+            try {
+                const o12 = {
+                };
+                o12.f = v2;
+                o12.h = a4;
+            } catch(e13) {
+            }
+            try {
+                const o14 = {
+                };
+                o14.f = v2;
+                o14.h = a4;
+                o14.b = v0;
+            } catch(e15) {
+            }
+            try {
+                const o16 = {
+                };
+                o16.f = v2;
+                o16.h = a4;
+                o16.a = a4;
+            } catch(e17) {
+            }
+            return a6;
+        },
+    };
+    return o18;
+}
+const v19 = f3(v0);
+const v20 = f3(v1);
+const v21 = f3(v2);
+class C22 extends f3 {
+    static c = v19;
+    static 207 = v0;
+    get b() {
+        function f24() {
+            return v19;
+        }
+        return f24;
+    }
+    [v19] = v0;
+    #valueOf(a26, a27) {
+        const v29 = this["p"](v1, a27, "p", v21);
+        if (v29) {
+            const v30 = super.d;
+            try {
+                v30 >>> v30;
+            } catch(e32) {
+            }
+        } else {
+            Reflect.construct(v29, [Reflect,Reflect,Reflect,v20,Reflect], v29);
+        }
+        return v20;
+    }
+}
+new C22();
+new C22();
+new C22();
+try {
+    new Float64Array(128);
+} catch(e42) {
+}
+try {
+    new BigInt64Array(4096);
+} catch(e46) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e50) {
+}
+try {
+    Math.cos(-832518.9650386586);
+} catch(e55) {
+}
+C22 + C22;
+try {
+    Math.trunc(-832518.9650386586);
+} catch(e58) {
+}

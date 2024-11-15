@@ -1,0 +1,63 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2(a3) {
+    const o13 = {
+        536870888: f1,
+        ...a3,
+        [f1](a5) {
+            Object.defineProperty(this, 1493237073, { configurable: true, enumerable: true, set: f1 });
+            try { new a3(a5, a5); } catch (e) {}
+            return f1;
+        },
+        "a": a3,
+        __proto__: a3,
+        n(a8, a9) {
+            return -Infinity;
+        },
+    };
+    return o13;
+}
+const v14 = f2(f1);
+const v15 = f2(f0);
+const v16 = f2(f1);
+const v17 = [v14,f2,v16,f2,v16];
+[v15,f2];
+const v19 = [v17,v15,v14];
+function f23(a24, a25, a26, a27) {
+    const o34 = {
+        "b": v17,
+        o(a29, a30, a31, a32) {
+            with (this) {
+                b = f1;
+                a24[2] = a26;
+                v17.length;
+            }
+            return a24;
+        },
+        __proto__: v15,
+        "f": a24,
+        ...a26,
+        "c": a26,
+        "e": a26,
+    };
+    return o34;
+}
+f23(-9223372036854775807, -9223372036854775807, v14, 1927806223);
+f23(1927806223, 1927806223, v16, 1927806223);
+f23(-9223372036854775807, -9223372036854775807, v14, 1927806223);
+try {
+    v19[86] = f2;
+} catch(e38) {
+}
+v19[v15];
+try {
+    v16.valueOf = f2;
+} catch(e40) {
+}
+try {
+    v17.length = 1927806223;
+} catch(e41) {
+}

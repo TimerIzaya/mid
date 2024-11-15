@@ -1,0 +1,22 @@
+try {
+    new Int32Array(16);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(257);
+} catch(e10) {
+}
+try {
+    new Uint32Array(10);
+} catch(e14) {
+}
+for (let [v18,v19] of 2147483648) {
+    try {
+        2147483648 | v18;
+    } catch(e21) {
+    }
+}
+const v22 = (21159).__proto__;
+var d = 21159;
+delete v22?.[Uint8ClampedArray];
+new Uint8ClampedArray(10, 2147483648);

@@ -1,0 +1,68 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static [WeakSet] = v1;
+    a;
+    static #h;
+    7;
+    constructor(a4, a5) {
+        super(a5);
+        try {
+            -this;
+            let v7 = 10;
+            const v8 = v7--;
+            [[720.8617507544134,-2.2250738585072014e-308]];
+            Math.sin(v8);
+        } catch(e13) {
+        }
+    }
+}
+const v14 = new C2(WeakSet, v1);
+const v15 = new C2(v14, v14);
+let v16 = -536870912n;
+v16--;
+let v19 = -3.0;
+class C21 {
+    [1486378098] = -6.009293622150471;
+    constructor(a23, a24) {
+        ({"a":v19,...a24} = a23);
+    }
+}
+new C21(v19);
+new C2(WeakSet, v15);
+try {
+    new Int8Array(4096);
+} catch(e33) {
+}
+try {
+    new Float32Array(128);
+} catch(e37) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e41) {
+    const o44 = {
+        "maxByteLength": 1765,
+    };
+    new SharedArrayBuffer(1765, o44);
+}
+const o49 = {
+    set f(a48) {
+    },
+};
+class C50 {
+    #n(a52, a53) {
+    }
+    constructor(a55) {
+        try {
+            o49.#n();
+        } catch(e57) {
+            const t58 = Array(127);
+            t58[65536] = "10000";
+        }
+    }
+}
+new C50(o49);
+async function* f63(a64, a65, a66, a67) {
+    return a66;
+}
+Math.sin(0.0);

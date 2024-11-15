@@ -1,0 +1,42 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+class C2 extends f1 {
+    #valueOf(a4, a5) {
+        try {
+            a5[f1] = v0;
+        } catch(e6) {
+        }
+        return a4;
+    }
+    static h;
+    #h;
+    static [v0];
+}
+new C2();
+new C2();
+const v9 = new C2();
+class C10 extends f1 {
+    #f;
+    set h(a12) {
+        const o16 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o16);
+    }
+}
+new C10();
+new C10();
+const v20 = new C10();
+const v21 = v0.constructor;
+class C22 extends v21 {
+    65537;
+}
+new C22();
+try {
+    v21[2] = f1;
+} catch(e24) {
+}
+v20[4] = v9;

@@ -1,0 +1,24 @@
+const v5 = ["exT0","exT0","exT0",[["imul","exT0","imul"],"imul"],"LhCD"];
+try {
+    new BigInt64Array(11);
+} catch(e9) {
+}
+try {
+    new Int8Array(129);
+} catch(e13) {
+}
+try {
+    new Uint8Array(256);
+} catch(e17) {
+}
+Object.defineProperty("LhCD", "g", { writable: true, enumerable: true, value: 11 });
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a21;
+    } catch(e22) {
+    }
+}
+new F18(129, v5);
+new F18(11, v5);
+new F18(129, v5);

@@ -1,0 +1,44 @@
+function f0() {
+}
+try {
+    new Int8Array(3507);
+} catch(e7) {
+}
+try {
+    new Int32Array(4);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(127);
+} catch(e15) {
+}
+function f16(a17, a18) {
+    const o23 = {
+        "g": 127,
+        ...a18,
+        get h() {
+            try {
+                127 ^ Int32Array;
+            } catch(e21) {
+            }
+            try {
+                this[15] = Uint8ClampedArray;
+            } catch(e22) {
+            }
+            return Uint8ClampedArray;
+        },
+        __proto__: a18,
+    };
+    return o23;
+}
+const v24 = f16(3507, -41633);
+f16(127, -5082);
+f16(-5082, v24);
+for (const v27 of 4) {
+}
+for (let v31 = 0; v31 < 37; v31++) {
+    try {
+        v31 = 127;
+    } catch(e32) {
+    }
+}

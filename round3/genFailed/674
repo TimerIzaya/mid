@@ -1,0 +1,44 @@
+function f0() {
+}
+const v1 = [65535,2147483647];
+const v2 = [305944086,-1902763269,14,-4294967295,65536,1073741823,4,-5,-12185];
+const v3 = [16,127,-60385];
+function f4() {
+    return v2;
+}
+try {
+    new Float32Array(3272);
+} catch(e8) {
+}
+try {
+    new Float32Array(225);
+} catch(e12) {
+}
+try {
+    new Uint8Array(4061);
+} catch(e16) {
+}
+function f20() {
+    return -5n;
+}
+with (v1) {
+    length = v3;
+    function F21(a23, a24, a25, a26) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = a24;
+        } catch(e27) {
+        }
+        try {
+            this.f = Float32Array;
+        } catch(e28) {
+        }
+        try {
+            this.b = a24;
+        } catch(e29) {
+        }
+    }
+    const v30 = new F21(F21, 225, v1, v2);
+    const v31 = new F21(v30, 3272, v3, v2);
+    new F21(v31, 225, v3, v3);
+}

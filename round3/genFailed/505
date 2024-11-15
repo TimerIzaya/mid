@@ -1,0 +1,56 @@
+function f0() {
+    const o16 = {
+        "b": 129,
+        __proto__: "c",
+        "g": 512,
+        10: 512,
+        ["c"](a5, a6) {
+            const v12 = !-1.4662900201227626e+308;
+            -46804 >> this;
+            try {
+                Math.sqrt(v12);
+            } catch(e15) {
+            }
+            return "c";
+        },
+    };
+    return o16;
+}
+const v17 = f0();
+const v18 = f0();
+const v19 = f0();
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v18;
+    } catch(e24) {
+    }
+    try {
+        this.a = v19;
+    } catch(e25) {
+    }
+}
+const v26 = new F20(v19, v18);
+const v27 = new F20(v19, v17);
+let v28 = new F20(v17, v19);
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a33;
+    } catch(e34) {
+    }
+}
+const v35 = new F29(v28, v28, v27);
+const v36 = new F29(v26, v27, v35);
+const v37 = new F29(F29, v27, v26);
+const v38 = [f0,F29,F29,v37];
+const v39 = [v19];
+for (let [v41,,v42] of [f0,v17,v18,v36]) {
+    %VerifyType(v42);
+    try {
+        v28 &&= v26;
+    } catch(e43) {
+    }
+}
+let {"a":v44,"f":v45,"g":v46,} = v27;
+Object.defineProperty(v38, "d", { writable: true, configurable: true, enumerable: true, value: v39 });

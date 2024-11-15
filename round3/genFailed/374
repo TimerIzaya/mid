@@ -1,0 +1,56 @@
+function f0() {
+    const o10 = {
+        __proto__: "EBl",
+        ..."EBl",
+        "a": -1000000000000.0,
+        "d": -1961652343,
+        6: "EBl",
+        "c": "EBl",
+        ..."EBl",
+        ..."EBl",
+        "b": -1000000000000.0,
+        set e(a5) {
+            try {
+                "EBl" >> "EBl";
+            } catch(e7) {
+            }
+            try {
+                this.fuck("EBl", "EBl", this);
+            } catch(e9) {
+            }
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+f0();
+f0();
+function f14() {
+    return f0;
+}
+new Set();
+function f20() {
+    return v11;
+}
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a28;
+    } catch(e30) {
+    }
+    try {
+        this.g = a29;
+    } catch(e31) {
+    }
+}
+new F24("0", 1026000159n, 2147483648n, "m");
+new F24("m", 2147483648n, 1026000159n, "-9223372036854775807");
+new F24("m", 1026000159n, f20, "0");
+const o38 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o38);
+Object.defineProperty("m", "b", { configurable: true, enumerable: true, get: f20, set: f0 });
+const t54 = 398531403n;
+t54[1] = F24;

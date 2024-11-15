@@ -1,0 +1,47 @@
+class C3 {
+    constructor(a5, a6) {
+        try {
+            new Int32Array(16);
+        } catch(e10) {
+        }
+        try {
+            new Int8Array(64);
+        } catch(e14) {
+        }
+        try {
+            new Uint32Array(16);
+        } catch(e18) {
+        }
+    }
+}
+const v19 = new C3(-4.0, C3);
+const v20 = new C3("h", C3);
+new C3(v20, v19);
+[4294967296,-9,536870889,-30544,-16,-256,1073741825,-44271];
+[4294967297,-627523946,268435456,257,-2069307306,-4294967297,-9223372036854775808,1420256301,4];
+const v24 = [-9007199254740992,-51051];
+let v25 = 6;
+try {
+    new Float32Array(v25);
+} catch(e28) {
+}
+try {
+    new BigInt64Array(1949);
+} catch(e32) {
+}
+try {
+    new BigUint64Array(1434);
+} catch(e36) {
+}
+class C37 extends Float32Array {
+    static d;
+    2;
+}
+new C37();
+new C37();
+const v40 = new C37();
+({"length":v25,} = v24);
+try {
+    v40.findLastIndex(v20, C37);
+} catch(e42) {
+}

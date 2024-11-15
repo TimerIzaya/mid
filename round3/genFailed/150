@@ -1,0 +1,38 @@
+try {
+    new Int16Array(0);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(9);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(1624);
+} catch(e11) {
+}
+try {
+    new Uint16Array(4096);
+} catch(e18) {
+}
+try {
+    new Float64Array(128);
+} catch(e22) {
+}
+try {
+    new BigUint64Array(8);
+} catch(e26) {
+}
+let v28;
+try { v28 = (-1685886143)["m"](8); } catch (e) {}
+Object.defineProperty("m", 128, { enumerable: true, value: Uint8ClampedArray });
+const t27 = "m";
+t27[Float64Array] **= 6111;
+try { v28(Int16Array); } catch (e) {}
+let v30 = 0;
+do {
+    try {
+        Int16Array <= v28 ? Int16Array : v28;
+    } catch(e33) {
+    }
+    v30++;
+} while (v30 < 5)

@@ -1,0 +1,70 @@
+const v4 = new Set();
+const v5 = /9/ydu;
+const v6 = /ul(?:a+){0,0}*/gidum;
+const v7 = /ro/gyu;
+function f8(a9, a10, a11) {
+    const o24 = {
+        [v4]: v5,
+        m(a13, a14, a15) {
+            new Map();
+            return v7;
+        },
+        set g(a19) {
+            var e = 10;
+            const o20 = {
+            };
+            try {
+                new Proxy(a11, o20);
+            } catch(e23) {
+            }
+        },
+    };
+    return o24;
+}
+f8(10, v5, v6);
+const v26 = f8(41873, Set, v7);
+f8(10, f8, v7);
+class C28 {
+    constructor(a30, a31, a32, a33) {
+        try {
+            a32 = a30;
+        } catch(e34) {
+        }
+        try {
+            a31.__proto__ = v26;
+        } catch(e35) {
+        }
+    }
+    static n(a37, a38, a39) {
+        const v41 = Symbol.iterator;
+        const o50 = {
+            [v41]() {
+                let v43 = 10;
+                const o49 = {
+                    next() {
+                        v43--;
+                        const v47 = v43 == 0;
+                        const o48 = {
+                            "done": v47,
+                            "value": v43,
+                        };
+                        return o48;
+                    },
+                };
+                return o49;
+            },
+        };
+        return 41873;
+    }
+}
+const v51 = new C28(v7, v6, v6, 10);
+const v52 = new C28(v6, v6, v51, 970027575);
+const v53 = new C28(v52, v52, v51, 970027575);
+try {
+    v6[8] = v53;
+} catch(e54) {
+}
+for (let v55 = 0; v55 < 32; v55++) {
+    v51["p" + v55] = v55;
+}
+a = v4;

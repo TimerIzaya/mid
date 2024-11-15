@@ -1,0 +1,70 @@
+try {
+    new Float32Array(128);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(76);
+} catch(e7) {
+}
+try {
+    new Int8Array(3722);
+} catch(e11) {
+}
+class C12 extends Int8Array {
+    static {
+        const o14 = {
+        };
+        try {
+            new Proxy(this, o14);
+        } catch(e17) {
+        }
+    }
+    #d;
+    [76];
+    h = 76;
+    c;
+    #a = 76;
+}
+const v18 = new C12();
+const v19 = new C12();
+let v20 = new C12();
+const v21 = [BigUint64Array,Int8Array];
+[76,C12];
+const v23 = [v20,128];
+try {
+    (-1128216294) ** v20;
+} catch(e28) {
+}
+try {
+    v20 = v18;
+} catch(e29) {
+}
+const o30 = {
+};
+try {
+    o30.b = v23;
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.b = v23;
+    o32.f = v19;
+} catch(e33) {
+}
+try {
+    const o34 = {
+    };
+    o34.b = v23;
+    o34.f = v19;
+    o34.c = v21;
+} catch(e35) {
+}
+try {
+    const o36 = {
+    };
+    o36.b = v23;
+    o36.f = v19;
+    o36.c = Float32Array;
+} catch(e37) {
+}

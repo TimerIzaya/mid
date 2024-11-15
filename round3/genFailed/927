@@ -1,0 +1,42 @@
+let v3 = 129;
+try {
+    new Float64Array(v3);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(9);
+} catch(e10) {
+}
+try {
+    new Float32Array(4096);
+} catch(e14) {
+}
+class C18 {
+    static set a(a20) {
+        try {
+            a20 &= this;
+        } catch(e21) {
+        }
+    }
+    static get d() {
+        const o23 = {
+            __proto__: this,
+            "g": Uint8ClampedArray,
+            197: Float64Array,
+        };
+        return Float32Array;
+    }
+    static 129 = -1000000000.0;
+}
+new C18();
+new C18();
+new C18();
+for (const v27 of Float32Array) {
+    [-1.7968365256505e+308,-1000000.0,313.6581261275837,Infinity,Infinity,0.8423665913230294,-0.0,4.744536752926363e+307,8.340949048206568,-0.0];
+    [0.0,2.0,1000000.0,240490.8414653563,0.3124368029845661];
+    ([1e-15,433.5544488660014,0.24828138414489098]).length;
+    try {
+        v3 = 0;
+    } catch(e32) {
+    }
+}

@@ -1,0 +1,23 @@
+try {
+    new Int32Array(135);
+} catch(e3) {
+}
+try {
+    new Uint8Array(4096);
+} catch(e7) {
+}
+try {
+    new Uint8Array(128);
+} catch(e11) {
+}
+function f15() {
+    return 554761437n;
+}
+const v22 = (50801)[536870888n];
+for (let v23 = 0; v23 < 32; v23++) {
+    v22["p" + v23] = v23;
+}
+try {
+    v22.toString = f15;
+} catch(e26) {
+}

@@ -1,0 +1,59 @@
+function f0() {
+    const o10 = {
+        "a": 3.0,
+        "e": 3.0,
+        "c": -1000000000.0,
+        "d": -1e-15,
+        ...3.0,
+        toString(a5, a6) {
+            const v7 = a5?.b;
+            try {
+                !v7;
+            } catch(e9) {
+            }
+            return 3.0;
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+f0();
+try {
+    new Uint32Array(962);
+} catch(e17) {
+}
+try {
+    new Uint32Array(57);
+} catch(e21) {
+}
+try {
+    new Uint8Array(216);
+} catch(e25) {
+}
+class C26 extends Uint32Array {
+    static #valueOf(a28, a29, a30) {
+        try {
+            this.toString = f0;
+        } catch(e31) {
+        }
+        return a28;
+    }
+    #g;
+    [57];
+    256 = 57;
+    #f = Uint8Array;
+}
+const v32 = new C26();
+const v33 = new C26();
+new C26();
+try {
+    v11.toString = f0;
+} catch(e35) {
+}
+class C37 extends v32.constructor {
+    [Uint8Array] = v12;
+    static e = f0;
+    static d = v33;
+}
+new C37();

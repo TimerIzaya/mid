@@ -1,0 +1,40 @@
+[];
+try {
+    new Float32Array(1);
+} catch(e4) {
+}
+try {
+    new Uint8Array(34);
+} catch(e8) {
+}
+try {
+    new Int8Array(4087);
+} catch(e12) {
+}
+class C13 extends Uint8Array {
+    6;
+    [1] = 4087;
+    static get g() {
+        try {
+            this.length = 4;
+        } catch(e16) {
+        }
+        return this;
+    }
+}
+const v17 = new C13();
+const v18 = new C13();
+const v19 = new C13();
+function f20() {
+    return Int8Array;
+}
+const v21 = v18.byteOffset;
+v19.__proto__;
+try {
+    v18.__proto__ = v18;
+} catch(e23) {
+}
+try {
+    v17.length = v21;
+} catch(e24) {
+}

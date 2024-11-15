@@ -1,0 +1,60 @@
+try {
+    new Int8Array(16);
+} catch(e3) {
+}
+try {
+    new Float64Array(146);
+} catch(e7) {
+}
+try {
+    new Int16Array(8);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a14;
+    } catch(e17) {
+    }
+    try {
+        this.b = a14;
+    } catch(e18) {
+    }
+    try {
+        this.f = Int16Array;
+    } catch(e19) {
+    }
+}
+new F12(16, 8, 8);
+const v21 = new F12(146, 16, Int8Array);
+const v22 = new F12(16, 16, v21);
+const v23 = /(\cA(?:a{5,1000000}){3,1000000}rw(x)(x)(x)(x)(x)(x)(x)(x)(x)(x)\10)/gidv;
+const v24 = /a\Dab\b\d\bcd/iu;
+const v25 = /\xe2\x81\xa3/ydm;
+try {
+    v22.__proto__ = v22;
+} catch(e26) {
+}
+for (const v27 of 16) {
+    [470.3217105215192,2.0,0.8548655634824128,-2.2250738585072014e-308,4.0,41.2247488564999,5.0,1000000000000.0,-1000000.0];
+    [4.0,-765236.2284827727,1.5057625140045029e+308,1.0];
+    [1.0614639080462179e+308,-2.2250738585072014e-308,0.02083549266012419,-2.0];
+}
+function F31(a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = Float64Array;
+    } catch(e36) {
+    }
+    try {
+        this.f = 8;
+    } catch(e37) {
+    }
+    try {
+        this.g = v21;
+    } catch(e38) {
+    }
+}
+new F31(v25, 16, v24);
+new F31(v24, 16, v25);
+new F31(v25, 16, v23);

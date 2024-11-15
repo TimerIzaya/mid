@@ -1,0 +1,41 @@
+try {
+    new Uint16Array(10);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(128);
+} catch(e7) {
+}
+try {
+    new Float32Array(3439);
+} catch(e11) {
+}
+const v12 = [Uint8ClampedArray];
+[v12,Float32Array,3439,Uint8ClampedArray];
+[10];
+[3439,10];
+const v16 = [Uint16Array,10,Uint8ClampedArray,10];
+[v16,v12];
+try {
+    new Float32Array(2476);
+} catch(e21) {
+}
+try {
+    new Float32Array(3);
+} catch(e25) {
+}
+let v26 = 13;
+try {
+    new BigInt64Array(v26);
+} catch(e29) {
+}
+try {
+    v26 = 128;
+} catch(e30) {
+}
+const v34 = v16[1000000000.0];
+v34[2.3153489265236793] &&= 1000000000.0;
+try {
+    v34.valueOf = v34;
+} catch(e35) {
+}

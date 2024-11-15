@@ -1,0 +1,54 @@
+class C3 {
+    static {
+        try {
+            this.__proto__ = "o";
+        } catch(e5) {
+        }
+        const t6 = 0.0;
+        t6[0] = this;
+        "o" % 0.0;
+        let v10 = -(-65535);
+        ~0.0;
+        -v10 ^ v10;
+        ++v10;
+    }
+}
+new C3();
+const v16 = new C3();
+new C3();
+try {
+    new Uint8Array(1);
+} catch(e21) {
+}
+try {
+    new Uint8ClampedArray(89);
+} catch(e25) {
+}
+try {
+    new Float64Array(4096);
+} catch(e29) {
+}
+try {
+    new Int8Array(127);
+} catch(e33) {
+}
+try {
+    new Int16Array(128);
+} catch(e37) {
+}
+try {
+    new Float32Array(7);
+} catch(e41) {
+}
+with (v16) {
+    c = 7;
+    try {
+        v16["o"] = 4096;
+    } catch(e42) {
+    }
+}
+let v43 = ("o")[268435440];
+try {
+    v43 **= Uint8ClampedArray;
+} catch(e44) {
+}

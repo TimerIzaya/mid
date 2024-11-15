@@ -1,0 +1,46 @@
+const v0 = [-246306790,-65535,-1073741824,10];
+const v1 = [-38412];
+const v2 = [4096,1852014422,-62432,12142,4096,9007199254740992,14,-1818602848,-5,5382];
+class C3 {
+    n(a5) {
+        try { v2(a5); } catch (e) {}
+        return a5;
+    }
+    [v2];
+    constructor(a9) {
+        v0[4] &= this;
+        try {
+            super[v2] = this;
+        } catch(e10) {
+        }
+    }
+}
+const v11 = new C3(v2);
+const v12 = new C3(v2);
+new C3(v1);
+function F14(a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a17;
+    } catch(e19) {
+    }
+    try {
+        this.f = v1;
+    } catch(e20) {
+    }
+}
+new F14(C3, v2, v12);
+const v22 = new F14(v2, v0, v11);
+const v23 = new F14(v22, v1, v11);
+function f24() {
+    return v23;
+}
+let v25 = -13n;
+f24();
+const v32 = -13;
+const v33 = 1.7976931348623157e+308 << 13;
+--v25 | v33;
+try {
+    Math.atan2(v25, v32);
+} catch(e37) {
+}

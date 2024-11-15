@@ -1,0 +1,43 @@
+function f0() {
+    const o9 = {
+        p(a5) {
+            this[120] >>= a5;
+            Reflect.construct(a5, [a5], a5);
+            return -1073741824;
+        },
+        "h": "XZVK",
+        "b": -1073741824,
+        "g": -1073741824,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function f13() {
+    return v10;
+}
+class C14 {
+    static #m(a16, a17) {
+        const v19 = this[v12];
+        %VerifyType(v19);
+        return v19;
+    }
+    static #h;
+    static #c = v11;
+    9 = v11;
+    #b;
+}
+const v20 = new C14();
+new C14();
+new C14();
+new Array(129);
+v20.__proto__;
+try {
+    try {
+        new Array(129);
+    } catch(e31) {
+    }
+} finally {
+    throw v20;
+}

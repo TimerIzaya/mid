@@ -1,0 +1,42 @@
+try {
+    new Uint8ClampedArray(9);
+} catch(e6) {
+}
+try {
+    new Float32Array(8);
+} catch(e10) {
+}
+try {
+    new Uint16Array(202);
+} catch(e14) {
+}
+function f15() {
+    return 1.0212985922521738e+307;
+}
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 202;
+    } catch(e21) {
+    }
+    try {
+        this.e = a18;
+    } catch(e22) {
+    }
+    try {
+        this.b = 1.0212985922521738e+307;
+    } catch(e23) {
+    }
+}
+const v24 = new F16(F16, Float32Array, 8);
+new F16(9, v24, v24);
+const v26 = new F16(9, Uint8ClampedArray, F16);
+try {
+    f15 *= f15;
+} catch(e27) {
+}
+let v28;
+try { v28 = v24.o(F16, v26, 8, 8, Uint8ClampedArray); } catch (e) {}
+-Infinity;
+v26.d;
+v24 in v28;

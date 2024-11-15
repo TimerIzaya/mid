@@ -1,0 +1,50 @@
+class C3 {
+    #valueOf(a5) {
+        this[0] ^= a5;
+        for (let v6 = 0; v6 < 32; v6++) {
+            a5["p" + v6] = v6;
+        }
+        return a5;
+    }
+    static [50287] = 709262567;
+    static d;
+    static 16;
+    static #a;
+    #h;
+}
+new C3();
+const v10 = new C3();
+const v11 = new C3();
+function f15(a16, a17, a18, a19) {
+    const o20 = {
+        "c": 1073741824,
+        [a19]: -6,
+        ...C3,
+        "g": 50287,
+        "h": 709262567,
+        "b": -202260068,
+        "e": -6,
+        ...a18,
+        "a": a19,
+        [C3]: v10,
+        5: a18,
+        "f": a19,
+        __proto__: C3,
+        "d": C3,
+    };
+    return o20;
+}
+const v22 = f15(709262567, C3, C3, f15(709262567, -6, 1073741824, v10));
+f15(709262567, 709262567, v22, v22);
+try { C3.with(-6); } catch (e) {}
+Object.defineProperty(v11, "g", { writable: true, value: 1073741824 });
+f15(C3, v11, -202260068, v10);
+%PrepareFunctionForOptimization(f15);
+f15(C3, v11, -202260068, v10);
+f15(C3, v11, -202260068, v10);
+%OptimizeFunctionOnNextCall(f15);
+f15(C3, v11, -202260068, v10);
+try {
+    709262567 >> 1e-15;
+} catch(e30) {
+}

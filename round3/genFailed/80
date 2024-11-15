@@ -1,0 +1,64 @@
+function f0() {
+    const o8 = {
+        "a": "DAP",
+        ["DAP"]: "toString",
+        32: "DAP",
+        set c(a5) {
+            try {
+                super.o("toString", 1024, a5, "toString", "DAP");
+            } catch(e7) {
+            }
+        },
+        "b": "toString",
+        "e": "DAP",
+        0: "DAP",
+        536870888: 1024,
+        "f": "DAP",
+        3947: "DAP",
+    };
+    return o8;
+}
+f0();
+f0();
+const v11 = f0();
+try {
+    new Float32Array(1000);
+} catch(e15) {
+}
+try {
+    new BigUint64Array(78);
+} catch(e19) {
+}
+try {
+    new Float64Array(3);
+} catch(e23) {
+}
+try {
+    new Float64Array(2);
+} catch(e27) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e31) {
+}
+try {
+    new Int8Array(7);
+} catch(e35) {
+}
+for (let [...v36] of Uint8ClampedArray) {
+    const v37 = f0();
+    try { v37.p(); } catch (e) {}
+    v11[24909872];
+    try {
+        new Uint32Array(24);
+    } catch(e43) {
+    }
+    try {
+        new Int8Array(1847);
+    } catch(e47) {
+    }
+    try {
+        new BigInt64Array(0);
+    } catch(e51) {
+    }
+}

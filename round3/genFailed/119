@@ -1,0 +1,64 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 14;
+    } catch(e3) {
+    }
+    try {
+        this.c = 14;
+    } catch(e4) {
+    }
+    try {
+        this.b = 14;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+new F0();
+new F0();
+try {
+    new Float64Array(173);
+} catch(e12) {
+}
+try {
+    new Int32Array(3319);
+} catch(e16) {
+}
+try {
+    new BigUint64Array(200);
+} catch(e20) {
+}
+class C21 extends Float64Array {
+    static #a;
+    100;
+    static valueOf(a23, a24) {
+        super.findLastIndex(a24);
+        v6[7];
+        return Float64Array;
+    }
+    n(a28, a29) {
+        super.byteLength;
+        return 3319;
+    }
+}
+new C21();
+new C21();
+new C21();
+const v38 = Symbol.iterator;
+const o47 = {
+    [v38]() {
+        let v40 = 10;
+        const o46 = {
+            next() {
+                v40--;
+                const v44 = v40 == 0;
+                const o45 = {
+                    "done": v44,
+                    "value": v40,
+                };
+                return o45;
+            },
+        };
+        return o46;
+    },
+};

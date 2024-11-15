@@ -1,0 +1,27 @@
+class C3 {
+    constructor(a5) {
+        const t2 = "bigint";
+        t2.length >>>= 9;
+        const o8 = {
+            "maxByteLength": 2645,
+        };
+        const v10 = new SharedArrayBuffer(129, o8);
+        try {
+            new Int16Array(v10);
+        } catch(e13) {
+        }
+    }
+}
+new C3(9007199254740990);
+const v15 = new C3(9);
+new C3(C3);
+const v19 = [["bigint",C3,[9007199254740990,9,v15],9007199254740990]];
+switch (C3) {
+    default:
+        try {
+        const t0 = 9;
+        t0(v19, 9, C3, 9007199254740990, C3);
+        } catch (e) {}
+        break;
+}
+("TA")["replace"]("m", "TA");

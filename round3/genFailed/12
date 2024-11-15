@@ -1,0 +1,36 @@
+try {
+    new Float32Array(4);
+} catch(e3) {
+}
+try {
+    new Uint16Array(156);
+} catch(e7) {
+}
+try {
+    new Uint32Array(1000);
+} catch(e11) {
+}
+[4,4,Uint32Array,Uint16Array];
+[Float32Array];
+const v14 = [1000];
+let v15 = undefined;
+try {
+    new Int16Array(1000);
+} catch(e19) {
+}
+try {
+    new Uint32Array(292);
+} catch(e23) {
+}
+try {
+    new BigInt64Array(2);
+} catch(e27) {
+}
+const v32 = [1000,BigInt["asUintN"](Uint16Array, 2, 156, BigInt64Array)];
+const v33 = BigInt.asUintN;
+Reflect.apply(v33, "asUintN", v32);
+[v15] = v14;
+try { v33(Int16Array, v32, 2, Float32Array, 292); } catch (e) {}
+[65536,-2147483647];
+[-13066,-3,19542,9223372036854775807,4294967296];
+[56114063,9,0,7,-1418007709,10,10710,1000,47092];

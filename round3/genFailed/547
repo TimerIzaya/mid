@@ -1,0 +1,41 @@
+function f3(a4, a5) {
+    const o13 = {
+        set f(a7) {
+            let v8;
+            try { v8 = a7.toString(2050208970, a5, 127); } catch (e) {}
+            delete v8?.[a5];
+            [a7,a4,a7,[a5,-4096]];
+            [a4,v8];
+        },
+        7: a4,
+        [a5]: 2050208970,
+        "c": -4096,
+        "b": 127,
+    };
+    return o13;
+}
+f3(127, 127);
+const v15 = f3(2050208970, 2050208970);
+f3(2050208970, 127);
+try {
+    new Uint8Array(677);
+} catch(e20) {
+}
+try {
+    new BigInt64Array(6);
+} catch(e24) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e28) {
+}
+for (const v29 of v15) {
+    try { v29["o"](BigInt64Array, v29, 127, "o", "o"); } catch (e) {}
+    let v33 = -2147483647;
+    let v35 = ++v33;
+    let v37 = v35++ << v33;
+    let v38 = v35 ** v35;
+    v38 || f3;
+    v37++;
+    v38++;
+}

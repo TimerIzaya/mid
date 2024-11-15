@@ -1,0 +1,42 @@
+const v0 = [];
+try {
+    new Uint8Array(8);
+} catch(e4) {
+}
+try {
+    new Int16Array(1000);
+} catch(e8) {
+}
+try {
+    new Uint32Array(8);
+} catch(e12) {
+}
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a15;
+    } catch(e19) {
+    }
+    try {
+        this.h = a16;
+    } catch(e20) {
+    }
+}
+const v21 = new F13(8, 8, 1000, 1000);
+new F13(8, 8, 8, 8);
+const v23 = new F13(8, 8, 8, 1000);
+let v30;
+try { v30 = v21.push(-62714n, 512n, -62714n, Int16Array, -9n); } catch (e) {}
+try {
+    v0.sort(v30);
+} catch(e32) {
+}
+for (const v33 of v30) {
+    try { new v33(v23, F13, Uint32Array, 512n, v33); } catch (e) {}
+    const o35 = {
+    };
+    try {
+        new Proxy(v0, o35);
+    } catch(e38) {
+    }
+}

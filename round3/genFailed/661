@@ -1,0 +1,42 @@
+try {
+    new Uint8Array(211);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e7) {
+}
+try {
+    new Uint8Array(725);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    1000;
+    #d;
+    static n(a14, a15) {
+        try {
+            this.#d;
+        } catch(e17) {
+        }
+        function f18() {
+            return BigInt64Array;
+        }
+        return f18;
+    }
+    static h;
+}
+new C12();
+new C12();
+new C12();
+try {
+    new Float64Array(0);
+} catch(e28) {
+}
+try {
+    new Uint8ClampedArray(244);
+} catch(e32) {
+}
+try {
+    new Float32Array(64);
+} catch(e36) {
+}

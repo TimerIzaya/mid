@@ -1,0 +1,39 @@
+try {
+    new Uint8Array(4);
+} catch(e3) {
+}
+try {
+    new Float32Array(1);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(2055);
+} catch(e18) {
+}
+try {
+    new Int16Array(512);
+} catch(e22) {
+}
+try {
+    new Int16Array(798);
+} catch(e26) {
+}
+const v27 = Uint8ClampedArray.e;
+v27[1073741824] &&= v27;
+v27?.[Uint8ClampedArray];
+try {
+    new Int16Array(1024);
+} catch(e32) {
+}
+try {
+    new BigInt64Array(1000);
+} catch(e36) {
+}
+try {
+    new Float64Array(127);
+} catch(e40) {
+}

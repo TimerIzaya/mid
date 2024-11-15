@@ -1,0 +1,72 @@
+const v0 = /(?: foo )/gysdv;
+const v1 = /dM(\2)(\1)[foo(?<=bar)baz]+/gidv;
+const v2 = /\u{12345}*/ydv;
+try {
+    new Uint8ClampedArray(0);
+} catch(e6) {
+}
+try {
+    new Float64Array(31);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(5);
+} catch(e14) {
+}
+function f15(a16, a17) {
+    const o31 = {
+        o(a19, a20, a21, a22) {
+            function F23(a25, a26) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = 31;
+                } catch(e27) {
+                }
+            }
+            new F23(a19, v0);
+            new F23(v2, a19);
+            new F23(v0, v2);
+            return 5;
+        },
+        [Uint8ClampedArray]: BigUint64Array,
+        2310226845: Uint8ClampedArray,
+    };
+    return o31;
+}
+const v32 = f15(0, 31);
+const v33 = f15(0, 31);
+f15(5, 31);
+function f35(a36, a37) {
+    const o53 = {
+        "h": BigUint64Array,
+        4: 31,
+        580803416: Uint8ClampedArray,
+        m(a39, a40) {
+            try {
+                new Int8Array(76);
+            } catch(e44) {
+            }
+            try {
+                new Int8Array(740);
+            } catch(e48) {
+            }
+            try {
+                new Uint16Array(128);
+            } catch(e52) {
+            }
+            return a37;
+        },
+    };
+    return o53;
+}
+f35(5, v0);
+const v55 = f35(f15, v1);
+const v56 = f35(BigUint64Array, v0);
+function f57(a58, a59, a60, a61) {
+    [-3.379409527305195,0.17261627550379555,-2.0,6.404462595081522,1e-15,7.044798546844732e+307];
+    [-2.0,NaN,1.1807576700104068e+308];
+    [-584.3822362286357,-329156.239547094,-161616.37676919182,-157533.35398790718];
+    return v55;
+}
+f57(v0, v33, v32, v32);
+Reflect.construct(Uint8ClampedArray, [v56], Uint8ClampedArray);

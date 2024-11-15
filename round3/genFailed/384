@@ -1,0 +1,26 @@
+try {
+    new Int8Array(2435);
+} catch(e3) {
+}
+try {
+    new Int16Array(255);
+} catch(e7) {
+}
+try {
+    new Uint8Array(48);
+} catch(e11) {
+}
+for (const v18 of -8719n) {
+    try {
+        new BigInt64Array(2);
+    } catch(e22) {
+    }
+    try {
+        new BigUint64Array(10);
+    } catch(e26) {
+    }
+    try {
+        new Int32Array(129);
+    } catch(e30) {
+    }
+}

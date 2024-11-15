@@ -1,0 +1,41 @@
+try {
+    new Uint8Array(4096);
+} catch(e3) {
+}
+try {
+    new Int16Array(696);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(3);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    b;
+    #d;
+    constructor(a14, a15) {
+        super(a15);
+        for (let v16 = 0; v16 < 32; v16++) {
+            this["p" + v16] = v16;
+        }
+    }
+    c = Int16Array;
+    [696];
+    static #b = 4096;
+}
+new C12(696, 3);
+new C12(3, 3);
+new C12(696, 3);
+new Date();
+try {
+    new Float64Array(125);
+} catch(e30) {
+}
+try {
+    new Uint8ClampedArray(5);
+} catch(e34) {
+}
+try {
+    new Int32Array(188);
+} catch(e38) {
+}

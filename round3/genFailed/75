@@ -1,0 +1,49 @@
+class C3 {
+    constructor(a5) {
+        try {
+            this.d = this;
+        } catch(e6) {
+        }
+        Reflect.construct(a5, [this,"-9223372036854775807"], a5);
+    }
+    [512567035];
+    static #a = 512567035;
+    static #g;
+}
+const v10 = new C3(C3);
+const v11 = new C3(v10);
+new C3(C3);
+function f13() {
+    return v11;
+}
+try {
+    new BigUint64Array(1024);
+} catch(e20) {
+}
+try {
+    new Float32Array(1);
+} catch(e24) {
+}
+try {
+    new Uint32Array(1024);
+} catch(e28) {
+}
+const v29 = f13();
+const o30 = {
+    "apply": f13,
+    "call": f13,
+    "construct": f13,
+    "defineProperty": f13,
+    "deleteProperty": f13,
+    "get": f13,
+    "getOwnPropertyDescriptor": f13,
+    "getPrototypeOf": f13,
+    "has": f13,
+    "isExtensible": f13,
+    "ownKeys": f13,
+    "preventExtensions": f13,
+};
+try {
+    new Proxy(v29, o30);
+} catch(e33) {
+}

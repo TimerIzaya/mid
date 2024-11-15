@@ -1,0 +1,83 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static #n(a4, a5) {
+        try { this["o"](); } catch (e) {}
+        try {
+            new BigInt64Array(4096);
+        } catch(e11) {
+        }
+        try {
+            new Int32Array(6);
+        } catch(e15) {
+        }
+        try {
+            new BigUint64Array(56);
+        } catch(e19) {
+        }
+        return v1;
+    }
+    static [WeakSet] = v1;
+    a;
+    static #h;
+    7;
+    constructor(a21, a22) {
+        super(a22);
+        try {
+            -this;
+        } catch(e24) {
+        }
+    }
+}
+const v25 = new C2(WeakSet, v1);
+const v26 = new C2(v25, v25);
+const v27 = new C2(WeakSet, v26);
+try {
+    new Int8Array(4096);
+} catch(e34) {
+}
+try {
+    new Float32Array(128);
+} catch(e38) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e42) {
+}
+const o45 = {
+    set f(a44) {
+    },
+};
+class C46 {
+    get c() {
+        try {
+            C2.__proto__ = v27;
+        } catch(e48) {
+        }
+        return this;
+    }
+    #n(a50, a51) {
+    }
+    set c(a53) {
+        function F54(a56, a57, a58) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = 1453253335;
+            } catch(e59) {
+            }
+            try {
+                this.a = a58;
+            } catch(e60) {
+            }
+        }
+        new F54(43505, v25, 43505);
+        new F54(4096, C2, C46);
+        new F54(1453253335, v25, 128);
+    }
+    constructor(a65) {
+        try {
+            o45.#n();
+        } catch(e67) {
+        }
+    }
+}
+new C46(o45);

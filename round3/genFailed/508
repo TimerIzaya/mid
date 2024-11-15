@@ -1,0 +1,37 @@
+try {
+    new Int8Array(2);
+} catch(e3) {
+}
+try {
+    new Float32Array(129);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(109);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(46);
+} catch(e15) {
+}
+try {
+    new Uint16Array(2188);
+} catch(e19) {
+}
+try {
+    new Int16Array(0);
+} catch(e23) {
+}
+function f24(a25, a26, a27) {
+    const o28 = {
+        "e": 129,
+        [a27]: a25,
+        "f": a26,
+        __proto__: a26,
+        ...a27,
+    };
+    return o28;
+}
+const v29 = f24(109, Int16Array, 109);
+f24(129, BigUint64Array, 2);
+f24(46, Int16Array, v29);

@@ -1,0 +1,41 @@
+class C1 {
+    valueOf() {
+        try { new this(this, this, true, this); } catch (e) {}
+        try { this["sign"]("sign", this, this); } catch (e) {}
+        super.d;
+        const o10 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o10);
+        return true;
+    }
+}
+new C1();
+const v13 = new C1();
+const v14 = new C1();
+try {
+    new Float32Array(4096);
+} catch(e21) {
+}
+try {
+    new Uint32Array(3034);
+} catch(e25) {
+}
+try {
+    new Int8Array(9);
+} catch(e29) {
+}
+[5.0,520.5968716735658,-1000000.0,1e-15,-5.507380092770006,-1000000000.0,-1.149158183995381e+308,6.738987014004831e+307,-1000000000.0,0.8526850338795253];
+[-1.7968752227683083e+308,-2.2250738585072014e-308,6.711758256162994e+307,972713.4530296216,-1.2070354470623647e+308];
+const v32 = [1.7020621474463106e+308,0.37403502603295125,0.5236919450803628,-564.8802127522349];
+v32.length;
+try {
+    v14.__proto__ = v32;
+} catch(e34) {
+}
+let v35 = f;
+try {
+    v35 = v13;
+} catch(e36) {
+}

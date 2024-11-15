@@ -1,0 +1,39 @@
+function f0() {
+}
+try {
+    new Uint8ClampedArray(2);
+} catch(e4) {
+}
+try {
+    new Uint8ClampedArray(1024);
+} catch(e8) {
+}
+try {
+    new BigUint64Array(202);
+} catch(e12) {
+}
+const v13 = [536870887,4294967296,907984383];
+const v14 = [1073741824,7,0,65535,256,8];
+[7,14,-52036395,-13618,-9223372036854775807,9223372036854775807,53428];
+[2];
+[[v13,v14,BigUint64Array,2,2],BigUint64Array,v14];
+throw -919467366;
+const v22 = (a23, a24) => {
+    try {
+        Math.round(2.2250738585072014e-308);
+    } catch(e30) {
+    }
+    const v31 = a24 - 2147483648;
+    const v32 = a24 + 2147483648;
+    const v33 = -2.2250738585072014e-308;
+    try {
+        Math.sqrt(a24);
+    } catch(e35) {
+    }
+    v33 >>> v33;
+    try {
+        Math.sign(v32);
+    } catch(e38) {
+    }
+    return v31;
+};

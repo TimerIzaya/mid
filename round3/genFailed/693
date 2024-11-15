@@ -1,0 +1,37 @@
+function f3() {
+    return "y8";
+}
+try {
+    new Float64Array(10);
+} catch(e7) {
+}
+try {
+    new Int32Array(10);
+} catch(e11) {
+}
+try {
+    new Int32Array(3);
+} catch(e15) {
+}
+class C16 extends Int32Array {
+    valueOf(a18, a19, a20, a21) {
+        try { a19.startsWith(a19); } catch (e) {}
+        try {
+            a20 = 3;
+        } catch(e23) {
+        }
+        return a18;
+    }
+    9 = "y8";
+    static 210477980 = 10;
+    [10] = f3;
+    static #d;
+}
+new C16();
+new C16();
+new C16();
+try {
+    const t33 = "536870912";
+    t33.__proto__ = "byteOffset";
+} catch(e31) {
+}

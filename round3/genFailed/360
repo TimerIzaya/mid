@@ -1,0 +1,35 @@
+const v0 = [];
+try {
+    new Float32Array(64);
+} catch(e7) {
+}
+try {
+    new Uint32Array(2);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e15) {
+}
+class C16 extends Float32Array {
+    2 = v0;
+    valueOf(a18, a19, a20, a21) {
+        let v22 = 0;
+        while (v22 < 5) {
+            [[128,128,a19,a18,7.422184190930594],[-5.0,-2.2250738585072014e-308,-2.2250738585072014e-308]];
+            v22++;
+        }
+        return 7.422184190930594;
+    }
+}
+new C16();
+new C16();
+new C16();
+const o37 = {
+    valueOf() {
+        function f36() {
+            return this;
+        }
+        return 3306.1055895482423;
+    },
+};

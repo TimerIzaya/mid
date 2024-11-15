@@ -1,0 +1,46 @@
+function f3() {
+    return -2.2250738585072014e-308;
+}
+try {
+    new Uint16Array(64);
+} catch(e7) {
+}
+try {
+    new Int32Array(127);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(1168);
+} catch(e15) {
+}
+new Map();
+const v19 = new Map();
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -2.2250738585072014e-308;
+    } catch(e25) {
+    }
+    try {
+        this.c = a24;
+    } catch(e26) {
+    }
+    try {
+        this.e = Int32Array;
+    } catch(e27) {
+    }
+}
+const v28 = new F20(-2.2250738585072014e-308, 1168, 127);
+new F20(Uint8ClampedArray, 64, 64);
+const v30 = new F20(F20, 1168, 1168);
+try {
+    f3();
+} catch(e32) {
+}
+try { v19.set(v30, Uint8ClampedArray); } catch (e) {}
+const v35 = [];
+const v37 = Reflect.apply(v19.clear, v30, v35);
+try {
+    v37[64] = v28;
+} catch(e38) {
+}

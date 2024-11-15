@@ -1,0 +1,80 @@
+const v0 = [];
+class C1 {
+    o() {
+        let v2 = this;
+        try {
+            v2 >>>= v0;
+        } catch(e3) {
+        }
+        function f4() {
+            return v0;
+        }
+        return f4;
+    }
+    constructor() {
+        try {
+            this >> this;
+        } catch(e7) {
+        }
+    }
+}
+const v8 = new C1();
+const v9 = new C1();
+const v10 = new C1();
+class C14 {
+    static get g() {
+        const o16 = {
+            __proto__: v9,
+            "e": v0,
+            [-65536n]: this,
+        };
+        try {
+            this.fuck(o16, 9007199254740992n);
+        } catch(e19) {
+        }
+        return this;
+    }
+    static b;
+    static [v8] = v8;
+}
+const v20 = new C14();
+new C14();
+const v22 = new C14();
+function f23() {
+    return v20;
+}
+function f24(a25, a26) {
+    const o33 = {
+        toString(a28, a29) {
+            b = v0;
+            %VerifyType(this);
+            return a26;
+        },
+        set c(a31) {
+            try {
+                super[a31] = a26;
+            } catch(e32) {
+            }
+        },
+        "a": v9,
+        [C1]: -4294967297n,
+        "d": f23,
+        __proto__: v10,
+    };
+    return o33;
+}
+const v34 = f24(v22, v10);
+f24(v8, v8);
+f24(v10, v10);
+v0[8] <<= -65536n;
+function f37(a38, a39) {
+    a39.b;
+    f24(v10, v9);
+    %PrepareFunctionForOptimization(f24);
+    f24(v10, v9);
+    f24(v10, v9);
+    %OptimizeFunctionOnNextCall(f24);
+    f24(v10, v9);
+    return v34;
+}
+f37(-65536n, C1);

@@ -1,0 +1,44 @@
+function f3() {
+    return 268435456;
+}
+function f7() {
+    return 268435456;
+}
+function f8() {
+    return 1n;
+}
+function f9(a10, a11) {
+    const o28 = {
+        "h": a10,
+        valueOf(a13, a14, a15, a16) {
+            let v18 = 16;
+            try {
+                Math.acos(-5n);
+            } catch(e20) {
+            }
+            try {
+                Math.atan(v18);
+            } catch(e22) {
+            }
+            let v23 = ++v18;
+            const v24 = v23 >> v18;
+            --v18;
+            v24 + -5n;
+            v23--;
+            return a10;
+        },
+    };
+    return o28;
+}
+const v29 = f9(7, -128n);
+const v30 = f9(7, -128n);
+const v31 = f9(268435456, -128n);
+try {
+    v31.__proto__ = v30;
+} catch(e32) {
+}
+try {
+    new f3();
+} catch(e34) {
+}
+v31["valueOf"](v29, "valueOf");

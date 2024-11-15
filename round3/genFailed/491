@@ -1,0 +1,39 @@
+try {
+    new BigInt64Array(0);
+} catch(e6) {
+}
+try {
+    new Int32Array(7);
+} catch(e10) {
+}
+try {
+    new Int32Array(3768);
+} catch(e14) {
+}
+class C15 extends Int32Array {
+    o(a17, a18, a19) {
+        function F20(a22, a23) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a23;
+            } catch(e24) {
+            }
+        }
+        new F20(a19, 7);
+        new F20(11, 2147483649);
+        new F20(0, 11);
+        return F20;
+    }
+    [-3662] = 3768;
+}
+const v28 = new C15();
+const v29 = new C15();
+const v30 = new C15();
+let v31;
+try { v31 = v29.join(v29); } catch (e) {}
+let v32;
+try { v32 = C15.ceil(2147483649, v31, 0); } catch (e) {}
+try { v28.sort(v31); } catch (e) {}
+var c = C15;
+try { v30.slice(11, v32); } catch (e) {}
+C15.f;

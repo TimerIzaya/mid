@@ -1,0 +1,58 @@
+class C3 {
+    10000 = "-4096";
+    static get g() {
+        try { new this(this, this, 75.6266408281565, ...75.6266408281565, this, this); } catch (e) {}
+        for (let v6 = 0; v6 < 32; v6++) {
+            this["p" + v6] = v6;
+        }
+        return 75.6266408281565;
+    }
+    static 10;
+    3539351432 = "7";
+    5 = "7";
+    static #a = "-4096";
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+try {
+    new Uint32Array(2021);
+} catch(e15) {
+}
+try {
+    new Uint16Array(0);
+} catch(e19) {
+}
+try {
+    new Float32Array(1868);
+} catch(e23) {
+}
+function f24(a25, a26, a27) {
+    const o38 = {
+        set b(a29) {
+            [Uint32Array,a27];
+            [a27,Uint32Array,[this,a29],Uint32Array];
+            const o36 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o36);
+        },
+        "b": a27,
+    };
+    return o38;
+}
+const v39 = f24(v9, 75.6266408281565, v9);
+const v41 = f24(f24(v39, 1868, v39), 1868, v10);
+try {
+    v10[8] = v39;
+} catch(e42) {
+}
+("-4096")["charCodeAt"](Uint16Array, ..."charCodeAt", v10, v41, ..."-4096", ..."charCodeAt");
+Object.defineProperty("-4096", "c", { configurable: true, enumerable: true, get: f24, set: f24 });
+f24(C3, v11, v41);
+%PrepareFunctionForOptimization(f24);
+f24(C3, v11, v41);
+f24(C3, v11, v41);
+%OptimizeMaglevOnNextCall(f24);
+f24(C3, v11, v41);

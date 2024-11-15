@@ -1,0 +1,32 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.MAX_SAFE_INTEGER = f0;
+    } catch(e3) {
+    }
+    try {
+        this.f = f0;
+    } catch(e4) {
+    }
+    try {
+        f0.b = f0;
+    } catch(e5) {
+    }
+}
+const v6 = new F1();
+const v7 = new v6();
+let v8;
+try { v8 = v7.MAX_SAFE_INTEGER(); } catch (e) {}
+new v8();
+const v13 = [886836117,-9007199254740992];
+v13[-1] = v13;
+const t24 = [127];
+t24[0] = "toString";
+const v15 = [4294967295,19152,-4311508,536870887];
+v15[1] = v15;
+class C20 extends f0 {
+}
+const v21 = new C20();
+v21.reverse();

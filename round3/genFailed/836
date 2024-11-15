@@ -1,0 +1,32 @@
+const v0 = /(\2)(\1)\xf0\x9f\x92\xa9/gydvm;
+const v1 = /[]S/gyi;
+const v2 = /(V)/gym;
+class C6 {
+    static {
+        function F8(a10, a11, a12, a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = this;
+            } catch(e14) {
+            }
+            try {
+                this.g = a10;
+            } catch(e15) {
+            }
+        }
+        new F8(1000000000.0, v2, v1, v1);
+        new F8(-7.148394580755736e+307, v2, this, v1);
+        new F8(-1.1397217952030267, v0, this, v2);
+    }
+}
+const v19 = new C6();
+new C6();
+const v21 = new C6();
+const v25 = C6[v19];
+const t24 = "n";
+t24[v21] |= -7.148394580755736e+307;
+const v28 = Reflect.construct(C6, [], v25);
+try {
+    v28.valueOf = v28;
+} catch(e29) {
+}

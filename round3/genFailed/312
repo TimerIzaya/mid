@@ -1,0 +1,26 @@
+try {
+    new Uint8ClampedArray(264);
+} catch(e6) {
+}
+try {
+    new Uint16Array(127);
+} catch(e10) {
+}
+try {
+    new Float64Array(512);
+} catch(e14) {
+}
+const v15 = [-65531,127,-65531,Float64Array];
+[v15,264,-65531,127,Uint16Array];
+const v17 = [-25836,264];
+try {
+    v15.toString = 512;
+} catch(e21) {
+}
+with (v15) {
+    length = v17;
+    try {
+        v17.e = -1.7976931348623157e+308;
+    } catch(e22) {
+    }
+}

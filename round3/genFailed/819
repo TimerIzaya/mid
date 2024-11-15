@@ -1,0 +1,78 @@
+const v1 = new Set();
+class C2 extends Set {
+    g = v1;
+    toString(a4) {
+        const o5 = {
+        };
+        try {
+            new Proxy(v1, o5);
+        } catch(e8) {
+        }
+        return Set;
+    }
+    d;
+    static [Set];
+    static 0;
+}
+const v9 = new C2();
+const v10 = new C2();
+const v11 = new C2();
+const v12 = [-2.622936239136169,6.9876104321087595,-1.7976931348623157e+308,-3.0];
+const v13 = [6.765688281845305e+307,5.0,-1000000000.0,2.220446049250313e-16,-661.4896857073393];
+[0.723968579425322];
+class C15 extends Set {
+    constructor(a17, a18, a19, a20) {
+        super(v11);
+        Reflect.construct(a17, [v12], Set);
+    }
+    static {
+        v10[this] ^= v13;
+        try {
+            super[this] = this;
+        } catch(e25) {
+        }
+    }
+    static [v12];
+}
+const v26 = new C15(v1, v1, v10, v12);
+const v27 = new C15(C15, v10, v11, v13);
+new C15(v27, v27, v27, v12);
+function f29(a30, a31, a32, a33) {
+    const o42 = {
+        "h": a31,
+        o(a35, a36) {
+            const o40 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o40);
+            return v11;
+        },
+        __proto__: C2,
+        0: v9,
+    };
+    return o42;
+}
+f29(C15, v9, f29(f29(v11, v10, v27, v10), v1, v13, v9), v10);
+try {
+    v26[v27] = v13;
+} catch(e46) {
+}
+const v48 = Symbol.iterator;
+const o57 = {
+    [v48]() {
+        let v50 = 10;
+        const o56 = {
+            next() {
+                v50--;
+                const v54 = v50 == 0;
+                const o55 = {
+                    "done": v54,
+                    "value": v50,
+                };
+                return o55;
+            },
+        };
+        return o56;
+    },
+};

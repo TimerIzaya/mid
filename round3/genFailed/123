@@ -1,0 +1,53 @@
+try {
+    new Uint16Array(10);
+} catch(e3) {
+}
+try {
+    new Uint16Array(1024);
+} catch(e7) {
+}
+let v8 = 255;
+try {
+    new Uint32Array(v8);
+} catch(e11) {
+}
+class C12 extends Uint16Array {
+    6;
+    static [Uint32Array] = Uint16Array;
+    p(a14, a15) {
+        let v17;
+        try { v17 = a14["flatMap"](v8, Uint16Array); } catch (e) {}
+        new Uint32Array(v17, a15, v17, v17);
+        try {
+            v8 *= 1024;
+        } catch(e19) {
+        }
+        return a14;
+    }
+    static b;
+    static 6 = Uint16Array;
+}
+new C12();
+new C12();
+new C12();
+new Date();
+new Array(14);
+const o31 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o31);
+let v35 = -529089830;
+const v37 = 10 || -23842;
+try {
+    Math.asin(v37);
+} catch(e39) {
+}
+~2.0;
+v37 ** -23842;
+try {
+    Math.clz32(2.0);
+} catch(e43) {
+}
+--v35;
+2.0 && -23842;

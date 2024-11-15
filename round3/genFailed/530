@@ -1,0 +1,42 @@
+let v0 = -327n;
+let v3 = 7;
+try {
+    new Uint32Array(v3);
+} catch(e6) {
+}
+try {
+    new Int16Array(4);
+} catch(e10) {
+}
+let v12 = Uint16Array;
+try {
+    new v12(16);
+} catch(e14) {
+}
+class C15 extends Int16Array {
+    constructor(a17, a18, a19) {
+        super(a19);
+        %VerifyType(v12);
+        this[3875439952];
+        var g = v0;
+        try {
+            this >> this;
+        } catch(e22) {
+        }
+    }
+    [16n] = Uint32Array;
+    b = 4;
+    static [4] = 16n;
+}
+const v23 = new C15(16n, 16, 16);
+const v24 = new C15(v0, v3, 4);
+let v25 = new C15(-590619439n, v3, 16);
+({"byteLength":v0,"byteOffset":v3,"f":v12,} = v23);
+async function f26(a27, a28, a29) {
+    try {
+        v25 -= a28;
+    } catch(e30) {
+    }
+    return await a29;
+}
+f26(16, v24, v12);

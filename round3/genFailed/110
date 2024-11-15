@@ -1,0 +1,42 @@
+const v1 = new WeakMap();
+function f2(a3, a4) {
+    const o12 = {
+        [a3]: v1,
+        "c": a3,
+        set b(a6) {
+            Object.defineProperty(v1, a6, { writable: true, enumerable: true, value: this });
+            const v8 = [WeakMap,this,[WeakMap,a3,this,a3,v1],a4,a6];
+            [a3,a4,this,a3,a3];
+            try {
+                a4 && v8;
+            } catch(e11) {
+            }
+        },
+        "b": v1,
+        [WeakMap]: a3,
+        __proto__: a4,
+    };
+    return o12;
+}
+const v13 = f2(f2, WeakMap);
+const v14 = f2(v13, f2);
+f2(v13, WeakMap);
+new WeakSet();
+[-1000.0,-809.2059927602036];
+[-4.0,-225602.24980612227,-1.1074105587419585e+308,-0.0,-370.11566029289634,0.4504779157558828,-1000000000.0];
+[-0.0];
+function f24() {
+    return v14;
+}
+try {
+    new BigUint64Array(5);
+} catch(e31) {
+}
+try {
+    new Int32Array(1024);
+} catch(e35) {
+}
+try {
+    new Uint16Array(128);
+} catch(e39) {
+}
