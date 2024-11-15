@@ -1,0 +1,44 @@
+try {
+    new Uint8Array(3);
+} catch(e3) {
+}
+try {
+    new Int32Array(653);
+} catch(e7) {
+}
+try {
+    new Float64Array(256);
+} catch(e11) {
+}
+const v12 = [1000000000000.0,0.8952504633022,1.4348283389397657e+308];
+const v13 = [119594.1691780379,2.220446049250313e-16,0.5686664960096296,-Infinity,-539068.9550541369,1000000000.0,4.0927715826757985e+307,-2.3559502422269034,-5.0];
+const v14 = [-3.0,-1.0,1000000.0,Infinity,-1000000000.0,9241.27510223107,-1.6754597157123493e+308];
+class C15 extends Int32Array {
+    8;
+    static {
+        let {"a":v17,"g":v18,"length":v19,...v20} = v13;
+        Object.defineProperty(v14, 819265464, { configurable: true, value: this });
+    }
+    [653];
+    constructor(a22, a23, a24) {
+        super(256);
+        try {
+            this.toString = a24;
+        } catch(e25) {
+        }
+    }
+    static #f;
+}
+new C15(v13, v12, 3);
+const v27 = new C15(v12, v14, 653);
+new C15(v13, v14, 3);
+Reflect.construct(C15, [v12,v13,-1274457048], Uint8Array);
+Reflect[v27];
+const o38 = {
+    "maxByteLength": 3366572916,
+};
+const v40 = new ArrayBuffer(9, o38);
+try {
+    new Int32Array(v40);
+} catch(e43) {
+}

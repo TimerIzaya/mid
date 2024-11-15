@@ -1,0 +1,84 @@
+function f0() {
+}
+const v2 = new Date();
+const v3 = /(?:foo)/gsdvy;
+const v4 = /a+b|ca(?!bbb|bb)cw^xxx$+/gsyi;
+const v5 = /\u0034/syi;
+try {
+    new Float32Array(11);
+} catch(e9) {
+}
+try {
+    new Uint16Array(1);
+} catch(e13) {
+}
+try {
+    new Float64Array(127);
+} catch(e17) {
+}
+const v19 = new Date();
+function f20(a21, a22, a23, a24) {
+    const o38 = {
+        "a": Uint16Array,
+        "b": 127,
+        [127](a26, a27, a28, a29) {
+            const o32 = {
+                "maxByteLength": 3212,
+            };
+            const v34 = new ArrayBuffer(3212, o32);
+            try {
+                new DataView(v34);
+            } catch(e37) {
+            }
+            return a29;
+        },
+    };
+    return o38;
+}
+f20(v5, 127, 127, Float64Array);
+f20(v5, 1, 1, Float32Array);
+Object.defineProperty(f20(v4, 11, 127, v19), Float64Array, { enumerable: true, set: f0 });
+function f42(a43, a44) {
+    function f46(a47) {
+        try {
+            v3[a47] = v5;
+        } catch(e48) {
+        }
+    }
+    this.onmessage = f46;
+    const o49 = {
+    };
+    try {
+        o49.h = 127;
+    } catch(e50) {
+    }
+    try {
+        const o51 = {
+        };
+        o51.h = 127;
+        o51.e = v2;
+    } catch(e52) {
+    }
+    try {
+        const o53 = {
+        };
+        o53.h = 127;
+        o53.e = v2;
+        o53.f = a44;
+    } catch(e54) {
+    }
+    try {
+        const o55 = {
+        };
+        o55.h = 127;
+        o55.e = v2;
+        o55.a = this;
+    } catch(e56) {
+    }
+}
+const v59 = [Float32Array,Date];
+const o60 = {
+    "arguments": v59,
+    "type": "function",
+};
+new Worker(f42, o60);

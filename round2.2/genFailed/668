@@ -1,0 +1,36 @@
+let v2 = "MAX_VALUE";
+function f3() {
+    return v2;
+}
+try {
+    new BigInt64Array(228);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(1024);
+} catch(e15) {
+}
+class C16 extends Uint8ClampedArray {
+    constructor(a18, a19, a20) {
+        super("d", a19);
+        a19 || this;
+        Math.acosh(this);
+        --v2;
+        Math.clz32(-this);
+        let v28 = 4294967295 ** 4294967295;
+        --v28;
+    }
+}
+const v30 = new C16(16, 228, v2);
+new C16(228, 1024, 228);
+new C16(228, 228, 228);
+[-1000.0,-5.703902586952679e+307,-1000000000000.0,-926.0212591917831,8.56761619321986e+307];
+[0.7655520883994943,1000.0,-8.760899889370924,-4.0,1.0,-475.43645997600834,1.533311422198436e+308,-3.0,4.0,1000000000000.0];
+[Infinity,2.0];
+f3();
+Object.defineProperty("d", "f", { enumerable: true, get: f3, set: f3 });
+v30.buffer;

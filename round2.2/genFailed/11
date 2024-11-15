@@ -1,0 +1,42 @@
+function f0() {
+}
+function f1() {
+    const o9 = {
+        "d": f0,
+        [f0]() {
+            const v3 = this[1];
+            const v4 = [v3,v3];
+            const v5 = [v4,v3,v4,v4];
+            [this,f0,f0,f0,v5];
+            try {
+                v5.filter(f0);
+            } catch(e8) {
+            }
+            return v3;
+        },
+        4: f0,
+        [f0]: f0,
+    };
+    return o9;
+}
+const v10 = f1();
+f1();
+f1();
+let v16 = 8089n;
+let v21 = "vh75M";
+Object.defineProperty("-51846", 9, { configurable: true, get: f0 });
+const v23 = new WeakMap();
+[,v21,v16] = "-51846";
+try { ("string").slice(v16, v21); } catch (e) {}
+Object.defineProperty(v10, -65536n, { enumerable: true, get: f0, set: f0 });
+const o25 = {
+    "apply": f0,
+    "defineProperty": f0,
+    "getOwnPropertyDescriptor": f1,
+    "set": f0,
+    "setPrototypeOf": f1,
+};
+try {
+    new Proxy(v23, o25);
+} catch(e28) {
+}

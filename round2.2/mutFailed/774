@@ -1,0 +1,59 @@
+const v4 = Symbol.toPrimitive;
+const o7 = {
+    [v4]() {
+        v4 + this;
+        return -53541;
+    },
+};
+const v8 = [-1610290396,128,-648297534,4,-15,4294967297];
+const v9 = [-9223372036854775808,10000,-7265,-61899,10,-1024,1,18603];
+const v10 = [25010];
+const v12 = new WeakSet();
+v12.toString = Symbol;
+function f13(a14, a15, a16, a17) {
+    function f18(a19) {
+        new Int32Array(v10);
+        return v12;
+    }
+    a14[Symbol.toPrimitive] = f18;
+    const o29 = {
+        __proto__: v12,
+        set b(a25) {
+            for (let v26 = 0; v26 < 32; v26++) {
+                a14["p" + v26] = v26;
+            }
+        },
+        "a": a15,
+        "e": a14,
+        [-2]: a16,
+        "g": WeakSet,
+        "b": a14,
+        ...v10,
+    };
+    Object.defineProperty(o29, Symbol.toPrimitive, { writable: true, value: f18 });
+    return o29;
+}
+const v32 = f13(v10, v9, v10, 1453478926);
+f13(v12, v10, -32124, 1453478926);
+f13(-53541, v8, WeakSet, -53541);
+class C35 {
+    a;
+    set b(a37) {
+        function f39() {
+            return a37;
+        }
+    }
+    constructor(a41, a42) {
+        a41 <= this;
+        super.g;
+        super.g /= 1453478926;
+        [6];
+        [-818];
+        const t49 = [129];
+        t49[v32] += 1453478926;
+    }
+}
+new C35(-53541, -32124);
+new C35(-32124, -53541);
+new C35(-32124, 1453478926);
+new Int32Array(949287958);

@@ -1,0 +1,34 @@
+try {
+    new Uint32Array(493);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(3);
+} catch(e7) {
+}
+try {
+    new Uint8Array(9);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(255);
+} catch(e15) {
+}
+try {
+    new Uint32Array(2537);
+} catch(e19) {
+}
+try {
+    new Uint16Array(8);
+} catch(e23) {
+}
+const v24 = new Uint16Array(3);
+const v26 = [493,2537];
+Reflect.apply(v24.with, v24, v26);
+function f29(a30) {
+    return 3;
+}
+class C31 extends f29 {
+    c = 9;
+    #c;
+}

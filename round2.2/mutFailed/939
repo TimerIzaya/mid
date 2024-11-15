@@ -1,0 +1,58 @@
+try {
+    new Uint8Array(4);
+} catch(e6) {
+    for (let i8 = 0; i8 < 7; i8++) {
+        e6?.e;
+        const v15 = 4;
+    }
+}
+try {
+    const v18 = new Float32Array(-9007199254740990);
+    try {
+        v18.buffer >>>= 15;
+    } catch(e19) {
+        e19[Symbol.replace] = e19;
+    } finally {
+        for (let v22 = 0; v22 < 32; v22++) {
+            v18["p" >>> v22] = v22;
+        }
+    }
+} catch(e25) {
+}
+try {
+    new Uint8ClampedArray(2700);
+} catch(e29) {
+}
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a32;
+    } catch(e35) {
+    }
+    try {
+        this.d = 2700;
+    } catch(e36) {
+    }
+    try {
+        this.h = Float32Array;
+    } catch(e37) {
+    }
+}
+new F30(4, -31756, -31756);
+const v39 = new F30(-9007199254740990, -9007199254740990, 2700);
+new F30(4, 1108906412, 1108906412, v39, v39, v39);
+const v43 = [1e-15,-1000.0,-1000000000000.0,0.24718469695380962,9.59320331048082];
+class C44 extends Float32Array {
+    #e;
+    constructor(a46, a47, a48, a49) {
+        super(a49, a46);
+        const o52 = {
+            "h": "minor",
+        };
+        o52.type = -31756;
+        WeakRef(o52);
+    }
+}
+const v54 = new C44();
+new C44(v43, -7, -7, -7);
+v54[257] = v43;

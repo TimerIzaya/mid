@@ -1,0 +1,23 @@
+const v3 = [11n,-1024n,-1024n,-1024n];
+const v4 = [976970095n,976970095n,v3];
+const v5 = [v4];
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a8;
+    } catch(e11) {
+    }
+    try {
+        this.g = a9;
+    } catch(e12) {
+    }
+}
+new F6(v4, v5, v4);
+new F6(v3, v3, v3);
+const v15 = new F6(v4, v4, v5);
+-1024n << v15;
+for (let v20 = 0; v20 < 32; v20++) {
+    v3["p" + v20] = v20;
+}
+let v25 = typeof v15 === "symbol";
+v25++;

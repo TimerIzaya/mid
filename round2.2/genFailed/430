@@ -1,0 +1,20 @@
+try {
+    new Float64Array(129);
+} catch(e3) {
+}
+try {
+    new Int8Array(1508);
+} catch(e7) {
+}
+try {
+    new Uint8Array(4);
+} catch(e11) {
+}
+Int8Array ** -9223372036854775807n;
+try { (1508)["toString"](); } catch (e) {}
+const o24 = {
+};
+try {
+    new Proxy("toString", o24);
+} catch(e27) {
+}

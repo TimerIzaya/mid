@@ -1,0 +1,83 @@
+function f0() {
+    const o26 = {
+        "e": "split",
+        set c(a5) {
+            const v6 = -1000000.0 >>> -1000000.0;
+            const v10 = Symbol.toPrimitive;
+            const o12 = {
+                [v10]() {
+                    %VerifyType(this);
+                    return -1000000.0;
+                },
+            };
+            const o13 = {
+                "maxByteLength": 536870912,
+            };
+            const v15 = new ArrayBuffer(2402, o13);
+            function f16(a17, a18, a19, a20) {
+                try {
+                    a5 = a20;
+                } catch(e21) {
+                }
+                return ArrayBuffer;
+            }
+            f16(v6, 2402, 536870912, v6);
+            try {
+                new f0(v15);
+            } catch(e25) {
+            }
+        },
+        "c": "21905",
+        "h": f0,
+        __proto__: "split",
+        "g": f0,
+        "d": "split",
+    };
+    return o26;
+}
+const v27 = f0();
+const v28 = f0();
+const v29 = f0();
+function F30(a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { a32.g(); } catch (e) {}
+    try {
+        this.h = a32;
+    } catch(e34) {
+    }
+}
+new F30(v28);
+const v36 = new F30(v27);
+v36.h = v36;
+new F30(v29);
+try {
+    new Float32Array(2483);
+} catch(e41) {
+}
+try { Uint8Array.from(v29); } catch (e) {}
+try {
+    new Uint8Array(4096);
+} catch(e46) {
+}
+Float64Array.BYTES_PER_ELEMENT;
+try {
+    new Float64Array(10);
+} catch(e51) {
+}
+function f52(a53, a54) {
+    try {
+        f52(a54, /w/mgvyi);
+    } catch(e57) {
+    }
+    return a54;
+}
+try { f52(v36, f52); } catch (e) {}
+const v59 = [-10,268435439,36278,2147483647,9,-1465437081,37313,24221];
+const v60 = v59?.sort;
+try { new v60(10); } catch (e) {}
+function f62(a63, a64) {
+    %PrepareFunctionForOptimization(f52);
+    return f52(a63, v60);
+}
+v59.toString = f62;
+v59.slice(v59);

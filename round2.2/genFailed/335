@@ -1,0 +1,37 @@
+function f3() {
+    return "0X";
+}
+class C4 {
+    static b;
+    get g() {
+        try {
+            const t7 = "symbol";
+            t7[512] = this;
+        } catch(e6) {
+        }
+        return "nc";
+    }
+    n(a8, a9) {
+        try {
+            a8.__proto__ = "nc";
+        } catch(e10) {
+        }
+        try {
+            this["0X"] = "symbol";
+        } catch(e11) {
+        }
+        return a8;
+    }
+}
+new C4();
+new C4();
+new C4();
+const v23 = [-244941417n,[[-4294967295],-244941417n]];
+const t28 = "symbol";
+t28.length ||= 64;
+const v24 = C4.b;
+var g = v24;
+const v25 = v23[255];
+try { v25(); } catch (e) {}
+("symbol")[0];
+C4 instanceof v24;

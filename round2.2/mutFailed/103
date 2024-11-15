@@ -1,0 +1,70 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 57136;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+7 - 7;
+try { new Uint32Array(v6, 7, F0); } catch (e) {}
+try {
+    new Uint32Array(7);
+} catch(e12) {
+}
+127 - 127;
+try {
+    new BigInt64Array(127);
+} catch(e17) {
+}
+2436 / 2436;
+try {
+    new Int16Array(2436);
+} catch(e22) {
+}
+class C23 {
+    static #c = Uint32Array;
+    static #valueOf(a25, a26, a27, a28) {
+        [1000.0,Infinity,0.4145419549558861,-0.007427845232596653];
+        return v4;
+    }
+    static #e;
+    #b = F0;
+    e = 127;
+    static g = Int16Array;
+}
+C23.length;
+new C23();
+const v44 = new C23();
+v44.e = v44;
+new C23();
+class C47 {
+    constructor(a49) {
+        a49.d = a49;
+        1 != 1;
+        1 >> 1;
+        try {
+            a49.length = 1;
+        } catch(e53) {
+            e53.f = e53;
+        }
+    }
+}
+try { new C47(Uint32Array); } catch (e) {}
+const v55 = new C47("setInt8");
+const v56 = v55?.__lookupGetter__;
+try { new v56(v55); } catch (e) {}
+function f58() {
+    return C47;
+}
+class C59 extends f58 {
+    [f58] = v55;
+}
+let v60;
+try { v60 = new C59(); } catch (e) {}
+try { v60.bind(Uint32Array); } catch (e) {}
+new C59();
+const v63 = new C59();
+v63.length;

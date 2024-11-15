@@ -1,0 +1,32 @@
+try {
+    new Uint8Array(1024);
+} catch(e3) {
+}
+try {
+    new Uint8Array(4096);
+} catch(e7) {
+}
+try {
+    new Uint8Array(1024);
+} catch(e11) {
+}
+class C15 extends Uint8Array {
+    static {
+        const o20 = {
+            "execution": "async",
+            "type": "major",
+        };
+        gc(o20);
+    }
+    [1024];
+    4;
+    static #c = Uint8Array;
+}
+new C15();
+new C15();
+const v24 = new C15();
+const v27 = v24[Symbol.iterator];
+try { v27(v27); } catch (e) {}
+[-4,-1388];
+[932790180,56825,683007651,-1177768539,2147483649,1,1310191134,9007199254740990,1240942133];
+[-24296];

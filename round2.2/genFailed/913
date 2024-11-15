@@ -1,0 +1,32 @@
+function f0() {
+}
+const v1 = [f0];
+const v2 = [v1,v1];
+[f0,v1,v2];
+try {
+    new Uint8ClampedArray(512);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(1024);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(7);
+} catch(e15) {
+}
+const v16 = [512,1024];
+[v16,7,v16];
+const v18 = [v2,1024];
+const v19 = new BigInt64Array(...v18, 1024, 1024, 7, ...v18, 1024);
+function f20(a21, a22, a23) {
+    const o24 = {
+        __proto__: v19,
+        "f": v1,
+        2: v16,
+    };
+    return o24;
+}
+f20(v1, 1024, 1024);
+f20(v2, 1024, 512);
+f20(v2, 1024, 1024);

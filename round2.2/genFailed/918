@@ -1,0 +1,47 @@
+let v0 = Date;
+const v1 = new v0();
+function f2(a3, a4) {
+    const o7 = {
+        __proto__: v0,
+        get f() {
+            try {
+                v0 = this;
+            } catch(e6) {
+            }
+            return v0;
+        },
+        ...v0,
+        "c": v0,
+        ...v1,
+        "e": a3,
+        3148736902: v1,
+        "a": v0,
+    };
+    return o7;
+}
+const v8 = f2(f2, v0);
+f2(v8, v8);
+const v10 = f2(v1, v0);
+try {
+    new Float32Array(29);
+} catch(e14) {
+}
+try {
+    new Float64Array(4069);
+} catch(e18) {
+}
+try {
+    new Int16Array(1024);
+} catch(e22) {
+}
+let v25 = -5.685834799267877e+307;
+try {
+    v25 = -1e-15;
+} catch(e26) {
+}
+f2(f2, 1024);
+29 ^ v10;
+try {
+    v25 = 0.3339792854268563;
+} catch(e32) {
+}

@@ -1,0 +1,64 @@
+const v0 = [];
+const t1 = -1.034127963380022e+308;
+new t1();
+class C6 {
+    static #d = -1.7976931348623157e+308;
+    static n(a8, a9, a10) {
+        for (const v11 of v0) {
+            try { v11.reverse(); } catch (e) {}
+            const v14 = Symbol.iterator;
+            const o23 = {
+                [v14]() {
+                    let v16 = 10;
+                    const o22 = {
+                        next() {
+                            v16--;
+                            const v20 = v16 == 0;
+                            const o21 = {
+                                "done": v20,
+                                "value": -1.7976931348623157e+308,
+                            };
+                            return o21;
+                        },
+                    };
+                    return o22;
+                },
+            };
+        }
+        return this;
+    }
+}
+new C6();
+new C6();
+const v26 = new C6();
+class C27 extends Date {
+    static #f;
+    static #p(a29, a30, a31, a32) {
+        const v33 = +this;
+        function f34(a35) {
+            return v33;
+        }
+        class C36 extends f34 {
+            6 = v26;
+            a;
+        }
+        return a31;
+    }
+    static [-2.0] = Date;
+    f = -1.7976931348623157e+308;
+}
+new C27();
+new C27();
+new C27();
+function f40(a41, a42) {
+    const o43 = {
+        __proto__: a42,
+    };
+    return o43;
+}
+const v45 = f40(f40(f40, f40), v0);
+const v46 = [-Infinity,-507.25926960893685,398.0348813664666];
+try {
+    v46.length = v45;
+} catch(e47) {
+}

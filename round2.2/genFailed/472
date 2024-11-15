@@ -1,0 +1,57 @@
+class C3 {
+    #c;
+    get f() {
+        const o7 = {
+            "maxByteLength": 1571289450,
+        };
+        const v9 = new SharedArrayBuffer(7, o7);
+        try {
+            new Uint8ClampedArray(v9);
+        } catch(e12) {
+        }
+        return -3.0;
+    }
+}
+const v13 = new C3();
+const v14 = new C3();
+new C3();
+try {
+    new Uint32Array(10);
+} catch(e19) {
+}
+try {
+    new Float32Array(128);
+} catch(e23) {
+}
+try {
+    new Uint8ClampedArray(68);
+} catch(e27) {
+}
+function F28(a30, a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -3.0;
+    } catch(e34) {
+    }
+    try {
+        this.f = a30;
+    } catch(e35) {
+    }
+    try {
+        this.e = a33;
+    } catch(e36) {
+    }
+}
+const v37 = new F28(v13, C3, -748.4353501474536, 10);
+const v38 = new F28(68, v14, 5.399076954818403e+307, 128);
+const v39 = new F28(F28, v37, -748.4353501474536, 128);
+for (const v40 of 128) {
+    for (let v41 = 0; v41 < 32; v41++) {
+        C3["p" + v41] = v41;
+    }
+}
+const v44 = new F28(68, v39, v38, 5.399076954818403e+307, 128);
+try {
+    v44[Uint32Array] = v37;
+} catch(e45) {
+}

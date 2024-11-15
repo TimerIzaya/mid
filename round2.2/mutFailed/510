@@ -1,0 +1,92 @@
+function f7() {
+    const o11 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o11);
+    return "sync";
+}
+WeakSet.toString = f7;
+try { WeakSet.toString(); } catch (e) {}
+const v14 = new WeakSet();
+2606 - 2606;
+try {
+    new Uint8ClampedArray(2606);
+} catch(e19) {
+}
+9 * 9;
+try {
+    new Int16Array(9);
+} catch(e24) {
+}
+const v26 = 3710 & 3710;
+try {
+    new Int16Array(3710);
+} catch(e29) {
+}
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f35() {
+        return v26;
+    }
+    function f36(a37) {
+        class C38 {
+            set b(a40) {
+                class C41 {
+                    static #c;
+                }
+            }
+        }
+        new C38();
+    }
+    Object.defineProperty(this, "e", { writable: true, get: f35, set: f36 });
+    a32 * a32;
+    a33 !== a33;
+    function f45(a46) {
+        try { a32(-65535, Int16Array); } catch (e) {}
+    }
+    Object.defineProperty(this, "c", { set: f45 });
+    try {
+        this.c >>= 268435456;
+        this[Int16Array];
+        const o49 = {
+            "call": f45,
+            "construct": f45,
+            "deleteProperty": f45,
+            "get": f45,
+            "getOwnPropertyDescriptor": f45,
+            "getPrototypeOf": f45,
+            "has": f45,
+            "isExtensible": f45,
+            "ownKeys": f45,
+            "preventExtensions": f45,
+            "set": f45,
+            "setPrototypeOf": f45,
+        };
+        Proxy.toString = f35;
+        try { Proxy.toString(); } catch (e) {}
+        try {
+            new Proxy(v14, o49);
+        } catch(e53) {
+        }
+        this.c = 268435456;
+    } catch(e54) {
+    }
+}
+new F30(170856553, 268435456, F30);
+new F30(0, 3710, F30);
+const v57 = new F30(3710, 0, 6);
+v57.e = v57;
+let v58 = 38001;
+const v60 = Symbol.toPrimitive;
+const o63 = {
+    [v60]() {
+        try {
+            v58 %= 65536;
+        } catch(e62) {
+        }
+        return 6;
+    },
+};
+-536870912n + -536870912n;
+v58 == -536870912n;

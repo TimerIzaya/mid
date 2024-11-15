@@ -1,0 +1,52 @@
+try {
+    new Uint32Array(1);
+} catch(e3) {
+}
+try {
+    new Int16Array(2205);
+} catch(e7) {
+}
+try {
+    new Float64Array(257);
+} catch(e11) {
+}
+class C12 {
+    constructor(a14, a15, a16, a17) {
+        for (let v18 = 0; v18 < 32; v18++) {
+            a15["p" + v18] = v18;
+        }
+    }
+    static o(a22, a23, a24, a25) {
+        try {
+            super.deleteProperty(Float64Array);
+        } catch(e27) {
+        }
+        Uint32Array instanceof Float64Array;
+        let {"a":v29,} = this;
+        return Float64Array;
+    }
+}
+new C12(2205, 1, 257, 1);
+const v31 = new C12(257, C12, 2205, 1);
+new C12(2205, v31, 2205, 1);
+new Date();
+try {
+    new BigInt64Array(8);
+} catch(e38) {
+}
+try {
+    new Uint16Array(1024);
+} catch(e42) {
+}
+try {
+    new Float32Array(2337);
+} catch(e46) {
+}
+try {
+    Date.h = Float32Array;
+} catch(e47) {
+}
+try {
+    new Float64Array(-6769, -4294967296);
+} catch(e51) {
+}

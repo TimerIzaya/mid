@@ -1,0 +1,47 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -1073741824;
+    } catch(e3) {
+    }
+    try {
+        this.c = -1073741824;
+    } catch(e4) {
+    }
+    try {
+        this.h = -1073741824;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+[v8,v7];
+const v10 = [v6,v8,F0];
+const v11 = [v10,v10,v6,v7];
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a16;
+    } catch(e17) {
+    }
+    try {
+        this.a = a15;
+    } catch(e18) {
+    }
+    try {
+        this.b = a14;
+    } catch(e19) {
+    }
+}
+const v20 = new F12(v6, v11, v8);
+new F12(v8, v20, v6);
+const v22 = new F12(v7, F0, v7);
+for (let [v23,v24] of v11) {
+    [-642.7656701207554,-986.5453188111295,375.84505894484164,1.0,2.220446049250313e-16,-822431.5423434083,-3.0,2.0,1000000000.0];
+    [-1.6879386253781299e+308,-157711.5437664172,1.0];
+    [-453108.2664552628,-2.555429051581952,-4.0,-Infinity];
+}
+const v28 = v8.h;
+v8[Symbol.replace] = v28;
+try { v8.o(v10, v22, v20); } catch (e) {}

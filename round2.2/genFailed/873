@@ -1,0 +1,43 @@
+let v0 = "K8b";
+class C3 {
+    ["YwJlv"] = v0;
+    constructor(a5) {
+        try {
+            v0 = this;
+        } catch(e6) {
+        }
+        Object.defineProperty(a5, 0, { configurable: true, value: v0 });
+    }
+    #g;
+    #c;
+}
+new C3(v0);
+new C3(v0);
+new C3("YwJlv");
+try {
+    new Int8Array(4);
+} catch(e13) {
+}
+try {
+    new Uint8Array(16);
+} catch(e17) {
+}
+try {
+    new Int32Array(9);
+} catch(e21) {
+}
+function f22() {
+    function f24(a25) {
+        delete a25?.[10];
+    }
+    this.onmessage = f24;
+    for (let v27 = 0; v27 < 100; v27++) {
+        f24(this);
+    }
+}
+const v31 = [];
+const o32 = {
+    "arguments": v31,
+    "type": "function",
+};
+new Worker(f22, o32);

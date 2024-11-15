@@ -1,0 +1,41 @@
+try {
+    new Int32Array(10);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(512);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(64);
+} catch(e11) {
+}
+class C15 extends Int32Array {
+    #valueOf(a17, a18, a19) {
+        const v21 = this["slice"]();
+        try {
+            super.byteLength = 512;
+        } catch(e22) {
+        }
+        return v21;
+    }
+    static #c = BigUint64Array;
+    0;
+    static #g = "Sx";
+    [512];
+}
+new C15();
+new C15();
+new C15();
+try {
+    new Float32Array(0);
+} catch(e29) {
+}
+try {
+    new Uint8ClampedArray(240);
+} catch(e33) {
+}
+try {
+    new BigUint64Array(72);
+} catch(e37) {
+}

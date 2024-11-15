@@ -1,0 +1,36 @@
+const v0 = /8+/mdvyi;
+const v1 = /\u{12345}o4(?:a+)?/msuy;
+const v2 = /u5(ab|cde)\1/mgsvi;
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(v1);
+const v8 = new F3(v2);
+const v9 = new F3(v0);
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v1;
+    } catch(e15) {
+    }
+}
+const v16 = new F10(v2, v7, F3);
+const v17 = new F10(v2, v9, v16);
+new F10(v2, v8, v1);
+if (v9 < v17) {
+    const o22 = {
+        "maxByteLength": 4096,
+    };
+    const v24 = new SharedArrayBuffer(4096, o22);
+    try {
+        new Uint8Array(v24);
+    } catch(e27) {
+    }
+} else {
+    Object.defineProperty(v7, 3535886681, { writable: true, configurable: true, value: v8 });
+    v1["compile"](v7, v9, "compile", ..."compile", ..."compile");
+}

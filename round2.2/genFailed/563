@@ -1,0 +1,62 @@
+function f0() {
+    const o7 = {
+        ["function"]: "e",
+        set f(a5) {
+            try {
+                super["e"] = "function";
+            } catch(e6) {
+            }
+        },
+        "a": 129,
+        [129]: 129,
+        ["e"]: "function",
+        "d": "e",
+    };
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+const v11 = [f0,v8,v9,v10,v10];
+const v13 = [v9,f0,v9,[f0,v11,v8,f0],v11];
+class C14 extends f0 {
+    9 = v10;
+    static #o(a16, a17) {
+        const v18 = super.d;
+        super.d %= v18;
+        %VerifyType(v13);
+        try {
+            this.#o(v18);
+        } catch(e20) {
+        }
+        return a17;
+    }
+}
+new C14();
+const v22 = new C14();
+const v23 = new C14();
+const v24 = v9[v23];
+C14.e;
+let v26;
+try { v26 = v24(v22, v11, v24); } catch (e) {}
+const v28 = [v24];
+Reflect.apply(v13.sort, v26, v28);
+new f0();
+const v33 = Symbol.iterator;
+const o42 = {
+    [v33]() {
+        let v35 = 10;
+        const o41 = {
+            next() {
+                v35--;
+                const v39 = v35 == 0;
+                const o40 = {
+                    "done": v39,
+                    "value": v35,
+                };
+                return o40;
+            },
+        };
+        return o41;
+    },
+};

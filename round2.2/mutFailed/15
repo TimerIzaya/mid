@@ -1,0 +1,72 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 50282;
+    } catch(e3) {
+    }
+    try {
+        this.f = 50282;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8() {
+    return v7;
+}
+function f12() {
+    return v7;
+}
+class C16 extends F0 {
+    set h(a18) {
+        function F19(a21, a22, a23, a24) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                a23.b = F0;
+            } catch(e25) {
+            }
+        }
+        new F19(v7, 1073741824n, -7, -7);
+        new F19(v6, 1073741824n, 10000, 10000);
+        new F19(v6, 9n, -7, 10000);
+    }
+    9;
+    f;
+}
+const v29 = new C16();
+new C16();
+new v29();
+let v34 = Int16Array;
+let v36 = WeakMap;
+new C16();
+class C38 extends v36 {
+}
+new F0();
+const v40 = new C38();
+class C41 {
+    #h;
+    constructor(a43, a44, a45, a46) {
+        function f47(a48, a49, a50) {
+            function f52(a53) {
+                Math.sqrt();
+                a45 + a46;
+                a46 ^ 573;
+            }
+            this.onmessage = f52;
+            ({"c":a46,"f":v34,"onmessage":v36,} = this);
+            (-1073741824n).b;
+        }
+        [a43,a45];
+        const o64 = {
+            "arguments": C41,
+            "type": "function",
+        };
+        new Worker(f47, o64);
+    }
+}
+new C41(v40, 3481, v36, v40);
+const o67 = {
+};
+const v69 = new Proxy(C41, v5);
+v40[v69];

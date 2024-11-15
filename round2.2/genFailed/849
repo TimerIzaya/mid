@@ -1,0 +1,70 @@
+class C6 {
+    n(a8, a9) {
+        try {
+            a8[a8] = this;
+        } catch(e10) {
+        }
+        return this;
+    }
+    #c;
+    static {
+        try {
+            this[-2] = "name";
+        } catch(e12) {
+        }
+        try {
+            this.g = 2n;
+        } catch(e13) {
+        }
+    }
+}
+new C6();
+new C6();
+const v16 = new C6();
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a19;
+    } catch(e21) {
+    }
+}
+new F17(2n, v16);
+new F17(-9007199254740992n, -9007199254740992n);
+new F17(-9007199254740992n, 1073741825n);
+class C25 extends C6 {
+    static #toString(a27, a28) {
+        try {
+            new Uint16Array(3237);
+        } catch(e32) {
+        }
+        try {
+            new Int8Array(33);
+        } catch(e36) {
+        }
+        try {
+            new Uint8Array(256);
+        } catch(e40) {
+        }
+        return "name";
+    }
+}
+new C25();
+const v42 = new C25();
+new C25();
+function f44(a45, a46) {
+    function f48(a49) {
+        try {
+            a46 %= a45;
+        } catch(e50) {
+        }
+    }
+    this.onmessage = f48;
+    v42 - this;
+    delete C6?.f;
+}
+const v55 = [1073741825n,"function"];
+const o56 = {
+    "arguments": v55,
+    "type": "function",
+};
+new Worker(f44, o56);

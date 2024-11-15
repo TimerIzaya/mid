@@ -1,0 +1,37 @@
+const v1 = new WeakSet();
+try {
+    new BigUint64Array(4);
+} catch(e8) {
+}
+try {
+    new Uint8Array(512);
+} catch(e12) {
+}
+try {
+    new Float64Array(9);
+} catch(e16) {
+}
+try {
+    new Int8Array(798);
+} catch(e20) {
+}
+try {
+    new Int8Array(2);
+} catch(e24) {
+}
+try {
+    new Float64Array(16);
+} catch(e28) {
+}
+new WeakSet(4, v1, ..."1098460317", 798, ..."5", ..."1098460317");
+let v30 = ("1098460317").__proto__;
+const v31 = 16;
+v1 === BigUint64Array;
+function f33(a34, a35, a36) {
+    try {
+        v30 = arguments;
+    } catch(e38) {
+    }
+    return Int8Array;
+}
+f33(16, "1098460317", "pd");

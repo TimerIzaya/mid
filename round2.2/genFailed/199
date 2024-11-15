@@ -1,0 +1,47 @@
+function f3(a4) {
+    const o7 = {
+        10: 13,
+        "g": a4,
+        get c() {
+            try {
+                this.__proto__ = this;
+            } catch(e6) {
+            }
+            return this;
+        },
+        "c": 13,
+        __proto__: 9007199254740991,
+        1024: 27305,
+        ...27305,
+    };
+    return o7;
+}
+const v8 = f3(27305);
+const v9 = f3(9007199254740991);
+f3(27305);
+function f14() {
+    return 1e-15;
+}
+try {
+    new Uint32Array(0);
+} catch(e18) {
+}
+try {
+    new Uint16Array(13);
+} catch(e22) {
+}
+try {
+    new Uint16Array(206);
+} catch(e26) {
+}
+let v27;
+try { v27 = v9.o(); } catch (e) {}
+class C28 extends Uint16Array {
+    static #d = 13;
+    static #f = v8;
+    [0.5324604830002114] = f14;
+}
+new C28();
+new C28();
+new C28();
+try { v27(); } catch (e) {}

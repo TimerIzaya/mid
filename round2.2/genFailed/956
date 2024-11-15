@@ -1,0 +1,36 @@
+try {
+    new Uint32Array(1000);
+} catch(e6) {
+}
+try {
+    new Uint32Array(1024);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(64);
+} catch(e14) {
+}
+try {
+    new Uint32Array(3203);
+} catch(e18) {
+}
+let v19 = 12;
+try {
+    new Uint8ClampedArray(v19);
+} catch(e22) {
+}
+try {
+    new Int16Array(6);
+} catch(e26) {
+}
+try {
+    v19 = 64;
+} catch(e27) {
+}
+typeof Int16Array === "object";
+const v33 = 65537 >>> -1616396806n;
+const v34 = 65537 ^ -1616396806n;
+Math.fround(v34);
+Math.expm1(65537);
+Math.cbrt(v33);
+(v33 + v34) / v33;

@@ -1,0 +1,17 @@
+try {
+    new Int8Array(101);
+} catch(e9) {
+}
+try {
+    new Uint8Array(584);
+} catch(e13) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e17) {
+}
+const v18 = new BigUint64Array(1487740748);
+let v19 = 10;
+for (; v19--;) {
+    v18[128] *= v19;
+}

@@ -1,0 +1,66 @@
+function f0() {
+    const o9 = {
+        [0.7656063034897986]: "d",
+        __proto__: "d",
+        5: 0.7656063034897986,
+        1: -2147483647,
+        get f() {
+            this.length;
+            const v7 = Symbol.toPrimitive;
+            ("d")[v7];
+            return v7;
+        },
+        "a": "d",
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+const v13 = v12[5];
+class C14 {
+    static #n(a16) {
+        try {
+            v10.__proto__ = v12;
+        } catch(e17) {
+        }
+        return v12;
+    }
+    m(a19, a20) {
+        try {
+            super.p(v11, 441.45698879726365, v11, a20);
+        } catch(e25) {
+        }
+        return a19;
+    }
+}
+const v26 = new C14();
+const v27 = v26?.constructor;
+let v28;
+try { v28 = new v12(); } catch (e) {}
+new v28();
+new C14();
+new Array(1564);
+v13 >>> 257;
+try {
+    new Int32Array(257);
+} catch(e38) {
+}
+const v41 = Uint16Array.BYTES_PER_ELEMENT;
+try {
+    new Uint16Array(1614);
+    try {
+        v10.fuck(-1692612483n, 1, v26);
+    } catch(e49) {
+    }
+} catch(e50) {
+}
+try {
+    const v53 = new v41(8);
+    v53[5] = v53;
+} catch(e54) {
+}
+const v55 = [];
+let v56;
+try { v56 = v55.findLast(v27); } catch (e) {}
+v55.includes(v56, -9223372036854775807);

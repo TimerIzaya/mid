@@ -1,0 +1,58 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+try {
+    new Uint8Array(308);
+} catch(e5) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e9) {
+}
+try {
+    new Int16Array(16);
+} catch(e13) {
+}
+try {
+    new Uint32Array(4096);
+} catch(e17) {
+}
+try {
+    new Int8Array(255);
+} catch(e21) {
+}
+try {
+    new Uint32Array(1172);
+} catch(e25) {
+}
+class C28 {
+    toString(a30) {
+        return Math.min(Math ** 16);
+    }
+}
+const v34 = new C28();
+const v35 = new C28();
+v0.length += 4096;
+try {
+    v0.values();
+} catch(e38) {
+}
+const v39 = new C28();
+function f40(a41, a42) {
+    const o48 = {
+        __proto__: a41,
+        valueOf(a44, a45, a46, a47) {
+            return a41;
+        },
+    };
+    return o48;
+}
+const v49 = v0();
+const v50 = f40(v35);
+const v52 = [f40(v39),v50];
+const v53 = [v52,v52,v52,v52,v52];
+for (const v55 of [v49,v53,v53,v52]) {
+    v49[v55] = v39;
+    Reflect.construct(f40, [v34]);
+}

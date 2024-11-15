@@ -1,0 +1,52 @@
+try {
+    new BigUint64Array(127);
+} catch(e3) {
+}
+let v5 = BigInt64Array;
+try {
+    new v5(16);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(256);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 127;
+    } catch(e17) {
+    }
+    try {
+        this.g = a16;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(16, 16, 256);
+new F12(127, 256, 127);
+new F12(16, 127, 16);
+try {
+    new Uint8Array(512);
+} catch(e25) {
+}
+try {
+    new Uint8Array(231);
+} catch(e29) {
+}
+try {
+    new Int8Array(128);
+} catch(e33) {
+}
+try {
+    v5 += v5;
+} catch(e34) {
+}
+BigUint64Array != Uint8Array;
+for (let [v36] of Int8Array) {
+    v36 % 127;
+    v36.g &= 231;
+}
+try {
+    v19[2] = v19;
+} catch(e38) {
+}

@@ -1,0 +1,53 @@
+class C1 {
+    static #p() {
+        try {
+            this.#p(undefined);
+        } catch(e4) {
+        }
+        return this;
+    }
+    [undefined] = undefined;
+    #c;
+    static #d = undefined;
+}
+const v5 = new C1();
+const v6 = new C1();
+const v7 = new C1();
+function f8() {
+    function f9(a10) {
+        new Uint32Array();
+        return Uint32Array;
+    }
+    return f9;
+}
+Object.defineProperty(v7, "toString", { writable: true, get: f8 });
+function f13(a14) {
+    const o30 = {
+        "h": C1,
+        "e": C1,
+        __proto__: a14,
+        "a": undefined,
+        10: C1,
+        [v7](a16, a17) {
+            try {
+                new BigUint64Array(64);
+            } catch(e21) {
+            }
+            try {
+                new Float64Array(16);
+            } catch(e25) {
+            }
+            try {
+                new Int32Array(2586);
+            } catch(e29) {
+            }
+            return v6;
+        },
+    };
+    return o30;
+}
+f13(v6);
+f13(C1);
+f13(v5);
+new Map();
+([0.7701751546226815,997125.4572624811,5.993688823759161e+307]).shift();

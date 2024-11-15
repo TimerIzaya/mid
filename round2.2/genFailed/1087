@@ -1,0 +1,36 @@
+try {
+    new Float32Array(4096);
+} catch(e6) {
+}
+try {
+    new Int8Array(3917);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(256);
+} catch(e14) {
+}
+function f15(a16, a17, a18) {
+    const o21 = {
+        get h() {
+            try {
+                super[4096] = a16;
+            } catch(e20) {
+            }
+            return 3917;
+        },
+        ..."g",
+        "h": 256,
+        "a": BigUint64Array,
+    };
+    return o21;
+}
+f15("g", 4096, 4096);
+const v23 = f15("c", 3917, 256);
+const v24 = f15("g", 3917, 3917);
+v24[2] = v24;
+Object.defineProperty("valueOf", 7, { value: v23 });
+4096 >= "valueOf" ? 4096 : "valueOf";
+const v29 = new Array(4);
+try { v29.toSorted(Array); } catch (e) {}
+new WeakSet();

@@ -1,0 +1,26 @@
+function f0() {
+}
+const v2 = new WeakSet();
+new WeakSet();
+try {
+    new Uint8ClampedArray(2188);
+} catch(e8) {
+}
+try {
+    new Uint16Array(6);
+} catch(e12) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e16) {
+}
+try {
+    v2[WeakSet] = WeakSet;
+} catch(e17) {
+}
+for (const v18 of Uint8ClampedArray) {
+    try {
+        new f0();
+    } catch(e20) {
+    }
+}

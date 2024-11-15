@@ -1,0 +1,50 @@
+new WeakMap();
+class C5 {
+    static 2 = -4294967296;
+    n(a7, a8) {
+        this.a <<= a7;
+        try {
+            new BigUint64Array(512);
+        } catch(e12) {
+        }
+        try {
+            new Uint8ClampedArray(2469);
+        } catch(e16) {
+        }
+        try {
+            new Uint16Array(3422);
+        } catch(e20) {
+        }
+        return a7;
+    }
+}
+const v21 = new C5();
+const v22 = new C5();
+const v23 = new C5();
+class C24 extends WeakMap {
+    #a;
+    p(a26, a27, a28) {
+        try {
+            v22[1] = v23;
+        } catch(e29) {
+        }
+        return a27;
+    }
+    [v21] = v22;
+    static #f;
+    f = WeakMap;
+}
+new C24();
+new C24();
+new C24();
+try {
+    C24[WeakMap] = C24;
+} catch(e33) {
+}
+const v34 = `
+    C5 | v22;
+    const v36 = v22.d;
+    try { v36(v36); } catch (e) {}
+    Reflect.construct(WeakMap, [C5], C5);
+`;
+eval(v34);

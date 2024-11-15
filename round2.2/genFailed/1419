@@ -1,0 +1,40 @@
+try {
+    new Int8Array(255);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(1000);
+} catch(e10) {
+}
+try {
+    new Float64Array(128);
+} catch(e14) {
+}
+try {
+    new Float64Array(9);
+} catch(e18) {
+}
+try {
+    new Int32Array(64);
+} catch(e22) {
+}
+try {
+    new Int8Array(1867);
+} catch(e26) {
+}
+let v27;
+try { v27 = Int8Array.acos(Uint8ClampedArray, 9, Float64Array, 1867); } catch (e) {}
+v27[1073741824] ^= 255;
+v27?.[-128];
+try {
+    new Float32Array(256);
+} catch(e32) {
+}
+try {
+    new Uint8Array(1754);
+} catch(e36) {
+}
+try {
+    new Int32Array(175);
+} catch(e40) {
+}

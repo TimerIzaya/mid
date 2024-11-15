@@ -1,0 +1,23 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a10;
+    } catch(e11) {
+    }
+}
+new F6("getInt8", "d", "match");
+new F6("getInt8", "match", "getInt8");
+new F6("match", "d", "getInt8");
+2147483647n >>> -1024n;
+try {
+    new Int8Array(1174);
+} catch(e22) {
+}
+try {
+    new Uint8ClampedArray(10);
+} catch(e26) {
+}
+try {
+    new Int32Array(3);
+} catch(e30) {
+}

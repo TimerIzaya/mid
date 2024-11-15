@@ -1,0 +1,30 @@
+try {
+    new Uint32Array(3709);
+} catch(e3) {
+}
+try {
+    new Uint16Array(26);
+} catch(e7) {
+}
+try {
+    new Int32Array(10);
+} catch(e11) {
+}
+class C15 extends Int32Array {
+    h;
+    [10] = 3709;
+    n(a17, a18, a19) {
+        delete a18[10];
+        Reflect.construct(Uint32Array, [26,a17], Int32Array);
+        return 3709;
+    }
+    105;
+    d;
+    [26];
+}
+new C15();
+new C15();
+new C15();
+function f36(a37) {
+    return arguments;
+}

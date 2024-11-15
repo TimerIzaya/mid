@@ -1,0 +1,31 @@
+const v1 = new Map();
+function f5() {
+    return v1;
+}
+function f6() {
+    return 16238;
+}
+[v1,16238];
+const v8 = [257,16238,257,v1];
+Object.defineProperty(v8, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, value: f6 });
+const v11 = [4294967295,v1,f6,v8,f6];
+v11.toString = f5;
+class C12 {
+    static #m(a14, a15, a16) {
+        const v17 = v8.length;
+        try {
+            v8.toSpliced(16238);
+        } catch(e19) {
+        }
+        return v17;
+    }
+    [v11] = 16238;
+    static #a = v1;
+    static [257] = Map;
+    #f = Map;
+    10000 = f5;
+}
+new C12();
+new C12();
+new C12();
+Math.pow(-0.0 || -0.0, -268435456);

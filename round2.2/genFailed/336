@@ -1,0 +1,48 @@
+try {
+    new Int32Array(10);
+} catch(e3) {
+}
+try {
+    new Int16Array(0);
+} catch(e7) {
+}
+try {
+    new Int16Array(0);
+} catch(e11) {
+}
+function f15(a16, a17, a18, a19) {
+    const o29 = {
+        [0]: Int16Array,
+        "h": 10,
+        n(a21, a22, a23, a24) {
+            try { this.valueOf(a21, a18, Int16Array, a24); } catch (e) {}
+            let v26;
+            try { v26 = a19(a24, a24); } catch (e) {}
+            a17?.[a21];
+            this[7] = v26;
+            try {
+                super.h = a17;
+            } catch(e28) {
+            }
+            return a23;
+        },
+        [a17]: -128n,
+    };
+    return o29;
+}
+const v30 = f15(-2147483649n, Int16Array, -2147483649n, -2147483649n);
+const v31 = f15(-2147483649n, Int32Array, 21111n, 10);
+const v32 = f15(-2147483649n, v31, -2147483649n, 0);
+function f33() {
+    return v32;
+}
+const v34 = delete v30?.h;
+const v35 = f15(-128n, v30, -128n, 10);
+new Int16Array(v30, 0);
+-128n << Int16Array;
+v34.h -= 0;
+try {
+    v35[Int16Array] = v31;
+} catch(e38) {
+}
+v31 / v31;

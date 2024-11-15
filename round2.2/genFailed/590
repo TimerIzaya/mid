@@ -1,0 +1,66 @@
+let v1 = 2.2250738585072014e-308;
+class C3 {
+    static #c;
+    static toString(a5) {
+        for (let i8 = 0, i9 = 10; i8 < i9; i8++, i9--) {
+            %VerifyType(i9);
+        }
+        return this;
+    }
+}
+new C3();
+const v18 = new C3();
+const v19 = new C3();
+class C20 extends C3 {
+    static #n(a22, a23, a24, a25) {
+        try {
+            new C3();
+        } catch(e27) {
+        }
+        try {
+            v19.a = a23;
+        } catch(e28) {
+        }
+        return this;
+    }
+    #d;
+    [-2];
+    static #e;
+    d;
+}
+const v29 = new C20();
+const v30 = new C20();
+const v31 = new C20();
+const v32 = [-8,1330149780,-1240491127,-9,-53609,1073741823,-1460975782,-9223372036854775807];
+const v33 = [-9,-1073741824,-128,2147483649,-44132,-1608310306,9007199254740991,-7126,-9223372036854775808,-5];
+[1448766630,-947214275,-11,-56018];
+function f35(a36, a37, a38, a39) {
+    const o49 = {
+        [C20](a41, a42, a43, a44) {
+            new Date();
+            const v47 = super[C3];
+            try {
+                v1 = v47;
+            } catch(e48) {
+            }
+            return v29;
+        },
+        __proto__: v31,
+        ...v18,
+        "d": C20,
+        6: v31,
+        16: v33,
+    };
+    return o49;
+}
+const v51 = f35(f35(v19, v31, C3, v30), v33, v31, v29);
+f35(v19, v1, "65535", v1);
+var c = v33;
+const v53 = f35(v19, 1.7976931348623157e+308, v30, v51);
+for (const v54 in v19) {
+    Object.defineProperty(v53, 3, { enumerable: true, value: v54 });
+    function f55() {
+        return v31;
+    }
+}
+[,v1] = v32;

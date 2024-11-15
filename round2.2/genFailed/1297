@@ -1,0 +1,18 @@
+new Set();
+throw "1804752208";
+let v11 = 0;
+while (v11 < 9) {
+    try {
+        new Int32Array(4);
+    } catch(e20) {
+    }
+    try {
+        new BigUint64Array(0);
+    } catch(e24) {
+    }
+    try {
+        new Uint32Array(10);
+    } catch(e28) {
+    }
+    v11++;
+}

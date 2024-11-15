@@ -1,0 +1,52 @@
+try {
+    new Uint8ClampedArray(1054);
+} catch(e3) {
+}
+try {
+    new Uint8Array(6);
+} catch(e7) {
+    const o13 = {
+        ..."function",
+        ..."resizable",
+        get c() {
+            return this;
+        },
+        set c(a12) {
+        },
+    };
+}
+try {
+    new Float32Array(9);
+} catch(e17) {
+}
+function f18() {
+    return f18;
+}
+%OptimizeFunctionOnNextCall(f18);
+const o20 = {
+    get f() {
+        return this;
+    },
+};
+function f28(a29) {
+    Object.defineProperty(a29, "toString", { writable: true, configurable: true, value: f18 });
+    const o42 = {
+        get g() {
+            this.fuck(a29, this, [a29,this,-4294967295n,63325465n]);
+            async function f35(a36, a37, a38, a39) {
+                10 in a38;
+                return a36;
+            }
+            f35(10, 6, 6);
+            return a29;
+        },
+        "c": 63325465n,
+        ...a29,
+    };
+    return -4294967295n;
+}
+f28(f28);
+const v46 = Array(88);
+Object.defineProperty(v46, 73, { writable: true, enumerable: true, value: Uint8ClampedArray });
+f28 / v46;
+try { e(); } catch (e) {}

@@ -1,0 +1,38 @@
+class C3 {
+    valueOf(a5) {
+        const v9 = this.__proto__;
+        try { v9.n(0.6684955897396208, 1.0, v9, 1.0, v9); } catch (e) {}
+        return this;
+    }
+    b;
+    static #e;
+    [10];
+    static #h;
+}
+new C3();
+const v12 = new C3();
+new C3();
+function f18() {
+    return "byteOffset";
+}
+Object.defineProperty("string", "length", { configurable: true, set: f18 });
+v12[Symbol.replace] = 10;
+new f18();
+const v23 = Symbol.iterator;
+const o32 = {
+    [v23]() {
+        let v25 = 10;
+        const o31 = {
+            next() {
+                v25--;
+                const v29 = v25 == 0;
+                const o30 = {
+                    "done": v29,
+                    "value": v25,
+                };
+                return o30;
+            },
+        };
+        return o31;
+    },
+};

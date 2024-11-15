@@ -1,0 +1,58 @@
+try {
+    new Uint16Array(3);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(-34656, 3, 3);
+} catch(e7) {
+}
+try {
+    new Uint32Array(129);
+} catch(e11) {
+}
+class C15 extends BigUint64Array {
+    #d = 47295;
+    static {
+        this.__proto__;
+        for (let v18 = 0; v18 < 32; v18++) {
+            this["p" + v18] = v18;
+        }
+    }
+    c;
+}
+new C15();
+new C15();
+new C15();
+[-4096,495677618,-9007199254740992,-8,-2147483648,-39708,60983];
+class C26 {
+    static set f(a28) {
+        let v27 = this;
+        super.h;
+        v27 = a28;
+    }
+    g;
+    static [341.2286837230158];
+    static d;
+    g;
+    constructor(a31, a32) {
+        341.2286837230158 in this;
+    }
+}
+new C26();
+new C26();
+new BigInt64Array(95);
+new BigInt64Array(128);
+class C47 extends BigUint64Array {
+}
+const v48 = new C47();
+function f49(a50, a51) {
+    return SharedArrayBuffer.apply();
+}
+f49(BigUint64Array, BigUint64Array);
+class C55 extends f49 {
+}
+v48.subarray();
+const o57 = {
+    __proto__: C55,
+};
+try { o57.bind(); } catch (e) {}

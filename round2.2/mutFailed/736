@@ -1,0 +1,30 @@
+class C1 {
+    static n() {
+        this[10];
+        return undefined;
+    }
+    static #p() {
+        return 793.8954772440904;
+    }
+    #e = undefined;
+}
+new undefined();
+new C1();
+new C1();
+try {
+    new Int16Array(7);
+} catch(e17) {
+}
+try {
+    new Int32Array(1132);
+} catch(e21) {
+}
+try {
+    new Uint8Array(235);
+} catch(e25) {
+}
+const v27 = new WeakSet();
+const o28 = {
+};
+new Proxy(v27, o28);
+gc();

@@ -1,0 +1,52 @@
+let v1 = BigUint64Array;
+try {
+    new v1(64);
+} catch(e3) {
+}
+try {
+    new Float32Array(325);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(3);
+} catch(e11) {
+}
+class C12 extends v1 {
+    6 = 64;
+    #o(a14, a15, a16) {
+        delete this?.byteOffset;
+        return 64;
+    }
+    [v1] = 325;
+    0 = Float32Array;
+}
+const v24 = new C12();
+const v25 = new C12();
+const v26 = new C12();
+class C27 {
+    e = v25;
+    1;
+    static #f = 3;
+    n(a29, a30, a31) {
+        g = Uint8ClampedArray;
+        try {
+            super.g = v26;
+        } catch(e32) {
+        }
+        return a30;
+    }
+    static c = Float32Array;
+    127 = v24;
+}
+const v33 = new C27();
+const v34 = new C27();
+const v35 = new C27();
+const v36 = C27.__proto__;
+const v38 = [v34,v35,Float32Array];
+[v38];
+[Uint8ClampedArray,v38,v33,325];
+let v41 = ++v1;
+try {
+    v41 >>= v36;
+} catch(e42) {
+}

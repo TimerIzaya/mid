@@ -1,0 +1,33 @@
+try {
+    new Int8Array(1216);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(255);
+} catch(e7) {
+}
+try {
+    new Uint32Array(255);
+} catch(e11) {
+}
+try {
+    new Uint8Array(1789);
+} catch(e15) {
+}
+try {
+    new BigInt64Array(3061);
+} catch(e19) {
+}
+try {
+    new Int32Array(16);
+} catch(e23) {
+}
+let v27;
+try { v27 = (-1.455086491640344).o(Int32Array, 255, -1.455086491640344, 1216, 1789); } catch (e) {}
+try {
+    v27[80848070] = -262.81575672725285;
+} catch(e28) {
+}
+v27?.b;
+const v30 = 1789;
+Reflect.construct(v27, [Reflect,BigInt64Array,Int8Array,v30], BigInt64Array);

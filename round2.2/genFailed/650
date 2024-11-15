@@ -1,0 +1,64 @@
+class C3 {
+    #m(a5) {
+        const o6 = {
+        };
+        try {
+            new Proxy(this, o6);
+        } catch(e9) {
+        }
+        return this;
+    }
+    [2147483649n] = 2147483649n;
+    869;
+    static 268435440;
+    static 2147483647 = -14n;
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+class C13 {
+    static {
+        try { v12(); } catch (e) {}
+        try {
+            new Uint8Array(131);
+        } catch(e19) {
+        }
+        try {
+            new BigUint64Array(62);
+        } catch(e23) {
+        }
+        try {
+            new Int32Array(151);
+        } catch(e27) {
+        }
+    }
+}
+const v28 = new C13();
+new C13();
+const v30 = new C13();
+class C32 {
+    constructor(a34, a35, a36, a37) {
+        try {
+            C13.__proto__ = a34;
+        } catch(e38) {
+        }
+    }
+    static #e = v12;
+    static [C3];
+    static [C13] = v30;
+    2459317720;
+    [C13] = C13;
+}
+const v42 = new C32(C13, -14n, 10000n, v12);
+new C32(v10, 10000n, 2147483649n, v42);
+new C32(C13, 2147483649n, -14n, v11);
+try {
+    v10.length = 10;
+} catch(e46) {
+}
+const v47 = v28[C13];
+let v48;
+try { v48 = v47(v28); } catch (e) {}
+for (let v49 = 0; v49 < 32; v49++) {
+    v48["p" + v49] = v49;
+}

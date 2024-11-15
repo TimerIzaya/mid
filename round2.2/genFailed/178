@@ -1,0 +1,18 @@
+const v6 = /i\p{Script=Greek}/mgsvy;
+const v7 = /wSa\Bb+/mdvy;
+const v8 = /(\P{Decimal_Number}s(?:foo)lp?)/gsdvi;
+{
+    v8 instanceof -4294967296n;
+    try {
+    const t0 = "536870888";
+    t0("536870888", 129n);
+    } catch (e) {}
+}
+let v17;
+try { v17 = v6(); } catch (e) {}
+try {
+    const t13 = "f";
+    t13[-2] = -4294967296n;
+} catch(e18) {
+}
+v7.exec(4269n, v17, -9223372036854775807n, 3.0, ..."536870888");

@@ -1,0 +1,92 @@
+function f0() {
+    let v2 = -7.927485410542843e+307;
+    const o23 = {
+        __proto__: "9007199254740992",
+        [NaN](a5) {
+            const v6 = delete a5?.d;
+            try {
+                v2--;
+                const o10 = {
+                    [Int8Array]: 1,
+                };
+                function f11(a12, a13) {
+                    return a12;
+                }
+                const v16 = [o10];
+                const o17 = {
+                    "arguments": v16,
+                    "type": "function",
+                };
+                new Worker(f11, o17);
+            } catch(e19) {
+                Reflect.construct(e19, [], e19);
+            }
+            return v6;
+        },
+        ["9007199254740992"]: v2,
+        [NaN]: "9007199254740992",
+    };
+    return o23;
+}
+f0.toString = f0;
+const v24 = f0();
+const v25 = f0();
+const v26 = f0();
+class C27 {
+    10 = v25;
+    5 = v24;
+    constructor(a29) {
+        try {
+            f0();
+        } catch(e31) {
+        }
+    }
+    static [f0];
+    m(a33) {
+        function F34(a36, a37) {
+            if (!new.target) { throw 'must be called with new'; }
+            class C38 extends F34 {
+                [-2];
+                static e;
+                static [a37];
+            }
+            new C38();
+            new C38();
+            new C38();
+            try {
+                this.e = a33;
+            } catch(e42) {
+            }
+        }
+        const v43 = new F34(this, v26, C27, this);
+        const v44 = new F34(a33, a33);
+        new F34(v43, v44);
+        return v44;
+    }
+}
+const v46 = new C27(v24, v26, f0, f0);
+const v47 = new C27(v25);
+new C27(v47);
+[-1000000.0];
+[-2.0,6.535450339085721e+307,9.063047537604096,1000000000000.0,0.9441348368183434];
+[-1000.0,-785.9585278981586,0.0,2.2250738585072014e-308,-5.207836588888295,-174.9191217268509,2.577871943292875,1000.0];
+function f52() {
+    return v46;
+}
+[16];
+[3331];
+[-27103,-2,-2147483648,-1861333974,5,1073741824,-11900,2,5];
+function f56(a57, a58) {
+    arguments.boolean6 = arguments;
+    for (let v60 = 0; v60 < 25; v60++) {
+        arguments["boolean" + v60] = v60;
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeFunctionOnNextCall(f0);
+        f0();
+    }
+    return a58;
+}
+f56();

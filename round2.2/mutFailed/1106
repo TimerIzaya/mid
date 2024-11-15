@@ -1,0 +1,32 @@
+class C3 {
+    constructor(a5) {
+        try {
+            new Int8Array(5);
+        } catch(e9) {
+        }
+        try {
+            new BigUint64Array(1000);
+        } catch(e13) {
+        }
+        try {
+            new Uint8ClampedArray(BigUint64Array);
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C3(4);
+const t17 = 1;
+new t17(4);
+const v20 = new C3(4);
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a25;
+    } catch(e26) {
+    }
+}
+const v27 = new F22(v20, C3);
+new F22(v27, v20);
+new F22(v27, v18);
+const v31 = new Int32Array();
+try { v31.reduce(v31); } catch (e) {}

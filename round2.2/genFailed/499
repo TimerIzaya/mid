@@ -1,0 +1,72 @@
+class C3 {
+    static p(a5, a6) {
+        try {
+            super["resizable"] = this;
+        } catch(e7) {
+        }
+        return a5;
+    }
+    b;
+    static #p(a9, a10) {
+        ("14").normalize("NFD");
+        return Uint32Array;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+function f18(a19, a20, a21) {
+    const o28 = {
+        "e": a19,
+        "f": a21,
+        ...v16,
+        "c": C3,
+        [38.007961542798284](a23, a24, a25, a26) {
+            try {
+                a25[8] = this;
+            } catch(e27) {
+            }
+            return "resizable";
+        },
+        6: a20,
+        255: v16,
+        [v17]: -2.220446049250313e-16,
+        [a20]: v17,
+    };
+    return o28;
+}
+f18(v16, v16, v15);
+const v30 = f18(v17, -2.220446049250313e-16, v15);
+const v31 = f18(v16, C3, v15);
+class C32 {
+    toString(a34, a35, a36) {
+        f18 != v30;
+        Object.defineProperty(a35, -2.220446049250313e-16, { configurable: true, get: f18, set: f18 });
+        function F38(a40, a41, a42) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a41;
+            } catch(e43) {
+            }
+        }
+        const v44 = new F38(a36, v31, v17);
+        const v45 = new F38(v44, v31, C3);
+        new F38(v45, v30, v15);
+        return v31;
+    }
+    2;
+}
+new C32();
+new C32();
+const v49 = new C32();
+v49 / v49;
+const o51 = {
+    "defineProperty": f18,
+    "deleteProperty": f18,
+    "getPrototypeOf": f18,
+    "set": f18,
+};
+try {
+    new Proxy(v17, o51);
+} catch(e54) {
+}

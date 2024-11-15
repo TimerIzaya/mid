@@ -1,0 +1,73 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -6;
+    } catch(e3) {
+    }
+    try {
+        this.g = -6;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new v6();
+const v8 = [-9223372036854775807,-1179969721,16,2,7,128,-927346295,2,7436];
+const v9 = [-65108,-13732,536870889,4294967295,5,-1175033963,-9223372036854775807,60522];
+const v10 = [7,55541,8];
+class C11 {
+    constructor(a13, a14, a15, a16) {
+        const v17 = a13[7];
+        try { a14.__lookupSetter__(a16); } catch (e) {}
+        try { a15.sort(v8); } catch (e) {}
+        super[v5];
+        let v22 = 2147483648;
+        let v23 = 2;
+        ~v6;
+        !(!v17);
+        v22 * -6.871195799876652;
+        Math.fround(v22);
+        v22--;
+        --v23;
+    }
+}
+try { new C11(F0, F0, v6, F0); } catch (e) {}
+const v33 = new C11(v8, v5, v10, C11);
+const v34 = v33?.__defineGetter__;
+try { new v34(v33, v9); } catch (e) {}
+const v36 = new C11(v33, v5, v8, v7);
+const v37 = v36?.constructor;
+try { new v37(C11, v5, v8, v36); } catch (e) {}
+new C11(v36, v5, v9, v10);
+1073741823 & 1073741823;
+-29876326 % -29876326;
+-2147483647 >>> -2147483647;
+-187416.01612983795 ^ -187416.01612983795;
+2.220446049250313e-16 + 2.220446049250313e-16;
+1.193368772092651e+308 + 1.193368772092651e+308;
+try { v6.trim(2.220446049250313e-16, v10, 1.193368772092651e+308, 1.193368772092651e+308); } catch (e) {}
+v10[v36];
+const o57 = {
+    "maxByteLength": 3778,
+};
+o57.e = o57;
+256 != 256;
+const v60 = new ArrayBuffer(256, o57);
+try {
+    const v62 = new Uint8Array(v60);
+    v62[134];
+} catch(e64) {
+}
+const v65 = 1.193368772092651e+308 >> 1.193368772092651e+308;
+function f66(a67) {
+    return v8;
+}
+class C68 extends f66 {
+    static #d;
+    2354030014;
+}
+const v72 = new Map();
+const t69 = v72.constructor;
+const v74 = new t69();
+try { v74.set(v65, v72); } catch (e) {}
+v74.clear(526300.1003427189, v74, v65, 1.193368772092651e+308);

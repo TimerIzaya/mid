@@ -1,0 +1,24 @@
+try {
+    new BigUint64Array(16);
+} catch(e3) {
+}
+try {
+    new Int8Array(0);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(2);
+} catch(e11) {
+}
+const t12 = "toString";
+t12.length += -3;
+for (let v21 = 0; v21 < 32; v21++) {
+    const t15 = "number";
+    t15["p" + v21] = v21;
+}
+Object.defineProperty("toString", Int8Array, { configurable: true, value: 310873639 });
+try {
+    const t20 = "toString";
+    t20[-3] = 268435441;
+} catch(e24) {
+}

@@ -1,0 +1,42 @@
+try {
+    new BigUint64Array(256);
+} catch(e3) {
+}
+try {
+    new Uint16Array(8);
+} catch(e7) {
+}
+try {
+    new Float32Array(7);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    static toString(a14, a15, a16) {
+        delete this[Uint16Array];
+        let v18;
+        try { v18 = this.toSpliced(a14); } catch (e) {}
+        super.byteOffset;
+        Reflect.construct(BigUint64Array, [256,a15,v18], BigUint64Array);
+        return BigUint64Array;
+    }
+    f = BigUint64Array;
+    [BigUint64Array] = BigUint64Array;
+    4086 = 256;
+}
+const v23 = new C12();
+const v24 = new C12();
+new C12();
+new Array(1411);
+if (v23) {
+    Float32Array - C12;
+    try { v24.sort(Array); } catch (e) {}
+    try {
+        C12.__proto__ = C12;
+    } catch(e31) {
+    }
+} else {
+    try {
+        v24.valueOf = Array;
+    } catch(e32) {
+    }
+}

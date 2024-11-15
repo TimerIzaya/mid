@@ -1,0 +1,50 @@
+function f0() {
+}
+function f1() {
+    return [[]];
+}
+f0.toString = f1;
+function f4() {
+    const o5 = {
+        "g": f0,
+        __proto__: f0,
+        "b": f0,
+        "a": f0,
+        1: f0,
+        "e": f0,
+        "h": f0,
+        "c": f0,
+        "d": f0,
+        [f0]: f0,
+    };
+    return o5;
+}
+f4();
+f4();
+f4();
+function f12() {
+    return "toString";
+}
+class C13 extends f12 {
+    constructor(a15, a16) {
+        super();
+        a16.length;
+        try {
+            this.trim();
+        } catch(e19) {
+        }
+    }
+    static h;
+    static 3536609950 = "unicode";
+    /*
+    constructor(a21, a22, a23) {
+        super();
+        Object.defineProperty("unicode", 256, { get: f0 });
+    }
+    */
+    static #d;
+}
+const v24 = new C13("toString", "toString");
+new C13(f4, "unicode");
+new C13(f0, v24);
+Math.expm1(1);

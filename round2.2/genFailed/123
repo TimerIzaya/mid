@@ -1,0 +1,49 @@
+const v1 = new Date();
+function f2(a3, a4) {
+    const o5 = {
+        __proto__: a3,
+        "a": Date,
+        ...Date,
+        ...Date,
+        "h": v1,
+        "c": a4,
+        "b": a3,
+        "g": a3,
+        ...a3,
+        10: v1,
+    };
+    return o5;
+}
+const v6 = f2(v1, Date);
+const v7 = f2(v6, v6);
+const v8 = f2(v1, v7);
+const v10 = [f2,[f2,v1,v8,v7,Date],v7,v1];
+[v10];
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a14;
+    } catch(e17) {
+    }
+    try {
+        this.c = v7;
+    } catch(e18) {
+    }
+    try {
+        this.e = a14;
+    } catch(e19) {
+    }
+}
+const v20 = new F12(v8, v7, v7);
+new F12(v6, v1, v8);
+new F12(v8, v7, v1);
+const v23 = `
+    ("UTC")[Date["UTC"](...v10, v23, f2, ..."UTC", v20, ..."UTC")];
+    Date(v23);
+    %PrepareFunctionForOptimization(Date);
+    Date(v23);
+    Date(v23);
+    %OptimizeFunctionOnNextCall(Date);
+    Date(v23);
+`;
+eval(v23);

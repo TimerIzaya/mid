@@ -1,0 +1,73 @@
+const v0 = [-1000000.0,-5.0,359.37589220809787,-5.0,1.7976931348623157e+308,5.0,1000.0];
+const v1 = [505.8687089558068,2.0,0.17409296889906212,-3.235220534695995];
+const v2 = [-1000.0,-1e-15,-6.221908777327297,1.0,1.6994275745568364e+308,-1.324438564259906e+308,0.24882483811914957,NaN];
+function f3(a4) {
+    const o11 = {
+        set h(a6) {
+            try {
+                a4 = this;
+            } catch(e7) {
+            }
+        },
+        ...v0,
+        ...v0,
+        "c": a4,
+        "g": v1,
+    };
+    return o11;
+}
+const v12 = f3(v1);
+const v13 = f3(v0);
+const v14 = f3(v0);
+function f15(a16, a17, a18) {
+    const o26 = {
+        "h": a18,
+        [a17]: a16,
+        "d": v2,
+        "c": a16,
+        __proto__: a16,
+        [v13](a20, a21) {
+            f3(v1);
+            %PrepareFunctionForOptimization(f3);
+            f3(v1);
+            f3(v1);
+            %OptimizeMaglevOnNextCall(f3);
+            f3(v1);
+            return a16;
+        },
+    };
+    return o26;
+}
+const v27 = f15(v14, v13, v0);
+const v28 = f15(f3, v12, v1);
+const v29 = f15(v1, v14, v2);
+class C30 extends f3 {
+    static [v27] = v27;
+    static #c = v0;
+    valueOf(a32, a33) {
+        try { a32["setUTCFullYear"](a32, this, a32); } catch (e) {}
+        try {
+            a32.e = v13;
+        } catch(e36) {
+        }
+        return f15;
+    }
+    15;
+    static [v28] = v14;
+}
+new C30();
+new C30();
+new C30();
+const v43 = v29;
+try {
+    new Uint32Array(14);
+} catch(e47) {
+}
+try {
+    new Float64Array(84);
+} catch(e51) {
+}
+try {
+    new Int32Array(2953);
+} catch(e55) {
+}

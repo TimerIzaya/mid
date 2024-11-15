@@ -1,0 +1,49 @@
+const v4 = new Date();
+try {
+    new Uint8ClampedArray(5);
+} catch(e8) {
+}
+try {
+    new Uint8ClampedArray(-1.0);
+} catch(e12) {
+}
+try {
+    new Float32Array(1000);
+} catch(e16) {
+}
+function f17(a18, a19, a20) {
+    const o28 = {
+        ...Date,
+        "e": Uint8ClampedArray,
+        n(a22, a23, a24) {
+            const v25 = this.e;
+            v25 > a19 ? v25 : a24;
+            return Date;
+        },
+        ...v4,
+        ...v4,
+        [-1]: 5,
+        "d": a18,
+        "c": Date,
+    };
+    return o28;
+}
+const t30 = f17(7.31197603127804e+307, 1000, 5);
+t30(-1.0, 11, 5);
+f17(5, 5, 11);
+function f36() {
+    function f38(a39) {
+        const o42 = {
+            "maxByteLength": 217281547,
+        };
+        const v44 = new ArrayBuffer(170, o42);
+        new Float32Array(v44);
+    }
+    this.onmessage = f38;
+}
+const v52 = [];
+const o53 = {
+    "arguments": v52,
+    "type": "function",
+};
+new Worker(f36, o53);

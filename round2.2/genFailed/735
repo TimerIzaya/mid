@@ -1,0 +1,34 @@
+try {
+    new Int32Array(0);
+} catch(e3) {
+}
+try {
+    new Float32Array(1445);
+} catch(e7) {
+}
+try {
+    new Float32Array(2);
+} catch(e11) {
+}
+const v16 = new Date();
+const v17 = v16 >= Float32Array;
+const o18 = {
+    __proto__: v16,
+    "f": 0,
+    0: 2,
+    [7]: Int32Array,
+    "c": v17,
+};
+Date.prototype &= 2;
+try {
+    new Int16Array(16);
+} catch(e22) {
+}
+try {
+    new Int32Array(426);
+} catch(e26) {
+}
+try {
+    new Int32Array(1000);
+} catch(e30) {
+}

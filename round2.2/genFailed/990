@@ -1,0 +1,23 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 1073741824;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+let v11 = 6;
+const v13 = v11 / F0;
+const t11 = -541280360;
+t11[5] = F0;
+let v14;
+try { v14 = v6.setUTCMilliseconds(v5, -5, v6, -4294967296); } catch (e) {}
+v11 <= v13;
+try {
+    v11 **= v14;
+} catch(e16) {
+}
+const v17 = v4[v4];
+Reflect.construct(v17, [v14], v17);

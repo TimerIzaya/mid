@@ -1,0 +1,77 @@
+try {
+    new Int32Array(257);
+} catch(e3) {
+}
+try {
+    new Int16Array(512);
+} catch(e7) {
+}
+try {
+    new Float32Array(4);
+} catch(e11) {
+}
+class C12 {
+    static get f() {
+        const v14 = [this,257,this];
+        const v15 = [this,this,v14,Int32Array];
+        [v15,v15];
+        return v14;
+    }
+    set a(a18) {
+        let v21 = 10000;
+        Math.clz32(a18);
+        ~(v21++);
+    }
+}
+const v25 = new C12();
+const v26 = new C12();
+const v27 = new C12();
+class C28 extends Int16Array {
+    get h() {
+        super.length ||= this.byteLength;
+        for (let v31 = 0; v31 < 32; v31++) {
+            v25["p" + v31] = v31;
+        }
+        return v26;
+    }
+    [v25] = v27;
+    static [Int32Array];
+    static #h = v27;
+    [4] = Int32Array;
+}
+new C28();
+const v35 = new C28();
+new C28();
+try {
+    C12[Int16Array] = Int16Array;
+} catch(e37) {
+}
+const o38 = {
+};
+try {
+    o38.g = Int32Array;
+} catch(e39) {
+}
+try {
+    const o40 = {
+    };
+    o40.g = Int32Array;
+    o40.h = C12;
+} catch(e41) {
+}
+try {
+    const o42 = {
+    };
+    o42.g = Int32Array;
+    o42.h = C12;
+    o42.e = v35;
+} catch(e43) {
+}
+try {
+    const o44 = {
+    };
+    o44.g = Int32Array;
+    o44.h = C12;
+    o44.b = C28;
+} catch(e45) {
+}

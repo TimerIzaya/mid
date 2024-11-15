@@ -1,0 +1,32 @@
+function f6(a7, a8, a9) {
+    const o20 = {
+        [a9]: a9,
+        "f": a7,
+        "b": a7,
+        [a7]: "mj",
+        get c() {
+            this | this;
+            const o14 = {
+                "maxByteLength": 16,
+            };
+            const v16 = new ArrayBuffer(16, o14);
+            try {
+                new Float64Array(v16);
+            } catch(e19) {
+            }
+            return 16;
+        },
+    };
+    return o20;
+}
+f6("h", "1260305693", "h");
+f6("undefined", "mj", "c");
+f6("1260305693", "c", "c");
+f6 & 2147483647n;
+("undefined").__proto__;
+try {
+    ("1260305693").toLowerCase();
+} catch(e30) {
+}
+typeof 2147483647n === "undefined";
+%VerifyType("undefined");

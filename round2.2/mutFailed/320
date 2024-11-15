@@ -1,0 +1,47 @@
+try {
+    new Uint8ClampedArray(130);
+} catch(e3) {
+}
+let v6;
+try { v6 = new Int16Array(130, Uint8ClampedArray, 130); } catch (e) {}
+try {
+    new Int16Array(9);
+} catch(e8) {
+}
+try {
+    new Int8Array(4096);
+} catch(e12) {
+}
+("constructor")[9];
+try { ("constructor").normalize(); } catch (e) {}
+const v18 = ("o")?.toLocaleUpperCase;
+let v19;
+try { v19 = new v18(); } catch (e) {}
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    a22 * a22;
+    a23 + a23;
+    const v26 = this?.constructor;
+    try { new v26(a22, "string"); } catch (e) {}
+    -v19;
+    try {
+        this.c = "o";
+    } catch(e29) {
+    }
+    try {
+        this.h = a22;
+    } catch(e30) {
+    }
+    try {
+        this.d = "constructor";
+    } catch(e31) {
+    }
+}
+new F20(4096, 9);
+const v33 = new F20(9, 130);
+const v34 = new F20(130, 130);
+v6.length = "string";
+v34.length;
+gc.d = Int8Array;
+gc.d = gc;
+v33();

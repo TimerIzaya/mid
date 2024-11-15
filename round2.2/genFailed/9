@@ -1,0 +1,25 @@
+const v10 = new Date();
+class C11 extends Date {
+    [v10] = -2147483648;
+    static set a(a13) {
+        try {
+            new Int32Array(9);
+        } catch(e17) {
+        }
+        try {
+            new Int16Array(512);
+        } catch(e21) {
+        }
+        try {
+            new Uint8ClampedArray(4049);
+        } catch(e25) {
+        }
+    }
+}
+new C11();
+new C11();
+new C11();
+Date();
+9223372036854775807 - 1073741825;
+6n / 6n;
+Math.imul(9223372036854775807, 6n);

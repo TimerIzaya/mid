@@ -1,0 +1,88 @@
+class C6 {
+    #p(a8, a9, a10) {
+        const v11 = a10?.[9];
+        function F12(a14, a15, a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = v11;
+            } catch(e17) {
+            }
+        }
+        new F12(-1, a9, -9223372036854775807);
+        new F12(-1, 2.0, -962376046);
+        new F12(-9223372036854775807, a9, -962376046);
+        return -962376046;
+    }
+    static #b;
+    static #f = 2.0;
+}
+new C6(-9223372036854775807, -962376046);
+new C6();
+new C6();
+try {
+    new Uint32Array(16);
+} catch(e27) {
+}
+try {
+    new Uint32Array(1713);
+} catch(e31) {
+}
+try {
+    new Float32Array(3);
+} catch(e35) {
+}
+function f36() {
+}
+const v37 = [-1,-9223372036854775807,10000,226876034,-2019549079,16199];
+let v38 = [-65535,13];
+for (let v39 = 0; v39 < 57; v39++) {
+    ({"c":v39,"e":f36,"length":v38,} = v37);
+}
+[676166339,12,129,9,-7,128,5,-1024,-2147483649,7];
+try {
+    new Uint8Array(242);
+    const v52 = Symbol.iterator;
+    const o60 = {
+        [v52]() {
+            let v54 = 10;
+            const o59 = {
+                next() {
+                    --v54;
+                    const o58 = {
+                    };
+                    return o58;
+                },
+            };
+            return o59;
+        },
+    };
+} catch(e61) {
+}
+try {
+} catch(e62) {
+}
+function f63() {
+    const o64 = {
+    };
+    return o64;
+}
+const v65 = f63();
+const v66 = [-1.1001958026409064e+308,1.0,1000.0,-8.595874110189621,0.65085784464364,1000.0,719374.0663061251,0.0,NaN];
+const v67 = [1000000000000.0,-1000000000.0,-761340.8901113225,5.0,0.6604209586114759,247.06468907365343];
+const v69 = new FinalizationRegistry();
+let v70 = -1e-15;
+v70--;
+const v72 = v70 & v70;
+class C73 {
+    constructor(a75, a76, a77) {
+        const v78 = this?.constructor;
+        try { new v78(a75, this, v67); } catch (e) {}
+        a75.g = a75;
+        const v80 = a77?.constructor;
+        try { new v80(); } catch (e) {}
+        try { a75.slice(v72); } catch (e) {}
+        try { a77.reduce(a77); } catch (e) {}
+    }
+}
+new C73(v65, C73, v69);
+new C73(v66);

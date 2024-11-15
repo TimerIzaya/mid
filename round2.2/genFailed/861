@@ -1,0 +1,20 @@
+try {
+    new Uint8ClampedArray(1);
+} catch(e12) {
+}
+try {
+    new Uint32Array(2256);
+} catch(e16) {
+}
+try {
+    new Uint32Array(7);
+} catch(e20) {
+}
+const t12 = "bigint";
+t12[Symbol.hasInstance] = Uint32Array;
+const v23 = Uint32Array ** 10000;
+1 << -536870912n;
+try {
+const t0 = -536870912n;
+t0(v23);
+} catch (e) {}

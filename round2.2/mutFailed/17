@@ -1,0 +1,95 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = F0;
+    } catch(e3) {
+    }
+    try {
+        this.f = 50282;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8() {
+    return v7;
+}
+function f12() {
+    return v7;
+}
+class C16 extends F0 {
+    set h(a18) {
+        function F19(a21, a22, a23, a24) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = F0;
+            } catch(e25) {
+            }
+        }
+        new F19(v7, 1073741824n, -7, -7);
+        new F19(this, 1073741824n, 10000, 10000);
+        new F19(v6, 9n, -7, 10000);
+    }
+    9;
+    f;
+}
+const v29 = new f8();
+new C16();
+new C16();
+let v34 = Int16Array;
+let v36 = WeakMap;
+new v36();
+class C38 extends v29 {
+    static get e() {
+        try { v6["cbrt"]("cbrt", -7, 10000, "cbrt"); } catch (e) {}
+        return "cbrt";
+    }
+}
+new C38();
+function* f43(a44, a45, a46) {
+    const o47 = {
+        "apply": f8,
+        "call": f12,
+        "construct": f12,
+        "deleteProperty": f12,
+        "has": f12,
+        "preventExtensions": f8,
+        "set": f12,
+        "setPrototypeOf": f12,
+    };
+    try {
+        new o47(a46, o47);
+    } catch(e50) {
+    }
+    yield BigUint64Array;
+    return C38;
+}
+f43(10000, C38, v6);
+const v53 = new C38();
+class C54 {
+    #h;
+    constructor(a56, a57, a58, a59) {
+        function f60(a61, a62, a63) {
+            function f65(a66) {
+                Math.sqrt();
+                a58 + a59;
+                a59 ^ 573;
+            }
+            this.onmessage = f65;
+            ({"c":a59,"f":v34,"onmessage":v36,} = this);
+            a56.b;
+        }
+        const v76 = [a56,a58];
+        const o77 = {
+            "arguments": v76,
+            "type": "function",
+        };
+        new Worker(f60, o77);
+    }
+}
+new C54(v53, 3481, f43, v53);
+const o80 = {
+};
+const v82 = new Proxy(C54, o80);
+v53[v82];

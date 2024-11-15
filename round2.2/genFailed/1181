@@ -1,0 +1,42 @@
+try {
+    new Int16Array(1024);
+} catch(e3) {
+}
+try {
+    new Int8Array(147);
+} catch(e7) {
+}
+try {
+    new Int8Array(127);
+} catch(e11) {
+}
+function f13() {
+    return 127;
+}
+function F14(a16, a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a16;
+    } catch(e20) {
+    }
+    try {
+        this.h = 127;
+    } catch(e21) {
+    }
+}
+new F14(147, 1024, 127, 127);
+new F14(127, 147, 1024, 1024);
+new F14(147, 1024, 1024, 127);
+/[OZqa?]/mgdvy;
+const v26 = /la+?/mduy;
+/ab|c+/msdvyi;
+class C28 extends Int8Array {
+    a;
+    [147];
+    static [v26] = Int8Array;
+    0;
+    static 48;
+}
+new C28();
+new C28();
+new C28();

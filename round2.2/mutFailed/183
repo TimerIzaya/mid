@@ -1,0 +1,30 @@
+try {
+    new Uint32Array(3709, 3709);
+} catch(e3) {
+}
+try {
+    new Uint16Array(26);
+} catch(e7) {
+}
+try {
+    new undefined(10);
+} catch(e11) {
+}
+class C15 extends undefined {
+    h;
+    [10] = 3709;
+    matchAll(a17, a18, a19) {
+        delete a18[10];
+        Reflect.construct(Uint32Array, [26,a17], undefined);
+        return 3709;
+    }
+    105;
+    e;
+    [26];
+}
+new C15();
+new C15();
+new C15();
+function f36(a37) {
+    return arguments;
+}

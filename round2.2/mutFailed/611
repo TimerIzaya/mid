@@ -1,0 +1,112 @@
+try {
+    new Int32Array(257);
+} catch(e3) {
+}
+try {
+    new Float64Array(942);
+} catch(e7) {
+}
+try {
+    new Int8Array(4);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o23 = {
+        toString(a18, a19, a20) {
+            this.c;
+            try {
+                this[10] = 4;
+            } catch(e22) {
+            }
+            return Int32Array;
+        },
+        [Int32Array]: Int32Array,
+        "f": a16,
+        "h": 257,
+        ...942,
+    };
+    return o23;
+}
+f12(4, 942, 942, 4);
+f12(4, 4, 257, 4);
+f12(257, 257, 942, 942);
+try {
+    new Int16Array(1);
+} catch(e30) {
+}
+try {
+    new Float32Array(255);
+} catch(e34) {
+}
+try {
+    const t41 = 942;
+    new t41(5);
+} catch(e38) {
+}
+function f42() {
+}
+class C43 {
+}
+const v44 = new C43();
+for (let v45 = 0; v45 < 25; v45++) {
+    v44[v45] -= 1.145564118006763e+308;
+}
+class C46 {
+    c = -417726744;
+}
+const t56 = 5;
+new t56();
+new C46();
+new C46();
+Math.acos();
+class C57 {
+}
+const v58 = new C57();
+new C57();
+const v60 = new C57();
+const v61 = [1.0,1.0];
+const v62 = [v61,1.0,1.0,v60];
+[1.0,"length",v61];
+new Map();
+new WeakSet();
+function f70(a71) {
+    function f76(a77, a78) {
+        return 11;
+    }
+    %PrepareFunctionForOptimization(f76);
+    f76(11, 942);
+    %OptimizeFunctionOnNextCall(f76);
+    f76();
+}
+function f82(a83, a84) {
+    const o86 = {
+        ...a84,
+        get b() {
+            return a83;
+        },
+        "d": C57,
+        "g": WeakSet,
+        "b": a84,
+        0: v60,
+        ..."Pk",
+        [a84]: v44,
+        4: 760,
+    };
+}
+for (let i88 = 0;
+    (() => {
+        const v90 = i88 < 6;
+        for (let v91 = 0; v91 < 500; v91++) {
+            v90 < v91;
+            v91++;
+        }
+        return v90;
+    })();
+    i88++) {
+    try {
+    } catch(e98) {
+    }
+    for (let v99 = 0; v99 < 100; v99++) {
+        f82(v62, v58);
+    }
+}

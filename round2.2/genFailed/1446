@@ -1,0 +1,72 @@
+class C3 {
+    constructor(a5) {
+        super[a5];
+        const t2 = "vQ";
+        t2.length -= a5;
+    }
+    static #o(a8) {
+        a8.c &= a8;
+        [a8,a8];
+        return "-1";
+    }
+    set g(a11) {
+        try { new a11(1.0, "-1"); } catch (e) {}
+        super.f <<= a11;
+        const o16 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o16);
+    }
+}
+const v18 = new C3(C3);
+let v19 = new C3("-1");
+const v20 = new C3("vQ");
+try {
+    new Int8Array(1928);
+} catch(e24) {
+}
+try {
+    new Int16Array(225);
+} catch(e28) {
+}
+try {
+    new Uint8Array(284);
+} catch(e32) {
+}
+function f33(a34, a35, a36) {
+    const o43 = {
+        [v19]: Int16Array,
+        "g": v19,
+        m(a38, a39, a40, a41) {
+            try {
+                C3.h = a40;
+            } catch(e42) {
+            }
+            return a36;
+        },
+        ..."vQ",
+        [284]: Int8Array,
+        ...a35,
+        "c": 1.0,
+        "d": a36,
+    };
+    return o43;
+}
+const v46 = f33(f33(f33(v18, C3, 225), v20, 284), v18, 225);
+try {
+    v19 = v46;
+} catch(e47) {
+}
+let v48 = 0;
+do {
+    const o51 = {
+        "maxByteLength": 2081,
+    };
+    const v53 = new SharedArrayBuffer(2081, o51);
+    try {
+        new Uint16Array(v53);
+    } catch(e56) {
+    }
+    v48++;
+} while (v48 < 5)

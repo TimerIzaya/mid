@@ -1,0 +1,76 @@
+[536870889n,30051n,[536870889n,30051n,536870889n,30051n],30051n];
+const v5 = [-9007199254740992n,-9007199254740992n,-9007199254740992n,536870889n];
+try {
+    new Uint16Array(10);
+} catch(e9) {
+}
+try {
+    new Uint8Array(4096);
+} catch(e13) {
+}
+let v14 = 202;
+try {
+    new BigInt64Array(v14);
+} catch(e17) {
+}
+class C18 extends BigInt64Array {
+    static 4;
+    #o(a20, a21, a22, a23) {
+        try {
+            v14 = a23;
+        } catch(e24) {
+        }
+        return v14;
+    }
+    static #c;
+    [-1] = Uint8Array;
+    2;
+    static 0 = Uint8Array;
+}
+const v26 = new C18();
+new C18();
+const v28 = new C18();
+%VerifyType(10);
+const v29 = new Uint16Array(v26, v14, 10);
+v29[-1] instanceof Uint16Array;
+function f32() {
+    function f34(a35) {
+        try { new a35(this); } catch (e) {}
+    }
+    this.onmessage = f34;
+    const o40 = {
+    };
+    try {
+        o40.h = v26;
+    } catch(e41) {
+    }
+    try {
+        const o42 = {
+        };
+        o42.h = v26;
+        o42.c = v28;
+    } catch(e43) {
+    }
+    try {
+        const o44 = {
+        };
+        o44.h = v26;
+        o44.c = v28;
+        o44.e = Uint16Array;
+    } catch(e45) {
+    }
+    try {
+        const o46 = {
+        };
+        o46.h = v26;
+        o46.c = v28;
+        o46.f = v5;
+    } catch(e47) {
+    }
+}
+const v50 = [];
+const o51 = {
+    "arguments": v50,
+    "type": "function",
+};
+new Worker(f32, o51);

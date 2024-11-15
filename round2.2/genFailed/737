@@ -1,0 +1,69 @@
+function f0() {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e4) {
+}
+try {
+    new Int16Array(0);
+} catch(e8) {
+}
+try {
+    new Uint16Array(157);
+} catch(e12) {
+}
+class C16 extends Uint16Array {
+    static #valueOf(a18, a19) {
+        try {
+            this.#valueOf();
+        } catch(e21) {
+        }
+        try {
+            f0();
+        } catch(e23) {
+        }
+        return Uint16Array;
+    }
+    [Uint8ClampedArray] = Uint16Array;
+    [157];
+    [16n];
+    [9n] = f0;
+}
+const v24 = new C16();
+new C16();
+const v26 = new C16();
+/W\P{gc=Decimal_Number}xyz{1,32}/mgdvy;
+const v28 = /Yq5K/mgsdi;
+const v29 = /oFTq/sduyi;
+const v31 = typeof v29;
+v31 === "bigint";
+Object.defineProperty(v24, f0, { configurable: true, enumerable: true, get: f0, set: f0 });
+const o34 = {
+};
+try {
+    o34.e = v29;
+} catch(e35) {
+}
+try {
+    const o36 = {
+    };
+    o36.e = v29;
+    o36.b = v26;
+} catch(e37) {
+}
+try {
+    const o38 = {
+    };
+    o38.e = v29;
+    o38.b = v26;
+    o38.c = v31;
+} catch(e39) {
+}
+try {
+    const o40 = {
+    };
+    o40.e = v29;
+    o40.b = v26;
+    o40.c = v28;
+} catch(e41) {
+}

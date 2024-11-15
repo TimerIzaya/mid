@@ -1,0 +1,47 @@
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = "search";
+    } catch(e12) {
+    }
+    try {
+        this.g = -65535;
+    } catch(e13) {
+    }
+    try {
+        this.c = 536870887;
+    } catch(e14) {
+    }
+}
+new F6("search", -65535, 536870887, "6");
+new F6("search", 2147483649, 536870887, "search");
+const v17 = new F6("search", 2147483649, 2147483649, "search");
+function f21() {
+    return v17;
+}
+try {
+    new Int16Array(512);
+} catch(e25) {
+}
+try {
+    new Int16Array(4);
+} catch(e29) {
+}
+try {
+    new BigInt64Array(3292);
+} catch(e33) {
+}
+switch (6.90265350816162) {
+    case Int16Array:
+        try {
+            const t36 = "6";
+            t36[255] = Int16Array;
+        } catch(e34) {
+        }
+        break;
+}
+Object.defineProperty("6", 4, { configurable: true, get: f21 });
+try {
+    F6 ||= F6;
+} catch(e35) {
+}

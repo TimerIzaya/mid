@@ -1,0 +1,59 @@
+try {
+    new Int8Array(4);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e7) {
+}
+try {
+    new Uint16Array(11);
+} catch(e11) {
+}
+try {
+    new Float32Array(3);
+} catch(e15) {
+}
+try {
+    new Float64Array(192);
+} catch(e19) {
+}
+try {
+    new BigInt64Array(2630);
+} catch(e23) {
+}
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = Int8Array;
+    } catch(e30) {
+    }
+    try {
+        this.h = 0;
+    } catch(e31) {
+    }
+}
+new F25(3, 11, 11);
+const v33 = new F25(192, 192, 0);
+const v34 = new F25(2630, 3, 2630);
+class C35 {
+}
+const v36 = new C35();
+function f37(a38, a39, a40) {
+    a40.arguments = a40;
+    return a40;
+}
+%OptimizeFunctionOnNextCall(f37);
+const v41 = f37(Float32Array, BigInt64Array, 0);
+let v42;
+try { v42 = v41(...v34, C35, ...Uint16Array, 192, v41); } catch (e) {}
+let v43;
+try { v43 = v42(v34); } catch (e) {}
+f37(v43, f37, BigInt64Array);
+f37(v33, Float64Array, C35);
+%PrepareFunctionForOptimization(f37);
+f37(v33, Float64Array, C35);
+f37(v33, Float64Array, C35);
+%OptimizeMaglevOnNextCall(f37);
+f37(v33, Float64Array, C35);
+f37(f37, v36, f37);

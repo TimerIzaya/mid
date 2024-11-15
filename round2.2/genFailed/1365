@@ -1,0 +1,16 @@
+function f0() {
+}
+const v4 = ["undefined",f0,"object","undefined"];
+[f0,v4];
+const v6 = [f0,v4,v4,"symbol"];
+[1.0,3.0];
+[-1000000000.0,-7.594846595809043,2.2250738585072014e-308];
+const v9 = [NaN,797103.8112547447,NaN,5.0,Infinity,0.649841668611742,-155963.0754123677,-4.654614504835994,-9.01434038074962,-286033.8334119454];
+const v11 = Symbol.iterator;
+v6[v11] = "object";
+class C13 extends v11.constructor {
+    9;
+    static 2 = v6;
+    static g = v9;
+}
+new C13();

@@ -1,0 +1,39 @@
+function f0() {
+    const o7 = {
+        "c": "function",
+        __proto__: "function",
+        toString(a5) {
+            let v4 = this;
+            try {
+                v4 *= v4;
+            } catch(e6) {
+            }
+            return a5;
+        },
+        ["function"]: 4294967296,
+        ..."function",
+    };
+    return o7;
+}
+const v8 = f0();
+f0();
+f0();
+try {
+    new Uint16Array(2354);
+} catch(e14) {
+}
+try {
+    new Float64Array(10);
+} catch(e18) {
+}
+try {
+    new Int8Array(136);
+} catch(e22) {
+}
+for (const v29 of -1695920577n) {
+    new Uint16Array(2354, 2);
+    try {
+        v8[2083] = Int8Array;
+    } catch(e31) {
+    }
+}

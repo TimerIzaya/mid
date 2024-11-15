@@ -1,0 +1,77 @@
+const v1 = new Date();
+const v2 = [-839944.4576305395,1000000000.0,1.7976931348623157e+308,-0.0,1000000000.0,-1000000000.0,-2.0,0.4047521797644045,0.0566382786579791];
+const v3 = [132803.4716193315,-898.8906964969243,1.7976931348623157e+308,2.0,7.144150507940937e+307,4.0];
+function f4(a5) {
+    return Date["UTC"](a5);
+}
+v3.toString = f4;
+try { v3.group(Date); } catch (e) {}
+const v9 = [7.787624035170537e+307,-4.0,-0.0];
+const v11 = Symbol.toPrimitive;
+v9[v11] = f4;
+v9.toString = Date;
+const v12 = [v1];
+const v13 = [v12,v12,v12,v12,v12];
+v13.toString = Date;
+const v14 = [v3,v13,v9];
+function f15() {
+    return Symbol;
+}
+function f16(a17) {
+}
+Object.defineProperty(v14, "toString", { writable: true, get: f15, set: f16 });
+class C21 extends Date {
+    static 1236978192 = v1;
+    static #c = v2;
+    constructor(a23, a24, a25, a26) {
+        super(v14);
+        const v27 = this.__proto__;
+        function f28(a29) {
+            for (let v30 = 0; v30 < 32; v30++) {
+                v9["p" + v30] = v30;
+            }
+            return v11;
+        }
+        v27.toString = f28;
+        try { v27.setDate(v27); } catch (e) {}
+        try { v27(); } catch (e) {}
+    }
+    e;
+    set a(a36) {
+        [-2.0,1.0];
+        [0.0,-5.373658545239229e+307,0.6265565520517817];
+        [Infinity,0.005272352746069853,-650043.3602475];
+    }
+    static b;
+}
+new C21(v12, v2, v13, v12);
+const v41 = new C21(v9, v9, v12, v9);
+function f42(a43) {
+    function f44(a45, a46, a47) {
+        class C49 {
+        }
+        let v50 = new C49();
+        v50.valueOf = f42;
+        return v50 ^= "2147483647";
+    }
+    f44(f44, f44, f44);
+    return v3;
+}
+v41.toString = f42;
+try { v41.getSeconds(); } catch (e) {}
+const v53 = new C21(v12, v12, v2, v9);
+try { v53.toUTCString(); } catch (e) {}
+class C59 {
+}
+C59[Symbol.toPrimitive] = f42;
+try { new C59(); } catch (e) {}
+function F63(a65, a66) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.constructor = f15;
+    try { this.constructor(a66, a66); } catch (e) {}
+    try { new a65(); } catch (e) {}
+    const v69 = a65.constructor;
+    try { new v69(v41); } catch (e) {}
+    try { v69(-4, a65); } catch (e) {}
+}
+new F63(C59);

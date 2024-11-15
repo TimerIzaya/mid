@@ -1,0 +1,78 @@
+function f0() {
+    const o6 = {
+        "c": -2147483647,
+        "g": -2147483647,
+        get a() {
+            try {
+                this.toString = 2147483649;
+            } catch(e5) {
+            }
+            return 2147483649;
+        },
+        [1.7976931348623157e+308]: 1.7976931348623157e+308,
+        2342618370: 1.7976931348623157e+308,
+        "d": 1.7976931348623157e+308,
+        3: -2147483647,
+        58: -2147483647,
+        "f": -2147483647,
+    };
+    return o6;
+}
+const v7 = f0();
+const v8 = f0();
+const v9 = f0();
+const v13 = [1073741824];
+const v14 = [5,512,5,10];
+const v15 = [12913,5,512,10,-1726848780,31266,64];
+class C16 extends f0 {
+    constructor(a18, a19) {
+        super();
+        const v21 = [v9,[this,"sY7QD"],this,"e",a19];
+        [v21,v8,a18,v21,"sY7QD"];
+        a18 | v8;
+        a = v9;
+        try {
+            super.c = a19;
+        } catch(e24) {
+        }
+    }
+    static g;
+    e = f0;
+    static #g;
+}
+new C16("e", "e");
+new C16("e", v7);
+new C16("e", v13);
+new C16("sY7QD", -10);
+v14 || v15;
+for (let [v33,v34,v35,v36] of "e") {
+    const o37 = {
+    };
+    try {
+        o37.a = v34;
+    } catch(e38) {
+    }
+    try {
+        const o39 = {
+        };
+        o39.a = v34;
+        o39.e = v33;
+    } catch(e40) {
+    }
+    try {
+        const o41 = {
+        };
+        o41.a = v34;
+        o41.e = v33;
+        o41.g = v34;
+    } catch(e42) {
+    }
+    try {
+        const o43 = {
+        };
+        o43.a = v34;
+        o43.e = v33;
+        o43.f = -594701078;
+    } catch(e44) {
+    }
+}

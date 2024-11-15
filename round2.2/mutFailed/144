@@ -1,0 +1,78 @@
+const v3 = [4294967297,4294967297,5,-2,5];
+const v4 = [5,-2,4294967297,v3];
+const v5 = [v3];
+try { new Float32Array(982, v4, v4); } catch (e) {}
+try {
+    const v9 = [-2.0];
+    for (let v10 = 0; v10 < 25; v10++) {
+        v9.__proto__;
+    }
+    const v12 = new Float32Array(982);
+    try { v12.values(); } catch (e) {}
+} catch(e14) {
+}
+try {
+    new Uint16Array(-2147483649);
+} catch(e18) {
+    e18.message = e18;
+}
+try { Int16Array.bind(-2); } catch (e) {}
+try {
+    const v22 = new Int16Array(256);
+    v22[49] = v22;
+} catch(e23) {
+    async function f24(a25, a26, a27, a28) {
+        await a26;
+        return a26;
+    }
+    1000000000000.0 ^ 1000000000000.0;
+}
+const v32 = [v4,982,982,v4,Uint16Array];
+const v34 = [v5,[982,v32,Float32Array,v32,256,-2147483649,v3]];
+const v38 = new Float64Array(2147483647);
+const v39 = v38?.findLastIndex;
+try { new v39(1000.0); } catch (e) {}
+function f41() {
+}
+class C43 {
+    #f = 1000.0;
+    constructor(a45, a46) {
+        const v47 = this?.constructor;
+        v47.name = v47;
+        try { new v47(C43, a46); } catch (e) {}
+        a46--;
+        try {
+            a45[1000000000.0] = this;
+        } catch(e50) {
+        }
+    }
+}
+new C43();
+const v52 = new C43(C43);
+const v53 = new C43(C43, C43);
+const v54 = new C43();
+[v53,C43,v52,1000.0,v54];
+const v56 = [];
+function f57(a58, a59, a60) {
+    const o76 = {
+        n(a62, a63, a64, a65) {
+            function f66(a67) {
+                function f69(a70) {
+                    a70 *= a70;
+                    return a67;
+                }
+                this.onmessage = f69;
+                this.__proto__;
+            }
+            const o74 = {
+                "type": "function",
+            };
+            const v75 = new Worker(f66, o74);
+            return v75;
+        },
+    };
+    return o76.n(a60, C43);
+}
+f57(v56);
+const v79 = f57(v53, v56, f57);
+f57(v56, v53, v79, v34, v56, v79);

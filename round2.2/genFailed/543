@@ -1,0 +1,45 @@
+let v0 = 64;
+try {
+    new Uint8ClampedArray(v0);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(3148);
+} catch(e7) {
+}
+try {
+    new Int16Array(1200);
+} catch(e11) {
+}
+const v12 = [3148,1200];
+const v13 = [Int16Array];
+let v14 = [v12,v12,v12];
+function f15() {
+    return Int16Array;
+}
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a20;
+    } catch(e22) {
+    }
+    try {
+        this.d = a21;
+    } catch(e23) {
+    }
+}
+new F16(v0, 1200, v12, 1200);
+const v25 = new F16(1200, 1200, v12, Uint8ClampedArray);
+let v26 = new F16(v0, 1200, v13, v25);
+if (3148) {
+    /P0abc+?[z-\d](a)5/msdi;
+    /(bZ(?<=a)(?<!a)*)/gui;
+    /r\p{General_Category=Decimal_Number}/sduy;
+} else {
+    Object.defineProperty(v14, "e", { configurable: true, set: f15 });
+    v25[4294967296] &&= 1200;
+}
+[v14,,v26,...v0] = v14;
+for (let v30 = 0; v30 < 32; v30++) {
+    v0["p" + v30] = v30;
+}

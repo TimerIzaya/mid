@@ -1,0 +1,59 @@
+function f3() {
+    return -2.220446049250313e-16;
+}
+function f7(a8, a9) {
+    const o13 = {
+        "b": -69984131,
+        "a": -2147483648,
+        get c() {
+            try {
+                f3();
+            } catch(e12) {
+            }
+            return a8;
+        },
+        "g": f3,
+    };
+    return o13;
+}
+f7(-69984131, -2.220446049250313e-16);
+f7(-69984131, -480.2681166187664);
+f7(-2147483648, -2.220446049250313e-16);
+function f22(a23, a24, a25, a26) {
+    function f27(a28, a29) {
+        f22();
+        const v31 = [1e-15,-5.0,-1000000000000.0,-5.972686936111036e+307,-1.275814996674151e+308];
+        return v31.unshift(v31, undefined);
+    }
+    a23.toString = f27;
+    const o39 = {
+        "g": BigInt64Array,
+        "f": BigInt64Array,
+        "h": a24,
+        [a26]: 14,
+        [a23](a35, a36, a37, a38) {
+            a35.a = a23;
+        },
+        ...a23,
+        [10]: Uint8Array,
+    };
+    return o39;
+}
+class C40 {
+    constructor(a42, a43, a44) {
+        %PrepareFunctionForOptimization(f22);
+        f22(a44, 16);
+        f22(a44, 16, a42, 14);
+        %OptimizeFunctionOnNextCall(f22);
+    }
+}
+const v47 = new C40();
+function f48() {
+    try {
+        C40[3] = BigInt64Array;
+    } catch(e49) {
+    }
+    return C40;
+}
+v47[Symbol.toPrimitive] = f48;
+new C40(10, v47, v47);

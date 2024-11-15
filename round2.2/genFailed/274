@@ -1,0 +1,39 @@
+const v1 = new WeakSet();
+[v1,WeakSet,WeakSet];
+const v3 = [v1];
+[v1,v3,v3];
+try {
+    new Float32Array(1281);
+} catch(e8) {
+}
+try {
+    new Uint8Array(8);
+} catch(e12) {
+}
+try {
+    new Int32Array(218);
+} catch(e16) {
+}
+try {
+    new Uint16Array(1000);
+} catch(e20) {
+}
+try {
+    new BigInt64Array(2793);
+} catch(e24) {
+}
+let v25 = 1525;
+try {
+    new BigUint64Array(v25);
+} catch(e28) {
+}
+switch (Float32Array) {
+    default:
+        try {
+            v25 = 2793;
+        } catch(e29) {
+        }
+        break;
+}
+throw 8;
+v3.length;

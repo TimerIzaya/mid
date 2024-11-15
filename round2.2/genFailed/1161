@@ -1,0 +1,43 @@
+function f0() {
+    const o8 = {
+        "b": 1073741825,
+        ["object"]: "object",
+        ..."n",
+        "e": 1073741825,
+        "a": "object",
+        set f(a5) {
+            const v6 = this[3];
+            try {
+                super[v6] = "n";
+            } catch(e7) {
+            }
+        },
+    };
+    return o8;
+}
+f0();
+const v10 = f0();
+f0();
+const v12 = [1.7976931348623157e+308];
+[759.6534199443165,2.0,638565.9774582337];
+const v14 = [830.2291016931804,1.0,-Infinity,2.2250738585072014e-308,235026.30327431322,-1000.0,-1000000000000.0,-2.220446049250313e-16,1e-15];
+try {
+    new BigUint64Array(7);
+} catch(e18) {
+}
+try {
+    new Uint8Array(257);
+} catch(e22) {
+}
+try {
+    new Uint32Array(255);
+} catch(e26) {
+}
+const v29 = ("536870888").normalize("NFKD");
+function f30(a31, a32, a33, a34) {
+    a34[1838];
+    return v12;
+}
+const v36 = f30(7, 257, v14, v29);
+Object.defineProperty(v36, "length", { enumerable: true, get: f0 });
+try { v10.random(BigUint64Array, v36, f30, 7); } catch (e) {}

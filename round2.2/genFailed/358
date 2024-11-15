@@ -1,0 +1,40 @@
+const v1 = new WeakSet();
+const v3 = new WeakSet();
+class C4 extends WeakSet {
+    constructor(a6) {
+        super(a6);
+        a6?.b;
+    }
+    [v3] = WeakSet;
+    static g = WeakSet;
+    static [v3] = v1;
+    g;
+    [WeakSet];
+    static 2001939844 = v3;
+    16;
+}
+const v8 = new C4(v3);
+const v9 = new C4(v1);
+const v10 = new C4(v1);
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a16;
+    } catch(e17) {
+    }
+}
+new F11(C4, v10, v3, v8);
+new F11(C4, v8, C4, v3);
+new F11(v10, v9, v8, C4);
+class C21 extends WeakSet {
+    o(a23, a24, a25, a26) {
+        try {
+            a25.g = a26;
+        } catch(e27) {
+        }
+        return F11;
+    }
+}
+new C21();
+new C21();
+new C21();

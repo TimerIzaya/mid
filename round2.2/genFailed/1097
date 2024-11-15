@@ -1,0 +1,52 @@
+class C3 {
+    3753 = "asyncIterator";
+    static #b = "f";
+    valueOf(a5) {
+        const t4 = "asyncIterator";
+        const v6 = delete t4?.length;
+        function f7() {
+            return v6;
+        }
+        return new.target;
+    }
+    static #c = "asyncIterator";
+    ["string"];
+    3;
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+function f12(a13, a14, a15, a16) {
+    const o30 = {
+        valueOf(a18, a19, a20) {
+            const v21 = a16[268435439];
+            let v22;
+            try { v22 = v21(a16, C3, a19, "string"); } catch (e) {}
+            Reflect.construct(v22, ["f",v21,this], v22);
+            return a20;
+        },
+        set b(a27) {
+            try {
+                a16.valueOf = a27;
+            } catch(e28) {
+            }
+            a16[14];
+        },
+    };
+    return o30;
+}
+const v31 = f12(v9, v9, v11, v11);
+f12(v11, v31, v9, v31);
+const v33 = f12(v10, v11, v9, v10);
+let v36 = 4.005084123438925;
+v11 * v11;
+function f38() {
+    ({"b":v36,} = v33);
+    try {
+        const t45 = "string";
+        t45[arguments] = arguments;
+    } catch(e40) {
+    }
+    return arguments;
+}
+f38("asyncIterator", v11, v33);

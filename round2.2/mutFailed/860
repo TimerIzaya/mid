@@ -1,0 +1,45 @@
+const v0 = [];
+function f1() {
+    Object.defineProperty([[]], 6, { configurable: true, value: 2n });
+    const o12 = {
+        [f1]() {
+            return f1;
+        },
+        "f": v0,
+        __proto__: f1,
+        ...v0,
+    };
+    return o12;
+}
+const v13 = f1();
+v13();
+const v15 = f1();
+const v19 = [-207162817n,f1];
+const v20 = [-1878549769n,-207162817n,v15,v0];
+[v13];
+try {
+    new Uint8ClampedArray(Uint8ClampedArray);
+} catch(e25) {
+}
+const v27 = typeof -1878549769n;
+v27 === "bigint";
+try { v20.findLastIndex(f1, "bigint"); } catch (e) {}
+const v31 = delete v15[Uint8ClampedArray];
+try {
+    new Float32Array(1024);
+} catch(e34) {
+}
+try {
+    v13[3] = v27;
+    for (let v37 = 0; v37 < 32; v37++) {
+        v0["p" + v37] = v37;
+    }
+    new Int8Array(64);
+} catch(e41) {
+}
+v19[v31];
+try {
+    v20.__proto__ = v20;
+} catch(e43) {
+}
+Math.acosh(v19);

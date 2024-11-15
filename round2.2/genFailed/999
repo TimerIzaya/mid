@@ -1,0 +1,54 @@
+try {
+    new Int32Array(0);
+} catch(e3) {
+}
+try {
+    new Int16Array(554);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    constructor(a14, a15, a16, a17) {
+        super(a15);
+        let v18;
+        try { v18 = this.findLast(0, this); } catch (e) {}
+        const v19 = super.find(v18, this);
+        super.byteOffset;
+        const o21 = {
+            "d": Int32Array,
+            "h": this,
+            ...this,
+            __proto__: v19,
+        };
+    }
+    static #d;
+    static h;
+    4294967296;
+}
+let v22 = new C12(554, 4, 4, 0);
+const v23 = new C12(0, 554, 4, 554);
+new C12(0, 554, 4, 4);
+/ufoo(?=bar)baz3Ny[a-zA-Z0-9]?/suy;
+/(?:ab|cde)/dy;
+/[\d-\d]/sdyi;
+554 | v22;
+let v32 = 0;
+do {
+    ({"byteLength":v32,...v22} = v23);
+    v32++;
+} while (v32 < 3)
+try {
+    new Uint32Array(2873);
+} catch(e39) {
+}
+try {
+    new Int16Array(3432);
+} catch(e43) {
+}
+try {
+    new Uint16Array(246);
+} catch(e47) {
+}

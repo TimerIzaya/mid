@@ -1,0 +1,40 @@
+const v1 = new WeakMap();
+function f2(a3, a4) {
+    const o11 = {
+        __proto__: a3,
+        set c(a6) {
+            new WeakMap(v1);
+        },
+        "h": v1,
+        151: v1,
+        [a3]: a3,
+        [v1]: a3,
+        "c": a3,
+    };
+    return o11;
+}
+const v13 = f2(f2(WeakMap, f2), v1);
+f2(f2, WeakMap);
+class C18 {
+    static [v1];
+    static get c() {
+        const v20 = this && this;
+        v13[2147483647];
+        v13.h;
+        function f23() {
+            return v20;
+        }
+        return "268435439";
+    }
+    #c = "-712042416";
+    #f;
+}
+new C18();
+new C18();
+const v26 = new C18();
+try { C18.o(v26); } catch (e) {}
+for (let i30 = 0, i31 = 10; i30 < i31; i30++, i31--) {
+    for (let v39 = 0; v39 < 32; v39++) {
+        v26["p" + v39] = v39;
+    }
+}

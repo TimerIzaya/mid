@@ -1,0 +1,28 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 4294967296;
+    } catch(e3) {
+    }
+    try {
+        this.g = 4294967296;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+[v7,"object",v7];
+const v15 = [F0,v5,"object","string","string"];
+[v15,512];
+const v17 = v15.constructor;
+class C18 extends v17 {
+    static ["undefined"] = "undefined";
+    1300154772;
+    static a;
+}
+const v19 = new C18();
+let v20;
+try { v20 = v5.isSafeInteger(v19, v19, -268435456, v19, v6); } catch (e) {}
+try { v17(v20); } catch (e) {}
+v19.length /= -268435456;

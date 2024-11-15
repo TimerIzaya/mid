@@ -1,0 +1,28 @@
+class C3 {
+    toString(a5) {
+        try {
+            ("1073741825").toLowerCase();
+        } catch(e7) {
+        }
+        return a5;
+    }
+    static {
+        let v9;
+        try {
+        const t0 = 5.0;
+        v9 = t0(this, 8.217015303439771e+307, this, this);
+        } catch (e) {}
+        Reflect.construct(v9, [Reflect], v9)?.h;
+    }
+}
+new C3();
+new C3();
+const v16 = new C3();
+const v17 = [C3,C3,8.217015303439771e+307,v16];
+const v18 = [v17,v17];
+[v17,v16,v18];
+if (245284711 > v18) {
+} else {
+    [-4096];
+}
+Object.defineProperty("1073741825", 8, { writable: true, configurable: true, enumerable: true, value: -4096 });

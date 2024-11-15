@@ -1,0 +1,71 @@
+class C3 {
+    #f;
+    [59116n];
+    static h;
+    constructor(a5, a6) {
+        for (const v7 of 59116n) {
+            const v9 = Symbol.iterator;
+            const o18 = {
+                [v9]() {
+                    let v11 = 10;
+                    const o17 = {
+                        next() {
+                            v11--;
+                            const v15 = v11 == 0;
+                            const o16 = {
+                                "done": v15,
+                                "value": v11,
+                            };
+                            return o16;
+                        },
+                    };
+                    return o17;
+                },
+            };
+        }
+    }
+}
+const v19 = new C3(-42818n, -42818n);
+const v20 = new C3(59116n, -42818n);
+new C3(-42818n, 59116n);
+function F22(a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a25;
+    } catch(e26) {
+    }
+    try {
+        this.f = -21788n;
+    } catch(e27) {
+    }
+}
+const v28 = new F22(-21788n, -42818n);
+const v29 = new F22(-21788n, 59116n);
+new F22(-21788n, -42818n);
+function F31(a33, a34, a35, a36) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a34;
+    } catch(e37) {
+    }
+    try {
+        this.b = -21788n;
+    } catch(e38) {
+    }
+    try {
+        this.g = v20;
+    } catch(e39) {
+    }
+}
+const v40 = new F31(v20, v29, v19, v20);
+const v41 = new F31(v20, v29, v40, v19);
+const v42 = new F31(v41, v29, C3, v28);
+{
+    try {
+        v40.fuck(v20, undefined, [F22,,-42818n,v42,F31], true);
+    } catch(e47) {
+    }
+}
+const v48 = [-42818n,-42818n,-21788n,v40];
+[-42818n,59116n,v19,F22,v41];
+[v48,-21788n,v40,v48];

@@ -1,0 +1,26 @@
+const v3 = [1000.0,0.2794020136668147,-160.89558835107857,-3.0,-1.525490017895411,-0.0,0.042513221842303106,-Infinity,2.220446049250313e-16];
+const v4 = [Infinity];
+let v5 = [-3.0,-2.2250738585072014e-308,0.9406938847936734];
+try {
+    new BigUint64Array(1382);
+} catch(e12) {
+}
+try {
+    new Int8Array(4);
+} catch(e16) {
+}
+try {
+    new Uint16Array(257);
+} catch(e20) {
+}
+let v21;
+try { v21 = v4.push(v3); } catch (e) {}
+try {
+    v5[v21] = 4;
+} catch(e22) {
+}
+let v23;
+try { v23 = new v21(); } catch (e) {}
+({"b":v23,"e":v21,"length":v5,} = v4);
+try { v4.every(...BigUint64Array, ...v3, 4, 529); } catch (e) {}
+let {"c":v25,"f":v26,} = v23;

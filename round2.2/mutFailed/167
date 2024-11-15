@@ -1,0 +1,106 @@
+function f0() {
+    1000000000.0 / 1000000000.0;
+    const o9 = {
+        "e": "-4294967296",
+        "d": 255,
+        "b": "-4294967296",
+        "c": 255,
+        "h": "-4294967296",
+        [255](a6) {
+            let v7;
+            try { v7 = a6(this, a6, 255, 255, this); } catch (e) {}
+            try {
+                v7[822] = this;
+            } catch(e8) {
+            }
+            return "-4294967296";
+        },
+    };
+    o9[255] = o9;
+    return o9;
+}
+f0();
+const v11 = f0();
+const v12 = f0();
+class C13 extends f0 {
+    constructor(a15) {
+        super();
+        const v17 = Symbol.iterator;
+        Symbol.for(v17.description);
+        const o29 = {
+            [v17]() {
+                let v22 = 10;
+                const o28 = {
+                    next() {
+                        v22--;
+                        const v26 = v22 == 0;
+                        const o27 = {
+                            "done": v26,
+                            "value": v22,
+                        };
+                        return o27;
+                    },
+                };
+                return o28;
+            },
+        };
+        o29.c = o29;
+    }
+}
+C13.b = C13;
+const v30 = new C13(v12);
+const v31 = new C13(f0);
+v31[255] = v31;
+const v32 = new C13(C13);
+v32[255] = v32;
+class C33 extends v11 {
+    #o(a35, a36) {
+        const v37 = this[v32];
+        function F38(a40, a41, a42) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = v37;
+            } catch(e43) {
+            }
+            try {
+                this.d = a41;
+            } catch(e44) {
+            }
+        }
+        new F38(v37, a36, v32);
+        const v46 = new F38(v37, v31, C13);
+        const v47 = new F38(v46, v12, v30);
+        return v47;
+    }
+}
+try { new C33(); } catch (e) {}
+new C33();
+new C33();
+new C33();
+try { new Array(C13); } catch (e) {}
+const v55 = new Array(15);
+4 - 4;
+try {
+    new Int32Array(4);
+} catch(e60) {
+}
+try {
+    new Uint32Array(3207);
+} catch(e64) {
+}
+Uint16Array.b = Uint16Array;
+try {
+    new Uint16Array(8);
+} catch(e68) {
+}
+const v69 = [51248,5,-33506,-65536,-1,-2,-65537,4096,-1048088846,3];
+try { v69.reduceRight(v30); } catch (e) {}
+[-2147483647,-11212,-17127,228266272,7,-4096,4294967297,-4294967295,1024];
+const v72 = [-57368,536870887,9,-9223372036854775807];
+function f73() {
+}
+v55[1024] %= 15;
+v72[3058];
+const o76 = {
+};
+gc(o76);

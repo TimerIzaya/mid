@@ -1,0 +1,52 @@
+try {
+    new BigInt64Array(246);
+} catch(e3) {
+}
+try {
+    new Float32Array(2);
+} catch(e7) {
+}
+let v9 = Uint8ClampedArray;
+try {
+    new v9(8);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    o(a14, a15, a16, a17) {
+        Math.expm1(this);
+        Math.atanh(a15);
+        Math.exp(a15);
+        try {
+            this[a15] = a14;
+        } catch(e24) {
+        }
+        return 246;
+    }
+    [2];
+}
+new C12();
+const v26 = new C12();
+const v27 = new C12();
+try {
+    new Int16Array(7);
+} catch(e34) {
+}
+try {
+    new Float64Array(2);
+} catch(e38) {
+}
+try {
+    new Uint8ClampedArray(3);
+} catch(e42) {
+}
+for (const v43 of v27) {
+    v43?.[BigInt64Array];
+    try {
+        v9 = Uint8ClampedArray;
+    } catch(e45) {
+    }
+}
+try {
+    v26[536870889n] = 3;
+} catch(e46) {
+}

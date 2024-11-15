@@ -1,0 +1,38 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 16n;
+    } catch(e7) {
+    }
+    try {
+        this.d = 16n;
+    } catch(e8) {
+    }
+}
+new F3(-1024n, -1024n);
+const v10 = new F3(-1024n, 16n);
+new F3(16n, v10);
+const v12 = /a(?!bbb|bb)c/gduyi;
+/(la(?=b))/duyi;
+/(?<=a)\w|\dha\nb\bc*/dvy;
+try {
+    new BigUint64Array(5);
+} catch(e18) {
+}
+let v19 = 184;
+try {
+    new BigInt64Array(v19);
+} catch(e22) {
+}
+try {
+    new Uint8ClampedArray(1015);
+} catch(e26) {
+}
+try {
+    v19 &&= v19;
+} catch(e27) {
+}
+v12.dotAll;
+~16n;
+Math.sign(6838);
+Math.atan2(16n, 6838);

@@ -1,0 +1,46 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 268435456;
+    } catch(e3) {
+    }
+    try {
+        this.d = 268435456;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v6;
+    } catch(e12) {
+    }
+}
+new F8(v6, v5);
+new F8(v6, v5);
+new F8(v5, v5);
+try {
+    new Uint32Array(2629);
+} catch(e19) {
+}
+try {
+    new Int32Array(257);
+} catch(e23) {
+}
+try {
+    new Float64Array(257);
+} catch(e27) {
+}
+const v28 = /[x]a\sc/mgsui;
+/a(?!b)/mvy;
+/y\p{Nd}/mdvy;
+v28[F8] += 2629;
+/6M(?<a>.)\k<a>(?<!a)/gvy;
+/[a||bc[x\dz](?:ab)*]/gsvy;
+const v33 = /Andx/mvyi;
+function f34() {
+    return v33;
+}

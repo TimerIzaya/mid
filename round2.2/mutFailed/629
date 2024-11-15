@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 129;
+    } catch(e3) {
+    }
+    try {
+        this.POSITIVE_INFINITY = 129;
+        let v5;
+        try { v5 = undefined.n(); } catch (e) {}
+        if (v5) {
+        }
+        -4294967295 << -4294967295;
+    } catch(e8) {
+    }
+}
+const v9 = new F0(F0);
+const v10 = new F0();
+new F0(v10, v9, v10);
+class C17 {
+}
+const v18 = new C17(-24338, 1073741825);
+function f19(a20, a21, a22) {
+    a22.f = a22;
+    return a22;
+}
+f19(f19, v18, f19);
+class C30 {
+    constructor(a32) {
+        for (let [v33,v34] of "-1") {
+            super.e **= v33;
+        }
+    }
+}
+new C30();
+class C40 extends eval {
+}
+const v41 = new C40();
+const v42 = new C40();
+v41[255] = v42;

@@ -1,0 +1,37 @@
+class C3 {
+    static {
+        const o5 = {
+        };
+        try {
+            new Proxy("b", o5);
+        } catch(e8) {
+        }
+    }
+    static toString(a10) {
+        const t10 = "b";
+        t10[a10] ^= 0.5402056405597087;
+        const v11 = a10?.[0.5402056405597087];
+        try {
+            super.b = -1.7976931348623157e+308;
+        } catch(e12) {
+        }
+        return v11;
+    }
+}
+new C3();
+const v14 = new C3();
+const v15 = new C3();
+const v17 = new Map();
+function f19() {
+    return "b";
+}
+try {
+    C3[v14] = v15;
+} catch(e23) {
+}
+Object.defineProperty("b", "b", { get: f19, set: f19 });
+if (f19) {
+    f19()[1992833126];
+} else {
+    let [...v26] = v17;
+}

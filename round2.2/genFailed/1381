@@ -1,0 +1,50 @@
+class C3 {
+    static 8 = 1000;
+    65536;
+    static f;
+    2147483648 = -444928.95193917037;
+    set h(a5) {
+        try {
+            new Uint8Array(10);
+        } catch(e9) {
+        }
+        try {
+            new Uint32Array(5);
+        } catch(e13) {
+        }
+        try {
+            new Int8Array(12);
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+function f21() {
+    return v18;
+}
+try {
+    new Float64Array(129);
+} catch(e25) {
+}
+try {
+    new Uint16Array(7);
+} catch(e29) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e33) {
+}
+const v34 = C3[C3];
+let v35;
+try { v35 = C3.isView(Uint16Array, C3, v34, v20); } catch (e) {}
+v35[1220] -= 10;
+throw -444928.95193917037;
+%VerifyType(7);
+const o36 = {
+    __proto__: v19,
+    ...v19,
+    ...v18,
+    "a": v19,
+};

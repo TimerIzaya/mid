@@ -1,0 +1,64 @@
+const v1 = new Map();
+function f5() {
+    return -1.7976931348623157e+308;
+}
+function f9(a10, a11) {
+    const o18 = {
+        ..."bigint",
+        [v1]: v1,
+        "d": a10,
+        "c": a10,
+        ["bigint"]: f5,
+        "b": a10,
+        "g": "bigint",
+        __proto__: a10,
+        "e": "bigint",
+        toString(a13, a14, a15, a16) {
+            try {
+                a14[1.6666220451269043e+308] = a14;
+            } catch(e17) {
+            }
+            return a16;
+        },
+    };
+    return o18;
+}
+f9("function", Infinity);
+const v20 = f9("repeat", 1.6666220451269043e+308);
+const v21 = f9("repeat", -1.7976931348623157e+308);
+function f22(a23, a24) {
+    const o33 = {
+        ["repeat"]: "repeat",
+        __proto__: a24,
+        [v20]: f5,
+        ...a24,
+        "h": v1,
+        [a23]: Map,
+        [v21]: -1.7976931348623157e+308,
+        [-2]: v21,
+        "f": v1,
+        [a24](a26, a27, a28, a29) {
+            try {
+                f9("repeat", -1e-15);
+            } catch(e32) {
+            }
+            return a23;
+        },
+    };
+    return o33;
+}
+const v35 = f22(-1.7976931348623157e+308, f22(Infinity, f22));
+f22(Infinity, -1.7976931348623157e+308);
+const v37 = v21[2147483647];
+try { new v37(); } catch (e) {}
+function f39(a40) {
+    return f9;
+}
+class C41 extends f39 {
+    #e = v35;
+}
+Object.defineProperty(v1, 536870887, { enumerable: true, get: f22, set: f5 });
+try {
+    v35["bigint"] = v1;
+} catch(e42) {
+}

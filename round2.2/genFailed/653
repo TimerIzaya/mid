@@ -1,0 +1,39 @@
+function f3() {
+    return -4294967296;
+}
+try {
+    new Float32Array(12);
+} catch(e7) {
+}
+try {
+    new Uint32Array(177);
+} catch(e11) {
+}
+try {
+    new Int8Array(64);
+} catch(e15) {
+}
+try {
+    new Int8Array(7);
+} catch(e19) {
+}
+try {
+    new Int8Array(3);
+} catch(e23) {
+}
+try {
+    new Int32Array(209);
+} catch(e27) {
+}
+try {
+    const t28 = 12;
+    t28[5] = 7;
+} catch(e28) {
+}
+let v29;
+try { v29 = (209).p(); } catch (e) {}
+let v30;
+try { v30 = v29.reject(64, v29, 1073741825, Uint32Array, Uint32Array); } catch (e) {}
+let v31;
+try { v31 = v30(209, 7, -2147483647, v30, ...Uint32Array); } catch (e) {}
+v31.h ^= 7;

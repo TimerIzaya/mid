@@ -1,0 +1,59 @@
+class C3 {
+    #n(a5) {
+        const t2 = "object";
+        delete t2["object"];
+        -45447 - this;
+        return "object";
+    }
+    m(a9) {
+        try {
+            super.f = -45447;
+        } catch(e10) {
+        }
+        return this;
+    }
+    #f;
+    static c;
+    a;
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+const v14 = /\1\2(a(?:\1(b\1\2))\2)\1/sdyi;
+const v15 = /[z-\d]/mgsi;
+const v16 = /a\nb\bc*/mduy;
+const v18 = [v16,true,v12,v11,v16];
+const v19 = [v18,"object",C3];
+const v20 = [v13];
+function f21(a22, a23) {
+    const o32 = {
+        ...v14,
+        [v14](a25, a26) {
+            -1.2852602283142163e+308 !== a26;
+            const v28 = v11.a;
+            try {
+                v20.valueOf = v28;
+            } catch(e29) {
+            }
+            const v30 = this[10];
+            try {
+                this[a22] = v30;
+            } catch(e31) {
+            }
+            return v15;
+        },
+    };
+    return o32;
+}
+const v34 = f21(v18, f21(v19, v13));
+const v35 = f21(v34, v34);
+try {
+    v15[1073741823] = v35;
+} catch(e36) {
+}
+const v37 = new f21(v18, v11);
+try {
+    v37.__proto__ = v14;
+} catch(e38) {
+}
++v37;

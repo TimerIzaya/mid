@@ -1,0 +1,29 @@
+[268435439,536870888,3,57037,268435439];
+const v7 = [57037];
+const v8 = [536870888,v7,1073741824,v7];
+try {
+    new Int8Array(1);
+} catch(e12) {
+}
+try {
+    new Uint8ClampedArray(159);
+} catch(e16) {
+}
+try {
+    new Uint16Array(293);
+} catch(e20) {
+}
+try {
+    v8.__proto__ = v8;
+} catch(e21) {
+}
+class C22 extends Uint8ClampedArray {
+    static #e = 268435439;
+    [Int8Array] = 1;
+    [15715] = 3;
+    3999822520 = Uint8ClampedArray;
+    [3] = 536870888;
+}
+new C22();
+new C22();
+new C22();

@@ -1,0 +1,39 @@
+try {
+    new BigInt64Array(128);
+} catch(e3) {
+}
+try {
+    new Int16Array(1387);
+} catch(e7) {
+}
+let v8 = 1076;
+try {
+    new BigUint64Array(v8);
+} catch(e11) {
+}
+try {
+    new Uint8Array(101);
+} catch(e15) {
+}
+let v16 = 512;
+try {
+    new BigUint64Array(v16);
+} catch(e19) {
+}
+try {
+    new Float64Array(255);
+} catch(e23) {
+}
+let v25 = -1612472864;
+Int16Array[6] = BigInt64Array;
+let v27;
+try { v27 = Int16Array.m(128); } catch (e) {}
+try {
+    new Uint8Array(1387, -4294967296);
+} catch(e30) {
+}
+({"b":v25,"f":v8,"g":v8,} = v27);
+try {
+    v16 *= 1;
+} catch(e31) {
+}

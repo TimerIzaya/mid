@@ -1,0 +1,36 @@
+try {
+    new Int32Array(0);
+} catch(e6) {
+}
+try {
+    new Float32Array(2686);
+} catch(e10) {
+}
+try {
+    new Uint8Array(15);
+} catch(e14) {
+}
+try {
+    new Int8Array(16);
+} catch(e18) {
+}
+let v19 = 15;
+try {
+    new Int8Array(v19);
+} catch(e22) {
+}
+try {
+    new BigInt64Array(3778);
+} catch(e26) {
+}
+if (Uint8Array > 16) {
+    let v28;
+    try { v28 = Uint8Array.getYear(); } catch (e) {}
+    v28 > v28;
+} else {
+    v19--;
+    -63318n;
+    63318n / v19;
+    v19 || v19;
+    Math.hypot(v19);
+}

@@ -1,0 +1,43 @@
+class C6 {
+    [-268435456];
+    static {
+        Reflect.construct(this, [Reflect,Reflect], 164501.6768400839);
+    }
+    valueOf(a12, a13, a14, a15) {
+        let v16;
+        try { v16 = new a12(a12); } catch (e) {}
+        const v20 = 665814.9305155841 >>> v16;
+        const v21 = (-7283) ** 665814.9305155841;
+        const v22 = ~v20;
+        Math.round(-7283);
+        Math.expm1(665814.9305155841);
+        v22 / v21;
+        return 2147483649;
+    }
+}
+const v26 = new C6();
+const v27 = new C6();
+const v28 = new C6();
+try {
+    new Uint16Array(10);
+} catch(e32) {
+}
+try {
+    new Uint8ClampedArray(728);
+} catch(e36) {
+}
+try {
+    new Float32Array(16);
+} catch(e40) {
+}
+const v42 = Uint8ClampedArray != v26 ? Uint8ClampedArray : v26;
+try {
+    v42[7] = 10;
+} catch(e43) {
+}
+%VerifyType(10);
+let v44;
+try { v44 = v28(C6, 7); } catch (e) {}
+[v42,Float32Array,v42];
+const v46 = [2147483649,v27,-268435456,v27,Float32Array];
+[v27,v46,v44,Float32Array,v46];

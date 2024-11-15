@@ -1,0 +1,37 @@
+const v1 = new Set();
+function f2() {
+    return v1;
+}
+new v1();
+try {
+    new Int32Array(8);
+} catch(e11) {
+}
+try {
+    new Float64Array(512);
+} catch(e15) {
+}
+try {
+    new Uint8ClampedArray(f2);
+} catch(e19) {
+}
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a24;
+    } catch(e26) {
+    }
+    try {
+        this.e = a22;
+    } catch(e27) {
+    }
+    try {
+        this.f = a22;
+    } catch(e28) {
+    }
+}
+new F20(2109, 4, Int32Array, 268435441);
+new F20(268435441, 512, 4, Map);
+new F20(8, 8, 512, 512);
+let v33 = 23561n >> 23561n;
+v33--;

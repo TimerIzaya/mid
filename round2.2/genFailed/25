@@ -1,0 +1,44 @@
+try {
+    new Int32Array(255);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(127);
+} catch(e10) {
+}
+try {
+    new Uint32Array(512);
+} catch(e14) {
+}
+function f15(a16, a17, a18) {
+    const o22 = {
+        "g": 1000n,
+        get h() {
+            const v20 = super[BigInt64Array];
+            try { new v20(v20); } catch (e) {}
+            return 1000n;
+        },
+        "e": 1000n,
+        "c": Uint32Array,
+        "h": 127,
+        ...a18,
+        "d": Int32Array,
+    };
+    return o22;
+}
+f15(512, 1000n, 255);
+f15(512, 1000n, f15(255, 1000n, 255));
+const v29 = +1000n;
+Math.expm1(1000n);
+Math.log(v29);
+[7,201997368,1047,255,18925,-1925,-1281805556,1076007391];
+[-9,9223372036854775807];
+[-49301,-65535,-885912603,-62161,15526,-2033276177,255,-9223372036854775808,16];
+const o37 = {
+    "maxByteLength": 195,
+};
+const v39 = new ArrayBuffer(64, o37);
+try {
+    new Float64Array(v39);
+} catch(e42) {
+}

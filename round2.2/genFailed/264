@@ -1,0 +1,34 @@
+try {
+    new Int32Array(16);
+} catch(e3) {
+}
+try {
+    new Int16Array(4);
+} catch(e7) {
+}
+try {
+    new Float64Array(257);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    o(a14, a15, a16) {
+        Reflect.construct(Int32Array, [this,4,257], Int32Array);
+        return Int16Array;
+    }
+    #d = 4;
+    static #e;
+    [16];
+    static [Int32Array];
+}
+const v20 = new C12();
+new C12();
+new C12();
+const v26 = +2.220446049250313e-16;
+Math.pow(v26, Float64Array);
+!65535;
++2.220446049250313e-16;
+v26 >>> 65535;
+try {
+    v20.byteLength = 65535;
+} catch(e31) {
+}

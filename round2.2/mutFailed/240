@@ -1,0 +1,49 @@
+class C1 {
+    static #p() {
+        try {
+            this.#p(undefined);
+        } catch(e4) {
+        }
+        return this;
+    }
+    [undefined] = undefined;
+    #c;
+    static #d = undefined;
+}
+const v5 = new undefined();
+const v6 = new C1();
+const v7 = new C1();
+v7.undefined = v7;
+function f8(a9) {
+    const o25 = {
+        "h": C1,
+        "e": a9,
+        __proto__: a9,
+        "a": a9,
+        10: C1,
+        [v7](a11, a12) {
+            try {
+                new C1(64);
+            } catch(e16) {
+            }
+            try {
+                new Float64Array(16);
+            } catch(e20) {
+            }
+            try {
+                new Int32Array(2586);
+            } catch(e24) {
+            }
+            return v6;
+        },
+    };
+    o25.e;
+    return o25;
+}
+f8(v6);
+f8(C1);
+f8(v5)[10];
+new Map();
+const v33 = [0.7701751546226815,997125.4572624811,5.993688823759161e+307];
+v33[1];
+v33.shift();

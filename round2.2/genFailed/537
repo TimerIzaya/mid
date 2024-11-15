@@ -1,0 +1,22 @@
+try {
+    new Uint32Array(228);
+} catch(e3) {
+}
+try {
+    new Uint16Array(256);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(1000);
+} catch(e11) {
+}
+const v15 = [Uint32Array,"-4294967296","-4294967296"];
+const v16 = ["-4294967296",v15,1000,v15];
+const v17 = ["9007199254740991",256,1000];
+const v18 = ["9007199254740991",v15,Uint8ClampedArray,228];
+[v15,v17,"9007199254740991",Uint16Array,v18];
+[1000,256,Uint32Array,Uint32Array,"9007199254740991"];
+for (let i23 = 0, i24 = 10; i23 < i24; i23++, i24--) {
+    const v33 = [v16];
+    Reflect.apply(v18.findIndex, v16, v33);
+}

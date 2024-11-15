@@ -1,0 +1,42 @@
+try {
+    new BigUint64Array(2930);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(72);
+} catch(e7) {
+}
+try {
+    new Uint16Array(4);
+} catch(e11) {
+}
+function f12() {
+    return 2930;
+}
+class C13 extends BigUint64Array {
+    [BigInt64Array] = 72;
+    2147483647;
+    static d = f12;
+    static {
+        try {
+            f12();
+        } catch(e16) {
+        }
+        this / BigUint64Array;
+        this[4];
+    }
+}
+new C13();
+new C13();
+const v21 = new C13();
+try {
+    v21.length = 9;
+} catch(e23) {
+}
+const v24 = 9 + f12;
+const v25 = [f12];
+[[72,BigUint64Array,v25,v25],v24,Uint16Array];
+try {
+    f12();
+} catch(e29) {
+}

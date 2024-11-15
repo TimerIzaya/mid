@@ -1,0 +1,59 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = f0;
+    } catch(e3) {
+    }
+    try {
+        this.g = f0;
+    } catch(e4) {
+    }
+}
+const v5 = new F1();
+const v6 = new F1();
+const v7 = new F1();
+function f8(a9, a10) {
+    const o26 = {
+        [-2]: v5,
+        "f": v5,
+        "c": a10,
+        set d(a12) {
+            const v15 = Reflect.construct(a12, [a10,Reflect,a12,Reflect], F1);
+            Math.imul(f0, f0);
+            +f0;
+            !v15;
+            ~-536870912;
+            Math.log(-536870912);
+            -536870912 >> 10;
+        },
+    };
+    return o26;
+}
+f8(v6, v7);
+f8(v7, v6);
+let v29 = f8(v6, v6);
+try {
+    new Uint32Array(5);
+} catch(e33) {
+}
+try {
+    new Uint8Array(1000);
+} catch(e37) {
+}
+try {
+    new Uint32Array(7);
+} catch(e41) {
+}
+v29.d *= 7;
+try {
+    v6.length = 1;
+} catch(e46) {
+}
+const v50 = -1000000000000.0 & -1000000000000.0;
+++v29;
+let v52 = v50 + 128;
+~v50;
+-1000000000000.0 ^ v29;
+--v52;

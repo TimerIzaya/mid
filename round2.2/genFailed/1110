@@ -1,0 +1,41 @@
+try {
+    new Uint32Array(2936);
+} catch(e3) {
+}
+try {
+    new Int32Array(8);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    g;
+    #a = BigInt64Array;
+    c = Int32Array;
+    static get d() {
+        try {
+            Object.defineProperty(this, "g", { writable: true, configurable: true, value: this });
+            try {
+                this[7] = 8;
+            } catch(e14) {
+            }
+        } catch(e15) {
+            e15 || e15;
+        }
+        return Int32Array;
+    }
+}
+const v17 = new C12();
+new C12();
+new C12();
+v17["with"](8, "with");
+const o27 = {
+    "maxByteLength": 4096,
+};
+const v29 = new SharedArrayBuffer(14, o27);
+try {
+    new Uint16Array(v29);
+} catch(e32) {
+}

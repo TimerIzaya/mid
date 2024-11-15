@@ -1,0 +1,45 @@
+const v0 = [65536,-10826,13983,9223372036854775807];
+const v1 = [-781053183];
+[-1599378971,-4294967296,6,-1869226003];
+Object.defineProperty(Array, 185, { configurable: true, set: Array });
+try {
+    Array.isArray(undefined);
+} catch(e7) {
+}
+3 % 3;
+try { Reflect.get(v1, true); } catch (e) {}
+const v12 = [3];
+v12[0] = v12;
+const v13 = v12[0];
+const v14 = Reflect.construct(Array, v12, Array);
+try { v14.find(Reflect); } catch (e) {}
+let v16;
+try { v16 = v14.findLast(Array); } catch (e) {}
+const o17 = {
+    "apply": Array,
+    "call": Array,
+    "construct": Array,
+    "defineProperty": Array,
+    "deleteProperty": Array,
+    "get": Array,
+    "has": v1,
+    "ownKeys": v0,
+    "preventExtensions": Array,
+    "set": Array,
+    "setPrototypeOf": Array,
+};
+const v18 = o17?.apply;
+try { new v18(v13); } catch (e) {}
+try {
+    const v21 = new Proxy(v0, o17);
+    v21.d = v21;
+} catch(e22) {
+}
+const v23 = new Array(3);
+v23[0] = v16;
+try { v23.filter(Proxy); } catch (e) {}
+v23.e = 3;
+Set.toString = Array;
+const v30 = Set >> NaN;
+v30 % v30;
+new Set([NaN]);

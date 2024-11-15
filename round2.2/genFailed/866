@@ -1,0 +1,54 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 28284;
+    } catch(e3) {
+    }
+    try {
+        this.e = 28284;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = /foo[z]*/msuy;
+let v9 = /Shwe/gi;
+const v10 = /2(?:a{5,1000000}){3,1000000}/mgsuyi;
+function f11(a12, a13, a14, a15) {
+    const o28 = {
+        get g() {
+            v6 instanceof a13;
+            return v10;
+        },
+        [a12](a19, a20, a21, a22) {
+            try { a14(v9, a20, a12, a20, a19); } catch (e) {}
+            try {
+                a20.e = F0;
+            } catch(e24) {
+            }
+            try {
+                v8.exec("c");
+            } catch(e27) {
+            }
+            return a14;
+        },
+    };
+    return o28;
+}
+const v29 = f11(v6, v9, F0, v7);
+f11(v5, v7, v29, v6);
+f11(v5, v8, v8, v6);
+const v32 = [278.05488745200614,3.0,-2.301188478596501,0.562572374094978,-679.687149920333,1000000000000.0,-5.0,0.7406234793508711,1e-15];
+const v33 = [1e-15,-4.591944234868e+307];
+[2.353500762071365e+307,2.220446049250313e-16,-1.7976931348623157e+308,-Infinity,-5.672223924052071,0.9316931790092792,Infinity];
+try {
+    v33[F0] = v32;
+} catch(e35) {
+}
+try {
+    v9 = v8;
+} catch(e36) {
+}
+v29.g;
+typeof v6 === "string";

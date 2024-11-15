@@ -1,0 +1,58 @@
+const v3 = /[If\P{Decimal_Number}+]/muy;
+const v4 = /a|bc?/mgdui;
+const v5 = /a(?!b)*/vyi;
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a10;
+    } catch(e11) {
+    }
+}
+const v12 = new F6(v5, v3, v3);
+const v13 = new F6(v3, v4, v5);
+const v14 = new F6(v5, v5, v3);
+const v15 = [v3,v14,v14,v4,v4];
+const v16 = [v15,v3,v15,v14,v13];
+const v17 = [v12,v15,v15,v14];
+class C18 extends F6 {
+    static 2024 = v14;
+    static {
+        for (const v20 in this) {
+            const v23 = Symbol.iterator;
+            const o32 = {
+                [v23]() {
+                    let v25 = 10;
+                    const o31 = {
+                        next() {
+                            v25--;
+                            const v29 = v25 == 0;
+                            const o30 = {
+                                "done": v29,
+                                "value": v25,
+                            };
+                            return o30;
+                        },
+                    };
+                    return o31;
+                },
+            };
+        }
+    }
+}
+const v33 = new C18();
+new C18();
+const v35 = new C18();
+try { v16.indexOf(v33, v35); } catch (e) {}
+let {"f":v37,"g":v38,} = v14;
+function* f39(a40, a41, a42, a43) {
+    a42?.[v37];
+    const o45 = {
+    };
+    try {
+        new Proxy(v17, o45);
+    } catch(e48) {
+    }
+    yield a40;
+    return v37;
+}
+f39(v5, f39, -35687n, v38);

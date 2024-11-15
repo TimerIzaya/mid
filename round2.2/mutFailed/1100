@@ -1,0 +1,31 @@
+try {
+    new Float32Array(7);
+} catch(e3) {
+}
+try {
+    new Uint8Array(1073741824, Uint8Array);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(-7);
+} catch(e11) {
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a14;
+    } catch(e16) {
+    }
+    try {
+        this.h = -7;
+    } catch(e17) {
+    }
+    try {
+        this.e = a14;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(1073741824, 7);
+const v20 = new F12(7, 7, v19, BigUint64Array, -7);
+new F12(7, 1073741824, v20);
+("eE").normalize(BigUint64Array, -7);

@@ -1,0 +1,50 @@
+class C3 {
+    constructor(a5, a6) {
+        let v7;
+        try { v7 = a5(); } catch (e) {}
+        this[-1000000000000.0];
+        try {
+            super[a5] = v7;
+        } catch(e9) {
+        }
+    }
+    [-2];
+    static #f = "growable";
+    static #b = "13";
+}
+const v10 = new C3("13", "13");
+const v11 = new C3(v10, v10);
+const v12 = new C3(v11, -1000000000000.0);
+function f13() {
+    return v12;
+}
+function F14(a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a16;
+    } catch(e19) {
+    }
+    try {
+        this.g = a18;
+    } catch(e20) {
+    }
+    try {
+        this.h = a17;
+    } catch(e21) {
+    }
+}
+const v22 = new F14(C3, v12, C3);
+new F14(v22, v11, v22);
+const v24 = new F14("growable", v22, v12);
+Object.defineProperty("growable", "d", { configurable: true, enumerable: true, get: f13, set: f13 });
+function f25() {
+    return v24;
+}
+for (let i28 = 0, i29 = 10; i28 < i29; i28++, i29--) {
+    f25();
+    %PrepareFunctionForOptimization(f25);
+    f25();
+    f25();
+    %OptimizeFunctionOnNextCall(f25);
+    f25();
+}

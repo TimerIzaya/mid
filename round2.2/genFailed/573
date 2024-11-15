@@ -1,0 +1,23 @@
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 2147483649;
+    } catch(e12) {
+    }
+    try {
+        this.h = a9;
+    } catch(e13) {
+    }
+}
+const v14 = new F6(-128, 2147483649, -2147483647, -128);
+const v15 = new F6(v14, -51573, 2147483649, -34084);
+const v16 = new F6(F6, -51573, -2147483647, 2147483649);
+const v17 = [v15,-2147483647,v16];
+const v18 = [-51573,2147483649,v14];
+[F6,v18];
+const v20 = v18.__proto__;
+const v22 = [v18,F6,v16.a,-34084];
+[-34084];
+const v24 = [v20,v22,v14,-2147483647,-65537];
+try { v20(v24, v24, v17, v17, 2147483649); } catch (e) {}
+v18["toSorted"](v20);

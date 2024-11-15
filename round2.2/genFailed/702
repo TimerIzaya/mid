@@ -1,0 +1,30 @@
+[16,2147483647,1073741823,-5,2,-268435456,-5,65537,-268435456,-1131077636];
+const v1 = [62118,-51874,5,-9,-65537,-28824,8,-9007199254740991,-3];
+[20420,-256,24785,2,-1013230376,9];
+function f3() {
+    return v1;
+}
+try {
+    new BigInt64Array(2321);
+} catch(e10) {
+}
+try {
+    new Int32Array(830);
+} catch(e14) {
+}
+try {
+    new Int8Array(10);
+} catch(e18) {
+}
+for (let v19 = 0; v19 < 100; v19++) {
+    f3();
+}
+Object.defineProperty(v1, "length", { configurable: true, enumerable: true, get: f3, set: f3 });
+const o22 = {
+    __proto__: v1,
+    2355: Int8Array,
+};
+try {
+    o22.valueOf = f3;
+} catch(e23) {
+}

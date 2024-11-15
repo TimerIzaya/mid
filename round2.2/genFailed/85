@@ -1,0 +1,74 @@
+function f0() {
+    const o16 = {
+        4: -7,
+        "g": "isSealed",
+        __proto__: "1073741824",
+        set h(a5) {
+            let v9 = 5.0;
+            -1207406253 & a5;
+            const v11 = +-1207406253;
+            Math.random();
+            Math.tan(v11);
+            Math.pow(a5, v11);
+            --v9;
+        },
+    };
+    return o16;
+}
+const v17 = f0();
+const v18 = f0();
+const v19 = f0();
+try {
+    new Int16Array(6);
+} catch(e23) {
+}
+try {
+    new Int16Array(6);
+} catch(e27) {
+}
+try {
+    new Uint8Array(5);
+} catch(e31) {
+}
+class C32 {
+    constructor(a34, a35) {
+        Object.defineProperty(v17, 3, { configurable: true, get: f0, set: f0 });
+        const v36 = super.g;
+        const v37 = a35[this];
+        v36[268435439] %= v36;
+        v37.b -= 6;
+    }
+    d;
+    1284;
+    [Uint8Array];
+    static #p(a39, a40, a41, a42) {
+        try {
+            v19.c = a41;
+        } catch(e43) {
+        }
+        Object.defineProperty(v17, super.d, { enumerable: true, get: f0 });
+        try {
+            super[this] = a41;
+        } catch(e45) {
+        }
+        return a42;
+    }
+}
+new C32(v17, v17);
+new C32(v18, v19);
+const v48 = new C32(v19, v19);
+function f49() {
+    return v48;
+}
+let v50 = -54012;
+try {
+    f49();
+} catch(e54) {
+}
+const v57 = v50++;
+Math.min(13);
+Math.floor(v57);
+v57 ** v19;
+Math.cbrt(7);
+Math.hypot(v57);
+v50 ^ 13;

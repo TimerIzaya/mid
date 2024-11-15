@@ -1,0 +1,56 @@
+class C3 {
+    constructor(a5) {
+        let v6;
+        try { v6 = ("string").padEnd(a5, a5); } catch (e) {}
+        %VerifyType(v6);
+        try { ("string").trimLeft(); } catch (e) {}
+    }
+    static d = "string";
+    static 0;
+    get g() {
+        this.__proto__;
+        const o10 = {
+        };
+        try {
+            new Proxy(this, o10);
+        } catch(e13) {
+        }
+        return "string";
+    }
+}
+const v14 = new C3(782.8464042344585);
+const v15 = new C3(782.8464042344585);
+const v16 = new C3(v14);
+function f17() {
+    return v16;
+}
+class C18 extends f17 {
+    static set g(a20) {
+        this >= a20 ? this : a20;
+    }
+    static {
+        this && f17;
+        super.g &= 782.8464042344585;
+        v16["bigint"];
+    }
+    #f = v15;
+    static [v16] = v16;
+    static #c = "string";
+}
+const v27 = new C18();
+new C18();
+const v29 = new C18();
+for (let v33 = 0; v33 < 100; v33++) {
+    f17();
+}
+const v37 = ~v29;
+v27 ** v27;
+-v37;
+const o42 = {
+    "maxByteLength": 4096,
+};
+const v44 = new SharedArrayBuffer(16, o42);
+try {
+    new BigInt64Array(v44);
+} catch(e47) {
+}

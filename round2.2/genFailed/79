@@ -1,0 +1,66 @@
+try {
+    new BigInt64Array(512);
+} catch(e3) {
+}
+try {
+    new Uint8Array(128);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e11) {
+}
+function f13(a14, a15) {
+    const o27 = {
+        [a15]: Uint8Array,
+        "e": a14,
+        3: 128,
+        set h(a17) {
+            if (a17) {
+                let v20 = -1e-15;
+                const v21 = ++a17;
+                const v22 = v20--;
+                Math.clz32(v22);
+                Math.atan2(v21, v22);
+                Math.max(v21);
+            } else {
+                try {
+                    a15 = a14;
+                } catch(e26) {
+                }
+            }
+        },
+    };
+    return o27;
+}
+const v28 = f13(128, 512);
+const v29 = f13(128, 512);
+f13(128, 8);
+function f31() {
+    return Uint8Array;
+}
+class C32 extends f31 {
+    static 8 = f13;
+    [true];
+    static {
+        try {
+            this.__proto__ = v29;
+        } catch(e34) {
+        }
+        [v28,v29,[Uint8ClampedArray,[f13,Uint8Array,v29,f31,8]],v29];
+    }
+    static a = 512;
+    static [f31] = f31;
+}
+new C32();
+const v39 = new C32();
+new C32();
+let v42 = -2147483648;
+268435439 | v42;
+const v46 = --v42;
+const v47 = v39 + f31;
+%VerifyType(v46);
+try {
+    v29[1073741824] = v47;
+} catch(e48) {
+}

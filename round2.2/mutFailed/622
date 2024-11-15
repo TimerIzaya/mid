@@ -1,0 +1,67 @@
+function f0() {
+    const o11 = {
+        "g": -5.0,
+        "c": "undefined",
+        m(a5) {
+            const v7 = Symbol.toPrimitive;
+            const o10 = {
+                [v7]() {
+                    [] = "undefined";
+                    try {
+                        const t10 = "undefined";
+                        t10[97] = "undefined";
+                    } catch(e9) {
+                    }
+                    return "undefined";
+                },
+            };
+            return o10;
+        },
+    };
+    return o11;
+}
+class C12 {
+}
+const v13 = new C12();
+try {
+    const o15 = {
+    };
+    o15.g = v13;
+    o15.d = undefined;
+} catch(e16) {
+}
+const v17 = f0();
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new v17();
+const v23 = [5.0,511450.0065955655];
+const o31 = {
+    [v23](a25, a26, a27) {
+        var f = F18;
+    },
+    [F18](a29, a30) {
+    },
+};
+const v32 = f0();
+const v33 = f0();
+v33.e = v33;
+[v32,v32,v33,[[v33,f0,v33,v33],v32],v32];
+let v38 = 268435440n;
+v38--;
+const v45 = [-Infinity];
+const v46 = [-5.0,-2.0,-1.0];
+v46.push(v45);
+256 <= v46 ? 256 : v46;
+try { Uint16Array.bind(64n); } catch (e) {}
+Int8Array.length;
+const v54 = new Int8Array();
+function f55(a56, a57) {
+    const v59 = a56[3].fontcolor(Uint16Array);
+    try { v59.localeCompare(v54); } catch (e) {}
+    v54[v59];
+}
+const v63 = Symbol.toPrimitive;
+Symbol.for(v63.description);
+v54[v63] = f55;
+v54[8] = v54;

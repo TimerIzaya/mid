@@ -1,0 +1,75 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    const o10 = {
+    };
+    function f11() {
+        return a6;
+    }
+    with (o10) {
+        f = f11;
+    }
+}
+class C12 {
+    static #g;
+    static toString(a14) {
+        const v15 = C12[9];
+        const o16 = {
+        };
+        try {
+            o16.g = v15;
+        } catch(e17) {
+        }
+        try {
+            const o18 = {
+            };
+            o18.g = v15;
+            o18.c = v15;
+        } catch(e19) {
+        }
+        const v22 = Math.log10(991.6833873568894);
+        function f23(a24, a25, a26) {
+            return f23;
+        }
+        try {
+            function f27() {
+                ~-15;
+                +v22;
+                Math.sin();
+                Object.defineProperty("jTR", 1, { get: f27, set: f27 });
+                return "12";
+            }
+            const o77 = {
+            };
+            o77.g = v15;
+            o77.c = v15;
+            o77.e = v15;
+        } catch(e78) {
+        }
+        try {
+            const o79 = {
+            };
+            o79.g = v15;
+            o16.c = v15;
+            o79.b = a14;
+        } catch(e80) {
+        }
+        return this;
+    }
+}
+const v81 = new F3();
+new v81();
+new C12();
+new Set();
+class C86 {
+    static toString(a88, a89) {
+        this.length = 2;
+    }
+}
+try { C86.toString(); } catch (e) {}
+const o92 = {
+};
+const v93 = new F3(C86, o92);
+try { v93.toString(); } catch (e) {}
+class C99 extends WeakSet {
+}
+new C99();

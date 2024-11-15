@@ -1,0 +1,46 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -1867993434;
+    } catch(e3) {
+    }
+    try {
+        this.g = -1867993434;
+    } catch(e4) {
+    }
+    try {
+        this.c = -1867993434;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+let v7 = new F0();
+const v8 = new F0();
+class C9 extends F0 {
+    static 65535;
+    static 8;
+    constructor(a11) {
+        super();
+        let v12 = v7 | v7;
+        ({"c":v7,"g":v12,} = this);
+        for (let v13 = 0; v13 < 32; v13++) {
+            v7["p" + v13] = v13;
+        }
+    }
+    static #c = F0;
+}
+let v16 = new C9(C9);
+new C9(v8);
+new C9(v8);
+new Array(209);
+function f25(a26) {
+    return a26;
+}
+class C27 extends f25 {
+    static 133;
+    static d = "sort";
+}
+try {
+    v16 = v6;
+} catch(e28) {
+}

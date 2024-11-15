@@ -1,0 +1,54 @@
+function f3(a4) {
+    const o9 = {
+        [2147483648]: a4,
+        get f() {
+            const v6 = 2147483648 * a4;
+            try {
+                this.e = this;
+            } catch(e7) {
+            }
+            -2 - a4;
+            return v6;
+        },
+        __proto__: a4,
+        "f": a4,
+        "h": -2,
+        ...a4,
+    };
+    return o9;
+}
+f3(-2);
+const v11 = f3(-2);
+f3(-2);
+try {
+    new Uint8Array(64);
+} catch(e16) {
+}
+try {
+    new Int8Array(257);
+} catch(e20) {
+}
+try {
+    new Float32Array(3854);
+} catch(e24) {
+}
+const v26 = new WeakSet();
+const v28 = [v26];
+Reflect.apply(v26.has, v11, v28);
+v11.__proto__;
+try {
+    v26.h = 64;
+} catch(e32) {
+}
+try {
+    new Uint16Array(2940);
+} catch(e36) {
+}
+try {
+    new BigInt64Array(4096);
+} catch(e40) {
+}
+try {
+    new Uint16Array(1024);
+} catch(e44) {
+}

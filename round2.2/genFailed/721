@@ -1,0 +1,51 @@
+try {
+    new Uint32Array(128);
+} catch(e3) {
+}
+try {
+    new Int8Array(127);
+} catch(e7) {
+}
+let v9 = Int8Array;
+try {
+    new v9(9);
+} catch(e11) {
+}
+class C12 {
+    [v9];
+    536870889;
+    set e(a14) {
+        try {
+            v9 = a14;
+        } catch(e15) {
+        }
+    }
+    b;
+    10 = v9;
+    e = 9;
+}
+new C12();
+new C12();
+new C12();
+try {
+    new Int8Array(1935);
+} catch(e22) {
+}
+try {
+    new Float64Array(129);
+} catch(e26) {
+}
+try {
+    new Uint32Array(11);
+} catch(e30) {
+}
+v9 % 11;
+for (const v32 of v9) {
+    class C33 extends C12 {
+        #c = 1935;
+        e;
+    }
+    new C33();
+    new C33();
+    new C33();
+}

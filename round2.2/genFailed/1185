@@ -1,0 +1,66 @@
+try {
+    new Uint32Array(7);
+} catch(e3) {
+}
+try {
+    new Int32Array(7);
+} catch(e7) {
+}
+try {
+    new Int32Array(17);
+} catch(e11) {
+}
+class C15 extends Int32Array {
+    static o(a17, a18, a19) {
+        function f20() {
+            return "256";
+        }
+        super.length <<= a17;
+        try { new f20(...a17, 7, f20, ..."object", ...Int32Array, ...a18); } catch (e) {}
+        return 7;
+    }
+    static {
+        [Uint32Array,[this,this],"round",17];
+        [Int32Array];
+    }
+    3 = "round";
+    [7];
+}
+const v26 = new C15();
+const v27 = new C15();
+const v28 = new C15();
+new Uint32Array(C15, 7);
+try { Int32Array(v26, 17); } catch (e) {}
+try {
+    v27[14] = Int32Array;
+} catch(e34) {
+}
+const o35 = {
+};
+try {
+    o35.a = C15;
+} catch(e36) {
+}
+try {
+    const o37 = {
+    };
+    o37.a = C15;
+    o37.h = v28;
+} catch(e38) {
+}
+try {
+    const o39 = {
+    };
+    o39.a = C15;
+    o39.h = v28;
+    o39.e = "round";
+} catch(e40) {
+}
+try {
+    const o41 = {
+    };
+    o41.a = C15;
+    o41.h = v28;
+    o41.e = "256";
+} catch(e42) {
+}

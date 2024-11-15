@@ -1,0 +1,40 @@
+try {
+    new BigUint64Array(256);
+} catch(e6) {
+}
+try {
+    new Int8Array(256);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(64);
+} catch(e14) {
+}
+function f16(a17, a18, a19) {
+    const o31 = {
+        "e": 16,
+        valueOf(a21, a22, a23, a24) {
+            this.e;
+            try { this.includes(); } catch (e) {}
+            try {
+                new BigUint64Array(a18, 16, -2412);
+            } catch(e30) {
+            }
+            return a17;
+        },
+    };
+    return o31;
+}
+const v32 = f16(16, 536870888, 256);
+f16(536870888, 64, 536870888);
+const v34 = f16(256, 64, 536870888);
+v32[-1];
+class C36 extends Int8Array {
+    static #d;
+    [536870888];
+    1;
+    [v34];
+}
+new C36();
+new C36();
+new C36();

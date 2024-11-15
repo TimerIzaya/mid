@@ -1,0 +1,40 @@
+let v1 = -794113989;
+let v2 = "-5";
+class C3 {
+    p(a5) {
+        ({"b":a5,"f":v1,} = a5);
+        Object.defineProperty(v2, "b", { configurable: true, value: a5 });
+        try {
+            v2 += a5;
+        } catch(e6) {
+        }
+        return v1;
+    }
+    static 255;
+    static [v2] = v2;
+    #a = C3;
+    static 1024 = v1;
+}
+new C3();
+new C3();
+new C3();
+class C13 extends C3 {
+    #valueOf(a15, a16, a17, a18) {
+        const v19 = a18[5];
+        try {
+            v19.__proto__ = C3;
+        } catch(e20) {
+        }
+        Math.abs(a15);
+        a15--;
+        a15 | 49677;
+        return a16;
+    }
+}
+const v28 = new C13();
+new v28();
+new C13();
+const v31 = [-2.2250738585072014e-308,1.5867612318974208e+308,-1.5401430863213223e+308,-66487.31988072337,-8.274702295136258,-3.0,1000000.0];
+const v32 = [0.0,1000000000000.0,5.871102751589657,-2.0,-2.2250738585072014e-308,-311.5750106328277,1.0];
+v31.__proto__ = Reflect;
+v31.f = v32;

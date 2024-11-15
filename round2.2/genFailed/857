@@ -1,0 +1,49 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -4294967295;
+    } catch(e3) {
+    }
+}
+new F0();
+const v5 = new F0();
+const v6 = new F0();
+function f7(a8) {
+    const o13 = {
+        [v6]: a8,
+        [v5](a10) {
+            try {
+                new F0();
+            } catch(e12) {
+            }
+            return a10;
+        },
+        3247: a8,
+        "h": F0,
+    };
+    return o13;
+}
+f7(v6);
+const v15 = f7(f7);
+f7(v15);
+try {
+    new BigUint64Array(164);
+} catch(e20) {
+}
+try {
+    new Int16Array(257);
+} catch(e24) {
+}
+try {
+    new Int8Array(0);
+} catch(e28) {
+}
+const v29 = [43795,65536,-9223372036854775808,-13,8,1073741823,-9007199254740991,2147483649,8,268435439];
+[-6220,32729,10];
+[-1024,536870888,-13,1089815723];
+v29[1];
+new BigUint64Array(v29, 257, 164);
+try {
+    new Int16Array(v15);
+} catch(e35) {
+}

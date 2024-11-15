@@ -1,0 +1,50 @@
+const v0 = [10];
+const v1 = [10,54096];
+const v2 = [-1073741824,-54364,536870889,8,1583776240];
+const v4 = new Map();
+try {
+    new Int8Array(542);
+} catch(e8) {
+}
+try {
+    new Int32Array(11);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(2730);
+} catch(e16) {
+}
+function f17(a18, a19) {
+    const o26 = {
+        "f": v4,
+        "a": a18,
+        1073741824: BigInt64Array,
+        set d(a21) {
+            Object.defineProperty(v4, "c", { value: a21 });
+            a18 != a19;
+            a21.c /= 2730;
+            let {"c":v23,"e":v24,"size":v25,} = v4;
+        },
+        ...v1,
+        ...v0,
+        "d": v1,
+        "h": v2,
+        __proto__: v2,
+        ...v4,
+    };
+    return o26;
+}
+f17(v0, 542);
+const v28 = f17(v0, 542);
+const v29 = f17(v1, 542);
+const v30 = /(^Cx39)/mgsdu;
+/(ab)\1/v;
+/90*/gdi;
+for (let [v33] of v2) {
+    v30 << v4;
+    %VerifyType(v29);
+    try {
+        v28.fuck(v28, v33, Int32Array);
+    } catch(e36) {
+    }
+}

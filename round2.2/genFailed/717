@@ -1,0 +1,38 @@
+try {
+    new Uint16Array(1);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(158);
+} catch(e13) {
+}
+try {
+    new Float64Array(997);
+} catch(e17) {
+}
+function f18() {
+    return Float64Array;
+}
+try {
+    new Uint16Array(327);
+} catch(e22) {
+}
+try {
+    new Uint8ClampedArray(9);
+} catch(e26) {
+}
+try {
+    new BigUint64Array(64);
+} catch(e30) {
+}
+const o31 = {
+    [-65149316]: 8,
+    ...997,
+};
+for (const v32 of BigInt64Array) {
+    327 instanceof BigInt64Array;
+    try {
+        v32.length = 0;
+    } catch(e35) {
+    }
+}

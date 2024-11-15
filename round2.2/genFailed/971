@@ -1,0 +1,32 @@
+try {
+    new Uint16Array(8);
+} catch(e3) {
+}
+try {
+    new Uint8Array(4096);
+} catch(e7) {
+}
+try {
+    new Int32Array(116);
+} catch(e11) {
+}
+const v13 = [8,[Uint8Array,116,Uint16Array,Uint16Array]];
+[v13];
+[10,-1210163723,-44987,33005,989893278,16,4294967296];
+[536870912,-287458555,-1430978414,17973,5,-9007199254740991,1798950178,-28691,5,-4294967295];
+const v17 = [48432,1406178381,-1691591138,-2147483648,1707850160,1037391857,1550589366,-2];
+try { v17.every(Int32Array); } catch (e) {}
+class C19 extends Int32Array {
+    [8];
+    static 138 = Uint8Array;
+}
+new C19();
+const v21 = new C19();
+new C19();
+let v24 = 47186;
+Math.hypot(v24);
+v24 ** 10;
+v24 + v13;
+~4096;
+v21 | 10;
+Math.atan2(v21, v24--);

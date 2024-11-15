@@ -1,0 +1,110 @@
+function f0() {
+    const o15 = {
+        ...7,
+        256: 13249,
+        ...13249,
+        "a": 7,
+        "g": 13249,
+        "c": 7,
+        "d": 7,
+        ...13249,
+        set f(a5) {
+            try {
+                this.toString = a5;
+            } catch(e6) {
+            }
+            function F7(a9, a10) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = 2147483649;
+                } catch(e11) {
+                }
+            }
+            new F7(7, 7);
+            new F7(13249, 2147483649);
+            new F7(a5, 2147483649);
+        },
+    };
+    return o15;
+}
+const v16 = f0();
+const v17 = f0();
+let v18 = f0();
+function f19(a20, a21) {
+    const o35 = {
+        "c": a20,
+        "f": v18,
+        "e": v18,
+        4: v16,
+        "g": v16,
+        __proto__: v18,
+        "b": f0,
+        "d": v17,
+        p(a23, a24) {
+            try {
+                a23.valueOf = a20;
+            } catch(e25) {
+            }
+            let {"d":v27,} = a21;
+            const v31 = v18++;
+            Math.log10(v18);
+            -56776 ^ v31;
+            Math.acosh(v18);
+            return f0;
+        },
+    };
+    return o35;
+}
+const v36 = f19(f19, v18);
+const v37 = f19(v16, v17);
+const v38 = f19(v16, v17);
+const v39 = /B2/mgsui;
+const v40 = /[Lwma\Bb]/msv;
+const v41 = /a$p/gyi;
+class C42 {
+    static {
+        let v43 = this;
+        v43 === v43;
+        const v45 = --v43;
+        try {
+            v36.e = v45;
+        } catch(e46) {
+        }
+    }
+    static #p(a48, a49) {
+        try {
+            super.o(v16, a48, v37);
+        } catch(e51) {
+        }
+        return v37;
+    }
+}
+new C42();
+new C42();
+new C42();
+const v55 = `
+    try {
+        v40[v36] = v17;
+    } catch(e56) {
+    }
+`;
+eval(v55);
+try { v16.get(f19, v39); } catch (e) {}
+function F60(a62, a63) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a63;
+    } catch(e64) {
+    }
+    try {
+        this.e = v17;
+    } catch(e65) {
+    }
+    try {
+        this.d = v55;
+    } catch(e66) {
+    }
+}
+new F60(v38, v40);
+new F60(v17, v18);
+new F60(C42, v41);

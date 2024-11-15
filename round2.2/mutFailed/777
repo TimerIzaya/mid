@@ -1,0 +1,102 @@
+class C6 {
+    #p(a8, a9, a10) {
+        const v11 = a10?.[9];
+        function F12(a14, a15, a16) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = v11;
+            } catch(e17) {
+            }
+        }
+        new F12(-1, a9, -9223372036854775807);
+        new F12(a10, 2.0, -962376046);
+        new F12(-9223372036854775807, a9, -962376046);
+        return -962376046;
+    }
+    static #b;
+    static #f = 2.0;
+}
+new C6();
+new C6();
+new C6();
+try {
+    const v26 = new Uint32Array(16);
+    const v27 = v26?.toString;
+    try { new v27(); } catch (e) {}
+} catch(e29) {
+}
+Uint32Array.name = Uint32Array;
+try {
+    new Uint32Array(1713);
+} catch(e33) {
+}
+try {
+    new Float32Array(3);
+} catch(e37) {
+}
+function f38() {
+}
+const v39 = [-1,-9223372036854775807,10000,226876034,-2019549079,16199];
+let v40 = [-65535,13];
+for (let v41 = 0; v41 < 57; v41++) {
+    ({"c":v41,"e":f38,"length":v40,} = v39);
+}
+const v42 = [676166339,12,129,9,-7,128,5,-1024,-2147483649,7];
+try { v42.pop(); } catch (e) {}
+4 ^ 4;
+try { new Uint8Array(-179990.8869666924, -1.4829091613155225e+308, -1.4829091613155225e+308); } catch (e) {}
+try {
+    new Uint8Array(242);
+    Worker.length;
+    const v58 = Symbol.iterator;
+    Symbol.for(v58.description);
+    const o69 = {
+        [v58]() {
+            let v63 = 10;
+            const o68 = {
+                next() {
+                    v63--;
+                    const o67 = {
+                    };
+                    return o67;
+                },
+            };
+            return -179990.8869666924;
+        },
+    };
+    o69.h = o69;
+} catch(e70) {
+}
+try {
+} catch(e71) {
+}
+function f72() {
+    const o73 = {
+    };
+    o73.c = o73;
+    return o73;
+}
+const v74 = f72();
+const v75 = [-1.1001958026409064e+308,1.0,1000.0,-8.595874110189621,0.65085784464364,1000.0,719374.0663061251,0.0,NaN];
+const v76 = [1000000000000.0,-1000000000.0,-761340.8901113225,5.0,0.6604209586114759,247.06468907365343];
+const v78 = new Set();
+try { v78.forEach(f38); } catch (e) {}
+let v80 = -1e-15;
+v80--;
+-(v80 & v80);
+class C84 {
+    constructor(a86, a87, a88) {
+        a86.c = a86;
+        a87.length;
+        const v90 = this?.constructor;
+        try { new v90(a86, this, v76); } catch (e) {}
+        a86.g = this;
+        const v92 = a88?.constructor;
+        try { new v92(); } catch (e) {}
+        try { a86.slice(v90); } catch (e) {}
+        try { v76.reduce(a88); } catch (e) {}
+    }
+}
+C84.name = C84;
+new C84(v74, C84, v78);
+new C84(v75);

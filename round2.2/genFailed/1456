@@ -1,0 +1,23 @@
+const v1 = new Set();
+try {
+    new Uint8Array(1358);
+} catch(e5) {
+}
+try {
+    new Uint8Array(1024);
+} catch(e9) {
+}
+try {
+    new Uint16Array(2866);
+} catch(e13) {
+}
+const v15 = [1024,[v1,2866,2866,2866,Uint8Array]];
+const v16 = [Uint16Array,1358,Uint8Array,Uint8Array];
+let v17;
+try { v17 = v15(2866, v16, 2866); } catch (e) {}
+if (v16 != 1358) {
+    v16["map"](v17);
+} else {
+    const v22 = [1358,2866];
+    Reflect.apply(v15.indexOf, v17, v22);
+}

@@ -1,0 +1,71 @@
+function f0() {
+    let v1 = "o";
+    let v2 = -65536;
+    const o15 = {
+        [v1]: 0.11544078151940507,
+        __proto__: v1,
+        ...v1,
+        "e": v2,
+        ...v1,
+        get c() {
+            ({"c":v2,"e":v1,"h":v1,} = this);
+            %VerifyType(this);
+            const o7 = {
+            };
+            try {
+                o7.g = e;
+            } catch(e8) {
+            }
+            try {
+                const o9 = {
+                };
+                o9.g = e;
+                o9.d = 0.11544078151940507;
+            } catch(e10) {
+            }
+            try {
+                const o11 = {
+                };
+                o11.g = e;
+                o11.d = 0.11544078151940507;
+                o11.c = new.target;
+            } catch(e12) {
+            }
+            try {
+                const o13 = {
+                };
+                o13.g = e;
+                o13.d = 0.11544078151940507;
+                o13.f = new.target;
+            } catch(e14) {
+            }
+            return 0.11544078151940507;
+        },
+    };
+    return o15;
+}
+f0();
+f0();
+f0();
+try {
+    new BigInt64Array(257);
+} catch(e25) {
+}
+try {
+    new Float32Array(10);
+} catch(e29) {
+}
+try {
+    new BigInt64Array(127);
+} catch(e33) {
+}
+f0 * 6760n;
+class C35 extends f0 {
+    7;
+    static #d;
+    a = 257;
+}
+new C35();
+new C35();
+new C35();
+Object.defineProperty(C35, 127, { configurable: true, get: f0 });

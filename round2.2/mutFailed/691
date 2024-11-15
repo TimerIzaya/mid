@@ -1,0 +1,87 @@
+function f4() {
+    return false;
+}
+-Infinity;
+class C14 {
+    10;
+    static #e;
+    static h;
+    ["-268435456"] = false;
+    static 16;
+    static #b;
+    constructor(a16, a17) {
+        this.toString = f4;
+        class C18 {
+            static #e = "length";
+            7 = this;
+        }
+        new C18();
+        new C18();
+        new C18();
+        function F22() {
+            if (!new.target) { throw 'must be called with new'; }
+        }
+        const v25 = new F22();
+        const v26 = new F22();
+        v25[3] = -4294967297;
+        function f30() {
+            try { arguments(arguments, arguments, v26); } catch (e) {}
+            F22();
+            return arguments;
+        }
+    }
+    static set h(a35) {
+        const t33 = "length";
+        t33.length >>= 1.0;
+        try {
+            super.b = a35;
+        } catch(e36) {
+        }
+    }
+}
+const v37 = new C14(1.0, -9223372036854775807);
+const v38 = new C14(v37, v37);
+let v39 = new C14(v38, v38);
+v39[Symbol.toPrimitive] = f4;
+const v42 = [1.0,1.0];
+const v43 = [v42,1.0,1.0,v39];
+v43.toString = Symbol;
+const v44 = [1.0,"length",v42];
+new Map();
+new WeakSet();
+function f49(a50, a51) {
+    function f52() {
+        return f49;
+    }
+    Object.defineProperty(a50, "toString", { writable: true, configurable: true, enumerable: true, get: f52 });
+    function f53() {
+        return Symbol;
+    }
+    Object.defineProperty(a51, "toString", { writable: true, configurable: true, enumerable: true, get: f53 });
+    const o58 = {
+        ...a51,
+        get b() {
+            return a50;
+        },
+        "d": C14,
+        "g": WeakSet,
+        "b": a50,
+        0: v39,
+        7: v37,
+        __proto__: a51,
+        [a50]: -9223372036854775807,
+        "c": v38,
+    };
+    return o58;
+}
+f49(v43, f49(v44, v38));
+f49(v38, v39);
+for (let i63 = -1623297126; i63 < -9223372036854775807; i63++) {
+    try {
+        v39 = v37;
+    } catch(e69) {
+    }
+    for (let v70 = 0; v70 < 100; v70++) {
+        f49(v43, v37);
+    }
+}

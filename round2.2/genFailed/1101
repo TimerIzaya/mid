@@ -1,0 +1,46 @@
+function f3(a4, a5) {
+    const o16 = {
+        __proto__: a5,
+        ...a5,
+        92: a5,
+        [4n]: 4n,
+        get a() {
+            this[-256n];
+            const v8 = (a9, a10, a11, a12) => {
+                %VerifyType(4n);
+                return "object";
+            };
+            return 4n;
+        },
+    };
+    return o16;
+}
+f3(-15052n, -256n);
+f3(-256n, -15052n);
+let v19 = f3(-15052n, -256n);
+function f20() {
+    return -256n;
+}
+try {
+    new Int16Array(512);
+} catch(e24) {
+}
+try {
+    new Uint16Array(128);
+} catch(e28) {
+}
+try {
+    new Uint8Array(3);
+} catch(e32) {
+}
+let v34 = -2093070116;
+const v36 = (-15052n) ** -1;
+Math.sign(v34);
+Math.tan(v34);
+-1 | v36;
+Math.sinh(-15052n);
+v34++;
+Math.log1p(v19);
+Uint16Array ^ Uint16Array;
+++v19;
+!1;

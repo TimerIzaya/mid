@@ -1,0 +1,66 @@
+let v1 = -7.903089673616625;
+class C3 {
+    constructor(a5, a6) {
+        try {
+            v1 = a6;
+        } catch(e7) {
+            function F8(a10, a11, a12, a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.a = a10;
+            }
+            function F14(a16, a17) {
+                if (!new.target) { throw 'must be called with new'; }
+            }
+            const v18 = new F14(F8, F14);
+            class C19 extends C3 {
+                #e;
+                1024 = v18;
+            }
+            new C19();
+        }
+        function F21(a23, a24, a25) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = "object";
+            } catch(e26) {
+            }
+        }
+        const v27 = new F21(a6, v1, "object");
+        new F21(8, a6, a5);
+        new F21(v27, a6, v1);
+    }
+}
+new C3(v1, v1);
+const v31 = new C3(C3, v1);
+new C3(8, v31);
+try {
+    new Int8Array(3927);
+} catch(e36) {
+}
+try {
+    new v1(0);
+} catch(e40) {
+}
+122 < 3927;
+const o50 = {
+    [1.7976931348623157e+308]: 1.7976931348623157e+308,
+    8: "E",
+    [10000](a48, a49) {
+    },
+};
+try {
+    new Uint16Array(10000);
+} catch(e52) {
+}
+function F56() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v58 = new F56();
+const v59 = new F56();
+const v60 = new v1();
+function F61(a63, a64, a65) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v66 = F61 !== v58;
+try { v60(v58, ...v66, v59); } catch (e) {}
+Promise.prototype;

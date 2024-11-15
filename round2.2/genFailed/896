@@ -1,0 +1,22 @@
+try {
+    new Uint8ClampedArray(4096);
+} catch(e3) {
+}
+try {
+    new Int16Array(3);
+} catch(e7) {
+}
+try {
+    new Int16Array(4062);
+} catch(e11) {
+}
+function f12() {
+    return 4062;
+}
+[Int16Array,[null,Int16Array,null,null,Uint8ClampedArray],Int16Array,Int16Array];
+([257n,3,3,0n])["with"](4062, null);
+const o25 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o25);

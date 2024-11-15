@@ -1,0 +1,58 @@
+function f3(a4, a5) {
+    const o11 = {
+        __proto__: a4,
+        p(a7, a8) {
+            try {
+                a8.length = 5;
+            } catch(e10) {
+            }
+            return a7;
+        },
+        "c": a5,
+        "b": 42151n,
+        "d": 2147483647n,
+        4: 44581n,
+        14: 42151n,
+        [-1]: a4,
+    };
+    return o11;
+}
+const v12 = f3(2147483647n, 44581n);
+f3(44581n, 42151n);
+const v14 = f3(f3, 2147483647n);
+const v16 = new WeakSet();
+class C17 {
+    [42151n] = 42151n;
+    static d;
+    #f = v14;
+    static 268435440;
+    e;
+    #n(a19, a20) {
+        WeakSet << this;
+        try {
+            new f3(true, 44581n);
+        } catch(e24) {
+        }
+        return this;
+    }
+    127;
+}
+new C17();
+new C17();
+const v27 = new C17();
+function f31(a32) {
+    function f34(a35) {
+        try {
+            a35 = v16;
+        } catch(e36) {
+        }
+    }
+    this.onmessage = f34;
+    v12["p"]();
+}
+const v41 = [v27];
+const o42 = {
+    "arguments": v41,
+    "type": "function",
+};
+new Worker(f31, o42);

@@ -1,0 +1,61 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -57277;
+    } catch(e3) {
+    }
+    try {
+        this.f = -57277;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+let v7 = new F0();
+class C11 {
+    static set e(a13) {
+        %VerifyType(this);
+        this[16];
+        try {
+            v6.__proto__ = a13;
+        } catch(e15) {
+        }
+    }
+    constructor(a17, a18, a19, a20) {
+        try {
+            v7 |= this;
+        } catch(e21) {
+        }
+        try { F0(); } catch (e) {}
+        try {
+            a20 %= v6;
+        } catch(e23) {
+        }
+    }
+}
+const v24 = new C11(-25099, -25099, v7, v5);
+const v25 = new C11(16, -25099, v24, v5);
+const v26 = new C11(1200, v7, v25, v24);
+try {
+    new Uint8Array(128);
+} catch(e30) {
+}
+try {
+    new Uint32Array(139);
+} catch(e34) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e38) {
+}
+const v40 = new WeakMap();
+1200 >> v40;
+let v42;
+try { v42 = v26(v7, v25, 139); } catch (e) {}
+for (const v43 of v42) {
+    try { v43(v43, v43, v43, v43); } catch (e) {}
+    try {
+        v24.fuck([16,-25099,128,v26,v43], -23819, 8, v42);
+    } catch(e49) {
+    }
+}

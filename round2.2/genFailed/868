@@ -1,0 +1,35 @@
+class C6 {
+    constructor(a8, a9) {
+        for (let v10 = 0; v10 < 33; v10++) {
+            g = this;
+            try {
+                this.__proto__ = this;
+            } catch(e11) {
+            }
+        }
+    }
+    static 1394289727 = 536870887;
+}
+const v12 = new C6(-34448, 65537n);
+const v13 = new C6(-1, 6n);
+new C6(-34448, 65537n);
+v12[65537n] += -34448;
+try {
+    v12.e = -34448;
+} catch(e15) {
+}
+const v19 = v13.__proto__;
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v13;
+    } catch(e25) {
+    }
+    try {
+        this.h = C6;
+    } catch(e26) {
+    }
+}
+new F20(65537n, -37015, v19);
+new F20(268435441n, -1, 536870887);
+new F20(268435441n, -34448, -34448);

@@ -1,0 +1,45 @@
+class C3 {
+    get c() {
+        const v6 = super.d;
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a9;
+            } catch(e11) {
+            }
+        }
+        const v12 = new F7(F7, v6);
+        const v13 = new F7(49058n, -9007199254740991n);
+        new F7(v13, b);
+        return v12;
+    }
+    #d = -9007199254740991n;
+}
+new C3();
+new C3();
+new C3();
+typeof 2147483649n === "bigint";
+function f30(a31, a32) {
+    function f34(a35) {
+        new C3();
+    }
+    this.onmessage = f34;
+    try {
+        new Int8Array(78);
+    } catch(e41) {
+    }
+    try {
+        new Int16Array(3661);
+    } catch(e45) {
+    }
+    try {
+        new Int8Array(2535);
+    } catch(e49) {
+    }
+}
+const v52 = [49058n,"bigint"];
+const o53 = {
+    "arguments": v52,
+    "type": "function",
+};
+new Worker(f30, o53);

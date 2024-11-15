@@ -1,0 +1,57 @@
+let v1 = Uint16Array;
+try {
+    new v1(64);
+} catch(e3) {
+}
+let v5 = Int16Array;
+try {
+    new v5(3);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(7);
+} catch(e11) {
+}
+class C12 {
+    set h(a14) {
+        ({"d":v1,"e":v5,} = a14);
+        try { new v5(3, v5, 3); } catch (e) {}
+        try {
+            super[a14] = v1;
+        } catch(e16) {
+        }
+    }
+    set e(a18) {
+        super[7];
+    }
+    static #d;
+    static 2 = 64;
+    static 2147483649;
+}
+new C12();
+const v21 = new C12();
+new C12();
+class C26 extends BigUint64Array {
+    #e = BigUint64Array;
+    [3] = BigUint64Array;
+    static #m(a28, a29) {
+        let v30 = 10;
+        for (; v30--;) {
+            64 || 1000.0;
+            try {
+                a28.e = a29;
+            } catch(e33) {
+            }
+        }
+        return v1;
+    }
+}
+new C26();
+new C26();
+new C26();
+v21.h |= -1e-15;
+C12[120];
+%VerifyType(C26);
+Math.hypot(5);
+~(-2.366793728055951 % -2.366793728055951);
+-3;

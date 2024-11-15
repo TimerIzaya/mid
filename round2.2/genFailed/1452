@@ -1,0 +1,57 @@
+let v0 = 16;
+class C3 {
+    static get b() {
+        try {
+            this.f = this;
+        } catch(e5) {
+        }
+        return this;
+    }
+    static m(a7, a8) {
+        if (512 == 2147483647) {
+        } else {
+            try {
+                super.d = v0;
+            } catch(e13) {
+            }
+        }
+        return a7;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+try {
+    new Int8Array(5);
+} catch(e20) {
+}
+try {
+    new Float32Array(0);
+} catch(e24) {
+}
+try {
+    new Uint8Array(879);
+} catch(e28) {
+}
+function F29(a31, a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a33;
+    } catch(e35) {
+    }
+    try {
+        this.d = a31;
+    } catch(e36) {
+    }
+}
+const v37 = new F29(v0, F29, C3, v14);
+const v38 = new F29(879, v37, v16, v16);
+new F29(512, C3, v38, v15);
+v15 instanceof F29;
+for (const v41 of v38) {
+    try {
+        v0 = 0;
+    } catch(e42) {
+    }
+}
+!Int8Array;

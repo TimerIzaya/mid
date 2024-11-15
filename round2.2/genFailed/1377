@@ -1,0 +1,38 @@
+try {
+    new Int32Array(257);
+} catch(e3) {
+}
+try {
+    new Int32Array(1004);
+} catch(e7) {
+}
+try {
+    new Int32Array(31);
+} catch(e11) {
+}
+class C18 extends Int32Array {
+    [257] = -268435456;
+    toString(a20, a21, a22) {
+        const o25 = {
+            "maxByteLength": 4010,
+        };
+        const v27 = new ArrayBuffer(2609, o25);
+        try {
+            new DataView(v27);
+        } catch(e30) {
+        }
+        return Int32Array;
+    }
+}
+new C18();
+const v32 = new C18();
+new C18();
+v32.__proto__;
+class C35 {
+    static 4294967295;
+    static [31] = C18;
+}
+new C35();
+new C35();
+const v38 = new C35();
+v38[v38];

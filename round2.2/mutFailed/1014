@@ -1,0 +1,31 @@
+try {
+    new Uint32Array(629);
+} catch(e3) {
+}
+try {
+    new Uint8Array(244);
+} catch(e7) {
+}
+try {
+    new SharedArrayBuffer(1024);
+} catch(e11) {
+}
+class C15 extends Uint8Array {
+    [1024];
+    constructor(a17, a18, a19, a20) {
+        super(a19, a17, a19);
+        try { a20.toString(); } catch (e) {}
+        try {
+            super[244] = 1073741824;
+        } catch(e22) {
+        }
+        super.with(1073741824, a18);
+    }
+    static d;
+    static 4294967296;
+    #b;
+}
+const v24 = new C15(1024, 1024, -1, -1);
+const v25 = new C15(Uint8Array, 1073741824, 244, v24);
+new C15(Uint32Array, 1073741824, -1, v25);
+([-1.7976931348623157e+308,9.597177405377032,5.259806756559104e+307,-3.324819306076543e+307,0.22923957795811323,95.18512747676141])["sort"](Array);

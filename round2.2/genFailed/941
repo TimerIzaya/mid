@@ -1,0 +1,77 @@
+const v0 = [-3.886288581943236e+307,-1e-15,-6.884490640975194];
+const v1 = [-1000000.0,-809.3230092126888,-4.0,-9.582603708923468];
+const v2 = [-6.046297605976719e+307,1000.0,-4.139838977147234,-5.0,-12344.065293429885,353736.536752352,-3.6083635990380163];
+try {
+    new Uint8Array(7);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(4096);
+} catch(e10) {
+}
+try {
+    new Uint16Array(9);
+} catch(e14) {
+}
+class C15 {
+    static #o(a17, a18, a19) {
+        try {
+            new Uint8Array(v1);
+        } catch(e21) {
+        }
+        return 9;
+    }
+    set h(a23) {
+        this > a23;
+        try {
+            a23 = Uint8Array;
+        } catch(e25) {
+        }
+        a23 - v1;
+    }
+}
+const v27 = new C15();
+const v28 = new C15();
+const v29 = new C15();
+function f30(a31, a32, a33, a34) {
+    const o37 = {
+        get c() {
+            try {
+                a33 = v2;
+            } catch(e36) {
+            }
+            return v1;
+        },
+        "f": v2,
+        [C15]: v28,
+        "c": v29,
+        [v27]: v2,
+        __proto__: a33,
+        "a": v28,
+        "b": a34,
+    };
+    return o37;
+}
+f30(Uint16Array, v27, v27, v29);
+f30(v28, C15, v0, v28);
+const v40 = f30(7, v29, BigInt64Array, v29);
+Uint8Array / BigInt64Array;
+v40 ^ 4096;
+const v44 = Symbol.iterator;
+const o53 = {
+    [v44]() {
+        let v46 = 10;
+        const o52 = {
+            next() {
+                v46--;
+                const v50 = v46 == 0;
+                const o51 = {
+                    "done": v50,
+                    "value": v46,
+                };
+                return o51;
+            },
+        };
+        return o52;
+    },
+};

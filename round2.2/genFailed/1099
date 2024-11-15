@@ -1,0 +1,51 @@
+let v1 = 2147483647n;
+const v4 = [false];
+const v5 = [0n,v4];
+const v6 = [0n,0n,0n];
+const v7 = [-13,1513318675,64,458227448,43162,4096,6,-4,-4096];
+const v8 = [-9,268435439];
+const v9 = [1073741825,-13,-6,64,13,536870889,255,4,12];
+function f10(a11, a12) {
+    const o29 = {
+        get b() {
+            try {
+                v7.toString = a12;
+            } catch(e14) {
+            }
+            return v8;
+        },
+        set b(a16) {
+            let v17;
+            try { v17 = a16.m(a16, v9, a11); } catch (e) {}
+            v5[9] = v17;
+            const v19 = Symbol.iterator;
+            const o28 = {
+                [v19]() {
+                    let v21 = 10;
+                    const o27 = {
+                        next() {
+                            v21--;
+                            const v25 = v21 == 0;
+                            const o26 = {
+                                "done": v25,
+                                "value": v21,
+                            };
+                            return o26;
+                        },
+                    };
+                    return o27;
+                },
+            };
+        },
+    };
+    return o29;
+}
+f10(v6, f10(v7, f10));
+[[v5,0n,v8,f10(v8, v7)]];
+[v1];
+new Set();
+Reflect.construct(Set, [v4], f10);
+try {
+    v1 >>= v1;
+} catch(e41) {
+}

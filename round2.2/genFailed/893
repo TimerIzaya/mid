@@ -1,0 +1,40 @@
+try {
+    new BigInt64Array(255);
+} catch(e3) {
+}
+let v4 = 1;
+try {
+    new Uint8Array(v4);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    constructor(a14, a15) {
+        super(a14, a15);
+        function f16() {
+            return 255;
+        }
+        try {
+            this.__proto__ = this;
+        } catch(e17) {
+        }
+    }
+    static [BigInt64Array];
+    536870889;
+    static a = BigInt64Array;
+}
+new C12(255, 255);
+new C12(255, C12);
+const v20 = new C12(255, 0);
+try {
+    C12.a = 255;
+} catch(e24) {
+}
+v20 instanceof BigInt64Array;
+try {
+    v4 = 9007199254740990;
+} catch(e29) {
+}

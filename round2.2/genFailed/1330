@@ -1,0 +1,52 @@
+let v0 = 3322;
+try {
+    new Int16Array(v0);
+} catch(e3) {
+}
+try {
+    new Int8Array(169);
+} catch(e7) {
+}
+try {
+    new Uint16Array(58);
+} catch(e11) {
+}
+const v12 = /a|bc(\x01(a\Wa|b))+/duy;
+const v13 = /36\x01[\u{12345}ca$?]/svi;
+const v14 = /abc+/gduyi;
+function f15(a16, a17, a18, a19) {
+    const o31 = {
+        "f": v0,
+        __proto__: v14,
+        [Uint16Array](a21, a22) {
+            v0++;
+            delete this[a19];
+            return v13;
+        },
+        "c": v14,
+        set d(a26) {
+            const o27 = {
+            };
+            try {
+                new Proxy(this, o27);
+            } catch(e30) {
+            }
+        },
+    };
+    return o31;
+}
+const v32 = f15(v14, v0, 169, 58);
+const v33 = f15(v12, Int8Array, 169, 58);
+const v34 = f15(v33, 58, 169, v0);
+class C38 extends Int8Array {
+    constructor(a40, a41) {
+        super(a41, a40, a40);
+        let v42;
+        try { v42 = v13.exec(v0); } catch (e) {}
+        super.findLastIndex(v42, v42);
+        Object.defineProperty(v32, v12, { configurable: true, get: f15, set: f15 });
+    }
+}
+new C38(58, v32);
+new C38(169, v33);
+new C38(536870889, v34);

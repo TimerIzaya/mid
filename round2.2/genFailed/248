@@ -1,0 +1,22 @@
+try {
+    new Int8Array(6);
+} catch(e9) {
+}
+try {
+    new Uint16Array(3039);
+} catch(e13) {
+}
+try {
+    new BigUint64Array(15);
+} catch(e17) {
+}
+new Int8Array(-33788, 3039);
+%VerifyType(-33788);
+const o21 = {
+    "maxByteLength": 6,
+};
+const v23 = new ArrayBuffer(0, o21);
+try {
+    new Uint16Array(v23);
+} catch(e26) {
+}

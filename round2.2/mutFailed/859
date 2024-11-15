@@ -1,0 +1,54 @@
+const v1 = new Map();
+try {
+    new Int16Array(4096);
+} catch(e5) {
+}
+let v7 = 0;
+while (v7 < 3) {
+    const v10 = v1.size;
+    try {
+        v1[v10] = 2342;
+    } catch(e11) {
+    }
+    v7++;
+}
+try {
+    new Uint8ClampedArray(2342);
+} catch(e15) {
+}
+try {
+    new Uint8ClampedArray(1432);
+} catch(e19) {
+}
+function F20(a22, a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a23;
+    } catch(e26) {
+    }
+}
+new F20(4096, 1432, 2342, 4096);
+new F20(2342, 2342, 4096, 4096);
+new F20(1432, 2342, 1432, 1432);
+function f30() {
+}
+f30();
+const v32 = f30();
+function F36(a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v41 = this.constructor;
+    try { new v41(); } catch (e) {}
+    new Int16Array(4096);
+    new Uint16Array();
+    for (let i50 = 0, i51 = 10; i50 < i51; i50++, i51--) {
+        new Float64Array(-2046010351);
+        ([64,3,10,14,268435441,-321778196,33616,65536,-9007199254740991]).unshift(255);
+        try {
+            new F20(2n, [i50,a40,2n,Map,F20], false, "-268435456");
+        } catch(e69) {
+        }
+    }
+    new Uint32Array();
+}
+new F36();
+new F36(v32, -4096);

@@ -1,0 +1,65 @@
+function f0() {
+    const o13 = {
+        set f(a5) {
+            try { new a5(a5, this); } catch (e) {}
+            super.g >>= a5;
+            new Array(3558);
+        },
+        "f": 1177657867,
+        "e": 1177657867,
+        __proto__: "symbol",
+    };
+    return o13;
+}
+const v14 = f0();
+const v15 = f0();
+const v16 = f0();
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v16;
+    } catch(e21) {
+    }
+}
+const v22 = new F17(v16, v16);
+const v23 = new F17(v22, f0);
+const v24 = new F17(v16, F17);
+function f25(a26, a27) {
+    const o38 = {
+        set h(a29) {
+            function f30() {
+                return v14;
+            }
+            super.h;
+        },
+        "d": v16,
+        __proto__: a26,
+        [a26](a33, a34) {
+            const v35 = ~this;
+            d = a26;
+            try { v23["m"](a34, v15, a27, a27, v35); } catch (e) {}
+            return a34;
+        },
+    };
+    return o38;
+}
+f25(v16, v23);
+const v40 = f25(v16, v22);
+f25(v14, v24);
+const v43 = new WeakSet();
+for (const v44 of v43) {
+    v15.e %= v44;
+    try { v40.catch(v44, v44, v40, F17, v15); } catch (e) {}
+    try {
+        new Int32Array(15);
+    } catch(e49) {
+    }
+    try {
+        new Uint8Array(257);
+    } catch(e53) {
+    }
+    try {
+        new Float64Array(126);
+    } catch(e57) {
+    }
+}

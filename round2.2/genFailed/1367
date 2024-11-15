@@ -1,0 +1,49 @@
+function f3(a4, a5) {
+    const o11 = {
+        [a4]: "o",
+        "h": a4,
+        "g": "xsjy",
+        [a5]: a4,
+        "b": a4,
+        [a4](a7) {
+            const v8 = a4.length;
+            const v9 = this[v8];
+            let v10;
+            try { v10 = new v9(...this, ...a4, v8, this); } catch (e) {}
+            return v10;
+        },
+        222592073: "xsjy",
+        "e": a5,
+        "a": a4,
+    };
+    return o11;
+}
+const v12 = f3("string", "o");
+const v13 = f3("o", "o");
+const v14 = f3("xsjy", "o");
+try {
+    new Uint32Array(1805);
+} catch(e18) {
+}
+try {
+    new Float32Array(1284);
+} catch(e22) {
+}
+try {
+    new Int16Array(7);
+} catch(e26) {
+}
+const v27 = [f3,v14];
+const v28 = [v27,v27];
+const v29 = [v28,Uint32Array,v28,v12];
+Object.defineProperty("string", 7, { configurable: true, get: f3, set: f3 });
+if (v29 > v13) {
+    let v31 = v27.length;
+    try {
+        v31 >>= v31;
+    } catch(e32) {
+    }
+} else {
+    ("o")[v14];
+    Object.defineProperty(v14, 4, { writable: true, configurable: true, value: "o" });
+}

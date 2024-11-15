@@ -1,0 +1,48 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = f0;
+    } catch(e3) {
+    }
+    try {
+        this.h = f0;
+    } catch(e4) {
+    }
+    try {
+        this.e = f0;
+    } catch(e5) {
+    }
+}
+new F1();
+const v7 = new F1();
+new F1();
+try {
+    new Uint8ClampedArray(13);
+} catch(e15) {
+}
+try {
+    new Int8Array(128);
+} catch(e19) {
+}
+try {
+    new Int32Array(3646);
+} catch(e23) {
+}
+const o27 = {
+    valueOf() {
+        this ^ this;
+        Object.defineProperty(v7, "g", { enumerable: true, get: f0 });
+        const t36 = "isConcatSpreadable";
+        delete t36[1073741825];
+        return 128;
+    },
+};
+o27 ^ 128;
+let v30 = -892242697;
+Math.random();
+-7558 * v30;
+const v35 = ++v30;
+-f0;
+v30 + v35;

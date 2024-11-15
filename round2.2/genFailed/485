@@ -1,0 +1,48 @@
+function f0() {
+}
+try {
+    new Float32Array(3204);
+} catch(e4) {
+}
+try {
+    new Uint32Array(129);
+} catch(e8) {
+}
+try {
+    new Float64Array(16);
+} catch(e12) {
+}
+const v13 = [-1.3638068718332596e+308,484614.8407515411,834.7070119672246,0.0,-1.7976931348623157e+308,-1.499622417284017e+308,-Infinity,59.11583535752152];
+const v14 = [-1000000000000.0,-0.37685920868615064];
+const v15 = [122.92041367494971,-1000000000.0,2.9472603715985447e+307,-0.0,-810438.5421080389,1e-15,NaN,-1000000.0,1e-15,106057.8901166243];
+function f16(a17, a18) {
+    const o23 = {
+        [v15]: a18,
+        "g": a17,
+        "c": a18,
+        "e": v13,
+        toString(a20, a21) {
+            try {
+                super.g = a20;
+            } catch(e22) {
+            }
+            return v14;
+        },
+        [a18]: v14,
+        [Float32Array]: 129,
+        [Float64Array]: 129,
+        1: Uint32Array,
+    };
+    return o23;
+}
+const v24 = f16(129, v13);
+f16(129, v13);
+f16(16, v13);
+Math.cos(v24);
+Math.acosh(v24);
+let v34 = 512 && 512;
++v34;
+-512;
+const v37 = --v34;
+Math.acos(v24);
+new Float32Array(v37, 129, -1);

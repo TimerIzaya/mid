@@ -1,0 +1,47 @@
+function f0() {
+}
+try {
+    new Int8Array(16);
+} catch(e4) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e8) {
+}
+try {
+    new Float32Array(1416);
+} catch(e12) {
+}
+try {
+    new BigUint64Array(10);
+} catch(e16) {
+}
+try {
+    new Uint16Array(128);
+} catch(e20) {
+}
+try {
+    new BigInt64Array(4096);
+} catch(e24) {
+}
+try {
+    new BigUint64Array(9);
+} catch(e28) {
+}
+try {
+    new Int8Array(41);
+} catch(e32) {
+}
+try {
+    new Int8Array(129);
+} catch(e36) {
+}
+for (let [v37,v38,v39] of Uint16Array) {
+    %VerifyType(BigUint64Array);
+    BigUint64Array > Int8Array;
+    41 + v37;
+    v38.__proto__;
+    [1.7976931348623157e+308,0.8003587573487724,2.2250738585072014e-308,0.3103394964269025,0.01271366477315461,4.08727003968586e+307,Infinity];
+    [8.271847000627613,-1000000000.0,-3.9887313142369996];
+    [2.0,8.79876072639578,2.220446049250313e-16,-80.44619737400956];
+}

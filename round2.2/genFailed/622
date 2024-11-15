@@ -1,0 +1,42 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -256n;
+    } catch(e7) {
+    }
+    try {
+        this.f = a6;
+    } catch(e8) {
+    }
+}
+new F3(F3, -256n);
+const v10 = new F3(-256n, -1852n);
+new F3(16n, -256n);
+try {
+    new Int16Array(3710);
+} catch(e15) {
+}
+try {
+    new Uint8ClampedArray(9);
+} catch(e19) {
+}
+try {
+    new Uint16Array(2198);
+} catch(e23) {
+}
+let v24;
+try { v24 = F3(v10, 16n); } catch (e) {}
+for (const v25 of v24) {
+    try {
+        new Uint16Array(3);
+    } catch(e29) {
+    }
+    try {
+        new Uint8ClampedArray(10);
+    } catch(e33) {
+    }
+    try {
+        new Int16Array(64);
+    } catch(e37) {
+    }
+}

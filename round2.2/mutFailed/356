@@ -1,0 +1,67 @@
+const v4 = new WeakSet();
+class C5 {
+    #m(a7) {
+        function F8(a10, a11) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = -1.7976931348623157e+308;
+            } catch(e12) {
+            }
+        }
+        const v13 = new F8(1.0, 2.479813015006977);
+        const v14 = new F8(a7, v13);
+        new F8(-1.7976931348623157e+308, v4);
+        return v14;
+    }
+}
+C5.d = WeakSet;
+const v16 = new C5();
+v16.d = 2.479813015006977;
+const v17 = v16?.__lookupSetter__;
+try { new v17(2.479813015006977); } catch (e) {}
+const v19 = new C5();
+function f20(a21) {
+    class C24 {
+        static ["length"] = "x0w0X";
+    }
+    return "x0w0X";
+}
+v19.constructor = 2.479813015006977;
+v19?.constructor;
+try { new v16(); } catch (e) {}
+new C5();
+function f28(a29, a30, a31) {
+    a30.d = a30;
+    a31 === a31;
+    const o39 = {
+        valueOf(a34, a35, a36) {
+            const v37 = super[C5];
+            try {
+                super.g = v37;
+            } catch(e38) {
+            }
+            return a29;
+        },
+        "g": a29,
+        __proto__: a29,
+        1: -1.7976931348623157e+308,
+    };
+    return o39;
+}
+const t50 = -1.7976931348623157e+308;
+const v41 = f28(v4, t50(v16, C5, -1.7976931348623157e+308), -1.7976931348623157e+308);
+v41.d = f28;
+v41[1];
+f28(v41, v41, 2.479813015006977);
+class C44 {
+    static {
+        this.setInt8 = C44;
+        const v46 = `
+            try { ("setInt8").blink(); } catch (e) {}
+            try { this["setInt8"](); } catch (e) {}
+        `;
+        v46[21];
+        try { eval(this); } catch (e) {}
+        eval(v46);
+    }
+}

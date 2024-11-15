@@ -1,0 +1,22 @@
+/\u0060a\n[i(?<a>)]+/mgvy;
+/BBi/gu;
+/(abc|def|ghi(?:ab){4,7}*)/msdu;
+try {
+    new BigUint64Array(10);
+} catch(e12) {
+}
+try {
+    new BigUint64Array(6);
+} catch(e16) {
+}
+try {
+    new Uint8ClampedArray(10);
+} catch(e20) {
+}
+for (let [v21] of -16) {
+    const o25 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o25);
+}

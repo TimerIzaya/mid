@@ -1,0 +1,43 @@
+function f1() {
+    return false;
+}
+const v3 = new Set();
+function F4(a6, a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a6;
+    } catch(e8) {
+    }
+    try {
+        this.g = Set;
+    } catch(e9) {
+    }
+}
+const v10 = new F4(f1, v3);
+const v11 = new F4(v10, v3);
+const v12 = new F4(v11, v3);
+let v14 = "dotAll";
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v12;
+    } catch(e20) {
+    }
+    try {
+        this.c = a18;
+    } catch(e21) {
+    }
+    try {
+        this.b = v12;
+    } catch(e22) {
+    }
+}
+new F16(v14, v10);
+new F16("a", v11);
+new F16("f", v10);
+Reflect.construct(Set, [Reflect], F16);
+try {
+    v3[4096] = Set;
+} catch(e29) {
+}
+v14--;

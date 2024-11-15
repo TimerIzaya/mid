@@ -1,0 +1,39 @@
+class C3 {
+    static {
+        this.name = this;
+        try {
+            this.__proto__ = this;
+        } catch(e5) {
+        }
+    }
+    d;
+    g = 1000;
+    c;
+    [1000];
+}
+try { C3.call(536870887); } catch (e) {}
+let v7;
+try { v7 = C3.toString(); } catch (e) {}
+try { v7.anchor(C3); } catch (e) {}
+new C3();
+const v10 = new C3();
+v10.b = v10;
+const v11 = new C3();
+9 >>> 9;
+~9;
+let v15 = 1034766155;
+v15++;
+const v18 = [-3.0];
+try { v18.map(v11); } catch (e) {}
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    a22.g = a22;
+    const v24 = this.constructor;
+    const v25 = v24?.constructor;
+    try { new v25(a22); } catch (e) {}
+    v24.prototype;
+    try { new v24(a22); } catch (e) {}
+    a22[0];
+}
+const v30 = new F20(v18);
+new F20(v30);

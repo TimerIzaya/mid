@@ -1,0 +1,22 @@
+function f3() {
+    return 9;
+}
+try {
+    new BigUint64Array(129);
+} catch(e10) {
+}
+try {
+    new Int16Array(255);
+} catch(e14) {
+}
+try {
+    new BigInt64Array(3184);
+} catch(e18) {
+}
+for (const v19 of 256) {
+}
+try {
+    new BigUint64Array(-1, -6);
+} catch(e23) {
+}
+Reflect.construct(BigInt64Array, [129], Int16Array);

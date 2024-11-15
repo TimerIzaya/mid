@@ -1,0 +1,122 @@
+class C3 {
+    get g() {
+        try {
+            const t3 = "p";
+            t3.__proto__ = this;
+        } catch(e5) {
+        }
+        try {
+            super.all("HPO", this);
+        } catch(e7) {
+        }
+        return "0";
+    }
+}
+C3.d = C3;
+const v8 = new C3();
+const v9 = new C3();
+const v10 = v9?.constructor;
+try { new v10(); } catch (e) {}
+const v12 = new C3();
+const v13 = v12?.constructor;
+try { new v13(); } catch (e) {}
+function f15() {
+    return v12;
+}
+let v16 = -65537;
+v16--;
+let [] = v8;
+let v19 = 46626n;
+v19 **= 5n;
+function f22() {
+    return Array;
+}
+f22();
+for (let v24 = 0; v24 < 25; v24++) {
+    let v25 = 0;
+    do {
+        for (let v26 = 0; v26 < 100; v26++) {
+            f22();
+        }
+        v25++;
+    } while (v25 < 10)
+}
+const v31 = 9007199254740991 >> 9007199254740991;
+-777063313 - -777063313;
+try {
+    const v36 = new Float64Array(1);
+    v36.BYTES_PER_ELEMENT = v36;
+} catch(e37) {
+}
+let v38 = 1199;
+try {
+    new Int32Array(v38);
+} catch(e41) {
+}
+let v42 = 14;
+v42--;
+try {
+    new BigUint64Array(v42);
+} catch(e46) {
+}
+function f47() {
+    return 1;
+}
+class C48 {
+    static 3441497194 = BigUint64Array;
+    b;
+    #o(a50, a51, a52) {
+        v38--;
+        Reflect.construct(Int32Array, [this,a51], BigUint64Array);
+        try {
+            super.call(a51, a52);
+        } catch(e58) {
+        }
+        return a50;
+    }
+}
+const v59 = new C48();
+new C48();
+const v61 = new C48();
+v61.b;
+8 * 8;
+try {
+    new Int16Array(8);
+} catch(e67) {
+}
+try {
+    new Uint16Array(2389);
+} catch(e71) {
+}
+try {
+    const v74 = new Uint32Array(5);
+    v74[2] = v74;
+} catch(e75) {
+}
+function f78(a79, a80, a81, a82) {
+    arguments[-0.0] = a81;
+    return f78;
+}
+new WeakMap();
+function f85(a86, a87, a88) {
+    function f90(a91) {
+        try {
+            new Int32Array(this);
+        } catch(e93) {
+            class C95 extends Float64Array {
+            }
+            1.7976931348623157e+308 || v31;
+        }
+    }
+    this.onmessage = f90;
+    new BigUint64Array(this, 8);
+    try {
+    } catch(e100) {
+    }
+}
+const v103 = [v38,v59,v59];
+const o104 = {
+    "arguments": v103,
+    "type": "function",
+};
+new Worker(f85, o104);

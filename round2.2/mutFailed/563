@@ -1,0 +1,95 @@
+const v0 = /\xed\xb0\x80?/mgdyi;
+const v1 = /V+/mguyi;
+const v2 = /ofoo(?<=bar)baz/mgdi;
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f7() {
+        return v1;
+    }
+    function f8(a9) {
+        let v11 = 7;
+        try {
+            v11 = 2147483649;
+        } catch(e12) {
+        }
+    }
+    Object.defineProperty(this, "f", { writable: true, configurable: true, enumerable: true, get: f7, set: f8 });
+    try {
+        this.b = a6;
+    } catch(e13) {
+    }
+    try {
+        this.f = v1;
+    } catch(e14) {
+    }
+}
+const v15 = new F3(v2, v2);
+const v16 = new F3(v1, v0);
+const v17 = new F3(v0, v0);
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v1;
+    } catch(e24) {
+    }
+    try {
+        this.g = v17;
+    } catch(e25) {
+    }
+}
+new F18(v17, v0, v17, v2);
+new F18(v15, v16, v16, v0);
+new F18(v17, F3, v17, v0);
+class C29 {
+    static #o(a31, a32, a33) {
+        try {
+            new Uint32Array(2);
+        } catch(e37) {
+        }
+        try {
+            new Float32Array(129);
+        } catch(e41) {
+        }
+        try {
+            new Float64Array(255);
+        } catch(e45) {
+        }
+        return Float32Array;
+    }
+}
+new C29();
+new C29();
+new C29();
+function f49() {
+    return f49;
+}
+new Map();
+function f55() {
+    return f55;
+}
+class C56 {
+    static {
+        this.valueOf = f49;
+        super.f;
+        this << Map;
+    }
+    #e = f49;
+    constructor(a61, a62, a63) {
+    }
+}
+new C56(-461684584, 255, -461684584);
+new C56(255, 255);
+new C56(255, -461684584, 255);
+function F70() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+new C56();
+const v74 = new F70();
+const v75 = new F70();
+const v78 = -Infinity;
+class C82 extends F70 {
+    constructor(a84, a85) {
+        this.__proto__ = v75;
+    }
+    [v78] = v74;
+}

@@ -1,0 +1,20 @@
+new Date();
+try {
+    new Int32Array(113);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(9);
+} catch(e15) {
+}
+try {
+    new Int16Array(255);
+} catch(e19) {
+}
+try {
+    const t14 = "valueOf";
+    t14["a"] = "q5D2";
+} catch(e21) {
+}
+Date !== "q5D2";
+Object.defineProperty("valueOf", -2, { configurable: true, get: Date, set: Date });

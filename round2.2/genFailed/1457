@@ -1,0 +1,38 @@
+try {
+    new BigUint64Array(6);
+} catch(e3) {
+}
+try {
+    new Int8Array(255);
+} catch(e7) {
+}
+let v9 = Float64Array;
+try {
+    new v9(2837);
+} catch(e11) {
+}
+class C15 extends v9 {
+    6;
+    #d;
+    get b() {
+        try {
+            this.g = this;
+        } catch(e17) {
+        }
+        return -2147483647;
+    }
+    f;
+}
+const v18 = new C15();
+new C15();
+const v20 = new C15();
+let v21;
+try { v21 = v18(Int8Array, v20, v20, C15); } catch (e) {}
+v21++;
+let v25 = 77.92803029373636;
+const v26 = 19310 * Int8Array;
+--v25;
+Math.sinh(19310);
+Math.abs(v26);
+const v30 = v9--;
+~v26 >> v30;

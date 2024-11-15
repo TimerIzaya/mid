@@ -1,0 +1,53 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -20188;
+    } catch(e3) {
+    }
+    try {
+        this.a = -20188;
+    } catch(e4) {
+    }
+    try {
+        this.c = -20188;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = F0;
+    } catch(e13) {
+    }
+}
+const v14 = new F9(v7, v6);
+const v15 = new F9(v6, v8);
+new F9(v6, v8);
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -480631439;
+    } catch(e24) {
+    }
+    try {
+        this.a = v7;
+    } catch(e25) {
+    }
+    try {
+        this.d = a22;
+    } catch(e26) {
+    }
+}
+const v27 = new F20(v14, -65537);
+const v28 = new F20(v14, -480631439);
+new F20(v15, 8);
+try {
+    v14.fuck(undefined, "g", -4n, -4n);
+} catch(e34) {
+}
+const t50 = v28[8];
+t50.g <<= -65537;
+v27[Symbol.unscopables];

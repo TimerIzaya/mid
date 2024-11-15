@@ -1,0 +1,79 @@
+try {
+    new BigUint64Array(7);
+} catch(e3) {
+}
+try {
+    new Uint16Array(984);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(2707);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o33 = {
+        __proto__: BigInt64Array,
+        [7]: BigUint64Array,
+        128: a14,
+        "g": 2707,
+        "h": Uint16Array,
+        "a": a13,
+        p(a16, a17, a18) {
+            const v19 = this.h;
+            this[a14];
+            function F24(a26, a27) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = a13;
+                } catch(e28) {
+                }
+                try {
+                    this.f = a26;
+                } catch(e29) {
+                }
+            }
+            const v30 = new F24(a18, -2037243520);
+            const v31 = new F24(v19, v30);
+            new F24(v31, Uint16Array);
+            return BigUint64Array;
+        },
+    };
+    return o33;
+}
+const v34 = f12(984, 984);
+const v35 = f12(7, 2707);
+const v36 = f12(2707, 7);
+const v37 = /O\p{Nd}+/gsu;
+const v38 = /(x)(x)(x)\3*/sdyi;
+const v39 = /a(?=bbb|bb)c/sdvy;
+function f40(a41, a42, a43) {
+    const o44 = {
+        ...a43,
+        "a": a42,
+        "d": v38,
+        [a43]: a42,
+        ...v39,
+        "f": a42,
+        [a42]: a43,
+        "g": a41,
+        "e": BigInt64Array,
+        ...v37,
+        "b": a41,
+        "h": a42,
+        ...v38,
+        __proto__: v35,
+    };
+    return o44;
+}
+f40(7, 2707, v34);
+f40(2707, 7, v36);
+f40(2707, 984, v34);
+const o51 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o51);
+try {
+    new f40(2147483648, 2147483648, v36);
+} catch(e55) {
+}

@@ -1,0 +1,115 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    let v1 = this;
+    try {
+        v1.a = 26996;
+        let v3;
+        try { v3 = v1.m(v1); } catch (e) {}
+        let v5;
+        try { v5 = v3["getSeconds"](v3, v1, v3); } catch (e) {}
+        let v6;
+        try { v6 = v5("getSeconds", F0); } catch (e) {}
+        try {
+            try {
+                v1 = v6;
+            } catch(e7) {
+            }
+            v1?.["getSeconds"];
+            v6.b = 26996;
+        } catch(e9) {
+        }
+    } catch(e10) {
+    }
+    try {
+        v1.e = 26996;
+    } catch(e11) {
+    }
+}
+const v12 = new F0();
+const v13 = new F0();
+const v14 = new F0();
+function f15() {
+    return F0;
+}
+const v19 = 64 >> 64;
+2 + 2;
+let v23;
+try { v23 = Float32Array.from(4294967296); } catch (e) {}
+try {
+    new Float32Array(2);
+} catch(e25) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e29) {
+}
+const v31 = 9 != 9;
+Object.defineProperty(v13, v19, { get: f15 });
+try {
+    v12.toString = v23;
+} catch(e33) {
+}
+try {
+    new Uint32Array(9);
+} catch(e35) {
+}
+function f36() {
+    return BigUint64Array;
+}
+let {"g":v37,...v38} = v23;
+try {
+    v38.e = 2;
+} catch(e39) {
+}
+const v41 = Uint32Array.prototype;
+new Uint32Array(v41, v41, v31, 4);
+const v43 = delete v41?.g;
+try {
+    v14[3] = v12;
+} catch(e44) {
+}
+1548 >>> 1548;
+class C48 extends Uint32Array {
+    constructor(a50, a51, a52) {
+        super(a52);
+        for (let i = 0; i < 5; i++) {
+            try {
+                const o53 = {
+                };
+                try {
+                    o53.a = v43;
+                } catch(e54) {
+                }
+                try {
+                    const o55 = {
+                    };
+                    o55.a = v43;
+                    o55.e = Uint32Array;
+                } catch(e56) {
+                }
+                try {
+                    const o57 = {
+                    };
+                    o57.a = v43;
+                    o57.e = Uint32Array;
+                    o57.h = v41;
+                } catch(e58) {
+                }
+                try {
+                    const o59 = {
+                    };
+                    o59.a = v43;
+                    o59.e = Uint32Array;
+                    o59.c = a52;
+                } catch(e60) {
+                }
+                a50[15] = 1548;
+            } catch(e61) {
+                e61.b = e61;
+            }
+        }
+    }
+}
+const v62 = new C48(1548, 256, 1548);
+new C48(v62);
+new C48();

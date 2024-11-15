@@ -1,0 +1,58 @@
+class C3 {
+    static b;
+    static valueOf(a5) {
+        try {
+            a5.d = a5;
+        } catch(e7) {
+        }
+        return a5;
+    }
+    f;
+    c;
+    static #h;
+}
+const v8 = new C3();
+const v9 = new C3();
+const v10 = new C3();
+function f14(a15, a16, a17, a18) {
+    const o27 = {
+        "g": a16,
+        1073741824: v8,
+        "f": a16,
+        get b() {
+            const o23 = {
+            };
+            try {
+                new Proxy(v8, o23);
+            } catch(e26) {
+            }
+            return 15;
+        },
+    };
+    return o27;
+}
+f14(1073741824n, -13n, v10, -13n);
+f14(1073741824n, 257n, v10, 257n);
+f14(-13n, 1073741824n, v10, -13n);
+function F31(a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+function f35(a36, a37) {
+    v9[3] ||= 460.26400905506193;
+    return a36;
+}
+F31[Symbol.toPrimitive] = f35;
+F31.valueOf = f14;
+const v41 = [1024,-1404956863,1000208419,1518154444,15,1073741824,-3,-727451761];
+function f42(a43, a44) {
+    ("with").toUpperCase();
+    return F31;
+}
+v41[Symbol.toPrimitive] = f42;
+v41.valueOf = f14;
+const v49 = [-11,4294967297,536870887,268435456];
+const v50 = F31 % v41;
+try {
+    v49.length = v50;
+} catch(e51) {
+}

@@ -1,0 +1,39 @@
+const v0 = [];
+const v4 = ["symbol","t4N","t4N"];
+const v5 = ["unscopables"];
+const v6 = ["unscopables",v4,"unscopables"];
+function f10() {
+    return v5;
+}
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a14;
+    } catch(e17) {
+    }
+    try {
+        a15.c = "unscopables";
+    } catch(e18) {
+    }
+    try {
+        this.f = v0;
+    } catch(e19) {
+    }
+}
+const v20 = new F11(2.220446049250313e-16, "unscopables", v0, v5, "t4N", v0);
+new F11(9.685744877990501, "unscopables", v6, v0, 2.220446049250313e-16, 9.685744877990501, v20);
+new F11("symbol", "unscopables", v6, v0);
+const v25 = [1e-15,-1000.0,-1000000000000.0,0.24718469695380962,9.59320331048082];
+class C26 extends Float32Array {
+    #e;
+    constructor(a28, a29, a30, a31) {
+        super(-1000000000000.0);
+        const o34 = {
+            "type": C26,
+        };
+        gc(o34);
+    }
+}
+const v36 = new C26();
+new C26(v25, 257, 257, 257);
+v36[257] = v25;

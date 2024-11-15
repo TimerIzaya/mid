@@ -1,0 +1,11 @@
+const v6 = [53004];
+const v7 = [v6,v6,1073741823];
+const v8 = [v7,129,v7];
+for (let [v15,v16,...v17] of v8) {
+    try {
+        v8.a = v16;
+    } catch(e18) {
+    }
+    try { new v17(0.8925743336613376); } catch (e) {}
+}
+Reflect.construct(v7, [], v6);

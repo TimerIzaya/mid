@@ -1,0 +1,59 @@
+class C3 {
+    static #d = -1239788669;
+    c;
+    h = -1239788669;
+    toString(a5, a6) {
+        try {
+            new Uint8Array(3);
+        } catch(e10) {
+        }
+        try {
+            new Int16Array(9);
+        } catch(e14) {
+        }
+        try {
+            new BigInt64Array(144);
+        } catch(e18) {
+        }
+        return a5;
+    }
+}
+const v19 = new C3();
+const v20 = new C3();
+const v21 = new C3();
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = C3;
+    } catch(e29) {
+    }
+}
+const v30 = new F23(v21, 4294967296, 64, -1239788669);
+const v31 = new F23(v30, 4294967296, 4294967296, -1239788669);
+const v32 = new F23(v21, -1239788669, 4294967296, 4294967296);
+function F33(a35, a36, a37, a38) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a37;
+    } catch(e39) {
+    }
+    try {
+        this.c = a37;
+    } catch(e40) {
+    }
+    try {
+        this.h = F23;
+    } catch(e41) {
+    }
+}
+const v42 = new F33(v21, v32, v21, v20);
+const v43 = new F33(v31, v30, v20, v42);
+const v44 = new F33(v43, v20, v20, v21);
+for (const v45 of v19) {
+    try {
+        v44.f = v45;
+    } catch(e46) {
+    }
+}
+let v51 = 3 * (delete v32[3] / v30);
+--v51;

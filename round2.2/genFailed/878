@@ -1,0 +1,27 @@
+function f0() {
+}
+const v2 = new WeakMap();
+try {
+    new Float32Array(2);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(128);
+} catch(e10) {
+}
+try {
+    new Int32Array(255);
+} catch(e14) {
+}
+try { v2.get(5); } catch (e) {}
+try {
+    v2.has(true);
+} catch(e24) {
+}
+let v27 = 9007199254740991;
+const v29 = 255 * 1073741823n;
+const v30 = +-1036083743n;
+Math.expm1(v29 >>> 1073741823n);
+++v27;
+v30 ^ v29;
+Math.hypot(v27);

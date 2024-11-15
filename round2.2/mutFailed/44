@@ -1,0 +1,89 @@
+const v3 = /va\b!/gsdu;
+try { v3.toString(); } catch (e) {}
+const v5 = /2\P{Decimal_Number}/mgdi;
+const v6 = /N(?=)*/si;
+Object.defineProperty(v6, 0, { enumerable: true, value: v5 });
+v6.dotAll;
+const v8 = [-365972.520332191,1000000.0,-1.0];
+const v9 = [-1.7752372661426336e+308,1.1688493284107504e+308,23.71493949557407,-1000000000000.0];
+function f10(a11) {
+    function F12(a14, a15, a16) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.f = a14;
+        } catch(e17) {
+        }
+        try {
+            this.a = v6;
+        } catch(e18) {
+        }
+        try {
+            this.g = a15;
+        } catch(e19) {
+        }
+    }
+    new F12(268435439n, v5, v3);
+    const v21 = new F12(a11, v5, v6);
+    new F12(-4n, a11, v21);
+    return v6;
+}
+const v24 = Symbol.toPrimitive;
+v9[v24] = f10;
+const v25 = [1000000000.0,276428.1893349348,-141113.14681571163,0.2163223768714756,-1000000.0,-926608.0179886351,0.18128777734530144,0.06615652813218365,-3.6816101762326747];
+function f26(a27, a28, a29) {
+    function f30(a31) {
+        try {
+            v24.c = a29;
+        } catch(e32) {
+        }
+        return v6;
+    }
+    a27.toString = f30;
+    a29[0] = f30;
+    a27.g = a27;
+    const o37 = {
+        ...a27,
+        "e": v3,
+        "f": v8,
+        __proto__: a27,
+        set d(a34) {
+            try {
+                this.h = a27;
+            } catch(e35) {
+            }
+            this[a34 / a29] ||= a34;
+        },
+        ...v9,
+        [v9]: a29,
+    };
+    return o37;
+}
+const v38 = f26(v25, v25, v3);
+v38[1];
+const v40 = f26(v8, v9, v6);
+v40[0] = v40;
+const v41 = f26(v9, v9, v3);
+function F42(a44, a45, a46) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.valueOf = f10;
+    try { this.valueOf(); } catch (e) {}
+    a44.dotAll;
+    a45[0] = a45;
+    try {
+        this.a = f26;
+    } catch(e49) {
+    }
+    try {
+        this.e = v3;
+    } catch(e50) {
+    }
+}
+const v51 = new F42(v5, v40, v38);
+function f52(a53) {
+    v6[5];
+}
+Object.defineProperty(v51, 0, { enumerable: true, set: f52 });
+new F42(v6, v51, v41);
+const v56 = new F42(v5, v6, v38);
+try { v56.a(v38, 16n, v6); } catch (e) {}
+Error().toString();

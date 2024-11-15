@@ -1,0 +1,54 @@
+try {
+    new Float64Array(156);
+} catch(e3) {
+}
+try {
+    new Int8Array(6);
+} catch(e7) {
+}
+try {
+    new Int16Array(4);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    constructor(a14, a15) {
+        super(4, 156, a15);
+        try {
+            this.toString = Int16Array;
+        } catch(e16) {
+        }
+        try {
+            super.a = a14;
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C12(156, 4);
+const v19 = new C12(156, 6);
+const v20 = new C12(4, 4);
+function f21(a22, a23) {
+    const o30 = {
+        [Int8Array]: Float64Array,
+        "d": 6,
+        get c() {
+            const o28 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o28);
+            return a23;
+        },
+    };
+    return o30;
+}
+const v31 = f21(v18, v18);
+f21(v20, v31);
+f21(v19, v20);
+for (const v35 of v19[137]) {
+    new C12(v35, 6, v35, v35, v35, v35);
+    try {
+        v31.toString = v35;
+    } catch(e37) {
+    }
+}
+new C12(6, 4);

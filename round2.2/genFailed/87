@@ -1,0 +1,50 @@
+const v0 = [];
+function f4(a5, a6) {
+    const o18 = {
+        180: a6,
+        9: a6,
+        "c": 0.025575999041744124,
+        "a": a6,
+        [0.025575999041744124]: a5,
+        [a6](a8, a9) {
+            const o12 = {
+                "maxByteLength": 10,
+            };
+            const v14 = new SharedArrayBuffer(8, o12);
+            try {
+                new DataView(v14);
+            } catch(e17) {
+            }
+            return this;
+        },
+    };
+    return o18;
+}
+const v19 = f4(0.5568842783064545, -1.7976931348623157e+308);
+const v20 = f4(0.025575999041744124, 0.025575999041744124);
+const v21 = f4(-1.7976931348623157e+308, -1.7976931348623157e+308);
+const v23 = new WeakSet();
+class C24 extends WeakSet {
+    constructor(a26, a27, a28, a29) {
+        super(v19);
+        Object.defineProperty(v20, 1, { get: f4 });
+        try { new a29(a26, v23, 0.5568842783064545, v20); } catch (e) {}
+        try {
+            super.e = f4;
+        } catch(e34) {
+        }
+    }
+    604541153 = WeakSet;
+    static #b = 0.025575999041744124;
+}
+const v35 = new C24(v23, v21, C24, v0);
+new C24(v19, v35, v23, WeakSet);
+new C24(v21, v0, v21, -1.7976931348623157e+308);
+for (const v38 of v0) {
+    [v38,v38];
+    [[v19,f4,v38,0.5568842783064545]];
+    try {
+        f4(-334746.06678888283, 0.13352498708701788);
+    } catch(e45) {
+    }
+}

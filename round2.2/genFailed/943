@@ -1,0 +1,29 @@
+class C3 {
+    n(a5, a6) {
+        ++a5 / this;
+        -a5;
+        return this;
+    }
+    static {
+        switch ("string") {
+            default:
+                break;
+        }
+    }
+}
+new C3();
+const v17 = new C3();
+const v18 = new C3();
+const v19 = [12639,v17,v18,"string"];
+const v20 = [v19,"string",v19,v17,v19];
+let v21 = [-1024,v20,C3,12639];
+function f22() {
+    return -1024;
+}
+const v26 = v20[f22];
+try {
+    v21 += v19;
+} catch(e28) {
+}
+v17 in v20;
+Reflect.construct(v26, [Reflect], f22);

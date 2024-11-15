@@ -1,0 +1,42 @@
+function f3(a4) {
+    const o12 = {
+        "a": 4294967295,
+        ...a4,
+        [12](a6, a7) {
+            try { a4.m(); } catch (e) {}
+            return -11;
+        },
+        5: 4294967295,
+        "g": a4,
+        "c": 12,
+    };
+    return o12;
+}
+const v13 = f3(12);
+const v14 = f3(v13);
+const v15 = f3(f3);
+class C16 {
+    static #e = v15;
+    static valueOf(a18, a19) {
+        try {
+            a19 = a18;
+        } catch(e20) {
+        }
+        return v13;
+    }
+    static 3824;
+    [10] = v14;
+    static #d;
+    static [f3];
+}
+const v21 = new C16();
+const v22 = new C16();
+const v23 = new C16();
+try { v21.isArray(4294967295, v23, v21, -0.0, v23); } catch (e) {}
+const v31 = Reflect.construct(v23.__proto__, [], f3);
+v22[1024];
+delete v31?.h;
+try {
+    C16 >>= v15;
+} catch(e34) {
+}

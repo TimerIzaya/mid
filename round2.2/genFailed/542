@@ -1,0 +1,66 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 777374178;
+    } catch(e3) {
+    }
+    try {
+        this.e = 777374178;
+    } catch(e4) {
+    }
+    try {
+        this.f = 777374178;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C9 {
+    toString(a11) {
+        try { v8(this, a11); } catch (e) {}
+        try {
+            a11.h = a11;
+        } catch(e13) {
+        }
+        return a11;
+    }
+    constructor(a15) {
+        a15[Math];
+    }
+    a = F0;
+    c = v7;
+    static #d = v8;
+}
+new C9(v7);
+new C9(v8);
+new C9(v8);
+const v22 = new WeakSet();
+class C23 extends C9 {
+    get a() {
+        let v25;
+        try { v25 = this.toString(v22); } catch (e) {}
+        [-1000000000.0,4.0,-132284.97560419526,0.19403016849015153,0.557047861597942];
+        [1e-15,604.4534425097931,0.6371191158795713,916018.6812285124,1.5277969246027597e+308,0.14430156265864003,-0.0,2.220446049250313e-16];
+        const v28 = [-1.7976931348623157e+308,-5.0,-2.0,-273.07496539507815,-1.2637024988618227e+308,NaN,2.0,0.9278942199214161];
+        super.toString(v28);
+        try {
+            v28.filter(v25);
+        } catch(e31) {
+        }
+        return v25;
+    }
+    c;
+    f;
+    8;
+}
+new C23();
+new C23();
+new C23();
+v22 === -1073741824;
+for (let v40 = 0; v40 < 37; v40++) {
+    try {
+        v40 = 4;
+    } catch(e41) {
+    }
+}

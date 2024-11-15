@@ -1,0 +1,52 @@
+const v3 = [1896166562,17992,682463073,1073741825,65535,9007199254740992];
+const v4 = [12,1024,6,-968841564,257,-1603247406,1889863495,474060175,-4096];
+const v5 = [9,6,-45079,-128,-14,-3598,64];
+class C6 {
+    constructor(a8, a9) {
+        let v10;
+        try { v10 = new a8(); } catch (e) {}
+        %VerifyType(v10);
+        try {
+            const t9 = "SYH";
+            t9.__proto__ = v3;
+        } catch(e11) {
+        }
+        this instanceof a8;
+    }
+    [v4] = v5;
+    12;
+    static #d = v5;
+    static #c;
+    2 = "symbol";
+}
+const v13 = new C6(v4, v4);
+const v14 = new C6("SYH", v13);
+const v15 = new C6(v14, v5);
+function f16(a17, a18, a19, a20) {
+    const o28 = {
+        m(a22, a23) {
+            try {
+                a19.length = 0;
+            } catch(e25) {
+            }
+            return a20;
+        },
+        set g(a27) {
+            var c = this;
+        },
+        ...a19,
+        ["SYH"]: C6,
+        "c": a19,
+    };
+    return o28;
+}
+const v29 = f16(v5, v5, "object", v3);
+f16(v3, v15, v14, "object");
+let v31 = f16(v4, v14, v5, v4);
+("SYH")[v31];
+8.01492826062574 * f16;
+Math.asin(+(6824 / 6824));
+try {
+    v31 ||= v29;
+} catch(e40) {
+}

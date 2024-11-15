@@ -1,0 +1,27 @@
+const v3 = [3,-65536,-4294967296,30336,9007199254740990,-1073741824,1130900958];
+const v4 = [-415,11,1833412573,16,-256,3,-1746164502,268435456];
+const v5 = [385636075,65535,64355,730041310,5,-2147483649,1073741823,-536870912,-2147483647,16];
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a10;
+    } catch(e11) {
+    }
+    try {
+        this.c = a9;
+    } catch(e12) {
+    }
+}
+const v13 = new F6(35987, 35987, v4);
+new F6(-256, -256, v13);
+new F6(-256, -256, v4);
+const v16 = v13.__proto__;
+const v17 = v4 == -256;
+if (v17) {
+    try {
+        v5.__proto__ = v16;
+    } catch(e18) {
+    }
+} else {
+    Reflect.construct(v16, [v3,v17,Reflect], F6);
+}

@@ -1,0 +1,28 @@
+class C3 {
+    constructor(a5) {
+        a5 in a5;
+    }
+    static o(a8) {
+        try { a8(-5.8662638361394, -8.637974672690568e+307, a8, a8); } catch (e) {}
+        try {
+            this[-5.8662638361394] = -2.220446049250313e-16;
+        } catch(e13) {
+        }
+        return -2.220446049250313e-16;
+    }
+}
+const v14 = new C3(-14894);
+new C3(-5.8662638361394);
+new C3(v14);
+try {
+    new C3(C3);
+} catch(e21) {
+}
+const o24 = {
+    "maxByteLength": 536870889,
+};
+const v26 = new ArrayBuffer(6, o24);
+try {
+    new Uint8ClampedArray(v26);
+} catch(e29) {
+}

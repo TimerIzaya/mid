@@ -1,0 +1,51 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 9007199254740990;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v7 = [-9007199254740990,-9007199254740992];
+const v8 = [268435439,-26208,8,-925073358,330705264,-65536,536870888,54098,2147483649,5];
+const v9 = [61402,536870887,-24035,-128,50202,1];
+class C10 {
+    static {
+        let v12;
+        try { v12 = v8.every(this, this); } catch (e) {}
+        Reflect.construct(v12, [Reflect], v12);
+    }
+    constructor(a17, a18, a19) {
+        [] = a18;
+        try { a17(); } catch (e) {}
+        F0 / v5;
+    }
+    #g = v9;
+    static 433;
+    static f;
+    static #d = v7;
+}
+const v22 = new C10(v5, v7, v5);
+const v23 = new C10(v6, v8, v4);
+new C10(v6, v7, v22);
+try {
+    new Float32Array(1);
+} catch(e28) {
+}
+try {
+    new Uint32Array(1000);
+} catch(e32) {
+}
+try {
+    new BigInt64Array(54);
+} catch(e36) {
+}
+v23.f;
+let v40 = -51368;
+v6 - v40;
+4294967295 || 4294967295;
+++v40;
+Math.sinh(v40);
+Reflect.construct(Uint32Array, [v8], C10);

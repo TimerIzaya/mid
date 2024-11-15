@@ -1,0 +1,82 @@
+const v1 = -Infinity;
+function f3(a4, a5) {
+    const o17 = {
+        169: a4,
+        "d": a4,
+        "e": -1.291284271971694e+308,
+        ...a4,
+        "g": a5,
+        "h": -1000000.0,
+        get f() {
+            function F7(a9, a10) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = this;
+                } catch(e11) {
+                }
+                try {
+                    this.c = a9;
+                } catch(e12) {
+                }
+                try {
+                    this.e = v1;
+                } catch(e13) {
+                }
+            }
+            const v14 = new F7(F7, v1);
+            new F7(v14, -1.291284271971694e+308);
+            new F7(-1000000.0, a5);
+            return v14;
+        },
+    };
+    return o17;
+}
+f3(f3, -1000000.0);
+const v19 = f3(v1, -1.291284271971694e+308);
+const v20 = f3(-1000000.0, v1);
+const v21 = [-1000000.0,v19,v19];
+[v1,[v20,-1.291284271971694e+308],v19];
+new WeakSet();
+class C26 extends f3 {
+    o(a28, a29, a30) {
+        const o31 = {
+        };
+        try {
+            o31.c = this;
+        } catch(e32) {
+        }
+        try {
+            const o33 = {
+            };
+            o33.c = this;
+            o33.a = v21;
+        } catch(e34) {
+        }
+        try {
+            const o35 = {
+            };
+            o35.c = this;
+            o35.a = v21;
+            o35.h = v20;
+        } catch(e36) {
+        }
+        try {
+            const o37 = {
+            };
+            o37.c = this;
+            o37.a = v21;
+            o37.f = a29;
+        } catch(e38) {
+        }
+        return f3;
+    }
+}
+const v39 = new C26();
+const v40 = new C26();
+new C26();
+let v42 = 0;
+do {
+    v39["o"](C26, v40, -1000000.0, "o");
+    v42++;
+} while (v42 < 1)
+delete v21?.length;

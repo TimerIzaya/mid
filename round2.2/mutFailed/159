@@ -1,0 +1,100 @@
+const v2 = new Array(9);
+try {
+    new Float64Array(7);
+} catch(e6) {
+}
+3 === 3;
+try {
+    const v10 = new Float64Array(3);
+    v10[2];
+} catch(e12) {
+}
+try {
+    const v15 = new Int8Array(257);
+    const v16 = v15[97];
+    let v17;
+    try { v17 = v16.assign(Float64Array, v16, 257, 9); } catch (e) {}
+    %VerifyType(v17);
+    try {
+        v15[v16] = 7;
+    } catch(e18) {
+    }
+} catch(e19) {
+}
+function f20(a21, a22) {
+    ~a22;
+    const o42 = {
+        "c": Int8Array,
+        "d": v2,
+        "e": Float64Array,
+        n(a25, a26, a27, a28) {
+            const v29 = delete this[65535];
+            const o30 = {
+            };
+            try {
+                o30.g = v29;
+            } catch(e31) {
+            }
+            try {
+                const o32 = {
+                };
+                o32.g = v29;
+                o32.a = v29;
+            } catch(e33) {
+            }
+            try {
+                const o34 = {
+                };
+                o34.g = v29;
+                o34.a = v29;
+                f20.c = this;
+            } catch(e35) {
+            }
+            try {
+                const o36 = {
+                };
+                o36.g = v29;
+                o36.a = v29;
+                o36.c = this;
+            } catch(e37) {
+            }
+            let v38;
+            try { v38 = this.p(a27, a26, Float64Array, a25, Int8Array); } catch (e) {}
+            new Array(a25);
+            try {
+                v38.d = a;
+            } catch(e41) {
+            }
+            return v38;
+        },
+    };
+    return o42;
+}
+const v43 = f20(3, 3);
+const v44 = f20(Float64Array, 7);
+v44.d = v44;
+const v45 = f20(Float64Array, 3);
+const v46 = v45?.e;
+try { new v46(9, v45, Float64Array); } catch (e) {}
+function f48() {
+    return f48;
+}
+function f54(a55, a56, a57) {
+    a55 - a55;
+    a56 - a56;
+    const o67 = {
+        n(a61, a62, a63) {
+            const v64 = this?.n;
+            try { new v64(f48, f48, 1438042576); } catch (e) {}
+            this instanceof f48;
+            return a57;
+        },
+        "h": a56,
+        "b": v44,
+    };
+    try { o67.n(a55, 1438042576, 257); } catch (e) {}
+    return o67;
+}
+const v69 = f54(1e-15, 1438042576, 3);
+v43(-36152.25774450507, -677546419, 1438042576);
+v69.n();

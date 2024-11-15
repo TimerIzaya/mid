@@ -1,0 +1,21 @@
+const v2 = new Array(1024);
+class C6 extends Array {
+    static d = 1024;
+    constructor(a8, a9, a10, a11) {
+        super(1024);
+        for (let v12 = 0; v12 < 32; v12++) {
+            a8["p" + v12] = v12;
+        }
+    }
+    [1024] = "toUpperCase";
+}
+new C6("rE", "rE", "n", "toUpperCase");
+const v16 = new C6("toUpperCase", "toUpperCase", "toUpperCase", "n");
+const v17 = new C6("n", "rE", "rE", "toUpperCase");
+try { v2.concat(1024, -1); } catch (e) {}
+v17[v16] += -632246376;
+const o25 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o25);

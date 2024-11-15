@@ -1,0 +1,45 @@
+function f0() {
+}
+function f1() {
+    const o8 = {
+        __proto__: f0,
+        [f0]: f0,
+        set b(a3) {
+            this.b;
+            try {
+                super[f0] = f0;
+            } catch(e5) {
+            }
+            try {
+                a3.length = 7;
+            } catch(e7) {
+            }
+        },
+    };
+    return o8;
+}
+f1();
+f1();
+f1();
+let v15 = "JJT0O";
+try {
+    new Int8Array(11);
+} catch(e21) {
+}
+try {
+    new Uint32Array(131);
+} catch(e25) {
+}
+try {
+    new Uint8Array(3540);
+} catch(e29) {
+}
+try {
+    v15 = "function";
+} catch(e30) {
+}
+try {
+    new Uint32Array("function", 65537, 65537);
+} catch(e33) {
+}
+Object.defineProperty("d", 8, { enumerable: true, get: f1, set: f0 });

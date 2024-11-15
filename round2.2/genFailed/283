@@ -1,0 +1,58 @@
+try {
+    new Uint8ClampedArray(7);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e7) {
+}
+try {
+    new Float32Array(3511);
+} catch(e11) {
+}
+class C15 {
+    static #f = Float32Array;
+    static a;
+    #b;
+    #d = 7;
+    toString(a17, a18, a19, a20) {
+        try {
+            a19 -= a20;
+        } catch(e21) {
+        }
+        return this;
+    }
+}
+new C15();
+const v23 = new C15();
+const v24 = new C15();
+v23 >> v24;
+const o26 = {
+};
+try {
+    o26.c = 8.701111042942081;
+} catch(e27) {
+}
+try {
+    const o28 = {
+    };
+    o28.c = 8.701111042942081;
+    o28.g = BigInt64Array;
+} catch(e29) {
+}
+try {
+    const o30 = {
+    };
+    o30.c = 8.701111042942081;
+    o30.g = BigInt64Array;
+    o30.a = 3511;
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.c = 8.701111042942081;
+    o32.g = BigInt64Array;
+    o32.a = v23;
+} catch(e33) {
+}

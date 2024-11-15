@@ -1,0 +1,28 @@
+class C3 {
+    static a;
+    constructor(a5, a6) {
+        a6?.b;
+        try {
+            super.getUTCMonth(9007199254740991);
+        } catch(e9) {
+        }
+    }
+    static #b;
+    static [9007199254740991];
+}
+const v10 = new C3(86887.65836111736, 9007199254740991);
+const v11 = new C3(v10, 86887.65836111736);
+new C3(v11, 86887.65836111736);
+const v14 = new WeakMap();
+try {
+    v11[1385] = WeakMap;
+} catch(e16) {
+}
+try {
+    C3.toString = null;
+} catch(e17) {
+}
+throw C3;
+for (let v18 = 0; v18 < 32; v18++) {
+    v14["p" + v18] = v18;
+}

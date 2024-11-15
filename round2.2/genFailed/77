@@ -1,0 +1,62 @@
+const v0 = [];
+try {
+    new Int32Array(1024);
+} catch(e4) {
+}
+try {
+    new Uint8ClampedArray(2025);
+} catch(e8) {
+}
+try {
+    new Int32Array(512);
+} catch(e12) {
+}
+class C13 {
+    g = 512;
+    static #b = Int32Array;
+    static #toString(a15, a16, a17) {
+        try {
+            a16 %= Int32Array;
+        } catch(e18) {
+        }
+        return a15;
+    }
+    constructor(a20, a21, a22) {
+        Object.defineProperty(v0, 2025, { configurable: true, enumerable: true, value: a22 });
+        const v24 = new Date();
+        super[v24].__proto__;
+    }
+}
+const v27 = new C13(512, 2025, 512);
+new C13(512, 512, 2025);
+const v29 = new C13(2025, 512, 512);
+function f30(a31, a32) {
+    const o42 = {
+        "a": v0,
+        [Int32Array]: Int32Array,
+        7: a31,
+        set f(a34) {
+            for (let v35 = 0; v35 < 32; v35++) {
+                v27["p" + v35] = v35;
+            }
+            Object.defineProperty(this, "a", { configurable: true, enumerable: true, value: a34 });
+            try {
+                this.fuck([Int32Array,Uint8ClampedArray,a34,this,v27], false);
+            } catch(e41) {
+            }
+        },
+    };
+    return o42;
+}
+f30(1024, 2025);
+let v44 = f30(1024, 2025);
+const v45 = f30(512, 512);
+c = -33597n instanceof f30;
+try {
+    C13 &= v29;
+} catch(e50) {
+}
+try {
+    v44 = v45;
+} catch(e51) {
+}

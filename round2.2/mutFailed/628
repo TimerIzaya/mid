@@ -1,0 +1,62 @@
+const v0 = [0.1901952745174783,774866.5203499729,-3.0,-703370.913822879,3.0,-2.2250738585072014e-308,-1e-15,-6.788666576979878,0.5235552526536615];
+[-1000.0,2.0,0.0,0.3802064145453983,1000000000000.0,-5.0];
+[880184.3986596761,0.47435983166849427,-1.7976931348623157e+308,332130.2538560792,-872674.3796242449,-596383.6397700957,2.104226692522298,-1.480530112551109e+307];
+[-111709400,-4294967295,21725,58223,-8];
+[-2,-536870912,255,2,9223372036854775807];
+[-7,-1176];
+try {
+    new gc(52);
+    let v17 = 15;
+    with (v17) {
+        v17 <<= v17;
+    }
+    new Uint8ClampedArray(106);
+} catch(e19) {
+}
+try {
+    new Int32Array(14);
+} catch(e23) {
+}
+function f26() {
+    return 738;
+}
+class C28 {
+    1000 = "PI";
+}
+new C28();
+eval("");
+const t26 = "";
+t26[Set] = "g";
+let v35 = -4294967295n;
+function F36(a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    ++v35;
+}
+Symbol.toPrimitive;
+try {
+    new BigInt64Array(4);
+    ~4;
+    Reflect.construct(Uint32Array, v0);
+    ("getPrototypeOf").toUpperCase();
+} catch(e52) {
+}
+class C54 {
+}
+const v57 = Array(7);
+([10000,-35401,-2,-62079,536870888,3])["g"]();
+const v60 = new C54();
+class C61 {
+    constructor(a63, a64, a65) {
+        const v66 = this?.constructor;
+        try { new v66(a63, this, v57); } catch (e) {}
+        a63.g = a63;
+        const v68 = a65?.constructor;
+        try { new v68(); } catch (e) {}
+        try { a63.slice(7); } catch (e) {}
+        try { a65.reduce(a65); } catch (e) {}
+    }
+}
+const v72 = new C61();
+for (const v73 of "species") {
+    Object.defineProperty(v72, v60, { writable: true, configurable: true, value: v72 });
+}

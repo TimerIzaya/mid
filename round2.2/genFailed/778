@@ -1,0 +1,52 @@
+class C3 {
+    static m(a5, a6) {
+        h = this;
+        try {
+            a5 = "resize";
+        } catch(e7) {
+        }
+        return "resize";
+    }
+    set a(a9) {
+        a9.g *= a9;
+        const t11 = "resize";
+        const v13 = delete t11[4096];
+        const t12 = "resize";
+        delete t12[256];
+        let [,v15] = "resize";
+        Reflect.construct(v15, [Reflect,v13], v15);
+    }
+}
+const v19 = new C3();
+new C3();
+const v21 = new C3();
+function f28(a29, a30) {
+    const o45 = {
+        toString(a32, a33) {
+            a32 >>> a33;
+            function F35(a37, a38, a39, a40) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = a33;
+                } catch(e41) {
+                }
+            }
+            const v42 = new F35(a30, "sticky", this, 8);
+            new F35(a33, v42, "sticky", 57924);
+            new F35(a33, C3, "undefined", 57924);
+            return a30;
+        },
+        "h": a29,
+        ["sticky"]: 47494,
+    };
+    return o45;
+}
+const v46 = f28(v19, "sticky");
+f28(v21, "resize");
+const v48 = f28(v19, "undefined");
+("undefined")[4];
+C3["m"](C3, v46);
++484640530;
+Math.fround(v48);
+Math.round(v48);
+Object.defineProperty(v46, "h", { get: f28 });

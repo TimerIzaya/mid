@@ -1,0 +1,31 @@
+class C3 {
+    static n(a5, a6) {
+        %VerifyType(-4.022591021531701);
+        super.g += -4.022591021531701;
+        [this,a5,-4.022591021531701,this,5];
+        [-7,a6];
+        [a5];
+        return a5;
+    }
+    static #d = 5;
+    c;
+    b;
+    #b;
+}
+const t14 = -4.022591021531701;
+const v10 = new t14();
+new C3();
+new C3();
+try {
+    new Int32Array("bigint");
+} catch(e19) {
+}
+try {
+    new BigUint64Array(v10);
+} catch(e23) {
+}
+try {
+    new Float32Array(2);
+} catch(e27) {
+}
+/[abc+?]/vi;

@@ -1,0 +1,24 @@
+try {
+    new Int16Array(2);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(2);
+} catch(e14) {
+}
+try {
+    new Uint16Array(55);
+} catch(e18) {
+}
+const v20 = [Uint16Array,32845n,2,[32845n,null,32845n,Uint16Array,-702326.9434630985],32845n];
+const v21 = [2,55];
+for (let v22 = 0; v22 < 65; v22++) {
+    let v23 = v21[3658965945];
+    ({"e":v22,"g":v23,} = v23);
+}
+%VerifyType(55);
+v20 ** -1.7976931348623157e+308;
+let {"length":v25,} = v21;
+try { new Uint8ClampedArray(null, null, v25, ...-8n, v25); } catch (e) {}
+const v28 = Symbol.replace;
+v21[v28] = v28;

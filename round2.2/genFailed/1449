@@ -1,0 +1,55 @@
+class C1 {
+    static {
+        const v3 = undefined && this;
+        const v4 = undefined ** v3;
+        function F5(a7, a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = undefined;
+            } catch(e9) {
+            }
+            try {
+                this.h = v3;
+            } catch(e10) {
+            }
+        }
+        new F5(undefined, undefined);
+        new F5(undefined, v4);
+        new F5(v4, undefined);
+    }
+}
+const v14 = new C1();
+const v15 = new C1();
+const v16 = new C1();
+/w/mgsuy;
+/a(?:b)ua(?=b)c/mgsvi;
+/re\1\2(a(?:\1(b\1\2))\2)\1/dy;
+const v21 = new WeakSet();
+class C22 extends C1 {
+    static #valueOf(a24, a25, a26) {
+        try {
+            v15.__proto__ = v16;
+        } catch(e27) {
+        }
+        return v14;
+    }
+    b;
+    f;
+    3;
+    static [v21];
+    10000;
+    static #f = v14;
+}
+new C22();
+const v29 = new C22();
+const v30 = new C22();
+try {
+    v29.fuck(v30, v15);
+} catch(e32) {
+}
+try {
+    C22 <<= C22;
+} catch(e33) {
+}
+throw v15;
+try { v21(v30, v30, C1, WeakSet); } catch (e) {}

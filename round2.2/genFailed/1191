@@ -1,0 +1,28 @@
+const v0 = [];
+let v1 = 10;
+try {
+    new Uint8Array(v1);
+} catch(e4) {
+}
+try {
+    new Float64Array(8);
+} catch(e8) {
+}
+try {
+    new Int8Array(255);
+} catch(e12) {
+}
+let v16;
+try {
+const t0 = 8;
+v16 = t0(Uint8Array, Int8Array, v1);
+} catch (e) {}
+try {
+    v1 >>= 65537;
+} catch(e17) {
+}
+let v18;
+try { v18 = v16.valueOf(Uint8Array, 255, v0, Float64Array); } catch (e) {}
+const v19 = v1 + v18;
+v0[v19];
+v16[Symbol.hasInstance] = v19;

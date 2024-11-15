@@ -1,0 +1,35 @@
+const v6 = /kr(?:a+){0,0}(?:a?)*/dvyi;
+/ufoo(?!bar)baz*/uyi;
+const v8 = /T/mgsduyi;
+function f9(a10, a11) {
+    const o12 = {
+        5: a11,
+        "a": v8,
+        8: "undefined",
+        [5n]: a10,
+        0: "2147483649",
+        "c": "g",
+        "g": "g",
+        ...a10,
+        [-102104026n]: v8,
+        [-2]: a10,
+    };
+    return o12;
+}
+const v13 = f9("undefined", "2147483649");
+const v14 = f9("2147483649", 10000n);
+const v15 = f9("2147483649", v6);
+for (const v16 in "g") {
+    const v17 = ("g")[7];
+    let v18;
+    try { v18 = v17(v13); } catch (e) {}
+    try {
+        v18 >>= v17;
+    } catch(e19) {
+    }
+}
+Object.defineProperty("2147483649", 2147483647, { configurable: true, get: f9, set: f9 });
+try {
+    v6[v14] = v15;
+} catch(e20) {
+}

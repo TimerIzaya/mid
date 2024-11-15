@@ -1,0 +1,36 @@
+const v0 = [];
+let v1 = 8;
+try {
+    new Float64Array(v1);
+} catch(e4) {
+}
+try {
+    new Int16Array(2090);
+} catch(e8) {
+}
+try {
+    new BigInt64Array(9);
+} catch(e12) {
+}
+try {
+    new Float64Array(128);
+} catch(e16) {
+}
+try {
+    new Float64Array(2);
+} catch(e20) {
+}
+try {
+    new Uint32Array(129);
+} catch(e24) {
+}
+const v26 = new Set();
+try {
+    v26.size = v1;
+} catch(e27) {
+}
+for (let v28 = 0; v28 < 32; v28++) {
+    v0["p" + v28] = v28;
+}
++-2147483648 - Float64Array;
+!16 ** v1--;

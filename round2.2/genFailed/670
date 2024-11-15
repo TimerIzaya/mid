@@ -1,0 +1,77 @@
+class C3 {
+    m(a5) {
+        try {
+            new Float32Array(1700);
+        } catch(e9) {
+        }
+        try {
+            new BigUint64Array(1024);
+        } catch(e13) {
+        }
+        try {
+            new BigUint64Array(33);
+        } catch(e17) {
+        }
+        return Float32Array;
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+new C3();
+function f21(a22, a23) {
+    const o36 = {
+        toString(a25, a26, a27) {
+            const o30 = {
+                "maxByteLength": 3416327650,
+            };
+            const v32 = new ArrayBuffer(65, o30);
+            try {
+                new Float32Array(v32);
+            } catch(e35) {
+            }
+            return 36076;
+        },
+    };
+    return o36;
+}
+f21(v19, v19);
+const v38 = f21(v19, C3);
+const v39 = f21(v18, -9223372036854775807);
+const v40 = /[Ka(?=bbb|bb)c]/gsvi;
+/[^a+b]/guyi;
+const v42 = /a+(?<!)a*b|c+/uyi;
+class C43 extends f21 {
+    static d = v42;
+    set h(a45) {
+        v19 || v18;
+        try {
+            ("2031267114").padStart(-9223372036854775807);
+        } catch(e48) {
+        }
+    }
+    #e = v38;
+    n(a50, a51) {
+        try {
+            super[v40] = v39;
+        } catch(e52) {
+        }
+        return a51;
+    }
+}
+new C43();
+const v54 = new C43();
+new C43();
+const v56 = f21(v18, v38);
+%PrepareFunctionForOptimization(f21);
+f21(v18, v38);
+f21(v18, v38);
+%OptimizeFunctionOnNextCall(f21);
+const v59 = f21(v18, v38);
+C3 / v59;
+Object.defineProperty(v56, v54, { configurable: true, get: f21, set: f21 });
+f21(C43, v59);
+const o65 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o65);

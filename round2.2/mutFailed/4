@@ -1,0 +1,102 @@
+let v1 = 512n;
+function f3(a4, a5) {
+    const o23 = {
+        "e": a5,
+        valueOf(a7) {
+            d = this;
+            function f8(a9, a10, a11, a12) {
+                try { a5(); } catch (e) {}
+                this << a12;
+                return a12;
+            }
+            const v15 = f8(538644418n, a7, a7, a4);
+            let v17 = 10;
+            let v18 = -1.7976931348623157e+308;
+            v15 >> v17;
+            const v20 = v17--;
+            v18--;
+            v20 | v18;
+            return v20;
+        },
+    };
+    return o23;
+}
+f3(-12n, -12n);
+f3(-12n, 538644418n);
+const v26 = f3(-12n, -12n);
+function f27() {
+    return v26;
+}
+try {
+    new BigUint64Array(15);
+} catch(e31) {
+}
+try {
+    new Float64Array(257);
+} catch(e35) {
+}
+try {
+    new Uint8Array(10);
+} catch(e39) {
+}
+try {
+    new Float32Array(2);
+} catch(e43) {
+}
+try {
+    new Int16Array(1609);
+} catch(e47) {
+}
+try {
+    new Float64Array(0);
+} catch(e51) {
+}
+try {
+    new Uint16Array(255);
+} catch(e55) {
+}
+try {
+    new Float64Array();
+} catch(e59) {
+}
+try {
+    new Float32Array();
+} catch(e63) {
+}
+let v69;
+try {
+const t0 = 257;
+v69 = t0(6804);
+} catch (e) {}
+async function* f70(a71, a72) {
+    a72 - 15;
+    const o77 = {
+        "execution": "async",
+        "type": "major",
+    };
+    gc(o77);
+    const v79 = v69.__proto__;
+    var f = 1024;
+    const o80 = {
+    };
+    o80.h = 475706.3264717425;
+    const o81 = {
+    };
+    o81.d = 1000000000.0;
+    try {
+        const o82 = {
+        };
+        o82.g = v79;
+    } catch(e83) {
+    }
+    await a71;
+    yield 6;
+    return a71;
+}
+let v86 = f70(Float32Array, v69);
+[,v1,v86,...v86] = v86;
+const o90 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o90);

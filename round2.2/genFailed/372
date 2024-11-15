@@ -1,0 +1,24 @@
+function f12() {
+    return 9007199254740990;
+}
+try {
+    new Uint32Array(4096);
+} catch(e16) {
+}
+try {
+    new Float64Array(12);
+} catch(e20) {
+}
+try {
+    new BigUint64Array(3868);
+} catch(e24) {
+}
+for (let v25 = 0; v25 < 96; v25++) {
+}
+const t17 = "U";
+t17[0] &= 1e-15;
+let v31 = Reflect.construct(BigUint64Array, [-1645953056], Uint32Array);
+try {
+    v31 = BigUint64Array;
+} catch(e32) {
+}

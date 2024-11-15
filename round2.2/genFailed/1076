@@ -1,0 +1,73 @@
+const v1 = new Map();
+function f2(a3) {
+    const o15 = {
+        [v1]: a3,
+        m(a5) {
+            const o7 = {
+            };
+            try {
+                o7.f = Map;
+            } catch(e8) {
+            }
+            try {
+                const o9 = {
+                };
+                o9.f = Map;
+                o9.a = Map;
+            } catch(e10) {
+            }
+            try {
+                const o11 = {
+                };
+                o11.f = Map;
+                o11.a = Map;
+                o11.h = this;
+            } catch(e12) {
+            }
+            try {
+                const o13 = {
+                };
+                o13.f = Map;
+                o13.a = Map;
+                o13.h = v1;
+            } catch(e14) {
+            }
+            return Map;
+        },
+    };
+    return o15;
+}
+f2(v1);
+let v17 = f2(Map);
+const v18 = f2(f2);
+class C22 extends f2 {
+    256;
+    static [v18] = Map;
+    static {
+        super.m(v1, this);
+        f2(this);
+        %PrepareFunctionForOptimization(f2);
+        f2(this);
+        f2(this);
+        %OptimizeFunctionOnNextCall(f2);
+        f2(this);
+    }
+}
+new C22();
+new C22();
+new C22();
+try {
+    v17 = v18;
+} catch(e32) {
+}
+try {
+    v1.keys();
+} catch(e34) {
+}
+Object.defineProperty(v18, v1, { configurable: true, enumerable: true, get: f2, set: f2 });
+try {
+    const o35 = {
+    };
+    f2(o35);
+} catch(e37) {
+}

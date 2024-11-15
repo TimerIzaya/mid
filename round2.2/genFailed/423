@@ -1,0 +1,80 @@
+try {
+    new BigInt64Array(3);
+} catch(e3) {
+}
+try {
+    new Int8Array(1000);
+} catch(e7) {
+}
+try {
+    new Int8Array(249);
+} catch(e11) {
+}
+class C12 extends Int8Array {
+    constructor(a14, a15) {
+        super(a15, a15, a15);
+        this[Symbol.match];
+    }
+    m(a20, a21, a22, a23) {
+        try { this.filter(a23, a23); } catch (e) {}
+        const v25 = a23?.[249];
+        const o26 = {
+        };
+        try {
+            o26.f = v25;
+        } catch(e27) {
+        }
+        try {
+            const o28 = {
+            };
+            o28.f = v25;
+            o28.d = 1000;
+        } catch(e29) {
+        }
+        try {
+            const o30 = {
+            };
+            o30.f = v25;
+            o30.d = 1000;
+            o30.c = 1000;
+        } catch(e31) {
+        }
+        try {
+            const o32 = {
+            };
+            o32.f = v25;
+            o32.d = 1000;
+            o32.h = BigInt64Array;
+        } catch(e33) {
+        }
+        return 3;
+    }
+}
+const v34 = new C12(249, 249);
+new C12(249, 1000);
+const v36 = new C12(1000, 249);
+class C37 extends BigInt64Array {
+    static valueOf(a39, a40, a41) {
+        [a41];
+        [Int8Array,v36];
+        [BigInt64Array];
+        return 249;
+    }
+    static #g;
+    #e;
+    static h;
+    268435456 = v34;
+    g;
+}
+new C37();
+new C37();
+new C37();
+Math.asin(249);
+const v51 = 249 + 268435456;
+const v52 = v51 * 249;
+v51 >>> 249;
+~249;
+try {
+    C12[v51] = v52;
+} catch(e55) {
+}

@@ -1,0 +1,45 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = "isSafeInteger";
+    } catch(e6) {
+    }
+    try {
+        this.g = a5;
+    } catch(e7) {
+    }
+    try {
+        this.a = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3("undefined");
+const v10 = new F3("isSafeInteger");
+new F3("isSafeInteger");
+try {
+    new Int32Array(0);
+} catch(e15) {
+}
+try {
+    new Int8Array(4);
+} catch(e19) {
+}
+try {
+    new Uint8ClampedArray(110);
+} catch(e23) {
+}
+let v24;
+try {
+const t0 = 110;
+v24 = t0("isSafeInteger", v9);
+} catch (e) {}
+{
+    let v25;
+    try { v25 = v24(v9); } catch (e) {}
+    v25[v9] ||= 4;
+    let v28 = 4294967295;
+    Math.abs(v10);
+    --v28;
+    Math.sign(v25);
+    944854600 % v28;
+}

@@ -1,0 +1,56 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.e = this;
+    try {
+        this.e = 14;
+    } catch(e3) {
+    }
+    try {
+        F0 &= F0;
+    } catch(e7) {
+    }
+    try {
+        this.b = 14;
+    } catch(e8) {
+    }
+    try {
+        this.a = 14;
+    } catch(e9) {
+    }
+}
+const v10 = new F0();
+new F0();
+const v12 = v10 instanceof F0;
+const v15 = v12 || F0;
+v12 * v12;
+!v12;
+Math.imul(F0, v12);
+-v12;
+Math.acosh(F0);
++v12;
+new F0();
+const v23 = [-389630187,26571,1073741824,861239442,-9007199254740991];
+[-209973185,-277012065,29211,-65535,14279,9223372036854775807,1442672801];
+const v25 = [-1871051307,65536,-4294967296,7,4294967296,51686,-4294967295];
+try { v25.push(v23); } catch (e) {}
+try { ("finally").trimLeft(); } catch (e) {}
+Object.defineProperty("isConcatSpreadable", 6, { writable: true, configurable: true, enumerable: true, value: 9007199254740990 });
+("finally").length;
+1 & v25;
+try {
+    F0 = v15;
+} catch(e35) {
+}
+function F36(a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    a38 % a38;
+    this.h = a38;
+}
+F36.name;
+const v42 = new F36(1073741823);
+new F36(9007199254740990);
+try {
+    v42.__proto__ = v42;
+} catch(e44) {
+    e44.stack = e44;
+}

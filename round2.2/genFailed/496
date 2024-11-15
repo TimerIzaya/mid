@@ -1,0 +1,62 @@
+let v1 = 400813099;
+let v3 = 64;
+try {
+    new BigUint64Array(v3);
+} catch(e6) {
+}
+try {
+    new Float64Array(16);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(16);
+} catch(e14) {
+}
+class C18 extends BigInt64Array {
+    255 = v1;
+    #f = v3;
+    static #p(a20, a21, a22, a23) {
+        const o26 = {
+        };
+        try {
+            o26.e = 16;
+        } catch(e27) {
+        }
+        try {
+            const o28 = {
+            };
+            o28.e = 16;
+            o28.h = a23;
+        } catch(e29) {
+        }
+        try {
+            const o30 = {
+            };
+            o30.e = 16;
+            o30.h = a23;
+            o30.d = this;
+        } catch(e31) {
+        }
+        try {
+            const o32 = {
+            };
+            o32.e = 16;
+            o32.h = a23;
+            o32.c = a22;
+        } catch(e33) {
+        }
+        return this;
+    }
+}
+new C18();
+new C18();
+const v36 = new C18();
+v36["includes"](Float64Array, 1073741823);
+try {
+    v3 += -8;
+} catch(e39) {
+}
+try {
+    v1 = v3;
+} catch(e40) {
+}

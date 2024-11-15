@@ -1,0 +1,39 @@
+try {
+    new Int32Array(7);
+} catch(e3) {
+}
+try {
+    new Int16Array(4069);
+} catch(e7) {
+}
+try {
+    new Int8Array(990);
+} catch(e11) {
+}
+function f12() {
+    return 4069;
+}
+class C13 extends Int16Array {
+    #toString(a15, a16, a17) {
+        try {
+            super[a17] = Int32Array;
+        } catch(e18) {
+        }
+        return a17;
+    }
+    static #h = 990;
+    static c = 4069;
+    71;
+    static g = Int32Array;
+}
+new C13();
+const v20 = new C13();
+const v21 = new C13();
+function f22() {
+    return 4069;
+}
+for (let v23 = 0; v23 < 32; v23++) {
+    v20["p" + v23] = v23;
+}
+let {"buffer":v26,"byteOffset":v27,"h":v28,} = v21;
+Reflect.construct(Int32Array, [Reflect,v27,4069], Int16Array);

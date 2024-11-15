@@ -1,0 +1,41 @@
+const v1 = new WeakSet();
+try {
+    new Float32Array(3115);
+} catch(e5) {
+}
+try {
+    new Int8Array(78);
+} catch(e9) {
+}
+try {
+    new Float64Array(4);
+} catch(e13) {
+}
+class C14 extends Float32Array {
+    #h;
+    14;
+    constructor(a16, a17, a18) {
+        super(a17, a16, 3115);
+        return a17;
+        function f19(a20) {
+            return a16;
+        }
+        class C21 extends f19 {
+            [Float64Array] = a17;
+            #e = v1;
+            #h;
+        }
+    }
+}
+new C14(3115, 4, 3115);
+new C14(4, 4, 4);
+new C14(78, 4, 4);
+for (let v25 = 0; v25 < 32; v25++) {
+    v1["p" + v25] = v25;
+}
+class C28 extends WeakSet {
+    f;
+}
+new C28();
+new C28();
+new C28();

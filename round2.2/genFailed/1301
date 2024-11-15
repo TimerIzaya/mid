@@ -1,0 +1,31 @@
+const v1 = new Set();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 23491n;
+    } catch(e8) {
+    }
+    try {
+        this.d = 23491n;
+    } catch(e9) {
+    }
+    try {
+        this.c = a7;
+    } catch(e10) {
+    }
+}
+new F5(7n);
+const v12 = new F5(v1);
+new F5(Set);
+const v18 = RegExp(F5);
+[] = v1;
+const v19 = 28439n - F5;
+try {
+    v18.multiline = v19;
+} catch(e20) {
+}
+const v21 = v1.__proto__;
+try {
+    v12[v18] = v21;
+} catch(e22) {
+}

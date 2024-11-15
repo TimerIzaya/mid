@@ -1,0 +1,52 @@
+class C3 {
+    [-2];
+    valueOf(a5, a6) {
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a9;
+            } catch(e11) {
+            }
+            try {
+                this.d = a5;
+            } catch(e12) {
+            }
+            try {
+                this.e = a9;
+            } catch(e13) {
+            }
+        }
+        const v14 = new F7("l", F7);
+        new F7("l", -15);
+        new F7(v14, -15);
+        return a5;
+    }
+}
+const v17 = new C3();
+const v18 = new C3();
+const v19 = new C3();
+const v20 = [v17,v17,v19];
+const v21 = [-15,v17,v18,v20];
+let v22 = [v21,v21,C3,v20];
+const v24 = new WeakMap();
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v20;
+    } catch(e31) {
+    }
+    try {
+        this.c = v17;
+    } catch(e32) {
+    }
+}
+new F25(v19, v20, v22, v21);
+new F25(v17, v21, v24, v20);
+const v35 = new F25(v17, v20, v18, v22);
+const v36 = ("function")[6];
+new WeakMap(v35, v36, v24, v17, v36, ...v22);
+let v40 = 27833;
+--v40;
+++v22 + (-6998 & v40);
+!v40;
+"l" & v22;

@@ -1,0 +1,45 @@
+try {
+    new Float32Array(7);
+} catch(e6) {
+}
+try {
+    new Int32Array(256);
+} catch(e10) {
+}
+try {
+    new Int16Array(241);
+} catch(e14) {
+}
+class C15 {
+    [Int32Array];
+    [-11989] = Int32Array;
+    #b;
+    [256];
+    3555;
+    static g = Int32Array;
+    m(a17, a18, a19, a20) {
+        try { a20["n"](Int16Array); } catch (e) {}
+        return Float32Array;
+    }
+    static #d = -4294967297;
+    static e = -4294967297;
+    static #a = -11989;
+    6;
+}
+const v23 = new C15();
+new C15();
+const v25 = new C15();
+const v29 = new Float32Array(-4294967297);
+switch (-2147483648) {
+    default:
+        try {
+        const t0 = -11989;
+        t0(v25, 256, v29);
+        } catch (e) {}
+        break;
+}
+%VerifyType(Int32Array);
+try {
+    v23.m(v23, -11989, 7, 2.2347268365561384);
+} catch(e32) {
+}

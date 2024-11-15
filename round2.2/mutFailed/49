@@ -1,0 +1,67 @@
+const v1 = new WeakMap();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v1;
+    } catch(e6) {
+    }
+}
+const v7 = new F2(v1, F2);
+const v8 = new WeakMap(v1, v7);
+const v9 = new v1(v1, v7);
+function F10(a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v15 = [16,-28174,268435439];
+    try {
+        a13[v15] = Int16Array;
+    } catch(e17) {
+    }
+    try {
+        this.c = F2;
+    } catch(e18) {
+    }
+}
+class C20 {
+    g;
+    1 = 1000000000000.0;
+    static {
+        -1.7976931348623157e+308 !== this;
+        try {
+            this.e = this;
+        } catch(e24) {
+        }
+    }
+}
+new C20();
+const v26 = new C20();
+class C28 {
+    static {
+        class C30 extends C20 {
+            [v26] = C30;
+        }
+    }
+}
+try {
+    6475n << 10n;
+    Uint8Array << Uint8Array;
+    (10n).fuck();
+} catch(e37) {
+}
+new F10(v9, v8, v9);
+new F10(F2, v9, v8);
+new F10(v8, v7, v8);
+[1.0];
+const v42 = [5.0];
+[330.9828946864902,-533916.7719198093,-1000000.0,0.4581995632161161,-1000000000000.0,-1000000000000.0,-1000000000.0,-484123.1315554988,-1000000.0];
+for (let v45 = 0; v45 < 5; v45++) {
+    const v46 = new Float64Array(v45);
+    const o51 = {
+        get e() {
+            const v49 = v42 && -4096;
+            let v50;
+            try { v50 = v49.o(); } catch (e) {}
+            return v50;
+        },
+    };
+    Object.defineProperty(v46, "length", { writable: true, configurable: true, enumerable: true, value: v45 });
+}

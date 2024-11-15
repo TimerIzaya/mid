@@ -1,0 +1,72 @@
+try {
+    new Uint32Array(129);
+} catch(e6) {
+}
+try {
+    new Uint32Array(5);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(11);
+} catch(e14) {
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a17;
+    } catch(e20) {
+    }
+    try {
+        this.e = a18;
+    } catch(e21) {
+    }
+    try {
+        this.g = Uint32Array;
+    } catch(e22) {
+    }
+}
+new F15(520.6157633462326, 129, 129);
+new F15(520.6157633462326, 1000000000000.0, 129);
+new F15(520.6157633462326, 1000000000000.0, 5);
+class C26 {
+    b = Uint8ClampedArray;
+    static 4294967295 = 520.6157633462326;
+    valueOf(a28, a29, a30, a31) {
+        class C32 extends Uint32Array {
+            #d = a28;
+            3422738375 = 520.6157633462326;
+            [a30];
+        }
+        new C32();
+        const v34 = new C32();
+        new C32();
+        return v34;
+    }
+    static [11] = F15;
+}
+const v36 = new C26();
+new C26();
+const v38 = new C26();
+v36[v38];
+Uint8ClampedArray ** v38;
+const o41 = {
+};
+new Proxy(C26, o41);
+const v45 = Symbol.iterator;
+const o54 = {
+    [v45]() {
+        let v47 = 10;
+        const o53 = {
+            next() {
+                v47--;
+                const v51 = v47 == 0;
+                const o52 = {
+                    "done": v51,
+                    "value": v47,
+                };
+                return o52;
+            },
+        };
+        return o53;
+    },
+};

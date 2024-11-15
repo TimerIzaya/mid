@@ -1,0 +1,53 @@
+try {
+    new Int16Array(Int16Array);
+} catch(e3) {
+}
+try {
+    new Uint32Array(11);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(0);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    #d;
+    #toString(a14, a15, a16, a17) {
+        try {
+            this.#toString(a15);
+        } catch(e19) {
+        }
+        return Uint8ClampedArray;
+    }
+    2196;
+    #f;
+    #e;
+    #g;
+}
+const v20 = new C12();
+const v21 = new v20();
+const v22 = new C12();
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = C12;
+    } catch(e28) {
+    }
+    try {
+        this.a = v20;
+    } catch(e29) {
+    }
+}
+new F23(v20, 11, 129);
+new F23(v22, 129, 11);
+new F23(v21, 0, 0);
+function F33(a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v38 = new F33(F33, F33, F33);
+function f39(a40, a41, a42) {
+    return f39;
+}
+for (let i = 0; i < 5; i++) {
+    Object.defineProperty(v38, "h", { configurable: true, enumerable: true, get: f39, set: Int16Array });
+}

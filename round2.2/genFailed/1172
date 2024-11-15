@@ -1,0 +1,26 @@
+let v7 = -28945;
+try {
+    new Float64Array(2790);
+} catch(e13) {
+}
+try {
+    new BigInt64Array(64);
+} catch(e17) {
+}
+try {
+    new Float32Array(3828);
+} catch(e21) {
+}
+let v22;
+try {
+const t0 = 3828;
+v22 = t0(BigInt64Array, -52656, -65535);
+} catch (e) {}
+v22[64] += -9223372036854775807;
+let v23;
+try { v23 = v22.raw(534062812, -65535, 3828); } catch (e) {}
+v22?.[3];
+try {
+    v7 = v23;
+} catch(e28) {
+}

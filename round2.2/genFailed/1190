@@ -1,0 +1,65 @@
+function f3(a4, a5) {
+    const o16 = {
+        valueOf(a7) {
+            const o8 = {
+            };
+            try {
+                o8.d = a7;
+            } catch(e9) {
+            }
+            try {
+                const o10 = {
+                };
+                o10.d = a7;
+                o10.e = a7;
+            } catch(e11) {
+            }
+            try {
+                const o12 = {
+                };
+                o12.d = a7;
+                o12.e = a7;
+                o12.f = a4;
+            } catch(e13) {
+            }
+            try {
+                const o14 = {
+                };
+                o14.d = a7;
+                o14.e = a7;
+                o14.c = a7;
+            } catch(e15) {
+            }
+            return a7;
+        },
+    };
+    return o16;
+}
+f3(10000, 536870888);
+const v18 = f3(536870888, 10000);
+f3(536870888, 1000);
+try {
+    new BigUint64Array(1);
+} catch(e23) {
+}
+try {
+    new Int8Array(1024);
+} catch(e27) {
+}
+try {
+    new Float32Array(144);
+} catch(e31) {
+}
+let v32;
+try { v32 = v18.valueOf(1000); } catch (e) {}
+for (const v33 of v32) {
+    try {
+        v33.length = 2;
+    } catch(e35) {
+    }
+}
+Object.defineProperty(v18, 1024, { configurable: true, value: 1 });
+try {
+    v32 = f3;
+} catch(e36) {
+}

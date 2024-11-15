@@ -1,0 +1,44 @@
+try {
+    new Float64Array(12);
+} catch(e3) {
+}
+try {
+    new Float64Array(210);
+} catch(e7) {
+}
+try {
+    new Float32Array(1024);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o22 = {
+        "g": Float64Array,
+        "a": a16,
+        m(a18, a19) {
+            try {
+                super[a18] = a15;
+            } catch(e20) {
+            }
+            try { a15(); } catch (e) {}
+            return Float64Array;
+        },
+        [1024]: a14,
+        3080440050: a15,
+        "e": a16,
+    };
+    return o22;
+}
+f12(12, 210, Float64Array, 12);
+f12(12, 210, f12, 1024);
+f12(1024, 12, 210, 210);
+const t30 = "bigint";
+t30.length <<= 210;
+const v33 = 9n % Float64Array;
+Reflect.construct(Float64Array, ["bigint",210,1024], f12);
+[Reflect,Float64Array,210,f12];
+f12(1024, v33, Float32Array, 12);
+%PrepareFunctionForOptimization(f12);
+f12(1024, v33, Float32Array, 12);
+f12(1024, v33, Float32Array, 12);
+%OptimizeMaglevOnNextCall(f12);
+f12(1024, v33, Float32Array, 12);

@@ -1,0 +1,61 @@
+function f6(a7, a8, a9, a10) {
+    const o17 = {
+        ..."546298652",
+        __proto__: a7,
+        set h(a12) {
+            const v14 = Symbol.toPrimitive;
+            const o16 = {
+                [v14]() {
+                    super.c &&= a9;
+                    Symbol[8] = this;
+                    return "NEGATIVE_INFINITY";
+                },
+            };
+        },
+        9: "hbZQY",
+    };
+    return o17;
+}
+const v18 = f6("NEGATIVE_INFINITY", -9007199254740992, -711551099, -9007199254740992);
+const v19 = f6("hbZQY", -711551099, -711551099, -9007199254740992);
+f6("hbZQY", -711551099, 1543627644, 1543627644);
+class C24 {
+    static p(a26, a27, a28) {
+        function f29(a30, a31) {
+            function f33(a34) {
+                try {
+                    new Uint16Array(22);
+                } catch(e38) {
+                }
+                try {
+                    new BigUint64Array(127);
+                } catch(e42) {
+                }
+                try {
+                    new Int8Array(3570);
+                } catch(e46) {
+                }
+            }
+            this.onmessage = f33;
+            try { a31(512); } catch (e) {}
+            try {
+                this[1231] = v19;
+            } catch(e48) {
+            }
+        }
+        const v51 = ["NEGATIVE_INFINITY",a27];
+        const o52 = {
+            "arguments": v51,
+            "type": "function",
+        };
+        new Worker(f29, o52);
+        return v18;
+    }
+}
+new C24();
+new C24();
+const v56 = new C24();
+if (10 !== v56) {
+    Object.defineProperty("NEGATIVE_INFINITY", -9007199254740992, { configurable: true, get: f6 });
+} else {
+}

@@ -1,0 +1,37 @@
+true && true;
+function f5(a6) {
+    const v7 = ~a6;
+    v7 ^ v7;
+    const o16 = {
+        __proto__: v7,
+        [2368n](a10, a11) {
+            const v12 = `
+                try {
+                    a6 = this;
+                } catch(e13) {
+                }
+            `;
+            return eval(v12);
+        },
+    };
+    o16[2368] = o16;
+    return o16;
+}
+const v17 = f5(2368n);
+v17[2368] = v17;
+const t21 = 256n;
+const v18 = t21(256n);
+v18[2368] = v18;
+const v19 = f5(v18);
+v19[2368];
+let v21 = v19[2368];
+v21--;
+const v24 = -2n / -2n;
+-2n * v24;
+let v30;
+try { v30 = ("length").valueOf(); } catch (e) {}
+v30[1] = v24;
+class C31 {
+    static ["length"] = "x0w0X";
+}
+C31.name;

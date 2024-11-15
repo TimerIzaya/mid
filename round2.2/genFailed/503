@@ -1,0 +1,74 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 1000165931;
+    } catch(e3) {
+    }
+    try {
+        this.g = 1000165931;
+    } catch(e4) {
+    }
+    try {
+        this.h = 1000165931;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+const v13 = new WeakSet();
+function f14() {
+    return v8;
+}
+function f15(a16, a17) {
+    const o21 = {
+        get b() {
+            try {
+                this.valueOf = a16;
+            } catch(e19) {
+            }
+            a16 ^ this;
+            return a17;
+        },
+        "f": a16,
+        "e": a16,
+        "a": 65535,
+        8: v7,
+        __proto__: a16,
+        536870912: v13,
+        [65535]: a17,
+    };
+    return o21;
+}
+const v22 = f15(f15, v13);
+f15(v8, v6);
+const v24 = f15(65535, v6);
+class C25 {
+    get h() {
+        try {
+            super[this] = this;
+        } catch(e27) {
+        }
+        try {
+            v8.toString = f14;
+        } catch(e28) {
+        }
+        return v24;
+    }
+    [f14] = 1084069810;
+    static d = F0;
+    268435456;
+    static #c;
+}
+new C25();
+const v30 = new C25();
+const v31 = new C25();
+v22 & v31;
+%VerifyType(v30);
+C25.d?.f;
+let v37 = -34819;
+const v38 = -2;
+++v37;
+let v40 = +2;
+--v40;
+v38 ^ v38;

@@ -1,0 +1,35 @@
+try {
+    new Uint16Array(10);
+} catch(e3) {
+}
+try {
+    new Int16Array(257);
+} catch(e7) {
+}
+try {
+    new Uint32Array(155);
+} catch(e11) {
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = Int16Array;
+    } catch(e20) {
+    }
+    try {
+        this.g = Uint16Array;
+    } catch(e21) {
+    }
+}
+new F15(155, 155, 155);
+new F15(10, 10, 10);
+new F15(155, 155, 10);
+1.0 || 1445703359;
+let v29 = Math.asinh(1.0);
+Math.random();
+Math.hypot(1445703359);
+-1445703359 ** 1445703359;
+const v36 = v29--;
+41902 ** v29;
+Math.sqrt(v36);
+Math.atan(v29);

@@ -1,0 +1,39 @@
+try {
+    new Uint8ClampedArray(3);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(7);
+} catch(e7) {
+}
+try {
+    new Int32Array(20);
+} catch(e11) {
+}
+class C12 extends Uint8ClampedArray {
+    f = 20;
+    #f = 3;
+    set c(a14) {
+        this in this;
+    }
+    static 9;
+    h = 3;
+    static a = Uint8ClampedArray;
+    [Int32Array] = BigUint64Array;
+    [20] = 20;
+}
+new C12();
+new C12();
+new C12();
+try {
+    new Float64Array(108);
+} catch(e22) {
+}
+try {
+    new Uint32Array(3914);
+} catch(e26) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e30) {
+}

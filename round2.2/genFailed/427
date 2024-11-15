@@ -1,0 +1,60 @@
+try {
+    new Uint16Array(103);
+} catch(e3) {
+}
+try {
+    new Float64Array(3681);
+} catch(e7) {
+}
+try {
+    new Uint8Array(3641);
+} catch(e11) {
+}
+class C12 extends Float64Array {
+    static #toString(a14, a15, a16) {
+        try {
+            const o17 = {
+            };
+            this.fuck(o17, -47180n, [a16,Float64Array,Uint8Array,o17,3681]);
+        } catch(e21) {
+        }
+        return a14;
+    }
+    9;
+}
+const v22 = new C12();
+const v23 = new C12();
+const v24 = new C12();
+function f25(a26, a27, a28, a29) {
+    const o37 = {
+        [a26](a31, a32, a33) {
+            try {
+                super.p(this, a32, v23, this);
+            } catch(e35) {
+            }
+            C12 + this;
+            return a29;
+        },
+        [v22]: 103,
+        [3641]: a27,
+        578857304: 103,
+        "h": C12,
+    };
+    return o37;
+}
+let v38 = f25(v24, v23, v23, 103);
+f25(v24, v23, v24, 103);
+const v40 = f25(v22, v22, v23, 103);
+const o41 = {
+    "a": v40,
+    3793: v40,
+    ...v38,
+};
+try {
+    C12[3641] = 103;
+} catch(e42) {
+}
+try {
+    v38 >>= v40;
+} catch(e43) {
+}

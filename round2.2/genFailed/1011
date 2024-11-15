@@ -1,0 +1,57 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = f0;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+const v6 = new F1();
+const v8 = new Map();
+function F9(a11, a12, a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a11;
+    } catch(e15) {
+    }
+    try {
+        this.e = v6;
+    } catch(e16) {
+    }
+    try {
+        this.d = v8;
+    } catch(e17) {
+    }
+}
+const v18 = new F9(v6, v5, v5, v4);
+new F9(v6, v6, v4, v6);
+new F9(v4, v6, v6, v6);
+try {
+    new Uint8ClampedArray(1024);
+} catch(e24) {
+}
+try {
+    new Uint32Array(4);
+} catch(e28) {
+}
+try {
+    new Float64Array(15);
+} catch(e32) {
+}
+const v34 = new Date();
+if (257n > v6) {
+    try {
+        Date(15);
+    } catch(e40) {
+    }
+} else {
+    let v41;
+    try { v41 = v5.getInt16(v18, v6, Map); } catch (e) {}
+    throw v41;
+    256 + v34;
+    256 >>> 256;
+    v34 + v41;
+}

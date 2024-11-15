@@ -1,0 +1,18 @@
+const v4 = new WeakSet();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v4;
+    } catch(e12) {
+    }
+}
+new F8(3, -2147483649);
+new F8(-2147483649, -2147483649);
+new F8(4294967296, 7);
+/a|b/dvyi;
+const v17 = /(?:foo)/msdui;
+/1/gv;
+for (const v23 of v4) {
+    try { v23(v23, 4294967296, v4, v23, v4); } catch (e) {}
+}
+v17[6] *= -2147483649;

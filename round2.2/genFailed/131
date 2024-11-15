@@ -1,0 +1,21 @@
+function f12() {
+    return 13;
+}
+function F13(a15, a16, a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 2147483649;
+    } catch(e19) {
+    }
+}
+const v20 = new F13(257n, 2, 257n, -33645);
+const v21 = new F13(-56668n, -33645, -13n, -2147483649);
+const v22 = new F13(-13n, 2, 257n, -2147483649);
+for (const v23 of v21) {
+    let v24 = 0;
+    do {
+        Object.defineProperty(v20, 2, { configurable: true, enumerable: true, set: f12 });
+        v22.g;
+        v24++;
+    } while (v24 < 1)
+}

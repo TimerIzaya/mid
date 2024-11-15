@@ -1,0 +1,19 @@
+try {
+    new Uint8ClampedArray(110);
+} catch(e9) {
+}
+try {
+    new Float32Array(5);
+} catch(e13) {
+}
+try {
+    new Uint8Array(6);
+} catch(e17) {
+}
+const v21 = 5 != "number";
+const v22 = new Uint8Array(-180860.15690765087, 110, 5, v21, v21);
+try {
+    const t15 = "number";
+    t15.__proto__ = v22;
+} catch(e26) {
+}

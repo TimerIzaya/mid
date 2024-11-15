@@ -1,0 +1,48 @@
+class C3 {
+    f;
+    g = "9";
+    get c() {
+        try { this(); } catch (e) {}
+        Date.now();
+        AggregateError("d");
+        Infinity - Infinity;
+        10000 === this;
+        const o18 = {
+            "c": 10000,
+            [10000](a14, a15, a16, a17) {
+            },
+        };
+        return 10000;
+    }
+    9 = Infinity;
+    static #a = C3;
+    e = "9";
+}
+const v19 = new C3();
+const v20 = new v19();
+function f21(a22, a23) {
+    const v25 = new Date();
+    v25.toTimeString();
+    return f21;
+}
+const v27 = new C3();
+class C28 extends C3 {
+    constructor(a30, a31, a32) {
+        super();
+        const o35 = {
+            "maxByteLength": 17,
+        };
+        const v37 = new SharedArrayBuffer(9, o35);
+        try {
+            new BigInt64Array(v37);
+        } catch(e40) {
+        }
+    }
+    65536;
+}
+const v41 = new C28(v27, v27, v19);
+const v42 = new C28(v41, v20, v41);
+new C28(v42, C3, v20);
+-14244 - 4294967295;
+Math.tan(Infinity);
+Math.sin(-4294967295);

@@ -1,0 +1,38 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static get d() {
+        try {
+            super[v1] = WeakSet;
+        } catch(e4) {
+        }
+        try {
+            super[WeakSet] = this;
+        } catch(e5) {
+        }
+        return this;
+    }
+    c = v1;
+    d = WeakSet;
+    #a;
+}
+new C2();
+new C2();
+const v8 = new C2();
+const v12 = [268435439,16];
+const v13 = [-2147019805,127,-2034503803,9715];
+[-9756,256,16,-9007199254740990,10000,13762,38238,4];
+let v15 = [-4,1088859688,8];
+[-4294967296,1730567796,1,-536870912,268435441];
+[-244834906];
+try {
+    v15 = v13;
+} catch(e18) {
+}
+v1 - v15;
+new WeakSet(C2);
+({"length":v15,} = v12);
+const v21 = new WeakSet(4.0, v1, v1, v8);
+try {
+    v21.length = 41;
+} catch(e23) {
+}

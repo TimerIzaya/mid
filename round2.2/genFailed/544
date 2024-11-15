@@ -1,0 +1,30 @@
+/[a\Sc(?<=a)Va\b!]/svyi;
+/ab|c/mv;
+/^OA/gsv;
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -1;
+    } catch(e16) {
+    }
+    try {
+        this.c = "-536870912";
+    } catch(e17) {
+    }
+}
+new F12("1", 0.0);
+new F12("y", -1000.0);
+new F12("1", 0.0);
+let v21 = 0;
+while (v21 < 10) {
+    continue;
+    const o27 = {
+        "maxByteLength": 1000,
+    };
+    const v29 = new SharedArrayBuffer(3, o27);
+    try {
+        new BigUint64Array(v29);
+    } catch(e32) {
+    }
+    v21++;
+}

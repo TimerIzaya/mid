@@ -1,0 +1,67 @@
+function f0() {
+}
+class C1 extends f0 {
+    #e = f0;
+    static get a() {
+        new Array(3);
+        return -5.948650236761518e+307;
+    }
+    [f0];
+    #h;
+    #f;
+}
+const v9 = new C1();
+const v10 = new C1();
+const v11 = new C1();
+function f12(a13) {
+    const o21 = {
+        ...a13,
+        "b": a13,
+        toString(a15, a16) {
+            if (a13 <= this) {
+                try {
+                    a16[a13] = this;
+                } catch(e18) {
+                }
+            } else {
+                let v19;
+                try { v19 = v9.log1p(); } catch (e) {}
+                try { v19(v10, a13, C1); } catch (e) {}
+            }
+            return a15;
+        },
+    };
+    return o21;
+}
+const v22 = f12(v10);
+const v23 = f12(v11);
+const v24 = f12(v10);
+function f25(a26, a27, a28) {
+    const o39 = {
+        "g": v23,
+        "b": v23,
+        "f": a27,
+        [v9](a30, a31, a32, a33) {
+            let v34 = 0;
+            while (v34 < 9) {
+                Object.defineProperty(a31, v24, { get: f0, set: f12 });
+                v22 >>> v23;
+                v34++;
+            }
+            return f0;
+        },
+    };
+    return o39;
+}
+const v40 = f25(v24, v22, C1);
+f25(v22, v9, v40);
+const v42 = f25(v24, v40, v9);
+const o43 = {
+    "a": v42,
+    [v22]: f12,
+    [v23]: v9,
+};
+o43.a;
+const v46 = [[C1,v40],v22];
+[o43,v10,v46,v46,f25];
+f0();

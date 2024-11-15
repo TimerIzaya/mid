@@ -1,0 +1,86 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 50282;
+    } catch(e3) {
+    }
+    try {
+        this.f = 50282;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+const v7 = new F0();
+function f8() {
+    return v7;
+}
+function f12() {
+    return v7;
+}
+class C16 extends F0 {
+    static {
+        try { this["n"](f8, -7, 9n); } catch (e) {}
+        C16 >>> 1073741824n;
+    }
+    set h(a22) {
+        function F23(a25, a26, a27, a28) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = F0;
+            } catch(e29) {
+            }
+        }
+        new F23(v7, 1073741824n, -7, -7);
+        new F23(this, 1073741824n, 10000, 10000);
+        new F23(v6, 9n, -7, 10000);
+    }
+    9;
+    f;
+}
+new C16();
+new C16();
+const v35 = new C16();
+let v38 = Int16Array;
+let v40 = WeakMap;
+const v41 = new v40();
+for (let v42 = 0; v42 < 74; v42++) {
+    let {"a":v43,"f":v44,...v45} = v6;
+}
+try { v7.concat(v41, v35); } catch (e) {}
+delete v7[9n];
+class C48 extends v40 {
+}
+new C48();
+const v50 = new C48();
+class C51 {
+    #h;
+    constructor(a53, a54, a55, a56) {
+        function f57(a58, a59, a60) {
+            function f62(a63) {
+                Math.sqrt();
+                a55 + a56;
+                a56 ^ 573;
+            }
+            this.onmessage = f62;
+            ({"c":a56,"f":v38,"onmessage":v40,} = this);
+            a53.b;
+        }
+        const v73 = [a53,a55];
+        try {
+            super.m(2147483647);
+        } catch(e75) {
+        }
+        F0 !== -1073741824n;
+        const o77 = {
+            "arguments": v73,
+            "type": "function",
+        };
+        new Worker(f57, o77);
+    }
+}
+new C51(v50, 3481, v40, v50);
+const o80 = {
+};
+const v82 = new Proxy(C51, o80);
+v50[v82];

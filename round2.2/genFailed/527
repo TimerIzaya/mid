@@ -1,0 +1,21 @@
+class C3 {
+    constructor(a5, a6) {
+        try {
+            const t3 = "irF6";
+            t3.toString = a5;
+        } catch(e8) {
+        }
+    }
+    static #e;
+    #b;
+    [1000000000.0];
+}
+const v9 = new C3(1.7976931348623157e+308, 1000000000.0);
+new C3(v9, 1000000000.0);
+new C3(C3, 1.7976931348623157e+308);
+v9[4] = "-65536";
+const v15 = ("irF6").normalize(..."-65536", ..."getSeconds", ..."h", 1.7976931348623157e+308);
+try {
+    v15.charAt(2147483648);
+} catch(e21) {
+}

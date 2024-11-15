@@ -1,0 +1,39 @@
+const v2 = new Array(1882);
+class C3 extends Array {
+    static {
+        Object.defineProperty(Array, "prototype", { set: Array });
+        Array > 1882;
+        try { this.isInteger(Array); } catch (e) {}
+    }
+    static #toString(a8, a9) {
+        function f10() {
+            return a9;
+        }
+        this[7] *= a8;
+        return a9;
+    }
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+class C14 extends C3 {
+    constructor(a16, a17, a18) {
+        super();
+        const v20 = [Array];
+        Reflect.apply(a16.reduce, v2, v20);
+    }
+    #f = Array;
+    [v11];
+    h = Array;
+    [v2] = v12;
+}
+const v23 = new C14(v2, v13, v13);
+const v24 = new C14(v2, v2, v23);
+new C14(v12, v13, v2);
+const v26 = `
+    const v27 = v12[1];
+    [] = v11;
+    Object.defineProperty(v23, v27 >> v27, { configurable: true, enumerable: true, get: Array });
+    try { v27(v27, v24, C3, v26, v27); } catch (e) {}
+`;
+eval(v26);

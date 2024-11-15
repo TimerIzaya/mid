@@ -1,0 +1,73 @@
+try {
+    new BigInt64Array(11);
+} catch(e3) {
+}
+try {
+    new Float32Array(154);
+} catch(e7) {
+}
+try {
+    new Uint8Array(256);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(156, BigInt64Array);
+} catch(e15) {
+}
+try {
+    new Uint32Array(5);
+} catch(e19) {
+}
+try {
+    const v23 = [1984034651,536870912,-6,-199858140,12];
+    const v24 = [-32299,5];
+    v24.__proto__ = [-12];
+    if (Uint8ClampedArray != 7) {
+        let v27 = v23[2];
+        try {
+            v27 = 5;
+        } catch(e28) {
+        }
+    } else {
+        try {
+        const t0 = 1000.0;
+        t0();
+        } catch (e) {}
+    }
+    v23.concat(...v24, 1000.0, ...v23);
+    new Uint16Array(7);
+} catch(e32) {
+}
+class C35 {
+    static #valueOf(a37, a38) {
+    }
+    static #b;
+    static e;
+    #c = -16n;
+    static [-2147483648n] = -2147483648n;
+}
+new C35();
+const v40 = new C35();
+const v41 = new C35();
+class C42 extends v41 {
+    static set d(a44) {
+        const v45 = super.e;
+        this.a;
+        Float32Array(v45 ** -2147483648n, v41);
+    }
+    deleteProperty(a50, a51, a52) {
+        v41[-2147483648n] = this;
+        C35();
+    }
+}
+let v54;
+try { v54 = v40.n(C42); } catch (e) {}
+function f55(a56, a57, a58) {
+    return f55;
+}
+const v61 = ["function",v54];
+const o62 = {
+    "arguments": v61,
+    "type": "function",
+};
+new Uint16Array(f55, o62);

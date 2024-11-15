@@ -1,0 +1,28 @@
+const v7 = [["toString","-4294967295",772347372,772347372]];
+const v8 = ["toString"];
+class C9 {
+    ["toString"] = 0;
+    static #toString(a11, a12, a13, a14) {
+        const v18 = a14 && 3.045429315880301e+307;
+        (268435456 / 3.045429315880301e+307) << 3.045429315880301e+307;
+        Math.log10(268435456);
+        Math.cos(v18);
+        return a12;
+    }
+    #c;
+    #h;
+    static #d;
+}
+const v23 = new C9();
+new C9();
+new C9();
+new Set();
+const o35 = {
+    p(a29, a30, a31, a32) {
+        try { new a30(v8, v23, a30, v7, a29); } catch (e) {}
+        try { a30("toString"); } catch (e) {}
+        return v7;
+    },
+};
+v8 >> o35;
+Object.defineProperty(C9, v23, { writable: true, configurable: true, value: 772347372 });

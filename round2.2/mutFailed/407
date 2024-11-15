@@ -1,0 +1,18 @@
+try {
+    new BigInt64Array(1350);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(6);
+} catch(e16) {
+}
+try {
+    new Int32Array(14);
+} catch(e20) {
+}
+function f22(a23, a24) {
+    BigInt64Array << 512;
+    return a24;
+}
+Uint32Array[Symbol.iterator] = f22;
+Uint16Array.from(Uint32Array);

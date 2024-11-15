@@ -1,0 +1,54 @@
+try {
+    new Int16Array(16);
+} catch(e3) {
+}
+try {
+    new Float32Array(2);
+} catch(e7) {
+}
+try {
+    new Float32Array(2587);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    constructor(a14, a15, a16, a17) {
+        super(16);
+        try {
+            super.g = Float32Array;
+        } catch(e18) {
+        }
+    }
+    10;
+    static #a = Float32Array;
+    static #f = Float32Array;
+    [2587];
+    static 1024;
+    e;
+    #g;
+    a = Float32Array;
+}
+new C12(2587, 2, 2587, C12);
+const v20 = new C12(16, 2587, 2587, 16);
+new C12(2, 2587, 2587, v20);
+function f25() {
+    return C12;
+}
+const v26 = /[na\sca{0}\u{12345}a[bc]d]/mduyi;
+/(a\bc[2^xxx$?])/gdui;
+/xyz{0,1}?/suyi;
+const o29 = {
+    "call": f25,
+    "construct": f25,
+    "defineProperty": f25,
+    "deleteProperty": f25,
+    "getOwnPropertyDescriptor": f25,
+    "getPrototypeOf": f25,
+    "isExtensible": f25,
+    "ownKeys": f25,
+    "preventExtensions": f25,
+    "setPrototypeOf": f25,
+};
+try {
+    new Proxy(v26, o29);
+} catch(e32) {
+}

@@ -1,0 +1,19 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -60790;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+v6 instanceof F0;
+try {
+    v5.f = F0;
+} catch(e14) {
+}
+"toTimeString" || v4;
+v5 > v4;
+const v18 = new WeakSet();
+v18 / 268435441n;

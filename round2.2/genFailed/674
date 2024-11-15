@@ -1,0 +1,14 @@
+new Array(128);
+function f9() {
+    return 536870888;
+}
+function f10() {
+    return f9;
+}
+let v12 = -5.0;
+Object.defineProperty(Array(-1), 1853, { get: f10 });
+try {
+    v12 = -1000000000.0;
+} catch(e15) {
+}
+b = -42396;

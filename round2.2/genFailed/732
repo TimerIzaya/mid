@@ -1,0 +1,94 @@
+const v1 = new Map();
+function f2() {
+    return Map;
+}
+function f3() {
+    return f2;
+}
+class C4 {
+    static e;
+    valueOf(a6, a7) {
+        try {
+            new Map(this);
+        } catch(e9) {
+        }
+        function F10(a12, a13, a14) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = this;
+            } catch(e15) {
+            }
+            try {
+                this.e = a7;
+            } catch(e16) {
+            }
+        }
+        new F10(Map, a6, Map);
+        const v18 = new F10(v1, f2, a6);
+        new F10(Map, this, v18);
+        return v18;
+    }
+}
+const v20 = new C4();
+let v21 = new C4();
+const v22 = new C4();
+const v23 = [2123051888];
+const v24 = [-2147483649];
+const v25 = [235352002,-2147483649,2065218771,29404,1073741823,536870912,-1,-1073741824];
+class C26 extends f2 {
+    #b = v22;
+    static {
+        Object.defineProperty(v24, "g", { configurable: true, enumerable: true, get: f2, set: f3 });
+        const v28 = f3 % this;
+        try {
+            super.localeCompare();
+        } catch(e30) {
+        }
+        const o31 = {
+        };
+        try {
+            o31.h = v20;
+        } catch(e32) {
+        }
+        try {
+            const o33 = {
+            };
+            o33.h = v20;
+            o33.f = v20;
+        } catch(e34) {
+        }
+        try {
+            const o35 = {
+            };
+            o35.h = v20;
+            o35.f = v20;
+            o35.c = v23;
+        } catch(e36) {
+        }
+        try {
+            const o37 = {
+            };
+            o37.h = v20;
+            o37.f = v20;
+            o37.g = v28;
+        } catch(e38) {
+        }
+    }
+}
+new C26();
+new C26();
+let v41 = new C26();
+delete C26?.e;
+try {
+    f2();
+} catch(e44) {
+}
+if (v25 > C26) {
+    ({"b":f3,"c":v41,} = v22);
+    v1 && v21;
+} else {
+    Math.log2(622420649);
+    const v50 = ++v21;
+    Math.floor(v21);
+    Math.acos(v50);
+}

@@ -1,0 +1,45 @@
+const v0 = [NaN,722523.253748666,818.3515846618116,0.14020484741701777,-496882.70564210234,2.0,1000000000000.0,-743913.9054843362,0.0,-5.698773177882566e+307];
+const v1 = [801731.1792142349,-1e-15,1.0,-Infinity,2.220446049250313e-16];
+const v2 = [2.220446049250313e-16,-868.7657489823683,0.7574467275937915,4.880318908723229e+307,-2.0];
+function f3(a4) {
+    const o19 = {
+        "c": v1,
+        "h": a4,
+        1952: a4,
+        ...a4,
+        [a4]: v2,
+        __proto__: v1,
+        toString(a6) {
+            try {
+                new BigInt64Array(256);
+            } catch(e10) {
+            }
+            try {
+                new Uint8Array(79);
+            } catch(e14) {
+            }
+            try {
+                new Float32Array(9);
+            } catch(e18) {
+            }
+            return a4;
+        },
+    };
+    return o19;
+}
+const v20 = f3(v2);
+f3(v0);
+f3(v0);
+function f23() {
+    return v20;
+}
+function f31(a32, a33, a34) {
+    try {
+        a32.valueOf = f23;
+    } catch(e35) {
+    }
+    return a32;
+}
+const v36 = f31("valueOf", 512, "valueOf");
+Object.defineProperty(v36, "length", { get: f3, set: f3 });
+v36[-9];

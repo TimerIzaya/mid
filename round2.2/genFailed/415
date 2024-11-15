@@ -1,0 +1,34 @@
+function f0() {
+}
+const v2 = new WeakMap();
+function f3(a4, a5) {
+    const o14 = {
+        __proto__: v2,
+        [a4](a7, a8) {
+            const o12 = {
+                "execution": "sync",
+                "type": "major",
+            };
+            gc(o12);
+            return f0;
+        },
+        ...v2,
+    };
+    return o14;
+}
+f3(f0, f3);
+f3(f3(v2, WeakMap), v2);
+/A((\xed\xa0\x80))\x02((\xed\xa0\x80))\x02+/gsu;
+/.+/gdvi;
+/9/mgdu;
+let v22 = -728.129218576491;
+try {
+    v22 = 3.0;
+} catch(e24) {
+}
+for (let [v25,v26,v27,v28] of 3.0) {
+    try {
+        v2.has(3.0);
+    } catch(e30) {
+    }
+}

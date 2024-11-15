@@ -1,0 +1,32 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a6;
+    } catch(e7) {
+    }
+}
+new F3(128, -1771023259);
+new F3(-5, -1771023259);
+new F3(128, -1771023259);
+try {
+    new Int32Array(3);
+} catch(e14) {
+}
+try {
+    new Float32Array(127);
+} catch(e18) {
+}
+try {
+    new Float32Array(204);
+} catch(e22) {
+}
+throw 204;
+const o27 = {
+    valueOf() {
+        [1e-15,-0.0,0.09935707045328335,-34659.216457865434,-2.0];
+        [-0.0,358807.78132284875,507703.8380855173];
+        [1.4511857514687453e+308,-5.0];
+        return 204;
+    },
+};
+-1771023259 >= 128;

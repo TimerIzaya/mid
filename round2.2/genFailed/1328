@@ -1,0 +1,59 @@
+try {
+    new Uint8Array(1024);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(9);
+} catch(e7) {
+}
+try {
+    new Int8Array(9);
+} catch(e11) {
+}
+class C12 extends Int8Array {
+    m(a14, a15, a16, a17) {
+        let {"b":v18,"buffer":v19,"byteLength":v20,} = this;
+        const v21 = this[4294967296];
+        let v23;
+        try { v23 = v21["is"](Int8Array, v20, a14, v21, this); } catch (e) {}
+        try {
+            const t19 = "is";
+            t19[Uint8ClampedArray] = v23;
+        } catch(e24) {
+        }
+        return a17;
+    }
+    a = Int8Array;
+    static #b = 9;
+    1787255226 = 9;
+}
+new C12();
+new C12();
+const v27 = new C12();
+try {
+    new Float64Array(1973);
+} catch(e31) {
+}
+try {
+    new Int32Array(127);
+} catch(e35) {
+}
+let v37 = Float32Array;
+try {
+    new v37(8);
+} catch(e39) {
+}
+v27.buffer;
+const o44 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o44);
+let v48 = 65535;
+const v49 = --v37;
+const v50 = --v37;
+Math.asinh(v37);
+Math.round(v37);
+v50 >>> v49;
+++v48;
+v48 + v49;

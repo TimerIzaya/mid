@@ -1,0 +1,33 @@
+const v0 = /B\xed\xb0\x80/mgd;
+const v1 = /y?/gsdyi;
+const v2 = /j(?:a?)?/sy;
+function f9(a10, a11, a12) {
+    const o19 = {
+        109: v2,
+        "c": 2.0,
+        m(a14, a15) {
+            try {
+                v0.length = 222;
+            } catch(e17) {
+            }
+            a14[-13278n];
+            return this;
+        },
+        __proto__: v1,
+    };
+    return o19;
+}
+f9(950469210n, 5.080632610377879, 2.0);
+const v21 = f9(-13278n, 5.080632610377879, 5.080632610377879);
+const v22 = f9(950469210n, 5.080632610377879, 5.080632610377879);
+try {
+    f9(-256n, 2.0, 5.080632610377879);
+} catch(e25) {
+}
+v0[v21];
+Object.defineProperty(v22, 10, { configurable: true, get: f9, set: f9 });
+const o30 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o30);

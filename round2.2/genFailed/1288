@@ -1,0 +1,20 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -14n;
+    } catch(e7) {
+    }
+}
+new F3(-3n, -14n);
+new F3(-14n, -3n);
+const v10 = new F3(-3n, -3n);
+try {
+    v10[0] = 11;
+} catch(e17) {
+}
+for (const v18 of -14n) {
+    try {
+        new F3(1674346024n, -3n);
+    } catch(e21) {
+    }
+}

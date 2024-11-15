@@ -1,0 +1,23 @@
+function f3(a4) {
+    const o11 = {
+        ...a4,
+        [a4](a6) {
+            const v8 = [];
+            const v9 = a4.trimEnd;
+            Reflect.apply(v9, v9, v8);
+            return a4;
+        },
+        ["b"]: a4,
+        ...a4,
+        "e": a4,
+        ...a4,
+    };
+    return o11;
+}
+const t16 = f3("Cd9zZ", "b");
+["b",t16("a", f3("a", "a"))];
+[["a"],"a"];
+const o23 = {
+};
+const t21 = [3.679164854132262,o23];
+t21.length *= 64;

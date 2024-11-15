@@ -1,0 +1,47 @@
+function f6(a7, a8) {
+    const o12 = {
+        "f": a8,
+        set h(a10) {
+            super.d;
+        },
+        ...a8,
+        "g": 2450,
+    };
+    return a8;
+}
+const v13 = f6(512, -4096);
+%PrepareFunctionForOptimization(-15);
+f6();
+f6(-4096, 2450);
+%OptimizeFunctionOnNextCall(f6);
+f6(512, v13);
+const v20 = [-15,-15,-2.2250738585072014e-308];
+const v21 = [0.5048303946801661,v20,-481.8436067284242,-481.8436067284242];
+const v22 = [v21];
+function f23(a24, a25) {
+    const o26 = {
+        "h": -481.8436067284242,
+        "f": a24,
+        "e": v22,
+        "g": -9223372036854775808,
+        "b": v20,
+        ...v21,
+        __proto__: v21,
+        ...v20,
+        "c": v13,
+        [0.5048303946801661]: 268435439,
+    };
+    return o26;
+}
+f23(f23, -15);
+f23(f23, -15);
+f23(-15, -9223372036854775808);
+class C31 {
+}
+const v32 = new C31();
+class C33 {
+}
+const v34 = new C33();
+for (const v35 of "species") {
+    Object.defineProperty(2450, v32, { writable: true, configurable: true, value: v34 });
+}

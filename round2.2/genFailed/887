@@ -1,0 +1,19 @@
+function f0() {
+}
+try {
+    new Int32Array(6);
+} catch(e7) {
+}
+try {
+    new Float64Array(1);
+} catch(e11) {
+}
+try {
+    new Uint32Array(505);
+} catch(e15) {
+}
+let v19 = -6n ^ 43127;
+~43127;
+const v21 = Math.cos(0.5908269723968963);
+--v19;
+try { v21.o(Uint32Array, -6n); } catch (e) {}

@@ -1,0 +1,40 @@
+try {
+    new Uint32Array(1294);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(3);
+} catch(e10) {
+}
+try {
+    new Float64Array(10);
+} catch(e14) {
+}
+class C15 extends BigInt64Array {
+    static set g(a17) {
+        try {
+            this.fuck(BigInt64Array, this, this);
+        } catch(e19) {
+        }
+    }
+    [1294] = Float64Array;
+    #b;
+    static h = -10;
+    #c;
+}
+const v20 = new C15();
+const v21 = new C15();
+const v22 = new C15();
+("iterator")[C15];
+function f27(a28, a29, a30) {
+    const o31 = {
+        __proto__: a29,
+        "c": v22,
+        [-2147483647]: -672715821,
+        ...v20,
+    };
+    return o31;
+}
+f27(-10, v21, "lastIndexOf");
+f27(-672715821, v22, "o");
+f27(1294, v21, "iterator");

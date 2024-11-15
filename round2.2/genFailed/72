@@ -1,0 +1,49 @@
+const v1 = [null];
+const v2 = [v1,v1,v1,v1];
+const v3 = [v2,v2,v1,v1];
+class C4 {
+    [null] = v1;
+    a = v2;
+    2147483648 = null;
+    static [null];
+    #b;
+    #p(a6) {
+        let v8 = -6;
+        Math.expm1(null);
+        const v10 = v1 && a6;
+        const v11 = v8--;
+        Math.ceil(null);
+        v8 >>> v11;
+        Math.ceil(a6);
+        v10 >>> null;
+        return this;
+    }
+}
+const v16 = new C4();
+const v17 = new C4();
+const v18 = new C4();
+class C20 extends C4 {
+    static p(a22, a23, a24) {
+        %VerifyType(a23);
+        super.a;
+        h = v1;
+        return v3;
+    }
+    #a = v17;
+    [v18] = null;
+    #d = v2;
+    static #e;
+}
+new C20();
+new C20();
+new C20();
+[0,-2147483647,10];
+[9007199254740990,536870887,-47076,9007199254740991,16,7,-9007199254740992,16,1073741825];
+[10000,32073];
+[C4,v16];
+v2 instanceof C4;
+try {
+    C4.valueOf = C4;
+} catch(e34) {
+}
+++C20;

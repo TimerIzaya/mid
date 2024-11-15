@@ -1,0 +1,18 @@
+[1477035658,13366,1562987770,-5];
+const v1 = [536870887,-13,-9007199254740991,268435456,1405825581,-21146];
+[4,1024,-4178,-9007199254740992,-1742264288,6,4096,2093762968,9007199254740991];
+const v7 = new WeakSet();
+function f11() {
+    return 10n;
+}
+f11();
+Object.defineProperty(v1, "c", { configurable: true, enumerable: true, get: f11 });
+new WeakSet(v7);
+const o16 = {
+    "maxByteLength": 1024,
+};
+const v18 = new SharedArrayBuffer(1024, o16);
+try {
+    new BigUint64Array(v18);
+} catch(e21) {
+}

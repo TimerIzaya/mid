@@ -1,0 +1,55 @@
+class C3 {
+    get b() {
+        255 && this;
+        let [] = "forEach";
+        return this;
+    }
+    d;
+    static {
+        function F10(a12, a13, a14, a15) {
+            if (!new.target) { throw 'must be called with new'; }
+            a12 < a12;
+            a13--;
+            a14++;
+            ~a15;
+            const v20 = this?.constructor;
+            try { new v20(7, a14, 7); } catch (e) {}
+            a14 >>> a14;
+            a15 & a15;
+        }
+        F10.length = F10;
+        new F10(7, 9007199254740990, 9007199254740990, 9007199254740990);
+        new F10(7, 1288811186, 9007199254740990, 7);
+        new F10(1288811186, 7, 7, 7);
+        function F27(a29, a30) {
+            if (!new.target) { throw 'must be called with new'; }
+            const v31 = this?.__defineGetter__;
+            try { v31(F27, F27); } catch (e) {}
+            a29 + a29;
+        }
+        new F27(9007199254740990, 1288811186);
+        const v35 = new F27(7, 9007199254740990);
+        const v36 = v35.isPrototypeOf;
+        try { v36(v35); } catch (e) {}
+        try {
+            this.__proto__ = this;
+        } catch(e38) {
+        }
+    }
+}
+new C3();
+new C3();
+new C3();
+try {
+    new BigUint64Array(255);
+} catch(e45) {
+}
+try {
+    new Float32Array(1534);
+} catch(e49) {
+}
+try {
+    new Float64Array(169);
+} catch(e53) {
+}
+new Uint32Array(Uint32Array);

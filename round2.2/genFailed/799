@@ -1,0 +1,46 @@
+function f3(a4) {
+    const o8 = {
+        ..."number",
+        ["toString"]: "bigint",
+        ["number"]: a4,
+        "e": "number",
+        get h() {
+            try { new this("number", this, this, this, this); } catch (e) {}
+            function f7() {
+                return this;
+            }
+            return this;
+        },
+    };
+    return o8;
+}
+f3("toString");
+let v10 = f3("number");
+f3("toString");
+const v12 = [v10,"toString",v10,v10];
+[v10,["bigint"],v10];
+try {
+    const t22 = "number";
+    t22[1485531436] = -3.0;
+} catch(e18) {
+}
+v10--;
+const o23 = {
+    "apply": f3,
+    "call": f3,
+    "construct": f3,
+    "defineProperty": f3,
+    "deleteProperty": f3,
+    "get": f3,
+    "getOwnPropertyDescriptor": f3,
+    "getPrototypeOf": f3,
+    "has": f3,
+    "isExtensible": f3,
+    "ownKeys": f3,
+    "set": f3,
+    "setPrototypeOf": f3,
+};
+try {
+    new Proxy(v12, o23);
+} catch(e26) {
+}

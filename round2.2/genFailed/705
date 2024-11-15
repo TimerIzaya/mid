@@ -1,0 +1,13 @@
+const v1 = new Date();
+-Infinity;
+try {
+    Date.valueOf = Date;
+} catch(e11) {
+}
+let {"a":v12,"h":v13,} = v1;
+try {
+    v13.a = 2017074147;
+} catch(e14) {
+}
+const v16 = [];
+Reflect.apply(v1.toJSON, Date, v16);

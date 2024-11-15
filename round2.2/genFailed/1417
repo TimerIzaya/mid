@@ -1,0 +1,48 @@
+try {
+    new Uint32Array(11);
+} catch(e3) {
+}
+try {
+    new Uint8Array(16);
+} catch(e7) {
+}
+try {
+    new Int32Array(6);
+} catch(e11) {
+}
+const v13 = new WeakMap();
+throw 16;
+const v17 = (a18, a19, a20) => {
+    const v21 = a20 << a19;
+    try { a18(v21, Int32Array, v13, a19); } catch (e) {}
+    return WeakMap;
+};
+const o23 = {
+};
+try {
+    o23.d = 6;
+} catch(e24) {
+}
+try {
+    const o25 = {
+    };
+    o25.d = 6;
+    o25.a = v13;
+} catch(e26) {
+}
+try {
+    const o27 = {
+    };
+    o27.d = 6;
+    o27.a = v13;
+    o27.g = 16;
+} catch(e28) {
+}
+try {
+    const o29 = {
+    };
+    o29.d = 6;
+    o29.a = v13;
+    o29.c = 16;
+} catch(e30) {
+}

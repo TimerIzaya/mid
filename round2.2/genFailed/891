@@ -1,0 +1,15 @@
+const v1 = [-1,-4096,268435441,6,4096,2147483648];
+const v2 = [-536870912,-16];
+const v3 = [-9007199254740992,22917,26821,-10];
+let v5 = 61418;
+let v10;
+try { v10 = new v3(v5, 128n, 128n, 128n, v2); } catch (e) {}
+try {
+    v5 &= -9;
+} catch(e11) {
+}
+const v14 = Reflect.construct(v10, [-9,1073741824n,v5,Reflect], v10);
+try {
+    v1.c = v14;
+} catch(e15) {
+}

@@ -1,0 +1,101 @@
+function f0() {
+}
+const v4 = ["string","-18947","4N8","string",f0];
+const v5 = [v4,v4,v4,v4,v4];
+let v6;
+try { v6 = v5.toLocaleString(); } catch (e) {}
+const v7 = ["4N8"];
+const v8 = "string" === v7;
+try {
+    const t9 = "string";
+    t9.length = 1;
+} catch(e10) {
+}
+if (v8) {
+    f0();
+    %PrepareFunctionForOptimization(f0);
+    f0();
+    f0();
+    %OptimizeMaglevOnNextCall(v6);
+    f0();
+} else {
+    v4[Symbol.split] = v7;
+}
+let v18 = 12332n;
+v18--;
+const v21 = 1654163878n <= 1654163878n;
+1233 === 1233;
+try {
+    new Uint8ClampedArray(1233);
+} catch(e26) {
+}
+Float32Array.d = v21;
+try {
+    const v29 = new Float32Array(1);
+    const v30 = v29[0];
+    const v31 = v29.constructor;
+    v31.d = v31;
+    class C32 extends v31 {
+        static b;
+        d = v8;
+        static 7 = 1;
+    }
+    v30[7] = C32;
+    new C32();
+} catch(e34) {
+}
+try {
+    new Int8Array(1);
+} catch(e38) {
+}
+new Int32Array(741889455);
+const v44 = [4.0,4.0,9.332498388236435e+306,1.0079923952040574e+308,-1000.0,3.0];
+-(-2147483647);
+function f51() {
+    return f51;
+}
+try { f51.call(Int8Array); } catch (e) {}
+const t57 = "sync";
+t57[3] = "sync";
+const o55 = {
+};
+function f56() {
+    return v7;
+}
+Object.defineProperty(o55, "execution", { writable: true, get: f56 });
+gc(o55);
+class C58 extends f51 {
+    static {
+        this.e = "string";
+        this.g = this;
+    }
+}
+Object.defineProperty(C58, "e", { enumerable: true, value: v21 });
+C58.e = C58;
+Math.expm1();
+try { ("b").match("b"); } catch (e) {}
+const v67 = C58.prototype.constructor;
+let v68;
+try { v68 = v67(); } catch (e) {}
+class C72 {
+}
+let v73;
+try { v73 = new C72(); } catch (e) {}
+gc();
+10496 - 10496;
+function f78(a79, a80, a81, a82) {
+    v73 >= a79;
+    const o84 = {
+        "f": "string",
+        "e": a80,
+        __proto__: v5,
+    };
+    return o84;
+}
+f78.caller = v6;
+const v85 = f78(v18, 1.193368772092651e+308, v44, "string");
+try { v85.reverse(); } catch (e) {}
+const v87 = f78(v68, Int32Array, 1233, "sync");
+v87[0] = v87;
+f78(-1073741824n, Math, "Pk", C72);
+-10496;

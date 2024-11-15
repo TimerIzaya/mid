@@ -1,0 +1,55 @@
+-Infinity;
+try { Array.isArray(-2147483648n); } catch (e) {}
+129 != 129;
+const v10 = new Array(129);
+v10.b = v10;
+const v11 = [-2147483648,-4096,-1111098373,512,-5,-37617315,8];
+const v12 = [2147483647,10,24392,536870889];
+v12.valueOf = Array;
+const v13 = [0];
+function f14(a15, a16, a17, a18) {
+    a15 << a15;
+    a17 !== a17;
+    try { a18.reduce(3n); } catch (e) {}
+    const o36 = {
+        [3n]: 3n,
+        valueOf(a23, a24, a25, a26) {
+            try {
+                a26 ^= a24;
+            } catch(e27) {
+            }
+            return 3n;
+        },
+        n(a29, a30) {
+            const o34 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o34);
+            return a16;
+        },
+    };
+    try { o36.n(o36, -2.324359356027229e+307); } catch (e) {}
+    return o36;
+}
+try { new f14(v12, 3n, 129, v12); } catch (e) {}
+f14(-2147483648n, -2147483648n, 6n, v13);
+f14(-2147483648n, 6n, v13, v10);
+const v41 = f14(-2147483648n, 6n, f14, v11);
+function f42() {
+    return Array;
+}
+Object.defineProperty(v41, "constructor", { writable: true, configurable: true, enumerable: true, get: f42 });
+try { ("1907013482").strike(); } catch (e) {}
+class C46 {
+    ["1907013482"] = C46;
+    5;
+    0 = "1907013482";
+}
+const v47 = v41?.constructor;
+try { new v47(443.91452255485115); } catch (e) {}
+const v49 = new C46();
+const o50 = {
+    ...v49,
+};
+o50[1907013482] = o50;

@@ -1,0 +1,59 @@
+function f0() {
+    const o7 = {
+        __proto__: "apply",
+        ["apply"]: -3.0,
+        "c": "string",
+        set f(a5) {
+            try {
+                a5.__proto__ = this;
+            } catch(e6) {
+            }
+        },
+        "g": "string",
+        ..."string",
+    };
+    o7.c = o7;
+    o7[4] = o7;
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+let v11 = 1710557844n;
+-(-4294967296n);
+-4294967296n + -4294967296n;
+v11--;
+5n == 5n;
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    a21 >> a21;
+    a22[3];
+    const v26 = a21 - a21;
+    v26 / v26;
+    a22[1] = a22;
+    const v28 = this?.constructor;
+    v28.arguments;
+    const v30 = v28?.constructor;
+    let v31;
+    try { v31 = new v30(5n); } catch (e) {}
+    v31.arguments = v31;
+    try { new v28(v11, v11, a23, v11); } catch (e) {}
+    a21 | a21;
+    a22[3];
+    a23[3] = a23;
+    try {
+        this.c = a23;
+    } catch(e35) {
+    }
+    try {
+        this.b = a23;
+    } catch(e36) {
+    }
+}
+new F18(v10, 5n, v9, v8);
+const v38 = new F18(v10, 5n, v10, v10);
+v38.a = v38;
+new F18(v8, 5n, v10, v9);
+const v40 = [257,0,-14,-99555629,-9223372036854775807,1200366484,2147483647,775316746,7];
+Int32Array.name;
+new Int32Array(v40);

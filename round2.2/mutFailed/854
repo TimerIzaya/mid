@@ -1,0 +1,49 @@
+try {
+    new BigInt64Array(10);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e7) {
+}
+try {
+    new Int8Array(1624);
+} catch(e11) {
+}
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 4;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(4, 10, BigInt64Array, 10);
+const v20 = new F12(4, 1624, BigInt64Array, 1624);
+new F12(1624, 10, v20, v20);
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = 4;
+    try {
+        this.b = a29;
+    } catch(e31) {
+    }
+}
+new F25(v20, -6, 4, v20);
+new F25(v19, 4, 1624, v20);
+new F25(v20, BigInt64Array, 4, v20);
+const v36 = [-0.0];
+function f37(a38, a39) {
+    ({"length":a39,} = v36);
+    const o44 = {
+        set f(a41) {
+        },
+        set d(a43) {
+        },
+    };
+    return o44;
+}
+v36.toString = f37;
+const v45 = [9011n];
+const v46 = [v36,v36,v36,v45];
+v45[v36];
+try { v46.find(4); } catch (e) {}

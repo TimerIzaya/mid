@@ -1,0 +1,59 @@
+try {
+    new Float32Array(257);
+} catch(e3) {
+}
+try {
+    new Int16Array(10);
+} catch(e7) {
+}
+try {
+    new Uint8Array(6);
+} catch(e11) {
+}
+class C12 {
+    set c(a14) {
+        super.e;
+        %VerifyType(10);
+        this && Uint8Array;
+        super.e;
+    }
+    constructor(a19, a20, a21, a22) {
+        let v23;
+        try { v23 = a20(); } catch (e) {}
+        v23[129] %= 10;
+    }
+    #a = Uint8Array;
+}
+let v24 = new C12(10, 10, 257, 6);
+const v25 = new C12(257, Uint8Array, 10, 10);
+const v26 = new C12(6, 10, 10, 6);
+function f27(a28, a29, a30, a31) {
+    const o38 = {
+        "e": a31,
+        [a30]: v24,
+        ...a30,
+        "b": a31,
+        "d": a28,
+        ...a30,
+        [6](a33, a34, a35, a36) {
+            try {
+                this[257] = a28;
+            } catch(e37) {
+            }
+            return v26;
+        },
+    };
+    return o38;
+}
+const v39 = f27(6, 10, C12, Int16Array);
+f27(10, 6, v39, f27(10, 6, v39, v24));
+try {
+    v24 ^= v25;
+} catch(e42) {
+}
+const v46 = v39 ** -223.81249288629726;
+Math.atanh(v39);
+v39 >>> v46;
+Math.cosh(-223.81249288629726);
+Math.expm1(-223.81249288629726);
+Math.asin(v39);

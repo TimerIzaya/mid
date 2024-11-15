@@ -1,0 +1,85 @@
+let v0 = 1;
+let v2 = 1058616839;
+try {
+    v0 &&= v2;
+} catch(e3) {
+}
+const o6 = {
+    "maxByteLength": 1347,
+};
+const v8 = new SharedArrayBuffer(1347, o6);
+try {
+    new Int8Array(v8);
+} catch(e11) {
+}
+class C12 {
+    static get c() {
+        Object.defineProperty(this, v0, { value: v0 });
+        let v14;
+        try { v14 = new this(8, this, this, v0, v2); } catch (e) {}
+        try {
+            v14.toString = v14;
+        } catch(e15) {
+        }
+        return this;
+    }
+    m(a17) {
+        try {
+            this[this] = this;
+        } catch(e18) {
+        }
+        try {
+            v2 = a17;
+        } catch(e19) {
+        }
+        return a17;
+    }
+}
+const v20 = new C12();
+const v21 = new C12();
+const v22 = new C12();
+function f23(a24, a25, a26, a27) {
+    const o33 = {
+        4: v0,
+        ...v21,
+        __proto__: C12,
+        get g() {
+            Object.defineProperty(a27, "h", { writable: true, value: this });
+            super[v22];
+            for (let v30 = 0; v30 < 32; v30++) {
+                a27["p" + v30] = v30;
+            }
+            return a25;
+        },
+        "e": a27,
+        [v20]: v22,
+    };
+    return o33;
+}
+const v34 = f23(v0, C12, v0, v20);
+const v35 = f23(8, v20, 8, v21);
+f23(v0, v0, v0, v21);
+[8];
+const v38 = [v2];
+[v38,v38];
+function f40(a41, a42, a43) {
+    const o55 = {
+        "h": v0,
+        [v35]: v38,
+        ...v34,
+        set f(a45) {
+            let v48 = 8;
+            const v49 = v48--;
+            const v50 = !851557932;
+            const v51 = -C12;
+            Math.log(v48);
+            Math.imul(v49, v50);
+            v49 ** v51;
+        },
+        "g": a43,
+    };
+    return o55;
+}
+f40(v20, 8, f40(v22, v2, f40));
+f40(v34, v0, C12);
+Math.atanh(0.8852546898875066);

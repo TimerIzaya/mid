@@ -1,0 +1,64 @@
+function f2() {
+    return Int32Array;
+}
+function f3(a4) {
+    try { a4["keyFor"](); } catch (e) {}
+}
+Object.defineProperty(Int32Array, 1, { enumerable: true, get: f2, set: f3 });
+try {
+    new Int32Array(2231);
+} catch(e8) {
+}
+function f11() {
+    return Int32Array;
+}
+function f12(a13) {
+    function F14(a16, a17) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = 2231;
+        } catch(e18) {
+        }
+        try {
+            this.b = a16;
+        } catch(e19) {
+        }
+    }
+    const v20 = new F14(a13, a13);
+    new F14(Int32Array, 24);
+    new F14(Int32Array, v20);
+}
+Object.defineProperty(Int32Array, 1, { get: f11, set: f12 });
+try { new Int32Array(Int32Array, 24, 2231); } catch (e) {}
+try {
+    new Int32Array(24);
+} catch(e25) {
+}
+let v26 = 11;
+v26++;
+try {
+    new Float32Array(v26);
+} catch(e30) {
+}
+[0,-11517,-9223372036854775807];
+[42289,1135728315,1707494923];
+[512,-52822,-1,6,-11,512,-9,50624];
+-288028.4913223643 / -288028.4913223643;
+let v37 = 146054.61811764818;
+v37--;
+function f39(a40, a41) {
+    a40.name = a40;
+    return a41;
+}
+const v43 = new Promise(f39);
+function f44(a45) {
+    class C46 {
+    }
+    C46.p = C46;
+    try { C46.hasOwnProperty(a45); } catch (e) {}
+    C46.bind().p();
+    return a45;
+}
+Object.defineProperty(v43, "constructor", { configurable: true, value: f44 });
+const v50 = v43.constructor;
+try { v50(); } catch (e) {}

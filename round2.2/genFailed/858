@@ -1,0 +1,43 @@
+function f0() {
+}
+class C4 {
+    [-4294967297] = f0;
+    o(a6) {
+        function f7(a8, a9) {
+            const o10 = {
+                [a6]: a9,
+            };
+            return o10;
+        }
+        f7(a6, 4294967295);
+        f7(-4294967297, 4294967295);
+        f7(a6, a6);
+        return this;
+    }
+    #g;
+}
+new C4();
+new C4();
+const v16 = new C4();
+const v17 = [f0,5,5];
+const v18 = [v17,v16,4294967295,v16,C4];
+[v18,v18];
+try {
+    new Uint8Array(2909);
+} catch(e23) {
+}
+try {
+    new Float64Array(788);
+} catch(e27) {
+}
+try {
+    new Uint32Array(64);
+} catch(e31) {
+}
+try { v17.every(f0, v16); } catch (e) {}
+const v33 = new Float64Array(-4294967297, 2909, 788);
+new Set();
+v33.__proto__;
+0.0 + Set;
+0.0 ^ 0.0;
+0.0 || 0.0;

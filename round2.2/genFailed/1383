@@ -1,0 +1,26 @@
+const v0 = /a[^a]?/gsdu;
+const v1 = /foo(?!bar)baz/gdvi;
+const v2 = /W\xed\xb0\x80/mdy;
+const v8 = new Array(157);
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 2;
+    } catch(e13) {
+    }
+    try {
+        this.b = a12;
+    } catch(e14) {
+    }
+    try {
+        this.h = v8;
+    } catch(e15) {
+    }
+}
+new F9(2, v2);
+const v17 = new F9(157, v1);
+const v18 = new F9(2, v2);
+([[[v0,v8,v18]],v8])["toReversed"]();
+2 >> v17;
+const v29 = ["toReversed"];
+Reflect.apply(v1.test, v8, v29);

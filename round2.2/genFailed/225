@@ -1,0 +1,24 @@
+const v1 = new WeakMap();
+try {
+    new Uint32Array(3);
+} catch(e5) {
+}
+try {
+    new Int16Array(10);
+} catch(e9) {
+}
+try {
+    new Int8Array(34);
+} catch(e13) {
+}
+const v17 = [Int16Array,-778350990n,26179n];
+const v18 = [26179n,Int8Array,v17,Uint32Array,Int8Array];
+const v19 = [v17,-2n];
+const v20 = v1.__proto__;
+Object.defineProperty(v18, 268435439, { value: Int16Array });
+Uint32Array instanceof v20;
+for (const v22 of v17) {
+    for (let v23 = 0; v23 < 32; v23++) {
+        v19["p" + v23] = v23;
+    }
+}

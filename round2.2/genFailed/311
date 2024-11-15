@@ -1,0 +1,46 @@
+try {
+    new Int32Array(13);
+} catch(e3) {
+}
+try {
+    new Float64Array(138);
+} catch(e7) {
+}
+try {
+    new Int32Array(127);
+} catch(e11) {
+}
+const v12 = [-1.404048534183236e+308,0.0,-1.0,0.827831619470137,-33612.38737098465,1000000000.0,-9.760554911946234e+307,-3.0];
+const v13 = [-2.220446049250313e-16,-9.09773925434024,-1.3139508170764918e+308,504110.5266537019,1.7976931348623157e+308];
+const v14 = [1000.0,-6.5640500073674986,2.0,-5.0,-1000.0,953.5230316723382,0.06912957011686482,0.1398602332439567,2.7575708700916994];
+new WeakMap();
+function f17() {
+    return 127;
+}
+class C18 extends f17 {
+    constructor(a20, a21, a22) {
+        let v19 = this;
+        super();
+        try {
+            v19 = a20;
+        } catch(e23) {
+        }
+    }
+    set d(a25) {
+        try {
+            a25 >>= 127;
+        } catch(e26) {
+        }
+    }
+    static #d;
+}
+new C18(v14, 138, v12);
+new C18(v13, 127, v13);
+const v29 = new C18(v12, 13, v13);
+for (let [v30,v31,...v32] of v14) {
+    try {
+        new Float64Array(v29, 536870887);
+    } catch(e35) {
+    }
+}
+Reflect.construct(WeakMap, [Reflect], f17);

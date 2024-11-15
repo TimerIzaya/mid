@@ -1,0 +1,111 @@
+const v0 = [13,-2,-52688,4096,-11,-1289239302,825627929,-223093247,10,3];
+function f1(a2, a3) {
+    try { a3.valueOf(v0, v0, v0, a3); } catch (e) {}
+    function f5() {
+        const o11 = {
+            set g(a10) {
+            },
+            "b": "p",
+            "f": "o",
+            ..."p",
+            65536: "p",
+            0: "HRktg",
+            "e": "o",
+            1: "HRktg",
+        };
+    }
+    %OptimizeFunctionOnNextCall(f5);
+    return f5;
+}
+const v13 = Symbol.toPrimitive;
+v0[v13] = f1;
+const v14 = [9,-2147483647,65536,2147483648,-9007199254740990,-268435456,8,1073741825];
+const v15 = [-4294967295,-346934382];
+v15.string = v13;
+class C16 {
+    static {
+        const v18 = v0.length;
+        let v19;
+        try { v19 = new v14(v15, v18, v0); } catch (e) {}
+        v14[4] = v19;
+    }
+    f = v14;
+    static #c = v15;
+    constructor(a21, a22) {
+        a22.toString = f1;
+        a22[0];
+        try {
+            v0.#c %= v15;
+        } catch(e24) {
+        }
+    }
+}
+const v25 = new C16(v0, v14);
+let v26 = new C16(v0, v14);
+const v27 = new C16(v14, v0);
+Object.defineProperty(v27, Symbol.toPrimitive, { configurable: true, enumerable: true, value: Symbol });
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.a = a34;
+    try {
+        this.a = v14;
+    } catch(e35) {
+    }
+    try {
+        this.b = a34;
+    } catch(e36) {
+    }
+}
+F30[Symbol.toPrimitive] = f1;
+function f39(a40) {
+    ({"f":v26,} = v25);
+    try {
+        v15[a40] = v14;
+    } catch(e41) {
+    }
+    return a40;
+}
+function f43() {
+    try {
+        new Float64Array(3);
+    } catch(e47) {
+    }
+    try {
+        new Int16Array(4096);
+    } catch(e51) {
+    }
+    try {
+        new Uint8Array(2887);
+    } catch(e55) {
+    }
+    return Uint8Array;
+}
+Symbol[Symbol.species] = f43;
+F30[Symbol.toPrimitive] = f39;
+const v59 = new F30(v26, v25, v0);
+const v60 = new F30(v27, v59, C16);
+new F30(C16, v27, v60);
+class C62 {
+    m(a64, a65) {
+        try {
+            super.b = v60;
+        } catch(e66) {
+        }
+        return v59;
+    }
+    [F30];
+    #d = v25;
+    static [v27] = v15;
+    static [v0];
+    #e;
+}
+new C62();
+new C62();
+new C62();
+const v70 = [512,1000,-11,1930083367,-20405];
+v70.constructor = Symbol;
+class C73 {
+}
+Symbol[Symbol.species] = Symbol;
+C73[Symbol.isConcatSpreadable] = C62;
+v70.concat(2147483647, 638507719, C73);

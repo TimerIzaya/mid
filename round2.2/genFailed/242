@@ -1,0 +1,35 @@
+try {
+    new Int8Array(16);
+} catch(e3) {
+}
+try {
+    new Float64Array(7);
+} catch(e7) {
+}
+try {
+    new Uint8Array(1000);
+} catch(e11) {
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 16;
+    } catch(e20) {
+    }
+}
+const v21 = new F15(Float64Array, 7, 1066890745);
+new F15(16, 16, 7);
+const v23 = new F15(127, 16, 7);
+let v24 = 64;
+let v27;
+try { v27 = v21(1066890745, v21, 536870912, -13, 1066890745); } catch (e) {}
+v23 === 1066890745;
+({"a":v24,} = v27);
+const o31 = {
+    "maxByteLength": 23,
+};
+const v33 = new SharedArrayBuffer(5, o31);
+try {
+    new Int16Array(v33);
+} catch(e36) {
+}

@@ -1,0 +1,42 @@
+try {
+    new Uint32Array(7);
+} catch(e6) {
+}
+try {
+    new Float32Array(79);
+} catch(e10) {
+}
+try {
+    new Uint32Array(2964);
+} catch(e14) {
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a18;
+    } catch(e20) {
+    }
+    try {
+        this.e = 79;
+    } catch(e21) {
+    }
+}
+const v22 = new F15(2964, 79, Float32Array);
+const v23 = new F15(7, v22, 79);
+new F15(64, F15, v23);
+[-993.0156046144511,-938077.1288384666,0.4146529282802407];
+[4.0,-2.220446049250313e-16];
+const v27 = [1000.0,NaN,5.0,4.0,390.20628588791647,-677983.5026598021,-1000000000.0,-1e-15,-3.0];
+class C28 extends Float32Array {
+    static d;
+    static #f = Uint32Array;
+    [-1139614560] = -1139614560;
+}
+new C28();
+new C28();
+const v31 = new C28();
+try {
+const t0 = -1139614560;
+t0(v27);
+} catch (e) {}
+try { v31.copyWithin(-1139614560, 79); } catch (e) {}

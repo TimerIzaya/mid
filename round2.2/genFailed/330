@@ -1,0 +1,87 @@
+let v0 = 1992;
+try {
+    new Uint8Array(v0);
+} catch(e3) {
+}
+try {
+    new Float64Array(165);
+} catch(e7) {
+}
+try {
+    new Int16Array(257);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o28 = {
+        "g": a13,
+        ...a13,
+        [a14]: a13,
+        [a14](a16, a17, a18) {
+            try {
+                a18[a17] = a17;
+            } catch(e19) {
+            }
+            const o22 = {
+                "maxByteLength": 2147483647,
+            };
+            const v24 = new ArrayBuffer(3, o22);
+            try {
+                new Uint16Array(v24);
+            } catch(e27) {
+            }
+            return Uint16Array;
+        },
+    };
+    return o28;
+}
+const v29 = f12(165, 257);
+f12(v0, v0);
+f12(v0, v0);
+class C32 extends Int16Array {
+    #o(a34, a35, a36) {
+        super.sort(a36);
+        const v38 = v29.g;
+        try {
+            v0 = v38;
+        } catch(e39) {
+        }
+        return Int16Array;
+    }
+    static 9;
+    12 = Int16Array;
+}
+new C32();
+new C32();
+new C32();
+function f43(a44, a45) {
+    const o46 = {
+    };
+    try {
+        o46.d = a44;
+    } catch(e47) {
+    }
+    try {
+        const o48 = {
+        };
+        o48.d = a44;
+        o48.a = Uint8Array;
+    } catch(e49) {
+    }
+    try {
+        const o50 = {
+        };
+        o50.d = a44;
+        o50.a = Uint8Array;
+        o50.b = Uint8Array;
+    } catch(e51) {
+    }
+    try {
+        const o52 = {
+        };
+        o52.d = a44;
+        o52.a = Uint8Array;
+        o52.c = f12;
+    } catch(e53) {
+    }
+}
+new Promise(f43);

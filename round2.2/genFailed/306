@@ -1,0 +1,49 @@
+let v4 = Float64Array;
+try {
+    new v4(257);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(3359);
+} catch(e10) {
+}
+try {
+    new Float32Array(151);
+} catch(e14) {
+}
+class C15 extends v4 {
+    8;
+    [257];
+    static set f(a17) {
+        try { a17(); } catch (e) {}
+    }
+    static #h = Uint8ClampedArray;
+    static [151];
+    static d = 3359;
+    #f = 3359;
+    [966020188] = -65536;
+}
+new C15();
+new C15();
+const v21 = new C15();
+try {
+    v4 |= v4;
+} catch(e22) {
+}
+let v23 = 0;
+do {
+    delete v21?.byteLength;
+    try {
+        new Int32Array(317);
+    } catch(e28) {
+    }
+    try {
+        new Float32Array(1035);
+    } catch(e32) {
+    }
+    try {
+        new Uint8Array(7);
+    } catch(e36) {
+    }
+    v23++;
+} while (v23 < 3)

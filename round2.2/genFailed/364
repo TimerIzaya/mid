@@ -1,0 +1,38 @@
+try {
+    new Uint32Array(2242);
+} catch(e3) {
+}
+try {
+    new Int16Array(2);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(138);
+} catch(e11) {
+}
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a17;
+    } catch(e21) {
+    }
+}
+new F15("4294967297", 2, "4294967297", 138);
+const v23 = new F15("4294967297", 2242, "MMyC", 2);
+new F15("MMyC", 2242, "setUint8", 138);
+let v26 = 4096;
+const v27 = new Array(v26);
+Object.defineProperty(v27, "length", { configurable: true, enumerable: true, set: Array });
+try {
+    ("4294967297").concat(2, v23);
+} catch(e29) {
+}
+const v31 = new String("MMyC");
+Uint32Array in v31;
+let v34 = 2;
+Math.expm1(-1e-15);
+!-1e-15;
+const v39 = --v26;
+v39 << "MMyC";
+Math.abs(v34--);
+v34 - v39;

@@ -1,0 +1,86 @@
+let v0 = "TZ30H";
+class C3 {
+    set b(a5) {
+        try {
+            a5.__proto__ = this;
+        } catch(e6) {
+            e6.stack;
+        }
+    }
+    get b() {
+        try {
+            this.b = this;
+        } catch(e9) {
+        }
+        try {
+            v0 &= "join";
+        } catch(e10) {
+        }
+        return v0;
+    }
+}
+let v11 = C3.prototype;
+try { new C3(); } catch (e) {}
+const v13 = new C3();
+const v14 = v13?.constructor;
+v14.length = v14;
+v14.length = v14;
+let v15;
+try { v15 = new v14(); } catch (e) {}
+("join")?.constructor;
+try { new C3(); } catch (e) {}
+v15.b;
+const v19 = new C3();
+const v20 = v19?.constructor;
+let v21;
+try { v21 = new v20(); } catch (e) {}
+~v21.b;
+const v24 = v19?.constructor;
+v24.e = v15;
+let v25;
+try { v25 = new v24(); } catch (e) {}
+const v26 = v25?.constructor;
+try { new v26(); } catch (e) {}
+const v28 = v25.b;
+v28 >>> v28;
+new C3();
+const v32 = 3483 >>> 3483;
+try {
+    const v34 = new BigUint64Array(3483);
+    try { v34.set(v34); } catch (e) {}
+} catch(e36) {
+}
+Int8Array.BYTES_PER_ELEMENT = Int8Array;
+Int8Array.BYTES_PER_ELEMENT;
+v11--;
+try {
+    new v11(1);
+} catch(e42) {
+}
+255 * 255;
+try { new BigInt64Array(v24, v24, C3); } catch (e) {}
+try { BigInt64Array.bind(v32); } catch (e) {}
+try {
+    const v48 = new BigInt64Array(255);
+    try { v48.toSorted(v0); } catch (e) {}
+} catch(e50) {
+}
+let v51 = 1.0;
+v51++;
+1000000000000.0 ^ 1;
+function f55(a56, a57) {
+    -a56;
+    a56++;
+    a56 % a56;
+    const o61 = {
+        ...a56,
+        "a": 1000000000000.0,
+        [1000000000000.0]: a56,
+    };
+    o61[1000000000000] = o61;
+    return o61;
+}
+f55(v51);
+%PrepareFunctionForOptimization(f55);
+const v63 = v13(1000000000000.0);
+v63[1000000000000] = v63;

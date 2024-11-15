@@ -1,0 +1,52 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -2;
+    } catch(e3) {
+    }
+    try {
+        this.h = -2;
+    } catch(e4) {
+    }
+    try {
+        this.d = -2;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new F0();
+try {
+    new Int16Array(16);
+} catch(e18) {
+}
+try {
+    new Int16Array(2);
+} catch(e22) {
+}
+try {
+    new BigInt64Array(183);
+} catch(e26) {
+}
+function f27(a28, a29) {
+    function f31(a32) {
+        [Infinity,-942.0083777014825,1000.0,-2.220446049250313e-16,0.007472017133556164,3.0,1.3244742047210572e+308,-813224.7383515271,NaN];
+        [850956.1658645188,Infinity,4.0,8.68771390491547,-4.0,126913.32706515817];
+        [0.7496424336717734,-5.705653615445474,-693.0111675759794,-608623.3700095431,-Infinity];
+    }
+    this.onmessage = f31;
+    try {
+        const o36 = {
+        };
+        const o37 = {
+        };
+        v7.fuck(o36, o37, o36);
+    } catch(e39) {
+    }
+}
+const v42 = [268435440n,Int16Array];
+const o43 = {
+    "arguments": v42,
+    "type": "function",
+};
+new Worker(f27, o43);

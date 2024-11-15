@@ -1,0 +1,43 @@
+class C3 {
+    7;
+    constructor(a5, a6) {
+        let [,v7] = "NEGATIVE_INFINITY";
+        new WeakMap();
+    }
+    toString(a11, a12) {
+        const v13 = super.a;
+        for (let v14 = 0; v14 < 32; v14++) {
+            v13["p" + v14] = v14;
+        }
+        return v13;
+    }
+}
+const v17 = new C3("NEGATIVE_INFINITY", C3);
+const v18 = new C3("NEGATIVE_INFINITY", v17);
+const v19 = new C3(C3, C3);
+const v20 = ["NEGATIVE_INFINITY",v19,C3,"NEGATIVE_INFINITY"];
+const v21 = ["NEGATIVE_INFINITY"];
+const v22 = [v18,v17,v21];
+function F23(a25, a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a26;
+    } catch(e29) {
+    }
+}
+new F23(v20, v19, v22, v17);
+const v31 = new F23(v19, v17, v21, v20);
+const v32 = new F23(v18, v22, v22, v19);
+Reflect.construct(F23, [v17,C3,v21,v32], C3);
+const v36 = v32 | F23;
+function f37(a38, a39, a40, a41) {
+    const o42 = {
+        "e": a41,
+        [v19]: Reflect,
+        8: v32,
+    };
+    return o42;
+}
+const v43 = f37(v17, 64, v31, -192921955);
+f37(v31, v36, v22, v36);
+f37(v21, -192921955, v43, v36);

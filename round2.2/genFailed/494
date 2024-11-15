@@ -1,0 +1,42 @@
+const v0 = [];
+class C1 {
+    [v0];
+    valueOf() {
+        const v3 = v0.__proto__;
+        try { new v3(v3, v3, v3, v3, this); } catch (e) {}
+        try {
+            v0[this] = v3;
+        } catch(e5) {
+        }
+        return v0;
+    }
+}
+const v6 = new C1();
+const v7 = new C1();
+const v8 = new C1();
+const v9 = [v8,v6,v6];
+let v10 = [v9,v7,v8];
+const v11 = [v10,v7,v7,v0];
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a15;
+    } catch(e17) {
+    }
+    try {
+        this.b = a16;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(v7, C1, v0);
+new F12(v7, C1, v11);
+new F12(v7, v9, v9);
+try {
+    v10 /= v10;
+} catch(e22) {
+}
+try {
+    v19[10] = v10;
+} catch(e23) {
+}
+v0["with"](v10, v7);

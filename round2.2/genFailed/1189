@@ -1,0 +1,26 @@
+function f3() {
+    return -2.2250738585072014e-308;
+}
+try {
+    new Uint16Array(0);
+} catch(e10) {
+}
+try {
+    new Int32Array(2447);
+} catch(e14) {
+}
+try {
+    new Uint8ClampedArray(145);
+} catch(e18) {
+}
+let v19;
+try { v19 = Uint8ClampedArray.toString(-536870912n); } catch (e) {}
+const v21 = Symbol.asyncIterator;
+let v22 = v19[v21];
+1.0413945583574353 in v21;
+%VerifyType(2447);
+try { v19["imul"](v19); } catch (e) {}
+try {
+    v22 *= v21;
+} catch(e26) {
+}

@@ -1,0 +1,41 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o10 = {
+        "f": Map,
+        __proto__: a3,
+        [v1]: Map,
+        [a3](a6) {
+            const v8 = super.g;
+            try {
+                super[a4] = v8;
+            } catch(e9) {
+            }
+            return v8;
+        },
+    };
+    return o10;
+}
+f2(Map, f2(f2(Map, f2), Map));
+const v14 = [-2.2250738585072014e-308,NaN,1.0];
+[1000000.0,-Infinity,2.0,-3.0,0.30771387261450545];
+[NaN,-4.0,0.48477690169136334,-813.0621323602265,1e-15,3.229756824107068e+307,-1e-15,-Infinity,3.0,3.0];
+try {
+    new Int16Array(4096);
+} catch(e20) {
+}
+try {
+    new Uint16Array(1000);
+} catch(e24) {
+}
+try {
+    new Float64Array(10);
+} catch(e28) {
+}
+v1[Uint16Array];
+let v32 = 15;
+const v33 = ++v32;
+4294967295 >>> v14;
+--v32;
+Math.sqrt(4294967295);
+Math.cbrt(v33);
+v14 ^ v33;

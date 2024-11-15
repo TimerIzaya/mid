@@ -1,0 +1,54 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a5;
+    } catch(e7) {
+    }
+    try {
+        this.g = 8;
+    } catch(e8) {
+    }
+    try {
+        this.f = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(8, -1024);
+new F3(8, v10);
+const v12 = new F3(8, -1024);
+let v14 = 9007199254740992n;
+class C16 {
+    static valueOf(a18, a19, a20, a21) {
+        try {
+            super[a21] = a18;
+        } catch(e22) {
+        }
+        return this;
+    }
+    constructor(a24, a25, a26) {
+        let v28 = -65536;
+        const v31 = v28 >>> -48385n;
+        -617.619288470841 | 1073741824;
+        Math.log1p(-48385n);
+        Math.log(v31);
+        a26 + a26;
+        v28++;
+    }
+}
+new C16(v12, v12, v12);
+const v38 = new C16(v10, C16, v12);
+new C16(C16, v12, v38);
+class C41 extends v12.constructor {
+    #h;
+    4 = v38;
+    127;
+}
+new C41();
+%VerifyType(C16);
+-6 & v38;
+const v46 = -2147483647 / -2147483647;
+Math.exp(v14);
+Math.atan(-2147483647);
+v14 - v14;
+v46 | v14;
+--v14;

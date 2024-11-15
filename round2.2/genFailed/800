@@ -1,0 +1,50 @@
+let v0 = [];
+class C1 {
+    static #b = v0;
+    static {
+        try {
+            v0[v0] = this;
+        } catch(e3) {
+        }
+    }
+    static b = v0;
+    static {
+        Object.defineProperty(this, v0, { enumerable: true, value: delete v0?.length });
+    }
+}
+const v9 = new C1();
+new C1();
+const v11 = new C1();
+const v12 = [-1000000000000.0,-148838.7564645051,6.226590615982422e+307,-3.0];
+const v13 = [-1000.0,1.3189329012890324e+308,2.0,0.03034995066554791,38129.00046013738,-1000000.0,-8.356798123494865,150.96640947581113,1000000000.0];
+const v14 = [-1000.0,-3.0,7.173407472642598,1e-15,Infinity];
+class C18 extends C1 {
+    224;
+    #valueOf(a20, a21, a22, a23) {
+        ++v0;
+        try {
+            this.fuck(C1, v13, -16n);
+        } catch(e27) {
+        }
+        try {
+            super.d = v11;
+        } catch(e28) {
+        }
+        return v9;
+    }
+}
+new C18();
+new C18();
+const v31 = new C18();
+try {
+    v31.__proto__ = v14;
+} catch(e32) {
+}
+function f33() {
+    return v13;
+}
+const v34 = C1["65536"];
+try {
+    v12.length = v34;
+} catch(e35) {
+}

@@ -1,0 +1,58 @@
+function f3(a4, a5) {
+    const o9 = {
+        "d": a4,
+        "b": 14n,
+        [14n]: 14n,
+        set f(a7) {
+            super[a7];
+        },
+        __proto__: a5,
+        "e": -1291590747n,
+        [a4]: 14n,
+        [-4294967295n]: a4,
+        [a5]: a5,
+    };
+    return o9;
+}
+const v10 = f3(-4294967295n, -4294967295n);
+const v11 = f3(-4294967295n, f3);
+const v12 = f3(14n, -4294967295n);
+function f14(a15, a16, a17) {
+    const o22 = {
+        [v11]: a16,
+        "g": v11,
+        valueOf(a19, a20) {
+            let v18 = this;
+            try {
+                v18 %= v18;
+            } catch(e21) {
+            }
+            return a20;
+        },
+        ...v12,
+        "b": 14n,
+    };
+    return o22;
+}
+const v23 = f14(v12, null, v11);
+f14(v10, v23, v12);
+f14(v12, v11, v10);
+const v27 = Symbol.toPrimitive;
+v10[v27] = v12;
+v12 <= 14n;
+v27[v12 instanceof f14];
+const t41 = 14n;
+t41[8] = v12;
+v23[-1];
+try {
+    new Int8Array(7);
+} catch(e35) {
+}
+try {
+    new Uint32Array(7);
+} catch(e39) {
+}
+try {
+    new Uint16Array(2653);
+} catch(e43) {
+}

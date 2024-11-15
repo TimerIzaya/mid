@@ -1,0 +1,101 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.trim = this;
+    try {
+        this.c = -6;
+    } catch(e3) {
+    }
+    try {
+        this.g = -6;
+    } catch(e4) {
+    }
+}
+function f5() {
+    return arguments;
+    return F0;
+}
+F0.toString = f5;
+const v7 = new F0();
+function f8() {
+    for (let v9 = 0; v9 < 100; v9++) {
+        f5();
+    }
+    return v7;
+}
+const v12 = Symbol.toPrimitive;
+v7[v12] = f8;
+const v13 = new F0();
+v13.valueOf = Symbol;
+const v14 = new F0();
+const v15 = [-9223372036854775807,-1179969721,16,2,7,128,-927346295,2,7436];
+const v16 = [-65108,-13732,536870889,4294967295,5,-1175033963,-9223372036854775807,60522];
+const v17 = [7,55541,8];
+class C18 {
+    constructor(a20, a21, a22, a23) {
+        function f24() {
+            return v12;
+        }
+        function f25(a26) {
+            const v27 = /I/gsui;
+            const v30 = [Uint32Array];
+            for (const v31 in "boolean") {
+                try { v27["compile"](v31, v30); } catch (e) {}
+            }
+        }
+        Object.defineProperty(a20, 7, { writable: true, configurable: true, enumerable: true, get: f24, set: f25 });
+        a21.toString = f24;
+        a20[7];
+        try { a21.__lookupSetter__(a23); } catch (e) {}
+        try { a22.sort(a21); } catch (e) {}
+        super[v7];
+        let v39 = 2147483648;
+        let v40 = 2;
+        ~v13;
+        !(!v13);
+        v39 * -6.871195799876652;
+        Math.fround(v39);
+        v39--;
+        --v40;
+    }
+}
+C18.toString = f8;
+try { new C18(F0, F0, v13, F0); } catch (e) {}
+const v50 = new C18(v15, v7, v17, C18);
+const v51 = v50?.__defineGetter__;
+try { new v51(v50, v16); } catch (e) {}
+const v53 = new C18(v50, v7, v15, v14);
+const v54 = v53?.constructor;
+try { new v54(C18, v7, v15, v53); } catch (e) {}
+new C18(v53, v7, v16, v17);
+1073741823 & 1073741823;
+-29876326 % -29876326;
+-2147483647 >>> -2147483647;
+-187416.01612983795 ^ -187416.01612983795;
+2.220446049250313e-16 + 2.220446049250313e-16;
+1.193368772092651e+308 + 1.193368772092651e+308;
+try { v13.trim(2.220446049250313e-16, v17, 1.193368772092651e+308, 1.193368772092651e+308); } catch (e) {}
+v17[v53];
+const o74 = {
+    "maxByteLength": 3778,
+};
+o74.e = o74;
+256 != 256;
+const v77 = new ArrayBuffer(256, o74);
+try {
+    const v79 = new Uint8Array(v77);
+    v79[134];
+} catch(e81) {
+}
+const v82 = 1.193368772092651e+308 >> 1.193368772092651e+308;
+function f83(a84) {
+    return v15;
+}
+class C85 extends f83 {
+    static #d;
+    2354030014;
+}
+const v89 = new Map();
+const t97 = v89.constructor;
+const v91 = new t97();
+try { v91.set(v82, v89); } catch (e) {}
+v91.clear(526300.1003427189, v91, v82, 1.193368772092651e+308);

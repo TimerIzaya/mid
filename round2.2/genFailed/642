@@ -1,0 +1,46 @@
+/[z-\d]+/sdi;
+const v1 = /[xyz]*/mgu;
+const v2 = /W/mdy;
+const v4 = new WeakMap();
+try {
+    new BigInt64Array(1226);
+} catch(e8) {
+}
+try {
+    new Int8Array(324);
+} catch(e12) {
+}
+try {
+    new Uint16Array(512);
+} catch(e16) {
+}
+class C20 extends Int8Array {
+    static #m(a22, a23, a24) {
+        try {
+            v1[2147483648] = this;
+        } catch(e25) {
+        }
+        try {
+            a24.f = a22;
+        } catch(e26) {
+        }
+        return BigInt64Array;
+    }
+    #a = WeakMap;
+    [512];
+    b;
+    static [-1];
+}
+new C20();
+new C20();
+new C20();
+const v31 = [324];
+const v32 = v2.exec;
+const v33 = Reflect.apply(v32, v1, v31);
+try {
+    v1.valueOf = v32;
+} catch(e34) {
+}
+let v35;
+try { v35 = v2.exec(v33); } catch (e) {}
+Object.defineProperty(v4, 7, { writable: true, configurable: true, enumerable: true, value: v35 });

@@ -1,0 +1,22 @@
+try {
+    new Uint8Array(6);
+} catch(e3) {
+}
+try {
+    new Int32Array(31);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(1);
+} catch(e11) {
+}
+const v12 = [6,31,1,BigUint64Array,Uint8Array];
+[31,[31,v12,BigUint64Array,6,Int32Array],BigUint64Array];
+let [v18] = v12;
+let v19 = 10;
+for (; v19--;) {
+    230305355 >> 4096;
+    +14n;
+    !14n;
+    Math.trunc(31);
+}

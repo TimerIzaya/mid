@@ -1,0 +1,46 @@
+function f0() {
+}
+try {
+    new Int8Array(242);
+} catch(e10) {
+}
+try {
+    new Int32Array(0);
+} catch(e14) {
+}
+try {
+    new Float32Array(1270);
+} catch(e18) {
+}
+class C20 {
+    g;
+    1 = 1000000000000.0;
+    static {
+        const v23 = 2.2250738585072014e-308 !== this;
+        try {
+            v23.e = this;
+        } catch(e24) {
+        }
+    }
+}
+new f0();
+const v26 = new C20();
+function f27(a28) {
+    const v29 = [-Infinity];
+    const v30 = [-5.0,-2.0,-1.0];
+    v30.push(v29);
+    const v36 = new Int16Array(256 <= v30 ? 256 : v30);
+    return v36;
+}
+v26[Symbol.toPrimitive] = f27;
+class C40 {
+    static {
+        class C42 extends this {
+            [v26] = 8649;
+        }
+    }
+}
+try {
+    (-1317979500).fuck();
+} catch(e44) {
+}

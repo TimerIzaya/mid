@@ -1,0 +1,54 @@
+class C3 {
+    a = 1768891652;
+    constructor(a5) {
+        let v6;
+        try { v6 = a5(); } catch (e) {}
+        for (const v7 of a5) {
+            function F8(a10, a11, a12) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.c = a11;
+                } catch(e13) {
+                }
+                try {
+                    this.g = a11;
+                } catch(e14) {
+                }
+            }
+            const v15 = new F8(v6, v6, F8);
+            new F8(v7, v15, "T");
+            new F8(this, 6, v7);
+        }
+    }
+}
+const v18 = new C3(1768891652);
+new C3(v18);
+const v20 = new C3("T");
+const v23 = new Array(2578);
+class C24 extends C3 {
+    g = "T";
+    #c = C3;
+    constructor(a26, a27) {
+        super(a26);
+        try {
+            v20.a = v20;
+        } catch(e28) {
+        }
+    }
+    #b;
+    static [6] = Array;
+    c = v20;
+    static #f = C3;
+}
+new C24(v20, 1768891652);
+new C24(C3, 6);
+new C24(1768891652, 1768891652);
+try {
+    v18[77] = v23;
+} catch(e32) {
+}
+try { v20.valueOf(2578, 6, Array); } catch (e) {}
+[-5.0,-1000.0];
+[-5.0,0.9606954702957787];
+[-8.771335487171769e+307,1.0,Infinity,77981.84912902722,-9.397409579605265,4.0,0.713234747836946,2.0];
+Object.defineProperty(C3, "T", { configurable: true, value: v23 - C24 });

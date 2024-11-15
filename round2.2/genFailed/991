@@ -1,0 +1,29 @@
+try {
+    new Int32Array(1024);
+} catch(e3) {
+}
+try {
+    new Uint16Array(257);
+} catch(e7) {
+}
+try {
+    new Float64Array(0);
+} catch(e11) {
+}
+const v15 = [9223372036854775807,-4294967295,-1729552801];
+[-13,1432575694,519593641,-2147483647,4294967297];
+[2001229100,9,129,8,16,129,-2];
+try {
+    v15.toString = 1024;
+} catch(e21) {
+}
+for (let [v22] of v15) {
+    try {
+        v22[1801] = 4;
+    } catch(e23) {
+    }
+    try {
+        new Uint16Array(-33757);
+    } catch(e26) {
+    }
+}

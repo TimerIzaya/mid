@@ -1,0 +1,32 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2(a3, a4) {
+    const o7 = {
+        ...a3,
+        __proto__: a3,
+        get d() {
+            try {
+                this.d = this;
+            } catch(e6) {
+            }
+            return this;
+        },
+        "b": a4,
+        "c": f1,
+    };
+    return o7;
+}
+const v8 = f2(f2, f0);
+const v9 = f2(f2, v8);
+const v10 = f2(f2, v8);
+const v17 = f0();
+let v18 = 0;
+do {
+    let v19;
+    try { v19 = v10.p(2147483647, v8, 490510461, v9, -180849432); } catch (e) {}
+    Reflect.construct(f2, [Reflect,v17], v19);
+    v18++;
+} while (v18 < 7)

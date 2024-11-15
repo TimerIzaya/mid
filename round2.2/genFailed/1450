@@ -1,0 +1,52 @@
+function f0() {
+}
+function f2(a3) {
+    const o7 = {
+        "g": f0,
+        536870912: f0,
+        "d": null,
+        __proto__: a3,
+        "f": f0,
+        "c": a3,
+        get e() {
+            let v5;
+            try { v5 = this.from(this, f0, this); } catch (e) {}
+            v5?.a;
+            return null;
+        },
+        "e": a3,
+        ...a3,
+    };
+    return o7;
+}
+const v8 = f2(f2);
+const v9 = f2(null);
+const v10 = f2(f2);
+class C11 extends f2 {
+    [v10] = v8;
+    static #valueOf(a13, a14, a15, a16) {
+        try { a13["register"]("register", a14); } catch (e) {}
+        return f2;
+    }
+    static valueOf(a20, a21, a22, a23) {
+        super[this];
+        try {
+            a20.length = 2302;
+        } catch(e26) {
+        }
+        return a21;
+    }
+}
+new C11();
+new C11();
+new C11();
+try { C11.valueOf(null, 6.51116453486917e+307, 6.51116453486917e+307); } catch (e) {}
+try {
+    v9.fuck(-5.0, f0);
+} catch(e36) {
+}
+const t47 = null;
+t47[6] = v10;
++255 << 255;
+v10 + v10;
++v10;

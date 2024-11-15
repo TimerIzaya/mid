@@ -1,0 +1,37 @@
+try {
+    new Float64Array(7);
+} catch(e3) {
+}
+Int32Array.length;
+try {
+    new Int32Array(9);
+} catch(e8) {
+}
+try {
+    new Int32Array(4);
+} catch(e12) {
+}
+let v15 = 2.0;
+v15 + v15;
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try { this.constructor(a20, a20, a19, a22); } catch (e) {}
+    a19.length;
+    v15--;
+    try {
+        this.c = 7.259053384040658e+307;
+    } catch(e26) {
+    }
+}
+const v27 = new F17(F17, 7, 7, v15);
+const v28 = v27?.__defineSetter__;
+try { new v28(Int32Array, Int32Array); } catch (e) {}
+const v30 = new F17(9, 7, v15, Int32Array);
+v30.f = v28;
+new v28(Float64Array, 9, F17, 7);
+try { ("g").match("function"); } catch (e) {}
+64 >>> 257;
+65537 - 4;
+const v47 = async (a48, a49) => {
+    return a48;
+};

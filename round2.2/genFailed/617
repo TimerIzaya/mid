@@ -1,0 +1,56 @@
+try {
+    new Float64Array(10);
+} catch(e3) {
+}
+try {
+    new Int32Array(2737);
+} catch(e7) {
+}
+try {
+    new Float64Array(4096);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    toString(a14, a15, a16) {
+        const o19 = {
+            "maxByteLength": 64,
+        };
+        const v21 = new ArrayBuffer(8, o19);
+        try {
+            new Uint8Array(v21);
+        } catch(e24) {
+        }
+        return Float64Array;
+    }
+}
+const v25 = new C12();
+const v26 = new C12();
+const v27 = new C12();
+const v28 = [2.0,1e-15,-0.0,NaN,-1.3896671480119167e+308,3.4676886053457646e+307,838.7450708587578];
+const v29 = [0.7741941917266272,-4.113189298473408,2.3570051483003085e+307,-2.0,-0.19796464075182385,1000.0,-1000.0];
+const v30 = [0.7284726546903626,-4.0,-75777.17660927854,2.220446049250313e-16,1e-15];
+class C31 extends C12 {
+    constructor(a33, a34, a35, a36) {
+        super();
+        try {
+            v25.at(-536870912);
+        } catch(e39) {
+        }
+        super.byteLength **= 2737;
+    }
+    static 8;
+    static #e = v27;
+    65536 = v29;
+}
+const v43 = new C31(v27, v28, 10, v26);
+const v44 = new C31(v26, v29, 4096, v43);
+new C31(v26, v30, 10, v44);
+const v48 = -Infinity;
+const v49 = +v30;
+Math.sinh(v30);
+~v30;
+-v48;
++v49;
+/[^L]/dvyi;
+/eP+/msduyi;
+/a\fb\nc\rd\te\vfxyz{0,1}/msyi;

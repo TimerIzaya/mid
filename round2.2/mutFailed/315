@@ -1,0 +1,44 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        n() {
+            this[f0];
+            return f0;
+        },
+        [f0]: f0,
+        "e": f0,
+        "b": f0,
+        "d": f0,
+        "g": f0,
+        "a": f1,
+        "c": f0,
+        536870887: f1,
+    };
+    return o4;
+}
+const v5 = f1();
+const v6 = f1();
+const v7 = f1();
+function f8(a9, a10) {
+    return "-9007199254740991";
+}
+f8(v7, f8);
+class C15 extends f1 {
+    [v7] = f0;
+    b;
+    static [v5];
+    static set b(a17) {
+        try {
+            super[this] = 5;
+        } catch(e21) {
+        }
+    }
+}
+new v6();
+new C15();
+const v24 = new C15();
+[[v24,f1],v5,v6];
+[C15,v24,f0,C15];
+const v31 = new Float32Array(16);
+v31.includes(3365);

@@ -1,0 +1,38 @@
+let v2 = new WeakMap();
+class C3 extends WeakMap {
+    static {
+        super[null];
+        let {"c":v6,"e":v7,} = this;
+    }
+    g;
+    constructor(a9) {
+        super(a9);
+        try {
+            v2 = a9;
+        } catch(e10) {
+        }
+    }
+}
+new C3(v2);
+new C3(null);
+new C3(null);
+new Date();
+let v18 = 268435439;
+Math.random();
+const v20 = --v18;
+Math.sqrt(+v20);
+Math.hypot(v20);
+Math.log10(v20);
+C3++;
+try {
+    new Uint8Array(2);
+} catch(e29) {
+}
+try {
+    new Int16Array(16);
+} catch(e33) {
+}
+try {
+    new BigUint64Array(2);
+} catch(e37) {
+}

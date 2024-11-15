@@ -1,0 +1,37 @@
+let v2 = 2.220446049250313e-16;
+try {
+    new BigUint64Array(8);
+} catch(e6) {
+}
+try {
+    new Int8Array(1);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(10);
+} catch(e14) {
+}
+class C15 extends Int8Array {
+    [-6.359034832476011] = 10;
+    toString(a17, a18, a19, a20) {
+        this["toSorted"]();
+        return BigUint64Array;
+    }
+    static d = -6.359034832476011;
+    static #g = BigUint64Array;
+    601 = BigUint64Array;
+    536870887 = v2;
+    #a = 10;
+}
+new C15();
+const v24 = new C15();
+new C15();
+C15 instanceof BigUint64Array;
+const v27 = `
+    try {
+        v2 -= -1.0;
+    } catch(e28) {
+    }
+`;
+eval(v27);
+v24["copyWithin"](1, 8);

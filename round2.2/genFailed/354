@@ -1,0 +1,44 @@
+const v1 = new WeakSet();
+const v2 = [-16201,1144866428,9007199254740990,536870912,0,-4,-9007199254740990,0,-7,37864];
+const v3 = [2];
+const v4 = [1073741824,-11,2147483648,128,-13,128];
+class C5 extends WeakSet {
+    static n(a7) {
+        let {"b":v8,"d":v9,"length":v10,} = v4;
+        try { v8(...v2, v10, ...v4, v8, v9, v8); } catch (e) {}
+        return v8;
+    }
+    constructor(a13) {
+        super(a13);
+        try { this.add(this); } catch (e) {}
+    }
+    #h = WeakSet;
+    static 128 = v4;
+    static #g = v4;
+    static #a;
+    static 1000;
+}
+const v15 = new C5(WeakSet);
+new C5(v1);
+const v17 = new C5(C5);
+function f18() {
+    return v17;
+}
+try {
+    new Float32Array(1031);
+} catch(e22) {
+}
+try {
+    new Float64Array(1);
+} catch(e26) {
+}
+try {
+    new BigUint64Array(129);
+} catch(e30) {
+}
+v1[v15];
+for (let v33 = 0; v33 < 100; v33++) {
+    f18();
+}
+C5[9] *= 1;
+v3 >= v15 ? v3 : v15;

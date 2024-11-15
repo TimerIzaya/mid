@@ -1,0 +1,48 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = "3";
+    } catch(e7) {
+    }
+    try {
+        this.b = "Z";
+    } catch(e8) {
+    }
+    try {
+        this.a = "B";
+    } catch(e9) {
+    }
+}
+const v10 = new F3("3", "Z");
+const v11 = new F3("Z", "Z");
+new F3("B", "B");
+function f13() {
+    return v10;
+}
+class C14 extends f13 {
+    static set h(a16) {
+        v11[113] >>= a16;
+        class C18 {
+            #g;
+            g = v11;
+            127 = this;
+        }
+        new C18();
+        new C18();
+        new C18();
+    }
+    10;
+    #h;
+    static #g = F3;
+}
+const v22 = new C14();
+const v23 = new C14();
+const v24 = new C14();
+v24 ** ("B").endsWith(v22, v11, f13, v10, C14);
+const v31 = Symbol.species;
+v24[v31];
+for (let v33 = 0; v33 < 100; v33++) {
+    f13();
+}
+%VerifyType(v23);
+try { v23.localeCompare(-860.6987909241242, 359174.33743501734, C14, "Z", v31); } catch (e) {}

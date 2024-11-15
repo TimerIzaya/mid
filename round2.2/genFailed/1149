@@ -1,0 +1,49 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static {
+        try {
+            v1.toString = this;
+        } catch(e4) {
+        }
+        super.d;
+        try {
+            const o7 = {
+            };
+            this.fuck("bigint", o7);
+        } catch(e9) {
+        }
+    }
+    static [v1] = WeakSet;
+}
+const v10 = new C2();
+const v11 = new C2();
+const v12 = new C2();
+class C16 {
+    constructor(a18, a19, a20) {
+        let v23 = 2.220446049250313e-16;
+        const v24 = a19 >>> a19;
+        --v23;
+        Math.acos(v23);
+        Math.tanh(v23);
+        Math.cbrt(v24);
+    }
+    static #g;
+    [v10];
+    c = WeakSet;
+    10 = 1073741824n;
+    static 0;
+}
+new C16(v1, 1073741824n, v11);
+new C16(v12, 1073741824n, C16);
+const v31 = new C16(v11, 15n, v12);
+let v35;
+try { v35 = v11.delete(0.4787687296725749); } catch (e) {}
+try {
+    v31[210] = v11;
+} catch(e36) {
+}
+try { v35(-30961, 10000, 1.7976931348623157e+308); } catch (e) {}
+try {
+    v12.length = 11;
+} catch(e42) {
+}

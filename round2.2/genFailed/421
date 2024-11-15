@@ -1,0 +1,61 @@
+const v6 = [-5,3];
+const v7 = [-7650,-23851,2147483648,65537,19133,-1422,-1,256];
+const v8 = [2109254881,5,-8,-65535,-1681995542,-65536,4096];
+function f9(a10, a11, a12, a13) {
+    const o19 = {
+        [v8]: "0Qcx",
+        "g": "boolean",
+        "e": v7,
+        ...a10,
+        536870912: a13,
+        0: "undefined",
+        __proto__: a11,
+        toString(a15, a16, a17) {
+            delete a13[2147483648];
+            return a15;
+        },
+        ...a11,
+        "h": v6,
+        [v6]: a11,
+        "d": "boolean",
+    };
+    return o19;
+}
+const v20 = f9(v7, "undefined", v8, v8);
+const v21 = f9(v7, "0Qcx", "setFloat64", v6);
+const v22 = f9(v7, "0Qcx", "24315", v6);
+function f23(a24, a25, a26) {
+    const o33 = {
+        [v21]: v20,
+        toString(a28, a29, a30, a31) {
+            try {
+                const t31 = "p";
+                t31.toString = f9;
+            } catch(e32) {
+            }
+            return a31;
+        },
+        __proto__: v22,
+        "h": "24315",
+        "c": "24315",
+        "b": a24,
+        ["boolean"]: a24,
+        "d": v22,
+        "f": "setFloat64",
+    };
+    return o33;
+}
+f23(v6, "setFloat64", v21);
+f23(v7, "0Qcx", v20);
+f23(v8, "boolean", v21);
+let v38;
+try { v38 = v7.find(f9); } catch (e) {}
+let v39;
+try { v39 = v38(); } catch (e) {}
+for (let v40 = 0; v40 < 65; v40++) {
+    Object.defineProperty("boolean", v40, { configurable: true, enumerable: true, set: f9 });
+    const t56 = "setFloat64";
+    const t57 = delete t56[v40];
+    t57[0] = v40;
+    try { new v39(WeakRef, v40); } catch (e) {}
+}

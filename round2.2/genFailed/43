@@ -1,0 +1,38 @@
+class C3 {
+    c;
+    static set d(a5) {
+        super[a5];
+    }
+    static [-1] = 588.7497831337532;
+    #h;
+    static #f = -9007199254740990;
+    static #d = 3.0;
+}
+new C3();
+new C3();
+const v12 = new C3();
+try {
+    new Uint8Array(764);
+} catch(e16) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e20) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e24) {
+}
+for (let [v25,v26] of 6) {
+    try {
+        C3[Uint8Array] = Uint8Array;
+    } catch(e27) {
+    }
+    delete v12?.c;
+}
+new Uint8Array(-9007199254740990, 7, -9007199254740990);
+const o33 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o33);

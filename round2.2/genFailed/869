@@ -1,0 +1,77 @@
+function f0() {
+}
+const v1 = [f0,f0];
+const v2 = [f0,f0];
+const v3 = [v2,v1,v1,v2,f0];
+class C7 {
+    d = v3;
+    constructor(a9, a10, a11) {
+        try {
+            a10.e = a11;
+        } catch(e12) {
+        }
+    }
+    #g;
+    [v1] = 127;
+    #n(a14, a15) {
+        with (this) {
+            d = 127;
+            super[127];
+        }
+        const v18 = Symbol.iterator;
+        const o27 = {
+            [v18]() {
+                let v20 = 10;
+                const o26 = {
+                    next() {
+                        v20--;
+                        const v24 = v20 == 0;
+                        const o25 = {
+                            "done": v24,
+                            "value": v20,
+                        };
+                        return o25;
+                    },
+                };
+                return o26;
+            },
+        };
+        return this;
+    }
+}
+const v28 = new C7(v2, 370575572, C7);
+new C7(v3, v3, v1);
+new C7(v2, C7, v28);
+Object.defineProperty(v1, "f", { writable: true, configurable: true, value: 1274174791 });
+const v38 = Math.floor(3);
+Math.trunc(1274174791);
+Math.cos(3);
+const o41 = {
+};
+try {
+    o41.h = f0;
+} catch(e42) {
+}
+try {
+    const o43 = {
+    };
+    o43.h = f0;
+    o43.g = v3;
+} catch(e44) {
+}
+try {
+    const o45 = {
+    };
+    o45.h = f0;
+    o45.g = v3;
+    o45.b = v38;
+} catch(e46) {
+}
+try {
+    const o47 = {
+    };
+    o47.h = f0;
+    o47.g = v3;
+    o47.b = 370575572;
+} catch(e48) {
+}

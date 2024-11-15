@@ -1,0 +1,66 @@
+try {
+    new Uint8Array(3);
+} catch(e3) {
+}
+try {
+    new Int8Array(2163);
+} catch(e7) {
+}
+try {
+    new Int16Array(5);
+} catch(e11) {
+}
+class C15 extends Int16Array {
+    #h;
+    set d(a17) {
+        let v18;
+        try { v18 = a17(-15n, this, this); } catch (e) {}
+        for (const v19 in v18) {
+            try {
+                new Int16Array(9);
+            } catch(e23) {
+            }
+            try {
+                new Uint16Array(4);
+            } catch(e27) {
+            }
+            try {
+                try {
+                    C15.valueOf = v18;
+                } catch(e30) {
+                }
+                try { v18.shift(this, Int8Array, Uint16Array, C15, Uint16Array); } catch (e) {}
+                new BigInt64Array(2);
+            } catch(e33) {
+            }
+        }
+    }
+}
+const v34 = new C15();
+new C15();
+new C15();
+class C37 extends Int8Array {
+    1 = 2163;
+    [-15n] = Int16Array;
+    h;
+    constructor(a39, a40) {
+        super(C15, 3, 2163);
+        let v42 = -4294967295;
+        const v44 = --v42;
+        v34 && this;
+        Math.cos(8);
+        let v47 = !8;
+        v44 ** v47;
+        v47--;
+    }
+}
+new C37(-65536n, 16n);
+new C37(-65536n, -65536n);
+new C37(16n, -65536n);
+function F53(a55, a56, a57) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v58 = new F53();
+const v59 = new F53();
+Object.defineProperty(v58, "b", { writable: true, enumerable: true, value: F53 });
+v59[Symbol.match] = -1.0;

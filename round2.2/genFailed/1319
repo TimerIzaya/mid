@@ -1,0 +1,35 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = super.h;
+        for (let v8 = 0; v8 < 32; v8++) {
+            v7["p" + v8] = v8;
+        }
+    }
+    [-10974] = -2.2252529161216003e+307;
+    7 = -2.2252529161216003e+307;
+    static #a;
+    1073741824;
+}
+new C3(-10974, -10974);
+new C3(-2.2252529161216003e+307, -10974);
+const v13 = new C3(-2.2252529161216003e+307, -10974);
+try {
+    new Int32Array(4096);
+} catch(e20) {
+}
+try {
+    new Uint32Array(255);
+} catch(e24) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e28) {
+}
+let v29 = 0;
+while (v29 < 5) {
+    continue;
+    for (let v32 = 0; v32 < 32; v32++) {
+        v13["p" + v32] = v32;
+    }
+    v29++;
+}

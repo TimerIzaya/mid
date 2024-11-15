@@ -1,0 +1,85 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 31407;
+    } catch(e3) {
+    }
+    try {
+        this.d = 31407;
+    } catch(e4) {
+    }
+    try {
+        this.b = 31407;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f9(a10, a11) {
+    const o22 = {
+        "d": v7,
+        o(a13, a14, a15, a16) {
+            a16[64];
+            for (const v18 of a15) {
+                v6[Symbol.species];
+            }
+            return this;
+        },
+        __proto__: a11,
+        ...v8,
+        "f": v6,
+    };
+    return o22;
+}
+const v23 = f9(v6, v6);
+const v24 = f9(v7, v7);
+f9(v8, v8);
+[-15,128,1,4294967296,2147483648,-65537,9223372036854775807,1941010507,4294967297,-9223372036854775808];
+const v27 = [-4294967295,-1078895290,40944,-8,3];
+const v28 = [-16,1073741824,30063,16530,-268435456,9007199254740992];
+class C29 extends f9 {
+    constructor(a31, a32) {
+        super(v8, a32);
+        super.o(v8, this);
+    }
+    143 = v23;
+    static b;
+    e;
+    get b() {
+        v7[this] |= this;
+        const v35 = f9(v7, v7);
+        const o36 = {
+            "call": f9,
+            "getOwnPropertyDescriptor": f9,
+            "getPrototypeOf": f9,
+        };
+        try {
+            new Proxy(v35, o36);
+        } catch(e39) {
+        }
+        return v35;
+    }
+}
+new C29(v27, v6);
+new C29(v27, v24);
+new C29(v28, v28);
+function f44(a45, a46) {
+    return 9;
+}
+const v47 = f44(f44, f44);
+const v48 = f44();
+const v49 = [v47,v47];
+const v50 = [v47,v47];
+const v51 = [v47,v48];
+const o52 = {
+    [f44]: v51,
+    "g": 9,
+    "h": 9,
+    "c": v47,
+    "e": 9,
+    "d": v49,
+};
+delete o52.d;
+v50[9] = v48;
+v50.length = 9;

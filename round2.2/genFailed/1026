@@ -1,0 +1,39 @@
+const v1 = new Date();
+try {
+    new BigInt64Array(1000);
+} catch(e8) {
+}
+try {
+    new Int8Array(512);
+} catch(e12) {
+}
+try {
+    new Uint16Array(2619);
+} catch(e16) {
+}
+class C17 extends Date {
+    constructor(a19, a20, a21, a22) {
+        super();
+        const o25 = {
+            "maxByteLength": 2147483648,
+        };
+        const v27 = new SharedArrayBuffer(13, o25);
+        try {
+            new Int32Array(v27);
+        } catch(e30) {
+        }
+    }
+}
+const v31 = new C17(11868, 1000, 11868, 1000);
+const v32 = new C17(36896, 512, v31, 512);
+const v33 = new C17(36896, 1000, Uint16Array, 2619);
+Object.defineProperty(v1, v1, { configurable: true, get: Date });
+v33.g %= 11868;
+let v35;
+try { v35 = C17["m"](Date, 512); } catch (e) {}
+v32.f;
+let {"f":v37,} = v35;
+try {
+    v37[194] = v32;
+} catch(e38) {
+}

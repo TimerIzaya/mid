@@ -1,0 +1,48 @@
+function f0() {
+    const o16 = {
+        [-1]: 1000000000.0,
+        __proto__: 65537,
+        toString(a5) {
+            try {
+                this.d = a5;
+            } catch(e6) {
+            }
+            return a5;
+        },
+        [1000000000.0]: 65537,
+        valueOf(a8) {
+            /(?<a>.)\k<a>+/gsdyi;
+            const v10 = /Ia+?/gy;
+            delete a8?.[/[\ca]?/mgvi];
+            return v10;
+        },
+    };
+    return o16;
+}
+const v17 = f0();
+f0();
+const v19 = f0();
+try {
+    new Int16Array(512);
+} catch(e26) {
+}
+try {
+    new Float64Array(0);
+} catch(e30) {
+}
+try {
+    new Float64Array(64);
+} catch(e34) {
+}
+try {
+    v19[65537] = 3;
+} catch(e38) {
+}
+Object.defineProperty(v17, 3163, { enumerable: true, get: f0, set: f0 });
+for (const v39 of 64) {
+    v19[v39] **= v39;
+    try { v39(v39, v39); } catch (e) {}
+}
+/\p{Script_Extensions=Greek}/mgdv;
+/4/sdvi;
+/a?\b?/gsuy;

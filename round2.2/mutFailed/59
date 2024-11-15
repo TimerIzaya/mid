@@ -1,0 +1,36 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f7(a8) {
+        !a8;
+    }
+    Object.defineProperty(this, "d", { writable: true, set: f7 });
+    try {
+        this.a = a6;
+    } catch(e10) {
+    }
+    try {
+        this.d = 1.2721474626174219e+308;
+    } catch(e11) {
+    }
+}
+const v12 = new F3(1.2721474626174219e+308, 0.4476399518426264);
+new F3(0.4476399518426264, v12);
+new F3(1.2721474626174219e+308, 0.4476399518426264);
+[4,-65537,65536,-65537,4,97917510,-11];
+[7,11,-7];
+[-256,9007199254740992,536870888,15,-7123,-4096,-117829291];
+try {
+    new Int8Array(8);
+} catch(e21) {
+}
+try {
+    new Uint8Array(512);
+} catch(e25) {
+}
+try {
+    new Int8Array(0);
+} catch(e29) {
+}
+const v30 = [536460.0776821754,-Infinity];
+v30.__proto__ = [7.786176939524022,2.220446049250313e-16,0.7563314108463862,-1000000000000.0,-174742.20487636805];
+v30.unshift(56082n, 56082n);

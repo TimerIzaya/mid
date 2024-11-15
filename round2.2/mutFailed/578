@@ -1,0 +1,76 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a5;
+    } catch(e6) {
+    }
+    try {
+        this.g = 2147483647;
+    } catch(e7) {
+    }
+    try {
+        this.f = a5;
+    } catch(e8) {
+    }
+}
+const v10 = [4096];
+v10[0] = v10;
+v10.toLocaleString("setTime");
+const v12 = new F3(352992623);
+const v13 = new F3(352992623);
+v13.e = v13;
+const v14 = new F3(v12);
+function f15(a16, a17, a18) {
+    a17 >> a17;
+    a18.b = a18;
+    const o20 = {
+        "h": a18,
+        [2147483647]: a16,
+        268435440: a18,
+        [v14]: F3,
+        "d": a18,
+        168: a17,
+        [a16]: v12,
+        "f": F3,
+        [v13]: a17,
+        "e": a16,
+        ...a16,
+    };
+    return o20;
+}
+f15(v13, 352992623, v13);
+const v22 = f15(v14, 3457, v14);
+v22.a = v22;
+F3(v13, 2147483647, v13);
+try {
+    Uint16Array(196);
+} catch(e27) {
+}
+try {
+    Int8Array(13);
+} catch(e31) {
+}
+const v33 = JSON?.stringify;
+try { new v33(v13, v13, v10); } catch (e) {}
+try {
+    JSON(Uint16Array);
+} catch(e36) {
+    e36.message;
+}
+const v38 = [JSON,196,13];
+const v39 = [JSON,13,Uint16Array];
+const v40 = [v39,196,v39];
+const v41 = [v38,v39,196,Uint16Array];
+const v42 = [v41,v41];
+try { v42.groupToMap(v40); } catch (e) {}
+const v44 = [196,v40,JSON,196,v40,v40,JSON,v38];
+123 | 123;
+Array(123);
+try { new Int32Array("setTime", v41, v41); } catch (e) {}
+try {
+    class C51 extends Int32Array {
+    }
+    C51(v44);
+} catch(e53) {
+    e53.message = e53;
+}

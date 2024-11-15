@@ -1,0 +1,97 @@
+try {
+    new Int32Array(0);
+} catch(e3) {
+}
+try {
+    new Int8Array(1);
+} catch(e7) {
+}
+60 | 60;
+let v10 = 60 - 60;
+v10--;
+Uint32Array.e = Uint32Array;
+try {
+    new Uint32Array(60);
+} catch(e14) {
+}
+class C15 extends Uint32Array {
+    static m(a17, a18, a19, a20) {
+        const v22 = Symbol.iterator;
+        const o31 = {
+            [v22]() {
+                let v24 = 10;
+                const o30 = {
+                    next() {
+                        v24--;
+                        const v28 = v24 == 0;
+                        const o29 = {
+                            "done": v28,
+                            "value": v24,
+                        };
+                        return o29;
+                    },
+                };
+                return o30;
+            },
+        };
+        return a20;
+    }
+    static o(a33, a34, a35, a36) {
+        const o40 = {
+            "execution": "async",
+            "type": "major",
+            "d": v10,
+            __proto__: a35,
+            [a33]: C15,
+            "e": 60,
+            184: a35,
+        };
+        a36[7] /= 0;
+        try {
+            super[60] = Int8Array;
+        } catch(e41) {
+        }
+        gc(o40);
+        return Int32Array;
+    }
+}
+try { C15.o(0, Int32Array, 0, v10); } catch (e) {}
+let v44 = C15.BYTES_PER_ELEMENT;
+const v45 = new C15();
+function f46() {
+    function f47() {
+        10 >>> -4294967297;
+        return C15;
+    }
+    return f47;
+}
+function f51(a52) {
+    a52?.[1];
+}
+Object.defineProperty(v45, Symbol.toPrimitive, { writable: true, configurable: true, enumerable: true, get: f46, set: f51 });
+const v56 = new C15();
+v56.c = v45;
+v56.c = v56;
+const v57 = new C15();
+v57[Symbol.toPrimitive] = Symbol;
+const v60 = /a(?=bbb|bb)c+/mdi;
+for (let v61 = 0; v61 < 25; v61++) {
+    const v62 = v61 === v61;
+    let v64;
+    try { v64 = ("p").concat(v45); } catch (e) {}
+    const v65 = "p" + v61;
+    function f66() {
+        return v62;
+    }
+    try { ("p").lastIndexOf(v57, v64); } catch (e) {}
+    const t86 = "lastIndexOf";
+    t86[5] = "lastIndexOf";
+    const v69 = v57["lastIndexOf"](v44, 60);
+    v69 != v69;
+    v60[v65] = v61;
+}
+try {
+    v44 = v60;
+} catch(e71) {
+}
+0 | v60;

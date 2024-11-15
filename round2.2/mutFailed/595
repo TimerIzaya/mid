@@ -1,0 +1,68 @@
+class C3 {
+    constructor(a5) {
+        super.c;
+        const v7 = -162139835 in this;
+        %VerifyType(1418634777);
+        try {
+            a5[1] = v7;
+        } catch(e8) {
+        }
+    }
+    static f;
+    static [1418634777];
+    static #f = -162139835;
+    static #h = 3.0;
+}
+let v9 = new C3(-162139835);
+new C3(v9);
+const v11 = new C3(v9);
+try {
+    new Uint8ClampedArray(1);
+} catch(e15) {
+}
+try {
+    new Uint8Array(74);
+} catch(e19) {
+}
+try {
+    const v22 = new Int8Array(4);
+    if (v22 < v22) {
+        try {
+            C3.__proto__ = C3;
+        } catch(e24) {
+        }
+    } else {
+        try {
+            v9 %= C3;
+        } catch(e25) {
+        }
+    }
+} catch(e26) {
+}
+function f27() {
+    1.7976931348623157e+308 & 1.7976931348623157e+308;
+    g = Int8Array;
+    v11[1.7976931348623157e+308];
+    for (let v32 = 0; v32 < 32; v32++) {
+        v11["p" + v32] = v32;
+    }
+    const o39 = {
+        [1]: 1.7976931348623157e+308,
+        8: "E",
+        [10000](a37, a38) {
+        },
+    };
+    return o39;
+}
+f27();
+f27();
+%PrepareFunctionForOptimization(f27);
+v11();
+f27();
+%OptimizeMaglevOnNextCall(f27);
+f27();
+%PrepareFunctionForOptimization(f27);
+f27();
+f27();
+%OptimizeFunctionOnNextCall(f27);
+f27();

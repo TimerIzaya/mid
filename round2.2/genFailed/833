@@ -1,0 +1,43 @@
+new WeakMap();
+function f5(a6) {
+    const o7 = {
+        "a": "function",
+        "c": "p",
+        "d": "getOwnPropertyDescriptor",
+        "e": "function",
+        972765043: a6,
+        __proto__: "function",
+        "f": "p",
+        "g": WeakMap,
+        "b": a6,
+        "h": "function",
+        1: a6,
+        2281294176: a6,
+    };
+    return o7;
+}
+f5("getOwnPropertyDescriptor");
+f5("getOwnPropertyDescriptor");
+f5("p");
+try {
+    new Float64Array(8);
+} catch(e14) {
+}
+try {
+    new BigInt64Array(980);
+} catch(e18) {
+}
+let v19 = 1740;
+try {
+    new Float64Array(v19);
+} catch(e22) {
+}
+try {
+    v19 = 980;
+} catch(e23) {
+}
+Object.defineProperty("getOwnPropertyDescriptor", "e", { configurable: true, set: f5 });
+try {
+    ("getOwnPropertyDescriptor").localeCompare("Bo");
+} catch(e29) {
+}

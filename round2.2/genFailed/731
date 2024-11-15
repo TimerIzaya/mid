@@ -1,0 +1,29 @@
+new Map();
+try {
+    new Int16Array(255);
+} catch(e5) {
+}
+try {
+    new Float64Array(350);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(225);
+} catch(e13) {
+}
+/\w|\d/s;
+const v15 = /w1\u00607O/m;
+const v16 = /s^xxx$?/msduy;
+[Float64Array,v16,350,255,[225]];
+[v15,255,v16];
+if (Int16Array) {
+    const o22 = {
+        "maxByteLength": 1024,
+    };
+    const v24 = new ArrayBuffer(127, o22);
+    try {
+        new Float32Array(v24);
+    } catch(e27) {
+    }
+} else {
+}

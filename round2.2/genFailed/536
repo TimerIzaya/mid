@@ -1,0 +1,22 @@
+try {
+    new Float32Array(242);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(2479);
+} catch(e7) {
+}
+try {
+    new Uint32Array(242);
+} catch(e11) {
+}
+const v13 = new WeakMap();
+const v21 = [242];
+Reflect.apply(v13.has, "M", v21);
+"M" ** Uint32Array;
+const o25 = {
+};
+try {
+    new Proxy("yDoN", o25);
+} catch(e28) {
+}

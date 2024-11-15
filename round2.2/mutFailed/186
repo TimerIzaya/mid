@@ -1,0 +1,71 @@
+new Set();
+try {
+    new Uint8ClampedArray(8);
+} catch(e5) {
+}
+try {
+    new Uint16Array(8);
+} catch(e9) {
+}
+try {
+    new Int32Array(31);
+} catch(e13) {
+}
+class C14 {
+    6 = Int32Array;
+    n(a16, a17, a18, a19) {
+        try {
+            this[6] = a17;
+        } catch(e20) {
+            function f21(a22, a23, a24, a25) {
+                'use strict';
+                try {
+                    a24.c = Uint8ClampedArray;
+                } catch(e26) {
+                }
+                return a24;
+            }
+            f21(a18, f21, a17, a17);
+        }
+        const o30 = {
+            "maxByteLength": 3516,
+        };
+        const v32 = new SharedArrayBuffer(3516, o30);
+        try {
+            new Float32Array(v32);
+        } catch(e35) {
+        }
+        return a16;
+    }
+}
+new C14();
+const v37 = new C14();
+const v38 = new C14();
+function F39(a41, a42) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.d = this;
+    try {
+        this.d = 31;
+    } catch(e43) {
+    }
+}
+new F39(8, 8);
+new F39(8, 31);
+new F39(8, 8);
+class C50 {
+    static {
+        function f52(a53) {
+            delete v38[-1.241357395341478e+308];
+        }
+        Object.defineProperty(this, "p28", { writable: true, configurable: true, set: f52 });
+        this in this;
+        for (let v56 = 0; v56 < 32; v56++) {
+            this["p" + v56] = v56;
+        }
+    }
+    [NaN] = -1.241357395341478e+308;
+}
+const o61 = {
+};
+o61.type = v37;
+gc(o61);

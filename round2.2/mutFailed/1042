@@ -1,0 +1,84 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+try {
+    new Uint8Array(308);
+} catch(e5) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e9) {
+}
+try {
+    new Int16Array(16);
+} catch(e13) {
+}
+try {
+    new Uint32Array(4096);
+} catch(e17) {
+}
+try {
+    new Int8Array(255);
+} catch(e21) {
+}
+try {
+    new Uint32Array(1172);
+} catch(e25) {
+}
+class C28 {
+    toString(a30) {
+        return Math.min(0.0 ** 16);
+    }
+}
+const v34 = new C28();
+const v35 = new C28();
+v35[Symbol.toPrimitive] = f1;
+v0.length += 4096;
+try {
+    v0.values();
+} catch(e40) {
+}
+const v41 = new C28();
+function f42(a43, a44) {
+    a43.toString = f42;
+    const o50 = {
+        __proto__: a43,
+        valueOf(a46, a47, a48, a49) {
+            return a43;
+        },
+    };
+    function f51() {
+        return f42;
+    }
+    Object.defineProperty(o50, "toString", { writable: true, enumerable: true, get: f51 });
+    return o50;
+}
+const v52 = f42();
+const v53 = f42(v35);
+const v54 = f42(v41);
+function f55(a56) {
+    const v57 = /abc|def|ghi/sy;
+    function f58() {
+        return v57;
+    }
+    let v59;
+    try { v59 = new f58(...v57, v57); } catch (e) {}
+    return v59;
+}
+v54.toString = f55;
+const v60 = [v54,v53];
+function f61() {
+    return 536870888n;
+}
+Object.defineProperty(v60, Symbol.toPrimitive, { configurable: true, enumerable: true, value: f61 });
+const v67 = [v60,v60,v60,v60,v60];
+function f68() {
+    new Int32Array(949287958);
+    return Uint32Array;
+}
+v67[Symbol.toPrimitive] = f68;
+for (const v75 of [v52,v67,v67,v60]) {
+    v52[v75] = v41;
+    Reflect.construct(f42, [v34]);
+}

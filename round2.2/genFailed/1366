@@ -1,0 +1,24 @@
+try {
+    new BigUint64Array(2825);
+} catch(e3) {
+}
+try {
+    new Float32Array(6);
+} catch(e7) {
+}
+try {
+    new Int8Array(2);
+} catch(e11) {
+}
+new Float32Array(-403859495, 9007199254740991, 2);
+const v19 = `o${-4294967297}536870887${2825}f`;
+const v20 = v19[v19];
+try {
+    v20[65535] = Infinity;
+} catch(e21) {
+}
+const v22 = v20?.b;
+try {
+    v20.__proto__ = v22;
+} catch(e23) {
+}

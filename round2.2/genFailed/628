@@ -1,0 +1,33 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+const v3 = new WeakSet();
+try {
+    new Int8Array(105);
+} catch(e10) {
+}
+try {
+    new Int32Array(985);
+} catch(e14) {
+}
+try {
+    new Uint8Array(129);
+} catch(e18) {
+}
+for (const v21 of v3[-1]?.c) {
+    v21[-2] <<= v21;
+}
+985 | Int32Array;
+const o23 = {
+    "defineProperty": f0,
+    "get": f0,
+    "has": f0,
+    "set": f0,
+    "setPrototypeOf": f0,
+};
+try {
+    new Proxy(v3, o23);
+} catch(e26) {
+}

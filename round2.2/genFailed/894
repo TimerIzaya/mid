@@ -1,0 +1,42 @@
+let v1 = BigUint64Array;
+try {
+    new v1(4);
+} catch(e3) {
+}
+try {
+    new Float64Array(127);
+} catch(e7) {
+}
+try {
+    new Float64Array(15);
+} catch(e11) {
+}
+class C15 {
+    p(a17, a18, a19) {
+        try {
+            this.__proto__ = this;
+        } catch(e20) {
+        }
+        --v1;
+        return 9007199254740991;
+    }
+    [Float64Array];
+    static f;
+    static e;
+}
+new C15();
+new C15();
+new C15();
+for (const v25 of 15) {
+    let v26;
+    try { v26 = v25.o(v1, Float64Array, -2147483649, 9007199254740991); } catch (e) {}
+    v26.__proto__;
+    const o30 = {
+        "maxByteLength": 536870912,
+    };
+    const v32 = new ArrayBuffer(4, o30);
+    try {
+        new Uint8ClampedArray(v32);
+    } catch(e35) {
+    }
+}

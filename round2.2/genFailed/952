@@ -1,0 +1,48 @@
+class C6 {
+    b = "object";
+    #o(a8, a9, a10, a11) {
+        try {
+            a10 = a9;
+        } catch(e12) {
+        }
+        let v13;
+        try { v13 = new a8("global", "2", "object", a9); } catch (e) {}
+        return v13;
+    }
+    [3n] = "object";
+    static ["global"] = "object";
+    #f = "object";
+    static [3n] = 3n;
+    #b;
+}
+const v14 = new C6();
+new C6();
+new C6();
+function f17() {
+    return v14;
+}
+class C18 extends f17 {
+    static #o(a20, a21, a22, a23) {
+        const v24 = new f17();
+        v14[v24];
+        Math.tan((5.0 % a23) * -318548759);
+        !5.0;
+        return v14;
+    }
+    static #a = -16n;
+    [-16n] = v14;
+}
+new C18();
+const v34 = new C18();
+const v35 = new C18();
+v34[C18] &= -16n;
+let v36 = 0;
+while (v36 < 10) {
+    const t40 = "object";
+    delete t40?.length;
+    try {
+        v35.fuck(v36, -16n);
+    } catch(e41) {
+    }
+    v36++;
+}

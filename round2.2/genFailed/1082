@@ -1,0 +1,55 @@
+const v1 = new Map();
+function F2(a4, a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a5;
+    } catch(e6) {
+    }
+    try {
+        this.f = a5;
+    } catch(e7) {
+    }
+}
+new F2(Map, v1);
+const v9 = new F2(v1, F2);
+const v10 = new F2(v9, v9);
+class C11 {
+    valueOf(a13, a14, a15, a16) {
+        a13.__proto__;
+        function f18(a19, a20, a21, a22) {
+            const v23 = [a14,a22,a15];
+            [v1,a13,a19,F2,[a16,v23,F2]];
+            return v23;
+        }
+        f18(a15, v10, v9, a15);
+        return a16;
+    }
+    static 4294967296;
+    [Map] = v1;
+}
+new C11();
+const v28 = new C11();
+new C11();
+try {
+    new Float32Array(9);
+} catch(e33) {
+}
+try {
+    new Uint32Array(5);
+} catch(e37) {
+}
+try {
+    new Float64Array(3933);
+} catch(e41) {
+}
+try {
+    v9.__proto__ = v1;
+} catch(e42) {
+}
+const v43 = [C11];
+[v43,v43,3933,Float32Array];
+[v43,v10,v43];
+v43 ^ v28;
+Math.cosh(-v28);
+!-1;
+5 >>> v28;

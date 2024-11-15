@@ -1,0 +1,97 @@
+const v0 = [13,-2,-52688,4096,-11,-1289239302,825627929,-223093247,10,3];
+const v1 = [9,-2147483647,65536,2147483648,-9007199254740990,-268435456,8,1073741825];
+const v2 = [-4294967295,-346934382];
+v2.string = v2;
+class C3 {
+    static {
+        const v5 = v0.length;
+        let v6;
+        try { v6 = new v1(v2, v5, v0); } catch (e) {}
+        v1[4] = v6;
+    }
+    f = v1;
+    static #c = v2;
+    constructor(a8, a9) {
+        function f10(a11) {
+            v2["keys"]();
+            return "keys";
+        }
+        a9[Symbol.toPrimitive] = f10;
+        a9[0];
+        try {
+            v0.#c %= v2;
+        } catch(e17) {
+        }
+    }
+}
+const v18 = new C3(v0, v1);
+let v19 = new C3(v0, v1);
+const v20 = new C3(v1, v0);
+function f21() {
+    function f22() {
+        const v23 = v20 && v0;
+        -3.8583983045322756e+307 << -3.8583983045322756e+307;
+        return v23;
+    }
+    return f22;
+}
+Object.defineProperty(v20, "toString", { writable: true, configurable: true, get: f21 });
+function F26(a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f31() {
+        return f21;
+    }
+    function f32(a33) {
+        try {
+            v20.valueOf = a30;
+        } catch(e34) {
+        }
+    }
+    Object.defineProperty(a30, "toString", { writable: true, configurable: true, get: f31, set: f32 });
+    try {
+        this.a = v1;
+    } catch(e35) {
+    }
+    try {
+        this.b = a30;
+    } catch(e36) {
+    }
+}
+function f37(a38) {
+    ({"f":v19,} = v18);
+    try {
+        v2[a38] = v1;
+    } catch(e39) {
+    }
+    return a38;
+}
+Symbol[Symbol.species] = f21;
+const v43 = Symbol.toPrimitive;
+F26[v43] = f37;
+const v44 = new F26(v19, v18, v0);
+const v45 = new F26(v20, v44, C3);
+new F26(C3, v20, v45);
+class C47 {
+    m(a49, a50) {
+        try {
+            super.b = v45;
+        } catch(e51) {
+        }
+        return v44;
+    }
+    [F26];
+    #d = v18;
+    static [v20] = v2;
+    static [v0];
+    #e;
+}
+new C47();
+new C47();
+new C47();
+const v55 = [512,1000,-11,1930083367,-20405];
+v55.constructor = Symbol;
+class C58 {
+}
+C58[Symbol.isConcatSpreadable] = v43;
+C58[Symbol.isConcatSpreadable] = C47;
+v55.concat(2147483647, 638507719, C58);

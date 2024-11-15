@@ -1,0 +1,27 @@
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -2072771343;
+    } catch(e12) {
+    }
+    try {
+        this.d = a8;
+    } catch(e13) {
+    }
+    try {
+        this.f = -1006000508;
+    } catch(e14) {
+    }
+}
+const v15 = new F6(-1006000508, -15, -746256291, -4294967296);
+const v16 = new F6(-4294967296, -3, -3, -15);
+new F6(-15, v16, -4294967296, -15);
+new F6(-2072771343, 5n, -1006000508, -15);
+const v22 = v16 + 5n;
+try { v15.toString(-7n, 5n, -15, v16, v22); } catch (e) {}
+%VerifyType(-1006000508);
+v16 / -44214n;
+try {
+    new F6(-2072771343, -2072771343, 2147483647, 6);
+} catch(e28) {
+}

@@ -1,0 +1,67 @@
+Set.p18 = Set;
+function f1() {
+    for (let v2 = 0; v2 < 32; v2++) {
+        Set["p" + v2] = v2;
+    }
+    return Set;
+}
+Object.defineProperty(f1, "toString", { enumerable: true, value: f1 });
+const v6 = Symbol.toPrimitive;
+Set[v6] = f1;
+const v7 = new Set();
+function f8(a9) {
+    const v11 = [5n,5n,5n,5n];
+    function f12(a13, a14, a15) {
+        a14.toString = f12;
+        a14.toString();
+        return a14;
+    }
+    const v18 = Symbol(f12(f12, v11));
+    f1 % 5n;
+    Object.defineProperty(v18, f8, { get: f8, set: f12 });
+    const v20 = Symbol.search;
+    try {
+        v20[v11] = f1;
+    } catch(e21) {
+    }
+    f12(5n, 5n);
+    return v11;
+}
+const v24 = Symbol.toPrimitive;
+v7[v24] = f8;
+const v28 = [-4n,-4n];
+v28.toString = Symbol;
+let v29;
+try { v29 = v28.entries(); } catch (e) {}
+const v30 = [Set,v28,Set,v7,-4n];
+v30.valueOf = f8;
+function f31() {
+    function f32(a33, a34) {
+        const o35 = {
+            "g": v24,
+            __proto__: v6,
+            "d": -4294967297n,
+        };
+        return o35;
+    }
+    f32(-4n, v29);
+    f32(v29, -4294967297n);
+    f32(-4294967297n, -4n);
+    return 64;
+}
+v30.toString = f31;
+const v42 = [v28];
+try { v42.slice(v30, v7); } catch (e) {}
+const v44 = [1.7154223878316498e+308,166072.22888246016,-0.0,Infinity,1000000000000.0];
+try { v44.reverse(); } catch (e) {}
+const v46 = [-1.0,4.0,1.7976931348623157e+308,0.08735054263588193,-1e-15];
+[-1000000000000.0,-605.9705047574784,-2.2250738585072014e-308,1000000000000.0];
+const v48 = [v44];
+v48.toString = f8;
+[[v28],-4294967297n,v46,v48,v48];
+const v51 = [55378,-15,2,290876069,4294967296,-1,-2,65537,-16,1650399133];
+try { Reflect.set(v46, v48, -4n); } catch (e) {}
+const v56 = Reflect.construct(Float32Array, [v51]);
+v56.toString = Symbol;
+v56.valueOf = f1;
+v56[2] = v56;

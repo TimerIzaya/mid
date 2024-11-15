@@ -1,0 +1,27 @@
+try {
+    new Uint32Array(3611);
+} catch(e3) {
+}
+try {
+    new Uint32Array(52);
+} catch(e7) {
+}
+try {
+    new Uint8Array(4);
+} catch(e11) {
+}
+[9];
+[-28313,10,2,281152560,9007199254740991,129,-65536];
+[744965639,16,-47779,11,4294967297];
+[-4.0,0.05204374129687617,NaN,-274498.7656024429,-Infinity,1000000000000.0,1.7976931348623157e+308];
+[-5.0,-739.3056405218845,1000000000000.0,-2.0,-1000.0,3.0];
+[-5.0];
+class C22 extends Int16Array {
+    constructor(a24, a25, a26, a27) {
+        super();
+        try { a26.subarray(); } catch (e) {}
+        delete a24.byteLength;
+    }
+}
+new C22(Int16Array, Int16Array, Int16Array, Int16Array);
+new C22();

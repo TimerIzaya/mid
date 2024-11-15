@@ -1,0 +1,19 @@
+try {
+    new Uint8Array(4);
+} catch(e9) {
+}
+let v10 = 127;
+try {
+    new Int16Array(v10);
+} catch(e13) {
+}
+try {
+    new Float64Array(4096);
+} catch(e17) {
+}
+try {
+    v10 **= v10;
+} catch(e18) {
+}
+new WeakMap();
+2147483649 % -2n;

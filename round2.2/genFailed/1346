@@ -1,0 +1,94 @@
+try {
+    new Int32Array(8);
+} catch(e3) {
+}
+try {
+    new Float32Array(7);
+} catch(e7) {
+}
+try {
+    new Float64Array(3);
+} catch(e11) {
+}
+const v13 = new WeakMap();
+class C15 extends WeakMap {
+    1073741823 = Int32Array;
+    get h() {
+        super.get(8);
+        function F18(a20, a21) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.h = this;
+            } catch(e22) {
+            }
+            try {
+                this.g = WeakMap;
+            } catch(e23) {
+            }
+        }
+        new F18(8, 7);
+        const v25 = new F18(3, 7);
+        new F18(8, 8);
+        return v25;
+    }
+}
+const v27 = new C15();
+const v28 = new C15();
+const v29 = new C15();
+class C30 {
+    static #p(a32, a33, a34, a35) {
+        try {
+            super.d = 7;
+        } catch(e36) {
+        }
+        return 3;
+    }
+    get h() {
+        let v38;
+        try { v38 = this.p(this, this, this); } catch (e) {}
+        [v13["delete"](C15),"delete"];
+        const v42 = [v38,C15,Float32Array,v28];
+        [v13,v42,v42];
+        var b = v27;
+        return this;
+    }
+}
+new C30();
+new C30();
+const v46 = new C30();
+try {
+    v46.fuck(undefined, Int32Array);
+} catch(e51) {
+}
+let v52;
+try { v52 = v29.has(7); } catch (e) {}
+v52 ** 16255n;
+const o54 = {
+};
+try {
+    o54.f = Float64Array;
+} catch(e55) {
+}
+try {
+    const o56 = {
+    };
+    o56.f = Float64Array;
+    o56.e = WeakMap;
+} catch(e57) {
+}
+try {
+    const o58 = {
+    };
+    o58.f = Float64Array;
+    o58.e = WeakMap;
+    o58.g = Int32Array;
+} catch(e59) {
+}
+try {
+    const o60 = {
+    };
+    o60.f = Float64Array;
+    o60.e = WeakMap;
+    o60.g = 8;
+} catch(e61) {
+}

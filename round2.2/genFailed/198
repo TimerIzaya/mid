@@ -1,0 +1,36 @@
+const v2 = new Array(10);
+function f3(a4) {
+    const o5 = {
+        "h": a4,
+        "c": 10,
+        [-1]: a4,
+        "d": a4,
+        ...Array,
+        "g": a4,
+        [a4]: a4,
+        "f": a4,
+        __proto__: a4,
+        "e": 10,
+    };
+    return o5;
+}
+const v6 = f3(Array);
+const v7 = f3(v6);
+const v9 = [10,Array,v6,f3(v6)];
+const v10 = [v7,v9,10,v9];
+[10,v10];
+v10[2676] /= 10;
+f3 in v6;
+class C13 {
+    #h = f3;
+    static a = v2;
+}
+new C13();
+new C13();
+new C13();
+Array(10);
+%PrepareFunctionForOptimization(Array);
+Array(10);
+Array(10);
+%OptimizeFunctionOnNextCall(Array);
+Array(10);

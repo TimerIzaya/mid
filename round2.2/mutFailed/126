@@ -1,0 +1,41 @@
+const v1 = new WeakMap();
+2 | 2;
+function F6(a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v9 = a8?.set;
+    try { new v9(v1, v1); } catch (e) {}
+    try {
+        this.g = a8;
+    } catch(e11) {
+    }
+    try {
+        this.e = v1;
+    } catch(e12) {
+    }
+    try {
+        this.d = v1;
+    } catch(e13) {
+    }
+}
+const v14 = new F6(v1);
+const v15 = new F6(2);
+new F6(v14);
+function f20() {
+    return v15;
+}
+let v23 = 536870887;
+v23--;
+let v27 = [2,1885835501];
+try { v27.join(v14); } catch (e) {}
+-(--v27);
+function f31(a32, a33, a34) {
+    return a32;
+}
+Worker.caller = Worker;
+const v37 = [v27];
+const o38 = {
+    "arguments": v37,
+    "type": "function",
+};
+o38.type = o38;
+new Worker(f31, o38);

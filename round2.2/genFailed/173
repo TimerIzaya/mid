@@ -1,0 +1,42 @@
+class C3 {
+    constructor(a5, a6) {
+        this >= a5;
+        const o10 = {
+            "maxByteLength": 40,
+        };
+        const v12 = new SharedArrayBuffer(40, o10);
+        try {
+            new Float64Array(v12);
+        } catch(e15) {
+        }
+    }
+}
+new C3(-9n, -9n);
+const v17 = new C3(-9n, -65536n);
+const v18 = new C3(-1387767622n, -65536n);
+function f19() {
+    return C3;
+}
+try {
+    new Float32Array(1295);
+} catch(e23) {
+}
+try {
+    new Float32Array(1024);
+} catch(e27) {
+}
+try {
+    new Uint16Array(1);
+} catch(e31) {
+}
+for (let [v32,v33,v34] of Float32Array) {
+    Object.defineProperty(v18, "b", { get: f19, set: f19 });
+    let v35;
+    try { v35 = C3.n(v33); } catch (e) {}
+    try { v17["n"](Float32Array, "n", "n", v17, "n"); } catch (e) {}
+    try {
+        const t37 = "n";
+        t37.valueOf = v35;
+    } catch(e38) {
+    }
+}

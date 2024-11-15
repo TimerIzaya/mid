@@ -1,0 +1,76 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+try {
+    new Int16Array(1962);
+} catch(e5) {
+}
+try {
+    new Uint16Array(1024);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(220);
+} catch(e13) {
+}
+try {
+    new Uint32Array(10);
+} catch(e17) {
+}
+try {
+    new BigUint64Array(7);
+} catch(e21) {
+}
+try {
+    new Int32Array(13);
+} catch(e25) {
+}
+class C27 {
+}
+const v28 = new C27();
+const o31 = {
+    __proto__: v28,
+};
+const v32 = undefined?.constructor;
+let v33;
+try { v33 = v32(o31, undefined, "jI"); } catch (e) {}
+const v36 = [3];
+Object.defineProperty(v36, "toString", { writable: true, configurable: true, enumerable: true, value: f1 });
+const t40 = [-16,4294967297,-1728414155,-65536,16,-49207,536870889];
+t40.length = v36;
+const v41 = [Date,Date,Date];
+let v42;
+try { v42 = v41.with(); } catch (e) {}
+const o43 = {
+};
+const v45 = [4,-456675475,-4];
+const o48 = {
+    6: v45,
+};
+const v49 = [-1.3932181377177156e+308,3.0,-1000000000.0,-732.7359410626135,-1000000000.0,-Infinity,-1000000000000.0];
+try { v49.groupToMap(v49); } catch (e) {}
+const v51 = [-1.9343106152701246,2.220446049250313e-16,0.9943572918947954];
+try { v51.toLocaleString(); } catch (e) {}
+class C57 {
+}
+const v59 = ([4.0,-951657.9961229328,-1.0,0.7190859574110413,746.0181860749346,-Infinity,0.6013729385265305,1000000000000.0,-718.3044757817424,-892213.8343004808]).__lookupGetter__;
+try { v59(v59, "object", v59, v59, v33); } catch (e) {}
+let v64 = 2147483647n;
+v64++;
+const v67 = [4.641649318850067,0.37400148924652876,-816545.7805143001,-3.0,NaN,-1.0,1000000000.0,0.35126267915247544,Infinity,-Infinity];
+class C68 {
+    static #d = v67;
+}
+const v70 = [1000000000000.0,0.870824343130118,3.0,-753.6917130924656,-5.0,-4.79204912516727e+307,1000000.0];
+const v71 = [-222.92643044002784,Infinity,-1000000000000.0,-840.9159553999352,-6.6051039197093475,1.0,-3.848917906236722e+307,1000.0,-2.220446049250313e-16,2.0];
+v71[4];
+[v70,"64",v71];
+class C75 {
+    constructor(a77) {
+        eval(v42);
+    }
+}
+const o81 = {
+};

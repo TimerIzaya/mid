@@ -1,0 +1,44 @@
+try {
+    new BigInt64Array(2542);
+} catch(e3) {
+}
+try {
+    new Uint32Array(2);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(257);
+} catch(e11) {
+}
+function f18() {
+    return 2542;
+}
+class C19 extends BigInt64Array {
+    static #g;
+    set c(a21) {
+        this[Symbol.match] = 2542;
+    }
+    constructor(a26, a27, a28) {
+        super(a28);
+        Uint8ClampedArray + BigInt64Array;
+        try {
+            super[a26] = a26;
+        } catch(e31) {
+        }
+    }
+}
+const v32 = new C19(129n, 129n, -1166336625);
+new C19(129n, 129n, 2542);
+const v34 = new C19(-268435456n, 129n, -1166336625);
+v34[992763854];
+const v37 = [];
+Reflect.apply(v32.entries, C19, v37);
+let v40;
+try { v40 = C19.p(C19, BigInt64Array, 257); } catch (e) {}
+const v41 = v32.__proto__;
+try { v41(); } catch (e) {}
+delete v32?.byteLength;
+try {
+    v40.__proto__ = Reflect;
+} catch(e44) {
+}

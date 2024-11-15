@@ -1,0 +1,49 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+class C2 extends f1 {
+    #g = f1;
+    constructor(a4, a5) {
+        super();
+        const v6 = this & this;
+        try {
+            a4 += v6;
+        } catch(e7) {
+        }
+    }
+    static #b = v0;
+    g;
+    static #d;
+    [f1];
+}
+new C2(f1, v0);
+const v10 = new C2(v0, v0);
+new C2(v10, v0);
+[1000,-2147483647,18530,128,14361];
+[1073741824,0,-10,-1,2147483649,1153300194,10000,4096,-1422084510,32962];
+[7,2,-45574,0];
+try {
+    new Uint8Array(4);
+} catch(e21) {
+}
+try {
+    new Int32Array(4);
+} catch(e25) {
+}
+try {
+    new Float32Array(835);
+} catch(e29) {
+}
+try {
+    new Uint32Array(9);
+} catch(e33) {
+}
+try {
+    new Uint8Array(10);
+} catch(e37) {
+}
+try {
+    new BigUint64Array(180);
+} catch(e41) {
+}

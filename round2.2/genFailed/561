@@ -1,0 +1,35 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 128;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+class C7 {
+    static {
+        let v8 = this;
+        for (const v9 of v8) {
+            try {
+                v8 = v9;
+            } catch(e10) {
+            }
+        }
+    }
+    static [v6];
+    static c;
+    static d;
+}
+new C7();
+new C7();
+new C7();
+const v17 = (-536870912n) ** -536870912n;
+const v21 = -52126989 >>> v6;
+257 || v21;
+257 % v21;
++v6;
+v6 << v17;
+~v4;
+-52126989 & v4;

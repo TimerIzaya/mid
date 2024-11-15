@@ -1,0 +1,68 @@
+try {
+    new Uint8Array(1);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(11);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(25);
+} catch(e11) {
+}
+for (const v16 of BigInt64Array) {
+    let v18 = 6;
+    Math.hypot(11);
+    const v21 = --v18;
+    v18 >> v16;
+    v18 && v21;
+    Math.trunc(v21);
+    v16 << 7;
+    Math.atan2(v18, 7);
+}
+const v27 = [4,4,4,4];
+for (const v28 in v27) {
+    const o29 = {
+    };
+    try {
+        new Proxy(v27, o29);
+    } catch(e32) {
+    }
+}
+const v33 = [186,186];
+class C34 extends BigInt64Array {
+    constructor(a36, a37, a38, a39) {
+        super();
+        super[a38] = 7;
+    }
+}
+new C34(v27, 4, v33);
+const o41 = {
+    "f": Uint8Array,
+    10: 25,
+};
+try { C34.toString(o41, 1, 7, 186, 7); } catch (e) {}
+function f43() {
+    const v44 = v27[536870889];
+    try {
+        v33.unshift(1, BigInt64Array, v44);
+    } catch(e46) {
+    }
+    return 11;
+}
+function f47() {
+    return 25;
+}
+const v48 = [-2.2250738585072014e-308];
+[-4.0,3.0,1000000000000.0,-1.6618123646058085e+308,983486.3613236614,-8.897540069451237];
+[4.0,-1.0,-1000000.0,-2.2250738585072014e-308];
+for (let i52 = 0; i52 < 0; i52++) {
+    const v60 = new Array(13);
+    try {
+        v33[25] = v48;
+    } catch(e61) {
+    }
+    4 * v60;
+}
+let v63 = 11;
+Math.log1p(--v63);

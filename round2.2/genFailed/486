@@ -1,0 +1,51 @@
+class C3 {
+    static m(a5, a6) {
+        a5 | a6;
+        const o8 = {
+        };
+        try {
+            new Proxy(this, o8);
+        } catch(e11) {
+        }
+        return o8;
+    }
+    static [-1073741824];
+    static f;
+    #d = -1073741824;
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+class C15 {
+    static o(a17, a18, a19) {
+        const v21 = new WeakMap();
+        let v22;
+        try {
+        const t0 = -1073741824;
+        v22 = t0(WeakMap, this, v21, this);
+        } catch (e) {}
+        try {
+            v22 *= WeakMap;
+        } catch(e23) {
+        }
+        return a17;
+    }
+    [v12];
+    static [v14];
+    c;
+    1778;
+}
+new C15();
+new C15();
+new C15();
+const v28 = new WeakSet();
+v28[C15] ^= 34264;
+try { v13(); } catch (e) {}
+const v33 = `
+    try {
+        C3.__proto__ = C15;
+    } catch(e34) {
+    }
+    Object.defineProperty("string", "d", { writable: true, enumerable: true, value: v13 });
+`;
+eval(v33);

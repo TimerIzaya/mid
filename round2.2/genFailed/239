@@ -1,0 +1,66 @@
+function f3(a4) {
+    const o13 = {
+        "b": a4,
+        toString(a6, a7) {
+            class C8 {
+                static [this] = a7;
+                3 = this;
+            }
+            new C8();
+            new C8();
+            new C8();
+            C8.g;
+            return this;
+        },
+        "e": 13,
+        "f": 5,
+        8: a4,
+    };
+    return o13;
+}
+const v14 = f3(13);
+const v15 = f3(-1024);
+const v16 = f3(13);
+class C20 extends f3 {
+    12;
+    set c(a22) {
+        try { a22(a22, v14, this); } catch (e) {}
+        super.toString(13, 13, this);
+        v15[-107890644n] &&= 13;
+        this[-107890644n];
+        f3(5);
+        %PrepareFunctionForOptimization(f3);
+        f3(5);
+        f3(5);
+        %OptimizeMaglevOnNextCall(f3);
+        f3(5);
+    }
+    1;
+    [-1024] = v16;
+}
+new C20();
+const v31 = new C20();
+new C20();
+try {
+    new Uint32Array(4);
+} catch(e36) {
+}
+try {
+    new Int16Array(3);
+} catch(e40) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e44) {
+}
+for (const v45 of Uint32Array) {
+    try { v31.toString(); } catch (e) {}
+    %VerifyType(BigUint64Array);
+    [0.9940647061829084,-Infinity,-1000000000000.0,0.8809792576878653,-1000.0,-0.0,65999.62377652572];
+    [-2.2250738585072014e-308,6.221812239343784,835781.9838647933,1000000000.0,-2.220446049250313e-16,-4.076840492623981,-5.0,1000000000000.0];
+    [-1000000000.0,-Infinity,-1.0,-1000000000000.0,-0.0,-4.0,1000000000000.0,-Infinity,0.5290046099390084];
+}
+let v50;
+try { v50 = v31.toString(-1024, C20, 3); } catch (e) {}
+const v51 = v50 + Int16Array;
+v16.toString(-1024, v51, v51, v15, C20);

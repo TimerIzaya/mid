@@ -1,0 +1,58 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 2147483649;
+    } catch(e3) {
+    }
+    try {
+        this.d = 2147483649;
+    } catch(e4) {
+    }
+    try {
+        this.g = 2147483649;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+new F0();
+function f15(a16, a17, a18) {
+    const o26 = {
+        "g": -4294967295n,
+        5: 129,
+        [-1023822950](a20, a21, a22, a23) {
+            super.d;
+            a23[-4294967295n];
+            return a16;
+        },
+        "h": v6,
+        __proto__: v6,
+        "d": 129,
+        [a18]: v6,
+    };
+    return o26;
+}
+const v27 = f15(v7, -1024n, -1023822950);
+f15(v27, -4294967295n, 129);
+f15(9n, 9n, -1023822950);
+function f33(a34, a35) {
+    function f37(a38) {
+        const o39 = {
+            "apply": f15,
+            "defineProperty": f15,
+        };
+        try {
+            new Proxy(v27, o39);
+        } catch(e42) {
+        }
+    }
+    this.onmessage = f37;
+    const v44 = [[-1024n,a35,-4294967295n,v7],112513457n];
+    [f15,432250989n,v44,v44];
+}
+const v48 = ["function",v27];
+const o49 = {
+    "arguments": v48,
+    "type": "function",
+};
+new Worker(f33, o49);

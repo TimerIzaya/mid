@@ -1,0 +1,59 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static #c;
+    static [WeakSet];
+    constructor(a4, a5) {
+        super(a4);
+        try {
+            this.#c;
+        } catch(e7) {
+        }
+        super[WeakSet];
+    }
+    static p(a10, a11) {
+        const v12 = a10?.[a10];
+        function F13(a15, a16, a17, a18) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a10;
+            } catch(e19) {
+            }
+        }
+        const v20 = new F13(this, v1, v1, v12);
+        const v21 = new F13(v1, v12, a11, v1);
+        new F13(WeakSet, a11, WeakSet, v20);
+        return v21;
+    }
+}
+const v23 = new C2(WeakSet, WeakSet);
+const v24 = new C2(C2, v23);
+new C2(v24, v1);
+const v29 = [-571049246n];
+const v30 = [v1,15058n,v29];
+const v31 = [15058n];
+class C32 {
+    static #toString(a34, a35, a36) {
+        class C37 {
+            c;
+            b = 65536n;
+            static 4;
+        }
+        new C37();
+        new C37();
+        new C37();
+        return v31;
+    }
+    static [v30] = -571049246n;
+    static #e = v1;
+    [v31];
+    4294967295 = v1;
+}
+new C32();
+const v42 = new C32();
+const v43 = new C32();
+new WeakSet(v43);
+v42[5] |= v31;
+v29[207] /= -3;
+[348,4,13,-1,-4294967295,1851452584,128,-11];
+[7,-1471937440,1991340555,-49968,14];
+[1275519044,0,-4294967295,-160688783,-536870912,11,257,-62012,-4294967296];

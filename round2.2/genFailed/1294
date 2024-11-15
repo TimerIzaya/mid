@@ -1,0 +1,44 @@
+try {
+    new Int16Array(230);
+} catch(e3) {
+}
+try {
+    new Uint32Array(3231);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(255);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o30 = {
+        "d": 230,
+        toString(a18, a19, a20) {
+            try { this.toString(a20, a19, 255, a13); } catch (e) {}
+            const o24 = {
+                "maxByteLength": 257,
+            };
+            const v26 = new ArrayBuffer(257, o24);
+            try {
+                new Uint8Array(v26);
+            } catch(e29) {
+            }
+            return a20;
+        },
+    };
+    return o30;
+}
+f12(230, 3231, 255, 255);
+f12(3231, 3231, 230, 230);
+f12(255, 255, 255, 230);
+function f35() {
+    return true;
+}
+new Date();
+for (const v38 of 230) {
+    const o42 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o42);
+}

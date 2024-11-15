@@ -1,0 +1,65 @@
+function f3(a4) {
+    const o13 = {
+        get e() {
+            let v5 = this;
+            v5--;
+            return a4;
+        },
+        [a4]: a4,
+        7: 9,
+        set f(a8) {
+            try { a8(); } catch (e) {}
+            const v10 = [a8,a4];
+            [v10,a4,a8,[v10,this,a8]];
+        },
+    };
+    return o13;
+}
+const v14 = f3(9);
+const v15 = f3(9);
+const v16 = f3(9);
+function f17(a18, a19, a20, a21) {
+    const o27 = {
+        [f3]: a19,
+        "a": f3,
+        ...v16,
+        7: a18,
+        set d(a23) {
+            super.b >>= -268435456;
+        },
+        "c": a19,
+        "g": a19,
+    };
+    return o27;
+}
+const v28 = f17(9, v14, 7650, -268435456);
+const v29 = f17(-268435456, v15, 7650, 9);
+f17(-268435456, v15, 9, 7650);
+class C31 extends f17 {
+    [9];
+    268435441;
+    b;
+    #valueOf(a33, a34, a35) {
+        try {
+            super.b = v28;
+        } catch(e36) {
+        }
+        return a33;
+    }
+    static [9] = v15;
+    c = v14;
+}
+const v37 = new C31();
+const v38 = new C31();
+new C31();
+try {
+    v15.__proto__ = v37;
+} catch(e40) {
+}
+for (let [v41,,v42] of C31) {
+    try { v28.toString(v41, v42, v29, v41); } catch (e) {}
+    try {
+        v28[7] = v38;
+    } catch(e44) {
+    }
+}

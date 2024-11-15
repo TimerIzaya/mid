@@ -1,0 +1,39 @@
+/b/mgsvyi;
+const v4 = /O[\118]/mgsdy;
+const v5 = /(?!(a))\1/v;
+let v7 = 6n;
+class C9 {
+    constructor(a11, a12, a13) {
+        for (let v14 = 0; v14 < 32; v14++) {
+            v5["p" + v14] = v14;
+        }
+    }
+    o(a18, a19, a20) {
+        try {
+            v7 = a18;
+        } catch(e21) {
+        }
+        return v7;
+    }
+}
+const v22 = new C9(v4, -256n, 698796.8011135508);
+new C9(v4, v22, 2.2250738585072014e-308);
+new C9(v4, 698796.8011135508, 698796.8011135508);
+let v25;
+try { v25 = v7(); } catch (e) {}
+Reflect.construct(v7, [v25,2.2250738585072014e-308], v7);
+const v29 = `
+    try {
+        new Int32Array(205);
+    } catch(e33) {
+    }
+    try {
+        new Uint16Array(5);
+    } catch(e37) {
+    }
+    try {
+        new Uint8ClampedArray(3299);
+    } catch(e41) {
+    }
+`;
+eval(v29);

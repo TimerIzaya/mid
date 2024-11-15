@@ -1,0 +1,42 @@
+try {
+    new Uint16Array(2370);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(257);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e14) {
+}
+class C15 extends Uint16Array {
+    [2370] = -256;
+    p(a17, a18, a19, a20) {
+        function f21(a22) {
+            return a20;
+        }
+        class C23 extends f21 {
+            [f21];
+            [a20];
+            1 = a19;
+        }
+        return a17;
+    }
+    [-4294967297];
+    0;
+    #e = 2370;
+}
+const v24 = new C15();
+const v25 = new C15();
+const v26 = new C15();
+const v29 = new Array(3486);
+Object.defineProperty(v29, v29, { configurable: true, get: Array, set: Array });
+v24 % C15;
+for (let [,...v31] of v25) {
+}
+v24.byteOffset;
+try {
+    v26.toString = Array;
+} catch(e36) {
+}

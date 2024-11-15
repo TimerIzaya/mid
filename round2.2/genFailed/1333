@@ -1,0 +1,25 @@
+class C3 {
+    static [1000.0];
+    #valueOf(a5) {
+        a5[1] %= 16;
+        const o9 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o9);
+        return this;
+    }
+}
+let v11 = new C3();
+let v12 = new C3();
+const v13 = new C3();
+function f14() {
+    return v11;
+}
+delete v13[v13];
+const v22 = v11--;
+f14(v13, C3, 65537n, v22, 65537n, v22) % 5253n;
+try {
+    v12 |= v13;
+} catch(e25) {
+}

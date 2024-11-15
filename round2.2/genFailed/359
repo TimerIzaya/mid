@@ -1,0 +1,27 @@
+class C3 {
+    #f;
+    static {
+        for (let v5 = 0; v5 < 32; v5++) {
+            const t4 = "object";
+            t4["p" + v5] = v5;
+        }
+    }
+    f = 4294967297;
+    [4294967297];
+    static 6;
+    ["object"] = 4294967297;
+}
+new C3();
+new C3();
+const v10 = new C3();
+function f11() {
+    return v10;
+}
+new Array(1000);
+let v21 = 1479521183 >>> C3;
+Math.floor(C3);
+const v23 = -C3;
+--v21;
+Math.round(v21);
++v21;
+try { v10.p(v23); } catch (e) {}

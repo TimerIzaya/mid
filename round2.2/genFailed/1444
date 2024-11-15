@@ -1,0 +1,31 @@
+const v0 = [-7,-9223372036854775808,127,-38613,-9223372036854775808,-65537,9007199254740991,-9007199254740992,9223372036854775807,402869243];
+const v1 = [26923,9,31335,4294967296,-4294967296,1073741824,6,-2147483649,10];
+const v2 = [0];
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = v1;
+    } catch(e7) {
+    }
+    try {
+        this.d = v1;
+    } catch(e8) {
+    }
+    try {
+        this.g = a6;
+    } catch(e9) {
+    }
+}
+const v10 = new F3(v1, v0);
+new F3(v0, v2);
+const v12 = new F3(v2, v1);
+try {
+    v0[127] = F3;
+} catch(e16) {
+}
+const v17 = v12[2];
+try {
+    v10[1] = v17;
+} catch(e18) {
+}
+v17.__proto__;

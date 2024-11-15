@@ -1,0 +1,30 @@
+[12n,60655n];
+const v4 = [-2n,60655n,-2n,-2n];
+const v5 = [v4,v4];
+function f7() {
+    return v5;
+}
+const v8 = [4.0,2.2250738585072014e-308,-4.0,3.0,3.0,-670597.8935594957];
+const v9 = [5.658962109654679e+307,2.3005686724909662e+306];
+const v10 = [-2.0,-1.29591688894145e+308,-4.0,2.35578354425652e+307,-Infinity,1000.0];
+let v11;
+try { v11 = v9.reduce(f7, v10); } catch (e) {}
+const o12 = {
+    __proto__: v9,
+    ...v11,
+};
+for (const v13 in v8) {
+    -2n - v13;
+    try {
+        new Uint8Array(2);
+    } catch(e18) {
+    }
+    try {
+        new Uint16Array(127);
+    } catch(e22) {
+    }
+    try {
+        new Int8Array(3145);
+    } catch(e26) {
+    }
+}

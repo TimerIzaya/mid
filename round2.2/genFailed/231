@@ -1,0 +1,45 @@
+class C3 {
+    static #f;
+    constructor(a5) {
+        a5.__proto__;
+        let v7 = 0;
+        while (v7 < 8) {
+            try {
+                a5.#f += v7;
+            } catch(e10) {
+            }
+            v7++;
+        }
+    }
+}
+const v12 = new C3(C3);
+new C3(v12);
+const v14 = new C3(-9007199254740991);
+const v17 = new Array(241);
+class C18 extends Array {
+    constructor(a20, a21, a22, a23) {
+        super(241);
+        try {
+            Array(-256);
+        } catch(e26) {
+        }
+    }
+    static #c = v14;
+    static [-2];
+    e;
+    b;
+}
+const v27 = new C18(v14, 241, v14, Array);
+const v28 = new C18(v27, Array, v17, v27);
+new C18(v12, v12, "d", v28);
+try {
+    new C3(Array);
+} catch(e31) {
+}
+Object.defineProperty(v12, v17, { configurable: true, enumerable: true, get: Array, set: Array });
+Array(-9007199254740991);
+Object.defineProperty("d", "length", { enumerable: true, get: Array, set: Array });
+try {
+    v17.toSpliced(241);
+} catch(e35) {
+}

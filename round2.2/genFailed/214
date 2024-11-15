@@ -1,0 +1,32 @@
+const v1 = new WeakSet();
+const v2 = [v1,v1,v1];
+const v3 = [v2,v2,v2];
+const v4 = [v2,v2,v3];
+const v5 = [2.0,1.0,8.795778382391964e+306,0.5523018699457503,-1e-15,3.0,-1e-15];
+const v6 = [2.220446049250313e-16,7.69889104026965,-2.212861277203803];
+const v7 = [4.0,387006.63105829456,0.0,0.8730303734943512,-1000000.0,NaN,0.0,2.0];
+function F8(a10, a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a10;
+    } catch(e14) {
+    }
+}
+const v15 = new F8(v2, v1, v3, v1);
+new F8(v2, v6, v4, v7);
+new F8(v5, v7, v5, v5);
+function f19(a20, a21) {
+    const o24 = {
+        get b() {
+            try {
+                super[this] = v15;
+            } catch(e23) {
+            }
+            return WeakSet;
+        },
+    };
+    return o24;
+}
+f19(f19, v7);
+f19(v5, v2);
+f19(c, v3);

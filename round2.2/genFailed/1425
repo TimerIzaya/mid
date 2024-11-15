@@ -1,0 +1,20 @@
+const v3 = [-65535n,-2147483648n];
+[16n,-65535n,[v3],-2147483648n,-2147483648n];
+function f6() {
+    return -65535n;
+}
+v3.find(...v3, 2.0568247024570567, -1, f6, 16n);
+const v15 = [f6,-65535n];
+Reflect.apply(v3.reduce, v3, v15);
+try {
+    new Uint8Array(0);
+} catch(e21) {
+}
+try {
+    new Uint32Array(3559);
+} catch(e25) {
+}
+try {
+    new Uint8Array(1428);
+} catch(e29) {
+}

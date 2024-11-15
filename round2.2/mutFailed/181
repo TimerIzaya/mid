@@ -1,0 +1,49 @@
+try {
+    new Uint32Array(3709);
+} catch(e3) {
+}
+try {
+    class C7 {
+        toString(a9) {
+            return this;
+        }
+    }
+    const v10 = new C7();
+    function f11(a12, a13) {
+        const o14 = {
+            "e": a13,
+        };
+        return o14;
+    }
+    const v15 = f11(-5.0, v10);
+    const v16 = f11();
+    const v17 = v15.e;
+    try {
+        v16[v17] = f11;
+    } catch(e18) {
+    }
+    new Uint16Array(26);
+} catch(e20) {
+}
+try {
+    new Int32Array(10);
+} catch(e24) {
+}
+class C28 extends Int32Array {
+    h;
+    [10] = 3709;
+    n(a30, a31, a32) {
+        delete a31[10];
+        Reflect.construct(Uint32Array, [26,a30], Int32Array);
+        return 3709;
+    }
+    105;
+    d;
+    [26];
+}
+new C28();
+new C28();
+new C28();
+function f49(a50) {
+    return arguments;
+}

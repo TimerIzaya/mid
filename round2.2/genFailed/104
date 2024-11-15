@@ -1,0 +1,45 @@
+try {
+    new Uint16Array(114);
+} catch(e3) {
+}
+try {
+    new Int8Array(4092);
+} catch(e7) {
+}
+try {
+    new Float64Array(58);
+} catch(e11) {
+}
+let v12 = 104;
+try {
+    new Int16Array(v12);
+} catch(e15) {
+}
+try {
+    new Uint32Array(8);
+} catch(e19) {
+}
+try {
+    new BigUint64Array(7);
+} catch(e23) {
+}
+try {
+    new Uint8ClampedArray(1024);
+} catch(e27) {
+}
+try {
+    new Uint16Array(7);
+} catch(e31) {
+}
+try {
+    new Float64Array(1871);
+} catch(e35) {
+}
+throw Uint8ClampedArray;
+if (1024) {
+} else {
+    try {
+        v12 = 1024;
+    } catch(e42) {
+    }
+}

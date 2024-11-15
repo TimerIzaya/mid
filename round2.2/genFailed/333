@@ -1,0 +1,55 @@
+function f0() {
+}
+const v3 = new Map();
+class C4 {
+    get g() {
+        try {
+            super.m(v3, null, Map, v3, null);
+        } catch(e7) {
+        }
+        return v3;
+    }
+    #e = null;
+    m(a9) {
+        try {
+            a9 &&= f0;
+        } catch(e10) {
+        }
+        return f0;
+    }
+}
+const v11 = new C4();
+const v12 = new C4();
+const v13 = new C4();
+function f17(a18, a19, a20, a21) {
+    const o34 = {
+        o(a23, a24, a25, a26) {
+            f0();
+            try {
+                a25 *= this;
+            } catch(e28) {
+            }
+            return a23;
+        },
+        get h() {
+            try {
+                C4[1000] = 1000;
+            } catch(e33) {
+            }
+            return a21;
+        },
+    };
+    return o34;
+}
+f17(-2147483648n, v12, 268435456n, v13);
+f17(-2147483648n, v12, -24775n, v12);
+f17(-2147483648n, v11, -2147483648n, v13);
+if (-24775n) {
+    new Map(v13);
+} else {
+    const o42 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o42);
+}

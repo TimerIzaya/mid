@@ -1,0 +1,53 @@
+const v0 = [-Infinity,-211.76137959257608,1000000000.0,-3.831966949708125,6.4251900224818534,5.949041981680011,203.59519307365326,-599485.0050343296];
+const v1 = [-1.771848332293473,NaN,2.220446049250313e-16,-745.1492242979793,1e-15,1000000.0,-143.0035498365512,1000000000.0,-1e-15,5.0];
+const v2 = [8.485396825388811];
+class C6 {
+    f = 7.606413699829503;
+    #e = v0;
+    #o(a8, a9, a10, a11) {
+        const v12 = a8[5];
+        try { v0.map(v12, this); } catch (e) {}
+        return v12;
+    }
+    static n(a15, a16, a17, a18) {
+        switch (a16) {
+            default:
+                try {
+                    super.setMilliseconds(a16, v1, a17);
+                } catch(e20) {
+                }
+                break;
+        }
+        return this;
+    }
+}
+new C6();
+const v22 = new C6();
+const v23 = new C6();
+class C24 extends C6 {
+    constructor(a26, a27, a28, a29) {
+        let v25 = this;
+        super();
+        const v30 = new C6();
+        try {
+            v25 = v30;
+        } catch(e31) {
+        }
+    }
+    static #g = v0;
+    a = v23;
+    static #h = v2;
+    static 127 = v2;
+}
+new C24(-1000.0, v0, -9.168890720038882e+307, v22);
+new C24(7.606413699829503, v1, 7.606413699829503, v23);
+new C24(-9.168890720038882e+307, v1, -9.168890720038882e+307, v22);
+const o38 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o38);
+try {
+    C6 ||= o38;
+} catch(e40) {
+}

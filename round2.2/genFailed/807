@@ -1,0 +1,50 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 9;
+    } catch(e3) {
+    }
+    try {
+        this.f = 9;
+    } catch(e4) {
+    }
+    try {
+        this.e = 9;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new F0();
+class C9 extends F0 {
+    [F0] = v7;
+    static {
+        try {
+            super.toString(this, v7, this, this, F0);
+        } catch(e12) {
+        }
+    }
+    valueOf(a14, a15) {
+        this << this;
+        return a14;
+    }
+}
+const v20 = new C9();
+new C9();
+new C9();
+[766672789,-616425932,-1,1018457210,469739142,7];
+[-9007199254740990,7,62224,-16,268435440,-16474,-2147483648];
+[2036783932,4096];
+C9 & v20;
+try {
+    new Uint8ClampedArray(7);
+} catch(e33) {
+}
+try {
+    new Int8Array(255);
+} catch(e37) {
+}
+try {
+    new Uint8ClampedArray(255);
+} catch(e41) {
+}

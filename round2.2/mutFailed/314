@@ -1,0 +1,43 @@
+function f0() {
+}
+Object.defineProperty(f0, Symbol.toPrimitive, { value: f0 });
+function f3() {
+    const o6 = {
+        n() {
+            this[f0];
+            return f0;
+        },
+        [f0]: f0,
+        "e": f0,
+        "b": f0,
+        "d": f0,
+        "g": f0,
+        "a": f0,
+        "c": f0,
+        536870887: f0,
+    };
+    o6[Symbol.toPrimitive] = f3;
+    return o6;
+}
+const v9 = f3();
+v9.toString = f0;
+const v10 = f3();
+const v11 = f3();
+class C12 extends f3 {
+    [v11] = f0;
+    b;
+    static [v9];
+    static set b(a14) {
+        try {
+            super[this] = 5;
+        } catch(e18) {
+        }
+    }
+}
+new C12();
+new C12();
+const v21 = new C12();
+[[v10,f3],v11,v10];
+[C12,v21,f0,C12];
+const v28 = new Float32Array(16);
+v28.includes(3365);

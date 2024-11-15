@@ -1,0 +1,38 @@
+try {
+    new Uint8ClampedArray(825);
+} catch(e3) {
+}
+try {
+    new Float32Array(6);
+} catch(e7) {
+}
+try {
+    new Int8Array(6);
+} catch(e11) {
+}
+const v12 = [Int8Array];
+const v13 = [Int8Array,Float32Array];
+[6,6,v13,v12];
+class C15 {
+    constructor(a17, a18, a19) {
+        const v20 = super.d;
+        const v22 = [v12,6,v20];
+        Reflect.apply(v12.fill, v20, v22);
+    }
+    0;
+    6 = v13;
+    #c;
+    static b;
+}
+const v25 = new C15(6, 825, 6);
+const v26 = new C15(6, v12, v25);
+new C15(6, 825, v13);
+try {
+    v25.length = 2;
+} catch(e29) {
+}
+try {
+    v26.f = 6;
+} catch(e30) {
+}
+f = Float32Array;

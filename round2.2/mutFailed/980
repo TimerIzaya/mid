@@ -1,0 +1,61 @@
+try {
+    new Uint8Array(3);
+} catch(e3) {
+}
+try {
+    new Int8Array(2163);
+} catch(e7) {
+}
+try {
+    new Int16Array(5);
+} catch(e11) {
+}
+class C15 extends Int16Array {
+    #h;
+    set d(a17) {
+        try { a17(-15n, this, this); } catch (e) {}
+        for (const v19 in this) {
+            try {
+                new Int16Array(9);
+            } catch(e23) {
+            }
+            try {
+                const t22 = -15n;
+                new t22(4);
+            } catch(e27) {
+            }
+            try {
+                new this(2);
+            } catch(e31) {
+            }
+        }
+    }
+}
+const v32 = new C15();
+const v33 = new C15();
+const v34 = new C15();
+class C35 extends Int8Array {
+    1 = 2163;
+    [-15n] = Int16Array;
+    h;
+    constructor(a37, a38) {
+        super(C15, 3, 2163);
+        let v40 = -4294967295;
+        const v42 = --v40;
+        v32 && this;
+        Math.cos(8);
+        let v45 = !Int8Array;
+        v42 ** v45;
+        v45--;
+    }
+}
+new C35(-65536n, 16n);
+new C35(-65536n, -65536n);
+new C35(16n, -65536n);
+function F51(a53, a54, a55) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v56 = new F51();
+new F51();
+Object.defineProperty(v56, "b", { writable: true, enumerable: true, value: v33 });
+v34[Symbol.match] = -1.0;

@@ -1,0 +1,99 @@
+function f0() {
+    let v3 = "isInteger";
+    const o10 = {
+        3652: 512,
+        toString(a5, a6) {
+            %VerifyType(v3);
+            v3 == this ? v3 : this;
+            try {
+                v3 = a5;
+            } catch(e9) {
+            }
+            return "-9223372036854775807";
+        },
+        "c": v3,
+    };
+    return o10;
+}
+const v11 = f0();
+f0();
+const v13 = f0();
+try {
+    new Uint8Array(148);
+} catch(e17) {
+}
+try {
+    new Uint8Array(-9);
+} catch(e21) {
+}
+try {
+    new BigUint64Array(-19348);
+} catch(e25) {
+}
+function f26() {
+    return f0;
+}
+const v33 = [2.0,2.2250738585072014e-308];
+v33.valueOf = f0;
+const v34 = [0.8397992400699056,-209.98379956535723,547319.4179779701,0.2427446681098634,0.20229053898635851,-725.1070773102354];
+[-4.0];
+try {
+    new Float64Array(2047);
+} catch(e39) {
+}
+try {
+    new Float64Array(64);
+} catch(e43) {
+}
+let v44 = 7;
+try {
+    new Int8Array(v44);
+} catch(e47) {
+}
+function f48(a49, a50) {
+    const o61 = {
+        __proto__: a49,
+        p(a52, a53, a54) {
+            try {
+                v44 = 2147483649;
+            } catch(e55) {
+            }
+            return a54;
+        },
+        "b": Float64Array,
+        "h": a49,
+        get f() {
+            try { this.p(a49, this, a50, this); } catch (e) {}
+            [-20523,-1927946996,-343664384,3,45667];
+            [-1057,129];
+            [-1559934048,4294967296,14,656115053];
+            return Int8Array;
+        },
+    };
+    function f62(a63) {
+        try {
+            v13[a63] = a63;
+        } catch(e64) {
+        }
+        return a63;
+    }
+    f62.valueOf = f62;
+    return o61;
+}
+const v65 = f48(v33, 536870912);
+v65.toString = f48;
+let v66 = f48(v33, 64);
+v65 > f48(-9, 268435456);
+if (-19348) {
+    %VerifyType(64);
+} else {
+    try {
+        v66 = v44;
+    } catch(e69) {
+    }
+}
+f48(v34, 4294967296);
+%PrepareFunctionForOptimization(f48);
+f48(v34, 4294967296, v11, f48(v34, 4294967296, 9007199254740992), 4294967296);
+%OptimizeFunctionOnNextCall(f48);
+f48(v34, 4294967296);

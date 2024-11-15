@@ -1,0 +1,27 @@
+let v0 = WeakSet;
+const v1 = new v0();
+try {
+    new Float64Array(255);
+} catch(e5) {
+}
+try {
+    new Float32Array(7);
+} catch(e9) {
+}
+try {
+    new Uint32Array(257);
+} catch(e13) {
+}
+const v15 = [[255],255];
+const v16 = [255,v15];
+try {
+    v0 %= v0;
+} catch(e17) {
+}
+v16.length **= v0;
+g = 7;
+const v18 = v15.__proto__;
+try {
+    v1.e = v18;
+} catch(e19) {
+}

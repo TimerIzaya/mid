@@ -1,0 +1,66 @@
+try {
+    new Float32Array(223);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(257);
+} catch(e7) {
+}
+try {
+    new Float64Array(257);
+} catch(e11) {
+}
+class C12 {
+    static {
+        try {
+            [-Infinity,-72.06060628016803];
+            [NaN,-25.53579585809257,1000000000000.0,-1.7976931348623157e+308,0.12775689024751102,-1000000000.0,2.220446049250313e-16,163.92321818087112,-1.7976931348623157e+308];
+            [3.0919005576745846,-2.220446049250313e-16,0.0,3.0,954196.7972836599];
+        } catch(e17) {
+            e17[Symbol.species];
+        }
+    }
+    static #g = BigUint64Array;
+    #f;
+    static #c = 223;
+}
+const v21 = new C12();
+const v22 = new C12();
+const v23 = new C12();
+function f24(a25, a26, a27, a28) {
+    const o36 = {
+        ...a25,
+        [257]: Float64Array,
+        "g": a25,
+        [a25]: a27,
+        "c": 257,
+        "h": C12,
+        [a28]: Float64Array,
+        toString(a30, a31) {
+            a25[-1];
+            try { this["p"]("p"); } catch (e) {}
+            Object.defineProperty("p", "a", { writable: true, configurable: true, value: a25 });
+            try {
+                a26 **= 257;
+            } catch(e35) {
+            }
+            return this;
+        },
+    };
+    return o36;
+}
+const v37 = f24(v22, 257, v22, v22);
+f24(v22, 257, v37, v37);
+const v39 = f24(v37, 257, v23, C12);
+for (const v40 in v39) {
+    try {
+        new Float64Array(v37, 65535);
+    } catch(e43) {
+    }
+}
+let v45;
+try { v45 = v21["o"](Float32Array, v22, v22, v39, v39); } catch (e) {}
+try {
+    v45 ||= v23;
+} catch(e46) {
+}

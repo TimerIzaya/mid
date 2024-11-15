@@ -1,0 +1,57 @@
+const v1 = new Map();
+class C2 {
+    static #e;
+    static [v1] = Map;
+    static [Map] = Map;
+    o(a4) {
+        Object.defineProperty(this, a4, { writable: true, enumerable: true, value: this });
+        try {
+            a4 = v1;
+        } catch(e5) {
+        }
+        return this;
+    }
+    #c = v1;
+    2912 = Map;
+    static 129;
+    static 9 = Map;
+}
+const v6 = new C2();
+const v7 = new C2();
+const v8 = new C2();
+class C9 extends Map {
+    #m(a11, a12) {
+        try {
+            const o13 = {
+            };
+            new Map(o13);
+        } catch(e15) {
+        }
+        return v8;
+    }
+    128;
+    2;
+    static #d = v7;
+    e;
+    [v6] = v8;
+    a = v8;
+}
+const v16 = new C9();
+new C9();
+const v18 = new C9();
+const v19 = [v16,v6,v1,v16,v6];
+const v21 = [v6,[v7]];
+const v22 = [v16,v21,C2,v21,v8];
+const v23 = [v22,v22,v19];
+const v25 = [v23,Map,C2,v18,Map];
+const o26 = {
+    __proto__: v25,
+    916: v25,
+    ...v1,
+};
+v23.length &&= v23;
+v21["toString"]();
+try {
+    v1.get(true);
+} catch(e31) {
+}

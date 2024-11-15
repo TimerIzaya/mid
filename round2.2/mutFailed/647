@@ -1,0 +1,47 @@
+try {
+    new Uint8Array(4096);
+} catch(e3) {
+}
+try {
+    new Float64Array(157);
+} catch(e7) {
+}
+try { new Int16Array(Uint8Array, 257, 257); } catch (e) {}
+try {
+    const v11 = new Int16Array(257);
+    try { v11.slice(257, Int16Array); } catch (e) {}
+} catch(e13) {
+}
+function f14() {
+    return Int16Array;
+}
+function f15(a16, a17, a18, a19) {
+    a18 >>> f14;
+    -a19;
+    a17 % a17;
+    const v23 = a18 << a18;
+    v23 + v23;
+    const o32 = {
+        16: Uint8Array,
+        valueOf(a26, a27) {
+            a19 instanceof Int16Array;
+            return -36239n;
+        },
+        ...f14,
+        "b": a18,
+        "g": Uint8Array,
+        184: a17,
+        [f14]: a18,
+    };
+    return o32;
+}
+f15.arguments = 157;
+const v33 = f15(157, 157, 4096, 4096);
+const v34 = f15(4096, 4096, 257, 4096);
+v34[184] = v34;
+v33(157, 257, 157, 4096);
+-(157)[184];
+-12 | -12;
+class C43 extends URIError {
+}
+new C43();

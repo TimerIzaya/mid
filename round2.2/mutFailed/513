@@ -1,0 +1,52 @@
+new WeakMap();
+try {
+    new Uint8Array(74);
+} catch(e5) {
+}
+try {
+    const v8 = new Float32Array(129);
+    try { v8.toLocaleString(); } catch (e) {}
+} catch(e10) {
+}
+try {
+    const v13 = new Int8Array(2635);
+    try { v13.find(129); } catch (e) {}
+} catch(e15) {
+}
+function f16() {
+    return Float32Array;
+}
+try { WeakSet(); } catch (e) {}
+new WeakSet();
+1140745623n << 1140745623n;
+try {
+    const v26 = new Uint8ClampedArray(10);
+    v26[6] = v26;
+} catch(e27) {
+}
+try {
+    const v30 = new Uint32Array(127);
+    v30[11] = v30;
+} catch(e31) {
+}
+try {
+    new Uint32Array(94);
+} catch(e35) {
+}
+class C36 extends Uint8ClampedArray {
+    p(a38, a39, a40, a41) {
+        this[-1];
+        return this;
+    }
+    set g(a47) {
+        let v49;
+        try { v49 = a47["p"]("p", 10); } catch (e) {}
+        try {
+            v49.f = Uint8ClampedArray;
+        } catch(e50) {
+        }
+        const v51 = [this,Uint32Array,this,WeakSet,10];
+        const v52 = [v51,Uint32Array];
+        ["p",v51,v52,this,v52];
+    }
+}

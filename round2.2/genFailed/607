@@ -1,0 +1,60 @@
+function f0() {
+}
+function f1() {
+    const o2 = {
+        __proto__: f0,
+        "g": f0,
+        [f0]: f0,
+        13: f0,
+        "b": f0,
+        "f": f0,
+        "d": f0,
+        ...f0,
+        "h": f0,
+        "a": f0,
+        "c": f0,
+        ...f0,
+        ...f0,
+        "e": f0,
+        ...f0,
+    };
+    return o2;
+}
+f1();
+const v4 = f1();
+const v5 = f1();
+[1000000.0];
+[890.3136644441165,1.0,7.629840208232237e+307,-1000000.0,-421.19037757511353];
+[0.5728847496210797,-1.041284956471582,-1.1325372649241459,263.5702140992014];
+function f9() {
+    return v4;
+}
+try {
+    new BigUint64Array(7);
+} catch(e13) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e17) {
+}
+try {
+    new Uint8Array(159);
+} catch(e21) {
+}
+v5 - 7;
+try {
+    v5.g = Uint8Array;
+} catch(e23) {
+}
+try {
+    new Uint16Array(63);
+} catch(e27) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e31) {
+}
+try {
+    new Int8Array(146);
+} catch(e35) {
+}

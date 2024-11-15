@@ -1,0 +1,26 @@
+try {
+    new Int16Array(8);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(3822);
+} catch(e7) {
+}
+try {
+    new Float32Array(1);
+} catch(e11) {
+}
+const v18 = (1)[BigUint64Array];
+b = 3822;
+v18[3] **= -1000000.0;
+try {
+    v18 && 1;
+} finally {
+    let v21;
+    try { v21 = v18(3.0, BigUint64Array, 3822, -1000000.0); } catch (e) {}
+    try { v21(); } catch (e) {}
+    try {
+        v18[1000.0] = Int16Array;
+    } catch(e23) {
+    }
+}

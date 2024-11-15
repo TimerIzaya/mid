@@ -1,0 +1,40 @@
+try {
+    new BigInt64Array(1);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(3122);
+} catch(e7) {
+}
+try {
+    new Uint16Array(3);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    static 126;
+    static get a() {
+        const v14 = super.toSorted(BigInt64Array);
+        Object.defineProperty(v14, BigInt64Array, { enumerable: true, value: v14 });
+        const v15 = super.buffer;
+        try {
+            super[v15] = BigUint64Array;
+        } catch(e16) {
+        }
+        return v15;
+    }
+    4;
+}
+const v17 = new C12();
+const v18 = new C12();
+const v19 = new C12();
+try {
+    v17[16393n] = 16393n;
+} catch(e23) {
+}
+new Uint16Array(BigInt64Array, ...v17, ...v19, 57266n, ...v17, ...v19);
+const v26 = [];
+Reflect.apply(v18.subarray, v19, v26);
+try {
+    v18.byteLength = 3;
+} catch(e29) {
+}

@@ -1,0 +1,11 @@
+new WeakSet();
+try {
+    const t2 = "toStringTag";
+    t2[3] = 1.0;
+} catch(e12) {
+}
+let v13 = 0;
+do {
+    new WeakSet("string");
+    v13++;
+} while (v13 < 5)

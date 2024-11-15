@@ -1,0 +1,43 @@
+try {
+    new Float32Array(512);
+} catch(e3) {
+}
+try {
+    new Int16Array(153);
+} catch(e7) {
+}
+let v9 = Uint8Array;
+try {
+    new v9(2880);
+} catch(e11) {
+}
+function f12() {
+    return 2880;
+}
+class C13 extends Int16Array {
+    constructor(a15, a16, a17, a18) {
+        super(a17);
+        v9 ^ 2880;
+        a18 + a16;
+        const v24 = 2880 || 2880;
+        v24 ** 256;
+        +v24;
+    }
+    static [f12] = f12;
+    [2880];
+    static 4;
+    #d = v9;
+}
+const v27 = new C13(Float32Array, 2880, 512, 153);
+new C13(v27, 512, 512, 2880);
+new C13(C13, 153, 512, 512);
+try {
+    C13[9] = 2880;
+} catch(e36) {
+}
+%VerifyType(-536870912n);
+const v37 = C13[C13];
+try {
+    v9 *= v37;
+} catch(e38) {
+}

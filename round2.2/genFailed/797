@@ -1,0 +1,27 @@
+[65535,-13,9223372036854775807,32768,-472253836,-5768,-12058,1330124113,-5299,64];
+const v1 = [9007199254740991,-2147483647,-15,512,7,6];
+const v2 = [-1954547829,1703668695,9];
+let v3 = "268435456";
+try {
+    new Uint32Array(150);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(3);
+} catch(e13) {
+}
+try {
+    new BigUint64Array(4096);
+} catch(e17) {
+}
+try {
+    v2[Uint32Array] = 150;
+} catch(e18) {
+}
+let v19;
+try {
+const t0 = 4096;
+v19 = t0(...v2, ...v2, BigUint64Array, ...v2, BigInt64Array, ...v2);
+} catch (e) {}
+--v3;
+v1["every"](v19, "every");

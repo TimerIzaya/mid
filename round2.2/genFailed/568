@@ -1,0 +1,62 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(-1073741824n, -32310n);
+const v9 = new F3(11n, -1073741824n);
+const v10 = new F3(-1073741824n, 11n);
+try {
+    new Int32Array(8);
+} catch(e14) {
+}
+try {
+    new Int16Array(2);
+} catch(e18) {
+}
+try {
+    new Uint8ClampedArray(14);
+} catch(e22) {
+}
+let v23;
+try {
+const t0 = 8;
+v23 = t0(v10, Uint8ClampedArray, 2, v10, 14);
+} catch (e) {}
+const v24 = v23?.e;
+try { v8.setMinutes(v24, v8); } catch (e) {}
+for (let v26 = 0; v26 < 32; v26++) {
+    v8["p" + v26] = v26;
+}
+v9.d &= 8;
+const o29 = {
+};
+try {
+    o29.d = v10;
+} catch(e30) {
+}
+try {
+    const o31 = {
+    };
+    o31.d = v10;
+    o31.g = 2;
+} catch(e32) {
+}
+try {
+    const o33 = {
+    };
+    o33.d = v10;
+    o33.g = 2;
+    o33.f = Int16Array;
+} catch(e34) {
+}
+try {
+    const o35 = {
+    };
+    o35.d = v10;
+    o35.g = 2;
+    o35.f = v10;
+} catch(e36) {
+}

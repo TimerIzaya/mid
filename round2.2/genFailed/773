@@ -1,0 +1,35 @@
+try {
+    new BigUint64Array(1);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(2);
+} catch(e7) {
+}
+try {
+    new Int32Array(257);
+} catch(e11) {
+}
+const v12 = [Int32Array];
+const v13 = [BigUint64Array,v12,2,1,v12];
+const v14 = [v13,v13,1,2,BigUint64Array];
+try {
+    new Uint8Array(210);
+} catch(e18) {
+}
+try {
+    new Uint16Array(129);
+} catch(e22) {
+}
+try {
+    new Int8Array(328);
+} catch(e26) {
+}
+try { Uint16Array(v14, 2, 1); } catch (e) {}
+328 == Int32Array;
+v13.length /= 257;
+const o32 = {
+    "execution": "async",
+    "type": "major",
+};
+gc(o32);

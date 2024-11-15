@@ -1,0 +1,47 @@
+const v1 = new Date();
+function f2() {
+    return v1;
+}
+class C3 {
+    static [Date];
+    257;
+    static {
+        with (this) {
+            d = Date;
+            try {
+                this.toString = f2;
+            } catch(e5) {
+            }
+        }
+    }
+    [Date];
+}
+new C3();
+new C3();
+new C3();
+try {
+    new Uint32Array(251);
+} catch(e12) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e16) {
+}
+try {
+    new Int8Array(6);
+} catch(e20) {
+}
+Date(6);
+Object.defineProperty(v1, Uint8ClampedArray, { configurable: true, get: f2 });
+try {
+    const o22 = {
+    };
+    new Uint8ClampedArray(o22);
+} catch(e24) {
+}
+Date(251);
+%PrepareFunctionForOptimization(Date);
+Date(251);
+Date(251);
+%OptimizeFunctionOnNextCall(Date);
+Date(251);

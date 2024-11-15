@@ -1,0 +1,23 @@
+try {
+    new BigUint64Array(255);
+} catch(e12) {
+}
+try {
+    new Uint16Array(2);
+} catch(e16) {
+}
+try {
+    new Uint16Array(1943);
+} catch(e20) {
+}
+let v21 = 0;
+do {
+    Object.defineProperty("toPrimitive", 4294967296n, { value: 1943 });
+    ("u").__proto__;
+    v21++;
+} while (v21 < 4)
+const o29 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o29);

@@ -1,0 +1,51 @@
+try {
+    new Uint32Array(8);
+} catch(e3) {
+}
+Uint16Array.d = Uint16Array;
+try {
+    const v6 = new Uint16Array(8);
+    v6[2] = v6;
+} catch(e7) {
+}
+368 + 368;
+try {
+    new Int32Array(368);
+} catch(e12) {
+}
+class C13 {
+    valueOf(a15, a16, a17, a18) {
+        try {
+            new Float32Array(9);
+        } catch(e23) {
+        }
+        try {
+            new BigUint64Array(4);
+        } catch(e27) {
+        }
+        try {
+            new Float64Array(16);
+        } catch(e31) {
+        }
+        return 4;
+    }
+}
+Uint32Array.d = C13;
+const v32 = new C13();
+const v33 = new v32();
+try { v33.valueOf(v33, v33, v32, v33); } catch (e) {}
+const v35 = new C13();
+const v38 = 8 >>> v35;
+v38 >>> v38;
+-181767888 / -181767888;
+try { ("m").lastIndexOf(v35); } catch (e) {}
+const t41 = "m";
+t41[0] = "m";
+"undefined" == "undefined";
+const t43 = "undefined";
+t43[1] = "undefined";
+const t46 = "getSeconds";
+t46[6] = "getSeconds";
+function f52(a53) {
+    "HqF" >> 8;
+}

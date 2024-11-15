@@ -1,0 +1,65 @@
+try {
+    new Uint16Array(129);
+} catch(e3) {
+}
+try {
+    new Uint8Array(64);
+} catch(e7) {
+}
+try {
+    new Uint32Array(448);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o26 = {
+        [129]: 129,
+        [Uint32Array](a16, a17, a18, a19) {
+            Math.exp(a13);
+            -9007199254740990 + -9007199254740990;
+            !-9007199254740990;
+            -9007199254740990 + -9007199254740990;
+            return 448;
+        },
+        ...a13,
+        __proto__: a14,
+        "h": 64,
+        [a14]: 129,
+        [Uint16Array]: a14,
+    };
+    return o26;
+}
+f12(f12, f12(129, Uint16Array));
+f12(129, Uint32Array);
+/xyz?/msuyi;
+/A\1\2(a(?:\1(b\1\2))\2)\1/msui;
+const v32 = /\x01/msu;
+function f33() {
+    return f12;
+}
+const v34 = /a\We?/gduyi;
+/S/msdvy;
+let v36 = /(?<a>)(ab|cde)+/msvyi;
+try {
+    v36 &= v36;
+} catch(e37) {
+}
+v32.ignoreCase >>>= 129;
+f12(Uint32Array, f12);
+const o39 = {
+    "call": f33,
+    "construct": f33,
+    "defineProperty": f33,
+    "deleteProperty": f12,
+    "get": f33,
+    "getPrototypeOf": f12,
+    "has": f33,
+    "isExtensible": f12,
+    "ownKeys": f33,
+    "preventExtensions": f12,
+    "set": f12,
+    "setPrototypeOf": f33,
+};
+try {
+    new Proxy(v34, o39);
+} catch(e42) {
+}

@@ -1,0 +1,43 @@
+try {
+    new Uint8Array(185);
+} catch(e6) {
+}
+try {
+    new Int16Array(2);
+} catch(e10) {
+}
+try {
+    new Int32Array(512);
+} catch(e14) {
+}
+const v15 = [Int16Array];
+const v16 = [-1000000000.0,v15,2];
+const v17 = [v15,512];
+class C18 extends Int16Array {
+    static {
+        v16.length *= super[this];
+    }
+    constructor(a22, a23, a24) {
+        super(a24, a24);
+        %VerifyType(a23);
+        try { this.with(a24, -2.2250738585072014e-308); } catch (e) {}
+        const v26 = [this,a23,this];
+        [v26,v17,v26,v26,Uint8Array];
+        [this,this,v16];
+        try {
+            v16.length = 2;
+        } catch(e29) {
+        }
+    }
+}
+new C18(-1000000000.0, 185, 185);
+new C18(-2.2250738585072014e-308, 185, 185);
+new C18(-1000000000.0, 2, 512);
+let v34 = 255;
+Math.exp(65535);
+C18 % (Int16Array & 65535);
+const v39 = 65535 ^ v34;
+try {
+    v34 = v39;
+} catch(e40) {
+}

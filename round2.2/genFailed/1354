@@ -1,0 +1,34 @@
+const v0 = [-536870912,-4096,0,129,512,-6,2147483647,-448477570];
+const v1 = [-14];
+const v2 = [-4294967297,-1670100868,38747];
+function f3(a4) {
+    const o13 = {
+        ...v2,
+        __proto__: a4,
+        set c(a6) {
+            super.f;
+        },
+        set g(a9) {
+            try { a4.findIndex(a9); } catch (e) {}
+            const v11 = v2[v0];
+            try {
+                v11[a4] = a4;
+            } catch(e12) {
+            }
+        },
+    };
+    return o13;
+}
+const v14 = f3(v1);
+let v15 = f3(v0);
+f3(v0);
+try {
+    v0[8n] = v1;
+} catch(e20) {
+}
+-v2;
+try {
+    v15 /= v15;
+} catch(e22) {
+}
+-250516597n >> v14;

@@ -1,0 +1,23 @@
+const v6 = [-6,-65536,128];
+const v7 = [-1631812062,1073741824,-40220,1073741824,9007199254740992,-2,129,512,0,-268435456];
+let v8 = [-2,5,2147483648,14,-9007199254740991,-9007199254740991,-209750809,8,1366664604,42637];
+try {
+    new Float32Array(4096);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(255);
+} catch(e16) {
+}
+try {
+    new Int16Array(3);
+} catch(e20) {
+}
+for (const v21 in v8) {
+    try { v7.forEach(v21, v6); } catch (e) {}
+}
+Object.defineProperty(v7, "length", { configurable: true, enumerable: true, value: Int16Array });
+try {
+    v8 = v6;
+} catch(e26) {
+}

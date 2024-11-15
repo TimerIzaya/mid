@@ -1,0 +1,67 @@
+function f3() {
+    try {
+        Uint16Array(3802);
+    } catch(e7) {
+    }
+    try {
+        Uint16Array(5);
+    } catch(e11) {
+    }
+    try {
+        Uint32Array(-7.472375150651098e+307);
+    } catch(e15) {
+    }
+    class C16 {
+        9;
+        static #b;
+        static #toString(a18, a19) {
+            function f20(a21) {
+                return f20;
+            }
+        }
+    }
+    return -2.220446049250313e-16;
+}
+function f25(a26, a27) {
+    const o31 = {
+        "b": -69984131,
+        "a": -2147483648,
+        get c() {
+            try {
+                f3();
+            } catch(e30) {
+            }
+            return a26;
+        },
+        "g": f3,
+    };
+    return o31;
+}
+f25(-69984131, -2.220446049250313e-16);
+f25(-69984131, -480.2681166187664);
+f25(-2147483648, -2.220446049250313e-16);
+function f40(a41, a42, a43, a44) {
+    const o50 = {
+        "g": BigInt64Array,
+        "f": a42,
+        "h": a42,
+        [a44]: 14,
+        [a41](a46, a47, a48, a49) {
+            a46.a = a41;
+        },
+        ...a41,
+        [10]: Uint8Array,
+    };
+    return o50;
+}
+class C51 {
+    constructor(a53, a54, a55) {
+        %PrepareFunctionForOptimization(f40);
+        a55(a55, 16);
+        f40(a55, 16, a53, 14);
+        %OptimizeFunctionOnNextCall(f40);
+    }
+}
+const t64 = -480.2681166187664;
+const v58 = new t64();
+new C51(10, v58, v58);

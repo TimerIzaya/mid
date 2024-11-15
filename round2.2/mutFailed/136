@@ -1,0 +1,152 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = F0;
+    try {
+        this.a = -2147483649;
+    } catch(e3) {
+    }
+    try {
+        this.h = -2147483649;
+    } catch(e4) {
+    }
+    try {
+        this.b = -2147483649;
+    } catch(e5) {
+    }
+}
+new F0();
+const v7 = new F0();
+new F0();
+function f14(a15) {
+    function F16(a18, a19, a20, a21) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = a15;
+        } catch(e22) {
+        }
+    }
+    const v23 = new F16(Int8Array, a15, F16, -5.0);
+    const v24 = new F16(F16, v7, v23, 7.259726629203918);
+    new F16(a15, a15, 0.06458700080530722, 7.259726629203918);
+    return v24;
+}
+Int8Array.toString = f14;
+try {
+    new Int8Array(2721);
+} catch(e27) {
+}
+try {
+    new Uint8Array(4);
+} catch(e31) {
+}
+try {
+    new Uint8ClampedArray(5);
+} catch(e35) {
+}
+const v36 = [];
+class C37 {
+    20 = v36;
+    static #h;
+    #g;
+    #f;
+    [v36] = v36;
+    #a;
+    static f;
+    #e;
+}
+const v38 = new C37();
+function f39() {
+    return v7;
+}
+function f40(a41) {
+    38001 == -536870912n;
+}
+Object.defineProperty(v38, Symbol.toStringTag, { writable: true, configurable: true, enumerable: true, get: f39, set: f40 });
+const v47 = new C37();
+const v48 = new C37();
+function f49(a50, a51) {
+    a50[126] = f49;
+    const o52 = {
+        3131164112: v36,
+        [a50]: v47,
+        "a": v38,
+        __proto__: v38,
+    };
+    return o52;
+}
+let v53 = f49();
+v53.valueOf = Symbol;
+const v54 = f49();
+f49(v38);
+v54.a %= 2721;
+f49 ** 5;
+try {
+    v54[Int8Array] = v36;
+} catch(e57) {
+}
+function f58(a59, a60, a61, a62) {
+    a61.valueOf = f49;
+    const o63 = {
+        [a60]: v48,
+        65536: a61,
+    };
+    return o63;
+}
+f58(v47, v47, v53, v36);
+class C68 {
+    static toString(a70) {
+    }
+    4294967295;
+}
+new C68();
+new C68();
+new C68();
+const v74 = [];
+v74[Symbol.toPrimitive] = Symbol;
+[];
+try {
+    v38.__proto__ = "fw";
+} catch(e79) {
+}
+"f" >= "fw";
+v74 ** (v74 & v74);
+f58();
+const v84 = f58(f49, v38);
+Int16Array.toString = f49;
+new Int16Array();
+Object.defineProperty(Int16Array, "toString", { configurable: true, enumerable: true, value: f49 });
+new Int16Array();
+class C93 extends Int16Array {
+    constructor(a95, a96, a97, a98) {
+        super();
+        try { this.subarray(a97); } catch (e) {}
+        delete this.byteLength;
+    }
+}
+C93.valueOf = Symbol;
+let v101 = new C93(129, 403, 126, 129);
+function f102(a103, a104) {
+    for (let v106 = 0; v106 < 10; v106++) {
+        const t129 = 4;
+        t129[1] = v106;
+    }
+    return Uint8ClampedArray;
+}
+v101[Symbol.toPrimitive] = f102;
+let v109 = new C93(126, 129, 403, 403);
+const v110 = [1717804318,2147483649,271900802,1901566192,-536870912,-25703];
+[-625198623,10,16,-2068472766,9007199254740992];
+[32903393,536870889,-64982,10,-9783,7,10,-4,-5];
+[-2.0];
+const v114 = v110 * 129;
+const v115 = 126 | v110;
+v84[Int16Array] ^= v114;
+v53[v115] *= v115;
+v53 /= C93;
+v109 <<= v109;
+++v101;
+Math.atanh(v101);
+Math.fround();
+const v121 = ++v101;
+Math.acos(v121);
+-(16811 | v121);

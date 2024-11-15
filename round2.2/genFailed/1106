@@ -1,0 +1,39 @@
+const v1 = new WeakMap();
+const v4 = new Array(2739);
+class C5 {
+    static #toString(a7) {
+        let v6 = this;
+        const v8 = new Array(a7);
+        try {
+            v6 = a7;
+        } catch(e9) {
+        }
+        return v8;
+    }
+    [v4] = v1;
+    static #g = WeakMap;
+    4294967295 = 2739;
+    static d;
+    static b = v4;
+}
+const v10 = new C5();
+const v11 = new C5();
+const v12 = new C5();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v12;
+    } catch(e17) {
+    }
+}
+const v18 = new F13(C5, v11);
+const v19 = new F13(v18, C5);
+let v20 = new F13(WeakMap, v19);
+[v20,,...C5] = v4;
+for (const v21 of v20) {
+    let v22;
+    try { v22 = new v21(v21, v10, Array, v21, v21); } catch (e) {}
+    for (let v23 = 0; v23 < 32; v23++) {
+        v22["p" + v23] = v23;
+    }
+}

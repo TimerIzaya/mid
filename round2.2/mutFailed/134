@@ -1,0 +1,25 @@
+const v3 = [-9007199254740992,-536870912];
+[-536870912,0,-536870912,v3,[0,-536870912,v3]];
+try {
+    new Int8Array(255);
+} catch(e9) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e13) {
+}
+try {
+    new Uint32Array(6);
+} catch(e17) {
+}
+const t14 = -536870912;
+const v19 = new t14();
+function f20(a21, a22) {
+    return a22;
+}
+const v25 = [v19];
+const o26 = {
+    "arguments": v25,
+    "type": "function",
+};
+new Worker(f20, o26);

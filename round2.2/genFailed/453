@@ -1,0 +1,45 @@
+class C3 {
+    #m(a5) {
+        const v7 = [Reflect,Reflect,this];
+        Object.defineProperty(v7, 1768, { writable: true, enumerable: true, value: Reflect.construct(this, v7, this) });
+        try {
+            Reflect.#m(127n, Reflect, v7, this);
+        } catch(e10) {
+        }
+        return 394452587n;
+    }
+}
+const v11 = new C3();
+const v12 = new C3();
+new C3();
+function f14(a15, a16, a17, a18) {
+    const o25 = {
+        15: v11,
+        "g": a17,
+        ...C3,
+        ...v12,
+        p(a20, a21) {
+            try {
+                super[4294967295n] = a21;
+            } catch(e22) {
+            }
+            try {
+                v11.length = 6;
+            } catch(e24) {
+            }
+            return a16;
+        },
+    };
+    return o25;
+}
+const v26 = f14(v11, v12, v12, v11);
+f14(f14(C3, f14, v12, v26), v12, C3, v11);
+try {
+    v11[v11] = v26;
+} catch(e29) {
+}
+--C3;
+Math.floor(C3);
+Math.atanh(394452587n);
+v26 ^ 394452587n;
+16 % C3;

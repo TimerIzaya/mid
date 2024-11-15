@@ -1,0 +1,41 @@
+try {
+    new Uint16Array(128);
+} catch(e3) {
+}
+try {
+    new Uint32Array(9);
+} catch(e7) {
+}
+try {
+    new Int8Array(696);
+} catch(e11) {
+}
+class C12 extends Uint32Array {
+    static #o(a14, a15, a16) {
+        try {
+            this.fuck(1073741823n, 1073741823n, 1073741823n);
+        } catch(e19) {
+        }
+        return Uint16Array;
+    }
+    set d(a21) {
+        Math.sign(a21);
+        Math.atanh(this);
+        Math.ceil(-9223372036854775808);
+        Math.ceil(-9223372036854775808);
+    }
+}
+const v28 = new C12();
+const v29 = new C12();
+new C12();
+let v31 = 1n;
+try {
+    v31 **= 4294967296n;
+} catch(e34) {
+}
+try { v28.toReversed(); } catch (e) {}
+Object.defineProperty(v28, 268435456, { writable: true, configurable: true, enumerable: true, value: v29 });
+try {
+    this[4294967296n] = this;
+} catch(e37) {
+}

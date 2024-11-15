@@ -1,0 +1,54 @@
+try {
+    new Float32Array(207);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e7) {
+}
+const o13 = {
+};
+gc();
+const o15 = {
+};
+gc();
+try {
+    new Float64Array(4096);
+} catch(e18) {
+}
+class C19 {
+    constructor(a21, a22, a23) {
+        a22 ** a22;
+        Reflect.construct(this[this], [a23,4096], Float64Array);
+    }
+    0;
+    [BigUint64Array] = BigUint64Array;
+    static [Float32Array] = 4096;
+    static d;
+    [Float32Array];
+}
+new C19(4, 4, 4);
+new C19(4, 207, 4096);
+new C19(4096, 4, 207);
+try {
+    new Int32Array(16);
+} catch(e35) {
+}
+try {
+    new Int32Array(254);
+} catch(e39) {
+}
+try {
+    new Int16Array(3586);
+} catch(e43) {
+}
+const v44 = [];
+function f45(a46, a47, a48) {
+    return f45;
+}
+const v51 = [v44];
+const o52 = {
+    "arguments": v51,
+    "type": "function",
+};
+new Worker(f45, o52);

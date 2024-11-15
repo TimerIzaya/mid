@@ -1,0 +1,30 @@
+let v5;
+try { v5 = ("string").toWellFormed(); } catch (e) {}
+let v8 = 545991.1277210775;
+const v9 = v8++;
+function f12() {
+    const v14 = ("0")[0];
+    const o18 = {
+        valueOf(a16, a17) {
+        },
+        9: v14,
+    };
+    return o18;
+}
+f12();
+const t13 = "string";
+t13();
+class C21 extends f12 {
+    constructor(a23) {
+        super();
+        Reflect.construct(f12, [])[9];
+    }
+}
+C21.length;
+new C21();
+const v30 = new v9();
+const v31 = new C21();
+try { v31.valueOf(v30, "number"); } catch (e) {}
+f12()[9];
+%OptimizeFunctionOnNextCall(f12);
+v5();

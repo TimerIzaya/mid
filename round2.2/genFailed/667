@@ -1,0 +1,34 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = -128;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+new F0();
+let v11 = -9007199254740991n;
+class C13 extends F0 {
+    o(a15, a16) {
+        Object.defineProperty(v4, a15, { configurable: true, enumerable: true, value: 64n });
+        let v19 = -536870912;
+        v19--;
+        a15 + 38516n;
+        a15 >> -536870912;
+        return F0;
+    }
+    static c;
+    static #b;
+}
+new C13();
+new C13();
+new C13();
+-9007199254740990;
+v5 * 9007199254740990;
+++v11;
+Math.sinh(v11);
+try {
+    F0 **= C13;
+} catch(e34) {
+}

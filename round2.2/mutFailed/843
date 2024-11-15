@@ -1,0 +1,64 @@
+function f1(a2, a3) {
+    function f4() {
+        return f4;
+    }
+    function F5() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v7 = new F5();
+    const v8 = new F5();
+    const o9 = {
+        "d": WeakSet,
+        [WeakSet]: v7,
+        __proto__: WeakSet,
+        4: f4,
+        2: v8,
+    };
+    return o9;
+    return v8;
+}
+WeakSet.toString = f1;
+const v10 = new WeakSet();
+class C11 {
+    static #d = WeakSet;
+    static [WeakSet] = v10;
+    set c(a13) {
+        try {
+            this.fuck(a13, a13, v10);
+        } catch(e18) {
+        }
+    }
+    [-2] = v10;
+    static #a = WeakSet;
+    9 = WeakSet;
+}
+let v19 = new C11();
+const v20 = new C11();
+const v21 = new C11();
+class C22 extends WeakSet {
+    d;
+    set f(a24) {
+        function f25() {
+            return a24;
+        }
+        v10.g;
+        try {
+            v19 <<= v20;
+        } catch(e27) {
+        }
+    }
+    0;
+    static #a = v21;
+    static #b = v19;
+}
+new C22();
+new C22();
+new C22();
+class C43 {
+}
+const v44 = new C43();
+function F45(a47, a48) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v49 = new F45(C43, -4);
+v44 && v49;

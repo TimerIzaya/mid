@@ -1,0 +1,37 @@
+try {
+    new Float64Array(6);
+} catch(e6) {
+}
+try {
+    new Int8Array(274);
+} catch(e10) {
+}
+try {
+    new Uint8Array(0);
+} catch(e14) {
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a18;
+    } catch(e20) {
+    }
+    try {
+        this.d = Float64Array;
+    } catch(e21) {
+    }
+}
+const v22 = new F15(2302.7290064123226, -1000.0, -4.636472640555007e+306);
+new F15(-4.636472640555007e+306, -4.636472640555007e+306, 2302.7290064123226);
+const v24 = new F15(2302.7290064123226, -4.636472640555007e+306, -4.636472640555007e+306);
+let v25;
+try {
+const t0 = 2302.7290064123226;
+v25 = t0(v24, 2302.7290064123226, v22, v24);
+} catch (e) {}
+v25[Symbol.match] = F15;
+255 - 536870889;
++Float64Array;
+Math.sin(Float64Array);
+-255;
+Math.min(6);

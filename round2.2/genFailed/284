@@ -1,0 +1,22 @@
+try {
+    new Uint16Array(2110);
+} catch(e3) {
+}
+try {
+    new Float64Array(190);
+} catch(e7) {
+}
+try {
+    new Uint16Array(23);
+} catch(e11) {
+}
+const v13 = new WeakMap();
+const o17 = {
+    "d": 190,
+    __proto__: v13,
+    "c": WeakMap,
+    "a": 4294967295n,
+};
+let v18;
+try { v18 = Uint16Array(2110, 23, 23); } catch (e) {}
+let {"d":v19,} = v18;

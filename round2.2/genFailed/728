@@ -1,0 +1,74 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #g;
+    constructor() {
+        super();
+        %VerifyType(this);
+        try {
+            new Uint8Array(3);
+        } catch(e6) {
+        }
+        try {
+            new Uint8ClampedArray(5);
+        } catch(e10) {
+        }
+        try {
+            new BigUint64Array(811);
+        } catch(e14) {
+        }
+    }
+}
+const v15 = new C1();
+const v16 = new C1();
+const v17 = new C1();
+function f18(a19, a20) {
+    const o25 = {
+        set h(a22) {
+            try {
+                super.n();
+            } catch(e24) {
+            }
+        },
+        129: v16,
+        [-1]: f0,
+        "f": a20,
+        ...v15,
+    };
+    return o25;
+}
+const v26 = f18(v17, v15);
+const v27 = f18(v17, C1);
+const v28 = f18(v27, C1);
+class C29 extends f18 {
+    static #a = v28;
+    8 = v26;
+    static f;
+    h = v26;
+    static h = v17;
+    constructor(a31, a32, a33, a34) {
+        super(v15, v17);
+        try {
+            this.#a;
+        } catch(e36) {
+        }
+    }
+}
+const v37 = new C29(v17, v27, v28, v28);
+const v38 = new C29(v37, C29, v37, v37);
+new C29(v15, v15, C29, v38);
+const v40 = C29[f0];
+let v41;
+try { v41 = v40(v40, v17, v40); } catch (e) {}
+const v42 = v16.f;
+v17[9];
+new f18(v38, v15);
+v41[C29] &&= v42;
+try {
+    const o48 = {
+    };
+    const o49 = {
+    };
+    f18(o48, o49);
+} catch(e51) {
+}

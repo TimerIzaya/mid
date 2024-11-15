@@ -1,0 +1,56 @@
+function f0() {
+    const o8 = {
+        "g": "g",
+        __proto__: "g",
+        ["bigint"]: 421956.9832455695,
+        m(a5) {
+            try {
+                super.n(421956.9832455695);
+            } catch(e7) {
+            }
+            return "g";
+        },
+        [421956.9832455695]: 421956.9832455695,
+        74: "g",
+        4: "g",
+        "d": 421956.9832455695,
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+new WeakMap();
+function f14() {
+    return v9;
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a18;
+    } catch(e20) {
+    }
+    try {
+        this.d = a18;
+    } catch(e21) {
+    }
+}
+new F15(v9, v11, v11);
+new F15(v10, v10, v9);
+new F15(v9, v10, v9);
+v10.d ||= -2.220446049250313e-16;
+const v29 = new Map();
+const v30 = v29[v10];
+let v31;
+try { v31 = v30(v30); } catch (e) {}
+with (v31) {
+    c = -2.220446049250313e-16;
+    const o34 = {
+        "maxByteLength": 127,
+    };
+    const v36 = new ArrayBuffer(127, o34);
+    try {
+        new DataView(v36);
+    } catch(e39) {
+    }
+}

@@ -1,0 +1,38 @@
+[16];
+[-65537,-1024,2,13,9007199254740992,7,-1331279803,9,-65535];
+[-8,512,4294967296,-46777,7,9007199254740991,-1983760361,1073741825];
+try {
+    new Float32Array(64);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(1105);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(2132);
+} catch(e14) {
+}
+try {
+    new Int32Array(3);
+} catch(e21) {
+}
+try {
+    new Int32Array(6);
+} catch(e25) {
+}
+try {
+    new Uint16Array(256);
+} catch(e29) {
+}
+Object.defineProperty("EO", 3973, { configurable: true, enumerable: true, value: Uint16Array });
+let v30 = 0;
+do {
+    const v32 = new String("arguments");
+    3 in v32;
+    try {
+        ("EO").normalize();
+    } catch(e35) {
+    }
+    v30++;
+} while (v30 < 2)

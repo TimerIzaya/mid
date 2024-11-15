@@ -1,0 +1,89 @@
+function f0() {
+}
+function f1() {
+    const o20 = {
+        ...f0,
+        [f0]: f0,
+        get d() {
+            const v3 = new f0();
+            return super[v3];
+        },
+        ...f0,
+        __proto__: f0,
+        "d": f0,
+        m() {
+            let v6 = -this;
+            v6--;
+            try {
+                new Uint16Array(1024);
+            } catch(e11) {
+            }
+            try {
+                new Float64Array(3661);
+            } catch(e15) {
+            }
+            try {
+                new Uint32Array(16);
+            } catch(e19) {
+            }
+            return Uint16Array;
+        },
+    };
+    return o20;
+}
+f1();
+const v22 = f1();
+const v23 = f1();
+function f24() {
+    return v22;
+}
+try {
+    new Int8Array(5);
+} catch(e28) {
+}
+try {
+    new Int32Array(1);
+} catch(e32) {
+}
+try {
+    new Int8Array(64);
+} catch(e36) {
+}
+class C37 extends Int8Array {
+    static 4;
+    set h(a39) {
+        [Int8Array >>> this,f24,64,1];
+    }
+    h = Int32Array;
+    get d() {
+        const v43 = v22 || this;
+        let {"c":v44,"h":v45,} = v43;
+        Object.defineProperty(v43, this, { enumerable: true, set: f1 });
+        Object.defineProperty(v43, 10000, { configurable: true, enumerable: true, get: f1, set: f1 });
+        /z/svyi;
+        /2L\P{Any}?/msvy;
+        /a[bc]d/dyi;
+        return v45;
+    }
+}
+const v49 = new C37();
+new C37();
+new C37();
+v23[v23];
+let v53 = 0;
+do {
+    v49.h;
+    try {
+        new Float64Array(256);
+    } catch(e58) {
+    }
+    try {
+        new BigUint64Array(3);
+    } catch(e62) {
+    }
+    try {
+        new Float32Array(1000);
+    } catch(e66) {
+    }
+    v53++;
+} while (v53 < 10)

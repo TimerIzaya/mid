@@ -1,0 +1,75 @@
+try {
+    new BigInt64Array(270);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(4096);
+} catch(e7) {
+}
+try {
+    new Int16Array(1626);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    8;
+    static {
+        Object.defineProperty(this, 4, { configurable: true, enumerable: true, value: Uint8ClampedArray });
+        const v14 = super.toString();
+        try {
+            v14.length = 1;
+        } catch(e16) {
+        }
+    }
+    static h = Uint8ClampedArray;
+    f = 4096;
+}
+const v17 = new C12();
+const v18 = new C12();
+const v19 = new C12();
+const v20 = [v18,v18];
+const v22 = [v17,[Int16Array,v20,4096,v19]];
+v19["every"](v20, v19);
+function f25(a26, a27, a28) {
+    function f30(a31) {
+        const o32 = {
+        };
+        try {
+            o32.g = a31;
+        } catch(e33) {
+        }
+        try {
+            const o34 = {
+            };
+            o34.g = a31;
+            o34.d = 4096;
+        } catch(e35) {
+        }
+        try {
+            const o36 = {
+            };
+            o36.g = a31;
+            o36.d = 4096;
+            o36.f = a31;
+        } catch(e37) {
+        }
+        try {
+            const o38 = {
+            };
+            o38.g = a31;
+            o38.d = 4096;
+            o38.c = v22;
+        } catch(e39) {
+        }
+    }
+    this.onmessage = f30;
+    delete this?.onmessage;
+    [-268435456,-33577537,-128,-5,-4294967297,1073741823];
+    [268435440,-65537,-128];
+    [-11,43655,27714,-1,58261,2,-4,1653721217,8];
+}
+const v46 = [Uint8ClampedArray,270,Uint8ClampedArray];
+const o47 = {
+    "arguments": v46,
+    "type": "function",
+};
+new Worker(f25, o47);

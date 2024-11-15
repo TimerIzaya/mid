@@ -1,0 +1,22 @@
+try {
+    new Uint16Array(1);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e11) {
+}
+for (const v18 of Uint8ClampedArray) {
+    try {
+        v18.toString = v18;
+    } catch(e19) {
+    }
+}
+[1,1,16,1n];
+[268435456n];
+[-510242888n,-14n];
+g = 1;

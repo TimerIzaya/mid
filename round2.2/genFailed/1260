@@ -1,0 +1,44 @@
+const v2 = new Array(127);
+try {
+    new Int16Array(620);
+} catch(e6) {
+}
+try {
+    new Float32Array(3206);
+} catch(e10) {
+}
+try {
+    new Float64Array(3450);
+} catch(e14) {
+}
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 10793n;
+    } catch(e24) {
+    }
+    try {
+        this.f = a20;
+    } catch(e25) {
+    }
+    try {
+        this.g = a22;
+    } catch(e26) {
+    }
+}
+const v27 = new F18(620, 620, 10793n, Float32Array);
+const v28 = new F18(3450, 127, 3450, v2);
+const v29 = new F18(620, 620, 3206, v28);
+Object.defineProperty(v29, 9, { writable: true, value: 620 });
+F18 >> 3206;
+for (const v32 of v27[10793n]) {
+    try {
+        Array.isArray(-720085682n);
+    } catch(e34) {
+    }
+}
+const o38 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o38);

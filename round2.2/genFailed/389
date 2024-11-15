@@ -1,0 +1,69 @@
+const v0 = [];
+class C1 {
+    1450;
+    static [v0] = v0;
+    a;
+    set e(a3) {
+        %VerifyType(v0);
+        a3.__proto__;
+        const o8 = {
+        };
+        try {
+            o8.b = "valueOf";
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.b = "valueOf";
+            o10.f = this;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.b = "valueOf";
+            o12.f = this;
+            o12.e = "1";
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.b = "valueOf";
+            o14.f = this;
+            o14.e = v0;
+        } catch(e15) {
+        }
+    }
+}
+const v16 = new C1();
+new C1();
+new C1();
+[2147483648,9,52555,268435441,-8,-44512,2147483647,-2,-268435456,-2];
+[9007199254740990,2];
+[-9007199254740992];
+[-2.2250738585072014e-308,3.0,0.0,-Infinity,4.0];
+const v23 = [3.322407548335647,-287091.94411780103,541.2670481179614,8.842822439775503e+307,406.59675860340417];
+[-3.0,0.23896133230533834];
+try {
+    new BigUint64Array(64);
+} catch(e28) {
+}
+try {
+    new Float32Array(257);
+} catch(e32) {
+}
+try {
+    new Float64Array(2913);
+} catch(e36) {
+}
+v23["every"](v16);
+let v39 = 0;
+while (v39 < 8) {
+    try {
+        C1[65] = 64;
+    } catch(e42) {
+    }
+    v39++;
+}

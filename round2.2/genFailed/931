@@ -1,0 +1,50 @@
+new Array(9);
+try {
+    new Float64Array(191);
+} catch(e9) {
+}
+try {
+    new Uint8ClampedArray(3687);
+} catch(e13) {
+}
+try {
+    new Uint32Array(7);
+} catch(e17) {
+}
+class C18 extends Uint32Array {
+    e;
+    [3687];
+    static b;
+    static #g = Float64Array;
+    static #h = 3687;
+    static [937761.4669624765];
+    [Uint32Array];
+    get a() {
+        const v20 = super.length;
+        try {
+            new Uint16Array(11);
+        } catch(e24) {
+        }
+        try {
+            new BigInt64Array(128);
+        } catch(e28) {
+        }
+        try {
+            new Int32Array(4096);
+        } catch(e32) {
+        }
+        return v20;
+    }
+}
+new C18();
+new C18();
+const v35 = new C18();
+for (let v36 = 0; v36 < 32; v36++) {
+    v35["p" + v36] = v36;
+}
+new WeakMap();
+WeakMap || 7;
+try {
+    Array.length = 1;
+} catch(e43) {
+}

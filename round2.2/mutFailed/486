@@ -1,0 +1,100 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 31407;
+    } catch(e3) {
+    }
+    try {
+        this.d = 31407;
+    } catch(e4) {
+    }
+    try {
+        this.b = 31407;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f9(a10, a11) {
+    const o25 = {
+        "d": v7,
+        o(a13, a14, a15, a16) {
+            let v17 = super.f;
+            v7 >> v17;
+            try {
+                v17 = v7;
+            } catch(e19) {
+            }
+            a16[64];
+            for (const v21 of a15) {
+                v6[Symbol.species];
+            }
+            return this;
+        },
+        __proto__: a11,
+        ...v8,
+        "f": v6,
+    };
+    return o25;
+}
+const v26 = f9(v6, v6);
+const v27 = f9(v7, v7);
+try {
+    v26.d = f9;
+} catch(e28) {
+}
+try { v27.o(f9); } catch (e) {}
+f9(v8, v8);
+[-15,128,1,4294967296,2147483648,-65537,9223372036854775807,1941010507,4294967297,-9223372036854775808];
+const v32 = [-4294967295,-1078895290,40944,-8,3];
+const v33 = [-16,1073741824,30063,16530,-268435456,9007199254740992];
+class C34 extends f9 {
+    constructor(a36, a37) {
+        let v38 = 0;
+        do {
+            v38++;
+        } while (v38 < 9)
+        super(v8, a37);
+        super.o(a37, this);
+    }
+    143 = v26;
+    static b;
+    e;
+    get b() {
+        v7[this] |= this;
+        const v47 = f9(v7, v7);
+        const o48 = {
+            "call": f9,
+            "getOwnPropertyDescriptor": f9,
+            "getPrototypeOf": f9,
+        };
+        try {
+            new Proxy(v47, o48);
+        } catch(e51) {
+        }
+        return v47;
+    }
+}
+new C34(v32, v6);
+new C34(v32, v27);
+new C34(v33, v33);
+function f56(a57, a58) {
+    return a57;
+}
+const v59 = f56(f56, f56);
+const v60 = f56();
+const v61 = [v59,v59];
+const v62 = [v59,v59];
+const v63 = [v59,v59];
+const o64 = {
+    [f56]: v63,
+    "g": 9,
+    "h": 9,
+    "c": v59,
+    "e": 9,
+    "d": v61,
+};
+delete o64.d;
+v62[9] = v60;
+v62.length = 9;

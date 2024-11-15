@@ -1,0 +1,28 @@
+class C3 {
+    c;
+    d;
+    ["e1ST3"];
+    #m(a5, a6) {
+        const v7 = [this];
+        const t6 = [a5,[a6,-64987,-64987],a6,this,v7];
+        delete t6?.length;
+        return "e1ST3";
+    }
+    static #b = "e1ST3";
+}
+new C3();
+const v12 = new C3();
+new C3();
+const v14 = [-1783605626,0,-9223372036854775807,42545,65536,-9007199254740990];
+[41438,-128];
+[-16,-2,-7979,-58367];
+%VerifyType("-13");
+const v20 = new C3();
+try {
+    v20[v12] = C3;
+} catch(e21) {
+}
+const v22 = delete v20?.c;
+try { v22(C3); } catch (e) {}
+v14 instanceof v22;
+new C3();

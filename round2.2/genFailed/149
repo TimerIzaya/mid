@@ -1,0 +1,64 @@
+function f3(a4) {
+    const o13 = {
+        "h": 2103919160n,
+        "c": -4294967295n,
+        "d": a4,
+        "g": 16n,
+        "a": 16n,
+        "b": a4,
+        toString(a6, a7) {
+            if (a7) {
+                try { a7.n(); } catch (e) {}
+            } else {
+                const o9 = {
+                };
+                try {
+                    new Proxy(this, o9);
+                } catch(e12) {
+                }
+            }
+            return this;
+        },
+    };
+    return o13;
+}
+const v14 = f3(16n);
+const v15 = f3(-4294967295n);
+f3(16n);
+let v17 = [2103919160n,f3,v14];
+const v18 = [16n,f3,2103919160n];
+let v19 = [f3,v17,v14,v18,v18];
+function f20(a21, a22) {
+    const o34 = {
+        "e": a22,
+        __proto__: v15,
+        "d": 16n,
+        "b": f3,
+        set a(a24) {
+            let v23 = this;
+            super.g ^= a24;
+            ({"e":a21,"f":v19,"length":v23,...v23} = v18);
+            Math.asinh(f3);
+            const v28 = -1073741823;
+            const v29 = 1073741823 - 1073741823;
+            v28 | 1073741823;
+            Math.log10(f3);
+            !1073741823;
+            Math.min(v29);
+        },
+    };
+    return o34;
+}
+f20(16n, v17);
+f20(v14, v17);
+f20(f20, v19) in v14;
+try {
+    v17 **= v17;
+} catch(e39) {
+}
+f3(2103919160n);
+%PrepareFunctionForOptimization(f3);
+f3(2103919160n);
+f3(2103919160n);
+%OptimizeMaglevOnNextCall(f3);
+f3(2103919160n);

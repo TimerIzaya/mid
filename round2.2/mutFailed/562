@@ -1,0 +1,42 @@
+const v1 = -Infinity;
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a6;
+        const o7 = {
+        };
+        try {
+            new Proxy(this, o7);
+        } catch(e10) {
+        }
+    } catch(e11) {
+    }
+    try {
+        this.h = v1;
+    } catch(e12) {
+    }
+}
+new F3(v1, v1);
+const v14 = new F3(192.84570423842138, v1);
+new F3(v1, 192.84570423842138);
+function f16(a17, a18) {
+    const o19 = {
+        "g": a17,
+        "e": v14,
+    };
+    return o19;
+}
+f16(192.84570423842138, -908.9045404797878);
+const v21 = f16(-908.9045404797878, v1);
+f16(-908.9045404797878, -908.9045404797878);
+throw "setUint8";
+Object.defineProperty("bigint", 1950, { configurable: true, enumerable: true, value: -908.9045404797878 });
+typeof v21 === "symbol";
+class C32 {
+    #h;
+}
+const v33 = new C32();
+const o34 = {
+    __proto__: v33,
+    ...v33,
+};

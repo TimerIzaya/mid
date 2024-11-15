@@ -1,0 +1,60 @@
+try {
+    new BigInt64Array(256);
+} catch(e3) {
+}
+try {
+    new Uint32Array(1024);
+} catch(e7) {
+}
+try {
+    new Int32Array(7);
+} catch(e11) {
+}
+try {
+    new Uint16Array(10);
+} catch(e15) {
+}
+try {
+    new Int32Array(3144);
+} catch(e19) {
+}
+try {
+    new Uint32Array(1186);
+} catch(e23) {
+}
+function f24() {
+    return 256;
+}
+function f25(a26, a27, a28, a29) {
+    const o40 = {
+        o(a31, a32, a33, a34) {
+            try {
+                super[a32] = a31;
+            } catch(e35) {
+            }
+            return 10;
+        },
+        get e() {
+            a29 !== this;
+            this instanceof Uint32Array;
+            try {
+                this.a = 3144;
+            } catch(e39) {
+            }
+            return 3144;
+        },
+    };
+    return o40;
+}
+const v41 = f25(1024, 10, 10, 7);
+f25(3144, 1024, 10, f25(256, 1186, 1024, 3144));
+for (const v44 of 1024) {
+    try {
+        v44.b = v44;
+    } catch(e45) {
+    }
+}
+try {
+    v41.length = 0;
+} catch(e47) {
+}

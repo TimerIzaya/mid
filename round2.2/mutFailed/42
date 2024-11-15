@@ -1,0 +1,54 @@
+const v3 = /va\b!/gsdu;
+const v4 = /2\P{Decimal_Number}/mgdi;
+const v5 = /N(?=)*/si;
+const v6 = [-365972.520332191,1000000.0,-1.0];
+const v7 = [-1.7752372661426336e+308,1.1688493284107504e+308,23.71493949557407,-1000000000000.0];
+function f8(a9) {
+    ([]).fill(1024, 2033518258);
+    return v4;
+}
+Object.defineProperty(v7, Symbol.toPrimitive, { writable: true, configurable: true, value: f8 });
+const v16 = [1000000000.0,276428.1893349348,-141113.14681571163,0.2163223768714756,-1000000.0,-926608.0179886351,0.18128777734530144,0.06615652813218365,-3.6816101762326747];
+function f17(a18, a19, a20) {
+    const o25 = {
+        ...a18,
+        "e": v3,
+        "f": v6,
+        __proto__: a18,
+        set d(a22) {
+            try {
+                this.h = a18;
+            } catch(e23) {
+            }
+            this[a22 / a20] ||= a22;
+        },
+        ...v7,
+        [v7]: a20,
+    };
+    return o25;
+}
+const v26 = f17(v16, v16, v3);
+const v27 = f17(v6, v7, v5);
+const v28 = f17(v7, v7, v3);
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = f17;
+    } catch(e34) {
+    }
+    try {
+        this.e = v3;
+    } catch(e35) {
+    }
+}
+const v36 = new F29(v4, v27, v26);
+new F29(v5, v36, v28);
+new F29(v4, v5, v26);
+const v40 = Error();
+function f41(a42) {
+    function f43(a44, a45) {
+    }
+    return v28;
+}
+Object.defineProperty(v40, "toString", { configurable: true, value: f41 });
+v40.toString();

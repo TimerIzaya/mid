@@ -1,0 +1,45 @@
+try {
+    new Uint16Array(103);
+} catch(e3) {
+}
+try {
+    new Float64Array(512);
+} catch(e7) {
+}
+try {
+    new Int32Array(8);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    f;
+    [512] = Int32Array;
+    constructor(a14, a15, a16, a17) {
+        super(8, 8, 103);
+        this[Int32Array];
+        try {
+            this.__proto__ = this;
+        } catch(e19) {
+        }
+    }
+    static e;
+    15 = Int32Array;
+}
+new C12(512, 8, 512, 512);
+const v21 = new C12(8, 8, 103, 8);
+const v22 = new C12(8, 512, 512, 103);
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a26;
+    } catch(e27) {
+    }
+    try {
+        this.c = 8;
+    } catch(e28) {
+    }
+}
+new F23(v21, 512);
+new F23(v21, 512);
+new F23(v22, 512);
+const t43 = "9";
+t43[-2.6032099791290886] -= 8;

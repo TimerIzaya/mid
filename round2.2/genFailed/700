@@ -1,0 +1,52 @@
+class C3 {
+    static #m(a5, a6) {
+        let v7 = super.a;
+        try {
+            v7 = a6;
+        } catch(e8) {
+        }
+        return "9C";
+    }
+    static #valueOf(a10, a11) {
+        %VerifyType(this);
+        try {
+            super.f = a10;
+        } catch(e12) {
+        }
+        return "9C";
+    }
+}
+const v13 = new C3();
+const v14 = new C3();
+const v15 = new C3();
+function f16(a17, a18) {
+    const o31 = {
+        536870912: a17,
+        ...v15,
+        p(a20, a21) {
+            a20 << a20;
+            const v23 = a21 % a20;
+            let v24 = 10;
+            for (; v24--;) {
+                const o29 = {
+                    "execution": "async",
+                    "type": "minor",
+                };
+                gc(o29);
+            }
+            return v23;
+        },
+    };
+    return o31;
+}
+const v32 = f16("9C", C3);
+f16(v32, v15);
+f16(v14, v13);
+function f38(a39, a40, a41) {
+    a39 instanceof a40;
+    let v43;
+    try { v43 = a40(v32, v14); } catch (e) {}
+    v43?.[10];
+    return 268435441;
+}
+f38(1110102409n, "deref", -35080n);

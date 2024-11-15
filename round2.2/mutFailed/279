@@ -1,0 +1,94 @@
+try {
+    new Int8Array(3696);
+} catch(e3) {
+}
+try {
+    new Int16Array(256);
+} catch(e7) {
+}
+try {
+    const v10 = new Int16Array(2026);
+    function f11(a12, a13) {
+        return v10;
+    }
+    new Int32Array(5);
+} catch(e17) {
+}
+try {
+    new Int16Array(99);
+} catch(e24) {
+}
+try {
+    new BigUint64Array(5);
+} catch(e28) {
+}
+Math.pow(-9223372036854775807, -1.0);
+for (let v34 = 0; v34 < 5; v34++) {
+    const v35 = new Float64Array(v34);
+    Object.defineProperty(v35, "length", { writable: true, configurable: true, enumerable: true, value: v34 });
+}
+try {
+    new Uint8ClampedArray(512);
+} catch(e39) {
+}
+const v41 = [1000000000.0,-2.625130505632094,-Infinity,-2.2250738585072014e-308,Infinity];
+const v42 = [-1.4759098780949697e+308,1.7976931348623157e+308,-2.0,NaN,0.8324721739037063,0.0];
+for (let v43 = 0; v43 < 25; v43++) {
+    function f44() {
+        return v42;
+    }
+    v41[5] += v43;
+    v42.e = f44;
+}
+function F45() {
+    if (!new.target) { throw 'must be called with new'; }
+    this.c = F45;
+    try {
+        this.f = 268435456;
+    } catch(e48) {
+    }
+    try {
+        this.c = 268435456;
+    } catch(e49) {
+    }
+    ["valueOf","n","valueOf"];
+    const t53 = 512;
+    const v56 = new t53();
+    const t56 = 512;
+    const v57 = new t56();
+    const v58 = ["n","n",v56,v56,this];
+    const v59 = [v57];
+    const v60 = [-208.45471202361307,512,512,v58];
+    const o66 = {
+        get f() {
+            -1.1517304669743638 << -208.45471202361307;
+            v59[Symbol.asyncIterator];
+            return v58;
+        },
+        [-1.1517304669743638]: "valueOf",
+        "c": "valueOf",
+        [v60]: v58,
+    };
+    try {
+        this.h = 268435456;
+    } catch(e67) {
+    }
+}
+new F45();
+const v69 = new F45();
+const v70 = new F45();
+const v71 = [0.27357153605087436,-4.0,-708732.5224868315];
+const v72 = [1.4193569084661582e+308,-3.0,-1000000000000.0,-1000000000.0,5.0,NaN,495994.00559417787];
+const v73 = [-2.0,-6.819658699695559,0.7210595588355979,-5.7284975524704755,-0.0];
+class C74 {
+    static n(a76, a77, a78, a79) {
+        return v72;
+    }
+}
+const v80 = new C74();
+v80.m = 1783157144;
+v80.m = v80;
+let v81;
+try { v81 = v80.m(v70); } catch (e) {}
+try { v81(v69, v81, v71); } catch (e) {}
+f = v73;

@@ -1,0 +1,25 @@
+function f9() {
+    return -8485;
+}
+try {
+    new BigInt64Array(256);
+} catch(e13) {
+}
+try {
+    new Uint32Array(9);
+} catch(e17) {
+}
+try {
+    new Float32Array(239);
+} catch(e21) {
+}
+const v22 = [-4096,268435441,268435439,15,-49682,9];
+const v23 = [4,0,-633112568,-2147483647,-9007199254740991,-16,3434,49230];
+const v24 = [3,-16,1,2147483647,536870889,15325,-65537,1024,7];
+try {
+    v24.toString = f9;
+} catch(e25) {
+}
+v22 >>> 256;
+Object.defineProperty(v24, 64, { set: f9 });
+129n ** v23;

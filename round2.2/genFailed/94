@@ -1,0 +1,84 @@
+function f0() {
+}
+const v1 = [-2147483647,8,65537,9,767264661,8,257,-1132275536,6];
+const v2 = [9679,-256,-65537,47914,-4294967295,536870889,-13,268435441,65535,1140570699];
+const v3 = [1246402572,-60278,-3,4,1503543653,-650606602,-5462,635133545,9007199254740991,-256];
+function f4(a5, a6) {
+    const o20 = {
+        "c": f0,
+        "h": f0,
+        [a6]: a6,
+        toString(a8, a9, a10, a11) {
+            v2[a11.__proto__];
+            a11.__proto__;
+            const o18 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o18);
+            return v1;
+        },
+    };
+    return o20;
+}
+const v21 = f4(v2, f0);
+f4(v1, v21);
+const v23 = f4(v1, f4);
+class C24 {
+    [v23] = v23;
+    [v2];
+    m(a26, a27, a28, a29) {
+        const v30 = f0();
+        function F31(a33, a34, a35, a36) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = v2;
+            } catch(e37) {
+            }
+            try {
+                this.d = v30;
+            } catch(e38) {
+            }
+        }
+        const v39 = new F31(v21, v21, f0, v1);
+        new F31(this, a28, v39, v1);
+        new F31(a27, a27, a26, v2);
+        return v1;
+    }
+}
+const v42 = new C24();
+new C24();
+const v44 = new C24();
+function F45(a47, a48, a49) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a48;
+    } catch(e50) {
+    }
+    try {
+        this.a = a49;
+    } catch(e51) {
+    }
+    try {
+        this.b = a47;
+    } catch(e52) {
+    }
+}
+new F45(v3, v44, v3);
+new F45(v2, v42, v3);
+new F45(v1, v44, v1);
+function f56(a57, a58, a59) {
+    function f61(a62) {
+        try {
+            this.__proto__ = v1;
+        } catch(e63) {
+        }
+    }
+    this.onmessage = f61;
+}
+const v69 = [v21,v23,"function"];
+const o70 = {
+    "arguments": v69,
+    "type": "function",
+};
+new Worker(f56, o70);

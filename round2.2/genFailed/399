@@ -1,0 +1,27 @@
+function f6() {
+    return -1619547499n;
+}
+try {
+    new BigInt64Array(129);
+} catch(e16) {
+}
+try {
+    new Int32Array(1000);
+} catch(e20) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e24) {
+}
+try {
+    const t16 = "function";
+    t16.valueOf = f6;
+} catch(e25) {
+}
+Math.tanh(4096);
+Math.log10(-463276556);
+1394187287n >> 8;
+const v32 = Uint8ClampedArray && 8;
+~-463276556;
++-463276556;
++v32;

@@ -1,0 +1,54 @@
+try {
+    const t1 = 127;
+    new t1(127);
+} catch(e3) {
+}
+try {
+    const t6 = 6;
+    new t6(6);
+} catch(e7) {
+    e7.e = e7;
+}
+const v8 = Uint8Array[Uint8Array];
+const v9 = [Float64Array,127,6,6];
+%VerifyType(Float64Array);
+const v10 = Uint8Array instanceof v8;
+try {
+    v9[3] = Uint8Array;
+} catch(e11) {
+}
+try {
+    const v14 = new Uint32Array(276);
+    try {
+        v8.c = v8;
+    } catch(e15) {
+    }
+    const v17 = [[v10],v10,Uint8Array,276,127];
+    [v17,v14,v17,v17,v10];
+} catch(e19) {
+}
+try {
+    new BigInt64Array(1889);
+} catch(e26) {
+}
+Float32Array.name = Float32Array;
+try {
+    const v29 = new Float32Array(Uint8Array);
+    v29[1];
+} catch(e31) {
+}
+6 >>> 6;
+try {
+    const v35 = new Uint32Array(6);
+    v35[3] = v35;
+} catch(e36) {
+}
+let v38 = 10;
+for (; v38--;) {
+    try {
+        Math[5] = Math;
+    } catch(e40) {
+    }
+}
+try { Math.asinh(26714); } catch (e) {}
+Math.cos(268435456);

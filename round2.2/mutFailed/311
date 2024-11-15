@@ -1,0 +1,33 @@
+class C3 {
+    constructor(a5) {
+        const v6 = a5 === this;
+        const v7 = v6 ? a5 : a5;
+        let [,...v8] = this;
+        try {
+            this[v7] = v6;
+        } catch(e9) {
+        }
+    }
+    static e;
+    #d;
+    static f;
+}
+new C3(C3);
+const v11 = new C3("LT");
+new C3(1831758174);
+try {
+    new WeakRef(4096, v11, 4096);
+} catch(e17) {
+}
+try {
+    new Int16Array(Int16Array);
+} catch(e21) {
+}
+try {
+    new v11(8);
+} catch(e25) {
+}
+try {
+    8 in delete Uint8Array[8];
+} catch(e30) {
+}

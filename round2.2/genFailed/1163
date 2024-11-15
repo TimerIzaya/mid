@@ -1,0 +1,38 @@
+new Date();
+try {
+    new Uint8ClampedArray(250);
+} catch(e6) {
+}
+try {
+    new Int32Array(4);
+} catch(e10) {
+}
+try {
+    new Uint16Array(2);
+} catch(e14) {
+}
+class C15 extends Date {
+    constructor(a17, a18) {
+        super(2);
+        Date.prototype -= a18;
+        try {
+            new Float64Array(7);
+        } catch(e22) {
+        }
+        try {
+            new Int8Array(257);
+        } catch(e26) {
+        }
+        try {
+            new BigInt64Array(6);
+        } catch(e30) {
+        }
+    }
+}
+new C15(4, 250);
+new C15(250, 250);
+new C15(2, 2);
+Date(250);
+for (let i36 = 0; i36 < 6; i36++) {
+    continue;
+}

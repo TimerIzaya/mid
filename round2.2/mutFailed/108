@@ -1,0 +1,44 @@
+WeakMap.prototype = WeakMap;
+const v4 = new WeakMap();
+v4?.has;
+try {
+const t0 = 536870888n;
+new t0(536870888n);
+} catch (e) {}
+function f7() {
+    return v4;
+}
+Float64Array.BYTES_PER_ELEMENT = Float64Array;
+try {
+    const v10 = new Float64Array(129);
+    try { v10.values(); } catch (e) {}
+} catch(e12) {
+}
+try {
+    const v15 = new BigUint64Array(1);
+    try { v15.slice(WeakMap, -128n); } catch (e) {}
+} catch(e17) {
+}
+try {
+    new Float64Array(30);
+} catch(e21) {
+}
+function f22() {
+    return WeakMap;
+}
+try { f22(); } catch (e) {}
+class C24 {
+}
+let v25;
+try { v25 = new C24(); } catch (e) {}
+try { v25.constructor(); } catch (e) {}
+const v27 = new C24();
+v27?.constructor;
+let v29;
+try {
+const t0 = 30;
+v29 = new t0();
+} catch (e) {}
+v29.length;
+const v32 = v27 >= BigInt64Array;
+v32 && v32;

@@ -1,0 +1,36 @@
+try {
+    new BigInt64Array(173);
+} catch(e3) {
+}
+try {
+    new Int32Array(182);
+} catch(e7) {
+}
+try {
+    new Int8Array(256);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(9);
+} catch(e15) {
+}
+let v17 = Float64Array;
+try {
+    new v17(2);
+} catch(e19) {
+}
+try {
+    new Int8Array(824);
+} catch(e23) {
+}
+try {
+    v17 <<= v17;
+} catch(e24) {
+}
+class C25 extends Int8Array {
+    [v17] = 9;
+    e;
+}
+new C25();
+new C25();
+new C25();

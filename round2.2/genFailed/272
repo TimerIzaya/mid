@@ -1,0 +1,33 @@
+function f6(a7, a8) {
+    const o15 = {
+        __proto__: "object",
+        "b": 1.0,
+        248: a8,
+        "h": 0.8423617672022206,
+        valueOf(a10, a11, a12) {
+            const o14 = {
+                valueOf() {
+                    Object.defineProperty(this, "f", { writable: true, enumerable: true, value: a10 });
+                    return "object";
+                },
+            };
+            return a7;
+        },
+    };
+    return o15;
+}
+f6(1.0, "c");
+const v17 = f6(0.8423617672022206, "c");
+const v18 = f6(0.8423617672022206, "c");
+const v19 = /a[a-z]ba\Sc?/mdui;
+/\p{Nd}(?:ab)|cde(?:a*)+(?:a?)?/mgsv;
+new f6(/[(?:ab|cde)]/mdvy, ..."object", ..."c", v18);
+class C23 extends f6 {
+    static #b;
+    static #a = v19;
+    static [v19];
+}
+new C23();
+new C23();
+const v26 = new C23();
+v26[v17];

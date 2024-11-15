@@ -1,0 +1,40 @@
+const v1 = new WeakSet();
+new WeakMap();
+function F7(a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a11;
+    } catch(e12) {
+    }
+    try {
+        this.g = a10;
+    } catch(e13) {
+    }
+    try {
+        this.f = a10;
+    } catch(e14) {
+    }
+}
+new F7(-2147483648, -9223372036854775807, 12);
+const v16 = new F7(12, -9223372036854775807, 12);
+new F7(-9223372036854775807, -2147483648, -2147483648);
+try {
+    new Uint8ClampedArray(16);
+} catch(e21) {
+}
+try {
+    new Uint16Array(8);
+} catch(e25) {
+}
+try {
+    new Int16Array(1);
+} catch(e29) {
+}
+try {
+    v1[255] = Uint16Array;
+} catch(e30) {
+}
+for (const v31 of v16) {
+    break;
+    f === v31 ? f : v31;
+}

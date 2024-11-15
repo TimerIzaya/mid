@@ -1,0 +1,30 @@
+function f3(a4) {
+    const o10 = {
+        "d": -585383619,
+        "b": 2109639939,
+        [2109639939]: 2109639939,
+        2061074877: 2109639939,
+        valueOf(a6, a7) {
+            try {
+                a4[new.target] = new.target;
+            } catch(e9) {
+            }
+            return 2109639939;
+        },
+    };
+    return o10;
+}
+const v11 = f3(f3);
+f3(f3);
+f3(f3);
+new WeakSet();
+[v11,2109639939];
+const v17 = [WeakSet];
+[v17,-585383619,v17,-268435456];
+new WeakSet(v11);
+const o23 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o23);
+Object.defineProperty(v17, "d", { writable: true, configurable: true, value: v17 });

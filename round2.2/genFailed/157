@@ -1,0 +1,73 @@
+function f0() {
+    const v1 = -Infinity;
+    const o9 = {
+        o(a5) {
+            try {
+                this.toString = a5;
+            } catch(e6) {
+            }
+            let v7;
+            try { v7 = a5(this, a5, a5); } catch (e) {}
+            try { new v7(a5, 0.029142777683782706, this); } catch (e) {}
+            return v7;
+        },
+        "f": 1000.0,
+        __proto__: v1,
+        ...1000.0,
+        2896: 1000.0,
+        ...0.029142777683782706,
+        "d": 0.029142777683782706,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+class C16 extends f0 {
+    [f0];
+    #e;
+    static o(a18, a19) {
+        const v20 = new f0();
+        try {
+            new f0();
+        } catch(e22) {
+        }
+        return v20;
+    }
+    constructor(a24, a25, a26, a27) {
+        super();
+        try {
+            a26.o(-803622.5850913115, v10);
+        } catch(e30) {
+        }
+        Math.atan(v11);
+        Math.ceil(a24);
+        v12 ^ v12;
+        Math.pow(v11 * a24, a24);
+        Math.fround(6);
+    }
+}
+const v39 = new C16(v10, -130324132, v10, -9007199254740992);
+const v40 = new C16(v11, v39, v11, -9007199254740992);
+const v41 = new C16(v12, v11, v40, 6);
+const v45 = [1.0];
+[1000000000000.0,0.7907354337462911,NaN,1.0,0.9294084468248245];
+const v47 = [1e-15,0.02277683560963617,0.4092585322916116,-18.970363715512917,-8.425569832869408,-1e-15,917.8411299816512,-1000000.0,0.33944392310696625];
+function F48(a50, a51, a52, a53) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a53;
+    } catch(e54) {
+    }
+    try {
+        this.d = v40;
+    } catch(e55) {
+    }
+    try {
+        this.g = v11;
+    } catch(e56) {
+    }
+}
+new F48(v12, v12, v47, v47);
+new F48(v41, v39, v45, v47);
+new F48(C16, v12, v45, v45);

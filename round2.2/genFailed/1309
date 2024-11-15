@@ -1,0 +1,23 @@
+function f0() {
+}
+try {
+    new BigUint64Array(16);
+} catch(e4) {
+}
+try {
+    new Uint8Array(245);
+} catch(e8) {
+}
+try {
+    new Float32Array(0);
+} catch(e12) {
+}
+for (const v16 of 2122886711n) {
+    try { v16["toString"]("toString", -8n); } catch (e) {}
+    v16[Symbol.search];
+}
+const v22 = 0 | 0;
+try {
+    v22[-1] = v22;
+} catch(e23) {
+}

@@ -1,0 +1,50 @@
+try {
+    new Uint16Array(206);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e7) {
+}
+try {
+    const t9 = 256;
+    new t9(256);
+} catch(e11) {
+}
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        a17.d = a15;
+    } catch(e18) {
+    }
+    try {
+        this.a = a17;
+    } catch(e19) {
+    }
+    try {
+        this.f = 206;
+    } catch(e20) {
+    }
+}
+new F12(16, 16, 16, 16);
+new F12(256, 206, 16, 256);
+new F12(Uint8ClampedArray, 206, 206, 206);
+try {
+    new Float32Array(2930);
+} catch(e27) {
+}
+try {
+    new Uint16Array(128);
+} catch(e31) {
+}
+try {
+    new Float64Array(860);
+} catch(e35) {
+}
+function F36() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v38 = new Float32Array();
+for (let v40 of [8.81989968612977,1000000.0,-3.0]) {
+    Object.defineProperty(v38, v40++, { writable: true, configurable: true, enumerable: true, value: v40 });
+}

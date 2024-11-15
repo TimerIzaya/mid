@@ -1,0 +1,48 @@
+try {
+    new Uint8Array(128);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(-2147483648);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(346563793);
+} catch(e14) {
+}
+class C15 {
+    #c = Uint8Array;
+    static #valueOf(a17, a18, a19) {
+        try {
+            new Uint8ClampedArray(-9007199254740990, -9007199254740990, a18);
+        } catch(e22) {
+        }
+        return 128;
+    }
+    #a = Uint8Array;
+    static #g = BigInt64Array;
+    [9007199254740990] = 9007199254740990;
+    h;
+}
+new C15();
+new C15();
+const t28 = 9007199254740990;
+new t28();
+function f26() {
+}
+class C27 extends f26 {
+    constructor(a29) {
+        try {
+        } catch(e30) {
+        }
+    }
+}
+const v31 = [-988.2248169643736,0.09241441462127653,0.3335610964284341,1.7976931348623157e+308];
+let v32 = [-1.7976931348623157e+308,1.7976931348623157e+308,-1e-15,1.7976931348623157e+308,7.020017268393776,-5.0,-1.0,-3.5332023037851172];
+[-1000000000000.0,-4.0,-Infinity,-1000000000.0,0.0];
+try {
+    v32 >>>= BigInt64Array;
+} catch(e34) {
+}
+for (const v35 in v31) {
+}

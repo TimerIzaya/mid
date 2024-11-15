@@ -1,0 +1,79 @@
+const v0 = [];
+const v2 = new Date();
+class C3 {
+    3 = v2;
+    static set c(a5) {
+        let v6 = 0;
+        while (v6 < 6) {
+            try {
+                new BigUint64Array(1);
+            } catch(e12) {
+            }
+            try {
+                new BigInt64Array(16);
+            } catch(e16) {
+            }
+            try {
+                new Uint8Array(16);
+            } catch(e20) {
+            }
+            v6++;
+        }
+    }
+}
+const v22 = new C3();
+const v23 = new C3();
+const v24 = new C3();
+function f25(a26, a27) {
+    const o34 = {
+        "f": Date,
+        get b() {
+            const v30 = [a26];
+            Reflect.construct(Date, v30, C3);
+            v30[delete v23[2147483649]];
+            return v22;
+        },
+        [a27]: v22,
+        __proto__: C3,
+        [v22]: a27,
+        "b": v24,
+        "h": C3,
+    };
+    return o34;
+}
+const v35 = f25(v24, v0);
+const v36 = f25(v22, v0);
+const v37 = f25(v35, C3);
+class C38 {
+    d;
+    static set c(a40) {
+        try {
+            v36.length = 2;
+        } catch(e42) {
+        }
+    }
+    static set g(a44) {
+        try {
+            new Uint32Array(257);
+        } catch(e48) {
+        }
+        try {
+            new Int32Array(0);
+        } catch(e52) {
+        }
+        try {
+            new BigUint64Array(2539);
+        } catch(e56) {
+        }
+    }
+}
+new C38();
+new C38();
+new C38();
+let v65 = -536870912;
+const v67 = v35 - -2.220446049250313e-16;
+Math.sinh(!v37);
+++v65;
+-v67;
+~v67;
+Math.random();

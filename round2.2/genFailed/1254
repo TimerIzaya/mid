@@ -1,0 +1,89 @@
+function f0() {
+    const o11 = {
+        ...225.72886594243118,
+        "b": 1000000000.0,
+        "h": 5.590153049869359,
+        0: 1000000000.0,
+        "a": 5.590153049869359,
+        ...225.72886594243118,
+        10: 225.72886594243118,
+        set d(a5) {
+            const o9 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o9);
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+function f15(a16) {
+    const o30 = {
+        "f": f0,
+        __proto__: v12,
+        ...v13,
+        "h": v13,
+        "a": a16,
+        "d": v13,
+        o(a18) {
+            const v20 = Symbol.iterator;
+            const o29 = {
+                [v20]() {
+                    let v22 = 10;
+                    const o28 = {
+                        next() {
+                            v22--;
+                            const v26 = v22 == 0;
+                            const o27 = {
+                                "done": v26,
+                                "value": v22,
+                            };
+                            return o27;
+                        },
+                    };
+                    return o28;
+                },
+            };
+            return a16;
+        },
+    };
+    return o30;
+}
+const v31 = f15(v12);
+f15(v14);
+f15(v12);
+class C37 {
+    static [v13] = 1326422261n;
+    n(a39, a40) {
+        try {
+            const v41 = [f15,a40,this,65537n,v14];
+            this.fuck(v41, v41, -37902n);
+        } catch(e44) {
+        }
+        return v12;
+    }
+    static [f0] = v31;
+    [65537n] = -2147483647n;
+    static #h = 1326422261n;
+}
+new C37();
+const v46 = new C37();
+new C37();
+for (let v48 of v46) {
+    try {
+        v48 = f0;
+    } catch(e49) {
+    }
+}
+%VerifyType(65537n);
+const o52 = {
+    "maxByteLength": 899,
+};
+const v54 = new ArrayBuffer(0, o52);
+try {
+    new Uint32Array(v54);
+} catch(e57) {
+}

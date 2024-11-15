@@ -1,0 +1,34 @@
+function f3() {
+    return 392;
+}
+18176 === 392;
+function f8(a9, a10, a11, a12) {
+    a9 >>> a9;
+    const o18 = {
+        set b(a15) {
+            %VerifyType(a15);
+            const v16 = (4294967296)?.[1];
+            try {
+                a15[18176] = v16;
+            } catch(e17) {
+            }
+        },
+        __proto__: a9,
+        ...a9,
+        0: a11,
+        ...a11,
+    };
+    f8[0];
+    return 4294967296;
+}
+f8[0] = f8;
+const v20 = f8(18176, 12, f3, 4294967296);
+const v21 = f8(1073741825, 12, 12, 1000);
+const v22 = v20(v21, 1073741825, 1000, 1000);
+v22 * v22;
+function f24() {
+    return v21;
+}
+const v25 = [-0.0];
+try { v25.at(4294967296); } catch (e) {}
+v25.toLocaleString(12);

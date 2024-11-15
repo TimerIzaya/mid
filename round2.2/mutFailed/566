@@ -1,0 +1,53 @@
+const v0 = /B6a(?!bbb|bb)cKBZ(?<a>.)/mgsdy;
+const v1 = /(?:a+)?/mguy;
+const v2 = /a+?/mdi;
+function f3(a4, a5) {
+    const o8 = {
+        "h": v0,
+        "b": a4,
+        "a": v2,
+        get d() {
+            a5[255] >>>= this;
+            try {
+                v2.source = a4;
+            } catch(e7) {
+            }
+            return a5;
+        },
+        ...a5,
+        2: v2,
+        "e": a5,
+        "c": v1,
+    };
+    return o8;
+}
+const v9 = f3(v0, v1);
+const v10 = f3(v1, v0);
+f3(v1, v0);
+class C15 {
+    [v10];
+    static o(a17, a18, a19, a20) {
+        a17[1] &&= 1.7976931348623157e+308;
+        v2 != this ? v2 : this;
+        return v9;
+    }
+    #m(a24, a25, a26, a27) {
+        try {
+            super.setMilliseconds(a27, a27, a26, a26, -1000.0);
+        } catch(e29) {
+        }
+        const v30 = f3(v0, a26);
+        delete v9[13];
+        return v30;
+    }
+}
+new C15();
+new C15();
+new C15();
+function F38(a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v42 = new v9();
+for (let v43 = 0; v43 < 25; v43++) {
+    v42["p" + "p"] = v43;
+}

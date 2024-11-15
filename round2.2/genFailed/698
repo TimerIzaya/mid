@@ -1,0 +1,64 @@
+function f0() {
+}
+function f1() {
+    const o2 = {
+        "g": f0,
+        ...f0,
+        2569: f0,
+        1073741824: f0,
+        [-2]: f0,
+        3: f0,
+        __proto__: f0,
+        13: f0,
+        [-1]: f0,
+        [f0]: f0,
+        "e": f0,
+        3624: f0,
+    };
+    return o2;
+}
+const v3 = f1();
+const v4 = f1();
+const v5 = f1();
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a9;
+    } catch(e10) {
+    }
+    try {
+        this.b = a8;
+    } catch(e11) {
+    }
+}
+const v12 = new F6(v4, v3);
+const v13 = new F6(v4, v4);
+new F6(v5, v5);
+class C15 {
+    constructor(a17, a18, a19) {
+        +F6;
+        this[Symbol.asyncIterator];
+    }
+    static #o(a25, a26) {
+        f0();
+        %PrepareFunctionForOptimization(f0);
+        f0();
+        f0();
+        %OptimizeMaglevOnNextCall(f0);
+        f0();
+        return a26;
+    }
+}
+const v31 = new C15(v4, v5, v12);
+const v32 = new C15(C15, v4, v13);
+const v33 = new C15(f0, v32, v32);
+const v34 = v12 ** v3;
+Object.defineProperty(v5, v34, { configurable: true, enumerable: true, get: f1, set: f1 });
+const v35 = [v33,v4,v5,v12,F6];
+[v4,[v35,v3,v34,v12],f1,v12];
+v31[v5];
+%VerifyType(v35);
++v32;
+[-1000000000000.0];
+[-1.0481295840845316e+308,2.220446049250313e-16,-1e-15,-3.9365080844783655,-9.720006685710045e+307,-18549.941875968478,896453.2292852118,-281.7177078731687,-8.830643391294915,NaN];
+[-0.0,722104.3427850343,0.4955970877851623,1e-15,-654452.7107310572,-2.0];

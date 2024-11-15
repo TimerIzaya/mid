@@ -1,0 +1,55 @@
+try {
+    new Int8Array(1);
+} catch(e3) {
+}
+try {
+    new Float64Array(512);
+} catch(e7) {
+}
+try {
+    new Uint16Array(129);
+} catch(e11) {
+}
+class C12 extends Float64Array {
+    #c = 129;
+    f = Int8Array;
+    static #d = 129;
+    static #h;
+    [129];
+    get d() {
+        let v15 = -8499;
+        Math.log(1.0);
+        Math.hypot(536870888);
+        v15--;
+        return v15--;
+    }
+}
+new C12();
+const v23 = new C12();
+const v24 = new C12();
+try {
+    new Int8Array(7);
+} catch(e28) {
+}
+try {
+    new Float32Array(0);
+} catch(e32) {
+}
+try {
+    new Int16Array(1669);
+} catch(e36) {
+    function f37(a38, a39) {
+        new Uint16Array(a38, 7, 1);
+        return e36;
+    }
+    f37(v24, v23);
+}
+try {
+    const v47 = new Int8Array(16);
+    function f48(a49, a50) {
+        return v47;
+    }
+    v47[Symbol.toPrimitive] = f48;
+    v47[8] = v47;
+} catch(e53) {
+}

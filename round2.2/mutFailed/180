@@ -1,0 +1,44 @@
+try {
+    new Uint32Array(3709);
+} catch(e3) {
+}
+try {
+    new Uint16Array(26);
+} catch(e7) {
+}
+try {
+    new Int32Array(10);
+} catch(e11) {
+}
+class C15 extends Int32Array {
+    h;
+    [10] = 3709;
+    n(a17, a18, a19) {
+        delete a18[10];
+        Reflect.construct(Uint32Array, [26,a17], Int32Array);
+        return 3709;
+    }
+    105;
+    d;
+    [26];
+}
+new C15();
+new C15();
+new C15();
+class C31 extends Uint32Array {
+    constructor(a33, a34, a35) {
+        super(a35);
+        for (let i = 0; i < 5; i++) {
+            try {
+                a33[15] = 1548;
+            } catch(e36) {
+            }
+        }
+    }
+}
+const v37 = new C31(1548, 256, 1548);
+new C31(v37);
+new C31();
+function f48(a49) {
+    return arguments;
+}

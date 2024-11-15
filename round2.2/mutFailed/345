@@ -1,0 +1,70 @@
+const v0 = /7a??/mgdu;
+const v1 = /[(?:ab)+g(?:a?)?]/mgsduy;
+const v2 = /[a(?!bbb|bb)c]/msvy;
+const v3 = [10,1951501210,-1416393673,-2,-13,-16,9007199254740992,2147483647];
+const v4 = [124350457,10,16,-1046838627,-10,10,-9,-1421,25359,10000];
+const v5 = [-13,-2147483648,536870912,-5210,4294967297,-1,512,-15,-6];
+const v6 = [0.5939691576530376,1.7976931348623157e+308,-5.173978860537851,0.00468259021869788,805.9201582501851,0.0,451.78203149516753,4.0,0.924486364918454];
+const v7 = [Infinity,49458.08137057442,-1.7976931348623157e+308,0.3224258030883168,0.2842986777696094,-1000000000000.0];
+typeof v7 === "string";
+try {
+    new Uint16Array(2939);
+} catch(e14) {
+}
+try {
+    new Float32Array(0);
+} catch(e18) {
+}
+try {
+    new BigUint64Array(255);
+} catch(e22) {
+}
+const v23 = [-7.8355958225404265];
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v0;
+    } catch(e30) {
+    }
+    try {
+        this.d = a27;
+    } catch(e31) {
+    }
+}
+new F24(v0, v23, v2, v3);
+new F24(v0, v5, v1, v7);
+new F24(v2, v6, v0, v4);
+function F35() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v37 = new F35();
+const v38 = new F35();
+function f39(a40) {
+    function f41() {
+        return 255;
+    }
+    const o42 = {
+        "get": f39,
+    };
+    try {
+        new Proxy(v38, o42);
+    } catch(e45) {
+    }
+    const o48 = {
+        "h": v38,
+        2: a40,
+        268435440: a40,
+        "e": a40,
+        ...v37,
+        [F35]: v38,
+        [v37]: v37,
+        [a40](a47) {
+        },
+    };
+    return o48;
+}
+%PrepareFunctionForOptimization(f39);
+f39(v37);
+f39(v37);
+%OptimizeFunctionOnNextCall(f39);
+f39();

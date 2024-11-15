@@ -1,0 +1,37 @@
+class C3 {
+    valueOf(a5, a6) {
+        try {
+            a6 = a5;
+        } catch(e7) {
+        }
+        return this > this;
+    }
+    h;
+    #e;
+    static #c = 3.0;
+    static #a;
+}
+const v10 = new C3();
+new C3();
+const v12 = new C3();
+try {
+    new Uint32Array(183);
+} catch(e16) {
+}
+try {
+    new Float32Array(1000);
+} catch(e20) {
+}
+try {
+    new Float64Array(2073);
+} catch(e24) {
+}
+const v26 = [C3,2073];
+Reflect.apply(v12.valueOf, v10, v26);
+new Float32Array(2073, 183, 183);
+try {
+    const o30 = {
+    };
+    Reflect.has(o30, "-536870912");
+} catch(e33) {
+}

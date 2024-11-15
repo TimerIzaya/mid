@@ -1,0 +1,23 @@
+try {
+    new Float64Array(64);
+} catch(e3) {
+}
+try {
+    new Uint16Array(13);
+} catch(e7) {
+}
+try {
+    new Uint16Array(14);
+} catch(e11) {
+}
+new Set();
+try {
+    const t14 = "setHours";
+    t14.length = 3;
+} catch(e20) {
+}
+let v21;
+try { v21 = Uint16Array(65535, 3, 65535); } catch (e) {}
+let v22;
+try { v22 = v21("flat", v21); } catch (e) {}
+let {"c":v23,"d":v24,"g":v25,} = v22;

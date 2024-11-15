@@ -1,0 +1,29 @@
+try {
+    new Int32Array(15);
+} catch(e9) {
+}
+try {
+    new Int8Array(8);
+} catch(e13) {
+}
+try {
+    new BigInt64Array(129);
+} catch(e17) {
+}
+try {
+    const t13 = 129;
+    t13.a = 1000;
+} catch(e21) {
+}
+try {
+const t0 = -1203201325n;
+t0(8n, 9223372036854775807, 1196467748n);
+} catch (e) {}
+!BigInt64Array;
+!-890598174;
+Math.sign(9223372036854775807);
+const v29 = 8n ** -890598174;
+!8n;
+const v31 = v29 && -890598174;
+Math.cosh(v31);
+v31 % v31;

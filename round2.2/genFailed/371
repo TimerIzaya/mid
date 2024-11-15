@@ -1,0 +1,40 @@
+try {
+    new BigInt64Array(64);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(3263);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3447);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    b;
+    2147483648;
+    static 9;
+    constructor(a14, a15, a16, a17) {
+        super(a16);
+        function f18() {
+            return BigInt64Array;
+        }
+        try {
+            this[5] = this;
+        } catch(e19) {
+        }
+    }
+}
+const v20 = new C12(64, 3447, 3447, 3447);
+new C12(3447, 3447, 64, 3263);
+new C12(3447, 3447, 3447, 64);
+const o26 = {
+};
+try {
+    new Proxy(C12, o26);
+} catch(e29) {
+}
+try {
+    v20[C12] = 3263;
+} catch(e30) {
+}

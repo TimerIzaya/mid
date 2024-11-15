@@ -1,0 +1,35 @@
+new Set();
+function F8(a10, a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a10;
+    } catch(e13) {
+    }
+    try {
+        this.f = 0.6142281724339124;
+    } catch(e14) {
+    }
+    try {
+        this.g = Set;
+    } catch(e15) {
+    }
+}
+const v16 = new F8(-48.76706461775939, -315005265, Set);
+new F8(-48.76706461775939, 256, v16);
+new F8(-0.0, -48304, -48304);
+const v22 = `
+    const v23 = new F8(-0.0, 256, Set);
+    const v24 = new Set(v23);
+    const v25 = delete v24?.size;
+    function F26(a28, a29) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.e = a29;
+        } catch(e30) {
+        }
+    }
+    new F26(-48.76706461775939, v25);
+    new F26(-48.76706461775939, 0.6142281724339124);
+    new F26(0.6142281724339124, v25);
+`;
+eval(v22);

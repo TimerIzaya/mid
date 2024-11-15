@@ -1,0 +1,31 @@
+try {
+    new Int16Array(256);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(7);
+} catch(e7) {
+}
+try {
+    new Int16Array(7);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(2791);
+} catch(e15) {
+}
+try {
+    new Float32Array(3);
+} catch(e19) {
+}
+try {
+    new Uint32Array(2446);
+} catch(e23) {
+}
+501163.0037460099 >= 501163.0037460099;
+for (let i29 = 0; i29 < 8; i29++) {
+    let v35;
+    try { v35 = i29(i29, 3, i29, 3); } catch (e) {}
+    v35[65537] &= 501163.0037460099;
+    try { v35.valueOf(501163.0037460099, i29, v35, v35, v35); } catch (e) {}
+}

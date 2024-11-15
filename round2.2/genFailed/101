@@ -1,0 +1,70 @@
+try {
+    new Uint8Array(129);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e10) {
+}
+try {
+    new Float64Array(9);
+} catch(e14) {
+}
+function f15(a16, a17) {
+    const o33 = {
+        __proto__: Float64Array,
+        4: a17,
+        4294967295: Float64Array,
+        [a16]: a16,
+        ...Float64Array,
+        [Float64Array]: 4,
+        [a17]: BigInt64Array,
+        valueOf(a19, a20, a21, a22) {
+            Object.defineProperty(this, 6, { configurable: true, enumerable: true, value: a20 });
+            let v23 = 0;
+            do {
+                delete this[a20];
+                const o28 = {
+                    "execution": "sync",
+                    "type": "minor",
+                };
+                gc(o28);
+                v23++;
+            } while (v23 < 7)
+            return a20;
+        },
+    };
+    return o33;
+}
+const v34 = f15(129, -259713455);
+const v35 = f15(-4294967297, -259713455);
+const v36 = f15(4, -10);
+function f37(a38, a39) {
+    const o43 = {
+        "b": 129,
+        __proto__: a38,
+        ...a39,
+        ...v36,
+        [a38]: BigInt64Array,
+        ...v35,
+        [v35]: f15,
+        get g() {
+            let v41 = a39.e;
+            try {
+                v41 <<= a38;
+            } catch(e42) {
+            }
+            return 129;
+        },
+    };
+    return o43;
+}
+f37(v35, v36);
+f37(f37(v34, v34), v34);
+f37(v36, v34);
+v36[218] -= 4;
+const o51 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o51);

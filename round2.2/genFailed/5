@@ -1,0 +1,31 @@
+let v4 = 15;
+const v5 = new Array(v4);
+function f6() {
+    return "boolean";
+}
+class C7 {
+    constructor(a9, a10, a11) {
+        let v12;
+        try { v12 = new a11(); } catch (e) {}
+        try {
+            v4 **= v12;
+        } catch(e13) {
+        }
+    }
+    static #e;
+    static h;
+    #c = v5;
+}
+new C7("number", "p", v4);
+new C7("p", "boolean", v4);
+new C7("boolean", "p", "p");
+try {
+    f6();
+} catch(e18) {
+}
+Array(v4);
+%PrepareFunctionForOptimization(Array);
+Array(v4);
+Array(v4);
+%OptimizeFunctionOnNextCall(Array);
+Array(v4);

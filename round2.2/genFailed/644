@@ -1,0 +1,33 @@
+try {
+    new Float64Array(4);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(129);
+} catch(e10) {
+}
+try {
+    new Float64Array(64);
+} catch(e14) {
+}
+try {
+    new BigInt64Array(128);
+} catch(e18) {
+}
+try {
+    new Uint16Array(6);
+} catch(e22) {
+}
+try {
+    new Float64Array(8);
+} catch(e26) {
+}
+function f27(a28, a29, a30) {
+    const v32 = a30[a30]?.[BigInt64Array];
+    try { v32.toString(64, a29, BigInt64Array, Float64Array, a29); } catch (e) {}
+    return 1073741823;
+}
+const t29 = f27(Float64Array, 64, Float64Array);
+delete t29[3];
+const t30 = f27.h;
+t30.g ^= 4;

@@ -1,0 +1,42 @@
+class C3 {
+    constructor(a5) {
+        const v6 = this?.constructor;
+        try { new v6("LT"); } catch (e) {}
+        a5.e = a5;
+        const v8 = a5 === this;
+        const v9 = v8 ? a5 : this;
+        let [,...v10] = "string";
+        try {
+            this[v9] = v8;
+        } catch(e11) {
+        }
+    }
+    static e;
+    #d;
+    static f;
+}
+const v12 = new C3(C3);
+v12.length = v12;
+const v13 = new C3("LT");
+new C3(1831758174);
+!true;
+try {
+    new WeakRef(4096, v13, 4096);
+} catch(e20) {
+    e20.message;
+}
+1 - 1;
+try {
+    new Int16Array(1);
+} catch(e26) {
+}
+8 * 8;
+try {
+    new Int32Array(8);
+} catch(e31) {
+}
+8 / 8;
+try {
+    8 in delete Uint8Array[8];
+} catch(e37) {
+}

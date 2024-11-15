@@ -1,0 +1,34 @@
+function f5(a6) {
+    return a6;
+}
+class C7 extends f5 {
+    [2147483648] = 2147483648;
+    static {
+        let v8 = this;
+        new f5(++v8);
+    }
+    static [C7] = 1440940747;
+}
+try {
+    new C7(4);
+} catch(e15) {
+}
+try {
+    const t16 = 1440940747;
+    new t16(4012);
+} catch(e19) {
+}
+try {
+    new Int16Array(4);
+} catch(e23) {
+    function f24(a25, a26, a27, a28) {
+        const o29 = {
+            ...Uint16Array,
+        };
+        return a27;
+    }
+    e23(-102126642, e23, 4294967296, 16);
+    f24(1440940747, 4012, -102126642, 4);
+    f24(e23, 16, -102126642, 16);
+}
+try { Symbol.keyFor(Symbol); } catch (e) {}

@@ -1,0 +1,65 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f6() {
+        const o7 = {
+        };
+        try {
+            new Proxy("-2147483648", this);
+        } catch(e10) {
+        }
+        return "-2147483648";
+    }
+    this[Symbol.toPrimitive] = f6;
+    try {
+        const t13 = "-2147483648";
+        t13.f = "source";
+    } catch(e13) {
+    }
+}
+function f14(a15) {
+    const t19 = 0;
+    t19.a = -65537n;
+    return 0;
+}
+F3.toString = f14;
+const v18 = new F3("source");
+v18.toString = f14;
+const v19 = new F3("-2147483648");
+let v20 = new F3("message");
+class C21 extends F3 {
+    [v18] = "message";
+    a;
+    static set e(a23) {
+        try {
+            v20 = v19;
+        } catch(e24) {
+        }
+        try {
+            new C21("string");
+        } catch(e27) {
+        }
+    }
+    [F3] = "source";
+}
+new C21();
+new F3();
+new F3();
+function f31() {
+    return "message";
+}
+try {
+    new F3(9);
+} catch(e35) {
+}
+try {
+    new Uint32Array(64);
+} catch(e39) {
+}
+const v43 = new Map();
+v43.delete(3264n);
+try {
+    new Float32Array(0);
+} catch(e47) {
+}
+const v50 = new F3(9);
+v50.reverse();

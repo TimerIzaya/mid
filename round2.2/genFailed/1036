@@ -1,0 +1,73 @@
+class C3 {
+    #b;
+    constructor(a5) {
+        for (let v7 = 0; v7 < 32; v7++) {
+            this["p" + v7] = v7;
+        }
+    }
+    #h = "n";
+    8;
+    d = -1362808302;
+    static ["n"] = "getInt8";
+    e = "getInt8";
+}
+const v10 = new C3(C3);
+const v11 = new C3("getInt8");
+const v12 = new C3("n");
+function f13(a14, a15) {
+    const o25 = {
+        __proto__: a15,
+        [a14]: v11,
+        toString(a17, a18) {
+            super.e;
+            super.h;
+            return a15;
+        },
+        "d": a15,
+        ["getInt8"]: a14,
+        ..."n",
+    };
+    return o25;
+}
+const v26 = f13(v11, v10);
+const v27 = f13(v12, v12);
+const v28 = f13(v12, v10);
+function f29(a30, a31) {
+    const o56 = {
+        [a31](a33, a34) {
+            const v35 = a30 in a31;
+            try { a33.toUTCString(v11, a31, a31, v35, v35); } catch (e) {}
+            a34 === a30 ? a34 : a30;
+            return v27;
+        },
+        "e": v12,
+        238: v12,
+        o(a40, a41, a42) {
+            try {
+                new Float32Array(57);
+            } catch(e47) {
+            }
+            try {
+                new Uint32Array(7);
+            } catch(e51) {
+            }
+            try {
+                new Uint32Array(3068);
+            } catch(e55) {
+            }
+            return a30;
+        },
+    };
+    return o56;
+}
+f29(f29(v26, v27), v28);
+f29(v12, v26);
+try {
+    const o60 = {
+        "d": v27,
+        "e": f13,
+    };
+    new f13(o60, v11);
+} catch(e62) {
+}
+new WeakSet();

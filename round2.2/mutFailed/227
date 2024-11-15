@@ -1,0 +1,36 @@
+try {
+    new Uint16Array(917);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(201);
+} catch(e11) {
+}
+[BigUint64Array];
+[BigUint64Array,917,201];
+const v14 = [BigUint64Array,917,16,917,BigUint64Array];
+try {
+    new BigUint64Array(658);
+} catch(e19) {
+}
+try {
+    new Uint8Array(BigUint64Array);
+} catch(e23) {
+}
+try {
+    new Int32Array(11);
+} catch(e27) {
+}
+function f30(a31, a32) {
+    const o33 = {
+        "g": a31,
+        [47152]: a31,
+    };
+    return a31;
+}
+f30();
+v14(38004);

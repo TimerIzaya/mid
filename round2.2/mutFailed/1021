@@ -1,0 +1,52 @@
+class C3 {
+    [1e-15];
+    static n(a5) {
+        const v6 = a5.__proto__;
+        v6?.[10];
+        try { v6(-536870912); } catch (e) {}
+        return 1e-15;
+    }
+    static #d;
+    static p(a10, a11) {
+        try {
+            a10 = -536870912;
+        } catch(e12) {
+        }
+        try {
+            a10 -= -536870912;
+        } catch(e13) {
+        }
+        return this;
+    }
+}
+new C3();
+const v15 = new C3();
+function f16() {
+    function f17(a18) {
+        const v20 = [];
+        Reflect.construct(C3, v20, a18);
+        return v20;
+    }
+    return f17;
+}
+Object.defineProperty(v15, "toString", { writable: true, enumerable: true, get: f16 });
+const v22 = new C3();
+try { v22.constructor(); } catch (e) {}
+try {
+    new BigInt64Array(255);
+} catch(e28) {
+}
+try { Uint32Array.valueOf(); } catch (e) {}
+try {
+    new Uint32Array(1000);
+} catch(e33) {
+}
+3 << 3;
+try {
+    new Float64Array(3);
+} catch(e38) {
+}
+let v39 = 9;
+v39++;
+try { ("EPSILON").replaceAll(1000, v15); } catch (e) {}
+("EPSILON").lastIndexOf("valueOf", v39);

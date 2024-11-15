@@ -1,0 +1,28 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -65298;
+    } catch(e3) {
+    }
+}
+new F0();
+let v5 = new F0();
+const v6 = new F0();
+function f7() {
+    return v6;
+}
+function f8() {
+    return v6;
+}
+let v9 = -1.0;
+let v14 = "function";
+({"d":v14,"f":f8,"length":v5,} = "1000");
+try {
+    v9 = -1.3975640808426747e+308;
+} catch(e19) {
+}
+v14[v9] ^= v9;
+try {
+    new F0();
+} catch(e21) {
+}

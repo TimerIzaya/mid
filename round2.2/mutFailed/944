@@ -1,0 +1,68 @@
+const v4 = new Date();
+try {
+    new Uint8ClampedArray(5);
+} catch(e8) {
+}
+try {
+    new Uint8ClampedArray(11);
+} catch(e12) {
+}
+try {
+    new Float32Array(1000);
+} catch(e16) {
+}
+function f17(a18, a19, a20) {
+    const o28 = {
+        ...Date,
+        "e": a18,
+        n(a22, a23, a24) {
+            this.e > a22 ? -1.0 : a22;
+            return this;
+        },
+        ...5,
+        ...v4,
+        [-1]: 5,
+        "d": f17,
+        "c": Date,
+    };
+    return o28;
+}
+const v29 = f17(7.31197603127804e+307, 1000, 5);
+v29 instanceof Uint8ClampedArray;
+Object.defineProperty(Date, "a", { enumerable: true, get: Date });
+const v31 = v29.n(Uint8ClampedArray, 1000000000.0, Uint8ClampedArray, 1000);
+try {
+    v4[v31] = 11;
+} catch(e32) {
+}
+f17(-1.0, 11, 5);
+const t37 = -1.0;
+t37(7.31197603127804e+307, 5, 11);
+function f39() {
+    function f41(a42) {
+        const o45 = {
+            "maxByteLength": -1945479380,
+        };
+        const v47 = new ArrayBuffer(-1945479380, o45);
+        new Float32Array(v47);
+    }
+    this.onmessage = f41;
+}
+try {
+    const t51 = "bigint";
+    t51.length = 11;
+} catch(e56) {
+}
+Date("bigint");
+%PrepareFunctionForOptimization(Date);
+const t57 = 1000000000.0;
+t57("bigint");
+Date("bigint");
+%OptimizeFunctionOnNextCall(Date);
+Date("bigint");
+const v63 = [];
+const o64 = {
+    "arguments": v63,
+    "type": -1945479380,
+};
+new Worker("-843673245", o64);

@@ -1,0 +1,41 @@
+try {
+    new Float32Array(78);
+} catch(e6) {
+}
+try {
+    new Uint16Array(128);
+} catch(e10) {
+}
+try {
+    new Float64Array(127);
+} catch(e14) {
+}
+class C15 extends Float64Array {
+    static 2147483649;
+    [Uint16Array] = Float32Array;
+    [Float32Array] = 127;
+    [128];
+    static #n(a17, a18, a19) {
+        switch (a18) {
+            case 78:
+                this.b;
+                break;
+        }
+        return -22948;
+    }
+    static [-9223372036854775808];
+    static #c = Uint16Array;
+}
+new C15();
+const v22 = new C15();
+const v23 = new C15();
+const o25 = {
+};
+try {
+    new Proxy(v23, o25);
+} catch(e28) {
+}
+Object.defineProperty(v22, "e", { value: 78 });
+[-16,-1657448677,-29762,-7,-53977,0,-12];
+[-128,1073741825,2117799212,-9007199254740990,-268435456,-13];
+[-4294967295,0,-1495218934,536870887,-939544931,536870889,9007199254740992];

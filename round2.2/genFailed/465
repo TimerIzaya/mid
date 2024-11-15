@@ -1,0 +1,54 @@
+function f4() {
+    return 9007199254740990;
+}
+class C5 {
+    [9007199254740990] = f4;
+    static a = null;
+    constructor(a7, a8) {
+        super.a[Symbol.replace];
+    }
+    static #c = 9007199254740992;
+    [9007199254740992];
+    #a;
+}
+const v13 = new C5(9007199254740990, 9007199254740990);
+new C5(9007199254740990, 9007199254740992);
+const v15 = new C5(268435439, 9007199254740992);
+class C16 extends f4 {
+    [v13];
+    static get e() {
+        Object.defineProperty(C5, -65536, { enumerable: true, set: f4 });
+        const v22 = Symbol.iterator;
+        const o31 = {
+            [v22]() {
+                let v24 = 10;
+                const o30 = {
+                    next() {
+                        v24--;
+                        const v28 = v24 == 0;
+                        const o29 = {
+                            "done": v28,
+                            "value": v24,
+                        };
+                        return o29;
+                    },
+                };
+                return o30;
+            },
+        };
+        return -65536;
+    }
+}
+const v32 = new C16();
+new C16();
+const v34 = new C16();
+class C36 extends v32.constructor {
+    static h;
+    d;
+    static #e;
+}
+const v37 = new C36();
+let v38;
+try { v38 = v34.endsWith(v37, v15); } catch (e) {}
+v38 - v13;
+Object.defineProperty(v13, 15, { configurable: true, set: f4 });

@@ -1,0 +1,110 @@
+class C3 {
+    a = "-128";
+    static #b;
+    static #toString(a5, a6) {
+        for (let i9 = 0, i10 = 10; i9 < i10; i9++, i10--) {
+        }
+    }
+    constructor(a19, a20) {
+        for (let i22 = 0; i22 < 9; i22++) {
+            try {
+                new Uint8Array(155);
+            } catch(e31) {
+            }
+            try {
+                new Uint8ClampedArray(255);
+            } catch(e35) {
+            }
+            try {
+                new Uint32Array(1);
+            } catch(e39) {
+            }
+        }
+    }
+}
+const v40 = new C3("-128", C3);
+const v41 = new C3(v40, C3);
+new C3(C3, v41);
+function f43() {
+}
+class C44 {
+    static #g = f43;
+    static #h;
+    h = f43;
+}
+const v45 = new C44();
+const v46 = [f43,v45];
+const v47 = [v46,v46,v46,v46];
+function f48(a49, a50, a51, a52) {
+    try { a51.h(); } catch (e) {}
+    const o56 = {
+        "e": v47,
+        __proto__: a52,
+        [v46]: v45,
+        get a() {
+            a51(a51, this, v45, this);
+        },
+    };
+    try {
+        new f48(3.207269637518646, 3.207269637518646, a51);
+    } catch(e60) {
+    }
+    return o56;
+}
+/R\P{Decimal_Number}r(?:ab|cde)a[a]+/mgvy;
+/a\bc?/mgdi;
+/(?:ab)?/msdi;
+const v67 = [831718659,-265172310,55689,268435439,4273,-61632,1024,-5];
+class C69 extends Uint16Array {
+}
+new v40();
+class C72 {
+    get h() {
+    }
+}
+class C74 extends C72 {
+    constructor(a76, a77, a78, a79) {
+        super();
+        gc();
+    }
+}
+try { C74(-2.2250738585072014e-308); } catch (e) {}
+const v83 = new C69(v67);
+function f89(a90, a91, a92) {
+    const o100 = {
+        "g": -9223372036854775808,
+        541717691: "1000",
+        __proto__: "ziXf",
+        "a": "ziXf",
+        [9]: null,
+        2416569900: f48,
+        "maxByteLength": 536870888,
+        set h(a94) {
+        },
+        "execution": "1000",
+        "f": a90,
+        p(a96, a97, a98) {
+            C3 = -9223372036854775808;
+            return f43;
+        },
+        get b() {
+        },
+        [a91]: "ziXf",
+        ...a92,
+        /*
+        __proto__: v83,
+        */
+        "maxByteLength": -9223372036854775808,
+        "h": -9223372036854775808,
+        256: f43,
+        "type": "toString",
+        "d": 9,
+        "h": 536870888,
+    };
+    return o100;
+}
+f89(536870888, 536870888, f89(-9223372036854775808, -9223372036854775808, "toString"));
+%PrepareFunctionForOptimization(f89);
+f89(536870888);
+%OptimizeFunctionOnNextCall(f89);
+f89();

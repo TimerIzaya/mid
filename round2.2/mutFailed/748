@@ -1,0 +1,63 @@
+const v2 = -Infinity;
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 1000000000000.0;
+        let v12;
+        try { v12 = a11(); } catch (e) {}
+        d = a11;
+        function F14(a16, a17, a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.c = a9;
+            } catch(e20) {
+            }
+            try {
+                this.f = 29955;
+            } catch(e21) {
+            }
+        }
+        const v22 = new F14(v2, v12, a8, a9);
+        new F14(a9, v22, v12, v2);
+        new F14(v2, 1000000000000.0, -4096, -8.678256660887653e+307);
+    } catch(e25) {
+    }
+    try {
+        this.a = a11;
+    } catch(e26) {
+    }
+}
+const v27 = new F6(1000000000000.0, -8.678256660887653e+307, 2, -4096);
+const v28 = new F6(v27, -8.678256660887653e+307, -4096, 29955);
+const v29 = new F6(29955, -8.678256660887653e+307, 2, 2);
+function F30(a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a33;
+    } catch(e34) {
+    }
+    try {
+        this.e = v27;
+    } catch(e35) {
+    }
+}
+new F30(v27, v28);
+new F30(v27, v29);
+const v38 = new F30(v29, v28);
+class C39 {
+}
+const v40 = new v38();
+function f42() {
+    g = 10000;
+    for (let v44 = 0; v44 < 10; v44++) {
+        v40["p" + v44] = v44;
+    }
+    const o50 = {
+        [10000](a48, a49) {
+        },
+    };
+}
+f42();
+f42();
+%OptimizeFunctionOnNextCall(f42);
+f42();

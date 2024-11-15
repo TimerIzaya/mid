@@ -1,0 +1,49 @@
+let v0 = 20;
+try {
+    new Uint16Array(v0);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(0);
+} catch(e7) {
+}
+try {
+    new Int8Array(4096);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o19 = {
+        __proto__: Uint8ClampedArray,
+        get e() {
+            delete this[Int8Array];
+            delete this[this];
+            try {
+                v0 -= a14;
+            } catch(e18) {
+            }
+            return this;
+        },
+        8: Uint8ClampedArray,
+        "d": a13,
+        ...Int8Array,
+        [-1]: 4096,
+    };
+    return o19;
+}
+f12(v0, v0);
+let v21 = f12(v0, v0);
+f12(0, 4096);
+[498.3582523698228,-1.0];
+[5.0,0.8555844564935087,-1000000000.0,5.223065616261149e+307];
+[1000000000000.0,5.533320986568596e+307,2.0,-3.0,2.220446049250313e-16,564.3815438933736,-2.2250738585072014e-308];
+const v33 = ++v21;
++-0.0;
+v33 - -0.0;
+Math.abs(Uint8ClampedArray);
+v33 + -15912;
+f12(v21, v21);
+%PrepareFunctionForOptimization(f12);
+f12(v21, v21);
+f12(v21, v21);
+%OptimizeFunctionOnNextCall(f12);
+f12(v21, v21);

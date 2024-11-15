@@ -1,0 +1,87 @@
+const v3 = /a*?\p{Changes_When_NFKC_Casefolded}/gsuyi;
+const v4 = /a[^a]+/gsui;
+const v5 = /Y\b/gdvy;
+class C6 {
+    static [-358180403n];
+    constructor(a8, a9, a10, a11) {
+        super.c |= a8;
+        let v12;
+        try { v12 = this.set(a11, a8, 512n); } catch (e) {}
+        try { v12(-358180403n, v3, v3); } catch (e) {}
+        Math.pow(-2.9393216445797936, 613719016);
+        function f20(a21, a22, a23) {
+            const o25 = {
+                "c": BigInt64Array,
+                ...Uint32Array,
+                get d() {
+                    return a21;
+                },
+            };
+            return o25;
+        }
+        f20(BigInt64Array, Uint32Array, f20);
+    }
+    static [512n];
+    a = v5;
+    #valueOf(a28, a29, a30, a31) {
+        try {
+            super[a28] = 19350n;
+        } catch(e32) {
+        }
+        return v4;
+    }
+}
+const v33 = new C6(-358180403n, 19350n, v5, v4);
+const v34 = new C6(-358180403n, 19350n, v4, v4);
+const v35 = new C6(19350n, -358180403n, v5, v5);
+function f36(a37, a38, a39) {
+    const o40 = {
+        0: a37,
+        "a": v5,
+        "b": a39,
+        "d": a37,
+        10: v4,
+        "g": v4,
+        "h": v3,
+        "c": -358180403n,
+        __proto__: v35,
+        3213: v34,
+        "f": 512n,
+        "e": 19350n,
+        ...C6,
+    };
+    return o40;
+}
+f36(f36(f36(v33, v5, -358180403n), v3, -358180403n), v5, 512n);
+function f46(a47, a48) {
+    const o49 = {
+        [a48]: 1000.0,
+        "g": a48,
+        3329: -4.0,
+    };
+    return -4.0;
+}
+const v50 = f46();
+const v51 = f46(1000.0, 1000.0);
+const v52 = [f46,f46,f46,f46];
+function f53(a54, a55, a56, a57) {
+    const o65 = {
+        get a() {
+            return v50;
+        },
+        __proto__: a54,
+        ...a54,
+        [C6](a60, a61) {
+            try {
+                super.findLastIndex();
+            } catch(e63) {
+            }
+            try { (-358180403n).is(-358180403n, this, a61, v51); } catch (e) {}
+            return a60;
+        },
+    };
+    return a56;
+}
+const v66 = f53();
+new f53(v52);
+v66 ^ this;

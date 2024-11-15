@@ -1,0 +1,20 @@
+try {
+    new BigInt64Array(2);
+} catch(e12) {
+}
+try {
+    new Uint8Array(1972);
+} catch(e16) {
+}
+try {
+    new Uint16Array(2);
+} catch(e20) {
+}
+class C21 extends Uint16Array {
+    1073741823 = -4294967295;
+}
+new C21();
+const v23 = new C21();
+const v24 = new C21();
+v23[Symbol.unscopables];
+v24[1000];

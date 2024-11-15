@@ -1,0 +1,47 @@
+class C3 {
+    n(a5, a6) {
+        let v7;
+        try { v7 = a5(...0.26438268202326043, a5, a6, 0.26438268202326043, this); } catch (e) {}
+        return v7;
+    }
+    static #n(a9) {
+        with (this) {
+            a = a9;
+            try {
+                a9.__proto__ = this;
+            } catch(e10) {
+            }
+        }
+        return this;
+    }
+}
+const v11 = new C3();
+const v12 = new C3();
+const v13 = new C3();
+try {
+    new Int8Array(0);
+} catch(e20) {
+}
+try {
+    new Int8Array(5);
+} catch(e24) {
+}
+try {
+    new BigInt64Array(3170);
+} catch(e28) {
+}
+const v29 = typeof BigInt64Array;
+v29 === "undefined";
+try { ("De").trim(); } catch (e) {}
+function f33(a34, a35, a36) {
+    const o37 = {
+        "e": 5,
+        2: -42111,
+        "h": v29,
+        "c": v12,
+        "f": Int8Array,
+    };
+    return o37;
+}
+const v39 = f33(v12, 3170, f33(v13, 55194, v11));
+f33(v39, 0, v39);

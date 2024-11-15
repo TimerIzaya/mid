@@ -1,0 +1,41 @@
+function f0() {
+}
+function f4(a5) {
+    const o22 = {
+        "c": a5,
+        ...a5,
+        "g": 5.631265075416717,
+        set h(a7) {
+            let v8 = 0;
+            while (v8 < 8) {
+                function F11(a13, a14, a15) {
+                    if (!new.target) { throw 'must be called with new'; }
+                    try {
+                        this.c = a13;
+                    } catch(e16) {
+                    }
+                    try {
+                        this.a = a14;
+                    } catch(e17) {
+                    }
+                }
+                new F11(-4.0, 5.631265075416717, a5);
+                new F11(a7, a5, -144.9233363565063);
+                new F11(a5, -144.9233363565063, a5);
+                v8++;
+            }
+        },
+    };
+    return o22;
+}
+f4(5.631265075416717);
+f4(-4.0);
+f4(-4.0);
+let {"d":v29,"length":v30,...v31} = "LYe";
+const o36 = {
+    valueOf() {
+        try { this["n"]("n", f0, "1362832941", 5.631265075416717); } catch (e) {}
+        return -144.9233363565063;
+    },
+};
+v29[3924] ^= o36;

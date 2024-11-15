@@ -1,0 +1,57 @@
+class C3 {
+    static o(a5, a6) {
+        return this.__proto__;
+    }
+    constructor(a9, a10) {
+        try {
+            this.__proto__ = this;
+        } catch(e11) {
+        }
+        try { new a9(); } catch (e) {}
+        this[-2];
+        268435439n & this;
+    }
+    static #g;
+}
+new C3(63788n, 1073741823n);
+new C3(1073741823n, 63788n);
+const v17 = new C3(63788n, 63788n);
+try {
+    new Uint32Array(87);
+} catch(e21) {
+}
+try {
+    new Int32Array(255);
+} catch(e25) {
+}
+try {
+    new Int8Array(1889);
+} catch(e29) {
+}
+class C30 {
+    static n(a32, a33) {
+        const v35 = super.c;
+        try {
+            super.m(v35, 63788n, C3, 63788n, 63788n);
+        } catch(e37) {
+        }
+        return C3;
+    }
+    static 2147483648 = C3;
+    [v17] = 255;
+    g;
+    c = 63788n;
+    e = C3;
+}
+new C30();
+new C30();
+const v40 = new C30();
+let v41;
+try { v41 = C30(); } catch (e) {}
+for (const v42 of v41) {
+    const v45 = typeof v42 === "string";
+    try {
+        v40[2] = v45;
+    } catch(e46) {
+    }
+}

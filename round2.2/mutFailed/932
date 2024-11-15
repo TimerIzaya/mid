@@ -1,0 +1,94 @@
+class C3 {
+    static #valueOf(a5, a6) {
+        const o7 = {
+        };
+        try {
+            o7.b = this;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.b = this;
+            o9.h = a5;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.b = this;
+            o11.h = a5;
+            o11.g = a5;
+        } catch(e12) {
+        }
+        try {
+            const o13 = {
+            };
+            o13.b = this;
+            o13.h = a5;
+            o13.g = this;
+        } catch(e14) {
+        }
+        return a5;
+    }
+    static f = -256;
+    constructor(a16, a17) {
+        try { ("-2147483649").lastIndexOf("-2147483649", a17); } catch (e) {}
+        for (let v19 = 0; v19 < 32; v19++) {
+            a17["p" + v19] = v19;
+        }
+    }
+    static 8 = "-2147483649";
+}
+const v22 = new C3(-256, -256);
+const v23 = new C3("-2147483649", "-2147483649");
+const v24 = new C3(v23, 21397);
+function f25() {
+    return -256;
+}
+function f26(a27, a28, a29) {
+    const o36 = {
+        1: v24,
+        "h": a28,
+        ["-2147483649"]: C3,
+        [f26]: "-2147483649",
+        80: f25,
+        __proto__: v23,
+        "b": a27,
+        toString(a31, a32, a33, a34) {
+            try {
+                a29[-2] = v24;
+            } catch(e35) {
+            }
+            return a29;
+        },
+        3087561811: 21397,
+    };
+    return o36;
+}
+const v37 = f26(v22, v22, "-2147483649");
+f26(v23, C3, v23);
+f26(v37, v24, "-2147483649");
+const v40 = [-9223372036854775808,-1787892749,-2147483647,536870888,-65536,268435441,12];
+const v41 = [35938,-15,61914,-444704995,512,1,-10,-2];
+class C42 {
+    #f;
+    1;
+    #e;
+    toString(a44) {
+        a44();
+    }
+    f = v40;
+    [v41] = v40;
+}
+const v46 = new C42();
+try {
+const t0 = 2147483649n;
+t0();
+} catch (e) {}
+const v49 = v46.constructor;
+class C50 extends v49 {
+    [v49];
+}
+const v51 = new C50();
+v51[2147483649n];

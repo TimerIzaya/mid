@@ -1,0 +1,80 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -15;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+class C7 extends F0 {
+    #a = F0;
+    m(a9, a10) {
+        try {
+            super.match(this, F0);
+        } catch(e12) {
+        }
+        return a10;
+    }
+    static {
+        try {
+            this.toString = v4;
+        } catch(e14) {
+        }
+    }
+}
+const v15 = new C7();
+const v16 = new C7();
+const v17 = new C7();
+function f18(a19, a20, a21) {
+    const o22 = {
+        "e": F0,
+        ...C7,
+        ...a21,
+        __proto__: a21,
+        ...v6,
+        "d": C7,
+        "b": a21,
+        "g": a20,
+        "a": a21,
+        "c": v15,
+        "h": F0,
+        "f": a19,
+        ...v17,
+    };
+    return o22;
+}
+const v23 = f18(v15, v6, v16);
+const v25 = f18(v23, v17, f18(v15, v16, v15));
+try {
+    new Float32Array(13);
+} catch(e29) {
+}
+try {
+    new Float32Array(2181);
+} catch(e33) {
+}
+try {
+    new Uint16Array(1);
+} catch(e37) {
+}
+const v38 = v25 - 2181;
+try {
+    v16[4188633191] = v38;
+} catch(e39) {
+}
+switch (v4) {
+    default:
+        function F40(a42, a43) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a42;
+            } catch(e44) {
+            }
+        }
+        const v45 = new F40(v23, v15);
+        const v46 = new F40(v16, v45);
+        new F40(v46, v15);
+        break;
+}

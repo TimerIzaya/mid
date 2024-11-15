@@ -1,0 +1,65 @@
+const v0 = [];
+function f1() {
+    const o5 = {
+        "c": v0,
+        "f": v0,
+        ...v0,
+        "b": v0,
+        ...v0,
+        p() {
+            const v3 = v0.length;
+            try {
+                this[255] = v3;
+            } catch(e4) {
+            }
+            return v0;
+        },
+    };
+    return o5;
+}
+f1();
+const v7 = f1();
+const v8 = f1();
+function f12(a13, a14, a15) {
+    const o21 = {
+        __proto__: v7,
+        n(a17, a18) {
+            try {
+                new f1();
+            } catch(e20) {
+            }
+            return a15;
+        },
+        ...a13,
+        "c": a14,
+        "b": v8,
+    };
+    return o21;
+}
+const v22 = f12(-1200723755n, -22924n, -1200723755n);
+f12(f1, 12n, -22924n);
+f12(v22, -1200723755n, -22924n);
+f12(-1200723755n, 12n, -1200723755n);
+~v0;
+function f27(a28, a29) {
+    function f31(a32) {
+        v8[128] <<= a29;
+        const o35 = {
+            "maxByteLength": 4096,
+        };
+        const v37 = new ArrayBuffer(4096, o35);
+        try {
+            new Uint16Array(v37);
+        } catch(e40) {
+        }
+    }
+    this.onmessage = f31;
+    a29 >> this;
+    Object.defineProperty(v0, 3, { configurable: true, enumerable: true, set: f31 });
+}
+const v44 = [v22,-22924n];
+const o45 = {
+    "arguments": v44,
+    "type": "function",
+};
+new Worker(f27, o45);

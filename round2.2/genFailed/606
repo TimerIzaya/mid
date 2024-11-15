@@ -1,0 +1,37 @@
+class C3 {
+    [0.8064274132796876] = -2.2250738585072014e-308;
+    [36364] = 36364;
+    p(a5, a6) {
+        const v7 = a5 === this;
+        v7 ? a5 : this;
+        let v10;
+        try { v10 = this["toString"](v7, 0.8064274132796876, "toString"); } catch (e) {}
+        return v10;
+    }
+    static c = -2.2250738585072014e-308;
+    [-2.2250738585072014e-308] = 0.8064274132796876;
+}
+new C3();
+const v12 = new C3();
+const v13 = new C3();
+try {
+    new Uint16Array(1957);
+} catch(e17) {
+}
+try {
+    new Float64Array(10);
+} catch(e21) {
+}
+try {
+    new Int16Array(16);
+} catch(e25) {
+}
+new WeakSet();
+for (let [v28] of 0.8064274132796876) {
+    Int16Array === v28;
+    v12[v13["p"](v28)];
+}
+try {
+    v13.c = v13;
+} catch(e33) {
+}

@@ -1,0 +1,68 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -4;
+    } catch(e3) {
+    }
+    try {
+        this.a = -4;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a11;
+    } catch(e12) {
+    }
+    try {
+        this.d = a11;
+    } catch(e13) {
+    }
+}
+const v14 = new F8(v5, v5);
+const v15 = new F8(v7, F8);
+const v16 = new F8(v6, F8);
+const v18 = new WeakSet();
+class C19 extends WeakSet {
+    static #h;
+    constructor(a21, a22) {
+        super(v6);
+        let v23;
+        try { v23 = WeakSet(v5); } catch (e) {}
+        try { v23(v23, v18, v5, a22); } catch (e) {}
+        this[v18];
+        try {
+            v15.d = v14;
+        } catch(e26) {
+        }
+    }
+    234 = F0;
+    [v5] = v16;
+}
+const v27 = new C19(v16, v16);
+const v28 = new C19(v27, v27);
+new C19(v28, v15);
+function f30(a31, a32, a33, a34) {
+    [4.0,0.40211728607784203,1000.0,-1000.0,0.9764309990118796];
+    [9.009743052162719,-5.0,-4.0,-5.052862162030336,-5.0,-1.7976931348623157e+308,-1.1167462135386537e+308,2.220446049250313e-16];
+    [1000000.0];
+    return a32;
+}
+f30(v18, v5, v14, v15);
+Object.defineProperty(v28, 268435441, { enumerable: true, get: f30 });
+try {
+    new Int32Array(8);
+} catch(e42) {
+}
+try {
+    new Float32Array(0);
+} catch(e46) {
+}
+try {
+    new Uint8ClampedArray(165);
+} catch(e50) {
+}

@@ -1,0 +1,45 @@
+function f3(a4) {
+    const o19 = {
+        "d": -536870912,
+        [9](a6, a7) {
+            const v9 = Symbol.iterator;
+            const o18 = {
+                [v9]() {
+                    const o17 = {
+                        next() {
+                            ~10;
+                            const v15 = 10 == 0;
+                            const o16 = {
+                                "done": v15,
+                                "value": 10,
+                            };
+                            return o16;
+                        },
+                    };
+                    return o17;
+                },
+            };
+            return a6;
+        },
+    };
+    o19[1073741825].flags;
+    return o19;
+}
+f3.name;
+const v24 = f3(-536870912, f3(16));
+v24[1073741825] = v24;
+const v25 = f3(16);
+const v26 = [16,-536870912,16];
+const v27 = [-536870912];
+try { v27.splice(16, v24); } catch (e) {}
+const v29 = [v27,v25,v26,f3];
+v29[1] = v29;
+-3.0 - -3.0;
+let v32 = 1000.0;
+v32--;
+try {
+    class C36 extends undefined {
+    }
+} catch(e37) {
+    e37.message[53];
+}

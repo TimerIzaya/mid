@@ -1,0 +1,52 @@
+function f0() {
+    const o10 = {
+        set f(a5) {
+            const o6 = {
+            };
+            try {
+                new Proxy("bigint", o6);
+            } catch(e9) {
+            }
+        },
+        "g": "bigint",
+        0: 257,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+f0();
+try {
+    new Int16Array(2147);
+} catch(e17) {
+}
+try {
+    new Int8Array(1024);
+} catch(e21) {
+}
+try {
+    new Uint16Array(1404);
+} catch(e25) {
+}
+try {
+    new Int16Array(128);
+} catch(e29) {
+}
+try {
+    new Uint8ClampedArray(64);
+} catch(e33) {
+}
+try {
+    new Float32Array(195);
+} catch(e37) {
+}
+for (const v38 of v11) {
+    try {
+        v12[256] = Uint8ClampedArray;
+    } catch(e39) {
+    }
+}
+try {
+    v12.g = 1024;
+} catch(e40) {
+}

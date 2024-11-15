@@ -1,0 +1,63 @@
+try {
+    new Uint32Array(1027);
+} catch(e3) {
+}
+try {
+    new Uint16Array(4096);
+} catch(e7) {
+}
+try {
+    new Uint16Array(1);
+} catch(e11) {
+}
+class C12 {
+    f;
+    #a;
+    static {
+        const t16 = 4096;
+        t16[3] = Uint16Array;
+        const v14 = this.h;
+        try {
+            this.__proto__ = v14;
+        } catch(e15) {
+        }
+    }
+    static 0 = Uint32Array;
+    #d;
+    static #e = Uint16Array;
+}
+const v16 = new C12();
+const v17 = new C12();
+const v18 = new C12();
+try {
+    new BigUint64Array(88);
+} catch(e22) {
+}
+try {
+    new Float32Array(10);
+} catch(e26) {
+}
+try {
+    new BigUint64Array(10);
+} catch(e30) {
+}
+const o31 = {
+    __proto__: v18,
+    "e": v16,
+    [Float32Array]: Float32Array,
+};
+const v32 = new BigUint64Array(1, 10, 1);
+Object.defineProperty(v18, Uint16Array, { enumerable: true, value: v32 });
+10 / v17;
+try {
+    new Int8Array(141);
+} catch(e37) {
+}
+try {
+    new Float32Array(932);
+} catch(e41) {
+}
+try {
+    new BigInt64Array(1000);
+} catch(e45) {
+}

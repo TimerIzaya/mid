@@ -1,0 +1,20 @@
+function f0() {
+}
+try {
+    new Float32Array(1893);
+} catch(e10) {
+}
+try {
+    new Uint8Array(73);
+} catch(e14) {
+}
+try {
+    new Uint32Array(3);
+} catch(e18) {
+}
+%VerifyType(1893);
+for (let v19 = 0; v19 < 87; v19++) {
+    let [v20,v21,v22,v23] = "f";
+}
+Object.defineProperty("f", 2147483647, { configurable: true, enumerable: true, set: f0 });
+typeof 256n === "symbol";

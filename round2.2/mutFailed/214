@@ -1,0 +1,67 @@
+try {
+    new BigInt64Array(10);
+} catch(e3) {
+}
+try {
+    function f6() {
+    }
+    class C7 extends f6 {
+        constructor(a9) {
+            super();
+            this[f6] %= f6;
+        }
+    }
+    new Int16Array(0);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(15);
+} catch(e15) {
+}
+for (let v21 = 0; v21 < 10; v21++) {
+    const v23 = ["symbol",-255545766];
+    Reflect.apply(("symbol").split, "-1866628860", v23);
+}
+try {
+    new Uint16Array(966);
+} catch(e27) {
+}
+try {
+    function f30(a31, a32) {
+        return a32;
+    }
+    const o35 = {
+        "type": "function",
+    };
+    o35.arguments = "-1866628860";
+    new Worker(f30, o35);
+    new Float64Array(3);
+} catch(e38) {
+}
+try {
+    new Uint16Array(8);
+} catch(e42) {
+}
+class C44 {
+    static #p(a46, a47, a48, a49) {
+    }
+    valueOf(a51, a52, a53, a54) {
+        try {
+            ("cu").#p();
+        } catch(e56) {
+        }
+    }
+}
+const v57 = new C44();
+function f58() {
+    function f59(a60) {
+        try {
+            new Uint16Array(7);
+        } catch(e63) {
+        }
+        return Uint16Array;
+    }
+    return f59;
+}
+Object.defineProperty(v57, Symbol.toPrimitive, { writable: true, get: f58 });
+Math.acos(v57);

@@ -1,0 +1,49 @@
+let v1 = 10;
+class C3 {
+    static #g = "te2";
+    static b = v1;
+    [-1];
+    static #p(a5, a6) {
+        const o7 = {
+            __proto__: this,
+            [1000000.0]: this,
+        };
+        try {
+            this.#g = o7;
+        } catch(e8) {
+        }
+        return this;
+    }
+}
+new C3();
+const v10 = new C3();
+const v11 = new C3();
+let v13 = NaN;
+function f15(a16, a17, a18) {
+    const o22 = {
+        set b(a20) {
+            this[512];
+        },
+        ...C3,
+        "h": 1000000.0,
+        "c": v1,
+        "f": a16,
+        __proto__: v11,
+        7: 1000000.0,
+        "g": a18,
+        "e": a17,
+    };
+    return o22;
+}
+const v24 = f15(NaN, f15(1000000.0, v11, NaN), v13);
+f15(1000000.0, "te2", 1000000.0);
+let v26 = this;
+({"c":v26,"g":v13,...f15} = v26);
+for (const v27 of v26) {
+    v27 >= 1000000.0;
+}
+--C3;
+let [] = "te2";
+try { v10.m(v24); } catch (e) {}
+--v1;
+try { v13.setUint16(1000000.0, NaN); } catch (e) {}

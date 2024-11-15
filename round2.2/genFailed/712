@@ -1,0 +1,58 @@
+try {
+    new Uint32Array(1469);
+} catch(e3) {
+}
+try {
+    new Uint8Array(3);
+} catch(e7) {
+}
+let v9 = Uint8Array;
+try {
+    new v9(0);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o21 = {
+        "g": Uint8Array,
+        __proto__: a15,
+        [0]: a13,
+        "f": a15,
+        ...a15,
+        "b": a15,
+        "a": a16,
+        [Uint8Array]: 0,
+        set d(a18) {
+            this.__proto__;
+            let v20 = eval;
+            ({"a":v9,"g":a15,"h":v20,} = this);
+        },
+    };
+    return o21;
+}
+let v22 = f12(0, 3, 3, v9);
+f12(1469, v9, v9, 1469);
+const v24 = f12(0, 0, f12, 0);
+class C25 extends Uint32Array {
+    valueOf(a27, a28, a29, a30) {
+        const v34 = typeof super[a29] === "boolean";
+        try {
+            v22 /= a30;
+        } catch(e35) {
+        }
+        return v34;
+    }
+    [1469] = 0;
+    static 1;
+}
+new C25();
+new C25();
+new C25();
+try {
+    f12(3, 0, undefined, 0);
+} catch(e41) {
+}
+delete v9?.h;
+try {
+    v24.toString = v9;
+} catch(e43) {
+}

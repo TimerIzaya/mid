@@ -1,0 +1,59 @@
+class C3 {
+    static #c;
+    constructor(a5, a6) {
+        try {
+            a6.#c;
+        } catch(e8) {
+        }
+        let v9;
+        try { v9 = a5.deleteProperty("p", a6, 16); } catch (e) {}
+        16 <= v9;
+    }
+    p(a12, a13) {
+        try {
+            const t13 = "p";
+            t13.#c = "p";
+        } catch(e14) {
+        }
+        return a12;
+    }
+}
+const v15 = new C3(C3, "p");
+new C3("p", "object");
+new C3(v15, v15);
+const v18 = [-704822.5934000381,1.0,-4.0];
+const v19 = [-520887.2759215426,6.963553056947973,4.97939021564498,-532.7444228957607,-823780.0017802692,1.0463221672542608e+308];
+[1000000.0,-430128.8431384665,-820534.6517894369,1.7976931348623157e+308,-Infinity,1000.0,-326156.3669136296,1e-15];
+class C21 {
+    static [v15] = "object";
+    #n(a23, a24) {
+        this.e;
+        try {
+            super[v15] = a24;
+        } catch(e26) {
+        }
+        a23 <= v19;
+        return a24;
+    }
+    ["p"] = v18;
+    a = 16;
+    static #g = "p";
+    static #a;
+}
+const v28 = new C21();
+new C21();
+new C21();
+const v31 = C3 && "p";
+new C21();
+try {
+    C3 = C21;
+} catch(e33) {
+}
+v31 in v31;
+("p")[v18];
+try {
+    const o36 = {
+    };
+    v28.fuck(o36, "bigint");
+} catch(e39) {
+}

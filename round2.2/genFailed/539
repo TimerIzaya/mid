@@ -1,0 +1,44 @@
+const v0 = [-256,-1073741824,608588980,-9007199254740990,536870889,7];
+const v1 = [-536870912,-20631,0,-15,1073741824,0,-28078,12];
+const v2 = [473,10,-64287544,-35215,1];
+try {
+    new Uint8ClampedArray(7);
+} catch(e6) {
+}
+try {
+    new Float64Array(3818);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(2);
+} catch(e14) {
+}
+class C15 extends BigUint64Array {
+    static 10000;
+    268435440;
+    constructor(a17, a18, a19) {
+        super(v2, a17, a17);
+        new Float64Array(super.length, 3818);
+    }
+    static #o(a23, a24) {
+        const v29 = 4.0 || 4.0;
+        const v30 = !a24;
+        4.0 * v29;
+        Math.log(v29);
+        return Math.pow(v29, v30);
+    }
+}
+const v34 = new C15(2, v0, v1);
+const v35 = new C15(7, 2, v1);
+const v36 = new C15(3818, v2, v35);
+const o37 = {
+    "c": BigUint64Array,
+    __proto__: v36,
+    6: v0,
+};
+const o38 = {
+    "d": 7,
+    ...v36,
+    __proto__: v2,
+    "h": v34,
+};

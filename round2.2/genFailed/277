@@ -1,0 +1,44 @@
+try {
+    new Int8Array(9);
+} catch(e6) {
+}
+try {
+    new Int8Array(9);
+} catch(e10) {
+}
+try {
+    new Float64Array(10);
+} catch(e14) {
+}
+const v15 = [8.045161311276498,-453.05943016312494,0.7169352583252895,-850.0986613736839,-1e-15,-155.70988477136962,0.5104735004270605];
+const v16 = [-1.5928619175862195,1.7976931348623157e+308,1.7976931348623157e+308,-1.0949992766245041e+308,0.27159902689163906,-1000000.0];
+const v17 = [0.0069443013674500564,-1e-15,1.0862799264672618e+308];
+class C18 {
+    constructor(a20, a21) {
+        v17["findIndex"](a20, a21)?.d;
+        const t17 = -1024n;
+        t17[6] = 10;
+    }
+    static #o(a26, a27) {
+        const o30 = {
+            "maxByteLength": 3832,
+        };
+        const v32 = new SharedArrayBuffer(257, o30);
+        try {
+            new Int32Array(v32);
+        } catch(e35) {
+        }
+        return v15;
+    }
+}
+const v36 = new C18(Float64Array, v15);
+new C18(v36, v16);
+new C18(v16, v17);
+const v40 = `
+    try {
+        v16.reduceRight(b, 2147483649n);
+    } catch(e42) {
+    }
+`;
+eval(v40);
+v17 != 9 ? v17 : 9;

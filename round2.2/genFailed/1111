@@ -1,0 +1,64 @@
+function f0() {
+    const o10 = {
+        "c": -1000000.0,
+        "g": 899.0789164546647,
+        set f(a5) {
+            try {
+                this.fuck(899.0789164546647, undefined, undefined);
+            } catch(e9) {
+            }
+        },
+        "e": 899.0789164546647,
+        "b": -1000000.0,
+        "h": 899.0789164546647,
+        "a": 899.0789164546647,
+        "f": 899.0789164546647,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function F17(a19, a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = "c";
+    } catch(e23) {
+    }
+    try {
+        this.f = v11;
+    } catch(e24) {
+    }
+    try {
+        this.b = f0;
+    } catch(e25) {
+    }
+}
+const v26 = new F17(v13, f0, v12, v13);
+const v27 = new F17(v11, v26, v13, v12);
+new F17(v13, v27, v11, v11);
+const v29 = /\c!GZM(?<=)+/m;
+let v30 = /[w]/mgdi;
+/a./mgui;
+try {
+    v30 = v29;
+} catch(e35) {
+}
+-1080 !== -1080;
+v30.__proto__;
+const o38 = {
+    "call": f0,
+    "construct": f0,
+    "deleteProperty": f0,
+    "get": f0,
+    "getPrototypeOf": f0,
+    "has": f0,
+    "isExtensible": f0,
+    "ownKeys": f0,
+    "preventExtensions": f0,
+    "setPrototypeOf": f0,
+};
+try {
+    new Proxy(v26, o38);
+} catch(e41) {
+}

@@ -1,0 +1,36 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = 879156215;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+new F0();
+const v6 = new F0();
+class C10 {
+    #b;
+    static #toString(a12, a13, a14) {
+        try {
+            a13.#b -= a14;
+        } catch(e15) {
+        }
+        try {
+            a14 |= v4;
+        } catch(e16) {
+        }
+        return a14;
+    }
+    a = "e";
+}
+new C10();
+new C10();
+const v19 = new C10();
+f = v4;
+let v23;
+try { v23 = v19("number", -3.232088618578528); } catch (e) {}
+try {
+    v4.length = 3288151324;
+} catch(e25) {
+}
+Reflect.construct(v23, [v4,v6], F0);

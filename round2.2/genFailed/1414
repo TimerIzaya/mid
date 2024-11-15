@@ -1,0 +1,22 @@
+let v0 = 14n;
+let v4 = 49025;
+function F6(a8, a9, a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v0;
+    } catch(e12) {
+    }
+}
+let v13 = new F6(-2, v4, -2, 4096);
+const v14 = new F6(-2, 4096, v4, -9007199254740991n);
+let v15 = new F6(-2, 4096, v4, v14);
+%VerifyType(268435440);
+try {
+    v0 = -9007199254740991n;
+} catch(e19) {
+}
+++v15;
+const t17 = v13[6];
+t17[128] &&= 10000;
+v13[3217] &&= -2;
+({"d":v4,"f":v4,"h":v0,...v13} = v14);

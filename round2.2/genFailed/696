@@ -1,0 +1,37 @@
+function f10(a11, a12, a13, a14) {
+    const o28 = {
+        "e": 47698,
+        "h": 47698,
+        [a13](a16, a17, a18) {
+            try {
+                a12[undefined] = a14;
+            } catch(e19) {
+            }
+            const o22 = {
+                "maxByteLength": 16,
+            };
+            const v24 = new SharedArrayBuffer(6, o22);
+            try {
+                new Uint8Array(v24);
+            } catch(e27) {
+            }
+            return -3546;
+        },
+    };
+    return o28;
+}
+let v29 = f10(1073741823n, -9, 42786n, 65535);
+f10(1073741823n, 1073741823n, 42786n, -3546);
+f10(16n, 1073741823n, 16n, -9);
+1073741823n ** v29;
+f10(42786n, v29, 42786n, -1449523207);
+%PrepareFunctionForOptimization(f10);
+const v34 = f10(42786n, v29, 42786n, -1449523207);
+f10(42786n, v29, 42786n, -1449523207);
+%OptimizeFunctionOnNextCall(f10);
+f10(42786n, v29, 42786n, -1449523207);
+new f10(42786n, -3546, 42786n, 65535);
+try {
+    v29 = v34;
+} catch(e38) {
+}

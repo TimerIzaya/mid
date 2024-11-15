@@ -1,0 +1,55 @@
+let v0 = -329204.1765880047;
+class C3 {
+    static #e;
+    h;
+    constructor(a5, a6) {
+        let v4 = this;
+        a6[v4] %= v0;
+        const v7 = ("boolean")[4];
+        ({"g":a6,"h":v4,...v0} = v4);
+        const v11 = a6 >> -1;
+        const v12 = +v11;
+        ~v7 * 4.0;
+        !v11;
+        v11 * v12;
+    }
+}
+const v17 = new C3(v0, C3);
+new C3(v0, v17);
+new C3("boolean", "boolean");
+class C20 extends C3 {
+    constructor(a22, a23) {
+        super(a23, "boolean");
+        function F24(a26, a27, a28) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = v17;
+            } catch(e29) {
+            }
+        }
+        const v30 = new F24(v0, this, this);
+        new F24(v30, this, this);
+        new F24("boolean", "boolean", this);
+    }
+}
+const v33 = new C20(v17, -1000000.0);
+new C20(v33, v33);
+new C20(v17, "boolean");
+const v37 = Symbol.iterator;
+const o46 = {
+    [v37]() {
+        let v39 = 10;
+        const o45 = {
+            next() {
+                v39--;
+                const v43 = v39 == 0;
+                const o44 = {
+                    "done": v43,
+                    "value": v39,
+                };
+                return o44;
+            },
+        };
+        return o45;
+    },
+};

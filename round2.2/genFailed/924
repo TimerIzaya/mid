@@ -1,0 +1,49 @@
+class C3 {
+    constructor(a5) {
+        const v9 = -this;
+        const v10 = 2.2250738585072014e-308 % 14;
+        v10 ^ v9;
+        Math.abs(v10);
+    }
+    static #e;
+}
+const v13 = new C3(-5.0);
+const v14 = new C3(v13);
+const v15 = new C3(v14);
+function f16(a17, a18) {
+    const o30 = {
+        "c": 8,
+        get a() {
+            function F20(a22, a23, a24) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = this;
+                } catch(e25) {
+                }
+                try {
+                    this.g = this;
+                } catch(e26) {
+                }
+            }
+            const v27 = new F20(a18, a17, "valueOf");
+            const v28 = new F20(v15, v13, v27);
+            const v29 = new F20(v28, v28, v15);
+            return v29;
+        },
+    };
+    return o30;
+}
+const v31 = f16(v14, v15);
+const v32 = f16(v31, v31);
+const v33 = f16(C3, v31);
+const v35 = Symbol.match;
+const v36 = ("valueOf")[v35];
+const t40 = "valueOf";
+t40[f16] /= v36;
+try { new v36(2, -5.0); } catch (e) {}
+try { v14.seal(C3, v32, v33, v33); } catch (e) {}
+let v45 = v35 | v35;
+Math.abs(531444764);
+let v47 = --v45;
+v47++ * v47;
+Math.asinh(v45);

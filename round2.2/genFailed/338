@@ -1,0 +1,45 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = -13098;
+    } catch(e6) {
+    }
+    try {
+        this.f = 222551226;
+    } catch(e7) {
+    }
+    try {
+        this.g = a5;
+    } catch(e8) {
+    }
+}
+new F3(222551226);
+const v10 = new F3(9);
+new F3(-13098);
+try {
+    new Uint8Array(170);
+} catch(e15) {
+}
+try {
+    new Float64Array(255);
+} catch(e19) {
+}
+try {
+    new Int16Array(16);
+} catch(e23) {
+}
+const v24 = [255,Uint8Array,F3,170];
+[v10,255,v24,F3,170];
+let v26 = [F3,v24,170];
+const v28 = v26["forEach"](-13098);
+try {
+    v26 = v28;
+} catch(e29) {
+}
+v10[v10];
+try {
+    const o31 = {
+    };
+    v10.fuck(v10, o31, Uint8Array);
+} catch(e33) {
+}

@@ -1,0 +1,49 @@
+try {
+    new Uint32Array(1695);
+} catch(e3) {
+}
+try {
+    new Uint16Array(3459);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(68);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(693);
+} catch(e15) {
+}
+try {
+    new BigUint64Array(76);
+} catch(e19) {
+}
+try {
+    new Int8Array(5);
+} catch(e23) {
+}
+class C24 extends BigUint64Array {
+    static {
+        try {
+            this[1] = this;
+        } catch(e26) {
+        }
+    }
+    constructor(a28, a29) {
+        super(a28);
+        Reflect.construct(Int8Array, [693], BigUint64Array);
+        const v33 = [NaN,-8.986672490213357e+307,548216.2262909622,1000000.0,-3.0];
+        [NaN,1e-15];
+        [-1000000000.0,1000000.0,4.0,4.8452011862774995,-918.08883930381,NaN,-2.220446049250313e-16,1114.8789572963724,-0.0,9.307449214228633];
+        new BigUint64Array(v33, 693, 76);
+    }
+}
+new C24(76, 693);
+new C24(76, 1695);
+new C24(76, 3459);
+class C41 extends Int8Array {
+}
+const v42 = new C41();
+const o43 = {
+    ...v42,
+};

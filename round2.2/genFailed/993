@@ -1,0 +1,63 @@
+const v1 = new WeakSet();
+try {
+    new Float64Array(92);
+} catch(e5) {
+}
+try {
+    new Uint32Array(1000);
+} catch(e9) {
+}
+try {
+    new Float64Array(486);
+} catch(e13) {
+}
+function f14(a15, a16, a17) {
+    const o30 = {
+        "a": Float64Array,
+        "h": a16,
+        get b() {
+            this >= v1[this];
+            return a16;
+        },
+        get c() {
+            const v23 = new Set();
+            const v26 = a15 << a15;
+            this & v23;
+            v26 - v23;
+            Math.max(this);
+            return a15;
+        },
+    };
+    return o30;
+}
+const v31 = f14(92, 1000, 1000);
+f14(92, 92, 1000);
+f14(92, 92, 92);
+class C34 {
+    static valueOf(a36, a37, a38) {
+        function f39() {
+            return v1;
+        }
+        function f40() {
+            return Float64Array;
+        }
+        return a36;
+    }
+    h = v1;
+    [-1];
+    10;
+    #b;
+}
+const v41 = new C34();
+const v42 = new C34();
+const v43 = new C34();
+const v44 = C34.f;
+v42.h -= 1000;
+let {"a":v45,"b":v46,"h":v47,} = v31;
+({"c":v46,} = v44);
+switch (v43) {
+    case 92:
+        delete v41[v44];
+        break;
+}
+v43[v46];

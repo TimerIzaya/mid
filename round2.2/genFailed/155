@@ -1,0 +1,37 @@
+const v0 = [16,129,1073741824,-13,25270,-4294967297,339046402,-22375,-9223372036854775808];
+const v1 = [-1716349519,6,4096,7,536870912];
+const v2 = [-9007199254740990,-776887827,-13,-1752064794,-33360];
+function f3() {
+    return v1;
+}
+class C4 extends f3 {
+    #valueOf(a6) {
+        try {
+            v1.copyWithin(-536870912, -9223372036854775808, -536870912);
+        } catch(e10) {
+        }
+        return v2;
+    }
+    static [v2];
+}
+new C4();
+new C4();
+const v13 = new C4();
+function f14() {
+    return v13;
+}
+const v15 = [-1,-27226,9];
+[1073741823,-1,-1809556892,398371611];
+[64105647];
+v0[v15];
+const o19 = {
+    "call": f3,
+    "construct": f3,
+    "deleteProperty": f14,
+    "isExtensible": f3,
+    "set": f14,
+};
+try {
+    new Proxy(v1, o19);
+} catch(e22) {
+}

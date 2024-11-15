@@ -1,0 +1,63 @@
+function f0() {
+    const o9 = {
+        "c": "T",
+        get f() {
+            return this.c;
+        },
+        "match": 11,
+        __proto__: "getYear",
+        ..."T",
+        "g": "T",
+    };
+    return o9;
+}
+const v10 = f0();
+v10[Symbol.toPrimitive] = f0;
+const v13 = f0();
+const v14 = f0();
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    this.b = this;
+    try {
+        this.f = v10;
+    } catch(e19) {
+    }
+    try {
+        this.b = f0;
+    } catch(e20) {
+    }
+}
+const v21 = new F15(v10, v13);
+const v22 = new F15(v13, v10);
+const v23 = new F15(v14, v13);
+class C24 extends F15 {
+    static 13;
+    static get g() {
+        `e${v23}string${f0}e`;
+        super.b;
+        return F15;
+    }
+    constructor(a29, a30, a31, a32) {
+        a31.valueOf = f0;
+        super(a32, a31);
+        try { new a30(); } catch (e) {}
+        const v37 = a31 & a31;
+        Math.hypot(2);
+        const v40 = (a31 % F15) & v37;
+        let v41 = 2 / -4.0;
+        for (let v42 = 0; v42 < 5; v42++) {
+            function F43(a45, a46, a47, a48) {
+                if (!new.target) { throw 'must be called with new'; }
+                this.h = v40;
+                this.h = a47;
+            }
+            new F43(F43, v42, v42, F43);
+        }
+        v41--;
+        -4.0 << v40;
+    }
+}
+const v52 = new C24(v22, v21, v13, C24);
+new C24(v52, v52, v10, F15);
+new C24(v22, v21, v14, v22);
+Math.acosh(-2147483649);

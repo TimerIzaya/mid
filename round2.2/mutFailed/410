@@ -1,0 +1,61 @@
+try {
+    new BigInt64Array(2098);
+} catch(e6) {
+}
+try {
+    new Int32Array(12);
+} catch(e10) {
+}
+try {
+    new Float64Array(3480);
+} catch(e14) {
+}
+function f15(a16, a17, a18, a19) {
+    a16.toString = f15;
+    const o33 = {
+        "b": -536870912,
+        "d": 12,
+        [BigInt64Array](a21, a22, a23, a24) {
+            a16?.b;
+            a16?.[10];
+            [a17,a18,a23,this,-536870912];
+            return a21;
+        },
+        p(a29, a30, a31) {
+            try { a31.m(a19, BigInt64Array); } catch (e) {}
+            return a17;
+        },
+        __proto__: a16,
+        "e": 43228,
+        ...a18,
+    };
+    return o33;
+}
+const v34 = f15(3480, 2098, -536870912, Int32Array);
+const v35 = f15(BigInt64Array, 3480, f15, Float64Array);
+const v36 = f15(12, 43228, 10, v35);
+function f37(a38, a39, a40) {
+    const o47 = {
+        "a": v34,
+        set g(a42) {
+            f15(43228, a40, this, f15);
+            %PrepareFunctionForOptimization(f15);
+            f15(43228, a40, this, f15);
+            f15(43228, a40, this, f15);
+            %OptimizeFunctionOnNextCall(f15);
+            const t45 = f15(43228, a40, this, f15);
+            t45.e ^= a38;
+        },
+        "c": a40,
+        "b": Int32Array,
+        "g": BigInt64Array,
+        "h": v35,
+        "e": 12,
+    };
+    return o47;
+}
+f37(2098, v36, 3480);
+f37(43228, v34, 3480);
+f37(12, v36, 3480);
+let v52 = 4294967295;
+Math.log1p(--v52);

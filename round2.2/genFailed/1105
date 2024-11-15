@@ -1,0 +1,64 @@
+try {
+    new Int8Array(0);
+} catch(e3) {
+}
+try {
+    new Uint16Array(3371);
+} catch(e7) {
+}
+try {
+    new Uint16Array(2696);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 3371;
+    } catch(e17) {
+    }
+    try {
+        this.e = 2696;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(2696, 3371, 2696);
+const v20 = new F12(3371, 0, 3371);
+const v21 = new F12(3371, 3371, 0);
+function f22() {
+    return 2696;
+}
+function f23() {
+    return v21;
+}
+class C24 extends f23 {
+    static #c;
+    static [v19] = v20;
+    static 3;
+    static set g(a26) {
+        a26 || this;
+        for (let v28 = 0; v28 < 100; v28++) {
+            f22();
+        }
+    }
+    static g;
+    #h = 3371;
+    static 10 = Int8Array;
+    #d = Uint16Array;
+    #a;
+}
+new C24();
+new C24();
+new C24();
+3371 & Int8Array;
+try {
+    new Int8Array(2521);
+} catch(e37) {
+}
+try {
+    new Float64Array(129);
+} catch(e41) {
+}
+try {
+    new Uint16Array(141);
+} catch(e45) {
+}

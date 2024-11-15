@@ -1,0 +1,45 @@
+const v0 = [3.0,-2.2250738585072014e-308,2.0,-2.0,0.6496684495382534,290.01819835453375,-1000.0,0.0,195.65293781337596,4.411789595837723];
+const v1 = [6.309160172677285e+307];
+const v2 = [1.7976931348623157e+308,0.0,1.2098693916338728e+308];
+try {
+    new Int8Array(10);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(2);
+} catch(e10) {
+}
+try {
+    new Int16Array(1232);
+} catch(e14) {
+}
+class C18 {
+    constructor(a20, a21, a22, a23) {
+        try {
+            new Float64Array(3980);
+        } catch(e30) {
+        }
+        try {
+            new Uint8ClampedArray(15);
+        } catch(e34) {
+        }
+        try {
+            new Int16Array(1577);
+        } catch(e38) {
+        }
+    }
+}
+const v39 = new C18(1232, 128, v0, v0);
+new C18(2, 128, v39, v2);
+new C18(-9223372036854775808, 1232, v1, v2);
+try {
+    const o43 = {
+    };
+    new Int16Array(o43);
+} catch(e45) {
+}
+const v46 = a?.[4];
+try {
+    v0[9] = v46;
+} catch(e47) {
+}

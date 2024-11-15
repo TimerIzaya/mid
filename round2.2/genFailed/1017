@@ -1,0 +1,49 @@
+try {
+    new BigInt64Array(1024);
+} catch(e3) {
+}
+try {
+    new Int16Array(1);
+} catch(e7) {
+}
+try {
+    new Float64Array(0);
+} catch(e11) {
+}
+const v12 = [0.7936640706522916,-1000000.0,-1000000.0,3.9688464985572267,0.3874944583885003,-1000000.0,-1.593977430751339e+308,-1.0,-1e-15];
+const v13 = [-2.0,-4.605974374201201e+307,-0.0,494489.8109471896,-3.0292749705987205,-3.504833150688434e+306,-1.7976931348623157e+308,2.2250738585072014e-308];
+const v14 = [-1000.0,-8.399013147082245e+307,-1000000.0,1000000000.0];
+class C15 extends Float64Array {
+    static o(a17, a18, a19) {
+        let v20;
+        try { v20 = a17(); } catch (e) {}
+        try {
+            v20[v12] = Int16Array;
+        } catch(e21) {
+        }
+        return a18;
+    }
+    b = v12;
+    h = v13;
+    [1] = BigInt64Array;
+    static a;
+}
+const v22 = new C15();
+const v23 = new C15();
+const v24 = new C15();
+const o25 = {
+};
+try {
+    new Proxy(v14, o25);
+} catch(e28) {
+}
+function F29(a31, a32, a33) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = Float64Array;
+    } catch(e34) {
+    }
+}
+new F29(v13, v23, v12);
+new F29(C15, v22, v13);
+new F29(o25, v24, v12);

@@ -1,0 +1,29 @@
+try {
+    new Uint16Array(128);
+} catch(e3) {
+}
+try {
+    new Uint8Array(24);
+} catch(e7) {
+}
+try {
+    new Uint16Array(129);
+} catch(e11) {
+}
+new WeakMap();
+class C14 extends Uint8Array {
+    static set d(a16) {
+        const v18 = super.toSorted(this.g);
+        v18 > v18;
+    }
+    [128] = 24;
+    [Uint8Array] = WeakMap;
+    static f;
+}
+new Uint8Array();
+new Uint16Array();
+new C14();
+let v27 = eval;
+const v28 = v27("");
+v27(v28);
+v27 -= v28;

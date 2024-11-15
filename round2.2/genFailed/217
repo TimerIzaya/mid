@@ -1,0 +1,20 @@
+function f0() {
+}
+try {
+    new BigUint64Array(512);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e15) {
+}
+try {
+    new Uint8ClampedArray(1345);
+} catch(e19) {
+}
+for (let v20 in 1.0) {
+    const v21 = v20--;
+    try { (512)["getDate"](v21, BigUint64Array); } catch (e) {}
+}
+let {"h":v24,...v25} = undefined;
+v25[4];

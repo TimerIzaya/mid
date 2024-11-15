@@ -1,0 +1,59 @@
+function f0() {
+}
+const v4 = [24648,2147483647,-1019430840];
+const v5 = [268435456,255,-2,-7,536870912];
+const v6 = [-54875,2147483649,-4294967295,4294967296,-61770,-2,46973,600587771,-1125168028,536870912];
+function f7(a8, a9, a10, a11) {
+    const o22 = {
+        6: v6,
+        "g": v4,
+        ...v6,
+        m(a13, a14, a15, a16) {
+            try { a13.toString(a10, a15, a8, this, a13); } catch (e) {}
+            v4.length;
+            a14.__proto__;
+            new Map();
+            return -8n;
+        },
+        "h": -8n,
+    };
+    return a8;
+}
+const v23 = f7(1073741824n, 14569n, 1073741824n, 14569n);
+f7(1073741824n, 1073741824n, 14569n, 14569n);
+const v25 = f7(-8n, 14569n, v23, 14569n);
+function F26(a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a28;
+    } catch(e31) {
+    }
+    try {
+        this.e = 14569n;
+    } catch(e32) {
+    }
+}
+new F26(v4, v25, v23);
+new F26(v5, v25, v25);
+new F26(v6, 14569n, v23);
+function f36() {
+    const o41 = {
+        "c": "n",
+        ..."n",
+        get f() {
+            return this;
+        },
+        11: -1581306778,
+        "e": "n",
+        [536870888]: "n",
+        ..."n",
+        "g": v25,
+        "f": -1581306778,
+    };
+    return o41;
+}
+%PrepareFunctionForOptimization(f36);
+const v42 = v25();
+f36();
+%OptimizeFunctionOnNextCall(v23);
+v42();

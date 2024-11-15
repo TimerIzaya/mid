@@ -1,0 +1,52 @@
+try {
+    new Uint32Array(6);
+} catch(e3) {
+}
+try {
+    new Int8Array(1);
+} catch(e7) {
+}
+try {
+    new Float64Array(127);
+} catch(e11) {
+}
+class C12 extends Int8Array {
+    #o(a14, a15, a16) {
+        for (const v17 in this) {
+            let v18;
+            try { v18 = a14.findLast(v17, v17); } catch (e) {}
+            try { new v18(v18, v18, a16, Float64Array); } catch (e) {}
+        }
+        return -1.0;
+    }
+    #c;
+    static d;
+    static #e = 127;
+    2147483648 = Float64Array;
+}
+new C12();
+const v24 = new C12();
+new C12();
+try {
+    new Int16Array(13);
+} catch(e29) {
+}
+try {
+    new Uint8ClampedArray(181);
+} catch(e33) {
+}
+try {
+    new Uint32Array(3);
+} catch(e37) {
+}
+const v40 = v24[Symbol.species];
+try {
+    v24[Uint32Array] = Int8Array;
+} catch(e41) {
+}
+try { v40(Uint8ClampedArray); } catch (e) {}
+const v43 = delete v40?.[C12];
+try {
+    v43.c = v43;
+} catch(e44) {
+}

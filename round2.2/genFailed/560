@@ -1,0 +1,21 @@
+try {
+    new Int16Array(3488);
+} catch(e3) {
+}
+try {
+    new Int8Array(1000);
+} catch(e7) {
+}
+let v9 = Int32Array;
+try {
+    new v9(16);
+} catch(e11) {
+}
+let v18;
+try { v18 = v9.valueOf(54475n, 16); } catch (e) {}
+let v19;
+try { v19 = v18(Int16Array); } catch (e) {}
+for (const v23 of v19) {
+    v23?.[672765194];
+}
+({"b":v9,} = v19);

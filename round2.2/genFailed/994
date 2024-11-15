@@ -1,0 +1,59 @@
+try {
+    new Uint32Array(128);
+} catch(e3) {
+}
+try {
+    new Uint32Array(1000);
+} catch(e7) {
+}
+try {
+    new Float32Array(3024);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    constructor(a14, a15, a16, a17) {
+        super(3024, 128, a16);
+        const v19 = this["values"]();
+        const v20 = delete this[a17];
+        try {
+            v19[v19] = v20;
+        } catch(e21) {
+        }
+    }
+    static #b = Uint32Array;
+    d = Uint32Array;
+    #e = Uint32Array;
+    static #c = 128;
+}
+new C12(3024, 3024, 3024, 3024);
+new C12(3024, 1000, 3024, 3024);
+new C12(3024, 128, 128, 1000);
+try {
+    new Float32Array(117);
+} catch(e28) {
+}
+try {
+    new Uint8Array(1636);
+} catch(e32) {
+}
+try {
+    new Uint8Array(175);
+} catch(e36) {
+}
+const v37 = [Float32Array,Float32Array];
+const v38 = [Float32Array,Uint8Array,v37];
+const v39 = [v37,1636,1636,v38];
+function F40(a42, a43, a44, a45) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = Uint32Array;
+    } catch(e46) {
+    }
+    try {
+        this.g = a43;
+    } catch(e47) {
+    }
+}
+new F40(v39, Uint8Array, v38, Uint8Array);
+new F40(Uint8Array, v39, v38, Uint32Array);
+new F40(v37, 1000, v38, Float32Array);

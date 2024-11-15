@@ -1,0 +1,80 @@
+const v4 = new WeakSet();
+function f5() {
+    return 2.479813015006977;
+}
+function f6(a7) {
+    const o11 = {
+        "execution": "sync",
+        "type": "major",
+    };
+    gc(o11);
+}
+Object.defineProperty(v4, "d", { writable: true, configurable: true, get: f5, set: f6 });
+class C13 {
+    #m(a15) {
+        function F16(a18, a19) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = a19;
+            } catch(e20) {
+            }
+        }
+        const v21 = new F16(1.0, 2.479813015006977);
+        const v22 = new F16(a15, v21);
+        new F16(-1.7976931348623157e+308, v4);
+        return v22;
+    }
+}
+C13.d = 2.479813015006977;
+C13.d = WeakSet;
+const v24 = new C13();
+Object.defineProperty(v24, "d", { configurable: true, enumerable: true, value: v24 });
+v24.d = 2.479813015006977;
+const v25 = v24?.__lookupSetter__;
+try { new v25(2.479813015006977); } catch (e) {}
+const v27 = new C13();
+function f28(a29) {
+    class C32 {
+        static ["length"] = "x0w0X";
+    }
+    return "x0w0X";
+}
+v27.constructor = f28;
+const v33 = v27?.constructor;
+try { new v33(); } catch (e) {}
+new C13();
+function f36(a37, a38, a39) {
+    a38.d = a38;
+    a39 === a39;
+    const o47 = {
+        valueOf(a42, a43, a44) {
+            const v45 = super[C13];
+            try {
+                super.g = v45;
+            } catch(e46) {
+            }
+            return a37;
+        },
+        "g": a37,
+        __proto__: a37,
+        1: -1.7976931348623157e+308,
+    };
+    return o47;
+}
+const v49 = f36(v4, f36(v24, C13, -1.7976931348623157e+308), -1.7976931348623157e+308);
+v49.d = 2.479813015006977;
+v49.d = f36;
+v49[1];
+f36(v49, v49, 2.479813015006977);
+class C52 {
+    static {
+        this.setInt8 = C52;
+        const v54 = `
+            try { ("setInt8").blink(); } catch (e) {}
+            try { this["setInt8"](); } catch (e) {}
+        `;
+        v54[21];
+        try { eval(this); } catch (e) {}
+        eval(v54);
+    }
+}

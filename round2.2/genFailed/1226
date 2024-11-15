@@ -1,0 +1,40 @@
+try {
+    new Uint32Array(111);
+} catch(e6) {
+}
+try {
+    new Int32Array(3374);
+} catch(e10) {
+}
+try {
+    new Int8Array(3004);
+} catch(e14) {
+}
+class C15 extends Int32Array {
+    static [65535];
+    static {
+        try {
+            this.h = this;
+        } catch(e17) {
+        }
+    }
+    static e;
+    [3004] = -65537;
+    [3374] = 3374;
+    static d = -53032;
+    e = 3004;
+}
+const v18 = new C15();
+new C15();
+const v20 = new C15();
+with (C15) {
+    d = v18;
+    try {
+        v20[v18] = 111;
+    } catch(e21) {
+    }
+}
+try {
+    C15.fuck(111, 3004, C15);
+} catch(e23) {
+}

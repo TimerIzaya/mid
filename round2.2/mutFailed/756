@@ -1,0 +1,44 @@
+class C3 {
+    static a;
+    #toString(a5, a6) {
+        const o9 = {
+            "maxByteLength": 1024,
+        };
+        const v11 = new SharedArrayBuffer(1024, o9);
+        try {
+            new Int16Array(v11);
+        } catch(e14) {
+        }
+        return v11;
+    }
+}
+C3.d = C3;
+const v15 = C3.a;
+const v16 = new C3();
+const v17 = v16?.__lookupGetter__;
+try { new v17(v16); } catch (e) {}
+const v19 = new C3();
+v19?.constructor;
+let v21;
+try { v21 = new v15(); } catch (e) {}
+const v22 = new C3();
+try { v22.isPrototypeOf(v22); } catch (e) {}
+try { WeakSet.propertyIsEnumerable(C3); } catch (e) {}
+const v26 = new WeakSet();
+try { v26.delete(v26); } catch (e) {}
+const v29 = -(-4.0);
+-9.735153783770109 >> -9.735153783770109;
+let v34;
+try { v34 = ("1073741823").localeCompare(v26); } catch (e) {}
+v34 >> v34;
+try { ("257").substring(v29, v29); } catch (e) {}
+try { ("q6t2h").match(C3); } catch (e) {}
+let v40 = -4294967296n;
+v40--;
+const v42 = [12,4,-65536,-1024,-11,-1934425457];
+try { v42.reduceRight(v40); } catch (e) {}
+v21[3] = v42;
+try {
+    v42.map(v40);
+} catch(e45) {
+}

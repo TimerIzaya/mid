@@ -1,0 +1,68 @@
+try {
+    new Uint32Array(519);
+} catch(e3) {
+}
+try {
+    new Int8Array(7);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(198);
+} catch(e11) {
+}
+let v12 = 268435456;
+class C15 extends Int8Array {
+    1073741824 = 519;
+    n(a17, a18, a19) {
+        return a19;
+    }
+    #f;
+    static set c(a24) {
+        try {
+            a24.#f = 519;
+        } catch(e25) {
+        }
+        BigInt64Array << this;
+        try {
+            v12 = a24;
+        } catch(e27) {
+        }
+    }
+}
+const v28 = new C15();
+new C15();
+const v30 = new C15();
+class C31 {
+    static valueOf(a33, a34, a35, a36) {
+        try {
+            Symbol[8] = v28;
+        } catch(e38) {
+        }
+        return a35;
+    }
+    b = 519;
+    static m(a40, a41, a42, a43) {
+        if (a40) {
+            for (let v44 = 0; v44 < 32; v44++) {
+                a40["p" + v44] = v44;
+            }
+        } else {
+            try { v12(a43, -32809, a43); } catch (e) {}
+            return;
+        }
+        return a41;
+    }
+}
+new C31();
+new C31();
+const v50 = new C31();
+const v51 = v30[C15];
+try { v50.toString(v51, BigInt64Array, Int8Array, v51, v51); } catch (e) {}
+const o55 = {
+    "maxByteLength": 127,
+};
+const v57 = new SharedArrayBuffer(70, o55);
+try {
+    new Float32Array(v57);
+} catch(e60) {
+}

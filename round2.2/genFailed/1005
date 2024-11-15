@@ -1,0 +1,42 @@
+/(?:a?)?(\xed\xb0\x80)\x01+/gsdu;
+const v1 = /t[\0]a+b/gdvyi;
+const v2 = /[foo(?=bar)baz]/gdv;
+try {
+    new Uint32Array(172);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(940);
+} catch(e10) {
+}
+try {
+    new Float64Array(129);
+} catch(e14) {
+}
+try {
+    new Uint8ClampedArray(3980);
+} catch(e18) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e22) {
+}
+try {
+    new Int16Array(3377);
+} catch(e26) {
+}
+let v27;
+try {
+const t0 = 8;
+v27 = t0(BigUint64Array, 3377);
+} catch (e) {}
+const v29 = v1["compile"](v27, Float64Array, Float64Array, ..."compile", ..."compile", 8);
+function f30(a31, a32, a33) {
+    try { a32.test(a31); } catch (e) {}
+    try {
+        v2[4294967296] = a32;
+    } catch(e35) {
+    }
+    return Float64Array;
+}
+f30(Float64Array, v2, v29);

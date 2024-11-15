@@ -1,0 +1,73 @@
+try {
+    new BigUint64Array(10);
+} catch(e3) {
+}
+try {
+    new Int16Array(4);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(652);
+} catch(e11) {
+}
+const v12 = [Infinity,-635.9600322992733,654401.0907641852,-132.27083590684208];
+const v13 = [-2.6956845931352262,-1.0];
+const v14 = [1.0,1.0,1000000000.0,0.7550033700391413,-1000000000.0];
+function f15(a16, a17, a18, a19) {
+    const o31 = {
+        ...a18,
+        ...a19,
+        get a() {
+            try {
+                a16 = a17;
+            } catch(e21) {
+            }
+            return this;
+        },
+        "f": v13,
+        [4](a23, a24, a25, a26) {
+            switch (a18) {
+                case Int16Array:
+                    try {
+                        new BigUint64Array(v12, 25912, 1984322709);
+                    } catch(e30) {
+                    }
+                    break;
+            }
+            return v13;
+        },
+    };
+    return o31;
+}
+const v32 = f15(v13, 10, v13, v12);
+const v33 = f15(BigInt64Array, 652, v12, v13);
+let v34 = f15(10, 652, v12, v14);
+class C35 extends Int16Array {
+    constructor(a37, a38) {
+        super(a37, 652, a38);
+        v32.f;
+        this in v14;
+        const v44 = ~BigUint64Array;
+        v44 << BigInt64Array;
+        -4;
+        Math.log1p(v44);
+    }
+    h = 652;
+    0;
+    static #f = 4;
+}
+const v48 = new C35(v33, 4);
+const v49 = new C35(v33, BigInt64Array);
+new C35(v34, v12);
+if (BigInt64Array < v49) {
+    try {
+        v34 ^= C35;
+    } catch(e52) {
+    }
+} else {
+    v34[v48];
+    try {
+        new BigUint64Array(-49953, 652, 652);
+    } catch(e56) {
+    }
+}

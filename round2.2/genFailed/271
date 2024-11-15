@@ -1,0 +1,14 @@
+const v4 = new WeakMap();
+const v9 = new Map();
+const v10 = v4[v4];
+%VerifyType(v10);
+try {
+    v9.toString = v10;
+} catch(e11) {
+}
+let {"b":v12,"e":v13,} = v10;
++v9;
+try {
+    v12 = WeakMap;
+} catch(e15) {
+}

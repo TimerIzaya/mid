@@ -1,0 +1,23 @@
+try {
+    new Int32Array(16);
+} catch(e3) {
+}
+try {
+    new Uint32Array(127);
+} catch(e7) {
+}
+try {
+    new Float32Array(64);
+} catch(e11) {
+}
+const v18 = (3).g;
+for (let v19 = 0; v19 < 32; v19++) {
+    v18["p" + v19] = v19;
+}
+v18?.[100];
+try {
+    const o23 = {
+    };
+    new Uint32Array(o23);
+} catch(e25) {
+}

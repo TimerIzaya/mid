@@ -1,0 +1,44 @@
+const v1 = new Date();
+class C2 extends Date {
+    static #a = Date;
+    constructor(a4) {
+        super(a4);
+        const v6 = Symbol.match;
+        this[v6];
+        Object.defineProperty(v6, 384, { enumerable: true, get: Date, set: Date });
+    }
+    static #d = v1;
+    [v1] = v1;
+    static #f;
+    [Date] = v1;
+}
+const v8 = new C2(v1);
+const v9 = new C2(v8);
+const v10 = new C2(v8);
+class C14 extends C2 {
+    static #a;
+    static #d = v10;
+    5;
+    get b() {
+        const v16 = C2[536870889];
+        try {
+            v9.c = Date;
+        } catch(e17) {
+        }
+        return v16;
+    }
+    [v10] = v9;
+}
+const v18 = new C14();
+const v19 = new C14();
+const v20 = new C14();
+function f21(a22, a23, a24, a25) {
+    new Date(a23);
+    v19 || C14;
+    try {
+        a23 = v20;
+    } catch(e29) {
+    }
+    return arguments;
+}
+f21(v9, v18, C2, 129n);

@@ -1,0 +1,43 @@
+[];
+function f4() {
+    return 1.3547424094669271e+308;
+}
+try {
+    new Uint8ClampedArray(127);
+} catch(e8) {
+}
+try {
+    new Int8Array(13);
+} catch(e12) {
+}
+try {
+    new Float32Array(1045);
+} catch(e16) {
+}
+class C17 extends Int8Array {
+    [Float32Array];
+    toString(a19, a20, a21) {
+        try {
+            this.fuck(1.3547424094669271e+308, f4, 2, a19);
+        } catch(e25) {
+        }
+        super.forEach(f4);
+        return 13;
+    }
+    f;
+    static 1073741824;
+    2 = 1.3547424094669271e+308;
+}
+let v27 = new C17();
+const v28 = new C17();
+const v29 = new C17();
+try {
+    v27 = v28;
+} catch(e30) {
+}
+try {
+    C17.h = 1.3547424094669271e+308;
+} catch(e31) {
+}
+new Uint8ClampedArray(v27);
+try { v29.values(); } catch (e) {}

@@ -1,0 +1,79 @@
+try {
+    new Uint16Array(1179);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(129);
+} catch(e7) {
+}
+try {
+    new Float64Array(176);
+} catch(e11) {
+}
+class C12 {
+    static #d = Uint16Array;
+    static {
+        try {
+            this.fuck(129, /\u{12345}\u{23456}/mv);
+        } catch(e16) {
+        }
+    }
+    65537 = 176;
+    static [Float64Array] = Uint16Array;
+    static 8 = Float64Array;
+    #e;
+    [1179] = Uint16Array;
+    128 = 129;
+}
+const v17 = new C12();
+new C12();
+const v19 = new C12();
+const v20 = [176,129,Uint16Array];
+const v22 = [v17,[176]];
+class C23 extends Float64Array {
+    189 = v20;
+    constructor(a25, a26) {
+        super(a25, a25, 176);
+        const o27 = {
+        };
+        try {
+            o27.h = v19;
+        } catch(e28) {
+        }
+        try {
+            const o29 = {
+            };
+            o29.h = v19;
+            o29.c = a26;
+        } catch(e30) {
+        }
+        try {
+            const o31 = {
+            };
+            o31.h = v19;
+            o31.c = a26;
+            o31.e = 129;
+        } catch(e32) {
+        }
+        try {
+            const o33 = {
+            };
+            o33.h = v19;
+            o33.c = a26;
+            o33.e = Uint16Array;
+        } catch(e34) {
+        }
+    }
+}
+const v35 = new C23(129, v19);
+let v36 = new C23(129, v19);
+const v37 = new C23(129, v36);
+%VerifyType(v37);
+v20 - v35;
+v22.length;
+try {
+    v36 ||= v36;
+} catch(e40) {
+}
+try { v17["sin"](); } catch (e) {}
+var b = 176;

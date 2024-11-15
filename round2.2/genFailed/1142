@@ -1,0 +1,43 @@
+const v0 = [];
+let v2 = BigUint64Array;
+try {
+    new v2(127);
+} catch(e4) {
+}
+let v5 = 5;
+try {
+    new Uint32Array(v5);
+} catch(e8) {
+}
+let v9 = 255;
+try {
+    new Int32Array(v9);
+} catch(e12) {
+}
+class C13 extends Int32Array {
+    static a = Uint32Array;
+    constructor(a15, a16) {
+        super(v5, v5, a15);
+        ({"b":v9,"h":v2,"length":v5,...a15} = v0);
+        v5[8] = v0;
+    }
+    [v9] = v9;
+    static #n(a18, a19) {
+        -1288691946 >>> !-1288691946;
+        4294967297 % 4294967297;
+        return v9;
+    }
+}
+const v26 = new C13(v5, v9);
+new C13(v5, v2);
+new C13(127, v2);
+"e" % Int32Array;
+if (v9) {
+    try { v2(); } catch (e) {}
+} else {
+    try {
+        new Uint32Array(v5);
+    } catch(e35) {
+    }
+}
+try { C13["p"](v26); } catch (e) {}

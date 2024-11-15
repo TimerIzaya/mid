@@ -1,0 +1,33 @@
+const v3 = [1e-15];
+const v4 = [1000000000000.0];
+const v5 = [-1.7976931348623157e+308];
+function f9(a10, a11, a12, a13) {
+    const o18 = {
+        ...a12,
+        __proto__: v3,
+        set f(a15) {
+            try {
+                v5.length = 8;
+            } catch(e17) {
+            }
+        },
+        "c": a10,
+        ...v4,
+    };
+    return o18;
+}
+const v19 = f9(v3, -399661924, v4, v4);
+f9(v4, 255, v3, v3);
+f9(v5, 512, v4, v3);
+try {
+    v4.e = v3;
+} catch(e22) {
+}
+for (let [v23,v24,v25] of v3) {
+    try {
+        const o26 = {
+        };
+        v19.fuck(255, o26, 257, f9);
+    } catch(e29) {
+    }
+}

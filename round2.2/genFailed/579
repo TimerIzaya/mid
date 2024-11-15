@@ -1,0 +1,49 @@
+/\P{Any}/msd;
+/[(?<a>.)\k<a>]/msuyi;
+/SXn[xyz][x]w/msui;
+try {
+    new Uint8ClampedArray(3459);
+} catch(e9) {
+}
+try {
+    new Int32Array(128);
+} catch(e13) {
+}
+try {
+    new Float32Array(4096);
+} catch(e17) {
+}
+try {
+    new Float32Array(352);
+} catch(e21) {
+}
+try {
+    new Int32Array(0);
+} catch(e25) {
+}
+try {
+    new BigInt64Array(1555);
+} catch(e29) {
+}
+let v30 = 0;
+do {
+    const v32 = Symbol.iterator;
+    const o41 = {
+        [v32]() {
+            let v34 = 10;
+            const o40 = {
+                next() {
+                    v34--;
+                    const v38 = v34 == 0;
+                    const o39 = {
+                        "done": v38,
+                        "value": v34,
+                    };
+                    return o39;
+                },
+            };
+            return o40;
+        },
+    };
+    v30++;
+} while (v30 < 7)

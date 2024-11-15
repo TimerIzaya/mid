@@ -1,0 +1,54 @@
+const v0 = [10,4];
+const v1 = [-1140071666,1535719542,-1073741824,30769,9,-9];
+const v2 = [15490,61206,2147483647,11,9007199254740992,2,-5,-1273508957,-54902];
+const v5 = new Array(257);
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a8;
+    } catch(e11) {
+    }
+    try {
+        this.d = Array;
+    } catch(e12) {
+    }
+}
+new F6(v2, v1, v0);
+const v14 = new F6(v2, v5, v1);
+const v15 = new F6(v1, v0, v5);
+new Set();
+class C18 extends F6 {
+    129 = v14;
+    constructor(a20, a21, a22, a23) {
+        super(v0, v0, a20);
+        const v24 = this[a20];
+        const v27 = Reflect.construct(Set, [this], Set);
+        try {
+            v24[Reflect] = v27;
+        } catch(e29) {
+        }
+    }
+    static d = v15;
+}
+const v30 = new C18(F6, v14, v14, v14);
+const v31 = new C18(C18, v30, v30, C18);
+const v32 = new C18(v31, v31, v15, v31);
+v0 || v32;
+const v35 = Symbol.iterator;
+const o44 = {
+    [v35]() {
+        let v37 = 10;
+        const o43 = {
+            next() {
+                v37--;
+                const v41 = v37 == 0;
+                const o42 = {
+                    "done": v41,
+                    "value": v37,
+                };
+                return o42;
+            },
+        };
+        return o43;
+    },
+};

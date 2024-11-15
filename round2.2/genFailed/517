@@ -1,0 +1,70 @@
+const v1 = new WeakMap();
+const v2 = [1e-15,4.0,2.0,416641.9412289602,76.15210785390991,0.48863562503811653,-787229.4724793136,Infinity,0.984135088295965];
+const v3 = [0.886804600880999,1000000000000.0,Infinity,-1000000.0];
+const v4 = [-1000.0,-1.7976931348623157e+308,-5.226144939833944e+307,126572.79353774991,-1000000000.0,583039.4145027597,-2.965683610373784,3.213371228374254e+307];
+class C5 {
+    [v2];
+    [WeakMap];
+    #valueOf(a7) {
+        const o8 = {
+        };
+        try {
+            o8.d = WeakMap;
+        } catch(e9) {
+        }
+        try {
+            const o10 = {
+            };
+            o10.d = WeakMap;
+            o10.a = WeakMap;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.d = WeakMap;
+            o12.a = WeakMap;
+            o12.h = v4;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.d = WeakMap;
+            o14.a = WeakMap;
+            o14.b = a7;
+        } catch(e15) {
+        }
+        return a7;
+    }
+}
+const v16 = new C5();
+new C5();
+let v18 = new C5();
+class C19 extends C5 {
+    constructor(a21, a22) {
+        super();
+        a21 * a22;
+    }
+    static f = v18;
+    valueOf(a25, a26, a27) {
+        try {
+            super.trimRight(C5, a26, C5, v2, this);
+        } catch(e29) {
+        }
+        return C5;
+    }
+}
+const v30 = new C19(C5, v3);
+new C19(C5, v18);
+const v32 = new C19(v4, v18);
+%VerifyType(v16);
+[];
+new WeakMap(v16);
+v30.h;
+v3[v1];
+[C19,v18] = v2;
+try { v32.valueOf(); } catch (e) {}
+let v40 = -(-256);
+v40++;
+Math.asin(v40);

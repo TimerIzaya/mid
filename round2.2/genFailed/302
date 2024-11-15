@@ -1,0 +1,27 @@
+let v2 = -1e-15;
+try {
+    new BigUint64Array(16);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(1065);
+} catch(e10) {
+}
+try {
+    new Int32Array(64);
+} catch(e14) {
+}
+%VerifyType(Int32Array);
+let v18;
+try {
+const t0 = -1.0;
+v18 = t0(16, -12, 64);
+} catch (e) {}
+try {
+    v2 &&= 915.5289124715048;
+} catch(e19) {
+}
+try { v18.p(1065, 64, -1.0, 5); } catch (e) {}
+let v22;
+try { v22 = new f(...f, Uint8ClampedArray, v18, -2147483647); } catch (e) {}
+v22[2] = -12;

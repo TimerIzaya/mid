@@ -1,0 +1,30 @@
+const v3 = [-7n,-5n,-5n,-7n,-7n];
+const v4 = [v3,-43907n,v3,v3,-7n];
+const v5 = [-7n,v4,v4,v3,v4];
+try {
+    new Int32Array(790);
+} catch(e9) {
+}
+try {
+    new Float64Array(3991);
+} catch(e13) {
+}
+try {
+    new Int16Array(2307);
+} catch(e17) {
+}
+const v18 = [3991];
+const v19 = [v5,-5n,Float64Array,3991,v4];
+[v5,v19];
+new Int16Array(v4, 790, 790);
+try {
+    v4.some(v19, Int16Array);
+} catch(e23) {
+}
+~Int32Array;
+const o28 = {
+};
+try {
+    new Proxy(v18, o28);
+} catch(e31) {
+}

@@ -1,0 +1,63 @@
+try {
+    new Uint16Array(128);
+} catch(e3) {
+}
+try {
+    new Uint8Array(24);
+} catch(e7) {
+}
+try {
+    new Uint16Array(129);
+} catch(e11) {
+}
+new WeakMap();
+function F14(a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v18 = new F14();
+F14 ^ v18;
+function F20() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C23 extends F20 {
+    constructor(a25) {
+        delete this?.d;
+    }
+}
+class C27 extends Uint8Array {
+    static set d(a29) {
+        const v31 = super.toSorted(this.g);
+        v31 > v31;
+        class C33 {
+        }
+        const v34 = new C33();
+        v34.e += 9;
+        function f38() {
+            const o43 = {
+                ..."MAX_SAFE_INTEGER",
+                "h": 45147,
+                "g": 45147,
+                "f": "MAX_SAFE_INTEGER",
+                m(a42) {
+                    super[a42] = a42;
+                    return 45147;
+                },
+            };
+            return f38;
+        }
+    }
+    [128] = 24;
+    [Uint8Array] = WeakMap;
+    static f;
+}
+new C27();
+new C27();
+new C27();
+let v49 = eval;
+const v50 = v49("");
+v49(v50);
+const v56 = Reflect.construct(BigUint64Array, [], Float32Array);
+function f57(a58, a59) {
+    return v56;
+}
+v49 -= v50;

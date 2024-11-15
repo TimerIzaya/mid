@@ -1,0 +1,37 @@
+function f0() {
+}
+function f1() {
+    const o8 = {
+        "unscopables": f0,
+        p() {
+            new f0();
+            var f = f0;
+            const v4 = f0();
+            %PrepareFunctionForOptimization(f1);
+            f0();
+            f0();
+            %OptimizeFunctionOnNextCall(f0);
+            return v4();
+        },
+    };
+    return f1;
+}
+const v9 = f1();
+f1(f0, f1, v9);
+f1(v9);
+try {
+    new Uint16Array(3);
+} catch(e18) {
+}
+try {
+    new Uint8Array(1748832408);
+} catch(e22) {
+}
+try {
+    new Uint16Array(1);
+} catch(e26) {
+}
+const v28 = (3).link(Uint8Array, 1748832408, v9);
+for (const v29 of "MAX_SAFE_INTEGER") {
+    v29.match(v28);
+}

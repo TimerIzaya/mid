@@ -1,0 +1,32 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -1211550597;
+    } catch(e3) {
+    }
+    try {
+        this.d = this;
+    } catch(e4) {
+    }
+}
+new F0();
+const v6 = new F0();
+new v6();
+try {
+    const t15 = 174704.61455962388;
+    new t15(1862);
+} catch(e14) {
+}
+try {
+    new Float32Array(7);
+} catch(e18) {
+}
+try {
+    new Int16Array(1857);
+} catch(e22) {
+}
+class C23 {
+    static {
+        try { this.o(this, this); } catch (e) {}
+    }
+}

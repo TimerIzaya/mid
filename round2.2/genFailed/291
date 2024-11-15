@@ -1,0 +1,47 @@
+try {
+    new Uint8Array(6);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(10);
+} catch(e7) {
+}
+try {
+    new Float32Array(255);
+} catch(e11) {
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = -951675947n;
+    } catch(e19) {
+    }
+    try {
+        this.g = 10;
+    } catch(e20) {
+    }
+}
+new F15(1n, 255);
+const v22 = new F15(12n, 6);
+new F15(12n, 255);
+try {
+    v22.toString = Uint8Array;
+} catch(e27) {
+}
+v22 <= -951675947n;
+function f29(a30, a31, a32) {
+    function f34(a35) {
+        try {
+            this.fuck(Uint8Array, v22, a35);
+        } catch(e37) {
+        }
+    }
+    this.onmessage = f34;
+    new Set();
+}
+const v42 = ["function","function",Float32Array];
+const o43 = {
+    "arguments": v42,
+    "type": "function",
+};
+new Worker(f29, o43);

@@ -1,0 +1,62 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v0;
+    } catch(e3) {
+    }
+    try {
+        this.e = v0;
+    } catch(e4) {
+    }
+}
+new F1();
+new F1();
+new F1();
+try {
+    new Uint8ClampedArray(7);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(3);
+} catch(e15) {
+}
+try {
+    new Int32Array(38);
+} catch(e19) {
+}
+function f20() {
+    return F1;
+}
+function F21(a23, a24, a25) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a23;
+    } catch(e26) {
+    }
+    function f27() {
+        return f27;
+    }
+    const v29 = new Uint8ClampedArray(f27, Uint8ClampedArray, f27);
+    const v30 = v29.filter(f27);
+    try { v30.filter(v30); } catch (e) {}
+    try {
+        this.a = a23;
+    } catch(e32) {
+    }
+    try {
+        this.d = 7;
+    } catch(e33) {
+    }
+}
+const v34 = new F21(Int32Array, Int32Array, 3);
+const v35 = new F21(v34, f20, 3);
+new F21(v35, Uint8ClampedArray, 7);
+function f37() {
+    return f37;
+}
+class C38 extends f37 {
+}
+const v39 = new C38();
+v39.toString = f20;
+Math.exp(~v39);

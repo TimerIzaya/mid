@@ -1,0 +1,34 @@
+function f3(a4, a5) {
+    const o12 = {
+        [a4]: "function",
+        __proto__: "bigint",
+        "h": "function",
+        "g": "function",
+        n(a7) {
+            delete a7[4];
+            const v9 = this.__proto__;
+            try { a7.match(v9); } catch (e) {}
+            return "ik";
+        },
+    };
+    return o12;
+}
+f3("function", "bigint");
+f3(f3, "ik");
+f3("bigint", "bigint");
+function f16() {
+    return f3;
+}
+const v20 = new Array(10);
+Array[v20] %= 10;
+const t23 = "bigint";
+t23.length += 10;
+try {
+    const t26 = "ik";
+    t26.toString = f16;
+} catch(e21) {
+}
+Object.defineProperty("bigint", 5, { configurable: true, enumerable: true, get: f3, set: f16 });
+const v22 = [f3];
+[f16,v22,v22,v22];
+[v20,,];

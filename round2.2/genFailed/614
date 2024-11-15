@@ -1,0 +1,68 @@
+class C3 {
+    static h;
+    o(a5) {
+        try {
+            super[a5] = 4096;
+        } catch(e6) {
+        }
+        return a5;
+    }
+    static f;
+    static #o(a8) {
+        switch (4096) {
+            default:
+                this[Symbol.matchAll] = 4096;
+        }
+        return "boolean";
+    }
+}
+const v11 = new C3();
+const v12 = new C3();
+new C3();
+const v14 = [v12,"boolean",v11];
+const v15 = [v11,"search",4096,v14,"boolean"];
+const v16 = [v14,4096,v15];
+function f17(a18, a19, a20) {
+    const o37 = {
+        o(a22, a23, a24) {
+            try {
+                new BigInt64Array(1163);
+            } catch(e28) {
+            }
+            try {
+                new Uint8Array(40);
+            } catch(e32) {
+            }
+            try {
+                new Uint16Array(8);
+            } catch(e36) {
+            }
+            return 1163;
+        },
+    };
+    return o37;
+}
+f17(v16, v14, 4096);
+f17(v14, v14, C3);
+f17(v16, v14, f17);
+for (let v44 = 0; v44 < 52; v44++) {
+    Object.defineProperty("search", "c", { set: f17 });
+    function F45(a47, a48, a49, a50) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.e = a48;
+        } catch(e51) {
+        }
+        try {
+            this.b = v44;
+        } catch(e52) {
+        }
+        try {
+            this.c = a47;
+        } catch(e53) {
+        }
+    }
+    new F45(v44, v44, v15, v16);
+    new F45(4096, -9007199254740991, v15, v14);
+    new F45(-65536, 4096, v14, v14);
+}

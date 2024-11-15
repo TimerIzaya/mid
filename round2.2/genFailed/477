@@ -1,0 +1,43 @@
+class C3 {
+    m(a5) {
+        let v6;
+        try { v6 = new a5(); } catch (e) {}
+        try { v6(4.0); } catch (e) {}
+        return "string";
+    }
+    constructor(a12) {
+        try {
+            a12.toString = a12;
+        } catch(e13) {
+        }
+        const v14 = [this,"string",this,this,4.0];
+        [v14,[v14,"string",4.0,v14]];
+    }
+}
+const v17 = new C3(4.0);
+new C3(v17);
+const v19 = new C3("string");
+const v20 = [268435441,9223372036854775807,-2122673501,4294967297,-26502,186776728,1640651454];
+const v21 = [2147483647,419725526,-4096,8,9007199254740990,536870889,4294967297];
+[64];
+try {
+    new Uint16Array(1024);
+} catch(e26) {
+}
+try {
+    new Uint16Array(66);
+} catch(e30) {
+}
+try {
+    new Uint8Array(8);
+} catch(e34) {
+}
+for (let v35 = 0; v35 < 30; v35++) {
+    try { v20.at(4294967295); } catch (e) {}
+    v17 in v19;
+    let [,v38,v39,v40] = v21;
+    try {
+        v40.b = 1024;
+    } catch(e41) {
+    }
+}

@@ -1,0 +1,45 @@
+try {
+    new Uint8Array(1864);
+} catch(e3) {
+}
+let v4 = 9;
+try {
+    new Uint32Array(v4);
+} catch(e7) {
+}
+try {
+    new Float32Array(7);
+} catch(e11) {
+}
+const v15 = [-1e-15];
+const v16 = [1000000000.0,9.447026256486902e+307,-5.309011499968839,NaN,-1000000000000.0,0.0,2.220446049250313e-16,1.8102450607399932e+307];
+const v17 = [1.7976931348623157e+308,-65906.47151488648,-120374.19652489608,2.2250738585072014e-308];
+class C18 {
+    1 = Float32Array;
+    static b;
+    constructor(a20, a21) {
+        try { v15.find(v15, a20); } catch (e) {}
+        class C23 extends Float32Array {
+            [v4] = Uint32Array;
+            #e;
+        }
+        new C23();
+        new C23();
+        new C23();
+    }
+    9 = v4;
+}
+new C18(v17, v16);
+const v28 = new C18(v16, v15);
+const v29 = new C18(v15, v17);
+const v30 = v29[10];
+[v29];
+try {
+    v16[4061] = v4;
+} catch(e32) {
+}
+16n in v28;
+try {
+    v4 *= v30;
+} catch(e34) {
+}

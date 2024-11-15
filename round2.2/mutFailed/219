@@ -1,0 +1,23 @@
+try {
+    new Uint32Array(7);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(218);
+} catch(e13) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e17) {
+}
+function F18(a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = -1546485156;
+    } catch(e23) {
+    }
+}
+new F18(Uint32Array, Uint32Array, 268435456n);
+new F18(BigInt64Array, 186556172n, 186556172n);
+new BigInt64Array(F18, 268435456n, 1n);
+/(?<a>.)\k<a>?/msv;

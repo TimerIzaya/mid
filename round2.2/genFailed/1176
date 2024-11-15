@@ -1,0 +1,23 @@
+function f0() {
+}
+let v4 = 9n;
+try {
+    new Uint16Array(1024);
+} catch(e10) {
+}
+try {
+    new Int32Array(9);
+} catch(e14) {
+}
+try {
+    new Uint32Array(3);
+} catch(e18) {
+}
+throw 1024;
+try {
+    v4 &&= v4;
+} catch(e19) {
+}
+Uint16Array >> Int32Array;
+const t20 = 65537n;
+t20.e ||= 3;

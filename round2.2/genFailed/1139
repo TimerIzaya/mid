@@ -1,0 +1,41 @@
+try {
+    new Uint32Array(1024);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(16);
+} catch(e10) {
+}
+try {
+    new Uint16Array(255);
+} catch(e14) {
+}
+function f15(a16, a17, a18, a19) {
+    const o26 = {
+        1777035802: Uint32Array,
+        "a": 255,
+        [29715n]: a19,
+        o(a21, a22, a23) {
+            try {
+                a19 |= 1024;
+            } catch(e25) {
+            }
+            return Uint32Array;
+        },
+        "h": a17,
+        "e": 29715n,
+        "c": 366109471n,
+    };
+    return o26;
+}
+const v27 = f15(29715n, -48217n, -48217n, 366109471n);
+const v28 = f15(366109471n, 29715n, 366109471n, 16);
+f15(366109471n, -48217n, 29715n, f15);
+const v33 = Uint32Array << 366109471n;
+try {
+    v28[v28] = v33;
+} catch(e34) {
+}
+for (let v35 = 0; v35 < 32; v35++) {
+    v27["p" + v35] = v35;
+}

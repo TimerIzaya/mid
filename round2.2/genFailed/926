@@ -1,0 +1,66 @@
+class C3 {
+    static #n(a5) {
+        const o8 = {
+            "maxByteLength": 1073741824,
+        };
+        const v10 = new SharedArrayBuffer(1024, o8);
+        try {
+            new Int32Array(v10);
+        } catch(e13) {
+        }
+        return 1.5118025895321507e+308;
+    }
+}
+const v14 = new C3();
+const v15 = new C3();
+const v16 = new C3();
+function f17() {
+    return -1.6401413991345714e+308;
+}
+function f18(a19, a20, a21) {
+    const o26 = {
+        get g() {
+            a19[5];
+            let v24 = a19.__proto__;
+            try {
+                v24 = -7378;
+            } catch(e25) {
+            }
+            return this;
+        },
+        [a21]: a20,
+        0: f17,
+        "d": a19,
+        "h": -7378,
+        "c": v15,
+        "g": a20,
+    };
+    return o26;
+}
+const v27 = f18(v16, v15, v14);
+f18(v14, v16, v15);
+const v29 = f18(C3, v27, v16);
+try {
+    new Uint32Array(3774);
+} catch(e33) {
+}
+try {
+    new BigUint64Array(9);
+} catch(e37) {
+}
+try {
+    new Uint8Array(255);
+} catch(e41) {
+}
+for (const v42 of Uint8Array) {
+    v42[5] = 1.5118025895321507e+308;
+    try {
+        v29[6] = v42;
+    } catch(e43) {
+    }
+}
+const v44 = v14.__proto__;
+try {
+    v27.fuck(1000, v44, v44, -65537);
+} catch(e48) {
+}

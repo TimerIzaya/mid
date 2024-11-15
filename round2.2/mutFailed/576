@@ -1,0 +1,33 @@
+try {
+    new Uint8ClampedArray(2);
+} catch(e3) {
+}
+try {
+    new Int8Array(122);
+} catch(e7) {
+}
+try {
+    new Int16Array(1470);
+} catch(e11) {
+}
+try {
+    new Int16Array(2);
+} catch(e15) {
+}
+try {
+    new Int16Array(11);
+} catch(e19) {
+}
+try {
+    new Uint32Array(3445);
+} catch(e23) {
+}
+const v24 = [Int16Array,Int16Array];
+const v25 = [2];
+[122,v25,1470];
+class C27 {
+}
+const v28 = [-1.9051759137413093e+307,524838.8464725164,1.0];
+[v28,v28,v28,v24];
+const v31 = Reflect.construct(C27, v25);
+Reflect.getPrototypeOf(v31, v31, v31, ...v28, Reflect).flat(v31);

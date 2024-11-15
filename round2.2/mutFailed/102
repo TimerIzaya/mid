@@ -1,0 +1,39 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v0;
+    } catch(e3) {
+    }
+    try {
+        this.f = v0;
+    } catch(e4) {
+    }
+}
+new v0();
+new F1();
+const v7 = new F1();
+v0 ^ -42255n;
+try {
+    new Uint16Array(2);
+} catch(e15) {
+}
+Uint32Array.name = Uint32Array;
+try {
+    new Uint32Array(3365);
+} catch(e19) {
+}
+Float32Array.BYTES_PER_ELEMENT = 16;
+try {
+    const v22 = new Float32Array(16);
+    try { v22.includes(3365); } catch (e) {}
+} catch(e24) {
+}
+[1,17930,5,-9,-13,-726243331,6,65536];
+const v26 = [4294967297,-9007199254740992,1073741824,-13,-506158675,268435456,10000,0,4294967295];
+for (const v27 in v7) {
+    v27[0] = v27;
+    const v28 = v0.__proto__;
+    try { v28.lastIndexOf(v26); } catch (e) {}
+    Float32Array.length <<= v28;
+}

@@ -1,0 +1,55 @@
+function f0() {
+}
+let v6 = -26250;
+class C7 extends f0 {
+    #a;
+    constructor(a9, a10, a11, a12) {
+        super();
+        const t7 = "at";
+        t7.length -= a11;
+        try {
+            const t10 = "at";
+            t10.length = -9007199254740991;
+        } catch(e13) {
+        }
+        try { a10.replaceAll(a10, "valueOf"); } catch (e) {}
+    }
+    static [1] = 1;
+    h = f0;
+    [1] = "deref";
+}
+new C7(v6, "at", 1, C7);
+new C7(v6, "deref", -9007199254740991, "deref");
+new C7(1, "valueOf", 1, -9007199254740991);
+[10000];
+[2];
+[512,-34727];
+try {
+    v6 = 1;
+} catch(e21) {
+}
+if (1) {
+    f0();
+    %PrepareFunctionForOptimization(f0);
+    f0();
+    f0();
+    %OptimizeFunctionOnNextCall(f0);
+    f0();
+} else {
+    const o26 = {
+        "apply": f0,
+        "call": f0,
+        "construct": f0,
+        "defineProperty": f0,
+        "deleteProperty": f0,
+        "get": f0,
+        "getOwnPropertyDescriptor": f0,
+        "isExtensible": f0,
+        "preventExtensions": f0,
+        "setPrototypeOf": f0,
+    };
+    try {
+        new Proxy(C7, o26);
+    } catch(e29) {
+    }
+}

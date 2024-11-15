@@ -1,0 +1,41 @@
+Math.log10(!(!-3.891947782733821e+306));
+try {
+    new Int32Array(2168);
+} catch(e8) {
+}
+try {
+    new Int16Array(0);
+} catch(e12) {
+}
+try {
+    new Uint16Array(12);
+} catch(e16) {
+}
+function F17(a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        Int32Array.a = Uint16Array;
+    } catch(e21) {
+    }
+    try {
+        this.d = a19;
+    } catch(e22) {
+    }
+}
+new F17(2168, 12);
+new F17(0, 12);
+new F17(0, 12);
+function F26(a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v29 = this?.constructor;
+    try { new v29(a28); } catch (e) {}
+    try { this.constructor(a28); } catch (e) {}
+}
+const t33 = 0;
+const v32 = new t33();
+const t35 = v32.constructor;
+new t35();
+const o37 = {
+    "execution": "async",
+};
+gc(o37).then();

@@ -1,0 +1,38 @@
+try {
+    new Int8Array(1);
+} catch(e3) {
+}
+try {
+    new Uint32Array(4096);
+} catch(e7) {
+}
+try {
+    new Int8Array(13);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(661);
+} catch(e15) {
+}
+try {
+    new Uint8Array(2153);
+} catch(e19) {
+}
+try {
+    new Uint8Array(4096);
+} catch(e23) {
+}
+let v28;
+try {
+const t0 = 6.448636492884859e+307;
+v28 = t0();
+} catch (e) {}
+v28.__proto__;
+class C30 extends Uint8Array {
+    #a = Uint8Array;
+    static #f;
+    3176 = Uint8Array;
+}
+new C30();
+new C30();
+new C30();

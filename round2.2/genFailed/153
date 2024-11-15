@@ -1,0 +1,63 @@
+class C3 {
+    #g = 9.92795842498482;
+    ["PI"];
+    65536 = 9.92795842498482;
+    constructor(a5, a6) {
+        try {
+            const t6 = "c";
+            t6.g = 9.92795842498482;
+        } catch(e7) {
+        }
+    }
+    #o(a9, a10) {
+        let v8 = this;
+        function f11(a12, a13, a14, a15) {
+            ++v8;
+            v8 >>> a13;
+            Math.log10(a13);
+            a13 ** v8;
+            return a9;
+        }
+        return f11("c", a10, f11, a10);
+    }
+}
+const v24 = new C3("PI", "PI");
+const v25 = new C3(v24, v24);
+new C3(9.92795842498482, v25);
+const v29 = new Array(512);
+function f30() {
+    return "PI";
+}
+const v31 = [9007199254740990,1000];
+const v32 = [-65537,1024,12,-1024,-65535];
+const v33 = [268435440,-9007199254740992,1515603907,1];
+class C34 extends Array {
+    static f = C3;
+    #p(a36, a37, a38, a39) {
+        const v40 = v29.push(...v29, ...this, ...a38, ...this);
+        try {
+            Array(v40);
+        } catch(e42) {
+        }
+        return v33;
+    }
+    constructor(a44, a45, a46, a47) {
+        super(512);
+        for (let v48 = 0; v48 < 32; v48++) {
+            const t46 = "c";
+            t46["p" + v48] = v48;
+        }
+    }
+}
+const v51 = new C34(v31, Array, v33, "c");
+new C34(v33, C3, v29, v32);
+new C34(v51, "c", v33, v31);
+function f54(a55, a56, a57) {
+    const o58 = {
+        ["PI"]: f30,
+        "h": v33,
+        "e": a56,
+    };
+    return o58;
+}
+f54(Array, C3, f54("c", C34, f54("PI", C3, v51)));

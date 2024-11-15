@@ -1,0 +1,50 @@
+try {
+    new Float32Array(512);
+} catch(e3) {
+}
+try {
+    new Float32Array(5);
+} catch(e7) {
+}
+try {
+    new Float64Array(16);
+} catch(e11) {
+}
+let v14 = 1992793740;
+class C18 extends Float32Array {
+    get c() {
+        const o23 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o23);
+        return v14;
+    }
+    d;
+    2;
+    c = 9007199254740990;
+    h = v14;
+}
+new C18();
+const v26 = new C18();
+const v27 = new C18();
+v27["every"](512, 16, ...v26, ..."every", 16);
+function f33(a34, a35) {
+    function f37(a38) {
+        try {
+            v26[0] = a34;
+        } catch(e39) {
+        }
+    }
+    this.onmessage = f37;
+    try {
+        v14 **= 2;
+    } catch(e40) {
+    }
+}
+const v43 = [f33,-1024];
+const o44 = {
+    "arguments": v43,
+    "type": "function",
+};
+new Worker(f33, o44);

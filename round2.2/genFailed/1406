@@ -1,0 +1,55 @@
+class C3 {
+    [NaN] = 1.7976931348623157e+308;
+    f = NaN;
+    m(a5) {
+        for (let i8 = 0, i9 = 10; i8 < i9; i8++, i9--) {
+            const v17 = delete this?.f;
+            let v18;
+            try { v18 = v17.n(v17, i9, i8); } catch (e) {}
+            try {
+                v18.b = i9;
+            } catch(e19) {
+            }
+        }
+        return a5;
+    }
+}
+const v20 = new C3();
+const v21 = new C3();
+const v22 = new C3();
+class C23 extends C3 {
+    m(a25, a26, a27, a28) {
+        try {
+            super.f = v21;
+        } catch(e29) {
+        }
+        v20[65536];
+        v22[8] /= a27;
+        /Nu\9/gd;
+        /Da[a-z]/duy;
+        /a\xe2\x81\xa3xyz{1,}+/msvi;
+        return a26;
+    }
+    [C3];
+    [1.7976931348623157e+308] = NaN;
+    static h = v20;
+}
+new C23();
+new C23();
+let v36 = new C23();
+new WeakMap();
+function f39() {
+    return NaN;
+}
+const v43 = `
+    const o46 = {
+        valueOf() {
+            try {
+                v36 |= this;
+            } catch(e45) {
+            }
+            return "9";
+        },
+    };
+`;
+eval(v43);

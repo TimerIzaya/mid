@@ -1,0 +1,95 @@
+function f2() {
+    function f3() {
+        const v4 = -Infinity;
+        const o9 = {
+            "a": "string",
+            [v4]: v4,
+            137481827: v4,
+            p(a7, a8) {
+            },
+        };
+    }
+    %PrepareFunctionForOptimization(f3);
+    return 2992;
+}
+Float32Array.toString = f2;
+try {
+    new Float32Array(2992);
+} catch(e11) {
+}
+try {
+    const v14 = new Float32Array(6);
+    let v15 = 0;
+    [[v15,v14,6,v14]];
+    [6];
+    while (v15 < 3) {
+        const v24 = v14.length;
+        const v28 = (-15) ** 724249330;
+        const v29 = Float32Array && -15;
+        Math.expm1(v28);
+        v29 >>> v28;
+        Math.hypot(v24);
+        ~Float32Array;
+        -Float32Array;
+        v15++;
+    }
+} catch(e36) {
+}
+try {
+    new Uint32Array(82);
+} catch(e40) {
+}
+try {
+    const t42 = 2992;
+    t42.g = -1000000.0;
+} catch(e42) {
+}
+const v43 = 82 & 82;
+const v46 = [Uint32Array,Uint32Array,-1.0,82];
+const v48 = [Uint32Array,[v46,v46,-1.0],v46,v46,2992];
+Array(6);
+%PrepareFunctionForOptimization(Array);
+Array(6);
+Array(6);
+%OptimizeMaglevOnNextCall(Array);
+Array(6);
+const v56 = [];
+Object.defineProperty(v56, Symbol.toPrimitive, { enumerable: true, value: Array });
+const v59 = v56.keys();
+const v60 = v59.constructor;
+try {
+    Array(v43);
+} catch(e62) {
+}
+if (delete v48[v56]) {
+    try {
+        Array(1471062688);
+    } catch(e65) {
+    }
+} else {
+    try {
+        new Float64Array(v43);
+    } catch(e69) {
+    }
+    try {
+        new Float32Array(512);
+    } catch(e73) {
+    }
+    try {
+        new BigInt64Array(129);
+    } catch(e77) {
+    }
+}
+v60("T");
+const o80 = {
+};
+function f81() {
+    return v43;
+}
+function f82(a83) {
+    769648382n ^ -9007199254740990;
+}
+Object.defineProperty(o80, "type", { configurable: true, get: f81, set: f82 });
+o80.type = 82;
+gc(o80);
+gc(v59);

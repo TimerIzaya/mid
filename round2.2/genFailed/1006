@@ -1,0 +1,47 @@
+class C3 {
+    constructor(a5, a6) {
+        try {
+            this.__proto__ = a5;
+        } catch(e7) {
+        }
+    }
+    #o(a9, a10) {
+        a10?.["getUTCDate"];
+        [-42166,-268435456,-65535,-1357553795,-2,-2147483649,62506,59592,1024,14832];
+        [4,536870887,268435456,1148115750,-536870912];
+        return [5];
+    }
+}
+const v15 = new C3(1000.0, "getUTCDate");
+const v16 = new C3(C3, v15);
+const v17 = new C3(v15, C3);
+function f18() {
+    return v16;
+}
+class C19 {
+    static 6;
+    constructor(a21, a22, a23, a24) {
+        const v26 = [];
+        Reflect.apply(("getUTCDate").normalize, a22, v26);
+    }
+    #g;
+    #e = v17;
+    e;
+    static [0.6213268347758482] = 1000.0;
+}
+const v29 = new C19(v16, C3, C19, v16);
+new C19(v17, v17, v17, "getUTCDate");
+let v31 = new C19(C19, C19, f18, v29);
+try {
+    v31 = v15;
+} catch(e32) {
+}
+Object.defineProperty("getUTCDate", 1000.0, { configurable: true, enumerable: true, get: f18 });
+const o39 = {
+    "maxByteLength": 1440708923,
+};
+const v41 = new ArrayBuffer(111, o39);
+try {
+    new DataView(v41);
+} catch(e44) {
+}

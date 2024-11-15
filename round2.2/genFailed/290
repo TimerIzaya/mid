@@ -1,0 +1,62 @@
+try {
+    new Int32Array(64);
+} catch(e3) {
+}
+try {
+    new Float64Array(3896);
+} catch(e7) {
+}
+try {
+    new Float32Array(1592);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o19 = {
+        "c": 64,
+        ...a13,
+        0: a15,
+        "h": Float32Array,
+        get e() {
+            try {
+                super.defineProperties(64);
+            } catch(e18) {
+            }
+            return a14;
+        },
+        ...a13,
+        "g": Float32Array,
+        [a15]: Float64Array,
+        ...a13,
+    };
+    return o19;
+}
+const v20 = f12(Int32Array, 1592, Float64Array);
+const v21 = f12(v20, 3896, Float32Array);
+const v22 = f12(Float64Array, 3896, 3896);
+[v21,v21,64,v22];
+const v24 = [f12,v20];
+[Float32Array,v24,v24];
+class C26 extends Float64Array {
+    valueOf(a28, a29) {
+        const v30 = delete v22?.e;
+        Reflect.construct(Int32Array, [Reflect,a29], v30);
+        try {
+            v24[a29] = this;
+        } catch(e34) {
+        }
+        return 3896;
+    }
+    e = Float32Array;
+    static e;
+    268435441;
+    10 = 1592;
+}
+const v35 = new C26();
+const v36 = new C26();
+let v37 = new C26();
+const v42 = v21 >>> f12(v36, 64, v37);
+try {
+    v37 = v35;
+} catch(e43) {
+}
+Int32Array + v42;

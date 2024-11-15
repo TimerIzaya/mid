@@ -1,0 +1,80 @@
+function f0() {
+}
+function f1() {
+    const o12 = {
+        5: f0,
+        "a": f0,
+        set f(a3) {
+            function F4(a6, a7) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.g = this;
+                } catch(e8) {
+                }
+            }
+            new F4(this, f0);
+            new F4(a3, this);
+            new F4(f0, a3);
+        },
+        [f0]: f0,
+    };
+    return o12;
+}
+const v13 = f1();
+const v14 = f1();
+const v15 = f1();
+function f16(a17) {
+    const o25 = {
+        get e() {
+            let v19;
+            try { v19 = f0(a17, ...v14, this, f1, f1, f1); } catch (e) {}
+            try {
+                a17.valueOf = v19;
+            } catch(e20) {
+            }
+            return a17;
+        },
+        get g() {
+            const v22 = v13.__proto__;
+            v22 != this ? v22 : this;
+            return this;
+        },
+    };
+    return o25;
+}
+const v26 = f16(v13);
+f16(v15);
+f16(v14);
+[92362.83324968372];
+[Infinity,-1000000.0,-1000000.0];
+const v31 = [-1.0,1000.0,-Infinity,-1.0];
+function f32() {
+    return v31;
+}
+[0.5060229920021441,303117.85343797714,0.7686569901597119,-1000000.0];
+[0.6598921323541451,0.670808322859667,348.14846332423235,1.4678959360084755e+308,0.0];
+[1000.0,-60.962697624334055,832037.5850287133,-5.0,2.0,0.0,1000.0,154130.39428727305,-953.3754020390381];
+let v39 = 0;
+while (v39 < 6) {
+    function f42(a43, a44, a45) {
+        function f47(a48) {
+            try {
+                a48 = f1;
+            } catch(e49) {
+            }
+        }
+        this.onmessage = f47;
+        try { v26.toString(f0); } catch (e) {}
+        try {
+            a43 = -50738n;
+        } catch(e51) {
+        }
+    }
+    const v54 = [f42,f42,563351837n];
+    const o55 = {
+        "arguments": v54,
+        "type": "function",
+    };
+    new Worker(f42, o55);
+    v39++;
+}

@@ -1,0 +1,40 @@
+class C3 {
+    static {
+        try { this.setUTCDate("n", -1.4092593222783179e+308, -1000.0, 2147483647, 2147483647); } catch (e) {}
+        const o11 = {
+            "maxByteLength": 4096,
+        };
+        const v13 = new ArrayBuffer(4096, o11);
+        try {
+            new Int8Array(v13);
+        } catch(e16) {
+        }
+    }
+}
+const v17 = new C3();
+new C3();
+new C3();
+try {
+    new Float64Array(100);
+} catch(e23) {
+}
+try {
+    new Uint8ClampedArray(64);
+} catch(e27) {
+}
+try {
+    new Int32Array(256);
+} catch(e31) {
+}
+Math.sinh(Int32Array);
+const v35 = -21548;
+Math.log10(21548);
+if (v35) {
+    let v37;
+    try { v37 = v17(); } catch (e) {}
+    let {"c":v38,"h":v39,} = v37;
+} else {
+    const t36 = "b";
+    t36.length **= 100;
+    64 !== Float64Array;
+}

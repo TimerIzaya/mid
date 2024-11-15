@@ -1,0 +1,24 @@
+try {
+    new Uint16Array(5);
+} catch(e4) {
+}
+try {
+    new Uint8Array(1768);
+} catch(e8) {
+}
+try {
+    new Float32Array(194);
+} catch(e12) {
+}
+function f13() {
+    return Uint16Array;
+}
+const v17 = 257 === 512;
+if (v17) {
+    var b = 257;
+} else {
+    new Float32Array(3026, 194, 257);
+}
+const v20 = c?.[1768];
+var e = v17;
+~v20;

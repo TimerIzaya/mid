@@ -1,0 +1,42 @@
+try {
+    new Uint32Array(251);
+} catch(e3) {
+}
+try {
+    new Uint8Array(1);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    #e;
+    constructor(a14, a15, a16, a17) {
+        super(251, a16, a14);
+        function f18(a19, a20) {
+            function f22(a23) {
+                const v26 = this - 256;
+                -v26;
+                -v26;
+                v26 >>> 256;
+            }
+            this.onmessage = f22;
+            const v30 = 10;
+        }
+        const v33 = [this,a14];
+        const o34 = {
+            "arguments": v33,
+            "type": "function",
+        };
+        new Worker(f18, o34);
+    }
+}
+new C12(1, 1, 251, BigInt64Array);
+const v37 = new C12(10, 1, 10, 251);
+new C12(251, 1, 10, v37);
+/l(\1a)[]/mu;
+/y\1(a)/gu;
+/\p{Nd}/mdvi;
+for (let i46 = 0; i46 < 2; i46++) {
+}

@@ -1,0 +1,34 @@
+try {
+    new Uint16Array(129);
+} catch(e6) {
+}
+try {
+    new Int16Array(4);
+} catch(e10) {
+}
+try {
+    new Int8Array(64);
+} catch(e14) {
+}
+function F18(a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    const o24 = {
+        "maxByteLength": 3168,
+    };
+    const v26 = new ArrayBuffer(3168, o24);
+    try {
+        new Uint8Array(v26);
+    } catch(e29) {
+    }
+    try {
+        this.h = a20;
+    } catch(e30) {
+    }
+}
+new F18("a", "a");
+new F18("UY", "a");
+new F18("byteLength", "byteLength");
+/(?:ab|cde)0r\P{Decimal_Number}/gdui;
+/[(ab|cde)]/gv;
+/F(a\1)/gsdy;
+/(?<a>.)\k<a>?/msv;

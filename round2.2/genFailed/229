@@ -1,0 +1,76 @@
+const v0 = /NVX[O]/mgsvi;
+const v1 = /\P{Any}/sui;
+const v2 = /vO(?<a>(?<b>(?<c>(?<d>.).).).)/gdv;
+try {
+    new Float64Array(1024);
+} catch(e6) {
+}
+try {
+    new Uint8Array(1);
+} catch(e10) {
+}
+try {
+    new Float64Array(3393);
+} catch(e14) {
+}
+function f15(a16, a17, a18) {
+    const o29 = {
+        "f": v2,
+        ...a18,
+        valueOf(a20, a21) {
+            1 << this;
+            try {
+                a18 |= this;
+            } catch(e23) {
+            }
+            const o27 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o27);
+            return a18;
+        },
+    };
+    return o29;
+}
+const v30 = f15(v0, 1024, Uint8Array);
+const v31 = f15(v1, 1024, v30);
+const v32 = f15(v0, 1, f15);
+function f33(a34, a35, a36) {
+    const o41 = {
+        [a36]: f15,
+        get a() {
+            try { a36(); } catch (e) {}
+            new Map();
+            return Map;
+        },
+        257: a34,
+        __proto__: v1,
+        "f": a35,
+        "b": Float64Array,
+        "h": a34,
+        "a": v32,
+        ...v31,
+        [Float64Array]: v30,
+    };
+    return o41;
+}
+f33(v30, v0, v0);
+f33(v31, v1, f33(v31, v1, f33));
+const o48 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o48);
+try {
+    new Uint16Array(15);
+} catch(e53) {
+}
+try {
+    new BigInt64Array(128);
+} catch(e57) {
+}
+try {
+    new Float32Array(2);
+} catch(e61) {
+}

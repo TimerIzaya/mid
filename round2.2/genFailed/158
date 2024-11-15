@@ -1,0 +1,48 @@
+try {
+    new Uint16Array(5);
+} catch(e3) {
+}
+try {
+    new Uint16Array(129);
+} catch(e7) {
+}
+try {
+    new Int16Array(0);
+} catch(e11) {
+}
+class C18 extends Uint16Array {
+    static #e = -1073741824;
+    #n(a20, a21, a22) {
+        const v23 = super[a22];
+        try {
+            a22[v23] = "c";
+        } catch(e24) {
+        }
+        return v23;
+    }
+    static [Uint16Array];
+    #c = -2;
+    [5];
+    4 = 5;
+}
+new C18();
+new C18();
+new C18();
+const v29 = Symbol.iterator;
+const o38 = {
+    [v29]() {
+        let v31 = 10;
+        const o37 = {
+            next() {
+                v31--;
+                const v35 = v31 == 0;
+                const o36 = {
+                    "done": v35,
+                    "value": v31,
+                };
+                return o36;
+            },
+        };
+        return o37;
+    },
+};

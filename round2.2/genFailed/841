@@ -1,0 +1,22 @@
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a9;
+    } catch(e11) {
+    }
+}
+const v12 = new F7(10000, 59867);
+new F7(14, 59867);
+const v14 = new F7(-8780, 14);
+new F7(59867, 59867);
+for (const v16 of v12) {
+    g = 14;
+    try {
+        v14[v16] = 59867;
+    } catch(e17) {
+    }
+}
+try {
+    v12.__proto__ = v14;
+} catch(e18) {
+}

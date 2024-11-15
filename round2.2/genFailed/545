@@ -1,0 +1,67 @@
+const v0 = /a(?<a>.)/mdvyi;
+const v1 = /(j)/mgdvyi;
+const v2 = /b3dPB/mgi;
+function f6(a7, a8, a9, a10) {
+    const o16 = {
+        4294967295: "7g",
+        __proto__: a7,
+        "b": v0,
+        "g": "of",
+        "a": a7,
+        get f() {
+            const v12 = a10 << this;
+            this[-2] &= v12;
+            try { this(); } catch (e) {}
+            try { this.compile(this, v0, this, v12, this); } catch (e) {}
+            try {
+                v0[this] = a7;
+            } catch(e15) {
+            }
+            return v1;
+        },
+    };
+    return o16;
+}
+f6(v2, "7g", "of", v0);
+const v18 = f6(v2, "7g", "of", v0);
+const v19 = f6(v0, "7g", "some", v2);
+function f20(a21, a22) {
+    const o40 = {
+        [a22]: a21,
+        __proto__: a21,
+        [a22](a24, a25, a26) {
+            %VerifyType(this);
+            delete v0[1000];
+            try {
+                new Int8Array(4);
+            } catch(e31) {
+            }
+            try {
+                new Int32Array(64);
+            } catch(e35) {
+            }
+            try {
+                new Int32Array(1661);
+            } catch(e39) {
+            }
+            return Int32Array;
+        },
+    };
+    return o40;
+}
+f20("some", v18);
+const v42 = f20("some", v19);
+const v43 = f20("of", v18);
+const t54 = "7g";
+t54[1024] <<= v19;
+f6(v43, v43, "7g", v2);
+function f45(a46, a47) {
+    try {
+        const v50 = new RegExp("POSITIVE_INFINITY");
+        const v54 = new RegExp("some");
+        new f6(v50, "-65535", "g", v54);
+    } catch(e56) {
+    }
+    return v42;
+}
+f45(v0, v2);

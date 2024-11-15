@@ -1,0 +1,92 @@
+function f0() {
+}
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f3(a4) {
+        ([9007199254740991,0,1533743122,9007199254740992,-1640411145,-256,15]).flatMap(Array);
+    }
+    Object.defineProperty(this, "a", { configurable: true, enumerable: true, set: f3 });
+    try {
+        this.c = f0;
+    } catch(e8) {
+    }
+    try {
+        this.a = f0;
+    } catch(e9) {
+    }
+    try {
+        this.f = f0;
+    } catch(e10) {
+    }
+}
+const v11 = new F1();
+const v12 = new F1();
+let v13 = new F1();
+const v15 = Symbol.toStringTag;
+v13[v15] = F1;
+const v17 = new WeakMap();
+function f18(a19, a20, a21, a22) {
+    const o36 = {
+        n(a24, a25, a26, a27) {
+            try {
+                v13 = a20;
+            } catch(e28) {
+            }
+            return a25;
+        },
+        __proto__: a20,
+        set d(a30) {
+            const o34 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o34);
+        },
+    };
+    function f37() {
+        function f38() {
+            a19?.[v15];
+            function f40(a41, a42, a43) {
+                const o44 = {
+                };
+                return o44;
+            }
+            return a20;
+        }
+        return f38;
+    }
+    function f45(a46) {
+        Array(29531);
+    }
+    Object.defineProperty(o36, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f37, set: f45 });
+    return o36;
+}
+const v52 = f18(f18, v17, v13, v13);
+const v53 = f18(v11, v13, v17, v12);
+const v54 = f18(v52, v17, v12, v12);
+function f55(a56, a57) {
+    a56[Symbol.toPrimitive] = f55;
+    const o69 = {
+        "h": a56,
+        "e": WeakMap,
+        "d": v53,
+        [v53](a61, a62, a63, a64) {
+            try {
+                a63.fuck(-15n, a62, true);
+            } catch(e68) {
+            }
+            return a62;
+        },
+        "f": v17,
+        [v12]: a57,
+        [v11]: v54,
+    };
+    return o69;
+}
+f55(v52, v53);
+f55(v53, v52);
+f55(v53, v52);
+function f73() {
+    return f73;
+}
+Object.defineProperty([512,257,[257,257],Uint8ClampedArray], 3, { get: f73 });

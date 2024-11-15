@@ -1,0 +1,62 @@
+class C3 {
+    static f = -256;
+    constructor(a5, a6) {
+        try { ("-2147483649").lastIndexOf("-2147483649", a6); } catch (e) {}
+        for (let v8 = 0; v8 < 32; v8++) {
+            a6["p" + v8] = v8;
+        }
+    }
+    static 8 = "-2147483649";
+}
+const v12 = 21397 < C3 ? 21397 : C3;
+let v13;
+try { v13 = v12(v12); } catch (e) {}
+v13--;
+new Array(4);
+const v18 = new C3(-256, -256);
+const v19 = new C3("-2147483649", "-2147483649");
+const v20 = new C3(v19, 21397);
+function f21() {
+    return -256;
+}
+function f22(a23, a24, a25) {
+    const o32 = {
+        __proto__: v19,
+        "b": a23,
+        toString(a27, a28, a29, a30) {
+            try {
+                a25[-2] = v20;
+            } catch(e31) {
+            }
+            return a25;
+        },
+        3087561811: 21397,
+    };
+    return o32;
+}
+const v33 = f22(v18, v18, "-2147483649");
+f22(v19, C3, v19);
+f22(v33, v20, "-2147483649");
+const v36 = [-9223372036854775808,-1787892749,-2147483647,536870888,-65536,268435441,12];
+const v37 = [35938,-15,61914,-444704995,512,1,-10,-2];
+class C38 {
+    #f;
+    1;
+    #e;
+    toString(a40) {
+        a40();
+    }
+    f = v36;
+    [v37] = v36;
+}
+const v42 = new C38();
+try {
+const t0 = 2147483649n;
+t0();
+} catch (e) {}
+const v45 = v42.constructor;
+class C46 extends v45 {
+    [v45];
+}
+const v47 = new C46();
+v47[2147483649n];

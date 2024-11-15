@@ -1,0 +1,54 @@
+new WeakSet();
+try {
+    new Int32Array(124);
+} catch(e5) {
+}
+try {
+    new Int16Array(16);
+} catch(e9) {
+}
+try {
+    new Int8Array(6);
+} catch(e13) {
+}
+[45312,536870889,3,-23546,1,2,9223372036854775807,12,1898308609,-14];
+[5,14463,-37764,-96819084,-2147483647,1000,-445497460,7,2147483647,-1];
+[1,9007199254740991,2,64,8,-9223372036854775807,-3,4,-10];
+function f20() {
+    const v22 = [1007962301,1305633920,-2147483649,4294967296,-1,-11];
+    [[v22,v22],v22];
+    function f25(a26, a27) {
+        return a27;
+    }
+    const o30 = {
+        "h": 10,
+        [10]: 10,
+        2: 10,
+        1601746401: 10,
+        set a(a29) {
+        },
+        "g": 10,
+    };
+    return o30;
+}
+const v31 = f20();
+const v32 = f20();
+const o33 = {
+    __proto__: v31,
+    "a": v32,
+    ...v32,
+};
+const v34 = [1691906951,63051,256,-268435456,0,51427,23383];
+function f35() {
+    return f20;
+}
+Object.defineProperty(v34, "constructor", { configurable: true, enumerable: true, get: f35 });
+class C37 extends v34.constructor {
+    4;
+    constructor(a39, a40) {
+        try {
+        } catch(e41) {
+        }
+    }
+}
+new C37();

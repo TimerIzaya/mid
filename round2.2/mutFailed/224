@@ -1,0 +1,77 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -29474;
+    } catch(e3) {
+    }
+    try {
+        this.c = -29474;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+const v8 = /a{0}/msuyi;
+const v9 = /(?!\1(a\1)\1)\1ta$?/msv;
+const v11 = [F0,v8,/v/sduy,F0];
+const v12 = [v11,v9,v11,v6];
+[v12,v8];
+class C14 {
+    h = v11;
+    0 = v6;
+    static #f;
+    get b() {
+        let v15 = this;
+        v7[1] = super[v11];
+        try {
+            function f17(a18, a19) {
+                try {
+                    v15 <<= v15;
+                } catch(e20) {
+                }
+                return v5;
+            }
+            f17(v6, v11);
+            super.c = v12;
+        } catch(e22) {
+        }
+        return F0;
+    }
+}
+new C14();
+new C14();
+new C14();
+const v27 = Symbol.iterator;
+const o36 = {
+    [v27]() {
+        let v29 = 10;
+        const o35 = {
+            next() {
+                v29--;
+                const v33 = v29 == 0;
+                const o34 = {
+                    "done": v33,
+                    "value": v29,
+                };
+                return o34;
+            },
+        };
+        return o35;
+    },
+};
+function F37(a39) {
+    if (!new.target) { throw 'must be called with new'; }
+}
+class C41 extends v8.constructor {
+    e = v7;
+    static #g;
+}
+new C41();
+class C43 extends F37 {
+}
+const v44 = new C43();
+for (let v45 = 0; v45 < 25; v45++) {
+    const v46 = v44.b;
+    try { v46["toString"](); } catch (e) {}
+}

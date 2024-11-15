@@ -1,0 +1,53 @@
+const v1 = new Map();
+try {
+    new BigInt64Array(9);
+} catch(e5) {
+}
+try {
+    new BigUint64Array(1024);
+} catch(e9) {
+}
+try {
+    new Float32Array(218);
+} catch(e13) {
+}
+class C14 extends BigUint64Array {
+    #d = v1;
+    constructor(a16, a17, a18) {
+        super(a18, a17, 1024);
+        try {
+            v1.length = 268435440;
+        } catch(e20) {
+        }
+    }
+    7;
+    a;
+    static #b = BigUint64Array;
+    [Map];
+    2147483649 = BigUint64Array;
+}
+new C14(9, 1024, 218);
+const v22 = new C14(1024, 1024, 9);
+new C14(218, 1024, 9);
+try {
+    new Int8Array(1618);
+} catch(e27) {
+}
+try {
+    new Float32Array(8);
+} catch(e31) {
+}
+try {
+    new Uint32Array(128);
+} catch(e35) {
+}
+try {
+    v22.a = Float32Array;
+} catch(e36) {
+}
+const o40 = {
+};
+try {
+    new Proxy("w", o40);
+} catch(e43) {
+}

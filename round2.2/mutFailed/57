@@ -1,0 +1,85 @@
+function f0() {
+}
+function f3(a4, a5) {
+    try {
+        Int16Array();
+    } catch(e8) {
+    }
+    return Int16Array;
+}
+BigInt64Array[Symbol.toPrimitive] = f3;
+try {
+    new BigInt64Array(3, f0);
+} catch(e12) {
+}
+function f15() {
+    function f16(a17, a18) {
+        try {
+            new f0();
+        } catch(e20) {
+        }
+        return a17;
+    }
+    return f16;
+}
+Object.defineProperty(BigInt64Array, "valueOf", { enumerable: true, get: f15 });
+try {
+    new BigInt64Array(BigInt64Array);
+} catch(e22) {
+}
+let v23 = 3111;
+v23--;
+try {
+    new BigUint64Array(v23);
+} catch(e27) {
+}
+try {
+    new Uint8Array(1713);
+} catch(e31) {
+}
+0 * 0;
+try {
+    const v35 = new Uint32Array(0);
+    Object.defineProperty(v35, "constructor", { value: Symbol });
+    try { v35.subarray(BigInt64Array, 1713); } catch (e) {}
+} catch(e37) {
+}
+try {
+    new BigInt64Array(4093);
+    const o44 = {
+        "execution": "async",
+        "type": "minor",
+    };
+    gc(o44);
+} catch(e46) {
+}
+function f47() {
+    return BigInt64Array;
+}
+try {
+    new Uint8Array(127);
+} catch(e51) {
+}
+const t62 = 127;
+t62.prototype = Int8Array;
+try {
+    new Int8Array(158);
+} catch(e55) {
+}
+v23++;
+function f59() {
+    return f3;
+}
+Object.defineProperty(Int8Array, "toString", { get: f59 });
+try {
+    new Int8Array(2);
+} catch(e61) {
+}
+const v62 = [Int32Array,127,f0,BigInt64Array];
+[158,BigInt64Array];
+[0,v62];
+~Int8Array;
+9 && 9;
++9;
++Int32Array;
+("-9223372036854775808").__proto__;

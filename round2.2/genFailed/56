@@ -1,0 +1,49 @@
+try {
+    new Float32Array(167);
+} catch(e3) {
+}
+try {
+    new Float32Array(255);
+} catch(e7) {
+}
+let v9 = Float32Array;
+try {
+    new v9(4);
+} catch(e11) {
+}
+function f12() {
+    return Float32Array;
+}
+function f16(a17, a18) {
+    const o26 = {
+        p(a20, a21) {
+            const v24 = typeof 255 === "object";
+            try {
+                const t21 = "n";
+                t21[v24] = a17;
+            } catch(e25) {
+            }
+            return a18;
+        },
+        "c": Float32Array,
+        ..."toString",
+        ["toString"]: "number",
+        "f": 4,
+    };
+    return o26;
+}
+f16(Float32Array, Float32Array);
+f16(Float32Array, "number");
+const v29 = f16(Float32Array, "toString");
+("number").__proto__;
+try {
+    v9 &= v9;
+} catch(e31) {
+}
+Math.log(7);
+Math.log(-896901252);
+Math.tan(7);
+const v42 = "toString" + -896901252;
+v42 >> v42;
+-v29;
+7 << v29;

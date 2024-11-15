@@ -1,0 +1,68 @@
+try {
+    new Uint32Array(1695);
+} catch(e3) {
+    length = "O";
+    Object.defineProperty([13,129,9223372036854775807,3,1073741825,15122], "d", { writable: true, configurable: true, value: true });
+}
+try {
+    new Uint16Array(3459);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(68);
+} catch(e14) {
+}
+try {
+    new BigInt64Array(693);
+} catch(e18) {
+}
+try {
+    new BigUint64Array(76);
+} catch(e22) {
+}
+try {
+    new Int8Array(5);
+} catch(e26) {
+}
+try {
+} catch(e27) {
+}
+const v28 = /I/gsui;
+const v31 = [Uint32Array];
+for (const v32 in "boolean") {
+    try { v28["compile"](v32, v31); } catch (e) {}
+}
+class C35 extends BigUint64Array {
+    static {
+        try {
+            this[1] = this;
+        } catch(e37) {
+        }
+    }
+    constructor(a39, a40) {
+        super(a39);
+        const v42 = [3459];
+        Reflect.construct(Int8Array, v42, BigUint64Array);
+        [NaN,-8.986672490213357e+307,548216.2262909622,1000000.0,-3.0];
+        [NaN,1e-15];
+        [-1000000000.0,1000000.0,4.0,4.8452011862774995,-918.08883930381,NaN,-2.220446049250313e-16,1114.8789572963724,-0.0,9.307449214228633];
+        new BigUint64Array(v42, 693, 76);
+    }
+}
+new C35(76, 693);
+const v50 = new Date();
+v50[3187];
+gc();
+new C35(76, 1695);
+new C35(5, 3459);
+class C57 extends Int8Array {
+}
+const v58 = new C57();
+const o64 = {
+    ...v58,
+    [v31](a60, a61, a62, a63) {
+    },
+    "type": "boolean",
+    "a": gc,
+    "g": v28,
+};

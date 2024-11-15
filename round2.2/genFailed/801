@@ -1,0 +1,27 @@
+try {
+    new Int8Array(175);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(129);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(256);
+} catch(e14) {
+}
+for (let v16 of undefined) {
+    try {
+        v16 ^= v16;
+    } catch(e17) {
+    }
+    try { (4.539324175816361e+307).then(); } catch (e) {}
+}
+delete undefined?.b;
+let v23 = !1721431952;
+Math.asin(3.1117244941585956e+307);
+++v23;
+const v26 = v23++;
+let v27 = 1721431952 >>> 257;
+v27++;
+Math.min(v26);

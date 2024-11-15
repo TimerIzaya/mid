@@ -1,0 +1,59 @@
+const v0 = /[[\0]og\xe2\x81\xa3(?:a+)+(ab|cde)\1a\bc+]/msdvi;
+const v1 = /ea*?/gdi;
+const v2 = /a[a-z]ga\Sc^+/mdv;
+function f3(a4) {
+    const o12 = {
+        "e": a4,
+        get g() {
+            try {
+                super[this] = this;
+            } catch(e6) {
+            }
+            return v0;
+        },
+        p(a8, a9) {
+            a8[2];
+            const o11 = {
+                __proto__: v2,
+                [a9]: a8,
+                [this]: v2,
+            };
+            return o11;
+        },
+    };
+    return o12;
+}
+const v13 = f3(v1);
+const v14 = f3(v0);
+f3(v2);
+class C16 {
+    [f3];
+    static #e = v14;
+    constructor(a18, a19, a20, a21) {
+        try {
+            new Uint8Array(3234);
+        } catch(e25) {
+        }
+        try {
+            new Int16Array(5);
+        } catch(e29) {
+        }
+        try {
+            new Int32Array(3921);
+        } catch(e33) {
+        }
+    }
+}
+const v34 = new C16(v13, v2, v1, v1);
+new C16(v13, v1, v2, v34);
+new C16(v14, v2, v0, v13);
+const v41 = Symbol.toPrimitive;
+const o44 = {
+    [v41]() {
+        try {
+            super[v13] = v41;
+        } catch(e43) {
+        }
+        return -9007199254740991;
+    },
+};

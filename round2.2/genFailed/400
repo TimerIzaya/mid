@@ -1,0 +1,40 @@
+try {
+    new Int32Array(10);
+} catch(e3) {
+}
+try {
+    new Uint32Array(127);
+} catch(e7) {
+}
+try {
+    new Int16Array(12);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o25 = {
+        "c": a16,
+        __proto__: a15,
+        [10]: a14,
+        p(a18, a19, a20, a21) {
+            super.a;
+            a21?.[268435456];
+            return a15;
+        },
+        [12]: a15,
+    };
+    return o25;
+}
+const v26 = f12(10, 10, Uint32Array, 127);
+f12(12, 127, Int32Array, 127);
+const v28 = f12(127, 127, v26, 10);
+const v29 = [1000.0,0.09901383110747741,1000000.0,0.1314366462059411];
+[1.7976931348623157e+308];
+const v31 = [0.48937196507376013,-1.7976931348623157e+308,-1000000000000.0];
+for (const v32 of v31) {
+    const v34 = [127,v31];
+    Reflect.apply(v31.with, v28, v34);
+}
+try {
+    v31[v29] = Int32Array;
+} catch(e37) {
+}

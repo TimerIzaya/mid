@@ -1,0 +1,55 @@
+function f0() {
+    const o9 = {
+        "h": 1116715421,
+        toString(a5) {
+            {
+                const v6 = this[a5];
+                let v7;
+                try { v7 = v6(); } catch (e) {}
+                v7[1116715421] >>>= -2147483647;
+            }
+            try {
+                this[8] = 1.0;
+            } catch(e8) {
+            }
+            return -2147483647;
+        },
+        "g": 1116715421,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+const v14 = new WeakSet();
+function f15(a16, a17, a18) {
+    const o29 = {
+        __proto__: v12,
+        3: f0,
+        [a17]: v11,
+        3130: f0,
+        [WeakSet]: v12,
+        "c": v10,
+        [v11](a20, a21, a22, a23) {
+            const o27 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o27);
+            return v10;
+        },
+    };
+    return o29;
+}
+const v30 = f15(v12, v12, v11);
+f15(f15(v30, v10, v12), v11, v11);
+-10n instanceof v14.c;
+const v41 = -1e-15 > WeakSet;
+for (const v42 in v30) {
+    v42 > v41 ? v42 : v41;
+    let v48 = 5.72335208684194e+307;
+    let v49 = v48--;
+    v49++;
+    let v51 = -2147483649 - v42;
+    ++v51;
+}

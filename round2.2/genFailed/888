@@ -1,0 +1,25 @@
+try {
+    new Int8Array(14);
+} catch(e3) {
+}
+try {
+    new Uint32Array(1);
+} catch(e7) {
+}
+try {
+    new Uint16Array(251);
+} catch(e11) {
+}
+new Date();
+Object.defineProperty("1073741824", "e", { configurable: true, value: 251 });
+try {
+    const t15 = "object";
+    t15[204] = Uint16Array;
+} catch(e17) {
+}
+Object.defineProperty("object", Uint16Array, { writable: true, enumerable: true, value: Uint32Array });
+try {
+    const t21 = "1073741824";
+    t21[1] = Date;
+} catch(e18) {
+}

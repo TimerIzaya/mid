@@ -1,0 +1,121 @@
+function f0() {
+}
+try {
+    const v3 = new Uint8Array(0);
+    v3.byteLength = v3;
+} catch(e4) {
+}
+function f7() {
+    function f8(a9) {
+        const o10 = {
+        };
+        try {
+            o10.b = a9;
+        } catch(e11) {
+        }
+        try {
+            const o12 = {
+            };
+            o12.b = a9;
+            o12.c = a9;
+        } catch(e13) {
+        }
+        try {
+            const o14 = {
+            };
+            o14.b = a9;
+            o14.c = a9;
+            o14.h = a9;
+        } catch(e15) {
+        }
+        try {
+            const o16 = {
+            };
+            o16.b = a9;
+            o16.c = a9;
+            o16.h = a9;
+        } catch(e17) {
+        }
+        return o10;
+    }
+    return f8;
+}
+function f18(a19) {
+    try {
+        a19[a19] = f0;
+    } catch(e20) {
+    }
+}
+Object.defineProperty(Uint8ClampedArray, Symbol.iterator, { enumerable: true, get: f7, set: f18 });
+try { new Uint8ClampedArray(0, Uint8Array, Uint8ClampedArray); } catch (e) {}
+try {
+    const v24 = new Uint8ClampedArray(3);
+    function F25() {
+        if (!new.target) { throw 'must be called with new'; }
+    }
+    const v27 = new F25();
+    function f28() {
+        function f29() {
+            return v27;
+        }
+        with (v27) {
+            f = f29;
+        }
+        return f29;
+    }
+    function F30(a32, a33, a34) {
+        if (!new.target) { throw 'must be called with new'; }
+        Object.defineProperty(this, "constructor", { writable: true, value: f28 });
+        const v35 = this.constructor;
+        v35(v35, F30, a32, a32);
+    }
+    new F30(F30, F25, v27);
+    try { v24.lastIndexOf(0); } catch (e) {}
+} catch(e39) {
+}
+2932 >>> 2932;
+Int8Array.length;
+try {
+    const v44 = new Int8Array(2932);
+    v44[2919];
+} catch(e46) {
+}
+let v47 = 2867;
+v47--;
+v47 + v47;
+let v51;
+try { v51 = Uint8Array.from(v47); } catch (e) {}
+try { v51.entries(); } catch (e) {}
+try {
+    new Uint8Array(v47);
+} catch(e54) {
+}
+let v56 = 11 | 11;
+v56++;
+function f59() {
+    return Uint8ClampedArray;
+}
+function f60(a61) {
+    Math.exp(65537);
+}
+Object.defineProperty(Uint8ClampedArray, 2, { enumerable: true, get: f59, set: f60 });
+try {
+    new Uint8ClampedArray(11);
+} catch(e66) {
+}
+Uint8ClampedArray[2] = Uint8Array;
+Uint8ClampedArray.g = Uint8ClampedArray;
+try {
+    const v69 = new Uint8ClampedArray(127);
+    v69[82];
+    v69[3] = v69;
+    const v71 = v69[54];
+    v71 === v71;
+    v71 | v71;
+} catch(e74) {
+}
+let v76;
+try { v76 = new Uint32Array(Uint8ClampedArray, Uint32Array, Uint32Array); } catch (e) {}
+try { v76.reduce(11); } catch (e) {}
+v76.BYTES_PER_ELEMENT = v76;
+gc();

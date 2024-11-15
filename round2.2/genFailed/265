@@ -1,0 +1,64 @@
+try {
+    new BigInt64Array(3);
+} catch(e9) {
+}
+try {
+    new Int32Array(512);
+} catch(e13) {
+}
+try {
+    new Float64Array(10);
+} catch(e17) {
+}
+function F18(a20, a21, a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = Float64Array;
+    } catch(e24) {
+    }
+    try {
+        this.e = a21;
+    } catch(e25) {
+    }
+    try {
+        this.d = a22;
+    } catch(e26) {
+    }
+}
+new F18(512, 10, -2147483649, -1152512069);
+new F18(1024, 3, -9, -1152512069);
+const v29 = new F18(1024, 4, -9, 257);
+for (let i31 = 0; i31 < 3; i31++) {
+    const v37 = new Int32Array(v29, i31, i31);
+    const v39 = new BigInt64Array(v37, i31, i31);
+    BigInt64Array === i31;
+    const o41 = {
+    };
+    try {
+        o41.d = v39;
+    } catch(e42) {
+    }
+    try {
+        const o43 = {
+        };
+        o43.d = v39;
+        o43.g = Float64Array;
+    } catch(e44) {
+    }
+    try {
+        const o45 = {
+        };
+        o45.d = v39;
+        o45.g = Float64Array;
+        o45.e = 512;
+    } catch(e46) {
+    }
+    try {
+        const o47 = {
+        };
+        o47.d = v39;
+        o47.g = Float64Array;
+        o47.h = BigInt64Array;
+    } catch(e48) {
+    }
+}

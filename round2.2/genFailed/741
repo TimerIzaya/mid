@@ -1,0 +1,57 @@
+class C3 {
+    static {
+        if ("1073741825") {
+            const t3 = "1073741825";
+            t3[8] **= 5418;
+            const o5 = {
+            };
+            try {
+                new Proxy(this, o5);
+            } catch(e8) {
+            }
+        } else {
+            [] = "1073741825";
+            for (let v9 = 0; v9 < 32; v9++) {
+                this["p" + v9] = v9;
+            }
+        }
+    }
+}
+let v12 = new C3();
+new C3();
+new C3();
+class C18 {
+    static {
+        try {
+            this.f = "1073741825";
+        } catch(e20) {
+        }
+    }
+    #d = 10n;
+    static #valueOf(a22, a23) {
+        try {
+            const t32 = "1073741825";
+            t32.#d = 9007199254740992n;
+        } catch(e24) {
+        }
+        return a22;
+    }
+    [10n];
+}
+new C18();
+new C18();
+new C18();
+switch (9007199254740992n) {
+    case C3:
+        %VerifyType(C18);
+        break;
+}
+try {
+    v12 = C18;
+} catch(e31) {
+}
+let v35 = -969.6813664697157;
+const v36 = v12 >>> "hTjN2";
+--v35;
+-256 & v36;
+-256 % -9223372036854775807;

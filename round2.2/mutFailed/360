@@ -1,0 +1,93 @@
+const v0 = [];
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v0;
+    } catch(e3) {
+    }
+    try {
+        this.e = v0;
+    } catch(e4) {
+    }
+}
+new F1();
+new F1();
+new F1();
+const v10 = +F1;
+try {
+    new BigUint64Array(v10);
+} catch(e14) {
+}
+try {
+    new Float32Array(745);
+} catch(e18) {
+}
+try {
+    new Float64Array(1);
+} catch(e22) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e24) {
+}
+try {
+    new Uint8ClampedArray(3);
+} catch(e28) {
+}
+try {
+    new WeakSet();
+    new Int32Array(38);
+} catch(e37) {
+}
+function f38() {
+    return F1;
+}
+function F39(a41, a42, a43) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a41;
+    } catch(e44) {
+    }
+    function f45() {
+        return f45;
+    }
+    const v47 = new Uint8ClampedArray(f45, Uint8ClampedArray, f45);
+    const v48 = v47.filter(f45);
+    try { v48.filter(v47); } catch (e) {}
+    try {
+        this.a = a41;
+    } catch(e50) {
+    }
+    try {
+        this.d = 7;
+    } catch(e51) {
+        try {
+            e51 = v47;
+        } catch(e52) {
+        }
+        try {
+            e51[268435440] = Uint8ClampedArray;
+        } catch(e53) {
+        }
+    }
+}
+const v54 = new F39(Int32Array, Int32Array, 3);
+const v55 = new F39(v54, f38, 3);
+const v56 = new F39(v55, Uint8ClampedArray, 7);
+function f57() {
+    return f57;
+}
+class C58 extends f57 {
+}
+const v59 = new v56();
+const v61 = ~v59;
+const v63 = new C58();
+try {
+    WeakMap(v63);
+    class C66 {
+        valueOf(a68, a69) {
+        }
+    }
+} catch(e70) {
+}
+Math.exp(v61);

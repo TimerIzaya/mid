@@ -1,0 +1,38 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = -2147483648;
+    } catch(e3) {
+    }
+    try {
+        this.b = -2147483648;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+class C8 {
+    static #d;
+    static [F0];
+    static p(a10, a11) {
+        const v12 = v7 >> a11;
+        [v12,F0];
+        return v12;
+    }
+    c = F0;
+    [F0];
+    static f = v5;
+    static [v7];
+}
+new C8();
+new C8();
+new v6();
+function f20() {
+    return f20;
+}
+const v21 = [0.3675836299816746,0.8310659909909843,-278368.33225869364,-5.0,-0.0];
+let v22 = /LC?/mu;
+({"length":f20,...v22} = v21);
+Math.tanh(0);
+Math.exp(0);

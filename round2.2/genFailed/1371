@@ -1,0 +1,41 @@
+try {
+    new Float32Array(1268);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(2);
+} catch(e10) {
+}
+try {
+    new Uint8Array(1668);
+} catch(e14) {
+}
+const v15 = [1668,BigInt64Array,1268,2,BigInt64Array];
+const v16 = [Uint8Array,1268,2,Float32Array];
+const v17 = [v16,Float32Array,1268,Uint8Array];
+class C18 extends Float32Array {
+    [Uint8Array] = v17;
+    constructor(a20, a21, a22, a23) {
+        super(1668);
+        %VerifyType(Uint8Array);
+        delete a23[1668];
+        try {
+            new Float32Array(1668, a22);
+        } catch(e26) {
+        }
+    }
+    5;
+    [-1];
+    static 1073741825 = v17;
+    static 4096 = BigInt64Array;
+    [v16] = 1668;
+}
+new C18(5, v15, 1024, v17);
+new C18(-1073741824, v15, 1268, v15);
+new C18(2, v16, 1668, v16);
+C18--;
+let v32 = -1387670317;
+const v37 = (-2056699260 + --v32) & -2056699260;
+Math.cbrt(-4.0);
+~v32;
+v37 && -4.0;

@@ -1,0 +1,48 @@
+try {
+    new Float32Array(781);
+} catch(e4) {
+}
+try {
+    new Uint8ClampedArray(0);
+} catch(e8) {
+}
+try {
+    new BigInt64Array(1204);
+} catch(e12) {
+}
+function f13() {
+    return BigInt64Array;
+}
+function f14() {
+    return BigInt64Array;
+}
+const v15 = [1837720115,-2,257,2147483648,268435456,-883030496,-61616,1714105549,-25992];
+const v16 = [8965,16,129];
+[39366,19495,7516];
+function F18(a20, a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = Float32Array;
+    } catch(e23) {
+    }
+    try {
+        this.f = a22;
+    } catch(e24) {
+    }
+    try {
+        this.a = a21;
+    } catch(e25) {
+    }
+}
+new F18(781, v15, 781);
+const v27 = new F18(781, v15, 0);
+new F18(1204, v15, 0);
+const v29 = [f14,v15,v15,Float32Array,f13];
+const v30 = [v29,v29,Float32Array,1204,781];
+[false,F18,v16,v30,F18];
+for (let [v32] of v29) {
+    const v33 = v27 >>> v32;
+    Object.defineProperty(v30, "a", { enumerable: true, get: f13, set: f13 });
+    v32 + v32;
+    v33 && f13;
+}

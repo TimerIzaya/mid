@@ -1,0 +1,38 @@
+try {
+    new Int16Array(512);
+} catch(e3) {
+}
+try {
+    new Int16Array(255);
+} catch(e7) {
+}
+try {
+    new Int8Array(103);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(1122);
+} catch(e15) {
+}
+try {
+    new Uint32Array(214);
+} catch(e19) {
+}
+try {
+    new Int32Array(2);
+} catch(e23) {
+}
+let v24;
+try { v24 = Int8Array.valueOf(103, Uint32Array); } catch (e) {}
+try {
+    v24.__proto__ = v24;
+} catch(e25) {
+}
+class C26 extends Uint32Array {
+    static #g = 214;
+    [1122] = 512;
+    a;
+}
+new C26();
+new C26();
+new C26();

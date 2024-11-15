@@ -1,0 +1,29 @@
+try {
+    new Int32Array(128);
+} catch(e6) {
+}
+try {
+    new Int16Array(3);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(7);
+} catch(e14) {
+}
+const v15 = [1,-5,-5,1,536870912,423446146];
+[565793589,8433,-2,1472097403];
+[-14,-1024,2];
+for (let i19 = 0; i19 < 5; i19++) {
+    if (BigInt64Array) {
+        v15["findLast"](i19, "findLast");
+    } else {
+        const o29 = {
+            "maxByteLength": 512,
+        };
+        const v31 = new SharedArrayBuffer(16, o29);
+        try {
+            new Uint16Array(v31);
+        } catch(e34) {
+        }
+    }
+}

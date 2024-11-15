@@ -1,0 +1,42 @@
+function f0() {
+}
+class C4 extends f0 {
+    #valueOf(a6) {
+        let v7;
+        try { v7 = new a6(this, this, a6, 65537); } catch (e) {}
+        const v9 = [];
+        Reflect.construct(f0, v9, v7);
+        return v9;
+    }
+    constructor(a12, a13) {
+        super();
+        let v14;
+        try { v14 = this.imul(); } catch (e) {}
+        const v15 = 65537 - 65537;
+        let v16;
+        try { v16 = new v14(v14, v15, a13); } catch (e) {}
+        return 6;
+        try { v16["p"]("p"); } catch (e) {}
+    }
+}
+new C4(6, 7);
+new C4(6, 65537);
+const v21 = new C4(65537, 7);
+const v28 = /1a(?!b)G47r(\xed\xb0\x80)\x01*/mgsvi;
+const v29 = /sB01\cj\cJ\ci\cI\ck\cKv\w|\d/sui;
+Object.defineProperty(/\1(a)\p{Nd}+/mgdu, 2, { writable: true, configurable: true, enumerable: true, value: v21 });
+function f31(a32, a33) {
+    function f35(a36) {
+        %VerifyType(v28.__proto__);
+        %VerifyType(a36);
+    }
+    this.onmessage = f35;
+    const v38 = v29.sticky;
+    try { new a32(v38, v29, v38, v38, v38); } catch (e) {}
+}
+const v42 = [15n,1000n];
+const o43 = {
+    "arguments": v42,
+    "type": "function",
+};
+new Worker(f31, o43);

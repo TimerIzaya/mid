@@ -1,0 +1,39 @@
+try {
+    new Uint8ClampedArray(10);
+} catch(e3) {
+}
+try {
+    new Uint8Array(2);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(16);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    m(a14, a15) {
+        if (a15 != Uint8Array) {
+            try {
+                a15 += 10;
+            } catch(e17) {
+            }
+        } else {
+            super.length *= 10;
+        }
+        return 2;
+    }
+}
+new C12();
+const v19 = new C12();
+new C12();
+class C24 {
+    g = Uint8ClampedArray;
+    static g;
+    static a = 4.0;
+    f = 16;
+}
+new C24();
+new C24();
+const v27 = new C24();
+const v29 = [v27,C12];
+Reflect.apply(v19.find, v27, v29);

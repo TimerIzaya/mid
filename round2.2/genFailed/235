@@ -1,0 +1,51 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 256;
+    } catch(e3) {
+    }
+    try {
+        this.h = 256;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+const v7 = new F0();
+function F8(a10, a11) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a11;
+    } catch(e12) {
+    }
+    try {
+        this.f = a11;
+    } catch(e13) {
+    }
+    try {
+        this.d = v6;
+    } catch(e14) {
+    }
+}
+let v15 = new F8(v5, v5);
+const v16 = new F8(v7, v5);
+const v17 = new F8(v7, v5);
+const v18 = /[dHS(a)\1]/mgsdvy;
+/\cj\cJ\ci\cI\ck\cK+/sduyi;
+const v20 = /m(?:a+){0,0}/gdvyi;
+try {
+    v15 ||= v17;
+} catch(e21) {
+}
+function f22(a23, a24) {
+    const o25 = {
+        10000: a24,
+        "a": a23,
+        "c": F8,
+        ...v5,
+    };
+    return o25;
+}
+f22(v16, v20);
+f22(v15, v18);
+f22(v17, v18);

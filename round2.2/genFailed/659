@@ -1,0 +1,37 @@
+class C3 {
+    constructor(a5) {
+        let v4 = this;
+        try {
+            v4 = "object";
+        } catch(e6) {
+        }
+        const t7 = "object";
+        t7.length >>>= a5;
+        try {
+            v4[1.7976931348623157e+308] = "object";
+        } catch(e7) {
+        }
+    }
+    #b;
+    [1.7976931348623157e+308] = 9007199254740992;
+}
+const v8 = new C3(C3);
+const v9 = new C3(1.7976931348623157e+308);
+const v10 = new C3(C3);
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 1.7976931348623157e+308;
+    } catch(e17) {
+    }
+}
+const v18 = new F11(v8, v8, "object", C3);
+const v19 = new F11(v9, v8, v18, v10);
+new F11(v19, v8, "object", "object");
+v19["function"];
+try {
+    v9[v19] = "string";
+} catch(e28) {
+}
+try { v18.copyWithin(-12, v10, 372620906); } catch (e) {}
+C3[74];

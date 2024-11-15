@@ -1,0 +1,45 @@
+try {
+    new Uint8Array(128);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(2517);
+} catch(e7) {
+}
+try {
+    new Int32Array(932);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    constructor(a14, a15) {
+        super(a15);
+        super.buffer;
+        [-9223372036854775808,-9223372036854775807,16];
+        [10,-56515,-536870912,127,-838733919,10832,-55621];
+        [1584523014,-629547636,2147483647,45750,512,-27586799,-65537,-701554135,257];
+    }
+    2435 = Uint8Array;
+    g = 932;
+    static 158 = 932;
+}
+const v20 = new C12(932, 128);
+const v21 = new C12(128, 2517);
+const v22 = new C12(932, 2517);
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v20;
+    } catch(e28) {
+    }
+    try {
+        this.b = a26;
+    } catch(e29) {
+    }
+    try {
+        this.e = a25;
+    } catch(e30) {
+    }
+}
+new F23(932, v21, v20);
+new F23(2517, v21, v22);
+new F23(2517, v22, v21);

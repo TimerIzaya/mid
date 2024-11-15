@@ -1,0 +1,44 @@
+class C3 {
+    #g;
+    static valueOf(a5, a6) {
+        try {
+            this.g = this;
+        } catch(e7) {
+        }
+        return 8;
+    }
+    n(a9, a10) {
+        function f11() {
+            return 8;
+        }
+        try {
+            a9.c = a10;
+        } catch(e12) {
+        }
+        return 4.0;
+    }
+}
+C3.name = C3;
+const v13 = new C3();
+try { v13.propertyIsEnumerable(4.0); } catch (e) {}
+const v15 = new C3();
+const v16 = v15?.__lookupGetter__;
+try { new v16(v13); } catch (e) {}
+const v18 = new C3();
+const v19 = [2.527447025990508,Infinity,-2.220446049250313e-16,-9.556761155694906,-766.5766059204846,2.0,-4.505706096905524];
+try { v19.unshift(v18); } catch (e) {}
+[503886.3809484141,1000000000.0,-2.1495712418364814e+307,0.12903599750004058,-1.037070161269089e+308,0.15937519908543019,65.34119625878566,-830666.521253582];
+[-747803.8288976796,-3.0,6.993136872807376,1000000000.0,430817.9685276295,Infinity,1000000.0,-2.0];
+128 * 128;
+let v29 = 61234;
+v29--;
+function f31() {
+    return f31;
+}
+function f32() {
+    return f31;
+}
+Object.defineProperty(f31, Symbol.iterator, { writable: true, configurable: true, enumerable: true, get: f32 });
+const v36 = new Uint8ClampedArray(f31, Uint8ClampedArray, f31);
+const v37 = v36.filter(f31);
+try { v37.filter(v37); } catch (e) {}

@@ -1,0 +1,20 @@
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a9;
+    } catch(e10) {
+    }
+}
+const v11 = new F6(16n, -253639029n);
+const v12 = new F6(-65536n, -253639029n);
+const v13 = new F6(1024n, -253639029n);
+const v14 = [v13,-65536n,v12,-253639029n];
+const v15 = [-31269n,1024n,v14,16n];
+const v16 = [-65536n];
+const v19 = typeof -31269n === "string";
+try {
+    v11.b /= 16n;
+} finally {
+    const v21 = [v19,v15];
+    Reflect.apply(v14.find, v16, v21);
+}

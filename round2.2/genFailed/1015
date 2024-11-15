@@ -1,0 +1,54 @@
+try {
+    new Int16Array(16);
+} catch(e3) {
+}
+try {
+    new Uint32Array(5);
+} catch(e7) {
+}
+try {
+    new Int32Array(129);
+} catch(e11) {
+}
+class C12 {
+    static {
+        try {
+            super[Uint32Array] = this;
+        } catch(e14) {
+        }
+    }
+    constructor(a16, a17, a18) {
+        this[a17];
+        const o20 = {
+        };
+        try {
+            new Proxy(this, o20);
+        } catch(e23) {
+        }
+    }
+}
+const v24 = new C12(16, 5, 129);
+const v25 = new C12(129, Int16Array, 16);
+const v26 = new C12(129, 16, 16);
+class C27 {
+    constructor(a29, a30, a31) {
+        let v34 = 949287389;
+        const v35 = +810720746;
+        v35 ^ 810720746;
+        Math.min(v34);
+        Math.round(v34);
+        Int32Array % v34;
+        ++v34;
+        -v35;
+    }
+}
+const v42 = new C27(v24, C27, 5);
+new C27(v26, v25, 16);
+new C27(v24, v42, 16);
+const v48 = delete C27[16];
+try { v48(v48, v48, Uint32Array, -2147483648); } catch (e) {}
+C12 != v24;
+new Int32Array(-1002942915, 16, 16);
+[3.0,-2.6912681362112372e+306,Infinity,247995.48842367437,1000000000000.0];
+[5.0,9.0696508207618e+307,-2.220446049250313e-16,Infinity,0.0,0.9568081253426792,1000.0];
+[-1000000.0,NaN,2.0,-2.220446049250313e-16,6.280873179738194,568.5267181231454,1.6978143806879245e+307,-1000000000000.0];

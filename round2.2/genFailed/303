@@ -1,0 +1,51 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = undefined;
+    } catch(e3) {
+    }
+}
+const v4 = new F1();
+const v5 = new F1();
+const v6 = new F1();
+class C7 extends F1 {
+    3;
+    constructor(a9, a10) {
+        super();
+        Object.defineProperty(v4, "c", { configurable: true, value: v5 ^ v5 });
+    }
+    8 = v6;
+    static p(a13, a14) {
+        super.e;
+        const o16 = {
+            __proto__: a14,
+            "f": a13,
+        };
+        o16 >> o16;
+        return o16;
+    }
+}
+const v18 = new C7(v6, v6);
+new C7(v5, v18);
+const v20 = new C7(v18, C7);
+try {
+    new Float32Array(8);
+} catch(e24) {
+}
+try {
+    new BigUint64Array(227);
+} catch(e28) {
+}
+try {
+    new BigUint64Array(451);
+} catch(e32) {
+}
+for (const v33 of BigUint64Array) {
+    [65537,5,-536870912,1024,1,1005094585];
+    [4294967297,7];
+    const v36 = [9007199254740990];
+    try {
+        v20.g = v36;
+    } catch(e37) {
+    }
+}

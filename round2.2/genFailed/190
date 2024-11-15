@@ -1,0 +1,30 @@
+try {
+    new Int16Array(6);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(2242);
+} catch(e13) {
+}
+try {
+    new Int8Array(3);
+} catch(e17) {
+}
+let v18 = [204475762n,2242];
+const v19 = [BigUint64Array,Int8Array];
+const v20 = [v19,204475762n,v19];
+const v21 = new BigUint64Array(v20);
+try {
+    v18 -= v19;
+} catch(e22) {
+}
+v21["indexOf"]("indexOf", 3);
+delete v20[204475762n];
+v21.byteLength;
+let v28 = -8;
+const v31 = v28++;
+Math.sqrt(v28);
+(-13n) ** 2.2250738585072014e-308;
+-9223372036854775808 && -13n;
+let v36 = -v31 & -13n;
+v36--;

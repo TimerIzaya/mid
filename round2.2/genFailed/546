@@ -1,0 +1,47 @@
+try {
+    new Float64Array(257);
+} catch(e3) {
+}
+try {
+    new Int32Array(64);
+} catch(e7) {
+}
+try {
+    new Int32Array(187);
+} catch(e11) {
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a17;
+    } catch(e20) {
+    }
+    try {
+        this.h = 257;
+    } catch(e21) {
+    }
+    try {
+        this.d = 536870889;
+    } catch(e22) {
+    }
+}
+const v23 = new F15(-17727, 257, -17727);
+new F15(64, -17727, 280967373);
+const v25 = new F15(257, 536870889, 536870889);
+for (const v26 of -17727) {
+    let v27;
+    try { v27 = v25.getUTCDay(v23, v26, v26); } catch (e) {}
+    try { new v27(Float64Array, Float64Array); } catch (e) {}
+}
+try {
+    new Int32Array(1024);
+} catch(e32) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e36) {
+}
+try {
+    new Uint32Array(2);
+} catch(e40) {
+}

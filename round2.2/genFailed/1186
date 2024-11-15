@@ -1,0 +1,38 @@
+const v3 = [64751,15,531056,-1916845796,-16,-1467370767,128];
+const v4 = [129,-9007199254740991,-908889571,9,-12,128];
+const v5 = [-4,65362,-1639175380,-13,420];
+function F6(a8, a9) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a8;
+    } catch(e10) {
+    }
+}
+const v11 = new F6(v4, v5);
+const v12 = new F6(v4, v5);
+const v13 = new F6(v4, v3);
+class C14 extends F6 {
+    constructor(a16, a17, a18, a19) {
+        let v15 = this;
+        super(v4, a17);
+        try {
+            super[v11] = v5;
+        } catch(e20) {
+        }
+        ++v15;
+    }
+    #g = F6;
+    static 3 = v5;
+    5;
+}
+const v22 = new C14(v4, v3, v11, v13);
+const v23 = new C14(v12, v3, v12, v22);
+const v24 = new C14(v5, v5, v22, v22);
+%VerifyType(v11);
+const v26 = [v23,[v5,C14],v22];
+[v26,v26];
+v5.length;
+try {
+    v24.length = 10;
+} catch(e30) {
+}

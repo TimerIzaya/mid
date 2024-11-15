@@ -1,0 +1,25 @@
+const v1 = new WeakSet();
+const v5 = [-1024,1024,1024];
+const v6 = [6,-1024,v5];
+const v7 = [v6,v6,v6,v5,v1];
+class C8 extends WeakSet {
+    n(a10, a11, a12) {
+        let v13 = 0;
+        do {
+            let [,v14] = v6;
+            super.e;
+            try {
+                super[v13] = v7;
+            } catch(e16) {
+            }
+            v13++;
+        } while (v13 < 7)
+        return v6;
+    }
+}
+const v20 = new C8();
+new C8();
+new C8();
+new WeakSet(v20);
+let [v30] = v6;
+v6[Symbol.species];

@@ -1,0 +1,19 @@
+try {
+    new Uint16Array(1845);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(1);
+} catch(e10) {
+}
+try {
+    new Float32Array(1024);
+} catch(e14) {
+}
+const t12 = (2.2250738585072014e-308).e;
+t12[Symbol.unscopables] = Float32Array;
+const o24 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o24);

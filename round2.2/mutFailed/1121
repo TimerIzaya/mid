@@ -1,0 +1,92 @@
+Date[Symbol.toPrimitive] = Date;
+const v3 = new Date();
+gc();
+function F9() {
+    if (!new.target) { throw 'must be called with new'; }
+}
+const v12 = new F9();
+v12[3] = -4294967297;
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+    } catch(e20) {
+    }
+    try {
+    } catch(e21) {
+    }
+}
+[1073741824,,];
+try {
+    undefined();
+} catch(e28) {
+}
+function F29(a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v32 = this.constructor;
+    try { new v32(this); } catch (e) {}
+    const v34 = [NaN,-4.0,-1000.0,-1000000.0,-4.442340764522288,-5.04383349707844e+307,-1.7976931348623157e+308,-1.7976931348623157e+308,8.400677120218507,-239767.44387590187];
+    v34.concat([v34]);
+    class C37 {
+    }
+    const v38 = new C37();
+    const v39 = new C37();
+    class C40 extends C37 {
+    }
+    const v41 = new C40();
+    function f42(a43, a44, a45) {
+        v38 instanceof C40;
+        a45[a44] = a44;
+        return a45;
+    }
+    for (let v47 = 0; v47 < 10; v47++) {
+        f42(v41, 1073741824, v39);
+    }
+    a31 != a31;
+    this.e = 16;
+}
+new F29();
+new F29(-1539562599);
+function f53(a54) {
+    const o55 = {
+        ...Date,
+        ...Date,
+        "h": -4294967295n,
+        "c": Date,
+        [a54]: a54,
+        "b": -4294967295n,
+        "f": a54,
+        "g": 373806570n,
+        [Date]: a54,
+        [373806570n]: -4294967295n,
+        "d": Date,
+        __proto__: v3,
+        355: v3,
+    };
+    return o55;
+}
+f53(-4294967295n);
+f53(-1024n);
+f53(-1024n);
+[1.570798133738313e+308,-0.7465731033017615,-2.0,-1.7976931348623157e+308,2.0,-1000000000.0,-2.1671401803207324];
+const v60 = [56.58259139696702,2.2250738585072014e-308,Infinity,17.815683236450468];
+for (let v61 = 0; v61 < 5; v61++) {
+    v60.length = v61;
+}
+for (let v62 = 0; v62 < 25; v62++) {
+}
+[-1.0,2.220446049250313e-16,4.8472532797296175,-2.0,9.329948580351221,-493716.24634808,0.13578683452110263,-2.220446049250313e-16,1000.0];
+[754.7809906996094,-0.45517071159748745,0.006241613467302898,2.220446049250313e-16];
+Reflect.construct(Uint8ClampedArray, [[-1e-15,6.455109597955783,-5.39826037147856,595.9450306907618,0.5668014387812217,1.4941493545825985e+308,-439406.02232971357,-7.358372876565066e+307]]);
+new Date(-1.0, 1.2810869768167568e+308, -1.0);
+new Int32Array(3);
+const v83 = [10,-12,-19986,65537,-9007199254740991,-3,-256];
+const o84 = {
+    __proto__: v83,
+};
+const v86 = new BigInt64Array(-1539562599);
+v86.reverse();
+const o88 = {
+    "execution": "async",
+    "type": "minor",
+};
+gc(o88);

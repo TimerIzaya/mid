@@ -1,0 +1,46 @@
+function f0() {
+}
+function f1() {
+    const o2 = {
+        "g": f0,
+        __proto__: f0,
+        "b": f0,
+        "a": f0,
+        1: f0,
+        "e": f0,
+        "h": f1,
+        "c": f0,
+        "d": f0,
+        [f0]: f0,
+    };
+    return o2;
+}
+f1();
+f1();
+f1();
+function f9() {
+    return "toString";
+}
+class C10 extends "byteLength" {
+    constructor(a12, a13) {
+        super();
+        a13.length;
+        try {
+            this.trim();
+        } catch(e16) {
+        }
+    }
+    static h;
+    static 3536609950 = "unicode";
+    /*
+    constructor(a18, a19, a20) {
+        super();
+        Object.defineProperty("unicode", 256, { get: f0 });
+    }
+    */
+    static #d;
+}
+const v21 = new C10("toString", "toString");
+new v21(f1, "unicode");
+new C10(f0, v21);
+Math.expm1(1);

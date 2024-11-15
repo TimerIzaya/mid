@@ -1,0 +1,38 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    static #b = v1;
+    constructor(a4, a5) {
+        super(v1);
+        let v6;
+        try { v6 = a4.n(a4); } catch (e) {}
+        if (a5) {
+            delete v1[536870888];
+        } else {
+            const v8 = [v1,WeakSet,a4,a5,v6];
+            const v9 = [a4,v8];
+            [v9,v1,v9,WeakSet,v8];
+        }
+    }
+    static [v1];
+    #g;
+}
+const v11 = new C2(v1, C2);
+const v12 = new C2(WeakSet, v11);
+new C2(v12, v12);
+const v16 = new Array(512);
+function f20() {
+    return WeakSet;
+}
+const v21 = [7.114140261067597,2.220446049250313e-16,-4.8254951542893965,399.72422109774243,5.112145960510887,776.2063567129944];
+const v22 = [1.0545416236274067e+308,-1.6138258621654687e+308,1000000000.0,196.61543423438434,471812.6043211105];
+let v23 = [NaN,-1.4388091235326385e+308,-1000000000.0,3.0,-0.0,-409.1105825639272,110055.39791074651,NaN];
+try {
+    v23 = v16;
+} catch(e24) {
+}
+function f25(a26, a27, a28, a29) {
+    const v30 = v23[a29];
+    h = -1n;
+    return v30;
+}
+f25(v1, v22, v21, 268435440n);

@@ -1,0 +1,29 @@
+try {
+    new Int16Array(255);
+} catch(e6) {
+}
+try {
+    new Float32Array(4);
+} catch(e10) {
+}
+try {
+    new Uint32Array(6);
+} catch(e14) {
+}
+const o21 = {
+    "a": -2147483647,
+};
+for (let [v22,v23,v24,...v25] of o21) {
+    try {
+        new Uint16Array(5);
+    } catch(e29) {
+    }
+    try {
+        new Uint32Array(257);
+    } catch(e33) {
+    }
+    try {
+        new Int8Array(3);
+    } catch(e37) {
+    }
+}

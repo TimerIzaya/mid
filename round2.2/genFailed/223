@@ -1,0 +1,59 @@
+function f0() {
+    const o15 = {
+        "a": 2147483647,
+        "e": 2147483647,
+        "g": "POSITIVE_INFINITY",
+        "f": "POSITIVE_INFINITY",
+        "h": "d",
+        [2147483647](a5, a6) {
+            let v10 = a6 || a6;
+            ++v10;
+            Math.tan(v10);
+            -29557 * v10;
+            Math.round(v10);
+            return -29557;
+        },
+    };
+    return o15;
+}
+f0();
+const v17 = f0();
+const v18 = f0();
+try {
+    new Uint8Array(1000);
+} catch(e22) {
+}
+try {
+    new Float64Array(1);
+} catch(e26) {
+}
+try {
+    new Float32Array(256);
+} catch(e30) {
+}
+class C31 extends Float32Array {
+    constructor(a33, a34) {
+        super(1000, 1, 1000);
+        a34[a33];
+    }
+    [1];
+    [1000] = 1;
+    c;
+    1;
+}
+new C31(v18, v17);
+new C31(v18, v17);
+new C31(v17, C31);
+const v42 = 256;
+if (v17) {
+    const o45 = {
+        "maxByteLength": 36402328,
+    };
+    const v47 = new SharedArrayBuffer(1024, o45);
+    try {
+        new Float32Array(v47);
+    } catch(e50) {
+    }
+} else {
+    v18[-2];
+}

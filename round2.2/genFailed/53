@@ -1,0 +1,17 @@
+const v3 = [9007199254740991];
+const v4 = [v3,v3,v3];
+const v5 = [183724302,v4,14,v4];
+const v8 = new Array(1000);
+const v13 = (a14, a15, a16, a17) => {
+    const v18 = [2.0];
+    [1.0,2.0,[v18,v18],a16];
+    return a16;
+};
+const v21 = v8.every(...v3, 183724302, v13, ...v5);
+new Array(2.0, v21, null, 2.0);
+v13(9007199254740991, 1000, 1.0, v21);
+%PrepareFunctionForOptimization(v13);
+v13(9007199254740991, 1000, 1.0, v21);
+v13(9007199254740991, 1000, 1.0, v21);
+%OptimizeFunctionOnNextCall(v13);
+v13(9007199254740991, 1000, 1.0, v21);

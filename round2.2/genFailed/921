@@ -1,0 +1,23 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 5;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+const v7 = [-757.319067751678,-1.0];
+const v8 = [1000000000.0,385235.9934052136,2.220446049250313e-16,0.06654864639487101,4.0,509830.84095362085,0.0];
+const v10 = [[-0.0,-1e-15,-290.11286849021167,-5.0,-2.0,-9.684191230412072,-1.0359893613460455e+308,1000000000.0,-699.5439513970379],v5,v5,v6,F0];
+const v11 = [v8,v7];
+[v11,v7,v11,v11];
+const v13 = v4 && v5;
+let v15;
+try { v15 = v13["toString"]("toString", v7); } catch (e) {}
+const v17 = v8["join"]("toString");
+Reflect.construct(v17, [v6], F0);
+delete v13?.b;
+[[v17,v13],v15];
+[v6,v10,F0];

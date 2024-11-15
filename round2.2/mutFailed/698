@@ -1,0 +1,80 @@
+function f0() {
+}
+const v4 = [24648,2147483647,-1019430840];
+const v5 = [268435456,255,-2,-7,536870912];
+const v6 = [-54875,2147483649,-4294967295,4294967296,-61770,-2,46973,600587771,-1125168028,536870912];
+function f7(a8, a9, a10, a11) {
+    const o24 = {
+        6: v6,
+        "g": v4,
+        get f() {
+            this.p(a8, this, a11);
+            return a11;
+        },
+        ...v4,
+        ...v6,
+        m(a15, a16, a17, a18) {
+            try { a15.toString(a10, a17, a8, this, a15); } catch (e) {}
+            const v20 = v4.length;
+            a10.__proto__;
+            new Map();
+            return v20;
+        },
+        "h": 14569n,
+    };
+    return o24;
+}
+const t26 = -8n;
+const v25 = t26(1073741824n, 14569n, 1073741824n, 14569n);
+f7(1073741824n, 1073741824n, 14569n, 14569n);
+const v27 = f7(-8n, 14569n, 1073741824n, 14569n);
+function F28(a30, a31, a32) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a30;
+    } catch(e33) {
+    }
+    try {
+        this.e = 14569n;
+    } catch(e34) {
+    }
+}
+new F28(v4, v27, v25);
+const v36 = new F28(v5, v27, v27);
+const v37 = new F28(v6, 14569n, v25);
+function f38() {
+    const o43 = {
+        "c": "n",
+        ..."n",
+        get f() {
+            return this;
+        },
+        11: -1581306778,
+        "a": -8n,
+        "g": v6,
+        "d": v4,
+        __proto__: "n",
+        ...v5,
+        "e": "n",
+        [536870888]: v37,
+        ..."n",
+        "a": v37,
+        "b": "n",
+        "g": v6,
+        [v6]: v36,
+        [1073741824n]: 536870888,
+        "g": 536870888,
+        "f": -1581306778,
+        [v27]: -1581306778,
+        "d": F28,
+        "h": "n",
+        ...v37,
+        [F28]: f7,
+    };
+    return o43;
+}
+%PrepareFunctionForOptimization(f38);
+f38();
+f38();
+%OptimizeFunctionOnNextCall(f38);
+f38();

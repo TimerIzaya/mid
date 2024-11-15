@@ -1,0 +1,39 @@
+try {
+    new Int8Array(512);
+} catch(e3) {
+}
+try {
+    new Uint8Array(160);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e11) {
+}
+const v12 = [512,Int8Array,128,512];
+const v13 = [Uint8Array];
+const v14 = [128,v13];
+class C15 extends BigUint64Array {
+    c = BigUint64Array;
+    set a(a17) {
+        delete this[129];
+        const v20 = [a17];
+        Reflect.apply(this.forEach, a17, v20);
+    }
+    static #h;
+    [v12] = BigUint64Array;
+    static [160] = v13;
+    #c;
+}
+const v23 = new C15();
+new C15();
+new C15();
+v14[v23];
+for (let i29 = 0, i30 = 10; i29 < i30; i29++, i30--) {
+    new C15();
+    new Uint8Array(v23);
+    try {
+        i30 <<= 128;
+    } catch(e40) {
+    }
+}

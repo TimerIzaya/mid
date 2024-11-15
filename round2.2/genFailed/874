@@ -1,0 +1,30 @@
+function f3() {
+    return 16;
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a6;
+    } catch(e7) {
+    }
+    try {
+        this.f = 1;
+    } catch(e8) {
+    }
+}
+const v9 = new F4(1);
+const v10 = new F4(1);
+const v11 = new F4(1);
+v11 !== F4;
+try {
+    v9[v9] = v10;
+} catch(e19) {
+}
+for (let [v20,v21] of 0.8263638956169564) {
+    v9[7];
+    f3();
+    try {
+        v10.g = -1024n;
+    } catch(e24) {
+    }
+}

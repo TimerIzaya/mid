@@ -1,0 +1,31 @@
+let v4;
+try { v4 = Array("object"); } catch (e) {}
+function f5() {
+    return Array;
+}
+Object.defineProperty(v4, Symbol.toPrimitive, { configurable: true, enumerable: true, get: f5 });
+try { v4.findLast(v4); } catch (e) {}
+16 & 16;
+const v11 = new Array(16);
+let v12 = 7;
+-v12;
+v12--;
+BigUint64Array.d = BigUint64Array;
+try {
+    new BigUint64Array(v12);
+} catch(e17) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e21) {
+}
+1 & 1;
+try {
+    new v11(1);
+} catch(e26) {
+}
+let v28;
+try { v28 = Math.expm1(16); } catch (e) {}
+v28 - v28;
+1188195176 / BigUint64Array;
+Math.tan(v4);

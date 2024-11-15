@@ -1,0 +1,64 @@
+class C3 {
+    static #m(a5) {
+        let v6;
+        try { v6 = a5("kKEk", this, a5, 1008229798); } catch (e) {}
+        let v7;
+        try { v7 = a5(this, v6, a5, this); } catch (e) {}
+        return v7;
+    }
+    constructor(a9) {
+        for (let v10 = 0; v10 < 32; v10++) {
+            a9["p" + v10] = v10;
+        }
+    }
+}
+const v13 = new C3(-1082772035);
+const v14 = new C3(1008229798);
+const v15 = new C3(v14);
+class C16 extends C3 {
+    #g;
+    constructor(a18, a19) {
+        super(a18);
+        try {
+            v15.#g;
+        } catch(e21) {
+        }
+    }
+    8 = "kKEk";
+    [v15];
+    16 = v13;
+    #b = v13;
+}
+const v22 = new C16(v13, "kKEk");
+const v23 = new C16(v22, C16);
+new C16(v13, v23);
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = v14;
+    } catch(e29) {
+    }
+    try {
+        this.b = a27;
+    } catch(e30) {
+    }
+}
+new F25(C16, F25);
+new F25(C16, "kKEk");
+new F25(v15, v14);
+try { C16["normalize"](v22, "normalize", v15, 1008229798, F25); } catch (e) {}
+function f36() {
+    return F25;
+}
+for (let v37 = 0; v37 < 56; v37++) {
+    const v38 = "normalize";
+    f36();
+    const o42 = {
+        "maxByteLength": 2314,
+    };
+    const v44 = new SharedArrayBuffer(2314, o42);
+    try {
+        new Uint8ClampedArray(v44);
+    } catch(e47) {
+    }
+}

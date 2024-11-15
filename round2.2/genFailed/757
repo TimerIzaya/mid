@@ -1,0 +1,22 @@
+function f3() {
+    return 44873;
+}
+try {
+    new Float64Array(7);
+} catch(e7) {
+}
+try {
+    new Uint16Array(242);
+} catch(e11) {
+}
+try {
+    new Float64Array(15);
+} catch(e15) {
+}
+try {
+    const t16 = 2147483647;
+    t16.length = 128;
+} catch(e20) {
+}
+const v21 = new Float64Array(128, -9223372036854775808, 1000, f3);
+Object.defineProperty(v21, 77, { configurable: true, enumerable: true, get: f3, set: f3 });

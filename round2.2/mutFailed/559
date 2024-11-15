@@ -1,0 +1,43 @@
+let v2 = 1.2031221581791683e+305;
+const v3 = [];
+function f4(a5) {
+    try { a5(a5, a5); } catch (e) {}
+    try {
+        v2 = a5;
+    } catch(e7) {
+    }
+    return 3.0;
+}
+v3.valueOf = f4;
+Math.cosh(3);
+Math.cosh(v3);
+const v12 = Math.cos(v3);
+new Map();
+class C21 {
+}
+new C21();
+const v23 = new C21();
+function f24() {
+}
+function F25(a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    function f28() {
+        return f24;
+    }
+    function f29(a30) {
+        Object.defineProperty(v3, v12, { set: f28 });
+    }
+    Object.defineProperty(this, "constructor", { writable: true, enumerable: true, get: f28, set: f29 });
+    const v31 = this.constructor;
+    try { new v31(); } catch (e) {}
+    try { a27(v23); } catch (e) {}
+}
+new F25(F25);
+class C35 extends f24 {
+}
+const v36 = new C35();
+function f37() {
+    return v3;
+}
+Object.defineProperty(v36, "getUint8", { writable: true, configurable: true, get: f37 });
+try { v36.getUint8(); } catch (e) {}

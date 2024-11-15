@@ -1,0 +1,58 @@
+try {
+    new Int8Array(10);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(7);
+} catch(e7) {
+}
+try {
+    new Uint8Array(68);
+} catch(e11) {
+}
+class C12 {
+    static set d(a14) {
+        Reflect.construct(BigUint64Array, [Reflect,7], BigUint64Array);
+        function F18(a20, a21, a22) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = this;
+            } catch(e23) {
+            }
+        }
+        const v24 = new F18(7, a14, Int8Array);
+        new F18(68, 68, v24);
+        new F18(a14, 68, this);
+    }
+}
+const v27 = new C12();
+const v28 = new C12();
+const v29 = new C12();
+try {
+const t0 = 7;
+t0(10, v28, BigUint64Array);
+} catch (e) {}
+const o31 = {
+};
+const v33 = new Proxy(C12, o31);
+v27 instanceof Proxy;
+let v36;
+try { v36 = v27["clear"](10); } catch (e) {}
+function F37(a39, a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a41;
+    } catch(e42) {
+    }
+    try {
+        this.d = o31;
+    } catch(e43) {
+    }
+    try {
+        this.a = a40;
+    } catch(e44) {
+    }
+}
+const v45 = new F37(v28, v28, 10);
+new F37(v45, v33, v36);
+new F37(v29, o31, 7);

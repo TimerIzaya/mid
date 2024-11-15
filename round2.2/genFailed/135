@@ -1,0 +1,32 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 16;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+class C10 {
+    constructor(a12, a13, a14, a15) {
+        const v18 = Reflect.construct(F0, [], a14);
+        [v4,9007199254740990,-64011,delete v6[257],-64011];
+        [v18,a12,1155];
+        [1155,Reflect];
+    }
+    static [F0];
+}
+new C10(-64011, v4, v5, 9007199254740990);
+const v24 = new C10(1155, v4, v6, -64011);
+new C10(9007199254740990, v24, 1155, 9007199254740990);
+if (v5 === F0) {
+    var h = v6 / 1155;
+} else {
+    v6 ^ 1155;
+}
+%VerifyType(1155);
+try {
+    v5.valueOf = 9007199254740990;
+} catch(e29) {
+}

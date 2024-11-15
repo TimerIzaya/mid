@@ -1,0 +1,99 @@
+class C3 {
+    get g() {
+        try {
+            const t3 = "p";
+            t3.__proto__ = this;
+        } catch(e5) {
+        }
+        try {
+            super.all("HPO", this);
+        } catch(e7) {
+        }
+        return "0";
+    }
+}
+C3.d = C3;
+new C3();
+const v9 = new C3();
+const v10 = v9?.constructor;
+try { new v10(); } catch (e) {}
+const v12 = new C3();
+const v13 = v12?.constructor;
+try { new v13(); } catch (e) {}
+function f15() {
+    return v12;
+}
+let v16 = -65537;
+v16--;
+9007199254740991 >> 9007199254740991;
+-777063313 - -777063313;
+try {
+    const v24 = new Float64Array(1);
+    v24.BYTES_PER_ELEMENT = v24;
+} catch(e25) {
+}
+let v26 = 1199;
+try {
+    new Int32Array(v26);
+} catch(e29) {
+}
+let v30 = 14;
+v30--;
+try {
+    new BigUint64Array(v30);
+} catch(e34) {
+}
+function f35() {
+    return 1;
+}
+class C36 {
+    static 3441497194 = BigUint64Array;
+    b;
+    #o(a38, a39, a40) {
+        v26--;
+        Reflect.construct(Int32Array, [this,a39], BigUint64Array);
+        try {
+            super.call(a39, a40);
+        } catch(e46) {
+        }
+        return a38;
+    }
+}
+const v47 = new C36();
+new C36();
+const v49 = new C36();
+v49.b;
+8 * 8;
+try {
+    new Int16Array(8);
+} catch(e55) {
+}
+try {
+    new Uint16Array(2389);
+} catch(e59) {
+}
+try {
+    const v62 = new Uint32Array(5);
+    v62[2] = v62;
+} catch(e63) {
+}
+new WeakMap(WeakMap);
+function f66(a67, a68, a69) {
+    function f71(a72) {
+        try {
+            new Int32Array(this);
+        } catch(e74) {
+        }
+    }
+    this.onmessage = f71;
+    new BigUint64Array(this, 8);
+    try {
+    } catch(e77) {
+    }
+}
+const v80 = [v26,v47,v47];
+const o81 = {
+    "arguments": v80,
+    "type": "function",
+};
+new Worker(f66, o81);

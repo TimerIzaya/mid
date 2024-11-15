@@ -1,0 +1,53 @@
+try {
+    new Uint16Array(10);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(1000);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(2827);
+} catch(e11) {
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a15;
+    } catch(e16) {
+    }
+    try {
+        this.b = a14;
+    } catch(e17) {
+    }
+}
+const v18 = new F12(2827, 2827);
+const v19 = new F12(1000, 2827);
+const v20 = new F12(2827, 2827);
+try {
+    new BigUint64Array(512);
+} catch(e24) {
+}
+try {
+    new Uint8ClampedArray(59);
+} catch(e28) {
+}
+try {
+    new BigInt64Array(128);
+} catch(e32) {
+}
+try {
+    v18[Uint16Array] = BigInt64Array;
+} catch(e33) {
+}
+try { v19.deref(2827, v18); } catch (e) {}
+class C35 extends BigInt64Array {
+    static [Uint16Array] = v20;
+    3235;
+    [2827];
+    static #b = v18;
+    2;
+}
+new C35();
+new C35();
+new C35();

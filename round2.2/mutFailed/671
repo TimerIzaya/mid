@@ -1,0 +1,58 @@
+let v3 = 10;
+for (; v3--;) {
+}
+let v9 = Float32Array;
+try {
+    new v9(8);
+} catch(e11) {
+}
+let v13 = Uint8Array;
+({"d":v13,"e":v9,} = v13);
+v13[257] ^= 4465;
+v13?.[1000];
+delete v9?.[1000];
+try {
+    new Uint16Array(16);
+} catch(e19) {
+}
+try {
+    new BigInt64Array(361);
+} catch(e23) {
+}
+try {
+    new Int8Array(16);
+} catch(e27) {
+}
+try {
+    new v13(257);
+} catch(e29) {
+}
+try {
+    new Uint32Array(1131);
+} catch(e33) {
+}
+const v34 = [1131];
+[[82842985,Uint32Array,257,v34],1000,v13,257,v34];
+const v38 = [-17187,-268435456,-1467519467,12912,65535,11,-14,-9007199254740990,281638100,1];
+function f39(a40, a41, a42) {
+    const o50 = {
+        __proto__: a41,
+        valueOf(a44, a45, a46, a47) {
+            -536870912 ^ a40;
+            return v38;
+        },
+        "g": a41,
+        get e() {
+        },
+    };
+    return o50;
+}
+%PrepareFunctionForOptimization(f39);
+f39(-536870912, v38);
+const v52 = f39(-536870912, v38);
+try {
+    v52.valueOf(-35658, 98587972, 98587972, 98587972);
+} catch(e56) {
+}
+%OptimizeFunctionOnNextCall(f39);
+f39();

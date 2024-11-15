@@ -1,0 +1,34 @@
+const v2 = new WeakMap();
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = false;
+    } catch(e6) {
+    }
+    try {
+        this.g = WeakMap;
+    } catch(e7) {
+    }
+    try {
+        this.a = a5;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(WeakMap);
+new F3(v9);
+new F3(v2);
+const v13 = new Date();
+function f14() {
+    return v13;
+}
+-Infinity;
+-Infinity;
+try {
+    f14 *= f14;
+} catch(e18) {
+}
+try {
+    F3 = WeakMap;
+} catch(e19) {
+}
+let {"a":v21,"g":v22,...v23} = Date[WeakMap];

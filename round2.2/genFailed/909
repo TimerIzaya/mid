@@ -1,0 +1,50 @@
+try {
+    new Int8Array(4);
+} catch(e3) {
+}
+try {
+    new Int32Array(256);
+} catch(e7) {
+}
+try {
+    new Float64Array(209);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(128);
+} catch(e15) {
+}
+try {
+    new Uint8Array(128);
+} catch(e19) {
+}
+try {
+    new Int16Array(632);
+} catch(e23) {
+}
+class C24 extends Uint8Array {
+    [209];
+    9;
+    f;
+    #p(a26, a27, a28, a29) {
+        a28[0] >>>= a29;
+        for (let [v30,,v31,v32] of this) {
+            v30 | v32;
+            for (let v34 = 0; v34 < 32; v34++) {
+                this["p" + v34] = v34;
+            }
+        }
+        return a27;
+    }
+}
+const v37 = new C24();
+let v38 = new C24();
+const v39 = new C24();
+if (v39 >= v37) {
+    209 || v38[268435456];
+} else {
+    try {
+        v38 ^= v39;
+    } catch(e43) {
+    }
+}

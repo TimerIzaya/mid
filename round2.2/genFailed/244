@@ -1,0 +1,35 @@
+try {
+    new BigUint64Array(10);
+} catch(e3) {
+}
+try {
+    new Float32Array(255);
+} catch(e7) {
+}
+try {
+    new Uint8Array(512);
+} catch(e11) {
+}
+try {
+    new Float32Array(129);
+} catch(e15) {
+}
+try {
+    new Uint8ClampedArray(1);
+} catch(e19) {
+}
+try {
+    new Uint8Array(64);
+} catch(e23) {
+}
+Float32Array instanceof Float32Array;
+const t24 = 512;
+const v26 = (delete t24[1]).__proto__;
+let v27;
+try { v27 = v26.cosh(129, v26, 255, v26); } catch (e) {}
+try {
+    v27[4177091619] = v26;
+} catch(e28) {
+}
+let {"a":v29,"g":v30,} = v27;
+v26?.[v26];

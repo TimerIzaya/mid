@@ -1,0 +1,43 @@
+try {
+    new Int32Array(13);
+} catch(e3) {
+}
+try {
+    const v6 = new Uint16Array(13);
+    v6[811];
+} catch(e8) {
+}
+4096 + 4096;
+try {
+    const v12 = new Float64Array(4096);
+    v12[319];
+} catch(e14) {
+}
+let v16;
+try { v16 = ("1N").trim(); } catch (e) {}
+function F22(a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    const v27 = ("b")?.constructor;
+    try { new v27(a25, 4096, a25); } catch (e) {}
+    a26.d = Uint16Array;
+    try {
+        a25.f = a26;
+    } catch(e29) {
+    }
+    try {
+        this.b = a25;
+    } catch(e30) {
+    }
+    try {
+        a26.h = a25;
+    } catch(e31) {
+    }
+}
+const v32 = new F22("p", "b", Int32Array);
+v32.h = v32;
+new F22("g", "function", v32);
+const v34 = new v16(Int32Array, "p", "p");
+const v35 = /[a\Sc]/gyi;
+const t39 = "exec";
+t39.length %= 13;
+delete v34[v35];

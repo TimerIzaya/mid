@@ -1,0 +1,44 @@
+try {
+    new Int8Array(257);
+} catch(e4) {
+}
+try {
+    new Uint8Array(1719);
+} catch(e8) {
+}
+try {
+    new Uint16Array(257);
+} catch(e12) {
+}
+class C16 extends Uint16Array {
+    static m(a18, a19, a20) {
+        let v17 = this;
+        --v17;
+        const t15 = 1719;
+        t15.a &= a20;
+        delete a19?.d;
+        try {
+            super.buffer = Int8Array;
+        } catch(e23) {
+        }
+        return a18;
+    }
+    static #a;
+    b;
+    4294967296 = 257;
+    578;
+}
+const v24 = new C16();
+new C16();
+const v26 = new C16();
+v26[536870912];
+const v29 = Symbol.toPrimitive;
+const o35 = {
+    [v29]() {
+        try {
+            new Uint16Array(v24, -4294967295, -268435456);
+        } catch(e34) {
+        }
+        return 257;
+    },
+};

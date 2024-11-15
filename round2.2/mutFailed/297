@@ -1,0 +1,57 @@
+try {
+    new Int8Array(101);
+} catch(e3) {
+}
+Int8Array.d = Int8Array;
+try {
+    new Int8Array(16);
+} catch(e7) {
+}
+try {
+    new Int32Array(1068);
+} catch(e11) {
+}
+const v14 = -2147483647;
+function f16(a17, a18) {
+    a17++;
+    const o29 = {
+        set a(a21) {
+            function f22(a23, a24) {
+                return this;
+            }
+            f22(a18, a18);
+        },
+        "h": Int32Array,
+        4096: a18,
+        "d": a18,
+        ...a17,
+        "c": a18,
+        "b": Int8Array,
+    };
+    return v14;
+}
+const v30 = f16(101, -65535);
+const v31 = f16(-1589305366, 16);
+v31[4096] = v31;
+const v32 = f16(Int8Array, 101, 101, Int8Array, v30);
+function f33() {
+    return v32;
+}
+try {
+    new Float32Array(128);
+} catch(e37) {
+}
+try {
+    const v40 = new Uint16Array(127);
+    v40[100];
+} catch(e42) {
+}
+5 - 5;
+try {
+    new Float64Array(16);
+} catch(e47) {
+}
+let v50;
+try { v50 = new BigInt64Array(BigInt64Array, 16, 16); } catch (e) {}
+new BigInt64Array(1000);
+v50.reverse();

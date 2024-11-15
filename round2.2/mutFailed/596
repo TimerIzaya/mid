@@ -1,0 +1,71 @@
+try {
+    new Float64Array(2047);
+} catch(e4) {
+}
+const v7 = /a*?\p{Changes_When_NFKC_Casefolded}/gsuyi;
+const v8 = /a[^a]+/gsui;
+const v9 = /Y\b/gdvy;
+class C10 {
+    static [-358180403n];
+    constructor(a12, a13, a14, a15) {
+        super.c |= a12;
+        let v16;
+        try { v16 = this.set(a15, a12, 512n); } catch (e) {}
+        try { v16(-358180403n, v7, v7); } catch (e) {}
+    }
+    static [512n];
+    a = v9;
+    #valueOf(a19, a20, a21, a22) {
+        try {
+            super[a19] = 19350n;
+        } catch(e23) {
+        }
+        return v8;
+    }
+}
+const v24 = new C10(-358180403n, 19350n, v9, v8);
+const v25 = new C10(-358180403n, 19350n, v8, v8);
+const v26 = new C10(19350n, -358180403n, v9, v9);
+function f27(a28, a29, a30) {
+    const o31 = {
+        0: a28,
+        "a": v9,
+        "b": a30,
+        "d": a28,
+        10: v8,
+        "g": v8,
+        "h": v7,
+        "c": -358180403n,
+        __proto__: v26,
+        3213: v25,
+        "f": 512n,
+        "e": 19350n,
+        ...C10,
+    };
+    return o31;
+}
+f27(f27(f27(v24, v9, -358180403n), v7, -358180403n), v9, 512n);
+function f37(a38, a39) {
+    const o40 = {
+        [a39]: 1000.0,
+        "g": a39,
+        3329: -4.0,
+    };
+    return -4.0;
+}
+const v41 = f37();
+f37(1000.0, 1000.0);
+const v43 = [f37,f37,f37,f37];
+function f44(a45, a46, a47, a48) {
+    const o50 = {
+        get a() {
+            return v41;
+        },
+        __proto__: a45,
+        ...a45,
+    };
+    return a47;
+}
+const v51 = f44();
+new f44(v43);
+v51 ^ this;

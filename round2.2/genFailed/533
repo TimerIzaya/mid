@@ -1,0 +1,39 @@
+try {
+    new Uint8Array(3444);
+} catch(e3) {
+}
+try {
+    new Float64Array(4096);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(5);
+} catch(e11) {
+}
+function f15() {
+    return Uint8Array;
+}
+class C16 extends Uint8Array {
+    #a = 5;
+    static #g = Float64Array;
+    static #m(a18, a19, a20) {
+        switch (5) {
+            default:
+                break;
+        }
+        return 4096;
+    }
+    [Uint8ClampedArray] = 4096;
+    static 1020 = Uint8ClampedArray;
+    [3444];
+}
+new C16();
+const v23 = new C16();
+new C16();
+v23[2147483647];
+let v26 = 0;
+while (v26 < 3) {
+    %VerifyType(5);
+    try { ("pvq").normalize(); } catch (e) {}
+    v26++;
+}

@@ -1,0 +1,48 @@
+class C3 {
+    f;
+    static #o(a5) {
+        const v7 = Symbol.search;
+        this[v7] = a5;
+        const v12 = [("object").normalize("NFKD")];
+        Reflect.apply(Symbol.for, "undefined", v12);
+        try {
+            v7.a = v12;
+        } catch(e15) {
+        }
+        return "object";
+    }
+    0 = "undefined";
+}
+const v16 = new C3();
+const v17 = new C3();
+const v18 = new C3(-1615352052);
+let v19 = 5.0;
+let v22 = -13;
+let v23 = 0;
+do {
+    v18 - v23;
+    const o25 = {
+    };
+    try {
+        new Proxy(v17, o25);
+    } catch(e28) {
+    }
+    v23++;
+} while ((() => {
+        let v30 = -1215529774;
+        [v19,,v22] = "undefined";
+        try {
+            v30 /= v30;
+        } catch(e31) {
+        }
+        return v23 < v30;
+    })())
+function f36() {
+    return f36;
+}
+try {
+    f36();
+} catch(e38) {
+}
+try { v22(v16, f36, -1615352052, C3, v19); } catch (e) {}
+Object.defineProperty(Uint8Array, Symbol.prototype, { enumerable: true, get: f36 });

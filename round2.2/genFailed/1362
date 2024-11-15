@@ -1,0 +1,28 @@
+try {
+    new Int16Array(8);
+} catch(e3) {
+}
+try {
+    new Uint32Array(0);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(4096);
+} catch(e11) {
+}
+let v21;
+try {
+const t0 = "getOwnPropertyDescriptors";
+v21 = t0(-5.546465511202243e+307);
+} catch (e) {}
+try {
+    const t18 = "symbol";
+    t18.h = v21;
+} catch(e22) {
+}
+new Uint32Array("-11", -268435456, 1);
+try {
+    const t24 = "symbol";
+    t24.h = "symbol";
+} catch(e27) {
+}

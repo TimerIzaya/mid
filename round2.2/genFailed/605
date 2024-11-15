@@ -1,0 +1,29 @@
+let v1 = -13;
+class C9 {
+    p(a11, a12, a13, a14) {
+        try {
+            a14.toString = a11;
+        } catch(e15) {
+        }
+        return a14;
+    }
+    static get a() {
+        try {
+            v1 = -16;
+        } catch(e17) {
+        }
+        return this;
+    }
+}
+new C9();
+new C9();
+const v20 = new C9();
+try {
+    new C9();
+} catch(e22) {
+}
+Object.defineProperty("function", 268435456, { writable: true, value: -4294967296n });
+try {
+    v20.p(C9, -16, 1880n, -58521n);
+} catch(e28) {
+}

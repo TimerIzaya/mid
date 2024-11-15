@@ -1,0 +1,76 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    function f2() {
+        for (let v3 = 0; v3 < 25; v3++) {
+        }
+        return this;
+    }
+    Object.defineProperty(this, "toString", { configurable: true, value: f2 });
+    try {
+        this.d = -736428879;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+function f7() {
+    try {
+        v6[F0] = F0;
+    } catch(e8) {
+    }
+    return v6;
+}
+v6[Symbol.toPrimitive] = f7;
+const v11 = new F0();
+const v12 = new F0();
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 32773n;
+    } catch(e22) {
+    }
+    try {
+        this.a = F0;
+    } catch(e23) {
+    }
+}
+new F16(v12, 65537n, v11, -18697n);
+new F16(v6, -18697n, v12, -18697n);
+new F16(v6, F0, v6, -18697n);
+class C27 extends F16 {
+    static [F0];
+    static #h = 32773n;
+    p(a29, a30) {
+        a30 === v6;
+        try {
+            v11.#h;
+        } catch(e33) {
+        }
+        return a29;
+    }
+    64 = v12;
+    [v6] = 32773n;
+    static f;
+    static 0;
+    static [-18697n];
+}
+new C27();
+new C27();
+new C27();
+const v37 = [-732247010,10136,-65536,-536870912,1073741824];
+v37.toJSON = v6;
+const v38 = [v37];
+function F39(a41, a42, a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    Object.defineProperty(this, "toJSON", { enumerable: true, value: 32773n });
+    this.a = a41;
+}
+const v45 = new F39(v38);
+function f46(a47) {
+    return a47;
+}
+const v50 = [v45];
+const o51 = {
+    "arguments": v50,
+    "type": "function",
+};
+new Worker(f46, o51);
