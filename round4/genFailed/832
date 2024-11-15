@@ -1,0 +1,60 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a6;
+    } catch(e7) {
+    }
+    try {
+        this.d = 536870887;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(536870887, 536870887);
+const v10 = new F3(v9, 536870887);
+const v11 = new F3(536870887, 536870887);
+let v12 = 65536n;
+const v16 = new Set();
+class C17 extends Set {
+    constructor(a19, a20, a21) {
+        super(v11);
+        try {
+            this.has(-4294967297);
+        } catch(e23) {
+        }
+    }
+    static #p(a25, a26, a27) {
+        try {
+            this.#p(a27, v16, 11038, a25, 11038);
+        } catch(e29) {
+        }
+        try {
+            v12--;
+        } catch(e31) {
+        }
+        return v10;
+    }
+}
+new C17(v12, -4294967297, 536870888n);
+new C17(-1556465987n, 11038, -1556465987n);
+new C17(536870888n, 536870887, -1556465987n);
+typeof 536870887 === "bigint";
+let v39;
+try { v39 = v10["p"]("p"); } catch (e) {}
+function F43(a45, a46, a47) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a47;
+    } catch(e48) {
+    }
+    try {
+        this.a = 11038;
+    } catch(e49) {
+    }
+    try {
+        this.d = a46;
+    } catch(e50) {
+    }
+}
+new F43(1000000000.0, v12, 1000000000.0);
+const v52 = new F43(1000000000.0, v12, v39);
+new F43(1000000000.0, -1556465987n, v52);

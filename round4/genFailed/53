@@ -1,0 +1,49 @@
+try {
+    new Int32Array(4);
+} catch(e3) {
+}
+try {
+    new Int16Array(256);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(25);
+} catch(e11) {
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = Int32Array;
+    } catch(e16) {
+    }
+    try {
+        this.e = a15;
+    } catch(e17) {
+    }
+    try {
+        this.g = a15;
+    } catch(e18) {
+    }
+}
+new F12(4, 256);
+new F12(25, 25);
+new F12(25, Int32Array);
+/\x0f/iy;
+const v23 = /yrl/gs;
+/a{0}+/dvs;
+try {
+    new Int16Array(16786);
+} catch(e27) {
+}
+try {
+    v23 >> F12;
+} catch(e29) {
+}
+-F12;
+~Int32Array;
+F12 || F12;
+try {
+    Math.acos(-4096);
+} catch(e37) {
+}
+-F12;

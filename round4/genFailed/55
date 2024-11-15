@@ -1,0 +1,43 @@
+[40760,910868119,536870889];
+const v1 = [23412,-9668,1];
+const v2 = [-9007199254740991,268435439,-9007199254740991,-65535,-9007199254740991,4294967296,9];
+try {
+    new Uint8Array(77);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(3);
+} catch(e10) {
+}
+try {
+    new Float64Array(128);
+} catch(e14) {
+}
+class C15 extends Float64Array {
+    static c;
+    268435441;
+    constructor(a17, a18, a19) {
+        super(77);
+        const v21 = Symbol?.toPrimitive;
+        const o26 = {
+            [v21]() {
+                return a18;
+            },
+        };
+    }
+}
+const v27 = new C15(BigInt64Array, 77, v2);
+const v28 = new C15(Float64Array, 77, v1);
+const v29 = new C15(v28, 77, v2);
+let v30;
+try { v30 = v29(v29, v27, BigInt64Array, v28, v28); } catch (e) {}
+try { v30(v30, C15, v28, v29, v27); } catch (e) {}
+const v33 = new WeakSet();
+try {
+    v33[v2] = 3;
+} catch(e34) {
+}
+try {
+    v29[v33] = 128;
+} catch(e35) {
+}

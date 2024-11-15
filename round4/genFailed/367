@@ -1,0 +1,26 @@
+const v3 = /(\1a)/ym;
+/MGefoo(?<=bar)baz[^\1\2(a(?:\1(b\1\2))\2)\1l]/igumd;
+const v5 = /(?:a+){0,0}\P{sc=Greek}fp\P{sc=Greek}/igum;
+try {
+    new Uint32Array(4096);
+} catch(e12) {
+}
+try {
+    new Uint16Array(128);
+} catch(e16) {
+}
+try {
+    new BigUint64Array(127);
+} catch(e20) {
+}
+let v22 = Symbol?.iterator;
+v3[v22] = 8n;
+try {
+    v22 = Uint32Array;
+} catch(e23) {
+}
+const v24 = new v22(128);
+try {
+    v5.source = v24;
+} catch(e25) {
+}

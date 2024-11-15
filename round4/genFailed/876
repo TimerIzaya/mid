@@ -1,0 +1,55 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        __proto__: f0,
+        valueOf() {
+            function f3() {
+                return this;
+            }
+            try {
+                this.a ||= f3;
+            } catch(e4) {
+            }
+            return f0;
+        },
+        ...f0,
+        [f0]: f0,
+        4: f0,
+        "d": f0,
+    };
+    return o5;
+}
+const v6 = f1();
+const v7 = f1();
+const v8 = f1();
+const v9 = [-9007199254740992,-52565,9223372036854775807,-680221005,255,-795632383,-224957728,9223372036854775807];
+const v10 = [2147483648,-7,6,129];
+const v11 = [-2147483648,1073741824,256,10,-16013,65537];
+class C12 extends f1 {
+    #f;
+    6 = f1;
+    static toString(a14, a15) {
+        v11[Symbol?.split] = this;
+        try {
+            v11.#f = v8;
+        } catch(e18) {
+        }
+        return a14;
+    }
+    7;
+    [f1] = v9;
+    9 = v7;
+}
+new C12();
+new C12();
+const v21 = new C12();
+/\b\u0060/gmv;
+/(a+b\b(?:a+)?)/igmvs;
+/abc\c_/;
+function f25(a26, a27) {
+    const v28 = C12[a27];
+    try { v28(C12, a26, v28, v8, v6); } catch (e) {}
+    return String;
+}
+f25(v10, v21);

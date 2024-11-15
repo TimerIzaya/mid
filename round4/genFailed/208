@@ -1,0 +1,39 @@
+const v0 = [536870889,-599410265,-2,536870912];
+const v1 = [-24719,-65536,129,19332,48366];
+const v2 = [5];
+function f6(a7, a8, a9, a10) {
+    const o13 = {
+        ...v0,
+        "g": a9,
+        "f": v0,
+        get h() {
+            try {
+                v0.length = v1;
+            } catch(e12) {
+            }
+            return this;
+        },
+        "c": a9,
+        "b": a10,
+    };
+    return o13;
+}
+f6(-57965n, v1, v0, -14n);
+const v15 = f6(-57965n, v2, v0, -14n);
+f6(32729n, v0, v0, -14n);
+function f20(a21, a22, a23) {
+    function f25(a26) {
+        a22?.[8];
+    }
+    this.onmessage = f25;
+    try {
+        f25(32729n);
+    } catch(e30) {
+    }
+}
+const v33 = [v15,"3u","function"];
+const o34 = {
+    "arguments": v33,
+    "type": "function",
+};
+new Worker(f20, o34);

@@ -1,0 +1,55 @@
+class C3 {
+    static get c() {
+        Object.defineProperty(this, 1526164559, { writable: true, enumerable: true, value: 1526164559 instanceof this });
+        try {
+            new Uint8Array(9);
+        } catch(e12) {
+        }
+        try {
+            new Uint16Array(257);
+        } catch(e16) {
+        }
+        try {
+            new Int16Array(3);
+        } catch(e20) {
+        }
+        return Uint16Array;
+    }
+}
+const v21 = new C3();
+const v22 = new C3();
+const v23 = new C3();
+function f24(a25, a26) {
+    const o32 = {
+        "b": a25,
+        ...v22,
+        "h": a26,
+        [C3]: v23,
+        set e(a28) {
+            try {
+                a28 !== a25 ? a28 : a25;
+            } catch(e31) {
+            }
+        },
+        5: a26,
+        "d": a25,
+        158: v21,
+    };
+    return o32;
+}
+const v33 = f24(v21, v23);
+const v34 = f24(v23, v21);
+f24(v21, v34);
+try {
+    v33[191] = f24;
+} catch(e39) {
+}
+/8(?:a+)*\u{12345}/gmdvs;
+/(?<!)/igmd;
+/9(?:a{5,1000000}){3,1000000}+/igums;
+try {
+    const o43 = {
+    };
+    f24(o43, v34);
+} catch(e45) {
+}

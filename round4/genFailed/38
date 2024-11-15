@@ -1,0 +1,38 @@
+const v0 = [];
+try {
+    new Float64Array(4);
+} catch(e4) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e8) {
+}
+try {
+    new BigUint64Array(4096);
+} catch(e12) {
+}
+let v13 = -2n;
+try {
+    new Float64Array(1024);
+} catch(e19) {
+}
+try {
+    new Int16Array(204);
+} catch(e23) {
+}
+try {
+    new Uint8Array(10);
+} catch(e27) {
+}
+delete v0[65536];
+let v32;
+try { v32 = v0.indexOf(Float64Array); } catch (e) {}
+with (v32) {
+    let v33 = h;
+    ({"g":v33,"h":v33,} = v32);
+    try { v33.p(Uint8Array, 204, BigUint64Array); } catch (e) {}
+    try {
+        v13 = v33;
+    } catch(e35) {
+    }
+}

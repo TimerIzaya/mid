@@ -1,0 +1,53 @@
+function f0() {
+    const o9 = {
+        "e": "jK",
+        get b() {
+            const v6 = [5];
+            Reflect.apply(("jK")?.substring, "e", v6);
+            return this;
+        },
+        "d": 5,
+        ["e"]: 5,
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+class C13 extends f0 {
+    #c = v10;
+    constructor(a15, a16) {
+        super();
+        try {
+            this[a16] = this;
+        } catch(e17) {
+        }
+    }
+    static #e;
+    512;
+}
+const v18 = new C13(v12, C13);
+const v19 = new C13(C13, v18);
+new C13(v19, f0);
+try {
+    v12.valueOf = f0;
+} catch(e24) {
+}
+function f25(a26, a27, a28) {
+    function f30(a31) {
+        [-2147483647,57489,4294967297];
+        [1957049024];
+        [-65535,9007199254740992];
+    }
+    this.onmessage = f30;
+    f30(a27);
+    function f36() {
+        return -128n;
+    }
+}
+const v39 = [f25,v10,v11];
+const o40 = {
+    "arguments": v39,
+    "type": "function",
+};
+new Worker(f25, o40);

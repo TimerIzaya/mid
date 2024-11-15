@@ -1,0 +1,60 @@
+try {
+    new Float32Array(11);
+} catch(e3) {
+}
+try {
+    new Uint16Array(5);
+} catch(e7) {
+}
+try {
+    new Float32Array(128);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o30 = {
+        "e": Float32Array,
+        ...a15,
+        "g": a13,
+        "f": a14,
+        [Float32Array]: Uint16Array,
+        "d": a15,
+        [128](a17, a18, a19) {
+            function F20(a22, a23, a24, a25) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.f = Float32Array;
+                } catch(e26) {
+                }
+            }
+            new F20(a17, a14, a13, a17);
+            new F20(11, a14, a18, Float32Array);
+            const v29 = new F20(a13, a18, 128, 128);
+            return v29;
+        },
+    };
+    return o30;
+}
+let v31 = f12(11, 11, 128);
+const v32 = f12(11, 5, 11);
+const v33 = f12(128, 128, 11);
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a37;
+    } catch(e40) {
+    }
+}
+new F34(v31, 11, v32, v33);
+new F34(v31, v33, v33, v31);
+new F34(v31, 11, v31, v31);
+for (const v44 of 5) {
+    const v45 = v33?.__proto__;
+    try {
+        v33[16] = v45;
+    } catch(e46) {
+    }
+}
+try {
+    --v31;
+} catch(e48) {
+}

@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = -9007199254740992;
+    } catch(e3) {
+    }
+    try {
+        this.a = -9007199254740992;
+    } catch(e4) {
+    }
+    try {
+        this.f = -9007199254740992;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+class C12 {
+    constructor(a14, a15, a16) {
+        -(127 + 11060);
+        11060 >>> 127;
+        const v27 = !268435439n;
+        try {
+            Math.acosh(127);
+        } catch(e29) {
+        }
+        11060 ** v27;
+        +268435439n;
+    }
+}
+new C12(v8, 44874n, 64110n);
+const v33 = new C12(v7, v6, 64110n);
+new C12(v33, v33, 44874n);
+const o41 = {
+};
+try {
+    new Proxy(C12, o41);
+} catch(e44) {
+}

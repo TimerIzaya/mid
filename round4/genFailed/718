@@ -1,0 +1,31 @@
+try {
+    new BigUint64Array(0);
+} catch(e3) {
+}
+try {
+    new Uint16Array(3423);
+} catch(e7) {
+}
+try {
+    new Float32Array(7);
+} catch(e11) {
+}
+const v16 = new Map();
+const v20 = v16?.[0];
+let v21;
+try { v21 = new v20(-4294967295n); } catch (e) {}
+if (v21 === 0) {
+    typeof 1927076111n === "symbol";
+} else {
+    try {
+        Math.acos(127);
+    } catch(e29) {
+    }
+    127 & 1927076111n;
+    +127;
+    !1927076111n;
+    try {
+        Math.sin(127);
+    } catch(e34) {
+    }
+}

@@ -1,0 +1,25 @@
+const v0 = [];
+let v4 = -2n;
+const v6 = new WeakMap();
+try {
+    new Int32Array(64);
+} catch(e10) {
+}
+try {
+    new Int16Array(127);
+} catch(e14) {
+}
+try {
+    new Uint32Array(512);
+} catch(e18) {
+}
+let v19 = 10;
+v6.delete(2147483648, v19, 64, 2147483648, 2147483648, Int16Array);
+new Uint32Array(64);
+try { v0.every(v0); } catch (e) {}
+let v26 = -1694413331;
+-v26;
+v19++;
+let v31 = --v4 + v19;
+++v31;
+--v26;

@@ -1,0 +1,37 @@
+try {
+    new Int8Array(92);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(5);
+} catch(e7) {
+}
+try {
+    new Uint16Array(127);
+} catch(e11) {
+}
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a19;
+    } catch(e20) {
+    }
+    try {
+        this.a = a17;
+    } catch(e21) {
+    }
+}
+new F15(127, 127, 2);
+new F15(-1, 92, -1);
+new F15(2, 2, 5);
+new Map();
+const o30 = {
+    "execution": "async",
+    "type": "minor",
+};
+let v31 = gc(o30);
+new Map(v31);
+try {
+    v31 = "async";
+} catch(e33) {
+}

@@ -1,0 +1,23 @@
+try {
+    new BigInt64Array(255);
+} catch(e3) {
+}
+try {
+    new Int32Array(7);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e11) {
+}
+const v12 = [4096,-42023,1685024320,1,7,256,9223372036854775807,2147483649,-1];
+[-128,-36629,1073741824,5,7,-256,-2096316783];
+const v14 = [-9007199254740990,-65535,-128,-65537,-4294967297,1589,1024,0];
+try {
+    -7;
+} catch(e19) {
+}
+const v21 = Symbol?.asyncIterator;
+v14[v21] = Int32Array;
+const v23 = [v21];
+Reflect.apply(v14?.sort, v12, v23);

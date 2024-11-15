@@ -1,0 +1,43 @@
+try {
+    new Uint16Array(4096);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(3352);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(129);
+} catch(e21) {
+}
+try {
+    new Float64Array(256);
+} catch(e25) {
+}
+try {
+    new Int16Array(16);
+} catch(e29) {
+}
+try {
+const t0 = 44863;
+t0(BigInt64Array, 129);
+} catch (e) {}
+const v35 = -0.0 * -0.0;
+-0.0 ** Uint16Array;
+try {
+    Math.max(128);
+} catch(e38) {
+}
+4294967296 * -0.0;
+try {
+    Math.log(v35);
+} catch(e41) {
+}
+try {
+    Math.log10(4294967296);
+} catch(e43) {
+}

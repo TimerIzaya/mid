@@ -1,0 +1,37 @@
+[392468.58290335094,2.2250738585072014e-308,4.0,0.8337736664588711,2.0,5.445134209493354e+307,-2.2250738585072014e-308];
+const v4 = [-4.4074925966819497e+307];
+const v5 = [-916.8784690668809,-184397.0959676979,131900.09111446515,1.2561339247897632e+308,830.5270806526598,5.0,-5.0,0.665387180409241,0.5631927191993261,0.0957854787892487];
+try {
+    new Uint8ClampedArray(183);
+} catch(e9) {
+}
+try {
+    new Float32Array(4);
+} catch(e13) {
+}
+try {
+    new Uint32Array(166);
+} catch(e17) {
+}
+try {
+    new Uint8ClampedArray(72);
+} catch(e21) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e25) {
+}
+try {
+    new Float32Array(2330);
+} catch(e29) {
+}
+delete v4[-2147483649];
+v5.values(BigUint64Array, Uint32Array, ...v5, 166, 166, Uint8ClampedArray);
+new Uint8ClampedArray(4);
+try {
+    v4.length <<= 4;
+} catch(e33) {
+}
+try { v4.reverse(); } catch (e) {}
+v4 instanceof Float32Array;
+Reflect.construct(BigUint64Array, [v4], Float32Array);

@@ -1,0 +1,30 @@
+let v1 = -9.27432442776261e+307;
+function f6(a7, a8, a9, a10) {
+    const o22 = {
+        [a9](a12, a13) {
+            v1 % 10;
+            const v18 = a8 / 64923;
+            try {
+                Math.clz32(v18);
+            } catch(e20) {
+            }
+            ++v1;
+            return 10;
+        },
+    };
+    return o22;
+}
+f6(v1, 12, -5.0, f6);
+const v24 = f6(v1, v1, -5.0, f6);
+const v25 = f6(v1, 12, v1, v24);
+try {
+    v25[256] = v25;
+} catch(e26) {
+}
+for (const v27 of f6) {
+    Object.defineProperty(v24, -1.0, { configurable: true, enumerable: true, value: 12 });
+    try {
+        v24.length = 5;
+    } catch(e29) {
+    }
+}

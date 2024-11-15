@@ -1,0 +1,50 @@
+try {
+    new BigUint64Array(6);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(512);
+} catch(e7) {
+}
+try {
+    new Int16Array(64);
+} catch(e11) {
+}
+class C15 extends Int16Array {
+    static d;
+    [64] = 255;
+    static {
+        try {
+            new BigUint64Array(257);
+        } catch(e20) {
+        }
+        try {
+            new BigInt64Array(7);
+        } catch(e24) {
+        }
+        try {
+            new Int32Array(3);
+        } catch(e28) {
+        }
+    }
+}
+const v29 = new C15();
+const v30 = new C15();
+new C15();
+new Array(2034);
+let v38;
+try { v38 = v30.every(Array); } catch (e) {}
+let {"byteOffset":v39,} = v29;
+try {
+    Math.random();
+} catch(e45) {
+}
+try {
+    Math.sqrt(255);
+} catch(e47) {
+}
+try {
+    Math.abs(-2);
+} catch(e49) {
+}
+v38 && v38;

@@ -1,0 +1,61 @@
+try {
+    new Int32Array(4096);
+} catch(e3) {
+}
+try {
+    new Uint16Array(3);
+} catch(e7) {
+}
+try {
+    new Uint16Array(1000);
+} catch(e11) {
+}
+class C15 extends Uint16Array {
+    static #a = -9007199254740990n;
+    toString(a17, a18, a19) {
+        [65536,127,-122602037,307207146,4294967296,65536,-328934708];
+        [2023327317,1073741825,136116575];
+        const v22 = [-5,512];
+        new Int32Array(1000, 1000, v22[Int32Array], Int32Array, -9007199254740990n, -15n);
+        return v22;
+    }
+    [Int32Array];
+    2147483647;
+}
+const v25 = new C15();
+const v26 = new C15();
+new C15();
+try {
+    new C15();
+} catch(e29) {
+}
+new Int32Array(v26, 1000, 1000);
+const o31 = {
+};
+try {
+    o31.g = v25;
+} catch(e32) {
+}
+try {
+    const o33 = {
+    };
+    o33.g = v25;
+    o33.e = -15n;
+} catch(e34) {
+}
+try {
+    const o35 = {
+    };
+    o35.g = v25;
+    o35.e = -15n;
+    o35.b = 4096;
+} catch(e36) {
+}
+try {
+    const o37 = {
+    };
+    o37.g = v25;
+    o37.e = -15n;
+    o37.a = Uint16Array;
+} catch(e38) {
+}

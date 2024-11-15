@@ -1,0 +1,38 @@
+const v0 = /[s(?:a?)*]/ymvs;
+const v1 = /\xf0\x9f\x92\xa90abcCyya\Sc+/gvs;
+const v2 = /EE5S/u;
+try {
+    new Int16Array(7);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(1024);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(129);
+} catch(e14) {
+}
+const v15 = [v0,v1,129,Int16Array,v2];
+const v16 = [v15,129];
+[v15];
+try {
+    new Float32Array(2609);
+} catch(e21) {
+}
+try {
+    new Uint32Array(1124);
+} catch(e25) {
+}
+try {
+    new BigInt64Array(1);
+} catch(e29) {
+}
+for (let v30 = 0; v30 < 32; v30++) {
+    v0["p" + v30] = v30;
+}
+v16[Symbol?.matchAll] = 7;
+try {
+    v0[2] = 1024;
+} catch(e35) {
+}

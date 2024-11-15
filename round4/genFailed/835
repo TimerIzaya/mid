@@ -1,0 +1,60 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 9;
+    } catch(e3) {
+    }
+    try {
+        this.e = 9;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+let v8 = 536870889;
+let v11 = -2147483647n;
+class C14 extends F0 {
+    o(a16, a17) {
+        ({"b":v8,"e":a17,"g":v11,} = v6);
+        [-2.0,4.0,-908.9685445398268,1000000000000.0,410.0789867903611,343359.92121939384,0.42626350376270483,-827.8861465683336,-1000000000000.0];
+        [9.896958466920167e+307,869394.4199037657,-2.2250738585072014e-308];
+        [0.0,-374191.75677009986,-255243.7118887268,0.8413154625775784,-886.3455229021962,-479087.8573882269,-942978.7559410299,-4.0,-2.0112982364821132e+307,-5.0];
+        return a16;
+    }
+    a;
+    valueOf(a22, a23) {
+        try { v6["shift"](a23, "shift", v8, "shift", a22); } catch (e) {}
+        return this["o"](a22, -1n, "o", a23);
+    }
+}
+const v28 = new C14();
+const v29 = new C14();
+const v30 = new C14();
+function f31(a32, a33) {
+    const o43 = {
+        "c": F0,
+        set b(a35) {
+            try {
+                this.fuck(a35, a33, -1894605620n, v30);
+            } catch(e37) {
+            }
+            const o41 = {
+                "execution": "async",
+                "type": "minor",
+            };
+            gc(o41);
+        },
+    };
+    return o43;
+}
+f31(v6, v30);
+const v45 = f31(v5, v29);
+f31(v29, v28);
+for (const v50 of Reflect.construct(F0, [], C14)) {
+    try {
+        v29.__proto__ = v45;
+    } catch(e51) {
+    }
+}
+typeof -1n === "string";

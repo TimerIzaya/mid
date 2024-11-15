@@ -1,0 +1,88 @@
+function f0() {
+}
+function f1() {
+    const o9 = {
+        __proto__: f0,
+        "c": f0,
+        m() {
+            super[f0];
+            try {
+                new f0();
+            } catch(e5) {
+            }
+            return 1073741824;
+        },
+    };
+    return o9;
+}
+const v10 = f1();
+const v11 = f1();
+const v12 = f1();
+function f13(a14) {
+    const o28 = {
+        "e": a14,
+        [f0](a16, a17, a18) {
+            a18[a14];
+            try { a16(v11, a18); } catch (e) {}
+            const v24 = f1();
+            %PrepareFunctionForOptimization(f1);
+            f1();
+            f1();
+            %OptimizeFunctionOnNextCall(f1);
+            f1();
+            return v24;
+        },
+    };
+    return o28;
+}
+const v29 = f13(v12);
+f13(v11);
+f13(v10);
+function f32(a33, a34) {
+    const o42 = {
+        [a34]: v29,
+        "d": v11,
+        [f1](a36, a37) {
+            try {
+                a36.fuck(a36, new.target, new.target, undefined);
+            } catch(e41) {
+            }
+            return v12;
+        },
+        "c": a34,
+        ...a33,
+    };
+    return o42;
+}
+const v43 = f32(v12, v11);
+const v44 = f32(v12, v11);
+const v45 = f32(v11, v44);
+const o46 = {
+};
+try {
+    o46.a = v45;
+} catch(e47) {
+}
+try {
+    const o48 = {
+    };
+    o48.a = v45;
+    o48.c = v45;
+} catch(e49) {
+}
+try {
+    const o50 = {
+    };
+    o50.a = v45;
+    o50.c = v45;
+    o50.f = v44;
+} catch(e51) {
+}
+try {
+    const o52 = {
+    };
+    o52.a = v45;
+    o52.c = v45;
+    o52.f = v43;
+} catch(e53) {
+}

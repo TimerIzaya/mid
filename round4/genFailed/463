@@ -1,0 +1,40 @@
+try {
+    new Float64Array(141);
+} catch(e3) {
+}
+try {
+    new Uint32Array(243);
+} catch(e7) {
+}
+try {
+    new Int16Array(1729);
+} catch(e11) {
+}
+const v13 = new WeakMap();
+function f14() {
+    return Int16Array;
+}
+try {
+    new BigInt64Array(2176);
+} catch(e18) {
+}
+try {
+    new Int16Array(2677);
+} catch(e22) {
+}
+try {
+    new BigInt64Array(45);
+} catch(e26) {
+}
+Object.defineProperty(v13, 9, { enumerable: true, value: Float64Array });
+class C27 extends BigInt64Array {
+    268435439 = Uint32Array;
+    static c = f14;
+}
+const v28 = new C27();
+new C27();
+let v30 = new C27();
+try {
+    v30 = v28;
+} catch(e31) {
+}

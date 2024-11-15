@@ -1,0 +1,54 @@
+function f0() {
+    const o4 = {
+        "f": 1905521904,
+        "a": "b",
+        __proto__: "b",
+        ..."b",
+        ..."b",
+        "h": "b",
+        "g": "b",
+        "b": 1905521904,
+        ["b"]: "b",
+        ..."b",
+        "c": "b",
+        ..."b",
+        ..."b",
+    };
+    return o4;
+}
+f0();
+f0();
+const v7 = f0();
+class C8 {
+    static {
+        Object.defineProperty(this, 65536, { configurable: true, enumerable: true, get: f0, set: f0 });
+        [0.08862999787448356,0.5125519399771452,3.9522659502408146,-1000.0,1.0];
+        [-563583.6278478638,-1.6588774592133244e+308,-1.0];
+        [-196.73089849510484];
+    }
+    static set d(a14) {
+        try {
+            super[this] = this;
+        } catch(e15) {
+        }
+        f = f0;
+    }
+}
+new C8();
+new C8();
+new C8();
+[9,2147483649,255,16,15,2147483649,536870888,-65537];
+const v23 = [9007199254740990,128,48604];
+const v24 = [1,-65537,5];
+f0();
+for (let [v26] of v23) {
+    f0();
+}
+try {
+    v7 / -6875;
+} catch(e29) {
+}
+try {
+    Object.defineProperty(v24, "d", { configurable: true, enumerable: true, value: 6 });
+} catch(e30) {
+}

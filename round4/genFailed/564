@@ -1,0 +1,66 @@
+const v0 = [];
+const v1 = [v0,v0,v0,v0,v0];
+const v2 = [v0,v0,v1,v0,v0];
+const v3 = [v0,v0,v0];
+class C4 {
+    get c() {
+        try {
+            super[v2] = v2;
+        } catch(e6) {
+        }
+        return v0;
+    }
+    constructor(a8) {
+        try {
+            a8 ^= v3;
+        } catch(e9) {
+        }
+    }
+    536870912 = v1;
+    static b = v3;
+}
+new C4(v0);
+const v11 = new C4(v1);
+const v12 = new C4(v0);
+try {
+    new Int32Array(1);
+} catch(e16) {
+}
+try {
+    new Uint32Array(29);
+} catch(e20) {
+}
+try {
+    new Int32Array(2781);
+} catch(e24) {
+}
+class C25 extends Uint32Array {
+    static #b = v11;
+    static #n(a27, a28) {
+        [,...C4] = v2;
+        try {
+            this.fuck(C4, "get", a27);
+        } catch(e31) {
+        }
+        return 29;
+    }
+    6 = 2781;
+    static [v0];
+    [2781] = Int32Array;
+    static #h = v0;
+    #c;
+}
+new C25();
+new C25();
+const v34 = new C25();
+try {
+    v0.__proto__ = v34;
+} catch(e35) {
+}
+const o37 = {
+    "h": v12,
+    "b": v1,
+    "c": 1,
+    [this]: C25,
+    "e": 1,
+};

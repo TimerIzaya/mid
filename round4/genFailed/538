@@ -1,0 +1,22 @@
+let v1 = 4294967295n;
+try {
+    new Uint8ClampedArray(3409);
+} catch(e9) {
+}
+try {
+    new Float32Array(3579);
+} catch(e13) {
+}
+try {
+    new Uint32Array(2);
+} catch(e17) {
+}
+try {
+    const t14 = 2;
+    t14[10] = Float32Array;
+} catch(e18) {
+}
+let v22 = -0.0;
+++v22;
+v1++;
+2 * v1;

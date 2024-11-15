@@ -1,0 +1,49 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function F5(a7, a8) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = f1;
+    } catch(e9) {
+    }
+    try {
+        this.e = "fromEntries";
+    } catch(e10) {
+    }
+    try {
+        this.f = a7;
+    } catch(e11) {
+    }
+}
+const v12 = new F5("boolean", "gYy");
+new F5(F5, v12);
+new F5(f1, f0);
+function F15(a17, a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a19;
+    } catch(e20) {
+    }
+    try {
+        this.f = "fromEntries";
+    } catch(e21) {
+    }
+    try {
+        this.g = a19;
+    } catch(e22) {
+    }
+}
+const v23 = new F15("boolean", "boolean", "fromEntries");
+new F15("gYy", "gYy", "boolean");
+const v25 = new F15("gYy", "gYy", "fromEntries");
+for (const v26 of "fromEntries") {
+    [v26,f1,v26,[[v26,v26],v26,v26,v25],v23];
+}
+Object.defineProperty("boolean", f0(), { configurable: true, enumerable: true, get: f0 });
+try {
+    "gYy" >>> v23;
+} catch(e32) {
+}

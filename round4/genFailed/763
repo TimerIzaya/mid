@@ -1,0 +1,34 @@
+try {
+    new Float64Array(177);
+} catch(e3) {
+}
+try {
+    new Uint8Array(128);
+} catch(e7) {
+}
+try {
+    new Float32Array(4096);
+} catch(e11) {
+}
+class C12 extends Uint8Array {
+    get b() {
+        return 2n;
+    }
+    static #d;
+    [128];
+    c;
+    static #h;
+}
+let v17 = new C12();
+new C12();
+const v19 = new C12();
+delete C12[v17];
+try {
+    4096 * Float64Array;
+} catch(e22) {
+}
+%VerifyType(Uint8Array);
+try {
+    v17 = v19;
+} catch(e23) {
+}

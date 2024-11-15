@@ -1,0 +1,48 @@
+function f0() {
+}
+function f4() {
+    return "isFrozen";
+}
+class C5 {
+    set g(a7) {
+    }
+    #d;
+    n(a10, a11) {
+        const o14 = {
+            valueOf() {
+                a11?.h;
+                return "N07";
+            },
+        };
+        return o14;
+    }
+}
+new C5();
+const v16 = new C5();
+new C5();
+try {
+    new Float64Array(194);
+} catch(e21) {
+}
+try {
+    new Uint16Array(8);
+} catch(e25) {
+}
+try {
+    new Float64Array(28);
+} catch(e29) {
+}
+Object.defineProperty("N07", 28, { writable: true, value: Uint16Array });
+try {
+    const t36 = "isFrozen";
+    t36.h = "isFrozen";
+} catch(e30) {
+}
+[Uint16Array,v16,[Float64Array,f0],v16];
+[8,Float64Array];
+try {
+    const o35 = {
+    };
+    v16.n(false, f4, o35);
+} catch(e37) {
+}

@@ -1,0 +1,30 @@
+const v2 = new Array(472);
+try {
+    new Uint32Array(128);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(2820);
+} catch(e10) {
+}
+try {
+    new Uint8Array(1);
+} catch(e14) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e18) {
+}
+try {
+    new Int32Array(1024);
+} catch(e22) {
+}
+try {
+    new Uint16Array(4);
+} catch(e26) {
+}
+function f27() {
+    return 4;
+}
+const v29 = [472,f27];
+new Uint8ClampedArray(Reflect.apply(v2?.with, Array, v29));

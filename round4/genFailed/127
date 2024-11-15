@@ -1,0 +1,44 @@
+try {
+    new Uint16Array(2);
+} catch(e6) {
+}
+try {
+    new Uint16Array(255);
+} catch(e10) {
+}
+try {
+    new Float64Array(64);
+} catch(e14) {
+}
+class C15 extends Uint16Array {
+    7;
+    set f(a17) {
+        const v18 = super.reduce(a17, 255);
+        new Float64Array(v18, 2, 2);
+        try {
+            v18.toString = v18;
+        } catch(e20) {
+        }
+    }
+    static 255;
+    static 5;
+}
+new C15();
+const v22 = new C15();
+const v23 = new C15();
+%VerifyType(v23);
+%VerifyType(Uint16Array);
+try { v22(255, v22, 2, "boolean"); } catch (e) {}
+try {
+    const t32 = "boolean";
+    t32.length >>>= 64;
+} catch(e25) {
+}
+const o28 = {
+    "maxByteLength": 68,
+};
+const v30 = new SharedArrayBuffer(68, o28);
+try {
+    new BigInt64Array(v30);
+} catch(e33) {
+}

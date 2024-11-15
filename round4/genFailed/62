@@ -1,0 +1,73 @@
+function f0() {
+}
+class C1 extends f0 {
+    valueOf() {
+        Object.defineProperty(this, 1729405035, { configurable: true, enumerable: true, set: f0 });
+        Object.defineProperty(this, f0, { configurable: true, get: f0 });
+        try {
+            new f0();
+        } catch(e4) {
+        }
+        function F5(a7, a8) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = this;
+            } catch(e9) {
+            }
+            try {
+                this.e = this;
+            } catch(e10) {
+            }
+            try {
+                this.h = f0;
+            } catch(e11) {
+            }
+        }
+        const v12 = new F5(F5, this);
+        new F5(this, F5);
+        new F5(this, f0);
+        return v12;
+    }
+}
+const v15 = new C1();
+const v16 = new C1();
+const v17 = new C1();
+[v15,v17,f0,v17,C1];
+[v15,v15];
+[v16,f0,v17,v17,f0];
+/M3/iyv;
+/q/igydv;
+/Pa\fb\nc\rd\te\vf/gmvs;
+/w\P{gc=Decimal_Number}[a\S(?:ab)?3ly(?:ab)+]/igdv;
+/W\u0034[(\xed\xb0\x80)\x01z]/gmvs;
+/(x)(x)(x)\1*(j(x)(x)(x)\1*)/gmv;
+try {
+    new Uint32Array(256);
+} catch(e30) {
+}
+try {
+    new Uint32Array(2318);
+} catch(e34) {
+}
+try {
+    new BigUint64Array(1281);
+} catch(e38) {
+}
+const v40 = Symbol?.iterator;
+const o49 = {
+    [v40]() {
+        let v42 = 10;
+        const o48 = {
+            next() {
+                v42--;
+                const v46 = v42 == 0;
+                const o47 = {
+                    "done": v46,
+                    "value": v42,
+                };
+                return o47;
+            },
+        };
+        return o48;
+    },
+};

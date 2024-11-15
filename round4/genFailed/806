@@ -1,0 +1,52 @@
+function f0() {
+    const o10 = {
+        0: "growable",
+        m(a5) {
+            const o6 = {
+                ["growable"]: -1.1745877124467918e+308,
+                __proto__: this,
+            };
+            return -1.1745877124467918e+308;
+        },
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f14(a15) {
+    const o16 = {
+        __proto__: a15,
+        [v13]: a15,
+        ...v11,
+        "a": f0,
+        "b": a15,
+        "h": a15,
+        "f": v12,
+        "g": f0,
+        "e": v12,
+        "c": v12,
+        "d": f0,
+    };
+    return o16;
+}
+const v17 = f14(f0);
+f14(f0);
+f14(v12);
+new Map();
+if (Map < v17) {
+    try {
+        new BigInt64Array(15);
+    } catch(e29) {
+    }
+    try {
+        new Uint16Array(10);
+    } catch(e33) {
+    }
+    try {
+        new Int32Array(64);
+    } catch(e37) {
+    }
+} else {
+    f0();
+}

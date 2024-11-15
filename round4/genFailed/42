@@ -1,0 +1,44 @@
+try {
+    new Uint8ClampedArray(512);
+} catch(e3) {
+}
+try {
+    new Float64Array(5);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(127);
+} catch(e11) {
+}
+class C12 extends BigUint64Array {
+    55 = 512;
+    static o(a14, a15, a16) {
+        [536870887,27515,6];
+        [47120];
+        [129,60906,10,-1,-1,-50652,-54494];
+        const o22 = {
+            "maxByteLength": 2887,
+        };
+        const v24 = new SharedArrayBuffer(946, o22);
+        try {
+            new Float32Array(v24);
+        } catch(e27) {
+        }
+        return a15;
+    }
+}
+const v28 = new C12();
+const v29 = new C12();
+const v30 = new C12();
+const v31 = [v30,127,v30,Float64Array,v28];
+const v32 = [C12,Uint8ClampedArray,127,v31];
+const v33 = [v32,Uint8ClampedArray,v32,C12];
+const v35 = [];
+Reflect.apply(v33?.entries, v29, v35);
+let v39 = Symbol?.toStringTag;
+v31[v39] = v30;
+v32?.__proto__;
+try {
+    v39 = C12;
+} catch(e41) {
+}

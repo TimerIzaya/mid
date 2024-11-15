@@ -1,0 +1,36 @@
+function F1() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = true;
+    } catch(e3) {
+    }
+}
+new F1();
+new F1();
+new F1();
+try {
+    new Float32Array(7);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(230);
+} catch(e14) {
+}
+try {
+    new Uint8ClampedArray(4034);
+} catch(e18) {
+}
+[-3,-65536,-128,1407088763,7,4,-38953093,2147483647];
+const v20 = [-27934,127,1260151174,-128,15];
+[-560387732,1007702555,4294967295,1009273902,15016,-16,129,255,-296765230,-1030267563];
+throw F1;
+v20["pop"]();
+let v24 = 0;
+while (v24 < 8) {
+    const v27 = v20?.length;
+    try {
+        v27[v27] = true;
+    } catch(e28) {
+    }
+    v24++;
+}

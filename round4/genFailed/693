@@ -1,0 +1,42 @@
+class C3 {
+    constructor(a5, a6) {
+        Reflect.construct(a5, [this,a5,Reflect], a5);
+        try {
+            a5 = 1073741824n;
+        } catch(e10) {
+        }
+    }
+    #c = -14n;
+    static #d;
+    static [4294967297n] = 1073741824n;
+}
+const v11 = new C3(1073741824n, 4294967297n);
+const v12 = new C3(C3, 4294967297n);
+const v13 = new C3(v11, v12);
+function f14(a15, a16, a17) {
+    const o20 = {
+        get g() {
+            try {
+                this[a16] |= a16;
+            } catch(e19) {
+            }
+            return this;
+        },
+        "d": -14n,
+        ...a15,
+        "c": 1073741824n,
+        "f": a15,
+        "g": a16,
+    };
+    return o20;
+}
+f14(v12, f14, v11);
+const v23 = f14(f14(v12, f14, v11), v12, v12);
+const v24 = [216.18342589776216,2.0];
+[1e-15];
+Object.defineProperty(v23, 1073741824n, { writable: true, configurable: true, enumerable: true, value: [-1000.0,8.870729478606279,-1.0,-1.1796465836802402e+308,-Infinity,1e-15,0.0] });
+let v29 = -9007199254740992;
+let v30 = 0.5599337943347199;
+!C3 ** v30++;
+v29++;
+v24[Symbol?.species] = v13;

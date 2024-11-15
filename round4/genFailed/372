@@ -1,0 +1,63 @@
+function f0() {
+}
+function f1() {
+    const o7 = {
+        __proto__: f0,
+        p() {
+            try {
+                this.d = this;
+            } catch(e3) {
+            }
+            for (let v4 = 0; v4 < 32; v4++) {
+                this["p" + v4] = v4;
+            }
+            return this;
+        },
+    };
+    return o7;
+}
+f1();
+const v9 = f1();
+const v10 = f1();
+[-2037876786,512];
+const v15 = [18102,-38002,15,881704095,4,0,-1148232742];
+const v16 = [-2147483648,-16462,-14];
+function f17(a18, a19) {
+    const o31 = {
+        [v9]: a18,
+        __proto__: a19,
+        o(a21, a22) {
+            let v24 = -16;
+            const v26 = -4.0 / a18;
+            const v27 = v24 && v26;
+            const v28 = a18 + v26;
+            --v24;
+            return v27 ^ v28;
+        },
+    };
+    return o31;
+}
+f17(v9, v15);
+f17(-12, v16);
+f17(v10, v16);
+const v35 = `
+    const v37 = Symbol?.iterator;
+    const o46 = {
+        [v37]() {
+            let v39 = 10;
+            const o45 = {
+                next() {
+                    v39--;
+                    const v43 = v39 == 0;
+                    const o44 = {
+                        "done": v43,
+                        "value": v39,
+                    };
+                    return o44;
+                },
+            };
+            return o45;
+        },
+    };
+`;
+eval(v35);

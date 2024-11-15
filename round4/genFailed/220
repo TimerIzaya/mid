@@ -1,0 +1,74 @@
+const v1 = new Set();
+function f2(a3) {
+    const o9 = {
+        "c": a3,
+        ...v1,
+        8: Set,
+        set d(a5) {
+            try {
+                const o6 = {
+                };
+                new Set(o6);
+            } catch(e8) {
+            }
+        },
+        [a3]: v1,
+        "h": a3,
+        __proto__: a3,
+        "e": Set,
+    };
+    return o9;
+}
+const v10 = f2(Set);
+const v11 = f2(v10);
+f2(v11);
+class C13 {
+    valueOf(a15, a16, a17, a18) {
+        try {
+            super.b = v10;
+        } catch(e19) {
+        }
+        try {
+            super.n(this, a15);
+        } catch(e21) {
+        }
+        return a16;
+    }
+    a = v10;
+    static g;
+    4;
+    static [v11];
+}
+new C13();
+new C13();
+const v24 = new C13();
+[1.7945694500057383e+308,0.08860451246854595,-2.220446049250313e-16,6.865275995175737e+307,-1000000000.0,-0.0,1000000000.0];
+const v29 = [-7.3400783221780515,-837890.3869778062,-3.5409825120726452,1000.0];
+const v30 = [0.07640757438711576,-819005.6328855859,-1000000000000.0,-781.1359979682624,NaN];
+function f31(a32, a33, a34) {
+    function f36(a37) {
+        try {
+            v29.length = a37;
+        } catch(e38) {
+        }
+    }
+    this.onmessage = f36;
+    try {
+        new Int16Array(10);
+    } catch(e42) {
+    }
+    try {
+        new Float32Array(127);
+    } catch(e46) {
+    }
+    try {
+        new Uint8Array(2);
+    } catch(e50) {
+    }
+}
+const v53 = [v24,C13,v30];
+const o54 = {
+    "arguments": v53,
+    "type": "function",
+};
+new Worker(f31, o54);

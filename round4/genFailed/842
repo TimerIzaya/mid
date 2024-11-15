@@ -1,0 +1,47 @@
+const v0 = /T(?=)/iuds;
+const v1 = /a\p{Nd}Y/um;
+const v2 = /eo\x01\xed\xb0\x80/ymvs;
+class C3 {
+    constructor(a5) {
+        let v4 = this;
+        for (const v6 of v0) {
+            const v7 = a5?.global;
+            try {
+                v4 = v7;
+            } catch(e8) {
+            }
+        }
+    }
+    #a = v0;
+    static g = v0;
+    31;
+    static h;
+    b;
+}
+const v9 = new C3(v2);
+const v10 = new C3(v1);
+const v11 = new C3(v0);
+try {
+    new BigInt64Array(16);
+} catch(e18) {
+}
+try {
+    new Uint8Array(3798);
+} catch(e22) {
+}
+try {
+    new Int8Array(3072);
+} catch(e26) {
+}
+try {
+    3072 && v11;
+} catch(e28) {
+}
+try {
+    v9 * 3798;
+} catch(e30) {
+}
+try {
+    v11.__proto__ = v10;
+} catch(e31) {
+}

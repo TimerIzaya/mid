@@ -1,0 +1,31 @@
+try {
+    new Uint32Array(138);
+} catch(e3) {
+}
+try {
+    new Int16Array(3562);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3071);
+} catch(e11) {
+}
+try {
+    new Uint8ClampedArray(1000);
+} catch(e18) {
+}
+try {
+    new Int16Array(11);
+} catch(e22) {
+}
+try {
+    new Uint8ClampedArray(795);
+} catch(e26) {
+}
+for (const v27 of 11) {
+    try {
+        138 - v27;
+    } catch(e29) {
+    }
+}
+try { Uint8ClampedArray.n(Uint8ClampedArray, -758, Int16Array); } catch (e) {}

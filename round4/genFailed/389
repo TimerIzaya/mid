@@ -1,0 +1,64 @@
+const v0 = /W[\118]/ms;
+const v1 = /G[ya(?=bbb|bb)cFr()+]/iguyds;
+const v2 = /H/igdv;
+const v3 = /8\ud808\udf45*\P{scx=Greek}+/ivs;
+const v4 = /w+/guymd;
+const v5 = /[VM[x]Lw]/iuyms;
+function f7(a8, a9, a10) {
+    const o16 = {
+        "f": a10,
+        [a8]: v3,
+        ...v2,
+        "h": v3,
+        valueOf(a12, a13) {
+            let v14;
+            try { v14 = v3.compile(a9); } catch (e) {}
+            try {
+                a12 = v14;
+            } catch(e15) {
+            }
+            return v14;
+        },
+        __proto__: a10,
+        "g": v5,
+    };
+    return o16;
+}
+const v17 = f7(v4, v3, v1);
+const v18 = f7(v1, v5, v0);
+f7(v2, v5, v1);
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v0;
+    } catch(e24) {
+    }
+    try {
+        this.a = a22;
+    } catch(e25) {
+    }
+}
+new F20(v5, v17);
+new F20(v0, v18);
+new F20(v0, v18);
+function f29(a30, a31) {
+    const v33 = Symbol?.iterator;
+    const o42 = {
+        [v33]() {
+            let v35 = 10;
+            const o41 = {
+                next() {
+                    v35--;
+                    const v39 = v35 == 0;
+                    const o40 = {
+                        "done": v39,
+                        "value": v35,
+                    };
+                    return o40;
+                },
+            };
+            return o41;
+        },
+    };
+}
+new Promise(f29);

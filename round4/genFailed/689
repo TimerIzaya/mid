@@ -1,0 +1,54 @@
+const v0 = /M(\2)(\1)[\cA]/gvs;
+/qfL/dvs;
+const v2 = /\u0034Aa(?!bbb|bb)c/iyvs;
+function f3() {
+    return v0;
+}
+function f4() {
+    return f3;
+}
+class C5 {
+    #f;
+    static valueOf(a7) {
+        try {
+            v2 % a7;
+        } catch(e9) {
+        }
+        return f4;
+    }
+    3;
+    [f4];
+    a = f4;
+    static d = v2;
+    static #h = f4;
+    46 = v0;
+}
+const v10 = new C5();
+new C5();
+let v12 = new C5();
+function f16(a17, a18, a19) {
+    const o25 = {
+        "h": 8.551493028716468,
+        "f": a17,
+        __proto__: C5,
+        ...v0,
+        set b(a21) {
+            for (let v22 = 0; v22 < 32; v22++) {
+                a17["p" + v22] = v22;
+            }
+        },
+        "a": 2.220446049250313e-16,
+        ...v0,
+        "g": v0,
+    };
+    return o25;
+}
+f16(v0, v2, 8.551493028716468);
+f16(v0, v0, f3);
+Reflect.construct(f16(v2, v0, f16)[C5], [], f3);
+try {
+    v12 = v10;
+} catch(e33) {
+}
+v12 in v10;
+f3();

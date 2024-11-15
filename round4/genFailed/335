@@ -1,0 +1,38 @@
+class C3 {
+    static 0;
+    constructor(a5, a6) {
+        let v7;
+        try { v7 = this.getOwnPropertyDescriptors(1024); } catch (e) {}
+        a5[7] = v7;
+    }
+    [1024] = -5;
+    a = "f";
+    static 2648 = 1024;
+    b;
+    static #d = 1024;
+}
+const v8 = new C3(1024, -5);
+const v9 = new C3(v8, C3);
+const v10 = new C3(1024, 1024);
+[-65535,-18006,-2147483649,-49938,-11];
+[13,49963,-777,-10,376638621,-4096,-13,-1149479301,12,2147483647];
+[9223372036854775807,257,-4781,2147483649,12,5,536870887,1073741823,257];
+try {
+    const t20 = "f";
+    t20[1073741824] = v10;
+} catch(e14) {
+}
+function f15(a16, a17, a18) {
+    function f20(a21) {
+        const v22 = this[this];
+        try { ("f").concat(v9, ...v9, ..."f", v22, this); } catch (e) {}
+    }
+    this.onmessage = f20;
+    typeof f20 === "bigint";
+}
+const v29 = ["function",C3,"function"];
+const o30 = {
+    "arguments": v29,
+    "type": "function",
+};
+new Worker(f15, o30);

@@ -1,0 +1,71 @@
+const v0 = /(?:a+)*/iu;
+const v1 = /a{1,2}?/ymvs;
+const v2 = /V7(?:a?)*/yv;
+function f3(a4) {
+    const o19 = {
+        __proto__: v2,
+        toString(a6, a7) {
+            const v8 = super.b;
+            a4?.unicode;
+            function F10(a12, a13, a14) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.h = a4;
+                } catch(e15) {
+                }
+            }
+            new F10(a4, v8, a4);
+            new F10(a6, a7, a6);
+            const v18 = new F10(a4, a7, a4);
+            return v18;
+        },
+    };
+    return o19;
+}
+const v20 = f3(v1);
+const v21 = f3(v2);
+const v22 = f3(v2);
+function f23(a24, a25) {
+    const o33 = {
+        "c": v20,
+        "f": f3,
+        1873191336: v22,
+        "b": a24,
+        ...v1,
+        [a25]: a24,
+        [v1]: v2,
+        o(a27, a28, a29, a30) {
+            new f3(a28);
+            a30?.ignoreCase;
+            return v21;
+        },
+        __proto__: v2,
+        "d": v0,
+    };
+    return o33;
+}
+const v34 = f23(v22, v2);
+const v35 = f23(v21, v0);
+const v36 = f23(v20, v35);
+function F37(a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v36;
+    } catch(e41) {
+    }
+    try {
+        this.b = f3;
+    } catch(e42) {
+    }
+}
+new F37(v35, v22);
+new F37(v35, v21);
+const v45 = new F37(v36, v21);
+new f23(v22, v34);
+try {
+    f23(v22, -613919.6035532146);
+} catch(e49) {
+}
+for (let v50 = 0; v50 < 32; v50++) {
+    v45["p" + v50] = v50;
+}

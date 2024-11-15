@@ -1,0 +1,38 @@
+function f0() {
+}
+try {
+    new Uint16Array(12);
+} catch(e4) {
+}
+try {
+    new Uint16Array(534);
+} catch(e8) {
+}
+try {
+    new Uint8ClampedArray(3596);
+} catch(e12) {
+}
+class C16 {
+    constructor(a18, a19, a20, a21) {
+        const v23 = [a20];
+        const v24 = a21?.charAt;
+        Reflect.apply(v24, "entries", v23);
+        f0();
+        const t18 = 3596;
+        t18[9] = v24;
+    }
+    static 268435440;
+    static e;
+    static #f = 3596;
+    h;
+}
+new C16(3596, Uint8ClampedArray, 3596, "Ek");
+const v28 = new C16(3596, "entries", 3596, "Ek");
+const v29 = new C16(3596, "N", 3596, "entries");
+let v34 = v29[3596] <= v28;
+[v34,v34] = "Ek";
+try {
+    const t34 = "N";
+    t34[5] = -1.7976931348623157e+308;
+} catch(e35) {
+}

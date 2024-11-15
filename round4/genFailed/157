@@ -1,0 +1,52 @@
+let v1 = 1253448090;
+function f3(a4, a5) {
+    const o11 = {
+        [a5]: a4,
+        "a": -65536,
+        set h(a7) {
+            let v9;
+            try { v9 = this["toString"](); } catch (e) {}
+            ({"a":v9,"c":v9,"h":v1,...v1} = this);
+            try {
+                const t10 = "toString";
+                t10[v9] **= a7;
+            } catch(e10) {
+            }
+        },
+        "f": -65536,
+        "g": 536870912,
+        "h": v1,
+        "b": 536870912,
+    };
+    return o11;
+}
+f3(v1, 536870912);
+f3(536870912, v1);
+f3(-65536, v1);
+[0.3412374549401692,1.1570206980943082e+308,-1000.0];
+const v16 = [-1000000.0,-1000000000.0,-883.3280379347017];
+const v17 = [-1e-15,0.0];
+const v19 = new WeakMap();
+try {
+    new Int16Array(2134);
+} catch(e23) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e27) {
+}
+try {
+    new BigInt64Array(255);
+} catch(e31) {
+}
+const v33 = Symbol?.iterator;
+v17[v33] = v33;
+new BigUint64Array(v16, 255);
+g = 16;
+try {
+    v19.has(2134);
+} catch(e36) {
+}
+for (let v37 = 0; v37 < 100; v37++) {
+    f3(-65536, 2134);
+}

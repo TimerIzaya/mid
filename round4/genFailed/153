@@ -1,0 +1,45 @@
+try {
+    new BigInt64Array(309);
+} catch(e3) {
+}
+try {
+    new Uint8Array(100);
+} catch(e7) {
+}
+try {
+    new Uint32Array(16);
+} catch(e11) {
+}
+class C12 extends Uint8Array {
+    36 = 16;
+    p(a14, a15, a16) {
+        try {
+            super[a15] = 16;
+        } catch(e17) {
+        }
+        return Uint32Array;
+    }
+    d;
+    [309] = BigInt64Array;
+    g = Uint8Array;
+    [100] = 309;
+    static #c = 100;
+}
+new C12();
+const v19 = new C12();
+new C12();
+let v23 = new Set();
+new C12();
+v23[7] = v23;
+try {
+    v23 &&= v23;
+} catch(e25) {
+}
+const v26 = C12;
+try { v19.toSorted(v23); } catch (e) {}
+try {
+    const o28 = {
+    };
+    new BigInt64Array(o28);
+} catch(e30) {
+}

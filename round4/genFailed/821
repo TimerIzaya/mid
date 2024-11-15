@@ -1,0 +1,32 @@
+function f0() {
+}
+const v2 = new Map();
+const v3 = [v2,v2];
+const v4 = [Map,Map];
+const v5 = [Map,Map,v2];
+function f6(a7, a8) {
+    const o15 = {
+        get h() {
+            const v12 = Date?.prototype;
+            try {
+                a7.flatMap(v12);
+            } catch(e14) {
+            }
+            return Map;
+        },
+    };
+    return o15;
+}
+const v16 = f6(v3, v5);
+const v17 = f6(v4, f6);
+f6(v4, v16);
+for (let [v19,v20,v21] of v4) {
+    try {
+        v4 * v17;
+    } catch(e23) {
+    }
+}
+try {
+    v16[v5] ||= v4;
+} catch(e24) {
+}

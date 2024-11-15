@@ -1,0 +1,91 @@
+const v0 = [];
+try {
+    new Int16Array(6);
+} catch(e4) {
+}
+try {
+    new Float32Array(10);
+} catch(e8) {
+}
+try {
+    new Uint16Array(1);
+} catch(e12) {
+}
+const v13 = [-185001586,268435456,10,-2,-24982,26420,-2066001943,7,15313,-2];
+const v14 = [27705,48193,-1,65536];
+const v15 = [2147483649,-9007199254740990,536870888,-9223372036854775808,-4294967297,2403,45042,59167,11,10000];
+class C16 {
+    static b = Int16Array;
+    static #toString(a18, a19) {
+        try {
+            a18[2282861097] <<= 6;
+        } catch(e20) {
+        }
+        return a19;
+    }
+    constructor(a22, a23, a24, a25) {
+        const v26 = [...a25,a23,a22,Float32Array,...a24];
+        const o27 = {
+        };
+        try {
+            o27.a = v26;
+        } catch(e28) {
+        }
+        try {
+            const o29 = {
+            };
+            o29.a = v26;
+            o29.d = a25;
+        } catch(e30) {
+        }
+        try {
+            const o31 = {
+            };
+            o31.a = v26;
+            o31.d = a25;
+            o31.f = a22;
+        } catch(e32) {
+        }
+        try {
+            const o33 = {
+            };
+            o33.a = v26;
+            o33.d = a25;
+            o33.g = a22;
+        } catch(e34) {
+        }
+    }
+}
+const v35 = new C16(6, v13, v0, v0);
+const v36 = new C16(1, 10, v15, v35);
+const v37 = new C16(1, v36, v14, v36);
+v37?.h;
+const o39 = {
+};
+try {
+    o39.d = Int16Array;
+} catch(e40) {
+}
+try {
+    const o41 = {
+    };
+    o41.d = Int16Array;
+    o41.b = v15;
+} catch(e42) {
+}
+try {
+    const o43 = {
+    };
+    o43.d = Int16Array;
+    o43.b = v15;
+    o43.e = v36;
+} catch(e44) {
+}
+try {
+    const o45 = {
+    };
+    o45.d = Int16Array;
+    o45.b = v15;
+    o45.h = 6;
+} catch(e46) {
+}

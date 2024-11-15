@@ -1,0 +1,70 @@
+function f0() {
+    const o9 = {
+        "b": 1653261294,
+        __proto__: "undefined",
+        "f": "undefined",
+        6: "undefined",
+        "e": 1653261294,
+        ["undefined"]: 268435441,
+        p(a5, a6) {
+            const v7 = super.b;
+            try {
+                v7.f %= 268435441;
+            } catch(e8) {
+            }
+            return v7;
+        },
+    };
+    return o9;
+}
+const v10 = f0();
+const v11 = f0();
+const v12 = f0();
+function F13(a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a15;
+    } catch(e17) {
+    }
+    try {
+        this.c = a15;
+    } catch(e18) {
+    }
+}
+const v19 = new F13(v11, v10);
+const v20 = new F13(v10, v11);
+const v21 = new F13(v11, v12);
+function f23(a24, a25) {
+    const o26 = {
+        "h": a25,
+        "c": v20,
+        [a25]: a25,
+        [f0]: v12,
+        [true]: true,
+        "d": a24,
+        3328: true,
+        [v12]: f0,
+        "b": v10,
+        ...a24,
+        "g": v20,
+        ...a25,
+    };
+    return o26;
+}
+f23(F13, v19);
+f23(f23(v20, v21), v21);
+const v30 = v12?.[10];
+for (let v31 of v30) {
+    try {
+        v31 = v30;
+    } catch(e32) {
+    }
+}
+const o35 = {
+    "maxByteLength": 488808787,
+};
+const v37 = new SharedArrayBuffer(16, o35);
+try {
+    new Uint16Array(v37);
+} catch(e40) {
+}

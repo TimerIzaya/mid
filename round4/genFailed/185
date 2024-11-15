@@ -1,0 +1,86 @@
+try {
+    new Float32Array(4096);
+} catch(e3) {
+}
+try {
+    new Int32Array(64);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(4096);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o29 = {
+        [a13](a17, a18) {
+            try {
+                this[1] = 4096;
+            } catch(e19) {
+            }
+            return Float32Array;
+        },
+        __proto__: a14,
+        ...a14,
+        [4096](a21, a22, a23) {
+            let v24 = 0;
+            while (v24 < 10) {
+                try {
+                } catch(e27) {
+                }
+                v24++;
+            }
+            return a23;
+        },
+    };
+    return o29;
+}
+const v30 = f12(4096, Uint8ClampedArray, 4096);
+f12(4096, Float32Array, 4096);
+f12(64, f12, 4096);
+try {
+    new Float64Array(218);
+} catch(e36) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e40) {
+}
+try {
+    new Int8Array(7);
+} catch(e44) {
+}
+let v45 = 0;
+do {
+    throw f12;
+    Object.defineProperty(v30, BigInt64Array, { enumerable: true, get: f12 });
+    const o46 = {
+    };
+    try {
+        o46.f = Int32Array;
+    } catch(e47) {
+    }
+    try {
+        const o48 = {
+        };
+        o48.f = Int32Array;
+        o48.a = v45;
+    } catch(e49) {
+    }
+    try {
+        const o50 = {
+        };
+        o50.f = Int32Array;
+        o50.a = v45;
+        o50.e = BigInt64Array;
+    } catch(e51) {
+    }
+    try {
+        const o52 = {
+        };
+        o52.f = Int32Array;
+        o52.a = v45;
+        o52.c = 0;
+    } catch(e53) {
+    }
+    v45++;
+} while (v45 < 0)

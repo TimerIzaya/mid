@@ -1,0 +1,43 @@
+let v2 = 1128912171;
+try {
+    new Uint8Array(257);
+} catch(e6) {
+}
+try {
+    new Int16Array(6);
+} catch(e10) {
+}
+try {
+    new Int16Array(2821);
+} catch(e14) {
+}
+function f15() {
+    return Uint8Array;
+}
+class C16 extends Int16Array {
+    constructor(a18, a19) {
+        super(2821, a18, 257);
+        f15();
+        try {
+            this[16] <<= 2821;
+        } catch(e21) {
+        }
+    }
+    #c;
+    536870889;
+    #b = 257;
+    [Uint8Array] = 2821;
+}
+new C16(6, 6);
+new C16(64, 128);
+let v24 = new C16(128, 257);
+try {
+    Math.tanh(v2);
+} catch(e28) {
+}
+try {
+    Math.tan(v2);
+} catch(e30) {
+}
+++v2;
+v24--;

@@ -1,0 +1,85 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o14 = {
+        3908: Map,
+        "a": a3,
+        "d": a3,
+        111780001: v1,
+        "e": a3,
+        get h() {
+            const o8 = {
+                "maxByteLength": 238,
+            };
+            const v10 = new SharedArrayBuffer(238, o8);
+            try {
+                new Uint32Array(v10);
+            } catch(e13) {
+            }
+            return a3;
+        },
+    };
+    return o14;
+}
+const v15 = f2(v1, Map);
+const v16 = f2(Map, v15);
+const v17 = f2(Map, v16);
+class C18 extends f2 {
+    [f2] = Map;
+    static get h() {
+        try {
+            Math.log(4294967295);
+        } catch(e25) {
+        }
+        const v26 = v16 ** Map;
+        const v27 = +v17;
+        try {
+            Math.sinh(4294967295);
+        } catch(e29) {
+        }
+        Map | v27;
+        return v26;
+    }
+}
+const v31 = new C18();
+const v32 = new C18();
+let v33 = new C18();
+class C34 {
+    #f = v32;
+    static m(a36, a37, a38) {
+        function F39(a41, a42, a43) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = a41;
+            } catch(e44) {
+            }
+            try {
+                this.d = v32;
+            } catch(e45) {
+            }
+            try {
+                this.h = C18;
+            } catch(e46) {
+            }
+        }
+        new F39(v16, v16, a37);
+        new F39(a36, v16, v16);
+        new F39(a38, v16, a37);
+        return this;
+    }
+}
+new C34();
+const v51 = new C34();
+new C34();
+new C18();
+v51 instanceof Map;
+new Map(v17);
+v15?.[1565];
+let v57 = 0;
+do {
+    const v58 = v33[v31];
+    try {
+        v33 = v58;
+    } catch(e59) {
+    }
+    v57++;
+} while (v57 < 9)

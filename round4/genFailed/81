@@ -1,0 +1,21 @@
+try {
+    new Uint8ClampedArray(150);
+} catch(e6) {
+}
+try {
+    new Float64Array(1635);
+} catch(e10) {
+}
+try {
+    new BigUint64Array(5);
+} catch(e14) {
+}
+const v20 = new Date();
+Object.defineProperty("e", 11, { writable: true, value: v20 });
+for (const v21 of "function") {
+    const o25 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o25);
+}

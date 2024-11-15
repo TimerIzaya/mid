@@ -1,0 +1,45 @@
+const v0 = [];
+try {
+    new BigUint64Array(127);
+} catch(e4) {
+}
+try {
+    new BigInt64Array(637);
+} catch(e8) {
+}
+try {
+    new Int8Array(0);
+} catch(e12) {
+}
+class C16 extends BigUint64Array {
+    static b = BigInt64Array;
+    static c;
+    [Int8Array];
+    [v0];
+    static m(a18, a19) {
+        function f20() {
+            return a18;
+        }
+        return v0;
+    }
+    toString(a22, a23, a24, a25) {
+        class C26 extends BigInt64Array {
+            static #c = 127;
+        }
+        new C26();
+        new C26();
+        const v29 = new C26();
+        return v29;
+    }
+}
+new C16();
+let v31 = new C16();
+const v32 = new C16();
+let v37 = 129;
+"268435441" / "255";
+v31--;
+const v40 = v37++;
+let v41;
+try { v41 = v40(v40, -256n, "a", v31, v0); } catch (e) {}
+C16["m"](C16, -256n, "m", v32);
+try { v41(); } catch (e) {}

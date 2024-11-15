@@ -1,0 +1,41 @@
+class C3 {
+    constructor(a5, a6) {
+        a6 instanceof this;
+        const o11 = {
+            "execution": "async",
+            "type": "minor",
+        };
+        gc(o11);
+    }
+}
+const v13 = new C3(-17475, -17475);
+new C3(578, 578);
+const v15 = new C3(-10, -10);
+function f16(a17, a18) {
+    const o27 = {
+        o(a20, a21, a22) {
+            try { a22["p"](this, v13, "p", v15); } catch (e) {}
+            return a17;
+        },
+        get c() {
+            try {
+                super.g <<= -17475;
+            } catch(e26) {
+            }
+            return a18;
+        },
+    };
+    return o27;
+}
+const v28 = f16(578, 578);
+f16(578, -10);
+const v30 = f16(v28, -17475);
+try { v15.reverse(v30, v28, v30, f16, C3); } catch (e) {}
+try {
+    C3.length = 2;
+} catch(e33) {
+}
+try {
+    -10 & f16;
+} catch(e35) {
+}

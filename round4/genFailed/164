@@ -1,0 +1,42 @@
+function f0() {
+}
+try {
+    new Int16Array(255);
+} catch(e4) {
+}
+try {
+    new Int8Array(479);
+} catch(e8) {
+}
+try {
+    new Int8Array(206);
+} catch(e12) {
+}
+class C13 extends Int16Array {
+    static a = f0;
+    static #d;
+    o(a15, a16, a17) {
+        try {
+            a15 = a16;
+        } catch(e18) {
+        }
+        return 255;
+    }
+    static g = 206;
+    1198;
+}
+const v19 = new C13();
+new C13();
+const v21 = new C13();
+function f22() {
+    return Int8Array;
+}
+if (v21) {
+    const v24 = [f0];
+    Reflect.apply(v19?.forEach, v19, v24);
+} else {
+    try {
+        v21.__proto__ = v21;
+    } catch(e27) {
+    }
+}

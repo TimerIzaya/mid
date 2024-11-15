@@ -1,0 +1,36 @@
+try {
+    new Int32Array(16);
+} catch(e3) {
+}
+try {
+    new Uint8Array(7);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(10);
+} catch(e11) {
+}
+class C12 {
+    static g = Uint8Array;
+    constructor(a14, a15) {
+        let v16;
+        try { v16 = this.isExtensible(this, Int32Array, Uint8Array); } catch (e) {}
+        try { v16(Int32Array, this); } catch (e) {}
+        try {
+            ~7;
+        } catch(e22) {
+        }
+    }
+    #a = Uint8Array;
+}
+new C12(7, 16);
+const v24 = new C12(16, 16);
+new C12(10, 7);
+const v29 = v24?.__proto__;
+for (let [v30] of v29) {
+    v30[9] = 10n;
+    try {
+        v30 = v29;
+    } catch(e31) {
+    }
+}

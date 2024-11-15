@@ -1,0 +1,75 @@
+function f0() {
+}
+class C1 extends f0 {
+    m() {
+        function F3(a5) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.d = this;
+            } catch(e6) {
+            }
+            try {
+                this.g = f0;
+            } catch(e7) {
+            }
+            try {
+                this.a = f0;
+            } catch(e8) {
+            }
+        }
+        const v9 = new F3(F3);
+        const v10 = new F3(v9);
+        new F3(v10);
+        return f0;
+    }
+}
+new C1();
+const v13 = new C1();
+const v14 = new C1();
+class C15 {
+    m(a17) {
+        try {
+            super[this] = a17;
+        } catch(e18) {
+        }
+        try {
+            f0();
+        } catch(e20) {
+        }
+        return C1;
+    }
+    static #a;
+    7;
+    static c = v13;
+}
+const v21 = new C15();
+const v22 = new C15();
+const v23 = new C15();
+function f24(a25, a26, a27) {
+    const o33 = {
+        7: v13,
+        "a": a25,
+        "h": v22,
+        "b": a25,
+        "g": v22,
+        116: v23,
+        "e": C1,
+        "c": a27,
+        [a26]: v22,
+        m(a29, a30) {
+            a29[super.g];
+            return C1;
+        },
+    };
+    return o33;
+}
+const v34 = f24(v21, v23, v21);
+f24(v23, v23, v14);
+f24(v34, v21, C1);
+Object.defineProperty("zia5", 10, { set: f0 });
+const v41 = ("zia5")?.[64];
+const v44 = Reflect.construct(v41, [Reflect,v22], v41);
+try {
+    Reflect[4290927172] = v44;
+} catch(e46) {
+}

@@ -1,0 +1,51 @@
+try {
+    new Float32Array(5);
+} catch(e3) {
+}
+try {
+    new Int8Array(487);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(10);
+} catch(e11) {
+}
+class C12 extends Int8Array {
+    static get d() {
+        try {
+            this % 5;
+        } catch(e15) {
+        }
+        return Float32Array;
+    }
+    [487];
+    [10];
+    #c;
+    static [10];
+}
+new C12();
+new C12();
+new C12();
+class C19 extends Int8Array {
+    o(a21, a22) {
+        const o25 = {
+            "maxByteLength": 268435440,
+        };
+        const v27 = new SharedArrayBuffer(10, o25);
+        try {
+            new Int16Array(v27);
+        } catch(e30) {
+        }
+        return a21;
+    }
+}
+new C19();
+new C19();
+const v33 = new C19();
+const v37 = +64;
+v37 / v33;
+try {
+    Math.abs(Int8Array);
+} catch(e40) {
+}
+v37 - v37;

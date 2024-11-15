@@ -1,0 +1,59 @@
+class C3 {
+    1697395563 = 10000;
+    static #d;
+    ["bQZa"] = "bQZa";
+    #toString(a5, a6) {
+        const o10 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o10);
+        return a6;
+    }
+}
+const v12 = new C3();
+const v13 = new C3();
+const v14 = new C3();
+try {
+    new BigInt64Array(152);
+} catch(e18) {
+}
+try {
+    new Int16Array(13);
+} catch(e22) {
+}
+try {
+    new Float32Array(474);
+} catch(e26) {
+}
+class C27 extends Int16Array {
+    #f = C3;
+    static #e = v13;
+    1753244151;
+    constructor(a29, a30, a31) {
+        super(v14, 152, 10000);
+        try {
+            a30.e = this;
+        } catch(e32) {
+        }
+    }
+    static [C3] = v12;
+    static [Float32Array] = BigInt64Array;
+    static g;
+    f;
+}
+new C27(C3, Int16Array, 10000);
+new C27(v14, 474, 152);
+const v35 = new C27(v13, v12, 152);
+try {
+    C3.__proto__ = v35;
+} catch(e36) {
+}
+try {
+    Int16Array & v12;
+} catch(e38) {
+}
+try {
+    v12[152] = v13;
+} catch(e39) {
+}

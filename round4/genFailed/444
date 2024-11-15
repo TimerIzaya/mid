@@ -1,0 +1,62 @@
+try {
+    new Int16Array(9);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(5);
+} catch(e7) {
+}
+try {
+    new Int16Array(1024);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    constructor(a14, a15) {
+        super(a14, 9, a14);
+        try {
+            a14 || a15;
+        } catch(e17) {
+        }
+    }
+    n(a19, a20, a21, a22) {
+        try {
+            this.e = a19;
+        } catch(e23) {
+        }
+        return 5;
+    }
+    static 3656;
+}
+const v24 = new C12(5, Uint8ClampedArray);
+const v25 = new C12(1024, Uint8ClampedArray);
+new C12(9, v25);
+class C27 extends Uint8ClampedArray {
+    1073741824 = Uint8ClampedArray;
+    [Uint8ClampedArray] = 5;
+    #h = 1024;
+    static set g(a29) {
+        try {
+            v24.#h = Uint8ClampedArray;
+        } catch(e30) {
+        }
+        [Int16Array,[9,this,v24],a29,1024];
+        [Uint8ClampedArray];
+        try {
+            this.e <<= 9;
+        } catch(e34) {
+        }
+    }
+}
+new C27();
+new C27();
+new C27();
+class C41 extends Int16Array {
+    [5];
+    [1024] = C27;
+    #a = v25;
+    static #d;
+}
+new C41();
+new C41();
+new C41();
+let [v45] = v24;

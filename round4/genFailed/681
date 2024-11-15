@@ -1,0 +1,42 @@
+try {
+    new Int32Array(512);
+} catch(e3) {
+}
+try {
+    new Uint8Array(7);
+} catch(e7) {
+}
+try {
+    new Uint32Array(127);
+} catch(e11) {
+}
+class C12 extends Int32Array {
+    [127] = 127;
+    constructor(a14, a15, a16, a17) {
+        super(127, a16, a14);
+        delete this?.byteOffset;
+        try {
+            a14[this] = a15;
+        } catch(e19) {
+        }
+    }
+    [Int32Array];
+    7 = 512;
+    a = Int32Array;
+    #b;
+}
+const v20 = new C12(127, 7, 127, 127);
+const v21 = new C12(v20, 7, 127, v20);
+const v22 = new C12(512, 7, 512, v21);
+function f26(a27, a28) {
+    const o29 = {
+        "c": a28,
+        __proto__: v22,
+        [a28]: -4096,
+        ...v22,
+    };
+    return o29;
+}
+f26(255, 255);
+f26(255, 255);
+f26(1219143562, 255);

@@ -1,0 +1,41 @@
+let v0 = 3244;
+try {
+    new BigUint64Array(v0);
+} catch(e3) {
+}
+try {
+    new Float64Array(1);
+} catch(e7) {
+}
+try {
+    new Uint32Array(64);
+} catch(e11) {
+}
+class C12 extends Float64Array {
+    static #c = 64;
+    constructor(a14, a15, a16, a17) {
+        super(a14, a17, a15);
+        this[1];
+        try {
+            v0 **= a17;
+        } catch(e19) {
+        }
+    }
+    static [BigUint64Array] = Uint32Array;
+    static #f;
+    148 = v0;
+    a;
+}
+const v20 = new C12(1, 1, 64, v0);
+const v21 = new C12(Uint32Array, 1, 1, 64);
+new C12(1, v0, 1, v0);
+v20?.[4047439073];
+const o29 = {
+    valueOf() {
+        try {
+            this.b = v21;
+        } catch(e28) {
+        }
+        return 64;
+    },
+};

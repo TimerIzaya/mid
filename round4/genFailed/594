@@ -1,0 +1,35 @@
+class C6 {
+    e;
+    static set g(a8) {
+        let v7 = this;
+        let v12 = ++a8;
+        ~a8;
+        v7++;
+        --v12;
+    }
+    [2.220446049250313e-16] = -9.326809856760311;
+    static a;
+    #b = -9.326809856760311;
+    #f = "parse";
+}
+new C6();
+const v17 = new C6();
+new C6();
+try {
+    new Float32Array(0);
+} catch(e25) {
+}
+try {
+    new Int32Array(2);
+} catch(e29) {
+}
+try {
+    new Int16Array(2440);
+} catch(e33) {
+}
+try { ("536870888").toLowerCase(); } catch (e) {}
+v17[Float32Array];
+for (let v36 = 0; v36 < 32; v36++) {
+    C6["p" + v36] = v36;
+}
+Object.defineProperty("parse", 758, { writable: true, value: Int32Array });

@@ -1,0 +1,83 @@
+class C4 {
+    [Infinity] = -39160;
+    ["p"] = Infinity;
+    #a;
+    static #toString(a6) {
+        try {
+            const t6 = "p";
+            t6.length = a6;
+        } catch(e7) {
+        }
+        return this;
+    }
+}
+new C4();
+const v9 = new C4();
+const v10 = new C4();
+try {
+    new Uint32Array(4);
+} catch(e14) {
+}
+try {
+    new BigUint64Array();
+} catch(e18) {
+}
+try {
+const t0 = 16;
+t0(v9);
+} catch (e) {}
+const o20 = {
+};
+try {
+    new Proxy(v9, o20);
+} catch(e23) {
+}
+try {
+    v10[v9] >>= Infinity;
+} catch(e24) {
+}
+try {
+    new Int8Array(2757);
+} catch(e30) {
+}
+try {
+    new Float64Array(1826);
+} catch(e34) {
+}
+try {
+    new Uint16Array(6);
+} catch(e38) {
+}
+function F39(a41, a42, a43, a44) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = Uint16Array;
+    } catch(e45) {
+    }
+    try {
+        this.e = a41;
+    } catch(e46) {
+    }
+}
+const t61 = 16;
+new t61(-268435456, 2757, -1073741824, -128);
+new F39(F39, -128, 2757, -268435456);
+new F39(Float64Array, -128, 6, -128);
+[];
+const v54 = [33433,852097100,-12];
+const v55 = [26512,-7];
+const v56 = [];
+function F57(a59, a60) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        new F57(false, "function");
+    } catch(e64) {
+    }
+    try {
+        a60.e = v56;
+    } catch(e65) {
+    }
+}
+new F57(183291.07360340143, v55);
+const v67 = new F57(0.0, v54);
+new F57(183291.07360340143, v67);

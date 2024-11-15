@@ -1,0 +1,45 @@
+try {
+    new Float64Array(2452);
+} catch(e6) {
+}
+try {
+    new Float64Array(83);
+} catch(e10) {
+}
+try {
+    new Uint8Array(190);
+} catch(e14) {
+}
+const v15 = [2452,Float64Array,190];
+const v16 = [v15,v15,2452,v15];
+const v17 = [v16,Uint8Array,v16,v15];
+class C18 extends Float64Array {
+    o(a20, a21, a22, a23) {
+        let v24;
+        try { v24 = ("n").replaceAll("n", a22); } catch (e) {}
+        let v25;
+        try { v25 = v24.next(2452, "e", "n", a21); } catch (e) {}
+        try {
+            a20.indexOf([190,2452,v25,v17,a20], a21);
+        } catch(e28) {
+        }
+        return a23;
+    }
+    #h = Float64Array;
+    57;
+    11 = 190;
+    static d;
+}
+const v29 = new C18();
+new C18();
+new C18();
+const v33 = Symbol?.toPrimitive;
+const o39 = {
+    [v33]() {
+        try {
+            new Uint8Array(v29, 268435456, 901065979);
+        } catch(e38) {
+        }
+        return "e";
+    },
+};

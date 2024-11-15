@@ -1,0 +1,41 @@
+class C3 {
+    [2147483649n] = -9223372036854775807n;
+    static #toString(a5, a6) {
+        try {
+            this.__proto__ = this;
+        } catch(e7) {
+        }
+        return 2147483649n;
+    }
+    static [2147483649n] = -4294967297n;
+    static 2355114006;
+}
+new C3();
+new C3();
+const v10 = new C3();
+try {
+    new Int8Array(6);
+} catch(e14) {
+}
+try {
+    new BigInt64Array(8);
+} catch(e18) {
+}
+try {
+    new BigUint64Array(158);
+} catch(e22) {
+}
+for (const v23 of -4294967297n) {
+    try { v23(v10, 2147483649n, v23, C3, v23); } catch (e) {}
+    function f25() {
+        return BigUint64Array;
+    }
+    const o28 = {
+        "maxByteLength": 129,
+    };
+    const v30 = new SharedArrayBuffer(64, o28);
+    try {
+        new Int32Array(v30);
+    } catch(e33) {
+    }
+}

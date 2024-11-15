@@ -1,0 +1,43 @@
+const v2 = -Infinity;
+class C6 {
+    static #m(a8, a9) {
+        try {
+            "undefined" << v2;
+        } catch(e11) {
+        }
+        return "undefined";
+    }
+    static get b() {
+        try {
+            this >>> this;
+        } catch(e14) {
+        }
+        try { this["n"]("n"); } catch (e) {}
+        super.d;
+        return -1.7976931348623157e+308;
+    }
+}
+new C6();
+new C6();
+new C6();
+try {
+    new Uint16Array(118);
+} catch(e24) {
+}
+try {
+    new Float32Array(512);
+} catch(e28) {
+}
+try {
+    new Uint8ClampedArray(3039);
+} catch(e32) {
+}
+C6?.b;
+Object.defineProperty("string", Uint8ClampedArray, { enumerable: true, value: "undefined" });
+const v34 = `
+    try {
+        C6.b = 118;
+    } catch(e35) {
+    }
+`;
+eval(v34);

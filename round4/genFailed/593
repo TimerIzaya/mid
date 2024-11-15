@@ -1,0 +1,53 @@
+function f0() {
+    const o17 = {
+        ..."valueOf",
+        get h() {
+            try {
+                new Uint16Array(1000);
+            } catch(e8) {
+            }
+            try {
+                new BigUint64Array(256);
+            } catch(e12) {
+            }
+            try {
+                new Float32Array(255);
+            } catch(e16) {
+            }
+            return "valueOf";
+        },
+    };
+    return o17;
+}
+const v18 = f0();
+f0();
+const v20 = f0();
+const v21 = /(?:ab)+/igymds;
+const v22 = /\P{gc=Decimal_Number}[abc|def|ghi]/ydv;
+const v23 = /Fxyz{0,1}?/guys;
+function F24(a26, a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a27;
+    } catch(e29) {
+    }
+    try {
+        this.b = f0;
+    } catch(e30) {
+    }
+}
+const v31 = new F24(v21, v18, v22);
+const v32 = new F24(v23, v18, v22);
+new F24(v22, v20, v23);
+try {
+    new f0();
+} catch(e35) {
+}
+try {
+    v32[v31] ||= F24;
+} catch(e36) {
+}
+try {
+    Object.defineProperty(v20, "h", { enumerable: true, get: f0, set: f0 });
+} catch(e37) {
+}

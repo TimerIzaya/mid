@@ -1,0 +1,12 @@
+new WeakMap();
+const v9 = [null,WeakMap];
+const v10 = [v9];
+const v12 = new WeakMap([v9,1.0,WeakMap]);
+try {
+    v12.b = 2.0;
+} catch(e13) {
+}
+const v14 = new WeakMap(v10);
+try { v10.forEach(v14); } catch (e) {}
+const v17 = new Map();
+v17?.size;

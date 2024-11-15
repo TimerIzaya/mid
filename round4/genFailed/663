@@ -1,0 +1,59 @@
+try {
+    new Uint8Array(128);
+} catch(e3) {
+}
+try {
+    new Int32Array(256);
+} catch(e7) {
+}
+try {
+    new Int32Array(129);
+} catch(e11) {
+}
+class C12 extends Uint8Array {
+    static f = 256;
+    #toString(a14, a15, a16) {
+        g = Int32Array;
+        const v17 = this?.[8];
+        try { new v17(Uint8Array); } catch (e) {}
+        try {
+            v17 * a16;
+        } catch(e20) {
+        }
+        return this;
+    }
+    3135;
+    1958053575 = 128;
+    #e = Uint8Array;
+}
+const v21 = new C12();
+const v22 = new C12();
+const v23 = new C12();
+const v25 = new Map();
+function F26(a28, a29, a30, a31) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v25;
+    } catch(e32) {
+    }
+    try {
+        this.h = v23;
+    } catch(e33) {
+    }
+    try {
+        this.d = Uint8Array;
+    } catch(e34) {
+    }
+}
+new F26(v22, v22, 256, v21);
+const v36 = new F26(v21, v22, 256, v22);
+new F26(v21, v22, 128, v23);
+try { v23(v36, Map, 256); } catch (e) {}
+const o44 = {
+    "maxByteLength": 1833,
+};
+const v46 = new SharedArrayBuffer(1833, o44);
+try {
+    new Uint8ClampedArray(v46);
+} catch(e49) {
+}

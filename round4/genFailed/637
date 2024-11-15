@@ -1,0 +1,93 @@
+class C3 {
+    o(a5, a6) {
+        const v7 = super.c;
+        function f8() {
+            return v7;
+        }
+        return a5;
+    }
+    constructor(a10) {
+        for (let v11 of this) {
+            ({"a":v11,"f":v11,"h":v11,} = this);
+            try {
+                new Uint32Array(129);
+            } catch(e15) {
+            }
+            try {
+                new Int16Array(213);
+            } catch(e19) {
+            }
+            try {
+                new Uint8ClampedArray(0);
+            } catch(e23) {
+            }
+        }
+    }
+}
+const v24 = new C3(669523208);
+const v25 = new C3(669523208);
+const v26 = new C3(9223372036854775807);
+const v31 = new Set();
+new Map();
+function f34(a35, a36, a37) {
+    const o57 = {
+        "b": v31,
+        [5](a39, a40) {
+            try { C3.compile(v26, Set, a40); } catch (e) {}
+            const v43 = new WeakMap();
+            return v43;
+        },
+        get c() {
+            try {
+                super.c &&= 127;
+            } catch(e45) {
+            }
+            let [v46,,v47,v48] = v31;
+            const o49 = {
+            };
+            try {
+                o49.b = v46;
+            } catch(e50) {
+            }
+            try {
+                const o51 = {
+                };
+                o51.b = v46;
+                o51.h = v46;
+            } catch(e52) {
+            }
+            try {
+                const o53 = {
+                };
+                o53.b = v46;
+                o53.h = v46;
+                o53.e = v47;
+            } catch(e54) {
+            }
+            try {
+                const o55 = {
+                };
+                o55.b = v46;
+                o55.h = v46;
+                o55.e = a35;
+            } catch(e56) {
+            }
+            return a35;
+        },
+    };
+    return o57;
+}
+const v58 = f34(v26, v26, v24);
+const v60 = f34(f34(v58, v24, C3), v24, v25);
+function f61(a62, a63) {
+    const o64 = {
+        57: Set,
+        __proto__: a63,
+        61: -7,
+        "b": 256,
+    };
+    return o64;
+}
+f61(v24, v60);
+f61(v58, C3);
+f61(v58, v25);

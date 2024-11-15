@@ -1,0 +1,56 @@
+const v0 = [];
+try {
+    new Uint16Array(2);
+} catch(e4) {
+}
+try {
+    new Float64Array(13);
+} catch(e8) {
+}
+try {
+    new Uint8ClampedArray(965);
+} catch(e12) {
+}
+const v14 = new Map();
+class C15 extends Uint16Array {
+    f = v0;
+    [2] = Float64Array;
+    6;
+    static #b = 2;
+    static get e() {
+        let v18 = 512;
+        let v20 = ~v18;
+        v20--;
+        v18++;
+        try {
+            Math.atan(-4096);
+        } catch(e24) {
+        }
+        try {
+            Math.asin(v20);
+        } catch(e26) {
+        }
+        --v18;
+        try {
+            Math.max(-4096);
+        } catch(e29) {
+        }
+        return -4096;
+    }
+}
+new C15();
+new C15();
+new C15();
+function f33() {
+    return C15;
+}
+new Uint8ClampedArray(v0, 965, 2);
+try {
+    Math.log1p(C15);
+} catch(e39) {
+}
+try {
+    Math.abs(v14);
+} catch(e41) {
+}
+v14 + C15;

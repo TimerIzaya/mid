@@ -1,0 +1,33 @@
+const v2 = new Array(77);
+function f3(a4) {
+    const o12 = {
+        "g": v2,
+        valueOf(a6, a7) {
+            return 1024n;
+        },
+        "b": a4,
+        "a": v2,
+        __proto__: a4,
+        [77]: v2,
+        "d": a4,
+        "e": Array,
+        "f": v2,
+    };
+    return o12;
+}
+const v13 = f3(Array);
+const v14 = f3(v13);
+const v15 = f3(Array);
+const v16 = [v15,v15];
+const v17 = [v16,f3,v2,v15];
+[v16,v17,v17,v14,v16];
+const v26 = Array(9007199254740991);
+const o27 = {
+    __proto__: v26,
+    [v26]: v14,
+    "d": 257,
+};
+try {
+    v13.valueOf = Array;
+} catch(e28) {
+}

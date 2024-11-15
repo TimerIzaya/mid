@@ -1,0 +1,62 @@
+new Map();
+try {
+    new Uint8Array(4);
+} catch(e5) {
+}
+try {
+    new Int16Array(13);
+} catch(e9) {
+}
+try {
+    new Int8Array(16);
+} catch(e13) {
+}
+const v15 = new Date();
+class C19 extends Int16Array {
+    a = 16;
+    static [v15] = Map;
+    [4] = Int16Array;
+    [Int8Array] = Int8Array;
+    #f = Int16Array;
+    static g;
+    #d;
+    static get e() {
+        let v21 = 0;
+        while (v21 < 8) {
+            try {
+                Math.pow(-762486961, 12);
+            } catch(e28) {
+            }
+            const v29 = 255 / -762486961;
+            -762486961 - !255;
+            try {
+                Math.pow(-762486961, v29);
+            } catch(e33) {
+            }
+            -762486961 >>> -762486961;
+            v21++;
+        }
+        return this;
+    }
+}
+new C19();
+new C19();
+new C19();
+const v40 = Symbol?.iterator;
+const o49 = {
+    [v40]() {
+        let v42 = 10;
+        const o48 = {
+            next() {
+                v42--;
+                const v46 = v42 == 0;
+                const o47 = {
+                    "done": v46,
+                    "value": v42,
+                };
+                return o47;
+            },
+        };
+        return o48;
+    },
+};

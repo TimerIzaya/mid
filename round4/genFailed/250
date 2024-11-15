@@ -1,0 +1,50 @@
+const v0 = [-735.4326003613976,Infinity,0.7445800670291226,605.4354478220746,9.424199332503058];
+const v1 = [-5.0,1.0,0.6662500104379522,-6.310862333954252e+307,-111.45688005742159,-Infinity,-1000000000.0,1.577649646188569e+308,520.9999930746785,-3.279211154172705];
+const v2 = [2.0,-733194.4390246323,605343.4453275641,-329814.36960724683,-1.4444001512438904e+308,1000.0,0.18641992174251998,3.0,-Infinity];
+class C3 {
+    static set e(a5) {
+        new Map();
+        try {
+            super.g = v0;
+        } catch(e8) {
+        }
+    }
+    static [v1] = v0;
+    static e;
+    50 = v0;
+}
+const v9 = new C3();
+new C3();
+const v11 = new C3();
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a16;
+    } catch(e18) {
+    }
+    try {
+        this.a = C3;
+    } catch(e19) {
+    }
+}
+const v20 = new F12(C3, v11, F12, v2);
+new F12(v20, v0, v11, v2);
+new F12(v20, v11, v11, v2);
+%VerifyType(v0);
+throw v9;
+try {
+    C3.e += v1;
+} catch(e23) {
+}
+try {
+    new Int32Array(8);
+} catch(e27) {
+}
+try {
+    new Uint8ClampedArray(127);
+} catch(e31) {
+}
+try {
+    new Int32Array(128);
+} catch(e35) {
+}

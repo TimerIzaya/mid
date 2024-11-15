@@ -1,0 +1,31 @@
+function f0() {
+}
+const v4 = /y/mds;
+const v5 = /m[][a|b]?/ydvs;
+const v6 = /a(?=bbb|bb)c/iguys;
+function f7(a8, a9) {
+    const o16 = {
+        "b": v4,
+        "f": f0,
+        [v5](a11, a12, a13) {
+            Object.defineProperty(v5, a9, { configurable: true, set: f0 });
+            try {
+                f0();
+            } catch(e15) {
+            }
+            return v4;
+        },
+    };
+    return o16;
+}
+const v17 = f7(v6, v4);
+f7(v6, f0);
+let v19 = f7(v4, f0);
+try {
+    new f7(/\P{gc=Decimal_Number}/uds, v5);
+} catch(e22) {
+}
+try {
+    v19 += v17;
+} catch(e23) {
+}

@@ -1,0 +1,32 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+try {
+    new Uint8ClampedArray(0);
+} catch(e12) {
+}
+try {
+    new Uint32Array(2);
+} catch(e16) {
+}
+try {
+    new Float64Array(6);
+} catch(e20) {
+}
+const v21 = ("-216174516")?.[268435441];
+v21 > v21;
+class C23 extends Float64Array {
+    [6] = 0;
+    a = Float64Array;
+}
+new C23();
+new C23();
+new C23();
+try {
+    const o27 = {
+    };
+    new Float64Array(o27);
+} catch(e29) {
+}

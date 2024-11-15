@@ -1,0 +1,63 @@
+class C3 {
+    static p(a5, a6) {
+        try {
+            super.c = "-1820845349";
+        } catch(e7) {
+        }
+        return a5;
+    }
+    constructor(a9, a10) {
+        try {
+            const t10 = "-1820845349";
+            t10[1.2232165931586226e+307] <<= a9;
+        } catch(e11) {
+        }
+        try { new a9(); } catch (e) {}
+        const t15 = 1.2232165931586226e+307;
+        t15[2] = "-1820845349";
+        const v14 = Symbol?.iterator;
+        const o23 = {
+            [v14]() {
+                let v16 = 10;
+                const o22 = {
+                    next() {
+                        v16--;
+                        const v20 = v16 == 0;
+                        const o21 = {
+                            "done": v20,
+                            "value": v16,
+                        };
+                        return o21;
+                    },
+                };
+                return o22;
+            },
+        };
+    }
+}
+const v24 = new C3(C3, 1.2232165931586226e+307);
+new C3("-1820845349", "-1820845349");
+const v26 = new C3(v24, C3);
+new Array(9);
+try {
+    new Int32Array(1701);
+} catch(e33) {
+}
+try {
+    new Uint32Array(1702);
+} catch(e37) {
+}
+try {
+    new BigInt64Array(33);
+} catch(e41) {
+}
+try {
+    const t54 = "-1820845349";
+    t54.b = 9;
+} catch(e42) {
+}
+try {
+    v26.__proto__ = v26;
+} catch(e43) {
+}
+Array["from"]("-1820845349", Array);

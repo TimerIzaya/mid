@@ -1,0 +1,20 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a5;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(4n, 9n);
+const v9 = new F3(9n, v8);
+const v10 = new F3(F3, 22494n);
+[F3,F3,[v9,v9],[v10,v10]];
+let v17 = 10;
+for (; v17--;) {
+    const v22 = !4n;
+    try {
+        Math.log(v22);
+    } catch(e24) {
+    }
+    -9007199254740992 ^ 4n;
+}

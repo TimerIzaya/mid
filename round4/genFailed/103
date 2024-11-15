@@ -1,0 +1,77 @@
+function f0() {
+    const o8 = {
+        4294967296: 5.0,
+        __proto__: "MAX_VALUE",
+        ["MAX_VALUE"](a5) {
+            0.205643518716903 instanceof a5;
+            try { a5(); } catch (e) {}
+            return this;
+        },
+        "a": 5.0,
+        "g": "MAX_VALUE",
+        ..."MAX_VALUE",
+        [5.0]: 5.0,
+        "f": "MAX_VALUE",
+    };
+    return o8;
+}
+const v9 = f0();
+const v10 = f0();
+const v11 = f0();
+class C12 extends f0 {
+    static {
+        const o16 = {
+            "maxByteLength": 512,
+        };
+        const v18 = new ArrayBuffer(512, o16);
+        try {
+            new Float32Array(v18);
+        } catch(e21) {
+        }
+    }
+}
+const v22 = new C12();
+const v23 = new C12();
+const v24 = new C12();
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v22;
+    } catch(e31) {
+    }
+    try {
+        this.f = a28;
+    } catch(e32) {
+    }
+    try {
+        this.c = a27;
+    } catch(e33) {
+    }
+}
+new F25(v11, v11, v11, C12);
+new F25(v11, v11, v24, v10);
+const v36 = new F25(v9, v23, v11, v24);
+for (const v37 of v36) {
+    try {
+        Object.defineProperty(v11, "g", { enumerable: true, get: f0 });
+    } catch(e38) {
+    }
+}
+const v43 = Symbol?.iterator;
+const o52 = {
+    [v43]() {
+        let v45 = 10;
+        const o51 = {
+            next() {
+                v45--;
+                const v49 = v45 == 0;
+                const o50 = {
+                    "done": v49,
+                    "value": v45,
+                };
+                return o50;
+            },
+        };
+        return o51;
+    },
+};

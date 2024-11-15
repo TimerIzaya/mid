@@ -1,0 +1,26 @@
+const v1 = new WeakMap();
+new WeakSet();
+let v4 = -8n;
+class C10 extends WeakMap {
+    constructor(a12, a13, a14) {
+        super(v1);
+    }
+    static c = v1;
+    static f;
+    static #valueOf(a19, a20, a21, a22) {
+        try {
+            v4 = a21;
+        } catch(e24) {
+        }
+        return v1;
+    }
+}
+new C10(-1e-15, -1000000000.0, v4);
+const v26 = new C10(-1000000000.0, -1000000000.0, 10244n);
+new C10(-1e-15, -1e-15, 11n);
+typeof -1000000000.0 === "bigint";
+v1[C10];
+try {
+    v26[65537] = -4096;
+} catch(e35) {
+}

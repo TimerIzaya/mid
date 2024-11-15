@@ -1,0 +1,67 @@
+const v0 = /H(?:a+){0,0}+/igmv;
+const v1 = /y[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]/iuym;
+const v2 = /a\bc(?<a>.)\k<a>[\cA]/iguyds;
+try {
+    new Int32Array(127);
+} catch(e6) {
+}
+try {
+    new Int8Array(256);
+} catch(e10) {
+}
+try {
+    new Int8Array(8);
+} catch(e14) {
+}
+class C15 extends Int32Array {
+    static #toString(a17, a18) {
+        try {
+            v2[4] |= a17;
+        } catch(e19) {
+        }
+        try {
+            a17 = a18;
+        } catch(e20) {
+        }
+        return a18;
+    }
+    #b = Int32Array;
+    static 0;
+    4096 = Int8Array;
+}
+new C15();
+new C15();
+const v23 = new C15();
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a26;
+    } catch(e30) {
+    }
+    try {
+        this.b = a27;
+    } catch(e31) {
+    }
+    try {
+        this.d = v1;
+    } catch(e32) {
+    }
+}
+const v33 = new F24(C15, Int8Array, v0, v2);
+const v34 = new F24(v33, v23, v1, v1);
+new F24(Int32Array, v34, v1, v0);
+let v36 = 10;
+for (; v36--;) {
+    try {
+        new Float32Array(8);
+    } catch(e41) {
+    }
+    try {
+        new Int8Array(16);
+    } catch(e45) {
+    }
+    try {
+        new Int8Array(3220);
+    } catch(e49) {
+    }
+}

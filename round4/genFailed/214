@@ -1,0 +1,47 @@
+try {
+    new Int8Array(128);
+} catch(e6) {
+}
+try {
+    new Uint32Array(4071);
+} catch(e10) {
+}
+try {
+    new Int16Array(4096);
+} catch(e14) {
+}
+class C15 {
+    [Int16Array] = Uint32Array;
+    static #o(a17, a18, a19, a20) {
+        const v22 = Symbol?.toPrimitive;
+        const o27 = {
+            [v22]() {
+                return 4096;
+            },
+        };
+        return v22;
+    }
+}
+const v28 = new C15();
+const v29 = new C15();
+const v30 = new C15();
+for (const v31 of 128) {
+    try {
+        new Int8Array(4294967296);
+    } catch(e34) {
+    }
+}
+function F35(a37, a38, a39, a40) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a37;
+    } catch(e41) {
+    }
+    try {
+        this.h = a38;
+    } catch(e42) {
+    }
+}
+const v43 = new F35(C15, v28, v30, C15);
+const v44 = new F35(v43, v28, C15, C15);
+new F35(v30, v44, C15, v29);

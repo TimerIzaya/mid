@@ -1,0 +1,43 @@
+try {
+    new BigUint64Array(15);
+} catch(e3) {
+}
+try {
+    new Float32Array(2190);
+} catch(e7) {
+}
+try {
+    new Uint32Array(1013);
+} catch(e11) {
+}
+class C18 extends BigUint64Array {
+    toString(a20, a21, a22, a23) {
+        try {
+            this.byteLength = a20;
+        } catch(e24) {
+        }
+        try {
+            super[BigUint64Array] = 1013;
+        } catch(e25) {
+        }
+        return this;
+    }
+    1;
+    static e = 2190;
+    static h = 536870889;
+}
+const v26 = new C18();
+new C18();
+const v28 = new C18();
+let v29;
+try {
+const t0 = -1388076444;
+v29 = t0(v28);
+} catch (e) {}
+for (let [,,v30] of v28) {
+    %VerifyType(-1388076444);
+}
+v28[v29];
+function f35() {
+    return v26;
+}

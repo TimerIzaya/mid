@@ -1,0 +1,43 @@
+try {
+    new Uint8Array(1);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(157);
+} catch(e7) {
+}
+try {
+    new Int32Array(4059);
+} catch(e11) {
+}
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a15;
+    } catch(e18) {
+    }
+    try {
+        this.h = a15;
+    } catch(e19) {
+    }
+    try {
+        this.f = a15;
+    } catch(e20) {
+    }
+}
+new F12(157, 1, 4059, Uint8Array);
+const v22 = new F12(4059, 157, 157, Int32Array);
+const v23 = new F12(157, v22, 4059, Int32Array);
+for (let v29 = 0; v29 < 32; v29++) {
+    v23["p" + v29] = v29;
+}
+function F32(a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = 4059;
+    } catch(e36) {
+    }
+}
+new F32(1e-15, d);
+new F32(d, 4059);
+new F32(F12, 4059);

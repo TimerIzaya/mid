@@ -1,0 +1,47 @@
+class C3 {
+    constructor(a5, a6) {
+        let v7;
+        try { v7 = a5.grow(a5, -9223372036854775807); } catch (e) {}
+        try { v7(v7, a5, this, v7); } catch (e) {}
+        Reflect.construct(a6, [Reflect], a5);
+    }
+    m(a13) {
+        try {
+            super.reduce(-1000000000.0);
+        } catch(e15) {
+        }
+        return -1000000000.0;
+    }
+}
+const v16 = new C3(-9223372036854775807, C3);
+const v17 = new C3(C3, -1000000000.0);
+const v18 = new C3(v17, C3);
+function f22(a23, a24, a25, a26) {
+    const o31 = {
+        [v17](a28, a29) {
+            try {
+                a24.__proto__ = this;
+            } catch(e30) {
+            }
+            return a24;
+        },
+        "b": v16,
+        ...v18,
+        "a": a25,
+        "c": v17,
+        "e": a24,
+    };
+    return o31;
+}
+const v33 = f22(f22(f22, v16, 1, -1846462183), v17, 1, 1);
+f22(-1000000000.0, v17, 1, -9223372036854775807);
+f22(f22, v16, 4294967296, 1);
+%PrepareFunctionForOptimization(f22);
+f22(f22, v16, 4294967296, 1);
+f22(f22, v16, 4294967296, 1);
+%OptimizeMaglevOnNextCall(f22);
+f22(f22, v16, 4294967296, 1);
+try {
+    Object.defineProperty(v33, "c", { enumerable: true, get: f22, set: f22 });
+} catch(e39) {
+}

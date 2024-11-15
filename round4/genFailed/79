@@ -1,0 +1,47 @@
+const v3 = /sxyz??/ydvs;
+const v4 = /[ph[\p{Script_Extensions=Mongolian}&&\p{Number}]foo(?<=bar)baz]/iguyds;
+const v5 = /a+?/igyd;
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a10;
+    } catch(e11) {
+    }
+    try {
+        this.b = "number";
+    } catch(e12) {
+    }
+    try {
+        this.f = a8;
+    } catch(e13) {
+    }
+}
+const v14 = new F6(v5, "number", "parse");
+const v15 = new F6(v4, "parse", "number");
+const v16 = new F6(v4, "parse", "-60285");
+function f17(a18, a19, a20, a21) {
+    const o30 = {
+        "a": a20,
+        ...v14,
+        "h": a19,
+        n(a23, a24, a25) {
+            const o26 = {
+            };
+            try {
+                new Proxy(v15, o26);
+            } catch(e29) {
+            }
+            return a18;
+        },
+    };
+    return o30;
+}
+f17(v15, "parse", v3, "parse");
+const v32 = f17(v16, "parse", v4, "number");
+const v33 = f17(v16, "number", v3, "parse");
+function f34(a35, a36, a37, a38) {
+    return arguments;
+}
+f34("parse", v3, v33, v16);
+delete v5[5];
+v32[v33];

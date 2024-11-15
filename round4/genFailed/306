@@ -1,0 +1,35 @@
+let v3 = [3,3,-9223372036854775808,3];
+const v4 = [v3,3,-9223372036854775808];
+const v5 = [v4];
+function F9(a11, a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a11;
+    } catch(e14) {
+    }
+    try {
+        this.c = -4203n;
+    } catch(e15) {
+    }
+    try {
+        this.f = -9223372036854775808;
+    } catch(e16) {
+    }
+}
+const v17 = new F9(-4203n, v4, -4203n);
+const v18 = new F9(-4203n, v17, v3);
+new F9(-4203n, v17, -2147483647);
+try {
+    --v3;
+} catch(e21) {
+}
+let v22;
+try {
+const t0 = -4203n;
+v22 = t0(3, -4203n, v5, 512n);
+} catch (e) {}
+const v23 = v18?.c;
+try {
+} catch(e24) {
+}
+Reflect.construct(v23, [v3,1971212519n,v5,v4], v22);

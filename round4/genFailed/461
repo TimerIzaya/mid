@@ -1,0 +1,20 @@
+let v0 = 4294967295;
+try {
+    new BigInt64Array(11);
+} catch(e9) {
+}
+try {
+    new Uint16Array(2266);
+} catch(e13) {
+}
+try {
+    new BigInt64Array(64);
+} catch(e17) {
+}
+try {
+    v0 *= 0;
+} catch(e19) {
+}
+for (let v20 = 0; v20 < 32; v20++) {
+    e["p" + v20] = v20;
+}

@@ -1,0 +1,50 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a8;
+    } catch(e11) {
+    }
+    try {
+        this.c = a8;
+    } catch(e12) {
+    }
+}
+const v13 = new F6(127, 127, -65537);
+const v14 = new F6(255, -65537, 127);
+const v15 = new F6(255, 9223372036854775807, -1073741824);
+try {
+    new Uint32Array(1);
+} catch(e19) {
+}
+try {
+    new Int8Array(3863);
+} catch(e23) {
+}
+try {
+    new BigUint64Array(4);
+} catch(e27) {
+}
+for (const v28 of -65537) {
+    try {
+        3863 >> -65537;
+    } catch(e30) {
+    }
+}
+function F32(a34, a35, a36, a37) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a37;
+    } catch(e38) {
+    }
+    try {
+        this.b = 3863;
+    } catch(e39) {
+    }
+    try {
+        this.e = 9223372036854775807;
+    } catch(e40) {
+    }
+}
+new F32(v14, 4, 3863, v13);
+new F32(F6, 9223372036854775807, 127, v14);
+new F32(v14, 9223372036854775807, 4, v15);

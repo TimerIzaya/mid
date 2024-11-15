@@ -1,0 +1,74 @@
+try {
+    new BigInt64Array(4);
+} catch(e3) {
+}
+try {
+    new Int32Array(0);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(175);
+} catch(e11) {
+}
+function f12(a13, a14, a15, a16) {
+    const o22 = {
+        m(a18, a19, a20) {
+            try {
+            } catch(e21) {
+            }
+            return a19;
+        },
+        "f": a14,
+        255: a16,
+        [BigInt64Array]: Int32Array,
+        ...a13,
+        "d": a15,
+        5: a13,
+        __proto__: a13,
+        "g": a16,
+    };
+    return o22;
+}
+const v23 = f12(BigInt64Array, 4, 0, 4);
+const v24 = f12(BigInt64Array, 175, 4, 0);
+f12(v24, 0, 175, 4);
+class C26 {
+    static m(a28, a29, a30, a31) {
+        a30 > a31;
+        return v24;
+    }
+    static valueOf(a34, a35, a36) {
+        try {
+            super.m(BigInt64Array, BigInt64Array);
+        } catch(e38) {
+        }
+        return a35;
+    }
+    e;
+    [v23] = v24;
+    #a = Int32Array;
+}
+const v39 = new C26();
+const v40 = new C26();
+const v41 = new C26();
+v39[7] = BigInt64Array;
+function f42(a43, a44, a45) {
+    function f47(a48) {
+        try { v41.n(4, a48); } catch (e) {}
+        try {
+            this[512] <<= a48;
+        } catch(e50) {
+        }
+    }
+    this.onmessage = f47;
+    try { a45(4, C26, BigInt64Array, v40); } catch (e) {}
+    [1000.0,-1.6703026159219955e+308,1e-15,1.4416819325842063e+308,0.6294744855999687,-0.0,1000000000000.0,8.716417441353116,1.4096018364273458e+308,-1.0];
+    [1000000.0,-9.673082786428695,-5.0,-1000.0,-14.32342802180142,-2.533674241421647e+307,-1000000000.0];
+    [1.5869710687815112e+308,620.6042634552518,-Infinity,-4.0,-1.6838954054205013e+308,-2.220446049250313e-16];
+}
+const v57 = [f42,Int32Array,v24];
+const o58 = {
+    "arguments": v57,
+    "type": "function",
+};
+new Worker(f42, o58);

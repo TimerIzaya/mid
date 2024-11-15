@@ -1,0 +1,47 @@
+const v0 = /U[b(?:a*)*]/ymdvs;
+const v1 = /h0j/dv;
+const v2 = /(?:ab|cde)/igv;
+class C3 {
+    constructor(a5, a6) {
+        try {
+            Object.defineProperty(a5, "f", { configurable: true, value: v0 });
+        } catch(e7) {
+        }
+    }
+    [v0] = v2;
+    b;
+    c = v2;
+    #g = v2;
+}
+new C3(v1, v2);
+new C3(v2, v0);
+const v10 = new C3(v2, v1);
+const o14 = {
+};
+try {
+    o14.g = v1;
+} catch(e15) {
+}
+try {
+    const o16 = {
+    };
+    o16.g = v1;
+    o16.b = v0;
+} catch(e17) {
+}
+try {
+    const o18 = {
+    };
+    o18.g = v1;
+    o18.b = v0;
+    o18.a = v10;
+} catch(e19) {
+}
+try {
+    const o20 = {
+    };
+    o20.g = v1;
+    o20.b = v0;
+    o20.a = v1;
+} catch(e21) {
+}

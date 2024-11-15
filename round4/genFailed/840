@@ -1,0 +1,42 @@
+let v1 = 1000.0;
+class C3 {
+    #valueOf(a5, a6) {
+        try {
+            ++v1;
+        } catch(e8) {
+        }
+        try {
+            super.b = 7;
+        } catch(e9) {
+        }
+        return 7;
+    }
+}
+const v10 = new C3();
+new C3();
+new C3();
+try {
+    new Int8Array(977);
+} catch(e16) {
+}
+try {
+    new Int32Array(127);
+} catch(e20) {
+}
+let v22 = Int32Array;
+try {
+    new v22(256);
+} catch(e24) {
+}
+throw v1;
+for (const v25 in "undefined") {
+    try {
+        v22 = Int32Array;
+    } catch(e26) {
+    }
+}
+const v27 = delete v10?.a;
+try {
+    C3.g = v27;
+} catch(e28) {
+}

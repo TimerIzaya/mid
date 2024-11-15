@@ -1,0 +1,33 @@
+const v0 = [];
+const v1 = [v0,v0,v0];
+const v2 = [v0,v1,v1];
+const v3 = [v2,v2,v0,v2];
+class C4 {
+    static #o(a6) {
+        const v7 = a6?.[0];
+        try {
+            v7[257] = v7;
+        } catch(e8) {
+        }
+        try {
+            v7.__proto__ = v7;
+        } catch(e9) {
+        }
+        return v1;
+    }
+}
+new C4();
+const v11 = new C4();
+const v12 = new C4();
+const v15 = new Array(2127);
+throw v0;
+function F16(a18, a19, a20, a21) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v0;
+    } catch(e22) {
+    }
+}
+new F16(v3, Array, v11, v0);
+const v24 = new F16(v15, v3, v3, v12);
+new F16(v0, v24, v15, v12);

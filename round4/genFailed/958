@@ -1,0 +1,32 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a5;
+    } catch(e7) {
+    }
+}
+new F3(42068, 42068);
+new F3(42068, 42068);
+new F3(-2147483649, 42068);
+class C11 extends F3 {
+    static n(a13, a14) {
+        return typeof a14 === "object";
+    }
+    static 4;
+    static #e = 42068;
+    static c = 1049209903;
+}
+new C11();
+const v22 = new C11();
+new C11();
+new WeakSet();
+class C26 {
+    static 1 = -2147483649;
+    static #d;
+    [v22];
+}
+new C26();
+new C26();
+new C26();
+throw -2147483649;
+new C26();

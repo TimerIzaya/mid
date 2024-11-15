@@ -1,0 +1,56 @@
+try {
+    new Uint16Array(257);
+} catch(e3) {
+}
+try {
+    new Uint16Array(150);
+} catch(e7) {
+}
+try {
+    new Uint16Array(1000);
+} catch(e11) {
+}
+try {
+    new Uint16Array(4096);
+} catch(e15) {
+}
+try {
+    new Uint32Array(3);
+} catch(e19) {
+}
+try {
+    new BigInt64Array(3);
+} catch(e23) {
+}
+class C24 extends Uint16Array {
+    b;
+    6 = 3;
+    static 536870887 = 1000;
+    static #n(a26, a27, a28, a29) {
+        function* f30(a31, a32) {
+            let v33;
+            try {
+            const t0 = 3;
+            v33 = t0(a28, a32);
+            } catch (e) {}
+            try {
+                this.fuck(150, v33);
+            } catch(e35) {
+            }
+            yield* [a31,4096,a26,a28,4096];
+            return 3;
+        }
+        return f30(Uint16Array, a27);
+    }
+}
+new C24();
+new C24();
+new C24();
+const o43 = {
+    "maxByteLength": 487024556,
+};
+const v45 = new ArrayBuffer(128, o43);
+try {
+    new DataView(v45);
+} catch(e48) {
+}

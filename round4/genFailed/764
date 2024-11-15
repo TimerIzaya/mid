@@ -1,0 +1,57 @@
+class C3 {
+    static g = -436.15564615292897;
+    static [175465.50523055857];
+    static 7;
+    constructor(a5) {
+        const v6 = -436.15564615292897;
+        Reflect.construct(a5, [1e-15,v6,v6,v6], a5);
+    }
+    static #m(a11) {
+        try {
+            super.g >>= a11;
+        } catch(e12) {
+        }
+        return 1e-15;
+    }
+}
+const v13 = new C3(C3);
+const v14 = new C3(1e-15);
+const v15 = new C3(v14);
+const v17 = new Set();
+function f18(a19, a20) {
+    const o39 = {
+        __proto__: v15,
+        "f": a19,
+        [C3]: 175465.50523055857,
+        6: v15,
+        [v13](a22, a23) {
+            for (let i25 = 0; i25 < 10; i25++) {
+                const v31 = v15?.[0];
+                try { new v31(C3, v31, a22, i25); } catch (e) {}
+                v15?.__proto__;
+                const o37 = {
+                    "execution": "async",
+                    "type": "minor",
+                };
+                gc(o37);
+            }
+            return a22;
+        },
+    };
+    return o39;
+}
+const v40 = f18(175465.50523055857, C3);
+f18(-436.15564615292897, f18(175465.50523055857, v13));
+try {
+    v17[v40] = -436.15564615292897;
+} catch(e46) {
+}
+for (let v47 = 0; v47 < 66; v47++) {
+    v47 instanceof Set;
+    f18(-436.15564615292897, v17);
+    %PrepareFunctionForOptimization(f18);
+    f18(-436.15564615292897, v17);
+    f18(-436.15564615292897, v17);
+    %OptimizeMaglevOnNextCall(f18);
+    f18(-436.15564615292897, v17);
+}

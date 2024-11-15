@@ -1,0 +1,41 @@
+try {
+    new Uint8Array(12);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(51);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(236);
+} catch(e11) {
+}
+class C15 extends BigUint64Array {
+    m(a17, a18) {
+        try {
+            this[4096] >>= 12;
+        } catch(e19) {
+        }
+        return a18;
+    }
+    #g = 51;
+    static #f = Uint8Array;
+    7;
+    128 = 12;
+    #a;
+}
+new C15();
+new C15();
+new C15();
+%VerifyType(C15);
+const v23 = [1000000000.0,0.06097869317067861];
+[1.2928108826014846,-1.0,-2.2250738585072014e-308];
+const v25 = [-7.947766156319457e+307,1.319541429944024e+308,-1.20756761034186e+308,2.0,-9.349029936807021,0.8703241158193754,0.7351921829788415];
+try {
+    v23[-2] = v25;
+} catch(e26) {
+}
+try {
+    Uint8Array % 12;
+} catch(e28) {
+}

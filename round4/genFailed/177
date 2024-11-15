@@ -1,0 +1,44 @@
+try {
+    new BigInt64Array(2);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(3932);
+} catch(e7) {
+}
+try {
+    new Uint32Array(1774);
+} catch(e11) {
+}
+function f13(a14, a15, a16) {
+    const o23 = {
+        [BigUint64Array]: BigUint64Array,
+        ...a15,
+        __proto__: 3932,
+        valueOf(a18, a19, a20) {
+            try {
+                this.g >>= a20;
+            } catch(e21) {
+            }
+            try {
+                this.g = a19;
+            } catch(e22) {
+            }
+            return Uint32Array;
+        },
+        "e": BigUint64Array,
+    };
+    return o23;
+}
+f13(2, 2, 2);
+f13(1774, 1774, 2);
+f13(2, 1774, 3932);
+const v27 = [-1812611672,-460519503,4,-1024,0,9007199254740992,-9007199254740992,9223372036854775807,-1726680641,-35856];
+const v28 = [-8,268435439,1000,-3];
+[-9223372036854775807,-268435456,65537,1073741824,-16,536870912,1588502705];
+v28?.[3];
+try {
+    f13(2, -11039, -11039);
+} catch(e36) {
+}
+new BigUint64Array(v27);

@@ -1,0 +1,22 @@
+try {
+    new BigUint64Array(1000);
+} catch(e3) {
+}
+try {
+    new Uint32Array(2432);
+} catch(e7) {
+}
+let v9 = Int32Array;
+try {
+    new v9(1483);
+} catch(e11) {
+}
+let v17 = new Array(4088);
+const v18 = Array?.[-1];
+Object.defineProperty(v17, 2432, { enumerable: true, get: Array });
+({"a":v17,"b":v17,"g":v9,} = v18);
+try {
+    Array(-2147483648);
+} catch(e21) {
+}
+new Map();

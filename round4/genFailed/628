@@ -1,0 +1,26 @@
+[129,-65536,-61826,-10,-1500518412];
+const v1 = [9,1073741824];
+[4096,1073741824,-65535,-527530998,970821858];
+try {
+    new BigInt64Array(3);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(1024);
+} catch(e13) {
+}
+try {
+    new Uint8ClampedArray(128);
+} catch(e17) {
+}
+Object.defineProperty(v1, BigInt64Array, { configurable: true, value: BigInt64Array });
+if (-4096n) {
+    throw v1;
+} else {
+    const t19 = false;
+    t19[6] = false;
+}
+try {
+    12434n / 65535;
+} catch(e23) {
+}

@@ -1,0 +1,60 @@
+try {
+    new Float32Array(2559);
+} catch(e3) {
+}
+try {
+    new Uint32Array(161);
+} catch(e7) {
+}
+try {
+    new Float64Array(850);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    static b = Float32Array;
+    n(a14, a15, a16, a17) {
+        const v18 = (a19, a20, a21) => {
+            try { a15(); } catch (e) {}
+            this?.[3];
+            new Uint32Array(161, 850, a15);
+            return Uint32Array;
+        };
+        return this;
+    }
+    static #m(a26, a27, a28, a29) {
+        return a28;
+    }
+}
+new C12();
+const v37 = new C12();
+new C12();
+class C39 extends Uint32Array {
+    9 = 161;
+    0;
+    static #g = Uint32Array;
+    valueOf(a41, a42, a43) {
+        try {
+            v37.#g;
+        } catch(e45) {
+        }
+        return 645n;
+    }
+    3921 = C12;
+    static 257;
+}
+const v49 = new C39();
+new C39();
+const v51 = new C39();
+function f55(a56, a57) {
+    const v58 = a56 > v49;
+    if (v58) {
+        try {
+            v49.filter(v49, v51);
+        } catch(e60) {
+        }
+    } else {
+        typeof v37 === "undefined";
+    }
+    return v58;
+}
+f55(161, 850);

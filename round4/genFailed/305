@@ -1,0 +1,22 @@
+try {
+    new Int8Array(255);
+} catch(e3) {
+}
+try {
+    new Uint32Array(3365);
+} catch(e7) {
+}
+try {
+    new Uint8Array(3754);
+} catch(e11) {
+}
+let v16 = 64;
+let v18;
+try { v18 = (-4294967295n).copyWithin(-18461, 255); } catch (e) {}
+for (let v19 = 0; v19 < 32; v19++) {
+    v18["p" + v19] = v19;
+}
+try {
+    v16 >>>= 255;
+} catch(e22) {
+}

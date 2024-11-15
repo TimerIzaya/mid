@@ -1,0 +1,53 @@
+const v1 = new Map();
+const v2 = [536870887];
+const v3 = [-65536,669749196];
+const v4 = [-256,57311,22509,1073741823,-2147483648,536870888,-879458860,-2];
+let v6 = -695662.4738507019;
+function f8(a9, a10, a11) {
+    const o15 = {
+        get c() {
+            try {
+                !this;
+            } catch(e14) {
+            }
+            return a11;
+        },
+        [a10]: a10,
+        ...v1,
+        12: 1.0,
+        "b": a10,
+        [a9]: v6,
+        "e": 0.9661536274946697,
+    };
+    return o15;
+}
+const v17 = f8(v4, v4, f8(v3, v4, 1.0));
+const v18 = f8(v3, v3, v3);
+class C19 extends Map {
+    static {
+        const v21 = delete v17[11];
+        let v22;
+        try { v22 = this.p(v21); } catch (e) {}
+        const v24 = [v4,this];
+        [v3];
+        [v24,v2,v22];
+    }
+    constructor(a28, a29, a30) {
+        super(v18);
+        a29?.[1];
+    }
+    static [-1];
+}
+const v32 = new C19(v4, v17, C19);
+new C19(v2, v18, v32);
+new C19(v2, v18, v6);
+for (let v35 = 0; v35 < 32; v35++) {
+    v1["p" + v35] = v35;
+}
+let v38 = f8(v2, v3, v32);
+({"a":v6,"d":v38,} = C19);
+let v39;
+try { v39 = v6(v2, v3); } catch (e) {}
+function f40() {
+    return v39;
+}

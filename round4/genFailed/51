@@ -1,0 +1,56 @@
+try {
+    new Int16Array(2453);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(5);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(236);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    static [Int16Array] = Uint8ClampedArray;
+    static f = 236;
+    constructor(a14, a15, a16, a17) {
+        super(a15);
+        const v19 = new Set();
+        v19?.__proto__;
+    }
+    [Int16Array];
+    #b = BigInt64Array;
+    static g;
+}
+const v21 = new C12(2453, 5, 236, 236);
+const v22 = new C12(2453, 236, 236, 5);
+const v23 = new C12(236, 5, 236, 236);
+class C24 extends Uint8ClampedArray {
+    constructor(a26, a27) {
+        super(v23, 236, 2453);
+        v22?.[128];
+        super[v23];
+        try {
+            v21.includes("a", -1);
+        } catch(e33) {
+        }
+    }
+}
+new C24(v22, v23);
+new C24(v21, v21);
+new C24(v23, v23);
+function f37(a38, a39, a40) {
+    function f42(a43) {
+        [757888.0087110286,0.3352497059418429,0.3339121829607794,-1000000.0,-2.2250738585072014e-308];
+        [250.32737814544657,-9.888524610902405,86.96107434249961,4.0,-5.284032488204189,860.8843676040487,-257543.7311909343];
+        [608.952991397819,-7.7147513036529025];
+    }
+    this.onmessage = f42;
+    a39?.[5];
+}
+const v50 = [Int16Array,v21,Worker];
+const o51 = {
+    "arguments": v50,
+    "type": "function",
+};
+new Worker(f37, o51);

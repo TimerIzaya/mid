@@ -1,0 +1,47 @@
+try {
+    new Uint8Array(6);
+} catch(e3) {
+}
+try {
+    new Int8Array(3);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(127);
+} catch(e11) {
+}
+const v12 = [-474.98174067114337,1000000000.0,-0.9017442690308677,-1000000000000.0,-5.0,0.9228224468506483,1000.0];
+const v13 = [-1.7976931348623157e+308,1e-15,0.1376948921021921,1000000000000.0,-4.0,5.0,-2.0,-1000000000.0,-5.132292780888377];
+const v14 = [191510.8039672242,4.0];
+function f15(a16, a17, a18, a19) {
+    const o34 = {
+        set f(a21) {
+            try {
+                new Uint32Array(174);
+            } catch(e25) {
+            }
+            try {
+                new BigInt64Array(71);
+            } catch(e29) {
+            }
+            try {
+                new BigInt64Array(88);
+            } catch(e33) {
+            }
+        },
+    };
+    return o34;
+}
+f15(v12, 3, v13, v14);
+const v36 = f15(v14, 127, v12, v12);
+const v37 = f15(v13, v36, v12, v14);
+let v38;
+try { v38 = v37.n(); } catch (e) {}
+for (let v39 = 0; v39 < 30; v39++) {
+    let {"f":v43,} = v38;
+}
+let v44 = v36[127];
+try {
+    --v44;
+} catch(e46) {
+}

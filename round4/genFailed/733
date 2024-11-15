@@ -1,0 +1,22 @@
+try {
+    new Float64Array(2);
+} catch(e3) {
+}
+try {
+    new Float32Array(248);
+} catch(e7) {
+}
+try {
+    new Uint8Array(11);
+} catch(e11) {
+}
+let v13 = 1027331439n;
+try {
+    v13 = 7n;
+} catch(e21) {
+}
+const v22 = [6,49652,-6093,-2,-65537,536870889];
+const v23 = [-2,64,2147483647,-3,-11,7,3,19393];
+const v24 = [-6,57801,56611];
+const v26 = [11,v22];
+Reflect.apply(v23?.filter, v24, v26);

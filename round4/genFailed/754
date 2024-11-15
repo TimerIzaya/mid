@@ -1,0 +1,48 @@
+try {
+    new Uint32Array(14);
+} catch(e3) {
+}
+try {
+    new Int8Array(8);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e11) {
+}
+function f12() {
+    return Int8Array;
+}
+function f16(a17, a18, a19) {
+    const o25 = {
+        p(a21, a22, a23) {
+            try {
+                const t19 = "c";
+                t19[a22] = this;
+            } catch(e24) {
+            }
+            return this;
+        },
+        ..."toLocaleString",
+        ..."c",
+        "d": a18,
+        "e": 8,
+        "f": "c",
+        9: a19,
+    };
+    return o25;
+}
+const v26 = f16("c", 8, 14);
+f16(f12, v26, 14);
+throw f16(f16, 14, 14);
+try {
+    Object.defineProperty("c", "e", { value: f12 });
+} catch(e29) {
+}
+const o30 = {
+    "ownKeys": f12,
+};
+try {
+    new Proxy(v26, o30);
+} catch(e33) {
+}

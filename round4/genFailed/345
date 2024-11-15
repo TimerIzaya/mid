@@ -1,0 +1,63 @@
+try {
+    new Uint8ClampedArray(6);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(8);
+} catch(e7) {
+}
+try {
+    new Uint32Array(4);
+} catch(e11) {
+}
+const v12 = [-1430791739];
+const v13 = [10843,65536,-2147483647];
+const v14 = [4294967295,-9007199254740990,-287865117,0,5];
+class C15 {
+    static get a() {
+        super.e;
+        const o18 = {
+        };
+        try {
+            o18.f = 6;
+        } catch(e19) {
+        }
+        try {
+            const o20 = {
+            };
+            o20.f = 6;
+            o20.b = 8;
+        } catch(e21) {
+        }
+        try {
+            const o22 = {
+            };
+            o22.f = 6;
+            o22.b = 8;
+            o22.c = v13;
+        } catch(e23) {
+        }
+        try {
+            const o24 = {
+            };
+            o24.f = 6;
+            o24.b = 8;
+            o24.e = this;
+        } catch(e25) {
+        }
+        return v14;
+    }
+}
+new C15();
+new C15();
+new C15();
+for (let [v29,v30,...v31] of v12) {
+    [-128,-65535,3,5316,-65535,447109869,-1346196867,1728206126,-40938];
+    [388740299,1073741824,4294967296,-9007199254740992,6,4294967297,479396081,-2,1015509165];
+    [-642,65535,2,-2,-4,-9223372036854775808];
+}
+const o38 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o38);

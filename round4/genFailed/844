@@ -1,0 +1,55 @@
+try {
+    new Float32Array(3209);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e7) {
+}
+try {
+    new Float32Array(12);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    static [0];
+    static m(a14, a15, a16, a17) {
+        try { a17.m(a15, 3209, Float32Array, a14); } catch (e) {}
+        [3209];
+        const v20 = [this,12];
+        [v20,v20,this,v20];
+        const v23 = new Date();
+        return v23;
+    }
+    static [BigInt64Array];
+    [12];
+}
+const v24 = new C12();
+const v25 = new C12();
+const v26 = new C12();
+class C27 {
+    #n(a29, a30) {
+        return Reflect.construct(Float32Array, [Reflect], Float32Array);
+    }
+    [v24];
+    #f;
+    #g;
+    77 = 12;
+    [0] = Float32Array;
+    static #b = 0;
+}
+new C27();
+new C27();
+new C27();
+function f37(a38, a39) {
+    const o40 = {
+        __proto__: v26,
+        "e": a38,
+        244: 0,
+        "f": v25,
+        "c": a39,
+    };
+    return o40;
+}
+f37(12, 12);
+f37(0, 12);
+f37(3209, 0);

@@ -1,0 +1,44 @@
+try {
+    new Int16Array(3230);
+} catch(e3) {
+}
+try {
+    new Float32Array(2);
+} catch(e7) {
+}
+try {
+    new Int8Array(0);
+} catch(e11) {
+}
+function f15(a16, a17) {
+    const o27 = {
+        "d": 2,
+        "b": a16,
+        __proto__: a16,
+        ...a16,
+        n(a19, a20, a21, a22) {
+            super.e;
+            const v24 = [a16,a16];
+            [a20,v24,v24,a17];
+            [632039952,-1154286954];
+            return -1154286954;
+        },
+    };
+    return o27;
+}
+const v28 = f15(Int8Array, 632039952);
+f15(3230, 632039952);
+const v30 = f15(0, -1154286954);
+let v31;
+try { v31 = v28.n(); } catch (e) {}
+new Float32Array(537859168, -1154286954, 0);
+for (const v33 of v31) {
+    try {
+        ~v33;
+    } catch(e35) {
+    }
+}
+try {
+    v30.h = Int16Array;
+} catch(e36) {
+}

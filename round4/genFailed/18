@@ -1,0 +1,57 @@
+class C3 {
+    c = 9.423220984476597e+307;
+    #valueOf(a5, a6) {
+        let v7 = 10;
+        for (; v7--;) {
+            let v9;
+            try { v9 = a6.toString(a5, this); } catch (e) {}
+            v9?.[v9];
+        }
+        return 9;
+    }
+}
+const v11 = new C3();
+new C3();
+new C3();
+function f17() {
+    return v11;
+}
+class C18 extends f17 {
+    #p(a20, a21, a22) {
+        try {
+            a22[C3] = a20;
+        } catch(e23) {
+        }
+        [-786431556,49235,1,4294967295];
+        [10000,-8,11,0,268435441,9007199254740990,-256,-4096];
+        [6,-601812019,-7,9007199254740992,10,1024,9,3,-48467,5];
+        return a21;
+    }
+    d = "d";
+    2432;
+    h;
+}
+new C18();
+new C18();
+const v29 = new C18();
+for (let v30 = 0; v30 < 32; v30++) {
+    v29["p" + v30] = v30;
+}
+const o36 = {
+    "apply": f17,
+    "call": f17,
+    "construct": f17,
+    "defineProperty": f17,
+    "get": f17,
+    "getOwnPropertyDescriptor": f17,
+    "getPrototypeOf": f17,
+    "isExtensible": f17,
+    "ownKeys": f17,
+    "preventExtensions": f17,
+    "set": f17,
+    "setPrototypeOf": f17,
+};
+try {
+    new Proxy(C18, o36);
+} catch(e39) {
+}

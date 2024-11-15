@@ -1,0 +1,24 @@
+const v3 = ["replace","object","replace"];
+const v4 = ["unscopables"];
+["object",v4,"replace","replace"];
+class C9 {
+    static get h() {
+        try {
+            v3 > this ? v3 : this;
+        } catch(e13) {
+        }
+        return "unscopables";
+    }
+    static ["unscopables"] = -9007199254740991n;
+    #c = "replace";
+    e;
+    [v4] = -1918386150n;
+}
+new C9();
+new C9();
+new C9();
+for (let v21 = 0; v21 < 32; v21++) {
+    const t20 = "-268435456";
+    t20["p" + v21] = v21;
+}
+Object.defineProperty("unscopables", 255, { get: BigInt });

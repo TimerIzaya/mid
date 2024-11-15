@@ -1,0 +1,41 @@
+function f0() {
+}
+class C1 extends f0 {
+    static #valueOf() {
+        const v3 = this[f0];
+        try {
+            v3.toString = v3;
+        } catch(e4) {
+        }
+        return this;
+    }
+    constructor() {
+        super();
+        try {
+            this ^ f0;
+        } catch(e7) {
+        }
+    }
+}
+const v8 = new C1();
+new C1();
+const v10 = new C1();
+[1000000000000.0,0.4931644731927236,5.866246502578772e+307,-3.0,-2.0,Infinity];
+const v12 = [NaN,5052.6012510327855,-1.0,-Infinity,-4.92531582788774,1000.0,-7.248113635092998e+307,-Infinity];
+[0.3326749089354931,1.318462781540089e+308,-946254.6237968856,570.8389625151015,-2.2250738585072014e-308,0.0,0.5215234996986332,-Infinity,1000000.0];
+let v17 = [v12];
+[v12];
+[Infinity,v8];
+for (let v20 = 0; v20 < 100; v20++) {
+    f0();
+}
+v17.findLastIndex(1e-15, v12, Infinity, f0, v10);
+try {
+    Math.log10(v17);
+} catch(e26) {
+}
+const v27 = !10;
+const v28 = --v17;
+const v29 = -v27;
+v17++;
+v28 && v29;

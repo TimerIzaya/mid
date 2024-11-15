@@ -1,0 +1,39 @@
+class C3 {
+    constructor(a5, a6) {
+        const v7 = "object";
+        let {"e":v8,"g":v9,"h":v10,...v11} = this;
+        const v13 = Symbol?.iterator;
+        const o22 = {
+            [v13]() {
+                let v15 = 10;
+                const o21 = {
+                    next() {
+                        v15--;
+                        const v19 = v15 == 0;
+                        const o20 = {
+                            "done": v19,
+                            "value": v15,
+                        };
+                        return o20;
+                    },
+                };
+                return o21;
+            },
+        };
+    }
+}
+const v23 = new C3(C3, C3);
+new C3(v23, "Tn4TU");
+const v25 = new C3(C3, C3);
+/[9(?<a>(?<b>(?<c>(?<d>.).).).)?]/gdvs;
+/MC[(?<=)]/uyms;
+/Y2/gumd;
+for (let v35 = 0; v35 < 71; v35++) {
+    const t31 = "object";
+    delete t31?.length;
+    try {
+        C3.g = v35;
+    } catch(e37) {
+    }
+}
+Reflect.construct(C3, [Reflect,v25], C3);

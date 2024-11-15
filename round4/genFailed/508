@@ -1,0 +1,21 @@
+try {
+    new Uint8ClampedArray(3935);
+} catch(e3) {
+}
+try {
+    new Int32Array(82);
+} catch(e7) {
+}
+try {
+    new Int8Array(2545);
+} catch(e11) {
+}
+try {
+    typeof 1.641476269558805e+308 === "undefined";
+} finally {
+    Reflect.construct(Uint8ClampedArray, [-40053], Int8Array);
+}
+try {
+    Uint8ClampedArray[1940] = Uint8ClampedArray;
+} catch(e24) {
+}

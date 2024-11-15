@@ -1,0 +1,69 @@
+function f3() {
+    return "object";
+}
+class C4 extends f3 {
+    constructor(a6) {
+        super();
+        try {
+            new f3();
+        } catch(e8) {
+        }
+    }
+    ["object"] = "Q";
+    #a = "Cb";
+    #h;
+    #f;
+}
+const v9 = new C4("Cb");
+const v10 = new C4(v9);
+const v11 = new C4(v10);
+try {
+    new Uint32Array(512);
+} catch(e15) {
+}
+try {
+    new Int16Array(9);
+} catch(e19) {
+}
+try {
+    new Uint32Array(0);
+} catch(e23) {
+}
+const v24 = [2147483648,-14,9007199254740990,994469398,-659828415,2147483647];
+const v25 = [0,4303,-419501816];
+const v26 = [-2,536870912,-68687338,-1595704394,-9223372036854775808,-6];
+new Uint32Array(...v26, ...v24, ...v11, f3, ...v26, ..."object");
+try {
+    v25.__proto__ = "Cb";
+} catch(e28) {
+}
+const v29 = v26?.length;
+const o30 = {
+};
+try {
+    o30.a = v29;
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.a = v29;
+    o32.d = "Q";
+} catch(e33) {
+}
+try {
+    const o34 = {
+    };
+    o34.a = v29;
+    o34.d = "Q";
+    o34.h = v24;
+} catch(e35) {
+}
+try {
+    const o36 = {
+    };
+    o36.a = v29;
+    o36.d = "Q";
+    o36.h = v29;
+} catch(e37) {
+}

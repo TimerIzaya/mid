@@ -1,0 +1,43 @@
+try {
+    new BigInt64Array(3);
+} catch(e3) {
+}
+try {
+    new Float64Array(109);
+} catch(e7) {
+}
+try {
+    new Float32Array(1977);
+} catch(e11) {
+}
+class C15 extends Float32Array {
+    static 6 = "64";
+    get c() {
+        try {
+            const o17 = {
+            };
+            new Float64Array(o17);
+        } catch(e19) {
+        }
+        return this;
+    }
+    constructor(a21, a22, a23) {
+        super(a21, a23);
+        for (let v24 = 0; v24 < 32; v24++) {
+            const t26 = "64";
+            t26["p" + v24] = v24;
+        }
+    }
+}
+new C15(1977, "-9", 3);
+const v28 = new C15("64", "-9", 109);
+const v29 = new C15("64", "-9", 109);
+let v33;
+try { v33 = v29.toSorted(v28); } catch (e) {}
+new BigInt64Array(1977, 3, 1977);
+delete v28["undefined"];
+try { v29.reduce(v33, 536870889n); } catch (e) {}
+try {
+    new Float32Array(7, 536870888, 673782085);
+} catch(e44) {
+}

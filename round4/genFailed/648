@@ -1,0 +1,36 @@
+class C3 {
+    get f() {
+        let v5;
+        try { v5 = new this(this, 119.66699986196409, this, 119.66699986196409, 119.66699986196409); } catch (e) {}
+        try { v5(); } catch (e) {}
+        return this;
+    }
+    static get g() {
+        const v10 = new Array(2329);
+        Object.defineProperty(v10, 4150951519, { writable: true, enumerable: true, value: v10 });
+        const v12 = [v10,Array,this];
+        const v13 = Array?.from;
+        Reflect.apply(v13, this, v12);
+        return v13;
+    }
+}
+const v15 = new C3();
+const v16 = new C3();
+const v17 = new C3();
+const v19 = new Set();
+const v20 = [v17];
+const v21 = [v15,v15,v20,646253.791161861,v17];
+const v22 = [-7.761646389948819e+307];
+const v23 = [v22,v20,v21,v15,C3];
+[Set,[v15,v23,646253.791161861,v23,v17],v23];
+new Set(...v22, v16, Set, v16, C3, ...v22);
+function* f27(a28, a29, a30, a31) {
+    'use strict';
+    try {
+        a29.__proto__ = a31;
+    } catch(e32) {
+    }
+    yield* v22;
+    return v23;
+}
+f27(v15, v21, v19, v16);

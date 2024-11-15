@@ -1,0 +1,60 @@
+try {
+    new Uint16Array(512);
+} catch(e3) {
+}
+try {
+    new Uint8Array(2);
+} catch(e7) {
+}
+try {
+    new Float32Array(107);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o26 = {
+        3: a14,
+        2: Uint16Array,
+        [a14](a16, a17, a18) {
+            try {
+            const t0 = 9007199254740992;
+            t0(a14, Float32Array, 512, 512);
+            } catch (e) {}
+            c = 107;
+            try {
+                new Float32Array(a14, 1024);
+            } catch(e25) {
+            }
+            return a14;
+        },
+    };
+    return o26;
+}
+const v27 = f12(107, 107);
+f12(512, 512);
+const v29 = f12(107, 107);
+function f33() {
+    return Uint16Array;
+}
+try {
+    new Int16Array(1);
+} catch(e37) {
+}
+try {
+    new Float32Array(256);
+} catch(e41) {
+}
+try {
+    new BigInt64Array(121);
+} catch(e45) {
+}
+try {
+    v27 << 45409;
+} catch(e47) {
+}
+for (const v48 of v29) {
+    %VerifyType(v48);
+    try {
+        v29.toString = f12;
+    } catch(e49) {
+    }
+}

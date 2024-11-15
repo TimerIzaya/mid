@@ -1,0 +1,17 @@
+function f6() {
+    return -4n;
+}
+const v7 = [1784596122n,-4294967295,64n,-4294967295];
+[v7];
+const v9 = [64n];
+const v13 = v7?.__proto__;
+try { v13(64n, f6, -14n, 2147483648n, -4294967295); } catch (e) {}
+Reflect.construct(f6, [], v13);
+try {
+    Reflect[-4294967295] ||= -65535;
+} catch(e18) {
+}
+try {
+    v9[6] = -65535;
+} catch(e19) {
+}

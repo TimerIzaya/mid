@@ -1,0 +1,44 @@
+try {
+    new BigInt64Array(958);
+} catch(e3) {
+}
+try {
+    new Uint32Array(2);
+} catch(e7) {
+}
+try {
+    new Int16Array(10);
+} catch(e11) {
+}
+function f15() {
+    return 1.2476880644297075e+308;
+}
+function F16(a18, a19) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a18;
+    } catch(e20) {
+    }
+}
+const v21 = new F16(10, -100.92187700885052);
+const v22 = new F16(2, 958);
+const v23 = new F16(958, v22);
+for (let [v24,v25] of 958) {
+    function f26(a27) {
+        function f29(a30) {
+            v25 in v23;
+            -100.92187700885052 instanceof f15;
+        }
+        this.onmessage = f29;
+        try {
+            v21.fuck("symbol", "symbol", "symbol");
+        } catch(e35) {
+        }
+    }
+    const v38 = [f26];
+    const o39 = {
+        "arguments": v38,
+        "type": "function",
+    };
+    new Worker(f26, o39);
+}

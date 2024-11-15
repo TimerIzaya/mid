@@ -1,0 +1,37 @@
+try {
+    new Uint8Array(3243);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(3989);
+} catch(e7) {
+}
+try {
+    new Float32Array(128);
+} catch(e11) {
+}
+let v13 = 9007199254740992n;
+try {
+    v13 += 10n;
+} catch(e18) {
+}
+128 instanceof Uint8Array;
+throw 2147483647;
+function F20(a22, a23, a24) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = BigUint64Array;
+    } catch(e25) {
+    }
+    try {
+        this.f = 3243;
+    } catch(e26) {
+    }
+    try {
+        this.d = 3989;
+    } catch(e27) {
+    }
+}
+new F20(128, 3989, 128);
+new F20(2147483647, 2147483647, 3989);
+new F20(3989, 3989, 128);

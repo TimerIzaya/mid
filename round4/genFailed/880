@@ -1,0 +1,20 @@
+try {
+    new Uint16Array(10);
+} catch(e10) {
+}
+try {
+    new Uint8ClampedArray(2762);
+} catch(e14) {
+}
+try {
+    new BigUint64Array(121);
+} catch(e18) {
+}
+try {
+    const t13 = 65535;
+    t13.toString = 2762;
+} catch(e19) {
+}
+Uint8ClampedArray > 10;
+const v21 = new BigUint64Array(-10);
+v21?.__proto__;

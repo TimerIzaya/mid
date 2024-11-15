@@ -1,0 +1,65 @@
+const v3 = [467.10262867915117,Infinity,559067.4336452656,-9.919863210400763e+307,23286.639254210982,-1.2073274073854368,0.0];
+const v4 = [4.0];
+const v5 = [-1.48566811676285e+307,-4.0];
+function f6(a7, a8) {
+    const o17 = {
+        [-1920641568]: 9007199254740992,
+        "e": v4,
+        __proto__: a7,
+        valueOf(a10, a11, a12) {
+            try {
+                super.b = a11;
+            } catch(e13) {
+            }
+            return -1920641568;
+        },
+        "f": v4,
+        "h": 9007199254740992,
+    };
+    return o17;
+}
+const v18 = f6(v4, v5);
+const v19 = f6(v5, 9007199254740992);
+const v20 = f6(v5, v4);
+class C21 {
+    static o(a23, a24, a25, a26) {
+        const o29 = {
+            "maxByteLength": 2147483648,
+        };
+        const v31 = new SharedArrayBuffer(112, o29);
+        try {
+            new Uint8ClampedArray(v31);
+        } catch(e34) {
+        }
+        return v19;
+    }
+}
+const v35 = new C21();
+const v36 = new C21();
+const v37 = new C21();
+function F38(a40, a41) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = v18;
+    } catch(e42) {
+    }
+    try {
+        this.g = v35;
+    } catch(e43) {
+    }
+}
+new F38(v19, F38);
+new F38(v18, v3);
+new F38(v19, v20);
+if (v36) {
+    new Int32Array(-1920641568, 9007199254740992, 57185);
+} else {
+    try {
+        v4[115] **= 9007199254740992;
+    } catch(e49) {
+    }
+}
+try {
+    v37.valueOf = f6;
+} catch(e50) {
+}

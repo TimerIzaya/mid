@@ -1,0 +1,34 @@
+function f6(a7, a8, a9, a10) {
+    const o15 = {
+        ...a7,
+        [a7]: 1000000000000.0,
+        set e(a12) {
+            try {
+                a12 / this;
+            } catch(e14) {
+            }
+        },
+        "d": "256",
+        ["-15"]: 1000000000000.0,
+        "e": 1000000000000.0,
+    };
+    return o15;
+}
+f6("256", "-15", "256", "-15");
+f6("-15", f6, "256", "-15");
+f6("-15", -5.0, "256", "-15");
+new f6("-15", "forEach", "-15", "-15");
+try { ("-15").endsWith("forEach"); } catch (e) {}
+const v26 = "256" >>> 3;
+const v27 = 3 | 3;
+const v28 = v27 << 9n;
+const v29 = v27 * v26;
+try {
+    Math.atanh(9n);
+} catch(e31) {
+}
+v28 & v28;
+try {
+    Math.imul(v26, v29);
+} catch(e34) {
+}

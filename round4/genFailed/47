@@ -1,0 +1,51 @@
+const v1 = new Set();
+const v3 = new Date();
+let v6 = "toString";
+let v7 = /xyz??/gus;
+const v8 = /q\w|\d/iu;
+const v9 = /QH5X(x)(x)(x)\3/igy;
+function f10(a11, a12) {
+    const o17 = {
+        "g": v3,
+        [v6](a14, a15) {
+            try {
+                v7 = a12;
+            } catch(e16) {
+            }
+            return this;
+        },
+        "e": a12,
+        "a": a12,
+        "b": a11,
+        __proto__: a12,
+        [Set]: "valueOf",
+        "d": v1,
+        "c": v6,
+    };
+    return o17;
+}
+f10(f10(v6, v7), v9);
+f10(v6, v9);
+class C21 extends Date {
+    p(a23, a24) {
+        const o27 = {
+            "maxByteLength": 177,
+        };
+        const v29 = new SharedArrayBuffer(2, o27);
+        try {
+            new Float32Array(v29);
+        } catch(e32) {
+        }
+        return v29;
+    }
+}
+new C21();
+new C21();
+new C21();
+try {
+    v6 = "valueOf";
+} catch(e36) {
+}
+v9[Symbol?.toPrimitive] = f10;
+throw delete Date?.prototype;
+throw v8;

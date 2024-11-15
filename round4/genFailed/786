@@ -1,0 +1,43 @@
+try {
+    new Uint16Array(6);
+} catch(e6) {
+}
+try {
+    new Float64Array(1995);
+} catch(e10) {
+}
+try {
+    new Int8Array(2791);
+} catch(e14) {
+}
+class C15 extends Uint16Array {
+    static #h = 2791;
+    constructor(a17, a18, a19) {
+        super(a19, 6);
+        const t16 = 1995;
+        t16[7] = Uint16Array;
+        let [v20,v21,,v22] = this;
+        [] = this;
+    }
+    #m(a24, a25) {
+        a25?.[1574];
+        try {
+            this.#h;
+        } catch(e28) {
+        }
+        return this;
+    }
+}
+new C15(10000, -8, 1995);
+const v30 = new C15(10000, 2791, -8);
+const v31 = new C15(4294967297, 6, 2791);
+function f35(a36, a37, a38, a39) {
+    const o40 = {
+        "e": a39,
+        0: -8,
+    };
+    return o40;
+}
+f35(v30, 2791, -16n, v31);
+f35(v30, -2147483647n, -9007199254740990n, C15);
+f35(v30, Int8Array, -9007199254740990n, 1995);

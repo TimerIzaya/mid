@@ -1,0 +1,46 @@
+try {
+    new Uint8Array(16);
+} catch(e3) {
+}
+let v5 = Int32Array;
+try {
+    new v5(1);
+} catch(e7) {
+}
+try {
+    new Int32Array(99);
+} catch(e11) {
+}
+function f12() {
+    return Int32Array;
+}
+class C13 extends v5 {
+    p(a15, a16, a17, a18) {
+        let v20 = 536870887;
+        let v22 = 1e-15;
+        try {
+            Math.sin(v22);
+        } catch(e24) {
+        }
+        v20++;
+        try {
+            Math.cbrt(4096);
+        } catch(e27) {
+        }
+        const v28 = v5 || v20;
+        ~v20;
+        v22++;
+        --v5;
+        return v28;
+    }
+}
+const v32 = new C13();
+const v33 = new C13();
+new C13();
+Object.defineProperty(v32, Uint8Array, { set: f12 });
+Object.defineProperty(v32, 0, { set: f12 });
+C13[Symbol?.replace];
+let v38 = Reflect;
+const v39 = [f12,v32];
+v38.apply(v32?.every, v32, v39);
+({"buffer":v38,} = v33);

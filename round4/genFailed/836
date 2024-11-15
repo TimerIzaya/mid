@@ -1,0 +1,44 @@
+try {
+    new Uint16Array(0);
+} catch(e3) {
+}
+try {
+    new Int32Array(5);
+} catch(e7) {
+}
+try {
+    new Uint32Array(257);
+} catch(e11) {
+}
+class C12 {
+    m(a14, a15, a16) {
+        delete this[256];
+        this?.[10];
+        a16?.[a14];
+        const v20 = this?.c;
+        try {
+            v20.length = 2969;
+        } catch(e22) {
+        }
+        return Uint16Array;
+    }
+}
+const v23 = new C12();
+new C12();
+new C12();
+let v30 = -11654;
+try {
+    Math.hypot(v23);
+} catch(e33) {
+}
+const v35 = +(v30 ^ 1000n);
+1000n * v30;
+++v30;
+try {
+    Math.asin(v35);
+} catch(e39) {
+}
+try {
+    Math.acos(1000n);
+} catch(e41) {
+}

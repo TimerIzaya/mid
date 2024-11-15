@@ -1,0 +1,58 @@
+try {
+    new BigUint64Array(512);
+} catch(e3) {
+}
+try {
+    new Int8Array(6);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(183);
+} catch(e11) {
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 183;
+    } catch(e16) {
+    }
+    try {
+        this.f = a14;
+    } catch(e17) {
+    }
+    try {
+        this.c = 512;
+    } catch(e18) {
+    }
+}
+new F12(6, 183);
+new F12(183, 6);
+const v21 = new F12(512, 6);
+function F25(a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a29;
+    } catch(e30) {
+    }
+    try {
+        this.d = a27;
+    } catch(e31) {
+    }
+}
+new F25(129n, Uint8ClampedArray, 183);
+new F25(129n, F25, 6);
+new F25(129n, F25, 183);
+[17108];
+[-33798,1000];
+[-1234301763,-65537,65537,-61132,5];
+try {
+    Math.log2(F25);
+} catch(e42) {
+}
+const v43 = 14 * v21;
+v21 / 61790n;
+~F25;
+try {
+    Math.exp(v43);
+} catch(e47) {
+}

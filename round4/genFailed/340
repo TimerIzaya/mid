@@ -1,0 +1,79 @@
+class C3 {
+    1024;
+    static #b;
+    static #f = 1073741825;
+    #toString(a5) {
+        for (const v6 of a5) {
+            try {
+                super.d = this;
+            } catch(e7) {
+            }
+        }
+        try {
+            this.h = a5;
+        } catch(e8) {
+        }
+        return 1073741825;
+    }
+}
+const v9 = new C3();
+const v10 = new C3();
+const v11 = new C3();
+new WeakSet();
+function f14(a15, a16, a17, a18) {
+    const o27 = {
+        get a() {
+            function f20(a21, a22) {
+                const o23 = {
+                    "c": 268435456,
+                };
+                return o23;
+            }
+            return f20(a17, f20(f20(a16, v11), a17));
+        },
+        "f": C3,
+        10: 268435456,
+        [a15]: a16,
+    };
+    return o27;
+}
+let v28 = f14(v9, v10, C3, C3);
+const v29 = f14(v28, v28, f14, v11);
+const v30 = f14(v29, v29, v29, v28);
+class C31 extends WeakSet {
+    p(a33, a34, a35, a36) {
+        try {
+            -this;
+        } catch(e38) {
+        }
+        return v29;
+    }
+    constructor(a40, a41) {
+        super(a41);
+        const o42 = {
+            "get": f14,
+            "getOwnPropertyDescriptor": f14,
+            "isExtensible": f14,
+            "setPrototypeOf": f14,
+        };
+        try {
+            new Proxy(this, o42);
+        } catch(e45) {
+        }
+    }
+}
+const v46 = new C31(v9, C3);
+new C31(v28, C31);
+const v48 = new C31(C3, v30);
+try {
+    v48[v46] = v11;
+} catch(e49) {
+}
+try {
+    v9[v30] = v11;
+} catch(e50) {
+}
+try {
+    v28 = v29;
+} catch(e51) {
+}

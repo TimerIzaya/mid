@@ -1,0 +1,17 @@
+let v3 = -22760;
+[9,9,-65535,9,1073741825n];
+const v10 = [-9,1073741825n];
+const v11 = [1073741825n];
+try {
+    v3 = 9;
+} catch(e15) {
+}
+for (let i17 = 0; i17 < 3; i17++) {
+    %VerifyType(i17);
+    %VerifyType(-9);
+    Object.defineProperty(v10, 43601n, { value: i17 });
+    try {
+        v11[i17] = -9;
+    } catch(e23) {
+    }
+}

@@ -1,0 +1,37 @@
+const v0 = [536870887];
+[-128,8,597197138];
+const v2 = [-29744,-2082856650,-541352148,-4,-196849295,9007199254740991,-1694354458,5];
+function f6() {
+    return v2;
+}
+class C7 extends f6 {
+    constructor(a9, a10, a11) {
+        super();
+        Reflect.construct(f6, [], a10);
+    }
+    static get e() {
+        try {
+            this[-2] *= -53243;
+        } catch(e16) {
+        }
+        try {
+            new f6();
+        } catch(e18) {
+        }
+        return -2;
+    }
+}
+const v19 = new C7(C7, -53243, 536870888);
+new C7(v2, v19, -2);
+const v21 = new C7(v2, 536870888, -53243);
+const v22 = new C7(v21, -53243, -2);
+function F23(a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a25;
+    } catch(e27) {
+    }
+}
+new F23(-53243, v22);
+new F23(-2, v0);
+new F23(536870888, v19);

@@ -1,0 +1,23 @@
+[-1593336873,-1593336873,268435440,268435440];
+const v4 = [255,268435440];
+[v4,-1593336873];
+try {
+    new Float64Array(4);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(257);
+} catch(e13) {
+}
+try {
+    new Float32Array(128);
+} catch(e17) {
+}
+const o18 = {
+};
+try {
+    new Proxy(v4, o18);
+} catch(e21) {
+}
+v4["find"](-1593336873, "find");
+Reflect.construct(BigInt64Array, ["find"], Float32Array);

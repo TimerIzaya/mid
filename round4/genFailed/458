@@ -1,0 +1,21 @@
+try {
+    new BigUint64Array(256);
+} catch(e6) {
+}
+try {
+    new Uint8Array(16);
+} catch(e10) {
+}
+try {
+    new Uint8Array(10);
+} catch(e14) {
+}
+const v21 = 1073741825 % -9n;
+const v22 = -v21;
+const v24 = 1073741825 || (1073741825 >>> v21);
+let v25 = -v22;
+--v25;
+try {
+    Math.cbrt(v24);
+} catch(e28) {
+}

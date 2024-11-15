@@ -1,0 +1,62 @@
+function F3(a5) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a5;
+    } catch(e6) {
+    }
+}
+const v7 = new F3(9.51716542462465);
+const v8 = new F3(v7);
+const v9 = new F3(-2.0);
+try {
+    new Uint16Array(183);
+} catch(e13) {
+}
+try {
+    new Float64Array(9);
+} catch(e17) {
+}
+let v19 = Uint32Array;
+try {
+    new v19(229);
+} catch(e21) {
+}
+class C22 extends Float64Array {
+    [Float64Array];
+    constructor(a24, a25) {
+        super(a24);
+        v9[Symbol?.iterator];
+    }
+    [9.51716542462465];
+    h = v19;
+    static get b() {
+        function f30(a31, a32, a33, a34) {
+            v8?.__proto__;
+            return this;
+        }
+        const v36 = f30(f30, v9, f30, 183);
+        for (let v37 = 0; v37 < 32; v37++) {
+            this["p" + v37] = v37;
+        }
+        return v36;
+    }
+}
+new C22(183, -193271.27184261975);
+new C22(9, -2.0);
+new C22(229, -2.0);
+try {
+} catch(e43) {
+}
+try {
+    --v19;
+} catch(e45) {
+}
+try {
+    Math.cbrt(v8);
+} catch(e49) {
+}
+5 ** v9;
+try {
+    Math.abs(-193271.27184261975);
+} catch(e52) {
+}

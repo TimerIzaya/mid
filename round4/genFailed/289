@@ -1,0 +1,20 @@
+try {
+    new Int32Array(98);
+} catch(e3) {
+}
+try {
+    new Int8Array(0);
+} catch(e7) {
+}
+try {
+    new Float64Array(2);
+} catch(e11) {
+}
+const v13 = new WeakMap();
+try {
+    v13[2] += 1.3579989652550632e+308;
+} catch(e20) {
+}
+throw 98;
+%VerifyType(0.4793870122673529);
+Int32Array !== 0;

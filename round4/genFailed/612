@@ -1,0 +1,39 @@
+const v0 = [];
+function f1() {
+    const o6 = {
+        toString() {
+            for (let v3 = 0; v3 < 32; v3++) {
+                v0["p" + v3] = v3;
+            }
+            return this;
+        },
+        "d": v0,
+        "g": v0,
+    };
+    return o6;
+}
+f1();
+const v8 = f1();
+const v9 = f1();
+function F10(a12, a13) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v8;
+    } catch(e14) {
+    }
+    try {
+        this.d = a12;
+    } catch(e15) {
+    }
+}
+new F10(v8, v9);
+new F10(v9, v9);
+new F10(v8, v8);
+f1();
+const v25 = v9 / v9;
+-v9;
+try {
+    Math.atan2(v25, v9);
+} catch(e28) {
+}
+v9 + v25;

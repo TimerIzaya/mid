@@ -1,0 +1,23 @@
+function F6(a8, a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a9;
+    } catch(e11) {
+    }
+}
+const v12 = new F6(-59055n, 268435439n, 3n);
+const v13 = new F6(-59055n, -9223372036854775807n, 268435439n);
+new F6(v13, 268435439n, -4096n);
+let v15;
+try { v15 = v12.apply(-59025n, -59055n); } catch (e) {}
+Object.defineProperty(v12, -9223372036854775807n, { writable: true, value: v15 });
+let v16 = 0;
+while (v16 < 6) {
+    try {
+        Math.clz32(-1.7976931348623157e+308);
+    } catch(e23) {
+    }
+    !v15;
+    v15 & 3n;
+    v16++;
+}

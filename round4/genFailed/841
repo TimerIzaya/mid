@@ -1,0 +1,30 @@
+function f0() {
+}
+class C1 extends f0 {
+    constructor() {
+        super();
+        for (const v3 in this) {
+            new WeakMap();
+        }
+        try {
+            super.toSorted(this, this);
+        } catch(e7) {
+        }
+    }
+}
+const v8 = new C1();
+const v9 = new C1();
+const v10 = new C1();
+const v11 = [v9,v9,v10];
+const v12 = [v8];
+const v13 = [v12];
+[v8,v9,v8];
+const v15 = [v11,v11];
+const v16 = [v11,v8,v15];
+`3Uik${v8}Z${v11}zpQO1${v15}d`;
+v15 instanceof f0;
+try {
+    v13.__proto__ = v12;
+} catch(e20) {
+}
+v13.reduce(...v15, ...v12, v10, v10, ...v12, ...v16);

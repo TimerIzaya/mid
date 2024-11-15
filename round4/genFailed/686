@@ -1,0 +1,36 @@
+function f3() {
+    return -4294967296;
+}
+class C4 extends f3 {
+    static get h() {
+        delete this[f3];
+        try {
+            Object.defineProperty(this, "h", { get: f3, set: f3 });
+        } catch(e7) {
+        }
+        return this;
+    }
+    static g;
+    #c;
+    static #f;
+    static c = f3;
+    static #a = f3;
+}
+new C4();
+new C4();
+new C4();
+/ca\b!/iguym;
+/\p{Changes_When_NFKC_Casefolded}/igumd;
+/y(?:a+){0,0}+/guds;
+const o17 = {
+    "call": f3,
+    "defineProperty": f3,
+    "get": f3,
+    "getOwnPropertyDescriptor": f3,
+    "getPrototypeOf": f3,
+    "has": f3,
+};
+try {
+    new Proxy(C4, o17);
+} catch(e20) {
+}

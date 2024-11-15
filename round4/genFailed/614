@@ -1,0 +1,45 @@
+try {
+    new Float32Array(3);
+} catch(e6) {
+}
+try {
+    new Float32Array(128);
+} catch(e10) {
+}
+let v11 = 2;
+try {
+    new Uint16Array(v11);
+} catch(e14) {
+}
+class C16 {
+    constructor(a18, a19) {
+        ({"d":a19,"g":v11,} = a19);
+        try {
+            -5.0 || Uint16Array;
+        } catch(e21) {
+        }
+    }
+    #c;
+    static #toString(a23, a24, a25, a26) {
+        const v29 = ("-6").normalize("NFKC");
+        const o30 = {
+        };
+        try {
+            new Proxy(v29, o30);
+        } catch(e33) {
+        }
+        return v11;
+    }
+}
+const v34 = new C16(-0.0, Uint16Array);
+const v35 = new C16(-0.0, v34);
+const v36 = new C16(v11, null);
+try {
+    v36 || v36;
+} catch(e38) {
+}
+try {
+    null >> 3;
+} catch(e40) {
+}
+try { v36["slice"]("slice", -5.0, v35); } catch (e) {}

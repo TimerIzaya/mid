@@ -1,0 +1,21 @@
+try {
+    new BigUint64Array(5);
+} catch(e12) {
+}
+try {
+    new Float64Array(8);
+} catch(e16) {
+}
+try {
+    new BigInt64Array(2041);
+} catch(e20) {
+}
+const v21 = new Float64Array(-4096, 29145);
+function f22(a23, a24, a25, a26) {
+    try {
+        v21.length = 9;
+    } catch(e28) {
+    }
+    return 14058;
+}
+f22(1073741824n, 5, v21, 1073741824);

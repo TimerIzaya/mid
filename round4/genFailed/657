@@ -1,0 +1,35 @@
+try {
+    new BigInt64Array(16);
+} catch(e3) {
+}
+try {
+    new Int8Array(10);
+} catch(e7) {
+}
+try {
+    new Float32Array(3151);
+} catch(e11) {
+}
+try {
+    new Uint32Array(129);
+} catch(e16) {
+}
+try {
+    new BigInt64Array(145);
+} catch(e20) {
+}
+try {
+    new Uint32Array(2637);
+} catch(e24) {
+}
+for (let [...v25] of 3151) {
+    let v26 = delete v25?.[268435440];
+    try {
+        v26 = 10;
+    } catch(e27) {
+    }
+}
+let v28;
+try { v28 = (2637).of(129, Uint32Array); } catch (e) {}
+try { v28.call(BigInt64Array, Int8Array, undefined); } catch (e) {}
+new Uint32Array(2637, 145, 2637);

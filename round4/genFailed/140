@@ -1,0 +1,41 @@
+try {
+    new Float32Array(3944);
+} catch(e3) {
+}
+let v4 = 15;
+try {
+    new BigInt64Array(v4);
+} catch(e7) {
+}
+try {
+    new Float64Array(1000);
+} catch(e11) {
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a14;
+    } catch(e16) {
+    }
+    try {
+        this.e = a14;
+    } catch(e17) {
+    }
+    try {
+        this.f = a15;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(3944, 3944);
+new F12(1000, v4);
+new F12(3944, v4);
+for (const v22 of 3944) {
+    try {
+        v22.f = v19;
+    } catch(e23) {
+    }
+}
+try {
+    --v4;
+} catch(e25) {
+}

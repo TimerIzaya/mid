@@ -1,0 +1,44 @@
+try {
+    new Uint8Array(3443);
+} catch(e6) {
+}
+try {
+    new Float32Array(1277);
+} catch(e10) {
+}
+try {
+    new Float32Array(1001);
+} catch(e14) {
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a17;
+    } catch(e19) {
+    }
+    try {
+        this.g = a18;
+    } catch(e20) {
+    }
+}
+new F15(4.849391862380198, 4.849391862380198);
+const v22 = new F15(4.849391862380198, -9.07373363924166);
+const v23 = new F15(-9.201486566564592, 4.849391862380198);
+new F15(-9.201486566564592, 4.849391862380198);
+const v29 = Symbol?.toPrimitive;
+const v30 = v23[v29];
+let v31;
+try { v31 = v29(v23, v30); } catch (e) {}
+Reflect.construct(v31, [-9.201486566564592,Float32Array,3443,v22,-9.201486566564592], Uint8Array);
+let v37 = -37167;
+let v38 = 3.0;
+const v39 = --v37;
+try {
+    Math.round(v39);
+} catch(e41) {
+}
+try {
+    Math.hypot(v29);
+} catch(e43) {
+}
+--v38;

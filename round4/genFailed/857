@@ -1,0 +1,57 @@
+const v1 = new WeakSet();
+new Map();
+class C10 {
+    get a() {
+        WeakSet[9] = 2.0;
+        let v12 = super[v1];
+        try {
+            v12 = 2.0;
+        } catch(e13) {
+        }
+        1.6651268852998768 in this;
+        return 1.6651268852998768;
+    }
+    valueOf(a16, a17) {
+        const v21 = ~-8;
+        try {
+            Math.log2(this);
+        } catch(e23) {
+        }
+        try {
+            Math.sqrt("length");
+        } catch(e25) {
+        }
+        return v21;
+    }
+}
+const v26 = new C10();
+const v27 = new C10();
+const v28 = new C10();
+function f29(a30, a31, a32, a33) {
+    const o44 = {
+        8: "iterator",
+        [v28]: C10,
+        "e": "length",
+        "g": v28,
+        set h(a35) {
+            const o38 = {
+                "maxByteLength": 4293611828,
+            };
+            const v40 = new SharedArrayBuffer(130, o38);
+            try {
+                new BigInt64Array(v40);
+            } catch(e43) {
+            }
+        },
+    };
+    return o44;
+}
+f29(v28, v26, 2.220446049250313e-16, v28);
+f29(v27, "iterator", 2.220446049250313e-16, v26);
+f29(v27, "iterator", 2.0, v26);
+try {
+    v26 & C10;
+} catch(e49) {
+}
+Object.defineProperty("unscopables", "undefined", { configurable: true, enumerable: true, get: f29, set: f29 });
+f29(v26, Map, 2.0, v28)?.h;

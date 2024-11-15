@@ -1,0 +1,47 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        [f0]: f0,
+        __proto__: f0,
+        get g() {
+            const v3 = new f0();
+            try {
+                this[1298064969] = v3;
+            } catch(e4) {
+            }
+            return f0;
+        },
+        ...f0,
+        "a": f0,
+    };
+    return o5;
+}
+f1();
+f1();
+f1();
+/abc+/ms;
+/a[a-z]a(?!b)/ydv;
+/abc|def/;
+try {
+    new Uint16Array(2);
+} catch(e15) {
+}
+try {
+    new BigUint64Array(128);
+} catch(e19) {
+}
+try {
+    new BigInt64Array(512);
+} catch(e23) {
+}
+class C24 extends BigInt64Array {
+    2;
+    #a;
+    #h = 128;
+    #d;
+    h;
+}
+new C24();
+new C24();
+new C24();

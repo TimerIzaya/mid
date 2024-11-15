@@ -1,0 +1,61 @@
+const v1 = new WeakMap();
+function f2(a3) {
+    const o7 = {
+        "e": v1,
+        n(a5) {
+            try {
+                super[this] = a3;
+            } catch(e6) {
+            }
+            return WeakMap;
+        },
+        "b": WeakMap,
+        [a3]: WeakMap,
+        2192: WeakMap,
+        ...a3,
+        __proto__: a3,
+        ...a3,
+    };
+    return o7;
+}
+const v9 = f2(f2(WeakMap));
+const v10 = f2(f2);
+const v12 = new Set();
+function f13(a14, a15) {
+    const o24 = {
+        "a": v10,
+        ...a15,
+        "c": f2,
+        "d": a14,
+        ...a14,
+        m(a17, a18, a19) {
+            const v20 = `
+                try {
+                    a17 /= v12;
+                } catch(e21) {
+                }
+            `;
+            eval(v20);
+            return a15;
+        },
+    };
+    return o24;
+}
+f13(v10, v12);
+f13(v9, f13(v9, v10));
+[3.0,-1.7976931348623157e+308,9.489344618937057,-754.5550438835585,1.164527404353656,-1.2253162650508678,-1.2604740184046225e+308,Infinity,1.254988302585669e+308,-46.96204383207282];
+[1.2715384427095115e+308,0.07374548058772767,727638.5749491248];
+[-1.7976931348623157e+308];
+let v31 = 0;
+do {
+    f2(v9);
+    try {
+        const o34 = {
+            "b": WeakMap,
+            "e": "256",
+        };
+        f13(o34, f2);
+    } catch(e36) {
+    }
+    v31++;
+} while (v31 < 4)

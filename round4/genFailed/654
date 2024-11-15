@@ -1,0 +1,53 @@
+try {
+    new Uint16Array(7);
+} catch(e3) {
+}
+try {
+    new Float64Array(4096);
+} catch(e7) {
+}
+try {
+    new Float32Array(16);
+} catch(e11) {
+}
+/ab\b\d\bcd/yvs;
+const v13 = /\x01/uyms;
+const v14 = /Ma\S/ivs;
+class C15 {
+    constructor(a17, a18) {
+        class C20 extends this?.constructor {
+            #a;
+        }
+        new C20();
+        try {
+            this >> C20;
+        } catch(e23) {
+        }
+    }
+    [v14] = Float32Array;
+    [Uint16Array] = v13;
+    [4096] = Uint16Array;
+    [Float64Array];
+}
+const v24 = new C15(v14, 7);
+const v25 = new C15(v24, 7);
+const v26 = new C15(v14, 16);
+try {
+    new Uint32Array(1314);
+} catch(e30) {
+}
+try {
+    new Float32Array(9);
+} catch(e34) {
+}
+try {
+    new Int8Array(3);
+} catch(e38) {
+}
+class C40 extends v26?.constructor {
+    #h = 4096;
+    [v24] = v25;
+}
+new C40();
+Float32Array instanceof Uint32Array;
+let {"multiline":v43,"source":v44,...v45} = v13;

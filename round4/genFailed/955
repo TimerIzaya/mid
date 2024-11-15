@@ -1,0 +1,61 @@
+const v0 = /z\p{General_Category=Decimal_Number}?/mdv;
+const v1 = /jxyz{93}a+?/iguymd;
+const v2 = /T\u{12345}*/iym;
+function f3(a4, a5) {
+    const o8 = {
+        get d() {
+            try {
+                this.h **= this;
+            } catch(e7) {
+            }
+            return this;
+        },
+        __proto__: v2,
+        "h": v1,
+        "e": v2,
+        "a": a5,
+        "g": a4,
+        ...a5,
+        "c": a5,
+        [v2]: a4,
+    };
+    return o8;
+}
+const v9 = f3(v2, v2);
+const v10 = f3(v0, v0);
+const v11 = f3(v1, v2);
+function f15(a16, a17) {
+    const o25 = {
+        [a16](a19, a20, a21, a22) {
+            try {
+                a22 ** v2;
+            } catch(e24) {
+            }
+            return v10;
+        },
+        10: v0,
+        "a": v0,
+        ...v10,
+        "b": v11,
+        "d": a16,
+        "e": v1,
+        "f": a16,
+        "h": 7,
+    };
+    return o25;
+}
+f15(v9, 7);
+const v27 = f15(v10, v9);
+f15(v9, v1);
+[-1630721504,512];
+[-9007199254740992,-128,-4294967297,8,6,-2,-9223372036854775808,10,9223372036854775807];
+[65536,9651,15,257,2043681539,9];
+const o35 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o35);
+try {
+    v27.length = 2469;
+} catch(e38) {
+}

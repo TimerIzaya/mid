@@ -1,0 +1,31 @@
+try {
+    new BigInt64Array(8);
+} catch(e3) {
+}
+try {
+    new Float64Array(7);
+} catch(e7) {
+}
+let v9 = Uint8ClampedArray;
+try {
+    new v9(1335);
+} catch(e11) {
+}
+let v13 = -10n;
+[7];
+[v9,8850n,BigInt64Array,v13,v13];
+[7];
+const v18 = 1335 == 8850n;
+const v23 = ++v13;
+try {
+    Math.cos(v23);
+} catch(e25) {
+}
+try {
+    Math.log2(v13);
+} catch(e27) {
+}
+++v9;
+v18 >> 257;
+v13 ** -536870912;
+~257;

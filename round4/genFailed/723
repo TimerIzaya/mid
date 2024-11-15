@@ -1,0 +1,71 @@
+const v0 = [];
+function f1() {
+    const o17 = {
+        "d": v0,
+        toString() {
+            function f3(a4, a5) {
+                let v6 = this;
+                function f7(a8) {
+                    try {
+                        --v6;
+                    } catch(e10) {
+                    }
+                }
+                v6.onmessage = f7;
+                try {
+                    a4[3350787682] += a4;
+                } catch(e11) {
+                }
+            }
+            const v14 = ["function","function"];
+            const o15 = {
+                "arguments": v14,
+                "type": "function",
+            };
+            const v16 = new Worker(f3, o15);
+            return v16;
+        },
+    };
+    return o17;
+}
+const v18 = f1();
+const v19 = f1();
+const v20 = f1();
+const v21 = [-669.2182597456429,1.7976931348623157e+308,1.0,-5.605129356117857,0.5384531469729595,1000000000000.0,-2.220446049250313e-16];
+const v22 = [4.0];
+[-1000.0,1e-15];
+const v24 = [1000000.0,-2.0,1000.0];
+const v25 = [268.28748734270425,-6.159905221824545,0.9853931151074578];
+const v26 = [-0.0,1.5135838185074574e+308,-3.0,-48047.39386820444,11.148670203151823];
+function f27(a28, a29, a30, a31) {
+    const o32 = {
+        "e": f1,
+        "g": a31,
+        268435440: a29,
+        __proto__: a29,
+        "b": v19,
+        ...a31,
+        268435441: f1,
+        "f": a30,
+        "c": a31,
+        "a": v26,
+        "h": v18,
+        [a30]: a31,
+        7: v0,
+        ...v26,
+        [v19]: a31,
+    };
+    return o32;
+}
+f27(v22, v19, f27(v26, v19, v18, v0), v22);
+const v35 = f27(v19, v20, v26, v21);
+delete v22[f27(v26, v19, v25, v0)];
+function f38(a39, a40, a41, a42) {
+    const o43 = {
+        ...v25,
+        ...v35,
+    };
+    return o43;
+}
+f38(v20, v22, v0, v25);
+f38(v19, v24, f38(v19, v24, v0, v22), v0);

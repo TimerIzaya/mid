@@ -1,0 +1,48 @@
+try {
+    new Uint32Array(170);
+} catch(e3) {
+}
+try {
+    new Float64Array(1);
+} catch(e7) {
+}
+try {
+    new Int32Array(1890);
+} catch(e11) {
+}
+class C15 extends Int32Array {
+    static p(a17, a18, a19, a20) {
+        this[2] = Int32Array;
+        const v21 = super[-256];
+        this?.__proto__;
+        try {
+            this[-62202] ||= 1890;
+        } catch(e23) {
+        }
+        return v21;
+    }
+    4294967295 = 1890;
+    static e = -62202;
+    1;
+    static 512 = 4294967296;
+}
+const v24 = new C15();
+new C15();
+new C15();
+/IBUTfoo|(bar|baz)|quux+/umd;
+/(x)(x)(x)\3*Da{0,1}?a\D/iuyds;
+const v29 = /\1(a)/igyd;
+let v30;
+try {
+const t0 = 4294967296;
+v30 = t0(4294967296, -62202);
+} catch (e) {}
+const v31 = new Float64Array(4294967296, v29, v30, 4294967296);
+%VerifyType(v24);
+try {
+} catch(e32) {
+}
+try {
+    v31 / Int32Array;
+} catch(e37) {
+}

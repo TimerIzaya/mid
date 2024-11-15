@@ -1,0 +1,31 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = -65537;
+    } catch(e3) {
+    }
+    try {
+        this.d = -65537;
+    } catch(e4) {
+    }
+    try {
+        this.c = -65537;
+    } catch(e5) {
+    }
+}
+new F0();
+new F0();
+const v8 = new F0();
+try {
+    v8.toString = 536870887n;
+} catch(e16) {
+}
+let v17;
+try {
+const t0 = 148022974n;
+v17 = t0(1073741825n, 536870887n, -12n, undefined);
+} catch (e) {}
+try { v17(3n, 1073741825n, v17, 148022974n); } catch (e) {}
+/8/imdv;
+/a[bc]d/gmvs;
+/[(?<a>.)\k<a>+]/uyds;

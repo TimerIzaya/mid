@@ -1,0 +1,25 @@
+let v2 = -4294967296;
+try {
+    new Uint32Array(16);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(3149);
+} catch(e16) {
+}
+try {
+    new Uint8Array(3725);
+} catch(e20) {
+}
+try {
+    v2 = 1073741825;
+} catch(e21) {
+}
+class C22 extends BigInt64Array {
+    static c = "-25297";
+    static #d = 1073741823;
+    8;
+}
+new C22();
+new C22();
+new C22();

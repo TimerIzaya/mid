@@ -1,0 +1,44 @@
+const v0 = /xyz?[foo|(bar|baz)|quux*]/dvs;
+const v1 = /(x)(x)(x)\1a\D\P{Decimal_Number}a\q?/igs;
+const v2 = /eQ(?: foo )(?:a+)*\x01+/yv;
+class C6 {
+    constructor(a8, a9) {
+        try { this(a9, v0, a8); } catch (e) {}
+        const v12 = Symbol?.iterator;
+        const o21 = {
+            [v12]() {
+                let v14 = 10;
+                const o20 = {
+                    next() {
+                        v14--;
+                        const v18 = v14 == 0;
+                        const o19 = {
+                            "done": v18,
+                            "value": v14,
+                        };
+                        return o19;
+                    },
+                };
+                return o20;
+            },
+        };
+    }
+}
+new C6(v0, v1);
+new C6(v1, v1);
+new C6(v2, v1);
+for (let i29 = 0; i29 < 4; i29++) {
+    %VerifyType(i29);
+    try {
+        new Uint8ClampedArray(8);
+    } catch(e38) {
+    }
+    try {
+        new Int32Array(540);
+    } catch(e42) {
+    }
+    try {
+        new Uint16Array(185);
+    } catch(e46) {
+    }
+}

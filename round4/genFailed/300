@@ -1,0 +1,53 @@
+class C7 {
+    constructor(a9, a10, a11, a12) {
+        try {
+            new Uint16Array(5);
+        } catch(e16) {
+        }
+        try {
+            new Float64Array(592);
+        } catch(e20) {
+        }
+        try {
+            new Uint8Array(2);
+        } catch(e24) {
+        }
+    }
+}
+const v25 = new C7(-5.008626641885297e+307, 4294967295, -5.008626641885297e+307, 0.1581209593254309);
+const v26 = new C7(0.7078131985528209, -3959, 0.1581209593254309, 0.7078131985528209);
+const v27 = new C7(0.1581209593254309, -15118, 0.1581209593254309, 0.7078131985528209);
+try { v27.o(-3959, 4294967295); } catch (e) {}
+typeof -21955 === "string";
+delete v25[560];
+Object.defineProperty("string", 1, { writable: true, configurable: true, enumerable: true, value: -18952 });
+let {"c":v36,} = v26;
+const o37 = {
+};
+try {
+    o37.d = "string";
+} catch(e38) {
+}
+try {
+    const o39 = {
+    };
+    o39.d = "string";
+    o39.e = v25;
+} catch(e40) {
+}
+try {
+    const o41 = {
+    };
+    o41.d = "string";
+    o41.e = v25;
+    o41.f = 0.7078131985528209;
+} catch(e42) {
+}
+try {
+    const o43 = {
+    };
+    o43.d = "string";
+    o43.e = v25;
+    o43.a = 4294967295;
+} catch(e44) {
+}

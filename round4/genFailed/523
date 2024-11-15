@@ -1,0 +1,24 @@
+const v4 = new WeakSet();
+function f5() {
+    return v4;
+}
+try {
+    new Uint16Array(274);
+} catch(e9) {
+}
+try {
+    new Int32Array(108);
+} catch(e13) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e17) {
+}
+Object.defineProperty(v4, -256, { writable: true, configurable: true, value: -1257541422 });
+let v21;
+try { v21 = v4.has(Int32Array); } catch (e) {}
+for (const v22 of v21) {
+    const v23 = v22?.[234];
+    Object.defineProperty(v4, 172, { set: f5 });
+    v22?.[v23];
+}

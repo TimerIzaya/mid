@@ -1,0 +1,75 @@
+function f0() {
+    const o17 = {
+        268435456: 2.220446049250313e-16,
+        [48402](a5) {
+            const v7 = Symbol?.iterator;
+            const o16 = {
+                [v7]() {
+                    let v9 = 10;
+                    const o15 = {
+                        next() {
+                            v9--;
+                            const v13 = v9 == 0;
+                            const o14 = {
+                                "done": v13,
+                                "value": v9,
+                            };
+                            return o14;
+                        },
+                    };
+                    return o15;
+                },
+            };
+            return o16;
+        },
+    };
+    return o17;
+}
+f0();
+f0();
+const v20 = f0();
+const v21 = /^xxx$Pa(a)\1/iuyms;
+const v22 = /mS^+/ymvs;
+const v23 = /\11a+\u003z/i;
+function f24(a25, a26, a27, a28) {
+    const o35 = {
+        "b": a27,
+        o(a30, a31, a32, a33) {
+            super[a33];
+            return a30;
+        },
+        "h": f0,
+        "a": v21,
+        ...a28,
+        "f": a28,
+        7: a27,
+        "g": a26,
+        "d": a26,
+        "e": f0,
+    };
+    return o35;
+}
+f24(v23, v23, v23, v20);
+f24(v23, v23, v21, v22);
+f24(v22, v21, v22, v23);
+try {
+    new Uint32Array(1024);
+} catch(e42) {
+}
+try {
+    new Int32Array(4);
+} catch(e46) {
+}
+try {
+    new BigInt64Array(68);
+} catch(e50) {
+}
+try { v20.m(Uint32Array, BigInt64Array, BigInt64Array); } catch (e) {}
+try {
+    Object.defineProperty(v20, "h", { set: f0 });
+} catch(e52) {
+}
+try {
+    v23.exec("6");
+} catch(e55) {
+}

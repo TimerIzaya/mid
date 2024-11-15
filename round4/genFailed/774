@@ -1,0 +1,46 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = -6;
+    } catch(e3) {
+    }
+    try {
+        this.a = -6;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+const v6 = new F0();
+new F0();
+/Zz/gd;
+/N(\xed\xb0\x80)\x01/gum;
+/[goz(?<a>)]/igydvs;
+const v11 = [65537,2147483648,-60384,52202,-243990149];
+[-1440257363,4096,-60476];
+[-14,43845,-1024,1026350039,-4096,9007199254740991];
+try {
+    new Uint32Array(1104);
+} catch(e17) {
+}
+try {
+    new BigInt64Array(128);
+} catch(e21) {
+}
+try {
+    new Uint16Array(129);
+} catch(e25) {
+}
+new Uint16Array(v11, 128, 1104);
+try {
+    v6[F0] = 129;
+} catch(e27) {
+}
+const o28 = {
+    "e": v5,
+    "b": Uint16Array,
+};
+const o32 = {
+    "execution": "sync",
+    "type": "major",
+};
+gc(o32);

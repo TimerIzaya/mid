@@ -1,0 +1,31 @@
+const v0 = /((((.).).).)/ydv;
+const v1 = /a+b|c?/igus;
+const v2 = /(?<!)?/iguymds;
+class C6 {
+    get g() {
+        0n in v1;
+        function F9(a11, a12, a13) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.e = v0;
+            } catch(e14) {
+            }
+        }
+        new F9(v2, v1, v0);
+        new F9(v1, this, v0);
+        const v17 = new F9(this, v2, this);
+        return v17;
+    }
+}
+new C6();
+new C6();
+const v20 = new C6();
+const o24 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o24);
+try {
+    v0.multiline ||= v20;
+} catch(e26) {
+}

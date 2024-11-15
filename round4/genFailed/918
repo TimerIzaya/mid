@@ -1,0 +1,82 @@
+class C3 {
+    a;
+    static valueOf(a5) {
+        const o6 = {
+            ["E"]: a5,
+            "d": this,
+        };
+        function F7(a9, a10, a11) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.f = a10;
+            } catch(e12) {
+            }
+            try {
+                this.g = "deref";
+            } catch(e13) {
+            }
+            try {
+                this.h = "deref";
+            } catch(e14) {
+            }
+        }
+        const v15 = new F7("E", a5, o6);
+        new F7(o6, v15, -2);
+        new F7(a5, "E", "E");
+        return o6;
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+const v20 = new C3();
+new Set();
+function F23(a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a25;
+    } catch(e28) {
+    }
+    try {
+        this.a = v19;
+    } catch(e29) {
+    }
+}
+const v30 = new F23(v20, v18, v19);
+const v31 = new F23(v19, v30, v18);
+const v32 = new F23(v30, v20, v31);
+class C33 extends C3 {
+    [C3];
+    constructor(a35, a36) {
+        super();
+        try {
+            new C3();
+        } catch(e38) {
+        }
+        new Set(a35);
+        const v42 = Symbol?.unscopables;
+        const t56 = "deref";
+        t56[v42] = v42;
+    }
+    static 1 = C3;
+}
+new C33(C33, v30);
+new C33(v32, v32);
+new C33(C3, C3);
+const v47 = Symbol?.iterator;
+const o56 = {
+    [v47]() {
+        let v49 = 10;
+        const o55 = {
+            next() {
+                v49--;
+                const v53 = v49 == 0;
+                const o54 = {
+                    "done": v53,
+                    "value": v49,
+                };
+                return o54;
+            },
+        };
+        return o55;
+    },
+};

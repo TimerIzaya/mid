@@ -1,0 +1,58 @@
+const v0 = [];
+const v1 = /E((\xed\xa0\x80))\x02?/iyv;
+const v2 = /(a)a(?!b)+/igmdv;
+const v3 = /ua(?=b)+/iud;
+class C4 {
+    static #e;
+    valueOf(a6) {
+        try {
+            new Uint16Array(90);
+        } catch(e10) {
+        }
+        try {
+            new Uint8Array(435);
+        } catch(e14) {
+        }
+        try {
+            new BigUint64Array(3518);
+        } catch(e18) {
+        }
+        return v0;
+    }
+}
+const v19 = new C4();
+new C4();
+const v21 = new C4();
+function F22(a24, a25, a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v3;
+    } catch(e28) {
+    }
+    try {
+        this.f = v3;
+    } catch(e29) {
+    }
+    try {
+        this.d = a24;
+    } catch(e30) {
+    }
+}
+const v31 = new F22(F22, v1, C4, C4);
+const v32 = new F22(C4, v1, v31, v19);
+const v33 = new F22(v31, v2, v32, v21);
+try {
+    F22 ** v33;
+} catch(e35) {
+}
+new Map();
+try {
+    Math.cosh(-54936);
+} catch(e41) {
+}
+let v42 = v1 || -54936;
+try {
+    Math.cos(v42);
+} catch(e44) {
+}
+~(v42--);

@@ -1,0 +1,40 @@
+/(F)/iy;
+/W[a-zA-Z0-9]*/iu;
+/JK1?/iumd;
+class C6 {
+    toString(a8, a9) {
+        const o12 = {
+            "maxByteLength": 9,
+        };
+        const v14 = new SharedArrayBuffer(9, o12);
+        try {
+            new Uint32Array(v14);
+        } catch(e17) {
+        }
+        return this;
+    }
+}
+const v18 = new C6();
+const v19 = new C6();
+let v20 = new C6();
+try {
+    new Uint8ClampedArray(3593);
+} catch(e24) {
+}
+try {
+    new Uint8Array(4096);
+} catch(e28) {
+}
+try {
+    new Uint8ClampedArray(3570);
+} catch(e32) {
+}
+try {
+    v20 += v18;
+} catch(e33) {
+}
+for (let v34 = 0; v34 < 32; v34++) {
+    const t36 = "valueOf";
+    t36["p" + v34] = v34;
+}
+Object.defineProperty("EPSILON", 268435439, { value: v19 });

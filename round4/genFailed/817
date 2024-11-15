@@ -1,0 +1,18 @@
+try {
+    new Uint32Array(256);
+} catch(e6) {
+}
+try {
+    new Uint16Array(3609);
+} catch(e10) {
+}
+try {
+    new Float64Array(1024);
+} catch(e14) {
+}
+("unscopables")["localeCompare"]("unscopables", "1yd");
+try {
+    const t14 = "localeCompare";
+    t14.__proto__ = "1yd";
+} catch(e23) {
+}

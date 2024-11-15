@@ -1,0 +1,67 @@
+const v1 = new Map();
+class C5 extends Map {
+    static get f() {
+        const v8 = Symbol?.iterator;
+        const o17 = {
+            [v8]() {
+                let v10 = 10;
+                const o16 = {
+                    next() {
+                        v10--;
+                        const v14 = v10 == 0;
+                        const o15 = {
+                            "done": v14,
+                            "value": v10,
+                        };
+                        return o15;
+                    },
+                };
+                return o16;
+            },
+        };
+        return -10n;
+    }
+}
+const v18 = new C5();
+const v19 = new C5();
+const v20 = new C5();
+const v22 = new Date();
+function f23(a24, a25, a26) {
+    const o34 = {
+        ...a24,
+        __proto__: v20,
+        m(a28, a29, a30, a31) {
+            try {
+                this.toString = a25;
+            } catch(e32) {
+            }
+            super.g;
+            return -9223372036854775807n;
+        },
+        "d": 0n,
+        "g": Map,
+        2522: -9223372036854775807n,
+        ...a26,
+        "h": v1,
+    };
+    return o34;
+}
+f23(v1, v1, v18);
+f23(v19, v18, v19);
+f23(v20, v22, v1);
+function f38(a39, a40) {
+    function f42(a43) {
+        Date?.__proto__;
+    }
+    this.onmessage = f42;
+    f42(-9223372036854775807n);
+    for (let v46 = 0; v46 < 32; v46++) {
+        this["p" + v46] = v46;
+    }
+}
+const v51 = ["function",-9223372036854775807n];
+const o52 = {
+    "arguments": v51,
+    "type": "function",
+};
+new Worker(f38, o52);

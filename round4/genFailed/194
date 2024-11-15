@@ -1,0 +1,23 @@
+try {
+    new BigInt64Array(4096);
+} catch(e6) {
+}
+try {
+    new Uint32Array(2);
+} catch(e10) {
+}
+try {
+    new Float32Array(105);
+} catch(e14) {
+}
+for (const v18 of 9) {
+    try {
+        v18[v18] **= 115063896;
+    } catch(e19) {
+    }
+}
+try {
+    const t19 = 9;
+    t19.e &&= 16;
+} catch(e20) {
+}

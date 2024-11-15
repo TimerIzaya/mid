@@ -1,0 +1,46 @@
+let v3 = 9;
+try {
+    new BigUint64Array(v3);
+} catch(e6) {
+}
+try {
+    new Uint16Array(3061);
+} catch(e10) {
+}
+try {
+    new Uint16Array(7);
+} catch(e14) {
+}
+class C15 extends Uint16Array {
+    static #m(a17, a18, a19, a20) {
+        try {
+            v3 = a17;
+        } catch(e21) {
+        }
+        try {
+            this[a17] |= a18;
+        } catch(e22) {
+        }
+        return a20;
+    }
+    static #f;
+    #d = Uint16Array;
+}
+const v23 = new C15();
+new C15();
+new C15();
+let v27 = -4294967297;
+let v28 = --v27;
+v27 % 2147483649n;
++v27;
+++v28;
+try {
+    Math.floor(v23);
+} catch(e35) {
+}
+536870887 | v23;
+try {
+    Math.random();
+} catch(e38) {
+}
+v23 + 536870887;

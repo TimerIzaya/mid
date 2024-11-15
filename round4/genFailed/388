@@ -1,0 +1,47 @@
+function f0() {
+}
+try {
+    new Uint8ClampedArray(11);
+} catch(e4) {
+}
+try {
+    new Uint32Array(10);
+} catch(e8) {
+}
+try {
+    new Int8Array(129);
+} catch(e12) {
+}
+class C16 extends Uint8ClampedArray {
+    5;
+    static b;
+    static set c(a18) {
+        let v17 = this;
+        function f19(a20, a21, a22, a23) {
+            try {
+                v17 = a23;
+            } catch(e25) {
+            }
+            return arguments;
+        }
+        f19(a18, a18, f19, Uint8ClampedArray);
+    }
+}
+const v27 = new C16();
+new C16();
+new C16();
+5 * -1762024025;
+try {
+    Math.cos(Int8Array);
+} catch(e36) {
+}
+try {
+    Math.log(v27);
+} catch(e38) {
+}
+v27 >> -1762024025;
+try {
+    Math.fround(-1762024025);
+} catch(e41) {
+}
+4.0 ** Int8Array;

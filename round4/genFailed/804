@@ -1,0 +1,73 @@
+function f0() {
+    const o7 = {
+        "a": 4294967295,
+        "h": 4294967295,
+        ...4294967295,
+        ...29335,
+        "c": -11,
+        __proto__: 4294967295,
+        set b(a5) {
+            try {
+                super.a = 4294967295;
+            } catch(e6) {
+            }
+        },
+        255: 4294967295,
+    };
+    return o7;
+}
+const v8 = f0();
+const v9 = f0();
+const v10 = f0();
+const v11 = [-2.2250738585072014e-308];
+const v12 = [4.0,1.5128519612928173,-52.378200117160645,0.7190663584946947,0.5303905223026809,-1.7976931348623157e+308,2.2250738585072014e-308];
+const v13 = [789.0294240401956,703706.2406752878,320141.813914099,-568.5172678366839];
+class C14 extends f0 {
+    constructor(a16, a17, a18, a19) {
+        super();
+        const v22 = Reflect.construct(a19, [], f0);
+        try { v22(v11, v13, a18, v13, v10); } catch (e) {}
+    }
+    #m(a25, a26, a27) {
+        try {
+            super.c -= a26;
+        } catch(e28) {
+        }
+        try {
+            a25.__proto__ = a26;
+        } catch(e29) {
+        }
+        return v13;
+    }
+}
+const v30 = new C14(v13, C14, v11, v8);
+const v31 = new C14(v11, v30, v12, v12);
+const v32 = new C14(v13, v30, v13, v12);
+class C33 extends f0 {
+    [v10] = v8;
+    static #g = v32;
+    f;
+    3457;
+    static get c() {
+        let v35;
+        try { v35 = C14.valueOf(v9, v9, v32); } catch (e) {}
+        try {
+            super.e = v11;
+        } catch(e36) {
+        }
+        return v35;
+    }
+    #c;
+}
+const v37 = new C33();
+new C33();
+const v39 = new C33();
+v31?.c;
+try {
+    v8[4] = v37;
+} catch(e41) {
+}
+try {
+    v30.__proto__ = v39;
+} catch(e45) {
+}

@@ -1,0 +1,59 @@
+try {
+    new Int8Array(1662);
+} catch(e3) {
+}
+try {
+    new Uint8Array(1307);
+} catch(e7) {
+}
+try {
+    new Uint16Array(0);
+} catch(e11) {
+}
+class C12 extends Uint16Array {
+    constructor(a14, a15, a16, a17) {
+        super(a16, 0, 1307);
+        try {
+            this.byteLength >>>= 0;
+        } catch(e18) {
+        }
+        try { a16(a14, a15, a15, a15); } catch (e) {}
+    }
+    2951284486;
+    static p(a21, a22, a23, a24) {
+        try {
+            this || 0;
+        } catch(e26) {
+        }
+        %VerifyType(1662);
+        try {
+            this[1662] = Uint16Array;
+        } catch(e27) {
+        }
+        return Uint8Array;
+    }
+}
+new C12(1662, 1662, C12, 1662);
+new C12(1307, 0, 1307, 0);
+new C12(0, 1307, 0, 1662);
+try {
+    new Float64Array(256);
+} catch(e34) {
+}
+try {
+    new Uint8Array(1);
+} catch(e38) {
+}
+try {
+    new Uint8ClampedArray(127);
+} catch(e42) {
+}
+let v43 = 0;
+while (v43 < 9) {
+    const o49 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o49);
+    v43++;
+}

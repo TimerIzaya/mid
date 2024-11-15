@@ -1,0 +1,46 @@
+const v0 = [];
+function f4() {
+    return v0;
+}
+/iGN\u0034/igmdvs;
+/[KX((\xed\xa0\x80))\x02]/igmv;
+const v7 = /a\p{General_Category=Decimal_Number}T(?:a*)*/igds;
+const v8 = [2.880708610644265e+307,1000000.0,Infinity,5.0,-1000000.0,-1.7976931348623157e+308,1000000000000.0,1.0240730200783367e+308,-4.0,-103590.00888784125];
+const v9 = [1.0,-1.0];
+const v10 = [-2.0,1.301270082276801,5.0,-1000000000000.0,-1.4535241962621352,-475745.0735089073,-1.5178066510845312e+308,0.8508315408354405,1e-15,1.7976931348623157e+308];
+function f12(a13, a14, a15) {
+    const o31 = {
+        "b": v9,
+        "g": a15,
+        [v7]: 4096n,
+        [a13](a17, a18) {
+            try {
+                new Uint16Array(64);
+            } catch(e22) {
+            }
+            try {
+                new Uint8ClampedArray(128);
+            } catch(e26) {
+            }
+            try {
+                new Int8Array(6);
+            } catch(e30) {
+            }
+            return 128;
+        },
+    };
+    return o31;
+}
+f12(4096n, v8, 4096n);
+f12(-941746472n, v0, 27439n);
+f12(-941746472n, v0, -941746472n);
+new f12(-941746472n, v10, 27439n);
+const v36 = f4();
+try {
+    v36.f = v36;
+} catch(e37) {
+}
+try {
+    v7.valueOf = f12;
+} catch(e38) {
+}

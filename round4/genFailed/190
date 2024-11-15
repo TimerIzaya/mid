@@ -1,0 +1,44 @@
+let v4 = Uint8Array;
+try {
+    new v4(4);
+} catch(e6) {
+}
+try {
+    new Float32Array(6);
+} catch(e10) {
+}
+try {
+    new Int32Array(64);
+} catch(e14) {
+}
+class C15 extends Float32Array {
+    static #a;
+    128 = 2n;
+    toString(a17, a18, a19, a20) {
+        const v21 = a17?.h;
+        const v22 = delete a17?.[3];
+        try {
+            v4 -= v21;
+        } catch(e23) {
+        }
+        const v24 = [v22,2n,717289623n];
+        [a18,a17,v21,717289623n,[64,v24,v24,2n]];
+        return Int32Array;
+    }
+    [2n];
+}
+new C15();
+const v28 = new C15();
+new C15();
+for (const v33 of v28) {
+    try {
+        const t34 = "valueOf";
+        t34[v4] = 4;
+    } catch(e34) {
+    }
+}
+try {
+    const t40 = "valueOf";
+    t40.e = 4;
+} catch(e35) {
+}

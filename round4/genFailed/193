@@ -1,0 +1,58 @@
+function f0() {
+}
+function f1() {
+    return f0;
+}
+function f2(a3) {
+    const o19 = {
+        "b": a3,
+        "f": f0,
+        m(a5, a6) {
+            const v9 = Reflect.construct(a5, [f0,a6,a5,a3,Reflect], f0);
+            function F10(a12, a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = f1;
+                } catch(e14) {
+                }
+                try {
+                    this.c = a12;
+                } catch(e15) {
+                }
+            }
+            const v16 = new F10(f1, f0);
+            new F10(v16, v9);
+            const v18 = new F10(a3, f0);
+            return v18;
+        },
+    };
+    return o19;
+}
+const v20 = f2(f1);
+f2(f1);
+f2(f2);
+const v23 = [8,9223372036854775807,36613,-6279,64103,-256,-447904507,16,5];
+const v24 = [1024,7,10000,-1676717265,-14,4294967296,1000,-1756781312];
+[10000,-2147483648,1110314012,-7];
+try {
+    new Int8Array(7);
+} catch(e29) {
+}
+try {
+    new BigInt64Array(114);
+} catch(e33) {
+}
+try {
+    new BigUint64Array(1);
+} catch(e37) {
+}
+const v39 = v20["m"]();
+const o40 = {
+    "h": v39,
+    268435440: f1,
+    "a": 1,
+    __proto__: v24,
+};
+let v41;
+try { v41 = v39(BigInt64Array, o40, v23, 7); } catch (e) {}
+v41?.[f0];

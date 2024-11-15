@@ -1,0 +1,25 @@
+new Set();
+try {
+    new Float32Array(64);
+} catch(e5) {
+}
+try {
+    new Float64Array(5);
+} catch(e9) {
+}
+let v10 = 1000;
+try {
+    new Int16Array(v10);
+} catch(e13) {
+}
+const v15 = [1,-9709,-1,6,-2147483649,-1647917639];
+const v16 = [-25199,16];
+const v17 = [9007199254740991,268435456];
+try { v15.filter(true); } catch (e) {}
+for (let [v19,v20,v21] of v16) {
+    v17[Symbol?.isConcatSpreadable] = v17;
+}
+try {
+    v10 = 5;
+} catch(e24) {
+}

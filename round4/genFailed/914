@@ -1,0 +1,106 @@
+function f0() {
+    const o10 = {
+        "b": 1000000000000.0,
+        10: 1000000000000.0,
+        valueOf(a5, a6) {
+            for (let v7 = 0; v7 < 32; v7++) {
+                a5["p" + v7] = v7;
+            }
+            return this;
+        },
+        "f": 896094235,
+        ...9,
+        [1000000000000.0]: 9,
+        "g": 1000000000000.0,
+        "d": 9,
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+function f14(a15) {
+    const o30 = {
+        get b() {
+            const v17 = v13[f0];
+            try {
+                v17 | v13;
+            } catch(e19) {
+            }
+            return v11;
+        },
+        "f": a15,
+        set h(a21) {
+            const o22 = {
+            };
+            try {
+                o22.a = v13;
+            } catch(e23) {
+            }
+            try {
+                const o24 = {
+                };
+                o24.a = v13;
+                o24.e = f0;
+            } catch(e25) {
+            }
+            try {
+                const o26 = {
+                };
+                o26.a = v13;
+                o26.e = f0;
+                o26.d = a15;
+            } catch(e27) {
+            }
+            try {
+                const o28 = {
+                };
+                o28.a = v13;
+                o28.e = f0;
+                o28.d = v13;
+            } catch(e29) {
+            }
+        },
+    };
+    return o30;
+}
+const v31 = f14(v11);
+const v32 = f14(v13);
+const v33 = f14(v12);
+function f34(a35, a36) {
+    const o43 = {
+        "h": a36,
+        "e": v31,
+        get c() {
+            a35 in a35;
+            try {
+                v12[536870888] = a36;
+            } catch(e39) {
+            }
+            [-Infinity,1e-15,-1000000000000.0,0.3627313508260276,Infinity];
+            [2.2250738585072014e-308,1000.0,Infinity,600.9248198024666,-5.0,1000000.0,5.0];
+            [Infinity,690.2168074832402,-7.881125537877924,0.7449343262845634,4.0,3.0,0.15498328300877107,9.591234503869842,7.082981380438657e+307,9.572560402031737e+307];
+            return a35;
+        },
+        ...v33,
+        [v11]: v11,
+    };
+    return o43;
+}
+f34(v31, v33);
+f34(v33, v32);
+f34(v31, v32);
+/[^p4a\nb\bc(h\1(a)+)]/ivs;
+const v48 = /F6\P{Decimal_Number}?/iyd;
+const v49 = /[(a)]/iguym;
+try {
+    v49[127] = v48;
+} catch(e50) {
+}
+let v51 = 0;
+while (v51 < 8) {
+    const v54 = f34(v32, v33);
+    new f14(f14, v54, f0, v54);
+    f14(v13);
+    v51++;
+}

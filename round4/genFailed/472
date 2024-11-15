@@ -1,0 +1,41 @@
+class C3 {
+    constructor(a5) {
+        const o9 = {
+            "execution": "sync",
+            "type": "major",
+        };
+        gc(o9);
+    }
+    512 = 16079;
+    ["valueOf"] = "valueOf";
+    ["h"] = 16079;
+    static #e;
+}
+const v11 = new C3("valueOf");
+const v12 = new C3(v11);
+new C3(v12);
+try {
+    new BigInt64Array(4096);
+} catch(e20) {
+}
+try {
+    new Uint8Array(6);
+} catch(e24) {
+}
+try {
+    new Int32Array(2);
+} catch(e28) {
+}
+class C29 extends Uint8Array {
+    2 = C3;
+    ["h"];
+}
+const v30 = new C29();
+const v31 = new C29();
+new C29();
+%VerifyType(16079);
+let [...v33] = v30;
+try {
+    v31.toString = v33;
+} catch(e34) {
+}

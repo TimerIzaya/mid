@@ -1,0 +1,42 @@
+class C3 {
+    constructor(a5, a6) {
+        a6[8] = this;
+    }
+    get f() {
+        const v9 = super.c?.__proto__;
+        try {
+            super.h = this;
+        } catch(e10) {
+        }
+        return v9;
+    }
+    static #a = 7;
+}
+const v11 = new C3(7, C3);
+const v12 = new C3(v11, -1.7976931348623157e+308);
+new C3(v11, v12);
+new Map();
+try {
+    new Uint8Array(14);
+} catch(e19) {
+}
+try {
+    new Uint8Array(1434);
+} catch(e23) {
+}
+try {
+    new Float64Array(14);
+} catch(e27) {
+}
+try {
+    Map || v12;
+} catch(e29) {
+}
+try { C3.m(Uint8Array, v11, -1.7976931348623157e+308); } catch (e) {}
+try { v12["reject"](C3); } catch (e) {}
+const v37 = -400887.9665067404 * 1778803755;
+try {
+    Math.clz32(v37);
+} catch(e39) {
+}
+"reject" >> "reject";

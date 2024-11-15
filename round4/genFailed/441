@@ -1,0 +1,27 @@
+let v0 = 5;
+class C9 {
+    static {
+        this?.[65537];
+        const t3 = 5;
+        t3[5] = v0;
+        try {
+            v0 >>= -9;
+        } catch(e12) {
+        }
+    }
+    3;
+    #a = -9007199254740990;
+    static #h;
+}
+const v13 = new C9();
+const v14 = new C9();
+const v15 = new C9();
+%VerifyType(v15);
+try {
+    v13.fuck(v14, v13, -63195n);
+} catch(e18) {
+}
+let v19;
+try { v19 = v13.n(268435456, -9); } catch (e) {}
+C9?.[65536];
+typeof v19 === "undefined";

@@ -1,0 +1,43 @@
+const v1 = new Set();
+function f2(a3, a4) {
+    const o12 = {
+        toString(a6, a7) {
+            try { a4(a3); } catch (e) {}
+            try { a7.now(arguments, this, v1, a4, a3); } catch (e) {}
+            try {
+                a3 *= arguments;
+            } catch(e11) {
+            }
+            return a3;
+        },
+    };
+    return o12;
+}
+const v13 = f2(f2, Set);
+const v14 = f2(Set, f2);
+const v15 = f2(v14, v13);
+const v16 = [v13];
+const v17 = [Set,Set];
+[v14,v17,v14];
+class C19 extends f2 {
+    constructor(a21, a22) {
+        super(v16, v14);
+        Reflect.construct(a22?.a, [], Set);
+    }
+    10 = Set;
+    5;
+    1073741824 = v15;
+}
+const v27 = new C19(v16, f2);
+new C19(v16, v27);
+new C19(v17, v27);
+const v33 = +257;
+!7;
+try {
+    Math.asinh(257);
+} catch(e36) {
+}
+try {
+    v13[v33] = v13;
+} catch(e37) {
+}

@@ -1,0 +1,25 @@
+const v0 = [];
+try {
+    new Float32Array(1);
+} catch(e4) {
+}
+try {
+    new BigInt64Array(157);
+} catch(e8) {
+}
+try {
+    new Uint8Array(257);
+} catch(e12) {
+}
+[Uint8Array,Uint8Array];
+const v14 = [257];
+const v15 = [Uint8Array,v14];
+try {
+    ~Uint8Array;
+} catch(e17) {
+}
+try {
+    v14[3206241921] = v0;
+} catch(e19) {
+}
+v15["with"](257, 1);

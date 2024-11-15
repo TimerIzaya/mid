@@ -1,0 +1,44 @@
+try {
+    new BigInt64Array(242);
+} catch(e3) {
+}
+let v4 = 127;
+try {
+    new Int32Array(v4);
+} catch(e7) {
+}
+try {
+    new Uint16Array(2113);
+} catch(e11) {
+}
+try {
+    new Int16Array(4053);
+} catch(e15) {
+}
+try {
+    new Int32Array(3784);
+} catch(e19) {
+}
+try {
+    new Float32Array(64);
+} catch(e23) {
+}
+try {
+    v4 = 2113;
+} catch(e24) {
+}
+for (const v25 of 4053) {
+    v25?.a?.[126];
+    try {
+        new Float64Array(64);
+    } catch(e31) {
+    }
+    try {
+        new Uint8Array(1910);
+    } catch(e35) {
+    }
+    try {
+        new BigInt64Array(34);
+    } catch(e39) {
+    }
+}

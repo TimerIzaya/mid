@@ -1,0 +1,35 @@
+const v3 = [-3.0,3.0,5.0];
+[1000000.0,-3.29754322397312,6.023763969910888,0.9896133875827205];
+[-7.650816016506035,1000000000000.0,1000000000000.0,-Infinity];
+function f6() {
+    return -2.220446049250313e-16;
+}
+function f7() {
+    return f6;
+}
+class C8 extends f7 {
+    static h = v3;
+    m(a10, a11, a12) {
+        let [v13] = v3;
+        return a11;
+    }
+    g;
+    static #g = -2.220446049250313e-16;
+    static e;
+    static 5 = -3.0;
+    #h;
+}
+new C8();
+const v15 = new C8();
+new C8();
+const o17 = {
+    "apply": f7,
+    "construct": f7,
+    "has": f6,
+    "set": f6,
+    "setPrototypeOf": f7,
+};
+try {
+    new Proxy(v15, o17);
+} catch(e20) {
+}

@@ -1,0 +1,33 @@
+function f6(a7, a8, a9, a10) {
+    const o25 = {
+        "f": 1,
+        set c(a12) {
+            try {
+                new Uint8Array(206);
+            } catch(e16) {
+            }
+            try {
+                new Float32Array(198);
+            } catch(e20) {
+            }
+            try {
+                new Uint32Array(255);
+            } catch(e24) {
+            }
+        },
+    };
+    return o25;
+}
+const v26 = f6(51171, 1000000.0, 51171, 51171);
+const v27 = f6(1881313096, 0.7821626811585082, 51171, 51171);
+const v28 = f6(1, 0.7821626811585082, 51171, 1);
+for (let [v32] of -222388.31994101394) {
+    const v33 = v27?.__proto__;
+    try { v33(v33); } catch (e) {}
+}
+for (let v35 = 0; v35 < 32; v35++) {
+    v28["p" + v35] = v35;
+}
+for (let v38 = 0; v38 < 32; v38++) {
+    v26["p" + v38] = v38;
+}

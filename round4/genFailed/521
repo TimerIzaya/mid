@@ -1,0 +1,86 @@
+function f0() {
+    const o10 = {
+        "d": -9223372036854775807,
+        __proto__: "536870912",
+        toString(a5, a6) {
+            return this;
+        },
+        "a": -7.7216323538000715,
+        [-7.7216323538000715]: -9223372036854775807,
+        ..."536870912",
+        5: -9223372036854775807,
+        "h": -9223372036854775807,
+        "b": "536870912",
+    };
+    return o10;
+}
+const v11 = f0();
+const v12 = f0();
+const v13 = f0();
+class C14 {
+    h;
+    valueOf(a16) {
+        switch (v13) {
+            case this:
+                try {
+                    f0 * a16;
+                } catch(e18) {
+                }
+                break;
+        }
+        return v12;
+    }
+    #h = v11;
+    static [v13];
+}
+const v19 = new C14();
+const v20 = new C14();
+new C14();
+const v22 = [v20,v11,v19,v19];
+const v23 = [v12,v11,v13,v13,v22];
+const v24 = [v12];
+function F25(a27, a28) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = C14;
+    } catch(e29) {
+    }
+}
+const v30 = new F25(v24, C14);
+const v31 = new F25(v23, v12);
+const v32 = new F25(v22, v11);
+const o33 = {
+    ...v20,
+    "b": v30,
+    "h": C14,
+};
+const v34 = v23?.length;
+const o35 = {
+};
+try {
+    o35.a = v32;
+} catch(e36) {
+}
+try {
+    const o37 = {
+    };
+    o37.a = v32;
+    o37.b = v31;
+} catch(e38) {
+}
+try {
+    const o39 = {
+    };
+    o39.a = v32;
+    o39.b = v31;
+    o39.d = v22;
+} catch(e40) {
+}
+try {
+    const o41 = {
+    };
+    o41.a = v32;
+    o41.b = v31;
+    o41.c = v34;
+} catch(e42) {
+}

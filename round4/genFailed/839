@@ -1,0 +1,12 @@
+const v4 = new WeakSet();
+function f5() {
+    return v4;
+}
+try {
+    v4.f = 257;
+} catch(e12) {
+}
+for (let i14 = 0; i14 < 6; i14++) {
+    new WeakSet(v4);
+    typeof 268435439 === "undefined";
+}

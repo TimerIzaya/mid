@@ -1,0 +1,15 @@
+function f6() {
+    return -3.0;
+}
+try {
+    127 % f6;
+} catch(e11) {
+}
+for (const v12 of 1382277901) {
+    try { v12["fround"](-7.015224309966492, "fround", 2.2250738585072014e-308, v12); } catch (e) {}
+    f6();
+}
+try {
+    new f6();
+} catch(e17) {
+}

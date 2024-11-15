@@ -1,0 +1,34 @@
+const v0 = /\cAVga\Sc(\xed\xb0\x80)\x01+/iums;
+const v1 = /5/igymdvs;
+const v2 = /cab|ca??\x01/iuyd;
+function f3(a4) {
+    const o9 = {
+        ...v0,
+        __proto__: v1,
+        "f": v0,
+        "b": a4,
+        "d": v0,
+        set e(a6) {
+            try {
+                a6 & this;
+            } catch(e8) {
+            }
+        },
+        "e": v0,
+        "h": a4,
+        "g": a4,
+        "a": v0,
+    };
+    return o9;
+}
+f3(v1);
+f3(v2);
+f3(v0);
+const v17 = new Map();
+for (const v21 of v17) {
+}
+Reflect.construct(Map, [v0], f3);
+try {
+    v1[255] &= -268435456;
+} catch(e28) {
+}

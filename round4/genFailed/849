@@ -1,0 +1,63 @@
+try {
+    new Uint8Array(1);
+} catch(e3) {
+}
+try {
+    new Float64Array(2307);
+} catch(e7) {
+}
+let v9 = Int32Array;
+try {
+    new v9(2361);
+} catch(e11) {
+}
+const v14 = new Array(196);
+class C15 extends v9 {
+    static n(a17, a18, a19) {
+        try { this.valueOf(a19, a19); } catch (e) {}
+        return 2361;
+    }
+    constructor(a25, a26, a27, a28) {
+        super(a25);
+        super.set(this, 1);
+        try {
+            v9 >>= v9;
+        } catch(e30) {
+        }
+    }
+}
+const v31 = new C15(2307, v9, 2307, 2307);
+const v32 = new C15(2307, 1, 2307, 196);
+const v33 = new C15(1, 2361, 2361, 1);
+function f34(a35, a36, a37) {
+    const o45 = {
+        [v32]: a35,
+        [C15]: 196,
+        "g": a37,
+        set d(a39) {
+            try {
+                try {
+                    1 ^ 1;
+                } catch(e41) {
+                }
+            } finally {
+                const v42 = [v14,Array,Float64Array,Uint8Array,v14];
+                [this,[2307],a39,v31,v42];
+            }
+        },
+    };
+    return o45;
+}
+const v46 = f34(v31, v31, 1);
+const v47 = f34(v33, v33, 2361);
+f34(v33, v31, v9);
+Array(2307);
+%PrepareFunctionForOptimization(Array);
+Array(2307);
+const v51 = Array(2307);
+%OptimizeFunctionOnNextCall(Array);
+const v52 = Array(2307);
+try { v52.filter(Array); } catch (e) {}
+try { v31.entries(); } catch (e) {}
+new Uint8Array(v14, 196, 1);
+try { v47.o(v46, v51); } catch (e) {}

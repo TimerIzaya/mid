@@ -1,0 +1,26 @@
+try {
+    new BigInt64Array(512);
+} catch(e6) {
+}
+try {
+    new Int16Array(1024);
+} catch(e10) {
+}
+try {
+    new Float32Array(107);
+} catch(e14) {
+}
+new WeakMap();
+function f17() {
+    return BigInt64Array;
+}
+try {
+    Math.log(107);
+} catch(e23) {
+}
+const v24 = +65536n;
+const v25 = 107 ^ 65536n;
+try {
+    Math.pow(v25, v24);
+} catch(e27) {
+}

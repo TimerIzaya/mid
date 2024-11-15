@@ -1,0 +1,31 @@
+function f0() {
+}
+function f1() {
+    const o4 = {
+        "d": f0,
+        ...f0,
+        "e": f0,
+        __proto__: f0,
+        n() {
+            try {
+                this.valueOf = f0;
+            } catch(e3) {
+            }
+            return f0;
+        },
+    };
+    return o4;
+}
+f1();
+const v6 = f1();
+f1();
+const v15 = this[v6];
+try {
+    this[v15] %= 6;
+} catch(e16) {
+}
+[-5.0];
+const v18 = [8.475586774733684e+307,0.4870149262719655];
+[5.0];
+const v21 = [-13,-11752];
+Reflect.apply(v18?.slice, this, v21);

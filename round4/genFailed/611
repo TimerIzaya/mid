@@ -1,0 +1,22 @@
+try {
+    new Uint16Array(2);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(3890);
+} catch(e10) {
+}
+try {
+    new Uint8Array(129);
+} catch(e14) {
+}
+const v15 = /\p{Script=Greek}/gu;
+/xyz??(?!(a))\1/yv;
+for (const v19 of /Ba[a-z]/gymvs?.global) {
+    try { v15.test(v19); } catch (e) {}
+    const o24 = {
+        "execution": "sync",
+        "type": "minor",
+    };
+    gc(o24);
+}

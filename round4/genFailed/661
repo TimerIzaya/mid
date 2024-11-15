@@ -1,0 +1,38 @@
+try {
+    new Float32Array(127);
+} catch(e3) {
+}
+try {
+    new Int32Array(7);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(3827);
+} catch(e11) {
+}
+const v15 = /[(?=.)]/mvs;
+const v16 = /(?:a?)*/gys;
+const v17 = /((x)(x)(x)\1?)/gydvs;
+if (-2.2250738585072014e-308 > "6") {
+    function F22(a24, a25, a26, a27) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = v16;
+        } catch(e28) {
+        }
+        try {
+            this.b = a26;
+        } catch(e29) {
+        }
+        try {
+            this.f = v15;
+        } catch(e30) {
+        }
+    }
+    new F22(-1e-15, 127, v15, Int32Array);
+    const v32 = new F22(F22, 3827, v17, -2.2250738585072014e-308);
+    new F22("2Urn", 127, v15, v32);
+} else {
+    new Float32Array(127, 127, 7);
+    new BigUint64Array(127, 7, 7);
+}

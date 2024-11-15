@@ -1,0 +1,58 @@
+class C3 {
+    static h = -9.542525540890978e+307;
+    static {
+        let v4 = this;
+        try {
+            v4++;
+        } catch(e6) {
+        }
+    }
+    ["g"] = -5.0;
+    constructor(a8, a9) {
+        try { new a9(a8, "g", a8); } catch (e) {}
+        throw a9;
+        try {
+            super.g = this;
+        } catch(e11) {
+        }
+    }
+}
+const v12 = new C3(C3, "g");
+const v13 = new C3("g", -9.542525540890978e+307);
+const v14 = new C3(-5.0, v13);
+const v15 = [C3,v12,v14,v13,-9.542525540890978e+307];
+const v16 = ["g",-9.542525540890978e+307,"g",C3,"g"];
+[-9.542525540890978e+307,v12,v16,-5.0,v13];
+function f18(a19, a20) {
+    const o26 = {
+        "f": v16,
+        "e": v13,
+        "d": -9.542525540890978e+307,
+        "a": -9.542525540890978e+307,
+        __proto__: v14,
+        1: a19,
+        set c(a22) {
+            let v23;
+            try { v23 = new a22(a20, a22, a20); } catch (e) {}
+            a20 === a20;
+            try {
+                v23[4294967295] = a19;
+            } catch(e25) {
+            }
+        },
+    };
+    return o26;
+}
+f18(C3, v16);
+let v28 = f18(v13, v15);
+f18(v16, v14);
++v15;
+const v35 = !v15;
+++v28;
+f18 | v35;
+try {
+    Math.log(1);
+} catch(e39) {
+}
+f18 >> 3.0;
+v28 && v15;

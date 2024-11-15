@@ -1,0 +1,50 @@
+try {
+    new Int32Array(1024);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(5);
+} catch(e10) {
+}
+try {
+    new Uint16Array(39);
+} catch(e14) {
+}
+class C15 extends Int32Array {
+    static #valueOf(a17, a18, a19) {
+        function f20() {
+            return a18;
+        }
+        return 39;
+    }
+    toString(a25, a26, a27, a28) {
+        try {
+            try {
+                this.toString = BigInt64Array;
+            } catch(e29) {
+            }
+        } finally {
+            this?.byteOffset;
+        }
+        return a25;
+    }
+}
+new C15();
+new C15();
+new C15();
+try {
+const t0 = 1024;
+t0(-2015n, Uint16Array, BigInt64Array, Int32Array);
+} catch (e) {}
+for (let i40 = 0, i41 = 10; i40 < i41; i40++, i41--) {
+    %VerifyType(i41);
+    throw 39;
+    const o51 = {
+        "maxByteLength": 132,
+    };
+    const v53 = new ArrayBuffer(132, o51);
+    try {
+        new Uint32Array(v53);
+    } catch(e56) {
+    }
+}

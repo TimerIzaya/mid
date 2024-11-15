@@ -1,0 +1,43 @@
+const v1 = new Map();
+function f2(a3, a4) {
+    const o9 = {
+        "e": v1,
+        [Map]: a3,
+        "h": a4,
+        __proto__: a3,
+        "g": Map,
+        valueOf(a6, a7) {
+            try { a7(); } catch (e) {}
+            return v1;
+        },
+        "d": a4,
+    };
+    return o9;
+}
+const v10 = f2(Map, v1);
+const v11 = f2(v1, Map);
+const v12 = f2(v1, v11);
+class C13 {
+    12 = v12;
+    static #m(a15, a16, a17, a18) {
+        return RangeError;
+    }
+    [v1] = v11;
+    [v10];
+    static #f = v12;
+    e = v1;
+    static #a;
+}
+new C13();
+const v21 = new C13();
+const v22 = new C13();
+class C23 {
+    static a;
+    #b = v11;
+    #d = C13;
+    h = v21;
+}
+new C23();
+new C23();
+new C23();
+C23[v22];

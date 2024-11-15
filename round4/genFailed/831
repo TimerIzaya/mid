@@ -1,0 +1,45 @@
+const v1 = new WeakMap();
+class C5 extends WeakMap {
+    static {
+        const v7 = new WeakMap(this);
+        try {
+            v7[8] = v1;
+        } catch(e8) {
+        }
+    }
+    toString(a10, a11) {
+        try { a11(a11, this, 256, v1, a10); } catch (e) {}
+        class C14 extends this?.constructor {
+            static #h = v1;
+            10 = 256;
+            static 121 = this;
+        }
+        new C14();
+        return C14;
+    }
+}
+const v16 = new C5();
+new C5();
+new C5();
+try {
+    new Float64Array(2920);
+} catch(e22) {
+}
+try {
+    new Int32Array(3574);
+} catch(e26) {
+}
+try {
+    new Uint32Array(4096);
+} catch(e30) {
+}
+const o31 = {
+    "b": 3574,
+    [-4294967297]: -4294967297,
+    "d": 2920,
+    ...C5,
+};
+[-0.0,1.682149564259532e+308,1000000000.0,79.52522627456801,-1000000.0,1000.0,1.514616126619103];
+[0.14852591948373473,-8.4234995520816,-1.0462633107587216,0.4035420140563778,758642.7976526024];
+[1.2886501589916452e+308,-1e-15,-48.86475347659086];
+try { v16.set(Float64Array, o31); } catch (e) {}

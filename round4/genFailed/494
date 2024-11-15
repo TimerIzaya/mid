@@ -1,0 +1,64 @@
+class C3 {
+    static {
+        const v5 = super[this];
+        const v7 = [];
+        Reflect.construct(v5, v7, v5);
+        function F9(a11, a12) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a11;
+            } catch(e13) {
+            }
+            try {
+                this.h = "symbol";
+            } catch(e14) {
+            }
+        }
+        const v15 = new F9(this, v7);
+        new F9(v15, this);
+        new F9("symbol", Reflect);
+    }
+}
+const v18 = new C3();
+const v19 = new C3();
+new C3();
+try {
+    new Float32Array(127);
+} catch(e24) {
+}
+try {
+    new BigInt64Array(1957);
+} catch(e28) {
+}
+try {
+    new Float64Array(2284);
+} catch(e32) {
+}
+function f33(a34, a35) {
+    const o45 = {
+        p(a37, a38) {
+            delete v18?.d;
+            const o43 = {
+                "execution": "sync",
+                "type": "minor",
+            };
+            gc(o43);
+            return gc;
+        },
+        "a": a35,
+        [a35]: a34,
+    };
+    return o45;
+}
+const v46 = f33("function", "symbol");
+const v48 = f33(f33(v19, v46), "symbol");
+Reflect.construct(Float64Array, [Reflect,127,1957], Float64Array);
+try {
+    const t56 = "function";
+    t56[-1000000000000.0] >>= 2284;
+} catch(e53) {
+}
+try {
+    v48[v46] >>>= 127;
+} catch(e54) {
+}

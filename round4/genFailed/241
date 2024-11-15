@@ -1,0 +1,47 @@
+class C3 {
+    get h() {
+        const v6 = new Set();
+        v6?.[-2];
+        return 2.2250738585072014e-308;
+    }
+    static b = 512;
+    static #a = 512;
+    static c = 512;
+    [2.2250738585072014e-308] = 512;
+}
+new C3();
+new C3();
+const v13 = new C3();
+const v14 = [-2];
+const v15 = [2,2];
+const v16 = [129,44533,268435440];
+function f17(a18, a19) {
+    const o33 = {
+        "a": v13,
+        "f": v13,
+        "c": 2.2250738585072014e-308,
+        __proto__: a19,
+        o(a21, a22, a23) {
+            try {
+                Math.round(-377106660);
+            } catch(e28) {
+            }
+            a21++ ^ 34054680;
+            +1;
+            -34054680;
+            return a18;
+        },
+    };
+    return o33;
+}
+f17(v14, v14);
+f17(v14, v16);
+f17(v16, v15);
+f17(v16, v16);
+for (let [v41,v42,v43] of v15) {
+    %VerifyType(v41);
+    try {
+        v41 | v42;
+    } catch(e45) {
+    }
+}

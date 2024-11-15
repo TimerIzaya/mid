@@ -1,0 +1,25 @@
+const v0 = [];
+const v1 = [v0];
+const v3 = [[v1],v0];
+try {
+    new Uint8Array(0);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e11) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e15) {
+}
+class C16 extends BigInt64Array {
+    [BigInt64Array] = v1;
+    8;
+    static #h = 0;
+    [v1] = BigInt64Array;
+}
+new C16();
+new C16();
+const v19 = new C16();
+try { v0(v3, 256, v19); } catch (e) {}

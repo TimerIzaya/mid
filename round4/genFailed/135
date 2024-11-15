@@ -1,0 +1,49 @@
+try {
+    new Float32Array(2);
+} catch(e3) {
+}
+try {
+    new Float64Array(127);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(512);
+} catch(e11) {
+}
+function f12() {
+    return 127;
+}
+const v16 = /[xyz]/ivs;
+const v17 = /(?:a*)+/uym;
+const v18 = /a*bW[\cz]\xf0\x9f\x92\xa9/uds;
+function f19(a20, a21, a22, a23) {
+    const o31 = {
+        "g": 2,
+        "e": Float64Array,
+        "b": f12,
+        ...v17,
+        "d": 129,
+        __proto__: a23,
+        valueOf(a25, a26, a27) {
+            for (let v28 = 0; v28 < 32; v28++) {
+                this["p" + v28] = v28;
+            }
+            return 2;
+        },
+        "f": a20,
+    };
+    return o31;
+}
+f19(512, -64405, v18, v16);
+const v33 = f19(-64405, v16, v16, v17);
+const v34 = f19(129, v33, v16, v16);
+const v35 = new Float32Array(v34, -15, -64405);
+try {
+    v35[v34] = v35;
+} catch(e36) {
+}
+v34 in v18;
+try {
+    v33[2] = 2;
+} catch(e38) {
+}

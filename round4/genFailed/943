@@ -1,0 +1,21 @@
+try {
+    new Uint32Array(4096);
+} catch(e3) {
+}
+try {
+    new Int16Array(195);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(683);
+} catch(e11) {
+}
+e?.c;
+try {
+    683 - -1073741824n;
+} catch(e24) {
+}
+try {
+    e.b |= 4096;
+} catch(e25) {
+}

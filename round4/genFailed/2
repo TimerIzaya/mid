@@ -1,0 +1,55 @@
+class C3 {
+    static #g;
+    static get e() {
+        const v5 = this?.[10];
+        let v6;
+        try { v6 = v5(v5, -1000000.0, this, v5); } catch (e) {}
+        v6?.[v6];
+        return -1000000.0;
+    }
+    static {
+        let v9;
+        try { v9 = new this("symbol", this, -1000000.0, this); } catch (e) {}
+        "symbol" instanceof v9;
+        super.b;
+        const t12 = super.f;
+        delete t12?.f;
+        const v15 = Symbol?.iterator;
+        const o24 = {
+            [v15]() {
+                let v17 = 10;
+                const o23 = {
+                    next() {
+                        v17--;
+                        const v21 = v17 == 0;
+                        const o22 = {
+                            "done": v21,
+                            "value": v17,
+                        };
+                        return o22;
+                    },
+                };
+                return o23;
+            },
+        };
+    }
+}
+const v25 = new C3();
+new C3();
+const v27 = new C3();
+[-Infinity,-1.5635140574480328e+308];
+const v29 = [303.6549756754134,-Infinity,-2.220446049250313e-16,1e-15,-2.220446049250313e-16,-439.0022188893512,-3.0,-1000000000000.0];
+[1.0,269066.16202824074,-1.2808660491818813];
+/a{0,1}?/iymv;
+const v35 = /[\ca]x/iv;
+const v36 = /(ab|cde)(?:a*)+/igyvs;
+const o37 = {
+    __proto__: v36,
+    [v27]: 536870887n,
+    [v35]: v25,
+    65536: 9007199254740991,
+};
+try {
+    v36 ** v29;
+} catch(e39) {
+}

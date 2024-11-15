@@ -1,0 +1,53 @@
+try {
+    new Float32Array(8);
+} catch(e3) {
+}
+try {
+    new Uint32Array(127);
+} catch(e7) {
+}
+let v8 = 255;
+try {
+    new Uint8ClampedArray(v8);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    set c(a14) {
+        try {
+            this[Uint8ClampedArray] = 1073741824n;
+        } catch(e18) {
+        }
+    }
+    [Uint32Array];
+    [8];
+}
+const v19 = new C12();
+const v20 = new C12();
+new C12();
+class C22 {
+    static #toString(a24, a25, a26, a27) {
+        this?.b;
+        return a27;
+    }
+    set g(a30) {
+        try {
+            v19[this] = 127;
+        } catch(e31) {
+        }
+        try { a30(); } catch (e) {}
+    }
+}
+const v33 = new C22();
+new C22();
+const v35 = new C22();
+try { v33.cosh(v8, Uint32Array, C22); } catch (e) {}
+try {
+    v8++;
+} catch(e38) {
+}
+[v35,[C22],v33,C22];
+[C12,v33,Uint32Array,v20];
+try {
+    C22[v33] &&= 127;
+} catch(e42) {
+}

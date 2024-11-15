@@ -1,0 +1,35 @@
+let v6 = 33;
+try {
+    new Uint8Array(v6);
+} catch(e9) {
+}
+try {
+    new Int8Array(1024);
+} catch(e13) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e17) {
+}
+try {
+    new Int32Array(7);
+} catch(e21) {
+}
+try {
+    new Int32Array(2069);
+} catch(e25) {
+}
+try {
+    new Int32Array(2220);
+} catch(e29) {
+}
+const t25 = (10)[Uint8Array];
+t25[Symbol?.match] = Int32Array;
+try {
+    v6--;
+} catch(e34) {
+}
+try {
+    2220 + -9007199254740992;
+} catch(e36) {
+}

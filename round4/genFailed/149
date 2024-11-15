@@ -1,0 +1,39 @@
+const v0 = [];
+function f1() {
+    return v0;
+}
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 30628745n;
+    } catch(e8) {
+    }
+    try {
+        this.g = a7;
+    } catch(e9) {
+    }
+}
+const v10 = new F5(30628745n);
+const v11 = new F5(53717n);
+const v12 = new F5(53717n);
+[f1,v11,[f1,-536870912n,f1,v11,v11],-536870912n];
+[v12,53717n];
+function f22(a23, a24, a25) {
+    function f27(a28) {
+        f1();
+        new WeakMap();
+    }
+    this.onmessage = f27;
+    let v32;
+    try { v32 = a24(); } catch (e) {}
+    try {
+        v0.length /= v32;
+    } catch(e33) {
+    }
+}
+const v36 = [f1,10n,v10];
+const o37 = {
+    "arguments": v36,
+    "type": "function",
+};
+new Worker(f22, o37);

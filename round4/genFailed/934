@@ -1,0 +1,29 @@
+try {
+    new BigInt64Array(4);
+} catch(e9) {
+}
+try {
+    new Uint8Array(127);
+} catch(e13) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e17) {
+}
+for (const v25 of -2147483649) {
+    try { v25(-2147483649, v25, v25, 7, 7); } catch (e) {}
+    try {
+        Math.atan2(2147483647, 4);
+    } catch(e32) {
+    }
+    1 | v25;
+    const v34 = 1 >>> v25;
+    try {
+        Math.cos(v34);
+    } catch(e36) {
+    }
+    try {
+        Math.cosh(0.9479430258543032);
+    } catch(e38) {
+    }
+}

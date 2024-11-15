@@ -1,0 +1,65 @@
+const v5 = new Array(8);
+class C6 {
+    set h(a8) {
+        for (const v9 in a8) {
+            try {
+                v9 / true;
+            } catch(e12) {
+            }
+        }
+    }
+    static #o(a14, a15, a16) {
+        let v13 = this;
+        try {
+            v13 = a15;
+        } catch(e17) {
+        }
+        return 10000;
+    }
+}
+new C6();
+new C6();
+const v20 = new C6();
+class C21 extends C6 {
+    get b() {
+        Array(10000);
+        %PrepareFunctionForOptimization(Array);
+        const v24 = Array(10000);
+        Array(10000);
+        %OptimizeFunctionOnNextCall(Array);
+        Array(10000);
+        return v24;
+    }
+    o(a28, a29, a30, a31) {
+        try {
+            super.parse(v5, this, C6);
+        } catch(e33) {
+        }
+        return a29;
+    }
+}
+new C21();
+new C21();
+new C21();
+try {
+    new Uint32Array(3283);
+} catch(e40) {
+}
+try {
+    new Int8Array(825);
+} catch(e44) {
+}
+try {
+    new Int16Array(1510);
+} catch(e48) {
+}
+[-1.7976931348623157e+308,1.0,-5.0,-2.0,194990.75922709703,-1000000000.0,-1.0,0.5711764533184384,1e-15,1000000.0];
+[-2.220446049250313e-16,-3.944875120203875,4.956135647034081,-1000000000000.0];
+[-1000.0,286338.77143026283,616.8928572424593,2.0,-1000000.0,0.4060895061334294,-1000000000.0,1000000000000.0];
+const v52 = Array(-5);
+const o53 = {
+    __proto__: v52,
+    "d": C6,
+    "f": 8,
+    "g": v20,
+};

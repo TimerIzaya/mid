@@ -1,0 +1,39 @@
+function f0() {
+    const o11 = {
+        "b": "JdN6",
+        193: 5.0,
+        o(a5, a6) {
+            const o7 = {
+            };
+            try {
+                new Proxy("JdN6", o7);
+            } catch(e10) {
+            }
+            return a6;
+        },
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+const v15 = [f0,v14];
+const v16 = [v14,v15];
+const v17 = [v14,v16,f0];
+const v18 = [v17,v17,f0];
+[v18,v16,v15];
+[[[v14,v16,[v16,v18,v12,v13]]]];
+f0();
+let v26 = 2147483647;
+try {
+    Math.max(-0.0);
+} catch(e30) {
+}
+--v26;
+try {
+    Math.cos(v17);
+} catch(e33) {
+}
+v17 >> v26;
+--0.0;
+v26 && 268435440;

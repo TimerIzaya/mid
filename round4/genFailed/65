@@ -1,0 +1,62 @@
+class C3 {
+    static #m(a5) {
+        try {
+            "o" ^ "bigint";
+        } catch(e7) {
+        }
+        const v9 = Symbol?.iterator;
+        const o18 = {
+            [v9]() {
+                let v11 = 10;
+                const o17 = {
+                    next() {
+                        v11--;
+                        const v15 = v11 == 0;
+                        const o16 = {
+                            "done": v15,
+                            "value": v11,
+                        };
+                        return o16;
+                    },
+                };
+                return o17;
+            },
+        };
+        return o18;
+    }
+}
+const v19 = new C3();
+const v20 = new C3();
+const v21 = new C3();
+function f25(a26, a27, a28) {
+    const o35 = {
+        ...v21,
+        m(a30, a31) {
+            const v32 = this?.[4];
+            try { v32(); } catch (e) {}
+            try {
+                C3.c = this;
+            } catch(e34) {
+            }
+            return a26;
+        },
+        __proto__: a27,
+        "d": "bigint",
+        [a26]: 13,
+        10: C3,
+    };
+    return o35;
+}
+const v36 = f25("toString", "o", v19);
+f25(f25(C3, C3, v21), f25, v36);
+try {
+    "toString" || "toString";
+} catch(e40) {
+}
+Object.defineProperty("toString", "bigint", { configurable: true, get: f25 });
+const v44 = ~128;
+try {
+    Math.cosh(v44);
+} catch(e46) {
+}
+128 - v20;

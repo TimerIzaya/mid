@@ -1,0 +1,34 @@
+try {
+    new Int32Array(512);
+} catch(e3) {
+}
+try {
+    new Uint32Array(2);
+} catch(e7) {
+}
+try {
+    new Uint32Array(3695);
+} catch(e11) {
+}
+class C15 extends Uint32Array {
+    #p(a17, a18, a19, a20) {
+        try {
+            this[186] = a20;
+        } catch(e21) {
+        }
+        return 2.0;
+    }
+    2147483648;
+    e = Uint32Array;
+    c = 2;
+    static d;
+}
+const v22 = new C15();
+new C15();
+const v24 = new C15();
+v24["reduce"](Uint32Array, 1000000.0);
+v22?.buffer;
+try {
+    new C15();
+} catch(e30) {
+}

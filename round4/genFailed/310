@@ -1,0 +1,43 @@
+function f0() {
+}
+try {
+    new Uint32Array(129);
+} catch(e4) {
+}
+try {
+    new Uint8ClampedArray(257);
+} catch(e8) {
+}
+try {
+    new Int16Array(2);
+} catch(e12) {
+}
+const v13 = [2,Uint8ClampedArray,129,f0,Int16Array];
+const v14 = [Uint32Array,257,2];
+const v15 = [v14,Uint32Array,v14,f0];
+class C16 {
+    constructor(a18, a19) {
+        delete a19?.length;
+        try { v15.fill(257); } catch (e) {}
+    }
+    [Uint8ClampedArray] = Int16Array;
+    static get c() {
+        const v23 = f0();
+        try {
+            v23 - f0;
+        } catch(e25) {
+        }
+        return this;
+    }
+}
+new C16(Uint8ClampedArray, v14);
+const v27 = new C16(v13, v15);
+const v28 = new C16(Uint8ClampedArray, v13);
+v27[v28];
+try {
+    v14[1799181820] = C16;
+} catch(e30) {
+}
+for (let v31 = 0; v31 < 69; v31++) {
+    v15?.__proto__;
+}

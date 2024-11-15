@@ -1,0 +1,31 @@
+try {
+    new Int16Array(255);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(1);
+} catch(e7) {
+}
+try {
+    new Int32Array(6);
+} catch(e11) {
+}
+const v13 = new Date();
+Date == Date;
+const v21 = v13?.__proto__;
+function f22(a23, a24) {
+    function f26(a27) {
+        try { v21(); } catch (e) {}
+    }
+    this.onmessage = f26;
+    try {
+        Date.toString = a23;
+    } catch(e29) {
+    }
+}
+const v32 = [-16844596n,4294967295n];
+const o33 = {
+    "arguments": v32,
+    "type": "function",
+};
+new Worker(f22, o33);

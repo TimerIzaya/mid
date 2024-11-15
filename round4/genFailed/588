@@ -1,0 +1,40 @@
+const v1 = new Map();
+try {
+    new Int8Array(9);
+} catch(e5) {
+}
+try {
+    new BigUint64Array(64);
+} catch(e9) {
+}
+try {
+    new Int16Array(16);
+} catch(e13) {
+}
+class C14 extends Int8Array {
+    static [v1] = Int8Array;
+    268435456 = 16;
+    static n(a16, a17, a18, a19) {
+        let v20;
+        try { v20 = this.imul(a17, a19); } catch (e) {}
+        v20?.[a19];
+        return Map;
+    }
+    #d;
+    static 1073741824 = Int8Array;
+    static [Int8Array] = 64;
+    static [Int16Array];
+}
+new C14();
+const v23 = new C14();
+new C14();
+const o25 = {
+    __proto__: v23,
+    1084255617: Int16Array,
+    "d": 9,
+};
+try {
+    v1.valueOf = v1;
+} catch(e26) {
+}
+Reflect.construct(Int8Array, [v23,9,9], Int16Array);

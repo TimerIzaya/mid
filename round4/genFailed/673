@@ -1,0 +1,23 @@
+const v5 = new WeakSet();
+class C6 extends WeakSet {
+    static #h;
+    static #b = v5;
+    constructor(a8, a9, a10) {
+        super(v5);
+    }
+    static #g = undefined;
+    7 = 1000.0;
+}
+const v14 = new C6(8.24934048151088e+307, 8.24934048151088e+307, 1000000.0);
+new C6(8.24934048151088e+307, 1000.0, 1000000.0);
+const v16 = new C6(8.24934048151088e+307, 8.24934048151088e+307, 1000.0);
+try {
+    v16 << WeakSet;
+} catch(e18) {
+}
+for (let v19 = 0; v19 < 14; v19++) {
+    try {
+        v14.f ^= 1000000.0;
+    } catch(e20) {
+    }
+}

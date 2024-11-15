@@ -1,0 +1,26 @@
+try {
+    new Uint8ClampedArray(127);
+} catch(e3) {
+}
+try {
+    new Uint16Array(9);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(64);
+} catch(e11) {
+}
+const v12 = [Uint8ClampedArray,Uint16Array,Uint8ClampedArray,64];
+const v13 = [v12,127,v12];
+[v13,v12];
+new Map();
+[-34.1766509268582,-1.0,-483283.8943985116,-3.0,1000.0];
+[-259604.28006299853,1000000000.0,1.756699203498323e+308,8.272557818132292,-60.813649354523704,737.1389048271576];
+[-5.0,-5.0,-605.9200933260713,0.34498894179838135,-2.220446049250313e-16,1.15568074350526e+308,0.0,0.0];
+for (let i22 = 0, i23 = 10; i22 < i23; i22++, i23--) {
+    v13["toLocaleString"](v13, "toLocaleString", i23, ...v13, ..."toLocaleString", "toLocaleString");
+    try {
+        v13 - Uint8ClampedArray;
+    } catch(e34) {
+    }
+}

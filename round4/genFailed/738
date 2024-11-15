@@ -1,0 +1,66 @@
+const v1 = new Set();
+class C2 {
+    0;
+    static #m(a4, a5) {
+        a5?.[this];
+        class C7 extends Set {
+            static [a5];
+            [this] = this;
+        }
+        new C7();
+        new C7();
+        new C7();
+        return C7;
+    }
+    static #g;
+    #d = Set;
+}
+const v11 = new C2();
+new C2();
+const v13 = new C2();
+let v19 = 27929;
+function f20(a21, a22, a23, a24) {
+    const o38 = {
+        __proto__: v1,
+        [a23]: C2,
+        "a": a21,
+        "e": a21,
+        "h": a24,
+        "c": a22,
+        toString(a26, a27, a28) {
+            const v29 = super[this];
+            function f30(a31, a32, a33) {
+                const o34 = {
+                    "e": a33,
+                    __proto__: a33,
+                };
+                return o34;
+            }
+            f30(13892, v29, a28);
+            f30(v29, a21, a27);
+            f30(a21, a23, v13);
+            return 63541n;
+        },
+    };
+    return o38;
+}
+const v39 = f20(1, -19137n, v19, v11);
+f20(13892, 63541n, v19, f20(13892, 63541n, 1, v13));
+Reflect.construct(Set, [v39], f20);
+const v45 = v1?.[808];
+try {
+    v19 /= v45;
+} catch(e46) {
+}
+try {
+    new BigInt64Array(91);
+} catch(e50) {
+}
+try {
+    new Int8Array(238);
+} catch(e54) {
+}
+try {
+    new Uint8ClampedArray(4);
+} catch(e58) {
+}

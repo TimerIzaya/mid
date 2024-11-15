@@ -1,0 +1,27 @@
+try {
+    new Uint32Array(93);
+} catch(e10) {
+}
+try {
+    new Int16Array(111);
+} catch(e14) {
+}
+try {
+    new Float64Array(5);
+} catch(e18) {
+}
+try {
+    undefined & undefined;
+} catch(e24) {
+}
+new Uint32Array(5, -2698, -128);
+const v28 = 536870887n >>> 57653;
+57653 - v28;
+try {
+    Math.tan(v28);
+} catch(e31) {
+}
+try {
+    Math.asin(v28);
+} catch(e33) {
+}

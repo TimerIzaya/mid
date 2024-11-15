@@ -1,0 +1,31 @@
+class C3 {
+    128;
+    constructor(a5, a6) {
+        try { ("toString").charCodeAt(a6); } catch (e) {}
+        for (let v9 = 0; v9 < 32; v9++) {
+            const t5 = "toString";
+            t5["p" + v9] = v9;
+        }
+    }
+    static get d() {
+        try {
+            this.a |= NaN;
+        } catch(e13) {
+        }
+        return "toString";
+    }
+}
+const v14 = new C3("boolean", NaN);
+new C3(v14, v14);
+new C3("boolean", "toString");
+[536870888,4294967297,-45654,536870888,9,1073741825,10000];
+[1073741825,-12,14,4294967296,-9007199254740992,9007199254740990,9];
+[-268435456,128];
+let v26 = ("findIndex")?.[7];
+try {
+    v26 = C3;
+} catch(e27) {
+}
+"toString" instanceof C3;
+const v31 = new String("boolean");
+"toString" in v31;

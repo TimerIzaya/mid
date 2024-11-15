@@ -1,0 +1,37 @@
+const v0 = [1.7976931348623157e+308,302.30408562104435,-837.6711118299893,-1000000.0,-7.37392705461442,-2.220446049250313e-16,1.2933376888225965,-7.33748040794813];
+const v1 = [-198039.943834277,0.3544199037835901,-2.4307876699537534,1000000000.0,-813638.6078905622,-708108.4816931857,1000000000000.0,-3.4705699972401816e+306,-7.141633273690909e+307,NaN];
+[0.6802777270775299,-1e-15,7.1316017534395755];
+function f3() {
+    return v1;
+}
+function f4() {
+    return v0;
+}
+class C8 {
+    constructor(a10, a11, a12, a13) {
+        try {
+            a12 ** "getOwnPropertySymbols";
+        } catch(e15) {
+        }
+    }
+    #p(a17, a18, a19) {
+        try {
+            this + "getOwnPropertySymbols";
+        } catch(e21) {
+        }
+        return "9";
+    }
+}
+new C8(v0, "9", "9", "getOwnPropertySymbols");
+const v23 = new C8(v1, "getOwnPropertySymbols", f4, "9");
+new C8(v0, "getOwnPropertySymbols", v23, "9");
+const v25 = `
+    var d = "getOwnPropertySymbols";
+    Object.defineProperty("m", 10, { set: f4 });
+`;
+const v27 = eval(v25);
+try {
+    const t33 = "9";
+    t33.length = v27;
+} catch(e28) {
+}

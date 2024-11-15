@@ -1,0 +1,84 @@
+const v1 = new WeakSet();
+class C2 extends WeakSet {
+    #m(a4) {
+        function f5(a6, a7, a8) {
+            function f10(a11) {
+                try {
+                    new Uint8ClampedArray(3);
+                } catch(e15) {
+                }
+                try {
+                    new Uint8ClampedArray(644);
+                } catch(e19) {
+                }
+                try {
+                    new Int8Array(4096);
+                } catch(e23) {
+                }
+            }
+            this.onmessage = f10;
+            let {"onmessage":v24,} = this;
+        }
+        const v27 = ["function",WeakSet,Worker];
+        const o28 = {
+            "arguments": v27,
+            "type": "function",
+        };
+        new Worker(f5, o28);
+        return a4;
+    }
+}
+const v30 = new C2();
+const v31 = new C2();
+const v32 = new C2();
+const v34 = new Date();
+class C35 extends WeakSet {
+    static get d() {
+        function f37() {
+            return C2;
+        }
+        try {
+            C2 = WeakSet;
+        } catch(e38) {
+        }
+        return f37;
+    }
+    constructor(a40, a41) {
+        super(a40);
+        try {
+            this.g &= a40;
+        } catch(e42) {
+        }
+        Date(a40);
+        try {
+            new Uint16Array(3248);
+        } catch(e47) {
+        }
+        try {
+            new Int16Array(256);
+        } catch(e51) {
+        }
+        try {
+            new Int16Array(1024);
+        } catch(e55) {
+        }
+    }
+}
+const v56 = new C35(v1, v30);
+const v57 = new C35(v34, v32);
+const v58 = new C35(C35, v57);
+[v31,C35,v30,v56,v58];
+[WeakSet];
+([v31,C35])[C2];
+try {
+    new Uint16Array(871);
+} catch(e66) {
+}
+try {
+    new Int8Array(129);
+} catch(e70) {
+}
+try {
+    new Uint8Array(2);
+} catch(e74) {
+}

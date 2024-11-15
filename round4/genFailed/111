@@ -1,0 +1,26 @@
+try {
+    new Uint16Array(255);
+} catch(e6) {
+}
+try {
+    new Float32Array(1024);
+} catch(e10) {
+}
+try {
+    new Float32Array(128);
+} catch(e14) {
+}
+255 in 1073741824n;
+let v19 = 0;
+do {
+    const v23 = 255 ** 965142480;
+    +v23;
+    -v23;
+    try {
+        Math.expm1(v23);
+    } catch(e27) {
+    }
+    255 << 670.470693621668;
+    ~670.470693621668;
+    v19++;
+} while (v19 < 0)

@@ -1,0 +1,55 @@
+try {
+    new Uint16Array(1045);
+} catch(e3) {
+}
+try {
+    new Float32Array(1);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1000);
+} catch(e11) {
+}
+[-2147483649,65536,7,-9,347129038,-536870912,1073741823];
+const v14 = [3,-87046242,-259799888];
+const v15 = [-1,-9007199254740990,-13273,-12,1073741824,-13,536870912,0,-9223372036854775808,-14462];
+const v16 = /([xyz])/gymdvs;
+const v17 = /(?:ab)/imv;
+let v18 = /8u\x01(ArNa)/igymvs;
+class C19 extends Float32Array {
+    constructor(a21, a22) {
+        super(v17, a21, a21);
+        try {
+            v18 += v16;
+        } catch(e23) {
+        }
+        try {
+            super.e = this;
+        } catch(e24) {
+        }
+    }
+    c = v18;
+    static [Uint16Array] = v17;
+    6;
+    7;
+}
+new C19(v18, v14);
+new C19(1045, v18);
+new C19(1000, v15);
+function f28(a29, a30, a31) {
+    function f33(a34) {
+        delete this[a34];
+        try { a31(a29); } catch (e) {}
+        [this,v18,1045];
+        [[v15],this];
+    }
+    this.onmessage = f33;
+    %VerifyType(v14);
+    a29?.e?.__proto__;
+}
+const v44 = [1045,BigInt64Array,"function"];
+const o45 = {
+    "arguments": v44,
+    "type": "function",
+};
+new Worker(f28, o45);

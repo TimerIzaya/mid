@@ -1,0 +1,38 @@
+[63325,-2439,-1352981450,18494,1740476710,-4294967296,1370375798,-1024,6,753224041];
+[233785242,1758988536,8,128,8,16,-1964230174,8,-268435456,9223372036854775807];
+const v2 = [0,-15,10,268435441,-2100349198,536870912,1449638046];
+let v3 = 8;
+try {
+    new Int8Array(v3);
+} catch(e6) {
+}
+try {
+    new Uint16Array(169);
+} catch(e10) {
+}
+try {
+    new Uint16Array(5);
+} catch(e14) {
+}
+try { v2.slice(5, 5); } catch (e) {}
+function f19(a20, a21) {
+    function f23(a24) {
+        const o25 = {
+        };
+        try {
+            new Proxy(this, o25);
+        } catch(e28) {
+        }
+    }
+    this.onmessage = f23;
+    try {
+        v3 %= 169;
+    } catch(e29) {
+    }
+}
+const v32 = [12n,Int8Array];
+const o33 = {
+    "arguments": v32,
+    "type": "function",
+};
+new Worker(f19, o33);

@@ -1,0 +1,30 @@
+const v1 = new Set();
+try {
+    new BigInt64Array(0);
+} catch(e5) {
+}
+try {
+    new Uint16Array(128);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(72);
+} catch(e13) {
+}
+const v14 = [-536870912,3,-268435456,-2147483647];
+[-2,-3,54343];
+[1,-65535,5,44577];
+try {
+    const t17 = "getInt8";
+    t17[v1] = 0;
+} catch(e23) {
+}
+for (const v24 of "kU") {
+    try { ("bigint").startsWith("getInt8", 12); } catch (e) {}
+    try { v14.concat(); } catch (e) {}
+    BigUint64Array in v24;
+}
+try {
+    v1.size >>>= 128;
+} catch(e28) {
+}

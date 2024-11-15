@@ -1,0 +1,42 @@
+const v1 = new Map();
+const v3 = new WeakSet();
+class C4 {
+    static g = v3;
+    n(a6) {
+        try {
+            v3 ** this;
+        } catch(e8) {
+        }
+        return this;
+    }
+    get f() {
+        v1?.[536870887];
+        try {
+            Math.fround(v1);
+        } catch(e15) {
+        }
+        const v16 = ~-53434;
+        let v17 = v16 - -4.0;
+        v17--;
+        return v16;
+    }
+}
+new C4();
+const v20 = new C4();
+new C4();
+try {
+    new Uint8ClampedArray(4);
+} catch(e25) {
+}
+try {
+    new BigInt64Array(127);
+} catch(e29) {
+}
+try {
+    new Float32Array(128);
+} catch(e33) {
+}
+for (let v34 = 0; v34 < 32; v34++) {
+    v3["p" + v34] = v34;
+}
+Reflect.construct(v20["n"](Map), [Reflect,Float32Array,WeakSet,127,Map], Uint8ClampedArray);

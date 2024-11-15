@@ -1,0 +1,44 @@
+class C3 {
+    static get b() {
+        const v6 = super.f;
+        try { v6["p"](this, "p", this); } catch (e) {}
+        try {
+            this.__proto__ = this;
+        } catch(e9) {
+        }
+        return -36936;
+    }
+    static [-9.65328019263871e+307];
+}
+const v10 = new C3();
+const v11 = new C3();
+const v12 = new C3();
+function f13() {
+    return v12;
+}
+class C14 extends f13 {
+    static #c = -36936;
+    [-36936];
+    constructor(a16, a17, a18) {
+        super();
+        const v20 = f13();
+        try {
+            a16 && v20;
+        } catch(e22) {
+        }
+    }
+    static [v12];
+}
+const v23 = new C14(C14, C14, v10);
+const v24 = new C14(v23, v10, v23);
+new C14(v24, C3, v24);
+for (let [v26,v27,v28] of v11) {
+}
+for (let i33 = 0; i33 < 2; i33++) {
+    C14[1] = v12;
+    Object.defineProperty(v10, 4, { writable: true, configurable: true, enumerable: true, value: i33 });
+    try {
+        v10 % i33;
+    } catch(e40) {
+    }
+}

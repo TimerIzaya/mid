@@ -1,0 +1,24 @@
+try {
+    new Float64Array(110);
+} catch(e9) {
+}
+try {
+    new Float32Array(10);
+} catch(e13) {
+}
+try {
+    new Float32Array(7);
+} catch(e17) {
+}
+for (let [v18] of 0.9508681362861553) {
+    try {
+        const o19 = {
+        };
+        new Float32Array(o19);
+    } catch(e21) {
+    }
+}
+try {
+    new Float32Array(2147483647);
+} catch(e24) {
+}

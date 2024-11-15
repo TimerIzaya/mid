@@ -1,0 +1,41 @@
+try {
+    new Uint8Array(1000);
+} catch(e3) {
+}
+try {
+    new Float32Array(129);
+} catch(e7) {
+}
+try {
+    new Int16Array(153);
+} catch(e11) {
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = Float32Array;
+    } catch(e19) {
+    }
+    try {
+        this.c = a18;
+    } catch(e20) {
+    }
+    try {
+        this.b = 11n;
+    } catch(e21) {
+    }
+}
+const v22 = new F15(6n, -256n);
+const v23 = new F15(-256n, v22);
+const v24 = new F15(11n, 6n);
+const v25 = v24?.[512];
+try {
+    new F15(-256n, /[^123]a\nb\bc/gymvs);
+} catch(e28) {
+}
+const v29 = v23[Uint8Array];
+v25[1] = v23?.g;
+try {
+    v25.__proto__ = v29;
+} catch(e31) {
+}

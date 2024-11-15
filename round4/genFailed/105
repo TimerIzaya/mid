@@ -1,0 +1,24 @@
+function f6() {
+    return 2021943481;
+}
+try {
+    new Uint8ClampedArray(188);
+} catch(e10) {
+}
+try {
+    new Int32Array(1);
+} catch(e14) {
+}
+try {
+    new Uint32Array(256);
+} catch(e18) {
+}
+for (const v21 of (1000)?.g) {
+    v21?.d;
+    f6();
+    %PrepareFunctionForOptimization(f6);
+    f6();
+    f6();
+    %OptimizeMaglevOnNextCall(f6);
+    f6();
+}

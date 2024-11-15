@@ -1,0 +1,30 @@
+new WeakSet();
+new WeakSet();
+const v4 = [1073741823,-1658676419,-993200795,12,-2843,268435439];
+const v5 = [-7755,-2,53029,-54785,33480,-53323,256,-9007199254740991];
+const v7 = [WeakSet,WeakSet,[31523,-65537,129,-62710,-2147483647,9007199254740992,0,1000,-1677564944,4096],v4];
+const v8 = [v7];
+const v9 = [v7,v4];
+try {
+    new Uint8ClampedArray(5);
+} catch(e13) {
+}
+try {
+    new Uint8Array(512);
+} catch(e17) {
+}
+try {
+    new Uint16Array(20);
+} catch(e21) {
+}
+new Uint16Array(Uint8Array, Uint16Array, Uint8ClampedArray, ...v9, ...v8);
+let v23;
+try { v23 = v5(); } catch (e) {}
+for (const v24 of v23) {
+    const o25 = {
+    };
+    try {
+        new Proxy(v8, o25);
+    } catch(e28) {
+    }
+}

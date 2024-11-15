@@ -1,0 +1,44 @@
+try {
+    new Uint32Array(2925);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(12);
+} catch(e13) {
+}
+let v15 = Float64Array;
+try {
+    new v15(244);
+} catch(e17) {
+}
+class C18 extends BigUint64Array {
+    static 2 = "9007199254740992";
+    constructor(a20, a21, a22, a23) {
+        super("MAX_SAFE_INTEGER", a20, a23);
+        const v24 = delete a22[9];
+        ("9007199254740992")["trimRight"]();
+        838373982 >>> v15;
+        !v24;
+        v15++;
+        try {
+            Math.exp(127);
+        } catch(e35) {
+        }
+    }
+}
+new C18(244, 12, "MAX_SAFE_INTEGER", 4096);
+new C18(12, 1073741824, "9007199254740992", 2147483647);
+new C18(1073741824, 1073741824, "MAX_SAFE_INTEGER", 12);
+if (v15) {
+    const v39 = ("9007199254740992")[C18];
+    v39?.[v39];
+} else {
+}
+const o46 = {
+    "maxByteLength": 241,
+};
+const v48 = new ArrayBuffer(9, o46);
+try {
+    new BigUint64Array(v48);
+} catch(e51) {
+}

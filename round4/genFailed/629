@@ -1,0 +1,32 @@
+try {
+    new Int8Array(1000);
+} catch(e3) {
+}
+try {
+    new Uint8Array(3483);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(9);
+} catch(e11) {
+}
+function f12() {
+    return 1000;
+}
+try {
+    const t16 = 9;
+    t16.__proto__ = -4294967296;
+} catch(e16) {
+}
+%VerifyType(9);
+let v17 = 0;
+do {
+    let v18;
+    try { v18 = Uint8Array.toString(3483, 3483, -4294967296, 3483); } catch (e) {}
+    v18 in v18;
+    try {
+        f12();
+    } catch(e21) {
+    }
+    v17++;
+} while (v17 < 8)

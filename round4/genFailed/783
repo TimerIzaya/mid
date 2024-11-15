@@ -1,0 +1,61 @@
+const v1 = new Map();
+class C2 extends Map {
+    static get b() {
+        const v4 = super.keys();
+        const o5 = {
+        };
+        try {
+            o5.f = Map;
+        } catch(e6) {
+        }
+        try {
+            const o7 = {
+            };
+            o7.f = Map;
+            o7.e = v1;
+        } catch(e8) {
+        }
+        try {
+            const o9 = {
+            };
+            o9.f = Map;
+            o9.e = v1;
+            o9.b = v4;
+        } catch(e10) {
+        }
+        try {
+            const o11 = {
+            };
+            o11.f = Map;
+            o11.e = v1;
+            o11.a = v4;
+        } catch(e12) {
+        }
+        return v4;
+    }
+}
+const v13 = new C2();
+new C2();
+new C2();
+try {
+    new Float32Array(6);
+} catch(e19) {
+}
+try {
+    new BigInt64Array(79);
+} catch(e23) {
+}
+try {
+    new Uint8Array(13);
+} catch(e27) {
+}
+let {"b":v28,} = C2;
+try {
+    v28 % Float32Array;
+} catch(e30) {
+}
+try {
+    v13.__proto__ = C2;
+} catch(e31) {
+}
+v1?.size;

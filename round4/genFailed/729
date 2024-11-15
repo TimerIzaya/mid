@@ -1,0 +1,43 @@
+const v2 = new Array(8);
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a5;
+    } catch(e7) {
+    }
+    try {
+        this.c = a6;
+    } catch(e8) {
+    }
+}
+const v9 = new F3(F3, v2);
+const v10 = new F3(v2, Array);
+const v11 = new F3(v10, v9);
+new Map();
+class C14 {
+    constructor(a16, a17, a18) {
+        g = a18;
+        const o19 = {
+            __proto__: a17,
+            "d": 8,
+            [a18]: a17,
+        };
+    }
+    #b;
+    static a = 8;
+    #c = Array;
+    803 = Array;
+    static h;
+}
+const v20 = new C14(v9, v11, v9);
+new C14(v9, v20, v20);
+new C14(v11, v20, v9);
+[0.7732830454438477,-1000.0];
+const v24 = [3.578112727360235,-0.038322230599469265,187.8188680821629,1000000000000.0,-1.7976931348623157e+308,-609631.0046265454,866212.671876045];
+[-1000000000.0,1.0,-694.4414432791734,89628.83032559836,3.3059724643577475,-199.76842203909075,Infinity,-1000000.0];
+const o26 = {
+};
+try {
+    new Proxy(v24, o26);
+} catch(e29) {
+}

@@ -1,0 +1,52 @@
+try {
+    new Uint8ClampedArray(14);
+} catch(e3) {
+}
+try {
+    new Float32Array(120);
+} catch(e7) {
+}
+try {
+    new Float32Array(2489);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o32 = {
+        __proto__: Float32Array,
+        "d": a15,
+        ...a14,
+        "e": Float32Array,
+        [120](a17, a18, a19) {
+            try {
+                new Uint8Array(2);
+            } catch(e23) {
+            }
+            try {
+                new Int8Array(256);
+            } catch(e27) {
+            }
+            try {
+                new Uint16Array(4);
+            } catch(e31) {
+            }
+            return a19;
+        },
+    };
+    return o32;
+}
+const v33 = f12(120, 120, 120);
+let v34 = f12(120, 120, 120);
+const v35 = f12(120, 2489, 14);
+v33[v35];
+try {
+    v33.e ^= 14;
+} catch(e39) {
+}
+try {
+    v34 = v35;
+} catch(e40) {
+}
+try {
+    120 && false;
+} catch(e42) {
+}

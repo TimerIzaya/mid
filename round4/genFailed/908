@@ -1,0 +1,36 @@
+try {
+    new Int32Array(9);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(101);
+} catch(e7) {
+}
+try {
+    new Uint16Array(8);
+} catch(e11) {
+}
+try {
+    new Uint16Array(3073);
+} catch(e15) {
+}
+try {
+    new Int32Array(3420);
+} catch(e19) {
+}
+try {
+    new Uint32Array(129);
+} catch(e23) {
+}
+[8,3073];
+const v25 = [Int32Array];
+const v26 = [v25,Uint8ClampedArray,v25,8];
+try {
+    v26[v26] = 101;
+} catch(e27) {
+}
+try {
+    3420 << Uint16Array;
+} catch(e29) {
+}
+v26["toLocaleString"]("toLocaleString", "toLocaleString");

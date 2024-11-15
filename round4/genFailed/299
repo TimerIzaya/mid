@@ -1,0 +1,38 @@
+class C3 {
+    set f(a5) {
+        /[a\bc]/iguds;
+        /w/igdv;
+        /foo(?<!bar)baz/igys;
+    }
+    constructor(a10, a11) {
+        for (let v12 = 0; v12 < 88; v12++) {
+            try { v12(v12, -1n, this, -15n); } catch (e) {}
+        }
+        const v14 = this[-15n];
+        Reflect.construct(Float32Array, [this,v14,v14], v14);
+    }
+}
+new C3(-1n, -10n);
+new C3(-1n, -15n);
+new C3(-15n, -1n);
+try {
+    new BigInt64Array(8);
+} catch(e25) {
+}
+try {
+    new BigInt64Array(256);
+} catch(e29) {
+}
+try {
+    new BigUint64Array(61);
+} catch(e33) {
+}
+const v40 = C3?.__proto__;
+/Mt/iumd;
+/1/igys;
+/Oa(?!bbb|bb)c/igyv;
+try { v40(); } catch (e) {}
+try {
+    BigUint64Array - 13020n;
+} catch(e46) {
+}

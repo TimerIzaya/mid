@@ -1,0 +1,51 @@
+function f6(a7, a8, a9) {
+    const o21 = {
+        2150484348: a9,
+        "g": "symbol",
+        "e": 8.517520527760567,
+        ["symbol"](a11, a12, a13) {
+            try {
+            const t0 = "compile";
+            new t0(0.8357630739080855, a7, 0.8357630739080855, "compile");
+            } catch (e) {}
+            super.a;
+            return super[a11];
+        },
+        toString(a18, a19) {
+            try {
+                a8 = a18;
+            } catch(e20) {
+            }
+            return this;
+        },
+    };
+    return o21;
+}
+f6("compile", 0.8357630739080855, 0.8357630739080855);
+f6("symbol", 5.0, 5.0);
+const v24 = f6("-42806", 5.0, 8.517520527760567);
+try {
+    new Int16Array(4096);
+} catch(e28) {
+}
+try {
+    new Int8Array(128);
+} catch(e32) {
+}
+try {
+    new BigInt64Array(3686);
+} catch(e36) {
+}
+try {
+    const o37 = {
+    };
+    new BigInt64Array(o37, 4096, 3686);
+} catch(e39) {
+}
+("compile")[v24];
+f6("compile", 8.517520527760567, 5.0);
+%PrepareFunctionForOptimization(f6);
+f6("compile", 8.517520527760567, 5.0);
+f6("compile", 8.517520527760567, 5.0);
+%OptimizeFunctionOnNextCall(f6);
+f6("compile", 8.517520527760567, 5.0);

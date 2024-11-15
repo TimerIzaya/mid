@@ -1,0 +1,48 @@
+try {
+    new Uint8ClampedArray(6);
+} catch(e3) {
+}
+try {
+    new Int32Array(6);
+} catch(e7) {
+}
+let v8 = 3576;
+try {
+    new Float64Array(v8);
+} catch(e11) {
+}
+function f12() {
+    return Int32Array;
+}
+new WeakMap();
+class C15 extends Int32Array {
+    7;
+    static #p(a17, a18) {
+        try {
+            new Uint8Array(16);
+        } catch(e22) {
+        }
+        try {
+            new Int32Array(4);
+        } catch(e26) {
+        }
+        try {
+            new Uint8ClampedArray(751);
+        } catch(e30) {
+        }
+        return WeakMap;
+    }
+}
+new C15();
+new C15();
+const v33 = new C15();
+try {
+    const o34 = {
+    };
+    v33.find(f12, o34);
+} catch(e36) {
+}
+try {
+    v8 = 6;
+} catch(e37) {
+}

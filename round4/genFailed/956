@@ -1,0 +1,48 @@
+let v4 = 65537;
+function f6(a7, a8, a9) {
+    const o13 = {
+        ["n"]: 15,
+        ["bigint"]: "bigint",
+        __proto__: a8,
+        "d": a7,
+        "g": -4294967297,
+        set e(a11) {
+            try {
+                super.a = "n";
+            } catch(e12) {
+            }
+        },
+        [15]: a7,
+        11: a9,
+        "f": v4,
+    };
+    return o13;
+}
+f6("bigint", "object", v4);
+f6("object", "object", 15);
+const v16 = f6("n", "object", -4294967297);
+try {
+    new Uint16Array(104);
+} catch(e20) {
+}
+try {
+    new Uint32Array(118);
+} catch(e24) {
+}
+try {
+    new Int8Array(10);
+} catch(e28) {
+}
+Object.defineProperty("bigint", v16, { configurable: true, enumerable: true, get: f6, set: f6 });
+f6("object", "object", 10);
+try {
+    v4 /= 10;
+} catch(e30) {
+}
+let [v31] = "bigint";
+try {
+    const o32 = {
+    };
+    new Uint16Array(o32);
+} catch(e34) {
+}

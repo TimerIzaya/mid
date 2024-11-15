@@ -1,0 +1,41 @@
+function f3() {
+    return Infinity;
+}
+const v4 = /[x\dz]/guds;
+const v5 = /foo|(bar|baz)|quuxa$\p{Script_Extensions=Greek}^xxx$?/igus;
+/(ab)\1/iuymd;
+class C7 {
+    set f(a9) {
+        try {
+            new Uint8ClampedArray(1144);
+        } catch(e13) {
+        }
+        try {
+            new Float64Array(1925);
+        } catch(e17) {
+        }
+        try {
+            new Uint8Array(8);
+        } catch(e21) {
+        }
+    }
+}
+const v22 = new C7();
+new C7();
+new C7();
+const v25 = /[^(x)(x)(x)\3*]/gumd;
+const v26 = /a{0}/igydvs;
+const v27 = /[\cA]/iud;
+try {
+    v26[v27] = v27;
+} catch(e28) {
+}
+Object.defineProperty(v5, v27, { enumerable: true, get: f3, set: f3 });
+try {
+    v25[v4] = Infinity;
+} catch(e29) {
+}
+try {
+    v22.__proto__ = v25;
+} catch(e30) {
+}

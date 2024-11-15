@@ -1,0 +1,31 @@
+class C3 {
+    constructor(a5, a6) {
+        g = a6;
+        try {
+            super.valueOf();
+        } catch(e8) {
+        }
+    }
+    #valueOf(a10, a11) {
+        const o15 = {
+            "execution": "sync",
+            "type": "minor",
+        };
+        gc(o15);
+        return "sync";
+    }
+}
+const v17 = new C3("a", "65537");
+new C3("-1086814416", "a");
+const v19 = new C3("65537", "a");
+const v20 = [v19,C3];
+[v20,v17,v20,C3];
+[v19];
+const o28 = {
+    "maxByteLength": 128,
+};
+const v30 = new SharedArrayBuffer(128, o28);
+try {
+    new DataView(v30);
+} catch(e33) {
+}

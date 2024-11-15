@@ -1,0 +1,49 @@
+try {
+    new Float32Array(1024);
+} catch(e3) {
+}
+try {
+    new Int8Array(1);
+} catch(e7) {
+}
+try {
+    new Float32Array(3118);
+} catch(e11) {
+}
+const v12 = [Int8Array];
+const v13 = [v12,Float32Array,3118,v12];
+[v12,1,Float32Array,v13,v13];
+class C15 {
+    d;
+    1 = 1;
+    n(a17, a18) {
+        let v19;
+        try { v19 = a18(); } catch (e) {}
+        1706 | -2147483648;
+        let v25 = -0.0 ** -0.0;
+        const v26 = v25 | 1024;
+        v25++;
+        v26 || v26;
+        ~1706;
+        try {
+            Math.round(v26);
+        } catch(e31) {
+        }
+        return v19;
+    }
+}
+const v32 = new C15();
+const v33 = new C15();
+new C15();
+v32["n"](1024, "n", 3118, Int8Array);
+let v37 = 0;
+do {
+    [3.0,-1000000.0];
+    [-3.0,1000.0,-3.0];
+    [7.4027713318501185,-1000000000.0,0.6483515540816048,-315439.16416036757,2.2250738585072014e-308,-581632.8873431316];
+    try {
+        v12.__proto__ = v33;
+    } catch(e41) {
+    }
+    v37++;
+} while (v37 < 3)

@@ -1,0 +1,37 @@
+try {
+    new Float32Array(1021);
+} catch(e4) {
+}
+try {
+    new BigUint64Array(378);
+} catch(e8) {
+}
+try {
+    new BigUint64Array(201);
+} catch(e12) {
+}
+class C13 {
+    static o(a15, a16, a17, a18) {
+        try { a17.o(a15, 378, a16, BigUint64Array, a17); } catch (e) {}
+        super.c;
+        return 1021;
+    }
+    static b;
+    10 = null;
+    static e;
+}
+const v25 = new C13();
+const v26 = new C13();
+new C13();
+const v32 = Symbol?.hasInstance;
+const t26 = "log";
+t26[v32] = null;
+class C33 extends BigUint64Array {
+    a = BigUint64Array;
+    static 10 = v26;
+    static [v32] = v25;
+    673370286 = 378;
+}
+new C33();
+new C33();
+new C33();

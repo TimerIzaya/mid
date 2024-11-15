@@ -1,0 +1,37 @@
+try {
+    new Float64Array(64);
+} catch(e3) {
+}
+try {
+    new Int8Array(2232);
+} catch(e7) {
+}
+try {
+    new Uint32Array(16);
+} catch(e11) {
+}
+function f15(a16, a17) {
+    const o26 = {
+        [64]: 64,
+        "h": 0.7183893079456904,
+        "g": 16,
+        o(a19, a20, a21, a22) {
+            return Float64Array;
+        },
+        "b": a16,
+        "e": 16,
+        "a": 255.1490433347376,
+    };
+    return o26;
+}
+const v29 = f15(f15(Uint32Array, f15(255.1490433347376, 2232)), 16);
+for (let v30 = 0; v30 < 32; v30++) {
+    v29["p" + v30] = v30;
+}
+class C33 extends Float64Array {
+    [-2] = 64;
+    h;
+}
+new C33();
+new C33();
+new C33();

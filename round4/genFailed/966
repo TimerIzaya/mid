@@ -1,0 +1,49 @@
+try {
+    new Int16Array(7);
+} catch(e3) {
+}
+try {
+    new Int32Array(2834);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(663);
+} catch(e11) {
+}
+class C12 extends Uint8ClampedArray {
+    static #o(a14, a15, a16, a17) {
+        function f18() {
+            return a16;
+        }
+        return 2834;
+    }
+    [Int32Array];
+    [2834] = Int16Array;
+    static #c = 7;
+    #d;
+    #g = 7;
+}
+new C12();
+new C12();
+const v21 = new C12();
+("EDUP")["replaceAll"]("EDUP", "m");
+const o27 = {
+};
+try {
+    new Proxy("m", o27);
+} catch(e30) {
+}
+function F31(a33, a34, a35) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a35;
+    } catch(e36) {
+    }
+    try {
+        this.g = 663;
+    } catch(e37) {
+    }
+}
+new F31(v21, 2834, Uint8ClampedArray);
+new F31("m", 7, "0");
+new F31(F31, 663, 663);

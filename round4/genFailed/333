@@ -1,0 +1,26 @@
+const v6 = [-1000000000.0];
+const v7 = [0.05364003861190436,1.7976931348623157e+308];
+const v8 = [v7];
+new WeakMap();
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 1.7976931348623157e+308;
+    } catch(e15) {
+    }
+}
+new F11(v6, v8);
+const v17 = new F11(v7, v6);
+const v18 = new F11(v17, v8);
+h = v18;
+v7["every"](v17, v18);
+try {
+    v17.c >>= 4;
+} catch(e21) {
+}
+const o22 = {
+};
+try {
+    new Proxy(v17, o22);
+} catch(e25) {
+}

@@ -1,0 +1,67 @@
+try {
+    new Float32Array(0);
+} catch(e6) {
+}
+try {
+    new BigUint64Array(0);
+} catch(e10) {
+}
+try {
+    new Uint16Array(14);
+} catch(e14) {
+}
+function f15(a16, a17) {
+    const o48 = {
+        set d(a19) {
+            try {
+                this.d = BigUint64Array;
+            } catch(e20) {
+            }
+        },
+        __proto__: 14,
+        toString(a22, a23, a24) {
+            function f25(a26, a27) {
+                function f29(a30) {
+                    try {
+                        new BigInt64Array(8);
+                    } catch(e34) {
+                    }
+                    try {
+                        new Float64Array(56);
+                    } catch(e38) {
+                    }
+                    try {
+                        new Float64Array(173);
+                    } catch(e42) {
+                    }
+                }
+                this.onmessage = f29;
+                return a16;
+            }
+            const v45 = [a17,"function"];
+            const o46 = {
+                "arguments": v45,
+                "type": "function",
+            };
+            new Worker(f25, o46);
+            return "function";
+        },
+    };
+    return o48;
+}
+f15(14, 9007199254740992);
+const v50 = f15(4294967295, 0);
+const v51 = f15(9007199254740992, 4294967295);
+for (let [v55] of v50) {
+    /BB/gmdv;
+    /(?:a?)+1qa(?!b)/uys;
+    const v58 = /xyz?EG[\0]/iguym;
+    try {
+        v50[v58] |= v55;
+    } catch(e59) {
+    }
+}
+try {
+    v51[v50] >>= 4294967295;
+} catch(e60) {
+}

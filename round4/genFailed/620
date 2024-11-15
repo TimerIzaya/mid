@@ -1,0 +1,75 @@
+class C3 {
+    constructor(a5, a6) {
+        const v9 = Reflect.construct(a6, ["at",Reflect], a6);
+        const v10 = super.h;
+        try { ("trimRight").search(v9); } catch (e) {}
+        try {
+            super[v10] = "at";
+        } catch(e12) {
+        }
+    }
+    static e;
+    static [-128] = -128;
+    #g = "at";
+    static ["at"] = "trimRight";
+}
+const v13 = new C3("at", C3);
+new C3(-128, v13);
+const v15 = new C3("trimRight", "at");
+try {
+    new Uint32Array(9);
+} catch(e19) {
+}
+try {
+    new Uint8Array(1847);
+} catch(e23) {
+}
+try {
+    new Int16Array(16);
+} catch(e27) {
+}
+class C28 {
+    get a() {
+        const v30 = this?.__proto__;
+        try {
+            v30 - "at";
+        } catch(e32) {
+        }
+        return v30;
+    }
+    m(a34, a35, a36, a37) {
+        const v38 = ["at",16,C3,1847,16];
+        [v38,a37,v38];
+        const v40 = [Uint8Array];
+        let v41;
+        try { v41 = v15.expm1(a37, v40, v40, v40); } catch (e) {}
+        return v41;
+    }
+}
+new C28();
+new C28();
+new C28();
+const v49 = Symbol?.toPrimitive;
+const o55 = {
+    [v49]() {
+        const o51 = {
+            "construct": Symbol,
+            "defineProperty": Symbol,
+            "deleteProperty": Symbol,
+            "get": Symbol,
+            "getOwnPropertyDescriptor": Symbol,
+            "getPrototypeOf": Symbol,
+            "has": Symbol,
+            "isExtensible": Symbol,
+            "ownKeys": Symbol,
+            "preventExtensions": Symbol,
+            "set": Symbol,
+            "setPrototypeOf": Symbol,
+        };
+        try {
+            new Proxy(Symbol, o51);
+        } catch(e54) {
+        }
+        return -1858379934;
+    },
+};

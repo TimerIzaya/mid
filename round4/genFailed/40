@@ -1,0 +1,29 @@
+function f4() {
+    return -9007199254740992n;
+}
+function F11(a13, a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = "symbol";
+    } catch(e17) {
+    }
+    try {
+        this.b = a15;
+    } catch(e18) {
+    }
+    try {
+        this.c = "j";
+    } catch(e19) {
+    }
+}
+const v20 = new F11(-1n, 1577785200n, 1577785200n, "function");
+const v21 = new F11(-9007199254740992n, -9007199254740992n, -9007199254740992n, "string");
+let v22 = new F11(-1n, -1n, 1577785200n, "source");
+new f4(..."string", v21, 1577785200n, ..."j", v22);
++-1n;
+const v27 = v20 && -6;
+-(-1n);
+!v20;
+--v22;
+~v27;
+f4();

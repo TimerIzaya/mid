@@ -1,0 +1,32 @@
+[];
+try {
+    new Float32Array(512);
+} catch(e13) {
+}
+let v15 = Int16Array;
+try {
+    new v15(0);
+} catch(e17) {
+}
+try {
+    new Int32Array(16);
+} catch(e21) {
+}
+try {
+    v15 >>= v15;
+} catch(e22) {
+}
+Object.defineProperty("n", v15, { writable: true, configurable: true, enumerable: true, value: 2 });
+function f23() {
+    return 13;
+}
+function F24(a26, a27, a28, a29) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a28;
+    } catch(e30) {
+    }
+}
+new F24(Int32Array, 0, "symbol", 13);
+new F24(Int32Array, v15, "n", 13);
+new F24(13, 512, "n", 0);

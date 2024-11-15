@@ -1,0 +1,63 @@
+let v0 = 1.4363247673175294;
+try {
+    new BigInt64Array(4096);
+} catch(e6) {
+}
+try {
+    new Int32Array(1024);
+} catch(e10) {
+}
+try {
+    new Uint8Array(255);
+} catch(e14) {
+}
+function F15(a17, a18) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a18;
+    } catch(e19) {
+    }
+    try {
+        this.b = Int32Array;
+    } catch(e20) {
+    }
+}
+new F15(4096, -1.3466427788200696e+308);
+new F15(4096, -1e-15);
+const v23 = new F15(1024, -1e-15);
+class C24 extends Int32Array {
+    #p(a26, a27, a28) {
+        const v30 = typeof a28?.b;
+        v30 === "number";
+        try {
+            F15 ** 255;
+        } catch(e34) {
+        }
+        return v30;
+    }
+    #b;
+    static 0 = -1.3466427788200696e+308;
+    [4096] = -1e-15;
+}
+new C24();
+new C24();
+new C24();
+try {
+    v23[4] = BigInt64Array;
+} catch(e38) {
+}
+try {
+    v23[Uint8Array] &&= v0;
+} catch(e39) {
+}
+let v42 = -472499.1043046573;
+let v43 = v0--;
+const v44 = v43--;
+v0 * v42;
+!-256;
+v44 | -256;
+v42--;
+try {
+    Math.log1p(v42);
+} catch(e50) {
+}

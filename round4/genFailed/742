@@ -1,0 +1,48 @@
+try {
+    new BigInt64Array(151);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(512);
+} catch(e7) {
+}
+try {
+    new Int16Array(255);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o20 = {
+        get d() {
+            const v18 = new Array(5);
+            try {
+                Array[257782233] = v18;
+            } catch(e19) {
+            }
+            return Array;
+        },
+        "e": a14,
+        [151]: a14,
+        __proto__: a13,
+        ...a14,
+        [a14]: 255,
+    };
+    return o20;
+}
+f12(151, f12);
+f12(151, BigInt64Array);
+f12(Uint8ClampedArray, Uint8ClampedArray);
+function f24() {
+    return BigInt64Array;
+}
+/xyz{1,32}?/um;
+/r(?<=a)?/gdv;
+/()(?:ab){4,7}*/ymds;
+Reflect.construct(Int16Array, [1073741824,151,255], Int16Array);
+let v35 = 35673;
+const v37 = ++v35;
+v37 - v35;
+try {
+    Math.cos(v37);
+} catch(e40) {
+}
+v35 & v35;

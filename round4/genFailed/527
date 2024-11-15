@@ -1,0 +1,24 @@
+new WeakMap();
+try {
+    new Int8Array(2621);
+} catch(e8) {
+}
+try {
+    new Float32Array(128);
+} catch(e12) {
+}
+try {
+    new Uint16Array(6);
+} catch(e16) {
+}
+const v17 = [6,8,Float32Array,2621];
+[-1073741824,8,Float32Array,8,v17];
+[2621];
+let v20;
+try { v20 = v17.with(-1073741824, 6); } catch (e) {}
+v20[7] = 9223372036854775807;
+const o24 = {
+    "execution": "sync",
+    "type": "minor",
+};
+gc(o24);

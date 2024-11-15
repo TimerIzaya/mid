@@ -1,0 +1,53 @@
+try {
+    new Int16Array(32);
+} catch(e3) {
+}
+try {
+    new Uint32Array(5);
+} catch(e7) {
+}
+try {
+    new Uint16Array(988);
+} catch(e11) {
+}
+class C12 extends Int16Array {
+    static get d() {
+        try {
+            Uint32Array >>> 988;
+        } catch(e15) {
+        }
+        return this;
+    }
+    #d = 32;
+    #b;
+    10;
+    static #e;
+}
+const v16 = new C12();
+const v17 = new C12();
+const v18 = new C12();
+function f19(a20, a21) {
+    const o27 = {
+        o(a23, a24) {
+            try {
+                Uint32Array / a23;
+            } catch(e26) {
+            }
+            return v16;
+        },
+        [C12]: v16,
+        "d": v17,
+        7: a21,
+        ...v17,
+    };
+    return o27;
+}
+const v28 = f19(v18, 32);
+f19(v16, 5);
+f19(v18, 5);
+try {
+    Object.defineProperty(v18, "f", { enumerable: true, set: f19 });
+} catch(e31) {
+}
+v28[Symbol?.unscopables];
+("5n").normalize("NFC");

@@ -1,0 +1,34 @@
+function f0() {
+}
+function f4() {
+    return -192245.77038339328;
+}
+function f8() {
+    return f0;
+}
+class C9 {
+    static ["prototype"] = f0;
+    static 4 = f8;
+    #o(a11, a12, a13) {
+        ("prototype")["search"](a12);
+        const v19 = 7 || 9007199254740992;
+        9007199254740992 && 9007199254740992;
+        try {
+            Math.log(v19);
+        } catch(e22) {
+        }
+        return "prototype";
+    }
+}
+new C9();
+new C9();
+new C9();
+function f26() {
+    return C9;
+}
+try {
+    f8 & "prototype";
+} catch(e28) {
+}
+throw f0;
+%VerifyType(f4);

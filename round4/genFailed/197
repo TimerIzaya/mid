@@ -1,0 +1,43 @@
+function f0() {
+}
+try {
+    new Uint8ClampedArray(257);
+} catch(e4) {
+}
+try {
+    new Int16Array(4);
+} catch(e8) {
+}
+try {
+    new Int16Array(2);
+} catch(e12) {
+}
+class C16 extends Int16Array {
+    2147483648;
+    set h(a18) {
+        try {
+            super[this] = a18;
+        } catch(e19) {
+        }
+        try {
+            Int16Array ^ f0;
+        } catch(e21) {
+        }
+    }
+    static d = "string";
+    1073741824;
+    e;
+    static #f;
+}
+new C16();
+new C16();
+new C16();
+new WeakSet();
+const t35 = "-48281";
+delete t35[4];
+try {
+    Math.cos(f0);
+} catch(e32) {
+}
++-10588;
+257 - -10588;

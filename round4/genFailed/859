@@ -1,0 +1,61 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = 11;
+    } catch(e3) {
+    }
+    try {
+        this.c = 11;
+    } catch(e4) {
+    }
+    try {
+        this.h = 11;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f12() {
+    return v7;
+}
+class C13 extends f12 {
+    p(a15, a16, a17, a18) {
+        try {
+            super.c = v6;
+        } catch(e19) {
+        }
+        return a16;
+    }
+    #valueOf(a21, a22, a23) {
+        try {
+            Math.fround(-9007199254740992);
+        } catch(e28) {
+        }
+        try {
+            Math.random();
+        } catch(e30) {
+        }
+        return -9007199254740992 - -1.6381309578061615e+308;
+    }
+}
+new C13();
+new C13();
+new C13();
+async function f35(a36, a37, a38) {
+    try {
+        Math.pow(-5, 268435439);
+    } catch(e44) {
+    }
+    const v45 = --F0;
+    -2.2250738585072014e-308 % 268435439;
+    !v45;
+    try {
+        Math.tanh(v45);
+    } catch(e49) {
+    }
+    -(-2.2250738585072014e-308);
+    await v45;
+    return f12;
+}
+f35(v6, v7, v8);

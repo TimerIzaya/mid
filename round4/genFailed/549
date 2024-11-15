@@ -1,0 +1,38 @@
+const v0 = [1.1444046957122167e+308,7.515316656608718,693.2891859073827,1000000000.0];
+const v1 = [113.80533700205706,-1000000000000.0,0.5459566690209557];
+const v2 = [-2.2250738585072014e-308];
+function f6() {
+    return v1;
+}
+class C7 extends f6 {
+    static #b;
+    set g(a9) {
+        try {
+            v0 + a9;
+        } catch(e11) {
+        }
+    }
+    #o(a13, a14) {
+        try {
+            Object.defineProperty(v2, "length", { writable: true, configurable: true, value: v2 });
+        } catch(e15) {
+        }
+        return 1;
+    }
+}
+new C7();
+const v17 = new C7();
+new C7();
+try {
+    -1000000.0 << v17;
+} catch(e23) {
+}
+try {
+    f6();
+} catch(e25) {
+}
+let v26 = f;
+try {
+    v26 += v2;
+} catch(e27) {
+}

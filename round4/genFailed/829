@@ -1,0 +1,45 @@
+function f0() {
+}
+const v4 = [-5.0,-5.0,-2.5194632835888645e+307,740091.9579610077,-Infinity,-773590.5793497514,1.0588044567942374e+308];
+[-785.1739703590972,1000.0,4.0,1.2282921223016398e+308,-2.1273228049689358e+307,5.0,1.4294605450566955,-2.220446049250313e-16,NaN];
+const v6 = [2.5594482684031146,1000000000.0,-1.7976931348623157e+308];
+function F7(a9, a10) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = a9;
+    } catch(e11) {
+    }
+    try {
+        this.h = a9;
+    } catch(e12) {
+    }
+    try {
+        this.g = v4;
+    } catch(e13) {
+    }
+}
+const v14 = new F7(f0, 65535n);
+const v15 = new F7(v14, -2n);
+const v16 = new F7(-2n, 65535n);
+function f17(a18, a19, a20) {
+    const o31 = {
+        [v14](a22, a23, a24, a25) {
+            const v28 = [[-2n,a19,[a20,65535n,a25,a24]],this];
+            try {
+                a23 * v28;
+            } catch(e30) {
+            }
+            return f0;
+        },
+        "e": a20,
+        __proto__: v4,
+    };
+    return o31;
+}
+f17(v6, -2n, v15);
+f17(v4, -2n, v16);
+f17(v6, -2n, v16);
+new f0();
+v4?.length;
+throw 8;
+new WeakMap();

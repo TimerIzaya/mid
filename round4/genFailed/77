@@ -1,0 +1,42 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        __proto__: f0,
+        valueOf() {
+            try {
+                this >>> this;
+            } catch(e4) {
+            }
+            return this;
+        },
+        "h": f0,
+        ...f0,
+    };
+    return o5;
+}
+const v6 = f1();
+const v7 = f1();
+const v8 = f1();
+const v9 = [f0,f1,v6];
+const v11 = [[v9,v8]];
+class C12 {
+    static get b() {
+        return 58233;
+        return v11["pop"]();
+    }
+    [v8];
+}
+const v19 = new C12();
+new C12();
+const v21 = new C12();
+try {
+    v9[9] ||= f0;
+} catch(e22) {
+}
+let v23;
+try { v23 = f1(v7, ...v9, v8, v21, ...v19, v6); } catch (e) {}
+try {
+    v23 || v19;
+} catch(e25) {
+}

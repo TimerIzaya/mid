@@ -1,0 +1,75 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 65536;
+    } catch(e3) {
+    }
+    try {
+        this.h = 65536;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+const v7 = new F0();
+class C8 extends F0 {
+    static toString(a10) {
+        [-1.0,NaN,558.4882889141418];
+        const v12 = [0.0023396189250379784,-616115.090182022,-2.220446049250313e-16,0.09717935763570151];
+        [-293.7276480559523,2.220446049250313e-16,Infinity];
+        return v12;
+    }
+    static 268435456 = F0;
+    #n(a15) {
+        let v16;
+        try { v16 = new F0(v7, ...v5, a15, this, a15); } catch (e) {}
+        %VerifyType(v16);
+        return v7;
+    }
+    static #e;
+    [v5] = v5;
+}
+const v17 = new C8();
+const v18 = new C8();
+const v19 = new C8();
+class C20 extends C8 {
+    static toString(a22, a23) {
+        Reflect.construct(C8, [], C8);
+        return v18;
+    }
+    f = F0;
+    static 0 = v17;
+    static #p(a28, a29, a30) {
+        try {
+            a30[this] = this;
+        } catch(e31) {
+        }
+        try {
+            a30.fuck(a30, v5, -256n);
+        } catch(e34) {
+        }
+        return C8;
+    }
+}
+new C20();
+new C20();
+const v37 = new C20();
+try {
+    new Uint32Array(146);
+} catch(e41) {
+}
+try {
+    new Uint16Array(127);
+} catch(e45) {
+}
+try {
+    new Uint32Array(5);
+} catch(e49) {
+}
+try {
+    v19 % v37;
+} catch(e51) {
+}
+for (const v52 of v7) {
+    Reflect.construct(v52, [C20,v5,Reflect], C8);
+}

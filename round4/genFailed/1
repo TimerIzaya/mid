@@ -1,0 +1,43 @@
+new Map();
+const v2 = [4,-128,391234193,4294967297,-268435456,25543,9007199254740992,65535,-4294967295,-2147483648];
+const v3 = [1073741824,-2,1073741824,1073741825,-65536];
+const v4 = [65537];
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = v2;
+    } catch(e8) {
+    }
+    try {
+        this.c = v4;
+    } catch(e9) {
+    }
+}
+const v10 = new F5(v3);
+new F5(v2);
+new F5(v2);
+function f13() {
+    return v10;
+}
+try {
+    new Int16Array(2224);
+} catch(e17) {
+}
+try {
+    new Uint32Array(499);
+} catch(e21) {
+}
+try {
+    new Int16Array(11);
+} catch(e25) {
+}
+const v29 = new Map(v10);
+v4[v29];
+const o33 = {
+    "maxByteLength": 2147483648,
+};
+const v35 = new SharedArrayBuffer(7, o33);
+try {
+    new Uint16Array(v35);
+} catch(e38) {
+}

@@ -1,0 +1,24 @@
+function F3(a5, a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 46634n;
+    } catch(e7) {
+    }
+}
+const v8 = new F3(2n, 2n);
+new F3(46634n, 46634n);
+const v10 = new F3(46634n, 46634n);
+try {
+    v10.e |= -674129412;
+} catch(e14) {
+}
+v8?.e;
+try {
+    Math.atan(-674129412);
+} catch(e19) {
+}
+let v21 = 46634n % (-674129412 % -674129412);
+v21++;
+const v23 = ~46634n;
+(-16) ** v21;
+v23 << -674129412;

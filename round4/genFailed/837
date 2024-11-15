@@ -1,0 +1,76 @@
+class C3 {
+    static #h;
+    static ["22976"];
+    #f;
+    n(a5) {
+        try {
+            super[1024] = a5;
+        } catch(e6) {
+        }
+        return this;
+    }
+    static h;
+    static ["ignoreCase"];
+    ["ignoreCase"];
+    static #c = "22976";
+}
+const v7 = new C3();
+const v8 = new C3();
+const v9 = new C3();
+function f10(a11, a12) {
+    const o18 = {
+        toString(a14, a15, a16) {
+            try {
+                this.__proto__ = "ignoreCase";
+            } catch(e17) {
+            }
+            return a11;
+        },
+        536870912: a12,
+        ["22976"]: 1024,
+        "f": "22976",
+        ...a12,
+        "g": a12,
+        [-2]: "22976",
+        834: v7,
+    };
+    return o18;
+}
+const v19 = f10(1024, v7);
+const v20 = f10(v8, v8);
+const v21 = f10(v7, v7);
+function f22(a23, a24) {
+    const o25 = {
+        "f": "ignoreCase",
+        "g": a23,
+        "d": v20,
+        1: "ignoreCase",
+        "e": v8,
+        "c": a24,
+        "b": a24,
+        __proto__: "22976",
+        "h": a24,
+        "a": 1024,
+        ...v19,
+        [a23]: v8,
+        ...a24,
+        [v21]: a23,
+    };
+    return o25;
+}
+f22(v21, v9);
+const v27 = f22(v19, v9);
+const v28 = f22(v19, v8);
+let v29;
+try { v29 = v9.n(); } catch (e) {}
+try {
+    v28[129] = v29;
+} catch(e30) {
+}
+[-4.566850574663795e+307,3.4747948388712994e+307,-1000.0,1.7976931348623157e+308];
+[1.7976931348623157e+308,-169781.3872676856,380975.88446376566,-551462.5448278951];
+const v33 = [1.0,1e-15,8.391653668454172,-352.88210249145186,NaN,3.0,1000.0,0.07837045792583619,0.341061109326257];
+try {
+    v33[7] = v27;
+} catch(e34) {
+}

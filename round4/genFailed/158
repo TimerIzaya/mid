@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 771209160;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+const v6 = new F0();
+let v7 = 591;
+let v8 = Int8Array;
+try {
+    new v8(v7);
+} catch(e10) {
+}
+let v12 = Int8Array;
+try {
+    new v12(257);
+} catch(e14) {
+}
+let v15 = 209;
+try {
+    new Int32Array(v15);
+} catch(e18) {
+}
+const v19 = [-1073741824,-1073741824,-256,10,4294967295,16,9,719495930];
+[-128,16,22292,-256,9007199254740992,-5,536870889,-1];
+const v21 = [11,7,268435439,4096];
+%VerifyType(v21);
+delete v4?.e;
+({"f":v15,"g":v8,"length":v12,...v7} = v21);
+try { new v15(v15, ...v21, Int32Array, v6, F0, v5); } catch (e) {}
+for (let i26 = 0, i27 = 10; i26 < i27; i26++, i27--) {
+    const v37 = v21["reduceRight"](v8, "reduceRight");
+    try {
+        v37[6] = v19;
+    } catch(e38) {
+    }
+}

@@ -1,0 +1,107 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = 0;
+    } catch(e3) {
+    }
+    try {
+        this.b = 0;
+    } catch(e4) {
+    }
+    try {
+        this.f = 0;
+    } catch(e5) {
+    }
+}
+const v6 = new F0();
+const v7 = new F0();
+const v8 = new F0();
+function f9() {
+    return v8;
+}
+class C10 extends F0 {
+    constructor(a12) {
+        super();
+        try {
+            this + this;
+        } catch(e14) {
+        }
+        a12[a12];
+    }
+    static 11 = v8;
+    valueOf(a17) {
+        try {
+            a17.b = v6;
+        } catch(e18) {
+        }
+        Object.defineProperty(this, f9, { writable: true, configurable: true, enumerable: true, value: F0 });
+        try {
+            v6[F0] = F0;
+        } catch(e19) {
+        }
+        return this;
+    }
+}
+const v20 = new C10(v8);
+const v21 = new C10(v8);
+const v22 = new C10(v20);
+class C23 extends F0 {
+    get h() {
+        try {
+            v8.length = 2;
+        } catch(e26) {
+        }
+        return 2;
+    }
+    constructor(a28, a29, a30) {
+        super();
+        super[C10];
+        this?.h;
+    }
+}
+new C23(v8, v6, v21);
+const v37 = new C23(v22, C10, v21);
+const v38 = new C23(v37, C10, v37);
+function f39(a40, a41, a42, a43) {
+    const o54 = {
+        "g": v21,
+        ...v6,
+        "e": v37,
+        304: C10,
+        set a(a45) {
+            /[()Hja\D+]/imvs;
+            /a*b|c/gmvs;
+            /1(ab)+/ymdv;
+            a42?.f;
+        },
+        set c(a51) {
+            try { a51(C23, a51, a42, this); } catch (e) {}
+            try {
+                F0 = f9;
+            } catch(e53) {
+            }
+        },
+    };
+    return o54;
+}
+f39(v38, v20, v22, v22);
+f39(v21, v22, v20, C10);
+f39(C10, v7, v20, f9);
+const v59 = Symbol?.iterator;
+const o68 = {
+    [v59]() {
+        let v61 = 10;
+        const o67 = {
+            next() {
+                v61--;
+                const v65 = v61 == 0;
+                const o66 = {
+                    "done": v65,
+                    "value": v61,
+                };
+                return o66;
+            },
+        };
+        return o67;
+    },
+};

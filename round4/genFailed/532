@@ -1,0 +1,39 @@
+class C6 {
+    static [-58225] = -12883;
+    constructor(a8, a9, a10, a11) {
+        try { new a8(a8, a9); } catch (e) {}
+        for (let v13 = 0; v13 < 32; v13++) {
+            a8["p" + v13] = v13;
+        }
+    }
+    #a;
+    static e = -12883;
+}
+const v16 = new C6(1073741823, -12883, -303, 512);
+const v17 = new C6(-58225, 1073741823, -303, -12883);
+new C6(C6, 512, -12883, 512);
+try {
+    new Int16Array(103);
+} catch(e22) {
+}
+try {
+    new Float32Array(4);
+} catch(e26) {
+}
+try {
+    new Float32Array(722);
+} catch(e30) {
+}
+`9`;
+const v33 = [512,-12883,103];
+let v34 = Reflect.construct(Int16Array, v33, Float32Array);
+let v35;
+try { v35 = v17.o(v16, -303, 1073741823, Int16Array); } catch (e) {}
+if (v35) {
+    new Float32Array(v33);
+} else {
+    try {
+        v34 = C6;
+    } catch(e37) {
+    }
+}

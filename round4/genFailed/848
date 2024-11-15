@@ -1,0 +1,56 @@
+const v3 = [-1884600665,-9223372036854775808,9,-2147483649,15,577063241];
+const v4 = [-5];
+let v5 = [-50127,2,1691065547,7,-12,-9007199254740991,10000];
+try {
+    new Int16Array(803);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e13) {
+}
+try {
+    new Float64Array(633);
+} catch(e17) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e21) {
+}
+try {
+    new Int32Array(10);
+} catch(e25) {
+}
+try {
+    new Uint8ClampedArray(8);
+} catch(e29) {
+}
+function f30(a31, a32) {
+    function f34(a35) {
+        try { v4.findIndex(a31, this); } catch (e) {}
+        try {
+            v5 = v4;
+        } catch(e37) {
+        }
+    }
+    this.onmessage = f34;
+    const o38 = {
+        "apply": f34,
+        "call": f34,
+        "defineProperty": f34,
+        "get": f34,
+        "getOwnPropertyDescriptor": f34,
+        "ownKeys": f34,
+        "setPrototypeOf": f34,
+    };
+    try {
+        new Proxy(this, o38);
+    } catch(e41) {
+    }
+}
+const v44 = [v3,15495n];
+const o45 = {
+    "arguments": v44,
+    "type": "function",
+};
+new Worker(f30, o45);

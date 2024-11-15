@@ -1,0 +1,67 @@
+try {
+    new Int32Array(64);
+} catch(e3) {
+}
+try {
+    new Float64Array(129);
+} catch(e7) {
+}
+try {
+    new Uint8Array(128);
+} catch(e11) {
+}
+const v13 = new Date();
+try {
+    new Uint16Array(189);
+} catch(e17) {
+}
+try {
+    new Int32Array(256);
+} catch(e21) {
+}
+try {
+    new Int32Array(2303);
+} catch(e25) {
+}
+class C26 extends Int32Array {
+    #a = 64;
+    [128];
+    get c() {
+        const v28 = this?.[1];
+        function F29(a31, a32, a33, a34) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.a = a31;
+            } catch(e35) {
+            }
+            try {
+                this.c = 2303;
+            } catch(e36) {
+            }
+        }
+        new F29(Int32Array, 2303, F29, v28);
+        new F29(Int32Array, F29, 2303, v28);
+        new F29(Int32Array, 128, 256, 2303);
+        return v28;
+    }
+}
+new C26();
+new C26();
+new C26();
+try {
+    v13[3644] = 129;
+} catch(e43) {
+}
+new Uint8Array(189, 129);
+try {
+    new Float32Array(129);
+} catch(e48) {
+}
+try {
+    new Int16Array(301);
+} catch(e52) {
+}
+try {
+    new Uint8ClampedArray(1587);
+} catch(e56) {
+}

@@ -1,0 +1,59 @@
+function f0() {
+    const o10 = {
+        get b() {
+            const v5 = delete this[this];
+            try {
+                const t5 = "toString";
+                t5["toString"] = v5;
+            } catch(e6) {
+            }
+            [v5,this];
+            return [[this,this,v5]];
+        },
+        "f": "toString",
+        ..."toString",
+        ..."toString",
+    };
+    o10.toString = f0;
+    return o10;
+}
+const v11 = f0();
+f0();
+const v13 = f0();
+function f17() {
+    return f0;
+}
+class C18 extends f0 {
+    constructor(a20, a21, a22, a23) {
+        super();
+        Object.defineProperty(v11, 65535, { configurable: true, enumerable: true, set: f0 });
+        super[v13];
+    }
+    static #o(a27, a28) {
+        try {
+            4294967295 >>> -33504;
+        } catch(e30) {
+        }
+        return a28;
+    }
+    static [f17] = f17;
+}
+new C18(-33504, -33504, 4, 4);
+new C18(-33504, 4, 4, -33504);
+new C18(-33504, -33504, -33504, -33504);
+try {
+    new Uint32Array(2008);
+} catch(e37) {
+}
+try {
+    new Int32Array(1024);
+} catch(e41) {
+}
+try {
+    new Float64Array(1000);
+} catch(e45) {
+}
+const v47 = new Set();
+Int32Array in v47;
+for (let v50 = 0; v50 < 25; v50++) {
+}

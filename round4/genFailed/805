@@ -1,0 +1,60 @@
+const v1 = new WeakSet();
+function f2(a3, a4) {
+    const o20 = {
+        __proto__: a3,
+        13: WeakSet,
+        ...a4,
+        [a4]: v1,
+        "e": v1,
+        "g": v1,
+        "c": a4,
+        m(a6) {
+            function F8(a10, a11, a12, a13) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.a = WeakSet;
+                } catch(e14) {
+                }
+                try {
+                    this.h = a4;
+                } catch(e15) {
+                }
+                try {
+                    this.f = a11;
+                } catch(e16) {
+                }
+            }
+            new F8(this, F8, F8, this);
+            new F8(a3, v1, WeakSet, WeakSet);
+            new F8(v1, WeakSet, WeakSet, F8);
+            return WeakSet;
+        },
+    };
+    return o20;
+}
+const v21 = f2(WeakSet, f2);
+const v23 = f2(f2, f2(f2, v21));
+let v26 = 51072;
+try {
+    new Uint16Array(62);
+} catch(e30) {
+}
+try {
+    new BigUint64Array(2814);
+} catch(e34) {
+}
+try {
+    new Float64Array(2675);
+} catch(e38) {
+}
+try {
+    -322390523 + 62;
+} catch(e40) {
+}
+%VerifyType(f2);
+const v41 = v23?.g;
+try { v21.m(v41, v26); } catch (e) {}
+try {
+    v26 &&= -322390523;
+} catch(e43) {
+}

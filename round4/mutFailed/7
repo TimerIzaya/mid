@@ -1,0 +1,84 @@
+function f0() {
+    try {
+        new BigInt64Array(388);
+    } catch(e7) {
+    }
+    try {
+        new BigInt64Array(10);
+    } catch(e11) {
+    }
+    try {
+        new Int8Array(4096);
+    } catch(e15) {
+    }
+    const o22 = {
+        get b() {
+            const v17 = delete this[this];
+            try {
+                const t17 = "toString";
+                t17["toString"] = v17;
+            } catch(e18) {
+            }
+            [v17,this];
+            return [[this,this,v17]];
+        },
+        "f": "toString",
+        ..."toString",
+        ..."toString",
+    };
+    return o22;
+}
+const v23 = f0();
+const v24 = f0();
+const v25 = f0();
+v25.toJSON = v25;
+function f29() {
+    return f0;
+}
+f29[Symbol.toPrimitive] = f29;
+v24[Symbol?.replace] = f29;
+try {
+    f29();
+} catch(e35) {
+}
+class C36 extends f0 {
+    constructor(a38, a39, a40, a41) {
+        super();
+        Object.defineProperty(v23, 65535, { configurable: true, enumerable: true, set: f0 });
+        super[v25];
+    }
+    static #o(a45, a46) {
+        try {
+            4294967295 >>> -33504;
+        } catch(e48) {
+        }
+        return a46;
+    }
+    static [f29] = f29;
+}
+const v49 = new C36(-33504, -33504, 4, 4);
+new C36(-33504, 4, 4, -33504);
+new C36(-33504, -33504, -33504, -33504);
+try {
+    new Uint32Array(2008);
+} catch(e55) {
+}
+try {
+    v23[2] = 4294967295;
+} catch(e61) {
+}
+try {
+    new Int32Array(1024);
+} catch(e63) {
+}
+try {
+    new Float64Array(1000);
+} catch(e67) {
+}
+const v69 = new Set();
+Object.defineProperty(v49, Int32Array, { configurable: true, enumerable: true, get: f0 });
+try { v25["toJSON"](Float64Array, v69, Uint32Array); } catch (e) {}
+Reflect.construct(Uint32Array, ["toJSON",-33504,-33504], Int32Array);
+Int32Array in v69;
+for (let v77 = 0; v77 < 25; v77++) {
+}

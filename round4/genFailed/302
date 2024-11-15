@@ -1,0 +1,32 @@
+class C3 {
+    #toString(a5, a6) {
+        function F7(a9, a10) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.b = a5;
+            } catch(e11) {
+            }
+        }
+        new F7(this, a5);
+        const v13 = new F7(a6, -1.3000173218488806e+307);
+        new F7(v13, a6);
+        return 1000;
+    }
+    [7] = 7;
+}
+const v15 = new C3();
+new C3();
+const v17 = new C3();
+const v22 = [v17,true,7,1000,v15];
+const v23 = [7,true,v22];
+const v24 = [v23,v23,1000];
+var a = v23;
+h = v17;
+v23["find"](5.0);
+let v27;
+try { v27 = new C3(1000, ...v23, ...v22, ..."find", ...v17, ...v24); } catch (e) {}
+Object.defineProperty(v17, 0.008394608232851986, { writable: true, value: -1.3000173218488806e+307 });
+try {
+    v23[240] &= v27;
+} catch(e28) {
+}

@@ -1,0 +1,57 @@
+try {
+    new Float32Array(13);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(3035);
+} catch(e7) {
+}
+let v9 = Uint8ClampedArray;
+try {
+    new v9(8);
+} catch(e11) {
+}
+class C12 extends Float32Array {
+    static [BigInt64Array];
+    3092 = Float32Array;
+    static toString(a14, a15, a16) {
+        try {
+            a16 = a14;
+        } catch(e17) {
+        }
+        return a14;
+    }
+    h;
+    d = Float32Array;
+    static [13] = 8;
+    static [v9];
+}
+const v18 = new C12();
+const v19 = new C12();
+const v20 = new C12();
+class C21 {
+    constructor(a23, a24, a25) {
+        Reflect.construct(BigInt64Array, [13,3035,a25], Float32Array);
+        a24 < a24;
+    }
+    static #d;
+    get g() {
+        try {
+            v9 |= v9;
+        } catch(e31) {
+        }
+        return v18;
+    }
+}
+new C21(v18, v20, 8);
+const v33 = new C21(v19, v20, 13);
+new C21(v18, v18, 13);
+const v35 = v33?.g;
+for (let [v36,v37,...v38] of v18) {
+    %VerifyType(v38);
+    try {
+        v38[2147483648] = v38;
+    } catch(e39) {
+    }
+}
+Reflect.construct(C21, [v35,v35,13], C12);

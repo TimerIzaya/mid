@@ -1,0 +1,48 @@
+let v0 = 5;
+try {
+    new Float32Array(v0);
+} catch(e3) {
+}
+try {
+    new BigInt64Array(0);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(2854);
+} catch(e11) {
+}
+const v12 = [-6.295533527493127,-9.37841651268993,-714.6083793740813,-0.0,-1000000000000.0];
+const v13 = [-1000000.0,-1.0,-1000.0,2.0,0.8119549278198311,-1.7976931348623157e+308,0.045329791213906345,843441.8052747748,2.2250738585072014e-308,-1000.0];
+const v14 = [1000.0];
+function f15(a16, a17, a18) {
+    const o21 = {
+        0: BigUint64Array,
+        "h": a18,
+        get f() {
+            try {
+                v0 /= 0;
+            } catch(e20) {
+            }
+            return BigInt64Array;
+        },
+        __proto__: a18,
+        ...a18,
+        "e": BigInt64Array,
+    };
+    return o21;
+}
+f15(v0, v0, 0);
+const v23 = f15(v0, v0, 2854);
+const v24 = f15(v0, 2854, v14);
+for (let [v25] of v13) {
+    try {
+        v25 - v25;
+    } catch(e27) {
+    }
+}
+const v28 = v24?.[3853];
+try { f15(...v23, 2854, v23, v28, v28); } catch (e) {}
+try {
+    BigInt64Array % v12;
+} catch(e31) {
+}

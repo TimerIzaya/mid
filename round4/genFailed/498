@@ -1,0 +1,40 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 61271;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+new F0();
+const v7 = /(?:ab){4,7}*/igdvs;
+const v8 = /M\p{gc=Nd}/ig;
+const v9 = /(a)\1/igmvs;
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = a16;
+    } catch(e18) {
+    }
+    try {
+        this.g = F0;
+    } catch(e19) {
+    }
+    try {
+        this.e = a16;
+    } catch(e20) {
+    }
+}
+const v21 = new F13(v9, v5, v4);
+new F13(v7, v21, v21);
+new F13(v8, v21, v21);
+const v24 = v21?.[7];
+try { v7.exec(v24); } catch (e) {}
+const v26 = [-1,-13,-2147483649,9,15];
+[100465896,9007199254740992,268435439];
+[10,1073741825,11,65537,-13,536870888,-2147483648];
+try {
+    v9 ** v26;
+} catch(e33) {
+}

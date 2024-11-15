@@ -1,0 +1,58 @@
+try {
+    new Int8Array(10);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e10) {
+}
+try {
+    new Uint16Array(6);
+} catch(e14) {
+}
+class C15 {
+    #o(a17, a18, a19) {
+        try {
+            Math.cos(-9007199254740990);
+        } catch(e26) {
+        }
+        127 >> a17;
+        try {
+            Math.acos(127);
+        } catch(e29) {
+        }
+        return 127;
+    }
+}
+const v30 = new C15();
+new C15();
+const v32 = new C15();
+class C33 extends Uint16Array {
+    #h;
+    [6.385830118662035] = 6.385830118662035;
+    constructor(a35, a36, a37) {
+        super(v30, 6, 6);
+        try {
+            this[1582] <<= 6;
+        } catch(e38) {
+        }
+    }
+    #n(a40, a41) {
+        const v42 = new Uint8ClampedArray(a40);
+        return super.findLast(a41, v42);
+    }
+    static #f;
+}
+const v44 = new C33(-1000000.0, v30, 10);
+const v45 = new C33(6.385830118662035, C15, 6);
+new C33(-1000000.0, v44, 10);
+try { v45.with(a, Int8Array); } catch (e) {}
+try {
+    v45.lastIndexOf(10, 6);
+} catch(e50) {
+}
+v32[C33];
+try {
+    v45.reverse();
+} catch(e53) {
+}

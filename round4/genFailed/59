@@ -1,0 +1,62 @@
+try {
+    new Uint32Array(255);
+} catch(e3) {
+}
+try {
+    new Uint32Array(179);
+} catch(e7) {
+}
+try {
+    new Float64Array(129);
+} catch(e11) {
+}
+class C12 extends Uint32Array {
+    [Uint32Array] = 129;
+    set a(a14) {
+        const v15 = super[Uint32Array];
+        try {
+            a14[v15] = 2;
+        } catch(e19) {
+        }
+    }
+    10 = 129;
+    static #g = 129;
+    #f;
+    [129] = Uint32Array;
+}
+const v20 = new C12();
+new C12();
+const v22 = new C12();
+const v25 = [[129,129,Uint32Array,255,v20],[Float64Array,179],Float64Array,C12,255];
+class C26 {
+    static [255] = C12;
+    toString(a28, a29, a30, a31) {
+        [502504.61139985546,1.0,3.0,-3.0];
+        [-1000.0,-1000.0];
+        [1000000000.0,-798692.8955285244,-192.28808435498615,-951506.8335062371,915.5339209308056,0.8963858451318497];
+        try {
+            a28.slice();
+        } catch(e36) {
+        }
+        return this;
+    }
+    10 = 179;
+    3;
+    static #d;
+    static [v25] = v22;
+}
+new C26();
+new C26();
+new C26();
+try {
+    new BigInt64Array(1);
+} catch(e43) {
+}
+try {
+    new Int8Array(512);
+} catch(e47) {
+}
+try {
+    new Uint16Array(0);
+} catch(e51) {
+}

@@ -1,0 +1,34 @@
+try {
+    new Uint32Array(256);
+} catch(e6) {
+}
+try {
+    new Uint16Array(11);
+} catch(e10) {
+}
+let v12 = Int16Array;
+try {
+    new v12(129);
+} catch(e14) {
+}
+new Array(5);
+try {
+    v12 -= v12;
+} catch(e21) {
+}
+const v22 = new Array(v12);
+try { v22.slice(v12, 256); } catch (e) {}
+function F24(a26, a27) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a26;
+    } catch(e28) {
+    }
+    try {
+        this.h = Uint32Array;
+    } catch(e29) {
+    }
+}
+new F24(-268435456n, 11);
+new F24(255n, 11);
+new F24(-15n, 256);

@@ -1,0 +1,39 @@
+try {
+    new Uint8Array(1642);
+} catch(e3) {
+}
+try {
+    new Int16Array(52);
+} catch(e7) {
+}
+try {
+    new Float64Array(127);
+} catch(e11) {
+}
+try {
+    new Uint32Array(4);
+} catch(e18) {
+}
+try {
+    new BigUint64Array(64);
+} catch(e22) {
+}
+try {
+    new Uint8Array(194);
+} catch(e26) {
+}
+let v27;
+try { v27 = Float64Array.exec(52); } catch (e) {}
+try {
+    v27.g &= 1642;
+} catch(e28) {
+}
+class C29 extends Float64Array {
+    static f;
+    static [268435439];
+    static #a = 268435456;
+    9;
+}
+new C29();
+new C29();
+new C29();

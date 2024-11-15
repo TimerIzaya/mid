@@ -1,0 +1,51 @@
+const v0 = [695.96992951485,7.052126966928232e+307,0.5112853797854532,9.691958949505441,0.0,NaN,4.726517538677056e+307,NaN,1000000000000.0,696.228459241253];
+const v1 = [-1000000000000.0,0.0,-50975.81014788919,986.0267055491504,0.47742984204564687,1000.0,0.7074447809160551];
+const v2 = [-1.7976931348623157e+308,145862.05373328715];
+class C3 {
+    b = v1;
+    h = v1;
+    static b = v1;
+    static {
+        Reflect.construct(v0, [], v1);
+        const o10 = {
+            "maxByteLength": 2027060431,
+        };
+        const v12 = new ArrayBuffer(256, o10);
+        try {
+            new Float32Array(v12);
+        } catch(e15) {
+        }
+    }
+}
+const v16 = new C3();
+const v17 = new C3();
+const v18 = new C3();
+[v0,v2,v16,v1,v17];
+const v20 = [v2,v16,v2];
+const v21 = [C3,C3,v16,v1,C3];
+class C22 extends C3 {
+    static [v18];
+    get d() {
+        delete v1[6];
+        try {
+            super.c = 0.20235127506501893;
+        } catch(e28) {
+        }
+        return 0.20235127506501893;
+    }
+    static #a;
+}
+new C22();
+const v30 = new C22();
+new C22();
+try {
+    v1 - v17;
+} catch(e33) {
+}
+Object.defineProperty(v30, v18, { writable: true, configurable: true, enumerable: true, value: C22 });
+const v34 = v21?.[1073741825];
+delete v20[0];
+try {
+    C3[3] >>= v34;
+} catch(e36) {
+}

@@ -1,0 +1,48 @@
+class C3 {
+    constructor(a5) {
+        Reflect.construct(a5, [Reflect,this,1.2297385914880963e+308], a5);
+    }
+    m(a11) {
+        try {
+            this.fuck(-1000000.0, 1073741824n, 1.2297385914880963e+308);
+        } catch(e14) {
+        }
+        return 1.2297385914880963e+308;
+    }
+}
+const v15 = new C3(-1000000.0);
+const v16 = new C3(-1000000.0);
+const v17 = new C3(1.2297385914880963e+308);
+function f18() {
+    return v16;
+}
+const v22 = [1073741824,7,-1181431782,-2,57930,512,1073741823,3,1];
+const v23 = [-4096];
+const v24 = [-9223372036854775807,-5,56931,536870889,-15];
+try {
+    v17[-1000000.0] = v23;
+} catch(e25) {
+}
+function f26(a27, a28, a29, a30) {
+    const v31 = a30?.[1368746993];
+    function F32(a34, a35, a36) {
+        if (!new.target) { throw 'must be called with new'; }
+        try {
+            this.c = v31;
+        } catch(e37) {
+        }
+        try {
+            this.f = a30;
+        } catch(e38) {
+        }
+        try {
+            this.g = -1000000.0;
+        } catch(e39) {
+        }
+    }
+    new F32(a27, v31, a27);
+    new F32(v22, -2.2250738585072014e-308, a27);
+    new F32(a28, 1.2297385914880963e+308, a28);
+    return a28;
+}
+f26(v23, v24, v24, v15);

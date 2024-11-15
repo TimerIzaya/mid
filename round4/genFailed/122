@@ -1,0 +1,47 @@
+const v0 = [-36189];
+const v1 = [-47269,-96352898,1024,15];
+const v2 = [-65537,3,1138916473,9007199254740990,127,-4803,-4294967295];
+const v4 = new Set();
+function f5() {
+    return v0;
+}
+function f6() {
+    return v1;
+}
+class C10 extends Set {
+    [f6] = Set;
+    9;
+    constructor(a12, a13) {
+        super(v4);
+        a12[4] = Set;
+        const v14 = f5();
+        let v15;
+        try { v15 = v2.fill(this, v14, v0); } catch (e) {}
+        try { v15(v15, f6); } catch (e) {}
+    }
+    static #d;
+    #h;
+    static #f;
+    [f5];
+}
+new C10("536870912", v2);
+new C10("m", v1);
+const v19 = new C10("536870912", v1);
+try {
+    C10[v19] = C10;
+} catch(e20) {
+}
+Object.defineProperty("536870912", v4, { enumerable: true, get: f6, set: f5 });
+%VerifyType("m");
+try {
+    new Uint8ClampedArray(2);
+} catch(e27) {
+}
+try {
+    new Int8Array(0);
+} catch(e31) {
+}
+try {
+    new Float32Array(256);
+} catch(e35) {
+}

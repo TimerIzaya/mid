@@ -1,0 +1,40 @@
+try {
+    new BigUint64Array(2839);
+} catch(e3) {
+}
+try {
+    new Int8Array(256);
+} catch(e7) {
+}
+try {
+    new Uint16Array(7);
+} catch(e11) {
+}
+function F12(a14, a15) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.g = a15;
+    } catch(e16) {
+    }
+}
+const v17 = new F12(BigUint64Array, 2839);
+new F12(7, 7);
+new F12(Uint16Array, 256);
+let v23 = 10;
+for (; v23--;) {
+    throw delete v17?.g;
+    try {
+        Math.atanh(-965980911);
+    } catch(e30) {
+    }
+    const v31 = -65535 >>> 256;
+    +(!-965980911);
+    try {
+        Math.floor(v31);
+    } catch(e35) {
+    }
+    try {
+        Math.fround(-965980911);
+    } catch(e37) {
+    }
+}

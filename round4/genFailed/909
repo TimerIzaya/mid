@@ -1,0 +1,27 @@
+try {
+    new Int8Array(129);
+} catch(e3) {
+}
+try {
+    new Float64Array(9);
+} catch(e7) {
+}
+try {
+    new Uint8Array(41);
+} catch(e11) {
+}
+function f15() {
+    return -128;
+}
+for (const v19 of 9) {
+    const v20 = -128 == -128;
+    function f21() {
+        return v20;
+    }
+    new f21();
+}
+try {
+    const t23 = 9;
+    t23.toString = f15;
+} catch(e23) {
+}

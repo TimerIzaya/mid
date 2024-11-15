@@ -1,0 +1,42 @@
+const v0 = /[t6a+(?:a+)+]/igymdvs;
+const v1 = /a[a-z]/igum;
+const v2 = /X\ud808\udf45*((((.).).).)+/umds;
+class C3 {
+    static #c;
+    static e;
+    static [v2] = v1;
+    static #toString(a5, a6) {
+        try {
+            super[v1] = a5;
+        } catch(e7) {
+        }
+        return v0;
+    }
+    #e;
+}
+new C3();
+const v9 = new C3();
+const v10 = new C3();
+class C11 {
+    static #b;
+    constructor(a13, a14, a15, a16) {
+        try {
+            new C3();
+        } catch(e18) {
+        }
+    }
+    static f = v2;
+}
+const v22 = new C11(v2, C3, v9, C3);
+new C11(v1, C3, v0, v2);
+new C11(v22, v9, v0, v10);
+function F25(a27, a28, a29, a30) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a27;
+    } catch(e31) {
+    }
+}
+new F25(v22, C3, C3, v1);
+const v33 = new F25(v10, C3, v2, v0);
+new F25(v0, v33, v9, v1);

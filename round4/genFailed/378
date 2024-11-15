@@ -1,0 +1,50 @@
+function f0() {
+    const o11 = {
+        valueOf(a5, a6) {
+            let v8;
+            try { v8 = a6.localeCompare(a5, a6, "bigint"); } catch (e) {}
+            try {
+                -v8;
+            } catch(e10) {
+            }
+            return a5;
+        },
+        ["setMilliseconds"]: "string",
+    };
+    return o11;
+}
+const v12 = f0();
+const v13 = f0();
+const v14 = f0();
+function f15() {
+    return v14;
+}
+function f16(a17) {
+    const o21 = {
+        ...a17,
+        "a": v13,
+        set c(a19) {
+            try {
+                a19[v12] = f15;
+            } catch(e20) {
+            }
+        },
+        "f": v14,
+        "h": a17,
+    };
+    return o21;
+}
+f16(v14);
+f16(v12);
+f16(v12);
+for (const v28 of -1000000000.0) {
+    v13?.e;
+    try {
+        v28[v28] = v28;
+    } catch(e30) {
+    }
+}
+try {
+    v12[f16] = f16;
+} catch(e31) {
+}

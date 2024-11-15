@@ -1,0 +1,44 @@
+function f0() {
+}
+class C2 extends f0 {
+    toString(a4, a5) {
+        return Date;
+        new Date(a5);
+        return Date;
+    }
+    #h = false;
+    static 3 = f0;
+    static d = false;
+    static #b;
+}
+const v8 = new C2();
+const v9 = new C2();
+const v10 = new C2();
+function f11(a12, a13) {
+    const o21 = {
+        "a": a12,
+        [false](a15, a16) {
+            const v18 = [v10,C2];
+            Reflect.apply(v10?.toString, v8, v18);
+            return false;
+        },
+        [a13]: false,
+        [v10]: v8,
+    };
+    return o21;
+}
+const v22 = f11(v9, v9);
+const v23 = f11(v10, v22);
+const v24 = f11(v8, v22);
+const v25 = v8?.__proto__;
+try {
+    C2.toString = f0;
+} catch(e26) {
+}
+`cbrt${f0}69QC`;
+[f11,v22,v23,v22];
+[[v24]];
+try {
+    v22.a &= v25;
+} catch(e31) {
+}

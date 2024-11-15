@@ -1,0 +1,40 @@
+try {
+    new Uint16Array(128);
+} catch(e3) {
+}
+try {
+    new Uint8Array(10);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(10);
+} catch(e11) {
+}
+class C15 extends Uint16Array {
+    #h = 10;
+    4294967296 = 10;
+    static get f() {
+        return Uint8Array instanceof Uint16Array;
+    }
+    d;
+    [Uint16Array] = 14;
+    static #b;
+    #d;
+}
+const v18 = new C15();
+const v19 = new C15();
+new C15();
+let v21;
+try { v21 = C15.setMinutes(C15, 783304574, 128); } catch (e) {}
+for (let [v22,v23] of v21) {
+    try {
+        C15 = v22;
+    } catch(e24) {
+    }
+}
+v19[128];
+10 <= v18;
+try {
+    v18.toString = v21;
+} catch(e27) {
+}

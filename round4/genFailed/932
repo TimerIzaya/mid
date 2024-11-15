@@ -1,0 +1,65 @@
+const v0 = [1073741824,13];
+const v1 = [1758430765];
+const v2 = [-1180082690,3];
+let v3 = /wv/uyds;
+const v4 = /xyz{1,}+/gms;
+const v5 = /dra(ab|cde)a\n(?:a?)?[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]?/ydvs;
+function f6() {
+    return v5;
+}
+try {
+    new Uint8Array(256);
+} catch(e10) {
+}
+try {
+    new Int32Array(4);
+} catch(e14) {
+}
+try {
+    new Uint16Array(3441);
+} catch(e18) {
+}
+function F19(a21, a22) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = v0;
+    } catch(e23) {
+    }
+    try {
+        this.h = v2;
+    } catch(e24) {
+    }
+    try {
+        this.e = a21;
+    } catch(e25) {
+    }
+}
+const v26 = new F19(4, v0);
+new F19(3441, v2);
+const v28 = new F19(4, v1);
+const v29 = f6();
+%PrepareFunctionForOptimization(f6);
+f6();
+f6();
+%OptimizeMaglevOnNextCall(f6);
+let v32 = f6();
+({"b":F19,"ignoreCase":v3,"source":v32,} = v4);
+const v33 = v29?.[6];
+function F34(a36, a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = v2;
+    } catch(e40) {
+    }
+    try {
+        this.b = 3441;
+    } catch(e41) {
+    }
+    try {
+        this.g = v0;
+    } catch(e42) {
+    }
+}
+new F34(v26, 256, v1, 256);
+new F34(v28, 3441, v0, 4);
+new F34(v33, 256, v0, 256);

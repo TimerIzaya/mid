@@ -1,0 +1,28 @@
+const v10 = new Set();
+class C11 extends Set {
+    static #b = -1.4151919816308675e+308;
+    static {
+        new Set(this);
+    }
+    static #e;
+    static [-1000.0] = 2147483648;
+    constructor(a15, a16, a17, a18) {
+        super(v10);
+        [this,this,v10];
+        const v20 = [Set,82.6670114795902,82.6670114795902];
+        const v21 = [v20,v20,v20];
+        try {
+            v10[2147483649] = v21;
+        } catch(e22) {
+        }
+    }
+}
+new C11(-1000.0, -8179378, 12960, -1000.0);
+new C11(-1000.0, -2, 62457, -1.4151919816308675e+308);
+const v25 = new C11(-1.4151919816308675e+308, 12960, -2, -1000.0);
+try {
+    -2 / C11;
+} catch(e27) {
+}
+C11[82.6670114795902];
+v25["forEach"](-2, ..."forEach", ..."forEach", -1000.0);

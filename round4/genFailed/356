@@ -1,0 +1,59 @@
+const v0 = [];
+class C4 {
+    constructor(a6) {
+        function f7(a8, a9, a10) {
+            function f12(a13) {
+                try {
+                    new BigUint64Array(0);
+                } catch(e17) {
+                }
+                try {
+                    new Int8Array(2237);
+                } catch(e21) {
+                }
+                try {
+                    new Uint16Array(1000);
+                } catch(e25) {
+                }
+            }
+            this.onmessage = f12;
+            new f12(a6);
+        }
+        const v29 = [474002136n,"function",this];
+        const o30 = {
+            "arguments": v29,
+            "type": "function",
+        };
+        new Worker(f7, o30);
+    }
+}
+const v32 = new C4(474002136n);
+new C4(474002136n);
+const v34 = new C4(474002136n);
+function F35(a37, a38, a39) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.a = v32;
+    } catch(e40) {
+    }
+    try {
+        this.d = a37;
+    } catch(e41) {
+    }
+}
+const v42 = new F35(v32, v34, v0);
+new F35(v0, v42, v32);
+const v44 = new F35(v0, v32, v0);
+v44?.[1];
+try {
+    v44[1] = v42;
+} catch(e46) {
+}
+const o49 = {
+    "maxByteLength": 4294967296,
+};
+const v51 = new ArrayBuffer(8, o49);
+try {
+    new Uint32Array(v51);
+} catch(e54) {
+}

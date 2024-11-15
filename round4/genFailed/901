@@ -1,0 +1,34 @@
+try {
+    new Uint32Array(64);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(0);
+} catch(e7) {
+}
+try {
+    new Int16Array(5);
+} catch(e11) {
+}
+try {
+    new Int32Array(1024);
+} catch(e18) {
+}
+try {
+    new Uint8ClampedArray(3094);
+} catch(e22) {
+}
+try {
+    new Uint8Array(2871);
+} catch(e26) {
+}
+throw 18205;
+g = Uint8Array in 1024;
+const o30 = {
+    "maxByteLength": 255,
+};
+const v32 = new SharedArrayBuffer(255, o30);
+try {
+    new Uint8ClampedArray(v32);
+} catch(e35) {
+}

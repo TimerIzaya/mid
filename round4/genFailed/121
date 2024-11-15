@@ -1,0 +1,33 @@
+try {
+    new Int8Array(5);
+} catch(e3) {
+}
+try {
+    new Int32Array(512);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(1024);
+} catch(e11) {
+}
+try {
+    new Float32Array(10);
+} catch(e15) {
+}
+try {
+    new Uint32Array(16);
+} catch(e19) {
+}
+try {
+    new Uint16Array(2522);
+} catch(e23) {
+}
+new Date();
+const v26 = new Int32Array(1024, 10, 10);
+Object.defineProperty(v26, 536870888, { configurable: true, get: Date, set: Date });
+let v27;
+try { v27 = Date(...512, ...Uint32Array, ...2522, 2522, Date, Uint32Array); } catch (e) {}
+try {
+    v27.d = 16;
+} catch(e28) {
+}

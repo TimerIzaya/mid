@@ -1,0 +1,58 @@
+try {
+    new Uint32Array(1);
+} catch(e3) {
+}
+let v4 = 256;
+try {
+    new Uint8Array(v4);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(1517);
+} catch(e11) {
+}
+class C12 extends Uint32Array {
+    [-1];
+    [Uint8Array];
+    constructor(a14, a15, a16, a17) {
+        super(a15, a16, a17);
+    }
+    static f;
+    #f = BigUint64Array;
+    static 9 = Uint8Array;
+    [Uint32Array];
+}
+new C12(1, 1517, 1517, v4);
+const v22 = new C12(1, v4, 1, v4);
+new C12(1, v4, v4, v22);
+try {
+    new BigInt64Array(233);
+} catch(e27) {
+}
+try {
+    new Int16Array(13);
+} catch(e31) {
+}
+try {
+    new Uint32Array(41);
+} catch(e35) {
+}
+[C12,v22,Uint32Array,13,BigUint64Array];
+[1517,1];
+const v38 = [BigInt64Array];
+try { v38(C12, Uint8Array, v38); } catch (e) {}
+try {
+} catch(e40) {
+}
+const v43 = -(-40323);
+try {
+    Math.acos(-40323);
+} catch(e45) {
+}
+!-40323;
+++v4;
+-40323 * v43;
+try {
+    Math.imul(-40323, -40323);
+} catch(e50) {
+}

@@ -1,0 +1,22 @@
+/ab\b\d\bcd[(?!\1(a\1)\1)\1]/iguys;
+/a\nMa[a]/igydvs;
+/\p{Script_Extensions=Greek}2\b/guyd;
+new WeakSet();
+new WeakMap();
+const o30 = {
+    valueOf() {
+        try {
+            new Uint16Array(10);
+        } catch(e21) {
+        }
+        try {
+            new Int32Array(256);
+        } catch(e25) {
+        }
+        try {
+            new BigInt64Array(3);
+        } catch(e29) {
+        }
+        return 9;
+    },
+};

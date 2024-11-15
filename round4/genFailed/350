@@ -1,0 +1,54 @@
+function f0() {
+    const o18 = {
+        ...-65535,
+        "c": -65535,
+        ...-65535,
+        set d(a5) {
+            try {
+                new BigUint64Array(83);
+            } catch(e9) {
+            }
+            try {
+                new Uint32Array(2100);
+            } catch(e13) {
+            }
+            try {
+                new Int8Array(193);
+            } catch(e17) {
+            }
+        },
+    };
+    return o18;
+}
+const v19 = f0();
+const v20 = f0();
+const v21 = f0();
+class C22 extends f0 {
+    10000;
+    static {
+        let v24;
+        try { v24 = v20.n(); } catch (e) {}
+        typeof v24 === "symbol";
+    }
+    #h = v19;
+    static #f = v19;
+    static #c;
+}
+new C22();
+const v29 = new C22();
+const v30 = new C22();
+const v31 = [C22,v30];
+const v33 = [[v31,v31,v21,C22]];
+try {
+    v31.toString = f0;
+} catch(e34) {
+}
+delete v29[v33];
+const o38 = {
+    "maxByteLength": 1073741825,
+};
+const v40 = new SharedArrayBuffer(16, o38);
+try {
+    new Uint16Array(v40);
+} catch(e43) {
+}

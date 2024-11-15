@@ -1,0 +1,59 @@
+function f0() {
+}
+try {
+    new Uint16Array(5);
+} catch(e4) {
+}
+try {
+    new BigInt64Array(64);
+} catch(e8) {
+}
+try {
+    new Uint16Array(7);
+} catch(e12) {
+}
+const v13 = /a\Bb/gvs;
+const v14 = /tIa[a-z][^ia*b|c]+/gymd;
+const v15 = /[Pa{0}]/dv;
+function F16(a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a18;
+    } catch(e21) {
+    }
+}
+const v22 = new F16(64, BigInt64Array, 7);
+const v23 = new F16(7, v14, Uint16Array);
+const v24 = new F16(7, Uint16Array, 64);
+function f25(a26, a27, a28) {
+    const o29 = {
+        "b": a26,
+        "d": v14,
+        "e": a26,
+        ...v15,
+        "c": v22,
+        "f": 7,
+        "a": v13,
+        __proto__: v13,
+        ...v24,
+        [a26]: f0,
+        "h": v15,
+        "g": v23,
+        [BigInt64Array]: a28,
+        2147483648: a28,
+        ...v14,
+    };
+    return o29;
+}
+const v30 = f25(5, BigInt64Array, 5);
+const v32 = f25(7, f25(64, Uint16Array, Uint16Array), v24);
+try {
+    new F16(11, 11, v30);
+} catch(e35) {
+}
+Uint16Array instanceof Uint16Array;
+v24[v32];
+try {
+    v14.__proto__ = v14;
+} catch(e38) {
+}

@@ -1,0 +1,47 @@
+try {
+    new Int32Array(255);
+} catch(e3) {
+}
+try {
+    new Float64Array(256);
+} catch(e7) {
+}
+try {
+    new Uint16Array(122);
+} catch(e11) {
+}
+let v12 = [256,-1494770369,3,-43371,-43160,-4294967296,-2147483648];
+const v13 = [12,-32735,-65536,8,-65535,-2];
+const v14 = [-9223372036854775808,6659,9007199254740990,-6,8];
+function f18(a19, a20, a21, a22) {
+    const o28 = {
+        [a20]: "object",
+        "e": a22,
+        [a22]: "object",
+        set h(a24) {
+            try {
+                ("valueOf").startsWith("valueOf");
+            } catch(e26) {
+            }
+            try {
+                v12 = v14;
+            } catch(e27) {
+            }
+        },
+        __proto__: a20,
+    };
+    return o28;
+}
+f18(v13, f18(v12, Uint16Array, 122, f18(v12, 255, 122, v12)), 255, 122);
+try {
+    new BigInt64Array(66);
+} catch(e38) {
+}
+try {
+    new BigUint64Array(15);
+} catch(e42) {
+}
+try {
+    new Int16Array(205);
+} catch(e46) {
+}

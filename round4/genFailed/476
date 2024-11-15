@@ -1,0 +1,44 @@
+const v1 = new Map();
+[-1073741824,1972544241,-49125,5,9007199254740991];
+const v3 = [-1707132022,1073741825,4294967295];
+const v4 = [268435456,-536870912,2,-4096];
+try {
+    new BigUint64Array(1000);
+} catch(e8) {
+}
+try {
+    new Uint8Array(10);
+} catch(e12) {
+}
+try {
+    new Int8Array(3690);
+} catch(e16) {
+}
+class C17 extends BigUint64Array {
+    #h = 3690;
+    #p(a19, a20, a21) {
+        try {
+            a20.__proto__ = v3;
+        } catch(e22) {
+        }
+        try {
+            a20.#h;
+        } catch(e24) {
+        }
+        return this;
+    }
+    g = v1;
+}
+new C17();
+new C17();
+new C17();
+try {
+    10 > 10 ? 10 : 10;
+} catch(e30) {
+}
+for (let [,v31] of v4) {
+    try {
+        3690 >>> Int8Array;
+    } catch(e33) {
+    }
+}

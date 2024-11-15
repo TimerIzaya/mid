@@ -1,0 +1,57 @@
+function f0() {
+}
+function f1() {
+    const o5 = {
+        ...f0,
+        ...f0,
+        m() {
+            try {
+                f0();
+            } catch(e4) {
+            }
+            return this;
+        },
+        [f0]: f0,
+        __proto__: f0,
+        "e": f0,
+    };
+    return o5;
+}
+let v6 = f1();
+const v7 = f1();
+f1();
+function f9() {
+    return v7;
+}
+class C10 {
+    b = f9;
+    static #m(a12, a13, a14) {
+        const v15 = v7?.__proto__;
+        f0();
+        try {
+            v7[1074352939] &&= v15;
+        } catch(e17) {
+        }
+        return a13;
+    }
+    6;
+    [v7] = f0;
+}
+const v18 = new C10();
+const v19 = new C10();
+const v20 = new C10();
+function F21(a23, a24, a25, a26) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a26;
+    } catch(e27) {
+    }
+}
+new F21(C10, v19, v19, v18);
+new F21(v19, v19, v20, C10);
+new F21(v19, v20, v18, v19);
+try {
+    v6 &&= v6;
+} catch(e31) {
+}
+f1();

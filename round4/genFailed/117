@@ -1,0 +1,72 @@
+try {
+    new Int8Array(4037);
+} catch(e3) {
+}
+try {
+    new Float64Array(1024);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(1024);
+} catch(e11) {
+}
+function f12() {
+    return 1024;
+}
+function f13() {
+    return 1024;
+}
+class C14 extends Int8Array {
+    [1024] = Float64Array;
+    #n(a16, a17, a18) {
+        const v19 = `
+            f12();
+            const o21 = {
+                "apply": f13,
+                "defineProperty": f13,
+                "deleteProperty": f12,
+                "get": f12,
+                "getPrototypeOf": f12,
+                "has": f12,
+                "preventExtensions": f13,
+                "setPrototypeOf": f12,
+            };
+            try {
+                new Proxy(this, o21);
+            } catch(e24) {
+            }
+        `;
+        eval(v19);
+        return Uint8ClampedArray;
+    }
+}
+const v27 = new C14();
+new C14();
+new C14();
+class C30 {
+    constructor(a32, a33) {
+        864342.8603821641 / 864342.8603821641;
+        -1024 >> 864342.8603821641;
+    }
+    3847986436;
+    g;
+    static #g = Uint8ClampedArray;
+    #a;
+    3455587316;
+}
+new C30(v27, 4037);
+new C30(v27, 4037);
+new C30(v27, 1024);
+try {
+    f13 ^ Int8Array;
+} catch(e44) {
+}
+try {
+    f13();
+} catch(e46) {
+}
+f12();
+try {
+    f13 / Uint8ClampedArray;
+} catch(e49) {
+}

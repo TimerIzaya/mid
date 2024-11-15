@@ -1,0 +1,51 @@
+const v1 = new WeakMap();
+function f2(a3) {
+    const o10 = {
+        6: a3,
+        __proto__: a3,
+        [a3](a5, a6) {
+            return v1;
+        },
+        10: a3,
+        [a3]: a3,
+        ...v1,
+        1650: WeakMap,
+        ...a3,
+        "g": a3,
+    };
+    return o10;
+}
+f2(f2);
+const v12 = f2(f2);
+const v13 = f2(v1);
+const v17 = /b/iymvs;
+const v18 = /Mi\xe2\x81\xa3/is;
+const v19 = /5\x01(?<!a)?/gus;
+function F20(a22, a23) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = a22;
+    } catch(e24) {
+    }
+    try {
+        this.a = v12;
+    } catch(e25) {
+    }
+}
+new F20(-48412, v19);
+new F20(1024, v17);
+new F20(-48412, v18);
+try {
+    v12[2147483648] = -48412;
+} catch(e29) {
+}
+function F30(a32, a33, a34) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a32;
+    } catch(e35) {
+    }
+}
+new F30(-48412, v13, 9007199254740992);
+new F30(1024, v1, 9007199254740992);
+new F30(9007199254740992, v1, 1024);

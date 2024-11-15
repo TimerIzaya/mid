@@ -1,0 +1,47 @@
+class C3 {
+    constructor(a5, a6) {
+        try {
+            Math.tan(a5);
+        } catch(e11) {
+        }
+        try {
+            Math.log1p(this);
+        } catch(e13) {
+        }
+        try {
+            Math.cos(a6);
+        } catch(e15) {
+        }
+    }
+}
+const v16 = new C3(491.5792112022723, "string");
+const v17 = new C3("string", C3);
+const v18 = new C3(v16, 491.5792112022723);
+try {
+    new Uint32Array(2576);
+} catch(e22) {
+}
+try {
+    new Float64Array(4050);
+} catch(e26) {
+}
+try {
+    new Uint8Array(16);
+} catch(e30) {
+}
+v17[Symbol?.unscopables];
+let v34 = v18?.[5];
+Object.defineProperty("string", 512, { writable: true, configurable: true, value: NaN });
+let v37 = 10;
+v37 << -2.0;
+const v40 = ++v34;
+try {
+    Math.hypot(v40);
+} catch(e42) {
+}
+--v37;
+v37--;
+try {
+    Math.cbrt(-2.0);
+} catch(e46) {
+}

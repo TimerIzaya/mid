@@ -1,0 +1,36 @@
+new Set();
+function F5(a7) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = a7;
+    } catch(e8) {
+    }
+    try {
+        this.c = a7;
+    } catch(e9) {
+    }
+}
+new F5(8n);
+const v11 = new F5(8n);
+new F5(1529064811n);
+try {
+    v11.valueOf = 1529064811n;
+} catch(e16) {
+}
+function f17(a18, a19, a20) {
+    let v22 = 10;
+    const v23 = a18 + a18;
+    +v22;
+    const v25 = +v23;
+    try {
+        Math.pow(v23, v25);
+    } catch(e27) {
+    }
+    v22--;
+    try {
+        Math.asinh(v23);
+    } catch(e30) {
+    }
+    return a20;
+}
+f17(1529064811n, 6n, 15n);

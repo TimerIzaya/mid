@@ -1,0 +1,41 @@
+[63012,4294967295,2,536870888,-61038];
+const v4 = [-1,1447423092,4,-1104146568,1073741824,3];
+const v5 = [536870887,-8,-511109915,2147483648,64,64,-2147483647];
+try {
+    new BigUint64Array(0);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(2178);
+} catch(e13) {
+}
+try {
+    new Int16Array(0);
+} catch(e17) {
+}
+try {
+    v4[v5] = BigUint64Array;
+} catch(e18) {
+}
+let v19;
+try { v19 = Int16Array(0); } catch (e) {}
+function f20(a21, a22, a23) {
+    function f25(a26) {
+        try {
+            a22 ^ v19;
+        } catch(e28) {
+        }
+    }
+    this.onmessage = f25;
+    try { v19["o"](1770567475n); } catch (e) {}
+    try {
+        a23[a22] /= 0;
+    } catch(e31) {
+    }
+}
+const v34 = [-38694n,f20,-38694n];
+const o35 = {
+    "arguments": v34,
+    "type": "function",
+};
+new Worker(f20, o35);

@@ -1,0 +1,27 @@
+[-11,9223372036854775807,-65536,-1395392616,-4,455412565,-65535];
+const v1 = [-4,499314949,-5,9223372036854775807,268435456,3,129];
+const v2 = [1073741824,-1494788479,-59960,268435439,9704];
+const v6 = [v1,v1];
+const v7 = [v1,v2,-296.07408995905257,-296.07408995905257];
+const v8 = [v2,1e-15,v7];
+try {
+    new Uint32Array(7);
+} catch(e12) {
+}
+try {
+    new BigInt64Array(127);
+} catch(e16) {
+}
+try {
+    new Uint32Array(8);
+} catch(e20) {
+}
+const v23 = [v7?.__proto__,8];
+v23 in Reflect.apply(v8?.indexOf, v1, v23);
+new Uint32Array(v6);
+const o28 = {
+};
+try {
+    new Proxy(Reflect, o28);
+} catch(e31) {
+}

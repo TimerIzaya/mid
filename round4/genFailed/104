@@ -1,0 +1,53 @@
+class C3 {
+    constructor(a5, a6) {
+        delete a5[2992];
+        a5?.length;
+        for (let [v9,v10,v11] of a5) {
+        }
+    }
+    static p(a16, a17) {
+        for (let v18 = 0; v18 < 32; v18++) {
+            const t9 = "m";
+            t9["p" + v18] = v18;
+        }
+        return "k";
+    }
+}
+const v21 = new C3("OFy", "m");
+const v22 = new C3("m", "OFy");
+const v23 = new C3(v22, v22);
+const v24 = ["k",v21];
+[v24,C3,"m",v23];
+["OFy",v24];
+function f27(a28, a29, a30) {
+    const o37 = {
+        set b(a32) {
+            %VerifyType(v23);
+            const v33 = [a32,a29,...a30];
+            for (let v34 = 0; v34 < 32; v34++) {
+                v33["p" + v34] = v34;
+            }
+        },
+        "e": v24,
+        ...a30,
+        "b": v24,
+        129: C3,
+        __proto__: a28,
+    };
+    return o37;
+}
+const v40 = f27("k", f27(f27("OFy", v23, v22), v21, "k"), v22);
+try {
+    v40 && v40;
+} catch(e42) {
+}
+v22[0] = v24;
+try {
+    Math.atan("m");
+} catch(e51) {
+}
+try {
+    Math.floor("m");
+} catch(e53) {
+}
+-4096 + 860.957959048942;

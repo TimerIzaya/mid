@@ -1,0 +1,86 @@
+function f0() {
+    const o19 = {
+        ...-65537,
+        "c": -65537,
+        "f": 1.0,
+        "a": 1.0,
+        toString(a5, a6) {
+            try {
+                this.valueOf = a6;
+            } catch(e8) {
+            }
+            a6?.b;
+            function F10(a12, a13, a14) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.b = a5;
+                } catch(e15) {
+                }
+            }
+            const v16 = new F10(F10, -65537, arguments);
+            const v17 = new F10(v16, -4.0, v16);
+            new F10(this, v17, v16);
+            return v17;
+        },
+    };
+    return o19;
+}
+const v20 = f0();
+const v21 = f0();
+const v22 = f0();
+class C23 extends f0 {
+    static f;
+    [v20];
+    static #valueOf(a25, a26) {
+        try {
+            super.f = a25;
+        } catch(e27) {
+        }
+        v21 < f0;
+        try {
+            this % v22;
+        } catch(e30) {
+        }
+        return a25;
+    }
+}
+const v31 = new C23();
+const v32 = new C23();
+const v33 = new C23();
+function f35(a36, a37) {
+    const o43 = {
+        n(a39, a40) {
+            for (let [v41] of a40) {
+                Object.defineProperty(v22, f0, { configurable: true, enumerable: true, get: f0 });
+                function f42() {
+                    return a36;
+                }
+            }
+            return C23;
+        },
+        ...C23,
+        __proto__: v21,
+        [true]: a36,
+        "g": true,
+        "a": true,
+    };
+    return o43;
+}
+const v44 = f35(v22, C23);
+const v45 = f35(v31, v31);
+const v46 = f35(v31, v20);
+let v47 = 536870889;
+%VerifyType(v46);
+try {
+    v47 = -13;
+} catch(e50) {
+}
+function f51(a52, a53, a54, a55) {
+    const o56 = {
+        "g": 6,
+    };
+    return o56;
+}
+const v57 = f51(v44, v33, v45, v32);
+f51(v45, v21, v22, v21);
+f51(v57, v21, v20, v33);

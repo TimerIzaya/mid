@@ -1,0 +1,24 @@
+try {
+    new Uint32Array(3);
+} catch(e9) {
+}
+try {
+    new Uint16Array(257);
+} catch(e13) {
+}
+try {
+    new Uint8Array(512);
+} catch(e17) {
+}
+for (const v18 in 257) {
+    try {
+        Uint16Array[9] = v18;
+    } catch(e19) {
+    }
+}
+let v20;
+try {
+const t0 = -12;
+v20 = t0(-9.13615627874325, 1.0044698856904391e+307, -12);
+} catch (e) {}
+v20[Symbol?.hasInstance];

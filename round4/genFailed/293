@@ -1,0 +1,39 @@
+try {
+    new Float32Array(256);
+} catch(e3) {
+}
+try {
+    new Int16Array(11);
+} catch(e7) {
+}
+let v9 = Float32Array;
+try {
+    new v9(2864);
+} catch(e11) {
+}
+class C12 extends v9 {
+    3664;
+    #e;
+    p(a14, a15) {
+        try {
+            v9 = Float32Array;
+        } catch(e16) {
+        }
+        return a15;
+    }
+    #c = Float32Array;
+    static #f = 2864;
+}
+const v17 = new C12();
+let v18 = new C12();
+const v19 = new C12();
+let v23;
+try { v23 = v9(-9007199254740992, -22181); } catch (e) {}
+v19["forEach"](v23, Float32Array, v23, ..."forEach", ..."forEach");
+for (let i28 = 0, i29 = 10; i28 < i29; i28++, i29--) {
+    [i28,i29,v18] = v17;
+    try {
+        i28.__proto__ = i29;
+    } catch(e37) {
+    }
+}

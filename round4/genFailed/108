@@ -1,0 +1,48 @@
+try {
+    new Int8Array(255);
+} catch(e6) {
+}
+try {
+    new BigInt64Array(2078);
+} catch(e10) {
+}
+try {
+    new BigInt64Array(29);
+} catch(e14) {
+}
+function f15(a16, a17) {
+    const o28 = {
+        __proto__: 1073741824n,
+        valueOf(a19, a20, a21, a22) {
+            try {
+                a20 / a16;
+            } catch(e24) {
+            }
+            return 0n;
+        },
+        "f": 29,
+        ...2078,
+        "d": BigInt64Array,
+        "g": a17,
+    };
+    return o28;
+}
+f15(1073741824n, 255);
+f15(-1073741824n, 2078);
+const v31 = f15(536870912n, 29);
+/9Dfoo|(bar|baz)|quux\P{scx=Greek}/gmv;
+const v33 = /(?:a{5,1000000}){3,1000000}+/igyv;
+const v34 = /(?:foo)/iguym;
+try {
+    f15 ** v34;
+} catch(e36) {
+}
+try {
+    v33.valueOf = f15;
+} catch(e37) {
+}
+const v38 = new BigInt64Array(v31, 29, 255);
+try {
+    29 >> v38;
+} catch(e40) {
+}

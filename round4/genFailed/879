@@ -1,0 +1,48 @@
+try {
+    new Int16Array(257);
+} catch(e3) {
+}
+try {
+    new BigUint64Array(2205);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1086);
+} catch(e11) {
+}
+const v12 = [1.7976931348623157e+308,1e-15,27250.045052256784,2.2250738585072014e-308,-1e-15,-5.0,-7.568368770190315,2.7537479974849877];
+[1000000.0,0.001272017245844026,-255.54483978781332,-1e-15,2.2250738585072014e-308];
+const v14 = [0.8825010462206412,0.36652718224741565,337.4870829573001,-0.0,1000000.0,1000000000.0,1000.0,0.6918345715094403,-60407.507518201135,-1000000000000.0];
+class C16 extends BigInt64Array {
+    static {
+        try {
+            super.d = BigInt64Array;
+        } catch(e18) {
+        }
+        super.toReversed();
+        const v23 = v14 || 1000000000.0;
+        try {
+            Math.log2(v14);
+        } catch(e25) {
+        }
+        try {
+            Math.log(this);
+        } catch(e27) {
+        }
+        const v28 = v23 + 1000000000.0;
+        try {
+            Math.cbrt(this);
+        } catch(e30) {
+        }
+        v28 << v23;
+    }
+}
+const v32 = new C16();
+const v33 = new C16();
+new C16();
+if (false) {
+    try { v33.sort(C16); } catch (e) {}
+    let [,v36,,v37] = v12;
+} else {
+    try { v32.findLastIndex(1086, C16); } catch (e) {}
+}

@@ -1,0 +1,56 @@
+try {
+    new BigInt64Array(10);
+} catch(e6) {
+}
+try {
+    new Uint8ClampedArray(1452);
+} catch(e10) {
+}
+try {
+    new Uint16Array(9);
+} catch(e14) {
+}
+function F15(a17, a18, a19, a20) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = a19;
+    } catch(e21) {
+    }
+    try {
+        this.a = "pgrc";
+    } catch(e22) {
+    }
+}
+const v23 = new F15(1452, Uint16Array, 9, "search");
+new F15(10, Uint8ClampedArray, v23, "n");
+new F15(9, 10, 10, "n");
+Object.defineProperty("search", 1452, { enumerable: true, value: "n" });
+const o26 = {
+};
+try {
+    o26.c = F15;
+} catch(e27) {
+}
+try {
+    const o28 = {
+    };
+    o28.c = F15;
+    o28.f = "pgrc";
+} catch(e29) {
+}
+try {
+    const o30 = {
+    };
+    o30.c = F15;
+    o30.f = "pgrc";
+    o30.b = "pgrc";
+} catch(e31) {
+}
+try {
+    const o32 = {
+    };
+    o32.c = F15;
+    o32.f = "pgrc";
+    o32.g = Uint16Array;
+} catch(e33) {
+}

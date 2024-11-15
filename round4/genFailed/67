@@ -1,0 +1,29 @@
+new Set();
+const v5 = [NaN,-2.2250738585072014e-308,6.024128360737375];
+const v6 = [1000000.0,198.2714748172889];
+const v7 = [65.25237572568471,-968395.7580288283,-8.820918757218452,1.0,-7.985073676182988];
+try {
+    new Float64Array(9);
+} catch(e14) {
+}
+try {
+    new Int32Array(1024);
+} catch(e18) {
+}
+try {
+    new Int16Array(3656);
+} catch(e22) {
+}
+v6["reduceRight"](...v5, "reduceRight", Float64Array, ...v7, 1000000.0);
+function* f25(a26, a27) {
+    ("reduceRight")?.length;
+    const o29 = {
+    };
+    try {
+        new Proxy(v7, o29);
+    } catch(e32) {
+    }
+    yield* v5;
+    return o29;
+}
+f25(1867205364, "reduceRight");

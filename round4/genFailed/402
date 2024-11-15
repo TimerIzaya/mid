@@ -1,0 +1,50 @@
+function f6() {
+    return 1000000.0;
+}
+class C7 {
+    p(a9, a10, a11) {
+        const v13 = [this];
+        super[Reflect.apply(("LW6t")?.concat, this, v13)];
+        for (let v17 = 0; v17 < 32; v17++) {
+            v13["p" + v17] = v17;
+        }
+        return a10;
+    }
+}
+const v20 = new C7();
+new C7();
+new C7();
+class C23 extends C7 {
+    536870887;
+    b;
+    static valueOf(a25, a26) {
+        try {
+            super.d = v20;
+        } catch(e27) {
+        }
+        return -361.9470437515686;
+    }
+    static [1000000.0] = f6;
+    static a;
+    #h = "multiline";
+    [f6];
+}
+new C23();
+const v29 = new C23();
+new C23();
+v29 in C7;
+f6();
+try { ("multiline").localeCompare("multiline", "multiline", "2"); } catch (e) {}
+Object.defineProperty("multiline", 128, { configurable: true, enumerable: true, get: f6, set: f6 });
+try {
+    new Uint8ClampedArray(200);
+} catch(e40) {
+}
+try {
+    new BigInt64Array(10);
+} catch(e44) {
+}
+try {
+    new Uint8Array(7);
+} catch(e48) {
+}

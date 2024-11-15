@@ -1,0 +1,26 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = 9007199254740990;
+    } catch(e3) {
+    }
+}
+const v4 = new F0();
+const v5 = new F0();
+new F0();
+const v7 = [-256,-59824,-9695,-39232,9223372036854775807,12,255];
+const v8 = [43424,-706319477,1168868995,-2147483648,1839649431,58453,2];
+[-12,-1772214588,8,536870889,257,-9007199254740991];
+new WeakSet();
+[v5,v4,WeakSet];
+[F0,v5];
+const v14 = [v8];
+new WeakSet(v7);
+const o22 = {
+    "a": WeakSet,
+    "e": v14,
+};
+try {
+    o22[v4] >>= 0.5816148311696403;
+} catch(e23) {
+}

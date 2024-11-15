@@ -1,0 +1,77 @@
+try {
+    new Float64Array(256);
+} catch(e3) {
+}
+try {
+    new Uint8Array(5);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(4096);
+} catch(e11) {
+}
+function F12(a14, a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = Uint8Array;
+    } catch(e18) {
+    }
+}
+const v19 = new F12(4096, 5, 4096, 5);
+const v20 = new F12(4096, 5, 5, BigInt64Array);
+const v21 = new F12(5, 5, 256, 4096);
+class C22 extends BigInt64Array {
+    set h(a24) {
+        [a24];
+        try { a24(5, v19, this, a24); } catch (e) {}
+    }
+    [F12];
+    [v21];
+    [5] = BigInt64Array;
+    [BigInt64Array];
+    static #o(a28, a29, a30, a31) {
+        try {
+            try {
+                const o32 = {
+                };
+                v20.fuck(o32, 256, this);
+            } catch(e34) {
+            }
+        } catch(e35) {
+            try { e35.isFinite(a30, Float64Array, e35, a30, e35); } catch (e) {}
+        } finally {
+            try {
+                this.valueOf = this;
+            } catch(e37) {
+            }
+        }
+        return v19;
+    }
+}
+new C22();
+new C22();
+new C22();
+try {
+    const v42 = Symbol?.iterator;
+    const o51 = {
+        [v42]() {
+            let v44 = 10;
+            const o50 = {
+                next() {
+                    v44--;
+                    const v48 = v44 == 0;
+                    const o49 = {
+                        "done": v48,
+                        "value": v44,
+                    };
+                    return o49;
+                },
+            };
+            return o50;
+        },
+    };
+} finally {
+    v21[v20];
+    const v54 = Symbol?.toPrimitive;
+    v21[v54] = v54;
+}

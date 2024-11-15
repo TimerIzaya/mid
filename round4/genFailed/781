@@ -1,0 +1,33 @@
+try {
+    new Float32Array(120);
+} catch(e3) {
+}
+try {
+    new Uint8ClampedArray(3850);
+} catch(e7) {
+}
+try {
+    new Int32Array(8);
+} catch(e11) {
+}
+try {
+    new BigUint64Array(16);
+} catch(e15) {
+}
+try {
+    new Int16Array(257);
+} catch(e19) {
+}
+try {
+    new Uint32Array(13);
+} catch(e23) {
+}
+delete this[this];
+class C26 extends Int32Array {
+    #d = Uint32Array;
+    [8] = Uint8ClampedArray;
+}
+new C26();
+new C26();
+new C26();
+C26?.[213];

@@ -1,0 +1,38 @@
+try {
+    new Float64Array(98);
+} catch(e3) {
+}
+let v4 = 1;
+try {
+    new Float64Array(v4);
+} catch(e7) {
+}
+try {
+    new Uint32Array(257);
+} catch(e11) {
+}
+class C12 {
+    c;
+    m(a14, a15, a16) {
+        let v17 = 0;
+        while (v17 < 8) {
+            try { this.reduce(); } catch (e) {}
+            try {
+                v4 /= a15;
+            } catch(e21) {
+            }
+            v17++;
+        }
+        return this;
+    }
+}
+new C12();
+new C12();
+const v25 = new C12();
+[-51521,1024,2147483649,-65535,-45518,-57627];
+[-28735,64,9,268435439,-11965,2147483648,5,65536,-65537];
+[-4294967296,536870887,-8,102257219,49878];
+const v29 = `
+`;
+const t36 = eval(v29);
+t36[Symbol?.asyncIterator] = v25;

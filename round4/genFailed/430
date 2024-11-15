@@ -1,0 +1,37 @@
+function f0() {
+}
+function f4(a5, a6) {
+    const o25 = {
+        o(a8, a9, a10, a11) {
+            const v14 = typeof a10 === "number";
+            function F15(a17, a18, a19, a20) {
+                if (!new.target) { throw 'must be called with new'; }
+                try {
+                    this.d = v14;
+                } catch(e21) {
+                }
+            }
+            new F15(589891.3417978594, a11, a6, a11);
+            new F15(v14, 589891.3417978594, 589891.3417978594, 1000.0);
+            new F15(a5, a5, a6, 0.008660866163540226);
+            return a5;
+        },
+    };
+    return o25;
+}
+f4(1000.0, f4);
+const v27 = f4(589891.3417978594, f4);
+f4(1000.0, f4);
+const v30 = new WeakSet();
+const v31 = [536870912,8628,2,2147483647,1,65535,-4294967295,-9223372036854775807,6,30389];
+[12];
+[4294967296,-9,4,3,-15,129];
+v31.reduce(v30, v27, WeakSet, f4);
+const o37 = {
+    "maxByteLength": 173,
+};
+const v39 = new ArrayBuffer(173, o37);
+try {
+    new Uint8ClampedArray(v39);
+} catch(e42) {
+}

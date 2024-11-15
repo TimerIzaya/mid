@@ -1,0 +1,38 @@
+function f3(a4, a5) {
+    const o12 = {
+        "a": a4,
+        p(a7, a8) {
+            Reflect.construct(a8, [a4,Reflect,a7], a8);
+            return a4;
+        },
+        "b": 536870889n,
+        "f": a5,
+        0: 536870889n,
+        [a4]: -1582489857n,
+    };
+    return o12;
+}
+const v13 = f3(-9007199254740991n, -9007199254740991n);
+f3(-9007199254740991n, -1582489857n);
+const v15 = f3(536870889n, -1582489857n);
+try {
+    new Int16Array(1);
+} catch(e19) {
+}
+try {
+    new BigUint64Array(27);
+} catch(e23) {
+}
+try {
+    new Uint8ClampedArray(7);
+} catch(e27) {
+}
+for (let v28 of 536870889n) {
+    try {
+        v28 = 536870889n;
+    } catch(e29) {
+    }
+}
+f3(-9007199254740991n, -1582489857n);
+try { v15.p(Uint8ClampedArray, 536870889n, BigUint64Array, -1582489857n); } catch (e) {}
+v13[Symbol?.species];

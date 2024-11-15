@@ -1,0 +1,43 @@
+try {
+    new Uint8Array(0);
+} catch(e6) {
+}
+try {
+    new Float32Array(257);
+} catch(e10) {
+}
+try {
+    new Uint8Array(4);
+} catch(e14) {
+}
+class C15 extends Uint8Array {
+    static set f(a17) {
+        let v16 = this;
+        try {
+            v16 = a17;
+        } catch(e18) {
+        }
+        try {
+            v16 = a17;
+        } catch(e19) {
+        }
+    }
+    static 24 = Uint8Array;
+    2;
+    #a = 56617;
+    static d = Uint8Array;
+}
+const v20 = new C15();
+new C15();
+new C15();
+v20?.byteLength;
+%VerifyType(536870888n);
+delete v20[10000];
+function f28(a29) {
+    return a29;
+}
+class C30 extends f28 {
+    static [16] = Uint8Array;
+    [Uint8Array] = 536870888n;
+    static 3;
+}

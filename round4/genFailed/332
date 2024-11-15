@@ -1,0 +1,45 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.c = 1878494479;
+    } catch(e3) {
+    }
+    try {
+        this.f = 1878494479;
+    } catch(e4) {
+    }
+}
+const v5 = new F0();
+new F0();
+const v7 = new F0();
+[-4294967296,1];
+const v9 = [420886670,-1038258350,28185,268435439];
+const v10 = [536870888,1156545701];
+class C11 extends F0 {
+    [v10];
+    get a() {
+        try {
+            super.p();
+        } catch(e14) {
+        }
+        return this;
+    }
+    static [v7];
+    a;
+    static [v9];
+    static 11 = F0;
+    #c = v5;
+}
+new C11();
+new C11();
+new C11();
+const v19 = new WeakMap();
+const v20 = new WeakMap(v19);
+for (const v22 in v20?.[0]) {
+    const v23 = new WeakMap(v19);
+    const v24 = v7?.[4];
+    try {
+        v23[v19] <<= v24;
+    } catch(e25) {
+    }
+}

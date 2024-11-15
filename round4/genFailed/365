@@ -1,0 +1,30 @@
+new Set();
+let v9 = 1.0;
+function F11(a13, a14) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a14;
+    } catch(e15) {
+    }
+    try {
+        this.f = -2147483649;
+    } catch(e16) {
+    }
+    try {
+        this.d = -586;
+    } catch(e17) {
+    }
+}
+new F11(-2147483649, "toString");
+const v19 = new F11(-586, "h");
+const v20 = new F11(-2147483649, "symbol");
+try {
+    v20[732.0348964294042] = v19;
+} catch(e21) {
+}
+v19?.[1];
+Object.defineProperty("symbol", 4294967296, { configurable: true, value: -2147483649 });
+try {
+    --v9;
+} catch(e24) {
+}

@@ -1,0 +1,40 @@
+const v1 = new WeakSet();
+function F2(a4) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.b = a4;
+    } catch(e5) {
+    }
+}
+const v6 = new F2(F2);
+const v7 = new F2(v1);
+new F2(v7);
+const v13 = new WeakMap();
+class C14 {
+    g;
+    #toString(a16, a17) {
+        let v18 = [a17,a16,a16];
+        const v19 = [v13,v18,v6];
+        [v19];
+        try {
+            v18++;
+        } catch(e22) {
+        }
+        delete v6?.b;
+        return v19;
+    }
+    c = v7;
+    static 3;
+    b;
+}
+new C14();
+new C14();
+const v26 = new C14();
+const v27 = [-47487n,v26,WeakMap];
+const v28 = [WeakMap,v27,v27,-47487n,-47487n];
+[v28,v28,WeakSet,v1,v28];
+Reflect.construct(WeakMap, [v1], F2);
+try {
+    C14.d = v28;
+} catch(e33) {
+}

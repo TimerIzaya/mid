@@ -1,0 +1,32 @@
+const v0 = [4096,-3,-256,1000,-7094,256,10,705675810,128];
+const v1 = [-2147483649,127,-1916936737];
+const v2 = [-536870912,8,215810407,-9,257,255];
+[v2,"string","268435441",v2,"268435441"];
+const v8 = [[v0,v2,v1,v1]];
+function f9() {
+    return v8;
+}
+try {
+    new Int8Array(6);
+} catch(e13) {
+}
+try {
+    new BigUint64Array(170);
+} catch(e17) {
+}
+try {
+    new Int16Array(8);
+} catch(e21) {
+}
+("object")?.[8];
+try {
+    ~"268435441";
+} catch(e24) {
+}
+const v26 = new WeakMap();
+Object.defineProperty(v1, v1, { configurable: true, enumerable: true, set: f9 });
+%VerifyType(v26);
+try {
+    ("object").matchAll(/[[\xe2\x81\xa3]]/gus);
+} catch(e29) {
+}

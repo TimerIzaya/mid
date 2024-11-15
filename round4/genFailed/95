@@ -1,0 +1,31 @@
+let v3 = 6n;
+class C6 {
+    static {
+        const v8 = super.d;
+        const v9 = delete v8?.[v8];
+        function F10(a12, a13, a14, a15) {
+            if (!new.target) { throw 'must be called with new'; }
+            try {
+                this.g = v9;
+            } catch(e16) {
+            }
+        }
+        const v17 = new F10(-1087351713, v3, v9, this);
+        new F10(65535, 2n, -1087351713, 65535);
+        new F10(-1087351713, v3, -1087351713, v17);
+    }
+}
+new C6();
+const v21 = new C6();
+const v22 = new C6();
+try { v21(v22, v3, 35462n, 65535); } catch (e) {}
+try { C6.setMilliseconds(v3, 10, 65535); } catch (e) {}
+let v27 = ++v3;
+try {
+    Math.floor(v3);
+} catch(e29) {
+}
+~1434249756;
+~v3;
+v21 >>> v27;
+++v27;

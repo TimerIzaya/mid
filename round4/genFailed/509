@@ -1,0 +1,54 @@
+const v2 = new Array(8);
+function f3() {
+    return v2;
+}
+function f4(a5) {
+    const o6 = {
+        "f": 8,
+        [Array]: Array,
+        "b": Array,
+        "h": Array,
+        "c": a5,
+        "d": a5,
+        [f3]: v2,
+        __proto__: Array,
+        "g": Array,
+        "e": Array,
+        "a": f3,
+        ...a5,
+        1073741824: a5,
+    };
+    return o6;
+}
+f4(v2);
+f4(f3);
+const v9 = f4(Array);
+try {
+    new Float32Array(75);
+} catch(e13) {
+}
+try {
+    new BigUint64Array(1369);
+} catch(e17) {
+}
+try {
+    new Int8Array(2);
+} catch(e21) {
+}
+try {
+    2 || v9;
+} catch(e23) {
+}
+Array(1369);
+v2["map"](f4, "map");
+let v29 = 6.718254180844432e+307;
+const v30 = v9 >> v29;
+try {
+    Math.round(v9);
+} catch(e32) {
+}
+v29 + -128;
+++v29;
+let v35 = ~v30;
++v29;
+v35++;

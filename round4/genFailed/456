@@ -1,0 +1,46 @@
+new WeakMap();
+const v6 = /0o/s;
+const v7 = /a|bc/iuy;
+const v8 = /(?:ab)?/uymd;
+function F9(a11, a12) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = v8;
+    } catch(e13) {
+    }
+    try {
+        this.e = v6;
+    } catch(e14) {
+    }
+    try {
+        this.b = a11;
+    } catch(e15) {
+    }
+}
+new F9(-43565675, v8);
+const v17 = new F9(-43565675, v7);
+const v18 = new F9(128, v8);
+class C19 {
+    set f(a21) {
+        try {
+            45480 % this;
+        } catch(e23) {
+        }
+    }
+    constructor(a25, a26) {
+        Reflect.construct(a26, [a25], a26);
+    }
+    [v18];
+    f = v7;
+    536870912;
+    #d;
+}
+new C19(128, v8);
+new C19(128, v17);
+new C19(45480, v18);
+%VerifyType(65537);
+try {
+    v8[-2] -= -43565675;
+} catch(e36) {
+}
+v8["test"]("test");

@@ -1,0 +1,62 @@
+function f3() {
+    return "function";
+}
+class C4 {
+    static 2393 = f3;
+    set c(a6) {
+        try {
+            super.p(f3, a6, f3, "raw", a6);
+        } catch(e8) {
+        }
+    }
+    static set h(a10) {
+        ("raw")[a10];
+        try {
+            "function" ^ this;
+        } catch(e13) {
+        }
+    }
+    #c;
+}
+new C4();
+const v15 = new C4();
+new C4();
+class C17 {
+    toString(a19, a20, a21) {
+        Object.defineProperty(a19, v15, { configurable: true, get: f3 });
+        return this;
+        try { a21.p(a20, this, this, a20, C4); } catch (e) {}
+        return a20;
+    }
+    static #g;
+    static #o(a24, a25, a26) {
+        if (a25 !== "raw") {
+            f3();
+            %PrepareFunctionForOptimization(f3);
+            f3();
+            f3();
+            %OptimizeFunctionOnNextCall(f3);
+            f3();
+        } else {
+            [1000000.0,-1.7976931348623157e+308,1000000000000.0];
+            [-9.719468790659736,1000.0,-314869.18009800324,NaN,-2.0,-1.252460288368167e+308,-1000.0,5.0];
+            [908.6769616395841,-2.220446049250313e-16,-1000000000.0];
+        }
+        return "raw";
+    }
+}
+const v35 = new C17();
+const v36 = new C17();
+const v37 = new C17();
+let v38 = /\cj\cJ\ci\cI\ck\cK\u0060vqa[a]?/ius;
+/3g[\ca]/ivs;
+const v40 = /(?:a*)*/ydvs;
+try {
+    v38 = v40;
+} catch(e41) {
+}
+const v42 = ("function")?.length;
+v36[v40];
+v37["toString"]();
+v35[2] = v42;
+%VerifyType(f3);

@@ -1,0 +1,70 @@
+try {
+    new BigInt64Array(4096);
+} catch(e3) {
+}
+try {
+    new Float32Array(1024);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(4);
+} catch(e11) {
+}
+class C12 extends BigInt64Array {
+    static toString(a14, a15) {
+        return a15;
+        try {
+            this[-2] = 4;
+        } catch(e16) {
+        }
+        return Float32Array;
+    }
+    [1024] = 4;
+    constructor(a18, a19, a20) {
+        super(4, 4096);
+        try {
+            Object.defineProperty(this, "byteOffset", { configurable: true, enumerable: true, value: a20 });
+        } catch(e21) {
+        }
+        for (let v22 = 0; v22 < 32; v22++) {
+            this["p" + v22] = v22;
+        }
+    }
+}
+const v25 = new C12(1024, C12, 4096);
+const v26 = new C12(4, C12, 1024);
+const v27 = new C12(4, v26, 4);
+function f28(a29, a30, a31, a32) {
+    const o36 = {
+        "c": 4096,
+        [v27]: a30,
+        ...v27,
+        "g": Float32Array,
+        "e": a31,
+        "a": v26,
+        ...C12,
+        "b": a30,
+        set d(a34) {
+            try {
+                this[1024] **= a34;
+            } catch(e35) {
+            }
+        },
+    };
+    return o36;
+}
+f28(1024, 1024, v25, 4096);
+let v38 = f28(4096, 4096, v25, 1024);
+const v39 = f28(4, 4, v25, 4);
+try {
+    v39 >>> BigInt64Array;
+} catch(e41) {
+}
+try {
+    v25 * BigInt64Array;
+} catch(e43) {
+}
+try {
+    v38 = C12;
+} catch(e44) {
+}

@@ -1,0 +1,101 @@
+function f1() {
+    const o6 = {
+        [null]: null,
+        set c(a3) {
+            try {
+                super.h = a3;
+            } catch(e4) {
+            }
+            try {
+                a3[0] = null;
+            } catch(e5) {
+            }
+        },
+        __proto__: null,
+        "h": null,
+        129: null,
+        "e": null,
+    };
+    return o6;
+}
+const v7 = f1();
+let v8 = f1();
+const v9 = f1();
+class C10 {
+    get c() {
+        try {
+            v7 + this;
+        } catch(e13) {
+        }
+        return this;
+    }
+    #d;
+    static [null] = f1;
+    n(a15, a16) {
+        try {
+            const v20 = a16 / a16;
+            try {
+                Math.log2(v20);
+            } catch(e22) {
+            }
+            const v23 = -a16;
+            -v20;
+            try {
+                Math.atan(-48033);
+            } catch(e26) {
+            }
+            -605062.9133010686 % v23;
+            -605062.9133010686 >>> v23;
+        } finally {
+            v9 * -1000000000000.0;
+            try {
+                Math.log10(12);
+            } catch(e35) {
+            }
+            const v36 = -(-1000000000000.0);
+            try {
+                Math.pow(v36, f1);
+            } catch(e38) {
+            }
+            try {
+                Math.log10(v36);
+            } catch(e40) {
+            }
+            try {
+                Math.log(v36);
+            } catch(e42) {
+            }
+        }
+        return this;
+    }
+}
+const v43 = new C10();
+const v44 = new C10();
+const v45 = new C10();
+const v48 = new WeakSet();
+class C49 {
+    constructor(a51, a52, a53, a54) {
+        const o55 = {
+            "isExtensible": f1,
+        };
+        try {
+            new Proxy(v48, o55);
+        } catch(e58) {
+        }
+    }
+    f;
+    #h;
+    #a;
+    [v7];
+    [v9];
+}
+const v59 = new C49(true, C49, C10, C10);
+new C49(v59, v45, v9, v44);
+new C49(C49, v7, v7, C10);
+v48?.d;
+f = v43;
+try {
+    v8 = v48;
+} catch(e63) {
+}
+Object.defineProperty(v48, v7, { get: f1 });

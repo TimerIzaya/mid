@@ -1,0 +1,59 @@
+class C3 {
+    static 9 = "undefined";
+    static #d = "undefined";
+    constructor(a5) {
+        Object.defineProperty("undefined", this, { writable: true, configurable: true, enumerable: true, value: this });
+        const v8 = new Array(0);
+        try {
+            v8.#d <<= v8;
+        } catch(e9) {
+        }
+    }
+    #f;
+    static [-1257391508] = -0.8116899453746722;
+}
+const v10 = new C3(C3);
+const v11 = new C3(C3);
+const v12 = new C3("undefined");
+function F13(a15, a16, a17) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.f = C3;
+    } catch(e18) {
+    }
+}
+const v19 = new F13(v12, v11, v10);
+const v20 = new F13(v11, v19, v10);
+const v21 = new F13(v20, v20, v10);
+class C23 extends C3 {
+    #a = F13;
+    #g = C3;
+    static g = "undefined";
+    static 536870889;
+    o(a25, a26) {
+        function f27(a28, a29, a30) {
+            try { this["UTC"]("UTC", a28, this); } catch (e) {}
+            return a25;
+        }
+        f27(v21, v11, v20);
+        return "undefined";
+    }
+    #e = v11;
+}
+new C23();
+new C23();
+new C23();
+if (true) {
+    var d = -1257391508;
+} else {
+    try {
+        const o40 = {
+        };
+        const o41 = {
+        };
+        const o42 = {
+        };
+        new F13(o40, o41, o42);
+    } catch(e44) {
+    }
+}

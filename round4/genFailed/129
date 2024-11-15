@@ -1,0 +1,25 @@
+class C3 {
+    [59924] = "toString";
+    constructor(a5) {
+        Reflect.construct(a5, [Reflect,a5,Reflect,Reflect], a5);
+    }
+    static #a;
+    #h;
+    static #b;
+    static h;
+}
+const v9 = new C3(C3);
+new C3(v9);
+new C3("toString");
+const v17 = 9n || "undefined";
+const v18 = v17 && v17;
+const v20 = (536870887 - v17) & v17;
+try {
+    Math.asin(v18);
+} catch(e22) {
+}
+try {
+    Math.clz32(v20);
+} catch(e24) {
+}
+v17 || v17;

@@ -1,0 +1,67 @@
+try {
+    new Int16Array(129);
+} catch(e3) {
+}
+try {
+    new Float64Array(3);
+} catch(e7) {
+}
+try {
+    new Uint8ClampedArray(6);
+} catch(e11) {
+}
+const v12 = [129,6,Uint8ClampedArray,Float64Array,Int16Array];
+const v13 = [129];
+const v14 = [Float64Array,6,129,v13];
+class C15 extends Float64Array {
+    static get h() {
+        try {
+            this[4] = this;
+        } catch(e17) {
+        }
+        return Uint8ClampedArray;
+    }
+    [v12] = Float64Array;
+    [3];
+    static #n(a19, a20, a21, a22) {
+        try {
+            arguments[a19] = arguments;
+        } catch(e24) {
+        }
+        try { v12.find(a22, v13); } catch (e) {}
+        return this;
+    }
+}
+new C15();
+new C15();
+const v28 = new C15();
+async function* f32(a33, a34, a35) {
+    try {
+        a33.b = 129;
+    } catch(e36) {
+    }
+    try {
+        Math.clz32(1.2375572449614415e+308);
+    } catch(e42) {
+    }
+    try {
+        Math.trunc(1.2375572449614415e+308);
+    } catch(e44) {
+    }
+    try {
+        Math.trunc(a34);
+    } catch(e46) {
+    }
+    try {
+        Math.ceil(-2000212947);
+    } catch(e48) {
+    }
+    a35 >> 1.2375572449614415e+308;
+    await a35;
+    try {
+        yield* v28;
+    } catch(e51) {
+    }
+    return v14;
+}
+f32(v13, 3, v28);

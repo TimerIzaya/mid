@@ -1,0 +1,39 @@
+new Map();
+try {
+    new BigUint64Array(249);
+} catch(e5) {
+}
+try {
+    new Float64Array(4);
+} catch(e9) {
+}
+try {
+    new BigInt64Array(1000);
+} catch(e13) {
+}
+const v14 = [BigUint64Array,BigUint64Array,1000];
+const v15 = [Map,1000];
+const v17 = new BigInt64Array([4,v14,v15,v14], 4);
+let v18;
+try { v18 = v15(v17); } catch (e) {}
+try {
+    v18.d = Float64Array;
+} catch(e19) {
+}
+try {
+    Math.log10(4.0);
+} catch(e25) {
+}
+try {
+    Math.atanh(-9223372036854775808);
+} catch(e27) {
+}
+const v28 = 6 >> 6;
+try {
+    Math.cosh(-9223372036854775808);
+} catch(e30) {
+}
+try {
+    Math.sin(v28);
+} catch(e32) {
+}

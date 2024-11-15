@@ -1,0 +1,29 @@
+try {
+    new Int8Array(7);
+} catch(e3) {
+}
+try {
+    new Float64Array(1000);
+} catch(e7) {
+}
+try {
+    new Uint16Array(643);
+} catch(e11) {
+}
+function F12(a14, a15, a16) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.e = 643;
+    } catch(e17) {
+    }
+}
+const v18 = new F12(7, Float64Array, 7);
+new F12(1000, Uint16Array, 7);
+new F12(1000, v18, 643);
+let v27 = -2.0;
+const v28 = -335679831 >>> 4294967297n;
+++v27;
+512 ** -335679831;
+const v31 = -335679831 ^ 512;
+const v32 = ~v31;
+try { v31(v32, v28); } catch (e) {}

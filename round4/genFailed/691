@@ -1,0 +1,37 @@
+const v0 = [-920.6618530459125,29.958951555296608,0.8444235525992904,4.0,-1000000000.0,-2.2250738585072014e-308];
+[1.7976931348623157e+308];
+const v2 = [8.518005720591361,4.0,470220.68640525127,-8.688149070256435,NaN,3.0];
+try {
+    new Float32Array(2858);
+} catch(e6) {
+}
+try {
+    new Int32Array(64);
+} catch(e10) {
+}
+try {
+    new Int8Array(3959);
+} catch(e14) {
+}
+try {
+    new Uint8ClampedArray(256);
+} catch(e18) {
+}
+try {
+    new Uint8ClampedArray(1024);
+} catch(e22) {
+}
+try {
+    new Float64Array(129);
+} catch(e26) {
+}
+const v27 = v0 == v2;
+if (v27) {
+    try {
+        Uint8ClampedArray ** 64;
+    } catch(e29) {
+    }
+} else {
+    try { Uint8ClampedArray(129, 256, 256); } catch (e) {}
+}
+v2["map"](129, v27, ...v2, Int32Array, Int32Array);

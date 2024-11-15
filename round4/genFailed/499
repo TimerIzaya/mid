@@ -1,0 +1,41 @@
+let v3 = 1000.0;
+function f6(a7, a8, a9, a10) {
+    const o17 = {
+        toString(a12, a13) {
+            try {
+                super.h = -1.1374510022851894e+308;
+            } catch(e14) {
+            }
+            try {
+                -1.1374510022851894e+308 | a8;
+            } catch(e16) {
+            }
+            return this;
+        },
+        "d": a9,
+        [a7]: v3,
+        __proto__: a8,
+        "h": a7,
+    };
+    return o17;
+}
+const v18 = f6(v3, "toStringTag", "undefined", -1.1374510022851894e+308);
+f6(-2.772278983860903, "boolean", "toStringTag", -2.772278983860903);
+f6(v3, "toStringTag", "undefined", -2.772278983860903);
+[-19022,4096,-4,128,-65537,-2147483649,60232];
+[1073741824,-1];
+[518152150,129,-4294967297,8,-9223372036854775808,257,-12231,1698114938];
+new WeakSet();
+function f26(a27) {
+    return "undefined";
+}
+class C28 extends f26 {
+    [v18];
+    b;
+    static [v3];
+    26 = -1.1374510022851894e+308;
+}
+try {
+    v3 = -2.772278983860903;
+} catch(e29) {
+}

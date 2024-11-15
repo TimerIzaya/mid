@@ -1,0 +1,68 @@
+try {
+    new BigUint64Array(10);
+} catch(e3) {
+}
+try {
+    new Int8Array(2650);
+} catch(e7) {
+}
+try {
+    new BigUint64Array(1000);
+} catch(e11) {
+}
+function f12(a13, a14) {
+    const o19 = {
+        "h": a13,
+        "g": 2650,
+        [a14](a16, a17) {
+            try {
+                a16[4096] >>>= a17;
+            } catch(e18) {
+            }
+            return BigUint64Array;
+        },
+        [BigUint64Array]: BigUint64Array,
+        "c": 1000,
+        __proto__: a13,
+        "e": a13,
+        [1000]: a14,
+    };
+    return o19;
+}
+const v20 = f12(BigUint64Array, 2650);
+const v21 = f12(BigUint64Array, 10);
+f12(v21, 2650);
+class C26 extends BigUint64Array {
+    f;
+    static {
+        try {
+            super.length += 2650;
+        } catch(e28) {
+        }
+        try {
+            this.__proto__ = v20;
+        } catch(e29) {
+        }
+    }
+    h = -1;
+    c;
+    [-4294967296] = 1000;
+}
+new C26();
+const v31 = new C26();
+new C26();
+const v36 = C26?.d;
+try {
+    v31[v21] *= v36;
+} catch(e37) {
+}
+let v41 = v31 + -59685;
++-14;
+v31 % C26;
+try {
+    Math.random();
+} catch(e45) {
+}
+--v41;
+-59685 & -59685;
+C26 ** -59685;

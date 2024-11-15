@@ -1,0 +1,52 @@
+class C3 {
+    #g;
+    static 2;
+    ["toString"] = "toString";
+    static #toString(a5, a6) {
+        try {
+            const t6 = "toString";
+            t6[a5] &= 4294967295;
+        } catch(e7) {
+        }
+        try {
+            a5.#g;
+        } catch(e9) {
+        }
+        return a6;
+    }
+}
+const v10 = new C3();
+new C3();
+new C3();
+["toString"];
+const v14 = [1000.0,4294967295];
+[v14,C3,4294967295];
+class C16 extends C3 {
+    static {
+        try {
+            super.o(this, this);
+        } catch(e19) {
+        }
+        try { ("toString").codePointAt(4294967295); } catch (e) {}
+    }
+    static #p(a22, a23) {
+        a22?.__proto__;
+        const v25 = this?.__proto__;
+        try {
+            v25 || v14;
+        } catch(e27) {
+        }
+        return v10;
+    }
+}
+const v28 = new C16();
+const v29 = new C16();
+new C16();
+for (let v31 = 0; v31 < 25; v31++) {
+    try {
+        v28[5] = v28;
+    } catch(e32) {
+    }
+}
+const v33 = v29[v10];
+Reflect.construct(C16, [], v33);

@@ -1,0 +1,33 @@
+function F0() {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.d = 8;
+    } catch(e3) {
+    }
+}
+new F0();
+new F0();
+new F0();
+try {
+    new Uint8Array(4096);
+} catch(e16) {
+}
+try {
+    new BigUint64Array(12);
+} catch(e20) {
+}
+try {
+    new Uint8ClampedArray(256);
+} catch(e24) {
+}
+for (const v25 of -34882) {
+    class C26 extends Uint8ClampedArray {
+        #b = 4096;
+    }
+    new C26();
+    new C26();
+    new C26();
+}
+try {
+} catch(e30) {
+}

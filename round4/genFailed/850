@@ -1,0 +1,23 @@
+const v4 = new WeakSet();
+try {
+    new Float32Array(6);
+} catch(e8) {
+}
+let v10 = Uint16Array;
+try {
+    new v10(4);
+} catch(e12) {
+}
+try {
+    new Uint8Array(648);
+} catch(e16) {
+}
+const v20 = new WeakSet(v4);
+try {
+    v20.length = 0;
+} catch(e22) {
+}
+try {
+    v10 ^= v10;
+} catch(e23) {
+}

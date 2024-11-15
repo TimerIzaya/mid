@@ -1,0 +1,40 @@
+function f3() {
+    return -7.151505973760872;
+}
+function F4(a6) {
+    if (!new.target) { throw 'must be called with new'; }
+    try {
+        this.h = a6;
+    } catch(e7) {
+    }
+    try {
+        this.d = a6;
+    } catch(e8) {
+    }
+}
+new F4(-7.151505973760872);
+new F4(-7.151505973760872);
+const v11 = new F4(1e-15);
+try {
+    new Int32Array(2546);
+} catch(e15) {
+}
+try {
+    new Float64Array(128);
+} catch(e19) {
+}
+try {
+    new Int16Array(16);
+} catch(e23) {
+}
+try {
+    F4 / v11;
+} catch(e25) {
+}
+for (let [...v26] of 16) {
+    const v27 = v11[v26];
+    try {
+        128 >>> v27;
+    } catch(e29) {
+    }
+}

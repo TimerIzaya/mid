@@ -1,0 +1,47 @@
+const v0 = /a\sc/gmv;
+const v1 = /(\1a)/gumds;
+const v2 = /(?:ab)|cde/igmdvs;
+try {
+    new Uint32Array(3);
+} catch(e6) {
+}
+try {
+    new Int16Array(127);
+} catch(e10) {
+}
+try {
+    new Float32Array(15);
+} catch(e14) {
+}
+function f15(a16, a17, a18, a19) {
+    const o20 = {
+        "c": Int16Array,
+        "h": 127,
+        [a18]: a17,
+        [15]: a18,
+        ...v1,
+        "d": a17,
+        __proto__: v1,
+        [Int16Array]: v1,
+        4: a19,
+        "e": a16,
+        ...v0,
+        [a19]: a17,
+        [a16]: a17,
+        "g": v1,
+        [Float32Array]: v0,
+    };
+    return o20;
+}
+f15(v1, v1, 127, 3);
+f15(v1, v0, 3, 3);
+f15(v0, f15, Uint32Array, 3);
+new WeakMap();
+v0?.[149];
+const o27 = {
+    __proto__: v2,
+    "g": v2,
+    "h": v0,
+    ...v2,
+};
+Reflect.construct(WeakMap, [Reflect], Uint32Array);

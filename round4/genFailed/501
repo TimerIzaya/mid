@@ -1,0 +1,30 @@
+const v3 = [-1073741824n,-1073741824n,-1073741824n,-1073741824n];
+const v4 = [268435439n,7n,-1073741824n];
+const v5 = [v4];
+try {
+    new Uint8Array(129);
+} catch(e9) {
+}
+try {
+    new BigUint64Array(2128);
+} catch(e13) {
+}
+try {
+    new Int32Array(256);
+} catch(e17) {
+}
+const v18 = [v5,v3,v5,256,v5];
+const v19 = [-1073741824n,v5];
+const v20 = [v4,Int32Array,256,v4,v18];
+const v21 = v18[v20];
+const v23 = Symbol?.asyncIterator;
+v4[v23];
+try { v4.includes(-1073741824n, 2128); } catch (e) {}
+if (v23 >= v20) {
+    try { v20.findLast(v21, v19); } catch (e) {}
+} else {
+    try {
+        v19[v4] = v23;
+    } catch(e28) {
+    }
+}

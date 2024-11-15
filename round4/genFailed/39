@@ -1,0 +1,25 @@
+const v0 = [];
+try {
+    new Float32Array(256);
+} catch(e10) {
+}
+try {
+    new Float64Array(128);
+} catch(e14) {
+}
+try {
+    new BigUint64Array(2897);
+} catch(e18) {
+}
+try {
+    v0.length ||= 2897;
+} catch(e19) {
+}
+for (let [v20,...v21] of v0) {
+    try {
+        const o22 = {
+        };
+        new BigUint64Array(o22);
+    } catch(e24) {
+    }
+}

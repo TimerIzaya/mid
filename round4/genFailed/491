@@ -1,0 +1,44 @@
+try {
+    new Uint8Array(340);
+} catch(e3) {
+}
+try {
+    new Uint16Array(512);
+} catch(e7) {
+}
+try {
+    new BigInt64Array(1024);
+} catch(e11) {
+}
+function f12(a13, a14, a15) {
+    const o22 = {
+        [a14](a17, a18) {
+            try { this.resize(340, 1024, a17, a17, a14); } catch (e) {}
+            try {
+                a15--;
+            } catch(e21) {
+            }
+            return 340;
+        },
+        __proto__: Uint8Array,
+        "f": a15,
+        "d": a14,
+        "b": BigInt64Array,
+    };
+    return o22;
+}
+const v23 = f12(512, 340, 512);
+const v24 = f12(512, 512, 340);
+f12(340, 340, 340)?.__proto__;
+class C30 {
+    1 = 512;
+}
+new C30();
+new C30();
+new C30();
+Object.defineProperty(v24, v23, { set: f12 });
+f12(340, -16, 340);
+try {
+    f12(-268641236, -18508, -268641236);
+} catch(e38) {
+}
